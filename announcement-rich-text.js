@@ -61,5 +61,77 @@
     return runs.filter((run) => run.text);
   }
 
-  window.EdmundAnnouncementRich = { render, serialize, defaultStyle };
+  function applyColor(editor, savedRange, color) {
+    if (!/^#[0-9a-f]{6}$/i.test(color) || !savedRange || savedRange.collapsed || !editor.contains(savedRange.commonAncestorContainer)) return false;
+    const range = savedRange.cloneRange();
+    const fragment = range.extractContents();
+    const selection = window.getSelection();
+    const wrapText = (node) => {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent) {
+        const span = document.createElement("span");
+        span.style.color = color;
+        node.replaceWith(span);
+        span.append(node);
+        return;
+      }
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        node.style.color = "";
+        if (node.tagName.toLowerCase() === "font") node.removeAttribute("color");
+        Array.from(node.childNodes).forEach(wrapText);
+      }
+    };
+    Array.from(fragment.childNodes).forEach(wrapText);
+    const marker = document.createElement("span");
+    marker.append(fragment);
+    range.insertNode(marker);
+    range.selectNodeContents(marker);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    return true;
+  }
+
+  function mountCarousel(container, images) {
+    container.replaceChildren();
+    const urls = images.filter((image) => image?.src);
+    if (!urls.length) { container.hidden = true; return () => {}; }
+    container.hidden = false;
+    let index = 0;
+    const image = document.createElement("img");
+    image.className = "site-announcement-image";
+    image.loading = "eager";
+    const count = document.createElement("span");
+    count.className = "site-announcement-image-count";
+    count.setAttribute("aria-live", "polite");
+    const show = (next) => {
+      index = (next + urls.length) % urls.length;
+      image.src = urls[index].src;
+      image.alt = urls[index].alt || `公告圖片 ${index + 1}`;
+      count.textContent = `圖片 ${index + 1} / ${urls.length}`;
+    };
+    if (urls.length > 1) {
+      const arrow = (direction, label) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `site-announcement-carousel-arrow is-${direction}`;
+        button.setAttribute("aria-label", label);
+        const icon = document.createElement("img");
+        icon.src = "/announcement-carousel-arrow.png";
+        icon.alt = "";
+        button.append(icon);
+        button.addEventListener("click", () => { show(index + (direction === "next" ? 1 : -1)); restart(); });
+        return button;
+      };
+      container.append(arrow("previous", "上一張圖片"), image, arrow("next", "下一張圖片"), count);
+    } else container.append(image);
+    show(0);
+    let timer;
+    function restart() {
+      window.clearInterval(timer);
+      if (urls.length > 1) timer = window.setInterval(() => show(index + 1), 2000);
+    }
+    restart();
+    return () => window.clearInterval(timer);
+  }
+
+  window.EdmundAnnouncementRich = { render, serialize, defaultStyle, applyColor, mountCarousel };
 })();

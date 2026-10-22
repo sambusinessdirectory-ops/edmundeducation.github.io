@@ -9,6 +9,7 @@ import polysemyPackIndex2 from "./polysemy-pack-index-2.json" with { type: "json
 import synonymPackIndex from "./synonym-pack-index.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
+  "assets/dse-argument-bank/audio/v1/",
   "assets/natural-english/audio/advanced-native/v1/",
   "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",
   "assets/writing-practice/audio/american-female/dse-part-b-20260911/",
@@ -22,6 +23,8 @@ const AUDIO_PREFIXES = [
 ];
 const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
 const DSE_LISTENING_PREFIX = "DSE Listening - Recordings/";
+const DSE_ARGUMENT_PREFIX = "assets/dse-argument-bank/audio/v1/";
+const dseArgumentIndexCache = new Map();
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
   dseWritingPartBKokoroPackIndex,
@@ -89,6 +92,44 @@ function objectKey(url) {
     return "";
   }
   return key;
+}
+
+async function serveDseArgumentClip(request, env, url) {
+  const match = url.pathname.match(/^\/assets\/dse-argument-bank\/audio\/v1\/([0-9a-f]{2})\/([0-9a-f]{64})\.mp3$/);
+  if (!match) return null;
+  const [, prefix, digest] = match;
+  if (!digest.startsWith(prefix)) return plainResponse("Not Found", 404);
+  let index = dseArgumentIndexCache.get(prefix);
+  if (!index) {
+    const object = await env.EDMUND_ASSETS.get(`${DSE_ARGUMENT_PREFIX}packs/${prefix}.index.json`);
+    if (!object) return plainResponse("Not Found", 404);
+    index = await object.json();
+    if (dseArgumentIndexCache.size > 255) dseArgumentIndexCache.clear();
+    dseArgumentIndexCache.set(prefix, index);
+  }
+  const entry = index[digest];
+  if (!Array.isArray(entry) || entry.length !== 2) return plainResponse("Not Found", 404);
+  const [offset, total] = entry;
+  if (!Number.isSafeInteger(offset) || !Number.isSafeInteger(total) || offset < 0 || total < 1000) return plainResponse("Not Found", 404);
+  const range = request.headers.get("Range")?.match(/^bytes=(\d+)-(\d*)$/);
+  let start = 0, end = total - 1;
+  if (range) {
+    start = Number(range[1]);
+    end = range[2] ? Number(range[2]) : end;
+    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start > end || start >= total) {
+      return plainResponse("Range Not Satisfiable", 416, {"Content-Range": `bytes */${total}`});
+    }
+    end = Math.min(end, total - 1);
+  }
+  const headers = responseHeaders();
+  headers.set("Content-Length", String(end - start + 1));
+  headers.set("Accept-Ranges", "bytes");
+  headers.set("ETag", `"${digest}"`);
+  if (range) headers.set("Content-Range", `bytes ${start}-${end}/${total}`);
+  if (request.method === "HEAD") return new Response(null, {status: 200, headers});
+  const object = await env.EDMUND_ASSETS.get(`${DSE_ARGUMENT_PREFIX}packs/${prefix}.bin`, {range:{offset:offset + start, length:end - start + 1}});
+  if (!object) return plainResponse("Not Found", 404);
+  return new Response(object.body, {status: range ? 206 : 200, headers});
 }
 
 function listeningTrackNumbers(key) {
@@ -355,7 +396,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "polysemy-lab", "synonyms", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-argument-bank", "dse-writing-part-b", "part1", "part3", "exam", "flashcards", "polysemy-lab", "synonyms", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",
@@ -366,6 +407,9 @@ export default {
 
     const packedEntry = polysemyPackEntry(url) || flashcardPackEntry(url);
     if (packedEntry) return serveFlashcardPack(request, env, packedEntry);
+
+    const dseArgumentClip = await serveDseArgumentClip(request, env, url);
+    if (dseArgumentClip) return dseArgumentClip;
 
     const key = objectKey(url);
     if (!key) return plainResponse("Not Found", 404);

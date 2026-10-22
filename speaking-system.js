@@ -291,7 +291,7 @@
     if (["exams", "attempts", "admin"].includes(route.view)) return [];
     const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-question"];
     if (dseViews.includes(route.view)) return ["exam.dse"];
-    const ieltsViews = ["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"];
+    const ieltsViews = ["parts", "books", "exercises", "exercise", "ielts-part3-types", "exam-modes", "exam-practice"];
     const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
     const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
     if (route.view === "exam-practice") {
@@ -935,6 +935,7 @@
     switch (route?.view) {
       case "dse-sections": return "DSE 說話考試";
       case "dse-types": return "按題型練習";
+      case "ielts-part3-types": return "IELTS Part 3 題型";
       case "dse-question": return "指定題目練習";
       case "dse-catalog": return route.part === "individual" ? "個人發言" : "小組討論";
       case "dse-modes": return "DSE 考試練習模式";
@@ -1070,7 +1071,7 @@
     if (route.view === "dse-practice") {
       crumbs.push({ label: DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習", route: null });
     }
-    if (["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"].includes(route.view)) {
+    if (["parts", "books", "exercises", "exercise", "ielts-part3-types", "exam-modes", "exam-practice"].includes(route.view)) {
       crumbs.push({ label: "IELTS", route: { view: "parts", exam: "ielts" } });
     }
     if (["exam-modes", "exam-practice"].includes(route.view)) {
@@ -1079,7 +1080,7 @@
     if (route.view === "exam-practice") {
       crumbs.push({ label: examModeDefinition(route.modeId)?.shortLabel || "考試練習", route: null });
     }
-    if (["books", "exercises", "exercise"].includes(route.view)) {
+    if (["books", "exercises", "exercise", "ielts-part3-types"].includes(route.view)) {
       crumbs.push({ label: `Part ${route.part}`, route: { view: "books", exam: "ielts", part: route.part } });
     }
     if (["exercises", "exercise"].includes(route.view)) {
@@ -1088,6 +1089,7 @@
     if (route.view === "exercise") {
       crumbs.push({ label: `Exercise ${route.exerciseIndex}`, route: null });
     }
+    if (route.view === "ielts-part3-types") crumbs.push({ label: "按題型練習", route: null });
     if (route.view === "attempts") {
       crumbs.push({ label: state.user?.role === "admin" ? "所有錄音" : "我的錄音", route: null });
     }
@@ -1118,6 +1120,9 @@
         break;
       case "dse-types":
         renderDseTypes();
+        break;
+      case "ielts-part3-types":
+        renderIeltsPart3Types();
         break;
       case "dse-question":
         renderDseQuestion();
@@ -2021,6 +2026,7 @@
             </button>
           </div>
         </div>
+        ${hasAccess(["exam.ielts", "ielts.part.3"]) ? '<a class="choice-card dse-type-entry" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types><span class="card-number">IELTS PART 3 · QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>搜尋你的國家、應否、原因、影響、比較等常見問題。</small></a>' : ''}
       </section>
     `;
   }
@@ -2134,10 +2140,22 @@
     dom.content.innerHTML = `<section class="content-panel dse-panel">${sectionHeader("By Question Type · 按題型練習", "搜尋所有年份的小組討論與個人發言。含多個要求的問題會列於相應題型，因此各類數量可能重疊。")}<div data-dse-type-finder>正在載入題型目錄…</div></section>`;
     const root = dom.content.querySelector('[data-dse-type-finder]');
     try {
-      const [module, response] = await Promise.all([import('./question-type-finder.mjs?v=20260911'),fetch('dse-speaking-question-types.json?v=20260911')]);
+      const [module, response] = await Promise.all([import('./question-type-finder.mjs?v=20260911'),fetch('dse-speaking-question-types.json?v=20261021')]);
       if (!response.ok) throw Error('load');
       module.mountQuestionTypeFinder(root, { data:await response.json(), kind:'speaking', onOpen:row=>navigate({view:'dse-question',exam:'dse',paper:`${row.year}-${row.set}`,part:row.section,question:row.number}) });
     } catch { if(root.isConnected) root.innerHTML='<p>題型目錄未能載入。</p><button class="secondary-button" data-open-dse-types>重試</button>'; }
+  }
+
+  async function renderIeltsPart3Types() {
+    dom.content.innerHTML = `<section class="content-panel">${sectionHeader('IELTS Speaking Part 3 · 按題型練習', '搜尋問題，或按題型、你的國家及應否作答篩選。')}<div data-ielts-part3-finder>正在載入題型目錄…</div></section>`;
+    const root = dom.content.querySelector('[data-ielts-part3-finder]');
+    try {
+      const [module, response] = await Promise.all([import('./ielts-speaking-part3-finder.mjs?v=20261021'), fetch('ielts-speaking-part3-question-types.json?v=20261021')]);
+      if (!response.ok) throw new Error('load');
+      module.mountIeltsPart3Finder(root, await response.json(), row => navigate({view:'exercise', exam:'ielts', part:3, book:row.book, exerciseIndex:row.number}));
+    } catch {
+      if (root.isConnected) root.innerHTML = '<p>題型目錄未能載入。</p><button class="secondary-button" data-open-ielts-part3-types>重試</button>';
+    }
   }
 
   function renderDseQuestion() {
@@ -2152,6 +2170,11 @@
   function openRequestedDseQuestion() {
     if (state.requestedDseQuestionOpened || state.user?.role !== 'student') return false;
     const params=new URLSearchParams(location.search), view=params.get('view');
+    if (view === 'ielts-part3-types') {
+      state.requestedDseQuestionOpened = true;
+      navigate({view,exam:'ielts',part:3},{reset:true,skipGuard:true});
+      return true;
+    }
     if (!['dse-types','dse-question'].includes(view)) return false;
     state.requestedDseQuestionOpened=true;
     const route={view,exam:'dse',paper:params.get('paper'),part:params.get('part'),question:Number(params.get('question'))};
@@ -3989,6 +4012,7 @@
     dom.content.innerHTML = `
       <section class="content-panel">
         ${sectionHeader(`IELTS Speaking · Part ${validPart}`, availableBooks.length ? `選擇練習冊。${availableBooks.length} 本練習冊共有 ${availableExercises} 個完整 Band 9 示範。` : "選擇練習冊。")}
+        ${validPart === 3 ? '<a class="choice-card dse-type-entry" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types><span class="card-number">QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>按你的國家、應否、原因、影響等題型搜尋所有 Part 3 問題。</small></a>' : ''}
         <div class="book-grid">
           ${Array.from({ length: visibleBookLimit(validPart) }, (_, index) => {
             const book = index + 1;
@@ -4395,6 +4419,7 @@
     dom.content.innerHTML = `
       <section class="content-panel">
         ${sectionHeader(`Book ${book} of Part ${part}`, description)}
+        ${part === 3 ? '<a class="secondary-button" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types>按題型尋找 Part 3 問題</a>' : ''}
         ${exerciseContent}
       </section>
     `;
@@ -4542,6 +4567,7 @@
     dom.content.innerHTML = `
       <section class="content-panel admin-panel">
         ${sectionHeader("Admin 控制台", "按學生開關 Speaking 範疇、IELTS Part 及每一本練習冊。帳戶及密碼繼續與其他 Edmund 系統共用。", "ADMIN · ACCESS")}
+        <p><a class="secondary-button" href="dse-argument-bank.html?view=recordings">DSE 論點大全 · 學生錄音</a></p>
         <div class="admin-layout">
           <aside class="admin-student-panel">
             <label class="admin-student-search">
@@ -7756,6 +7782,7 @@
       }
 
       if (event.target.closest('[data-open-dse-types]')) { event.preventDefault(); navigate({view:'dse-types',exam:'dse'});return; }
+      if (event.target.closest('[data-open-ielts-part3-types]')) { event.preventDefault(); navigate({view:'ielts-part3-types',exam:'ielts',part:3});return; }
       const dseCatalog = event.target.closest("[data-dse-catalog]");
       if (dseCatalog) {
         navigate({ view: "dse-catalog", exam: "dse", part: dseCatalog.dataset.dseCatalog === "individual" ? "individual" : "group" });

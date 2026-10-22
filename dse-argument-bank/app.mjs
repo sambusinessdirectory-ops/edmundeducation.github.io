@@ -18,7 +18,10 @@ const sessionKey = 'edmund-dse-argument-bank-student-v1';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const arrow = '<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg>';
 const starIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.7 2.86 5.8 6.4.93-4.63 4.52 1.09 6.38L12 17.32l-5.72 3.01 1.09-6.38L2.74 9.43l6.4-.93L12 2.7Z"/></svg>';
-const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest', searchQuery: '', searchIndex: [], searchMatches: [], searchLimit: 40, selectedGlossary: new Set(), selectedSynonyms: new Set() };
+const speakerIcon = '<img src="dse-argument-bank/speaker.svg" width="19" height="19" alt="" aria-hidden="true">';
+const micIcon = '<img src="dse-argument-bank/microphone.svg" width="19" height="19" alt="" aria-hidden="true">';
+const audioBase = 'https://edmund-neural-audio.edmundeducation.workers.dev/';
+const state = { token: '', name: '', role: 'student', modules: [], moduleIndex: 0, data: null, progress: {}, audio: null, recorder: null, recordingStream: null, recordingTimer: null, recordingOffset: 0, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest', searchQuery: '', searchIndex: [], searchMatches: [], searchLimit: 40, selectedGlossary: new Set(), selectedSynonyms: new Set() };
 let toastTimer;
 let modeTransitionTimer;
 
@@ -43,22 +46,28 @@ function toast(message, error = false) {
   toastTimer = setTimeout(() => { node.hidden = true; }, 4300);
 }
 
-function account(name, token, id) {
+function account(name, token, id, role = 'student') {
   state.name = name;
   state.token = token;
-  $('#account-name').textContent = `${name} · 學生`;
+  state.role = role;
+  $('#account-name').textContent = `${name} · ${role === 'admin' ? '管理員' : '學生'}`;
   $('#account-name').hidden = false;
   $('#logout').hidden = false;
   $('#login-view').hidden = true;
   $('#app-view').hidden = false;
-  try { sessionStorage.setItem(sessionKey, JSON.stringify({ name, token, id })); } catch { /* A full browser store cannot block study. */ }
-  try { window.EdmundSystemNav?.rememberStudentSession?.({ token, id, name, role: 'student' }); } catch { /* The current login remains usable if the browser store is full. */ }
+  if (role === 'student') {
+    try { sessionStorage.setItem(sessionKey, JSON.stringify({ name, token, id })); } catch { /* A full browser store cannot block study. */ }
+    try { window.EdmundSystemNav?.rememberStudentSession?.({ token, id, name, role: 'student' }); } catch { /* The current login remains usable if the browser store is full. */ }
+  }
 }
 
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018e`)));
+    const catalogue = await fetch('dse-argument-bank/import-manifest.json?v=20261021-speaking1');
+    if (!catalogue.ok) throw new Error('新增教材目錄暫時未能載入。');
+    const newFiles = (await catalogue.json()).map(item => item.file);
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json', ...newFiles].map(file => fetch(`dse-argument-bank/${file}?v=20261021-speaking1`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
     buildSearchIndex();
@@ -134,6 +143,18 @@ async function login(event) {
 }
 
 async function restore() {
+  if (new URLSearchParams(location.search).get('view') === 'recordings') {
+    try {
+      const saved = JSON.parse(sessionStorage.getItem('edmundSpeakingSessionV1') || 'null');
+      if (saved?.role === 'admin' && saved.token) {
+        await rpc('dse_argument_recording', { p_token: saved.token, p_action: 'list', p_payload: {} });
+        account(saved.name || 'Speaking Admin', saved.token, saved.id, 'admin');
+        await renderRecordings(); return;
+      }
+    } catch { /* The admin can sign in again through Speaking System. */ }
+    $('#login-status').innerHTML = '管理員請先在 <a href="speaking-system.html?admin=1">Speaking System 登入</a>，然後返回此頁。';
+    return;
+  }
   let own;
   try { own = JSON.parse(sessionStorage.getItem(sessionKey) || 'null'); } catch { own = null; }
   let universal;
@@ -178,19 +199,86 @@ function syncItem(id) {
   });
 }
 
-function englishDemo(markdown) {
+function voiceFor(type) { return type === 'response' ? 'bm_fable' : type === 'synonym' ? 'bf_isabella' : 'af_heart'; }
+async function playAudio(text, voice, button) {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${voice}\u0000${text}`));
+  const hash = [...new Uint8Array(digest)].map(byte => byte.toString(16).padStart(2,'0')).join('');
+  const path = `assets/dse-argument-bank/audio/v1/${hash.slice(0,2)}/${hash}.mp3`;
+  if (state.audio) { state.audio.pause(); state.audio.currentTime = 0; }
+  const audio = new Audio(new URL(path, audioBase).href);
+  state.audio = audio;
+  button.classList.add('is-playing');
+  audio.addEventListener('ended', () => button.classList.remove('is-playing'), { once: true });
+  audio.addEventListener('error', () => { button.classList.remove('is-playing'); toast('語音暫時無法播放，請稍後再試。', true); }, { once: true });
+  try { await audio.play(); } catch { button.classList.remove('is-playing'); toast('請再按一次播放語音。', true); }
+}
+async function saveRecording(blob, type, label, moduleId) {
+  if (blob.size > 3145728) throw new Error('錄音超過 3 MB，請錄短一點再試。');
+  const base64 = await new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result).split(',')[1]);
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(blob);
+  });
+  await rpc('dse_argument_recording', { p_token: state.token, p_action: 'save', p_payload: {
+    id: crypto.randomUUID(), moduleId, itemType: type, label: label.slice(0, 300),
+    mime: blob.type.split(';')[0], audio: base64
+  } });
+  toast('錄音已儲存到「我的錄音」。');
+}
+async function toggleRecording(button) {
+  if (state.recorder?.state === 'recording') { state.recorder.stop(); return; }
+  if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) { toast('這個瀏覽器未提供麥克風錄音。', true); return; }
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+    const mime = ['audio/webm;codecs=opus','audio/mp4','audio/ogg;codecs=opus'].find(value => MediaRecorder.isTypeSupported(value));
+    if (!mime) { stream.getTracks().forEach(track => track.stop()); throw new Error('這個瀏覽器未提供支援的錄音格式。'); }
+    const chunks = [];
+    const moduleId = state.data.id;
+    const recordType = button.dataset.recordType;
+    const recordLabel = button.dataset.recordLabel;
+    const recorder = new MediaRecorder(stream, {mimeType:mime});
+    state.recorder = recorder; state.recordingStream = stream;
+    recorder.ondataavailable = event => { if (event.data.size) chunks.push(event.data); };
+    recorder.onstop = async () => {
+      clearTimeout(state.recordingTimer);
+      stream.getTracks().forEach(track => track.stop());
+      button.classList.remove('is-recording');
+      button.setAttribute('aria-label', `錄下自己朗讀：${button.dataset.recordLabel}`);
+      state.recorder = null; state.recordingStream = null;
+      try { await saveRecording(new Blob(chunks,{type:mime.split(';')[0]}), recordType, recordLabel, moduleId); }
+      catch (error) { toast(`錄音未能儲存：${error.message}`, true); }
+    };
+    recorder.start();
+    button.classList.add('is-recording');
+    button.setAttribute('aria-label', '停止錄音並儲存');
+    state.recordingTimer = setTimeout(() => { if (recorder.state === 'recording') recorder.stop(); }, 120000);
+    toast('正在錄音；再按咪高峰按鈕可停止並儲存。');
+  } catch (error) { toast(error.message || '未能使用麥克風。', true); }
+}
+function audioControls(text, type, label = text, recordType = type) {
+  const plain = String(text || '').replace(/\*\*/g, '').trim();
+  if (!plain) return '';
+  const play = `<button type="button" class="mini-audio" data-play-text="${esc(plain)}" data-play-voice="${voiceFor(type)}" aria-label="聆聽：${esc(label)}" title="聆聽 Kokoro 發音">${speakerIcon}</button>`;
+  const record = `<button type="button" class="mini-audio mini-record" data-record-type="${esc(recordType)}" data-record-label="${esc(label)}" aria-label="錄下自己朗讀：${esc(label)}" title="錄音並儲存到我的錄音">${micIcon}</button>`;
+  return `<span class="audio-actions">${play}${record}</span>`;
+}
+
+function englishDemo(markdown, type = 'group', id = '') {
   if (!markdown) return '';
   const marked = String(markdown).split(/(\*\*.*?\*\*)/g).map(part => part.startsWith('**') && part.endsWith('**') ? `<strong>${esc(part.slice(2, -2))}</strong>` : esc(part)).join('');
-  return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span><p lang="en">${marked}</p></div>`;
+  const preview = String(markdown).replace(/\*\*/g, '').trim().slice(0, 100);
+  return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span>${audioControls(markdown, type, `English demonstration · ${id}: ${preview}`, 'demonstration')}<p lang="en">${marked}</p></div>`;
 }
 function glossaryRow(term, id) {
   const selected = state.selectedGlossary.has(id);
-  return `<li class="${selected ? 'is-selected' : ''}"><button type="button" class="glossary-copy" data-glossary-select="${esc(id)}" aria-pressed="${selected}"><strong lang="en">${esc(term.english)}</strong><span>${esc(term.chinese)}</span></button>${tools(id, term.english)}</li>`;
+  const type = id.startsWith('gloss:B') ? 'response' : 'group';
+  return `<li class="${selected ? 'is-selected' : ''}"><button type="button" class="glossary-copy" data-glossary-select="${esc(id)}" aria-pressed="${selected}"><strong lang="en">${esc(term.english)}</strong><span>${esc(term.chinese)}</span></button>${audioControls(term.english, type, term.english, 'glossary')}${tools(id, term.english)}</li>`;
 }
 
 function argumentCard(argument, picker = false, selected = false) {
   const id = `arg:${argument.id}`;
-  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => glossaryRow(g, `gloss:${argument.id}:${i}`)).join('')}</ul>${englishDemo(argument.englishDemo)}</div>`;
+  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => glossaryRow(g, `gloss:${argument.id}:${i}`)).join('')}</ul>${englishDemo(argument.englishDemo, argument.id.startsWith('B') ? 'response' : 'group', argument.id)}</div>`;
   return `<article class="argument dse-argument ${selected ? 'is-picked' : ''}" id="item-${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="false"><small>${esc(argument.id)} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure" aria-hidden="true">+</span></button>${picker ? `<button type="button" class="pick-toggle ${selected ? 'is-picked' : ''}" data-pick="${esc(argument.id)}" aria-pressed="${selected}">${selected ? '✓ 已選' : '＋ 選取'}</button>` : ''}${tools(id, argument.title)}</div>${detail}</article>`;
 }
 function angleSections(section, picker = false) {
@@ -203,7 +291,7 @@ function angleSections(section, picker = false) {
 }
 
 function top() {
-  return `<div class="dse-top"><button class="back-button" type="button" data-home><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> 返回主頁</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>`;
+  return `<div class="dse-top"><button class="back-button" type="button" data-home><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> 返回主頁</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button><button class="outline-button" type="button" data-recordings>我的錄音</button></div>`;
 }
 function hero() {
   return `<div class="dse-hero"><h1>${esc(state.data.heroTitle || moduleDisplayTitle(state.data))}</h1></div>`;
@@ -263,8 +351,9 @@ function renderSearchResults() {
 }
 function renderHome() {
   const years = Array.from({ length: 15 }, (_, index) => state.yearOrder === 'newest' ? 2026 - index : 2012 + index);
-  const modules = state.modules.map((module, index) => ({ module, index })).filter(({ module }) => moduleYear(module) === state.selectedYear);
-  app.innerHTML = `<div class="library-shell"><div class="section-head library-head"><div><h1>DSE 論點大全</h1><label class="library-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><span class="visually-hidden">搜尋所有模組內容</span><input id="global-search" type="search" value="${esc(state.searchQuery)}" placeholder="搜尋所有模組、論點、詞彙、句式…" autocomplete="off"></label></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><section class="search-results" id="search-results" aria-live="polite" hidden></section><div id="year-browser"><div class="year-toolbar"><div><h2>按年份選擇</h2></div><button class="year-order" type="button" data-year-order aria-label="切換年份排序">${state.yearOrder === 'newest' ? '2026 → 2012' : '2012 → 2026'} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3m3 3-3 3M17 17H5l3-3m-3 3 3 3"/></svg></button></div><nav class="year-filter" aria-label="選擇 DSE 年份">${years.map(year => { const count = state.modules.filter(module => moduleYear(module) === year).length; return `<button type="button" data-year="${year}" aria-pressed="${year === state.selectedYear}" class="year-button ${year === state.selectedYear ? 'is-active' : ''}"><strong>${year}</strong>${count ? `<small>${count} 個模組</small>` : '<small>—</small>'}</button>`; }).join('')}</nav><section class="year-results" aria-labelledby="selected-year-title"><div class="year-results__head"><div><span class="eyebrow">SELECTED YEAR</span><h2 id="selected-year-title">${state.selectedYear}</h2></div><span>${modules.length} 個模組</span></div>${modules.length ? `<div class="module-list">${modules.map(({ module, index }) => `<button class="module-card" type="button" data-module="${index}" aria-label="開啟 ${esc(module.title)}"><strong>${esc(moduleDisplayTitle(module))}</strong><span class="module-card__arrow">${arrow}</span></button>`).join('')}</div>` : '<p class="year-empty">此年份暫未加入練習模組。</p>'}</section></div></div>`;
+  if (state.modules.some(module => moduleYear(module) === null)) years.push(0);
+  const modules = state.modules.map((module, index) => ({ module, index })).filter(({ module }) => (moduleYear(module) || 0) === state.selectedYear);
+  app.innerHTML = `<div class="library-shell"><div class="section-head library-head"><div><h1>DSE 論點大全</h1><label class="library-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><span class="visually-hidden">搜尋所有模組內容</span><input id="global-search" type="search" value="${esc(state.searchQuery)}" placeholder="搜尋所有模組、論點、詞彙、句式…" autocomplete="off"></label></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button><button class="outline-button" type="button" data-recordings>我的錄音</button></div><section class="search-results" id="search-results" aria-live="polite" hidden></section><div id="year-browser"><div class="year-toolbar"><div><h2>按年份選擇</h2></div><button class="year-order" type="button" data-year-order aria-label="切換年份排序">${state.yearOrder === 'newest' ? '2026 → 2012' : '2012 → 2026'} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3m3 3-3 3M17 17H5l3-3m-3 3 3 3"/></svg></button></div><nav class="year-filter" aria-label="選擇 DSE 年份">${years.map(year => { const count = state.modules.filter(module => (moduleYear(module) || 0) === year).length; return `<button type="button" data-year="${year}" aria-pressed="${year === state.selectedYear}" class="year-button ${year === state.selectedYear ? 'is-active' : ''}"><strong>${year || '年份未註明'}</strong>${count ? `<small>${count} 個模組</small>` : '<small>—</small>'}</button>`; }).join('')}</nav><section class="year-results" aria-labelledby="selected-year-title"><div class="year-results__head"><div><span class="eyebrow">SELECTED YEAR</span><h2 id="selected-year-title">${state.selectedYear || '年份未註明'}</h2></div><span>${modules.length} 個模組</span></div>${modules.length ? `<div class="module-list">${modules.map(({ module, index }) => `<button class="module-card" type="button" data-module="${index}" aria-label="開啟 ${esc(module.title)}"><strong>${esc(moduleDisplayTitle(module))}</strong><span class="module-card__arrow">${arrow}</span></button>`).join('')}</div>` : '<p class="year-empty">此年份暫未加入練習模組。</p>'}</section></div></div>`;
   renderSearchResults();
 }
 function renderModule() {
@@ -282,14 +371,14 @@ function renderGroup() {
 }
 function responseQuestion(section, index) {
   const open = state.response === section.id;
-  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-response="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><p class="response-reminder">示範答覆只供練習；如涉及個人經歷，請按自己的真實情況修改。</p><div class="angle-grid">${angleSections(section)}</div><section class="sample-section"><span class="eyebrow">PRACTISE · ADAPT TO YOUR EXPERIENCE</span><h3>英文示範回應</h3>${section.samples.map(sample => `<div class="sample-card"><small>${esc(sample.label)}</small><p lang="en">${esc(sample.text)}</p></div>`).join('')}</section></div>` : ''}</section>`;
+  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-response="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><p class="response-reminder">示範答覆只供練習；如涉及個人經歷，請按自己的真實情況修改。</p><div class="angle-grid">${angleSections(section)}</div><section class="sample-section"><span class="eyebrow">PRACTISE · ADAPT TO YOUR EXPERIENCE</span><h3>英文示範回應</h3>${section.samples.map(sample => `<div class="sample-card"><small>${esc(sample.label)}</small><p lang="en">${esc(sample.text.replace(/\*\*/g, ''))}</p>${audioControls(sample.text, 'response', `${section.id} · ${sample.label}`, 'response')}</div>`).join('')}</section></div>` : ''}</section>`;
 }
 function renderResponse() {
   app.innerHTML = `${top()}${modeNav('response')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART B · INDIVIDUAL RESPONSE</span><h1>Individual Response</h1></div></div><div class="prompt-list">${state.data.responses.map(responseQuestion).join('')}</div>`;
 }
 function renderSynonym() {
   const sections = [...new Set(state.data.synonyms.map(item => item.category))];
-  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · ${state.data.synonyms.length} GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">${esc(state.data.synonymWarning)}</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row ${state.selectedSynonyms.has(index) ? 'is-selected' : ''}" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><button class="synonym-row__select" type="button" data-synonym-select="${index}" aria-pressed="${state.selectedSynonyms.has(index)}"><span class="synonym-term"><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></span><span class="synonym-alternatives" lang="en">${entry.alternatives.map(word => `<span>${esc(word)}</span>`).join('')}</span></button>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
+  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · ${state.data.synonyms.length} GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">${esc(state.data.synonymWarning)}</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row ${state.selectedSynonyms.has(index) ? 'is-selected' : ''}" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><button class="synonym-row__select" type="button" data-synonym-select="${index}" aria-pressed="${state.selectedSynonyms.has(index)}"><span class="synonym-term"><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></span><span class="synonym-alternatives" lang="en">${entry.alternatives.map(word => `<span>${esc(word)}</span>`).join('')}</span></button><div class="synonym-audio-list">${audioControls(entry.keyword, 'synonym')}${entry.alternatives.map(word => `<span class="synonym-audio-item"><small>${esc(word)}</small>${audioControls(word, 'synonym')}</span>`).join('')}</div>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
 }
 function structureWindow() {
   if (!state.structureOpen) return '';
@@ -324,7 +413,7 @@ function pickedColumn(index, heading) {
   const section = currentGroup();
   return `<section class="comparison-picker"><h2>${heading}</h2>${section.angles.map(angle => {
     const chosen = section.arguments.filter(item => item.angle === angle && state.pick.selected[index].has(item.id));
-    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry ${state.pick.collapsed[index].has(item.id) ? '' : 'is-open'}"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => glossaryRow(term, `gloss:${item.id}:${i}`)).join('')}</ul>${englishDemo(item.englishDemo)}</div>`}</article>`).join('')}</div>` : '';
+    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry ${state.pick.collapsed[index].has(item.id) ? '' : 'is-open'}"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => glossaryRow(term, `gloss:${item.id}:${i}`)).join('')}</ul>${englishDemo(item.englishDemo, item.id.startsWith('B') ? 'response' : 'group', item.id)}</div>`}</article>`).join('')}</div>` : '';
   }).join('') || '<p>沒有選取論點。</p>'}</section>`;
 }
 function renderCompare() {
@@ -353,7 +442,40 @@ function renderBookmarks() {
   const saved = Object.entries(state.progress).filter(([, value]) => value.bookmarked).map(([id]) => ({ id, ...index.get(id) })).filter(item => item.label);
   app.innerHTML = `${top()}<div class="bookmark-page"><span class="eyebrow">PERSONAL RECORD</span><h1>我的書籤</h1><p>收藏的論點、詞彙、句式與同義詞，按你的學生帳戶保存。</p><div class="bookmark-list">${saved.map(item => `<button type="button" data-bookmark-open="${esc(item.id)}"><small>${esc(item.type)}</small><strong>${esc(item.label)}</strong><span>查看 ${arrow}</span></button>`).join('') || '<div class="empty-state">尚未加入書籤。閱讀時按 ☆ 即可收藏。</div>'}</div></div>`;
 }
+async function renderRecordings() {
+  state.view = 'recordings';
+  state.recordingOffset = 0;
+  app.innerHTML = `<div class="recording-page"><div class="dse-top">${state.role === 'admin' ? '<a class="back-button" href="speaking-system.html?admin=1">← 管理員首頁</a>' : '<button class="back-button" data-home>← 返回主頁</button>'}</div><h1>${state.role === 'admin' ? 'DSE 學生錄音' : '我的錄音'}</h1><p>小組討論、個人發言及同義詞朗讀錄音。</p><div data-recording-list role="status">正在載入錄音…</div><button type="button" class="outline-button" data-more-recordings hidden>載入更多錄音</button></div>`;
+  await loadMoreRecordings();
+}
+async function loadMoreRecordings() {
+  const list = app.querySelector('[data-recording-list]');
+  const more = app.querySelector('[data-more-recordings]');
+  if (!list || !more || more.disabled) return;
+  more.disabled = true;
+  try {
+    const records = await rpc('dse_argument_recording', {p_token:state.token,p_action:'list',p_payload:{offset:state.recordingOffset}});
+    if (!list.isConnected) return;
+    const html = records.map(item => `<article class="saved-recording"><div><strong>${esc(item.label)}</strong><small>${esc(item.studentName)} · ${esc(item.moduleId)} · ${esc(new Date(item.createdAt).toLocaleString('zh-HK'))}</small></div><button type="button" class="mini-audio" data-listen-recording="${esc(item.id)}" aria-label="播放錄音：${esc(item.label)}">${speakerIcon}</button><audio controls hidden></audio></article>`).join('');
+    if (!state.recordingOffset) list.innerHTML = html || '<p>暫時沒有錄音。</p>';
+    else list.insertAdjacentHTML('beforeend', html);
+    state.recordingOffset += records.length;
+    more.hidden = records.length < 100;
+  } catch (error) { if (list.isConnected) list.insertAdjacentHTML('beforeend', `<p role="alert">錄音未能載入：${esc(error.message)}</p>`); }
+  finally { if (more.isConnected) more.disabled = false; }
+}
+async function listenRecording(button) {
+  const row = button.closest('.saved-recording');
+  const player = row.querySelector('audio');
+  if (!player.src) {
+    const data = await rpc('dse_argument_recording',{p_token:state.token,p_action:'get',p_payload:{id:button.dataset.listenRecording}});
+    const bytes = Uint8Array.from(atob(data.audio), character => character.charCodeAt(0));
+    player.src = URL.createObjectURL(new Blob([bytes],{type:data.mime}));
+  }
+  player.hidden = false; await player.play();
+}
 function render() {
+  if (state.view === 'recordings') { renderRecordings(); return; }
   if (!state.data) return;
   switch (state.view) {
     case 'module': renderModule(); break;
@@ -372,6 +494,11 @@ function navigate(view) { clearTimeout(modeTransitionTimer); state.view = view; 
 app.addEventListener('click', event => {
   const button = event.target.closest('button');
   if (!button) return;
+  if (button.hasAttribute('data-play-text')) { playAudio(button.dataset.playText, button.dataset.playVoice, button); return; }
+  if (button.hasAttribute('data-record-type')) { toggleRecording(button); return; }
+  if (button.hasAttribute('data-recordings')) { navigate('recordings'); return; }
+  if (button.hasAttribute('data-listen-recording')) { listenRecording(button).catch(error => toast(`未能播放錄音：${error.message}`, true)); return; }
+  if (button.hasAttribute('data-more-recordings')) { loadMoreRecordings(); return; }
   if (button.hasAttribute('data-retry')) { start(); return; }
   if (button.hasAttribute('data-home')) { state.pick = null; navigate('home'); return; }
   if (button.hasAttribute('data-search-more')) { state.searchLimit += 40; renderSearchResults(); return; }

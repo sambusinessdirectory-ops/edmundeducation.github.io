@@ -211,8 +211,8 @@ const elements = {
   announcementImage: document.querySelector("[data-announcement-image]"),
   announcementImagePreview: document.querySelector("[data-announcement-image-preview]"),
   announcementColor: document.querySelector("[data-announcement-color]"),
-  announcementActive: document.querySelector("[data-announcement-active]"),
-  announcementActiveLabel: document.querySelector("[data-announcement-active-label]"),
+  announcementPreview: document.querySelector("[data-announcement-preview]"),
+  announcementPreviewDialog: document.querySelector("[data-announcement-preview-dialog]"),
   announcementSubmit: document.querySelector("[data-announcement-submit]"),
   announcementCancelEdit: document.querySelector("[data-announcement-cancel-edit]"),
   announcementList: document.querySelector("[data-announcement-list]"),
@@ -3399,6 +3399,7 @@ let announcementPendingImages = [];
 let announcementRemovedImageIds = new Set();
 let announcementPreviewUrls = new Map();
 let announcementSavedRange = null;
+let stopAnnouncementPreviewCarousel = () => {};
 
 function releaseAnnouncementPreviews() {
   for (const url of announcementPreviewUrls.values()) URL.revokeObjectURL(url);
@@ -3469,7 +3470,6 @@ function announcementEditHasUnsavedChanges() {
   const normalized = (values) => values.map((run) => [run.text, Boolean(run.bold), Boolean(run.italic), Boolean(run.underline), run.color, run.size]);
   return runs.map((run) => run.text).join("") !== announcement.message
     || JSON.stringify(normalized(runs)) !== JSON.stringify(normalized(announcement.contentRuns?.length ? announcement.contentRuns : [{ text: announcement.message, ...announcementRich.defaultStyle() }]))
-    || elements.announcementActive.checked !== announcement.isActive
     || announcementRemovedImageIds.size > 0 || announcementPendingImages.length > 0;
 }
 
@@ -3482,25 +3482,24 @@ function resetAnnouncementForm() {
   state.editingAnnouncementVersion = null;
   elements.announcementForm.reset();
   elements.announcementMessage.replaceChildren();
-  elements.announcementActive.checked = true;
-  elements.announcementActiveLabel.textContent = "建立後立即顯示";
-  elements.announcementSubmit.textContent = "建立公告";
+  elements.announcementSubmit.textContent = "儲存草稿";
+  elements.announcementPreview.disabled = false;
   elements.announcementCancelEdit.hidden = true;
   renderAnnouncementImagePreviews();
 }
 
 function beginAnnouncementEdit(id) {
-  if (state.announcementMutationInFlight) return;
+  if (state.announcementMutationInFlight) return false;
   const announcement = state.announcements.find((candidate) => candidate.id === id);
   if (!announcement) {
     setStatus(elements.announcementStatus, "公告已更新，請重新載入後再試。", "error");
-    return;
+    return false;
   }
   if (
     state.editingAnnouncementId
     && announcementEditHasUnsavedChanges()
     && !window.confirm("目前的公告修改尚未儲存。確定要捨棄修改並重新載入所選公告嗎？")
-  ) return;
+  ) return false;
   elements.announcementForm.reset();
   releaseAnnouncementPreviews();
   announcementSavedRange = null;
@@ -3509,14 +3508,14 @@ function beginAnnouncementEdit(id) {
   state.editingAnnouncementId = announcement.id;
   state.editingAnnouncementVersion = announcement.version;
   announcementRich.render(elements.announcementMessage, announcement.contentRuns, announcement.message);
-  elements.announcementActive.checked = announcement.isActive;
-  elements.announcementActiveLabel.textContent = "修改後顯示此公告";
-  elements.announcementSubmit.textContent = "儲存修改";
+  elements.announcementSubmit.textContent = announcement.isActive ? "儲存為草稿並停用" : "儲存草稿";
+  elements.announcementPreview.disabled = announcement.isArchived;
   elements.announcementCancelEdit.hidden = false;
   renderAnnouncementImagePreviews();
   setStatus(elements.announcementStatus, "正在修改公告；可新增或逐張移除圖片。");
   elements.announcementForm.scrollIntoView({ behavior: "smooth", block: "center" });
-  window.setTimeout(() => elements.announcementMessage.focus(), 250);
+  window.setTimeout(() => { if (!elements.announcementPreviewDialog.open) elements.announcementMessage.focus(); }, 250);
+  return true;
 }
 
 function renderAnnouncements() {
@@ -3535,7 +3534,7 @@ function renderAnnouncements() {
     const copy = document.createElement("div");
     const status = document.createElement("span");
     status.className = `announcement-admin-badge${announcement.isArchived ? " is-archived" : announcement.isActive ? " is-active" : ""}`;
-    status.textContent = announcement.isArchived ? "已封存" : announcement.isActive ? "顯示中" : "已停用";
+  status.textContent = announcement.isArchived ? "已封存" : announcement.isActive ? "顯示中" : "草稿";
     const message = document.createElement("p");
     message.textContent = announcement.message;
     const meta = document.createElement("small");
@@ -3547,14 +3546,14 @@ function renderAnnouncements() {
     edit.type = "button";
     edit.className = "student-card-action";
     edit.dataset.announcementEdit = announcement.id;
-    edit.textContent = "修改";
+    edit.textContent = announcement.isActive ? "修改" : "載入草稿";
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "student-card-action";
     toggle.dataset.announcementToggle = announcement.id;
     toggle.dataset.announcementVersion = String(announcement.version);
     toggle.dataset.announcementNextActive = String(!announcement.isActive);
-    toggle.textContent = announcement.isActive ? "停用" : "重新啟用";
+    toggle.textContent = announcement.isActive ? "停用" : "預覽及發佈";
     toggle.hidden = announcement.isArchived;
     const archive = document.createElement("button");
     archive.type = "button";
@@ -3591,8 +3590,8 @@ async function loadAnnouncements() {
   }
 }
 
-async function saveAnnouncement(event) {
-  event.preventDefault();
+async function saveAnnouncement(event, publish = false) {
+  event?.preventDefault();
   if (state.currentUser?.role !== "admin") return;
   const contentRuns = announcementRich.serialize(elements.announcementMessage);
   const message = contentRuns.map((run) => run.text).join("");
@@ -3610,22 +3609,23 @@ async function saveAnnouncement(event) {
     return;
   }
   setAnnouncementMutationInFlight(true);
-  setStatus(elements.announcementStatus, editing ? "正在儲存公告修改…" : "正在建立公告…");
+  setStatus(elements.announcementStatus, publish ? "正在發佈公告…" : "正在儲存草稿及圖片…");
   try {
     let current;
-    const requestedActive = elements.announcementActive.checked && !editing?.isArchived;
+    const requestedActive = publish && !editing?.isArchived;
+    const hasImageChanges = announcementRemovedImageIds.size > 0 || announcementPendingImages.length > 0;
     if (editing) {
       const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(editing.id)}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ expectedVersion: state.editingAnnouncementVersion, message, contentRuns, isActive: requestedActive })
+        body: JSON.stringify({ expectedVersion: state.editingAnnouncementVersion, message, contentRuns, isActive: requestedActive && !hasImageChanges })
       });
       current = saved.announcement;
       state.editingAnnouncementVersion = current.version;
     } else {
       const saved = await announcementApi("/v1/admin/announcements", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, contentRuns, isActive: requestedActive && announcementPendingImages.length === 0 })
+        body: JSON.stringify({ message, contentRuns, isActive: requestedActive && !hasImageChanges })
       });
       current = saved.announcement;
       state.editingAnnouncementId = current.id;
@@ -3651,7 +3651,7 @@ async function saveAnnouncement(event) {
       state.editingAnnouncementVersion = current.version;
       announcementPendingImages.shift();
     }
-    if (!editing && requestedActive && !current.isActive) {
+    if (requestedActive && !current.isActive) {
       const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(current.id)}`, {
         method: "PATCH", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ expectedVersion: current.version, isActive: true })
@@ -3659,14 +3659,58 @@ async function saveAnnouncement(event) {
       current = saved.announcement;
     }
     resetAnnouncementForm();
-    showToast(editing ? "全站公告修改已儲存。" : "全站公告已建立。", "success");
+    showToast(publish ? "全站公告已發佈。" : "草稿及圖片已儲存，可隨時載入繼續編輯。", "success");
     await loadAnnouncements();
+    return true;
   } catch (error) {
     if (state.editingAnnouncementId) await loadAnnouncements();
     setStatus(elements.announcementStatus, error.message || (editing ? "未能儲存公告修改。" : "未能建立公告。"), "error");
+    return false;
   } finally {
     setAnnouncementMutationInFlight(false);
   }
+}
+
+async function previewAnnouncement() {
+  const dialog = elements.announcementPreviewDialog;
+  const editing = announcementBeingEdited();
+  const contentRuns = announcementRich.serialize(elements.announcementMessage);
+  const message = contentRuns.map((run) => run.text).join("");
+  if (!message || message.length > 4000) {
+    setStatus(elements.announcementStatus, !message ? "請先輸入公告內容。" : "公告內容最多 4,000 字。", "error");
+    return;
+  }
+  if (editing?.isArchived) {
+    setStatus(elements.announcementStatus, "請先還原封存公告，再發佈。", "error");
+    return;
+  }
+  announcementRich.render(dialog.querySelector("[data-announcement-preview-message]"), contentRuns, message);
+  const slides = [];
+  for (const [index, image] of (editing?.images || []).filter((entry) => !announcementRemovedImageIds.has(entry.id)).entries()) {
+    let url = announcementPreviewUrls.get(image.id);
+    if (!url) {
+      try {
+        const response = await fetch(`${String(scheduleSettings.workerBaseUrl || "").replace(/\/+$/, "")}/v1/admin/announcements/${encodeURIComponent(editing.id)}/images/${encodeURIComponent(image.id)}`, {
+          headers: { Authorization: `Bearer ${state.currentUser.adminToken}` }, cache: "no-store"
+        });
+        if (!response.ok) throw new Error("image unavailable");
+        url = URL.createObjectURL(await response.blob());
+        announcementPreviewUrls.set(image.id, url);
+      } catch {
+        setStatus(elements.announcementStatus, `未能載入圖片 ${index + 1}，請重試預覽。`, "error");
+        return;
+      }
+    }
+    slides.push({ src: url, alt: `公告圖片 ${slides.length + 1}` });
+  }
+  for (const file of announcementPendingImages) {
+    let url = announcementPreviewUrls.get(file);
+    if (!url) { url = URL.createObjectURL(file); announcementPreviewUrls.set(file, url); }
+    slides.push({ src: url, alt: `公告圖片 ${slides.length + 1}` });
+  }
+  stopAnnouncementPreviewCarousel();
+  stopAnnouncementPreviewCarousel = announcementRich.mountCarousel(dialog.querySelector("[data-announcement-preview-gallery]"), slides);
+  if (!dialog.open) dialog.showModal();
 }
 
 async function toggleAnnouncement(id, version, isActive) {
@@ -8222,7 +8266,17 @@ elements.entryTags?.addEventListener("change", (event) => {
   state.editing.tags = state.editing.tags.filter((tagKey) => tagKey !== input.value);
   if (input.checked) state.editing.tags.push(input.value);
 });
-elements.announcementForm?.addEventListener("submit", saveAnnouncement);
+elements.announcementForm?.addEventListener("submit", (event) => saveAnnouncement(event, false));
+elements.announcementPreview?.addEventListener("click", previewAnnouncement);
+elements.announcementPreviewDialog?.addEventListener("close", () => stopAnnouncementPreviewCarousel());
+elements.announcementPreviewDialog?.querySelector("[data-announcement-preview-close]")?.addEventListener("click", () => elements.announcementPreviewDialog.close());
+elements.announcementPreviewDialog?.querySelector("[data-announcement-publish]")?.addEventListener("click", async () => {
+  const button = elements.announcementPreviewDialog.querySelector("[data-announcement-publish]");
+  button.disabled = true;
+  try {
+    if (await saveAnnouncement(null, true)) elements.announcementPreviewDialog.close();
+  } finally { button.disabled = false; }
+});
 elements.announcementMessage?.addEventListener("paste", (event) => {
   event.preventDefault();
   document.execCommand("insertText", false, event.clipboardData?.getData("text/plain") || "");
@@ -8246,14 +8300,20 @@ elements.announcementForm?.querySelectorAll("[data-announcement-command], [data-
     document.execCommand(command, false, command === "fontSize" ? (button.dataset.announcementSize === "large" ? "5" : "3") : undefined);
   });
 });
-elements.announcementColor?.addEventListener("change", (event) => {
-  if (announcementSavedRange) {
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(announcementSavedRange);
+function applyAnnouncementColor(color) {
+  if (!announcementRich.applyColor(elements.announcementMessage, announcementSavedRange, color)) {
+    setStatus(elements.announcementStatus, "請先選取公告文字，再選擇顏色。", "error");
+    return;
   }
   elements.announcementMessage.focus();
-  document.execCommand("foreColor", false, event.target.value);
+  const selection = window.getSelection();
+  if (selection?.rangeCount) announcementSavedRange = selection.getRangeAt(0).cloneRange();
+  setStatus(elements.announcementStatus, "已套用所選文字顏色。");
+}
+elements.announcementColor?.addEventListener("change", (event) => applyAnnouncementColor(event.target.value));
+elements.announcementForm?.querySelectorAll("[data-announcement-swatch]").forEach((button) => {
+  button.addEventListener("mousedown", (event) => event.preventDefault());
+  button.addEventListener("click", () => applyAnnouncementColor(button.dataset.announcementSwatch));
 });
 elements.announcementImage?.addEventListener("change", (event) => {
   const files = Array.from(event.target.files || []);
@@ -8293,6 +8353,10 @@ elements.announcementList?.addEventListener("click", (event) => {
   }
   const toggle = event.target.closest("[data-announcement-toggle]");
   if (toggle) {
+    if (toggle.dataset.announcementNextActive === "true") {
+      if (beginAnnouncementEdit(toggle.dataset.announcementToggle)) previewAnnouncement();
+      return;
+    }
     toggleAnnouncement(
       toggle.dataset.announcementToggle,
       toggle.dataset.announcementVersion,

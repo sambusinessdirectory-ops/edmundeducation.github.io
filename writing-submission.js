@@ -101,6 +101,28 @@ const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const TOPIC_CATALOG_VERSION = "20261015-writing-images1";
+const TOPIC_PICKER_TRACKS = Object.freeze({
+  dse: Object.freeze([
+    { id: 'dse-writing-a', label: 'Writing Part A', category: 'dse-writing-a' },
+    { id: 'dse-writing-b', label: 'Writing Part B', category: 'dse-writing-b' },
+    { id: 'dse-speaking', label: 'Speaking' },
+    { id: 'dse-integrated', label: 'Integrated Skills' }
+  ]),
+  ielts: Object.freeze([
+    { id: 'ielts-writing', label: 'Writing' },
+    { id: 'ielts-speaking', label: 'Speaking' }
+  ]),
+  'non-exam': Object.freeze([
+    { id: 'manual', label: '我建立的題目', category: 'manual' },
+    { id: 'nonexam-other', label: '其他練習', category: 'nonexam-other' }
+  ])
+});
+const TOPIC_PICKER_LEAVES = Object.freeze({
+  'dse-speaking': Object.freeze([{ id: 'dse-group', label: '小組討論' }, { id: 'dse-individual', label: '個人回應' }]),
+  'dse-integrated': Object.freeze([{ id: 'dse-integrated-b1', label: 'Part B · B1' }, { id: 'dse-integrated-b2', label: 'Part B · B2' }]),
+  'ielts-writing': Object.freeze([{ id: 'ielts-task-1', label: 'Task 1' }, { id: 'ielts-task-2', label: 'Task 2' }]),
+  'ielts-speaking': Object.freeze([{ id: 'ielts-1', label: 'Part 1' }, { id: 'ielts-2', label: 'Part 2' }, { id: 'ielts-3', label: 'Part 3' }])
+});
 const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
@@ -216,7 +238,6 @@ const elements = {
   password: document.querySelector("#writing-submission-password"),
   passwordToggle: document.querySelector("[data-password-toggle]"),
   workspaceWelcome: document.querySelector("[data-workspace-welcome]"),
-  harperStatus: document.querySelector("[data-harper-status]"),
   writingForm: document.querySelector("[data-writing-form]"),
   topicInput: document.querySelector("[data-topic-input]"),
   floatingTopic: document.querySelector("[data-floating-writing-topic]"),
@@ -247,7 +268,11 @@ const elements = {
   topicPickerCount: document.querySelector("[data-topic-picker-count]"),
   topicPickerMore: document.querySelector("[data-topic-picker-more]"),
   topicPickerPrevious: document.querySelector("[data-topic-picker-previous]"),
-  topicPickerCategories: [...document.querySelectorAll("[data-topic-picker-category]")],
+  topicPickerExams: [...document.querySelectorAll("[data-topic-picker-exam]")],
+  topicPickerTracks: document.querySelector("[data-topic-picker-tracks]"),
+  topicPickerTrackOptions: document.querySelector("[data-topic-picker-track-options]"),
+  topicPickerLeaves: document.querySelector("[data-topic-picker-leaves]"),
+  topicPickerLeafOptions: document.querySelector("[data-topic-picker-leaf-options]"),
   removeWritingTopic: document.querySelector("[data-remove-writing-topic]"),
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
@@ -258,6 +283,7 @@ const elements = {
   functionHelperToggle: document.querySelector("[data-function-helper-toggle]"),
   functionHelper: document.querySelector("[data-function-helper]"),
   functionFields: document.querySelector("[data-function-fields]"),
+  phoebeWritingToggle: document.querySelector("[data-phoebe-writing-toggle]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
@@ -459,8 +485,9 @@ const state = {
   topicCatalog: [],
   topicCatalogPromise: null,
   topicPickerTarget: "student",
-  topicPickerCategory: "writing",
-  topicPickerCategoryManual: false,
+  topicPickerExam: "",
+  topicPickerTrack: "",
+  topicPickerCategory: "",
   topicPickerPage: 0,
   topicPickerLoadGeneration: 0,
   topicPickerSearchTimer: 0,
@@ -3222,10 +3249,35 @@ function writingTopicResultHaystack(resource) {
   ].join(" "));
 }
 
+function writingTopicInPickerCategory(resource, category) {
+  const section = resource.sectionKey;
+  const detail = resource.detail || '';
+  if (category === 'manual') return resource.type === 'manual-writing-topic';
+  if (category === 'nonexam-other') return resource.type !== 'manual-writing-topic'
+    && !['dse-writing', 'dse-paper3', 'ielts-writing'].includes(section);
+  if (category === 'dse-writing-a') return section === 'dse-writing' && /\bPart A\b/i.test(detail);
+  if (category === 'dse-writing-b') return section === 'dse-writing' && /\bPart B\b/i.test(detail);
+  if (category === 'dse-integrated-b1') return section === 'dse-paper3' && /\bB1\b/i.test(detail);
+  if (category === 'dse-integrated-b2') return section === 'dse-paper3' && /\bB2\b/i.test(detail);
+  if (category === 'ielts-task-1') return section === 'ielts-writing' && /\bTask 1\b/i.test(detail);
+  if (category === 'ielts-task-2') return section === 'ielts-writing' && /\bTask 2\b/i.test(detail);
+  return false;
+}
+
 function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
   const tokens = writingTopicSearchTokens(query);
   const category = state.topicPickerCategory;
+  if (!category) {
+    if (elements.topicPickerCount) elements.topicPickerCount.textContent = '';
+    if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = true;
+    if (elements.topicPickerMore) elements.topicPickerMore.hidden = true;
+    const message = state.topicPickerTrack ? '請先選擇部分，再查看題目。'
+      : state.topicPickerExam ? '請先選擇練習種類，再查看題目。'
+        : '請先選擇 DSE、IELTS 或 Non-exam。';
+    elements.topicPickerResults.replaceChildren(emptyState(message));
+    return;
+  }
   const pageSize = 20;
   const pageStart = state.topicPickerPage * pageSize;
   const page = [];
@@ -3234,42 +3286,38 @@ function renderWritingTopicResults(query = "") {
     if (total >= pageStart && page.length < pageSize) page.push({ type, resource });
     total += 1;
   };
-  if (category === 'all' || category === 'writing') {
+  const speakingCategory = SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category);
+  if (!speakingCategory) {
     const writing = state.topicPickerTarget === 'admin'
       ? adminProxyTopicCatalog()
       : state.topicCatalog.filter(canAccessWritingTopic);
     for (const resource of writing) {
-      if (!tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token))) {
+      if (writingTopicInPickerCategory(resource, category)
+        && (!tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token)))) {
         addMatch('writing', resource);
       }
     }
   }
-  if (category !== 'writing') {
-    const categories = category === 'all'
-      ? SPEAKING_TOPIC_CATEGORIES.map(item => item.id)
-      : [category];
-    for (const selected of categories) {
-      for (const item of state.speakingTopicCatalogByCategory[selected] || []) {
-        if (!tokens.length || tokens.every(token => item.searchText.includes(token)
-          || (state.speakingTopicContextSearch[item.contextId] || '').includes(token))) {
-          addMatch('speaking', item);
-        }
+  if (speakingCategory) {
+    for (const item of state.speakingTopicCatalogByCategory[category] || []) {
+      if (!tokens.length || tokens.every(token => item.searchText.includes(token)
+        || (state.speakingTopicContextSearch[item.contextId] || '').includes(token))) {
+        addMatch('speaking', item);
       }
     }
   }
   if (elements.topicPickerCount) {
-    const unloadedSpeaking = category === 'all'
-      && SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id]);
-    elements.topicPickerCount.textContent = unloadedSpeaking && !tokens.length
-      ? `${total} 條寫作題目 · 選擇說話類別或輸入關鍵字搜尋全部題目`
-      : total
-        ? `第 ${pageStart + 1}–${Math.min(pageStart + pageSize, total)} / ${total} 條題目`
-        : '0 條題目';
+    elements.topicPickerCount.textContent = total
+      ? `第 ${pageStart + 1}–${Math.min(pageStart + pageSize, total)} / ${total} 條題目`
+      : '0 條題目';
   }
   if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = state.topicPickerPage === 0;
   if (elements.topicPickerMore) elements.topicPickerMore.hidden = pageStart + pageSize >= total;
   if (!total) {
-    elements.topicPickerResults.replaceChildren(emptyState("找不到符合的題目；請試其他關鍵字或類別。"));
+    const message = category === 'manual' && !tokens.length
+      ? '尚未建立自訂題目。建立後會在這裡顯示。'
+      : '找不到符合的題目；請試其他關鍵字或類別。';
+    elements.topicPickerResults.replaceChildren(emptyState(message));
     return;
   }
   const fragment = document.createDocumentFragment();
@@ -3318,8 +3366,9 @@ function renderWritingTopicResults(query = "") {
 
 async function openWritingTopicPicker({ target = "student" } = {}) {
   state.topicPickerTarget = target === "admin" && state.user?.role === "admin" ? "admin" : "student";
-  state.topicPickerCategory = 'writing';
-  state.topicPickerCategoryManual = false;
+  state.topicPickerExam = '';
+  state.topicPickerTrack = '';
+  state.topicPickerCategory = '';
   state.topicPickerPage = 0;
   const generation = ++state.topicPickerLoadGeneration;
   window.clearTimeout(state.topicPickerSearchTimer);
@@ -3338,6 +3387,7 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
   elements.topicPickerResults.replaceChildren(loadingState("正在載入寫作練習題目…"));
   if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
   else elements.topicPicker.setAttribute("open", "");
+  elements.topicPicker.scrollTop = 0;
   try {
     const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingManifest()]);
     if (generation !== state.topicPickerLoadGeneration) return;
@@ -3345,7 +3395,7 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
     for (const result of results) if (result.status === 'rejected') console.warn('Writing topic source failed', result.reason);
     syncWritingTopicPickerCategory();
     renderWritingTopicResults(elements.topicPickerSearch.value);
-    window.setTimeout(() => elements.topicPickerSearch.focus(), 0);
+    window.setTimeout(() => elements.topicPickerExams[0]?.focus(), 0);
   } catch (error) {
     console.warn("Writing topic catalog failed", error);
     elements.topicPickerResults.replaceChildren(emptyState("暫時未能載入寫作練習題目。您仍可自行輸入題目。"));
@@ -3359,42 +3409,56 @@ async function activateWritingTopicPickerCategory(category) {
   window.clearTimeout(state.topicPickerSearchTimer);
   syncWritingTopicPickerCategory();
   elements.topicPickerResults.replaceChildren(loadingState('正在載入這個類別的題目…'));
+  elements.topicPickerResults.scrollTop = 0;
   if (elements.topicPickerCount) elements.topicPickerCount.textContent = '';
   if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = true;
   if (elements.topicPickerMore) elements.topicPickerMore.hidden = true;
   try {
-    if (category === 'writing') {
-      await loadWritingTopicCatalog();
-    } else if (category === 'all') {
-      for (const item of SPEAKING_TOPIC_CATEGORIES) {
-        if (generation !== state.topicPickerLoadGeneration) return;
-        await loadWritingSpeakingTopics(item.id);
-      }
-    } else {
+    if (SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category)) {
       await loadWritingSpeakingTopics(category);
+    } else if (category) {
+      await loadWritingTopicCatalog();
     }
     if (generation !== state.topicPickerLoadGeneration) return;
     syncWritingTopicPickerCategory();
     renderWritingTopicResults(elements.topicPickerSearch.value);
   } catch (error) {
     if (generation !== state.topicPickerLoadGeneration) return;
-    console.warn('Speaking question category failed', error);
-    elements.topicPickerResults.replaceChildren(emptyState('暫時未能載入這個說話題目類別；請稍後再試。'));
+    console.warn('Writing question category failed', error);
+    elements.topicPickerResults.replaceChildren(emptyState('暫時未能載入這個題目類別；請稍後再試。'));
   }
 }
 
 function syncWritingTopicPickerCategory() {
-  for (const button of elements.topicPickerCategories) {
-    const selected = button.dataset.topicPickerCategory === state.topicPickerCategory;
+  for (const button of elements.topicPickerExams) {
+    const selected = button.dataset.topicPickerExam === state.topicPickerExam;
     button.classList.toggle('is-selected', selected);
     button.setAttribute('aria-pressed', String(selected));
-    if (button.dataset.topicPickerCategory?.startsWith('dse-') || button.dataset.topicPickerCategory?.startsWith('ielts-')) {
-      const category = SPEAKING_TOPIC_CATEGORIES.find(item => item.id === button.dataset.topicPickerCategory);
-      const count = state.speakingTopicCounts[category?.id]
-        || state.speakingTopicCatalogByCategory[category?.id]?.length || 0;
-      if (category) button.textContent = count ? `${category.label} · ${count}` : category.label;
-    }
   }
+  const tracks = TOPIC_PICKER_TRACKS[state.topicPickerExam] || [];
+  elements.topicPickerTracks.hidden = !tracks.length;
+  elements.topicPickerTrackOptions.replaceChildren(...tracks.map(item => {
+    const button = createElement('button', 'small-button', item.label);
+    button.type = 'button';
+    button.dataset.topicPickerTrack = item.id;
+    button.classList.toggle('is-selected', item.id === state.topicPickerTrack);
+    button.setAttribute('aria-pressed', String(item.id === state.topicPickerTrack));
+    return button;
+  }));
+  const leaves = TOPIC_PICKER_LEAVES[state.topicPickerTrack] || [];
+  elements.topicPickerLeaves.hidden = !leaves.length;
+  elements.topicPickerLeafOptions.replaceChildren(...leaves.map(item => {
+    const button = createElement('button', 'small-button', item.label);
+    button.type = 'button';
+    button.dataset.topicPickerLeaf = item.id;
+    button.classList.toggle('is-selected', item.id === state.topicPickerCategory);
+    button.setAttribute('aria-pressed', String(item.id === state.topicPickerCategory));
+    return button;
+  }));
+  elements.topicPickerSearch.disabled = !state.topicPickerCategory;
+  elements.topicPickerSearch.placeholder = state.topicPickerCategory
+    ? '搜尋目前類別的題目或關鍵字'
+    : '先選擇題目類別';
 }
 
 function selectSpeakingTopic(topicId) {
@@ -3691,6 +3755,38 @@ function autosizeTextarea(textarea, minimum = 0) {
   textarea.style.height = `${Math.max(minimum, textarea.scrollHeight)}px`;
 }
 
+const FUNCTION_PARAGRAPHS = [
+  { id: 'introduction', label: '引言', groups: ['Introduction'] },
+  { id: 'body-1', label: '正文段落一', groups: ['Body paragraph 1'] },
+  { id: 'body-2', label: '正文段落二', groups: ['Body paragraph 2'] },
+  { id: 'rebuttal', label: '反駁段', groups: ['Rebuttal - Opponent', 'Rebuttal - Your view'] },
+  { id: 'conclusion', label: '結論', groups: ['Conclusion'] }
+];
+
+function initialisePhoebeWritingToggle() {
+  const button = elements.phoebeWritingToggle;
+  if (!button) return;
+  const image = button.querySelector('img');
+  const gifSrc = image.getAttribute('src');
+  const stillSrc = 'writing-phoebe-writing-still.png?v=20261021-smooth-48';
+  const storageKey = 'edmund-writing-phoebe-visible';
+  let visible = true;
+  try { visible = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
+  const render = () => {
+    button.dataset.visible = String(visible);
+    button.setAttribute('aria-pressed', String(visible));
+    button.setAttribute('aria-label', visible ? '隱藏 Phoebe 寫字動畫' : '顯示 Phoebe 寫字動畫');
+    button.title = visible ? '點擊隱藏 Phoebe 寫字動畫；再點擊可顯示' : '點擊顯示 Phoebe 寫字動畫';
+    image.setAttribute('src', visible ? gifSrc : stillSrc);
+  };
+  button.addEventListener('click', () => {
+    visible = !visible;
+    try { localStorage.setItem(storageKey, String(visible)); } catch { /* Keep the toggle usable without storage. */ }
+    render();
+  });
+  render();
+}
+
 function renderFunctionHelper() {
   const helper = state.functionHelper;
   const enabled = new Set(helper.enabled);
@@ -3717,6 +3813,22 @@ function renderFunctionHelper() {
     card.append(label, textarea);
     fields.append(card);
   }
+  const paragraphSwitches = createElement('div', 'writing-function-paragraph-switches');
+  paragraphSwitches.append(createElement('p', 'writing-function-paragraph-label', '整段開關'));
+  for (const paragraph of FUNCTION_PARAGRAPHS) {
+    const ids = WRITING_FUNCTIONS.filter(item => paragraph.groups.includes(item.group)).map(item => item.id);
+    const selected = ids.filter(id => enabled.has(id)).length;
+    const label = createElement('label', 'writing-function-paragraph-toggle');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = selected === ids.length;
+    checkbox.indeterminate = selected > 0 && selected < ids.length;
+    checkbox.dataset.functionParagraph = paragraph.id;
+    checkbox.setAttribute('aria-label', `使用整個${paragraph.label}，共 ${ids.length} 項`);
+    label.append(checkbox, createElement('span', '', paragraph.label));
+    paragraphSwitches.append(label);
+  }
+  fields.append(paragraphSwitches);
   for (const item of WRITING_FUNCTIONS) {
     if (item.group !== currentGroup) {
       currentGroup = item.group;
@@ -4276,14 +4388,8 @@ async function restoreDraft() {
   }
 }
 
-function updateHarperStatus(status, title, detail) {
+function updateHarperStatus(status) {
   state.checkerState = status;
-  elements.harperStatus.dataset.state = status;
-  elements.harperStatus.hidden = title === "文法偵測已準備";
-  const strong = elements.harperStatus.querySelector("strong");
-  const small = elements.harperStatus.querySelector("small");
-  if (strong) strong.textContent = title;
-  if (small) small.textContent = detail;
 }
 
 async function prepareGrammarChecker() {
@@ -10556,33 +10662,30 @@ function bindEvents() {
   elements.topicPickerSearch.addEventListener("input", () => {
     state.topicPickerPage = 0;
     window.clearTimeout(state.topicPickerSearchTimer);
-    state.topicPickerSearchTimer = window.setTimeout(() => {
-      if (!state.topicPickerCategoryManual && state.topicPickerCategory === 'writing'
-        && elements.topicPickerSearch.value.trim()) {
-        activateWritingTopicPickerCategory('all');
-        return;
-      }
-      if (!state.topicPickerCategoryManual && state.topicPickerCategory === 'all'
-        && !elements.topicPickerSearch.value.trim()) {
-        activateWritingTopicPickerCategory('writing');
-        return;
-      }
-      if (state.topicPickerCategory === 'all' && elements.topicPickerSearch.value.trim()
-        && SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id])) {
-        activateWritingTopicPickerCategory('all');
-        return;
-      }
-      if (state.topicPickerCategory !== 'writing' && (
-        state.topicPickerCategory === 'all'
-          ? SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id])
-          : !state.speakingTopicCatalogByCategory[state.topicPickerCategory]
-      )) return;
-      renderWritingTopicResults(elements.topicPickerSearch.value);
-    }, 140);
+    state.topicPickerSearchTimer = window.setTimeout(() => renderWritingTopicResults(elements.topicPickerSearch.value), 140);
   });
-  for (const button of elements.topicPickerCategories) button.addEventListener('click', () => {
-    state.topicPickerCategoryManual = true;
-    activateWritingTopicPickerCategory(button.dataset.topicPickerCategory);
+  for (const button of elements.topicPickerExams) button.addEventListener('click', () => {
+    const exam = button.dataset.topicPickerExam;
+    state.topicPickerExam = exam;
+    state.topicPickerTrack = exam === 'non-exam' ? 'manual' : '';
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(exam === 'non-exam' ? 'manual' : '');
+  });
+  elements.topicPickerTrackOptions.addEventListener('click', event => {
+    const button = event.target.closest('[data-topic-picker-track]');
+    if (!button) return;
+    const track = (TOPIC_PICKER_TRACKS[state.topicPickerExam] || [])
+      .find(item => item.id === button.dataset.topicPickerTrack);
+    if (!track) return;
+    state.topicPickerTrack = track.id;
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(track.category || '');
+  });
+  elements.topicPickerLeafOptions.addEventListener('click', event => {
+    const button = event.target.closest('[data-topic-picker-leaf]');
+    if (!button || !(TOPIC_PICKER_LEAVES[state.topicPickerTrack] || []).some(item => item.id === button.dataset.topicPickerLeaf)) return;
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(button.dataset.topicPickerLeaf);
   });
   elements.topicPickerMore?.addEventListener('click', () => {
     state.topicPickerPage += 1;
@@ -10602,10 +10705,16 @@ function bindEvents() {
   elements.functionHelperToggle.addEventListener('click', () => setFunctionHelperActive(!state.functionHelper.active));
   elements.functionFields.addEventListener('change', event => {
     const id = event.target.dataset.functionOption;
-    if (!id) return;
+    const paragraphId = event.target.dataset.functionParagraph;
+    if (!id && !paragraphId) return;
     const enabled = new Set(state.functionHelper.enabled);
-    if (event.target.checked) enabled.add(id);
-    else enabled.delete(id);
+    const ids = paragraphId
+      ? WRITING_FUNCTIONS.filter(item => FUNCTION_PARAGRAPHS.find(paragraph => paragraph.id === paragraphId)?.groups.includes(item.group)).map(item => item.id)
+      : [id];
+    for (const key of ids) {
+      if (event.target.checked) enabled.add(key);
+      else enabled.delete(key);
+    }
     state.functionHelper.enabled = WRITING_FUNCTIONS.map(item => item.id).filter(key => enabled.has(key));
     renderFunctionHelper();
     syncFunctionHelperAnswer();
@@ -11179,6 +11288,7 @@ async function initialise() {
   preserveTextareaParagraphs(elements.writingInput);
   preserveTextareaParagraphs(elements.adminProxyAnswer);
   bindEvents();
+  initialisePhoebeWritingToggle();
   initializeStudentFeedbackWordBrush();
   ensureFeedbackSelectionToolbar();
   initializeAdminManualTopicSlots();
@@ -11336,7 +11446,6 @@ document.querySelector('[data-admin-questions-button]').addEventListener('click'
 document.querySelector('[data-refresh-questions]').addEventListener('click',()=>openFeedbackInbox());
 document.querySelector('[data-more-questions]').addEventListener('click',()=>openFeedbackInbox(true));
 
-document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button.addEventListener('click',()=>{state.topicPickerCategory='writing';state.topicPickerCategoryManual=true;state.topicPickerPage=0;syncWritingTopicPickerCategory();elements.topicPickerSearch.value='DSE Integrated '+button.dataset.paper3TopicCategory;renderWritingTopicResults(elements.topicPickerSearch.value);}));
 
 let articleDeliveryVersion="0",articleDeliveryBusy=false;
 async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}

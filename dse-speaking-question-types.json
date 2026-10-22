@@ -1,6 +1,16 @@
 {
   "version": 1,
   "labels": {
+    "country": [
+      "Hong Kong / Local Context",
+      "香港／本地情況",
+      "hong kong local city where you live"
+    ],
+    "should": [
+      "Should / Recommendation / Duty",
+      "應否／建議／責任",
+      "should ought duty responsibility whether someone should"
+    ],
     "advantages": [
       "Advantages / Benefits",
       "優點／好處",
@@ -83,6 +93,18 @@
     ]
   },
   "counts": {
+    "country": {
+      "questions": 364,
+      "group": 106,
+      "individual": 258,
+      "sets": 178
+    },
+    "should": {
+      "questions": 298,
+      "group": 59,
+      "individual": 239,
+      "sets": 182
+    },
     "advantages": {
       "questions": 193,
       "group": 129,
@@ -96,10 +118,10 @@
       "sets": 176
     },
     "solutions": {
-      "questions": 294,
-      "group": 153,
+      "questions": 287,
+      "group": 146,
       "individual": 141,
-      "sets": 193
+      "sets": 190
     },
     "reasons": {
       "questions": 261,
@@ -108,10 +130,10 @@
       "sets": 176
     },
     "opinions": {
-      "questions": 1074,
+      "questions": 1027,
       "group": 166,
-      "individual": 908,
-      "sets": 279
+      "individual": 861,
+      "sets": 278
     },
     "preferences": {
       "questions": 471,
@@ -174,10 +196,10 @@
       "sets": 42
     },
     "description": {
-      "questions": 193,
-      "group": 57,
-      "individual": 136,
-      "sets": 145
+      "questions": 154,
+      "group": 45,
+      "individual": 109,
+      "sets": 125
     }
   },
   "setCount": 282,
@@ -221,6 +243,7 @@
       "text": "What characteristics a good intern should have",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.1&part=group&question=3"
@@ -307,6 +330,7 @@
       "text": "Should all students be required to participate in an unpaid internship?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.1&part=individual&question=6"
@@ -366,6 +390,7 @@
       "text": "Whether traditional mooncakes should be replaced with non-traditional versions",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.2&part=group&question=2"
@@ -468,6 +493,7 @@
       "text": "Do you think businesses should be fined for excessive mooncake packaging?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.2&part=individual&question=6"
@@ -482,6 +508,7 @@
       "text": "Do you agree that Hong Kong people are losing interest in giving mooncakes?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.2&part=individual&question=7"
@@ -511,6 +538,7 @@
       "text": "Whether cosplay is popular in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.3&part=group&question=1"
@@ -525,7 +553,7 @@
       "text": "How Hong Kong society views cosplayers",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-1.3&part=group&question=2"
     },
@@ -737,6 +765,7 @@
       "text": "Should famous actors be paid a lot of money?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-2.1&part=individual&question=3"
@@ -1091,6 +1120,7 @@
       "text": "Should parents have the right to read their child's diary?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-2.3&part=individual&question=6"
@@ -1134,6 +1164,7 @@
       "text": "The popularity of swimming in Hong Kong in general",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.1&part=group&question=1"
@@ -1162,6 +1193,7 @@
       "text": "The benefits of the race for participants and Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.1&part=group&question=3"
@@ -1234,7 +1266,7 @@
       "text": "Where would another good place be in Hong Kong to hold a swimming race?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.1&part=individual&question=5"
     },
@@ -1263,6 +1295,7 @@
       "text": "What kind of safety measures should the race organizers have in place?",
       "translation": "",
       "types": [
+        "should",
         "description"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.1&part=individual&question=7"
@@ -1277,6 +1310,7 @@
       "text": "Do you think that making the cross-harbour race an annual event would benefit Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "opinions"
       ],
@@ -1393,6 +1427,7 @@
       "text": "Why do you think study tours are becoming more popular with Hong Kong schools?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.2&part=individual&question=5"
@@ -1523,6 +1558,7 @@
       "text": "Why do you think Japanese food is popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-3.3&part=individual&question=3"
@@ -1608,6 +1644,7 @@
       "text": "how a lack of space affects the lives of Hong Kong people",
       "translation": "",
       "types": [
+        "country",
         "effects"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=group&question=1"
@@ -1622,7 +1659,7 @@
       "text": "how Hong Kong people cope with having so little space",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=group&question=2"
     },
@@ -1636,6 +1673,7 @@
       "text": "any possible benefits of Hong Kong’s lack of space",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=group&question=3"
@@ -1664,6 +1702,7 @@
       "text": "Do you feel that Hong Kong is a very crowded city?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=individual&question=2"
@@ -1706,6 +1745,7 @@
       "text": "Do you think that the public places in Hong Kong provide enough space for people?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=individual&question=5"
@@ -1720,6 +1760,7 @@
       "text": "What should the government do to create more space?",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.1&part=individual&question=6"
@@ -1833,6 +1874,7 @@
       "text": "Do you think it is a necessity to own a car in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.2&part=individual&question=3"
@@ -1847,6 +1889,7 @@
       "text": "What are the disadvantages of owning a car in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.2&part=individual&question=4"
@@ -1875,6 +1918,7 @@
       "text": "Do you think it is possible to ban all private cars from Hong Kong roads?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.2&part=individual&question=6"
@@ -1918,6 +1962,7 @@
       "text": "Why 3D movies have become popular in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.3&part=group&question=1"
@@ -1932,6 +1977,7 @@
       "text": "Whether all movies should be changed into 3D format",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.3&part=group&question=2"
@@ -2016,6 +2062,7 @@
       "text": "Do you think it is better for cinemas to provide 3D glasses, or should customers bring their own 3D glasses?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-4.3&part=individual&question=5"
@@ -2076,6 +2123,7 @@
       "text": "Why certain buildings should be preserved",
       "translation": "",
       "types": [
+        "should",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.1&part=group&question=1"
@@ -2104,6 +2152,7 @@
       "text": "What action should be taken to help preserve such buildings",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.1&part=group&question=3"
@@ -2118,6 +2167,7 @@
       "text": "What are your favourite old buildings in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.1&part=individual&question=1"
@@ -2132,6 +2182,7 @@
       "text": "Do you think Hong Kong people prefer to keep old buildings or build new ones?",
       "translation": "",
       "types": [
+        "country",
         "preferences",
         "opinions"
       ],
@@ -2204,7 +2255,8 @@
       "text": "What other things apart from old buildings need to be saved to preserve Hong Kong’s heritage?",
       "translation": "",
       "types": [
-        "description"
+        "country",
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.1&part=individual&question=7"
     },
@@ -2218,6 +2270,7 @@
       "text": "What criteria should be considered when deciding whether buildings should be preserved?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.1&part=individual&question=8"
@@ -2232,6 +2285,7 @@
       "text": "why the dolphins should be better protected",
       "translation": "",
       "types": [
+        "should",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.2&part=group&question=1"
@@ -2304,7 +2358,7 @@
       "text": "Do Hong Kong people care about what happens to the Chinese white dolphins?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.2&part=individual&question=3"
     },
@@ -2449,7 +2503,7 @@
       "text": "How do teenagers in Hong Kong spend their money?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.3&part=individual&question=2"
     },
@@ -2477,6 +2531,7 @@
       "text": "Do you think schools should teach money management skills?",
       "translation": "",
       "types": [
+        "should",
         "qualities",
         "opinions"
       ],
@@ -2492,6 +2547,7 @@
       "text": "Should teenagers be given pocket money or have to earn it?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-5.3&part=individual&question=5"
@@ -2550,6 +2606,7 @@
       "text": "The different kinds of cuisines in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "comparisons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-6.1&part=group&question=1"
@@ -2578,6 +2635,7 @@
       "text": "What a good restaurant review should include",
       "translation": "",
       "types": [
+        "should",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-6.1&part=group&question=3"
@@ -2678,6 +2736,7 @@
       "text": "Should restaurants respond when they receive a negative review?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-6.1&part=individual&question=7"
@@ -2805,7 +2864,7 @@
       "text": "Would a reality show featuring famous celebrities be popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-6.2&part=individual&question=5"
     },
@@ -3048,6 +3107,7 @@
       "text": "Whether local culture can be better experienced through home swapping",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.1&part=group&question=3"
@@ -3105,6 +3165,7 @@
       "text": "Do you think home swapping will ever become popular in Hong Kong or Asia?",
       "translation": "",
       "types": [
+        "country",
         "predictions",
         "opinions"
       ],
@@ -3150,6 +3211,7 @@
       "text": "What aspects of a Hong Kong flat would people from overseas dislike?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages",
         "description"
       ],
@@ -3165,6 +3227,7 @@
       "text": "If someone stayed in your home, what do you think they would learn about life in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.1&part=individual&question=8"
@@ -3250,6 +3313,8 @@
       "text": "Do you think Hong Kong should open a toy museum?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.2&part=individual&question=3"
@@ -3278,6 +3343,7 @@
       "text": "Do you think children should have more time to play with toys or games?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.2&part=individual&question=5"
@@ -3321,6 +3387,7 @@
       "text": "Do you think that Hong Kong toy manufacturers deserve more recognition?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.2&part=individual&question=8"
@@ -3406,6 +3473,7 @@
       "text": "Would you be willing to leave Hong Kong to pursue your dream job?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.3&part=individual&question=3"
@@ -3492,6 +3560,7 @@
       "text": "Whether there is a demand for outdoor music festivals in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.1&part=group&question=1"
@@ -3563,6 +3632,7 @@
       "text": "Do you think Hong Kong people would like to see more outdoor music festivals?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.1&part=individual&question=3"
@@ -3577,6 +3647,7 @@
       "text": "Do you think a music festival should only feature famous bands and performers?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.1&part=individual&question=4"
@@ -3634,6 +3705,7 @@
       "text": "Do you think the government is doing enough to support local musicians and artists?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.1&part=individual&question=8"
@@ -3705,6 +3777,7 @@
       "text": "Do you think men in Hong Kong would have plastic surgery?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.2&part=individual&question=2"
@@ -3719,6 +3792,7 @@
       "text": "Do you think people should have plastic surgery?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.2&part=individual&question=3"
@@ -3933,6 +4007,7 @@
       "text": "Should schools teach students how to improve one’s memorizing ability?",
       "translation": "",
       "types": [
+        "should",
         "solutions",
         "opinions"
       ],
@@ -4148,7 +4223,7 @@
       "text": "What should be taught in these classes",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-1.2&part=group&question=3"
     },
@@ -4190,6 +4265,7 @@
       "text": "How important is home cooking in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "importance"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-1.2&part=individual&question=3"
@@ -4233,6 +4309,7 @@
       "text": "Should cooking lessons be compulsory for boys at school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-1.2&part=individual&question=6"
@@ -4262,6 +4339,7 @@
       "text": "Should cookery be made a degree course at university?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-1.2&part=individual&question=8"
@@ -4446,6 +4524,7 @@
       "text": "Whether Hong Kong students and parents would be open to the idea of apprenticeship programmes",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.1&part=group&question=2"
@@ -4530,6 +4609,8 @@
       "text": "Do you think that Hong Kong schools should offer more job training for their students?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.1&part=individual&question=5"
@@ -4573,6 +4654,7 @@
       "text": "Do you think Hong Kong’s educational system meets the needs of society?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.1&part=individual&question=8"
@@ -4587,6 +4669,7 @@
       "text": "The benefits and problems of organising empty shop projects in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "disadvantages",
         "planning"
@@ -4603,6 +4686,7 @@
       "text": "What activities would be best for Hong Kong empty shop projects to hold",
       "translation": "",
       "types": [
+        "country",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.2&part=group&question=2"
@@ -4617,6 +4701,7 @@
       "text": "How to encourage companies and charities in Hong Kong to organise empty shop projects",
       "translation": "",
       "types": [
+        "country",
         "planning",
         "persuasion",
         "solutions"
@@ -4689,7 +4774,8 @@
       "text": "Where in Hong Kong do you think empty shop projects should be held?",
       "translation": "",
       "types": [
-        "description"
+        "country",
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.2&part=individual&question=5"
     },
@@ -4703,6 +4789,8 @@
       "text": "Do you think young people should get involved in the local community?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.2&part=individual&question=6"
@@ -4717,6 +4805,7 @@
       "text": "Should there be special areas to hold community events, or should they be held in shopping malls?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.2&part=individual&question=7"
@@ -4731,6 +4820,7 @@
       "text": "What do you think is the best way to increase community spirit in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions",
         "solutions"
       ],
@@ -4746,6 +4836,7 @@
       "text": "Other kinds of strange Hong Kong food to include in the brochure",
       "translation": "",
       "types": [
+        "country",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.3&part=group&question=1"
@@ -4760,6 +4851,7 @@
       "text": "Why tourists may find these local foods strange",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.3&part=group&question=2"
@@ -4947,6 +5039,7 @@
       "text": "Is it easy to exercise where you live?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-3.1&part=individual&question=1"
@@ -5017,6 +5110,7 @@
       "text": "Should schools encourage lion dancing as a way to exercise?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -5103,6 +5197,7 @@
       "text": "What do you like about living in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-3.2&part=individual&question=1"
@@ -5117,6 +5212,7 @@
       "text": "What are the easiest ways to make new friends in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-3.2&part=individual&question=2"
@@ -5173,6 +5269,7 @@
       "text": "If you and your family lived away from Hong Kong, what would you miss the most?",
       "translation": "",
       "types": [
+        "country",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-3.2&part=individual&question=6"
@@ -5341,6 +5438,7 @@
       "text": "Should schools invest more money in developing good IT security?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-3.3&part=individual&question=7"
@@ -5427,6 +5525,7 @@
       "text": "Should school canteens stop serving meat?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.1&part=individual&question=2"
@@ -5441,6 +5540,7 @@
       "text": "Do you think restaurants should stop serving shark’s fin?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.1&part=individual&question=3"
@@ -5485,6 +5585,7 @@
       "text": "Should foods that come from cruelly-treated animals be banned by the government?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.1&part=individual&question=6"
@@ -5499,6 +5600,7 @@
       "text": "Should we criticise people who eat ‘cruel foods’?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.1&part=individual&question=7"
@@ -5513,6 +5615,7 @@
       "text": "Should animal rights be protected?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.1&part=individual&question=8"
@@ -5653,6 +5756,7 @@
       "text": "Do you think full contact sports should be banned?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.2&part=individual&question=7"
@@ -5667,6 +5771,7 @@
       "text": "Do you think full contact sports will ever be widely accepted in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.2&part=individual&question=8"
@@ -5752,6 +5857,8 @@
       "text": "Do you think people in Hong Kong need to know about nature?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-4.3&part=individual&question=3"
@@ -5892,6 +5999,7 @@
       "text": "How should people spend their time when travelling on public transport?",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.1&part=individual&question=2"
@@ -5920,6 +6028,7 @@
       "text": "Do you think people in Hong Kong use their smartphones too much?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.1&part=individual&question=4"
@@ -6146,6 +6255,7 @@
       "text": "Why international brands want to open stores in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.3&part=group&question=1"
@@ -6259,7 +6369,7 @@
       "text": "What products reflect Hong Kong’s identity?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.3&part=individual&question=6"
     },
@@ -6273,6 +6383,7 @@
       "text": "Do you think that local brands can compete with international brands?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.3&part=individual&question=7"
@@ -6287,7 +6398,7 @@
       "text": "What does the focus on luxury brands in Hong Kong say about Hong Kong people?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.3&part=individual&question=8"
     },
@@ -6371,6 +6482,7 @@
       "text": "Which robots do you think would be popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-6.1&part=individual&question=3"
@@ -6472,7 +6584,7 @@
       "text": "What other issues should be considered when humans live on another planet",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-6.2&part=group&question=2"
     },
@@ -6528,7 +6640,7 @@
       "text": "Are reality TV shows popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-6.2&part=individual&question=3"
     },
@@ -6542,6 +6654,7 @@
       "text": "What types of people should be selected as astronauts?",
       "translation": "",
       "types": [
+        "should",
         "qualities",
         "description"
       ],
@@ -6600,6 +6713,7 @@
       "text": "Do you think space travel should be funded by the government or by private companies?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-6.2&part=individual&question=8"
@@ -6786,7 +6900,7 @@
       "text": "The activities they do with their dogs in Hong Kong",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.1&part=group&question=2"
     },
@@ -6857,6 +6971,7 @@
       "text": "Do you think students should keep a class pet at school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.1&part=individual&question=4"
@@ -6971,6 +7086,7 @@
       "text": "Who is your favourite Cantopop star in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.2&part=individual&question=1"
@@ -7041,6 +7157,7 @@
       "text": "Why do you think K-Pop and J-Pop are so popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.2&part=individual&question=6"
@@ -7055,6 +7172,7 @@
       "text": "Do you think people should be able to share songs on the Internet for free?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.2&part=individual&question=7"
@@ -7069,6 +7187,7 @@
       "text": "Do you think the subjects in Cantopop songs are relevant to young people’s lives in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.2&part=individual&question=8"
@@ -7083,6 +7202,7 @@
       "text": "The kinds of peer pressure that Hong Kong teenagers have",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-7.3&part=group&question=1"
@@ -7471,6 +7591,7 @@
       "text": "In group projects, who should choose the group members — teachers or students?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-8.2&part=individual&question=3"
@@ -7585,6 +7706,7 @@
       "text": "Whether or not Western forms of beauty should be considered the ideal",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-8.3&part=group&question=3"
@@ -7669,6 +7791,7 @@
       "text": "Should Asians be criticised for wanting to look Westernised?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-8.3&part=individual&question=6"
@@ -7726,6 +7849,7 @@
       "text": "What other traditional aspects of Hong Kong culture to include",
       "translation": "",
       "types": [
+        "country",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.1&part=group&question=2"
@@ -7754,6 +7878,7 @@
       "text": "Do you like going to local wet markets?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.1&part=individual&question=1"
@@ -7782,7 +7907,7 @@
       "text": "Which traditional aspects of Hong Kong culture are changing?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.1&part=individual&question=3"
     },
@@ -7854,7 +7979,7 @@
       "text": "Which traditional aspects of Hong Kong culture do you hope will never disappear?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.1&part=individual&question=8"
     },
@@ -7896,6 +8021,7 @@
       "text": "Whether or not you agree that calculators should be banned in primary schools",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.2&part=group&question=3"
@@ -7996,7 +8122,7 @@
       "text": "Are schools in Hong Kong putting too much emphasis on mental arithmetic?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.2&part=individual&question=7"
     },
@@ -8111,6 +8237,7 @@
       "text": "Would you rather read stories about Hong Kong or another country?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.3&part=individual&question=4"
@@ -8281,6 +8408,7 @@
       "text": "Would people in Hong Kong use these inventions if they were promoted here?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "hypothetical"
       ],
@@ -8296,6 +8424,7 @@
       "text": "How could schools in Hong Kong encourage creativity in their students?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -8455,6 +8584,7 @@
       "text": "Should table manners be taught in school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.2&part=individual&question=6"
@@ -8484,6 +8614,7 @@
       "text": "How closely should people follow the rules of table manners?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.2&part=individual&question=8"
@@ -8498,6 +8629,7 @@
       "text": "Ways that Hong Kong parents try to help their children to succeed",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.3&part=group&question=1"
@@ -8512,6 +8644,7 @@
       "text": "What motivates Hong Kong children to succeed",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.3&part=group&question=2"
@@ -8554,6 +8687,7 @@
       "text": "Do you think students should have more free time?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.3&part=individual&question=2"
@@ -8568,6 +8702,7 @@
       "text": "Do you think children in Hong Kong live a balanced life?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.3&part=individual&question=3"
@@ -8596,6 +8731,7 @@
       "text": "Do you agree that children need to be pushed as hard as possible?",
       "translation": "",
       "types": [
+        "should",
         "comparisons",
         "opinions"
       ],
@@ -8625,6 +8761,7 @@
       "text": "Do you think parents in Hong Kong place too much emphasis on external success?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-10.3&part=individual&question=7"
@@ -8924,6 +9061,7 @@
       "text": "Should senior citizens be recruited as Airport Ambassadors?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-1.2&part=individual&question=6"
@@ -8938,6 +9076,7 @@
       "text": "Do you think the Airport Ambassador Programme enhances the image of Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "planning",
         "opinions"
       ],
@@ -9080,6 +9219,7 @@
       "text": "Should parents allow their children to make mistakes?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-1.3&part=individual&question=6"
@@ -9236,6 +9376,7 @@
       "text": "Should restaurants ban people from taking photos of their food?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.1&part=individual&question=6"
@@ -9362,6 +9503,7 @@
       "text": "Should schools promote street culture?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -9377,6 +9519,7 @@
       "text": "Should teenagers be encouraged to take part in street culture?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -9435,7 +9578,7 @@
       "text": "How Hong Kong compares with Switzerland in the four points mentioned",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.3&part=group&question=1"
     },
@@ -9449,6 +9592,8 @@
       "text": "Whether Hong Kong’s ranking should be higher",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.3&part=group&question=2"
@@ -9463,6 +9608,7 @@
       "text": "How Hong Kong can improve its happiness ranking",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.3&part=group&question=3"
@@ -9519,6 +9665,7 @@
       "text": "Do you think young people in Hong Kong are happier than their parents?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.3&part=individual&question=4"
@@ -9575,6 +9722,7 @@
       "text": "Can where you live affect your happiness?",
       "translation": "",
       "types": [
+        "country",
         "effects"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-2.3&part=individual&question=8"
@@ -9688,6 +9836,7 @@
       "text": "Should schools promote the use of the Urban Dictionary?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -9732,6 +9881,7 @@
       "text": "Should standard dictionaries include words from the Urban Dictionary?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.1&part=individual&question=8"
@@ -9760,6 +9910,7 @@
       "text": "Positive aspects of Hong Kong’s education system",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.2&part=group&question=2"
@@ -9774,6 +9925,7 @@
       "text": "Which characteristics of Finland’s education system would not work in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "qualities",
         "preferences"
       ],
@@ -9845,6 +9997,7 @@
       "text": "Should students of different abilities be separated into different groups?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.2&part=individual&question=5"
@@ -9888,7 +10041,7 @@
       "text": "Do all students in Hong Kong have equal opportunities in education?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.2&part=individual&question=8"
     },
@@ -9902,6 +10055,7 @@
       "text": "Whether Hong Kong needs a tourist attraction along the waterfront",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "opinions"
       ],
@@ -9988,7 +10142,7 @@
       "text": "Would you pay HK$100 to ride a ferris wheel to see Hong Kong’s harbor?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.3&part=individual&question=4"
     },
@@ -10002,6 +10156,7 @@
       "text": "Do you think a ferris wheel in Hong Kong will be successful?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.3&part=individual&question=5"
@@ -10016,6 +10171,7 @@
       "text": "Do you agree that the best tourist attraction in Hong Kong is its harbor?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "opinions"
       ],
@@ -10031,6 +10187,7 @@
       "text": "Do you think that the ferris wheel should be a temporary or a permanent attraction?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -10046,6 +10203,7 @@
       "text": "Do you agree that Hong Kong is always copying other cities?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-3.3&part=individual&question=8"
@@ -10060,6 +10218,7 @@
       "text": "Whether parents should access their children’s social media accounts",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-4.1&part=group&question=1"
@@ -10144,6 +10303,7 @@
       "text": "Should parents allow their young children to have Facebook accounts?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-4.1&part=individual&question=4"
@@ -10625,6 +10785,7 @@
       "text": "Would you prefer to see a local film or a foreign film?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-5.1&part=individual&question=5"
@@ -10838,7 +10999,7 @@
       "text": "How common these health ‘mistakes’ are in Hong Kong",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-5.3&part=group&question=1"
     },
@@ -10966,6 +11127,7 @@
       "text": "Should we trust health information found on the Internet?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-5.3&part=individual&question=7"
@@ -11022,6 +11184,7 @@
       "text": "How team sports can be promoted in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.1&part=group&question=3"
@@ -11108,6 +11271,8 @@
       "text": "Should more money be invested in developing facilities for team sports in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.1&part=individual&question=6"
@@ -11221,6 +11386,7 @@
       "text": "Do you think the use of e-textbooks will become more popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "predictions",
         "opinions"
       ],
@@ -11280,6 +11446,7 @@
       "text": "Should the government provide subsidies for e-textbooks?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.2&part=individual&question=7"
@@ -11393,6 +11560,7 @@
       "text": "Should students work and save money before going to university?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.3&part=individual&question=4"
@@ -11407,6 +11575,7 @@
       "text": "Should parents pay for their children’s post-secondary education?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.3&part=individual&question=5"
@@ -11436,6 +11605,7 @@
       "text": "Should university education be free?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-6.3&part=individual&question=7"
@@ -11464,6 +11634,7 @@
       "text": "Whether courtesy classes should be compulsory or not",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-7.1&part=group&question=1"
@@ -11735,6 +11906,7 @@
       "text": "Should schools use LEGO in class?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-7.2&part=individual&question=6"
@@ -11749,6 +11921,7 @@
       "text": "Should there be an age restriction for war-based LEGO figures?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-7.2&part=individual&question=7"
@@ -11809,6 +11982,7 @@
       "text": "What products should not be advertised",
       "translation": "",
       "types": [
+        "should",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-7.3&part=group&question=3"
@@ -11944,6 +12118,7 @@
       "text": "Whether super-sized meals are becoming popular in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.1&part=group&question=1"
@@ -12002,6 +12177,7 @@
       "text": "Would you order a super-sized meal if local restaurants offered it?",
       "translation": "",
       "types": [
+        "country",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.1&part=individual&question=2"
@@ -12087,6 +12263,7 @@
       "text": "Should restaurants use super-sized meals to attract customers?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -12158,6 +12335,7 @@
       "text": "Do you prefer watching foreign movies or local movies?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.2&part=individual&question=2"
@@ -12201,6 +12379,7 @@
       "text": "What kind of Hong Kong movies would appeal to an international audience?",
       "translation": "",
       "types": [
+        "country",
         "description"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.2&part=individual&question=5"
@@ -12257,6 +12436,7 @@
       "text": "Why some Hong Kong teenagers are addicted to technology",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.3&part=group&question=1"
@@ -12313,6 +12493,7 @@
       "text": "Should parents control the amount of time children spend on the computer?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.3&part=individual&question=2"
@@ -12412,6 +12593,7 @@
       "text": "Why some teenagers would be keen to join the Hong Kong Police Force",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.1&part=group&question=1"
@@ -12513,6 +12695,7 @@
       "text": "Should speaking English be a necessary job requirement for joining the Police Force?",
       "translation": "",
       "types": [
+        "should",
         "qualities",
         "importance",
         "opinions"
@@ -12588,6 +12771,7 @@
       "text": "Whether or not customer service in Hong Kong is getting worse",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.2&part=group&question=2"
@@ -12658,6 +12842,7 @@
       "text": "How can shop assistants give a good impression to tourists in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.2&part=individual&question=4"
@@ -12702,6 +12887,7 @@
       "text": "Should service industry employees be given more respect?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.2&part=individual&question=7"
@@ -12731,6 +12917,7 @@
       "text": "The benefits of having Study Time in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.3&part=group&question=1"
@@ -12760,6 +12947,7 @@
       "text": "Whether Study Time could be implemented in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-9.3&part=group&question=3"
@@ -12887,6 +13075,7 @@
       "text": "Whether Hong Kong children have too much power",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.1&part=group&question=1"
@@ -12974,7 +13163,7 @@
       "text": "Are Hong Kong children over-protected?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.1&part=individual&question=4"
     },
@@ -12988,7 +13177,7 @@
       "text": "What decisions should children be allowed to make?",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.1&part=individual&question=5"
     },
@@ -13016,6 +13205,7 @@
       "text": "Should parents act like friends to their children?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.1&part=individual&question=7"
@@ -13030,6 +13220,7 @@
       "text": "Should a family be run as a democracy?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.1&part=individual&question=8"
@@ -13044,6 +13235,7 @@
       "text": "Whether Hong Kong teenagers like dancing",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.2&part=group&question=1"
@@ -13228,7 +13420,7 @@
       "text": "Other types of magazines the library should subscribe to",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.3&part=group&question=3"
     },
@@ -13341,6 +13533,7 @@
       "text": "Should a magazine educate or entertain?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-10.3&part=individual&question=8"
@@ -13615,7 +13808,7 @@
       "text": "Would you pay a thousand Hong Kong dollars to send a digital memory box to the moon?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-1.2&part=individual&question=5"
     },
@@ -13629,6 +13822,7 @@
       "text": "What do you think should be put inside the public time capsule on the moon?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-1.2&part=individual&question=6"
@@ -13786,6 +13980,7 @@
       "text": "Do you agree that athletes should be role models for teenagers?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-1.3&part=individual&question=6"
@@ -13800,6 +13995,7 @@
       "text": "Do you think it is a good idea to pursue a career in sports in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-1.3&part=individual&question=7"
@@ -13814,6 +14010,7 @@
       "text": "Why is it important to promote sports culture in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons",
         "persuasion",
         "importance"
@@ -13844,6 +14041,7 @@
       "text": "Whether a doll hospital business in Hong Kong would be successful",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-2.1&part=group&question=2"
@@ -14113,7 +14311,7 @@
       "text": "Which elective do you think should be made into a compulsory subject?",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-2.2&part=individual&question=7"
     },
@@ -14581,6 +14779,7 @@
       "text": "Do you think people in Hong Kong focus too much on their salary?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-3.2&part=individual&question=7"
@@ -14609,6 +14808,7 @@
       "text": "What other facilities should be included in the Endless City",
       "translation": "空中無限城還應包括哪些其他設施",
       "types": [
+        "should",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-3.3&part=group&question=1"
@@ -14638,6 +14838,7 @@
       "text": "Whether a similar proposal would be popular in Hong Kong",
       "translation": "類似的建議在香港會否受歡迎",
       "types": [
+        "country",
         "comparisons",
         "opinions"
       ],
@@ -14667,6 +14868,7 @@
       "text": "Do you think Hong Kong has too many tall buildings?",
       "translation": "你認為香港有太多高樓大廈嗎？",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-3.3&part=individual&question=2"
@@ -14796,6 +14998,7 @@
       "text": "Whether there should be censorship of what is published online",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-4.1&part=group&question=3"
@@ -14909,6 +15112,7 @@
       "text": "Should online fiction be free?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-4.1&part=individual&question=8"
@@ -15210,6 +15414,7 @@
       "text": "Should schools organize study tours to remote locations?",
       "translation": "",
       "types": [
+        "should",
         "planning",
         "opinions"
       ],
@@ -15225,6 +15430,7 @@
       "text": "How would a study tour to Antarctica be beneficial to Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "solutions"
       ],
@@ -15385,6 +15591,7 @@
       "text": "Do you think anyone who refuses to do military service should be punished?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-5.1&part=individual&question=8"
@@ -15569,7 +15776,7 @@
       "text": "how the order might be different in Hong Kong",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-5.3&part=group&question=2"
     },
@@ -15737,6 +15944,7 @@
       "text": "what concerns about the camp need to be addressed",
       "translation": "",
       "types": [
+        "should",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.1&part=group&question=3"
@@ -15991,6 +16199,7 @@
       "text": "Do you think shops should sell upcycled products?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.2&part=individual&question=7"
@@ -16005,6 +16214,7 @@
       "text": "Do you think Hong Kong does enough to upcycle waste?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.2&part=individual&question=8"
@@ -16136,6 +16346,7 @@
       "text": "Do you think boys and girls should go to separate schools?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.3&part=individual&question=6"
@@ -16150,6 +16361,7 @@
       "text": "Do you think all STEM subjects should be compulsory at school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.3&part=individual&question=7"
@@ -16164,6 +16376,7 @@
       "text": "Do you think IT should be a compulsory subject for all forms?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-6.3&part=individual&question=8"
@@ -16320,6 +16533,7 @@
       "text": "Do you think a museum in the dark would be popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-7.1&part=individual&question=8"
@@ -16434,6 +16648,7 @@
       "text": "Do you think photography should be taught in school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-7.2&part=individual&question=5"
@@ -16617,6 +16832,7 @@
       "text": "Should Form Six students be banned from extra-curricular activities?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-7.3&part=individual&question=7"
@@ -16759,6 +16975,7 @@
       "text": "Should celebrities be given stricter penalties if they break the law?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "hypothetical"
       ],
@@ -16774,6 +16991,7 @@
       "text": "Do you think celebrities should be well-behaved all the time?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.1&part=individual&question=7"
@@ -16861,6 +17079,7 @@
       "text": "What skills should young children learn?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.2&part=individual&question=2"
@@ -16919,6 +17138,7 @@
       "text": "Why do some Hong Kong parents send their children to school at a very young age?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.2&part=individual&question=6"
@@ -16948,6 +17168,7 @@
       "text": "Who should decide when children should go to school: parents or the government?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.2&part=individual&question=8"
@@ -17019,6 +17240,7 @@
       "text": "Have you ever seen a snake in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.3&part=individual&question=2"
@@ -17090,6 +17312,8 @@
       "text": "Do you think Hong Kong’s wildlife should be part of the school curriculum?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-8.3&part=individual&question=7"
@@ -17176,6 +17400,7 @@
       "text": "What kind of YouTube videos are popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "description"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-9.1&part=individual&question=2"
@@ -17375,6 +17600,7 @@
       "text": "Do you think the concept of a standing restaurant would work in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2015-9.2&part=individual&question=5"
@@ -17590,6 +17816,7 @@
       "text": "the benefits of students doing charity work outside Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.1&part=group&question=1"
@@ -17604,6 +17831,7 @@
       "text": "the concerns of doing charity work outside Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.1&part=group&question=2"
@@ -17618,6 +17846,8 @@
       "text": "whether charity work outside Hong Kong should be a requirement at secondary school",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "qualities",
         "opinions"
       ],
@@ -17647,6 +17877,7 @@
       "text": "Would you prefer to do charity work locally or outside Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.1&part=individual&question=2"
@@ -17691,6 +17922,7 @@
       "text": "Do you think it is necessary to leave Hong Kong to do charity work?",
       "translation": "",
       "types": [
+        "country",
         "importance",
         "opinions"
       ],
@@ -17706,6 +17938,8 @@
       "text": "Should students have to pay to do charity work outside Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.1&part=individual&question=6"
@@ -17735,6 +17969,7 @@
       "text": "Who benefits more from charity work outside Hong Kong: the volunteers or the locals?",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "comparisons"
       ],
@@ -17834,6 +18069,7 @@
       "text": "What problems are caused by a lack of space in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.2&part=individual&question=4"
@@ -17862,6 +18098,7 @@
       "text": "How could flats in Hong Kong be designed to have more storage space?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.2&part=individual&question=6"
@@ -17876,6 +18113,7 @@
       "text": "What space-saving tips would you give to a person moving to a flat in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.2&part=individual&question=7"
@@ -17933,6 +18171,7 @@
       "text": "whether learning through play should be a regular part of a child’s education",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.3&part=group&question=3"
@@ -17961,6 +18200,7 @@
       "text": "Do you think Hong Kong children can find places to play easily?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.3&part=individual&question=2"
@@ -18017,6 +18257,7 @@
       "text": "Should the Government provide more indoor playrooms for children?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-1.3&part=individual&question=6"
@@ -18158,6 +18399,7 @@
       "text": "Do you think there is an increasing trend of people being scammed in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.1&part=individual&question=5"
@@ -18215,7 +18457,7 @@
       "text": "images Bao Ho should include in her painting",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.2&part=group&question=1"
     },
@@ -18285,6 +18527,7 @@
       "text": "Do you think art should be a compulsory subject at secondary school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.2&part=individual&question=3"
@@ -18313,6 +18556,7 @@
       "text": "Do you think street art is popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.2&part=individual&question=5"
@@ -18458,6 +18702,7 @@
       "text": "At what age do you think a person should live on their own?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.3&part=individual&question=4"
@@ -18514,7 +18759,7 @@
       "text": "Is living with parents a tradition in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-2.3&part=individual&question=8"
     },
@@ -18542,7 +18787,7 @@
       "text": "what other kinds of educational apps Hong Kong students may need",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.1&part=group&question=2"
     },
@@ -18599,6 +18844,7 @@
       "text": "Do you think educational apps should be free to students?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.1&part=individual&question=3"
@@ -18714,6 +18960,7 @@
       "text": "ways to promote Hong Kong taxis to tourists",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -18729,6 +18976,7 @@
       "text": "How often do you take a taxi in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.2&part=individual&question=1"
@@ -18785,7 +19033,7 @@
       "text": "Would you ever use Uber in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.2&part=individual&question=5"
     },
@@ -18799,6 +19047,7 @@
       "text": "What do you think should be done to penalise taxi drivers who receive complaints?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "disadvantages"
       ],
@@ -18814,6 +19063,7 @@
       "text": "Do you think Uber means the end for traditional Hong Kong taxis?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.2&part=individual&question=7"
@@ -18828,6 +19078,8 @@
       "text": "Do you think online hire-car services should be allowed in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.2&part=individual&question=8"
@@ -18915,6 +19167,7 @@
       "text": "What other wild animals cause problems in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.3&part=individual&question=3"
@@ -18957,6 +19210,8 @@
       "text": "In your opinion, should wild boars be protected in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-3.3&part=individual&question=6"
@@ -19000,6 +19255,7 @@
       "text": "whether students should learn history and geography at school",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.1&part=group&question=1"
@@ -19014,6 +19270,7 @@
       "text": "whether computer programming should be taught at primary school",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.1&part=group&question=2"
@@ -19127,6 +19384,7 @@
       "text": "Do you think schools should help students get a job or develop life skills?",
       "translation": "",
       "types": [
+        "should",
         "qualities",
         "opinions"
       ],
@@ -19142,6 +19400,8 @@
       "text": "Do you think there are other subjects that should be dropped from the Hong Kong curriculum?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.1&part=individual&question=8"
@@ -19170,6 +19430,7 @@
       "text": "which of the suggested places would be most popular with Hong Kong students",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.2&part=group&question=2"
@@ -19394,6 +19655,7 @@
       "text": "Why have private kitchens become popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.3&part=individual&question=4"
@@ -19422,7 +19684,7 @@
       "text": "Does good food have to be expensive?",
       "translation": "",
       "types": [
-        "opinions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.3&part=individual&question=6"
     },
@@ -19436,6 +19698,7 @@
       "text": "Should a meal in a private kitchen be cheaper than in licensed restaurants?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-4.3&part=individual&question=7"
@@ -19479,6 +19742,7 @@
       "text": "how to improve the quality of busking in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.1&part=group&question=2"
@@ -19550,6 +19814,7 @@
       "text": "Do you often see buskers in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.1&part=individual&question=4"
@@ -19578,6 +19843,7 @@
       "text": "Do you think people should give money to buskers?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.1&part=individual&question=6"
@@ -19691,6 +19957,7 @@
       "text": "Did you learn much about the history of Hong Kong at school?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.2&part=individual&question=3"
@@ -19807,6 +20074,7 @@
       "text": "whether young people should be encouraged to have more face-to-face interaction",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -19878,6 +20146,7 @@
       "text": "Do you think students should spend more or less time using electronic devices?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.3&part=individual&question=5"
@@ -19906,6 +20175,7 @@
       "text": "In your opinion, should parents control children’s use of electronic devices?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-5.3&part=individual&question=7"
@@ -19920,6 +20190,7 @@
       "text": "Is the overuse of electronic devices a problem in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages",
         "opinions"
       ],
@@ -19935,6 +20206,7 @@
       "text": "the challenges people face when walking through the streets of Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.1&part=group&question=1"
@@ -20062,6 +20334,7 @@
       "text": "How would the area where you live change if no vehicles were allowed?",
       "translation": "",
       "types": [
+        "country",
         "solutions",
         "hypothetical"
       ],
@@ -20077,7 +20350,7 @@
       "text": "Which part of Hong Kong do you think could be pedestrianised?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.1&part=individual&question=8"
     },
@@ -20133,6 +20406,7 @@
       "text": "Should chewing gum be banned in schools?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.2&part=individual&question=1"
@@ -20147,6 +20421,7 @@
       "text": "Do you think you should be allowed to eat or drink on the MTR?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.2&part=individual&question=2"
@@ -20161,6 +20436,7 @@
       "text": "Do you think littering is a serious problem in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages",
         "opinions"
       ],
@@ -20190,6 +20466,8 @@
       "text": "Do you think Hong Kong should have similar punishments to Singapore for littering?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "comparisons",
         "opinions"
       ],
@@ -20262,6 +20540,7 @@
       "text": "what you would like to promote about Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "preferences"
       ],
@@ -20319,6 +20598,7 @@
       "text": "Do you think there are too many western-style coffee shops in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.3&part=individual&question=3"
@@ -20333,6 +20613,7 @@
       "text": "Why do you think western-style coffee shops are so popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.3&part=individual&question=4"
@@ -20347,6 +20628,7 @@
       "text": "Do you think a Hong Kong-themed coffee shop would be popular in China?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.3&part=individual&question=5"
@@ -20361,6 +20643,7 @@
       "text": "Do you think a teddy bear coffee shop would be popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.3&part=individual&question=6"
@@ -20375,7 +20658,7 @@
       "text": "What theme would be popular in a coffee shop in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-6.3&part=individual&question=7"
     },
@@ -20433,6 +20716,7 @@
       "text": "whether certain competitive games should be discouraged at school",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-7.1&part=group&question=3"
@@ -20962,6 +21246,7 @@
       "text": "Do you think identical twins should be put in separate classes?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.1&part=individual&question=4"
@@ -21160,6 +21445,7 @@
       "text": "Do you think the use of social media should be monitored?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.2&part=individual&question=7"
@@ -21188,6 +21474,7 @@
       "text": "how to be safe when cycling in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=group&question=1"
@@ -21247,6 +21534,7 @@
       "text": "Do you think it is safe to ride a bicycle in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=2"
@@ -21261,6 +21549,7 @@
       "text": "Why do you think few people ride bicycles in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=3"
@@ -21275,6 +21564,7 @@
       "text": "Do you think cycling is becoming more popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=4"
@@ -21289,6 +21579,8 @@
       "text": "Do you think there should be more cycle paths in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=5"
@@ -21303,6 +21595,7 @@
       "text": "Do you think all cyclists should wear a helmet?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=6"
@@ -21317,6 +21610,7 @@
       "text": "Do you think cyclists should be allowed to take their bikes on the MTR?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-8.3&part=individual&question=7"
@@ -21331,6 +21625,7 @@
       "text": "What can the Government do to encourage more people to cycle in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -21446,6 +21741,7 @@
       "text": "Should readers have to pay for stories from vending machines?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-9.1&part=individual&question=5"
@@ -21474,7 +21770,7 @@
       "text": "Would short story vending machines be popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-9.1&part=individual&question=7"
     },
@@ -21631,6 +21927,7 @@
       "text": "Do you think left-handed children should be forced to become right-handed?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-9.2&part=individual&question=7"
@@ -21645,6 +21942,7 @@
       "text": "Do you think all children should be taught to use both hands well at an early age?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-9.2&part=individual&question=8"
@@ -21760,6 +22058,8 @@
       "text": "Do you think texting lanes should be created in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2016-9.3&part=individual&question=5"
@@ -21774,6 +22074,7 @@
       "text": "Should people be punished if they do not use the texting lanes?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "hypothetical"
       ],
@@ -21891,6 +22192,7 @@
       "text": "Would you like to live outside Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.1&part=individual&question=3"
@@ -21905,6 +22207,7 @@
       "text": "What would you miss if you left Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.1&part=individual&question=4"
@@ -21947,6 +22250,7 @@
       "text": "Is it more common for Hongkongers to work outside Hong Kong than in the past?",
       "translation": "",
       "types": [
+        "country",
         "comparisons",
         "opinions"
       ],
@@ -21962,6 +22266,7 @@
       "text": "Does Hong Kong lose or benefit from young people working in Shenzhen?",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.1&part=individual&question=8"
@@ -21990,6 +22295,8 @@
       "text": "whether this tradition should continue in Hong Kong today",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.2&part=group&question=2"
@@ -22060,6 +22367,7 @@
       "text": "Should children discuss money with their parents?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.2&part=individual&question=4"
@@ -22116,6 +22424,7 @@
       "text": "Should children give money to their parents if their parents are rich?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "hypothetical"
       ],
@@ -22131,6 +22440,7 @@
       "text": "why the Hong Kong Book Fair is popular",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=group&question=1"
@@ -22174,6 +22484,7 @@
       "text": "Would you like to go to the Hong Kong Book Fair?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=individual&question=1"
@@ -22202,6 +22513,7 @@
       "text": "Is the Hong Kong Book Fair a good place to buy books?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=individual&question=3"
@@ -22216,6 +22528,7 @@
       "text": "Do you think the Hong Kong Book Fair will continue to be popular in the future?",
       "translation": "",
       "types": [
+        "country",
         "predictions",
         "opinions"
       ],
@@ -22231,6 +22544,7 @@
       "text": "Who likes the Hong Kong Book Fair more: younger or older people?",
       "translation": "",
       "types": [
+        "country",
         "comparisons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=individual&question=5"
@@ -22245,6 +22559,7 @@
       "text": "Would a good theme encourage you to go to the Hong Kong Book Fair?",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=individual&question=6"
@@ -22259,6 +22574,7 @@
       "text": "Is the Hong Kong Book Fair a good way to encourage young people to read more?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "opinions"
       ],
@@ -22274,7 +22590,7 @@
       "text": "Does Kung Fu adequately represent Hong Kong culture?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-1.3&part=individual&question=8"
     },
@@ -22288,6 +22604,7 @@
       "text": "problems non-Cantonese speaking people may have if they live in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "disadvantages",
         "hypothetical"
       ],
@@ -22318,6 +22635,7 @@
       "text": "ways to help people who do not speak Cantonese feel more connected to Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.1&part=group&question=3"
@@ -22375,7 +22693,7 @@
       "text": "Can you tell me a job where speaking Cantonese is a must?",
       "translation": "",
       "types": [
-        "opinions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.1&part=individual&question=4"
     },
@@ -22434,6 +22752,7 @@
       "text": "Should more be done to promote the use of Cantonese to non-Cantonese speakers?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -22549,6 +22868,7 @@
       "text": "Why should students help charities?",
       "translation": "",
       "types": [
+        "should",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.2&part=individual&question=5"
@@ -22563,6 +22883,7 @@
       "text": "Should private companies support charities?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.2&part=individual&question=6"
@@ -22648,6 +22969,7 @@
       "text": "How do you feel when a typhoon is coming to Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences",
         "opinions"
       ],
@@ -22706,6 +23028,7 @@
       "text": "What companies suffer the most from typhoons in modern day Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.3&part=individual&question=5"
@@ -22734,6 +23057,7 @@
       "text": "What should the police do about people going to the beach during Typhoon Number 8?",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-2.3&part=individual&question=7"
@@ -22892,7 +23216,7 @@
       "text": "Do Hong Kong schools prepare students to have a high EQ?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.1&part=individual&question=7"
     },
@@ -23063,6 +23387,7 @@
       "text": "How would the closing of libraries affect the local community?",
       "translation": "",
       "types": [
+        "country",
         "solutions",
         "effects"
       ],
@@ -23078,6 +23403,7 @@
       "text": "why the number of accidents has fallen in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=group&question=1"
@@ -23106,6 +23432,7 @@
       "text": "what people should do to make sure they are safe while using the road",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=group&question=3"
@@ -23120,6 +23447,7 @@
       "text": "Do you think Hong Kong roads are safe?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=individual&question=1"
@@ -23134,6 +23462,7 @@
       "text": "Should schools teach more about road safety?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=individual&question=2"
@@ -23148,6 +23477,7 @@
       "text": "Should bicycles be allowed to use the same roads as cars?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=individual&question=3"
@@ -23190,6 +23520,7 @@
       "text": "How should we stop people crossing the road illegally?",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=individual&question=6"
@@ -23218,7 +23549,7 @@
       "text": "Would reducing the number of cars in Hong Kong make roads safer?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-3.3&part=individual&question=8"
     },
@@ -23377,6 +23708,7 @@
       "text": "Should retirement be something to look forward to or to worry about?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "disadvantages"
       ],
@@ -23420,6 +23752,7 @@
       "text": "whether any age limits should be changed",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-4.2&part=group&question=3"
@@ -23506,6 +23839,7 @@
       "text": "Do you think most people obey the legal ages in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-4.2&part=individual&question=6"
@@ -23520,6 +23854,7 @@
       "text": "Do you think the government should give more responsibility to teenagers?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-4.2&part=individual&question=7"
@@ -23720,6 +24055,7 @@
       "text": "whether boot camp would be popular with Hong Kong parents",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-5.1&part=group&question=2"
@@ -23777,6 +24113,7 @@
       "text": "Where would be a suitable location for a boot camp in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "qualities",
         "planning"
       ],
@@ -23792,6 +24129,7 @@
       "text": "Are there some children who should not be sent to boot camp?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-5.1&part=individual&question=4"
@@ -23876,6 +24214,7 @@
       "text": "whether school menus should only offer healthy food",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-5.2&part=group&question=2"
@@ -24504,6 +24843,7 @@
       "text": "whether the type of jobs in the advertisement are suitable for Hong Kong students",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "qualities",
         "opinions"
@@ -24604,6 +24944,7 @@
       "text": "What skills do you think students should have to enjoy a successful working holiday?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-6.3&part=individual&question=6"
@@ -24775,6 +25116,7 @@
       "text": "Should people be paid to give blood?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.1&part=individual&question=7"
@@ -24789,6 +25131,7 @@
       "text": "Should giving blood be made compulsory?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.1&part=individual&question=8"
@@ -24803,6 +25146,7 @@
       "text": "what attracts tourists to Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=group&question=1"
@@ -24817,7 +25161,7 @@
       "text": "what each picture represents about Hong Kong",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=group&question=2"
     },
@@ -24831,6 +25175,7 @@
       "text": "which photograph should be chosen for the cover of the travel book",
       "translation": "",
       "types": [
+        "should",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=group&question=3"
@@ -24845,7 +25190,7 @@
       "text": "Which places do tourists often visit in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=1"
     },
@@ -24859,6 +25204,7 @@
       "text": "Are there places in Hong Kong you would like to visit?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=2"
@@ -24873,6 +25219,7 @@
       "text": "What can be done to attract more tourists to Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -24888,6 +25235,7 @@
       "text": "What makes Hong Kong special?",
       "translation": "",
       "types": [
+        "country",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=4"
@@ -24902,7 +25250,7 @@
       "text": "Are you proud to live in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=5"
     },
@@ -24916,6 +25264,7 @@
       "text": "Do you agree that Hong Kong is an international city?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=6"
@@ -24930,7 +25279,7 @@
       "text": "What do tourists find interesting about Hong Kong culture?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=7"
     },
@@ -24944,7 +25293,7 @@
       "text": "What do tourists think about when they hear the name Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.2&part=individual&question=8"
     },
@@ -25059,6 +25408,7 @@
       "text": "Do you think Hong Kong has a good bus service?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.3&part=individual&question=5"
@@ -25073,6 +25423,7 @@
       "text": "Do you think road congestion is bad in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.3&part=individual&question=6"
@@ -25102,6 +25453,7 @@
       "text": "Are buses the cause or solution to the traffic congestion in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-7.3&part=individual&question=8"
@@ -25201,6 +25553,7 @@
       "text": "What age do you think people should retire at?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.1&part=individual&question=4"
@@ -25272,6 +25625,7 @@
       "text": "whether the elderly cleaner should have been fined",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.2&part=group&question=1"
@@ -25314,6 +25668,7 @@
       "text": "Do you think there is a lot of litter in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.2&part=individual&question=1"
@@ -25414,6 +25769,7 @@
       "text": "Should rich people pay the same fines as poor people?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.2&part=individual&question=8"
@@ -25442,7 +25798,7 @@
       "text": "what you should or should not take on the trip",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.3&part=group&question=2"
     },
@@ -25540,6 +25896,7 @@
       "text": "Should mountain bikes be allowed to use hiking paths?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2017-8.3&part=individual&question=6"
@@ -25640,6 +25997,7 @@
       "text": "Is Hong Kong a good place for elderly people?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.1&part=individual&question=2"
@@ -25668,6 +26026,7 @@
       "text": "Does Hong Kong help elderly people enough?",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.1&part=individual&question=4"
@@ -25682,6 +26041,7 @@
       "text": "Should elderly people live with their families?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.1&part=individual&question=5"
@@ -25696,6 +26056,7 @@
       "text": "Is loneliness a big problem in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.1&part=individual&question=6"
@@ -25739,6 +26100,7 @@
       "text": "why TVB was so successful in Hong Kong in the past",
       "translation": "為甚麼無綫電視過去在香港如此成功",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.2&part=group&question=1"
@@ -25826,6 +26188,7 @@
       "text": "Do you prefer local TV programmes or foreign TV programmes?",
       "translation": "你較喜歡本地電視節目，還是外國電視節目？",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.2&part=individual&question=4"
@@ -25854,6 +26217,7 @@
       "text": "Should the government do more to support free TV stations?",
       "translation": "政府應否提供更多支援給免費電視台？",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.2&part=individual&question=6"
@@ -25883,6 +26247,7 @@
       "text": "How important is TVB to Hong Kong culture?",
       "translation": "無綫電視對香港文化有多重要？",
       "types": [
+        "country",
         "importance"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.2&part=individual&question=8"
@@ -25954,7 +26319,7 @@
       "text": "Do people in Hong Kong text too much?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.3&part=individual&question=2"
     },
@@ -25982,6 +26347,7 @@
       "text": "Should students be able to text their teachers at any time?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.3&part=individual&question=4"
@@ -25996,6 +26362,7 @@
       "text": "Should schools set rules about texting?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.3&part=individual&question=5"
@@ -26082,6 +26449,7 @@
       "text": "other sharing services that could be introduced in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "planning"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-2.1&part=group&question=3"
@@ -26138,6 +26506,7 @@
       "text": "Why can cycling in Hong Kong be dangerous?",
       "translation": "",
       "types": [
+        "country",
         "reasons",
         "disadvantages"
       ],
@@ -26397,6 +26766,8 @@
       "text": "whether it should be available for all students in Hong Kong",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-2.3&part=group&question=3"
@@ -26765,6 +27136,7 @@
       "text": "What skills do you need to be good at e-sports?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-3.2&part=individual&question=4"
@@ -26779,6 +27151,7 @@
       "text": "Should schools teach e-sports in PE lessons?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-3.2&part=individual&question=5"
@@ -26822,6 +27195,7 @@
       "text": "Should the government promote e-sports festivals?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -26968,6 +27342,7 @@
       "text": "Should duties be different for male and female firefighters?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-3.3&part=individual&question=7"
@@ -26982,7 +27357,7 @@
       "text": "Does Hong Kong society appreciate firefighters?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-3.3&part=individual&question=8"
     },
@@ -27150,6 +27525,7 @@
       "text": "the differences between Hong Kong and Taiwan",
       "translation": "",
       "types": [
+        "country",
         "comparisons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-4.2&part=group&question=1"
@@ -27235,6 +27611,7 @@
       "text": "What do you think people miss when they move away from Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-4.2&part=individual&question=4"
@@ -27391,6 +27768,7 @@
       "text": "Should students who don’t go to class still pass the course?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-4.3&part=individual&question=4"
@@ -27433,6 +27811,7 @@
       "text": "Are students mature enough to decide if they need to go to class?",
       "translation": "",
       "types": [
+        "should",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-4.3&part=individual&question=7"
@@ -27492,6 +27871,8 @@
       "text": "whether boxing should be promoted in secondary schools in Hong Kong",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -27521,7 +27902,7 @@
       "text": "Is boxing a popular sport in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.1&part=individual&question=2"
     },
@@ -27549,6 +27930,7 @@
       "text": "Should girls do boxing?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.1&part=individual&question=4"
@@ -27563,7 +27945,7 @@
       "text": "Does boxing get enough support in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.1&part=individual&question=5"
     },
@@ -27652,6 +28034,7 @@
       "text": "whether parents should let their children take part in talent shows",
       "translation": "父母應否讓子女參加才藝表演節目",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.2&part=group&question=3"
@@ -27694,6 +28077,7 @@
       "text": "Should schools organise talent shows for students?",
       "translation": "學校應否為學生舉辦才藝表演？",
       "types": [
+        "should",
         "planning",
         "opinions"
       ],
@@ -27864,6 +28248,7 @@
       "text": "Should the government do more to improve Victoria Harbour?",
       "translation": "",
       "types": [
+        "should",
         "solutions",
         "opinions"
       ],
@@ -27879,6 +28264,7 @@
       "text": "Should the harbour be for business or for pleasure?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.3&part=individual&question=5"
@@ -27908,6 +28294,7 @@
       "text": "Should the government make Victoria Harbour more accessible to the public?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.3&part=individual&question=7"
@@ -27922,7 +28309,7 @@
       "text": "Would you say that Victoria Harbour is the symbol of Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-5.3&part=individual&question=8"
     },
@@ -27964,6 +28351,8 @@
       "text": "what rules there should be about flying drones in Hong Kong",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.1&part=group&question=3"
@@ -27992,7 +28381,7 @@
       "text": "Are drones popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.1&part=individual&question=2"
     },
@@ -28006,7 +28395,7 @@
       "text": "Where is a good place to fly a drone in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.1&part=individual&question=3"
     },
@@ -28234,6 +28623,7 @@
       "text": "Should governments control what is on the internet?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.2&part=individual&question=8"
@@ -28277,6 +28667,7 @@
       "text": "guidelines or advice schools should give students about dating",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.3&part=group&question=3"
@@ -28361,6 +28752,7 @@
       "text": "Should students tell their parents if they are dating?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "hypothetical"
       ],
@@ -28391,7 +28783,7 @@
       "text": "Do attitudes to dating in Hong Kong differ from those in China?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-6.3&part=individual&question=8"
     },
@@ -28493,6 +28885,7 @@
       "text": "Should schools use music and sounds to help students reduce stress?",
       "translation": "",
       "types": [
+        "should",
         "solutions",
         "opinions"
       ],
@@ -28522,6 +28915,7 @@
       "text": "What do you feel is the biggest cause of stress in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-7.1&part=individual&question=6"
@@ -28550,6 +28944,7 @@
       "text": "Do you think we should encourage more traditional ways of reducing stress?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -28849,6 +29244,7 @@
       "text": "Should parents encourage children to do summer jobs?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -28864,6 +29260,7 @@
       "text": "Should schools arrange summer jobs for students?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-7.3&part=individual&question=8"
@@ -28964,6 +29361,7 @@
       "text": "Is Hong Kong a suitable place for animal therapy?",
       "translation": "",
       "types": [
+        "country",
         "qualities",
         "opinions"
       ],
@@ -28979,6 +29377,7 @@
       "text": "Should animals be allowed into hospitals?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.1&part=individual&question=5"
@@ -29064,6 +29463,8 @@
       "text": "whether Hong Kong should be cash-free in the near future",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.2&part=group&question=3"
@@ -29092,7 +29493,7 @@
       "text": "What things do you need to pay for in cash?",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.2&part=individual&question=2"
     },
@@ -29121,6 +29522,7 @@
       "text": "Should you always carry some cash?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.2&part=individual&question=4"
@@ -29304,6 +29706,7 @@
       "text": "Should schools teach students more about farming and nature?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.3&part=individual&question=6"
@@ -29318,6 +29721,7 @@
       "text": "Why are there so few farms in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-8.3&part=individual&question=7"
@@ -29375,6 +29779,7 @@
       "text": "what the government should do to reduce the problems residents face",
       "translation": "",
       "types": [
+        "should",
         "disadvantages",
         "solutions"
       ],
@@ -29474,6 +29879,7 @@
       "text": "Is the redevelopment of old areas too slow in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-1.1&part=individual&question=7"
@@ -29644,6 +30050,7 @@
       "text": "Are weddings still important in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "importance"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-1.2&part=individual&question=8"
@@ -29658,6 +30065,7 @@
       "text": "whether online crime is a serious problem in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "disadvantages",
         "opinions"
       ],
@@ -29673,6 +30081,7 @@
       "text": "what type of online crimes students should worry about most",
       "translation": "",
       "types": [
+        "should",
         "disadvantages",
         "description"
       ],
@@ -29688,7 +30097,7 @@
       "text": "how students should protect themselves",
       "translation": "",
       "types": [
-        "solutions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-1.3&part=group&question=3"
     },
@@ -29744,6 +30153,7 @@
       "text": "Should online safety be taught in schools?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-1.3&part=individual&question=4"
@@ -29800,6 +30210,7 @@
       "text": "Who should be blamed for online scams?",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "reasons"
       ],
@@ -29956,6 +30367,7 @@
       "text": "Should fortune tellers need a licence to practise?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.1&part=individual&question=8"
@@ -29970,6 +30382,7 @@
       "text": "whether parents should control students’ screen time",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.2&part=group&question=1"
@@ -30098,6 +30511,7 @@
       "text": "Should parents know everything their children do online?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.2&part=individual&question=7"
@@ -30126,6 +30540,7 @@
       "text": "whether Hong Kong is successful in international sport",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.3&part=group&question=1"
@@ -30140,6 +30555,7 @@
       "text": "whether sport is important to Hong Kong people",
       "translation": "",
       "types": [
+        "country",
         "importance",
         "opinions"
       ],
@@ -30155,6 +30571,7 @@
       "text": "whether Hong Kong can learn from other countries to improve sports",
       "translation": "",
       "types": [
+        "country",
         "solutions",
         "opinions"
       ],
@@ -30185,6 +30602,7 @@
       "text": "Why do many Hong Kong teenagers stop doing sport?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.3&part=individual&question=2"
@@ -30228,7 +30646,7 @@
       "text": "Are attitudes to sport changing in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.3&part=individual&question=5"
     },
@@ -30256,6 +30674,7 @@
       "text": "Will Hong Kong ever become famous for sport?",
       "translation": "",
       "types": [
+        "country",
         "predictions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-2.3&part=individual&question=7"
@@ -30285,6 +30704,7 @@
       "text": "whether young people in Hong Kong use Facebook",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-3.1&part=group&question=1"
@@ -30370,6 +30790,7 @@
       "text": "Should schools teach students how to use social media effectively?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-3.1&part=individual&question=4"
@@ -30542,6 +30963,7 @@
       "text": "Should it be illegal for men and women to be paid differently?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-3.2&part=individual&question=5"
@@ -30584,6 +31006,7 @@
       "text": "Is Hong Kong becoming a fairer society?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-3.2&part=individual&question=8"
@@ -30868,7 +31291,7 @@
       "text": "Do we need to teach politeness?",
       "translation": "",
       "types": [
-        "opinions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-4.1&part=individual&question=6"
     },
@@ -31011,6 +31434,8 @@
       "text": "Should non-Chinese people in Hong Kong have a Chinese name?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-4.2&part=individual&question=5"
@@ -31053,6 +31478,7 @@
       "text": "What should parents consider when choosing names for their children?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-4.2&part=individual&question=8"
@@ -31151,6 +31577,7 @@
       "text": "Should senior form students be role models?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-4.3&part=individual&question=4"
@@ -31249,6 +31676,7 @@
       "text": "what rules there should be about the use of CCTV cameras in school",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.1&part=group&question=3"
@@ -31319,6 +31747,7 @@
       "text": "Are there some public places where there should be no CCTV?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.1&part=individual&question=5"
@@ -31333,6 +31762,7 @@
       "text": "Should people be worried about losing privacy?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.1&part=individual&question=6"
@@ -31347,6 +31777,7 @@
       "text": "Should CCTV recordings be shown on the news?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.1&part=individual&question=7"
@@ -31376,6 +31807,7 @@
       "text": "why Hong Kong universities want to develop in mainland China",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.2&part=group&question=1"
@@ -31390,6 +31822,7 @@
       "text": "what problems Hong Kong students may face studying on the Mainland",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.2&part=group&question=2"
@@ -31488,6 +31921,7 @@
       "text": "Is studying outside Hong Kong beneficial?",
       "translation": "",
       "types": [
+        "country",
         "advantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.2&part=individual&question=6"
@@ -31502,6 +31936,8 @@
       "text": "Should more Hong Kong institutions expand to the Mainland?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.2&part=individual&question=7"
@@ -31629,7 +32065,7 @@
       "text": "Who else should be taken on the space trip?",
       "translation": "",
       "types": [
-        "description"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.3&part=individual&question=5"
     },
@@ -31657,6 +32093,7 @@
       "text": "Should space travel be organised by private companies or by governments?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.3&part=individual&question=7"
@@ -31671,6 +32108,7 @@
       "text": "What qualities do you need to be a space traveller?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-5.3&part=individual&question=8"
@@ -31755,6 +32193,7 @@
       "text": "How do wild animals cause problems in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.1&part=individual&question=3"
@@ -31769,6 +32208,7 @@
       "text": "What is the best way to control the number of monkeys in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.1&part=individual&question=4"
@@ -31797,6 +32237,7 @@
       "text": "Do you think most Hong Kong people are animal lovers?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.1&part=individual&question=6"
@@ -31811,7 +32252,7 @@
       "text": "What animals are the most troublesome in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.1&part=individual&question=7"
     },
@@ -31854,6 +32295,7 @@
       "text": "whether translation devices should be allowed at school",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.2&part=group&question=2"
@@ -32053,7 +32495,7 @@
       "text": "What are interesting places to take selfies in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-6.3&part=individual&question=2"
     },
@@ -32253,7 +32695,7 @@
       "text": "What is the best local Hong Kong food for tourists to try?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.1&part=individual&question=5"
     },
@@ -32267,6 +32709,7 @@
       "text": "Do you think tourists would enjoy this special Hong Kong drink?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.1&part=individual&question=6"
@@ -32281,6 +32724,8 @@
       "text": "What other parts of Hong Kong culture should be promoted?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.1&part=individual&question=7"
@@ -32351,7 +32796,7 @@
       "text": "Is electronic lai see popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.2&part=individual&question=1"
     },
@@ -32393,6 +32838,7 @@
       "text": "Why are e-payments not popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.2&part=individual&question=4"
@@ -32463,6 +32909,7 @@
       "text": "whether Hong Kong really is an unequal society",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=group&question=1"
@@ -32492,6 +32939,7 @@
       "text": "policies that would make Hong Kong a more equal society",
       "translation": "",
       "types": [
+        "country",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=group&question=3"
@@ -32506,6 +32954,7 @@
       "text": "Do you like living in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=individual&question=1"
@@ -32520,7 +32969,7 @@
       "text": "Do poor people need more help in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=individual&question=2"
     },
@@ -32534,6 +32983,7 @@
       "text": "Do people worry about Hong Kong being unequal?",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=individual&question=3"
@@ -32548,7 +32998,7 @@
       "text": "Does everyone in Hong Kong have an equal chance to be successful?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=individual&question=4"
     },
@@ -32562,6 +33012,7 @@
       "text": "Is Hong Kong a fair society?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-7.3&part=individual&question=5"
@@ -32647,6 +33098,7 @@
       "text": "What rules you think co-living accommodation should have",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-8.1&part=group&question=3"
@@ -32762,6 +33214,7 @@
       "text": "Should the government encourage co-living?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -32903,6 +33356,7 @@
       "text": "Should private companies do more to help solve the problem of homelessness?",
       "translation": "",
       "types": [
+        "should",
         "disadvantages",
         "solutions",
         "opinions"
@@ -32962,6 +33416,7 @@
       "text": "Whether age should be a factor in choosing a leader",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-8.3&part=group&question=3"
@@ -33018,6 +33473,7 @@
       "text": "Should older leaders be respected because of their age?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-8.3&part=individual&question=4"
@@ -33060,6 +33516,7 @@
       "text": "Should there be age limits on leaders?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2019-8.3&part=individual&question=7"
@@ -33116,6 +33573,7 @@
       "text": "Whether unmanned convenience stores are a good idea for Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-1.1&part=group&question=3"
@@ -33243,6 +33701,7 @@
       "text": "Whether going to cinemas is a popular pastime in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-1.2&part=group&question=1"
@@ -33412,6 +33871,7 @@
       "text": "Whether your school should encourage students to take up a vegetarian diet",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -33513,6 +33973,7 @@
       "text": "How could vegetarianism be promoted in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -33585,6 +34046,7 @@
       "text": "Whether companies should have flexible working hours for people with different sleeping patterns",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.1&part=group&question=3"
@@ -33784,6 +34246,7 @@
       "text": "Do you think many Hong Kong teachers are active on social media?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.2&part=individual&question=3"
@@ -33812,6 +34275,7 @@
       "text": "Should schools teach students how to use social media safely?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.2&part=individual&question=5"
@@ -33826,6 +34290,7 @@
       "text": "Should parents monitor their children’s friends on social media?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.2&part=individual&question=6"
@@ -33854,6 +34319,7 @@
       "text": "Should schools monitor their students’ social media activities?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.2&part=individual&question=8"
@@ -33954,7 +34420,7 @@
       "text": "How do students usually celebrate graduation in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-2.3&part=individual&question=4"
     },
@@ -34123,7 +34589,7 @@
       "text": "Do Hong Kong teens like to follow fashion trends?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-3.1&part=individual&question=5"
     },
@@ -34307,6 +34773,7 @@
       "text": "Should cleaning staff receive more respect in society?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-3.2&part=individual&question=7"
@@ -34420,6 +34887,7 @@
       "text": "Are there enough green spaces in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-3.3&part=individual&question=4"
@@ -34434,7 +34902,7 @@
       "text": "Is gardening a popular hobby in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-3.3&part=individual&question=5"
     },
@@ -34462,6 +34930,7 @@
       "text": "Should there be plants in the work environment?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-3.3&part=individual&question=7"
@@ -34518,6 +34987,7 @@
       "text": "Whether wearable smart devices should be allowed at school",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-4.1&part=group&question=3"
@@ -34732,7 +35202,7 @@
       "text": "Are Hong Kong students adaptable?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-4.2&part=individual&question=4"
     },
@@ -35175,7 +35645,7 @@
       "text": "Do many people sell things online in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-5.2&part=individual&question=2"
     },
@@ -35359,6 +35829,7 @@
       "text": "Should yoga be taught in school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-5.3&part=individual&question=4"
@@ -35401,6 +35872,7 @@
       "text": "Is Hong Kong becoming a healthier society?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-5.3&part=individual&question=7"
@@ -35575,6 +36047,7 @@
       "text": "Should advertisements targeting children be banned?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -35902,7 +36375,7 @@
       "text": "Hong Kong people’s attitude towards time",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-7.1&part=group&question=1"
     },
@@ -36015,7 +36488,7 @@
       "text": "Do Hong Kong people have good work-life balance?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-7.1&part=individual&question=6"
     },
@@ -36143,6 +36616,7 @@
       "text": "Should internships be compulsory for students?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-7.2&part=individual&question=4"
@@ -36171,6 +36645,7 @@
       "text": "Should the video gaming industry do more to attract female workers?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -36298,6 +36773,7 @@
       "text": "Should cafes use wild animals to attract customers?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -36429,6 +36905,7 @@
       "text": "Is eating healthy food important to people in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "importance"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.1&part=individual&question=2"
@@ -36443,6 +36920,7 @@
       "text": "Should people change their diet to help the environment?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.1&part=individual&question=3"
@@ -36457,6 +36935,8 @@
       "text": "Do you think Hong Kong should promote eating insects?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -36472,6 +36952,7 @@
       "text": "Should restaurants have insects on their menu?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.1&part=individual&question=5"
@@ -36501,6 +36982,8 @@
       "text": "Should Hong Kong develop insect farms?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.1&part=individual&question=7"
@@ -36529,6 +37012,7 @@
       "text": "What makes Hong Kong suitable for walking",
       "translation": "",
       "types": [
+        "country",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.2&part=group&question=1"
@@ -36543,7 +37027,7 @@
       "text": "What discourages people from walking in Hong Kong",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.2&part=group&question=2"
     },
@@ -36557,6 +37041,7 @@
       "text": "Whether you think Hong Kong people are active",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.2&part=group&question=3"
@@ -36585,7 +37070,7 @@
       "text": "Where is the best place in Hong Kong to go for a walk?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.2&part=individual&question=2"
     },
@@ -36782,6 +37267,7 @@
       "text": "Do you think classical music concerts should be free for young people?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.3&part=individual&question=5"
@@ -36796,6 +37282,7 @@
       "text": "Is Hong Kong a good place for outdoor concerts?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.3&part=individual&question=6"
@@ -36810,6 +37297,7 @@
       "text": "Can concerts attract more tourists to visit Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2023-8.3&part=individual&question=7"
@@ -36866,6 +37354,7 @@
       "text": "how local museums can compete with digital museums to attract visitors",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.1&part=group&question=3"
@@ -36894,6 +37383,7 @@
       "text": "Should there be more art lessons in schools?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.1&part=individual&question=2"
@@ -36937,6 +37427,7 @@
       "text": "Should students be encouraged to visit art museums?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -36966,6 +37457,7 @@
       "text": "Should all museums be free to the public?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.1&part=individual&question=7"
@@ -37180,6 +37672,7 @@
       "text": "how to decide whether a building should stay or be replaced",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.3&part=group&question=3"
@@ -37208,6 +37701,7 @@
       "text": "Do you have a favourite building in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences",
         "preferences"
       ],
@@ -37223,6 +37717,7 @@
       "text": "Which district in Hong Kong has the most beautiful buildings?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.3&part=individual&question=3"
@@ -37237,6 +37732,8 @@
       "text": "Should Hong Kong build even taller buildings?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.3&part=individual&question=4"
@@ -37251,6 +37748,7 @@
       "text": "Should a building be approved by the public before it is built?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-1.3&part=individual&question=5"
@@ -37280,6 +37778,7 @@
       "text": "Do you think Hong Kong looks different to other big cities?",
       "translation": "",
       "types": [
+        "country",
         "opinions",
         "comparisons"
       ],
@@ -37337,6 +37836,8 @@
       "text": "whether Hong Kong should follow any of the above management strategies",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.1&part=group&question=3"
@@ -37351,7 +37852,7 @@
       "text": "What do tourists like to do in Hong Kong?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.1&part=individual&question=1"
     },
@@ -37379,7 +37880,7 @@
       "text": "What makes Hong Kong a good place to visit?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.1&part=individual&question=3"
     },
@@ -37449,6 +37950,7 @@
       "text": "How can you be a responsible tourist?",
       "translation": "",
       "types": [
+        "should",
         "solutions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.1&part=individual&question=8"
@@ -37463,6 +37965,7 @@
       "text": "whether driverless trams are a good idea for Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.2&part=group&question=1"
@@ -37533,7 +38036,7 @@
       "text": "Is public transport in Hong Kong too crowded?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.2&part=individual&question=3"
     },
@@ -37561,7 +38064,7 @@
       "text": "Are trams getting less popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.2&part=individual&question=5"
     },
@@ -37575,6 +38078,7 @@
       "text": "Should more people use public transport?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.2&part=individual&question=6"
@@ -37589,6 +38093,7 @@
       "text": "Will driverless vehicles become more common in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "predictions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.2&part=individual&question=7"
@@ -37687,6 +38192,7 @@
       "text": "Should snacks be banned from school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.3&part=individual&question=3"
@@ -37729,6 +38235,7 @@
       "text": "Should companies provide comfort food for their employees?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.3&part=individual&question=6"
@@ -37743,6 +38250,7 @@
       "text": "Should comfort food come with health warnings?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-2.3&part=individual&question=7"
@@ -37870,6 +38378,7 @@
       "text": "Why are coffee shops so popular in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-3.1&part=individual&question=5"
@@ -37927,6 +38436,7 @@
       "text": "which type of podcast can best promote Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "preferences"
       ],
@@ -38069,6 +38579,7 @@
       "text": "What skills should a podcast host have?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-3.2&part=individual&question=8"
@@ -38155,6 +38666,7 @@
       "text": "Is a lot of food wasted in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-3.3&part=individual&question=3"
@@ -38183,6 +38695,7 @@
       "text": "Do you think the Blue Fridge project would work where you live?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-3.3&part=individual&question=5"
@@ -38211,6 +38724,7 @@
       "text": "Should more be done to raise awareness for communities in need?",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -38226,6 +38740,7 @@
       "text": "What should you consider before volunteering?",
       "translation": "",
       "types": [
+        "should",
         "qualities"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-3.3&part=individual&question=8"
@@ -38296,6 +38811,7 @@
       "text": "Why is going to university important to Hong Kong students?",
       "translation": "",
       "types": [
+        "country",
         "reasons",
         "importance"
       ],
@@ -38325,6 +38841,7 @@
       "text": "When should students start thinking about their career?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.1&part=individual&question=4"
@@ -38397,6 +38914,7 @@
       "text": "why students should join a book club",
       "translation": "",
       "types": [
+        "should",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.2&part=group&question=1"
@@ -38482,7 +39000,7 @@
       "text": "Are Hong Kong people too busy to read books?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.2&part=individual&question=4"
     },
@@ -38552,6 +39070,7 @@
       "text": "why introducing Hong Kong through smells is a good idea",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.3&part=group&question=1"
@@ -38566,6 +39085,7 @@
       "text": "which three smells best represent Hong Kong and why",
       "translation": "",
       "types": [
+        "country",
         "preferences",
         "reasons"
       ],
@@ -38680,6 +39200,7 @@
       "text": "Should foods that have strong smells be banned in public areas?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.3&part=individual&question=7"
@@ -38694,6 +39215,7 @@
       "text": "Should movies incorporate smell in their production?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-4.3&part=individual&question=8"
@@ -38835,6 +39357,7 @@
       "text": "Should students pursue artistic talents rather than academics?",
       "translation": "",
       "types": [
+        "should",
         "comparisons",
         "opinions"
       ],
@@ -38993,6 +39516,7 @@
       "text": "Should students start planning their careers in secondary school?",
       "translation": "",
       "types": [
+        "should",
         "planning",
         "opinions"
       ],
@@ -39050,6 +39574,7 @@
       "text": "whether homeschooling will become more popular in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "predictions",
         "opinions"
       ],
@@ -39107,6 +39632,7 @@
       "text": "Why don't parents in Hong Kong homeschool their children?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-5.3&part=individual&question=4"
@@ -39249,6 +39775,7 @@
       "text": "Should teachers give extra marks for good handwriting?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-6.1&part=individual&question=3"
@@ -39277,6 +39804,7 @@
       "text": "Should calligraphy be made a school subject?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-6.1&part=individual&question=5"
@@ -39445,6 +39973,7 @@
       "text": "Should schools offer after-school farming classes?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-6.2&part=individual&question=6"
@@ -39515,6 +40044,7 @@
       "text": "which online job Hong Kong teenagers would be most interested in",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-6.3&part=group&question=3"
@@ -39616,6 +40146,7 @@
       "text": "Should people under sixteen be allowed to work online?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-6.3&part=individual&question=7"
@@ -39732,6 +40263,7 @@
       "text": "What other local attractions do students like to visit?",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-7.1&part=individual&question=4"
@@ -39775,6 +40307,7 @@
       "text": "Should schools offer more learning outside of the classroom?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-7.1&part=individual&question=7"
@@ -39833,6 +40366,7 @@
       "text": "whether afternoon naps should be included in the school timetable",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "planning"
       ],
@@ -40003,7 +40537,7 @@
       "text": "Are sports events popular in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-7.3&part=individual&question=1"
     },
@@ -40060,6 +40594,7 @@
       "text": "How else could the Cross Harbour Race be promoted in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "persuasion",
         "solutions"
       ],
@@ -40075,6 +40610,7 @@
       "text": "How can Hong Kong benefit from holding major sports events?",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "solutions"
       ],
@@ -40132,6 +40668,7 @@
       "text": "whether instant noodles should be included in the exhibition",
       "translation": "",
       "types": [
+        "should",
         "opinions",
         "planning"
       ],
@@ -40189,6 +40726,7 @@
       "text": "Should students be allowed to eat any food they like at school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-8.1&part=individual&question=3"
@@ -40203,6 +40741,7 @@
       "text": "Which fast food would you choose to represent Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-8.1&part=individual&question=4"
@@ -40217,6 +40756,7 @@
       "text": "Should the school tuck shop sell instant noodles?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-8.1&part=individual&question=5"
@@ -40301,6 +40841,7 @@
       "text": "whether private space travel should be encouraged",
       "translation": "",
       "types": [
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -40570,6 +41111,7 @@
       "text": "Should selling on social media be more regulated?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-8.3&part=individual&question=8"
@@ -40697,6 +41239,7 @@
       "text": "How has Cheung's success influenced Hong Kong people?",
       "translation": "",
       "types": [
+        "country",
         "effects"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.1&part=individual&question=6"
@@ -40726,6 +41269,7 @@
       "text": "Should the government invest more in producing elite athletes?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.1&part=individual&question=8"
@@ -40754,7 +41298,7 @@
       "text": "places in Hong Kong that are popular for taking photos",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.2&part=group&question=2"
     },
@@ -40768,6 +41312,7 @@
       "text": "whether Hong Kong needs to have rules for photo taking in public places",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.2&part=group&question=3"
@@ -40880,6 +41425,7 @@
       "text": "Do you think tourism causes disruption to local people?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.2&part=individual&question=8"
@@ -40965,7 +41511,7 @@
       "text": "Do teenagers in Hong Kong spend too much time on their smartphones?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.3&part=individual&question=3"
     },
@@ -40993,6 +41539,7 @@
       "text": "Should students be allowed to use smartphones in school?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.3&part=individual&question=5"
@@ -41007,6 +41554,7 @@
       "text": "Do you think schools should provide laptops for students?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.3&part=individual&question=6"
@@ -41035,6 +41583,7 @@
       "text": "Should very young children be allowed to use a smartphone?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-1.3&part=individual&question=8"
@@ -41063,6 +41612,7 @@
       "text": "why some Hong Kong people prefer Shenzhen to other places",
       "translation": "",
       "types": [
+        "country",
         "reasons",
         "preferences"
       ],
@@ -41078,7 +41628,7 @@
       "text": "how Hong Kong businesses could keep people in the city during holidays",
       "translation": "",
       "types": [
-        "solutions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.1&part=group&question=3"
     },
@@ -41148,6 +41698,7 @@
       "text": "Do you think the trend of Hong Kong people travelling to Shenzhen will continue?",
       "translation": "",
       "types": [
+        "country",
         "opinions",
         "predictions"
       ],
@@ -41163,7 +41714,7 @@
       "text": "Apart from going to Shenzhen, how could Hong Kong people spend their free time?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.1&part=individual&question=6"
     },
@@ -41191,6 +41742,7 @@
       "text": "How will the travel habits of Hong Kong people change in the future?",
       "translation": "",
       "types": [
+        "country",
         "predictions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.1&part=individual&question=8"
@@ -41205,6 +41757,7 @@
       "text": "the benefits and challenges of being a driver in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "disadvantages"
       ],
@@ -41220,6 +41773,7 @@
       "text": "whether Hong Kong is a car-friendly city",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=group&question=2"
@@ -41234,6 +41788,7 @@
       "text": "reasons why so few teenagers learn to drive in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=group&question=3"
@@ -41262,7 +41817,7 @@
       "text": "Do young people in Hong Kong usually learn to drive?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=individual&question=2"
     },
@@ -41276,6 +41831,7 @@
       "text": "Is Hong Kong a safe city for driving?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=individual&question=3"
@@ -41290,6 +41846,7 @@
       "text": "Do you think schools should teach students how to drive?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=individual&question=4"
@@ -41304,6 +41861,7 @@
       "text": "Do you think it is necessary for teenagers to learn to drive in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "importance",
         "opinions"
       ],
@@ -41319,6 +41877,8 @@
       "text": "Should the government encourage more or less car ownership in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "persuasion",
         "opinions"
       ],
@@ -41334,6 +41894,8 @@
       "text": "Should Hong Kong young people be allowed to drive at a younger age than 18 years old?",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.2&part=individual&question=7"
@@ -41362,6 +41924,7 @@
       "text": "common fears that Hong Kong teenagers have",
       "translation": "",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-2.3&part=group&question=1"
@@ -41550,6 +42113,7 @@
       "text": "possible benefits of these activities for animals and local communities",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "planning"
       ],
@@ -41650,6 +42214,7 @@
       "text": "Should all animal shows be banned?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.1&part=individual&question=7"
@@ -41678,6 +42243,7 @@
       "text": "whether music groups are popular in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.2&part=group&question=1"
@@ -41762,6 +42328,7 @@
       "text": "Should all children learn to play a musical instrument?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.2&part=individual&question=4"
@@ -41776,6 +42343,7 @@
       "text": "Do teens usually prefer music from Hong Kong or music from other places?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.2&part=individual&question=5"
@@ -41790,7 +42358,7 @@
       "text": "Do older and younger people in Hong Kong like the same kinds of music?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.2&part=individual&question=6"
     },
@@ -41833,6 +42401,7 @@
       "text": "whether Hong Kong students are aware of the importance of self-care",
       "translation": "",
       "types": [
+        "country",
         "importance",
         "opinions"
       ],
@@ -41935,7 +42504,7 @@
       "text": "Do students in Hong Kong have enough time to do exercise?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.3&part=individual&question=5"
     },
@@ -41978,6 +42547,7 @@
       "text": "Who should be responsible for students' health: schools or parents?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-3.3&part=individual&question=8"
@@ -42091,6 +42661,7 @@
       "text": "Should all anime movies have a happy ending?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-4.1&part=individual&question=5"
@@ -42218,7 +42789,7 @@
       "text": "Are personality tests popular among young people in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-4.2&part=individual&question=3"
     },
@@ -42289,6 +42860,7 @@
       "text": "Should employers be allowed to use personality tests?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-4.2&part=individual&question=8"
@@ -42402,7 +42974,7 @@
       "text": "Is camping a popular activity in Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-4.3&part=individual&question=5"
     },
@@ -42486,6 +43058,7 @@
       "text": "whether bamboo scaffolding is part of Hong Kong’s heritage",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=group&question=3"
@@ -42500,6 +43073,7 @@
       "text": "Do you often see bamboo scaffolding in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=individual&question=1"
@@ -42528,6 +43102,7 @@
       "text": "Would you like to work in the construction industry in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=individual&question=3"
@@ -42542,7 +43117,7 @@
       "text": "Are you worried when you have to walk under bamboo scaffolding?",
       "translation": "",
       "types": [
-        "opinions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=individual&question=4"
     },
@@ -42556,6 +43131,7 @@
       "text": "Should bamboo scaffolders be paid high salaries?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=individual&question=5"
@@ -42584,6 +43160,7 @@
       "text": "Should bamboo scaffolding be taught at secondary schools?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.1&part=individual&question=7"
@@ -42643,6 +43220,7 @@
       "text": "whether coffee and energy drinks should be sold to teenagers",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.2&part=group&question=3"
@@ -42713,6 +43291,7 @@
       "text": "Should schools ban unhealthy drinks?",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.2&part=individual&question=5"
@@ -42881,6 +43460,7 @@
       "text": "Do you think taking a gap year is popular among Hong Kong young people?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-5.3&part=individual&question=6"
@@ -42923,7 +43503,7 @@
       "text": "what Hong Kong people normally do with their unwanted clothes",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.1&part=group&question=1"
     },
@@ -42937,6 +43517,7 @@
       "text": "why second-hand fashion is growing in Hong Kong",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.1&part=group&question=2"
@@ -43064,6 +43645,7 @@
       "text": "How has the pandemic changed clothes shopping in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "effects"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.1&part=individual&question=8"
@@ -43078,6 +43660,8 @@
       "text": "why Hong Kong students should learn other languages",
       "translation": "",
       "types": [
+        "country",
+        "should",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.2&part=group&question=1"
@@ -43205,6 +43789,7 @@
       "text": "Do you think you will need to learn more languages in the future?",
       "translation": "",
       "types": [
+        "should",
         "predictions",
         "opinions"
       ],
@@ -43220,7 +43805,7 @@
       "text": "Do you need to know a country's culture to learn its language?",
       "translation": "",
       "types": [
-        "opinions"
+        "should"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.2&part=individual&question=8"
     },
@@ -43334,6 +43919,7 @@
       "text": "Would you prefer to travel to far away places or to stay near to Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-6.3&part=individual&question=5"
@@ -43516,6 +44102,7 @@
       "text": "Do you think Hong Kong is suitable for urban beekeeping?",
       "translation": "",
       "types": [
+        "country",
         "qualities",
         "opinions"
       ],
@@ -43912,6 +44499,7 @@
       "text": "Have you ever taken a photo at a famous place in Hong Kong?",
       "translation": "",
       "types": [
+        "country",
         "experiences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-8.1&part=individual&question=2"
@@ -43940,7 +44528,7 @@
       "text": "Is social media useful for exploring Hong Kong?",
       "translation": "",
       "types": [
-        "opinions"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-8.1&part=individual&question=4"
     },
@@ -43954,6 +44542,7 @@
       "text": "What makes Hong Kong popular among tourists?",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-8.1&part=individual&question=5"
@@ -43982,6 +44571,7 @@
       "text": "What aspects of Hong Kong would you like to see on social media?",
       "translation": "",
       "types": [
+        "country",
         "preferences",
         "description"
       ],
@@ -44196,6 +44786,7 @@
       "text": "whether secondary school students should be concerned about their future careers",
       "translation": "",
       "types": [
+        "should",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-8.3&part=group&question=3"
@@ -44281,7 +44872,7 @@
       "text": "How do people in Hong Kong usually look for jobs?",
       "translation": "",
       "types": [
-        "description"
+        "country"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2025-8.3&part=individual&question=6"
     },

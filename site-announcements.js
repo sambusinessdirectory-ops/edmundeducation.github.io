@@ -5,6 +5,7 @@
   const STORAGE_KEY = "edmund-site-announcement-dismissals-v1";
   let announcements = [];
   let currentIndex = 0;
+  let stopCarousel = () => {};
 
   function readDismissals() {
     try {
@@ -58,6 +59,7 @@
       if (!event.target.closest("[data-announcement-dismiss]")) return;
       const current = announcements[currentIndex];
       if (current) saveDismissal(current);
+      stopCarousel();
       currentIndex += 1;
       if (currentIndex < announcements.length) render(dialog);
       else dialog.close();
@@ -74,20 +76,16 @@
       ? `公告 ${currentIndex + 1} / ${announcements.length}`
       : "";
     const gallery = dialog.querySelector("[data-announcement-gallery]");
-    gallery.replaceChildren();
+    stopCarousel();
     const images = Array.isArray(item.images) && item.images.length
       ? item.images : item.imageUrl ? [{ url: item.imageUrl }] : [];
+    const slides = [];
     for (const [index, entry] of images.entries()) {
       const url = String(entry?.url || "");
       if (!/^\/v1\/announcements\/[0-9a-f-]{36}\/(?:image|images\/[0-9a-f-]{36})\?v=\d+$/i.test(url)) continue;
-      const image = document.createElement("img");
-      image.className = "site-announcement-image";
-      image.src = `${API_BASE}${url}`;
-      image.alt = `公告圖片 ${index + 1}`;
-      image.loading = "eager";
-      gallery.append(image);
+      slides.push({ src: `${API_BASE}${url}`, alt: `公告圖片 ${index + 1}` });
     }
-    gallery.hidden = !gallery.childElementCount;
+    stopCarousel = window.EdmundAnnouncementRich.mountCarousel(gallery, slides);
     if (!dialog.open) dialog.showModal();
   }
 

@@ -103,9 +103,17 @@ assert.match(v2Sql, /a\.is_active and not a\.is_archived/);
 assert.match(v2Sql, /is_active = false, version = a\.version \+ 1/);
 assert.match(html, /data-announcement-message contenteditable="true"/);
 assert.match(html, /data-announcement-image type="file" multiple/);
+assert.match(html, /data-announcement-submit>儲存草稿/);
+assert.match(html, /data-announcement-preview>預覽及發佈/);
+assert.match(html, /data-announcement-preview-gallery/);
+assert.match(client, /isActive: requestedActive && !hasImageChanges/);
+assert.match(client, /announcementRich\.render\(dialog\.querySelector\("\[data-announcement-preview-message\]"\)/);
+assert.match(client, /announcementRich\.mountCarousel/);
+assert.match(client, /announcementRich\.applyColor/);
 assert.match(client, /announcementPendingImages\.splice\(index, 1\)/);
 assert.match(client, /announcementRemovedImageIds\.add/);
 assert.match(client, /archiveAnnouncement\(/);
 assert.match(publicClient, /EdmundAnnouncementRich\.render/);
+assert.match(publicClient, /EdmundAnnouncementRich\.mountCarousel/);
 
 console.log("Schedule announcement edit migration contract passed.");
