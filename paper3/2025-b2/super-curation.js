@@ -456,7 +456,8 @@
       if(step?.transcript){const match=transcriptSentences.find(item=>item.span===step.target);return match?.at??0;}
       return audio?.currentTime||0;
     }
-    return chapters.findIndex(ch=>ch.id===state.chapter)>2?517.2:-1;
+    return chapters.findIndex(ch=>ch.id===state.chapter)>2
+      ?Math.max(-1,...podcastCues.filter(cue=>state.heard.includes(`cue-${cue.id}`)).map(cue=>cue.at)):-1;
   }
   function syncGeneratedNotes(){
     if(noteTyping)return;

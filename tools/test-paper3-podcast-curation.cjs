@@ -42,6 +42,9 @@ const server=http.createServer((req,res)=>{
     assert.equal(await page.locator('#page-3 .curation-file-stamp-C').count(),1);
     await page.locator('#curation-next').click();
     assert.match(await page.locator('#curation-title').innerText(),/記下最後口號/);
+    await page.locator('[data-chapter="data"]').click();
+    assert.equal(await page.locator('.curation-transcript-sentence.is-revealed').count(),0,'skipping Podcast reveals no unplayed transcript marks');
+    await page.locator('[data-chapter="podcast"]').click();
     await page.locator('#curation-step-actions button').click();
     await page.waitForFunction(()=>document.querySelector('#page-3 audio').readyState>=1);
     assert.equal(await page.locator('#page-3 .notes-audio').evaluate(element=>getComputedStyle(element).position),'fixed','the same audio player floats throughout Podcast');
