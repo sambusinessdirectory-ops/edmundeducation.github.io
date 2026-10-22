@@ -305,6 +305,21 @@
         ["a rather small obstacle", "rather small obstacle 承認困難有限，沒有把它誇成難以跨越的障礙。"],
         ["a perfectly manageable hurdle", "manageable hurdle 表示困難可以處理，不是被誇大的危險。"],
         ["a real and serious threat", "real and serious threat 表示危險真實而重大，原題卻只是誇大小困難。"]
+      ],
+      "idiom-20": [
+        ["a clear favourite", "clear favourite 是賽前已被看好的人選，與黑馬的意外性不同。"],
+        ["a leading contender", "leading contender 指原本已受注目的競爭者，不是被低估的黑馬。"],
+        ["a likely winner", "likely winner 表示大家預計他會勝出，與原題的意外性不符。"]
+      ],
+      "idiom-25": [
+        ["the routine check", "routine check 只是例行檢查，沒有關鍵考驗的判斷力。"],
+        ["the preliminary trial", "preliminary trial 是初步測試，不一定能作最終判斷。"],
+        ["the final rehearsal", "final rehearsal 是預演，不是能驗證真正質素的關鍵考驗。"]
+      ],
+      "idiom-18": [
+        ["built on rock", "built on rock 表示基礎穩固，與原題的薄弱基礎相反。"],
+        ["grounded in verified facts", "verified facts 表示基礎已經核實，與原題未核實的前提不符。"],
+        ["supported by strong data", "strong data 表示有充分資料支持，並非建立在沙上。"]
       ]
     }[lesson.id];
     if (wholePhraseContrasts) {
@@ -320,6 +335,83 @@
         }
         if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
       }
+    }
+    if (lesson.id === "idiom-06") {
+      const verb = /^(strikes|struck|strike)\b/i.exec(phrase)?.[1]?.toLocaleLowerCase();
+      const variants = {
+        strike: ["wait until the best chance passes", "delay action until the chance fades", "ignore this opportunity until tomorrow"],
+        strikes: ["waits until the best chance passes", "delays action until the chance fades", "ignores this opportunity until tomorrow"],
+        struck: ["waited until the best chance passed", "delayed action until the chance faded", "ignored this opportunity until tomorrow"]
+      }[verb] || [];
+      variants.forEach((replacement, index) => {
+        if (foils.length === 3) return;
+        const text = source.replace(phrase, caseMatch(replacement));
+        const reasons = [
+          "這句等到好機會過去才行動，與趁時機尚在採取行動相反。",
+          "這句把行動拖延到機會漸失，沒有保留原題的把握時機之意。",
+          "這句忽略眼前機會，與本課慣用語的意思相反。"
+        ];
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
+      });
+    }
+    if (lesson.id === "idiom-14") {
+      const verb = /^(talks|talked|talking|talk) big$/i.exec(phrase)?.[1]?.toLocaleLowerCase();
+      const variants = {
+        talks: ["speaks modestly", "asks questions", "shares facts"],
+        talked: ["spoke modestly", "asked questions", "shared facts"],
+        talking: ["speaking modestly", "asking questions", "sharing facts"],
+        talk: ["speak modestly", "ask questions", "share facts"]
+      }[verb] || [];
+      variants.forEach((replacement, index) => {
+        if (foils.length === 3) return;
+        const text = source.replace(phrase, caseMatch(replacement));
+        const reasons = [
+          "speaks modestly 強調謙遜，沒有用本課慣用語表達誇口。",
+          "asks questions 是提問，並非誇耀自己的能力。",
+          "shares facts 是陳述資料，不等於誇大自己的本事。"
+        ];
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
+      });
+    }
+    if (lesson.id === "idiom-16") {
+      const verb = /^(breaks|breaking|broken|broke|break) the bank$/i.exec(phrase)?.[1]?.toLocaleLowerCase();
+      const variants = {
+        break: ["fit within the budget", "cost very much", "drain our savings"],
+        breaks: ["fits within the budget", "costs very much", "drains our savings"],
+        breaking: ["fitting within the budget", "costing very much", "draining our savings"],
+        broke: ["fit within the budget", "cost very much", "drained our savings"],
+        broken: ["fitted within the budget", "cost very much", "drained our savings"]
+      }[verb] || [];
+      variants.forEach((replacement, index) => {
+        if (foils.length === 3) return;
+        const text = source.replace(phrase, caseMatch(replacement));
+        const reasons = [
+          "fit within the budget 說的是開支能否負擔；須對照原題的肯定或否定語氣。",
+          "cost very much 只直接說價錢，沒有用本課的固定慣用語。",
+          "drain our savings 只說積蓄受影響，沒有用本課的固定慣用語。"
+        ];
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
+      });
+    }
+    if (lesson.id === "idiom-22") {
+      const verb = /^(takes|took|taken|taking|take) the plunge$/i.exec(phrase)?.[1]?.toLocaleLowerCase();
+      const variants = {
+        take: ["delay the choice", "avoid the decision", "consider the option"],
+        takes: ["delays the choice", "avoids the decision", "considers the option"],
+        took: ["delayed the choice", "avoided the decision", "considered the option"],
+        taken: ["delayed the choice", "avoided the decision", "considered the option"],
+        taking: ["delaying the choice", "avoiding the decision", "considering the option"]
+      }[verb] || [];
+      variants.forEach((replacement, index) => {
+        if (foils.length === 3) return;
+        const text = source.replace(phrase, caseMatch(replacement));
+        const reasons = [
+          "這句說延後決定，原題卻強調終於作出決定。",
+          "這句說迴避決定，與原題已採取行動相反。",
+          "這句只說考慮選項，沒有表達最後下定決心。"
+        ];
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
+      });
     }
     if (lesson.id === "idiom-17") {
       for (const [replacement, reason] of [
@@ -351,6 +443,32 @@
           if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
         });
       }
+      const specific = {
+        "idiom-08-q12": [
+          "I have always planned to return to this town one day, after I finish my studies.",
+          "I have always hoped to return to this town one day, perhaps with my old friends.",
+          "I have always expected to return to this town one day, after my work was done."
+        ],
+        "idiom-08-q19": [
+          "We sincerely hoped that the difficult year would end well for everyone.",
+          "We had clear evidence that the difficult year would end well for everyone.",
+          "We confidently expected that the difficult year would end well for everyone."
+        ],
+        "idiom-08-q46": [
+          "People keep saying the plan will work, but I do not have any convincing proof at all yet.",
+          "People keep saying the plan will work, but I do not trust the written report they gave.",
+          "People keep saying the plan will work, but I still need to see more reliable evidence."
+        ],
+        "idiom-08-q49": [
+          "I can read it in the report: the danger is real.",
+          "I can prove it with clear evidence: the danger is real.",
+          "I can see it in the records: the danger is real."
+        ]
+      }[question.id] || [];
+      for (const text of specific) {
+        if (foils.length === 3) break;
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: "這句改說希望、計劃或外在證據，沒有自然使用本課表達內心直覺的慣用語。" });
+      }
     }
     if (lesson.id === "idiom-09") {
       for (const [replacement, reason] of [
@@ -380,8 +498,8 @@
     if (lesson.id === "idiom-10") {
       const past = phrase.toLocaleLowerCase().startsWith("saw ");
       const alternatives = past
-        ? [["saw which way the vote went", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["saw which option the group chose", "這句只直接交代所選選項，沒有使用本課慣用語。"]]
-        : [["see which way the vote goes", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["see which option the group chooses", "這句只直接交代所選選項，沒有使用本課慣用語。"]];
+        ? [["saw which way the vote went", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["saw which option the group chose", "這句只直接交代所選選項，沒有使用本課慣用語。"], ["watched how the situation developed", "這句說觀察局勢，但沒有使用本課的慣用語。"]]
+        : [["see which way the vote goes", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["see which option the group chooses", "這句只直接交代所選選項，沒有使用本課慣用語。"], ["watch how the situation develops", "這句說觀察局勢，但沒有使用本課的慣用語。"]];
       for (const [replacement, reason] of alternatives) {
         if (foils.length === 3) break;
         const text = source.replace(phrase, caseMatch(replacement));
@@ -393,9 +511,11 @@
       if (match) {
         const lace = { hang: "lace", hangs: "laces", hung: "laced", hanging: "lacing" }[match[1].toLocaleLowerCase()];
         const put = { hang: "put", hangs: "puts", hung: "put", hanging: "putting" }[match[1].toLocaleLowerCase()];
+        const continueVerb = { hang: "continue", hangs: "continues", hung: "continued", hanging: "continuing" }[match[1].toLocaleLowerCase()];
         for (const [replacement, reason] of [
           [`${lace} up ${match[2]} boots`, "lace up boots 表示穿好球靴準備繼續踢，不是永久退役。"],
-          [`${put} on ${match[2]} boots`, "put on boots 是穿上球靴，並非結束球員生涯。"]
+          [`${put} on ${match[2]} boots`, "put on boots 是穿上球靴，並非結束球員生涯。"],
+          [`${continueVerb} ${match[2]} playing career`, "continue a playing career 表示繼續作賽，與退役相反。"]
         ]) {
           if (foils.length === 3) break;
           const text = source.replace(phrase, caseMatch(replacement));
@@ -466,7 +586,7 @@
       if (!phrase.toLocaleLowerCase().includes(search.toLocaleLowerCase())) continue;
       const altered = phrase.replace(new RegExp(search.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"), replacement);
       const text = source.replace(phrase, altered);
-      if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
+      if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason, kind: "fallback-form" });
       if (foils.length === 3) break;
     }
     return foils;
