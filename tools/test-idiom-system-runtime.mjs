@@ -958,6 +958,9 @@ test("first-five practice uses single-answer English choices, including ten them
       assert.equal(new Set(options).size, 4, `${question.id}: all four options must differ`);
       assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
       assert.equal(options[correctAt], question.answer);
+      const lengths = options.map((option) => option.trim().split(/\s+/).length);
+      assert.ok(Math.max(...lengths) - Math.min(...lengths) <= 1, `${question.id}: answer length must not reveal the correct choice`);
+      assert.ok(lengths[correctAt] !== Math.min(...lengths) || lengths.filter((length) => length === lengths[correctAt]).length > 1, `${question.id}: the correct choice cannot be uniquely shortest`);
       const highlighted = sut.compassMcHighlightedOptions(options, question.id);
       assert.equal(highlighted.length, 4, `${question.id}: highlight all four choices`);
       highlighted.forEach((markup, index) => {
@@ -974,13 +977,15 @@ test("first-five practice uses single-answer English choices, including ten them
     assert.ok(options.every((option) => option.includes("ground")), `${question.id}: the choices must differ in idiom use or meaning, not topic`);
   }
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
-  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
-  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 20);
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 60);
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 240);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('School debate'));
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes('data-pilot-batch='));
   assert.match(sut.elements.lessonContent.innerHTML, /<mark class="compass-mc-diff">/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /<textarea|data-answer-input=|data-compass-reveal|data-compass-complete/);
   assert.match(css, /\.compass-question \.question-prompt \.english \{ font-size: clamp\(20\.4px, 2\.4vw, 26\.4px\)/);
   assert.match(css, /\.compass-mc-option strong \{[^}]*font-size: clamp\(18px, 2\.04vw, 21\.6px\)/);
-  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('全部題目 · 英文選擇題'));
   const first = lesson.questions[0];
   const right = sut.compassMcOptions(first, lesson).correctAt;
   await sut.answerCompassMcQuestion(first.id, (right + 1) % 4);
@@ -996,10 +1001,6 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(payload.correctCount, 1);
   assert.equal(payload.totalCount, 50, "the protected catalog still counts the original questions");
   assert.equal(payload.result.questionState[first.id].lastAnswer, first.answer);
-  sut.state.exercise.pilotBatchIndex = 10;
-  sut.renderExercisePage(lesson);
-  assert.match(sut.elements.lessonContent.innerHTML, /第 11 \/ 12 組/);
-  assert.match(sut.elements.lessonContent.innerHTML, /School debate/);
   const extra = sut.compassPracticeQuestions(lesson)[50];
   await sut.answerCompassMcQuestion(extra.id, sut.compassMcOptions(extra, lesson).correctAt);
   assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
@@ -1007,7 +1008,7 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassReviewedCount(lesson), 2);
 });
 
-test("all four similar sentences highlight only their different words and clauses", () => {
+test("all four similarly sized sentences highlight the changed words", () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   const current = content.lessons[2];
   const question = current.questions[2];
@@ -1016,8 +1017,8 @@ test("all four similar sentences highlight only their different words and clause
   assert.equal(marked.length, 4);
   assert.ok(marked.some((value) => /<mark class="compass-mc-diff">running<\/mark>/.test(value)));
   assert.ok(marked.some((value) => /<mark class="compass-mc-diff">walking<\/mark>/.test(value)));
-  assert.ok(marked.some((value) => /<mark class="compass-mc-diff">although no useful work began until weeks later<\/mark>/.test(value)));
-  assert.ok(marked.some((value) => /<mark class="compass-mc-diff">even though arriving early was the only action taken<\/mark>/.test(value)));
+  assert.ok(marked.some((value) => /<mark class="compass-mc-diff">Friday<\/mark>/.test(value)));
+  assert.ok(marked.some((value) => /<mark class="compass-mc-diff">campaign<\/mark>/.test(value)));
   assert.ok(marked.every((value) => !/<mark class="compass-mc-diff">We need to hit the ground/.test(value)));
   assert.match(css, /\.compass-mc-diff \{[^}]*background: #ffe66b/);
 });
@@ -1029,29 +1030,28 @@ test("chop and change practice uses meaningful distractors and explains them aft
   const first = choppingLesson.questions[0];
   const { options, correctAt } = sut.compassMcOptions(first, choppingLesson);
   assert.equal(correctAt, 1);
-  assert.match(options[0], /has not changed his plan once/i);
+  assert.match(options[0], /chopping or changing/i);
   assert.match(options[1], /chopping and changing/i);
-  assert.match(options[2], /made his final choice yesterday/i);
-  assert.match(options[3], /settled on one weekend plan immediately/i);
+  assert.match(options[2], /next weekend/i);
+  assert.match(options[3], /this holiday/i);
   const highlighted = sut.compassMcHighlightedOptions(options, first.id);
-  assert.match(highlighted[0], /<mark class="compass-mc-diff">has not changed his plan once<\/mark>/);
-  assert.match(highlighted[1], /<mark class="compass-mc-diff">keeps chopping and changing<\/mark>/);
-  assert.match(highlighted[2], /<mark class="compass-mc-diff">made his final choice yesterday<\/mark>/);
-  assert.match(highlighted[3], /<mark class="compass-mc-diff">settled on one weekend plan immediately<\/mark>/);
+  assert.ok(highlighted[0].includes('<mark class="compass-mc-diff">or</mark>'));
+  assert.ok(highlighted[2].includes('<mark class="compass-mc-diff">next weekend</mark>'));
+  assert.ok(highlighted[3].includes('<mark class="compass-mc-diff">this holiday</mark>'));
   sut.openLesson(choppingLesson.id, { page: 8, attempt: attemptSeed({ lessonId: choppingLesson.id, totalCount: choppingLesson.questions.length }) });
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /原句卻說他已改了好幾次/);
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes('與原來的情境不符'));
   await sut.answerCompassMcQuestion(first.id, 0);
-  assert.match(sut.elements.lessonContent.innerHTML, /原句卻說他已改了好幾次/);
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /“chop and change” 表示反覆改變主意或計劃/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('把 “and” 改成 “or”'));
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes('“chop and change” 表示反覆改變主意或計劃'));
   await sut.answerCompassMcQuestion(first.id, correctAt);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>A：<\/b> Daniel 一次也沒有改過週末計劃/);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>B：<\/b> “chop and change” 表示反覆改變主意或計劃/);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>C：<\/b> Daniel 昨天已作最後決定/);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>D：<\/b> Daniel 一開始便選定同一個計劃/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('<b>A：</b> 固定慣用語是 “chop and change”'));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('<b>B：</b> “chop and change” 表示反覆改變主意或計劃'));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('<b>C：</b> 這句把原題的「this weekend」改成「next weekend」'));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('<b>D：</b> 這句把原題的「weekend」改成「holiday」'));
   assert.match(sut.elements.lessonContent.innerHTML, /class="compass-mc-feedback" lang="zh-Hant"/);
 });
 
-test("Compass choices resume the first unanswered batch and legacy self-reviews do not count as correct", () => {
+test("Compass choices show the full set after resuming and legacy self-reviews do not count as correct", () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
   sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
@@ -1062,14 +1062,15 @@ test("Compass choices resume the first unanswered batch and legacy self-reviews 
   assert.match(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
   const reviewed = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "correct", lastAnswer: question.answer, reveal: true }]));
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ correctCount: 20, result: { questionState: reviewed, correctIds: lesson.questions.slice(0, 20).map((question) => question.id) } }) });
-  assert.match(sut.elements.lessonContent.innerHTML, /第 5 \/ 12 組/);
-  assert.equal(sut.pilotBatchQuestions()[0].id, lesson.questions[20].id);
+  assert.equal(sut.pilotBatchQuestions().length, 60);
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 60);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('data-question-id="idiom-01-q21"'));
   sut.openLesson(lesson.id, { page: 8, questionId: lesson.questions[34].id });
-  assert.equal(sut.state.exercise.pilotBatchIndex, 6);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes('data-question-id="idiom-01-q35"'));
   const oldReview = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "pending", lastAnswer: "My reviewed draft", reveal: true }]));
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ result: { questionState: oldReview, correctIds: [] } }) });
   assert.equal(sut.compassReviewedCount(lesson), 0);
-  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes('data-pilot-batch='));
 });
 
 test("switching accounts isolates bonus progress and clears unsaved Compass choices", async () => {
