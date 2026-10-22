@@ -2,9 +2,9 @@
   const button = document.querySelector('[data-celeste-lab-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'sentence-celeste/celeste-sentence-lab.gif?v=20261022-2';
+  const gif = 'sentence-celeste/celeste-sentence-lab.gif?v=20261022-3';
   const stills = Array.from({ length: 5 }, (_, index) =>
-    `sentence-celeste/stills/celeste-${String(index + 1).padStart(2, '0')}.png?v=20261022-2`
+    `sentence-celeste/stills/celeste-${String(index + 1).padStart(2, '0')}.png?v=20261022-3`
   );
   const storageKey = 'edmund-sentence-celeste-playing';
   let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;

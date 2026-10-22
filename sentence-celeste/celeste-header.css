@@ -1,8 +1,8 @@
 .celeste-header-mascot {
   display: block;
-  flex: 0 0 64px;
-  width: 64px;
-  height: 64px;
+  flex: 0 0 68px;
+  width: 68px;
+  height: 68px;
   padding: 0;
   border: 0;
   border-radius: 50%;
@@ -25,8 +25,8 @@
 
 @media (max-width: 720px) {
   .celeste-header-mascot {
-    flex-basis: 52px;
-    width: 52px;
-    height: 52px;
+    flex-basis: 56px;
+    width: 56px;
+    height: 56px;
   }
 }
