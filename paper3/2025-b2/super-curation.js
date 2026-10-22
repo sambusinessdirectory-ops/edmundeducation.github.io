@@ -264,6 +264,21 @@
     }
   }
   const canonical=value=>normalize(String(value).replace(/[’‘]/g,"'"));
+  // These are the exact words whose construction is discussed by each guide.
+  const essayStructurePhrases={
+    A:{1:['A Relaxing and Rewarding Wellness Month'],2:['Three Returning Highlights'],3:['This July','with the theme'],4:['Three popular events will'],5:['instead of','making the activities more relevant'],6:['with new interactive booths'],7:['Meanwhile','while improving'],8:['What Students Said Last Year'],9:['Last year’s participants praised'],10:['They said'],11:['Some enjoyed','and picked up'],12:['Others found'],13:['With familiar favourites and fresh features'],14:['Get ready to']},
+    B:{1:['Proposal on'],2:['Introduction'],3:['This proposal aims to explain why','should be included','to recommend'],4:['Suggested Activities'],5:['Firstly','would allow'],6:['It would also','while'],7:['Secondly','it is suggested that','be chosen'],8:['although'],9:['It is easy','and also'],10:['which comes from India','because'],11:['In this sport'],12:['Both sports'],13:['Venue'],14:['It is suggested that','be held'],15:['while'],16:['Conclusion'],17:['It is hoped that','will be found useful','will be approved']},
+    C:{1:['Letter to Parents'],2:['Dear Parents'],3:['You are cordially invited to'],4:['Firstly','can bring many benefits'],5:['can help create','allow them to interact','help them feel'],6:['In addition'],7:['also had the opportunity to'],8:['Secondly','such as','in case'],9:['Please be assured','rather than'],10:['Lastly','if you are interested','would be most grateful'],11:['In addition','so that'],12:['Should you have any enquiries'],13:['would be more than happy to'],14:['Thank you very much','we look forward to'],15:['Yours faithfully'],16:['President, Healthy Living Club']}
+  };
+  function markEssayStructure(unit,phrase){
+    const canonicalText=value=>String(value).replace(/[’‘]/g,"'").toLocaleLowerCase();
+    const at=canonicalText(unit.textContent).indexOf(canonicalText(phrase));if(at<0)return false;
+    const walker=document.createTreeWalker(unit,NodeFilter.SHOW_TEXT);const nodes=[];let node,offset=0;
+    while((node=walker.nextNode())){nodes.push({node,start:offset,end:offset+node.length});offset+=node.length;}
+    const first=nodes.find(item=>item.end>at),last=nodes.find(item=>item.end>=at+phrase.length);if(!first||!last)return false;
+    const range=document.createRange();range.setStart(first.node,at-first.start);range.setEnd(last.node,at+phrase.length-last.start);
+    const underline=el('span','curation-essay-structure');underline.append(range.extractContents());range.insertNode(underline);return true;
+  }
   const sourceForRef=([page,phrase])=>{
     const pool=page===4?steps.boss:page<=11?steps.data:steps.podcast.filter(step=>step.transcript);
     return pool.find(step=>step.page===page&&canonical(step.quote).includes(canonical(phrase))&&!step.confirmed)||null;
@@ -278,6 +293,7 @@
         const unit=el('span','curation-essay-unit',fragment);unit.dataset.essayTask=task;unit.dataset.essayNumber=String(++ordinal);block.append(unit);
         const guide=essayGuides[task]?.[ordinal-1]||{why:'這句交代本段的資訊，需與任務讀者、目的及已核實資料一致。',structure:'檢查句子在段落中的功能及銜接。'};
         for(const phrase of guide.keywords||[])markEssayKeyword(unit,phrase,task);
+        for(const phrase of essayStructurePhrases[task]?.[ordinal]||[])markEssayStructure(unit,phrase);
         const sources=(guide.evidence||[]).map(sourceForRef).filter(Boolean);
         const base={chapter:'writing',essay:true,task,essayNumber:ordinal,quote:fragment.trim(),target:unit,guide,sources,order:ordinal};
         steps.writing.push({...base,id:`essay-${task}-${ordinal}`,title:`Task ${task} 範文 · 第 ${ordinal} 句`});
@@ -442,7 +458,7 @@
   }
   v3PodcastIds.push(...v3TranscriptTargets.map(span=>steps.podcast.find(step=>step.transcript&&step.target===span)?.id).filter(Boolean));
   const allIds=new Set(chapters.flatMap(ch=>steps[ch.id].map(step=>step.id)));
-  const blank=()=>({sequenceVersion:4,chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},heard:[],spotlight:true,dialogue:false,updated:Date.now()});
+  const blank=()=>({sequenceVersion:4,chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),essayPositions:{A:-1,B:-1,C:-1},completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},heard:[],spotlight:true,dialogue:false,updated:Date.now()});
   const sanitize=raw=>{
     const state=blank();if(!raw||typeof raw!=='object')return state;
     if(chapters.some(ch=>ch.id===raw.chapter))state.chapter=raw.chapter;
@@ -453,6 +469,12 @@
       state.positions[ch.id]=Math.min(Math.max(migrated,0),Math.max(0,steps[ch.id].length-1));
     }
     state.completed=[...new Set((Array.isArray(raw.completed)?raw.completed:[]).filter(id=>allIds.has(id)))];
+    for(const task of 'ABC'){
+      const reviewed=Math.max(-1,...steps.writing.filter(step=>step.essaySource&&step.task===task&&state.completed.includes(step.id)).map(step=>step.index));
+      const saved=Number(raw.essayPositions?.[task]);state.essayPositions[task]=Math.min(steps.writing.length-1,Number.isFinite(saved)&&saved>=-1?Math.max(saved,reviewed):reviewed);
+    }
+    const writingStep=steps.writing[state.positions.writing];
+    if(state.chapter==='writing'&&writingStep?.essay)state.essayPositions[writingStep.task]=state.positions.writing;
     state.heard=[...new Set((Array.isArray(raw.heard)?raw.heard:[]).filter(id=>allIds.has(id)))];
     state.visited=[...new Set((Array.isArray(raw.visited)?raw.visited:state.completed).filter(id=>allIds.has(id)))];
     state.bookmarks=[...new Set((Array.isArray(raw.bookmarks)?raw.bookmarks:[]).filter(id=>allIds.has(id)))];
@@ -472,11 +494,16 @@
   const stage=el('nav','curation-stage');stage.id='curation-stage';stage.hidden=true;stage.setAttribute('aria-label','Super Curation 五個階段');
   stage.innerHTML='<div class="curation-stage-line" aria-hidden="true"></div><div class="curation-stage-fill" aria-hidden="true"></div><div class="curation-stage-items"></div>';
   const picker=el('dialog','curation-picker');picker.id='curation-picker';picker.setAttribute('aria-label','選擇導覽步驟');picker.innerHTML='<div class="curation-picker-head"><div><small>SUPER CURATION</small><h2 id="curation-picker-title">選擇步驟</h2></div><button type="button" id="curation-picker-close" aria-label="關閉">×</button></div><input id="curation-picker-search" type="search" placeholder="搜尋步驟或原文…" aria-label="搜尋步驟"><div id="curation-picker-list" class="curation-picker-list"></div>';
-  const bank=el('aside','curation-bank');bank.id='curation-bank';bank.hidden=true;bank.setAttribute('aria-label','三項寫作證據庫');bank.innerHTML='<h2>三項寫作證據庫</h2><p>按「下一步」時，已核實可用的句子會移到相應任務。舊資料或淘汰線索不會自動加入。</p><div id="curation-bank-groups"></div>';
+  const bank=el('aside','curation-bank');bank.id='curation-bank';bank.hidden=true;bank.setAttribute('aria-label','三項寫作證據庫');bank.innerHTML='<h2>三項寫作證據庫</h2><p>紅線＝範文已使用的內容點，不代表淘汰。範文內黃色底線＝可學的句式；Data File 的 Type 6 紅線才表示不採用。</p><div id="curation-bank-groups"></div>';
   const masks=['top','left','right','bottom'].map(side=>{const m=el('div',`curation-mask curation-mask-${side}`);m.hidden=true;document.body.append(m);return m;});
   const routeArrow=document.createElementNS('http://www.w3.org/2000/svg','svg');routeArrow.id='curation-route-arrow';routeArrow.setAttribute('aria-hidden','true');routeArrow.innerHTML='<defs><marker id="curation-route-tip" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#d0282d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs><path class="curation-route-path" pathLength="1" marker-end="url(#curation-route-tip)"/>';
   const routeCallout=el('div','curation-route-callout');routeCallout.setAttribute('aria-live','polite');routeArrow.setAttribute('hidden','');routeCallout.hidden=true;
   document.body.append(stage,dock,bank,picker,routeArrow,routeCallout);
+  const sourcePreview=el('aside','curation-source-preview');sourcePreview.id='curation-source-preview';sourcePreview.hidden=true;sourcePreview.setAttribute('role','dialog');sourcePreview.setAttribute('aria-modal','false');sourcePreview.setAttribute('aria-label','原頁取證視窗');
+  sourcePreview.innerHTML='<div class="curation-source-preview-head"><strong>原頁取證</strong><span>藍線：已用於範文</span><button type="button" aria-label="關閉原頁取證視窗">×</button></div><div class="curation-source-preview-body"></div>';
+  const sourcePreviewBody=$('.curation-source-preview-body',sourcePreview);
+  $('.curation-source-preview-head button',sourcePreview).addEventListener('click',()=>{sourcePreview.hidden=true;});
+  document.body.append(sourcePreview);
   const nav=$('.curation-stage-items',stage);for(const [index,chapter] of chapters.entries()){const b=el('button','curation-stage-item');b.type='button';b.dataset.chapter=chapter.id;b.innerHTML=`<span class="curation-stage-dot">${index+1}</span><span class="curation-stage-label">${chapter.short}</span><small class="curation-stage-count"></small>`;nav.append(b);}
   const slotSel=$('#curation-slot');for(let i=1;i<=5;i++){const opt=el('option','',`Slot ${i}`);opt.value=String(i);slotSel.append(opt);}slotSel.value=activeSlot;
   const bankGroups=$('#curation-bank-groups');for(const t of 'ABC'){const d=el('details',`curation-bank-${t}`);d.dataset.task=t;d.innerHTML=`<summary><span>Task ${t}</span><strong data-count>0 句</strong></summary><ol></ol>`;bankGroups.append(d);}
@@ -659,7 +686,7 @@
       if(step.page===9 && /think I remember|hanging around|prepare/i.test(step.quote))add('問句或回憶不是事實確認。等 Singh 的回覆才定義家長職責。','curation-caution');
       if(step.record && canBank(step.record))add(step.provisional&&!step.confirmed?'核對最新回覆後再收入證據庫。':'下一步會收進右側證據庫。','curation-result');
     }else if(step.essay){
-      if(step.essaySource){add(`這個內容點出自第 ${step.page} 頁。右側證據庫以紅線標示已用；原文以深藍線標示已取用，與 Type 6 的紅色淘汰線分開。`,'curation-process');add(step.guide.why);add('先核對原句；下一步返回範文。');}
+      if(step.essaySource){add(`這個內容點出自第 ${step.page} 頁。右側證據庫以紅線標示已用；原文以藍線標示已取用，與 Type 6 的紅色淘汰線分開。`,'curation-process');add(step.guide.why);add('先核對原句；下一步返回範文。');}
       else if(step.essayReturn){add('已回到範文。核對剛才的來源與句子表達，再讀下一句。','curation-process');add(step.guide.structure);}
       else{add(step.guide.why,'curation-process');add(step.guide.structure);if(step.sources.length)add(`這句使用 ${step.sources.length} 個來源點；按下一步逐一看證據庫與原文。`);else add('這句主要服務文類、段落組織或禮貌語氣，不當作新的事實證據。');}
     }else if(step.chapter==='writing'){
@@ -679,9 +706,12 @@
     }
   }
   function usedEssaySources(){
-    const active=current();if(state.chapter!=='writing'||!active?.essay)return new Set();
-    const first=steps.writing.findIndex(step=>step.essay&&step.task===active.task);
-    return new Set(steps.writing.slice(first,state.positions.writing+1).filter(step=>step.essaySource&&step.task===active.task).map(step=>step.source.id));
+    const active=current(),used=new Set();
+    for(const task of 'ABC'){
+      const limit=state.chapter==='writing'&&active?.essay&&active.task===task?state.positions.writing:state.essayPositions[task];
+      for(const step of steps.writing)if(step.essaySource&&step.task===task&&step.index<=limit)used.add(step.source.id);
+    }
+    return used;
   }
   function renderBank(){
     const used=usedEssaySources(),currentStep=current();
@@ -693,7 +723,7 @@
         const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;
         const li=el('li');li.dataset.sourceId=id;
         if(used.has(id)){li.classList.add('curation-bank-used');if(currentStep?.essaySource&&currentStep.source.id===id)li.classList.add('curation-bank-used-new');}
-        const b=el('button','',s.quote);b.type='button';b.addEventListener('click',()=>{state.chapter=s.chapter;state.positions[s.chapter]=s.index;render();});
+        const b=el('button');b.append(el('span','curation-bank-ink',s.quote));b.type='button';b.addEventListener('click',()=>{state.chapter=s.chapter;state.positions[s.chapter]=s.index;render();});
         li.append(b,el('small','',s.chapter==='podcast'?`錄音稿 ${s.page-11}`:`Data File ${s.page}`));
         if(s.record?.id==='duncan-henley-emails-12')li.append(el('small','curation-bank-note','營養師講座已取消；只保留嘉年華其他已確認內容。'));
         if(s.record?.id==='duncan-singh-emails-5')li.append(el('small','curation-bank-note','這句用來釐清分工：準備學生的是老師。'));
@@ -708,10 +738,26 @@
     for(const [id,source] of essaySourceSteps){source.target.classList.toggle('curation-essay-source-used',used.has(id));source.target.classList.toggle('curation-essay-source-new',step?.essaySource&&step.source.id===id);}
     $$('.curation-essay-unit').forEach(unit=>{const task=unit.dataset.essayTask;const unitStep=steps.writing.find(item=>item.essay&&!item.essaySource&&!item.essayReturn&&item.task===task&&item.essayNumber===Number(unit.dataset.essayNumber));const visible=state.chapter==='writing'&&step?.essay&&step.task===task&&unitStep&&unitStep.index<=state.positions.writing;unit.classList.toggle('is-revealed',!!visible);unit.classList.toggle('is-current',step?.essay&&step.essayNumber===Number(unit.dataset.essayNumber)&&step.task===task);});
   }
+  function syncEssayPreview(step){
+    if(!step?.essaySource){sourcePreview.hidden=true;sourcePreviewBody.replaceChildren();return;}
+    if(sourcePreview.dataset.sourceId===step.source.id&&!sourcePreview.hidden)return;
+    sourcePreview.dataset.sourceId=step.source.id;
+    const page=step.source.target.closest('.page');if(!page)return;
+    const selector=step.page<=11?'.sentence-item':'.curation-transcript-sentence';
+    const position=$$(selector,page).indexOf(step.source.target);
+    const copy=page.cloneNode(true);copy.hidden=false;copy.classList.add('curation-preview-page');copy.removeAttribute('id');
+    $$('[id]',copy).forEach(item=>item.removeAttribute('id'));
+    const target=$$(selector,copy)[position];
+    if(target){target.classList.add('curation-essay-source-used');target.classList.remove('curation-essay-source-new');}
+    copy.setAttribute('inert','');sourcePreviewBody.replaceChildren(copy);
+    $('.curation-source-preview-head strong',sourcePreview).textContent=step.page<=11?`Data File 第 ${step.page} 頁 · 原文`:`錄音稿 ${step.page-11} / 6 · 原文`;
+    sourcePreview.hidden=false;
+    requestAnimationFrame(()=>{if(!sourcePreview.isConnected||sourcePreview.hidden||sourcePreview.dataset.sourceId!==step.source.id||!target)return;const a=target.getBoundingClientRect(),b=sourcePreviewBody.getBoundingClientRect();sourcePreviewBody.scrollTop+=a.top-b.top-90;target.classList.add('curation-essay-source-new');});
+  }
   function openEssay(task){
     for(const other of 'ABC'){$(`#curation-model-${other}`).open=other===task;$(`.curation-bank-${other}`).open=other===task;}
     const first=steps.writing.find(step=>step.essay&&step.task===task&&!step.essaySource&&!step.essayReturn);
-    if(first){state.chapter='writing';state.positions.writing=first.index;render();}
+    if(first){state.chapter='writing';state.positions.writing=Math.max(first.index,state.essayPositions[task]);render();}
   }
   for(const task of 'ABC')$(`#curation-model-${task} summary`)?.addEventListener('click',()=>setTimeout(()=>{if($(`#curation-model-${task}`).open){if(!open)setOpen(true);openEssay(task);}},0));
   function bossSourceFile(step){return step.sourceJump&&(step.tagTask||step.tagTasks)?{page:step.page,task:step.tagTask,tasks:step.tagTasks}:null;}
@@ -790,13 +836,13 @@
   }
   function setMaskRect(mask,top,left,width,height){Object.assign(mask.style,{top:`${Math.max(0,top)}px`,left:`${Math.max(0,left)}px`,width:`${Math.max(0,width)}px`,height:`${Math.max(0,height)}px`});}
   function spotlight(){updateRouteArrow();const step=current();const target=step?.target;if(!open||!state.spotlight||!shouldHighlight(step)||!target?.isConnected){masks.forEach(m=>m.hidden=true);return;}const r=target.getBoundingClientRect();if(!r.width||!r.height){masks.forEach(m=>m.hidden=true);return;}const pad=9,w=innerWidth,h=innerHeight,l=Math.max(0,r.left-pad),t=Math.max(0,r.top-pad),right=Math.min(w,r.right+pad),bottom=Math.min(h,r.bottom+pad);masks.forEach(m=>m.hidden=false);setMaskRect(masks[0],0,0,w,t);setMaskRect(masks[1],t,0,l,bottom-t);setMaskRect(masks[2],t,right,w-right,bottom-t);setMaskRect(masks[3],bottom,0,w,h-bottom);}
-  function focusSource(step){if(!step?.target)return;if(step.chapter==='podcast'&&step.transcript){const index=transcriptSentences.findIndex(item=>item.span===step.target);const floating=floatingSentences[index];if(floating){const r=floating.getBoundingClientRect(),box=transcriptBody.getBoundingClientRect();transcriptBody.scrollTo({top:transcriptBody.scrollTop+r.top-box.top-40,behavior:'smooth'});}spotlight();return;}const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=step.sourceJump||step.routeVisit||step.route||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(step.sourceJump||step.routeVisit||step.route){const r=step.target.getBoundingClientRect();window.scrollTo({top:Math.max(0,window.scrollY+r.top-(step.route&&!step.routeVisit?(innerWidth<=620?190:Math.min(410,innerHeight*.42)):(innerWidth<=620?160:180))),behavior:'instant'});}else if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
+  function focusSource(step){if(!step?.target)return;if(step.essaySource){spotlight();return;}if(step.chapter==='podcast'&&step.transcript){const index=transcriptSentences.findIndex(item=>item.span===step.target);const floating=floatingSentences[index];if(floating){const r=floating.getBoundingClientRect(),box=transcriptBody.getBoundingClientRect();transcriptBody.scrollTo({top:transcriptBody.scrollTop+r.top-box.top-40,behavior:'smooth'});}spotlight();return;}const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=step.sourceJump||step.routeVisit||step.route||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(step.sourceJump||step.routeVisit||step.route){const r=step.target.getBoundingClientRect();window.scrollTo({top:Math.max(0,window.scrollY+r.top-(step.route&&!step.routeVisit?(innerWidth<=620?190:Math.min(410,innerHeight*.42)):(innerWidth<=620?160:180))),behavior:'instant'});}else if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
   let lastRenderedStepId='';
-  function render(focus=true,preserveAudio=false){if(!open)return;const step=current();if(!step)return;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;if(stepChanged&&!preserveAudio)audio?.pause();
+  function render(focus=true,preserveAudio=false){if(!open)return;const step=current();if(!step)return;if(step.essay)state.essayPositions[step.task]=state.positions.writing;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;if(stepChanged&&!preserveAudio)audio?.pause();
     if(step.essay)for(const task of 'ABC'){$(`#curation-model-${task}`).open=task===step.task;$(`.curation-bank-${task}`).open=task===step.task;}
     if((state.chapter==='boss'||state.chapter==='data')&&!state.visited.includes(step.id))state.visited.push(step.id);
     if(stepChanged&&!preserveAudio&&step.chapter==='podcast'&&step.cue&&audio)audio.currentTime=step.cue.from;
-    syncAudioBar();syncBossMarks();syncDataMarks();syncGeneratedNotes();syncPodcastMarks();syncFileStamps(stampFromStep(step));syncEssayMarks();
+    syncAudioBar();syncBossMarks();syncDataMarks();syncGeneratedNotes();syncPodcastMarks();syncFileStamps(stampFromStep(step));syncEssayMarks();syncEssayPreview(step);
     $$('.curation-target').forEach(x=>{x.classList.remove('curation-target');x.removeAttribute('data-curation-current');});
     if(step.target&&step.chapter!=='categorize'&&(step.chapter!=='writing'||step.essay&&!step.essaySource)){step.target.classList.add('curation-target');step.target.dataset.curationCurrent=step.chapter==='data'&&step.type===4?'type-4':step.chapter==='data'&&step.type>=5?'neutral':step.task||step.bankTask||step.cue?.task||'neutral';}
     const stageIndex=chapters.findIndex(ch=>ch.id===state.chapter);
@@ -814,7 +860,7 @@
     $('#curation-spotlight').checked=state.spotlight;$('#curation-dialogue').checked=state.dialogue;dock.classList.toggle('dialogue',state.dialogue);$('.curation-character').hidden=!state.dialogue;
     explanation(step);if(stepChanged){$('.curation-content').scrollTop=0;lastRenderedStepId=step.id;}renderBank();positionAudioBar();if(step.cue&&audio&&!audio.paused&&audio.currentTime<step.cue.at)cueArmed=true;if(focus)focusSource(step);else spotlight();persist();
   }
-  function setOpen(value){open=value;stage.hidden=!value;dock.hidden=!value;bank.hidden=!value;if(!value&&picker.open)picker.close();document.body.classList.toggle('curation-active',value);if(!value){$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));routeArrow.setAttribute('hidden','');routeCallout.hidden=true;}toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();syncAudioBar();syncGeneratedNotes();syncPodcastMarks();}}
+  function setOpen(value){open=value;stage.hidden=!value;dock.hidden=!value;bank.hidden=!value;if(!value&&picker.open)picker.close();document.body.classList.toggle('curation-active',value);if(!value){$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));routeArrow.setAttribute('hidden','');routeCallout.hidden=true;sourcePreview.hidden=true;}toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();syncAudioBar();syncGeneratedNotes();syncPodcastMarks();}}
   async function flyToBank(step){if(!step.target||step.provisional)return;const t=step.bankTask||(canBank(step.record)?'ABC'[step.type-1]:null);if(!t||state.evidence[t].includes(step.id))return;const normalized=normalize(step.quote);if(state.evidence[t].some(id=>{const old=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);return old&&normalize(old.quote)===normalized;}))return;
     const from=step.target.getBoundingClientRect(),to=$(`.curation-bank-${t} summary`).getBoundingClientRect();
     if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&from.width&&to.width){const flying=el('div',`curation-flying curation-flying-${t}`,step.quote);document.body.append(flying);Object.assign(flying.style,{left:`${from.left}px`,top:`${from.top}px`,width:`${Math.min(from.width,420)}px`});await new Promise(resolve=>{requestAnimationFrame(()=>{flying.style.transform=`translate(${to.left-from.left}px,${to.top-from.top}px) scale(.3)`;flying.style.opacity='0';});flying.addEventListener('transitionend',resolve,{once:true});setTimeout(resolve,700);});flying.remove();}
