@@ -952,6 +952,7 @@ test("first-five practice uses single-answer English choices, including ten them
       assert.equal(options.length, 3);
       assert.equal(rationales.length, 3, `${question.id}: explain every option`);
       assert.ok(rationales.every(Boolean), `${question.id}: no explanation may be blank`);
+      assert.ok(rationales.every((reason) => /[\u3400-\u9fff]/.test(reason)), `${question.id}: explain each option in Traditional Chinese`);
       assert.equal(new Set(options).size, 3, `${question.id}: all three options must differ`);
       assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
       assert.equal(options[correctAt], question.answer);
@@ -975,7 +976,7 @@ test("first-five practice uses single-answer English choices, including ten them
   const right = sut.compassMcOptions(first, lesson).correctAt;
   await sut.answerCompassMcQuestion(first.id, (right + 1) % 3);
   assert.equal(sut.state.exercise.correctIds.length, 0, "wrong choice must not score");
-  assert.match(sut.elements.lessonContent.innerHTML, /Not quite/);
+  assert.match(sut.elements.lessonContent.innerHTML, /再想想/);
   await sut.answerCompassMcQuestion(first.id, right);
   assert.deepEqual([...sut.state.exercise.correctIds], [first.id]);
   assert.equal(sut.state.exercise.questionState[first.id].status, "correct");
@@ -1008,14 +1009,15 @@ test("chop and change practice uses meaningful distractors and explains them aft
   assert.match(options[1], /made his final choice yesterday/i);
   assert.match(options[2], /chopping and changing/i);
   sut.openLesson(choppingLesson.id, { page: 8, attempt: attemptSeed({ lessonId: choppingLesson.id, totalCount: choppingLesson.questions.length }) });
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /The original says he has changed it several times/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /原句卻說他已改了好幾次/);
   await sut.answerCompassMcQuestion(first.id, 0);
-  assert.match(sut.elements.lessonContent.innerHTML, /The original says he has changed it several times/);
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /“Chop and change” is a fixed idiom for repeatedly changing plans/);
+  assert.match(sut.elements.lessonContent.innerHTML, /原句卻說他已改了好幾次/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /“chop and change” 表示反覆改變主意或計劃/);
   await sut.answerCompassMcQuestion(first.id, correctAt);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>A:<\/b> This says Daniel has not changed his plan at all/);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>B:<\/b> This says Daniel has already made a final choice/);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>C:<\/b> “Chop and change” is a fixed idiom/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>A：<\/b> Daniel 一次也沒有改過週末計劃/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>B：<\/b> Daniel 昨天已作最後決定/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>C：<\/b> “chop and change” 表示反覆改變主意或計劃/);
+  assert.match(sut.elements.lessonContent.innerHTML, /class="compass-mc-feedback" lang="zh-Hant"/);
 });
 
 test("Compass choices resume the first unanswered batch and legacy self-reviews do not count as correct", () => {

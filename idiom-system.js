@@ -2075,41 +2075,41 @@ function compassMcOptions(question, lesson = getLesson()) {
   const isDanielQuestion = lessonId === "idiom-04" && question.id === "idiom-04-q01";
   const reasons = {
     "idiom-01": {
-      correct: "“Start the ball rolling” means take the first step that sets an activity in motion.",
-      form: "“Keep the ball rolling” means continue an activity already under way. The original describes getting it started.",
-      alternate: "The fixed idiom is “start the ball rolling,” not “start the ball moving.”",
-      contradiction: "This adds a detail that conflicts with the original: the first action did get the activity going."
+      correct: "“start the ball rolling” 表示率先採取行動，讓事情開始推進；這符合原句。",
+      form: "“keep the ball rolling” 表示讓已開始的事情繼續進行；原句強調的是「開始」，不是「延續」。",
+      alternate: "“start the ball moving” 不是這個慣用語的固定說法；應用 “start the ball rolling”。",
+      contradiction: "此選項加上了與原句不符的時間或結果細節；原句描述的是有人率先帶動活動。"
     },
     "idiom-02": {
-      correct: "“Shake a leg” is a natural way to tell someone to hurry.",
-      form: "“Slow down” reverses the intended meaning; the situation calls for hurrying.",
-      alternate: "The idiom is “shake a leg.” Changing it to “shake both legs” makes it literal.",
-      contradiction: "This says there is no need to hurry, which contradicts the original situation."
+      correct: "“shake a leg” 是催促別人快點行動的口語說法，符合原句的語境。",
+      form: "“slow down” 是叫人放慢，與原句需要趕快行動的意思相反。",
+      alternate: "“shake both legs” 變成字面上的「搖動雙腿」；慣用語的固定說法是 “shake a leg”。",
+      contradiction: "此選項說沒有趕時間的必要；原句卻是在催促對方加快行動。"
     },
     "idiom-03": {
-      correct: "“Hit the ground running” means begin a new activity and make useful progress immediately.",
-      form: "The expression is “hit the ground running,” not “hit the ground walking.”",
-      alternate: "The fixed expression uses “running,” not “racing.”",
-      contradiction: "This claims no useful work began at first, which conflicts with the immediate progress in the original."
+      correct: "“hit the ground running” 表示一開始便迅速投入，並立即取得實際進展。",
+      form: "固定說法是 “hit the ground running”，不是 “hit the ground walking”。",
+      alternate: "這個慣用語固定用 “running”，不能改成 “racing”。",
+      contradiction: "此選項說起初沒有做出實際成果；原句強調的是一開始便有效投入。"
     },
     "idiom-04": {
-      correct: "“Chop and change” is a fixed idiom for repeatedly changing plans or decisions. That matches the original.",
-      form: "The fixed idiom is “chop and change.” Replacing “and” with “or” breaks the expression.",
-      alternate: "The fixed idiom uses “and,” not “then.”",
-      contradiction: "This claims the plan barely changed or stayed the same, which contradicts the repeated changes in the original."
+      correct: "“chop and change” 表示反覆改變主意或計劃，與原句描述的情況一致。",
+      form: "固定慣用語是 “chop and change”；把 “and” 改成 “or” 就不再是這個說法。",
+      alternate: "這個慣用語固定用 “and”，不能改成 “then”。",
+      contradiction: "此選項聲稱計劃幾乎沒有改變，甚至一直沒變；原句描述的卻是反覆更改。"
     },
     "idiom-05": {
-      correct: "“Think big” means aim ambitiously or imagine possibilities on a larger scale.",
-      form: "“Think small” suggests the opposite of the ambitious thinking in the original.",
-      alternate: "The idiom is “think big.” “Think large” is not the natural expression here.",
-      contradiction: "This changes the meaning from an ambitious goal to a tiny task or literal physical size."
+      correct: "“think big” 表示有雄心、敢於構想更大規模的目標，符合原句。",
+      form: "“think small” 偏向保守或只想小目標，與原句的宏大構想相反。",
+      alternate: "這裡的自然說法是 “think big”；“think large” 不是這個慣用語。",
+      contradiction: "此選項把宏大的目標變成小事，或把 “big” 誤解為物件的實際大小。"
     }
   }[lessonId] || {};
   const entries = [
-    { text: foils[0], reason: isDanielQuestion ? "This says Daniel has not changed his plan at all. The original says he has changed it several times." : reasons.form || "This changes the idiom's meaning or fixed wording." },
-    { text: foils[1], reason: isDanielQuestion ? "This says Daniel has already made a final choice. The original says he still has not decided." : reasons[detailKind] || "This changes a key detail of the original meaning." }
+    { text: foils[0], reason: isDanielQuestion ? "Daniel 一次也沒有改過週末計劃；原句卻說他已改了好幾次。" : reasons.form || "此選項改變了慣用語的意思或固定說法。" },
+    { text: foils[1], reason: isDanielQuestion ? "Daniel 昨天已作最後決定；原句卻說他至今仍未決定。" : reasons[detailKind] || "此選項改變了原句的重要細節。" }
   ];
-  entries.splice(correctAt, 0, { text: question.answer, reason: reasons.correct || "This keeps the original meaning and uses the idiom naturally." });
+  entries.splice(correctAt, 0, { text: question.answer, reason: reasons.correct || "此選項保留原意，並自然地用上慣用語。" });
   return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
 }
 
@@ -2121,9 +2121,9 @@ function compassQuestionHtml(question) {
   const bookmarked = !question.bonus && isBookmarked(state.lessonId, question.id);
   return `<article class="question-card compass-question ${complete ? "is-correct" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}" data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`英文慣用語 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}${question.theme ? ` · ${escapeHtml(question.theme)}` : ""}${complete ? " · 答對 ✓" : ""}</span>${question.bonus ? '<span class="compass-bonus-label">EXTRA PRACTICE</span>' : `<button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>`}</div>
-    <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint">Which rewrite keeps the original meaning and uses the lesson idiom naturally?</p></div>
-    <div class="compass-mc-options" role="group" aria-label="Question ${escapeHtml(question.number)}: choose one English sentence">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option)}</strong></button>`).join("")}</div>
-    <div class="compass-mc-feedback" aria-live="polite">${complete ? `<strong>✓ Correct. Why?</strong><ul>${rationales.map((reason, index) => `<li><b>${String.fromCharCode(65 + index)}:</b> ${escapeHtml(reason)}</li>`).join("")}</ul>` : Number.isInteger(selection) ? `<strong>Not quite.</strong> ${escapeHtml(rationales[selection] || "Review the idiom and try another choice.")} Try another choice.` : ""}</div>
+    <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint" lang="zh-Hant">哪一句既保留原意，也自然地用上本課的英語慣用語？</p></div>
+    <div class="compass-mc-options" role="group" aria-label="第 ${escapeHtml(question.number)} 題：選出符合原意的英語句子">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option)}</strong></button>`).join("")}</div>
+    <div class="compass-mc-feedback" lang="zh-Hant" aria-live="polite">${complete ? `<strong>✓ 答對！逐項看看原因：</strong><ul>${rationales.map((reason, index) => `<li><b>${String.fromCharCode(65 + index)}：</b> ${escapeHtml(reason)}</li>`).join("")}</ul>` : Number.isInteger(selection) ? `<strong>再想想。</strong> ${escapeHtml(rationales[selection] || "請對照原句和慣用語，再選一次。")} 請再選一次。` : ""}</div>
   </article>`;
 }
 
