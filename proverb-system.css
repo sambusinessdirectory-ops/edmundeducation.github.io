@@ -1731,3 +1731,85 @@ body > .site-header.edmund-system-header {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* The spellbook is artwork; the login controls remain accessible HTML. */
+.login-panel {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  min-height: 880px;
+  aspect-ratio: 2 / 3;
+  border: 0;
+  border-radius: 0;
+  padding: 255px 20% 85px;
+  justify-content: flex-start;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.login-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: url("proverb-purple-spellbook-login-frame-v1.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 22px 30px rgba(28, 10, 40, .34));
+}
+
+.login-panel > * { position: relative; z-index: 1; }
+.login-panel .section-number {
+  background: #512665;
+  box-shadow: 0 9px 20px rgba(62, 27, 80, .24);
+}
+.login-panel .eyebrow,
+.login-panel .field > span:first-child { color: #6b3478; }
+.login-panel .login-heading h2 { color: #35203f; }
+.login-panel .login-heading p:last-child,
+.login-panel .account-note { color: #65546d; }
+.login-panel .account-note { border-top-color: rgba(91, 54, 105, .2); }
+.login-panel .field input {
+  border-color: rgba(91, 54, 105, .25);
+  color: #35203f;
+  background: rgba(255, 253, 255, .96);
+}
+.login-panel .field input:focus {
+  border-color: #9259ad;
+  box-shadow: 0 0 0 4px rgba(146, 89, 173, .15);
+}
+.login-panel .password-field button {
+  color: #5b2b70;
+  background: #eee3f3;
+}
+.login-panel .login-button {
+  border-color: #572367;
+  background: linear-gradient(135deg, #844397, #542466);
+  box-shadow: 0 8px 0 #361448, 0 17px 30px rgba(64, 25, 78, .22);
+}
+.login-panel .login-button:hover,
+.login-panel .login-button:focus-visible {
+  box-shadow: 0 10px 0 #361448, 0 22px 34px rgba(64, 25, 78, .26);
+}
+.login-panel .login-button:active {
+  box-shadow: 0 3px 0 #361448, 0 8px 16px rgba(64, 25, 78, .2);
+}
+
+@media (max-width: 1040px) {
+  .login-panel {
+    width: min(100%, 620px);
+    margin-inline: auto;
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  .login-panel {
+    min-height: 730px;
+    padding: clamp(195px, 40vw, 250px) 20% 70px;
+  }
+}
+
+@media (max-width: 430px) {
+  .login-panel { padding-bottom: 65px; }
+}
