@@ -199,7 +199,6 @@ button { color: inherit; }
 .student-label { margin: 0 0 8px; color: #f6b46e; font-weight: 800; }
 .hero-copy h1 { margin: 0; font-size: clamp(43px, 5.7vw, 82px); line-height: .96; letter-spacing: -.04em; }
 .hero-copy h1 span { color: #f1a055; font-style: italic; }
-.hero-copy > p:last-child { max-width: 630px; margin: 25px 0 0; color: rgba(255,255,255,.76); font-size: 17px; line-height: 1.8; }
 
 .login-panel {
   align-self: center;
@@ -208,10 +207,8 @@ button { color: inherit; }
   background: var(--paper);
 }
 
-.login-heading { margin-bottom: 30px; display: flex; align-items: flex-start; gap: 18px; }
-.section-number { color: rgba(39,39,87,.18); font-size: 50px; font-weight: 800; line-height: .9; }
+.login-heading { margin-bottom: 30px; }
 .login-heading h2 { margin: 0 0 9px; font-size: clamp(29px, 3vw, 43px); }
-.login-heading p:last-child { margin: 0; color: var(--ink-soft); line-height: 1.65; }
 
 .login-form { display: grid; gap: 18px; }
 .field { display: grid; gap: 8px; }
@@ -1523,10 +1520,7 @@ button { color: inherit; }
   .hero-parchment-art { top: 34px; right: 8px; width: min(80%, 330px); }
   .hero-copy { width: 100%; }
   .hero-copy h1 { font-size: clamp(40px, 14vw, 63px); }
-  .hero-copy > p:last-child { font-size: 14px; }
   .login-panel { padding: 25px 20px; }
-  .login-heading { gap: 12px; }
-  .section-number { font-size: 39px; }
   .workspace-hero,
   .utility-hero { padding: 25px 20px; align-items: stretch; flex-direction: column; }
   .local-checker-pill { min-width: 0; }
