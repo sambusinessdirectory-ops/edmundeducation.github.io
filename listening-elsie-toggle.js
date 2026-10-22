@@ -6,7 +6,7 @@
   const reducedMotionSource = button.querySelector('source[media="(prefers-reduced-motion: reduce)"]');
   const gifSrc = image.getAttribute('src');
   const stillSources = Array.from({ length: 7 }, (_, index) =>
-    `listening-elsie/stills/elsie-${String(index + 1).padStart(2, '0')}.png?v=20261022-listening1`
+    `listening-elsie/stills/elsie-${String(index + 1).padStart(2, '0')}.png?v=20261022-listening2`
   );
   const storageKey = 'edmund-listening-elsie-playing';
   let playing = true;
