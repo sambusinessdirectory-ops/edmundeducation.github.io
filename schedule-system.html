@@ -206,10 +206,7 @@
       position: relative;
       isolation: isolate;
       min-height: 760px;
-      padding: clamp(58px, 6vw, 96px) clamp(58px, 6vw, 96px) clamp(74px, 7vw, 106px);
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
+      padding: 0;
       border: 0;
       border-radius: 0;
       background: transparent;
@@ -235,14 +232,17 @@
       letter-spacing: .18em;
     }
 
-    .login-intro .eyebrow,
-    .login-intro h1 {
-      position: relative;
+    .login-intro-copy {
+      position: absolute;
+      top: 74%;
+      left: 50%;
       z-index: 2;
+      width: 76%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
 
     .login-intro h1 {
-      max-width: 760px;
       margin: 0;
       font-size: clamp(42px, 5vw, 70px);
       line-height: 1.08;
@@ -2131,7 +2131,7 @@
         padding: 88px 48px 108px;
       }
       .login-panel::before { inset: -16px -12px; }
-      .login-intro { min-height: 590px; padding: 24px 44px 95px; }
+      .login-intro { min-height: 590px; padding: 0; }
       .login-intro h1 { font-size: 44px; }
       .admin-hero { align-items: stretch; flex-direction: column; }
       .student-search { max-width: none; }
@@ -2242,11 +2242,13 @@
     <section data-view="login">
       <div class="login-layout">
         <div class="login-intro glass-card">
-          <p class="eyebrow">EDMUND STUDENT PLANNER</p>
-          <h1>
-            <span>學生使用</span>
-            <span class="soft-line">功課及溫習安排系統</span>
-          </h1>
+          <div class="login-intro-copy">
+            <p class="eyebrow">EDMUND STUDENT PLANNER</p>
+            <h1>
+              <span>學生使用</span>
+              <span class="soft-line">功課及溫習安排系統</span>
+            </h1>
+          </div>
         </div>
 
         <div class="login-panel glass-card">
