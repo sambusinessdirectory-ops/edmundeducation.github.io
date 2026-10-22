@@ -16,6 +16,7 @@ const [dataSource, frontendSource, html, css] = await Promise.all([
   read("idiom-system.css")
 ]);
 const comparisonSource = await read("shared-answer-comparison.js");
+const compassSource = await read("idiom-first-five-curation.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -154,7 +155,7 @@ function attemptSeed(overrides = {}) {
   };
 }
 
-function createFrontendHarness() {
+function createFrontendHarness({ withCompass = false } = {}) {
   const views = ["login", "dashboard", "lesson", "bookmarks", "admin"]
     .map((name) => makeElement({ dataset: { view: name } }));
   const steps = Array.from({ length: 8 }, (_, index) => (
@@ -339,6 +340,7 @@ function createFrontendHarness() {
   };
   vm.createContext(context);
   vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
+  if (withCompass) vm.runInContext(compassSource, context, { filename: "idiom-first-five-curation.js" });
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
@@ -347,7 +349,9 @@ window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   openLesson, setLessonPage, renderLessonPage, renderLessonChoices, renderExercisePage,
-  renderFormulaPage, renderBenefitsPage, renderRulesPage,
+  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, handleClick, searchLessons,
+  revealCompassQuestion, completeCompassQuestion, reopenCompassQuestion,
+  compassReviewedCount, displayAttemptProgress,
   questionActivityRows, buildQuestionProgressSeries,
   updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
@@ -879,6 +883,71 @@ test("a completed illustrated idiom card follows the gold artwork class path", (
     css,
     /\.lesson-choice-card \.lesson-choice\.is-complete:has\(\.lesson-choice-illustration\)\s*\{[^}]*linear-gradient[^}]*#e5b94f/is
   );
+});
+
+test("first five use distinct short compass lessons without example-sentence galleries", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  for (const current of content.lessons.slice(0, 5)) {
+    sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
+    for (let page = 1; page <= 7; page += 1) {
+      sut.setLessonPage(page);
+      const markup = sut.elements.lessonContent.innerHTML;
+      assert.match(markup, /IDIOM COMPASS/);
+      assert.doesNotMatch(markup, /class="example-block"|class="examples"|例句 ·|EXAMPLE/);
+      assert.ok(!markup.includes(current.examples[0].english), `${current.id} old example must stay off the teaching pages`);
+    }
+  }
+});
+
+test("compass practice shows five questions at a time and records self-review after model comparison", async () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 10 組/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /data-submit-all/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /參考改寫 · 看看意思/);
+  sut.state.exercise.drafts[lesson.questions[0].id] = lesson.questions[0].answer;
+  sut.revealCompassQuestion(lesson.questions[0].id);
+  assert.match(sut.elements.lessonContent.innerHTML, /參考改寫 · 看看意思/);
+  assert.equal(sut.state.exercise.correctIds.length, 0);
+  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id], undefined);
+  await sut.completeCompassQuestion(lesson.questions[0].id);
+  assert.equal(sut.state.exercise.correctIds.length, 0);
+  assert.equal(sut.state.exercise.awaitingNextRound, false);
+  assert.equal(sut.state.exercise.rounds.length, 0);
+  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].status, "pending");
+  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].reveal, true);
+  assert.equal(sut.compassReviewedCount(lesson), 1);
+  assert.equal(sut.serializeExerciseResult().questionState[lesson.questions[0].id].lastAnswer, lesson.questions[0].answer);
+  await sut.reopenCompassQuestion(lesson.questions[0].id);
+  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].reveal, false);
+  assert.equal(sut.compassReviewedCount(lesson), 0);
+  sut.state.exercise.pilotBatchIndex = 1;
+  sut.renderExercisePage(lesson);
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
+  assert.match(sut.elements.lessonContent.innerHTML, new RegExp(lesson.questions[5].id));
+  assert.match(sut.elements.lessonContent.innerHTML, /第 2 \/ 10 組/);
+  assert.equal(sut.serializeExerciseResult().pilotBatchIndex, undefined);
+});
+
+test("compass choices reveal feedback only after selection and resume the correct five-question group", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
+  sut.handleClick({ target: { closest(selector) {
+    return selector === "[data-compass-choice]" ? { dataset: { compassChoice: "0", compassPage: "2" } } : null;
+  } } });
+  assert.match(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
+  const reviewed = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "pending", lastAnswer: "My reviewed draft", reveal: true }]));
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ result: { questionState: reviewed, correctIds: [] } }) });
+  assert.match(sut.elements.lessonContent.innerHTML, /第 5 \/ 10 組/);
+  assert.equal(sut.pilotBatchQuestions()[0].id, lesson.questions[20].id);
+  sut.openLesson(lesson.id, { page: 8, questionId: lesson.questions[34].id });
+  assert.equal(sut.state.exercise.pilotBatchIndex, 6);
+  assert.equal(sut.pilotBatchQuestions()[4].id, lesson.questions[34].id);
 });
 
 let failed = 0;

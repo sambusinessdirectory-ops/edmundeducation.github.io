@@ -3,6 +3,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
 const CONFIG = window.EDMUND_IDIOM_SYSTEM_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_IDIOM_SYSTEM_DATA || { version: "missing", lessons: [] };
+const IDIOM_COMPASS = window.EDMUND_IDIOM_COMPASS || {};
 
 const SESSION_KEY = "edmund-idiom-system-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-idiom-system-progress-panel-v1";
@@ -124,7 +125,9 @@ const state = {
   visitedLessonPages: new Set(),
   adminStudents: [],
   selectedAdminStudentId: "",
-  requestedHomeworkLessonOpened: false
+  requestedHomeworkLessonOpened: false,
+  pilotSelections: {},
+  pilotOpenModels: new Set()
 };
 
 let lessonSearchIndexCache = null;
@@ -168,6 +171,43 @@ function lessonList() {
 
 function getLesson(lessonId = state.lessonId) {
   return lessonList().find((lesson) => String(lesson.id) === String(lessonId)) || null;
+}
+
+function compassFor(lesson = getLesson()) {
+  return lesson ? IDIOM_COMPASS[lesson.id] || null : null;
+}
+
+function compassReviewedIds(lesson, questionState, correctIds = []) {
+  const reviewed = new Set(correctIds);
+  for (const question of lesson?.questions || []) {
+    const saved = questionState?.[question.id];
+    if (saved?.status === "pending" && saved.reveal === true && String(saved.lastAnswer || "").trim()) reviewed.add(question.id);
+  }
+  return reviewed;
+}
+
+function compassReviewedCount(lesson = getLesson(), exercise = state.exercise) {
+  return compassReviewedIds(lesson, exercise?.questionState, exercise?.correctIds).size;
+}
+
+function attemptReviewedCount(lesson, attempt) {
+  const result = parseJsonObject(attempt?.result, {});
+  return compassReviewedIds(lesson, parseJsonObject(result.questionState, {}), Array.isArray(result.correctIds) ? result.correctIds : []).size;
+}
+
+function displayAttemptProgress(lesson, attempt) {
+  if (!compassFor(lesson)) return { count: attempt.correctCount, complete: attempt.status === "completed", label: attempt.status === "completed" ? "已完成" : "進行中" };
+  const count = attemptReviewedCount(lesson, attempt);
+  return { count, complete: count >= (lesson.questions?.length || 0), label: count >= (lesson.questions?.length || 0) ? "已自行核對" : "自行核對中" };
+}
+
+function progressAttempts() {
+  return state.attempts.map((attempt) => {
+    const lesson = getLesson(attempt.lessonId);
+    if (!compassFor(lesson)) return attempt;
+    const progress = displayAttemptProgress(lesson, attempt);
+    return { ...attempt, correctCount: progress.count, status: progress.complete ? "completed" : "in_progress" };
+  });
 }
 
 function getQuestion(lessonId, questionId) {
@@ -656,7 +696,7 @@ async function openDashboard({ force = false } = {}) {
   state.showCumulativeProgress = readCumulativeProgressPreference();
   renderProgressPanelDisclosure();
   showView("dashboard");
-  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個慣用語，由完整概念開始，再完成 50 題練習。`;
+  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個慣用語，先掌握意思與情境，再按自己的步伐練習。`;
   renderLessonChoices();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   if (timeSave) {
@@ -694,7 +734,7 @@ let horseyTrophies = null;
 function syncHorseyTrophies() {
   const root = document.querySelector('[data-idiom-map]');
   if (!root) return;
-  horseyTrophies ||= createHorseyTrophies({systemKey:'idiom',root,getLessons:lessonList,getMapLessons:() => lessonList().slice(0, 30),getOwner:()=>state.user?.id,getAttempts:()=>state.attempts,openLesson:id=>openLesson(id,{page:1})});
+  horseyTrophies ||= createHorseyTrophies({systemKey:'idiom',root,getLessons:lessonList,getMapLessons:() => lessonList().slice(0, 30),getOwner:()=>state.user?.id,getAttempts:progressAttempts,openLesson:id=>openLesson(id,{page:1})});
   horseyTrophies.sync();
 }
 
@@ -705,10 +745,9 @@ function renderLessonChoices() {
     const totalQuestions = Array.isArray(lesson.questions) ? lesson.questions.length : 0;
     const complete = state.attempts.some((attempt) => (
       attempt.lessonId === lesson.id
-      && attempt.status === "completed"
       && totalQuestions > 0
       && attempt.totalCount === totalQuestions
-      && attempt.correctCount >= totalQuestions
+      && displayAttemptProgress(lesson, attempt).complete
     ));
     const bookmarked = isSectionBookmarked(lesson.id);
     return `
@@ -756,7 +795,7 @@ function syncIdiomMap() {
       toggle.hidden = false;
       idiomMap = mountIdiomMap({root,toggle,grid:elements.lessonChoiceGrid,
         remaining:document.querySelector('[data-idiom-remaining]'),
-        lessons:lessonList(),getAttempts:()=>state.attempts,
+        lessons:lessonList(),getAttempts:progressAttempts,
         openLesson:id=>openLesson(id,{page:1})});
       syncIdiomMap();
     }).catch(() => {
@@ -799,10 +838,18 @@ function lessonSearchIndex() {
   for (const lesson of lessonList()) {
     const titleTexts = [lessonTitle(lesson), lessonEnglishTitle(lesson), lesson.slug].filter(Boolean);
     entries.push({ lessonId: lesson.id, page: 1, kind: "title", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts: titleTexts });
-    pageFields.forEach((fields, index) => {
-      const texts = fields.flatMap((field) => collectLessonSearchStrings(lesson[field]));
-      if (texts.length) entries.push({ lessonId: lesson.id, page: index + 1, kind: "page", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts });
-    });
+    const compass = compassFor(lesson);
+    if (compass) {
+      for (let page = 1; page <= 7; page += 1) {
+        const texts = collectLessonSearchStrings(page === 1 ? [compass.meaningZh, compass.meaningEn, compass.picture] : page === 4 ? [compass.fixed, compass.moving, compass.forms] : page === 7 ? compass.checks : page === 2 || page === 3 || page === 5 || page === 6 ? compass.choices[page] : []);
+        entries.push({ lessonId: lesson.id, page, kind: "page", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts });
+      }
+    } else {
+      pageFields.forEach((fields, index) => {
+        const texts = fields.flatMap((field) => collectLessonSearchStrings(lesson[field]));
+        if (texts.length) entries.push({ lessonId: lesson.id, page: index + 1, kind: "page", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts });
+      });
+    }
     (lesson.questions || []).forEach((question, index) => {
       const texts = collectLessonSearchStrings(question);
       if (texts.length) entries.push({ lessonId: lesson.id, page: EXERCISE_PAGE, questionId: String(question.id || ""), kind: "question", questionNumber: index + 1, title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts });
@@ -1247,10 +1294,10 @@ function renderSentenceTimeDayPanel(series = buildSentenceTimeSeries()) {
   }
   elements.timeProgressDayList.innerHTML = rows.length ? rows.map((row) => {
     const lesson = getLesson(row.attempt.lessonId);
-    const status = row.attempt.status === "completed" ? "已完成" : "進行中";
+    const progress = displayAttemptProgress(lesson, row.attempt);
     return `<div class="sentence-progress-day-row">
       <strong>${escapeHtml(lessonTitle(lesson))}</strong>
-      <span>${escapeHtml(formatDateTime(row.time))} · ${escapeHtml(status)} · ${escapeHtml(row.attempt.correctCount)}/${escapeHtml(row.attempt.totalCount)} 題</span>
+      <span>${escapeHtml(formatDateTime(row.time))} · ${escapeHtml(progress.label)} · ${escapeHtml(progress.count)}/${escapeHtml(row.attempt.totalCount)} 題</span>
       <em class="is-time">${escapeHtml(formatDuration(row.durationMs))}</em>
     </div>`;
   }).join("") : '<p class="empty-state">這一天暫時未有練習時間紀錄。</p>';
@@ -1274,7 +1321,8 @@ function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
   if (!attempts.length) return '<p class="empty-state">暫時未有練習記錄。完成或開始一組慣用語練習後，記錄會顯示在這裡。</p>';
   return attempts.map((attempt) => {
     const lesson = getLesson(attempt.lessonId);
-    const complete = attempt.status === "completed";
+    const progress = displayAttemptProgress(lesson, attempt);
+    const complete = progress.complete;
     const rounds = Array.isArray(attempt.result?.rounds) ? attempt.result.rounds.length : attempt.roundNumber;
     return `
       <details class="attempt-row">
@@ -1283,12 +1331,12 @@ function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
             <strong>${escapeHtml(lessonTitle(lesson))}</strong>
             <small>${escapeHtml(formatDateTime(attempt.startedAt || attempt.updatedAt))}</small>
           </span>
-          <span class="attempt-score ${complete ? "" : "in-progress"}">${complete ? "已完成" : "進行中"} · ${escapeHtml(attempt.correctCount)}/${escapeHtml(attempt.totalCount)}</span>
+          <span class="attempt-score ${complete ? "" : "in-progress"}">${escapeHtml(progress.label)} · ${escapeHtml(progress.count)}/${escapeHtml(attempt.totalCount)}</span>
         </summary>
         <div class="attempt-details">
           <div class="attempt-details-grid">
-            <div class="attempt-detail"><span>狀態</span><strong>${complete ? "全部答對" : "尚未完成"}</strong></div>
-            <div class="attempt-detail"><span>提交記錄</span><strong>${escapeHtml(rounds)} 次</strong></div>
+            <div class="attempt-detail"><span>狀態</span><strong>${compassFor(lesson) ? progress.label : complete ? "全部答對" : "尚未完成"}</strong></div>
+            <div class="attempt-detail"><span>${compassFor(lesson) ? "已核對題目" : "提交記錄"}</span><strong>${escapeHtml(compassFor(lesson) ? progress.count : rounds)} ${compassFor(lesson) ? "題" : "次"}</strong></div>
             <div class="attempt-detail"><span>練習時間</span><strong>${escapeHtml(formatDuration(attempt.durationMs))}</strong></div>
           </div>
           ${allowResume && !complete ? `<div class="attempt-actions"><button class="small-button" type="button" data-resume-attempt="${escapeHtml(attempt.id)}">繼續這次練習</button></div>` : ""}
@@ -1308,12 +1356,24 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
   const lesson = getLesson(lessonId);
   if (!lesson) return;
   pauseExerciseClock({ persist: state.lessonPage === EXERCISE_PAGE });
-  if (state.lessonId !== lesson.id) state.visitedLessonPages = new Set();
+  if (state.lessonId !== lesson.id) {
+    state.visitedLessonPages = new Set();
+  }
+  if (state.lessonId !== lesson.id || (attempt && state.exercise?.id !== attempt.id)) state.pilotOpenModels = new Set();
   state.lessonId = lesson.id;
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   state.visitedLessonPages.add(state.lessonPage);
   const currentExercise = state.exercise?.lessonId === lesson.id ? state.exercise : null;
   state.exercise = attempt ? exerciseFromAttempt(attempt) : currentExercise;
+  if (state.exercise && compassFor(lesson)) {
+    state.exercise.awaitingNextRound = false;
+    state.exercise.correctionMode = false;
+    state.exercise.correctionIds = [];
+  }
+  if (questionId && compassFor(lesson)) {
+    const questionIndex = (lesson.questions || []).findIndex((question) => String(question.id) === String(questionId));
+    if (questionIndex >= 0) ensureExercise(lesson).pilotBatchIndex = Math.floor(questionIndex / 5);
+  }
   if (state.lessonPage === EXERCISE_PAGE && questionId) {
     const exercise = ensureExercise(lesson);
     if (exercise.correctionMode && !exercise.correctionIds.includes(questionId)) {
@@ -1344,6 +1404,11 @@ function setLessonPage(page) {
 
 function currentProgressQuestionId(lesson = getLesson()) {
   if (!lesson || !state.exercise) return "";
+  if (compassFor(lesson) && !state.exercise.correctionMode) {
+    const batch = pilotBatchQuestions(lesson);
+    const reviewed = compassReviewedIds(lesson, state.exercise.questionState, state.exercise.correctIds);
+    return String(batch.find((question) => !reviewed.has(question.id))?.id || batch[0]?.id || "");
+  }
   const questions = orderQuestions(state.exercise.correctionMode ? correctionQuestions(lesson) : lesson.questions || [],{system:'idiom-system',owner:state.user?.id,lessonId:state.lessonId});
   const unresolved = questions.filter((question) => !state.exercise.correctIds.includes(question.id));
   if (state.exercise.correctionMode) return String(unresolved[0]?.id || "");
@@ -1368,8 +1433,28 @@ function focusExerciseQuestion(questionId) {
 }
 
 function updateLessonStepper() {
+  const compass = compassFor();
+  elements.lessonStepper.classList.toggle("is-compass", Boolean(compass));
+  const pilotLabels = [
+    ["一眼懂", "Meaning"], ["找線索", "Scene"], ["選語氣", "Tone"], ["拆句式", "Shape"],
+    ["接下一步", "Response"], ["避開誤用", "Boundary"], ["出手檢查", "Ready"], ["五題一組", "Practice"]
+  ];
   elements.lessonStepper.querySelectorAll("[data-step]").forEach((button) => {
     const step = Number(button.dataset.step);
+    if (compass) {
+      const label = pilotLabels[step - 1];
+      const title = button.querySelector("strong");
+      const subtitle = button.querySelector("small");
+      if (title) title.textContent = label[0];
+      if (subtitle) subtitle.textContent = label[1];
+    } else {
+      const originalLabels = [["公式＋例句", "Formula + Example"], ["語域及語氣", "Register + Tone"], ["固定及可變部分", "Fixed + Variable"], ["所有特定句式", "All Forms"], ["表達好處", "Benefits"], ["歷史及來源", "History + Origin"], ["重要規則", "Important Rules"], ["句子練習", "Exercise"]];
+      const label = originalLabels[step - 1];
+      const title = button.querySelector("strong");
+      const subtitle = button.querySelector("small");
+      if (title) title.textContent = label[0];
+      if (subtitle) subtitle.textContent = label[1];
+    }
     button.toggleAttribute("aria-current", step === state.lessonPage);
     if (step === state.lessonPage) button.setAttribute("aria-current", "step");
     else button.removeAttribute("aria-current");
@@ -1377,7 +1462,14 @@ function updateLessonStepper() {
   });
   const exerciseVisible = state.lessonPage === EXERCISE_PAGE && state.exercise;
   elements.lessonRound.hidden = !exerciseVisible;
-  if (exerciseVisible) elements.lessonRound.textContent = `${state.exercise.correctIds.length}/${getLesson()?.questions?.length || 0} 題完成`;
+  if (exerciseVisible) elements.lessonRound.textContent = `${compass ? compassReviewedCount() : state.exercise.correctIds.length}/${getLesson()?.questions?.length || 0} 題完成`;
+}
+
+function pilotBatchQuestions(lesson = getLesson()) {
+  const questions = lesson?.questions || [];
+  const batchCount = Math.max(1, Math.ceil(questions.length / 5));
+  const batchIndex = Math.min(batchCount - 1, Math.max(0, Number(state.exercise?.pilotBatchIndex) || 0));
+  return questions.slice(batchIndex * 5, batchIndex * 5 + 5);
 }
 
 function infoPageHeader(number, titleZh, titleEn, english, description = "") {
@@ -1386,6 +1478,42 @@ function infoPageHeader(number, titleZh, titleEn, english, description = "") {
     <h2>${escapeHtml(titleZh)}<small>${escapeHtml(titleEn)}</small></h2>
     ${description ? `<p>${escapeHtml(description)}</p>` : ""}
   </header>`;
+}
+
+function renderCompassPage(lesson, page) {
+  const guide = compassFor(lesson);
+  const names = [
+    ["一眼懂", "Meaning at a glance", "01 · THE IDEA"],
+    ["找線索", "Spot the clue", "02 · SITUATION"],
+    ["選語氣", "Choose the tone", "03 · SOCIAL SIGNAL"],
+    ["拆句式", "Build the phrase", "04 · PHRASE SHAPE"],
+    ["接下一步", "Make the next move", "05 · RESPONSE"],
+    ["避開誤用", "Know the boundary", "06 · USE WITH CARE"],
+    ["出手檢查", "Ready to use", "07 · POCKET CHECK"]
+  ];
+  const [titleZh, titleEn, eyebrow] = names[page - 1];
+  const choice = guide.choices[page];
+  const choiceKey = `${lesson.id}:${page}`;
+  const selected = state.pilotSelections[choiceKey];
+  const rotation = choice ? (Number(lesson.order || 0) + page) % choice.options.length : 0;
+  const options = choice ? choice.options.map((_, index) => choice.options[(index - rotation + choice.options.length) % choice.options.length]) : [];
+  const correctOption = choice ? (choice.correct + rotation) % choice.options.length : -1;
+  let body = "";
+  if (page === 1) body = `<div class="compass-intro"><div class="compass-meaning"><span>這句真正想說</span><strong>${escapeHtml(guide.meaningZh)}</strong><p>${escapeHtml(guide.meaningEn)}</p></div>${lesson.image ? `<img class="compass-art" src="${escapeHtml(lesson.image)}" alt="${escapeHtml(lesson.imageAlt || lessonEnglishTitle(lesson))}" loading="lazy">` : ""}</div>
+    <div class="compass-two"><div class="compass-note"><span>畫面記憶</span><p>${escapeHtml(guide.picture)}</p></div><div class="compass-note"><span>別用錯</span><p>${escapeHtml(guide.boundary)}</p></div></div>`;
+  else if (page === 4) body = `<div class="compass-shape"><div><span>固定部分 · KEEP</span><strong>${escapeHtml(guide.fixed)}</strong></div><div><span>可變部分 · CHANGE</span><p>${escapeHtml(guide.moving)}</p></div></div>
+    <div class="compass-form-list" aria-label="慣用語形式">${guide.forms.map((form) => `<span>${escapeHtml(form)}</span>`).join("")}</div><p class="compass-footnote">只看短語形式；完整句子留待練習時自己組織。</p>`;
+  else if (page === 7) body = `<div class="compass-ready"><p>寫之前，快速問自己三個問題：</p><ol>${guide.checks.map((check) => `<li>${escapeHtml(check)}</li>`).join("")}</ol></div><div class="compass-note"><span>練習方式</span><p>下一頁每次只顯示五題。先完成眼前五題，再決定是否繼續；已做的題目會保留。</p></div>`;
+  else body = `${page === 3 ? `<div class="compass-two"><div class="compass-note"><span>自然場合</span><p>${escapeHtml(guide.where)}</p></div><div class="compass-note"><span>語氣提示</span><p>${escapeHtml(guide.tone)}</p></div></div>` : ""}
+    ${page === 6 ? `<div class="compass-note compass-boundary"><span>使用界線</span><p>${escapeHtml(guide.boundary)}</p></div>` : ""}
+    <section class="compass-decision" aria-labelledby="compass-prompt"><span>停一停，作個判斷</span><h3 id="compass-prompt">${escapeHtml(choice.promptZh)}<small>${escapeHtml(choice.promptEn)}</small></h3>
+      <div class="compass-options">${options.map((option, index) => `<button class="compass-option ${selected !== undefined && index === correctOption ? "is-right" : selected === index ? "is-wrong" : ""}" type="button" data-compass-choice="${index}" data-compass-page="${page}" aria-pressed="${selected === index}"><span>${index + 1}</span>${escapeHtml(option)}</button>`).join("")}</div>
+      ${selected !== undefined ? `<p class="compass-feedback ${selected === correctOption ? "is-right" : "is-wrong"}" role="status">${selected === correctOption ? "✓ 判斷合適。" : "再想想；綠色是較合適的選擇。"} ${escapeHtml(choice.feedback)}</p>` : ""}</section>
+    ${page === 3 ? `<p class="compass-footnote">${escapeHtml(guide.formal)}</p>` : ""}`;
+  elements.lessonContent.innerHTML = `<article class="info-page compass-page">
+    <header class="compass-header"><span class="page-label">IDIOM COMPASS · ${eyebrow}</span><h2>${escapeHtml(titleZh)}<small>${escapeHtml(titleEn)}</small></h2><p>${escapeHtml(lessonEnglishTitle(lesson))}</p></header>
+    ${body}${navHtml(page)}
+  </article>`;
 }
 
 function bilingualHeadingHtml(chinese, english) {
@@ -1666,7 +1794,8 @@ function createExercise(lesson) {
     collapsedCorrectIds: [],
     durationMs: 0,
     startedAt,
-    completedAt: ""
+    completedAt: "",
+    pilotBatchIndex: 0
   };
 }
 
@@ -1694,6 +1823,8 @@ function exerciseFromAttempt(attempt) {
       };
     }
   }
+  const reviewed = compassReviewedIds(lesson, questionState, correctIds);
+  const firstUnreviewedIndex = (lesson?.questions || []).findIndex((question) => !reviewed.has(question.id));
   return {
     id: attempt.id,
     lessonId: attempt.lessonId,
@@ -1707,6 +1838,7 @@ function exerciseFromAttempt(attempt) {
     correctionMode: result.correctionMode === true && correctionIds.length > 0,
     correctionIds,
     collapsedCorrectIds,
+    pilotBatchIndex: firstUnreviewedIndex < 0 ? 9 : Math.floor(firstUnreviewedIndex / 5),
     durationMs: Math.max(0, attempt.durationMs),
     startedAt: attempt.startedAt || new Date().toISOString(),
     completedAt: attempt.completedAt || ""
@@ -1717,6 +1849,11 @@ function ensureExercise(lesson) {
   if (state.exercise?.lessonId === lesson.id) return state.exercise;
   const resumable = state.attempts.find((attempt) => attempt.lessonId === lesson.id && attempt.status !== "completed");
   state.exercise = resumable ? exerciseFromAttempt(resumable) : createExercise(lesson);
+  if (compassFor(lesson)) {
+    state.exercise.awaitingNextRound = false;
+    state.exercise.correctionMode = false;
+    state.exercise.correctionIds = [];
+  }
   if (!resumable) persistExercise().catch((error) => console.warn("Initial attempt save failed", error));
   return state.exercise;
 }
@@ -1861,6 +1998,23 @@ function questionHtml(question) {
   </article>`;
 }
 
+function compassQuestionHtml(question) {
+  const saved = questionState(question.id);
+  const legacyCorrect = state.exercise.correctIds.includes(question.id);
+  const reviewed = legacyCorrect || (saved.status === "pending" && saved.reveal === true && Boolean(String(saved.lastAnswer || "").trim()));
+  const modelVisible = reviewed || saved.reveal === true || state.pilotOpenModels.has(question.id);
+  const response = state.exercise.drafts[question.id] ?? saved.lastAnswer ?? "";
+  const bookmarked = isBookmarked(state.lessonId, question.id);
+  return `<article class="question-card compass-question ${reviewed ? "is-correct" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}" data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`英文慣用語 · 第 ${question.number || ""} 題`)}">
+    <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}${reviewed ? " · 已自行核對" : ""}</span><button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button></div>
+    <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p><p class="chinese">${escapeHtml(question.promptZh || "")}</p><p class="starter-hint">請用本課慣用語改寫；可由「${escapeHtml(question.starter || "")}」開始。</p></div>
+    <label class="compass-answer-label" for="compass-answer-${escapeHtml(question.id)}">我的改寫 · My version</label>
+    <textarea class="answer-input compass-answer" id="compass-answer-${escapeHtml(question.id)}" data-answer-input="${escapeHtml(question.id)}" rows="3" maxlength="1000" spellcheck="true" ${reviewed ? "disabled" : ""} aria-label="第 ${escapeHtml(question.number)} 題我的改寫">${escapeHtml(response)}</textarea>
+    ${modelVisible ? `<div class="compass-model"><span>參考改寫 · 看看意思、語氣和句式</span>${suggestedAnswerHtml(question)}<small>這是其中一種自然寫法；你的答案可以不同。</small></div>` : ""}
+    <div class="compass-question-actions">${legacyCorrect ? `<span class="compass-legacy-done">原有評分已完成</span>` : reviewed ? `<button class="secondary-button" type="button" data-compass-reopen="${escapeHtml(question.id)}">重新編輯</button>` : modelVisible ? `<button class="primary-button" type="button" data-compass-complete="${escapeHtml(question.id)}">已比較，完成此題 ✓</button>` : `<button class="secondary-button" type="button" data-compass-reveal="${escapeHtml(question.id)}">寫好後看參考改寫</button>`}</div>
+  </article>`;
+}
+
 function activeQuestions(lesson = getLesson()) {
   return (lesson?.questions || []).filter((question) => !state.exercise.correctIds.includes(question.id));
 }
@@ -1877,28 +2031,30 @@ function correctionQuestions(lesson = getLesson()) {
 }
 
 function submissionQuestions(lesson = getLesson()) {
-  const scoped = state.exercise.correctionMode ? correctionQuestions(lesson) : activeQuestions(lesson);
-  return scoped.filter((question) => !state.exercise.correctIds.includes(question.id));
+  const scoped = state.exercise.correctionMode ? correctionQuestions(lesson) : compassFor(lesson) ? pilotBatchQuestions(lesson) : activeQuestions(lesson);
+  const reviewed = compassFor(lesson) ? compassReviewedIds(lesson, state.exercise.questionState, state.exercise.correctIds) : null;
+  return scoped.filter((question) => reviewed ? !reviewed.has(question.id) : !state.exercise.correctIds.includes(question.id));
 }
 
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   ensureExercise(lesson);
+  const isCompass = Boolean(compassFor(lesson));
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const total = lesson.questions?.length || 0;
-  const correct = state.exercise.correctIds.length;
+  const correct = isCompass ? compassReviewedCount(lesson) : state.exercise.correctIds.length;
   const percentage = total ? Math.round((correct / total) * 100) : 0;
   const remaining = total - correct;
-  const completed = Boolean(state.exercise.completedAt || remaining === 0);
+  const completed = Boolean((!isCompass && state.exercise.completedAt) || remaining === 0);
   const wrongIds = wrongQuestionIds(lesson);
   const correctionScope = state.exercise.correctionMode ? correctionQuestions(lesson) : [];
   const correctionRemaining = correctionScope.filter((question) => !state.exercise.correctIds.includes(question.id));
   const correctionAnswerVisible = correctionRemaining.some((question) => questionState(question.id).reveal === true);
   const displayQuestions = completed
-    ? lesson.questions
+    ? isCompass ? pilotBatchQuestions(lesson) : lesson.questions
     : state.exercise.correctionMode
       ? correctionScope
-      : lesson.questions;
-  const visibleCorrectIds = displayQuestions
+      : isCompass ? pilotBatchQuestions(lesson) : lesson.questions;
+  const visibleCorrectIds = (isCompass ? [] : displayQuestions)
     .filter((question) => state.exercise.correctIds.includes(question.id))
     .map((question) => question.id);
   const allVisibleCorrectCollapsed = visibleCorrectIds.length > 0
@@ -1906,30 +2062,32 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
-  const instructionZh = String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
-  const instructionEn = String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
+  const instructionZh = isCompass ? "每次五題：先自己改寫，再看參考，最後自行核對完成。這裡不會因為你的寫法與參考答案不同而判錯。" : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
+  const instructionEn = isCompass ? "Write first, compare with the model, then mark your own review complete." : String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
   const illustrationAlt = String(lesson.imageAlt || `${lessonEnglishTitle(lesson)} illustration`);
   const illustrationCaptionZh = String(lesson.imageCaptionZh || lessonTitle(lesson));
   const illustrationCaptionEn = String(lesson.imageCaptionEn || lessonEnglishTitle(lesson));
 
-  elements.lessonContent.innerHTML = `<section class="exercise-page">
+  elements.lessonContent.innerHTML = `<section class="exercise-page ${isCompass ? "is-compass" : ""}">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">PAGE 8 · TYPE THE WHOLE SENTENCE</p><h2>慣用語句子改寫練習</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
+        <div><p class="eyebrow">${isCompass ? "IDIOM COMPASS · FIVE AT A TIME" : "PAGE 8 · TYPE THE WHOLE SENTENCE"}</p><h2>${isCompass ? "五題一組 · 自己核對" : "慣用語句子改寫練習"}</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
     </header>
 
-    ${lesson.image ? `<figure class="exercise-idiom-illustration">
+    ${isCompass ? `<nav class="compass-batch-nav" aria-label="練習組別"><span>第 ${Number(state.exercise.pilotBatchIndex || 0) + 1} / 10 組 · 題目 ${Number(state.exercise.pilotBatchIndex || 0) * 5 + 1}–${Math.min(total, Number(state.exercise.pilotBatchIndex || 0) * 5 + 5)}</span><div><button class="secondary-button" type="button" data-pilot-batch="prev" ${Number(state.exercise.pilotBatchIndex || 0) === 0 ? "disabled" : ""}>← 上五題</button><button class="secondary-button" type="button" data-pilot-batch="next" ${Number(state.exercise.pilotBatchIndex || 0) >= 9 ? "disabled" : ""}>下五題 →</button></div></nav>` : ""}
+
+    ${lesson.image && !isCompass ? `<figure class="exercise-idiom-illustration">
       <img src="${escapeHtml(lesson.image)}" alt="${escapeHtml(illustrationAlt)}" loading="lazy" decoding="async">
       <figcaption>${escapeHtml(illustrationCaptionZh)}<small>${escapeHtml(illustrationCaptionEn)}</small></figcaption>
     </figure>` : ""}
 
     ${completed ? `<section class="round-summary completion-card">
       <div class="completion-mark" aria-hidden="true">✓</div>
-      <h3>恭喜，全部題目已完成！</h3>
-      <p>你已完成這組 <strong>${escapeHtml(total)}</strong> 題英文慣用語練習。</p>
+      <h3>${isCompass ? "全部改寫已自行核對！" : "恭喜，全部題目已完成！"}</h3>
+      <p>${isCompass ? `你已比較並核對 <strong>${escapeHtml(total)}</strong> 題改寫。` : `你已完成這組 <strong>${escapeHtml(total)}</strong> 題英文慣用語練習。`}</p>
       <div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
     </section>` : state.exercise.awaitingNextRound ? `<section class="round-summary">
       <h3>本次提交已檢查</h3>
@@ -1953,13 +2111,15 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
 
     <div class="question-list" id="idiom-system-question-list" data-question-list>
-      ${displayQuestions.map(questionHtml).join("")}
+      ${displayQuestions.map(isCompass ? compassQuestionHtml : questionHtml).join("")}
     </div>
 
-    ${!completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
+    ${isCompass && !completed && !state.exercise.correctionMode && !submissionQuestions(lesson).length ? `<div class="compass-batch-complete" role="status"><strong>這五題完成了！</strong><span>${Number(state.exercise.pilotBatchIndex || 0) < 9 ? "準備好時，按「下五題」繼續。" : "可回到之前的組別改正未完成的題目。"}</span></div>` : ""}
+
+    ${!isCompass && !completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
       <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在目前畫面供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>
       <div class="exercise-action-buttons">
-        ${!state.exercise.correctionMode && wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
+        ${!isCompass && !state.exercise.correctionMode && wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
         <button class="partial-button" type="button" data-submit-partial hidden>提交部分答案</button>
         <button class="primary-button" type="button" data-submit-all>${state.exercise.correctionMode ? "提交改正答案" : "提交答案"}</button>
       </div>
@@ -1978,7 +2138,8 @@ function renderLessonPage() {
   const lesson = getLesson();
   if (!lesson) return openDashboard();
   updateLessonStepper();
-  if (state.lessonPage === 1) renderFormulaPage(lesson);
+  if (compassFor(lesson) && state.lessonPage < EXERCISE_PAGE) renderCompassPage(lesson, state.lessonPage);
+  else if (state.lessonPage === 1) renderFormulaPage(lesson);
   else if (state.lessonPage === 2) renderRegisterPage(lesson);
   else if (state.lessonPage === 3) renderFixedVariablePage(lesson);
   else if (state.lessonPage === 4) renderSpecificFormsPage(lesson);
@@ -2005,6 +2166,42 @@ function readExerciseDrafts() {
     const question = getQuestion(state.lessonId, questionId);
     state.exercise.drafts[questionId] = combinedAnswerPartValue(question, values);
   });
+}
+
+function revealCompassQuestion(questionId) {
+  const lesson = getLesson();
+  if (!compassFor(lesson) || !getQuestion(lesson.id, questionId) || !state.exercise) return;
+  readExerciseDrafts();
+  const response = String(state.exercise.drafts[questionId] || "").trim();
+  if (!response) return showToast("先寫下你的改寫，再看參考。", "error");
+  state.pilotOpenModels.add(questionId);
+  renderExercisePage(lesson, { preserveScroll: true });
+}
+
+async function completeCompassQuestion(questionId) {
+  const lesson = getLesson();
+  if (!compassFor(lesson) || !getQuestion(lesson.id, questionId) || !state.exercise || state.exercise.correctIds.includes(questionId)) return;
+  readExerciseDrafts();
+  const response = String(state.exercise.drafts[questionId] ?? questionState(questionId).lastAnswer ?? "").trim();
+  if (!state.pilotOpenModels.has(questionId) && questionState(questionId).reveal !== true) return showToast("請先寫作並查看參考改寫。", "error");
+  if (!response) return showToast("請先寫下你的改寫。", "error");
+  state.exercise.questionState[questionId] = { status: "pending", lastAnswer: response, reveal: true };
+  state.pilotOpenModels.delete(questionId);
+  if (compassReviewedCount(lesson) === (lesson.questions?.length || 0)) pauseExerciseClock();
+  renderExercisePage(lesson, { preserveScroll: true });
+  try { await persistExercise(); showToast("已記錄這題的自行核對。", "success"); }
+  catch (error) { console.warn("Idiom self-review save failed", error); showToast("已完成核對，但同步失敗；請稍後再試。", "error"); }
+}
+
+async function reopenCompassQuestion(questionId) {
+  const lesson = getLesson();
+  if (!compassFor(lesson) || !state.exercise || state.exercise.correctIds.includes(questionId) || questionState(questionId).reveal !== true) return;
+  readExerciseDrafts();
+  const response = String(state.exercise.drafts[questionId] ?? questionState(questionId).lastAnswer ?? "");
+  state.exercise.questionState[questionId] = { status: "pending", lastAnswer: response, reveal: false };
+  state.pilotOpenModels.delete(questionId);
+  renderExercisePage(lesson, { preserveScroll: true });
+  try { await persistExercise(); } catch (error) { console.warn("Idiom self-review reopen failed", error); }
 }
 
 function syncExerciseButtons() {
@@ -2101,6 +2298,7 @@ async function persistExercise({ keepalive = false } = {}) {
       && String(state.authToken || "") === operationAuthToken
       && state.exercise?.id === attemptId
       && !state.exercise.completedAt
+      && (!compassFor(getLesson(operationExercise.lessonId)) || compassReviewedCount(getLesson(operationExercise.lessonId), operationExercise) < (getLesson(operationExercise.lessonId)?.questions?.length || 0))
       && state.currentView === "lesson"
       && state.lessonPage === EXERCISE_PAGE
       && document.visibilityState !== "hidden"
@@ -2172,7 +2370,7 @@ async function submitExercise(kind) {
     state.exercise.awaitingNextRound = false;
     state.exercise.correctionMode = false;
     state.exercise.correctionIds = [];
-  } else if (kind === "all" && !state.exercise.correctionMode) {
+  } else if (kind === "all" && !state.exercise.correctionMode && !compassFor(lesson)) {
     state.exercise.awaitingNextRound = true;
   } else if (state.exercise.correctionMode) {
     const stillWrongInCorrection = correctionQuestions(lesson)
@@ -2562,6 +2760,29 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  const compassReveal = event.target.closest("[data-compass-reveal]");
+  if (compassReveal) return revealCompassQuestion(compassReveal.dataset.compassReveal);
+  const compassComplete = event.target.closest("[data-compass-complete]");
+  if (compassComplete) return completeCompassQuestion(compassComplete.dataset.compassComplete);
+  const compassReopen = event.target.closest("[data-compass-reopen]");
+  if (compassReopen) return reopenCompassQuestion(compassReopen.dataset.compassReopen);
+  const compassChoice = event.target.closest("[data-compass-choice]");
+  if (compassChoice && compassFor()) {
+    const page = Number(compassChoice.dataset.compassPage);
+    state.pilotSelections[`${state.lessonId}:${page}`] = Number(compassChoice.dataset.compassChoice);
+    renderCompassPage(getLesson(), page);
+    return;
+  }
+  const pilotBatchButton = event.target.closest("[data-pilot-batch]");
+  if (pilotBatchButton && compassFor() && state.exercise) {
+    readExerciseDrafts();
+    const change = pilotBatchButton.dataset.pilotBatch === "next" ? 1 : -1;
+    state.exercise.pilotBatchIndex = Math.max(0, Math.min(9, Number(state.exercise.pilotBatchIndex || 0) + change));
+    renderExercisePage(getLesson());
+    scheduleExercisePersistence();
+    document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
   const searchResult = event.target.closest("[data-lesson-search-result]");
   if (searchResult) return openLesson(searchResult.dataset.searchLesson, { page: Number(searchResult.dataset.searchPage || 1), questionId: searchResult.dataset.searchQuestion || "" });
   if (event.target.closest("[data-clear-lesson-search]")) return clearLessonSearch();

@@ -993,6 +993,69 @@ body > .site-header.edmund-system-header {
 .lesson-stepper button.is-complete > span { color: #fff; background: var(--green); }
 
 .lesson-content { margin-top: 20px; }
+.compass-page {
+  min-height: 0;
+  background: linear-gradient(145deg, rgba(255,255,255,.96), rgba(255,246,228,.88));
+  box-shadow: inset 0 1px rgba(255,255,255,.9), 0 22px 55px rgba(114,44,22,.08);
+}
+.compass-header { max-width: 760px; margin-bottom: 28px; }
+.compass-header .page-label { color: var(--accent-text); font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+.compass-header h2 { margin: 9px 0 5px; color: var(--navy-deep); font-size: clamp(30px,4vw,48px); line-height: 1.16; }
+.compass-header h2 small { display: block; margin-top: 5px; color: var(--muted); font: 700 clamp(13px,1.5vw,17px)/1.4 system-ui,sans-serif; }
+.compass-header p { margin: 0; color: var(--gold); font-size: 14px; font-weight: 800; }
+.compass-intro { display: flex; align-items: stretch; gap: 16px; max-width: 1080px; }
+.compass-meaning { max-width: 850px; padding: clamp(24px,3vw,38px); border: 1px solid rgba(190,108,43,.2); border-radius: 24px; background: #fff; box-shadow: 0 15px 40px rgba(139,63,23,.08); }
+.compass-intro .compass-meaning { flex: 1 1 0; }
+.compass-art { width: min(32%,280px); max-height: 230px; border: 1px solid rgba(190,108,43,.2); border-radius: 24px; padding: 12px; background: #fff8e7; object-fit: contain; box-shadow: 0 15px 40px rgba(139,63,23,.08); }
+.compass-meaning > span,.compass-note > span,.compass-shape span,.compass-decision > span { color: var(--accent-text); font: 900 11px/1.4 system-ui,sans-serif; letter-spacing: .1em; }
+.compass-meaning strong { display: block; margin: 12px 0; color: var(--navy-deep); font-size: clamp(23px,2.6vw,34px); line-height: 1.4; }
+.compass-meaning p { margin: 0; color: var(--muted); font: 600 16px/1.6 system-ui,sans-serif; }
+.compass-two { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin: 18px 0; }
+.compass-note { padding: 20px 23px; border: 1px solid rgba(167,91,33,.16); border-radius: 19px; background: rgba(255,249,239,.93); }
+.compass-note p { margin: 8px 0 0; font-size: 17px; font-weight: 650; line-height: 1.6; }
+.compass-boundary { margin-bottom: 18px; border-color: rgba(188,76,56,.26); background: #fff5f1; }
+.compass-decision { max-width: 870px; padding: clamp(22px,3vw,32px); border: 1px solid rgba(148,67,34,.18); border-radius: 24px; background: #fff; box-shadow: 0 18px 50px rgba(119,44,17,.08); }
+.compass-decision h3 { margin: 8px 0 20px; color: var(--ink); font-size: clamp(20px,2.2vw,27px); }
+.compass-decision h3 small { display: block; margin-top: 3px; color: var(--muted); font: 600 14px system-ui,sans-serif; }
+.compass-options { display: grid; gap: 10px; }
+.compass-option { display: flex; align-items: center; gap: 13px; width: 100%; min-height: 63px; padding: 12px 16px; border: 1px solid rgba(158,96,50,.2); border-radius: 15px; color: var(--ink); background: #fffaf1; text-align: left; font-weight: 750; cursor: pointer; transition: transform .15s ease,box-shadow .15s ease,border-color .15s ease; }
+.compass-option:hover,.compass-option:focus-visible { transform: translateY(-2px); border-color: #d59650; box-shadow: 0 10px 24px rgba(151,81,28,.12); }
+.compass-option > span { flex: 0 0 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: #9d5024; background: #ffebcd; font: 900 12px system-ui,sans-serif; }
+.compass-option.is-right { border-color: #4caa75; background: #edfff2; }
+.compass-option.is-wrong { border-color: #d98374; background: #fff4f1; }
+.compass-feedback { margin: 15px 0 0; padding: 13px 16px; border-radius: 12px; font-weight: 750; }
+.compass-feedback.is-right { color: #175e3d; background: #eaf8ef; }
+.compass-feedback.is-wrong { color: #a34535; background: #fff0eb; }
+.compass-shape { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; max-width: 870px; }
+.compass-shape > div { min-height: 155px; padding: 24px; border: 1px solid rgba(166,91,41,.2); border-radius: 20px; background: #fff; }
+.compass-shape strong { display: block; margin-top: 14px; color: var(--navy-deep); font: 800 clamp(20px,2.3vw,28px) system-ui,sans-serif; }
+.compass-shape p { margin: 10px 0 0; font-size: 16px; font-weight: 650; }
+.compass-form-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.compass-form-list span { padding: 10px 15px; border: 1px solid rgba(116,74,40,.18); border-radius: 999px; color: var(--navy-deep); background: #fff0db; font: 800 14px system-ui,sans-serif; }
+.compass-footnote { margin: 19px 0 0; color: var(--muted); font-size: 14px; }
+.compass-ready { max-width: 850px; padding: 25px; border: 1px solid rgba(143,37,20,.2); border-radius: 22px; background: #fff; }
+.compass-ready p { margin: 0 0 15px; color: var(--navy-deep); font-size: 20px; font-weight: 850; }
+.compass-ready ol { display: grid; gap: 12px; margin: 0; padding-left: 24px; font-size: 18px; font-weight: 700; }
+.compass-ready + .compass-note { max-width: 850px; margin-top: 16px; }
+.compass-batch-nav { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin: 18px 0; padding: 16px 18px; border: 1px solid rgba(139,70,29,.16); border-radius: 17px; background: #fff8eb; }
+.compass-batch-nav > span { color: var(--navy-deep); font-weight: 850; }
+.compass-batch-nav > div { display: flex; gap: 8px; flex-wrap: wrap; }
+.compass-batch-nav button { min-height: 39px; padding: 8px 12px; }
+.compass-batch-nav button:disabled { opacity: .4; cursor: not-allowed; }
+.compass-batch-complete { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; padding: 18px 22px; border: 1px solid #93c8a8; border-radius: 16px; color: #15583b; background: #eaf8ef; }
+.compass-batch-complete strong { font-size: 18px; }
+.exercise-page.is-compass .exercise-idiom-illustration img { max-height: 230px; object-fit: contain; }
+.compass-question { padding: clamp(19px,2.5vw,27px); }
+.compass-question .question-prompt { margin-bottom: 18px; }
+.compass-answer-label { display: block; color: var(--navy-deep); font-size: 13px; font-weight: 900; }
+.compass-answer { display: block; width: 100%; min-height: 112px; margin-top: 8px; padding: 15px 17px; resize: vertical; line-height: 1.6; }
+.compass-model { margin-top: 18px; padding: 18px 21px; border: 1px solid rgba(34,115,77,.26); border-radius: 17px; background: #effaf3; }
+.compass-model > span { color: #1b6242; font-size: 12px; font-weight: 900; }
+.compass-model p { margin: 8px 0 0; color: var(--ink); font-size: 18px; font-weight: 750; line-height: 1.65; }
+.compass-model p + p { color: var(--muted); font-size: 14px; }
+.compass-model small { display: block; margin-top: 11px; color: #37604c; font-size: 12px; font-weight: 700; }
+.compass-question-actions { display: flex; justify-content: flex-end; margin-top: 15px; }
+.compass-question-actions button { min-height: 43px; }
 .info-page { min-height: 480px; border: 1px solid var(--line); border-radius: 22px; padding: clamp(25px, 4vw, 52px); background: rgba(255, 255, 255, .84); }
 .info-page-header { max-width: 900px; }
 .info-page-header .page-label { color: var(--accent-text); font-size: 12px; font-weight: 900; letter-spacing: .13em; }
@@ -1368,6 +1431,7 @@ body > .site-header.edmund-system-header {
 .multi-answer-reveal > div { border-left: 3px solid rgba(232, 74, 27, .22); padding-left: 12px; }
 .multi-answer-reveal strong { color: var(--accent-text); font-size: 12px; }
 .target-highlight { color: #2468c9; font-weight: 900; text-decoration: underline; text-decoration-color: rgba(36, 104, 201, .22); text-decoration-thickness: 3px; text-underline-offset: 3px; }
+.compass-model .target-highlight { color: #126641; text-decoration-color: rgba(18,102,65,.28); }
 
 .exercise-actions {
   position: sticky;
@@ -1515,6 +1579,10 @@ body > .site-header.edmund-system-header {
 }
 
 @media (max-width: 720px) {
+  .compass-two,.compass-shape { grid-template-columns: 1fr; }
+  .compass-intro { flex-direction: column; }
+  .compass-art { width: 100%; max-height: 210px; }
+  .compass-option { min-height: 72px; }
   .site-header { position: static; }
   .header-inner { width: min(100% - 20px, 1480px); padding: 9px 0; align-items: flex-start; flex-wrap: wrap; }
   .header-actions { width: 100%; justify-content: flex-start; }
@@ -1557,6 +1625,9 @@ body > .site-header.edmund-system-header {
   .lesson-title-row { align-items: flex-start; flex-direction: column; }
   .lesson-title-actions { width: 100%; justify-content: flex-start; }
   .lesson-stepper { grid-template-columns: 1fr; }
+  .lesson-stepper.is-compass { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lesson-stepper.is-compass button { min-height: 62px; padding: 9px; }
+  .lesson-stepper.is-compass button > span { width: 29px; height: 29px; }
   .lesson-stepper button { min-height: 67px; }
   .info-page { padding: 22px; }
   .lesson-prose-grid { grid-template-columns: 1fr; }
