@@ -3770,7 +3770,7 @@ function initialisePhoebeWritingToggle() {
   const reducedMotionSource = button.querySelector('source[media="(prefers-reduced-motion: reduce)"]');
   const gifSrc = image.getAttribute('src');
   const stillSources = Array.from({ length: 7 }, (_, index) =>
-    `writing-phoebe-stills/phoebe-${String(index + 1).padStart(2, '0')}.png?v=20261022-pause-stills`
+    `writing-phoebe-stills/phoebe-${String(index + 1).padStart(2, '0')}.png?v=20261022-pause-stills-crop2`
   );
   const storageKey = 'edmund-writing-phoebe-visible';
   let playing = true;
