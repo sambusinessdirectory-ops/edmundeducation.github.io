@@ -1,0 +1,32 @@
+.celeste-header-mascot {
+  display: block;
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  filter: drop-shadow(0 3px 5px rgba(37, 49, 92, .18));
+}
+
+.celeste-header-mascot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.celeste-header-mascot:focus-visible {
+  outline: 3px solid #7d64b3;
+  outline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .celeste-header-mascot {
+    flex-basis: 52px;
+    width: 52px;
+    height: 52px;
+  }
+}
