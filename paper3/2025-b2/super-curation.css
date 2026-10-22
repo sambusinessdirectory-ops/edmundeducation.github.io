@@ -229,3 +229,7 @@
 
 .curation-active .curation-transcript-sentence.is-revealed .curation-transcript-inline-A{background:#8ce7eb;color:inherit}
 .curation-active .curation-transcript-sentence:not(.is-revealed) .curation-transcript-inline-A{background:transparent}
+
+/* Note-sheet evidence takes on its writing-task color only after that audio cue. */
+.curation-active #notes-wellness.curation-note-highlight-A{background-color:#d9f5f6!important;box-shadow:inset 4px 0 #008c9d}
+.curation-active #notes-parents.curation-note-highlight-C{background-color:#fce1e7!important;box-shadow:inset 4px 0 #c35070}

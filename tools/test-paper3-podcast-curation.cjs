@@ -58,6 +58,8 @@ const server=http.createServer((req,res)=>{
       await page.waitForFunction(()=>document.querySelector('#page-3 audio').paused);
       assert.equal(await page.locator('#curation-next').isDisabled(),false,`cue ${index+1} releases Next after writing`);
       if(field)assert.ok((await page.locator(`#notes-${field}`).inputValue()).includes(answer),`cue ${index+1} wrote ${answer} into ${field}`);
+      if(index===4)assert.equal(await page.locator('#notes-wellness').evaluate(element=>getComputedStyle(element).backgroundColor),'rgb(217, 245, 246)','Task A note field receives cyan after its first useful answer');
+      if(index===14)assert.equal(await page.locator('#notes-parents').evaluate(element=>getComputedStyle(element).backgroundColor),'rgb(252, 225, 231)','Task C note field receives rose after its first useful answer');
       if(index===0){
         assert.equal(await page.locator('.curation-transcript-C.is-revealed').count(),0,'later Task C transcript remains hidden');
         assert.ok(await page.locator('.curation-transcript-listening.is-revealed').count()>0,'heard slogan is marked in transcript');
@@ -69,6 +71,7 @@ const server=http.createServer((req,res)=>{
     assert.ok(await page.locator('.curation-transcript-strike.is-revealed').count()>0);
     assert.match(await page.locator('#notes-opening').inputValue(),/13 October[\s\S]*afternoon[\s\S]*Main Hall/);
     await jump('記下最後口號');
+    assert.equal(await page.locator('#notes-wellness.curation-note-highlight-A').count(),0,'jumping back removes future note coloring');
     assert.equal(await page.locator('.curation-transcript-C.is-revealed').count(),0,'jumping back hides future transcript annotations');
     await jump('報名方法被更正');
     assert.ok(await page.locator('.curation-transcript-C.is-revealed').count()>0,'jumping forward restores Task C annotations');

@@ -425,6 +425,7 @@
     const active=current();
     if(active?.cue&&!state.heard.includes(active.id))limit--;
     transcriptSentences.forEach(({span},index)=>span.classList.toggle('is-revealed',transcriptCueIndex[index]<=limit));
+    for(const [task,fieldId] of [['A','wellness'],['C','parents']]){const field=$(`#notes-${fieldId}`);if(!field)continue;const reached=steps.podcast.some(step=>step.cue?.task===task&&step.index<=limit);field.classList.toggle(`curation-note-highlight-${task}`,reached&&!!field.value.trim());}
   }
   function writeCueNote(step){
     const cue=step.cue,field=cue?.field?$(`#notes-${cue.field}`):null;if(!field||!cue.note)return;
@@ -433,9 +434,9 @@
     const commit=value=>{field.value=value;field.dispatchEvent(new Event('input',{bubbles:true}));field.scrollTop=field.scrollHeight;};
     if(matchMedia('(prefers-reduced-motion: reduce)').matches){commit(final);return;}
     if(noteTimer)clearInterval(noteTimer);noteTyping=true;let count=0;field.classList.add('curation-note-writing');
-    const cancelOnUserInput=event=>{if(!event.isTrusted)return;if(noteTimer)clearInterval(noteTimer);noteTimer=null;noteTyping=false;field.classList.remove('curation-note-writing');field.removeEventListener('input',cancelOnUserInput);$('#curation-next').disabled=false;};
+    const cancelOnUserInput=event=>{if(!event.isTrusted)return;if(noteTimer)clearInterval(noteTimer);noteTimer=null;noteTyping=false;field.classList.remove('curation-note-writing');field.removeEventListener('input',cancelOnUserInput);syncPodcastMarks();$('#curation-next').disabled=false;};
     field.addEventListener('input',cancelOnUserInput);
-    noteTimer=setInterval(()=>{count=Math.min(cue.note.length,count+2);commit(prefix+cue.note.slice(0,count));if(count>=cue.note.length){clearInterval(noteTimer);noteTimer=null;noteTyping=false;field.classList.remove('curation-note-writing');field.removeEventListener('input',cancelOnUserInput);$('#curation-next').disabled=false;}},28);
+    noteTimer=setInterval(()=>{count=Math.min(cue.note.length,count+2);commit(prefix+cue.note.slice(0,count));if(count>=cue.note.length){clearInterval(noteTimer);noteTimer=null;noteTyping=false;field.classList.remove('curation-note-writing');field.removeEventListener('input',cancelOnUserInput);syncPodcastMarks();$('#curation-next').disabled=false;}},28);
   }
   function completeCue(step){
     if(!state.heard.includes(step.id))state.heard.push(step.id);
