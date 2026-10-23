@@ -1,0 +1,93 @@
+{
+  "status": "provisional-author-source-owner-screen",
+  "scope": "Five held source candidates; two unselected seven-step drafts, two retained holds, one same-decision alias candidate retained on hold.",
+  "timestampUtc": "2026-10-23T23:22:41.105130+00:00",
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2816-3630-review-pilot.json",
+  "batchSha256": "cf25099bf14182a59f08cbd2cb5b846817dfa6a14cf42dd12d4592d13cfa4466",
+  "draftCount": 2,
+  "questionCount": 12,
+  "audioRoleCount": 8,
+  "focusedBuildAndCheck": "2 lessons / 12 questions / 8 audio roles / 0 flags",
+  "automatedSelfChecks": "Exact source occurrence and sentence, full-source target detector, target-bearing reply/scene/dialogue keys and teaching texts, exact speaking highlight, ten answer-derived glossary spans, zero six-word overlap against all 2604 source examples, five positive and five negative bite detector controls.",
+  "rows": [
+    {
+      "sourceOrdinal": 2725,
+      "sourceId": "book10-16-0614",
+      "sourceExpression": "emotional landmarks",
+      "exactSourceSentence": "Those songs became emotional landmarks in her life.",
+      "status": "hold-editorial-unchanged",
+      "nearestOwners": [
+        "advanced-native-1296"
+      ],
+      "reason": "Emotional landmarks is understandable as personal memory milestones, but the adjective-plus-dictionary-landmark stage sense is compositional; canonical1296 emotional anchor instead supplies steadiness, so it is neither a same-sense alias nor a clear seven-decision target. Hold for course-value proof.",
+      "evidenceUrl": "https://dictionary.cambridge.org/us/dictionary/english/landmark"
+    },
+    {
+      "sourceOrdinal": 2816,
+      "sourceId": "book10-16-0705",
+      "sourceExpression": "the truth catches up",
+      "exactSourceSentence": "A rumour can spread before the truth catches up.",
+      "status": "unselected-draft",
+      "draftId": "advanced-native-2816",
+      "nearestOwners": [
+        "advanced-native-2415",
+        "advanced-native-1601"
+      ],
+      "reason": "Source describes a rumour spreading before verified correction reaches readers. Canonical2415 teaches hidden facts becoming known, not the communication lag between first claim, verification and audience receipt; 1601 concerns home adaptation. The new seven-step target tests the correction lag and does not guarantee all readers have received the notice.",
+      "evidenceUrl": "https://www.niemanlab.org/2019/03/can-our-corrections-catch-up-to-our-mistakes-as-they-spread-across-social-media/"
+    },
+    {
+      "sourceOrdinal": 3630,
+      "sourceId": "book10-16-1519",
+      "sourceExpression": "the cost may bite",
+      "exactSourceSentence": "Even with a grant, the cost may bite.",
+      "status": "unselected-draft",
+      "draftId": "advanced-native-3630",
+      "nearestOwners": [
+        "advanced-native-1268",
+        "advanced-native-1778"
+      ],
+      "reason": "Source says education costs can still have a felt adverse effect after a grant. Canonical1268 says something is extremely expensive; 1778 concerns a human/nonfinancial cost. Cambridge documents intransitive bite for adverse economic effect. The lesson tests remaining expense and budget impact rather than high price alone.",
+      "evidenceUrl": "https://dictionary.cambridge.org/us/dictionary/english/bite?topic=biting-chewing-and-swallowing"
+    },
+    {
+      "sourceOrdinal": 3465,
+      "sourceId": "book10-16-1354",
+      "sourceExpression": "slow the day down",
+      "exactSourceSentence": "Making soup can slow the day down.",
+      "status": "hold-editorial-unchanged",
+      "nearestOwners": [
+        "advanced-native-2252",
+        "advanced-native-646"
+      ],
+      "reason": "Slow the day down is natural but productive transitive slow-down language applied to day; 2252 already assesses slowing and resetting one’s pace, while 646 covers pace of life. The source soup example lacks a separate bounded learner decision for seven steps. Not a direct detector-supported alias; keep held.",
+      "evidenceUrl": "https://dictionary.cambridge.org/us/dictionary/english/slow-down"
+    },
+    {
+      "sourceOrdinal": 3264,
+      "sourceId": "book10-16-1153",
+      "sourceExpression": "learning is caught rather than taught",
+      "exactSourceSentence": "At home, much learning is caught rather than taught.",
+      "status": "hold-editorial-unchanged; proposed-owner-alias-candidate",
+      "nearestOwners": [
+        "advanced-native-1729"
+      ],
+      "reason": "The source general learning caught rather than taught and canonical1729 kindness caught before taught both test observation before explicit instruction. The owner currently matches only its kindness wording; source full sentence does not match. A bounded broadening with non-kindness assessment, exact provenance, false-positive controls and audio review is required before aliasing. No owner or decision edit.",
+      "evidenceUrl": null
+    }
+  ],
+  "riskGates": [
+    "2816 uses a figurative communication-lag construction; independent review must ensure it is more than a one-off prose image and that correction reach is not overstated.",
+    "3630 target is productive intransitive bite in financial use; independent review must check that the assessment offers distinct decision value beyond a price being high."
+  ],
+  "unchangedSharedFiles": [
+    "editorial decisions",
+    "selected manifest",
+    "central SOP audit",
+    "audio/release"
+  ],
+  "approvalBoundary": "Author self-audit is not independent human approval; both drafts remain unselected pending separate AI peer review."
+}

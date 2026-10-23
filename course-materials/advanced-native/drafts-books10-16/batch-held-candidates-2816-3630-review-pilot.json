@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-candidates-2816-3630-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-2816",
+      "number": 2816,
+      "inventoryId": "expr-2816",
+      "titleEn": "the truth catches up",
+      "titleZh": "真相逐步追上傳聞",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bthe\\s+truth\\s+(?:catches|caught|will\\s+catch|can\\s+catch|may\\s+catch|is\\s+catching)\\s+up\\b",
+        "glossaryForbidden": [
+          "\\bthe\\s+truth\\s+(?:catches|caught|will\\s+catch|can\\s+catch|may\\s+catch|is\\s+catching)\\s+up\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Verified correction reaches an audience after an earlier false or misleading account has circulated; it may take time to reach everyone.",
+        "meaningZh": "錯誤或誤導說法先傳開，經核實的更正其後才逐步傳到受眾；未必立即傳到每個人。",
+        "grammar": "the truth catches/caught up; the truth can/may/will catch up; the truth is catching up. With a claim or rumour may follow. Keep the truth as the subject and identify what verified correction is catching up with.",
+        "register": "Figurative but natural in discussion of news, notices and public communication. A school administrator may explain the correction lag to families; a journalist may describe it to readers.",
+        "boundaryZh": "先有已流傳的錯誤說法，再有經核實的更正逐步傳到受眾；單有猜測或只貼出更正，不保證所有人已收到。",
+        "misconceptionZh": "不要把未核實的新傳聞稱作真相，也不要因已發公告便假定人人已看到。這也不同於隱藏事實終於被揭露的「真相浮現」。",
+        "outcomeZh": "能分清傳聞、核實、更正發布及受眾實際收到更正四個階段，審慎使用這個追趕比喻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0705",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 65,
+          "book": 11,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "65–66",
+          "locatorNote": "DOCX table 62, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A rumour can spread before the truth catches up.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the truth catches up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "A false post said the community library would close on Friday. Staff checked the timetable: it closes on Saturday. The false post spread widely; as volunteers share the verified notice, the truth is catching up.",
+        "zh": "一則錯誤帖文說社區圖書館星期五關閉。職員核對時間表後，公布正確的星期六關閉日期，但先前帖文已被大量轉發。義工開始轉寄經核實的通知時，真相正逐步追上傳聞。",
+        "promptEn": "What is catching up, and what is still uncertain?",
+        "promptZh": "甚麼正在追上先前的說法？還有甚麼未能確定？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The verified closure date is reaching people after the false post; not everyone is known to have seen it.",
+            "zh": "經核實的關閉日期正追上錯誤帖文；目前不知道是否人人都看過更正。"
+          },
+          {
+            "id": "b",
+            "en": "The first post was correct and staff are withdrawing the verified notice.",
+            "zh": "先前帖文是正確的，職員正撤回經核實的通知。"
+          },
+          {
+            "id": "c",
+            "en": "Publishing the correction proves it has already reached every library user.",
+            "zh": "公布更正就證明它已傳到每名圖書館使用者。"
+          },
+          {
+            "id": "d",
+            "en": "A second unverified rumour has replaced the timetable check.",
+            "zh": "第二則未經核實的傳聞取代了時間表核對。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "職員核對後的星期六通知才是更正；它正被轉寄，但首則錯誤帖文傳播較廣，不能推斷人人已收到。"
+      },
+      "reply": {
+        "promptEn": "Our club shared the wrong start time yesterday. The signed schedule confirms the later time, and some members have seen our correction, but the first message travelled faster. What should we tell members now?",
+        "promptZh": "本會昨天發出了錯誤的開始時間。已簽署的時間表確認較遲的時間，一些會員已看過更正，但首則訊息傳得更快。現在應怎樣告訴會員？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The truth is catching up with the first message; please check the signed schedule for the later start time.",
+            "zh": "真相正逐步追上首則訊息；請核對已簽署的時間表，以較遲的開始時間為準。"
+          },
+          {
+            "id": "b",
+            "en": "Our first start time was wrong; the signed schedule gives the later time, so please share this correction.",
+            "zh": "我們首則訊息的開始時間有誤；已簽署的時間表列出較遲的時間，請轉發這則更正。"
+          },
+          {
+            "id": "c",
+            "en": "Please use the later time in the signed schedule, and tell anyone who may have seen only yesterday’s message.",
+            "zh": "請以已簽署時間表上的較遲時間為準，也請通知可能只看過昨天訊息的人。"
+          },
+          {
+            "id": "d",
+            "en": "We have verified the later start time and are contacting members who may not yet have received the update.",
+            "zh": "我們已核實較遲的開始時間，正聯絡可能仍未收到更新的會員。"
+          }
+        ],
+        "explanationZh": "四句都直接向會員提供經核實的較遲時間與傳播更正的辦法，沒有假定所有人已收到；金句使用 truth catches up。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "A misleading message says the town pool has cancelled all morning sessions. The official timetable shows only Tuesday is affected; staff are sharing the correction, but many users still quote the first message. Which account is most accurate?",
+        "promptZh": "一則誤導訊息說市鎮泳池取消所有早上時段。官方時間表顯示只有星期二受影響；職員正轉發更正，但不少使用者仍引用首則訊息。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The truth is catching up with the misleading claim, although the correction has not reached everyone.",
+            "zh": "真相正逐步追上誤導說法，雖然更正尚未傳到每個人。"
+          },
+          {
+            "id": "b",
+            "en": "The official timetable confirms that every morning session is cancelled.",
+            "zh": "官方時間表確認所有早上時段都已取消。"
+          },
+          {
+            "id": "c",
+            "en": "Because a correction exists, everyone has already stopped repeating the first claim.",
+            "zh": "既然已有更正，人人都已停止重複首則說法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "官方時間表只改星期二；更正正傳播，但仍有人引用原訊息，因此不能說已追上所有受眾。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports saying that the truth catches up?",
+        "promptZh": "哪種情況最不適合說「真相逐步追上傳聞」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A false claim spreads first, then a verified correction begins reaching its readers.",
+            "zh": "錯誤說法先傳開，經核實的更正其後開始傳到讀者。"
+          },
+          {
+            "id": "b",
+            "en": "No claim has circulated, and no one has checked the new suggestion yet.",
+            "zh": "尚無說法流傳，也沒有人核查新提出的猜測。"
+          },
+          {
+            "id": "c",
+            "en": "An old inaccurate notice remains online while the corrected opening hours are being shared.",
+            "zh": "舊的不準確通知仍在網上，而更正後的開放時間正被轉發。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有先前流傳的說法，也沒有核實，更談不上經核實的真相追上傳聞。"
+      },
+      "dialogue": {
+        "promptEn": "A manager says, “We posted the correction at noon, so the truth has caught up with everyone.” Only one of three teams has confirmed receiving it. What is the careful reply?",
+        "promptZh": "主管說：「我們中午貼了更正，真相已傳到所有人。」但三隊之中只有一隊確認收到。怎樣回答較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The truth is catching up, but two teams have not confirmed the correction; let us contact them directly.",
+            "zh": "真相正逐步追上傳聞，但還有兩隊未確認收到更正；我們直接聯絡他們吧。"
+          },
+          {
+            "id": "b",
+            "en": "The noon post proves that all three teams have already read the correction.",
+            "zh": "中午貼出的公告證明三隊全都已讀過更正。"
+          },
+          {
+            "id": "c",
+            "en": "Because two teams have not replied, the unverified earlier claim must be accurate.",
+            "zh": "既然兩隊沒有回覆，較早的未核實說法必然正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "貼出更正與受眾實際收到是兩回事；目前只確認一隊收到，所以應繼續聯絡。"
+      },
+      "speaking": {
+        "en": "The verified route map is now reaching riders after the wrong diagram spread; the truth is catching up with the first notice.",
+        "zh": "錯誤路線圖傳開後，經核實的路線圖正陸續傳到乘客手上；真相正逐步追上首則通知。",
+        "promptZh": "先聽示範，再說出哪張圖已核實，以及為何不能說所有乘客已收到。",
+        "targetSpan": {
+          "start": 78,
+          "end": 102
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：合作社曾誤稱周末市集暫停。董事會已核實市集照常舉行，並公布更正；部分攤主仍在轉發首則錯誤訊息。請用一至兩句英文向攤主說明更正正逐步傳開，提醒他們核對董事會通知；不要聲稱所有攤主都已收到。",
+        "selfCheckZh": "兩例都要提及首則錯誤的停辦說法、董事會核實市集照常、更正正傳播但仍有人轉發舊訊息，以及核對董事會通知；不可說人人已收到。",
+        "examples": [
+          {
+            "en": "The cooperative’s cancellation claim was wrong: the board has confirmed that the weekend market will run. The truth is catching up, but some stallholders still share the first message, so please check the board’s notice.",
+            "zh": "合作社先前稱市集停辦是錯誤的：董事會已確認周末市集照常舉行。真相正逐步追上傳聞，但部分攤主仍轉發首則訊息，請核對董事會通知。"
+          },
+          {
+            "en": "The board has verified that the weekend market is on, despite the earlier false cancellation message. As the truth catches up with that message, some stallholders still need the correction; please pass on the board’s notice.",
+            "zh": "雖然先前曾有錯誤的停辦訊息，董事會已核實周末市集照常。真相正逐步追上那則訊息，但部分攤主仍需收到更正；請轉發董事會通知。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "cancellation claim",
+            "zh": "停辦說法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "weekend market",
+            "zh": "周末市集",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 95
+            }
+          },
+          {
+            "en": "some stallholders",
+            "zh": "部分攤主",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 153
+            }
+          },
+          {
+            "en": "earlier false cancellation message",
+            "zh": "先前錯誤的停辦訊息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 100
+            }
+          },
+          {
+            "en": "pass on the board’s notice",
+            "zh": "轉發董事會通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 197,
+              "end": 223
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The truth catches up only when a verified correction begins reaching people after a false claim.",
+          "zh": "經核實的更正開始傳到先前接觸錯誤說法的人，才可說真相逐步追上傳聞。"
+        },
+        {
+          "en": "Posting a correction is a step; whether the truth catches up with everyone still needs evidence.",
+          "zh": "貼出更正只是一步；真相是否已傳到每個人，仍須有證據。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3630",
+      "number": 3630,
+      "inventoryId": "expr-3630",
+      "titleEn": "the cost may bite",
+      "titleZh": "費用可能造成壓力",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:(?:the\\s+)?(?:cost|fee|expense)\\s+(?:(?:may|might|can|could|will)\\s+bite|bites)|(?:the\\s+)?(?:costs|fees|expenses)\\s+(?:(?:may|might|can|could|will)\\s+bite|bite))\\b",
+        "glossaryForbidden": [
+          "\\b(?:(?:the\\s+)?(?:cost|fee|expense)\\s+(?:(?:may|might|can|could|will)\\s+bite|bites)|(?:the\\s+)?(?:costs|fees|expenses)\\s+(?:(?:may|might|can|could|will)\\s+bite|bite))\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A cost or recurring expenses may have a noticeable, harmful effect on someone’s budget, even if an initial charge is reduced.",
+        "meaningZh": "費用或持續開支可能對某人的預算造成明顯壓力，即使最初的收費已減低。",
+        "grammar": "the cost/fee/expense may bite; the cost bites; costs/fees/expenses bite or may bite. The financial item is the subject; bite is figurative and expresses a felt adverse effect, not the action of teeth.",
+        "register": "Informal or journalistic discussion of affordability. A learner may explain remaining expenses to a course adviser; a shop owner may describe margins to a business partner.",
+        "boundaryZh": "須指出開支怎樣壓縮可用預算或收入；金額大不一定已造成壓力，亦不能把獲減免說成所有費用均消失。",
+        "misconceptionZh": "不要把 bite 理解為字面咬人，也不要只因標價高就推定每個人負擔不起。",
+        "outcomeZh": "能區分標價、減免及剩餘支出對預算的實際影響，審慎使用費用「咬人」的比喻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1519",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 142,
+          "book": 14,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 151, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even with a grant, the cost may bite.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the cost may bite"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "The community swim course waived half its enrolment fee, but Tessa still pays for two bus trips and pool access each week. Those costs may bite because they leave less for her monthly food budget.",
+        "zh": "社區游泳課程減免了一半報名費，但 Tessa 每周仍須支付兩程巴士費和泳池入場費。這些開支可能造成壓力，因為她每月可用於伙食的預算會減少。",
+        "promptEn": "Why may the remaining costs bite?",
+        "promptZh": "剩餘費用為甚麼可能造成壓力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Weekly travel and access charges reduce what Tessa has left for food.",
+            "zh": "每周交通和入場費使 Tessa 可用於伙食的錢減少。"
+          },
+          {
+            "id": "b",
+            "en": "The course has waived every payment, including buses and pool access.",
+            "zh": "課程已減免所有付款，包括巴士費及泳池入場費。"
+          },
+          {
+            "id": "c",
+            "en": "The reduced enrolment fee caused the separate bus and pool charges to rise.",
+            "zh": "報名費減低，導致另外的巴士費及泳池入場費上升。"
+          },
+          {
+            "id": "d",
+            "en": "A reduced enrolment fee proves all participants can afford every remaining charge.",
+            "zh": "報名費降低就證明所有參加者都能負擔其餘費用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "報名費只減了一半，交通和泳池費仍須每周支付，並會壓縮伙食預算。"
+      },
+      "reply": {
+        "promptEn": "The maker-space gave me a discounted membership, but the tool rental and storage fees leave very little of my monthly project budget. What could I tell the organiser?",
+        "promptZh": "創客空間給我會員折扣，但工具租用和儲物費令每月項目預算所餘無幾。我可以怎樣告訴主辦人？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The discount helps, but the remaining fees may bite; could we review the tool and storage charges?",
+            "zh": "折扣有幫助，但餘下費用仍可能造成壓力；我們可否看看工具及儲物收費？"
+          },
+          {
+            "id": "b",
+            "en": "Thank you for the discount. Could you explain the tool rental and storage charges before I commit?",
+            "zh": "謝謝折扣。決定加入之前，可否說明工具租用及儲物收費？"
+          },
+          {
+            "id": "c",
+            "en": "The monthly tool and storage payments would leave little room in my project budget. Is there a cheaper option?",
+            "zh": "每月工具和儲物費會令我的項目預算所餘不多。有較便宜的選擇嗎？"
+          },
+          {
+            "id": "d",
+            "en": "I can cover the reduced membership, but I need to compare the other fees with my budget first.",
+            "zh": "減價後的會費我付得起，但我需要先把其他收費與預算比較。"
+          }
+        ],
+        "explanationZh": "四句都直接向主辦人指出折扣未涵蓋的工具和儲物費及預算影響；金句以 fees may bite 表示可能造成財政壓力。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "A market stall is free for a month, but sellers must pay card-processing and packaging charges on every sale. For a low-margin seller, the charges reduce each week’s earnings. Which description fits?",
+        "promptZh": "市場攤位首月免費，但賣家每筆交易都須支付刷卡處理費及包裝費。對利潤微薄的賣家而言，這些收費令每周收入減少。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fees bite because the recurring charges reduce the seller’s earnings.",
+            "zh": "這些費用造成壓力，因為持續收費壓縮賣家的收入。"
+          },
+          {
+            "id": "b",
+            "en": "A free stall means the seller has no remaining business costs.",
+            "zh": "攤位免費就表示賣家再沒有其他營業成本。"
+          },
+          {
+            "id": "c",
+            "en": "The charges are harmless because each one is listed separately.",
+            "zh": "每項收費分開列出，所以都不會造成影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "免費攤位不等於沒有交易成本；每筆收費均削減收入，才是 bite 的財務影響。"
+      },
+      "contrast": {
+        "promptEn": "Which case least supports saying that a cost bites?",
+        "promptZh": "哪個情況最不適合說某項費用造成明顯財務壓力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An unexpected repair bill uses up the money set aside for groceries.",
+            "zh": "一筆意外維修費用盡原本留作買餸的錢。"
+          },
+          {
+            "id": "b",
+            "en": "A small, planned ticket charge fits comfortably within the group’s budget.",
+            "zh": "一筆已預算的小額門票費，完全在小組可負擔範圍內。"
+          },
+          {
+            "id": "c",
+            "en": "Recurring delivery charges cut deeply into a shop’s weekly margin.",
+            "zh": "持續的送貨費大幅削減店舖每周利潤。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "有計劃的小額開支若仍在預算內，未見明顯負面財務影響。"
+      },
+      "dialogue": {
+        "promptEn": "A colleague says, “The fee was cut by 40%, so it cannot bite.” Students still pay for required equipment, and several say they have reduced other spending to afford it. What is the careful reply?",
+        "promptZh": "同事說：「收費減了四成，所以不可能造成壓力。」學生仍要買必需器材，有幾人說為了負擔這筆開支而削減其他支出。怎樣回答較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The remaining equipment costs may bite: some students are cutting other spending to afford them.",
+            "zh": "餘下的器材費可能造成壓力：部分學生為了負擔這筆開支而削減其他支出。"
+          },
+          {
+            "id": "b",
+            "en": "A reduction proves that required equipment no longer has any cost.",
+            "zh": "減價證明必需器材已完全免費。"
+          },
+          {
+            "id": "c",
+            "en": "Every student must face the same pressure, whether or not their budget is affected.",
+            "zh": "不論預算有否受影響，每名學生承受的壓力必然相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "課程收費減價與仍須支付器材費可同時成立；削減其他支出的是器材費所造成的壓力，不能把這項影響歸因於已減低的課程費，也不必推定人人受影響一樣。"
+      },
+      "speaking": {
+        "en": "The evening art class has a low entry price, but transport costs may bite for learners who must travel twice a week.",
+        "zh": "晚間美術班入門收費不高，但對每周須來回兩次的學員而言，交通費仍可能造成壓力。",
+        "promptZh": "先聽示範，再指出低價未涵蓋哪項重複支出，以及誰的預算可能受影響。",
+        "targetSpan": {
+          "start": 59,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區維修工作坊獲提供半價器材租用，但必須每月支付保養費，令購買安全用品的預算減少。請用一至兩句英文直接向共同主辦人說明折扣與餘下開支可同時存在，並建議核對下個月的預算；不可聲稱所有工作坊都遇到同樣困難。",
+        "selfCheckZh": "兩例都要提及器材租用半價、每月保養費仍須支付、安全用品預算因此減少，以及核對下個月的預算；須直接向共同主辦人說話，不可推定所有工作坊受影響相同。",
+        "examples": [
+          {
+            "en": "The workshop gets half-price equipment hire, but we still owe a monthly maintenance charge. That expense may bite, leaving less in our safety-supplies budget; can we check next month's figures together?",
+            "zh": "工作坊可以半價租用器材，但我們每月仍須支付保養費。這筆開支可能壓縮購買安全用品的預算；我們可否一起核對下個月的數字？"
+          },
+          {
+            "en": "Our equipment hire is half price, yet the monthly maintenance fee still comes from the money reserved for safety supplies. The fee may bite; let's review next month's budget before ordering them.",
+            "zh": "我們可以半價租用器材，但每月保養費仍要從購買安全用品的預留款項中支付。這筆費用可能造成壓力；訂購用品前，讓我們先檢查下個月的預算。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "half-price equipment hire",
+            "zh": "半價器材租用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 43
+            }
+          },
+          {
+            "en": "a monthly maintenance charge",
+            "zh": "每月保養費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 90
+            }
+          },
+          {
+            "en": "safety-supplies budget",
+            "zh": "購買安全用品的預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 157
+            }
+          },
+          {
+            "en": "the money reserved for safety supplies",
+            "zh": "購買安全用品的預留款項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 121
+            }
+          },
+          {
+            "en": "review next month's budget",
+            "zh": "檢查下個月的預算",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A cost bites when its effect is felt in a budget or earnings, not merely because the price looks high.",
+          "zh": "一項費用削減可用預算或收入時，才可說它造成壓力；標價看起來高並不足夠。"
+        },
+        {
+          "en": "A discount can help while remaining fees may bite; name the payments and their actual effect.",
+          "zh": "折扣有幫助，餘下費用卻仍可能造成壓力；要指出付款項目及實際影響。"
+        }
+      ]
+    }
+  ]
+}

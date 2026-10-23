@@ -157,7 +157,8 @@
     "batch-held-3963-in-small-doses-a.json",
     "batch-held-distinct-3360-3834-review-pilot.json",
     "batch-held-3903-4702-seven-extracted-review-pilot.json",
-    "batch-held-candidates-2262-3682-three-review-pilot.json"
+    "batch-held-candidates-2262-3682-three-review-pilot.json",
+    "batch-held-candidates-2816-3630-review-pilot.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -380,6 +381,7 @@
     2809,
     2813,
     2815,
+    2816,
     2827,
     2829,
     2830,
@@ -557,6 +559,7 @@
     3617,
     3618,
     3627,
+    3630,
     3640,
     3644,
     3647,

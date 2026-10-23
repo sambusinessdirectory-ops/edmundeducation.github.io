@@ -1,0 +1,68 @@
+{
+  "reportType": "independent-ai-focused-review",
+  "status": "one_accept_one_repair",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2816-3630-review-pilot.json",
+  "draftSha256": "cf25099bf14182a59f08cbd2cb5b846817dfa6a14cf42dd12d4592d13cfa4466",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-held-candidates-2725-3630-screen-and-two.json",
+  "authorAuditSha256": "25af37086f06d71ca459d48206dd8d7a40715fc213ed0bb475bbb77a4b224f39",
+  "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": [
+    {
+      "sourceOrdinal": 2816,
+      "sourceId": "book10-16-0705",
+      "ownerId": "advanced-native-2816",
+      "verdict": "accept",
+      "findingIds": [],
+      "sourceSense": "The guide says a rumour can spread before the truth catches up. The draft consistently teaches the lag between an earlier false claim, verified correction and actual audience receipt. Selected 2415 truth rises to the surface instead teaches formerly concealed facts becoming known. The two decisions are distinct.",
+      "otherChecks": "Six keys are grounded, four replies answer members with the verified later start time, and EN/Traditional Chinese preserve the uncertainty about reach. Speaking and both writing models use the target in different communication settings. Five glossary rows are exact answer-derived, non-target spans. Seven steps and four audio texts present."
+    },
+    {
+      "sourceOrdinal": 3630,
+      "sourceId": "book10-16-1519",
+      "ownerId": "advanced-native-3630",
+      "verdict": "repair",
+      "findingIds": [
+        "R3630-01",
+        "R3630-02"
+      ],
+      "sourceSense": "The source describes a cost that may have a felt adverse budget effect despite a grant. The draft generally keeps that meaning and differs from selected 1268 cost an arm and a leg, which judges an unusually high price without requiring demonstrated budget damage. The teachable financial bite use is defensible, but two assessed fields need repair.",
+      "otherChecks": "Listening/scene/contrast and four reply options are broadly grounded and bilingual. Source provenance and target forms match. Five glossary spans are exact and non-target. The listening literal bus-bite foil is conspicuously implausible; improve it when repairing distractors, but this alone is not the block."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R3630-01",
+      "severity": "major_blocking_assessed_causality",
+      "ownerId": "advanced-native-3630",
+      "fields": [
+        "dialogue.promptEn",
+        "dialogue.options[0].en",
+        "dialogue.options[0].zh",
+        "dialogue.explanationZh"
+      ],
+      "issue": "The colleague discusses a fee reduced by 40%, while the evidence of continuing pressure is a separate required-equipment expense. The keyed reply says \"The fee may bite ... because the equipment expense still forces some students to cut elsewhere,\" assigning the equipment cost’s demonstrated effect to the reduced fee. Chinese repeats the same causal mismatch.",
+      "suggestedRepair": "Key \"The remaining costs may bite...\" or explicitly establish that the reduced fee itself still crowds out other spending; align Chinese and rationale. Keep the target form and one unambiguous key."
+    },
+    {
+      "id": "R3630-02",
+      "severity": "major_blocking_scenario_transfer",
+      "ownerId": "advanced-native-3630",
+      "fields": [
+        "writing.promptZh",
+        "writing.examples",
+        "scene.promptEn",
+        "scene.promptZh"
+      ],
+      "issue": "Step 7 repeats Step 3’s free market stall, per-sale packaging and card-processing charges, and weekly earnings/margin decision. Both writing models merely restate that same scenario, so they do not demonstrate changed-context transfer required by the writing task.",
+      "suggestedRepair": "Move Step 7 to a genuinely different cost-bearing setting with an initial waiver/discount but a remaining documented budget effect, such as discounted equipment hire plus recurring maintenance for a community workshop. Update prompt, both EN/ZH models and answer-derived glossary offsets."
+    }
+  ],
+  "independentChecks": {
+    "exactHashesVerified": true,
+    "sourceOwnerComparison": "2816 vs 2415; 3630 vs 1268 inspected",
+    "sevenSteps": "Both lesson objects checked across listening, reply, scene, contrast, dialogue, speaking, writing and takeaways",
+    "mechanicalEvidence": "Author reported focused build/--check 2/12/8/0, exact target/speaking/glossary and six-token originality; treated as mechanical evidence, not independent semantic clearance."
+  },
+  "scope": "Read-only independent AI content review at the exact hashes. No draft, decision, manifest, audit, audio, or release edits. 2816 content acceptance is provisional and unpublished; 3630 remains unselected pending repair and final-hash recheck."
+}

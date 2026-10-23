@@ -1,0 +1,36 @@
+{
+  "reportType": "independent-ai-focused-followup",
+  "status": "two_accept",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2816-3630-review-pilot.json",
+  "draftSha256": "64bdaa2ae29d47c652ca0f6e64d8fd04470a8893123fda9533e6b17b39846e1e",
+  "authorRepairAudit": "course-materials/advanced-native/reviews-books10-16/author-repair-held-candidates-3630-after-b.json",
+  "authorRepairAuditSha256": "b11b1b6212c23a2df079b6c69ff2a42f41da33e40a01ca765bae521f7875d76f",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2816-3630-b.json",
+  "lessons": [
+    {
+      "sourceOrdinal": 2816,
+      "ownerId": "advanced-native-2816",
+      "verdict": "accept",
+      "regressionCheck": "Revision 1 and all seven-step fields remain as previously accepted; keyed target, speaking span and five glossary offsets remain exact. No new content issue found."
+    },
+    {
+      "sourceOrdinal": 3630,
+      "ownerId": "advanced-native-3630",
+      "verdict": "accept",
+      "resolvedFindingIds": [
+        "R3630-01",
+        "R3630-02"
+      ],
+      "findingCheck": "Dialogue now assigns demonstrated budget cuts to remaining equipment costs rather than the discounted enrolment fee. English key, Chinese and rationale agree. Step 7 moves from the scene’s free market stall and per-sale charges to half-price workshop equipment hire with monthly maintenance drawing down a safety-supplies budget. Both models address the co-organiser and request next-month budget review; this is a changed decision context.",
+      "regressionCheck": "Revised listening foil is a context-specific false causal claim. Reply, scene, contrast, dialogue, speaking and two writing models retain natural target forms and faithful Traditional Chinese. Five updated glossary strings are exact non-target answer spans; speaking highlight remains exact."
+    }
+  ],
+  "independentChecks": {
+    "draftAndAuditHashesVerified": true,
+    "sourceSenseAndOwnerBoundary": "2816 communication lag distinct from 2415 hidden truth; 3630 budget impact distinct from 1268 high-price hyperbole.",
+    "targetBearingKeys": "Both lessons: reply, scene and dialogue keys live-pattern matched.",
+    "writingAndGlossary": "Four models target-bearing; all ten glossary rows exact answer-derived non-target spans.",
+    "focusedBuild": "Author reports 2 lessons/12 questions/8 audio requests/zero flags; this review additionally checked changed fields and target/glossary spans independently."
+  },
+  "scope": "Exact-hash AI content clearance for two unselected lessons only. No draft, selected manifest, source decision, SOP audit, media or release edits; no human/audio/publication approval."
+}

@@ -1,0 +1,40 @@
+{
+  "reportType": "scoped-author-repair-after-independent-ai-review",
+  "status": "repaired-pending-independent-final-hash-recheck",
+  "timestampUtc": "2026-10-23T23:26:51.450437+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2816-3630-review-pilot.json",
+  "beforeDraftSha256": "cf25099bf14182a59f08cbd2cb5b846817dfa6a14cf42dd12d4592d13cfa4466",
+  "afterDraftSha256": "64bdaa2ae29d47c652ca0f6e64d8fd04470a8893123fda9533e6b17b39846e1e",
+  "independentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2816-3630-b.json",
+  "independentReviewSha256": "8f0e25ac9d17357c02232ff4b6366496302ed79017c275d3c5a4c4f6ffa7e1dd",
+  "unchangedLesson2816ContentSha256": "c65b1b7a398a0ace9efd9cbb761135a27a77146909cfe2e6b6c64b4a5805891b",
+  "repairedLesson": {
+    "sourceOrdinal": 3630,
+    "ownerId": "advanced-native-3630",
+    "fromContentRevision": 1,
+    "toContentRevision": 2,
+    "sourceId": "book10-16-1519",
+    "exactSourceSentence": "Even with a grant, the cost may bite."
+  },
+  "findingsAddressed": [
+    {
+      "id": "R3630-01",
+      "repair": "Dialogue key attributes the documented budget cuts to remaining equipment costs, not the already discounted course fee; Chinese key and rationale align."
+    },
+    {
+      "id": "R3630-02",
+      "repair": "Final writing now uses half-price equipment hire and monthly maintenance at a community repair workshop, with the remaining cost reducing safety-supplies funds. This differs from the market-stall scene and both models address the co-organiser directly."
+    }
+  ],
+  "additionalMinorPolish": "Listening option c now tests an unsupported causal claim about fee reduction raising separate charges, replacing a literal bus-bite foil.",
+  "checks": {
+    "focusedBuild": "2 lessons / 12 questions / 8 audio requests / 0 flags",
+    "focusedCheck": "2 lessons / 12 questions / 8 audio requests / 0 flags",
+    "exactSourceTarget": true,
+    "targetBearingAssessedKeysAndModels": true,
+    "fiveAnswerDerivedGlossarySpansExactAndNonTarget": true,
+    "changedContextWriting": true,
+    "lesson2816Edited": false
+  },
+  "approvalBoundary": "Author repair is not independent human approval. Both lessons remain unselected; 2816 has independent AI content acceptance, 3630 requires exact-hash independent recheck. No manifest, decision, audio, release or deployment edits."
+}
