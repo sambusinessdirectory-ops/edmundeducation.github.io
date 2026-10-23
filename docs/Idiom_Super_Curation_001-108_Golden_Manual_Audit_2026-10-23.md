@@ -209,3 +209,5 @@ Validation: 27/27 existing runtime checks; 29/29 Node content/map/adventure-rule
 Reproduce game rules: `node --test tools/test-idiom-adventure.mjs`. Reproduce browser fixture: serve the checkout on `127.0.0.1:8765` and run `PLAYWRIGHT_MODULE=/path/to/playwright/index.mjs node tools/test-idiom-adventure-browser.mjs` (or install Playwright normally). Browser screenshots go to `/tmp/idiom-isles-*.png`. The Pages idiom release gate includes the new rule tests.
 
 Publication verification will be recorded after deployment. Existing item-level editorial findings, repeated-rationale findings and incomplete twelve-axis reviews remain open; this interaction release does not certify those content findings as resolved.
+
+Keyboard follow-up: returning focus must wait for the asynchronous dashboard refresh. The browser fixture now verifies focus returns to the expedition action after Escape; wrong-answer, support and sound interactions also preserve a useful focus target. Full browser fixture passed after this correction.

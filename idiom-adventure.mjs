@@ -37,7 +37,7 @@ export function mountAdventure({root,bridge}) {
  }
  function ensureDialog(){if(dialog)return;dialog=document.createElement('dialog');dialog.className='ia-dialog';dialog.setAttribute('aria-labelledby','ia-dialog-title');document.body.append(dialog);dialog.addEventListener('click',handle);dialog.addEventListener('cancel',e=>{e.preventDefault();close();});dialog.addEventListener('close',()=>{document.body.classList.remove('ia-playing');});}
  function openDialog(){ensureDialog();returnFocus=document.activeElement;if(!dialog.open)dialog.showModal();document.body.classList.add('ia-playing');drawRoom();}
- function close(){if(!dialog)return;generation++;busy=false;dialog.close();document.body.classList.remove('ia-playing');save();bridge.dashboard();render();(returnFocus?.isConnected?returnFocus:root.querySelector('.ia-hero .ia-button'))?.focus?.({preventScroll:true});}
+ async function close(){if(!dialog)return;generation++;const epoch=generation,account=owner;busy=false;dialog.close();document.body.classList.remove('ia-playing');save();await bridge.dashboard();if(epoch!==generation||account!==owner||dialog.open)return;render();(returnFocus?.isConnected?returnFocus:root.querySelector('.ia-hero .ia-button'))?.focus?.({preventScroll:true});}
  function activeQuestion(){const a=profile.active;return a?bridge.questions(a.lessonId).find(q=>q.id===a.ids[a.index]):null;}
  function start(mode='new',id){
   if(profile.active){resume();return;}
