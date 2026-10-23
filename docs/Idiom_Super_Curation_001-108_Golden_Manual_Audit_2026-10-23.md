@@ -8,6 +8,8 @@
 
 **Scope and denominator:** 108 lessons × (50 retained original items + 10 extensions) = 6,480 final-practice items and 25,920 choices. The source catalogue currently has 5,400 original IDs. Existing Compass curation covers lessons 001–030 and has 300 extensions; lessons 031–108 lack Compass guides and 780 extensions. The older 006–030 MC bank needs substantive editorial revision too: a quantitative audit found that in every one of those 25 lessons, at least one identical rationale appears 50 or more times. Structural candidates are not language-approved items. Every item requires a separate semantic, bilingual, foil, rationale, comparison-mark and rendering decision.
 
+**Interim publication, 23 October 2026:** At the owner's explicit request, commit `b7f1e2a79` was pushed to `main` before the full rollout. It publishes the 17 corrected canonical lesson sources, regenerated browser catalogue, cache-key update, and the open audit artifacts. It does **not** publish Compass guides for lessons 031–108, ten extensions for each of those lessons, or an accepted 6,480-item review. Pre-release checks: the 138-lesson/6,900-question catalogue test (9/9), runtime checks (23/23), source-readiness check (78 meanings and registers, 3,900 stable original IDs), 78/78 source-PDF manifest hashes from the earlier source run, clean regeneration of the browser, worker and SQL catalogues, and `git diff --check`. GitHub Pages deployment and live asset verification are separate open checks until the deployment completes. The owner selected AI-only item review; no independent human review is implied by this partial release.
+
 ## Status legend and evidence rules
 
 - `[x]` means the named assertion was verified against a cited artifact or recorded observation.
@@ -88,6 +90,7 @@ Evidence artifacts: source catalogue `idiom-system-data.js`; curated guides `idi
 - [ ] E15. Extensions transfer the same verified sense to fresh domains and stakes; they are not copies of original prompts with a changed name.
 - [ ] E16. If a sense lacks ten credible extensions, record the exact shortfall and seek an owner decision instead of inventing unnatural English.
 - [ ] E17. Test worked calibrations: `hit the ground running` requires useful immediate progress; `chop and change` may not hinge invisibly on `or/and`; `the acid test` needs decisive relevant evidence; `think big` is ambitious thinking, not `talk big` boasting.
+- [ ] E18. For every new Compass lesson 031–108, store three explicitly authored, distinct-mechanism foils and four option-specific Traditional Chinese reasons for each of the 60 stable item IDs. The structural audit rejects missing records, duplicate choices and foils without a diagnostic category; the language review must still judge whether each key and reason is defensible.
 
 ## F. Answers, rationales, comparison and correction (§§10–11, 14)
 
