@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "scope": "2112–3000 first held-source sweep after 588 checkpoint",
+  "initialHeldCount": 197,
+  "proposedAliasChanges": [
+    {
+      "sourceOrdinal": 2396,
+      "sourceId": "book10-16-0285",
+      "expression": "slow-burn tension",
+      "fullSourceExample": "The play relies on slow-burn tension rather than shocks.",
+      "ownerId": "advanced-native-2291",
+      "ownerRevision": 4,
+      "exactProvenance": true,
+      "fullExampleMatch": true
+    },
+    {
+      "sourceOrdinal": 2730,
+      "sourceId": "book10-16-0619",
+      "expression": "ripple through the city",
+      "fullSourceExample": "News of the concert began to ripple through the city.",
+      "ownerId": "advanced-native-772",
+      "ownerRevision": 4,
+      "exactProvenance": true,
+      "fullExampleMatch": true
+    },
+    {
+      "sourceOrdinal": 2762,
+      "sourceId": "book10-16-0651",
+      "expression": "a heartbeat of its own",
+      "fullSourceExample": "The small venue seemed to have a heartbeat of its own.",
+      "ownerId": "advanced-native-1058",
+      "ownerRevision": 3,
+      "exactProvenance": true,
+      "fullExampleMatch": true
+    }
+  ],
+  "remainingHeldCount": 194,
+  "remainingHeldSourceOrdinals": [
+    2130,
+    2147,
+    2148,
+    2159,
+    2160,
+    2164,
+    2165,
+    2175,
+    2177,
+    2181,
+    2188,
+    2191,
+    2193,
+    2194,
+    2207,
+    2210,
+    2215,
+    2220,
+    2234,
+    2238,
+    2244,
+    2247,
+    2259,
+    2262,
+    2302,
+    2303,
+    2305,
+    2312,
+    2316,
+    2321,
+    2322,
+    2328,
+    2331,
+    2349,
+    2356,
+    2367,
+    2393,
+    2398,
+    2401,
+    2405,
+    2406,
+    2407,
+    2408,
+    2409,
+    2448,
+    2455,
+    2461,
+    2464,
+    2468,
+    2472,
+    2486,
+    2491,
+    2493,
+    2495,
+    2496,
+    2497,
+    2506,
+    2507,
+    2510,
+    2515,
+    2517,
+    2523,
+    2526,
+    2532,
+    2536,
+    2541,
+    2543,
+    2544,
+    2546,
+    2547,
+    2551,
+    2554,
+    2555,
+    2562,
+    2570,
+    2574,
+    2576,
+    2577,
+    2579,
+    2580,
+    2594,
+    2599,
+    2607,
+    2609,
+    2621,
+    2632,
+    2638,
+    2640,
+    2646,
+    2647,
+    2652,
+    2653,
+    2654,
+    2655,
+    2656,
+    2662,
+    2663,
+    2673,
+    2674,
+    2676,
+    2678,
+    2688,
+    2692,
+    2694,
+    2695,
+    2706,
+    2712,
+    2713,
+    2714,
+    2719,
+    2720,
+    2721,
+    2722,
+    2725,
+    2727,
+    2729,
+    2732,
+    2748,
+    2749,
+    2750,
+    2751,
+    2757,
+    2759,
+    2763,
+    2765,
+    2771,
+    2781,
+    2782,
+    2792,
+    2794,
+    2795,
+    2798,
+    2801,
+    2802,
+    2807,
+    2808,
+    2816,
+    2819,
+    2821,
+    2823,
+    2835,
+    2837,
+    2839,
+    2840,
+    2842,
+    2843,
+    2844,
+    2846,
+    2847,
+    2849,
+    2850,
+    2852,
+    2860,
+    2863,
+    2865,
+    2866,
+    2869,
+    2872,
+    2881,
+    2885,
+    2889,
+    2892,
+    2893,
+    2894,
+    2897,
+    2902,
+    2903,
+    2904,
+    2906,
+    2907,
+    2911,
+    2914,
+    2923,
+    2925,
+    2926,
+    2929,
+    2936,
+    2938,
+    2942,
+    2946,
+    2951,
+    2962,
+    2964,
+    2966,
+    2971,
+    2972,
+    2974,
+    2976,
+    2978,
+    2981,
+    2983,
+    2989,
+    2990,
+    3000
+  ],
+  "screenMethod": "Reviewed source expressions, examples and existing editorial reasons in source-order cohorts; cross-checked full source examples against 2,506 discovered lesson detectors. Promoted only three same-sense variants with assessed learner-facing examples. Retained other holds where target naturalness, owner-sense, source grammar or schema ownership was unresolved. This was a source/owner editorial sweep, not a per-question audit of all 197 rows.",
+  "excludedCandidateNotes": [
+    {
+      "sourceOrdinal": 2551,
+      "candidateOwner": "advanced-native-4535",
+      "reason": "Semantically close, but source2551 precedes new owner4535. The current editorial schema requires alias-new to reference an earlier proposed-new owner; source stays held rather than fabricating an alias."
+    },
+    {
+      "sourceOrdinal": 2757,
+      "candidateOwner": "advanced-native-4470",
+      "reason": "Semantically close, but source2757 precedes new owner4470. The current editorial schema requires alias-new to reference an earlier proposed-new owner; source stays held."
+    },
+    {
+      "sourceOrdinal": 2407,
+      "candidateOwner": "advanced-native-048 or advanced-native-3142",
+      "reason": "The source lights went out at once is ambiguous between simultaneous outage and immediate timing; kept held."
+    },
+    {
+      "sourceOrdinal": 2729,
+      "candidateOwner": "advanced-native-1478",
+      "reason": "Positive sharing of attention reverses the owner’s negative unequal-sharing claim; kept held."
+    }
+  ],
+  "fileHashes": {
+    "drafts-books10-16/batch-2291-2304-a.json": {
+      "beforeSha256": "ea5526e960ae675c3f62612d2f1de0fa83da846704b1a3864bdc673819d2f046",
+      "afterSha256": "9dac7d084ab9dbccf239bcd93ee740100784d6070f71595fadef5d23ebaaab97"
+    },
+    "batches/batch-0751-0775.json": {
+      "beforeSha256": "14f1d51155b7531fb61771b9d38de2128609f9b2441ea0d5cc527b6ccb53d04d",
+      "afterSha256": "0834ced512d7a2de3fe5332af52954c48ca8e8bb0bea26a977978ed81d36459d"
+    },
+    "batches/batch-1051-1075.json": {
+      "beforeSha256": "790ba2b71518e3b17b578fbaca764e138a45e08614df854d7211b36269520361",
+      "afterSha256": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44"
+    },
+    "books10-16/editorial-decisions-2352-2411.jsonl": {
+      "beforeSha256": "3e1eb1a8b5c4db758d8753fa21bc64ab79a0001facd77a540cee3f1bd20308d2",
+      "afterSha256": "07ef699cc1fcfb6fe5e667a2452f1a603901759cea573f56274652e573cb6a2e"
+    },
+    "books10-16/editorial-decisions-2712-2771.jsonl": {
+      "beforeSha256": "1b168b5841c94991f15ccb8e2ef274a9c15f48397601ac262c0c42f1d90e7a9f",
+      "afterSha256": "0fe0a1311320ef57c0945433e0153546de231a207b1cb4c307b8cb2fb9a0f756"
+    }
+  },
+  "regexControls": {
+    "2291": {
+      "pattern": "\\b(?:a\\s+slow\\s+burn|slow-burn\\s+tension)\\b",
+      "positive": [
+        {
+          "text": "The novel is a slow burn, but the ending is rewarding.",
+          "matched": true
+        },
+        {
+          "text": "The play relies on slow-burn tension rather than shocks.",
+          "matched": true
+        },
+        {
+          "text": "The exhibit builds slow-burn tension as each record changes what visitors suspect.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The book has slow-burning tension.",
+          "matched": false
+        },
+        {
+          "text": "The film is only slow.",
+          "matched": false
+        },
+        {
+          "text": "The show has a fast burn.",
+          "matched": false
+        }
+      ]
+    },
+    "772": {
+      "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b",
+      "positive": [
+        {
+          "text": "The effects of the closure could ripple out across the region.",
+          "matched": true
+        },
+        {
+          "text": "A calm response can ripple outward.",
+          "matched": true
+        },
+        {
+          "text": "A job change may ripple through the whole family.",
+          "matched": true
+        },
+        {
+          "text": "One policy change can send ripples far beyond the office.",
+          "matched": true
+        },
+        {
+          "text": "News of the concert began to ripple through the city.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "News crossed the city.",
+          "matched": false
+        },
+        {
+          "text": "News rippled through a city.",
+          "matched": false
+        },
+        {
+          "text": "News rippled through the county.",
+          "matched": false
+        }
+      ]
+    },
+    "1058": {
+      "pattern": "\\ba\\s+(?:pulse|heartbeat)\\s+of\\s+(?:its|their|our)\\s+own\\b",
+      "positive": [
+        {
+          "text": "The street performance has a pulse of its own.",
+          "matched": true
+        },
+        {
+          "text": "The small venue seemed to have a heartbeat of its own.",
+          "matched": true
+        },
+        {
+          "text": "The group has a heartbeat of its own.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The venue has a heartbeat.",
+          "matched": false
+        },
+        {
+          "text": "The group has its own heartbeats.",
+          "matched": false
+        },
+        {
+          "text": "The performer has a pulse.",
+          "matched": false
+        }
+      ]
+    }
+  },
+  "validation": {
+    "focusedBuildAndCheck": "three changed owner files pass with zero review flags",
+    "explicitDecisionAliasAudit": "42/42 matching across the two changed decision files, zero exceptions",
+    "fullBooks1016Verifier": "2604 source and decision rows; 588 selected lessons; zero schema, alias, exact-guide-copy and near-duplicate flags"
+  },
+  "reviewStatus": "author self-audit only; independent review pending",
+  "selectedManifestEdited": false,
+  "published": false,
+  "focusedReviewRepair": {
+    "ownerId": "advanced-native-1058",
+    "contentRevision": 3,
+    "sceneKeyEn": "The group has a heartbeat of its own as members respond to one another’s marks, even in silence.",
+    "sceneKeyZh": "成員互相回應彼此的筆觸；即使安靜，小組仍形成獨有的生命節奏。",
+    "glossaryForbiddenAdded": "\\bheartbeat\\b",
+    "validation": "Focused build and --check passed: 22 lessons, 132 questions, 88 audio requests, zero flags."
+  },
+  "remainingHoldScaleEstimate": {
+    "status": "preliminary reason-based estimate, not 194 individual final dispositions",
+    "clearlyOneOffTransparentOrNonTeachable": "roughly 110–140",
+    "plausibleDistinctNewLesson": "roughly 10–20",
+    "ownerOverlapSenseOrSourceUncertainty": "roughly 40–70",
+    "basis": "Among 194 hold reasons, 82 explicitly flag one-off/bespoke/poetic imagery and 27 flag transparent/generic wording; the buckets overlap. Many remaining rows flag awkward source grammar, owner overlap, or ambiguous sense. Each proposed promotion still needs source-specific adjudication."
+  }
+}

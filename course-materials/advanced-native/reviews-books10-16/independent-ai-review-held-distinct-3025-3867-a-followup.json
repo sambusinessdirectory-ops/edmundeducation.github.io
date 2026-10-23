@@ -1,0 +1,19 @@
+{
+  "status": "independent-ai-scoped-followup-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3025-3867-b.json",
+  "draftSha256": "6fe9f9a090c4ceb0111b56109389a64a2be52c7a6e1272c9a70434c76d48aa70",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-3025-3867-b.json",
+  "authorAuditSha256": "315b3673413bdefba59650dad36f6b0299174eda3b968123fcc11476334bdcc7",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-3025-3867-a.json",
+  "priorReviewSha256": "20bea6641d6686e05fb1a68bab64581f6ca41e05322d682cff4035bad4b0eec4",
+  "retainedOrdinals": [3025, 3148, 3276, 3414, 3504, 3656, 3867],
+  "withheldOrdinal": 3123,
+  "findings": [
+    {
+      "id": "R3656-01",
+      "status": "cleared",
+      "evidence": "At contentRevision 2, reply options A, B, C and D all address the partner about the daughter in third person; each independently answers the same prompt. The English and Traditional Chinese roles match, and C remains the sole target-bearing golden reply."
+    }
+  ],
+  "selectionRecommendation": "The scoped 3656 blocker is clear. The seven retained lessons may proceed to the author's focused build/check and Pilot's independent broader follow-up; this review does not select or publish content. Source 3123 remains withheld."
+}

@@ -6,12 +6,12 @@
       "id": "advanced-native-1326",
       "number": 1326,
       "inventoryId": "expr-1326",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "titleEn": "pass on values and stories",
       "titleZh": "把價值觀、經驗及傳統傳給別人",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b",
+        "pattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b|\\bpass(?:es|ed|ing)? (?:knowledge on|on knowledge)\\b",
         "glossaryForbidden": [
           "\\bpass(?:es|ed|ing)? on\\b",
           "\\bvalues\\b",
@@ -19,10 +19,10 @@
         ]
       },
       "brief": {
-        "meaningEn": "Transmit beliefs, experience, customs or remembered stories to other people, often by telling or showing them.",
-        "meaningZh": "把價值觀、經驗、習俗或記下的故事傳給別人，通常透過講述或示範。",
-        "grammar": "Pass on values, experience and tradition, or stories to someone; pass those stories on is the separable order. Passed/passing are natural forms. The recipient need not adopt every belief or story.",
-        "register": "Neutral transmission phrasal verb; a parent may pass stories on to children, while a community volunteer may pass them on to newcomers.",
+        "meaningEn": "Transmit knowledge, beliefs, experience, customs or remembered stories to other people, often by teaching, telling or showing them.",
+        "meaningZh": "把知識、價值觀、經驗、習俗或記下的故事傳給別人，通常透過教導、講述或示範。",
+        "grammar": "Pass knowledge on to a new class or pass on knowledge; pass on values, experience and tradition, or stories to someone. Pass those stories on is the separable order. Passed/passing are natural forms. Transmission does not prove uptake.",
+        "register": "Neutral transmission phrasal verb; a teacher may pass knowledge on to a class, while a parent or community volunteer may pass stories on to children or newcomers.",
         "boundaryZh": "傳達不保證對方已採納，也不表示每項舊觀念都不能討論；需指出傳的是甚麼。",
         "misconceptionZh": "把分享某種做法、說明其中信念，以及對方是否接受分清楚，不用親屬身份代替資料。",
         "outcomeZh": "能具體說明傳達的是哪些信念、經驗或傳統，以及怎樣傳達，並尊重接觸與採納仍是不同步驟。"
@@ -69,6 +69,20 @@
           "sentence": "She passes those stories on to her children.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "passes those stories on"
+        },
+        {
+          "occurrenceId": "book10-16-1486",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 139,
+          "book": 14,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 148, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teachers pass knowledge on to each new class.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pass knowledge on"
         }
       ],
       "listening": {
@@ -274,8 +288,8 @@
           "zh": "她透過為每位協助製書的人列出貢獻，傳達價值觀。"
         },
         {
-          "en": "After recording the gardeners’ memories, Hana passes those stories on to new volunteers so they understand why the park was protected.",
-          "zh": "錄下園丁的回憶後，Hana 把這些故事傳給新義工，讓他們明白公園為何獲保護。"
+          "en": "The retiring guide passed knowledge on to new volunteers by walking them through the old maps.",
+          "zh": "即將退休的導賞員帶新義工逐張看舊地圖，把知識傳給他們。"
         }
       ],
       "review": {

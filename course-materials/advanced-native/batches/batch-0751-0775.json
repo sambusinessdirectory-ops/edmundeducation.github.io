@@ -5419,9 +5419,9 @@
       "titleEn": "ripple out / outward",
       "titleZh": "影響逐步向外擴散",
       "category": "phrasal-verb",
-      "contentRevision": 3,
+      "contentRevision": 4,
       "target": {
-        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b",
+        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b|\\brippl(?:e|es|ed|ing)\\s+through\\s+the\\s+city\\b",
         "glossaryForbidden": [
           "\\brippl(?:e|es|ed|ing)\\b"
         ]
@@ -5480,12 +5480,26 @@
           "sentence": "One policy change can send ripples far beyond the office.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "send ripples far beyond"
+        },
+        {
+          "occurrenceId": "book10-16-0619",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "News of the concert began to ripple through the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple through the city"
         }
       ],
       "brief": {
-        "meaningEn": "Spread from an initial event or group to affect other people or areas.",
-        "meaningZh": "從最初事件或群體向外擴散，影響其他人或領域。",
-        "grammar": "Effects, benefits or problems can ripple out or ripple outward; a change can ripple through a family; and a decision can send ripples far beyond its starting group. Send ripples is causative, while ripple out/through is intransitive. Name the initial cause and a plausible transmission link rather than assuming coincidence proves impact.",
+        "meaningEn": "Spread from an initial event or group to affect others; news can also ripple through a city as people relay it.",
+        "meaningZh": "從起點向外擴散並影響其他人；消息也可經人們轉傳而遍及城市。",
+        "grammar": "Effects, benefits, problems or reported news can ripple out/outward or through a connected family or city; a decision can send ripples far beyond its starting group. Name the initial cause and the relay link; matching timing alone does not prove impact.",
         "register": "Common figurative water-movement metaphor for good or bad effects; send ripples far beyond is a causative variant, not a claim that every distant effect is certain.",
         "boundaryZh": "不表示每個人同時受相同影響，也不限定一定緩慢；需有傳播連結。",
         "misconceptionZh": "要說明最初來源及後續影響，不能只把同時發生但無關的事連起來。",
@@ -5551,26 +5565,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "一位同學學會查證消息，之後教家人，再由家人向同事分享方法。哪句合適？",
+        "promptZh": "渡輪停航通告先由碼頭職員發給乘客，乘客轉到社區群組，鄰里再分享給其他區。哪句最準確？",
         "options": [
           {
             "id": "choice-1",
-            "en": "The learning ripples out through their connections.",
-            "zh": "學習透過人際連結向外擴散。"
+            "en": "News of the cancellation rippled through the city as people passed the notice along.",
+            "zh": "人們接連轉發通告，停航消息於是傳遍城市。"
           },
           {
             "id": "choice-2",
-            "en": "The learning stays with the first student and is never shared.",
-            "zh": "學習只留在首名學生身上，從未分享。"
+            "en": "The notice stayed with the first group of passengers and never reached other districts.",
+            "zh": "通告只留在第一批乘客手中，沒有傳到其他地區。"
           },
           {
             "id": "choice-3",
-            "en": "The colleagues learnt the method independently, without hearing it from the student or family.",
-            "zh": "同事獨立學會方法，沒有從學生或家人聽過。"
+            "en": "Every district learnt about the cancellation independently, without anyone forwarding the notice.",
+            "zh": "各區都獨立得知停航消息，沒有人轉發通告。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "方法由學生到家人再到同事，有分享連結，不是留在起點或各自獨立學會。"
+        "explanationZh": "職員、乘客、社區群組到其他地區構成可見的轉傳鏈，支持 ripple through the city，而非消息停在起點或各區各自得知。"
       },
       "contrast": {
         "promptEn": "",

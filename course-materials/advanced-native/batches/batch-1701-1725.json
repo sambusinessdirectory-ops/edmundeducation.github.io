@@ -1009,12 +1009,12 @@
       "id": "advanced-native-1706",
       "number": 1706,
       "inventoryId": "expr-1706",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "has simply changed clothes",
       "titleZh": "本質仍在，只換了出現形式",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:has|have|had) simply changed clothes\\b"
+        "pattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b"
       },
       "sources": [
         {
@@ -1030,13 +1030,41 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "has simply changed clothes",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0920",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "43–46",
+          "locatorNote": "DOCX table 87, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Creativity changes its clothes as people grow older.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changes its clothes"
+        },
+        {
+          "occurrenceId": "book10-16-1642",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 154,
+          "book": 14,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "44–46",
+          "locatorNote": "DOCX table 164, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The habit changed its clothes when it moved online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changed its clothes"
         }
       ],
       "brief": {
         "meaningEn": "Remain essentially the same while appearing in a different form.",
         "meaningZh": "本質大致仍在，只以另一種形式出現。",
-        "grammar": "kindness/support has simply changed clothes; an abstract quality is personified as changing outfit; identify the old and new form",
-        "register": "neutral",
+        "grammar": "An abstract quality or habit has simply changed clothes or changes/changed its clothes: identify what persists and what outward form changes. The clothing is figurative.",
+        "register": "Creative, neutral figurative wording; a community organiser may describe how an old practice takes a new online form, or a teacher may describe creativity across life stages.",
         "boundaryZh": "不是實際換衫，也不保證新舊形式對人人一樣好用；需有核心延續及具體改變，而非一律說任何新事都相同。",
         "misconceptionZh": "不是實際換衫，也不保證新舊形式對人人一樣好用；需有核心延續及具體改變，而非一律說任何新事都相同。",
         "outcomeZh": "理解「本質仍在，只換了出現形式」的語境及用法，並在新情境寫出自然句子。"
@@ -1240,8 +1268,8 @@
           "zh": "習俗只是換了形式，以短錄音而非手寫卡出現。"
         },
         {
-          "en": "Their support had simply changed clothes when the phone circle became a neighbourhood message group.",
-          "zh": "電話聯絡圈轉成鄰里訊息群時，他們的支持只是換了形式。"
+          "en": "The reading habit changed its clothes when the shared paper diary became a weekly voice note.",
+          "zh": "共同閱讀由紙本日記轉成每週語音留言時，這個習慣只是換了形式。"
         }
       ],
       "review": {

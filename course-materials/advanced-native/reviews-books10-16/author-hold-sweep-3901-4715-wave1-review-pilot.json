@@ -1,0 +1,205 @@
+{
+  "reviewKind": "provisional AI author hold-to-existing-owner reconciliation",
+  "status": "frozen for independent AI review; no human or release approval",
+  "scope": {
+    "sourceOrdinalRange": [
+      3901,
+      4715
+    ],
+    "holdsBeforeThisWave": 258,
+    "holdRowsConverted": 5,
+    "estimatedHoldsRemainingInRangeBeforeOtherAgents": 253,
+    "cohortMethod": "read-only screen of all 258 held rows by source wording and existing owner sense; edit only bounded same-sense variants, retain transparent/bespoke or ambiguous constructions"
+  },
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "beforeFileSha256": {
+    "course-materials/advanced-native/batches/batch-0226-0250.json": "97b68a93c3fe04d3a294f02d3171805960bc37ebab8acc6076cb8ceeeed260fd",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "97af8e33bff456b5f9b2c5c0a1cb35b0b1240e4599c4f3cadcfb6c21c8303ec0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl": "3155aacdb86c498ca8ea829b6f533a58a3bd93ac39122d34b7d53494a64a4f42",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl": "c5ba5f627abfc73dd11f0fd165dc2a0a111cfb0cad0d400621556f56e6316272",
+    "course-materials/advanced-native/batches/batch-1151-1175.json": "dbe1c5a50f7b6fcb97852b95988a17f96c82c61d5cca94f57240881e83405613",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl": "0c9335b41931760eae9181eb547e6b5ed8a02d70ff2a0671f7d9f80eb0a779b4",
+    "course-materials/advanced-native/batches/batch-0726-0750.json": "ab30d027546b89e4418d84265105797911990152d3ecb90aac63c91bb804e452",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl": "fe4ee07956189a2b4979fa945b7fb3a32a2fae19f88d675e5bef907d765bceac",
+    "course-materials/advanced-native/batches/batch-0626-0650.json": "2ef3c1d66edb28a49045f5c1e8779dd4d36844a97eb6aa11a2f5ee217aeddc32"
+  },
+  "afterFileSha256": {
+    "course-materials/advanced-native/batches/batch-0226-0250.json": "49d2e01c3e30426b0da7eb81dcdbb241cf84e7987170293938ef9a23e4874a3b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "dd86084e4bc7a4b67d4d274203c50a2bc35a60b79a5a150114ac5f685a62493a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl": "b6be97752a7c3804cb02def18dcdab13b09facfbe8064550032a9b394792f73f",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl": "ea25bb1eec6c5374159fe0cce1038e0337ac53f794f2d811e4c3396af64a4039",
+    "course-materials/advanced-native/batches/batch-1151-1175.json": "aa68f6050f286d0097c2f18934cd582af3061469227aa0bede3e5caa39188072",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl": "a5036066eca332600fa403f8d79d6695ed1de84f5ae8b67823cf8bf37dc5f218",
+    "course-materials/advanced-native/batches/batch-0726-0750.json": "ef86956fd45d6228fa47b72400a2e6717d8c07b5a7755c5f89fdcadb7a7e9bbf",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8",
+    "course-materials/advanced-native/batches/batch-0626-0650.json": "5d8bb571c91e79e4dc504e28e9a2d244f0abfd50069c5269591ea362c95a7881"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3939,
+      "sourceId": "book10-16-1828",
+      "sourceSentence": "A mentor's influence goes well beyond exam results.",
+      "sourceMeaning": "Extends much further than; a natural emphasis pattern.",
+      "ownerId": "advanced-native-226",
+      "decisionAction": "proposed-alias-existing",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "sourceOccurrenceExact": true,
+      "targetSenseRationale": "Both far beyond and goes well beyond state substantial extent past a named boundary; no extra lesson decision."
+    },
+    {
+      "sourceOrdinal": 4089,
+      "sourceId": "book10-16-1978",
+      "sourceSentence": "She practised staying calm instead of falling to pieces.",
+      "sourceMeaning": "Losing emotional control under pressure; a fixed idiom.",
+      "ownerId": "advanced-native-1164",
+      "decisionAction": "proposed-alias-existing",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "sourceOccurrenceExact": true,
+      "targetSenseRationale": "Fall to pieces is the emotional inability-to-cope counterpart of fall apart in the supplied stay-calm sentence; physical breakup remains a context boundary."
+    },
+    {
+      "sourceOrdinal": 4218,
+      "sourceId": "book10-16-2107",
+      "sourceSentence": "A mentor's influence goes well beyond exam results.",
+      "sourceMeaning": "Extends much further than; a natural emphasis pattern.",
+      "ownerId": "advanced-native-226",
+      "decisionAction": "proposed-alias-existing",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "sourceOccurrenceExact": true,
+      "targetSenseRationale": "Both far beyond and goes well beyond state substantial extent past a named boundary; no extra lesson decision."
+    },
+    {
+      "sourceOrdinal": 4424,
+      "sourceId": "book10-16-2313",
+      "sourceSentence": "An honest apology can lower the temperature in a dispute.",
+      "sourceMeaning": "Reduce emotional tension; a fixed heat metaphor.",
+      "ownerId": "advanced-native-727",
+      "decisionAction": "proposed-alias-existing",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "sourceOccurrenceExact": true,
+      "targetSenseRationale": "Lower the temperature in a dispute is the same reduced-hostility outcome as take the heat out of; neither entails solving the issue."
+    },
+    {
+      "sourceOrdinal": 4712,
+      "sourceId": "book10-16-2601",
+      "sourceSentence": "Their room was in the middle of the action.",
+      "sourceMeaning": "At the centre of events and activity; a fixed idiom.",
+      "ownerId": "advanced-native-626",
+      "decisionAction": "proposed-alias-existing",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+      "sourceOccurrenceExact": true,
+      "targetSenseRationale": "A room in the middle of the action is a location amid the main activity, the same location/fitness decision as where the action is."
+    }
+  ],
+  "owners": [
+    {
+      "ownerId": "advanced-native-226",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0226-0250.json",
+      "oldPattern": "\\bfar beyond\\b",
+      "newPattern": "\\b(?:far beyond|(?:go|goes|went|gone|going) well beyond)\\b",
+      "beforeRevision": 1,
+      "afterRevision": 2
+    },
+    {
+      "ownerId": "advanced-native-1164",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "oldPattern": "\\b(?:fall|falls|fell|fallen|falling) apart\\b",
+      "newPattern": "\\b(?:fall|falls|fell|fallen|falling) (?:apart|to pieces)\\b",
+      "beforeRevision": 1,
+      "afterRevision": 2
+    },
+    {
+      "ownerId": "advanced-native-727",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0726-0750.json",
+      "oldPattern": "\\b(?:take|takes|took|taken|taking) the heat out of\\b",
+      "newPattern": "\\b(?:(?:take|takes|took|taken|taking) the heat out of|(?:lower|lowers|lowered|lowering) the temperature in (?:a|an|the) (?:dispute|argument|debate|meeting|conversation))\\b",
+      "beforeRevision": 1,
+      "afterRevision": 2
+    },
+    {
+      "ownerId": "advanced-native-626",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0626-0650.json",
+      "oldPattern": "\\bwhere the action (?:is|was)\\b",
+      "newPattern": "\\b(?:where the action (?:is|was)|in the middle of the action)\\b",
+      "beforeRevision": 1,
+      "afterRevision": 3
+    }
+  ],
+  "controls": {
+    "allOldAndNewOwnerSourceSentencesMatch": true,
+    "nativeJsPositiveNegativeCases": 20,
+    "nativeJsFailures": 0,
+    "focusedBuildCheck": {
+      "lessons": 93,
+      "questions": 558,
+      "audioRequests": 372,
+      "reviewFlags": 0,
+      "buildAndCheckPassed": true
+    },
+    "explicitFileAliasAudit": {
+      "decisionFiles": [
+        "editorial-decisions-3912-3971.jsonl",
+        "editorial-decisions-4032-4091.jsonl",
+        "editorial-decisions-4212-4271.jsonl",
+        "editorial-decisions-4392-4451.jsonl",
+        "editorial-decisions-4692-4715.jsonl"
+      ],
+      "aliasDecisions": 120,
+      "matchingAliases": 120,
+      "exceptions": []
+    },
+    "newTargetBearingKeyChecks": "226 dialogue, 626 scene, 727 scene, 1164 dialogue now each use the newly added construction with the pre-existing correct answer IDs and aligned Traditional Chinese."
+  },
+  "retainedHoldExamples": [
+    {
+      "sourceOrdinal": 3998,
+      "reason": "Exact repeat of 3031; wait for B’s owner1706 freeze before provenance/decision edit."
+    },
+    {
+      "sourceOrdinal": 4234,
+      "reason": "Exact repeat of 3350; wait for B’s owner1913 freeze before provenance/decision edit."
+    },
+    {
+      "sourceOrdinal": 4094,
+      "reason": "Stumbling around in the dark also permits literal walking; no narrow confident match to owner1916 yet."
+    },
+    {
+      "sourceOrdinal": 4154,
+      "reason": "Mind switching off during lecture is disengagement, unlike canonical375 relaxation; 1487 requires immediate timing absent from source."
+    },
+    {
+      "sourceOrdinal": 4339,
+      "reason": "Likely overlapping semantic decision with selected4175, but lexical variant and detector expansion need separate review."
+    },
+    {
+      "sourceOrdinal": 4456,
+      "reason": "Rooted-in-place product modifier is related to owner1620’s felt-rooted-vs-generic comparison, but its grammar and contrast differ; no forced alias."
+    },
+    {
+      "sourceOrdinal": 4697,
+      "reason": "Evolve with the times is near selected3715 move with the times, but distinct lexical construction and assessed scope remain for owner adjudication."
+    },
+    {
+      "sourceOrdinal": 4517,
+      "reason": "Complementless keep pace has implicit growth reference; canonical590 specifically tests demand; leave held."
+    },
+    {
+      "sourceOrdinal": 4665,
+      "reason": "Chip away at the place has awkward physical/figurative object and was previously rejected for canonical178."
+    }
+  ],
+  "limits": [
+    "Regex is a form detector, not a semantic parser; emotional-vs-physical fall-to-pieces and activity-vs-fictional-action uses still require context.",
+    "No selected manifest, database, audio files, or live site were changed. Changed canonical scene/dialogue and takeaway text will require media delta handling at integration.",
+    "This is an AI author audit only; independent editorial review remains open."
+  ],
+  "postIndependentReviewPolish": {
+    "reviewedOwnerFileSha256": "a58fd706cb96220bcc37c83a28a214e189bc624fc7dd92cc2a0ec709e6c0a014",
+    "finalOwnerFileSha256": "5d8bb571c91e79e4dc504e28e9a2d244f0abfd50069c5269591ea362c95a7881",
+    "change": "626 scene answer Chinese revised from calqued 較靜房更服務這次交談 to idiomatic 較安靜的房間更適合這次交談; English/key unchanged.",
+    "contentRevision": 3,
+    "focusedBuildCheck": "93 lessons, 558 questions, 372 audio requests, zero flags; build and --check passed.",
+    "independentScopedRecheck": "pending"
+  }
+}

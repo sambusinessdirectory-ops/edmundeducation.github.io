@@ -1,0 +1,1812 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-held-distinct-3025-3867-b",
+  "lessons": [
+    {
+      "id": "advanced-native-3025",
+      "number": 3025,
+      "inventoryId": "expr-3025",
+      "titleEn": "erase yourself",
+      "titleZh": "抹去自己的需要與特質",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:erase|erases|erased|erasing) (?:yourself|himself|herself|themselves|myself|ourselves)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "To suppress your own needs, values, or identity to satisfy other people.",
+        "meaningZh": "為迎合別人而壓下自己的需要、價值觀或個人特質。",
+        "grammar": "Erase is figurative and takes a reflexive object matched to its subject: erase yourself, herself, or themselves. It can follow pressure to fit in or to be kind.",
+        "register": "Natural in personal advice and reflective discussion; too strong for a minor compromise such as changing a meeting time.",
+        "boundaryZh": "重點是長期或重要的自我壓抑；為方便大家改一次開會時間，並不等於抹去自我。",
+        "misconceptionZh": "不是字面刪除檔案或照片，也不是說所有讓步都不好。",
+        "outcomeZh": "能區分合理妥協與為得到認同而放棄核心需要。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0914",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 86, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Being kind should not require erasing yourself.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "erasing yourself"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "畫室導師擔心什麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mina is hiding the style she enjoys to win approval.",
+            "zh": "Mina 為了得到認同而隱藏自己喜歡的風格。"
+          },
+          {
+            "id": "b",
+            "en": "Mina has deleted the class registration file.",
+            "zh": "Mina 刪除了課程報名檔案。"
+          },
+          {
+            "id": "c",
+            "en": "Mina is taking a short break before choosing colours.",
+            "zh": "Mina 在選顏色前稍作休息。"
+          },
+          {
+            "id": "d",
+            "en": "Mina has been asked to submit two styles for comparison.",
+            "zh": "Mina 被要求交兩種風格供比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說她不再展示自己喜歡的畫風，只為迎合評審；並非刪除檔案或短暫調整。",
+        "en": "Mina stopped showing the bold paintings she loves because she thinks the judges prefer quiet landscapes. Her tutor says she can learn from their advice without erasing herself.",
+        "zh": "Mina 以為評審較喜歡平靜的風景畫，便不再展示自己熱愛的大膽作品。導師說她可以參考意見，同時保留自己的特質。"
+      },
+      "reply": {
+        "promptEn": "A charity asks you to lead every Saturday event. You value the cause, but you also need one weekend day with your family. How should you answer?",
+        "promptZh": "慈善機構邀請你主持每個星期六的活動。你重視這個理念，但也需要一個週末日陪伴家人。你應怎樣回覆？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can lead two Saturdays each month and help train another host.",
+            "zh": "我每月可主持兩個星期六，並協助培訓另一位主持人。"
+          },
+          {
+            "id": "b",
+            "en": "I can cover next Saturday, then discuss a rota that leaves me family time.",
+            "zh": "我可負責下個星期六，之後再商量讓我有家庭時間的輪值表。"
+          },
+          {
+            "id": "c",
+            "en": "I want to help, but I cannot erase myself to fill every shift; could we share the role?",
+            "zh": "我想幫忙，但不能為填滿每個輪值而抹去自己的需要；我們可分擔職責嗎？"
+          },
+          {
+            "id": "d",
+            "en": "I can prepare materials at home on some weekends instead of leading each event.",
+            "zh": "有些週末我可在家準備物資，不必每次都主持活動。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都兼顧慈善工作與家庭時間；金句明確說明助人不必壓下自己的需要。"
+      },
+      "scene": {
+        "promptZh": "新歌手為了被樂隊接納，整個月都不敢提自己喜歡的曲風，甚至說自己討厭那種音樂。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is erasing herself to fit the band, although she could discuss styles openly.",
+            "zh": "她為融入樂隊而抹去自己的喜好，其實可以坦誠討論曲風。"
+          },
+          {
+            "id": "b",
+            "en": "She is carefully choosing one song for a single rehearsal.",
+            "zh": "她只是為一次排練審慎挑選一首歌。"
+          },
+          {
+            "id": "c",
+            "en": "She has lost the recording and needs another copy.",
+            "zh": "她遺失了錄音，需要另一份副本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她持續隱藏真正喜好求認同，符合自我壓抑；其餘選項改變了情況。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合說某人正在 erase themselves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An intern pretends never to disagree with the team for fear of rejection.",
+            "zh": "實習生怕被排斥，假裝自己從不反對團隊。"
+          },
+          {
+            "id": "b",
+            "en": "Two neighbours move a meeting by an hour so both can attend.",
+            "zh": "兩位鄰居把會議改遲一小時，讓雙方都能出席。"
+          },
+          {
+            "id": "c",
+            "en": "A dancer hides her preferred style for a year to please an instructor.",
+            "zh": "舞者為討好導師，一整年都隱藏自己喜歡的風格。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "改一次會議時間是互相方便的妥協，沒有壓下個人的重要需要或特質。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「我很想加入讀書會，但他們總嘲笑我看的科幻小說。我最近甚至說自己從不看科幻。」乙怎樣回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You need not erase yourself to join; you could say what you enjoy and ask for respect.",
+            "zh": "你不必為加入而抹去自己的喜好；可以說明你愛看的書，並要求對方尊重。"
+          },
+          {
+            "id": "b",
+            "en": "You should delete the group's reading list from your phone.",
+            "zh": "你應把讀書會書單從手機刪掉。"
+          },
+          {
+            "id": "c",
+            "en": "They already share your taste, so there is no reason to mention it.",
+            "zh": "他們本來就和你口味相同，所以不用提起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲因受嘲笑而否認自己的閱讀喜好；金句回應了這種自我壓抑。"
+      },
+      "speaking": {
+        "en": "A mentor told Ravi that adapting to the lab did not mean he had to erase himself; he could ask for quiet work time and still join the group review.",
+        "zh": "導師告訴 Ravi，適應實驗室不代表他必須抹去自己的需要；他可以要求安靜的工作時間，同時參與小組檢討。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 67,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團要求每位演員公開分享私生活，演員 Noor 想參加排練，但不願公開家庭資料。用一至兩句英文說明她可怎樣參與，而不必為融入團體抹去自己的界線。",
+        "selfCheckZh": "兩個示例都要說明 Noor 仍參與劇團、保留私隱界線，並提出一個可行的替代安排；不能說她必須退出。",
+        "examples": [
+          {
+            "en": "Noor can join rehearsals without erasing herself: she can discuss her role while keeping family details private.",
+            "zh": "Noor 可以參與排練而不抹去自己的界線：她可以討論角色，同時把家庭資料保留為私事。"
+          },
+          {
+            "en": "The group can let Noor practise and offer a fictional character story, so she need not erase herself to belong.",
+            "zh": "劇團可讓 Noor 排練，並提供虛構角色故事；她不必為了融入而抹去自己的界線。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "join rehearsals",
+            "zh": "參與排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 24
+            }
+          },
+          {
+            "en": "family details private",
+            "zh": "家庭資料保留為私事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 111
+            }
+          },
+          {
+            "en": "fictional character story",
+            "zh": "虛構角色故事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 69
+            }
+          },
+          {
+            "en": "to belong",
+            "zh": "為了融入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A useful compromise makes room for others without asking you to erase yourself.",
+          "zh": "有用的妥協會顧及他人，同時不要求你抹去自己的需要。"
+        },
+        {
+          "en": "If joining a group means you must erase yourself, discuss a clearer boundary.",
+          "zh": "如果加入團體要你抹去自我，就應商量更清晰的界線。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3148",
+      "number": 3148,
+      "inventoryId": "expr-3148",
+      "titleEn": "shorten someone's fuse",
+      "titleZh": "令某人更易動怒",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:shorten|shortens|shortened|shortening) (?:my|your|his|her|their|our|a person's) fuse\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "To make someone's tolerance of irritation shorter, so they become angry more quickly than before.",
+        "meaningZh": "某種壓力或情況令人的耐性比以前短，更容易因小事發怒。",
+        "grammar": "Shorten takes a possessive before singular fuse: shortened her fuse. The phrase describes a change caused by something, not merely a person with little patience.",
+        "register": "Informal but suitable for reflective discussion of stress, workload, or tiredness; avoid using it as a diagnosis.",
+        "boundaryZh": "須有讓耐性變短的原因或前後變化；只說某人天生性急，未必能表達 shortened 的變化。",
+        "misconceptionZh": "fuse 不是這裏的電路保險絲；本課也不等於只是『心情不好』而沒有更快發怒。",
+        "outcomeZh": "能指出令某人更易動怒的壓力來源，以及可減少這種影響的方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1037",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The pressure has shortened their fuse.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shortened their fuse"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "甚麼變化令領隊在小錯誤面前更快生氣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Three nights of poor sleep have shortened her fuse during rehearsals.",
+            "zh": "連續三晚睡不好，令她在排練時更容易發怒。"
+          },
+          {
+            "id": "b",
+            "en": "A replacement light has made the stage brighter.",
+            "zh": "換了燈後，舞台變得更光亮。"
+          },
+          {
+            "id": "c",
+            "en": "The cast stopped rehearsing before the leader arrived.",
+            "zh": "演員在領隊抵達前已停止排練。"
+          },
+          {
+            "id": "d",
+            "en": "She has always enjoyed correcting small errors patiently.",
+            "zh": "她向來喜歡耐心糾正小錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音把更快發怒連到連續睡眠不足，並提出調整排程；其餘選項沒有這個因果。",
+        "en": "Our rehearsal leader usually explains mistakes calmly. After three nights of poor sleep, she snaps at small slips. The late schedule has shortened her fuse, so we are ending practice earlier this week.",
+        "zh": "排練領隊平常會平靜解釋錯誤，但連續三晚睡不好後，連小失誤也會令她動怒。排練時間太晚令她耐性變短，因此本週大家會提早結束。"
+      },
+      "reply": {
+        "promptEn": "A teammate has become irritable after taking extra night shifts. You need to discuss a missed handoff without blaming him. What could you say?",
+        "promptZh": "隊友接了額外夜班後更易動怒。你要討論一次交接失誤，同時避免責怪他。你可以怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Could we check the handoff together when you have rested?",
+            "zh": "等你休息過後，我們可一起核對交接嗎？"
+          },
+          {
+            "id": "b",
+            "en": "I know the extra shifts are tiring; let us agree on a simpler handoff note.",
+            "zh": "我知道額外輪班令人疲倦；我們商定更簡單的交接記錄吧。"
+          },
+          {
+            "id": "c",
+            "en": "Extra night shifts can shorten a person's fuse; let us review the handoff after some rest.",
+            "zh": "額外夜班可能令人的耐性變短；我們先休息，之後再檢討交接吧。"
+          },
+          {
+            "id": "d",
+            "en": "Would it help if I handled the next late handoff and we discussed this in the morning?",
+            "zh": "如果下次晚班交接由我處理，早上再談這件事，會否有幫助？"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都尊重疲勞情況並提供可行下一步；金句用短了的 fuse 指出壓力造成的變化。"
+      },
+      "scene": {
+        "promptZh": "平時溫和的展覽經理最近同時趕三個截止日期，現在遇到小小排版錯誤也會立刻發火。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The deadlines have shortened her fuse, so the team should discuss workload.",
+            "zh": "幾個截止日期令她更易動怒，團隊應討論工作量。"
+          },
+          {
+            "id": "b",
+            "en": "She is angry because every display has been removed.",
+            "zh": "她生氣是因為所有展品都已移走。"
+          },
+          {
+            "id": "c",
+            "en": "She has always reacted this way, regardless of workload.",
+            "zh": "不論工作量如何，她一向都這樣反應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本溫和，壓力增加後才因小錯發怒，正是耐性變短的前後變化。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某事 shortened his fuse？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated delays leave him snapping sooner than he did last month.",
+            "zh": "反覆延誤令他比上月更快發火。"
+          },
+          {
+            "id": "b",
+            "en": "He stays just as patient after a busy week and answers questions calmly.",
+            "zh": "忙碌一週後他仍一樣有耐性，平靜回答問題。"
+          },
+          {
+            "id": "c",
+            "en": "Lack of sleep makes him lose patience at minor interruptions.",
+            "zh": "睡眠不足令他遇到小干擾也失去耐性。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 沒有耐性縮短或更快動怒的變化。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「咖啡店老闆平常會耐心處理客人的要求，但系統連續故障後，她連一張錯單也忍不住發火。」乙怎樣解釋最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated faults have shortened her fuse; fixing the system may ease the pressure.",
+            "zh": "系統反覆故障令她更易動怒；修好系統或可減輕壓力。"
+          },
+          {
+            "id": "b",
+            "en": "She became angry because the shop permanently stopped serving coffee.",
+            "zh": "她生氣是因為店舖永久停止供應咖啡。"
+          },
+          {
+            "id": "c",
+            "en": "Her patience is unchanged, and she is only changing the menu.",
+            "zh": "她的耐性沒有變，只是在改餐牌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲明說她從耐心變成因小錯發火，故障是具體原因。"
+      },
+      "speaking": {
+        "en": "Back-to-back travel days shortened their fuse, so the guides agreed to rotate the early briefing instead of blaming each other for every delay.",
+        "zh": "連續多天奔波令導遊們更容易發怒，因此他們同意輪流主持早上的簡報，而不是每次延誤都互相責怪。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 25,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館兩名職員連續加班整理檔案，現在對讀者的小問題比平常更快不耐煩。用英文說出造成變化的原因，以及一項減輕負擔的安排。",
+        "selfCheckZh": "兩個示例都須說出加班造成耐性變短，並提出輪班或分工；不要把職員說成一向沒耐性。",
+        "examples": [
+          {
+            "en": "The late cataloguing shifts have shortened their fuse with visitors, so the library should rotate the evening desk.",
+            "zh": "連續晚班編目令他們面對讀者時更容易不耐煩，所以圖書館應輪流安排晚間櫃檯。"
+          },
+          {
+            "en": "Overtime has shortened their fuse; sharing the archive tasks would give both librarians time to recover.",
+            "zh": "加班令他們更易動怒；分擔檔案整理工作可讓兩位圖書館員有時間恢復精神。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late cataloguing shifts",
+            "zh": "連續晚班編目",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 27
+            }
+          },
+          {
+            "en": "rotate the evening desk",
+            "zh": "輪流安排晚間櫃檯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 114
+            }
+          },
+          {
+            "en": "sharing the archive tasks",
+            "zh": "分擔檔案整理工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 60
+            }
+          },
+          {
+            "en": "time to recover",
+            "zh": "恢復精神的時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lack of rest can shorten your fuse even if you are usually patient.",
+          "zh": "即使你平常有耐性，休息不足也可能令你更易動怒。"
+        },
+        {
+          "en": "Name the pressure that shortened their fuse before judging the reaction alone.",
+          "zh": "評價反應前，先指出哪種壓力令他們的耐性變短。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3276",
+      "number": 3276,
+      "inventoryId": "expr-3276",
+      "titleEn": "soft around the edges",
+      "titleZh": "規則邊界不夠明確",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bsoft around the edges\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Not sufficiently firm or clear at the boundaries, especially for a rule, policy, or decision.",
+        "meaningZh": "規則、政策或決定在邊界情況不夠清楚或堅定，令人難以一致執行。",
+        "grammar": "Soft around the edges is a figurative adjective phrase after be, seem, or remain. Here edges are rule boundaries, not physical corners.",
+        "register": "Neutral conversational evaluation of a rule; state which borderline case is unclear before using it.",
+        "boundaryZh": "須指出規則的邊界情況或執行力度不足；『語氣親切』或物件觸感柔軟是其他意思。",
+        "misconceptionZh": "不是要求所有規則變得苛刻，而是要說明哪一個邊界案例缺乏清晰準則。",
+        "outcomeZh": "能找出模糊規則中的具體邊界，並提出可執行的澄清。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1165",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 108,
+          "book": 12,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 112, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The rule remained soft around the edges.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "soft around the edges"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "展館新規則哪裏不夠清楚？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It says large bags are banned but gives no size limit, so staff disagree.",
+            "zh": "規則禁止大袋卻沒有尺寸標準，職員因此意見不一。"
+          },
+          {
+            "id": "b",
+            "en": "It lists exact dimensions and everyone applies them consistently.",
+            "zh": "規則列明確切尺寸，所有人都一致執行。"
+          },
+          {
+            "id": "c",
+            "en": "The entrance carpet is physically soft at its corners.",
+            "zh": "入口地毯的角落摸起來很柔軟。"
+          },
+          {
+            "id": "d",
+            "en": "All bags are stored in lockers before visitors enter.",
+            "zh": "所有袋子都在訪客入場前放進儲物櫃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺乏尺寸界線導致執行不一致，才是規則 soft around the edges 的意思。",
+        "en": "The gallery rule says visitors cannot bring in large bags, but it does not say what counts as large. Staff give different answers at the door. The rule is soft around the edges until a size limit is stated.",
+        "zh": "展館規則說訪客不可攜帶大袋，但沒有定義何謂大袋。入口職員給出不同答案。在訂明尺寸上限前，這項規則的邊界不夠清楚。"
+      },
+      "reply": {
+        "promptEn": "A sports club says members may use the hall for 'short practice' without defining short. Two teams now dispute the booking. What could you tell the committee?",
+        "promptZh": "運動會說會員可借用場地作『短時間練習』，卻沒有定義時間長短，兩隊因此爭議預約。你可怎樣向委員會提出建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could agree on a maximum session length before confirming more bookings.",
+            "zh": "確認更多預約前，我們可商定每節練習的最長時間。"
+          },
+          {
+            "id": "b",
+            "en": "Let us publish a time limit so both teams can plan fairly.",
+            "zh": "我們公布時間上限，讓兩隊公平安排。"
+          },
+          {
+            "id": "c",
+            "en": "The rule is soft around the edges; could we define 'short' as thirty minutes?",
+            "zh": "規則的邊界不夠清楚；我們可把『短時間』定為三十分鐘嗎？"
+          },
+          {
+            "id": "d",
+            "en": "Could we ask both teams what duration they understood, then set one rule for future bookings?",
+            "zh": "我們可先問兩隊如何理解時長，再為日後預約訂立一致規則嗎？"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都針對未定義的時長提出可行澄清；金句指出規則邊界模糊。"
+      },
+      "scene": {
+        "promptZh": "市集守則說攤位可播放『適量』音樂，但沒有分貝或時段規定，鄰近攤位各有不同理解。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The music rule is soft around the edges because 'moderate' has no agreed limit.",
+            "zh": "音樂守則的邊界不夠清楚，因為『適量』沒有共同標準。"
+          },
+          {
+            "id": "b",
+            "en": "The market has banned every sound after sunrise.",
+            "zh": "市集在日出後禁止一切聲音。"
+          },
+          {
+            "id": "c",
+            "en": "The stalls all follow a stated decibel limit at the same hours.",
+            "zh": "所有攤位都在相同時段遵守已訂明的分貝限制。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "守則沒有可共同執行的界線；其餘選項都與題目資訊不符。"
+      },
+      "contrast": {
+        "promptZh": "哪個例子最不適合說規則 soft around the edges？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A returns policy says 'soon' without naming a number of days.",
+            "zh": "退貨政策只說『盡快』，沒有列出天數。"
+          },
+          {
+            "id": "b",
+            "en": "A permit states a five-day deadline and defines the starting date.",
+            "zh": "許可證列明五日期限，也界定起算日。"
+          },
+          {
+            "id": "c",
+            "en": "A grant rule uses 'small group' but never defines group size.",
+            "zh": "資助規則使用『小組』，卻沒有界定人數。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 的期限及起算日都清楚，不缺邊界。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「社區花園只准『少量』取水，卻沒寫每戶可取多少；兩名管理員給了不同答案。」乙怎樣回應最切題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The water rule is soft around the edges; a clear amount per household would help.",
+            "zh": "用水規則的邊界不夠清楚；訂明每戶用量會有幫助。"
+          },
+          {
+            "id": "b",
+            "en": "The garden has run out of water and must close immediately.",
+            "zh": "花園已沒有水，須立即關閉。"
+          },
+          {
+            "id": "c",
+            "en": "Every manager already uses the same written amount, so nothing needs defining.",
+            "zh": "每名管理員已依照同一書面用量執行，無須再界定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "管理員不同理解是因為『少量』欠缺數值，金句提出明確界線。"
+      },
+      "speaking": {
+        "en": "The rehearsal policy was soft around the edges because it allowed 'late use' without saying when the building had to close.",
+        "zh": "排練政策的邊界不夠清楚，因為它准許『晚間使用』，卻沒有訂明大樓何時關閉。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 25,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：共享工作室准會員借工具作『短期』使用，但有人借一日，有人借三週。用英文指出模糊邊界，並建議一個一致的借用期限。",
+        "selfCheckZh": "兩個示例都要說明『短期』欠定義，並提出具體統一時限；不能把問題說成工具材質柔軟。",
+        "examples": [
+          {
+            "en": "The tool-loan rule is soft around the edges: 'short term' needs a stated limit, such as seven days.",
+            "zh": "工具借用規則的邊界不夠清楚：『短期』需要明訂上限，例如七天。"
+          },
+          {
+            "en": "Because 'short term' is undefined and one member keeps a drill for three weeks, the policy looks soft around the edges; a one-week limit would make decisions consistent.",
+            "zh": "因為「短期」未有定義，而且有會員把電鑽借了三週，政策顯得邊界不清；一週借用上限能令決定一致。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "tool-loan rule",
+            "zh": "工具借用規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "stated limit",
+            "zh": "明訂上限",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 78
+            }
+          },
+          {
+            "en": "three weeks",
+            "zh": "三週",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 78
+            }
+          },
+          {
+            "en": "one-week limit",
+            "zh": "一週借用上限",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A rule is soft around the edges when borderline cases receive different answers.",
+          "zh": "如果邊界案例得到不同答案，規則便顯得不夠明確。"
+        },
+        {
+          "en": "If a policy is soft around the edges, define the missing limit before enforcing it.",
+          "zh": "若政策的邊界不清，執行前先訂明缺失的界線。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3504",
+      "number": 3504,
+      "inventoryId": "expr-3504",
+      "titleEn": "wash over someone",
+      "titleZh": "資訊從耳邊流過而未吸收",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:(?:TV|television|the news|the broadcast|information|emergency information|a lecture|the lecture|the talk|the briefing|the commentary|commentary)\\s+(?:often\\s+)?(?:washes|washed|washing|may wash)|(?:the instructions|instructions|facts)\\s+(?:wash|washed|washing|may wash))\\s+over\\s+(?:you|us|me|them|him|her|the residents|the visitors|the listeners)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "For spoken or broadcast information to reach someone without being actively processed or remembered.",
+        "meaningZh": "口述或播放的資訊雖傳入耳中，聽者卻沒有主動理解或記住。",
+        "grammar": "An information source is the subject of wash over, followed by a person as object. The watery image describes passive reception, not literal wetness.",
+        "register": "Natural for media, lectures, and briefings when the listener is distracted or does not pause to think.",
+        "boundaryZh": "須有資訊被動流過、沒有真正吸收的情況；專注聽並能重述重點，就不是本課的典型用法。",
+        "misconceptionZh": "不是電視發出水，也不是說所有電視資訊都一定無用；關鍵在聽者當下沒有處理內容。",
+        "outcomeZh": "能指出何時資訊只是流過，以及一個讓聽者主動理解的方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1393",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 130,
+          "book": 13,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "41–43",
+          "locatorNote": "DOCX table 137, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "During long broadcasts, TV often washes over you.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "TV often washes over you"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "導覽員為甚麼建議訪客停下來？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The audio facts are reaching visitors, but many cannot recall them while rushing.",
+            "zh": "導覽資訊傳入訪客耳中，但匆忙走過的人多半記不住。"
+          },
+          {
+            "id": "b",
+            "en": "The speakers have stopped working and no audio is playing.",
+            "zh": "喇叭已壞，沒有播放任何內容。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors are taking notes and discussing every display.",
+            "zh": "訪客正就每件展品做筆記並討論。"
+          },
+          {
+            "id": "d",
+            "en": "Water is dripping from the ceiling onto the audio guide.",
+            "zh": "天花板的水滴到語音導覽器上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說訪客一路趕路，聽到資訊卻記不住；停下來看一件展品可幫助理解。",
+        "en": "The museum audio guide keeps speaking as visitors hurry between rooms. Facts wash over them, and few can recall a detail. I suggest stopping at one display and discussing what they heard.",
+        "zh": "博物館語音導覽在訪客匆忙穿過展廳時持續播放。資訊從他們耳邊流過，很少有人記得細節。我建議在一件展品前停下來，討論剛聽到的內容。"
+      },
+      "reply": {
+        "promptEn": "A safety briefing plays while volunteers arrange equipment. Later, several cannot repeat the emergency steps. What would you suggest to the organiser?",
+        "promptZh": "義工整理器材時，安全簡報在一旁播放。之後數人說不出緊急步驟。你會給主辦者甚麼建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pause the setup and ask volunteers to repeat the key steps in pairs.",
+            "zh": "先暫停整理器材，請義工兩人一組複述重點步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Give everyone a short checklist after a focused replay.",
+            "zh": "讓大家專心重聽一次，再發一張簡短核對表。"
+          },
+          {
+            "id": "c",
+            "en": "The briefing washed over them while they worked; let us replay it when everyone can listen.",
+            "zh": "他們工作時簡報只是從耳邊流過；等大家能專心聽時再播放一次吧。"
+          },
+          {
+            "id": "d",
+            "en": "Demonstrate the emergency steps and invite questions before setup continues.",
+            "zh": "示範緊急步驟並讓大家提問，再繼續整理器材。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應沒有吸收安全資訊的問題；金句描述簡報在分心時被動流過。"
+      },
+      "scene": {
+        "promptZh": "研究小組一邊回覆訊息一邊聽研究方法的錄音，完結後沒人能說出三個步驟。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The instructions washed over them while their attention was elsewhere.",
+            "zh": "他們注意力放在別處，指示只是從耳邊流過。"
+          },
+          {
+            "id": "b",
+            "en": "They used the recording to practise each of the three steps.",
+            "zh": "他們用錄音練習了三個步驟。"
+          },
+          {
+            "id": "c",
+            "en": "The recording contained no instructions at all.",
+            "zh": "錄音根本沒有指示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們聽得到聲音卻沒有吸收步驟；其餘兩項與已知情況相反。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說資訊 washed over the listeners？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A radio report plays in the background while everyone packs boxes.",
+            "zh": "大家收拾紙箱時，收音機新聞在背景播放。"
+          },
+          {
+            "id": "b",
+            "en": "Listeners pause the talk, summarise each point, and answer questions accurately.",
+            "zh": "聽眾暫停講座，總結每一點，並準確回答問題。"
+          },
+          {
+            "id": "c",
+            "en": "A long announcement ends and the distracted crowd cannot recall the route.",
+            "zh": "長篇公告結束後，分心的人群記不起路線。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 的聽眾主動處理並準確理解內容。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「我把課程錄音開着，同時寫電郵；放完後卻不知道導師何時要收作業。」乙怎樣解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The lecture washed over you while you wrote; replay the deadline section without multitasking.",
+            "zh": "你寫電郵時，講課內容只是從耳邊流過；不要分心，重聽期限那一段。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor never mentioned a deadline, so there is nothing to replay.",
+            "zh": "導師完全沒有提期限，因此無須重聽。"
+          },
+          {
+            "id": "c",
+            "en": "The recording was only a music track and had no course content.",
+            "zh": "錄音只是音樂，沒有課程內容。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲有播放講課卻因分心沒有掌握期限，金句給出針對性的重聽方法。"
+      },
+      "speaking": {
+        "en": "During the workshop, the commentary washed over me until I put my phone away and wrote down one question about the process.",
+        "zh": "工作坊期間，解說原本只是從我耳邊流過；直到我收起手機，寫下一個關於流程的問題，才開始投入。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 25,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廣播說明颱風期間的避難路線，但市民一邊聽一邊處理別的事，之後答不出集合點。用英文說明資訊如何被動流過，並提出一個確保理解的方法。",
+        "selfCheckZh": "兩個示例都要指出廣播有播放、聽眾卻記不起集合點，並提出重播、地圖或提問；不能說根本沒有廣播。",
+        "examples": [
+          {
+            "en": "The broadcast washed over the residents while they worked, and they could not recall the meeting point; replaying the shelter route with a map could help.",
+            "zh": "居民工作時，廣播只是從耳邊流過，他們其後記不起集合點；配合地圖重播避難路線會有幫助。"
+          },
+          {
+            "en": "Emergency information washed over us, and we could not name the assembly point, so the centre should pause for a short question session.",
+            "zh": "緊急資訊只是從我們耳邊流過，我們說不出集合點，因此中心應暫停一下，安排簡短提問。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shelter route",
+            "zh": "避難路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 131
+            }
+          },
+          {
+            "en": "meeting point",
+            "zh": "集合點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 102
+            }
+          },
+          {
+            "en": "assembly point",
+            "zh": "集合點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 78
+            }
+          },
+          {
+            "en": "question session",
+            "zh": "提問環節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When instructions wash over you, pause and repeat one key step.",
+          "zh": "當指示只是從耳邊流過，停下來複述一個重要步驟。"
+        },
+        {
+          "en": "A lecture may wash over them if they listen while doing another demanding task.",
+          "zh": "若聽眾同時忙着處理另一項費神的工作，講課內容可能只會從耳邊流過。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3656",
+      "number": 3656,
+      "inventoryId": "expr-3656",
+      "titleEn": "support without smothering",
+      "titleZh": "幫助但不過度控制",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:support|supports|supported|supporting)\\s+(them|him|her)\\s+without\\s+smothering\\s+\\1\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "To help someone while leaving enough freedom for that person to make decisions and learn.",
+        "meaningZh": "提供幫助，同時保留對方自主決定及學習的空間。",
+        "grammar": "Support plus object is paired with without smothering plus the same person. Smothering is figurative overcontrol, not a lack of affection.",
+        "register": "Useful in parenting, coaching, and mentoring where support and autonomy must coexist.",
+        "boundaryZh": "須同時有實際支持與自主空間；放任不管不是本課的意思，事事代辦也不是。",
+        "misconceptionZh": "smother 不是字面令對方窒息；也不是要求在安全問題上完全不干預。",
+        "outcomeZh": "能提出一項具體支援及一項由學習者自行決定或嘗試的事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1545",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 145,
+          "book": 14,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "locatorNote": "DOCX table 154, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good parents support them without smothering them.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "support them without smothering them"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "導師如何協助新義工，同時留下自主空間？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She demonstrates the first shift, then lets them choose how to divide the next tasks.",
+            "zh": "她示範第一次輪值，之後讓義工自行決定如何分配下一輪工作。"
+          },
+          {
+            "id": "b",
+            "en": "She assigns every small movement and never allows a choice.",
+            "zh": "她規定每個細小動作，從不容許選擇。"
+          },
+          {
+            "id": "c",
+            "en": "She offers no training and leaves them alone with an unfamiliar machine.",
+            "zh": "她完全不培訓，讓義工獨自操作陌生機器。"
+          },
+          {
+            "id": "d",
+            "en": "She cancels the programme before the volunteers arrive.",
+            "zh": "她在義工抵達前取消計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音同時有示範和讓義工自行分工，符合支援而不過度控制。",
+        "en": "At the repair cafe, the trainer demonstrates the first shift and stays nearby for questions. Then the new volunteers choose how to divide the next tasks. She wants to support them without smothering them.",
+        "zh": "在維修咖啡館，導師示範第一次輪值，也留在附近回答問題。之後新義工自行決定如何分配下一輪工作。她想支持他們，同時不過度控制。"
+      },
+      "reply": {
+        "promptEn": "Your daughter is learning to plan a school project. She asks for help understanding the deadline but wants to choose her own topic. What could you tell your partner about helping her?",
+        "promptZh": "女兒正在學習規劃學校專題。她想弄清截止日期，但希望自行選題。你可怎樣跟伴侶商量幫助她？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us check the deadline with her; she can choose the topic.",
+            "zh": "我們和她一起核對截止日期；題目可由她自己選。"
+          },
+          {
+            "id": "b",
+            "en": "I can help her make a timeline, and she can decide which idea to pursue.",
+            "zh": "我可協助她訂時間表，由她決定採用哪個構思。"
+          },
+          {
+            "id": "c",
+            "en": "I want to support her without smothering her, so I will explain the deadline and let her pick the topic.",
+            "zh": "我想支持她而不過度控制，所以會解釋截止日期，讓她自己選題。"
+          },
+          {
+            "id": "d",
+            "en": "We can review her draft when she asks, while leaving the first decisions to her.",
+            "zh": "她提出要求時，我們可一起看初稿，但先讓她自行作決定。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提供所需資訊而保留選題權；金句直接表明支援與自主的平衡。"
+      },
+      "scene": {
+        "promptZh": "實習木工需要學會操作安全護罩。師傅先示範並在旁監督安全，之後讓她自行量度和切割練習木板。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mentor supports her without smothering her by teaching safety and leaving the measurements to her.",
+            "zh": "師傅教授安全操作，同時讓她自行量度，既支持她又不過度控制。"
+          },
+          {
+            "id": "b",
+            "en": "The mentor leaves her to use the saw before explaining the safety guard.",
+            "zh": "師傅尚未解釋安全護罩，就讓她獨自操作鋸子。"
+          },
+          {
+            "id": "c",
+            "en": "The mentor makes every measurement and every cut, so she never practises.",
+            "zh": "師傅包辦每次量度和切割，令她沒有練習機會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安全示範與監督屬必要支援；自行量度和切割提供受控自主空間。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不符合 support without smothering 的平衡？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach explains the rules, then lets the players choose a practice plan.",
+            "zh": "教練解釋規則後，讓球員選擇練習計劃。"
+          },
+          {
+            "id": "b",
+            "en": "A manager writes every line of a trainee's report and forbids revisions.",
+            "zh": "經理代實習生寫報告每一行，還禁止她修改。"
+          },
+          {
+            "id": "c",
+            "en": "A parent checks a dangerous route, then lets a teenager plan the rest of the trip.",
+            "zh": "家長核對危險路段後，讓青少年規劃旅程其餘部分。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 完全代辦並禁止自主修改，只剩控制，沒有學習空間。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「新店員知道基本退貨規則了。我想在旁回答問題，但又怕每次都替他決定。」乙怎樣建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Support him without smothering him: stay available, then let him handle ordinary returns.",
+            "zh": "支持他但不要過度控制：在旁可供詢問，讓他自行處理一般退貨。"
+          },
+          {
+            "id": "b",
+            "en": "Take every return out of his hands even when he knows the rule.",
+            "zh": "即使他懂規則，也接手每次退貨。"
+          },
+          {
+            "id": "c",
+            "en": "Leave him entirely alone with disputed refunds before explaining the rules.",
+            "zh": "還未解釋規則，就讓他獨自處理有爭議的退款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲已有基本規則，仍需可求助的支援；金句同時保留日常決定權。"
+      },
+      "speaking": {
+        "en": "The cycling instructor supported her without smothering her: he checked the brakes, then let her choose a safe route for the next ride.",
+        "zh": "單車教練支持她而不過度控制：他檢查煞車後，讓她自行選擇下一次騎行的安全路線。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 23,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園的年輕組長首次安排收成日。資深義工知道食品安全規則，但希望組長自行分配攤位工作。用英文說明怎樣同時提供安全支援與決策空間。",
+        "selfCheckZh": "兩個示例都要包含具體安全支援和由年輕組長自行安排的工作；不能把所有決定收回資深義工手中。",
+        "examples": [
+          {
+            "en": "Senior volunteers can support her without smothering her by checking food-safety rules while she assigns the stalls.",
+            "zh": "資深義工可核對食品安全規則，同時讓她分配攤位，做到支持而不過度控制。"
+          },
+          {
+            "en": "To support her without smothering her, the team can explain storage temperatures and let her set the harvest rota.",
+            "zh": "團隊可解釋儲存溫度，並讓她制定收成輪值表，以支持她而不過度控制。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "food-safety rules",
+            "zh": "食品安全規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "assigns the stalls",
+            "zh": "分配攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 115
+            }
+          },
+          {
+            "en": "storage temperatures",
+            "zh": "儲存溫度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 80
+            }
+          },
+          {
+            "en": "harvest rota",
+            "zh": "收成輪值表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 113
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Support them without smothering them: teach the safety step, then leave a real choice.",
+          "zh": "支持他們但不要過度控制：教會安全步驟，然後留下真正的選擇。"
+        },
+        {
+          "en": "A good mentor can support her without smothering her during a first independent task.",
+          "zh": "好導師可在她首次獨立執行任務時提供支援，而不過度控制。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3867",
+      "number": 3867,
+      "inventoryId": "expr-3867",
+      "titleEn": "poison trust",
+      "titleZh": "侵蝕互信",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:poison|poisons|poisoned|poisoning)\\s+trust\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "To damage people's confidence in one another, often through repeated dishonesty or unfairness.",
+        "meaningZh": "因反覆欺瞞或不公而損害人與人之間的信任。",
+        "grammar": "Poison is a verb followed by the abstract noun trust. The source of harm is often the grammatical subject: rumours poisoned trust.",
+        "register": "Serious figurative wording for persistent behaviour or an incident with broad consequences, not a single harmless mistake promptly corrected.",
+        "boundaryZh": "須說明哪種行為如何損害群體互信；及時更正的小錯誤不必誇大成『毒害信任』。",
+        "misconceptionZh": "不是字面下毒，也不等於當事人之間的信任已無法修復。",
+        "outcomeZh": "能指出互信受損的具體原因，並提出可核實的修復步驟。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1756",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 165,
+          "book": 14,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "73–74",
+          "locatorNote": "DOCX table 177, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Repeated fraud can poison trust in a community.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "poison trust"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "義工網絡的互信為甚麼受損？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coordinator repeatedly hid donations and gave false totals.",
+            "zh": "一名協調員反覆隱瞞捐款，並提交虛假總額。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer corrected one typo as soon as it was found.",
+            "zh": "一名義工發現錯字後立即更正。"
+          },
+          {
+            "id": "c",
+            "en": "The group changed its meeting room because the old one was noisy.",
+            "zh": "因舊房間嘈雜，小組改了會議地點。"
+          },
+          {
+            "id": "d",
+            "en": "The donations were counted openly by two independent people.",
+            "zh": "兩名互不隸屬的人公開點算捐款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆隱瞞捐款和報假數字才會損害整個團隊的信任。",
+        "en": "At the volunteer network, a coordinator hid several donations and reported false totals over months. That pattern poisoned trust among the teams. They now plan independent counts and public monthly records.",
+        "zh": "義工網絡一名協調員數月來隱瞞部分捐款，並虛報總額。這種反覆行為損害了團隊之間的信任。他們現計劃獨立點算，並每月公開紀錄。"
+      },
+      "reply": {
+        "promptEn": "Your neighbourhood committee has learned that a member repeatedly changed meeting minutes without telling the others. What could you suggest at the next meeting?",
+        "promptZh": "社區委員會發現一名成員多次不通知其他人，便改動會議紀錄。你可在下次會議提出甚麼建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should compare the minutes with recordings and publish any corrections.",
+            "zh": "我們應把會議紀錄與錄音核對，並公布所有更正。"
+          },
+          {
+            "id": "b",
+            "en": "Let us set a rule that two members sign off on every revision.",
+            "zh": "我們訂立規則，讓每次修訂都須兩名成員確認。"
+          },
+          {
+            "id": "c",
+            "en": "Secret revisions poison trust; let us verify the old records and show future changes openly.",
+            "zh": "秘密改動會侵蝕互信；我們核實舊紀錄，日後公開每次修訂吧。"
+          },
+          {
+            "id": "d",
+            "en": "Could the member explain the changes, followed by a transparent review of the records?",
+            "zh": "可否請該成員解釋改動，再公開檢討紀錄？"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出核實與公開程序；金句明確點出秘密反覆改動對互信的傷害。"
+      },
+      "scene": {
+        "promptZh": "業餘球隊的隊長連續幾週私下更改出場次序，卻對隊員說名單是公開抽籤。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The false claims about the draw poisoned trust in the team.",
+            "zh": "關於抽籤的虛假說法損害了隊員之間的信任。"
+          },
+          {
+            "id": "b",
+            "en": "The list was chosen by an open draw, as the captain said.",
+            "zh": "名單如隊長所說，是以公開抽籤選出的。"
+          },
+          {
+            "id": "c",
+            "en": "The only issue was a spelling error corrected before anyone saw the list.",
+            "zh": "問題只是一處在公布前已更正的拼寫錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆對隊員謊稱公平抽籤，會傷害群體互信。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某行為 poisoned trust？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A club repeatedly conceals how membership fees are spent.",
+            "zh": "俱樂部反覆隱瞞會費用途。"
+          },
+          {
+            "id": "b",
+            "en": "A clerk spots one harmless date typo, corrects it immediately, and explains the change.",
+            "zh": "文員發現一處無害的日期錯字，立即更正並解釋。"
+          },
+          {
+            "id": "c",
+            "en": "A board promises open votes but secretly changes the count each month.",
+            "zh": "董事會承諾公開投票，卻每月秘密改動點票結果。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 是一次小錯，立即透明更正，沒有顯示持續互信受損。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「合作社去年公布收入時漏報了幾筆，之後又藏起查核結果；會員現在不相信任何報表。」乙怎樣描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Hiding the audit poisoned trust; the cooperative needs an independent review and open figures.",
+            "zh": "隱瞞查核結果損害了互信；合作社需要獨立審查並公開數字。"
+          },
+          {
+            "id": "b",
+            "en": "The reports were complete and every member accepted them.",
+            "zh": "報表完整，所有會員都接受了。"
+          },
+          {
+            "id": "c",
+            "en": "The only concern is that the meeting room needs a new table.",
+            "zh": "唯一問題是會議室需要一張新桌子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次漏報及隱瞞查核使會員不再相信報表，金句提出具體修復方法。"
+      },
+      "speaking": {
+        "en": "Unexplained changes to the research log poisoned trust between the two labs, so they agreed to keep a dated shared record from now on.",
+        "zh": "研究紀錄出現無解釋的改動，損害了兩間實驗室的互信，因此雙方同意今後使用附有日期的共用紀錄。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 40,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇社的票務負責人反覆私下預留最佳座位，卻宣稱人人以相同方式排隊。用英文說明互信如何受損，並提出一個可公開核實的分配辦法。",
+        "selfCheckZh": "兩個示例都要指出反覆秘密預留與表面公平的矛盾，並提出可核實的公開安排；不能只說某張票印錯。",
+        "examples": [
+          {
+            "en": "Repeatedly reserving the best seats while claiming everyone used the same queue poisoned trust in the drama club; a published allocation list would let members check the process.",
+            "zh": "一再私下預留最佳座位，卻聲稱人人按同一隊列安排，損害了戲劇社的互信；公布分配名單可讓會員核對程序。"
+          },
+          {
+            "en": "The repeated hidden reservations poisoned trust because members were promised one queue; the club should record and display every seat assignment.",
+            "zh": "反覆秘密預留座位損害了互信，因為會員原本被承諾按同一隊列安排；社團應記錄並展示每個座位的分配。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "best seats",
+            "zh": "最佳座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 35
+            }
+          },
+          {
+            "en": "published allocation list",
+            "zh": "公布的分配名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 141
+            }
+          },
+          {
+            "en": "one queue",
+            "zh": "同一隊列",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 87
+            }
+          },
+          {
+            "en": "seat assignment",
+            "zh": "座位分配",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Repeated secret changes can poison trust even if a group keeps meeting.",
+          "zh": "即使小組繼續開會，反覆秘密改動也可能侵蝕互信。"
+        },
+        {
+          "en": "If dishonesty poisoned trust, open records are one step toward repair.",
+          "zh": "若欺瞞損害了互信，公開紀錄是修復的一步。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3414",
+      "number": 3414,
+      "inventoryId": "expr-3414",
+      "titleEn": "cut oneself off from fresh thinking",
+      "titleZh": "把自己與新思維隔絕",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:cut|cuts|cutting)\\s+(?:itself|themselves|himself|herself|ourselves|yourself)\\s+off\\s+from\\s+(?:fresh thinking|new ideas|outside ideas|different views)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "To isolate a person or organisation from new ideas by refusing outside perspectives or exchange.",
+        "meaningZh": "因拒絕外來觀點或交流，而使個人或組織接觸不到新思維。",
+        "grammar": "Cut + reflexive pronoun + off from + ideas names the agent and what it loses access to. Here cut is figurative isolation, not a physical closure.",
+        "register": "Appropriate for teams, institutions, and individuals whose closed habits limit learning; do not assume independence itself is bad.",
+        "boundaryZh": "須有拒絕交流或意見而失去新思維；單純自行完成工作，同時仍聽取外部意見，不屬隔絕。",
+        "misconceptionZh": "不是切斷網線，也不是說所有外部建議都必須接受。",
+        "outcomeZh": "能指出封閉做法如何阻礙新思維，並提出一個保留判斷力的交流方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1303",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 121,
+          "book": 13,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 126, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A company can cut itself off from fresh thinking.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cut itself off from fresh thinking"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "研究團隊為甚麼可能錯過新方法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It refuses to read outside studies or meet other teams.",
+            "zh": "團隊拒絕閱讀外部研究，也不與其他團隊交流。"
+          },
+          {
+            "id": "b",
+            "en": "It compares outside studies before choosing its own method.",
+            "zh": "團隊比較外部研究後才選擇自己的方法。"
+          },
+          {
+            "id": "c",
+            "en": "Its video-call cable was cut for one hour.",
+            "zh": "視像會議線路中斷了一小時。"
+          },
+          {
+            "id": "d",
+            "en": "It invited several outside researchers to review its process.",
+            "zh": "團隊邀請多名外部研究員檢視流程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說團隊拒絕接觸其他研究方法，才把自己與新思維隔絕。",
+        "en": "Our research group now refuses to read studies from other labs and declines every joint workshop. It could cut itself off from fresh thinking. We can still judge ideas carefully after hearing them.",
+        "zh": "我們的研究小組現在拒絕閱讀其他實驗室的研究，也拒絕每個合作工作坊。這可能令小組與新思維隔絕。我們聽取意見後，仍可審慎判斷。"
+      },
+      "reply": {
+        "promptEn": "A local orchestra plans every concert internally and has stopped inviting guest musicians, even when they offer unfamiliar techniques. What could you suggest?",
+        "promptZh": "地方樂團每次音樂會都只在內部策劃，甚至不再邀請能提供新技巧的客席樂手。你可提出甚麼建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Invite one guest musician to a workshop, then decide what fits the orchestra.",
+            "zh": "邀請一位客席樂手主持工作坊，再決定哪些技巧適合樂團。"
+          },
+          {
+            "id": "b",
+            "en": "Ask section leaders to compare a guest's method with their current practice.",
+            "zh": "請各聲部組長比較客席樂手的方法和現行做法。"
+          },
+          {
+            "id": "c",
+            "en": "We may cut ourselves off from fresh thinking; could we hear one guest before finalising the programme?",
+            "zh": "我們可能把自己與新思維隔絕；敲定節目前可先聽一位客席樂手的意見嗎？"
+          },
+          {
+            "id": "d",
+            "en": "Try an open rehearsal where guests can offer suggestions without controlling the final programme.",
+            "zh": "試辦公開排練，讓客席樂手提建議，但最後節目仍由樂團決定。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都保留樂團判斷權，同時恢復接觸新方法；金句直接指出封閉風險。"
+      },
+      "scene": {
+        "promptZh": "社區診所多年只依舊問卷改服務，拒絕閱讀病人小組的新意見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic cuts itself off from new ideas when it refuses patient feedback.",
+            "zh": "診所拒絕病人意見，便把自己與新想法隔絕。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic reviews patient feedback before deciding what to change.",
+            "zh": "診所決定改動前，先檢視病人意見。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic lost electricity for an hour but still meets patient groups.",
+            "zh": "診所停電一小時，但仍與病人小組交流。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "拒絕外部意見令診所失去接觸新方法的機會；其餘選項改變事實。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說一個團隊 cut itself off from fresh thinking？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An editor refuses every outside reader's comment without opening the file.",
+            "zh": "編輯連檔案也不打開，便拒絕所有外部讀者意見。"
+          },
+          {
+            "id": "b",
+            "en": "A design team hears outside proposals, tests them, and rejects some on clear grounds.",
+            "zh": "設計團隊聽取外部提案並測試，然後有理據地拒絕部分提案。"
+          },
+          {
+            "id": "c",
+            "en": "A council forbids staff from attending any conference or reading new reports.",
+            "zh": "議會禁止職員出席任何會議或閱讀新報告。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "B 仍接觸並評估外部觀點；審慎拒絕部分提案不等於自我隔絕。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「舊書修復小組不再接待其他館的修復師，也不看新的保存研究。」乙怎樣描述風險？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group may cut itself off from fresh thinking; invite a visiting restorer to compare methods.",
+            "zh": "小組可能把自己與新思維隔絕；可邀請外館修復師比較方法。"
+          },
+          {
+            "id": "b",
+            "en": "The group already tests every outside method before deciding.",
+            "zh": "小組已在決定前測試每一種外部方法。"
+          },
+          {
+            "id": "c",
+            "en": "The group's only problem is a broken door lock, not its exchange of ideas.",
+            "zh": "小組唯一問題是門鎖損壞，與意見交流無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲說小組拒絕交流與研究，金句既指出隔絕風險，也提出可判斷的交流安排。"
+      },
+      "speaking": {
+        "en": "The food cooperative cut itself off from fresh thinking when it stopped asking growers about new ways to reduce waste.",
+        "zh": "食品合作社停止向農戶請教減少浪費的新方法時，便把自己與新思維隔絕。",
+        "promptZh": "先聽示範，再指出哪個具體條件讓此片語適用。",
+        "targetSpan": {
+          "start": 21,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：手語翻譯培訓小組多年只使用自己的教材，拒絕觀摩使用者社群的新建議。用英文說明封閉做法的風險，並提出一個可評估新建議的方法。",
+        "selfCheckZh": "兩個示例都要說出拒絕觀摩使培訓小組失去新觀點，並提出交流後再測試或評估；不能說一收到建議便必須全部採用。",
+        "examples": [
+          {
+            "en": "The training group cuts itself off from fresh thinking by refusing community feedback; it could test one suggestion in a workshop.",
+            "zh": "培訓小組拒絕使用者社群意見，令自己與新思維隔絕；可在工作坊測試一項建議。"
+          },
+          {
+            "en": "If the team cuts itself off from new ideas, its materials may grow stale; an invited user panel could help it compare methods.",
+            "zh": "如果團隊把自己與新想法隔絕，教材可能過時；邀請使用者小組可協助比較方法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "community feedback",
+            "zh": "使用者社群意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "test one suggestion",
+            "zh": "測試一項建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 115
+            }
+          },
+          {
+            "en": "materials may grow stale",
+            "zh": "教材可能過時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 72
+            }
+          },
+          {
+            "en": "invited user panel",
+            "zh": "受邀使用者小組",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fresh thinking disappears when a team cuts itself off from outside ideas.",
+          "zh": "團隊若把自己與外部想法隔絕，新思維便無從進來。"
+        },
+        {
+          "en": "Do not cut yourself off from new ideas; hear them first, then decide what fits.",
+          "zh": "不要把自己與新想法隔絕；先聽，再決定哪些適合。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "status": "independent-ai-content-review-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2507-2750-a.json",
+  "draftSha256": "cb8775ce7c7efbf493aeb90970ceaa52f88e83f0a288cfb5b6201270d30e1ce7",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2507-2750-a.json",
+  "authorAuditSha256": "a78d0b0243f487ebd1dbfdbe70027afbeca0d63b61b78dc434d3721f7e99ced1",
+  "focusedBuildCheck": "2 lessons / 12 questions / 8 audio requests / 0 flags",
+  "coverage": "Read every brief, audio and assessed item, speaking, writing models, Chinese, source/provenance and glossary. Mechanical build/check repeated; no media or release approval.",
+  "lessonResults": [
+    {
+      "ordinal": 2507,
+      "sourceSentence": "Trying to remember every detail while exhausted is like trying to write on water.",
+      "sourceExpression": "write on water",
+      "targetMatchesFullSource": true,
+      "glossarySpansExact": true,
+      "status": "repair-needed"
+    },
+    {
+      "ordinal": 2750,
+      "sourceSentence": "The signed disc became a keepsake.",
+      "sourceExpression": "keepsake",
+      "targetMatchesFullSource": true,
+      "glossarySpansExact": true,
+      "status": "repair-needed"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R2507-01",
+      "severity": "major",
+      "lesson": 2507,
+      "field": "reply.options[d]",
+      "problem": "The prompt establishes only an auto-deleting chat; option D asks the stage manager to confirm a saved list that has not been created. Step 2 requires four currently valid replies.",
+      "suggestedRepair": "Have the stage manager first save a dated cue list, then confirm it with the crew; align Traditional Chinese."
+    },
+    {
+      "id": "R2750-01",
+      "severity": "major",
+      "lesson": 2750,
+      "field": "writing.examples[1]",
+      "problem": "Step 7 asks for a thank-you message to the radio host, but the second model is a detached description with no thanks or address to the host. It does cover memory and nonutility.",
+      "suggestedRepair": "Start with a natural thank-you to the host while retaining the specific shared broadcast memory and non-price/non-practical value; adjust Chinese and glossary spans if changed."
+    },
+    {
+      "id": "R2507-02",
+      "severity": "major",
+      "lesson": 2507,
+      "field": "seven-step source breadth",
+      "problem": "The source compares exhausted human remembering to a disappearing trace, whereas nearly every assessed and writing context now concerns ephemeral external records. This repeats the “save a copy” decision and leaves the source’s cognitive-transfer case unassessed.",
+      "suggestedRepair": "Replace one scene or dialogue with a tired learner or witness trying to retain details long enough for a later task, and give a concrete memory-support action; keep the literary trace-loss meaning."
+    }
+  ],
+  "selectionRecommendation": "Hold both until scoped repairs and exact-hash recheck; no decision or manifest change.",
+  "teachableUnitAssessment": [
+    {
+      "ordinal": 2507,
+      "judgment": "Defensible literary simile: an intended trace vanishes before its later use. Current seven steps transfer across archive, theatre, field work, meeting, exhibition and museum contexts, but most assess disappearing records rather than the source’s exhausted human memory. Broaden one assessed task to cognitive retention under fatigue so the learner decision is not merely “save a copy.”",
+      "gate": "Repair recommended before selection."
+    },
+    {
+      "ordinal": 2750,
+      "judgment": "Natural count noun with a clear boundary: personal memory value rather than utility, resale price or age. Its seven steps mostly repeat that distinction with different objects, yet speaking/writing add personal explanation and count-noun use; no same-sense selected owner found in this focused review.",
+      "gate": "Content acceptable after the thank-you model repair; do not imply high idiom complexity."
+    }
+  ]
+}

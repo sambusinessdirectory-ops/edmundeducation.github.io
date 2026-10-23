@@ -2278,12 +2278,12 @@
       "id": "advanced-native-1913",
       "number": 1913,
       "inventoryId": "expr-1913",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "act like a compass",
       "titleZh": "像指南針般提供方向",
       "category": "figurative",
       "target": {
-        "pattern": "\\bact(?:s|ed|ing)? like a compass\\b"
+        "pattern": "\\b(?:act(?:s|ed|ing)? like|(?:is|are|was|were) a bit like) a compass\\b"
       },
       "sources": [
         {
@@ -2299,13 +2299,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "act like a compass",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-1239",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 115,
+          "book": 12,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 119, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good mentor is a bit like a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bit like a compass"
         }
       ],
       "brief": {
         "meaningEn": "Provide orientation or guidance that helps someone consider a direction without making every decision for them.",
         "meaningZh": "提供方向感或引導，幫人考慮去向，而不是代作每個決定。",
-        "grammar": "a mentor can act like a compass; like marks an explicit comparison. Name the questions or principles that orient the person, rather than only praising the guide.",
-        "register": "neutral",
+        "grammar": "A mentor can act like a compass or be a bit like a compass; both compare guidance to orientation. Name the questions or principles that guide the person rather than imply the mentor chooses for them.",
+        "register": "Neutral simile. A student may describe a mentor to classmates, or a volunteer may explain how a guiding principle helps a team choose a direction.",
         "boundaryZh": "方向指引不等於命令、保證成功或唯一正確路線；要看當事人仍如何比較與決定。",
         "misconceptionZh": "方向指引不等於命令、保證成功或唯一正確路線；要看當事人仍如何比較與決定。",
         "outcomeZh": "理解「像指南針般提供方向」的語境及用法，並在新情境寫出自然句子。",
@@ -2510,8 +2524,8 @@
           "zh": "義工比較兩個很不同的計劃時，「誰受益」這個問題像指南針般引導。"
         },
         {
-          "en": "Her mentor acts like a compass by helping her identify a principle, then asking how each possible route fits it.",
-          "zh": "導師幫她辨認原則，再問各條路怎樣配合，像指南針般引導。"
+          "en": "A mentor is a bit like a compass when she asks which route matches your aims but leaves the choice to you.",
+          "zh": "導師問你哪條路符合自己的目標，卻讓你自行選擇，這時她就有點像指南針。"
         }
       ],
       "review": {
@@ -3058,12 +3072,12 @@
       "id": "advanced-native-1916",
       "number": 1916,
       "inventoryId": "expr-1916",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "grope in the dark",
       "titleZh": "缺乏資訊或指引，摸索着進行",
       "category": "idiom",
       "target": {
-        "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b"
+        "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b"
       },
       "sources": [
         {
@@ -3079,13 +3093,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "grope in the dark",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1185",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 110,
+          "book": 12,
+          "question": 44,
+          "sample": "S1",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 114, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The notes stop students guessing in the dark.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "guessing in the dark"
         }
       ],
       "brief": {
-        "meaningEn": "Try to understand or proceed without enough information, examples or guidance.",
-        "meaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解或繼續做。",
-        "grammar": "grope in the dark / groped / groping; specify the information gap rather than imply the person lacks all ability.",
-        "register": "neutral",
+        "meaningEn": "Try to understand, answer or proceed without enough information, examples or guidance.",
+        "meaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解、作答或繼續做。",
+        "grammar": "Grope in the dark / groped / groping or guess in the dark / guessed / guessing; specify the information gap rather than imply the person lacks all ability. Guessing stresses an answer attempted without evidence.",
+        "register": "Neutral figurative wording. A teacher may tell colleagues students are guessing in the dark when notes omit key examples; an organiser may grope in the dark when responses are scattered.",
         "boundaryZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
         "misconceptionZh": "不熟悉或摸索不等於能力差，也不保證一定失敗；已有部分資料時，應說清仍欠哪一部分。",
         "outcomeZh": "理解「缺乏資訊或指引，摸索着進行」的語境及用法，並在新情境寫出自然句子。"
@@ -3289,8 +3317,8 @@
           "zh": "回覆分散在幾個群組，籌委對出席人數仍在摸索。"
         },
         {
-          "en": "She was not groping in the dark about the whole task, only the exception the handbook had not covered.",
-          "zh": "她不是對整個任務都在摸索，只是手冊未涵蓋的例外。"
+          "en": "Without the meter readings, the repair team would be guessing in the dark about which pipe failed.",
+          "zh": "沒有儀表讀數，維修隊只能在資訊不足下猜測哪條喉管出了問題。"
         }
       ],
       "review": {

@@ -1,0 +1,12 @@
+{
+  "reviewId": "independent-ai-review-hold-sweep-3901-4715-wave1-b-followup",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-hold-sweep-3901-4715-wave1-review-pilot.json",
+  "authorAuditSha256": "37cdf736075ab1876d64b3035085f1bb4f285d87ba1772a86511669b26cea977",
+  "ownerFile": "course-materials/advanced-native/batches/batch-0626-0650.json",
+  "ownerFileSha256": "5d8bb571c91e79e4dc504e28e9a2d244f0abfd50069c5269591ea362c95a7881",
+  "scope": "626 scene keyed Traditional Chinese wording only; English, answer ID, pattern and provenance unchanged.",
+  "finding": "Resolved: 較安靜的房間更適合這次交談 is natural and faithfully renders the quiet-room suitability contrast. Key still contains target in English.",
+  "checks": "25-lesson focused build and --check passed: 150 questions, 100 audio requests, zero flags.",
+  "blockers": [],
+  "verdict": "Focused AI content clear at final hash; unpublished and no listening/release approval."
+}

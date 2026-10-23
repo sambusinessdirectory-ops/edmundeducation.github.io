@@ -285,11 +285,11 @@
       "titleEn": "take the heat out of",
       "titleZh": "減輕緊張與衝突",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:take|takes|took|taken|taking) the heat out of\\b",
+        "pattern": "\\b(?:(?:take|takes|took|taken|taking) the heat out of|(?:lower|lowers|lowered|lowering) the temperature in (?:a|an|the) (?:dispute|argument|debate|meeting|conversation))\\b",
         "glossaryForbidden": [
-          "\\bheat out of\\b"
+          "\\b(?:(?:take|takes|took|taken|taking) the heat out of|(?:lower|lowers|lowered|lowering) the temperature in (?:a|an|the) (?:dispute|argument|debate|meeting|conversation))\\b"
         ]
       },
       "sources": [
@@ -305,13 +305,27 @@
           "sentence": "A shared uniform can take the heat out of fashion competition.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "take the heat out of"
+        },
+        {
+          "occurrenceId": "book10-16-2313",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 219,
+          "book": 16,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "63–65",
+          "locatorNote": "DOCX table 241, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An honest apology can lower the temperature in a dispute.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lower the temperature"
         }
       ],
       "brief": {
         "meaningEn": "Reduce tension, pressure or hostility in a situation.",
         "meaningZh": "降低情況中的緊張、壓力或敵意。",
-        "grammar": "take the heat out of + argument/debate/situation; past took; can/may take....",
-        "register": "Common informal heat metaphor; not necessarily solve the whole disagreement.",
+        "grammar": "take the heat out of + argument/debate/situation; past took; can/may take.... Lower the temperature in a dispute/argument/debate is a parallel figurative construction; lower inflects, and the situation names the emotional context.",
+        "register": "Common informal heat metaphor; not necessarily solve the whole disagreement. Lower the temperature likewise refers to emotion, not a room’s physical heat.",
         "boundaryZh": "降溫不表示問題已全解決，也不是壓下合理疑慮；本課不談溫度。",
         "misconceptionZh": "不要把暫時平靜當成已同意，或把不准發言當成真正化解。",
         "outcomeZh": "能提出減低緊張的方法，同時保留之後處理問題。"
@@ -380,7 +394,7 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "The clarification took the heat out of the argument.",
+            "en": "The clarification lowered the temperature in the argument.",
             "zh": "澄清令爭論降溫。"
           },
           {
@@ -519,8 +533,8 @@
           "zh": "一點幽默有時可以令緊張時刻降溫。"
         },
         {
-          "en": "The explanation took the heat out of the debate.",
-          "zh": "解釋令辯論降溫。"
+          "en": "The explanation lowered the temperature in the debate, leaving room to address the remaining questions.",
+          "zh": "解釋令辯論降溫，讓大家可繼續處理尚未解決的問題。"
         }
       ],
       "review": {

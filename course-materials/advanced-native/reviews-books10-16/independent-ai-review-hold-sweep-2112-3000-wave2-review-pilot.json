@@ -1,0 +1,33 @@
+{
+  "reviewKind": "independent AI focused owner-alias review",
+  "reviewedAuthorAudit": "course-materials/advanced-native/reviews-books10-16/author-hold-sweep-2112-3000-wave2-a.json",
+  "reviewedAuthorAuditSha256": "85d8c4934551b41b04dac29b0a40849fcba0fd7ef3d8b389cfbe0ef83524dc29",
+  "status": "content-clear for provisional editorial decisions; no human or release approval",
+  "sourceOrdinals": [
+    2396,
+    2730,
+    2762
+  ],
+  "files": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json": "9dac7d084ab9dbccf239bcd93ee740100784d6070f71595fadef5d23ebaaab97",
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "0834ced512d7a2de3fe5332af52954c48ca8e8bb0bea26a977978ed81d36459d",
+    "course-materials/advanced-native/batches/batch-1051-1075.json": "54f8b2f982f99cba4cc50ef6c380c010e7300c9a70a2c4e3718411b9bd20bc44",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "07ef699cc1fcfb6fe5e667a2452f1a603901759cea573f56274652e573cb6a2e",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "0fe0a1311320ef57c0945433e0153546de231a207b1cb4c307b8cb2fb9a0f756"
+  },
+  "checks": {
+    "allFiveFrozenHashesMatch": true,
+    "fullSourceExamplesAndExactProvenance": 3,
+    "fullSourceTargetDetectorMatches": 3,
+    "ownerSense": "2396 adjectival slow-burn tension and 2291 gradual suspense; 2730 news rippling through a city and 772 connected outward spread; 2762 a venue heartbeat of its own and 1058 distinctive group/place pulse are same learner decisions.",
+    "changedKeyGrounding": "2291 interactive exhibit accumulates evidence without shocks; 772 news relayed through people supports spread; 1058 quiet members respond to marks, supporting figurative heartbeat. Keyed English and Traditional Chinese align.",
+    "glossaryForbidden": "1058 heartbeat added as target-forbidden, preventing target leakage.",
+    "authorFocusedBuildCheck": "three changed owner files pass with zero review flags",
+    "authorExplicitAliasAudit": "42/42 matching across the two changed decision files, zero exceptions"
+  },
+  "findings": [],
+  "limits": [
+    "Ripple through the city and heartbeat of its own are metaphorical; live target forms can also occur in unrelated literal contexts, so semantic review remains necessary.",
+    "This is AI peer review, not human approval or release clearance."
+  ]
+}

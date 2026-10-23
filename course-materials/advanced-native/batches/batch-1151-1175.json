@@ -3247,11 +3247,11 @@
       "titleEn": "fall apart",
       "titleZh": "情緒失控，難以應付當下",
       "category": "phrasal-verb",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:fall|falls|fell|fallen|falling) apart\\b",
+        "pattern": "\\b(?:fall|falls|fell|fallen|falling) (?:apart|to pieces)\\b",
         "glossaryForbidden": [
-          "\\b(?:fall|falls|fell|fallen|falling) apart\\b"
+          "\\b(?:fall|falls|fell|fallen|falling) (?:apart|to pieces)\\b"
         ]
       },
       "sources": [
@@ -3267,13 +3267,27 @@
           "sentence": "She kept going instead of falling apart over every small setback.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "falling apart over every small setback"
+        },
+        {
+          "occurrenceId": "book10-16-1978",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 186,
+          "book": 15,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "56–58",
+          "locatorNote": "DOCX table 202, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She practised staying calm instead of falling to pieces.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "falling to pieces"
         }
       ],
       "brief": {
         "meaningEn": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
         "meaningZh": "情緒非常紊亂，以致難以冷靜思考或應付當下情況。",
-        "grammar": "a person falls/fell/is falling apart; intransitive, without an object. The supplied over every small setback adds a particular trigger and frequency, not part of the fixed verb. Distinguish objects breaking and a system failing.",
-        "register": "Informal emotional description, often strong or subjective. This is language about a response, not a diagnosis or a judgement of someone’s worth.",
+        "grammar": "a person falls/fell/is falling apart; intransitive, without an object. The supplied over every small setback adds a particular trigger and frequency, not part of the fixed verb. Distinguish objects breaking and a system failing. Fall to pieces uses the same intransitive emotional construction in context; inflect fall, leaving to pieces fixed.",
+        "register": "Informal emotional description, often strong or subjective. This is language about a response, not a diagnosis or a judgement of someone’s worth. Fall to pieces can sound equally strong; check the person’s own account and observable difficulty before using either phrase.",
         "boundaryZh": "哭、停一下或求助本身，不足以判定一個人已無法應付；需要保留本人說法及具體行為。",
         "misconceptionZh": "不把一時反應擴成永久性格，也不把繼續行動說成完全沒有難過。",
         "outcomeZh": "能描述當下情緒程度，承認資料限制而不替人貼標籤。"
@@ -3388,7 +3402,7 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "I felt I was falling apart, and her company helped me stay with the reply; it did not remove every feeling.",
+            "en": "I felt I was falling to pieces, and her company helped me stay with the reply; it did not remove every feeling.",
             "zh": "我覺得自己情緒難以應付，她的陪伴幫我繼續整理回覆，但沒有抹去所有感受。"
           },
           {
@@ -3481,8 +3495,8 @@
           "zh": "消息傳來時，他覺得自己情緒難以應付，便請朋友留下，陪他找出回覆的字句。"
         },
         {
-          "en": "The narrator said she was falling apart, but another scene showed her slowly finding a way to ask for support.",
-          "zh": "旁白說自己情緒失控，但另一個場景呈現她慢慢找到尋求支援的方法。"
+          "en": "The narrator said she was falling to pieces, but another scene showed her slowly finding a way to ask for support.",
+          "zh": "旁白說自己情緒難以應付，但另一個場景呈現她慢慢找到尋求支援的方法。"
         }
       ],
       "review": {

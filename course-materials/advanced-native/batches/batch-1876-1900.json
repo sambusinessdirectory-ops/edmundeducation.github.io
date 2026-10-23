@@ -3275,12 +3275,12 @@
       "id": "advanced-native-1892",
       "number": 1892,
       "inventoryId": "expr-1892",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "a foot in the door",
       "titleZh": "進入某領域的初步機會",
       "category": "idiom",
       "target": {
-        "pattern": "\\ba foot in the door\\b"
+        "pattern": "\\b(?:a|its) foot in the door\\b"
       },
       "sources": [
         {
@@ -3296,14 +3296,28 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "a foot in the door",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1657",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 156,
+          "book": 14,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 166, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A catchy advert may get its foot in the door.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get its foot in the door"
         }
       ],
       "brief": {
-        "meaningEn": "An initial opportunity to enter a field, organisation or activity, without guaranteeing a lasting position.",
-        "meaningZh": "進入某領域、機構或活動的初步機會，不保證長期職位。",
-        "grammar": "give/get/have a foot in the door; an internship or introduction can be a foot in the door, with the next steps still requiring work.",
-        "register": "neutral",
-        "boundaryZh": "初步接觸不等於已獲永久角色，也不保證升遷；單是尚未回覆的申請，未必已得到進入機會。",
+        "meaningEn": "An initial opportunity to enter a field, organisation or activity, or to gain someone’s attention, without guaranteeing a lasting position or influence.",
+        "meaningZh": "進入某領域、機構或活動，或初步吸引他人注意的機會；不保證長期位置或影響力。",
+        "grammar": "Give/get/have a foot in the door; an internship or introduction can be a foot in the door. A personified advert may get its foot in the door by gaining initial attention, but not full control of the buyer’s decision.",
+        "register": "Neutral idiom, sometimes extended by personification. A job applicant may use it about an internship; a marketing reviewer may use it about an advert gaining an initial hearing.",
+        "boundaryZh": "初步接觸或引起注意不等於已獲永久角色、升遷或說服對方購買；未被看見的廣告也沒有取得入門機會。",
         "misconceptionZh": "初步接觸不等於已獲永久角色，也不保證升遷；單是尚未回覆的申請，未必已得到進入機會。",
         "outcomeZh": "理解「進入某領域的初步機會」的語境及用法，並在新情境寫出自然句子。"
       },
@@ -3506,8 +3520,8 @@
           "zh": "一次短義工班讓她有機會初步進入社區劇院，開始學習後台流程。"
         },
         {
-          "en": "The introduction offered a foot in the door, but he still had to submit work before being considered for a longer project.",
-          "zh": "那次介紹提供入門機會，但要獲考慮參與較長項目，他仍須提交作品。"
+          "en": "The poster got its foot in the door when shoppers stopped to read it, but they still compared prices before choosing.",
+          "zh": "購物者停下來看海報時，它已取得初步注意；但他們仍先比較價格才作選擇。"
         }
       ],
       "review": {

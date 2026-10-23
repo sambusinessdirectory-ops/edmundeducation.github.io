@@ -1,0 +1,74 @@
+{
+  "status": "independent AI focused exact-hash follow-up; content clear for seven provisional lessons; no human or release approval",
+  "reviewedDraft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3025-3867-b.json",
+  "reviewedDraftSha256": "6fe9f9a090c4ceb0111b56109389a64a2be52c7a6e1272c9a70434c76d48aa70",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-3025-3867-b.json",
+  "authorAuditSha256": "315b3673413bdefba59650dad36f6b0299174eda3b968123fcc11476334bdcc7",
+  "scope": "Recheck eight prior findings against changed fields, withdrawal of 3123, keys/target/spans, and local build/check; no manifest or decision edits.",
+  "retainedLessonIds": [
+    "advanced-native-3025",
+    "advanced-native-3148",
+    "advanced-native-3276",
+    "advanced-native-3504",
+    "advanced-native-3656",
+    "advanced-native-3867",
+    "advanced-native-3414"
+  ],
+  "withdrawnStillHeld": [
+    "advanced-native-3123"
+  ],
+  "resolvedFindings": [
+    {
+      "id": "R3123-01",
+      "resolution": "Source 3123 withdrawn from draft rather than force an unnatural long construction."
+    },
+    {
+      "id": "R3123-02",
+      "resolution": "Source 3123 withdrawn; its incomplete models are no longer in authoritative batch."
+    },
+    {
+      "id": "R3148-01",
+      "resolution": "Golden reply now attributes a shortened fuse generally to extra night shifts without labelling the teammate directly; EN/ZH align."
+    },
+    {
+      "id": "R3276-01",
+      "resolution": "Classified figurative and brief explicitly calls the image a figurative adjective phrase."
+    },
+    {
+      "id": "R3276-02",
+      "resolution": "Second model now explicitly names undefined short term, three-week example and one-week rule; Chinese and glossary align."
+    },
+    {
+      "id": "R3504-01",
+      "resolution": "First model now explicitly says residents could not recall meeting point; Chinese and glossary slices align."
+    },
+    {
+      "id": "R3656-01",
+      "resolution": "All four replies now address the partner about helping their daughter, with exactly one target-bearing golden response."
+    },
+    {
+      "id": "R3867-01",
+      "resolution": "First model now includes repeated hidden reservations and the false same-queue claim; Chinese and glossary align."
+    }
+  ],
+  "regressionChecks": {
+    "focusedBuildAndCheck": "7 lessons, 42 questions, 28 audio requests, zero flags",
+    "exactGlossarySpansAndNoTargetLeakage": "28/28",
+    "fourRepliesOneTarget": "7/7",
+    "sceneAndDialogueKeysTargetBearing": "14/14",
+    "nonTargetSixTokenGuideOverlaps": 0,
+    "nearFullGuideOverlaps": 0,
+    "contentRevisions": {
+      "3025": 1,
+      "3148": 2,
+      "3276": 2,
+      "3504": 2,
+      "3656": 2,
+      "3867": 2,
+      "3414": 1
+    }
+  },
+  "ownerComparison": "3414 remains a defensible distinct self-imposed intellectual-access decision versus canonical 648 externally blocked opportunity and 1347 felt social isolation; this is an AI owner assessment, not human sign-off.",
+  "remainingFindings": [],
+  "selectionGuidance": "Seven lessons are content-clear for provisional unpublished selection only; 3123 remains held. Human language, media, QA and release gates remain open."
+}

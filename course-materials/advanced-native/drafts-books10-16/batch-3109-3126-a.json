@@ -1350,15 +1350,15 @@
       "titleZh": "由一個極端轉向另一個極端",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:swing|swings|swung|swinging) from one extreme to another\\b",
+        "pattern": "\\b(?:swing|swings|swung|swinging) from one extreme to another\\b|\\b(?:teenagers?|people|groups?|teams?|committees?|policies|rules|opinions|schools?|organisations?)\\s+(?:(?:may|can|might|could|will|would|often|sometimes)\\s+)?(?:swing|swings|swung|swinging) the other way\\b",
         "glossaryForbidden": []
       },
       "brief": {
-        "meaningEn": "Move abruptly between opposing excessive positions instead of finding a balanced middle.",
-        "meaningZh": "在兩種對立的極端立場之間急遽轉換，而沒有尋找平衡。",
-        "grammar": "swing from one extreme to another; swung is the past form.",
+        "meaningEn": "Move abruptly to an opposing excessive position, sometimes in reaction to the first extreme, instead of finding a balanced middle.",
+        "meaningZh": "有時因第一個極端而反彈，急遽轉向另一個對立的極端，而沒有尋找平衡。",
+        "grammar": "Swing from one extreme to another; for a person, group or policy reacting to excessive control, swing the other way. Swung is the past form. The second detector is bounded to figurative human or institutional subjects so a literal swinging door is not this lesson.",
         "register": "Neutral figurative language. A moderator may use it when describing abrupt reversals in a policy debate.",
-        "boundaryZh": "必須有兩端相反而過度的方向，以及明顯轉換；一般調整、折衷或漸進改變不算。",
+        "boundaryZh": "必須有過度的起點與朝對立極端的明顯轉向；一般調整、折衷、漸進改變或字面擺盪不算。",
         "misconceptionZh": "不是擺盪的字面動作，也不是任何改變立場都屬極端轉換。",
         "outcomeZh": "能比較極端轉向與審慎調整。"
       },
@@ -1376,6 +1376,20 @@
           "sentence": "Online debates can swing from one extreme to another.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "swing from one extreme to another"
+        },
+        {
+          "occurrenceId": "book10-16-1558",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 146,
+          "book": 14,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "locatorNote": "DOCX table 155, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Strict control can make teenagers swing the other way.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swing the other way"
         }
       ],
       "review": {
@@ -1404,7 +1418,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 3,
       "listening": {
         "promptZh": "委員會的做法有甚麼問題？",
         "options": [
@@ -1605,8 +1619,8 @@
           "zh": "政策由全面禁止改為毫無限制，便可能由一個極端轉向另一個極端。"
         },
         {
-          "en": "The rules swung from one extreme to another instead of moving toward a workable balance.",
-          "zh": "規則由一個極端轉向另一個極端，沒有朝可行的平衡邁進。"
+          "en": "After an absolute ban, the group may swing the other way and reject every limit instead of choosing a workable balance.",
+          "zh": "經歷全面禁止後，團體可能反而走向另一極端，拒絕一切限制，而非尋求可行的平衡。"
         }
       ]
     },

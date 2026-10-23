@@ -1,0 +1,88 @@
+{
+  "reviewKind": "AI author self-audit, held-source distinct lesson cohort",
+  "status": "unselected_repaired_pending_independent_followup",
+  "sourceOrdinals": [
+    2507,
+    2750
+  ],
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2507-2750-a.json",
+  "draftSha256": "64c942b154138bdbca29b6a76a3af9fb1d03bec04dbe69f84825160323f0d9bc",
+  "sourceGate": [
+    {
+      "sourceOrdinal": 2507,
+      "sourceId": "book10-16-0396",
+      "target": "write on water",
+      "decision": "provisional distinct literary simile",
+      "sourceSense": "An attempt to leave a useful lasting trace in a medium or arrangement that will not preserve it.",
+      "ownerScreen": "No other discovered lesson target detector matched the full source sentence; existing water metaphor lessons teach different decisions.",
+      "usageEvidence": "https://tilleyproverbs.com/proverbs/W114",
+      "caveat": "Literary/reflection register; do not present as routine administrative idiom."
+    },
+    {
+      "sourceOrdinal": 2750,
+      "sourceId": "book10-16-0639",
+      "target": "keepsake",
+      "decision": "provisional distinct natural count noun",
+      "sourceSense": "A physical object kept because it recalls a person, place or occasion, regardless of low monetary/practical value.",
+      "ownerScreen": "No other discovered lesson target detector matched the full source sentence; no same-title owner.",
+      "usageEvidence": "https://dictionary.cambridge.org/dictionary/english/keepsake",
+      "caveat": "It is an ordinary count noun, not an idiom; seven decisions test meaning, use and boundary without claiming phrase fixedness."
+    }
+  ],
+  "excludedAfterScreen": [
+    {
+      "sourceOrdinal": 2130,
+      "reason": "Source group/their mind agreement is awkward, and canonical859 settle down already tests becoming calmer and ready to focus; separate lesson would repeat the learner decision."
+    },
+    {
+      "sourceOrdinal": 2401,
+      "reason": "Dictionary meaning of tighten the screws is pressure or threats on someone; source applies it to suspense, so source-sense transfer is not clear enough to promote."
+    },
+    {
+      "sourceOrdinal": 2594,
+      "reason": "Servant/poor-master maxim is near selected owner2457; owner adjudication needed rather than duplicate lesson."
+    },
+    {
+      "sourceOrdinal": 2966,
+      "reason": "All glitter and no substance has the same appearance-versus-value decision as selected owner2961 more show than substance."
+    }
+  ],
+  "checks": {
+    "focusedBuild": "2 lessons, 12 questions, 8 audio requests, zero review flags after revisions 2",
+    "focusedCheck": "passed after refreshed generated output",
+    "exactSourceExpressionAndSentence": 2,
+    "sourceRegexFullSentenceMatches": 2,
+    "otherDiscoveredDetectorsMatchingFullSource": 0,
+    "targetBearingCorrectReplySceneDialogueListeningSpeakingWriting": "2/2 lessons",
+    "fourIndependentlyValidReplies": "AI author read each response against the prompt; independent reviewer should confirm fairness",
+    "speakingSpansExact": 2,
+    "writingExamplesTargetBearingAndPromptAligned": 4,
+    "glossaryRows": 10,
+    "glossaryRowsExactAnswerDerivedNonTarget": 10,
+    "fourDistinctAudioTextsPerLesson": 2,
+    "sixTokenGuideSentenceOverlaps": 0,
+    "englishFieldHanLeakage": 0,
+    "selectedManifestEdited": false,
+    "editorialDecisionFilesEdited": false,
+    "published": false
+  },
+  "riskNotes": [
+    "2507 uses a literary, figurative expression; independent reviewer should judge whether its seven decisions are sufficiently transferable without overstating fixed-idiom status.",
+    "2750 is lexical rather than idiomatic; independent reviewer should judge seven-step instructional value and ensure keepsake is not treated as mutually exclusive with souvenir.",
+    "No human editorial, listening, browser or release approval is claimed."
+  ],
+  "independentRepair": {
+    "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2507-2750-b.json",
+    "priorReviewSha256": "53032598f1393ea967bada1cb63c4e78802da096061b1e598e9591bd4ed96191",
+    "resolvedFindings": [
+      "R2507-01",
+      "R2507-02",
+      "R2750-01"
+    ],
+    "lessonContentRevisions": {
+      "2507": 2,
+      "2750": 2
+    },
+    "details": "2507 reply D now creates a dated cue list before confirmation; Step 3 assesses exhausted memory and a note-taking support; 2750 writing model 2 thanks the host and aligns Traditional Chinese, with recalculated exact glossary spans."
+  }
+}

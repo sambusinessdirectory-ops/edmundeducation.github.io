@@ -1,0 +1,182 @@
+{
+  "reviewId": "author-alias-wave-3001-3900-six-b",
+  "status": "provisional_pending_independent_review",
+  "scope": "six held source ordinals in 3001–3900; selected manifest unchanged",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "gitHeadBeforeEdits": "e2373e90 checkpoint plus concurrent disjoint agent work",
+  "fileSha256": {
+    "course-materials/advanced-native/batches/batch-0276-0300.json": {
+      "beforeHead": "67897dd74d5304704af2d2b9de35244ace500c7fb3fbde3ef580c0609838f339",
+      "afterWorkingTree": "9d89b133bfc56577e7529b966a3d3d43f2f3a6e6cd778cc0c668158d99cacaff"
+    },
+    "course-materials/advanced-native/batches/batch-1326-1350.json": {
+      "beforeHead": "685b645879abbf1fe655dd465d4ece563e212839c2872df11d2c7eef8ef6b1e0",
+      "afterWorkingTree": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d"
+    },
+    "course-materials/advanced-native/batches/batch-1701-1725.json": {
+      "beforeHead": "decc831dbf9f5e2957c88780c0e92f45a1e06018f4a953b115547024427b6e93",
+      "afterWorkingTree": "7d4ef472c0833048d9401ab1eaced0efc747d28fe9487ff8de016f29d93067e3"
+    },
+    "course-materials/advanced-native/batches/batch-1901-1925.json": {
+      "beforeHead": "3c9859a166b43ef53f36094209e1e7df45304a78867616d2f0a2c541f5593ff7",
+      "afterWorkingTree": "14776db97b643f51b93aa2f7b78b2d70f7299cf85fa94c8953c34aea819a8306"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": {
+      "beforeHead": "32a8aeb4ec850841db14ceb2b954a7ee11dbaca298e8bc6a13aed169cc4da492",
+      "afterWorkingTree": "be78dc3ab0b1d75e8d355b5bb14d3db8982aabb5b4416376f9521c413ebce3c4"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": {
+      "beforeHead": "6a2a240a3981ca4ac0a75838f06e7f54457f8a30736e3435a7694a4b4c9e7a0e",
+      "afterWorkingTree": "7dfdaf33ec9227875900483f2284f185a7e9356ead766313edb0e81d67c37487"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": {
+      "beforeHead": "1870715a5ad6aa5e6364a55814c6a056dab5cc7f706e1674b3fc56aae33b8404",
+      "afterWorkingTree": "f4d224bd48d3a79739488e746c188b781d32ecef8e3af352a091f954392a7d24"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": {
+      "beforeHead": "15af140c61d6009835b8a16831533517090ec1f057cec4081fbbad2b2f4d6a31",
+      "afterWorkingTree": "38f4297bd50ac7b94f3262794240f08958e4388d328641bfcc9d48e88f5cee4a"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": {
+      "beforeHead": "2192d51ed6839c76275f42ae2b84d5740130e2b6d763288e61a7c9eaffa5e30a",
+      "afterWorkingTree": "9bb2b9ecc0a0d43e92bf4db295ddedb4cea9770754220b2ba618a7d190520b00"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": {
+      "beforeHead": "eba01974df277cacb4a036f3e3b3fb80a5deff71158c02c12e63dbc119d651e0",
+      "afterWorkingTree": "e36a04a87e7fd90d22e14f72dbde05b8faf670190781dc6bd259bad911964498"
+    },
+    "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json": {
+      "beforeHead": "884ce8c62cd2ff26c8f963e6fb67ce5954be805aed5e605f867101feb21097df",
+      "afterWorkingTree": "ecb4b9e965758d9d5fdd33db80db596b869d020641c32d9fc7dfb300e022f19d"
+    }
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3031,
+      "sourceId": "book10-16-0920",
+      "expression": "changes its clothes",
+      "sourceExample": "Creativity changes its clothes as people grow older.",
+      "sourceMeaning": "Takes a different form without disappearing; a clothing personification.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionRowSha256": "2da0946cf490e9bfcb9e994bd7e933177c5a4328308d0b79df6c29bb589c8826",
+      "action": "proposed-alias-existing",
+      "owner": "advanced-native-1706",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "ownerContentRevision": 2,
+      "ownerMeaningEn": "Remain essentially the same while appearing in a different form.",
+      "ownerTargetPattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b",
+      "fullSourceMatch": "changes its clothes",
+      "provenanceExact": true
+    },
+    {
+      "sourceOrdinal": 3753,
+      "sourceId": "book10-16-1642",
+      "expression": "changed its clothes",
+      "sourceExample": "The habit changed its clothes when it moved online.",
+      "sourceMeaning": "Took a different outward form without disappearing; a clothing metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionRowSha256": "fd1e50374b77be8cc5d5e0e24fa18027f193b92c7bae9d12d6d204206f2174a7",
+      "action": "proposed-alias-existing",
+      "owner": "advanced-native-1706",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "ownerContentRevision": 2,
+      "ownerMeaningEn": "Remain essentially the same while appearing in a different form.",
+      "ownerTargetPattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b",
+      "fullSourceMatch": "changed its clothes",
+      "provenanceExact": true
+    },
+    {
+      "sourceOrdinal": 3350,
+      "sourceId": "book10-16-1239",
+      "expression": "a bit like a compass",
+      "sourceExample": "A good mentor is a bit like a compass.",
+      "sourceMeaning": "A source of direction rather than someone who walks for the learner; a navigation metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionRowSha256": "d08d9084c85d99780b2b472b41f7ddac5b8447f69ab819c9fae52780bf8c35e5",
+      "action": "proposed-alias-existing",
+      "owner": "advanced-native-1913",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "ownerContentRevision": 2,
+      "ownerMeaningEn": "Provide orientation or guidance that helps someone consider a direction without making every decision for them.",
+      "ownerTargetPattern": "\\b(?:act(?:s|ed|ing)? like|(?:is|are|was|were) a bit like) a compass\\b",
+      "fullSourceMatch": "is a bit like a compass",
+      "provenanceExact": true
+    },
+    {
+      "sourceOrdinal": 3597,
+      "sourceId": "book10-16-1486",
+      "expression": "pass knowledge on",
+      "sourceExample": "Teachers pass knowledge on to each new class.",
+      "sourceMeaning": "Transmit knowledge to later learners; a common phrasal verb.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionRowSha256": "c4b768583551a99d191d79771d10a7f4f5f32b998a2e1904500d1bfd2228cc10",
+      "action": "proposed-alias-existing",
+      "owner": "advanced-native-1326",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "ownerContentRevision": 4,
+      "ownerMeaningEn": "Transmit knowledge, beliefs, experience, customs or remembered stories to other people, often by teaching, telling or showing them.",
+      "ownerTargetPattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b|\\bpass(?:es|ed|ing)? (?:knowledge on|on knowledge)\\b",
+      "fullSourceMatch": "pass knowledge on",
+      "provenanceExact": true
+    },
+    {
+      "sourceOrdinal": 3669,
+      "sourceId": "book10-16-1558",
+      "expression": "swing the other way",
+      "sourceExample": "Strict control can make teenagers swing the other way.",
+      "sourceMeaning": "React by moving to the opposite extreme; a conventional movement phrase.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "decisionRowSha256": "7257c658e91decf4f867e36dd5f578e515d4815567cd5e8c51a6a0cccd6fe260",
+      "action": "proposed-alias-new",
+      "owner": "advanced-native-3124",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json",
+      "ownerContentRevision": 3,
+      "ownerMeaningEn": "Move abruptly to an opposing excessive position, sometimes in reaction to the first extreme, instead of finding a balanced middle.",
+      "ownerTargetPattern": "\\b(?:swing|swings|swung|swinging) from one extreme to another\\b|\\b(?:teenagers?|people|groups?|teams?|committees?|policies|rules|opinions|schools?|organisations?)\\s+(?:(?:may|can|might|could|will|would|often|sometimes)\\s+)?(?:swing|swings|swung|swinging) the other way\\b",
+      "fullSourceMatch": "teenagers swing the other way",
+      "provenanceExact": true
+    },
+    {
+      "sourceOrdinal": 3832,
+      "sourceId": "book10-16-1721",
+      "expression": "pushed to the side",
+      "sourceExample": "Mental wellbeing is too often pushed to the side.",
+      "sourceMeaning": "Given less attention than deserved; a natural phrasal pattern.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionRowSha256": "c4a0180dbd9b0469dfbb095471948c5dd48f41daaa7efc2497f2c0a2f5d8cb52",
+      "action": "proposed-alias-existing",
+      "owner": "advanced-native-287",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "ownerContentRevision": 5,
+      "ownerMeaningEn": "Made less visible, influential or central in an activity or discussion.",
+      "ownerTargetPattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b",
+      "fullSourceMatch": "pushed to the side",
+      "provenanceExact": true
+    }
+  ],
+  "controls": {
+    "nativeJsPositive": 15,
+    "nativeJsNegative": 15,
+    "failures": 0,
+    "script": "/private/tmp/author-b-alias-wave1-controls.mjs"
+  },
+  "focusedBuildCheck": {
+    "lessons": 97,
+    "questions": 582,
+    "audioRequests": 388,
+    "reviewFlags": 0,
+    "result": "build and --check passed"
+  },
+  "globalChecks": {
+    "newAliasAudit": "177/177 matched, zero exceptions",
+    "holdCoverage": "698 current holds, zero unaudited at verifier checkpoint",
+    "fullVerifier": "passed after concurrent A owner registration: 2604 decisions, 588 drafts, 3528 questions, 2352 audio requests, zero schema/alias exceptions; unpublished",
+    "gitDiffCheck": "passed"
+  },
+  "materialLimits": [
+    "Regexes enforce phrase form, not full semantic context; literal uses of pushed to the side and creative compass/clothes expressions still require context.",
+    "Owner3124 swing-the-other-way branch is restricted to human/institutional subjects to reject swinging-door controls.",
+    "Source3998 and 4234 are exact repeats outside this agent’s decision range; Pilot will consider their decisions after owner freeze."
+  ],
+  "release": "unselected/unpublished; no media or human listening approval"
+}

@@ -1,0 +1,54 @@
+{
+  "reviewKind": "independent AI focused owner-alias review",
+  "reviewedAuthorAudit": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-3001-3900-six-b.json",
+  "reviewedAuthorAuditSha256": "761f2b8b7fb0a74f1af317cea6e796e9a9aceedac753143343832bf1692b0449",
+  "status": "content-clear for provisional editorial use; no human or release approval",
+  "sourceOrdinals": [
+    3031,
+    3753,
+    3350,
+    3597,
+    3669,
+    3832
+  ],
+  "files": {
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "9d89b133bfc56577e7529b966a3d3d43f2f3a6e6cd778cc0c668158d99cacaff",
+    "course-materials/advanced-native/batches/batch-1326-1350.json": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d",
+    "course-materials/advanced-native/batches/batch-1701-1725.json": "7d4ef472c0833048d9401ab1eaced0efc747d28fe9487ff8de016f29d93067e3",
+    "course-materials/advanced-native/batches/batch-1901-1925.json": "4d57125ed5e6ff23880122ca1108ce3f878998abfc89fae349510806f1092535",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "be78dc3ab0b1d75e8d355b5bb14d3db8982aabb5b4416376f9521c413ebce3c4",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "7dfdaf33ec9227875900483f2284f185a7e9356ead766313edb0e81d67c37487",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": "f4d224bd48d3a79739488e746c188b781d32ecef8e3af352a091f954392a7d24",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "38f4297bd50ac7b94f3262794240f08958e4388d328641bfcc9d48e88f5cee4a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "a469fc6d0f4a960f0b37bebcb604d802d10a34ea66fc0096112864543cac1777",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": "e36a04a87e7fd90d22e14f72dbde05b8faf670190781dc6bd259bad911964498",
+    "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json": "ecb4b9e965758d9d5fdd33db80db596b869d020641c32d9fc7dfb300e022f19d"
+  },
+  "checks": {
+    "allFileHashesMatchFrozenAudit": false,
+    "sourceInventoryExampleAndMetadataMatch": 6,
+    "fullSourceDetectorMatches": 6,
+    "decisionOwnerActionsMatch": 6,
+    "ownerSenseAssessment": "1706 outward-form continuity; 1913 direction without deciding for learner; 1326 transmission of knowledge; 3124 opposite excessive reaction; 287 relegation/neglect are supported by exact source and owner meanings",
+    "targetFalsePositiveAssessment": "Bounded subject list controls 3124 literal swinging; source context remains necessary for metaphor/literal ambiguity in 1706,1913,287. No blocking false positive found in this scope.",
+    "changedAssessedKeys": "Inspected changed owner keys and EN/ZH against source/brief; no unsupported or conflicting answer found.",
+    "authorFocusedBuildCheck": {
+      "lessons": 97,
+      "questions": 582,
+      "audioRequests": 388,
+      "reviewFlags": 0,
+      "result": "build and --check passed"
+    },
+    "authorNativeControls": {
+      "nativeJsPositive": 15,
+      "nativeJsNegative": 15,
+      "failures": 0,
+      "script": "/private/tmp/author-b-alias-wave1-controls.mjs"
+    }
+  },
+  "findings": [],
+  "limits": [
+    "Regex form match is not sufficient to distinguish figurative from literal readings for clothes, compass, or pushed to the side; downstream editorial routing must retain semantic context.",
+    "This is an AI peer review, not human approval or release clearance."
+  ]
+}

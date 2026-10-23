@@ -1872,11 +1872,12 @@
       "titleEn": "a pulse of its own",
       "titleZh": "獨有的生氣與節奏",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\ba pulse of (?:its|their|our) own\\b",
+        "pattern": "\\ba\\s+(?:pulse|heartbeat)\\s+of\\s+(?:its|their|our)\\s+own\\b",
         "glossaryForbidden": [
-          "\\bpulse\\b"
+          "\\bpulse\\b",
+          "\\bheartbeat\\b"
         ]
       },
       "sources": [
@@ -1892,14 +1893,28 @@
           "sentence": "The street performance has a pulse of its own.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a pulse of its own"
+        },
+        {
+          "occurrenceId": "book10-16-0651",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The small venue seemed to have a heartbeat of its own.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a heartbeat of its own"
         }
       ],
       "brief": {
-        "meaningEn": "A distinctive sense of energy, movement or rhythm in a place, event or group.",
-        "meaningZh": "地方、活動或群體獨特的活力、動感或節奏。",
-        "grammar": "have/develop a pulse of its own; pulse is a life/rhythm image, not necessarily a measured beat or loud sound. State what contributes to the distinctive energy.",
+        "meaningEn": "A distinctive sense of energy, movement or rhythm in a place, event or group; heartbeat is a close life-image variant of pulse.",
+        "meaningZh": "地方、活動或群體獨特的活力、動感或節奏；heartbeat 是與 pulse 相近的生命節奏意象。",
+        "grammar": "have/develop a pulse or heartbeat of its own. Both are figurative life/rhythm images, not necessarily a measured beat or loud sound. State what contributes to the distinctive energy.",
         "register": "Creative pulse metaphor. Quiet interaction can also have energy; the image does not prove popularity, quality or unanimous enjoyment.",
-        "boundaryZh": "獨有生氣需以具體互動或節奏支持，不只計音量或人數，也不推人人都喜歡。",
+        "boundaryZh": "獨有生氣須以具體互動或節奏支持，不只計音量或人數；heartbeat 不是說建築真的有心跳，也不推論人人喜歡。",
         "misconceptionZh": "有自己節奏不表示完全不受外界影響；不同元素可共同形成特色。",
         "outcomeZh": "能描述觀察到的活力及特色，不把比喻當量度資料。"
       },
@@ -1967,8 +1982,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "The group has a pulse of its own through the changing visual exchange, even without much sound.",
-            "zh": "即使聲音不多，小組仍透過變化的視覺交流有獨有生氣。"
+            "en": "The group has a heartbeat of its own as members respond to one another’s marks, even in silence.",
+            "zh": "成員互相回應彼此的筆觸；即使安靜，小組仍形成獨有的生命節奏。"
           },
           {
             "id": "choice-2",
@@ -1982,7 +1997,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "輪流加色及回應已是活的交流，不需大音量，也不是各畫各的。"
+        "explanationZh": "輪流加色及回應已形成獨有的生命節奏，不需大音量；heartbeat 是比喻，不表示各人各畫各的。"
       },
       "contrast": {
         "promptEn": "",

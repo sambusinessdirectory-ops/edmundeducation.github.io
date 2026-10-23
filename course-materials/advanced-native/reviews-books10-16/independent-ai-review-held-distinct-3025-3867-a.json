@@ -1,0 +1,30 @@
+{
+  "status": "independent-ai-content-review-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3025-3867-b.json",
+  "draftSha256": "01ee5e98fdae587c0df4b7120dbfb062855ffe5809c0905e4d483e38706fbfdf",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-3025-3867-b.json",
+  "authorAuditSha256": "63a82a78e21e06a5938c608e6d5e226b2d40e2788d42c0ffc11d91fbdc8518dd",
+  "scope": "Read-only focused review of source expressions and meanings, briefs, six keyed questions, four valid replies, and final writing models across all eight lessons. The author independently reported focused structural build/check 8/48/32/0. This report is neither a media nor a release approval.",
+  "reviewedOrdinals": [3025, 3123, 3148, 3276, 3414, 3504, 3656, 3867],
+  "findings": [
+    {
+      "id": "R3656-01",
+      "severity": "major",
+      "lesson": 3656,
+      "fields": ["reply.options[a].en", "reply.options[a].zh", "reply.options[b].en", "reply.options[b].zh"],
+      "problem": "The prompt asks what the speaker can tell their partner about helping their daughter. Options A and B directly address the daughter as 'you/你', while C and D answer the partner. Thus A and B are not independently valid replies to the stated listener.",
+      "suggestedRepair": "Recast A and B as suggestions to the partner about what the daughter may choose, with faithful Traditional Chinese, retaining four different valid replies and one target-bearing golden reply."
+    }
+  ],
+  "lessonResults": [
+    {"ordinal": 3025, "status": "no-material-issue-found-in-focused-review"},
+    {"ordinal": 3123, "status": "editorial-naturalness-owner-hold", "note": "The fixed construction 'blow about like a weather vane' is source-backed but unusually awkward as a transferable target. Author B reports it will withdraw this provisional owner pending editorial decision."},
+    {"ordinal": 3148, "status": "no-material-issue-found-in-focused-review"},
+    {"ordinal": 3276, "status": "no-material-issue-found-in-focused-review"},
+    {"ordinal": 3414, "status": "no-material-issue-found-in-focused-review"},
+    {"ordinal": 3504, "status": "no-material-issue-found-in-focused-review"},
+    {"ordinal": 3656, "status": "repair-needed"},
+    {"ordinal": 3867, "status": "no-material-issue-found-in-focused-review"}
+  ],
+  "selectionRecommendation": "Keep this original eight-lesson hash unselected. Recheck revised 3656 replies and seven-lesson composition at exact final hashes; hold withdrawn 3123 separately."
+}

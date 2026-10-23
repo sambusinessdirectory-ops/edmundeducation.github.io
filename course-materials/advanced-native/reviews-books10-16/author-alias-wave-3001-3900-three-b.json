@@ -1,0 +1,110 @@
+{
+  "reviewId": "author-alias-wave-3001-3900-three-b",
+  "status": "provisional_pending_independent_review",
+  "scope": "three held source ordinals 3296,3703,3768; owner and decision edits only; selected manifest unchanged",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "fileSha256": {
+    "course-materials/advanced-native/batches/batch-0551-0575.json": {
+      "headBeforeWave": "5dce1452a302a67b6b18d1aa49b3df8a67583d387907d99cc4af291155cda308",
+      "current": "8bc703bfb65dd024f0d0fdb8c2ae7d30d083656bee7aeae4cc9fac2efa9e7de7"
+    },
+    "course-materials/advanced-native/batches/batch-1876-1900.json": {
+      "headBeforeWave": "05bc229c93a2d3ce9d3f383358a7240c1c296411850a066f58b8ed41cfe6434c",
+      "current": "d3b50ae94c7c19b627b7e4d5edcf50a4dc8ad0fa9fe0e22e1ab03f150db633e3"
+    },
+    "course-materials/advanced-native/batches/batch-1901-1925.json": {
+      "headBeforeWave": "3c9859a166b43ef53f36094209e1e7df45304a78867616d2f0a2c541f5593ff7",
+      "current": "4d57125ed5e6ff23880122ca1108ce3f878998abfc89fae349510806f1092535"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": {
+      "headBeforeWave": "4a6e11d395461314c2022a6d2b10ff23f29f6499cb5782c6a501e646e166f1d1",
+      "current": "0c7e062b9c5686d1419d163b7186a6d686c986a456918a719f8fdd3952383d65"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl": {
+      "headBeforeWave": "4c2affff92722ee7f7ce76f4a65fa8b91f804a8d61d990658e30eff83bba536c",
+      "current": "63a097fa429c23df1009cf433690d3f711bc174f2d27cd5fb3ce33bcf85f89c6"
+    },
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": {
+      "headBeforeWave": "2192d51ed6839c76275f42ae2b84d5740130e2b6d763288e61a7c9eaffa5e30a",
+      "current": "e9f9ee3e41d1b371417e3663e30f899a31f27ec4f3d248939afdb382cb4c6876"
+    }
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3296,
+      "sourceId": "book10-16-1185",
+      "expression": "guessing in the dark",
+      "sentence": "The notes stop students guessing in the dark.",
+      "guideMeaning": "Trying to answer without enough information; a fixed darkness metaphor.",
+      "ownerId": "advanced-native-1916",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "ownerContentRevision": 2,
+      "ownerMeaningEn": "Try to understand, answer or proceed without enough information, examples or guidance.",
+      "targetPattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b",
+      "fullSourceMatch": "guessing in the dark",
+      "provenanceExact": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionRowSha256": "0891821f66ae7be48533da67af8ca9a9161c902abbdedd826212bb667f44a223"
+    },
+    {
+      "sourceOrdinal": 3703,
+      "sourceId": "book10-16-1592",
+      "expression": "novelty wears off",
+      "sentence": "The device gathered dust once the novelty wears off.",
+      "guideMeaning": "The excitement of newness fades; a fixed clothing metaphor.",
+      "ownerId": "advanced-native-568",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "ownerContentRevision": 3,
+      "ownerMeaningEn": "The initial excitement, novelty or attraction fades after someone becomes familiar with the experience, object or its difficulties.",
+      "targetPattern": "\\bthe shine (?:soon )?(?:wears|wore|can wear|has worn) off\\b|\\bthe novelty (?:wears|wore|can wear|has worn) off\\b",
+      "fullSourceMatch": "the novelty wears off",
+      "provenanceExact": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionRowSha256": "f9953b9f30fada97f5e4224cb5cc4638c47b65f5becfd60f0d3f99386972a80c"
+    },
+    {
+      "sourceOrdinal": 3768,
+      "sourceId": "book10-16-1657",
+      "expression": "get its foot in the door",
+      "sentence": "A catchy advert may get its foot in the door.",
+      "guideMeaning": "Gain an initial chance to influence someone; a fixed foot idiom.",
+      "ownerId": "advanced-native-1892",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1876-1900.json",
+      "ownerContentRevision": 2,
+      "ownerMeaningEn": "An initial opportunity to enter a field, organisation or activity, or to gain someone’s attention, without guaranteeing a lasting position or influence.",
+      "targetPattern": "\\b(?:a|its) foot in the door\\b",
+      "fullSourceMatch": "its foot in the door",
+      "provenanceExact": true,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionRowSha256": "c605ba4a98d9c494c271646d9b88a81874c391b2b863b143d394dfe31ae68589"
+    }
+  ],
+  "controls": {
+    "nativeJsPositive": 9,
+    "nativeJsNegative": 9,
+    "failures": 0,
+    "script": "/private/tmp/author-b-alias-wave2-controls.mjs"
+  },
+  "focusedBuildCheck": {
+    "lessons": 65,
+    "questions": 390,
+    "audioRequests": 260,
+    "reviewFlags": 0,
+    "buildAndCheck": "passed"
+  },
+  "fullVerifier": {
+    "sourceRows": 2604,
+    "selectedDrafts": 588,
+    "questions": 3528,
+    "audioRoles": 2352,
+    "schemaErrors": 0,
+    "aliasExceptions": 0,
+    "published": false
+  },
+  "sourceGrammarNote3703": "The exact guide sentence mixes gathered (past) with wears (present); provenance is verbatim, while the owner grammar and takeaway model the aligned past wore off. This source weakness remains visible for independent editorial judgment.",
+  "materialLimits": [
+    "Phrase detectors are lexical; context must still distinguish literal darkness, physical shine, and an actual foot/door from figurative use.",
+    "Advert its foot in the door is a personified extension of an initial chance to influence, not a guarantee of purchase."
+  ],
+  "release": "unpublished; no listening or deployment claim"
+}

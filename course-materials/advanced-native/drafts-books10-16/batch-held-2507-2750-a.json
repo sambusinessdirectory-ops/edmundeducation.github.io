@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-distinct-2507-2750-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2507",
+      "number": 2507,
+      "inventoryId": "expr-2507",
+      "contentRevision": 2,
+      "titleEn": "write on water",
+      "titleZh": "像在水上寫字，無法留下持久痕跡",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:write|writes|wrote|written|writing)\\s+(?:on|in)\\s+water\\b",
+        "glossaryForbidden": [
+          "\\bwrit(?:e|es|ing|ten)\\s+(?:on|in)\\s+water\\b",
+          "\\bwrote\\s+(?:on|in)\\s+water\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0396",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "78–80",
+          "locatorNote": "DOCX table 32, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Trying to remember every detail while exhausted is like trying to write on water.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "write on water"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Compare an effort to marking water when its result cannot be retained long enough for its purpose.",
+        "meaningZh": "把一項努力比作在水上寫字，指其成果無法保存至原定用途所需的時間。",
+        "grammar": "Write/writing on water, or written in water, is a literary simile or metaphor; often use like/as if to frame an attempt whose trace quickly vanishes. Name the intended record and why it will not last.",
+        "register": "Literary and reflective rather than routine administrative language. A volunteer may use it in a reflective note; a teacher should explain the concrete information loss alongside the image.",
+        "boundaryZh": "不表示努力本身必然無價值，也不是只因工具價格低；關鍵是所需痕跡無法留到日後使用。",
+        "misconceptionZh": "這是易逝的比喻，不要求真的在水面寫字；若訊息本來只用於當下，暫時保存未必構成問題。",
+        "outcomeZh": "能說明原本想保存甚麼、為何痕跡會消失，以及何種更可靠的紀錄可補救。"
+      },
+      "listening": {
+        "en": "Our community archive put interview notes into an app that deletes each draft at midnight. For a record we need next month, that is like writing on water; we should export the notes before they disappear.",
+        "zh": "社區檔案組把訪談筆記放進每天午夜刪除草稿的程式。那些紀錄下月還要用，這做法就像在水上寫字；我們應在筆記消失前匯出。",
+        "promptZh": "說話者為何把現有記錄方式比作在水上寫字？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notes disappear before the archive needs to consult them again.",
+            "zh": "筆記在檔案組下次需要查閱前便消失。"
+          },
+          {
+            "id": "b",
+            "en": "The interviews took place beside a river.",
+            "zh": "訪談在河邊進行。"
+          },
+          {
+            "id": "c",
+            "en": "The app stores permanent copies that everyone can retrieve next month.",
+            "zh": "程式保存永久副本，人人下月都可取回。"
+          },
+          {
+            "id": "d",
+            "en": "The group only needs the notes until tonight and has no later use for them.",
+            "zh": "小組只須在今晚前使用筆記，以後再無用途。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說筆記下月還要用，草稿卻在午夜消失；比喻指所需紀錄不能留下，不是實際在水邊書寫。"
+      },
+      "reply": {
+        "promptEn": "The theatre crew needs cue changes next week, but their current chat removes messages after one day. How should we keep the changes available?",
+        "promptZh": "劇團下星期仍要查看提示改動，但現用聊天室一天後便刪除訊息。我們應怎樣保留改動？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Put the changes in a dated shared cue sheet before the messages expire.",
+            "zh": "在訊息失效前，把改動寫進有日期的共用提示表。"
+          },
+          {
+            "id": "b",
+            "en": "Export today’s messages into the production folder so next week’s crew can check them.",
+            "zh": "把今天的訊息匯出到製作資料夾，讓下周團隊核對。"
+          },
+          {
+            "id": "c",
+            "en": "Leaving the only record in that chat would be like writing on water; let us copy each change into the cue sheet.",
+            "zh": "只把紀錄留在該聊天室，就像在水上寫字；我們把每項改動抄進提示表吧。"
+          },
+          {
+            "id": "d",
+            "en": "Ask the stage manager to create a dated cue list from today’s chat, then confirm it with the crew before rehearsal.",
+            "zh": "請舞台監督先按今天的聊天室內容製作有日期的提示表，再於排練前與團隊確認。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可保留下周所需資料；金句另外用易逝比喻說明為何不能只靠自動刪除的聊天室。"
+      },
+      "scene": {
+        "promptZh": "長途車程後，一名學生十分疲倦；導賞剛提到三個歷史日期，她明天須準確報告，但此刻記不牢。她現在可以簡記日期。哪句最能說明記憶上的困難與下一步？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Trying to keep all three dates in an exhausted mind is like writing on water; she should jot them down for tomorrow.",
+            "zh": "疲倦時硬記三個日期就像在水上寫字；她應把日期簡記下來，留待明天使用。"
+          },
+          {
+            "id": "b",
+            "en": "Because she understood the dates when she heard them, she is certain to recall all three tomorrow without a note.",
+            "zh": "因為聽到時她明白了日期，所以不記下來也必定能在明天準確記起三個日期。"
+          },
+          {
+            "id": "c",
+            "en": "The guide must have given the wrong dates, so she should leave them out rather than check or record them.",
+            "zh": "導賞員一定說錯了日期，所以她應完全不提，也不必核對或記錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "疲倦令眼前聽懂的日期難以留到明天；簡記可保留日後要用的資料。題目沒有證據說導賞員講錯，也不保證不記仍記得。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不宜單憑 write on water 這個比喻作出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some information or result was meant to remain available later.",
+            "zh": "原本希望某些訊息或成果日後仍可用。"
+          },
+          {
+            "id": "b",
+            "en": "The method makes the trace disappear too soon.",
+            "zh": "保存方式使那道痕跡很快失去。"
+          },
+          {
+            "id": "c",
+            "en": "The effort could not have had any immediate value.",
+            "zh": "這項努力一定沒有帶來任何即時價值。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "比喻指出難以留下持久痕跡，不排除努力在當下仍有幫助。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「上次社區會議只口頭說了值班調整；明天的新一組人仍要照表工作，卻找不到紀錄。」乙怎樣回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "If the next team needs the details, leaving them unrecorded is like writing on water; let us make dated minutes.",
+            "zh": "下一組仍需細節，只口頭說而不記錄就像在水上寫字；我們做有日期的會議紀錄吧。"
+          },
+          {
+            "id": "b",
+            "en": "The spoken change is already a permanent record, so the next team can check it any time.",
+            "zh": "口頭改動已是永久紀錄，下一組隨時可查。"
+          },
+          {
+            "id": "c",
+            "en": "The next team has no need for the schedule, so losing the details does not matter.",
+            "zh": "下一組不需要值班表，所以細節遺失也無妨。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "下組明天仍需改動細節，口頭說明未能保存；金句提出有日期的紀錄，不否定當次討論的價值。"
+      },
+      "speaking": {
+        "en": "Relying on a disappearing message for the exhibition inventory would be like writing on water, so I will save a dated copy.",
+        "zh": "若展覽清單只留在會消失的訊息中，就像在水上寫字，所以我會存有日期的副本。",
+        "promptZh": "先聽示範，再說明哪份清單需要可靠保留。",
+        "targetSpan": {
+          "start": 77,
+          "end": 93
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型博物館把捐贈物的日期和原主人姓名只印在會逐漸褪色的熱感紙收據上。半年後研究員仍要核對來源。用一至兩句英文寫一則建議：承認現時收件工作有用，指出唯一紀錄難以留存，並提出有日期和捐贈者資料的長期保存方法。",
+        "selfCheckZh": "須指出收件紀錄半年後仍要用、熱感紙會褪色，並建議有日期和捐贈者資料的可靠存檔；不把當時收件工作說成毫無用處。",
+        "examples": [
+          {
+            "en": "The receipts helped staff log each donation, but keeping the only dates and donor names on fading thermal paper is like writing on water. We should scan each receipt into a dated archive before the print disappears.",
+            "zh": "收據幫職員登記每件捐贈物，但若日期和捐贈者姓名只留在會褪色的熱感紙上，就像在水上寫字。我們應在字跡消失前掃描每張收據，存入有日期的檔案。"
+          },
+          {
+            "en": "Our intake work matters, yet the donor details may be written on water if the thermal receipts fade before next term’s research. A digital record with the date and donor’s name would preserve the evidence.",
+            "zh": "目前的收件工作有價值，但若熱感紙收據在下學期研究前褪色，捐贈者資料就可能像寫在水上。載有日期和捐贈者姓名的電子紀錄，才可保存依據。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "each donation",
+            "zh": "每件捐贈物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 43
+            }
+          },
+          {
+            "en": "donor names",
+            "zh": "捐贈者姓名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 87
+            }
+          },
+          {
+            "en": "fading thermal paper",
+            "zh": "會褪色的熱感紙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 111
+            }
+          },
+          {
+            "en": "the donor details",
+            "zh": "捐贈者資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 46
+            }
+          },
+          {
+            "en": "A digital record",
+            "zh": "電子紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "If equipment checks are recorded only on fading stickers, the audit trail may be like writing on water.",
+          "zh": "若設備檢查只記在會褪色的貼紙上，日後的查核紀錄可能像在水上寫字般難以保存。"
+        },
+        {
+          "en": "Save the field measurements before the temporary display closes; otherwise the work may be written in water.",
+          "zh": "臨時顯示畫面關閉前先存下實地量度值，否則工作成果可能難以保存。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI author self-check complete; independent source, language, media, browser and release review pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-2750",
+      "number": 2750,
+      "inventoryId": "expr-2750",
+      "contentRevision": 2,
+      "titleEn": "keepsake",
+      "titleZh": "承載個人回憶的紀念物",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bkeepsakes?\\b",
+        "glossaryForbidden": [
+          "\\bkeepsakes?\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0639",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "47–48",
+          "locatorNote": "DOCX table 54, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The signed disc became a keepsake.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keepsake"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A physical object kept because it reminds someone of a person, place or occasion, rather than mainly for its practical or resale value.",
+        "meaningZh": "因令人想起某個人、地方或時刻而保存的實物，主要價值不在實用或轉售。",
+        "grammar": "Keepsake is a count noun: a keepsake, the keepsake, or keepsakes; often a keepsake from/of an occasion or person. A souvenir can also become a keepsake if it carries a personal memory.",
+        "register": "Warm, ordinary noun. A family member may explain why a small object is kept; an archivist may ask whose memory it represents rather than assume every old item is sentimental.",
+        "boundaryZh": "物件不必昂貴、古老或獲贈；但只因實用而保存的工具，未必是 keepsake。紀念品亦可能同時是 keepsake。",
+        "misconceptionZh": "不要把 keepsake 一概等同貴重收藏品；要交代它連繫的具體人物或時刻。",
+        "outcomeZh": "能以具體回憶說明一件實物為何值得留下，並分清記念價值與實用價值。"
+      },
+      "listening": {
+        "en": "Mina kept the paper badge from her first community play, even though it no longer opened any doors. It became a keepsake because it reminded her of rehearsing with her brother.",
+        "zh": "Mina 留下首次參與社區話劇時的紙襟章，雖然它已不能開任何門。它成了紀念物，因為會令她想起與哥哥排練的日子。",
+        "promptZh": "Mina 為何仍保留那枚已無實際用途的襟章？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminds her of rehearsing with her brother in her first play.",
+            "zh": "它令她想起首次演出時與哥哥排練。"
+          },
+          {
+            "id": "b",
+            "en": "It still opens the theatre doors for every future show.",
+            "zh": "它仍可為之後每場演出打開劇院大門。"
+          },
+          {
+            "id": "c",
+            "en": "She keeps it mainly because its resale price is high.",
+            "zh": "她主要因轉售價高而留下它。"
+          },
+          {
+            "id": "d",
+            "en": "It is the only remaining copy of the theatre’s emergency key.",
+            "zh": "它是劇院緊急鑰匙僅存的副本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音明說襟章沒有開門用途，留下來是因與哥哥排練的回憶；沒有提轉售價格或鑰匙。"
+      },
+      "reply": {
+        "promptEn": "Why did you keep the hand-drawn map from our hill walk? It cannot guide us now, but your friend drew it for that day.",
+        "promptZh": "你為何留下那次行山的手繪地圖？它現在不能帶路，但那是朋友為當天畫的。",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a keepsake from that walk and reminds me how my friend planned our route.",
+            "zh": "它是那次行山的紀念物，令我想起朋友如何安排路線。"
+          },
+          {
+            "id": "b",
+            "en": "I kept it to remember the route my friend drew for us.",
+            "zh": "我留下它，是想記住朋友為我們畫的路線。"
+          },
+          {
+            "id": "c",
+            "en": "The drawing brings back the day we walked together, even if it is no longer a useful map.",
+            "zh": "即使它不再是實用地圖，畫仍令我想起一起行山那天。"
+          },
+          {
+            "id": "d",
+            "en": "My friend made it for that trip, so the paper matters to me beyond its current use.",
+            "zh": "朋友為那次旅程畫了它，所以這張紙對我的意義不止於現在的用途。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都答到保留原因，並承認地圖已不再實用；金句另外自然使用 keepsake。"
+      },
+      "scene": {
+        "promptZh": "義工在清理社區中心抽屜時找到一張舊合照；相中是她加入團隊的第一天，照片已不能用作現時證件。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may keep the photo as a keepsake of joining the team.",
+            "zh": "她可留下照片作為加入團隊那天的紀念物。"
+          },
+          {
+            "id": "b",
+            "en": "She must use the old photo as current official identification.",
+            "zh": "她必須用舊照片作現時正式證件。"
+          },
+          {
+            "id": "c",
+            "en": "The photo cannot matter to her because it has no current administrative use.",
+            "zh": "照片沒有現時行政用途，所以不可能對她有意義。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照片連繫她加入團隊的具體回憶，縱使沒有證件用途仍可成為紀念物。"
+      },
+      "contrast": {
+        "promptZh": "稱某物為 keepsake 時，哪個推論最不可靠？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminds the owner of a person, place or occasion.",
+            "zh": "它讓持有人想起某個人、地方或時刻。"
+          },
+          {
+            "id": "b",
+            "en": "It may once have served a practical purpose.",
+            "zh": "它也可能曾經有實際用途。"
+          },
+          {
+            "id": "c",
+            "en": "It must be expensive, and everyone must value it equally.",
+            "zh": "它一定昂貴，而且每個人都會視它為珍寶。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "紀念價值可十分個人化，不由市場價格決定，也不推論人人同感。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「這張舊車票不能再坐車，是否丟掉？」乙說自己和祖母第一次一起旅行時用的就是這張票。乙怎樣回答最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I would keep it as a keepsake of that first trip with my grandmother, even though the ticket has expired.",
+            "zh": "我會把它留作和祖母第一次旅行的紀念物，雖然車票已過期。"
+          },
+          {
+            "id": "b",
+            "en": "The ticket still guarantees a free journey next month because it is old.",
+            "zh": "這張票因為舊，下月仍保證可免費乘車。"
+          },
+          {
+            "id": "c",
+            "en": "If a ticket has expired, it cannot remind anyone of a past journey.",
+            "zh": "車票一旦過期，就不可能令人想起以前的旅程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "票已沒有乘車用途，但與祖母旅行的具體記憶仍可成為保留原因。"
+      },
+      "speaking": {
+        "en": "I kept the tiny paper crane as a keepsake from the workshop because it reminds me of what we made together.",
+        "zh": "我留下那隻小紙鶴，作為工作坊的紀念物，因為它令我想起我們一起做的東西。",
+        "promptZh": "先聽示範，再說明小物件連繫的回憶。",
+        "targetSpan": {
+          "start": 33,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你在社區電台當義工。最後一天，主持把當天有手寫改動的節目流程紙交給你。紙張不能讓你再播一次節目，但令你想起第一次合作。用一至兩句英文寫給主持的感謝訊息，說明你為何保留它，不誇大它的價格或現時用途。",
+        "selfCheckZh": "說明流程紙來自哪次合作、連繫的個人回憶，以及已無現時播出用途；不要聲稱它昂貴或本身保證工作機會。",
+        "examples": [
+          {
+            "en": "Thank you for the marked running order from my last shift at the station. I will keep it as a keepsake of our first broadcast together, even though it cannot be used to run another show.",
+            "zh": "謝謝你給我最後一次在電台輪值時那張寫有改動的流程紙。我會留作第一次一起廣播的紀念物，雖然它不能用來主持另一節節目。"
+          },
+          {
+            "en": "Thank you for the programme sheet with your handwritten changes. It reminds me of our first broadcast together, so I will keep it as a keepsake, not for its price or because it could run another show.",
+            "zh": "謝謝你送我那張有手寫改動的節目流程紙。它令我想起我們第一次一起廣播，所以我會把它留作紀念物，不是因為它的價格或它能用來主持另一節目。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the marked running order",
+            "zh": "有手寫改動的節目流程紙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 38
+            }
+          },
+          {
+            "en": "my last shift",
+            "zh": "最後一次輪值",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 57
+            }
+          },
+          {
+            "en": "our first broadcast together",
+            "zh": "第一次一起廣播",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 134
+            }
+          },
+          {
+            "en": "your handwritten changes",
+            "zh": "你的手寫改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 63
+            }
+          },
+          {
+            "en": "another show",
+            "zh": "另一節目",
+            "exampleIndex": 1,
+            "span": {
+              "start": 187,
+              "end": 199
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A pressed flower became a keepsake of their first school exhibition.",
+          "zh": "一朵壓花成了他們第一次校內展覽的紀念物。"
+        },
+        {
+          "en": "A museum label may have archival value, but it becomes a personal keepsake only when someone connects it to a lived memory.",
+          "zh": "博物館標籤可以有檔案價值；若有人把它與親身回憶相連，它才成為個人的紀念物。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI author self-check complete; independent source, language, media, browser and release review pending."
+        ]
+      }
+    }
+  ]
+}

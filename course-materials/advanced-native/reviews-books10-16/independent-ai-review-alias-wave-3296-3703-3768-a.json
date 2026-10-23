@@ -1,0 +1,35 @@
+{
+  "reviewKind": "independent AI focused three-source existing-owner alias review",
+  "reviewedAuthorAudit": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-3001-3900-three-b.json",
+  "reviewedAuthorAuditSha256": "fe00915d0c5cbb6d77f1a8ab04c6541b970babc7d95fe533552026828f0390a0",
+  "status": "content-clear for provisional editorial decisions; no human or release approval",
+  "sourceOrdinals": [
+    3296,
+    3703,
+    3768
+  ],
+  "frozenFileHashes": {
+    "course-materials/advanced-native/batches/batch-0551-0575.json": "8bc703bfb65dd024f0d0fdb8c2ae7d30d083656bee7aeae4cc9fac2efa9e7de7",
+    "course-materials/advanced-native/batches/batch-1876-1900.json": "d3b50ae94c7c19b627b7e4d5edcf50a4dc8ad0fa9fe0e22e1ab03f150db633e3",
+    "course-materials/advanced-native/batches/batch-1901-1925.json": "4d57125ed5e6ff23880122ca1108ce3f878998abfc89fae349510806f1092535",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": "0c7e062b9c5686d1419d163b7186a6d686c986a456918a719f8fdd3952383d65",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl": "63a097fa429c23df1009cf433690d3f711bc174f2d27cd5fb3ce33bcf85f89c6",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "e9f9ee3e41d1b371417e3663e30f899a31f27ec4f3d248939afdb382cb4c6876"
+  },
+  "checks": {
+    "allSixFrozenHashesMatch": true,
+    "exactSourceExpressionAndSentence": 3,
+    "exactOwnerSourceProvenance": 3,
+    "fullSourceTargetDetectorMatches": 3,
+    "ownerSense": "3296 guessing in the dark and 1916 groping in the dark both mean working without enough information; 3703 novelty wearing off and 568 shine wearing off both express fading initial attraction; 3768 personified advert gaining first attention and 1892 foot in the door both mark initial access without guaranteed result.",
+    "changedEnglishTraditionalChinese": "1916 missing-information takeaway, 568 novelty/device takeaway and keyed novelty dialogue, and 1892 poster-attention takeaway express the source variants faithfully in Traditional Chinese. The 568 past-tense teaching model is grammatical.",
+    "sourceGrammar3703": "Guide original mixes past gathered dust with present wears off. Owner retains it verbatim in provenance, explicitly identifies the mismatch, and models past wore off in learner-facing text.",
+    "independentFocusedBuildAndCheck": "65 lessons, 390 questions, 260 audio requests, zero review flags."
+  },
+  "findings": [],
+  "limits": [
+    "3296 guess and 3768 advert/personification variants are modeled in takeaways and briefs rather than newly keyed questions; this is sufficient for the same-sense alias but not a claim of separate seven-step instruction for each variant.",
+    "Lexical detectors can also match literal darkness, physical shine, or a physical foot/door; lesson context supplies figurative sense.",
+    "This review does not certify audio playback, human approval, browser QA or release."
+  ]
+}

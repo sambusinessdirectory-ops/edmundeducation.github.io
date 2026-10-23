@@ -1,0 +1,323 @@
+{
+  "status": "author-self-audit-unselected-independent-review-pending",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3025-3867-b.json",
+  "draftSha256": "6fe9f9a090c4ceb0111b56109389a64a2be52c7a6e1272c9a70434c76d48aa70",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessonCount": 7,
+  "questionCount": 42,
+  "audioRoleCount": 28,
+  "selectedCollisionCount": 0,
+  "sourceOriginalityScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingEnglishStrings": 168,
+    "sixTokenNonTargetHits": 0,
+    "nearFullAtMostTwoMismatches": 0,
+    "limits": "Mechanical screen; independent review still required for short semantic echoes and naturalness."
+  },
+  "focusedBuild": "7 lessons / 42 questions / 28 audio requests / 0 flags; build and --check passed",
+  "lessons": [
+    {
+      "sourceOrdinal": 3025,
+      "sourceId": "book10-16-0914",
+      "sourceSentence": "Being kind should not require erasing yourself.",
+      "sourceExpression": "erasing yourself",
+      "sourcePage": 85,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+        "fileSha256": "be78dc3ab0b1d75e8d355b5bb14d3db8982aabb5b4416376f9521c413ebce3c4",
+        "rowSha256": "3f586ac81e44a4a2b0b22e84b34605f12f0f066ac8bd8116831a484e297292cf",
+        "action": "hold-editorial"
+      },
+      "title": "erase yourself",
+      "ownerDistinction": "Self-neglect to obtain acceptance; not a small mutual compromise or literal deletion.",
+      "targetPattern": "\\b(?:erase|erases|erased|erasing) (?:yourself|himself|herself|themselves|myself|ourselves)\\b",
+      "targetControls": {
+        "positive": [
+          "erase yourself",
+          "erasing yourself"
+        ],
+        "negative": [
+          "erase the file",
+          "erase your notes"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3148,
+      "sourceId": "book10-16-1037",
+      "sourceSentence": "The pressure has shortened their fuse.",
+      "sourceExpression": "shortened their fuse",
+      "sourcePage": 96,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+        "fileSha256": "965e4cccd3c33025fc120cdd8911f9ee99662d96dbd0091b0db61a12bf356699",
+        "rowSha256": "99caff8e2ee0ab64811f690d139fc6d6a956a13a0cbd50233ba1cb1cfd9eaac3",
+        "action": "hold-editorial"
+      },
+      "title": "shorten someone's fuse",
+      "ownerDistinction": "Stress-caused shortening of anger threshold; unlike canonical 1334 paired warm-heart/long-fuse trait, the assessed decision requires a before/after change.",
+      "targetPattern": "\\b(?:shorten|shortens|shortened|shortening) (?:my|your|his|her|their|our|a person's) fuse\\b",
+      "targetControls": {
+        "positive": [
+          "shortened their fuse",
+          "shorten her fuse"
+        ],
+        "negative": [
+          "shortened the circuit fuse",
+          "has a long fuse"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3276,
+      "sourceId": "book10-16-1165",
+      "sourceSentence": "The rule remained soft around the edges.",
+      "sourceExpression": "soft around the edges",
+      "sourcePage": 108,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+        "fileSha256": "0c7e062b9c5686d1419d163b7186a6d686c986a456918a719f8fdd3952383d65",
+        "rowSha256": "4227e8a9f2a44ab6807a3d27ce6ef2b2c5b16cceda8b3c811a44e1c35eea2d1f",
+        "action": "hold-editorial"
+      },
+      "title": "soft around the edges",
+      "ownerDistinction": "Undefined rule boundary or weak enforcement; unlike selected 3947 interpersonal softening of tone.",
+      "targetPattern": "\\bsoft around the edges\\b",
+      "targetControls": {
+        "positive": [
+          "soft around the edges",
+          "remained soft around the edges"
+        ],
+        "negative": [
+          "soft at the edges",
+          "soft around the pillow"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3504,
+      "sourceId": "book10-16-1393",
+      "sourceSentence": "During long broadcasts, TV often washes over you.",
+      "sourceExpression": "TV often washes over you",
+      "sourcePage": 130,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+        "fileSha256": "f431d3ccaaafa53492717d4a7ab0f8244030ceb63a29f8e58828ce27bee5d757",
+        "rowSha256": "17d4ac49e3b7614d4af25de6821a56757d05543bb0f3b84795187fae3703812f",
+        "action": "hold-editorial"
+      },
+      "title": "wash over someone",
+      "ownerDistinction": "Passive receipt of spoken/broadcast information; not literal water, and distinct from active listening.",
+      "targetPattern": "\\b(?:(?:TV|television|the news|the broadcast|information|emergency information|a lecture|the lecture|the talk|the briefing|the commentary|commentary)\\s+(?:often\\s+)?(?:washes|washed|washing|may wash)|(?:the instructions|instructions|facts)\\s+(?:wash|washed|washing|may wash))\\s+over\\s+(?:you|us|me|them|him|her|the residents|the visitors|the listeners)\\b",
+      "targetControls": {
+        "positive": [
+          "TV often washes over you",
+          "facts wash over them"
+        ],
+        "negative": [
+          "TV often wash over you",
+          "water washed over you"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3656,
+      "sourceId": "book10-16-1545",
+      "sourceSentence": "Good parents support them without smothering them.",
+      "sourceExpression": "support them without smothering them",
+      "sourcePage": 145,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+        "fileSha256": "38f4297bd50ac7b94f3262794240f08958e4388d328641bfcc9d48e88f5cee4a",
+        "rowSha256": "e79f192a268b176f0f58be8fff024e50d246597781f95a1f0521bc64574c718b",
+        "action": "hold-editorial"
+      },
+      "title": "support without smothering",
+      "ownerDistinction": "Practical help plus real autonomy; not abandonment, overcontrol, or literal smothering.",
+      "targetPattern": "\\b(?:support|supports|supported|supporting)\\s+(them|him|her)\\s+without\\s+smothering\\s+\\1\\b",
+      "targetControls": {
+        "positive": [
+          "support them without smothering them",
+          "supported her without smothering her"
+        ],
+        "negative": [
+          "support them without smothering him",
+          "support them with smothering them"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3867,
+      "sourceId": "book10-16-1756",
+      "sourceSentence": "Repeated fraud can poison trust in a community.",
+      "sourceExpression": "poison trust",
+      "sourcePage": 165,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+        "fileSha256": "bd783ba50911afaf605a4d3b8583ed24b6b5967eb5119d044901d33b50757710",
+        "rowSha256": "80a5ed47c6c3474783dcfd34ad8330f650c608ad041813e6b31f0675fd50ef6b",
+        "action": "hold-editorial"
+      },
+      "title": "poison trust",
+      "ownerDistinction": "Dishonesty actively damages shared confidence; not a promptly corrected harmless typo or literal poisoning.",
+      "targetPattern": "\\b(?:poison|poisons|poisoned|poisoning)\\s+trust\\b",
+      "targetControls": {
+        "positive": [
+          "poison trust",
+          "poisoned trust"
+        ],
+        "negative": [
+          "poison the water",
+          "trust poison"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    },
+    {
+      "sourceOrdinal": 3414,
+      "sourceId": "book10-16-1303",
+      "sourceSentence": "A company can cut itself off from fresh thinking.",
+      "sourceExpression": "cut itself off from fresh thinking",
+      "sourcePage": 121,
+      "decision": {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+        "fileSha256": "e8a43db8d188b94cb01314fa10e3152d7f72a681880694267c7176a5ad59fd1d",
+        "rowSha256": "d117b93df4396d6852607308bfee9fcd94aec8ba25fdc4f92529a2d61d942415",
+        "action": "hold-editorial"
+      },
+      "title": "cut oneself off from fresh thinking",
+      "ownerDistinction": "Self-isolation from new thinking; unlike prior cut-off owners centred on people or opportunity.",
+      "targetPattern": "\\b(?:cut|cuts|cutting)\\s+(?:itself|themselves|himself|herself|ourselves|yourself)\\s+off\\s+from\\s+(?:fresh thinking|new ideas|outside ideas|different views)\\b",
+      "targetControls": {
+        "positive": [
+          "cut itself off from fresh thinking",
+          "cuts itself off from new ideas"
+        ],
+        "negative": [
+          "cut itself off from electricity",
+          "cut the wire off"
+        ],
+        "results": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "structural": {
+        "sourceMatched": true,
+        "sceneAndDialogueKeysTargetBearing": true,
+        "speakingSpanExact": true,
+        "glossaryRows": 4,
+        "glossarySpansExact": true,
+        "reviewState": "drafted/pending"
+      },
+      "editorialSelfCheck": "Provisional author pass; independent semantic, answer fairness and Traditional Chinese review pending."
+    }
+  ],
+  "excludedUncertainCandidates": [
+    {
+      "sourceOrdinal": 3086,
+      "reason": "Gradually soften is too transparent alone; prior softening owner makes a distinct seven-step outcome uncertain."
+    },
+    {
+      "sourceOrdinal": 3123,
+      "reason": "Independent review found the full blow-about/weather-vane source a crafted, awkward simile rather than a stable portable learner unit; withdrawn, remains held."
+    },
+    {
+      "sourceOrdinal": 3465,
+      "reason": "Slow the day down may be a creative one-off without enough distinct assessed decisions."
+    }
+  ],
+  "releaseState": "unselected; no decision or manifest mutations; no media, human or release approval"
+}

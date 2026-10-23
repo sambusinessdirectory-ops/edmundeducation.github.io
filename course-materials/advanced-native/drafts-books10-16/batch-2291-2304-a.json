@@ -10,15 +10,15 @@
       "titleZh": "慢熱但逐漸引人入勝",
       "category": "idiom",
       "target": {
-        "pattern": "\\ba slow burn\\b",
+        "pattern": "\\b(?:a\\s+slow\\s+burn|slow-burn\\s+tension)\\b",
         "glossaryForbidden": []
       },
       "brief": {
-        "meaningEn": "A story or experience whose effect builds gradually rather than arriving at once.",
-        "meaningZh": "故事或體驗開始時較平靜，隨着發展逐漸累積吸引力或情感效果。",
-        "grammar": "the film is a slow burn; a rewarding slow burn.",
+        "meaningEn": "A story or experience whose effect builds gradually rather than arriving at once; slow-burn tension is that gradual build of suspense.",
+        "meaningZh": "故事或體驗的效果逐漸累積而非一下子到來；slow-burn tension 特指逐步增強的懸念。",
+        "grammar": "a slow burn as a noun phrase for the whole experience; slow-burn tension as an adjectival compound plus noun for the suspense within it. Both need later development, not just a quiet opening.",
         "register": "Informal but thoughtful evaluation: a filmgoer or reviewer tells another viewer why a quiet story builds slowly and rewards attention; slow burn is not simply boring.",
-        "boundaryZh": "須有後來逐漸累積的效果；一直無變化或一開場就高潮都不符合。",
+        "boundaryZh": "slow-burn tension 要有懸念逐步累積的證據，而非單靠突發驚嚇；a slow burn 也不等於故事一直平淡無進展。",
         "misconceptionZh": "不要只因節奏慢就稱讚為慢熱，還要看到後段有回報。",
         "outcomeZh": "能指出故事如何逐步鋪排，以及後段帶來甚麼效果。"
       },
@@ -36,6 +36,20 @@
           "sentence": "The novel is a slow burn, but the ending is rewarding.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a slow burn"
+        },
+        {
+          "occurrenceId": "book10-16-0285",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The play relies on slow-burn tension rather than shocks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "slow-burn tension"
         }
       ],
       "listening": {
@@ -96,26 +110,26 @@
         "explanationZh": "四句都合理解釋推薦理由；金句把漸進的吸引力概括為 a slow burn。"
       },
       "scene": {
-        "promptZh": "一部短片開頭只是記錄老人每天修理腳踏車，片中逐步揭示他免費幫助鄰居的原因，結尾令人感動。哪句最貼切？",
+        "promptZh": "互動展覽一開始只給訪客一份看似普通的遺失物清單；每走進一個房間便出現一項與清單矛盾的新紀錄，最後才揭示誰改動了檔案，過程沒有突發驚嚇。哪句最貼切？",
         "options": [
           {
             "id": "a",
-            "en": "The short film is a slow burn with a moving payoff.",
-            "zh": "這部短片慢熱鋪排，最後帶來感人的回報。"
+            "en": "The exhibit builds slow-burn tension as each new record changes what visitors suspect.",
+            "zh": "展覽每出現一項新紀錄便改變訪客的猜想，逐步累積懸念。"
           },
           {
             "id": "b",
-            "en": "The ending is moving, but the earlier repair scenes do not build towards it.",
-            "zh": "結尾令人感動，但前面的修車場面沒有逐步鋪墊。"
+            "en": "The exhibit relies on sudden shocks rather than clues that accumulate.",
+            "zh": "展覽主要靠突發驚嚇，而非逐步累積的線索。"
           },
           {
             "id": "c",
-            "en": "The routine scenes are charming, but the ending adds little to their meaning.",
-            "zh": "日常場面有趣，但結尾沒有加深它們的意義。"
+            "en": "The first room reveals who altered the file, so the later records add no suspense.",
+            "zh": "第一個房間已揭示誰改動檔案，後面的紀錄沒有增加懸念。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "修車日常逐步揭示免費幫人的原因，結尾讓前面細節產生更深意義，屬慢熱鋪排。"
+        "explanationZh": "新紀錄逐步改變猜想，直到最後才揭示答案，正是 slow-burn tension；題目明說沒有突發驚嚇，也沒有開場即揭曉。"
       },
       "contrast": {
         "promptZh": "哪種故事最不適合稱為 a slow burn？",
@@ -268,7 +282,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2293",

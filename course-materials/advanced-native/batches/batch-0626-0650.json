@@ -7,7 +7,7 @@
     "titleZh": "精彩活動集中的地方",
     "category": "idiom",
     "target": {
-      "pattern": "\\bwhere the action (?:is|was)\\b",
+      "pattern": "\\b(?:where the action (?:is|was)|in the middle of the action(?!\\s+(?:plan|film|movie|figure|sequence)\\b))\\b",
       "glossaryForbidden": [
         "\\bwhere the action (?:is|was)\\b"
       ]
@@ -15,8 +15,8 @@
     "brief": {
       "meaningEn": "The place where the most interesting or important activity is happening.",
       "meaningZh": "最有趣或重要活動正在發生的地方。",
-      "grammar": "the market/room is where the action is; want to be where the action is. Action here means activity or excitement, not necessarily physical fighting or a particular achievement.",
-      "register": "Informal evaluative phrase. What counts as interesting depends on the speaker’s purpose; a lively place is not automatically the right setting for every task.",
+      "grammar": "the market/room is where the action is; want to be where the action is. Action here means activity or excitement, not necessarily physical fighting or a particular achievement. A room or person can also be in the middle of the action when situated amid the activity; this is a place/participation construction, not a claim that every activity suits every visitor.",
+      "register": "Informal evaluative phrase. What counts as interesting depends on the speaker’s purpose; a lively place is not automatically the right setting for every task. In the middle of the action likewise centres the location or participant in the activity.",
       "boundaryZh": "熱鬧或重要按關注而定，不代表其他地方無價值；也不等於一定吵或有衝突。",
       "misconceptionZh": "不能只憑人多便判最適合安靜訪問，需分活動焦點與任務條件。",
       "outcomeZh": "能指出活動焦點及根據，按目的選是否參與，不把熱門當必須。"
@@ -47,6 +47,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 48, table 1, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p048-t1-r07"
+      },
+      {
+        "occurrenceId": "book10-16-2601",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 246,
+        "book": 16,
+        "question": 60,
+        "sample": "S1",
+        "sourceBookPages": "138–139",
+        "locatorNote": "DOCX table 275, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Their room was in the middle of the action.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "in the middle of the action"
       }
     ],
     "listening": {
@@ -111,8 +125,8 @@
       "options": [
         {
           "id": "a",
-          "en": "The hall may be where the action is, but the quieter room better serves this conversation.",
-          "zh": "大廳或是精彩活動焦點，但較靜房更服務這次交談。"
+          "en": "The hall may be in the middle of the action, but the quieter room better serves this conversation.",
+          "zh": "大廳或是精彩活動焦點，但較安靜的房間更適合這次交談。"
         },
         {
           "id": "b",
@@ -248,8 +262,8 @@
         "zh": "想看初版怎改的訪客，會覺工作坊是精彩活動焦點。"
       },
       {
-        "en": "She asked where the action was before deciding which part of the festival would answer her questions.",
-        "zh": "她先問精彩活動在哪，再決定節慶哪部分可答她問題。"
+        "en": "The festival room was in the middle of the action, though she chose a quieter corner to interview the organiser.",
+        "zh": "節慶大廳位於活動中心，但她選了較安靜的一角訪問籌辦者。"
       }
     ],
     "review": {
@@ -276,7 +290,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-627",

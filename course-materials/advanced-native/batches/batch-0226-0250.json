@@ -7,7 +7,7 @@
     "titleZh": "遠遠超出原本範圍",
     "category": "natural",
     "target": {
-      "pattern": "\\bfar beyond\\b",
+      "pattern": "\\b(?:far beyond|(?:go|goes|went|gone|going) well beyond)\\b",
       "glossaryForbidden": [
         "\\bbeyond\\b"
       ]
@@ -15,8 +15,8 @@
     "brief": {
       "meaningEn": "To a much greater distance, extent or degree than a stated boundary or expectation.",
       "meaningZh": "在距離、範圍或程度上，遠遠超出指出的界線或預期。",
-      "grammar": "far beyond + place/limit/expectation; far intensifies beyond.",
-      "register": "Neutral degree-and-boundary pattern.",
+      "grammar": "far beyond + place/limit/expectation; go/goes/went well beyond + stated boundary. Far and well intensify beyond; the latter takes a changing verb.",
+      "register": "Neutral degree-and-boundary patterns. A speaker uses either to explain how an effect, contribution or reach exceeds a specific reference point.",
       "boundaryZh": "beyond 提出比較界線，far 強調相差很大；不必是地理距離，也不等於超出的一定是好事。",
       "misconceptionZh": "要清楚交代超出甚麼，不只籠統說很多；程度與方向由語境決定。",
       "outcomeZh": "能在具體界線或預期上表達大幅超出。"
@@ -34,6 +34,34 @@
         "sample": "S1",
         "locatorNote": "PDF page 24, table 2, row 6; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p024-t2-r06"
+      },
+      {
+        "occurrenceId": "book10-16-1828",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 172,
+        "book": 15,
+        "question": 6,
+        "sample": "S2",
+        "sourceBookPages": "15–16",
+        "locatorNote": "DOCX table 184, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A mentor's influence goes well beyond exam results.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "goes well beyond"
+      },
+      {
+        "occurrenceId": "book10-16-2107",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 199,
+        "book": 16,
+        "question": 1,
+        "sample": "S1",
+        "sourceBookPages": "3–4",
+        "locatorNote": "DOCX table 216, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A mentor's influence goes well beyond exam results.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "goes well beyond"
       }
     ],
     "listening": {
@@ -98,7 +126,7 @@
       "options": [
         {
           "id": "a",
-          "en": "The response reached far beyond our class.",
+          "en": "The response went well beyond our class.",
           "zh": "回應範圍遠遠超出我們班。"
         },
         {
@@ -142,8 +170,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Add the original boundary, such as the team that first made the change.",
-          "zh": "加上原本界線，例如最初作改動的團隊。"
+            "en": "Write 'The effects went well beyond the team that first made the change' to name the original boundary.",
+            "zh": "改成「影響遠遠超過最初作改動的團隊」，清楚交代原本界線。"
         },
         {
           "id": "b",
@@ -226,7 +254,7 @@
         "zh": "後果遠遠超出原本計劃。"
       },
       {
-        "en": "Her contribution reached far beyond the task she was assigned.",
+        "en": "Her contribution went well beyond the task she was assigned.",
         "zh": "她的貢獻遠遠超出原先獲分配的工作。"
       }
     ],
@@ -254,7 +282,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-227",

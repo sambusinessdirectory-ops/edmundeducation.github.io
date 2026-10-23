@@ -5190,7 +5190,7 @@
     "titleZh": "最初的新鮮吸引力很快消退",
     "category": "idiom",
     "target": {
-      "pattern": "\\bthe shine (?:soon )?(?:wears|wore|can wear|has worn) off\\b",
+      "pattern": "\\bthe shine (?:soon )?(?:wears|wore|can wear|has worn) off\\b|\\bthe novelty (?:wears|wore|can wear|has worn) off\\b",
       "glossaryForbidden": [
         "\\bthe shine\\b",
         "\\bwears? off\\b",
@@ -5198,10 +5198,10 @@
       ]
     },
     "brief": {
-      "meaningEn": "The initial excitement or attraction fades after someone becomes familiar with the experience or its difficulties.",
-      "meaningZh": "熟習經驗或遇上其難處後，最初興奮或吸引力消退。",
-      "grammar": "the shine soon wears off; the shine wore/has worn off; the shine can wear off expresses possibility, with soon/quickly giving timing.",
-      "register": "Established shine-as-attraction metaphor. Losing novelty does not necessarily remove all lasting value or prove an initial description was false.",
+      "meaningEn": "The initial excitement, novelty or attraction fades after someone becomes familiar with the experience, object or its difficulties.",
+      "meaningZh": "熟習一段經驗、物件或遇上其難處後，最初的新鮮感或吸引力消退。",
+      "grammar": "The shine wears/wore/has worn off or the novelty wears/wore/has worn off; can wear off expresses possibility. The guide’s “gathered dust once the novelty wears off” mixes a past event with present tense; preserve it as source provenance, but use “gathered dust once the novelty wore off” in a past narrative.",
+      "register": "Established shine/novelty-wear-off metaphor. A user may describe how early excitement with a device fades; losing novelty does not remove all lasting value.",
       "boundaryZh": "吸引力減不等於完全沒用、所有人同感或事情已失敗；需有初期與後來感受的對比。",
       "misconceptionZh": "可欣賞仍有的作用，同時承認新鮮感退；不要把變化當物件外觀必壞。",
       "outcomeZh": "能描述初期熱情及之後變化，分清感受與客觀功能。"
@@ -5233,6 +5233,20 @@
         "sentence": "At first the role looks attractive, but the shine can wear off quickly.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 261, table 1, row 5"
+      },
+      {
+        "occurrenceId": "book10-16-1592",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 149,
+        "book": 14,
+        "question": 15,
+        "sample": "S1",
+        "sourceBookPages": "34–35",
+        "locatorNote": "DOCX table 159, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The device gathered dust once the novelty wears off.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "novelty wears off"
       }
     ],
     "listening": {
@@ -5341,8 +5355,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Keep the prompt I still use and change the scoring routine, rather than treat faded novelty as no remaining value.",
-          "zh": "保留我仍用的提示，改計分做法，不把新鮮感退當全無價值。"
+          "en": "The novelty has worn off, but that weekly drawing prompt still helps me; let us keep it and change the scoring routine.",
+          "zh": "新鮮感已退，但每週一題的繪畫提示仍幫到我；保留提示，改一改計分做法吧。"
         },
         {
           "id": "b",
@@ -5356,7 +5370,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "按實際仍有用部分調，不只追可量分數或未看合用便回舊頻率。"
+      "explanationZh": "金句用「新鮮感已退」指出徽章吸引力下降，同時保留仍有用的每週提示；不是把整套活動視為毫無價值。"
     },
     "speaking": {
       "en": "The shine soon wears off when novelty becomes another demand, but I can still choose which useful parts to keep.",
@@ -5434,8 +5448,8 @@
         "zh": "發現新角色常打斷其他工作時，初期吸引力很快退去，所以她請檢視工時。"
       },
       {
-        "en": "The shine can wear off quickly, but he wanted to understand which parts of the project still interested him.",
-        "zh": "初期吸引力可能很快退，但他想了解項目哪些部分仍吸引他。"
+        "en": "After a month, the novelty wore off, although the kitchen gadget still made the same job easier.",
+        "zh": "那件廚房工具用了一個月後，新鮮感消退了，但它仍令同一項工作更省力。"
       }
     ],
     "review": {
@@ -5464,7 +5478,7 @@
         "Future2059 the shine can wear off has same novelty/attraction-fading unit, with possibility and timing modifiers; preserve exact source and do not infer total failure."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-569",

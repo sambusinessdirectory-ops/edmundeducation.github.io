@@ -1,0 +1,32 @@
+{
+  "status": "independent-ai-scoped-followup-content-clear-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-2507-2750-a.json",
+  "draftSha256": "64c942b154138bdbca29b6a76a3af9fb1d03bec04dbe69f84825160323f0d9bc",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-2507-2750-a.json",
+  "authorAuditSha256": "6057fcb60e6bbf18daff3a5576433c6243f3f841fafd7bbbb558059398f5719a",
+  "priorReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-2507-2750-b.json",
+  "priorFindingResults": [
+    {
+      "id": "R2507-01",
+      "status": "resolved",
+      "evidence": "Reply D creates a dated cue list from the expiring chat before crew confirmation, in aligned English/Traditional Chinese."
+    },
+    {
+      "id": "R2507-02",
+      "status": "resolved",
+      "evidence": "Step 3 now tests exhausted human memory for three dates needed tomorrow; key compares the fleeting trace with writing on water and gives a note-taking action."
+    },
+    {
+      "id": "R2750-01",
+      "status": "resolved",
+      "evidence": "Writing model 2 now directly thanks the host, names the first broadcast memory, rejects price/practical value, and aligns Chinese."
+    }
+  ],
+  "checks": {
+    "focusedBuildCheck": "2 lessons / 12 questions / 8 audio requests / 0 flags",
+    "fullSourcePatternMatches": 2,
+    "glossarySpansExact": true,
+    "newAssessmentKeyTargetBearing": true
+  },
+  "recommendation": "AI content clear for unpublished selection if parent chooses; no human/media/release approval, decisions/manifest unchanged."
+}

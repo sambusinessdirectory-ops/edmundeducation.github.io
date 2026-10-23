@@ -1,0 +1,73 @@
+{
+  "reviewId": "independent-ai-review-hold-sweep-3901-4715-wave1-b",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-hold-sweep-3901-4715-wave1-review-pilot.json",
+  "authorAuditSha256": "6983e2add9b6006d3d41bd6f7d02e5bcc3af693752d08953a406eb6bf4d6805e",
+  "exactAfterFileSha256": {
+    "course-materials/advanced-native/batches/batch-0226-0250.json": "49d2e01c3e30426b0da7eb81dcdbb241cf84e7987170293938ef9a23e4874a3b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "dd86084e4bc7a4b67d4d274203c50a2bc35a60b79a5a150114ac5f685a62493a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl": "b6be97752a7c3804cb02def18dcdab13b09facfbe8064550032a9b394792f73f",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl": "ea25bb1eec6c5374159fe0cce1038e0337ac53f794f2d811e4c3396af64a4039",
+    "course-materials/advanced-native/batches/batch-1151-1175.json": "aa68f6050f286d0097c2f18934cd582af3061469227aa0bede3e5caa39188072",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl": "a5036066eca332600fa403f8d79d6695ed1de84f5ae8b67823cf8bf37dc5f218",
+    "course-materials/advanced-native/batches/batch-0726-0750.json": "ef86956fd45d6228fa47b72400a2e6717d8c07b5a7755c5f89fdcadb7a7e9bbf",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8",
+    "course-materials/advanced-native/batches/batch-0626-0650.json": "a58fd706cb96220bcc37c83a28a214e189bc624fc7dd92cc2a0ec709e6c0a014"
+  },
+  "scope": "Five changed source aliases across four canonical owners; focused sense, target, provenance, keyed EN/ZH and revised takeaways only.",
+  "items": [
+    {
+      "sourceOrdinal": 3939,
+      "ownerId": "advanced-native-226",
+      "sourceTargetMatch": "goes well beyond",
+      "sourceSense": "same owner outcome",
+      "exactProvenance": true,
+      "decision": "content_clear"
+    },
+    {
+      "sourceOrdinal": 4089,
+      "ownerId": "advanced-native-1164",
+      "sourceTargetMatch": "falling to pieces",
+      "sourceSense": "same owner outcome",
+      "exactProvenance": true,
+      "decision": "content_clear"
+    },
+    {
+      "sourceOrdinal": 4218,
+      "ownerId": "advanced-native-226",
+      "sourceTargetMatch": "goes well beyond",
+      "sourceSense": "same owner outcome",
+      "exactProvenance": true,
+      "decision": "content_clear"
+    },
+    {
+      "sourceOrdinal": 4424,
+      "ownerId": "advanced-native-727",
+      "sourceTargetMatch": "lower the temperature in a dispute",
+      "sourceSense": "same owner outcome",
+      "exactProvenance": true,
+      "decision": "content_clear"
+    },
+    {
+      "sourceOrdinal": 4712,
+      "ownerId": "advanced-native-626",
+      "sourceTargetMatch": "in the middle of the action",
+      "sourceSense": "same owner outcome",
+      "exactProvenance": true,
+      "decision": "content_clear"
+    }
+  ],
+  "automatedEvidence": {
+    "independentFocusedBuild": "93 lessons/558 questions/372 audio requests/0 flags",
+    "sharedVerifier": "2604 source rows, 588 selected drafts, zero schema or alias errors",
+    "authorDetectorControls": "20 native JS cases/0 failures; reviewed audit and source examples"
+  },
+  "finding": [
+    {
+      "severity": "minor",
+      "path": "advanced-native-626.scene.options[a].zh",
+      "note": "Existing Chinese wording 「較靜房更服務這次交談」 is an awkward calque of “better serves this conversation”; 「較安靜的房間更適合這次交談」 would read naturally. The English key, meaning and answer ID are sound. This wording predates the wave and does not block the five alias decisions."
+    }
+  ],
+  "blockers": [],
+  "verdict": "Focused AI content clearance for five provisional aliases at exact hashes; minor pre-existing Chinese polish noted. No media, human listening or release approval."
+}

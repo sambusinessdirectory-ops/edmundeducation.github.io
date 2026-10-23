@@ -3146,7 +3146,7 @@
     "titleZh": "被擠到邊緣而少被重視",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines)\\b",
+      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines|side)\\b",
       "glossaryForbidden": [
         "\\bmargins\\b"
       ]
@@ -3154,8 +3154,8 @@
     "brief": {
       "meaningEn": "Made less visible, influential or central in an activity or discussion.",
       "meaningZh": "在活動或討論中變得較少被看見、較少影響力或較不受重視。",
-      "grammar": "Be pushed (quietly) to the margins or to the sidelines of a debate, programme or cultural space; both spatial metaphors describe lost prominence or influence, not literal seating. The adverb can describe a gradual or low-profile loss of attention.",
-      "register": "Figurative social or organisational description. A curator may tell colleagues that smaller art forms are being pushed quietly to the margins when their programme slots and publicity shrink.",
+      "grammar": "Be pushed (quietly) to the margins, to the sidelines, or to the side of a debate, programme or cultural space; the spatial metaphor describes lost prominence or attention, not literal movement. The adverb can describe a gradual or low-profile loss of attention.",
+      "register": "Figurative social or organisational description. A curator may tell colleagues that smaller art forms are pushed to the margins, or a health advocate may say mental wellbeing is pushed to the side when agendas omit it.",
       "boundaryZh": "不一定完全被排除或實際坐在邊位；需說清參與、注意或影響力減少的證據。",
       "misconceptionZh": "仍在場不代表仍有實質參與；反過來，未採用一個建議也不單獨證明整個群體被邊緣化。",
       "outcomeZh": "能用發言機會、議程或資源的具體變化描述邊緣化。"
@@ -3201,6 +3201,20 @@
         "sentence": "Local artists should not be pushed to the sidelines.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "pushed to the sidelines"
+      },
+      {
+        "occurrenceId": "book10-16-1721",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 162,
+        "book": 14,
+        "question": 29,
+        "sample": "S2",
+        "sourceBookPages": "64–65",
+        "locatorNote": "DOCX table 173, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Mental wellbeing is too often pushed to the side.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "pushed to the side"
       }
     ],
     "listening": {
@@ -3402,8 +3416,8 @@
         "zh": "本地關切被擠到較大辯論的邊緣。"
       },
       {
-        "en": "Small theatre groups can be pushed to the sidelines when a festival cuts their stage time.",
-        "zh": "當節慶削減小劇團的演出時間，它們可能被擠到邊緣。"
+        "en": "Mental wellbeing was pushed to the side when the planning meeting discussed only budgets and deadlines.",
+        "zh": "規劃會議只談預算和期限，心理健康便被擱置一旁。"
       }
     ],
     "review": {
@@ -3430,7 +3444,7 @@
       },
       "notes": []
     },
-    "contentRevision": 4
+    "contentRevision": 5
   },
   {
     "id": "advanced-native-288",

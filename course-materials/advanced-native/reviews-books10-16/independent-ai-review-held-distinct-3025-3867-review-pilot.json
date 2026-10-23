@@ -1,0 +1,111 @@
+{
+  "status": "independent AI editorial review; no human approval; no release approval",
+  "reviewedDraft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3025-3867-b.json",
+  "reviewedDraftSha256": "01ee5e98fdae587c0df4b7120dbfb062855ffe5809c0905e4d483e38706fbfdf",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-3025-3867-b.json",
+  "authorAuditSha256": "63a82a78e21e06a5938c608e6d5e226b2d40e2788d42c0ffc11d91fbdc8518dd",
+  "scope": "Risk-based review of eight unselected held-source lessons: source/owner eligibility, source sense, natural English, four-valid reply pragmatics, keyed answer fairness, Traditional Chinese, changed-context writing and exact glossary.",
+  "mechanicalChecks": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "passed",
+    "exactInventorySentenceAndTargetMatch": "8/8",
+    "sceneAndDialogueTargetBearingKeys": "16/16",
+    "replyFourOptionsOneTarget": "8/8",
+    "answerDerivedGlossarySpans": "32/32",
+    "nonTargetSixTokenSourceOverlaps": 0,
+    "nearFullSourceOverlaps": 0
+  },
+  "primaryUsageEvidence": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/weathervane",
+      "relevance": "Supports weathervane as a figurative noun for changing opinions with circumstances, but not the draft’s repeated blow-about construction."
+    },
+    {
+      "url": "https://kclpure.kcl.ac.uk/portal/files/71244386/The_rise_and_fall_BOWLING_Publishedonline16May2017_GREEN_AAM_.pdf",
+      "relevance": "Primary scholarly prose uses a definition being soft around the edges; supports figurative boundary meaning but not classifying it as a fixed idiom."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/wash",
+      "relevance": "Dictionary corpus illustrates information washing over a listener without active attention; supports the lesson’s passive-reception sense."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R3123-01",
+      "lessonId": "advanced-native-3123",
+      "severity": "major",
+      "path": "titleEn, target.pattern, brief.grammar, listening.en, reply.options[2].en, scene.options[0].en, dialogue.options[0].en, speaking.en, takeaways",
+      "explanation": "The full source construction “blow about like a weather vane” is a crafted simile. The lesson repeats it as a portable fixed phrase, but a weather vane turns with the wind rather than blowing about. Cambridge supports the figurative weather-vane noun, not this long verb frame. The repeated wording is awkward, especially “Places have blown about” in writing.",
+      "recommendedFix": "Either leave 3123 held, or normalize the teachable unit to a weather-vane comparison and write natural changed-context forms such as “change direction like a weather vane”; retain the exact original source sentence as provenance and make the bounded detector cover both source and assessed natural forms. Recheck all English/Chinese keys and target spans."
+    },
+    {
+      "id": "R3123-02",
+      "lessonId": "advanced-native-3123",
+      "severity": "major",
+      "path": "writing.examples[0..1].en/zh",
+      "explanation": "The prompt and self-check require enrolment places to rise and fall across three meetings in response to different donors. Model 1 mentions only a donor asking for more places and no three-meeting reversals. Model 2 gives three meetings but omits donors and uses the unnatural “Places have blown about”.",
+      "recommendedFix": "Make both models specify the multiple donor-driven changes and a coach-number or pool-capacity criterion, then align Traditional Chinese and recalculate affected glossary spans."
+    },
+    {
+      "id": "R3656-01",
+      "lessonId": "advanced-native-3656",
+      "severity": "major",
+      "path": "reply.promptEn/promptZh, reply.options[0..3]",
+      "explanation": "The question asks what to tell the partner about helping the daughter. Options a and b address the daughter as “you”, while c and d address the partner as “her”. Thus not all four are valid answers to the same listener-facing question.",
+      "recommendedFix": "Keep the partner as listener and rewrite a/b in third person (“Let us check the deadline with her; she can choose the topic”), or change the question and all four options to address the daughter. Preserve exactly one target-bearing golden reply and aligned Chinese."
+    },
+    {
+      "id": "R3867-01",
+      "lessonId": "advanced-native-3867",
+      "severity": "major",
+      "path": "writing.examples[0].en/zh",
+      "explanation": "The first model mentions secret best-seat reservations but omits both their repeated pattern and the organiser’s false assurance that everyone used the same queue. Those facts are explicitly required by the writing prompt/self-check and explain why trust was poisoned.",
+      "recommendedFix": "Add the repeated hidden reservations and false equal-queue claim to model 1 in English and Traditional Chinese; recompute any shifted glossary spans."
+    },
+    {
+      "id": "R3276-01",
+      "lessonId": "advanced-native-3276",
+      "severity": "minor",
+      "path": "category, brief.grammar",
+      "explanation": "“Soft around the edges” is a transferable figurative description of an imprecise boundary, but the record labels it a fixed idiom. Primary scholarly usage supports the image without establishing a fixed idiom. SOP P79 separates figurative use from idioms.",
+      "recommendedFix": "Classify this lesson as figurative and say that the image describes a rule whose boundary remains vague."
+    },
+    {
+      "id": "R3276-02",
+      "lessonId": "advanced-native-3276",
+      "severity": "minor",
+      "path": "writing.examples[1].en/zh",
+      "explanation": "Model 2 says one member kept a drill for three weeks and proposes a one-week limit, but it never identifies “short term” as undefined; the prompt and self-check require both models to name the vague boundary.",
+      "recommendedFix": "State that “short term” is undefined in model 2, then keep the three-week example and one-week proposed limit; align Chinese and spans."
+    },
+    {
+      "id": "R3504-01",
+      "lessonId": "advanced-native-3504",
+      "severity": "minor",
+      "path": "writing.examples[0].en/zh",
+      "explanation": "Model 1 says the broadcast washed over residents and proposes a map replay, but does not explicitly say they could not recall the meeting point, which both the prompt and self-check require. Model 2 covers it.",
+      "recommendedFix": "Add the failed recall of the meeting point to model 1 in both languages; refresh any changed glossary spans."
+    },
+    {
+      "id": "R3148-01",
+      "lessonId": "advanced-native-3148",
+      "severity": "minor",
+      "path": "reply.options[2].en/zh",
+      "explanation": "The golden reply directly tells an irritable teammate that night shifts have “shortened your fuse”. Although the cause is attributed to shifts, the wording may feel accusatory in a prompt requiring a handoff discussion without blame. The other three replies use a more supportive tone.",
+      "recommendedFix": "Give the golden reply a gentler framing or change the listener context while retaining the causative target and the delayed handoff discussion; keep four independently valid replies."
+    }
+  ],
+  "ownerScope": {
+    "advanced-native-3414": {
+      "status": "provisionally distinct after independent comparison",
+      "reason": "The new source and assessed decisions concern an organisation actively refusing outside ideas, then choosing whether to hear and evaluate them. Canonical 648 teaches externally blocked access to opportunities, and canonical 1347 teaches felt social/digital separation. The learner decision and agency differ; cross-reference these owners in the review record rather than widening either one blindly.",
+      "canonical648FileSha256": "5d8bb571c91e79e4dc504e28e9a2d244f0abfd50069c5269591ea362c95a7881",
+      "canonical1347FileSha256": "0b36e3369eb92464d25bb6ebb1064147d13e6a0af43c6d48a43741725df9306d"
+    }
+  },
+  "contentClearWithoutFindings": [
+    "advanced-native-3025",
+    "advanced-native-3414"
+  ],
+  "selectionGuidance": "Keep the eight unselected until major findings are repaired and exact-hash rechecked; minor findings should be corrected before a frozen batch checkpoint. Independent AI review is not human English/Chinese approval."
+}
