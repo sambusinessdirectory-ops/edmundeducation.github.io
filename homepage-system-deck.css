@@ -186,3 +186,53 @@
 .system-card-deck .category{filter:none;will-change:auto;transition:none!important}
 .system-card-deck.is-deck-moving .category{filter:none!important}
 .system-card-deck.is-deck-moving .category:hover,.system-card-deck.is-deck-moving .category:focus-visible{transform:translate3d(-50%,calc(-50% + var(--deck-offset,0px)),var(--deck-depth,0px)) rotateX(var(--deck-tilt,0deg)) scale(var(--deck-scale,1))}
+
+/* Academy Nexus art is cropped into perimeter layers at its natural ratio. */
+.system-card-deck {
+  position: relative;
+  padding: 155px clamp(210px, 18vw, 300px) 155px clamp(205px, 16vw, 250px);
+}
+.system-card-deck__copy,
+.system-card-deck__stage,
+.system-card-deck__controls { position: relative; z-index: 1; }
+.system-card-deck__frame {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  pointer-events: none;
+  background-image: url('/academy-nexus-selector-frame-v1.webp');
+  background-repeat: no-repeat;
+}
+.system-card-deck__frame--top,
+.system-card-deck__frame--bottom {
+  right: 0;
+  left: 0;
+  height: 155px;
+  background-size: 100% auto;
+  clip-path: inset(0 13%);
+}
+.system-card-deck__frame--top { top: 0; background-position: center top; }
+.system-card-deck__frame--bottom { bottom: 0; background-position: center bottom; }
+.system-card-deck__frame--left,
+.system-card-deck__frame--right {
+  top: 10%;
+  bottom: 10%;
+  width: 17%;
+  background-size: auto 100%;
+}
+.system-card-deck__frame--left { left: 0; background-position: left center; }
+.system-card-deck__frame--right { right: 0; background-position: right center; }
+@media (max-width: 1366px) {
+  .system-card-deck { padding: 110px clamp(90px, 9vw, 120px); }
+  .system-card-deck__frame--top,
+  .system-card-deck__frame--bottom { height: 110px; clip-path: inset(0 10%); }
+  .system-card-deck__frame--left,
+  .system-card-deck__frame--right { top: 4%; bottom: 4%; width: 10%; }
+}
+@media (max-width: 620px) {
+  .system-card-deck { padding: 80px 16px 78px; }
+  .system-card-deck__frame--top,
+  .system-card-deck__frame--bottom { height: 80px; clip-path: none; }
+  .system-card-deck__frame--left,
+  .system-card-deck__frame--right { display: none; }
+}
