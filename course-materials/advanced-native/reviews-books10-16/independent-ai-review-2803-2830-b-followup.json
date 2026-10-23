@@ -1,0 +1,48 @@
+{
+  "reportType": "independent-ai-exact-hash-followup",
+  "scope": "Eight unselected Books 10–16 lesson drafts, source ordinals 2803, 2806, 2809, 2813, 2815, 2827, 2829, 2830; focused repair of R2806-01 and R2813-01",
+  "inputFiles": {
+    "draftBatch1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+      "sha256": "ca772b2c110b983c039cdfd25b05803c33b8cb641c17e76000980ff2ecc61cfd"
+    },
+    "draftBatch2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+      "sha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2803-2830-review-pilot.json",
+      "sha256": "50463ef7f01ca248859f3b8377e18f37c797e3abf24f7c05967c52f68df285f2"
+    }
+  },
+  "findings": [
+    {
+      "id": "R2806-01",
+      "lesson": 2806,
+      "status": "cleared",
+      "evidence": "writing.examples[0].en now says the kiosk printed the ticket within two seconds of scanning while the queue remained long; Traditional Chinese conveys both facts. contentRevision=2. Recomputed glossary offsets match their exact English spans."
+    },
+    {
+      "id": "R2813-01",
+      "lesson": 2813,
+      "status": "cleared",
+      "evidence": "writing.examples[1].en now states that allowing all residents to upload opened the floodgates to photo submissions, followed by over a thousand submissions in two days, added sorting staff, and remaining verification. Traditional Chinese conveys the same cause, volume, staffing and unverified state. contentRevision=2."
+    }
+  ],
+  "regressionReview": {
+    "result": "no new material defect found in the scoped repairs",
+    "glossary": "All glossary spans across the eight lessons were exact substrings of their referenced English writing examples.",
+    "unchangedLessons": "2803, 2809, 2815, 2827, 2829, and 2830 retain the initial independent review clearance."
+  },
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-review-b-2803-2830-followup"
+  },
+  "selectionRecommendation": "Content-cleared for provisional selection; English, Chinese, media and QA human review remain pending. Do not treat this as publication approval.",
+  "selectedOrPublished": false
+}

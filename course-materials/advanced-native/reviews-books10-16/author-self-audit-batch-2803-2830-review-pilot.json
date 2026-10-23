@@ -1,0 +1,199 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human approval, media listening approval, or release certification",
+  "scope": "Eight unselected Books 10–16 lessons, with 2803 revised to own source ordinals 2803 and 4220",
+  "createdUtc": "2026-10-23T13:08:15.825456+00:00",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisions": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+    "sha256": "eef4ff41f5a9720b1798f347f4f328cf32a72ea347ef4065da8758df1689d641"
+  },
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+      "sha256": "6cca77fe5a2c52510259b09232d357095c26ff33649f9f16609dbe0e01ce00d5",
+      "sourceOrdinals": [
+        2803,
+        2806,
+        2809,
+        2813
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+      "sha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95",
+      "sourceOrdinals": [
+        2815,
+        2827,
+        2829,
+        2830
+      ]
+    }
+  ],
+  "sourceOrdinals": [
+    2803,
+    2806,
+    2809,
+    2813,
+    2815,
+    2827,
+    2829,
+    2830
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass after two editorial repairs",
+    "check": "pass after two editorial repairs",
+    "outputDirectory": "/private/tmp/advanced-native-2803-2830-pilot"
+  },
+  "readOnlyExistingOwnerCollisionScreen": {
+    "matchedRecordsForEight": 0,
+    "interpretation": "No prior-owner detector collision found in earlier read-only screen; semantic owner review remains pending."
+  },
+  "authorChecks": [
+    {
+      "sourceOrdinal": 2803,
+      "lessonId": "advanced-native-2803",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2806,
+      "lessonId": "advanced-native-2806",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2809,
+      "lessonId": "advanced-native-2809",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2813,
+      "lessonId": "advanced-native-2813",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2815,
+      "lessonId": "advanced-native-2815",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2827,
+      "lessonId": "advanced-native-2827",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2829,
+      "lessonId": "advanced-native-2829",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    },
+    {
+      "sourceOrdinal": 2830,
+      "lessonId": "advanced-native-2830",
+      "sourceSentenceExact": true,
+      "sourceTargetMatched": true,
+      "decisionOwnerMatched": true,
+      "sevenStepsPresent": true,
+      "fourReplyOptionsContextuallyValid": "author checked; independent adversarial review pending",
+      "singleKeyAndDecoyGrounding": "author checked; independent adversarial review pending",
+      "changedContextWriting": "author checked; both models include target",
+      "glossaryExactSpans": true,
+      "chineseMeaningAlignment": "author checked; independent bilingual review pending"
+    }
+  ],
+  "openGates": [
+    "Independent English and Traditional Chinese editorial review",
+    "Human owner/sense approval under Golden SOP",
+    "Media listening and device QA",
+    "Selection and publication controlled by parent; no release action taken"
+  ],
+  "repairFollowup": {
+    "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2803-2830-b.json",
+    "independentReviewSha256": "5dc0ecfb21bc77cc13ba04047d9852d3a8d9185e2cebcd648314abf38020ad34",
+    "repairs": [
+      {
+        "sourceOrdinal": 2806,
+        "contentRevision": 2,
+        "change": "First writing model now states ticket printed within two seconds; glossary span recalculated."
+      },
+      {
+        "sourceOrdinal": 2813,
+        "contentRevision": 2,
+        "change": "Second writing model now identifies opening uploads to all residents as influx trigger."
+      }
+    ],
+    "status": "two writing omissions independently cleared in prior exact-hash follow-up; 2803 source-scope revision now awaits a new independent exact-hash review"
+  },
+  "ownerScopeRevision": {
+    "lessonId": "advanced-native-2803",
+    "contentRevision": 2,
+    "sourceOrdinals": [
+      2803,
+      4220
+    ],
+    "comparisonReport": "course-materials/advanced-native/reviews-books10-16/author-owner-comparison-2803-4220.json",
+    "comparisonReportSha256": "2de47a238f2eaf5b8976eecd12a04235e18e93a0e27651521f23c13f3dd4691b",
+    "result": "both source examples match unified adjectival/adverbial detector; seven-step lessons cover both forms; glossary has no target leakage; combined verifier passes",
+    "independentReview": "pending"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-23T13:08:53.267372+00:00",
+  "scope": "Separate read-only source4220 versus proposed draft2803 grammar/meaning opinion; no draft or source action was edited.",
+  "sourceOrdinal": 4220,
+  "sourceId": "book10-16-2109",
+  "sourceExpression": "on demand",
+  "sourceSentence": "Staff cannot provide perfect results on demand.",
+  "sourceGuideMeaning": "Whenever requested; a fixed service expression.",
+  "sourceLocator": {
+    "book": 16,
+    "question": 1,
+    "sample": "S2",
+    "topic": "Teacher",
+    "renderedPdfPage": 199,
+    "docxTable": 216,
+    "docxRow": 7
+  },
+  "ownerId": "advanced-native-2803",
+  "currentTitle": "on demand / on-demand",
+  "currentMeaningEn": "Available or supplied when requested, rather than only at a fixed scheduled time; the two spellings have different grammatical positions.",
+  "currentGrammar": "Use hyphenated adjective on-demand before a noun (on-demand delivery); use adverbial on demand after a verb (provide results on demand). Both share the request-based meaning; neither promises instant or perfect fulfilment.",
+  "currentPattern": "\\bon[- ]demand\\b",
+  "opinion": "One coherent owner with two grammatical forms is appropriate; no separate sense or duplicate lesson is warranted by these sources. The current2803 snapshot inspected for this report already broadens the title, grammar and detector to both forms and attaches4220. That scope is coherent.",
+  "reasoning": [
+    "Both source contexts concern supply or performance in response to a request. Hyphenation follows adjective-before-noun versus unhyphenated post-verbal phrase; it is not evidence of a separate meaning.",
+    "4220 is negative: staff cannot supply perfect results whenever asked. It sets a limit on the expectation and does not assert that perfect results are actually available. A broadened brief must permit negative and capability statements, not reduce on demand to guaranteed service fulfilment.",
+    "The existing service examples remain specific affirmative uses with stated completion windows. The broader owner must distinguish request timing, actual capability and any promised fulfilment time; it should not claim that the phrase universally either guarantees or rules out immediate fulfilment."
+  ],
+  "proposedMetadataOnlyScope": {
+    "detectorChangeNeededNow": false,
+    "currentPattern": "\\bon[- ]demand\\b",
+    "equivalentPatternIfRewritten": "\\bon(?:-| )demand\\b",
+    "grammarAcceptance": "Current grammar correctly distinguishes before-noun on-demand from post-verbal on demand. The negative4220 source denies perfect performance on request; it does not assert perfect availability.",
+    "sourceAssociationAcceptance": "Both exact on-demand source2803 and on demand source4220 are already associated with the current owner."
+  },
+  "mechanicalChecks": {
+    "currentMatches4220": true,
+    "proposedMatches4220": true,
+    "proposedMatchesAdjective": true,
+    "proposedIncorrectlyMatchesInDemand": false,
+    "proposedIncorrectlyMatchesVerbDemand": false
+  },
+  "primaryReferences": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/on-demand?topic=always-and-never",
+      "checkedSense": "The same entry distinguishes unhyphenated when-needed/requested usage from the before-noun adjective on-demand.",
+      "inference": "Applying that distinction to the negative staff-performance source is editorial grammatical analysis."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/on-demand",
+      "checkedSense": "The adjective is restricted to before-noun position and concerns action happening whenever someone asks."
+    }
+  ],
+  "requiredFollowup": [
+    "Retain one owner and both exact source spellings/locators; no new lesson is needed solely for hyphenation.",
+    "Keep existing completion/grading IDs stable and run the normal independent editorial/build validation on this actual expanded record. This is a scoped grammar/source-family opinion, not full seven-step or release approval.",
+    "When explaining the boundary, distinguish requesting something from actual capability, promised speed and perfect results; do not infer that the negative staff sentence describes an available service."
+  ],
+  "inputHashes": [
+    {
+      "file": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    {
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+      "sha256": "6cca77fe5a2c52510259b09232d357095c26ff33649f9f16609dbe0e01ce00d5"
+    }
+  ],
+  "ownerContentSha256": "1c2288cdc3ea0b579d99b786532974fb6fba8f9f2e140f691061bbe16d19fe4d",
+  "decisionsEdited": false,
+  "draftsEdited": false,
+  "humanApprovalClaimed": false,
+  "currentScopeAlreadyExtended": true,
+  "scopeTimingNote": "An earlier read during this analysis showed an adjective-only draft. By the final hash-stamped snapshot, another actor had expanded2803. This report evaluates the current two-form snapshot and does not repeat the obsolete coverage objection.",
+  "integrity": {
+    "payloadSha256": "f401801cdd1e31c442452f89ab2aedc897a4065151e605ac41d43046221f4510",
+    "method": "SHA256 of compact sorted-key UTF8 JSON excluding integrity."
+  }
+}

@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2803-2830-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2815",
+      "number": 2815,
+      "inventoryId": "expr-2815",
+      "titleEn": "do the rounds",
+      "titleZh": "廣泛流傳",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:do|does|did|done|doing)\\s+the\\s+rounds\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Circulate widely among people, often through repeated sharing.",
+        "meaningZh": "在人群之間經多次轉傳而廣泛流傳。",
+        "grammar": "Usually a story, rumour, joke or image does/has done the rounds; the phrase describes circulation, not verification.",
+        "register": "Informal newsroom update: an editor tells reporters a rumour has reached several community groups while its truth remains unconfirmed.",
+        "boundaryZh": "流傳範圍廣並不代表消息已證實，也不一定代表正式發布。",
+        "misconceptionZh": "不是人真的走完巡邏路線，也不能因多人轉傳便當作事實。",
+        "outcomeZh": "能指出訊息如何傳播，並把傳播程度與真偽分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0704",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 65,
+          "book": 11,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "65–66",
+          "locatorNote": "DOCX table 62, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The false story had already done the rounds.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "done the rounds"
+        }
+      ],
+      "listening": {
+        "en": "The same unverified rumour appeared in five neighbourhood chats by noon. It had done the rounds before the council made any announcement.",
+        "zh": "同一則未核實傳聞到中午已出現在五個街坊群組。市議會尚未公布消息，它已廣泛流傳。",
+        "promptZh": "had done the rounds 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rumour had been shared widely.",
+            "zh": "傳聞已廣泛轉傳。"
+          },
+          {
+            "id": "b",
+            "en": "The council had officially confirmed the rumour.",
+            "zh": "市議會已正式證實傳聞。"
+          },
+          {
+            "id": "c",
+            "en": "The rumour was corrected before anyone shared it.",
+            "zh": "傳聞在有人轉發前已被更正。"
+          },
+          {
+            "id": "d",
+            "en": "Only one person had seen the message.",
+            "zh": "只有一個人看過訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "五個群組都有同一傳聞，顯示它已流傳；真偽仍未證實。"
+      },
+      "reply": {
+        "promptEn": "Why did the teacher address the exam-date rumour in class? It had been repeated in several student chats, although the school had not confirmed any change.",
+        "promptZh": "（老師為何在課堂澄清考試日期的傳聞？它已在多個學生群組重複出現，但學校未確認任何改動。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several student groups had already shared the rumour.",
+            "zh": "多個學生群組已轉傳傳聞。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher needed to address its spread, not treat it as confirmed.",
+            "zh": "老師須回應它的傳播，並非把它當作已證實。"
+          },
+          {
+            "id": "c",
+            "en": "The rumour had done the rounds before any official confirmation.",
+            "zh": "傳聞在獲官方確認前已廣泛流傳。"
+          },
+          {
+            "id": "d",
+            "en": "The rumour reached enough students to merit clarification.",
+            "zh": "傳聞已傳到足夠多學生耳中，值得澄清。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認傳聞廣傳但未獲證實；金句用 done the rounds。"
+      },
+      "scene": {
+        "promptZh": "一張活動海報在多個部門的聊天群組反覆轉發，但主辦單位仍在修改時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The draft poster has done the rounds, though its time may still change.",
+            "zh": "海報草稿已廣泛流傳，但活動時間仍可能改動。"
+          },
+          {
+            "id": "b",
+            "en": "The final event time is certain because many people shared the poster.",
+            "zh": "很多人轉發海報，所以活動時間一定已定。"
+          },
+          {
+            "id": "c",
+            "en": "No one beyond the designer has seen the poster.",
+            "zh": "除設計師外，沒有人看過海報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多個群組轉發支持廣泛流傳；草稿上的時間仍未確定。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 the story has done the rounds？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The story reaches dozens of parent groups through forwarding.",
+            "zh": "故事經轉發傳到數十個家長群組。"
+          },
+          {
+            "id": "b",
+            "en": "An unsent draft remains on one writer’s private laptop.",
+            "zh": "未發出的草稿只留在一位作者的私人電腦。"
+          },
+          {
+            "id": "c",
+            "en": "Several local newsletters repeat the same story.",
+            "zh": "多份地方通訊重複報道同一故事。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "未發出的私人草稿沒有流傳。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「傳聞已做了很多轉發，所以肯定是真的。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may have done the rounds, but sharing is not verification.",
+            "zh": "它或許已廣泛流傳，但轉發不等於核實。"
+          },
+          {
+            "id": "b",
+            "en": "Wide circulation proves that the date has changed.",
+            "zh": "廣泛流傳證明日期已改。"
+          },
+          {
+            "id": "c",
+            "en": "A rumour cannot spread until an official notice appears.",
+            "zh": "未有正式通知前，傳聞不可能傳開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "廣傳與真偽是兩個不同判斷。"
+      },
+      "speaking": {
+        "en": "The outdated route map had done the rounds in local chats, so the organiser sent everyone the revised version.",
+        "zh": "舊路線圖已在本地群組廣泛流傳，因此籌辦人向各人發出修訂版。",
+        "promptZh": "先聽示範，再說明為何需要發出修訂版。",
+        "targetSpan": {
+          "start": 27,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：遺失寵物的尋找告示先在十個社區群組廣泛轉發，翌日主人找到寵物，但舊告示仍在流傳。用一至兩句英文交代傳播情況和更新，不要把舊告示說成最新消息。",
+        "selfCheckZh": "寫出舊告示已廣泛流傳、寵物已找回、須更新訊息。",
+        "examples": [
+          {
+            "en": "The lost-pet notice had done the rounds in ten community groups; after finding the pet, the owner sent an update because the old notice was still circulating.",
+            "zh": "尋找寵物的告示已在十個社區群組廣泛流傳；找回寵物後，主人發出更新，因舊告示仍在轉傳。"
+          },
+          {
+            "en": "Because the original notice had done the rounds in ten community groups, the owner posted a correction when the pet was found the next day.",
+            "zh": "原告示已在十個社區群組廣泛流傳，因此主人翌日找回寵物時，發帖更正消息。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lost-pet notice",
+            "zh": "尋找寵物的告示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "ten community groups",
+            "zh": "十個社區群組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 63
+            }
+          },
+          {
+            "en": "sent an update",
+            "zh": "發出更新",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 112
+            }
+          },
+          {
+            "en": "old notice",
+            "zh": "舊告示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 135
+            }
+          },
+          {
+            "en": "original notice",
+            "zh": "原告示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 27
+            }
+          },
+          {
+            "en": "pet was found",
+            "zh": "寵物已找回",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When news has done the rounds, it has circulated widely, whether or not it is accurate.",
+          "zh": "消息廣泛流傳時，不論真偽，均可說它已廣傳。"
+        },
+        {
+          "en": "A story doing the rounds may need an update when the facts change.",
+          "zh": "消息廣泛流傳後若事實改變，可能需要更新。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2827",
+      "number": 2827,
+      "inventoryId": "expr-2827",
+      "titleEn": "blind trust",
+      "titleZh": "盲目信任",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bblind\\s+trust\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Trust given without examining evidence or possible weaknesses.",
+        "meaningZh": "未審視證據或可能問題便給予的信任。",
+        "grammar": "Noun phrase blind trust, often contrasted with informed trust; blind describes the absence of scrutiny, not eyesight.",
+        "register": "Measured editorial judgement: an editor asks junior reporters to verify a claim before publishing without assuming every source is dishonest.",
+        "boundaryZh": "審慎查證不等於完全不信任；片語批評的是缺乏查證。",
+        "misconceptionZh": "不是視力問題，也不是要求對所有人一概懷疑。",
+        "outcomeZh": "能分清有根據的信任、盲目信任和一概不信任。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0716",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "67–68",
+          "locatorNote": "DOCX table 63, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The editor wants informed trust, not blind trust.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blind trust"
+        }
+      ],
+      "listening": {
+        "en": "The report cites one anonymous post but no documents. The editor asks for records before publication: informed trust, not blind trust.",
+        "zh": "報告只引用一篇匿名貼文，沒有文件。編輯要求刊出前查看紀錄：要有根據的信任，不要盲目信任。",
+        "promptZh": "blind trust 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Accepting the post without checking its claim.",
+            "zh": "未查證便接受貼文的說法。"
+          },
+          {
+            "id": "b",
+            "en": "Checking records before deciding whether to rely on the post.",
+            "zh": "先核對紀錄，再決定是否依據貼文。"
+          },
+          {
+            "id": "c",
+            "en": "Rejecting every source regardless of its evidence.",
+            "zh": "不論證據如何，一概否定所有消息來源。"
+          },
+          {
+            "id": "d",
+            "en": "Rejecting the post as false without checking it.",
+            "zh": "未經查證便斷定貼文虛假。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "盲目信任是未經查證便接受說法；編輯要求相反做法。"
+      },
+      "reply": {
+        "promptEn": "Why does the charity treasurer ask to see receipts before approving a reimbursement? The volunteer may be honest, but the team has not yet checked the amount.",
+        "promptZh": "（慈善機構司庫為何在批准報銷前要求看收據？義工可能是誠實的，但團隊尚未核對金額。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Receipts let the team verify the amount before paying.",
+            "zh": "收據讓團隊付款前核對金額。"
+          },
+          {
+            "id": "b",
+            "en": "Checking evidence does not mean accusing the volunteer of lying.",
+            "zh": "核對證據不代表指控義工說謊。"
+          },
+          {
+            "id": "c",
+            "en": "The treasurer wants evidence rather than blind trust.",
+            "zh": "司庫要有證據，不願盲目信任。"
+          },
+          {
+            "id": "d",
+            "en": "The team can trust the volunteer responsibly after checking.",
+            "zh": "核對後，團隊可以有根據地信任義工。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都支持核對資料而不武斷指控；金句用 blind trust。"
+      },
+      "scene": {
+        "promptZh": "一間商店聲稱產品可節電一半，卻尚未提交測試數據；採購員要求看報告才下單。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The buyer avoids blind trust by asking for test results.",
+            "zh": "採購員要求測試結果，以免盲目信任。"
+          },
+          {
+            "id": "b",
+            "en": "The buyer knows the product is fraudulent without any evidence.",
+            "zh": "採購員未有證據，卻已知道產品是騙局。"
+          },
+          {
+            "id": "c",
+            "en": "The claim is proved true because the shop repeated it.",
+            "zh": "商店多說幾次，就證明聲稱屬實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "索取數據是先查證再信任，既不盲信也不先定罪。"
+      },
+      "contrast": {
+        "promptZh": "哪個例子最不屬於 blind trust？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager signs off a figure without opening the attached report.",
+            "zh": "經理不看附件報告便批准數字。"
+          },
+          {
+            "id": "b",
+            "en": "A buyer compares the claim with independent test results before ordering.",
+            "zh": "採購員下單前把聲稱與獨立測試結果比較。"
+          },
+          {
+            "id": "c",
+            "en": "A reader accepts an anonymous post solely because it has many likes.",
+            "zh": "讀者只因匿名貼文獲很多讚好就相信它。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "先比較獨立測試結果是有根據的判斷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「要求對方給證據就是不信任對方。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Checking a claim can replace blind trust with informed trust without calling anyone dishonest.",
+            "zh": "核對聲稱可把盲目信任轉為有根據的信任，毋須指責任何人不誠實。"
+          },
+          {
+            "id": "b",
+            "en": "If we trust someone at all, we must skip every check.",
+            "zh": "只要信任對方，就必須省略所有核對。"
+          },
+          {
+            "id": "c",
+            "en": "Asking for evidence proves the person lied.",
+            "zh": "要求證據就證明對方說謊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "查證與信任可以並存。"
+      },
+      "speaking": {
+        "en": "The coach read the injury report before approving the player’s return; she wanted informed judgement rather than blind trust.",
+        "zh": "教練批准球員復出前閱讀傷患報告；她希望作有根據的判斷，而非盲目信任。",
+        "promptZh": "先聽示範，再指出教練根據甚麼作判斷。",
+        "targetSpan": {
+          "start": 113,
+          "end": 124
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區委員會考慮推薦一項募款計劃；宣傳材料聲稱款項全用於服務，但尚未提供財務報告。委員會要求先看紀錄，不打算在證據不足時指控籌辦人。用一至兩句英文交代態度。",
+        "selfCheckZh": "寫出尚未提供報告、委員會要求查看紀錄，並避免把審慎查證說成已證實欺詐。",
+        "examples": [
+          {
+            "en": "The committee wants the financial records before recommending the fundraiser; without a report, blind trust in the spending claim would be premature.",
+            "zh": "委員會推薦募款計劃前要查看財務紀錄；未有報告時盲信款項用途的聲稱，為時過早。"
+          },
+          {
+            "en": "Rather than offer blind trust or accuse the organisers, the committee asks for a financial report to check the spending claim.",
+            "zh": "委員會既不盲目信任，也不指控籌辦人，而是索取財務報告核對款項用途的聲稱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "financial records",
+            "zh": "財務紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 41
+            }
+          },
+          {
+            "en": "before recommending",
+            "zh": "推薦前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 61
+            }
+          },
+          {
+            "en": "without a report",
+            "zh": "未有報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "spending claim",
+            "zh": "款項用途的聲稱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 129
+            }
+          },
+          {
+            "en": "the organisers",
+            "zh": "籌辦人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 54
+            }
+          },
+          {
+            "en": "financial report",
+            "zh": "財務報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Blind trust accepts a claim without enough checking.",
+          "zh": "盲目信任指未充分查證便接受聲稱。"
+        },
+        {
+          "en": "Avoiding blind trust means using evidence, not accusing someone without proof.",
+          "zh": "避免盲目信任是參考證據，並非無憑無據地指責別人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2829",
+      "number": 2829,
+      "inventoryId": "expr-2829",
+      "titleEn": "sit on it in silence",
+      "titleZh": "默默把消息壓着不說",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:sit|sits|sat|sitting)\\s+on\\s+(?:it|the\\s+news|the\\s+information)(?:\\s+in\\s+silence)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Keep known news or information to oneself instead of telling others; in silence intensifies the withholding.",
+        "meaningZh": "知道消息卻暫不告訴別人；in silence 強調默不作聲。",
+        "grammar": "Pattern sit/sat/sitting on it or on the news/information; in silence is an optional intensifier, and it refers to withholding information rather than sitting physically.",
+        "register": "Conversational personal update: a student tells a friend that she kept a scholarship result confidential until the named announcement time.",
+        "boundaryZh": "壓着不說不一定不當；守約或尊重保密安排時也可能合理。",
+        "misconceptionZh": "不是坐在物品上；也不能從保持沉默推斷消息一定負面。",
+        "outcomeZh": "能交代誰知道消息、為何暫不說，以及何時可以分享，而不武斷評價保密行為。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0718",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "69–71",
+          "locatorNote": "DOCX table 64, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She could not sit on it in silence after the result arrived.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sit on it in silence"
+        }
+      ],
+      "listening": {
+        "en": "Mira knew the scholarship result on Monday but had promised to wait until Friday’s school notice. She sat on it in silence for four days.",
+        "zh": "米拉星期一已知道獎學金結果，但答應等到星期五學校公布。她默默把消息壓了四天沒有說。",
+        "promptZh": "sat on it in silence 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept the result to herself until the agreed announcement.",
+            "zh": "她把結果暫時藏在心裏，等約定時間公布。"
+          },
+          {
+            "id": "b",
+            "en": "She had not received the result until Friday.",
+            "zh": "她直到星期五才收到結果。"
+          },
+          {
+            "id": "c",
+            "en": "She told everyone the result on Monday.",
+            "zh": "她星期一便把結果告訴所有人。"
+          },
+          {
+            "id": "d",
+            "en": "The result was necessarily bad news.",
+            "zh": "結果一定是壞消息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "米拉已知道結果但按約定暫不分享；片語並不判斷消息好壞。"
+      },
+      "reply": {
+        "promptEn": "Why did Arun wait to tell his sister about the surprise reunion? He knew the date, but the family agreed to reveal it together on Sunday.",
+        "promptZh": "（阿倫為何等到星期日才告訴妹妹驚喜聚會的日期？他早知道日期，但家人約定星期日一起公布。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He kept the date private until the shared reveal.",
+            "zh": "他在共同公布前把日期保密。"
+          },
+          {
+            "id": "b",
+            "en": "He honoured the family’s agreed announcement time.",
+            "zh": "他遵守家人約定的公布時間。"
+          },
+          {
+            "id": "c",
+            "en": "He sat on the news in silence until Sunday.",
+            "zh": "他默默把消息壓着不說，直至星期日。"
+          },
+          {
+            "id": "d",
+            "en": "He knew the date but chose not to tell his sister earlier.",
+            "zh": "他知道日期，但選擇不提早告訴妹妹。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述按約定暫不分享；金句用 sit on the news。"
+      },
+      "scene": {
+        "promptZh": "義工提前知道抽獎得主，但活動主持安排在台上宣布，她便一直未透露。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sat on the information until the host announced it.",
+            "zh": "她把消息壓着不說，直至主持宣布。"
+          },
+          {
+            "id": "b",
+            "en": "She told every attendee before the announcement.",
+            "zh": "她在宣布前告訴每位參加者。"
+          },
+          {
+            "id": "c",
+            "en": "She had forgotten the winner’s name.",
+            "zh": "她忘了得主姓名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她知道結果而暫時保密；沒有證據說她忘記了。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 someone sat on the news？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A club secretary knows the award result but waits for the agreed ceremony.",
+            "zh": "學會秘書知道得獎結果，但等到約定典禮才說。"
+          },
+          {
+            "id": "b",
+            "en": "A reporter announces a confirmed result as soon as she receives permission.",
+            "zh": "記者一獲批准便公布已證實結果。"
+          },
+          {
+            "id": "c",
+            "en": "A friend learns about a surprise party and keeps it private until the guest arrives.",
+            "zh": "朋友知道驚喜派對後，一直保密至嘉賓到場。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "獲准後立即公布，不是在已知消息後把它壓着不說。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「她沒有立刻分享結果，所以一定做錯事。」但她承諾先等學校正式通知。你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sat on it in silence to honour the agreed timing; withholding is not automatically wrong.",
+            "zh": "她默默把消息壓着不說，是為遵守約定時間；暫不分享不一定是錯。"
+          },
+          {
+            "id": "b",
+            "en": "Keeping a promise proves the result was harmful.",
+            "zh": "遵守承諾證明結果有害。"
+          },
+          {
+            "id": "c",
+            "en": "If she knew the result, she must have told everyone already.",
+            "zh": "她若知道結果，就一定已告訴所有人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "守約可構成合理保密理由，不能憑沉默判斷對錯。"
+      },
+      "speaking": {
+        "en": "She had good news on Tuesday but sat on it in silence until the team could hear it together on Friday.",
+        "zh": "她星期二已知道好消息，但默默壓着不說，等到星期五讓團隊一起聽到。",
+        "promptZh": "先聽示範，再指出她等待的原因和期限。",
+        "targetSpan": {
+          "start": 33,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友已知道驚喜畢業聚會的日期，但全班約定周五才一起告訴畢業生；朋友一直守口如瓶，並非忘了通知。用一至兩句英文描述她的保密及原因。",
+        "selfCheckZh": "寫出她已知道日期、依約在周五前保密、不是忘記告知。",
+        "examples": [
+          {
+            "en": "She knew the surprise graduation party date, but sat on it in silence until Friday because the class had agreed to tell the graduate together.",
+            "zh": "她已知道驚喜畢業聚會日期，但因全班約好一起告訴畢業生，所以默默把消息壓着不說，直至星期五。"
+          },
+          {
+            "en": "The class agreed on a Friday reveal, so she sat on the news in silence despite knowing the party date already.",
+            "zh": "全班約好星期五公布，所以她雖已知道聚會日期，仍默默把消息壓着不說。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "surprise graduation party",
+            "zh": "驚喜畢業聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 38
+            }
+          },
+          {
+            "en": "until Friday",
+            "zh": "直至星期五",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 82
+            }
+          },
+          {
+            "en": "tell the graduate together",
+            "zh": "一起告訴畢業生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 141
+            }
+          },
+          {
+            "en": "Friday reveal",
+            "zh": "星期五公布",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 35
+            }
+          },
+          {
+            "en": "party date",
+            "zh": "聚會日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 101
+            }
+          },
+          {
+            "en": "knowing",
+            "zh": "已知道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 86
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To sit on the news means withhold it for a time, not physically sit on an object.",
+          "zh": "把消息壓着不說是暫不透露，不是實際坐在物件上。"
+        },
+        {
+          "en": "Someone may sit on it in silence to honour a promise; the phrase alone does not judge the choice.",
+          "zh": "有人會為了守約而默默把消息壓着不說；片語本身不判斷這個決定的對錯。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2830",
+      "number": 2830,
+      "inventoryId": "expr-2830",
+      "titleEn": "spill over",
+      "titleZh": "流露出來並感染周圍",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:spill|spills|spilled|spilling)\\s+over\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Of an emotion, become visibly expressed or spread into another response or setting.",
+        "meaningZh": "指情緒明顯流露，或延伸到另一種反應或情境。",
+        "grammar": "Emotion such as joy, relief or excitement spills/spilled over into + visible reaction; the same verb can literally describe liquid, but this lesson teaches the emotional use.",
+        "register": "Warm but accurate celebration account: a student describes how her team’s relief became audible cheers after a science-fair result.",
+        "boundaryZh": "情緒流露可以引起笑聲或歡呼，但不必推斷現場每個人都感受相同。",
+        "misconceptionZh": "不是液體溢出，也不是只要有人高興便必然感染所有人。",
+        "outcomeZh": "能指出甚麼情緒流露、以甚麼可觀察方式表現，並避免誇大其他人的反應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0719",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "69–71",
+          "locatorNote": "DOCX table 64, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At the reunion, joy tends to spill over into laughter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "joy tends to spill over"
+        }
+      ],
+      "listening": {
+        "en": "When the choir heard it had won, the singers smiled and then burst into cheers and applause. Their relief spilled over into applause.",
+        "zh": "合唱團得知獲勝後，團員先微笑，隨即歡呼並鼓掌；他們的如釋重負化為掌聲。",
+        "promptZh": "relief spilled over into applause 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their relief became visible and audible in their reaction.",
+            "zh": "他們的如釋重負在反應中明顯流露。"
+          },
+          {
+            "id": "b",
+            "en": "Their relief stayed private and produced no outward reaction.",
+            "zh": "他們只在心裏鬆一口氣，沒有流露任何反應。"
+          },
+          {
+            "id": "c",
+            "en": "Every person in the building felt exactly the same emotion.",
+            "zh": "大樓裏每個人的感受完全相同。"
+          },
+          {
+            "id": "d",
+            "en": "They had been applauding before hearing the result.",
+            "zh": "他們在聽到結果前已鼓掌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語說情緒轉為可見可聞的反應，並非液體外溢。"
+      },
+      "reply": {
+        "promptEn": "What happened when the volunteer team learned the missing dog was safe? They first looked relieved, then began laughing and clapping; the owner thanked them.",
+        "promptZh": "（義工隊得知走失的狗平安無事後有甚麼反應？他們先鬆一口氣，然後笑着鼓掌；主人向他們道謝。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their relief showed in laughter and clapping.",
+            "zh": "他們的如釋重負透過笑聲和掌聲流露。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers’ quiet relief became an open reaction.",
+            "zh": "義工原本安靜的放心，變成明顯反應。"
+          },
+          {
+            "id": "c",
+            "en": "Their relief spilled over into laughter and applause.",
+            "zh": "他們的如釋重負化為笑聲與掌聲。"
+          },
+          {
+            "id": "d",
+            "en": "The team reacted openly after hearing the dog was safe.",
+            "zh": "團隊得知狗平安後，明顯流露情緒。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以可觀察反應描述情緒；金句用 spilled over into。"
+      },
+      "scene": {
+        "promptZh": "比賽結果公布時，隊員先鬆一口氣，接着擁抱和歡呼。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their relief spilled over into hugs and cheers.",
+            "zh": "他們的如釋重負化為擁抱和歡呼。"
+          },
+          {
+            "id": "b",
+            "en": "Their relief remained completely hidden.",
+            "zh": "他們完全沒有流露如釋重負的感覺。"
+          },
+          {
+            "id": "c",
+            "en": "The judges shared the same relief and hugged one another.",
+            "zh": "評判同樣鬆一口氣，並互相擁抱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "擁抱和歡呼是情緒明顯流露的方式。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 joy spilled over into laughter？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reunion guest smiles, then starts laughing with friends.",
+            "zh": "重聚的嘉賓先微笑，然後與朋友笑起來。"
+          },
+          {
+            "id": "b",
+            "en": "A guest feels pleased internally but shows no visible reaction.",
+            "zh": "嘉賓心裏高興，但沒有任何外顯反應。"
+          },
+          {
+            "id": "c",
+            "en": "A team’s excitement becomes loud cheers after the result.",
+            "zh": "團隊得知結果後，興奮化為高聲歡呼。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "片語要求情緒有可見可聞的外顯或延伸；只有內心感受不足。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「有人高興得笑起來，便代表現場所有人一樣高興。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their joy may spill over into laughter, but that does not tell us how everyone else feels.",
+            "zh": "他們的喜悅可以流露為笑聲，但這不能說明其他每個人的感受。"
+          },
+          {
+            "id": "b",
+            "en": "One laugh proves that every person shares the same joy.",
+            "zh": "一個人笑，就證明人人有同樣的喜悅。"
+          },
+          {
+            "id": "c",
+            "en": "Their laughter proves they had felt no anxiety beforehand.",
+            "zh": "他們的笑聲證明之前完全沒有焦慮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可描述特定人的情緒流露，不應憑此推論所有人的心情。"
+      },
+      "speaking": {
+        "en": "At the reunion, joy spilled over into laughter when the old friends recognised one another.",
+        "zh": "重聚時，老朋友認出彼此，喜悅便流露為笑聲。",
+        "promptZh": "先聽示範，再指出喜悅變成甚麼反應。",
+        "targetSpan": {
+          "start": 20,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學展覽的學生團隊得知作品獲獎，原本緊張的成員先鬆一口氣，然後一起歡呼；旁邊一名評判只是點頭，未見她歡呼。用一至兩句英文描述團隊情緒如何流露，不要代評判猜想。",
+        "selfCheckZh": "寫出團隊得獎、由緊張或放心變成歡呼，不要聲稱評判也歡呼或感受相同。",
+        "examples": [
+          {
+            "en": "When the students won the science fair, their relief spilled over into cheers; the judge beside them merely nodded.",
+            "zh": "學生在科學展覽獲獎後，如釋重負化為歡呼；旁邊的評判只點了點頭。"
+          },
+          {
+            "en": "The team had been nervous, but after the award was announced, their joy spilled over into loud cheers while the judge simply nodded.",
+            "zh": "團隊本來緊張，但獎項公布後，他們的喜悅化為高聲歡呼，而評判只是點頭。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "science fair",
+            "zh": "科學展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 38
+            }
+          },
+          {
+            "en": "relief",
+            "zh": "如釋重負",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 52
+            }
+          },
+          {
+            "en": "cheers",
+            "zh": "歡呼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 77
+            }
+          },
+          {
+            "en": "merely nodded",
+            "zh": "只點了點頭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 114
+            }
+          },
+          {
+            "en": "had been nervous",
+            "zh": "本來緊張",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 25
+            }
+          },
+          {
+            "en": "award was announced",
+            "zh": "獎項公布",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 60
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Joy can spill over into laughter when it becomes openly expressed.",
+          "zh": "喜悅明顯流露時，可以化為笑聲。"
+        },
+        {
+          "en": "An emotion spilling over in one group does not prove everyone nearby shares it.",
+          "zh": "一組人情緒流露，不能證明旁邊人人感受相同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

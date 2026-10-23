@@ -1,0 +1,57 @@
+{
+  "reviewType": "AI source-owner scope analysis and author repair; independent review and human owner approval pending",
+  "lessonId": "advanced-native-2803",
+  "createdUtc": "2026-10-23T13:08:05.587229+00:00",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+    "sha256": "6cca77fe5a2c52510259b09232d357095c26ff33649f9f16609dbe0e01ce00d5"
+  },
+  "companionDraftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+    "sha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95"
+  },
+  "sourceComparison": [
+    {
+      "sourceOrdinal": 2803,
+      "sourceId": "book10-16-0692",
+      "sentence": "Customers increasingly expect on-demand delivery.",
+      "grammaticalForm": "hyphenated attributive adjective before the service noun",
+      "targetMatched": true
+    },
+    {
+      "sourceOrdinal": 4220,
+      "sourceId": "book10-16-2109",
+      "sentence": "Staff cannot provide perfect results on demand.",
+      "grammaticalForm": "unhyphenated adverbial phrase after provide",
+      "targetMatched": true
+    }
+  ],
+  "ownerDecision": "One coherent lesson can teach both forms because both mean availability or provision when requested; grammar changes with syntactic position. The second source also makes the quality boundary explicit: on demand does not promise perfect results. The revised lesson explicitly contrasts the forms rather than treating one as outside scope.",
+  "targetPattern": "\\bon[- ]demand\\b",
+  "sevenStepCoverage": {
+    "listening": "interprets on-demand adjective and the limit on perfect answer provision",
+    "reply": "on-demand before noun in a flexible loan service",
+    "scene": "on demand after request interpreting",
+    "contrast": "distinguishes request-based service from automatic fixed schedule, including postverbal on demand option",
+    "dialogue": "on demand after request delivery plus stated two-hour window",
+    "speaking": "on-demand before audiobook service noun",
+    "writing": "model one on-demand before pickup; model two on demand after request"
+  },
+  "exactChecks": {
+    "bothSourceSentencesMatched": true,
+    "bothWritingModelsMatched": true,
+    "noTargetInAnswerGlossary": true,
+    "contentRevision": 2,
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "pass",
+    "combinedBooks1016Verifier": "pass; 0 selected existing alias exceptions and 0 whole-catalogue schema errors"
+  },
+  "editedDecisionFiles": false,
+  "editedManifest": false,
+  "releaseApproved": false,
+  "openGates": [
+    "Independent bilingual/owner-scope exact-hash review of revised lesson 2803",
+    "Human owner/sense approval under Golden SOP",
+    "Media listening, device QA, and release approval"
+  ]
+}

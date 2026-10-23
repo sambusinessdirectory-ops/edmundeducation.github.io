@@ -1,0 +1,68 @@
+{
+  "reportType": "independent-ai-owner-unification-exact-hash-review",
+  "scope": "Lesson 2803 revision 2, unified source occurrences 2803 and 4220; seven-step content plus unchanged companion batch",
+  "inputFiles": {
+    "draftBatch1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+      "sha256": "6cca77fe5a2c52510259b09232d357095c26ff33649f9f16609dbe0e01ce00d5"
+    },
+    "draftBatch2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+      "sha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95"
+    },
+    "ownerComparison": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-owner-comparison-2803-4220.json",
+      "sha256": "2de47a238f2eaf5b8976eecd12a04235e18e93a0e27651521f23c13f3dd4691b"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2803-2830-review-pilot.json",
+      "sha256": "0a5e8039e24fbbd4f95fedc95eb936d88bc69cf63bc8f9bc9ce3fc8ca1bd390d"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "sourceSense": {
+    "status": "clear",
+    "evidence": "Inventory source 0692 uses hyphenated adjectival on-demand before delivery; source 2109 uses unhyphenated adverbial on demand after provide. Both mean provision when requested. The second source denies guaranteed perfect results; the lesson preserves that quality boundary."
+  },
+  "targetAndGrammar": {
+    "status": "clear",
+    "pattern": "\\bon[- ]demand\\b",
+    "evidence": "Fresh gi matching finds on-demand in source 0692 and on demand in source 2109; both writing models and assessed positive examples match. The brief accurately distinguishes adjective before noun and adverbial after verb. Speaking span selects exact on-demand."
+  },
+  "sevenSteps": {
+    "status": "clear",
+    "evidence": "Listening models both forms and tests request-based access versus instant/perfect fulfilment; reply has four factually valid alternatives and a target-bearing golden answer; scene tests postverbal form; contrast distinguishes requests from automatic delivery; dialogue corrects instant-arrival overclaim; speaking uses prenominal form; writing transfers to bicycle collection and models each form in a separate complete example."
+  },
+  "bilingualAndFairness": {
+    "status": "clear",
+    "evidence": "English and Traditional Chinese consistently express request-based availability, two-hour/two-day fulfilment windows, and lack of instant or perfect guarantee. Keys and distractors do not require unsupported facts. The four reply options are independently true in the supplied library scenario."
+  },
+  "glossary": {
+    "status": "clear",
+    "count": 6,
+    "evidence": "Six non-target glossary entries have exact source spans in the two writing examples."
+  },
+  "regressionReview": {
+    "status": "clear",
+    "evidence": "2806 and 2813 repaired writing details remain present. Unchanged batch-2 retains prior content clearance. No newly observed blocker in the revised 2803 lesson."
+  },
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-review-b-2803-two-form"
+  },
+  "remainingGates": [
+    "Human source-owner sign-off",
+    "Independent human English/Chinese/media/QA review",
+    "Device verification and release approval"
+  ],
+  "selectionRecommendation": "Content-cleared for provisional selection; no human or release approval implied.",
+  "selectedOrPublished": false
+}

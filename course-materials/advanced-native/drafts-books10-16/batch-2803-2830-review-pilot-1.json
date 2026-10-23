@@ -1,0 +1,1124 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2803-2830-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2803",
+      "number": 2803,
+      "inventoryId": "expr-2803",
+      "titleEn": "on demand / on-demand",
+      "titleZh": "按需；按需提供的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bon[- ]demand\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Available or supplied when requested, rather than only at a fixed scheduled time; the two spellings have different grammatical positions.",
+        "meaningZh": "在有人提出要求時提供，而非只在固定時段供應；兩種英文寫法的位置不同。",
+        "grammar": "Use hyphenated adjective on-demand before a noun (on-demand delivery); use adverbial on demand after a verb (provide results on demand). Both share the request-based meaning; neither promises instant or perfect fulfilment.",
+        "register": "Practical service explanation: a delivery coordinator tells customers how to request collection; a manager also explains why staff cannot provide perfect results whenever asked.",
+        "boundaryZh": "按需提出要求不等於立即或完美完成；on-demand 放名詞前，on demand 放動詞後。",
+        "misconceptionZh": "兩種寫法不是任意互換位置；也不保證按下按鈕後幾秒便到或結果完美。",
+        "outcomeZh": "能根據句中位置選擇 on-demand 或 on demand，並分清要求時間與完成時間及成果品質。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0692",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 64,
+          "book": 11,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 61, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Customers increasingly expect on-demand delivery.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on-demand"
+        },
+        {
+          "occurrenceId": "book10-16-2109",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 199,
+          "book": 16,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 216, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Staff cannot provide perfect results on demand.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on demand"
+        }
+      ],
+      "listening": {
+        "en": "Members can request a video lesson whenever they need one, and a tutor replies within a day. The platform offers on-demand lessons; its tutors cannot produce perfect answers on demand.",
+        "zh": "會員需要時可隨時要求影片課程，導師會在一天內回覆。平台提供按需課程；導師無法一經要求便交出完美答案。",
+        "promptZh": "on-demand lessons 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members can request lessons when they need them.",
+            "zh": "會員可在有需要時提出課程要求。"
+          },
+          {
+            "id": "b",
+            "en": "Lessons are sent automatically on one fixed day each month.",
+            "zh": "課程每月固定某一天自動發送。"
+          },
+          {
+            "id": "c",
+            "en": "A tutor must answer within a few seconds of every request.",
+            "zh": "導師必須在每次要求後數秒內回覆。"
+          },
+          {
+            "id": "d",
+            "en": "Members can request a lesson only during one weekly class hour.",
+            "zh": "會員只能在每週固定上課時段要求課程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可以按需要提出要求，但導師仍有一天回覆時間。"
+      },
+      "reply": {
+        "promptEn": "How does the neighbourhood tool library lend drills? Members book a drill when a repair comes up, and the library confirms collection within two days instead of sending tools automatically each month.",
+        "promptZh": "（社區工具圖書館怎樣借出電鑽？會員有維修需要時預訂，圖書館在兩天內確認領取安排，而非每月自動寄送工具。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members request a drill when a repair actually arises.",
+            "zh": "會員有實際維修需要時才預訂電鑽。"
+          },
+          {
+            "id": "b",
+            "en": "The service responds to requests instead of a monthly automatic schedule.",
+            "zh": "服務按要求處理，而非每月自動安排。"
+          },
+          {
+            "id": "c",
+            "en": "It provides on-demand drill loans with a stated confirmation window.",
+            "zh": "它提供按需電鑽借用，並有明確確認時限。"
+          },
+          {
+            "id": "d",
+            "en": "Booking is flexible even though confirmation may take two days.",
+            "zh": "預訂時間靈活，但確認可能要兩天。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都區分按需預訂與兩天確認期；金句使用 on-demand。"
+      },
+      "scene": {
+        "promptZh": "一間診所可在病人提出要求後安排電話翻譯員，通常一小時內接通；病人不用等每週固定翻譯日。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Patients can request interpreting on demand, though connection is not instantaneous.",
+            "zh": "病人可按需要求翻譯服務，但接通並非即時。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic provides interpreting only on one fixed day each week.",
+            "zh": "診所只在每週固定某一天提供翻譯。"
+          },
+          {
+            "id": "c",
+            "en": "Every interpreter connects before the patient finishes asking.",
+            "zh": "每位翻譯員都在病人說完要求前接通。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "病人可按需要提出要求；通常一小時內接通不等於立即。"
+      },
+      "contrast": {
+        "promptZh": "哪個安排最不符合按需提供（on-demand／on demand）？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Customers request a pickup when they have a parcel ready.",
+            "zh": "顧客準備好包裹時要求上門取件。"
+          },
+          {
+            "id": "b",
+            "en": "Every household receives the same delivery on the first Monday, whether requested or not.",
+            "zh": "不論有沒有要求，每戶都在第一個星期一收到相同送貨。"
+          },
+          {
+            "id": "c",
+            "en": "Students request tutoring on demand when they need help.",
+            "zh": "學生有需要時按需要求補習。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "固定自動送貨不取決於使用者當時的要求。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這是 on-demand 服務，所以我現在按預訂，物品一定要立刻出現在門前。」已公布的送達時間是兩小時內。你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can request delivery on demand now, but the two-hour fulfilment window still applies.",
+            "zh": "你現在可以按需要求送貨，但仍須按兩小時送達期限等候。"
+          },
+          {
+            "id": "b",
+            "en": "The two-hour window means this service cannot accept requests when needed.",
+            "zh": "兩小時送達期表示服務不能按需要接受要求。"
+          },
+          {
+            "id": "c",
+            "en": "A flexible request time guarantees arrival in a few seconds.",
+            "zh": "可靈活提出要求，就保證數秒內送到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提出要求的時點與完成送貨的時點是兩回事。"
+      },
+      "speaking": {
+        "en": "The library’s on-demand audiobook service lets members start a title when they choose, without a fixed broadcast schedule.",
+        "zh": "圖書館的按需有聲書服務讓會員自選何時開始聆聽，不受固定播放時間限制。",
+        "promptZh": "先聽示範，再指出使用者如何決定開始時間。",
+        "targetSpan": {
+          "start": 14,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區單車維修隊讓居民任何一天透過程式要求上門取車，隊伍承諾在兩天內安排；沒有每週固定取車日。用一至兩句英文描述服務的按需性質和處理時間。",
+        "selfCheckZh": "寫出居民可按需要提出要求、安排可能要兩天，不要說按下即刻取車。",
+        "examples": [
+          {
+            "en": "The repair team offers on-demand bicycle pickup: residents request it when needed, and collection is arranged within two days.",
+            "zh": "維修隊提供按需單車取件：居民有需要時提出要求，並在兩天內安排取車。"
+          },
+          {
+            "en": "Residents can request bicycle pickup on demand any day, but the team may take up to two days to arrange collection.",
+            "zh": "居民任何一天都可按需要求取車，但維修隊可能要最多兩天安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The repair team",
+            "zh": "維修隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "bicycle pickup",
+            "zh": "單車取件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 47
+            }
+          },
+          {
+            "en": "within two days",
+            "zh": "兩天內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 125
+            }
+          },
+          {
+            "en": "Residents",
+            "zh": "居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "any day",
+            "zh": "任何一天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 54
+            }
+          },
+          {
+            "en": "arrange collection",
+            "zh": "安排取車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An on-demand service responds to a request rather than arriving on a fixed automatic schedule.",
+          "zh": "按需服務因應要求提供，不是按固定日子自動送到。"
+        },
+        {
+          "en": "Staff may provide a service on demand without promising immediate or perfect results.",
+          "zh": "員工可按需提供服務，但不保證立即完成或結果完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2806",
+      "number": 2806,
+      "inventoryId": "expr-2806",
+      "titleEn": "in a flash",
+      "titleZh": "轉眼之間",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin\\s+a\\s+flash\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Very quickly, often seemingly in an instant.",
+        "meaningZh": "非常迅速，彷彿一瞬間便發生。",
+        "grammar": "Adverbial phrase in a flash after the verb or at the end of a clause; it describes the speed of the named action, not necessarily every later result.",
+        "register": "Informal but precise update: a weather-service worker tells a colleague that an alert appeared quickly while residents still needed time to respond.",
+        "boundaryZh": "只形容所指動作快，不保證整個後續過程也很快或沒有準備。",
+        "misconceptionZh": "不是必須有閃光或閃電；也不表示快出現的訊息一定準確。",
+        "outcomeZh": "能準確指出究竟哪個動作很快，並避免把速度套到所有後續結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0695",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 64,
+          "book": 11,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 61, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The alert appeared in a flash.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in a flash"
+        }
+      ],
+      "listening": {
+        "en": "The storm alert appeared on our phones in a flash after it was sent, but residents still needed time to reach shelter.",
+        "zh": "暴風警報發出後轉眼便出現在手機上，但居民仍需時間前往避難處。",
+        "promptZh": "in a flash 修飾甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The alert appeared on phones very quickly.",
+            "zh": "警報很快便出現在手機上。"
+          },
+          {
+            "id": "b",
+            "en": "Every resident reached shelter immediately.",
+            "zh": "每位居民都立即抵達避難處。"
+          },
+          {
+            "id": "c",
+            "en": "The alert appeared only after residents reached shelter.",
+            "zh": "居民抵達避難處後，警報才出現在手機上。"
+          },
+          {
+            "id": "d",
+            "en": "The warning was guaranteed accurate because it appeared quickly.",
+            "zh": "警報出現得快，就保證內容準確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語說的是警報出現在手機上的速度，不是所有人避難的速度。"
+      },
+      "reply": {
+        "promptEn": "How quickly did the stage lights change after the operator pressed the control? The colours switched almost immediately, though the audience took longer to leave the hall.",
+        "promptZh": "（操作員按下控制器後，舞台燈光改變得多快？顏色幾乎立刻轉換，但觀眾離開場館花了更久。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The colours changed almost immediately.",
+            "zh": "燈光顏色幾乎立刻改變。"
+          },
+          {
+            "id": "b",
+            "en": "The lighting switch happened very fast.",
+            "zh": "燈光切換得很快。"
+          },
+          {
+            "id": "c",
+            "en": "The lights changed in a flash.",
+            "zh": "燈光轉眼間便變了。"
+          },
+          {
+            "id": "d",
+            "en": "The quick change concerned the lights, not how fast people left.",
+            "zh": "迅速改變的是燈光，不是觀眾離開的速度。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都把速度限定於燈光切換；金句用 in a flash。"
+      },
+      "scene": {
+        "promptZh": "職員按下更新鍵後，電子時刻表在兩秒內顯示新班次，但乘客仍要等十五分鐘上車。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The timetable updated in a flash, although the bus did not arrive immediately.",
+            "zh": "時刻表轉眼更新，但巴士並非立即抵達。"
+          },
+          {
+            "id": "b",
+            "en": "The bus arrived in a flash because the screen changed quickly.",
+            "zh": "螢幕更新得快，所以巴士也轉眼抵達。"
+          },
+          {
+            "id": "c",
+            "en": "The screen took fifteen minutes to display the new timetable.",
+            "zh": "螢幕花十五分鐘才顯示新時刻表。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩秒顯示是快；等車十五分鐘不能一併稱快。"
+      },
+      "contrast": {
+        "promptZh": "哪個動作最不適合用 in a flash 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A page opens almost as soon as the link is tapped.",
+            "zh": "點擊連結後，頁面幾乎立即打開。"
+          },
+          {
+            "id": "b",
+            "en": "A permit review continues for six weeks before a decision.",
+            "zh": "許可審批持續六星期才有決定。"
+          },
+          {
+            "id": "c",
+            "en": "A camera captures a falling leaf in a split second.",
+            "zh": "相機在一瞬間拍到落葉。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "六星期才完成的審批不符合非常迅速。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新地圖轉眼便下載好，所以我們不用檢查路線也能保證正確。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It downloaded in a flash, but we still need to check the route.",
+            "zh": "地圖轉眼下載好，但我們仍要檢查路線。"
+          },
+          {
+            "id": "b",
+            "en": "A fast download proves every route detail is correct.",
+            "zh": "下載快就證明每項路線資料都正確。"
+          },
+          {
+            "id": "c",
+            "en": "If checking is needed, the download cannot have been quick.",
+            "zh": "若仍需檢查，就表示下載不可能很快。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "下載速度與路線資料是否可靠是兩個問題。"
+      },
+      "speaking": {
+        "en": "The revised map appeared in a flash, but the team still had to check its details.",
+        "zh": "修訂地圖轉眼間出現，但團隊仍要核對內容。",
+        "promptZh": "先聽示範，再指出快的是哪個動作。",
+        "targetSpan": {
+          "start": 25,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：遊客在車站自助機掃描二維碼後，入場票兩秒內印出，但櫃台隊伍仍排得很長。用一至兩句英文描述機器的速度和整體等候情況。",
+        "selfCheckZh": "寫出票在兩秒內印出，但不能說排隊也瞬間結束。",
+        "examples": [
+          {
+            "en": "The kiosk printed the ticket in a flash—within two seconds of the code being scanned—although the queue remained long.",
+            "zh": "掃碼後兩秒內，自助機轉眼印出票，但隊伍仍很長。"
+          },
+          {
+            "en": "The ticket came out in a flash within two seconds, but visitors still had to wait in the long line.",
+            "zh": "票在兩秒內轉眼印出，但遊客仍要在長隊中等候。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The kiosk",
+            "zh": "自助機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "the ticket",
+            "zh": "票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 28
+            }
+          },
+          {
+            "en": "the code being scanned",
+            "zh": "掃碼後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 84
+            }
+          },
+          {
+            "en": "the queue",
+            "zh": "隊伍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 103
+            }
+          },
+          {
+            "en": "within two seconds",
+            "zh": "兩秒內",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 49
+            }
+          },
+          {
+            "en": "the long line",
+            "zh": "長隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 98
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In a flash describes a very fast event, not necessarily a fast whole process.",
+          "zh": "轉眼之間形容某個動作很快，不一定代表整個過程都快。"
+        },
+        {
+          "en": "A result can appear in a flash and still require careful checking.",
+          "zh": "結果可轉眼出現，卻仍需仔細核對。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2809",
+      "number": 2809,
+      "inventoryId": "expr-2809",
+      "titleEn": "sit around waiting",
+      "titleZh": "閒坐乾等",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:sit|sits|sat|sitting)\\s+around\\s+waiting\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remain idle while waiting for something, especially when useful action could be taken.",
+        "meaningZh": "等候某事時閒着不做事，尤其在其實可以先採取有用行動的情況下。",
+        "grammar": "Pattern: sit/sat/sitting around waiting for + news/person/event; around emphasizes idleness, not physical movement around a room.",
+        "register": "Informal work planning: a community editor tells volunteers they can prepare materials instead of idly awaiting the next bulletin.",
+        "boundaryZh": "等候本身不一定錯；片語帶有閒置或消極乾等的意味，不能套用到積極準備的人。",
+        "misconceptionZh": "不是在房間四周輪流坐，也不等於耐心等待而無其他可做之事。",
+        "outcomeZh": "能分清仍在等消息的人是否閒着不做事，以及可先完成甚麼實際步驟。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0698",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 64,
+          "book": 11,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "65–66",
+          "locatorNote": "DOCX table 62, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We no longer need to sit around waiting for a bulletin.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sit around waiting"
+        }
+      ],
+      "listening": {
+        "en": "The volunteers could prepare the contact list while the bulletin was delayed, but they sat around waiting instead.",
+        "zh": "通告延遲時，義工本可先整理聯絡名單，卻只是閒坐乾等。",
+        "promptZh": "sat around waiting 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They remained idle instead of doing available preparation.",
+            "zh": "他們沒有做可先完成的準備，只閒着等。"
+          },
+          {
+            "id": "b",
+            "en": "They revised the delayed bulletin themselves.",
+            "zh": "他們親自修訂延遲發出的通告。"
+          },
+          {
+            "id": "c",
+            "en": "They used the delay to prepare most of the contact list.",
+            "zh": "他們利用等候時間準備了大部分聯絡名單。"
+          },
+          {
+            "id": "d",
+            "en": "The bulletin was cancelled before they expected it.",
+            "zh": "通告在他們預期前已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有可做的準備工作，卻沒有動手，正是乾等。"
+      },
+      "reply": {
+        "promptEn": "What can the garden group do before the supply truck arrives? Its delivery time is uncertain, but volunteers already have the seed plan and can prepare the beds now.",
+        "promptZh": "（園藝小組在貨車到達前可做甚麼？送貨時間未定，但義工已有種植計劃，現在可以先整理花圃。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can prepare the beds while awaiting supplies.",
+            "zh": "他們可以邊等物資邊整理花圃。"
+          },
+          {
+            "id": "b",
+            "en": "The uncertain delivery need not stop all useful work.",
+            "zh": "送貨時間未定，不必令所有有用工作停下。"
+          },
+          {
+            "id": "c",
+            "en": "They need not sit around waiting when preparation is possible.",
+            "zh": "既然可以先準備，他們不用閒坐乾等。"
+          },
+          {
+            "id": "d",
+            "en": "They can use the plan already in hand before the truck comes.",
+            "zh": "貨車到前，他們可以先用現有計劃辦事。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都建議先做可行工作，金句用 sit around waiting 表示避免消極乾等。"
+      },
+      "scene": {
+        "promptZh": "一班學生等老師回覆活動日期，手上已有參考書單與可整理的資料，卻全程沒有動手，只望着手機。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are sitting around waiting instead of using the materials they have.",
+            "zh": "他們沒有使用現有資料，只是在閒坐乾等。"
+          },
+          {
+            "id": "b",
+            "en": "They have already organised the entire reading list.",
+            "zh": "他們已整理好整份參考書單。"
+          },
+          {
+            "id": "c",
+            "en": "They cannot begin any preparation until the date is confirmed.",
+            "zh": "日期未確定前，他們完全不能開始準備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有可先整理的資料，卻不行動，符合閒坐乾等。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 someone is sitting around waiting？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer watches a delayed inbox despite having forms to prepare.",
+            "zh": "義工有表格可先準備，卻只看着延遲的郵箱。"
+          },
+          {
+            "id": "b",
+            "en": "A student checks an update while actively drafting the next section.",
+            "zh": "學生查看更新時，仍積極起草下一部分。"
+          },
+          {
+            "id": "c",
+            "en": "A team leaves its ready materials untouched while awaiting a call.",
+            "zh": "團隊等電話時，把可處理的材料放在一旁不動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "邊等邊積極起草的人並非閒着不做事。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們仍在等場地確認，所以就算已知要印甚麼，也甚麼都別做。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We need not sit around waiting; we can prepare the print files now.",
+            "zh": "我們不用閒坐乾等，可以現在先準備印刷檔案。"
+          },
+          {
+            "id": "b",
+            "en": "A pending venue answer makes every printing task impossible.",
+            "zh": "場地尚未答覆，就令每項印刷準備都不可能進行。"
+          },
+          {
+            "id": "c",
+            "en": "Preparing the files would mean we are no longer waiting for the venue.",
+            "zh": "準備檔案就代表我們不再等場地答覆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地仍待確認，但印刷檔案可先準備。"
+      },
+      "speaking": {
+        "en": "We do not need to sit around waiting for the printed timetable when the live schedule is already online.",
+        "zh": "即時時間表既然已上網，我們不用閒坐乾等紙本版本。",
+        "promptZh": "先聽示範，再指出有哪些可行替代方法。",
+        "targetSpan": {
+          "start": 18,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：街坊活動隊已遞交場地申請，審批尚需一週；他們仍可先準備指示牌與義工名單。用一至兩句英文說明如何避免消極乾等，同時承認仍在等批核。",
+        "selfCheckZh": "寫出申請仍待批核、可先做的兩項準備，不要說批核已完成。",
+        "examples": [
+          {
+            "en": "The team should not sit around waiting for the venue approval; it can prepare signs and the volunteer list meanwhile.",
+            "zh": "團隊不用閒坐乾等場地批核，期間可先準備指示牌和義工名單。"
+          },
+          {
+            "en": "While approval is pending, the organisers need not sit around waiting: they can draft the signs and organise the volunteer list.",
+            "zh": "批核尚未完成時，籌辦人不用閒坐乾等，可先起草指示牌並整理義工名單。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "venue approval",
+            "zh": "場地批核",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 61
+            }
+          },
+          {
+            "en": "prepare signs",
+            "zh": "準備指示牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 83
+            }
+          },
+          {
+            "en": "the volunteer list",
+            "zh": "義工名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 106
+            }
+          },
+          {
+            "en": "approval is pending",
+            "zh": "批核尚未完成",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 25
+            }
+          },
+          {
+            "en": "the signs",
+            "zh": "指示牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 95
+            }
+          },
+          {
+            "en": "organise the volunteer list",
+            "zh": "整理義工名單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Sit around waiting suggests idleness, not every kind of patient waiting.",
+          "zh": "閒坐乾等帶有不做事的意思，並非所有耐心等待都一樣。"
+        },
+        {
+          "en": "A team can avoid sitting around waiting by doing useful preparation before news arrives.",
+          "zh": "消息未到前先做有用準備，就可避免閒坐乾等。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2813",
+      "number": 2813,
+      "inventoryId": "expr-2813",
+      "titleEn": "open the floodgates",
+      "titleZh": "打開大量湧入的缺口",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:open|opens|opened|opening)\\s+the\\s+floodgates\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Allow a large, sudden flow of people, messages or activity, often beyond easy control.",
+        "meaningZh": "令大量人、訊息或活動突然湧入，往往難以輕易控制。",
+        "grammar": "Pattern: change/event opens/opened the floodgates to/for + a large flow of X; floodgates is plural and figurative here.",
+        "register": "Measured platform moderation discussion: a community editor tells volunteers how removing a posting restriction sharply increased submissions without claiming every post was harmful.",
+        "boundaryZh": "大量湧入可令人高興也可難以管理；片語本身不保證內容有害或有價值。",
+        "misconceptionZh": "不是實際開水閘；重點是限制解除後數量突然增加。",
+        "outcomeZh": "能交代原先甚麼限制改變、甚麼大量湧入，以及是否有足夠證據判斷其品質。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0702",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 65,
+          "book": 11,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "65–66",
+          "locatorNote": "DOCX table 62, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new platform opened the floodgates to public posts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "opened the floodgates"
+        }
+      ],
+      "listening": {
+        "en": "Once the photo forum removed its approval step, hundreds of submissions arrived in one afternoon. The change opened the floodgates to new posts.",
+        "zh": "相片討論區取消事前批准後，一個下午便湧來數百篇投稿。這項改動令新貼文大量湧入。",
+        "promptZh": "opened the floodgates 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Removing the restriction allowed a large rush of posts.",
+            "zh": "取消限制後，大量貼文湧入。"
+          },
+          {
+            "id": "b",
+            "en": "The approval requirement stayed in place and submissions remained at the old rate.",
+            "zh": "事前批准要求保持不變，投稿量仍維持原來水平。"
+          },
+          {
+            "id": "c",
+            "en": "Every new post was proved false or harmful.",
+            "zh": "每篇新貼文都已證實虛假或有害。"
+          },
+          {
+            "id": "d",
+            "en": "The forum closed to new posts after the change.",
+            "zh": "改動後，討論區停止接受新貼文。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "取消事前批准後，一個下午收到數百篇投稿，符合大量突然湧入。"
+      },
+      "reply": {
+        "promptEn": "What happened after the school opened its art contest to every district rather than only three partner schools? Many more entries arrived in the first week, and the judges had to expand their review schedule.",
+        "promptZh": "（學校的藝術比賽從只限三間伙伴學校，改為所有地區都可參加後，發生了甚麼？首週收到多得多的作品，評判須擴大審閱安排。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The wider invitation brought a sharp rise in entries.",
+            "zh": "開放更多人參加令作品數量急增。"
+          },
+          {
+            "id": "b",
+            "en": "The judges had more submissions to review.",
+            "zh": "評判要審閱更多作品。"
+          },
+          {
+            "id": "c",
+            "en": "The wider invitation opened the floodgates to entries.",
+            "zh": "擴大邀請範圍令參賽作品大量湧入。"
+          },
+          {
+            "id": "d",
+            "en": "More schools could submit, so the review workload grew.",
+            "zh": "更多學校可參與，因此審閱工作增加。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據開放範圍及作品激增；金句用 floodgates 形容大量湧入。"
+      },
+      "scene": {
+        "promptZh": "地方檔案館把舊照片上傳入口向所有居民開放，原本每天十張，現在一天收到數百張。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The open portal has opened the floodgates to photo submissions.",
+            "zh": "入口開放後，照片投稿大量湧入。"
+          },
+          {
+            "id": "b",
+            "en": "The archive is still receiving only ten photos a day.",
+            "zh": "檔案館現在仍每天只收到十張照片。"
+          },
+          {
+            "id": "c",
+            "en": "Every submitted photo has already been verified as accurate.",
+            "zh": "每張提交的照片都已核實真確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天由十張增至數百張，支持投稿量突然增加；未有品質判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 opened the floodgates？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A public call brings thousands of new stories in a day.",
+            "zh": "公開徵集一天帶來數千個新故事。"
+          },
+          {
+            "id": "b",
+            "en": "A form remains limited to two preapproved users, who submit one item each.",
+            "zh": "表格仍只限兩名預先批准使用者，每人交一項資料。"
+          },
+          {
+            "id": "c",
+            "en": "A rule change lets hundreds of new members join overnight.",
+            "zh": "規則改變讓數百名新會員一夜間加入。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "限制未解除，數量也沒有大量突然增加。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「開放投稿後一小時收到幾百則留言，所以它們一定全部可靠。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The change opened the floodgates to comments, but volume does not prove reliability.",
+            "zh": "這項改動令留言大量湧入，但數量不能證明可靠。"
+          },
+          {
+            "id": "b",
+            "en": "A large influx means every comment has been checked.",
+            "zh": "大量湧入表示每則留言都已審核。"
+          },
+          {
+            "id": "c",
+            "en": "Hundreds of comments prove their writers checked every fact.",
+            "zh": "幾百則留言證明每位留言者都核實過所有事實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語說數量和流入速度，不替內容作真偽保證。"
+      },
+      "speaking": {
+        "en": "The new hashtag opened the floodgates to hundreds of neighbourhood stories in one afternoon.",
+        "zh": "新標籤令社區故事在一個下午大量湧入。",
+        "promptZh": "先聽示範，再指出突然增加的是甚麼。",
+        "targetSpan": {
+          "start": 16,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：地方歷史檔案館首次讓所有居民上傳舊照片。首兩天收到上千張照片，策展人須增加人手分類；照片尚未逐張核實。用一至兩句英文描述大量投稿及審核狀況。",
+        "selfCheckZh": "寫出全面開放後大量照片湧入、需要更多分類人手，並保留照片尚未逐張核實。",
+        "examples": [
+          {
+            "en": "Opening uploads to all residents opened the floodgates to old photos: over a thousand arrived in two days, so curators added sorting staff while checking remained unfinished.",
+            "zh": "讓所有居民上傳舊照片後，首兩天逾千張照片大量湧入；策展人增派分類人手，核實工作仍未完成。"
+          },
+          {
+            "en": "Allowing all residents to upload opened the floodgates to photo submissions: over a thousand arrived in two days, so curators added staff to sort images that still needed checking.",
+            "zh": "讓所有居民上傳照片後，兩天收到逾千張；策展人增派人手整理仍待核實的照片。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "all residents",
+            "zh": "所有居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 32
+            }
+          },
+          {
+            "en": "old photos",
+            "zh": "舊照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 68
+            }
+          },
+          {
+            "en": "over a thousand",
+            "zh": "逾千張",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "sorting staff",
+            "zh": "分類人手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 138
+            }
+          },
+          {
+            "en": "photo submissions",
+            "zh": "照片投稿",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 75
+            }
+          },
+          {
+            "en": "added staff",
+            "zh": "增派人手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Open the floodgates means allow a sudden large flow, not literally release water.",
+          "zh": "打開大量湧入的缺口，指突然出現大量流入，不是實際放水。"
+        },
+        {
+          "en": "Opening the floodgates to posts says nothing by itself about their quality.",
+          "zh": "讓貼文大量湧入，本身不說明其品質。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

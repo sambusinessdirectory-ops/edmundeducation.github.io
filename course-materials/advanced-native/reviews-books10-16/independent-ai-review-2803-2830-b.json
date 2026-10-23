@@ -1,0 +1,36 @@
+{
+  "scope": "Independent Golden SOP review of eight unselected lessons 2803, 2806, 2809, 2813, 2815, 2827, 2829, 2830",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-1.json",
+      "sha256": "8d5c9df75f707fa7c6a1fbc38cb4f32dbc0f100ebf1129242ba5d7dc9c149f77"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2803-2830-review-pilot-2.json",
+      "sha256": "45e181354af16b8729469ced458890f411adc003cab9456fd8cefb1546da8f95"
+    }
+  ],
+  "authorSelfAuditSha256": "808fe818bfbb6c4f8a9e2f125270a44b21c96b5bdf5d5162b9c35729d49f187a",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFileSha256": "eef4ff41f5a9720b1798f347f4f328cf32a72ea347ef4065da8758df1689d641",
+  "sourceAndOwnerAssessment": "All eight target patterns match the exact source examples in their intended senses. The existing-catalogue/reconciliation screen lists no exact prior owners for these rows; blind trust has only an unrelated blind spots near candidate. Source meanings and distinct scenario decisions are provisionally supported; this is not human owner sign-off.",
+  "automatedChecks": "Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero flags. Fresh gi target checks match every keyed scene/dialogue, golden reply, speaking model and both writing examples; all writing glossary spans are exact and exclude target variants.",
+  "findings": [
+    {
+      "id": "R2806-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-2806].writing.examples[0]",
+      "evidence": "The changed-context self-check explicitly asks learners to say the ticket printed within two seconds as well as that the queue stayed long. The first model says only 'in a flash' and that the queue remained long, omitting the supplied two-second fact; the second model includes it.",
+      "repair": "Add 'within two seconds' to the first model or make the precise duration optional in the self-check. Preserve that only ticket printing, not the queue, was fast; recheck any edited glossary spans."
+    },
+    {
+      "id": "R2813-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-2813].writing.examples[1]",
+      "evidence": "The self-check asks learners to identify that uploads were opened to all residents and this caused the sudden large intake. The second model says only 'The archive opened the floodgates to photo submissions' without the public-opening fact, so its causal trigger is less concrete than the prompt and first model require.",
+      "repair": "State that the archive opened uploads to all residents in model 2 while retaining the thousand photos, added sorting staff and unverified status. Recalculate glossary spans after editing."
+    }
+  ],
+  "clearedLessonIds": [2803, 2809, 2815, 2827, 2829, 2830],
+  "releaseStatus": "UNSELECTED; writing-model completeness repairs and exact-hash follow-up needed for 2806 and 2813; no human approval or publication inferred"
+}

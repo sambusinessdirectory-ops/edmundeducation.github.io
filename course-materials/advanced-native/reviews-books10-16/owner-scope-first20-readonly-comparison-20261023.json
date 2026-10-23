@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-23T13:06:23.066010+00:00",
+  "scope": "Read-only, source-by-source comparison of the first20 occurrences in the owner-scope-or-detector-gap bucket of the current934-hold classification. This proposes routes; it changes no editorial decisions.",
+  "selectionOrdinals": [
+    2139,
+    2172,
+    2179,
+    2182,
+    2184,
+    2210,
+    2214,
+    2222,
+    2227,
+    2233,
+    2238,
+    2254,
+    2256,
+    2263,
+    2267,
+    2277,
+    2299,
+    2300,
+    2363,
+    2392
+  ],
+  "counts": {
+    "sourceOccurrences": 20,
+    "distinctCanonicalOwnersInspected": 17,
+    "aliasAfterScopedExtension": 18,
+    "aliasWithExistingNormalization": 1,
+    "remainHeld": 1,
+    "distinctNewSenseEstablished": 0,
+    "oldPositiveStringMatchesLostByProposedPatterns": 0
+  },
+  "method": [
+    "Read each complete inventory example, guide meaning and Book/question/sample/page locator; compare the exact proposed canonical meaning, grammar, target detector and existing target-bearing teaching examples.",
+    "For the broader-frame comparisons1524/1872/139/328/161, also inspect the existing listening/reply/scene/contrast/dialogue definitions to ensure the proposal does not redefine their specific original examples or keys.",
+    "Consult the listed primary dictionary/publisher evidence for uncertain constructions. Distinguish directly attested evidence from editorial application to this source.",
+    "Compile each proposed regex with the same JS i flag used by the runtime. Check full source recognition or the explicitly normalized teaching form, and preserve all current canonical strings recognized by the existing detector.",
+    "Patterns are deliberately bounded to the source forms reviewed here; they are not wildcard authorization of every possible object. Regex recognition alone does not prove the intended sense."
+  ],
+  "items": [
+    {
+      "sourceOrdinal": 2139,
+      "sourceId": "book10-16-0028",
+      "sourceExpression": "cutting it so fine",
+      "sourceSentence": "Stop cutting it so fine and leave for the station earlier.",
+      "sourceGuideMeaning": "Leaving almost no margin for error; a conventional expression about overly precise timing.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 3,
+        "sample": "S1",
+        "topic": "Late",
+        "sourceBookPages": "8–9",
+        "renderedPdfPage": 3,
+        "docxTable": 3,
+        "docxRow": 8
+      },
+      "currentDecisionFile": "editorial-decisions-2112-2141.jsonl",
+      "currentDecisionReason": "Cutting it so fine expresses the same risky-timing idea as canonical 855, but the existing target pattern only detects cut it fine without so. Hold until the intensifier variant is reviewed and covered by its pattern and examples.",
+      "proposedCanonicalId": "advanced-native-855",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0851-0875.json",
+      "canonicalContentSha256": "addd6e588970a90322859e35b36225dc9948a8dc820a95a1ddd58fde83a3d816",
+      "canonicalTitle": "cutting it fine",
+      "canonicalMeaningEn": "Leave only a very small margin of time before a deadline or required arrival.",
+      "canonicalGrammar": "be cutting it fine; cut it fine in present or past; this lesson focuses on time margins.",
+      "canonicalPattern": "\\bcut(?:s|ting)? it fine\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The source is the same near-deadline, little-buffer sense. So intensifies fine; it does not change the idiom or prove arrival is already late.",
+      "requiredScopeAndGrammarChange": "Add optional so before fine; explain degree while retaining the deadline/margin boundary.",
+      "proposedPattern": "\\bcut(?:s|ting)? it (?:so )?fine\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "cut"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2139,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2172,
+      "sourceId": "book10-16-0061",
+      "sourceExpression": "until the last minute",
+      "sourceSentence": "Please do not wait until the last minute to submit the form.",
+      "sourceGuideMeaning": "Until very near the deadline; a conventional time phrase.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 5,
+        "sample": "S2",
+        "topic": "Late",
+        "sourceBookPages": "13–14",
+        "renderedPdfPage": 6,
+        "docxTable": 5,
+        "docxRow": 9
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: wait until the last minute describes waiting up to a deadline, whereas prior lesson 1821 teaches an action at the last minute. Compare usage and grammar before a separate lesson or canonical expansion. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-1821",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "canonicalContentSha256": "995eaacaf9575c99cf407e1fb13749ef70cf9a45b5e49b34a433a561b7ba40a5",
+      "canonicalTitle": "last-minute / at the last minute",
+      "canonicalMeaningEn": "Close to the relevant departure, event or deadline, leaving little advance notice; last-minute describes a late arrangement, while at the last minute locates an action or change.",
+      "canonicalGrammar": "a last-minute trip uses a hyphenated adjective before a noun; change a plan at the last minute uses an adverbial phrase without the hyphen. The surrounding verb shows what was arranged or changed close to the relevant time.",
+      "canonicalPattern": "\\b(?:a last-minute trip|at the last minute)\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Waiting until the latest submission opportunity is the same last-minute timing family as the owner’s near-event arrangements. The difference is temporal construction, not a new lexical sense.",
+      "requiredScopeAndGrammarChange": "Teach wait/leave something until the last minute as continuation or delay up to the latest opportunity. Keep at as the time of an action and last-minute as an adjective; broaden the title/meaning beyond trips without claiming the forms interchangeable.",
+      "proposedPattern": "\\b(?:a last-minute trip|(?:at|until) the last minute)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "last-minute"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2172,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 21,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2179,
+      "sourceId": "book10-16-0068",
+      "sourceExpression": "pulled in too many directions at once",
+      "sourceSentence": "New managers can feel pulled in too many directions at once.",
+      "sourceGuideMeaning": "Pressed by several competing demands; a physical pulling image describes divided attention.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 6,
+        "sample": "S1",
+        "topic": "Late",
+        "sourceBookPages": "15–17",
+        "renderedPdfPage": 7,
+        "docxTable": 6,
+        "docxRow": 2
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: the competing-demands meaning resembles prior lesson 841, but its target pattern does not cover pulled in too many directions at once. Broaden and review that canonical lesson before an alias. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-841",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "canonicalContentSha256": "35258c14676c087ba34f674c6f30ec3f8792f938014d22cd623b286a1a0ab4bc",
+      "canonicalTitle": "pulled in ten different directions",
+      "canonicalMeaningEn": "Feel pressure from several competing demands on attention, time or decisions.",
+      "canonicalGrammar": "be/feel pulled in different directions; ten may intensify the many competing demands and is not an exact count.",
+      "canonicalPattern": "\\bpulled in (?:ten )?different directions\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Both concern competing demands on attention/time. Too many replaces the numeric or different-directions modifier and at once makes simultaneity explicit.",
+      "requiredScopeAndGrammarChange": "Admit too many directions with optional at once; explain several competing demands, without treating ten as an exact count or reducing the meaning to any large workload.",
+      "proposedPattern": "\\bpulled in (?:(?:ten )?different directions|too many directions(?: at once)?)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "canonical-context"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2179,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 21,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2182,
+      "sourceId": "book10-16-0071",
+      "sourceExpression": "on paper",
+      "sourceSentence": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 6,
+        "sample": "S1",
+        "topic": "Late",
+        "sourceBookPages": "15–17",
+        "renderedPdfPage": 7,
+        "docxTable": 6,
+        "docxRow": 5
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: prior on-paper lesson 567 only detects selected look-adjectives and misses looks simple on paper in this source. Review a broadened adjective pattern and examples before aliasing. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-567",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "canonicalContentSha256": "1512bd79bf3cac66bc29d8c411ac73db65962cc7506cb5e06a6b84600fabcc6f",
+      "canonicalTitle": "look good on paper",
+      "canonicalMeaningEn": "Appear favourable, effective or secure in a written description or plan, while practical experience may still differ or need checking.",
+      "canonicalGrammar": "look/looks/looked impressive, good, secure or more secure on paper; the adjective names the quality suggested by the description. More secure introduces a comparison, which the surrounding context should identify. The plan/offer frame differs from describing a person’s credentials as brilliant on paper, though both use the related on-paper contrast.",
+      "canonicalPattern": "\\blook(?:s|ed|ing)? (?:impressive|good|(?:more )?secure) on paper\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The schedule appears straightforward from its written arrangement, before practical operation is tested. This is the same planning-versus-practice contrast, not literal paper.",
+      "requiredScopeAndGrammarChange": "Add simple to the bounded adjective list and add straightforward to the meaning. Neither source nor extension proves the schedule will fail.",
+      "proposedPattern": "\\blook(?:s|ed|ing)? (?:impressive|good|simple|(?:more )?secure) on paper\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "on-paper"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2182,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 27,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2184,
+      "sourceId": "book10-16-0073",
+      "sourceExpression": "eat into the day",
+      "sourceSentence": "Unexpected calls can eat into the day.",
+      "sourceGuideMeaning": "Consume part of the available time; eating is a figurative verb for gradual loss.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 6,
+        "sample": "S1",
+        "topic": "Late",
+        "sourceBookPages": "15–17",
+        "renderedPdfPage": 7,
+        "docxTable": 6,
+        "docxRow": 7
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: prior eat-into lesson 1149 covers finite resources but its pattern misses eat into the day. Review that time-resource surface form and canonical expansion before aliasing. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-1149",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1126-1150.json",
+      "canonicalContentSha256": "5cfad3942bfa0a5c3c381491ae63e1a0ca1461826f7387b7a6898dfc1a7e9cc0",
+      "canonicalTitle": "eat into my budget",
+      "canonicalMeaningEn": "Use or reduce part of a finite resource, leaving less available for other purposes.",
+      "canonicalGrammar": "costs eat into a budget; demands eat into time and energy; ate/eaten/eating. This is the same resource-consumption phrasal verb with different objects, not a reduction in the original budget limit itself.",
+      "canonicalPattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy)\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Calls reduce the available time within a day. The owner already includes time and energy, so day is a time-resource metonym in the same consumption phrasal verb.",
+      "requiredScopeAndGrammarChange": "Add day as a reviewed object; state that part of the usable day is consumed, not that the day itself becomes shorter or all available time disappears.",
+      "proposedPattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy|day)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "eat-into"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2184,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2210,
+      "sourceId": "book10-16-0099",
+      "sourceExpression": "lean into",
+      "sourceSentence": "The festival decided to lean into its local character.",
+      "sourceGuideMeaning": "Accept or emphasise a quality or situation rather than resist it; a contemporary phrasal verb.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 7,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "18–19",
+        "renderedPdfPage": 10,
+        "docxTable": 7,
+        "docxRow": 17
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: deliberate embrace or emphasis in lean into a festival may be covered by prior general lean-into lesson 1687; healthy habits may only be its example object. Compare contexts and decide broaden-versus-split before authoring. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-1687",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "canonicalContentSha256": "fe393ba0b278fc77febc9fea3a823ad4f597fcc051c63bf5418f5afed10a5569",
+      "canonicalTitle": "lean into healthy habits",
+      "canonicalMeaningEn": "Engage more actively with routines aimed at supporting wellbeing.",
+      "canonicalGrammar": "lean into healthy habits; leaned/leant/leaning; figurative lean into means engage with the challenge, not physically tilt the body",
+      "canonicalPattern": "\\blean(?:s|ed|t|ing)? into healthy habits\\b",
+      "recommendation": "remain-held",
+      "comparisonEvidence": "The source foregrounds emphasising local character; the owner specifically defines engagement with wellbeing routines. Its note identifies a broader lean-into verb, but the inspected Oxford entry establishes challenge/effort rather than this identity-emphasis application.",
+      "requiredScopeAndGrammarChange": "Do not add an arbitrary object to the detector yet. Obtain direct primary usage evidence for embracing/emphasising an existing quality, then decide a broad owner extension versus a complementary usage frame. No distinct new dictionary sense is established by this review.",
+      "proposedPattern": null,
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "lean-into"
+      ],
+      "conditionalAcceptance": "Keep current hold; no owner or new sense is certified.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2210,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": null,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2214,
+      "sourceId": "book10-16-0103",
+      "sourceExpression": "juggling work",
+      "sourceSentence": "Juggling work and family duties left him exhausted.",
+      "sourceGuideMeaning": "Handling several demands at the same time; juggling is figurative here.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 8,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "20–21",
+        "renderedPdfPage": 10,
+        "docxTable": 8,
+        "docxRow": 5
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: prior juggling lesson 1872 describes competing demands but its pattern is restricted to juggle three things at once and does not detect juggling work and family duties. Review broader forms before aliasing. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-1872",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "canonicalContentSha256": "36210c7bbd7edd0a84e0587ffb531a3925de074dfa8342b21187dade14724c8f",
+      "canonicalTitle": "juggle three things at once",
+      "canonicalMeaningEn": "Manage three competing tasks, demands or priorities at the same time.",
+      "canonicalGrammar": "juggle three things at once; name the three demands. The number belongs to the source frame, not a claim that juggle can only take three items.",
+      "canonicalPattern": "\\bjuggle three things at once\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The whole source combines work and family duties concurrently. Three is only the owner’s source frame; its grammar already says juggle can take other numbers of demands.",
+      "requiredScopeAndGrammarChange": "Broaden the core meaning to two or more competing demands, preserving the existing three-item scenarios as specific examples. Complete the marked fragment juggling work to juggling work and family duties for source recognition; teach ordinary inflection.",
+      "proposedPattern": "\\b(?:juggle|juggles|juggled|juggling) (?:three things at once|work and family duties)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "juggle"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2214,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2222,
+      "sourceId": "book10-16-0111",
+      "sourceExpression": "strengthen bonds",
+      "sourceSentence": "Shared meals can strengthen bonds across generations.",
+      "sourceGuideMeaning": "Deepen relationships between people; a natural collocation with bonds used figuratively.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 8,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "20–21",
+        "renderedPdfPage": 11,
+        "docxTable": 8,
+        "docxRow": 13
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: strengthen bonds across generations is an active general collocation, unlike prior passive family-bonds lesson 1524. Review whether to broaden that canonical or teach the active collocation separately. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-1524",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalContentSha256": "00d11612e3d5ebd76f84f9a3d0bbfae3a191ab76805354910da3b2774c9b8d09",
+      "canonicalTitle": "family bonds are quietly strengthened",
+      "canonicalMeaningEn": "Family relationships become closer through small, often unobtrusive acts.",
+      "canonicalGrammar": "family bonds are quietly strengthened through / when + meaningful interactions",
+      "canonicalPattern": "\\bfamily\\s+bonds\\s+are\\s+quietly\\s+strengthened\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Active strengthen bonds and passive bonds are strengthened name the same deepening of relationships. Shared meals across generations are compatible with that meaning; the source does not require all participants to be relatives or the change to be unobtrusive.",
+      "requiredScopeAndGrammarChange": "Broaden the core to relationships becoming stronger, including family/intergenerational ties. Add the active verb-object frame; treat family and quietly as modifiers in the existing examples, not universal requirements. Keep the boundary that shared attendance alone does not guarantee closeness.",
+      "proposedPattern": "\\b(?:family\\s+bonds\\s+are\\s+quietly\\s+strengthened|strengthen(?:s|ed|ing)?\\s+(?:family\\s+)?bonds)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "strengthen"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2222,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2227,
+      "sourceId": "book10-16-0116",
+      "sourceExpression": "drawn to",
+      "sourceSentence": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 9,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "22–23",
+        "renderedPdfPage": 11,
+        "docxTable": 9,
+        "docxRow": 3
+      },
+      "currentDecisionFile": "editorial-decisions-2172-2231.jsonl",
+      "currentDecisionReason": "Hold: prior drawn-to lesson 021 teaches feel drawn to but the source uses are drawn to. Broaden and verify be plus drawn to forms before recording this as covered by an existing lesson. Provisional; independent human review open.",
+      "proposedCanonicalId": "advanced-native-021",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalContentSha256": "cebd8df1a8e84b636effb662a752db80b6081badc7861d2472e89703c06e80a7",
+      "canonicalTitle": "feel drawn to",
+      "canonicalMeaningEn": "Feel attracted to someone or something.",
+      "canonicalGrammar": "feel + drawn + to + noun/-ing form; felt drawn to in the past.",
+      "canonicalPattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Are drawn to expresses attraction to the garden, exactly within the owner’s attraction-to-places definition. Be and feel describe the same attraction from different grammatical viewpoints.",
+      "requiredScopeAndGrammarChange": "Add standard be forms alongside feel forms. Keep the distinction between attraction and a decision to act; do not confuse drawn with making a picture.",
+      "proposedPattern": "\\b(?:feel|feels|felt|feeling|be|am|is|are|was|were|been|being) drawn to\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "draw-to"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2227,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2233,
+      "sourceId": "book10-16-0122",
+      "sourceExpression": "drawn to",
+      "sourceSentence": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 9,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "22–23",
+        "renderedPdfPage": 12,
+        "docxTable": 9,
+        "docxRow": 9
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "Same be + drawn to form as held ordinal 2227; canonical 021 currently teaches feel drawn to and does not cover this passive wording. Hold all occurrences together pending grammar/pattern review.",
+      "proposedCanonicalId": "advanced-native-021",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalContentSha256": "cebd8df1a8e84b636effb662a752db80b6081badc7861d2472e89703c06e80a7",
+      "canonicalTitle": "feel drawn to",
+      "canonicalMeaningEn": "Feel attracted to someone or something.",
+      "canonicalGrammar": "feel + drawn + to + noun/-ing form; felt drawn to in the past.",
+      "canonicalPattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The full source sentence is exactly repeated from2227 and has the same passive attraction meaning. It should share one reviewed owner extension.",
+      "requiredScopeAndGrammarChange": "Use the same be/feel drawn-to extension as2227; preserve this separate source locator and occurrence rather than producing another lesson.",
+      "proposedPattern": "\\b(?:feel|feels|felt|feeling|be|am|is|are|was|were|been|being) drawn to\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "draw-to"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2233,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2238,
+      "sourceId": "book10-16-0127",
+      "sourceExpression": "at the tap of a screen",
+      "sourceSentence": "A timetable is available at the tap of a screen.",
+      "sourceGuideMeaning": "With a simple touch on a device; a fixed modern convenience phrase.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 10,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "24–26",
+        "renderedPdfPage": 12,
+        "docxTable": 10,
+        "docxRow": 4
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "At the tap of a screen differs from canonical 829 with a tap on the screen in preposition and target pattern. Hold for idiomaticity and canonical-pattern review.",
+      "proposedCanonicalId": "advanced-native-829",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "canonicalContentSha256": "66f88790e461f45b159c38ffa16f6d721650414c84f8b36b161ee19b25c2d865",
+      "canonicalTitle": "with a tap on the screen",
+      "canonicalMeaningEn": "Obtain information or trigger an action through a simple touch on a device screen.",
+      "canonicalGrammar": "with a tap on the screen; tap names a light touchscreen touch; say what is already open or available.",
+      "canonicalPattern": "\\bwith a tap on (?:the|a) screen\\b",
+      "recommendation": "alias-with-existing-normalization",
+      "comparisonEvidence": "Canonical829 already explicitly states that exact source at the tap of a screen remains an alias while its natural taught form is with a tap on the screen. This is an existing documented normalization, not an uncovered new sense.",
+      "requiredScopeAndGrammarChange": "No detector extension is needed for the normalized teaching form. Preserve the exact source phrase/category as provenance, teach with a tap on the screen as a literal digital-convenience pattern, and do not claim the raw at/of wording is accepted or a fixed idiom.",
+      "proposedPattern": "\\bwith a tap on (?:the|a) screen\\b",
+      "normalizedTeachingForm": "with a tap on the screen",
+      "primaryReferenceIds": [
+        "canonical-normalization-note"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2238,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": false,
+        "proposedMatchesNormalizedTeachingForm": true,
+        "oldPositiveStringCount": 15,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2254,
+      "sourceId": "book10-16-0143",
+      "sourceExpression": "drawn to",
+      "sourceSentence": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 11,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "27–28",
+        "renderedPdfPage": 14,
+        "docxTable": 11,
+        "docxRow": 9
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "Same be + drawn to source example as held ordinals 2227 and 2233; canonical 021 currently teaches feel drawn to. Hold consistently pending grammar/pattern review.",
+      "proposedCanonicalId": "advanced-native-021",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalContentSha256": "cebd8df1a8e84b636effb662a752db80b6081badc7861d2472e89703c06e80a7",
+      "canonicalTitle": "feel drawn to",
+      "canonicalMeaningEn": "Feel attracted to someone or something.",
+      "canonicalGrammar": "feel + drawn + to + noun/-ing form; felt drawn to in the past.",
+      "canonicalPattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The identical garden example repeats2227/2233 at a different source locator; no new sense or lesson is warranted.",
+      "requiredScopeAndGrammarChange": "Use the same be/feel drawn-to extension and retain this occurrence explicitly.",
+      "proposedPattern": "\\b(?:feel|feels|felt|feeling|be|am|is|are|was|were|been|being) drawn to\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "draw-to"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2254,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2256,
+      "sourceId": "book10-16-0145",
+      "sourceExpression": "a pocket of peace",
+      "sourceSentence": "The garden offered a pocket of peace near the busy road.",
+      "sourceGuideMeaning": "A small interval or place of calm amid pressure; pocket is a spatial metaphor.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 11,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "27–28",
+        "renderedPdfPage": 14,
+        "docxTable": 11,
+        "docxRow": 11
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "A pocket of peace shares the small-calm-space meaning of canonical 837 but omits its required small modifier. Hold pending optional-modifier pattern and example review.",
+      "proposedCanonicalId": "advanced-native-837",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "canonicalContentSha256": "6e1cc4912f5644244e3a203c9e15086668747d08eefb8848c77aeeaedba511e0",
+      "canonicalTitle": "a small pocket of peace",
+      "canonicalMeaningEn": "A brief, limited space or period of calm within a busier situation.",
+      "canonicalGrammar": "find/create/protect a small pocket of peace; identify the limited calm and its surrounding demands.",
+      "canonicalPattern": "\\ba small pocket of peace\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The source garden is a limited calm space surrounded by a busy road; this is exactly the owner’s small area/period of peace metaphor. Small makes explicit a limitation already carried by pocket and context.",
+      "requiredScopeAndGrammarChange": "Make small optional; retain the limited calm versus surrounding activity boundary. Do not label the full metaphor a fixed dictionary idiom.",
+      "proposedPattern": "\\ba (?:small )?pocket of peace\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "pocket"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2256,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2263,
+      "sourceId": "book10-16-0152",
+      "sourceExpression": "bring ideas to life",
+      "sourceSentence": "The model helped bring ideas to life for the class.",
+      "sourceGuideMeaning": "Make abstract ideas vivid and understandable; a fixed figurative pattern.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 12,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "29–30",
+        "renderedPdfPage": 14,
+        "docxTable": 12,
+        "docxRow": 2
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "Bring ideas to life is a plausible object variant of canonical 327, but ideas are absent from its target detector. Hold until the canonical object pattern and examples are reviewed.",
+      "proposedCanonicalId": "advanced-native-327",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "canonicalContentSha256": "2cae3eee9a862bc1e9a7ddd9f9550059b97905c62177101f8c143545238f2322",
+      "canonicalTitle": "bring something to life",
+      "canonicalMeaningEn": "Make an artwork, story, imagined setting or subject feel vivid and engaging.",
+      "canonicalGrammar": "bring a story/artwork to life; bring to life an old story; pronoun bring it to life. Past brought.",
+      "canonicalPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account) )?to life\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The model makes ideas vivid and understandable for a class, matching the owner’s vivid-representation meaning. This does not establish literal creation or prove that every learner understands.",
+      "requiredScopeAndGrammarChange": "Add ideas to the reviewed object list and grammar. Keep representation distinct from bringing a real product into existence or making a venue lively.",
+      "proposedPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account|ideas|that reality) )?to life\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "bring-life"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2263,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 25,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2267,
+      "sourceId": "book10-16-0156",
+      "sourceExpression": "come away with",
+      "sourceSentence": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 12,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "29–30",
+        "renderedPdfPage": 15,
+        "docxTable": 12,
+        "docxRow": 6
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "Come away with a new respect broadens canonical 139’s positive-impression object and does not match its detector. Hold pending editorial decision on broadening versus distinct construction.",
+      "proposedCanonicalId": "advanced-native-139",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "canonicalContentSha256": "1ce4a7b6695b28cda3b5165db6ed63d4edd6694e9c9763fc260996df8f59bbef",
+      "canonicalTitle": "come away with a positive impression",
+      "canonicalMeaningEn": "Finish an experience holding a favourable opinion.",
+      "canonicalGrammar": "come away with a positive impression of + person/place/experience; came away in the past.",
+      "canonicalPattern": "\\b(?:come|comes|coming|came) away with a positive impression\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "A new respect for the place is a positive appreciation gained after a visit, within the owner’s favourable post-experience view. This narrow extension does not license every possible come-away-with object.",
+      "requiredScopeAndGrammarChange": "Add a new respect as a bounded object, with for complement; retain positive impression of. Broaden the title/meaning to favourable impression or appreciation, not physical possession or all acquired outcomes.",
+      "proposedPattern": "\\b(?:come|comes|coming|came) away with (?:a positive impression|a new respect)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "come-away"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2267,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2277,
+      "sourceId": "book10-16-0166",
+      "sourceExpression": "spark curiosity",
+      "sourceSentence": "A museum visit can spark curiosity about local history.",
+      "sourceGuideMeaning": "Cause interest to begin; spark is a figurative ignition image.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 12,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "29–30",
+        "renderedPdfPage": 15,
+        "docxTable": 12,
+        "docxRow": 16
+      },
+      "currentDecisionFile": "editorial-decisions-2232-2291.jsonl",
+      "currentDecisionReason": "Spark curiosity is likely an object variant of existing canonical 1066’s figurative spark sense. Hold pending review of one broadened target pattern rather than duplicate-owner lesson.",
+      "proposedCanonicalId": "advanced-native-1066",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "canonicalContentSha256": "dc78bc56faa42a366dc0db1380c9041106dce2f00ccb3f3060f24f9a29b3c7bb",
+      "canonicalTitle": "sparked something in them",
+      "canonicalMeaningEn": "Trigger the beginning of curiosity, a feeling or an idea.",
+      "canonicalGrammar": "spark something in someone; spark ideas. Something is deliberately nonspecific unless the context identifies the response; the spark image does not itself describe a lasting change.",
+      "canonicalPattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas)\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Curiosity is already explicitly named in1066’s meaning. The source specifies the response directly, whereas something in them can leave it unspecified; the initiation metaphor is the same.",
+      "requiredScopeAndGrammarChange": "Add direct curiosity to the object alternatives. Explain the named-response form versus nonspecific something in someone; retain the no-mastery/no-permanent-effect boundary.",
+      "proposedPattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas|curiosity)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "spark"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2277,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2299,
+      "sourceId": "book10-16-0188",
+      "sourceExpression": "bring that reality to life",
+      "sourceSentence": "The photographs bring that reality to life for readers.",
+      "sourceGuideMeaning": "Make a real situation vivid and immediate; a fixed figurative pattern.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 14,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "35–36",
+        "renderedPdfPage": 17,
+        "docxTable": 14,
+        "docxRow": 11
+      },
+      "currentDecisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentDecisionReason": "Bring that reality to life shares canonical 327’s broad vividness sense, but that reality is not in its target object pattern. Hold with 2263 pending a reviewed pattern/example expansion.",
+      "proposedCanonicalId": "advanced-native-327",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "canonicalContentSha256": "2cae3eee9a862bc1e9a7ddd9f9550059b97905c62177101f8c143545238f2322",
+      "canonicalTitle": "bring something to life",
+      "canonicalMeaningEn": "Make an artwork, story, imagined setting or subject feel vivid and engaging.",
+      "canonicalGrammar": "bring a story/artwork to life; bring to life an old story; pronoun bring it to life. Past brought.",
+      "canonicalPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account) )?to life\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Photographs making a reality vivid for readers is the same representational bring-to-life sense as an account making artwork/history vivid. That is an anaphoric determiner, not a separate idiom.",
+      "requiredScopeAndGrammarChange": "Add that reality to the same reviewed object list as ideas in2263. Keep accurate facts separate from vivid presentation and retain exact anaphoric source wording in provenance.",
+      "proposedPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account|ideas|that reality) )?to life\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "bring-life"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2299,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 25,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2300,
+      "sourceId": "book10-16-0189",
+      "sourceExpression": "drawn into a story",
+      "sourceSentence": "The audience felt drawn into a story about ordinary neighbours.",
+      "sourceGuideMeaning": "Absorbed by a narrative; drawn suggests physical movement figuratively.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 14,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "35–36",
+        "renderedPdfPage": 17,
+        "docxTable": 14,
+        "docxRow": 12
+      },
+      "currentDecisionFile": "editorial-decisions-2292-2351.jsonl",
+      "currentDecisionReason": "Drawn into a story is related to canonical 328’s be drawn in by, but the into + narrative construction is not taught or detected there. Hold pending grammar and sense comparison.",
+      "proposedCanonicalId": "advanced-native-328",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "canonicalContentSha256": "5f3d2094d56bc4b828c1b0b1e5cee821a9a73f41e7a075d74ec623d0bb201095",
+      "canonicalTitle": "be drawn in",
+      "canonicalMeaningEn": "Be attracted or become engaged in an experience, story or activity.",
+      "canonicalGrammar": "be drawn in by + feature; draw people in (separable active form). This lesson mainly uses passive drawn in.",
+      "canonicalPattern": "\\b(?:drawn|draw|draws|drawing|drew) in\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The audience becoming absorbed in a narrative matches328’s story-engagement meaning. Oxford explicitly groups draw somebody into something with draw somebody in, including reader engagement.",
+      "requiredScopeAndGrammarChange": "Add into a/the story as a bounded complement variant, retaining in and by for the engaging feature. Do not generalize this narrow comparison to every coerced-involvement or crime context.",
+      "proposedPattern": "\\b(?:drawn|draw|draws|drawing|drew) (?:in\\b|into (?:a|the) story\\b)",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "draw-into"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2300,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 16,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2363,
+      "sourceId": "book10-16-0252",
+      "sourceExpression": "leave a lasting mark",
+      "sourceSentence": "Good teachers leave a lasting mark on students.",
+      "sourceGuideMeaning": "Have an enduring influence or effect; a fixed physical-mark metaphor.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 19,
+        "sample": "S2",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "46–47",
+        "renderedPdfPage": 23,
+        "docxTable": 19,
+        "docxRow": 8
+      },
+      "currentDecisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentDecisionReason": "Leave a lasting mark shares canonical 283’s impact meaning, but lasting is absent from its target pattern. Hold this repeated source example until the modifier and examples are reviewed.",
+      "proposedCanonicalId": "advanced-native-283",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalContentSha256": "ebc7540313c91cfc81f4c9dee6b3fac3eebf9c5a6ef0d872ac8e15578a528fa5",
+      "canonicalTitle": "leave a strong mark",
+      "canonicalMeaningEn": "Have a lasting or noticeable effect; strong and deep emphasise its degree.",
+      "canonicalGrammar": "leave a strong/deep mark on + person/community/development; past left. Leave their/your/our/its mark on something is the possessive variant; strong and deep evaluate the impact rather than create a different sense.",
+      "canonicalPattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep) )?|(?:my|your|his|her|its|our|their) )mark\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "Lasting names the duration of an influence; the owner’s meaning already includes lasting or noticeable effect. The teachers’ continuing influence is not a new sense.",
+      "requiredScopeAndGrammarChange": "Add lasting to the adjective alternatives and explain its duration emphasis versus strong/deep degree; retain that impact can have multiple causes.",
+      "proposedPattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep|lasting) )?|(?:my|your|his|her|its|our|their) )mark\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "mark"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2363,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 20,
+        "oldPositiveStringMatchesLost": []
+      }
+    },
+    {
+      "sourceOrdinal": 2392,
+      "sourceId": "book10-16-0281",
+      "sourceExpression": "hide clues in plain sight",
+      "sourceSentence": "The writer likes to hide clues in plain sight.",
+      "sourceGuideMeaning": "Place clues openly where they are still overlooked; a conventional paradoxical phrase.",
+      "sourceLocator": {
+        "book": 10,
+        "question": 22,
+        "sample": "S1",
+        "topic": "Leisure Activities",
+        "sourceBookPages": "52–53",
+        "renderedPdfPage": 26,
+        "docxTable": 22,
+        "docxRow": 3
+      },
+      "currentDecisionFile": "editorial-decisions-2352-2411.jsonl",
+      "currentDecisionReason": "Hide clues in plain sight is related to canonical 161 hidden in plain sight, but the active hide + object construction is not taught or detected. Hold pending voice/construction review.",
+      "proposedCanonicalId": "advanced-native-161",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "canonicalContentSha256": "3e76bb0ec9307a1d3a3b545c2418f95cca9b02a5c96326bdb1cda4910212c1c1",
+      "canonicalTitle": "hidden in plain sight",
+      "canonicalMeaningEn": "Visible or easily accessible, yet overlooked.",
+      "canonicalGrammar": "be hidden in plain sight; the contrast between visible and unnoticed creates the idiom.",
+      "canonicalPattern": "\\bhidden in plain sight\\b",
+      "recommendation": "alias-after-scoped-extension",
+      "comparisonEvidence": "The writer intentionally places visible clues where readers overlook them; the owner describes the resulting visible-yet-unnoticed state. The publisher’s usage note explicitly allows hiding something in plain sight.",
+      "requiredScopeAndGrammarChange": "Add active hide/hides/hiding/hid clues in plain sight. Explain that deliberate placement is possible in this active frame but not required by every passive hidden-in-plain-sight case.",
+      "proposedPattern": "\\b(?:hidden in plain sight|(?:hide|hides|hiding|hid) clues in plain sight)\\b",
+      "normalizedTeachingForm": null,
+      "primaryReferenceIds": [
+        "plain-sight"
+      ],
+      "conditionalAcceptance": "Recommendation only: any changed canonical scope/detector requires independent scoped review, source association and build/target/glossary regression checks before the source decision changes. No current hold is cleared by this report.",
+      "mechanicalChecks": {
+        "sourceOrdinal": 2392,
+        "currentPatternMatchesSource": false,
+        "proposedPatternMatchesSource": true,
+        "proposedMatchesNormalizedTeachingForm": null,
+        "oldPositiveStringCount": 14,
+        "oldPositiveStringMatchesLost": []
+      }
+    }
+  ],
+  "primaryReferences": {
+    "cut": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cut",
+      "checkedSense": "cut it/things fine: very little available time; cutting is the regular participle.",
+      "limitation": "The optional so degree word is a grammatical inference from the source, not a separately quoted dictionary headword."
+    },
+    "last-minute": {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/last-minute",
+      "checkedSense": "The entry groups at and until the last minute with the latest opportunity, alongside hyphenated adjectival last-minute.",
+      "limitation": "The prepositions mark different temporal relations; they are not freely interchangeable."
+    },
+    "on-paper": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/on-paper",
+      "checkedSense": "Plan/theory-based appearance contrasted with practical operation; this is distinct from literal printing on paper."
+    },
+    "eat-into": {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/eat-into",
+      "checkedSense": "Using part of money or time is separate from damaging a material surface."
+    },
+    "lean-into": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/lean-into",
+      "checkedSense": "Accepting a challenge and making effort.",
+      "limitation": "This does not by itself verify emphasising an institution’s existing local identity. Source2210 remains held rather than inferred covered."
+    },
+    "juggle": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/juggle",
+      "checkedSense": "Managing concurrent demands with limited time; the business entry explicitly covers work and family life."
+    },
+    "strengthen": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/strengthen",
+      "checkedSense": "Make something stronger; the entry includes strengthening relationships/ties.",
+      "limitation": "Applying this compositional verb to emotional bonds and comparing voices is editorial grammatical analysis, not a claim that the full source sentence is fixed."
+    },
+    "draw-to": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/draw?topic=making-people-excited-and-interested",
+      "checkedSense": "Attract attention or interest, including passive drawn to a place’s attractions."
+    },
+    "pocket": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/pocket",
+      "checkedSense": "An area/group distinct from its surroundings.",
+      "limitation": "Pocket of peace is the existing lesson’s productive metaphor, not claimed as a separate fixed dictionary idiom."
+    },
+    "bring-life": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bring-to-life",
+      "checkedSense": "Make a subject more vivid, real-seeming or engaging; conceptual subjects and both object positions are illustrated."
+    },
+    "come-away": {
+      "url": "https://www.collinsdictionary.com/dictionary/english/come-away",
+      "checkedSense": "Come away with can describe leaving with something.",
+      "limitation": "The narrow positive appreciation/impression alias is supported primarily by the two actual source/canonical contexts; no blanket approval of every possible object is inferred."
+    },
+    "spark": {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/spark",
+      "checkedSense": "Cause a beginning, including figurative imaginative response; curiosity is an initiating mental-response object already named in canonical1066’s definition."
+    },
+    "draw-into": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/draw-into",
+      "checkedSense": "The headword groups draw someone into something with draw someone in, including a book engaging its reader."
+    },
+    "mark": {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/leave-your-mark",
+      "checkedSense": "Leave a/your mark denotes a continuing effect; lasting expresses duration, not a new verb sense."
+    },
+    "plain-sight": {
+      "url": "https://dictionaryblog.cambridge.org/2024/05/01/words-and-phrases-connected-with-hiding/",
+      "checkedSense": "The publisher explicitly connects hidden in plain sight with hiding something in plain sight; the shared meaning is visible yet unnoticed.",
+      "limitation": "The source writer deliberately places clues; the older passive lesson does not entail deliberate hiding in every case."
+    }
+  },
+  "requiredFollowup": [
+    "Do not change any of these current source actions merely because this proposal exists. A second independent scoped reviewer must assess any actual canonical meaning/grammar/target changes and exact source associations.",
+    "Preserve all existing assessed keys, stable IDs, source wording, source locators and original classification history. Update teaching-form normalization separately from immutable source text.",
+    "If any proposal affects bilingual teaching examples, target spans, glossary exclusions, audio English or runtime rendering, refresh only the genuinely affected editorial/media/browser checks and hashes. The existing audio must not be silently treated as newly listened to.",
+    "Apply the same reviewed owner extension to2227/2233/2254 rather than drafting three lessons, and coordinate both2263/2299 through327. Other later repeated sources remain outside this20-occurrence review.",
+    "Keep2210 held until the local-character emphasis usage is adequately supported and its relation to1687 adjudicated; no separate dictionary sense is invented here."
+  ],
+  "inputHashes": [
+    {
+      "file": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "sha256": "97a446e1afdcaf1b82e16698fec7bea6e55b457736ad686ade303b6351a87366"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "sha256": "452d821b7b862d0de400cf44348a941aea3a799324447584e9fa1dcd1fe97759"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "sha256": "5851ae2626878df7c10eea2bec927d7411fbcb9bae002f732545e52940b2c901"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "sha256": "59ae8302894566ef9e000d1d6f78c6b34a278c44ea4147ef92aa322709c1ec08"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "sha256": "05b312f7ffa8dcab9092f97d87c80f6eb8173828a8d17a1c4199b5568b6d4e76"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "sha256": "98a01c44d8bfcd3a4c1e36a684ef561dea31adc4febe6abd0afc321b14139bc6"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "sha256": "525ec001114d61eb80ba81bdecc7a5a6a192331b852739efb87f2c8a6424544b"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-0851-0875.json",
+      "sha256": "44e05283e1f3c0e15f155a78f185c4816f1ac7c5442d82297e99f4b045a66695"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "sha256": "89bd2e4ff1cb6a5c6809bac37aa5becc29b89383c3a839cfb426dad2ef56e4d9"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1126-1150.json",
+      "sha256": "87fa865a7b37225192d4faaadfa43fc5071a49a214cddd561e579a8608502a43"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "sha256": "a5950561268ef6196787f09215f8ba03b548f67ea298d5d1d30a1b63bbff6594"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "sha256": "e0a98caf3a0a5307f84361d22bd993e8afcee90b9d4eb5cc91a25ee367b53d84"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "sha256": "7ea89c39c93c21b0e9ebcd7f08998eb13f8c6ecc1771f8becdb76e4b30e546de"
+    },
+    {
+      "file": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "sha256": "6b3686ef92d742ac0290817755bf177be6004c6967109d21869b8a58dac907e1"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "sha256": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "sha256": "f7f09f3ea7e657aa005c512845ab204f05431469ea56b68f860729f582b0e015"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "sha256": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "sha256": "35b3b5930bd8d0ff0904a30cff0f45c7dd82f89ac9e96eb3227432867a23a786"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "sha256": "2e49af3e4bc71aa912400708f923083021747b3d1c19a7f1d3b60258a2828edb"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/current-hold-operational-reasons-20261023.json",
+      "sha256": "8f56e6f6323dfdaabd3883b22c12a7c613fcf124b5c73b20f4d452d3f2acc486"
+    }
+  ],
+  "inputFilesUnchangedDuringAnalysis": true,
+  "decisionsEdited": false,
+  "canonicalRecordsEdited": false,
+  "draftsEdited": false,
+  "runtimeEdited": false,
+  "humanApprovalClaimed": false,
+  "independentImplementationApprovalClaimed": false,
+  "integrity": {
+    "payloadSha256": "5f868de0443816dadc7fe676dc46b02ca0597838db45c3df824d36373bfb9116",
+    "method": "SHA256 of compact sorted-key UTF8 JSON excluding integrity."
+  }
+}
