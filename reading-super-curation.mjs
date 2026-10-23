@@ -1,9 +1,9 @@
 import {createReadingQuestionRenderer} from './reading-question-controls.mjs?v=20261024-curation1';
-import {buildCourse,STAGES,emptyProgress,cleanProgress,visibleEvidence,visibleRejections,markedText,escapeHtml as esc} from './reading-curation-core.mjs?v=20261024-super4';
+import {buildCourse,STAGES,emptyProgress,cleanProgress,visibleEvidence,visibleRejections,markedText,escapeHtml as esc} from './reading-curation-core.mjs?v=20261024-super5';
 import {renderRichBody,analysisAssetUrl} from './dse-deep-analysis.mjs?v=20261018-analysis-batch1';
-const REV='20261024-super4';
+const REV='20261024-super5';
 const button=(action,text,extra='')=>`<button type="button" data-rc-action="${action}" ${extra}>${text}</button>`;
-const labels={welcome:'開始之前',map:'段落地圖',sentence:'逐句閱讀',attempt:'先讀題・自己試',evidence:'定位原文',reason:'解釋證據',trap:'排除陷阱',transfer:'帶走方法',analysis:'完整原稿',answer:'對照參考',verify:'返回來源',check:'回到答案',finish:'回顧'};
+const labels={welcome:'開始之前',map:'段落地圖',sentence:'逐句閱讀',attempt:'先讀題・自己試',evidence:'定位原文',reason:'解釋證據',trap:'排除陷阱',transfer:'帶走方法',analysis:'Edmund Sir 原稿逐步導讀','question-complete':'本題最後自查',answer:'對照參考',verify:'返回來源',check:'回到答案',finish:'回顧'};
 export async function createReadingSuperCuration({article,userId,onClose=()=>{},onHome=()=>{}}) {
   if(article.id!=='dse-2023-a')throw new Error('Super Curation 目前只開放 2023 Part A。');
   if(!document.querySelector('link[data-reading-curation-style]')){
@@ -11,8 +11,8 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
     await new Promise((resolve,reject)=>{link.onload=resolve;link.onerror=()=>{link.remove();reject(new Error('導讀樣式載入失敗，請再試。'));};document.head.append(link);});
   }
   const get=async url=>{const r=await fetch(url);if(!r.ok)throw new Error('導讀教材載入失敗，請再試。');return r.json();};
-  const [data,analysis]=await Promise.all([get(`reading-curation/2023-a.json?v=${REV}`),get(`dse-reading-analysis/dse-2023-a/index.json?v=20261018-analysis-batch-v1`)]);
-  const steps=buildCourse(data,article,analysis), key=`edmund-reading-super:${data.version}:${encodeURIComponent(userId||'guest')}`;
+  const [data,analysis,lessons]=await Promise.all([get(`reading-curation/2023-a.json?v=${REV}`),get(`dse-reading-analysis/dse-2023-a/index.json?v=20261018-analysis-batch-v1`),get(`reading-curation/2023-a-source-lessons.json?v=${REV}`)]);
+  const steps=buildCourse(data,article,analysis,lessons), key=`edmund-reading-super:${data.version}:${encodeURIComponent(userId||'guest')}`;
   const questionRenderer=createReadingQuestionRenderer({escapeHtml:esc});
   const byId=new Map(steps.map((s,i)=>[s.id,i]));
   let progress=emptyProgress(data),index=0,trigger=null,storageMessage='',toastTimer=0,tab='guide',opening=false,pendingSourceFocus=null;
@@ -81,27 +81,32 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
   function renderGuide(){
     const s=current(),q=question(),u=unit();
     let body='';
-    if(s.kind==='welcome')body=`<p>這篇文章有兩部分：先學怎樣寫 flash fiction，再閱讀 <em>The Big Bang</em>，最後把寫作準則用來評價故事。</p><div class="rc-callout">讀題 → 找原句 → 解釋關係 → 排除陷阱 → 寫答案 → 回到證據。</div><p>每次只處理一個決定。完成一小步，再按「下一步」。上一步會撤回後來的標示。</p><p>五階段可自由選擇；跳到解說或答案階段會揭示答案。只有你按「已理解」才會記錄完成。</p>`;
+    if(s.kind==='welcome')body=`<p>這篇文章有兩部分：先學怎樣寫 flash fiction，再閱讀 <em>The Big Bang</em>，最後把寫作準則用來評價故事。</p><div class="rc-callout">讀題 → 找原句 → 解釋關係 → 排除陷阱 → 寫答案 → 回到證據。</div><p>每次只處理一個決定。完成一小步，再按「下一步」。上一步會撤回後來的標示。</p><p>先讀文章，再逐題完成取證、原稿導讀和答案回證，才進入下一題。原稿解說已逐段加入導讀，不需等做完全部題目才閱讀。五階段可自由選擇；跳到解說或答案階段會揭示答案。只有你按「已理解」才會記錄完成。</p>`;
     else if(s.kind==='map')body=`<p class="rc-callout">${esc(s.note)}</p><p>先辨認第 ${s.paragraph} 段在全文做甚麼。不要急著找答案，先把背景、建議與故事分開。</p>`;
     else if(s.kind==='sentence')body=`<blockquote>${esc(s.sentence.text)}</blockquote><p class="rc-callout">${esc(s.note)}</p><p>讀回完整句子，確認這個意思是原文說的，還是自己加上的。</p>`;
     else if(s.kind==='attempt')body=`<div class="rc-callout">${esc(q.contract)}</div><p>先讀下方完整原題。確認人物、段落、字數和任務，使用題目的選項或答案欄作答。</p><p>下一步開始逐項找證據；如果還未有答案，可以先寫不肯定的地方。</p>`;
     else if(s.kind==='evidence')body=`<p>回到第 <strong>${s.paragraph}</strong> 段，讀高亮部分前後的完整句子。</p><blockquote>${esc(s.evidence.quote)}</blockquote><p>這段話能支持甚麼？又有哪些意思是它沒有說的？先想，再看下一步的推理。</p>`;
-    else if(s.kind==='reason')body=`<div class="rc-callout">${esc(s.note)}</div><p>把原文線索與題目要求接起來。右邊的證據庫可隨時帶你回到來源。</p>`;
+    else if(s.kind==='reason')body=`<p class="rc-small">原稿讀後回顧</p><div class="rc-callout">${esc(s.note)}</div><p>把原文線索與題目要求接起來。右邊的證據庫可隨時帶你回到來源。</p>`;
     else if(s.kind==='trap')body=`<p>這個候選答案為甚麼不適合本題？</p><div class="rc-rejected"><span>不採用的答案／推論</span><s>${esc(s.trap.claim)}</s></div><div class="rc-callout">${esc(s.trap.why)}</div><p>中間原文旁同步劃去這個候選答案。刪線表示本題不採用，原文字句仍然保留。</p>`;
     else if(s.kind==='transfer')body=`<div class="rc-callout">${esc(s.note)}</div><p>用自己的話講一次方法。下次換了文章，還可以用哪個檢查步驟？</p>${button('reference','深入閱讀本題全部原稿')}`;
-    else if(s.kind==='analysis')body=`<p>中間顯示 Edmund Sir 原稿的第 <strong>${s.page}</strong> 頁，保留本頁完整解說及重點格式。</p><div class="rc-callout">${esc(q.contract)}</div><p>讀到證據時，使用右方證據庫回到文章。讀到陷阱時，對照自己原先的想法。</p>${button('question','重新查看完整原題')}<p class="rc-small">本階段逐頁保留所有題目解說；不是摘要。可透過「跳至步驟」找關鍵字。</p>`;
+    else if(s.kind==='analysis'){
+      const original=analysis.pages.find(p=>p.number===s.page);
+      const excerpt={...original,richBody:original.richBody.slice(s.sourceStart,s.sourceEnd),figures:[]};
+      body=`<p class="rc-source-task">${esc(s.note)}</p><section class="rc-source-lesson" data-source-page="${s.page}" data-source-start="${s.sourceStart}" data-source-end="${s.sourceEnd}" aria-label="Edmund Sir 原稿內容"><div class="deep-source-body">${renderRichBody(excerpt,'',f=>analysisAssetUrl(analysis,f))}</div></section><p class="rc-small">原稿 p.${s.page} · 第 ${s.sourceBlock} / ${s.sourceBlocks} 小步 · 保留原文及重點格式</p>${s.sourceStart?`<details><summary>接回本頁前文</summary><div class="deep-source-body">${renderRichBody({...original,richBody:original.richBody.slice(0,s.sourceStart),figures:[]},'',f=>analysisAssetUrl(analysis,f))}</div></details>`:''}${button('reference-page','對照這一頁完整原稿',`data-page="${s.page}"`)}<p class="rc-small">讀完這一步，再按下一步接續原稿。中間保留完整文章供核對。</p>`;
+    }
+    else if(s.kind==='question-complete')body=`<p>本題原稿 p.${q.analysisPages[0]}–${q.analysisPages.at(-1)} 的解說已全部列入剛才的路線。先檢查自己能否說清下列推理，再進入下一題。</p><div class="rc-callout">${esc(s.note)}</div><label class="rc-check"><input type="checkbox" data-rc-check="${s.id}" ${progress.checks.includes(s.id)?'checked':''}> 我能用原文證據解釋本題的答案和錯誤推論</label>${button('question-route','回看本題未理解的步驟')}<p class="rc-small">走到這裡不會自動標記前面的步驟已理解；你的答案、筆記和書籤會保留。</p>`;
     else if(s.kind==='answer')body=`<p>先讀自己的筆記，再比較這個參考表達。</p><blockquote class="rc-answer">${esc(u.answer)}</blockquote><p>${esc(u.why)}</p><p class="rc-small">參考表達供學習比較；開放題可能有其他合理寫法，不以字串相同作評分。</p>`;
     else if(s.kind==='verify')body=`<blockquote>${esc(u.answer)}</blockquote><div class="rc-callout">答案每一部分都應有來源。這一步只核對下列證據，確認沒有加入人物、時間或因果的額外假設。</div><blockquote>${esc(s.evidence.quote)}</blockquote><p>在中間原文核對這段證據。深藍刪線＝這題已回證的來源（不是錯誤）。</p>`;
     else if(s.kind==='check')body=`<div class="rc-callout">${esc(q.review)}</div><p>核對自己的答案：是否完成題目要求？是否保留原文限制？字數、字形及人物視角是否正確？</p><details><summary>再次對照參考表達</summary><blockquote>${esc(u.answer)}</blockquote></details><label class="rc-check"><input type="checkbox" data-rc-check="${s.id}" ${progress.checks.includes(s.id)?'checked':''}> 我已比較自己的答案與原文證據</label>`;
     else body=`<p>你已走到路線最後一步。這不代表所有步驟都已理解：上方數字只計算你親自標記的進度。</p><div class="rc-callout">把題目拆成任務；把原句讀成關係；把答案每個部分帶回證據。</div>${button('jump','回看未理解的步驟')}${button('close','返回閱讀練習')}`;
-    $('[data-rc-teaching]').innerHTML=`<p class="rc-eyebrow">${esc(labels[s.kind])}${q?` · Q${q.number}`:''}</p><h3 tabindex="-1">${esc(s.title)}</h3>${body}`;
+    $('[data-rc-teaching]').innerHTML=`<p class="rc-eyebrow">${esc(labels[s.kind])}${q?` · Q${q.number}`:''}${s.kind==='analysis'?` · p.${s.page} · ${s.sourceBlock}/${s.sourceBlocks}`:''}</p><h3 tabindex="-1">${esc(s.title)}</h3>${body}`;
     $('[data-rc-question]').innerHTML=q?`<details ${s.kind==='attempt'?'open':''}><summary>本題任務與完整題目</summary><p class="rc-callout">${esc(q.contract)}</p>${questionHTML(q.number)}</details>`:'';
     $('[data-rc-note]').innerHTML=q?draftHTML(q):'';
     restoreAnswers($('[data-rc-question]'));breakCurationText($('.rc-guide-scroll'));
     $('.rc-position').textContent=`${index+1} / ${steps.length} · ${STAGES[s.stage]}${q?` · Q${q.number}`:''}`;
     $('[data-rc-action="prev"]').disabled=index===0;
     const nextButton=$('[data-rc-action="next"]'),following=steps[index+1];
-    const nextQuestion=Boolean(s.question&&following?.question&&following.stage===s.stage&&following.question!==s.question);
+    const nextQuestion=Boolean(s.question&&following?.question&&following.question!==s.question);
     nextButton.disabled=!following;
     nextButton.textContent=nextQuestion?'進入下一題 →':following&&following.stage!==s.stage?`進入${STAGES[following.stage]} →`:'下一步 →';
     nextButton.classList.toggle('rc-next-question',nextQuestion);
@@ -115,9 +120,9 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
   }
   function rejectionHTML(paragraph){
     const rejected=visibleRejections(data,steps,index).filter(t=>t.paragraph===paragraph);if(!rejected.length)return '';
-    const active=rejected.find(t=>t.active)||rejected.at(-1),older=rejected.filter(t=>t!==active);
+    const active=rejected.find(t=>t.active),older=rejected.filter(t=>t!==active);
     const chip=t=>`<span class="rc-passage-rejection ${t.active?'rc-current-rejection':''}" data-rejected-trap-id="${t.id}"><s>${esc(t.claim)}</s></span>`;
-    return `<aside class="rc-passage-rejections" aria-label="本題排除的答案與推論"><strong>Q${current().question} · 不採用的答案／推論</strong>${chip(active)}<small>此標記是被排除的答案，不是原文字句。</small>${older.length?`<details><summary>之前排除的答案（${older.length}）</summary>${older.map(chip).join('')}</details>`:''}</aside>`;
+    return `<aside class="rc-passage-rejections" aria-label="本題排除的答案與推論"><strong>Q${current().question} · 不採用的答案／推論</strong>${active?`${chip(active)}<small>此標記是被排除的答案，不是原文字句。</small>`:''}${older.length?`<details><summary>之前排除的答案（${older.length}）</summary>${older.map(chip).join('')}</details>`:''}</aside>`;
   }
   function paragraphHTML(p,marks,activeId){
     const meta=data.sourceParagraphs.find(x=>x.number===p.number);
@@ -127,19 +132,12 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
     const s=current(),q=question();let marks=visibleEvidence(data,steps,index);
     if(s.sentence)marks=[{...s.sentence,paragraph:s.paragraph,kind:'reading'}];
     const panel=$('.rc-source-scroll');
-    if(s.kind==='analysis'){
-      const page=analysis.pages.find(p=>p.number===s.page);
-      $('[data-rc-source-heading]').textContent=`Q${s.question} · 完整原稿 p.${s.page} / ${analysis.pageCount}`;
-      panel.innerHTML=`<article class="rc-original-analysis"><p class="rc-eyebrow">EDMUND SIR · 原稿解說 · p.${s.page}</p><div class="deep-source-body">${renderRichBody(page,'',f=>analysisAssetUrl(analysis,f))}</div><details><summary>原頁頁眉及頁尾</summary><p>${esc([...(page.header||[]),...(page.footer||[])].join('\n'))}</p></details></article>`;
-    }else{
-      $('[data-rc-source-heading]').textContent='Flash Fiction · 完整原文';
-      panel.innerHTML=`<div class="rc-document-title"><p class="rc-eyebrow">2023 DSE · READING PART A</p><h2>${esc(article.title)}</h2><p>原文字句完整保留；標示隨步驟前後變化。</p></div>${article.paragraphs.map(p=>paragraphHTML(p,marks,s.evidence?.id||s.sentence?.id||'')).join('')}`;
-      const focus=s.paragraph||unit()?.evidence[0]?.paragraph||q?.scope[0]||1;
-      all('.rc-paragraph').forEach(p=>p.classList.toggle('rc-dim',progress.preferences.spotlight&&Number(p.dataset.paragraph)!==focus));
-      pendingSourceFocus=focus;
-    }
+    $('[data-rc-source-heading]').textContent='Flash Fiction · 完整原文';
+    panel.innerHTML=`<div class="rc-document-title"><p class="rc-eyebrow">2023 DSE · READING PART A</p><h2>${esc(article.title)}</h2><p>原文字句完整保留；標示隨步驟前後變化。</p></div>${article.paragraphs.map(p=>paragraphHTML(p,marks,s.evidence?.id||s.sentence?.id||'')).join('')}`;
+    const focus=s.paragraph||unit()?.evidence[0]?.paragraph||q?.scope[0]||1, focuses=s.paragraphs||[focus];
+    all('.rc-paragraph').forEach(p=>p.classList.toggle('rc-dim',progress.preferences.spotlight&&!focuses.includes(Number(p.dataset.paragraph))));
+    pendingSourceFocus=focus;
     breakCurationText(panel);alignSource();
-    if(s.kind==='analysis'){pendingSourceFocus=null;panel.scrollTop=0;}
   }
   function alignSource(){
     const panel=$('.rc-source-scroll');
@@ -156,7 +154,7 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
       html+=`<h4>QUESTION ${q.number}</h4><p class="rc-small">${esc(q.contract)}</p>`;
       if(!evidence.length)html+='<p class="rc-muted">先試題。隨著每一步取證，原句才會加入這裡。</p>';
       for(const e of evidence)html+=`<button class="rc-evidence-card ${e.used?'rc-card-used':''}" type="button" data-rc-action="visit" data-paragraph="${e.paragraph}"><small>第 ${e.paragraph} 段 · ${e.used?'已回證（不是錯誤）':'已找到的證據'}</small><q><span class="${e.used?'rc-consumed-quote':''}">${esc(e.quote)}</span></q><span>回到來源 ↗</span></button>`;
-      const traps=s.stage===2?steps.slice(0,index+1).filter(x=>x.question===q.number&&x.kind==='trap'):[];
+      const traps=steps.slice(0,index+1).filter(x=>x.question===q.number&&x.kind==='trap');
       if(traps.length)html+=`<details><summary>已檢查的不採用答案 (${traps.length})</summary>${traps.map(t=>`<div class="rc-rejected"><s>${esc(t.trap.claim)}</s><p>${esc(t.trap.why)}</p></div>`).join('')}</details>`;
     }
     $('.rc-bank-scroll').innerHTML=html;breakCurationText($('.rc-bank-scroll'));
@@ -190,7 +188,7 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
       const text=[STAGES[s.stage],s.title,s.note,s.question?`Q${s.question}`:'',s.page?`p.${s.page} ${analysis.pages.find(p=>p.number===s.page)?.text}`:'',s.evidence?.quote,s.trap?.claim].join(' ').toLowerCase();
       return !needle||text.includes(needle);
     });
-    modal.querySelector('[data-rc-search-results]').innerHTML=`<p>${found.length} 個步驟</p>${found.map(s=>button('goto',`<small>${STAGES[s.stage]}${s.question?` · Q${s.question}`:''}${s.page?` · p.${s.page}`:''}</small><strong>${esc(s.title)}</strong><span>${progress.done.includes(s.id)?'✓ 已理解':'未標記'} ${progress.bookmarks.includes(s.id)?'★':''}</span>`,`data-id="${s.id}" class="rc-jump-item" ${s.id===current().id?'aria-current="step"':''}`)).join('')}`;
+    modal.querySelector('[data-rc-search-results]').innerHTML=`<p>${found.length} 個步驟</p>${found.map(s=>button('goto',`<small>${STAGES[s.stage]}${s.question?` · Q${s.question}`:''}${s.page?` · p.${s.page} · ${s.sourceBlock}/${s.sourceBlocks}`:''}</small><strong>${esc(s.title)}</strong><span>${progress.done.includes(s.id)?'✓ 已理解':'未標記'} ${progress.bookmarks.includes(s.id)?'★':''}</span>`,`data-id="${s.id}" class="rc-jump-item" ${s.id===current().id?'aria-current="step"':''}`)).join('')}`;
   }
   function placePreview(rect){
     const gap=12,minW=Math.min(320,innerWidth-gap*2),minH=Math.min(240,innerHeight-gap*2);
@@ -225,21 +223,15 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
       handle.addEventListener('keydown',e=>{if(!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();const r=modal.getBoundingClientRect();placePreview({left:r.left,top:r.top,width:r.width+(e.key==='ArrowRight'?16:e.key==='ArrowLeft'?-16:0),height:r.height+(e.key==='ArrowDown'?16:e.key==='ArrowUp'?-16:0)});});
     }
   }
-  const resizePreview=()=>{if(modal.open&&modal.dataset.kind==='source')placePreview(modal.getBoundingClientRect());if(current().kind!=='analysis')pendingSourceFocus=current().paragraph||unit()?.evidence[0]?.paragraph||question()?.scope[0]||1;alignSource();};
+  const resizePreview=()=>{if(modal.open&&modal.dataset.kind==='source')placePreview(modal.getBoundingClientRect());pendingSourceFocus=current().paragraph||unit()?.evidence[0]?.paragraph||question()?.scope[0]||1;alignSource();};
   window.addEventListener('resize',resizePreview);
   function sourceVisit(paragraph){
-    const marks=visibleEvidence(data,steps,index),p=article.paragraphs.find(p=>p.number===paragraph);if(!p)return;
-    if(current().kind!=='analysis'){
-      tab='source';dialog.dataset.tab=tab;all('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));
-      all('.rc-source .rc-paragraph').forEach(el=>el.classList.toggle('rc-dim',progress.preferences.spotlight&&Number(el.dataset.paragraph)!==paragraph));
-      pendingSourceFocus=paragraph;alignSource();return;
-    }
-    showModal(`來源 · 第 ${paragraph} 段`,`${paragraphHTML(p,marks,current().evidence?.id)}<p class="rc-small">原卷文章 p.${data.sourceParagraphs.find(x=>x.number===paragraph).sourcePage} · 回到步驟後，筆記與標示仍然保留。</p>${button('dismiss','← 返回剛才的導讀步驟')}${button('next','已核對，下一步 →','class="rc-primary"')}`,'source');
+    if(!article.paragraphs.some(p=>p.number===paragraph))return;
+    tab='source';dialog.dataset.tab=tab;all('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===tab)));
+    all('.rc-source .rc-paragraph').forEach(el=>el.classList.toggle('rc-dim',progress.preferences.spotlight&&Number(el.dataset.paragraph)!==paragraph));
+    pendingSourceFocus=paragraph;alignSource();
   }
-  function fullSource(){
-    if(current().kind!=='analysis'){sourceVisit(current().paragraph||unit()?.evidence[0]?.paragraph||question()?.scope[0]||1);return;}
-    showModal('完整閱讀原文',article.paragraphs.map(p=>paragraphHTML(p,visibleEvidence(data,steps,index),'')).join(''),'source');
-  }
+  function fullSource(){sourceVisit(current().paragraph||unit()?.evidence[0]?.paragraph||question()?.scope[0]||1);}
   function storage(){
     const slots=[1,2,3].map(n=>{let saved=null;try{saved=JSON.parse(localStorage.getItem(`${key}:slot:${n}`)||'null');}catch{}return `<section class="rc-slot"><strong>存檔 ${n}</strong><small>${saved?.updatedAt?esc(new Date(saved.updatedAt).toLocaleString('zh-HK')):'尚未儲存'}</small>${button('save-slot','儲存到此位置',`data-slot="${n}"`)}${button('load-slot','載入',`data-slot="${n}" ${saved?'':'disabled'}`)}</section>`;}).join('');
     showModal('我的導讀進度',`<p>自動儲存在此裝置、此學生帳戶。包含進度、書籤、筆記與顯示設定；不會變更考試成績。</p>${slots}<div class="rc-file-tools">${button('export','匯出進度 JSON')}<label>匯入自己的進度<input type="file" accept="application/json,.json" data-rc-import></label></div>${button('bookmarks','查看我的書籤')}${button('supplements','閱讀原稿補充內容（35頁）')}<p class="rc-small">${esc(data.editorialNote)}</p>`,'storage');
@@ -260,10 +252,11 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
     }
     if(a==='continue'){go(index+1);return;}
     if(a==='goto'){go(b.dataset.id);return;}
-    if(a==='stage'){const target=steps.find(s=>s.stage===Number(b.dataset.stage));if(target.stage>=3){showModal('進入解說階段',`<p>這個階段會顯示完整解說及參考答案。你可以先到「逐題取證」自己嘗試。</p>${button('dismiss','先留在目前步驟')}${button('goto','進入這個階段',`data-id="${target.id}" class="rc-primary"`)}`);}else go(target.id);return;}
+    if(a==='stage'){const stage=Number(b.dataset.stage),target=steps.find(s=>s.stage===stage&&(stage<2||s.question===(current().question||1)));if(target.stage>=3){showModal('進入解說階段',`<p>這個階段會顯示完整解說及參考答案。你可以先到「逐題取證」自己嘗試。</p>${button('dismiss','先留在目前步驟')}${button('goto','進入這個階段',`data-id="${target.id}" class="rc-primary"`)}`);}else go(target.id);return;}
     if(a==='done'){toggle(progress.done,current().id);save();updateRail();b.textContent=progress.done.includes(current().id)?'✓ 已理解（取消標記）':'✓ 標記已理解';b.setAttribute('aria-pressed',String(progress.done.includes(current().id)));return;}
     if(a==='bookmark'){toggle(progress.bookmarks,current().id);save();b.textContent=progress.bookmarks.includes(current().id)?'★ 已加書籤':'☆ 書籤';b.setAttribute('aria-pressed',String(progress.bookmarks.includes(current().id)));return;}
     if(a==='jump'||a==='bookmarks'){jump('',a==='bookmarks');return;}
+    if(a==='question-route'){jump();modal.querySelector('[data-rc-question-filter]').value=String(current().question);modal.querySelector('[data-rc-only-unread]').checked=true;filterSteps();return;}
     if(a==='tab'){tab=b.dataset.tab;dialog.dataset.tab=tab;all('[data-tab]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.tab===tab)));if(tab==='source')alignSource();return;}
     if(a==='visit'||a==='paragraph'){sourceVisit(Number(b.dataset.paragraph));return;}
     if(a==='source'){fullSource();return;}

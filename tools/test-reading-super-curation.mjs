@@ -6,14 +6,14 @@ import {resolve,extname} from 'node:path';
 import {createRequire} from 'node:module';
 import {buildCourse,cleanProgress,emptyProgress,visibleEvidence,visibleRejections,markedText} from '../reading-curation-core.mjs';
 const root=resolve(import.meta.dirname,'..'),json=async p=>JSON.parse(await readFile(resolve(root,p),'utf8'));
-const [data,article,analysis]=await Promise.all([json('reading-curation/2023-a.json'),json('dse-reading-data/dse-2023-a.json'),json('dse-reading-analysis/dse-2023-a/index.json')]);
-const sourceBefore=JSON.stringify(article),steps=buildCourse(data,article,analysis),at=id=>steps.findIndex(s=>s.id===id);
+const [data,article,analysis,lessons]=await Promise.all([json('reading-curation/2023-a.json'),json('dse-reading-data/dse-2023-a.json'),json('dse-reading-analysis/dse-2023-a/index.json'),json('reading-curation/2023-a-source-lessons.json')]);
+const sourceBefore=JSON.stringify(article),steps=buildCourse(data,article,analysis,lessons),at=id=>steps.findIndex(s=>s.id===id);
 assert.equal(createHash('sha256').update(await readFile(resolve(root,'dse-reading-data/dse-2023-a.json'))).digest('hex'),data.articleSha256);
 assert.deepEqual(data.questions.map(q=>q.number),Array.from({length:22},(_,i)=>i+1));
 assert.equal(data.sourceParagraphs.length,16);assert.equal(data.sourceParagraphs.flatMap(p=>p.sentences).length,62);
 assert.equal(data.questions.flatMap(q=>q.units).length,44);
 assert.equal(data.questions.flatMap(q=>q.units.flatMap(u=>u.evidence)).length,74);
-assert.deepEqual(steps.filter(s=>s.kind==='analysis').map(s=>s.page),Array.from({length:287},(_,i)=>i+35));
+assert.deepEqual([...new Set(steps.filter(s=>s.kind==='analysis').map(s=>s.page))],Array.from({length:287},(_,i)=>i+35));
 for(const q of data.questions){
   assert.deepEqual(q.analysisPages,analysis.questions.find(a=>a.number===q.number).pages);
   for(const u of q.units){assert.ok(u.answer&&u.why&&u.evidence.length&&u.traps.length);for(const p of u.pages)assert.ok(q.analysisPages.includes(p));}
@@ -25,7 +25,7 @@ for(const p of data.sourceParagraphs){
 }
 assert.equal(visibleRejections(data,steps,at('q1-attempt')).length,0);
 assert.ok(visibleRejections(data,steps,at('q1-solution-trap-0')).some(t=>t.claim==='a big challenge'&&t.paragraph===1&&t.active));
-assert.ok(!visibleRejections(data,steps,at('q1-solution-reason')).some(t=>t.claim==='a big challenge'));
+assert.ok(!visibleRejections(data,steps,at('q1-attempt')).some(t=>t.claim==='a big challenge'));
 assert.equal(visibleEvidence(data,steps,at('q1-attempt')).length,0);
 assert.equal(visibleEvidence(data,steps,at('q1-history-e1')).length,1);
 assert.ok(visibleEvidence(data,steps,at('q1-transfer')).length>1);
@@ -37,6 +37,25 @@ assert.deepEqual(clean.done,['q1-attempt']);assert.deepEqual(clean.drafts,{'1':'
 assert.throws(()=>cleanProgress({version:'bad'},data,steps));
 const answerRestore=cleanProgress({...emptyProgress(data),answers:{q2:'unfortunately',q20_i:'invalid option',q999:'drop'}},data,steps,article);assert.deepEqual(answerRestore.answers,{q2:'unfortunately'});
 assert.equal(markedText('<script>',[]),'&lt;script&gt;');assert.equal(JSON.stringify(article),sourceBefore);
+for(const q of data.questions){
+  const route=steps.filter(s=>s.question===q.number),start=steps.indexOf(route[0]),end=steps.indexOf(route.at(-1));
+  assert.equal(end-start+1,route.length,`Q${q.number} is contiguous; detailed teaching cannot be deferred to other questions`);
+  assert.equal(route.at(-1).id,`q${q.number}-complete`);
+  for(const n of q.analysisPages){
+    const page=analysis.pages.find(p=>p.number===n),blocks=route.filter(s=>s.page===n),plan=lessons.pages.find(p=>p.page===n);
+    assert.equal(blocks[0].id,`analysis-${n}`,'Existing source-page bookmarks survive');
+    assert.deepEqual(blocks.flatMap(s=>page.richBody.slice(s.sourceStart,s.sourceEnd)),page.richBody,`Every source row and emphasis retained exactly once: p.${n}`);
+    assert.equal(createHash('sha256').update(page.richBody.map(row=>row.runs.map(r=>r.text).join('')).join('\n')).digest('hex'),plan.sourceDigest);
+    assert.ok(blocks.every(s=>s.paragraphs.every(n=>article.paragraphs.some(p=>p.number===n))));
+  }
+}
+const previous=cleanProgress({...emptyProgress(data),current:'analysis-173',done:['analysis-173','q14-mumbled-reason'],bookmarks:['analysis-173'],answers:{q14_i:'Chemistry'}},data,steps,article);
+assert.equal(previous.current,'analysis-173');assert.deepEqual(previous.bookmarks,['analysis-173']);assert.equal(previous.answers.q14_i,'Chemistry');
+assert.ok(!previous.done.includes('analysis-173-block-2'),'New teaching is never silently marked understood by legacy page progress');
+assert.throws(()=>buildCourse(data,article,analysis,{...lessons,pages:lessons.pages.map((p,i)=>i? p:{...p,ranges:[[1,p.rowCount]]})}),/遺漏/);
+assert.ok(steps.filter(s=>s.question===6&&s.kind==='analysis').length>30);
+assert.ok(steps.filter(s=>s.question===14&&s.kind==='analysis').length>51);
+assert.ok(steps.filter(s=>s.question===21&&s.kind==='analysis').length>23);
 console.log(`Data QA: ${steps.length} steps; 62 complete reading units; 44 answer units; 74 exact evidence spans; 287 original analysis pages; both Q21 routes.`);
 if(process.argv.includes('--data-only'))process.exit(0);
 const require=createRequire(import.meta.url);
@@ -87,15 +106,18 @@ try{
   await page.locator('.rc-guide [data-answer-part="q20_i"]').scrollIntoViewIfNeeded();await page.screenshot({path:'/private/tmp/reading-curation-question-table.png'});
   await page.locator('.rc [data-rc-action=next]').click();assert.equal(await page.locator('.rc-modal[open]').count(),0,'An actual answer satisfies the initial attempt');
   await goto('q20-attempt');assert.equal(await page.locator('.rc-guide [data-answer-part="q20_i"]').inputValue(),selectedAnswer);
-  for(const stage of [2,3,4]){
+  // No next-question shortcut before all original teaching and answer checks.
+  for(const stage of [2,3]){
     const last=steps.filter(s=>s.stage===stage&&s.question===1).at(-1);await goto(last.id);
-    assert.equal(await page.locator('.rc-nav [data-rc-action=next]').innerText(),'進入下一題 →');
-    assert.ok(await page.locator('.rc-nav [data-rc-action=next]').evaluate(e=>e.classList.contains('rc-next-question')));
-    if(stage===2)await page.screenshot({path:'/private/tmp/reading-curation-next-question.png'});
-    await page.locator('.rc-nav [data-rc-action=next]').click();assert.match(await page.locator('.rc-position').innerText(),/Q2$/);
-    await page.locator('.rc-nav [data-rc-action=prev]').click();assert.match(await page.locator('.rc-position').innerText(),/Q1$/);
+    assert.doesNotMatch(await page.locator('.rc-nav [data-rc-action=next]').innerText(),/進入下一題/);
+    await page.locator('.rc-nav [data-rc-action=next]').click();assert.match(await page.locator('.rc-position').innerText(),/Q1$/);
   }
-  await goto('q22-transfer');assert.match(await page.locator('.rc-nav [data-rc-action=next]').innerText(),/進入解說精讀/);
+  await goto('q1-complete');assert.equal(await page.locator('.rc-nav [data-rc-action=next]').innerText(),'進入下一題 →');
+  assert.ok(await page.locator('.rc-nav [data-rc-action=next]').evaluate(e=>e.classList.contains('rc-next-question')));
+  await page.screenshot({path:'/private/tmp/reading-curation-next-question.png'});
+  await page.locator('.rc-nav [data-rc-action=next]').click();assert.match(await page.locator('.rc-position').innerText(),/Q2$/);
+  await page.locator('.rc-nav [data-rc-action=prev]').click();assert.match(await page.locator('.rc-position').innerText(),/Q1$/);
+  await goto('q22-complete');assert.doesNotMatch(await page.locator('.rc-nav [data-rc-action=next]').innerText(),/進入下一題/);
   await page.locator('.rc [data-rc-action=jump]').click();assert.equal(await page.locator('.rc-question-grid button').count(),22);await page.screenshot({path:'/private/tmp/reading-curation-question-picker.png'});
   await page.locator('[data-rc-question-filter]').selectOption('1');
   assert.ok((await page.locator('.rc-jump-item').allTextContents()).every(t=>/Q1(?:[^0-9]|$)/.test(t)),'Exact question filtering excludes Q10–Q19');
@@ -103,7 +125,26 @@ try{
   await goto('q1-history-reason');
   assert.ok(await page.locator('[data-rc-teaching] br[data-rc-break]').count()>0);
   assert.equal(await page.locator('[data-rc-teaching] .rc-callout').textContent(),data.questions[0].units[0].why,'Presentation line breaks preserve all text');
-  await goto('analysis-35');assert.ok(await page.locator('.deep-source-body br[data-rc-break]').count()>0);
+  await goto('analysis-40');assert.ok(await page.locator('.rc-source-lesson .deep-source-body br[data-rc-break]').count()>0);
+  // The actual guided panel reveals exact source blocks, not a page summary.
+  for(const id of ['analysis-40','analysis-40-block-2','analysis-86','analysis-89-block-3','analysis-173-block-2','analysis-180-block-2','analysis-220-block-2','analysis-287','analysis-291','analysis-294','analysis-297','analysis-300-block-3','analysis-314']){
+    await goto(id);const step=steps[at(id)],original=analysis.pages.find(p=>p.number===step.page);
+    const expected=original.richBody.slice(step.sourceStart,step.sourceEnd).flatMap(r=>r.runs.map(r=>r.text)).join('');
+    assert.equal(await page.locator('.rc-source-lesson .deep-source-body').textContent(),expected,`Verbatim teaching and emphasis path: ${id}`);
+    assert.equal(await page.locator('.rc-source .rc-paragraph').count(),16);
+    for(const n of step.paragraphs)assert.equal(await page.locator(`.rc-source [data-paragraph="${n}"]>p`).textContent(),article.paragraphs.find(p=>p.number===n).text);
+  }
+  await goto('analysis-40-block-2');assert.ok(await page.locator('.rc-source [data-rejected-trap-id="source-rejection-40-5"]').count());
+  await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('.rc-source [data-rejected-trap-id="source-rejection-40-5"]').count(),0,'Rewinding original teaching retracts its later rejection');
+  assert.doesNotMatch(await page.locator('.rc-source-lesson').textContent(),/C 最容易/,'The next source explanation is not revealed early');
+  await goto('analysis-287');assert.ok(await page.locator('.rc-source [data-paragraph="2"] mark').filter({hasText:'1,000 words or less'}).count());
+  await goto('analysis-173');await page.locator('.rc-rail [data-stage="3"]').click();await page.locator('.rc-modal [data-rc-action=goto]').click();assert.match(await page.locator('.rc-position').innerText(),/Q14$/,'Phase navigation stays with the selected question');
+  for(const width of [1440,390]){
+    await page.setViewportSize({width,height:900});await goto('analysis-180-block-2');
+    assert.ok(await page.locator('.rc-guide-scroll').evaluate(e=>e.scrollWidth<=e.clientWidth+1));
+    await page.screenshot({path:`/private/tmp/reading-curation-restored-source-${width}.png`});
+  }
+  await page.setViewportSize({width:1440,height:1000});
   await goto('q1-attempt');assert.equal(await page.locator('.rc-evidence-card').count(),0);assert.equal(await page.locator('.rc-guide .rc-original-question').count(),1);
   await page.locator('.rc [data-rc-action=next]').click();await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await page.locator('[data-rc-draft]').fill('My initial reasoning: compare history, not length.');
@@ -126,11 +167,9 @@ try{
   await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('[data-rc-teaching] .rc-rejected').count(),0);
   await goto('q21-good-answer');assert.match(await page.locator('.rc-answer').innerText(),/A good example/);
   await goto('q21-not-good-answer');assert.match(await page.locator('.rc-answer').innerText(),/Not a good example/);
-  await goto('analysis-173');assert.match(await page.locator('.rc-original-analysis').innerText(),/speech verb/);await page.screenshot({path:'/private/tmp/reading-curation-original-analysis.png'});
-  await page.locator('.rc-evidence-card').first().click();assert.equal(await page.locator('.rc-modal[data-kind=source][open]').count(),1,'Analysis pages still offer the source where it is not already visible');
-  const before=await page.locator('.rc-modal').boundingBox();await page.locator('.rc-modal>header').focus();await page.keyboard.press('ArrowRight');const after=await page.locator('.rc-modal').boundingBox();assert.ok(after.x>before.x);
-  await page.locator('.rc-resize-se').focus();await page.keyboard.press('ArrowLeft');assert.ok((await page.locator('.rc-modal').boundingBox()).width<after.width);
-  await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
+  await goto('analysis-173');assert.match(await page.locator('.rc-source-lesson').innerText(),/speech verb/);await page.screenshot({path:'/private/tmp/reading-curation-original-analysis.png'});
+  await page.locator('.rc-evidence-card').first().click();assert.equal(await page.locator('.rc-modal[open]').count(),0,'Original passage stays visible during original teaching');
+  assert.equal(await page.locator('.rc-source .rc-paragraph').count(),16);
   await page.locator('.rc [data-rc-action=reference]').first().click();assert.equal(await page.locator('.rc-page-link').count(),51);await page.locator('.rc-modal [data-page="173"]').click();assert.match(await page.locator('.rc-modal .deep-source-body').innerText(),/speech verb/);await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await goto('q21-not-good-verify-0');assert.ok(await page.locator('.rc-used').count()>0);await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('.rc-used[data-evidence-ids~="q21-not-good-e1"]').count(),0);
   await page.locator('.rc [data-rc-action=bookmark]').click();await page.locator('.rc [data-rc-action=done]').click();
@@ -177,5 +216,5 @@ try{
   await integrated.close();
   const animated=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});await animated.goto(base+'/__curation-test');await animated.waitForFunction(()=>window.ready);await animated.locator('#launch').click();await animated.locator('.rc [data-rc-action=jump]').click();await animated.locator('.rc-modal [data-id="q1-history-e1"]').click();await animated.locator('.rc [data-rc-action=prev]').click();await animated.waitForTimeout(1100);assert.equal(await animated.locator('.rc-source .rc-mark').count(),0,'No delayed ghost marks after Back during animation');await animated.close();
   assert.deepEqual(errors,[]);
-  console.log('Browser QA passed: forward/back reveal, source visit/return, keyboard movement/resizing, complete original pages, two Q21 routes, notes/reload/bookmarks, malformed import, storage failure, 1440/1100/768/390 and 200%-equivalent viewport.');
+  console.log('Browser QA passed: forward/back reveal, source visit/return, original teaching beside the passage, complete source coverage, two Q21 routes, notes/reload/bookmarks, malformed import, storage failure, 1440/1100/768/390 and 200%-equivalent viewport.');
 }finally{await browser.close();await new Promise(r=>server.close(r));}

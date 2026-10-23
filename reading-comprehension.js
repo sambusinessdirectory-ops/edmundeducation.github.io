@@ -1651,7 +1651,7 @@ async function openReadingSuperCuration() {
     pauseTimer(); pauseDseActivity(); el.audio.pause(); closePopovers();
     if (superReader && superReaderUserId !== owner) { superReader.destroy(); superReader = null; }
     if (!superReader) {
-      const { createReadingSuperCuration } = await import('./reading-super-curation.mjs?v=20261024-super4');
+      const { createReadingSuperCuration } = await import('./reading-super-curation.mjs?v=20261024-super5');
       superReader = await createReadingSuperCuration({
         article: state.data, userId: owner,
         onClose: () => {

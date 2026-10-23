@@ -1,7 +1,7 @@
 // Pure curriculum/state operations: source offsets and rewind are deterministic.
 export const STAGES = ['讀卷定位', '原文逐句', '逐題取證', '解說精讀', '答案回證'];
-export function buildCourse(data, article, analysis) {
-  if (data.articleId !== article.id || data.sourceSha256 !== analysis.sourceSha256) throw new Error('教材版本未能核實，請重新整理。');
+export function buildCourse(data, article, analysis, lessons) {
+  if (data.articleId !== article.id || data.sourceSha256 !== analysis.sourceSha256 || lessons?.sourceSha256 !== analysis.sourceSha256) throw new Error('教材版本未能核實，請重新整理。');
   const steps = [];
   const add = (stage, id, kind, title, more = {}) => steps.push({stage, id, kind, title, ...more});
   add(0, 'welcome', 'welcome', '先建立閱讀路線');
@@ -10,35 +10,51 @@ export function buildCourse(data, article, analysis) {
     if (!source) throw new Error('找不到原文段落');
     for (const s of p.sentences) if (source.text.slice(s.start, s.end) !== s.text) throw new Error('原文版本與逐句定位不一致');
     add(0, `map-p${p.number}`, 'map', p.title, {paragraph:p.number, note:p.summary});
-    for (const s of p.sentences) add(1, s.id, 'sentence', s.title, {paragraph:p.number, sentence:s, note:s.note});
   }
+  for (const p of data.sourceParagraphs) for (const s of p.sentences) add(1, s.id, 'sentence', s.title, {paragraph:p.number, sentence:s, note:s.note});
   for (const q of data.questions) {
     if (!article.questions.some(x => x.number === q.number)) throw new Error('找不到原題');
     add(2, `q${q.number}-attempt`, 'attempt', q.title, {question:q.number, note:q.contract});
-    for (const u of q.units) {
-      for (const e of u.evidence) {
-        if (article.paragraphs.find(p => p.number === e.paragraph)?.text.slice(e.start,e.end) !== e.quote) throw new Error('證據定位與原文不一致');
-        add(2, e.id, 'evidence', u.title, {question:q.number, unit:u.id, evidence:e, paragraph:e.paragraph});
-      }
-      add(2, `${u.id}-reason`, 'reason', u.title, {question:q.number, unit:u.id, note:u.why});
-      u.traps.forEach((trap,i) => add(2, `${u.id}-trap-${i}`, 'trap', '檢查這個候選答案', {question:q.number, unit:u.id, trap}));
+    for (const u of q.units) for (const e of u.evidence) {
+      if (article.paragraphs.find(p => p.number === e.paragraph)?.text.slice(e.start,e.end) !== e.quote) throw new Error('證據定位與原文不一致');
+      add(2, e.id, 'evidence', u.title, {question:q.number, unit:u.id, evidence:e, paragraph:e.paragraph});
     }
-    add(2, `q${q.number}-transfer`, 'transfer', '下次遇到這類題目', {question:q.number, note:q.review});
+    // Complete, lossless original teaching belongs to THIS question's route.
+    // Keep legacy analysis-N IDs for saved bookmarks; new blocks are unmarked.
     for (const page of q.analysisPages) {
-      const original = analysis.pages.find(p => p.number === page);
-      if (!original || !analysis.questions.find(x=>x.number===q.number)?.pages.includes(page)) throw new Error('解說頁來源不一致');
-      add(3, `analysis-${page}`, 'analysis', original.title || `完整解說 p.${page}`, {question:q.number, page});
+      const original = analysis.pages.find(p => p.number === page), lesson=lessons.pages.find(p=>p.page===page);
+      if (!original || !analysis.questions.find(x=>x.number===q.number)?.pages.includes(page) || lesson?.question!==q.number || lesson.rowCount!==original.richBody.length) throw new Error('解說頁來源不一致');
+      let end=0;
+      lesson.ranges.forEach(([start,stop],i)=>{
+        if(start!==end || !Number.isInteger(stop) || stop<=start || stop>original.richBody.length) throw new Error('原稿導讀有遺漏或重疊');
+        end=stop;
+        const rows=original.richBody.slice(start,stop), topic=rows.map(r=>r.runs.map(x=>x.text).join('')).join(' ');
+        add(3, i?`analysis-${page}-block-${i+1}`:`analysis-${page}`, 'analysis', lesson.titles[i], {
+          question:q.number,page,sourceStart:start,sourceEnd:stop,sourceBlock:i+1,sourceBlocks:lesson.ranges.length,
+          paragraph:lesson.paragraphs[0],paragraphs:lesson.paragraphs,note:lesson.prompt,sourceText:topic,
+          lessonMarks:lesson.quotes.map((e,n)=>{const text=article.paragraphs.find(p=>p.number===e.paragraph)?.text||'',start=text.indexOf(e.quote);if(start<0)throw new Error('原稿證據定位不符');return {...e,start,end:start+e.quote.length,id:`source-${page}-quote-${n}`,kind:'evidence',used:false};}),
+          sourceRejections:lesson.rejections.filter(r=>r.row>=start&&r.row<stop).map(r=>({...r,id:`source-rejection-${page}-${r.row}`})),
+          lessonEvidence:q.units.filter(u=>!lesson.units.length||lesson.units.includes(u.id)).flatMap(u=>u.evidence).filter(e=>lesson.paragraphs.includes(e.paragraph)).map(e=>e.id)
+        });
+      });
+      if(end!==original.richBody.length)throw new Error('原稿導讀未包含完整頁面');
+    }
+    // Existing concise notes remain as a recap AFTER the full original lesson.
+    for(const u of q.units){
+      add(3, `${u.id}-reason`, 'reason', u.title, {question:q.number, unit:u.id, note:u.why});
+      u.traps.forEach((trap,i)=>add(3, `${u.id}-trap-${i}`, 'trap', '再核對這個候選答案', {question:q.number, unit:u.id, trap}));
     }
     for (const u of q.units) {
       add(4, `${u.id}-answer`, 'answer', u.title, {question:q.number, unit:u.id});
       u.evidence.forEach((e,i)=>add(4, `${u.id}-verify-${i}`, 'verify', '帶著答案回到原文', {question:q.number, unit:u.id, evidence:e, paragraph:e.paragraph}));
       add(4, `${u.id}-check`, 'check', '回到自己的答案', {question:q.number, unit:u.id});
     }
+    add(4, `q${q.number}-transfer`, 'transfer', '下次遇到這類題目', {question:q.number, note:q.review});
+    add(4, `q${q.number}-complete`, 'question-complete', `Q${q.number} · 完整推理自查`, {question:q.number,note:lessons.checks[q.number]});
   }
   add(4,'finish','finish','把閱讀方法帶到下一篇');
-  const ordered = steps.sort((a,b)=>a.stage-b.stage);
-  if (new Set(ordered.map(s=>s.id)).size !== ordered.length) throw new Error('教學步驟編號重複');
-  return ordered;
+  if (new Set(steps.map(s=>s.id)).size !== steps.length) throw new Error('教學步驟編號重複');
+  return steps;
 }
 export function emptyProgress(data) {
   return {version:data.version,articleId:data.articleId,current:'welcome',done:[],bookmarks:[],drafts:{},answers:{},checks:[],preferences:{spotlight:false,large:false,bilingual:false},updatedAt:null};
@@ -70,18 +86,21 @@ export function visibleEvidence(data,steps,index) {
   if (step.stage < 2 || step.kind==='attempt') return [];
   if (step.stage>=3) {
     const used=new Set(steps.slice(0,index+1).filter(s=>s.stage===4&&s.question===step.question&&s.kind==='verify').map(s=>s.evidence.id));
-    return q.units.flatMap(u=>u.evidence.map(e=>({...e,unit:u.id,used:step.stage===4&&used.has(e.id)})));
+    const marks=q.units.flatMap(u=>u.evidence.map(e=>({...e,unit:u.id,used:step.stage===4&&used.has(e.id)})));
+    if(step.kind==='analysis')return [...marks.filter(e=>step.paragraphs.includes(e.paragraph)&&(!step.lessonEvidence.length||step.lessonEvidence.includes(e.id))),...step.lessonMarks];
+    return marks;
   }
   const reached = new Set(steps.slice(0,index+1).filter(s=>s.stage===2 && s.question===step.question && s.evidence).map(s=>s.evidence.id));
   return q.units.flatMap(u=>u.evidence.filter(e=>reached.has(e.id)).map(e=>({...e,unit:u.id,used:false})));
 }
 // Rejected answers are annotations, never fabricated quotations or deletions of valid evidence.
 export function visibleRejections(data,steps,index){
-  const step=steps[index];if(step?.stage!==2||!step.question)return [];
+  const step=steps[index];if(!step?.question||step.stage<3)return [];
   const q=data.questions.find(q=>q.number===step.question);
-  return steps.slice(0,index+1).filter(s=>s.stage===2&&s.question===step.question&&s.kind==='trap').map(s=>({
+  return steps.slice(0,index+1).filter(s=>s.question===step.question).flatMap(s=>s.kind==='trap'?[{
     id:s.id,claim:s.trap.claim,why:s.trap.why,paragraph:q.units.find(u=>u.id===s.unit).evidence[0].paragraph,active:s.id===step.id
-  }));
+  }]:(s.sourceRejections||[]).map(r=>({id:r.id,claim:r.claim,why:'原稿逐步解說',paragraph:s.paragraph,active:s.id===step.id})));
+
 }
 export const escapeHtml = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function markedText(text,marks,activeId='') {
