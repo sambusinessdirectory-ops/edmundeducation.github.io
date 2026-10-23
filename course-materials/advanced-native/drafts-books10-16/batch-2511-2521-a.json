@@ -179,8 +179,8 @@
             "zh": "司庫兩次公布錯誤捐款總額，損害她在捐款人心中的可信度；她更正報告，並請第二人在日後數字發布前核對。"
           },
           {
-            "en": "The treasurer’s wrong totals may dent her credibility when donors start checking the figures elsewhere; the sports club corrected its report and added an independent review.",
-            "zh": "捐款人開始另行核實數字，錯誤總額可能損害司庫的可信度；運動會團隊更正報告，並加入獨立核對。"
+            "en": "The treasurer’s wrong totals may dent her credibility when donors start checking the figures elsewhere; she corrected the event report and arranged an independent review before its next release.",
+            "zh": "捐款人開始另行核實數字，錯誤總額可能損害司庫的可信度；她更正運動會的報告，並安排在下次發布前進行獨立核對。"
           }
         ],
         "glossary": [
@@ -225,8 +225,8 @@
             "zh": "獨立核對",
             "exampleIndex": 1,
             "span": {
-              "start": 151,
-              "end": 172
+              "start": 148,
+              "end": 169
             }
           }
         ]
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2516",

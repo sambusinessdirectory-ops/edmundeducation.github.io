@@ -1,0 +1,18 @@
+{
+  "reviewType": "Exact-hash follow-up of selected writing finding W2511-01",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "originalFullScopeAudit": "ca7f6bc7a24725108b4370da70d979df26ecfd1eed44a0c7df7465bb4edc2f4b",
+    "revisedSelectedDraft": "3f8519df3b7ef10b0873a4dd94aaef530c5a7f8f893a8a26777b36273f13934e"
+  },
+  "finding": "W2511-01",
+  "status": "cleared",
+  "evidence": "Lesson 2511 writing model 2 now names the treasurer as the actor, corrects the event report, and arranges an independent review before its next release. The Traditional Chinese refers to the sports event report and the same pre-release check. The former `sports club`/`運動會團隊` actor mismatch is gone. The pronoun `its` has `the event report` as a clear antecedent.",
+  "contentRevision": 4,
+  "glossary": "All five English glossary spans for the two 2511 writing answers were checked against exact revised answer substrings; none includes the target.",
+  "focusedBuild": {"lessons": 4, "questions": 24, "audioRequests": 16, "flags": 0, "checkPassed": true},
+  "fullVerifier": {"pilotDrafts": 171, "pilotQuestions": 1026, "pilotAudioRequests": 684, "wholeCatalogueSchemaErrors": 0, "published": false, "releaseApproved": false},
+  "remainingWritingFindings": [],
+  "scopeLimit": "This follow-up clears the single original text finding; it is not a new full 342-example audit or media/device/human release approval."
+}
