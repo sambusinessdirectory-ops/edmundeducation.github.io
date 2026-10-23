@@ -667,7 +667,7 @@ html:has(body.dse-paper-mode){scroll-padding-top:20px}
 .login-panel input { border-color: #bcae8c; background: #fffaf0; color: #302718; }
 .login-panel input:focus-visible { outline: 3px solid #a57530; outline-offset: 2px; }
 
-@media (max-width: 650px), (min-width: 1001px) and (max-width: 1250px) {
+@media (max-width: 650px), (min-width: 1001px) and (max-width: 1500px) {
   .login-panel.panel { padding: 10.5% 12.5%; }
   .login-panel .eyebrow { margin-bottom: .1rem; font-size: .62rem; }
   .login-panel h2 { margin: .1rem 0 .35rem; font-size: clamp(1.4rem, 6vw, 1.7rem); line-height: 1.12; }
