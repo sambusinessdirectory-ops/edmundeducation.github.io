@@ -13,6 +13,11 @@ const holdCoverage = JSON.parse(execFileSync(process.execPath, [resolve(root, 't
   cwd: root,
   encoding: 'utf8',
 }));
+const holdTriage = JSON.parse(execFileSync(process.execPath, [resolve(root, 'tools/advanced-native-bulk/audit-hold-triage-coverage.mjs')], {
+  cwd: root,
+  encoding: 'utf8',
+}));
+const intake = JSON.parse(readFileSync(resolve(root, 'course-materials/advanced-native/books10-16/intake-summary.json'), 'utf8'));
 const reconciliation = readFileSync(resolve(root, 'course-materials/advanced-native/books10-16/reconciliation-register.jsonl'), 'utf8')
   .trim().split(/\r?\n/).map(line => JSON.parse(line));
 
@@ -22,15 +27,21 @@ const formatted = number => Number(number).toLocaleString('en-US');
 const scope = audit.split('## Scope and exact counts\n')[1]?.split('\n## Requirement-by-requirement register')[0] ?? '';
 const gateIds = [...audit.matchAll(/^- \[[ x]\] \*\*([A-Z0-9]+\d\d) —/gm)].map(match => match[1]);
 const steps = [...audit.matchAll(/^\d+\. \[[ x]\]/gm)];
-const chapters = [...audit.matchAll(/^- \*\*Chapter \d+ —/gm)];
+const chapters = [...audit.matchAll(/^- \*\*Chapter (\d+) —/gm)].map(match => Number(match[1]));
 
 expect(gateIds.length === 55 && new Set(gateIds).size === 55, `Expected 55 unique gates, found ${gateIds.length}`);
 expect(steps.length === 20, `Expected 20 production steps, found ${steps.length}`);
 expect(chapters.length === 30, `Expected 30 chapter crosswalks, found ${chapters.length}`);
+expect(chapters.every((number, index) => number === index + 1), 'Chapter crosswalk must list chapters 1–30 exactly once and in order');
 expect(audit.includes('**Release verdict: NOT APPROVED.**'), 'Audit must retain NOT APPROVED until every release gate passes');
 expect(report.published === false && report.releaseApproved === false, 'Draft verifier unexpectedly reports publication or approval');
 expect(holdCoverage.errorCount === 0 && holdCoverage.unauditedCurrentHolds === 0, 'Current editorial holds lack independent audit coverage');
 expect(holdCoverage.currentHolds === report.provisionalEditorialTriage['hold-editorial'], 'Hold audit and decision counts disagree');
+expect(holdTriage.errorCount === 0 && holdTriage.currentHolds === holdTriage.triageRows && holdTriage.currentHolds === holdCoverage.currentHolds,
+  'Read-only hold triage does not cover each current hold exactly once');
+expect(/^\d{4}-\d{2}-\d{2}$/.test(intake.retrievedForIntakeDate ?? ''), 'Intake retrieval date is missing');
+expect(Boolean(intake.sourceReuseRestrictions?.known && intake.sourceReuseRestrictions?.unknown && intake.sourceReuseRestrictions?.handling),
+  'Source reuse scope/uncertainty/handling record is missing');
 
 for (const [label, value] of [
   ['source rows', report.intakeRows],
