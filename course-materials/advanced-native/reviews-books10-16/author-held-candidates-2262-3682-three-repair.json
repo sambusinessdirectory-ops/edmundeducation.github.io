@@ -1,0 +1,98 @@
+{
+  "status": "scoped-author-repair-self-audit",
+  "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-three-review-pilot.json",
+  "batchSha256": "c763d763d207ac6aace1c04e012959be1a73be49776af9293facee3ddacd95ac",
+  "previousFourLessonSnapshot": "course-materials/advanced-native/reviews-books10-16/superseded-draft-snapshots/batch-held-candidates-2262-3682-initial.json",
+  "previousFourLessonSnapshotSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+  "initialPeerReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2262-3682-b.json",
+  "initialPeerReviewSha256": "67c868d9a1fd391bc5dc36181e8de4e30d2ddd0a9103c0d6109d326dc35ff7c5",
+  "count": 3,
+  "sourceOrdinals": [
+    2262,
+    2506,
+    3682
+  ],
+  "withdrawn": {
+    "sourceOrdinal": 3442,
+    "sourceId": "book10-16-1331",
+    "status": "hold-editorial-unchanged",
+    "reason": "The compositional hurdle unit lacked a distinct seven-step decision and the former draft narrowed the source fatigue/cooking sense to formal project prerequisites. Initial four-lesson bytes preserved in review snapshot; no authoritative draft for 3442."
+  },
+  "repairedFindings": [
+    "R2262-01",
+    "R2506-01",
+    "R2506-02",
+    "R3682-01"
+  ],
+  "repairDetails": {
+    "2262": "Replaced literal/absolute scene and dialogue foils with adjacent errors about overclaiming total recovery, mistaking address for internal state, or dismissing emerging familiar ease.",
+    "2506": "Moved scene, dialogue, speaking and final writing to personal bills/clinic/school and adult-study contexts; reply C and D now directly address Jo; writing EN/ZH, self-check and five glossary spans recalculated.",
+    "3682": "Replaced impossible/literal foils with plausible overweights of early failure or later success and aligned Chinese."
+  },
+  "focusedBuildCheck": "3 lessons / 18 questions / 12 audio roles / 0 flags",
+  "mechanicalChecks": "Exact full-source provenance and target match, answer-bearing keys, speaking highlight, all glossary slices, source six-word overlap against 2604 guide examples.",
+  "rows": [
+    {
+      "sourceOrdinal": 2262,
+      "sourceId": "book10-16-0151",
+      "sourceSentence": "After the break, the performers began to come back to themselves.",
+      "contentRevision": 2,
+      "changedSections": [
+        "scene",
+        "dialogue"
+      ],
+      "fullSourceTargetMatch": true,
+      "keyedTargetMatch": true,
+      "fourRepliesPresent": true,
+      "speakingSpanExact": true,
+      "glossarySpansExact": true,
+      "guideSixWordOverlapCount": 0,
+      "repairClaim": "Addressed initial peer findings; final independent follow-up pending."
+    },
+    {
+      "sourceOrdinal": 2506,
+      "sourceId": "book10-16-0395",
+      "sourceSentence": "On busy days, my brain feels like a browser with too many tabs open.",
+      "contentRevision": 2,
+      "changedSections": [
+        "reply",
+        "scene",
+        "dialogue",
+        "speaking",
+        "writing"
+      ],
+      "fullSourceTargetMatch": true,
+      "keyedTargetMatch": true,
+      "fourRepliesPresent": true,
+      "speakingSpanExact": true,
+      "glossarySpansExact": true,
+      "guideSixWordOverlapCount": 0,
+      "repairClaim": "Addressed initial peer findings; final independent follow-up pending."
+    },
+    {
+      "sourceOrdinal": 3682,
+      "sourceId": "book10-16-1571",
+      "sourceSentence": "For the new pupil, a supportive class helped rewrite the story they were telling themselves.",
+      "contentRevision": 2,
+      "changedSections": [
+        "scene",
+        "dialogue"
+      ],
+      "fullSourceTargetMatch": true,
+      "keyedTargetMatch": true,
+      "fourRepliesPresent": true,
+      "speakingSpanExact": true,
+      "glossarySpansExact": true,
+      "guideSixWordOverlapCount": 0,
+      "repairClaim": "Addressed initial peer findings; final independent follow-up pending."
+    }
+  ],
+  "unchangedSharedFiles": [
+    "editorial decisions",
+    "selected manifest",
+    "central SOP audit",
+    "audio/release"
+  ],
+  "gate": "Author repair only; independent AI follow-up pending, and human/release approval not implied.",
+  "timestampUtc": "2026-10-23T23:14:10.297936+00:00"
+}

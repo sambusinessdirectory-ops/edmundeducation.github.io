@@ -1,0 +1,88 @@
+{
+  "status": "independent-ai-exact-hash-content-review",
+  "scope": "Four unselected exploratory held-source lessons; source/owner and six assessed steps reviewed, with focused mechanical recheck. This is not selection, media or release approval.",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-review-pilot.json",
+  "draftSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-held-candidates-2262-3682-review-pilot.json",
+  "authorAuditSha256": "ff8c1daccfcf0e746fcfdf5dc83dfb6775d019c68742fe8a905ab69d7427975f",
+  "independentChecks": {
+    "focusedBuildAndCheck": "4 lessons / 24 questions / 16 audio roles / 0 review flags",
+    "sourceProvenance": "All four exact source occurrences present; full source examples match their live target detectors.",
+    "glossaryAndSpeaking": "Focused builder validates all answer-derived spans and speaking target spans; no mechanical flags.",
+    "priorOwnersCompared": [
+      "2262 versus canonical 1750: ordinary return of familiar composure versus recovery from a brink",
+      "3442 versus canonical 1124: generic further hurdle versus failure at the first hurdle",
+      "3682 versus canonical 2002: revision of self-account versus external evidence telling another story"
+    ],
+    "limits": "Mechanical checks do not establish course-value eligibility or pragmatic distractor quality. No draft, decision or manifest file was edited."
+  },
+  "lessons": [
+    {
+      "sourceOrdinal": 2262,
+      "verdict": "repair",
+      "sourceSense": "The source's performers begin to regain their usual selves after a break; the drafted gradual return of familiar ease is defensible and distinct from canonical 1750's near-disaster recovery.",
+      "blockers": [
+        {
+          "id": "R2262-01",
+          "severity": "major",
+          "fields": ["scene.options[1].en", "scene.options[2].en", "dialogue.options[1].en", "dialogue.options[2].en"],
+          "finding": "The foils are distant literal/absolute claims (return to a house sold years ago, become a completely new person, address proves every interest returned, never enjoy a book again). They do not make the learner distinguish partial recovery of familiar ease from a plausible neighbouring interpretation.",
+          "correction": "Keep one keyed target-bearing answer; replace foils with context-plausible misreadings such as treating one resumed habit as complete recovery, or treating rest without resumed familiar behaviour as sufficient. Align Traditional Chinese and rationales."
+        }
+      ],
+      "nonblocking": "The target detector finds the reflexive phrase but cannot itself reject a mismatched external subject such as 'she came back to himself'; examples currently use grammatical agreement. Preserve that grammar check during repair."
+    },
+    {
+      "sourceOrdinal": 2506,
+      "verdict": "repair",
+      "sourceSense": "The guide's browser-tab simile plausibly maps to competing mental threads; the shortened core phrase is understandable, but fixed-unit course value depends on transfer beyond event production.",
+      "blockers": [
+        {
+          "id": "R2506-01",
+          "severity": "major",
+          "fields": ["listening.en", "reply.promptEn", "scene.promptEn", "dialogue.promptEn", "speaking.en", "writing.promptZh", "writing.examples"],
+          "finding": "Every positive use stays in event/exhibition production: festival, seating/sound/badges, concert, catering, rehearsal and school exhibition. The final writing changes actors but does not demonstrate a genuinely different context or communicative task.",
+          "correction": "Move final writing and at least one earlier assessed use to a distinct domain with several competing thought threads; keep the overload-versus-literal-browser boundary and both model answers aligned in English/Traditional Chinese."
+        },
+        {
+          "id": "R2506-02",
+          "severity": "major",
+          "fields": ["reply.promptEn", "reply.options[2].en", "reply.options[3].en"],
+          "finding": "The prompt asks what to tell Jo, but C/D describe what the speaker could tell Jo rather than supplying an utterance to Jo. A/B are direct utterances, so the four replies do not answer the same pragmatic task.",
+          "correction": "Write C/D as direct, natural remarks to Jo, retain their non-target wording and validity, and align Chinese."
+        }
+      ],
+      "nonblocking": "The source is a contemporary transparent simile rather than a dictionary-fixed idiom; reassess seven-decision value after the transfer repair. Several listening/scene foils are literal or absolute and can be made closer while preserving one key."
+    },
+    {
+      "sourceOrdinal": 3442,
+      "verdict": "hold",
+      "sourceSense": "The full source says cooking feels like another hurdle after a long shift: a personal everyday task feels difficult because of fatigue. The draft instead constrains the lesson to outstanding administrative prerequisites before project progress, omitting the source's salient fatigue/everyday-task use.",
+      "blockers": [
+        {
+          "id": "R3442-01",
+          "severity": "major",
+          "fields": ["brief.meaningEn", "brief.boundaryZh", "listening", "reply", "scene", "contrast", "dialogue", "speaking", "writing"],
+          "finding": "All seven steps teach projects waiting for water, lift, transport, electrical/fire or accessibility checks. The source does not require a formal prerequisite or project milestone. The teaching rule is narrower than the supplied meaning.",
+          "correction": "Keep this source on editorial hold unless a revised, natural reusable unit covers fatigue-driven personal tasks as well as other figurative hurdles without collapsing into generic 'a difficult thing'. Reassess distinctness from canonical 1124 and whether compositional 'hurdle to get over' warrants its own seven-step owner before revising content."
+        }
+      ],
+      "reference": "Cambridge defines figurative 'hurdle' broadly as a problem to deal with before progress: https://dictionary.cambridge.org/us/dictionary/english/hurdle; that broad noun meaning does not support this draft's exclusively formal-project boundary."
+    },
+    {
+      "sourceOrdinal": 3682,
+      "verdict": "repair",
+      "sourceSense": "The supportive-class source concerns changed self-description; the draft's evidence-backed revision of a limiting self-account is defensible and distinct from canonical 2002's external 'tell a different story' use. Writing models acknowledge the earlier error and new evidence with aligned Chinese and answer-derived glossary.",
+      "blockers": [
+        {
+          "id": "R3682-01",
+          "severity": "major",
+          "fields": ["scene.options[1].en", "scene.options[2].en", "dialogue.options[1].en", "dialogue.options[2].en"],
+          "finding": "Scene and dialogue foils are implausible extremes or unrelated literal edits: the first shift never happened, permanent perfection, imaginary past error or editing visitors' directions. The keyed response wins without testing the evidence-backed self-narrative boundary.",
+          "correction": "Use plausible nearby wrong turns (for example acknowledge only the old failure despite repeated later success, or overgeneralise from one success), keeping the correct target-bearing answer, faithful Traditional Chinese, and one unambiguous key."
+        }
+      ]
+    }
+  ],
+  "overall": "No four-lesson selection clearance: 2262, 2506 and 3682 need scoped content repairs; 3442 should remain held pending source/owner eligibility adjudication."
+}

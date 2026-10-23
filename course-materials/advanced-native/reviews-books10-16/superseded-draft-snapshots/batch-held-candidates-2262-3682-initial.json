@@ -1,0 +1,1098 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-candidates-2262-3682-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-2262",
+      "number": 2262,
+      "inventoryId": "expr-2262",
+      "titleEn": "come back to yourself",
+      "titleZh": "重新找回平日的自己",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming)\\s+back\\s+to\\s+(?:myself|yourself|himself|herself|ourselves|themselves)\\b",
+        "glossaryForbidden": [
+          "\\b(?:come|comes|came|coming)\\s+back\\s+to\\s+(?:myself|yourself|himself|herself|ourselves|themselves)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Gradually regain a familiar sense of ease or identity after a draining or unsettling period.",
+        "meaningZh": "經過疲累或令人失衡的時期後，逐漸恢復平日熟悉的自在感或自我感。",
+        "grammar": "come/came/coming back to myself, yourself, himself, herself, ourselves or themselves. Choose the reflexive pronoun to match the person; the phrase describes a felt recovery, not a return to a physical location.",
+        "register": "Reflective informal conversation. A friend may describe a colleague regaining familiar warmth; a person may tell a trusted friend how they feel after a stressful week.",
+        "boundaryZh": "要有原先失去的自在或熟悉狀態逐漸回來的線索；不只是回到家，也不表示已完全恢復或經歷生死邊緣。",
+        "misconceptionZh": "不要把 come back to yourself 當成回到某個地點，或誇大為從重大危機中被救回。",
+        "outcomeZh": "能用具體行為說明平日的自在感逐漸回來，並區分位置移動、單純休息及全面康復。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0151",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 14,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 17; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After the break, the performers began to come back to themselves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come back to themselves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "After a week of organising the neighbourhood move, Elena had stopped joining her usual evening chats. On Sunday she laughed with her friends and started sketching again; she said she was beginning to come back to herself.",
+        "zh": "Elena 花了一周安排街坊搬遷，期間沒有參與平日的晚間聊天。星期日，她和朋友說笑，也重新開始畫草圖；她說自己正慢慢找回平日的感覺。",
+        "promptEn": "What change does Elena describe?",
+        "promptZh": "Elena 描述自己有甚麼轉變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Familiar interests and ease are gradually returning after a draining week.",
+            "zh": "疲累的一周後，她熟悉的興趣和自在感正逐漸回來。"
+          },
+          {
+            "id": "b",
+            "en": "She has moved back to her former address.",
+            "zh": "她已搬回舊地址。"
+          },
+          {
+            "id": "c",
+            "en": "She has never missed an evening chat.",
+            "zh": "她從未缺席晚間聊天。"
+          },
+          {
+            "id": "d",
+            "en": "She says a single pleasant Sunday guarantees complete recovery.",
+            "zh": "她說一個愉快的星期日保證她已完全恢復。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重新說笑和畫畫顯示熟悉的自己慢慢回來；句中沒有搬回舊址，也沒有保證完全恢復。"
+      },
+      "reply": {
+        "promptEn": "The project deadline left me quiet and unlike my usual self. I went for a walk today and felt ready to call my sister again. How could I describe that?",
+        "promptZh": "項目限期令我沉默，感覺不像平日的自己。今天散步後，我又想打電話給姊姊。我可以怎樣描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as though you are beginning to come back to yourself, even if it takes time.",
+            "zh": "聽起來你正慢慢找回平日的自己，即使還需要時間。"
+          },
+          {
+            "id": "b",
+            "en": "You could say the walk gave you space to reconnect with a familiar habit.",
+            "zh": "你可以說散步讓你有空間重新接觸熟悉的習慣。"
+          },
+          {
+            "id": "c",
+            "en": "You might tell your sister you have more energy for a conversation today.",
+            "zh": "你可以告訴姊姊，今天較有心力和她聊聊。"
+          },
+          {
+            "id": "d",
+            "en": "You can notice this small shift without claiming that every difficult feeling has disappeared.",
+            "zh": "你可以留意這一點小轉變，毋須說所有難受感覺已消失。"
+          }
+        ],
+        "explanationZh": "四句都承認這只是熟悉感開始回來的跡象，沒有誇稱完全好轉；金句直接用 come back to yourself。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "During a demanding festival week, Haru stopped cooking the simple meals he usually enjoys. A few days later he prepared dinner, chatted easily with his family and said he felt more like his old self. Which description fits?",
+        "promptZh": "忙碌的節慶一周裏，Haru 沒有煮平日喜歡的簡單晚餐。數日後，他又做晚餐，跟家人輕鬆聊天，說感覺較像從前的自己。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Haru is starting to come back to himself after the demanding week.",
+            "zh": "忙碌的一周後，Haru 正慢慢找回平日的自己。"
+          },
+          {
+            "id": "b",
+            "en": "Haru has returned to a house he sold years ago.",
+            "zh": "Haru 搬回多年前賣掉的房子。"
+          },
+          {
+            "id": "c",
+            "en": "Haru has become a completely new person with no familiar habits.",
+            "zh": "Haru 已變成完全不同的人，沒有任何熟悉習慣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "煮飯和輕鬆聊天是熟悉習慣與自在感回來的線索，沒有提到搬屋或人格全變。"
+      },
+      "contrast": {
+        "promptEn": "Which statement least supports saying someone has come back to themselves?",
+        "promptZh": "哪句話最不能支持「某人逐漸找回平日的自己」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After rest, a friend resumes her familiar jokes and regular swimming.",
+            "zh": "休息後，朋友又開平日的玩笑，也恢復定期游泳。"
+          },
+          {
+            "id": "b",
+            "en": "A traveller returns to her home address, but says she still feels disconnected and unlike herself.",
+            "zh": "旅人回到住址，卻說自己仍覺疏離，不像平日的自己。"
+          },
+          {
+            "id": "c",
+            "en": "After a difficult month, a gardener begins tending his plants and talking easily again.",
+            "zh": "艱難的一個月後，園丁又開始照料植物，也重新輕鬆談笑。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "回到住址只是位置改變；她仍說不像平日的自己，沒有熟悉感回來的證據。"
+      },
+      "dialogue": {
+        "promptEn": "A friend says, “I reached home last night, so I must have come back to myself.” She also says she still cannot enjoy her usual books. What is a careful reply?",
+        "promptZh": "朋友說：「我昨晚到家了，所以一定找回平日的自己。」但她也說仍無法享受平日愛讀的書。怎樣回答較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Getting home is different from coming back to yourself; your usual ease may return gradually.",
+            "zh": "回到家與找回平日的自己是兩回事；熟悉的自在感可能慢慢才回來。"
+          },
+          {
+            "id": "b",
+            "en": "Your address proves that all your familiar interests have returned.",
+            "zh": "住址證明你熟悉的興趣已全部回來。"
+          },
+          {
+            "id": "c",
+            "en": "Because reading still feels hard, you will never enjoy a book again.",
+            "zh": "既然現在讀書仍覺困難，你以後永遠無法享受閱讀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "答話分清位置和內在感受，也不把暫時讀不進書誇大為永久狀態。"
+      },
+      "speaking": {
+        "en": "After the long registration drive, Mei began to come back to herself when she resumed her morning walks and jokes.",
+        "zh": "漫長的登記工作後，Mei 重拾早上散步和說笑的習慣，開始找回平日的自己。",
+        "promptZh": "先聽示範，再指出哪兩項熟悉習慣開始回來。",
+        "targetSpan": {
+          "start": 48,
+          "end": 68
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書館搬遷工程完畢後，館員 Leena 仍覺心神不定。休息兩天後，她再次主動向讀者推薦書籍，亦恢復平日的輕鬆談笑。寫一至兩句英文描述熟悉的自在感逐漸回來；不要說她已完全康復，或只是回到圖書館地址。",
+        "selfCheckZh": "兩例都要說明搬遷後曾感到不自在、休息兩天、再次推薦書及輕鬆談笑；只說逐漸找回熟悉的自己，不保證完全恢復。",
+        "examples": [
+          {
+            "en": "After the library move left Leena unsettled, she rested for two days. Recommending books and joking with readers again helped her come back to herself, though she was still settling in.",
+            "zh": "圖書館搬遷令 Leena 心神不定；休息兩天後，她再次向讀者推薦書籍並說笑，讓她慢慢找回平日的自己，但仍在適應。"
+          },
+          {
+            "en": "Leena felt unlike herself after the library relocation. Two days of rest later, she was recommending books and chatting easily again; she was starting to come back to herself, not claiming to be fully recovered.",
+            "zh": "圖書館搬遷後，Leena 感覺不像平日的自己。休息兩天後，她又向讀者推薦書籍並輕鬆聊天；她正慢慢找回熟悉的自己，並非聲稱已完全恢復。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "library move",
+            "zh": "圖書館搬遷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 22
+            }
+          },
+          {
+            "en": "rested for two days",
+            "zh": "休息兩天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 68
+            }
+          },
+          {
+            "en": "Recommending books",
+            "zh": "推薦書籍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 88
+            }
+          },
+          {
+            "en": "library relocation",
+            "zh": "圖書館搬遷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 54
+            }
+          },
+          {
+            "en": "chatting easily again",
+            "zh": "再次輕鬆聊天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Coming back to yourself concerns familiar ease or identity, not a return to an address.",
+          "zh": "找回平日的自己，指熟悉的自在感或自我感回來，而非回到某個地址。"
+        },
+        {
+          "en": "Coming back to yourself may begin with a familiar habit, without proving that recovery is complete.",
+          "zh": "重新找回平日的自己，可以從一項熟悉習慣開始；這並不證明已完全恢復。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2506",
+      "number": 2506,
+      "inventoryId": "expr-2506",
+      "titleEn": "too many tabs open",
+      "titleZh": "腦中開了太多分頁",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\btoo\\s+many\\s+tabs\\s+open\\b",
+        "glossaryForbidden": [
+          "\\btoo\\s+many\\s+tabs\\s+open\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A figurative way to say several concerns are competing for attention, making it hard to hold onto one thought.",
+        "meaningZh": "比喻多件事情同時爭奪注意力，令人難以持續思考其中一件。",
+        "grammar": "Usually have/keep/feel as if there are too many tabs open in my/your head or mind; it can also stand after I have. The tabs are imagined mental threads, not necessarily browser windows.",
+        "register": "Contemporary informal speech. A colleague may explain attention overload to a teammate; a student may tell a tutor why they need to list tasks. Avoid using it as a clinical diagnosis.",
+        "boundaryZh": "要有多條思路互相搶注意力的線索；不是單純工作量大、字面瀏覽器分頁多，或醫學診斷。",
+        "misconceptionZh": "不要把開着很多真正的網頁，或只有一項艱難工作，直接當作這個比喻的意思。",
+        "outcomeZh": "能從分心、切換及漏掉思路的具體線索辨認比喻，並用清單或優先次序作合乎情境的回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0395",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "78–80",
+          "locatorNote": "DOCX table 32, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "On busy days, my brain feels like a browser with too many tabs open.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a browser with too many tabs open"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "The festival coordinator is tracking menu changes, pickup times and two volunteer absences. Each time she answers one message, she loses track of another. “I have too many tabs open in my head,” she says, and starts a single task list.",
+        "zh": "節慶活動統籌同時處理餐單改動、提貨時間及兩名義工缺席。她每回覆一則訊息，就忘了另一件事的進度。「我腦中像開了太多分頁，」她說，於是開始把工作列在同一張清單上。",
+        "promptEn": "What does the coordinator mean?",
+        "promptZh": "統籌說「腦中像開了太多分頁」是甚麼意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Competing concerns make it hard to keep track of one task.",
+            "zh": "多件事情互相搶注意力，令她難以跟進單一工作。"
+          },
+          {
+            "id": "b",
+            "en": "Her web browser has too many pages and will close automatically.",
+            "zh": "她的瀏覽器開了太多網頁，將會自動關閉。"
+          },
+          {
+            "id": "c",
+            "en": "Only the menu is difficult; all other tasks are settled.",
+            "zh": "只有餐單難處理，其他事情都已安排好。"
+          },
+          {
+            "id": "d",
+            "en": "She has diagnosed herself with a medical condition.",
+            "zh": "她已為自己診斷出某種病症。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "餐單、提貨及義工缺席互相打斷她的思路；「分頁」是注意力負荷的比喻。"
+      },
+      "reply": {
+        "promptEn": "I am answering questions about the seating plan, checking the sound test and chasing missing name badges. I keep losing my place. How can I explain this to Jo?",
+        "promptZh": "我一邊回答座位安排的問題，一邊核對試音，又要追查欠缺的名牌，常常忘了做到哪一步。我可以怎樣向 Jo 解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I have too many tabs open in my head; could we list these jobs in order?",
+            "zh": "我腦中像開了太多分頁；我們可否按次序列出這些工作？"
+          },
+          {
+            "id": "b",
+            "en": "I am switching between three tasks and need a moment to note where each stands.",
+            "zh": "我在三項工作之間不停切換，需要一點時間記下各項進度。"
+          },
+          {
+            "id": "c",
+            "en": "I can tell Jo that these three requests are crowding my attention and ask which comes first.",
+            "zh": "我可以告訴 Jo，這三項要求令我分心，並問哪項要先處理。"
+          },
+          {
+            "id": "d",
+            "en": "I can explain that switching tasks made me lose track and that I need a badge list before finishing the sound test.",
+            "zh": "我可以解釋，工作之間不停切換令我忘了進度；完成試音前，我需要先列好名牌清單。"
+          }
+        ],
+        "explanationZh": "四句都根據已知的三項互相打斷的工作，提出合適的說明或整理方法；金句使用注意力分頁比喻。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "Nadia is preparing a charity concert. Her thoughts jump between ticket refunds, performer arrivals and an unsigned permit, and she forgets which call she was making. Which description fits?",
+        "promptZh": "Nadia 正籌備慈善音樂會，腦中不停在退票、表演者抵達時間及尚未簽署的許可證之間跳轉，連自己本來要打哪通電話也忘了。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has too many tabs open mentally and needs to sort the threads.",
+            "zh": "她腦中像開了太多分頁，需要整理各條思路。"
+          },
+          {
+            "id": "b",
+            "en": "Her laptop screen shows three concert websites.",
+            "zh": "她的手提電腦螢幕顯示三個音樂會網站。"
+          },
+          {
+            "id": "c",
+            "en": "Only one call remains, and she knows exactly whom to ring.",
+            "zh": "只剩下一通電話，而且她清楚知道要打給誰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她在多件未完成的事之間分心，甚至忘記本來要打的電話；並非字面網頁分頁。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports the mental “too many tabs open” comparison?",
+        "promptZh": "哪個情況最不能支持「腦中開了太多分頁」這個比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer switches among three urgent messages and forgets the first request.",
+            "zh": "義工在三則緊急訊息之間切換，忘了第一項要求。"
+          },
+          {
+            "id": "b",
+            "en": "A reader calmly follows one chapter from start to finish without interruption.",
+            "zh": "讀者不受打擾，平靜地從頭到尾閱讀一章。"
+          },
+          {
+            "id": "c",
+            "en": "A stage manager loses track of a cue while handling lighting, props and a late arrival.",
+            "zh": "舞台監督同時處理燈光、道具及遲到者，忘了其中一個提示。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "安靜而專注地完成單一閱讀工作，沒有多條思路互相爭奪注意力。"
+      },
+      "dialogue": {
+        "promptEn": "A teammate says, “There are too many tabs open in my head, so I missed the catering update.” What response addresses the actual problem?",
+        "promptZh": "隊友說：「我腦中像開了太多分頁，所以漏看了餐飲安排的更新。」哪個回答能處理真正的問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "With too many tabs open in your head, let us record the catering change and choose one next task.",
+            "zh": "既然你腦中像開了太多分頁，我們先記下餐飲改動，再選一項接着做的工作。"
+          },
+          {
+            "id": "b",
+            "en": "Close every website on your computer; that must be the cause.",
+            "zh": "關掉電腦上的所有網頁；原因一定是這個。"
+          },
+          {
+            "id": "c",
+            "en": "If you missed one update, none of the event work can be finished.",
+            "zh": "既然你漏看一次更新，所有活動工作都無法完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "答話針對多項資訊爭奪注意力，提出記錄與排序；沒有把比喻當作電腦故障。"
+      },
+      "speaking": {
+        "en": "With rehearsal notes, transport calls and costume changes competing for attention, I have too many tabs open in my head.",
+        "zh": "排練筆記、交通電話和服裝改動都在搶我的注意力，我腦中像開了太多分頁。",
+        "promptZh": "先聽示範，再指出哪三項事情互相搶注意力，以及這個比喻為何不是電腦故障。",
+        "targetSpan": {
+          "start": 90,
+          "end": 108
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校展覽負責人 Arun 同時收到三項更新：展板尺寸、家長參觀時段及無障礙入口指示。他來回切換訊息，忘了要先回覆誰。寫一至兩句英文，向同事說明注意力負荷，並提出一項具體整理辦法；不可說他的電腦出了故障。",
+        "selfCheckZh": "兩例都要列出三項更新、他在訊息間切換而忘記先回覆誰，以及一項整理辦法；分頁須是腦中思路比喻，不是字面電腦問題。",
+        "examples": [
+          {
+            "en": "Arun is juggling display sizes, parent visiting times and accessible-entry directions. After switching between their messages, he forgets whom to answer first; he has too many tabs open in his head, so he will list the replies by urgency.",
+            "zh": "Arun 同時處理展板尺寸、家長參觀時段和無障礙入口指示。他在各則訊息之間切換，忘了先回覆誰；他腦中像開了太多分頁，因此會按緊急程度列出回覆次序。"
+          },
+          {
+            "en": "The display dimensions, parent schedule and accessible entrance all need Arun’s attention. He keeps changing messages and loses track of the first reply. With too many tabs open mentally, he will write a short priority list.",
+            "zh": "展板尺寸、家長時段和無障礙入口都需要 Arun 留意。他不停切換訊息，忘了第一則應回覆甚麼。腦中像開了太多分頁的他會寫一張簡短的優先清單。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "display sizes",
+            "zh": "展板尺寸",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 30
+            }
+          },
+          {
+            "en": "parent visiting times",
+            "zh": "家長參觀時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 53
+            }
+          },
+          {
+            "en": "accessible-entry directions",
+            "zh": "無障礙入口指示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 85
+            }
+          },
+          {
+            "en": "loses track of the first reply",
+            "zh": "忘了第一則應回覆甚麼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 152
+            }
+          },
+          {
+            "en": "a short priority list",
+            "zh": "簡短的優先清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 202,
+              "end": 223
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Too many tabs open is a mental-load image: several thoughts compete for attention.",
+          "zh": "「開了太多分頁」是注意力負荷的比喻：多條思路互相搶注意力。"
+        },
+        {
+          "en": "When you have too many tabs open mentally, name the competing tasks and choose one next step.",
+          "zh": "當腦中像開了太多分頁時，說出互相爭奪注意力的工作，再選定下一步。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3442",
+      "number": 3442,
+      "inventoryId": "expr-3442",
+      "titleEn": "a hurdle to get over",
+      "titleZh": "仍須跨過的難關",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:another|a|the|one more|an extra|a further)\\s+hurdle\\s+to\\s+get\\s+over\\b",
+        "glossaryForbidden": [
+          "\\b(?:another|a|the|one more|an extra|a further)\\s+hurdle\\s+to\\s+get\\s+over\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "An additional difficulty that must be dealt with before progress can continue; the hurdle is figurative, not a promise of success.",
+        "meaningZh": "進展之前仍要處理的另一項困難；「欄架」是比喻，並不保證必定成功。",
+        "grammar": "another/a/the/one more hurdle to get over. The phrase names an obstacle ahead; getting over it is a separate outcome. Unlike at the first hurdle, it need not be the first difficulty.",
+        "register": "Neutral conversation or workplace planning. A community organiser may describe an extra permit to volunteers; a teacher may explain a further requirement to students.",
+        "boundaryZh": "重點是新增或仍待處理的障礙，不是字面跨欄，也不表示障礙已解決。",
+        "misconceptionZh": "不要把「有難關要跨」誤寫成「已跨過難關」；也不一定是第一個難關。",
+        "outcomeZh": "能指出額外的待解困難，區分障礙本身、克服步驟及已完成的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1331",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 124,
+          "book": 13,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "23–24",
+          "locatorNote": "DOCX table 130, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After a long shift, cooking seemed like another hurdle to get over.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "another hurdle to get over"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "The neighbourhood garden has permission to use the courtyard, but the organisers must still arrange a reliable water supply. That is another hurdle to get over before planting can start.",
+        "zh": "社區花園已獲准使用庭院，但籌辦者仍須安排穩定供水。種植開始前，這是另一道要跨過的難關。",
+        "promptEn": "What remains difficult for the garden project?",
+        "promptZh": "花園計劃還有甚麼困難？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Securing water is an unresolved obstacle before planting.",
+            "zh": "種植前，安排供水仍是未解決的障礙。"
+          },
+          {
+            "id": "b",
+            "en": "The courtyard permission has been cancelled.",
+            "zh": "使用庭院的許可已被取消。"
+          },
+          {
+            "id": "c",
+            "en": "Planting is finished and the water question no longer matters.",
+            "zh": "種植已完成，供水問題已不重要。"
+          },
+          {
+            "id": "d",
+            "en": "The group has decided to move the garden to another site.",
+            "zh": "小組已決定把花園搬到另一地點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地許可已有，供水仍未安排；這是待處理的額外難關，不是已完成的結果。"
+      },
+      "reply": {
+        "promptEn": "We secured the museum room, but the lift inspection must be completed before our public workshop. How should I explain the delay to the team?",
+        "promptZh": "博物館房間已訂妥，但公共工作坊前仍須完成升降機檢查。我應怎樣向團隊解釋延誤？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The lift inspection is another hurdle to get over before we can open the workshop.",
+            "zh": "升降機檢查是工作坊開放前仍須跨過的另一道難關。"
+          },
+          {
+            "id": "b",
+            "en": "I can say the room is booked, but the lift inspection is still outstanding.",
+            "zh": "我可以說房間已訂妥，但升降機檢查仍未完成。"
+          },
+          {
+            "id": "c",
+            "en": "I should name the outstanding inspection and give the team the next update date.",
+            "zh": "我應說明尚待的檢查，並告知團隊下次更新日期。"
+          },
+          {
+            "id": "d",
+            "en": "I can tell the team the lift inspection is pending, identify who will follow it up and avoid promising a date.",
+            "zh": "我可以告訴團隊升降機仍待檢查，說明由誰跟進，並暫不承諾日期。"
+          }
+        ],
+        "explanationZh": "四句都如實說明尚待的檢查及合理下一步；金句用 hurdle to get over 表示仍有障礙。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "A youth orchestra has found a rehearsal hall. It now needs a transport plan for instruments before the first rehearsal. Which description fits?",
+        "promptZh": "青年樂團已找到排練場地，但首次排練前仍要安排樂器運送。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Transport is a hurdle to get over before rehearsals can begin.",
+            "zh": "樂器運送是排練開始前仍須跨過的一道難關。"
+          },
+          {
+            "id": "b",
+            "en": "The hall has not been found, so the search must start again.",
+            "zh": "場地尚未找到，必須重新尋找。"
+          },
+          {
+            "id": "c",
+            "en": "Instrument delivery has been completed and rehearsals have begun.",
+            "zh": "樂器已運到，排練亦已開始。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地已定，樂器運送仍未安排；關鍵是尚待跨過的實際障礙。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports calling something a hurdle to get over?",
+        "promptZh": "哪個情況最不適合稱為「仍須跨過的難關」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new rule requires an extra safety certificate before the event.",
+            "zh": "新規則要求活動前再取得一份安全證明。"
+          },
+          {
+            "id": "b",
+            "en": "A routine notice was sent and no further action is required.",
+            "zh": "例行通知已發出，毋須再採取行動。"
+          },
+          {
+            "id": "c",
+            "en": "A working group must resolve an unresolved translation issue before printing.",
+            "zh": "工作小組印刷前須解決尚未處理的翻譯問題。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "通知已完成且毋須後續處理，沒有待跨過的障礙；另兩項仍有明確未解問題。"
+      },
+      "dialogue": {
+        "promptEn": "A colleague says, “We got the small grant, so can we announce the exhibition date?” The venue still requires an electrical check. What is the accurate reply?",
+        "promptZh": "同事說：「小額資助到手了，可以公布展覽日期嗎？」場地仍須完成電力檢查。哪句回答準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The electrical check is one more hurdle to get over; let us confirm it before announcing the date.",
+            "zh": "電力檢查是另一道仍須跨過的難關；先確認完成，再公布日期。"
+          },
+          {
+            "id": "b",
+            "en": "The grant proves that the electrical check has already passed.",
+            "zh": "取得資助證明電力檢查已通過。"
+          },
+          {
+            "id": "c",
+            "en": "We must cancel the exhibition because any remaining check is impossible to complete.",
+            "zh": "既然仍有檢查，展覽必須取消，因為不可能完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資助與電力檢查是兩件事；答話指出障礙及下一步，沒有虛報完成或誇稱無法解決。"
+      },
+      "speaking": {
+        "en": "The new accessibility review is another hurdle to get over before the community fair opens.",
+        "zh": "社區嘉年華開幕前，新的無障礙審查是另一道仍須跨過的難關。",
+        "promptZh": "先聽示範，再指出哪項障礙仍未解決，以及何時才可開放。",
+        "targetSpan": {
+          "start": 32,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書交換活動已取得場地，但仍須確認消防通道，之後才可公布開幕日。寫一至兩句英文向義工解釋進度與下一步；不可說檢查已通過。",
+        "selfCheckZh": "兩例都要說明已取得場地、消防通道仍待確認，及確認後才公布日期；不可把未完成的檢查寫成已通過。",
+        "examples": [
+          {
+            "en": "We have the venue for the book exchange, but checking the fire exit is another hurdle to get over before we announce an opening date.",
+            "zh": "舊書交換活動已有場地，但核對消防通道仍是公布開幕日期前要跨過的另一道難關。"
+          },
+          {
+            "en": "The book exchange has secured a venue; the fire-exit check is a hurdle to get over, so I will confirm it before giving volunteers a date.",
+            "zh": "舊書交換活動已取得場地；消防通道檢查仍是一道待跨過的難關，因此我會先確認，然後才告知義工日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the venue for the book exchange",
+            "zh": "舊書交換活動的場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 39
+            }
+          },
+          {
+            "en": "checking the fire exit",
+            "zh": "核對消防通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 67
+            }
+          },
+          {
+            "en": "announce an opening date",
+            "zh": "公布開幕日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 132
+            }
+          },
+          {
+            "en": "secured a venue",
+            "zh": "已取得場地",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 37
+            }
+          },
+          {
+            "en": "before giving volunteers a date",
+            "zh": "告知義工日期之前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A hurdle to get over is an obstacle still ahead, not one already cleared.",
+          "zh": "「仍須跨過的難關」是前面尚未解決的障礙，不是已完成的事。"
+        },
+        {
+          "en": "After one requirement is met, another hurdle to get over may remain.",
+          "zh": "即使已符合一項要求，仍可能有另一道難關要跨過。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3682",
+      "number": 3682,
+      "inventoryId": "expr-3682",
+      "titleEn": "rewrite the story you tell yourself",
+      "titleZh": "改寫對自己的既定說法",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:rewrite|rewrites|rewrote|rewriting)\\s+the\\s+story\\s+(?:I\\s+(?:tell|told|am\\s+telling|was\\s+telling)\\s+myself|you\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+yourself|he\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+himself|she\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+herself|we\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+ourselves|they\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+themselves)\\b",
+        "glossaryForbidden": [
+          "\\b(?:rewrite|rewrites|rewrote|rewriting)\\s+the\\s+story\\s+(?:I\\s+(?:tell|told|am\\s+telling|was\\s+telling)\\s+myself|you\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+yourself|he\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+himself|she\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+herself|we\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+ourselves|they\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+themselves)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Revise a limiting account of who you are or what you can do when new experience gives reasons to see yourself differently.",
+        "meaningZh": "有新經驗作根據時，重新看待自己是怎樣的人或有甚麼能力，修正原本限制自己的說法。",
+        "grammar": "rewrite/rewrote the story I tell myself; rewrite the story she was telling herself; rewrite the story they were telling themselves. Match the subject, verb and reflexive pronoun. The story is figurative self-talk, not a written tale.",
+        "register": "Reflective but usable in ordinary conversation. A mentor might discuss a learner’s changed self-view with them; a person may describe their own experience to a friend. Avoid presenting it as a diagnosis or guaranteed cure.",
+        "boundaryZh": "必須有實際新經驗支持改變對自己的看法；不是改寫文字作品，也不是沒有證據的空泛自我鼓勵。",
+        "misconceptionZh": "改寫既有自我說法不等於否認曾經犯錯，亦不保證以後永不失敗。",
+        "outcomeZh": "能根據具體經驗修正過度絕對的自我判斷，分清修正看法與憑空樂觀。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1571",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 147,
+          "book": 14,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 156, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For the new pupil, a supportive class helped rewrite the story they were telling themselves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "rewrite the story they were telling themselves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "en": "After one failed practice session, Jo kept calling herself hopeless at public speaking. She later explained the project clearly to two visitors, which gave her reason to rewrite the story she was telling herself.",
+        "zh": "Jo 在一次練習失利後一直說自己不擅長公開發言。其後她向兩位訪客清楚解釋項目，這給了她理由修正原本對自己的看法。",
+        "promptEn": "Why might Jo change how she describes herself?",
+        "promptZh": "Jo 為何可以改變對自己的說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A later successful explanation challenges her broad negative self-judgment.",
+            "zh": "後來一次成功的解說，令她原本一概否定自己的判斷有了反證。"
+          },
+          {
+            "id": "b",
+            "en": "She erased the record of the failed practice session.",
+            "zh": "她把失利的練習紀錄刪除了。"
+          },
+          {
+            "id": "c",
+            "en": "The visitors wrote a new speech for her to memorise.",
+            "zh": "訪客替她寫了一篇新講稿讓她背誦。"
+          },
+          {
+            "id": "d",
+            "en": "She has been promised that every future talk will go perfectly.",
+            "zh": "有人保證她往後每次發言都會完美。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "後來清楚解說是新證據，可修正「我完全不擅長」的自我判斷；失利沒有被抹去，也沒有完美保證。"
+      },
+      "reply": {
+        "promptEn": "After a clumsy first day at the repair café, I told myself I was no use. Yesterday I fixed two lamps with guidance. How could I describe that change?",
+        "promptZh": "在維修咖啡角首日做得不順後，我說自己毫無用處。昨天我在指導下修好兩盞燈。我可怎樣描述這種改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can rewrite the story you tell yourself: you are learning, not useless.",
+            "zh": "你可以修正原本對自己的說法：你正在學習，並非毫無用處。"
+          },
+          {
+            "id": "b",
+            "en": "You could say the first day was hard and yesterday showed that you can improve with help.",
+            "zh": "你可以說首日確實困難，但昨天證明你在幫助下能進步。"
+          },
+          {
+            "id": "c",
+            "en": "I could say my first day was clumsy, but fixing two lamps with guidance gives me reason to rethink “no use.”",
+            "zh": "我可以說第一天確實手忙腳亂，但在指導下修好兩盞燈，令我有理由重新審視「毫無用處」的想法。"
+          },
+          {
+            "id": "d",
+            "en": "I can describe both the difficult first day and the two repaired lamps without making one day my permanent identity.",
+            "zh": "我可以同時說出艱難的第一天和修好的兩盞燈，而不把那一天定義成永久的自己。"
+          }
+        ],
+        "explanationZh": "四句都承認早前失誤，並根據修好兩盞燈的經驗提出合理新看法；金句直接使用故事比喻。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptEn": "After one difficult shift, Lina decided she was “bad with people.” Over the next month, she calmly helped several visitors find their way. Which description best uses the new evidence?",
+        "promptZh": "Lina 一次值班不順後認定自己「不擅長與人相處」。其後一個月，她平靜地幫助了多位訪客認路。哪句最能運用新證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Lina can rewrite the story she tells herself about people, while remembering that one shift was difficult.",
+            "zh": "Lina 可根據新經驗修正自己對人際能力的說法，同時記得那次值班確實困難。"
+          },
+          {
+            "id": "b",
+            "en": "Lina must say the first shift never happened and she will never struggle again.",
+            "zh": "Lina 必須說第一次值班從未發生，也永遠不會再遇困難。"
+          },
+          {
+            "id": "c",
+            "en": "Lina should edit the visitors’ written directions, since the issue is a literal story.",
+            "zh": "Lina 應修改訪客的書面指示，因為問題是一篇字面上的故事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "幾次成功的協助足以挑戰「我一向不擅長」的絕對說法，但不抹掉過去或保證將來。"
+      },
+      "contrast": {
+        "promptEn": "Which situation is least a reason to rewrite the story someone tells themselves?",
+        "promptZh": "哪個情況最不能成為修正某人對自己說法的理由？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner called herself incapable, then completed three lessons with feedback.",
+            "zh": "學習者自認完全做不到，其後在回饋下完成三課。"
+          },
+          {
+            "id": "b",
+            "en": "A learner repeats a flattering slogan, but nothing has changed and no new evidence is available.",
+            "zh": "學習者重複一句好聽的口號，但情況沒有改變，也沒有新證據。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer thought he could not lead, then successfully guided a small group twice.",
+            "zh": "義工以為自己不能帶隊，之後成功帶領小組兩次。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有新經驗的空泛口號不足以支持修正自我判斷；另兩例都有具體反證。"
+      },
+      "dialogue": {
+        "promptEn": "A colleague says, “I made one error last year, so I am always unreliable.” You have seen her check every order accurately this week. What is a fair response?",
+        "promptZh": "同事說：「我去年犯過一次錯，所以我總是不可靠。」你看到她本周準確核對了每張訂單。怎樣回應較公平？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can rewrite the story you tell yourself using this week’s checks; last year’s error does not define every order.",
+            "zh": "你可根據本周的核對工作修正對自己的說法；去年的失誤不代表每張訂單都會出錯。"
+          },
+          {
+            "id": "b",
+            "en": "The error was imaginary, and you should remove all checks from now on.",
+            "zh": "那次失誤是假的，以後應取消所有核對。"
+          },
+          {
+            "id": "c",
+            "en": "One good week proves you will never make another mistake.",
+            "zh": "一周做得好，證明你將永遠不會再犯錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "答話保留去年的事實，也用本周準確核對的事實反駁「總是不可靠」的絕對判斷。"
+      },
+      "speaking": {
+        "en": "After completing two guided tours, I can rewrite the story I tell myself about speaking to strangers.",
+        "zh": "完成兩次導賞後，我可以修正自己對與陌生人說話能力的既有看法。",
+        "promptZh": "先聽示範，再說出哪項新經驗支持改變對自己的說法。",
+        "targetSpan": {
+          "start": 41,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：包裝員 Marta 因早前貼錯標籤而說自己「做甚麼都粗心」。經過核對清單練習，她本周準確完成二十宗包裝工作。寫一至兩句英文，根據新證據修正過度絕對的自我判斷，仍承認原本那次錯誤。",
+        "selfCheckZh": "兩例都要提及早前貼錯標籤、本周二十宗工作準確完成，以及修正「一向粗心」的說法；不能說她永不再犯錯。",
+        "examples": [
+          {
+            "en": "Marta once mislabeled a parcel, but she completed twenty accurate shipments this week after practising with a checklist. She can rewrite the story she tells herself about always being careless.",
+            "zh": "Marta 曾貼錯一件包裹的標籤，但經過清單練習後，本周準確完成二十宗寄件。她可以修正自己「總是粗心」的說法。"
+          },
+          {
+            "en": "The old label error still happened; twenty accurate shipments this week are new evidence. Marta can rewrite the story she tells herself without claiming she will never slip again.",
+            "zh": "早前貼錯標籤的事仍然發生過；本周二十宗準確寄件則是新證據。Marta 可修正對自己的說法，而不聲稱以後絕不會再出錯。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "mislabeled a parcel",
+            "zh": "貼錯一件包裹的標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 30
+            }
+          },
+          {
+            "en": "twenty accurate shipments",
+            "zh": "二十宗準確寄件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 75
+            }
+          },
+          {
+            "en": "practising with a checklist",
+            "zh": "練習使用核對清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 119
+            }
+          },
+          {
+            "en": "The old label error",
+            "zh": "早前貼錯標籤的事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "new evidence",
+            "zh": "新證據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "New evidence can help you rewrite the story you tell yourself without erasing an earlier mistake.",
+          "zh": "新證據可幫助你修正對自己的說法，毋須抹掉早前的失誤。"
+        },
+        {
+          "en": "Rewriting the story you tell yourself means naming both the difficulty and what you have since managed to do.",
+          "zh": "修正對自己的說法，要同時提到困難，以及其後真正做到的事。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "status": "unpublished-provisional-selection-integrated",
+  "scope": "Only source ordinals 2262, 2506 and 3682 selected from independently AI-cleared three-lesson draft; 3264 and 3442 remain held.",
+  "timestampUtc": "2026-10-23T23:18:51.157205+00:00",
+  "selectedDraftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-three-review-pilot.json",
+  "selectedDraftSha256": "b600ec29ab64ac1692e2459cc2169065c3cd92256197b929d3fc87dce79b563d",
+  "independentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2262-3682-three-b-final.json",
+  "independentReviewSha256": "2951a2f34842efd2594ff26709c414e73617e8fe0988ef38571426ebdd5a8dc6",
+  "changedFiles": {
+    "drafts-books10-16/batch-manifest.json": {
+      "before": "78e4c3ba25a500c0f1d01855b157adb121450e0e22066bf3dc6e0b1975c7a5d8",
+      "after": "8d75c67f2f6a32396db8bf567b31e9d0772e9026a8fa111eea3f2021ce0a61e2"
+    },
+    "books10-16/editorial-decisions-2232-2291.jsonl": {
+      "before": "a748e985f693e2176a5085839a8e5b648af484110c44652ce287f5dfef103404",
+      "after": "b202df5370c9c6f31910c00b517be4c44696ade70814a34a445d9c9d049dcccf"
+    },
+    "books10-16/editorial-decisions-2472-2531.jsonl": {
+      "before": "524c6fe1790dd03a5f318380b371917c250b16cefd019747708d8175af9a658d",
+      "after": "bfb9aa31594cb72606e203f3d968bf9a99674a6b971e01719a73ee9cf88edd0b"
+    },
+    "books10-16/editorial-decisions-3672-3731.jsonl": {
+      "before": "63a097fa429c23df1009cf433690d3f711bc174f2d27cd5fb3ce33bcf85f89c6",
+      "after": "19b68aa5f89c33595baaddbb10b7485939da5e6275cc004a8c88eede1dd65e37"
+    }
+  },
+  "sourceDecisionChanges": [
+    {
+      "sourceOrdinal": 2262,
+      "sourceId": "book10-16-0151",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2262"
+    },
+    {
+      "sourceOrdinal": 2506,
+      "sourceId": "book10-16-0395",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2506"
+    },
+    {
+      "sourceOrdinal": 3682,
+      "sourceId": "book10-16-1571",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-3682"
+    }
+  ],
+  "withheldUnchanged": [
+    {
+      "sourceOrdinal": 3264,
+      "action": "hold-editorial"
+    },
+    {
+      "sourceOrdinal": 3442,
+      "action": "hold-editorial"
+    }
+  ],
+  "counts": {
+    "sourceRows": 2604,
+    "selectedLessons": 617,
+    "selectedFiles": 157,
+    "questions": 3702,
+    "selectedAudioRoles": 2468,
+    "existingAliases": 1159,
+    "newAliases": 181,
+    "holds": 647,
+    "selectedContentDigest": "5312add43299864a42988223bad8e9f43c9d46e1f8780ee5d3c33e55bac9b3f4",
+    "selectedContentDigestMethod": "SHA-256 of newline-joined canonical JSON lesson objects, sorted by lesson id, ensure_ascii=false, sorted keys, compact separators"
+  },
+  "checks": {
+    "fullVerifier": "pass: 0 schema errors, 0 exact guide sentence copies, 0 near-duplicate flags, no release approval",
+    "existingAliasAudit": "1159/1159 matches; 0 exceptions",
+    "newAliasAudit": "181/181 matches; 0 exceptions",
+    "holdCoverage": "647 current holds; 0 unaudited; 0 errors",
+    "newOwnerCollisionScreen": "29 detector overlaps catalogue-wide, 4 exact-title, 4 exact-source-expression; none for the three added owners; detector overlap alone is not a same-sense decision",
+    "originality": "15187 learner English strings; 0 exact/high/medium, 6 near-full and 48 review-near-full catalogue-wide; none for the three added lessons",
+    "fullSelectedBuildAndCheck": "617 lessons, 3702 questions, 2468 audio roles, 0 flags; draft, not release build"
+  },
+  "nonActions": [
+    "No selected-lesson text edits",
+    "No 3264/3442 decision changes",
+    "No audio generation",
+    "No stage, commit, push, database write or publication"
+  ],
+  "approvalBoundary": "Independent AI content clearance and automated checks do not imply human editorial approval, hosted media QA, or release approval."
+}

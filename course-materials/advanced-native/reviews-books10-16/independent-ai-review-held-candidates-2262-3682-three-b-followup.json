@@ -1,0 +1,58 @@
+{
+  "status": "independent-ai-exact-hash-scoped-follow-up",
+  "scope": "Repaired fields from R2262-01, R2506-01/02 and R3682-01, plus direct regression checks. This is content review of an unselected draft, not selection or release approval.",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-three-review-pilot.json",
+  "draftSha256": "c763d763d207ac6aace1c04e012959be1a73be49776af9293facee3ddacd95ac",
+  "authorRepairAuditFile": "course-materials/advanced-native/reviews-books10-16/author-held-candidates-2262-3682-three-repair.json",
+  "authorRepairAuditSha256": "978073f726f36127a1a569247e81854f8d422ba1ba02c4faf60cc33082c32d31",
+  "initialReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2262-3682-b.json",
+  "initialReviewSha256": "67c868d9a1fd391bc5dc36181e8de4e30d2ddd0a9103c0d6109d326dc35ff7c5",
+  "independentChecks": {
+    "focusedBuildAndCheck": "3 lessons / 18 questions / 12 audio requests / 0 mechanical review flags",
+    "comparison": "Compared repaired lesson JSON with preserved byte-identical four-lesson snapshot and read each changed prompt, option, explanation, speaking line and writing model in English and Traditional Chinese.",
+    "limit": "The builder validates schema, target and span mechanics but did not detect the two semantic regressions below. Unchanged questions retain prior review scope."
+  },
+  "lessons": [
+    {
+      "sourceOrdinal": 2262,
+      "verdict": "accept-content",
+      "findingIds": ["R2262-01"],
+      "evidence": "Scene B now overclaims full recovery from one cooked meal, while C ignores Haru's easy conversation and own report. Dialogue B treats reaching home as proof of inner recovery; C dismisses ten enjoyable pages as no beginning at all. The keyed partial-return reading is uniquely supported, and paired Chinese and explanations preserve the distinction. No material regression in the changed fields."
+    },
+    {
+      "sourceOrdinal": 2506,
+      "verdict": "repair",
+      "resolved": ["R2506-02: reply C and D now directly address Jo in both languages."],
+      "blockers": [
+        {
+          "id": "R2506-01-residual",
+          "severity": "major",
+          "fields": ["dialogue.promptEn", "writing.promptZh", "writing.selfCheckZh", "writing.examples[0].en", "writing.examples[1].en"],
+          "finding": "The revised final writing repeats the revised dialogue's corrected maths key, reading deadline, transit-pass renewal, missed tutor message and priority-list remedy. It therefore does not test transfer to a genuinely changed situation. The writing prompt asks for English addressed to Iris's tutor, but both model answers narrate Iris's actions in third person rather than giving a message to the tutor.",
+          "correction": "Use a distinct non-event and non-student domain for final writing, and make both English model answers directly address the specified recipient. Align the Chinese prompt/models, self-check and answer-derived glossary spans."
+        }
+      ],
+      "nonblocking": "The new personal-administration scene and student dialogue do demonstrate use beyond event production; the remaining issue is the repeated final writing and recipient mismatch."
+    },
+    {
+      "sourceOrdinal": 3682,
+      "verdict": "repair",
+      "resolved": ["The revised scene B/C are plausible adjacent errors about overweighting one difficult shift or erasing it; scene English/Chinese remain aligned."],
+      "blockers": [
+        {
+          "id": "R3682-01-regression",
+          "severity": "major",
+          "fields": ["dialogue.options[1].en", "dialogue.options[1].zh", "dialogue.options[2].en", "dialogue.options[2].zh", "dialogue.explanationZh"],
+          "finding": "The displayed dialogue asks about a colleague's order error last year and accurate order checks this week. Repaired alternatives B/C and the explanation instead discuss fixing two lamps with guidance and replacing a 'no use' self-label. They belong to another scenario, so the alternatives do not answer the displayed prompt and the explanation does not justify the keyed answer.",
+          "correction": "Write both plausible incorrect alternatives and the explanation about the same order-check evidence as the prompt/key, with aligned Traditional Chinese. Keep one target-bearing keyed answer."
+        }
+      ]
+    }
+  ],
+  "withdrawn": {
+    "sourceOrdinal": 3442,
+    "verdict": "hold",
+    "evidence": "Absent from the authoritative three-lesson draft; the original four-lesson bytes are preserved under superseded-draft-snapshots and the source decision remains held."
+  },
+  "overall": "2262 is AI content-clear at this exact hash; 2506 and 3682 still require scoped repairs; 3442 remains held. Do not select the three-lesson batch as a unit."
+}

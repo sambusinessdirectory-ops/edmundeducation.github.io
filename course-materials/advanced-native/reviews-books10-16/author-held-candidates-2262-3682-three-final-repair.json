@@ -1,0 +1,40 @@
+{
+  "status": "final-author-scoped-repair",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-three-review-pilot.json",
+  "draftSha256": "b600ec29ab64ac1692e2459cc2169065c3cd92256197b929d3fc87dce79b563d",
+  "priorRepairAudit": "course-materials/advanced-native/reviews-books10-16/author-held-candidates-2262-3682-three-repair.json",
+  "additionalRepairs": [
+    "2506 final writing moved from the dialogue’s academic reminders to household rent/fridge/parcel logistics, with direct first-person remarks to sister and recalculated glossary",
+    "3682 dialogue alternatives and rationale restored to the displayed order-check context; wrong options test over-weighting old error versus over-generalising from current success"
+  ],
+  "rows": [
+    {
+      "sourceOrdinal": 2262,
+      "revision": 2,
+      "exactSourceAndTarget": true,
+      "dialogueKeyTarget": true,
+      "glossarySpansExact": true,
+      "sixTokenSourceOverlap": 0
+    },
+    {
+      "sourceOrdinal": 2506,
+      "revision": 3,
+      "exactSourceAndTarget": true,
+      "dialogueKeyTarget": true,
+      "glossarySpansExact": true,
+      "sixTokenSourceOverlap": 0
+    },
+    {
+      "sourceOrdinal": 3682,
+      "revision": 3,
+      "exactSourceAndTarget": true,
+      "dialogueKeyTarget": true,
+      "glossarySpansExact": true,
+      "sixTokenSourceOverlap": 0
+    }
+  ],
+  "focusedBuildCheck": "3/18/12/0; build and --check pass",
+  "sharedFiles": "No decision, manifest, central audit, audio or release edits",
+  "gate": "Independent AI final-hash follow-up pending; no human or release approval",
+  "timestampUtc": "2026-10-23T23:15:33.028635+00:00"
+}

@@ -1,0 +1,154 @@
+{
+  "status": "provisional-author-self-audit",
+  "scope": "Five held-source candidates, four authored in a new unselected exploratory batch; one same-sense owner collision withheld.",
+  "writtenAtUtc": "2026-10-23T23:10:52.382607+00:00",
+  "inputShortlistFile": "course-materials/advanced-native/reviews-books10-16/read-only-next-ten-held-lesson-shortlist-a.json",
+  "inputShortlistSha256": "fe4bf287e29a68488b18442366ccedb994ae0d129a086c6fded8767951c2d3fc",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceDocxSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-review-pilot.json",
+  "batchSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+  "draftCount": 4,
+  "withheldCount": 1,
+  "focusedBuild": "4 lessons / 24 questions / 16 audio roles / 0 flags; build and --check pass",
+  "testScope": "Exact source metadata and full-source target match, six keyed decisions, speaking span, five answer-derived glossary slices per lesson, zero six-word windows against all 2604 source examples in six teaching/audio strings per lesson. Human fluency and distinct owner clearance are not implied.",
+  "drafts": [
+    {
+      "sourceOrdinal": 2262,
+      "sourceId": "book10-16-0151",
+      "sourceSentence": "After the break, the performers began to come back to themselves.",
+      "sourceExpression": "come back to themselves",
+      "draftId": "advanced-native-2262",
+      "draftFileSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+      "targetPattern": "\\b(?:come|comes|came|coming)\\s+back\\s+to\\s+(?:myself|yourself|himself|herself|ourselves|themselves)\\b",
+      "sourcePatternMatch": true,
+      "sourceMetadataExact": true,
+      "sixAssessedSteps": true,
+      "fourReplyOptionsPresent": true,
+      "keyedTargetsPresent": true,
+      "speakingTargetSpanExact": true,
+      "answerDerivedGlossaryRows": 5,
+      "glossarySpansExact": true,
+      "sourceSixTokenOverlapCount": 0,
+      "ownerComparison": {
+        "owner": "advanced-native-1750",
+        "difference": "1750 requires pulling back from a near-disaster/brink; 2262 describes familiar ease returning after a break. Distinct severity and learner decision.",
+        "gate": "Naturalness and recovery-scope peer review remains open; older hold audit questioned fixed-unit status."
+      },
+      "editorialStatus": "unselected; independent AI review pending"
+    },
+    {
+      "sourceOrdinal": 2506,
+      "sourceId": "book10-16-0395",
+      "sourceSentence": "On busy days, my brain feels like a browser with too many tabs open.",
+      "sourceExpression": "a browser with too many tabs open",
+      "draftId": "advanced-native-2506",
+      "draftFileSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+      "targetPattern": "\\btoo\\s+many\\s+tabs\\s+open\\b",
+      "sourcePatternMatch": true,
+      "sourceMetadataExact": true,
+      "sixAssessedSteps": true,
+      "fourReplyOptionsPresent": true,
+      "keyedTargetsPresent": true,
+      "speakingTargetSpanExact": true,
+      "answerDerivedGlossaryRows": 5,
+      "glossarySpansExact": true,
+      "sourceSixTokenOverlapCount": 0,
+      "ownerComparison": {
+        "owner": null,
+        "difference": "No same-target owner found. This is a recognizable contemporary overload simile, but its unit may be too transparent to justify seven nonrepetitive decisions.",
+        "gate": "Strong teaching-unit/idiomaticity gate: earlier author audit left this source held as a one-off simile."
+      },
+      "editorialStatus": "unselected; independent AI review pending"
+    },
+    {
+      "sourceOrdinal": 3442,
+      "sourceId": "book10-16-1331",
+      "sourceSentence": "After a long shift, cooking seemed like another hurdle to get over.",
+      "sourceExpression": "another hurdle to get over",
+      "draftId": "advanced-native-3442",
+      "draftFileSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+      "targetPattern": "\\b(?:another|a|the|one more|an extra|a further)\\s+hurdle\\s+to\\s+get\\s+over\\b",
+      "sourcePatternMatch": true,
+      "sourceMetadataExact": true,
+      "sixAssessedSteps": true,
+      "fourReplyOptionsPresent": true,
+      "keyedTargetsPresent": true,
+      "speakingTargetSpanExact": true,
+      "answerDerivedGlossaryRows": 5,
+      "glossarySpansExact": true,
+      "sourceSixTokenOverlapCount": 0,
+      "ownerComparison": {
+        "owner": "advanced-native-1124",
+        "difference": "1124 locates difficulty at the first hurdle; 3442 names an additional obstacle still to overcome after other conditions are met.",
+        "gate": "Independent review must decide whether a hurdle to get over is distinct enough from generic hurdle metaphor and tests more than obstacle identification."
+      },
+      "editorialStatus": "unselected; independent AI review pending"
+    },
+    {
+      "sourceOrdinal": 3682,
+      "sourceId": "book10-16-1571",
+      "sourceSentence": "For the new pupil, a supportive class helped rewrite the story they were telling themselves.",
+      "sourceExpression": "rewrite the story they were telling themselves",
+      "draftId": "advanced-native-3682",
+      "draftFileSha256": "a01021665260821e029a0f005f37c06ebd737554fa109562e463e759de0c31d0",
+      "targetPattern": "\\b(?:rewrite|rewrites|rewrote|rewriting)\\s+the\\s+story\\s+(?:I\\s+(?:tell|told|am\\s+telling|was\\s+telling)\\s+myself|you\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+yourself|he\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+himself|she\\s+(?:tells|told|is\\s+telling|was\\s+telling)\\s+herself|we\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+ourselves|they\\s+(?:tell|told|are\\s+telling|were\\s+telling)\\s+themselves)\\b",
+      "sourcePatternMatch": true,
+      "sourceMetadataExact": true,
+      "sixAssessedSteps": true,
+      "fourReplyOptionsPresent": true,
+      "keyedTargetsPresent": true,
+      "speakingTargetSpanExact": true,
+      "answerDerivedGlossaryRows": 5,
+      "glossarySpansExact": true,
+      "sourceSixTokenOverlapCount": 0,
+      "ownerComparison": {
+        "owner": "advanced-native-2002",
+        "difference": "2002 uses external evidence to tell a different story; 3682 revises a person’s internal self-description in light of evidence, acknowledging earlier setbacks.",
+        "gate": "Independent review of self-narrative construction and transfer is pending."
+      },
+      "editorialStatus": "unselected; independent AI review pending"
+    }
+  ],
+  "withheld": [
+    {
+      "sourceOrdinal": 3264,
+      "sourceId": "book10-16-1153",
+      "sourceSentence": "At home, much learning is caught rather than taught.",
+      "sourceExpression": "learning is caught rather than taught",
+      "candidateOwner": "advanced-native-1729",
+      "ownerTitle": "kindness is often caught before it is taught",
+      "reason": "Both use caught-versus-taught to decide whether behaviour/learning is acquired through observation before explicit teaching. Source 3264 generalizes from kindness to learning at home, but the learner decision is the same. A second lesson risks duplication.",
+      "currentOwnerPattern": "\\bkindness is often caught before it is taught\\b",
+      "currentPatternCoversSource": false,
+      "possibleOwnerRepair": "If approved, broaden owner 1729 from kindness-only to a bounded observed-learning caught-before/rather-than-taught construction; attach exact source occurrence and assess a non-kindness home-learning example without weakening observation-versus-instruction boundary. Full sentence positive/negative controls, key/Chinese consistency, and audio delta must be reviewed first. No files changed.",
+      "status": "hold-editorial-unchanged; alias candidate only"
+    }
+  ],
+  "externalUsageEvidence": [
+    {
+      "purpose": "figurative hurdle meaning",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/hurdle?topic=horse-racing"
+    },
+    {
+      "purpose": "come back to yourself usage, not a dictionary canonicalization",
+      "url": "https://chhs.mtsu.edu/wp-content/uploads/sites/83/2025/07/FINAL-CHHS-Newsletter-Summer-2025-Web-Digital.pdf"
+    },
+    {
+      "purpose": "self-narrative rewrite usage",
+      "url": "https://workingnation.jff.org/what-story-are-you-telling-yourself/"
+    },
+    {
+      "purpose": "mental tabs overload usage, not proof of fixed idiom",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/organizational-psychology/articles/10.3389/forgp.2025.1590159/pdf"
+    }
+  ],
+  "unchangedSharedFiles": [
+    "selected manifest",
+    "editorial decisions",
+    "central SOP audit",
+    "audio/release"
+  ],
+  "reviewGate": "Independent AI peer review required; this report is author self-audit, not human editorial approval or release approval."
+}

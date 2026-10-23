@@ -1,0 +1,40 @@
+{
+  "status": "independent-ai-final-exact-hash-content-follow-up",
+  "scope": "Scoped recheck of the remaining 2506 and 3682 semantic defects, with 2262 unchanged from the preceding content-clear review. This is not selection, media or release approval.",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-candidates-2262-3682-three-review-pilot.json",
+  "draftSha256": "b600ec29ab64ac1692e2459cc2169065c3cd92256197b929d3fc87dce79b563d",
+  "authorFinalRepairFile": "course-materials/advanced-native/reviews-books10-16/author-held-candidates-2262-3682-three-final-repair.json",
+  "authorFinalRepairSha256": "5062c6068093062fed7a5e75b014a7907436ef0c0543f0014fda3ab277d82a26",
+  "precedingIndependentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-candidates-2262-3682-three-b-followup.json",
+  "precedingIndependentReviewSha256": "f4f2cadba4d219e9c4964024470c2584c3f7c845c63d55e5a6f0a96f893bc322",
+  "independentChecks": {
+    "focusedBuildAndCheck": "3 lessons / 18 questions / 12 audio requests / 0 review flags",
+    "changedWritingSpans": "2506: all five answer-derived glossary slices are exact, none contains the target, and both writing examples match the target detector.",
+    "reviewLimit": "Only final changed fields and earlier findings were reassessed; no new full-catalogue question, audio or browser review was performed."
+  },
+  "lessons": [
+    {
+      "sourceOrdinal": 2262,
+      "verdict": "accept-content",
+      "evidence": "Lesson object remains at contentRevision 2; the preceding exact-hash review cleared its adjacent scene/dialogue foils. No new changed field."
+    },
+    {
+      "sourceOrdinal": 2506,
+      "verdict": "accept-content",
+      "resolved": ["R2506-01-residual", "R2506-02"],
+      "evidence": "Final writing now uses household rent receipt, fridge-repair slot and parcel-pickup logistics rather than the dialogue's academic reminders. Both models are first-person remarks to Iris's sister, state the competing threads and forgotten callback, and ask for help listing next steps. English/Traditional Chinese and the five glossary spans align; the figurative tabs target remains natural."
+    },
+    {
+      "sourceOrdinal": 3682,
+      "verdict": "accept-content",
+      "resolved": ["R3682-01-regression"],
+      "evidence": "Dialogue B/C now refer to the displayed last-year order error and this week's accurate order checks. B wrongly treats the old error as decisive; C wrongly treats current accuracy as a guarantee of future perfection. The keyed evidence-based revision is unique, and the Chinese alternatives/explanation accurately follow that same scenario."
+    }
+  ],
+  "withdrawn": {
+    "sourceOrdinal": 3442,
+    "verdict": "hold",
+    "evidence": "The earlier candidate remains absent from the authoritative three-lesson file; no new source decision or selected manifest change was reviewed here."
+  },
+  "overall": "All three retained lessons are AI content-clear at the exact final draft hash for provisional unpublished selection. 3442 remains held; integration, media and release gates are separate."
+}
