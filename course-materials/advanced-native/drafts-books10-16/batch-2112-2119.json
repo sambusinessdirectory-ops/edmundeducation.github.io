@@ -7,7 +7,7 @@
       "number": 2112,
       "inventoryId": "expr-2112",
       "titleEn": "frowned upon",
-      "titleZh": "受到普遍反對",
+      "titleZh": "不受贊同",
       "category": "idiom",
       "target": {
         "pattern": "\\bfrown(?:s|ed|ing)? upon\\b",
@@ -15,7 +15,7 @@
       },
       "brief": {
         "meaningEn": "Be disapproved of by a group or society.",
-        "meaningZh": "受到一個群體或社會反對。",
+        "meaningZh": "不獲某個群體或社會認同。",
         "grammar": "frown upon something; be frowned upon; frowns/frowned upon.",
         "register": "Neutral to formal; names a social judgement, not a universal rule.",
         "boundaryZh": "須有群體或文化上的不認同；不一定違法，也不代表所有人都反對。",
@@ -171,7 +171,7 @@
         }
       },
       "writing": {
-        "promptZh": "新情境：你們的運動隊不認同隊員不通知就缺席練習。一名隊員再度缺席。用一至兩句英文說明隊伍的看法及下一步。",
+        "promptZh": "新情境：你們的運動隊不認同隊員不通知就缺席練習。一名隊員沒有通知就缺席。用一至兩句英文說明隊伍的看法及下一步。",
         "selfCheckZh": "指出不預先通知就缺席受到不認同，並提出下次應怎樣通知；不必照抄示例。",
         "examples": [
           {
@@ -579,23 +579,23 @@
         "options": [
           {
             "id": "a",
-            "en": "They visit occasionally.",
-            "zh": "他們偶爾會去。"
+            "en": "The speaker visits occasionally.",
+            "zh": "說話者偶爾會去。"
           },
           {
             "id": "b",
-            "en": "They visit every weekend without exception.",
-            "zh": "他們每個週末都去，沒有例外。"
+            "en": "The speaker visits every weekend without exception.",
+            "zh": "說話者每個週末都去，沒有例外。"
           },
           {
             "id": "c",
-            "en": "They have never visited.",
-            "zh": "他們從未去過。"
+            "en": "The speaker has never visited.",
+            "zh": "說話者從未去過。"
           },
           {
             "id": "d",
-            "en": "They only go when the garden closes.",
-            "zh": "他們只會在花園關門時去。"
+            "en": "The speaker only goes when the garden closes.",
+            "zh": "說話者只會在花園關門時去。"
           }
         ],
         "explanationZh": "from time to time 指偶爾；後半句明說不是每個週末都去。",
