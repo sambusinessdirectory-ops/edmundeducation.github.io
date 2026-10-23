@@ -185,7 +185,7 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
       handle.addEventListener('keydown',e=>{if(!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();const r=modal.getBoundingClientRect();placePreview({left:r.left,top:r.top,width:r.width+(e.key==='ArrowRight'?16:e.key==='ArrowLeft'?-16:0),height:r.height+(e.key==='ArrowDown'?16:e.key==='ArrowUp'?-16:0)});});
     }
   }
-  const resizePreview=()=>{if(modal.open&&modal.dataset.kind==='source')placePreview(modal.getBoundingClientRect());alignSource();};
+  const resizePreview=()=>{if(modal.open&&modal.dataset.kind==='source')placePreview(modal.getBoundingClientRect());if(!['analysis','attempt'].includes(current().kind))pendingSourceFocus=current().paragraph||unit()?.evidence[0]?.paragraph||question()?.scope[0]||1;alignSource();};
   window.addEventListener('resize',resizePreview);
   function sourceVisit(paragraph){
     const marks=visibleEvidence(data,steps,index),p=article.paragraphs.find(p=>p.number===paragraph);if(!p)return;

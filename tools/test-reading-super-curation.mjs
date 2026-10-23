@@ -59,6 +59,9 @@ try{
   const before=await page.locator('.rc-modal').boundingBox();await page.locator('.rc-modal>header').focus();await page.keyboard.press('ArrowRight');const after=await page.locator('.rc-modal').boundingBox();assert.ok(after.x>before.x);
   await page.locator('.rc-resize-se').focus();await page.keyboard.press('ArrowLeft');const smaller=await page.locator('.rc-modal').boundingBox();assert.ok(smaller.width<after.width);
   await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();assert.equal(await page.locator('.rc-source-scroll').evaluate(e=>e.scrollTop),sourceBeforeVisit);
+  await page.setViewportSize({width:390,height:844});await page.locator('[data-tab=source]').click();
+  assert.ok(await page.locator('.rc-source-scroll').evaluate(p=>Math.abs(p.querySelector('[data-paragraph="4"]').getBoundingClientRect().top-p.getBoundingClientRect().top-12)<3),'Viewport reflow keeps the current source in view');
+  await page.setViewportSize({width:1440,height:1000});
   await goto('q6-if-trap-0');assert.ok(await page.locator('[data-rc-teaching] .rc-rejected').isVisible());
   await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('[data-rc-teaching] .rc-rejected').count(),0);
   await goto('q21-good-answer');assert.match(await page.locator('.rc-answer').innerText(),/A good example/);
