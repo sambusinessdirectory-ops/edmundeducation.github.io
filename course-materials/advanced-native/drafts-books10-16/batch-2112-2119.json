@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-first-five-drafts-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2112",
+      "number": 2112,
+      "inventoryId": "expr-2112",
+      "titleEn": "frowned upon",
+      "titleZh": "受到普遍反對",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfrown(?:s|ed|ing)? upon\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be disapproved of by a group or society.",
+        "meaningZh": "受到一個群體或社會反對。",
+        "grammar": "frown upon something; be frowned upon; frowns/frowned upon.",
+        "register": "Neutral to formal; names a social judgement, not a universal rule.",
+        "boundaryZh": "須有群體或文化上的不認同；不一定違法，也不代表所有人都反對。",
+        "misconceptionZh": "不要把一個人皺眉的動作當成這個片語的意思。",
+        "outcomeZh": "能分辨社群的不認同與個人的表情或正式禁令。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0001",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Talking during the ceremony is frowned upon.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "frowned upon"
+        }
+      ],
+      "listening": {
+        "en": "In the quiet library, taking a phone call is frowned upon, although it is not against the law.",
+        "zh": "在安靜的圖書館接電話會受到反對，雖然這並不違法。",
+        "promptZh": "館內其他人對接電話的態度是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They generally disapprove of it.",
+            "zh": "他們普遍不認同這樣做。"
+          },
+          {
+            "id": "b",
+            "en": "They encourage it as long as it is brief.",
+            "zh": "只要通話短暫，他們便鼓勵這樣做。"
+          },
+          {
+            "id": "c",
+            "en": "They believe the caller has broken a law.",
+            "zh": "他們認為來電者觸犯了法律。"
+          },
+          {
+            "id": "d",
+            "en": "They are only describing the caller's facial expression.",
+            "zh": "他們只是描述來電者的面部表情。"
+          }
+        ],
+        "explanationZh": "線索是安靜的圖書館和 although it is not against the law；這是群體的不認同，不是法律裁決。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：Maya 為何先通知公司她會遲到？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted to give the interviewer time to adjust.",
+            "zh": "她想讓面試官有時間調整安排。"
+          },
+          {
+            "id": "b",
+            "en": "Arriving late is frowned upon there, so she wanted to explain.",
+            "zh": "那裏不認同遲到，因此她想先解釋。"
+          },
+          {
+            "id": "c",
+            "en": "She thought a short call would be more considerate than silence.",
+            "zh": "她覺得簡短通知比一聲不響更體貼。"
+          },
+          {
+            "id": "d",
+            "en": "She knew the interview had a fixed starting time.",
+            "zh": "她知道面試有固定開始時間。"
+          }
+        ],
+        "explanationZh": "四個回應都合理；金句指出當地對遲到的看法，但沒有誇大成法律規定。",
+        "goldenId": "b",
+        "promptEn": "Why did Maya call the company before arriving late?"
+      },
+      "scene": {
+        "promptZh": "紀念館要求訪客保持安靜。哪句最能描述館方與訪客對大聲聊天的態度？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Speaking loudly is frowned upon in the memorial hall.",
+            "zh": "在紀念館大聲說話會受到反對。"
+          },
+          {
+            "id": "b",
+            "en": "Speaking loudly is the main reason people visit the hall.",
+            "zh": "大聲說話是人們參觀紀念館的主要原因。"
+          },
+          {
+            "id": "c",
+            "en": "The hall asks visitors to make as much noise as possible.",
+            "zh": "紀念館要求訪客盡量製造噪音。"
+          }
+        ],
+        "explanationZh": "保持安靜的要求支持群體不認同大聲聊天，其他選項與情境相反。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『群體不認同』的意思，哪種情況最不適合說 frowned upon？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several neighbours complain whenever bicycles block the entrance.",
+            "zh": "每當單車堵住入口，幾位鄰居都會投訴。"
+          },
+          {
+            "id": "b",
+            "en": "A club asks members not to interrupt other speakers.",
+            "zh": "一個社團要求會員不要打斷其他發言者。"
+          },
+          {
+            "id": "c",
+            "en": "One child briefly frowns because the sun is in her eyes.",
+            "zh": "一個孩子因陽光刺眼而短暫皺眉。"
+          }
+        ],
+        "explanationZh": "孩子皺眉是面部動作，沒有證據顯示某種行為受到群體反對。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同學問：『我可以在共用自修室開擴音器聽音樂嗎？』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It's frowned upon in that room. Please use headphones instead.",
+            "zh": "那個房間不認同這樣做。請改用耳機。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone there wants to hear your music, so turn it up.",
+            "zh": "那裏每個人都想聽你的音樂，所以把音量調高。"
+          },
+          {
+            "id": "c",
+            "en": "You must have broken a law just by asking the question.",
+            "zh": "你只是提出這個問題，就一定已經犯法。"
+          }
+        ],
+        "explanationZh": "回應指出共用空間的規範，並提供可行做法；沒有把不認同說成犯法。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Leaving rubbish in the shared garden is frowned upon by the neighbours.",
+        "zh": "在共用花園留下垃圾會受到鄰居反對。",
+        "promptZh": "先聽示範，再說明鄰居怎樣看待在共用花園留下垃圾。",
+        "targetSpan": {
+          "start": 40,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們的運動隊不認同隊員不通知就缺席練習。一名隊員再度缺席。用一至兩句英文說明隊伍的看法及下一步。",
+        "selfCheckZh": "指出不預先通知就缺席受到不認同，並提出下次應怎樣通知；不必照抄示例。",
+        "examples": [
+          {
+            "en": "Skipping practice without notice is frowned upon at our club. Please message the coach in advance.",
+            "zh": "在我們的球會，不預先通知就缺席練習會受到反對。請事先傳訊息給教練。"
+          },
+          {
+            "en": "Our team frowns upon missing training without warning, so tell us early if you cannot come.",
+            "zh": "我們的隊伍不認同沒有預告就缺席訓練，所以如果你不能來，請及早告訴我們。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Skipping practice",
+            "zh": "缺席練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "without notice",
+            "zh": "沒有預先通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "message the coach",
+            "zh": "傳訊息給教練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "in advance",
+            "zh": "事先",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 97
+            }
+          },
+          {
+            "en": "missing training",
+            "zh": "缺席訓練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 37
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Turning up late without warning is frowned upon by the team.",
+          "zh": "隊伍不認同沒有預告就遲到。"
+        },
+        {
+          "en": "Some communities frown upon loud calls in shared spaces.",
+          "zh": "有些社群不認同在共用空間大聲通話。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2115",
+      "number": 2115,
+      "inventoryId": "expr-2115",
+      "titleEn": "set alarm bells ringing",
+      "titleZh": "引起警覺",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:set|sets|setting) alarm bells ringing\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make people suspect a possible problem or danger.",
+        "meaningZh": "令人懷疑可能有問題或危險。",
+        "grammar": "set/sets alarm bells ringing; the signal prompts concern rather than proving wrongdoing.",
+        "register": "Neutral to vivid spoken and written English.",
+        "boundaryZh": "是警號或疑慮，不等於已經證實出事。",
+        "misconceptionZh": "不是指真正的警鐘響起。",
+        "outcomeZh": "能在可疑線索出現時表達警覺，同時保留查證空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0004",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The unexplained charge set alarm bells ringing for the accountant.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "set alarm bells ringing"
+        }
+      ],
+      "listening": {
+        "en": "The two invoices had the same number but different totals, and that set alarm bells ringing for the cashier.",
+        "zh": "兩張發票編號相同，總額卻不同，令收銀員提高警覺。",
+        "promptZh": "收銀員為何提高警覺？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The figures suggested something needed checking.",
+            "zh": "數字顯示有事情需要查證。"
+          },
+          {
+            "id": "b",
+            "en": "A real bell rang at the counter.",
+            "zh": "櫃檯有真正的鐘響起。"
+          },
+          {
+            "id": "c",
+            "en": "The invoices proved the cashier had stolen money.",
+            "zh": "發票證明收銀員偷了錢。"
+          },
+          {
+            "id": "d",
+            "en": "Both invoices showed exactly the same total.",
+            "zh": "兩張發票顯示完全相同的總額。"
+          }
+        ],
+        "explanationZh": "同一編號配上不同總額是值得查證的異常，但尚未證明有人犯錯或偷竊。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：你為何要求再核對活動報名網址？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unusual address set alarm bells ringing, so I checked it first.",
+            "zh": "那個不尋常的網址令我警覺，所以我先查證。"
+          },
+          {
+            "id": "b",
+            "en": "It looked different from the organiser's usual website.",
+            "zh": "它看起來跟主辦方平日的網站不同。"
+          },
+          {
+            "id": "c",
+            "en": "I wanted to avoid sending my details to the wrong page.",
+            "zh": "我想避免把個人資料送到錯誤頁面。"
+          },
+          {
+            "id": "d",
+            "en": "A quick check seemed sensible before entering any information.",
+            "zh": "輸入資料前先快速查證似乎較穩妥。"
+          }
+        ],
+        "explanationZh": "四句都能合理回答；金句自然表達可疑線索引起警覺，並沒有斷定網址有詐。",
+        "goldenId": "a",
+        "promptEn": "Why did you ask us to check the event registration link again?"
+      },
+      "scene": {
+        "promptZh": "校園慈善攤位收到一張沒有署名、卻要求退款的收據。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unsigned receipt set alarm bells ringing, so the volunteers checked the records.",
+            "zh": "那張沒有署名的收據令義工警覺，因此他們核對紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The unsigned receipt settled every question immediately.",
+            "zh": "那張沒有署名的收據立即解決了所有疑問。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers already knew exactly who had made a mistake.",
+            "zh": "義工已經確知是誰出錯。"
+          }
+        ],
+        "explanationZh": "欠缺署名是需要核對的線索，並不是足以確定責任的證據。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『引起警覺』的意思，哪種情況最不適合說 set alarm bells ringing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A payment request arrives from an unfamiliar address.",
+            "zh": "付款要求來自陌生地址。"
+          },
+          {
+            "id": "b",
+            "en": "A safety report leaves several important boxes blank.",
+            "zh": "安全報告有數個重要欄位留空。"
+          },
+          {
+            "id": "c",
+            "en": "The school bell rings at the usual time to end the lesson.",
+            "zh": "學校的鐘在平常時間響起，表示下課。"
+          }
+        ],
+        "explanationZh": "正常下課鐘聲是字面聲響，沒有引起懷疑的異常線索。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：『這份名單突然多了三個不認識的收款人。』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sets alarm bells ringing. Let's check who added them before approving payment.",
+            "zh": "這令人提高警覺。批准付款前先查證是誰加入他們。"
+          },
+          {
+            "id": "b",
+            "en": "Approve the payment now; unfamiliar names never matter.",
+            "zh": "現在就批准付款；不熟悉的名字從來不重要。"
+          },
+          {
+            "id": "c",
+            "en": "We know for certain that the new names were added dishonestly.",
+            "zh": "我們肯定那些新名字是有人不誠實地加入的。"
+          }
+        ],
+        "explanationZh": "指出異常並先核查，比忽視線索或未查證就指控別人更合理。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The sudden change in the figures set alarm bells ringing for our treasurer.",
+        "zh": "數字突然改變，令我們的司庫提高警覺。",
+        "promptZh": "先聽示範，再說明數字變動對司庫造成的影響。",
+        "targetSpan": {
+          "start": 33,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個活動報名頁面突然要求上傳護照照片，但主辦方先前沒有提過。用一至兩句英文說明你的警覺與下一步。",
+        "selfCheckZh": "指出異常要求使你警覺，並提出查證方法；警覺不等於已證實網站有問題。",
+        "examples": [
+          {
+            "en": "The request for a passport photo set alarm bells ringing. Check the organiser's website before sharing anything.",
+            "zh": "要求提交護照照片令我提高警覺。分享任何資料前，先核對主辦方的網站。"
+          },
+          {
+            "en": "The unfamiliar upload page sets alarm bells ringing, so I will contact the organiser directly.",
+            "zh": "陌生的上傳頁面令我警覺，因此我會直接聯絡主辦方。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "passport photo",
+            "zh": "護照照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "Check the organiser's website",
+            "zh": "核對主辦方的網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 87
+            }
+          },
+          {
+            "en": "before sharing anything",
+            "zh": "分享任何資料之前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 111
+            }
+          },
+          {
+            "en": "unfamiliar upload page",
+            "zh": "陌生的上傳頁面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 26
+            }
+          },
+          {
+            "en": "contact the organiser directly",
+            "zh": "直接聯絡主辦方",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 93
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The missing signature set alarm bells ringing for the clerk.",
+          "zh": "缺少簽名令職員提高警覺。"
+        },
+        {
+          "en": "An unexpected request for bank details sets alarm bells ringing.",
+          "zh": "突然有人要求提供銀行資料，會令人提高警覺。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2117",
+      "number": 2117,
+      "inventoryId": "expr-2117",
+      "titleEn": "from time to time",
+      "titleZh": "間中；偶爾",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfrom time to time\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Occasionally, rather than continuously or on a fixed daily schedule.",
+        "meaningZh": "偶爾發生，而非持續或每日定時發生。",
+        "grammar": "An adverbial phrase, usually placed at the start or end of a clause.",
+        "register": "Neutral everyday English.",
+        "boundaryZh": "頻率不高且不固定；不能據此推斷具體次數。",
+        "misconceptionZh": "不要把它理解為『準時』或『由一個時間到另一個時間』。",
+        "outcomeZh": "能自然表達偶爾進行的活動，並與每日習慣分清。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0006",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He replaces his jackets from time to time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "from time to time"
+        }
+      ],
+      "listening": {
+        "en": "I visit the community garden from time to time, but I cannot go there every weekend.",
+        "zh": "我間中會去社區花園，但不能每個週末都去。",
+        "promptZh": "說話者去社區花園的頻率如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They visit occasionally.",
+            "zh": "他們偶爾會去。"
+          },
+          {
+            "id": "b",
+            "en": "They visit every weekend without exception.",
+            "zh": "他們每個週末都去，沒有例外。"
+          },
+          {
+            "id": "c",
+            "en": "They have never visited.",
+            "zh": "他們從未去過。"
+          },
+          {
+            "id": "d",
+            "en": "They only go when the garden closes.",
+            "zh": "他們只會在花園關門時去。"
+          }
+        ],
+        "explanationZh": "from time to time 指偶爾；後半句明說不是每個週末都去。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：你現在還會跟以前的導師聯絡嗎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, I send her a message from time to time.",
+            "zh": "會，我間中會傳訊息給她。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, we still exchange messages occasionally.",
+            "zh": "會，我們仍偶爾互相傳訊息。"
+          },
+          {
+            "id": "c",
+            "en": "I do, especially when I have news to share.",
+            "zh": "會，特別是我有消息想分享時。"
+          },
+          {
+            "id": "d",
+            "en": "We are not in regular contact, but we do keep in touch.",
+            "zh": "我們沒有定期聯絡，但仍保持聯繫。"
+          }
+        ],
+        "explanationZh": "四句都表示仍有聯絡；金句自然使用本課片語表達偶爾發生。",
+        "goldenId": "a",
+        "promptEn": "Do you still keep in touch with your former tutor?"
+      },
+      "scene": {
+        "promptZh": "你不定期到街角書店逛逛，通常只是路過時才進去。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I drop into the bookshop from time to time.",
+            "zh": "我間中會走進那間書店。"
+          },
+          {
+            "id": "b",
+            "en": "I work at the bookshop every day.",
+            "zh": "我每天都在那間書店工作。"
+          },
+          {
+            "id": "c",
+            "en": "I have never entered the bookshop.",
+            "zh": "我從未走進那間書店。"
+          }
+        ],
+        "explanationZh": "路過才偶爾進去，與每日在那裏工作或從未去過都不同。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "哪句最不符合 from time to time 在本課的『偶爾』意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She calls her cousin when she has a free evening.",
+            "zh": "她有空閒的晚上才會打電話給表親。"
+          },
+          {
+            "id": "b",
+            "en": "He visits the museum a few times each year.",
+            "zh": "他每年去博物館幾次。"
+          },
+          {
+            "id": "c",
+            "en": "The bus arrives at exactly eight every single morning.",
+            "zh": "巴士每天早上都準時八時抵達。"
+          }
+        ],
+        "explanationZh": "每天固定八時到達是規律時間表，並非偶爾發生。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『我太忙，未能每週做義工。』哪個回應既自然又尊重實際情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could help from time to time when your schedule allows.",
+            "zh": "時間許可時，你可以間中幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "If you cannot help every week, you must never volunteer.",
+            "zh": "如果你不能每週幫忙，就絕不能做義工。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteering from time to time means working there daily.",
+            "zh": "間中做義工就是每天在那裏工作。"
+          }
+        ],
+        "explanationZh": "回應容許按時間偶爾幫忙，沒有把偶爾誤解為每日。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "I still visit the small bakery from time to time.",
+        "zh": "我仍然會間中去那間小麵包店。",
+        "promptZh": "先聽示範，再說明你偶爾會去那間小麵包店。",
+        "targetSpan": {
+          "start": 31,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友雖然很忙，但仍偶爾畫素描；她想之後更常練習。用一至兩句英文描述現況和下一步。",
+        "selfCheckZh": "指出目前只是偶爾畫畫，並提出較頻繁練習的方向；不要把偶爾說成每日。",
+        "examples": [
+          {
+            "en": "I sketch from time to time when I have a quiet evening. I want to make it a weekly habit.",
+            "zh": "有安靜的晚上時，我間中會畫素描。我想把它變成每週的習慣。"
+          },
+          {
+            "en": "She draws in her notebook from time to time, but she plans to practise more often.",
+            "zh": "她間中會在筆記本畫畫，但打算更常練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a quiet evening",
+            "zh": "安靜的晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 54
+            }
+          },
+          {
+            "en": "a weekly habit",
+            "zh": "每週的習慣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 88
+            }
+          },
+          {
+            "en": "draws in her notebook",
+            "zh": "在筆記本畫畫",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 25
+            }
+          },
+          {
+            "en": "plans to practise",
+            "zh": "打算練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 70
+            }
+          },
+          {
+            "en": "more often",
+            "zh": "更頻繁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 81
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We meet for tea from time to time when our shifts allow.",
+          "zh": "輪班時間許可時，我們間中會一起喝茶。"
+        },
+        {
+          "en": "From time to time, she writes to her old classmates.",
+          "zh": "她間中會寫信給舊同學。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2118",
+      "number": 2118,
+      "inventoryId": "expr-2118",
+      "titleEn": "run behind schedule",
+      "titleZh": "進度落後於計劃",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:run|runs|ran|running) behind schedule\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Progress later than an agreed or expected timetable.",
+        "meaningZh": "進度比商定或預期時間表慢。",
+        "grammar": "run/runs/ran/running behind schedule; subject is an event, project or team.",
+        "register": "Neutral work, event and travel planning language.",
+        "boundaryZh": "需有可比較的時間表；不一定表示工作失敗。",
+        "misconceptionZh": "不要把花費較多金錢或表現較差直接等同時間進度落後。",
+        "outcomeZh": "能分辨時間進度落後，並提出具體通知或調整。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0007",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The repairs began to run behind schedule after the storm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "run behind schedule"
+        }
+      ],
+      "listening": {
+        "en": "The rehearsal is running behind schedule because the sound check took an extra hour.",
+        "zh": "音響檢查多花了一小時，所以綵排進度落後於計劃。",
+        "promptZh": "綵排目前出了甚麼時間問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is taking longer than planned.",
+            "zh": "所需時間比原定更長。"
+          },
+          {
+            "id": "b",
+            "en": "It finished an hour ahead of time.",
+            "zh": "它提早一小時完成。"
+          },
+          {
+            "id": "c",
+            "en": "The sound check was cancelled.",
+            "zh": "音響檢查被取消了。"
+          },
+          {
+            "id": "d",
+            "en": "Its budget has increased, but timing is unchanged.",
+            "zh": "預算增加了，但時間進度沒有變。"
+          }
+        ],
+        "explanationZh": "音響檢查多用一小時，令綵排較原定時間表延遲。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：為何你們還未開放展覽？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The setup is running behind schedule because two display panels arrived late.",
+            "zh": "兩塊展示板遲到，所以佈置進度落後。"
+          },
+          {
+            "id": "b",
+            "en": "We are still waiting for the final display panels.",
+            "zh": "我們仍在等最後幾塊展示板。"
+          },
+          {
+            "id": "c",
+            "en": "The team needs a little more time to finish the setup.",
+            "zh": "團隊還需要多一點時間完成佈置。"
+          },
+          {
+            "id": "d",
+            "en": "We have moved the opening time to allow for the delay.",
+            "zh": "我們已調整開放時間，以應付延誤。"
+          }
+        ],
+        "explanationZh": "四句都回應了未開放的原因或處理；金句準確說出佈置比原定時間慢。",
+        "goldenId": "a",
+        "promptEn": "Why has the exhibition not opened yet?"
+      },
+      "scene": {
+        "promptZh": "班級壁畫原定午飯前完成，但油漆還未乾，大家仍在等。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mural project is running behind schedule.",
+            "zh": "壁畫專題進度落後於計劃。"
+          },
+          {
+            "id": "b",
+            "en": "The mural project finished before the planned time.",
+            "zh": "壁畫專題比原定時間提早完成。"
+          },
+          {
+            "id": "c",
+            "en": "The class decided not to paint any mural.",
+            "zh": "全班決定不畫壁畫。"
+          }
+        ],
+        "explanationZh": "原定完成時間已過而仍在等油漆乾，支持『進度落後』。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課的時間意思，哪種情況最不適合說 run behind schedule？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A train reaches its final station twenty minutes late.",
+            "zh": "列車遲二十分鐘到達終點站。"
+          },
+          {
+            "id": "b",
+            "en": "An event starts at three rather than the planned two thirty.",
+            "zh": "活動原定兩點半，結果三點才開始。"
+          },
+          {
+            "id": "c",
+            "en": "A project costs more than expected but finishes on the planned date.",
+            "zh": "專題花費比預期多，但在原定日期完成。"
+          }
+        ],
+        "explanationZh": "預算超支不等於時間落後；這個專題仍按原定日期完成。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "活動負責人說：『椅子還未送到，觀眾半小時後就到。』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We're running behind schedule. Let's tell the volunteers and revise the opening time.",
+            "zh": "我們的進度落後了。通知義工並調整開放時間吧。"
+          },
+          {
+            "id": "b",
+            "en": "Say nothing and assume the chairs will arrive in time.",
+            "zh": "不要說任何話，假設椅子會準時到達。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel every future event because of this one delay.",
+            "zh": "因為這一次延誤，取消所有將來的活動。"
+          }
+        ],
+        "explanationZh": "指出時間問題，並及早通知及調整，比隱瞞或過度反應更合宜。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The school concert is running behind schedule, so please wait in the foyer.",
+        "zh": "學校音樂會進度落後，請先在大堂等候。",
+        "promptZh": "先聽示範，再告訴觀眾音樂會的時間進度和等候安排。",
+        "targetSpan": {
+          "start": 22,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區活動的桌子遲送到，佈置未能按原定時間完成。用一至兩句英文通知義工進度及下一步。",
+        "selfCheckZh": "清楚說明佈置較原定時間慢，並提出通知或調整時間的具體做法。",
+        "examples": [
+          {
+            "en": "The preparations are running behind schedule because the tables arrived late. Tell the volunteers the revised start time.",
+            "zh": "桌子遲到，令準備工作進度落後。請通知義工修訂後的開始時間。"
+          },
+          {
+            "en": "We're running behind schedule, so let's update the team and shorten the setup plan.",
+            "zh": "我們的進度落後，所以更新團隊消息並縮短佈置計劃吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the tables arrived late",
+            "zh": "桌子遲到",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 76
+            }
+          },
+          {
+            "en": "Tell the volunteers",
+            "zh": "通知義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 97
+            }
+          },
+          {
+            "en": "the revised start time",
+            "zh": "修訂後的開始時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 120
+            }
+          },
+          {
+            "en": "update the team",
+            "zh": "通知團隊最新情況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 55
+            }
+          },
+          {
+            "en": "shorten the setup plan",
+            "zh": "縮短佈置計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 82
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The repairs ran behind schedule after the heavy rain.",
+          "zh": "大雨後，維修工程進度落後於計劃。"
+        },
+        {
+          "en": "If we run behind schedule, we should inform the audience early.",
+          "zh": "如果進度落後，我們應及早通知觀眾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2119",
+      "number": 2119,
+      "inventoryId": "expr-2119",
+      "titleEn": "let it slide",
+      "titleZh": "這次不追究",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:let|lets|letting) (?:it|that|this|the matter) slide\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Choose not to challenge or punish a minor problem this time.",
+        "meaningZh": "這一次選擇不追究輕微問題。",
+        "grammar": "let it slide; let is unchanged in past tense, as in I let it slide yesterday.",
+        "register": "Informal everyday English; use with a specific issue that could have been raised.",
+        "boundaryZh": "通常是有意不追究小問題，不等於未察覺，也不適用於必須處理的嚴重風險。",
+        "misconceptionZh": "不要把『不追究一次』當成永久准許或漠視安全問題。",
+        "outcomeZh": "能在輕微失誤與必須介入的問題之間作出合理判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0008",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I noticed the small mistake but decided to let it slide.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "let it slide"
+        }
+      ],
+      "listening": {
+        "en": "I noticed the small spelling error on the sign, but I let it slide because the message was clear.",
+        "zh": "我留意到告示上有一個小拼寫錯誤，但訊息清楚，所以這次沒有追究。",
+        "promptZh": "說話者如何處理這個小錯誤？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They noticed it but chose not to raise it this time.",
+            "zh": "他們留意到錯誤，但這次選擇不提出。"
+          },
+          {
+            "id": "b",
+            "en": "They never saw the error.",
+            "zh": "他們從未看見錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "They demanded that the whole sign be destroyed.",
+            "zh": "他們要求把整張告示毀掉。"
+          },
+          {
+            "id": "d",
+            "en": "They decided that spelling can never matter.",
+            "zh": "他們認為拼寫永遠不重要。"
+          }
+        ],
+        "explanationZh": "說話者看見了錯誤，因不影響理解而這次不追究；沒有提出普遍規則。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：為何你沒有提起 Sam 忘記帶杯子的事？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was a one-off mistake, so I decided to let it slide.",
+            "zh": "那只是一次失誤，所以我決定這次不追究。"
+          },
+          {
+            "id": "b",
+            "en": "It did not stop us from serving everyone.",
+            "zh": "這件事沒有妨礙我們服務大家。"
+          },
+          {
+            "id": "c",
+            "en": "I knew he would bring one next time.",
+            "zh": "我知道他下次會帶杯子。"
+          },
+          {
+            "id": "d",
+            "en": "We had enough spare cups for the event.",
+            "zh": "我們有足夠的後備杯子供活動使用。"
+          }
+        ],
+        "explanationZh": "四句都能解釋這次沒有提起的原因；金句指出一次性失誤而選擇不追究。",
+        "goldenId": "a",
+        "promptEn": "Why did you not bring up Sam's forgotten cup?"
+      },
+      "scene": {
+        "promptZh": "一名隊員第一次遲到兩分鐘，且已向大家道歉；排練沒有受影響。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can let it slide this time and remind him of the start time.",
+            "zh": "這次可以不追究，並提醒他開始時間。"
+          },
+          {
+            "id": "b",
+            "en": "He has never been late, so there is nothing to notice.",
+            "zh": "他從未遲到，所以沒有甚麼要留意。"
+          },
+          {
+            "id": "c",
+            "en": "We must cancel the entire season because of two minutes.",
+            "zh": "因為遲了兩分鐘，我們必須取消整個賽季。"
+          }
+        ],
+        "explanationZh": "輕微、首次、已道歉且未影響排練，支持這次不追究，同時提醒下次。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『不追究小問題』的意思，哪件事最不宜直接 let it slide？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A friend accidentally leaves a pencil at home once.",
+            "zh": "朋友有一次不小心把鉛筆留在家中。"
+          },
+          {
+            "id": "b",
+            "en": "A colleague makes one minor typo in an informal note.",
+            "zh": "同事在非正式便條寫錯一個小字。"
+          },
+          {
+            "id": "c",
+            "en": "A damaged electrical cable creates a clear safety risk.",
+            "zh": "損壞的電線造成明顯安全風險。"
+          }
+        ],
+        "explanationZh": "明顯安全風險需要處理；本課用法不應成為忽略危險的理由。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『新同學第一次把我的名字讀錯，但立刻道歉。』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could let it slide this time and kindly tell them how to say it.",
+            "zh": "這次你可以不追究，並友善地告訴對方正確讀法。"
+          },
+          {
+            "id": "b",
+            "en": "You must pretend you never heard the mistake, even if it keeps happening.",
+            "zh": "你必須裝作從未聽見，即使錯誤不斷出現。"
+          },
+          {
+            "id": "c",
+            "en": "One slip proves that the new student meant to insult you.",
+            "zh": "一次口誤證明新同學有意侮辱你。"
+          }
+        ],
+        "explanationZh": "承認只是首次口誤，並提供溫和糾正方式；沒有要求永久忍受或推斷惡意。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "I noticed the small mistake, but I let it slide this time.",
+        "zh": "我留意到那個小錯誤，但這次沒有追究。",
+        "promptZh": "先聽示範，再說明你留意到小錯誤卻決定這次不追究。",
+        "targetSpan": {
+          "start": 35,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：Ben 第一次遲到小組會議五分鐘，沒有耽誤討論。你決定這次不投訴，但請他下次預先通知。用一至兩句英文表達。",
+        "selfCheckZh": "說明你這次有意不追究輕微遲到，並提出下次預先通知的要求。",
+        "examples": [
+          {
+            "en": "Ben was late only once, so I let it slide. I asked him to send a message next time.",
+            "zh": "Ben 只遲到過一次，所以我這次沒有追究。我請他下次先傳訊息。"
+          },
+          {
+            "en": "We can let it slide this time, but please tell us if you expect a delay.",
+            "zh": "這次我們可以不追究，但如果你預計會遲到，請告訴我們。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late only once",
+            "zh": "只遲到過一次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 22
+            }
+          },
+          {
+            "en": "send a message",
+            "zh": "傳訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 72
+            }
+          },
+          {
+            "en": "next time",
+            "zh": "下次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 82
+            }
+          },
+          {
+            "en": "tell us",
+            "zh": "告訴我們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 49
+            }
+          },
+          {
+            "en": "expect a delay",
+            "zh": "預計會遲到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 71
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "I let it slide because the small mistake caused no problem.",
+          "zh": "那個小錯誤沒有造成問題，所以我沒有追究。"
+        },
+        {
+          "en": "We can let it slide once, but we should explain the rule.",
+          "zh": "我們可以有一次不追究，但應解釋規則。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

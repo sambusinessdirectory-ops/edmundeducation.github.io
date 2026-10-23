@@ -1,0 +1,79 @@
+{
+  "sourceFile": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+  "sourceSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "renderedPdfSha256": "0ddce74f1ab4622fad9a00b1536d2e0b392b1a9f736d35fd6f3217d629ee269c",
+  "renderedPdfPages": 246,
+  "sourceRows": 2604,
+  "reportedBookCounts": {
+    "10": {
+      "questions": 36,
+      "answers": 72,
+      "expressions": 441
+    },
+    "11": {
+      "questions": 34,
+      "answers": 68,
+      "expressions": 328
+    },
+    "12": {
+      "questions": 51,
+      "answers": 102,
+      "expressions": 499
+    },
+    "13": {
+      "questions": 23,
+      "answers": 46,
+      "expressions": 194
+    },
+    "14": {
+      "questions": 34,
+      "answers": 68,
+      "expressions": 307
+    },
+    "15": {
+      "questions": 37,
+      "answers": 74,
+      "expressions": 334
+    },
+    "16": {
+      "questions": 60,
+      "answers": 120,
+      "expressions": 501
+    }
+  },
+  "extractedBookCounts": {
+    "10": {
+      "questions": 36,
+      "expressions": 441
+    },
+    "11": {
+      "questions": 34,
+      "expressions": 328
+    },
+    "12": {
+      "questions": 51,
+      "expressions": 499
+    },
+    "13": {
+      "questions": 23,
+      "expressions": 194
+    },
+    "14": {
+      "questions": 34,
+      "expressions": 307
+    },
+    "15": {
+      "questions": 37,
+      "expressions": 334
+    },
+    "16": {
+      "questions": 60,
+      "expressions": 501
+    }
+  },
+  "rowsWithoutPdfPage": [],
+  "unmatchedQuestionHeadings": [],
+  "exactPriorPhraseOccurrences": 866,
+  "uniqueExactPhrases": 1844,
+  "duplicatePhraseOccurrencesWithinSource": 760
+}
