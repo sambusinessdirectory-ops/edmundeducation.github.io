@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-show-up-arrival-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2123",
+      "number": 2123,
+      "inventoryId": "expr-2123",
+      "titleEn": "show up",
+      "titleZh": "到場",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:show|shows|showed|shown|showing) up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Arrive or appear at a place, meeting or event.",
+        "meaningZh": "到達或出現在某個地點、會議或活動。",
+        "grammar": "show up; showed up; has shown up; show up at/for an event.",
+        "register": "Natural informal-to-neutral phrasal verb for arrival or appearance.",
+        "boundaryZh": "本課指有人到場或出現；不是保證對方會留下來，也不是舊課 show up for someone「在需要時支持對方」的用法。",
+        "misconceptionZh": "不要把答應出席或傳訊息當成已經到場。",
+        "outcomeZh": "能分辨真正到場與只是預計出席，並正確使用 show up。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0012",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Guests should show up before noon.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "show up"
+        },
+        {
+          "occurrenceId": "book10-16-0014",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 2, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Guests should show up before noon.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "show up"
+        }
+      ],
+      "listening": {
+        "en": "Despite the heavy rain, everyone who had booked a place showed up for the workshop.",
+        "zh": "儘管下大雨，所有已報名的人都到場參加工作坊。",
+        "promptZh": "工作坊實際的出席情況如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "All the people with bookings came to the workshop.",
+            "zh": "所有已報名的人都來了工作坊。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone cancelled because of the rain.",
+            "zh": "所有人都因為下雨而取消出席。"
+          },
+          {
+            "id": "c",
+            "en": "People booked places, but no one knows whether they arrived.",
+            "zh": "有人預約了名額，但沒有人知道他們是否到場。"
+          },
+          {
+            "id": "d",
+            "en": "The organisers visited each attendee at home.",
+            "zh": "主辦方到每名參加者家中探訪。"
+          }
+        ],
+        "explanationZh": "showed up 說明已報名的人實際到場；它不只表示預約、打算來或遠距支持。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：講者有到達禮堂嗎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, she arrived a few minutes before the talk.",
+            "zh": "有，她在講座開始前幾分鐘到達。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, she showed up just before the talk began.",
+            "zh": "有，她在講座開始前剛好到場。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, I saw her walk into the hall.",
+            "zh": "有，我看見她走進禮堂。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, she is already inside preparing her notes.",
+            "zh": "有，她已在裏面準備筆記。"
+          }
+        ],
+        "explanationZh": "四句都自然地回答了是否到場；金句使用 show up 明確表達講者已出現。",
+        "goldenId": "b",
+        "promptEn": "Did the guest speaker arrive at the hall?"
+      },
+      "scene": {
+        "promptZh": "一場清潔海灘活動已有十二人確認參加；活動開始時，只有七人實際到場。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Only seven volunteers showed up when the clean-up began.",
+            "zh": "清潔活動開始時，只有七名義工到場。"
+          },
+          {
+            "id": "b",
+            "en": "All twelve volunteers arrived before the clean-up began.",
+            "zh": "十二名義工都在清潔活動開始前到場。"
+          },
+          {
+            "id": "c",
+            "en": "Seven volunteers registered, but no one has checked attendance.",
+            "zh": "七名義工報了名，但還沒有人點算出席人數。"
+          }
+        ],
+        "explanationZh": "確認參加不等於實際到場；情境明言開始時只有七人來了。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "本課的 show up 指實際到場。哪種情況最不能證明有人已經 show up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A guest signs the attendance sheet at the entrance.",
+            "zh": "一名來賓在入口的簽到表上簽名。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker walks into the hall before the meeting.",
+            "zh": "一名講者在會議前走進禮堂。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer texts that she plans to come but has not left home.",
+            "zh": "一名義工傳訊息說打算前來，但仍未離家。"
+          }
+        ],
+        "explanationZh": "答應或計劃到場並非已經到場；要有真正抵達或出現的證據。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "活動負責人問：『義工到了嗎？我們需要開始分組。』哪個回應最能準確報告目前情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Six volunteers have shown up, and two are still on the way.",
+            "zh": "六名義工已到場，另外兩名仍在路上。"
+          },
+          {
+            "id": "b",
+            "en": "Eight people signed up, so all eight must be here already.",
+            "zh": "有八人報名，所以八人一定都已在這裏。"
+          },
+          {
+            "id": "c",
+            "en": "Two volunteers said they might come; I have not checked who is here.",
+            "zh": "兩名義工說可能會來；我還沒查看有誰到場。"
+          }
+        ],
+        "explanationZh": "只有這個回應把已到場與仍在路上的人分清楚，不以報名代替實際出席。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Only six volunteers showed up at the clean-up this morning.",
+        "zh": "今天早上只有六名義工到場參加清潔活動。",
+        "promptZh": "先聽完整示範，再說出今天早上實際到場的人數。",
+        "targetSpan": {
+          "start": 20,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校樂團的試音快要開始。大部分表演者已到場，但兩人還未出現。用一至兩句英文向負責人報告誰已到場，以及你會怎樣跟進。",
+        "selfCheckZh": "清楚區分已到場與尚未到場的人，並提出合理的跟進做法；不必逐字照抄示例。",
+        "examples": [
+          {
+            "en": "Eight singers showed up before the audition began, but Mia hasn't arrived yet. I'll call her.",
+            "zh": "八名歌手在試音開始前到場，但 Mia 還未到。我會打電話給她。"
+          },
+          {
+            "en": "The other musicians showed up on time. Please check whether Ben is still coming.",
+            "zh": "其他樂手準時到場。請查問 Ben 是否仍會來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "before the audition began",
+            "zh": "在試音開始前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 49
+            }
+          },
+          {
+            "en": "hasn't arrived yet",
+            "zh": "還未到",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 77
+            }
+          },
+          {
+            "en": "I'll call her",
+            "zh": "我會打電話給她",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 92
+            }
+          },
+          {
+            "en": "on time",
+            "zh": "準時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 37
+            }
+          },
+          {
+            "en": "still coming",
+            "zh": "仍會來",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 79
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Seven volunteers showed up for the beach clean-up.",
+          "zh": "七名義工到場參加海灘清潔活動。"
+        },
+        {
+          "en": "The guest speaker has not shown up yet, so we will call her.",
+          "zh": "講者還未到場，所以我們會打電話給她。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Distinct arrival sense from existing advanced-native-364 supportive-presence sense."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
