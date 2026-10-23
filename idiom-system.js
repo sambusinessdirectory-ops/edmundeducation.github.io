@@ -476,6 +476,7 @@ function readSession() {
 }
 
 function clearSession() {
+  idiomAdventure?.reset();
   idiomMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
@@ -759,6 +760,7 @@ function syncHorseyTrophies() {
 }
 
 function renderLessonChoices() {
+  syncIdiomAdventure();
   syncHorseyTrophies();
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
@@ -797,6 +799,41 @@ function renderLessonChoices() {
     bookmarkCount.title = `${sectionBookmarkCount} 個慣用語 · ${questionBookmarkCount} 道題目`;
   }
   syncIdiomMap();
+}
+
+let idiomAdventure = null;
+let idiomAdventureLoad = null;
+function syncIdiomAdventure() {
+  const root = document.querySelector('[data-idiom-adventure]');
+  if (!root || state.user?.role !== 'student') return;
+  if (idiomAdventure) { idiomAdventure.sync(state.user.id); return; }
+  if (!idiomAdventureLoad) idiomAdventureLoad = import('./idiom-adventure.mjs?v=20261024-isles1').then(({ mountAdventure }) => {
+    if (state.user?.role !== 'student') { idiomAdventureLoad = null; return; }
+    idiomAdventure = mountAdventure({ root, bridge: {
+      lessons: lessonList,
+      questions: id => compassPracticeQuestions(getLesson(id)),
+      options: (question, lesson) => compassMcOptions(question, lesson),
+      highlight: compassMcHighlightedOptions,
+      begin: id => openLesson(id, { page: EXERCISE_PAGE }),
+      completed: id => Array.from(compassReviewedIds(getLesson(id), state.exercise?.questionState, state.exercise?.correctIds)),
+      answer: async (id, questionId, index) => {
+        const owner = state.user?.id, token = state.authToken;
+        if (!owner || state.lessonId !== id || state.currentView !== 'lesson') return false;
+        const question = compassPracticeQuestions(getLesson(id)).find(q => q.id === questionId);
+        if (!question || compassMcOptions(question, getLesson(id)).correctAt !== index) return false;
+        const alreadyRecorded = compassReviewedIds(getLesson(id), state.exercise?.questionState, state.exercise?.correctIds).has(questionId);
+        if (alreadyRecorded && !question.bonus) await persistExercise();
+        else if (await answerCompassMcQuestion(questionId, index) === false) return false;
+        return state.user?.id === owner && state.authToken === token && state.lessonId === id
+          && compassReviewedIds(getLesson(id), state.exercise?.questionState, state.exercise?.correctIds).has(questionId);
+      },
+      pause: () => pauseExerciseClock({ persist: true }),
+      guide: id => openLesson(id, { page: 1 }),
+      dashboard: () => openDashboard()
+    }});
+    root.closest('[data-view="dashboard"]')?.classList.add('ia-hub-ready');
+    idiomAdventure.sync(state.user.id);
+  }).catch(error => { idiomAdventureLoad = null; console.warn('Idiom adventure unavailable', error); });
 }
 
 function syncIdiomMap() {
@@ -2601,8 +2638,9 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   if (!question.bonus) {
     try { await persistExercise(); }
-    catch (error) { console.warn("Idiom choice save failed", error); showToast("答案已記錄，但帳戶同步失敗；請稍後再試。", "error"); }
+    catch (error) { console.warn("Idiom choice save failed", error); showToast("答案已記錄，但帳戶同步失敗；請稍後再試。", "error"); return false; }
   }
+  return true;
 }
 
 function syncExerciseButtons() {
