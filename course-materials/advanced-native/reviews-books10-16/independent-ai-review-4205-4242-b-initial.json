@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons, source ordinals 4205, 4206, 4208, 4211, 4219, 4235, 4240 and 4242",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4205-4242-review-pilot.json",
+    "sha256": "3d5dcce877b6d1f49de63b8035d346756cfacc6033c63c9ea0e24d0b08223ea3"
+  },
+  "authorSelfAuditSha256": "5bd4e89a725bad37ba64e63a789b7ac4f69cc11c2826d513831eede859e15fae",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "repair-required-before-selection",
+  "validation": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetCoverage": "All eight source sentences matched their own lesson target; 4208 also matched alias source 4293."
+  },
+  "findings": [
+    {
+      "id": "R4208-01",
+      "severity": "major",
+      "lessonId": "advanced-native-4208",
+      "sourceIds": ["book10-16-2097", "book10-16-2182"],
+      "affectedField": "listening.promptZh",
+      "issue": "The audio says 'standing on the sidelines', while the question asks what 'watched from the sidelines' means. These are valid same-sense forms, but this listening question names a phrase that was not heard.",
+      "recommendedRepair": "Ask about 'standing on the sidelines' in this audio, or change the audio to the watched form while preserving both forms elsewhere."
+    },
+    {
+      "id": "R4235-01",
+      "severity": "major",
+      "lessonId": "advanced-native-4235",
+      "sourceId": "book10-16-2124",
+      "sourceExample": "Students should arrive at the answer themselves.",
+      "sourceGloss": "Reach a correct conclusion through thought; a fixed journey expression.",
+      "affectedFields": ["brief.meaningEn", "brief.meaningZh", "brief.boundaryZh", "dialogue", "writing"],
+      "issue": "The source gloss presents a correct conclusion reached by reasoning. The lesson instead teaches an answer that may still be wrong, and both writing examples say students 'arrived at the answer' while the June date remains unverified. This changes the sense of the source expression.",
+      "recommendedRepair": "Ground the expression in a confirmed correct result reached through evidence and reasoning. A later independent cross-check may reinforce that result; it should not leave correctness wholly unresolved. Align the Chinese, dialogue boundary and both writing examples."
+    }
+  ],
+  "otherLessonScreen": "The same-sense 4208 source/alias pair is supported by their source glosses and matching full-sentence detector. Representative key, reply, changed-context writing and EN/ZH checks in 4205, 4206, 4211, 4219, 4240 and 4242 found no selection blocker. This was a risk-based review, not a line-by-line prose inspection of all 48 questions.",
+  "nextStep": "Author repairs and independent exact-hash follow-up before selection."
+}

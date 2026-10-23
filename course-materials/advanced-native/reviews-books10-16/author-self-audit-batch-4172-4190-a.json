@@ -1,0 +1,245 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:39:27.419544+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4172-4176-a.json",
+      "sha256": "eab53393abdc7830f9e12f8dde600766b83aa65a332b9b69ba17fee189fda10e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4180-4190-a.json",
+      "sha256": "0cbd9124d63fd239b4584046c7ad9cc014fea15b6c6f3959b46204cafd3076a8"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "020a86709d5c41526962a89963e3d1d3c609624fccd9f8bc3d6e76412a21e17e",
+    "aea981470c81f7c0452b2a727f4f05e268238dfd93e7c364447f307086cc9598"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags in two batches",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "Whole all-discovered audit currently reports one external 4293→4208 owner-pattern exception; neither owner nor alias is in this eight-lesson batch. Batch-local alias coverage passes.",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 0
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "4172": "Repeated exploration sustains curiosity; no age-based presumption.",
+    "4174": "Prompt for reflection, not evidence of a completed conclusion.",
+    "4175": "Source-sense repair: lost condition during figurative meeting/handover communication, with cross-language use also assessed.",
+    "4176": "No practical progress after repeated discussion; unlike a temporary wait with assigned next step.",
+    "4180": "Source-sense repair: changed facts become outdated, but useful communication skills may remain relevant in negative construction.",
+    "4186": "Recall main method from memory while still checking safety/measurements.",
+    "4188": "Practical work after safety checks, not untrained hazardous action.",
+    "4190": "Verified task completion via workable method, not a proposed plan; dialogue phrasing revised to avoid source-sentence overlap."
+  },
+  "independentContentReview": "pending; provisional unselected batch for B targeted independent review",
+  "ownerWatch": "4136 taking things in remains skipped for canonical 339/367 owner risk; not drafted here",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4172,
+      "sourceId": "book10-16-2061",
+      "sourceExpression": "their curiosity alive",
+      "sourceExample": "Older readers keep their curiosity alive with new books.",
+      "batch": "batch-4172-4176-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4174,
+      "sourceId": "book10-16-2063",
+      "sourceExpression": "food for thought",
+      "sourceExample": "The essay gave the class food for thought.",
+      "batch": "batch-4172-4176-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4175,
+      "sourceId": "book10-16-2064",
+      "sourceExpression": "get lost in translation",
+      "sourceExample": "Good ideas can get lost in translation during a rushed meeting.",
+      "batch": "batch-4172-4176-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4176,
+      "sourceId": "book10-16-2065",
+      "sourceExpression": "go nowhere",
+      "sourceExample": "A proposal may go nowhere without a clear explanation.",
+      "batch": "batch-4172-4176-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4180,
+      "sourceId": "book10-16-2069",
+      "sourceExpression": "goes out of date",
+      "sourceExample": "Clear communication never goes out of date.",
+      "batch": "batch-4180-4190-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4186,
+      "sourceId": "book10-16-2075",
+      "sourceExpression": "know recipes by heart",
+      "sourceExample": "A good cook may know recipes by heart.",
+      "batch": "batch-4180-4190-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4188,
+      "sourceId": "book10-16-2077",
+      "sourceExpression": "roll up your sleeves",
+      "sourceExample": "In an emergency, you must roll up your sleeves and help.",
+      "batch": "batch-4180-4190-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4190,
+      "sourceId": "book10-16-2079",
+      "sourceExpression": "get the job done",
+      "sourceExample": "The crew found a way to get the job done.",
+      "batch": "batch-4180-4190-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    }
+  ]
+}

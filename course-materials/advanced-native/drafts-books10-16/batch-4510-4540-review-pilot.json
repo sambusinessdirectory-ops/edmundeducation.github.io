@@ -1,0 +1,2214 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4510-4540-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4510",
+      "number": 4510,
+      "inventoryId": "expr-4510",
+      "titleEn": "carry forward",
+      "titleZh": "延續下去",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:carry|carries|carried|carrying)\\s+(?:(?:[\\w-]+\\s+){0,6})?forward\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Preserve or continue a useful practice, idea or result into a later stage.",
+        "meaningZh": "把有用的做法、想法或成果保留並延續至下一階段。",
+        "grammar": "Carry X forward / carry forward X; in passive, X is carried forward. It needs an object or a recoverable object in context.",
+        "register": "Neutral planning and policy language; a community organiser explains to volunteers which traditions should continue.",
+        "boundaryZh": "延續有價值的做法，不等於把所有舊安排原封不動保留。",
+        "misconceptionZh": "不是把物件實際搬到前面，也不等於承諾永遠不改。",
+        "outcomeZh": "能指出要延續的具體做法及下一階段。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2399",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 226,
+          "book": 16,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 249, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Useful customs deserve to be carried forward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carried forward"
+        }
+      ],
+      "listening": {
+        "en": "The school will replace its timetable, but it will carry forward the quiet reading hour that pupils value.",
+        "zh": "學校會更換時間表，但會把學生珍惜的安靜閱讀時段延續下去。",
+        "promptZh": "carry forward 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep a valued practice in the new schedule.",
+            "zh": "在新時間表保留有價值的做法。"
+          },
+          {
+            "id": "b",
+            "en": "Move the books to the front of the room.",
+            "zh": "把書搬到房間前方。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel the reading hour immediately.",
+            "zh": "立即取消閱讀時段。"
+          },
+          {
+            "id": "d",
+            "en": "Freeze every part of the old timetable.",
+            "zh": "保留舊時間表每一部分不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新時間表仍保留受重視的閱讀時段。"
+      },
+      "reply": {
+        "promptEn": "The neighbourhood festival is changing venues next year. Its free sign-language tour drew many visitors, and the team wants it at the new site. What should they say?",
+        "promptZh": "（社區節明年更換場地；免費手語導賞吸引了不少訪客，團隊希望新場地也有這項安排。該怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should retain the free tour at the new venue.",
+            "zh": "我們應在新場地保留免費導賞。"
+          },
+          {
+            "id": "b",
+            "en": "The tour can continue after the move.",
+            "zh": "搬遷後導賞仍可繼續。"
+          },
+          {
+            "id": "c",
+            "en": "Let us carry forward the free sign-language tour.",
+            "zh": "讓我們把免費手語導賞延續下去。"
+          },
+          {
+            "id": "d",
+            "en": "The change of venue need not end the tour.",
+            "zh": "更換場地不必終止導賞。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均支持新場地繼續提供已有成效的導賞。"
+      },
+      "scene": {
+        "promptZh": "劇團改用新排練室，但去年行之有效的開場暖身環節仍會使用。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The troupe will carry forward its opening warm-up in the new room.",
+            "zh": "劇團會在新排練室延續開場暖身環節。"
+          },
+          {
+            "id": "b",
+            "en": "The troupe will carry the chairs forward across the floor.",
+            "zh": "劇團會把椅子搬到地板前方。"
+          },
+          {
+            "id": "c",
+            "en": "The troupe must preserve every old rehearsal rule forever.",
+            "zh": "劇團必須永遠保留所有舊排練規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "指定延續的是有效的暖身做法。"
+      },
+      "contrast": {
+        "promptZh": "哪句最清楚區分「延續有用做法」與「全部不改」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic carried forward its successful reminder system while changing appointment hours.",
+            "zh": "診所延續有效的提醒系統，同時更改預約時間。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic carried forward every rule because any change is forbidden.",
+            "zh": "診所延續每一條規則，因為一切改動都被禁止。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic removed the reminder system but said it had carried it forward.",
+            "zh": "診所移除了提醒系統，卻說自己把它延續下去。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "延續一項做法可以與其他改革並行。"
+      },
+      "dialogue": {
+        "promptZh": "有人說 carry forward 必定是「把東西往前搬」。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can carry this useful idea forward into the next stage.",
+            "zh": "我們可以把這個有用想法延續至下一階段。"
+          },
+          {
+            "id": "b",
+            "en": "Yes; it can only describe a physical movement.",
+            "zh": "對；它只能描述實際移動。"
+          },
+          {
+            "id": "c",
+            "en": "No; it means throwing out every earlier idea.",
+            "zh": "不；它指拋棄所有較早的想法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "抽象做法也可被延續。"
+      },
+      "speaking": {
+        "en": "The library is redesigning its website, but it will carry forward the large-print option that readers depend on.",
+        "zh": "圖書館正重新設計網站，但會延續讀者倚賴的大字體選項。",
+        "promptZh": "說出新網站會保留哪項舊功能。",
+        "targetSpan": {
+          "start": 52,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇院將推出新訂票平台；舊平台的無障礙座位篩選器很有用，團隊會在新版保留，其他版面可改。用英文說明。",
+        "selfCheckZh": "兩個示範都應說明新平台、保留無障礙座位篩選器，以及其他版面仍可更改。",
+        "examples": [
+          {
+            "en": "The theatre will carry forward its accessible-seat filter into the new booking platform, even as it redesigns the other pages.",
+            "zh": "劇院會把無障礙座位篩選器延續到新訂票平台，同時重新設計其他頁面。"
+          },
+          {
+            "en": "As the booking platform changes, the team will carry the useful accessible-seat filter forward while updating the rest of the layout.",
+            "zh": "訂票平台改版時，團隊會延續有用的無障礙座位篩選器，並更新其餘版面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "accessible-seat filter",
+            "zh": "無障礙座位篩選器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 57
+            }
+          },
+          {
+            "en": "booking platform",
+            "zh": "訂票平台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 87
+            }
+          },
+          {
+            "en": "redesigns",
+            "zh": "重新設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 109
+            }
+          },
+          {
+            "en": "the team",
+            "zh": "團隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 41
+            }
+          },
+          {
+            "en": "updating",
+            "zh": "更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 109
+            }
+          },
+          {
+            "en": "layout",
+            "zh": "版面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Carry forward preserves a specified practice into a new stage.",
+          "zh": "carry forward 指把指定做法延續至新階段。"
+        },
+        {
+          "en": "You can carry forward one useful feature while changing other details.",
+          "zh": "可延續一項有用功能，同時更改其他細節。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4516",
+      "number": 4516,
+      "inventoryId": "expr-4516",
+      "titleEn": "have their place",
+      "titleZh": "仍有其用處",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:has\\s+its|have\\s+their|had\\s+(?:its|their))\\s+place\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remain useful or appropriate in some circumstances, even if another option is often preferred.",
+        "meaningZh": "即使另一選擇常受青睞，某做法在特定情況仍有用或合適。",
+        "grammar": "X has/have/had its/their place (in Y); singular X takes its, plural X takes their. The complement can name the relevant setting.",
+        "register": "Neutral comparative discussion; a transport planner speaks to residents weighing several travel options.",
+        "boundaryZh": "承認某選擇在某些情況仍有價值，不等於聲稱它永遠最好。",
+        "misconceptionZh": "place 不是指定地理位置；不可忽略單複數代詞配搭。",
+        "outcomeZh": "能讓步承認某方法的特定用途，同時保留比較。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2405",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 227,
+          "book": 16,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 250, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For short journeys, other forms of transport still have their place.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "other forms of transport still have their place"
+        }
+      ],
+      "listening": {
+        "en": "Digital forms are convenient, but paper forms still have their place when the network is down.",
+        "zh": "電子表格很方便，但網絡故障時紙本表格仍有其用處。",
+        "promptZh": "have their place 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Paper forms remain useful in this particular situation.",
+            "zh": "紙本表格在這種特定情況仍有用。"
+          },
+          {
+            "id": "b",
+            "en": "The forms are stored at a named location.",
+            "zh": "表格存放在指定位置。"
+          },
+          {
+            "id": "c",
+            "en": "Paper is always better than digital forms.",
+            "zh": "紙本永遠比電子表格好。"
+          },
+          {
+            "id": "d",
+            "en": "The network has already been repaired.",
+            "zh": "網絡已經修復。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電子表格方便，網絡故障時紙本仍有用途。"
+      },
+      "reply": {
+        "promptEn": "A school now posts most notices online, but some families lack regular internet access. A teacher asks whether printed notices should disappear entirely. How might you respond?",
+        "promptZh": "（學校現在大多在網上發布通知，但有些家庭無法定期上網。老師問應否完全取消紙本通知。你會怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Printed notices remain useful for those families.",
+            "zh": "紙本通知對那些家庭仍然有用。"
+          },
+          {
+            "id": "b",
+            "en": "We should retain paper notices for families who need them.",
+            "zh": "我們應為有需要的家庭保留紙本通知。"
+          },
+          {
+            "id": "c",
+            "en": "Online posts are useful, yet printed notices still have their place.",
+            "zh": "網上發布有用，但紙本通知仍有其用處。"
+          },
+          {
+            "id": "d",
+            "en": "A complete ban on paper would leave some families uninformed.",
+            "zh": "完全不用紙本會令一些家庭收不到消息。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認紙本在特定家庭情況仍有用途。"
+      },
+      "scene": {
+        "promptZh": "藥房新增網上諮詢，但有些長者仍需要當面說明。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Face-to-face advice still has its place for these patients.",
+            "zh": "對這些病人而言，當面建議仍有其用處。"
+          },
+          {
+            "id": "b",
+            "en": "Face-to-face advice has its place at the back of the building.",
+            "zh": "當面建議的位置在建築物後方。"
+          },
+          {
+            "id": "c",
+            "en": "Online advice must be abandoned in every case.",
+            "zh": "所有情況都必須放棄網上建議。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不是否定網上服務，而是保留有需要時的當面建議。"
+      },
+      "contrast": {
+        "promptZh": "哪句的單複數及讓步意思最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Digital tickets are popular, but printed tickets still have their place.",
+            "zh": "電子票很普及，但紙本票仍有其用處。"
+          },
+          {
+            "id": "b",
+            "en": "Digital tickets are popular, but printed tickets still has its place.",
+            "zh": "電子票很普及，但紙本票仍有其用處。"
+          },
+          {
+            "id": "c",
+            "en": "Digital tickets are popular, so printed tickets must be used everywhere.",
+            "zh": "電子票很普及，因此所有地方都必須使用紙本票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "複數 printed tickets 搭配 have their place，且只承認特定用途。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 have their place 解作「佔著一個座位」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Older methods still have their place when they meet a particular need.",
+            "zh": "舊方法在能滿足特定需要時仍有其用處。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it only refers to reserved seating.",
+            "zh": "對，它只指預留座位。"
+          },
+          {
+            "id": "c",
+            "en": "It means the older method must replace every new one.",
+            "zh": "它表示舊方法必須取代所有新方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語在比較方法時指特定價值。"
+      },
+      "speaking": {
+        "en": "Short videos help, but detailed written guides still have their place when users need to check each step.",
+        "zh": "短片有幫助，但當使用者需要逐步查閱時，詳細文字指引仍有其用處。",
+        "promptZh": "說明文字指引在哪種需要下有用。",
+        "targetSpan": {
+          "start": 53,
+          "end": 69
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：畫廊推出語音導賞，但聽障訪客仍需要印刷文字說明。用英文承認兩種方式的作用，指出文字說明的特定用途。",
+        "selfCheckZh": "兩個示範都應提及語音導賞、聽障訪客，以及印刷文字說明仍有用；不可說印刷方式在所有場合更好。",
+        "examples": [
+          {
+            "en": "Audio tours are helpful, but printed descriptions still have their place for visitors who cannot hear the recording.",
+            "zh": "語音導賞有幫助，但對聽不到錄音的訪客而言，印刷文字說明仍有其用處。"
+          },
+          {
+            "en": "The gallery can offer an audio tour while keeping printed descriptions: they have their place for visitors with hearing loss.",
+            "zh": "畫廊可以提供語音導賞，同時保留印刷文字說明；對有聽力障礙的訪客而言，文字說明仍有其用處。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Audio tours",
+            "zh": "語音導賞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "printed descriptions",
+            "zh": "印刷文字說明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 49
+            }
+          },
+          {
+            "en": "recording",
+            "zh": "錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 115
+            }
+          },
+          {
+            "en": "The gallery",
+            "zh": "畫廊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "hearing loss",
+            "zh": "聽力障礙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 124
+            }
+          },
+          {
+            "en": "visitors",
+            "zh": "訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Have their place acknowledges value within a relevant context.",
+          "zh": "have their place 承認某選擇在相關情境有價值。"
+        },
+        {
+          "en": "Match has its place and have their place to the subject.",
+          "zh": "has its place／have their place 須與主語單複數配合。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4525",
+      "number": 4525,
+      "inventoryId": "expr-4525",
+      "titleEn": "not going away",
+      "titleZh": "不會消失",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bnot\\s+going\\s+away\\b|\\b(?:isn.t|aren.t|wasn.t|weren.t)\\s+going\\s+away\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue to exist or matter rather than disappearing on its own.",
+        "meaningZh": "問題、需求或現象仍會存在，不會自行消失。",
+        "grammar": "X is/are not going away; negative progressive go away treats X as persistent. Often used of demand, problems or social changes.",
+        "register": "Neutral to conversational briefing; a housing officer explains continuing demand to a committee.",
+        "boundaryZh": "表示目前可預見的持續性，並非斷言永遠不會改變。",
+        "misconceptionZh": "不是說人不肯離開某地；亦不表示問題已經解決。",
+        "outcomeZh": "能指出持續存在的需求並避免過度絕對化。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2414",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 37,
+          "sample": "S1",
+          "sourceBookPages": "90–91",
+          "locatorNote": "DOCX table 252, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Demand for easier journeys is not going away.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not going away"
+        }
+      ],
+      "listening": {
+        "en": "The library has extended weekend hours twice, yet the waiting list is not going away.",
+        "zh": "圖書館已兩次延長週末開放時間，但輪候名單仍未消失。",
+        "promptZh": "not going away 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The waiting list remains a problem.",
+            "zh": "輪候名單仍是問題。"
+          },
+          {
+            "id": "b",
+            "en": "Readers refuse to leave the building.",
+            "zh": "讀者拒絕離開大樓。"
+          },
+          {
+            "id": "c",
+            "en": "The library has no opening hours.",
+            "zh": "圖書館沒有開放時間。"
+          },
+          {
+            "id": "d",
+            "en": "The list has already vanished.",
+            "zh": "輪候名單已經消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "延長時間後輪候名單仍然存在。"
+      },
+      "reply": {
+        "promptEn": "The council has opened one new evening class, but registrations still exceed the available seats each week. Is the demand over?",
+        "promptZh": "（議會增設了一班晚間課程，但每星期報名人數仍多於名額。需求是否已消退？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "No; registrations still exceed the seats.",
+            "zh": "沒有；報名人數仍超出名額。"
+          },
+          {
+            "id": "b",
+            "en": "The extra class has not removed the demand.",
+            "zh": "增班仍未消除需求。"
+          },
+          {
+            "id": "c",
+            "en": "Demand for evening classes is not going away yet.",
+            "zh": "晚間課程的需求目前不會消失。"
+          },
+          {
+            "id": "d",
+            "en": "The council still needs to plan for more applicants.",
+            "zh": "議會仍需為更多報名者作規劃。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據每週超額報名指出需求仍在。"
+      },
+      "scene": {
+        "promptZh": "某區連續三個月有許多人等候維修，新增一名技工後等候隊伍仍長。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repair backlog is not going away yet.",
+            "zh": "維修積壓目前仍未消失。"
+          },
+          {
+            "id": "b",
+            "en": "The technicians are not walking away from the workshop.",
+            "zh": "技工沒有走離工場。"
+          },
+          {
+            "id": "c",
+            "en": "The backlog has disappeared completely.",
+            "zh": "維修積壓已完全消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "積壓持續，並非已經解決。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把「目前持續」說成「永遠不變」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shortage is not going away this term, so we need a plan.",
+            "zh": "本學期短缺仍會持續，所以我們需要計劃。"
+          },
+          {
+            "id": "b",
+            "en": "The shortage is not going away, so it can never improve.",
+            "zh": "短缺仍會持續，因此永遠不可能改善。"
+          },
+          {
+            "id": "c",
+            "en": "The shortage ended yesterday, but we call it persistent anyway.",
+            "zh": "短缺昨天已結束，但我們仍稱它持續。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語可描述可見的一段時期，不預言永遠。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為 not going away 只指某人不肯離開房間。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A continuing need is not going away simply because one extra class opens.",
+            "zh": "需求持續存在，不會因增開一班課便消失。"
+          },
+          {
+            "id": "b",
+            "en": "Yes; it only describes a person in a room.",
+            "zh": "對；它只描述房間裏的人。"
+          },
+          {
+            "id": "c",
+            "en": "It always means a demand has ended.",
+            "zh": "它一律表示需求已結束。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "抽象需求也可持續而「不消失」。"
+      },
+      "speaking": {
+        "en": "Even after the extra buses arrive, demand for late service is not going away this winter.",
+        "zh": "即使增派巴士抵達，今個冬季對深夜服務的需求仍不會消失。",
+        "promptZh": "指出持續的是哪種需求，以及時間範圍。",
+        "targetSpan": {
+          "start": 62,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區食物銀行增設一個派發時段，但每週排隊人數仍然超出可供應份數。用英文指出需求仍在，並說明需要繼續規劃；不要說它永遠不會減少。",
+        "selfCheckZh": "兩個示範都應寫出新增派發時段、每週需求仍超出供應、須繼續規劃，並避免永久性的斷言。",
+        "examples": [
+          {
+            "en": "The extra distribution slot helps, but weekly demand is not going away: the food bank still needs to plan for more families than it can serve.",
+            "zh": "新增派發時段有幫助，但每週需求仍未消失；食物銀行仍須為多於可服務數目的家庭作規劃。"
+          },
+          {
+            "en": "Although the food bank has added a distribution slot, more families arrive each week than it can serve, so the need is not going away and planning must continue.",
+            "zh": "雖然食物銀行增設派發時段，每週到來的家庭仍多於可服務數目，因此需求仍未消失，規劃也須繼續。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "distribution slot",
+            "zh": "派發時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 27
+            }
+          },
+          {
+            "en": "weekly demand",
+            "zh": "每週需求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 52
+            }
+          },
+          {
+            "en": "food bank",
+            "zh": "食物銀行",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 85
+            }
+          },
+          {
+            "en": "more families",
+            "zh": "更多家庭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 67
+            }
+          },
+          {
+            "en": "planning",
+            "zh": "規劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 138,
+              "end": 146
+            }
+          },
+          {
+            "en": "continue",
+            "zh": "繼續",
+            "exampleIndex": 1,
+            "span": {
+              "start": 152,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Not going away marks a need or issue that persists for now.",
+          "zh": "not going away 表示需要或問題目前仍在。"
+        },
+        {
+          "en": "A problem that is not going away now can still improve later.",
+          "zh": "目前仍未消失的問題將來仍可能改善。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4529",
+      "number": 4529,
+      "inventoryId": "expr-4529",
+      "titleEn": "leave people stranded",
+      "titleZh": "使人受困無援",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving)\\s+(?:[\\w-]+\\s+){0,3}stranded\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Put travellers in a place or situation with no workable way to continue or return.",
+        "meaningZh": "令旅客缺乏可行的接駁或回程方法而受困。",
+        "grammar": "Leave + person/object + stranded; passive: passengers were left stranded. The travel context should establish lack of a usable connection.",
+        "register": "Neutral news and service-planning language; a station manager briefs passengers after a cancellation.",
+        "boundaryZh": "重點是沒有可行接駁或回程；單純晚到幾分鐘不一定構成受困。",
+        "misconceptionZh": "stranded 不只是「站著」，也不必指身處荒島。",
+        "outcomeZh": "能根據是否仍有可行路線判斷受困。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2418",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 228,
+          "book": 16,
+          "question": 37,
+          "sample": "S2",
+          "sourceBookPages": "90–91",
+          "locatorNote": "DOCX table 252, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An expensive route can leave people stranded.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave people stranded"
+        }
+      ],
+      "listening": {
+        "en": "The last ferry was cancelled after the bridge closed, leaving island residents stranded overnight.",
+        "zh": "橋樑關閉後尾班渡輪取消，令島上居民整晚受困，無法離開。",
+        "promptZh": "stranded 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They had no workable way off the island that night.",
+            "zh": "當晚他們沒有可行方法離開島嶼。"
+          },
+          {
+            "id": "b",
+            "en": "They chose to stand on the pier.",
+            "zh": "他們選擇站在碼頭。"
+          },
+          {
+            "id": "c",
+            "en": "The ferry arrived only five minutes late.",
+            "zh": "渡輪只遲到了五分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "A replacement boat took everyone immediately.",
+            "zh": "替代船隻立即接走所有人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "橋封、尾班渡輪取消，當晚沒有可行離島途徑。"
+      },
+      "reply": {
+        "promptEn": "A shuttle to the hill clinic will stop at 5 p.m. The last scheduled clinic visits end at 6, and no other public route reaches the site. What is the risk?",
+        "promptZh": "（前往山上診所的接駁車會在下午五時停駛，最後一輪預約六時才結束，而且沒有其他公共路線可到達。風險是甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Patients may have no way to travel back.",
+            "zh": "病人可能沒有方法返回。"
+          },
+          {
+            "id": "b",
+            "en": "The timetable leaves late patients without a return route.",
+            "zh": "時間表令晚離開的病人沒有回程路線。"
+          },
+          {
+            "id": "c",
+            "en": "Ending the shuttle early could leave patients stranded.",
+            "zh": "接駁車提早停駛可能令病人受困。"
+          },
+          {
+            "id": "d",
+            "en": "The clinic needs a later return connection.",
+            "zh": "診所需要較晚的回程接駁。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據接駁時差指出回程風險。"
+      },
+      "scene": {
+        "promptZh": "演唱會後最後一班列車取消，主辦方沒有安排巴士，場地離市區很遠。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cancellation left concertgoers stranded.",
+            "zh": "列車取消令觀眾受困，無法離開。"
+          },
+          {
+            "id": "b",
+            "en": "The concertgoers merely stood beside the station.",
+            "zh": "觀眾只是站在車站旁。"
+          },
+          {
+            "id": "c",
+            "en": "A replacement train took them home immediately.",
+            "zh": "替代列車立即送他們回家。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺乏回程方式是關鍵。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能保留 stranded 的判斷界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bus was ten minutes late, but a working train was available; passengers were inconvenienced, not stranded.",
+            "zh": "巴士晚了十分鐘，但仍有列車可乘；乘客不便，卻未至於受困。"
+          },
+          {
+            "id": "b",
+            "en": "Any small delay automatically leaves everyone stranded.",
+            "zh": "任何短暫延誤都一定令所有人受困。"
+          },
+          {
+            "id": "c",
+            "en": "Passengers had no route home, but stranded cannot describe them.",
+            "zh": "乘客沒有回家路線，但受困一詞不能描述他們。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有可行替代路線時，短暫延誤不等同受困。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 stranded 必須在荒島才可用。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cancelled last bus can leave travellers stranded without a route home.",
+            "zh": "尾班巴士取消也可令旅客沒有回程路線而受困。"
+          },
+          {
+            "id": "b",
+            "en": "Yes; only people on deserted islands can be stranded.",
+            "zh": "對；只有荒島上的人才會受困。"
+          },
+          {
+            "id": "c",
+            "en": "It means travellers decide to stand still.",
+            "zh": "它表示旅客決定站著不動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "交通中斷也可令旅客受困。"
+      },
+      "speaking": {
+        "en": "If the night coach stops before the concert ends, it could leave rural visitors stranded without a return bus.",
+        "zh": "若夜間長途巴士在演唱會結束前停駛，郊區訪客可能因沒有回程巴士而受困。",
+        "promptZh": "指出造成受困的時間安排。",
+        "targetSpan": {
+          "start": 59,
+          "end": 88
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：海邊科學中心晚上九時閉館，唯一的公共巴士八時半已開走；中心尚未安排替代接駁。用英文指出晚離開的訪客會受困，並提出接駁需要。",
+        "selfCheckZh": "兩個示範都要寫出閉館與尾班巴士時間、沒有替代接駁、晚離開訪客的風險，以及需要安排回程。",
+        "examples": [
+          {
+            "en": "The science centre closes at nine, but the last public bus leaves at eight thirty. Without an alternative, this could leave late visitors stranded; the centre needs a return shuttle.",
+            "zh": "科學中心九時閉館，但尾班公共巴士八時半已開走。沒有替代安排會令晚離開的訪客受困；中心需要回程接駁車。"
+          },
+          {
+            "en": "Late visitors would be left stranded if the centre closed at nine after the eight-thirty bus had gone. Since no replacement exists, a return connection is needed.",
+            "zh": "中心九時閉館，而八時半巴士已開走，晚離開的訪客便會受困。既然沒有替代安排，就需要回程接駁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "science centre",
+            "zh": "科學中心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "last public bus",
+            "zh": "尾班公共巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 58
+            }
+          },
+          {
+            "en": "return shuttle",
+            "zh": "回程接駁車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 181
+            }
+          },
+          {
+            "en": "Late visitors",
+            "zh": "晚離開的訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "replacement",
+            "zh": "替代安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 123
+            }
+          },
+          {
+            "en": "return connection",
+            "zh": "回程接駁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave someone stranded means no workable onward or return route.",
+          "zh": "leave someone stranded 指使人沒有可行的續程或回程路線。"
+        },
+        {
+          "en": "A delay alone may not leave someone stranded if a practical alternative remains.",
+          "zh": "若仍有實際可行的替代方法，單純延誤未必令旅客受困。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4533",
+      "number": 4533,
+      "inventoryId": "expr-4533",
+      "titleEn": "enter the picture",
+      "titleZh": "成為局面的一部分",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:enter|enters|entered|entering)\\s+the\\s+picture\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become part of a situation or begin to influence it.",
+        "meaningZh": "某人或事物加入局面，開始影響情況。",
+        "grammar": "X enters/entered the picture; subject X is the new factor. Tense marks when it became relevant.",
+        "register": "Neutral narrative explanation; a project lead tells a team how a new partner changed its planning.",
+        "boundaryZh": "重點是新因素開始參與或影響局面，不是進入一張相片。",
+        "misconceptionZh": "不能把早已一直存在的因素說成剛剛 entered the picture，除非是它的作用剛開始。",
+        "outcomeZh": "能按時間線指出新因素何時成為局面的一部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2422",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "92–93",
+          "locatorNote": "DOCX table 253, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Ride-hailing services have entered the picture.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "entered the picture"
+        }
+      ],
+      "listening": {
+        "en": "The repairs were simple until a hidden pipe entered the picture and changed the cost estimate.",
+        "zh": "維修本來簡單，直到一條隱藏水管成為新因素，改變了費用估算。",
+        "promptZh": "entered the picture 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A newly discovered factor affected the plan.",
+            "zh": "新發現的因素影響了計劃。"
+          },
+          {
+            "id": "b",
+            "en": "Someone put a pipe into a photograph.",
+            "zh": "有人把水管放進照片裏。"
+          },
+          {
+            "id": "c",
+            "en": "The estimate stayed unchanged.",
+            "zh": "估算完全沒有改變。"
+          },
+          {
+            "id": "d",
+            "en": "The pipe had been the stated focus from the beginning.",
+            "zh": "水管從一開始就是已說明的焦點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隱藏水管出現後，費用估算隨之改變。"
+      },
+      "reply": {
+        "promptEn": "A small bookshop planned a poetry night on its own. Then a nearby café offered its upstairs room, giving the organisers twice the seating. What changed?",
+        "promptZh": "（小書店原本獨自籌辦詩歌晚會。後來附近咖啡店提供樓上房間，座位數因此增加一倍。發生了甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The café became a new partner in the plan.",
+            "zh": "咖啡店成為計劃的新合作夥伴。"
+          },
+          {
+            "id": "b",
+            "en": "The offer changed how many guests they could host.",
+            "zh": "這個提議改變了可接待的賓客數目。"
+          },
+          {
+            "id": "c",
+            "en": "Once the café entered the picture, the event could seat more people.",
+            "zh": "咖啡店加入後，活動可容納更多人。"
+          },
+          {
+            "id": "d",
+            "en": "The organisers gained an additional venue.",
+            "zh": "主辦者多了一個場地。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出咖啡店後來加入並帶來新場地。"
+      },
+      "scene": {
+        "promptZh": "小組原本只比較兩款海報設計，後來贊助人提出必須加入多語言版本，討論方向因此改變。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A language requirement entered the picture and changed the design discussion.",
+            "zh": "多語言要求成為新因素，改變了設計討論。"
+          },
+          {
+            "id": "b",
+            "en": "The requirement was already the only topic from the start.",
+            "zh": "這項要求從開始就是唯一議題。"
+          },
+          {
+            "id": "c",
+            "en": "A poster literally entered a printed picture.",
+            "zh": "一張海報真的進入印製的圖片裏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新的要求後來才影響討論。"
+      },
+      "contrast": {
+        "promptZh": "哪句最清楚表現新因素的時間順序？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The budget was settled first; a safety rule entered the picture later and forced a revision.",
+            "zh": "預算先定妥；其後新安全規定加入局面，令計劃須修改。"
+          },
+          {
+            "id": "b",
+            "en": "The safety rule was the sole factor from day one, so it entered the picture for the first time today.",
+            "zh": "安全規定從第一天就是唯一因素，卻說今天才首次加入局面。"
+          },
+          {
+            "id": "c",
+            "en": "A painter added a rule to a drawing, so the rule entered the picture literally.",
+            "zh": "畫家在畫中加入規定，因此規定真的進入圖畫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先後次序支持新因素後來影響計劃。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 entered the picture 只可用於攝影。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new sponsor entered the picture after the first budget meeting.",
+            "zh": "第一次預算會議後，新贊助者加入局面。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it only names a photograph.",
+            "zh": "對，它只指照片。"
+          },
+          {
+            "id": "c",
+            "en": "It means a factor has disappeared from the situation.",
+            "zh": "它表示某因素已從局面消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "贊助者後來加入計劃，是抽象用法。"
+      },
+      "speaking": {
+        "en": "The project was nearly ready when a new safety requirement entered the picture, so the team revised the launch date.",
+        "zh": "項目原本快準備好了，但新安全要求加入局面，團隊因此修改推出日期。",
+        "promptZh": "指出新因素，以及它改變了甚麼。",
+        "targetSpan": {
+          "start": 59,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區菜園原本按舊水費預算。之後業主提出新的節水規定，義工須修改種植時間。用英文指出規定後來加入並帶來改動。",
+        "selfCheckZh": "兩個示範都應寫出原本按舊水費預算、新節水規定後來出現、義工修改種植時間。",
+        "examples": [
+          {
+            "en": "The garden had budgeted under the old water charge, but a new saving rule entered the picture and volunteers had to revise the planting schedule.",
+            "zh": "菜園原本按舊水費編預算，但新的節水規定加入局面，義工須修改種植時間。"
+          },
+          {
+            "en": "Volunteers planned around the old water charge. When the landlord’s new saving rule entered the picture, they changed the planting timetable.",
+            "zh": "義工原本按舊水費規劃；當業主的新節水規定加入局面，他們便更改種植時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "old water charge",
+            "zh": "舊水費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 50
+            }
+          },
+          {
+            "en": "volunteers",
+            "zh": "義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 108
+            }
+          },
+          {
+            "en": "planting schedule",
+            "zh": "種植時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 144
+            }
+          },
+          {
+            "en": "landlord’s",
+            "zh": "業主的",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 67
+            }
+          },
+          {
+            "en": "saving rule",
+            "zh": "節水規定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 83
+            }
+          },
+          {
+            "en": "planting timetable",
+            "zh": "種植時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Enter the picture marks a new factor joining a situation.",
+          "zh": "enter the picture 表示新因素加入局面。"
+        },
+        {
+          "en": "When a constraint entered the picture, earlier plans may need revision.",
+          "zh": "限制因素加入後，早前計劃可能須修改。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4535",
+      "number": 4535,
+      "inventoryId": "expr-4535",
+      "titleEn": "piece a journey together",
+      "titleZh": "拼湊可行路線",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:piece|pieces|pieced|piecing)\\s+(?:(?:[\\w’\\'-]+\\s+){1,5})?together\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Assemble separate pieces of information or travel legs into a workable whole.",
+        "meaningZh": "把分散的資料或路段拼合成可行的整體。",
+        "grammar": "Piece X together / piece together X; object X can be a journey, account or plan. In the source, travellers combine several apps into one trip.",
+        "register": "Neutral explanatory language; a traveller describes to a friend how she assembled a route from separate sources.",
+        "boundaryZh": "要有分散部分及拼合的過程；只有一條現成路線不需「拼湊」。",
+        "misconceptionZh": "不是把紙本拼圖黏起來，也不表示資料一定完整無缺。",
+        "outcomeZh": "能指出各部分如何合成一條可行路線或一個理解。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2424",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "92–93",
+          "locatorNote": "DOCX table 253, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Commuters piece their journeys together using several apps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piece their journeys together"
+        }
+      ],
+      "listening": {
+        "en": "With no single timetable, Lena pieced the route together from a train notice and a ferry board.",
+        "zh": "沒有統一時間表，Lena 從列車通告及渡輪告示拼湊出路線。",
+        "promptZh": "pieced the route together 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She combined separate details into a route.",
+            "zh": "她把分散資料合成路線。"
+          },
+          {
+            "id": "b",
+            "en": "She broke a map into paper pieces.",
+            "zh": "她把地圖撕成碎紙。"
+          },
+          {
+            "id": "c",
+            "en": "One complete schedule gave her everything.",
+            "zh": "一份完整時間表已提供所有資料。"
+          },
+          {
+            "id": "d",
+            "en": "She abandoned travel planning.",
+            "zh": "她放棄規劃行程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "列車和渡輪資訊分散，需要合併。"
+      },
+      "reply": {
+        "promptEn": "A nurse is travelling between two rural clinics. One app shows the morning bus, another lists the ferry, and a posted notice gives the last shuttle. No source shows the complete trip. What is she doing?",
+        "promptZh": "（護士要往返兩所鄉村診所。一個程式列早班巴士，另一個列渡輪，張貼通告則列出尾班接駁車；沒有單一來源顯示全程。她正在做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is combining several travel legs.",
+            "zh": "她正把數段交通路線合起來。"
+          },
+          {
+            "id": "b",
+            "en": "She is building one itinerary from scattered notices.",
+            "zh": "她正從分散通告組合行程。"
+          },
+          {
+            "id": "c",
+            "en": "She is piecing her journey together from three sources.",
+            "zh": "她正從三個來源拼湊行程。"
+          },
+          {
+            "id": "d",
+            "en": "She needs the three sources to see the full trip.",
+            "zh": "她需要三個來源才能看清全程。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述把分散資料組成全程。"
+      },
+      "scene": {
+        "promptZh": "考古隊從三本舊日記的日期與地點重建一次遠征，沒有單一完整紀錄。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They pieced the expedition together from separate diaries.",
+            "zh": "他們從分散日記拼湊出那次遠征。"
+          },
+          {
+            "id": "b",
+            "en": "They followed one complete record without comparing sources.",
+            "zh": "他們只按一份完整紀錄，沒有比較來源。"
+          },
+          {
+            "id": "c",
+            "en": "They glued the diaries into a physical puzzle.",
+            "zh": "他們把日記黏成實體拼圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "分散線索可拼合成較完整的經過。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能顯示「拼合分散部分」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team pieced the schedule together from separate venue emails.",
+            "zh": "團隊從不同場地的電郵拼湊時間表。"
+          },
+          {
+            "id": "b",
+            "en": "The complete schedule was handed to the team, so they pieced together nothing.",
+            "zh": "完整時間表已交給團隊，因此毋須拼合。"
+          },
+          {
+            "id": "c",
+            "en": "The team cut the schedule into pieces for decoration.",
+            "zh": "團隊把時間表剪碎作裝飾。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同電郵提供各部分，需合成整體。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 piece together 只表示資料毫無遺漏。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can piece a provisional account together from partial reports, then check gaps.",
+            "zh": "我們可從部分報告暫時拼湊經過，再核對缺漏。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it guarantees every detail is known.",
+            "zh": "對，它保證所有細節已知。"
+          },
+          {
+            "id": "c",
+            "en": "It means we must ignore every partial report.",
+            "zh": "它表示必須忽略所有部分報告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "拼湊不保證沒有空缺。"
+      },
+      "speaking": {
+        "en": "I pieced my weekend route together from the rail update, the local bus board and a hotel notice.",
+        "zh": "我從鐵路更新、當地巴士告示及酒店通告拼湊出週末路線。",
+        "promptZh": "指出三項分散資料來源。",
+        "targetSpan": {
+          "start": 2,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校想安排參觀天文台，但列車時刻、步行封路通知和場地開放時間分散在三個來源。職員把它們合成一份可行行程，仍會核對缺口。用英文說明。",
+        "selfCheckZh": "兩個示範都應提及三類分散資訊、合成可行行程，並表明仍會核對缺口。",
+        "examples": [
+          {
+            "en": "Staff pieced the observatory trip together from the train times, road-closure notice and opening hours, then checked the remaining gaps.",
+            "zh": "職員從列車時刻、封路通知及開放時間拼湊天文台行程，然後核對餘下缺口。"
+          },
+          {
+            "en": "The school pieced together a workable observatory visit using train times, walking-route changes and the site’s opening hours, while checking for missing connections.",
+            "zh": "學校利用列車時刻、步行路線改動及場地開放時間，拼湊出可行的天文台參觀行程，並核對有否遺漏接駁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "train times",
+            "zh": "列車時刻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 63
+            }
+          },
+          {
+            "en": "road-closure notice",
+            "zh": "封路通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 84
+            }
+          },
+          {
+            "en": "remaining gaps",
+            "zh": "餘下缺口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 135
+            }
+          },
+          {
+            "en": "site’s opening hours",
+            "zh": "場地開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 125
+            }
+          },
+          {
+            "en": "walking-route changes",
+            "zh": "步行路線改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 96
+            }
+          },
+          {
+            "en": "missing connections",
+            "zh": "遺漏接駁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 146,
+              "end": 165
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Piece X together combines separate parts into a workable whole.",
+          "zh": "piece X together 把分散部分拼合成可行整體。"
+        },
+        {
+          "en": "You can piece together an account without claiming every gap is closed.",
+          "zh": "可以拼湊出經過，而毋須聲稱所有缺口都已填補。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4538",
+      "number": 4538,
+      "inventoryId": "expr-4538",
+      "titleEn": "joined-up",
+      "titleZh": "協調連貫",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bjoined[- ]up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Well connected and coordinated across parts of a service or plan, especially in British English.",
+        "meaningZh": "服務或計劃各部分互相連接、協調連貫；常見於英式英語。",
+        "grammar": "Joined-up is an attributive or predicative adjective: a joined-up service / the service is joined-up; more joined-up compares degrees of coordination.",
+        "register": "Neutral British English policy language; a clinic coordinator explains integrated appointment systems to staff.",
+        "boundaryZh": "不只是把實體東西接在一起；重點是使用者跨環節的服務連貫。",
+        "misconceptionZh": "拼寫通常保留連字號；各部門各自運作而互不傳遞資訊時，不算 joined-up。",
+        "outcomeZh": "能根據跨環節協調證據判斷服務是否連貫。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2427",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The rail network is more joined-up after the extension.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more joined-up"
+        }
+      ],
+      "listening": {
+        "en": "The clinic now shares appointment notes with its pharmacy, so patients no longer repeat their details; care is more joined-up.",
+        "zh": "診所現在與藥房共用預約備註，病人毋須重複資料；服務更協調連貫。",
+        "promptZh": "more joined-up 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two services coordinate better for patients.",
+            "zh": "兩項服務為病人更好地協調。"
+          },
+          {
+            "id": "b",
+            "en": "Staff physically join two buildings.",
+            "zh": "職員把兩幢樓實際接起來。"
+          },
+          {
+            "id": "c",
+            "en": "Patients must enter their details twice.",
+            "zh": "病人必須兩次輸入資料。"
+          },
+          {
+            "id": "d",
+            "en": "The pharmacy stops receiving information.",
+            "zh": "藥房不再收到資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共享資料減少重複，是跨服務協調。"
+      },
+      "reply": {
+        "promptEn": "A student books a library study room online. The desk staff immediately see the booking and the access code arrives in the same account. How would you describe the new process?",
+        "promptZh": "（學生網上預約圖書館自修室，櫃檯職員即時看到預約，門禁碼亦送到同一帳戶。如何描述新流程？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The booking and access steps now connect.",
+            "zh": "預約及進入步驟現在互相連接。"
+          },
+          {
+            "id": "b",
+            "en": "Staff and students share the same booking information.",
+            "zh": "職員與學生看到相同預約資訊。"
+          },
+          {
+            "id": "c",
+            "en": "The process is more joined-up for users.",
+            "zh": "對使用者而言，流程更協調連貫。"
+          },
+          {
+            "id": "d",
+            "en": "The student no longer has to repeat the booking at the desk.",
+            "zh": "學生不必再於櫃檯重複預約。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據預約、櫃檯、門禁環節的銜接作答。"
+      },
+      "scene": {
+        "promptZh": "社區中心的活動報名、付款與場地確認已連到同一系統，無須每步重新輸入姓名。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The registration process is more joined-up.",
+            "zh": "報名流程更協調連貫。"
+          },
+          {
+            "id": "b",
+            "en": "The centre has joined its desks with glue.",
+            "zh": "中心用膠水黏合櫃檯。"
+          },
+          {
+            "id": "c",
+            "en": "Each step still has no record of the previous one.",
+            "zh": "每個步驟仍看不到上一步資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資料在各步驟銜接。"
+      },
+      "contrast": {
+        "promptZh": "哪句最有證據支持 joined-up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Bus and rail apps now share disruption alerts, making the trip planner more joined-up.",
+            "zh": "巴士與鐵路程式現在共用受阻通知，令行程規劃更連貫。"
+          },
+          {
+            "id": "b",
+            "en": "Each transport app hides the other service’s timetable, so the system is joined-up.",
+            "zh": "各交通程式都隱藏其他服務時間表，因此系統很連貫。"
+          },
+          {
+            "id": "c",
+            "en": "A bridge links two stations physically; no information or service is coordinated.",
+            "zh": "橋樑把兩站實際連起，但資訊或服務沒有協調。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跨交通服務共享通知是協調證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為 joined-up 只描述接駁兩根水管。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A joined-up plan connects the work of different teams.",
+            "zh": "協調連貫的計劃能銜接不同團隊的工作。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it only describes plumbing.",
+            "zh": "對，它只描述水管。"
+          },
+          {
+            "id": "c",
+            "en": "It means every team works in isolation.",
+            "zh": "它表示每個團隊各自孤立工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "抽象服務與計劃也可協調連貫。"
+      },
+      "speaking": {
+        "en": "The housing team and repair desk now share case updates, giving residents a more joined-up service.",
+        "zh": "房屋團隊與維修櫃檯現在共用個案更新，為居民提供更協調連貫的服務。",
+        "promptZh": "指出哪兩個部門的資訊開始銜接。",
+        "targetSpan": {
+          "start": 76,
+          "end": 90
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：大學的學生輔導預約、轉介和跟進原先分散；新系統讓三個環節共用進度，學生毋須重複講述問題。用英文評估新服務。",
+        "selfCheckZh": "兩個示範都應寫出預約、轉介、跟進三環節共用進度，以及學生毋須重複說明。",
+        "examples": [
+          {
+            "en": "The university now has a more joined-up support service: booking, referral and follow-up share progress, so students do not have to repeat their story.",
+            "zh": "大學的支援服務現在更協調連貫：預約、轉介和跟進共用進度，學生毋須重複講述自己的情況。"
+          },
+          {
+            "en": "By linking bookings, referrals and follow-ups in one record, the university offers joined-up support without making students explain the same issue again.",
+            "zh": "大學把預約、轉介與跟進連到同一紀錄，提供協調連貫的支援，學生毋須再次解釋相同問題。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "support service",
+            "zh": "支援服務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 55
+            }
+          },
+          {
+            "en": "referral",
+            "zh": "轉介",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 74
+            }
+          },
+          {
+            "en": "repeat their story",
+            "zh": "重複講述自己的情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 150
+            }
+          },
+          {
+            "en": "one record",
+            "zh": "同一紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "follow-ups",
+            "zh": "跟進",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 45
+            }
+          },
+          {
+            "en": "the same issue",
+            "zh": "相同問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Joined-up describes coordination across connected parts.",
+          "zh": "joined-up 描述多個環節互相協調。"
+        },
+        {
+          "en": "A more joined-up service reduces needless repetition for users.",
+          "zh": "更協調連貫的服務可減少使用者不必要的重複。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4540",
+      "number": 4540,
+      "inventoryId": "expr-4540",
+      "titleEn": "take the friction out of",
+      "titleZh": "減少繁瑣阻力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taking)\\s+(?:some\\s+of\\s+)?the\\s+friction\\s+out\\s+of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remove small hassles or points of resistance from a process.",
+        "meaningZh": "減少流程中的小麻煩或阻力，讓事情更順暢。",
+        "grammar": "Take the friction out of + noun/gerund; subject is a change or tool, object names the affected process. May say take some of the friction out of.",
+        "register": "Neutral product or service explanation; a school administrator describes a smoother form process to parents.",
+        "boundaryZh": "表示減少繁瑣環節，不必聲稱所有問題或成本完全消失。",
+        "misconceptionZh": "不是物理摩擦；一項功能若只改外觀而不改善流程，不宜如此形容。",
+        "outcomeZh": "能指出具體減少了哪一步麻煩。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2429",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 229,
+          "book": 16,
+          "question": 39,
+          "sample": "S2",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 254, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Digital tickets take the friction out of daily travel.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the friction out of daily travel"
+        }
+      ],
+      "listening": {
+        "en": "One shared login takes the friction out of renewing a library card because readers no longer fill in the same form twice.",
+        "zh": "單一共用登入減少續領圖書證的繁瑣，因為讀者不必重複填寫同一表格。",
+        "promptZh": "takes the friction out of 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It removes a repeated step from the process.",
+            "zh": "它減少流程中重複的一步。"
+          },
+          {
+            "id": "b",
+            "en": "It polishes the card to make it slippery.",
+            "zh": "它把圖書證擦滑。"
+          },
+          {
+            "id": "c",
+            "en": "It removes every possible cost of borrowing.",
+            "zh": "它消除借書的一切可能成本。"
+          },
+          {
+            "id": "d",
+            "en": "It merely changes the website colour.",
+            "zh": "它只更改網站顏色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用登入免卻重填表格，是流程改善。"
+      },
+      "reply": {
+        "promptEn": "Parents used to enter the same child details on three school trip forms. A new form fills those details once for all three sections. What does it do?",
+        "promptZh": "（家長以前須在三份學校旅行表格重複輸入子女資料；新表格一次填寫便帶入三個部分。它有甚麼作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It saves parents from repeating the same entry.",
+            "zh": "它免卻家長重複輸入相同資料。"
+          },
+          {
+            "id": "b",
+            "en": "It removes a small but real hassle.",
+            "zh": "它減少一項雖小但實在的麻煩。"
+          },
+          {
+            "id": "c",
+            "en": "It takes the friction out of trip registration.",
+            "zh": "它減少旅行報名的繁瑣阻力。"
+          },
+          {
+            "id": "d",
+            "en": "It makes the registration steps smoother.",
+            "zh": "它令報名步驟更順暢。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述免重複填寫帶來的流程改善。"
+      },
+      "scene": {
+        "promptZh": "診所新系統自動帶入已核實的地址，病人毋須每次手寫同一資料。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It takes the friction out of repeat appointments.",
+            "zh": "它減少覆診流程的繁瑣。"
+          },
+          {
+            "id": "b",
+            "en": "It physically removes friction from the clinic floor.",
+            "zh": "它實際消除診所地面的摩擦。"
+          },
+          {
+            "id": "c",
+            "en": "It only changes the font and leaves all steps unchanged.",
+            "zh": "它只改字體，所有步驟不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "自動帶入資料減少重複步驟。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有誇稱「一切問題已解決」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shortcut takes some of the friction out of booking, though payment still needs work.",
+            "zh": "捷徑減少部分預約麻煩，付款環節仍待改善。"
+          },
+          {
+            "id": "b",
+            "en": "The shortcut takes the friction out of booking, so no user can ever have a problem.",
+            "zh": "捷徑減少預約麻煩，因此使用者永遠不會有問題。"
+          },
+          {
+            "id": "c",
+            "en": "The shortcut changes a colour only, yet it removes a repeated form.",
+            "zh": "捷徑只改顏色，卻說免卻重複表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語可指部分阻力減少，不代表完美。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為 friction 在這裏必須涉及輪胎或地板。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A single payment screen can take the friction out of renewing a pass.",
+            "zh": "單一付款頁面可減少續證的繁瑣。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, only moving objects have friction.",
+            "zh": "對，只有移動物件才有摩擦。"
+          },
+          {
+            "id": "c",
+            "en": "It means a service deliberately adds more steps.",
+            "zh": "它表示服務刻意增加步驟。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "friction 可比喻流程中惱人的阻礙。"
+      },
+      "speaking": {
+        "en": "The new receipt scanner takes the friction out of expense claims by reading the date and amount automatically.",
+        "zh": "新收據掃描器自動讀取日期和金額，減少報銷申請的繁瑣。",
+        "promptZh": "指出被省去的手動輸入工作。",
+        "targetSpan": {
+          "start": 24,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區泳池的網上續證原本要求會員每次重新輸入姓名與會員號碼；更新後資料會安全帶入，但付款仍需手動完成。用英文說明改善及界線。",
+        "selfCheckZh": "兩個示範都應寫出姓名與會員號碼不用重填、續證更順暢，但付款仍須手動完成。",
+        "examples": [
+          {
+            "en": "Secure autofill takes some of the friction out of pool-pass renewal by saving members from retyping their names and numbers, although payment still needs a manual step.",
+            "zh": "安全自動填入功能免卻會員重輸姓名和會員號碼，減少泳池續證的繁瑣，但付款仍須手動完成。"
+          },
+          {
+            "en": "The renewal page now brings in a member’s name and number safely, taking the friction out of repeated data entry; members still complete payment themselves.",
+            "zh": "續證頁面現在安全帶入會員姓名及號碼，減少重複輸入資料的繁瑣；會員仍須自行完成付款。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Secure autofill",
+            "zh": "安全自動填入功能",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "pool-pass renewal",
+            "zh": "泳池續證",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 67
+            }
+          },
+          {
+            "en": "manual step",
+            "zh": "手動步驟",
+            "exampleIndex": 0,
+            "span": {
+              "start": 156,
+              "end": 167
+            }
+          },
+          {
+            "en": "renewal page",
+            "zh": "續證頁面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "repeated data entry",
+            "zh": "重複輸入資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 112
+            }
+          },
+          {
+            "en": "complete payment",
+            "zh": "完成付款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 144
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Take the friction out of names a process made easier.",
+          "zh": "take the friction out of 指流程變得更順暢。"
+        },
+        {
+          "en": "Taking some of the friction out of a task does not remove every step.",
+          "zh": "減少部分繁瑣不等於消除每個步驟。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

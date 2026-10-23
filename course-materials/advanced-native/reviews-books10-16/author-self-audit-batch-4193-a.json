@@ -1,0 +1,48 @@
+{
+  "auditKind": "author-self-audit-unselected-one",
+  "createdUtc": "2026-10-23T15:48:25.439510+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-4193-a.json",
+  "draftSha256": "0e38af0bd889898112a9b539701ab04de7d8ace85b2b2b9b84e014b5bf32b06c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "e5a23c2ab82539464e5da19e67e1636bc5bd3190a03b401e374ecd564be8dd4f",
+  "focusedBuildAndCheck": "PASS: 1 lesson, 6 questions, 4 audio requests, 0 review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 25,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 0
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "semanticNotes": {
+    "4193": "Critical-time pressure, not literal temperature; scenes state deadlines and checked response.",
+    "4194": "Retired duplicate draft; source reclassified as alias-existing of canonical 491 after same-sense review."
+  },
+  "wholeVerifier": "PASS for currently selected catalogue; this file is unselected",
+  "allDiscoveredAliasAudit": "PASS: 158 alias-new rows, zero all-discovered exceptions after separate owner updates",
+  "selectedOrPublished": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "number": 4193,
+      "sourceId": "book10-16-2082",
+      "expression": "when the heat is on",
+      "sourceExample": "Good leaders remain clear when the heat is on.",
+      "contentRevision": 2,
+      "fourRepliesTargetExactlyOnce": true,
+      "targetSceneAndDialogue": true,
+      "TraditionalChineseQuestionPrompts": true,
+      "twoTargetWritingModels": true,
+      "glossaryExactSpans": 5,
+      "fourAudioRolesUnder240": true,
+      "sourceProvenanceExact": true,
+      "independentEditorialReview": "pending"
+    }
+  ]
+}

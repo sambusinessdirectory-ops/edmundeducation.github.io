@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4004",
+      "number": 4004,
+      "inventoryId": "expr-4004",
+      "titleEn": "get out of their own head",
+      "titleZh": "跳出自我糾結",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) out of (?:my|your|his|her|our|their) own head\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stop dwelling on one’s own thoughts or self-conscious worries and attend to people or the task at hand.",
+        "meaningZh": "暫時走出對自己想法或顧慮的反覆糾結，把注意力轉向眼前的人或事情。",
+        "grammar": "Get out of + possessive + own head; get inflects, and the possessive follows the person concerned. It does not mean physical movement.",
+        "register": "Conversational and supportive. A mentor might say it to a nervous volunteer before a public activity.",
+        "boundaryZh": "並非叫人完全不思考；重點是停止過度自我關注，轉而投入眼前的互動或任務。",
+        "misconceptionZh": "不是頭部真的移動，也不等同強迫人忽略真正需要處理的焦慮。",
+        "outcomeZh": "能指出自我糾結的線索及轉向外界的具體行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1893",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 179,
+          "book": 15,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "34–36",
+          "locatorNote": "DOCX table 193, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Team sports help students get out of their own head.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get out of their own head"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Nadia kept rehearsing how she might sound at the residents’ meeting. When she began asking neighbours what they needed, she got out of her own head and heard two concerns she had missed.",
+        "zh": "娜迪婭一直反覆揣想自己在居民會議上說話會如何被看待。她開始問鄰居需要甚麼後，便跳出自我糾結，聽到了之前忽略的兩項關注。",
+        "promptZh": "她的注意力如何轉變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She stopped dwelling on her performance and listened to neighbours.",
+            "zh": "她不再只顧自己的表現，轉而聆聽鄰居。"
+          },
+          {
+            "id": "b",
+            "en": "She became more confident because she had memorised the opening.",
+            "zh": "她因背熟開場白而變得更有自信。"
+          },
+          {
+            "id": "c",
+            "en": "She learned the neighbours’ concerns by reviewing her own notes.",
+            "zh": "她透過重看自己的筆記得知鄰居的關注。"
+          },
+          {
+            "id": "d",
+            "en": "She spoke more smoothly once the chair shortened her time.",
+            "zh": "主席縮短她的發言時間後，她說得更流暢。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由擔心自身表現轉向聽取別人需要，是此語的核心。"
+      },
+      "reply": {
+        "promptEn": "A young guide worries all morning about making a mistake. During the museum tour, she starts asking visitors what interests them and responds to their answers. What helped her?",
+        "promptZh": "（一位年輕導賞員整個早上擔心自己犯錯。博物館導賞期間，她開始問參觀者對甚麼感興趣，並回應他們。甚麼幫助了她？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She paid attention to the visitors’ interests.",
+            "zh": "她留意參觀者的興趣。"
+          },
+          {
+            "id": "b",
+            "en": "Responding to visitors shifted her focus away from herself.",
+            "zh": "回應參觀者令她不再只顧自己。"
+          },
+          {
+            "id": "c",
+            "en": "She got out of her own head by engaging with the visitors.",
+            "zh": "她投入與參觀者交流，跳出自我糾結。"
+          },
+          {
+            "id": "d",
+            "en": "The tour gave her a concrete task to concentrate on.",
+            "zh": "導賞給她一項可專注的具體任務。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據她由自我擔憂轉向參觀者；金句自然使用目標語。"
+      },
+      "scene": {
+        "promptZh": "排練時，主持人一直想自己會否出醜；正式活動開始後，他專心聽嘉賓回答並追問相關問題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He got out of his own head and focused on the guests.",
+            "zh": "他跳出自我糾結，專心與嘉賓交流。"
+          },
+          {
+            "id": "b",
+            "en": "He delivered the prepared questions without responding to the guests.",
+            "zh": "他照讀準備好的問題，沒有回應嘉賓。"
+          },
+          {
+            "id": "c",
+            "en": "He concentrated on whether his voice sounded polished throughout.",
+            "zh": "他始終只顧自己的聲音是否動聽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主持人把注意力由自己的形象轉向嘉賓。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不支持說 someone got out of their own head？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She notices her partner’s answers but still spends the exchange judging how she herself sounds.",
+            "zh": "她聽到對方的回答，卻仍主要在意自己說話聽來如何。"
+          },
+          {
+            "id": "b",
+            "en": "She stops worrying about applause and listens to a participant’s concern.",
+            "zh": "她不再擔心掌聲，轉而聆聽參加者的關注。"
+          },
+          {
+            "id": "c",
+            "en": "She directs her attention to the shared puzzle rather than how clever she appears.",
+            "zh": "她專心解共同的難題，而不再只顧自己看起來是否聰明。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一直陷在自我評價中，沒有注意力轉移。"
+      },
+      "dialogue": {
+        "promptEn": "A: I keep wondering whether my questions sound foolish, so I barely hear the client. B: ______",
+        "promptZh": "（甲：我總擔心自己的問題聽起來愚蠢，結果幾乎聽不到客戶的回答。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Try to get out of your own head and listen to what the client actually says.",
+            "zh": "試着跳出自我糾結，聽清客戶實際說甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "You could write down the client’s main concern as they speak.",
+            "zh": "客戶說話時，你可以記下他們主要關注的事。"
+          },
+          {
+            "id": "c",
+            "en": "Their answer matters more than how polished each question sounds.",
+            "zh": "他們的回答比每條問題聽起來是否漂亮更重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把自我顧慮與聆聽客戶的行動連起來。"
+      },
+      "speaking": {
+        "en": "When Ravi stopped monitoring every facial expression he made and began explaining the repair steps to the customer, he got out of his own head.",
+        "zh": "拉維不再留意自己每個表情，轉而向顧客解釋維修步驟時，便跳出了自我糾結。",
+        "promptZh": "說清楚原先的自我顧慮及後來專注的任務。",
+        "targetSpan": {
+          "start": 119,
+          "end": 142
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人在工作或活動中原本過度在意自身表現，後來轉向聆聽或協助他人。用英文寫出前後的注意力轉變。",
+        "selfCheckZh": "兩例都要有可觀察的轉變；不要把真正的求助需要說成只須停止思考。",
+        "examples": [
+          {
+            "en": "Leah worried that her workshop introduction sounded awkward, but she got out of her own head when she began answering participants’ practical questions.",
+            "zh": "莉婭擔心工作坊開場說得生硬，但開始回答參加者的實際問題後，便跳出自我糾結。"
+          },
+          {
+            "en": "During the rehearsal, Omar kept checking how he looked on camera; he got out of his own head by concentrating on his partner’s cues.",
+            "zh": "排練時，奧馬爾不停查看自己在鏡頭中的樣子；後來他專心留意搭檔的提示，便跳出自我糾結。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "workshop introduction",
+            "zh": "工作坊開場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 43
+            }
+          },
+          {
+            "en": "participants’ practical questions",
+            "zh": "參加者的實際問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 151
+            }
+          },
+          {
+            "en": "the rehearsal",
+            "zh": "排練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 20
+            }
+          },
+          {
+            "en": "on camera",
+            "zh": "在鏡頭中",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 64
+            }
+          },
+          {
+            "en": "his partner’s cues",
+            "zh": "搭檔的提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Getting out of your own head means shifting attention away from self-focused worry.",
+          "zh": "get out of your own head 指把注意力從自我顧慮轉開。"
+        },
+        {
+          "en": "A concrete conversation can help someone get out of their own head.",
+          "zh": "具體的交流可幫助人跳出自我糾結。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4010",
+      "number": 4010,
+      "inventoryId": "expr-4010",
+      "titleEn": "carry someone all the way through",
+      "titleZh": "一路支撐某人度過",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:carry|carries|carried|carrying) (?:me|you|him|her|us|them|someone) all the way through\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Sustain a person across the whole duration of a difficult period, rather than merely help at the start.",
+        "meaningZh": "在整段艱難時期持續支撐某人，而不是只在起初幫上一把。",
+        "grammar": "Carry + person object + all the way through + period or challenge. The object comes before the adverbial phrase; carry inflects. The support may be practical or emotional.",
+        "register": "Reflective conversational English. A student might describe to a tutor what helped during a long placement.",
+        "boundaryZh": "強調支持延續至整個過程；不表示支援者代替當事人完成所有工作。",
+        "misconceptionZh": "不是把人真的抱着走，也不等於一時的鼓勵便足夠。",
+        "outcomeZh": "能說明艱難時期、持續的支援及當事人仍須付出的努力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1899",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 179,
+          "book": 15,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Natural ability cannot carry someone all the way through a demanding season.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carry someone all the way through"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "During a six-month apprenticeship, Imani kept a weekly feedback call with her supervisor and practised between calls. Those conversations carried her all the way through the placement, even though she had to do the work herself.",
+        "zh": "在六個月學徒期內，伊瑪妮每週與主管通話取得回饋，兩次通話之間自行練習。這些對話一路支撐她完成實習，但工作仍須由她自己做。",
+        "promptZh": "甚麼支持伊瑪妮完成整段實習？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Regular feedback continued throughout while she kept practising.",
+            "zh": "定期回饋持續整段時間，她也繼續練習。"
+          },
+          {
+            "id": "b",
+            "en": "The supervisor’s first call alone settled every later difficulty.",
+            "zh": "主管第一次來電便解決了其後所有難題。"
+          },
+          {
+            "id": "c",
+            "en": "The supervisor checked in only once before the placement began.",
+            "zh": "主管只在實習開始前跟進過一次。"
+          },
+          {
+            "id": "d",
+            "en": "The weekly calls replaced her need to practise independently.",
+            "zh": "每週通話取代了她自行練習的需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續的每週回饋支撐整段實習，並非代替她工作。"
+      },
+      "reply": {
+        "promptEn": "A trainee faces twelve weeks of difficult fieldwork. Her mentor checks in each Friday, helps her plan the next step, and remains available until the final report; the trainee completes the tasks herself. What did the mentor’s support do?",
+        "promptZh": "（一名學員要完成十二週艱難的實地工作。導師每週五跟進，協助規劃下一步，直至最後報告都可聯絡；學員自行完成任務。導師的支援有何作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It continued from the early weeks to the final report.",
+            "zh": "支援由初期一直持續到最後報告。"
+          },
+          {
+            "id": "b",
+            "en": "It helped her plan while she still did the work.",
+            "zh": "支援協助她規劃，但工作仍由她完成。"
+          },
+          {
+            "id": "c",
+            "en": "It carried her all the way through the fieldwork.",
+            "zh": "它一路支撐她完成整段實地工作。"
+          },
+          {
+            "id": "d",
+            "en": "The weekly check-ins gave steady support across the placement.",
+            "zh": "每週跟進為整段實習提供穩定支援。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回答持續支援的作用；金句突出整段過程。"
+      },
+      "scene": {
+        "promptZh": "一名新護士輪值三個月，每週都獲資深同事檢視紀錄、回答疑問；她仍自行完成每班工作。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The steady guidance carried her all the way through the rotation.",
+            "zh": "持續指導一路支撐她完成輪值期。"
+          },
+          {
+            "id": "b",
+            "en": "An early planning meeting gave her all the guidance she needed for twelve weeks.",
+            "zh": "一次初期規劃會議便給了她十二週所需的全部指導。"
+          },
+          {
+            "id": "c",
+            "en": "The mentor completed the weekly tasks on her behalf.",
+            "zh": "導師替她完成每週任務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週支援持續至整個輪值期，並非代勞。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 support carried someone all the way through？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The helper gave one suggestion at the start and had no further contact during the year-long project.",
+            "zh": "幫忙的人只在一年計劃開始時給過一次建議，之後再無聯絡。"
+          },
+          {
+            "id": "b",
+            "en": "The helper reviewed each draft until the final submission.",
+            "zh": "幫忙的人逐稿給予回饋，直至最後提交。"
+          },
+          {
+            "id": "c",
+            "en": "The helper checked in regularly through a lengthy recovery programme.",
+            "zh": "幫忙的人在漫長康復計劃中定期跟進。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有開頭一次建議，缺少整段期間的持續支援。"
+      },
+      "dialogue": {
+        "promptEn": "A: The training lasted all winter. Jo’s weekly calls helped me plan each stage, although I completed the practice tasks. B: ______",
+        "promptZh": "（甲：培訓持續整個冬天。祖的每週來電幫我規劃各階段，練習任務則由我完成。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those calls carried you all the way through the winter training.",
+            "zh": "那些來電一路支撐你度過整個冬季培訓。"
+          },
+          {
+            "id": "b",
+            "en": "Regular planning support seems to have mattered.",
+            "zh": "定期協助規劃看來很重要。"
+          },
+          {
+            "id": "c",
+            "en": "You still took responsibility for the practice tasks.",
+            "zh": "練習任務仍由你自己負責。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說明持續支援，而不抹去學員的努力。"
+      },
+      "speaking": {
+        "en": "Mira’s reading partner sent comments after every chapter and kept the appointments until the final presentation; that steady help carried her all the way through the research project.",
+        "zh": "米拉的閱讀夥伴每章之後都傳來意見，直至最後報告也一直赴約；這種穩定支援一路支撐她完成研究計劃。",
+        "promptZh": "指明支持如何跨越整段時期。",
+        "targetSpan": {
+          "start": 130,
+          "end": 161
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人在漫長而艱難的任務中，得到定期但不代勞的幫助。用英文寫出任務時間、持續支援及本人努力。",
+        "selfCheckZh": "兩例要顯示支援貫穿全程；不要說幫手替當事人完成所有任務。",
+        "examples": [
+          {
+            "en": "The volunteer treasurer’s weekly budget reviews carried him all the way through the six-month community project, while he negotiated each purchase himself.",
+            "zh": "義工司庫每週檢討預算，一路支撐他完成六個月的社區計劃，而每項採購仍由他親自洽談。"
+          },
+          {
+            "en": "Her sister’s regular calls carried her all the way through the exam term; she still prepared the notes and sat every paper herself.",
+            "zh": "姊姊定期來電一路支撐她度過考試學期；筆記仍由她自行準備，每份試卷也由她親自應考。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekly budget reviews",
+            "zh": "每週預算檢討",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 47
+            }
+          },
+          {
+            "en": "the six-month community project",
+            "zh": "六個月的社區計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 111
+            }
+          },
+          {
+            "en": "each purchase",
+            "zh": "每項採購",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 146
+            }
+          },
+          {
+            "en": "regular calls",
+            "zh": "定期來電",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 26
+            }
+          },
+          {
+            "en": "the exam term",
+            "zh": "考試學期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 72
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Carry someone all the way through marks support lasting across the whole challenge.",
+          "zh": "carry someone all the way through 強調支援貫穿整段難關。"
+        },
+        {
+          "en": "Steady advice can carry her all the way through without doing her work.",
+          "zh": "穩定建議可以一路支撐她，而不必替她完成工作。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4011",
+      "number": 4011,
+      "inventoryId": "expr-4011",
+      "titleEn": "talent can go to waste",
+      "titleZh": "讓才華白白浪費",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:talent|ability|potential|skills?) (?:can|could|may|might|will|would) (?:not )?go to waste\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A useful talent or ability risks remaining unused, so its value is lost rather than developed.",
+        "meaningZh": "有用的才華或能力若沒有機會運用或培養，便可能白白浪費。",
+        "grammar": "Talent/ability/potential + can go to waste. The subject is the resource at risk; can expresses possibility, not certainty.",
+        "register": "Neutral evaluative English. A coach may use it while discussing access to practice opportunities with a parent.",
+        "boundaryZh": "說的是才華未獲運用的風險，不代表當事人本身沒有價值，亦不保證一練習便會成功。",
+        "misconceptionZh": "不是才華變成垃圾；不能把資源未用與人失敗等同。",
+        "outcomeZh": "能交代具體才華、缺少的機會，以及可如何讓它發揮。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1900",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 179,
+          "book": 15,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without regular practice, talent can go to waste.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "talent can go to waste"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The town has several young violinists, but the rehearsal room is locked most evenings. A volunteer proposed opening it twice a week; otherwise their talent could go to waste without a place to play.",
+        "zh": "鎮上有幾位年輕小提琴手，但排練室大多數晚上都上鎖。義工建議每週開放兩晚；否則他們缺乏練習地方，才華可能白白浪費。",
+        "promptZh": "義工為何建議開放排練室？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It would give the young violinists a place to use their ability.",
+            "zh": "這會給年輕小提琴手一個運用能力的地方。"
+          },
+          {
+            "id": "b",
+            "en": "The room is being kept closed because all the violinists have finished training.",
+            "zh": "排練室繼續關閉，是因為所有小提琴手已完成訓練。"
+          },
+          {
+            "id": "c",
+            "en": "They could develop just as easily without any place to rehearse.",
+            "zh": "即使沒有練習地方，他們也同樣容易進步。"
+          },
+          {
+            "id": "d",
+            "en": "Opening the room matters chiefly because it displays the instruments.",
+            "zh": "開放排練室主要是為了展示樂器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開放場地可讓已有能力得到運用；沒有機會便可能浪費。"
+      },
+      "reply": {
+        "promptEn": "An apprentice is good at repairing old radios, but the workshop assigns only filing tasks and never lets her practise repairs. What risk does the supervisor identify?",
+        "promptZh": "（一位學徒擅長修理舊收音機，但工作坊只派她做存檔工作，從不讓她練習維修。主管指出甚麼風險？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her repair ability is not being used.",
+            "zh": "她的維修能力沒有得到運用。"
+          },
+          {
+            "id": "b",
+            "en": "The filing tasks give her no repair practice.",
+            "zh": "存檔任務無法讓她練習維修。"
+          },
+          {
+            "id": "c",
+            "en": "Her talent can go to waste without a chance to repair radios.",
+            "zh": "若沒有維修收音機的機會，她的才華可能白白浪費。"
+          },
+          {
+            "id": "d",
+            "en": "Assigning repair work could let her develop an existing skill.",
+            "zh": "安排維修工作可讓她培養已有技能。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出技能與機會失配；金句概括未用的風險。"
+      },
+      "scene": {
+        "promptZh": "一位插畫員很擅長設計清晰地圖，但目前的崗位從不讓她做視覺設計。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her talent can go to waste if she never gets to use it.",
+            "zh": "若一直沒有機會運用，她的才華可能白白浪費。"
+          },
+          {
+            "id": "b",
+            "en": "Her current role is already making full use of her mapping skill.",
+            "zh": "現有崗位已充分運用她的製圖技能。"
+          },
+          {
+            "id": "c",
+            "en": "The skill is likely to improve simply because she has no design work.",
+            "zh": "她沒有設計工作，這項技能便很可能自行進步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有能力卻沒機會使用，存在被浪費的風險。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 talent can go to waste？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student regularly practises her design skill and uses it on real projects.",
+            "zh": "學生定期練習設計技能，並在真實計劃中運用。"
+          },
+          {
+            "id": "b",
+            "en": "A skilled translator has no chance to translate in her assigned role.",
+            "zh": "熟練譯者在現有崗位沒有翻譯機會。"
+          },
+          {
+            "id": "c",
+            "en": "A promising musician cannot access an instrument for months.",
+            "zh": "有潛力的樂手連續幾個月沒有樂器可用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續練習及實際運用，不符合才華閒置的核心。"
+      },
+      "dialogue": {
+        "promptEn": "A: Lin has a strong eye for layout, but we keep giving her only routine copying jobs. B: ______",
+        "promptZh": "（甲：琳很擅長版面設計，但我們一直只給她例行複製工作。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her talent can go to waste unless she gets design work.",
+            "zh": "若不給她設計工作，她的才華可能白白浪費。"
+          },
+          {
+            "id": "b",
+            "en": "Could we ask her to design the next information sheet?",
+            "zh": "我們可否請她設計下一份資訊單張？"
+          },
+          {
+            "id": "c",
+            "en": "Those copying tasks do not use the skill you described.",
+            "zh": "那些複製工作沒有用到你說的技能。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說出閒置技能的風險，並非貶低本人。"
+      },
+      "speaking": {
+        "en": "Without a chance to join the mapping project, the surveyor’s ability may go to waste even though she has already learned the equipment.",
+        "zh": "若沒有機會參與製圖計劃，測量員即使已學會操作設備，其能力仍可能白白浪費。",
+        "promptZh": "指出能力、未獲使用的原因與風險。",
+        "targetSpan": {
+          "start": 61,
+          "end": 84
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位已有明確技能的人缺少運用機會。用英文交代能力、障礙及可行的使用機會。",
+        "selfCheckZh": "兩例須區分才華閒置與人沒有價值；風險可以避免，不要當成命定結果。",
+        "examples": [
+          {
+            "en": "Aisha can read old maps, but the archive has not assigned her any cataloguing; her talent could go to waste unless she joins the new survey.",
+            "zh": "艾莎懂得讀舊地圖，但檔案館尚未讓她編目；若不參與新的調查，她的才華可能白白浪費。"
+          },
+          {
+            "en": "The student is skilled at audio editing, yet the club leaves its recordings untouched; his talent may go to waste until he gets an editing role.",
+            "zh": "那名學生擅長音訊剪輯，社團錄音卻一直沒人處理；若沒有剪輯職責，他的才華可能白白浪費。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "old maps",
+            "zh": "舊地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 23
+            }
+          },
+          {
+            "en": "any cataloguing",
+            "zh": "任何編目工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "the new survey",
+            "zh": "新的調查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 139
+            }
+          },
+          {
+            "en": "audio editing",
+            "zh": "音訊剪輯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 39
+            }
+          },
+          {
+            "en": "an editing role",
+            "zh": "剪輯職責",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 143
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Talent can go to waste when it has no chance to be used.",
+          "zh": "才華沒有運用機會時，便可能白白浪費。"
+        },
+        {
+          "en": "Giving a skilled person suitable work means talent will not go to waste.",
+          "zh": "給有技能的人合適工作，意味着才華不會白白浪費。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4015",
+      "number": 4015,
+      "inventoryId": "expr-4015",
+      "titleEn": "fire in the belly",
+      "titleZh": "強烈的內在幹勁",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a )?fire in (?:the|my|your|his|her|our|their) belly\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Strong inner drive or determination to pursue a goal despite demanding work.",
+        "meaningZh": "對目標有強烈的內在幹勁，即使辛苦也願意持續投入。",
+        "grammar": "Fire in the belly and fire in your/his/her belly are established forms; a fire in her belly is also natural. The expression names strong drive, not a literal flame.",
+        "register": "Vivid, informal-to-journalistic English. A coach might use it when discussing a determined trainee with colleagues.",
+        "boundaryZh": "強烈幹勁須有持續行動作證；不等於暴躁、胃痛，也不保證必然成功。",
+        "misconceptionZh": "不是腹部真的着火；fire in the belly 與 a fire in her belly 都可用，不應把原文形式誤判為錯誤。",
+        "outcomeZh": "能以具體持續行動支持「有幹勁」的判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1904",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The young runner had fire in the belly at every practice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fire in the belly"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The junior conservator returned to the archive after each failed pigment test, kept careful notes and asked for another sample. Her supervisor said she had a fire in her belly, even though no result was guaranteed.",
+        "zh": "年輕修復員每次顏料測試失敗後都回到檔案館，仔細記錄，並要求再試一個樣本。主管說她有強烈幹勁，儘管結果未有保證。",
+        "promptZh": "主管的評語根據甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept working carefully after several unsuccessful tests.",
+            "zh": "幾次測試不成功後，她仍認真工作。"
+          },
+          {
+            "id": "b",
+            "en": "Her careful notes prove that the next pigment test will succeed.",
+            "zh": "她的仔細記錄證明下一次顏料測試必定成功。"
+          },
+          {
+            "id": "c",
+            "en": "The supervisor is describing irritation at the failed tests.",
+            "zh": "主管是在形容她對測試失敗感到煩躁。"
+          },
+          {
+            "id": "d",
+            "en": "Her request for another sample means the earlier tests needed no review.",
+            "zh": "她要求另一個樣本，表示之前的測試不用檢討。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續認真投入可支持「內在幹勁」，不等於成功保證。"
+      },
+      "reply": {
+        "promptEn": "A trainee baker arrives early to practise shaping dough, compares each batch with notes, and returns after a poor first attempt. What quality does the head baker notice?",
+        "promptZh": "（一名學徒麵包師提早到場練習塑形，按筆記比較每批麵團，首次嘗試不理想後仍回來練習。主廚留意到甚麼特質？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The trainee keeps putting effort into improvement.",
+            "zh": "學徒持續努力求進步。"
+          },
+          {
+            "id": "b",
+            "en": "A weak first attempt did not end the training.",
+            "zh": "首次不理想沒有令訓練停止。"
+          },
+          {
+            "id": "c",
+            "en": "The trainee has a fire in her belly.",
+            "zh": "這位學徒有強烈的內在幹勁。"
+          },
+          {
+            "id": "d",
+            "en": "Her repeated practice shows determination.",
+            "zh": "反覆練習顯示她有決心。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆由持續練習推得；金句使用自然完整的習語。"
+      },
+      "scene": {
+        "promptZh": "某學徒在圖書修復工作遇到難題，仍每週請教專家、記錄試驗結果並修正方法。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has a fire in her belly for the restoration work.",
+            "zh": "她對修復工作有強烈幹勁。"
+          },
+          {
+            "id": "b",
+            "en": "She has already mastered every restoration method, so no further practice is needed.",
+            "zh": "她已精通所有修復方法，因此毋須再練習。"
+          },
+          {
+            "id": "c",
+            "en": "Her weekly notes show only frustration, not continued effort.",
+            "zh": "她的每週記錄只顯示不滿，沒有持續努力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有持續行動支持內在幹勁，但沒有成功保證。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 someone has a fire in their belly？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He says the goal matters, but repeatedly declines every available practice session without giving a reason.",
+            "zh": "他說目標重要，卻無故屢次拒絕每次可參加的練習。"
+          },
+          {
+            "id": "b",
+            "en": "He practises each week and adjusts after feedback.",
+            "zh": "他每週練習，並按回饋調整。"
+          },
+          {
+            "id": "c",
+            "en": "He persists through several demanding trial runs.",
+            "zh": "他在幾次吃力的試行中仍堅持。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "口頭表示重視，卻一直不付出可見努力，證據不足。"
+      },
+      "dialogue": {
+        "promptEn": "A: Mara’s first design was rejected, but she has revised it each week and keeps asking how to improve. B: ______",
+        "promptZh": "（甲：瑪拉第一份設計被退回，但她每週都修訂，並持續問如何改進。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has a fire in her belly for this work.",
+            "zh": "她對這項工作有強烈的內在幹勁。"
+          },
+          {
+            "id": "b",
+            "en": "Her weekly revisions show that she has not given up.",
+            "zh": "她每週修訂，可見沒有放棄。"
+          },
+          {
+            "id": "c",
+            "en": "The rejection seems to have prompted careful improvement.",
+            "zh": "被退回似乎促使她認真改進。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以持續修訂支持幹勁，不把失敗當成功保證。"
+      },
+      "speaking": {
+        "en": "Although the new researcher had to repeat the field survey twice, she still volunteered to compare the records each evening; she had a fire in her belly for the project.",
+        "zh": "新研究員雖須把實地調查重做兩次，仍自願每晚核對紀錄；她對計劃有強烈幹勁。",
+        "promptZh": "以持續投入而非憤怒或結果來證明幹勁。",
+        "targetSpan": {
+          "start": 133,
+          "end": 152
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位學習者面對具體挫折後仍持續投入。用英文說出挫折、可見行動及幹勁。",
+        "selfCheckZh": "兩例要使用自然的 fire in the belly 或 a fire in his/her belly，並以持續行動作證；不能只聲稱有熱情或保證成功。",
+        "examples": [
+          {
+            "en": "After the first translation draft was returned, Noor revised each paragraph and sought feedback; she had a fire in her belly for the language project.",
+            "zh": "第一稿翻譯被退回後，努爾逐段修訂並尋求回饋；她對語言計劃有強烈幹勁。"
+          },
+          {
+            "en": "The rowing trainee missed the selection time but kept a detailed training log and practised before dawn; he had a fire in his belly for the next trial.",
+            "zh": "划艇學員未達選拔時間要求，仍詳記訓練日誌並在黎明前練習；他為下一次測試充滿幹勁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the first translation draft",
+            "zh": "第一稿翻譯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 33
+            }
+          },
+          {
+            "en": "each paragraph",
+            "zh": "每一段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "a detailed training log",
+            "zh": "詳細訓練日誌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 77
+            }
+          },
+          {
+            "en": "before dawn",
+            "zh": "黎明前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 103
+            }
+          },
+          {
+            "en": "the next trial",
+            "zh": "下一次測試",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fire in the belly is a vivid way to describe persistent drive.",
+          "zh": "fire in the belly 生動形容持續的內在幹勁。"
+        },
+        {
+          "en": "Look for repeated effort before saying someone has a fire in his belly.",
+          "zh": "說某人有強烈幹勁前，應先看有否反覆努力。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3947-3964-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3947",
+      "number": 3947,
+      "inventoryId": "expr-3947",
+      "titleEn": "soften the edges",
+      "titleZh": "緩和彼此的隔閡",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsoften\\s+the\\s+edges\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make an interaction or relationship feel less sharp, tense or divided without necessarily removing all differences.",
+        "meaningZh": "使互動或關係較不尖銳、疏離，但不一定消除所有分歧。",
+        "grammar": "Something can soften the edges between groups or of a tense exchange; the object edges is figurative.",
+        "register": "Reflective community discussion; a workshop organiser describes how working side by side eased tension between groups.",
+        "boundaryZh": "緩和隔閡不代表雙方已完全同意或過去衝突消失。",
+        "misconceptionZh": "不是磨平物件邊角；單純同處一室而沒有互動，也不足以說隔閡緩和。",
+        "outcomeZh": "能指出哪種共同互動使關係較柔和，以及尚存的分歧。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1836",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 173,
+          "book": 15,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 185, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Shared work can soften the edges between groups.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "soften the edges"
+        }
+      ],
+      "listening": {
+        "en": "Two neighbourhood groups had argued over garden space. After repairing the shared fence together, they still disagreed about planting but spoke more easily; the work helped soften the edges.",
+        "zh": "兩個社區團體曾因花園空間爭執。一起修好共用圍欄後，他們對種植安排仍有分歧，卻較能平心靜氣地交談；合作幫助緩和了彼此的隔閡。",
+        "promptZh": "soften the edges 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared work eased tension between the groups.",
+            "zh": "共同工作緩和了兩團體之間的緊張。"
+          },
+          {
+            "id": "b",
+            "en": "Repairing the fence settled every dispute about planting.",
+            "zh": "修好圍欄便解決了所有種植爭議。"
+          },
+          {
+            "id": "c",
+            "en": "The groups became closer only because they changed the fence design.",
+            "zh": "兩團體關係改善純因改了圍欄設計。"
+          },
+          {
+            "id": "d",
+            "en": "They still refused to speak after completing the repair.",
+            "zh": "完成維修後，他們仍拒絕交談。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍有分歧，但溝通變得較容易。"
+      },
+      "reply": {
+        "promptEn": "Did the artists from the two studios settle their funding dispute? Not yet. They jointly hosted an open day, and now they can discuss the dispute without immediately arguing.",
+        "promptZh": "（兩間工作室的藝術家解決了資助爭議嗎？還沒有。他們合辦開放日，現在能討論爭議而不會立即吵起來。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The joint event made their exchanges less tense.",
+            "zh": "合辦活動令雙方交流較不緊張。"
+          },
+          {
+            "id": "b",
+            "en": "They can now talk despite the unresolved dispute.",
+            "zh": "爭議未解，他們現在仍能交談。"
+          },
+          {
+            "id": "c",
+            "en": "The shared open day helped soften the edges.",
+            "zh": "合辦開放日有助緩和彼此的隔閡。"
+          },
+          {
+            "id": "d",
+            "en": "Their relationship is less abrasive even though they disagree.",
+            "zh": "雖仍有分歧，彼此關係卻沒有那麼尖銳。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認爭議未解，只是互動緩和。"
+      },
+      "scene": {
+        "promptZh": "兩支辯論隊爭執後共同籌辦比賽，仍不同意規則，但彼此開始耐心聽完對方說話。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Working together helped soften the edges.",
+            "zh": "合作幫助緩和彼此的隔閡。"
+          },
+          {
+            "id": "b",
+            "en": "The teams now agree on every rule.",
+            "zh": "兩隊現在同意所有規則。"
+          },
+          {
+            "id": "c",
+            "en": "The teams were always on good terms, so nothing changed.",
+            "zh": "兩隊一直友好，因此沒有任何改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "態度較緩和，但分歧仍在。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 soften the edges between groups？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members listen and speak more calmly after a shared project.",
+            "zh": "共同計劃後，成員較願聆聽，也較平和地交談。"
+          },
+          {
+            "id": "b",
+            "en": "The two groups stay in separate rooms and never interact.",
+            "zh": "兩團體分處不同房間，從未互動。"
+          },
+          {
+            "id": "c",
+            "en": "A joint meal makes future discussion less hostile.",
+            "zh": "共同用餐令日後討論不再那麼敵對。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有互動或關係變化的證據。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「soften the edges 意味所有分歧已解決。」哪句更準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Working together can soften the edges while disagreement remains.",
+            "zh": "合作可緩和彼此的隔閡，而分歧仍在。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees full agreement.",
+            "zh": "它保證完全同意。"
+          },
+          {
+            "id": "c",
+            "en": "Joint work matters only if it ends every disagreement.",
+            "zh": "合作必須結束所有分歧才有作用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "緩和關係不等於全面解決爭端。"
+      },
+      "speaking": {
+        "en": "A joint cooking session helped soften the edges between the rival teams; they still competed, but they stopped insulting one another.",
+        "zh": "共同烹飪讓兩支對立隊伍的隔閡稍為緩和；他們仍然競爭，卻不再互相辱罵。",
+        "promptZh": "先聽示範，再指出兩隊仍做甚麼，以及停止做甚麼。",
+        "targetSpan": {
+          "start": 31,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個志願團隊曾為倉庫使用時間爭執；他們一起整理物資一週後，仍未同意時段安排，卻能平靜開會。用英文說明合作帶來的有限改變。",
+        "selfCheckZh": "寫出倉庫時間爭議、合作一週、時段未達共識、現在可平靜開會。",
+        "examples": [
+          {
+            "en": "A week of sorting supplies together helped soften the edges between the volunteer teams: they still disagree about warehouse hours but can now meet calmly.",
+            "zh": "兩個義工團隊一起整理物資一週，有助緩和彼此的隔閡：他們對倉庫使用時間仍有分歧，現在卻能平靜開會。"
+          },
+          {
+            "en": "The volunteers worked together on supplies for a week, which helped soften the edges of their relationship. Their warehouse timetable dispute remains, although meetings are calmer.",
+            "zh": "義工一起整理物資一週，這有助緩和彼此關係的隔閡。倉庫時間表的爭議仍未解決，但會議較平和。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A week",
+            "zh": "一週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 6
+            }
+          },
+          {
+            "en": "sorting supplies",
+            "zh": "整理物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 26
+            }
+          },
+          {
+            "en": "warehouse hours",
+            "zh": "倉庫使用時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 130
+            }
+          },
+          {
+            "en": "meet calmly",
+            "zh": "平靜開會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 154
+            }
+          },
+          {
+            "en": "timetable dispute",
+            "zh": "時間表爭議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 141
+            }
+          },
+          {
+            "en": "meetings are calmer",
+            "zh": "會議較平和",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 179
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Soften the edges means ease a relationship’s sharpness or tension.",
+          "zh": "緩和隔閡，指使關係或互動較不尖銳。"
+        },
+        {
+          "en": "To soften the edges is not necessarily to settle every disagreement.",
+          "zh": "緩和隔閡不一定等於解決所有分歧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3961",
+      "number": 3961,
+      "inventoryId": "expr-3961",
+      "titleEn": "overhyped",
+      "titleZh": "宣傳過度",
+      "category": "natural",
+      "target": {
+        "pattern": "\\boverhyped\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Promoted with expectations that exceed what the event or product delivers.",
+        "meaningZh": "宣傳所造成的期望高於實際表現。",
+        "grammar": "Overhyped is an adjective, often after be/seem or before a noun; it evaluates the gap between publicity and experience.",
+        "register": "Informal review and media discussion; a festival visitor compares advertising promises with the actual event.",
+        "boundaryZh": "人氣高不等於宣傳過度；須有宣傳承諾與實際體驗的落差。",
+        "misconceptionZh": "不等於活動一定很差，也不能只因自己不喜歡便說 overhyped。",
+        "outcomeZh": "能指出具體宣傳聲稱與實際結果的差距。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1850",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 174,
+          "book": 15,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "21–23",
+          "locatorNote": "DOCX table 187, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some viewers found the event overhyped.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "overhyped"
+        }
+      ],
+      "listening": {
+        "en": "The festival adverts promised six live stages, but only two opened and the rest were recorded screens. Several visitors found the event overhyped.",
+        "zh": "節慶廣告承諾有六個現場舞台，實際只有兩個開放，其餘只是播放錄影片段的螢幕。多名訪客覺得活動宣傳過度。",
+        "promptZh": "overhyped 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advertising raised expectations beyond what was delivered.",
+            "zh": "宣傳所造成的期望高於實際安排。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors received all six live stages exactly as advertised.",
+            "zh": "訪客得到廣告所說的全部六個現場舞台。"
+          },
+          {
+            "id": "c",
+            "en": "The adverts mentioned two live stages and visitors found two.",
+            "zh": "廣告說有兩個現場舞台，訪客亦見到兩個。"
+          },
+          {
+            "id": "d",
+            "en": "The smaller live programme was clearly stated before tickets were sold.",
+            "zh": "售票前已清楚說明現場節目規模較小。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承諾六個現場舞台，實際只有兩個。"
+      },
+      "reply": {
+        "promptEn": "Why did the guests criticise the hotel’s “panoramic rooftop tour”? The brochure showed an hour-long guided visit, but guests received a ten-minute stop behind a high wall.",
+        "promptZh": "（住客為何批評酒店所稱的「全景天台導賞」？小冊子展示一小時的導賞，實際只讓住客在高牆後停留十分鐘。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advertised tour sounded much better than the delivered one.",
+            "zh": "宣傳中的導賞比實際提供的好得多。"
+          },
+          {
+            "id": "b",
+            "en": "The brochure set expectations the brief stop did not meet.",
+            "zh": "小冊子的宣傳令住客期望高於實際。"
+          },
+          {
+            "id": "c",
+            "en": "The rooftop tour was overhyped.",
+            "zh": "天台導賞宣傳過度。"
+          },
+          {
+            "id": "d",
+            "en": "Guests compared an hour-long promise with ten minutes behind a wall.",
+            "zh": "住客比較了一小時的承諾與高牆後的十分鐘。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出承諾與實際導賞有落差。"
+      },
+      "scene": {
+        "promptZh": "展覽廣告主打可操作的十件機器，開幕後只有兩件可操作，其餘只是照片。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition was overhyped.",
+            "zh": "展覽宣傳過度。"
+          },
+          {
+            "id": "b",
+            "en": "All ten promised machines were available to try.",
+            "zh": "承諾的十件機器全部可以操作。"
+          },
+          {
+            "id": "c",
+            "en": "The advert described a photo display rather than working machines.",
+            "zh": "廣告描述的是照片展覽，而非可操作的機器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際可操作的機器遠少於宣傳承諾。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明某活動 overhyped？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advert promises a workshop but attendees get only a brochure.",
+            "zh": "廣告承諾有工作坊，參加者卻只收到小冊子。"
+          },
+          {
+            "id": "b",
+            "en": "The event is popular and exactly matches its modest description.",
+            "zh": "活動很受歡迎，亦完全符合其平實描述。"
+          },
+          {
+            "id": "c",
+            "en": "The “all-day” session lasts only twenty minutes.",
+            "zh": "所稱「全日」活動只持續二十分鐘。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "受歡迎而如實宣傳，並無落差。"
+      },
+      "dialogue": {
+        "promptZh": "評論者說：「我不喜歡音樂，所以演唱會一定 overhyped。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To call it overhyped, compare the promotional claims with what the concert actually delivered.",
+            "zh": "要說演唱會宣傳過度，應比較宣傳聲稱與實際提供的內容。"
+          },
+          {
+            "id": "b",
+            "en": "Disliking a genre alone proves overhyping.",
+            "zh": "單是不喜歡曲風就證明宣傳過度。"
+          },
+          {
+            "id": "c",
+            "en": "A concert is overhyped whenever one listener dislikes its genre.",
+            "zh": "只要一名聽眾不喜歡曲風，演唱會就算宣傳過度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "評價這個詞需要宣傳與實際之間的證據。"
+      },
+      "speaking": {
+        "en": "The “hands-on” science fair felt overhyped when visitors discovered that every machine was behind glass and could only be watched.",
+        "zh": "訪客發現科學展所有機器都隔着玻璃，只能觀看，因此覺得所稱的「動手體驗」宣傳過度。",
+        "promptZh": "先聽示範，再指出「動手體驗」和實際安排的落差。",
+        "targetSpan": {
+          "start": 33,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：餐廳宣傳一個有五道菜的現場烹飪晚宴；入場後只有兩道菜現場烹調，其餘三道預先做好。你仍喜歡食物。用英文解釋為何部分宣傳過度，而不要說整晚一無是處。",
+        "selfCheckZh": "寫出宣傳五道現場烹調、實際只有兩道、三道預製、食物仍好吃；聚焦宣傳落差。",
+        "examples": [
+          {
+            "en": "The dinner was overhyped as a five-course live cooking event: only two dishes were prepared in front of guests, while three were made beforehand, though the food tasted good.",
+            "zh": "晚宴宣傳為五道菜現場烹調，實際只有兩道在賓客面前製作，另外三道預先做好；雖然食物好吃，宣傳仍有過度之處。"
+          },
+          {
+            "en": "Although I enjoyed the food, the live-cooking claim felt overhyped. The restaurant promised five dishes cooked before us, but prepared only two live and served three premade dishes.",
+            "zh": "雖然我喜歡食物，現場烹調的宣傳仍令人覺得過度。餐廳承諾五道菜都在我們面前烹調，卻只現場做兩道，另外三道是預製的。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "five-course",
+            "zh": "五道菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 41
+            }
+          },
+          {
+            "en": "two dishes",
+            "zh": "兩道菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 77
+            }
+          },
+          {
+            "en": "made beforehand",
+            "zh": "預先做好",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 144
+            }
+          },
+          {
+            "en": "food tasted good",
+            "zh": "食物好吃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 173
+            }
+          },
+          {
+            "en": "promised five dishes",
+            "zh": "承諾五道菜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 103
+            }
+          },
+          {
+            "en": "three premade dishes",
+            "zh": "三道預製菜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Overhyped means publicity created expectations the experience did not meet.",
+          "zh": "宣傳過度，指宣傳製造的期望高於實際體驗。"
+        },
+        {
+          "en": "A popular event is not overhyped if it delivers what it promises.",
+          "zh": "活動受歡迎而又符合宣傳承諾，未必是宣傳過度。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3964",
+      "number": 3964,
+      "inventoryId": "expr-3964",
+      "titleEn": "too much of a good thing",
+      "titleZh": "好事過量反成負擔",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\btoo\\s+much\\s+of\\s+a\\s+good\\s+thing\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An enjoyable or beneficial thing can become tiring or less useful when there is too much of it.",
+        "meaningZh": "原本令人喜歡或有益的事，過量後也可能使人疲倦或失去益處。",
+        "grammar": "Too much of a good thing is a fixed noun phrase; often use can be / is too much of a good thing.",
+        "register": "Everyday opinion and media discussion; a viewer explains why repeated coverage of a favourite event becomes tiring.",
+        "boundaryZh": "批評的是份量或頻率，不一定否定事情本身。",
+        "misconceptionZh": "不是說這件事從一開始就不好，也不等於所有人承受量一樣。",
+        "outcomeZh": "能同時承認原本的好處，指出過量造成的具體問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1853",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "21–23",
+          "locatorNote": "DOCX table 187, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Two weeks of coverage can feel like too much of a good thing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "too much of a good thing"
+        }
+      ],
+      "listening": {
+        "en": "Mina enjoys travel programmes, but four hours of the same destination each evening left her tired of it. She said it was too much of a good thing.",
+        "zh": "米娜喜歡旅遊節目，但每晚四小時都看同一個目的地，令她看得疲倦。她說這是好事過量反成負擔。",
+        "promptZh": "too much of a good thing 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Something enjoyable became tiring in excessive amounts.",
+            "zh": "原本有趣的事因份量過多而令人疲倦。"
+          },
+          {
+            "id": "b",
+            "en": "Mina disliked travel programmes before this week.",
+            "zh": "米娜在本週之前已不喜歡旅遊節目。"
+          },
+          {
+            "id": "c",
+            "en": "The four hours each evening made her want more of the same destination.",
+            "zh": "每晚四小時的節目令她還想看更多同一目的地內容。"
+          },
+          {
+            "id": "d",
+            "en": "She was tired because the programmes contained no travel content.",
+            "zh": "她疲倦是因節目沒有旅遊內容。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她本來喜歡，卻因每晚四小時的重複內容而疲倦。"
+      },
+      "reply": {
+        "promptEn": "Why did the club shorten its popular tasting session? Members loved trying new teas, but after sampling thirty in one sitting they could no longer notice the differences.",
+        "promptZh": "（學會為何縮短熱門品茶環節？會員喜歡試新茶，但一口氣品嚐三十款後已分不出差別。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The large number reduced the value of an enjoyable activity.",
+            "zh": "過多數量降低了有趣活動的價值。"
+          },
+          {
+            "id": "b",
+            "en": "Members still liked tea but needed a smaller session.",
+            "zh": "會員仍喜歡茶，只是需要較短的活動。"
+          },
+          {
+            "id": "c",
+            "en": "Thirty samples were too much of a good thing.",
+            "zh": "三十款樣本令好事過量反成負擔。"
+          },
+          {
+            "id": "d",
+            "en": "The club kept the activity but cut its excess.",
+            "zh": "學會保留活動，同時減少過量安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認品茶有趣，只是三十款太多。"
+      },
+      "scene": {
+        "promptZh": "讀書會喜歡作者訪談，但一天安排十二場，參加者後來已難以集中。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The interviews became too much of a good thing.",
+            "zh": "訪談變成好事過量反成負擔。"
+          },
+          {
+            "id": "b",
+            "en": "The interviews had no value to the club even in small numbers.",
+            "zh": "訪談即使少量安排，對讀書會也毫無價值。"
+          },
+          {
+            "id": "c",
+            "en": "Twelve interviews left everyone more focused at the end.",
+            "zh": "十二場訪談過後，所有人更能集中。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "好處仍在，但頻率過高使人難以集中。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不符合 too much of a good thing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A helpful reminder appears so often that users stop reading it.",
+            "zh": "有用提示出現太頻繁，以致用戶不再閱讀。"
+          },
+          {
+            "id": "b",
+            "en": "A pleasant concert is repeated so many times in one day that listeners tire.",
+            "zh": "好聽的音樂會一天重複太多次，聽眾漸感疲倦。"
+          },
+          {
+            "id": "c",
+            "en": "A machine is faulty and unsafe from its first use.",
+            "zh": "機器從首次使用起就故障且不安全。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "這不是原本的好處因過量而減弱。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這句話代表那件事完全不好。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Too much of a good thing still begins with something valued; the excess causes the problem.",
+            "zh": "好事過量反成負擔，前提是那件事原本有價值，問題在於過量。"
+          },
+          {
+            "id": "b",
+            "en": "It means the activity has always been harmful.",
+            "zh": "它指活動一直有害。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means there was too little of a valued activity.",
+            "zh": "這片語表示有價值的活動太少。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語同時承認好處與過量造成的弊端。"
+      },
+      "speaking": {
+        "en": "The weekly art updates were useful, but ten alerts a day became too much of a good thing and members muted the channel.",
+        "zh": "每週的藝術消息本來有用，但每天十則通知就變成好事過量反成負擔，成員於是把頻道設為靜音。",
+        "promptZh": "先聽示範，再指出成員做了甚麼以及原因。",
+        "targetSpan": {
+          "start": 64,
+          "end": 88
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區博物館每週一次的免費導賞廣受歡迎，於是改為每天六場；導賞仍然有用，但義工一天重複同一內容六次後疲憊，訪客亦感到場次過密。用英文提出減少場次，而不是取消導賞。",
+        "selfCheckZh": "寫出原本每週一場受歡迎、現每天六場、義工疲倦、訪客覺得過密，建議減少而非取消。",
+        "examples": [
+          {
+            "en": "The free tours became too much of a good thing when the museum moved from one popular weekly tour to six a day: volunteers grew tired of repeating it and visitors felt overwhelmed, so it should reduce the number.",
+            "zh": "免費導賞由每週一場熱門活動增至每天六場後，便成了好事過量反成負擔：義工因重複講解而疲倦，訪客也覺得過密，因此博物館應減少場次。"
+          },
+          {
+            "en": "A weekly free tour was popular, but six tours a day were too much of a good thing. The same material wore out volunteers and overwhelmed visitors; the museum could offer fewer tours rather than cancel them.",
+            "zh": "每週一次的免費導賞本來很受歡迎，但每天六場就好事過量反成負擔。重複講解使義工疲倦，也令訪客覺得過密；博物館可減少場次，而非取消導賞。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one popular weekly tour",
+            "zh": "每週一場熱門導賞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 97
+            }
+          },
+          {
+            "en": "six a day",
+            "zh": "每天六場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 110
+            }
+          },
+          {
+            "en": "volunteers grew tired",
+            "zh": "義工感到疲倦",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 133
+            }
+          },
+          {
+            "en": "reduce the number",
+            "zh": "減少場次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 211
+            }
+          },
+          {
+            "en": "overwhelmed visitors",
+            "zh": "令訪客覺得過密",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 145
+            }
+          },
+          {
+            "en": "rather than cancel",
+            "zh": "而非取消",
+            "exampleIndex": 1,
+            "span": {
+              "start": 182,
+              "end": 200
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Too much of a good thing means excess can make a benefit less enjoyable.",
+          "zh": "好事過量反成負擔，指過量使原本的好處變得不那麼可取。"
+        },
+        {
+          "en": "Too much of a good thing criticises the amount, not necessarily the thing itself.",
+          "zh": "好事過量反成負擔，批評的是份量，不一定否定事情本身。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

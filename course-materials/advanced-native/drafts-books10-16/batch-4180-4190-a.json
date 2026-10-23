@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4180",
+      "number": 4180,
+      "inventoryId": "expr-4180",
+      "titleEn": "goes out of date",
+      "titleZh": "過時；不再合用",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going) out of date\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become obsolete or cease to be current; in the negative, remain useful or relevant despite changing circumstances.",
+        "meaningZh": "過時或不再合用；用否定式可表示即使環境轉變，某項技能或原則仍然有用。",
+        "grammar": "Go out of date is intransitive; go inflects went/gone. It can describe factual guidance that becomes inaccurate or, often in a negative sentence, a useful skill that does not become obsolete.",
+        "register": "Neutral everyday English. An editor may use it of a dated public guide, while a teacher may say a communication skill remains useful to students.",
+        "boundaryZh": "路線或時間等資料可能因事實改變而過時；清楚溝通等持久有用的技能則可說 has not gone out of date。須按語境分辨，不能因資料舊便斷言一切原則都失效。",
+        "misconceptionZh": "不是文件「離開日期」；否定式不是否認世界會改變，而是指出某項技能仍合用。",
+        "outcomeZh": "能區分已失準的具體資訊與仍有價值的技能，並用肯定或否定形式表達。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2069",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 195,
+          "book": 15,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "81–82",
+          "locatorNote": "DOCX table 212, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Clear communication never goes out of date.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "goes out of date"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The route leaflet still showed the museum’s former accessible entrance, which moved last month. That line went out of date, so staff corrected the map. Their practice of explaining each change clearly remained useful throughout.",
+        "zh": "路線單張仍顯示博物館舊有的無障礙入口，但入口上月已搬遷。那一行資料已過時，所以職員修正地圖；而清楚解釋每項改動的做法一直仍然有用。",
+        "promptZh": "哪項資料過時，而哪項做法仍然有用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The entrance instruction became inaccurate; clear explanations remained useful.",
+            "zh": "入口指示失準；清楚解釋仍然有用。"
+          },
+          {
+            "id": "b",
+            "en": "The whole museum became obsolete when the doorway moved.",
+            "zh": "入口搬遷後，整間博物館都變得過時。"
+          },
+          {
+            "id": "c",
+            "en": "The old leaflet stayed accurate because staff spoke clearly.",
+            "zh": "職員解釋清楚，所以舊單張仍然準確。"
+          },
+          {
+            "id": "d",
+            "en": "Explaining changes was useful only before the doorway moved.",
+            "zh": "清楚解釋改動只在入口搬遷前有用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "入口位置變了，指示失準；清楚溝通的技能仍合用。"
+      },
+      "reply": {
+        "promptEn": "A clinic changes its opening hours from nine to eight. The website still displays nine, and a visitor arrives too late. What happened to that information?",
+        "promptZh": "（診所開門時間由九時改為八時。網站仍寫九時，一名訪客因而太遲到達。那項資料有何問題？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The stated hour no longer reflects the clinic’s schedule.",
+            "zh": "網站時間不再反映診所日程。"
+          },
+          {
+            "id": "b",
+            "en": "The opening-hour notice needs updating.",
+            "zh": "開門時間通知需要更新。"
+          },
+          {
+            "id": "c",
+            "en": "It has gone out of date since the change.",
+            "zh": "時間改動後，它已過時。"
+          },
+          {
+            "id": "d",
+            "en": "The visitor relied on an old hour.",
+            "zh": "訪客依賴了舊時間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據改時與網站未改回答。"
+      },
+      "scene": {
+        "promptZh": "巴士路線去年改站，學校指南仍叫學生在舊站等車。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The route advice has gone out of date.",
+            "zh": "路線建議已過時。"
+          },
+          {
+            "id": "b",
+            "en": "The old stop remains correct because it appears in print.",
+            "zh": "舊站印在紙上，所以仍然正確。"
+          },
+          {
+            "id": "c",
+            "en": "Every other section of the guide must also be wrong.",
+            "zh": "指南其他所有部分必定也錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "路線變動令相關指示不再準確。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 has gone out of date？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Explaining a new route clearly still helps visitors even after several route changes.",
+            "zh": "即使路線多次改動，清楚解釋新路線仍能幫助訪客。"
+          },
+          {
+            "id": "b",
+            "en": "A guide lists a stop that the bus no longer serves.",
+            "zh": "指南列出巴士已不再停靠的車站。"
+          },
+          {
+            "id": "c",
+            "en": "A flyer still shows last year’s price after the fee changed.",
+            "zh": "收費改變後，單張仍列出去年的價格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "清楚解釋仍然有用，不能說這項技能已過時；其餘兩項具體資料已失準。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our online guide still says the gallery closes at five, but it now closes at six. B: ______",
+        "promptZh": "（甲：我們的網上指南仍說畫廊五時關門，但現在已改為六時。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That closing-time line has gone out of date; let us update it.",
+            "zh": "關門時間那一行已過時；我們更新吧。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors need the current closing time.",
+            "zh": "訪客需要最新關門時間。"
+          },
+          {
+            "id": "c",
+            "en": "We can check the official schedule before editing.",
+            "zh": "編輯前可先核對官方時間表。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出具體失準的一行，並建議更新。"
+      },
+      "speaking": {
+        "en": "The volunteer handbook went out of date when the sign-in desk moved to a different floor, so the coordinator revised the arrival instructions.",
+        "zh": "簽到處搬到另一層後，義工手冊的相關內容過時；協調員修訂了到達指示。",
+        "promptZh": "指明變動與受影響資料。",
+        "targetSpan": {
+          "start": 23,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一例寫出具體資訊因安排改變而過時，另一例寫出即使安排改變仍合用的溝通技能。用英文交代變動及判斷依據。",
+        "selfCheckZh": "第一例須指出哪項資料失準；第二例要用否定形式說明技能仍有價值，不能把所有舊事物一概判為過時。",
+        "examples": [
+          {
+            "en": "The festival map went out of date when the entrance moved to the east gate; organisers replaced the old arrow before opening day.",
+            "zh": "入口改到東門後，節慶地圖過時；主辦方在開幕前替換舊箭咀。"
+          },
+          {
+            "en": "The workshop changed rooms twice, but the habit of confirming each visitor’s access needs has not gone out of date; the team still asks before giving directions.",
+            "zh": "工作坊兩次轉換房間，但先確認每位訪客無障礙需要的做法並未過時；團隊指路前仍會先詢問。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the east gate",
+            "zh": "東門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 74
+            }
+          },
+          {
+            "en": "the old arrow",
+            "zh": "舊箭咀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 109
+            }
+          },
+          {
+            "en": "opening day",
+            "zh": "開幕日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 128
+            }
+          },
+          {
+            "en": "access needs",
+            "zh": "無障礙需要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 89
+            }
+          },
+          {
+            "en": "giving directions",
+            "zh": "指路",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Go out of date means become obsolete or cease to be current.",
+          "zh": "go out of date 指過時或不再合用。"
+        },
+        {
+          "en": "A timetable may go out of date, while a useful communication skill may not.",
+          "zh": "時間表可能過時，有用的溝通技能卻可以一直合用。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4186",
+      "number": 4186,
+      "inventoryId": "expr-4186",
+      "titleEn": "know recipes by heart",
+      "titleZh": "熟記食譜",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:know|knows|knew|knowing) (?:(?:the|those|these|several|many|some|a) )?(?:(?:bread|bean stew|soup) )?recipes? by heart\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remember a recipe well enough to reproduce its main steps without reading it.",
+        "meaningZh": "熟記食譜主要步驟，不用邊做邊看文字。",
+        "grammar": "Know + recipe(s) + by heart; know inflects knew. By heart means from memory, not a claim the cook never verifies safety or measurements.",
+        "register": "Neutral everyday English. A cook may describe a colleague’s familiar dish to an apprentice.",
+        "boundaryZh": "指主要步驟能憑記憶完成，不表示每個份量必然永遠準確，也不排除有需要時查核。",
+        "misconceptionZh": "不是用心臟認識食譜，也不代表第一次看便已熟記。",
+        "outcomeZh": "能區分照着食譜做與真正能憑記憶重述步驟。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2075",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 196,
+          "book": 15,
+          "question": 35,
+          "sample": "S1",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 213, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good cook may know recipes by heart.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "know recipes by heart"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After preparing the same soup each Friday for years, Inez knew the recipe by heart: she could list the order of vegetables without opening the notebook, though she still checked the allergy label.",
+        "zh": "伊內絲多年來每週五都煮同一款湯，已熟記食譜：不用打開筆記本便說得出蔬菜下鍋次序，但仍會查過敏原標籤。",
+        "promptZh": "甚麼顯示她熟記食譜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She can recall the main sequence without consulting the notebook.",
+            "zh": "她不用看筆記本便記得主要次序。"
+          },
+          {
+            "id": "b",
+            "en": "She has never checked any ingredient for safety.",
+            "zh": "她從未查過任何材料的安全資料。"
+          },
+          {
+            "id": "c",
+            "en": "She only read the soup recipe once yesterday.",
+            "zh": "她昨天才第一次看這個湯的食譜。"
+          },
+          {
+            "id": "d",
+            "en": "She cannot say what comes after the first vegetable.",
+            "zh": "她說不出第一種蔬菜之後的步驟。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能憑記憶說出步驟，但安全資料仍可查核。"
+      },
+      "reply": {
+        "promptEn": "A cook has made two family dishes for years. Without opening the book, she can tell an apprentice the main steps and their order, while checking exact oven settings on the day. What does she know?",
+        "promptZh": "（廚師多年來做兩道家常菜。不翻書也能告訴學徒主要步驟及次序，但當天仍核對焗爐的準確設定。她記得甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She remembers the main preparation steps.",
+            "zh": "她記得主要準備步驟。"
+          },
+          {
+            "id": "b",
+            "en": "She can explain the order from memory.",
+            "zh": "她能憑記憶解釋次序。"
+          },
+          {
+            "id": "c",
+            "en": "She knows the recipes by heart.",
+            "zh": "她熟記那些食譜。"
+          },
+          {
+            "id": "d",
+            "en": "Checking the oven does not cancel her memory of the method.",
+            "zh": "核對焗爐設定不影響她對方法的記憶。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依不用翻書便能解釋主要步驟回答。"
+      },
+      "scene": {
+        "promptZh": "廚師每週做同一款麵包，毋須看筆記也能說出揉麵、發酵及焗製次序。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She knows the recipe by heart.",
+            "zh": "她熟記這份食譜。"
+          },
+          {
+            "id": "b",
+            "en": "She has only glanced at the page once.",
+            "zh": "她只匆匆看過頁面一次。"
+          },
+          {
+            "id": "c",
+            "en": "She must never check oven temperature again.",
+            "zh": "她往後絕不可再核對焗爐溫度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主要步驟能憑記憶重述。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a cook knows a recipe by heart？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He must read each step aloud every time because he cannot recall what follows.",
+            "zh": "他每次都要逐步照讀，因為記不起下一步。"
+          },
+          {
+            "id": "b",
+            "en": "He recites the method without opening the book.",
+            "zh": "他不用翻書也能重述做法。"
+          },
+          {
+            "id": "c",
+            "en": "He explains the ingredient order from memory and checks the temperature separately.",
+            "zh": "他憑記憶解釋材料次序，另外核對溫度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完全依賴逐步照讀，尚未熟記。"
+      },
+      "dialogue": {
+        "promptEn": "A: Dena can explain the noodle dough steps from memory after making it each week, though she still weighs the flour. B: ______",
+        "promptZh": "（甲：黛娜每週都做麵條，如今能憑記憶解釋麵糰步驟，但仍會秤麵粉。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She knows the recipe by heart while still checking a measurement.",
+            "zh": "她熟記食譜，但仍核對份量。"
+          },
+          {
+            "id": "b",
+            "en": "Repeated practice seems to have helped her remember the method.",
+            "zh": "反覆練習看來讓她記住做法。"
+          },
+          {
+            "id": "c",
+            "en": "Weighing flour can keep the result consistent.",
+            "zh": "秤麵粉有助保持結果穩定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把熟記主要做法與查核份量分開。"
+      },
+      "speaking": {
+        "en": "The café cook knew several recipes by heart and trained new staff by explaining each method before they opened the kitchen manual.",
+        "zh": "咖啡店廚師熟記幾份食譜，在新職員翻開廚房手冊前便能先解釋每種做法。",
+        "promptZh": "以不用看文字仍能重述主要步驟作證。",
+        "targetSpan": {
+          "start": 14,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位廚師經多次練習後能不用翻書解釋主要步驟，但仍可核對安全或精確數值。用英文寫出證據。",
+        "selfCheckZh": "兩例不可把一次閱讀當熟記，也不可說熟記便毋須安全查核。",
+        "examples": [
+          {
+            "en": "After years of cooking the bean stew, Sami knew the recipe by heart and explained the simmering order without notes, while checking the allergy list.",
+            "zh": "多年來煮豆燉菜後，薩米熟記食譜，不看筆記便說出慢煮次序，但仍查過敏原清單。"
+          },
+          {
+            "en": "Lora knew the bread recipe by heart after weekly practice; she described each rising stage to a trainee and verified the oven setting before baking.",
+            "zh": "蘿拉每週練習後熟記麵包食譜；她向學徒描述每個發酵階段，焗製前再核對焗爐設定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the bean stew",
+            "zh": "豆燉菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 36
+            }
+          },
+          {
+            "en": "the simmering order",
+            "zh": "慢煮次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 101
+            }
+          },
+          {
+            "en": "the allergy list",
+            "zh": "過敏原清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 148
+            }
+          },
+          {
+            "en": "weekly practice",
+            "zh": "每週練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 57
+            }
+          },
+          {
+            "en": "each rising stage",
+            "zh": "每個發酵階段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Know a recipe by heart means recall its main method from memory.",
+          "zh": "know a recipe by heart 指憑記憶掌握主要做法。"
+        },
+        {
+          "en": "A cook can know recipes by heart and still check safety details.",
+          "zh": "廚師可熟記食譜，仍需查核安全細節。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4188",
+      "number": 4188,
+      "inventoryId": "expr-4188",
+      "titleEn": "roll up your sleeves",
+      "titleZh": "捲起袖子動手做",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:roll|rolls|rolled|rolling) up (?:my|your|his|her|our|their) sleeves\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Prepare to do practical, often demanding work rather than only discuss it.",
+        "meaningZh": "準備親自做實際而可能吃力的工作，不只是談論。",
+        "grammar": "Roll up + possessive + sleeves is idiomatic; roll inflects. Literal sleeve-rolling may accompany it but the intended meaning is active work.",
+        "register": "Conversational and encouraging. A team lead may use it when starting a community clean-up with volunteers.",
+        "boundaryZh": "重點是投入實際行動，不等於未經訓練便可做危險專業工作。",
+        "misconceptionZh": "不是只把衣袖捲起便算完成任務，也不應把必要安全規程忽略。",
+        "outcomeZh": "能指出需要處理的具體工作與安全範圍內的行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2077",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 196,
+          "book": 15,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 213, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In an emergency, you must roll up your sleeves and help.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "roll up your sleeves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After the flood, the trained maintenance crew assessed the electrical risk; then volunteers rolled up their sleeves to clear safe debris from the community hall.",
+        "zh": "水浸後，受訓維修團隊先評估電力風險；其後義工親自動手，清理社區禮堂內安全可處理的雜物。",
+        "promptZh": "義工做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They moved from waiting to practical clean-up within a safe scope.",
+            "zh": "他們由等待轉為在安全範圍內實際清理。"
+          },
+          {
+            "id": "b",
+            "en": "They repaired live electrical wiring without training.",
+            "zh": "他們未經培訓便修理帶電電線。"
+          },
+          {
+            "id": "c",
+            "en": "They only discussed the debris and took no action.",
+            "zh": "他們只討論雜物，沒有行動。"
+          },
+          {
+            "id": "d",
+            "en": "They decided the crew’s risk check was unnecessary.",
+            "zh": "他們認定維修團隊的風險檢查多餘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安全評估後親自清理，是實際動手。"
+      },
+      "reply": {
+        "promptEn": "A food bank has sorted the safety instructions for packing dry goods. The volunteers now begin labelling boxes and stacking them for collection. What have they done?",
+        "promptZh": "（食物銀行已釐清乾貨包裝的安全指示。義工如今開始標示箱子，並疊好供人領取。他們做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have started the practical packing work.",
+            "zh": "他們已開始實際包裝工作。"
+          },
+          {
+            "id": "b",
+            "en": "Labelling and stacking are concrete actions.",
+            "zh": "標示和疊箱都是具體行動。"
+          },
+          {
+            "id": "c",
+            "en": "They rolled up their sleeves after the briefing.",
+            "zh": "簡介後他們便捲起袖子動手做。"
+          },
+          {
+            "id": "d",
+            "en": "The safety briefing preceded the work.",
+            "zh": "安全簡介在工作之前進行。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句根據簡介後實際包裝回答。"
+      },
+      "scene": {
+        "promptZh": "社區廚房完成安全講解後，義工開始洗菜、分類食材，準備午餐。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They rolled up their sleeves and began the practical work.",
+            "zh": "他們捲起袖子，開始實際工作。"
+          },
+          {
+            "id": "b",
+            "en": "They only held another discussion and touched no food.",
+            "zh": "他們只再開會，沒有處理食材。"
+          },
+          {
+            "id": "c",
+            "en": "They ignored the safety briefing to work faster.",
+            "zh": "他們為加快工作而無視安全講解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安全講解後實際動手準備食材。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the team rolled up its sleeves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They agreed that work was needed but left without assigning or doing any task.",
+            "zh": "他們同意有工作要做，卻沒有分配或做任何任務便離開。"
+          },
+          {
+            "id": "b",
+            "en": "They cleared safe debris after a specialist checked the site.",
+            "zh": "專家檢查場地後，他們清理安全可處理的雜物。"
+          },
+          {
+            "id": "c",
+            "en": "They labelled supplies and prepared boxes for delivery.",
+            "zh": "他們標示物資，準備送貨箱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只談工作，沒有動手。"
+      },
+      "dialogue": {
+        "promptEn": "A: We have agreed on the layout and completed the safety briefing. The tables still need moving. B: ______",
+        "promptZh": "（甲：我們已同意擺位並完成安全簡介，但桌子仍要移動。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us roll up our sleeves and move the tables together.",
+            "zh": "我們捲起袖子一起搬桌子吧。"
+          },
+          {
+            "id": "b",
+            "en": "The plan is ready, so we can begin the practical part.",
+            "zh": "計劃已定，可開始實際工作。"
+          },
+          {
+            "id": "c",
+            "en": "We should use the agreed safe lifting method.",
+            "zh": "我們應使用已商定的安全搬運方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句從計劃轉向安全的實際行動。"
+      },
+      "speaking": {
+        "en": "Once the conservator marked which boxes were safe to handle, the archive volunteers rolled up their sleeves and rehoused the documents.",
+        "zh": "修復員標示哪些箱可安全處理後，檔案館義工親自動手，為文件更換保存容器。",
+        "promptZh": "實際行動要在適當安全指導後進行。",
+        "targetSpan": {
+          "start": 84,
+          "end": 107
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人先完成必要規劃或安全查核，再做安全範圍內的實際工作。用英文寫出兩個階段。",
+        "selfCheckZh": "兩例不能把未經訓練的危險操作說成有幹勁。",
+        "examples": [
+          {
+            "en": "After the organiser checked the lifting plan, the helpers rolled up their sleeves and carried the lightweight display panels into the hall.",
+            "zh": "主辦人核對搬運計劃後，幫手動手把輕型展示板搬進禮堂。"
+          },
+          {
+            "en": "The technician isolated the power first; then the museum team rolled up their sleeves to clean the unplugged cases and sort labels.",
+            "zh": "技術員先截斷電源；博物館團隊其後動手清潔已拔電的展示櫃及分類標籤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the lifting plan",
+            "zh": "搬運計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 44
+            }
+          },
+          {
+            "en": "lightweight display panels",
+            "zh": "輕型展示板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 124
+            }
+          },
+          {
+            "en": "the hall",
+            "zh": "禮堂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 138
+            }
+          },
+          {
+            "en": "isolated the power",
+            "zh": "截斷電源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 33
+            }
+          },
+          {
+            "en": "unplugged cases",
+            "zh": "已拔電的展示櫃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Roll up your sleeves means get ready for practical work.",
+          "zh": "roll up your sleeves 指準備動手做實際工作。"
+        },
+        {
+          "en": "Check safety first, then roll up your sleeves on the tasks you can do.",
+          "zh": "先核對安全，再在能勝任的工作上親自動手。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4190",
+      "number": 4190,
+      "inventoryId": "expr-4190",
+      "titleEn": "get the job done",
+      "titleZh": "把事情辦妥",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) the job done\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Complete the required task effectively, often by finding a workable practical approach.",
+        "meaningZh": "以可行方法有效完成所需工作。",
+        "grammar": "Get the job done; get inflects got/getting. The job refers to a specific task in context, not necessarily paid employment.",
+        "register": "Neutral conversational English. A coordinator may use it after a team completes a difficult setup.",
+        "boundaryZh": "須有可核實的完成結果；暫時提出方案或開始工作不等於已辦妥。",
+        "misconceptionZh": "不是找到一份工作，也不應以忽略安全或品質換取表面完工。",
+        "outcomeZh": "能交代具體任務、所用方法與完成證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2079",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 196,
+          "book": 15,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 213, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The crew found a way to get the job done.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get the job done"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The outdoor display was due before noon, but the usual stand was damaged. The crew borrowed a stable replacement, checked its fixings and got the job done before visitors arrived.",
+        "zh": "戶外展示須在中午前完成，但慣用支架損壞。團隊借來穩固替代品，檢查固定裝置，並在訪客到達前把工作辦妥。",
+        "promptZh": "甚麼證明任務完成？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A checked replacement display was ready before visitors arrived.",
+            "zh": "替代展示經檢查後在訪客到達前已準備好。"
+          },
+          {
+            "id": "b",
+            "en": "The crew only considered borrowing a stand.",
+            "zh": "團隊只考慮借支架。"
+          },
+          {
+            "id": "c",
+            "en": "They used the damaged stand without checking it.",
+            "zh": "他們未檢查便使用損壞支架。"
+          },
+          {
+            "id": "d",
+            "en": "The display was postponed indefinitely.",
+            "zh": "展示無限期延後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有替代方法、檢查與準時完成。"
+      },
+      "reply": {
+        "promptEn": "A school needs printed guides for a morning tour. The main printer fails, so staff use a second printer, check each copy and place the guides at the entrance before guests arrive. What did they do?",
+        "promptZh": "（學校早上導賞需要印製指南。主打印機故障，職員改用另一部，每份都檢查，並在訪客抵達前把指南放在入口。他們做到了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They produced the needed guides despite the fault.",
+            "zh": "設備故障下仍印好所需指南。"
+          },
+          {
+            "id": "b",
+            "en": "The second printer provided a workable method.",
+            "zh": "第二部打印機提供可行方法。"
+          },
+          {
+            "id": "c",
+            "en": "They got the job done before the tour.",
+            "zh": "他們在導賞前把事情辦妥。"
+          },
+          {
+            "id": "d",
+            "en": "The checked copies were ready for guests.",
+            "zh": "經檢查的指南已備好給訪客。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均有完成結果；金句概括辦妥工作。"
+      },
+      "scene": {
+        "promptZh": "展板支架壞了，團隊借到安全替代架、核對穩固程度，並在開幕前完成安裝。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They got the job done with a checked replacement.",
+            "zh": "他們用經檢查的替代架把事情辦妥。"
+          },
+          {
+            "id": "b",
+            "en": "They merely proposed borrowing a stand later.",
+            "zh": "他們只是提議日後借支架。"
+          },
+          {
+            "id": "c",
+            "en": "They ignored the damaged support and left the display unfinished.",
+            "zh": "他們無視損壞支架，展示仍未完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安全替代方法已實際使用，安裝也完成。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone got the job done？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has a promising plan but has not started the required installation.",
+            "zh": "團隊有可行方案，但尚未開始所需安裝。"
+          },
+          {
+            "id": "b",
+            "en": "The team tested the replacement and completed the display.",
+            "zh": "團隊測試替代品並完成展示。"
+          },
+          {
+            "id": "c",
+            "en": "The guides were checked and placed at the entrance before the tour.",
+            "zh": "指南已核對，導賞前放到入口。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有計劃，沒有完成結果。"
+      },
+      "dialogue": {
+        "promptEn": "A: The original venue closed, but we used the approved spare room, set up the chairs and opened on time. B: ______",
+        "promptZh": "（甲：原場地關閉，但我們用了已批准的備用室，擺好椅子並準時開門。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You got the job done despite losing the first room.",
+            "zh": "雖然失去原來場地，你們仍把事情辦妥。"
+          },
+          {
+            "id": "b",
+            "en": "The approved spare room kept the event possible.",
+            "zh": "獲批准的備用室讓活動得以舉行。"
+          },
+          {
+            "id": "c",
+            "en": "The chairs were ready and the doors opened on time.",
+            "zh": "椅子已擺好，場地亦準時開門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據備用室與準時開場概括完成。"
+      },
+      "speaking": {
+        "en": "The exhibition team got the job done by using the tested spare projector and checking the captions before the afternoon opening.",
+        "zh": "展覽團隊使用經測試的備用投影機，並在下午開幕前核對字幕，把事情辦妥。",
+        "promptZh": "具體說明可行方法與完成時間。",
+        "targetSpan": {
+          "start": 20,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人遇上資源問題後，用經核對的替代方法準時完成任務。用英文寫出問題、方法與結果。",
+        "selfCheckZh": "兩例要有實際完成證據，不可把構想或危險捷徑算作成功。",
+        "examples": [
+          {
+            "en": "When the label printer failed, the librarians used a tested spare, checked every label and got the job done before the book fair opened.",
+            "zh": "標籤打印機故障後，圖書館員用經測試的備用機，逐張核對標籤，並在書展開幕前辦妥工作。"
+          },
+          {
+            "en": "The team got the job done despite a missing table by borrowing an approved folding one and completing the display before noon.",
+            "zh": "團隊雖缺一張桌，仍借到獲批准的摺枱，在中午前完成展示，把事情辦妥。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a tested spare",
+            "zh": "經測試的備用機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 65
+            }
+          },
+          {
+            "en": "every label",
+            "zh": "每張標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 86
+            }
+          },
+          {
+            "en": "the book fair",
+            "zh": "書展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 128
+            }
+          },
+          {
+            "en": "an approved folding one",
+            "zh": "獲批准的摺枱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 86
+            }
+          },
+          {
+            "en": "the display",
+            "zh": "展示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 113
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Get the job done means complete the required task effectively.",
+          "zh": "get the job done 指有效完成所需工作。"
+        },
+        {
+          "en": "A plan helps, but only a completed result shows the team got the job done.",
+          "zh": "方案有幫助，但須有完成結果才可說團隊辦妥工作。"
+        }
+      ]
+    }
+  ]
+}

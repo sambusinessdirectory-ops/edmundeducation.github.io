@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4103",
+      "number": 4103,
+      "inventoryId": "expr-4103",
+      "titleEn": "set in their ways",
+      "titleZh": "固守舊習慣",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:set in (?:my|your|his|her|our|their) ways)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Resistant to changing established habits or methods.",
+        "meaningZh": "習慣已固定，對改變原有做法有抗拒。",
+        "grammar": "Be/become set in + possessive + ways; set stays unchanged. The phrase describes resistance to change, not a fixed plan.",
+        "register": "Conversational, mildly critical. A trainer may discuss a team’s habits with a colleague, ideally without labelling a whole person from one decision.",
+        "boundaryZh": "須有反覆堅持舊法的證據；有理據地反對單一新方案，不一定是固執。",
+        "misconceptionZh": "不是路徑被固定，也不同於第431課 set in stone 的計劃已定案。",
+        "outcomeZh": "能指出長期做法及面對可行新法時的反應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1992",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 188,
+          "book": 15,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 204, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some learners become set in their ways after years of routine.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "set in their ways"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "For years the club filed memberships on paper. Even after a secure shared register solved lost forms in a trial, several officers refused to consider it. They had become set in their ways about record keeping.",
+        "zh": "多年來社團一直用紙本記錄會員。安全的共享登記冊在試行中解決表格遺失問題後，幾名幹事仍拒絕考慮。他們在記錄方法上已固守舊習慣。",
+        "promptZh": "甚麼支持「固守舊習慣」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They kept rejecting a tested alternative because it departed from their long-standing method.",
+            "zh": "他們只因新法不同於多年做法，便一直拒絕經測試的替代方案。"
+          },
+          {
+            "id": "b",
+            "en": "They reviewed the trial results and raised a specific privacy flaw.",
+            "zh": "他們檢視試行結果，提出具體私隱缺陷。"
+          },
+          {
+            "id": "c",
+            "en": "They used paper once because the system was unavailable that day.",
+            "zh": "系統某天不可用，他們只好用一次紙本。"
+          },
+          {
+            "id": "d",
+            "en": "They delayed a change only until the training date.",
+            "zh": "他們只是把改動延至培訓日。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期舊法加上無理據地拒絕試驗成功的新法，構成證據。"
+      },
+      "reply": {
+        "promptEn": "A choir has rehearsed from printed folders for years. A digital score trial worked, but a few members refuse even to test it again simply because the folders feel familiar. What does this suggest?",
+        "promptZh": "（合唱團多年來用紙本資料夾排練。電子樂譜試行成功，但幾位團員只因熟悉紙本，便拒絕再試。這顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their established routine is hard for them to leave.",
+            "zh": "他們難以離開已形成的慣例。"
+          },
+          {
+            "id": "b",
+            "en": "Familiarity is shaping their response more than the trial result.",
+            "zh": "熟悉程度比試行結果更影響他們的反應。"
+          },
+          {
+            "id": "c",
+            "en": "They are set in their ways about rehearsal materials.",
+            "zh": "他們對排練材料的做法固守舊習慣。"
+          },
+          {
+            "id": "d",
+            "en": "A successful trial has not yet changed their preference.",
+            "zh": "成功試行仍未改變他們的偏好。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依多年習慣與拒絕再試回答。"
+      },
+      "scene": {
+        "promptZh": "團隊多年只用同一種排班表，試用清晰的新表後仍拒絕討論，只說「向來如此」。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are set in their ways about scheduling.",
+            "zh": "他們在排班方式上固守舊習慣。"
+          },
+          {
+            "id": "b",
+            "en": "They carefully rejected the new table because its totals were wrong.",
+            "zh": "他們因新表總數錯誤而審慎拒絕。"
+          },
+          {
+            "id": "c",
+            "en": "The schedule itself is legally fixed and cannot be altered.",
+            "zh": "排班表在法律上已固定，不能更改。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「向來如此」加上多年慣例，支持抗拒改變。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is set in their ways？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She accepts a tested change after comparing its costs and benefits with the old method.",
+            "zh": "她比較新舊方法的成本與效益後，接受經測試的改動。"
+          },
+          {
+            "id": "b",
+            "en": "He repeatedly refuses workable alternatives solely because the old routine is familiar.",
+            "zh": "他只因熟悉舊慣例而反覆拒絕可行替代方法。"
+          },
+          {
+            "id": "c",
+            "en": "They will not discuss any new procedure after decades using the same one.",
+            "zh": "用了同一程序幾十年後，他們不肯討論任何新程序。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "願意依證據調整，並非固守舊習慣。"
+      },
+      "dialogue": {
+        "promptEn": "A: We have shown the new sign-in sheet works, but the committee says it will use the old one because it always has. B: ______",
+        "promptZh": "（甲：我們已示範新簽到表可行，委員會卻說一向用舊表，所以仍要用舊表。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They seem set in their ways about sign-in.",
+            "zh": "他們在簽到方式上似乎固守舊習慣。"
+          },
+          {
+            "id": "b",
+            "en": "The trial result has not shifted their preference.",
+            "zh": "試行結果仍未改變他們的偏好。"
+          },
+          {
+            "id": "c",
+            "en": "We might ask what specific concern they have about the new sheet.",
+            "zh": "我們或可問他們對新表有甚麼具體顧慮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句描述做法上的固執，仍保留查問理由的空間。"
+      },
+      "speaking": {
+        "en": "The theatre crew had always stored props by room number; after a clear category system worked for three shows, some remained set in their ways and rejected it without testing.",
+        "zh": "劇場團隊向來按房號存放道具；分類制度在三場演出中證實可行後，仍有人固守舊習慣，連測試也不願便拒絕。",
+        "promptZh": "對比舊慣例與新法證據，避免單憑一次異議貼標籤。",
+        "targetSpan": {
+          "start": 125,
+          "end": 142
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人長期使用舊方法，面對已試行的可行新法，仍只因熟悉舊法而抗拒。用英文交代長期性、證據與反應。",
+        "selfCheckZh": "兩例不可把有具體合理疑慮的反對者寫成固執。",
+        "examples": [
+          {
+            "en": "Although the new inventory search cut lookup time in half, the officers remained set in their ways and kept refusing it because they preferred the old paper index.",
+            "zh": "新庫存搜尋把查找時間減半，幹事仍固守舊習慣，只因較喜歡舊紙本索引而一直拒用。"
+          },
+          {
+            "en": "The staff had used one seating chart for years; even after a trial reduced confusion, they were set in their ways and would not discuss changing it.",
+            "zh": "職員多年使用同一座位表；試行新表減少混亂後，他們仍固守舊習慣，不肯討論改動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lookup time",
+            "zh": "查找時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 49
+            }
+          },
+          {
+            "en": "the old paper index",
+            "zh": "舊紙本索引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 162
+            }
+          },
+          {
+            "en": "one seating chart",
+            "zh": "同一座位表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 36
+            }
+          },
+          {
+            "en": "a trial",
+            "zh": "試行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 66
+            }
+          },
+          {
+            "en": "confusion",
+            "zh": "混亂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 84
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Set in their ways means resistant to changing established habits.",
+          "zh": "set in their ways 指抗拒改變已固定的習慣。"
+        },
+        {
+          "en": "Ask why someone rejects a new method before calling them set in their ways.",
+          "zh": "稱人固守舊習慣前，應先問清楚其拒絕新法的原因。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4120",
+      "number": 4120,
+      "inventoryId": "expr-4120",
+      "titleEn": "light the fuse",
+      "titleZh": "點燃興趣的火花",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:light|lights|lit|lighting) the fuse\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Trigger the start of a strong response or growing interest; context determines whether positive or negative.",
+        "meaningZh": "引發強烈反應或漸長的興趣；正面或負面須由情境判斷。",
+        "grammar": "Light the fuse is a metaphor from igniting a fuse; lit is the past tense. Often followed by of + curiosity/change or a context naming the resulting reaction.",
+        "register": "Vivid conversational or journalistic English. A museum educator may use it when discussing what sparked visitors’ inquiry.",
+        "boundaryZh": "只表示引發開端，不表示一場活動已完成或好奇心必然持續；也可用於負面衝突。",
+        "misconceptionZh": "不是要真的點火，也不能把最初刺激當作後續全部努力。",
+        "outcomeZh": "能交代引發事件、可見的初步反應及後續仍需投入。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2009",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 189,
+          "book": 15,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 205, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One encouraging teacher can light the fuse of curiosity.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "light the fuse"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A short demonstration of tide pools made the children ask how the creatures survive when the water recedes. It lit the fuse of curiosity; the teacher then gave them a field guide for deeper study.",
+        "zh": "一段潮池示範令孩子追問退潮時生物如何生存。它點燃好奇心的火花；老師其後給他們野外指南，讓他們深入研究。",
+        "promptZh": "示範起了甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sparked questions that led to further study.",
+            "zh": "它引發問題，帶動後續學習。"
+          },
+          {
+            "id": "b",
+            "en": "It answered every question the children might ever ask.",
+            "zh": "它解答孩子日後可能提出的所有問題。"
+          },
+          {
+            "id": "c",
+            "en": "It replaced the need for any field guide.",
+            "zh": "它令野外指南完全沒有必要。"
+          },
+          {
+            "id": "d",
+            "en": "It physically set fire to the tide pool.",
+            "zh": "它真的點燃了潮池。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "示範引發提問，是起點而非整個學習過程。"
+      },
+      "reply": {
+        "promptEn": "A library displays one surprising map from its archive. Visitors begin asking how the streets changed and sign up for a later talk. What did the display do first?",
+        "promptZh": "（圖書館展示一張令人驚訝的館藏地圖。參觀者開始問街道如何改變，並報名之後的講座。展示首先帶來甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It prompted questions about the streets.",
+            "zh": "它引起街道變遷的提問。"
+          },
+          {
+            "id": "b",
+            "en": "It started interest before the later talk.",
+            "zh": "它在講座前引發興趣。"
+          },
+          {
+            "id": "c",
+            "en": "It lit the fuse of curiosity about local history.",
+            "zh": "它點燃人們對本地歷史的好奇心。"
+          },
+          {
+            "id": "d",
+            "en": "The later registration followed that initial interest.",
+            "zh": "其後報名源於初步興趣。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據展示後的提問與報名作答。"
+      },
+      "scene": {
+        "promptZh": "一個簡短實驗展示水質差異，學生立即問如何量度河流，之後才展開長期調查。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The experiment lit the fuse of curiosity.",
+            "zh": "實驗點燃了好奇心的火花。"
+          },
+          {
+            "id": "b",
+            "en": "The experiment completed the whole long-term survey.",
+            "zh": "實驗已完成整個長期調查。"
+          },
+          {
+            "id": "c",
+            "en": "The students already knew every answer before seeing it.",
+            "zh": "學生觀看前已知道所有答案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短實驗引發提問，是後續調查的起點。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an event lit the fuse of curiosity？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The demonstration drew no questions or later interest, and participants did not notice it.",
+            "zh": "示範沒有引起提問或後續興趣，參加者也沒有留意。"
+          },
+          {
+            "id": "b",
+            "en": "A single image prompted visitors to ask for more information.",
+            "zh": "一張圖片令參觀者追問更多資料。"
+          },
+          {
+            "id": "c",
+            "en": "An opening question led students to investigate the topic.",
+            "zh": "一道開場問題帶領學生探索課題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有可見的興趣或後續反應，不能支持「點燃」。"
+      },
+      "dialogue": {
+        "promptEn": "A: That five-minute robot demo made the group ask for a workshop, but they have not built anything yet. B: ______",
+        "promptZh": "（甲：那五分鐘機械人示範令大家要求工作坊，但他們還未動手製作。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may have lit the fuse of curiosity; the workshop can build on it.",
+            "zh": "它可能點燃了好奇心；工作坊可在此基礎上延伸。"
+          },
+          {
+            "id": "b",
+            "en": "Their request shows an initial interest in learning more.",
+            "zh": "他們的要求顯示初步想學更多。"
+          },
+          {
+            "id": "c",
+            "en": "A workshop would give them a chance to test the ideas.",
+            "zh": "工作坊會給他們試驗想法的機會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把初步刺激與日後學習分開。"
+      },
+      "speaking": {
+        "en": "A question about an unexplained stain on the old mural lit the fuse for the conservators’ investigation, which later involved months of pigment tests.",
+        "zh": "一個關於舊壁畫不明污漬的問題，點燃修復員調查的起點；其後他們花幾個月測試顏料。",
+        "promptZh": "用引發事件與後續工作分別說明。",
+        "targetSpan": {
+          "start": 55,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個簡短刺激引起初步好奇，之後才有實際深入工作。用英文寫出觸發點、即時反應及後續步驟。",
+        "selfCheckZh": "兩例不能把起點說成整個研究已完成，也不能寫成真的點火。",
+        "examples": [
+          {
+            "en": "The opened insect collection lit the fuse of curiosity when pupils asked how wing patterns form; their teacher scheduled a microscope session.",
+            "zh": "打開昆蟲標本集後，學生追問翅膀紋理如何形成，好奇心的火花被點燃；老師便安排顯微鏡課。"
+          },
+          {
+            "en": "One audio clip lit the fuse of curiosity about the old dialect; listeners requested interviews, which the archive then planned.",
+            "zh": "一段錄音片段點燃了人們對舊方言的好奇心；聽眾要求訪談，檔案館其後着手規劃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The opened insect collection",
+            "zh": "打開的昆蟲標本集",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 28
+            }
+          },
+          {
+            "en": "wing patterns",
+            "zh": "翅膀紋理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 90
+            }
+          },
+          {
+            "en": "a microscope session",
+            "zh": "顯微鏡課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 141
+            }
+          },
+          {
+            "en": "the old dialect",
+            "zh": "舊方言",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 62
+            }
+          },
+          {
+            "en": "interviews",
+            "zh": "訪談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Light the fuse means trigger the beginning of a response.",
+          "zh": "light the fuse 指引發反應的開端。"
+        },
+        {
+          "en": "A short question can light the fuse of curiosity without completing the whole inquiry.",
+          "zh": "一道簡短問題可點燃好奇心，卻不會完成整項探究。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4128",
+      "number": 4128,
+      "inventoryId": "expr-4128",
+      "titleEn": "get past it",
+      "titleZh": "跨過障礙；走出困境",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) past (?:it|the setback|the obstacle|that hurdle)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Move beyond a specific difficulty or emotional setback so that progress can continue.",
+        "meaningZh": "跨過明確的困難或情緒挫折，使事情可以繼續向前。",
+        "grammar": "Get past + named obstacle/pronoun; get inflects got/getting. If using it, its antecedent must be clear in context.",
+        "register": "Neutral conversational English. A mentor may use it when discussing a student’s recovery from a failed attempt.",
+        "boundaryZh": "表示不再被困難卡住，不等於抹去問題或保證今後再無挑戰。",
+        "misconceptionZh": "不是身體走過某個人；單靠一句鼓勵也未必已跨過障礙。",
+        "outcomeZh": "能先明確指出 it 所指的困難，再描述有根據的下一步。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2017",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 190,
+          "book": 15,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 206, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Feedback helped her get past it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get past it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The printer’s first prototype failed a safety test. After the team found the loose cable and passed a repeat test, they got past the setback and resumed the exhibition build.",
+        "zh": "印刷設備首個原型未通過安全測試。團隊找到鬆脫電線，重測合格後，便跨過這次挫折，繼續籌備展覽。",
+        "promptZh": "他們跨過了甚麼障礙？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A failed safety test that was addressed and retested.",
+            "zh": "首次安全測試失敗，其後已處理並重測。"
+          },
+          {
+            "id": "b",
+            "en": "A delay they ignored without any further check.",
+            "zh": "一項他們未再檢查便忽略的延誤。"
+          },
+          {
+            "id": "c",
+            "en": "A problem that prevented the build forever.",
+            "zh": "一個永遠阻止展覽籌備的問題。"
+          },
+          {
+            "id": "d",
+            "en": "A visitor’s unrelated opinion about the display.",
+            "zh": "參觀者對展示的無關意見。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "找到問題並重測後，原先挫折不再卡住工作。"
+      },
+      "reply": {
+        "promptEn": "A student’s first design was rejected because measurements were wrong. She corrected them, showed the revised plan to her tutor, and began building the model. What did she manage to do?",
+        "promptZh": "（一名學生第一份設計因尺寸錯誤被退回。她更正尺寸、向導師展示修訂圖，然後開始製作模型。她做到了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She addressed the measurement problem.",
+            "zh": "她處理了尺寸問題。"
+          },
+          {
+            "id": "b",
+            "en": "The rejected draft no longer prevents the next stage.",
+            "zh": "被退回的初稿不再阻礙下一步。"
+          },
+          {
+            "id": "c",
+            "en": "She got past the setback and began the model.",
+            "zh": "她跨過挫折，開始製作模型。"
+          },
+          {
+            "id": "d",
+            "en": "A revised plan let her continue the project.",
+            "zh": "修訂圖讓她繼續計劃。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句依修正尺寸及恢復工作回答；金句指跨過明確挫折。"
+      },
+      "scene": {
+        "promptZh": "報告初稿因資料來源不足被退回，團隊補齊來源並獲准進入排版階段。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They got past the obstacle and continued the report.",
+            "zh": "他們跨過障礙，繼續完成報告。"
+          },
+          {
+            "id": "b",
+            "en": "The lack of sources remained unresolved throughout.",
+            "zh": "來源不足的問題一直未解決。"
+          },
+          {
+            "id": "c",
+            "en": "The first rejection guarantees no further revision will ever be needed.",
+            "zh": "首次被退回保證往後永不用修改。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "障礙獲處理，工作得以繼續。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a team got past a setback？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The blocking error remains unexamined, and the team cannot start the next stage.",
+            "zh": "阻礙進度的錯誤仍未檢查，團隊無法開始下一步。"
+          },
+          {
+            "id": "b",
+            "en": "They revise the measurements and receive approval to continue.",
+            "zh": "他們修正尺寸，獲准繼續。"
+          },
+          {
+            "id": "c",
+            "en": "They find a workable route around the supply problem and resume the task.",
+            "zh": "他們找到可行方法應對物資問題，恢復工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題仍阻塞進度，便未能說已跨過。"
+      },
+      "dialogue": {
+        "promptEn": "A: The grant application was returned because one figure lacked a source, but we supplied the citation and the office accepted the revision. B: ______",
+        "promptZh": "（甲：資助申請因一項數字缺來源被退回，但我們補上引註，辦事處接受了修訂。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You got past that hurdle and can continue the application.",
+            "zh": "你們跨過那道障礙，可以繼續申請。"
+          },
+          {
+            "id": "b",
+            "en": "The missing citation is no longer blocking review.",
+            "zh": "缺少引註已不再阻礙審查。"
+          },
+          {
+            "id": "c",
+            "en": "The office’s acceptance lets the process move forward.",
+            "zh": "辦事處接受修訂，程序可以繼續。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句的障礙有清楚所指，亦有解決的證據。"
+      },
+      "speaking": {
+        "en": "The rehearsal venue closed unexpectedly; after securing another accessible room, the ensemble got past it and kept the concert schedule.",
+        "zh": "排練場地突然關閉；樂團找到另一個無障礙房間後，跨過這個障礙，維持音樂會日程。",
+        "promptZh": "it 應有明確前文所指，並交代如何繼續。",
+        "targetSpan": {
+          "start": 94,
+          "end": 105
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人面對具體阻礙，採取可核實的行動後得以繼續。用英文指出障礙、解決方法與下一步。",
+        "selfCheckZh": "若使用 it，前文必須明確指出所指；不要把未解決的問題當成已跨過。",
+        "examples": [
+          {
+            "en": "The permits were delayed by a missing sketch; after Lina submitted the drawing, the team got past it and scheduled the site visit.",
+            "zh": "許可證因缺少草圖而延誤；莉娜提交圖紙後，團隊跨過障礙，安排實地視察。"
+          },
+          {
+            "en": "A damaged display panel stopped installation, but the crew replaced it, got past the setback and opened the gallery on time.",
+            "zh": "展示板受損令安裝停下；團隊換板後跨過挫折，畫廊按時開放。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a missing sketch",
+            "zh": "缺少草圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 44
+            }
+          },
+          {
+            "en": "the drawing",
+            "zh": "圖紙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 78
+            }
+          },
+          {
+            "en": "the site visit",
+            "zh": "實地視察",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 129
+            }
+          },
+          {
+            "en": "A damaged display panel",
+            "zh": "受損的展示板",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "installation",
+            "zh": "安裝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 44
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Get past it means move beyond a specific, clearly identified difficulty.",
+          "zh": "get past it 指跨過前文已明確指出的困難。"
+        },
+        {
+          "en": "A useful fix can help a team get past the setback and continue.",
+          "zh": "有效的修正可幫助團隊跨過挫折並繼續工作。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4140",
+      "number": 4140,
+      "inventoryId": "expr-4140",
+      "titleEn": "mental snapshot",
+      "titleZh": "腦海中的一幕",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:a |the )?mental snapshot\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A brief, vivid remembered image of a moment, rather than a complete record of events.",
+        "meaningZh": "腦海中短暫而鮮明的一幕，不是事件的完整紀錄。",
+        "grammar": "Mental snapshot is a countable noun phrase: a mental snapshot of + scene. Avoid redundant wording such as a photograph left a snapshot I recall.",
+        "register": "Reflective conversational English. A traveller may use it when recalling a moment with a friend.",
+        "boundaryZh": "重點是某一瞬間的視覺記憶，不能當作可靠的完整證據或逐秒錄影。",
+        "misconceptionZh": "不是實體相片，也不表示每個細節都準確無誤。",
+        "outcomeZh": "能指出留在腦中的具體一幕，同時承認細節可能需核實。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2029",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 191,
+          "book": 15,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 208, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "That photograph left a mental snapshot I could still recall.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mental snapshot"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the ferry pier, Niko saw a child return a dropped scarf to a stranger just as the boat lights came on. He kept a mental snapshot of that small exchange, though he could not later recall the exact time.",
+        "zh": "在渡輪碼頭，尼科看見孩子把掉下的圍巾還給陌生人，剛好船燈亮起。他腦中留下那短暫一幕，但後來已記不起確切時間。",
+        "promptZh": "他的記憶有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He retains a vivid scene but not every detail.",
+            "zh": "他記得鮮明的一幕，卻非所有細節。"
+          },
+          {
+            "id": "b",
+            "en": "He has a full video of the whole evening.",
+            "zh": "他有整晚的完整錄影。"
+          },
+          {
+            "id": "c",
+            "en": "He can prove the exact minute from memory alone.",
+            "zh": "他只憑記憶便能證實確切分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "He never noticed what happened at the pier.",
+            "zh": "他完全沒留意碼頭發生的事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一幕可鮮明，同時不等於完整或精確紀錄。"
+      },
+      "reply": {
+        "promptEn": "During a storm, Eva remembers the sight of neighbours holding a door open for one another, but not the order of every later event. What does she retain?",
+        "promptZh": "（暴風雨期間，伊娃記得鄰居互相扶住大門的一幕，但不記得後來每件事的先後。她保留了甚麼記憶？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A vivid image of one moment.",
+            "zh": "某一刻鮮明的畫面。"
+          },
+          {
+            "id": "b",
+            "en": "A scene she can describe without a complete timeline.",
+            "zh": "她能描述的一幕，卻沒有完整時間線。"
+          },
+          {
+            "id": "c",
+            "en": "A mental snapshot of the neighbours helping.",
+            "zh": "鄰居互相幫助的一幕腦海影像。"
+          },
+          {
+            "id": "d",
+            "en": "A remembered scene rather than a full record.",
+            "zh": "記得的一幕，而非完整紀錄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認單一畫面與不完整時間線。"
+      },
+      "scene": {
+        "promptZh": "志願者記得開幕時一位小孩把第一本書交給祖母的畫面，但不記得整場活動的次序。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept a mental snapshot of that moment.",
+            "zh": "她腦海中留下了那一幕。"
+          },
+          {
+            "id": "b",
+            "en": "She has an exact recording of every minute.",
+            "zh": "她掌握了每分鐘的準確錄影。"
+          },
+          {
+            "id": "c",
+            "en": "Remembering one scene proves all later details.",
+            "zh": "記得一幕便能證明往後所有細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "腦中留下鮮明的單一畫面。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 a mental snapshot？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A complete written list of every event, with no image or remembered scene.",
+            "zh": "只有每件事的完整文字清單，沒有腦海畫面或記得的一幕。"
+          },
+          {
+            "id": "b",
+            "en": "A vivid memory of one person waving from a station platform.",
+            "zh": "鮮明記得某人在車站月台揮手的一幕。"
+          },
+          {
+            "id": "c",
+            "en": "A brief image of a lantern lighting up a dark room.",
+            "zh": "短暫記得燈籠照亮暗室的畫面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完整文字清單不同於腦海中的短暫畫面。"
+      },
+      "dialogue": {
+        "promptEn": "A: I remember the moment the new library sign was lifted into place, but not who spoke next. B: ______",
+        "promptZh": "（甲：我記得新圖書館標示牌吊到定位的那一刻，但不記得之後誰說話。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You kept a mental snapshot of the sign going up.",
+            "zh": "標示牌升起的一幕留在你腦海中。"
+          },
+          {
+            "id": "b",
+            "en": "That one scene sounds especially vivid to you.",
+            "zh": "對你來說，那一幕似乎特別鮮明。"
+          },
+          {
+            "id": "c",
+            "en": "We could check the event record for the later sequence.",
+            "zh": "之後的次序可以查活動紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出單一視覺記憶，不冒充完整紀錄。"
+      },
+      "speaking": {
+        "en": "The dancer kept a mental snapshot of the empty stage just before the audience entered, though she later checked the programme to confirm the sequence.",
+        "zh": "舞者腦海中留下觀眾入場前空舞台的一幕；其後她仍查節目表確認活動次序。",
+        "promptZh": "以具體一幕表達記憶，不與實體照片或完整紀錄混淆。",
+        "targetSpan": {
+          "start": 16,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各記得一個鮮明瞬間，但不掌握整段事件的所有細節。用英文寫出畫面及記憶限制。",
+        "selfCheckZh": "兩例要有具體視覺一幕，不可寫成照片本身或逐秒錄影。",
+        "examples": [
+          {
+            "en": "A mental snapshot of the lanterns reflected in the rain stayed with Ben, though he could not recall which song played next.",
+            "zh": "燈籠映在雨水中的一幕留在本腦海，雖然他記不起之後播甚麼歌。"
+          },
+          {
+            "en": "Luz kept a mental snapshot of the first seedlings appearing in the shared plot, but checked her diary for the date.",
+            "zh": "盧絲腦海中留下共耕田第一批幼苗冒出的畫面，但日期仍要查日記。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the lanterns",
+            "zh": "燈籠",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 33
+            }
+          },
+          {
+            "en": "the rain",
+            "zh": "雨水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 55
+            }
+          },
+          {
+            "en": "which song",
+            "zh": "哪首歌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 110
+            }
+          },
+          {
+            "en": "the first seedlings",
+            "zh": "第一批幼苗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 49
+            }
+          },
+          {
+            "en": "her diary",
+            "zh": "她的日記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A mental snapshot is a vivid remembered image, not a complete record.",
+          "zh": "a mental snapshot 是腦海中的鮮明一幕，不是完整紀錄。"
+        },
+        {
+          "en": "A date may need checking even when a mental snapshot feels clear.",
+          "zh": "即使腦海畫面清晰，日期仍可能需要查核。"
+        }
+      ]
+    }
+  ]
+}

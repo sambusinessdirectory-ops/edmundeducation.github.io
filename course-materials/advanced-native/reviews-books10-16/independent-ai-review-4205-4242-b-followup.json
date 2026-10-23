@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up",
+  "initialReport": "reviews-books10-16/independent-ai-review-4205-4242-b-initial.json",
+  "initialReportSha256": "69a200b93e8614d6abea9467695589f3830333e108f558888e9270e1b1501745",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4205-4242-review-pilot.json",
+    "sha256": "24731beed17df753cc94408d0b1dec1b38c59f0c46e4ca18740e4158e6739d98"
+  },
+  "status": "content-clear-for-provisional-selection",
+  "findingsResolved": [
+    {
+      "id": "R4208-01",
+      "evidence": "The listening audio says 'standing on the sidelines' and promptZh now asks about that heard form. Source 4208/alias 4293 still teach watch from and stand on as same-sense variants."
+    },
+    {
+      "id": "R4235-01",
+      "evidence": "Brief, dialogue, listening and both writing models now require evidence-based, confirmed correct answers, matching source gloss. Both models compare negatives A and B with the shooting/weather records and original files, confirm B is from June, and only then use 'arrived at the answer'. English and Traditional Chinese align."
+    }
+  ],
+  "residual4235WritingGap": "An intermediate revision omitted negative A from both models despite the A/B prompt. Final revision 3 includes A and B in both English and Chinese models; all six glossary slices equal their recorded phrases.",
+  "validation": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "scope": "Exact-hash review of changed 4208 listening and 4235 brief/listening/dialogue/writing, plus glossary slices and target/source continuity; unchanged lessons inherit the initial risk-based screen. This does not imply human approval or release certification."
+  },
+  "remainingFindings": []
+}

@@ -1,0 +1,176 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:52:14.133846+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4248-4253-a.json",
+      "sha256": "1fbd7a9f46a508a3e6facc5a48a02a0830dd0e8a089bf6fb12b3ab92feb8b1fe"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4263-4273-a.json",
+      "sha256": "9621adc26e243d8b6ce35aafb0da04f9f9a35cbf0da4d9671f5f624e9e2af526"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "560b8719ce5aa530549dc9a0814c758bd2fef8560f8acb1ef07bad243974d709",
+    "cc21cf0f64301773d50d31eb9c9464a1009389a4f5aa95cede7ec99e07add8d3"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 208,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 0
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "semanticNotes": {
+    "4248": "Sudden comprehension after a clue, not copying an answer.",
+    "4250": "Belittlement and learner withdrawal, not respectful specific correction.",
+    "4252": "Interpersonal silencing after dismissal, not device shutdown or polite disagreement.",
+    "4253": "Perseverance after revision with outcome still pending.",
+    "4263": "Before/after evidence of reduced engagement; new format untested.",
+    "4264": "Concrete variation of routine and subsequent evaluation.",
+    "4265": "Observable warming of social atmosphere, not physical lighting.",
+    "4273": "Mistaken belief, concrete clarification and listener confirmation."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4248,
+      "sourceId": "book10-16-2137",
+      "sourceExpression": "the penny finally drops",
+      "sourceExample": "After another diagram, the penny finally drops.",
+      "file": "batch-4248-4253-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4250,
+      "sourceId": "book10-16-2139",
+      "sourceExpression": "make students feel small",
+      "sourceExample": "Public criticism can make students feel small.",
+      "file": "batch-4248-4253-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4252,
+      "sourceId": "book10-16-2141",
+      "sourceExpression": "shut them down",
+      "sourceExample": "Mockery may shut them down for the rest of class.",
+      "file": "batch-4248-4253-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4253,
+      "sourceId": "book10-16-2142",
+      "sourceExpression": "without losing heart",
+      "sourceExample": "She tried again without losing heart.",
+      "file": "batch-4248-4253-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4263,
+      "sourceId": "book10-16-2152",
+      "sourceExpression": "lose its spark",
+      "sourceExample": "The subject may lose its spark without variety.",
+      "file": "batch-4263-4273-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4264,
+      "sourceId": "book10-16-2153",
+      "sourceExpression": "mix things up",
+      "sourceExample": "Teachers can mix things up with role-play.",
+      "file": "batch-4263-4273-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4265,
+      "sourceId": "book10-16-2154",
+      "sourceExpression": "light up a room",
+      "sourceExample": "Her enthusiasm can light up a room.",
+      "file": "batch-4263-4273-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4273,
+      "sourceId": "book10-16-2162",
+      "sourceExpression": "clear up misunderstandings",
+      "sourceExample": "The teacher stayed late to clear up misunderstandings.",
+      "file": "batch-4263-4273-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    }
+  ]
+}

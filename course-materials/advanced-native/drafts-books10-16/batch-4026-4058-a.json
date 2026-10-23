@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4026",
+      "number": 4026,
+      "inventoryId": "expr-4026",
+      "titleEn": "the bar is incredibly high",
+      "titleZh": "門檻非常高",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe bar (?:is|was|has been|will be) (?:incredibly|very|extremely) high\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The standard required to qualify or succeed is demanding.",
+        "meaningZh": "要達標或入選所需的標準非常嚴格。",
+        "grammar": "The bar is high uses bar as a metaphor for a required standard; incredibly intensifies high. Say the bar for a role/award is high, not a physical bar.",
+        "register": "Neutral evaluative English. A selection-panel member may use it when explaining criteria to applicants.",
+        "boundaryZh": "高門檻表示標準嚴格，並不表示申請者一定無法達標；須有具體準則支持。",
+        "misconceptionZh": "不是物理橫桿的高度，也不等於評審任意刁難。",
+        "outcomeZh": "能指出入選標準與具體證據，避免把高要求說成不可能。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1915",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 181,
+          "book": 15,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At national level, the bar is incredibly high.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the bar is incredibly high"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The fellowship asks applicants to submit two published studies and lead a community project. The bar is incredibly high, but several candidates still meet both published-work and leadership criteria.",
+        "zh": "該研究資助要求申請人提交兩篇已發表研究，並主持一項社區計劃。門檻非常高，但仍有幾位申請人同時符合研究與領導準則。",
+        "promptZh": "為何說門檻很高？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Applicants must satisfy demanding research and leadership criteria.",
+            "zh": "申請人須符合嚴格的研究與領導準則。"
+          },
+          {
+            "id": "b",
+            "en": "The criteria consist only of a short form anyone can submit.",
+            "zh": "準則只是一份任何人都可交的簡單表格。"
+          },
+          {
+            "id": "c",
+            "en": "No candidate is permitted to qualify regardless of merit.",
+            "zh": "無論能力如何，都不容許任何人達標。"
+          },
+          {
+            "id": "d",
+            "en": "The community project replaces the published-study requirement.",
+            "zh": "社區計劃取代已發表研究的要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩項具體要求支持高門檻，但仍有人達標。"
+      },
+      "reply": {
+        "promptEn": "A music residency admits performers who have completed a public recital and can demonstrate ensemble leadership. Only a few applicants meet both standards. How would you describe entry?",
+        "promptZh": "（一項音樂駐留計劃只收錄已完成公開演奏、又能展示合奏領導能力的表演者。只有少數申請人同時達標。你會如何形容入選要求？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The residency has demanding entry standards.",
+            "zh": "駐留計劃有嚴格入選標準。"
+          },
+          {
+            "id": "b",
+            "en": "Applicants need both performance and leadership evidence.",
+            "zh": "申請人須提供演奏與領導能力的證據。"
+          },
+          {
+            "id": "c",
+            "en": "The bar is incredibly high for this residency.",
+            "zh": "這項駐留計劃的門檻非常高。"
+          },
+          {
+            "id": "d",
+            "en": "Meeting just one of the two criteria is insufficient.",
+            "zh": "只符合兩項準則之一並不足夠。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆根據兩項入選條件回答；金句使用門檻比喻。"
+      },
+      "scene": {
+        "promptZh": "獎項只接受已有兩個完成項目及一封獨立推薦信的申請者，但確有少數人符合。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bar is incredibly high for the award.",
+            "zh": "該獎項的門檻非常高。"
+          },
+          {
+            "id": "b",
+            "en": "No one can qualify because all awards are impossible.",
+            "zh": "所有獎項都不可能達標，所以沒有人能入選。"
+          },
+          {
+            "id": "c",
+            "en": "The award has no stated standard.",
+            "zh": "該獎項沒有任何明訂標準。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體而嚴格的入選條件支持高門檻。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the bar is incredibly high？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The only condition is entering a name before Friday, and nearly everyone who applies qualifies.",
+            "zh": "唯一條件是星期五前填姓名，幾乎每位申請人都合資格。"
+          },
+          {
+            "id": "b",
+            "en": "Applicants must pass two specialist assessments and show field experience.",
+            "zh": "申請人須通過兩項專業評估並具實務經驗。"
+          },
+          {
+            "id": "c",
+            "en": "Only a few meet the documented technical and leadership criteria.",
+            "zh": "只有少數人符合明訂的技術與領導準則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "簡單條件及大量人達標，不能支持門檻非常高。"
+      },
+      "dialogue": {
+        "promptEn": "A: The new archive post requires language certification and three years of conservation work. B: ______",
+        "promptZh": "（甲：新設檔案館職位要求語言證書及三年修復工作經驗。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bar is incredibly high for that post.",
+            "zh": "該職位的門檻非常高。"
+          },
+          {
+            "id": "b",
+            "en": "Applicants will need evidence for two different requirements.",
+            "zh": "申請人須證明符合兩類要求。"
+          },
+          {
+            "id": "c",
+            "en": "That experience condition may narrow the candidate pool.",
+            "zh": "該經驗要求可能令合資格人選變少。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句用具體要求支持高門檻，而非說無人能勝任。"
+      },
+      "speaking": {
+        "en": "For the restoration grant, the bar is incredibly high: teams must show tested materials, a full budget and a plan for public access.",
+        "zh": "這項修復資助的門檻非常高：團隊須展示已測試的材料、完整預算及公眾使用計劃。",
+        "promptZh": "列出可核實的嚴格準則。",
+        "targetSpan": {
+          "start": 27,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項競爭性申請設有多項明確嚴格條件，但仍有人可能達標。用英文寫出標準與判斷。",
+        "selfCheckZh": "兩例要有具體入選準則，不可只說「很難」或「絕不可能」。",
+        "examples": [
+          {
+            "en": "The bar is incredibly high for the city choir: applicants must read new scores and lead a section in rehearsal.",
+            "zh": "市合唱團的門檻非常高：申請人須能即席讀新樂譜，並在排練中帶領一個聲部。"
+          },
+          {
+            "en": "For the research placement, the bar is incredibly high because candidates need a field report and a verified safety qualification.",
+            "zh": "這項研究實習的門檻非常高，因為候選人須交實地報告及經核實的安全資格。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new scores",
+            "zh": "新樂譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 78
+            }
+          },
+          {
+            "en": "a section",
+            "zh": "一個聲部",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 97
+            }
+          },
+          {
+            "en": "the research placement",
+            "zh": "研究實習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 26
+            }
+          },
+          {
+            "en": "a field report",
+            "zh": "實地報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 93
+            }
+          },
+          {
+            "en": "a verified safety qualification",
+            "zh": "經核實的安全資格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The bar is incredibly high when entry standards are demanding.",
+          "zh": "the bar is incredibly high 指入選標準非常嚴格。"
+        },
+        {
+          "en": "Even when the bar is incredibly high, a qualified applicant may meet it.",
+          "zh": "即使門檻非常高，合資格申請人仍可能達標。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4047",
+      "number": 4047,
+      "inventoryId": "expr-4047",
+      "titleEn": "grow out of clothes",
+      "titleZh": "長大到衣服不合身",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:grow|grows|grew|growing|grown) out of (?:(?:my|your|his|her|our|their|the) )?clothes\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become physically too large for clothes that once fitted, usually through growth.",
+        "meaningZh": "身體長大，令原本合身的衣服變得太小。",
+        "grammar": "Grow out of + clothes; grow inflects grew/grown. A possessive may be used: grew out of her clothes. This sense concerns size, not taste.",
+        "register": "Neutral everyday English. A parent might use it when arranging a uniform exchange with another parent.",
+        "boundaryZh": "必須是身形變化令衣服太小；若只是嫌款式過時或衣服縮水，原因不同。",
+        "misconceptionZh": "不是從衣服裏真的長出來，也不等於不再喜歡原有衣服。",
+        "outcomeZh": "能說明原本合身、後來尺寸不足，以及可如何處理衣物。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1936",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 183,
+          "book": 15,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 197, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children grow out of clothes remarkably quickly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow out of clothes"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "Sima’s school jumper and trousers fitted in September, but by spring the sleeves no longer reached her wrists and the trouser legs ended above her ankles. She had grown out of her clothes. Her family passed both to the uniform exchange.",
+        "zh": "西瑪的校服毛衣和長褲九月仍合身，但到春天袖口已不到手腕，褲腳也高於腳踝。她長大了，舊衣服變得太小，家人把兩件都交給校服交換活動。",
+        "promptZh": "為何要換衣服？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Growth made a once-fitting jumper and trousers too small.",
+            "zh": "身體長大令原本合身的毛衣和長褲變小。"
+          },
+          {
+            "id": "b",
+            "en": "The jumper was rejected only because the colour was unfashionable.",
+            "zh": "毛衣被換走只是因為顏色不時髦。"
+          },
+          {
+            "id": "c",
+            "en": "The family had never checked whether it fitted.",
+            "zh": "家人從未檢查毛衣是否合身。"
+          },
+          {
+            "id": "d",
+            "en": "The sleeves became longer as she grew.",
+            "zh": "她長高後袖子變得更長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本合身而後來袖子太短，是尺寸隨成長變化。"
+      },
+      "reply": {
+        "promptEn": "A child wore the same sports top and trousers last term. This term, the top is tight across the shoulders and the trousers stop above the ankles, though the fabric has not shrunk. What has happened?",
+        "promptZh": "（一名孩子上學期穿同一套運動上衣和長褲。這學期上衣肩部太緊，褲腳也到不了腳踝，布料卻沒有縮水。發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The child’s growth has made the kit too small.",
+            "zh": "孩子長大了，運動服變得太小。"
+          },
+          {
+            "id": "b",
+            "en": "The top and trousers fitted before but are now too small.",
+            "zh": "上衣和長褲以前合身，如今都太小。"
+          },
+          {
+            "id": "c",
+            "en": "The child has grown out of the clothes.",
+            "zh": "孩子已長大到衣服不合身。"
+          },
+          {
+            "id": "d",
+            "en": "A larger size may now be needed.",
+            "zh": "現在可能要較大的尺碼。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆按原本合身、現在過短作答；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "小朋友去年穿得下的雨衣和校服襯衫，今年袖子及下襬都太短，但布料沒有縮水。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The child has grown out of the clothes.",
+            "zh": "孩子長大了，衣服已不合身。"
+          },
+          {
+            "id": "b",
+            "en": "The child dislikes the colours, so both garments changed size.",
+            "zh": "孩子不喜歡顏色，所以兩件衣服的尺寸改變。"
+          },
+          {
+            "id": "c",
+            "en": "The raincoat and shirt became larger as the child grew.",
+            "zh": "孩子長大後，雨衣和襯衫本身也變大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "尺寸不足與身體成長相符。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a child grew out of clothes？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The jacket still fits; the child only prefers a different colour.",
+            "zh": "外套仍合身，孩子只是較喜歡另一種顏色。"
+          },
+          {
+            "id": "b",
+            "en": "A once-fitting shirt and jacket are now too tight across the shoulders.",
+            "zh": "以前合身的襯衫和外套如今肩部都太緊。"
+          },
+          {
+            "id": "c",
+            "en": "Last year’s trousers and coat now end well above the ankles and wrists.",
+            "zh": "去年的褲子和外套如今褲腳與袖口都太短。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "偏好改變但尺寸仍合身，不是因長大而穿不下。"
+      },
+      "dialogue": {
+        "promptEn": "A: These clean uniforms fitted Anya last year, but the sleeves are far too short now. B: ______",
+        "promptZh": "（甲：這些乾淨校服去年仍合安雅身，但現在袖子短得多。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has grown out of the clothes; the exchange may take them.",
+            "zh": "她長大了，衣服不合身；交換活動或可收下。"
+          },
+          {
+            "id": "b",
+            "en": "The short sleeves suggest she needs a larger size.",
+            "zh": "袖子變短，表示她可能要較大尺碼。"
+          },
+          {
+            "id": "c",
+            "en": "Someone else could use the uniforms if they are still in good condition.",
+            "zh": "校服若仍完好，別人或可使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把成長、尺寸與衣物轉贈連起來。"
+      },
+      "speaking": {
+        "en": "The younger hikers grew out of their clothes over the year: their coats were tight and their trousers too short, so the club checked sizes before the autumn trip.",
+        "zh": "年輕遠足者一年間長大，舊衣服不合身：外套變緊，褲子變短，因此社團在秋季旅程前檢查尺碼。",
+        "promptZh": "說明原先合身與後來尺寸不足，而非品味轉變。",
+        "targetSpan": {
+          "start": 19,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名孩子先前穿得下的衣服，因身體長大而太小。用英文寫出可見的尺寸線索及後續處理。",
+        "selfCheckZh": "兩例須是成長造成尺寸不足，不可把喜好改變或布料縮水當同一意思。",
+        "examples": [
+          {
+            "en": "After the summer, Ivo grew out of his clothes: his school shirt sleeves and shorts were too short, so his family looked for larger sizes.",
+            "zh": "暑假後，伊沃長大了，舊衣服不合身：校服襯衫袖子和短褲都太短，家人於是尋找較大尺碼。"
+          },
+          {
+            "en": "Mina grew out of her clothes during the school year; her old coat no longer closed comfortably and her uniform skirt was too short, so she offered both to the uniform swap.",
+            "zh": "這學年米娜長大了，舊衣服不合身；舊外套如今扣不起來，校服裙也太短，她便把兩件都交給校服交換活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shirt sleeves",
+            "zh": "襯衫袖子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 71
+            }
+          },
+          {
+            "en": "school shirt",
+            "zh": "校服襯衫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 63
+            }
+          },
+          {
+            "en": "larger sizes",
+            "zh": "較大尺碼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 136
+            }
+          },
+          {
+            "en": "her old coat",
+            "zh": "舊外套",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 65
+            }
+          },
+          {
+            "en": "the uniform swap",
+            "zh": "校服交換活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 155,
+              "end": 171
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Grow out of clothes means become too big for garments that fitted before.",
+          "zh": "grow out of clothes 指長大後穿不下原本合身的衣服。"
+        },
+        {
+          "en": "A change of taste alone does not mean someone grew out of their clothes.",
+          "zh": "單是品味改變，不等於身體長大到衣服不合身。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4051",
+      "number": 4051,
+      "inventoryId": "expr-4051",
+      "titleEn": "importance they attach to fashion",
+      "titleZh": "對時尚的重視程度",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bimportance (?:they|we|people) attach to fashion\\b|\\bimportance (?:she|he) attaches to fashion\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The degree of value or significance someone gives to fashion in choices or identity.",
+        "meaningZh": "某人在選擇或自我表達中賦予時尚多少重要性。",
+        "grammar": "Attach importance to + topic; in a noun phrase, say the importance they attach to fashion. Attach agrees with the subject: she attaches. Importance is figuratively assigned, not physically attached.",
+        "register": "Neutral analytical English. A survey researcher might use it when discussing shopping priorities with colleagues.",
+        "boundaryZh": "重視時尚的程度可因人而異，不等於某一代人全部一樣，也不等於所有人都買昂貴品牌。",
+        "misconceptionZh": "不是把重要性黏在衣服上；不能只憑購買次數推定整體價值觀。",
+        "outcomeZh": "能指出調查中的人、時尚在其選擇中的分量及其他可能因素。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1940",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 183,
+          "book": 15,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 197, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The importance they attach to fashion varies by age.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "importance they attach to fashion"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "In the survey, some theatre volunteers chose durable plain uniforms while others valued a distinctive look. The importance they attach to fashion differs, even though both groups care about comfort.",
+        "zh": "調查中，有些劇場義工選耐穿的素色制服，另一些較重視獨特外觀。兩組人對時尚的重視程度不同，但都在意穿得舒適。",
+        "promptZh": "調查顯示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The groups give fashion different weight while sharing a concern for comfort.",
+            "zh": "兩組人對時尚重視程度不同，但都在意舒適。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone in the survey values appearance in exactly the same way.",
+            "zh": "調查中每人對外觀的重視程度完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Choosing plain uniforms proves a person rejects all design.",
+            "zh": "選素色制服便證明那人完全拒絕設計。"
+          },
+          {
+            "id": "d",
+            "en": "Comfort plays no part in either group’s choice.",
+            "zh": "兩組人的選擇都與舒適無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩組的外觀偏好不同，但共同在意舒適，不能一概而論。"
+      },
+      "reply": {
+        "promptEn": "A student poll finds some buyers rank style first while others rank price and durability first. All groups can still appreciate attractive clothes. What does the poll reveal?",
+        "promptZh": "（學生調查發現，有些買家先看款式，有些則先看價格和耐用程度。各組仍可欣賞漂亮衣服。調查反映甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "People do not all rank style equally.",
+            "zh": "人們並非同樣重視款式。"
+          },
+          {
+            "id": "b",
+            "en": "Some buyers give price or durability more weight.",
+            "zh": "有些買家較重視價格或耐用程度。"
+          },
+          {
+            "id": "c",
+            "en": "The importance they attach to fashion varies.",
+            "zh": "他們對時尚的重視程度各有不同。"
+          },
+          {
+            "id": "d",
+            "en": "Enjoying attractive clothes does not require making style the first priority.",
+            "zh": "欣賞漂亮衣服，不代表把款式放首位。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述相對權重；金句自然表達重視程度。"
+      },
+      "scene": {
+        "promptZh": "問卷中，甲組選制服時先看款式，乙組先看耐穿程度；兩組都可接受好看的衣服。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The importance they attach to fashion is different.",
+            "zh": "他們對時尚的重視程度不同。"
+          },
+          {
+            "id": "b",
+            "en": "The two groups must dislike each other because their rankings differ.",
+            "zh": "兩組排序不同，所以必定互相討厭。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone places style above practical concerns.",
+            "zh": "所有人都把款式放在實用考慮之上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "款式相對於耐用度的排序不同。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明 the importance someone attaches to fashion？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A researcher sees one receipt but knows nothing about the buyer’s reasons or competing priorities.",
+            "zh": "研究者只看到一張收據，卻不知道買家的原因或其他優先考慮。"
+          },
+          {
+            "id": "b",
+            "en": "A buyer ranks style above price in several explained decisions.",
+            "zh": "買家在幾次解釋過的選擇中都把款式排在價格之前。"
+          },
+          {
+            "id": "c",
+            "en": "A participant says she chooses durable clothes even when a trend appeals to her.",
+            "zh": "參加者說即使潮流吸引，仍會選耐穿的衣服。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單張收據不足以推斷時尚在整體決策中的分量。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our interviews show that Rina checks style first, while Tao checks repairability first. B: ______",
+        "promptZh": "（甲：訪談顯示，麗娜先看款式，陶先看能否修補。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The importance they attach to fashion seems to differ.",
+            "zh": "他們對時尚的重視程度似乎不同。"
+          },
+          {
+            "id": "b",
+            "en": "Their first priorities are not the same.",
+            "zh": "他們的首要考慮不同。"
+          },
+          {
+            "id": "c",
+            "en": "We should ask whether both also weigh cost and comfort.",
+            "zh": "我們也應問兩人是否考慮價格與舒適。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出相對重視程度，沒有過度歸納。"
+      },
+      "speaking": {
+        "en": "The questionnaire asked people to rank comfort, cost and style, making the importance they attach to fashion easier to compare.",
+        "zh": "問卷請人們把舒適、價格和款式排序，因此較容易比較他們對時尚的重視程度。",
+        "promptZh": "指出比較依據，而不是以單次購買推論整體偏好。",
+        "targetSpan": {
+          "start": 75,
+          "end": 108
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人選衣時給款式與其他因素不同權重。用英文交代人、比較準則及有限度結論。",
+        "selfCheckZh": "兩例要有清楚的排序或理由；不可把某年齡或職業全部歸為同一看法。",
+        "examples": [
+          {
+            "en": "In the costume survey, older performers ranked comfort first while some younger performers ranked visual impact first; the importance they attach to fashion differed within the cast.",
+            "zh": "服裝調查中，年長演員先看舒適，有些年輕演員先看視覺效果；劇組內各人對時尚的重視程度不同。"
+          },
+          {
+            "en": "Across three purchases, one family ranked repairability above style, while another ranked new-season design first; the importance they attach to fashion seemed different, though both checked the price.",
+            "zh": "在三次購買中，一家人把能否修補排在款式之前，另一家則把當季設計放在首位；兩家對時尚的重視程度似乎不同，但都留意價格。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the costume survey",
+            "zh": "服裝調查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 3,
+              "end": 21
+            }
+          },
+          {
+            "en": "visual impact",
+            "zh": "視覺效果",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 111
+            }
+          },
+          {
+            "en": "within the cast",
+            "zh": "劇組內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 166,
+              "end": 181
+            }
+          },
+          {
+            "en": "repairability above style",
+            "zh": "能否修補優先於款式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 67
+            }
+          },
+          {
+            "en": "the price",
+            "zh": "價格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 191,
+              "end": 200
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The importance they attach to fashion means the weight they give style in a decision.",
+          "zh": "the importance they attach to fashion 指他們在決策中給款式多少分量。"
+        },
+        {
+          "en": "Ask about competing priorities before judging the importance people attach to fashion.",
+          "zh": "判斷人們對時尚的重視程度前，應先問清楚其他優先考慮。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4058",
+      "number": 4058,
+      "inventoryId": "expr-4058",
+      "titleEn": "throwaway culture",
+      "titleZh": "用完即棄文化",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:a )?throwaway culture\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A pattern of buying and discarding goods quickly instead of maintaining, reusing or repairing them.",
+        "meaningZh": "購買後很快丟棄物品，而非保養、再用或修理的消費習慣。",
+        "grammar": "Throwaway modifies culture as an adjective; a throwaway culture refers to the wider social habit, not a single discarded object.",
+        "register": "Neutral-to-critical analytical English. An environmental educator may use it when discussing repair habits with students.",
+        "boundaryZh": "強調一種反覆出現的社會或群體習慣；丟棄一件已無法安全使用的物品，未必足以代表這種文化。",
+        "misconceptionZh": "不是把「文化」當物件丟掉，也不表示每件用品都必須維修。",
+        "outcomeZh": "能指出反覆即棄的行為及可行的保養或再用替代方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1947",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 184,
+          "book": 15,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 198, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Cheap packaging can encourage a throwaway culture.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throwaway culture"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the neighbourhood fair, visitors compared a broken lamp repaired for years with cheap lamps replaced after minor faults. The organisers used the contrast to discuss a throwaway culture and opened a repair desk.",
+        "zh": "在社區嘉年華，參加者比較一盞多年來持續修理的燈，與出現小毛病便換掉的廉價燈。主辦方藉此討論用完即棄文化，並設立維修攤位。",
+        "promptZh": "主辦方討論甚麼習慣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Replacing goods after small faults rather than considering repair.",
+            "zh": "物品出現小毛病後就更換，而不考慮修理。"
+          },
+          {
+            "id": "b",
+            "en": "Discarding one unsafe lamp after expert inspection.",
+            "zh": "經專家檢查後丟棄一盞不安全的燈。"
+          },
+          {
+            "id": "c",
+            "en": "Maintaining one lamp for years as the only permitted choice.",
+            "zh": "多年保養一盞燈，並把這當成唯一容許的選擇。"
+          },
+          {
+            "id": "d",
+            "en": "Making every visitor buy the same repair tool.",
+            "zh": "要求每位參加者購買同一維修工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆因小毛病而更換，才是即棄文化的例子。"
+      },
+      "reply": {
+        "promptEn": "A club buys new display boards for each event even though most old boards are usable; members begin proposing storage and repair instead. What are they trying to change?",
+        "promptZh": "（社團每次活動都買新展板，儘管大部分舊展板仍可用；會員開始建議存放和修補。會員想改變甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated habit of replacing usable boards.",
+            "zh": "反覆更換仍可用展板的習慣。"
+          },
+          {
+            "id": "b",
+            "en": "The lack of storage and repair planning.",
+            "zh": "欠缺存放及修補規劃。"
+          },
+          {
+            "id": "c",
+            "en": "A throwaway culture in the club’s event work.",
+            "zh": "社團活動中的用完即棄文化。"
+          },
+          {
+            "id": "d",
+            "en": "The assumption that each event requires entirely new materials.",
+            "zh": "每次活動都要全新材料的想法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出重複購新、忽略再用；金句概括群體習慣。"
+      },
+      "scene": {
+        "promptZh": "一間學校每次展覽都買新展示架，舊架只因輕微刮痕便被棄掉，學生提出修補再用。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are challenging a throwaway culture in the school.",
+            "zh": "他們在挑戰校內的用完即棄文化。"
+          },
+          {
+            "id": "b",
+            "en": "They must keep every damaged stand regardless of safety.",
+            "zh": "無論安全與否，他們都必須保留每個損壞架。"
+          },
+          {
+            "id": "c",
+            "en": "They are discussing only one unavoidable disposal with no wider pattern.",
+            "zh": "他們只討論一次無可避免的丟棄，沒有更廣泛習慣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆丟棄仍可用物品才支持「文化」一詞。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以顯示 a throwaway culture？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A lab disposes of one contaminated item under safety rules while regularly maintaining all reusable equipment.",
+            "zh": "實驗室按安全規則丟棄一件受污染物品，平日則定期保養可重用設備。"
+          },
+          {
+            "id": "b",
+            "en": "A group routinely replaces working equipment to follow short-lived trends.",
+            "zh": "一個團體經常為追趕短暫潮流而更換仍能運作的設備。"
+          },
+          {
+            "id": "c",
+            "en": "A club buys new signs for every event and bins usable old ones.",
+            "zh": "社團每次活動都買新標示牌，卻丟掉仍可用的舊牌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "依安全規則丟棄一件受污染物，並非反覆即棄的習慣。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our office throws out working notice boards after every campaign, even though labels could be changed. B: ______",
+        "promptZh": "（甲：辦公室每次宣傳後都丟掉仍可用的告示板，雖然標籤可以換。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds like a throwaway culture we could change.",
+            "zh": "這聽起來像可以改變的用完即棄文化。"
+          },
+          {
+            "id": "b",
+            "en": "Replacing only the labels may let us reuse the boards.",
+            "zh": "只換標籤或可讓我們再用告示板。"
+          },
+          {
+            "id": "c",
+            "en": "Let us measure how many boards are discarded each year.",
+            "zh": "我們可量度每年丟棄多少告示板。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出可改變的重複即棄習慣。"
+      },
+      "speaking": {
+        "en": "The community hall began lending reusable banners after staff noticed a throwaway culture around seasonal displays: usable materials were being binned after one weekend.",
+        "zh": "社區禮堂的職員發現季節佈置有用完即棄文化：仍可用的材料過了一個週末就被丟掉，因此開始借出可重用橫額。",
+        "promptZh": "描述反覆的即棄行為與替代做法。",
+        "targetSpan": {
+          "start": 70,
+          "end": 89
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團體反覆丟棄仍可用的物品，成員提出實際的再用方法。用英文寫出慣例、物品狀況及替代做法。",
+        "selfCheckZh": "兩例要顯示群體習慣，不可把一次基於安全的丟棄擴大為文化。",
+        "examples": [
+          {
+            "en": "The debate club bought fresh folders for every contest and binned clean ones; to challenge its throwaway culture, members set up a folder-return shelf.",
+            "zh": "辯論社每次比賽都買新文件夾，並丟掉乾淨的舊夾；為改變用完即棄文化，會員設立文件夾歸還架。"
+          },
+          {
+            "en": "The gallery’s throwaway culture showed in its single-use display frames; staff started relabelling sound frames instead of ordering new ones each month.",
+            "zh": "畫廊的用完即棄文化反映在一次性展示框上；職員開始為完好的框架重貼標籤，而不是每月訂新貨。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fresh folders",
+            "zh": "新文件夾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 36
+            }
+          },
+          {
+            "en": "clean ones",
+            "zh": "乾淨的舊夾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 76
+            }
+          },
+          {
+            "en": "a folder-return shelf",
+            "zh": "文件夾歸還架",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 150
+            }
+          },
+          {
+            "en": "single-use display frames",
+            "zh": "一次性展示框",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 71
+            }
+          },
+          {
+            "en": "sound frames",
+            "zh": "完好的框架",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A throwaway culture is a repeated habit of replacing usable goods.",
+          "zh": "a throwaway culture 是反覆更換仍可用物品的習慣。"
+        },
+        {
+          "en": "Repair and reuse can challenge a throwaway culture.",
+          "zh": "修補和再用可以挑戰用完即棄文化。"
+        }
+      ]
+    }
+  ]
+}

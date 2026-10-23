@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-ai-risk-based-exact-hash-followup",
+  "priorReport": "independent-ai-review-4026-4072-b.json",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4026-4058-a.json", "sha256": "9cadaa4f10e7ea046145448dd85247f636e449f23e8476ef397d4c9ac939a9a6"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4060-4072-a.json", "sha256": "60dcbf506780ab65f9205faec2347f277103950808a78b1bf85a80e25dcd6311"}
+  ],
+  "authorSelfAuditSha256": "d6c58ae4bbe504e4957e70c46e0acd2a378ef3fd7bce4fda5e1789544cb8f458",
+  "coverage": "Automated build/--check covers all eight lessons, all 48 questions and 32 audio requests for structural, source-target, speaking-span and answer-derived glossary integrity. Separate read-only checks confirmed no current selected-ID collision, exact source examples matched every target detector, and all eight speaking target spans extracted target-bearing text. Manual follow-up focused on the four originally flagged fields and the one repair regression; unchanged clean items were not re-edited or fully re-reviewed line by line.",
+  "status": "ai-content-clear-for-provisional-selection",
+  "findingFollowup": [
+    {"id": "R4047-01", "result": "resolved", "evidence": "Listening now gives an undersized jumper and trousers; the scene gives raincoat and school shirt; both writing models give two garments. English and Chinese preserve the plural-clothes inference. The interim punctuation regression 'clothes, Her family' is also corrected to 'clothes. Her family' in revision 3."},
+    {"id": "R4051-01", "result": "resolved", "evidence": "The bounded case-insensitive detector matches legitimate source/plural and he/she singular forms, and rejects 'importance they attaches to fashion', 'importance we attaches to fashion', 'importance people attaches to fashion', and 'importance she attach to fashion'."},
+    {"id": "R4051-02", "result": "resolved", "evidence": "Writing model 2 now cites rankings across three purchases for both families, so its guarded conclusion no longer rests on one coat choice. Traditional Chinese reflects repeated comparison; exact glossary spans pass build/check."},
+    {"id": "R4061-01", "result": "resolved", "evidence": "Golden reply is now 'A repair mindset has taken hold in the team', with matching Traditional Chinese; redundancy is removed."}
+  ],
+  "automatedResult": "Focused fresh build followed by --check: 8 lessons, 48 questions, 32 audio requests, zero flags.",
+  "limit": "This is risk-based AI content clearance under the current streamlined rollout, not a fresh human editorial, media or release certification."
+}

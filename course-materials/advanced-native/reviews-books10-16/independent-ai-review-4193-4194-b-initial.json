@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Two unselected Books 10–16 lessons, source ordinals 4193 and 4194",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4193-4194-a.json",
+    "sha256": "f89982ca439f356fb7dea9529dd562da5fbb2d224efd6a2a5e5d7e78a9351b25"
+  },
+  "authorSelfAuditSha256": "29832c4a677c1609455174b6dc80b66e847dcaff2962b32ccfb06e37af711832",
+  "legacyCanonicalFile": {
+    "path": "course-materials/advanced-native/batches/batch-0476-0500.json",
+    "sha256": "2f39a50aeaf9cf63450b56d4ec8edf6877fc488f12959e114682c33cb6bd0c33"
+  },
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "4193-minor-repair; 4194-owner-hold",
+  "validation": {
+    "focusedBuild": "2 lessons, 12 questions, 8 audio requests, 0 flags",
+    "focusedCheck": "2 lessons, 12 questions, 8 audio requests, 0 flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetCoverage": "Both exact source sentences match their proposed lesson target regex.",
+    "speakingAndGlossary": "Both speaking target spans and all answer-derived glossary slices are exact."
+  },
+  "findings": [
+    {
+      "id": "R4193-01",
+      "severity": "minor",
+      "lessonId": "advanced-native-4193",
+      "sourceId": "book10-16-2082",
+      "affectedFields": ["writing.promptZh", "writing.examples[0]"],
+      "issue": "The writing prompt asks for two teams under pressure, but the first model names only the producer as actor. The second model names a team.",
+      "recommendedRepair": "Either describe two pressured settings/responders in the prompt, or identify the production team in model 1. Keep both distinct contexts and the existing pressure/obstacle/action logic."
+    },
+    {
+      "id": "R4194-01",
+      "severity": "blocker-owner-scope",
+      "lessonId": "advanced-native-4194",
+      "sourceId": "book10-16-2083",
+      "sourceExample": "In a crisis, try to keep your head.",
+      "priorCanonicalId": "advanced-native-491",
+      "priorCanonicalTitle": "keep a cool head",
+      "priorTargetPattern": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b",
+      "issue": "The proposed lesson and canonical 491 teach the same sense: stay calm, think clearly, check facts, delegate or request help in a tense situation. Their seven-step outcomes and crisis-response examples overlap materially; the main difference is the surface wording. Canonical 491's detector cannot match the Books 10–16 form, so coverage needs a decision, but a separate owner would duplicate an existing lesson.",
+      "recommendedRepair": "Hold 4194 from selection while deciding whether to expand canonical 491 to teach/detect 'keep your head' as a valid same-sense variant and attach source 2083, or otherwise document a demonstrably distinct learner decision. Do not treat surface-form mismatch alone as a new-sense justification."
+    }
+  ],
+  "otherContentScreen": "4193 listening, four valid replies, scene, contrast, dialogue, speaking and two changed writing contexts teach source pressure sense with reasonable EN/ZH fidelity. 4194 content itself is fluent and source-consistent; owner duplication is the blocker. This was a risk-based review, not a line-by-line inspection of every option.",
+  "nextStep": "Repair 4193 prompt/model mismatch and independently recheck its exact hash. Resolve 4194 ownership separately before provisional selection."
+}

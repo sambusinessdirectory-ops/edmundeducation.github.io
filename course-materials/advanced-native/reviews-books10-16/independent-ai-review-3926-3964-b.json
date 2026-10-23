@@ -1,0 +1,36 @@
+{
+  "reviewType": "independent-ai-initial-editorial-review",
+  "scope": "Eight unselected Books 10–16 canonical lesson drafts; seven-step content and source-owner comparison",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3926-3927-review-pilot.json", "sha256": "bf691389bccd218f0bd466e68bc3c09516ea068c66e3c46725397b50dfc89ec2"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3933-3941-review-pilot.json", "sha256": "9d6500647a45804de48eb2adf193d31e20888ee0bc4c56ef4da5585ef9f676fa"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3947-3964-review-pilot.json", "sha256": "0337d41750a07c9d01319cc2d26febdb7e2488a982e6c8d95d9aaa67db28b738"}
+  ],
+  "authorSelfAuditSha256": "773efdc3b57c567abfc4420609589053b836518a85d579ca7e97ba15b01f3b71",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "Focused build and --check independently pass: 8 lessons, 48 questions, 32 audio requests, 0 structural flags.",
+  "originalityScreen": "Compared 192 learner-facing English strings with all 2,604 guide examples: 9 six-word matches, all fixed-target overlaps; 0 non-target six-word matches. This is a screen, not a substitute for the editorial review below.",
+  "status": "repair-required-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3926, "status": "pass", "note": "Have legs asks about credible future viability after repeat demand and support; prior 2255 staying power evaluates demonstrated durability over time. All four reply options are supported, and both writing models include the first-week, month-three and next-term facts."},
+    {"ordinal": 3927, "status": "pass", "note": "Catch fire assesses a rapid burst of diffusion; selected 3914 catch on covers becoming adopted without itself requiring this abrupt burst. Source and examples have matching target forms, and long-term survival is not inferred."},
+    {"ordinal": 3933, "status": "repair-required", "note": "The core academic-burden sense and seven decisions are sound, but writing model 2 omits the required priority-setting support; see R3933-01."},
+    {"ordinal": 3934, "status": "pass", "note": "The stress-relief claim remains temporary and does not erase the forthcoming task; four replies and both changed-context models are grounded."},
+    {"ordinal": 3941, "status": "pass", "note": "Build character teaches developing positive qualities through a specific responsibility and reflection. Legacy 907 shape character is the broader influence-on-character concept, so the source-target and learning outcome are distinguishable."},
+    {"ordinal": 3947, "status": "pass", "note": "The lesson preserves limited easing of friction without claiming agreement. Both writing models retain the warehouse-hours dispute, one week of collaboration and calmer meetings."},
+    {"ordinal": 3961, "status": "pass", "note": "Advertised versus delivered facts support overhyped without erasing the positive food judgement; two writing models preserve the five/two/three count."},
+    {"ordinal": 3964, "status": "pass", "note": "The excessive frequency remains an excess of an otherwise valued tour. Both models preserve the weekly-to-six-daily change, fatigue and reduction rather than cancellation."}
+  ],
+  "findings": [
+    {
+      "id": "R3933-01",
+      "severity": "major",
+      "lessonId": "advanced-native-3933",
+      "field": "writing.examples[1].en / writing.examples[1].zh",
+      "issue": "The prompt and self-check require the tutor to help Lok set priorities. Model 2 says only that the tutor offered a planning meeting; the purpose of that meeting is unstated, so the model does not demonstrate the full transfer task.",
+      "evidence": "Prompt: 導師同意與他訂優先次序. Self-check: 導師協助訂優先次序. Model 2: 'his tutor has offered a planning meeting' / '導師於是提議開會規劃'.",
+      "recommendedRepair": "State explicitly in both model-2 languages that the meeting will help Lok set priorities among the reports and exam; recalculate any affected exact glossary spans and bump contentRevision."
+    }
+  ],
+  "releaseLimit": "All author and independent AI reviews remain provisional. No human sign-off, manifest selection or publication is implied."
+}

@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4193",
+      "number": 4193,
+      "inventoryId": "expr-4193",
+      "titleEn": "when the heat is on",
+      "titleZh": "關鍵時刻壓力大增",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwhen the heat is on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a demanding moment when pressure is high and action or judgment matters.",
+        "meaningZh": "在壓力很大、必須作出行動或判斷的關鍵時刻。",
+        "grammar": "When the heat is on is a fixed adverbial clause. Heat is figurative pressure, not necessarily high temperature.",
+        "register": "Conversational, vivid English. A project lead may use it when discussing how a team responds to a tight public-event deadline.",
+        "boundaryZh": "須有真實的時間、責任或表現壓力；普通忙碌或天氣炎熱不足以構成此意。",
+        "misconceptionZh": "不是指開了暖氣，也不表示高壓下任何倉促決定都合理。",
+        "outcomeZh": "能指出壓力來源、迫切決定及合宜應對。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2082",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 196,
+          "book": 15,
+          "question": 36,
+          "sample": "S1",
+          "sourceBookPages": "85–88",
+          "locatorNote": "DOCX table 214, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good leaders remain clear when the heat is on.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "when the heat is on"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The community concert starts in an hour, and the delivery van with the sound desk is delayed. When the heat is on, the stage manager checks the approved spare equipment and reorganises the sound check without skipping the safety test.",
+        "zh": "社區音樂會一小時後開始，載有混音器的貨車卻延誤。關鍵時刻壓力大增，舞台經理檢查已核准的備用設備，重新安排音響測試，但沒有略過安全檢查。",
+        "promptZh": "哪個情況令舞台經理承受壓力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event is imminent while essential equipment is late.",
+            "zh": "活動快要開始，關鍵設備卻遲到。"
+          },
+          {
+            "id": "b",
+            "en": "The concert has been cancelled months in advance.",
+            "zh": "音樂會早在數月前已取消。"
+          },
+          {
+            "id": "c",
+            "en": "The spare equipment has already failed its safety test.",
+            "zh": "備用設備已在安全測試中不合格。"
+          },
+          {
+            "id": "d",
+            "en": "The manager has no responsibility for the event.",
+            "zh": "經理對活動沒有責任。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "臨近開場而設備延誤，正是緊迫壓力。"
+      },
+      "reply": {
+        "promptEn": "The final rehearsal begins in twenty minutes. A performer is absent, so the director must use an approved understudy and adjust the cues. How would you describe this moment?",
+        "promptZh": "（最後綵排二十分鐘後開始。一名演出者缺席，導演須安排已核准的替補演員，並調整提示。你會如何形容此刻？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The director faces a time-sensitive decision.",
+            "zh": "導演正面對有時限的決定。"
+          },
+          {
+            "id": "b",
+            "en": "The missing performer has made the rehearsal urgent.",
+            "zh": "演出者缺席令綵排安排變得緊迫。"
+          },
+          {
+            "id": "c",
+            "en": "When the heat is on, the director adjusts the cues.",
+            "zh": "關鍵時刻壓力大增，導演便調整提示。"
+          },
+          {
+            "id": "d",
+            "en": "The approved understudy offers a workable response.",
+            "zh": "已核准的替補演員提供可行應對。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均切合臨近綵排時的壓力與安排；金句使用本課表達。"
+      },
+      "scene": {
+        "promptZh": "公開展覽半小時後開門，工作人員發現主投影機故障，須立即測試備用機。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When the heat is on, the team tests the spare before opening.",
+            "zh": "關鍵時刻壓力大增，團隊在開門前測試備用機。"
+          },
+          {
+            "id": "b",
+            "en": "The team has ample time because opening is next month.",
+            "zh": "展覽下月才開幕，團隊時間充裕。"
+          },
+          {
+            "id": "c",
+            "en": "The projector problem has no effect on today’s display.",
+            "zh": "投影機問題對今天的展示毫無影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開門在即而重要設備故障，必須及時應對。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 when the heat is on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The committee is casually comparing ideas for an event planned next year, with no decision due yet.",
+            "zh": "委員會從容比較明年活動的構想，暫無決定期限。"
+          },
+          {
+            "id": "b",
+            "en": "The broadcast begins in ten minutes and a required caption file is missing.",
+            "zh": "廣播十分鐘後開始，但必要的字幕檔案不見了。"
+          },
+          {
+            "id": "c",
+            "en": "A judge requests the final verified figures just before the public briefing.",
+            "zh": "公開簡報前，審核員要求最後核實的數字。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "尚無迫切期限或關鍵決定，不足以說壓力已升到關鍵時刻。"
+      },
+      "dialogue": {
+        "promptEn": "A: Registration opens in fifteen minutes, but the sign-in tablet has stopped working. We have an approved paper list and can verify names manually. B: ______",
+        "promptZh": "（甲：十五分鐘後開始登記，但簽到平板電腦壞了。我們有已核准的紙本名單，可人手核對姓名。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "When the heat is on, let us use the approved paper list and verify each name.",
+            "zh": "關鍵時刻壓力大增，我們用已核准的紙本名單逐一核對姓名吧。"
+          },
+          {
+            "id": "b",
+            "en": "We have little time, so the backup process matters now.",
+            "zh": "時間緊迫，備用流程現在很重要。"
+          },
+          {
+            "id": "c",
+            "en": "The paper list gives us a checked way to keep registration moving.",
+            "zh": "紙本名單讓我們以可核對的方式繼續登記。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出時間壓力並使用已核准備案。"
+      },
+      "speaking": {
+        "en": "When the heat is on before the library sale, Amira assigns one colleague to check prices and another to prepare the queue, keeping both tasks accurate under a tight deadline.",
+        "zh": "圖書館義賣前壓力大增，阿米拉安排一名同事核對價錢，另一名準備排隊安排，在緊迫期限下仍保持兩項工作準確。",
+        "promptZh": "說出迫切期限與不省略核對的應對。",
+        "targetSpan": {
+          "start": 0,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個不同場合臨近關鍵時刻遇上障礙，各有負責人以可核對的方案應對。用英文交代時間壓力、障礙及行動。",
+        "selfCheckZh": "兩例要有明確緊迫性；不能只以天氣熱或一般忙碌解釋 heat。",
+        "examples": [
+          {
+            "en": "When the heat is on before a live interview, the producer checks a replacement microphone after the first one fails and confirms the sound before the host starts.",
+            "zh": "直播訪問前壓力大增，第一支咪高峰故障，監製便檢查替代咪高峰，並在主持人開始前確認聲音。"
+          },
+          {
+            "en": "The school exhibition opens in forty minutes, and a display file will not load. When the heat is on, the team uses a verified backup and checks every caption before visitors enter.",
+            "zh": "學校展覽四十分鐘後開門，一個展示檔案卻無法載入。關鍵時刻壓力大增，團隊使用已核實的備份，並在訪客進場前核對每項字幕。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a live interview",
+            "zh": "直播訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 43
+            }
+          },
+          {
+            "en": "a replacement microphone",
+            "zh": "替代咪高峰",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 89
+            }
+          },
+          {
+            "en": "the sound",
+            "zh": "聲音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 138
+            }
+          },
+          {
+            "en": "a verified backup",
+            "zh": "已核實的備份",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 132
+            }
+          },
+          {
+            "en": "every caption",
+            "zh": "每項字幕",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When the heat is on means pressure rises at a demanding moment.",
+          "zh": "when the heat is on 指關鍵時刻壓力升高。"
+        },
+        {
+          "en": "Name the deadline and decision when the heat is on.",
+          "zh": "說明為何壓力大增時，要指出期限與所需決定。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2228 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4205-4242-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4205",
+      "number": 4205,
+      "inventoryId": "expr-4205",
+      "titleEn": "does not cut it",
+      "titleZh": "不夠管用",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:does|do|did|may|might|will|would|can|could)\\s+not\\s+cut\\s+it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be insufficient for a particular need or standard.",
+        "meaningZh": "對特定需要或標準而言不足夠、不管用。",
+        "grammar": "X does not cut it for Y; do/did not cut it vary with subject and tense. State the missing requirement rather than calling X worthless in every context.",
+        "register": "Informal feedback; a lab supervisor explains why a vague instruction is inadequate for first-time users.",
+        "boundaryZh": "某方法不夠應付指定任務，不表示它在所有情況毫無價值。",
+        "misconceptionZh": "不是實際用刀切東西；只說「不喜歡」而無所需標準，證據不足。",
+        "outcomeZh": "能指出任務所需資訊與現有做法的差距。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2094",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 197,
+          "book": 15,
+          "question": 37,
+          "sample": "S1",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 215, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A vague instruction does not cut it for beginners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "does not cut it"
+        }
+      ],
+      "listening": {
+        "en": "The safety card says only “use care”. New volunteers need the exact shut-off steps, so that vague line does not cut it.",
+        "zh": "安全卡只寫「小心使用」。新義工需要明確的關機步驟，所以這句含糊指示不夠管用。",
+        "promptZh": "does not cut it 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The instruction is insufficient for the volunteers’ need.",
+            "zh": "這項指示不足以滿足義工需要。"
+          },
+          {
+            "id": "b",
+            "en": "The card meets every training requirement.",
+            "zh": "卡片符合所有培訓要求。"
+          },
+          {
+            "id": "c",
+            "en": "The machine has no cutting blade.",
+            "zh": "機器沒有切割刀片。"
+          },
+          {
+            "id": "d",
+            "en": "The volunteers already know the missing steps.",
+            "zh": "義工已知道缺少的步驟。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新義工需要明確關機步驟，含糊說法不足夠。"
+      },
+      "reply": {
+        "promptEn": "Can the museum publish the visitor map now? It shows room names but no accessible entrance or lift, and several guests need those routes to plan a visit.",
+        "promptZh": "（博物館現在能發布訪客地圖嗎？地圖有房間名稱，卻沒有標出無障礙入口或升降機；有訪客需要那些路線才能計劃參觀。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The map lacks information these guests need.",
+            "zh": "地圖欠缺這些訪客需要的資訊。"
+          },
+          {
+            "id": "b",
+            "en": "Room names alone are insufficient for route planning.",
+            "zh": "單有房間名稱不足以規劃路線。"
+          },
+          {
+            "id": "c",
+            "en": "The current map does not cut it for accessible planning.",
+            "zh": "現有地圖不夠管用，無法讓訪客規劃無障礙路線。"
+          },
+          {
+            "id": "d",
+            "en": "The map needs access details before publication.",
+            "zh": "地圖發布前須加入通道資料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出現有資訊未達指定用途的要求。"
+      },
+      "scene": {
+        "promptZh": "報名表只要求姓名，活動卻須提前知道食物過敏資訊才能安排餐點。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The form does not cut it for meal planning.",
+            "zh": "這份表格不夠管用，無法規劃餐點。"
+          },
+          {
+            "id": "b",
+            "en": "The form already includes every dietary detail.",
+            "zh": "表格已包含所有飲食資料。"
+          },
+          {
+            "id": "c",
+            "en": "The form is useless for every possible purpose.",
+            "zh": "表格對任何用途都完全無用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不足之處是缺少規劃餐點所需資訊。"
+      },
+      "contrast": {
+        "promptZh": "哪句最有根據地使用 does not cut it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I dislike the colour, so the timetable does not cut it for everyone.",
+            "zh": "我不喜歡顏色，因此時間表對所有人都不管用。"
+          },
+          {
+            "id": "b",
+            "en": "The timetable omits the last ferry, so it does not cut it for evening travellers.",
+            "zh": "時間表漏了尾班渡輪，因此對晚間旅客不夠管用。"
+          },
+          {
+            "id": "c",
+            "en": "The timetable is clear and complete, but I call it inadequate without reason.",
+            "zh": "時間表清楚完整，但我無理由地說它不足夠。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "具體缺漏和受影響用途都清楚。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這片語表示那東西在所有場合都沒價值。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It does not cut it for one task when it falls short of that task’s needs.",
+            "zh": "若某物未達某項任務所需，便可說它對該任務不夠管用。"
+          },
+          {
+            "id": "b",
+            "en": "It proves the thing is worthless everywhere.",
+            "zh": "它證明那東西在所有場合都無價值。"
+          },
+          {
+            "id": "c",
+            "en": "It means someone refuses to use a knife.",
+            "zh": "它表示有人拒絕用刀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "是否足夠須視乎特定用途。"
+      },
+      "speaking": {
+        "en": "The one-line repair note does not cut it for new technicians because it leaves out the order of the tests.",
+        "zh": "一行維修備註對新技術員不夠管用，因為它漏了測試次序。",
+        "promptZh": "先聽示範，再指出維修備註缺少甚麼。",
+        "targetSpan": {
+          "start": 25,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電影院的網頁只列出開場時間；輪椅使用者需要知道無障礙入口與可預訂座位，管理員決定補上這些資料。用英文指出網頁對指定用途不足，但不要說開場時間沒用。",
+        "selfCheckZh": "寫出網頁已有開場時間、缺少無障礙入口及可預訂座位資料、管理員會補充。",
+        "examples": [
+          {
+            "en": "The cinema page lists start times, but it does not cut it for wheelchair users because it omits the accessible entrance and reservable seats; the manager will add both.",
+            "zh": "影院網頁列出開場時間，但對輪椅使用者不夠管用，因為欠缺無障礙入口及可預訂座位資料；管理員會補上兩項資訊。"
+          },
+          {
+            "en": "Start times are useful, yet the current page does not cut it for accessible booking. It needs entrance and reservable-seat details, which the manager plans to publish.",
+            "zh": "開場時間有用，但現有網頁對無障礙訂位仍不夠管用；網頁需要入口和可預訂座位資料，管理員計劃發布。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "start times",
+            "zh": "開場時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 33
+            }
+          },
+          {
+            "en": "wheelchair users",
+            "zh": "輪椅使用者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 78
+            }
+          },
+          {
+            "en": "accessible entrance",
+            "zh": "無障礙入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 119
+            }
+          },
+          {
+            "en": "reservable seats",
+            "zh": "可預訂座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 140
+            }
+          },
+          {
+            "en": "accessible booking",
+            "zh": "無障礙訂位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 65,
+              "end": 83
+            }
+          },
+          {
+            "en": "plans to publish",
+            "zh": "計劃發布",
+            "exampleIndex": 1,
+            "span": {
+              "start": 150,
+              "end": 166
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Does not cut it means inadequate for a stated need.",
+          "zh": "不夠管用，指未能滿足明確需要。"
+        },
+        {
+          "en": "A method may not cut it for one task yet remain useful for another.",
+          "zh": "方法對一項任務不夠管用，對另一項仍可能有用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4206",
+      "number": 4206,
+      "inventoryId": "expr-4206",
+      "titleEn": "lose their train of thought",
+      "titleZh": "忘了剛才的思路",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing)\\s+(?:their|his|her|my|our|your|its|one[’\\']s)\\s+train\\s+of\\s+thought\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Temporarily forget the sequence of ideas one was explaining.",
+        "meaningZh": "說話或思考時暫時忘了原本要接下去的思路。",
+        "grammar": "Lose one’s train of thought; change the possessive for speaker and lost for past. A pause or interruption may cause it, but neither proves a permanent memory problem.",
+        "register": "Everyday classroom and presentation talk; a speaker asks for a moment after an interruption.",
+        "boundaryZh": "指一時接不上思路，不等於忘掉所有內容或患上長期記憶障礙。",
+        "misconceptionZh": "不是丟失火車，也不能只因停頓便確定說話者忘了內容。",
+        "outcomeZh": "能根據中斷與重新找回話題的線索，判斷說話者是否暫時忘了思路。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2095",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 197,
+          "book": 15,
+          "question": 37,
+          "sample": "S1",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 215, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Speakers sometimes lose their train of thought.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose their train of thought"
+        }
+      ],
+      "listening": {
+        "en": "During the budget briefing, a phone rang just as Inez explained the final cost. She paused, said she had lost her train of thought, and checked her notes before continuing.",
+        "zh": "財政簡報期間，伊內絲解釋最後成本時電話響起。她停下來，說自己忘了剛才的思路，查看筆記後才繼續。",
+        "promptZh": "lost her train of thought 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She temporarily forgot the next part of her explanation.",
+            "zh": "她暫時忘了講解接下來要說甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "She permanently forgot the whole budget.",
+            "zh": "她永久忘了整份預算。"
+          },
+          {
+            "id": "c",
+            "en": "She missed a train on the way to work.",
+            "zh": "她上班途中錯過火車。"
+          },
+          {
+            "id": "d",
+            "en": "She finished the briefing without any pause.",
+            "zh": "她毫不停頓地完成簡報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她停下來查看筆記，然後繼續，屬暫時接不上思路。"
+      },
+      "reply": {
+        "promptEn": "Why does Rui ask the audience to wait a moment? An alarm interrupted her explanation of the third experiment; she knows the topic but cannot recall which point she was about to make.",
+        "promptZh": "（瑞為何請聽眾稍等？警報打斷她對第三個實驗的解釋；她知道主題，卻想不起下一點原本要說甚麼。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The interruption broke her line of explanation.",
+            "zh": "中斷打亂了她的講解次序。"
+          },
+          {
+            "id": "b",
+            "en": "She needs a moment to recover her next point.",
+            "zh": "她需要片刻想起下一點。"
+          },
+          {
+            "id": "c",
+            "en": "She has lost her train of thought.",
+            "zh": "她忘了剛才的思路。"
+          },
+          {
+            "id": "d",
+            "en": "She still knows the subject but momentarily lost her place.",
+            "zh": "她仍知道主題，只是一時接不上。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述一時忘記下一個要點，而非失去所有知識。"
+      },
+      "scene": {
+        "promptZh": "播客主持被門鈴打斷，回來時說：「我剛才講到哪裏？」翻看提綱後繼續。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She lost her train of thought for a moment.",
+            "zh": "她一時忘了剛才的思路。"
+          },
+          {
+            "id": "b",
+            "en": "She has forgotten the entire subject forever.",
+            "zh": "她永久忘了整個主題。"
+          },
+          {
+            "id": "c",
+            "en": "She missed the last train.",
+            "zh": "她錯過尾班車。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "翻看提綱後繼續，顯示只是短暫接不上。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以斷定有人 lost their train of thought？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker says she cannot recall the next point after an interruption.",
+            "zh": "講者說被打斷後想不起下一點。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker pauses deliberately for emphasis, then follows the plan exactly.",
+            "zh": "講者為強調刻意停頓，然後完全按計劃繼續。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker asks where she was and consults notes before continuing.",
+            "zh": "講者問剛才講到哪裏，查看筆記後繼續。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "刻意停頓不等於忘了思路。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「lose their train of thought 就是完全不懂主題。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People can lose their train of thought briefly while still knowing the subject.",
+            "zh": "人們可以一時忘了思路，卻仍熟悉主題。"
+          },
+          {
+            "id": "b",
+            "en": "It always means total ignorance.",
+            "zh": "它必定表示完全不懂。"
+          },
+          {
+            "id": "c",
+            "en": "It refers only to transport delays.",
+            "zh": "它只指交通延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述思路暫時中斷，不是知識總量。"
+      },
+      "speaking": {
+        "en": "I lost my train of thought when the screen went blank, but the outline helped me return to the second point.",
+        "zh": "螢幕突然變黑，我便一時忘了剛才的思路；提綱幫我回到第二點。",
+        "promptZh": "先聽示範，再指出甚麼幫助講者回到第二點。",
+        "targetSpan": {
+          "start": 2,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：阿欣介紹兩種修繕方案時被突然響起的門鈴打斷；她一時想不起正要解釋哪項費用，翻看提綱後回到第二方案。用英文描述短暫中斷，不要說她完全不懂方案。",
+        "selfCheckZh": "寫出兩種方案、門鈴打斷、忘了下一項費用、查看提綱回到第二方案。",
+        "examples": [
+          {
+            "en": "A doorbell interrupted Yan as she compared two repair options. She lost her train of thought about the next cost, but her outline helped her return to the second option.",
+            "zh": "欣比較兩種修繕方案時被門鈴打斷。她一時想不起下一項費用，卻靠提綱回到第二方案。"
+          },
+          {
+            "en": "Yan was explaining the costs of two repair plans when the bell rang. After losing her train of thought for a moment, she checked her outline and continued with plan two.",
+            "zh": "欣解釋兩種修繕方案的費用時門鈴響起。她一時忘了剛才的思路，查看提綱後便繼續講第二方案。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "doorbell",
+            "zh": "門鈴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 2,
+              "end": 10
+            }
+          },
+          {
+            "en": "two repair options",
+            "zh": "兩種修繕方案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 61
+            }
+          },
+          {
+            "en": "next cost",
+            "zh": "下一項費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 112
+            }
+          },
+          {
+            "en": "outline",
+            "zh": "提綱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 129
+            }
+          },
+          {
+            "en": "for a moment",
+            "zh": "一時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 115
+            }
+          },
+          {
+            "en": "plan two",
+            "zh": "第二方案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 168
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lose one’s train of thought means temporarily forget the next link in an explanation.",
+          "zh": "忘了剛才的思路，指一時想不起講解接下來要說甚麼。"
+        },
+        {
+          "en": "Losing one’s train of thought need not mean forgetting the whole subject.",
+          "zh": "一時接不上思路，不代表忘了整個主題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4208",
+      "number": 4208,
+      "inventoryId": "expr-4208",
+      "titleEn": "watch from the sidelines",
+      "titleZh": "袖手旁觀",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:(?:watch|watches|watched|watching)\\s+from|(?:stand|stands|stood|standing)\\s+on)\\s+the\\s+sidelines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Observe an activity without joining or contributing, expressed as watch from the sidelines or stand on the sidelines.",
+        "meaningZh": "在旁觀看活動卻沒有參與，可說 watch from the sidelines 或 stand on the sidelines。",
+        "grammar": "Watch from the sidelines; stand on the sidelines. Both use plural sidelines. Watch takes from, stand takes on; inflect the verb for tense.",
+        "register": "Everyday school and community discussion; a workshop leader invites observers to take a small active role.",
+        "boundaryZh": "旁觀不一定是懶惰或冷漠，也可能是受限制；重點是沒有參與。",
+        "misconceptionZh": "不一定真的站在球場邊線，也不能把安靜參與者誤判為完全旁觀。",
+        "outcomeZh": "能區分觀察和參與，正確選用 watch from 或 stand on，且不臆測旁觀者動機。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2097",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 198,
+          "book": 15,
+          "question": 37,
+          "sample": "S2",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 215, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Students learn less when they only watch from the sidelines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "watch from the sidelines"
+        },
+        {
+          "occurrenceId": "book10-16-2182",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 205,
+          "book": 16,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "20–23",
+          "locatorNote": "DOCX table 224, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Residents need not remain standing on the sidelines of research.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "standing on the sidelines"
+        }
+      ],
+      "listening": {
+        "en": "In the design workshop, the newcomers were standing on the sidelines while older members built the model. The leader later gave each newcomer a small part to assemble.",
+        "zh": "設計工作坊中，新成員一直站在旁邊觀看，模型由舊成員製作。其後導師讓每名新成員組裝一個小部件。",
+        "promptZh": "standing on the sidelines 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They observed without taking part in the first stage.",
+            "zh": "第一階段他們只觀看，沒有參與。"
+          },
+          {
+            "id": "b",
+            "en": "They assembled the entire model themselves.",
+            "zh": "他們獨自組裝整個模型。"
+          },
+          {
+            "id": "c",
+            "en": "They watched a sport at a marked field line.",
+            "zh": "他們在球場邊線看比賽。"
+          },
+          {
+            "id": "d",
+            "en": "They refused every later invitation.",
+            "zh": "他們拒絕了其後所有邀請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "初時只看舊成員製作，後來才獲安排參與。"
+      },
+      "reply": {
+        "promptEn": "Why did the organiser hand the visitors a small set of tools? They had spent the first hour just looking on while local members built the display, and now the organiser wanted them to try one step.",
+        "promptZh": "（主辦者為何把一小套工具交給訪客？首小時他們只在旁看本地成員製作展示品，主辦者現在想讓他們試做一個步驟。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser wanted to turn observation into participation.",
+            "zh": "主辦者想讓他們從觀看轉為參與。"
+          },
+          {
+            "id": "b",
+            "en": "The visitors had not yet helped build the display.",
+            "zh": "訪客仍未協助製作展示品。"
+          },
+          {
+            "id": "c",
+            "en": "The visitors had been watching from the sidelines.",
+            "zh": "訪客之前一直在旁觀看。"
+          },
+          {
+            "id": "d",
+            "en": "A small task would give them an active role.",
+            "zh": "小任務可讓他們實際參與。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述先旁觀、後獲邀參與的情況。"
+      },
+      "scene": {
+        "promptZh": "社區綠化會議上，阿明只聽沒有發言或投票；下次他同意幫忙記錄。哪句描述第一次？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He watched from the sidelines.",
+            "zh": "他第一次只是袖手旁觀。"
+          },
+          {
+            "id": "b",
+            "en": "He led the vote.",
+            "zh": "他主持了投票。"
+          },
+          {
+            "id": "c",
+            "en": "He was not present at all.",
+            "zh": "他完全沒有到場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他有到場觀看，卻未參與討論或投票。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 watch from the sidelines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A guest observes a project but does none of its tasks.",
+            "zh": "訪客觀看計劃，沒有做其中任何工作。"
+          },
+          {
+            "id": "b",
+            "en": "A quiet pupil actively checks every measurement and records results.",
+            "zh": "安靜學生積極檢查每項數據並記錄結果。"
+          },
+          {
+            "id": "c",
+            "en": "A newcomer stands nearby as others set up the event.",
+            "zh": "新成員在旁看其他人布置活動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "安靜不等於沒有實際參與。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「旁觀者一定是不願意幫忙。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Watching from the sidelines or standing on the sidelines means observing without taking part; neither form states a motive.",
+            "zh": "watch from the sidelines 和 stand on the sidelines 都指在旁觀看而沒有參與；兩種說法都沒有指出動機。"
+          },
+          {
+            "id": "b",
+            "en": "It proves a person is unwilling.",
+            "zh": "它證明那人不願意。"
+          },
+          {
+            "id": "c",
+            "en": "It only applies at a real sports field.",
+            "zh": "它只適用於真正球場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語說行為，不自動解釋原因。"
+      },
+      "speaking": {
+        "en": "The audience first watched from the sidelines, then the artist invited them to help arrange the tiles.",
+        "zh": "觀眾起初只在旁觀看，其後藝術家邀請他們協助排列瓷磚。",
+        "promptZh": "先聽示範，再說出觀眾後來獲邀做甚麼。",
+        "targetSpan": {
+          "start": 19,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電台辦訪談工作坊，六名學生第一節只看導師操作錄音器材；第二節各自試問一題並錄下回答。用英文分清前後兩階段，不要說他們第一節已主持訪談。",
+        "selfCheckZh": "寫出六名學生、第一節只觀看、第二節各自問一題並錄音；勿說起初已主持。",
+        "examples": [
+          {
+            "en": "Six students watched from the sidelines while the tutor handled the recorder in session one. In session two, each asked one interview question and recorded an answer.",
+            "zh": "六名學生第一節只在旁看導師操作錄音器材；第二節每人問一道訪談題，並錄下回答。"
+          },
+          {
+            "en": "During the first radio workshop session, the six pupils stood on the sidelines as the tutor operated the equipment; in the next session, they each asked a question and recorded a reply.",
+            "zh": "電台工作坊第一節，六名學生站在一旁看導師操作器材；下一節，他們各自問一題並錄下回應。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Six students",
+            "zh": "六名學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "session one",
+            "zh": "第一節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 91
+            }
+          },
+          {
+            "en": "one interview question",
+            "zh": "一道訪談題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 142
+            }
+          },
+          {
+            "en": "recorded an answer",
+            "zh": "錄下回答",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 165
+            }
+          },
+          {
+            "en": "operated the equipment",
+            "zh": "操作器材",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 114
+            }
+          },
+          {
+            "en": "recorded a reply",
+            "zh": "錄下回應",
+            "exampleIndex": 1,
+            "span": {
+              "start": 168,
+              "end": 184
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Watch from the sidelines means observe without taking part.",
+          "zh": "袖手旁觀，指觀看而未參與。"
+        },
+        {
+          "en": "Standing on the sidelines does not by itself reveal why someone is not joining.",
+          "zh": "站在一旁觀看本身不說明為何沒有參與。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-4211",
+      "number": 4211,
+      "inventoryId": "expr-4211",
+      "titleEn": "on their behalf",
+      "titleZh": "代他們處理",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bon\\s+(?:their|his|her|my|our|your|its|one[’\\']s|someone[’\\']s)\\s+behalf\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Act or speak as a representative for another person instead of that person doing it directly.",
+        "meaningZh": "代表別人採取行動或發言，而非由當事人親自做。",
+        "grammar": "On someone’s behalf; possessive names the person represented, not necessarily the actor. It may be helpful, but can also remove a learner’s chance to try.",
+        "register": "Everyday school and family talk; a tutor distinguishes support from answering a child’s question for them.",
+        "boundaryZh": "代表行事不必然不妥；若當事人可以自行嘗試，代答可能剝奪練習機會。",
+        "misconceptionZh": "不是「在對方旁邊」；也不要把代理人的身分錯看成被代表者。",
+        "outcomeZh": "能辨別誰行動、代表誰，以及何時應讓當事人自己嘗試。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2100",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 198,
+          "book": 15,
+          "question": 37,
+          "sample": "S2",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 215, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Let children try rather than answering on their behalf.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on their behalf"
+        }
+      ],
+      "listening": {
+        "en": "At the craft fair, the child knew how to describe her model, but her uncle answered every visitor on her behalf. The tutor asked him to let her try next time.",
+        "zh": "手作展上，孩子懂得介紹自己的模型，叔叔卻替她回答每名訪客。導師請叔叔下次讓她自己試試。",
+        "promptZh": "on her behalf 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her uncle spoke instead of the child.",
+            "zh": "叔叔代替孩子發言。"
+          },
+          {
+            "id": "b",
+            "en": "The child answered every visitor herself.",
+            "zh": "孩子親自回答每名訪客。"
+          },
+          {
+            "id": "c",
+            "en": "The uncle stood physically behind her.",
+            "zh": "叔叔實際站在她身後。"
+          },
+          {
+            "id": "d",
+            "en": "No one asked about the model.",
+            "zh": "沒有人問起模型。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "叔叔代答，孩子失去親自介紹的機會。"
+      },
+      "reply": {
+        "promptEn": "Why did the mentor ask the parent to wait? The pupil understood the simple question and wanted to reply, but the parent had begun answering it for him.",
+        "promptZh": "（導師為何請家長稍等？學生明白這道簡單問題，也想自己回答，但家長已開始替他作答。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pupil should have a chance to answer himself.",
+            "zh": "學生應有機會自行回答。"
+          },
+          {
+            "id": "b",
+            "en": "The parent was about to speak instead of the pupil.",
+            "zh": "家長正準備代替學生發言。"
+          },
+          {
+            "id": "c",
+            "en": "The parent was answering on his behalf.",
+            "zh": "家長正代他回答。"
+          },
+          {
+            "id": "d",
+            "en": "Waiting would let the pupil try first.",
+            "zh": "等一等可讓學生先嘗試。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都符合學生想自己嘗試、家長卻代答的情境。"
+      },
+      "scene": {
+        "promptZh": "演講者生病不能到場，事先授權同事讀出他的聲明。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The colleague spoke on his behalf.",
+            "zh": "同事代他發言。"
+          },
+          {
+            "id": "b",
+            "en": "The colleague was the original speaker.",
+            "zh": "同事就是原本演講者。"
+          },
+          {
+            "id": "c",
+            "en": "The statement had no authorisation.",
+            "zh": "聲明沒有得到授權。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同事獲授權代表缺席者發言。"
+      },
+      "contrast": {
+        "promptZh": "哪句對 on someone’s behalf 最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The possessive names the person being represented.",
+            "zh": "所有格指出被代表的人。"
+          },
+          {
+            "id": "b",
+            "en": "The possessive always names the person doing the action.",
+            "zh": "所有格總指出採取行動的人。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means standing at someone’s side.",
+            "zh": "片語指站在某人旁邊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "on her behalf 的 her 是被代言者，不一定是行動者。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「代孩子答題永遠是壞事。」哪句較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Answering on their behalf can be useful when needed, but may deny children a chance to try when they are able.",
+            "zh": "代孩子回答有時有用，但若孩子能自己嘗試，代答可能剝奪練習機會。"
+          },
+          {
+            "id": "b",
+            "en": "A representative must always be refused.",
+            "zh": "任何代理人都必須被拒絕。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means children never understand questions.",
+            "zh": "片語表示孩子永遠不懂問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述代理行為，是否適合取決於情境。"
+      },
+      "speaking": {
+        "en": "The student was absent, so her partner presented the group’s chart on her behalf after receiving her notes.",
+        "zh": "學生缺席，她的拍檔收到她的筆記後，代她介紹小組圖表。",
+        "promptZh": "先聽示範，再指出拍檔拿到甚麼才代她介紹。",
+        "targetSpan": {
+          "start": 67,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：陶藝班的學員因臨時看醫生缺席，授權朋友在頒獎時代領證書並讀出一段由她寫的謝詞。用英文說明誰代表誰，勿說朋友自己得獎。",
+        "selfCheckZh": "寫出學員看醫生缺席、授權朋友代領證書及讀謝詞、得獎者仍是學員。",
+        "examples": [
+          {
+            "en": "Because the pottery student was at a medical appointment, her authorised friend accepted the certificate and read her written thanks on her behalf; the student, not the friend, won the prize.",
+            "zh": "陶藝學員因看醫生缺席，獲授權的朋友代她領取證書並讀出她寫的謝詞；得獎的是學員，不是朋友。"
+          },
+          {
+            "en": "The prize belonged to the absent pottery student. With her permission, a friend collected the certificate and delivered the thank-you message on her behalf while she attended a doctor’s appointment.",
+            "zh": "獎項屬於缺席的陶藝學員。她看醫生期間，朋友經她同意代她領取證書並讀出謝詞。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "medical appointment",
+            "zh": "看醫生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 56
+            }
+          },
+          {
+            "en": "authorised friend",
+            "zh": "獲授權的朋友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "certificate",
+            "zh": "證書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 104
+            }
+          },
+          {
+            "en": "student, not the friend",
+            "zh": "學員，不是朋友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 175
+            }
+          },
+          {
+            "en": "With her permission",
+            "zh": "經她同意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 69
+            }
+          },
+          {
+            "en": "thank-you message",
+            "zh": "謝詞",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "On someone’s behalf means acting as that person’s representative.",
+          "zh": "代表某人，指代當事人採取行動。"
+        },
+        {
+          "en": "Answering on their behalf can help or hinder, depending on whether they need the chance to try.",
+          "zh": "代他們回答可能有幫助，也可能妨礙他們練習，須看情境。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4219",
+      "number": 4219,
+      "inventoryId": "expr-4219",
+      "titleEn": "under the microscope",
+      "titleZh": "受到嚴密審視",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bunder\\s+the\\s+microscope\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Subject to close public or official scrutiny.",
+        "meaningZh": "受到公眾或相關人士仔細、嚴密的審視。",
+        "grammar": "Be/come under the microscope after an event; the subject is the person or organisation scrutinised. It does not state that wrongdoing has been proved.",
+        "register": "News and institutional discussion; a community centre explains why its booking procedures are being examined after complaints.",
+        "boundaryZh": "接受審視不等於已證實失當；需有具體的關注或調查行動。",
+        "misconceptionZh": "不是放在真正顯微鏡下，也不能把網上猜測直接當成已確認的結論。",
+        "outcomeZh": "能區分「正被詳細檢查」與「已判定有錯」。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2108",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 199,
+          "book": 16,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 216, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The school was under the microscope after the incident.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "under the microscope"
+        }
+      ],
+      "listening": {
+        "en": "After several booking errors, the arts centre came under the microscope. Trustees requested records and visitors asked how places had been allocated.",
+        "zh": "接連出現預訂錯誤後，藝術中心受到嚴密審視。受託人索取紀錄，訪客亦詢問名額如何分配。",
+        "promptZh": "under the microscope 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre’s procedures were being closely examined.",
+            "zh": "中心的程序正受到仔細檢視。"
+          },
+          {
+            "id": "b",
+            "en": "Trustees had already proved fraud.",
+            "zh": "受託人已證實有人詐騙。"
+          },
+          {
+            "id": "c",
+            "en": "A laboratory tested a tiny centre model.",
+            "zh": "實驗室用顯微鏡檢查中心模型。"
+          },
+          {
+            "id": "d",
+            "en": "No one requested any information.",
+            "zh": "沒有人要求提供任何資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "索取紀錄及查問名額，顯示正在審視，未有定論。"
+      },
+      "reply": {
+        "promptEn": "Why is the local transport charity receiving more questions? After a timetable error stranded passengers, its board ordered an independent review and residents are asking to see the changes.",
+        "promptZh": "（為何本地交通慈善機構收到更多質詢？時間表錯誤令乘客滯留後，董事會委託獨立檢討，居民要求查看改動。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organisation faces close scrutiny after the error.",
+            "zh": "機構出錯後正受到嚴密審視。"
+          },
+          {
+            "id": "b",
+            "en": "The board and residents want to examine its response.",
+            "zh": "董事會及居民想審視它的處理方法。"
+          },
+          {
+            "id": "c",
+            "en": "The charity is under the microscope.",
+            "zh": "這間慈善機構正受到嚴密審視。"
+          },
+          {
+            "id": "d",
+            "en": "Questions and an independent review are now focused on it.",
+            "zh": "質詢及獨立檢討正聚焦於它。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述事件後受到詳細檢視。"
+      },
+      "scene": {
+        "promptZh": "食品配送組織發生標籤混淆後，監督委員會要求交出逐日紀錄，但尚未公布調查結果。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organisation is under the microscope.",
+            "zh": "該組織正受到嚴密審視。"
+          },
+          {
+            "id": "b",
+            "en": "The investigation has already proved deliberate misconduct.",
+            "zh": "調查已證實蓄意失當。"
+          },
+          {
+            "id": "c",
+            "en": "No one is examining the records.",
+            "zh": "沒有人檢視紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "詳細檢查正在進行，並無已證實失當的資訊。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能避免誤解 under the microscope？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It means detailed scrutiny, not automatic proof of guilt.",
+            "zh": "它指受到詳細審視，並非自動證明有錯。"
+          },
+          {
+            "id": "b",
+            "en": "It always means the person has been convicted.",
+            "zh": "它一定指當事人已被定罪。"
+          },
+          {
+            "id": "c",
+            "en": "It only applies to laboratory samples.",
+            "zh": "它只適用於實驗室樣本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "被查問和已有結論是兩個階段。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「還未有調查，只有一條未經查證的網上留言，也可說 under the microscope。」哪句較審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being under the microscope requires actual focused scrutiny, such as records being requested or procedures reviewed.",
+            "zh": "受到嚴密審視，須有實際的集中檢查，例如索取紀錄或檢討程序。"
+          },
+          {
+            "id": "b",
+            "en": "Any unverified comment proves a formal investigation.",
+            "zh": "任何未經查證的留言都證明有正式調查。"
+          },
+          {
+            "id": "c",
+            "en": "It means a real microscope is nearby.",
+            "zh": "它表示附近有真正顯微鏡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聚焦檢視要有可見行動，不應憑空推斷。"
+      },
+      "speaking": {
+        "en": "The festival organisers were under the microscope after a ticketing mistake, but the review had not yet decided who was responsible.",
+        "zh": "票務錯誤後，節慶主辦者受到嚴密審視，但檢討尚未判定誰要負責。",
+        "promptZh": "先聽示範，再指出檢討仍未確定甚麼。",
+        "targetSpan": {
+          "start": 29,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇場把兩場輪椅座位重複出售；管理層公開審視訂位紀錄，無障礙團體亦要求解釋，但目前未有證據顯示蓄意失當。用英文描述受到審視，而不要判定責任。",
+        "selfCheckZh": "寫出兩場輪椅座位重複出售、管理層審視紀錄、團體要求解釋、暫無蓄意失當結論。",
+        "examples": [
+          {
+            "en": "The theatre is under the microscope after wheelchair spaces were double-sold at two shows: managers are reviewing booking records and an access group wants answers, but intent has not been established.",
+            "zh": "兩場演出輪椅座位被重複出售後，劇場受到嚴密審視：管理層正檢查訂位紀錄，無障礙團體要求解釋，但尚未證實有人蓄意失當。"
+          },
+          {
+            "en": "After two double-bookings of wheelchair spaces, the theatre came under the microscope. Management and an access group are examining what happened, without yet finding deliberate misconduct.",
+            "zh": "兩場輪椅座位重複出售後，劇場受到嚴密審視。管理層及無障礙團體正檢視事件，尚未發現蓄意失當的證據。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two shows",
+            "zh": "兩場演出",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 89
+            }
+          },
+          {
+            "en": "wheelchair spaces",
+            "zh": "輪椅座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 59
+            }
+          },
+          {
+            "en": "booking records",
+            "zh": "訂位紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 129
+            }
+          },
+          {
+            "en": "intent has not been established",
+            "zh": "尚未證實蓄意",
+            "exampleIndex": 0,
+            "span": {
+              "start": 169,
+              "end": 200
+            }
+          },
+          {
+            "en": "double-bookings",
+            "zh": "重複出售",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 25
+            }
+          },
+          {
+            "en": "deliberate misconduct",
+            "zh": "蓄意失當",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 188
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Under the microscope means subject to close scrutiny.",
+          "zh": "受到嚴密審視，指受到仔細檢查。"
+        },
+        {
+          "en": "Being under the microscope does not prove wrongdoing.",
+          "zh": "受到嚴密審視，不等於已證實失當。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4235",
+      "number": 4235,
+      "inventoryId": "expr-4235",
+      "titleEn": "arrive at the answer",
+      "titleZh": "逐步得出答案",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:arrive|arrives|arrived|arriving)\\s+at\\s+the\\s+answer\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reach the correct answer through thought and evidence, rather than merely being told it.",
+        "meaningZh": "透過思考與證據得出正確答案，而非單純由別人告知。",
+        "grammar": "Arrive at the answer; arrive at is not physical travel here. Can be followed by themselves to stress independent reasoning.",
+        "register": "Everyday tutoring; an instructor gives learners clues without supplying the final solution.",
+        "boundaryZh": "本課指經推理而得到核實的正確答案；初步猜測或未核對的日期，尚不能作確定結論。",
+        "misconceptionZh": "不是走到某個地方；若老師直接報出答案，學生只是聽到，未必自己推得。",
+        "outcomeZh": "能指出哪些線索及核實步驟讓學習者自行得出正確答案。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2124",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 200,
+          "book": 16,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Students should arrive at the answer themselves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "arrive at the answer"
+        }
+      ],
+      "listening": {
+        "en": "The tutor showed the class two conflicting receipts and asked which date matched the delivery log. After comparing both, the pupils chose one date, and the tutor confirmed it was correct. They had arrived at the answer themselves.",
+        "zh": "導師給全班看兩張日期不同的收據，並問哪個日期與送貨紀錄吻合。學生比較後選出一個日期，導師確認答案正確；他們便是自己逐步得出答案。",
+        "promptZh": "arrived at the answer 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pupils reached the correct conclusion by comparing evidence.",
+            "zh": "學生比較證據後得出正確結論。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor announced the answer before they looked.",
+            "zh": "導師在他們看資料前便公布答案。"
+          },
+          {
+            "id": "c",
+            "en": "The class physically travelled to an answer sheet.",
+            "zh": "全班實際走到答案紙旁。"
+          },
+          {
+            "id": "d",
+            "en": "The pupils never examined the receipts.",
+            "zh": "學生從未檢視收據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們對照收據及送貨紀錄，導師亦確認選出的日期正確。"
+      },
+      "reply": {
+        "promptEn": "How did the apprentices decide which circuit was faulty? Their instructor gave them two meter readings but did not name the circuit. They compared the readings with the manual, identified it, and the instructor confirmed their conclusion.",
+        "promptZh": "（學徒如何判斷哪條電路故障？導師給了兩個電錶讀數，沒有指出電路名稱。學徒把讀數與手冊對照後辨認出來，導師亦確認結論正確。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They reasoned from readings and the manual.",
+            "zh": "他們根據讀數與手冊推理。"
+          },
+          {
+            "id": "b",
+            "en": "The instructor offered evidence rather than the final answer.",
+            "zh": "導師提供證據，而非直接給答案。"
+          },
+          {
+            "id": "c",
+            "en": "The apprentices arrived at the answer themselves.",
+            "zh": "學徒自己逐步得出答案。"
+          },
+          {
+            "id": "d",
+            "en": "Their comparison led to the identification.",
+            "zh": "對照資料讓他們辨認出故障電路。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述用讀數與手冊推理，並獲確認的正確結論。"
+      },
+      "scene": {
+        "promptZh": "數學老師只指出兩個中間步驟，學生自行檢查餘下計算、找出結果，老師核對後確認答案正確。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The students arrived at the answer through their own work.",
+            "zh": "學生靠自己完成推理，逐步得出答案。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher gave them the final result at once.",
+            "zh": "老師立即給出最終結果。"
+          },
+          {
+            "id": "c",
+            "en": "The students walked to a physical answer.",
+            "zh": "學生走到實體答案旁。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生自行完成推理，老師最後確認結果正確。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明學員 arrived at the answer themselves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They compared evidence, explained their choice, and confirmed it against the record.",
+            "zh": "他們比較證據、解釋選擇，再與紀錄核對。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor read out the final answer before they began.",
+            "zh": "他們開始前導師已讀出最終答案。"
+          },
+          {
+            "id": "c",
+            "en": "They tested two possibilities and verified the remaining one.",
+            "zh": "他們測試兩個可能，並核實剩下的一個。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "直接聽到答案，不表示學員自己推得。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「導師直接公布最終答案後，學生也算 arrived at the answer themselves。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Students arrive at the answer themselves when their reasoning reaches the correct result, rather than merely hearing it.",
+            "zh": "學生須透過自己的推理得出正確結果，才算自行逐步得出答案；單是聽到答案不算。"
+          },
+          {
+            "id": "b",
+            "en": "Hearing a supplied result is the same as deriving it correctly.",
+            "zh": "聽到別人給出的結果，等於自己正確推得。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means travelling to the location of an answer sheet.",
+            "zh": "這片語指走到答案紙所在位置。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語在此指自行推理出正確結論，而非直接聽取答案。"
+      },
+      "speaking": {
+        "en": "The group checked the labels against the map, which confirmed the final location; then they arrived at the answer without the guide naming it.",
+        "zh": "小組把標籤與地圖核對，確認最後地點後，沒有由導賞員直接告知，也自行逐步得出正確答案。",
+        "promptZh": "先聽示範，再指出小組核對了哪兩樣資料。",
+        "targetSpan": {
+          "start": 92,
+          "end": 113
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：攝影班要判斷 A、B 兩張底片哪張拍於六月；導師提供拍攝日誌與天氣紀錄，學生對照後再核對原檔，證實 B 拍於六月。用英文說明他們如何自行得出正確答案。",
+        "selfCheckZh": "寫出 A、B 兩張底片、拍攝日誌和天氣紀錄、核對原檔後確認 B 拍於六月，並說明是學生自行推得。",
+        "examples": [
+          {
+            "en": "The photography students compared negatives A and B against the shooting log, weather records and original files, then arrived at the answer: negative B was taken in June.",
+            "zh": "攝影班學生把 A、B 兩張底片與拍攝日誌、天氣紀錄及原檔核對後，逐步得出正確答案：B 底片拍於六月。"
+          },
+          {
+            "en": "The tutor provided negatives A and B, a shooting log and weather report without naming the final date. After checking the original files, the class arrived at the answer: negative B was from June.",
+            "zh": "導師提供 A、B 兩張底片、拍攝日誌和天氣報告，沒有直接給出最終日期。全班核對原檔後，逐步得出正確答案：B 底片拍於六月。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "negatives A and B",
+            "zh": "A、B 兩張底片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 51
+            }
+          },
+          {
+            "en": "shooting log",
+            "zh": "拍攝日誌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 76
+            }
+          },
+          {
+            "en": "weather records",
+            "zh": "天氣紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 93
+            }
+          },
+          {
+            "en": "original files",
+            "zh": "原檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 112
+            }
+          },
+          {
+            "en": "without naming the final date",
+            "zh": "沒有直接給出最終日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 101
+            }
+          },
+          {
+            "en": "checking the original files",
+            "zh": "核對原檔",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Arrive at the answer means reason one’s way to the correct conclusion.",
+          "zh": "逐步得出答案，指經推理形成正確結論。"
+        },
+        {
+          "en": "Arriving at the answer oneself differs from hearing a tutor supply it.",
+          "zh": "自行逐步得出答案，與直接聽導師告知答案不同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-4240",
+      "number": 4240,
+      "inventoryId": "expr-4240",
+      "titleEn": "keep learning on track",
+      "titleZh": "讓學習按計劃進行",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping)\\s+learning\\s+on\\s+track\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Help learning continue toward its planned goal rather than losing direction or falling behind.",
+        "meaningZh": "讓學習持續朝原定目標進展，而非偏離方向或落後。",
+        "grammar": "Clear goals keep learning on track; subject can be a plan, reminder or person. Keep/keeps/kept/keeping vary by tense. Track is figurative.",
+        "register": "Everyday tutoring and study planning; a learner uses weekly checkpoints to maintain progress on a reading project.",
+        "boundaryZh": "進度按計劃不代表完成所有內容，亦不保證成績必然提高。",
+        "misconceptionZh": "不是把學習放在鐵軌上；目標必須具體，空泛鼓勵未必能維持進度。",
+        "outcomeZh": "能指出目標、檢查點與實際進度之間的關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2129",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 200,
+          "book": 16,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Clear goals keep learning on track.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep learning on track"
+        }
+      ],
+      "listening": {
+        "en": "The reading group set a short target for each Friday and checked completed pages. Those checkpoints kept learning on track when members had other work.",
+        "zh": "讀書小組為每個星期五訂下短期目標，並核對已讀頁數。成員有其他工作時，這些檢查點仍讓學習按計劃進行。",
+        "promptZh": "kept learning on track 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Helped the group maintain progress toward its targets.",
+            "zh": "幫助小組維持朝目標前進的進度。"
+          },
+          {
+            "id": "b",
+            "en": "Guaranteed that every book was already finished.",
+            "zh": "保證所有書都已讀完。"
+          },
+          {
+            "id": "c",
+            "en": "Put books on a railway track.",
+            "zh": "把書放在鐵軌上。"
+          },
+          {
+            "id": "d",
+            "en": "Removed the need to check any pages.",
+            "zh": "令小組毋須核對頁數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週目標與核對頁數幫助維持進度。"
+      },
+      "reply": {
+        "promptEn": "Why does the design tutor check the portfolio each Monday? The class has a final exhibition in six weeks, and the weekly checks reveal delays early enough for students to adjust their plans.",
+        "promptZh": "（設計導師為何每週一檢查作品集？全班六週後要辦最終展覽；每週檢查可及早發現延誤，讓學生調整計劃。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The checks help students move toward the exhibition goal.",
+            "zh": "檢查幫助學生朝展覽目標前進。"
+          },
+          {
+            "id": "b",
+            "en": "Students can adjust before delays become serious.",
+            "zh": "學生可在延誤嚴重前作調整。"
+          },
+          {
+            "id": "c",
+            "en": "Weekly checks keep learning on track.",
+            "zh": "每週檢查讓學習按計劃進行。"
+          },
+          {
+            "id": "d",
+            "en": "The tutor uses the checks to monitor planned progress.",
+            "zh": "導師利用檢查監察原定進度。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述每週檢查如何維持目標進度。"
+      },
+      "scene": {
+        "promptZh": "語言班每週列出兩項練習目標，月底核對已完成的項目，發現延誤便調整日程。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The goals help keep learning on track.",
+            "zh": "這些目標幫助學習按計劃進行。"
+          },
+          {
+            "id": "b",
+            "en": "Every learner has already mastered the language.",
+            "zh": "每名學員已完全掌握語言。"
+          },
+          {
+            "id": "c",
+            "en": "The class is walking along a real railway.",
+            "zh": "全班正在真正的鐵路上行走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明確目標、核對及調整讓進度維持方向。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 keep learning on track？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Weekly checks identify missed tasks and prompt a revised plan.",
+            "zh": "每週檢查發現未完成任務，促使修訂計劃。"
+          },
+          {
+            "id": "b",
+            "en": "A slogan says “work harder” without any target or progress check.",
+            "zh": "口號只說「更努力」，沒有目標或進度檢查。"
+          },
+          {
+            "id": "c",
+            "en": "A teacher breaks a long goal into measured stages.",
+            "zh": "老師把長期目標分成可衡量階段。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "空泛口號缺少維持進度的具體機制。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「on track 表示已經完成課程。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping learning on track means maintaining progress, not necessarily finishing.",
+            "zh": "讓學習按計劃進行是維持進度，不一定已完成。"
+          },
+          {
+            "id": "b",
+            "en": "It always means the course is over.",
+            "zh": "它必定表示課程已結束。"
+          },
+          {
+            "id": "c",
+            "en": "It requires a physical track.",
+            "zh": "它需要真正軌道。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按進度推進與全部完成不同。"
+      },
+      "speaking": {
+        "en": "A weekly checklist kept learning on track by showing the trainees which safety topics still needed practice.",
+        "zh": "每週清單列出哪些安全課題仍需練習，讓學員的學習按計劃進行。",
+        "promptZh": "先聽示範，再指出清單顯示了甚麼。",
+        "targetSpan": {
+          "start": 19,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：書法班八週後舉辦作品展，導師每週檢查一頁練習，第二週發現兩名學員落後，於是為他們調整餘下六週安排。用英文說明如何維持學習進度，不要說所有作品已完成。",
+        "selfCheckZh": "寫出八週後作品展、每週檢查一頁、第二週發現兩人落後、調整餘下六週。",
+        "examples": [
+          {
+            "en": "With an exhibition eight weeks away, the tutor checked one practice page each week. Finding two learners behind in week two, she adjusted their remaining six-week plan to keep learning on track.",
+            "zh": "距離作品展還有八週，導師每週檢查一頁練習。第二週發現兩名學員落後後，她調整餘下六週計劃，讓學習按計劃進行。"
+          },
+          {
+            "en": "The calligraphy tutor planned an exhibition eight weeks after the course began and used weekly page checks to keep learning on track. When two students fell behind in week two, she revised their plan for the final six weeks.",
+            "zh": "書法導師安排在課程開始八週後辦作品展，並每週檢查練習頁，讓學習按計劃進行。第二週發現兩名學生落後，她便修訂餘下六週的安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "eight weeks away",
+            "zh": "八週後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 35
+            }
+          },
+          {
+            "en": "one practice page",
+            "zh": "一頁練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 72
+            }
+          },
+          {
+            "en": "two learners",
+            "zh": "兩名學員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 104
+            }
+          },
+          {
+            "en": "remaining six-week plan",
+            "zh": "餘下六週計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 167
+            }
+          },
+          {
+            "en": "weekly page checks",
+            "zh": "每週檢查練習頁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 106
+            }
+          },
+          {
+            "en": "final six weeks",
+            "zh": "餘下六週",
+            "exampleIndex": 1,
+            "span": {
+              "start": 208,
+              "end": 223
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep learning on track means maintain progress toward a goal.",
+          "zh": "讓學習按計劃進行，指維持朝目標前進的進度。"
+        },
+        {
+          "en": "Keeping learning on track does not mean every task is already finished.",
+          "zh": "讓學習維持進度，不表示所有任務已完成。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4242",
+      "number": 4242,
+      "inventoryId": "expr-4242",
+      "titleEn": "drift off-topic",
+      "titleZh": "偏離話題",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:drift|drifts|drifted|drifting)\\s+off[ -]topic\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Gradually move away from the subject a discussion is meant to address.",
+        "meaningZh": "討論逐漸離開原本要談的主題。",
+        "grammar": "A discussion drifts off-topic; use drift/drifts/drifted/drifting and off-topic or off topic. The movement is figurative and usually gradual.",
+        "register": "Everyday meeting and classroom talk; a chair uses the agenda to bring a conversation back to its purpose.",
+        "boundaryZh": "偏題不是換個例子就必然成立；要看新內容是否仍有助原本目的。",
+        "misconceptionZh": "不是人漂流到別處；也不必假設偏題的人故意妨礙會議。",
+        "outcomeZh": "能指出原定題目、轉向的新題目及如何回到議程。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2131",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 201,
+          "book": 16,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The discussion was drifting off-topic by noon.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drifting off-topic"
+        }
+      ],
+      "listening": {
+        "en": "The meeting was meant to decide library opening hours, but it drifted off-topic into a debate about wall colours. The chair returned to the hours question.",
+        "zh": "會議原本要決定圖書館開放時間，卻漸漸偏離話題，轉去辯論牆壁顏色。主席把討論拉回開放時間。",
+        "promptZh": "drifted off-topic 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The discussion moved away from its intended subject.",
+            "zh": "討論離開了原定主題。"
+          },
+          {
+            "id": "b",
+            "en": "The group reached a final decision on hours.",
+            "zh": "小組已對開放時間作出最終決定。"
+          },
+          {
+            "id": "c",
+            "en": "The participants floated to another room.",
+            "zh": "與會者漂到另一房間。"
+          },
+          {
+            "id": "d",
+            "en": "Wall colour was the original agenda item.",
+            "zh": "牆壁顏色本來就是議程主題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開放時間的討論轉成牆色辯論。"
+      },
+      "reply": {
+        "promptEn": "Why did the moderator point to the agenda? The panel was supposed to discuss bus frequency, but for fifteen minutes speakers had been comparing restaurant menus near the station.",
+        "promptZh": "（主持人為何指向議程？小組本應討論巴士班次，但發言者已有十五分鐘在比較車站附近餐廳的菜單。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The panel was no longer addressing bus frequency.",
+            "zh": "小組不再討論巴士班次。"
+          },
+          {
+            "id": "b",
+            "en": "The moderator wanted to return to the intended subject.",
+            "zh": "主持人想回到原定主題。"
+          },
+          {
+            "id": "c",
+            "en": "The discussion had drifted off-topic.",
+            "zh": "討論已偏離話題。"
+          },
+          {
+            "id": "d",
+            "en": "The restaurant comparison was outside the agenda.",
+            "zh": "餐廳比較不在議程內。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據原定巴士議題與餐廳話題的差異回答。"
+      },
+      "scene": {
+        "promptZh": "讀書會本來討論結局人物的選擇，後來二十分鐘只談茶點價格。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The discussion drifted off-topic.",
+            "zh": "討論逐漸偏離話題。"
+          },
+          {
+            "id": "b",
+            "en": "The group remained focused on the ending.",
+            "zh": "小組一直集中討論結局。"
+          },
+          {
+            "id": "c",
+            "en": "The members physically moved the books.",
+            "zh": "成員實際搬走書本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由人物選擇轉到茶點價格，離開原定主題。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 drift off-topic？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker offers a short example that directly clarifies the same question.",
+            "zh": "講者舉一個簡短例子，直接說明同一問題。"
+          },
+          {
+            "id": "b",
+            "en": "A safety meeting spends its last half hour on unrelated holiday plans.",
+            "zh": "安全會議最後半小時討論不相關的假期計劃。"
+          },
+          {
+            "id": "c",
+            "en": "A planning call gradually turns to an unrelated television programme.",
+            "zh": "規劃通話逐漸轉向無關的電視節目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "相關例子仍服務原議題，不算偏題。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「偏題一定是故意搗亂。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A discussion can drift off-topic without anyone intending to disrupt it.",
+            "zh": "討論可以不知不覺偏離話題，而沒有人打算搗亂。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase proves someone meant to sabotage the meeting.",
+            "zh": "這片語證明有人有意破壞會議。"
+          },
+          {
+            "id": "c",
+            "en": "It describes a boat drifting away.",
+            "zh": "它描述小船漂走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述話題方向，不說明動機。"
+      },
+      "speaking": {
+        "en": "The committee drifted off-topic while discussing lunch plans, so the chair brought everyone back to the emergency-exit map.",
+        "zh": "委員會談起午餐安排時逐漸偏離話題，主席於是請大家回到緊急出口地圖。",
+        "promptZh": "先聽示範，再指出主席把大家帶回哪個題目。",
+        "targetSpan": {
+          "start": 14,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園展覽會議原定討論展示牌字體大小，卻逐漸轉去談明年的班際旅行；主持人停下討論，請大家先完成展示牌決定。用英文描述偏題和返回議程，不要說旅行本身不重要。",
+        "selfCheckZh": "寫出原定展示牌字體、轉去明年旅行、主持人要求先完成展示牌決定。",
+        "examples": [
+          {
+            "en": "The exhibition meeting drifted off-topic from display-label font size into next year’s class trip, so the chair asked members to decide the labels first.",
+            "zh": "校園展覽會議由展示牌字體大小逐漸偏離，轉去談明年班際旅行；主席請成員先決定展示牌安排。"
+          },
+          {
+            "en": "While the group was choosing a font size for exhibition labels, it began to drift off-topic into plans for next year’s trip. The chair returned the meeting to the label decision.",
+            "zh": "小組原本要選展覽展示牌字體大小，卻開始偏離話題，轉去規劃明年旅行。主席把會議帶回展示牌決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "display-label font size",
+            "zh": "展示牌字體大小",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 69
+            }
+          },
+          {
+            "en": "next year’s class trip",
+            "zh": "明年班際旅行",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 97
+            }
+          },
+          {
+            "en": "the chair",
+            "zh": "主席",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 111
+            }
+          },
+          {
+            "en": "decide the labels first",
+            "zh": "先決定展示牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 152
+            }
+          },
+          {
+            "en": "exhibition labels",
+            "zh": "展覽展示牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "returned the meeting",
+            "zh": "把會議帶回",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 155
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Drift off-topic means gradually move away from the intended subject.",
+          "zh": "偏離話題，指討論逐漸離開原定主題。"
+        },
+        {
+          "en": "An example that helps answer the question does not necessarily drift off-topic.",
+          "zh": "有助回答原問題的例子，不一定算偏題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

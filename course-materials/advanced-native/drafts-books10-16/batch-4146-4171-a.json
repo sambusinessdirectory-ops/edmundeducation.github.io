@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4146",
+      "number": 4146,
+      "inventoryId": "expr-4146",
+      "titleEn": "keep track of",
+      "titleZh": "追蹤並掌握",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) track of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Maintain an accurate awareness or record of changing items, dates or progress.",
+        "meaningZh": "持續掌握或記錄會變動的事項、日期或進度。",
+        "grammar": "Keep track of + noun; keep inflects kept/keeping. A list or log may help, but the phrase concerns ongoing awareness rather than owning a tracker.",
+        "register": "Neutral everyday English. A coordinator may use it while explaining a shared task list to volunteers.",
+        "boundaryZh": "重點是持續更新及核對，並非只寫下第一次資料；也不保證紀錄本身絕對無誤。",
+        "misconceptionZh": "不是沿着實體跑道走，也不等於知道所有未來變化。",
+        "outcomeZh": "能指出要追蹤的對象、更新來源及何時核對。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2035",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 192,
+          "book": 15,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 209, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A calendar helps us keep track of appointments.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep track of"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The repair club lends tools to several workshops. Its coordinator keeps track of return dates in a shared log and updates the entry whenever a borrower arranges an extension.",
+        "zh": "修理社團向幾個工作坊借出工具。協調員在共用紀錄中追蹤歸還日期；借用人延長期限時，她便更新記項。",
+        "promptZh": "共用紀錄有何作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps the coordinator maintain current return dates.",
+            "zh": "它幫助協調員掌握最新歸還日期。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees that no borrower will ever ask for an extension.",
+            "zh": "它保證借用人永遠不會要求延期。"
+          },
+          {
+            "id": "c",
+            "en": "It records only the first loan and cannot be updated.",
+            "zh": "它只記初次借出，不能更新。"
+          },
+          {
+            "id": "d",
+            "en": "It replaces the tools the club lends out.",
+            "zh": "它取代社團借出的工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "追蹤需隨延期更新，不是一次記下便算。"
+      },
+      "reply": {
+        "promptEn": "A theatre has eight borrowed lights. The stage manager notes who holds each light and checks the return list after every rehearsal. What is she doing?",
+        "promptZh": "（劇場借了八盞燈。舞台經理記下每盞由誰保管，並在每次排練後核對歸還清單。她在做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She maintains an updated record of the lights.",
+            "zh": "她持續更新燈具紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "She checks changes after rehearsals.",
+            "zh": "她在排練後核對變動。"
+          },
+          {
+            "id": "c",
+            "en": "She keeps track of the borrowed lights.",
+            "zh": "她追蹤借來的燈具。"
+          },
+          {
+            "id": "d",
+            "en": "The holder and return status remain visible to her.",
+            "zh": "保管者與歸還狀態可供她查看。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由更新與核對動作支持。"
+      },
+      "scene": {
+        "promptZh": "義工負責十二份文件，收到每次修訂便更新清單，並在會議前核對版本。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She keeps track of the document versions.",
+            "zh": "她持續追蹤文件版本。"
+          },
+          {
+            "id": "b",
+            "en": "She wrote a list once and ignored all later revisions.",
+            "zh": "她只寫過一次清單，之後不理修訂。"
+          },
+          {
+            "id": "c",
+            "en": "She knows every future revision before it happens.",
+            "zh": "她在修訂發生前已知道往後所有版本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續更新和核對版本。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone keeps track of progress？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He records the first milestone but ignores every later update and cannot say what remains.",
+            "zh": "他只記第一個里程碑，之後不理任何更新，也說不出還有甚麼未做。"
+          },
+          {
+            "id": "b",
+            "en": "He updates the task board after each completed stage.",
+            "zh": "每完成一階段，他便更新任務板。"
+          },
+          {
+            "id": "c",
+            "en": "He compares the latest report with the previous one weekly.",
+            "zh": "他每週比較最新報告與上一份。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一次紀錄而不更新，欠缺持續掌握。"
+      },
+      "dialogue": {
+        "promptEn": "A: The delivery dates change often, and we need to know which boxes have arrived. B: ______",
+        "promptZh": "（甲：送貨日期經常改動，我們需要知道哪些箱已到。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us keep track of arrivals in a shared list and update it daily.",
+            "zh": "我們用共用清單追蹤到貨情況，每天更新。"
+          },
+          {
+            "id": "b",
+            "en": "A daily update would show which boxes are still outstanding.",
+            "zh": "每天更新可顯示哪些箱仍未到。"
+          },
+          {
+            "id": "c",
+            "en": "We should confirm each change with the delivery team.",
+            "zh": "每次變動都應向送貨團隊核實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句提出持續更新及查核。"
+      },
+      "speaking": {
+        "en": "The exhibition team kept track of label revisions in a shared table, so printers could verify which version was current before producing signs.",
+        "zh": "展覽團隊在共用表格追蹤標籤修訂，讓印刷員製作標示前可核實最新版本。",
+        "promptZh": "交代紀錄對象和更新用途。",
+        "targetSpan": {
+          "start": 20,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人管理會改變的日期、版本或物品狀態。用英文寫出追蹤工具、更新時機及用途。",
+        "selfCheckZh": "兩例不可只記錄首次資料而忽略後續變動。",
+        "examples": [
+          {
+            "en": "The festival organiser kept track of volunteer shifts in a shared sheet, updating swaps as soon as both volunteers agreed.",
+            "zh": "節慶主辦人用共用表格追蹤義工更次；兩名義工同意交換後便立即更新。"
+          },
+          {
+            "en": "A lab assistant keeps track of sample temperatures in a log, checking each new reading before the next test begins.",
+            "zh": "實驗室助理用日誌追蹤樣本溫度；下次測試前核對每項新讀數。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "volunteer shifts",
+            "zh": "義工更次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 53
+            }
+          },
+          {
+            "en": "a shared sheet",
+            "zh": "共用表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 71
+            }
+          },
+          {
+            "en": "swaps",
+            "zh": "交換更次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 87
+            }
+          },
+          {
+            "en": "sample temperatures",
+            "zh": "樣本溫度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 50
+            }
+          },
+          {
+            "en": "each new reading",
+            "zh": "每項新讀數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 86
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep track of something means maintain an updated view of it.",
+          "zh": "keep track of 指持續掌握某事的最新狀態。"
+        },
+        {
+          "en": "A changing schedule needs checking if you want to keep track of it.",
+          "zh": "想持續掌握會變的日程，就需要核對更新。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4161",
+      "number": 4161,
+      "inventoryId": "expr-4161",
+      "titleEn": "memory can become foggy",
+      "titleZh": "記憶變得模糊",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bmemory (?:can|could|may|might|will|would) become foggy\\b|\\bmemory (?:became|has become|becomes|is becoming) foggy\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Recall becomes less clear or reliable, especially for details, without implying all memory is lost.",
+        "meaningZh": "回想細節變得不清晰或不可靠，不代表所有記憶消失。",
+        "grammar": "Memory is the subject; become foggy describes reduced clarity. Use a modal such as can to express possibility, not certainty.",
+        "register": "Neutral figurative English. A project member might say it while deciding to verify notes after a tiring shift.",
+        "boundaryZh": "只說細節可能模糊，不能單憑疲倦推斷某人必然記錯；需要查核紀錄。",
+        "misconceptionZh": "不是腦裏真的起霧，也不是所有事情都完全忘記。",
+        "outcomeZh": "能指出不確定的細節及適當核對方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2050",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 193,
+          "book": 15,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "75–78",
+          "locatorNote": "DOCX table 210, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Memory can become foggy after several sleepless nights.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "memory can become foggy"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After a long overnight shift, Mei remembered the equipment test but was unsure which readings came first. Her memory could become foggy when she was tired, so she checked the timestamped log before reporting the sequence.",
+        "zh": "一夜長班後，美記得做過設備測試，卻不確定讀數次序。疲倦時記憶可能變模糊，因此她報告前查了附時間記錄的日誌。",
+        "promptZh": "她為何查看日誌？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She knew the event but was unsure about its sequence.",
+            "zh": "她記得事情，卻不確定次序。"
+          },
+          {
+            "id": "b",
+            "en": "She had forgotten that any equipment test occurred.",
+            "zh": "她連曾做設備測試也忘了。"
+          },
+          {
+            "id": "c",
+            "en": "The log could not contain any timestamps.",
+            "zh": "日誌不可能有時間記錄。"
+          },
+          {
+            "id": "d",
+            "en": "Tiredness proved that every reading she recalled was wrong.",
+            "zh": "疲倦證明她記得的每項讀數都錯了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "部分細節不清，查紀錄比猜測穩妥。"
+      },
+      "reply": {
+        "promptEn": "A volunteer remembers meeting the visitors but cannot confidently recall which room they used after a late shift. She checks the booking record. What might be happening to her recall?",
+        "promptZh": "（義工記得接待訪客，但夜班後不肯定當時用了哪個房間。她查預約紀錄。她的回想可能出了甚麼情況？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A particular detail has become unclear.",
+            "zh": "某項細節變得不清楚。"
+          },
+          {
+            "id": "b",
+            "en": "She remembers the visit but verifies the room.",
+            "zh": "她記得接待一事，但要核實房間。"
+          },
+          {
+            "id": "c",
+            "en": "Her memory may become foggy after the late shift.",
+            "zh": "夜班後，她的記憶可能變得模糊。"
+          },
+          {
+            "id": "d",
+            "en": "The booking record can clarify the uncertain detail.",
+            "zh": "預約紀錄可釐清不確定的細節。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句保留可能性與局部細節；金句用迷霧比喻。"
+      },
+      "scene": {
+        "promptZh": "一名職員記得已送出文件，但連續加班後不肯定是哪天，於是查電郵時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Memory can become foggy about dates, so checking helps.",
+            "zh": "日期記憶可能變模糊，因此查核有幫助。"
+          },
+          {
+            "id": "b",
+            "en": "She must have invented the whole document.",
+            "zh": "她必定虛構了整份文件。"
+          },
+          {
+            "id": "c",
+            "en": "The email timestamp is unnecessary because tired people always remember dates perfectly.",
+            "zh": "電郵時間毫無用處，因疲倦的人總能準確記日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "知道事件但不肯定日期，應查證。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone’s memory became foggy？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The person recalls the exact event and date, and a record confirms every detail.",
+            "zh": "那人準確記起事件及日期，紀錄也證實每項細節。"
+          },
+          {
+            "id": "b",
+            "en": "The person remembers the meeting but confuses its location with another.",
+            "zh": "那人記得開會，卻把地點與另一場混淆。"
+          },
+          {
+            "id": "c",
+            "en": "The person is unsure which version came first and checks the log.",
+            "zh": "那人不確定哪個版本在先，於是查日誌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "記憶清晰而且獲紀錄證實，沒有模糊證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: I remember the rehearsal happened, but after the late shift I cannot place which hall we used. B: ______",
+        "promptZh": "（甲：我記得有排練，但夜班後想不起用了哪個禮堂。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your memory may become foggy about the hall; let us check the booking sheet.",
+            "zh": "你對禮堂的記憶可能變模糊；我們查預約表吧。"
+          },
+          {
+            "id": "b",
+            "en": "The booking sheet can settle that particular detail.",
+            "zh": "預約表可釐清那項細節。"
+          },
+          {
+            "id": "c",
+            "en": "Remembering the rehearsal does not mean every detail is certain.",
+            "zh": "記得排練不等於每個細節都確定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句只對房間細節表示不確定，並提出查核。"
+      },
+      "speaking": {
+        "en": "Memory can become foggy after a hectic event; the coordinator recalled the closing speech but checked the programme before naming who spoke first.",
+        "zh": "忙亂的活動後，記憶可能變得模糊；協調員記得閉幕致辭，但說出首位發言者前仍查節目表。",
+        "promptZh": "以具體不確定細節與核查支撐比喻。",
+        "targetSpan": {
+          "start": 0,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人記得事件大概，但對一項細節不肯定，便查可靠紀錄。用英文寫出可能的模糊與查證。",
+        "selfCheckZh": "兩例不可說疲倦必定造成記錯，也不可說全部記憶消失。",
+        "examples": [
+          {
+            "en": "After the overnight inventory, memory could become foggy about the count, so Arun checked the signed sheet before ordering supplies.",
+            "zh": "通宵點算後，數量記憶可能變模糊，因此阿倫訂貨前查了已簽署清單。"
+          },
+          {
+            "en": "Memory may become foggy about timing after a busy festival; Jo recalled the parade but checked the schedule for its start time.",
+            "zh": "忙碌節慶過後，時間記憶可能變模糊；祖記得遊行，卻要查日程確定開始時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the overnight inventory",
+            "zh": "通宵點算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 29
+            }
+          },
+          {
+            "en": "the signed sheet",
+            "zh": "已簽署清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 106
+            }
+          },
+          {
+            "en": "ordering supplies",
+            "zh": "訂貨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 131
+            }
+          },
+          {
+            "en": "a busy festival",
+            "zh": "忙碌節慶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 58
+            }
+          },
+          {
+            "en": "the schedule",
+            "zh": "日程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Memory can become foggy without every event being forgotten.",
+          "zh": "memory can become foggy 不等於所有事情都忘記。"
+        },
+        {
+          "en": "When memory may become foggy, check a record before stating uncertain details.",
+          "zh": "記憶可能模糊時，應查紀錄後才說出不確定細節。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4170",
+      "number": 4170,
+      "inventoryId": "expr-4170",
+      "titleEn": "nourish the mind",
+      "titleZh": "滋養心智",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:nourish|nourishes|nourished|nourishing) (?:(?:the|my|your|his|her|our) mind|their minds)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Enrich thought or imagination through meaningful intellectual or creative engagement.",
+        "meaningZh": "透過有意義的思考或創作體驗，豐富心智與想像。",
+        "grammar": "Nourish the/my/her mind or nourish their minds for a plural group; nourish is figurative here, not literal feeding. A text, conversation or activity can be the subject.",
+        "register": "Reflective, slightly literary English. A librarian may use it while recommending varied reading to an adult learner.",
+        "boundaryZh": "指心智獲啟發或豐富，不保證讀一本書便會更聰明，也不否定休息的價值。",
+        "misconceptionZh": "不是給大腦實際進食，也不必只靠艱深書籍。",
+        "outcomeZh": "能指出內容與引發的思考或想像，而不是空泛讚美。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2059",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 194,
+          "book": 15,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 211, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "History books can nourish the mind at any age.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "nourish the mind"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The oral-history recording invited the class to compare how two neighbours remembered the same flood. Listening closely nourished their minds by raising questions about evidence and memory.",
+        "zh": "口述歷史錄音讓全班比較兩位鄰居對同一場水災的回憶。認真聆聽令他們思考證據與記憶，豐富了心智。",
+        "promptZh": "錄音如何豐富心智？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It prompted careful comparison and new questions.",
+            "zh": "它促使仔細比較和提出新問題。"
+          },
+          {
+            "id": "b",
+            "en": "It automatically made every student an expert historian.",
+            "zh": "它自動令每位學生變成歷史專家。"
+          },
+          {
+            "id": "c",
+            "en": "It supplied physical food during class.",
+            "zh": "它在課堂上提供實物食物。"
+          },
+          {
+            "id": "d",
+            "en": "It removed the need to assess evidence.",
+            "zh": "它令評估證據變得多餘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比較與提問是可見的思考活動。"
+      },
+      "reply": {
+        "promptEn": "Readers study a collection of letters and discuss why the writers describe the same event differently. What can that reading do for them?",
+        "promptZh": "（讀者研讀一組信件，討論作者為何對同一事件有不同描述。這種閱讀對他們有何作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It encourages comparison of perspectives.",
+            "zh": "它鼓勵比較不同觀點。"
+          },
+          {
+            "id": "b",
+            "en": "It gives them questions about interpretation.",
+            "zh": "它讓他們思考如何理解內容。"
+          },
+          {
+            "id": "c",
+            "en": "It can nourish the mind through reflection.",
+            "zh": "它可透過反思滋養心智。"
+          },
+          {
+            "id": "d",
+            "en": "The discussion goes beyond simply finishing pages.",
+            "zh": "討論不止於讀完頁面。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由比較觀點與反思支持。"
+      },
+      "scene": {
+        "promptZh": "學生聽完地方故事後，討論不同敘述者的觀點，並提出新問題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The stories can nourish the mind by prompting reflection.",
+            "zh": "故事引發反思，可滋養心智。"
+          },
+          {
+            "id": "b",
+            "en": "The stories physically feed the brain.",
+            "zh": "故事真的把食物送進大腦。"
+          },
+          {
+            "id": "c",
+            "en": "Hearing them once guarantees complete historical knowledge.",
+            "zh": "聽一次便保證完全掌握歷史。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有反思與提問的具體證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an activity nourishes the mind？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Participants copy a title mechanically, with no engagement with its meaning or ideas.",
+            "zh": "參加者機械式抄題目，沒有理解或思考內容。"
+          },
+          {
+            "id": "b",
+            "en": "Participants debate two explanations of a historical event.",
+            "zh": "參加者辯論某歷史事件的兩種解釋。"
+          },
+          {
+            "id": "c",
+            "en": "Participants imagine several endings to a story and explain them.",
+            "zh": "參加者想像故事的幾種結局並加以解釋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有機械抄寫，欠缺有意義的思考。"
+      },
+      "dialogue": {
+        "promptEn": "A: The workshop asked us to compare three accounts of the harbour and explain the differences. B: ______",
+        "promptZh": "（甲：工作坊請我們比較港口的三種記述，並解釋差異。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds like work that can nourish the mind.",
+            "zh": "聽來是可以滋養心智的活動。"
+          },
+          {
+            "id": "b",
+            "en": "Comparing accounts may challenge our assumptions.",
+            "zh": "比較記述或能挑戰我們原有想法。"
+          },
+          {
+            "id": "c",
+            "en": "Explaining the differences makes us think more carefully.",
+            "zh": "解釋差異讓我們想得更仔細。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以比較與解釋說明心智收穫。"
+      },
+      "speaking": {
+        "en": "A conversation about the novel’s unreliable narrator nourished her mind because she began questioning whose evidence the story left out.",
+        "zh": "一場關於小說不可靠敘述者的對話滋養了她的心智，因她開始思考故事漏掉了誰的證據。",
+        "promptZh": "指出內容如何引發思考。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項閱讀或對話讓人比較觀點、提出問題或發揮想像。用英文寫出內容及思考收穫。",
+        "selfCheckZh": "兩例不能只說「變聰明」而沒有具體思考行為。",
+        "examples": [
+          {
+            "en": "The museum’s interview archive nourished the mind as visitors compared workers’ accounts and asked why their timelines differed.",
+            "zh": "博物館的訪談檔案讓訪客比較工人的記述，並問時間線為何不同，從而滋養心智。"
+          },
+          {
+            "en": "A discussion of the play’s ending nourished her mind; she considered two interpretations and revised her first assumption.",
+            "zh": "討論劇作結局滋養了她的心智；她考慮兩種解讀，並修正最初想法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The museum’s interview archive",
+            "zh": "博物館的訪談檔案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 30
+            }
+          },
+          {
+            "en": "workers’ accounts",
+            "zh": "工人的記述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 88
+            }
+          },
+          {
+            "en": "their timelines",
+            "zh": "他們的時間線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 118
+            }
+          },
+          {
+            "en": "two interpretations",
+            "zh": "兩種解讀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 88
+            }
+          },
+          {
+            "en": "her first assumption",
+            "zh": "最初想法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Nourish the mind means enrich thought or imagination.",
+          "zh": "nourish the mind 指豐富思考或想像。"
+        },
+        {
+          "en": "Thoughtful questions can nourish the mind without guaranteeing expertise.",
+          "zh": "有深度的問題可滋養心智，卻不保證變成專家。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4171",
+      "number": 4171,
+      "inventoryId": "expr-4171",
+      "titleEn": "miss the point entirely",
+      "titleZh": "完全偏離重點",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:miss|misses|missed|missing) the point entirely\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Fail to understand the central purpose or message, often by focusing on the wrong detail.",
+        "meaningZh": "只盯着枝節，因而完全沒有理解核心目的或意思。",
+        "grammar": "Miss the point entirely; miss inflects missed/missing, and entirely intensifies the failure to grasp the central point.",
+        "register": "Direct and mildly critical English. A facilitator may use it while redirecting a planning discussion, preferably explaining the overlooked purpose.",
+        "boundaryZh": "不是普通的細節錯誤，而是理解的方向偏離核心；指出此語時應說明真正重點。",
+        "misconceptionZh": "不是錯過一個地點或分數；也不等於對方所有意見都沒有價值。",
+        "outcomeZh": "能辨明被忽略的核心目的，以及對方聚焦的枝節。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2060",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 194,
+          "book": 15,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 211, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Forcing one book on every reader may miss the point entirely.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "miss the point entirely"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The reading club planned an event to help reluctant readers choose books they enjoyed. One proposal required every visitor to finish the same long novel. The chair said it missed the point entirely: the event was about choice.",
+        "zh": "閱讀社計劃活動，讓不太愛閱讀的人選到自己喜歡的書。一項建議卻要求每位參加者讀完同一本長篇小說。主席說這完全偏離重點：活動核心是自主選擇。",
+        "promptZh": "主席認為建議忽略了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event’s purpose was to give readers a choice.",
+            "zh": "活動目的是讓讀者自主選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The exact number of chairs in the room.",
+            "zh": "房間椅子的確切數量。"
+          },
+          {
+            "id": "c",
+            "en": "The proposal’s printing cost alone.",
+            "zh": "只看建議的印刷費。"
+          },
+          {
+            "id": "d",
+            "en": "Whether the novel’s cover looked attractive.",
+            "zh": "小說封面是否吸引。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "強制同讀一本書，與鼓勵自主選擇的核心背道而馳。"
+      },
+      "reply": {
+        "promptEn": "A safety workshop aims to teach workers to report near misses without fear. A planner suggests judging success only by how few reports arrive. What is wrong with that measure?",
+        "promptZh": "（安全工作坊旨在教工人安心呈報險些出事的情況。策劃者建議只用收到的報告愈少愈好來衡量成效。這個衡量方法有甚麼問題？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may discourage the reporting the workshop seeks.",
+            "zh": "它可能阻礙工作坊希望促進的呈報。"
+          },
+          {
+            "id": "b",
+            "en": "It treats silence as success without checking why.",
+            "zh": "它把沉默當成果，卻不查原因。"
+          },
+          {
+            "id": "c",
+            "en": "It misses the point entirely about safe reporting.",
+            "zh": "它完全偏離了安心呈報的重點。"
+          },
+          {
+            "id": "d",
+            "en": "The measure fails to reflect the workshop’s stated purpose.",
+            "zh": "該衡量方法未能反映工作坊明訂的目的。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出衡量方法與真正目標相反。"
+      },
+      "scene": {
+        "promptZh": "社區活動是讓居民提出需要，某方案卻只評核工作人員的制服顏色，完全不聽居民意見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The scheme misses the point entirely about listening to residents.",
+            "zh": "方案完全偏離了聆聽居民的重點。"
+          },
+          {
+            "id": "b",
+            "en": "Uniform colour is the event’s central purpose.",
+            "zh": "制服顏色就是活動的核心目的。"
+          },
+          {
+            "id": "c",
+            "en": "Residents have already had every need answered.",
+            "zh": "居民所有需要都已獲回應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看制服而忽略居民需要，偏離核心目的。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a response missed the point entirely？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The response identifies the main purpose and offers a relevant way to achieve it, though one small date is wrong.",
+            "zh": "回應掌握主要目的，並提出相關做法，只是錯了一個小日期。"
+          },
+          {
+            "id": "b",
+            "en": "The response debates the font while ignoring the accessibility problem.",
+            "zh": "回應只爭論字體，卻忽略無障礙問題。"
+          },
+          {
+            "id": "c",
+            "en": "The response treats a listening exercise as a speed contest.",
+            "zh": "回應把聆聽練習當速度比賽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "小日期錯誤不等於完全沒掌握核心。"
+      },
+      "dialogue": {
+        "promptEn": "A: The exhibition is meant to let visitors compare two accounts, but this plan hides one account and scores only ticket sales. B: ______",
+        "promptZh": "（甲：展覽旨在讓訪客比較兩種記述，但這方案隱藏其中一種，只看門票銷量。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That plan misses the point entirely about comparison.",
+            "zh": "這方案完全偏離比較兩種記述的重點。"
+          },
+          {
+            "id": "b",
+            "en": "Both accounts need to be visible for visitors to compare them.",
+            "zh": "兩種記述都須展示，訪客才可比較。"
+          },
+          {
+            "id": "c",
+            "en": "Ticket sales alone will not show whether visitors understood the difference.",
+            "zh": "單看門票銷量，不能知道訪客有否理解差異。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出真正目的與方案之間的錯位。"
+      },
+      "speaking": {
+        "en": "The mentor wanted students to explain their reasoning, so an answer sheet giving only final numbers missed the point entirely.",
+        "zh": "導師希望學生解釋推理，因此只列最終數字的答案紙完全偏離重點。",
+        "promptZh": "說明原本核心目的，以及回應如何偏離。",
+        "targetSpan": {
+          "start": 100,
+          "end": 125
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個計劃的核心目標明確，但評量或安排只盯着次要指標。用英文對照真正目的與偏離的做法。",
+        "selfCheckZh": "兩例要指出被忽略的核心，不可把普通小錯誤誇大為完全偏題。",
+        "examples": [
+          {
+            "en": "The garden survey sought residents’ access needs; counting only flower colours missed the point entirely because it ignored whether people could enter.",
+            "zh": "花園調查原想了解居民的通行需要；只數花朵顏色完全偏離重點，因為忽略人們能否進入。"
+          },
+          {
+            "en": "A training session aimed to build careful listening, but ranking trainees solely by speaking speed missed the point entirely.",
+            "zh": "培訓原要建立細心聆聽，只憑說話速度排列學員便完全偏離重點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "residents’ access needs",
+            "zh": "居民的通行需要",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 48
+            }
+          },
+          {
+            "en": "flower colours",
+            "zh": "花朵顏色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 78
+            }
+          },
+          {
+            "en": "could enter",
+            "zh": "能否進入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 150
+            }
+          },
+          {
+            "en": "careful listening",
+            "zh": "細心聆聽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 51
+            }
+          },
+          {
+            "en": "speaking speed",
+            "zh": "說話速度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 98
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Miss the point entirely means fail to grasp the central purpose.",
+          "zh": "miss the point entirely 指完全沒掌握核心目的。"
+        },
+        {
+          "en": "Name the neglected purpose when saying a plan misses the point entirely.",
+          "zh": "說方案完全偏題時，應指出被忽略的真正目的。"
+        }
+      ]
+    }
+  ]
+}

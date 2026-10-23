@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons; full automated validation with targeted owner, target-grammar and sampled bilingual/assessment review",
+  "draftFile": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3968-4000-review-pilot.json", "sha256": "adb1ebca3a1ac23c4f062dd2924201182fbd4757d25af459b4859cc961d5b0d9"},
+  "authorSelfAuditSha256": "a412d606bf08ee06176a1900542d298e1afcfea512e8b8be911c656ed7d0abca",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "repair-required-before-selection",
+  "automatedCoverage": "Fresh build and --check pass 8 lessons, 48 questions, 32 audio requests, zero structural flags. All eight exact source examples match their case-insensitive target regex, all speaking target spans extract the taught form, and no selected lesson ID collides. Of 192 learner-facing English strings screened against 2,604 source examples, one six-word overlap is the fixed carrier 'is part of the furniture in' in a distinct setting; no copied non-target source clause found.",
+  "riskBasedManualReview": "Sampled four-valid replies, keyed scenes, changed writing contexts and EN/ZH meaning in all eight. 3978 distinguishes a fresh start from a cosmetic change while preserving actual past misconduct; 3986 mental skill development and 3997 maintenance of an existing skill are semantically distinct. The two target detectors nevertheless omit ordinary inflections advertised by the reusable grammar and task goal.",
+  "findings": [
+    {
+      "id": "R3986-01",
+      "severity": "major",
+      "lessonId": "advanced-native-3986",
+      "field": "target.pattern",
+      "issue": "The detector matches only base 'sharpen the mind'. It rejects ordinary grammatical 'sharpens the mind', 'sharpened the mind' and 'sharpening the mind', so a learner using the target naturally in another tense/aspect would not be detected.",
+      "recommendedRepair": "Boundedly include subject/tense inflections for sharpen, test source and assessed positive forms plus unrelated negative forms, and preserve the figurative mental-skill sense. Add one assessed non-base form if needed to make the reusable grammar visible."
+    },
+    {
+      "id": "R3997-01",
+      "severity": "major",
+      "lessonId": "advanced-native-3997",
+      "field": "target.pattern",
+      "issue": "The detector matches only 'stay sharp' although brief.grammar itself says 'a person stays sharp'. It rejects ordinary 'stays sharp', 'stayed sharp' and 'staying sharp'.",
+      "recommendedRepair": "Boundedly include these stay inflections and check live positives/negatives; retain the existing-skill maintenance boundary versus 3986's development sense."
+    }
+  ],
+  "manualReviewLimit": "All eight lessons received automated source/target/span/structure/originality checks. Manual review was risk-based, not a fresh line-by-line translation audit of every question. This is AI-only editorial review, with no manifest or release approval."
+}

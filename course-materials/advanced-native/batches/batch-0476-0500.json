@@ -3919,7 +3919,7 @@
     "titleZh": "保持鎮定，清楚應對",
     "category": "idiom",
     "target": {
-      "pattern": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b",
+      "pattern": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b|\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its|their) head|(?:our|your|their) heads)\\b",
       "glossaryForbidden": [
         "\\bcool head\\b"
       ]
@@ -3927,8 +3927,8 @@
     "brief": {
       "meaningEn": "Remain calm and able to think clearly in a difficult or tense situation.",
       "meaningZh": "在困難或緊張情況仍鎮定、能清楚思考。",
-      "grammar": "keep a cool head when/while...; kept in past; describe the calm response rather than assuming the person felt no stress.",
-      "register": "Established body-and-temperature metaphor. It does not mean being uncaring or avoiding action.",
+      "grammar": "Keep a cool head / keep your head when or while pressure rises; kept in past. Possessive forms take singular head for one person (including singular they) and heads for a group. Both mean calm, clear thinking, not the absence of stress.",
+      "register": "Established conversational body metaphor. A captain may say it to a colleague during a delay; a teacher may use keep your head to encourage someone facing a crisis. Neither form means being uncaring or avoiding action.",
       "boundaryZh": "冷靜不代表沒有感受、完全不緊張或結果必正確；可一邊緊張一邊有條理處理。",
       "misconceptionZh": "按步核實及清楚分工可表現冷靜，不是放着急事不管。",
       "outcomeZh": "能具體描寫冷靜反應及仍存在的困難。"
@@ -4188,7 +4188,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-492",

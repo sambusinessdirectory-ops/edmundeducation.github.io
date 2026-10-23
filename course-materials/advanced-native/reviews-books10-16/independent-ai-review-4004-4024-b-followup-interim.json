@@ -1,0 +1,20 @@
+{
+  "reviewType": "independent-eight-lesson-exact-hash-followup-interim",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-4004-4024-b.json",
+  "priorReviewSha256": "bdfc48c23da2ab02f35f11ace476e4ce9ad84ebd3322e4ecd9848a93ffdeade7",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4004-4015-a.json", "sha256": "c01db84b4b03b9d41a24ac15c1537b0064d3772b3d80d501134dd7676f7a1a48"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4016-4024-a.json", "sha256": "4f1c2fe5b2ae1ecf18984124b017e12674d786d36f91afdd13e2a0352ab63ec9"}
+  ],
+  "authorAuditSha256": "34c19545a10a90f07c9ee416d0aadab535a07aa65a6ea17534091f0c4de35cb8",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; draft build and --check passed before this scoped semantic regex recheck",
+  "status": "three-prior-findings-cleared-one-detector-blocker-remains",
+  "findingOutcomes": [
+    {"id": "R4010-01", "status": "clear", "evidence": "The volunteer treasurer now provides the weekly budget reviews throughout the six-month project, while the beneficiary negotiates each purchase; Chinese names the same helper."},
+    {"id": "R4015-01", "status": "clear", "evidence": "The brief now recognises Oxford-attested `fire in the belly` and possessive/article variants; the target regex matches the exact source sentence, `a fire in her belly` and `fire in her belly`. The takeaway includes the source form without copying its sentence."},
+    {"id": "R4016-01", "status": "still-blocked", "evidence": "Original negative controls `how she carries himself` and `how he carries herself` now fail, but under live `gi` the name fallback still accepts `how them carries herself`, `how person carries herself`, `how woman carries himself`, and `how someone carries himself`. The first three are plainly ill-formed; `someone` also bypasses the dedicated generic-agreement branch. The detector remains broader than the taught grammar."},
+    {"id": "R4017-01", "status": "clear", "evidence": "The scene key now uses gender-neutral `the supplier lost their temper`, preserving the Chinese prompt's unspecified gender and the shouting/slamming evidence."}
+  ],
+  "requiredRemainingRepair": "Restrict 4016's name/pronoun branch under live `gi` so obvious pronouns and article-less common nouns cannot be treated as proper-name subjects; test the exact source, actual assessed positive forms, original he/she mismatches, and the residual negatives above.",
+  "scopeLimit": "Interim independent review only; lesson 4016 and this eight-lesson batch are not content-cleared, selected or release-approved."
+}

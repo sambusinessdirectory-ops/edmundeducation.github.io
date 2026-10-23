@@ -1,0 +1,76 @@
+{
+  "reportType": "AI author self-audit; independent editorial and human release review pending",
+  "scope": "Eight unselected Books 10–16 lessons, source ordinals 3926–3964",
+  "lessonOrdinals": [
+    3926,
+    3927,
+    3933,
+    3934,
+    3941,
+    3947,
+    3961,
+    3964
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3926-3927-review-pilot.json",
+      "sha256": "bf691389bccd218f0bd466e68bc3c09516ea068c66e3c46725397b50dfc89ec2",
+      "lessonOrdinals": [
+        3926,
+        3927
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3933-3941-review-pilot.json",
+      "sha256": "00394a492233e682ed1ea4fd0ad707a351db0a5102eae1137e5854b7b70d2620",
+      "lessonOrdinals": [
+        3933,
+        3934,
+        3941
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3947-3964-review-pilot.json",
+      "sha256": "0337d41750a07c9d01319cc2d26febdb7e2488a982e6c8d95d9aaa67db28b738",
+      "lessonOrdinals": [
+        3947,
+        3961,
+        3964
+      ]
+    }
+  ],
+  "mechanicalChecks": {
+    "sourceRowsScreened": 2604,
+    "sourceTargetRegexMatches": "8/8",
+    "sixAnswerDerivedGlossarySpansPerLesson": "48/48 exact",
+    "fourValidReplyOptionsPerLesson": "8/8 author checked",
+    "changedContextWritingModels": "16/16 authored",
+    "questions": 48,
+    "audioRequests": 32,
+    "focusedBuilderFlags": 0,
+    "focusedBuildAndCheck": "both passed",
+    "guideSourceOriginality": "192 learner-facing strings screened against 2,604 source examples; hits are target-phrase-only or one generic four-word overlap; no non-target six-word reuse"
+  },
+  "editorialChecks": {
+    "englishTraditionalChinese": "author reviewed; independent review pending",
+    "sceneAndListeningDistractors": "literal and remote foils revised to contextual near-misses; independent fairness review pending",
+    "sourceOwnership": "all eight are proposed-new-lesson decisions; 3926 cross-referenced to canonical 2255 staying power, 3927 contrasted with 3914 catch on, and 3941 uses a distinct verb frame from canonical 907 shape their character; human owner sign-off pending",
+    "releaseState": "unselected and unpublished"
+  },
+  "limitations": [
+    "AI author self-audit is not independent human approval.",
+    "No live-device, audio playback, publication or student testing was performed."
+  ],
+  "independentInitialReview": {
+    "report": "reviews-books10-16/independent-ai-review-3926-3964-b.json",
+    "sha256": "04947dc03a31cb69b05b4e1d2164270ac25523944cc106e3145e96b425724ae7",
+    "finding": "R3933-01 major: second model omitted explicit priority-setting purpose.",
+    "authorRepair": "3933 model 2 now says the planning meeting is to set priorities in English and Traditional Chinese; contentRevision 2; glossary offsets unchanged because added text follows the existing glossary span.",
+    "status": "cleared by exact-hash AI follow-up; human and release review pending"
+  },
+  "independentFollowup": {
+    "report": "reviews-books10-16/independent-ai-review-3926-3964-b-followup.json",
+    "sha256": "3c535e58ad68df08f32390d18558a3f140148a832e185e5794316ef0518011b2",
+    "result": "R3933-01 cleared; all eight AI content-clear at exact draft hashes; not human approval or release authorization"
+  }
+}

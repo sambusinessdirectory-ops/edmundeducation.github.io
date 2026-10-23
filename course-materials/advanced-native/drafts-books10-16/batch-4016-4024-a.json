@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4016",
+      "number": 4016,
+      "inventoryId": "expr-4016",
+      "titleEn": "how a person carries themselves",
+      "titleZh": "舉止；待人處事的方式",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhow (?:(?:a person|someone) carries themselves|he carries himself|she carries herself|they carry themselves|Elio carries himself|Mara carries herself|Tariq carries himself)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The way a person behaves and presents themselves, especially under pressure or in company.",
+        "meaningZh": "一個人在壓力下或與人相處時表現出的舉止與處事方式。",
+        "grammar": "How + person + carries + reflexive pronoun. He carries himself, she carries herself and they carry themselves; a person/someone carries themselves is also natural. The reviewed detector lists the lesson’s named examples rather than guessing a person’s pronouns.",
+        "register": "Neutral-to-evaluative English. A panel member might use it when discussing a candidate’s conduct with another interviewer.",
+        "boundaryZh": "可根據可見的言行評價舉止，但不能從一次表現推斷一個人的全部品格。",
+        "misconceptionZh": "不是「自己搬運自己」；也不等於只看衣著或外貌。",
+        "outcomeZh": "能用具體言行解釋對某人舉止的判斷，同時避免過度推論。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1905",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Judges notice how a person carries themselves after a defeat.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "how a person carries themselves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "At the debate final, Elio lost the vote but thanked his opponent and listened to the feedback without interrupting. The panel noted how he carries himself after a setback, not just the score.",
+        "zh": "辯論決賽中，埃利奧落敗，仍向對手道謝，聽取回饋時也沒有打斷別人。評審留意到他在挫折後的舉止，而不只看分數。",
+        "promptZh": "評審留意到甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His courteous response after losing.",
+            "zh": "他落敗後有禮的反應。"
+          },
+          {
+            "id": "b",
+            "en": "The panel is assessing how expensive his formal clothes were.",
+            "zh": "評審在評估他的正式服裝有多昂貴。"
+          },
+          {
+            "id": "c",
+            "en": "The panel can now predict every future decision he will make.",
+            "zh": "評審現在能預測他往後的每個決定。"
+          },
+          {
+            "id": "d",
+            "en": "The opponent’s conduct is the main evidence for Elio’s character.",
+            "zh": "對手的舉止是評價埃利奧品格的主要證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "道謝和不打斷別人屬可觀察的舉止。"
+      },
+      "reply": {
+        "promptEn": "A candidate arrives late because the bus breaks down. She promptly explains, apologises, and treats the receptionist respectfully while rearranging the interview. What can the panel reasonably assess?",
+        "promptZh": "（一名應徵者因巴士故障遲到。她立即解釋、道歉，重新安排面試時也尊重接待員。評審可合理評估甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her response to the delay was respectful.",
+            "zh": "她應對遲到時表現尊重。"
+          },
+          {
+            "id": "b",
+            "en": "The panel can observe her conduct under pressure.",
+            "zh": "評審可觀察她在壓力下的舉止。"
+          },
+          {
+            "id": "c",
+            "en": "They can note how she carries herself in an awkward situation.",
+            "zh": "他們可留意她在尷尬情況下如何待人處事。"
+          },
+          {
+            "id": "d",
+            "en": "Her apology and treatment of staff are relevant behaviour.",
+            "zh": "她的道歉與對職員的態度都是相關行為。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆以實際言行回答；金句概括待人處事方式。"
+      },
+      "scene": {
+        "promptZh": "領隊收到賽事改期通知後，先向隊員清楚解釋，再冷靜詢問主辦方安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her colleagues noticed how she carries herself under pressure.",
+            "zh": "同事留意到她在壓力下如何待人處事。"
+          },
+          {
+            "id": "b",
+            "en": "Her formal outfit explains why the match was rescheduled.",
+            "zh": "她的正式服裝解釋了賽事為何改期。"
+          },
+          {
+            "id": "c",
+            "en": "One calm exchange establishes every part of her character.",
+            "zh": "一次冷靜交流便足以確定她全部品格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有具體的冷靜解釋和詢問作證。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以判斷 how a person carries themselves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reviewer sees only an anonymous score and has no information about the person’s conduct.",
+            "zh": "評審只見匿名分數，沒有該人言行的資料。"
+          },
+          {
+            "id": "b",
+            "en": "A reviewer watches how the person responds to criticism.",
+            "zh": "評審觀察那人如何回應批評。"
+          },
+          {
+            "id": "c",
+            "en": "A reviewer hears how the person addresses colleagues during a difficult task.",
+            "zh": "評審聽到那人在難事中如何對同事說話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有分數而沒有可觀察的行為，無法評價舉止。"
+      },
+      "dialogue": {
+        "promptEn": "A: Noor did not get the grant, but she thanked the committee and asked which part of her plan needed work. B: ______",
+        "promptZh": "（甲：努爾沒有拿到資助，但她向委員會道謝，並問計劃哪部分需要改進。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That says something positive about how she carries herself after a disappointment.",
+            "zh": "這反映她失望後仍有可取的舉止。"
+          },
+          {
+            "id": "b",
+            "en": "She responded to the decision respectfully.",
+            "zh": "她尊重地回應了決定。"
+          },
+          {
+            "id": "c",
+            "en": "Her question shows she is willing to learn from feedback.",
+            "zh": "她的提問顯示願意從回饋中學習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據道謝與求教評價當下舉止，沒有推斷整個人。"
+      },
+      "speaking": {
+        "en": "The exhibition manager listened to a visitor’s complaint, corrected the label and explained the change calmly; her team praised how she carries herself when work is challenged.",
+        "zh": "展覽經理聽取參觀者投訴，修正標籤，並冷靜解釋改動；團隊讚賞她在工作受質疑時的舉止。",
+        "promptZh": "用可觀察言行說明評價，而非只看外貌。",
+        "targetSpan": {
+          "start": 128,
+          "end": 151
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人遇上失望或批評，旁人根據他們的可見反應評價舉止。用英文寫出事件、反應和有限度的判斷。",
+        "selfCheckZh": "兩例都要以言行為證，不可從單一事件推斷對方全部品格。",
+        "examples": [
+          {
+            "en": "When the rehearsal slot was shortened, Mara explained the new order to everyone and invited questions; the director noticed how she carries herself under pressure.",
+            "zh": "排練時段縮短時，瑪拉向大家說明新次序，並邀請提問；導演留意到她在壓力下的舉止。"
+          },
+          {
+            "en": "Tariq’s draft was returned, yet he thanked the editor and requested specific examples; his colleague admired how he carries himself when corrected.",
+            "zh": "塔里克的初稿被退回，他仍向編輯道謝並請對方舉具體例子；同事欣賞他受指正時的舉止。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the rehearsal slot",
+            "zh": "排練時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 23
+            }
+          },
+          {
+            "en": "the new order",
+            "zh": "新次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 67
+            }
+          },
+          {
+            "en": "under pressure",
+            "zh": "在壓力下",
+            "exampleIndex": 0,
+            "span": {
+              "start": 148,
+              "end": 162
+            }
+          },
+          {
+            "en": "specific examples",
+            "zh": "具體例子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 85
+            }
+          },
+          {
+            "en": "when corrected",
+            "zh": "受指正時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 132,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "How she carries herself refers to observable demeanour and conduct.",
+          "zh": "how she carries herself 指可觀察的舉止和處事方式。"
+        },
+        {
+          "en": "Notice how a person carries themselves, but avoid judging their whole character from one moment.",
+          "zh": "可以留意一個人的舉止，但不要憑一刻判斷全部品格。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4017",
+      "number": 4017,
+      "inventoryId": "expr-4017",
+      "titleEn": "lose their temper",
+      "titleZh": "發脾氣；失去冷靜",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) (?:my|your|his|her|our|their) temper\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become visibly angry and lose emotional control, often in response to frustration.",
+        "meaningZh": "因挫折而明顯發怒，失去情緒上的冷靜。",
+        "grammar": "Lose + possessive + temper; lose inflects as lost/losing. The possessive agrees with the person becoming angry.",
+        "register": "Neutral everyday English. A supervisor might use it privately when discussing how a trainee responded to feedback.",
+        "boundaryZh": "感到不快或堅定表達不同意見，不一定已經發脾氣；須有失控的言行。",
+        "misconceptionZh": "不是遺失物件；也不是所有批評或較大聲說話都算發脾氣。",
+        "outcomeZh": "能分辨不滿、理性反對與可觀察的情緒失控。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1906",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some trainees lose their temper when corrected.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose their temper"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The coach asked Dario to repeat a drill. Dario shouted over her explanation and slammed the clipboard on the bench. He lost his temper; the request itself was ordinary feedback.",
+        "zh": "教練請達里奧重做一項練習。他在教練解釋時大聲吼叫，還把記錄板摔在長椅上。他發了脾氣；教練的要求本身只是一般回饋。",
+        "promptZh": "甚麼支持「發脾氣」的判斷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He shouted over the coach and slammed the clipboard.",
+            "zh": "他吼聲蓋過教練，還摔下記錄板。"
+          },
+          {
+            "id": "b",
+            "en": "He objected to repeating the drill but kept his tone steady.",
+            "zh": "他反對重做練習，但語氣保持平穩。"
+          },
+          {
+            "id": "c",
+            "en": "He was disappointed but listened to the full explanation.",
+            "zh": "他雖失望，仍聽完全部解釋。"
+          },
+          {
+            "id": "d",
+            "en": "The coach’s ordinary request was itself an angry outburst.",
+            "zh": "教練的一般要求本身就是憤怒的失控發言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "失控的吼叫與摔物，比單純不滿更符合 lose his temper。"
+      },
+      "reply": {
+        "promptEn": "A designer hears that a draft needs revisions. She initially asks one calm question, then interrupts repeatedly, shouts at the reviewer and leaves before hearing the explanation. What happened after the calm question?",
+        "promptZh": "（一位設計師聽到初稿要修訂。她先平靜地問了一條問題，之後反覆打斷評審、大聲斥責，未聽完解釋便離開。平靜提問之後發生了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She became visibly angry during the discussion.",
+            "zh": "她在討論中明顯發怒。"
+          },
+          {
+            "id": "b",
+            "en": "Her shouting prevented the reviewer from finishing.",
+            "zh": "她大聲斥責，令評審無法說完。"
+          },
+          {
+            "id": "c",
+            "en": "She lost her temper when the review continued.",
+            "zh": "評審繼續時，她發了脾氣。"
+          },
+          {
+            "id": "d",
+            "en": "The exchange changed from a calm question to an angry interruption.",
+            "zh": "交流由平靜提問變成憤怒的打斷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據由冷靜轉為吼叫與打斷；金句用目標語。"
+      },
+      "scene": {
+        "promptZh": "經理說明交貨日期要延後後，供應商大聲罵人並把文件猛地丟在桌上。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The supplier lost their temper during the discussion.",
+            "zh": "供應商在討論中發了脾氣。"
+          },
+          {
+            "id": "b",
+            "en": "The supplier firmly requested a revised delivery plan.",
+            "zh": "供應商堅定要求新交貨安排。"
+          },
+          {
+            "id": "c",
+            "en": "The supplier expressed frustration without raising his voice.",
+            "zh": "供應商表達不滿，但沒有提高聲量。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大聲責罵及摔文件是可見的情緒失控。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 someone lost their temper？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She disagreed firmly, asked for evidence and kept her voice steady throughout.",
+            "zh": "她堅定地表示不同意，要求證據，並始終保持平穩語氣。"
+          },
+          {
+            "id": "b",
+            "en": "She shouted at colleagues and slammed the door after a routine correction.",
+            "zh": "她因一般指正而對同事吼叫並摔門。"
+          },
+          {
+            "id": "c",
+            "en": "He began insulting the organiser when a request was declined.",
+            "zh": "請求被拒後，他開始辱罵主辦人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "理性而平穩的不同意，不是發脾氣。"
+      },
+      "dialogue": {
+        "promptEn": "A: I asked Ewan to correct one label, and he shouted at me and threw the pen down. B: ______",
+        "promptZh": "（甲：我請伊文修正一個標籤，他卻向我大吼並把筆摔下。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if he lost his temper over the correction.",
+            "zh": "聽起來他因指正而發了脾氣。"
+          },
+          {
+            "id": "b",
+            "en": "Shouting and throwing the pen changed the tone of the exchange.",
+            "zh": "大吼和摔筆改變了交流的氣氛。"
+          },
+          {
+            "id": "c",
+            "en": "We should address that behaviour separately from the label error.",
+            "zh": "我們應把那種行為與標籤錯誤分開處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據吼叫摔筆判斷失控，而非把所有指正視為挑釁。"
+      },
+      "speaking": {
+        "en": "When the chair delayed the vote, Pavel lost his temper and yelled across the table; his colleague later asked him to apologise for the outburst.",
+        "zh": "主席延遲表決時，帕維爾發了脾氣，隔桌大聲吼叫；同事其後請他為失控發言道歉。",
+        "promptZh": "指出觸發事件及失控行為，別把平靜反對誤作發脾氣。",
+        "targetSpan": {
+          "start": 39,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人因具體挫折從不快轉為可觀察的失控行為。用英文說明事件與言行。",
+        "selfCheckZh": "兩例須有可見的吼叫、辱罵或摔物，不可把理性異議寫成失控。",
+        "examples": [
+          {
+            "en": "After the workshop booking was cancelled, Ren lost her temper and shouted over the clerk before hearing the alternative dates.",
+            "zh": "工作坊預約被取消後，仁發了脾氣，未聽替代日期便向職員大吼。"
+          },
+          {
+            "en": "When the rehearsal ended early, Malik lost his temper and slammed the music stand; the director paused the discussion until he calmed down.",
+            "zh": "排練提早結束時，馬利克發了脾氣，猛地摔下譜架；導演暫停討論，等他冷靜。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the workshop booking",
+            "zh": "工作坊預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 26
+            }
+          },
+          {
+            "en": "alternative dates",
+            "zh": "替代日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 125
+            }
+          },
+          {
+            "en": "the rehearsal",
+            "zh": "排練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 18
+            }
+          },
+          {
+            "en": "the music stand",
+            "zh": "譜架",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 81
+            }
+          },
+          {
+            "en": "the discussion",
+            "zh": "討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lose your temper means visibly losing control of anger.",
+          "zh": "lose your temper 指明顯失去對怒氣的控制。"
+        },
+        {
+          "en": "A firm objection is different from losing your temper.",
+          "zh": "堅定反對與發脾氣不同。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4020",
+      "number": 4020,
+      "inventoryId": "expr-4020",
+      "titleEn": "progress slows to a crawl",
+      "titleZh": "進展慢如蝸牛",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bprogress (?:slows|slowed|is slowing|has slowed|may slow|can slow) to a crawl\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The rate of advancement becomes extremely slow, while some small movement may continue.",
+        "meaningZh": "進展速度變得非常慢，但可能仍有少量推進。",
+        "grammar": "Progress is the subject; slow inflects before to a crawl. The phrase describes pace, not necessarily total stoppage.",
+        "register": "Neutral figurative English. A project manager may use it with a team when reviewing stalled approvals.",
+        "boundaryZh": "重點是速度顯著放慢，不等於完全停頓，也不說明放慢的原因必定是人不夠努力。",
+        "misconceptionZh": "不是進度真的爬行；不能在工作仍正常快速完成時使用。",
+        "outcomeZh": "能指出原有速度、變慢的證據及仍可能持續的少量進展。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1909",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "When progress slows to a crawl, discipline matters most.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "progress slows to a crawl"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The archive team indexed forty boxes in June. When the scanner began failing, it managed only three boxes a week; progress slowed to a crawl, though the work did not stop entirely.",
+        "zh": "檔案團隊六月為四十箱資料編索引。掃描器開始故障後，每週只能處理三箱；進展變得極慢，但工作並未完全停止。",
+        "promptZh": "這個說法強調甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The indexing rate became much slower but continued.",
+            "zh": "編索引的速度大幅放慢，但仍在進行。"
+          },
+          {
+            "id": "b",
+            "en": "The indexing rate stayed at roughly forty boxes each month.",
+            "zh": "編索引速度仍維持每月約四十箱。"
+          },
+          {
+            "id": "c",
+            "en": "The team stopped indexing altogether after June.",
+            "zh": "團隊六月後完全停止編索引。"
+          },
+          {
+            "id": "d",
+            "en": "The scanner problem made the team finish faster by reducing the checks.",
+            "zh": "掃描器故障減少了核對工作，令團隊更快完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週仍完成三箱，說明極慢而非完全停止。"
+      },
+      "reply": {
+        "promptEn": "A permit office usually approves eight files each day. A system fault leaves staff able to finish only one every few days; approvals continue. How has the work changed?",
+        "promptZh": "（許可證辦事處平常每天批出八份文件。系統故障後，職員每幾天只能完成一份；審批仍在繼續。工作有何變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The approval rate has dropped sharply.",
+            "zh": "審批速度大幅下降。"
+          },
+          {
+            "id": "b",
+            "en": "Some files still move forward, but very slowly.",
+            "zh": "仍有文件獲處理，只是非常慢。"
+          },
+          {
+            "id": "c",
+            "en": "Progress has slowed to a crawl since the fault.",
+            "zh": "故障後進展慢如蝸牛。"
+          },
+          {
+            "id": "d",
+            "en": "A few days now pass between completed files.",
+            "zh": "如今每完成一份文件都要隔幾天。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句由每日八份降至幾天一份推得；金句概括速度。"
+      },
+      "scene": {
+        "promptZh": "學校圖書館平日每天能整理十箱書，標籤機壞了後每週只完成兩箱，但沒有完全停工。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Progress slowed to a crawl after the label machine failed.",
+            "zh": "標籤機故障後，進展慢如蝸牛。"
+          },
+          {
+            "id": "b",
+            "en": "The team kept its normal daily rate despite the broken machine.",
+            "zh": "機器壞了，團隊仍維持平常每日的處理量。"
+          },
+          {
+            "id": "c",
+            "en": "The work stopped altogether once the machine failed.",
+            "zh": "機器故障後，工作便完全停止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有少量進度，但速度顯著下降。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 progress slowed to a crawl？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team completed its usual number of tasks every day throughout the month.",
+            "zh": "團隊整個月每天都完成平常數量的任務。"
+          },
+          {
+            "id": "b",
+            "en": "A review that took two days now takes two weeks, though decisions continue.",
+            "zh": "原需兩天的審查如今要兩週，但仍有決定。"
+          },
+          {
+            "id": "c",
+            "en": "A parts shortage reduces output to one unit per week instead of ten.",
+            "zh": "零件短缺令產量由每週十件跌至一件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "速度維持平常水平，沒有變得極慢。"
+      },
+      "dialogue": {
+        "promptEn": "A: The translation team used to finish a chapter each week, but the missing source notes mean only a page is checked now. B: ______",
+        "promptZh": "（甲：翻譯團隊以前每週完成一章；如今缺少來源註釋，只能核對一頁。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Progress has slowed to a crawl while the notes are missing.",
+            "zh": "缺少註釋期間，進展慢如蝸牛。"
+          },
+          {
+            "id": "b",
+            "en": "The team is still checking pages, just at a reduced pace.",
+            "zh": "團隊仍在核對頁面，只是速度變慢。"
+          },
+          {
+            "id": "c",
+            "en": "Finding the source notes could help restore the former pace.",
+            "zh": "找回來源註釋可能有助恢復原來速度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說明速度大跌而非完全停工。"
+      },
+      "speaking": {
+        "en": "Once the access road closed, progress slowed to a crawl on the garden renovation: deliveries continued, but only one small load arrived each week.",
+        "zh": "通道封閉後，花園翻新進展慢如蝸牛：送貨仍在繼續，但每週只送到一小批。",
+        "promptZh": "具體比較前後速度及剩餘進展。",
+        "targetSpan": {
+          "start": 29,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項工作遇上不同障礙，完成量大減但仍未歸零。用英文寫出前後速度及剩餘進度。",
+        "selfCheckZh": "兩例都要有可觀察的速度差異；不可把極慢誤寫成永久停工。",
+        "examples": [
+          {
+            "en": "The map editors once cleared twenty entries a day; after the file server slowed, progress slowed to a crawl and they checked only two each day.",
+            "zh": "地圖編輯原本每天核對二十項；檔案伺服器變慢後，進展慢如蝸牛，每天只核對兩項。"
+          },
+          {
+            "en": "During the equipment shortage, progress slowed to a crawl on the roof survey: the crew inspected one section a week instead of five.",
+            "zh": "設備短缺期間，屋頂勘察進展慢如蝸牛：團隊由每週檢查五段，降至一段。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twenty entries a day",
+            "zh": "每天二十項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 49
+            }
+          },
+          {
+            "en": "the file server",
+            "zh": "檔案伺服器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 72
+            }
+          },
+          {
+            "en": "two each day",
+            "zh": "每天兩項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 142
+            }
+          },
+          {
+            "en": "the equipment shortage",
+            "zh": "設備短缺",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 29
+            }
+          },
+          {
+            "en": "one section a week",
+            "zh": "每週一段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Progress slows to a crawl when advancement becomes extremely slow.",
+          "zh": "progress slows to a crawl 指進展變得極慢。"
+        },
+        {
+          "en": "Even if progress slowed to a crawl, some work may still continue.",
+          "zh": "即使進展慢如蝸牛，仍可能有少量工作繼續。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4024",
+      "number": 4024,
+      "inventoryId": "expr-4024",
+      "titleEn": "stay hungry for improvement",
+      "titleZh": "持續渴求進步",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) hungry for improvement\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remain eager to learn and improve, even after some success.",
+        "meaningZh": "即使已有成績，仍保持學習和改進的渴望。",
+        "grammar": "Stay hungry for improvement is a figurative adjective complement after stay; stay inflects. Hungry refers to ambition, not appetite for food.",
+        "register": "Motivational conversational English. A coach may say it to a team after a successful season.",
+        "boundaryZh": "是持續願意改進，不等於永遠不滿足或忽視已有成果；須有實際學習行動支持。",
+        "misconceptionZh": "不是肚子餓，也不表示已成功的人必須否定自己的成績。",
+        "outcomeZh": "能同時承認已有成果，指出持續改善的具體行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1913",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The best coaches stay hungry for improvement.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay hungry for improvement"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After her first exhibition sold out, the ceramic artist still invited criticism of the glaze and tested new firing temperatures. She stayed hungry for improvement while appreciating what she had achieved.",
+        "zh": "首場展覽售罄後，陶藝家仍請人批評釉色，並測試新的燒製溫度。她肯定已有成果，同時仍渴求進步。",
+        "promptZh": "甚麼顯示她保持進步心？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sought feedback and tested changes after a success.",
+            "zh": "成功後她仍徵求回饋並試驗改動。"
+          },
+          {
+            "id": "b",
+            "en": "She decided the exhibition was a failure despite the sales.",
+            "zh": "她不理會銷售情況，認定展覽失敗。"
+          },
+          {
+            "id": "c",
+            "en": "Strong sales meant she no longer needed to examine her method.",
+            "zh": "銷售理想表示她毋須再檢視方法。"
+          },
+          {
+            "id": "d",
+            "en": "Her next task was only to repeat the old glaze without testing.",
+            "zh": "她接下來只須不經測試地重複使用舊釉色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有成果後仍尋求改良，是習語的核心。"
+      },
+      "reply": {
+        "promptEn": "A school orchestra wins a local prize. Its leader celebrates, then asks players to review the recording and improve their timing for the next concert. What attitude does the leader show?",
+        "promptZh": "（學校樂團贏得本地獎項。團長先慶祝，再請團員重聽錄音，改善下一場音樂會的節奏。團長表現甚麼態度？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leader recognises the prize and seeks further progress.",
+            "zh": "團長肯定獎項，也尋求進一步進步。"
+          },
+          {
+            "id": "b",
+            "en": "Reviewing the recording may reveal timing issues.",
+            "zh": "重聽錄音或可找出節奏問題。"
+          },
+          {
+            "id": "c",
+            "en": "The leader stays hungry for improvement after winning.",
+            "zh": "團長獲獎後仍渴求進步。"
+          },
+          {
+            "id": "d",
+            "en": "The next concert gives the group a reason to refine its timing.",
+            "zh": "下一場音樂會讓團隊有理由改善節奏。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合慶祝後仍檢討；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "一位修復師完成首個展覽後，仍要求參觀者指出說明牌哪裏難懂，並據此修改文字。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She stays hungry for improvement despite the successful exhibition.",
+            "zh": "展覽成功後，她仍渴求進步。"
+          },
+          {
+            "id": "b",
+            "en": "The exhibition’s success means she no longer needs to consider feedback.",
+            "zh": "展覽成功表示她不用再考慮回饋。"
+          },
+          {
+            "id": "c",
+            "en": "She rejected the visitor comments without reading them.",
+            "zh": "她沒看參觀者意見便把它們拒絕。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "成功後仍尋求意見並修改。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 someone stays hungry for improvement？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After winning, he refuses all feedback and stops practising because he says he has nothing to learn.",
+            "zh": "得獎後他拒絕所有回饋，說自己再無可學，並停止練習。"
+          },
+          {
+            "id": "b",
+            "en": "After winning, she reviews mistakes and adjusts her method.",
+            "zh": "得獎後她檢討錯誤並調整方法。"
+          },
+          {
+            "id": "c",
+            "en": "After a strong performance, they ask where their timing can improve.",
+            "zh": "表現出色後，他們仍問哪裏可改善節奏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "拒絕回饋又停止練習，缺乏持續改進。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our team finished first, but Rui wants us to study the audience comments before the next event. B: ______",
+        "promptZh": "（甲：我們團隊得第一，但芮希望下次活動前研究觀眾意見。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Rui is staying hungry for improvement even after a win.",
+            "zh": "芮贏了之後仍渴求進步。"
+          },
+          {
+            "id": "b",
+            "en": "Studying the comments may help the next event.",
+            "zh": "研究意見可能有助下次活動。"
+          },
+          {
+            "id": "c",
+            "en": "The team can celebrate while still learning.",
+            "zh": "團隊可以一邊慶祝，一邊繼續學習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時承認勝利與改進的意願。"
+      },
+      "speaking": {
+        "en": "The editor praised the finished issue, but the team stayed hungry for improvement and tested a clearer contents page for the next edition.",
+        "zh": "編輯稱讚已完成的一期，但團隊仍渴求進步，並為下一期測試更清晰的目錄頁。",
+        "promptZh": "承認成績，同時指出具體的學習或改進。",
+        "targetSpan": {
+          "start": 52,
+          "end": 81
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人已取得成果，仍主動尋找下一次可改善的地方。用英文交代成果、回饋來源與具體行動。",
+        "selfCheckZh": "兩例不可把 hungry 寫成肚餓，也不可說成功毫無價值。",
+        "examples": [
+          {
+            "en": "The volunteer choir enjoyed its full hall, yet stayed hungry for improvement and reviewed audience notes on song introductions before the next show.",
+            "zh": "義工合唱團為坐滿觀眾的演出感到高興，卻仍渴求進步，並在下場表演前研究觀眾對歌曲介紹的意見。"
+          },
+          {
+            "en": "After the app earned a good rating, the design team stayed hungry for improvement by watching users test the menu and revising confusing labels.",
+            "zh": "應用程式獲好評後，設計團隊仍渴求進步，觀察用戶試用選單，並修改令人困惑的標籤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its full hall",
+            "zh": "坐滿觀眾的演出",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 41
+            }
+          },
+          {
+            "en": "audience notes",
+            "zh": "觀眾意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 104
+            }
+          },
+          {
+            "en": "the next show",
+            "zh": "下場表演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 147
+            }
+          },
+          {
+            "en": "a good rating",
+            "zh": "好評",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 34
+            }
+          },
+          {
+            "en": "confusing labels",
+            "zh": "令人困惑的標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 143
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stay hungry for improvement means keeping the wish to learn after success.",
+          "zh": "stay hungry for improvement 指成功後仍希望學習。"
+        },
+        {
+          "en": "You can celebrate a win and stay hungry for improvement.",
+          "zh": "你可以慶祝勝利，同時保持改進的渴望。"
+        }
+      ]
+    }
+  ]
+}

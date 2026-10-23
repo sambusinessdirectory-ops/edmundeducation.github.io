@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReports": ["independent-ai-review-4004-4024-b.json", "independent-ai-review-4004-4024-b-followup-interim.json"],
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4004-4015-a.json", "sha256": "c01db84b4b03b9d41a24ac15c1537b0064d3772b3d80d501134dd7676f7a1a48"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4016-4024-a.json", "sha256": "357ea458c2842dbe0c18d71c8e39a68aa11b3d1e65f4dd2e024422165e6f3878"}
+  ],
+  "authorSelfAuditSha256": "5ea754c87aa28f642e2053bb0dbadeeee2266da2755117b247d79a34cf0b9a43",
+  "status": "ai-content-clear-for-provisional-selection",
+  "findingFollowup": [
+    {"id": "R4010-01", "result": "resolved", "evidence": "The first writing model now identifies the volunteer treasurer whose weekly budget reviews supported the six-month project; EN/ZH match."},
+    {"id": "R4015-01", "result": "resolved", "evidence": "Brief, target and takeaway now accept established 'fire in the belly' and 'a fire in her belly' forms. The live case-insensitive detector matches the exact source and assessed forms."},
+    {"id": "R4016-01", "result": "resolved", "evidence": "The bounded live detector matches the source 'how a person carries themselves' and assessed he/she/they and named forms. It rejects all six earlier subject/reflexive false-positive controls: how she carries himself; how he carries herself; how them carries herself; how person carries herself; how woman carries himself; how someone carries himself."},
+    {"id": "R4017-01", "result": "resolved", "evidence": "Scene now uses gender-neutral supplier/they in English and Traditional Chinese; the shouting and thrown document support loss of temper."}
+  ],
+  "scopeNote": "4016's detector is intentionally bounded to the source and assessed forms; it does not accept every possible grammatical noun phrase such as 'how a woman carries herself'. This is a coverage limitation, not a false match or failure of the current source/assessments.",
+  "regressionCheck": "All eight lessons retained source/target and answer-derived glossary integrity. Independent focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero flags.",
+  "releaseLimit": "AI content clearance only; human English, Chinese, media and QA sign-offs remain pending. No publication or release approval implied."
+}

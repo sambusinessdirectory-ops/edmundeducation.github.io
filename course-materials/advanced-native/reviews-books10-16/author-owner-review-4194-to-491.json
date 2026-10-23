@@ -1,0 +1,49 @@
+{
+  "reviewKind": "provisional-AI-same-sense-owner-reclassification",
+  "sourceOrdinal": 4194,
+  "sourceId": "book10-16-2083",
+  "sourceExpression": "keep your head",
+  "sourceExample": "In a crisis, try to keep your head.",
+  "sourceMeaning": "Stay calm and sensible; a fixed bodily idiom.",
+  "canonicalId": "advanced-native-491",
+  "canonicalExpression": "keep a cool head",
+  "canonicalMeaning": "Remain calm and able to think clearly in a difficult or tense situation.",
+  "comparison": "Both forms ask a person to remain calm and think clearly in a crisis. The drafted seven-step decisions and canonical 491 teach the same boundary; a lexical surface variant does not warrant a second owner.",
+  "provenance": {
+    "sourceBook": 15,
+    "sourceQuestion": 36,
+    "sourceSample": "S1",
+    "renderedPdfPage": 196,
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "editorialDecisionPath": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+    "editorialDecisionSha256": "8a8a02f6f5f0038cfdbae52d04f775b6015a2c8ccb020f6b89182f5f068ab771"
+  },
+  "detector": {
+    "pattern": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b|\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its|their) head|(?:our|your|their) heads)\\b",
+    "positiveExamples": [
+      "keep a cool head",
+      "kept a cool head",
+      "keep your head",
+      "kept her head",
+      "kept their head",
+      "keep their heads",
+      "In a crisis, try to keep your head."
+    ],
+    "negativeExamples": [
+      "keep his heads",
+      "keep our head",
+      "keep a cool heads",
+      "kept a hot head"
+    ],
+    "allPositiveMatched": true,
+    "allNegativeRejected": true,
+    "canonicalBatchPath": "course-materials/advanced-native/batches/batch-0476-0500.json",
+    "canonicalBatchSha256": "929509f8fa56f37c41277d8571e84163c0085c6eadd369b57253b7cf77c8cea3"
+  },
+  "newLessonDisposition": "Duplicate 4194 draft retired to /private/tmp; unselected 4193 retained in course-materials/advanced-native/drafts-books10-16/batch-4193-a.json",
+  "canonicalContentRevision": 2,
+  "fullVerifier": "PASS; source and selected existing alias pattern exceptions zero",
+  "allDiscoveredAliasAudit": "PASS; zero exceptions",
+  "humanEditorialSignoff": "pending",
+  "releaseApproved": false
+}

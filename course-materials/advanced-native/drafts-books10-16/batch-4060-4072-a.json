@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4060",
+      "number": 4060,
+      "inventoryId": "expr-4060",
+      "titleEn": "cast them aside",
+      "titleZh": "隨手棄置；不再理會",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:cast|casts|casting) (?:it|them|him|her) aside\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Discard or reject something or someone without giving it further use or consideration.",
+        "meaningZh": "把某物丟在一旁不再使用，或不再認真考慮某人或某事。",
+        "grammar": "Cast + object pronoun + aside; cast is unchanged in past tense. The pronoun normally sits between cast and aside.",
+        "register": "Neutral-to-critical English. A repair volunteer might use it while discussing reusable equipment with colleagues.",
+        "boundaryZh": "既可指放棄物品，也可指輕率地拒絕想法；不是小心暫存以待下次使用。",
+        "misconceptionZh": "不一定指真的用力扔物；若已安排保養和再用，便不合「棄置」之意。",
+        "outcomeZh": "能指出被棄置的對象、原本價值及是否仍有可行用途。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1949",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 184,
+          "book": 15,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 198, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should repair useful things before we cast them aside.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cast them aside"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The library found four working lamps in storage. A volunteer suggested checking the plugs before staff cast them aside merely because the shades looked dated.",
+        "zh": "圖書館在儲物室找到四盞仍能運作的燈。義工建議職員別只因燈罩款式過時便棄置，而是先檢查插頭。",
+        "promptZh": "義工反對甚麼做法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Rejecting usable lamps without first checking them.",
+            "zh": "未先檢查便放棄仍可用的燈。"
+          },
+          {
+            "id": "b",
+            "en": "Recording the lamps’ condition for future use.",
+            "zh": "記錄燈的狀況以備日後使用。"
+          },
+          {
+            "id": "c",
+            "en": "Checking plugs before deciding what to do.",
+            "zh": "先檢查插頭再決定如何處理。"
+          },
+          {
+            "id": "d",
+            "en": "Storing lamps that are safe and working.",
+            "zh": "存放安全且仍可運作的燈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只因款式舊就棄置仍可用物品，是義工反對的事。"
+      },
+      "reply": {
+        "promptEn": "A theatre has several worn but repairable costumes. Before throwing them away, the wardrobe team asks a tailor whether the seams can be mended. What are they trying to avoid?",
+        "promptZh": "（劇場有幾套磨損但可修補的戲服。服裝組丟棄前，先請裁縫看看縫線能否修好。他們想避免甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Discarding repairable costumes too quickly.",
+            "zh": "太快棄置可修補的戲服。"
+          },
+          {
+            "id": "b",
+            "en": "Deciding without the tailor’s assessment.",
+            "zh": "未經裁縫評估便作決定。"
+          },
+          {
+            "id": "c",
+            "en": "Casting them aside before considering repair.",
+            "zh": "未考慮修補便把它們棄置。"
+          },
+          {
+            "id": "d",
+            "en": "Losing materials that may still serve a production.",
+            "zh": "失去可能仍可在演出中使用的材料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均支持先評估再決定；金句使用棄置片語。"
+      },
+      "scene": {
+        "promptZh": "研究小組收到一個尚未驗證但有理據的新想法，決定先做小測試，而非立即排除。哪句最能形容他們避免的做法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They did not cast it aside before testing it.",
+            "zh": "他們沒有未經測試便把想法擱置。"
+          },
+          {
+            "id": "b",
+            "en": "They proved the idea correct without checking any data.",
+            "zh": "他們不查數據便證明想法正確。"
+          },
+          {
+            "id": "c",
+            "en": "They filed the idea carefully for the next review.",
+            "zh": "他們小心存檔，留待下次審查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未經考慮便排除想法，才是 cast it aside。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 staff cast usable equipment aside？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff cleaned the equipment, labelled it and scheduled it for next month’s event.",
+            "zh": "職員清潔並標示設備，安排下月活動再用。"
+          },
+          {
+            "id": "b",
+            "en": "Staff rejected it solely because its colour was old-fashioned.",
+            "zh": "職員只因顏色過時便棄置。"
+          },
+          {
+            "id": "c",
+            "en": "Staff sent it to disposal without checking an easy repair.",
+            "zh": "職員沒檢查簡單修理方法便送去丟棄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已安排保養和再用，並沒有棄置。"
+      },
+      "dialogue": {
+        "promptEn": "A: The display stands are scratched but stable, and a new coat of paint would help. B: ______",
+        "promptZh": "（甲：展示架有刮痕但仍穩固，重新上漆便可改善。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should not cast them aside without considering that repair.",
+            "zh": "未考慮修補，我們不應把它們棄置。"
+          },
+          {
+            "id": "b",
+            "en": "Painting may extend their useful life.",
+            "zh": "上漆或可延長使用期。"
+          },
+          {
+            "id": "c",
+            "en": "Let us check the frames before ordering replacements.",
+            "zh": "訂購替代品前，先檢查框架。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以仍可修補作理由，反對輕率棄置。"
+      },
+      "speaking": {
+        "en": "The club tested the old microphones before casting them aside; two needed only fresh cables and returned to use.",
+        "zh": "社團棄置舊咪高峰前先測試，其中兩支只需換線便能再用。",
+        "promptZh": "交代棄置前應核實是否仍可使用。",
+        "targetSpan": {
+          "start": 43,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團體面對看似過時但可能仍有用的物品或想法。用英文寫出評估與是否棄置。",
+        "selfCheckZh": "兩例須說明價值或可行用途；不要把暫時安全存放誤說成棄置。",
+        "examples": [
+          {
+            "en": "The school checked the old projectors before it cast them aside; one needed only a new bulb and was kept for workshops.",
+            "zh": "學校棄置舊投影機前先檢查；其中一部只需換燈泡，便保留下來供工作坊使用。"
+          },
+          {
+            "en": "The editors did not cast it aside when Ana proposed a shorter guide; they tested her draft with two readers first.",
+            "zh": "安娜提出較短的指南時，編輯沒有立即排除這個想法，而是先找兩名讀者測試初稿。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the old projectors",
+            "zh": "舊投影機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 37
+            }
+          },
+          {
+            "en": "a new bulb",
+            "zh": "新燈泡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 91
+            }
+          },
+          {
+            "en": "workshops",
+            "zh": "工作坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 118
+            }
+          },
+          {
+            "en": "a shorter guide",
+            "zh": "較短的指南",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 67
+            }
+          },
+          {
+            "en": "two readers",
+            "zh": "兩名讀者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Cast them aside means reject or discard them rather than keep using them.",
+          "zh": "cast them aside 指不再使用而棄置它們。"
+        },
+        {
+          "en": "Check an item’s value before you cast it aside.",
+          "zh": "棄置物品前，先查清它的價值。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4061",
+      "number": 4061,
+      "inventoryId": "expr-4061",
+      "titleEn": "mindset takes hold",
+      "titleZh": "觀念逐漸扎根",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a |the |this |that )?(?:mindset|attitude) (?:takes|took|has taken|is taking) hold\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A way of thinking becomes established and begins to shape repeated choices.",
+        "meaningZh": "某種思維方式逐漸穩固，開始影響反覆的選擇。",
+        "grammar": "A mindset takes hold; take inflects took/has taken. The mindset is the subject; the metaphor is of gripping or establishing influence.",
+        "register": "Neutral analytical English. A community organiser may use it when discussing how habits spread with volunteers.",
+        "boundaryZh": "須有持續影響的線索；一次選擇或瞬間念頭不足以證明觀念已扎根。",
+        "misconceptionZh": "不是身體抓住物件，也不能把短暫興趣說成根深蒂固的思維。",
+        "outcomeZh": "能指出觀念、重複行為及其逐漸形成的時間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1950",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 184,
+          "book": 15,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "48–51",
+          "locatorNote": "DOCX table 199, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once a shopping mindset takes hold, habits are hard to change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mindset takes hold"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At first, the workshop borrowed tools only for one event. Over months, members began checking the lending shelf before every purchase. A reuse mindset took hold and shaped the club’s routine.",
+        "zh": "工作坊起初只在一次活動借工具。幾個月後，會員每次購物前都先查借用架。重用觀念逐漸扎根，並影響社團慣例。",
+        "promptZh": "甚麼顯示觀念已扎根？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members repeatedly checked borrowing options over several months.",
+            "zh": "會員幾個月來反覆先查看借用選項。"
+          },
+          {
+            "id": "b",
+            "en": "The group borrowed a tool once and never discussed it again.",
+            "zh": "團體只借過一次工具，之後再沒有討論。"
+          },
+          {
+            "id": "c",
+            "en": "The idea remained a private thought with no effect on choices.",
+            "zh": "這想法只留在心裏，對選擇沒有影響。"
+          },
+          {
+            "id": "d",
+            "en": "The club made one purchase without any change in routine.",
+            "zh": "社團只購物一次，慣例沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長時間反覆先借後買，顯示思維影響習慣。"
+      },
+      "reply": {
+        "promptEn": "A team starts asking whether equipment can be repaired before every new order. After six months, that question is part of all purchasing meetings. What has happened?",
+        "promptZh": "（團隊每次訂購新設備前都開始問能否修理舊設備。六個月後，這問題已成為每次採購會議的一部分。發生了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repair-first approach has become routine.",
+            "zh": "先修理的做法已成慣例。"
+          },
+          {
+            "id": "b",
+            "en": "The repeated question now guides purchasing choices.",
+            "zh": "反覆提問如今影響採購選擇。"
+          },
+          {
+            "id": "c",
+            "en": "A repair mindset has taken hold in the team.",
+            "zh": "修理優先的觀念已在團隊中扎根。"
+          },
+          {
+            "id": "d",
+            "en": "The change lasted beyond a single meeting.",
+            "zh": "改變不止於一次會議。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以六個月的重複行動作證；金句使用扎根比喻。"
+      },
+      "scene": {
+        "promptZh": "社區花園連續半年每次種植前都查雨水收集量，如今新會員也先做這一步。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A conservation mindset has taken hold in the garden group.",
+            "zh": "節約資源的觀念已在花園團隊中扎根。"
+          },
+          {
+            "id": "b",
+            "en": "The group thought about water once and forgot it.",
+            "zh": "團隊只想過一次用水問題，之後便忘了。"
+          },
+          {
+            "id": "c",
+            "en": "The collecting tank physically holds every member.",
+            "zh": "收集缸真的抓住每位會員。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "半年來重複實行，並傳給新會員。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a mindset has taken hold？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One visitor mentions a new idea once, and no one changes any later decision.",
+            "zh": "一位訪客只提過一次新想法，之後沒有人改變決定。"
+          },
+          {
+            "id": "b",
+            "en": "The team follows the new approach in each monthly review.",
+            "zh": "團隊每月檢討都依照新做法。"
+          },
+          {
+            "id": "c",
+            "en": "New members learn the approach as an ordinary rule of work.",
+            "zh": "新會員把這套做法當作一般工作準則來學。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一次提及而沒有後續影響，未達扎根程度。"
+      },
+      "dialogue": {
+        "promptEn": "A: Since the tool-sharing trial, everyone checks the lending list before buying materials, month after month. B: ______",
+        "promptZh": "（甲：試行共享工具後，大家月復一月都在買材料前查借用清單。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if a sharing mindset has taken hold.",
+            "zh": "聽起來共享觀念已逐漸扎根。"
+          },
+          {
+            "id": "b",
+            "en": "The trial has changed the usual order of decisions.",
+            "zh": "試行改變了平常作決定的次序。"
+          },
+          {
+            "id": "c",
+            "en": "Checking the list is now more than a one-off experiment.",
+            "zh": "查清單已不只是一次性的試驗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以反覆行為支持觀念扎根。"
+      },
+      "speaking": {
+        "en": "Once a careful-recording mindset took hold in the lab, each technician checked the previous shift’s notes before restarting a test.",
+        "zh": "細心記錄的觀念在實驗室扎根後，每名技術員重啟測試前都會查看上一班筆記。",
+        "promptZh": "指出觀念如何影響重複的做法。",
+        "targetSpan": {
+          "start": 25,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團體的新觀念經過一段時間，變成反覆實踐的慣例。用英文交代時間、行動與影響。",
+        "selfCheckZh": "兩例都要有多次或持續證據；不要把一次行為寫成已扎根。",
+        "examples": [
+          {
+            "en": "Over a term, a feedback mindset took hold in the drama club: members began reviewing each rehearsal together before changing the script.",
+            "zh": "一個學期下來，重視回饋的觀念在戲劇社扎根：會員每次改劇本前都一起檢討排練。"
+          },
+          {
+            "en": "After several months of sharing spare parts, a repair mindset took hold among the bicycle volunteers, who checked used components before ordering new ones.",
+            "zh": "共享備用零件幾個月後，修理優先的觀念在單車義工之間扎根；他們訂新零件前先檢查舊配件。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Over a term",
+            "zh": "一個學期下來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "each rehearsal",
+            "zh": "每次排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 99
+            }
+          },
+          {
+            "en": "the script",
+            "zh": "劇本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 135
+            }
+          },
+          {
+            "en": "spare parts",
+            "zh": "備用零件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 43
+            }
+          },
+          {
+            "en": "used components",
+            "zh": "舊配件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A mindset takes hold when it starts shaping repeated choices.",
+          "zh": "mindset takes hold 指觀念開始影響反覆的選擇。"
+        },
+        {
+          "en": "One isolated decision does not prove that a mindset has taken hold.",
+          "zh": "一次孤立決定不足以證明觀念已扎根。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4068",
+      "number": 4068,
+      "inventoryId": "expr-4068",
+      "titleEn": "feeds appetite",
+      "titleZh": "激起／加深對某物的渴望",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:feed|feeds|fed|feeding) (?:(?:an?|the|our|their|his|her) )?appetite for\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Increase or sustain a desire for something, often by repeated exposure or encouragement.",
+        "meaningZh": "藉反覆接觸或鼓勵，增加或延續對某事物的渴望。",
+        "grammar": "Feed an appetite for + thing is a common full form; feed appetite for also occurs in compressed general prose, as in the source. Feed inflects fed/feeding. The appetite is figurative.",
+        "register": "Neutral analytical English. A media teacher may use it when discussing marketing effects with a class.",
+        "boundaryZh": "是增加想要的傾向，不表示每人必然購買，也不等於身體真正餓了。",
+        "misconceptionZh": "不是餵食肚子；勿把「激發渴望」當成購買結果已發生。",
+        "outcomeZh": "能指出引發渴望的刺激、對象及仍未確定的行為結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1957",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 184,
+          "book": 15,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "48–51",
+          "locatorNote": "DOCX table 199, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Constant advertising feeds appetite for new gadgets.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "feeds appetite"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The gallery posted short previews of its new night tours each week. The clips fed an appetite for evening visits, although the team still had to check whether viewers actually booked tickets.",
+        "zh": "畫廊每週發布夜間導賞的短片預告。片段激起人們對晚間參觀的興趣，但團隊仍須查核觀眾是否真的訂票。",
+        "promptZh": "短片造成甚麼可能影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They increased interest in evening visits without proving bookings.",
+            "zh": "它們增加對晚間參觀的興趣，但不能證明已有人訂票。"
+          },
+          {
+            "id": "b",
+            "en": "They confirmed every viewer bought a ticket.",
+            "zh": "它們證明每位觀眾都已買票。"
+          },
+          {
+            "id": "c",
+            "en": "They made the tours physically longer.",
+            "zh": "它們令導賞實際時間變長。"
+          },
+          {
+            "id": "d",
+            "en": "They replaced the need to measure attendance.",
+            "zh": "它們使團隊毋須量度出席人數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "激起興趣與實際訂票不同。"
+      },
+      "reply": {
+        "promptEn": "A museum releases weekly behind-the-scenes clips about an upcoming exhibition. More people ask when tickets open, but sales have not begun. What did the clips do?",
+        "promptZh": "（博物館每週發布即將開幕展覽的幕後短片。更多人詢問何時開售，但尚未開始賣票。短片有甚麼作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They raised interest in the exhibition.",
+            "zh": "它們增加了人們對展覽的興趣。"
+          },
+          {
+            "id": "b",
+            "en": "The ticket questions show curiosity before sales begin.",
+            "zh": "門票查詢顯示售票前已有好奇心。"
+          },
+          {
+            "id": "c",
+            "en": "They fed an appetite for the new exhibition.",
+            "zh": "它們激起了人們對新展覽的渴望。"
+          },
+          {
+            "id": "d",
+            "en": "Interest increased without a proven purchase yet.",
+            "zh": "興趣增加了，但尚未證實有購買。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據詢問量增加而作答；金句表達激發渴望。"
+      },
+      "scene": {
+        "promptZh": "社團定期分享下一次遠足的路線預覽，會員開始主動問日期，但尚未報名。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The previews fed an appetite for the next hike.",
+            "zh": "預覽激起了大家對下次遠足的渴望。"
+          },
+          {
+            "id": "b",
+            "en": "Every member has already paid for the hike.",
+            "zh": "每位會員都已為遠足付款。"
+          },
+          {
+            "id": "c",
+            "en": "The previews only described a route and cannot affect interest.",
+            "zh": "預覽只是描述路線，絕不可能影響興趣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "詢問日期顯示興趣增加，未必已報名。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 something feeds an appetite for a product？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No one sees the material, asks about the product, or shows any increased interest.",
+            "zh": "沒有人看到相關材料、詢問產品或表現出興趣增加。"
+          },
+          {
+            "id": "b",
+            "en": "Repeated previews prompt more questions about availability.",
+            "zh": "反覆預覽令更多人詢問何時有售。"
+          },
+          {
+            "id": "c",
+            "en": "Regular demonstrations lead people to request a trial.",
+            "zh": "定期示範令更多人要求試用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺少接觸或興趣變化，難以說渴望被激起。"
+      },
+      "dialogue": {
+        "promptEn": "A: Each short rehearsal clip brings more questions about the final concert, though tickets are not on sale yet. B: ______",
+        "promptZh": "（甲：每段短排練片都令更多人問起正式音樂會，雖然門票尚未開售。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clips seem to feed an appetite for the concert.",
+            "zh": "片段似乎激起了大家對音樂會的渴望。"
+          },
+          {
+            "id": "b",
+            "en": "Those questions suggest curiosity is growing.",
+            "zh": "那些提問顯示好奇心正在增加。"
+          },
+          {
+            "id": "c",
+            "en": "We can track actual bookings after sales begin.",
+            "zh": "開始售票後，我們可再追蹤實際訂票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說興趣被激起，不把查詢等同已買票。"
+      },
+      "speaking": {
+        "en": "The radio series about local architecture fed an appetite for walking tours, and the organisers later checked whether that interest became registrations.",
+        "zh": "介紹本地建築的電台節目激起人們對步行導賞的渴望，主辦方其後查核興趣有否轉成報名。",
+        "promptZh": "區分渴望與實際報名。",
+        "targetSpan": {
+          "start": 42,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩種定期內容或示範引起對活動的更大興趣，但實際報名仍待核實。用英文寫出刺激、興趣證據與限制。",
+        "selfCheckZh": "兩例不可把興趣增加直接寫成每人已付款。",
+        "examples": [
+          {
+            "en": "The library’s weekly author interviews fed an appetite for its reading festival; more visitors asked for the timetable, but bookings had not opened.",
+            "zh": "圖書館每週的作家訪談激起人們對閱讀節的興趣；更多訪客索取時間表，但尚未開放報名。"
+          },
+          {
+            "en": "Short craft demonstrations fed an appetite for the weekend workshops, as enquiry emails increased before any places were sold.",
+            "zh": "短片工藝示範激起人們對週末工作坊的興趣；名額未開售，查詢電郵已增加。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekly author interviews",
+            "zh": "每週作家訪談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 38
+            }
+          },
+          {
+            "en": "the timetable",
+            "zh": "時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 118
+            }
+          },
+          {
+            "en": "bookings",
+            "zh": "報名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 132
+            }
+          },
+          {
+            "en": "Short craft demonstrations",
+            "zh": "短片工藝示範",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "enquiry emails",
+            "zh": "查詢電郵",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 87
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Feed an appetite for something means increase desire for it.",
+          "zh": "feed an appetite for something 指增加對它的渴望。"
+        },
+        {
+          "en": "Publicity may feed appetite for an event without proving sales.",
+          "zh": "宣傳可能激起對活動的興趣，但不能證明已售出門票。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4072",
+      "number": 4072,
+      "inventoryId": "expr-4072",
+      "titleEn": "in broad terms",
+      "titleZh": "概括而言",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bin broad terms\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a general level, without claiming every detail is identical or settled.",
+        "meaningZh": "從大方向概括來說，不聲稱每個細節完全相同或已確定。",
+        "grammar": "In broad terms is a sentence adverbial, often followed by a comma. It introduces a qualified overview and invites later detail.",
+        "register": "Neutral formal-to-conversational English. A researcher may use it while briefing colleagues on a draft comparison.",
+        "boundaryZh": "只概括主要輪廓，必須保留細節差異；不能用它掩蓋重要例外。",
+        "misconceptionZh": "不是說結論一定模糊，也不表示可忽略所有關鍵細節。",
+        "outcomeZh": "能先給總體比較，再指出至少一項值得保留的差異。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1961",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 185,
+          "book": 15,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 200, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In broad terms, their lists look similar.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in broad terms"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The two garden proposals both add shade and seating. In broad terms, they pursue the same goal, although one preserves the old trees and the other plans new planting.",
+        "zh": "兩份花園建議都增設遮蔭和座位。概括而言，它們追求同一目標，但一份保留老樹，另一份計劃種新樹。",
+        "promptZh": "概括說法保留了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared main goal alongside a specific design difference.",
+            "zh": "共同的主要目標，以及一項具體設計差異。"
+          },
+          {
+            "id": "b",
+            "en": "A claim that every drawing is identical.",
+            "zh": "聲稱每張圖紙都完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "A decision to omit the tree issue permanently.",
+            "zh": "決定永遠不提樹木問題。"
+          },
+          {
+            "id": "d",
+            "en": "Proof that both proposals have already been built.",
+            "zh": "證明兩份建議都已建成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "概括相似處，同時保留樹木方案的差異。"
+      },
+      "reply": {
+        "promptEn": "Two course outlines both cover listening and discussion, but one devotes more time to pronunciation. A coordinator wants a one-sentence overview before explaining the time difference. What can she say?",
+        "promptZh": "（兩份課程大綱都涵蓋聆聽與討論，但其中一份花更多時間練發音。協調員想先用一句概括，再解釋時間差異。她可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They share the same main skill areas.",
+            "zh": "它們涵蓋相同的主要技能範疇。"
+          },
+          {
+            "id": "b",
+            "en": "The overview can mention broad similarity before a difference.",
+            "zh": "概述可先指出大方向相似，再說差異。"
+          },
+          {
+            "id": "c",
+            "en": "In broad terms, the outlines are alike, though the timing differs.",
+            "zh": "概括而言，大綱相似，但時間分配不同。"
+          },
+          {
+            "id": "d",
+            "en": "Pronunciation time remains a detail worth noting.",
+            "zh": "發音練習時間仍是值得指出的細節。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆維持整體相似與細節差異；金句自然概括。"
+      },
+      "scene": {
+        "promptZh": "兩份社區報告都建議改善照明，但一份聚焦公園，另一份聚焦行人道。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "In broad terms, they share a goal, though their locations differ.",
+            "zh": "概括而言，它們目標相近，但地點不同。"
+          },
+          {
+            "id": "b",
+            "en": "The reports are identical in every detail.",
+            "zh": "兩份報告每個細節都完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Because locations differ, no broad comparison is possible.",
+            "zh": "地點不同，因此不能作任何概括比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大方向相同，但保留具體地點差異。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不適合用 in broad terms 引出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker insists every clause and number is identical and refuses to mention a known major exception.",
+            "zh": "講者堅稱每項條款和數字完全相同，並拒絕提及已知重大例外。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker states a shared purpose, then explains different budgets.",
+            "zh": "講者先說共同目標，再解釋預算差異。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker gives the overall trend before itemising individual results.",
+            "zh": "講者先說整體趨勢，再列出各項結果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此語是有保留的概括，不可遮蔽重大例外。"
+      },
+      "dialogue": {
+        "promptEn": "A: Both safety plans improve exit signs, but the second also changes the stair layout. B: ______",
+        "promptZh": "（甲：兩份安全方案都改善出口標示，但第二份還改動樓梯布局。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "In broad terms, they address the same problem, but the second goes further.",
+            "zh": "概括而言，它們處理同一問題，但第二份更進一步。"
+          },
+          {
+            "id": "b",
+            "en": "The shared work on signs gives us a useful overview.",
+            "zh": "它們都改善標示，這可作概述。"
+          },
+          {
+            "id": "c",
+            "en": "We should still explain the staircase change separately.",
+            "zh": "我們仍應另行解釋樓梯改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括共同點，並保留重要差異。"
+      },
+      "speaking": {
+        "en": "In broad terms, both budgets protect the outreach programme, but only the revised version funds a weekend service.",
+        "zh": "概括而言，兩份預算都保留外展計劃，但只有修訂版為週末服務撥款。",
+        "promptZh": "概括須同時承認關鍵差異。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組文件有共同方向，也有一項不能忽略的差異。用英文先概述再指出差異。",
+        "selfCheckZh": "兩例不能只說完全一樣；須有可核實的共同點與差別。",
+        "examples": [
+          {
+            "en": "In broad terms, both maps guide visitors to the river path, but only the new one marks the step-free entrance.",
+            "zh": "概括而言，兩張地圖都引導遊客到河邊小徑，但只有新地圖標示無梯級入口。"
+          },
+          {
+            "en": "The two event plans, in broad terms, serve the same audience; one schedules morning workshops while the other adds an evening session.",
+            "zh": "概括而言，兩份活動計劃服務同一類觀眾；一份安排上午工作坊，另一份增設晚間場次。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the river path",
+            "zh": "河邊小徑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 58
+            }
+          },
+          {
+            "en": "the step-free entrance",
+            "zh": "無梯級入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 109
+            }
+          },
+          {
+            "en": "the same audience",
+            "zh": "同一類觀眾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 60
+            }
+          },
+          {
+            "en": "morning workshops",
+            "zh": "上午工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 93
+            }
+          },
+          {
+            "en": "an evening session",
+            "zh": "晚間場次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In broad terms gives an overview rather than an exact identity claim.",
+          "zh": "in broad terms 提供概述，不聲稱細節完全相同。"
+        },
+        {
+          "en": "After saying in broad terms, name the detail that still differs.",
+          "zh": "說完「概括而言」，仍須指出重要差異。"
+        }
+      ]
+    }
+  ]
+}

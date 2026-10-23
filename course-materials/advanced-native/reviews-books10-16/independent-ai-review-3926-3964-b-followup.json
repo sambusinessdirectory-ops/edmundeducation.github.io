@@ -1,0 +1,16 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReport": "independent-ai-review-3926-3964-b.json",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3926-3927-review-pilot.json", "sha256": "bf691389bccd218f0bd466e68bc3c09516ea068c66e3c46725397b50dfc89ec2"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3933-3941-review-pilot.json", "sha256": "00394a492233e682ed1ea4fd0ad707a351db0a5102eae1137e5854b7b70d2620"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3947-3964-review-pilot.json", "sha256": "0337d41750a07c9d01319cc2d26febdb7e2488a982e6c8d95d9aaa67db28b738"}
+  ],
+  "authorSelfAuditSha256": "5dda2200998bb935944bb23855384739335df442db813d32e0ae5ba5718d9ad1",
+  "status": "ai-content-clear-for-provisional-selection",
+  "findingFollowup": [
+    {"id": "R3933-01", "result": "resolved", "evidence": "Writing model 2 now states the tutor offered a planning meeting 'to set priorities'; Chinese says '協助他訂出優先次序'. The two reports, exam and ten-day window remain intact. The unchanged exact glossary span still extracts 'planning meeting'. Content revision is 2."}
+  ],
+  "regressionCheck": "The other seven drafts are byte-identical to the original reviewed hashes. The repaired model preserves the target and has aligned EN/ZH meaning. Independent combined build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero flags.",
+  "releaseLimit": "This is AI content clearance only. Human English, Chinese, media and QA sign-offs remain pending; no publication or release approval is implied."
+}

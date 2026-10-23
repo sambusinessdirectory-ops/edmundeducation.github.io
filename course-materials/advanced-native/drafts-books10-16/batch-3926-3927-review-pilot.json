@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3926-3927-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3926",
+      "number": 3926,
+      "inventoryId": "expr-3926",
+      "titleEn": "have legs",
+      "titleZh": "有持續發展的潛力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:has|have|had)\\s+legs\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have enough strength or appeal to continue beyond an initial burst of attention.",
+        "meaningZh": "有足夠實力或吸引力，能在短暫熱潮過後繼續發展。",
+        "grammar": "An idea, trend or project has legs; legs is plural in this figurative use. Popular now does not prove it has legs.",
+        "register": "Informal media and project discussion; a programme editor judges whether a new format can keep an audience beyond launch week.",
+        "boundaryZh": "此片語說持續可行性，不等於現時流行程度；須有後續採用、資源或需求證據。",
+        "misconceptionZh": "不是說想法真的長了腿，也不能僅憑開幕日擠滿人便斷定可長久。",
+        "outcomeZh": "能區分初期注意與較長期維持，指出支持或削弱後者的證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1815",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 171,
+          "book": 15,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 183, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new fitness craze is popular, but not every trend has legs.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not every trend has legs"
+        }
+      ],
+      "listening": {
+        "en": "The puzzle club was crowded on launch day, but after ten weeks it still had full tables and volunteer leaders. The organiser thinks the idea has legs.",
+        "zh": "益智遊戲社開幕日很熱鬧，十週後座位仍坐滿，並有義工持續帶領。主辦者認為這個構思有持續發展的潛力。",
+        "promptZh": "has legs 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The club has evidence it can keep going.",
+            "zh": "社團有證據顯示可持續營運。"
+          },
+          {
+            "id": "b",
+            "en": "The opening crowd alone showed lasting demand.",
+            "zh": "單是開幕日的人潮就證明需求長久。"
+          },
+          {
+            "id": "c",
+            "en": "The club had repeat visitors but no one to lead future sessions.",
+            "zh": "社團雖有回頭參加者，卻沒有人帶領往後活動。"
+          },
+          {
+            "id": "d",
+            "en": "Volunteer leaders agreed to help only on launch day.",
+            "zh": "義工帶領者只答應開幕當天幫忙。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十週後仍有參與者及帶領者，支持持續發展。"
+      },
+      "reply": {
+        "promptEn": "Could the neighbourhood repair café continue next year? Six months after opening, residents still book every session, and volunteers have agreed to another year.",
+        "promptZh": "（社區維修咖啡館明年能繼續嗎？開幕六個月後，居民仍預訂每場活動，義工亦答應再做一年。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Demand and volunteer support look durable.",
+            "zh": "需求和義工支援看來可持續。"
+          },
+          {
+            "id": "b",
+            "en": "The project has support beyond its first week.",
+            "zh": "計劃的支援不只限於首週。"
+          },
+          {
+            "id": "c",
+            "en": "This repair café has legs.",
+            "zh": "這間維修咖啡館有持續發展的潛力。"
+          },
+          {
+            "id": "d",
+            "en": "The six-month record supports a longer run.",
+            "zh": "六個月的紀錄支持較長期運作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據持續預訂與義工承諾判斷可行性。"
+      },
+      "scene": {
+        "promptZh": "新播客第一集爆紅後，往後三個月每週都有穩定聽眾及兩名長期製作人。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The podcast may have legs.",
+            "zh": "這個播客可能有持續發展的潛力。"
+          },
+          {
+            "id": "b",
+            "en": "The first-day clicks alone establish a lasting audience.",
+            "zh": "單靠首日點擊就可確立長期聽眾。"
+          },
+          {
+            "id": "c",
+            "en": "The team has no evidence beyond its first episode.",
+            "zh": "製作團隊沒有首集以外的證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續聽眾和製作人提供初期以外的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以判斷新活動 has legs？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first day is busy, but there is no later attendance or funding information.",
+            "zh": "首日人多，卻沒有日後出席或經費資料。"
+          },
+          {
+            "id": "b",
+            "en": "Attendance remains stable for several months and leaders commit to the next season.",
+            "zh": "幾個月出席穩定，帶領者承諾下一季繼續。"
+          },
+          {
+            "id": "c",
+            "en": "A pilot keeps repeat participants and finds a viable budget.",
+            "zh": "試辦活動有回頭參加者，亦找到可行預算。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看首日熱度，無法判斷能否長期維持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「今日熱門，這個趨勢一定 has legs。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trend has legs only if there is reason to expect it to last beyond the first surge.",
+            "zh": "潮流要有理由相信能在首波熱度後延續，才可說有持續潛力。"
+          },
+          {
+            "id": "b",
+            "en": "Any first-week spike guarantees endurance.",
+            "zh": "首週暴增必定保證長久。"
+          },
+          {
+            "id": "c",
+            "en": "A trend needs only a large opening crowd to prove endurance.",
+            "zh": "潮流只需開頭人多，就能證明可持續。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫熱度與持續可行性不同。"
+      },
+      "speaking": {
+        "en": "The reading exchange has legs because borrowers have returned each month and the volunteers have secured another venue.",
+        "zh": "閱讀交換計劃有持續發展的潛力，因為借書者每月回來，義工亦找到下一個場地。",
+        "promptZh": "先聽示範，再指出哪兩項證據支持持續運作。",
+        "targetSpan": {
+          "start": 21,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園種子交換活動第一週有五十人，三個月後仍每月有四十名回頭參加者，學生會已確保下一學期的場地。用英文說明它有持續潛力，但不保證永久成功。",
+        "selfCheckZh": "寫出首週五十人、三個月後每月四十名回頭參加者、下學期場地已確保；勿保證永久成功。",
+        "examples": [
+          {
+            "en": "The seed exchange may have legs: after fifty people came in its first week, forty regulars still join each month three months later, and the student council has secured next term’s room.",
+            "zh": "種子交換活動可能有持續潛力：首週有五十人，三個月後每月仍有四十名回頭參加者，學生會亦確保了下學期場地。"
+          },
+          {
+            "en": "With forty monthly returners three months after its fifty-person launch and a room booked for next term, the seed exchange has legs, although its long-term future is not guaranteed.",
+            "zh": "首週五十人參加，三個月後每月仍有四十人回來，且下學期已訂好場地；種子交換活動有持續潛力，但長遠並無保證。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fifty people",
+            "zh": "五十人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 51
+            }
+          },
+          {
+            "en": "forty regulars",
+            "zh": "四十名回頭參加者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          },
+          {
+            "en": "three months later",
+            "zh": "三個月後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 131
+            }
+          },
+          {
+            "en": "next term",
+            "zh": "下學期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 169,
+              "end": 178
+            }
+          },
+          {
+            "en": "monthly returners",
+            "zh": "每月回頭參加者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 28
+            }
+          },
+          {
+            "en": "not guaranteed",
+            "zh": "並無保證",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Have legs means show potential to continue after initial attention.",
+          "zh": "有持續潛力，指熱潮過後仍有理由相信可延續。"
+        },
+        {
+          "en": "A trend does not have legs merely because it is popular today.",
+          "zh": "趨勢今天熱門，不足以證明有長久發展潛力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3927",
+      "number": 3927,
+      "inventoryId": "expr-3927",
+      "titleEn": "catch fire",
+      "titleZh": "迅速走紅",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching)\\s+fire\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Spread quickly and attract strong interest, especially online or across groups.",
+        "meaningZh": "迅速傳播並引起大量關注，尤其在網上或不同群體之間。",
+        "grammar": "An idea, activity or story catches fire; caught fire is past, catching fire progressive. In this figurative sense there is no literal blaze.",
+        "register": "Informal media commentary; a student describes a short instructional video spreading rapidly beyond its first viewers.",
+        "boundaryZh": "要有短時間內快速擴散的線索；慢慢被接受可說 catch on，未必已 catch fire。",
+        "misconceptionZh": "不是起火，也不保證熱度會長久；它着重突然加速傳開。",
+        "outcomeZh": "能根據時間與傳播範圍，區分迅速走紅與緩慢普及。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1816",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 171,
+          "book": 15,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 183, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A new sport can catch fire online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catch fire"
+        }
+      ],
+      "listening": {
+        "en": "A school posted a thirty-second sign-language clip on Monday. By Wednesday, clubs in twenty towns had shared it, and the idea caught fire online.",
+        "zh": "學校星期一發布一段三十秒手語短片；到了星期三，二十個城鎮的社團都分享了它，這個構思在網上迅速走紅。",
+        "promptZh": "caught fire 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clip’s idea spread very quickly.",
+            "zh": "短片中的構思迅速傳開。"
+          },
+          {
+            "id": "b",
+            "en": "The clip gained interest only gradually over several terms.",
+            "zh": "短片用了幾個學期才逐漸引起關注。"
+          },
+          {
+            "id": "c",
+            "en": "It remained inside the first school without wider sharing.",
+            "zh": "短片只在首間學校流傳，沒有傳到其他地方。"
+          },
+          {
+            "id": "d",
+            "en": "The clubs planned to share it next year, but none had done so yet.",
+            "zh": "社團打算明年轉發，但目前沒有社團這樣做。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩天內傳到二十個城鎮，屬迅速擴散。"
+      },
+      "reply": {
+        "promptEn": "Why are so many schools trying the new ten-minute science demo? A teacher uploaded it yesterday; overnight thousands shared it and classes in several districts copied it today.",
+        "promptZh": "（為何那麼多學校嘗試新的十分鐘科學示範？老師昨天上載片段；一夜間有數千人分享，今天多區班級仿效。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The idea spread across districts in a day.",
+            "zh": "構思在一天內傳遍多區。"
+          },
+          {
+            "id": "b",
+            "en": "Sharing increased extremely fast.",
+            "zh": "分享數目增長極快。"
+          },
+          {
+            "id": "c",
+            "en": "The science demo caught fire online.",
+            "zh": "科學示範在網上迅速走紅。"
+          },
+          {
+            "id": "d",
+            "en": "A rapid burst of attention led schools to copy it.",
+            "zh": "一陣迅速湧現的關注令學校仿效。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指短時間內大量傳播。"
+      },
+      "scene": {
+        "promptZh": "一個節水手勢影片昨晚發布，今天已獲一百個青年組織轉發。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The water-saving clip caught fire overnight.",
+            "zh": "節水短片一夜間迅速走紅。"
+          },
+          {
+            "id": "b",
+            "en": "The clip has gained only a few viewers over ten years.",
+            "zh": "短片十年間只增加了少數觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "The organisations intend to share it next month, but have not yet.",
+            "zh": "各組織打算下月轉發，但現在還沒有。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一夜間大量轉發，重點是速度。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 figurative catch fire？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An activity gains one new member each year for a decade.",
+            "zh": "活動十年來每年只多一名成員。"
+          },
+          {
+            "id": "b",
+            "en": "A tutorial is shared by thousands within hours.",
+            "zh": "教學片段數小時內獲數千人分享。"
+          },
+          {
+            "id": "c",
+            "en": "A new game reaches many schools in two days.",
+            "zh": "新遊戲兩天內傳到許多學校。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "非常緩慢的增長缺乏迅速擴散。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「catch fire 就保證這個活動會永遠熱門。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Something can catch fire quickly without proving that interest will last.",
+            "zh": "某事可迅速走紅，但不代表熱度會長久。"
+          },
+          {
+            "id": "b",
+            "en": "Rapid sharing proves permanent success.",
+            "zh": "迅速分享證明永久成功。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase tells us only that the clip was posted online.",
+            "zh": "這片語只告訴我們短片已上載。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語強調爆發式傳播，不保證持續性。"
+      },
+      "speaking": {
+        "en": "The recycling challenge caught fire over the weekend: fifty neighbourhood teams copied the first group’s plan by Sunday.",
+        "zh": "回收挑戰在週末迅速走紅：到星期日已有五十支社區隊伍仿效首隊的計劃。",
+        "promptZh": "先聽示範，再指出短時間內有多少隊伍加入。",
+        "targetSpan": {
+          "start": 24,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生星期二分享一段修理舊雨傘的短片，星期四已有三十個社區中心轉發並安排同類工作坊；未有資料證明活動可持續一年。用英文交代傳播速度及未知的長期結果。",
+        "selfCheckZh": "寫出星期二發布、星期四三十個中心轉發並辦工作坊、迅速擴散但一年後是否持續未知。",
+        "examples": [
+          {
+            "en": "The umbrella-repair clip caught fire after Tuesday’s post: by Thursday, thirty community centres had shared it and planned workshops, although nobody yet knows whether the interest will last a year.",
+            "zh": "星期二發布後，修理雨傘短片迅速走紅：到星期四，已有三十個社區中心轉發並計劃辦工作坊，但仍未知熱度能否維持一年。"
+          },
+          {
+            "en": "Posted on Tuesday, the repair idea caught fire by Thursday when thirty centres shared the video and arranged similar workshops; the rapid spread does not prove year-long demand.",
+            "zh": "修理構思星期二發布，星期四便迅速走紅；三十個中心轉發短片並安排類似工作坊，但快速傳播不能證明一年後仍有需求。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "umbrella-repair clip",
+            "zh": "修理雨傘短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 24
+            }
+          },
+          {
+            "en": "Tuesday",
+            "zh": "星期二",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 50
+            }
+          },
+          {
+            "en": "thirty community centres",
+            "zh": "三十個社區中心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 96
+            }
+          },
+          {
+            "en": "last a year",
+            "zh": "維持一年",
+            "exampleIndex": 0,
+            "span": {
+              "start": 186,
+              "end": 197
+            }
+          },
+          {
+            "en": "similar workshops",
+            "zh": "類似工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          },
+          {
+            "en": "year-long demand",
+            "zh": "一年後仍有需求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 176
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Catch fire means spread or gain attention rapidly.",
+          "zh": "迅速走紅，指短時間內廣泛傳開或引起大量關注。"
+        },
+        {
+          "en": "Catching fire says little about how long the popularity will last.",
+          "zh": "迅速走紅不表示熱度一定持久。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:29:00.148111+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4026-4058-a.json",
+      "sha256": "9cadaa4f10e7ea046145448dd85247f636e449f23e8476ef397d4c9ac939a9a6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4060-4072-a.json",
+      "sha256": "60dcbf506780ab65f9205faec2347f277103950808a78b1bf85a80e25dcd6311"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "225e836f6a308b4aeccfe9b3f7f9ed64a5de5e7dc67d76451d570026862fc607",
+    "b1463b98f8215ff7180e210a22a3438b8578a7ce9cb27ef8ba76bb6895c49a50"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags in two batches",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "PASS: all-discovered 158 alias-new rows, zero exceptions",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 8
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "4026": "High threshold is demanding but not impossible; concrete eligibility requirements ground it.",
+    "4047": "Physical growth making once-fitting clothes too small, not taste change.",
+    "4051": "Relative weight assigned to fashion versus cost/comfort; no age-group universal inference.",
+    "4058": "Repeated replacement of usable goods, not one safety-based disposal.",
+    "4060": "Discarding or rejecting rather than storing or testing for future use.",
+    "4061": "A mindset becomes established through repeated choices, not a one-off remark.",
+    "4068": "Interest increases; booking or buying does not automatically follow.",
+    "4072": "General overview preserves important specific differences."
+  },
+  "independentContentReview": "B initial report found four issues; all four author-repaired and awaiting exact-hash follow-up.",
+  "reviewRepairs": {
+    "R4047-01": "Multiple once-fitting garments now too small in listening, reply, scene, contrast and both models; speaking likewise grounded.",
+    "R4051-01": "Removed case-insensitive generic name fallback; singular/plural controls tested.",
+    "R4051-02": "Three stated ranked purchases now support limited fashion-priority inference.",
+    "R4061-01": "Golden reply uses concise repair mindset."
+  },
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4026,
+      "sourceId": "book10-16-1915",
+      "sourceExpression": "the bar is incredibly high",
+      "sourceExample": "At national level, the bar is incredibly high.",
+      "batch": "batch-4026-4058-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4047,
+      "sourceId": "book10-16-1936",
+      "sourceExpression": "grow out of clothes",
+      "sourceExample": "Children grow out of clothes remarkably quickly.",
+      "batch": "batch-4026-4058-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 4051,
+      "sourceId": "book10-16-1940",
+      "sourceExpression": "importance they attach to fashion",
+      "sourceExample": "The importance they attach to fashion varies by age.",
+      "batch": "batch-4026-4058-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4058,
+      "sourceId": "book10-16-1947",
+      "sourceExpression": "throwaway culture",
+      "sourceExample": "Cheap packaging can encourage a throwaway culture.",
+      "batch": "batch-4026-4058-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4060,
+      "sourceId": "book10-16-1949",
+      "sourceExpression": "cast them aside",
+      "sourceExample": "We should repair useful things before we cast them aside.",
+      "batch": "batch-4060-4072-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4061,
+      "sourceId": "book10-16-1950",
+      "sourceExpression": "mindset takes hold",
+      "sourceExample": "Once a shopping mindset takes hold, habits are hard to change.",
+      "batch": "batch-4060-4072-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4068,
+      "sourceId": "book10-16-1957",
+      "sourceExpression": "feeds appetite",
+      "sourceExample": "Constant advertising feeds appetite for new gadgets.",
+      "batch": "batch-4060-4072-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4072,
+      "sourceId": "book10-16-1961",
+      "sourceExpression": "in broad terms",
+      "sourceExample": "In broad terms, their lists look similar.",
+      "batch": "batch-4060-4072-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "reviewType": "independent-ai-risk-based-exact-hash-followup",
+  "priorReport": "independent-ai-review-4172-4190-b-initial.json",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4172-4176-a.json", "sha256": "eab53393abdc7830f9e12f8dde600766b83aa65a332b9b69ba17fee189fda10e"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4180-4190-a.json", "sha256": "0cbd9124d63fd239b4584046c7ad9cc014fea15b6c6f3959b46204cafd3076a8"}
+  ],
+  "authorSelfAuditSha256": "a73b38fdf4a3d38f12281a5b325fbee65f0db92ab9ceb6f2f875ec4936c4ea11",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "ai-content-clear-for-provisional-selection",
+  "findingFollowup": [
+    {"id": "R4175-01", "result": "resolved", "evidence": "Meaning/grammar/boundary and all seven steps now teach loss of a condition in spoken-to-written meeting minutes or handoffs, directly matching the source's figurative failure-to-communicate sense. Cross-language loss remains an additional valid example. Four reply options are independently supported; both changed writing models give an original condition, distorted retelling and correction in EN/ZH."},
+    {"id": "R4180-01", "result": "resolved", "evidence": "Brief, listening, contrast, writing and takeaways now distinguish obsolete route/timetable facts from clear communication practices that do not go out of date, covering the negative enduring-relevance source use. The unchanged concrete guide-update situations remain valid transfer."}
+  ],
+  "additionalChangedField": "4190 dialogue key now responds to the concrete closed-venue/spare-room scenario rather than repeating a source carrier; target and Chinese meaning remain aligned.",
+  "automatedCoverage": "Fresh full build and --check pass 8 lessons, 48 questions, 32 audio requests, zero flags. All eight exact source sentences match target regex, all speaking target spans extract the taught form, and no selected lesson ID collides. Independent six-token screen of 192 learner-facing strings against 2,604 source examples finds zero matches.",
+  "manualReviewLimit": "Manual follow-up inspected repaired 4175/4180 content and changed 4190 key; unchanged clean lessons were not re-reviewed line by line. AI-only content clearance does not imply separate human, media or publication certification."
+}

@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4263",
+      "number": 4263,
+      "inventoryId": "expr-4263",
+      "titleEn": "lose its spark",
+      "titleZh": "失去原有吸引力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) (?:its|their|his|her) spark\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Lose the energy, appeal or excitement that once made an activity or subject engaging.",
+        "meaningZh": "原本有吸引力的活動或主題逐漸失去活力和趣味。",
+        "grammar": "Lose + possessive + spark; lose inflects lost/losing. The subject is an activity, project or person’s enthusiasm; spark is figurative, not a real flame.",
+        "register": "Conversational evaluative English. An exhibition curator may use it when discussing visitor engagement with a colleague.",
+        "boundaryZh": "要有昔日吸引力與如今明顯減弱的對照；一名觀眾不喜歡，未必代表整個項目已失去活力。",
+        "misconceptionZh": "不是電器沒有火花，也不表示已無法透過合適改動重拾興趣。",
+        "outcomeZh": "能指出原先吸引之處、興趣下降的證據，以及可能的改進。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2152",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 203,
+          "book": 16,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 220, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The subject may lose its spark without variety.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose its spark"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The local-history walk used to draw questions at every stop, but the unchanged script now leaves most visitors silent and early departures have risen. The walk has lost its spark; the guide plans to add short object-handling stops.",
+        "zh": "本地歷史導賞以前每站都引來提問，但多年不變的講稿如今令大部分訪客沉默，提早離開的人亦增加。導賞失去原有吸引力，導遊打算加入短暫的實物體驗站。",
+        "promptZh": "甚麼顯示導賞吸引力下降？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Questions have faded and more visitors leave before the end.",
+            "zh": "提問減少，更多訪客未完便離開。"
+          },
+          {
+            "id": "b",
+            "en": "The script changes each week and visitors ask more questions.",
+            "zh": "講稿每週改動，訪客提問增加。"
+          },
+          {
+            "id": "c",
+            "en": "One visitor chooses a different tour for an unrelated reason.",
+            "zh": "一名訪客因無關原因選擇另一導賞。"
+          },
+          {
+            "id": "d",
+            "en": "The guide has already tested the new stops and confirmed their effect.",
+            "zh": "導遊已測試新站並確認成效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "過往踴躍與如今沉默、早退形成對照。"
+      },
+      "reply": {
+        "promptEn": "A club’s weekly science demonstration used to fill the room, but attendance has fallen after the same routine ran for a year. Members say they miss trying things themselves. What happened to the activity?",
+        "promptZh": "（一個科學社的每週示範原本座無虛席，但同一流程做了一年後，出席人數下降。會員說他們想親手試做。活動出現了甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated format has become less engaging.",
+            "zh": "重複形式變得較不吸引。"
+          },
+          {
+            "id": "b",
+            "en": "Attendance is lower than before.",
+            "zh": "出席人數比以前少。"
+          },
+          {
+            "id": "c",
+            "en": "The demonstration has lost its spark for these members.",
+            "zh": "對這些會員來說，示範失去原有吸引力。"
+          },
+          {
+            "id": "d",
+            "en": "Hands-on work may address the stated concern, though it has not been tested yet.",
+            "zh": "親手操作或可回應他們的意見，但尚未測試。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據前後對照與會員回饋回答。"
+      },
+      "scene": {
+        "promptZh": "攝影展去年能引發長時間討論，今年展品與講解全無變動，訪客大多匆匆走過。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition has lost its spark.",
+            "zh": "展覽失去原有吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "Every visitor is still discussing the display for longer than before.",
+            "zh": "每位訪客仍比以前討論得更久。"
+          },
+          {
+            "id": "c",
+            "en": "The curator has already proved that a new display will fail.",
+            "zh": "策展人已證明新展示必定失敗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "昔日討論熱烈，如今匆匆走過，顯示吸引力下降。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a project lost its spark？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Participants still arrive eagerly, ask more questions and stay longer than last year.",
+            "zh": "參與者仍熱切到場，比去年提更多問題、逗留更久。"
+          },
+          {
+            "id": "b",
+            "en": "A once-popular workshop now has fewer returning members who call it repetitive.",
+            "zh": "昔日熱門的工作坊如今回頭會員減少，還被指重複。"
+          },
+          {
+            "id": "c",
+            "en": "An unchanged tour that once prompted discussion now ends with little engagement.",
+            "zh": "昔日能引發討論的導賞一直沒改，如今結束時少有人投入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續且更強的投入，與失去吸引力不符。"
+      },
+      "dialogue": {
+        "promptEn": "A: The reading club used to spark lively debate, but after months of the same format members barely speak and attendance has slipped. B: ______",
+        "promptZh": "（甲：讀書會以前討論熱烈，但同一形式做了數月，會員如今幾乎不發言，出席人數也下降。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It seems the club has lost its spark.",
+            "zh": "讀書會看來失去原有吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "The decline in discussion is worth asking members about.",
+            "zh": "討論減少，值得向會員了解原因。"
+          },
+          {
+            "id": "c",
+            "en": "The old format may no longer engage them.",
+            "zh": "舊形式可能不再吸引他們。"
+          },
+          {
+            "id": "d",
+            "en": "A different discussion format could be tried and evaluated.",
+            "zh": "可試行另一種討論形式並評估成效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據昔日熱烈與如今冷清作出有界判斷。"
+      },
+      "speaking": {
+        "en": "The youth orchestra lost its spark after rehearsals became a fixed sequence with no chance for players to suggest interpretations; the conductor asked members what they wanted to explore.",
+        "zh": "青年樂團排練變成固定流程，樂手無機會提出演繹建議後，失去原有活力；指揮於是詢問團員想探索甚麼。",
+        "promptZh": "指出吸引力下降與具體原因，避免歸咎每名團員。",
+        "targetSpan": {
+          "start": 20,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個活動昔日吸引人，近來有具體參與下降證據。用英文寫出前後對照及一項待測改進。",
+        "selfCheckZh": "兩例不可只憑單一人意見便斷定整體失去活力；改進尚未測試時不可宣稱必成功。",
+        "examples": [
+          {
+            "en": "The neighbourhood quiz has lost its spark: last year teams argued happily over clues, but now many leave early. The organiser will test shorter rounds next month.",
+            "zh": "社區問答遊戲失去原有吸引力：去年隊伍會愉快地爭論線索，如今不少人提早離開。主辦人下月將測試較短回合。"
+          },
+          {
+            "en": "The craft club lost its spark when its workshops repeated the same pattern; return visits fell, so members proposed trying a guest-led session and checking attendance.",
+            "zh": "手工藝社的工作坊不斷重複同一模式後，失去原有活力；回頭參與人數下降，會員因此建議試行嘉賓主持的一節課，並核對出席情況。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "argued happily over clues",
+            "zh": "愉快爭論線索",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 84
+            }
+          },
+          {
+            "en": "many leave early",
+            "zh": "不少人提早離開",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 110
+            }
+          },
+          {
+            "en": "shorter rounds",
+            "zh": "較短回合",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 150
+            }
+          },
+          {
+            "en": "return visits",
+            "zh": "回頭參與人數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 89
+            }
+          },
+          {
+            "en": "a guest-led session",
+            "zh": "嘉賓主持的一節課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 142
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lose its spark means become less lively or engaging than before.",
+          "zh": "lose its spark 指比以前少了活力或吸引力。"
+        },
+        {
+          "en": "Look for a before-and-after change before saying an activity lost its spark.",
+          "zh": "說活動失去吸引力前，要找出前後變化。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4264",
+      "number": 4264,
+      "inventoryId": "expr-4264",
+      "titleEn": "mix things up",
+      "titleZh": "轉換做法；增加變化",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:mix|mixes|mixed|mixing) things up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Vary a familiar routine or method to make it more effective, fresh or interesting.",
+        "meaningZh": "改變一成不變的流程或方法，令活動更新鮮或更有效。",
+        "grammar": "Mix things up is a fixed phrasal verb; mix inflects mixed/mixing. Things refers to the routine or approach, not literally stirring objects.",
+        "register": "Conversational and upbeat. A club organiser may suggest it to colleagues planning a repeated weekly activity.",
+        "boundaryZh": "要有原有做法與具體變化；把材料弄亂或毫無目標地改動，不等於有效轉換方式。",
+        "misconceptionZh": "不是把物品攪拌在一起，也不保證任何新方法都比舊方法好。",
+        "outcomeZh": "能說出原流程、所作變化與待觀察的成效。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2153",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 203,
+          "book": 16,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 220, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teachers can mix things up with role-play.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mix things up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The weekly reading circle always began with a long lecture, and members rarely spoke. This month the host mixed things up by starting with pairs who compare one paragraph; she will check whether more people contribute.",
+        "zh": "每週閱讀小組總以長篇講解開始，會員很少發言。本月主持人轉換做法，先讓兩人一組比較一段文字；她會觀察是否有更多人參與。",
+        "promptZh": "主持人改了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She replaced the lecture-first opening with paired discussion.",
+            "zh": "她把先聽長篇講解改為兩人討論。"
+          },
+          {
+            "id": "b",
+            "en": "She kept the opening identical and measured nothing.",
+            "zh": "她把開場完全維持不變，也沒有觀察。"
+          },
+          {
+            "id": "c",
+            "en": "She changed the book’s author rather than the session format.",
+            "zh": "她只改書本作者，沒有改活動形式。"
+          },
+          {
+            "id": "d",
+            "en": "She has already proved every member prefers the new approach.",
+            "zh": "她已證明所有會員都較喜歡新方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先講解變成先兩人討論，是具體流程變化。"
+      },
+      "reply": {
+        "promptEn": "A museum tour has followed the same room order for months. The guide starts one session with a short object comparison and then returns to the usual route, planning to ask visitors what helped. What did the guide do?",
+        "promptZh": "（博物館導賞數月來一直按同一房間次序進行。導遊有一節先讓訪客短暫比較兩件物品，再走平常路線，並打算詢問甚麼做法有幫助。導遊做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guide introduced a different opening activity.",
+            "zh": "導遊加入了不同的開場活動。"
+          },
+          {
+            "id": "b",
+            "en": "The session format changed without abandoning the whole route.",
+            "zh": "活動形式有變，但沒有捨棄整條路線。"
+          },
+          {
+            "id": "c",
+            "en": "The guide mixed things up with an object comparison.",
+            "zh": "導遊用實物比較轉換做法。"
+          },
+          {
+            "id": "d",
+            "en": "Visitor feedback will help assess whether the change worked.",
+            "zh": "訪客意見將有助評估改動是否有效。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據小幅但具體的流程變化回答。"
+      },
+      "scene": {
+        "promptZh": "書法社每次都只臨摹範本；主持人這週加入兩人互評一筆筆畫，並記錄回饋。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The host mixed things up with peer feedback.",
+            "zh": "主持人加入同伴回饋，轉換做法。"
+          },
+          {
+            "id": "b",
+            "en": "The host kept exactly the same activity and sought no feedback.",
+            "zh": "主持人沿用完全相同活動，也沒有收集回饋。"
+          },
+          {
+            "id": "c",
+            "en": "The new method is certain to suit every member.",
+            "zh": "新方法一定適合每名會員。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原活動加入具體新環節，仍需評估效果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 organisers mixed things up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They repeat the same presentation in the same order without trying any new element.",
+            "zh": "他們照舊以同一順序重複同一簡報，沒有試新元素。"
+          },
+          {
+            "id": "b",
+            "en": "They alternate a demonstration with a short hands-on task.",
+            "zh": "他們在示範與短暫親手操作之間交替。"
+          },
+          {
+            "id": "c",
+            "en": "They begin one session with questions rather than the usual lecture.",
+            "zh": "他們有一節先以提問開場，而非如常講解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完全沒有形式或方法上的變化。"
+      },
+      "dialogue": {
+        "promptEn": "A: The volunteers have practised the same packing drill for weeks. We could try a timed team rotation tomorrow, then compare errors with the old drill. B: ______",
+        "promptZh": "（甲：義工練習同一包裝流程已有數週。我們明天可試行限時小組輪換，再與舊流程比較錯誤數。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can mix things up with the rotation and review the results.",
+            "zh": "我們可以用輪換轉換做法，再檢討結果。"
+          },
+          {
+            "id": "b",
+            "en": "Comparing errors would tell us more than guessing.",
+            "zh": "比較錯誤數會比猜測更有根據。"
+          },
+          {
+            "id": "c",
+            "en": "That would give us a clear change to test.",
+            "zh": "這是一項可清楚測試的改動。"
+          },
+          {
+            "id": "d",
+            "en": "The old drill remains a useful comparison point.",
+            "zh": "舊流程仍可作有用的比較基準。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句包含具體變化及後續評估。"
+      },
+      "speaking": {
+        "en": "To mix things up at the map workshop, the facilitator let small groups test routes before she explained the official key; she then asked which sequence supported understanding.",
+        "zh": "為讓地圖工作坊有變化，主持人先讓小組測試路線，再解釋官方圖例，並詢問哪個次序更有助理解。",
+        "promptZh": "有明確改動與可評估的教學目的。",
+        "targetSpan": {
+          "start": 3,
+          "end": 16
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位負責人替重複多次的活動加入不同做法，並準備檢查成效。用英文交代舊做法、新環節與檢查方法。",
+        "selfCheckZh": "兩例不能只說「做得不同」，須有具體做法，也不能預先聲稱新方法必定成功。",
+        "examples": [
+          {
+            "en": "The safety briefing used to be a long talk. Mira mixed things up with a short route-finding exercise and will compare the questions people ask afterward.",
+            "zh": "安全簡介以前是長篇講解。米拉加入短暫尋路練習，轉換做法，並將比較其後參加者提出的問題。"
+          },
+          {
+            "en": "The photography club always judged prints in silence; its chair mixed things up by asking pairs to discuss one lighting choice, then collected anonymous feedback.",
+            "zh": "攝影社以往總是默默評選照片；主席請兩人一組討論一項用光選擇，以此轉換做法，其後收集匿名回饋。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a long talk",
+            "zh": "長篇講解",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 42
+            }
+          },
+          {
+            "en": "a short route-finding exercise",
+            "zh": "短暫尋路練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 100
+            }
+          },
+          {
+            "en": "the questions people ask",
+            "zh": "參加者提出的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 142
+            }
+          },
+          {
+            "en": "one lighting choice",
+            "zh": "一項用光選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 126
+            }
+          },
+          {
+            "en": "anonymous feedback",
+            "zh": "匿名回饋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Mix things up means introduce variety into a familiar routine.",
+          "zh": "mix things up 指為熟悉流程加入變化。"
+        },
+        {
+          "en": "Describe the old routine and the new step when you say someone mixed things up.",
+          "zh": "說有人轉換做法時，要交代舊流程與新環節。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4265",
+      "number": 4265,
+      "inventoryId": "expr-4265",
+      "titleEn": "light up a room",
+      "titleZh": "令現場氣氛活躍起來",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:light|lights|lit|lighting) up a room\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make the atmosphere of a gathering feel noticeably warmer, livelier or more positive through one’s presence or enthusiasm.",
+        "meaningZh": "透過在場或熱情，使一個聚會的氣氛明顯變得較溫暖、活躍或正面。",
+        "grammar": "Light up a room; light has past lit. The room is figurative for the people and atmosphere, not electrical illumination.",
+        "register": "Warm, conversational praise. A colleague may say it about a volunteer who puts nervous guests at ease.",
+        "boundaryZh": "須有他人在場時氣氛的可觀察變化；受歡迎不等於此人永遠快樂，亦不代表每人反應完全一樣。",
+        "misconceptionZh": "不是打開燈，也不能只因外貌亮眼便推斷能帶動氣氛。",
+        "outcomeZh": "能描寫此人的具體行動及群體氣氛如何轉變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2154",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 203,
+          "book": 16,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 220, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her enthusiasm can light up a room.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "light up a room"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the first volunteer meeting, several newcomers sat quietly. Amina welcomed each person by name, asked about their interests and got three groups chatting; her easy warmth lit up a room that had felt tense.",
+        "zh": "首次義工會議上，數名新人安靜坐着。阿米娜逐一叫名字歡迎他們，詢問興趣，讓三組人聊起來；她親切的態度令原本緊張的氣氛活躍起來。",
+        "promptZh": "甚麼顯示氣氛改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Previously quiet newcomers began talking in small groups.",
+            "zh": "原本安靜的新人開始分組交談。"
+          },
+          {
+            "id": "b",
+            "en": "Amina switched on the ceiling lamps.",
+            "zh": "阿米娜打開天花燈。"
+          },
+          {
+            "id": "c",
+            "en": "Every attendee became her close friend immediately.",
+            "zh": "每位參加者立刻成了她的摯友。"
+          },
+          {
+            "id": "d",
+            "en": "The meeting ended before anyone spoke.",
+            "zh": "任何人發言前，會議便結束。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從緊張沉默轉為多人交談，是氣氛轉變的證據。"
+      },
+      "reply": {
+        "promptEn": "A nervous audience waits for a community storytelling night. The host greets people warmly, invites a light opening story and soon several listeners smile and join in. How did the host affect the gathering?",
+        "promptZh": "（社區故事夜開始前，觀眾有點緊張。主持人熱情打招呼，邀請一個輕鬆的開場故事，不久已有數名聽眾微笑並參與。主持人如何影響聚會？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The host helped the audience relax and take part.",
+            "zh": "主持人幫助觀眾放鬆並參與。"
+          },
+          {
+            "id": "b",
+            "en": "The atmosphere became warmer after the welcome.",
+            "zh": "歡迎過後，氣氛變得較溫暖。"
+          },
+          {
+            "id": "c",
+            "en": "The host lit up a room through the welcoming opening.",
+            "zh": "主持人以親切開場令現場氣氛活躍。"
+          },
+          {
+            "id": "d",
+            "en": "The listeners’ smiles and participation are visible signs of the shift.",
+            "zh": "聽眾的笑容與參與是轉變的可見跡象。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據開場與觀眾反應回答。"
+      },
+      "scene": {
+        "promptZh": "一名團員在緊張的綵排前熱情歡迎新演員，帶大家做簡短破冰，其他人開始互相交談。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her welcome lit up a room that had felt tense.",
+            "zh": "她的歡迎令原本緊張的現場氣氛活躍。"
+          },
+          {
+            "id": "b",
+            "en": "She changed the light bulbs before the rehearsal.",
+            "zh": "她在綵排前更換燈泡。"
+          },
+          {
+            "id": "c",
+            "en": "No one responded to her greeting or spoke afterward.",
+            "zh": "沒有人回應她，也沒有人其後交談。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熱情行動與人們開始交談，支持比喻用法。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone lit up a room？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A technician turns on brighter lights, while the quiet audience remains tense and silent.",
+            "zh": "技術員調亮燈光，但安靜的觀眾仍緊張沉默。"
+          },
+          {
+            "id": "b",
+            "en": "A greeter’s warm questions get several shy guests talking.",
+            "zh": "接待員親切提問，令數名害羞賓客聊起來。"
+          },
+          {
+            "id": "c",
+            "en": "A singer’s joyful introduction eases the group and prompts lively responses.",
+            "zh": "歌手愉快的介紹令大家放鬆，反應熱烈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有照明變亮，未見群體氣氛因人而轉變。"
+      },
+      "dialogue": {
+        "promptEn": "A: The workshop began awkwardly, but Sora welcomed the new families, learned their names and soon everyone was sharing ideas. B: ______",
+        "promptZh": "（甲：工作坊開頭有點尷尬，但索拉歡迎新家庭、記住他們的名字，不久大家都分享想法。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She really lit up a room that had felt awkward.",
+            "zh": "她確實令原本尷尬的現場氣氛活躍起來。"
+          },
+          {
+            "id": "b",
+            "en": "Learning names seems to have made the guests more comfortable.",
+            "zh": "記住名字似乎令賓客更自在。"
+          },
+          {
+            "id": "c",
+            "en": "Her welcome helped people join the conversation.",
+            "zh": "她的歡迎有助大家加入討論。"
+          },
+          {
+            "id": "d",
+            "en": "The group’s shift from silence to sharing is clear.",
+            "zh": "群體由沉默變成分享，轉變很明顯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據歡迎行動與氣氛轉變作出稱讚。"
+      },
+      "speaking": {
+        "en": "At the neighbourhood meal, Dev’s stories and attentive questions lit up a room of strangers: tables that had been quiet began exchanging memories.",
+        "zh": "鄰里聚餐時，戴夫的故事與細心提問令滿室陌生人的氣氛活躍起來：原本安靜的各桌開始分享回憶。",
+        "promptZh": "要讓讀者看見人們的反應，而不只下評語。",
+        "targetSpan": {
+          "start": 65,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人用具體熱情行動令原本冷清或緊張的聚會變得較投入。用英文寫出前後氣氛與他人反應。",
+        "selfCheckZh": "兩例不可把真的開燈當成比喻，也不要說所有人都必然受感染。",
+        "examples": [
+          {
+            "en": "Before the science fair opened, visitors waited in silence; Neri’s playful questions lit up a room, and several children began explaining their models to one another.",
+            "zh": "科學展開場前，訪客安靜等候；妮莉俏皮的提問令現場氣氛活躍起來，數名孩子開始互相介紹模型。"
+          },
+          {
+            "en": "The reunion started stiffly, but Omar’s warm introductions lit up a room: guests from different years soon compared their old photographs.",
+            "zh": "重聚會開頭拘謹，但奧馬爾親切介紹令現場氣氛活躍：不同年份的賓客很快便比較舊照片。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "playful questions",
+            "zh": "俏皮的提問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "several children",
+            "zh": "數名孩子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 120
+            }
+          },
+          {
+            "en": "their models",
+            "zh": "他們的模型",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 150
+            }
+          },
+          {
+            "en": "warm introductions",
+            "zh": "親切介紹",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 58
+            }
+          },
+          {
+            "en": "old photographs",
+            "zh": "舊照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Light up a room means make the social atmosphere warmer and livelier.",
+          "zh": "light up a room 指令社交氣氛更溫暖活躍。"
+        },
+        {
+          "en": "Show people’s reactions when describing how someone lit up a room.",
+          "zh": "描述有人帶動氣氛時，要寫出人們的反應。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4273",
+      "number": 4273,
+      "inventoryId": "expr-4273",
+      "titleEn": "clear up misunderstandings",
+      "titleZh": "釐清誤會或疑惑",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:clear|clears|cleared|clearing) up (?:a |the |those |their |our )?misunderstandings?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Resolve a mistaken understanding by explaining the relevant facts or intentions.",
+        "meaningZh": "透過解釋相關事實或原意，消除錯誤理解。",
+        "grammar": "Clear up a misunderstanding / clear up misunderstandings; clear inflects. A specific mistaken belief should be identified before claiming it has been resolved.",
+        "register": "Neutral everyday English. A coordinator may use it after explaining changed arrangements to attendees.",
+        "boundaryZh": "要指出誤會是甚麼，以及有何解釋或核實使之消除；單是重複聲明，不表示對方已明白。",
+        "misconceptionZh": "不是把物品清理乾淨，也不是要求他人停止提問便算釐清。",
+        "outcomeZh": "能交代錯誤理解、澄清證據與對方更新後的理解。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2162",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 203,
+          "book": 16,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 221, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The teacher stayed late to clear up misunderstandings.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "clear up misunderstandings"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Parents thought the museum workshop had been cancelled because its room changed. The organiser showed the new room notice and confirmed the same start time; their replies showed that this cleared up a misunderstanding.",
+        "zh": "家長以為博物館工作坊因轉換房間而取消。主辦人出示新房間通知，並確認開始時間不變；家長回覆顯示這釐清了誤會。",
+        "promptZh": "甚麼誤會得到釐清？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workshop was still on, though it had moved rooms.",
+            "zh": "工作坊仍會舉行，只是改了房間。"
+          },
+          {
+            "id": "b",
+            "en": "The start time had moved by two hours.",
+            "zh": "開始時間延遲了兩小時。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser had cancelled all workshops.",
+            "zh": "主辦人取消了所有工作坊。"
+          },
+          {
+            "id": "d",
+            "en": "The parents were asking about ticket prices rather than the room.",
+            "zh": "家長問的是票價而非房間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新房間通知與相同開始時間推翻了取消的誤解。"
+      },
+      "reply": {
+        "promptEn": "A team reads a short email as a rejection of its proposal. The sender explains that she only asked for one missing cost figure, and the team replies that it understands the proposal remains under review. What happened?",
+        "promptZh": "（團隊把一封短電郵理解為提案遭否決。寄件人解釋她只是要求補上一項成本數字，團隊回覆說已明白提案仍在審核。發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sender corrected the team’s mistaken reading.",
+            "zh": "寄件人糾正了團隊的錯誤理解。"
+          },
+          {
+            "id": "b",
+            "en": "The team now knows the proposal has not been rejected.",
+            "zh": "團隊現在知道提案未遭否決。"
+          },
+          {
+            "id": "c",
+            "en": "The explanation cleared up a misunderstanding.",
+            "zh": "解釋釐清了誤會。"
+          },
+          {
+            "id": "d",
+            "en": "The team’s reply shows its understanding changed.",
+            "zh": "團隊的回覆顯示理解已改變。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均有原誤解、澄清及更新後的理解。"
+      },
+      "scene": {
+        "promptZh": "學生把「星期五前交草稿」理解為星期五早上前；老師說明星期五下午五時才截止，學生回覆確認。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clarification cleared up the misunderstanding about the deadline.",
+            "zh": "澄清釐清了截止時間的誤會。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher merely repeated “Friday” without specifying a time.",
+            "zh": "老師只重複「星期五」，沒有說明時間。"
+          },
+          {
+            "id": "c",
+            "en": "The student still believes the deadline is Friday morning.",
+            "zh": "學生仍以為星期五早上截止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體時間與學生確認顯示理解已更新。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the misunderstanding was cleared up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser repeats the same vague notice, and attendees still believe the event was cancelled.",
+            "zh": "主辦人重複同一份含糊通知，參加者仍以為活動取消。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser gives the new room number, and attendees confirm they will go there.",
+            "zh": "主辦人給出新房號碼，參加者確認會到那裏。"
+          },
+          {
+            "id": "c",
+            "en": "A teacher states the exact deadline, and pupils restate it correctly.",
+            "zh": "教師說明確切截止時間，學生正確重述。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原誤解仍存在，未有釐清證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: The note about moving the venue made Hana think the talk was cancelled. I showed her the updated room number, and she said she will attend. B: ______",
+        "promptZh": "（甲：關於轉換場地的通知令花娜以為講座取消。我向她展示更新房號，她說會出席。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You cleared up the misunderstanding about the talk.",
+            "zh": "你釐清了她對講座的誤會。"
+          },
+          {
+            "id": "b",
+            "en": "The room number seems to have corrected her reading.",
+            "zh": "房號似乎修正了她的理解。"
+          },
+          {
+            "id": "c",
+            "en": "She now knows the talk is still going ahead.",
+            "zh": "她現在知道講座仍會舉行。"
+          },
+          {
+            "id": "d",
+            "en": "Her plan to attend shows she understood the update.",
+            "zh": "她打算出席，顯示已明白更新安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以原誤解與更新後的行動為證。"
+      },
+      "speaking": {
+        "en": "A revised timetable cleared up misunderstandings about the ferry: the last departure was at six, not five, and passengers confirmed the new time before booking.",
+        "zh": "修訂時間表釐清了渡輪安排的誤會：最後一班是六時而非五時，乘客訂票前確認了新時間。",
+        "promptZh": "指出舊理解、正確資訊及確認。",
+        "targetSpan": {
+          "start": 20,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人各有一項可指明的錯誤理解，負責人提供證據或具體說明，對方確認已更新理解。用英文寫出三步。",
+        "selfCheckZh": "兩例不能只靠說話者自稱澄清，須有對方改變理解的跡象。",
+        "examples": [
+          {
+            "en": "The library notice made visitors think the archive had closed; a staff member showed its new entrance on a map and cleared up the misunderstanding when they confirmed they could still visit.",
+            "zh": "圖書館通知令訪客以為檔案館關閉；職員在地圖上指出新入口，訪客確認仍可參觀後，誤會便獲釐清。"
+          },
+          {
+            "en": "The trainees thought the safety check was optional. The coordinator demonstrated the required step, cleared up their misunderstanding and heard them repeat it correctly.",
+            "zh": "實習生以為安全檢查可自行選擇。協調員示範必做步驟，釐清他們的誤會，並聽到他們正確重述。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its new entrance",
+            "zh": "新入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 101
+            }
+          },
+          {
+            "en": "on a map",
+            "zh": "在地圖上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 110
+            }
+          },
+          {
+            "en": "still visit",
+            "zh": "仍可參觀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 189
+            }
+          },
+          {
+            "en": "the required step",
+            "zh": "必做步驟",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 98
+            }
+          },
+          {
+            "en": "repeat it correctly",
+            "zh": "正確重述",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 168
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Clear up misunderstandings means resolve mistaken beliefs through explanation.",
+          "zh": "clear up misunderstandings 指透過解釋消除錯誤理解。"
+        },
+        {
+          "en": "Confirmation from listeners helps show that you cleared up a misunderstanding.",
+          "zh": "聽者確認，有助顯示誤會已釐清。"
+        }
+      ]
+    }
+  ]
+}

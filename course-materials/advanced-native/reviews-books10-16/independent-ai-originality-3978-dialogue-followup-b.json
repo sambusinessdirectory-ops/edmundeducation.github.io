@@ -1,0 +1,13 @@
+{
+  "reviewType": "independent-ai-scoped-selected-originality-followup",
+  "lessonId": "advanced-native-3978",
+  "draftFile": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3968-4000-review-pilot.json", "sha256": "3602a8207f7ccbc0e27a745232e452038a05b164c49c20c38025108d36e2239b"},
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "sourceExample": "A new trend will not wipe the slate clean.",
+  "changedField": "dialogue.options[0].en / dialogue.options[0].zh",
+  "status": "scoped-ai-clear",
+  "assessmentCheck": "The prompt claims a new arrangement automatically wipes the slate clean. The revised key answers that unresolved issues must first be addressed; the Chinese conveys the same condition. The two other options remain false, so key fairness is preserved.",
+  "originalityCheck": "Revised English 'We can wipe the slate clean only if we first address the outstanding issues together' no longer uses the source's 'A new [thing] will not wipe the slate clean' carrier. There is no shared five- or six-token run; the sole four-token run is the fixed target 'wipe the slate clean'.",
+  "validation": "Lesson contentRevision 2. Fresh focused build and --check on its eight-lesson file pass 8 lessons, 48 questions, 32 audio requests, zero flags.",
+  "limit": "Scoped AI check of the changed dialogue field; no separate human or release certification."
+}

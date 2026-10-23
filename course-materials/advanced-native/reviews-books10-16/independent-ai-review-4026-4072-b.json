@@ -1,0 +1,59 @@
+{
+  "reviewType": "independent-ai-initial-editorial-review",
+  "scope": "Eight unselected Books 10–16 canonical lesson drafts; source sense, seven-step pedagogy, bilingual fidelity, answer grounding, target detector, transfer and originality",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4026-4058-a.json", "sha256": "0d87ff2a00636143984c3a81529984b4539bc76be3a45df180fb031cdb79df9a"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4060-4072-a.json", "sha256": "43412d762a01bf1a3dd6b849445a3034046888d0d53afc197554212c2241851b"}
+  ],
+  "authorSelfAuditSha256": "95a77469dfa2cd7bd249bce37affdc0a4d4e80bb33e12e80ad43d502034c04d7",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "Independent focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero structural flags.",
+  "originalityScreen": "Compared 192 learner-facing English strings with 2,604 source examples: 9 six-token overlaps in the target expressions and no apparent copied source clause outside target wording. This mechanical screen does not certify originality.",
+  "status": "repair-required-before-selection",
+  "lessonReviews": [
+    {"ordinal": 4026, "status": "pass", "note": "The demanding qualification criteria are explicit; the lesson does not equate a high bar with impossibility. Four replies and writing transfer are grounded."},
+    {"ordinal": 4047, "status": "repair-required", "note": "The lesson repeatedly attributes plural 'clothes' becoming too small on evidence about only one named garment; see R4047-01."},
+    {"ordinal": 4051, "status": "repair-required", "note": "The target detector admits subject–verb disagreement under live case-insensitive matching, and writing model 2 infers a stable priority from a single coat choice; see R4051-01 and R4051-02."},
+    {"ordinal": 4058, "status": "pass", "note": "A repeated group replacement habit, usable goods and concrete reuse alternatives distinguish throwaway culture from a one-off safety disposal."},
+    {"ordinal": 4060, "status": "pass", "note": "Physical items and an untested idea are distinct, viable contexts for cast aside. Reply/scene/dialogue keys are supported by the stated facts."},
+    {"ordinal": 4061, "status": "minor-repair", "note": "The sustained change is well grounded, but one reply option uses redundant English wording; see R4061-01."},
+    {"ordinal": 4068, "status": "pass", "note": "Interest stimulated by repeated previews is distinguished from purchase or registration; the source and assessed target forms match."},
+    {"ordinal": 4072, "status": "pass", "note": "Shared overall direction and specific material differences are preserved in the scenarios and both writing models."}
+  ],
+  "findings": [
+    {
+      "id": "R4047-01",
+      "severity": "major",
+      "lessonId": "advanced-native-4047",
+      "fields": ["listening.en", "scene.promptZh", "scene.options[0]", "writing.examples[0]", "writing.examples[1]"],
+      "issue": "The lesson teaches 'grow out of clothes' as a plural wardrobe claim, but the listening supplies only one school jumper, the scene only one raincoat, and each writing model only one shirt or coat. A single undersized garment does not by itself establish that the child has grown out of their clothes generally. The scene key also calls a single raincoat 'the clothes'.",
+      "recommendedRepair": "Give each learner-facing situation at least two once-fitting garments now too small, or narrow the target to singular garment forms and update source/assessment ownership accordingly. Preserve EN/ZH, source expression and exact spans."
+    },
+    {
+      "id": "R4051-01",
+      "severity": "blocker",
+      "lessonId": "advanced-native-4051",
+      "field": "target.pattern",
+      "issue": "The second regex branch includes '[A-Z][a-z]+' while runtime uses case-insensitive flags, so it also matches plural pronouns with singular 'attaches'.",
+      "evidence": "Live case-insensitive positives include ungrammatical 'importance they attaches to fashion', 'importance we attaches to fashion', and 'importance people attaches to fashion'.",
+      "recommendedRepair": "Constrain singular subjects without a broad case-insensitive capitalized-name branch, or use bounded explicit assessed names, and test source and legitimate singular/plural positives plus these three negatives."
+    },
+    {
+      "id": "R4051-02",
+      "severity": "major",
+      "lessonId": "advanced-native-4051",
+      "field": "writing.examples[1].en / writing.examples[1].zh",
+      "issue": "Model 2 compares one repairable-coat purchase with one new-season design purchase, then concludes that the importance assigned to fashion differs. Its own contrast task says a single receipt cannot establish a buyer's reasons or competing priorities; model 2 gives no stated ranking or repeated pattern.",
+      "recommendedRepair": "Add explicit preference interviews or repeated ranked decisions for the two families, and align the Traditional Chinese and any changed glossary spans."
+    },
+    {
+      "id": "R4061-01",
+      "severity": "minor",
+      "lessonId": "advanced-native-4061",
+      "field": "reply.options[2].en / reply.options[2].zh",
+      "issue": "'A repair-minded mindset has taken hold' is a redundant 'minded mindset' phrase in the golden reply. The Chinese can stay natural but should track a natural English answer.",
+      "recommendedRepair": "Use 'A repair mindset has taken hold in the team' or another concise target-bearing formulation, with faithful Traditional Chinese."
+    }
+  ],
+  "releaseLimit": "Independent AI editorial findings are provisional. Human English, Chinese, media and QA sign-offs remain pending; no manifest selection or release approval is implied."
+}

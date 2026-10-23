@@ -1,0 +1,135 @@
+{
+  "reviewType": "AI author self-audit; no human approval",
+  "scope": "One eight-lesson unselected Books 10–16 batch, source ordinals 3968–4000",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3968-4000-review-pilot.json",
+  "draftSha256": "c55e1228f26801bcb9497e373590c941802bcdd00ac849056d5c7b10b213822c",
+  "ordinals": [
+    3968,
+    3975,
+    3978,
+    3979,
+    3984,
+    3986,
+    3997,
+    4000
+  ],
+  "mechanicalChecks": {
+    "sourceOccurrenceUnique": "8/8",
+    "targetRegexMatchesExactGuideSource": "8/8",
+    "goldenReplyOnlyTarget": "8/8",
+    "sceneAndDialogueKeyTarget": "16/16",
+    "listeningSpeakingWritingTakeawayTarget": "all 8",
+    "TraditionalChineseFieldsPresent": "all 8",
+    "answerDerivedGlossarySpans": "48/48 exact",
+    "focusedBuild": "8 lessons/48 questions/32 audio/0 flags",
+    "focusedCheck": "same; pass",
+    "originality": "192 learner-facing English strings screened against all 2,604 guide examples; overlaps are target phrases only, zero copied non-target 6-word source spans",
+    "otherDraftOrdinalCollision": "none"
+  },
+  "editorialChecks": {
+    "sourceFidelity": "AI author pass; source-time, contrast and grammatical sense checked for all 8",
+    "keyFairness": "AI author pass; each keyed response supported by its scene, four replies contextually valid, wrong options unsupported",
+    "EnglishTraditionalChinese": "AI author pass; translations aligned with scenarios, choices, models and explanations",
+    "changedContextWriting": "16 bespoke EN/ZH models; self-check facts inspected; no guide carrier scene reused",
+    "ownerScope": "3979 limelight phrase is not a claim of total replacement; 3984 whole-pattern coherence is distinguished from canonical 1203 initial comprehension; 3986 improvement is distinguished from 3997 maintenance. Human owner approval still pending"
+  },
+  "lessonChecks": [
+    {
+      "ordinal": 3968,
+      "sourceId": "book10-16-1857",
+      "sourceExample": "Elite training does not begin from the cradle.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3975,
+      "sourceId": "book10-16-1864",
+      "sourceExample": "Football is part of the furniture in many schools.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3978,
+      "sourceId": "book10-16-1867",
+      "sourceExample": "A new trend will not wipe the slate clean.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3979,
+      "sourceId": "book10-16-1868",
+      "sourceExample": "New sports may steal some of the limelight.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3984,
+      "sourceId": "book10-16-1873",
+      "sourceExample": "The solution clicks into place after a second look.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3986,
+      "sourceId": "book10-16-1875",
+      "sourceExample": "Crosswords can sharpen the mind.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 3997,
+      "sourceId": "book10-16-1886",
+      "sourceExample": "My grandfather solves puzzles to stay sharp.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    },
+    {
+      "ordinal": 4000,
+      "sourceId": "book10-16-1889",
+      "sourceExample": "The passengers stopped by the river to stretch their legs.",
+      "sourcePatternMatch": true,
+      "keyedTargetAndSingleReplyMatch": true,
+      "bilingualFieldsPresent": true,
+      "writingModels": 2,
+      "answerDerivedGlossarySpans": 6
+    }
+  ],
+  "releaseState": "unselected and unpublished; independent AI review, human sign-off, media/device and release checks remain open",
+  "independentInitialReview": {
+    "path": "reviews-books10-16/independent-ai-review-3968-4000-b.json",
+    "sha256": "46fe5ff96be984c32c50f7b3f18193bf2b00cfccdd86b05c3f2a8102d93a78f2",
+    "findings": [
+      "R3986-01 missing sharpen inflections",
+      "R3997-01 missing stay inflections"
+    ],
+    "repair": "Bounded four-form detectors, contentRevision 2, 3986 speaking demonstrates sharpens the mind and 3997 scene key demonstrates stays sharp in EN/ZH.",
+    "regexTests": "For each detector 4 live positive inflections and 4 targeted negatives passed; fresh build/--check 8/48/32/0.",
+    "status": "cleared in exact-hash AI follow-up; human/release gates remain"
+  },
+  "independentFollowup": {
+    "path": "reviews-books10-16/independent-ai-review-3968-4000-b-followup.json",
+    "sha256": "d80bfe529b9843cbf5d0875b6c63476fa46234201db1ba67f4077729ed91dba5",
+    "result": "Both detector findings cleared at draft SHA c55e1228f26801bcb9497e373590c941802bcdd00ac849056d5c7b10b213822c; no human or release approval"
+  }
+}

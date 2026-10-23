@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons at the handed-off frozen hashes; source-sense and representative content review",
+  "draftFilesAtHandoff": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4172-4176-a.json", "sha256": "4bfa554d8aac7aaaa7b2f830c1b3d95a149827382a584dad453779a2e6373f47"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4180-4190-a.json", "sha256": "98fa4d8c855c2109177c90d761191ff79e8e3a32fa3b0fd1298b54487fad4929"}
+  ],
+  "authorSelfAuditSha256": "57777a27acc06f726840829b511bf762caafe561906f0f6a47d29af18bcf96c7",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "repair-required-before-selection",
+  "findings": [
+    {
+      "id": "R4175-01",
+      "severity": "blocker",
+      "lessonId": "advanced-native-4175",
+      "sourceId": "book10-16-2064",
+      "sourceExample": "Good ideas can get lost in translation during a rushed meeting.",
+      "sourceGloss": "Fail to be communicated effectively; a fixed idiom.",
+      "affectedFields": ["brief.meaningEn", "brief.meaningZh", "brief.boundaryZh", "listening", "reply", "scene", "contrast", "dialogue", "speaking", "writing", "takeaways"],
+      "issue": "The draft restricts the expression to meaning or nuance lost between languages. Its source instead uses figurative communication loss in a rushed meeting, and the inventory gloss explicitly states failure to communicate effectively. The original draft even excludes ordinary miscommunication in its writing self-check, so it does not teach its source occurrence.",
+      "recommendedRepair": "Teach figurative communication loss in meetings as the source sense, with concrete missed meaning and corrected explanation; literal cross-language translation may remain a second valid context. Align both languages and all seven assessments, target occurrences and changed-context writing."
+    },
+    {
+      "id": "R4180-01",
+      "severity": "major",
+      "lessonId": "advanced-native-4180",
+      "sourceId": "book10-16-2069",
+      "sourceExample": "Clear communication never goes out of date.",
+      "sourceGloss": "Becomes obsolete; a fixed expression.",
+      "affectedFields": ["brief", "contrast", "dialogue", "takeaways"],
+      "issue": "The draft teaches factual notices becoming inaccurate after schedules change, a valid narrower use, but never demonstrates its source's negative enduring-relevance claim that a useful skill or principle does not become obsolete.",
+      "recommendedRepair": "Add an assessed or takeaway contrast between outdated changeable facts and an enduring useful skill, using 'never goes out of date' naturally; preserve the current concrete notice-update scenarios as transfer examples."
+    }
+  ],
+  "otherLessonScreen": "At handoff, representative prompts, four-valid replies and changed-context writing for 4172, 4174, 4176, 4186, 4188 and 4190 appeared coherent. This is not a complete line-by-line prose review.",
+  "validationLimit": "The author began editing 4175 while independent build/--check was starting. The on-disk files no longer matched the handoff hashes, and a transient intermediate 4175 schema failure was observed. Do not treat that intermediate failure as a separate final defect or this report as a final build certification. Fresh full automated checks are required at the repaired stable hashes.",
+  "releaseLimit": "AI editorial review only; keep the batch unselected until exact-hash repair follow-up."
+}

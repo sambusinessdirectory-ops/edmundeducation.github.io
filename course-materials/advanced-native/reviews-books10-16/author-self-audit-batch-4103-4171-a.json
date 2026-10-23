@@ -1,0 +1,245 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:29:44.548222+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4103-4140-a.json",
+      "sha256": "ef1e051231f00e56d939c2747b298a8283241bb2af78743911214e46fe7cdc73"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4146-4171-a.json",
+      "sha256": "3644d0a0f3f21248f9d8e919c37d047b84ae3239261d1f3e15f54145810167ea"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "61d05e598d38cd977d9543e9827c7f36d26604e42c3216a98ed339e0b34e4884",
+    "7247fc6538f8cd8a36a1d531cc1e0876f2988d8d1c185230d1ea819c9105f373"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags in two batches",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "PASS: all-discovered 158 alias-new rows, zero exceptions",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 1
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "4103": "Repeated resistance to a tested change; distinct from canonical 431 fixed plans.",
+    "4120": "Initial spark of curiosity separated from later inquiry.",
+    "4128": "Explicit obstacle antecedent and verified progress beyond it; weak guide pronoun repaired in teaching.",
+    "4140": "Vivid momentary visual memory without redundant photograph or full record.",
+    "4146": "Continuously updated status, distinct from canonical 869 losing track of elapsed time.",
+    "4161": "Uncertain detail and records check; no assumption all memories lost.",
+    "4170": "Concrete reflection and comparison that enrich thought, not literal feeding.",
+    "4171": "Central purpose versus secondary metric, not a minor detail error."
+  },
+  "independentContentReview": "pending; provisional unselected batch for B targeted independent review",
+  "ownerWatch": "4136 taking things in skipped; canonical 339/367 may own its sensory/written-comprehension senses, while source sentence lacks disambiguating object",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4103,
+      "sourceId": "book10-16-1992",
+      "sourceExpression": "set in their ways",
+      "sourceExample": "Some learners become set in their ways after years of routine.",
+      "batch": "batch-4103-4140-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4120,
+      "sourceId": "book10-16-2009",
+      "sourceExpression": "light the fuse",
+      "sourceExample": "One encouraging teacher can light the fuse of curiosity.",
+      "batch": "batch-4103-4140-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4128,
+      "sourceId": "book10-16-2017",
+      "sourceExpression": "get past it",
+      "sourceExample": "Feedback helped her get past it.",
+      "batch": "batch-4103-4140-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4140,
+      "sourceId": "book10-16-2029",
+      "sourceExpression": "mental snapshot",
+      "sourceExample": "That photograph left a mental snapshot I could still recall.",
+      "batch": "batch-4103-4140-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4146,
+      "sourceId": "book10-16-2035",
+      "sourceExpression": "keep track of",
+      "sourceExample": "A calendar helps us keep track of appointments.",
+      "batch": "batch-4146-4171-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4161,
+      "sourceId": "book10-16-2050",
+      "sourceExpression": "memory can become foggy",
+      "sourceExample": "Memory can become foggy after several sleepless nights.",
+      "batch": "batch-4146-4171-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4170,
+      "sourceId": "book10-16-2059",
+      "sourceExpression": "nourish the mind",
+      "sourceExample": "History books can nourish the mind at any age.",
+      "batch": "batch-4146-4171-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4171,
+      "sourceId": "book10-16-2060",
+      "sourceExpression": "miss the point entirely",
+      "sourceExample": "Forcing one book on every reader may miss the point entirely.",
+      "batch": "batch-4146-4171-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ]
+}

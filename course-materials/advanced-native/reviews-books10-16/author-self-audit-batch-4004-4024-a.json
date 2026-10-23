@@ -1,0 +1,250 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:22:04.002109+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4004-4015-a.json",
+      "sha256": "c01db84b4b03b9d41a24ac15c1537b0064d3772b3d80d501134dd7676f7a1a48"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4016-4024-a.json",
+      "sha256": "357ea458c2842dbe0c18d71c8e39a68aa11b3d1e65f4dd2e024422165e6f3878"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "7e27768911fd7180a2a997d36a1b7babe544177f76ce803a7b146cfb300f34e5",
+    "747920386c1807aecdda6e9c322f9a4126b3bf090eb0d60aa1f6efd404d1e694"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags in two batches",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "PASS: all-discovered 158 alias-new rows, zero exceptions",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 3
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "4004": "Self-focused rumination shifts into engagement with others; not mere confidence or physical movement.",
+    "4010": "Sustained support spans a demanding period without replacing the person’s work.",
+    "4011": "Potential loss of unused talent is distinguished from personal worth or guaranteed success.",
+    "4015": "Natural target forms require a determiner and possessor; source wording is retained only as provenance.",
+    "4016": "Observable demeanour under pressure; not a judgment from appearance alone.",
+    "4017": "Visible emotional loss of control differs from firm, calm disagreement.",
+    "4020": "A severe reduction in pace differs from complete stoppage.",
+    "4024": "Continuing to improve after success differs from dismissing the achievement."
+  },
+  "independentContentReview": "B initial report identified four findings; all four author-repaired and awaiting exact-hash follow-up. Oxford confirms source fire in the belly is valid.",
+  "reviewRepairs": {
+    "R4010-01": "Named volunteer treasurer as weekly review helper; retained self-negotiated purchases.",
+    "R4015-01": "Oxford-supported fire in the/your belly and a fire in her belly now taught and detected; source and variants tested.",
+    "R4016-01": "Pronoun/reflexive mismatch excluded under case-insensitive regex flags; positive and negative controls tested.",
+    "R4017-01": "Scene key uses gender-neutral their temper."
+  },
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4004,
+      "sourceId": "book10-16-1893",
+      "sourceExpression": "get out of their own head",
+      "sourceExample": "Team sports help students get out of their own head.",
+      "batch": "batch-4004-4015-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4010,
+      "sourceId": "book10-16-1899",
+      "sourceExpression": "carry someone all the way through",
+      "sourceExample": "Natural ability cannot carry someone all the way through a demanding season.",
+      "batch": "batch-4004-4015-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4011,
+      "sourceId": "book10-16-1900",
+      "sourceExpression": "talent can go to waste",
+      "sourceExample": "Without regular practice, talent can go to waste.",
+      "batch": "batch-4004-4015-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4015,
+      "sourceId": "book10-16-1904",
+      "sourceExpression": "fire in the belly",
+      "sourceExample": "The young runner had fire in the belly at every practice.",
+      "batch": "batch-4004-4015-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4016,
+      "sourceId": "book10-16-1905",
+      "sourceExpression": "how a person carries themselves",
+      "sourceExample": "Judges notice how a person carries themselves after a defeat.",
+      "batch": "batch-4016-4024-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 4017,
+      "sourceId": "book10-16-1906",
+      "sourceExpression": "lose their temper",
+      "sourceExample": "Some trainees lose their temper when corrected.",
+      "batch": "batch-4016-4024-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 4020,
+      "sourceId": "book10-16-1909",
+      "sourceExpression": "progress slows to a crawl",
+      "sourceExample": "When progress slows to a crawl, discipline matters most.",
+      "batch": "batch-4016-4024-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 4024,
+      "sourceId": "book10-16-1913",
+      "sourceExpression": "stay hungry for improvement",
+      "sourceExample": "The best coaches stay hungry for improvement.",
+      "batch": "batch-4016-4024-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ]
+}

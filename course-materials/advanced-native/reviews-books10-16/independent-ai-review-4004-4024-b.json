@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-eight-lesson-golden-sop-editorial-review",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4004-4015-a.json", "sha256": "1772fd7d8923a94a374cf3d72bfb7e7ec38662ae5e97cbae3ee4e72c6d5351f6"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-4016-4024-a.json", "sha256": "63ef0fc97d46b96575b2f46fcbddfd931b7e155184aa6328e78b648192901284"}
+  ],
+  "authorAuditSha256": "8d160c4165e19dbf3e1ea9c412778d09f3a22e8b3c758ba8bb799d7634f8f68b",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "four-content-repairs-before-selection",
+  "lessonReviews": [
+    {"ordinal": 4004, "status": "pass", "summary": "Turning attention from self-monitoring to other people or a shared task is observable across all seven steps; the lesson does not trivialise genuine support needs. English/Chinese and glossary align."},
+    {"ordinal": 4010, "status": "repair", "summary": "Whole-period support without substitution is correctly assessed, but first writing model names a weekly budget review without identifying who gives the requested help, allowing it to be mere self-review."},
+    {"ordinal": 4011, "status": "pass", "summary": "The lost-opportunity risk is distinguished from a person lacking value or certain failure; both writing models name existing skills, barriers and possible use. Target and bilingual examples align."},
+    {"ordinal": 4015, "status": "repair", "summary": "The determination meaning is taught well, but the brief falsely calls the exact source form ungrammatical and the target detector fails that valid form. Oxford Learner's Dictionary lists 'fire in the/your belly'."},
+    {"ordinal": 4016, "status": "repair", "summary": "The visible-conduct sense is coherent, but the case-insensitive target detector accepts mismatched pronoun/reflexive forms that the grammar brief explicitly rejects."},
+    {"ordinal": 4017, "status": "repair", "summary": "Visible angry loss of control is clearly separated from reasoned disagreement; the scene keyed answer invents a male supplier where the Chinese prompt gives no gender."},
+    {"ordinal": 4020, "status": "pass", "summary": "Every example maintains very slow but nonzero progress, with before/after rates and no false claim of permanent stoppage. Six assessment keys and two bilingual models are grounded."},
+    {"ordinal": 4024, "status": "pass", "summary": "Continuing to seek feedback after success is consistent across the lesson; hunger is figurative and both writing models include achievement, evidence and a next improvement."}
+  ],
+  "findings": [
+    {
+      "id": "R4010-01", "severity": "minor", "path": "lessons[number=4010].writing.examples[0].en/zh",
+      "issue": "The prompt requires two people receiving regular help rather than having the task done for them. Model one says only 'the weekly budget review' carried him through; it could be his own self-review and does not establish another person's support. The Chinese has the same missing helper.",
+      "requiredRepair": "Name who provided the weekly review or feedback, retain the six-month duration and his own purchase negotiations, align Traditional Chinese and recalculate affected glossary spans."
+    },
+    {
+      "id": "R4015-01", "severity": "blocker", "path": "lessons[number=4015].brief.grammar / target.pattern / assessed usage",
+      "issue": "The exact source says 'had fire in the belly'. The brief says the source form is not natural, yet Oxford Learner's Dictionary lists the idiom 'fire in the/your belly' (https://www.oxfordlearnersdictionaries.com/us/definition/english/belly_1). Current target regex matches only 'a fire in his/her belly': it returns false on the source sentence and on 'She had fire in her belly'. This incorrectly rejects a valid source construction and breaks source-target coverage.",
+      "requiredRepair": "Acknowledge valid 'fire in the/your belly' alongside natural 'a fire in one's belly'; adjust the target detector with bounded grammar, verify full exact source and positive/negative variants, and reflect both forms in teaching/assessment without copying the source sentence. Preserve exact provenance."
+    },
+    {
+      "id": "R4016-01", "severity": "blocker", "path": "lessons[number=4016].target.pattern",
+      "issue": "With live `gi` flags, `[A-Z][a-z]+` is case-insensitive and also matches `he` and `she`; the current detector returns true for ungrammatical 'how she carries himself' and 'how he carries herself', contrary to its grammar brief.",
+      "requiredRepair": "Bound the name alternative so it cannot match pronouns, or use another detector structure that rejects mismatched pronoun/reflexive pairs. Test the exact source, all assessed positive forms, and these two negative controls with live `gi` flags."
+    },
+    {
+      "id": "R4017-01", "severity": "minor", "path": "lessons[number=4017].scene.options[id=a].en/zh",
+      "issue": "The Chinese scene identifies only a supplier, without gender. Its keyed English answer says 'lost his temper', adding a male identity not supplied by the prompt and creating avoidable English–Chinese drift.",
+      "requiredRepair": "Use gender-neutral 'the supplier lost their temper' or supply the same gender cue in the scene; keep the shout/slam evidence and bounded target match."
+    }
+  ],
+  "externalLanguageEvidence": [
+    {"source": "Oxford Advanced Learner's Dictionary, belly, idiom fire in the/your belly", "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/belly_1", "use": "Confirms that the source's 'fire in the belly' is an attested idiom and must not be taught as ungrammatical."}
+  ],
+  "scopeLimit": "Independent exact-hash editorial review of unselected drafts only. No human release approval, manifest selection or publication is implied."
+}

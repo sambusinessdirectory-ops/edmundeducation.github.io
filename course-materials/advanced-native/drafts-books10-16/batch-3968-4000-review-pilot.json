@@ -1,0 +1,2214 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3968-4000-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3968",
+      "number": 3968,
+      "inventoryId": "expr-3968",
+      "titleEn": "from the cradle",
+      "titleZh": "從襁褓時期開始",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfrom\\s+the\\s+cradle\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "From the earliest stage of life, often used to question whether an activity must start extremely young.",
+        "meaningZh": "從出生後最早的時期開始，常用來討論某活動是否必須極早開始。",
+        "grammar": "From the cradle is a fixed time phrase; pair it with start, learn, be taught or a similar verb. It does not itself specify an exact age.",
+        "register": "Everyday parenting and education debate; a sports adviser corrects an exaggerated claim about when children must start.",
+        "boundaryZh": "指極早年紀，不是精確年齡，也不能推斷開始較晚的人沒有成功機會。",
+        "misconceptionZh": "不是字面上在搖籃內訓練；片語不表示家長必須安排嬰兒上課。",
+        "outcomeZh": "能辨別「極早開始」與「必須極早開始」兩種不同說法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1857",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–25",
+          "locatorNote": "DOCX table 188, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Elite training does not begin from the cradle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "from the cradle"
+        }
+      ],
+      "listening": {
+        "en": "A parent thought violin lessons had to start from the cradle. The teacher explained that beginners in primary school can still learn well with suitable practice.",
+        "zh": "一名家長以為小提琴課必須從襁褓時期開始。老師解釋，只要練習方法合適，小學生初學仍能學得好。",
+        "promptZh": "from the cradle 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "From the very beginning of life.",
+            "zh": "從生命最早的時期開始。"
+          },
+          {
+            "id": "b",
+            "en": "Only after primary school.",
+            "zh": "只在小學畢業後開始。"
+          },
+          {
+            "id": "c",
+            "en": "At one exact age set by the teacher.",
+            "zh": "在老師指定的某個確切年齡開始。"
+          },
+          {
+            "id": "d",
+            "en": "Only while using a physical cot.",
+            "zh": "只在使用真正嬰兒床時開始。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語指極早年紀，不指定確切歲數。"
+      },
+      "reply": {
+        "promptEn": "Does every chess player need lessons as a baby? The club coach says several strong players joined in their teens and improved through regular practice.",
+        "promptZh": "（每位棋手都須在嬰兒時期上課嗎？學會教練說，有幾位實力很強的棋手到十多歲才加入，並靠定期練習進步。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Starting in the teens can still allow progress.",
+            "zh": "十多歲開始仍可進步。"
+          },
+          {
+            "id": "b",
+            "en": "The examples challenge the idea of a required infant start.",
+            "zh": "這些例子質疑必須在嬰兒期開始的說法。"
+          },
+          {
+            "id": "c",
+            "en": "Chess does not have to be taught from the cradle.",
+            "zh": "棋藝不一定要從襁褓時期教起。"
+          },
+          {
+            "id": "d",
+            "en": "Regular practice matters in the coach’s examples.",
+            "zh": "教練舉的例子顯示定期練習很重要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據十多歲起步仍有進步作答。"
+      },
+      "scene": {
+        "promptZh": "一名游泳教練說，少年初學者也可掌握技巧。哪句符合她的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Swimming need not begin from the cradle.",
+            "zh": "游泳不必從襁褓時期開始。"
+          },
+          {
+            "id": "b",
+            "en": "A teenager cannot learn to swim.",
+            "zh": "青少年不可能學游泳。"
+          },
+          {
+            "id": "c",
+            "en": "Every swimmer must start at a precise age.",
+            "zh": "所有泳手必須在同一確切年齡開始。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語用於極早開始；少年仍可學，表示非必需。"
+      },
+      "contrast": {
+        "promptZh": "哪句把 from the cradle 用得最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It names an exact age of two months.",
+            "zh": "它指精確的兩個月大。"
+          },
+          {
+            "id": "b",
+            "en": "It refers broadly to very early life, not a required start date.",
+            "zh": "它大致指生命最早期，並非規定的起步日期。"
+          },
+          {
+            "id": "c",
+            "en": "It means every later beginner will fail.",
+            "zh": "它表示所有較遲起步的人都會失敗。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "片語是寬泛時間說法，不是成敗定律。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「from the cradle 證明一定要嬰兒時上課。」哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "From the cradle describes an extremely early start, but does not say that start is necessary.",
+            "zh": "從襁褓時期指極早開始，但沒有說那是必需的。"
+          },
+          {
+            "id": "b",
+            "en": "It always fixes the start at six months old.",
+            "zh": "它總把開始年齡定在六個月。"
+          },
+          {
+            "id": "c",
+            "en": "It rules out learning as a teenager.",
+            "zh": "它排除十多歲才開始學習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "極早開始與必須極早開始不同。"
+      },
+      "speaking": {
+        "en": "The coach said that learning to balance on a board need not begin from the cradle; older beginners can practise safely too.",
+        "zh": "教練說，學習滑板上的平衡不必從襁褓時期開始；年紀較大的初學者也可安全練習。",
+        "promptZh": "先聽示範，再說出較年長初學者仍可怎樣學習。",
+        "targetSpan": {
+          "start": 66,
+          "end": 81
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：舞蹈學校廣告聲稱「必須兩歲前開始，否則永遠跳不好」；導師舉出一位十二歲開始、經四年練習後能完成公開演出的學生。用英文反駁必須極早開始，但不要保證人人會成功。",
+        "selfCheckZh": "寫出廣告主張兩歲前必須開始、學生十二歲起步、練習四年後公開演出；勿保證人人成功。",
+        "examples": [
+          {
+            "en": "Dance does not have to start from the cradle: one student began at twelve and performed publicly after four years of practice, although that example does not guarantee the same result for everyone.",
+            "zh": "舞蹈不必從襁褓時期開始：一名學生十二歲起步，練習四年後能公開演出；但這個例子不保證人人有相同結果。"
+          },
+          {
+            "en": "The advert insists on starting before age two, but training from the cradle is not the only path. A pupil who began at twelve reached a public performance after four years of practice.",
+            "zh": "廣告堅稱要在兩歲前開始，但從襁褓時期訓練並非唯一途徑。一名十二歲起步的學生練習四年後已能公開演出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one student",
+            "zh": "一名學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 57
+            }
+          },
+          {
+            "en": "at twelve",
+            "zh": "十二歲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 73
+            }
+          },
+          {
+            "en": "four years",
+            "zh": "四年",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 113
+            }
+          },
+          {
+            "en": "everyone",
+            "zh": "人人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 188,
+              "end": 196
+            }
+          },
+          {
+            "en": "before age two",
+            "zh": "兩歲前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "public performance",
+            "zh": "公開演出",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 154
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "From the cradle means from the earliest period of life.",
+          "zh": "從襁褓時期，指從生命最早階段開始。"
+        },
+        {
+          "en": "Starting from the cradle is not necessarily required for later learning.",
+          "zh": "日後能否學習，不一定取決於是否從襁褓時期開始。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3975",
+      "number": 3975,
+      "inventoryId": "expr-3975",
+      "titleEn": "part of the furniture",
+      "titleZh": "熟悉得像環境的一部分",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bpart\\s+of\\s+the\\s+furniture\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "So long-established and familiar in a place or group that people expect it to be there.",
+        "meaningZh": "在某處或群體存在已久，熟悉到大家自然預期它會在。",
+        "grammar": "Be part of the furniture in/at a place; subject can be a person, activity or feature. Figurative furniture does not imply inanimate status.",
+        "register": "Informal school and workplace talk; an alumnus explains why a decades-old school event feels inseparable from the campus.",
+        "boundaryZh": "側重長久、熟悉及融入環境；不等於每個人都喜歡它，也不是單指受歡迎。",
+        "misconceptionZh": "不是字面上變成桌椅，也不能因一日內常見便說是長久一部分。",
+        "outcomeZh": "能以時間與群體習慣證明某事成為環境中熟悉的常態。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1864",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 176,
+          "book": 15,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "locatorNote": "DOCX table 189, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Football is part of the furniture in many schools.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "part of the furniture"
+        }
+      ],
+      "listening": {
+        "en": "For thirty years, the school bell has played the same melody at lunch. Former students recognise it at once; it has become part of the furniture on campus.",
+        "zh": "三十年來，學校午飯鐘聲都播放同一段旋律。舊生一聽便認得，它已成為校園裏熟悉得像環境一部分的聲音。",
+        "promptZh": "part of the furniture 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A familiar, long-established part of campus life.",
+            "zh": "校園生活中存在已久、大家熟悉的一部分。"
+          },
+          {
+            "id": "b",
+            "en": "A new feature installed this morning.",
+            "zh": "今早才加設的新安排。"
+          },
+          {
+            "id": "c",
+            "en": "A song played only once and forgotten.",
+            "zh": "只播過一次便被忘記的歌曲。"
+          },
+          {
+            "id": "d",
+            "en": "An actual chair made from a bell.",
+            "zh": "用鐘聲製成的真正椅子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三十年不變、舊生立刻認得，支持長久熟悉。"
+      },
+      "reply": {
+        "promptEn": "Why do former students ask about the morning chess table? The same table has been open in the courtyard every school day for twenty-five years, and generations learned there.",
+        "promptZh": "（舊生為何問起早上的棋桌？同一張棋桌二十五年來每個上課天都設在庭院，幾代學生曾在那裏學棋。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has become a familiar school fixture.",
+            "zh": "它已成為熟悉的校園常態。"
+          },
+          {
+            "id": "b",
+            "en": "Generations expect to find it there.",
+            "zh": "幾代人都預期在那裏見到它。"
+          },
+          {
+            "id": "c",
+            "en": "The chess table is part of the furniture at the school.",
+            "zh": "棋桌已是學校裏熟悉得像環境一部分的存在。"
+          },
+          {
+            "id": "d",
+            "en": "Its long history explains the alumni’s interest.",
+            "zh": "悠久歷史解釋了舊生為何關心它。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據長年持續及群體熟悉作答。"
+      },
+      "scene": {
+        "promptZh": "圖書館同一位義工每週講故事已有二十年，家長和舊讀者都認得她。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is part of the furniture at the library.",
+            "zh": "她在圖書館已熟悉得像環境的一部分。"
+          },
+          {
+            "id": "b",
+            "en": "She joined the library yesterday.",
+            "zh": "她昨天才加入圖書館。"
+          },
+          {
+            "id": "c",
+            "en": "She is a literal piece of library furniture.",
+            "zh": "她是圖書館裏真正的家具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語也可形容長年出現、人人熟悉的人。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 part of the furniture？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A breakfast stall has served the same block for forty years.",
+            "zh": "早餐攤檔在同一街區經營四十年。"
+          },
+          {
+            "id": "b",
+            "en": "A new poster appears for one afternoon, then disappears.",
+            "zh": "新海報只貼了一個下午便拆除。"
+          },
+          {
+            "id": "c",
+            "en": "A school ritual has continued for three generations.",
+            "zh": "學校傳統延續了三代。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "短暫出現，沒有長久熟悉的基礎。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「part of the furniture 一定表示大家都喜歡那件事。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being part of the furniture means being familiar and established; opinions can differ.",
+            "zh": "成為環境中熟悉的一部分，重點是存在已久；大家的喜好仍可不同。"
+          },
+          {
+            "id": "b",
+            "en": "It guarantees everyone likes it.",
+            "zh": "它保證人人喜歡。"
+          },
+          {
+            "id": "c",
+            "en": "It applies only to sofas.",
+            "zh": "它只適用於梳化。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熟悉和受歡迎不是同一判斷。"
+      },
+      "speaking": {
+        "en": "The old clock in the station hall is part of the furniture for regular commuters; they expect its chime every morning.",
+        "zh": "車站大堂的舊鐘對常客而言已熟悉得像環境的一部分；他們每天早上都預期聽到鐘聲。",
+        "promptZh": "先聽示範，再指出通勤者每天預期聽到甚麼。",
+        "targetSpan": {
+          "start": 37,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區劇團每年在同一廣場免費演出，已連續二十八年；居民把這場演出視為夏季常態，但有人不喜歡音量。用英文說明它的地位，不要聲稱人人喜歡。",
+        "selfCheckZh": "寫出每年同一廣場、二十八年、居民視為夏季常態，以及有人嫌聲量大。",
+        "examples": [
+          {
+            "en": "After twenty-eight years of free summer performances in the same square, the theatre group is part of the furniture in the neighbourhood, even though some residents dislike the volume.",
+            "zh": "劇團在同一廣場免費夏季演出二十八年後，已成為社區熟悉的常態，雖然部分居民不喜歡音量。"
+          },
+          {
+            "en": "The annual free show has been held in the same square for twenty-eight years, making it part of the furniture in the neighbourhood each summer; familiarity does not mean everyone enjoys its loud sound.",
+            "zh": "免費演出每年在同一廣場舉行，延續了二十八年，每逢夏季都成為社區熟悉的常態；熟悉不代表人人喜歡其響亮聲音。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twenty-eight years",
+            "zh": "二十八年",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 24
+            }
+          },
+          {
+            "en": "free summer performances",
+            "zh": "免費夏季演出",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 52
+            }
+          },
+          {
+            "en": "same square",
+            "zh": "同一廣場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 71
+            }
+          },
+          {
+            "en": "dislike the volume",
+            "zh": "不喜歡音量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 183
+            }
+          },
+          {
+            "en": "annual free show",
+            "zh": "每年免費演出",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 20
+            }
+          },
+          {
+            "en": "loud sound",
+            "zh": "響亮聲音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 190,
+              "end": 200
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Part of the furniture means long-established and familiar in a place.",
+          "zh": "熟悉得像環境的一部分，指在某處存在已久。"
+        },
+        {
+          "en": "Being part of the furniture does not guarantee universal approval.",
+          "zh": "成為熟悉常態，不保證得到所有人喜歡。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3978",
+      "number": 3978,
+      "inventoryId": "expr-3978",
+      "titleEn": "wipe the slate clean",
+      "titleZh": "一筆勾銷，重新開始",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwip(?:e|es|ed|ing)\\s+the\\s+slate\\s+clean\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Erase a previous record or set of grievances and start again without treating them as ongoing obstacles.",
+        "meaningZh": "把過往紀錄或恩怨一筆勾銷，重新開始。",
+        "grammar": "Wipe the slate clean; wiped the slate clean in the past. Slate is singular and clean completes the idiom. A new event does not automatically do this.",
+        "register": "Everyday relationship and institutional discussion; a committee chair distinguishes a new proposal from formally resolving old complaints.",
+        "boundaryZh": "真正重新開始須處理舊紀錄或恩怨；新潮流、新名稱或換人，不會自動抹去過去。",
+        "misconceptionZh": "不是擦黑板，也不代表過去發生的事被否認或後果自動消失。",
+        "outcomeZh": "能判斷舊問題是否已獲處理，以及是否有理由說能重新開始。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1867",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 176,
+          "book": 15,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "locatorNote": "DOCX table 189, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A new trend will not wipe the slate clean.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "wipe the slate clean"
+        }
+      ],
+      "listening": {
+        "en": "A club changed its logo, but members’ unresolved complaints about fees remained. The new design did not wipe the slate clean.",
+        "zh": "社團換了標誌，但會員對收費的投訴仍未處理。新設計並沒有把舊問題一筆勾銷。",
+        "promptZh": "did not wipe the slate clean 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The change did not erase the unresolved issues.",
+            "zh": "改動沒有抹去未解決的問題。"
+          },
+          {
+            "id": "b",
+            "en": "All fee complaints were formally resolved.",
+            "zh": "所有收費投訴均正式解決。"
+          },
+          {
+            "id": "c",
+            "en": "The club bought a new noticeboard.",
+            "zh": "社團買了新告示板。"
+          },
+          {
+            "id": "d",
+            "en": "Members forgot the dispute at once.",
+            "zh": "會員立即忘記爭議。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "標誌換了，收費投訴卻仍在。"
+      },
+      "reply": {
+        "promptEn": "Can the project team start fresh after last year’s dispute? The two sides have reviewed every complaint, corrected the accounts and agreed in writing to close the old case.",
+        "promptZh": "（去年爭議後，項目團隊能重新開始嗎？雙方已逐項檢討投訴、更正帳目，並書面同意結束舊案。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have dealt with the earlier dispute.",
+            "zh": "他們已處理先前爭議。"
+          },
+          {
+            "id": "b",
+            "en": "The written agreement supports a fresh start.",
+            "zh": "書面協議支持重新開始。"
+          },
+          {
+            "id": "c",
+            "en": "They have agreed to wipe the slate clean.",
+            "zh": "他們已同意把舊事一筆勾銷，重新開始。"
+          },
+          {
+            "id": "d",
+            "en": "The old case is closed after correction and review.",
+            "zh": "舊案在更正及檢討後結束。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據具體處理及書面結案作答。"
+      },
+      "scene": {
+        "promptZh": "一間合作社只是改名，舊欠款仍未還。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The name change has not wiped the slate clean.",
+            "zh": "改名沒有把舊帳一筆勾銷。"
+          },
+          {
+            "id": "b",
+            "en": "The debts have vanished automatically.",
+            "zh": "欠款已自動消失。"
+          },
+          {
+            "id": "c",
+            "en": "A fresh sign settles every old obligation.",
+            "zh": "新招牌便可清償所有舊責任。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改名不會自行解決舊欠款。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最能支持 wipe the slate clean？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager ignores every complaint but launches a new slogan.",
+            "zh": "經理不理投訴，卻推出新口號。"
+          },
+          {
+            "id": "b",
+            "en": "Both parties settle outstanding claims and agree to restart without old penalties.",
+            "zh": "雙方處理未解決申索，同意不再以舊罰則阻礙重新開始。"
+          },
+          {
+            "id": "c",
+            "en": "A club repaints its door while leaving disputes open.",
+            "zh": "社團重新油門，爭議卻仍未處理。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "處理舊事並同意重新開始，才有真正重置。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「新安排一定 wipe the slate clean。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can wipe the slate clean only if we first address the outstanding issues together.",
+            "zh": "只有先一起處理尚未解決的問題，我們才能把舊事一筆勾銷。"
+          },
+          {
+            "id": "b",
+            "en": "Every new plan erases previous obligations.",
+            "zh": "任何新計劃都抹去先前責任。"
+          },
+          {
+            "id": "c",
+            "en": "The idiom requires washing a real writing slate.",
+            "zh": "這片語要求清洗真正的石板。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "更新安排與解決舊事不是一回事。"
+      },
+      "speaking": {
+        "en": "After both families settled the repair bill and apologised, they chose to wipe the slate clean and plan the next event together.",
+        "zh": "兩個家庭結清維修費並道歉後，選擇把舊事一筆勾銷，一起籌辦下一次活動。",
+        "promptZh": "先聽示範，再說出他們重新合作前完成哪兩件事。",
+        "targetSpan": {
+          "start": 74,
+          "end": 94
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生報紙與攝影學會曾因未署名照片爭執；編輯已補上署名、公開道歉，雙方同意把該爭議結案並共同籌辦展覽。用英文說明重新開始的依據，不要說照片從未被錯用。",
+        "selfCheckZh": "寫出未署名照片的爭議、補署名、公開道歉、雙方結案並合作；不否認過去錯誤。",
+        "examples": [
+          {
+            "en": "After the paper added the missing photo credit and apologised publicly, both clubs agreed to wipe the slate clean over that dispute and organise an exhibition together.",
+            "zh": "學生報紙補上遺漏的照片署名並公開道歉後，兩個學會同意把該爭議一筆勾銷，合辦展覽。"
+          },
+          {
+            "en": "The uncredited photograph caused a dispute, but the editors corrected the credit and apologised. With both groups agreeing to close the case, they could wipe the slate clean and plan a joint exhibition.",
+            "zh": "未署名照片曾引起爭議，但編輯補上署名並道歉。雙方同意結案後，便可把舊事一筆勾銷，共同籌辦展覽。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "missing photo credit",
+            "zh": "遺漏的照片署名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 46
+            }
+          },
+          {
+            "en": "apologised publicly",
+            "zh": "公開道歉",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 70
+            }
+          },
+          {
+            "en": "both clubs",
+            "zh": "兩個學會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 82
+            }
+          },
+          {
+            "en": "an exhibition",
+            "zh": "展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 158
+            }
+          },
+          {
+            "en": "uncredited photograph",
+            "zh": "未署名照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 25
+            }
+          },
+          {
+            "en": "close the case",
+            "zh": "結案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Wipe the slate clean means resolve or set aside past issues for a fresh start.",
+          "zh": "一筆勾銷，指處理或放下舊事後重新開始。"
+        },
+        {
+          "en": "A new trend cannot wipe the slate clean while earlier problems remain.",
+          "zh": "若舊問題仍在，新潮流不能自動把過去一筆勾銷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3979",
+      "number": 3979,
+      "inventoryId": "expr-3979",
+      "titleEn": "steal some of the limelight",
+      "titleZh": "分去部分風頭",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:steal|steals|stole|stealing)\\s+some\\s+of\\s+the\\s+limelight\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Draw a share of attention away from someone or something that previously had most of it.",
+        "meaningZh": "從原本受矚目的對象那裏分去部分注意力或風頭。",
+        "grammar": "Steal some of the limelight; some limits the amount diverted. The subject is the newcomer or alternative attracting attention.",
+        "register": "Informal event and media commentary; a reviewer compares a new act with the familiar headline attraction.",
+        "boundaryZh": "指注意力被分走一部分，不等於原本主角完全失去觀眾，也不必有惡意。",
+        "misconceptionZh": "沒有真正偷竊或聚光燈；須有原本較受矚目的對象供比較。",
+        "outcomeZh": "能指出誰原先佔據焦點、誰分走部分關注，以及份額而非全面取代。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1868",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 176,
+          "book": 15,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "locatorNote": "DOCX table 189, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New sports may steal some of the limelight.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "steal some of the limelight"
+        }
+      ],
+      "listening": {
+        "en": "The annual orchestra concert remained the festival’s main draw, but a new puppet troupe filled a smaller hall and stole some of the limelight.",
+        "zh": "年度管弦樂音樂會仍是節慶的主要賣點，但新木偶劇團坐滿了較小的演出廳，分走了部分風頭。",
+        "promptZh": "stole some of the limelight 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The troupe drew some attention from the main attraction.",
+            "zh": "劇團從主要節目分走部分關注。"
+          },
+          {
+            "id": "b",
+            "en": "The orchestra lost every listener.",
+            "zh": "管弦樂團失去所有觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "Someone physically took stage lamps.",
+            "zh": "有人實際拿走舞台燈。"
+          },
+          {
+            "id": "d",
+            "en": "The troupe intentionally sabotaged the concert.",
+            "zh": "劇團蓄意破壞音樂會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新劇團受注目，但音樂會仍是主要賣點。"
+      },
+      "reply": {
+        "promptEn": "Is the long-running science show still the fair’s headline event? Yes, but the first robotics demonstration also drew a long queue and appeared in several reviews.",
+        "promptZh": "（多年來的科學表演仍是博覽會主打活動嗎？是，但首次機械人示範也吸引了長龍，並見於多篇評論。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new demonstration attracted part of the audience’s attention.",
+            "zh": "新示範吸引了觀眾的部分注意。"
+          },
+          {
+            "id": "b",
+            "en": "The established show remains the headline event.",
+            "zh": "舊表演仍是主打活動。"
+          },
+          {
+            "id": "c",
+            "en": "The robotics demonstration stole some of the limelight.",
+            "zh": "機械人示範分去了部分風頭。"
+          },
+          {
+            "id": "d",
+            "en": "Both the familiar and new events received notice.",
+            "zh": "原有及新活動都受到關注。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認舊節目仍主打，新節目分得關注。"
+      },
+      "scene": {
+        "promptZh": "頒獎禮仍以電影獎項為主，卻有新設短片獎廣受採訪。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The short-film award stole some of the limelight.",
+            "zh": "短片獎分走了部分風頭。"
+          },
+          {
+            "id": "b",
+            "en": "The film awards lost all coverage.",
+            "zh": "電影獎項完全失去報道。"
+          },
+          {
+            "id": "c",
+            "en": "The short-film team stole a lighting fixture.",
+            "zh": "短片團隊偷了燈具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新項目分得部分媒體關注，原主項仍在。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不符合 steal some of the limelight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new soloist receives press attention alongside the established star.",
+            "zh": "新獨奏家與知名明星同樣得到傳媒關注。"
+          },
+          {
+            "id": "b",
+            "en": "An alternative event attracts some visitors from the traditional main show.",
+            "zh": "另一活動從傳統主場節目吸引部分觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "An unnoticed side stall gets no visitors or mentions.",
+            "zh": "不起眼的小攤檔無訪客，也無人提及。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "沒有分走任何注意力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這句一定表示舊主角被完全取代。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To steal some of the limelight is to gain a share of attention, not necessarily replace the original draw.",
+            "zh": "分走部分風頭是取得部分關注，不一定取代原本主角。"
+          },
+          {
+            "id": "b",
+            "en": "It always means the original has no audience left.",
+            "zh": "它一定表示原本主角再無觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "It requires a literal theft of lights.",
+            "zh": "它要求實際偷走燈光。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "some 限定了被分走的注意份額。"
+      },
+      "speaking": {
+        "en": "The veteran singer still closed the concert, but the new duet stole some of the limelight when its clip circulated widely afterward.",
+        "zh": "資深歌手仍為音樂會壓軸，但新二重唱的片段事後廣泛流傳，分走了部分風頭。",
+        "promptZh": "先聽示範，再指出誰仍壓軸，以及誰分得關注。",
+        "targetSpan": {
+          "start": 62,
+          "end": 89
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：地方美食節的老牌麵檔仍有最長隊伍；首次參展的豆腐攤獲三家報章報道，吸引部分訪客，但未取代麵檔。用英文描述注意力如何分配。",
+        "selfCheckZh": "寫出老牌麵檔仍最受歡迎、新豆腐攤獲三家報章報道並吸引部分訪客、未全面取代。",
+        "examples": [
+          {
+            "en": "The old noodle stall still had the longest queue, but a first-time tofu stall stole some of the limelight after three newspapers covered it and some visitors came to try it.",
+            "zh": "老牌麵檔仍有最長隊伍，但首次參展的豆腐攤獲三家報章報道，吸引部分訪客試食，分走了部分風頭。"
+          },
+          {
+            "en": "Three newspapers covered the new tofu stall, which stole some of the limelight from the established noodle stall. Some visitors tried it, although the noodle queue remained the longest.",
+            "zh": "三家報章報道新豆腐攤，使它從老牌麵檔分走部分風頭。有訪客前來試食，但麵檔隊伍仍是最長。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "longest queue",
+            "zh": "最長隊伍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 48
+            }
+          },
+          {
+            "en": "first-time tofu stall",
+            "zh": "首次參展的豆腐攤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 77
+            }
+          },
+          {
+            "en": "three newspapers",
+            "zh": "三家報章",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 128
+            }
+          },
+          {
+            "en": "some visitors",
+            "zh": "部分訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 157
+            }
+          },
+          {
+            "en": "established noodle stall",
+            "zh": "老牌麵檔",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 112
+            }
+          },
+          {
+            "en": "remained the longest",
+            "zh": "仍是最長",
+            "exampleIndex": 1,
+            "span": {
+              "start": 164,
+              "end": 184
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Steal some of the limelight means draw a share of attention from an established focus.",
+          "zh": "分走部分風頭，指從原本焦點取得部分關注。"
+        },
+        {
+          "en": "Stealing some of the limelight does not mean the original attraction vanishes.",
+          "zh": "分走部分風頭，不表示原本主角完全消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3984",
+      "number": 3984,
+      "inventoryId": "expr-3984",
+      "titleEn": "click into place",
+      "titleZh": "突然變得清晰連貫",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:click|clicks|clicked|clicking)\\s+into\\s+place\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Several parts of a problem or explanation suddenly fit together into a coherent whole.",
+        "meaningZh": "問題或解釋的多個部分突然互相吻合，形成清晰的整體。",
+        "grammar": "A solution or pieces of an explanation click into place; clicked is past. Distinguish this whole-pattern fit from a person simply beginning to understand one point.",
+        "register": "Everyday learning and problem-solving; a researcher explains how a second look at two records makes a complete sequence coherent.",
+        "boundaryZh": "重點是多個線索變得互相吻合；不能只因有人聽懂一個詞便說整個方案已完整。",
+        "misconceptionZh": "不是機械零件實際卡進凹槽，也不保證先前每個猜想都正確。",
+        "outcomeZh": "能說出哪些線索共同形成解答，以及理解如何轉變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1873",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 190, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The solution clicks into place after a second look.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "clicks into place"
+        }
+      ],
+      "listening": {
+        "en": "The archivist first thought the two dates were unrelated. On a second look, she noticed the same signature and delivery route, and the timeline clicked into place.",
+        "zh": "檔案員起初以為兩個日期互不相關。再看一遍時，她注意到相同簽名和運送路線，事件的時間線便突然變得清晰連貫。",
+        "promptZh": "clicked into place 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clues formed a coherent sequence.",
+            "zh": "線索合成了一條清晰連貫的脈絡。"
+          },
+          {
+            "id": "b",
+            "en": "The dates became unrelated after all.",
+            "zh": "兩個日期最終變得毫無關聯。"
+          },
+          {
+            "id": "c",
+            "en": "A file physically snapped into a holder.",
+            "zh": "檔案實際卡進架子。"
+          },
+          {
+            "id": "d",
+            "en": "The archivist stopped examining the evidence.",
+            "zh": "檔案員停止檢視證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "相同簽名與路線把兩個日期連成時間線。"
+      },
+      "reply": {
+        "promptEn": "How did the class finally solve the timetable puzzle? One group matched the room list with the bus arrivals, and then every class had a room and arrival time that fitted.",
+        "promptZh": "（全班最後怎樣解開時間表難題？一組同學把教室清單與巴士到達時間對照後，每班的教室與到達時間便互相吻合。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two lists now form a consistent schedule.",
+            "zh": "兩份清單現在合成一致的安排。"
+          },
+          {
+            "id": "b",
+            "en": "Each class can be placed without a conflict.",
+            "zh": "每班都可安排而沒有衝突。"
+          },
+          {
+            "id": "c",
+            "en": "The timetable clicked into place.",
+            "zh": "時間表突然變得清晰連貫。"
+          },
+          {
+            "id": "d",
+            "en": "Comparing the lists revealed the overall pattern.",
+            "zh": "對照清單顯示整體安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述線索互相吻合形成完整時間表。"
+      },
+      "scene": {
+        "promptZh": "技術員再看設備紀錄，發現三次斷電都在同一個測試後發生，故障順序終於清楚。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sequence clicked into place.",
+            "zh": "整個順序突然變得清晰連貫。"
+          },
+          {
+            "id": "b",
+            "en": "The records became more contradictory.",
+            "zh": "紀錄變得更矛盾。"
+          },
+          {
+            "id": "c",
+            "en": "One cable made a clicking sound.",
+            "zh": "一條電線發出喀聲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三次紀錄顯示一致關係，整體脈絡清楚了。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 solution clicked into place？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A map and delivery logs now explain every stop in order.",
+            "zh": "地圖與送貨紀錄可按順序解釋每個停站。"
+          },
+          {
+            "id": "b",
+            "en": "One pupil understands a word, but the rest of the problem remains unresolved.",
+            "zh": "一名學生聽懂一個詞，但問題其餘部分仍未解決。"
+          },
+          {
+            "id": "c",
+            "en": "Two experiments and the sensor record fit one explanation.",
+            "zh": "兩個實驗及感應器紀錄與同一解釋吻合。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "理解單一詞語不等於多個部分形成完整解答。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「一個學生聽懂一個術語，整個 solution 就 clicked into place。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A solution clicks into place when its parts fit together, not merely when one term is understood.",
+            "zh": "解答的多個部分互相吻合，才可說突然變得清晰連貫；聽懂一個詞不足夠。"
+          },
+          {
+            "id": "b",
+            "en": "One term always resolves the whole problem.",
+            "zh": "聽懂一個詞必定解決整題。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase requires a real mechanical click.",
+            "zh": "這片語要求有實際機械卡聲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此片語聚焦整體線索的配合。"
+      },
+      "speaking": {
+        "en": "When the rainfall chart matched the reservoir log, the explanation clicked into place: the water level fell after three dry weeks.",
+        "zh": "降雨圖與水庫紀錄吻合後，解釋便突然變得清晰連貫：三週少雨後水位下降。",
+        "promptZh": "先聽示範，再指出哪兩份資料互相吻合。",
+        "targetSpan": {
+          "start": 67,
+          "end": 85
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團發現後台燈光在三個週末都延遲；場地預約紀錄和電工維修單顯示，每次都在同一個測試時段關電。用英文說明這些線索如何形成完整解釋，但不要聲稱已修好設備。",
+        "selfCheckZh": "寫出三個週末的延遲、預約紀錄與維修單、同一測試時段斷電；解釋清楚不等於已修好。",
+        "examples": [
+          {
+            "en": "The explanation for the theatre’s three weekend lighting delays clicked into place when its booking records and repair slips showed a power shutdown during the same test slot each time; the equipment still needs a fix.",
+            "zh": "劇團三個週末燈光延遲的原因，在預約紀錄與維修單都顯示每次同一測試時段斷電後，便有了清晰連貫的解釋；設備仍須維修。"
+          },
+          {
+            "en": "After the team compared booking records with the electrician’s slips, the pattern clicked into place: each of the three weekend delays followed a shutdown in the same test slot, though no repair is complete yet.",
+            "zh": "團隊對照預約紀錄與電工維修單後，整個規律突然變得清晰連貫：三個週末每次都在同一測試時段斷電後延遲，但設備尚未修妥。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three weekend lighting delays",
+            "zh": "三個週末的燈光延遲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 63
+            }
+          },
+          {
+            "en": "booking records",
+            "zh": "預約紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 107
+            }
+          },
+          {
+            "en": "repair slips",
+            "zh": "維修單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 124
+            }
+          },
+          {
+            "en": "same test slot",
+            "zh": "同一測試時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 174
+            }
+          },
+          {
+            "en": "electrician’s slips",
+            "zh": "電工維修單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 68
+            }
+          },
+          {
+            "en": "no repair is complete yet",
+            "zh": "設備尚未修妥",
+            "exampleIndex": 1,
+            "span": {
+              "start": 185,
+              "end": 210
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Click into place means the pieces form a coherent whole.",
+          "zh": "突然變得清晰連貫，指各部分互相吻合。"
+        },
+        {
+          "en": "A solution does not click into place merely because one word is understood.",
+          "zh": "單是聽懂一個詞，不代表整個解答已變得連貫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3986",
+      "number": 3986,
+      "inventoryId": "expr-3986",
+      "titleEn": "sharpen the mind",
+      "titleZh": "鍛鍊思維",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:sharpen|sharpens|sharpened|sharpening)\\s+the\\s+mind\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Improve mental focus or thinking skill through practice or challenge.",
+        "meaningZh": "透過練習或挑戰改善專注力或思考能力。",
+        "grammar": "An activity can sharpen the mind; the mind is not literally a blade. Avoid promising a guaranteed clinical benefit from a single task.",
+        "register": "Everyday learning discussion; a teacher explains why comparing multiple possible solutions may train reasoning.",
+        "boundaryZh": "着重練習思考能力，不等於證明醫療效果，也不代表每項活動對所有人都相同有效。",
+        "misconceptionZh": "不是磨利大腦；一次活動也不能保證永久提升智力。",
+        "outcomeZh": "能指出哪項具體思考過程受鍛鍊，並避免無根據的保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1875",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 190, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Crosswords can sharpen the mind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sharpen the mind"
+        }
+      ],
+      "listening": {
+        "en": "In the logic club, pupils compare several possible routes and explain why one works. The teacher says that kind of reasoning practice can sharpen the mind.",
+        "zh": "在邏輯學會，學生比較幾條可行路線，並解釋為何其中一條可行。老師說，這類推理練習可以鍛鍊思維。",
+        "promptZh": "sharpen the mind 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Practise and improve thinking skills.",
+            "zh": "練習並改善思考能力。"
+          },
+          {
+            "id": "b",
+            "en": "Make the brain physically sharp.",
+            "zh": "令大腦真的變尖。"
+          },
+          {
+            "id": "c",
+            "en": "Guarantee permanent intelligence after one task.",
+            "zh": "一次練習就保證智力永久提高。"
+          },
+          {
+            "id": "d",
+            "en": "Avoid comparing possible routes.",
+            "zh": "避免比較不同路線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比較與解釋路線涉及推理練習。"
+      },
+      "reply": {
+        "promptEn": "Why does the instructor ask learners to explain two different endings to the story? They must compare evidence and revise their first guess before choosing.",
+        "promptZh": "（導師為何要求學生解釋故事的兩種結局？他們要比較證據，修正最初猜想，然後作選擇。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The task gives them reasoning practice.",
+            "zh": "任務讓他們練習推理。"
+          },
+          {
+            "id": "b",
+            "en": "They must test a first idea against evidence.",
+            "zh": "他們須用證據檢驗最初想法。"
+          },
+          {
+            "id": "c",
+            "en": "Comparing the endings may sharpen the mind.",
+            "zh": "比較結局可能鍛鍊思維。"
+          },
+          {
+            "id": "d",
+            "en": "The activity asks for careful thought rather than a quick guess.",
+            "zh": "活動要求仔細思考，而非隨便猜測。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指向有具體比較與修正的思考練習。"
+      },
+      "scene": {
+        "promptZh": "學員定期找出數據圖表中的矛盾，並解釋修正方法。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exercise may sharpen the mind.",
+            "zh": "這種練習可能鍛鍊思維。"
+          },
+          {
+            "id": "b",
+            "en": "The graph physically cuts the brain.",
+            "zh": "圖表真的割到大腦。"
+          },
+          {
+            "id": "c",
+            "en": "One attempt proves a permanent rise in IQ.",
+            "zh": "一次嘗試證明智商永久提高。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "練習檢查矛盾與解釋方法，涉及思考。"
+      },
+      "contrast": {
+        "promptZh": "哪句對 sharpen the mind 最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A puzzle is guaranteed to prevent illness.",
+            "zh": "益智遊戲保證能預防疾病。"
+          },
+          {
+            "id": "b",
+            "en": "Repeated reasoning practice may help train attention and thinking.",
+            "zh": "反覆練習推理可能幫助鍛鍊專注與思考。"
+          },
+          {
+            "id": "c",
+            "en": "Thinking skills improve without any practice.",
+            "zh": "毋須練習，思考能力也會提升。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "片語可說思維練習，不構成醫療保證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「玩一次遊戲就必定永久變聰明。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An activity may sharpen the mind through practice, but one game proves no permanent change.",
+            "zh": "活動可透過練習鍛鍊思維，但玩一次不能證明永久改變。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase guarantees a permanent effect from one try.",
+            "zh": "這片語保證一次便有永久效果。"
+          },
+          {
+            "id": "c",
+            "en": "It means sharpening a real knife.",
+            "zh": "它表示磨利真正的刀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不能把練習效果誇大成一次永久提升。"
+      },
+      "speaking": {
+        "en": "Checking how two maps differ sharpens the mind when it makes students compare details instead of guessing.",
+        "zh": "比較兩張地圖的差異，要求學生細看細節而非猜測，可以鍛鍊思維。",
+        "promptZh": "先聽示範，再指出學生練習了哪項思考動作。",
+        "targetSpan": {
+          "start": 29,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館每週辦一場證據推理小組；參加者比較兩份互有衝突的記錄，找出錯誤日期，並解釋判斷依據。用英文說明這活動如何鍛鍊思維，但不要保證醫療效果。",
+        "selfCheckZh": "寫出每週活動、比較兩份矛盾記錄、找出錯誤日期及解釋依據；不作醫療保證。",
+        "examples": [
+          {
+            "en": "The library’s weekly evidence group may sharpen the mind by having members compare two conflicting records, identify the wrong date and explain their reasoning; that is not a medical guarantee.",
+            "zh": "圖書館每週的證據推理小組讓成員比較兩份矛盾紀錄、找出錯誤日期並解釋推理，可能鍛鍊思維；這不是醫療保證。"
+          },
+          {
+            "en": "Each week, members compare two inconsistent records and justify which date is wrong. This reasoning practice can sharpen the mind, though the group makes no claim to prevent illness.",
+            "zh": "成員每週比較兩份互相矛盾的紀錄，並解釋哪個日期有錯。這種推理練習可以鍛鍊思維，但小組沒有聲稱能預防疾病。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekly evidence group",
+            "zh": "每週的證據推理小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 35
+            }
+          },
+          {
+            "en": "two conflicting records",
+            "zh": "兩份矛盾紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 106
+            }
+          },
+          {
+            "en": "wrong date",
+            "zh": "錯誤日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 131
+            }
+          },
+          {
+            "en": "medical guarantee",
+            "zh": "醫療保證",
+            "exampleIndex": 0,
+            "span": {
+              "start": 175,
+              "end": 192
+            }
+          },
+          {
+            "en": "justify",
+            "zh": "解釋依據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 63
+            }
+          },
+          {
+            "en": "prevent illness",
+            "zh": "預防疾病",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 181
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Sharpen the mind means train thinking through practice.",
+          "zh": "鍛鍊思維，指透過練習訓練思考能力。"
+        },
+        {
+          "en": "An activity can sharpen the mind without proving a medical benefit.",
+          "zh": "活動可以鍛鍊思維，卻不等於已證明醫療效益。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3997",
+      "number": 3997,
+      "inventoryId": "expr-3997",
+      "titleEn": "stay sharp",
+      "titleZh": "保持頭腦敏銳",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying)\\s+sharp\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Keep one’s mental alertness or existing skill in good condition through continued use.",
+        "meaningZh": "透過持續練習，保持原有的頭腦靈敏或技能水平。",
+        "grammar": "Stay sharp is intransitive; a person stays sharp, often by doing something. Contrast maintaining a skill with building one from scratch.",
+        "register": "Informal personal and work discussion; a retired translator explains why she still practises with short passages.",
+        "boundaryZh": "強調維持已具備的敏銳度或技能，不是保證完全不退步，也不是新的學習成果。",
+        "misconceptionZh": "不是磨利刀具；不能從持續練習直接推斷沒有疾病或衰退。",
+        "outcomeZh": "能分辨鍛鍊新能力與維持已有能力，說明持續練習的作用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1886",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 178,
+          "book": 15,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 192, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My grandfather solves puzzles to stay sharp.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay sharp"
+        }
+      ],
+      "listening": {
+        "en": "After retiring, Nari still translates a short paragraph every morning to stay sharp. She says the daily habit helps her keep using the skills she already has.",
+        "zh": "娜莉退休後，每天早上仍翻譯一小段文字，讓自己保持頭腦敏銳。她說，這習慣有助她繼續運用原有技能。",
+        "promptZh": "stay sharp 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep her existing mental skill active.",
+            "zh": "保持原有的思考技能活躍。"
+          },
+          {
+            "id": "b",
+            "en": "Start learning translation for the first time.",
+            "zh": "首次開始學習翻譯。"
+          },
+          {
+            "id": "c",
+            "en": "Physically sharpen a pencil.",
+            "zh": "實際削尖鉛筆。"
+          },
+          {
+            "id": "d",
+            "en": "Prove she can never forget anything.",
+            "zh": "證明她永遠不會忘事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "退休後繼續翻譯，是維持已具備的技能。"
+      },
+      "reply": {
+        "promptEn": "Why does the former radio editor still review a short script each week? She says it keeps her editing judgement active, even though she no longer works full-time.",
+        "promptZh": "（前電台編輯為何每週仍校閱一篇短稿？她說這能令自己的編輯判斷保持靈敏，雖然已不再全職工作。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wants to keep using a skill she has already developed.",
+            "zh": "她想繼續運用已培養的技能。"
+          },
+          {
+            "id": "b",
+            "en": "The weekly review helps maintain her judgement.",
+            "zh": "每週校閱有助維持她的判斷力。"
+          },
+          {
+            "id": "c",
+            "en": "She reviews scripts to stay sharp.",
+            "zh": "她校閱稿件，讓自己保持敏銳。"
+          },
+          {
+            "id": "d",
+            "en": "The habit gives her regular editing practice.",
+            "zh": "這習慣讓她定期練習編輯。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述持續使用既有編輯能力。"
+      },
+      "scene": {
+        "promptZh": "一名資深口譯員每週做模擬口譯，以免反應變慢。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She stays sharp by practising each week.",
+            "zh": "她每週練習，以保持頭腦敏銳。"
+          },
+          {
+            "id": "b",
+            "en": "She has never interpreted before.",
+            "zh": "她以前從未做口譯。"
+          },
+          {
+            "id": "c",
+            "en": "She is sharpening a blade.",
+            "zh": "她正在磨刀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她以練習維持已有的反應與技能。"
+      },
+      "contrast": {
+        "promptZh": "哪句對 stay sharp 最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Practice guarantees no one will ever become forgetful.",
+            "zh": "練習保證人永遠不會善忘。"
+          },
+          {
+            "id": "b",
+            "en": "Continued use may help someone maintain alertness and a practised skill.",
+            "zh": "持續運用可能有助維持敏銳度和熟練技能。"
+          },
+          {
+            "id": "c",
+            "en": "It only describes making a knife sharper.",
+            "zh": "它只描述把刀磨利。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "片語說維持敏銳，不作絕對健康保證。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「stay sharp 指從零開始學新技能。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Stay sharp usually means keep an existing ability active through practice.",
+            "zh": "保持敏銳通常指透過練習維持已有能力。"
+          },
+          {
+            "id": "b",
+            "en": "It always means learning something for the first time.",
+            "zh": "它總指第一次學習。"
+          },
+          {
+            "id": "c",
+            "en": "It requires a physical sharp object.",
+            "zh": "它需要真正尖銳的物件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是維持，而不是由零開始。"
+      },
+      "speaking": {
+        "en": "The former chef tests one recipe a month to stay sharp, keeping her timing and tasting judgement in use.",
+        "zh": "這名前廚師每月測試一道食譜，以保持敏銳，繼續運用對時間和味道的判斷。",
+        "promptZh": "先聽示範，再說出她想維持哪兩項判斷。",
+        "targetSpan": {
+          "start": 44,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：已退休的舞台燈光師每週分析一份舊演出燈光圖，並練習解釋快速換場；她已具備這些技能，只想保持判斷敏銳。用英文說明她的習慣，不要說她由零開始學。",
+        "selfCheckZh": "寫出退休、每週分析舊燈光圖、練習解釋快速換場、維持已有技能。",
+        "examples": [
+          {
+            "en": "The retired lighting designer studies an old show plan each week and explains rapid scene changes to stay sharp; she is maintaining skills she already has.",
+            "zh": "這名退休燈光師每週分析一份舊演出燈光圖，並解釋快速換場，以保持敏銳；她是在維持已有技能。"
+          },
+          {
+            "en": "To stay sharp, the former stage lighting designer reviews a past lighting plan weekly and practises explaining quick scene transitions rather than learning the job from scratch.",
+            "zh": "這名前舞台燈光師每週檢視一份舊燈光圖，並練習解釋快速換場，以保持頭腦敏銳，而非由零開始學習這份工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "retired lighting designer",
+            "zh": "退休燈光師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 29
+            }
+          },
+          {
+            "en": "each week",
+            "zh": "每週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 64
+            }
+          },
+          {
+            "en": "rapid scene changes",
+            "zh": "快速換場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 97
+            }
+          },
+          {
+            "en": "skills she already has",
+            "zh": "已有技能",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 154
+            }
+          },
+          {
+            "en": "past lighting plan",
+            "zh": "舊燈光圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 78
+            }
+          },
+          {
+            "en": "from scratch",
+            "zh": "由零開始",
+            "exampleIndex": 1,
+            "span": {
+              "start": 164,
+              "end": 176
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stay sharp means keep existing alertness or skill active.",
+          "zh": "保持頭腦敏銳，指維持已有的靈敏度或技能。"
+        },
+        {
+          "en": "Practising to stay sharp does not guarantee a person will never decline.",
+          "zh": "練習以保持敏銳，不保證一個人永不退步。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4000",
+      "number": 4000,
+      "inventoryId": "expr-4000",
+      "titleEn": "stretch their legs",
+      "titleZh": "起身走走，伸展雙腿",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stretch|stretches|stretched|stretching)\\s+(?:their|his|her|my|our|your|its|one[’\\']s)\\s+legs\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Get up and walk or move briefly after sitting for a while.",
+        "meaningZh": "坐了一段時間後起身短暫走動、伸展雙腿。",
+        "grammar": "Stretch one’s legs; the possessive agrees with the person walking. Often used for a short break on a trip or during work.",
+        "register": "Everyday travel and work talk; a driver suggests a short stop so seated passengers can move before continuing.",
+        "boundaryZh": "重點是短暫活動身體，不等於正式健身，也不表示旅程已結束。",
+        "misconceptionZh": "不必真的做拉筋動作；也不能從一次短暫走動推斷已完成長時間運動。",
+        "outcomeZh": "能區分中途起身走走與終點到達或正式運動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1889",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 178,
+          "book": 15,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "34–36",
+          "locatorNote": "DOCX table 193, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The passengers stopped by the river to stretch their legs.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stretch their legs"
+        }
+      ],
+      "listening": {
+        "en": "After two hours on the coach, the passengers stopped at a rest area to stretch their legs. They walked for ten minutes before boarding again.",
+        "zh": "乘客坐了兩小時旅遊巴後，在休息站停車起身走走。他們步行十分鐘後又上車。",
+        "promptZh": "stretch their legs 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Take a short walking break after sitting.",
+            "zh": "坐了一段時間後短暫走動。"
+          },
+          {
+            "id": "b",
+            "en": "Finish the journey at the rest area.",
+            "zh": "在休息站完成旅程。"
+          },
+          {
+            "id": "c",
+            "en": "Join a formal training session.",
+            "zh": "參加正式訓練課。"
+          },
+          {
+            "id": "d",
+            "en": "Remain seated for another two hours.",
+            "zh": "再坐兩小時不動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十分鐘後再上車，屬中途短暫走動。"
+      },
+      "reply": {
+        "promptEn": "Why did the editor pause the four-hour screening? Everyone had been sitting without a break, so she gave them ten minutes to walk around the foyer before the film resumed.",
+        "promptZh": "（編輯為何暫停四小時的放映？大家一直坐着，沒有休息；她給眾人十分鐘在大堂走走，然後繼續放映。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wanted viewers to move briefly after sitting.",
+            "zh": "她想觀眾久坐後短暫活動。"
+          },
+          {
+            "id": "b",
+            "en": "The film was only paused, not cancelled.",
+            "zh": "電影只是暫停，並非取消。"
+          },
+          {
+            "id": "c",
+            "en": "She let them stretch their legs.",
+            "zh": "她讓觀眾起身走走。"
+          },
+          {
+            "id": "d",
+            "en": "The break ended before the screening resumed.",
+            "zh": "放映恢復前，休息已結束。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都與久坐後短暫走動、再繼續放映相符。"
+      },
+      "scene": {
+        "promptZh": "長途火車中途停十分鐘，旅客下車在月台走動後回到座位。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They stopped to stretch their legs.",
+            "zh": "他們停下來起身走走。"
+          },
+          {
+            "id": "b",
+            "en": "They arrived at their final destination.",
+            "zh": "他們已到達終點。"
+          },
+          {
+            "id": "c",
+            "en": "They began an hour-long workout.",
+            "zh": "他們開始一小時健身。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只是中途短暫活動，仍會繼續旅程。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不符合 stretch their legs？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Workers walk around the corridor during a short break.",
+            "zh": "員工短暫休息時在走廊走動。"
+          },
+          {
+            "id": "b",
+            "en": "A passenger stays in the same seat throughout the stop.",
+            "zh": "乘客整個停站期間都坐在原位。"
+          },
+          {
+            "id": "c",
+            "en": "Drivers leave the vehicle for a brief walk before continuing.",
+            "zh": "司機繼續行程前下車短暫走走。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有起身或走動。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「stretch their legs 一定要做專業拉筋。」哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Stretch their legs can simply mean get up and walk briefly after sitting.",
+            "zh": "起身走走可以只是久坐後短暫步行。"
+          },
+          {
+            "id": "b",
+            "en": "It always means a formal exercise class.",
+            "zh": "它一定指正式運動課。"
+          },
+          {
+            "id": "c",
+            "en": "It means the trip is over.",
+            "zh": "它表示旅程已結束。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語常指短暫走動，不要求正式伸展訓練。"
+      },
+      "speaking": {
+        "en": "After the long workshop, the trainees stretched their legs in the courtyard for five minutes, then returned for the final session.",
+        "zh": "長時間工作坊後，學員到庭院起身走走五分鐘，再回來上最後一節。",
+        "promptZh": "先聽示範，再指出走動持續多久以及之後做甚麼。",
+        "targetSpan": {
+          "start": 38,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：審稿團隊連續坐了三小時，主持人安排八分鐘走廊休息，大家起身走動後回來繼續討論最後兩篇文章。用英文描述短暫休息，勿說工作已結束或已完成健身。",
+        "selfCheckZh": "寫出連坐三小時、八分鐘走廊走動、回來討論最後兩篇文章；勿說活動已完。",
+        "examples": [
+          {
+            "en": "After three hours seated, the reviewers used an eight-minute corridor break to stretch their legs, then returned to discuss the final two articles.",
+            "zh": "審稿團隊連續坐了三小時後，利用八分鐘走廊休息起身走走，然後回來討論最後兩篇文章。"
+          },
+          {
+            "en": "The chair paused the review after three hours so the team could stretch their legs in the corridor for eight minutes; they then resumed work on the last two articles.",
+            "zh": "主持人於連續三小時審稿後暫停會議，讓團隊在走廊起身走走八分鐘；之後他們恢復討論最後兩篇文章。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three hours seated",
+            "zh": "連續坐了三小時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 24
+            }
+          },
+          {
+            "en": "eight-minute corridor break",
+            "zh": "八分鐘走廊休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 75
+            }
+          },
+          {
+            "en": "final two articles",
+            "zh": "最後兩篇文章",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 146
+            }
+          },
+          {
+            "en": "returned",
+            "zh": "回來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 112
+            }
+          },
+          {
+            "en": "resumed work",
+            "zh": "恢復工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 140
+            }
+          },
+          {
+            "en": "last two articles",
+            "zh": "最後兩篇文章",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 165
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stretch one’s legs means take a short walking break after sitting.",
+          "zh": "起身走走，指久坐後短暫步行活動。"
+        },
+        {
+          "en": "To stretch their legs, passengers need not finish the journey or join a workout.",
+          "zh": "乘客起身走走，不代表旅程結束或參加正式健身。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

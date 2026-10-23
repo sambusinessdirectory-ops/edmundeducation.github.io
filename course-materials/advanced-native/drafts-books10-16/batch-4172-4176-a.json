@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4172",
+      "number": 4172,
+      "inventoryId": "expr-4172",
+      "titleEn": "their curiosity alive",
+      "titleZh": "保持好奇心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:my|your|his|her|our|their|its) curiosity alive\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue to be curious and willing to explore, despite routine or age.",
+        "meaningZh": "即使年紀漸長或生活有固定慣例，仍保有探索新事物的好奇心。",
+        "grammar": "Keep + possessive + curiosity alive; keep inflects kept/keeping. Alive is metaphorical, and the possessive agrees with the person or group.",
+        "register": "Warm conversational English. A librarian may use it when discussing lifelong learning with readers.",
+        "boundaryZh": "須有持續提問或探索的行動；不等於永不感到無聊，也不表示單次接觸新事物已建立長期習慣。",
+        "misconceptionZh": "好奇心不是有生命的物體；年長者並非必然失去好奇心。",
+        "outcomeZh": "能指出持續探索的證據，而不是以年齡推斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2061",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 194,
+          "book": 15,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 211, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Older readers keep their curiosity alive with new books.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "their curiosity alive"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Retired engineer Ada joined a local history walk each month and kept asking how old bridges had been built. Those questions helped her keep her curiosity alive beyond her former profession.",
+        "zh": "退休工程師艾達每月參加本地歷史導賞，不斷問舊橋是如何建造的。這些提問讓她在原來專業以外仍保持好奇心。",
+        "promptZh": "甚麼顯示她仍有好奇心？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She repeatedly explores new questions about local history.",
+            "zh": "她反覆探索本地歷史的新問題。"
+          },
+          {
+            "id": "b",
+            "en": "She already knows every answer about the bridges.",
+            "zh": "她已知道關於橋樑的所有答案。"
+          },
+          {
+            "id": "c",
+            "en": "She attends once only to confirm an old fact.",
+            "zh": "她只出席一次以證實舊資料。"
+          },
+          {
+            "id": "d",
+            "en": "Her retirement prevents her from asking questions.",
+            "zh": "退休令她不能再提問。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每月參加和持續提問顯示探索意願。"
+      },
+      "reply": {
+        "promptEn": "An older reader chooses a different subject every month, joins discussions, and writes down questions for the next meeting. What is this habit helping her do?",
+        "promptZh": "（一位年長讀者每月選不同主題、參加討論，並記下下次聚會要問的問題。這習慣幫她做到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She continues exploring unfamiliar topics.",
+            "zh": "她繼續探索陌生主題。"
+          },
+          {
+            "id": "b",
+            "en": "The questions give her reasons to return.",
+            "zh": "那些問題令她有理由再參與。"
+          },
+          {
+            "id": "c",
+            "en": "She keeps her curiosity alive through reading and discussion.",
+            "zh": "她透過閱讀與討論保持好奇心。"
+          },
+          {
+            "id": "d",
+            "en": "Her interest extends across several months.",
+            "zh": "她的興趣持續了幾個月。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都據持續選題與提問；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "攝影社成員每週研究一種新的拍攝技巧，互相提問並試拍，已持續半年。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They keep their curiosity alive through regular experiments.",
+            "zh": "他們透過定期試驗保持好奇心。"
+          },
+          {
+            "id": "b",
+            "en": "One trial proves they will never need to learn again.",
+            "zh": "一次試拍便證明他們往後毋須學習。"
+          },
+          {
+            "id": "c",
+            "en": "They have stopped asking any questions.",
+            "zh": "他們已完全停止提問。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "半年來反覆提問和試拍。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone keeps their curiosity alive？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She refuses to explore any new topic or ask a question over a long period, despite opportunities.",
+            "zh": "她長期有機會卻拒絕探索新主題或提問。"
+          },
+          {
+            "id": "b",
+            "en": "She tries a new subject each month and follows up on questions.",
+            "zh": "她每月嘗試新主題，並追問疑問。"
+          },
+          {
+            "id": "c",
+            "en": "She revisits a museum to study details she missed before.",
+            "zh": "她再訪博物館，研究上次未留意的細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期拒絕探索與提問，欠缺保持好奇的證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: Chen has spent years in accounting, yet he now attends astronomy talks and asks careful questions every month. B: ______",
+        "promptZh": "（甲：陳多年來從事會計，如今卻每月出席天文講座，並認真提問。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is keeping his curiosity alive in a new field.",
+            "zh": "他在新領域仍保持好奇心。"
+          },
+          {
+            "id": "b",
+            "en": "His questions show he wants to understand more.",
+            "zh": "他的問題顯示想了解更多。"
+          },
+          {
+            "id": "c",
+            "en": "A long career has not stopped him from exploring.",
+            "zh": "漫長職業生涯沒有阻止他探索。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據持續參與說明好奇心。"
+      },
+      "speaking": {
+        "en": "The community science group kept its curiosity alive by comparing each new water sample with earlier results and noting fresh questions.",
+        "zh": "社區科學小組把每次新水樣與舊結果比較，記下新問題，藉此保持好奇心。",
+        "promptZh": "以持續提問和探索支撐。",
+        "targetSpan": {
+          "start": 28,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人或小組長期在熟悉生活以外探索新主題。用英文寫出定期行動及新問題。",
+        "selfCheckZh": "兩例要有持續證據，不可只靠一次參觀。",
+        "examples": [
+          {
+            "en": "The retired baker kept her curiosity alive by visiting a geology club each month and asking how the rock layers formed.",
+            "zh": "退休麵包師每月參加地質社，詢問岩層如何形成，藉此保持好奇心。"
+          },
+          {
+            "en": "The volunteers kept their curiosity alive during the archive project, comparing each newly found letter with earlier records and raising questions.",
+            "zh": "義工在檔案計劃中，把每封新發現的信與舊紀錄比較並提出問題，藉此保持好奇心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a geology club",
+            "zh": "地質社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 69
+            }
+          },
+          {
+            "en": "the rock layers",
+            "zh": "岩層",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 111
+            }
+          },
+          {
+            "en": "the archive project",
+            "zh": "檔案計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 68
+            }
+          },
+          {
+            "en": "each newly found letter",
+            "zh": "每封新發現的信",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 103
+            }
+          },
+          {
+            "en": "earlier records",
+            "zh": "舊紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep your curiosity alive means continue wanting to explore.",
+          "zh": "keep your curiosity alive 指持續有探索意願。"
+        },
+        {
+          "en": "Regular questions can keep their curiosity alive at any age.",
+          "zh": "定期提問能讓他們在任何年紀保持好奇心。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4174",
+      "number": 4174,
+      "inventoryId": "expr-4174",
+      "titleEn": "food for thought",
+      "titleZh": "發人深省的材料",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfood for thought\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An idea or fact that gives someone something worth considering further, without dictating a conclusion.",
+        "meaningZh": "值得進一步思考的想法或資料，不替人預先決定結論。",
+        "grammar": "Food for thought is an uncountable idiomatic noun phrase, often with give/provide/offer. It is not literal food.",
+        "register": "Neutral reflective English. A teacher may use it when inviting students to discuss several perspectives.",
+        "boundaryZh": "重點是激發後續思考；不能把一則資料當成已經證實的完整答案。",
+        "misconceptionZh": "不是實物食物，也不一定表示講者贊同該觀點。",
+        "outcomeZh": "能指出引人思考的具體問題及仍待討論的地方。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2063",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 194,
+          "book": 15,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 211, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The essay gave the class food for thought.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "food for thought"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The exhibition showed two maps of the same river drawn fifty years apart. Their different shorelines gave visitors food for thought about how a place changes and what each map leaves out.",
+        "zh": "展覽展示相隔五十年繪製的兩張同一條河地圖。岸線差異讓訪客思考地方如何變化，以及每張圖漏了甚麼。",
+        "promptZh": "地圖帶來甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Questions worth considering about change and evidence.",
+            "zh": "關於變化與證據、值得深思的問題。"
+          },
+          {
+            "id": "b",
+            "en": "A final answer to every question about the river.",
+            "zh": "關於河流每個問題的最終答案。"
+          },
+          {
+            "id": "c",
+            "en": "A meal prepared for visitors.",
+            "zh": "為訪客準備的一餐。"
+          },
+          {
+            "id": "d",
+            "en": "Proof that both maps recorded every detail perfectly.",
+            "zh": "證明兩張圖都完美記錄所有細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "差異促使訪客思考，不是完整結論。"
+      },
+      "reply": {
+        "promptEn": "A class hears two witnesses describe the same street event differently. The teacher asks what each person could see from their position. What do the accounts provide?",
+        "promptZh": "（全班聽兩名目擊者對同一街頭事件有不同描述。老師問各人從自己的位置能看到甚麼。這些記述帶來甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reason to compare viewpoints.",
+            "zh": "一個比較觀點的理由。"
+          },
+          {
+            "id": "b",
+            "en": "Questions about what each witness observed.",
+            "zh": "關於各目擊者所見的問題。"
+          },
+          {
+            "id": "c",
+            "en": "Food for thought about evidence and perspective.",
+            "zh": "關於證據與視角、發人深省的材料。"
+          },
+          {
+            "id": "d",
+            "en": "A starting point for further discussion.",
+            "zh": "進一步討論的起點。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均把記述當作思考起點；金句不預設答案。"
+      },
+      "scene": {
+        "promptZh": "兩份統計報告對同一趨勢作不同解釋，講者請大家查資料來源再討論。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The difference gives us food for thought.",
+            "zh": "差異給我們值得深思的材料。"
+          },
+          {
+            "id": "b",
+            "en": "The two reports settle every detail without checking sources.",
+            "zh": "不查來源，兩份報告便已解決所有細節。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker must agree completely with both reports.",
+            "zh": "講者必定完全同意兩份報告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同解釋值得思考，但仍需查核。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 food for thought？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A poster repeats a known date without raising any question or new perspective for this audience.",
+            "zh": "海報只重複這群人早已知道的日期，沒有引發問題或新視角。"
+          },
+          {
+            "id": "b",
+            "en": "A comparison reveals an assumption the group had not noticed.",
+            "zh": "一項比較顯示團隊以前沒留意的假設。"
+          },
+          {
+            "id": "c",
+            "en": "A letter prompts readers to reconsider an earlier judgment.",
+            "zh": "一封信令讀者重新思考早前判斷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有引發可進一步考慮的問題。"
+      },
+      "dialogue": {
+        "promptEn": "A: The survey suggests younger and older residents use the park at different times, but we have not asked why. B: ______",
+        "promptZh": "（甲：調查顯示較年輕與較年長居民在不同時間使用公園，但我們尚未問原因。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is food for thought; we should ask what explains the pattern.",
+            "zh": "這值得深思；我們應問是甚麼造成這個模式。"
+          },
+          {
+            "id": "b",
+            "en": "The pattern gives us a question for follow-up.",
+            "zh": "這個模式給我們一個後續問題。"
+          },
+          {
+            "id": "c",
+            "en": "We should avoid treating the survey as a full explanation.",
+            "zh": "我們不應把調查當成完整解釋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出資料引發問題，而非已說明原因。"
+      },
+      "speaking": {
+        "en": "The oral-history interview offered food for thought about whose voices the town archive had preserved and whose it had missed.",
+        "zh": "口述歷史訪談讓人思考鎮上檔案館保留了誰的聲音，又遺漏了誰。",
+        "promptZh": "說明具體反思問題。",
+        "targetSpan": {
+          "start": 35,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份材料各引出值得查問的具體問題。用英文說出材料、問題和未定結論。",
+        "selfCheckZh": "兩例不能把思考線索寫成已獲證實的完整答案。",
+        "examples": [
+          {
+            "en": "The old attendance chart gave the organisers food for thought about why evening sessions drew fewer people; they planned interviews before changing times.",
+            "zh": "舊出席圖表讓主辦方思考晚間場次為何人較少；他們打算先訪談再改時間。"
+          },
+          {
+            "en": "A visitor’s question about the missing names was food for thought for the curator, who checked the records before revising the label.",
+            "zh": "訪客問起缺失的名字，讓策展人深思；他先查紀錄再修訂標籤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old attendance chart",
+            "zh": "舊出席圖表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "evening sessions",
+            "zh": "晚間場次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 88
+            }
+          },
+          {
+            "en": "interviews",
+            "zh": "訪談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 131
+            }
+          },
+          {
+            "en": "the missing names",
+            "zh": "缺失的名字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 44
+            }
+          },
+          {
+            "en": "the records",
+            "zh": "紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Food for thought is material that prompts further reflection.",
+          "zh": "food for thought 是引發進一步反思的材料。"
+        },
+        {
+          "en": "An unanswered question can offer food for thought without proving an answer.",
+          "zh": "未解的問題可發人深省，卻不能證明答案。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4175",
+      "number": 4175,
+      "inventoryId": "expr-4175",
+      "titleEn": "get lost in translation",
+      "titleZh": "轉述時失去原意",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) lost in translation\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Lose an important meaning, condition or nuance as a message is conveyed between people, formats or languages.",
+        "meaningZh": "訊息在人與人、表達形式或語言之間轉述時，重要意思、條件或細微語氣未能保留。",
+        "grammar": "Get lost in translation; get inflects got/getting. The subject can be a condition, nuance, message or idea. Translation can be figurative, such as from a spoken proposal into meeting minutes, as well as between languages.",
+        "register": "Neutral figurative English. A project colleague may use it when correcting a meeting summary for the chair; an editor may also use it of a language translation.",
+        "boundaryZh": "重點是原訊息在傳達或轉述後變了樣；可指會議意見被摘要失真，不限跨語言翻譯。須能指出流失的是哪項意思。",
+        "misconceptionZh": "不是有人真的在翻譯途中迷路，也不可斷言只有不同語言之間才會出現這種情況。",
+        "outcomeZh": "能對照原說法與轉述版本，指出流失的條件或語氣，並提出修正。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2064",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 195,
+          "book": 15,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "81–82",
+          "locatorNote": "DOCX table 212, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good ideas can get lost in translation during a rushed meeting.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get lost in translation"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Leena proposed shorter opening hours for one month, then an attendance review. The rushed minutes announced a permanent cut. Her trial condition got lost in translation, so she asked the chair to correct the minutes.",
+        "zh": "莉娜建議先試行縮短開放時間一個月，再檢討人流。匆忙寫成的會議紀錄卻宣布永久縮短。她提出的試行條件在轉述中流失，所以她請主席更正紀錄。",
+        "promptZh": "提案中的哪個意思在會議紀錄中流失？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shorter hours were a one-month trial, not a permanent decision.",
+            "zh": "縮短時間只是為期一個月的試行，並非永久決定。"
+          },
+          {
+            "id": "b",
+            "en": "The meeting was a telephone call rather than an in-person discussion.",
+            "zh": "會議以電話而非面對面形式進行。"
+          },
+          {
+            "id": "c",
+            "en": "The chair had already compared attendance figures after a month.",
+            "zh": "主席已在一個月後比較人流數字。"
+          },
+          {
+            "id": "d",
+            "en": "Leena had opposed any change to opening hours.",
+            "zh": "莉娜反對任何開放時間改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「試行一個月後檢討」被寫成永久決定，關鍵條件在轉述中流失。"
+      },
+      "reply": {
+        "promptEn": "A technician says the repair can finish by Friday if the replacement board arrives. The team summary says the repair is guaranteed by Friday. What happened to the condition?",
+        "promptZh": "（技術員說，如果替換電路板送到，維修可在星期五前完成。團隊摘要卻說保證星期五前完成。原來的條件發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The summary left out the board-delivery condition.",
+            "zh": "摘要漏掉了電路板送達這個條件。"
+          },
+          {
+            "id": "b",
+            "en": "It turned a conditional estimate into a guarantee.",
+            "zh": "它把有條件的估計說成保證。"
+          },
+          {
+            "id": "c",
+            "en": "The condition got lost in translation from the technician’s update to the summary.",
+            "zh": "技術員的更新轉成摘要時，條件流失了。"
+          },
+          {
+            "id": "d",
+            "en": "The summary should say Friday depends on the board arriving.",
+            "zh": "摘要應說明星期五能否完成取決於電路板是否送達。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均切合「如電路板送達」被省略；金句點出轉述時的意思流失。"
+      },
+      "scene": {
+        "promptZh": "舞台經理說，背景板只有通過承重測試才可使用；給義工的簡報卻只說「背景板可用」。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The safety condition got lost in translation when the instruction was passed on.",
+            "zh": "指示傳下去時，安全條件流失了。"
+          },
+          {
+            "id": "b",
+            "en": "The briefing preserved the test requirement clearly enough.",
+            "zh": "簡報已清楚保留測試要求。"
+          },
+          {
+            "id": "c",
+            "en": "The manager had already reported that the board passed the test.",
+            "zh": "舞台經理已報告背景板通過測試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「通過測試才可用」被縮成「可用」，條件在轉述中消失。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a detail got lost in translation？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The meeting note repeats the one-month trial and review condition, and the team confirms that reading.",
+            "zh": "會議紀錄保留一個月試行及檢討條件，團隊亦確認此理解。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker says the plan is provisional, but the circulated note calls it final.",
+            "zh": "講者說計劃屬暫定，傳閱紀錄卻說已成定案。"
+          },
+          {
+            "id": "c",
+            "en": "A translated leaflet turns an optional visit into a required one.",
+            "zh": "翻譯單張把可自行選擇的參觀說成必須參加。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵試行條件被準確保留，沒有意思流失的證據；另兩項分別是轉述與跨語言失真。"
+      },
+      "dialogue": {
+        "promptEn": "A: Maya said the rehearsal room works only if the microphone is repaired, but the handover note simply says it works. B: ______",
+        "promptZh": "（甲：瑪雅說排練室只有在咪高峰修好後才合用，交接紀錄卻只說它合用。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That repair condition got lost in translation; let us add it to the note.",
+            "zh": "維修條件在轉述中流失了；我們把它補進紀錄吧。"
+          },
+          {
+            "id": "b",
+            "en": "The note should mention the microphone repair.",
+            "zh": "紀錄應提及咪高峰維修。"
+          },
+          {
+            "id": "c",
+            "en": "As written, the note makes the room sound ready already.",
+            "zh": "照目前寫法，紀錄令人以為排練室已可使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句準確指出交接紀錄漏掉「修好咪高峰」這個條件。"
+      },
+      "speaking": {
+        "en": "In the design handover, the note called the shelves ready, although Omar had requested a load test first. His condition got lost in translation, so the lead restored it before the shelves were used.",
+        "zh": "設計交接紀錄稱層架已可使用，雖然奧馬爾原先要求先做承重測試。他的條件在轉述中流失，因此負責人在使用層架前把它補回紀錄。",
+        "promptZh": "說出原來的條件、交接紀錄如何失真，以及如何修正。",
+        "targetSpan": {
+          "start": 120,
+          "end": 143
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩段資訊從原提議傳到書面紀錄或排班訊息後，各流失一項具體條件。用英文寫出原說法、轉述偏差及修正。",
+        "selfCheckZh": "兩例要指出可核對的意思差異；不限不同語言，不可只說「有人誤會了」而不交代哪項條件流失。",
+        "examples": [
+          {
+            "en": "The curator proposed trialling subtitles for one weekend, but the minutes described a permanent policy. The time limit got lost in translation, so she corrected the record before approval.",
+            "zh": "策展人提議只在一個週末試行字幕，會議紀錄卻寫成永久政策。時限在轉述中流失，因此她在審批前更正紀錄。"
+          },
+          {
+            "en": "Niko offered to water the greenhouse on Tuesdays and Thursdays, yet the forwarded rota assigned him every day. His limited availability got lost in translation, and the coordinator fixed the rota before sending it out.",
+            "zh": "尼高表示可在星期二及四為溫室澆水，轉發的值班表卻安排他每天工作。他可當值的日子有限，這點在轉述中流失；協調員在發布值班表前把它改正。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "trialling subtitles",
+            "zh": "試行字幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 40
+            }
+          },
+          {
+            "en": "one weekend",
+            "zh": "一個週末",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 56
+            }
+          },
+          {
+            "en": "a permanent policy",
+            "zh": "永久政策",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 102
+            }
+          },
+          {
+            "en": "the forwarded rota",
+            "zh": "轉發的值班表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 86
+            }
+          },
+          {
+            "en": "limited availability",
+            "zh": "有限的可當值日子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Get lost in translation can describe a condition lost as a message is passed between people or formats.",
+          "zh": "get lost in translation 可形容訊息在人與人或不同形式之間轉述時，原有條件流失。"
+        },
+        {
+          "en": "A nuance can get lost in translation between languages too; compare the original and the retelling.",
+          "zh": "它也可指跨語言時意思流失；要對照原說法與轉述版本。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4176",
+      "number": 4176,
+      "inventoryId": "expr-4176",
+      "titleEn": "go nowhere",
+      "titleZh": "毫無進展",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|going) nowhere\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Fail to develop or achieve a useful result despite discussion or effort.",
+        "meaningZh": "即使有討論或嘗試，事情仍沒有實質推進或結果。",
+        "grammar": "Go nowhere is intransitive and figurative; go inflects went/going. It can describe a proposal, meeting or effort, not necessarily travel.",
+        "register": "Neutral-to-frustrated conversational English. A project lead may use it in a planning review when naming a concrete bottleneck.",
+        "boundaryZh": "重點是缺乏實質進度；一項工作暫時等候核准，不等於注定永無進展。",
+        "misconceptionZh": "不是物理上沒有移動，也不是只要有爭論就一定毫無成果。",
+        "outcomeZh": "能指出已投入甚麼、仍缺甚麼，以及可能讓事情推進的下一步。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2065",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 195,
+          "book": 15,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "81–82",
+          "locatorNote": "DOCX table 212, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A proposal may go nowhere without a clear explanation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go nowhere"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The team discussed a mural proposal for three meetings but never agreed on a site or budget. Without those decisions, the proposal went nowhere; they scheduled a site visit to break the impasse.",
+        "zh": "團隊開了三次會討論壁畫建議，卻始終未定地點或預算。缺少這兩項決定，方案沒有進展；他們安排實地視察以打破僵局。",
+        "promptZh": "方案為何沒進展？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The site and budget decisions were still missing after several meetings.",
+            "zh": "多次會議後，地點與預算仍未定。"
+          },
+          {
+            "id": "b",
+            "en": "A site visit had already been completed and approved.",
+            "zh": "實地視察早已完成並獲批准。"
+          },
+          {
+            "id": "c",
+            "en": "The mural was installed before discussion began.",
+            "zh": "壁畫在討論開始前已安裝。"
+          },
+          {
+            "id": "d",
+            "en": "The proposal required no decision at all.",
+            "zh": "方案根本毋須任何決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有討論但核心決定未作，方案卡住。"
+      },
+      "reply": {
+        "promptEn": "A committee talks about a new reading room repeatedly, but it has not named a space, budget or responsible person. What is happening to the proposal?",
+        "promptZh": "（委員會反覆討論新閱覽室，卻未定地方、預算或負責人。方案目前怎樣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It lacks the decisions needed to advance.",
+            "zh": "它缺少推進所需的決定。"
+          },
+          {
+            "id": "b",
+            "en": "Discussion has not yet produced a workable plan.",
+            "zh": "討論尚未形成可行方案。"
+          },
+          {
+            "id": "c",
+            "en": "The proposal is going nowhere for now.",
+            "zh": "方案目前毫無進展。"
+          },
+          {
+            "id": "d",
+            "en": "Naming a site and owner could move it forward.",
+            "zh": "定地點與負責人或可推動方案。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據缺少關鍵決定回答；金句表明目前卡住。"
+      },
+      "scene": {
+        "promptZh": "社團開了幾次會談新活動，卻始終沒人負責、沒定日期，也沒有下一步。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The plan is going nowhere without basic decisions.",
+            "zh": "欠缺基本決定，計劃毫無進展。"
+          },
+          {
+            "id": "b",
+            "en": "The plan has already been delivered successfully.",
+            "zh": "計劃已順利完成。"
+          },
+          {
+            "id": "c",
+            "en": "A single meeting date automatically solves every issue.",
+            "zh": "只要定一次會議日期，便自動解決全部問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆討論卻沒有實際決定或下一步。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a proposal went nowhere？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group named a site, approved the budget and began the first scheduled task.",
+            "zh": "團隊定好地點、批准預算，並開始第一項已安排任務。"
+          },
+          {
+            "id": "b",
+            "en": "After months of meetings, no one has agreed who will act.",
+            "zh": "開會幾個月後，仍沒人同意由誰行動。"
+          },
+          {
+            "id": "c",
+            "en": "Each discussion ends without a decision or next step.",
+            "zh": "每次討論都沒有決定或下一步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有具體決定與執行，不能說完全沒有進展。"
+      },
+      "dialogue": {
+        "promptEn": "A: We have discussed the community archive four times but still have no storage space or named coordinator. B: ______",
+        "promptZh": "（甲：我們討論社區檔案館四次，仍未有儲存地方或指定協調員。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The proposal may go nowhere unless we settle those two points.",
+            "zh": "若不解決這兩點，方案可能毫無進展。"
+          },
+          {
+            "id": "b",
+            "en": "We need a storage decision and someone to lead.",
+            "zh": "我們須決定儲存地方及負責人。"
+          },
+          {
+            "id": "c",
+            "en": "The next meeting should assign those tasks.",
+            "zh": "下次會議應分配這些任務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指明進度風險與具體阻礙。"
+      },
+      "speaking": {
+        "en": "The grant idea went nowhere for months because no one prepared the cost estimate; the treasurer finally drafted one for review.",
+        "zh": "資助構想幾個月沒有進展，因為沒人編製成本估算；司庫終於草擬一份供檢討。",
+        "promptZh": "說明卡住的實際原因及推進的可能。",
+        "targetSpan": {
+          "start": 15,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個計劃有多次討論，卻缺少一項關鍵決定或行動。用英文寫出投入、阻礙與可能的下一步。",
+        "selfCheckZh": "兩例不能在已開始實際執行時仍說完全沒有進展。",
+        "examples": [
+          {
+            "en": "The poster plan went nowhere after three meetings because no one chose a printing budget; the group asked the treasurer for figures.",
+            "zh": "海報計劃開了三次會仍沒有進展，因為沒人定印刷預算；團隊請司庫提供數字。"
+          },
+          {
+            "en": "Their garden proposal was going nowhere while the access route remained undecided, so the volunteers arranged a site walk.",
+            "zh": "通道安排一直未定，花園建議因此毫無進展；義工於是安排實地步行視察。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three meetings",
+            "zh": "三次會議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 49
+            }
+          },
+          {
+            "en": "a printing budget",
+            "zh": "印刷預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 88
+            }
+          },
+          {
+            "en": "the treasurer",
+            "zh": "司庫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 119
+            }
+          },
+          {
+            "en": "the access route",
+            "zh": "通道安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 62
+            }
+          },
+          {
+            "en": "a site walk",
+            "zh": "實地步行視察",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Go nowhere means fail to make useful progress.",
+          "zh": "go nowhere 指沒有實質進展。"
+        },
+        {
+          "en": "Name the bottleneck before saying a proposal is going nowhere.",
+          "zh": "說方案毫無進展前，應指出卡住的原因。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4248, 4250, 4252, 4253, 4263, 4264, 4265 and 4273",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4248-4253-a.json",
+      "sha256": "1fbd7a9f46a508a3e6facc5a48a02a0830dd0e8a089bf6fb12b3ab92feb8b1fe"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4263-4273-a.json",
+      "sha256": "9621adc26e243d8b6ce35aafb0da04f9f9a35cbf0da4d9671f5f624e9e2af526"
+    }
+  ],
+  "authorSelfAuditSha256": "3ffc56f478e7b44aff9593fddcfc67ec01b3d0be71cc09aa41c43623fb12e6c5",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "repair-required-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Each four-lesson file passed build and --check with 24 questions, 16 audio requests and 0 flags; combined totals 8/48/32/0.",
+    "sourceAndTarget": "Every exact source sentence matches its proposed lesson's target. All eight speaking target slices and all writing glossary slices are exact.",
+    "selectedIdCollisions": 0,
+    "sourceOriginality": "Independent six-token exact-overlap screen: 232 learner-facing English strings across eight lessons versus 2,604 source examples; 0 overlaps. This screen does not establish semantic originality by itself."
+  },
+  "findings": [
+    {
+      "id": "R4250-01",
+      "severity": "major",
+      "lessonId": "advanced-native-4250",
+      "sourceId": "book10-16-2139",
+      "affectedFields": ["listening.en/zh", "dialogue.options[a].en/zh", "speaking.en/zh", "writing.examples[0..1].en/zh", "writing.promptZh"],
+      "issue": "Several examples name the affected person (Ivo, Mira, Nia, Lena or Jun) but then say 'made a student feel small', which reads as a different unspecified student. In the second writing model, Jun is called a cast member but never established as a learner, although the prompt asks for two learners. This blurs who was belittled and weakens the answer as a standalone model.",
+      "recommendedRepair": "Use 'made him/her feel small' for a previously named person, which the target detector already covers, and keep the Traditional Chinese actor aligned. Establish that both writing-model subjects are learners, or adjust the task description to cover the actual roles. Preserve concrete insulting remark, withdrawal and respectful repair."
+    }
+  ],
+  "otherLessonScreen": "The remaining seven lessons match their source meanings and show grounded keyed scenes, four valid reply options, changed-context writing and reasonable English–Traditional Chinese fidelity on risk-based review. No further selection blocker was found. This was not a line-by-line proofread of all 48 questions.",
+  "nextStep": "Repair lesson 4250 and independently recheck the exact new file hash; do not select either batch until the affected content is clear."
+}

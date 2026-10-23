@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3933-3941-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3933",
+      "number": 3933,
+      "inventoryId": "expr-3933",
+      "titleEn": "weighed down by academic pressure",
+      "titleZh": "被學業壓力壓得喘不過氣",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bweighed\\s+down\\s+by\\s+academic\\s+pressure\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feel emotionally burdened by demanding schoolwork or expectations.",
+        "meaningZh": "因功課或成績期望而感到沉重壓力。",
+        "grammar": "Someone is/feels weighed down by academic pressure. The broader reusable frame is weighed down by + a burden; the source specifies academic pressure.",
+        "register": "Everyday school and wellbeing discussion; a class adviser notices a pupil struggling with overlapping deadlines.",
+        "boundaryZh": "描述壓力造成負擔；不等於學生能力差，也不表示壓力必然來自某個人。",
+        "misconceptionZh": "不是書包重量，也不能只憑課程繁忙就假設每位學生都感到被壓垮。",
+        "outcomeZh": "能根據作業、期望與學生感受，指出壓力來源而不作無根據的診斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1822",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 172,
+          "book": 15,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "15–16",
+          "locatorNote": "DOCX table 184, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some students feel weighed down by academic pressure.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "weighed down by academic pressure"
+        }
+      ],
+      "listening": {
+        "en": "Three major projects fall due on the same Friday. Mei says she cannot relax even after studying all evening and feels weighed down by academic pressure.",
+        "zh": "三份重要專題都在同一個星期五到期。美整晚溫習後仍不能放鬆，說自己被學業壓力壓得喘不過氣。",
+        "promptZh": "weighed down by academic pressure 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mei feels burdened by school demands.",
+            "zh": "美感到學業要求帶來沉重負擔。"
+          },
+          {
+            "id": "b",
+            "en": "Mei feels ready because the projects are spread across the term.",
+            "zh": "專題分散在整個學期，美因而覺得準備充足。"
+          },
+          {
+            "id": "c",
+            "en": "The projects are complete, so no deadline remains.",
+            "zh": "專題已全部完成，因此沒有剩餘限期。"
+          },
+          {
+            "id": "d",
+            "en": "Mei is asking for more projects because she feels unstretched.",
+            "zh": "美覺得工作量不足，正要求增加專題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一日多項限期及難以放鬆，說明心理負擔。"
+      },
+      "reply": {
+        "promptEn": "Why is Jun asking for a planning meeting? He has two exams and a presentation next week, and he says the demands are making it hard to sleep.",
+        "promptZh": "（俊為何要求開會規劃？他下週有兩場考試及一次匯報，說這些要求令他難以入睡。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "His school demands feel heavy right now.",
+            "zh": "目前學業要求令他感到沉重。"
+          },
+          {
+            "id": "b",
+            "en": "He wants help organising overlapping tasks.",
+            "zh": "他想有人協助安排重疊的工作。"
+          },
+          {
+            "id": "c",
+            "en": "He feels weighed down by academic pressure.",
+            "zh": "他被學業壓力壓得喘不過氣。"
+          },
+          {
+            "id": "d",
+            "en": "The deadlines are affecting his rest.",
+            "zh": "限期正影響他的休息。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據任務與睡眠困難作出合理回應。"
+      },
+      "scene": {
+        "promptZh": "一名學生說，連續測驗及家人對成績的期望令她長期緊張。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is weighed down by academic pressure.",
+            "zh": "她被學業壓力壓得喘不過氣。"
+          },
+          {
+            "id": "b",
+            "en": "She describes the tests as challenging but says they cause no tension.",
+            "zh": "她說測驗有挑戰，但不會令她緊張。"
+          },
+          {
+            "id": "c",
+            "en": "She is anxious only because she has no school tasks to do.",
+            "zh": "她焦慮純因沒有學業任務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "考試與成績期望構成她明確說出的負擔。"
+      },
+      "contrast": {
+        "promptZh": "哪項不足以斷定某學生 weighed down by academic pressure？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student says deadlines leave her unable to rest.",
+            "zh": "學生說限期令她無法休息。"
+          },
+          {
+            "id": "b",
+            "en": "A school has many assignments, but this student says nothing about feeling burdened.",
+            "zh": "學校功課很多，但這名學生沒有說自己感到負擔。"
+          },
+          {
+            "id": "c",
+            "en": "The student reports worry about exams and asks for support.",
+            "zh": "學生說擔心考試，並尋求支援。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "要描述個人的感受，不能單憑課程安排推斷。"
+      },
+      "dialogue": {
+        "promptZh": "有人說：「這句話代表這個學生不夠聰明。」哪句回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being weighed down by academic pressure says nothing about the student’s ability.",
+            "zh": "被學業壓力壓得喘不過氣，並不能說明學生能力。"
+          },
+          {
+            "id": "b",
+            "en": "It proves the student cannot learn.",
+            "zh": "它證明學生無法學習。"
+          },
+          {
+            "id": "c",
+            "en": "It tells us that the student has already failed every assessment.",
+            "zh": "這表示學生已在所有考核中失敗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "壓力與能力不能畫上等號。"
+      },
+      "speaking": {
+        "en": "Lina feels weighed down by academic pressure because four coursework deadlines overlap, so she asks her tutor to help set priorities.",
+        "zh": "四項課業限期重疊，令莉娜被學業壓力壓得喘不過氣，因此她請導師協助分先後次序。",
+        "promptZh": "先聽示範，再說出她請導師幫忙做甚麼。",
+        "targetSpan": {
+          "start": 11,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：阿樂要在十天內交兩份報告並準備一場公開考試；他說自己一直焦慮，導師同意與他訂優先次序。用英文描述他的感受與支援，不要說他必然考試失敗。",
+        "selfCheckZh": "寫出十天內兩份報告與一場考試、他表示焦慮、導師協助訂優先次序；不推斷考試結果。",
+        "examples": [
+          {
+            "en": "With two reports and an exam in ten days, Lok feels weighed down by academic pressure; his tutor will help him set priorities.",
+            "zh": "十天內要交兩份報告並應考，樂被學業壓力壓得喘不過氣；導師會協助他訂優先次序。"
+          },
+          {
+            "en": "Lok says he feels weighed down by academic pressure as he prepares two reports and an exam over the next ten days, so his tutor has offered a planning meeting to set priorities.",
+            "zh": "樂說未來十天要準備兩份報告和一場考試，令他被學業壓力壓得喘不過氣；導師於是提議開會，協助他訂出優先次序。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two reports",
+            "zh": "兩份報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 16
+            }
+          },
+          {
+            "en": "an exam",
+            "zh": "一場考試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 28
+            }
+          },
+          {
+            "en": "in ten days",
+            "zh": "十天內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 40
+            }
+          },
+          {
+            "en": "set priorities",
+            "zh": "訂優先次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 125
+            }
+          },
+          {
+            "en": "next ten days",
+            "zh": "未來十天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          },
+          {
+            "en": "planning meeting",
+            "zh": "規劃會議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 158
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Weighed down by academic pressure describes a felt burden from school demands.",
+          "zh": "被學業壓力壓得喘不過氣，描述學業要求帶來的沉重感。"
+        },
+        {
+          "en": "Feeling weighed down by academic pressure does not measure a learner’s ability.",
+          "zh": "感到學業壓力沉重，並不能用來判斷學生能力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3934",
+      "number": 3934,
+      "inventoryId": "expr-3934",
+      "titleEn": "shake the stress off",
+      "titleZh": "甩掉壓力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bshake\\s+the\\s+stress\\s+off\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Release or reduce the tension one feels, often through an activity or change of pace.",
+        "meaningZh": "透過活動或轉換節奏，紓解身上的緊張感。",
+        "grammar": "Shake the stress off: shake + the stress + off. The phrase describes easing felt tension, not necessarily solving its cause.",
+        "register": "Informal wellbeing conversation; a rehearsal partner explains why a short walk helps before a performance.",
+        "boundaryZh": "紓壓不等於責任已完成、問題已解決或壓力永不回來。",
+        "misconceptionZh": "不是把壓力當成實物抖落，也不表示每種活動對每人都同樣有效。",
+        "outcomeZh": "能分清暫時紓解感受與處理壓力來源。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1823",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 172,
+          "book": 15,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "15–16",
+          "locatorNote": "DOCX table 184, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A short run helps me shake the stress off.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shake the stress off"
+        }
+      ],
+      "listening": {
+        "en": "Before her first debate, Tara felt tense. She took a quiet walk around the garden to shake the stress off, then returned to practise her opening.",
+        "zh": "第一次辯論前，塔拉很緊張。她在花園靜靜走了一圈，想甩掉壓力，然後回來練習開場白。",
+        "promptZh": "shake the stress off 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ease the tension she feels.",
+            "zh": "紓解她感受到的緊張。"
+          },
+          {
+            "id": "b",
+            "en": "She means the debate no longer needs any preparation.",
+            "zh": "她的意思是辯論已不用準備。"
+          },
+          {
+            "id": "c",
+            "en": "The walk removed the debate from the schedule.",
+            "zh": "散步使辯論從日程中取消。"
+          },
+          {
+            "id": "d",
+            "en": "She expects the walk to guarantee a confident performance.",
+            "zh": "她預期散步保證演出時有自信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "散步旨在減輕緊張，不代表辯論取消或必定勝出。"
+      },
+      "reply": {
+        "promptEn": "Why is Bo going outside before the audition? She says she is tense and a few minutes of fresh air usually helps her settle, though she still has to audition.",
+        "promptZh": "（寶為何在試演前到外面？她說自己很緊張，呼吸幾分鐘新鮮空氣通常能使她平靜些；她仍須參加試演。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wants to feel calmer before going in.",
+            "zh": "她希望進場前冷靜一點。"
+          },
+          {
+            "id": "b",
+            "en": "Fresh air may ease her tension for now.",
+            "zh": "新鮮空氣或可暫時緩解緊張。"
+          },
+          {
+            "id": "c",
+            "en": "She is trying to shake the stress off.",
+            "zh": "她想甩掉壓力。"
+          },
+          {
+            "id": "d",
+            "en": "She is taking a short pause, then returning to audition.",
+            "zh": "她稍作休息，然後回去試演。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都與暫時減輕緊張且仍需試演的情境相符。"
+      },
+      "scene": {
+        "promptZh": "面試前，應徵者做了幾分鐘呼吸練習，感到較平靜，但面試仍在前面。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She tried to shake the stress off.",
+            "zh": "她試着甩掉壓力。"
+          },
+          {
+            "id": "b",
+            "en": "She has finished the interview, so she has nothing to face.",
+            "zh": "她已完成面試，毋須再面對它。"
+          },
+          {
+            "id": "c",
+            "en": "The breathing exercises remove the need to attend.",
+            "zh": "呼吸練習使她不用參加面試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "呼吸練習讓她紓解感受，而未消除面試本身。"
+      },
+      "contrast": {
+        "promptZh": "哪種解讀最超出 shake the stress off 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A short break can make someone feel less tense.",
+            "zh": "短暫休息可使人較不緊張。"
+          },
+          {
+            "id": "b",
+            "en": "The underlying problem has been permanently solved.",
+            "zh": "壓力來源已永久解決。"
+          },
+          {
+            "id": "c",
+            "en": "Movement can sometimes help a person settle.",
+            "zh": "活動身體有時能幫助人平靜。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "紓壓不保證根本問題得到永久解決。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只要 shake the stress off，就不用再準備演講。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can shake the stress off and still need to prepare the speech.",
+            "zh": "你可以甩掉壓力，但仍須準備演講。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means the speech is cancelled.",
+            "zh": "這片語表示演講取消。"
+          },
+          {
+            "id": "c",
+            "en": "Feeling calmer automatically completes the speech preparation.",
+            "zh": "平靜下來就會自動完成演講準備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "感覺減壓與完成準備是兩回事。"
+      },
+      "speaking": {
+        "en": "A short stretch helped the dancers shake the stress off before rehearsal, but they still checked the difficult steps.",
+        "zh": "簡短伸展幫助舞蹈員在排練前甩掉壓力，但他們仍檢查了困難舞步。",
+        "promptZh": "先聽示範，再指出舞蹈員紓壓後仍做甚麼。",
+        "targetSpan": {
+          "start": 35,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：露絲明天須主持公開問答，今晚因緊張而暫停準備，跟朋友慢走十五分鐘後比較平靜，再回來檢查題卡。用英文交代紓壓與仍需準備。",
+        "selfCheckZh": "寫出明天主持、十五分鐘慢走後較平靜、回來檢查題卡；勿說問題已永久消失。",
+        "examples": [
+          {
+            "en": "Ruth took a fifteen-minute walk with a friend to shake the stress off before tomorrow’s public Q&A; calmer afterward, she returned to check her question cards.",
+            "zh": "露絲明天要主持公開問答，她跟朋友慢走十五分鐘以甩掉壓力；之後較平靜，便回來檢查題卡。"
+          },
+          {
+            "en": "Ahead of tomorrow’s public Q&A, Ruth paused her preparation for a fifteen-minute walk with a friend. It helped her shake the stress off, and she still checked the question cards afterward.",
+            "zh": "明天要主持公開問答，露絲暫停準備，跟朋友慢走十五分鐘。這幫助她甩掉壓力，之後她仍檢查了題卡。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fifteen-minute walk",
+            "zh": "十五分鐘慢走",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 31
+            }
+          },
+          {
+            "en": "public Q&A",
+            "zh": "公開問答",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 98
+            }
+          },
+          {
+            "en": "calmer afterward",
+            "zh": "之後較平靜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          },
+          {
+            "en": "question cards",
+            "zh": "題卡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 158
+            }
+          },
+          {
+            "en": "paused her preparation",
+            "zh": "暫停準備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 59
+            }
+          },
+          {
+            "en": "checked the question cards",
+            "zh": "檢查題卡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 177
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shake the stress off means ease felt tension for now.",
+          "zh": "甩掉壓力，指暫時紓解緊張感。"
+        },
+        {
+          "en": "You can shake the stress off and still need to prepare.",
+          "zh": "你可以甩掉壓力，但仍須準備。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3941",
+      "number": 3941,
+      "inventoryId": "expr-3941",
+      "titleEn": "build character",
+      "titleZh": "磨練品格",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:build|builds|building|built)\\s+character\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Help someone develop qualities such as patience, responsibility or resilience through experience.",
+        "meaningZh": "透過經歷培養耐性、責任感或韌性等品格。",
+        "grammar": "An experience can build character; this is a claim about development, not an automatic result. Built character is the past form when needed.",
+        "register": "Everyday education discussion; a volunteer coordinator explains a specific responsibility students learned by managing an event.",
+        "boundaryZh": "要指出哪種品格及怎樣培養；不能聲稱任何困難或運動必然有益。",
+        "misconceptionZh": "不是塑造故事人物，也不等於吃苦本身一定正當或有效。",
+        "outcomeZh": "能根據具體行動和反思，說明經歷如何培養一項品格。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1830",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 172,
+          "book": 15,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "15–16",
+          "locatorNote": "DOCX table 184, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Team sports can build character.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "build character"
+        }
+      ],
+      "listening": {
+        "en": "The junior organisers had to apologise for a cancelled workshop and arrange refunds themselves. Their mentor said taking responsibility in that way could build character.",
+        "zh": "初級主辦者要為取消工作坊道歉，並親自安排退款。導師說，這樣承擔責任可以磨練品格。",
+        "promptZh": "build character 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Develop responsibility through the experience.",
+            "zh": "透過經歷培養責任感。"
+          },
+          {
+            "id": "b",
+            "en": "The mentor thinks refunds were unnecessary, so the team should avoid them.",
+            "zh": "導師認為毋須退款，團隊應避開這事。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers developed skills only by avoiding the cancellation.",
+            "zh": "主辦者只靠逃避處理取消活動來培養能力。"
+          },
+          {
+            "id": "d",
+            "en": "The mentor says responsibility is guaranteed by any hardship.",
+            "zh": "導師說任何困難都必然帶來責任感。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "親自道歉與退款，提供培養責任感的具體方式。"
+      },
+      "reply": {
+        "promptEn": "Why does the coach ask captains to admit a scoring error to both teams? They correct the result, then discuss how honest decisions earn trust.",
+        "promptZh": "（教練為何要求隊長向兩隊承認記分錯誤？他們更正賽果，再討論誠實決定如何建立信任。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The captains practise honesty and responsibility.",
+            "zh": "隊長練習誠實和負責。"
+          },
+          {
+            "id": "b",
+            "en": "Correcting the error can teach a useful habit.",
+            "zh": "更正錯誤可以培養有用習慣。"
+          },
+          {
+            "id": "c",
+            "en": "Owning the mistake may build character.",
+            "zh": "承認錯誤可能有助磨練品格。"
+          },
+          {
+            "id": "d",
+            "en": "The discussion links their action to trust.",
+            "zh": "討論把他們的行動與信任連起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指向誠實承認錯誤的具體學習。"
+      },
+      "scene": {
+        "promptZh": "學生輪流管理社區書櫃，漏登記時會主動補正並告知借閱者。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The experience may build character by teaching responsibility.",
+            "zh": "這經歷可能透過培養責任感來磨練品格。"
+          },
+          {
+            "id": "b",
+            "en": "The students will automatically behave perfectly after one correction.",
+            "zh": "學生一次更正後必定永遠表現完美。"
+          },
+          {
+            "id": "c",
+            "en": "The record-keeping task matters only because it is difficult.",
+            "zh": "紀錄工作有用，只因它困難。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主動補正錯誤是責任感的可見例子。"
+      },
+      "contrast": {
+        "promptZh": "哪句對 build character 最謹慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Any punishment automatically builds character.",
+            "zh": "任何懲罰都自動磨練品格。"
+          },
+          {
+            "id": "b",
+            "en": "A supported challenge may build character if learners practise patience and reflect on it.",
+            "zh": "有支援的挑戰若讓學生練習耐性並反思，可能磨練品格。"
+          },
+          {
+            "id": "c",
+            "en": "Difficulty alone proves someone has developed responsibility.",
+            "zh": "單是遇到困難就證明已培養責任感。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "須有具體行動與反思，不能把困難自動視為益處。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「build character 是創作小說角色。」這段社區活動中應怎樣理解？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Here, build character means develop responsibility through what students do.",
+            "zh": "這裏磨練品格，指透過學生的行動培養責任感。"
+          },
+          {
+            "id": "b",
+            "en": "Any demanding task develops responsibility even without reflection.",
+            "zh": "任何艱難任務即使沒有反思也能培養責任感。"
+          },
+          {
+            "id": "c",
+            "en": "It means making every task harder without reason.",
+            "zh": "它指無故令每項工作更難。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此處 character 指品格，不是故事角色。"
+      },
+      "speaking": {
+        "en": "Helping newcomers practise the safety rules may build character if the older students learn patience and listen to questions.",
+        "zh": "高年級學生協助新生練習安全規則，若在過程中學會耐心聆聽提問，便可能磨練品格。",
+        "promptZh": "先聽示範，再指出學生可能培養哪種品格。",
+        "targetSpan": {
+          "start": 48,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生負責為社區餐食活動記錄過敏資訊；發現遺漏後主動更正，並向導師請教往後如何避免。用英文說明這經歷可能培養責任感，不要保證人人都會改變。",
+        "selfCheckZh": "寫出過敏資訊紀錄、發現遺漏後主動更正、請教避免方法，以及可能培養責任感。",
+        "examples": [
+          {
+            "en": "Recording allergy details for the community meal and correcting an omission may build character: the students took responsibility and asked their tutor how to prevent another error.",
+            "zh": "學生為社區餐食記錄過敏資訊，發現遺漏後更正，這可能磨練品格：他們承擔責任，並請教導師如何避免再犯。"
+          },
+          {
+            "en": "The students corrected a missing allergy note in the meal records and sought their tutor’s advice. That responsible response could build character, though it does not guarantee everyone will change.",
+            "zh": "學生更正了餐食紀錄中遺漏的過敏資訊，並向導師請教。這種負責任的回應可能磨練品格，但不保證每個人都會改變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "allergy details",
+            "zh": "過敏資訊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 25
+            }
+          },
+          {
+            "en": "correcting an omission",
+            "zh": "更正遺漏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 75
+            }
+          },
+          {
+            "en": "took responsibility",
+            "zh": "承擔責任",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 129
+            }
+          },
+          {
+            "en": "prevent another error",
+            "zh": "避免再犯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 159,
+              "end": 180
+            }
+          },
+          {
+            "en": "missing allergy note",
+            "zh": "遺漏的過敏資訊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 45
+            }
+          },
+          {
+            "en": "does not guarantee",
+            "zh": "不保證",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 176
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Build character can mean developing good qualities through specific actions.",
+          "zh": "磨練品格，可指透過具體行動培養良好特質。"
+        },
+        {
+          "en": "A challenge may build character, but hardship alone proves nothing.",
+          "zh": "挑戰可能磨練品格，單是吃苦卻不能證明甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

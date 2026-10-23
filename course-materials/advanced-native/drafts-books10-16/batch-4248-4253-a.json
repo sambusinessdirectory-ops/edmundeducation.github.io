@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4248",
+      "number": 4248,
+      "inventoryId": "expr-4248",
+      "titleEn": "the penny finally drops",
+      "titleZh": "終於恍然大悟",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe penny (?:finally )?(?:drops|dropped)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Someone suddenly understands a point after earlier confusion, often following one useful clue or explanation.",
+        "meaningZh": "先前不明白，得到關鍵提示或解釋後突然想通。",
+        "grammar": "The penny drops/dropped; finally may precede the verb. The whole clause describes the moment understanding arrives. British conversational idiom; not a literal coin.",
+        "register": "Informal, especially British English. A tutor may say it to a colleague after seeing a student grasp a difficult idea.",
+        "boundaryZh": "要有此前的疑惑與清楚的頓悟時刻；只是慢慢熟悉或重複答案，不足以說恍然大悟。",
+        "misconceptionZh": "不是硬幣掉在地上，也不代表理解後已能獨立完成所有新題。",
+        "outcomeZh": "能指出先前疑惑、觸發理解的提示，以及現在能解釋的重點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2137",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 201,
+          "book": 16,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "10–11",
+          "locatorNote": "DOCX table 219, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After another diagram, the penny finally drops.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the penny finally drops"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Rafi kept confusing the scale on two maps. A guide pointed to the distance bar on each one; the penny finally dropped, and Rafi could explain why the same centimetre meant different distances.",
+        "zh": "拉菲一直混淆兩張地圖的比例尺。導賞員指向各圖的距離刻度；他終於恍然大悟，能解釋為何同樣一厘米代表不同距離。",
+        "promptZh": "哪項證據顯示他突然明白？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After seeing the bars, he can explain the difference in scale.",
+            "zh": "看過刻度後，他能解釋比例尺的差別。"
+          },
+          {
+            "id": "b",
+            "en": "He copied the answer before looking at the bars.",
+            "zh": "他在看刻度前已抄下答案。"
+          },
+          {
+            "id": "c",
+            "en": "He still says the two scales must be identical.",
+            "zh": "他仍說兩個比例尺必定相同。"
+          },
+          {
+            "id": "d",
+            "en": "The guide changed the map rather than explaining it.",
+            "zh": "導賞員改了地圖，沒有作解釋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他由混淆轉為能解釋差異，是可見的理解轉折。"
+      },
+      "reply": {
+        "promptEn": "A trainee cannot see why the two invoice totals differ. Her supervisor circles a discount shown on only one invoice, and she immediately explains the difference herself. What happened?",
+        "promptZh": "（一名實習生不明白兩張發票總額為何不同。主管圈出其中一張才有的折扣，她隨即自行解釋差異。發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She understood after seeing the discount.",
+            "zh": "她看到折扣後明白了。"
+          },
+          {
+            "id": "b",
+            "en": "The missing detail suddenly made sense to her.",
+            "zh": "遺漏的細節突然變得清楚。"
+          },
+          {
+            "id": "c",
+            "en": "The penny finally dropped when she noticed the discount.",
+            "zh": "她留意到折扣時終於恍然大悟。"
+          },
+          {
+            "id": "d",
+            "en": "She can now explain why the totals differ.",
+            "zh": "她現在能解釋總額為何不同。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據關鍵折扣引發的頓悟回答。"
+      },
+      "scene": {
+        "promptZh": "一名新職員一直把兩種票價混為一談，直到同事指出星期六的附加費，他才立即說出差別。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The penny finally dropped when he saw the weekend surcharge.",
+            "zh": "他看到週末附加費時終於恍然大悟。"
+          },
+          {
+            "id": "b",
+            "en": "He merely memorised both prices without identifying the difference.",
+            "zh": "他只背熟兩個票價，卻找不出差別。"
+          },
+          {
+            "id": "c",
+            "en": "He had understood the surcharge correctly before anyone pointed it out.",
+            "zh": "在別人指出之前，他已正確理解附加費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵提示使他由困惑轉為能解釋差異。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the penny dropped？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She repeats the explanation word for word but still cannot say why the two totals differ.",
+            "zh": "她逐字重複解釋，卻仍說不出兩個總額為何不同。"
+          },
+          {
+            "id": "b",
+            "en": "One circled discount lets her identify the calculation error herself.",
+            "zh": "一項圈出的折扣讓她自行找出計算錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "After the route diagram is clarified, she can explain the transfer point.",
+            "zh": "路線圖釐清後，她能解釋轉車點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照唸而未能理解差異，沒有頓悟證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: Mei could not understand why the model bridge bent. We showed her how the load sits between supports, and now she can explain the weak point herself. B: ______",
+        "promptZh": "（甲：美一直不明白模型橋為何彎曲。我們向她展示負重如何落在支撐點之間，她如今能自行解釋薄弱位置。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The penny finally dropped when she saw the load position.",
+            "zh": "她看到負重位置時終於恍然大悟。"
+          },
+          {
+            "id": "b",
+            "en": "She can now explain the weak point rather than repeat a guess.",
+            "zh": "她如今能解釋薄弱位置，不只是重複猜測。"
+          },
+          {
+            "id": "c",
+            "en": "That support detail seems to have made it clear.",
+            "zh": "支撐點的細節看來讓她明白了。"
+          },
+          {
+            "id": "d",
+            "en": "The model gave her a concrete clue to the bend.",
+            "zh": "模型給了她一個理解彎曲原因的具體提示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把關鍵提示和突然理解連起來。"
+      },
+      "speaking": {
+        "en": "The penny dropped for the new archivist when the index key showed that the dates referred to donations, not publication; she could then sort the records correctly.",
+        "zh": "新檔案員看到索引註解，明白日期指捐贈日而非出版日，便恍然大悟，隨後能正確分類紀錄。",
+        "promptZh": "先交代誤解，再指出提示與可見結果。",
+        "targetSpan": {
+          "start": 0,
+          "end": 17
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人先誤解資料，得到一項具體提示後突然想通，並能自行解釋或做對。用英文寫出三個階段。",
+        "selfCheckZh": "兩例要有可辨認的頓悟證據，不可只說已背熟答案。",
+        "examples": [
+          {
+            "en": "The penny finally dropped for Asha when she noticed the legend marked estimated costs; she then explained why the final bill was higher.",
+            "zh": "阿莎看到圖例標明的是預計費用，終於恍然大悟，隨後解釋了最後帳單為何較高。"
+          },
+          {
+            "en": "Tomas mixed up the train platforms until he saw the direction arrows. The penny dropped, and he could guide the next passenger to the correct side.",
+            "zh": "托馬斯一直弄錯火車月台，直到看到方向箭咀才恍然大悟，並能帶下一位乘客到正確一邊。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the legend",
+            "zh": "圖例",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 62
+            }
+          },
+          {
+            "en": "estimated costs",
+            "zh": "預計費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "the final bill",
+            "zh": "最後帳單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 124
+            }
+          },
+          {
+            "en": "the direction arrows",
+            "zh": "方向箭咀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 68
+            }
+          },
+          {
+            "en": "the correct side",
+            "zh": "正確一邊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The penny drops when an earlier puzzle suddenly makes sense.",
+          "zh": "the penny drops 指先前難題突然變得明白。"
+        },
+        {
+          "en": "Show what clue appeared before the penny dropped and what the learner can now explain.",
+          "zh": "說明哪項提示令他恍然大悟，以及現在能解釋甚麼。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4250",
+      "number": 4250,
+      "inventoryId": "expr-4250",
+      "titleEn": "make students feel small",
+      "titleZh": "使學生感到渺小和不如人",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making) (?:students|the students|a student|learners|a learner|someone|him|her|them) feel small\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Cause learners to feel belittled, ashamed or inferior through the way they are treated.",
+        "meaningZh": "因受到輕視或羞辱而令學生覺得自己低人一等。",
+        "grammar": "Make + person + feel small. Make inflects made/making; the object is the person affected, not the size of a classroom.",
+        "register": "Critical but ordinary English. A mentor may use it when advising a teacher about public feedback to a student.",
+        "boundaryZh": "重點是言行令對方受辱或自覺不如人；明確但尊重的改進建議不必然有此效果。",
+        "misconceptionZh": "不是身高變矮，也不能只憑教師提出難題便推斷學生受羞辱。",
+        "outcomeZh": "能指出具體言行、受影響者的反應，以及較尊重的替代做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2139",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 201,
+          "book": 16,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "10–11",
+          "locatorNote": "DOCX table 219, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Public criticism can make students feel small.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make students feel small"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "During a workshop, the tutor compared Ivo’s draft with a polished example and joked about his intelligence in front of the group. Ivo stopped volunteering ideas; the public joke made a student feel small.",
+        "zh": "工作坊中，導師把艾禾的草稿與成熟範例相比，還當眾拿他的智力開玩笑。艾禾不再主動提出想法；那句公開玩笑令一名學生感到被貶低。",
+        "promptZh": "哪項言行最能解釋艾禾的反應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tutor publicly mocked his intelligence rather than describing a fixable issue.",
+            "zh": "導師當眾嘲笑他的智力，沒有指出可改進的問題。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor privately identified one revision to the draft.",
+            "zh": "導師私下指出草稿的一項修訂。"
+          },
+          {
+            "id": "c",
+            "en": "The example gave Ivo a chance to compare structure without personal criticism.",
+            "zh": "範例讓艾禾比較結構，沒有針對人身。"
+          },
+          {
+            "id": "d",
+            "en": "Ivo asked to pause the workshop for a scheduled break.",
+            "zh": "艾禾請求按原定安排休息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "當眾貶低能力而非針對作品，令他不願再參與。"
+      },
+      "reply": {
+        "promptEn": "A coach laughs at a beginner’s question in front of the whole class; the beginner avoids asking again. What effect did that response have?",
+        "promptZh": "（教練在全班面前嘲笑初學者的提問，對方其後不再發問。那個回應造成甚麼影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The public laugh discouraged another question.",
+            "zh": "當眾嘲笑令對方不敢再發問。"
+          },
+          {
+            "id": "b",
+            "en": "The beginner seems embarrassed by how the coach responded.",
+            "zh": "教練的回應看來令初學者難堪。"
+          },
+          {
+            "id": "c",
+            "en": "The coach made a student feel small instead of helping with the question.",
+            "zh": "教練令學生感到被貶低，沒有協助解答。"
+          },
+          {
+            "id": "d",
+            "en": "A respectful explanation would have addressed the question without the ridicule.",
+            "zh": "尊重的解釋本可回答問題，而毋須嘲弄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出嘲笑與退縮；金句點出受辱感。"
+      },
+      "scene": {
+        "promptZh": "導師在全組面前稱一名新會員的想法「太蠢」，對方隨後不再發言。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The remark made a student feel small.",
+            "zh": "那句話令學生感到被貶低。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor gave a private, specific suggestion for improving the idea.",
+            "zh": "導師私下給出具體改進建議。"
+          },
+          {
+            "id": "c",
+            "en": "The member was invited to clarify the idea without personal judgment.",
+            "zh": "會員獲邀澄清想法，沒有受到人身批評。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公開羞辱與不再發言相連。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a teacher made a student feel small？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher privately points out a calculation error and invites the student to try again.",
+            "zh": "教師私下指出一道計算錯誤，並請學生再試。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher calls a learner foolish before classmates.",
+            "zh": "教師在同學面前稱一名學生愚蠢。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher turns a learner’s sincere question into a public joke.",
+            "zh": "教師把學生真誠的提問當眾變成笑話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "私下、具體且尊重的回饋，不等於羞辱。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our trainer called Mira’s careful question “obvious nonsense” in front of everyone, and she went quiet. B: ______",
+        "promptZh": "（甲：培訓員在眾人面前把米拉認真的提問叫作「明顯的廢話」，她便沉默了。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The trainer made a student feel small with that remark.",
+            "zh": "培訓員那句話令學生感到被貶低。"
+          },
+          {
+            "id": "b",
+            "en": "Her silence suggests the comment discouraged participation.",
+            "zh": "她沉默下來，顯示評論打擊參與。"
+          },
+          {
+            "id": "c",
+            "en": "That public remark was personal rather than helpful.",
+            "zh": "那句公開評論針對人身，沒有幫助。"
+          },
+          {
+            "id": "d",
+            "en": "The trainer should answer her question respectfully instead.",
+            "zh": "培訓員應尊重地回答她的問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出具體言行如何造成被貶低感。"
+      },
+      "speaking": {
+        "en": "Comparing Nia’s first attempt with a finished professional design in a mocking tone made a student feel small; the mentor later apologised and gave one concrete revision privately.",
+        "zh": "導師以嘲諷語氣把妮亞首次嘗試與專業成品相比，令學生感到被貶低；導師其後道歉，並私下提出一項具體修訂。",
+        "promptZh": "比較嘲諷與有幫助的私下回饋。",
+        "targetSpan": {
+          "start": 84,
+          "end": 109
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名學習者因公開的貶低說話而退縮。用英文寫出話語或行為、可觀察反應及尊重的修補方法。",
+        "selfCheckZh": "兩例不能把正常糾錯一概當作羞辱；要指出針對人的貶低。",
+        "examples": [
+          {
+            "en": "The instructor mocked Lena’s accent during a presentation, which made a student feel small; Lena stopped speaking until the instructor apologised and invited her to finish.",
+            "zh": "導師在簡報中嘲笑莉娜的口音，令學生感到被貶低；莉娜停止發言，直到導師道歉並請她講完。"
+          },
+          {
+            "en": "At rehearsal, a director called Jun “hopeless” before the cast and made a student feel small. Jun withdrew, so the director apologised and offered specific notes in private.",
+            "zh": "排練時，導演在演員面前稱俊「無可救藥」，令學生感到被貶低。俊退縮了，導演於是道歉，並私下給出具體意見。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "during a presentation",
+            "zh": "簡報期間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 57
+            }
+          },
+          {
+            "en": "stopped speaking",
+            "zh": "停止發言",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 113
+            }
+          },
+          {
+            "en": "invited her to finish",
+            "zh": "請她講完",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 171
+            }
+          },
+          {
+            "en": "before the cast",
+            "zh": "在演員面前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 62
+            }
+          },
+          {
+            "en": "specific notes",
+            "zh": "具體意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Make a student feel small means make that learner feel belittled.",
+          "zh": "make a student feel small 指令學生感到受貶低。"
+        },
+        {
+          "en": "Specific feedback need not make students feel small when given respectfully.",
+          "zh": "具體回饋若以尊重方式提出，不必令學生感到渺小。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4252",
+      "number": 4252,
+      "inventoryId": "expr-4252",
+      "titleEn": "shut them down",
+      "titleZh": "使他們閉口或不再參與",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:shut|shuts|shutting) (?:them|him|her|students|learners|a student) down\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Silence or discourage someone so strongly that they stop contributing, often after dismissive treatment.",
+        "meaningZh": "以打擊或否定的方式令對方沉默，甚至停止參與。",
+        "grammar": "Shut + person + down is separable; shut has the same past form. This lesson uses the interpersonal sense, not turning off a device or closing a business.",
+        "register": "Conversational and critical. A youth-group leader may use it to discuss how a dismissive response affects volunteers.",
+        "boundaryZh": "重點是對方的發言或參與被壓下；不同意一項意見而仍給對方發言空間，不一定屬此意。",
+        "misconceptionZh": "不是把人像電腦般關機，也不是所有短暫沉默都由別人打擊造成。",
+        "outcomeZh": "能指出被否定的方式及其後停止參與的證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2141",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 202,
+          "book": 16,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "10–11",
+          "locatorNote": "DOCX table 219, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Mockery may shut them down for the rest of class.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shut them down"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the planning table, the chair interrupted every one of Noor’s suggestions with “That will never work” before hearing her reasons. Noor put away her notes and stopped proposing ideas; the repeated dismissals shut her down.",
+        "zh": "在規劃會議上，主席每次都未聽努爾解釋，便打斷她的建議，說「那一定行不通」。努爾收起筆記，不再提想法；連番否定令她不再參與。",
+        "promptZh": "甚麼顯示努爾的參與受壓抑？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She stopped offering ideas after repeated interruptions.",
+            "zh": "她在多次被打斷後停止提出想法。"
+          },
+          {
+            "id": "b",
+            "en": "The chair asked for her reasons and gave her time to answer.",
+            "zh": "主席請她解釋原因，並給她時間回答。"
+          },
+          {
+            "id": "c",
+            "en": "Noor completed her whole proposal before the group discussed it.",
+            "zh": "小組討論前，努爾已完整講述提案。"
+          },
+          {
+            "id": "d",
+            "en": "She left only because the meeting had ended on schedule.",
+            "zh": "她離開只是因為會議按時結束。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆打斷後不再提議，是參與被壓下的證據。"
+      },
+      "reply": {
+        "promptEn": "A volunteer begins to explain a safer route, but two teammates repeatedly laugh over her words. She stops speaking and does not offer the map. What did their reaction do?",
+        "promptZh": "（義工開始解釋一條較安全的路線，但兩名隊友屢次在她說話時嘲笑。她不再發言，也沒有拿出地圖。他們的反應造成甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It prevented the route suggestion from being heard.",
+            "zh": "較安全的路線建議未能被聽見。"
+          },
+          {
+            "id": "b",
+            "en": "Their repeated laughter discouraged her from continuing.",
+            "zh": "他們屢次嘲笑，令她不願繼續。"
+          },
+          {
+            "id": "c",
+            "en": "Their reaction shut her down before she could show the map.",
+            "zh": "她還未拿出地圖，他們的反應便令她閉口。"
+          },
+          {
+            "id": "d",
+            "en": "The group lost a chance to consider her route.",
+            "zh": "小組失去考慮那條路線的機會。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據嘲笑、沉默與地圖未展示回答。"
+      },
+      "scene": {
+        "promptZh": "新會員每次想報告安全問題就被主持人喝止，終於不再提出觀察。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated rebukes shut him down.",
+            "zh": "一再喝止令他閉口不再參與。"
+          },
+          {
+            "id": "b",
+            "en": "He received time to explain every concern fully.",
+            "zh": "他獲得時間完整解釋每項憂慮。"
+          },
+          {
+            "id": "c",
+            "en": "The host disagreed politely and invited more evidence.",
+            "zh": "主持人有禮地不同意，並邀請更多證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆喝止使他停止報告。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a response shut someone down？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chair disagrees with a proposal but asks the speaker to explain the evidence.",
+            "zh": "主席不同意提案，但請講者解釋證據。"
+          },
+          {
+            "id": "b",
+            "en": "A coordinator mocks each suggestion until the volunteer stops speaking.",
+            "zh": "協調員嘲笑每項建議，直至義工不再發言。"
+          },
+          {
+            "id": "c",
+            "en": "A moderator cuts off a trainee repeatedly, and the trainee abandons the point.",
+            "zh": "主持人一再打斷實習生，對方終於不再講述。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有禮不同意而仍邀請解釋，未見發言被壓下。"
+      },
+      "dialogue": {
+        "promptEn": "A: Eve tried twice to explain the missing label, but the supervisor called her concern silly and moved on. She has stopped raising it. B: ______",
+        "promptZh": "（甲：伊芙兩次想解釋標籤不見了，主管卻說她的憂慮愚蠢，然後轉了話題。她已不再提出。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The supervisor shut her down instead of hearing the label issue.",
+            "zh": "主管沒有聽標籤問題，反而令她閉口。"
+          },
+          {
+            "id": "b",
+            "en": "She seems to have stopped speaking after that response.",
+            "zh": "那次回應後，她似乎不再發言。"
+          },
+          {
+            "id": "c",
+            "en": "Her concern was dismissed before she could explain it.",
+            "zh": "她未能解釋，憂慮便被否定。"
+          },
+          {
+            "id": "d",
+            "en": "Someone should invite her to describe what she noticed.",
+            "zh": "應有人邀請她說明觀察到甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句連結主管的否定與伊芙停止提出問題。"
+      },
+      "speaking": {
+        "en": "The organiser shut them down by laughing at their first suggestion, and the two apprentices withdrew their proposal before anyone could check it.",
+        "zh": "主辦人嘲笑兩名學徒的首個建議，令他們閉口；在任何人核查提案前，兩人便把它收回。",
+        "promptZh": "要有被打擊後停止參與的結果。",
+        "targetSpan": {
+          "start": 14,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名發言者的建議被輕率否定，結果不再分享重要資料。用英文寫出打擊方式、沉默證據及可作出的修補。",
+        "selfCheckZh": "兩例須顯示參與受壓；單純不同意但容許解釋，不算 shut down。",
+        "examples": [
+          {
+            "en": "The committee chair mocked a trainee’s figures and shut him down; he closed the chart, so the chair later apologised and invited him to explain it.",
+            "zh": "委員會主席嘲笑實習生的數字，令他閉口；他合上圖表，主席其後道歉並請他解釋。"
+          },
+          {
+            "en": "A rehearsal leader interrupted Hana’s cue report three times and shut her down. She stopped reporting the missed cue until the leader asked for her notes privately.",
+            "zh": "排練領隊三次打斷花娜報告提示錯誤，令她閉口。她不再報告漏掉的提示，直到領隊私下請她出示筆記。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a trainee’s figures",
+            "zh": "實習生的數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 46
+            }
+          },
+          {
+            "en": "the chart",
+            "zh": "圖表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 85
+            }
+          },
+          {
+            "en": "invited him to explain it",
+            "zh": "請他解釋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 146
+            }
+          },
+          {
+            "en": "cue report",
+            "zh": "提示報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 48
+            }
+          },
+          {
+            "en": "asked for her notes",
+            "zh": "請她出示筆記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 153
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shut them down means silence or discourage them from contributing.",
+          "zh": "shut someone down 指使人閉口或不再參與。"
+        },
+        {
+          "en": "A dismissive response can shut students down even before their evidence is heard.",
+          "zh": "輕率否定可在聽到學生證據前便令他們閉口。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4253",
+      "number": 4253,
+      "inventoryId": "expr-4253",
+      "titleEn": "without losing heart",
+      "titleZh": "沒有灰心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwithout losing heart\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue trying without becoming discouraged after difficulty or failure.",
+        "meaningZh": "遇到困難或失敗後仍不灰心，繼續嘗試。",
+        "grammar": "Without losing heart is an adverbial phrase; lose heart means become discouraged. The negative phrase focuses on perseverance, not certainty of success.",
+        "register": "Encouraging, natural English. A mentor may use it when describing an apprentice’s repeated efforts after corrections.",
+        "boundaryZh": "要有可見困難及繼續嘗試的行動；勉強否認問題或空口說會成功，不足以證明沒有灰心。",
+        "misconceptionZh": "不是心臟真的不見了，也不表示每次嘗試都必須成功。",
+        "outcomeZh": "能指出挫折、其後行動及仍未確定的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2142",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 202,
+          "book": 16,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "10–11",
+          "locatorNote": "DOCX table 219, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She tried again without losing heart.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "without losing heart"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The community archive rejected the first label design because visitors could not read it. Priya asked for feedback, enlarged the type and submitted a second version without losing heart; approval was still pending.",
+        "zh": "社區檔案館因訪客難以閱讀而否決首個標籤設計。普莉雅徵求意見、放大字體，並沒有灰心地提交第二版；審批仍未完成。",
+        "promptZh": "甚麼顯示普莉雅沒有灰心？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She used the feedback to make and submit another version.",
+            "zh": "她利用意見製作並提交另一版本。"
+          },
+          {
+            "id": "b",
+            "en": "The first design was approved without change.",
+            "zh": "首個設計獲原樣批准。"
+          },
+          {
+            "id": "c",
+            "en": "She knew the second version was certain to be accepted.",
+            "zh": "她確知第二版一定獲接受。"
+          },
+          {
+            "id": "d",
+            "en": "She ignored the reading problem and resubmitted the same label.",
+            "zh": "她忽略閱讀問題，重新提交同一標籤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "遇挫後修訂再試，不須預言一定成功。"
+      },
+      "reply": {
+        "promptEn": "A trainee’s first sound mix fails the clarity check. He studies the feedback, balances the dialogue again and asks for another test, though the result is not yet known. How did he respond?",
+        "promptZh": "（實習生首次混音未通過清晰度檢查。他研究回饋，再次調整對白聲量，並要求重新測試，雖然結果尚未知道。他如何應對？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He tried again after a failed check.",
+            "zh": "檢查失敗後，他再試。"
+          },
+          {
+            "id": "b",
+            "en": "He used the comments to revise the sound.",
+            "zh": "他根據意見修改聲音。"
+          },
+          {
+            "id": "c",
+            "en": "He continued without losing heart.",
+            "zh": "他沒有灰心，繼續努力。"
+          },
+          {
+            "id": "d",
+            "en": "He has requested another test without claiming success.",
+            "zh": "他要求再測，沒有聲稱已成功。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依挫折後繼續修訂回答。"
+      },
+      "scene": {
+        "promptZh": "一名義工的第一份活動海報因字太細被退回；她調整字體後再次提交，仍等候決定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She resubmitted it without losing heart.",
+            "zh": "她沒有灰心，再次提交。"
+          },
+          {
+            "id": "b",
+            "en": "She abandoned the poster after the first response.",
+            "zh": "第一次回覆後她便放棄海報。"
+          },
+          {
+            "id": "c",
+            "en": "She treated the first rejection as proof of final approval.",
+            "zh": "她把首次退回當成最終獲批的證明。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "遇到退回仍修訂再提交。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone continued without losing heart？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After one correction, he stops work and refuses to consider another attempt.",
+            "zh": "收到一次修正意見後，他停止工作並拒絕再試。"
+          },
+          {
+            "id": "b",
+            "en": "She revises her design and requests a second review.",
+            "zh": "她修改設計並要求第二次審核。"
+          },
+          {
+            "id": "c",
+            "en": "They test a new approach after the first plan fails.",
+            "zh": "首個方案失敗後，他們測試新方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "拒絕再試，沒有持續努力的證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: The first garden layout was rejected for blocking the path. Luis has drawn a new accessible route and submitted it, though the committee has not answered. B: ______",
+        "promptZh": "（甲：首份花園佈局因阻塞通道被退回。路易斯畫出新的無障礙路線並提交，但委員會尚未回覆。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He tried again without losing heart.",
+            "zh": "他沒有灰心，再試一次。"
+          },
+          {
+            "id": "b",
+            "en": "The new route shows he is still working on the plan.",
+            "zh": "新路線顯示他仍在處理計劃。"
+          },
+          {
+            "id": "c",
+            "en": "He responded to the reason for rejection.",
+            "zh": "他針對退回理由作出修改。"
+          },
+          {
+            "id": "d",
+            "en": "We cannot yet say the revised layout has been approved.",
+            "zh": "我們還不能說修訂佈局已獲批准。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句稱讚持續嘗試，同時不假設已成功。"
+      },
+      "speaking": {
+        "en": "After the first grant application was returned for missing figures, the youth group gathered the evidence and reapplied without losing heart; the decision would come later.",
+        "zh": "首份資助申請因欠數據被退回後，青年小組搜集證據，沒有灰心地再次申請；結果要稍後才知道。",
+        "promptZh": "區分堅持再試與已取得成功。",
+        "targetSpan": {
+          "start": 120,
+          "end": 140
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人遇到明確退回或失敗後，以具體修訂再次嘗試，但結果仍未知。用英文寫出挫折、修訂及再試。",
+        "selfCheckZh": "兩例不能把堅持寫成保證成功，也不能忽略初次問題。",
+        "examples": [
+          {
+            "en": "After the first audio guide failed the volume check, Nabil remixed the quiet sections and sent it for another test without losing heart; he awaited the result.",
+            "zh": "首個語音導賞未通過音量檢查後，納比爾重新混音較靜的段落，沒有灰心地再送測試，並等候結果。"
+          },
+          {
+            "en": "The printer rejected Bea’s poster because the margins were too narrow. She widened them and resubmitted the file without losing heart, although approval was pending.",
+            "zh": "印刷員因邊位太窄退回碧亞的海報；她加寬邊位，沒有灰心地重新提交檔案，但仍等候批准。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the volume check",
+            "zh": "音量檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "the quiet sections",
+            "zh": "較靜的段落",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "another test",
+            "zh": "另一次測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 114
+            }
+          },
+          {
+            "en": "the margins",
+            "zh": "邊位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 53
+            }
+          },
+          {
+            "en": "approval was pending",
+            "zh": "仍等候批准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 164
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Without losing heart means continuing despite a setback.",
+          "zh": "without losing heart 指受挫後仍繼續。"
+        },
+        {
+          "en": "Show the revision and new attempt when writing about acting without losing heart.",
+          "zh": "寫沒有灰心時，要交代修訂及再次嘗試。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "reviewType": "Concise AI author self-audit; independent and human review pending",
+  "scope": "Eight unselected proposed-new Books 10–16 owners above 4200, excluding preselected 4237",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-4205-4242-review-pilot.json",
+  "draftSha256": "24731beed17df753cc94408d0b1dec1b38c59f0c46e4ca18740e4158e6739d98",
+  "ordinals": [
+    4205,
+    4206,
+    4208,
+    4211,
+    4219,
+    4235,
+    4240,
+    4242
+  ],
+  "checks": {
+    "sourceFidelity": "Nine exact guide-source examples across eight lessons match bounded owner detectors; contexts preserve sense and do not claim source facts as practice facts.",
+    "targetForms": "All listening, unique golden reply, scene/dialogue key, speaking, two writing models and both takeaways match each target. 4208 covers both watch from and stand on the sidelines; 4293 alias source included.",
+    "bilingual": "Author-checked EN/Traditional Chinese across questions, choices, explanations, speaking and two changed-context writing models per lesson.",
+    "answerFairness": "Author-checked four reply options for contextual validity and keys against prompt facts; independent review pending.",
+    "glossary": "48/48 answer-derived spans exact.",
+    "originality": "192 learner-facing English strings screened against 2,604 source examples; no non-target six-word guide reuse.",
+    "idCollision": "No existing selected or other draft ordinal overlaps.",
+    "focusedBuildAndCheck": "Both passed: 8 lessons, 48 questions, 32 audio requests, zero flags."
+  },
+  "aliasCoverage4208": {
+    "repeatSourceOrdinal": 4293,
+    "repeatExample": "Residents need not remain standing on the sidelines of research.",
+    "ownerSourceExample": "Students learn less when they only watch from the sidelines.",
+    "decision": "Same uninvolved-observer metaphor with watch from vs stand on construction; included both explicitly in brief and assessed fields, no new owner created.",
+    "patternTests": "Both source sentences, seven positive inflected variants and five negative construction swaps passed."
+  },
+  "knownGates": [
+    "AI content peer review pending",
+    "Human editorial and owner approval pending",
+    "Audio, device and live-release verification pending"
+  ],
+  "releaseState": "Unselected; no manifest or publication edit",
+  "independentReviewInProgress": {
+    "preliminaryFindings": [
+      "4208 listening question named watch from while the audio used standing on",
+      "4235 treated an unverified possibly wrong date as the answer, contrary to guide gloss correct conclusion"
+    ],
+    "authorRepair": "4208 heard phrase aligned in the listening question (rev 3). 4235 now requires a verified correct answer: receipt/circuit/map scenes confirm it, and both EN/ZH writing models explicitly compare negatives A and B before confirming B from June (rev 3).",
+    "focusedChecks": "Fresh build/--check 8/48/32/0; all 48 glossary spans exact; source originality no non-target six-word reuse.",
+    "status": "Cleared by exact-hash independent AI follow-up at draft SHA 24731beed17df753cc94408d0b1dec1b38c59f0c46e4ca18740e4158e6739d98; human owner and release approval remain open.",
+    "followupReport": "reviews-books10-16/independent-ai-review-4205-4242-b-followup.json",
+    "followupReportSha256": "e1aec5991d70921f448ec2119725676aba029096621c7683b90d62e39a807eca"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up-and-owner-comparison",
+  "initialReport": "reviews-books10-16/independent-ai-review-4193-4194-b-initial.json",
+  "initialReportSha256": "03be529541dbe9bd89267742f25d648968752f239ee5b9868d9ecd2331a48855",
+  "files": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4193-a.json",
+      "sha256": "0e38af0bd889898112a9b539701ab04de7d8ace85b2b2b9b84e014b5bf32b06c"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-0476-0500.json",
+      "sha256": "929509f8fa56f37c41277d8571e84163c0085c6eadd369b57253b7cf77c8cea3"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "sha256": "8a8a02f6f5f0038cfdbae52d04f775b6015a2c8ccb020f6b89182f5f068ab771"
+    }
+  ],
+  "authorOwnerComparisonSha256": "9565141836d8d410fd1e95218d9db30e6edc1b89202cb2e16e60932503512c3f",
+  "status": "4193-content-clear; 4194-same-sense-alias-covered",
+  "findingResolution": [
+    {
+      "id": "R4193-01",
+      "resolution": "The revised prompt asks for two different pressured settings and responsible responders. Model 1 names a producer at a live interview; model 2 names a team at a school exhibition. Both include deadline, obstacle and checked response."
+    },
+    {
+      "id": "R4194-01",
+      "resolution": "The duplicate new 4194 draft is excluded from the new one-lesson batch. The source decision now points to canonical advanced-native-491 as proposed-alias-existing. Canonical 491 has the same calm/clear-thinking crisis sense, now explicitly names the keep-your-head variant in grammar/register and detects the exact source sentence while preserving keep-a-cool-head forms.",
+      "sourceSentence": "In a crisis, try to keep your head.",
+      "canonicalDetector": "\\bkeep(?:s|ing)? a cool head\\b|\\bkept a cool head\\b|\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its|their) head|(?:our|your|their) heads)\\b"
+    }
+  ],
+  "validation": {
+    "focused4193Build": "1 lesson, 6 questions, 4 audio requests, 0 flags",
+    "focused4193Check": "1 lesson, 6 questions, 4 audio requests, 0 flags",
+    "4194AliasAudit": "Explicit decision file: 60 rows, 25 existing aliases, 25 matched, 0 exceptions",
+    "sourceAndSpans": "4193 source detector, speaking target span and five answer-derived glossary spans match exactly; 491 detector matches source 4194 and legacy cool-head source.",
+    "scopeLimit": "Exact-hash follow-up of the changed 4193 writing prompt and 491 owner/regex/brief plus source-alias decision. Other 491 assessment items were not rewritten or comprehensively re-reviewed; no human approval or release certification is implied."
+  },
+  "remainingFindings": []
+}

@@ -1,0 +1,13 @@
+{
+  "reviewType": "independent-ai-risk-based-exact-hash-followup",
+  "priorReport": "independent-ai-review-3968-4000-b.json",
+  "draftFile": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3968-4000-review-pilot.json", "sha256": "c55e1228f26801bcb9497e373590c941802bcdd00ac849056d5c7b10b213822c"},
+  "authorSelfAuditSha256": "cc5f399ae06c7fa181c8501b9372eb55f01f457eebc2f014a410b2be5fbc9a35",
+  "status": "ai-content-clear-for-provisional-selection",
+  "findingFollowup": [
+    {"id": "R3986-01", "result": "resolved", "evidence": "Case-insensitive detector accepts sharpen/sharpens/sharpened/sharpening the mind and rejects four targeted malformed or off-target strings. Speaking now demonstrates 'sharpens the mind' with aligned Traditional Chinese; its target span passes build/check. Revision 2."},
+    {"id": "R3997-01", "result": "resolved", "evidence": "Case-insensitive detector accepts stay/stays/stayed/staying sharp and rejects four targeted malformed or off-target strings. The scene key now demonstrates 'She stays sharp by practising each week' with aligned Traditional Chinese. Revision 2."}
+  ],
+  "coverage": "Manual follow-up inspected only repaired target patterns and changed speaking/scene fields; unchanged clean lessons retain their initial risk-based review. Fresh combined build and --check pass all 8 lessons, 48 questions and 32 audio requests with zero structural flags.",
+  "limit": "AI-only content clearance under the streamlined rollout; no separate human, media or publication certification is implied."
+}
