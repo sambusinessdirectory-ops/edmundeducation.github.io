@@ -75,6 +75,8 @@ for (const name of files) {
 }
 
 let practiceCount = 0;
+const seenPracticeIds = new Set();
+const seenFoilLines = new Map();
 for (const name of practiceFiles) {
   const fail = (message) => failures.push(`${name}: ${message}`);
   let draft;
@@ -90,8 +92,15 @@ for (const name of practiceFiles) {
   }
   const lesson = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'idiom-lessons', sourceName), 'utf8')).lesson;
   const questions = new Map(lesson.questions.map((question) => [question.id, question]));
+  const [start, end] = name.match(/practice-(\d{2})-(\d{2})\.json$/).slice(1).map(Number);
+  const expectedIds = Array.from({ length: end - start + 1 }, (_, index) => `${lessonId}-q${String(start + index).padStart(2, '0')}`);
+  if (end < start || Object.keys(draft.items || {}).sort().join(',') !== expectedIds.sort().join(',')) {
+    fail(`file must cover precisely original IDs ${start}–${end}`);
+  }
   for (const [id, choice] of Object.entries(draft.items || {})) {
     practiceCount++;
+    if (seenPracticeIds.has(id)) fail(`${id}: duplicate ID across draft files`);
+    seenPracticeIds.add(id);
     const source = questions.get(id);
     if (!source) { fail(`unknown original ID ${id}`); continue; }
     if (!hasEnglish(choice.truthCondition) || !hasChinese(choice.correctReason)) fail(`${id}: missing truth condition or correct reason`);
@@ -100,6 +109,12 @@ for (const name of practiceFiles) {
     if (new Set(lines.map((line) => String(line).toLocaleLowerCase('en'))).size !== 4) fail(`${id}: repeated answer/foil`);
     if (new Set(choice.foils.map((foil) => foil.kind)).size !== 3) fail(`${id}: repeated foil mechanisms`);
     if (!choice.foils.every((foil) => hasEnglish(foil.text) && hasChinese(foil.reason) && hasEnglish(foil.kind))) fail(`${id}: incomplete English/Chinese foil`);
+    for (const foil of choice.foils) {
+      const normalized = String(foil.text).trim().toLocaleLowerCase('en').replace(/\s+/g, ' ');
+      const earlierId = seenFoilLines.get(`${lessonId}:${normalized}`);
+      if (earlierId) fail(`${id}: foil line repeats ${earlierId}`);
+      seenFoilLines.set(`${lessonId}:${normalized}`, id);
+    }
     const lengths = lines.map((line) => String(line).trim().split(/\s+/).length).sort((a, b) => a - b);
     const median = (lengths[1] + lengths[2]) / 2;
     if (lengths[3] > median * 1.3) fail(`${id}: option length requires editorial review (${lengths.join(',')})`);

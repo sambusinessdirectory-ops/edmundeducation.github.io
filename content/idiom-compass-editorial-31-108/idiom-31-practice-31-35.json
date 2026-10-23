@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q31": {
+      "truthCondition": "Marcus and Theo share the main goal but argue angrily about the method of reaching it.",
+      "correctReason": "正確句保留兩人對目標有共識、卻為達成方法激烈爭吵的對比。",
+      "foils": [
+        { "text": "Although Marcus and Theo disagree on the main goal, they fight like cat and dog about how to reach it.", "reason": "「disagree on the main goal」改掉了原題說兩人同意主要目標的事實。", "kind": "changed-common-ground" },
+        { "text": "Although Marcus and Theo agree on the main goal, they fight like cat and dog about whether to pursue it.", "reason": "「whether to pursue it」把爭議改成要不要追求目標；原題的分歧在達成方法。", "kind": "changed-issue" },
+        { "text": "Marcus and Theo agree on the main goal and calmly settle how to reach it together.", "reason": "「calmly settle」說兩人和平解決方法分歧，與原題的激烈爭吵相反。", "kind": "reversed-response" }
+      ]
+    },
+    "idiom-31-q32": {
+      "truthCondition": "Neither cousin will change their mind; they argue angrily every time they plan together.",
+      "correctReason": "「Because neither cousin ...」交代雙方不願讓步這個原因；「whenever」保留每次訂計劃都會吵。",
+      "foils": [
+        { "text": "Because both cousins readily change their minds, they fight like cat and dog whenever they make plans together.", "reason": "「readily change their minds」與原題說兩人都不肯改變想法相反。", "kind": "reversed-cause" },
+        { "text": "Because neither cousin changes their mind, they fight like cat and dog only when they plan holidays together.", "reason": "「only ... holidays」把每次一起訂計劃縮成只限旅行計劃。", "kind": "narrowed-domain" },
+        { "text": "Neither cousin changes their mind, but they usually make plans together without arguing.", "reason": "「without arguing」否定了原題的每次一起訂計劃便激烈爭吵。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q33": {
+      "truthCondition": "Lily and Zoe initially worked quietly, then argued fiercely over every task by the week's end.",
+      "correctReason": "正確句保留先安靜合作、到星期末卻為每項工作激烈爭吵的轉變。",
+      "foils": [
+        { "text": "At first, Lily and Zoe fought like cat and dog; by the end of the week, they worked quietly.", "reason": "這句把起初安靜、後來爭吵的時間線倒轉。", "kind": "reversed-timeline" },
+        { "text": "At first, Lily and Zoe worked quietly; by the end of the week, they fought like cat and dog over one task.", "reason": "「one task」把為每項工作爭吵改成只為一項工作爭吵。", "kind": "changed-scope" },
+        { "text": "At first, Lily and Zoe worked quietly; by the end of the week, they still worked without arguing.", "reason": "「still worked without arguing」抹去了星期末已開始的激烈爭吵。", "kind": "erased-change" }
+      ]
+    },
+    "idiom-31-q34": {
+      "truthCondition": "Adam and Dylan argued fiercely for several lessons; the teacher then moved them to different groups.",
+      "correctReason": "正確句保留連續幾堂課的爭吵先於老師把兩人調往不同小組。",
+      "foils": [
+        { "text": "The teacher moved Adam and Dylan to different groups before they began fighting like cat and dog.", "reason": "「before」把調組放在爭吵之前；原題說老師在連續幾堂課爭吵後才調組。", "kind": "reversed-sequence" },
+        { "text": "The teacher moved Adam and Dylan to the same group after they had fought like cat and dog for several lessons.", "reason": "「the same group」把分到不同小組改成調往同一小組。", "kind": "changed-intervention" },
+        { "text": "The teacher moved Adam and Dylan after they had worked peacefully together for several lessons.", "reason": "「worked peacefully」把調組原因由激烈爭吵改成和平合作。", "kind": "changed-cause" }
+      ]
+    },
+    "idiom-31-q35": {
+      "truthCondition": "Rachel warned that her brothers would argue angrily if they were allowed to choose the music.",
+      "correctReason": "正確句保留瑞秋的警告，以及「讓兄弟選音樂」便會激烈爭吵的條件。",
+      "foils": [
+        { "text": "Rachel warned us that her brothers would fight like cat and dog if we chose the music for them.", "reason": "「we chose the music for them」把爭吵條件由兄弟自行選音樂改成由我們代選。", "kind": "changed-agent" },
+        { "text": "Rachel warned us that her brothers might fight like cat and dog if we let them choose the music.", "reason": "「might」把瑞秋明確預告會爭吵改成只說可能爭吵。", "kind": "changed-modality" },
+        { "text": "Rachel assured us that her brothers would agree calmly if we let them choose the music.", "reason": "「agree calmly」把瑞秋的爭吵警告改成和平選曲的保證。", "kind": "reversed-prediction" }
+      ]
+    }
+  }
+}

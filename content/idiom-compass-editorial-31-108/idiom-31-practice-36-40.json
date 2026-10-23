@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q36": {
+      "truthCondition": "The speaker advises against Chloe and Zoe sharing a stall because they usually argue fiercely when working together.",
+      "correctReason": "「I would not」是拒絕共用攤位的建議；原因是兩人一起工作時往往激烈爭吵。",
+      "foils": [
+        { "text": "I would. Chloe and Zoe fight like cat and dog when they work together, so they should share one stall.", "reason": "「I would」和「should share」把不建議共用攤位改成建議共用。", "kind": "reversed-advice" },
+        { "text": "I would not. Chloe and Zoe fight like cat and dog only when they work apart, so they should not share a stall.", "reason": "「only when they work apart」把爭吵條件由一起工作改成分開工作。", "kind": "reversed-trigger" },
+        { "text": "I would not. Chloe and Zoe work calmly together, so they should not share one stall.", "reason": "「work calmly together」把拒絕共用攤位的理由由激烈爭吵改成和平合作。", "kind": "changed-reason" }
+      ]
+    },
+    "idiom-31-q37": {
+      "truthCondition": "While the others enjoyed a picnic, Eric and Tom were arguing fiercely over who should use the football.",
+      "correctReason": "正確句保留其他人在享受野餐、埃里克和湯姆卻為足球使用權激烈爭吵的同時對比。",
+      "foils": [
+        { "text": "While everyone else enjoyed the picnic, Eric and Tom fought like cat and dog about who should bring the food.", "reason": "「bring the food」把爭議由誰用足球改成誰帶食物。", "kind": "changed-issue" },
+        { "text": "After everyone else left the picnic, Eric and Tom fought like cat and dog about who should use the football.", "reason": "「After ... left」把爭吵移到其他人離開後；原題說兩件事同時發生。", "kind": "changed-timing" },
+        { "text": "While everyone else enjoyed the picnic, Eric and Tom calmly took turns using the football.", "reason": "「calmly took turns」把激烈爭吵改成和平輪流使用。", "kind": "reversed-behaviour" }
+      ]
+    },
+    "idiom-31-q38": {
+      "truthCondition": "The boys often argue angrily at home but always protect one another at school.",
+      "correctReason": "正確句保留母親的轉述：家中爭吵與學校互相保護形成對比，不能把慣用語理解成彼此憎恨。",
+      "foils": [
+        { "text": "The boys' mother says they fight like cat and dog at school, but protect each other at home.", "reason": "這句把家中爭吵、學校保護對方的兩個場景倒轉。", "kind": "swapped-settings" },
+        { "text": "The boys' mother says they fight like cat and dog at home and refuse to protect each other at school.", "reason": "「refuse to protect」否定了原題說他們在學校總會保護對方。", "kind": "changed-school-behaviour" },
+        { "text": "The boys' mother says they rarely argue at home, although they always protect each other at school.", "reason": "「rarely argue」把家中經常激烈爭吵改成很少爭吵。", "kind": "changed-home-frequency" }
+      ]
+    },
+    "idiom-31-q39": {
+      "truthCondition": "The manager was surprised Ella and Rose finished the task because they usually argue angrily whenever they work together.",
+      "correctReason": "正確句保留經理的意外：兩人通常一起工作便激烈爭吵，這次卻完成任務。",
+      "foils": [
+        { "text": "The manager expected Ella and Rose to complete the task because they normally fight like cat and dog.", "reason": "「expected」把經理的驚訝改成預料之中。", "kind": "changed-reaction" },
+        { "text": "The manager was surprised Ella and Rose failed the task because they normally fight like cat and dog.", "reason": "「failed the task」把兩人完成任務改成未能完成。", "kind": "changed-result" },
+        { "text": "The manager was surprised Ella and Rose completed the task because they normally work together peacefully.", "reason": "「work together peacefully」把經理意外的背景由常爭吵改成合作融洽。", "kind": "changed-background" }
+      ]
+    },
+    "idiom-31-q40": {
+      "truthCondition": "Ben and Aaron stopped arguing fiercely over games only after agreeing to take turns.",
+      "correctReason": "「only after」保留先同意輪流、再停止為遊戲爭吵的條件與先後。",
+      "foils": [
+        { "text": "Ben and Aaron stopped fighting like cat and dog over games before they agreed to take turns.", "reason": "「before」把停止爭吵的時間提前；原題說同意輪流後才停止。", "kind": "reversed-sequence" },
+        { "text": "Ben and Aaron kept fighting like cat and dog over games even after they agreed to take turns.", "reason": "「kept fighting ... even after」否定了輪流安排使爭吵停止的結果。", "kind": "reversed-result" },
+        { "text": "Ben and Aaron stopped fighting like cat and dog over chores only after they agreed to take turns.", "reason": "「chores」把爭議由遊戲改成家務。", "kind": "changed-issue" }
+      ]
+    }
+  }
+}
