@@ -1119,10 +1119,10 @@ body > .site-header.edmund-system-header {
 .compass-choice-hint strong { color: #793617; }
 .compass-bonus-label { margin-left: auto; border: 1px solid #e6b86f; border-radius: 999px; padding: 6px 10px; color: #87501e; background: #fff1d6; font-size: 11px; font-weight: 900; letter-spacing: .08em; }
 .compass-mc-options { display: grid; gap: 10px; }
-.compass-mc-option { display: grid; grid-template-columns: 36px minmax(0,1fr); align-items: center; gap: 13px; width: 100%; min-height: 66px; border: 1px solid #e5cdbf; border-radius: 16px; padding: 13px 16px; color: #4b241d; background: #fffaf3; text-align: left; cursor: pointer; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease; }
+.compass-mc-option { min-width: 0; display: grid; grid-template-columns: 36px minmax(0,1fr); align-items: center; gap: 13px; width: 100%; min-height: 66px; border: 1px solid #e5cdbf; border-radius: 16px; padding: 13px 16px; color: #4b241d; background: #fffaf3; text-align: left; cursor: pointer; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease; }
 .compass-mc-option:hover:not(:disabled), .compass-mc-option:focus-visible { transform: translateY(-2px); border-color: #d98447; box-shadow: 0 8px 24px rgba(127,69,33,.13); outline: none; }
 .compass-mc-option span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #944d27; background: #ffe9cc; font-weight: 900; }
-.compass-mc-option strong { min-width: 0; font-size: clamp(18px, 2.04vw, 21.6px); font-weight: 700; line-height: 1.45; }
+.compass-mc-option strong { min-width: 0; overflow-wrap: anywhere; font-size: clamp(18px, 2.04vw, 21.6px); font-weight: 700; line-height: 1.45; }
 .compass-mc-diff { border-radius: .18em; padding: .03em .09em; color: #2f2a14; background: #ffe66b; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .compass-mc-option.is-wrong { border-color: #db7b71; background: #fff0ee; }
 .compass-mc-option.is-correct { border-color: #58b886; color: #124b34; background: #e9f9ee; }
@@ -1435,9 +1435,9 @@ body > .site-header.edmund-system-header {
 .bulk-visibility-button:hover,
 .bulk-visibility-button:focus-visible { border-color: var(--green); background: #fff; }
 .bulk-visibility-button[aria-pressed="true"] { color: #fff; background: var(--green); }
-.question-list { margin-top: 16px; display: grid; gap: 13px; }
+.question-list { margin-top: 16px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 13px; }
 .question-list-toolbar + .question-list { margin-top: 10px; }
-.question-card { position: relative; border: 1px solid var(--line); border-radius: 19px; padding: 20px; background: rgba(255, 255, 255, .94); box-shadow: 0 9px 24px rgba(143, 37, 20, .055); scroll-margin-top: 110px; }
+.question-card { min-width: 0; position: relative; border: 1px solid var(--line); border-radius: 19px; padding: 20px; background: rgba(255, 255, 255, .94); box-shadow: 0 9px 24px rgba(143, 37, 20, .055); scroll-margin-top: 110px; }
 .question-card.is-correct { border-color: rgba(34, 115, 77, .34); background: linear-gradient(145deg, #fff, #effaf4); }
 .question-card.is-wrong { border-color: rgba(201, 81, 67, .36); background: linear-gradient(145deg, #fff, #fff4f1); }
 .question-card.is-collapsed { padding-block: 13px; }

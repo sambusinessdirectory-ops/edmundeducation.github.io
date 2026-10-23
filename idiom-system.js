@@ -1456,7 +1456,7 @@ function updateLessonStepper() {
   elements.lessonStepper.classList.toggle("is-compass", Boolean(compass));
   const pilotLabels = [
     ["一眼懂", "Meaning"], ["找線索", "Scene"], ["選語氣", "Tone"], ["拆句式", "Shape"],
-    ["用慣用語回應", "Say it"], ["避開誤用", "Boundary"], ["出手檢查", "Ready"], ["五題一組", "Practice"]
+    ["用慣用語回應", "Say it"], ["避開誤用", "Boundary"], ["出手檢查", "Ready"], ["全部練習", "Practice"]
   ];
   elements.lessonStepper.querySelectorAll("[data-step]").forEach((button) => {
     const step = Number(button.dataset.step);
