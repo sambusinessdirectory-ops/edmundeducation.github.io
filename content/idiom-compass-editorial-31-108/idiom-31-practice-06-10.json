@@ -16,7 +16,7 @@
       "correctReason": "兩名同學連小錯誤都會吵起來；正確句以慣用語交代反覆激烈的爭執。",
       "foils": [
         { "text": "The two classmates never fight like cat and dog over small mistakes.", "reason": "「never」說兩人不會因小錯誤激烈爭吵；原題說每遇小錯誤都會吵起來。", "kind": "changed-polarity" },
-        { "text": "The two classmates fight like cat and dog over only major mistakes.", "reason": "「only major mistakes」把原題的「每個小錯誤」改成只為重大錯誤爭吵。", "kind": "changed-scope" },
+        { "text": "The two classmates fight like cat and dog only over major mistakes.", "reason": "「only over major mistakes」把原題的「每個小錯誤」改成只為重大錯誤爭吵。", "kind": "changed-scope" },
         { "text": "The two classmates work calmly together despite every small mistake.", "reason": "這句改成兩人能平靜合作，與原題說他們無法共事相反。", "kind": "reversed-outcome" }
       ]
     },

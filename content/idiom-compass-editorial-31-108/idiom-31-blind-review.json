@@ -1,0 +1,25 @@
+{
+  "lessonId": "idiom-31",
+  "method": "Key-hidden AI review of deterministically rotated answer choices; same AI, not independent human review",
+  "status": "PARTIAL_NOT_RELEASE_APPROVAL",
+  "checkedAgainstStoredKey": "10/10 selections matched after choices were recorded",
+  "selections": {
+    "idiom-31-q01": { "letter": "A", "reason": "It preserves the television choice and habitual argument while using the idiom." },
+    "idiom-31-q02": { "letter": "D", "reason": "It preserves the whenever-playing trigger and angry argument." },
+    "idiom-31-q03": { "letter": "C", "reason": "It keeps the dishes, turn-taking issue and present repeated argument." },
+    "idiom-31-q04": { "letter": "B", "reason": "It keeps the older sister, clothes borrowing and habitual conflict." },
+    "idiom-31-q05": { "letter": "A", "reason": "It keeps the neighbours' frequent noise dispute and uses the target idiom." },
+    "idiom-31-q06": { "letter": "D", "reason": "It keeps cleaning the shared kitchen as a current repeated dispute." },
+    "idiom-31-q07": { "letter": "C", "reason": "It keeps every small mistake as the trigger for angry argument." },
+    "idiom-31-q08": { "letter": "B", "reason": "Used to preserves past frequency while allowing the calmer present." },
+    "idiom-31-q09": { "letter": "A", "reason": "It covers the whole trip and the two original people." },
+    "idiom-31-q10": { "letter": "D", "reason": "It keeps disagreement as the recurrent trigger in the present." }
+  },
+  "closedFindings": [
+    "Question 7's awkward 'over only major mistakes' distractor was revised to 'only over major mistakes' after the first key-hidden review."
+  ],
+  "openFindings": [
+    "Questions 11–60 have not received key-hidden review.",
+    "Guide, audio, runtime and visual checks remain open."
+  ]
+}
