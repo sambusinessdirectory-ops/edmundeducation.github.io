@@ -80,6 +80,16 @@ for (const lesson of lessons) {
     if (lines.length === 12 && row.distinctGuidedChoices !== 12) issue('REPEATED_GUIDED_CHOICE');
     if (!guide.bonusPractice?.every((question, index) => question.id === `${lesson.id}-bonus-${String(index + 1).padStart(2, '0')}` &&
       question.number === 51 + index && english(question.prompt) && english(question.answer))) issue('BONUS_ID_OR_CONTENT');
+    if (lesson.order >= 6 && lesson.order <= 30 && typeof context.window.EDMUND_IDIOM_COMPASS_FOILS === 'function') {
+      const rationales = new Map();
+      for (const question of [...questions, ...(guide.bonusPractice || [])]) {
+        for (const foil of context.window.EDMUND_IDIOM_COMPASS_FOILS(question, lesson) || []) {
+          rationales.set(foil.reason, (rationales.get(foil.reason) || 0) + 1);
+        }
+      }
+      row.mostRepeatedRationale = Math.max(0, ...rationales.values());
+      if (row.mostRepeatedRationale >= 50) issue('REPEATED_RATIONALE_REVIEW', String(row.mostRepeatedRationale));
+    }
   }
   rows.push(row);
   errors.push(...row.issues.map((error) => `${lesson.id} ${error}`));
