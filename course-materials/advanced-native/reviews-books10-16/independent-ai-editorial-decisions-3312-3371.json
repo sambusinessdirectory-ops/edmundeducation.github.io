@@ -1,0 +1,54 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no learner-facing lesson change or selection",
+  "limits": [
+    "AI peer review only; owner-scope decisions still require editorial adjudication.",
+    "Full-source detector matches are mechanical evidence, not proof of semantic ownership or publishability."
+  ],
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3340,
+      "severity": "minor",
+      "path": "phrase; action; reason",
+      "explanation": "“Pin everything down too early” is a sentence-sized use of the reusable phrasal verb “pin down” plus replaceable object and timing phrase. The present reason treats the full clause as a fixed figurative pattern without defining what learners should transfer to new contexts.",
+      "recommendedFix": "Hold for target-boundary normalisation or define “pin down details/arrangements” as the teaching unit while retaining “too early” as the contextual boundary; verify source matching before drafting."
+    },
+    {
+      "sourceOrdinal": 3341,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Building on sand” in the uncertain-dates source carries the same unreliable-foundation planning metaphor as existing canonical 464 “building a house on sand”. The current decision proposes a new owner; canonical 464’s narrower detector does not match this shortened form.",
+      "recommendedFix": "Hold pending canonical 464 pattern/scope review, or deliberately extend 464 to natural shortened “building on sand” uses and alias it. A wording difference alone does not establish a new sense."
+    },
+    {
+      "sourceOrdinal": 3356,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Leaving the door open” to a new role means preserving a future option. The reason contrasts this with canonical 028’s creation of access, but omits existing canonical 785 “keep more doors open”, whose documented meaning is preserving future choices. The source is singular and 785’s target detector does not cover it.",
+      "recommendedFix": "Hold pending comparison with canonical 785, including construction and singular/plural coverage; alias to 785 if one owner can naturally teach both, or document a distinct outcome before a new lesson."
+    },
+    {
+      "sourceOrdinal": 3366,
+      "severity": "minor",
+      "path": "phrase; action; reason",
+      "explanation": "“As life unfolds” is a natural figurative use of unfold, but the entire as-life adjunct is not a fixed expression; the source just says goals change as life unfolds. Existing canonical 1437 also teaches figurative unfolding as gradual development, although its narrower “unfolds quietly” detector does not cover this sentence.",
+      "recommendedFix": "Hold for a teachable-unit and owner-scope comparison with 1437. If distinct, define the transferable unfold-as-events-develop pattern and grammar rather than treating the full adjunct as a fixed phrase."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source-inventory examples and existing canonical meanings.",
+    "All 21 proposed-alias-existing rows have a valid owner and their owner target regex matches the complete source sentence, including corrected 3317→1500 and 3348/3349→058.",
+    "Alias-new 3337 repeats provisional owner 3336 in wording and source sentence; the ownership link is coherent.",
+    "Holds for slip-through-the-cracks, on-paper and ground-shifts variants conservatively await narrower detector/scope decisions."
+  ]
+}

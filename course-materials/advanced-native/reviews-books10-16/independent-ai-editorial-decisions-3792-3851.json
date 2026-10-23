@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+  "fileSha256": "0a42921d45f84506f9d8a5b78fa47bc8bed5d6def42fa3fa865b4ea159cea3c8",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3792,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Local stores may have the edge on friendliness” means a business has a comparative advantage, the same learner outcome as canonical 208 “commercial edge”. The verb/noun construction differs, but the decision supplies no distinct sense or use condition.",
+      "recommendedFix": "Hold pending canonical 208 scope and detector review, or document a genuinely distinct have-the-edge construction before proposing a new owner."
+    },
+    {
+      "sourceOrdinal": 3806,
+      "severity": "minor",
+      "path": "phrase; reason; dependent alias 3851",
+      "explanation": "“Trapped in a cycle of pressure and insecurity” contains a substitutable hardship description. The reusable idiom is “trapped in a cycle of X”, not the entire pressure-and-insecurity clause. Alias-new 3851 repeats the same overlong span.",
+      "recommendedFix": "Normalize the teaching unit to trapped in a cycle of X and plan a detector covering the full source and natural objects; align dependent 3851 only after owner scope is clear."
+    },
+    {
+      "sourceOrdinal": 3825,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“An endless uphill climb” and canonical 100 “an uphill battle” both describe sustained difficult effort against obstacles. The different climbing/battle imagery may warrant separate forms, but the decision does not compare the existing owner or identify a distinct learner outcome.",
+      "recommendedFix": "Add an explicit construction/imagery boundary compared with canonical 100, or hold pending owner-scope adjudication."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows with source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match their full source sentence under the named generated owner detector.",
+    "Holds for passive drawn-to and other previously unresolved scope/idiomaticity remain conservative."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions are provisional.",
+    "New-lesson target patterns and model sentence quality remain future draft QA gates."
+  ]
+}

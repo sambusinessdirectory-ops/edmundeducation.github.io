@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no learner-facing lesson change or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+  "fileSha256": "bda81c476161ee7c373d267b724546b5c82f1aa96c07cd9d39746bcb63e6b535",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3442,
+      "severity": "minor",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Another hurdle to get over” uses the same obstacle metaphor that canonical 1124 “at the first hurdle” already teaches. “Get over” adds overcoming rather than merely encountering, but the proposed new owner does not state that as a distinct outcome or compare 1124.",
+      "recommendedFix": "Hold for owner-scope comparison or explicitly justify a separate overcome-a-hurdle construction with distinct task boundaries and detector."
+    },
+    {
+      "sourceOrdinal": 3466,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“A small reset button” is the same restorative/starting-afresh device metaphor as canonical 1806 “a reset button”; the canonical brief expressly covers an experience that feels like a mental reset. Existing detector omits the inserted adjective “small”, which does not justify a new owner.",
+      "recommendedFix": "Move to hold-editorial until canonical 1806’s approved pattern is extended to allow “a small reset button”, then alias-existing if meaning remains aligned."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows to exact source examples and prior canonical teaching meanings.",
+    "All proposed-alias-existing rows match their full source sentence under the named owner regex.",
+    "Alias-new references in this batch point to earlier provisional owners; selection and future draft quality remain separate checks."
+  ],
+  "limits": [
+    "AI peer review only; findings require editorial adjudication.",
+    "A regex match is not proof of semantic ownership or publication readiness."
+  ]
+}

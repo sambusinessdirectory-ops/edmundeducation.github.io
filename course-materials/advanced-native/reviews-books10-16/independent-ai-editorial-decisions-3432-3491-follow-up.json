@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+  "fileSha256": "cdab89dbff80c3e74866b008b2fd1bdd10288c118a783c578799f20db123da2e",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3442,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Moved to hold-editorial with specific prior-owner comparison (Hold: another hurdle to get over shares the obstacle metaphor of canonical 1124 at the first hurdle but adds overcoming. Decide whether that construction warrants a distinct outcome and detector before assigning ownership.)."
+    },
+    {
+      "sourceOrdinal": 3466,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Moved to hold-editorial with specific prior-owner comparison (Hold: a small reset button repeats canonical 1806 a reset button in restorative/mental restart sense; the adjective is a natural variant missing from the existing detector. Extend approved scope or retain hold before aliasing.)."
+    }
+  ],
+  "limits": [
+    "This clears only the identified provisional decision findings; held rows still require editorial scope adjudication before lesson drafting.",
+    "3421 teaching-unit implementation remains a future draft QA gate."
+  ]
+}

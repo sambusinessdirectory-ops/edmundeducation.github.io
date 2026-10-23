@@ -1,0 +1,91 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2351-2360-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2351-2360-a.json",
+  "reviewedDraftFileSha256": "7a466776dba42b8cf1a0de702511e015b9f88d7f40983b273326433f45b53d1a",
+  "reviewedContentRevisions": {
+    "advanced-native-2351": 3,
+    "advanced-native-2353": 5,
+    "advanced-native-2358": 3,
+    "advanced-native-2360": 3
+  },
+  "originalFindingCount": 6,
+  "counts": {
+    "resolvedOriginal": 6,
+    "remainingOriginal": 0,
+    "newMinor": 0,
+    "newMajor": 0,
+    "newBlocker": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2351",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Listening, scene and dialogue near misses now separate a shared feeling from exact shared life events, wide popularity, and a specific pet-owner response."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "originalSeverity": "major",
+      "originalPath": "scene.promptZh; scene.options[a]; scene.explanationZh",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 4,
+      "evidence": "Scene now describes an undercurrent of longing for the old home, which the glance supports."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "originalSeverity": "minor",
+      "originalPath": "reply.promptEn; reply.options[a-b]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 4,
+      "evidence": "Reply prompt now names Mina’s move and the recurring pauses when she is mentioned; all four replies have contextual support."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "originalSeverity": "minor",
+      "originalPath": "dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 4,
+      "evidence": "Dialogue foils now distinguish an isolated or overt sad moment from a feeling recurring beneath jokes."
+    },
+    {
+      "lessonId": "advanced-native-2358",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Listening, scene and dialogue alternatives now test script, stage design, unusual setting, fame or momentary loudness against unusually vivid personal presence."
+    },
+    {
+      "lessonId": "advanced-native-2360",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Scene and dialogue alternatives now distinguish loyalty-with-review, narrow technical checking, and blind refusal of a safety review."
+    }
+  ],
+  "newFindings": [],
+  "passedChecks": [
+    "Current repaired files were reread for source sense, answer fairness, four valid replies, English–Traditional Chinese alignment and revised examples.",
+    "Read-only builder validation returned zero schema errors and diversity warnings for all eight current drafts and four audio requests per lesson; speaking requests remain bm_fable."
+  ],
+  "limits": [
+    "AI peer review only; actual audio playback and browser/device checks remain separate.",
+    "No remaining issue in this scoped follow-up at the reviewed file SHA-256; future edits need renewed review."
+  ],
+  "resolvedSubsequentFindings": [
+    {
+      "lessonId": "advanced-native-2353",
+      "path": "reply.options[c].en",
+      "status": "resolved",
+      "evidence": "Golden reply now uses natural “an emotional undercurrent of longing for Mina”; Chinese and rationale remain aligned.",
+      "contentRevision": 5
+    }
+  ]
+}

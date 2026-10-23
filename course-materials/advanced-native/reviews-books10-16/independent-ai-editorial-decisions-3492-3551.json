@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+  "fileSha256": "a496e2eee96eb89831939c3445a13fb1fb6245a7e6f4d9ac591a0f3f6b082a63",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3495,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“Catches your eye” and canonical 154 “eye-catching” both teach visual salience, while canonical 286 owns a catch-attention verb construction restricted to listeners. A separate verb-form lesson may be justified, but the decision does not compare these existing owners or explain the distinct grammar/use outcome.",
+      "recommendedFix": "Add a source-specific form and usage distinction from 154/286, or hold pending an owner-scope decision before drafting."
+    },
+    {
+      "sourceOrdinal": 3525,
+      "severity": "minor",
+      "path": "phrase; reason",
+      "explanation": "“Descending into a free-for-all” treats the source-specific descent verb as part of the fixed idiom. The reusable noun idiom is “a free-for-all”; descending into is one natural frame but is substitutable.",
+      "recommendedFix": "Teach a free-for-all as the target and retain descending into as an example frame; ensure target pattern covers the source and future natural frames."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows with exact source examples and existing canonical meaning/owner index.",
+    "All proposed-alias-existing rows have full-source regex coverage under the named owner.",
+    "Holds on pattern mismatches and unusual source constructions remain conservative."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions require editorial adjudication.",
+    "Detector coverage alone does not establish meaning or release readiness."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+  "fileSha256": "75c773c8a900daeb8705b788c5bb6c41b7ef3048d53f1f57ca4eaf4b2a332e1c",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [],
+  "passedChecks": [
+    "Compared 60 rows to exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source sentence under named owner detector; 3869 legacy regex has a Unicode-flag escape issue and matched under case-insensitive non-Unicode fallback.",
+    "Previously held ambiguous idioms remain held; no owner edits were made."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions remain provisional.",
+    "Detector matches are mechanical evidence, not human editorial or release approval."
+  ]
+}

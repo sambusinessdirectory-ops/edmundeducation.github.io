@@ -1,0 +1,54 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+  "fileSha256": "83e9d01aca6a64687986b9cac5f63657052434c7d1af4cca60db1de08879f59b",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4059,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "“Those chairs were discarded before their time” applies a phrase strongly associated with premature death/personhood to furniture. It may be a deliberate personification, but the decision treats it as an ordinary premature-disposal idiom and does not flag the register/personification boundary.",
+      "recommendedFix": "Hold for source-language naturalness review or document the personification and use natural human/event examples in any draft."
+    },
+    {
+      "sourceOrdinal": 4068,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "“Constant advertising feeds appetite for new gadgets” lacks the usual determiner in “feeds an appetite for”; without it, the source sentence is awkward as a teaching model.",
+      "recommendedFix": "Keep exact source provenance but require a grammatical guide-written model (“feeds an appetite for new gadgets”) and target coverage for the idiom; consider hold until this is documented."
+    },
+    {
+      "sourceOrdinal": 4076,
+      "severity": "major",
+      "path": "action; source example; reason",
+      "explanation": "“Groceries are the bread and butter of daily life” is a weak and potentially misleading use of bread and butter: groceries are literal food, while the idiom commonly means one’s livelihood or core routine/business. The claimed figurative sense “ordinary essentials” risks a literal pun rather than a natural advanced-expression lesson.",
+      "recommendedFix": "Move to hold-editorial pending idiomaticity/sense review; if retained, document a clearly figurative and natural meaning with nonfood models before drafting."
+    },
+    {
+      "sourceOrdinal": 4089,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Falling to pieces” here means losing emotional composure, exactly the meaning canonical 1164 “fall apart” already teaches. The decision proposes a new idiom owner solely because the wording differs, with no distinct outcome.",
+      "recommendedFix": "Hold pending canonical 1164 scope/pattern decision or document a genuinely distinct pragmatic/construction use before new authoring."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source examples, teaching meanings and prior canonical owners.",
+    "All proposed-alias-existing rows match the complete source sentence under the named generated target regex.",
+    "Conservative holds for unsupported literal/figurative variants remain unchanged."
+  ],
+  "limits": [
+    "AI peer review only; no human editorial or release approval.",
+    "Source language issues must be resolved in a future lesson model without silently changing source provenance."
+  ]
+}

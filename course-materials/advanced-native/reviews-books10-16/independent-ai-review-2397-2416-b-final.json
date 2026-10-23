@@ -1,0 +1,37 @@
+{
+  "reviewId": "independent-ai-review-2397-2416-b-final",
+  "basedOn": [
+    "independent-ai-review-2397-2416-b.json",
+    "independent-ai-review-2397-2416-b-followup.json"
+  ],
+  "scope": "Final independent AI content recheck for lessons 2397, 2399, 2400, 2410, 2411, 2414, 2415 and 2416; no human, audio-listening, device, live or publication sign-off.",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json": "b805e3e8dd8e3b1ed4a88f8cd4e19857c267788aaf4115f6136c6e95718eb01a",
+    "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json": "6dc3fe33589fba3d4953beca9d516b4038cad884ae4099784bae37f5fec86ee7",
+    "course-materials/advanced-native/drafts-books10-16/batch-2416-a.json": "2118e437ad6ba11878d1263dd84143122876e1d55642e852bde83e4aaadf3baa"
+  },
+  "recheckedResidualFindings": [
+    {
+      "id": "F2399-03",
+      "status": "cleared",
+      "evidence": "Writing glossary now gives the complete exact span 'a transaction missing from the record', translated as 紀錄中漏記的一筆交易; the span exactly matches example 0."
+    },
+    {
+      "id": "F2416-03",
+      "status": "cleared",
+      "evidence": "Reply c now says 便說得通, dialogue a and speaking use 各有解釋; the lesson JSON no longer contains 吻合 or 逐漸. Distinct dates and addresses are explained, not asserted to become equal."
+    },
+    {
+      "id": "F2416-04",
+      "status": "cleared",
+      "evidence": "Scene distractor c now refers to the carrier's route record/運輸公司的行車紀錄, the document actually introduced in the revised scene. The stale road-notice reference is gone."
+    }
+  ],
+  "checks": {
+    "buildAndCheck": "Passed: eight lessons, 48 assessed questions, 32 audio requests, zero structural review flags, fresh build followed by --check.",
+    "sourceAndMeaning": "No new content defect found in the edited 2399 glossary or 2416 scene and translations; prior review of the other six unchanged lessons remains applicable at the SHA values above.",
+    "finalEditorialResult": "All ten original findings and all three follow-up findings are cleared at the reviewed draft hashes. This is AI editorial clearance only."
+  },
+  "remainingIssues": [],
+  "releaseBoundary": "Do not treat this as approval to select or publish. Human English and Traditional Chinese review, actual audio review, device accessibility checks and live release evidence remain pending under the Golden SOP."
+}

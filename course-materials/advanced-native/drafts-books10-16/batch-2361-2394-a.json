@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-selected-2361-2394-provisional-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2361",
+      "number": 2361,
+      "inventoryId": "expr-2361",
+      "titleEn": "go too far",
+      "titleZh": "做得太過分",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going) too far\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Exceed an acceptable limit in words, actions or behaviour.",
+        "meaningZh": "言語或行為越過可接受的界線，令事情從可接受變成不妥。",
+        "grammar": "a joke went too far; do not go too far.",
+        "register": "Everyday expression; explain which boundary was crossed.",
+        "boundaryZh": "不是單純做得多或花時長，而是越過了具體的合理界線。",
+        "misconceptionZh": "不要把 far 解作距離遠；也不要不說明界線便籠統批評。",
+        "outcomeZh": "能指出原本可接受的行為及其越界的一刻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0250",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 19, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The joke began to go too far when it became personal.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go too far"
+        }
+      ],
+      "listening": {
+        "en": "The team first teased their captain about a harmless mistake, but the jokes went too far when they mentioned a private family matter in front of guests.",
+        "zh": "隊員原本只是取笑隊長一個無傷大雅的錯誤，但當他們在客人面前提到私人家事時，玩笑就太過分了。",
+        "promptZh": "玩笑在何時 go too far？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When it brought a private family matter into a public joke.",
+            "zh": "當它把私人家事變成公開笑話時。"
+          },
+          {
+            "id": "b",
+            "en": "When teammates mentioned the harmless mistake among themselves.",
+            "zh": "當隊員私下提起那個無傷大雅的錯誤時。"
+          },
+          {
+            "id": "c",
+            "en": "When the captain first joined the conversation.",
+            "zh": "當隊長首次加入對話時。"
+          },
+          {
+            "id": "d",
+            "en": "When the guests arrived, before anyone made a personal comment.",
+            "zh": "當客人到達、尚未有人說私人話題時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "界線是私事被當眾拿來開玩笑；此前取笑小失誤仍屬無傷大雅。"
+      },
+      "reply": {
+        "promptEn": "When should we step in during the group’s playful debate?",
+        "promptZh": "（小組輕鬆辯論時，我們應在甚麼情況下介入？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "When one speaker starts attacking someone’s family rather than their point.",
+            "zh": "當一人不再評論觀點，轉而攻擊對方家人時。"
+          },
+          {
+            "id": "b",
+            "en": "If the comments become personal, pause the discussion.",
+            "zh": "若評論變成人身攻擊，就暫停討論。"
+          },
+          {
+            "id": "c",
+            "en": "We should stop it if someone looks uncomfortable and asks for a break.",
+            "zh": "若有人感到不適並要求休息，我們應停止。"
+          },
+          {
+            "id": "d",
+            "en": "Step in when the teasing goes too far and name the boundary.",
+            "zh": "當取笑變得過分時介入，指出被越過的界線。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都提出合理介入時機；金句用 go too far 概括越界並要求說明界線。"
+      },
+      "scene": {
+        "promptZh": "同學先互相開玩笑，後來有人把另一位同學的病歷當笑料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teasing went too far when it turned a private medical detail into a joke.",
+            "zh": "取笑把私人醫療資料變成笑料時，就太過分了。"
+          },
+          {
+            "id": "b",
+            "en": "The teasing went too far only because the class was nearly over, not because of the private detail.",
+            "zh": "玩笑過火只因快下課，而不是因為提及私事。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker meant to be funny, so the private detail may not count as crossing a boundary.",
+            "zh": "說話者本意是開玩笑，因此或許不算越過私隱界線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "私人醫療資料被當作笑料，顯示行為越過尊重私隱的界線。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 someone went too far？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A friendly debate turns into repeated insults about a classmate’s background.",
+            "zh": "友善辯論演變成反覆侮辱同學背景。"
+          },
+          {
+            "id": "b",
+            "en": "Two friends share a mild joke they both enjoy and stop before bringing up personal matters.",
+            "zh": "兩位朋友互相開一個都覺得好笑的輕鬆玩笑，並在觸及私事前停止。"
+          },
+          {
+            "id": "c",
+            "en": "A reviewer criticises a performance and then shares unrelated private messages.",
+            "zh": "評論者先評表演，後公開與表演無關的私人訊息。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "雙方都享受輕鬆玩笑，而且在觸及私事前停止，沒有越界；持續侮辱或公開私訊則已越界。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我接受對我的簡報提出意見，但他把我的家庭問題放進公開評論。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That went too far; feedback on your slides did not require sharing private family details.",
+            "zh": "那太過分了；評論投影片並不需要公開私人家事。"
+          },
+          {
+            "id": "b",
+            "en": "The comment may have started as feedback, but the family detail is probably a separate issue to raise later.",
+            "zh": "評論或許由簡報意見開始，但家庭私事可能要另行處理。"
+          },
+          {
+            "id": "c",
+            "en": "I would ask him to focus on the slides next time, without discussing the private comment now.",
+            "zh": "我會請他下次集中評論投影片，暫時不談今次公開私事的問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友接受簡報意見，卻不接受公開家庭私事；合適回應要明確指出今次已跨越私隱界線，不能只留待下次。"
+      },
+      "speaking": {
+        "en": "The criticism went too far when the reviewer quoted a private message unrelated to the play.",
+        "zh": "評論者引用與劇作無關的私人訊息時，批評便太過分了。",
+        "promptZh": "先聽示範，再指出哪個動作越過了合理界線。",
+        "targetSpan": {
+          "start": 14,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館讀書會原本友善地評論一本小說，後來一人公開朗讀作者的私人電郵。用一至兩句英文說明越界之處及可行的處理。",
+        "selfCheckZh": "說清原本評論小說是可接受的、公開私人電郵越界，以及應停止或回到作品討論。",
+        "examples": [
+          {
+            "en": "The discussion went too far when someone read the author’s private email aloud; the chair should stop that and return to the novel.",
+            "zh": "有人大聲讀出作者私人電郵時，討論便太過分了；主持人應制止，讓大家回到小說。"
+          },
+          {
+            "en": "Criticising the novel was fair, but reading a private email went too far, so the group should focus on the book instead.",
+            "zh": "評論小說本來公平，但朗讀私人電郵就太過分了，因此小組應重新聚焦作品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the author’s private email",
+            "zh": "作者的私人電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 72
+            }
+          },
+          {
+            "en": "the chair",
+            "zh": "主持人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 89
+            }
+          },
+          {
+            "en": "return to the novel",
+            "zh": "回到小說",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 130
+            }
+          },
+          {
+            "en": "Criticising the novel",
+            "zh": "評論小說",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "focus on the book",
+            "zh": "聚焦作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The interview went too far when the host pressed for details about a family dispute.",
+          "zh": "主持人追問家庭爭執細節時，訪問便太過分了。"
+        },
+        {
+          "en": "A joke can go too far when it reveals information shared in confidence.",
+          "zh": "玩笑若洩露別人私下告知的資料，就可能太過分。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2362",
+      "number": 2362,
+      "inventoryId": "expr-2362",
+      "titleEn": "hero worship",
+      "titleZh": "偶像崇拜",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhero worship\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Excessive admiration that treats a person as almost beyond criticism.",
+        "meaningZh": "過度崇拜某個人，將對方理想化到難以接受批評。",
+        "grammar": "hero worship of a singer; appreciation can become hero worship.",
+        "register": "Often critical; distinct from ordinary appreciation of talent or work.",
+        "boundaryZh": "核心是對某個人的理想化，與一般欣賞不同；不一定涉及對某機構的忠誠。",
+        "misconceptionZh": "不要把任何支持名人的行為都說成 hero worship；要有過度理想化的證據。",
+        "outcomeZh": "能指出欣賞何時演變成無法理性評價偶像。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0251",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 19, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The interview moved from appreciation into hero worship.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hero worship"
+        }
+      ],
+      "listening": {
+        "en": "The young musician admired the violinist’s technique. Later, he insisted she could never make a poor choice and copied even her unrelated opinions. His admiration had become hero worship.",
+        "zh": "年輕樂手欣賞小提琴家的技巧。後來，他堅稱她不可能作出差的選擇，連與音樂無關的意見也照單全收；欣賞已變成偶像崇拜。",
+        "promptZh": "甚麼行為顯示 hero worship？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He treats the violinist as incapable of error beyond her musical skill.",
+            "zh": "他不只欣賞技藝，還認定小提琴家在其他方面也不會犯錯。"
+          },
+          {
+            "id": "b",
+            "en": "He studies her bowing technique and asks informed questions.",
+            "zh": "他研究她的運弓技巧，提出有根據的問題。"
+          },
+          {
+            "id": "c",
+            "en": "He decides to attend one of her performances.",
+            "zh": "他決定去看她一場演出。"
+          },
+          {
+            "id": "d",
+            "en": "He compares her recordings with those of other players.",
+            "zh": "他把她的錄音與其他演奏家比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "認定偶像所有選擇都不可能錯，超出了對演奏技巧的正常欣賞。"
+      },
+      "reply": {
+        "promptEn": "Why are the fans rejecting every review of their favourite actor?",
+        "promptZh": "（影迷為何拒絕閱讀所有對喜愛演員的評論？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They believe he can do nothing badly.",
+            "zh": "他們認為他做甚麼都不會差。"
+          },
+          {
+            "id": "b",
+            "en": "They take criticism of his performance as a personal attack.",
+            "zh": "他們把對演出的批評當作人身攻擊。"
+          },
+          {
+            "id": "c",
+            "en": "Their hero worship leaves no room for a balanced view of his work.",
+            "zh": "他們的偶像崇拜令他們無法平衡地看待他的作品。"
+          },
+          {
+            "id": "d",
+            "en": "They prefer praise without discussing the performances themselves.",
+            "zh": "他們只想聽讚美，不願討論演出本身。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋拒絕評論；金句指出對演員的過度理想化。"
+      },
+      "scene": {
+        "promptZh": "學生欣賞一位作家，但逐漸聲稱作家每本書都完美，任何評論者都不配提出意見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His appreciation has turned into hero worship.",
+            "zh": "他的欣賞已變成偶像崇拜。"
+          },
+          {
+            "id": "b",
+            "en": "He is a devoted reader who still accepts that reviewers may have reasons for criticism.",
+            "zh": "他是忠實讀者，但仍接受評論者可能有批評的理由。"
+          },
+          {
+            "id": "c",
+            "en": "He rejects one review because it misquotes the book, while still allowing other criticism.",
+            "zh": "他因一篇評論錯引書中文字而反對它，但仍接受其他批評。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "將作家每部作品視為完美，並拒絕批評，顯示理想化崇拜。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 hero worship？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A fan insists their idol can never be wrong about anything.",
+            "zh": "歌迷堅稱偶像任何事情都不會錯。"
+          },
+          {
+            "id": "b",
+            "en": "A reader admires a poet’s work but accepts that some poems are weaker.",
+            "zh": "讀者欣賞詩人的作品，也承認部分詩作較弱。"
+          },
+          {
+            "id": "c",
+            "en": "A follower repeats every opinion a celebrity expresses without examining it.",
+            "zh": "追隨者不加思索地重複名人的每個看法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "欣賞之餘仍能評價作品優劣，沒有把詩人理想化。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我喜歡她的歌，但有些新歌不合我口味。」哪句最能說明這是否屬於 hero worship？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is appreciation without hero worship; you can enjoy her work and still judge it.",
+            "zh": "那是沒有盲目崇拜的欣賞；你可以喜歡她的作品，也作出自己的判斷。"
+          },
+          {
+            "id": "b",
+            "en": "You can admire her music strongly and explain why those particular songs do not work for you.",
+            "zh": "你可以非常欣賞她的音樂，同時說明那些歌為何不合你口味。"
+          },
+          {
+            "id": "c",
+            "en": "That sounds like a difference in taste rather than proof that the singer has no skill.",
+            "zh": "那像是口味不同，不足以證明歌手沒有能力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友既欣賞歌手也保留判斷，最能說明他並非盲目崇拜；喜好與歌手能力是相關但較窄的問題。"
+      },
+      "speaking": {
+        "en": "Hero worship began to replace thoughtful listening when every comment about the singer was treated as an insult.",
+        "zh": "當任何對歌手的評論都被當成侮辱，偶像崇拜便開始取代審慎聆聽。",
+        "promptZh": "先聽示範，再指出歌迷在哪裏失去獨立判斷。",
+        "targetSpan": {
+          "start": 0,
+          "end": 12
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：電影社有同學很欣賞一位導演，但現在堅稱她每部電影都完美，拒絕聽任何有理據的影評。用一至兩句英文描述欣賞如何變質及可作的改變。",
+        "selfCheckZh": "指出同學原本欣賞導演、現在認定每部作品完美並拒絕有理據的批評；提出平衡看法。",
+        "examples": [
+          {
+            "en": "His admiration for the director has become hero worship: he calls every film perfect and should consider well-supported reviews.",
+            "zh": "他對導演的欣賞已成偶像崇拜：他認為每部電影都完美，應考慮有理據的影評。"
+          },
+          {
+            "en": "Hero worship keeps him from hearing fair criticism of the director’s films, so he should judge each work on its own merits.",
+            "zh": "偶像崇拜令他聽不進對導演電影的合理批評；他應按每部作品本身作出評價。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the director",
+            "zh": "導演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 31
+            }
+          },
+          {
+            "en": "every film perfect",
+            "zh": "每部電影都完美",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 84
+            }
+          },
+          {
+            "en": "well-supported reviews",
+            "zh": "有理據的影評",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 127
+            }
+          },
+          {
+            "en": "fair criticism",
+            "zh": "合理批評",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "each work",
+            "zh": "每部作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hero worship can make a fan confuse admiration with unquestioning approval.",
+          "zh": "偶像崇拜會令歌迷把欣賞與無條件贊同混為一談。"
+        },
+        {
+          "en": "A respectful interview can avoid hero worship by asking thoughtful questions.",
+          "zh": "尊重嘉賓之餘提出審慎問題，可避免把訪問變成偶像崇拜。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2366",
+      "number": 2366,
+      "inventoryId": "expr-2366",
+      "titleEn": "keep your feet on the ground",
+      "titleZh": "保持務實、不被沖昏頭腦",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:your|my|our|his|her|their|its) feet on the ground\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remain realistic and sensible despite success, praise or excitement.",
+        "meaningZh": "即使獲得成功或讚美，仍能務實看待下一步，不被興奮沖昏頭腦。",
+        "grammar": "keep your feet on the ground after a win; she kept her feet on the ground.",
+        "register": "Encouraging advice; it does not mean refusing to celebrate.",
+        "boundaryZh": "重點是成功後仍保有現實判斷，不必壓抑喜悅，也不是叫人站在地上。",
+        "misconceptionZh": "不要把謙虛寫成否認成就；應說明如何保持務實。",
+        "outcomeZh": "能同時承認好消息和指出接下來要做的事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0255",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 19, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "It is wise to keep your feet on the ground after a big win.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep your feet on the ground"
+        }
+      ],
+      "listening": {
+        "en": "After winning the regional contest, the robotics team celebrated, then checked the parts that still failed in testing. Their coach said they had kept their feet on the ground.",
+        "zh": "機械人隊贏得地區賽後慶祝，隨後檢查測試中仍出故障的零件。教練說他們保持了務實態度。",
+        "promptZh": "教練為甚麼這樣評價隊伍？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They enjoyed the win while still attending to remaining problems.",
+            "zh": "他們享受勝利，同時繼續處理尚存問題。"
+          },
+          {
+            "id": "b",
+            "en": "They celebrated the win but postponed discussing a known design weakness.",
+            "zh": "他們慶祝勝利，卻延後討論已知的設計弱點。"
+          },
+          {
+            "id": "c",
+            "en": "They began the next project without checking the judges’ suggestions.",
+            "zh": "他們沒有查看評審建議，就開始下一個計劃。"
+          },
+          {
+            "id": "d",
+            "en": "They focused on the praise and treated the remaining tests as optional.",
+            "zh": "他們只看讚賞，並把剩餘測試當成可做可不做。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隊伍一方面慶祝，另一方面仍處理已知不足；推遲檢討、忽略建議或只看讚賞，都欠缺腳踏實地的平衡。"
+      },
+      "reply": {
+        "promptEn": "How should the band respond after its first concert sells out?",
+        "promptZh": "（樂隊第一場音樂會售罄後應如何應對？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Celebrate, then rehearse the passages that still need work.",
+            "zh": "先慶祝，再練習仍需改善的段落。"
+          },
+          {
+            "id": "b",
+            "en": "Thank the audience and keep planning for the next concert.",
+            "zh": "感謝觀眾，並繼續籌劃下一場。"
+          },
+          {
+            "id": "c",
+            "en": "Enjoy the moment while listening to honest feedback.",
+            "zh": "享受這一刻，同時聽取真誠意見。"
+          },
+          {
+            "id": "d",
+            "en": "Keep your feet on the ground and prepare carefully for the next show.",
+            "zh": "保持務實，認真準備下一場演出。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都是合理做法；金句用本課表達概括興奮之餘仍務實準備。"
+      },
+      "scene": {
+        "promptZh": "學生作品獲獎後，她感謝評審、與朋友慶祝，也按評語修訂作品。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept her feet on the ground after winning the prize.",
+            "zh": "她得獎後仍保持務實。"
+          },
+          {
+            "id": "b",
+            "en": "She appreciated the award but waited until much later to read the judges’ feedback.",
+            "zh": "她感謝獎項，卻到很久以後才閱讀評審意見。"
+          },
+          {
+            "id": "c",
+            "en": "She revised the work only after another contest required changes.",
+            "zh": "她只在另一場比賽要求修改時才修訂作品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "獲獎後即按評語修訂，顯示她既肯定成就又繼續改進；延後或被動修改較不足以表達此平衡。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不符合 keep your feet on the ground？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A player celebrates a win and still trains for the next match.",
+            "zh": "球員慶祝勝利，也繼續為下一場練習。"
+          },
+          {
+            "id": "b",
+            "en": "A founder receives praise but checks the next project’s budget.",
+            "zh": "創辦人獲讚賞，仍核查下一項計劃的預算。"
+          },
+          {
+            "id": "c",
+            "en": "A singer decides one successful show means no more rehearsals are needed.",
+            "zh": "歌手認定一場成功演出代表以後無需排練。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "把一次成功當成日後毋須準備，失去現實判斷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我的短片獲讚賞，我很高興，但下次還想改善收音。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You are keeping your feet on the ground: enjoy the praise and improve the sound.",
+            "zh": "你保持務實：享受讚賞，也改善收音。"
+          },
+          {
+            "id": "b",
+            "en": "You could enjoy the praise first and put off the sound review for a while.",
+            "zh": "你可以先享受讚賞，把收音檢討押後一段時間。"
+          },
+          {
+            "id": "c",
+            "en": "The audience liked the film, so the sound issue may be less urgent than you think.",
+            "zh": "觀眾喜歡短片，所以收音問題或許沒你想像中急切。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友既享受讚賞，又主動改善收音；回應應肯定這種平衡，不能只推遲檢討或淡化已知問題。"
+      },
+      "speaking": {
+        "en": "Even after the prize, she kept her feet on the ground and asked how to improve the next film.",
+        "zh": "即使得獎，她仍保持務實，詢問下一部電影可以如何改進。",
+        "promptZh": "先聽示範，再指出她如何在得獎後繼續學習。",
+        "targetSpan": {
+          "start": 26,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校辯論隊首次贏得決賽，大家很興奮，但下星期還要參加另一場比賽，並需改善反駁技巧。用一至兩句英文給隊員建議。",
+        "selfCheckZh": "承認決賽勝利及興奮，並提出下星期賽前要練習反駁；保持務實不等於不慶祝。",
+        "examples": [
+          {
+            "en": "Celebrate the final, but keep your feet on the ground and practise rebuttals before next week’s contest.",
+            "zh": "慶祝決賽勝利，但要保持務實，在下星期比賽前練習反駁。"
+          },
+          {
+            "en": "The team can enjoy its first win and keep its feet on the ground by reviewing weak rebuttals for the next competition.",
+            "zh": "隊伍可以享受首次勝利，並透過檢討薄弱的反駁，務實準備下一場比賽。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the final",
+            "zh": "決賽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 19
+            }
+          },
+          {
+            "en": "practise rebuttals",
+            "zh": "練習反駁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 76
+            }
+          },
+          {
+            "en": "next week’s contest",
+            "zh": "下星期的比賽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 103
+            }
+          },
+          {
+            "en": "first win",
+            "zh": "首次勝利",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 32
+            }
+          },
+          {
+            "en": "weak rebuttals",
+            "zh": "薄弱的反駁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 92
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After her first exhibition sold out, the artist kept her feet on the ground and planned the next one carefully.",
+          "zh": "首次展覽售罄後，藝術家仍保持務實，細心籌備下一個展覽。"
+        },
+        {
+          "en": "You can keep your feet on the ground and still be proud of your achievement.",
+          "zh": "你可以保持務實，同時為自己的成就感到自豪。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2394",
+      "number": 2394,
+      "inventoryId": "expr-2394",
+      "titleEn": "plant a tiny clue",
+      "titleZh": "埋下一個小伏筆",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:plant|plants|planted|planting) a tiny clue\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Deliberately place a subtle hint in a story so it becomes meaningful later.",
+        "meaningZh": "作者有意在故事較早處安插不顯眼的提示，讓讀者後來回看時發現其意義。",
+        "grammar": "plant a tiny clue in the opening; planted a tiny clue early.",
+        "register": "Narrative and mystery-writing phrase; implies intention and later relevance.",
+        "boundaryZh": "線索須刻意埋下且後來有用；普通背景細節或意外透露答案都不同。",
+        "misconceptionZh": "不要把 plant 解成種植物，也不要讓線索在開頭直接揭穿結局。",
+        "outcomeZh": "能指出小提示、後來的揭示，以及兩者如何呼應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0283",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The author chose to plant a tiny clue in the opening chapter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "plant a tiny clue"
+        }
+      ],
+      "listening": {
+        "en": "In chapter one, the author mentions a scratched brass key on the desk. Only at the end do we learn it opens the locked studio. She planted a tiny clue early in the story.",
+        "zh": "作者在第一章提到桌上一把刮花的黃銅鑰匙；到結尾我們才知道它能打開鎖上的畫室。她很早便埋下小伏筆。",
+        "promptZh": "黃銅鑰匙如何成為 tiny clue？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It appears quietly early on and matters to the later reveal.",
+            "zh": "它早早低調出現，之後的揭示才顯出重要性。"
+          },
+          {
+            "id": "b",
+            "en": "The key is mentioned early, but it never matters when the studio is opened.",
+            "zh": "鑰匙在故事早段出現，卻與後來打開工作室無關。"
+          },
+          {
+            "id": "c",
+            "en": "A key appears shortly before the reveal, leaving little earlier hint for readers.",
+            "zh": "鑰匙在揭曉前不久才出現，讀者此前幾乎得不到提示。"
+          },
+          {
+            "id": "d",
+            "en": "The early scene shows the key and directly explains what it opens.",
+            "zh": "早段場面展示鑰匙，也直接說明它會打開哪裏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細小線索須早於揭曉出現，當時不完全說破，後來又有用；沒有後續作用、出現太遲或太早解釋都不符合。"
+      },
+      "reply": {
+        "promptEn": "How can we make the ending feel fair without revealing the secret too early?",
+        "promptZh": "（我們怎樣讓結尾合理，又不過早揭穿秘密？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mention an ordinary-looking object that gains meaning later.",
+            "zh": "提及一件後來才顯出意義的普通物件。"
+          },
+          {
+            "id": "b",
+            "en": "Give readers one detail they can recognise on a second reading.",
+            "zh": "給讀者一個重讀時能認出的細節。"
+          },
+          {
+            "id": "c",
+            "en": "Let a brief early description connect with the final discovery.",
+            "zh": "讓開頭一段簡短描述與最後的發現呼應。"
+          },
+          {
+            "id": "d",
+            "en": "Plant a tiny clue in the opening scene, then explain it near the end.",
+            "zh": "在開場埋下一個小伏筆，接近結尾時再解釋。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四項都能令結局有跡可循；金句直接用本課表達講安插小提示。"
+      },
+      "scene": {
+        "promptZh": "故事開頭有人順手把藍色紐扣放入口袋；結尾才知道紐扣來自失蹤者的外套。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The writer planted a tiny clue with the blue button.",
+            "zh": "作者以藍色紐扣埋下了一個小伏筆。"
+          },
+          {
+            "id": "b",
+            "en": "The button appears near the ending, just before its owner is named.",
+            "zh": "鈕扣接近結尾才出現，緊接着就公布物主。"
+          },
+          {
+            "id": "c",
+            "en": "The opening points out the button’s exact owner, leaving nothing to infer later.",
+            "zh": "開頭便點明鈕扣屬誰，其後無須推理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "鈕扣在開頭看似普通，到結尾才與失蹤者連起來；若太遲出現或立即說破，就失去埋線索的作用。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 the writer planted a tiny clue？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An odd date in an early letter later exposes the false alibi.",
+            "zh": "早期信件裏一個奇怪日期後來揭穿不在場證明。"
+          },
+          {
+            "id": "b",
+            "en": "A briefly seen scarf later identifies the visitor.",
+            "zh": "早前一閃而過的圍巾後來證實訪客身份。"
+          },
+          {
+            "id": "c",
+            "en": "A page states the culprit’s name and method before the investigation starts.",
+            "zh": "調查開始前，一頁文字已直接寫出犯人姓名和手法。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "直接揭穿犯人並非不顯眼的小提示；其餘兩項早期細節後來才顯出作用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我重看開頭才發現，那張寫錯的車票其實暗示主角上錯了車。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The writer planted a tiny clue in the ticket, so the later reveal feels earned.",
+            "zh": "作者在車票埋下小伏筆，令後來的揭示有跡可循。"
+          },
+          {
+            "id": "b",
+            "en": "The ticket may be relevant, but the writer might have made its meaning clear too early.",
+            "zh": "車票可能有關，但作者或許太早說明其意義。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps the ticket was introduced only just before the reveal, rather than in the opening.",
+            "zh": "或許車票只在揭曉前不久才出現，而不是在開頭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說重看開頭才發現車票暗示後來的結果，符合早段細微提示與後段呼應；不是揭曉前才加入，也非一開始說破。"
+      },
+      "speaking": {
+        "en": "The playwright planted a tiny clue when a character checked the station clock twice.",
+        "zh": "劇作家讓角色兩度看車站時鐘，藉此埋下一個小伏筆。",
+        "promptZh": "先聽示範，再指出哪個小動作可能成為伏筆。",
+        "targetSpan": {
+          "start": 15,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你寫一篇推理故事，開頭提到一位訪客手上的綠色墨跡；結尾讀者才知道失竊地圖是用綠墨修改的。用一至兩句英文描述你如何安排伏筆。",
+        "selfCheckZh": "寫出開頭不起眼的綠墨跡，以及結尾它如何連到被修改的失竊地圖；不可在開頭直接說明真相。",
+        "examples": [
+          {
+            "en": "I planted a tiny clue by mentioning green ink on the visitor’s hand; only at the end does it link to the altered stolen map.",
+            "zh": "我提到訪客手上的綠墨跡，埋下一個小伏筆；到結尾它才與被修改的失竊地圖連上關係。"
+          },
+          {
+            "en": "The opening plants a tiny clue in the visitor’s ink-stained hand, which gains meaning when the stolen map’s green edits are revealed.",
+            "zh": "故事開頭在訪客沾墨的手埋下一個小伏筆；失竊地圖的綠色改動揭示後，它才顯出意義。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "green ink",
+            "zh": "綠墨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 45
+            }
+          },
+          {
+            "en": "visitor’s hand",
+            "zh": "訪客的手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 67
+            }
+          },
+          {
+            "en": "altered stolen map",
+            "zh": "被修改的失竊地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 123
+            }
+          },
+          {
+            "en": "ink-stained hand",
+            "zh": "沾墨的手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 64
+            }
+          },
+          {
+            "en": "green edits",
+            "zh": "綠色改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 119
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A mystery can plant a tiny clue in a casual remark that matters later.",
+          "zh": "推理故事可在一句隨口的話裏埋下日後有用的小伏筆。"
+        },
+        {
+          "en": "She planted a tiny clue on page two without revealing the answer.",
+          "zh": "她在第二頁埋下一個小伏筆，沒有揭穿答案。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

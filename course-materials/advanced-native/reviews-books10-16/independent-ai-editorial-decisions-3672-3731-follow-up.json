@@ -1,0 +1,30 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+  "fileSha256": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3703,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Novelty wears off is a reusable fixed phrase for initial excitement fading with familiarity. The preserved source sentence mismatches gathered past with wears present; author a grammatically aligned original model such as gathered dust once the novelty wore off, without silently editing source provenance."
+    },
+    {
+      "sourceOrdinal": 3713,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Hold: take a real burden off people’s shoulders overlaps the relieving-load metaphor and learner outcome of canonical 801 take the weight off my shoulders. Its noun and possessor vary outside the approved detector; adjudicate canonical scope before new authoring."
+    }
+  ],
+  "limits": [
+    "AI peer review of listed decisions only; held owner scope remains open.",
+    "3703 future lesson must use grammatical source-derived models while preserving exact source provenance.",
+    "3618 future target pattern must verify both source and later variant."
+  ]
+}

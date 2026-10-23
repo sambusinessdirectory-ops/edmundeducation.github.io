@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+  "fileSha256": "e2e4178fd504c3d8e69d87c36b688ea380c276adfa2d723a559893d055777e34",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3735,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“Keep their heads above water” shares the survival-under-pressure water metaphor with canonical 349 “stay afloat”. Canonical 349 is specifically financial/operational and this source context concerns workers coping with technology changes, so separate scope may be justified, but the decision does not document that boundary.",
+      "recommendedFix": "Compare 349 explicitly and state whether the new lesson teaches general coping versus financial survival; hold if source context actually narrows to the same financial outcome."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows with source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match their full source sentence under the named generated owner detector.",
+    "Holds for passive drawn-to and other previously unresolved scope/idiomaticity remain conservative."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions are provisional.",
+    "New-lesson target patterns and model sentence quality remain future draft QA gates."
+  ]
+}

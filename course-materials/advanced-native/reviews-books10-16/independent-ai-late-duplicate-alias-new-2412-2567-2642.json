@@ -1,0 +1,57 @@
+{
+  "reviewType": "independent AI focused late-duplicate decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "checked": [
+    {
+      "sourceOrdinal": 2412,
+      "ownerOrdinal": 2284,
+      "sourceId": "book10-16-0301",
+      "ownerSourceId": "book10-16-0173",
+      "canonicalId": "advanced-native-2284",
+      "status": "verified same source sentence, exact phrase and guide sense; alias-new routing correct",
+      "ownerDraftStatus": "existing provisional owner draft; source sentence passes reviewed target pattern",
+      "decisionFile": "editorial-decisions-2412-2471.jsonl",
+      "ownerDecisionFile": "editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "sourceOrdinal": 2567,
+      "ownerOrdinal": 2237,
+      "sourceId": "book10-16-0456",
+      "ownerSourceId": "book10-16-0126",
+      "canonicalId": "advanced-native-2237",
+      "status": "verified same source sentence, exact phrase and guide sense; alias-new routing correct",
+      "ownerDraftStatus": "owner is a provisional editorial decision; learner draft not yet present",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "ownerDecisionFile": "editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "sourceOrdinal": 2642,
+      "ownerOrdinal": 2124,
+      "sourceId": "book10-16-0531",
+      "ownerSourceId": "book10-16-0013",
+      "canonicalId": "advanced-native-2124",
+      "status": "verified same source sentence, exact phrase and guide sense; alias-new routing correct",
+      "ownerDraftStatus": "existing provisional owner draft; source sentence passes reviewed target pattern",
+      "decisionFile": "editorial-decisions-2592-2651.jsonl",
+      "ownerDecisionFile": "editorial-decisions-2112-2141.jsonl"
+    }
+  ],
+  "reviewedDecisionFileSha256": {
+    "editorial-decisions-2412-2471.jsonl": "624b5f1f74c98d2d46ea836929ea9d3d57660b42dba1fff599ea9767a246e58b",
+    "editorial-decisions-2232-2291.jsonl": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed",
+    "editorial-decisions-2532-2591.jsonl": "3d9038a708738e57ad33741ef2c7adcb885fd2cf3d116792b9880a7dc0b33af2",
+    "editorial-decisions-2592-2651.jsonl": "ce5047f250235f0c9fa0288a72de123c92755f9ef9bd5536beac40a1dc7209d6",
+    "editorial-decisions-2112-2141.jsonl": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b"
+  },
+  "findings": [],
+  "counts": {
+    "verifiedCorrections": 3,
+    "remainingIssues": 0
+  },
+  "limits": [
+    "Two owner drafts were checked for source target-pattern coverage; 2237 has no learner draft yet, so its future pattern and content require normal review.",
+    "AI peer review only; this verifies these three duplicate decisions and does not approve human editorial or release readiness."
+  ]
+}

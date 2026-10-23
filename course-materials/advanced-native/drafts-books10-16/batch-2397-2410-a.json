@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2397-2410-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2397",
+      "number": 2397,
+      "inventoryId": "expr-2397",
+      "titleEn": "get lost",
+      "titleZh": "在選單中迷失方向",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) lost\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become confused while navigating a system or set of choices.",
+        "meaningZh": "在系統或選項之間找不到所需路徑，感到迷惑。",
+        "grammar": "Users get lost in a crowded menu.",
+        "register": "Everyday and user-experience contexts; use with a place or system when navigation is genuinely confusing.",
+        "boundaryZh": "本課是導航時不知如何找到目標；不等於實際走失，亦不等於忘記密碼。",
+        "misconceptionZh": "不要見到 lost 就理解為物品遺失；要看使用者是否在介面中找不到路。",
+        "outcomeZh": "能描述使用者在哪個介面迷失，以及他們要找的功能。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0286",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even experienced users can get lost in a poor menu.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get lost"
+        }
+      ],
+      "listening": {
+        "en": "Mina opened the school portal to find her timetable. The links had unclear labels, so she got lost among the pages and asked a classmate where to click.",
+        "zh": "美娜打開學校平台找時間表。連結標籤不清，她在各頁面間找不到方向，只好問同學該按哪裏。",
+        "promptZh": "美娜為何 got lost？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She could not tell which link led to the timetable.",
+            "zh": "她不清楚哪個連結通往時間表。"
+          },
+          {
+            "id": "b",
+            "en": "She knew the link but the page loaded slowly.",
+            "zh": "她知道連結，只是頁面載入得慢。"
+          },
+          {
+            "id": "c",
+            "en": "She found the timetable but disagreed with it.",
+            "zh": "她找到時間表，卻不同意其安排。"
+          },
+          {
+            "id": "d",
+            "en": "She could not sign in because she forgot her password.",
+            "zh": "她忘記密碼，所以無法登入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是標籤不清，令她不知道該按哪個連結；登入或載入問題都不是在選單中迷失方向。"
+      },
+      "reply": {
+        "promptEn": "Why did you ask for help with the new booking website?",
+        "promptZh": "（你為何使用新的預約網站時要找人幫忙？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I could not tell which page showed the available times.",
+            "zh": "我看不出哪頁列出可預約時段。"
+          },
+          {
+            "id": "b",
+            "en": "The menu kept sending me to information I did not need.",
+            "zh": "選單不斷把我帶到我不需要的資訊。"
+          },
+          {
+            "id": "c",
+            "en": "I got lost in the booking menu before I reached the date picker.",
+            "zh": "我在預約選單中迷失方向，還沒找到選日期的位置。"
+          },
+          {
+            "id": "d",
+            "en": "I could not find a path from the home page to the form, so I asked a friend to guide me.",
+            "zh": "我從首頁找不到通往表格的路徑，所以請朋友指路。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明需要幫忙的導航困難；金句明確描述在預約選單中迷失方向，而不是只說朋友事後如何幫忙。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "He got lost in the site while looking for the renewal page.",
+            "zh": "他找續借頁時，在網站中迷失方向。"
+          },
+          {
+            "id": "b",
+            "en": "He could find the renewal page but the button was disabled.",
+            "zh": "他找到續借頁，但按鈕無法使用。"
+          },
+          {
+            "id": "c",
+            "en": "He renewed the book but disliked the new fee.",
+            "zh": "他已續借，卻不喜歡新收費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "找不到頁面的路徑才是介面導航上的 get lost；按鈕故障和不滿收費是不同問題。",
+        "promptZh": "市民想在圖書館網站續借書，但相似的選單名稱令他找不到續借頁。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A shopper cannot locate the return form among many tabs.",
+            "zh": "顧客在眾多分頁中找不到退貨表格。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher follows a clearly labelled link, but the server reports an error.",
+            "zh": "老師按了標示清楚的連結，但伺服器顯示錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "A visitor keeps opening the wrong settings page because two labels look alike.",
+            "zh": "訪客因兩個標籤相似，不斷打開錯誤的設定頁。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "伺服器錯誤會阻止操作，但老師已知道正確路徑；其餘兩項都涉及導航混亂。",
+        "promptZh": "哪個情況最不適合用本課的 get lost，表示在介面中迷失方向？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds easy to get lost there; let me show you the route to the claim form.",
+            "zh": "那裏似乎很容易令人找不到路；我帶你找到報銷表格。"
+          },
+          {
+            "id": "b",
+            "en": "The form may be rejecting your details; let us check the error message.",
+            "zh": "表格可能拒絕你的資料；我們看看錯誤訊息。"
+          },
+          {
+            "id": "c",
+            "en": "You may need permission to submit the form; I will ask the administrator.",
+            "zh": "你可能需要提交權限；我會問管理員。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同事反覆按錯表格，問題是介面路徑不清；權限及驗證尚未有證據。",
+        "promptZh": "同事說：「我知道報銷功能在系統裏，可是每次都按到別的表格。」你怎樣回應最自然？"
+      },
+      "speaking": {
+        "en": "Visitors get lost in the museum app because the ticket link is hidden under an unclear label.",
+        "zh": "參觀者在博物館程式中找不到方向，因為購票連結藏在標籤不清的選單下。",
+        "promptZh": "先聽示範，再說明使用者要找甚麼及在哪裏迷失。",
+        "targetSpan": {
+          "start": 9,
+          "end": 17
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你祖母用醫院網站更改覆診日期，卻在多層選單中找不到更改預約的表格。用一至兩句英文描述問題並提出一個實際幫助。",
+        "selfCheckZh": "指出她要更改覆診日期、在選單中找不到表格，並提出清楚的下一步；不要把問題說成忘記密碼。",
+        "examples": [
+          {
+            "en": "My grandmother got lost in the hospital website while trying to change her appointment, so I showed her the rescheduling form.",
+            "zh": "祖母想更改預約，卻在醫院網站中找不到方向，所以我帶她找到更改預約的表格。"
+          },
+          {
+            "en": "The hospital menu made her get lost while trying to change her appointment date; I sent her a direct link to the right form.",
+            "zh": "祖母想更改預約日期，卻在醫院選單中迷失方向；我把正確表格的直接連結傳給她。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "change her appointment",
+            "zh": "更改預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 86
+            }
+          },
+          {
+            "en": "rescheduling form",
+            "zh": "更改預約的表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 125
+            }
+          },
+          {
+            "en": "hospital menu",
+            "zh": "醫院選單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "change her appointment date",
+            "zh": "更改預約日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 79
+            }
+          },
+          {
+            "en": "a direct link",
+            "zh": "直接連結",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "People can get lost when several menu labels point to similar pages.",
+          "zh": "幾個選單標籤若指向相似頁面，使用者可能會迷失方向。"
+        },
+        {
+          "en": "A clear menu helps users avoid getting lost in the booking site.",
+          "zh": "清晰的選單有助使用者避免在預約網站中迷失方向。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2399",
+      "number": 2399,
+      "inventoryId": "expr-2399",
+      "titleEn": "play detective",
+      "titleZh": "像偵探般查線索",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:play|plays|played|playing) detective\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Investigate clues informally to work out what happened.",
+        "meaningZh": "像偵探一樣查找線索，推斷事情經過。",
+        "grammar": "The readers play detective as they compare the clues.",
+        "register": "Informal metaphor for active clue-finding; it need not involve police or a crime.",
+        "boundaryZh": "重點是根據線索推理；單純觀看、猜測或正式警務調查都不是這個用法的核心。",
+        "misconceptionZh": "不要把 play detective 理解為真的扮演偵探角色或成為警員。",
+        "outcomeZh": "能指出人物正在比對哪些線索，以及想查明甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0288",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The audience can play detective during the first half.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "play detective"
+        }
+      ],
+      "listening": {
+        "en": "The club found two different dates on the concert posters. Instead of guessing, its members played detective and checked the venue records to find the correct date.",
+        "zh": "社團發現演唱會海報上有兩個不同日期。成員沒有胡亂猜測，而是像偵探般查看場地紀錄，找出正確日期。",
+        "promptZh": "社團成員怎樣 played detective？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They compared conflicting dates with venue records.",
+            "zh": "他們把有矛盾的日期與場地紀錄比對。"
+          },
+          {
+            "id": "b",
+            "en": "They chose the date that looked more familiar.",
+            "zh": "他們選了看起來較熟悉的日期。"
+          },
+          {
+            "id": "c",
+            "en": "They designed another poster before checking the date.",
+            "zh": "他們未核對日期就先設計另一張海報。"
+          },
+          {
+            "id": "d",
+            "en": "They asked the audience which poster looked nicer.",
+            "zh": "他們問觀眾哪張海報較好看。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "成員查證兩個日期並比對紀錄，才是循線索調查；其餘做法沒有查明日期。"
+      },
+      "reply": {
+        "promptEn": "How did you work out who had moved the classroom supplies?",
+        "promptZh": "（你怎樣查出是誰移動了課室用品？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The signed borrowing log showed that Alex had moved the supplies after lunch.",
+            "zh": "已簽名的借用紀錄顯示，阿力士午飯後移動了用品。"
+          },
+          {
+            "id": "b",
+            "en": "Sam told me he had taken the supplies to the art room.",
+            "zh": "森告訴我，他把用品搬到美術室。"
+          },
+          {
+            "id": "c",
+            "en": "I played detective with a signed log and a photo of Mei carrying the box to confirm she moved it.",
+            "zh": "我像偵探般比對已簽名的紀錄與美兒搬箱子的照片，證實是她移動了用品。"
+          },
+          {
+            "id": "d",
+            "en": "A signed transfer note on the box confirmed that Pat had taken the supplies.",
+            "zh": "箱上已簽署的轉移紀錄證實柏特搬走了用品。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句各以紀錄、當事人說明或照片查明移動用品的人；金句強調主動比對不同線索。選項是各自可成立的回答，不要求四個名字同時為真。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteers played detective using old newspapers and the event records.",
+            "zh": "義工利用舊報紙和活動紀錄，像偵探般查線索。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers guessed the year from the colour of the display frame.",
+            "zh": "義工根據展示框的顏色猜年份。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers changed the label before looking at any records.",
+            "zh": "義工在查看任何紀錄前就更改標籤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "義工有目的地比對紀錄以查明年份；憑外觀猜或未查證就修改都沒有完成線索調查。",
+        "promptZh": "社區中心發現展覽照片的年份標錯。義工查舊報紙及活動紀錄，找回正確年份。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A student checks receipts to discover which item is missing.",
+            "zh": "學生查看收據，找出少了哪件物品。"
+          },
+          {
+            "id": "b",
+            "en": "A viewer watches a mystery film without trying to work out the clues.",
+            "zh": "觀眾看懸疑電影，卻沒有嘗試推理線索。"
+          },
+          {
+            "id": "c",
+            "en": "A neighbour compares messages to trace when a parcel arrived.",
+            "zh": "鄰居比對訊息，追查包裹何時送達。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "觀看懸疑電影本身不等於主動查線索；另外兩項都在根據資料推斷。",
+        "promptZh": "哪個情況最不適合用 play detective？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us play detective by comparing the menu, order and receipt.",
+            "zh": "我們像偵探般比對菜單、訂單和收據吧。"
+          },
+          {
+            "id": "b",
+            "en": "Let us pay again first; we can compare the figures another day.",
+            "zh": "我們先付一次錢，改天再核對數字。"
+          },
+          {
+            "id": "c",
+            "en": "The waiter must have changed the price deliberately.",
+            "zh": "侍應一定是故意改了價格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "逐項比對可查明差異；未查證便斷定原因或延後核對都不貼切。",
+        "promptZh": "朋友說：「菜單上的價格跟收據不同，我想弄清楚是哪裏出錯。」你怎樣自然回應？"
+      },
+      "speaking": {
+        "en": "We played detective with the old emails and found where the meeting time had changed.",
+        "zh": "我們像偵探般查閱舊電郵，找出了會議時間在哪一步被改動。",
+        "promptZh": "先聽示範，再說出找到答案所用的線索。",
+        "targetSpan": {
+          "start": 3,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校義賣的現金總額與紀錄不符。你和同學核對收據及售貨清單，找到漏記的一筆交易。用一至兩句英文描述你們怎樣查明原因。",
+        "selfCheckZh": "指出現金紀錄有差異，提及核對收據與售貨清單，並說出發現漏記交易；不可無證據指責同學。",
+        "examples": [
+          {
+            "en": "When the cash total did not match the charity sale record, we played detective with the receipts and sales list and found a transaction missing from the record.",
+            "zh": "現金總額與義賣紀錄不符，我們便像偵探般核對收據和售貨清單，找出紀錄漏記的一筆交易。"
+          },
+          {
+            "en": "The cash total did not match the record, so we played detective by checking each receipt against the sales list and spotted an unrecorded sale.",
+            "zh": "現金總額與紀錄不符，所以我們像偵探般逐張核對收據和售貨清單，找出一筆未登記的交易。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the receipts",
+            "zh": "收據",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 96
+            }
+          },
+          {
+            "en": "sales list",
+            "zh": "售貨清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 111
+            }
+          },
+          {
+            "en": "a transaction missing from the record",
+            "zh": "紀錄中漏記的一筆交易",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 159
+            }
+          },
+          {
+            "en": "cash total",
+            "zh": "現金總額",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 14
+            }
+          },
+          {
+            "en": "an unrecorded sale",
+            "zh": "未登記的交易",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 142
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Students can play detective when two records disagree.",
+          "zh": "兩份紀錄不一致時，學生可以像偵探般查線索。"
+        },
+        {
+          "en": "She played detective with the delivery notes to find the missing parcel.",
+          "zh": "她像偵探般查看送貨單，尋找遺失的包裹。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 5
+    },
+    {
+      "id": "advanced-native-2400",
+      "number": 2400,
+      "inventoryId": "expr-2400",
+      "titleEn": "keep moving",
+      "titleZh": "讓運作持續下去",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping)(?:\\s+(?:[A-Za-z]+\\s+){0,3})moving\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Help an activity, service or plan continue functioning or progressing.",
+        "meaningZh": "使活動、服務或計劃維持運作或繼續推進。",
+        "grammar": "Regular deliveries keep the small shop moving.",
+        "register": "Natural set phrase for momentum in operations; specify what continues and how.",
+        "boundaryZh": "本課說運作或進度持續，不一定涉及身體移動，也不保證完成目標。",
+        "misconceptionZh": "不要只憑 moving 就理解為搬家或行走；也不要把暫時維持說成徹底解決問題。",
+        "outcomeZh": "能說明哪項支援令事情即使有阻礙仍可繼續。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0289",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 26,
+          "book": 10,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–53",
+          "locatorNote": "DOCX table 22, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Reliable deliveries help businesses keep moving.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep moving"
+        }
+      ],
+      "listening": {
+        "en": "The printer broke before the school fair. A nearby shop printed the signs overnight, and that quick help kept preparations moving.",
+        "zh": "學校嘉年華前夕打印機壞了。附近店舖連夜印好告示，這項及時幫助令籌備工作得以繼續。",
+        "promptZh": "甚麼事 kept preparations moving？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Printing the signs elsewhere let the team continue preparing.",
+            "zh": "改由別處印告示，讓團隊繼續籌備。"
+          },
+          {
+            "id": "b",
+            "en": "The printer repair finished before anyone needed signs.",
+            "zh": "打印機在有人需要告示前已修好。"
+          },
+          {
+            "id": "c",
+            "en": "The fair was cancelled while the team waited.",
+            "zh": "團隊等待期間，嘉年華取消了。"
+          },
+          {
+            "id": "d",
+            "en": "The team completed every fair task that night.",
+            "zh": "團隊當晚完成了所有嘉年華工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "附近店舖協助印告示，讓籌備不中斷；並未說打印機修好或所有工作完成。"
+      },
+      "reply": {
+        "promptEn": "What helped your community garden project continue during the dry week?",
+        "promptZh": "（乾旱那一週，甚麼幫助社區花園計劃繼續推進？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Neighbours took turns bringing water in the evenings.",
+            "zh": "鄰居輪流在晚上送水。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers changed their watering schedule.",
+            "zh": "義工調整了澆水時間表。"
+          },
+          {
+            "id": "c",
+            "en": "A shared water tank kept the project moving.",
+            "zh": "共用水箱令計劃得以繼續推進。"
+          },
+          {
+            "id": "d",
+            "en": "The group found a shaded place for the seedlings.",
+            "zh": "團隊為幼苗找了一處陰涼地方。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是有助花園計劃繼續的合理方法；金句用 keep moving 表達維持進度。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The borrowed room kept rehearsals moving despite the closure.",
+            "zh": "借來的房間令排練在原場地關閉後仍能繼續。"
+          },
+          {
+            "id": "b",
+            "en": "The borrowed room meant the show had already succeeded.",
+            "zh": "借來的房間意味演出已經成功。"
+          },
+          {
+            "id": "c",
+            "en": "The closure made the actors improve their script at once.",
+            "zh": "場地關閉令演員立刻改善了劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "借房間解決了眼前的場地阻礙，維持排練；沒有證據說演出已成功或劇本改善。",
+        "promptZh": "小劇團的排練室突然關閉。社區中心借出房間，讓團員照常排練。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A backup laptop lets the editor finish the day’s layout work.",
+            "zh": "後備電腦讓編輯繼續完成當日排版。"
+          },
+          {
+            "id": "b",
+            "en": "The team suspends all deliveries for a month while no replacement driver is available.",
+            "zh": "沒有替代司機，團隊把所有送貨暫停一個月。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers share tasks so the food bank can open as usual.",
+            "zh": "義工分工，讓食物銀行如常開放。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "所有送貨暫停，沒有持續運作；另外兩項都提供資源讓工作繼續。",
+        "promptZh": "哪個情況最不適合用 keep moving 表示事情持續運作？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "If someone can lead the first session, that should keep the workshop moving.",
+            "zh": "如果有人能帶領第一節，工作坊應可繼續進行。"
+          },
+          {
+            "id": "b",
+            "en": "We may have to postpone the workshop until the organiser can lead every session.",
+            "zh": "我們或許要把工作坊押後，等主辦人能帶領所有環節。"
+          },
+          {
+            "id": "c",
+            "en": "We should assume the organiser will recover by Saturday.",
+            "zh": "我們應假設主辦人星期六前就會康復。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "找人暫代第一節，可讓星期六的工作坊繼續；把整場押後沒有回應仍要舉行的需要，也不應假設主辦人會如期康復。",
+        "promptZh": "同事說：「主辦人病了，但星期六的工作坊仍要舉行。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Clear handover notes kept the project moving while our manager was away.",
+        "zh": "經理不在期間，清楚的交接筆記令計劃得以繼續推進。",
+        "promptZh": "先聽示範，再說明哪項支援令工作持續。",
+        "targetSpan": {
+          "start": 21,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區食堂的送貨車壞了，另一間店借出車輛，讓義工仍可準時送餐。用一至兩句英文描述問題及幫助。",
+        "selfCheckZh": "指出送貨車故障、借車，以及送餐得以繼續；不要聲稱車輛已修好。",
+        "examples": [
+          {
+            "en": "The delivery van broke down, but a borrowed vehicle kept the meal service moving and volunteers delivered lunch on time.",
+            "zh": "送貨車壞了，但借來的車輛讓送餐服務繼續運作，義工仍能準時送午餐。"
+          },
+          {
+            "en": "When our van failed, a nearby shop lent us a vehicle, keeping deliveries moving so the volunteers could reach residents on time.",
+            "zh": "我們的車輛故障後，附近店舖借車給我們，讓送餐工作繼續，義工因而能準時到達居民家中。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "delivery van",
+            "zh": "送貨車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "borrowed vehicle",
+            "zh": "借來的車輛",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "volunteers delivered lunch",
+            "zh": "義工送午餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 111
+            }
+          },
+          {
+            "en": "a nearby shop",
+            "zh": "附近店舖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 34
+            }
+          },
+          {
+            "en": "reach residents on time",
+            "zh": "準時到達居民家中",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A replacement laptop kept the newspaper moving when the office computer failed.",
+          "zh": "辦公室電腦故障時，替代手提電腦讓報紙製作繼續。"
+        },
+        {
+          "en": "Small contributions can keep a local service moving until regular funding returns.",
+          "zh": "在常規資金恢復前，小額捐款可以維持本地服務運作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2410",
+      "number": 2410,
+      "inventoryId": "expr-2410",
+      "titleEn": "join the hunt",
+      "titleZh": "一同搜尋答案",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:join|joins|joined|joining) the hunt\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Take part in a shared search for an answer or missing item.",
+        "meaningZh": "加入一項共同尋找答案或失物的行動。",
+        "grammar": "Readers join the hunt for the answer after the first clue.",
+        "register": "Inviting, often playful metaphor; the search must be identifiable from context.",
+        "boundaryZh": "本課是參與搜尋或推理，不是字面打獵，也不是旁觀他人尋找。",
+        "misconceptionZh": "不要把只是聽到謎題的人直接當成已加入；需要實際查找或願意參與。",
+        "outcomeZh": "能說出正在尋找的目標，以及新加入者如何參與。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0299",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 27,
+          "book": 10,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The clues invite the reader to join the hunt.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "join the hunt"
+        }
+      ],
+      "listening": {
+        "en": "The museum had misplaced a photograph from its archive. When visitors began checking old exhibition lists, they joined the hunt for the missing image.",
+        "zh": "博物館遺失了一張館藏照片。訪客開始翻查舊展覽清單，加入了尋找照片的行動。",
+        "promptZh": "訪客如何 joined the hunt？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They helped search the old lists for the missing image.",
+            "zh": "他們幫忙從舊清單尋找遺失的照片。"
+          },
+          {
+            "id": "b",
+            "en": "They waited to view the photograph after staff found it.",
+            "zh": "他們等職員找到照片後才觀看。"
+          },
+          {
+            "id": "c",
+            "en": "They decided the museum should buy a new camera.",
+            "zh": "他們認為博物館應買一部新相機。"
+          },
+          {
+            "id": "d",
+            "en": "They visited an unrelated exhibition in another room.",
+            "zh": "他們參觀了另一間房的無關展覽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訪客翻查清單，實際參與尋找；等待結果不等於加入搜尋。"
+      },
+      "reply": {
+        "promptEn": "How did the neighbours respond when the community cat went missing?",
+        "promptZh": "（社區的貓走失後，鄰居怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some checked the gardens where it often rested.",
+            "zh": "有人查看牠常休息的花園。"
+          },
+          {
+            "id": "b",
+            "en": "Several shared recent sightings with the owner.",
+            "zh": "幾位鄰居把近期目擊消息告訴主人。"
+          },
+          {
+            "id": "c",
+            "en": "We joined the hunt and searched the streets near the market.",
+            "zh": "我們加入搜尋，查看街市附近的街道。"
+          },
+          {
+            "id": "d",
+            "en": "One neighbour put up a notice with the owner’s number.",
+            "zh": "一位鄰居張貼附有主人電話的告示。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都自然描述鄰居協助尋貓；金句明確說明加入共同搜尋。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The students joined the hunt for the mapmaker’s name.",
+            "zh": "學生加入尋找地圖作者名字的行動。"
+          },
+          {
+            "id": "b",
+            "en": "The students only waited for the librarian to announce the name.",
+            "zh": "學生只是等待圖書館員宣布名字。"
+          },
+          {
+            "id": "c",
+            "en": "The students made a new map without looking for its author.",
+            "zh": "學生沒有尋找作者，而是另畫一張新地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生翻閱報紙找線索，已參與搜尋；另兩項沒有查找名字。",
+        "promptZh": "圖書館辦尋找舊地圖作者的活動。學生開始翻閱地方報紙，找名字的線索。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A student checks archives with the team to identify an old painting.",
+            "zh": "學生與團隊查看檔案，辨認一幅舊畫。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor hears about a missing key but leaves without helping to look.",
+            "zh": "訪客聽說鑰匙不見了，卻未幫忙尋找便離開。"
+          },
+          {
+            "id": "c",
+            "en": "A parent searches nearby paths with volunteers for a lost dog.",
+            "zh": "家長與義工一起搜索附近小路，尋找走失的狗。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只是聽聞並離開，沒有參與搜尋；另兩項都投入了查找。",
+        "promptZh": "哪個情況最不適合用 join the hunt 表示加入搜尋？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Join the hunt with us; the street signs in these photos may help.",
+            "zh": "一起加入搜尋吧；照片上的路牌或許有用。"
+          },
+          {
+            "id": "b",
+            "en": "The street is definitely the one near my home, so no further checks are needed.",
+            "zh": "那一定是我家附近的街道，不用再查證。"
+          },
+          {
+            "id": "c",
+            "en": "Let us frame the photos before trying to identify the place.",
+            "zh": "我們先把照片裝裱，再試着辨認地點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友尚未參與，主動問能否幫忙；邀他利用照片上的路牌加入搜尋自然貼切。",
+        "promptZh": "一位尚未參與查找的朋友問：「你們有兩張舊照片，卻仍不知攝於哪條街；我可以幫忙嗎？」你怎樣自然邀請他加入？"
+      },
+      "speaking": {
+        "en": "Several readers joined the hunt for the missing page by comparing copies of the old journal.",
+        "zh": "幾位讀者比對舊期刊的副本，加入了尋找失落頁面的行動。",
+        "promptZh": "先聽示範，再說出大家在尋找甚麼。",
+        "targetSpan": {
+          "start": 16,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心要找回一幅舊壁畫的畫家姓名。你和朋友查看舊通訊及活動海報，發現畫家署名。用一至兩句英文描述你們的參與和結果。",
+        "selfCheckZh": "指出尋找的是畫家姓名，說出查閱舊通訊及海報，並交代找到署名；不要寫成字面狩獵。",
+        "examples": [
+          {
+            "en": "We joined the hunt for the mural artist’s name, checked old newsletters and event posters, and found the artist’s signature.",
+            "zh": "我們加入尋找壁畫畫家姓名的行動，翻查舊通訊和活動海報，找到了畫家的署名。"
+          },
+          {
+            "en": "After the centre asked for help, my friend and I joined the hunt by reading past newsletters and posters until we identified the mural artist.",
+            "zh": "中心請求幫忙後，我和朋友加入搜尋，翻閱舊通訊及海報，終於確認壁畫畫家的身分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "mural artist’s name",
+            "zh": "壁畫畫家的姓名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 46
+            }
+          },
+          {
+            "en": "old newsletters",
+            "zh": "舊通訊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 71
+            }
+          },
+          {
+            "en": "event posters",
+            "zh": "活動海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 89
+            }
+          },
+          {
+            "en": "artist’s signature",
+            "zh": "畫家的署名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 123
+            }
+          },
+          {
+            "en": "identified the mural artist",
+            "zh": "確認壁畫畫家的身分",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Families joined the hunt for the lost dog by checking nearby parks.",
+          "zh": "幾個家庭查看附近公園，加入尋找走失的狗。"
+        },
+        {
+          "en": "The first clue made readers join the hunt for the thief’s identity.",
+          "zh": "第一條線索令讀者加入尋找小偷身分的推理。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

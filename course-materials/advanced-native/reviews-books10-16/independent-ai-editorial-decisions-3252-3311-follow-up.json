@@ -1,0 +1,59 @@
+{
+  "reviewType": "independent AI focused editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+  "reviewedDecisionFileSha256": "3c117e6df226f75f108c11ff8e08da1f2107f2defde89069163680ce3aa00e91",
+  "originalFindingCount": 5,
+  "counts": {
+    "resolved": 5,
+    "remaining": 0
+  },
+  "resolutions": [
+    {
+      "sourceOrdinal": 3254,
+      "originalSeverity": "major",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: one step at a time has the same successive manageable-stage learning outcome as canonical 473 step by step, but that owner’s approved detector does not cover this wording. Review its scope and pattern before routing or authoring."
+    },
+    {
+      "sourceOrdinal": 3274,
+      "originalSeverity": "minor",
+      "status": "resolved in current provisional decision",
+      "currentAction": "proposed-new-lesson",
+      "currentReason": "The exact source span is letting children off the hook, but the reusable teaching unit must be let someone off the hook with let/lets/letting and a replaceable person object. Keep source wording for provenance and verify that the drafted target pattern covers it."
+    },
+    {
+      "sourceOrdinal": 3281,
+      "originalSeverity": "minor",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: the source labels an entire clause, while the transferable expression is sound hollow with replaceable subject and modifier. Normalise the target unit and compare prior sincerity owners before creating a lesson."
+    },
+    {
+      "sourceOrdinal": 3282,
+      "originalSeverity": "minor",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: owning the mistake and provisional owner 2882 take responsibility both express accepting responsibility. Review construction, register and distinct learning outcome before granting separate ownership."
+    },
+    {
+      "sourceOrdinal": 3292,
+      "originalSeverity": "major",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: no follow-through has the same missing-action-after-words sense as canonical 1175 all talk and no follow-through, whose approved detector omits this shorter form. Review scope and pattern before a new owner."
+    }
+  ],
+  "remainingFindings": [],
+  "additionalChecks": [
+    "All 60 rows still retain unique source ordinals and matching source IDs.",
+    "All existing-owner aliases in this decision file still match their complete source sentence under the approved owner pattern.",
+    "Dependent 3293 is held with 3282; downstream 3880 is also held with 3356 pending owner-scope adjudication."
+  ],
+  "limits": [
+    "AI peer review only; holds require editorial decisions before lesson drafting or selection."
+  ]
+}

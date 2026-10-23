@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+  "fileSha256": "2704c299ec545f9a58975ea8e3530fe1ea0799530a178df920a58da4931e9564",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3580,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Priced out of higher education” teaches exclusion by unaffordable prices, the same core affordability outcome as canonical 351 “priced out of people’s reach”. The change from reach to higher education is a complement variation, not a documented new sense. Canonical regex does not cover this form.",
+      "recommendedFix": "Hold pending a canonical 351 owner-scope and detector decision, or document a distinct priced-out-of-X construction with learner outcome if separate teaching is genuinely warranted."
+    },
+    {
+      "sourceOrdinal": 3596,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Widen society’s horizons” uses the same expand-knowledge-and-possibilities metaphor as canonical 554 “widen their horizons”. The canonical pattern already accepts several possessors but omits society’s; this is not a new meaning.",
+      "recommendedFix": "Hold pending approved pattern expansion for society’s and then alias-existing to 554; do not launch a duplicate owner."
+    },
+    {
+      "sourceOrdinal": 3611,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Nobody will hold your hand every step of the way” means nobody will give continual guidance. Canonical 1586 “friends can hold your hand” already teaches reassuring guidance/companionship. Negation and the duration phrase do not establish a different owner.",
+      "recommendedFix": "Hold for canonical 1586 scope/pattern expansion or document a genuinely distinct pragmatic teaching goal before drafting a separate lesson."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows with exact source examples and existing canonical meaning/owner index.",
+    "All proposed-alias-existing rows have full-source regex coverage under the named owner.",
+    "Holds on pattern mismatches and unusual source constructions remain conservative."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions require editorial adjudication.",
+    "Detector coverage alone does not establish meaning or release readiness."
+  ]
+}

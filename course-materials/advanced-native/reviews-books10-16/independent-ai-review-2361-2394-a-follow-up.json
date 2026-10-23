@@ -1,0 +1,74 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2361-2394-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2361-2394-a.json",
+  "reviewedDraftFileSha256": "b3e44d811cf7add0fab02605b1d0209ad905cd991c353b3c26de612efb0fcc33",
+  "reviewedContentRevisions": {
+    "advanced-native-2361": 3,
+    "advanced-native-2362": 3,
+    "advanced-native-2366": 3,
+    "advanced-native-2394": 3
+  },
+  "originalFindingCount": 5,
+  "counts": {
+    "resolvedOriginal": 5,
+    "remainingOriginal": 0,
+    "newMinor": 0,
+    "newMajor": 0,
+    "newBlocker": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2361",
+      "originalSeverity": "major",
+      "originalPath": "contrast.options[b]; contrast.answerId; contrast.explanationZh",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Contrast B now depicts mutually enjoyed mild teasing that stops before personal topics; only A/C cross the boundary."
+    },
+    {
+      "lessonId": "advanced-native-2361",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Scene and dialogue alternatives now test intent, delay and partial response against recognising the privacy violation."
+    },
+    {
+      "lessonId": "advanced-native-2362",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Scene and dialogue alternatives now contrast admiration with independent judgment against perfection claims that reject criticism."
+    },
+    {
+      "lessonId": "advanced-native-2366",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Listening, scene and dialogue alternatives now use plausible delays in reviewing known weaknesses rather than extreme denials of success."
+    },
+    {
+      "lessonId": "advanced-native-2394",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on current provisional draft",
+      "contentRevision": 3,
+      "evidence": "Listening, scene and dialogue alternatives now distinguish early subtle hints that pay off from late, unrewarded or prematurely explained details."
+    }
+  ],
+  "newFindings": [],
+  "passedChecks": [
+    "Current repaired files were reread for source sense, answer fairness, four valid replies, English–Traditional Chinese alignment and revised examples.",
+    "Read-only builder validation returned zero schema errors and diversity warnings for all eight current drafts and four audio requests per lesson; speaking requests remain bm_fable."
+  ],
+  "limits": [
+    "AI peer review only; actual audio playback and browser/device checks remain separate.",
+    "No issue found in this scoped AI follow-up; future edits need renewed review."
+  ]
+}

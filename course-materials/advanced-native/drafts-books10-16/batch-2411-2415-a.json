@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2411-2415-a-excluding-2412-alias-2284",
+  "lessons": [
+    {
+      "id": "advanced-native-2411",
+      "number": 2411,
+      "inventoryId": "expr-2411",
+      "titleEn": "piece the puzzle together",
+      "titleZh": "拼合線索看清全貌",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:piece|pieces|pieced|piecing) the puzzle together\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Combine separate pieces of evidence to understand a whole situation.",
+        "meaningZh": "把分散的線索拼合起來，了解事情全貌。",
+        "grammar": "They pieced the puzzle together from several short reports.",
+        "register": "Common metaphor for reconstruction from incomplete evidence; not a literal jigsaw here.",
+        "boundaryZh": "重點是多項片段互相補足後形成整體理解；單靠一條線索猜中答案不夠。",
+        "misconceptionZh": "不要只翻譯為玩拼圖；也不要把尚未查明的猜測說成已經拼出全貌。",
+        "outcomeZh": "能指出至少兩項線索及它們合起來揭示的事情。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0300",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 27,
+          "book": 10,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We had to piece the puzzle together from short reports.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piece the puzzle together"
+        }
+      ],
+      "listening": {
+        "en": "The sports team received one message about a changed match time and another about a different venue. By comparing both notices with the official schedule, they pieced the puzzle together and found the correct plan.",
+        "zh": "球隊收到一則比賽改時間的訊息，另一則卻說場地不同。隊員把兩則通知與官方時間表比對，拼合線索，查明正確安排。",
+        "promptZh": "隊員如何 pieced the puzzle together？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They combined the two notices with the official schedule.",
+            "zh": "他們把兩則通知與官方時間表合起來核對。"
+          },
+          {
+            "id": "b",
+            "en": "They followed the first message without checking the venue.",
+            "zh": "他們沒有核對場地，就按第一則訊息行事。"
+          },
+          {
+            "id": "c",
+            "en": "They chose the venue they had used last season.",
+            "zh": "他們選了上季用過的場地。"
+          },
+          {
+            "id": "d",
+            "en": "They asked another team to make the decision for them.",
+            "zh": "他們請另一隊替他們決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩則訊息各有部分資訊，與官方時間表比對後才能理解全貌；只用一則訊息或舊經驗不足。"
+      },
+      "reply": {
+        "promptEn": "How did you find out why the class trip had been delayed?",
+        "promptZh": "（你怎樣查出班級旅行延期的原因？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coach company’s message said the original vehicle had broken down.",
+            "zh": "旅遊車公司的訊息說原本的車輛故障。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher confirmed that a road closure had delayed the coach.",
+            "zh": "老師證實封路令旅遊車延誤。"
+          },
+          {
+            "id": "c",
+            "en": "I pieced the puzzle together from the booking email and revised timetable: the coach had been booked for the wrong day.",
+            "zh": "我把預約電郵和修訂時間表的線索拼合起來，查出旅遊車預約錯了日期。"
+          },
+          {
+            "id": "d",
+            "en": "The driver told me the first coach had a mechanical fault and a replacement was needed.",
+            "zh": "司機告訴我第一輛旅遊車機件故障，因此需要替代車輛。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句各指出一項使旅行延期的明確原因及資料來源；金句展示把兩份資料拼合後才查出預約日期有誤。各回應獨立成立，不表示多個原因同時發生。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff pieced the puzzle together from the call log and the text notice.",
+            "zh": "職員從通話紀錄和通知短訊拼合出事情經過。"
+          },
+          {
+            "id": "b",
+            "en": "Staff knew the full sequence from the appointment date alone.",
+            "zh": "職員只憑預約日期便知道完整經過。"
+          },
+          {
+            "id": "c",
+            "en": "Staff ignored the call log and guessed which day was right.",
+            "zh": "職員沒有查看通話紀錄，只猜哪天正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同紀錄各提供一部分時序，合起來才能重建經過；單一日期或猜測不夠。",
+        "promptZh": "診所接到兩份資料：病人說星期三曾來電，系統顯示星期四更改預約。職員查電話紀錄及通知短訊，找出改動次序。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A researcher matches three letters to identify when a building opened.",
+            "zh": "研究員比對三封信，查出建築物何時啟用。"
+          },
+          {
+            "id": "b",
+            "en": "A driver reads a single clear sign and immediately knows the exit number.",
+            "zh": "司機看見一個清楚的路牌，立刻知道出口號碼。"
+          },
+          {
+            "id": "c",
+            "en": "A student combines interviews and old photos to understand a local event.",
+            "zh": "學生結合訪談與舊照片，了解一項地方活動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單一清楚路牌已提供完整答案，沒有把分散片段拼合起來；另兩項都需要多項線索。",
+        "promptZh": "哪個情況最不適合用 piece the puzzle together？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "We can piece the puzzle together if we check the old programme as well.",
+            "zh": "若再查舊節目單，我們就能把線索拼合起來。"
+          },
+          {
+            "id": "b",
+            "en": "The date already proves the event name, so there is no need to check.",
+            "zh": "日期已證明活動名稱，不用再查。"
+          },
+          {
+            "id": "c",
+            "en": "The photograph must be wrong because the letter mentions a place.",
+            "zh": "信中提到地點，所以照片一定有錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日期與地點仍未確認活動名稱，找節目單可補足線索；其餘回應過早下結論。",
+        "promptZh": "朋友說：「我有相片上的日期，也找到一封提到地點的信；現在只差確認活動名稱。」怎樣回應最合適？"
+      },
+      "speaking": {
+        "en": "The volunteers pieced the puzzle together by comparing old photographs with the building records.",
+        "zh": "義工把舊照片與建築紀錄比對，拼合線索，還原事情全貌。",
+        "promptZh": "先聽示範，再說出兩類被拼合的線索。",
+        "targetSpan": {
+          "start": 15,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校刊只寫了校園花園的開幕月份；你和朋友從舊照片、會議紀錄及邀請卡查出確實日期。用一至兩句英文描述你們如何查明。",
+        "selfCheckZh": "指出原先只知道月份，提到至少兩種線索，並說出最後查出確實日期。",
+        "examples": [
+          {
+            "en": "The magazine gave only the opening month, so we pieced the puzzle together from old photos and meeting notes to find the garden’s exact opening date.",
+            "zh": "校刊只提供開幕月份，所以我們把舊照片與會議紀錄的線索拼合起來，查出花園確實開幕日期。"
+          },
+          {
+            "en": "We compared an invitation card with meeting notes and pieced the puzzle together to identify the school garden's exact opening date.",
+            "zh": "我們把邀請卡與會議紀錄比對，拼合出全貌，查明校園花園確實開幕日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "opening month",
+            "zh": "開幕月份",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 40
+            }
+          },
+          {
+            "en": "old photos",
+            "zh": "舊照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 90
+            }
+          },
+          {
+            "en": "meeting notes",
+            "zh": "會議紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 108
+            }
+          },
+          {
+            "en": "exact opening date",
+            "zh": "確實開幕日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 148
+            }
+          },
+          {
+            "en": "an invitation card",
+            "zh": "邀請卡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 30
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Investigators pieced the puzzle together from the receipts and delivery notes.",
+          "zh": "調查人員把收據與送貨單的線索拼合起來，還原全貌。"
+        },
+        {
+          "en": "Several short interviews helped us piece the puzzle together.",
+          "zh": "幾段簡短訪談幫助我們拼合線索，了解全貌。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2414",
+      "number": 2414,
+      "inventoryId": "expr-2414",
+      "titleEn": "the darker side of human nature",
+      "titleZh": "人性較陰暗的一面",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe darker side of human nature\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The harmful or morally troubling tendencies people can show.",
+        "meaningZh": "人可能表現出的傷害性或道德上令人不安的傾向。",
+        "grammar": "The novel explores the darker side of human nature.",
+        "register": "Reflective, serious phrase for behaviour such as cruelty, greed or betrayal; avoid applying it to mere mistakes.",
+        "boundaryZh": "本課指自私、殘酷、欺騙等令人不安的行為傾向；不是悲傷情節或光線暗。",
+        "misconceptionZh": "不要因人物犯小錯或故事氣氛陰鬱，就斷定作品探討人性的陰暗面。",
+        "outcomeZh": "能指出具體的人類行為及其令人不安之處。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0303",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The novel explores the darker side of human nature.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the darker side of human nature"
+        }
+      ],
+      "listening": {
+        "en": "The play shows a town leader hiding food from struggling families so his friends can profit. It explores the darker side of human nature through greed and betrayal.",
+        "zh": "話劇中鎮長把糧食藏起來，讓朋友獲利，受困家庭卻得不到食物。作品透過貪婪與背叛探討人性較陰暗的一面。",
+        "promptZh": "話劇如何呈現 the darker side of human nature？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It shows someone harming others for private gain.",
+            "zh": "它描繪有人為私利傷害他人。"
+          },
+          {
+            "id": "b",
+            "en": "It shows a leader making a harmless scheduling mistake.",
+            "zh": "它描繪領袖犯了一個無害的時間安排錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "It uses dim lighting during an otherwise cheerful meal.",
+            "zh": "它在歡樂用餐場面使用較暗燈光。"
+          },
+          {
+            "id": "d",
+            "en": "It describes families sharing their food fairly.",
+            "zh": "它描繪家庭公平分享食物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "把糧食藏起來讓朋友獲利，涉及貪婪和背叛；燈光暗或一般失誤不是這個比喻。"
+      },
+      "reply": {
+        "promptEn": "Why did the novel’s account of the forged letters disturb you?",
+        "promptZh": "（小說中偽造信件的情節為何令你不安？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trusted friend deceived others to gain control.",
+            "zh": "受信任的朋友為了取得控制權而欺騙別人。"
+          },
+          {
+            "id": "b",
+            "en": "The letters showed how fear can lead people to betray one another.",
+            "zh": "信件顯示恐懼如何令人互相背叛。"
+          },
+          {
+            "id": "c",
+            "en": "It exposed the darker side of human nature through deliberate deceit.",
+            "zh": "它透過蓄意欺騙，揭露人性較陰暗的一面。"
+          },
+          {
+            "id": "d",
+            "en": "The people who relied on the letters were badly hurt.",
+            "zh": "倚賴那些信件的人受到嚴重傷害。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理解釋不安的原因；金句把蓄意欺騙與人性陰暗面連起來。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The film explores the darker side of human nature through greed and deception.",
+            "zh": "電影透過貪婪與欺騙，探討人性較陰暗的一面。"
+          },
+          {
+            "id": "b",
+            "en": "The film is dark mainly because many scenes take place at night.",
+            "zh": "電影較暗，主要因很多場景發生在夜間。"
+          },
+          {
+            "id": "c",
+            "en": "The merchant simply forgot to read a routine report.",
+            "zh": "商人只是忘了閱讀一份例行報告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "蓄意隱瞞安全風險以圖利，是具體的道德問題；不只是夜景或無心失誤。",
+        "promptZh": "電影中，一名商人為賺錢故意隱瞞橋樑不安全的報告，令居民繼續使用橋樑。哪句評語最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A character exploits neighbours after a flood to raise prices sharply.",
+            "zh": "角色在水災後乘人之危，大幅提高價格。"
+          },
+          {
+            "id": "b",
+            "en": "A friend arrives late because she wrote down the wrong time and apologises.",
+            "zh": "朋友記錯時間而遲到，並道歉。"
+          },
+          {
+            "id": "c",
+            "en": "A leader hides evidence that could clear an innocent person.",
+            "zh": "領袖藏起可能為無辜者洗清嫌疑的證據。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "記錯時間並道歉是一般失誤，不能與利用災民或隱瞞證據等行為等同。",
+        "promptZh": "哪個情況最不適合用 the darker side of human nature？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That choice reveals the darker side of human nature, especially the wish for attention at others’ expense.",
+            "zh": "那個選擇揭露人性較陰暗的一面，尤其是為了受注目而犧牲別人。"
+          },
+          {
+            "id": "b",
+            "en": "It might be a harmless misunderstanding, since no one has heard the message yet.",
+            "zh": "那可能只是無害誤會，因為還沒有人聽到消息。"
+          },
+          {
+            "id": "c",
+            "en": "The main concern is that the message uses difficult vocabulary.",
+            "zh": "主要問題是訊息用了艱深詞語。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明知會傷害人仍為掌聲散播，屬有意為私利傷害他人；其餘說法忽略這個核心。",
+        "promptZh": "朋友說：「主角明知假消息會傷害鄰居，還是為了掌聲繼續散播。」怎樣回應較合適？"
+      },
+      "speaking": {
+        "en": "The drama examines the darker side of human nature when a friend betrays the group for money.",
+        "zh": "劇中朋友為了金錢背叛團隊，戲劇藉此探討人性較陰暗的一面。",
+        "promptZh": "先聽示範，再指出令人不安的具體行為。",
+        "targetSpan": {
+          "start": 19,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一部舞台劇中，社區領袖明知某項募款已足夠，仍向居民索取捐款，並把多收的錢私自留下。用一至兩句英文評論作品呈現的人性。",
+        "selfCheckZh": "指出領袖明知募款足夠仍繼續索款，私吞多出的錢，並解釋這是貪婪或欺騙；不要只說舞台燈光陰暗。",
+        "examples": [
+          {
+            "en": "Although the fundraising target had already been met, the leader asked for extra donations and secretly kept the money; the play explores the darker side of human nature.",
+            "zh": "雖然募款目標早已達成，領袖仍索取額外捐款，並暗中把錢留下；作品藉此探討人性較陰暗的一面。"
+          },
+          {
+            "en": "By hiding that the charity had already raised enough and taking more donations, the leader shows greed, and the drama exposes the darker side of human nature.",
+            "zh": "領袖隱瞞慈善機構已籌得足夠款項，又收取更多捐款，顯露貪婪；戲劇藉此揭露人性較陰暗的一面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "extra donations",
+            "zh": "額外捐款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 90
+            }
+          },
+          {
+            "en": "secretly kept the money",
+            "zh": "暗中把錢留下",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 118
+            }
+          },
+          {
+            "en": "the charity had already raised enough",
+            "zh": "慈善機構已籌得足夠款項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 52
+            }
+          },
+          {
+            "en": "taking more donations",
+            "zh": "收取更多捐款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 78
+            }
+          },
+          {
+            "en": "shows greed",
+            "zh": "顯露貪婪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The story explores the darker side of human nature through a trusted official’s betrayal.",
+          "zh": "故事透過一名受信任官員的背叛，探討人性較陰暗的一面。"
+        },
+        {
+          "en": "The darker side of human nature appears when the character profits from a neighbour’s loss.",
+          "zh": "角色從鄰居的損失中獲利，顯示人性較陰暗的一面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2415",
+      "number": 2415,
+      "inventoryId": "expr-2415",
+      "titleEn": "truth rises to the surface",
+      "titleZh": "真相浮出水面",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the\\s+)?truth\\s+(?:rises|rose|will rise|is rising|has risen|had risen)\\s+to\\s+the\\s+surface\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Previously concealed facts become known, often as evidence accumulates.",
+        "meaningZh": "原先被隱藏的事實逐漸為人所知。",
+        "grammar": "Eventually, the truth rises to the surface.",
+        "register": "Narrative metaphor for revelation; evidence or disclosure should make the change clear.",
+        "boundaryZh": "指隱藏的事實變得可見；單有傳聞或尚未證實的懷疑，不等於真相已浮出水面。",
+        "misconceptionZh": "不要把 surface 當成水面事件，也不要在證據未查清時宣布真相已揭露。",
+        "outcomeZh": "能指出原先被隱瞞甚麼，以及甚麼證據或披露使人知道。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0304",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Eventually, the truth rises to the surface.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "truth rises to the surface"
+        }
+      ],
+      "listening": {
+        "en": "At first, the club blamed the treasurer for a missing payment. Then the bank statement showed the payment had been sent to the wrong account, and the truth rose to the surface.",
+        "zh": "起初，社團把一筆付款不見了的責任歸咎於司庫。後來銀行月結單顯示款項被轉到錯誤戶口，真相於是浮出水面。",
+        "promptZh": "甚麼令 truth rose to the surface？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bank statement revealed where the payment had gone.",
+            "zh": "銀行月結單揭示款項流向。"
+          },
+          {
+            "id": "b",
+            "en": "The club repeated its suspicion without checking records.",
+            "zh": "社團沒有查紀錄，只是一再重複懷疑。"
+          },
+          {
+            "id": "c",
+            "en": "The treasurer guessed that the bank might be slow.",
+            "zh": "司庫猜測銀行可能處理得慢。"
+          },
+          {
+            "id": "d",
+            "en": "Members agreed to stop discussing the payment.",
+            "zh": "成員同意不再討論該筆付款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "銀行月結單提供可核實的事實，推翻先前猜測；單純重複懷疑不等於真相揭露。"
+      },
+      "reply": {
+        "promptEn": "What changed after the old letters were found?",
+        "promptZh": "（找到舊信後，情況有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The family learned why their grandfather had left the town.",
+            "zh": "家人明白了祖父當年為何離開小鎮。"
+          },
+          {
+            "id": "b",
+            "en": "Details that had been hidden for years became clear.",
+            "zh": "多年來隱藏的細節變得清楚。"
+          },
+          {
+            "id": "c",
+            "en": "The truth rose to the surface when they read his own account.",
+            "zh": "他們讀到祖父親述的經過，真相浮出水面。"
+          },
+          {
+            "id": "d",
+            "en": "They could finally correct the mistaken family story.",
+            "zh": "他們終於可以糾正家族中流傳的錯誤說法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理回答找到信後的改變；金句用比喻描述被隱藏的事實終於揭露。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The truth rose to the surface when the records showed where the trophy had gone.",
+            "zh": "紀錄顯示獎盃去向後，真相浮出水面。"
+          },
+          {
+            "id": "b",
+            "en": "A rumour about theft proved true before anyone checked the records.",
+            "zh": "未有人核對紀錄前，失竊傳聞已被證實。"
+          },
+          {
+            "id": "c",
+            "en": "The school still has no evidence about the trophy’s location.",
+            "zh": "學校仍沒有獎盃位置的證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紀錄與實物使真實去向清楚；傳聞並未獲證實，而且學校已找到獎盃。",
+        "promptZh": "學校原以為獎盃不見了。倉庫清單與保安紀錄顯示獎盃其實送往修復室，職員找到它。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A receipt reveals who paid for the damaged window.",
+            "zh": "收據揭示誰支付了損壞窗戶的費用。"
+          },
+          {
+            "id": "b",
+            "en": "A neighbour repeats an unverified rumour, and no one checks it.",
+            "zh": "鄰居重複一個未核實的傳聞，沒有人查證。"
+          },
+          {
+            "id": "c",
+            "en": "An archived email explains why the event was cancelled.",
+            "zh": "一封舊電郵解釋活動為何取消。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "未核實傳聞沒有揭露事實；收據和舊電郵則提供可查證的資料。",
+        "promptZh": "哪個情況最不適合用 truth rises to the surface 表示隱藏事實被揭露？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The truth rose to the surface once someone checked the minutes.",
+            "zh": "有人查閱會議紀錄後，真相浮出水面。"
+          },
+          {
+            "id": "b",
+            "en": "The rumour must still be right even though the minutes say otherwise.",
+            "zh": "即使會議紀錄另有說法，傳聞一定仍然正確。"
+          },
+          {
+            "id": "c",
+            "en": "We should keep repeating the first explanation without checking it.",
+            "zh": "我們應繼續重複最初說法，毋須查證。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "會議紀錄解釋了真正情況，與初始傳聞不同；後兩項無視已查明的證據。",
+        "promptZh": "朋友說：「大家以為預算被削減，會議紀錄卻顯示款項只是延遲撥出。」怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The truth rose to the surface when the caretaker's log showed that the keys had been moved to storage, not stolen.",
+        "zh": "管理員的紀錄顯示鑰匙只是被移到儲物室，並非遭人偷走，真相於是浮出水面。",
+        "promptZh": "先聽示範，再指出哪項紀錄推翻了原先的失竊猜測。",
+        "targetSpan": {
+          "start": 0,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇團以為有人刪除了演出影片。技術員檢查備份紀錄，發現影片只是被移到另一個資料夾。用一至兩句英文描述誤會及查明經過。",
+        "selfCheckZh": "指出原先誤以為影片被刪、技術員查備份，以及影片被移到另一資料夾；不要仍稱影片遺失。",
+        "examples": [
+          {
+            "en": "The troupe thought the performance video had been deleted, but the truth rose to the surface when a technician checked the backup log and found it in another folder.",
+            "zh": "劇團以為演出影片已被刪除，但技術員查閱備份紀錄，在另一個資料夾找到影片，真相因而浮出水面。"
+          },
+          {
+            "en": "After the technician reviewed the backup record, the truth rose to the surface: the video had been moved to a different folder, not deleted.",
+            "zh": "技術員查看備份紀錄後，真相浮出水面：影片只是移到另一個資料夾，並沒有被刪除。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "performance video",
+            "zh": "演出影片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 40
+            }
+          },
+          {
+            "en": "a technician",
+            "zh": "技術員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 110
+            }
+          },
+          {
+            "en": "backup log",
+            "zh": "備份紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 133
+            }
+          },
+          {
+            "en": "backup record",
+            "zh": "備份紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 47
+            }
+          },
+          {
+            "en": "a different folder",
+            "zh": "另一個資料夾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 126
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The truth rose to the surface when the signed form was found.",
+          "zh": "找到已簽署的表格時，真相浮出水面。"
+        },
+        {
+          "en": "Weeks later, the truth rises to the surface through the archived messages.",
+          "zh": "幾週後，真相透過存檔訊息浮出水面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no learner-facing lesson change or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+  "fileSha256": "bc7b98df098f8ac60dc91251c8a7a5c99c732367bbfee1a83a46c3a0e3723d8b",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3388,
+      "severity": "minor",
+      "path": "reason; canonical comparison",
+      "explanation": "The held source “a small window to another culture” uses the same insight/access metaphor as canonical 305 “a window into”. The decision calls it merely broad imagery without acknowledging that owner; the preposition “to” falls outside 305’s detector.",
+      "recommendedFix": "Keep the hold, but name canonical 305 and resolve whether “window to” is a valid variant before any future owner or release."
+    },
+    {
+      "sourceOrdinal": 3398,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Spreading itself too thin” describes weakening capacity through excessive commitments, the same image and practical learner outcome as canonical 1306 “stretched thin”. The surface verb differs and 1306’s regex does not cover it, so a second lesson owner needs explicit justification.",
+      "recommendedFix": "Move to hold-editorial pending a documented construction/sense distinction, or approve a canonical-pattern expansion and alias-existing route."
+    },
+    {
+      "sourceOrdinal": 3414,
+      "severity": "major",
+      "path": "action; phrase; canonicalId; reason",
+      "explanation": "“Cut itself off from fresh thinking” teaches the reusable figurative cut off from X isolation construction. Canonicals 648 and 1347 already own cut off from opportunity/others in related access/isolation senses; fresh thinking is a new complement, not clearly a new learner outcome. The proposed phrase also includes substitutable subject/object wording.",
+      "recommendedFix": "Hold for owner-scope review against 648/1347; if distinct, normalize the teachable unit to cut oneself off from X and document the distinct meaning and detector before drafting."
+    },
+    {
+      "sourceOrdinal": 3421,
+      "severity": "minor",
+      "path": "phrase; reason",
+      "explanation": "“Send shockwaves far and wide” includes the optional adverbial “far and wide”. The reusable idiom in the source is “send shockwaves”; the decision treats the longer source span as fixed.",
+      "recommendedFix": "Normalize the teaching unit to send shockwaves, keeping far and wide as optional context; confirm target detection on the full source sentence."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 rows to exact source examples and prior canonical teaching meanings.",
+    "All proposed-alias-existing rows match their full source sentence under the named owner regex.",
+    "Alias-new references in this batch point to earlier provisional owners; selection and future draft quality remain separate checks."
+  ],
+  "limits": [
+    "AI peer review only; findings require editorial adjudication.",
+    "A regex match is not proof of semantic ownership or publication readiness."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+  "fileSha256": "fa8a4297a0a14fd0998073f65d9e969be5e4ae6ca23468470830f08b3d7e8128",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3984,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“The solution clicks into place” reaches a coherent-understanding endpoint, very close to canonical 1203 “things began to click” for understanding how ideas fit together. Different aspect/frame may support a distinct lesson, but the decision does not identify it.",
+      "recommendedFix": "Compare 1203 explicitly and define endpoint/solution-fit versus onset-of-understanding as a distinct learner outcome, or hold."
+    },
+    {
+      "sourceOrdinal": 3990,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Good players look ahead before moving” teaches anticipation of future moves/consequences, the same practical outcome as canonical 913 “think a few steps ahead”. The phrase uses a simpler verb but the proposed owner does not explain separate sense or pattern.",
+      "recommendedFix": "Hold pending canonical 913 owner-scope review, or document a distinct use condition supported by source before a new lesson."
+    },
+    {
+      "sourceOrdinal": 4015,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "“The young runner had fire in the belly at every practice” sounds non-native because the idiom normally takes a possessor (“fire in her belly”) or article in this clause. The phrase is teachable, but the exact source is not a safe learner model unchanged.",
+      "recommendedFix": "Hold pending source-language review or require a natural guide-written model such as “She had fire in her belly” while preserving the exact source for provenance."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source examples, teaching meanings and prior canonical owners.",
+    "All proposed-alias-existing rows match the complete source sentence under the named generated target regex.",
+    "Conservative holds for unsupported literal/figurative variants remain unchanged."
+  ],
+  "limits": [
+    "AI peer review only; no human editorial or release approval.",
+    "Source language issues must be resolved in a future lesson model without silently changing source provenance."
+  ]
+}

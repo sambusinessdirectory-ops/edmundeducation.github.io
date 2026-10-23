@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-selected-2351-2360-provisional-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2351",
+      "number": 2351,
+      "inventoryId": "expr-2351",
+      "titleEn": "taps into something universal",
+      "titleZh": "觸及人人共有的感受",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:tap|taps|tapped|tapping) into something universal\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Connect with a feeling or experience many people recognise across different circumstances.",
+        "meaningZh": "作品或說話觸及許多人都認得的情感或經驗，即使各人背景不同。",
+        "grammar": "a story taps into something universal about belonging.",
+        "register": "Thoughtful review phrase; name the shared human feeling instead of using it as empty praise.",
+        "boundaryZh": "重點是共同的人類感受，不單是跨年齡受歡迎、收視高或題材很廣泛。",
+        "misconceptionZh": "不要只說 universal 而不指出共同感受；也不要把少數人特有的經歷自動說成人人共有。",
+        "outcomeZh": "能指出故事的具體情節，以及它觸及的普遍感受。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0240",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 22,
+          "book": 10,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The story taps into something universal about friendship.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "taps into something universal"
+        }
+      ],
+      "listening": {
+        "en": "In the play, a child waits for a parent who is late. Audiences with very different lives recognise the wish to feel cared for. The scene taps into something universal.",
+        "zh": "劇中孩子等待遲到的家長。生活背景迥異的觀眾都理解被關心的渴望；這幕觸及人人共有的感受。",
+        "promptZh": "這幕為何被說成 taps into something universal？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reflects a desire for care that many people recognise.",
+            "zh": "它反映許多人都理解的被關心渴望。"
+          },
+          {
+            "id": "b",
+            "en": "It portrays the precise experience of waiting for a late parent rather than a wider wish for care.",
+            "zh": "它描繪等待遲到家長的具體經驗，而非更廣泛的被關心渴望。"
+          },
+          {
+            "id": "c",
+            "en": "Its popularity across age groups proves the theme is shared by everyone.",
+            "zh": "它在不同年齡層受歡迎，便證明主題是人人共有的感受。"
+          },
+          {
+            "id": "d",
+            "en": "It teaches viewers about family routines in several communities.",
+            "zh": "它讓觀眾認識幾個社群的家庭日常。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "劇中具體經歷是等待家長，但能跨背景引起共鳴的是被關心的共同渴望；受歡迎程度或題材廣泛本身不足以證明。"
+      },
+      "reply": {
+        "promptEn": "Why does this simple story about losing a friend move so many readers?",
+        "promptZh": "（這個失去朋友的簡單故事為何感動許多讀者？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many readers recognise the fear of losing a close connection.",
+            "zh": "很多讀者都明白害怕失去親密關係的心情。"
+          },
+          {
+            "id": "b",
+            "en": "Its quiet ending gives people space to think about friendship.",
+            "zh": "它平靜的結尾讓人思考友情。"
+          },
+          {
+            "id": "c",
+            "en": "It taps into something universal: wanting to be understood by a friend.",
+            "zh": "它觸及人人共有的感受：希望得到朋友理解。"
+          },
+          {
+            "id": "d",
+            "en": "Readers may remember someone important to them.",
+            "zh": "讀者可能想起自己重視的人。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理解釋感動的來源；金句明確指出共同的人類渴望。"
+      },
+      "scene": {
+        "promptZh": "短片講述兩個陌生人互相幫助，觀眾來自不同地方，卻都明白受到善待的欣慰。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It taps into something universal about being treated with kindness.",
+            "zh": "它觸及人們受到善待時共有的感受。"
+          },
+          {
+            "id": "b",
+            "en": "It reaches people from many places, so its viewing figures alone make the feeling universal.",
+            "zh": "它觸及多地觀眾，因此單憑觀看人數便可說感受普遍。"
+          },
+          {
+            "id": "c",
+            "en": "It closely records one helper’s unusual biography rather than the shared relief of being treated kindly.",
+            "zh": "它細述其中一位幫助者的特殊經歷，卻未點出受到善待的共同欣慰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "決定性線索是不同背景的人都理解受善待的欣慰；觀看人數或單一人物傳記並非共同情感。"
+      },
+      "contrast": {
+        "promptZh": "哪個評語最不適合用 taps into something universal？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reunion scene evokes the common hope of seeing someone missed.",
+            "zh": "重逢場面喚起許多人希望再見思念之人的心情。"
+          },
+          {
+            "id": "b",
+            "en": "A story about apologies reminds readers of wanting to repair relationships.",
+            "zh": "道歉故事令讀者想起修補關係的渴望。"
+          },
+          {
+            "id": "c",
+            "en": "A manual explains a specialised machine setting to a small group of technicians.",
+            "zh": "操作手冊向少數技術員解說一項專門機器設定。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "專門操作知識本身並非許多人共有的情感或經驗。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我沒養過那種寵物，卻理解主角害怕失去陪伴的感覺。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The story taps into something universal about fearing the loss of a companion.",
+            "zh": "故事觸及害怕失去陪伴這種許多人都有的感受。"
+          },
+          {
+            "id": "b",
+            "en": "It may speak mainly to people who have owned that particular kind of pet.",
+            "zh": "它可能主要打動養過那種寵物的人。"
+          },
+          {
+            "id": "c",
+            "en": "The scene seems moving simply because many viewers like the animal on screen.",
+            "zh": "那幕似乎只因許多觀眾喜歡畫面中的動物而動人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友沒有養過那種寵物，卻理解失去陪伴的恐懼，說明共鳴超越特定養寵物經驗。"
+      },
+      "speaking": {
+        "en": "The film taps into something universal when its characters try to find a place where they belong.",
+        "zh": "電影中角色尋找歸屬之處，觸及人人共有的感受。",
+        "promptZh": "先聽示範，再指出故事觸及哪種共同感受。",
+        "targetSpan": {
+          "start": 9,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇中，一名新同學坐在陌生的飯堂，直到有人邀她同坐；不同背景的觀眾都理解想被接納的心情。用一至兩句英文解釋這幕為何動人。",
+        "selfCheckZh": "指出新同學被邀同坐的具體情節，以及許多人共有的被接納渴望；不要只說場面受歡迎。",
+        "examples": [
+          {
+            "en": "The lunchroom scene taps into something universal: a newcomer wants to belong, and a simple invitation makes her feel welcome.",
+            "zh": "飯堂一幕觸及人人共有的感受：新同學渴望歸屬，一個簡單邀請讓她感到受歡迎。"
+          },
+          {
+            "en": "When another student offers her a seat, the play taps into something universal about hoping to be accepted in a new place.",
+            "zh": "另一名學生邀她同坐時，這齣戲觸及人在新環境中盼望被接納的普遍感受。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lunchroom scene",
+            "zh": "飯堂場面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "a newcomer",
+            "zh": "新同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 61
+            }
+          },
+          {
+            "en": "a simple invitation",
+            "zh": "一個簡單邀請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 102
+            }
+          },
+          {
+            "en": "offers her a seat",
+            "zh": "邀她同坐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 38
+            }
+          },
+          {
+            "en": "a new place",
+            "zh": "新環境",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The poem taps into something universal about wanting a second chance.",
+          "zh": "這首詩觸及人們希望重來一次的普遍感受。"
+        },
+        {
+          "en": "A specific scene can tap into something universal when it reveals a widely shared fear.",
+          "zh": "具體場面若呈現許多人共有的恐懼，便能觸及普遍感受。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2353",
+      "number": 2353,
+      "inventoryId": "expr-2353",
+      "titleEn": "emotional undercurrent",
+      "titleZh": "暗藏的情感脈絡",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bemotional undercurrent\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A feeling that runs beneath the obvious action or tone of a work.",
+        "meaningZh": "故事表面情節或語氣之下持續存在、未必明說的情感。",
+        "grammar": "an emotional undercurrent beneath the comedy.",
+        "register": "Review metaphor for subtle sustained feeling, not a single explicit outburst.",
+        "boundaryZh": "重點是隱約而持續的情緒；若角色直接說出感受，便不一定是暗流。",
+        "misconceptionZh": "不要把 undercurrent 當成真的水流，也不要把一瞬間的情緒爆發當成整部作品的暗藏脈絡。",
+        "outcomeZh": "能指出表面事件與其下隱約流動的情感。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0242",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 22,
+          "book": 10,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An emotional undercurrent runs through the comedy.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional undercurrent"
+        }
+      ],
+      "listening": {
+        "en": "The characters joke through dinner, but each pauses when their absent sister’s name is mentioned. An emotional undercurrent of grief runs beneath the humour.",
+        "zh": "角色在晚餐中一直說笑，但每次提起不在場的姊姊都停頓；幽默之下隱藏着悲傷的情感脈絡。",
+        "promptZh": "這裏的 emotional undercurrent 是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Quiet grief that persists beneath the joking.",
+            "zh": "說笑之下持續存在的淡淡悲傷。"
+          },
+          {
+            "id": "b",
+            "en": "A sudden public argument that ends the dinner.",
+            "zh": "一場突然出現、結束晚餐的公開爭吵。"
+          },
+          {
+            "id": "c",
+            "en": "A concern that the family openly discusses throughout dinner.",
+            "zh": "一家人在晚餐時公開討論的顧慮。"
+          },
+          {
+            "id": "d",
+            "en": "The cheerful tone with no other feeling suggested.",
+            "zh": "純粹愉快的語氣，沒有其他情緒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "說笑是表面；提到姊姊時的停頓暗示持續的悲傷。"
+      },
+      "reply": {
+        "promptEn": "Why does the comedy feel slightly sad when the friends joke and then fall quiet whenever Mina, who has moved away, is mentioned?",
+        "promptZh": "（美娜搬走後，朋友們每次提起她都先開玩笑，隨後又安靜下來；為何這齣喜劇帶點傷感？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their pauses suggest they miss Mina even as they laugh.",
+            "zh": "他們雖在笑，停頓卻顯示仍掛念美娜。"
+          },
+          {
+            "id": "b",
+            "en": "The jokes cannot fully hide how much her absence affects them.",
+            "zh": "笑話無法完全掩蓋美娜不在對他們的影響。"
+          },
+          {
+            "id": "c",
+            "en": "An emotional undercurrent of longing for Mina runs beneath the jokes.",
+            "zh": "笑話底下有一股思念美娜的情感暗流。"
+          },
+          {
+            "id": "d",
+            "en": "The laughter sounds like their way of coping with a friend’s move.",
+            "zh": "笑聲像是他們應對朋友搬離的方式。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據美娜已搬離、朋友談起她時仍笑着的情境合理回應；金句指出笑話底下持續的思念。"
+      },
+      "scene": {
+        "promptZh": "紀錄片表面輕快地描繪搬家過程，但主角每次路過舊居都會停下來望一眼。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An emotional undercurrent of longing for the old home lies beneath the cheerful account.",
+            "zh": "輕快敘述底下有一股對舊居的眷戀。"
+          },
+          {
+            "id": "b",
+            "en": "The film focuses only on practical packing advice rather than feelings about home.",
+            "zh": "影片只集中提供實用收拾建議，而非對家的感受。"
+          },
+          {
+            "id": "c",
+            "en": "The character openly tells everyone that moving was a mistake.",
+            "zh": "主角公開告訴所有人搬家是錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主角屢次望向舊居，足以顯示眷戀；但不能單憑此推斷他後悔搬家。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 emotional undercurrent？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A character’s polite smile repeatedly fails whenever an old friend is mentioned.",
+            "zh": "每次提起舊友，角色禮貌的笑容都難以維持。"
+          },
+          {
+            "id": "b",
+            "en": "A light plot is repeatedly shaded by hints that the family is anxious.",
+            "zh": "輕快情節反覆流露一家人的焦慮。"
+          },
+          {
+            "id": "c",
+            "en": "At the climax, a character directly announces their anger in a long speech.",
+            "zh": "高潮時，角色以長篇說話直接宣告自己的憤怒。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "直接宣告的情緒已成表面事件，缺少隱約而持續的暗流特點。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「全片都是日常笑話，但我總覺得一家人怕再次分開。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That fear seems to be the film’s emotional undercurrent beneath its humour.",
+            "zh": "那種恐懼似乎是影片幽默之下的情感暗流。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps that fear appears only in one serious scene and not beneath the jokes.",
+            "zh": "或許這份恐懼只在一幕嚴肅場面出現，並沒有藏在笑話底下。"
+          },
+          {
+            "id": "c",
+            "en": "The jokes may bring a brief sad note, but not a feeling that runs through the film.",
+            "zh": "笑話或許帶來短暫傷感，卻未必有貫穿全片的情緒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說全片的日常笑話下始終令人感到害怕分離，因此比短暫情緒或單一嚴肅場面更像持續的情感暗流。"
+      },
+      "speaking": {
+        "en": "An emotional undercurrent of worry runs beneath the family’s cheerful preparations.",
+        "zh": "一家人愉快地準備，當中卻暗藏憂慮的情感脈絡。",
+        "promptZh": "先聽示範，再指出表面氣氛和暗藏感受。",
+        "targetSpan": {
+          "start": 3,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：短片中兩兄弟一邊收拾祖母的廚房一邊開玩笑，但不時停下來看她留下的食譜。用一至兩句英文描述表面氣氛與暗藏的思念。",
+        "selfCheckZh": "寫出收拾廚房時的玩笑、食譜引起的停頓，以及未直接說出的思念；暗流須持續而含蓄。",
+        "examples": [
+          {
+            "en": "An emotional undercurrent of longing runs beneath the brothers’ jokes as they sort their grandmother’s kitchen and pause over her recipes.",
+            "zh": "兄弟整理祖母廚房、因她的食譜而停頓時，玩笑之下流露出思念的情感暗流。"
+          },
+          {
+            "en": "Although the brothers keep joking while they clear the kitchen, their pauses over the recipes reveal an emotional undercurrent of grief.",
+            "zh": "兄弟清理廚房時一直開玩笑，但看見食譜時的停頓顯露出悲傷的情感暗流。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the brothers’ jokes",
+            "zh": "兄弟的玩笑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 69
+            }
+          },
+          {
+            "en": "their grandmother’s kitchen",
+            "zh": "祖母的廚房",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 110
+            }
+          },
+          {
+            "en": "her recipes",
+            "zh": "她的食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 137
+            }
+          },
+          {
+            "en": "clear the kitchen",
+            "zh": "清理廚房",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "pauses over the recipes",
+            "zh": "看見食譜時的停頓",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 93
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The bright dialogue hides an emotional undercurrent of uncertainty.",
+          "zh": "明快的對白之下隱藏着不安的情感暗流。"
+        },
+        {
+          "en": "An emotional undercurrent can make a cheerful scene feel quietly sad.",
+          "zh": "情感暗流可以令歡樂場面帶上淡淡的傷感。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 5
+    },
+    {
+      "id": "advanced-native-2358",
+      "number": 2358,
+      "inventoryId": "expr-2358",
+      "titleEn": "larger than life",
+      "titleZh": "鮮明非凡、氣場強大",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\blarger than life\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Seem unusually vivid, impressive or dramatic in personality or presence.",
+        "meaningZh": "人物的性格或氣場比日常所見更鮮明、誇張或令人印象深刻。",
+        "grammar": "a larger than life performer; a larger than life character.",
+        "register": "Often admiring, though it may also imply theatrical excess.",
+        "boundaryZh": "說的是人物氣質或表現，不是身形高大，也不是單憑知名度帶來觀眾。",
+        "misconceptionZh": "不要把它當成身高比較；作品角色也可以 larger than life。",
+        "outcomeZh": "能用具體行為解釋人物為何顯得非凡鮮明。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0247",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 19, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The singer had a larger than life stage presence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "larger than life"
+        }
+      ],
+      "listening": {
+        "en": "The theatre director spoke with sweeping gestures, turned every rehearsal note into a vivid story, and filled the room with energy. To the cast, she seemed larger than life.",
+        "zh": "劇團導演說話時手勢豪邁，連排練提示也能說成生動故事，整個房間充滿她的活力。演員覺得她氣場非凡。",
+        "promptZh": "larger than life 在這裏主要形容甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her unusually vivid and commanding presence.",
+            "zh": "她格外鮮明且具感染力的氣場。"
+          },
+          {
+            "id": "b",
+            "en": "Her confident voice draws attention, but the story gives no sign of a vivid personality beyond that performance skill.",
+            "zh": "她自信的聲音引人注意，但故事未顯示聲音技巧以外鮮明的人物氣場。"
+          },
+          {
+            "id": "c",
+            "en": "The dramatic stage design, rather than the performer herself, creates most of the effect.",
+            "zh": "主要效果來自戲劇化舞台設計，而非表演者本人。"
+          },
+          {
+            "id": "d",
+            "en": "People remember her because they already know her work, not because of her presence in this scene.",
+            "zh": "大家記得她，是因早已認識她的作品，而非這一幕的氣場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是表演者本人鮮明、強烈的氣場；音量、舞台設計或既有名氣都不能單獨取代這個判斷。"
+      },
+      "reply": {
+        "promptEn": "What made the storyteller unforgettable at the village festival?",
+        "promptZh": "（村莊節慶中的說書人為何令人難忘？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He filled each pause with expressive gestures.",
+            "zh": "他用富表情的手勢填滿每個停頓。"
+          },
+          {
+            "id": "b",
+            "en": "His voice made ordinary events feel adventurous.",
+            "zh": "他的聲音令平凡事件變得像冒險。"
+          },
+          {
+            "id": "c",
+            "en": "Even people at the back followed every turn of his tale.",
+            "zh": "連坐在後排的人都緊貼故事發展。"
+          },
+          {
+            "id": "d",
+            "en": "His larger than life presence made every tale feel vivid.",
+            "zh": "他非凡鮮明的氣場令每個故事都栩栩如生。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都能說明說書人的魅力；金句概括他異乎尋常的生動氣場。"
+      },
+      "scene": {
+        "promptZh": "小說中的老船長每次出場都語調豪邁、故事離奇，其他角色也被他帶動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is a larger than life character whose energy dominates each scene.",
+            "zh": "他是個鮮明非凡的人物，活力主導每個場面。"
+          },
+          {
+            "id": "b",
+            "en": "His adventures are striking mainly because the plot takes him to unusual places.",
+            "zh": "他的歷險令人難忘，主要因情節帶他到不尋常的地方。"
+          },
+          {
+            "id": "c",
+            "en": "Other characters respond mostly to the captain’s detailed instructions, rather than his vivid presence.",
+            "zh": "其他角色主要回應船長詳細的指示，而不是他鮮明的氣場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "老船長語調、故事與帶動他人的能量共同建立鮮明氣場；單是情節奇特或指示詳細不夠。"
+      },
+      "contrast": {
+        "promptZh": "哪個描述最不適合稱為 larger than life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A performer’s booming voice and dramatic gestures command attention.",
+            "zh": "表演者響亮的聲音與戲劇性手勢吸引全場注意。"
+          },
+          {
+            "id": "b",
+            "en": "A fictional aunt turns every small mishap into a grand adventure.",
+            "zh": "小說中的姨姨把每件小意外說成壯闊冒險。"
+          },
+          {
+            "id": "c",
+            "en": "An actor is physically tall but gives a deliberately subdued performance.",
+            "zh": "演員身形高大，表演卻刻意內斂低調。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "身形高大不等於性格或表演格外鮮明；其餘兩項著重氣場。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「那位主持人未必有名，但一進場就用聲音和動作吸引大家。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He sounds larger than life even without celebrity status.",
+            "zh": "即使沒有明星名氣，他聽來也氣場非凡。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps the lively script gives him memorable lines, while his delivery stays restrained.",
+            "zh": "也許活潑的稿子給他難忘的台詞，但他的表達仍相當收斂。"
+          },
+          {
+            "id": "c",
+            "en": "He may grab attention for a moment with volume alone, without a vivid presence.",
+            "zh": "他或許只靠音量短暫吸引注意，未必有鮮明氣場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說主持人即使未必有名，仍以聲音和動作吸引全場，指向鮮明氣場，而非單靠台詞或短暫音量。"
+      },
+      "speaking": {
+        "en": "The local guide was larger than life, bringing every old harbour tale alive with his voice.",
+        "zh": "那位本地導賞員氣場非凡，以聲音說活每個舊港故事。",
+        "promptZh": "先聽示範，再指出導賞員如何令故事生動。",
+        "targetSpan": {
+          "start": 20,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區舞台劇中，一位飾演書店老闆的學生用富變化的聲音、誇張但恰當的手勢，令普通買書場面令人難忘。用一至兩句英文評價她的角色。",
+        "selfCheckZh": "指出角色的聲音和手勢，並說明為何普通場面因此變得鮮明；不要只談身高或名氣。",
+        "examples": [
+          {
+            "en": "Her larger than life bookshop owner uses a playful voice and bold gestures to make an ordinary sale memorable.",
+            "zh": "她演的書店老闆氣場鮮明，以俏皮聲線和豪邁手勢令平凡交易難忘。"
+          },
+          {
+            "en": "In the school play, she makes the bookshop owner larger than life through expressive speech and gestures, even during a simple purchase.",
+            "zh": "在校園劇裏，即使只是簡單買書，她仍憑生動的說話與手勢把書店老闆演得鮮明非凡。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bookshop owner",
+            "zh": "書店老闆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 35
+            }
+          },
+          {
+            "en": "a playful voice",
+            "zh": "俏皮聲線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 56
+            }
+          },
+          {
+            "en": "bold gestures",
+            "zh": "豪邁手勢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 74
+            }
+          },
+          {
+            "en": "school play",
+            "zh": "校園劇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 18
+            }
+          },
+          {
+            "en": "a simple purchase",
+            "zh": "簡單買書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Her larger than life personality brought warmth to the small café.",
+          "zh": "她鮮明非凡的個性為小咖啡店帶來溫暖。"
+        },
+        {
+          "en": "A larger than life character can be memorable without being well known.",
+          "zh": "鮮明非凡的角色即使不出名也能令人難忘。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2360",
+      "number": 2360,
+      "inventoryId": "expr-2360",
+      "titleEn": "blind devotion",
+      "titleZh": "盲目忠誠",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bblind devotion\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Strong loyalty that prevents someone from recognising faults or judging evidence fairly.",
+        "meaningZh": "對人或團體過分忠誠，以致忽略缺點或不願公平檢視證據。",
+        "grammar": "blind devotion to a leader; blind devotion can silence criticism.",
+        "register": "Critical phrase; loyalty itself is not the problem, lack of judgment is.",
+        "boundaryZh": "與欣賞或支持不同，blind devotion 會忽視明顯問題；不必涉及名人崇拜。",
+        "misconceptionZh": "不要把有理據的忠誠說成盲目，也不要把 blind 當作真的視力問題。",
+        "outcomeZh": "能指出支持者忽略了哪項可核實的問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0249",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 23,
+          "book": 10,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 19, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Blind devotion can make honest criticism difficult.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blind devotion"
+        }
+      ],
+      "listening": {
+        "en": "The club treasurer showed receipts with a clear accounting error, but a few members refused even to look because they trusted the chair unconditionally. Their blind devotion made review difficult.",
+        "zh": "社團司庫出示收據，當中有明顯帳目錯誤，但幾位成員因無條件信任主席，連看都不願看。他們的盲目忠誠令審核困難。",
+        "promptZh": "為甚麼這可稱為 blind devotion？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their loyalty stops them from examining evidence of a mistake.",
+            "zh": "他們的忠誠令他們不肯檢視錯誤證據。"
+          },
+          {
+            "id": "b",
+            "en": "They have studied the receipts and reached a different interpretation.",
+            "zh": "他們仔細看過收據，得出不同解讀。"
+          },
+          {
+            "id": "c",
+            "en": "They support the chair but still request an independent check.",
+            "zh": "他們支持主席，也要求獨立核查。"
+          },
+          {
+            "id": "d",
+            "en": "They cannot read the receipts because the copies are unclear.",
+            "zh": "他們因影印本不清晰而看不懂收據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明顯錯誤已提出，他們仍因無條件信任而拒絕檢視，關鍵是失去判斷。"
+      },
+      "reply": {
+        "promptEn": "Why is the committee struggling to discuss the captain’s repeated mistakes?",
+        "promptZh": "（委員會為何難以討論隊長屢次犯錯？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some members will not examine the practice records.",
+            "zh": "部分成員不肯查看練習紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "A few people treat every criticism as disloyalty.",
+            "zh": "有些人把所有批評都當成不忠。"
+          },
+          {
+            "id": "c",
+            "en": "Their blind devotion to the captain makes honest review difficult.",
+            "zh": "他們對隊長的盲目忠誠令坦誠檢討困難。"
+          },
+          {
+            "id": "d",
+            "en": "They dismiss concerns before hearing what happened.",
+            "zh": "他們未聽清楚事情經過便駁回顧慮。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理解釋討論困難；金句指出無條件忠誠如何阻礙檢討。"
+      },
+      "scene": {
+        "promptZh": "隊員看到安全檢查有遺漏，卻因極度信任教練而拒絕討論紀錄。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Blind devotion to the coach is keeping the team from reviewing the omission.",
+            "zh": "對教練的盲目忠誠令隊伍無法檢討遺漏。"
+          },
+          {
+            "id": "b",
+            "en": "The players trust the coach but still ask someone independent to check the safety record.",
+            "zh": "隊員信任教練，但仍請獨立人士核對安全紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The players ask whether the omitted item was a minor clerical detail before judging the coach.",
+            "zh": "隊員先查明遺漏是否細小文書問題，再評價教練。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可核實的安全遺漏不予討論，顯示忠誠壓倒了判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪種支持最不適合稱為 blind devotion？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A supporter dismisses all complaints without checking the facts.",
+            "zh": "支持者未核實事實便駁回所有投訴。"
+          },
+          {
+            "id": "b",
+            "en": "A member respects the leader but asks for an independent review of a mistake.",
+            "zh": "成員尊重領袖，也要求獨立檢討錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "A fan refuses to read a reliable report about their favourite team.",
+            "zh": "球迷不肯看關於心愛球隊的可靠報告。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "尊重領袖同時檢討錯誤，保留了獨立判斷，並非盲目忠誠。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「隊員明知安全紀錄有遺漏，卻因崇拜教練而拒絕讓任何人核對。」哪句最能指出問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is blind devotion: loyalty is blocking a needed safety check.",
+            "zh": "那是盲目崇拜：忠誠阻礙了必要的安全查核。"
+          },
+          {
+            "id": "b",
+            "en": "They may trust the coach while still limiting the review to this one safety item.",
+            "zh": "他們可以信任教練，同時只就這項安全事項進行核查。"
+          },
+          {
+            "id": "c",
+            "en": "The first step is to clarify exactly which entry was omitted from the record.",
+            "zh": "第一步是查明紀錄究竟漏了哪一項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說隊員因崇拜而拒絕任何查核；問題不是該怎樣縮小核查範圍，而是忠誠已阻礙必要的安全判斷。"
+      },
+      "speaking": {
+        "en": "Blind devotion made the board ignore repeated warnings about the damaged equipment.",
+        "zh": "盲目忠誠令董事會忽視設備損壞的反覆警告。",
+        "promptZh": "先聽示範，再指出哪項警告被忽視。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會主席公布一份活動預算，幾位支持者發現總數有誤，仍拒絕讓財務組覆核，因為他們認定主席不會犯錯。用一至兩句英文描述問題及應有做法。",
+        "selfCheckZh": "指出預算總數有誤、支持者拒絕覆核的原因，以及應讓財務組檢查；重點是忠誠妨礙判斷。",
+        "examples": [
+          {
+            "en": "Blind devotion to the chair made some supporters ignore the incorrect total, but they should let the finance team check the budget.",
+            "zh": "對主席的盲目忠誠令部分支持者忽略了總數錯誤，但他們應讓財務組覆核預算。"
+          },
+          {
+            "en": "The supporters’ blind devotion led them to reject a budget review even after they spotted the wrong total; the finance team should examine it.",
+            "zh": "支持者發現總數有誤後仍因盲目忠誠拒絕覆核預算；財務組應加以檢查。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the incorrect total",
+            "zh": "錯誤的總數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 75
+            }
+          },
+          {
+            "en": "finance team",
+            "zh": "財務組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 113
+            }
+          },
+          {
+            "en": "check the budget",
+            "zh": "覆核預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 130
+            }
+          },
+          {
+            "en": "budget review",
+            "zh": "預算覆核",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 65
+            }
+          },
+          {
+            "en": "the wrong total",
+            "zh": "錯誤的總數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Blind devotion can make a group ignore evidence it ought to examine.",
+          "zh": "盲目忠誠會令團體忽略本應檢視的證據。"
+        },
+        {
+          "en": "The volunteers avoided blind devotion by checking every claim against the records.",
+          "zh": "義工把每項說法與紀錄核對，避免了盲目忠誠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+  "fileSha256": "2a6d060cd22f543de94a405ac4ab9cad6abc828e69dc2cd9db8af432970f3e97",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 3
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3916,
+      "severity": "minor",
+      "path": "action; reason; prior held source 3390",
+      "explanation": "“Strong local flavour” in a tournament clearly means distinctive local character. Earlier source 3390 “carry a very local flavour” is held because pastries could mean literal taste or figurative identity. The decision proposes a new owner without cross-referencing that held occurrence, risking a later duplicate or missed alias.",
+      "recommendedFix": "Keep the clear figurative source as a possible owner, but document 3390 as a held same-phrase occurrence and resolve its literal/figurative sense before later aliasing."
+    },
+    {
+      "sourceOrdinal": 3926,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“Trend has legs” means it can continue successfully, overlapping the learner outcome of provisional owner 2255 “staying power”. Different idiom and syntax may justify separate lessons, but the decision does not compare the earlier owner.",
+      "recommendedFix": "Document the semantic and construction distinction from 2255 or hold pending owner-scope review."
+    },
+    {
+      "sourceOrdinal": 3941,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“Build character” in sport teaches development of personal qualities, close to canonical 907 “shape their character”. Canonical 907 may cover general influence while build character often implies strengthening through challenge, but this distinction is absent.",
+      "recommendedFix": "Add explicit use/meaning boundary versus 907, or hold if the planned exercise would test the same learner outcome."
+    }
+  ],
+  "passedChecks": [
+    "Compared 60 rows to exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source sentence under named owner detector.",
+    "Previously held ambiguous idioms remain held; no owner edits were made."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions remain provisional.",
+    "Detector matches are mechanical evidence, not human editorial or release approval."
+  ]
+}

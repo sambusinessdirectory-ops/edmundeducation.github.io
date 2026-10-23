@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+  "fileSha256": "8dfa43d4e55ba076b9f671c9d6623067fae0e59419e80ce3975d15f19d13289f",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3916,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach local flavour as the figurative distinctive character of a place, supported by the tournament source. Row 3390 uses a pastry example where literal taste versus place identity is ambiguous and remains held; do not absorb it without a sense decision."
+    },
+    {
+      "sourceOrdinal": 3926,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach the conventional have legs construction for a trend with enough viability to last. Canonical 2255 staying power expresses durability as a noun but does not teach this body-part idiom; both may be cross-referenced without merging their lexical forms."
+    },
+    {
+      "sourceOrdinal": 3941,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach build character as the collocation for developing personal qualities through experience or activity. Canonical 907 shape their character is semantically related but uses a different verb frame; avoid duplicate sense drills and cross-reference it during authoring."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only original decision findings; human sense approval and future draft QA remain pending.",
+    "Rows still on hold require owner-scope adjudication before lessons can be authored."
+  ]
+}

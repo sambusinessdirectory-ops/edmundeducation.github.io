@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+  "fileSha256": "5f3ccf184d09e2d26092c9a89d930fa2f603b13daeb7de55f573c24145367d71",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3495,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Catches your eye is a transitive event verb for something drawing one viewer’s gaze at a moment. Canonical 154 eye-catching teaches an adjectival quality; canonical 286 catch attention uses a broader attention verb with listener-focused examples. Distinct grammar and viewpoint need review before a separate lesson."
+    },
+    {
+      "sourceOrdinal": 3525,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "The exact source span is descending into a free-for-all, but the reusable noun idiom is a free-for-all; descending into is one replaceable frame. Retain source wording for provenance and require a future target pattern that covers this source plus natural noun-idiom frames."
+    }
+  ],
+  "limits": [
+    "This resolves only listed provisional decision findings; held rows still require editorial adjudication.",
+    "3495 and 3525 future lesson drafts must implement the specific teaching boundaries recorded in reasons."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+  "fileSha256": "f5f655365c7383e15680178464ac78f54f58ccf08f81dbed097c88d993d44d1f",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3792,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "The source has have the edge on friendliness. Canonical 208 commercial edge already teaches a comparative advantage in business; determine whether have the edge requires a distinct transferable construction before a new lesson is authored. Do not force an alias because the canonical detector does not cover this wording."
+    },
+    {
+      "sourceOrdinal": 3806,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach the transferable frame trapped in a cycle of X for repeated hardship that is difficult to escape; pressure and insecurity are this source’s example fillers, not a mandatory target phrase. The future draft must cover the original source without treating these nouns as fixed."
+    },
+    {
+      "sourceOrdinal": 3825,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach an uphill climb as prolonged difficult effort, with endless as an optional modifier. Canonical 100 uphill battle expresses a similar difficulty but is a different fixed lexical image; compare senses and avoid a redundant lesson at human review."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only original decision findings; human sense approval and future draft QA remain pending.",
+    "Rows still on hold require owner-scope adjudication before lessons can be authored."
+  ]
+}

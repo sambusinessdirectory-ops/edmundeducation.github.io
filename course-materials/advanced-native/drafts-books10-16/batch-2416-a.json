@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2416-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2416",
+      "number": 2416,
+      "inventoryId": "expr-2416",
+      "titleEn": "fall into place",
+      "titleZh": "事情終於說得通",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:fall|falls|fell|fallen|falling) into place\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become coherent or clear as separate facts finally connect.",
+        "meaningZh": "原本零散或令人困惑的事實，在關鍵資料出現後變得有條理、說得通。",
+        "grammar": "Once the missing record appears, the facts fall into place.",
+        "register": "Common reflective phrase; facts, a plan or a sequence can be the subject.",
+        "boundaryZh": "本課着重最後一塊資料出現後，各項事實自然變清楚；不等於人主動蒐集線索的整個過程。",
+        "misconceptionZh": "不要把 fall 理解為物件真的掉下，也不要把仍未解決的猜測說成已查明。",
+        "outcomeZh": "能說出哪項新資料令原本不一致的事實變得合理。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0305",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once we find the missing record, the facts will fall into place.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fall into place"
+        }
+      ],
+      "listening": {
+        "en": "The volunteers could not explain why the old shop had two opening dates. Then they found a letter showing it had moved to a new street, and the two dates fell into place.",
+        "zh": "義工不明白為何舊店有兩個開業日期。後來他們找到一封信，得知店舖曾遷往另一條街，兩個日期於是說得通。",
+        "promptZh": "甚麼令兩個日期 fell into place？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The letter explained that the shop had opened again at a new address.",
+            "zh": "信件解釋店舖曾在新地址再次開業。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers chose the earlier date without checking the letter.",
+            "zh": "義工沒有查看信件，就選了較早的日期。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers continued to treat the two dates as unrelated guesses.",
+            "zh": "義工仍把兩個日期視為互不相關的猜測。"
+          },
+          {
+            "id": "d",
+            "en": "The new street name made the earlier date unnecessary.",
+            "zh": "新街名令較早日期變得不再重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "搬遷信件提供缺失的連結，兩個開業日期因此都合理；不是任選一個日期或繼續猜測。"
+      },
+      "reply": {
+        "promptEn": "What happened when you found the missing page of the rehearsal schedule?",
+        "promptZh": "（你找到排練時間表遺失的一頁後，情況有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The order of the scenes finally made sense.",
+            "zh": "各場戲的次序終於說得通。"
+          },
+          {
+            "id": "b",
+            "en": "We understood why two groups had been booked at different times.",
+            "zh": "我們明白了為何兩組人被安排在不同時段。"
+          },
+          {
+            "id": "c",
+            "en": "The rehearsal times fell into place once we read the missing page.",
+            "zh": "讀了遺失的一頁後，排練時間的安排便說得通。"
+          },
+          {
+            "id": "d",
+            "en": "We could explain the gap that had confused everyone.",
+            "zh": "我們能解釋之前令大家困惑的空缺。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理描述找到關鍵一頁後的理解；金句以 fall into place 表達零散安排變得清楚。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The delivery timeline fell into place when the carrier's route record explained the one-day delay.",
+            "zh": "運輸公司的行車紀錄解釋了延遲一天的原因，送貨時間線便說得通。"
+          },
+          {
+            "id": "b",
+            "en": "The road closure was only a possible cause; nobody confirmed whether it affected this delivery.",
+            "zh": "封路只是可能原因；沒有人證實它是否影響這次送貨。"
+          },
+          {
+            "id": "c",
+            "en": "The troupe knew the exact cause before seeing the carrier’s route record.",
+            "zh": "劇團在看到運輸公司的行車紀錄前，已確知延誤原因。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "運輸公司的行車紀錄直接證實封路令這批道具延遲，缺少的一環已補上；不是尚未查證的猜測。",
+        "promptZh": "劇團不明白原定星期三送達的道具為何星期四才到。後來運輸公司出示行車紀錄，證實送貨車因星期三封路而改道，這批道具因此延至星期四送達。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A missing invoice explains why the account totals differed.",
+            "zh": "一張遺漏的發票解釋了帳目總額為何不同。"
+          },
+          {
+            "id": "b",
+            "en": "A new rumour raises several conflicting explanations and no record confirms any of them.",
+            "zh": "新傳聞帶來幾種互相矛盾的說法，沒有紀錄證實任何一種。"
+          },
+          {
+            "id": "c",
+            "en": "A dated photograph links two events that had seemed unrelated.",
+            "zh": "有日期的照片把原本看似無關的兩件事連起來。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有可確認的連結，事情反而更混亂；另外兩項都因新證據而變得有條理。",
+        "promptZh": "哪個情況最不適合用 fall into place 表示事情變得清楚？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That explains it; the two addresses fall into place once you know the venue changed.",
+            "zh": "這就解釋得通了；知道場地曾更改後，兩個地址便各有解釋。"
+          },
+          {
+            "id": "b",
+            "en": "You should ignore the earlier invitation because the later address must be the only valid one.",
+            "zh": "你應忽略較早的邀請函，因為後來的地址一定是唯一有效的。"
+          },
+          {
+            "id": "c",
+            "en": "There may be another venue change, so the two addresses still cannot tell us anything.",
+            "zh": "可能還有另一次轉場，所以兩個地址仍完全無法提供資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地先後更改是讓兩個地址同時合理的缺失資訊；不必抹去先前資料或憑空加入新變動。",
+        "promptZh": "朋友說：「我一直不懂為何兩封邀請函有不同地址；現在才發現活動先後轉了場地。」怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "Once the archivist found the transfer note, the two dates fell into place.",
+        "zh": "檔案管理員找到轉移紀錄後，兩個日期便各有解釋。",
+        "promptZh": "先聽示範，再指出哪項新資料令日期說得通。",
+        "targetSpan": {
+          "start": 58,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園壁畫的資料列出兩個年份，大家誤以為兩個都指初次完成。後來維修紀錄顯示，壁畫翌年曾重新上色。用一至兩句英文解釋兩個年份各指甚麼。",
+        "selfCheckZh": "說明兩個年份原本令人困惑，指出維修紀錄證實其中一個是初次完成年份，另一個是翌年重新上色的年份；不要把兩個都稱為完成年份。",
+        "examples": [
+          {
+            "en": "The mural records showed two years; they fell into place when a repair record showed the first marked its original completion and the second its repainting a year later.",
+            "zh": "壁畫資料列出兩個年份；維修紀錄顯示，第一個是初次完成年份，第二個是翌年重新上色的年份，兩者便各有解釋。"
+          },
+          {
+            "en": "The dates fell into place after we checked the maintenance log: one was the original painting year, and the other marked repainting a year later.",
+            "zh": "我們查閱維修紀錄後，兩個日期便說得通：一個是初次繪畫的年份，另一個是翌年重新上色的年份。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two years",
+            "zh": "兩個年份",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 34
+            }
+          },
+          {
+            "en": "repair record",
+            "zh": "維修紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 77
+            }
+          },
+          {
+            "en": "repainting a year later",
+            "zh": "翌年重新上色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 168
+            }
+          },
+          {
+            "en": "maintenance log",
+            "zh": "維修紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 62
+            }
+          },
+          {
+            "en": "original painting year",
+            "zh": "初次繪畫的年份",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 98
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The timetable fell into place when the missing booking email arrived.",
+          "zh": "遺漏的預約電郵送達後，時間表安排便說得通。"
+        },
+        {
+          "en": "With the final witness account, the sequence of events fell into place.",
+          "zh": "有了最後一份目擊者陳述，事情經過便清楚了。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 4
+    }
+  ]
+}

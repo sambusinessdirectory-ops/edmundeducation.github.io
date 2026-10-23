@@ -1,0 +1,24 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+  "fileSha256": "23f071a5bc9b5fc0ec864b6c5843070cf01dc9947f405d3cdf67f8a523f57929",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3618,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "The exact source span is sets a good student apart, but the transferable teaching unit is set X apart, with the object and subject varied naturally. The source illustrates distinguishing one person from others; future target regex must cover it and later 4255 teacher variant."
+    }
+  ],
+  "limits": [
+    "AI peer review of listed decisions only; held owner scope remains open.",
+    "3703 future lesson must use grammatical source-derived models while preserving exact source provenance.",
+    "3618 future target pattern must verify both source and later variant."
+  ]
+}

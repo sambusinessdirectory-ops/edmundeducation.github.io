@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+  "fileSha256": "d114b1cf634b2a959f976127e290b34ebc01004707a1aae95e487903e786a18a",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3703,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "Source sentence “The device gathered dust once the novelty wears off” mixes past gathered with present wears off in one completed sequence. The idiom is valid, but this exact sentence is not a sound learner model without a time-frame explanation.",
+      "recommendedFix": "Hold pending source-language repair or explicitly annotate the tense problem; any draft must use a natural corrected model while retaining the source text as provenance."
+    },
+    {
+      "sourceOrdinal": 3713,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Take a real burden off people’s shoulders” teaches relief of worry/work by removing a figurative load, the same core idiom and sense as canonical 801 “take the weight off my shoulders”. The noun/adjective/possessor variations do not establish a new lesson outcome; detector 801 is narrower.",
+      "recommendedFix": "Hold pending canonical 801 scope/pattern expansion and route as alias-existing if approved; do not create a second owner for this load-relief idiom."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with source sentences and prior canonical meanings.",
+    "All proposed-alias-existing rows with generated detectors match their full source sentences; legacy lessons 004/009/010 have no generated detector in this file and were checked by meaning/source labels.",
+    "Existing dependency 3634 is already held pending parent owner 3611 adjudication."
+  ],
+  "limits": [
+    "AI peer review only; editorial owner decisions are provisional.",
+    "Legacy lessons 004/009/010 require separate direct module checks for exact target detection; null generated patterns are not reported as failures."
+  ]
+}

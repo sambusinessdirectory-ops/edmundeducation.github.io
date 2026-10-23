@@ -1,0 +1,61 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no learner-facing lesson change or selection",
+  "limits": [
+    "AI peer review only; owner-scope decisions still require editorial adjudication.",
+    "Full-source detector matches are mechanical evidence, not proof of semantic ownership or publishability."
+  ],
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 3
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3254,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“One step at a time” in “The class learned the routine one step at a time” teaches the same manageable successive-stage outcome as existing canonical 473 “step by step”. The decision acknowledges only different wording, not a distinct meaning; canonical 473’s detector does not cover this wording.",
+      "recommendedFix": "Move to hold-editorial pending a documented separate pragmatic/grammar outcome, or deliberately extend canonical 473’s approved target coverage and route as alias-existing. Do not launch a new owner solely for wording."
+    },
+    {
+      "sourceOrdinal": 3274,
+      "severity": "minor",
+      "path": "phrase; reason",
+      "explanation": "“Letting children off the hook” is a source-specific inflection and object. The reusable idiom is “let someone off the hook”; the current decision names the narrow child-specific span as the lesson phrase without identifying variant grammar.",
+      "recommendedFix": "Keep the exact source occurrence but normalise the proposed teaching unit/brief to “let someone off the hook” with let/lets/letting and suitable object forms; ensure the source sentence still matches the approved detector."
+    },
+    {
+      "sourceOrdinal": 3281,
+      "severity": "minor",
+      "path": "phrase; action; reason",
+      "explanation": "“Regret can sound a bit hollow” is an entire contextual proposition, not the fixed idiom. The reusable figurative unit is “sound hollow”; regret and a bit are substitutable. The reason calls the whole source fragment a natural figurative phrase but does not resolve teachable boundaries.",
+      "recommendedFix": "Hold until the phrase is normalised to a reusable sound-hollow pattern with natural subjects and tense forms; compare any prior hollow/sincerity owner before drafting."
+    },
+    {
+      "sourceOrdinal": 3282,
+      "severity": "minor",
+      "path": "reason; canonical owner comparison",
+      "explanation": "“Owning the mistake” expresses accepting responsibility for an error, which is already the central meaning of provisional owner 2882 “take responsibility”. The colloquial ownership metaphor may justify a separate lesson, but the decision does not compare the two or state a distinct outcome. Alias-new row 3293 depends on this proposed owner.",
+      "recommendedFix": "Add a concrete construction/register or use-boundary distinction from 2882, or hold 3282 and dependent 3293 pending ownership adjudication. Do not treat a new metaphor alone as proof of a distinct owner."
+    },
+    {
+      "sourceOrdinal": 3292,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“No follow-through” after an apology describes stated regret with no later action, the same no-action-after-words sense that canonical 1175 “all talk and no follow-through” explicitly teaches. The shorter source phrase is not covered by 1175’s detector, but the decision proposes a new owner without addressing the existing one.",
+      "recommendedFix": "Hold pending a 1175 scope/detector decision, or extend that owner to the shorter “no follow-through” construction if pedagogically approved; otherwise document a genuinely different lesson boundary."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source-inventory examples and existing canonical meanings.",
+    "All 23 proposed-alias-existing rows have a valid owner and their owner target regex matches the complete source sentence, including corrected 3268→077 and 3303→457.",
+    "All three proposed-alias-new rows point to earlier proposed owners with matching source phrases; 3263/3279→2882 and 3293→3282.",
+    "Holds for stepping stones, academic door, sink-in variants, and nonfixed extended imagery remain conservative and reasoned."
+  ]
+}

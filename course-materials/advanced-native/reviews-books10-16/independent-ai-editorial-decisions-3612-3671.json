@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+  "fileSha256": "f68660b0778bf126012986f77c1b5034a4d7ea271913269d872fab86d1d06bf5",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3618,
+      "severity": "minor",
+      "path": "phrase; reason",
+      "explanation": "“Sets a good student apart” contains a source-specific noun phrase. The reusable idiom is “set someone or something apart”; the decision says productive pattern but does not state this boundary or how the target will detect varying subjects and objects.",
+      "recommendedFix": "Keep exact source occurrence but define the teaching form as set X apart and require detector coverage for the full source and natural variations."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with source sentences and prior canonical meanings.",
+    "All proposed-alias-existing rows with generated detectors match their full source sentences; legacy lessons 004/009/010 have no generated detector in this file and were checked by meaning/source labels.",
+    "Existing dependency 3634 is already held pending parent owner 3611 adjudication."
+  ],
+  "limits": [
+    "AI peer review only; editorial owner decisions are provisional.",
+    "Legacy lessons 004/009/010 require separate direct module checks for exact target detection; null generated patterns are not reported as failures."
+  ]
+}

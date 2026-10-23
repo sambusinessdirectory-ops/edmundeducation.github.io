@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+  "fileSha256": "b4ceea89c134830a3542d9e16885230b836ba0112d848c233a53c0f23c7b104c",
+  "originalFindings": 4,
+  "resolvedFindings": 4,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3388,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Hold reason now compares canonical 305 and identifies the preposition/detector issue."
+    },
+    {
+      "sourceOrdinal": 3398,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Moved to hold-editorial with specific prior-owner comparison (Hold: spreading itself too thin describes weakened capacity from excess commitments, overlapping canonical 1306 stretched thin. Its verb differs and the current approved detector misses this wording; compare construction and scope before any new owner or alias.)."
+    },
+    {
+      "sourceOrdinal": 3414,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Moved to hold-editorial with specific prior-owner comparison (Hold: cut itself off from fresh thinking uses the transferable cut oneself off from X isolation pattern, overlapping canonical 648 and 1347 for access or people. Normalise the teachable unit and adjudicate owner scope before drafting.)."
+    },
+    {
+      "sourceOrdinal": 3421,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Reason now names send shockwaves as reusable unit and treats far and wide as optional; exact source retained. Future draft target span/detector must implement this."
+    }
+  ],
+  "limits": [
+    "This clears only the identified provisional decision findings; held rows still require editorial scope adjudication before lesson drafting.",
+    "3421 teaching-unit implementation remains a future draft QA gate."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "reviewId": "independent-ai-review-2397-2416-b",
+  "reviewedLessonIds": ["advanced-native-2397", "advanced-native-2399", "advanced-native-2400", "advanced-native-2410", "advanced-native-2411", "advanced-native-2414", "advanced-native-2415", "advanced-native-2416"],
+  "scope": "Independent content review of Author A draft lessons against the Golden SOP; no editorial sign-off, media listening, device QA, selection or publication.",
+  "structuralCheck": {
+    "result": "passed",
+    "builder": "8 lessons, 48 questions, 32 audio requests; clean build and --check in /private/tmp/advanced-native-review-b",
+    "manualSpanCheck": "All eight speaking target spans and all 40 writing glossary spans match their respective English strings exactly; each draft has five glossary rows and two writing examples.",
+    "limitation": "Builder success does not establish four-valid-response fairness, idiomaticity, translation nuance or spoken-audio quality."
+  },
+  "boundaryReview": {
+    "lessonA": "advanced-native-2411",
+    "lessonB": "advanced-native-2416",
+    "finding": "The intended distinction is sound: 2411 focuses on the deliberate act of combining multiple clues; 2416 focuses on the resulting coherence after a missing fact appears. The listening and writing tasks generally preserve this distinction, but 2416's scene treats a possible cause as established and its writing calls a repainting year a second completion year.",
+    "status": "revise-2416-evidence-and-year-wording"
+  },
+  "findings": [
+    {
+      "id": "R2397-01", "lessonId": "advanced-native-2397", "severity": "major", "surface": "reply.options.d",
+      "evidence": "Question: 'Why did you ask for help with the new booking website?' Option d: 'A friend showed me the path from the home page to the form.'",
+      "problem": "This reports what the friend did after the request, not why help was needed. It is not an independently valid answer to the question, violating the four-valid-reply rule.",
+      "repair": "Make d state the access difficulty, for example that the learner could not find a path to the form and asked a friend to show it. Keep the option distinct from the golden target and translate it faithfully."
+    },
+    {
+      "id": "R2399-01", "lessonId": "advanced-native-2399", "severity": "major", "surface": "reply.options.b-and-d",
+      "evidence": "Question: 'How did you work out who had moved the classroom supplies?' b says only 'I asked the two people who used the room'; d says 'I followed the label on the storage box to another room.'",
+      "problem": "Neither option establishes who moved the supplies. Asking may or may not yield an answer, and following a label identifies a location rather than the mover. The task has fewer than four independently valid replies.",
+      "repair": "State the identifying evidence in both options, such as a person admitting the move or a signed transfer record. Keep exactly one target-bearing golden reply."
+    },
+    {
+      "id": "R2399-02", "lessonId": "advanced-native-2399", "severity": "minor", "surface": "scene.options.a.zh",
+      "evidence": "English: 'using the archive and the event records'; Chinese: '利用舊報紙和活動紀錄'.",
+      "problem": "The translation silently narrows 'archive' to old newspapers. The Chinese scenario mentions newspapers, but each translated option must track its own English sentence.",
+      "repair": "Either specify 'old newspapers' in the English option or translate 'archive' as 檔案資料. Recheck the English/Chinese pair after the edit."
+    },
+    {
+      "id": "R2400-01", "lessonId": "advanced-native-2400", "severity": "minor", "surface": "dialogue.options.b",
+      "evidence": "Distractor: 'Let us say the workshop is finished before the replacement arrives.'",
+      "problem": "The false claim is implausible as a response to keeping a workshop running; it makes the key too easy and does not test the keep-moving versus finished boundary through a believable misconception.",
+      "repair": "Use a realistic but wrong reply that assumes replacement of the organiser guarantees final success or that work must stop, then preserve a single defensible key."
+    },
+    {
+      "id": "R2410-01", "lessonId": "advanced-native-2410", "severity": "major", "surface": "dialogue.promptZh-and-options.a",
+      "evidence": "Friend says '我們找到兩張舊照片...' (we found two photos), but the keyed reply invites that same friend to 'Join the hunt with us'.",
+      "problem": "The friend is already participating in the search, so inviting them to join is pragmatically awkward. This undermines the natural target-bearing dialogue key.",
+      "repair": "Make the person being invited clearly new to the search, or change the keyed reply to invite a third person whose participation has not begun."
+    },
+    {
+      "id": "R2411-01", "lessonId": "advanced-native-2411", "severity": "major", "surface": "reply.options.d",
+      "evidence": "Question: 'How did you find out why the class trip had been delayed?' d: 'I checked when the replacement coach could arrive.'",
+      "problem": "The replacement coach's arrival time does not establish why the original trip was delayed, so d is not an independently valid answer. Other options describe information-gathering without always stating the cause explicitly.",
+      "repair": "Give d evidence that identifies the cause, such as a coach-company explanation of the original vehicle breakdown. Make all four replies answer the cause question without assumed missing facts."
+    },
+    {
+      "id": "R2414-01", "lessonId": "advanced-native-2414", "severity": "major", "surface": "writing.examples[0-1]-and-glossary",
+      "evidence": "Both model answers say 'the fund was already full'; a glossary row extracts 'the fund was already full'.",
+      "problem": "A fund is not normally 'full' in this context. The intended meaning is that the fundraising target had already been reached. Repeating the awkward phrase in both examples and the glossary teaches unnatural English at scale.",
+      "repair": "Rewrite both examples using 'the fundraising target had already been met' or 'the charity had already raised enough'. Re-extract every changed glossary span and review Traditional Chinese against the revised English."
+    },
+    {
+      "id": "R2415-01", "lessonId": "advanced-native-2415", "severity": "minor", "surface": "speaking.en",
+      "evidence": "'The truth rose to the surface after the caretaker found the missing keys in a labelled box.'",
+      "problem": "Finding misplaced keys alone is a weak example of a previously concealed fact becoming known, compared with the lesson brief's evidence-and-revelation boundary. The model risks teaching the idiom for any routine lost-and-found event.",
+      "repair": "Establish an earlier false explanation or hidden action, then have the caretaker's record or discovery resolve it. Update audio request text and translation if the model changes."
+    },
+    {
+      "id": "R2416-01", "lessonId": "advanced-native-2416", "severity": "major", "surface": "scene.promptZh-and-options.a/b",
+      "evidence": "The scene says a road-closure notice shows the road was closed Wednesday and props arrived Thursday. Key a says the delivery timeline fell into place; distractor b says the closure is only a possible cause and nobody checked whether it affected delivery.",
+      "problem": "The notice alone does not establish that this particular delivery used that road or was postponed because of it. Option b is a defensible cautious interpretation, so the single-best-answer key is ambiguous.",
+      "repair": "Add a carrier notice, route record, or explicit postponement linking the closure to this delivery. Then a is supported and b can be clearly false."
+    },
+    {
+      "id": "R2416-02", "lessonId": "advanced-native-2416", "severity": "major", "surface": "writing.promptZh-examples-and-glossary",
+      "evidence": "The writing prompt calls both years '完成年份'; example 0 says 'two completion years', although the second year refers to repainting after the original mural was completed.",
+      "problem": "A repainting year is not another original completion year. This weakens the logic of the resolution and the example's English. Chinese examples repeatedly use 吻合 for different years that become explicable rather than equal.",
+      "repair": "Call them two years recorded for the mural, or an original completion year and a repainting year. Translate fall into place here as 說得通 or 各有解釋. Rebuild glossary spans after editing."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2397": "revise-four-valid-reply",
+    "advanced-native-2399": "revise-four-valid-reply-and-translation",
+    "advanced-native-2400": "minor-distractor-revision",
+    "advanced-native-2410": "revise-dialogue-key-naturalness",
+    "advanced-native-2411": "revise-four-valid-reply",
+    "advanced-native-2414": "revise-writing-english-and-glossary",
+    "advanced-native-2415": "minor-speaking-context-revision",
+    "advanced-native-2416": "revise-scene-key-and-writing-logic"
+  },
+  "releaseConclusion": "Do not sign off or select these eight drafts until the major content findings are repaired and re-reviewed. All eight retain pending human English, Chinese, media and QA review."
+}

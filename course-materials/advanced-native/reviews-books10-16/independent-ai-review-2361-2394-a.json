@@ -1,0 +1,64 @@
+{
+  "reviewType": "independent AI provisional lesson-content review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "limits": [
+    "AI peer review only; a human editor must still decide naturalness and release readiness.",
+    "Draft audio roles and synthesis request text were inspected through the read-only builder; clips were not synthesised, played, hosted or device-tested."
+  ],
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2361-2394-a.json",
+  "lessonIds": [
+    "advanced-native-2361",
+    "advanced-native-2362",
+    "advanced-native-2366",
+    "advanced-native-2394"
+  ],
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 4
+  },
+  "findings": [
+    {
+      "lessonId": "advanced-native-2361",
+      "severity": "major",
+      "path": "contrast.options[b]; contrast.answerId; contrast.explanationZh",
+      "explanation": "B says a mild joke makes the friend uncomfortable and the speaker immediately apologises. Discomfort can itself mean the joke crossed that person’s boundary; the later apology does not make the original joke unequivocally acceptable. A learner can reasonably see B as another instance of going too far, so the negative boundary key is ambiguous.",
+      "recommendedFix": "Make B unambiguously within the acceptable limit, for example a mild joke both people enjoy and that stops before a personal topic, or rewrite the question to ask which response best repairs a boundary breach. Recheck A/C as distinct boundary violations."
+    },
+    {
+      "lessonId": "advanced-native-2361",
+      "severity": "minor",
+      "path": "scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "The scene foils shift to late class ending or a medical-privacy discussion from the outset, while the dialogue foils claim every personal detail is relevant or move to presentation duration. They are easy to eliminate without locating the precise privacy boundary crossed.",
+      "recommendedFix": "Replace some foils with plausible but insufficient responses, such as asking for feedback to stay focused on slides without explicitly acknowledging the disclosure, or minimising the private reference as a one-off. Preserve the unique key that identifies the violated privacy boundary."
+    },
+    {
+      "lessonId": "advanced-native-2362",
+      "severity": "minor",
+      "path": "scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "The wrong choices describe careful comparison, ceasing to follow the writer, or insisting every new song must appeal. These are direct opposites or implausible absolutes rather than near misses between strong admiration and idealisation beyond criticism.",
+      "recommendedFix": "Use one foil that interprets the student as highly devoted but still open to evidence and one that attributes the rejection of reviewers to some narrower reason. The keyed hero-worship inference should depend on the explicit perfection and no-criticism clues."
+    },
+    {
+      "lessonId": "advanced-native-2366",
+      "severity": "minor",
+      "path": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "Refusing to acknowledge a win, changing results, declaring that feedback cannot be serious if someone celebrates, and ignoring sound quality are extreme or remote. They make a grounded-success judgment trivial rather than testing a realistic tension between celebrating and continuing preparation.",
+      "recommendedFix": "Use nearby alternatives such as celebrating while postponing the remaining technical review, concentrating only on praise for one week, or preparing for the next event without checking the known weakness. Keep one literal or overconfident boundary foil if desired."
+    },
+    {
+      "lessonId": "advanced-native-2394",
+      "severity": "minor",
+      "path": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "The foils are mostly direct impossibilities: an accidental printing error, the clue appearing only after the reveal, its meaning explained before it appears, or second-reading discovery proving lack of intent. This under-tests deliberate early placement and later payoff.",
+      "recommendedFix": "Add credible near misses such as an early detail that never pays off, a hint introduced only shortly before the reveal, or a detail that is relevant but too explicit to be tiny. Explain the early-subtle-later-meaning sequence."
+    }
+  ],
+  "passedChecks": [
+    "All four exact source sentences match their inventory expressions and intended sense. Lesson 2366’s longer idiom was checked as distinct from canonical 536 on the ground, whose taught sense concerns local operational conditions.",
+    "All four lessons have four reply choices with exactly one target-bearing golden response, two target-containing changed-context writing examples, exact non-target answer-derived glossary spans, speaking target spans and two takeaways.",
+    "Read-only builder validation reports zero schema errors or diversity warnings; audio requests use listening af_heart, speaking British male bm_fable, takeaway voices bm_fable and bf_isabella. All current content revisions are 1."
+  ]
+}

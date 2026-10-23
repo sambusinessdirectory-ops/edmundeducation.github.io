@@ -74,6 +74,8 @@ function argsToDecisionFiles(args){
 export function runAudit(args=process.argv.slice(2)){
  const decisionFiles=argsToDecisionFiles(args);
  if(decisionFiles===null)return null;
+ const scope=args.includes('--all-discovered')?'all-discovered-provisional':
+  args.includes('--decision-file')?'explicit-files':'selected-manifest';
  const decisions=decisionFiles.flatMap(readJsonl);
  const sources=readJsonl(path.join(sourceDir,'source-inventory.jsonl'));
  const release=readJson(path.join(base,'release-index.json'));
@@ -88,7 +90,7 @@ export function runAudit(args=process.argv.slice(2)){
   return [id,displayTargetPatterns[id]];
  }));
  const result=auditAliasPatterns({decisions,sources,lessons,legacyTargetPatterns});
- return {selectedDecisionFiles:decisionFiles.map(name=>path.basename(name)),
+ return {scope,selectedDecisionFiles:decisionFiles.map(name=>path.basename(name)),
   selectedDecisionRows:decisions.length,...result};
 }
 

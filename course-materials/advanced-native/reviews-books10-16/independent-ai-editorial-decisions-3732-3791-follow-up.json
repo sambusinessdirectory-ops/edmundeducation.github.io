@@ -1,0 +1,23 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+  "fileSha256": "d90b7f8f2a50b5762916919f6f82c81c944956edf4fd59eac9990ea1be3fff73",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3735,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach the complete idiom keep one’s head above water for avoiding serious difficulty under pressure. Unlike canonical 349 stay afloat, this source is general coping rather than financial or operational survival; retain as a distinct lexical unit pending human sense approval."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only original decision findings; human sense approval and future draft QA remain pending.",
+    "Rows still on hold require owner-scope adjudication before lessons can be authored."
+  ]
+}

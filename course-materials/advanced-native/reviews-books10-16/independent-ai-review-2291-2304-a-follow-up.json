@@ -69,5 +69,12 @@
   "limits": [
     "AI peer review only; human editorial adjudication and release/device/audio QA remain separate.",
     "This follow-up closes the original findings in the current provisional files; subsequent edits require another check."
-  ]
+  ],
+  "reviewedDraftFileSha256": "f3ae4c314095ddbfda4204184435fb6a7757152a624af00911705356631bd42f",
+  "reviewedContentRevisions": {
+    "advanced-native-2291": 2,
+    "advanced-native-2293": 2,
+    "advanced-native-2295": 2,
+    "advanced-native-2304": 2
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "reviewId": "independent-ai-review-2397-2416-b-followup",
+  "basedOn": "independent-ai-review-2397-2416-b.json",
+  "scope": "Independent recheck of all ten original content findings after Author A's repairs, plus a new-defect sweep. No publication or human sign-off.",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json": "cd90f50db5d1a26e14163051290bce3c50e41273e80cbfcf7379d3df3f5a0f0e",
+    "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json": "6dc3fe33589fba3d4953beca9d516b4038cad884ae4099784bae37f5fec86ee7",
+    "course-materials/advanced-native/drafts-books10-16/batch-2416-a.json": "a9fa3d04ba6431623a2de980adc3625a7c5582fb9450dc7100f0480007147adb"
+  },
+  "buildCheck": "Clean build and --check: eight lessons, 48 assessed questions, 32 audio requests, zero structural review flags. This does not certify editorial or media quality.",
+  "originalFindingRecheck": [
+    {"id":"R2397-01","status":"cleared","evidence":"Reply d now states the learner could not find a path to the form, directly answering why help was requested."},
+    {"id":"R2399-01","status":"cleared","evidence":"All four replies now identify a mover through a signed log, direct admission, log/photo comparison, or signed transfer note; exactly one contains play detective."},
+    {"id":"R2399-02","status":"cleared","evidence":"Scene option a now says old newspapers in English, matching 舊報紙 in Chinese."},
+    {"id":"R2400-01","status":"cleared","evidence":"The implausible 'say workshop is finished' distractor was replaced with a realistic postponement suggestion."},
+    {"id":"R2410-01","status":"cleared","evidence":"The dialogue now explicitly identifies the friend as not yet involved and asking to help, so 'Join the hunt with us' is pragmatically natural."},
+    {"id":"R2411-01","status":"cleared","evidence":"Every reply now states a concrete cause of the trip delay; the replacement-coach option identifies an original mechanical fault."},
+    {"id":"R2414-01","status":"cleared","evidence":"Both writing examples replace 'fund was full' with natural fundraising-target/raised-enough wording; glossary spans were re-extracted."},
+    {"id":"R2415-01","status":"cleared","evidence":"The speaking model now contrasts a theft suspicion with the caretaker's log confirming the keys were moved to storage."},
+    {"id":"R2416-01","status":"cleared-with-new-copy-defect","evidence":"The scene now includes the carrier's route record explicitly proving closure caused this delivery's delay, removing the key ambiguity. A distractor still mentions a nonexistent road notice, recorded below."},
+    {"id":"R2416-02","status":"cleared-with-translation-followup","evidence":"The writing scenario now distinguishes initial completion from next-year repainting and both writing translations say the two years become explicable. Other lesson-2416 translations retain misleading 吻合/逐漸, recorded below."}
+  ],
+  "newOrRemainingFindings": [
+    {
+      "id":"F2416-03","lessonId":"advanced-native-2416","severity":"major","surface":"reply.options.c.zh, dialogue.options.a.zh, speaking.zh",
+      "evidence":"'The rehearsal times fell into place once we read the missing page' is translated as '安排逐漸吻合'; 'the two addresses fall into place' as '兩個地址便吻合'; speaking says '兩個日期便逐漸吻合'.",
+      "problem":"Different times, addresses or dates do not become the same or literally match. The trigger is immediate in reply and speaking, so 逐漸 also changes the timing. The target lesson is about an explanation making distinct details coherent.",
+      "repair":"Use 說得通、各有解釋 or 變得清楚 as appropriate; remove 逐漸 where the discovery is immediate. Recheck all lesson-2416 translations against the fall-into-place brief."
+    },
+    {
+      "id":"F2416-04","lessonId":"advanced-native-2416","severity":"minor","surface":"scene.options.c.en/zh",
+      "evidence":"The revised scene presents a carrier route record, but c still says 'before finding the road notice' and Chinese says '找到道路通知前'.",
+      "problem":"A road notice is no longer introduced in the scene. This distractor contains a stale document reference after the repair.",
+      "repair":"Refer to the carrier route record/行車紀錄 in both languages."
+    },
+    {
+      "id":"F2399-03","lessonId":"advanced-native-2399","severity":"minor","surface":"writing.glossary[2]",
+      "evidence":"The row 'a transaction missing' is an exact span of 'found a transaction missing from the record' and is translated as '漏記的一筆交易'.",
+      "problem":"The isolated English span is an awkward fragment and does not itself say missing from the record. A glossary row should be a usable writing aid even when its exact span validation passes.",
+      "repair":"Use an eligible complete span such as 'a transaction missing from the record', or select a different useful answer-derived phrase; recompute its source span."
+    }
+  ],
+  "boundaryRecheck": "2411 continues to teach deliberate combination of multiple clues; 2416 teaches the later coherence of facts after a missing record appears. This distinction remains clear in the English tasks after repair.",
+  "conclusion": "All ten originally logged defects were addressed in the targeted text, but the new-defect sweep found one major Chinese meaning/timing issue and two minor copy/glossary issues. Keep editorial review pending and repair these before any selection or release; human English, Chinese, media, device and live reviews remain outstanding."
+}

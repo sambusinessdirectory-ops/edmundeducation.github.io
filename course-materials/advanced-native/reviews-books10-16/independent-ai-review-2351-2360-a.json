@@ -1,0 +1,71 @@
+{
+  "reviewType": "independent AI provisional lesson-content review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "limits": [
+    "AI peer review only; a human editor must still decide naturalness and release readiness.",
+    "Draft audio roles and synthesis request text were inspected through the read-only builder; clips were not synthesised, played, hosted or device-tested."
+  ],
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2351-2360-a.json",
+  "lessonIds": [
+    "advanced-native-2351",
+    "advanced-native-2353",
+    "advanced-native-2358",
+    "advanced-native-2360"
+  ],
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 5
+  },
+  "findings": [
+    {
+      "lessonId": "advanced-native-2351",
+      "severity": "minor",
+      "path": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "The wrong choices mostly assert exact identical childhoods, celebrity fame, country facts, knowing actors, or needing identical pet experience. Those remote claims are plainly contradicted and let the learner identify the key without distinguishing a widely shared feeling from popularity, broad subject matter, or a specific shared experience.",
+      "recommendedFix": "Replace several foils with plausible near misses about the story being popular across demographics or illustrating a particular pet-owning experience without showing a broadly shared feeling. Keep one key that names the shared emotional need and explain why reach alone is insufficient."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "severity": "major",
+      "path": "scene.promptZh; scene.options[a]; scene.explanationZh",
+      "explanation": "A character pausing to look at an old home while moving suggests nostalgia, longing, sadness or uncertainty. It does not uniquely establish regret, which implies wishing the move had not happened. The only keyed sentence asserts an unsupported specific emotion, while the other choices are false.",
+      "recommendedFix": "Either add a clear contextual clue that the person regrets the move, or change the keyed emotional undercurrent to longing or sadness and align the Chinese explanation. Preserve one defensible best answer."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "severity": "minor",
+      "path": "reply.promptEn; reply.options[a-b]",
+      "explanation": "The question supplies only laughter and a slightly sad tone. A introduces pauses and a friend who moved away; B states that the characters share a loss. These are possible story details, but none is given, so the four replies do not stand on equally clear contextual footing and the golden loneliness claim is also speculative.",
+      "recommendedFix": "Add one short premise to the question, such as recurring pauses when an absent friend is mentioned, or make every option explicitly tentative without claiming unseen events. Retain four natural answers and one target-bearing golden."
+    },
+    {
+      "lessonId": "advanced-native-2353",
+      "severity": "minor",
+      "path": "dialogue.options[b-c]",
+      "explanation": "Both wrong replies use absolute claims: the comedy must end in an explicit argument, or jokes prove fear cannot be present. They are not credible alternatives to a subtle feeling beneath humour.",
+      "recommendedFix": "Offer closer but mistaken readings, such as treating the fear as confined to one openly sad scene or as a brief mood shift rather than a recurring undercurrent. Keep the ongoing, partly unspoken feeling as the decisive clue."
+    },
+    {
+      "lessonId": "advanced-native-2358",
+      "severity": "minor",
+      "path": "listening.options[b-d]; scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "Height, exact stage position, author or presenter fame, and being the tallest person are literal or remote foils. They do not test vivid commanding presence against nearby but weaker explanations of why a performer holds attention.",
+      "recommendedFix": "Use plausible alternatives about loud delivery without charisma, a memorable script or staging rather than the person, or temporary attention rather than an unusually vivid presence. Keep height as one useful boundary foil, not almost the entire set."
+    },
+    {
+      "lessonId": "advanced-native-2360",
+      "severity": "minor",
+      "path": "scene.options[b-c]; dialogue.options[b-c]",
+      "explanation": "In the safety-check scene the two foils invent a completed review or a missing date, while the dialogue alternatives simply advise ignoring or postponing an identified error. They offer little close competition to the distinction between reasonable trust and loyalty that blocks evidence review.",
+      "recommendedFix": "Use a credible near miss where supporters trust the coach but still request an independent check, and a response that thanks the captain yet limits review to a narrow technical question. The key should remain the only choice that accurately identifies blind loyalty obstructing judgment."
+    }
+  ],
+  "passedChecks": [
+    "All four exact source sentences match their inventory expressions and intended sense; target regexes match the source and reviewed model uses.",
+    "All four lessons have four reply choices with exactly one target-bearing golden response, two target-containing changed-context writing examples, exact non-target answer-derived glossary spans, speaking target spans and two takeaways.",
+    "Read-only builder validation reports zero schema errors or diversity warnings; audio requests use listening af_heart, speaking British male bm_fable, takeaway voices bm_fable and bf_isabella. All current content revisions are 1."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+  "fileSha256": "9f0dc8588be08b98597639cff64e11ff98da2d50861592c7d78c1570646d5e39",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3580,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Hold: priced out of higher education shares affordability-based exclusion with canonical 351 priced out of people’s reach; the complement differs and the approved detector misses it. Review a general priced-out-of-X owner scope before new authoring."
+    },
+    {
+      "sourceOrdinal": 3596,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Hold: widen society’s horizons repeats the expand-knowledge-and-possibilities metaphor of canonical 554 widen their horizons. Society’s is a possessor variant outside the approved detector; extend scope before aliasing."
+    },
+    {
+      "sourceOrdinal": 3611,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Hold: nobody will hold your hand every step of the way negates continuous reassurance/guidance already taught by canonical 1586 friends can hold your hand. Review pragmatic scope and pattern before separate ownership."
+    }
+  ],
+  "limits": [
+    "This resolves only listed provisional decision findings; held rows still require editorial adjudication.",
+    "3495 and 3525 future lesson drafts must implement the specific teaching boundaries recorded in reasons."
+  ]
+}

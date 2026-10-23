@@ -1,0 +1,52 @@
+{
+  "reviewType": "independent AI focused editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+  "reviewedDecisionFileSha256": "96d944b328e736cea7711790514ca6bed015c103706a498e2b7463e252b0bf24",
+  "originalFindingCount": 4,
+  "counts": {
+    "resolved": 4,
+    "remaining": 0
+  },
+  "resolutions": [
+    {
+      "sourceOrdinal": 3340,
+      "originalSeverity": "minor",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: pin everything down too early is a contextual clause; define reusable pin down details or arrangements and treat premature timing as context, then confirm target pattern and owner."
+    },
+    {
+      "sourceOrdinal": 3341,
+      "originalSeverity": "major",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: building on sand shares the unreliable-foundation planning sense of canonical 464 building a house on sand, but its narrower detector misses this variant. Review owner scope and pattern before routing."
+    },
+    {
+      "sourceOrdinal": 3356,
+      "originalSeverity": "major",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: leaving the door open to a role preserves a future option, overlapping canonical 785 keep more doors open; singular construction is outside that detector. Review scope and meaning before new ownership."
+    },
+    {
+      "sourceOrdinal": 3366,
+      "originalSeverity": "minor",
+      "status": "resolved in current provisional decision",
+      "currentAction": "hold-editorial",
+      "currentReason": "Hold: as life unfolds is a contextual adjunct, while prior canonical 1437 teaches figurative unfolding as gradual development with narrower wording. Normalise the transferable unit and review ownership."
+    }
+  ],
+  "remainingFindings": [],
+  "additionalChecks": [
+    "All 60 rows still retain unique source ordinals and matching source IDs.",
+    "All existing-owner aliases in this decision file still match their complete source sentence under the approved owner pattern.",
+    "Dependent 3293 is held with 3282; downstream 3880 is also held with 3356 pending owner-scope adjudication."
+  ],
+  "limits": [
+    "AI peer review only; holds require editorial decisions before lesson drafting or selection."
+  ]
+}
