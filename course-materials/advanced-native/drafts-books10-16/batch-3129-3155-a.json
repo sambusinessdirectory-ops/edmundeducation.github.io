@@ -1136,7 +1136,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 3,
+      "contentRevision": 4,
       "listening": {
         "promptZh": "講者認為顧客為甚麼改用新服務？",
         "options": [
@@ -1163,8 +1163,8 @@
         ],
         "answerId": "a",
         "explanationZh": "顧客選擇的主要原因是省步驟和省交通時間。",
-        "en": "Customers still compare prices, but many now choose the service because ordering takes two taps and delivery comes to the door. Their shopping has become more convenience-driven.",
-        "zh": "顧客仍會比較價格，但如今不少人選用這項服務，是因為只需按兩下就能下單，而且送貨上門。他們的購物行為變得更以方便為主導。"
+        "en": "Ordering takes two taps, and delivery comes straight to the door. Many customers favour those features even while comparing prices. Their choices show how convenience-driven shopping has become.",
+        "zh": "只需按兩下就能下單，貨品還會直接送到家門。不少顧客雖仍比較價格，卻更偏好這些便利安排。他們的選擇顯示購物越來越以方便為主導。"
       },
       "reply": {
         "promptEn": "Why are customers using this service even though they still compare prices? Ordering takes two taps, and goods are delivered to their homes.",

@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3829-3864-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3829",
+      "number": 3829,
+      "inventoryId": "expr-3829",
+      "titleEn": "running just to stay in the same place",
+      "titleZh": "拼命努力卻仍原地踏步",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\brunn?ing\\s+just\\s+to\\s+stay\\s+in\\s+the\\s+same\\s+place\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Working hard merely to avoid falling behind, without making real progress.",
+        "meaningZh": "付出大量努力，只能避免退步，未能真正前進。",
+        "grammar": "Be running just to stay in the same place; the running image is figurative. Keep the contrast between effort and unchanged position.",
+        "register": "Everyday economic or workload discussion; a freelance editor tells a colleague why added hours have not raised savings.",
+        "boundaryZh": "不是完全沒有努力，也不是普通維持現狀；要有持續付出與缺乏進展的反差。",
+        "misconceptionZh": "不是實際在跑步機上運動，也不表示每項成果都毫無價值。",
+        "outcomeZh": "能指出付出的努力、抵銷努力的因素及仍未改善的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1718",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 162,
+          "book": 14,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Many workers feel they are running just to stay in the same place.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "running just to stay in the same place"
+        }
+      ],
+      "listening": {
+        "en": "The team now files twice as many forms, but new rules add the same amount of paperwork. The team is running just to stay in the same place.",
+        "zh": "團隊現在提交的表格多了一倍，但新規則也增加同等工作量。團隊拼命做，卻仍原地踏步。",
+        "promptZh": "running just to stay in the same place 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their extra effort produces no net progress.",
+            "zh": "額外努力沒有帶來實質進展。"
+          },
+          {
+            "id": "b",
+            "en": "The new rules have already reduced the team’s total paperwork.",
+            "zh": "新規則已減少團隊的總體文書工作。"
+          },
+          {
+            "id": "c",
+            "en": "The team cleared the whole backlog by filing more forms.",
+            "zh": "團隊多提交表格後，清除了全部積壓工作。"
+          },
+          {
+            "id": "d",
+            "en": "The added forms were unrelated to the new rules.",
+            "zh": "新增表格與新規則無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提交更多表格同時新增同量工作，努力被抵銷。"
+      },
+      "reply": {
+        "promptEn": "Why has Kira’s savings balance not risen? She takes an extra editing shift every weekend, but the higher transport cost uses up that extra pay.",
+        "promptZh": "（綺拉的儲蓄為何沒有增加？她每個週末多做一更編輯工作，但交通費上升，剛好用掉額外收入。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her extra shift only offsets the higher cost.",
+            "zh": "額外更次只抵銷較高費用。"
+          },
+          {
+            "id": "b",
+            "en": "She works more without increasing savings.",
+            "zh": "她做得更多，儲蓄卻沒增加。"
+          },
+          {
+            "id": "c",
+            "en": "She is running just to stay in the same place.",
+            "zh": "她拼命努力，卻仍原地踏步。"
+          },
+          {
+            "id": "d",
+            "en": "The new pay is absorbed by travel.",
+            "zh": "新收入被交通費吸收。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出努力增加，但結果沒有進步。"
+      },
+      "scene": {
+        "promptZh": "溫習組每週多練十題，但新考核範圍也每週增加十題；未完成題目數維持不變。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The study group is running just to stay in the same place.",
+            "zh": "溫習組拼命努力，卻仍原地踏步。"
+          },
+          {
+            "id": "b",
+            "en": "The group has now completed all of the new assessment material.",
+            "zh": "小組現已完成所有新增考核內容。"
+          },
+          {
+            "id": "c",
+            "en": "The unfinished total falls each week despite the new topics.",
+            "zh": "雖有新增課題，未完成總數仍每週下降。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "練習量被新增題目抵銷，未完成數目沒有減少。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合這個比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Extra sales only cover an equal increase in rent.",
+            "zh": "銷售增加，只能抵銷同等幅度的租金上升。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer doubles her hours and the backlog finally falls by half.",
+            "zh": "義工工時加倍，積壓工作終於減半。"
+          },
+          {
+            "id": "c",
+            "en": "More practice is offset by a matching growth in tasks.",
+            "zh": "增加的練習被同量新增任務抵銷。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "積壓減半是真正進展，不是原地踏步。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這比喻代表那人根本沒付出努力。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Running just to stay in the same place suggests substantial effort with little net progress.",
+            "zh": "拼命努力卻仍原地踏步，正是有投入而進展有限。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase describes people who refuse to work.",
+            "zh": "這片語形容拒絕工作的人。"
+          },
+          {
+            "id": "c",
+            "en": "It always describes an actual treadmill race.",
+            "zh": "它一定形容真的跑步機比賽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "running 的意象強調努力，stay 指結果沒有明顯前進。"
+      },
+      "speaking": {
+        "en": "The archive digitised fifty pages each week, but new donations arrived at the same rate, so the team was running just to stay in the same place.",
+        "zh": "檔案館每週把五十頁數碼化，但新捐贈資料也以同樣速度到來，團隊拼命努力，卻仍原地踏步。",
+        "promptZh": "先聽示範，再指出哪兩個數量互相抵銷。",
+        "targetSpan": {
+          "start": 105,
+          "end": 143
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小劇院每週多賣四十張票，但新的場地費剛好吃掉新增收入。財務團隊加班做宣傳，月末結餘仍不變。用英文描述努力與結果，不要說票房毫無增加。",
+        "selfCheckZh": "寫出每週多賣四十張票、場地費吃掉新增收入、月末結餘不變，保留宣傳努力。",
+        "examples": [
+          {
+            "en": "The theatre sells forty more tickets a week, but higher venue fees absorb the extra income. Its team is running just to stay in the same place despite working longer on promotion, with no change in its month-end balance.",
+            "zh": "劇院每週多賣四十張票，但較高的場地費吃掉新增收入。團隊加班宣傳，月末結餘仍不變，拼命努力卻仍原地踏步。"
+          },
+          {
+            "en": "After extra promotion brought in forty more ticket sales each week, the new venue charge wiped out the gain; the theatre is running just to stay in the same place, with no change in its month-end balance.",
+            "zh": "增加宣傳後，劇院每週多賣四十張票，但新的場地費抵銷了收益；月末結餘不變，劇院仍在拼命努力而原地踏步。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "forty more tickets",
+            "zh": "多賣四十張票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "venue fees",
+            "zh": "場地費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 66
+            }
+          },
+          {
+            "en": "extra income",
+            "zh": "新增收入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          },
+          {
+            "en": "working longer",
+            "zh": "加班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 165
+            }
+          },
+          {
+            "en": "ticket sales",
+            "zh": "售票量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 56
+            }
+          },
+          {
+            "en": "month-end balance",
+            "zh": "月末結餘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 186,
+              "end": 203
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Running just to stay in the same place contrasts effort with no net progress.",
+          "zh": "拼命努力卻仍原地踏步，強調投入與進展不足的反差。"
+        },
+        {
+          "en": "Running just to stay in the same place is less apt if the result clearly improves.",
+          "zh": "若結果明顯改善，就較不適合用拼命努力卻仍原地踏步。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3864",
+      "number": 3864,
+      "inventoryId": "expr-3864",
+      "titleEn": "in a different league",
+      "titleZh": "高出一個層次",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin\\s+a\\s+(?:completely\\s+)?different\\s+league\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a markedly different level from a comparison, often much greater in scale or seriousness when context makes the direction clear.",
+        "meaningZh": "與比較對象處於明顯不同層次；較高或較嚴重的方向須由語境說明。",
+        "grammar": "Be in a (completely) different league from/to something; league is figurative. Do not infer the direction of comparison without context.",
+        "register": "Everyday evaluation; a technician compares a short local outage with a region-wide failure that takes days to repair.",
+        "boundaryZh": "說的是顯著層次差異，不是小小差別；它本身不必然表示「更好」，也可指更嚴重。",
+        "misconceptionZh": "不一定涉及體育聯賽；須交代比較維度與方向。",
+        "outcomeZh": "能指出兩個比較對象、差距在哪個維度，以及哪一個更強或更嚴重。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1753",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 165,
+          "book": 14,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "73–74",
+          "locatorNote": "DOCX table 177, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Armed robbery is in a completely different league from a minor theft.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in a completely different league"
+        }
+      ],
+      "listening": {
+        "en": "A five-minute delay affected one train, but the signal failure stopped every line for two days. The second disruption was in a completely different league.",
+        "zh": "一班列車延誤五分鐘；訊號故障卻令所有路線停駛兩天。後者造成的影響嚴重得多，屬完全不同層次。",
+        "promptZh": "in a completely different league 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The second problem was far more severe in scale.",
+            "zh": "第二個問題在規模上嚴重得多。"
+          },
+          {
+            "id": "b",
+            "en": "The two problems had much the same scale of disruption.",
+            "zh": "兩個問題造成的中斷規模相若。"
+          },
+          {
+            "id": "c",
+            "en": "The second failure delayed only one train for five minutes.",
+            "zh": "第二次故障只令一班列車延誤五分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "The first delay stopped all lines for two days.",
+            "zh": "第一次延誤令所有路線停駛兩天。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一班列車五分鐘與所有路線兩天的差距很大。"
+      },
+      "reply": {
+        "promptEn": "How do the two camera repairs compare? One needs a loose screw tightened; the other requires a completely new sensor and a week of work.",
+        "promptZh": "（兩項相機維修怎樣比較？一項只須鎖緊螺絲；另一項要換新感應器，並花一星期。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sensor repair is much more involved.",
+            "zh": "更換感應器複雜得多。"
+          },
+          {
+            "id": "b",
+            "en": "The jobs differ greatly in effort and time.",
+            "zh": "兩項工作的工序和時間差距很大。"
+          },
+          {
+            "id": "c",
+            "en": "The sensor repair is in a different league from the screw fix.",
+            "zh": "更換感應器與鎖緊螺絲相比，是另一個層次的維修。"
+          },
+          {
+            "id": "d",
+            "en": "The week-long job is not comparable to the quick fix in scale.",
+            "zh": "這項花一星期的工作，在規模上不能與快速修理相比。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出維修規模的明顯差距。"
+      },
+      "scene": {
+        "promptZh": "甲展覽只用一個展櫃，乙展覽要用整幢館舍及二十名導賞員。若比較所需資源，哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The second exhibition is in a different league.",
+            "zh": "第二個展覽所需資源高出一個層次。"
+          },
+          {
+            "id": "b",
+            "en": "Both exhibitions need the same number of staff and rooms.",
+            "zh": "兩個展覽所需人手與房間數相同。"
+          },
+          {
+            "id": "c",
+            "en": "The larger exhibition requires only one display case.",
+            "zh": "較大型展覽只需一個展櫃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地與人手需求有明顯層次差別。"
+      },
+      "contrast": {
+        "promptZh": "哪個比較最不足以說 in a different league？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A one-hour translation versus a six-month multilingual project.",
+            "zh": "一小時翻譯與六個月多語計劃。"
+          },
+          {
+            "id": "b",
+            "en": "Two nearly identical pens differing only in cap colour.",
+            "zh": "兩支幾乎一樣、只差筆蓋顏色的筆。"
+          },
+          {
+            "id": "c",
+            "en": "A local power flicker versus a citywide outage lasting days.",
+            "zh": "本地瞬間停電與持續數天的全城大停電。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有筆蓋顏色的小差別，不支持層次懸殊。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「different league 一定讚美後者更好。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being in a different league can mean much worse or more serious; context gives the direction.",
+            "zh": "處於不同層次也可指更糟或更嚴重；方向要看語境。"
+          },
+          {
+            "id": "b",
+            "en": "It can only mean athletic excellence.",
+            "zh": "它只能指運動表現出色。"
+          },
+          {
+            "id": "c",
+            "en": "It always says the two are equal.",
+            "zh": "它一定表示兩者相等。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "此例的差距可在嚴重程度，而非品質優劣。"
+      },
+      "speaking": {
+        "en": "A small typo is inconvenient, but losing the whole archive is in a completely different league of seriousness.",
+        "zh": "一個小錯字會帶來不便，但遺失整個檔案庫的嚴重程度完全不同。",
+        "promptZh": "先聽示範，再指出哪件事更嚴重。",
+        "targetSpan": {
+          "start": 62,
+          "end": 94
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校昨天一間課室停電十分鐘；今日電力故障令整座校舍停課兩天。用英文比較兩次故障的影響，不要誤說昨天也停課兩天。",
+        "selfCheckZh": "寫出昨天一間課室停電十分鐘、今天全校停課兩天、後者嚴重得多。",
+        "examples": [
+          {
+            "en": "Yesterday one classroom lost power for ten minutes; today an electrical failure has closed the whole school for two days. The second failure is in a completely different league in scale.",
+            "zh": "昨天一間課室停電十分鐘；今日電力故障令整間學校停課兩天。後者在影響規模上完全不同。"
+          },
+          {
+            "en": "Compared with yesterday’s ten-minute outage in one room, today’s electrical failure has closed the entire school for two days and is in a different league of seriousness.",
+            "zh": "與昨天一間課室停電十分鐘相比，今日電力故障令整座校舍停課兩天，嚴重程度高出一個層次。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one classroom",
+            "zh": "一間課室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 23
+            }
+          },
+          {
+            "en": "ten minutes",
+            "zh": "十分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 50
+            }
+          },
+          {
+            "en": "whole school",
+            "zh": "整間學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          },
+          {
+            "en": "two days",
+            "zh": "兩天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 120
+            }
+          },
+          {
+            "en": "one room",
+            "zh": "一間課室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 55
+            }
+          },
+          {
+            "en": "seriousness",
+            "zh": "嚴重程度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In a different league marks a large difference in level.",
+          "zh": "處於不同層次，指層次差距很大。"
+        },
+        {
+          "en": "Being in a different league need not mean better; state the dimension and direction.",
+          "zh": "處於不同層次不一定代表更好；須交代比較維度和方向。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

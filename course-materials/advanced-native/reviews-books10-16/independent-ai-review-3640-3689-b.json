@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent-golden-sop-content-review",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3640-3689-review-pilot.json",
+  "draftSha256": "e7879a6e2d80e51bb7ba0191cc9fe01cd3f381c79cc21110da71ccda7c5ae761",
+  "authorAuditSha256": "b42d16fec8e02ab953c73def15681e21c9b0d96df8e58ef932bff1782516a1b9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "4 lessons, 24 questions, 16 audio requests, zero mechanical flags",
+  "status": "repair-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3640, "status": "repair", "summary": "The safety/independence source sense, target use, six keys, bilingual material and scenario transfer are sound. Writing model 1 omits the required publication of the pool hours."},
+    {"ordinal": 3673, "status": "pass", "summary": "Displacement and lost belonging are grounded in the school-change source sense and transferred to housing, work and market contexts. Four replies are defensible; both models and translations preserve improvement alongside emotional loss."},
+    {"ordinal": 3675, "status": "repair", "summary": "The figurative confidence sense, target and keyed answers are sound. Both writing models omit the guide's hesitation before her next tour; model 2 also omits the colleague checking the dates. The scene invents a female owner when the Chinese prompt only says 店主."},
+    {"ordinal": 3689, "status": "pass", "summary": "Both beneficial and burdensome conditions are assessed, including the not-yet-confirmed phone option; source sense, bilingual models, exact glossary and target are coherent."}
+  ],
+  "findings": [
+    {"id": "R3640-01", "severity": "major", "path": "lessons[number=3640].writing.examples[0]", "issue": "The prompt and selfCheckZh require the afternoon-only schedule still to be announced, but model 1 ends with mornings closed and does not mention announcing it.", "requiredRepair": "Add a concise announcement condition to model 1 in English and Traditional Chinese; recalculate glossary offsets if affected."},
+    {"id": "R3675-01", "severity": "major", "path": "lessons[number=3675].writing.examples[0..1]", "issue": "The self-check explicitly requires the new guide's hesitation before the next presentation, yet neither model states it. Model 2 also omits the colleague checking the two dates.", "requiredRepair": "Make both models complete changed-context answers: two missed dates, sweeping criticism, hesitation, and colleague checking dates plus rehearsing. Align Chinese and glossary spans."},
+    {"id": "R3675-02", "severity": "minor", "path": "lessons[number=3675].scene.options[0]", "issue": "The Chinese scene identifies only 店主, but the keyed English and Chinese introduce female 'her/她' without a cue.", "requiredRepair": "Use 'the owner's confidence/店主的自信' or identify the owner as female in the prompt."}
+  ],
+  "limits": "No selection, release, audio or human editorial approval."
+}

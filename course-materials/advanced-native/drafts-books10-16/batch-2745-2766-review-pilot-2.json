@@ -573,8 +573,8 @@
         }
       ],
       "listening": {
-        "en": "The underdog team won its first two knockout matches. It hopes to go all the way this season, but the semi-final is still ahead.",
-        "zh": "這支不被看好的隊伍贏了首兩場淘汰賽。它希望今季一路晉級到最後，但準決賽仍未舉行。",
+        "en": "The underdog team has won two knockout matches and hopes to go all the way, although the semi-final is still ahead.",
+        "zh": "這支不被看好的隊伍已贏兩場淘汰賽，希望一路晉級到最後，但準決賽仍未舉行。",
         "promptZh": "hopes to go all the way 在此指甚麼？",
         "options": [
           {
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2766",

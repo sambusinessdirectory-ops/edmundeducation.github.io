@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review-with-manifest-and-full-source-screen",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 3412, 3413, 3419, 3421, 3429, 3431, 3432, 3435",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3412-3435-a.json", "sha256": "6abf2d641407e2228ea7b9d5d7453ea54462a1ba3990f27caafa57300e0df1bb"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3412-3435-a.json", "sha256": "85c6cc67e427d974e088142b7469a421da391ede60a0e6bf64a6965c43f613dd"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "mechanicalChecks": {
+    "selectedOrdinalScreen": "None of these eight source ordinals occurs in the selected batch manifest at review time.",
+    "sourceTargetGlossary": "All eight exact source IDs, expressions and examples match inventory. Audio, speaking and keyed reply/scene/dialogue contain target pattern; speaking and all 39 non-target glossary spans are exact.",
+    "guideCopyScreen": "200 learner-facing English strings compared with all 2,604 guide examples (520,800 pairs). Zero whole-text exact copies. Five near hits consist only of 3431's fixed nine-token target in otherwise new cases; no non-target copied frame. Near threshold: six contiguous tokens covering at least 60 percent of the shorter text, or nine contiguous tokens.",
+    "build": "Focused build and --check pass: eight lessons, 48 questions, 32 audio requests, zero flags."
+  },
+  "perLesson": [
+    {"sourceOrdinal": 3412, "lessonId": "advanced-native-3412", "status": "requires-repair", "findings": [{"id": "R3412-01", "severity": "minor", "path": "writing.examples[1]", "text": "The writing prompt requires a before/after outside-link change and an effect on residents or a service. Model 2 names lost seed/tool exchanges but stops at being 'closed off', without a concrete consequence for growers or a service. Add the resulting farming/repair/supply impact in English and aligned Chinese; recalculate glossary spans if shifted."}], "evidence": "Economic isolation is supported by multiple severed links rather than a lone tariff; model 1 has an observable mill impact."},
+    {"sourceOrdinal": 3413, "lessonId": "advanced-native-3413", "status": "provisional-content-pass", "findings": [], "evidence": "Complete exclusion is contrasted with postponement and a still-open safe exception; both writing models specify the blocked avenue and workable alternative."},
+    {"sourceOrdinal": 3419, "lessonId": "advanced-native-3419", "status": "provisional-content-pass", "findings": [], "evidence": "Market-exclusion sense requires observed lost customers, affordable space or operating ability. It is distinct from selected lesson 3319's object-bearing 'squeeze out flexibility' schedule sense and target pattern."},
+    {"sourceOrdinal": 3421, "lessonId": "advanced-native-3421", "status": "provisional-content-pass", "findings": [], "evidence": "The full guide form 'send shockwaves far and wide' and shorter inflected forms are detected; consequences propagate from a failed node to at least two affected sectors/places."},
+    {"sourceOrdinal": 3429, "lessonId": "advanced-native-3429", "status": "requires-repair", "findings": [{"id": "R3429-01", "severity": "major", "path": "writing.promptZh, writing.examples[1]", "text": "The writing task explicitly asks learners to compare two companies facing delay/extra cost. Model 2 describes only a larger clinic's three-month reserve, with no second organisation or relative comparison; a clinic also falls outside the literal two-company setup. Add a second clinic/organisation and its contrasting capacity, or adjust the shared prompt so both complete models satisfy it. Preserve evidence-based reserves and finite-budget limit in EN/ZH; recalculate glossary if needed."}], "evidence": "The other assessment items correctly distinguish documented cash capacity from fame, size alone and unlimited ability to spend."},
+    {"sourceOrdinal": 3431, "lessonId": "advanced-native-3431", "status": "requires-repair", "findings": [{"id": "R3431-01", "severity": "minor", "path": "writing.examples[0], writing.examples[1]", "text": "The writing prompt explicitly asks for the net effect. Model 1 supplies a ten-dollar price cut and nine-dollar fee but leaves the one-dollar net saving unstated; model 2 gives a support increase and removed allowance without amounts or any stated net result. State the net effect in both English/Traditional Chinese models (quantify or clearly qualify it), then recalculate changed glossary spans."}], "evidence": "The rent-rebate lesson elsewhere uses a concrete $100/$90 comparison and keeps both clauses within one arrangement."},
+    {"sourceOrdinal": 3432, "lessonId": "advanced-native-3432", "status": "provisional-content-pass", "findings": [], "evidence": "The source's technical metaphor is scoped to a failed shared link with documented downstream consequences and backup processes; audio explicitly distinguishes it from an asserted electrical short. Inventory/feed/timetable examples preserve that distinction."},
+    {"sourceOrdinal": 3435, "lessonId": "advanced-native-3435", "status": "provisional-content-pass", "findings": [], "evidence": "Each case names pre-existing burden, an additional task beyond current capacity and a reassignment/deferral; the phrase is not equated with laziness or exactly one task all day."}
+  ],
+  "findingCount": {"major": 1, "minor": 2},
+  "humanApproval": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent-exact-hash-repair-followup",
+  "status": "pass-content-only",
+  "drafts": [
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-3640-3689-review-pilot.json", "sha256": "391a4cddb2e3f91ba65b21e8bab76d067ed5d04db03c4a6987e20d9404ba1a9e", "authorAuditSha256": "c81bc4450f875957dfc00ddb1fb9301ec6aad10d7ac125573c766b8974779540"},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-3698-3700-review-pilot.json", "sha256": "efe901e90c4ed5e7cf5b449bf31f46dc08e8c02f1ee712b9bd5aab76bb6481b2", "authorAuditSha256": "45808217ccf82d1a48ee53f2b5ada39a9e67c02f63627eda55cb20efc75f659b"}
+  ],
+  "priorReports": [
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3640-3689-b.json",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3698-3700-b.json"
+  ],
+  "findingDisposition": [
+    {"id": "R3640-01", "status": "cleared", "evidence": "Writing model 1 now explicitly requires the centre to announce afternoon-only pool hours; English and Traditional Chinese match."},
+    {"id": "R3675-01", "status": "cleared", "evidence": "Both changed-context models now include the guide's hesitation, the colleague checking the missed dates, and rehearsal; English and Traditional Chinese match and glossary spans remain exact."},
+    {"id": "R3675-02", "status": "cleared", "evidence": "The scene prompt now identifies the shop owner as female before the keyed her/她 response."},
+    {"id": "R3700-01", "status": "cleared", "evidence": "Writing model 1 now says staff have not yet found a way to prevent duplicate bookings; the Chinese and recalculated glossary span agree."}
+  ],
+  "regressions": [],
+  "scope": "Focused recheck of four reported defects and changed English, Traditional Chinese, target and glossary spans; unchanged lessons retain the previous independent review result.",
+  "limits": "No human sign-off, manifest selection, audio or publication approval."
+}

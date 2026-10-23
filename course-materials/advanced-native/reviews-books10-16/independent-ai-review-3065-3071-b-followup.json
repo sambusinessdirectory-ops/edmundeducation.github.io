@@ -1,0 +1,23 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3065-3071-b.json",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3065-3071-review-pilot.json", "sha256": "8e34993320afe3d150c1b98a137ea4767dc8833e329a18c13759cdf8489fedd4"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3065-3071-review-pilot.json", "sha256": "e027e30d4aea25184131a83730abb5ddf23d4e7509c6115d563b9de10403f5be"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "resolvedFindings": [
+    {"id": "R3065-01", "status": "resolved", "evidence": "The prompt now gives the earlier job application and quarrel; both models link each earlier clue to a possible reading, retain the unopened letter/smile and do not assert known letter content. EN/ZH align."},
+    {"id": "R3068-01", "status": "resolved", "evidence": "Model 1 now includes slopes, lifts and travel time alongside the shortest-route baseline and unfinished-map limitation, in both languages."},
+    {"id": "R3071-01", "status": "resolved", "evidence": "Model 2 explicitly keeps the first-time parent, confusing arrow to the children's area and still-untested relocation; EN/ZH align."}
+  ],
+  "mechanicalChecks": {
+    "changedModelGuideScreen": "All six writing models compared against 2,604 guide examples; zero exact/near hits. Previous review screened the unchanged remaining learner-facing fields.",
+    "glossary": "All 18 writing glossary spans remain exact non-target substrings.",
+    "build": "Focused build and --check pass: three lessons, 18 questions, 12 audio requests, zero flags."
+  },
+  "perLessonStatus": {"3065": "provisional-content-pass", "3068": "provisional-content-pass", "3071": "provisional-content-pass"},
+  "remainingFindings": [],
+  "humanApproval": false,
+  "releaseApproval": false
+}

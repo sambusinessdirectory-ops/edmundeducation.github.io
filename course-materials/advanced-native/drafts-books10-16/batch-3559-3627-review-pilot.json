@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3559-3627-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3559",
+      "number": 3559,
+      "inventoryId": "expr-3559",
+      "titleEn": "read the room",
+      "titleZh": "察言觀色",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:read|reads|reading)\\s+the\\s+room\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Notice a group’s mood and unspoken social cues before deciding how to speak or act.",
+        "meaningZh": "留意群體氣氛和沒有明說的社交線索，再決定如何說話或行動。",
+        "grammar": "Read the room is a fixed idiom; read is pronounced differently in present and past but spelled the same. A person reads the room before responding.",
+        "register": "Workplace mentoring: a senior colleague advises a newcomer to notice when a team is worried before introducing a joke.",
+        "boundaryZh": "察言觀色不是讀心術，也不能只憑一個表情確定所有人的想法。",
+        "misconceptionZh": "不是閱讀房間裏的文字，亦不是一味附和他人。",
+        "outcomeZh": "能根據可見線索調整說話時機，並承認判斷仍可能不完整。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1448",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 135,
+          "book": 13,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "57–60",
+          "locatorNote": "DOCX table 143, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New employees need time to read the room.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "read the room"
+        }
+      ],
+      "listening": {
+        "en": "After the budget cut was announced, the meeting fell quiet. The experienced chair paused to read the room before bringing up the next item.",
+        "zh": "削減預算公布後，會議室安靜下來。經驗豐富的主席先察言觀色，再提出下一項議程。",
+        "promptZh": "read the room 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Notice the group’s mood before speaking.",
+            "zh": "發言前留意群體氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "Read the signs on the walls.",
+            "zh": "閱讀牆上的標示。"
+          },
+          {
+            "id": "c",
+            "en": "Know exactly what every colleague thinks.",
+            "zh": "確切知道每位同事想甚麼。"
+          },
+          {
+            "id": "d",
+            "en": "Agree with every view in the room.",
+            "zh": "同意房間內所有觀點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安靜是線索，主席先判斷如何提出下一項議程。"
+      },
+      "reply": {
+        "promptEn": "Why did Lena postpone her cheerful announcement? Her teammates had just heard that two projects were cancelled, and their questions were about what would happen next.",
+        "promptZh": "（莉娜為何暫緩宣布好消息？隊友剛聽到兩個項目取消，正追問下一步安排。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She noticed their immediate concern.",
+            "zh": "她留意到隊友眼前的憂慮。"
+          },
+          {
+            "id": "b",
+            "en": "She chose a better time for her news.",
+            "zh": "她為消息選了更合適的時間。"
+          },
+          {
+            "id": "c",
+            "en": "She read the room before speaking.",
+            "zh": "她發言前先察言觀色。"
+          },
+          {
+            "id": "d",
+            "en": "She responded to the group’s mood.",
+            "zh": "她因應群體氣氛作反應。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據取消項目後的可見反應調整時機。"
+      },
+      "scene": {
+        "promptZh": "志工到場才發現大家正安靜等待意外消息，於是暫不播放歡快音樂。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer read the room.",
+            "zh": "志工察言觀色。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteer read every notice on the wall.",
+            "zh": "志工讀完牆上每張告示。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteer knew everyone’s private thoughts.",
+            "zh": "志工知道所有人的私人想法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從當下氣氛調整行動，但不推斷私心。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不符合 read the room？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker notices worried faces and first asks what the group needs.",
+            "zh": "說話者見大家神情憂慮，先問有甚麼需要。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker ignores a tense silence and launches into unrelated jokes.",
+            "zh": "說話者無視緊張沉默，開始講無關笑話。"
+          },
+          {
+            "id": "c",
+            "en": "A host sees guests looking tired and shortens the introduction.",
+            "zh": "主持見賓客疲倦，縮短開場。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全無視社交線索，沒有因應情境。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「read the room 就要猜中每個人的想法。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading the room means using social cues carefully, not claiming to know every private thought.",
+            "zh": "察言觀色是審慎看社交線索，不是宣稱知道每個人的心事。"
+          },
+          {
+            "id": "b",
+            "en": "One facial expression reveals every thought.",
+            "zh": "一個表情便揭示全部心事。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means reading a floor plan.",
+            "zh": "片語指看平面圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可留意線索，但不能把推測說成確定。"
+      },
+      "speaking": {
+        "en": "I read the room when the parents stopped smiling and asked about safety, so I answered their concern before showing the fun activities.",
+        "zh": "家長不再微笑，轉而問安全問題時，我便察言觀色，先回答顧慮，再介紹有趣活動。",
+        "promptZh": "先聽示範，再指出哪個線索改變了發言次序。",
+        "targetSpan": {
+          "start": 2,
+          "end": 15
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心準備宣布新增晚間舞蹈班，但會議上居民先問最近升降機故障怎樣處理。主持想先答安全問題，再提新課程。用一至兩句英文描述他如何察言觀色，勿聲稱知道居民內心想法。",
+        "selfCheckZh": "寫出居民先問升降機故障、主持先答安全問題、後提晚間舞蹈班。",
+        "examples": [
+          {
+            "en": "The host read the room when residents asked about the broken lift, answering that safety concern before announcing the new evening dance class.",
+            "zh": "居民問到故障升降機時，主持察言觀色，先回答安全顧慮，再宣布新增晚間舞蹈班。"
+          },
+          {
+            "en": "Rather than opening with the new evening dance class, the chair read the room and addressed the residents’ lift questions first; their questions showed what needed attention.",
+            "zh": "主持沒有先介紹新增晚間舞蹈班，而是察言觀色，先回答居民對升降機的問題；他們的提問顯示眼前的關注點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "broken lift",
+            "zh": "故障升降機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 65
+            }
+          },
+          {
+            "en": "safety concern",
+            "zh": "安全顧慮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 96
+            }
+          },
+          {
+            "en": "evening dance class",
+            "zh": "晚間舞蹈班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 142
+            }
+          },
+          {
+            "en": "residents",
+            "zh": "居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 37
+            }
+          },
+          {
+            "en": "lift questions",
+            "zh": "升降機的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          },
+          {
+            "en": "needed attention",
+            "zh": "需要關注",
+            "exampleIndex": 1,
+            "span": {
+              "start": 157,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Read the room before choosing the tone or timing of a message.",
+          "zh": "選擇說話語氣或時機前，先察言觀色。"
+        },
+        {
+          "en": "Reading the room uses clues; it is not mind-reading.",
+          "zh": "察言觀色依靠線索，並非讀心。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3617",
+      "number": 3617,
+      "inventoryId": "expr-3617",
+      "titleEn": "get back on your feet",
+      "titleZh": "從挫折中恢復",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting)\\s+back\\s+on\\s+(?:your|my|his|her|their|our|its)\\s+feet\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Recover enough after a setback to function or progress again.",
+        "meaningZh": "遭遇挫折後逐步恢復，重新能夠行動或前進。",
+        "grammar": "Get back on one’s feet; the possessive changes with the subject. It can describe academic, financial or personal recovery.",
+        "register": "Student support conversation: a tutor reassures a learner after a poor test result while planning concrete next steps.",
+        "boundaryZh": "開始恢復不等於問題已全解決，也不能保證下一次必成功。",
+        "misconceptionZh": "這裏不只是從地上站起來；也不應把真正需要支援的人說成只要振作即可。",
+        "outcomeZh": "能說出挫折、支援和恢復的跡象，避免空泛保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1506",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 141,
+          "book": 14,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 150, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After a failed exam, students can get back on their feet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get back on their feet"
+        }
+      ],
+      "listening": {
+        "en": "A burst freezer forced the neighbourhood bakery to close for ten days. After help with repairs, it reopened with a smaller menu and is gradually getting back on its feet.",
+        "zh": "雪櫃故障令社區麵包店停業十天。得到維修支援後，它以較少款式重開，正逐步恢復營業。",
+        "promptZh": "getting back on its feet 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Gradually recovering after the closure.",
+            "zh": "在停業後逐步恢復。"
+          },
+          {
+            "id": "b",
+            "en": "Instantly returning to full service.",
+            "zh": "即時恢復全部服務。"
+          },
+          {
+            "id": "c",
+            "en": "Only standing up from a chair.",
+            "zh": "只是從椅子站起來。"
+          },
+          {
+            "id": "d",
+            "en": "Closing permanently despite the repairs.",
+            "zh": "維修後仍永久停業。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "較少款式重開顯示開始恢復，但未全面復原。"
+      },
+      "reply": {
+        "promptEn": "Why did the café reopen on a shorter schedule? A water leak forced it to close for weeks; a small repair grant and help from neighbours let it serve customers again, though full repairs continue.",
+        "promptZh": "（咖啡店因漏水停業數週，為何以較短時間重開？小額維修補助與鄰居協助令它可再次服務顧客，但全面維修仍在進行。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The café began recovering after the closure.",
+            "zh": "咖啡店在停業後開始恢復。"
+          },
+          {
+            "id": "b",
+            "en": "It can operate again with support.",
+            "zh": "它靠支援得以重新營業。"
+          },
+          {
+            "id": "c",
+            "en": "The café is getting back on its feet.",
+            "zh": "咖啡店正逐步恢復。"
+          },
+          {
+            "id": "d",
+            "en": "The shorter schedule shows partial recovery.",
+            "zh": "較短營業時間顯示部分恢復。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認恢復是逐步的，維修尚未完成。"
+      },
+      "scene": {
+        "promptZh": "球員受傷後接受復康訓練，先能慢跑，還未回到正式比賽。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is getting back on her feet.",
+            "zh": "她正逐步恢復。"
+          },
+          {
+            "id": "b",
+            "en": "She is already certain to win the next match.",
+            "zh": "她已肯定下場必勝。"
+          },
+          {
+            "id": "c",
+            "en": "She only rose from a chair.",
+            "zh": "她只是從椅子站起來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "復康有進展，但未到完全回歸。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 get back on your feet？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shop restarts limited service after flood repairs.",
+            "zh": "商店水浸維修後恢復有限服務。"
+          },
+          {
+            "id": "b",
+            "en": "A pupil has just received bad news and no recovery step has begun.",
+            "zh": "學生剛收到壞消息，尚未開始任何恢復步驟。"
+          },
+          {
+            "id": "c",
+            "en": "An athlete gradually returns to practice after illness.",
+            "zh": "運動員患病後逐步恢復訓練。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有挫折，尚未見恢復。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「get back on your feet 就代表完全不再需要幫助。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can get back on your feet with support while some problems still need work.",
+            "zh": "你可以在支援下逐步恢復，同時仍有問題待處理。"
+          },
+          {
+            "id": "b",
+            "en": "Recovery is always instant and complete.",
+            "zh": "恢復一定即時而完全。"
+          },
+          {
+            "id": "c",
+            "en": "The idiom only describes standing physically.",
+            "zh": "成語只描述實際站立。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "恢復進展可與仍需支援並存。"
+      },
+      "speaking": {
+        "en": "After the cancelled performance, the choir used a smaller community event to get back on its feet while planning a new concert.",
+        "zh": "演出取消後，合唱團先參與較小型社區活動，逐步恢復，並籌劃新音樂會。",
+        "promptZh": "先聽示範，再指出哪件事顯示合唱團開始恢復。",
+        "targetSpan": {
+          "start": 77,
+          "end": 97
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型書店因水管爆裂停業兩週；店主獲鄰店借出空間，先設臨時攤位售書，原店維修未完。用一至兩句英文說明逐步恢復及限制。",
+        "selfCheckZh": "寫出水管爆裂停業兩週、鄰店借空間、臨時攤位開始售書、原店仍維修。",
+        "examples": [
+          {
+            "en": "After a burst pipe closed it for two weeks, the bookshop got back on its feet with a temporary stall in a neighbour’s space, though its own premises still need repair.",
+            "zh": "書店因水管爆裂停業兩週後，借用鄰店空間設臨時攤位，逐步恢復售書，但原店仍須維修。"
+          },
+          {
+            "en": "A neighbour lent the owner space for a temporary book stall, helping the shop get back on its feet after a burst pipe had closed it for two weeks; reopening the original store remains unfinished.",
+            "zh": "水管爆裂令書店停業兩週後，鄰店借出空間讓店主設臨時書攤，幫助書店逐步恢復；原店重開仍未完成。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "burst pipe",
+            "zh": "水管爆裂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 18
+            }
+          },
+          {
+            "en": "two weeks",
+            "zh": "兩週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 42
+            }
+          },
+          {
+            "en": "temporary stall",
+            "zh": "臨時攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 100
+            }
+          },
+          {
+            "en": "need repair",
+            "zh": "須維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 166
+            }
+          },
+          {
+            "en": "lent the owner space",
+            "zh": "借出空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 32
+            }
+          },
+          {
+            "en": "original store",
+            "zh": "原店",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 175
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Get back on your feet means recover after a setback.",
+          "zh": "從挫折中恢復，指遭遇困難後重新前進。"
+        },
+        {
+          "en": "Getting back on your feet may take help and time.",
+          "zh": "逐步恢復可能需要支援和時間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3618",
+      "number": 3618,
+      "inventoryId": "expr-3618",
+      "titleEn": "set someone apart",
+      "titleZh": "使人顯得與眾不同",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:set|sets|setting)\\s+(?:[A-Za-z]+\\s+){1,5}apart\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a person or work distinct in a meaningful way from comparable others.",
+        "meaningZh": "某特質使人或作品相對同類顯得與眾不同。",
+        "grammar": "Set + object + apart (from others); sets is third person singular. Name the differentiating trait and comparison group.",
+        "register": "Portfolio feedback: a mentor tells an applicant which evidence distinguishes her work from similar submissions.",
+        "boundaryZh": "與眾不同不必然等於全面最好；須說明特質及相對比較。",
+        "misconceptionZh": "不是把人實際隔開，也不是只有外觀不同才算。",
+        "outcomeZh": "能指出哪項可觀察特質使對象在同類中顯得不同。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1507",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 141,
+          "book": 14,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 150, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Curiosity sets a good student apart.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sets a good student apart"
+        }
+      ],
+      "listening": {
+        "en": "Many applicants listed the same software skills, but Mina showed how she tested her designs with users. That practical evidence sets her portfolio apart.",
+        "zh": "許多申請者列出相同軟件技能，但米娜展示自己如何讓用戶測試設計。這項實證令她的作品集顯得與眾不同。",
+        "promptZh": "sets her portfolio apart 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Makes it distinct from similar applications.",
+            "zh": "令它有別於相似申請。"
+          },
+          {
+            "id": "b",
+            "en": "Guarantees she is the best in every skill.",
+            "zh": "保證她每項技能都是最好。"
+          },
+          {
+            "id": "c",
+            "en": "Physically moves the portfolio away.",
+            "zh": "把作品集實際搬開。"
+          },
+          {
+            "id": "d",
+            "en": "Shows every applicant had the same evidence.",
+            "zh": "顯示每位申請者都有相同證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "用戶測試證據是與其他作品集相比的特點。"
+      },
+      "reply": {
+        "promptEn": "Several bakeries sell similar bread. One records how it reduces food waste and lets customers see the figures each week. Why do local buyers remember it?",
+        "promptZh": "（幾家麵包店都賣相似麵包；其中一家記錄減少浪費的方法，每週公開數字。為何本地顧客記得它？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its transparent waste record makes it distinctive.",
+            "zh": "公開的減廢紀錄令它特別。"
+          },
+          {
+            "id": "b",
+            "en": "It offers evidence the others have not shown.",
+            "zh": "它提供其他店未展示的證據。"
+          },
+          {
+            "id": "c",
+            "en": "That practice sets the bakery apart.",
+            "zh": "這做法令麵包店顯得與眾不同。"
+          },
+          {
+            "id": "d",
+            "en": "Buyers can compare its published figures.",
+            "zh": "顧客可比較它公布的數據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出具體可觀察的差異。"
+      },
+      "scene": {
+        "promptZh": "同類申請中，只有阿欣附上修復古書前後的紀錄和方法。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The restoration record sets her application apart.",
+            "zh": "修復紀錄令她的申請與眾不同。"
+          },
+          {
+            "id": "b",
+            "en": "Her application is physically stored apart.",
+            "zh": "她的申請表實際分開存放。"
+          },
+          {
+            "id": "c",
+            "en": "She must be best at every task.",
+            "zh": "她必然每項工作都最好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體紀錄令申請相對同類有特色。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 set someone apart？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A musician includes a distinctive recording method absent from similar entries.",
+            "zh": "音樂人展示同類作品沒有的錄音方法。"
+          },
+          {
+            "id": "b",
+            "en": "A candidate has the same evidence and presentation as all comparable entries, with no identified difference.",
+            "zh": "候選人的證據和呈現都與同類相同，沒有指出任何差異。"
+          },
+          {
+            "id": "c",
+            "en": "A guide adds independently checked access notes missing from rival guides.",
+            "zh": "指南新增其他同類指南欠缺、經獨立核實的無障礙資料。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有指出相對同類的差異。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「某特點 sets it apart，所以整體必定最好。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trait can set it apart without proving it is best in every respect.",
+            "zh": "某特點可令它與眾不同，但不證明各方面都最好。"
+          },
+          {
+            "id": "b",
+            "en": "One distinction proves universal superiority.",
+            "zh": "一項差異證明全面優勝。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means moving furniture apart.",
+            "zh": "片語指搬開家具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "辨識差異與總體排名是兩回事。"
+      },
+      "speaking": {
+        "en": "The team’s clear record of failed trials sets its science display apart from other displays with only final results.",
+        "zh": "團隊清楚記錄失敗試驗，令科學展品有別於只展示最終結果的其他展品。",
+        "promptZh": "先聽示範，再指出哪項紀錄造成差異。",
+        "targetSpan": {
+          "start": 41,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：三份社區花園提案都提供種植清單；只有一份附上輪椅使用者試走路徑後的修訂紀錄。評審認為這項實證特別，但尚未選出勝者。用一至兩句英文說明差異，勿稱提案已勝出。",
+        "selfCheckZh": "寫出三份提案都有清單、只有一份有輪椅試走與修訂紀錄、結果未定。",
+        "examples": [
+          {
+            "en": "All three garden proposals list plants, but the wheelchair route trial and revision record set one proposal apart; the judges have not chosen a winner.",
+            "zh": "三份花園提案都有種植清單，但輪椅試走路徑與修訂紀錄令其中一份與眾不同；評審尚未選出勝者。"
+          },
+          {
+            "en": "What sets one garden plan apart is its documented wheelchair-user route trial and the revision made from it, details the other two plans lack; the final decision is still open.",
+            "zh": "令一份花園方案與眾不同的，是它記錄了輪椅使用者試走路徑及據此作出的修訂；另外兩份沒有這些細節，最終決定仍未作出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "garden proposals",
+            "zh": "花園提案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 26
+            }
+          },
+          {
+            "en": "list plants",
+            "zh": "列出植物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 38
+            }
+          },
+          {
+            "en": "wheelchair route trial",
+            "zh": "輪椅試走路徑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 70
+            }
+          },
+          {
+            "en": "not chosen a winner",
+            "zh": "尚未選出勝者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 150
+            }
+          },
+          {
+            "en": "documented",
+            "zh": "記錄了",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 49
+            }
+          },
+          {
+            "en": "other two plans",
+            "zh": "另外兩份方案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Set something apart means make it distinct from comparable others.",
+          "zh": "使某物與眾不同，指相對同類有明顯特點。"
+        },
+        {
+          "en": "A quality that sets work apart does not guarantee first place.",
+          "zh": "令作品與眾不同的特質，不保證它獲第一名。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3627",
+      "number": 3627,
+      "inventoryId": "expr-3627",
+      "titleEn": "out of reach",
+      "titleZh": "難以企及",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bout\\s+of\\s+reach\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Not realistically attainable or accessible because of cost, distance or another barrier.",
+        "meaningZh": "因費用、距離或其他障礙而實際上難以得到或參與。",
+        "grammar": "Be/remain/put something out of reach; figurative reach for affordability or opportunity. State whose access is affected.",
+        "register": "Community scholarship briefing: a counsellor explains how travel costs can prevent eligible pupils from joining a programme.",
+        "boundaryZh": "難以企及是實際障礙，不等於當事人能力不足；也不保證永遠無法改變。",
+        "misconceptionZh": "不一定是手臂摸不到物件，也不能只憑昂貴便推斷每個人都負擔不起。",
+        "outcomeZh": "能指出受影響的人及具體障礙，避免責怪個人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1516",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 142,
+          "book": 14,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 151, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "University should not be out of reach for capable students.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "out of reach"
+        }
+      ],
+      "listening": {
+        "en": "The workshop fee was low, but the only bus left before it ended; for pupils in the outer district, the evening course remained out of reach.",
+        "zh": "工作坊收費不高，但唯一的巴士在課程結束前已開走；對外圍地區的學生而言，晚間課程仍難以參與。",
+        "promptZh": "out of reach 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not realistically accessible because of transport.",
+            "zh": "因交通安排而實際上難以參加。"
+          },
+          {
+            "id": "b",
+            "en": "Too high on a shelf for short arms.",
+            "zh": "放在高架上，手臂太短摸不到。"
+          },
+          {
+            "id": "c",
+            "en": "Too difficult because the pupils lack talent.",
+            "zh": "學生欠缺天分所以太難。"
+          },
+          {
+            "id": "d",
+            "en": "Free of any practical obstacle.",
+            "zh": "沒有任何實際障礙。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "巴士時間使部分學生難以參與，與能力無關。"
+      },
+      "reply": {
+        "promptEn": "Why did the museum add a travel grant? Admission was free, but the long train journey cost enough to stop some rural families from attending.",
+        "promptZh": "（博物館為何加設交通津貼？入場免費，但火車長途票價令部分鄉郊家庭無法到訪。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fare was a barrier even without an entry fee.",
+            "zh": "即使免入場費，車費仍是障礙。"
+          },
+          {
+            "id": "b",
+            "en": "The grant could improve practical access.",
+            "zh": "津貼可改善實際參與機會。"
+          },
+          {
+            "id": "c",
+            "en": "The visit had been out of reach for some families.",
+            "zh": "對部分家庭而言，到訪原本難以企及。"
+          },
+          {
+            "id": "d",
+            "en": "Some families needed help with travel costs.",
+            "zh": "部分家庭需要交通費支援。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出受影響家庭與具體金錢障礙。"
+      },
+      "scene": {
+        "promptZh": "合資格學生可獲免費訓練，但只有一個上課地點，距離他們住處三小時車程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The training may be out of reach for those students.",
+            "zh": "對那些學生而言，訓練可能難以參加。"
+          },
+          {
+            "id": "b",
+            "en": "The students lack the ability to learn.",
+            "zh": "學生沒有學習能力。"
+          },
+          {
+            "id": "c",
+            "en": "The training is on a high shelf.",
+            "zh": "訓練放在高架上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "地點和車程構成實際障礙。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 out of reach？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A course has a local venue, affordable fare and places available to the eligible group.",
+            "zh": "課程地點就在附近，交通費可負擔，合資格者仍有名額。"
+          },
+          {
+            "id": "b",
+            "en": "A fee excludes families who meet every academic requirement.",
+            "zh": "費用令符合所有學術條件的家庭無法參與。"
+          },
+          {
+            "id": "c",
+            "en": "The only clinic opens after the last bus has gone for remote residents.",
+            "zh": "偏遠居民的末班車開走後，唯一診所才開始服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對目標群體而言沒有指出實際障礙。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「課程 out of reach，肯定因學生不夠聰明。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Out of reach can describe cost or access barriers, not a lack of ability.",
+            "zh": "難以企及可指費用或交通障礙，不表示能力不足。"
+          },
+          {
+            "id": "b",
+            "en": "Every access problem proves poor ability.",
+            "zh": "每個參與障礙都證明能力差。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase always means a literal high shelf.",
+            "zh": "片語一定指實際高架。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明確區分外在障礙與個人能力。"
+      },
+      "speaking": {
+        "en": "Without the travel pass, the science camp was out of reach for pupils living beyond the ferry route.",
+        "zh": "沒有交通證，對住在渡輪航線以外的學生而言，科學營難以參加。",
+        "promptZh": "先聽示範，再指出哪項支援可改善情況。",
+        "targetSpan": {
+          "start": 46,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：攝影班免學費，卻只在晚上十時結束；島上學員的最後一班船九時開出。中心考慮加開較早課堂，仍未決定。用一至兩句英文說明誰遇到甚麼障礙及可能改善方法。",
+        "selfCheckZh": "寫出免學費、末班船九時但課堂十時結束、島上學員難參加、較早班仍在考慮。",
+        "examples": [
+          {
+            "en": "Although the photography class is free, its ten o’clock finish puts it out of reach for island learners whose last ferry leaves at nine; the centre is considering an earlier class.",
+            "zh": "攝影班雖免學費，但十時才結束，對末班船九時開出的島上學員而言難以參加；中心正考慮加開較早課堂。"
+          },
+          {
+            "en": "The free class remains out of reach for island students because its ten o’clock finish comes after the last ferry leaves at nine. An earlier session is being considered, not yet promised.",
+            "zh": "免費課堂十時才結束，島上學員的末班船卻九時開出，因此仍難以參加。較早課堂仍在考慮，尚未承諾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "photography class",
+            "zh": "攝影班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "ten o’clock finish",
+            "zh": "十時結束",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 62
+            }
+          },
+          {
+            "en": "island learners",
+            "zh": "島上學員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          },
+          {
+            "en": "earlier class",
+            "zh": "較早課堂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 166,
+              "end": 179
+            }
+          },
+          {
+            "en": "last ferry",
+            "zh": "末班船",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 113
+            }
+          },
+          {
+            "en": "earlier session",
+            "zh": "較早課堂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 148
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Out of reach can describe a practical access barrier.",
+          "zh": "難以企及可形容實際參與障礙。"
+        },
+        {
+          "en": "A course out of reach for someone is not necessarily beyond their ability.",
+          "zh": "某人難以參加課程，不一定是能力不足。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

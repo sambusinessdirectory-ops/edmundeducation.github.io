@@ -573,8 +573,8 @@
         }
       ],
       "listening": {
-        "en": "Nora apologised for sharing her friend’s private news. Her friend said “all right” but stopped telling Nora personal things for weeks. The hurt may run deeper than a quick apology can address.",
-        "zh": "諾拉為透露朋友的私事道歉。朋友說「好吧」，但之後幾週都不再向她說私事。這份傷害可能比簡短道歉所能處理的更深。",
+        "en": "Nora apologised for sharing her friend’s private news. Even after saying “all right,” her friend avoided personal conversations with Nora for weeks. The hurt may run deeper than that reply suggests.",
+        "zh": "諾拉為透露朋友的私事道歉。朋友雖說「好吧」，之後幾星期仍避免與諾拉談私事。這份傷害可能比那句回應所顯示的更深。",
         "promptZh": "為何說 hurt may run deeper？",
         "options": [
           {
@@ -617,8 +617,8 @@
           },
           {
             "id": "c",
-            "en": "The hurt may run deeper than a brief apology can address.",
-            "zh": "傷害可能比簡短道歉所能處理的更深。"
+            "en": "Even after Nora said sorry, the hurt may run deeper; her friend’s silence suggests trust needs time.",
+            "zh": "即使諾拉已道歉，傷害仍可能比表面更深；朋友的沉默顯示重建信任需要時間。"
           },
           {
             "id": "d",
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2521",
@@ -900,8 +900,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The online system is useful but not foolproof, so a paper list is a sensible backup.",
-            "zh": "網上系統方便卻並非萬無一失，紙本名單是合理後備。"
+            "en": "A paper backup matters because the online system is not foolproof when the connection fails.",
+            "zh": "斷網時紙本後備便派上用場，因為網上系統並非萬無一失。"
           },
           {
             "id": "b",
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

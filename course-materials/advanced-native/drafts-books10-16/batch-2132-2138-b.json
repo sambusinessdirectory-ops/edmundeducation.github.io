@@ -349,8 +349,8 @@
           },
           {
             "id": "c",
-            "en": "We should build a small buffer into the journey plan.",
-            "zh": "我們應在行程計劃中預留一點餘裕。"
+            "en": "For the museum trip, let us build a small buffer into our journey plan.",
+            "zh": "為了這趟博物館行程，我們應在行程計劃中預留一點餘裕。"
           },
           {
             "id": "d",
@@ -442,7 +442,7 @@
         "selfCheckZh": "建議事先在行程中預留少量時間，並說明這如何應對巴士延誤。",
         "examples": [
           {
-            "en": "We should build a small buffer into the travel plan so we can handle a late bus.",
+            "en": "To handle a late bus, let us build a small buffer into the travel plan.",
             "zh": "我們應在行程計劃中預留一點餘裕，以應對巴士延誤。"
           },
           {
@@ -456,8 +456,8 @@
             "zh": "行程計劃",
             "exampleIndex": 0,
             "span": {
-              "start": 36,
-              "end": 51
+              "start": 55,
+              "end": 70
             }
           },
           {
@@ -465,8 +465,8 @@
             "zh": "應對延誤的巴士",
             "exampleIndex": 0,
             "span": {
-              "start": 62,
-              "end": 79
+              "start": 3,
+              "end": 20
             }
           },
           {
@@ -534,7 +534,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2134",

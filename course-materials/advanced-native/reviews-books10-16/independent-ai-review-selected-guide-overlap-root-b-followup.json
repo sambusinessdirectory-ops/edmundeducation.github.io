@@ -1,0 +1,26 @@
+{
+  "reviewType": "independent-exact-hash-follow-up",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-selected-guide-overlap-root-b.json",
+  "authorSelfAuditSha256": "6da43cb1973770b99cc172f3ea598162d7556cc43018557de8e27889ec3f8f7e",
+  "draftHashes": [
+    ["batch-2132-2138-b.json", "61c07ec6f757a1b178ad74a914ff108f4426cf0235c578decf9d21ed48f391f8"],
+    ["batch-2251-2269-a.json", "0b6761eef9046166e8bd42af5dcd565674bc4fe70658c657cf7f7f272eaaac72"],
+    ["batch-2270-2284-a.json", "5b2bdf2ae52dabb9492bc7343c24f99edde70e6f20ecd3871d3f033d7a37d027"],
+    ["batch-2291-2304-a.json", "ea5526e960ae675c3f62612d2f1de0fa83da846704b1a3864bdc673819d2f046"],
+    ["batch-2449-2458-a.json", "246612f90c73f07713499a15cb13d039b0748a18cc1330a68f0743ec350264a9"],
+    ["batch-2745-2766-review-pilot-2.json", "4f78eeaf4d2192513837fc11c3acb36857dbb9326d15bd96932572f4726acd1a"],
+    ["batch-2833-2870-review-pilot-1.json", "4e433167fdc3548f1cbfd1d6b5400a75309c2e8fad3ed06f1783de635e0f8e0f"]
+  ],
+  "results": [
+    {"lesson": 2133, "status": "cleared", "evidence": "Chinese reply now describes a museum trip without inventing a guided tour; English target and answer remain aligned."},
+    {"lesson": 2251, "status": "cleared", "evidence": "Chinese scene key now names urgent delivery, packing and checking each bag at high intensity."},
+    {"lesson": 2270, "status": "cleared", "evidence": "Chinese reply now includes hearing from more visitors before treating one review as final."},
+    {"lesson": 2293, "status": "cleared", "evidence": "Chinese writing model now includes post-match fatigue, arcade decline, home film and later visit."},
+    {"lesson": 2457, "status": "cleared", "evidence": "Both listening languages attribute strict limits to the app, necessary groceries being skipped to their effect, and the servant/master description to the app. Answer A remains grounded."},
+    {"lesson": 2764, "status": "cleared", "evidence": "Chinese audio now says two knockout wins rather than adding an unsupported first-two ordering."},
+    {"lesson": 2833, "status": "cleared", "evidence": "Keyed reply says approval was pending while Leo held back the announcement; it no longer claims approval eventually arrived. Chinese preserves the pending state and jinx motive."}
+  ],
+  "regressions": [],
+  "mechanicalChecks": "Focused combined build and --check for seven affected batch files: 32 lessons, 192 questions, 128 audio requests, zero flags. Only 2833 English learner-facing text changed in this repair cycle; its new wording has no six-token non-target copy of any of the 2,604 guide examples. Target-bearing key and glossary spans remain exact.",
+  "result": "The seven repaired records and the previously passing six are content-clear at the specified exact hashes. This is independent editorial review, not human or publication approval."
+}

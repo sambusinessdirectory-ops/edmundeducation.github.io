@@ -83,8 +83,8 @@
           },
           {
             "id": "c",
-            "en": "He did not want to jinx it before the approval arrived.",
-            "zh": "批准未到前，他不想把好事說早，以免不吉利。"
+            "en": "He held back the announcement while approval was pending because he did not want to jinx it.",
+            "zh": "最終批准未到前，他暫不公布，因為不想把好事說早，以免不吉利。"
           },
           {
             "id": "d",
@@ -276,7 +276,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2834",
@@ -591,7 +591,7 @@
         }
       ],
       "listening": {
-        "en": "The chart starts in June although the report discusses the whole year. Readers should keep their eyes open for missing months before accepting the trend.",
+        "en": "The chart begins in June, yet the report discusses a whole year. Keep your eyes open for omitted months before trusting that trend.",
         "zh": "圖表從六月開始，但報告討論全年。讀者接受趨勢說法前，應留意是否遺漏了月份。",
         "promptZh": "keep their eyes open for missing months 在這裏表示甚麼？",
         "options": [
@@ -828,7 +828,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2853",
@@ -867,14 +867,14 @@
         }
       ],
       "listening": {
-        "en": "A post claims that one drink cures every illness but cites no study. Do not read that claim with your brain switched off; check the evidence first.",
-        "zh": "一篇貼文聲稱一種飲品能治好所有疾病，卻沒有引用研究。閱讀這種聲稱時，不要不加思索；先核對證據。",
+        "en": "A report says an app doubled learning in one week, but its chart compares different classes. If you accept the conclusion with your brain switched off, you may miss the unfair comparison.",
+        "zh": "一份報告說某程式令一星期的學習成效倍增，但圖表比較的是不同班級。若你不加思索便接受結論，可能會忽略這個不公平的比較。",
         "promptZh": "with your brain switched off 在這裏指甚麼？",
         "options": [
           {
             "id": "a",
-            "en": "Reading the serious claim without thinking critically.",
-            "zh": "讀嚴肅聲稱時沒有審慎思考。"
+            "en": "Accepting a conclusion without checking how its figures were compared.",
+            "zh": "沒有核對數據如何比較，便接受結論。"
           },
           {
             "id": "b",
@@ -893,7 +893,7 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "片語比喻讀重要聲稱時不作主動思考或核對。"
+        "explanationZh": "片語比喻接受重要結論前沒有審慎檢查比較方法。"
       },
       "reply": {
         "promptEn": "How should the committee read a supplier’s safety claim? The brochure promises zero risk, yet provides no test report, and members must decide whether to buy equipment.",

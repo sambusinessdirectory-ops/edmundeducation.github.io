@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T14:12:45.381429+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3412-3435-a.json",
+  "draftSha256": "b18a9055d379d02094da99770d68f90cb9eaf2e6506d97699e89a3fbb5397609",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "62df2b79b1b7b7cf5bbc4f221314bd06ae225eea5fdef9841ba34295ddc743e6",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "sourceCopyScreen": "Full 2,604-guide × 200 learner-facing English near-copy screen: 0 exact copies; 5 automatic near flags consist solely of the fixed nine-word target gives with one hand and takes with the other in 3431, with original contexts.",
+  "canonicalScreen": "All eight rows proposed-new. 3419 squeezed out teaches exclusion of small firms from market space; prior 3319 squeezing out flexibility teaches schedule rigidity. 3421 reviewed pattern covers full source send shockwaves far and wide and reusable send shockwaves. Remaining owner/sense adjudication pending independent review.",
+  "authorSemanticPass": "Repaired independent R3412-01, R3429-01, R3431-01: observable grower consequence; two-organisation reserve comparison; explicit net monetary effects in both models. English/Traditional Chinese and exact glossary spans checked. Independent follow-up pending.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3412,
+      "sourceExpression": "closed off",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3413,
+      "sourceExpression": "shut the door",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3419,
+      "sourceExpression": "squeezed out",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3421,
+      "sourceExpression": "send shockwaves far and wide",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3429,
+      "sourceExpression": "deep pockets",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3431,
+      "sourceExpression": "gives with one hand and takes with the other",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 4,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3432,
+      "sourceExpression": "one part shorts out",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3435,
+      "sourceExpression": "one job too many",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ],
+  "updatedUtc": "2026-10-23T14:18:31.748804+00:00"
+}

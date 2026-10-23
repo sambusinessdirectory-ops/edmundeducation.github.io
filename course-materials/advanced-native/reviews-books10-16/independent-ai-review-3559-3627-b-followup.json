@@ -1,0 +1,15 @@
+{
+  "reviewType": "independent-exact-hash-follow-up",
+  "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3559-3627-review-pilot.json", "sha256": "9bea90b11143f4cb89df0f2ad938b3f56eebe73af95d5775e6621a294d2c5e0d"},
+  "authorSelfAuditSha256": "45d2a4408caf381f467c3c1c0064a7de9e12d17ee593902400470faf849a3f2c",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3559-3627-b.json",
+  "results": [
+    {"lesson": 3559, "status": "cleared", "findings": ["R3559-01", "R3559-02"], "evidence": "Experienced chair rather than new employee reads the quiet meeting after a budget cut; second writing model now names the new evening dance class. English/Chinese cues align."},
+    {"lesson": 3617, "status": "cleared", "findings": ["R3617-01", "R3617-02"], "evidence": "Audio now uses a bakery recovering from a freezer failure, distinct from the source failed-exam setting. Second bookshop model states the two-week burst-pipe closure, borrowed space, temporary stall and unfinished original repair in both languages."},
+    {"lesson": 3618, "status": "cleared", "findings": ["R3618-01"], "evidence": "Second model includes both wheelchair-user route trial and resulting revision, distinguishes the other two proposals and keeps the winner undecided."},
+    {"lesson": 3627, "status": "cleared", "findings": ["R3627-01"], "evidence": "Second model now explicitly says free class ends at ten, last ferry leaves at nine, island learners cannot attend and an earlier session is only under consideration."}
+  ],
+  "regressions": [],
+  "mechanicalChecks": "Focused build and --check: 4 lessons, 24 questions, 16 audio requests, zero flags. Target-bearing passages/options and changed glossary spans remain exact.",
+  "result": "Four provisional lessons are content-clear at this exact hash; no human approval, selection or publication claim."
+}

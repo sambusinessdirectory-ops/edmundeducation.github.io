@@ -1,0 +1,60 @@
+{
+  "reviewType": "independent-selected-guide-fuzzy-followup",
+  "screen": {
+    "path": "course-materials/advanced-native/reviews-books10-16/selected-guide-overlap-screen-current.json",
+    "sha256": "1c3f7c09e7c6f1c65fcce7b82eeea203a5223e136a7a1d4a500415b91aadce11"
+  },
+  "selectedManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "628065820577a31bccea2129cc67d75d837c26cf4ada383714ec61ea42dd2bf2"
+  },
+  "repairedDrafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+      "sha256": "a18e165093f5d5bbf3308e0bd3fb98ad0696eb05bcadaf9c38eea735c6399a0c",
+      "lesson": 3508
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3640-3689-review-pilot.json",
+      "sha256": "071a337aca262a7ffe30f21a4fcc945e6680bb17f424400b32a93a6408faa2ff",
+      "lesson": 3689
+    }
+  ],
+  "scope": "348 selected lessons, 2,604 source examples, 8,446 learner-facing English strings",
+  "mechanicalCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "nearFull": 12,
+    "reviewNearFull": 46,
+    "fuzzyTotal": 58
+  },
+  "editorialConclusion": "No additional contextual rewrite is required among these 58 fuzzy hits at the stated hashes. All share a fixed target expression but add different objects, causes, people, consequences or task-specific facts beyond the guide's short example. This is a scoped originality judgement, not a blanket mechanical clearance or human release approval.",
+  "reviewedLessonIds": [2298, 2414, 2457, 2644, 2705, 2758, 2851, 3014, 3113, 3124, 3162, 3165, 3280, 3329, 3334, 3431, 3508, 3689, 3698],
+  "highVolumeExplanations": [
+    {
+      "lesson": 3508,
+      "hitCount": 18,
+      "sourceExample": "The guide is only a few clicks away.",
+      "reason": "Six lesson fields are each compared with three duplicate guide occurrences. The revised transcript, form, sign-up page and timetable examples specify distinct navigation paths or completion limits; the common words are the taught fixed phrase only. The corrected reply says the form still needs submission, without claiming it was filled in."
+    },
+    {
+      "lesson": 3689,
+      "hitCount": 3,
+      "sourceExample": "New tools can be a blessing or a burden.",
+      "reason": "The revised takeaway now names an online booking requirement and different access consequences for connected versus offline visitors. Other flagged fields are concrete Christmas lights and a change-management reply; none recycles the guide's generic tools claim as its whole teaching point."
+    },
+    {
+      "lesson": 2457,
+      "hitCount": 6,
+      "sourceExample": "Technology can be a brilliant servant, but a poor master.",
+      "reason": "The expression itself is a fixed contrast, but revised assessed uses give actual reminders, suggestions and decision-control consequences; the guide's generic technology assertion is not the complete learner example."
+    }
+  ],
+  "otherFuzzyLessons": {
+    "ids": [2298, 2414, 2644, 2705, 2758, 2851, 3014, 3113, 3124, 3162, 3165, 3280, 3329, 3334, 3431, 3698],
+    "classification": "acceptable-fixed-target-overlap",
+    "reason": "The compared guide examples are short frames containing the target. Each flagged learner field includes a different named referent or concrete contextual evidence, such as diary/typhoon versus documentary, library/grandfather versus theatre/local memory, or accessible-lift wayfinding versus the generic trust equation."
+  },
+  "limitations": "This report covers the frozen 348-selected screen only; later manifest, draft or source changes require a fresh scan and editorial comparison."
+}

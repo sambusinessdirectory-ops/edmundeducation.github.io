@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent-exact-hash-follow-up",
+  "status": "two-regressions-block-selection",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3486-3557-b.json",
+  "drafts": [
+    ["batch-3486-3512-review-pilot.json", "92dccea9287a68e33f8e048977414e6f53475ad48e7279aa70aad179d520684c"],
+    ["batch-3521-3547-review-pilot.json", "efeb2270dc2fc18fbf19a2e172565baca63b7237ce16c0e67846b3c28ff8ae2f"],
+    ["batch-3548-3557-review-pilot.json", "dde7665b792fdfc6edfd8b97a0a3d5082f7d9c7a60de51bb249483e0dd0fb2fa"]
+  ],
+  "priorFindings": [
+    {"id": "R3486-01", "status": "cleared", "evidence": "Listening now uses wheelchair users reviewing a bus route before approval, distinct from source specialist reading; keyed option and Chinese follow."},
+    {"id": "R3495-01", "status": "cleared-with-new-regression", "evidence": "Book-cover scenario was replaced with station sign; see N3495-02."},
+    {"id": "R3510-01", "status": "cleared", "evidence": "Model 2 now names old newspaper yearbooks as the printed books; the two conflicting dates remain unconfirmed."},
+    {"id": "R3512-01", "status": "cleared", "evidence": "Model 2 now sorts and checks duplicate responses, preserving nine hundred replies, one week and first-comment caution in both languages."},
+    {"id": "R3525-01", "status": "cleared", "evidence": "Prompt and model use 咪高風 consistently."},
+    {"id": "R3529-01", "status": "cleared-with-new-regression", "evidence": "Source filming example was replaced, but see N3529-02 for within-lesson scenario reuse."},
+    {"id": "R3547-01", "status": "cleared", "evidence": "Both models now state four to seven shifts weekly for five weeks, no time off and fatigue-related sick leave in English and Chinese."},
+    {"id": "R3555-01", "status": "cleared", "evidence": "Listening now has museum visitors missing the guide's east-exit instruction, distinct from source children after dinner."},
+    {"id": "R3555-02", "status": "cleared", "evidence": "Model 1 now unambiguously says the performance starts ten minutes early; Chinese aligns."},
+    {"id": "R3557-01", "status": "cleared", "evidence": "Listening now discusses lunch-box sticker styles rather than copying the source sentence about fashion trends; key and Chinese were updated."}
+  ],
+  "newFindings": [
+    {"id": "N3495-02", "severity": "major", "lesson": 3495, "path": "listening.en/listening.zh and listening.options[b]", "issue": "A red 'exit sign' is said to point to the platform Nia needs. An exit sign ordinarily directs someone out of a station, not toward a platform; the keyed and distractor reasoning is built on an implausible wayfinding setup.", "suggestion": "Use a platform-direction sign, or have Nia verify the arrow leads to an exit she needs; align option B, Chinese and audio queue."},
+    {"id": "N3529-02", "severity": "major", "lesson": 3529, "path": "listening.en/listening.zh versus scene.promptZh/scene.options[a]", "issue": "Revised listening and the existing scene now teach virtually the same conduct: someone publicly shares a critic/referee's private home address and urges confrontation. The source transfer succeeded, but two assessment steps no longer pose distinct decisions.", "suggestion": "Move listening to another clear boundary crossing, such as sharing private medical information, threatening messages or pressure on a vulnerable person, and keep its key distinct from the scene and source filming example."}
+  ],
+  "regressionScreen": "All other twelve lessons and unchanged items retained initial content status. Focused combined build and --check pass 14 lessons, 84 questions, 56 audio requests, zero flags; schema checks do not detect these two semantic issues.",
+  "humanApproval": false,
+  "releaseApproval": false
+}

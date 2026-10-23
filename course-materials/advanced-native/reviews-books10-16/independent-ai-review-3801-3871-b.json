@@ -1,0 +1,62 @@
+{
+  "reviewType": "independent-eight-lesson-golden-sop-editorial-review",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3801-3826-review-pilot.json",
+      "sha256": "7baec53c4260c090c70f1b1faf1c3c84bc5f476c209d3438a905eb91247757d8"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3829-3864-review-pilot.json",
+      "sha256": "587f619f2431dc748d11aa3dcb2d6638927bcf6bc846d08276ef56b8c9db4175"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3870-3871-review-pilot.json",
+      "sha256": "4fdde836a71922d5e7750726dcb899fcc3b9e6d7a874593ce548dbd437d2df42"
+    }
+  ],
+  "authorAuditSha256": "d5572ffc34b40c145fe44083d5e4526b52488b6609a0c236360e1e0cab613a6f",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "status": "four-content-repairs-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3801, "status": "repair", "summary": "The choice-by-departure sense and four valid replies work, but the listening transcript and Chinese make the museum the agent that deliberately lengthened a queue."},
+    {"ordinal": 3803, "status": "pass", "summary": "The later adverse consequence is grounded across assessed tasks; the scenario transfer, answer keys, bilingual models, target and glossary are coherent."},
+    {"ordinal": 3812, "status": "pass", "summary": "The barely-managing sense is maintained without changing it into comfortable success; reply options are independently valid and the writing models transfer the idea."},
+    {"ordinal": 3826, "status": "pass", "summary": "The temporary rather than permanent pause is clear; assessment keys, source sense, Traditional Chinese, speaking span and answer-derived glossary align."},
+    {"ordinal": 3829, "status": "pass", "summary": "The long expression is the source target, while paperwork, savings, study and theatre situations are independently authored. The lesson consistently describes effort spent merely maintaining position."},
+    {"ordinal": 3864, "status": "repair", "summary": "The comparison sense is clear, but writing model two omits the cause of today's two-day closure, which the learner prompt identifies as an electrical failure."},
+    {"ordinal": 3870, "status": "repair", "summary": "The affected-party sense and key fairness hold, but writing model two drops the direction of the fifteen-minute shift in English while its Chinese says earlier."},
+    {"ordinal": 3871, "status": "repair", "summary": "The classification-boundary sense is defensible, but writing model two leaves the boxing and tea-gathering purposes implicit despite a self-check requiring both."}
+  ],
+  "findings": [
+    {
+      "id": "R3801-01",
+      "severity": "major",
+      "path": "lessons[number=3801].listening.en/zh",
+      "issue": "'The museum extended entry queues' and '博物館延長了入場隊伍' imply the museum deliberately lengthened its queues. The intended cause is queues growing long while the booking desk remained slow; the current sentence is unnatural and blurs the agency in a listening item.",
+      "requiredRepair": "Say that museum entry queues grew longer while booking remained slow, then visitors chose the smaller gallery. Align the Traditional Chinese and retain the target expression."
+    },
+    {
+      "id": "R3864-01",
+      "severity": "minor",
+      "path": "lessons[number=3864].writing.examples[1]",
+      "issue": "The prompt specifies that today's entire-school two-day closure resulted from another electrical failure. Model two says only 'today’s two-day closure', so a standalone answer need not establish that it is the second power problem.",
+      "requiredRepair": "Identify today's closure as power-related in English and Traditional Chinese while preserving the yesterday/today contrast; update any affected glossary spans."
+    },
+    {
+      "id": "R3870-01",
+      "severity": "major",
+      "path": "lessons[number=3870].writing.examples[1].en/zh",
+      "issue": "The English 'fifteen-minute timetable shift' gives no direction, but the prompt requires lunch moved fifteen minutes earlier and the Chinese says '提前十五分鐘'. Both models should satisfy the same self-check independently.",
+      "requiredRepair": "State in English that lunch moved fifteen minutes earlier; preserve the warning, rota and unaffected-office details, align Chinese and recalculate any changed glossary span."
+    },
+    {
+      "id": "R3871-01",
+      "severity": "major",
+      "path": "lessons[number=3871].writing.examples[1].en/zh",
+      "issue": "'Boxing and the tea gathering have clearer main purposes' does not identify which activity is mainly sport and which is mainly social, although the prompt and self-check require both purposes in each complete model.",
+      "requiredRepair": "Name boxing as mainly sport and the tea gathering as mainly social in both languages, keeping the walking group's dual purpose and the non-clean-cut boundary; recalculate any affected glossary span."
+    }
+  ],
+  "scopeLimit": "Independent editorial review of the stated exact draft hashes; it does not grant human release approval or select/publish these lessons."
+}

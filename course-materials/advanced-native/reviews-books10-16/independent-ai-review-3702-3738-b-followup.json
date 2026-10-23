@@ -1,0 +1,18 @@
+{
+  "reviewType": "independent-exact-hash-three-finding-followup",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json", "sha256": "f18f9260c2db6fcc738c685d7c62b998ef462f718c9995f4b50b61bb842c621d"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3728-3738-a.json", "sha256": "b5567b3ae664bcc68e090c57f89d7367a255d9e9aca02ba31c9ee8c91a0bf6cf"}
+  ],
+  "authorAuditSha256": "47271254698bc02afddf1c3caad40c05d4dd49f39962ab444e0450219b1f3f60",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3702-3738-b.json",
+  "status": "pass-content-only",
+  "findingDisposition": [
+    {"id": "R3708-01", "status": "cleared", "evidence": "Reply D now directly describes first-week launch attention reaching clubs and the school paper; the facts and Traditional Chinese are in the prompt."},
+    {"id": "R3715-01", "status": "cleared", "evidence": "Writing model 2 now grounds captioned recordings in shift workers' request for out-of-hours replay; it retains face-to-face support, aligns Chinese and keeps glossary spans exact."},
+    {"id": "R3735-01", "status": "cleared", "evidence": "Reply D now describes the assistants' present triage of essential checks versus deferred routine filing, directly answering how they are coping."}
+  ],
+  "regressions": [],
+  "focusedBuildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "limits": "All initial independent content findings closed at these exact hashes. No human owner sign-off, manifest selection, audio or publication approval."
+}

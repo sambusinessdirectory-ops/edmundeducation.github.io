@@ -1,0 +1,2149 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3448",
+      "number": 3448,
+      "inventoryId": "expr-3448",
+      "titleEn": "too much fuss",
+      "titleZh": "太費事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\btoo much fuss\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "More effort or complication than the expected benefit seems to justify.",
+        "meaningZh": "所需程序或麻煩相對所得好處顯得不值得。",
+        "grammar": "too much fuss is a noun phrase after seem/be/feel like; often followed by for + small outcome or to + infinitive. It judges effort relative to benefit, not impossibility.",
+        "register": "Informal spoken English. A volunteer may say it to a fellow organiser about an overcomplicated small task.",
+        "boundaryZh": "任務有幾個步驟不等於一定太費事；要比較付出與所得。",
+        "misconceptionZh": "不是事情做不到，也不必表示說話者懶惰。",
+        "outcomeZh": "能在小收益與繁瑣程序不成比例時自然使用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1337",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 125,
+          "book": 13,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "23–24",
+          "locatorNote": "DOCX table 130, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Making one portion seemed like too much fuss.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "too much fuss"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "For the ten-minute welcome event, the organiser proposed printing a separate badge for every guest, then collecting and sorting them afterwards. I said that felt like too much fuss when a sign-in sheet would do.",
+        "zh": "為了十分鐘的迎新活動，主辦者提議替每位來賓另印名牌，事後還要收回分類。我說這樣太費事，因為簽到表已足夠。",
+        "promptZh": "講者為何認為名牌安排不值得？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The extra printing and sorting offer little benefit for such a short event.",
+            "zh": "活動很短，額外列印和分類的好處有限。"
+          },
+          {
+            "id": "b",
+            "en": "Badges might help guests navigate a much larger, full-day conference.",
+            "zh": "若是大型全日會議，名牌或許有助來賓辨認身分。"
+          },
+          {
+            "id": "c",
+            "en": "A sign-in sheet cannot show any attendance at all.",
+            "zh": "簽到表完全不能顯示誰出席。"
+          },
+          {
+            "id": "d",
+            "en": "The printing is required for a stated safety reason.",
+            "zh": "列印名牌是基於已說明的安全要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫活動只需簡單簽到，額外程序與收益不成比例。"
+      },
+      "reply": {
+        "promptEn": "Ten people are attending a small book swap. The organiser only needs to tick off names at the door and has a paper list ready. Why use it instead of making a separate registration form for each person?",
+        "promptZh": "（十人參加小型換書活動。主辦者只需在門口核對姓名，手上已有紙本名單。為何用名單，而不用為每人另製登記表？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The paper list records what we need.",
+            "zh": "紙本名單已記下所需資料。"
+          },
+          {
+            "id": "b",
+            "en": "Individual forms would take extra time to prepare.",
+            "zh": "逐人表格要花額外時間準備。"
+          },
+          {
+            "id": "c",
+            "en": "The forms would be too much fuss for a ten-person swap.",
+            "zh": "十人換書活動用那些表格太費事。"
+          },
+          {
+            "id": "d",
+            "en": "We can check the list at the door.",
+            "zh": "我們可在門口核對名單。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句明確比較繁瑣程序與小型活動的實際需要。"
+      },
+      "scene": {
+        "promptZh": "社區圖書角只需記下借書者姓名，有人卻提議每次借書都填三頁表格。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Three pages of paperwork would be too much fuss for a simple loan.",
+            "zh": "簡單借書卻要填三頁表格，實在太費事。"
+          },
+          {
+            "id": "b",
+            "en": "The forms are useful because they capture more details than the library needs.",
+            "zh": "表格有用，因為它們記下比圖書角所需更多的細節。"
+          },
+          {
+            "id": "c",
+            "en": "The borrowing service should wait until a digital registration system is installed.",
+            "zh": "借書服務應等到設置電子登記系統才開始。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多出的文書程序沒有相稱好處。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 too much fuss？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The forms are legally required to protect children attending the trip.",
+            "zh": "表格是保障參加旅行兒童的法律規定。"
+          },
+          {
+            "id": "b",
+            "en": "A tiny display needs several unnecessary approval meetings.",
+            "zh": "小型展品要經過多場不必要的審批會議。"
+          },
+          {
+            "id": "c",
+            "en": "A one-minute update requires printing and filing six copies.",
+            "zh": "一分鐘的更新卻要列印並存檔六份。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有必要的法律保障，不能只因程序多就說不值得。"
+      },
+      "dialogue": {
+        "promptEn": "A: The poster is for one afternoon, but they want every colour approved by three committees. B: ______",
+        "promptZh": "（甲：海報只用一個下午，他們卻要三個委員會逐一批准顏色。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds like too much fuss for a temporary poster.",
+            "zh": "臨時海報要這樣處理，聽起來太費事。"
+          },
+          {
+            "id": "b",
+            "en": "Could we ask which approvals are actually required?",
+            "zh": "我們可否問清楚哪些審批確實必要？"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps a standard poster template would save time.",
+            "zh": "或許用標準海報範本能省時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出繁瑣程度與短期用途不相稱。"
+      },
+      "speaking": {
+        "en": "For a five-minute prize draw, individually laminating every ticket feels like too much fuss; a numbered paper slip is enough.",
+        "zh": "為了五分鐘的抽獎，逐張膠封抽獎券顯得太費事；編號紙條已足夠。",
+        "promptZh": "說出繁瑣做法、有限好處和較簡單的替代方案。",
+        "targetSpan": {
+          "start": 78,
+          "end": 91
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件小事各有繁瑣做法，但有簡單方法達成同一目的。用英文指出為何不值得及替代方案。",
+        "selfCheckZh": "兩例須有小目標、額外程序與可行替代；不能把必要安全措施說成多餘。",
+        "examples": [
+          {
+            "en": "For a two-hour club meeting, collecting three signatures on each chair label would be too much fuss; one seating chart can guide everyone.",
+            "zh": "兩小時的社團會議若每張椅子的標籤都要三人簽名，便太費事；一張座位表已能指引大家。"
+          },
+          {
+            "en": "Making a custom box for each donated pencil seems like too much fuss when a labelled tray keeps the supplies organised.",
+            "zh": "每支捐贈鉛筆都做專用盒顯得太費事；有標籤的盤子已能整齊收納物資。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "chair label",
+            "zh": "椅子標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 76
+            }
+          },
+          {
+            "en": "one seating chart",
+            "zh": "一張座位表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 118
+            }
+          },
+          {
+            "en": "donated pencil",
+            "zh": "捐贈鉛筆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 43
+            }
+          },
+          {
+            "en": "a labelled tray",
+            "zh": "有標籤的盤子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "the supplies",
+            "zh": "物資",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Too much fuss weighs the procedure against the result.",
+          "zh": "too much fuss 是比較程序與成果是否相稱。"
+        },
+        {
+          "en": "Too much fuss can often be avoided by naming a simpler alternative.",
+          "zh": "提出更簡單的替代方法，往往可避免太多不必要的麻煩。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3449",
+      "number": 3449,
+      "inventoryId": "expr-3449",
+      "titleEn": "once that habit sets in",
+      "titleZh": "一旦習慣形成",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bonce that habit sets in\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "After a repeated behaviour has become an established routine, changing it becomes harder.",
+        "meaningZh": "重複行為逐漸成為固定習慣後，要改變便較難。",
+        "grammar": "Once that habit sets in is a time clause; sets in takes an abstract subject habit and marks gradual establishment. The main clause states a later consequence.",
+        "register": "Neutral conversational explanation. A teacher may say it to students discussing routines.",
+        "boundaryZh": "一次行動不是習慣已形成；須有重複與穩定化的線索。",
+        "misconceptionZh": "不是只要開始一次便永遠不能改，也不表示習慣一定有害。",
+        "outcomeZh": "能指出重複行為變成固定習慣後的具體後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1338",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 125,
+          "book": 13,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "23–24",
+          "locatorNote": "DOCX table 130, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once that habit sets in, it is hard to change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "once that habit sets in"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 4,
+      "listening": {
+        "en": "Every evening, Kai opens the class chat before beginning homework. After several months, he reaches for the chat even when there are no new messages. Once that habit sets in, starting work without checking feels strange.",
+        "zh": "凱每晚做功課前都打開班群。幾個月後，即使沒有新訊息，他也會伸手查看。一旦習慣形成，不先查看便開始工作反而讓他覺得不自然。",
+        "promptZh": "講者從甚麼判斷查看訊息已成為習慣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Kai checks automatically even without a new message.",
+            "zh": "即使沒有新訊息，凱也會自動查看。"
+          },
+          {
+            "id": "b",
+            "en": "Kai opened the chat only once last month.",
+            "zh": "凱上月只打開過一次班群。"
+          },
+          {
+            "id": "c",
+            "en": "The chat is always full of urgent notices.",
+            "zh": "班群一直有緊急通知。"
+          },
+          {
+            "id": "d",
+            "en": "His homework has been cancelled.",
+            "zh": "他的功課已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續數月且沒有新訊息仍自動查看，支持習慣已形成。"
+      },
+      "reply": {
+        "promptEn": "For months, Mara has put her running shoes by the door each morning. She sees them there before leaving and now does it without planning. Why does that happen?",
+        "promptZh": "（幾個月來，瑪拉每天早上都把跑鞋放在門旁，出門前也會看見它們。如今她不用特意計劃也會這樣做，為甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has repeated that morning routine for months.",
+            "zh": "她已重複早晨這個做法幾個月。"
+          },
+          {
+            "id": "b",
+            "en": "Doing it each morning has made the action familiar.",
+            "zh": "每天都這樣做，令她對這個動作變得熟悉。"
+          },
+          {
+            "id": "c",
+            "en": "Once that habit sets in, she prepares for her run almost automatically.",
+            "zh": "一旦習慣形成，她幾乎會自動為跑步作準備。"
+          },
+          {
+            "id": "d",
+            "en": "The visible shoes remind her of the next run.",
+            "zh": "看得見的鞋提醒她下一次跑步。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均能解釋；金句明確說明穩定習慣帶來的自動行為。"
+      },
+      "scene": {
+        "promptZh": "學生連續一學期睡前都整理翌日課本，現在不用提醒也會這樣做。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Once that habit sets in, packing the schoolbag feels automatic.",
+            "zh": "一旦習慣形成，整理書包便幾乎成了自動動作。"
+          },
+          {
+            "id": "b",
+            "en": "The student has packed the bag once, so the routine is permanent.",
+            "zh": "學生只整理過一次，習慣便永久形成。"
+          },
+          {
+            "id": "c",
+            "en": "The routine cannot be changed under any circumstances.",
+            "zh": "這習慣在任何情況下都不能改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "整個學期的重複行為支持習慣已穩定形成。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以顯示 once that habit sets in？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leo tries a new planner for the first time today.",
+            "zh": "利奧今天第一次試用新日程本。"
+          },
+          {
+            "id": "b",
+            "en": "After months of practice, Mei checks her bag before leaving without a reminder.",
+            "zh": "練習數月後，美出門前不用提醒也檢查書包。"
+          },
+          {
+            "id": "c",
+            "en": "A family has followed the same Sunday walk routine for a year.",
+            "zh": "一家人已連續一年在星期日散步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "第一次嘗試尚未顯示習慣已形成。"
+      },
+      "dialogue": {
+        "promptEn": "A: She has brought her own cup every school day since January and now picks it up without thinking. B: ______",
+        "promptZh": "（甲：她從一月起每天上學都自備杯，現在不用多想便會拿起來。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Once that habit sets in, she no longer needs a daily reminder.",
+            "zh": "一旦習慣形成，她便不用每天提醒。"
+          },
+          {
+            "id": "b",
+            "en": "Keeping the cup near her bag may have helped.",
+            "zh": "把杯放在書包旁可能有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "It sounds as if the routine is now familiar.",
+            "zh": "聽起來這個做法已很熟悉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句連繫長期重複與不用提醒的後果。"
+      },
+      "speaking": {
+        "en": "Priya has written three lines in her notebook after each shift for four months. Once that habit sets in, reflecting on the day becomes part of closing the shop.",
+        "zh": "普莉婭四個月來每次下班後都在筆記簿寫三行。一旦習慣形成，回顧一天便成了關店的一部分。",
+        "promptZh": "交代重複多久、固定行為及形成後的變化。",
+        "targetSpan": {
+          "start": 80,
+          "end": 103
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人各自持續做一件小事，後來不再需要提醒。用英文寫出重複經過與形成習慣後的結果。",
+        "selfCheckZh": "兩例須有多次重複和後續結果；不能把單次嘗試寫成固定習慣。",
+        "examples": [
+          {
+            "en": "After a term of checking the garden taps each Friday, Salma does it before leaving without a prompt; once that habit sets in, leaks get noticed early.",
+            "zh": "莎瑪一整個學期每逢星期五都檢查花園水龍頭，現在不用提醒便會在離開前檢查；一旦習慣形成，漏水便能早點發現。"
+          },
+          {
+            "en": "For months, Dan has sorted returned books before lunch; once that habit sets in, he reaches for the trolley as soon as the returns arrive.",
+            "zh": "丹幾個月來都在午飯前整理還書；一旦習慣形成，還書一到，他便立即去推書車。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "garden taps",
+            "zh": "花園水龍頭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 40
+            }
+          },
+          {
+            "en": "without a prompt",
+            "zh": "不用提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 99
+            }
+          },
+          {
+            "en": "leaks",
+            "zh": "漏水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 131
+            }
+          },
+          {
+            "en": "returned books",
+            "zh": "還書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 41
+            }
+          },
+          {
+            "en": "the trolley",
+            "zh": "書車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Once that habit sets in, repetition has made the action feel automatic.",
+          "zh": "一旦習慣形成，重複行為便可能變得近乎自動。"
+        },
+        {
+          "en": "Once that habit sets in, a cue can trigger the action with little thought.",
+          "zh": "一旦習慣形成，提示便可能讓人自然做出行動。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3452",
+      "number": 3452,
+      "inventoryId": "expr-3452",
+      "titleEn": "grab lunch",
+      "titleZh": "隨便吃個午餐",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:grab|grabs|grabbed|grabbing) lunch\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have lunch informally, often fairly quickly between other activities.",
+        "meaningZh": "在其他事情之間輕鬆、通常較快地吃個午餐。",
+        "grammar": "grab lunch is a verb-object collocation; grab does not mean physically snatching food. Use grab lunch with someone or at a place, with tense inflection on grab.",
+        "register": "Casual spoken English. A colleague might suggest it to another colleague between appointments.",
+        "boundaryZh": "重點是輕鬆或較快地吃午餐，不必急得狼吞虎嚥；正式宴席不宜這樣說。",
+        "misconceptionZh": "不是搶奪別人的食物，也不是跳過午餐。",
+        "outcomeZh": "能在活動空檔自然提議或描述簡便午餐。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1341",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 125,
+          "book": 13,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "25–26",
+          "locatorNote": "DOCX table 131, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We can grab lunch near the station.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grab lunch"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Our rehearsal ends at noon and the hall opens again at one. We can grab lunch at the café across the road and still return in time to set up the lights.",
+        "zh": "排練中午結束，禮堂一時又開放。我們可以在馬路對面的咖啡店隨便吃個午餐，仍能及時回去設置燈光。",
+        "promptZh": "講者建議怎樣安排午餐？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Eat casually nearby during the break, then return for setup.",
+            "zh": "利用空檔在附近簡單吃午餐，再回去準備。"
+          },
+          {
+            "id": "b",
+            "en": "Wait for a reserved table that becomes free just before the hall reopens.",
+            "zh": "等到禮堂快重開才使用預訂餐桌。"
+          },
+          {
+            "id": "c",
+            "en": "Travel to a café farther away before returning for setup.",
+            "zh": "先到較遠的咖啡店，再回來佈置。"
+          },
+          {
+            "id": "d",
+            "en": "Ask to delay the light setup until after the afternoon session.",
+            "zh": "要求把燈光設置延至下午那節活動後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "grab lunch 指空檔中簡便地吃午餐，而非搶食物。"
+      },
+      "reply": {
+        "promptEn": "The volunteers have half an hour between the morning clean-up and the afternoon briefing. A nearby stall serves quick meals, and shaded benches are available. How can they eat in time?",
+        "promptZh": "（義工在早上的清潔工作與下午的簡報之間有半小時。附近小食攤提供快捷餐點，旁邊也有樹蔭下的長椅。他們怎樣趕得及吃東西？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "There is a nearby food stall with quick meals.",
+            "zh": "附近有提供快捷餐點的小食攤。"
+          },
+          {
+            "id": "b",
+            "en": "The break gives them half an hour to eat.",
+            "zh": "空檔有半小時讓他們吃東西。"
+          },
+          {
+            "id": "c",
+            "en": "They can grab lunch at the stall before the briefing.",
+            "zh": "他們可在簡報前到攤位隨便吃個午餐。"
+          },
+          {
+            "id": "d",
+            "en": "They can take their food to the shaded benches.",
+            "zh": "他們可把食物帶到樹蔭下的長椅。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可行；金句自然概括空檔中的簡便午餐。"
+      },
+      "scene": {
+        "promptZh": "兩位同事只有四十分鐘午休，想在下一場會議前到附近吃點東西。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can grab lunch nearby before the meeting.",
+            "zh": "他們可在會議前於附近隨便吃個午餐。"
+          },
+          {
+            "id": "b",
+            "en": "They could reserve a leisurely lunch for after the meeting.",
+            "zh": "他們可在會議後才預訂悠閒的午餐。"
+          },
+          {
+            "id": "c",
+            "en": "They may use the entire break to prepare and eat later.",
+            "zh": "他們也可用整段空檔作準備，稍後才吃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時間短、地點近，符合 grab lunch 的隨意語氣。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不適合用 grab lunch 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A two-hour ceremonial meal with speeches and assigned seats.",
+            "zh": "有致辭和指定座位的兩小時典禮午宴。"
+          },
+          {
+            "id": "b",
+            "en": "A sandwich during a short break between classes.",
+            "zh": "兩堂課之間的短暫空檔吃三文治。"
+          },
+          {
+            "id": "c",
+            "en": "A quick café meal with a teammate before practice.",
+            "zh": "練習前與隊友在咖啡店簡單吃午餐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "正式而冗長的典禮午宴不符合這個輕鬆說法。"
+      },
+      "dialogue": {
+        "promptEn": "A: The workshop finishes at twelve, and the next session starts at one. B: ______",
+        "promptZh": "（甲：工作坊十二時完結，下一節一時開始。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can grab lunch at the small café next door.",
+            "zh": "我們可到隔壁小咖啡店隨便吃個午餐。"
+          },
+          {
+            "id": "b",
+            "en": "There is enough time for a quick meal.",
+            "zh": "有足夠時間簡單吃一頓。"
+          },
+          {
+            "id": "c",
+            "en": "The café next door is open at noon.",
+            "zh": "隔壁咖啡店中午營業。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句是符合時間空檔的自然午餐提議。"
+      },
+      "speaking": {
+        "en": "When the museum tour pauses at noon, we can grab lunch in the courtyard café before the next guide arrives.",
+        "zh": "博物館導賞中午暫停時，我們可在庭院咖啡店隨便吃個午餐，然後等下一位導賞員到來。",
+        "promptZh": "說明午餐時機、地點與接下來的安排。",
+        "targetSpan": {
+          "start": 44,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人都有短暫午休，須在下一項活動前吃午餐。用英文寫出自然安排。",
+        "selfCheckZh": "兩例要說明時間或地點，不能把 grab lunch 說成正式宴席。",
+        "examples": [
+          {
+            "en": "After the morning stocktake, the shop team can grab lunch at the corner deli before deliveries resume.",
+            "zh": "早上點貨後，店舖團隊可在送貨恢復前，到轉角熟食店隨便吃個午餐。"
+          },
+          {
+            "en": "We grabbed lunch at the campus food truck during the gap between the two interviews, then returned to the studio.",
+            "zh": "兩場訪問之間有空檔，我們在校園餐車簡單吃了午餐，再回到錄影室。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "morning stocktake",
+            "zh": "早上點貨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 27
+            }
+          },
+          {
+            "en": "the corner deli",
+            "zh": "轉角熟食店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 76
+            }
+          },
+          {
+            "en": "deliveries resume",
+            "zh": "送貨恢復",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 101
+            }
+          },
+          {
+            "en": "campus food truck",
+            "zh": "校園餐車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 41
+            }
+          },
+          {
+            "en": "the studio",
+            "zh": "錄影室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We can grab lunch when the schedule leaves a short gap.",
+          "zh": "時間表有短暫空檔時，可以隨便吃個午餐。"
+        },
+        {
+          "en": "Grab lunch sounds casual, even when the meal is planned.",
+          "zh": "grab lunch 語氣輕鬆，即使午餐已事先安排也可使用。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3455",
+      "number": 3455,
+      "inventoryId": "expr-3455",
+      "titleEn": "gone out of the window",
+      "titleZh": "不再適用／落空",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going) out of the window\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A plan or expected condition ceases to hold or disappears because circumstances change. This can describe an abandoned timetable or lost peace and quiet.",
+        "meaningZh": "計劃或原有的理想狀態因情況改變而不再成立或消失；可指原定時間表落空，也可指寧靜不再。",
+        "grammar": "An abstract subject such as a plan, expectation, peace or quiet + go/goes/went/has gone out of the window. Base go follows modals such as can; gone follows has/had. British idiom; US English often drops the. It does not describe an object being thrown out.",
+        "register": "Informal conversational English. An organiser may use it with teammates when the original plan has collapsed.",
+        "boundaryZh": "須有清楚變故令原計劃不能沿用，或令原有安靜等狀態消失；小幅調整或短暫噪聲未必足夠。",
+        "misconceptionZh": "不是物件從窗戶掉出，也不表示任何部分都沒有後備方案。",
+        "outcomeZh": "能辨認計劃失效與原有狀態消失兩種用法，並說出導致改變的原因。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1344",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 125,
+          "book": 13,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "25–26",
+          "locatorNote": "DOCX table 131, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The original timetable has gone out of the window.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gone out of the window"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 4,
+      "listening": {
+        "en": "The outdoor concert was meant to use the riverside stage, but the flood closed that entire area. Our stage plan has gone out of the window, so we are checking the indoor hall instead.",
+        "zh": "戶外音樂會原定用河畔舞台，但水浸令整區封閉。原舞台計劃已落空，我們正改查室內禮堂。",
+        "promptZh": "原計劃為何不再適用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Flooding closed the planned stage area altogether.",
+            "zh": "水浸令原定舞台所在區域全面封閉。"
+          },
+          {
+            "id": "b",
+            "en": "The stage needs a minor change in lighting.",
+            "zh": "舞台只需稍微調整燈光。"
+          },
+          {
+            "id": "c",
+            "en": "The audience asked for one extra song.",
+            "zh": "觀眾希望多唱一首歌。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser merely prefers a different poster colour.",
+            "zh": "主辦者只想改變海報顏色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "整個原場地關閉，舞台計劃已無法沿用。"
+      },
+      "reply": {
+        "promptEn": "The science club's original display room has closed for repairs, so the boards cannot be shown there. The organisers are checking a replacement room. Why are they changing venue?",
+        "promptZh": "（科學社原定展覽的房間因維修而封閉，展板無法在那裏展示。主辦者正在查看替代房間。為何要換場地？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The original room has been closed for repairs.",
+            "zh": "原定房間因維修而封閉。"
+          },
+          {
+            "id": "b",
+            "en": "The closed room cannot hold their display boards now.",
+            "zh": "封閉的房間如今無法放置展板。"
+          },
+          {
+            "id": "c",
+            "en": "Their original venue plan has gone out of the window.",
+            "zh": "他們原定的場地計劃已落空。"
+          },
+          {
+            "id": "d",
+            "en": "They still want visitors to see the display boards despite the closure.",
+            "zh": "儘管原定房間封閉，他們仍想讓訪客看到展板。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句與換場地有關；金句概括原場地計劃不再可行。"
+      },
+      "scene": {
+        "promptZh": "社區圖書館的研習室原本很安靜，但隔壁開始持續鑿牆施工，整個下午都聽到噪音。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The study room's quiet has gone out of the window during the building work.",
+            "zh": "施工期間，研習室原有的寧靜已消失。"
+          },
+          {
+            "id": "b",
+            "en": "The work changed the room's booking hours, but it remains quiet inside.",
+            "zh": "工程改變了房間的預約時間，但室內仍很安靜。"
+          },
+          {
+            "id": "c",
+            "en": "The room is still suitable for silent study despite the sustained drilling.",
+            "zh": "儘管持續鑿牆，房間仍適合安靜自修。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續施工噪音令原有的安靜狀態消失；這裏不是指時間表失效。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說原計劃 has gone out of the window？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event is moved from Tuesday to Wednesday while the same venue and programme stay confirmed.",
+            "zh": "活動由星期二改至星期三，場地與節目仍已確定。"
+          },
+          {
+            "id": "b",
+            "en": "A venue closes permanently, forcing a complete change of location.",
+            "zh": "場地永久關閉，令活動必須徹底換地點。"
+          },
+          {
+            "id": "c",
+            "en": "The promised grant is withdrawn, so the proposed project cannot proceed as designed.",
+            "zh": "承諾的資助被撤回，令原項目不能按設計進行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日期小幅調整不等於整項安排失效。"
+      },
+      "dialogue": {
+        "promptEn": "A: The ferry route for our field trip has been suspended for the whole month. B: ______",
+        "promptZh": "（甲：我們考察旅行原定的渡輪航線全月停駛。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Then our island itinerary has gone out of the window; we need another destination.",
+            "zh": "那麼原定的海島行程已落空，我們要另找目的地。"
+          },
+          {
+            "id": "b",
+            "en": "We should check whether a different route is available.",
+            "zh": "我們應查查是否有別的航線。"
+          },
+          {
+            "id": "c",
+            "en": "We can tell families as soon as the new destination is fixed.",
+            "zh": "新目的地一確定便可通知家長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出原定行程因關鍵航線停駛而不再可行。"
+      },
+      "speaking": {
+        "en": "Once the archive building failed its safety inspection, our exhibition plan had gone out of the window, and we began looking for a temporary gallery.",
+        "zh": "檔案館大樓未通過安全檢查後，我們的展覽計劃已落空，於是開始物色臨時展廳。",
+        "promptZh": "指出原計劃、具體阻礙和新的處理方向。",
+        "targetSpan": {
+          "start": 80,
+          "end": 102
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：先寫一項原計劃因關鍵條件消失而失效，再寫一個原本安靜的地方因持續變故而不再安靜。用英文說明後續安排。",
+        "selfCheckZh": "第一例須有失效的計劃及後備安排；第二例須有原有寧靜、持續干擾及合理應對，不可只寫一次輕微聲響。",
+        "examples": [
+          {
+            "en": "The community film night lost access to its only projector, so the screening plan had gone out of the window; the team arranged a live storytelling event instead.",
+            "zh": "社區電影夜失去唯一放映機，原放映計劃因此落空；團隊改辦現場說故事活動。"
+          },
+          {
+            "en": "When loud ventilation began running beside the archive reading room, its quiet went out of the window; staff moved oral-history interviews to a soundproof office.",
+            "zh": "檔案館閱覽室旁的通風設備開始持續發出巨響，原有寧靜因而消失；員工把口述歷史訪談移到隔音辦公室。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its only projector",
+            "zh": "唯一放映機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 58
+            }
+          },
+          {
+            "en": "a live storytelling event",
+            "zh": "現場說故事活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 153
+            }
+          },
+          {
+            "en": "loud ventilation",
+            "zh": "發出巨響的通風設備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 21
+            }
+          },
+          {
+            "en": "oral-history interviews",
+            "zh": "口述歷史訪談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 138
+            }
+          },
+          {
+            "en": "a soundproof office",
+            "zh": "隔音辦公室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A plan has gone out of the window when a key condition disappears.",
+          "zh": "關鍵條件消失時，計劃便可能不再適用。"
+        },
+        {
+          "en": "When a school corridor becomes a practice area, its calm can go out of the window.",
+          "zh": "學校走廊變成排練區後，原有的平靜可能消失。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3458",
+      "number": 3458,
+      "inventoryId": "expr-3458",
+      "titleEn": "not all doom and gloom",
+      "titleZh": "並非一片灰暗",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bnot all doom and gloom\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A situation has real problems but also reasons for hope or workable positives.",
+        "meaningZh": "情況確有問題，但也有值得樂觀或可行的好處。",
+        "grammar": "not all doom and gloom is a predicative idiom after be; often follows an acknowledged problem and precedes a concrete positive. It is not a denial of the problem.",
+        "register": "Informal but suitable for a reassuring discussion. A team leader may say it to staff after reporting a setback.",
+        "boundaryZh": "要先承認實際困難，再給出具體正面根據；空泛安慰不足。",
+        "misconceptionZh": "不是說情況完全美好，也不該用來淡化嚴重損失。",
+        "outcomeZh": "能在壞消息後以具體證據指出仍有希望。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1347",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 126,
+          "book": 13,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 132, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Prices are high, but it is not all doom and gloom.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not all doom and gloom"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The school garden lost several beds in the storm, and repairs will take weeks. It is not all doom and gloom, though: the greenhouse is intact, and volunteers can raise seedlings there while the beds are fixed.",
+        "zh": "風暴令學校花園幾塊花圃受損，維修要幾個星期。不過情況並非一片灰暗：溫室仍然完好，義工可先在裏面培育幼苗。",
+        "promptZh": "講者提出甚麼具體正面因素？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The greenhouse remains usable while the damaged beds are repaired.",
+            "zh": "受損花圃維修期間，溫室仍可使用。"
+          },
+          {
+            "id": "b",
+            "en": "The intact greenhouse means the damaged beds need no repairs.",
+            "zh": "溫室完好，因此受損花圃毋須維修。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers can already plant in every bed despite the storm damage.",
+            "zh": "即使風暴造成損壞，義工已可在每塊花圃種植。"
+          },
+          {
+            "id": "d",
+            "en": "Seedlings must wait until every garden repair is complete.",
+            "zh": "所有花園維修完成前都不能培育幼苗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "溫室完好是具體希望，並未否認花圃受損。"
+      },
+      "reply": {
+        "promptEn": "The theatre group lost its main rehearsal room, but the library has offered an evening room. The cast can meet there twice before opening night and rehearse a shorter show. Why can the group still go ahead?",
+        "promptZh": "（劇團失去主要排練室，但圖書館提供一間晚上可用的房間。演員可在首演前到那裏排練兩次，並排一個較短版本。為何劇團仍可繼續？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The library has offered them an evening room.",
+            "zh": "圖書館願意提供晚上使用的房間。"
+          },
+          {
+            "id": "b",
+            "en": "They can rehearse a shorter version of the show.",
+            "zh": "他們可排練較短版本的節目。"
+          },
+          {
+            "id": "c",
+            "en": "It is not all doom and gloom; they still have a usable rehearsal space.",
+            "zh": "情況並非一片灰暗；他們仍有可用的排練場地。"
+          },
+          {
+            "id": "d",
+            "en": "The cast can meet there twice before opening night.",
+            "zh": "演員可在首演前在那裏聚會兩次。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出可行原因；金句同時承認挫折並指出仍有希望。"
+      },
+      "scene": {
+        "promptZh": "研究小組遺失部分訪問錄音，但有完整逐字稿和獲同意的備份訪問可補足分析。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is not all doom and gloom; the transcripts and backup interviews can still support the study.",
+            "zh": "情況並非一片灰暗；逐字稿及備份訪問仍可支持研究。"
+          },
+          {
+            "id": "b",
+            "en": "The missing recordings prove the whole study is flawless.",
+            "zh": "錄音遺失證明整項研究毫無缺陷。"
+          },
+          {
+            "id": "c",
+            "en": "The group should claim no recording was ever lost.",
+            "zh": "小組應聲稱從沒有遺失錄音。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有真實損失，也有具體補救材料。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不能合理支持 not all doom and gloom？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser refuses to name any remaining resource or possible next step.",
+            "zh": "主辦者不願指出任何剩餘資源或可能的下一步。"
+          },
+          {
+            "id": "b",
+            "en": "A closed hall is offset partly by a free alternative room.",
+            "zh": "禮堂關閉，但有免費替代房間，可部分彌補。"
+          },
+          {
+            "id": "c",
+            "en": "The first design failed, yet testing revealed a workable second design.",
+            "zh": "首個設計失敗，但測試找出可行的第二個設計。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有正面根據就只是空泛安慰。"
+      },
+      "dialogue": {
+        "promptEn": "A: The grant was reduced, so we must scale back the exhibition. But the museum is still lending us the display cases. B: ______",
+        "promptZh": "（甲：資助減少，我們須縮小展覽規模，但博物館仍借給我們展櫃。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Then it is not all doom and gloom; those cases let us keep the core exhibits.",
+            "zh": "那麼情況並非一片灰暗；那些展櫃讓我們保留核心展品。"
+          },
+          {
+            "id": "b",
+            "en": "We can choose the most important exhibits first.",
+            "zh": "我們可先挑選最重要的展品。"
+          },
+          {
+            "id": "c",
+            "en": "The loaned cases should reduce one major cost.",
+            "zh": "借來的展櫃應能減少一項主要開支。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句有承認縮減，也有展櫃這項具體正面因素。"
+      },
+      "speaking": {
+        "en": "The library branch must close one room for repairs. Yet it is not all doom and gloom: the mobile library will keep visiting the neighbourhood each week.",
+        "zh": "圖書館分館須關閉一個房間維修。不過情況並非一片灰暗：流動圖書館每週仍會到訪社區。",
+        "promptZh": "承認損失，再交代具體仍可使用的服務。",
+        "targetSpan": {
+          "start": 62,
+          "end": 84
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項計劃各遇到真實挫折，但仍有具體資源可支撐下一步。用英文寫出壞消息與希望所在。",
+        "selfCheckZh": "兩例不能否認問題，也不能只寫空泛樂觀；須指出剩餘資源的用途。",
+        "examples": [
+          {
+            "en": "The youth orchestra lost its outdoor stage; it is not all doom and gloom because a community hall is available for the final concert.",
+            "zh": "青年樂團失去戶外舞台；情況並非一片灰暗，因為社區禮堂仍可供最終音樂會使用。"
+          },
+          {
+            "en": "The farm’s first seed batch failed, yet it is not all doom and gloom; stored seedlings can still supply the autumn planting.",
+            "zh": "農場首批種子失敗，但情況並非一片灰暗；儲存的幼苗仍可供秋季種植。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "outdoor stage",
+            "zh": "戶外舞台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 42
+            }
+          },
+          {
+            "en": "a community hall",
+            "zh": "社區禮堂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          },
+          {
+            "en": "the final concert",
+            "zh": "最終音樂會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 132
+            }
+          },
+          {
+            "en": "stored seedlings",
+            "zh": "儲存的幼苗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 86
+            }
+          },
+          {
+            "en": "autumn planting",
+            "zh": "秋季種植",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Not all doom and gloom acknowledges a setback before naming a real positive.",
+          "zh": "not all doom and gloom 先承認挫折，再指出真實的正面因素。"
+        },
+        {
+          "en": "A concrete alternative makes not all doom and gloom credible.",
+          "zh": "有具體替代方案，這句話才有說服力。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3469",
+      "number": 3469,
+      "inventoryId": "expr-3469",
+      "titleEn": "breathing down your neck",
+      "titleZh": "在身旁緊逼施壓",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbreathing down (?:my|your|his|her|our|their) neck\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Someone or a looming pressure, such as several imminent deadlines, is pressing so closely that a person struggles to work calmly.",
+        "meaningZh": "有人過近地監督催促，或多個迫近的期限持續施壓，令人難以平靜工作。",
+        "grammar": "A person or personified pressure (for example, deadlines) + be + breathing down someone’s neck. Use the possessive pronoun for the pressured person; the metaphor is not literal.",
+        "register": "Informal and often critical. A worker may say it to a trusted colleague about a supervisor’s hovering behaviour.",
+        "boundaryZh": "一次合理問進度或單一寬裕期限未必算；要有反覆近距離催促，或多個迫近期限帶來持續而具體的壓力。",
+        "misconceptionZh": "不只是有人真的靠近頸部，也不只限真人監督；迫近的期限可擬人化為持續緊逼。",
+        "outcomeZh": "能辨認真人緊盯與多個期限迫近兩種壓力來源，並指出具體影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1358",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 127,
+          "book": 13,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 133, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Deadlines were breathing down your neck all week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "breathing down your neck"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "During the mural repair, the coordinator stood behind Mei and demanded a fresh update every five minutes. Mei said she could concentrate better without someone breathing down her neck while she mixed the paint.",
+        "zh": "修復壁畫期間，協調員站在美身後，每五分鐘就要求新進度。美說，調顏料時若沒有人在旁緊逼，她會更專心。",
+        "promptZh": "甚麼行為令美感到壓力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coordinator hovered behind her and repeatedly demanded updates.",
+            "zh": "協調員站在她身後，反覆催問進度。"
+          },
+          {
+            "id": "b",
+            "en": "The coordinator asked for one agreed update at the end.",
+            "zh": "協調員只在結束時要求一次約定的進度報告。"
+          },
+          {
+            "id": "c",
+            "en": "The coordinator left clear written instructions and departed.",
+            "zh": "協調員留下清楚書面指示便離開。"
+          },
+          {
+            "id": "d",
+            "en": "The paint colours changed after drying.",
+            "zh": "顏料乾後顏色有變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "近距離站着並每五分鐘追問，才是過度緊逼。"
+      },
+      "reply": {
+        "promptEn": "While Theo edits, the reviewer stands behind him, watches each change and repeatedly interrupts to demand updates. Theo suggests one review after he finishes. Why does he ask the reviewer to leave the desk for an hour?",
+        "promptZh": "（西奧編輯時，審稿員站在身後看着每次修改，還反覆打斷他追問進度。西奧建議完成後再一次過審閱。為何他請審稿員離開編輯桌一小時？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The reviewer keeps watching every edit over his shoulder.",
+            "zh": "審稿員一直在他肩後看着每次修改。"
+          },
+          {
+            "id": "b",
+            "en": "The repeated interruptions make concentration difficult.",
+            "zh": "反覆打斷令他難以集中。"
+          },
+          {
+            "id": "c",
+            "en": "The reviewer is breathing down his neck while he revises.",
+            "zh": "他修改時，審稿員一直在旁緊逼。"
+          },
+          {
+            "id": "d",
+            "en": "A single review later would give him time to finish.",
+            "zh": "稍後一次過審閱能讓他有時間完成。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋要求；金句概括過近監督的壓力。"
+      },
+      "scene": {
+        "promptZh": "餐飲統籌員上午要交兩份報價，午前還要確認過敏原資料；三項期限同時逼近，令她難以專心核對。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Three urgent deadlines are breathing down her neck as she checks the details.",
+            "zh": "她核對細節時，三項迫近期限正令她倍感壓力。"
+          },
+          {
+            "id": "b",
+            "en": "The deadlines are still weeks away, so she can check at leisure.",
+            "zh": "期限仍在數週後，她可以慢慢核對。"
+          },
+          {
+            "id": "c",
+            "en": "Only one flexible due date remains, and no other task is waiting.",
+            "zh": "只剩一項可彈性處理的期限，也沒有其他工作待辦。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項迫近期限同時施壓，可把 deadlines 擬人化為在身旁緊逼。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 someone is breathing down your neck？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager agrees on a deadline, then leaves the worker alone until the planned check-in.",
+            "zh": "經理約定期限後讓員工獨立工作，直到預定的進度會面。"
+          },
+          {
+            "id": "b",
+            "en": "A manager stands beside a worker and asks for updates every few minutes.",
+            "zh": "經理站在員工旁，每隔幾分鐘就問進度。"
+          },
+          {
+            "id": "c",
+            "en": "A manager interrupts each sentence of a report to demand faster typing.",
+            "zh": "經理在報告每句之間都插話催快打字。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "合理的約定檢查不等於持續緊逼。"
+      },
+      "dialogue": {
+        "promptEn": "A: The technician says we have watched every test and interrupted him repeatedly for updates. Why did he ask us to wait outside during the repair? B: ______",
+        "promptZh": "（甲：技術員說我們一直看着他每次測試，還反覆打斷他追問進度。為何他請我們在維修期間到外面等？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "With us breathing down his neck, he cannot test the circuit calmly.",
+            "zh": "我們一直在旁緊逼，他無法冷靜測試電路。"
+          },
+          {
+            "id": "b",
+            "en": "He needs a clear space around the workbench.",
+            "zh": "他需要工作檯周圍有足夠空間。"
+          },
+          {
+            "id": "c",
+            "en": "We can ask for an update after he finishes the test.",
+            "zh": "他完成測試後，我們可再問進度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出旁人緊貼施壓會妨礙專注。"
+      },
+      "speaking": {
+        "en": "The director checked every line over our shoulders, so we asked her to stop breathing down our neck while we rehearsed the new scene.",
+        "zh": "導演在我們肩後逐句檢查，因此我們請她不要在排練新一幕時一直在旁緊逼。",
+        "promptZh": "說明施壓者、反覆行為及它如何影響工作。",
+        "targetSpan": {
+          "start": 76,
+          "end": 99
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人各被別人過度貼近地催促，提出較合理的檢查方法。用英文描寫行為與替代方式。",
+        "selfCheckZh": "兩例須顯示反覆干擾，不只提到期限；替代檢查方式要可行。",
+        "examples": [
+          {
+            "en": "The coach was breathing down my neck by stopping every practice throw, so I asked for feedback after each set of five instead.",
+            "zh": "教練每次練習投球都喊停，在旁緊逼我；我請他改為每投五次後給意見。"
+          },
+          {
+            "en": "While the curator was breathing down her neck and questioning each label, Inez suggested one joint review after she finished the display.",
+            "zh": "策展人不停在伊內斯身旁追問每張標籤，令她感到緊逼；她建議完成展覽後才共同審閱一次。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "practice throw",
+            "zh": "練習投球",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 69
+            }
+          },
+          {
+            "en": "each set of five",
+            "zh": "每組五次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 117
+            }
+          },
+          {
+            "en": "the curator",
+            "zh": "策展人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 17
+            }
+          },
+          {
+            "en": "each label",
+            "zh": "每張標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 72
+            }
+          },
+          {
+            "en": "one joint review",
+            "zh": "一次共同審閱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Breathing down your neck means intrusive pressure, not ordinary supervision.",
+          "zh": "breathing down your neck 指干擾性的緊迫施壓，不是一般監督。"
+        },
+        {
+          "en": "Several imminent deadlines can be breathing down your neck even when nobody is standing nearby.",
+          "zh": "即使沒有人站在身旁，多項迫近期限也可令人感到被緊逼。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3472",
+      "number": 3472,
+      "inventoryId": "expr-3472",
+      "titleEn": "hands down",
+      "titleZh": "毫無疑問地",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhands down\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Clearly or decisively, with little doubt when comparing alternatives or making a judgement.",
+        "meaningZh": "比較選項或作判斷時，明顯勝出、毫無疑問。",
+        "grammar": "hands down is an adverbial idiom after win/be the best/prefer or in an emphatic answer. It modifies the certainty of a comparison, not physical hands.",
+        "register": "Informal emphatic English. A club member may use it with teammates after comparing actual options.",
+        "boundaryZh": "應有可比較選項及支持判斷的線索；沒有任何比較基礎時不宜誇稱毫無疑問。",
+        "misconceptionZh": "不是要求把手放下，也不表示其他選項完全沒有優點。",
+        "outcomeZh": "能在明確比較之後自然強調勝出的選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1361",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 127,
+          "book": 13,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 133, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "On busy nights, the simpler meal wins hands down.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hands down"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "We tested three caption styles with the same group of readers. The high-contrast version was easier for nearly everyone to read; it won hands down, although the others looked attractive.",
+        "zh": "我們讓同一組讀者試用三種字幕樣式。高對比版本幾乎讓所有人更容易閱讀；它明顯勝出，雖然其他版本外觀也吸引。",
+        "promptZh": "講者為何說該版本明顯勝出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A comparable test showed nearly everyone read it more easily.",
+            "zh": "同條件測試顯示，幾乎所有人用它都讀得較容易。"
+          },
+          {
+            "id": "b",
+            "en": "The team never tried any other style.",
+            "zh": "團隊從沒有試過其他樣式。"
+          },
+          {
+            "id": "c",
+            "en": "Its only advantage was a lower purchase price not mentioned in the audio.",
+            "zh": "它唯一優點是音訊沒提及的較低購買價。"
+          },
+          {
+            "id": "d",
+            "en": "The readers were required to choose it regardless of readability.",
+            "zh": "讀者無論易讀與否都必須選它。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有同組讀者的比較結果支持明顯勝出。"
+      },
+      "reply": {
+        "promptEn": "Visitors tested two museum audio guides on the same route. Nearly everyone completed it without help using the shorter guide, while many users of the longer guide needed assistance. Which should the museum choose, and why?",
+        "promptZh": "（訪客在同一路線試用兩款博物館語音導覽。使用較短版本的人幾乎全都不用求助便完成路線；使用較長版本的人則有不少需要協助。博物館應選哪款，為甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Most visitors completed the route more easily with the shorter guide.",
+            "zh": "大多數訪客使用較短版本更容易走完路線。"
+          },
+          {
+            "id": "b",
+            "en": "The shorter guide caused fewer requests for help.",
+            "zh": "較短版本令求助次數較少。"
+          },
+          {
+            "id": "c",
+            "en": "The shorter guide wins hands down on ease of use.",
+            "zh": "就易用程度而言，較短版本明顯勝出。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors navigating the route may find the shorter guide clearer.",
+            "zh": "正在走路線的訪客可能覺得較短的導覽更清楚。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能回應；金句明確表達比較結果。"
+      },
+      "scene": {
+        "promptZh": "兩種指示牌同時試用，甲牌令九成人找到出口，乙牌只有六成。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first sign works better, hands down, for helping visitors find the exit.",
+            "zh": "要幫訪客找到出口，第一款指示牌明顯勝出。"
+          },
+          {
+            "id": "b",
+            "en": "The signs were never compared, so no result is known.",
+            "zh": "兩款指示牌從未比較，因此沒有結果。"
+          },
+          {
+            "id": "c",
+            "en": "The second sign has newer graphics, so it should be chosen despite the weaker trial result.",
+            "zh": "第二款指示牌圖像較新，即使測試結果較弱，也應選它。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同條件結果支持甲牌在特定目的上明顯較好。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某方案 wins hands down？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No one has compared the two plans, and the available evidence is evenly balanced.",
+            "zh": "無人比較兩個方案，現有證據也不分高下。"
+          },
+          {
+            "id": "b",
+            "en": "A trial found one route consistently quicker and safer for users.",
+            "zh": "測試發現其中一條路線對使用者一直較快且較安全。"
+          },
+          {
+            "id": "c",
+            "en": "Participants strongly preferred one design across several tested tasks.",
+            "zh": "參與者在幾項測試任務中都明顯偏好其中一個設計。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有明顯比較依據時，不能宣稱毫無疑問地勝出。"
+      },
+      "dialogue": {
+        "promptEn": "A: Both posters are attractive, but the large-print one helped far more people read the date correctly. B: ______",
+        "promptZh": "（甲：兩張海報都吸引，但大字版本讓多得多的人正確讀到日期。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "For communicating the date, the large-print poster wins hands down.",
+            "zh": "就傳達日期而言，大字海報明顯勝出。"
+          },
+          {
+            "id": "b",
+            "en": "We should still thank both designers for their work.",
+            "zh": "我們仍應感謝兩位設計者的工作。"
+          },
+          {
+            "id": "c",
+            "en": "The test gives us a clear reason to choose larger print.",
+            "zh": "測試讓我們有清楚理由選大字版本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句限於傳達日期這項任務，沒有抹去其他優點。"
+      },
+      "speaking": {
+        "en": "After blind-testing the two recordings, the class understood the slower version much better; on clarity, it won hands down.",
+        "zh": "全班盲測兩段錄音後，對較慢版本理解得好得多；就清晰度而言，它明顯勝出。",
+        "promptZh": "指出比較對象、具體準則和結果。",
+        "targetSpan": {
+          "start": 112,
+          "end": 122
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人各比較兩種實際方案，在指定準則上有清楚優勝者。用英文寫出結果。",
+        "selfCheckZh": "兩例要說明比較準則與證據；不要只寫空泛偏好。",
+        "examples": [
+          {
+            "en": "The portable ramp took half the setup time of the older model and supported the same load, so for this entrance it won hands down.",
+            "zh": "便攜斜台的設置時間只有舊款一半，承重量卻相同，因此就這個入口而言，它明顯勝出。"
+          },
+          {
+            "en": "Readers found the revised map’s landmarks much faster than those on the old map; the revision wins hands down for wayfinding.",
+            "zh": "讀者在修訂地圖上找到地標的速度遠快於舊圖；就辨路而言，修訂版明顯勝出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the setup time",
+            "zh": "設置時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 42
+            }
+          },
+          {
+            "en": "the older model",
+            "zh": "舊款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 61
+            }
+          },
+          {
+            "en": "supported the same load",
+            "zh": "承重量相同",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 89
+            }
+          },
+          {
+            "en": "the revised map’s landmarks",
+            "zh": "修訂地圖上的地標",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 41
+            }
+          },
+          {
+            "en": "wayfinding",
+            "zh": "辨路",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hands down needs a clear basis for the comparison.",
+          "zh": "hands down 應有清楚的比較依據。"
+        },
+        {
+          "en": "One choice can win hands down on a particular criterion without being perfect in every way.",
+          "zh": "一個選項可在某項準則上明顯勝出，不代表它各方面都完美。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3481",
+      "number": 3481,
+      "inventoryId": "expr-3481",
+      "titleEn": "gravitate towards",
+      "titleZh": "自然傾向；逐漸被吸引到",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:gravitate|gravitates|gravitated|gravitating) toward(?:s)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Move naturally toward a person, topic or option because it appeals to someone, often without a deliberate formal choice.",
+        "meaningZh": "因為某人或某事有吸引力而自然靠近、偏向某個選項，通常不是正式指定。",
+        "grammar": "gravitate towards + noun/person/topic; gravitate is intransitive and the tendency may develop over time. US toward and UK towards both occur.",
+        "register": "Neutral figurative English. A librarian may use it with colleagues discussing readers’ observed preferences.",
+        "boundaryZh": "須有可見的偏好或漸漸靠攏，不是被硬性分派，也不一定有真正的身體移動。",
+        "misconceptionZh": "不是受地心吸力拉動，也不必表示作出明確決定後便永不改變。",
+        "outcomeZh": "能用具體行為證據說明人們為何自然偏向某主題或人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1370",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 128,
+          "book": 13,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "34–37",
+          "locatorNote": "DOCX table 135, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Customers gravitate towards simple solutions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gravitate towards"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At the makers’ fair, visitors tried robotics, weaving and printmaking. Many returned to weaving because they could take a pattern home. They seemed to gravitate towards it without being assigned.",
+        "zh": "在創客市集，訪客試了機械人、編織及版畫。許多人因能帶圖案回家而回到編織桌；沒有人分派，他們卻似乎自然偏向編織。",
+        "promptZh": "甚麼顯示訪客自然偏向編織？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They repeatedly returned to that table by choice.",
+            "zh": "他們自行多次回到那張桌。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher assigned every visitor to weaving.",
+            "zh": "老師把每位訪客都分派去編織。"
+          },
+          {
+            "id": "c",
+            "en": "The other activities were closed throughout the fair.",
+            "zh": "市集期間其他活動一直關閉。"
+          },
+          {
+            "id": "d",
+            "en": "They tried weaving once but did not choose to return.",
+            "zh": "他們只試過編織一次，之後沒有自行回去。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次自發回去，而非被分派，支持自然偏向。"
+      },
+      "reply": {
+        "promptEn": "New readers repeatedly say they enjoy true stories about people's lives. At the library they often go first to the biography shelf and stay there browsing. Why do they choose it?",
+        "promptZh": "（新讀者反覆說自己喜歡真實人物的人生故事。在圖書館，他們常先走到傳記書架，並留在那裏翻閱。為何他們選傳記？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They enjoy stories about real people.",
+            "zh": "他們喜歡真實人物的故事。"
+          },
+          {
+            "id": "b",
+            "en": "The biographies invite them to browse longer.",
+            "zh": "傳記令他們願意多翻閱一會。"
+          },
+          {
+            "id": "c",
+            "en": "They gravitate towards biographies because those stories hold their interest.",
+            "zh": "他們自然偏向傳記，因為那些故事吸引他們。"
+          },
+          {
+            "id": "d",
+            "en": "The real-life experiences in those books catch their attention.",
+            "zh": "書中的真實人生經歷吸引他們。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句概括自發的吸引與趨向。"
+      },
+      "scene": {
+        "promptZh": "新生可自由選社團，許多人試過幾種活動後，總會自行回到陶藝社。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They gravitate towards the pottery club after trying the alternatives.",
+            "zh": "試過其他社團後，他們自然偏向陶藝社。"
+          },
+          {
+            "id": "b",
+            "en": "They were all assigned to pottery without a choice.",
+            "zh": "他們沒有選擇，全都被分派到陶藝社。"
+          },
+          {
+            "id": "c",
+            "en": "They visited pottery once because the corridor was blocked.",
+            "zh": "他們只因走廊受阻而到陶藝社一次。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重複自發回到陶藝社，才顯示自然偏好。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明學生 gravitate towards a subject？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are assigned to the subject by a timetable and have not expressed any preference.",
+            "zh": "他們只因時間表被分派修讀，沒有表現任何偏好。"
+          },
+          {
+            "id": "b",
+            "en": "They repeatedly choose the subject’s optional workshops.",
+            "zh": "他們多次自選這科的額外工作坊。"
+          },
+          {
+            "id": "c",
+            "en": "They browse related books when no class requires it.",
+            "zh": "即使課堂沒有要求，他們也會翻閱相關書籍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "被指定上課不能證明自然被吸引。"
+      },
+      "dialogue": {
+        "promptEn": "A: We offered three lunchtime clubs, but Mira keeps returning to the sketching table without being asked. B: ______",
+        "promptZh": "（甲：我們提供三種午間社團，但米拉不用人叫，總回到素描桌。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She seems to gravitate towards sketching; perhaps she enjoys exploring ideas visually.",
+            "zh": "她似乎自然偏向素描；也許她喜歡用圖像探索想法。"
+          },
+          {
+            "id": "b",
+            "en": "We can ask what she likes about that activity.",
+            "zh": "我們可問她喜歡這活動甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "It is good that she has room to try different clubs.",
+            "zh": "她有空間試不同社團，這很好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據自發重返的行為，審慎推斷偏好。"
+      },
+      "speaking": {
+        "en": "When given a choice of topics, the debate group gravitated towards local transport because members had collected their own journey stories.",
+        "zh": "讓辯論小組自由選題時，成員自然偏向本地交通，因為他們已收集自己的乘車經歷。",
+        "promptZh": "交代可選項、自發趨向及吸引原因。",
+        "targetSpan": {
+          "start": 48,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人在有選擇時自然偏向某活動或主題；用英文提供可見行為和可能的吸引因素。",
+        "selfCheckZh": "兩例須有自願反覆選擇的證據；不可把硬性分派當成自然偏好。",
+        "examples": [
+          {
+            "en": "At the open studio, visitors gravitated towards the clay table, returning to refine their small bowls after trying the painting station.",
+            "zh": "在開放工作室，訪客試過繪畫站後仍回到陶泥桌修飾小碗，顯示他們自然偏向陶泥活動。"
+          },
+          {
+            "en": "The reading circle gravitated towards travel memoirs after members repeatedly brought stories about unfamiliar places to share.",
+            "zh": "讀書會成員多次帶來陌生地方的故事分享，因此自然偏向旅遊回憶錄。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the clay table",
+            "zh": "陶泥桌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 62
+            }
+          },
+          {
+            "en": "small bowls",
+            "zh": "小碗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 101
+            }
+          },
+          {
+            "en": "the painting station",
+            "zh": "繪畫站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          },
+          {
+            "en": "travel memoirs",
+            "zh": "旅遊回憶錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 52
+            }
+          },
+          {
+            "en": "unfamiliar places",
+            "zh": "陌生地方",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "People gravitate towards options they repeatedly choose when alternatives remain open.",
+          "zh": "當其他選項仍開放，人們反覆自選某項，便可說自然偏向它。"
+        },
+        {
+          "en": "Gravitate towards describes attraction, not a formal assignment.",
+          "zh": "gravitate towards 描述吸引與傾向，不是正式分派。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "reviewType": "independent-exact-hash-owner-coverage-followup",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3521-3547-review-pilot.json",
+  "draftSha256": "5e1f065ad8ace672ee2139d48c022e1d2c8e12c576048ef3877ae126db4c9fb9",
+  "authorAuditSha256": "d778017057a7551a047a41d1891c3546246d2e3b4d67b81b6bcc83cc4eab1236",
+  "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "scope": "Changed owner lessons 3525 and 3529, exact source examples for owners and aliases 3549/4417/4422, seven-step content and prior-cleared surrounding lessons",
+  "status": "pass-content-only",
+  "findings": [],
+  "lessons": [
+    {
+      "ordinal": 3525,
+      "status": "pass",
+      "sourceExamples": [
+        {"ordinal": 3525, "sourceId": "book10-16-1414", "example": "Without moderation, the forum risks descending into a free-for-all.", "targetMatch": true},
+        {"ordinal": 3549, "sourceId": "book10-16-1438", "example": "Without a bedtime routine, evenings became a bit of a free-for-all.", "targetMatch": true}
+      ],
+      "assessment": "The noun pattern catches both complete source sentences. The brief and assessed scenes distinguish worsening disorder, a disorderly state, and the milder 'a bit of a' form. Both source contexts share loss of effective structure. Keyed answers, Traditional Chinese, speaking span and answer-derived glossary remain coherent."
+    },
+    {
+      "ordinal": 3529,
+      "status": "pass",
+      "sourceExamples": [
+        {"ordinal": 3529, "sourceId": "book10-16-1418", "example": "Filming strangers without consent crosses the line.", "targetMatch": true},
+        {"ordinal": 4417, "sourceId": "book10-16-2306", "example": "He knew he had crossed a line with that remark.", "targetMatch": true},
+        {"ordinal": 4422, "sourceId": "book10-16-2311", "example": "He knew he had crossed a line with that remark.", "targetMatch": true}
+      ],
+      "assessment": "The bounded detector catches both articles and inflected verbs in the exact source examples. The lesson now assesses 'a line' in dialogue and speaking as well as 'the line' elsewhere, while identifying specific unacceptable conduct rather than mere disagreement. The two later source rows are repeated occurrences of the same verbal-remark sense; the speaking model supplies a clear example. English and Traditional Chinese remain aligned."
+    }
+  ],
+  "limits": "Independent content clearance of these two revised owners only; no human sign-off, manifest selection, audio or publication approval."
+}

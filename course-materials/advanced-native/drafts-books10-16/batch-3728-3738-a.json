@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3728",
+      "number": 3728,
+      "inventoryId": "expr-3728",
+      "titleEn": "edges ahead",
+      "titleZh": "以微弱優勢領先",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:edge|edges|edged|edging) ahead\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Gain or hold a small lead over another option or competitor, not a decisive victory.",
+        "meaningZh": "相對另一選項或對手取得微弱領先，並非壓倒性勝出。",
+        "grammar": "Edge ahead is an intransitive verb phrase; edge changes tense. The comparison should identify the rival or measure, often with by or on a stated criterion.",
+        "register": "Neutral reporting English. An evaluator may use it with colleagues when results are close.",
+        "boundaryZh": "差距須細小且有比較依據；大幅領先不宜說 edge ahead。",
+        "misconceptionZh": "不是走到物件的邊緣，也不能把微弱優勢說成已確定整體勝利。",
+        "outcomeZh": "能指出比較準則、微小差距及結果仍可能改變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1617",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 152,
+          "book": 14,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 161, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Medicine edges ahead in this comparison.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "edges ahead"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Two proposed library layouts were scored for wheelchair access. The north layout gained 82 points and the south layout 79, so the north option edges ahead on access. The committee will still check maintenance costs before deciding.",
+        "zh": "兩個圖書館佈局按輪椅通道評分。北側方案得八十二分，南側得七十九分，所以北側在通道方面微弱領先；委員會仍會查核維修成本才決定。",
+        "promptZh": "哪項最準確概括比較結果？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The north layout has a small lead on access, but the final choice is open.",
+            "zh": "北側方案在通道方面略勝一籌，但最終選擇未定。"
+          },
+          {
+            "id": "b",
+            "en": "The north layout has won decisively on every measure.",
+            "zh": "北側方案在每項準則上都壓倒性勝出。"
+          },
+          {
+            "id": "c",
+            "en": "The south layout scored higher for wheelchair access.",
+            "zh": "南側方案的輪椅通道得分較高。"
+          },
+          {
+            "id": "d",
+            "en": "The committee has already cancelled the cost review.",
+            "zh": "委員會已取消成本審查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "八十二比七十九是微小差距，只限於通道準則。"
+      },
+      "reply": {
+        "promptEn": "Two caption designs were tested with the same group. One was read correctly by 53 people and the other by 50; staff still need a larger trial. How should they describe the first result?",
+        "promptZh": "（兩款字幕設計由同一組人試用，一款有五十三人讀對，另一款有五十人讀對；職員仍需更大規模測試。應怎樣形容首輪結果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first design has a slight lead in this small trial.",
+            "zh": "第一款在這次小測試中略為領先。"
+          },
+          {
+            "id": "b",
+            "en": "Three more people read the first design correctly.",
+            "zh": "第一款多三人讀對。"
+          },
+          {
+            "id": "c",
+            "en": "The first design edges ahead, though the larger test may change the result.",
+            "zh": "第一款微弱領先，但更大測試可能改變結果。"
+          },
+          {
+            "id": "d",
+            "en": "The small gap does not settle every question about accessibility.",
+            "zh": "小差距未能解決所有無障礙問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆以三人差距及後續測試為依據；金句準確使用目標語。"
+      },
+      "scene": {
+        "promptZh": "兩條步行路線的實測平均時間相差半分鐘，其餘安全條件相若。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shorter route edges ahead on time, but only narrowly.",
+            "zh": "較短路線在時間上微弱領先，差距很小。"
+          },
+          {
+            "id": "b",
+            "en": "The shorter route wins by an overwhelming margin.",
+            "zh": "較短路線以壓倒性優勢勝出。"
+          },
+          {
+            "id": "c",
+            "en": "No timing comparison has been made.",
+            "zh": "尚未比較兩條路線的時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "半分鐘差距支持「略為領先」，不支持大勝。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不適合用 edges ahead？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One option scores 95 and the other 22 on the same 100-point scale.",
+            "zh": "同一百分制中，一項得九十五分，另一項只得二十二分。"
+          },
+          {
+            "id": "b",
+            "en": "A candidate leads by just one vote with counting still under way.",
+            "zh": "點票仍在進行，一名候選人僅領先一票。"
+          },
+          {
+            "id": "c",
+            "en": "One route is a few seconds quicker in a small trial.",
+            "zh": "小型測試中，一條路線只快幾秒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "九十五比二十二屬巨大差距，不是微弱領先。"
+      },
+      "dialogue": {
+        "promptEn": "A: The two proposals are close, but the shaded design scored 76 against 74 for comfort. B: ______",
+        "promptZh": "（甲：兩個方案得分相近，但就舒適度而言，有遮蔭的設計得七十六分，另一款得七十四分。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shaded design edges ahead on comfort; let us compare the other criteria too.",
+            "zh": "有遮蔭的設計在舒適度方面微弱領先；我們也比較其他準則吧。"
+          },
+          {
+            "id": "b",
+            "en": "The comfort scores favour the shaded version slightly.",
+            "zh": "舒適度分數略為偏向有遮蔭的版本。"
+          },
+          {
+            "id": "c",
+            "en": "A two-point difference is worth noting but not exaggerating.",
+            "zh": "兩分差距值得留意，不應誇大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把小優勢限定在指定準則。"
+      },
+      "speaking": {
+        "en": "In the second trial, the quieter fan edged ahead on energy use by a narrow margin, but the team still checked repair costs before ordering either model.",
+        "zh": "第二次測試中，較安靜的風扇在能源使用方面以微弱優勢領先，但團隊訂購任何一款前仍查核維修成本。",
+        "promptZh": "指出比較對象、準則、差距小，以及未決部分。",
+        "targetSpan": {
+          "start": 37,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩次比較都只有小幅差距。用英文寫出哪一方略勝、在哪項準則上，以及為何尚不能作全面結論。",
+        "selfCheckZh": "兩例必須有可觀察數據；勿把微弱領先寫成壓倒性勝利。",
+        "examples": [
+          {
+            "en": "The blue route edges ahead by forty seconds in the first accessibility walk, but testers still need to compare it in wet weather.",
+            "zh": "首次無障礙步行測試中，藍色路線快四十秒，微弱領先；測試者仍須比較雨天情況。"
+          },
+          {
+            "en": "In the pilot survey, the revised form edged ahead on clarity by four responses out of a hundred; a larger sample may still reverse that lead.",
+            "zh": "試行問卷中，修訂表格在清晰度方面每百人只多四人支持，略為領先；更大的樣本仍可能逆轉結果。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "forty seconds",
+            "zh": "四十秒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 43
+            }
+          },
+          {
+            "en": "wet weather",
+            "zh": "雨天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 128
+            }
+          },
+          {
+            "en": "the pilot survey",
+            "zh": "試行問卷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 19
+            }
+          },
+          {
+            "en": "four responses out of a hundred",
+            "zh": "每百人多四個回應",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 95
+            }
+          },
+          {
+            "en": "a larger sample",
+            "zh": "更大的樣本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Edges ahead marks a small, measured lead.",
+          "zh": "edges ahead 表示可量度的微弱領先。"
+        },
+        {
+          "en": "A team may edge ahead on one criterion without winning overall.",
+          "zh": "團隊可在一項準則上略勝，卻未必整體勝出。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3735",
+      "number": 3735,
+      "inventoryId": "expr-3735",
+      "titleEn": "keep their heads above water",
+      "titleZh": "勉強應付壓力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:(?:my|your|his|her|its) head|(?:our|your|their) heads) above water\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue coping with heavy demands without being overwhelmed, often only just. This lesson uses workload and time pressure rather than canonical 349’s financial viability sense.",
+        "meaningZh": "在沉重要求下勉強維持應付，未至於完全被壓垮；本課聚焦工作量與時間壓力，而非第349課的財政存續用法。",
+        "grammar": "Keep one’s head above water: head agrees with a singular possessor; heads with a plural possessor. Keep inflects. The water is figurative pressure, not literal swimming.",
+        "register": "Informal sympathetic English. A teammate may use it when discussing someone coping with a backlog.",
+        "boundaryZh": "需有持續壓力及勉力應付的線索；若工作輕鬆完成，不宜說只是把頭維持在水面。",
+        "misconceptionZh": "不是實際游泳，也不一定指企業財政；本課說的是一般負荷下的勉力維持。",
+        "outcomeZh": "能用具體負荷與應對證據描述勉強撐住的狀態。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1624",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 152,
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Others may struggle to keep their heads above water.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep their heads above water"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "After two colleagues fell ill, Nia handled their client calls as well as her own reports. She finished only the urgent work each day and postponed the rest. She was keeping her head above water, but the backlog showed she needed help.",
+        "zh": "兩名同事病倒後，妮婭除了自己的報告，還要處理他們的客戶來電。她每天只完成緊急工作，其他要押後。她算是勉強撐住，但積壓顯示她需要支援。",
+        "promptZh": "甚麼最能說明妮婭只是勉強應付？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She completes urgent tasks but postpones other work as the backlog grows.",
+            "zh": "她完成緊急工作，卻因積壓增加而押後其他任務。"
+          },
+          {
+            "id": "b",
+            "en": "She has no extra duties and finishes early every day.",
+            "zh": "她沒有額外工作，每天都提早完成。"
+          },
+          {
+            "id": "c",
+            "en": "The team has permanently cancelled all client calls.",
+            "zh": "團隊已永久取消所有客戶來電。"
+          },
+          {
+            "id": "d",
+            "en": "She is swimming in a pool during work hours.",
+            "zh": "她工作時間在游泳池游泳。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有沉重額外負荷，且只完成最急事項，符合勉強維持。"
+      },
+      "reply": {
+        "promptEn": "Three school assistants are covering two absent colleagues. They finish the essential morning checks but defer non-urgent filing each day. How are they coping?",
+        "promptZh": "（三名學校助理要分擔兩名缺勤同事的工作。他們完成早上必要檢查，卻每天押後非緊急文件整理。他們應付得怎樣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are still completing the most urgent duties.",
+            "zh": "他們仍完成最緊急的職務。"
+          },
+          {
+            "id": "b",
+            "en": "The postponed filing shows the workload exceeds their usual capacity.",
+            "zh": "押後的文件整理顯示工作量超出平常負荷。"
+          },
+          {
+            "id": "c",
+            "en": "They are keeping their heads above water rather than clearing everything.",
+            "zh": "他們只是勉強撐住，並未清完所有工作。"
+          },
+          {
+            "id": "d",
+            "en": "They are prioritising the essential morning checks while routine filing waits.",
+            "zh": "他們優先完成必要的早上檢查，例行文件整理則暫時押後。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據必要工作與積壓；金句精準表達勉力維持。"
+      },
+      "scene": {
+        "promptZh": "展覽團隊少了兩人，剩下員工每天完成安全巡查，卻一直押後非急切的展板更新。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are keeping their heads above water, but the delayed updates show strain.",
+            "zh": "他們勉強撐住，但押後更新顯示壓力。"
+          },
+          {
+            "id": "b",
+            "en": "They have no workload pressure because one task is finished.",
+            "zh": "因完成一項工作，他們完全沒有工作壓力。"
+          },
+          {
+            "id": "c",
+            "en": "Their situation is only about the physical depth of a swimming pool.",
+            "zh": "這情況只涉及游泳池的水深。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "勉力完成核心工作與持續押後其他工作同時存在。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合用 keep their heads above water？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has spare staff, finishes every task comfortably and has no backlog.",
+            "zh": "團隊人手充裕，輕鬆完成每項工作，也沒有積壓。"
+          },
+          {
+            "id": "b",
+            "en": "Volunteers cover urgent visits but postpone routine letters during a staff shortage.",
+            "zh": "義工在人手短缺時完成緊急探訪，卻押後例行信件。"
+          },
+          {
+            "id": "c",
+            "en": "Teachers mark required papers but delay optional projects during exam week.",
+            "zh": "教師在考試週批改必須的試卷，卻延後選修項目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有持續壓力或勉強應付的證據，不合用法。"
+      },
+      "dialogue": {
+        "promptEn": "A: Since the transport coordinator is away, only two of us are handling all the route changes. We have confirmed today’s buses but not next week’s notices. B: ______",
+        "promptZh": "（甲：交通統籌員不在，只有我們兩人處理全部路線變更。今天的巴士已確認，但下週通知還未完成。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You are keeping your heads above water for now, but you need cover for the notices.",
+            "zh": "你們目前只是勉強撐住，處理通知仍需額外人手。"
+          },
+          {
+            "id": "b",
+            "en": "Confirming today’s buses has protected the urgent service.",
+            "zh": "確認今天的巴士，已保障最緊急的服務。"
+          },
+          {
+            "id": "c",
+            "en": "Someone else could take the notices before they become overdue.",
+            "zh": "可請別人接手通知，以免過期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時承認已完成急事及仍有壓力。"
+      },
+      "speaking": {
+        "en": "With two nurses covering the extra evening calls, the clinic kept its head above water by answering urgent cases first, but managers arranged relief for the delayed follow-ups.",
+        "zh": "兩名護士分擔額外晚間來電，診所先處理緊急個案，勉強撐住；管理人員也為延後的跟進安排支援。",
+        "promptZh": "指出負荷、暫時應對方法及仍未解決的壓力。",
+        "targetSpan": {
+          "start": 61,
+          "end": 86
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人遇到工作量突增，能保住最重要的服務，卻要押後其他工作。用英文說出應付方法與仍需的支援。",
+        "selfCheckZh": "兩例須同時有沉重負荷、部分完成與尚待處理事項；不要轉成企業財政話題。",
+        "examples": [
+          {
+            "en": "After the rehearsal venue lost its technician, the stage crew kept their heads above water by fixing urgent lighting faults first, while a volunteer took the postponed sound checks.",
+            "zh": "排練場地失去技術員後，舞台團隊先修理緊急燈光故障，勉強撐住；一名義工接手押後的音響檢查。"
+          },
+          {
+            "en": "The archive team kept their heads above water during a sudden donation intake by cataloguing fragile items first and asking a partner centre to help with the remaining boxes.",
+            "zh": "檔案館突然收到大批捐贈時，團隊先編目易損物品，勉強應付；同時請合作中心協助處理餘下箱子。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "urgent lighting faults",
+            "zh": "緊急燈光故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 123
+            }
+          },
+          {
+            "en": "the postponed sound checks",
+            "zh": "押後的音響檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 154,
+              "end": 180
+            }
+          },
+          {
+            "en": "a sudden donation intake",
+            "zh": "突然收到大批捐贈",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 77
+            }
+          },
+          {
+            "en": "fragile items",
+            "zh": "易損物品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 106
+            }
+          },
+          {
+            "en": "the remaining boxes",
+            "zh": "餘下箱子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keeping your head above water means coping, often only just.",
+          "zh": "keeping your head above water 指勉強應付，通常仍有壓力。"
+        },
+        {
+          "en": "A team can keep their heads above water while asking for more help.",
+          "zh": "團隊即使勉強撐住，也可以要求更多支援。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3736",
+      "number": 3736,
+      "inventoryId": "expr-3736",
+      "titleEn": "ride the wave",
+      "titleZh": "順勢受惠",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:ride|rides|rode|riding) the wave\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Benefit from and move with a growing trend or momentum, while deliberately using the opportunity.",
+        "meaningZh": "有意識地善用逐漸增強的趨勢或勢頭，從中受惠。",
+        "grammar": "Ride the wave of + trend/change; ride changes tense. The wave is figurative momentum, not water. The subject participates rather than being merely swept along.",
+        "register": "Informal business or cultural English. A trainer may use it when describing a timely response to a growing interest.",
+        "boundaryZh": "要有持續增長的趨勢和主動應對；一時熱度或盲從本身不足。",
+        "misconceptionZh": "不是衝浪，也不等於不加判斷地被熱潮沖走；須看是否有具體做法。",
+        "outcomeZh": "能指出趨勢、主動做法及實際受惠方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1625",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some workers will ride the wave of new technology.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ride the wave"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Interest in repairing old clothes has grown. The sewing centre added weekend lessons and extra machines for its waiting list. It can ride the wave by meeting this real demand, not merely posting about the trend.",
+        "zh": "修補舊衣的興趣持續增加。縫紉中心因候補名單增設週末課和額外機器；它提供服務滿足真實需求，便可順勢受惠，而非只在網上談論潮流。",
+        "promptZh": "中心如何利用增長趨勢？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added lessons and equipment in response to a real waiting list.",
+            "zh": "它因實際候補名單而增設課堂與器材。"
+          },
+          {
+            "id": "b",
+            "en": "It closed all lessons despite growing demand.",
+            "zh": "需求增加時，它反而停辦所有課堂。"
+          },
+          {
+            "id": "c",
+            "en": "It merely copied a slogan without changing its service.",
+            "zh": "它只照抄口號，服務完全沒有改變。"
+          },
+          {
+            "id": "d",
+            "en": "It waited for interest to disappear before offering a class.",
+            "zh": "它等興趣消失才開班。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "趨勢有候補名單作證，中心亦主動擴充服務。"
+      },
+      "reply": {
+        "promptEn": "More residents have begun cycling to work, and the repair shop has added early-morning appointments and spare parts for commuters. Why might that help the shop?",
+        "promptZh": "（越來越多居民騎單車上班，維修店增設清晨預約時段，也準備通勤者需要的零件。這為何可能有助店舖？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives commuters a service when they need it.",
+            "zh": "它在通勤者有需要時提供服務。"
+          },
+          {
+            "id": "b",
+            "en": "The shop has prepared parts for a growing group of customers.",
+            "zh": "店舖為增長中的顧客群備好零件。"
+          },
+          {
+            "id": "c",
+            "en": "The shop can ride the wave of cycle commuting with a relevant service.",
+            "zh": "店舖可用切合需要的服務，順應單車通勤潮受惠。"
+          },
+          {
+            "id": "d",
+            "en": "Early appointments fit the commuters’ schedule.",
+            "zh": "清晨預約符合通勤者的時間表。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由趨勢及店舖的具體行動出發。"
+      },
+      "scene": {
+        "promptZh": "本地多人開始學手語，社區中心按持續增加的報名人數培訓新導師及開晚間班。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre can ride the wave of interest by expanding useful classes.",
+            "zh": "中心可擴充有用課程，順着興趣增長受惠。"
+          },
+          {
+            "id": "b",
+            "en": "The centre can only ride a real ocean wave to benefit.",
+            "zh": "中心只有真正衝浪才會受惠。"
+          },
+          {
+            "id": "c",
+            "en": "One social-media post alone proves the classes will always be full.",
+            "zh": "單憑一個社交媒體帖文，便可證明課程永遠爆滿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續報名增長與培訓、開班構成順勢的具體做法。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 ride the wave？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shop repeats a trending phrase on posters but offers nothing relevant to the growing demand.",
+            "zh": "店舖在海報重複流行用語，卻沒有提供切合增長需求的服務。"
+          },
+          {
+            "id": "b",
+            "en": "A workshop trains staff after enrolment in a craft rises over several months.",
+            "zh": "某工藝報名人數連月上升後，工作坊培訓職員。"
+          },
+          {
+            "id": "c",
+            "en": "A team expands a tested service as more residents request it.",
+            "zh": "更多居民提出需求時，團隊擴充經過測試的服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有口號，沒有利用真實趨勢的行動。"
+      },
+      "dialogue": {
+        "promptEn": "A: Requests for accessible walking tours have doubled over the year. We trained two guides and tested a new route. B: ______",
+        "promptZh": "（甲：一年來，無障礙步行導賞的需求增加一倍。我們培訓了兩名導賞員，也測試了新路線。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can ride the wave of demand because the route and guides are ready.",
+            "zh": "路線與導賞員已準備好，你們可順着需求增長受惠。"
+          },
+          {
+            "id": "b",
+            "en": "The tested route gives visitors another suitable option.",
+            "zh": "經測試的路線為訪客提供另一合適選擇。"
+          },
+          {
+            "id": "c",
+            "en": "It is sensible to match the extra guides to the rising requests.",
+            "zh": "增加導賞員配合上升的需求是合理的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句有趨勢證據與準備行動，而非單純跟風。"
+      },
+      "speaking": {
+        "en": "As demand for reusable stage materials grew, the theatre cooperative rode the wave by opening a checked lending catalogue and training staff to inspect each return.",
+        "zh": "重用舞台物料的需求增長時，劇場合作社開設經整理的借用目錄，並培訓職員檢查每次歸還，藉此順勢受惠。",
+        "promptZh": "指出增長中的需求，以及真正回應它的服務。",
+        "targetSpan": {
+          "start": 69,
+          "end": 82
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團隊看見可驗證的持續需求，採取有準備的行動。用英文寫出趨勢、回應與受惠，不可只寫跟風口號。",
+        "selfCheckZh": "兩例要有趨勢證據及具體能力；不要把盲目興奮當成順勢利用。",
+        "examples": [
+          {
+            "en": "When bookings for family cooking classes rose for three months, the centre rode the wave by adding trained instructors and a second accessible kitchen.",
+            "zh": "家庭烹飪班連續三個月預訂增加，中心便增聘受訓導師及開第二個無障礙廚房，順勢受惠。"
+          },
+          {
+            "en": "The market’s refill service rode the wave of interest in low-waste shopping by testing returnable containers and extending the counter hours after repeat visits increased.",
+            "zh": "低廢棄購物的興趣增加，市集補充裝服務測試可歸還容器；回訪增加後又延長櫃位時間，因而順勢受惠。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "trained instructors",
+            "zh": "受訓導師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 118
+            }
+          },
+          {
+            "en": "a second accessible kitchen",
+            "zh": "第二個無障礙廚房",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 150
+            }
+          },
+          {
+            "en": "returnable containers",
+            "zh": "可歸還容器",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 108
+            }
+          },
+          {
+            "en": "repeat visits",
+            "zh": "回訪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 160
+            }
+          },
+          {
+            "en": "the counter hours",
+            "zh": "櫃位時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Ride the wave needs a growing trend and a concrete response.",
+          "zh": "ride the wave 需要增長趨勢及具體回應。"
+        },
+        {
+          "en": "A service may ride the wave without assuming the trend will last forever.",
+          "zh": "服務可順勢受惠，卻不應假設趨勢永遠持續。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3738",
+      "number": 3738,
+      "inventoryId": "expr-3738",
+      "titleEn": "carried away by it",
+      "titleZh": "被它沖昏頭腦",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcarried away by it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become so excited by a proposal or trend that judgement and necessary scrutiny weaken. The pronoun it needs an explicit antecedent.",
+        "meaningZh": "對某提案或潮流過度興奮，以致判斷與必要審查減弱；it 須明確指向先前提及的事物。",
+        "grammar": "Usually be/get carried away by it; it refers to a named idea, promise or excitement in the preceding context. Passive participle carried away is figurative.",
+        "register": "Informal cautionary English. A committee member may use it with colleagues when enthusiasm outruns evidence.",
+        "boundaryZh": "有興趣不等於被沖昏頭腦；須有因此忽略成本、證據或風險的線索。",
+        "misconceptionZh": "不是被水流實際沖走，也不等於所有新構想都不值得試。",
+        "outcomeZh": "能指出熱情的對象及被忽略的必要查核。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1627",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 153,
+          "book": 14,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 162, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should not be carried away by it without scrutiny.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carried away by it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The festival team admired a new projection wall and nearly ordered it after one demonstration. No one had checked power or access. They should not be carried away by it before those checks.",
+        "zh": "節慶團隊欣賞新的投影牆，看過一次示範便差點訂購；但無人查核電力或通道。完成這些查核前，他們不應被它沖昏頭腦。",
+        "promptZh": "團隊險些忽略了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They nearly ordered the wall without checking power and access.",
+            "zh": "他們差點未查電力及通道便訂購投影牆。"
+          },
+          {
+            "id": "b",
+            "en": "They had already checked every safety detail before seeing the wall.",
+            "zh": "看牆之前，他們已查妥所有安全細節。"
+          },
+          {
+            "id": "c",
+            "en": "The wall had been installed for a full year.",
+            "zh": "投影牆已安裝整整一年。"
+          },
+          {
+            "id": "d",
+            "en": "The projection wall was literally washed away.",
+            "zh": "投影牆真的被水沖走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "興奮差點令團隊跳過必要的場地查核。"
+      },
+      "reply": {
+        "promptEn": "A council is excited by a new delivery robot, but its trial has not checked pedestrian safety or maintenance cost. Why should members slow down before ordering it?",
+        "promptZh": "（議會對新送貨機械人很興奮，但試行尚未查核行人安全或維修成本。為何議員應放慢訂購決定？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pedestrian safety still needs to be tested.",
+            "zh": "行人安全仍須測試。"
+          },
+          {
+            "id": "b",
+            "en": "The maintenance cost remains unknown.",
+            "zh": "維修成本仍未知道。"
+          },
+          {
+            "id": "c",
+            "en": "They should not be carried away by it before reviewing those gaps.",
+            "zh": "查清那些漏洞前，他們不應被它沖昏頭腦。"
+          },
+          {
+            "id": "d",
+            "en": "A further trial could supply the missing evidence.",
+            "zh": "進一步試行可提供缺少的證據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆由未查風險出發；金句用 it 指先前的機械人。"
+      },
+      "scene": {
+        "promptZh": "學校看過新電子校牌的一次示範便想立即購買，卻尚未查核戶外耐用程度及維修費。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team risks being carried away by it before the practical checks.",
+            "zh": "團隊未查核實際條件便下決定，可能被它沖昏頭腦。"
+          },
+          {
+            "id": "b",
+            "en": "The team has already completed a long durability trial.",
+            "zh": "團隊已完成長期耐用測試。"
+          },
+          {
+            "id": "c",
+            "en": "The sign should be rejected solely because it looks attractive.",
+            "zh": "校牌只因外觀吸引便應被否決。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題是熱情令必要查核被略過，並非外觀好就必須拒絕。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 carried away by it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team likes a prototype but tests its cost and safety before deciding.",
+            "zh": "團隊喜歡原型，但決定前仍查核成本和安全。"
+          },
+          {
+            "id": "b",
+            "en": "A group promises a launch date after one demo without checking whether the venue has power.",
+            "zh": "小組只看一次示範便承諾推出日期，未查場地電力。"
+          },
+          {
+            "id": "c",
+            "en": "Members approve a costly plan before reading the trial results because the presentation impressed them.",
+            "zh": "成員因簡報精彩而未看測試結果便批准昂貴方案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "欣賞提案且仍作完整審查，不等於失去判斷。"
+      },
+      "dialogue": {
+        "promptEn": "A: The app demo was exciting, but we have not tested it with older residents or checked the ongoing fee. B: ______",
+        "promptZh": "（甲：程式示範很吸引，但我們還未找年長居民試用，也未查核持續收費。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us not be carried away by it until we run those checks.",
+            "zh": "完成那些查核前，別被它沖昏頭腦。"
+          },
+          {
+            "id": "b",
+            "en": "A user trial would tell us whether the app is usable.",
+            "zh": "使用者測試可讓我們知道程式是否易用。"
+          },
+          {
+            "id": "c",
+            "en": "The ongoing fee belongs in the decision too.",
+            "zh": "持續收費也應納入決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句在承認吸引力之餘，要求查核使用性與成本。"
+      },
+      "speaking": {
+        "en": "Although the new sorting machine impressed us, being carried away by it would mean ordering before operators test errors and delicate materials.",
+        "zh": "新分類機雖令我們印象深刻，但被它沖昏頭腦，便可能在操作員測試錯誤率及易損物料前貿然訂購。",
+        "promptZh": "指出 it 的對象、吸引之處與仍需檢查的問題。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項新構想令人興奮，但各有尚未查核的具體風險。用英文寫出提案、熱情及應補做的驗證。",
+        "selfCheckZh": "兩例須讓 it 的指代清楚；不可只因新構想吸引便斷言有問題。",
+        "examples": [
+          {
+            "en": "The volunteer team loved the new scheduling app, but it would be easy to be carried away by it before testing whether members without smartphones can still receive shifts.",
+            "zh": "義工團隊很喜歡新排班程式，但若未測試沒有智能手機的成員能否收到輪班通知，便可能被它沖昏頭腦。"
+          },
+          {
+            "en": "The market committee admired the plan for glowing stall signs, yet members refused to be carried away by it until they measured electricity use and checked whether the light disturbed nearby flats.",
+            "zh": "市集委員會欣賞發光攤位招牌的計劃，但成員在量度耗電量及查核燈光會否滋擾附近住宅前，拒絕被它沖昏頭腦。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "scheduling app",
+            "zh": "排班程式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 47
+            }
+          },
+          {
+            "en": "members without smartphones",
+            "zh": "沒有智能手機的成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 145
+            }
+          },
+          {
+            "en": "glowing stall signs",
+            "zh": "發光攤位招牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 61
+            }
+          },
+          {
+            "en": "electricity use",
+            "zh": "耗電量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 143
+            }
+          },
+          {
+            "en": "nearby flats",
+            "zh": "附近住宅",
+            "exampleIndex": 1,
+            "span": {
+              "start": 184,
+              "end": 196
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Carried away by it needs a clear idea or proposal for it to refer to.",
+          "zh": "carried away by it 的 it 須明確指向一項構想或提案。"
+        },
+        {
+          "en": "Enjoying a proposal is fine; being carried away by it can make us skip checks.",
+          "zh": "欣賞提案沒有問題；被它沖昏頭腦則可能令我們略過查核。"
+        }
+      ]
+    }
+  ]
+}

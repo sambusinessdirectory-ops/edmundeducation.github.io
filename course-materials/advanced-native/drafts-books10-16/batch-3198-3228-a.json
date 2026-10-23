@@ -332,7 +332,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 2,
       "listening": {
         "promptZh": "講者閱讀 Leo 的申請信後怎樣給意見？",
         "options": [
@@ -529,8 +529,8 @@
       },
       "takeaways": [
         {
-          "en": "A good friend may tell you what you need to hear, not just what you want to hear.",
-          "zh": "好朋友可能告訴你需要聽的真話，而不只說你愛聽的話。"
+          "en": "Before you commit to a weak plan, invite someone you trust to tell you what you need to hear.",
+          "zh": "在落實有漏洞的計劃前，請你信任的人告訴你需要聽的真話。"
         },
         {
           "en": "She told him what he needed to hear and offered a practical next step.",

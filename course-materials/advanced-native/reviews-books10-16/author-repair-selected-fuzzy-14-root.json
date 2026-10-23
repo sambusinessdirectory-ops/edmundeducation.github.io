@@ -1,0 +1,130 @@
+{
+  "reviewType": "author-repair-selected-guide-fuzzy-14",
+  "inputTriageSha256": "33ca27d639b58c7245729be33dcb9301e2f7a116f5c92503720712fb79d1ed34",
+  "repairedFields": [
+    {
+      "lesson": 2414,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-0303",
+      "priorFinding": "Film + explores duplicates the source fiction-media carrier; retain target but use a new subject/predicate showing the moral failure."
+    },
+    {
+      "lesson": 2414,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0303",
+      "priorFinding": "Story + explores repeats the source fiction-media frame; use a concrete action as subject while retaining the target."
+    },
+    {
+      "lesson": 2414,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0303",
+      "priorFinding": "Play + explores repeats the source fiction-media frame in a model sentence; make the corrupt leader or act the subject."
+    },
+    {
+      "lesson": 2711,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0600",
+      "priorFinding": "Cheaper ticket with an edge on price reproduces the cheaper-plan/value comparison; make the slight advantage a different criterion."
+    },
+    {
+      "lesson": 2853,
+      "field": "listening.en",
+      "sourceId": "book10-16-0742",
+      "priorFinding": "Imperative do not read a claim with brain switched off closely follows source do not read serious claims; recast around a specific bad inference."
+    },
+    {
+      "lesson": 3006,
+      "field": "takeaways[1].en",
+      "sourceId": "book10-16-0895",
+      "priorFinding": "The final test matters because a lot more is riding on it repeats the source choice-matters-because frame; put the concrete consequence first."
+    },
+    {
+      "lesson": 3046,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0935",
+      "priorFinding": "Reliable new evidence can push boundaries closely paraphrases source new methods can push boundaries; use a named finding or research act."
+    },
+    {
+      "lesson": 3092,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0981",
+      "priorFinding": "One firsthand experience can turn an old opinion on its head almost exactly restates source new experience can turn an old opinion on its head; specify a different concrete case."
+    },
+    {
+      "lesson": 3113,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-1002",
+      "priorFinding": "That question has opened a can of worms keeps the source that question could open frame; identify the refund issue directly instead."
+    },
+    {
+      "lesson": 3162,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1051",
+      "priorFinding": "Her patience is being tested by repeated timetable changes is only a pronoun and schedule variant of source repeated delays; use another stressor."
+    },
+    {
+      "lesson": 3176,
+      "field": "listening.en",
+      "sourceId": "book10-16-1065",
+      "priorFinding": "Hot-headed in close games repeats the source sports setting and close-games modifier, despite new referee detail; transfer to another pressured context."
+    },
+    {
+      "lesson": 3176,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1065",
+      "priorFinding": "Hot-headed in close games exactly retains the source setting; make the advice about a distinct context rather than close games."
+    },
+    {
+      "lesson": 3280,
+      "field": "listening.en",
+      "sourceId": "book10-16-1169",
+      "priorFinding": "Guide hiding behind excuses instead of apologising remains the source accountability situation, with a wrong-date subplot added; shift to a different concrete failure."
+    },
+    {
+      "lesson": 3329,
+      "field": "listening.en",
+      "sourceId": "book10-16-1218",
+      "priorFinding": "Parents already have a lot on their plate repeats the source actor and carrier almost verbatim; use different people with new responsibilities."
+    }
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "sha256": "d835380932b20eabff2c61a61c65f45e4d86ef46b4eef63b14def15d7629ee0e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2684-2705-2711-a.json",
+      "sha256": "91078e3851d121848be4307b5d3e81f4020b8e40d5fc8f635baf3e2680aec584"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "f245c757302ee73ecb3288c5365ea23eda920404a425034f85deafcc8d40dc8a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+      "sha256": "dca044b28cf5e6063bec23f0896e6e746df0d24e50a9da7712bf1063b120b5e6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3072-3102-a.json",
+      "sha256": "e7c082ae1df7aadbb440b07cda524390fb73d4a83852ec139637ae4a9f9e404a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json",
+      "sha256": "884ce8c62cd2ff26c8f963e6fb67ce5954be805aed5e605f867101feb21097df"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+      "sha256": "7c14ab49fa8d336b24c8a5bf092084a15f5ee09e7627b217d9c0d43190c05ea4"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json",
+      "sha256": "d83f8ada3fccb42fc5de16c8fe02a3ebda54c26ecb78df5d0ef7670ae9e0573c"
+    }
+  ],
+  "checks": {
+    "combinedVerifier": "passed-326-lessons-pending-current-run",
+    "humanEditorialApproval": false,
+    "mediaApproval": false,
+    "releaseApproval": false
+  }
+}

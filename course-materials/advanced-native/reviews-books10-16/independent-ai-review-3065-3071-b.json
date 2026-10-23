@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review-with-manifest-and-full-source-screen",
+  "scope": "Three unselected Pilot Books 10–16 lessons: 3065, 3068, 3071",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3065-3071-review-pilot.json", "sha256": "33bccc7064c4a236493e2c286e1d81003dc94292bcbeba043c2805ba19514590"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3065-3071-review-pilot.json", "sha256": "0e573699023d5dcac0ab108fc59595bc9834acd4db702d0b171a1704c04d43e1"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "mechanicalChecks": {
+    "selectedOrdinalScreen": "None of 3065, 3068 or 3071 occurs in the current 281-lesson selected manifest; the Pilot batch file is unselected.",
+    "sourceTargetGlossary": "All three source IDs/guide examples/expressions match inventory. Audio, speaking and keyed reply/scene/dialogue contain their target regex; speaking and all 18 answer-derived glossary spans are exact non-target substrings.",
+    "guideCopyScreen": "All 72 learner-facing English strings compared with all 2,604 guide examples (187,488 pairs), with zero exact or near-copy hits under the established six-token/60-percent or nine-token rule.",
+    "build": "Focused build and --check pass: three lessons, 18 questions, 12 audio requests, zero review flags."
+  },
+  "perLesson": [
+    {
+      "sourceOrdinal": 3065,
+      "lessonId": "advanced-native-3065",
+      "status": "requires-repair",
+      "findings": [
+        {"id": "R3065-01", "severity": "major", "path": "writing.promptZh, writing.examples[0], writing.examples[1]", "text": "The outcome and self-check require two interpretations supported by earlier clues, yet the writing prompt gives only an unopened letter and smile, and both models merely name 'good news or reconciliation' without identifying a clue supporting either reading. Add concrete earlier-film clues to the prompt and include an evidence link for each plausible reading in both English/Traditional Chinese models; keep the letter's actual contents unrevealed and recalculate shifted glossary spans."}
+      ],
+      "evidence": "Listening and reply correctly distinguish evidence-based ambiguity from a licence to guess; the writing task currently does not let learners demonstrate that distinction."
+    },
+    {
+      "sourceOrdinal": 3068,
+      "lessonId": "advanced-native-3068",
+      "status": "requires-repair",
+      "findings": [
+        {"id": "R3068-01", "severity": "minor", "path": "writing.examples[0]", "text": "The new-context prompt says the map team considered slopes, lifts and actual journey time. Model 1 names slopes and lifts but omits journey time. Add that practical timing issue in English and aligned Chinese so both complete models satisfy the stated scenario; recalculate any shifted glossary span."}
+      ],
+      "evidence": "The target denotes changed thinking, not workload or completed mastery; the assessment key and model 2 preserve that distinction."
+    },
+    {
+      "sourceOrdinal": 3071,
+      "lessonId": "advanced-native-3071",
+      "status": "requires-repair",
+      "findings": [
+        {"id": "R3071-01", "severity": "minor", "path": "writing.examples[1]", "text": "The prescribed actor is a first-time visiting parent who notices that the arrow to the children's area is confusing; model 2 changes that actor to an unspecified 'new visitor' and never says what was confusing. Preserve the parent's first visit and the confusing arrow in English/Traditional Chinese, while retaining the still-untested suggestion; recalculate glossary spans if shifted."}
+      ],
+      "evidence": "Other steps correctly contrast fresh perspective with proof of accuracy and keep expert testing in view."
+    }
+  ],
+  "findingCount": {"major": 1, "minor": 2},
+  "humanApproval": false,
+  "releaseApproval": false
+}

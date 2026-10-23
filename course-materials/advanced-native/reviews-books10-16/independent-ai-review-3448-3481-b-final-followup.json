@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-exact-hash-four-valid-reply-followup",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3448-3481-a.json",
+  "draftSha256": "93d36d4d0c909817a21f3cddf00a57b74f35020a1b84aba972e0a5a01d5fbf0b",
+  "authorAuditSha256": "43102d3042ebd8301e1c94a15c9208d17311ccd6c9edf6f2f63f5818b6756b0f",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3448-3481-b-followup.json",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "status": "two-reply-repairs-before-selection",
+  "cleared": [
+    {"id": "R3469-03", "evidence": "The bilingual dialogue prompt now explicitly states repeated watching and interruptions; the keyed intrusive-pressure reply is grounded."},
+    {"id": "R3449-02-grounding", "evidence": "Reply B no longer makes an unsupported 'easiest' comparison."},
+    {"id": "R3455-02-grounding", "evidence": "Reply D no longer invents experiments; it refers to display boards."}
+  ],
+  "findings": [
+    {"id": "R3449-03", "severity": "major", "path": "lessons[number=3449].reply.options[id=b]", "issue": "The prompt asks why Mara puts shoes by the door without planning. Knowing where to find the shoes each morning is a true consequence of fixed placement, but it does not explain the automatic habit, so this is not an independently valid reply to the question.", "requiredRepair": "Make B causally answer the prompt from supplied facts, such as 'Putting them by the door each morning reinforces the routine', with faithful Chinese."},
+    {"id": "R3455-03", "severity": "major", "path": "lessons[number=3455].reply.options[id=d]", "issue": "The prompt asks why the organisers are changing venue. 'They can check whether the replacement room can hold the display boards' describes a possible next action, not the reason for changing venue; it fails the four-valid-reply contract.", "requiredRepair": "Make D answer the cause, such as 'They need a different room to show the display boards', in English and Chinese without claiming an unconfirmed replacement is suitable."}
+  ],
+  "limits": "No selection, human or release approval."
+}

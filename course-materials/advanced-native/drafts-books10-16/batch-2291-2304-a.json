@@ -443,8 +443,8 @@
         "selfCheckZh": "明確說明只是今天的興致，提出輕鬆短片或其他安靜安排，並保留下次一起去的可能。",
         "examples": [
           {
-            "en": "I am not in the mood for a noisy arcade today. Could we watch a short film at home and visit the arcade next time?",
-            "zh": "今天我沒興致去嘈吵的遊戲中心。我們可在家看一齣短片，下次再去嗎？"
+            "en": "A trip to a noisy arcade today sounds tiring after the match; I am not in the mood for that. Could we watch a short film at home and visit the arcade next time?",
+            "zh": "剛完成比賽，今天去嘈吵的遊戲中心令我覺得疲累，我沒有這個興致。我們可在家看一齣短片，下次再去嗎？"
           },
           {
             "en": "After the long match, I am in the mood for a short, quiet film this afternoon, but I would happily join you at the arcade another day.",
@@ -457,8 +457,8 @@
             "zh": "今天嘈吵的遊戲中心",
             "exampleIndex": 0,
             "span": {
-              "start": 25,
-              "end": 45
+              "start": 10,
+              "end": 30
             }
           },
           {
@@ -466,8 +466,8 @@
             "zh": "在家看一齣短片",
             "exampleIndex": 0,
             "span": {
-              "start": 62,
-              "end": 82
+              "start": 108,
+              "end": 128
             }
           },
           {
@@ -475,8 +475,8 @@
             "zh": "下次",
             "exampleIndex": 0,
             "span": {
-              "start": 104,
-              "end": 113
+              "start": 150,
+              "end": 159
             }
           },
           {
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2295",
@@ -887,8 +887,8 @@
           },
           {
             "id": "c",
-            "en": "People drift in and out of the group through the year.",
-            "zh": "一年裏，人們會不固定地加入或離開小組。"
+            "en": "Because families drift in and out of the Saturday sessions, each craft project can stand alone.",
+            "zh": "家庭在星期六活動的出席情況不固定，因此每個手作項目都能獨立參與。"
           },
           {
             "id": "d",
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     }
   ]
 }

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T14:05:40.372709+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3332-3380-a.json",
+  "draftSha256": "b2b42c867046131a19e083e4cecc8e4c4c7da1740238e6b6790aef34f3f84a8b",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "d22c58e94c29904eb808b74c0bdb45378b2259a9f971cd257ff6cb9b0df61765",
+  "focusedBuild": "PASS after full-inventory near-copy repair: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS after full-inventory near-copy repair",
+  "sourceSentenceCopyScreen": "PASS: 0 near-source overlaps across 2,604 guide examples and 200 learner-facing English strings after normalised six-plus-word screening; 0 exact full-sentence copies outside provenance.",
+  "canonicalScreen": "All eight source rows are proposed-new. No exact canonical title/phrase match was found for these eight in the previous canonical batches. 3334 down to last detail is exhaustive detail; 3338 mapped out in advance is a prior route/sequence; 3336 play things by ear leaves open choices to later; 3339 take opportunities as they come responds to newly arising offers. Independent owner/sense review remains pending.",
+  "authorSemanticPass": "Provisionally checked listening audio against all option claims, four-valid replies, target-bearing keyed choices, both writing models against each prompt/self-check, traditional Chinese parity, exact answer-derived glossary, source-copy screen and four audio texts. No human review claimed.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3332,
+      "sourceExpression": "calm their nerves",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3334,
+      "sourceExpression": "down to the last detail",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3336,
+      "sourceExpression": "play things by ear",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3338,
+      "sourceExpression": "mapped out in advance",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3339,
+      "sourceExpression": "take opportunities as they come",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 4,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3359,
+      "sourceExpression": "look into",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3377,
+      "sourceExpression": "feel hollow",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3380,
+      "sourceExpression": "heavily tilted towards",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ],
+  "originalityRepairs": "Reframed 3336 listening, 3338 listening/reply/scene/speaking/writing, 3359 listening and 3380 reply so no guide sentence or near-copy remains; EN/ZH and spans aligned.",
+  "independentReviewRepairs": [
+    "R3377-01: both writing models now explicitly state initial excitement before later hollow feeling; EN/ZH and glossary spans aligned."
+  ]
+}

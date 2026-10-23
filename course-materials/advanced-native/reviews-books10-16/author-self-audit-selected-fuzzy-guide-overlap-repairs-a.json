@@ -1,0 +1,68 @@
+{
+  "auditKind": "author-self-audit-selected-fuzzy-guide-overlap-repairs",
+  "createdUtc": "2026-10-23T14:22:39.777028+00:00",
+  "lessons": [
+    2167,
+    2252,
+    2304,
+    2351,
+    2521,
+    2575,
+    2672
+  ],
+  "files": {
+    "batch-2151-2167-b2.json": {
+      "sha256": "b9cd7470c1e304a383711573eb37548eabe811e44eecb8dd278250736f848548",
+      "changedLessons": [
+        2167
+      ]
+    },
+    "batch-2251-2269-a.json": {
+      "sha256": "0b6761eef9046166e8bd42af5dcd565674bc4fe70658c657cf7f7f272eaaac72",
+      "changedLessons": [
+        2252
+      ]
+    },
+    "batch-2291-2304-a.json": {
+      "sha256": "ea5526e960ae675c3f62612d2f1de0fa83da846704b1a3864bdc673819d2f046",
+      "changedLessons": [
+        2304
+      ]
+    },
+    "batch-2351-2360-a.json": {
+      "sha256": "095050af16af07ccbff8d453b197761f8387c727993f5a9dbb0c71718a6624f0",
+      "changedLessons": [
+        2351
+      ]
+    },
+    "batch-2511-2521-a.json": {
+      "sha256": "0a463bc3d81e6bb3ec656ad5d471140cb70f64200df2cc3b41959372df71f5a0",
+      "changedLessons": [
+        2521
+      ]
+    },
+    "batch-2564-2591-a.json": {
+      "sha256": "325ddab8f432645ff13c0903e365ca0a21bbc49023e709f3454b2013eba7785c",
+      "changedLessons": [
+        2575
+      ]
+    },
+    "batch-2644-2672-a.json": {
+      "sha256": "ea724ed08b112ddc137a89e83d31f00191400a9e76d0c9732cb102b5a7296adf",
+      "changedLessons": [
+        2672
+      ]
+    }
+  },
+  "checks": {
+    "focusedBuildAndCheck": "PASS all seven batches; 31 lessons, 186 questions, 124 audio requests; zero flags",
+    "selectedGuideOriginality": "PASS for seven target lessons: 0 exact/high/medium contiguous hits; 0 fuzzy near-full/review-near-full hits over all 2,604 source examples. Distinct 2167 and 2672 scenarios manually checked against their sources.",
+    "wholeCatalogueVerifier": "PASS: 281 selected drafts, 1,686 questions, 1,124 audio requests, 0 schema/exact-guide-copy/near-duplicate flags",
+    "englishTraditionalChineseParity": "Author-reviewed all changed fields",
+    "glossaryAndSpeakingSpans": "2351 writing glossary offsets recalculated and focused schema check passed; other glossary/speaking texts unchanged"
+  },
+  "independentFollowup": "Initial independent review passed five lessons but found semantic source-context overlap in 2167 and 2672. Repaired 2167 to a school-projector cable-map guidance scenario and 2672 to access provided by a newly installed ramp. English/Traditional Chinese aligned, revisions bumped, 2672 changed again to avoid a fixed-phrase fuzzy match. Exact-hash follow-up pending.",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "updatedUtc": "2026-10-23T14:36:46.515960+00:00"
+}

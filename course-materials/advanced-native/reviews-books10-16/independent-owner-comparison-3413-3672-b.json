@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-source-sense-owner-comparison",
+  "sourceOrdinal": 3672,
+  "sourceId": "book10-16-1561",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFile": {"path": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl", "sha256": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5"},
+  "ownerDraft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3412-3435-a.json", "sha256": "b18a9055d379d02094da99770d68f90cb9eaf2e6506d97699e89a3fbb5397609"},
+  "authorComparisonSha256": "22d1ec0db182252b76a5ad78f513908bc3a29eeed2c1e9702a3335296df90124",
+  "sourceExample": "If they feel judged, emotionally, they start shutting the door.",
+  "ownerExample": "New rules should not shut the door on collaboration.",
+  "finding": "Source 3672 uses bare 'shutting the door' for emotional withdrawal by children who feel judged; 3413 teaches the object-bearing construction 'shut the door on + opportunity/cooperation' with blocked external avenues. The owner target regex correctly requires 'on', so it does not detect 3672's full source sentence. Expanding the regex to any bare 'shut the door' would also admit ordinary literal door-closing and would not supply the missing emotional sense. The source's 'emotionally, they start shutting the door' is awkward enough that its natural teachable unit should be reconsidered before a new owner is created.",
+  "recommendedAction": "hold-editorial",
+  "recommendedCanonicalId": null,
+  "recommendedReason": "Bare emotional shutting the door here means withdrawing thoughts or feelings after perceived judgement. It differs in grammar and learner decision from 3413's shut the door on a named opportunity or cooperation; the source wording itself needs native re-lemma review before inclusion.",
+  "impact": "Do not select the 3412–3435 batch while the provisional alias-new row 3672 still points to 3413. The 3413 lesson body itself is content-clear at its reviewed hash; change the source decision rather than broadening its detector.",
+  "decisionEditMade": false,
+  "draftEditMade": false,
+  "humanApproval": false
+}

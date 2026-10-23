@@ -1,0 +1,48 @@
+{
+  "reviewType": "AI author self-audit; independent English/Chinese, human owner, media and release approval pending",
+  "createdUtc": "2026-10-23T14:43:22.356407+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3698-3700-review-pilot.json",
+  "draftSha256": "efe901e90c4ed5e7cf5b449bf31f46dc08e8c02f1ee712b9bd5aab76bb6481b2",
+  "ordinals": [
+    3698,
+    3700
+  ],
+  "selectedManifestSha256": "8c42e14d7e3a28083fe7a39b713c2800008f11f4218c5c4ff27494865928d11e",
+  "selectedCollisions": 0,
+  "fullGuideOriginalityScreen": {
+    "sourceRows": 2604,
+    "contiguousThresholdWords": 6,
+    "fuzzySimilarityThreshold": 0.72,
+    "examined": "listening, reply prompt, speaking, two writing models",
+    "nonTargetHits": 0
+  },
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "authorChecks": {
+    "sourceExamplePattern": "pass",
+    "sixAssessedQuestionsAndFourValidReplies": "author-reviewed",
+    "englishTraditionalChineseFidelity": "author-reviewed",
+    "twoChangedContextWritingModels": "author-reviewed",
+    "answerDerivedGlossarySpans": "pass",
+    "scenarioDiversity": "author-reviewed",
+    "priorOwnerCollision": "screened; human sense approval pending"
+  },
+  "openGates": [
+    "Independent exact-hash English and Traditional Chinese review",
+    "Human source-owner/idiomaticity approval",
+    "Media listening and device QA",
+    "Parent-controlled selection and release"
+  ],
+  "independentInitialReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3698-3700-b.json",
+  "repair": {
+    "3700": "Model 1 now says staff have not yet found a way to prevent duplicate bookings, matching prompt and Traditional Chinese.",
+    "contentRevision": 2,
+    "independentExactHashFollowup": "pending"
+  }
+}

@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3486-3512-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3486",
+      "number": 3486,
+      "inventoryId": "expr-3486",
+      "titleEn": "have a seat at the table",
+      "titleZh": "獲納入討論與決策",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:has|have|had|having)\\s+a\\s+seat\\s+at\\s+the\\s+table\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be included and taken seriously in a discussion or decision.",
+        "meaningZh": "在討論或決策中獲納入，而且意見受到認真看待。",
+        "grammar": "Have/has/had a seat at the table; the table is figurative and inclusion should involve a real chance to contribute.",
+        "register": "Education-policy meeting: a librarian argues that specialist reading should be considered alongside popular formats when setting the collection budget.",
+        "boundaryZh": "獲邀到場但不能發言，不一定算真正被納入；也不保證意見一定被採納。",
+        "misconceptionZh": "不是要有實體座椅，也不等於參與者有最終否決權。",
+        "outcomeZh": "能區分象徵邀請與實質參與，指出誰可以發言。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1375",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 128,
+          "book": 13,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "34–37",
+          "locatorNote": "DOCX table 135, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Specialist reading still has a seat at the table.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "has a seat at the table"
+        }
+      ],
+      "listening": {
+        "en": "The transport committee asked wheelchair users to review a proposed bus route and suggest changes before it was approved. They now have a seat at the table.",
+        "zh": "交通委員會在新巴士路線獲批前，請輪椅使用者審閱方案並建議修改。他們現獲納入決策討論。",
+        "promptZh": "have a seat at the table 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Wheelchair users can contribute seriously to the route decision.",
+            "zh": "輪椅使用者可實際參與路線決策討論。"
+          },
+          {
+            "id": "b",
+            "en": "They received only a physical chair.",
+            "zh": "他們只得到一張實際椅子。"
+          },
+          {
+            "id": "c",
+            "en": "They automatically control every transport decision.",
+            "zh": "他們自動掌控所有交通決定。"
+          },
+          {
+            "id": "d",
+            "en": "They are barred from suggesting changes.",
+            "zh": "他們被禁止提出修改建議。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可在批准前審閱和建議修改，屬實質參與，但不是獨自決定。"
+      },
+      "reply": {
+        "promptEn": "Why did the youth group accept the revised park committee? Young users may now speak during planning and respond to proposals before the rules are finalised.",
+        "promptZh": "（青年組織為何接受修訂後的公園委員會？年輕使用者現可在規劃時發言，並於規則定案前回應提案。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Young users have a real part in planning.",
+            "zh": "年輕使用者可實際參與規劃。"
+          },
+          {
+            "id": "b",
+            "en": "Their views can be heard before the decision.",
+            "zh": "他們的意見可在決定前被聽取。"
+          },
+          {
+            "id": "c",
+            "en": "Young users now have a seat at the table.",
+            "zh": "年輕使用者現獲納入決策討論。"
+          },
+          {
+            "id": "d",
+            "en": "The committee includes their contributions at the right stage.",
+            "zh": "委員會在適當階段納入他們的意見。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均強調定案前的實質發言；金句用 seat at the table。"
+      },
+      "scene": {
+        "promptZh": "校園膳食小組請有食物敏感的學生在選餐前試閱菜單並提出修訂。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those pupils have a seat at the table in menu planning.",
+            "zh": "這些學生獲納入餐單規劃討論。"
+          },
+          {
+            "id": "b",
+            "en": "They automatically own the school kitchen.",
+            "zh": "他們自動擁有學校廚房。"
+          },
+          {
+            "id": "c",
+            "en": "They are only given a dining chair.",
+            "zh": "他們只獲分配餐椅。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可在定案前提出修訂，屬實質參與。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 have a seat at the table？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Residents comment on plans before approval and receive responses.",
+            "zh": "居民在批准前就方案提意見，並得到回應。"
+          },
+          {
+            "id": "b",
+            "en": "Parents are photographed at a launch but forbidden to speak or see the draft.",
+            "zh": "家長在發布會拍照，卻不准發言或看草案。"
+          },
+          {
+            "id": "c",
+            "en": "Nurses review ward rules while revisions are still possible.",
+            "zh": "護士在規則仍可修訂時審閱病房安排。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有象徵到場，沒有實質討論機會。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有 seat at the table 就代表必定能否決決定。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Having a seat at the table means meaningful inclusion, not automatic veto power.",
+            "zh": "獲納入討論表示有實質參與，並非自動有否決權。"
+          },
+          {
+            "id": "b",
+            "en": "Anyone invited to discuss has sole authority.",
+            "zh": "任何獲邀討論的人都有獨家決定權。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase is only about furniture.",
+            "zh": "片語只講家具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能被聽見與擁有最終否決權是兩回事。"
+      },
+      "speaking": {
+        "en": "Parents had a seat at the table when the school asked them to review the draft timetable before voting.",
+        "zh": "學校表決前請家長審閱時間表草案，家長便獲納入決策討論。",
+        "promptZh": "先聽示範，再指出家長何時可以提出意見。",
+        "targetSpan": {
+          "start": 8,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：醫院計劃更改探病時間，以往只在定案後通知病人；今次病人代表可在草案階段發言並建議改動，但沒有最終否決權。用一至兩句英文說明參與如何改變。",
+        "selfCheckZh": "寫出從事後通知變成草案階段發言、可建議改動、沒有否決權。",
+        "examples": [
+          {
+            "en": "Patient representatives now have a seat at the table: they can comment on draft visiting hours and suggest changes before approval, though they cannot veto the final decision.",
+            "zh": "病人代表現獲納入討論：他們可在批准前對探病時間草案提意見和建議改動，但不能否決最終決定。"
+          },
+          {
+            "en": "Instead of hearing the visiting-hours decision afterward, patients have a seat at the table while the draft can still change; final approval remains with the hospital.",
+            "zh": "病人不再只是事後聽取探病時間的決定，而是在草案仍可修改時獲納入討論；最後批准權仍在醫院。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Patient representatives",
+            "zh": "病人代表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "draft visiting hours",
+            "zh": "探病時間草案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 94
+            }
+          },
+          {
+            "en": "suggest changes",
+            "zh": "建議改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 114
+            }
+          },
+          {
+            "en": "veto",
+            "zh": "否決",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 155
+            }
+          },
+          {
+            "en": "afterward",
+            "zh": "事後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 56
+            }
+          },
+          {
+            "en": "final approval",
+            "zh": "最後批准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Have a seat at the table means genuine inclusion in a discussion.",
+          "zh": "獲納入討論，指有實質參與機會。"
+        },
+        {
+          "en": "Having a seat at the table does not guarantee veto power.",
+          "zh": "獲納入討論不保證擁有否決權。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3495",
+      "number": 3495,
+      "inventoryId": "expr-3495",
+      "titleEn": "catch your eye",
+      "titleZh": "吸引目光",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching)\\s+(?:your|my|his|her|their|our|[A-Za-z]+(?:-[A-Za-z]+)?[’\\']s)\\s+eye\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attract visual attention quickly among other things.",
+        "meaningZh": "在其他事物之中迅速吸引人的視線。",
+        "grammar": "Catch/catches/caught someone’s eye; eye is singular in the idiom. The attraction does not itself prove quality.",
+        "register": "Everyday browsing: a classmate explains why she noticed a vivid book cover on a crowded shelf.",
+        "boundaryZh": "吸引目光不等於內容值得讀，也不表示一定購買。",
+        "misconceptionZh": "不是眼睛被物件實際抓住；要分清注意到與深入評價。",
+        "outcomeZh": "能說出哪個視覺特徵吸引注意，並保留品質判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1384",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 129,
+          "book": 13,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "38–40",
+          "locatorNote": "DOCX table 136, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The bright cover catches your eye.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catches your eye"
+        }
+      ],
+      "listening": {
+        "en": "Across a crowded station, a bright blue platform sign caught Nia’s eye. She followed it only after checking that its arrow pointed to the platform she needed.",
+        "zh": "擠迫車站裏，一塊鮮藍色月台指示牌吸引了妮雅的目光。她核對箭嘴確實指向所需月台後才跟着走。",
+        "promptZh": "caught Nia’s eye 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The platform sign drew her attention visually.",
+            "zh": "月台指示牌在視覺上吸引了她的注意。"
+          },
+          {
+            "id": "b",
+            "en": "The sign was proven to lead to her platform without checking.",
+            "zh": "指示牌毋須核對就肯定通往她的月台。"
+          },
+          {
+            "id": "c",
+            "en": "The sign physically grabbed her eye.",
+            "zh": "指示牌實際抓住她的眼睛。"
+          },
+          {
+            "id": "d",
+            "en": "She had already followed it before noticing it.",
+            "zh": "她留意到指示牌前已跟着它走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "鮮藍色令她先注意到月台指示牌，箭嘴方向仍須核對。"
+      },
+      "reply": {
+        "promptEn": "Why did Kai stop at one poster in the corridor? Its large orange arrow stood out among many small grey notices; he still needs to read the details.",
+        "promptZh": "（啟為何在走廊的一張海報前停下？大橙色箭嘴在許多細小灰色告示中很顯眼；他仍須細讀內容。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The arrow drew his gaze first.",
+            "zh": "箭嘴首先吸引他的視線。"
+          },
+          {
+            "id": "b",
+            "en": "The poster stood out visually.",
+            "zh": "海報在視覺上較顯眼。"
+          },
+          {
+            "id": "c",
+            "en": "The orange arrow caught his eye.",
+            "zh": "橙色箭嘴吸引了他的目光。"
+          },
+          {
+            "id": "d",
+            "en": "Its design made him notice it before reading.",
+            "zh": "設計令他未閱讀先留意。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均只說明視覺注意，金句用 caught his eye。"
+      },
+      "scene": {
+        "promptZh": "學生在一排同色盒中看到一個有鮮紅標籤的盒子，先拿起查看。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The red label caught her eye.",
+            "zh": "紅色標籤吸引了她的目光。"
+          },
+          {
+            "id": "b",
+            "en": "The box must contain the best product.",
+            "zh": "盒裏一定是最佳產品。"
+          },
+          {
+            "id": "c",
+            "en": "The label physically held her eye.",
+            "zh": "標籤實際抓住她的眼睛。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紅色標籤令她先注意，品質未明。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 catch your eye？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bright mural stands out on a grey wall.",
+            "zh": "鮮豔壁畫在灰牆上很顯眼。"
+          },
+          {
+            "id": "b",
+            "en": "A reader notices a bold title among tiny headings.",
+            "zh": "讀者在細小標題中留意到粗體標題。"
+          },
+          {
+            "id": "c",
+            "en": "A person never sees a poster hidden in a closed drawer.",
+            "zh": "有人完全沒看見藏在關閉抽屜中的海報。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "完全沒有看到，就談不上吸引目光。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「封面 catches your eye，所以內容一定出色。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A cover can catch your eye before you know whether the book is good.",
+            "zh": "封面可先吸引目光，但你仍未知道書是否好。"
+          },
+          {
+            "id": "b",
+            "en": "Visual attention proves the content’s quality.",
+            "zh": "目光被吸引便證明內容品質。"
+          },
+          {
+            "id": "c",
+            "en": "The idiom means physical eye injury.",
+            "zh": "成語表示眼睛受傷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "注意到與評價品質不同。"
+      },
+      "speaking": {
+        "en": "The blue sign caught my eye beside the crowded noticeboard, so I stopped to read its opening hours.",
+        "zh": "那塊藍色告示在擠滿通知的告示板旁吸引了我的目光，所以我停下來看開放時間。",
+        "promptZh": "先聽示範，再指出是甚麼令說話者停下。",
+        "targetSpan": {
+          "start": 14,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校展示十張社團海報，詩社海報用亮藍色大標題，令穎兒首先注意；她仍未閱讀活動詳情，也沒有決定參加。用一至兩句英文說明目光被吸引與尚未作的判斷。",
+        "selfCheckZh": "寫出亮藍色大標題吸引穎兒、十張海報中先留意、尚未讀詳情或決定加入。",
+        "examples": [
+          {
+            "en": "Among ten club posters, the poetry club’s bright-blue heading caught her eye, but Ying-yi had not read the details or decided to join.",
+            "zh": "十張社團海報之中，詩社亮藍色大標題吸引了穎兒的目光，但她尚未閱讀詳情或決定加入。"
+          },
+          {
+            "en": "The bright-blue title caught Ying-yi’s eye first among the posters; she still needs to check the activities before deciding whether to join.",
+            "zh": "亮藍色標題在眾多海報中首先吸引穎兒的目光；她仍須查看活動內容才決定是否加入。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "ten club posters",
+            "zh": "十張社團海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 22
+            }
+          },
+          {
+            "en": "poetry club",
+            "zh": "詩社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 39
+            }
+          },
+          {
+            "en": "bright-blue heading",
+            "zh": "亮藍色大標題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 61
+            }
+          },
+          {
+            "en": "decided to join",
+            "zh": "決定加入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 133
+            }
+          },
+          {
+            "en": "activities",
+            "zh": "活動內容",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 107
+            }
+          },
+          {
+            "en": "whether to join",
+            "zh": "是否加入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Catch your eye means attract visual attention.",
+          "zh": "吸引目光，指在視覺上引人注意。"
+        },
+        {
+          "en": "Something that caught your eye is not necessarily high quality.",
+          "zh": "吸引了目光的事物不一定品質高。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3501",
+      "number": 3501,
+      "inventoryId": "expr-3501",
+      "titleEn": "the fine print",
+      "titleZh": "細則",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+fine\\s+print\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The less obvious terms or details that qualify an attractive headline or offer.",
+        "meaningZh": "吸引人的標題或優惠背後較不顯眼、可能帶有限制的條款或細節。",
+        "grammar": "Read/check the fine print; a noun phrase with the, usually in offers, agreements or policies.",
+        "register": "Consumer advice: a teacher reminds students to read conditions on a discount rather than rely on the headline.",
+        "boundaryZh": "細則不一定是陷阱；只是不能由大字標題推斷所有條件。",
+        "misconceptionZh": "不是說印刷字體必然細小，也不是任何補充資料都必定不利。",
+        "outcomeZh": "能核對標題與適用條件，說明限制如何影響選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1390",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 130,
+          "book": 13,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "41–43",
+          "locatorNote": "DOCX table 137, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The headline is exciting, but read the fine print.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the fine print"
+        }
+      ],
+      "listening": {
+        "en": "A gym ad promised one month free, but the fine print limited it to new members who signed a year-long contract.",
+        "zh": "健身室廣告承諾免費一個月，但細則限定只有簽一年合約的新會員適用。",
+        "promptZh": "the fine print 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The less visible conditions of the offer.",
+            "zh": "優惠中較不顯眼的條件。"
+          },
+          {
+            "id": "b",
+            "en": "A guarantee that everyone gets a free month.",
+            "zh": "保證所有人都免費一個月。"
+          },
+          {
+            "id": "c",
+            "en": "The gym’s printer settings.",
+            "zh": "健身室的打印設定。"
+          },
+          {
+            "id": "d",
+            "en": "Proof that the contract has no restrictions.",
+            "zh": "證明合約毫無限制。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新會員與一年合約是標題以外的適用條件。"
+      },
+      "reply": {
+        "promptEn": "A phone plan advertises unlimited data. On the next page, full-speed service stops after a monthly limit and slower access continues. What should Ada check before choosing it?",
+        "promptZh": "（電話計劃宣傳無限數據；下一頁列明每月用到某限額後只可較慢速度連線。雅達選擇前應檢查甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She should read the speed condition.",
+            "zh": "她應讀取速度條件。"
+          },
+          {
+            "id": "b",
+            "en": "She should compare the headline with the limit.",
+            "zh": "她應比較標題與限額。"
+          },
+          {
+            "id": "c",
+            "en": "She should check the fine print.",
+            "zh": "她應查看細則。"
+          },
+          {
+            "id": "d",
+            "en": "She should find out when full-speed service changes.",
+            "zh": "她應弄清高速服務何時改變。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出必須看標題以外的具體條件。"
+      },
+      "scene": {
+        "promptZh": "門票寫「學生半價」，但下方條款只適用星期三。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Read the fine print before choosing a date.",
+            "zh": "選日期前先看細則。"
+          },
+          {
+            "id": "b",
+            "en": "The ticket is half price every day.",
+            "zh": "門票每天都半價。"
+          },
+          {
+            "id": "c",
+            "en": "The tiny type proves the offer is fraudulent.",
+            "zh": "小字證明優惠是騙局。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "星期三限制改變半價優惠的適用範圍。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不需要以 the fine print 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A scholarship headline omits an age limit shown in conditions.",
+            "zh": "獎學金標題沒寫明條款中的年齡限制。"
+          },
+          {
+            "id": "b",
+            "en": "A poster clearly states price, date and all entry conditions in the main text.",
+            "zh": "海報主文清楚列明價錢、日期和所有入場條件。"
+          },
+          {
+            "id": "c",
+            "en": "A trial offer has a cancellation deadline in its terms.",
+            "zh": "試用優惠的條款設有取消限期。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "主要條件已在顯眼主文列明，沒有隱在較不顯眼處。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有 fine print 就一定代表公司騙人。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fine print gives qualifying details; we should read it, not assume fraud.",
+            "zh": "細則提供適用細節；應閱讀，而非直接斷定欺詐。"
+          },
+          {
+            "id": "b",
+            "en": "All offers with conditions are dishonest.",
+            "zh": "所有有條件的優惠都不誠實。"
+          },
+          {
+            "id": "c",
+            "en": "Fine print refers only to font size.",
+            "zh": "細則只指字體大小。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細則須核對，但不能自動推斷有欺詐。"
+      },
+      "speaking": {
+        "en": "The fine print says the free workshop is for first-time visitors, so regular members must book the paid session.",
+        "zh": "細則寫明免費工作坊只供首次到訪者，常客須報名付費場次。",
+        "promptZh": "先聽示範，再指出哪一組人不能用免費優惠。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：相機租借店的大標題寫「週末八折」，細則說優惠只限網上預訂，並須星期五前完成。小美打算星期六到店租用。用一至兩句英文解釋她需要核對甚麼，勿說店方欺詐。",
+        "selfCheckZh": "寫出週末八折、只限星期五前網上預訂、星期六即場租用未必合資格。",
+        "examples": [
+          {
+            "en": "The weekend discount sounds attractive, but the fine print requires online booking by Friday, so Mei’s Saturday walk-in may not qualify.",
+            "zh": "週末折扣聽起來吸引，但細則要求星期五前網上預訂，因此美兒星期六即場租用可能不合資格。"
+          },
+          {
+            "en": "Mei should read the fine print before visiting on Saturday: the twenty-percent discount applies only to online reservations made by Friday.",
+            "zh": "美兒星期六到店前應先看細則：八折優惠只適用於星期五前完成的網上預訂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekend discount",
+            "zh": "週末折扣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 20
+            }
+          },
+          {
+            "en": "online booking",
+            "zh": "網上預訂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 82
+            }
+          },
+          {
+            "en": "Saturday walk-in",
+            "zh": "星期六即場租用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 119
+            }
+          },
+          {
+            "en": "may not qualify",
+            "zh": "可能不合資格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 135
+            }
+          },
+          {
+            "en": "online reservations",
+            "zh": "網上預訂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 123
+            }
+          },
+          {
+            "en": "made by Friday",
+            "zh": "星期五前完成",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 138
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The fine print can narrow an attractive headline.",
+          "zh": "細則可限定吸引人標題的適用範圍。"
+        },
+        {
+          "en": "Read the fine print before judging an offer.",
+          "zh": "評價優惠前先看細則。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3508",
+      "number": 3508,
+      "inventoryId": "expr-3508",
+      "titleEn": "only a few clicks away",
+      "titleZh": "只需按幾下便可找到",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bonly\\s+a\\s+few\\s+clicks\\s+away\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Easy to reach online through a small number of navigation steps.",
+        "meaningZh": "在線上只需少量點擊步驟便可找到。",
+        "grammar": "A page, guide or service is only a few clicks away; the expression describes digital access, not completion or quality.",
+        "register": "School help-desk advice: a support worker tells students where to find a device manual on the portal.",
+        "boundaryZh": "容易點到網頁，不等於已閱讀、理解或完成所需步驟。",
+        "misconceptionZh": "不是以滑鼠移動的實際距離計算，也不保證沒有登入或資格要求。",
+        "outcomeZh": "能指出線上到達路徑與使用結果的差別。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1397",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 130,
+          "book": 13,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 138, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The guide is only a few clicks away.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "only a few clicks away"
+        }
+      ],
+      "listening": {
+        "en": "On the museum site, choose Visit, then Access, then Captions; the transcript for today’s audio tour is only a few clicks away, though you still need to open and read it.",
+        "zh": "在博物館網站依次選「參觀」、「無障礙」和「字幕」，便只需按幾下就可找到今日語音導賞的文字稿；但你仍須打開並閱讀。",
+        "promptZh": "only a few clicks away 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tour transcript is easy to reach online.",
+            "zh": "導賞文字稿在線上容易找到。"
+          },
+          {
+            "id": "b",
+            "en": "The visitor has already read the transcript.",
+            "zh": "訪客已閱讀文字稿。"
+          },
+          {
+            "id": "c",
+            "en": "The audio tour has physically moved nearby.",
+            "zh": "語音導賞在實際空間中移近了。"
+          },
+          {
+            "id": "d",
+            "en": "The transcript is guaranteed to answer every question.",
+            "zh": "文字稿保證解答所有問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語形容沿網站選單按幾步便能找到文字稿；找到並不等於已閱讀。"
+      },
+      "reply": {
+        "promptEn": "Where can Noor find the allergy form? The club website has a Forms tab, and the form opens from the first item there; she has not submitted it yet.",
+        "promptZh": "（努爾可在哪裏找到敏感症表格？社團網站有「表格」分頁，第一項就是該表格；她尚未提交。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She can open it quickly from the Forms tab.",
+            "zh": "她可從「表格」分頁迅速開啟。"
+          },
+          {
+            "id": "b",
+            "en": "The form is close in the website navigation.",
+            "zh": "表格在網站導覽中很容易找到。"
+          },
+          {
+            "id": "c",
+            "en": "Noor’s allergy form is only a few clicks away under Forms, though she still needs to submit it.",
+            "zh": "努爾可在「表格」分頁按幾下找到敏感症表格，但仍須提交。"
+          },
+          {
+            "id": "d",
+            "en": "She can reach the form without a long search.",
+            "zh": "她無需長時間搜尋便可找到表格。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句只說網上到達容易，不暗示已提交。"
+      },
+      "scene": {
+        "promptZh": "家長從校網首頁按「活動」再按「報名」，便看到表格，但尚未填寫。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sign-up form is only a few clicks away via Activities and Registration; the parents still need to fill it in.",
+            "zh": "家長經「活動」和「報名」按幾下便可找到表格，但仍須填寫。"
+          },
+          {
+            "id": "b",
+            "en": "The registration is already complete.",
+            "zh": "報名已完成。"
+          },
+          {
+            "id": "c",
+            "en": "The venue is a few streets away.",
+            "zh": "場地距離幾條街。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩個連結便可找到表格，仍須填寫。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持這片語？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A library catalogue opens from the homepage menu.",
+            "zh": "圖書館目錄可由首頁選單打開。"
+          },
+          {
+            "id": "b",
+            "en": "A paper leaflet is in a drawer across the room, with no online copy.",
+            "zh": "紙本單張放在房間另一端抽屜，沒有網上版本。"
+          },
+          {
+            "id": "c",
+            "en": "A route map opens after two links on the site.",
+            "zh": "網站按兩個連結就可打開路線圖。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只談實際位置，沒有點擊可到的數碼路徑。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只有幾下點擊，所以我已學會設定裝置。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guide may be only a few clicks away, but finding it is not the same as learning the steps.",
+            "zh": "指南可能很易點到，但找到不等於學會步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Easy access proves the setup is finished.",
+            "zh": "容易找到就證明設定已完成。"
+          },
+          {
+            "id": "c",
+            "en": "Clicks measure walking distance.",
+            "zh": "點擊用來量步行距離。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "到達資料與掌握內容是兩個階段。"
+      },
+      "speaking": {
+        "en": "The timetable is only a few clicks away on the course site, although you still need to check which week applies.",
+        "zh": "課程網站只需按幾下便可找到時間表，但你仍須核對適用週次。",
+        "promptZh": "先聽示範，再指出找到時間表後仍須做甚麼。",
+        "targetSpan": {
+          "start": 17,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心網站首頁有「課程」和「下載」兩個連結，長者可迅速找到游泳班時間表；但時間表有不同日期，仍須核對自己班別。用一至兩句英文說明方便之處與限制。",
+        "selfCheckZh": "寫出從首頁經兩個連結找到時間表、仍須核對班別日期、沒有假稱已報名。",
+        "examples": [
+          {
+            "en": "The swimming timetable is only a few clicks away through Courses and Downloads, but members still need to check the date for their own class.",
+            "zh": "經「課程」和「下載」兩個連結，只需按幾下便可找到游泳班時間表，但會員仍須核對自己班別的日期。"
+          },
+          {
+            "en": "From the centre homepage, the timetable is only a few clicks away; reaching it quickly does not tell a member which session date applies.",
+            "zh": "從中心首頁只需按幾下便可找到時間表；迅速找到也不代表會員已知道哪個上課日期適用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "swimming timetable",
+            "zh": "游泳班時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "Courses and Downloads",
+            "zh": "「課程」和「下載」",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 78
+            }
+          },
+          {
+            "en": "check the date",
+            "zh": "核對日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 120
+            }
+          },
+          {
+            "en": "own class",
+            "zh": "自己班別",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 140
+            }
+          },
+          {
+            "en": "centre homepage",
+            "zh": "中心首頁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 24
+            }
+          },
+          {
+            "en": "session date",
+            "zh": "上課日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Only a few clicks away describes easy online access.",
+          "zh": "只需按幾下便可找到，形容網上容易到達。"
+        },
+        {
+          "en": "Only a few clicks away does not mean the task is already complete.",
+          "zh": "容易點到不代表任務已完成。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3510",
+      "number": 3510,
+      "inventoryId": "expr-3510",
+      "titleEn": "dig through books",
+      "titleZh": "翻查大量書本",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:dig|digs|dug|digging)\\s+through\\s+books\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Search persistently through printed books to find specific information.",
+        "meaningZh": "為找特定資料而費力翻查紙本書籍。",
+        "grammar": "Dig through books is a figurative verb phrase; dug is the past tense, digging the progressive form. Specify the fact sought, not physical excavation.",
+        "register": "Research discussion: a history student describes searching printed reference volumes for a date.",
+        "boundaryZh": "費力搜尋不保證已找到答案；此處與快速略讀一本書不同。",
+        "misconceptionZh": "不是把書埋在泥土中挖掘，也不是任何網上搜尋都可直接套用 books。",
+        "outcomeZh": "能說出查找目標、搜尋過程與結果是否找到。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1399",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 131,
+          "book": 13,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 138, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We had to dig through books to find the answer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dig through books"
+        }
+      ],
+      "listening": {
+        "en": "The catalogue gave no date for the first exhibition, so the archivists had to dig through books of local records to find it.",
+        "zh": "目錄沒有首展日期，檔案員只好翻查大量地方紀錄書籍，尋找該日期。",
+        "promptZh": "dig through books 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Search printed volumes persistently for the date.",
+            "zh": "為找日期而費力翻查紙本書。"
+          },
+          {
+            "id": "b",
+            "en": "Excavate books from the ground.",
+            "zh": "從地底挖出書本。"
+          },
+          {
+            "id": "c",
+            "en": "Already know the date without checking.",
+            "zh": "毋須查證便已知道日期。"
+          },
+          {
+            "id": "d",
+            "en": "Skim one cover without looking inside.",
+            "zh": "只略看一本書的封面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "目錄沒有資料，所以要在多本紙本紀錄中搜尋。"
+      },
+      "reply": {
+        "promptEn": "A student needs the old village name used before 1920. The website has no record, and she is checking several printed gazetteers page by page. What is she doing?",
+        "promptZh": "（學生要找一九二○年前的舊村名；網站沒有紀錄，她正逐頁查幾本紙本地名志。她在做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is searching printed references carefully.",
+            "zh": "她正仔細查紙本參考書。"
+          },
+          {
+            "id": "b",
+            "en": "She is working through several volumes for a name.",
+            "zh": "她正翻查幾卷書找村名。"
+          },
+          {
+            "id": "c",
+            "en": "She is digging through books.",
+            "zh": "她正費力翻查書本。"
+          },
+          {
+            "id": "d",
+            "en": "She is using printed sources because the site lacks the record.",
+            "zh": "網站沒有紀錄，所以她改查紙本資料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述有目的地費力查紙本資料，金句用 dig through books。"
+      },
+      "scene": {
+        "promptZh": "研究員要找早年漁業數據，連續兩天翻查圖書館的舊統計年鑑。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The researcher dug through books for the figures.",
+            "zh": "研究員費力翻查書本尋找數據。"
+          },
+          {
+            "id": "b",
+            "en": "The researcher dug a hole for the books.",
+            "zh": "研究員挖洞放書。"
+          },
+          {
+            "id": "c",
+            "en": "The figures are automatically correct because they are old.",
+            "zh": "數據因為舊就自動正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "目的明確、查閱多本紙本書籍。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合此片語？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student searches several printed indexes for a missing name.",
+            "zh": "學生翻查多本紙本索引尋找缺失姓名。"
+          },
+          {
+            "id": "b",
+            "en": "A tourist glances at one book cover and walks away.",
+            "zh": "旅客只看一眼一本書封便離開。"
+          },
+          {
+            "id": "c",
+            "en": "An archivist works through old bound volumes for a date.",
+            "zh": "檔案員翻查舊裝訂卷冊找日期。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只看封面沒有在書中費力查找。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「dig through books 就表示一定找到答案。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may dig through books without yet finding a certain answer.",
+            "zh": "他們可費力翻查書本，但答案仍可能未確定。"
+          },
+          {
+            "id": "b",
+            "en": "Any long search guarantees a correct answer.",
+            "zh": "任何長時間搜尋都保證找到正確答案。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase always means digging in soil.",
+            "zh": "片語一定指挖泥土。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "搜尋過程與成功結果須分開。"
+      },
+      "speaking": {
+        "en": "We dug through books of shipping records for the vessel’s first voyage, but the date is still uncertain.",
+        "zh": "我們費力翻查航運紀錄書找那艘船的首航日期，但日期仍未確定。",
+        "promptZh": "先聽示範，再指出尚未確定的是甚麼。",
+        "targetSpan": {
+          "start": 3,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區展覽小組想確認一座戲院最早的開幕年份。網站只列出大概年代；小組翻查幾本紙本報業年鑑，目前找到兩個互相矛盾的年份，仍須核對。用一至兩句英文說明搜尋。",
+        "selfCheckZh": "寫出目標是開幕年份、費力翻查多本紙本年鑑、兩個年份仍未核實。",
+        "examples": [
+          {
+            "en": "The group dug through books of old newspaper records for the theatre’s opening year, but found two conflicting dates that still need checking.",
+            "zh": "小組費力翻查舊報業紀錄書找戲院開幕年份，卻找到兩個互相矛盾、仍須核對的年份。"
+          },
+          {
+            "en": "The team had to dig through books—old newspaper yearbooks—because the site listed only an approximate decade; it has not yet confirmed which opening year is right.",
+            "zh": "網站只列出大概年代，團隊須費力翻查舊報業年鑑；目前仍未確認哪個開幕年份正確。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "newspaper records",
+            "zh": "報業紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 52
+            }
+          },
+          {
+            "en": "opening year",
+            "zh": "開幕年份",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 83
+            }
+          },
+          {
+            "en": "conflicting dates",
+            "zh": "互相矛盾的年份",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 116
+            }
+          },
+          {
+            "en": "need checking",
+            "zh": "仍須核對",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 141
+            }
+          },
+          {
+            "en": "approximate decade",
+            "zh": "大概年代",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 108
+            }
+          },
+          {
+            "en": "old newspaper yearbooks",
+            "zh": "舊報業年鑑",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 57
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Dig through books means search printed volumes persistently.",
+          "zh": "翻查大量書本，指為尋找資料而費力查閱紙本書。"
+        },
+        {
+          "en": "People can dig through books without yet finding a certain answer.",
+          "zh": "費力翻查書本後，答案仍可能未確定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3512",
+      "number": 3512,
+      "inventoryId": "expr-3512",
+      "titleEn": "a flood of information",
+      "titleZh": "大量湧來的資訊",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+flood\\s+of\\s+information\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A very large amount of information arriving together or quickly.",
+        "meaningZh": "大量資訊一同或迅速湧來。",
+        "grammar": "A flood of information is a countable flood metaphor with of + uncountable information; it says quantity, not reliability.",
+        "register": "Digital-literacy lesson: a teacher discusses the many results returned by a broad search.",
+        "boundaryZh": "資訊多不代表準確、相關或容易吸收；也不一定全是負面。",
+        "misconceptionZh": "不是發生水災，也不表示搜尋者已閱讀或理解所有結果。",
+        "outcomeZh": "能描述資訊量並指出仍須篩選來源。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1401",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 131,
+          "book": 13,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 138, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The search returned a flood of information.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a flood of information"
+        }
+      ],
+      "listening": {
+        "en": "A broad search for local air quality produced a flood of information, but the class still had to check which figures came from reliable sources.",
+        "zh": "廣泛搜尋本地空氣質素後，大量資訊湧來，但全班仍須核對哪些數據來自可靠來源。",
+        "promptZh": "a flood of information 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A large amount of material appeared.",
+            "zh": "出現大量資料。"
+          },
+          {
+            "id": "b",
+            "en": "A real flood damaged the computers.",
+            "zh": "真正水災破壞電腦。"
+          },
+          {
+            "id": "c",
+            "en": "Every result was accurate.",
+            "zh": "每項結果都準確。"
+          },
+          {
+            "id": "d",
+            "en": "The class had read every source already.",
+            "zh": "全班已讀完每個來源。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量結果出現，可靠性仍需核對。"
+      },
+      "reply": {
+        "promptEn": "The council published hundreds of comments at once about a new crossing. What should the review team do before claiming a common view?",
+        "promptZh": "（議會一次發布數百份新行人過路處的意見；審閱團隊聲稱已找到共同意見前，應做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should group and examine the comments.",
+            "zh": "他們應分類並檢視意見。"
+          },
+          {
+            "id": "b",
+            "en": "They should distinguish repeated points from single cases.",
+            "zh": "他們應區分重複意見與個別情況。"
+          },
+          {
+            "id": "c",
+            "en": "They should make sense of a flood of information before drawing a conclusion.",
+            "zh": "他們應先整理大量湧來的資訊，再下結論。"
+          },
+          {
+            "id": "d",
+            "en": "They should check what the comments actually say.",
+            "zh": "他們應核對意見實際內容。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認數量大、結論前須整理；金句用 flood of information。"
+      },
+      "scene": {
+        "promptZh": "研究網站一夜新增數百份報告，老師先請學生按年份和來源分類。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The site presented a flood of information.",
+            "zh": "網站湧來大量資訊。"
+          },
+          {
+            "id": "b",
+            "en": "All reports must be reliable.",
+            "zh": "所有報告必定可靠。"
+          },
+          {
+            "id": "c",
+            "en": "A real flood reached the classroom.",
+            "zh": "真正水災淹到課室。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數百份報告同時出現，需分類。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 a flood of information？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One short notice gives a single opening time.",
+            "zh": "一張簡短告示只提供一個開放時間。"
+          },
+          {
+            "id": "b",
+            "en": "A search returns hundreds of mixed articles.",
+            "zh": "搜尋回傳數百篇不同文章。"
+          },
+          {
+            "id": "c",
+            "en": "A public consultation receives thousands of responses in a week.",
+            "zh": "公眾諮詢一週內收到數千份回應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有一項資料，不構成大量資訊。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「資訊很多，答案一定清楚。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A flood of information can include weak or irrelevant sources, so we still need to check it.",
+            "zh": "大量資訊可包含薄弱或無關來源，仍須核對。"
+          },
+          {
+            "id": "b",
+            "en": "More results automatically mean more certainty.",
+            "zh": "結果越多就自動越肯定。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase predicts a storm.",
+            "zh": "這片語預報暴風雨。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數量與可信度不同。"
+      },
+      "speaking": {
+        "en": "The new archive released a flood of information, so the researchers sorted its records by date before making claims.",
+        "zh": "新檔案庫一次發布大量資訊，研究員先按日期整理紀錄，才作判斷。",
+        "promptZh": "先聽示範，再指出研究員如何處理資訊。",
+        "targetSpan": {
+          "start": 25,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校對延長圖書館時間徵詢意見，一週內收到九百份回覆。校長不能只看最先出現的幾則留言，需先分類與核實重複回覆。用一至兩句英文描述資訊量與處理方法。",
+        "selfCheckZh": "寫出九百份回覆、一週內湧來、須分類與核實重複回覆，不能單看最先幾則。",
+        "examples": [
+          {
+            "en": "The school received a flood of information—nine hundred replies in a week—so the principal must group them and check duplicates before deciding.",
+            "zh": "學校一週內收到九百份回覆，大量資訊湧來，因此校長須先分類並核實重複回覆，才作決定。"
+          },
+          {
+            "en": "A flood of information arrived after the library-hours survey: nine hundred responses in one week. The principal should sort them and check for duplicates instead of relying on the first few comments.",
+            "zh": "圖書館時間調查後，大量資訊湧來：一週內收到九百份回應。校長應整理回覆並核實有否重複，而非只依賴最先幾則留言。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "nine hundred replies",
+            "zh": "九百份回覆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 63
+            }
+          },
+          {
+            "en": "in a week",
+            "zh": "一週內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 73
+            }
+          },
+          {
+            "en": "group them",
+            "zh": "把它們分類",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 106
+            }
+          },
+          {
+            "en": "check duplicates",
+            "zh": "核實重複回覆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 127
+            }
+          },
+          {
+            "en": "library-hours survey",
+            "zh": "圖書館時間調查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 61
+            }
+          },
+          {
+            "en": "first few comments",
+            "zh": "最先幾則留言",
+            "exampleIndex": 1,
+            "span": {
+              "start": 181,
+              "end": 199
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A flood of information refers to quantity, not accuracy.",
+          "zh": "大量資訊湧來，說的是數量而非準確性。"
+        },
+        {
+          "en": "Sort a flood of information before using it as evidence.",
+          "zh": "使用大量資訊作證據前，應先整理。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

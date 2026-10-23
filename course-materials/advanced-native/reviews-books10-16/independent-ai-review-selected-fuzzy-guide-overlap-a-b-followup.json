@@ -1,0 +1,14 @@
+{
+  "reviewType": "independent-exact-hash-follow-up",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-selected-fuzzy-guide-overlap-a-b.json",
+  "draftHashes": [
+    ["batch-2151-2167-b2.json", "b9cd7470c1e304a383711573eb37548eabe811e44eecb8dd278250736f848548"],
+    ["batch-2644-2672-a.json", "ea724ed08b112ddc137a89e83d31f00191400a9e76d0c9732cb102b5a7296adf"]
+  ],
+  "findings": [
+    {"lesson": 2167, "status": "cleared", "evidence": "Four pragmatically valid projector-setup replies replace registration/sign-in. Keyed C teaches the fixed target via a labelled cable map; source checklist-for-registration scenario is no longer repeated. Chinese maps the exact connection problem."},
+    {"lesson": 2672, "status": "cleared", "evidence": "Takeaway now describes a newly installed access ramp helping visitors with entrance steps, distinct from the source short-break relief; English/Chinese benefit and target align."}
+  ],
+  "mechanicalChecks": "Focused build and --check for both affected batch files: 10 lessons, 60 questions, 40 audio requests, zero flags. No changed glossary/speaking spans.",
+  "result": "Both remaining selected fuzzy-overlap findings are cleared at these exact hashes; earlier five lessons retain their prior pass status. No human or publication approval implied."
+}

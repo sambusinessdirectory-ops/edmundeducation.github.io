@@ -1,0 +1,2141 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3332-3380-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3332",
+      "number": 3332,
+      "inventoryId": "expr-3332",
+      "titleEn": "calm their nerves",
+      "titleZh": "令他們安心；緩和緊張",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:calm|calms|calmed|calming) (?:my|your|his|her|our|their) nerves\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reduce someone’s anxiety before an uncertain or demanding event.",
+        "meaningZh": "在未知或有壓力的事情之前，減輕某人的緊張。",
+        "grammar": "calm + possessive + nerves; nerves is plural and the possessive changes with the person.",
+        "register": "Warm neutral expression. A trip organiser may say it to a colleague when explaining why clear information helps travellers.",
+        "boundaryZh": "提供清楚資料或可行準備能減少緊張；不能保證別人完全不害怕。",
+        "misconceptionZh": "不是把身體神經「冷靜下來」，也不等於單純告訴人「不要擔心」。",
+        "outcomeZh": "能指出焦慮來源與哪項具體資訊或支持有助安心。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1221",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 113,
+          "book": 12,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–111",
+          "locatorNote": "DOCX table 117, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A detailed itinerary can calm their nerves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "calm their nerves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者用甚麼方法減輕學生的緊張？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Clear platform information and a transfer map help them prepare.",
+            "zh": "清楚的月台資料和轉車地圖讓他們有所準備。"
+          },
+          {
+            "id": "b",
+            "en": "A promise that trains can never be delayed.",
+            "zh": "保證火車永遠不會延誤。"
+          },
+          {
+            "id": "c",
+            "en": "An instruction to stop discussing the trip.",
+            "zh": "指示他們不要再談旅行。"
+          },
+          {
+            "id": "d",
+            "en": "A change of destination that students had not requested.",
+            "zh": "擅自改變學生沒有要求更改的目的地。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體轉車資料減少未知帶來的焦慮。",
+        "en": "The students are worried about changing trains on their first trip. I sent the platform numbers and a simple transfer map to calm their nerves. I cannot promise there will be no delays, but they now know where to go.",
+        "zh": "學生第一次旅行，擔心轉車。我送出月台號碼和簡單轉車地圖，讓他們安心。我不能保證沒有延誤，但他們現在知道往哪裏走。"
+      },
+      "reply": {
+        "promptEn": "Students are nervous about changing trains for the first time. We know the platforms and transfer route. What could we do?",
+        "promptZh": "（學生第一次轉車，感到緊張。我們知道月台及轉車路線。可以怎樣幫忙？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Share the platform numbers before departure.",
+            "zh": "出發前分享月台號碼。"
+          },
+          {
+            "id": "b",
+            "en": "Walk through the transfer map together.",
+            "zh": "一起看轉車地圖。"
+          },
+          {
+            "id": "c",
+            "en": "A clear route may calm their nerves without promising that nothing will change.",
+            "zh": "清楚路線或能讓他們安心，但毋須保證不會有變動。"
+          },
+          {
+            "id": "d",
+            "en": "Tell them whom to contact if a platform changes.",
+            "zh": "告訴他們月台變動時可聯絡誰。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能提供實際支持；金句點明減輕緊張而非保證零風險。"
+      },
+      "scene": {
+        "promptZh": "面試者擔心不知去哪個房間；接待員送上樓層圖並說明到達後向誰報到。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The instructions may calm her nerves before the interview.",
+            "zh": "指示可能在面試前令她安心。"
+          },
+          {
+            "id": "b",
+            "en": "The instructions guarantee she will get the job.",
+            "zh": "指示保證她會獲聘。"
+          },
+          {
+            "id": "c",
+            "en": "The receptionist withholds the room number until the last minute.",
+            "zh": "接待員到最後一刻才透露房號。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明確的報到資料有助減少不確定感。"
+      },
+      "contrast": {
+        "promptZh": "哪種說法最不足以實際 calm someone’s nerves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say “just relax” while refusing to answer a clear question about the meeting place.",
+            "zh": "只說「放鬆」，卻拒絕回答會面地點的明確問題。"
+          },
+          {
+            "id": "b",
+            "en": "Explain the meeting place and how to find help if it changes.",
+            "zh": "說明會面地點及變動時怎樣求助。"
+          },
+          {
+            "id": "c",
+            "en": "Show the person the order of the first few steps.",
+            "zh": "向對方展示頭幾個步驟的次序。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "空泛命令未解決使人焦慮的未知。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：新義工似乎很緊張，因為不知道訪客到達時要做甚麼。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us show them the first two steps to calm their nerves.",
+            "zh": "不如示範頭兩個步驟，讓他們安心。"
+          },
+          {
+            "id": "b",
+            "en": "Give them a short arrival checklist.",
+            "zh": "給他們一份簡短的迎接清單。"
+          },
+          {
+            "id": "c",
+            "en": "Let them observe one experienced volunteer first.",
+            "zh": "先讓他們觀察一位有經驗的義工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把具體示範與減輕緊張連起來。",
+        "promptEn": "A: New volunteers seem nervous because they do not know what happens when visitors arrive. B: ______"
+      },
+      "speaking": {
+        "en": "The organiser shared the room number and check-in steps to calm our nerves before the unfamiliar event.",
+        "zh": "活動前，統籌員分享房號與報到步驟，減輕我們對陌生場地的緊張。",
+        "promptZh": "說出緊張原因與能提供的具體資訊。",
+        "targetSpan": {
+          "start": 59,
+          "end": 74
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人對陌生流程感到緊張；另一人提供具體資訊而非空口保證。用英文寫出擔憂和支援。",
+        "selfCheckZh": "兩例都要清楚指出未知之處及提供的資料。",
+        "examples": [
+          {
+            "en": "Before the museum visit, a map showing the step-free entrance calmed her nerves about navigating the unfamiliar building.",
+            "zh": "參觀博物館前，一張標示無障礙入口的地圖減輕了她對陌生建築物找路的緊張。"
+          },
+          {
+            "en": "The tutor calmed their nerves about the oral test by explaining the first question format and where students should wait.",
+            "zh": "導師說明口試第一題的形式及學生等候位置，減輕了他們對口試的緊張。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the museum visit",
+            "zh": "參觀博物館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 23
+            }
+          },
+          {
+            "en": "the step-free entrance",
+            "zh": "無障礙入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 61
+            }
+          },
+          {
+            "en": "the unfamiliar building",
+            "zh": "陌生建築物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 120
+            }
+          },
+          {
+            "en": "the first question format",
+            "zh": "第一題的形式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 89
+            }
+          },
+          {
+            "en": "where students should wait",
+            "zh": "學生等候位置",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Useful details can calm their nerves without removing every uncertainty.",
+          "zh": "有用的資料可減輕緊張，但不會消除所有不確定。"
+        },
+        {
+          "en": "The rehearsal map calmed her nerves before she entered the unfamiliar theatre.",
+          "zh": "排練地圖減輕了她進入陌生劇院前的緊張。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3334",
+      "number": 3334,
+      "inventoryId": "expr-3334",
+      "titleEn": "down to the last detail",
+      "titleZh": "連最細節也安排好",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bdown to the last detail\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Thoroughly, including even minor practical points.",
+        "meaningZh": "非常周全，連細小的實際事項也顧及。",
+        "grammar": "down to the last detail is an adverbial phrase after plan/check/arrange; the article the is fixed.",
+        "register": "Neutral, sometimes admiring or critical depending on context. A colleague may describe another colleague’s precise event planning.",
+        "boundaryZh": "重點在細節都已安排；這不必然代表安排較好，過度細化也可能妨礙靈活變通。",
+        "misconceptionZh": "不是只核對最後一項細節，也不是說計劃已能預知每個突發情況。",
+        "outcomeZh": "能區分只訂大方向與連小型安排也完成，並評估是否需要保留彈性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1223",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 113,
+          "book": 12,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–111",
+          "locatorNote": "DOCX table 117, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He planned the trip down to the last detail.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "down to the last detail"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "哪項資料最能支持講者說安排十分仔細？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Even cables, deliveries and a backup key holder have been arranged.",
+            "zh": "連電線、送貨及後備鑰匙保管人也已安排。"
+          },
+          {
+            "id": "b",
+            "en": "Only the exhibition date has been chosen.",
+            "zh": "只訂了展覽日期。"
+          },
+          {
+            "id": "c",
+            "en": "Mara has refused to assign any practical roles.",
+            "zh": "Mara 拒絕分配任何實際工作。"
+          },
+          {
+            "id": "d",
+            "en": "The opening plan can never require a change.",
+            "zh": "開幕計劃絕不可能需要調整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多個容易忽略的小事項也已規劃。",
+        "en": "Mara planned the school exhibition down to the last detail: she labelled each display cable, wrote an access route for deliveries, and assigned a backup key holder. The opening plan is thorough, though it may still need changes.",
+        "zh": "Mara 把學校展覽安排得連最細節也顧及：她為每條展示電線貼標籤、寫好送貨通道，並指定後備鑰匙保管人。開幕計劃很周全，但仍可能要調整。"
+      },
+      "reply": {
+        "promptEn": "Mara planned our exhibition, including cable labels, delivery access and a backup key holder. What does that show?",
+        "promptZh": "（Mara 籌備展覽時，連電線標籤、送貨通道和後備鑰匙保管人也安排好。這顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She considered practical points that are easy to overlook.",
+            "zh": "她顧及容易忽略的實際事項。"
+          },
+          {
+            "id": "b",
+            "en": "The team has a detailed starting plan.",
+            "zh": "團隊有詳細的初步計劃。"
+          },
+          {
+            "id": "c",
+            "en": "She planned it down to the last detail, while still allowing changes if needed.",
+            "zh": "她連最細節也安排好，但仍容許按需要調整。"
+          },
+          {
+            "id": "d",
+            "en": "The backup role may help if the main key holder is absent.",
+            "zh": "主要鑰匙保管人缺席時，後備人選可幫忙。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句合理；金句點出極細緻規劃而不誇稱絕不變動。"
+      },
+      "scene": {
+        "promptZh": "攝影師在拍攝前確認每盞燈的插座、每位受訪者的到達時間和每張相的存檔名稱。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She prepared the shoot down to the last detail.",
+            "zh": "她連拍攝的最細節也準備好。"
+          },
+          {
+            "id": "b",
+            "en": "She chose only a broad theme and left all logistics open.",
+            "zh": "她只定了大方向，所有後勤事項尚未安排。"
+          },
+          {
+            "id": "c",
+            "en": "She checked the final photograph but no other part of the shoot.",
+            "zh": "她只查看最後一張相，沒有理會其他拍攝安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項小型但具體的後勤事項都已安排。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明有人 planned an event down to the last detail？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They picked a theme but have not assigned rooms, times or equipment.",
+            "zh": "他們選了主題，卻未分配房間、時段或器材。"
+          },
+          {
+            "id": "b",
+            "en": "They confirmed seating labels, extension leads and the spare microphone.",
+            "zh": "他們確認座位標籤、延長線和後備咪高峰。"
+          },
+          {
+            "id": "c",
+            "en": "They prepared delivery instructions and a backup contact.",
+            "zh": "他們準備送貨指示和後備聯絡人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有主題屬大方向，未觸及小型實務細節。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Tessa 已核對明天會議的名牌拼字、房間標示和後備轉接器。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has planned it down to the last detail; let us still check for late changes.",
+            "zh": "她連最細節也安排好；我們仍要留意臨時變動。"
+          },
+          {
+            "id": "b",
+            "en": "Her checklist covers several easy-to-miss items.",
+            "zh": "她的清單包含幾項容易漏掉的事項。"
+          },
+          {
+            "id": "c",
+            "en": "The spare adapter could save time if one fails.",
+            "zh": "若轉接器故障，後備的可省時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括細節安排，也保留變動可能。",
+        "promptEn": "A: Tessa has already checked badge spelling, room signs and the spare adapter for tomorrow’s conference. B: ______"
+      },
+      "speaking": {
+        "en": "The team planned the concert down to the last detail, including labelled cables and a backup contact for the performers.",
+        "zh": "團隊連音樂會最細節也安排好，包括電線標籤和表演者後備聯絡人。",
+        "promptZh": "舉出兩項具體小細節，並避免聲稱永不需要修改。",
+        "targetSpan": {
+          "start": 29,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊籌辦活動時處理了容易忽略的實務小事。用英文寫出活動、至少兩項細節，以及這樣做的用途。",
+        "selfCheckZh": "兩個例子須展示小型但具體的安排，不只是主題或日期。",
+        "examples": [
+          {
+            "en": "The coach prepared the swim meet down to the last detail, checking lane cards and spare towels so competitors could move to their heats promptly.",
+            "zh": "教練連游泳賽最細節也準備好，核對泳道卡及後備毛巾，讓參賽者能準時到各自組別。"
+          },
+          {
+            "en": "For the book launch, Dev planned seating and microphone batteries down to the last detail, so late arrivals could find places without delaying the reading.",
+            "zh": "為了新書發佈會，Dev 連座位和咪高峰電池的最細節也安排好，讓遲到者找到座位而不延誤朗讀。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lane cards",
+            "zh": "泳道卡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 77
+            }
+          },
+          {
+            "en": "spare towels",
+            "zh": "後備毛巾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "their heats",
+            "zh": "各自組別",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 135
+            }
+          },
+          {
+            "en": "microphone batteries",
+            "zh": "咪高峰電池",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 65
+            }
+          },
+          {
+            "en": "late arrivals",
+            "zh": "遲到者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Planning down to the last detail covers small practical points.",
+          "zh": "連最細節也安排好，指顧及實際小事。"
+        },
+        {
+          "en": "For the charity dinner, Ana checked every place card down to the last detail.",
+          "zh": "為了慈善晚宴，Ana 連每張座位卡的最細節也核對。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3336",
+      "number": 3336,
+      "inventoryId": "expr-3336",
+      "titleEn": "play things by ear",
+      "titleZh": "看情況再決定",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:play|plays|played|playing) (?:things|it) by ear\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Decide the next step as the situation develops instead of fixing every detail ahead of time.",
+        "meaningZh": "視乎事態發展再決定下一步，而非預先敲定每個細節。",
+        "grammar": "play things by ear/play it by ear are fixed idioms; played is past, playing is progressive.",
+        "register": "Informal conversational phrase. Friends may use it while planning leisure time or a flexible outing.",
+        "boundaryZh": "仍可有目的、時間界限或必要預訂；隨機應變不等於完全沒有準備或忽略安全安排。",
+        "misconceptionZh": "不是靠耳朵演奏，也不表示可以臨時違背已承諾的重要安排。",
+        "outcomeZh": "能說明哪些部分預先確定、哪些部分可視乎情況再決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1225",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 114,
+          "book": 12,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–111",
+          "locatorNote": "DOCX table 117, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "On holiday, we like to play things by ear.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "play things by ear"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者有哪些安排留待當時決定？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The walking route or museum visit depends on the weather.",
+            "zh": "步行路線或參觀博物館，要視乎天氣。"
+          },
+          {
+            "id": "b",
+            "en": "The return train has not been booked.",
+            "zh": "回程火車尚未預訂。"
+          },
+          {
+            "id": "c",
+            "en": "They will ignore rain and follow the route regardless.",
+            "zh": "他們無論下雨與否都堅持原路線。"
+          },
+          {
+            "id": "d",
+            "en": "They have cancelled the holiday already.",
+            "zh": "他們已取消假期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回程車已固定，白天活動則視乎天氣調整。",
+        "en": "Our group has booked the return train, but Saturday’s weather may change our walking plan. We will play things by ear: if rain begins, we can visit the museum instead.",
+        "zh": "我們一行人已訂回程火車，但星期六的天氣可能改變步行計劃。我們會看情況再決定：若下雨，可改去博物館。"
+      },
+      "reply": {
+        "promptEn": "We have our return train booked, but Saturday’s weather is uncertain. How should we choose between a walk and a museum?",
+        "promptZh": "（我們已訂回程火車，但星期六天氣未定。應怎樣在步行與博物館之間選擇？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check the forecast that morning.",
+            "zh": "當天早上查看天氣預報。"
+          },
+          {
+            "id": "b",
+            "en": "Keep both walking and museum information handy.",
+            "zh": "備好步行及博物館資料。"
+          },
+          {
+            "id": "c",
+            "en": "We can play things by ear and choose the safer activity when we know the weather.",
+            "zh": "我們可看情況再決定，知道天氣後選較安全的活動。"
+          },
+          {
+            "id": "d",
+            "en": "Keep the fixed train time in mind whichever activity we choose.",
+            "zh": "無論選哪項活動，都記住固定火車時間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是靈活而負責任的做法；金句點明隨情況決定。"
+      },
+      "scene": {
+        "promptZh": "兩位朋友已約好傍晚集合回家；下午市集可能因雨關閉，他們決定當時看天氣再選室內或室外活動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They will play things by ear for the afternoon activities.",
+            "zh": "他們下午的活動會看情況再決定。"
+          },
+          {
+            "id": "b",
+            "en": "They are changing the agreed return time without telling anyone.",
+            "zh": "他們不告知任何人便改動約好的回家時間。"
+          },
+          {
+            "id": "c",
+            "en": "They decided every afternoon stop weeks ago and will not adapt.",
+            "zh": "他們數週前已決定下午每一站，不會調整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "固定回家安排仍在，活動選擇則按天氣。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能直接稱為 play things by ear？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group ignores an agreed safety booking and gives no one a meeting point.",
+            "zh": "團隊忽略已約好的安全預訂，也不告訴任何人集合地點。"
+          },
+          {
+            "id": "b",
+            "en": "The group books transport but chooses a restaurant after seeing what is open.",
+            "zh": "團隊先訂交通，之後看看哪間餐廳開門再決定。"
+          },
+          {
+            "id": "c",
+            "en": "The group plans two suitable routes and chooses one after the forecast.",
+            "zh": "團隊準備兩條合適路線，看天氣預報後再選。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隨情況調整不能作為忽略必要承諾或安全安排的理由。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：若下雨，露天電影可能提早結束。我們回家的旅遊巴時間固定，但晚飯安排可變。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us play it by ear for dinner while keeping the coach time fixed.",
+            "zh": "晚飯就看情況再決定，回程旅遊巴時間則照舊。"
+          },
+          {
+            "id": "b",
+            "en": "We can find a nearby café if the film ends early.",
+            "zh": "若電影提早結束，可以找附近咖啡店。"
+          },
+          {
+            "id": "c",
+            "en": "Check which places stay open before we leave.",
+            "zh": "離開前先看看哪些店還開門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把可變動與不可變動安排分清。",
+        "promptEn": "A: The outdoor film may finish early if rain starts. We have a fixed coach home, but dinner plans can change. B: ______"
+      },
+      "speaking": {
+        "en": "We will play things by ear after the morning walk, choosing an indoor stop if the forecast turns wet.",
+        "zh": "早上步行後，我們會看情況再決定；若預報轉雨，便選室內一站。",
+        "promptZh": "說明已定安排、尚未決定的部分及依據。",
+        "targetSpan": {
+          "start": 8,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友或團隊有一項固定約定，但其他活動可依天氣或人數調整。用英文寫出固定與彈性部分。",
+        "selfCheckZh": "兩例不得把重要預訂或安全集合點當成可隨意取消。",
+        "examples": [
+          {
+            "en": "We booked the last bus home, but will play things by ear at the village fair, staying longer only if the stalls are still open.",
+            "zh": "我們已訂回程末班巴士，但在鄉村市集會看情況再決定；只有攤檔仍開門才多留一會兒。"
+          },
+          {
+            "en": "The workshop starts at nine, yet the tutor will play it by ear for the afternoon practice, adding a second exercise if the group finishes early.",
+            "zh": "工作坊九時開始；下午練習則由導師看情況再決定，若全組提早完成，便加第二項練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the last bus home",
+            "zh": "回程末班巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 27
+            }
+          },
+          {
+            "en": "the village fair",
+            "zh": "鄉村市集",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 76
+            }
+          },
+          {
+            "en": "the stalls",
+            "zh": "攤檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 111
+            }
+          },
+          {
+            "en": "the afternoon practice",
+            "zh": "下午練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 89
+            }
+          },
+          {
+            "en": "a second exercise",
+            "zh": "第二項練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To play things by ear is to adapt the open parts of a plan.",
+          "zh": "看情況再決定，是調整計劃中可變動的部分。"
+        },
+        {
+          "en": "With the outdoor court still wet, the players will play it by ear after lunch.",
+          "zh": "戶外球場仍濕，球員會在午飯後看情況再決定。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3338",
+      "number": 3338,
+      "inventoryId": "expr-3338",
+      "titleEn": "mapped out in advance",
+      "titleZh": "事先規劃好",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:map|maps|mapped|mapping) out in advance\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Lay out a route or sequence of actions before starting, so the major steps are known ahead of time.",
+        "meaningZh": "開始前先把路線或主要步驟規劃清楚。",
+        "grammar": "map out in advance is usually split by an object in active voice (map the route out in advance) or contiguous in passive voice (the route was mapped out in advance). This lesson rehearses the contiguous passive wording.",
+        "register": "Neutral planning phrase. A hiking guide may use it with a group before a walk.",
+        "boundaryZh": "事先規劃是主要步驟已定；仍可因封路、安全或新資料作適當調整，不等於逐秒預定。",
+        "misconceptionZh": "不一定真的在紙上畫地圖；也不等於行程中的每個小細節均已安排。",
+        "outcomeZh": "能分辨事前確定的主要路線與當場才決定的路線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1227",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 114,
+          "book": 12,
+          "question": 48,
+          "sample": "S1",
+          "sourceBookPages": "112–113",
+          "locatorNote": "DOCX table 118, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The route was mapped out in advance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mapped out in advance"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者怎樣準備主要步行路線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group had a planned route with bridge times and rest stops before setting off.",
+            "zh": "團隊出發前已有路線、橋樑時間及休息點安排。"
+          },
+          {
+            "id": "b",
+            "en": "The group chose the entire route only after reaching the bridge.",
+            "zh": "團隊到達橋樑後才決定整條路線。"
+          },
+          {
+            "id": "c",
+            "en": "The group has no meeting point or alternative path.",
+            "zh": "團隊沒有集合點或替代路線。"
+          },
+          {
+            "id": "d",
+            "en": "The route cannot change even if the bridge closes.",
+            "zh": "即使橋關閉，路線也絕不可變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主要路線在出發前已規劃，亦有必要的替代方案。",
+        "en": "Before the nature walk, a safe path was mapped out in advance. We checked bridge times, marked two rest stops and named a meeting point. If the bridge closes, we will use the approved alternative.",
+        "zh": "自然步行前，一條安全路線已事先規劃好。我們核對橋樑時間、標示兩處休息點，並指定集合地點。若橋關閉，便改用已批准的替代路線。"
+      },
+      "reply": {
+        "promptEn": "We checked bridge times, rest stops and a meeting point before the nature walk. Why is that useful?",
+        "promptZh": "（自然步行前，我們已核對橋樑時間、休息點和集合地點。這樣有甚麼用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Everyone knows the main route before leaving.",
+            "zh": "大家出發前已知道主要路線。"
+          },
+          {
+            "id": "b",
+            "en": "We can tell walkers where the rest stops are.",
+            "zh": "我們可告訴參加者休息點在哪裏。"
+          },
+          {
+            "id": "c",
+            "en": "A safe walking plan was mapped out in advance, so the group has a clear starting point.",
+            "zh": "安全步行計劃已事先規劃好，團隊有清楚的起步方案。"
+          },
+          {
+            "id": "d",
+            "en": "We can still use an approved alternative if conditions change.",
+            "zh": "情況變動時，我們仍可用已批准的替代路線。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均合理；金句概括主要路線已在事前確定。"
+      },
+      "scene": {
+        "promptZh": "搬運隊早在運貨前已確定入口、樓梯限制和每段搬運次序，並把安排交給每位隊員。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The delivery sequence was mapped out in advance.",
+            "zh": "送貨步驟次序已事先規劃好。"
+          },
+          {
+            "id": "b",
+            "en": "The team is choosing the entrance for the first time at the door.",
+            "zh": "團隊到了門口才首次選擇入口。"
+          },
+          {
+            "id": "c",
+            "en": "The team knows only the final address, not the route or order.",
+            "zh": "團隊只知道最後地址，不知道路線或次序。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主要路線和步驟在行動前已確定。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能證明 route was mapped out in advance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has a destination but waits until departure to choose roads or stops.",
+            "zh": "團隊有目的地，但出發時才選道路和停站。"
+          },
+          {
+            "id": "b",
+            "en": "The team checks access hours and tells drivers the sequence of stops beforehand.",
+            "zh": "團隊事前核對進出時間，並告知司機停站次序。"
+          },
+          {
+            "id": "c",
+            "en": "The team agrees on a main route and an approved alternative before leaving.",
+            "zh": "團隊出發前定好主要路線及已批准的替代路線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有目的地，主要路線仍未事先規劃。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們星期五要搬展示櫃。昨天已確認卸貨入口、升降機時段和目的房間。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The move was mapped out in advance, so let us give the sequence to the crew.",
+            "zh": "搬運已事先規劃好，我們把步驟次序交給工作人員。"
+          },
+          {
+            "id": "b",
+            "en": "We can check that the lift booking still stands.",
+            "zh": "我們可以確認升降機預訂仍有效。"
+          },
+          {
+            "id": "c",
+            "en": "The crew should receive the room list before Friday.",
+            "zh": "工作人員應在星期五前收到房間清單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把事前確定的主要步驟與交代安排連結。",
+        "promptEn": "A: We must move the display cases on Friday. The loading entrance, lift slot and destination rooms were confirmed yesterday. B: ______"
+      },
+      "speaking": {
+        "en": "The loading plan was mapped out in advance, with entrance times and a backup lift confirmed before the move.",
+        "zh": "搬運前已事先規劃卸貨安排，包括確認入口時間及後備升降機。",
+        "promptZh": "說出開始前已規劃的路線與至少兩項主要步驟。",
+        "targetSpan": {
+          "start": 21,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個團隊在活動開始前定好主要路線或步驟，同時保留合理替代安排。用英文寫出事前決定的資料。",
+        "selfCheckZh": "兩例必須是行動前規劃，不能只寫目的地。",
+        "examples": [
+          {
+            "en": "The school bus stops were mapped out in advance, with pickup times and an alternate stop agreed before the field trip.",
+            "zh": "校巴停站在戶外考察前已事先規劃好，包括接載時間和商定的後備停站。"
+          },
+          {
+            "en": "The archive transfer was mapped out in advance: staff confirmed the loading door, trolley order and a backup room before moving any boxes.",
+            "zh": "檔案搬運已事先規劃好：員工在搬箱前確認卸貨門、手推車次序和後備房間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "pickup times",
+            "zh": "接載時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 66
+            }
+          },
+          {
+            "en": "an alternate stop",
+            "zh": "後備停站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 88
+            }
+          },
+          {
+            "en": "the field trip",
+            "zh": "戶外考察",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          },
+          {
+            "en": "the loading door",
+            "zh": "卸貨門",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 80
+            }
+          },
+          {
+            "en": "a backup room",
+            "zh": "後備房間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A route mapped out in advance gives the group a clear starting plan.",
+          "zh": "事先規劃好的路線讓團隊有清楚的起步安排。"
+        },
+        {
+          "en": "The gallery move was mapped out in advance, including lift access and a backup entrance.",
+          "zh": "畫廊搬遷已事先規劃好，包括升降機通道和後備入口。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3339",
+      "number": 3339,
+      "inventoryId": "expr-3339",
+      "titleEn": "take opportunities as they come",
+      "titleZh": "機會來時把握",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking) opportunities as they come\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Respond to worthwhile chances when they arise rather than requiring every chance to be scheduled far ahead.",
+        "meaningZh": "有合適機會出現時便衡量並把握，不一定全要很早預訂。",
+        "grammar": "take opportunities as they come; took is past, taken needs an auxiliary. Opportunities and they are plural.",
+        "register": "Neutral conversational advice. A freelance mentor may use it with a newer freelancer discussing work invitations.",
+        "boundaryZh": "要評估機會是否合適及自己能否承擔；並非每個突然出現的邀請都必須接受。",
+        "misconceptionZh": "不是消極等運氣，也不等於放棄現有承諾。",
+        "outcomeZh": "能根據機會出現的時機、價值和現有承諾作靈活選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1228",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 114,
+          "book": 12,
+          "question": 48,
+          "sample": "S1",
+          "sourceBookPages": "112–113",
+          "locatorNote": "DOCX table 118, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Freelancers often take opportunities as they come.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take opportunities as they come"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者接受畫廊工作前做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Checked that its deadline fitted alongside existing work.",
+            "zh": "核對期限是否能與現有工作並行。"
+          },
+          {
+            "id": "b",
+            "en": "Cancelled all current commitments without checking.",
+            "zh": "未核對便取消所有現有承諾。"
+          },
+          {
+            "id": "c",
+            "en": "Waited for the job to be offered again next year.",
+            "zh": "等到明年再次獲邀。"
+          },
+          {
+            "id": "d",
+            "en": "Accepted every invitation automatically.",
+            "zh": "自動接受每項邀請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者衡量時間後才把握新機會。",
+        "en": "A local gallery offered me a short design job after another artist withdrew. I checked the deadline against my current work and accepted it. As a freelancer, I take opportunities as they come, but I do not accept every invitation blindly.",
+        "zh": "另一名藝術家退出後，本地畫廊給我一份短期設計工作。我把期限與現有工作比較後接下。做自由工作者，我會在機會來時把握，但不盲目接受每項邀請。"
+      },
+      "reply": {
+        "promptEn": "A short design job appeared unexpectedly. Its deadline seems manageable alongside my current work. How should I decide?",
+        "promptZh": "（一份短期設計工作突然出現；期限似乎能與現有工作並行。我應怎樣決定？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check the exact delivery date before agreeing.",
+            "zh": "答應前核對確實交件日期。"
+          },
+          {
+            "id": "b",
+            "en": "Consider whether the job fits my skills and commitments.",
+            "zh": "衡量工作是否符合能力與承諾。"
+          },
+          {
+            "id": "c",
+            "en": "I can take opportunities as they come if I first check that I can deliver.",
+            "zh": "若先核對自己能否交付，我可以在機會來時把握。"
+          },
+          {
+            "id": "d",
+            "en": "Ask for the work scope in writing.",
+            "zh": "請對方書面列明工作範圍。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都審慎；金句點出靈活把握但不盲目接受。"
+      },
+      "scene": {
+        "promptZh": "圖書館臨時邀請一位插畫師主持一小時活動；她先核對已有工作和所需準備，再接受合適邀請。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She takes opportunities as they come while checking her capacity.",
+            "zh": "她衡量能力後，在機會來時把握。"
+          },
+          {
+            "id": "b",
+            "en": "She rejects every unscheduled invitation without considering it.",
+            "zh": "她不作考慮便拒絕所有未預排的邀請。"
+          },
+          {
+            "id": "c",
+            "en": "She promises to lead three activities at the same hour.",
+            "zh": "她承諾同一小時帶領三項活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "邀請出現後，她先評估再把握。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像負責任地 take opportunities as they come？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Accept an urgent job without checking a conflicting promise to an existing client.",
+            "zh": "不核對與現有客戶的承諾是否衝突，便接受緊急工作。"
+          },
+          {
+            "id": "b",
+            "en": "Compare a new invitation with the week’s current deadlines before accepting.",
+            "zh": "接受新邀請前，先與本週期限比較。"
+          },
+          {
+            "id": "c",
+            "en": "Decline an unexpected offer when there is no capacity to do it well.",
+            "zh": "沒有能力做好時，婉拒突如其來的邀請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "機會來時仍須尊重已作承諾。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：社區中心剛邀請我們星期六辦工作坊。當天沒有其他活動，但仍須確認人手。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can take opportunities as they come; first check who is available and what they need.",
+            "zh": "我們可在機會來時把握；先核對誰有空、對方需要甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "Ask for the venue and expected group size.",
+            "zh": "詢問場地及預計參加人數。"
+          },
+          {
+            "id": "c",
+            "en": "Check whether two facilitators can attend.",
+            "zh": "核對兩名導師能否出席。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把突然出現的機會與可行性核對連結。",
+        "promptEn": "A: A community centre just invited us to run a Saturday workshop. We have no event that day, but need to confirm staff. B: ______"
+      },
+      "speaking": {
+        "en": "The photographer takes opportunities as they come, but checks each new commission against work already promised.",
+        "zh": "攝影師在機會出現時把握，但會核對每份新委託與已有工作承諾是否衝突。",
+        "promptZh": "說出機會如何出現、為何合適，以及如何遵守原有承諾。",
+        "targetSpan": {
+          "start": 17,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項有價值的邀請突然出現；當事人先核對時間和現有承諾，再決定是否接受。用英文寫出機會、核對和決定。",
+        "selfCheckZh": "兩例要避免「每個機會都接受」；選擇須有理由。",
+        "examples": [
+          {
+            "en": "Hana takes opportunities as they come: when an editor offered a one-day illustration commission, she accepted only after confirming it would not delay her promised book cover.",
+            "zh": "Hana 在機會來時把握：編輯提出一天的插畫委託時，她先確認不會延誤已承諾的書籍封面，才接受。"
+          },
+          {
+            "en": "The coach takes opportunities as they come: after a club invited her to teach a short clinic, she checked the timetable and accepted because her team had no match that day.",
+            "zh": "教練在機會來時把握：社團邀請她主持短期訓練，她核對時間表後，因隊伍當天沒有比賽而接受。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a one-day illustration commission",
+            "zh": "一天的插畫委託",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 95
+            }
+          },
+          {
+            "en": "her promised book cover",
+            "zh": "已承諾的書籍封面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 174
+            }
+          },
+          {
+            "en": "a short clinic",
+            "zh": "短期訓練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 92
+            }
+          },
+          {
+            "en": "no match that day",
+            "zh": "當天沒有比賽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 171
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Taking opportunities as they come still requires checking commitments.",
+          "zh": "機會來時把握，仍要核對現有承諾。"
+        },
+        {
+          "en": "The illustrator takes opportunities as they come, after checking that each new job fits her deadlines.",
+          "zh": "插畫師在機會來時把握，但會先核對每份新工作能否配合期限。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3359",
+      "number": 3359,
+      "inventoryId": "expr-3359",
+      "titleEn": "look into",
+      "titleZh": "調查；了解清楚",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:look|looks|looked|looking) into\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Investigate or examine a reported matter before reaching a conclusion.",
+        "meaningZh": "在下結論前調查或了解一件被提出的事情。",
+        "grammar": "look into + complaint/issue/report/question; looked into is past, looking into is progressive. Here into is part of the phrasal verb, not a physical direction.",
+        "register": "Neutral everyday and official speech. A council officer may tell a resident how a complaint will be examined.",
+        "boundaryZh": "表示開始查證，不代表已證實投訴屬實，也不保證一定有某種結果。",
+        "misconceptionZh": "不是字面上往某個空間裏看，也不等於只重述未經核實的說法。",
+        "outcomeZh": "能說明要核對甚麼資料、由誰跟進，以及不預斷結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1248",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 116,
+          "book": 12,
+          "question": 50,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 120, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The council will look into the complaint.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "look into"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "議會如何處理投訴？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It will check timing records and observe the crossing before deciding.",
+            "zh": "議會會核對時間紀錄並觀察路口，之後才決定。"
+          },
+          {
+            "id": "b",
+            "en": "It has already concluded that the residents are wrong.",
+            "zh": "議會已斷定居民說錯。"
+          },
+          {
+            "id": "c",
+            "en": "It has changed the light without collecting information.",
+            "zh": "議會未蒐集資料就已改燈號。"
+          },
+          {
+            "id": "d",
+            "en": "It will only repeat the complaint without checking it.",
+            "zh": "議會只會重述投訴，不作查證。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "查紀錄並實地觀察，是調查而非預判。",
+        "en": "Residents say the crossing light changes too quickly. A council officer will look into the report by checking timing records and observing busy-hour crossings. No signal change has been approved yet.",
+        "zh": "居民說過路燈轉換太快。議會職員會核對時間紀錄，並在繁忙時段觀察路口，以調查報告；目前尚未批准調整燈號。"
+      },
+      "reply": {
+        "promptEn": "Residents say the crossing light changes too quickly. We have not checked the timing yet. What should the council do?",
+        "promptZh": "（居民說過路燈轉換太快。我們尚未核對時間。議會應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check the signal records at busy hours.",
+            "zh": "核對繁忙時段的燈號紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "Observe how long people have to cross.",
+            "zh": "觀察行人有多少時間過路。"
+          },
+          {
+            "id": "c",
+            "en": "We should look into the complaint before deciding whether to change the signal.",
+            "zh": "決定是否調整燈號前，我們應先調查投訴。"
+          },
+          {
+            "id": "d",
+            "en": "Ask residents when the problem usually occurs.",
+            "zh": "問居民問題通常何時出現。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是查證途徑；金句把調查與未作結論分開。"
+      },
+      "scene": {
+        "promptZh": "家長反映校巴到站時間不穩定；主任查看行車紀錄、詢問司機，尚未判定原因。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The school is looking into the arrival-time complaint.",
+            "zh": "學校正在調查到站時間不穩定的投訴。"
+          },
+          {
+            "id": "b",
+            "en": "The school has already proved that every bus was late.",
+            "zh": "學校已證明每班校巴都遲到。"
+          },
+          {
+            "id": "c",
+            "en": "The school is refusing to check any records.",
+            "zh": "學校拒絕核對任何紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核對資料、詢問相關人員，正是了解清楚問題。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 look into a complaint？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeat the rumour publicly without asking for records or speaking to anyone involved.",
+            "zh": "不索取紀錄、不問相關人士，便公開重述傳聞。"
+          },
+          {
+            "id": "b",
+            "en": "Compare dated records with the report.",
+            "zh": "把有日期的紀錄與報告比較。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the people involved for their accounts before deciding.",
+            "zh": "作決定前，先請相關人士說明。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有蒐集或核對資料，不算調查。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：三位顧客說升降機昨天停在樓層之間，但我們還未查看維修紀錄。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us look into the report by checking the service log before we explain what happened.",
+            "zh": "我們先查維修紀錄，調查報告內容，再解釋發生甚麼事。"
+          },
+          {
+            "id": "b",
+            "en": "Ask the lift contractor for the alarm history.",
+            "zh": "向升降機承辦商索取警報紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "Record the customers’ times so we can compare them with the log.",
+            "zh": "記下顧客所說的時間，以便與紀錄比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句清楚提出核查資料而非先下定論。",
+        "promptEn": "A: Three customers say the lift stopped between floors yesterday, but we have not checked the service log. B: ______"
+      },
+      "speaking": {
+        "en": "The team will look into the missing deliveries by comparing signed receipts with the dispatch list.",
+        "zh": "團隊會把簽收單與出貨清單比較，以調查送貨失蹤問題。",
+        "promptZh": "交代收到的報告、要查的證據和暫未下結論。",
+        "targetSpan": {
+          "start": 14,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人提出投訴或異常情況；負責人查證具體資料，尚未預斷結果。用英文寫出問題及查證方法。",
+        "selfCheckZh": "兩例不得把調查等同投訴已證實。",
+        "examples": [
+          {
+            "en": "The librarian looked into a complaint about missing reservations by comparing booking emails with the desk log before replying.",
+            "zh": "圖書館員回覆前，把預訂電郵與櫃檯紀錄比較，以調查預約遺失的投訴。"
+          },
+          {
+            "en": "The coach is looking into the reported score error by reviewing the match sheet and speaking to both timekeepers; no change has been approved yet.",
+            "zh": "教練正查閱比賽紀錄並詢問兩名計時員，以調查有人反映的計分錯誤；目前尚未批准更改分數。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "missing reservations",
+            "zh": "遺失的預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 64
+            }
+          },
+          {
+            "en": "booking emails",
+            "zh": "預訂電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 92
+            }
+          },
+          {
+            "en": "the desk log",
+            "zh": "櫃檯紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 110
+            }
+          },
+          {
+            "en": "the match sheet",
+            "zh": "比賽紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 79
+            }
+          },
+          {
+            "en": "both timekeepers",
+            "zh": "兩名計時員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To look into a report is to investigate it, not to assume it is true.",
+          "zh": "調查報告，是查證而非假定它屬實。"
+        },
+        {
+          "en": "The librarian will look into the missing-book report before charging a replacement fee.",
+          "zh": "圖書館員會先調查失書報告，才決定是否收取補購費。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3377",
+      "number": 3377,
+      "inventoryId": "expr-3377",
+      "titleEn": "feel hollow",
+      "titleZh": "令人感到空虛；缺少滿足感",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:feel|feels|felt|feeling) hollow\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Seem emotionally empty or unsatisfying despite an initial attraction or apparent success.",
+        "meaningZh": "起初看似吸引或成功，過後卻缺少真正的滿足感。",
+        "grammar": "feel hollow is a linking-verb phrase; felt hollow is past. A purchase, victory or experience can be the subject.",
+        "register": "Reflective neutral speech. A friend may say it to another friend when discussing an impulse purchase.",
+        "boundaryZh": "描述個人感受，不代表物件品質必然差，也不表示每次購物或勝利都會如此。",
+        "misconceptionZh": "不是物件內部空心，也不等於很快就討厭或退貨。",
+        "outcomeZh": "能對比短暫興奮與其後欠缺意義或滿足的感受。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1266",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 117,
+          "book": 12,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "118–120",
+          "locatorNote": "DOCX table 121, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Impulse purchases can feel hollow a week later.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "feel hollow"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者為何說這次購物缺少滿足感？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The initial excitement faded although the jacket still fits.",
+            "zh": "外套仍合身，但起初的興奮已消退。"
+          },
+          {
+            "id": "b",
+            "en": "The jacket no longer fits after one week.",
+            "zh": "一星期後外套已不合身。"
+          },
+          {
+            "id": "c",
+            "en": "The shop refused to sell the jacket.",
+            "zh": "商店拒絕出售外套。"
+          },
+          {
+            "id": "d",
+            "en": "The jacket was physically hollow inside.",
+            "zh": "外套內部真的空心。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者談的是情緒滿足，而非外套的尺寸或物理構造。",
+        "en": "I bought the expensive jacket on impulse because everyone praised it. A week later it still fits, but the purchase feels hollow: the excitement faded, and I did not need another coat.",
+        "zh": "大家稱讚那件昂貴外套，我便一時衝動買下。一星期後，它仍合身，但這次購物令我感到空虛：興奮已消退，我原本也不需要另一件外套。"
+      },
+      "reply": {
+        "promptEn": "I bought a jacket on impulse after people praised it. It still fits, but I did not need it and the excitement has faded. How do I describe the feeling?",
+        "promptZh": "（大家稱讚一件外套，我便衝動買下。它仍合身，但我原本不需要它，興奮感也消退了。怎樣形容感受？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The purchase did not bring the satisfaction I expected.",
+            "zh": "這次購物沒有帶來預期的滿足感。"
+          },
+          {
+            "id": "b",
+            "en": "The praise mattered more at first than the jacket itself.",
+            "zh": "起初，別人的稱讚比外套本身更重要。"
+          },
+          {
+            "id": "c",
+            "en": "The purchase now feels hollow despite the early excitement.",
+            "zh": "儘管起初興奮，這次購物現在令人感到空虛。"
+          },
+          {
+            "id": "d",
+            "en": "I can reflect on why I wanted it before buying again.",
+            "zh": "我可以在再買東西前想清楚當初為何想要它。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應感受；金句表達外在獲得與內在滿足的落差。"
+      },
+      "scene": {
+        "promptZh": "團隊贏了比賽，卻因為決賽把新成員排除在外，事後有人覺得獎杯沒有想像中令人滿足。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The victory felt hollow to some members despite the trophy.",
+            "zh": "儘管有獎杯，一些成員仍覺得勝利缺少滿足感。"
+          },
+          {
+            "id": "b",
+            "en": "The team did not win a trophy.",
+            "zh": "團隊沒有贏得獎杯。"
+          },
+          {
+            "id": "c",
+            "en": "Every member felt proud of how the final was run.",
+            "zh": "每位成員都對決賽安排感到自豪。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "表面有勝利，內在感受卻不充實。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能支持 an experience feels hollow？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The person enjoyed the event and still finds it meaningful a month later.",
+            "zh": "那人享受活動，一個月後仍覺得有意義。"
+          },
+          {
+            "id": "b",
+            "en": "The applause was loud, but the person felt no connection to the work.",
+            "zh": "掌聲很響，那人卻對作品沒有投入感。"
+          },
+          {
+            "id": "c",
+            "en": "The prize looked impressive, but the person regretted excluding teammates.",
+            "zh": "獎項很風光，那人卻後悔排除隊友。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續覺得有意義，與缺乏滿足感相反。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：團隊得獎，卻沒有讓做了很多工作的義工參與。掌聲沒有令我開心。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The award may feel hollow if the people who helped were left out.",
+            "zh": "若有功勞的人被排除，獎項可能令人感到空虛。"
+          },
+          {
+            "id": "b",
+            "en": "You could ask how to recognise the volunteers now.",
+            "zh": "你可問現在能怎樣表揚義工。"
+          },
+          {
+            "id": "c",
+            "en": "It makes sense to care about the people behind the work.",
+            "zh": "在意幕後付出的人，是可以理解的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句直接表達表面成就與內在失落的落差。",
+        "promptEn": "A: The team received an award, but we left out the volunteers who did much of the work. The applause did not make me happy. B: ______"
+      },
+      "speaking": {
+        "en": "The quick online praise felt hollow to Mina once she realised she had not shared credit with the rest of the team.",
+        "zh": "Mina 發現自己沒有與團隊其他人分享功勞後，覺得網上的一時稱讚空洞而缺乏滿足。",
+        "promptZh": "交代起初吸引之處及後來為何感到欠缺滿足。",
+        "targetSpan": {
+          "start": 24,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項購物、獎項或稱讚起初令人興奮，之後因個人價值或需要而感到空虛。用英文寫出前後落差。",
+        "selfCheckZh": "兩例要有短暫吸引與其後欠缺滿足；不要把 hollow 當作實體空心。",
+        "examples": [
+          {
+            "en": "Jae was excited when he bought the camera on impulse, but the purchase felt hollow after the novelty wore off and the unused camera stayed in its box.",
+            "zh": "Jae 衝動買下相機時很興奮，但新鮮感消失、相機仍未拆盒後，便覺得那次購物缺少滿足感。"
+          },
+          {
+            "en": "At first the captain was thrilled by the design prize, but the win felt hollow after she realised the team’s helpers had been omitted from the thank-you speech.",
+            "zh": "隊長起初因贏得設計獎而興奮；但發現感謝詞漏掉幫忙的隊員後，便覺得勝利缺少滿足感。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the novelty",
+            "zh": "新鮮感",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 100
+            }
+          },
+          {
+            "en": "the unused camera",
+            "zh": "未使用的相機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 131
+            }
+          },
+          {
+            "en": "its box",
+            "zh": "盒子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 149
+            }
+          },
+          {
+            "en": "the design prize",
+            "zh": "設計獎",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 53
+            }
+          },
+          {
+            "en": "the thank-you speech",
+            "zh": "感謝詞",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 159
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Something can feel hollow even when it looks successful from outside.",
+          "zh": "即使外表成功，事情仍可能令人感到空虛。"
+        },
+        {
+          "en": "The trophy felt hollow when the captain realised two helpers had not been thanked.",
+          "zh": "隊長發現兩名幫手未獲感謝時，覺得獎杯缺少滿足感。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3380",
+      "number": 3380,
+      "inventoryId": "expr-3380",
+      "titleEn": "heavily tilted towards",
+      "titleZh": "明顯偏重於",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bheavily tilted towards?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Distributed so that one area receives a much larger share than alternatives.",
+        "meaningZh": "資源或安排明顯偏向其中一項，比例遠多於其他項目。",
+        "grammar": "heavily tilted towards + noun; toward is also accepted in American English. Usually describes a budget, schedule or balance.",
+        "register": "Neutral analytical phrase. A committee member may use it to colleagues while reviewing how a budget is divided.",
+        "boundaryZh": "偏重不一定錯；須根據比例及實際需要評估，不能只見金額較大便斷定不公平。",
+        "misconceptionZh": "不是實物傾斜，也不代表其他項目完全沒有資源。",
+        "outcomeZh": "能指出哪一項佔較大比例、其餘項目如何受影響，以及是否有合理原因。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1269",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 118,
+          "book": 13,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 122, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The budget is heavily tilted towards transport.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heavily tilted towards"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者說預算偏重交通，有甚麼根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Transport receives seventy percent, leaving thirty percent for two other needs.",
+            "zh": "交通佔七成，兩項其他需要共分三成。"
+          },
+          {
+            "id": "b",
+            "en": "All three categories receive exactly the same share.",
+            "zh": "三個項目得到完全相同的份額。"
+          },
+          {
+            "id": "c",
+            "en": "Meals receive all the funding.",
+            "zh": "膳食得到全部經費。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker has already proved the split is unjustified.",
+            "zh": "講者已證明分配毫無道理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "七成與三成的對比顯示比例明顯偏向交通，但合理性仍須評估。",
+        "en": "The draft budget gives seventy percent to transport; meals and materials share the remaining thirty percent. It is heavily tilted towards transport. Long distances may justify this, but we must check the other needs.",
+        "zh": "預算草案把七成撥給交通；膳食和物資共分餘下三成。它明顯偏重交通。路程長或許是合理原因，但我們仍須檢查其他需要。"
+      },
+      "reply": {
+        "promptEn": "Transport gets seventy percent of the trip budget; meals and materials share the rest. What can we say before judging whether this is fair?",
+        "promptZh": "（交通佔旅程預算七成；膳食和物資共分餘下部分。判斷是否公平前，可以怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The share for transport is much larger than either other category.",
+            "zh": "交通份額遠多於任何一個其他項目。"
+          },
+          {
+            "id": "b",
+            "en": "We should check whether long journeys explain the cost.",
+            "zh": "我們應檢查長途車程能否解釋成本。"
+          },
+          {
+            "id": "c",
+            "en": "A seventy-percent share leaves the budget heavily tilted towards transport, though that may be justified.",
+            "zh": "七成份額令預算明顯偏重交通，但可能有合理原因。"
+          },
+          {
+            "id": "d",
+            "en": "Check whether the remaining amount still covers meals and materials.",
+            "zh": "檢查餘款是否足夠膳食和物資。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句描述分配偏向而不預斷對錯。"
+      },
+      "scene": {
+        "promptZh": "社團本月有二十小時活動時間，其中十五小時用於排練，只剩五小時給宣傳與培訓。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The schedule is heavily tilted towards rehearsals.",
+            "zh": "時間表明顯偏重排練。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule divides time equally among all three areas.",
+            "zh": "時間表把時間平均分給三個範疇。"
+          },
+          {
+            "id": "c",
+            "en": "The schedule has no rehearsals at all.",
+            "zh": "時間表完全沒有排練。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十五小時明顯多於餘下兩項合計五小時。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明某項預算 is heavily tilted towards transport？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Transport, meals and materials each receive roughly one third.",
+            "zh": "交通、膳食和物資各佔約三分之一。"
+          },
+          {
+            "id": "b",
+            "en": "Transport receives seventy percent while two other needs share thirty.",
+            "zh": "交通佔七成，另外兩項共分三成。"
+          },
+          {
+            "id": "c",
+            "en": "Transport receives twice the combined allocation for the other categories.",
+            "zh": "交通經費是其他項目合計的兩倍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比例接近平均，不能說明顯偏重交通。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：訓練計劃十六節中，十二節給考試操練，討論及寫作合共只有四節。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The plan is heavily tilted towards exam drills; let us check whether that fits the learners’ needs.",
+            "zh": "計劃明顯偏重考試操練；不如核對是否符合學員需要。"
+          },
+          {
+            "id": "b",
+            "en": "We can ask learners which skills need more time.",
+            "zh": "我們可問學員哪些技能需要更多時間。"
+          },
+          {
+            "id": "c",
+            "en": "The schedule may be reasonable if exams are near, but we should review it.",
+            "zh": "若考試將近，安排可能合理，但仍應檢討。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出比例偏向，並把是否合理留待檢查。",
+        "promptEn": "A: The training plan gives twelve of sixteen sessions to exam drills and only four to discussion and writing together. B: ______"
+      },
+      "speaking": {
+        "en": "The grant is heavily tilted towards transport, so the committee checked whether the smaller meal and material budgets still met essential needs.",
+        "zh": "補助金明顯偏重交通，因此委員會檢查較少的膳食及物資預算是否仍能滿足基本需要。",
+        "promptZh": "列出偏重項、比例或比較基準，再說明要核對甚麼。",
+        "targetSpan": {
+          "start": 13,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：預算或時間明顯分給某一項較多；團隊仍須評估原因及其他需要。用英文寫出比例或清楚比較。",
+        "selfCheckZh": "不能只因「多一點」便說 heavily；兩例須有明顯差距。",
+        "examples": [
+          {
+            "en": "The youth centre’s timetable is heavily tilted towards sport: fourteen of eighteen sessions are games, leaving four for art and music, so staff asked whether families wanted more balance.",
+            "zh": "青年中心時間表明顯偏重運動：十八節中十四節是球類活動，藝術和音樂合共只有四節，因此員工詢問家庭是否希望更均衡。"
+          },
+          {
+            "en": "The festival budget was heavily tilted towards stage equipment, with three quarters spent there; the organisers checked whether the remaining funds covered access signs and water.",
+            "zh": "節慶預算明顯偏重舞台器材，四分之三用於此項；主辦人檢查餘款是否足夠無障礙標示及食水。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fourteen of eighteen sessions",
+            "zh": "十八節中十四節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 91
+            }
+          },
+          {
+            "en": "art and music",
+            "zh": "藝術和音樂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 133
+            }
+          },
+          {
+            "en": "more balance",
+            "zh": "更均衡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 174,
+              "end": 186
+            }
+          },
+          {
+            "en": "three quarters",
+            "zh": "四分之三",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 83
+            }
+          },
+          {
+            "en": "access signs",
+            "zh": "無障礙標示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 168
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Heavily tilted towards describes an uneven share, not automatically an unfair one.",
+          "zh": "明顯偏重某項，描述分配不均，並不自動表示不公平。"
+        },
+        {
+          "en": "The training week is heavily tilted towards lectures, leaving little time for practice.",
+          "zh": "訓練週明顯偏重講課，留給練習的時間很少。"
+        }
+      ]
+    }
+  ]
+}

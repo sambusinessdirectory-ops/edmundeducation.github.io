@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3640-3689-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3640",
+      "number": 3640,
+      "inventoryId": "expr-3640",
+      "titleEn": "not all or nothing",
+      "titleZh": "並非非此即彼",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:not\\s+)?all\\s+or\\s+nothing\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A decision need not be limited to the two extremes; workable middle options may exist.",
+        "meaningZh": "決定不必局限於兩個極端；中間可能有可行方案。",
+        "grammar": "X is not all or nothing; all-or-nothing can also modify thinking. Name both extremes and the middle option.",
+        "register": "Community planning: a facilitator rejects a choice between closing a public garden entirely and leaving it open at every hour.",
+        "boundaryZh": "中間方案要可行，不是每件事都能毫無代價地折衷。",
+        "misconceptionZh": "不是甚麼也不決定，也不保證每種中間安排都安全。",
+        "outcomeZh": "能明確說出兩個極端和有條件的第三方案。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1529",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 143,
+          "book": 14,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 152, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Safety and independence are not all or nothing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not all or nothing"
+        }
+      ],
+      "listening": {
+        "en": "The garden need not be locked all week or left open overnight. Daytime access with evening closure shows the choice is not all or nothing.",
+        "zh": "花園不必整週上鎖，也不必通宵開放。白天開放、晚上關閉，說明選擇並非非此即彼。",
+        "promptZh": "not all or nothing 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A workable option exists between the extremes.",
+            "zh": "兩個極端之間有可行選項。"
+          },
+          {
+            "id": "b",
+            "en": "The garden must be open at every hour.",
+            "zh": "花園必須全天候開放。"
+          },
+          {
+            "id": "c",
+            "en": "The garden must close permanently.",
+            "zh": "花園必須永久關閉。"
+          },
+          {
+            "id": "d",
+            "en": "No decision will ever be needed.",
+            "zh": "永遠不須作決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "白天開、晚上關是明確的中間安排。"
+      },
+      "reply": {
+        "promptEn": "A club debates whether beginners must either join every expedition or stay home. The organiser suggests a shorter supervised route first. What does this proposal show?",
+        "promptZh": "（社團爭論初學者是否只能參加所有遠足或留在家中；組織者建議先參加有導師的較短路線。這提議說明甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "There is a staged participation option.",
+            "zh": "可分階段參加。"
+          },
+          {
+            "id": "b",
+            "en": "Beginners can try a supervised route.",
+            "zh": "初學者可先試有導師的路線。"
+          },
+          {
+            "id": "c",
+            "en": "Joining the club is not all or nothing.",
+            "zh": "參加社團並非非此即彼。"
+          },
+          {
+            "id": "d",
+            "en": "The proposal avoids both extreme choices.",
+            "zh": "提議避開兩個極端。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出具體中間方案，而非否認要作決定。"
+      },
+      "scene": {
+        "promptZh": "學校考慮全面禁止學生用電腦或全天自由使用，最後提出只在有老師指導的研究課使用。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Computer access is not all or nothing.",
+            "zh": "電腦使用並非非此即彼。"
+          },
+          {
+            "id": "b",
+            "en": "Any middle rule is automatically safe.",
+            "zh": "任何中間規則都自動安全。"
+          },
+          {
+            "id": "c",
+            "en": "No rules are needed.",
+            "zh": "不需要任何規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有條件研究課使用是第三種安排。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 not all or nothing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A timetable allows two trial days before full adoption.",
+            "zh": "時間表先試行兩天再考慮全面採用。"
+          },
+          {
+            "id": "b",
+            "en": "A safety test has a strict legal pass/fail threshold with no permissible middle result.",
+            "zh": "安全測試有法定通過／不通過界線，沒有合法中間結果。"
+          },
+          {
+            "id": "c",
+            "en": "A library opens selected evenings instead of all evenings or none.",
+            "zh": "圖書館只選部分晚上開放，不是全開或全不開。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "依法只有兩種結果，不能憑意願設第三結果。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「不是 all or nothing，所以任何折衷都合理。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not all or nothing means considering middle options, but each option still needs to work safely.",
+            "zh": "並非非此即彼，表示可考慮中間方案，但仍須確保方案安全可行。"
+          },
+          {
+            "id": "b",
+            "en": "Every compromise automatically solves the problem.",
+            "zh": "任何折衷都自動解決問題。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means refusing to decide.",
+            "zh": "片語指拒絕作決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中間方案並非免於驗證。"
+      },
+      "speaking": {
+        "en": "The rehearsal choice is not all or nothing: new players can attend the first half before joining a full session later.",
+        "zh": "排練選擇並非非此即彼：新成員可先參加上半節，再於日後參加全程。",
+        "promptZh": "先聽示範，再指出新成員的中間選項。",
+        "targetSpan": {
+          "start": 24,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區游泳池因救生員人手不足，討論「整個暑假關閉」與「照舊全天開放」；中心可在救生員當值的下午時段開放，早上關閉，仍須公布安排。用一至兩句英文說明第三方案與限制。",
+        "selfCheckZh": "寫出兩個極端、救生員當值下午開放、早上關閉、仍須公布。",
+        "examples": [
+          {
+            "en": "The pool choice is not all or nothing: instead of closing for summer or opening all day, it could open only during lifeguard-staffed afternoons, with mornings closed; the centre must announce those hours.",
+            "zh": "泳池選擇並非非此即彼：可不必整個夏天關閉，也不必全天開放，只在救生員當值的下午開放，早上則關閉；中心仍須公布時段。"
+          },
+          {
+            "en": "Rather than full closure or unrestricted hours, the centre could use a lifeguard-only afternoon schedule; access is not all or nothing, though the hours still need announcing.",
+            "zh": "中心可不選全面關閉或不設限制，而改用只在有救生員的下午開放的時間表；使用安排並非非此即彼，但仍須公布時段。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "closing for summer",
+            "zh": "整個夏天關閉",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 68
+            }
+          },
+          {
+            "en": "opening all day",
+            "zh": "全天開放",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 87
+            }
+          },
+          {
+            "en": "lifeguard-staffed afternoons",
+            "zh": "救生員當值的下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 143
+            }
+          },
+          {
+            "en": "mornings closed",
+            "zh": "早上關閉",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 165
+            }
+          },
+          {
+            "en": "unrestricted hours",
+            "zh": "不設限制的開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 46
+            }
+          },
+          {
+            "en": "need announcing",
+            "zh": "仍須公布",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 174
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A choice can be not all or nothing when a workable middle option exists.",
+          "zh": "有可行中間方案時，選擇可並非非此即彼。"
+        },
+        {
+          "en": "Not all or nothing does not make every compromise workable.",
+          "zh": "並非非此即彼，不表示任何折衷都可行。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3673",
+      "number": 3673,
+      "inventoryId": "expr-3673",
+      "titleEn": "uprooted",
+      "titleZh": "離開熟悉環境而失去歸屬感",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\buprooted\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Displaced from a familiar place or community, with a feeling of lost stability or belonging.",
+        "meaningZh": "離開熟悉地方或社群，感到生活根基或歸屬感被打亂。",
+        "grammar": "Feel/be uprooted after/by a move; can describe people, families or communities. The plant-root image is figurative.",
+        "register": "Community-support discussion: a social worker listens to a family relocated after their housing block closes.",
+        "boundaryZh": "搬遷不一定令人人感到失根；要有失去熟悉支援或歸屬感的線索。",
+        "misconceptionZh": "不是人真的有樹根被拔走，也不能因新住所較好便否認適應困難。",
+        "outcomeZh": "能指出搬遷失去的熟悉關係，以及仍可能得到的新支援。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1562",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 146,
+          "book": 14,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 156, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The child felt uprooted after changing schools.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "uprooted"
+        }
+      ],
+      "listening": {
+        "en": "When the riverside flats closed, Arun’s family moved across town. He missed his neighbours and familiar market, and felt uprooted despite the safer new home.",
+        "zh": "河邊屋邨關閉後，阿倫一家搬到城另一邊。雖然新居較安全，他仍掛念鄰居和熟悉的街市，感到失去歸屬。",
+        "promptZh": "felt uprooted 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Lost familiar ties and stability after moving.",
+            "zh": "搬遷後失去熟悉連結與安定感。"
+          },
+          {
+            "id": "b",
+            "en": "Had tree roots physically removed.",
+            "zh": "樹根真的被拔走。"
+          },
+          {
+            "id": "c",
+            "en": "Disliked every feature of the safer home.",
+            "zh": "討厭較安全新居的每一點。"
+          },
+          {
+            "id": "d",
+            "en": "Had already settled in completely.",
+            "zh": "已經完全適應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "掛念鄰居與街市，支持失去熟悉環境的感受。"
+      },
+      "reply": {
+        "promptEn": "Why did a housing group pair newcomers with local volunteers? Families had moved from an island to the city and missed the neighbours who had helped them for years.",
+        "promptZh": "（房屋團體為何安排本地義工協助新搬來者？一些家庭從離島搬入市區，掛念多年來互相幫助的鄰居。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They had lost familiar community support.",
+            "zh": "他們失去了熟悉的社區支援。"
+          },
+          {
+            "id": "b",
+            "en": "The move disrupted long-standing ties.",
+            "zh": "搬遷打亂了長久關係。"
+          },
+          {
+            "id": "c",
+            "en": "Some families felt uprooted.",
+            "zh": "部分家庭感到失去歸屬。"
+          },
+          {
+            "id": "d",
+            "en": "Volunteers could help them form new connections.",
+            "zh": "義工可協助他們建立新連結。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認舊社群連結被打亂，並未假設所有家庭感受相同。"
+      },
+      "scene": {
+        "promptZh": "老店搬離經營三十年的街區，店主說新店設備好，卻很想念每日見面的鄰里。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The owner feels uprooted.",
+            "zh": "店主感到失去熟悉歸屬。"
+          },
+          {
+            "id": "b",
+            "en": "The new equipment proves no loss is possible.",
+            "zh": "新設備證明不可能有失落。"
+          },
+          {
+            "id": "c",
+            "en": "The owner has real plant roots.",
+            "zh": "店主真的有植物根。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "設備改善與失去熟悉關係可同時存在。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 uprooted？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A family voluntarily changes flats nearby and keeps its daily neighbours, routines and support.",
+            "zh": "一家自願搬到附近，日常鄰里、習慣和支援都保持不變。"
+          },
+          {
+            "id": "b",
+            "en": "Residents are relocated far away and miss their regular community network.",
+            "zh": "居民被遷往遠處，掛念原有社區網絡。"
+          },
+          {
+            "id": "c",
+            "en": "A person moves for work and feels cut off from long-time friends.",
+            "zh": "有人為工作搬遷，感到與老朋友失去聯繫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有顯示失去熟悉連結或歸屬感。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新屋更安全，所以不可能感到 uprooted。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A safer home can still leave someone feeling uprooted if familiar relationships are disrupted.",
+            "zh": "新居即使較安全，熟悉關係被打亂仍可能令人感到失根。"
+          },
+          {
+            "id": "b",
+            "en": "Better housing removes every adjustment difficulty.",
+            "zh": "較好住房會消除所有適應困難。"
+          },
+          {
+            "id": "c",
+            "en": "The word only applies to plants.",
+            "zh": "這詞只可用於植物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "客觀改善與情感失落不矛盾。"
+      },
+      "speaking": {
+        "en": "The fishermen felt uprooted after their harbour closed, even though the new pier offered better equipment.",
+        "zh": "舊海港關閉後，漁民雖獲新碼頭較好的設備，仍感到離開熟悉環境、失去歸屬。",
+        "promptZh": "先聽示範，再指出新碼頭改善了甚麼。",
+        "targetSpan": {
+          "start": 19,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：因舊市場重建，花販羅姨搬到有遮蓋的新市場；她仍能賣花，卻失去每天互相照應的舊攤主鄰居。社區中心安排舊攤主定期聚會。用一至兩句英文說明她的感受與支援。",
+        "selfCheckZh": "寫出有遮蓋新市場、仍可賣花、失去舊攤主日常互助、定期聚會支援。",
+        "examples": [
+          {
+            "en": "Auntie Law felt uprooted after moving to the covered market: she could still sell flowers but missed the neighbouring stallholders, so the centre arranged regular reunions.",
+            "zh": "羅姨搬到有遮蓋的新市場後感到失去歸屬：她仍可賣花，卻掛念相鄰攤主；中心因此安排定期聚會。"
+          },
+          {
+            "en": "The covered stalls improved her working space, yet losing daily support from old neighbours left Auntie Law uprooted; regular meetings may help her reconnect.",
+            "zh": "有遮蓋攤位改善了工作環境，但失去舊鄰攤每天的支援仍令羅姨感到失根；定期聚會或可幫助她重新連結。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "covered market",
+            "zh": "有遮蓋的新市場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 59
+            }
+          },
+          {
+            "en": "sell flowers",
+            "zh": "賣花",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 89
+            }
+          },
+          {
+            "en": "neighbouring stallholders",
+            "zh": "相鄰攤主",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 130
+            }
+          },
+          {
+            "en": "regular reunions",
+            "zh": "定期聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 171
+            }
+          },
+          {
+            "en": "working space",
+            "zh": "工作環境",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 45
+            }
+          },
+          {
+            "en": "reconnect",
+            "zh": "重新連結",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Feeling uprooted can follow a loss of familiar community ties.",
+          "zh": "感到失根可源於失去熟悉社區連結。"
+        },
+        {
+          "en": "A safer home can still leave people uprooted.",
+          "zh": "新居較安全，仍可能令人感到失根。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3675",
+      "number": 3675,
+      "inventoryId": "expr-3675",
+      "titleEn": "knock someone’s confidence",
+      "titleZh": "打擊自信",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:knock|knocks|knocked|knocking)\\s+(?:their|his|her|my|our|your|[A-Za-z]+[’\\']s)\\s+confidence\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reduce a person’s belief in their own ability, often after criticism or a setback.",
+        "meaningZh": "批評或挫折削弱一個人對自身能力的信心。",
+        "grammar": "Knock + possessive + confidence; the impact is figurative. Explain what happened and whose confidence changed.",
+        "register": "Performance coaching: a tutor discusses how harsh, unspecific comments can discourage a novice singer.",
+        "boundaryZh": "自信受打擊不等於能力真的下降，也不代表永遠無法恢復。",
+        "misconceptionZh": "不是實際敲打身體，也不應把有建設性的具體意見全當打擊。",
+        "outcomeZh": "能指出造成信心下降的事件，並分清感受與實際能力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1564",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 147,
+          "book": 14,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 156, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Early setbacks may knock their confidence.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "knock their confidence"
+        }
+      ],
+      "listening": {
+        "en": "The conductor told Rae that one missed note proved she would never sing well. The sweeping comment knocked her confidence, although she kept practising.",
+        "zh": "指揮對蕊兒說，錯了一個音就證明她永遠唱不好。這種一概而論的評語打擊了她的自信，雖然她仍繼續練習。",
+        "promptZh": "knocked her confidence 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Made her less sure of her ability.",
+            "zh": "令她對自身能力較沒信心。"
+          },
+          {
+            "id": "b",
+            "en": "Physically struck her.",
+            "zh": "實際打了她。"
+          },
+          {
+            "id": "c",
+            "en": "Proved she could never improve.",
+            "zh": "證明她永遠不能進步。"
+          },
+          {
+            "id": "d",
+            "en": "Stopped her from practising at once.",
+            "zh": "令她立刻停止練習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "籠統負評削弱自信，但不能證明能力或未來。"
+      },
+      "reply": {
+        "promptEn": "Why did Ivo hesitate before the next science presentation? A judge had dismissed his first attempt as worthless without explaining what to improve.",
+        "promptZh": "（艾禾在下一次科學報告前為何猶豫？評審曾把他第一次嘗試說成毫無價值，卻沒指出怎樣改進。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The harsh remark made him doubt himself.",
+            "zh": "尖刻評語令他懷疑自己。"
+          },
+          {
+            "id": "b",
+            "en": "He felt less sure about presenting.",
+            "zh": "他對報告較沒信心。"
+          },
+          {
+            "id": "c",
+            "en": "The comment knocked his confidence.",
+            "zh": "那評語打擊了他的自信。"
+          },
+          {
+            "id": "d",
+            "en": "The unsupported dismissal discouraged him.",
+            "zh": "缺乏具體理據的否定令他氣餒。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由無建設性負評推到自信受打擊。"
+      },
+      "scene": {
+        "promptZh": "女店主努力試做新麵包，卻只收到「你根本不會做」的嘲諷，後來不敢推出新品。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mockery knocked her confidence.",
+            "zh": "嘲諷打擊了她的自信。"
+          },
+          {
+            "id": "b",
+            "en": "The mockery measured her actual skill precisely.",
+            "zh": "嘲諷準確量度她的實際技能。"
+          },
+          {
+            "id": "c",
+            "en": "Someone knocked on her door.",
+            "zh": "有人敲她的門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "嘲諷與不敢再推出新品顯示信心下降。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 knock someone’s confidence？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach gives specific feedback and the learner feels able to try again.",
+            "zh": "教練給予具體意見，學員覺得能再試。"
+          },
+          {
+            "id": "b",
+            "en": "Repeated insults make a dancer doubt her ability.",
+            "zh": "反覆辱罵令舞者懷疑自己能力。"
+          },
+          {
+            "id": "c",
+            "en": "A harsh unexplained dismissal makes a pupil afraid to speak.",
+            "zh": "尖刻又無解釋的否定令學生不敢發言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體意見沒有顯示自信下降。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「被 knock confidence 後，能力就一定變差。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A comment can knock someone’s confidence without changing their actual skill.",
+            "zh": "評語可打擊自信，卻不一定改變實際技能。"
+          },
+          {
+            "id": "b",
+            "en": "Doubt proves skill has vanished.",
+            "zh": "懷疑自己就證明技能消失。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase only describes a physical blow.",
+            "zh": "片語只指實際撞擊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "心理信心與已掌握能力須分開。"
+      },
+      "speaking": {
+        "en": "One careless remark knocked my confidence before the speech, but practising with a friend helped me try again.",
+        "zh": "演說前一句輕率評語打擊了我的自信，但和朋友練習幫助我再試。",
+        "promptZh": "先聽示範，再指出甚麼幫助說話者再試。",
+        "targetSpan": {
+          "start": 20,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：新任導賞員第一次講解時漏了兩個日期；主管只說「你永遠講不好」，令她下次上台前猶豫。另一位同事陪她核對日期並排練。用一至兩句英文說明打擊與可能的恢復，勿斷言她能力不足。",
+        "selfCheckZh": "寫出漏兩個日期、主管籠統否定、下次猶豫、同事核對與排練。",
+        "examples": [
+          {
+            "en": "The manager’s sweeping criticism knocked her confidence after the new guide missed two dates, leaving her hesitant before the next tour; a colleague helped her check the dates and rehearse.",
+            "zh": "新導賞員漏了兩個日期後，主管一概否定的批評打擊她的自信，令她下次導賞前猶豫；同事陪她核對日期並排練。"
+          },
+          {
+            "en": "Missing two dates did not prove she lacked ability, but the manager’s “you will never do this well” remark knocked her confidence and made her hesitate before the next tour; a colleague checked the dates with her and ran a practice session.",
+            "zh": "漏掉兩個日期不證明她能力不足，但主管說「你永遠講不好」打擊了她的自信，令她下次導賞前猶豫；同事陪她核對日期並排練。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new guide",
+            "zh": "新導賞員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 75
+            }
+          },
+          {
+            "en": "missed two dates",
+            "zh": "漏了兩個日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 92
+            }
+          },
+          {
+            "en": "check the dates",
+            "zh": "核對日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 175
+            }
+          },
+          {
+            "en": "next tour",
+            "zh": "下次導賞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 135
+            }
+          },
+          {
+            "en": "lacked ability",
+            "zh": "能力不足",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "practice session",
+            "zh": "練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 223,
+              "end": 239
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Knock someone’s confidence means reduce self-belief.",
+          "zh": "打擊自信，指削弱對自身能力的信心。"
+        },
+        {
+          "en": "A remark that knocked your confidence does not prove skill vanished.",
+          "zh": "一句打擊自信的話不證明技能消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3689",
+      "number": 3689,
+      "inventoryId": "expr-3689",
+      "titleEn": "a blessing or a burden",
+      "titleZh": "助力或負擔",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+blessing\\s+or\\s+a\\s+burden\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Something that can be helpful or troublesome depending on how it is used or the circumstances.",
+        "meaningZh": "某事物可因使用方式或情況而成為助力或負擔。",
+        "grammar": "Be a blessing or a burden; explain conditions for each side rather than calling something good and bad without evidence.",
+        "register": "Community-service planning: a coordinator weighs whether a new booking requirement helps staff or excludes visitors.",
+        "boundaryZh": "兩面性要有具體條件；不是說每個人必然同時受益和受害。",
+        "misconceptionZh": "blessing 在此不必有宗教意思，也不能忽略實際負擔而只喊口號。",
+        "outcomeZh": "能列出使同一安排有益或有害的不同條件。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1578",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 148,
+          "book": 14,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 157, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New tools can be a blessing or a burden.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a blessing or a burden"
+        }
+      ],
+      "listening": {
+        "en": "A new clinic booking line could be a blessing or a burden: it shortens queues for people who can call early, but may shut out patients who share one phone.",
+        "zh": "診所新電話預約線可成為助力或負擔：能提早致電的人少排隊，但共用一部電話的病人可能被排除。",
+        "promptZh": "a blessing or a burden 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The same service may help some people and create difficulty for others.",
+            "zh": "同一服務可幫助部分人，卻為另一部分人造成困難。"
+          },
+          {
+            "id": "b",
+            "en": "The service is always good for everyone.",
+            "zh": "服務對所有人永遠有益。"
+          },
+          {
+            "id": "c",
+            "en": "The service is always harmful.",
+            "zh": "服務永遠有害。"
+          },
+          {
+            "id": "d",
+            "en": "The phrase refers only to religion.",
+            "zh": "片語只關乎宗教。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能提早致電與共用電話的人面對不同效果。"
+      },
+      "reply": {
+        "promptEn": "A village installs bright path lights. They help walkers see steps at night, but nearby bedrooms now face glare unless shades are added. How should the village assess the change?",
+        "promptZh": "（村裏裝了明亮步道燈；夜間行人能看清台階，但附近睡房若不加遮光罩便受光線滋擾。村方應怎樣評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Consider the safety benefit and the glare.",
+            "zh": "同時考慮安全好處與光線滋擾。"
+          },
+          {
+            "id": "b",
+            "en": "Check how shades could reduce the drawback.",
+            "zh": "看看遮光罩能否減低壞處。"
+          },
+          {
+            "id": "c",
+            "en": "The lights can be a blessing or a burden.",
+            "zh": "燈光可成為助力或負擔。"
+          },
+          {
+            "id": "d",
+            "en": "Assess who benefits and who faces difficulty.",
+            "zh": "評估誰得益、誰遇到困難。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據不同條件和人群評估兩面效果。"
+      },
+      "scene": {
+        "promptZh": "學校延長圖書館開放時間，住近的學生可多讀書，但偏遠學生沒有回家車。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The longer hours could be a blessing or a burden.",
+            "zh": "延長開放可成為助力或負擔。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone benefits in exactly the same way.",
+            "zh": "人人以完全相同方式得益。"
+          },
+          {
+            "id": "c",
+            "en": "There is no way to improve transport access.",
+            "zh": "交通安排完全無法改善。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一安排對不同學生有不同效果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a blessing or a burden？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A change has a clear benefit and a documented access barrier for another group.",
+            "zh": "改動有明顯好處，也對另一群體造成已確認的參與障礙。"
+          },
+          {
+            "id": "b",
+            "en": "A new rule produces one known benefit and no identified drawback or differing condition.",
+            "zh": "新規則只有已知好處，沒有發現壞處或不同條件。"
+          },
+          {
+            "id": "c",
+            "en": "An online form saves time for some but excludes people without internet.",
+            "zh": "網上表格幫部分人省時，卻排除沒有網絡的人。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有證據支持兩面性，不能空泛套用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有益也有害，代表我們甚麼也不能做。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A change can be a blessing or a burden; we can keep benefits and reduce specific harms.",
+            "zh": "改動可成為助力或負擔；我們可保留好處並減少具體壞處。"
+          },
+          {
+            "id": "b",
+            "en": "Any drawback makes action impossible.",
+            "zh": "只要有壞處就完全不能行動。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means a religious ceremony.",
+            "zh": "片語指宗教儀式。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "辨識兩面效果可幫助改良方案。"
+      },
+      "speaking": {
+        "en": "The new volunteer app is a blessing or a burden depending on access: it organises shifts well, but some helpers cannot use it without mobile data.",
+        "zh": "義工新應用程式因使用條件而可成為助力或負擔：它方便排班，但部分義工沒有流動數據便不能用。",
+        "promptZh": "先聽示範，再指出哪個條件令它變成負擔。",
+        "targetSpan": {
+          "start": 25,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廚房改用網上預約領餐，能減少現場等候，但部分長者沒有上網裝置。中心考慮保留電話預約，尚未決定。用一至兩句英文說明兩面效果及可能改善。",
+        "selfCheckZh": "寫出網上預約減少等候、沒有裝置的長者受阻、電話預約仍在考慮。",
+        "examples": [
+          {
+            "en": "Online meal booking could be a blessing or a burden: it cuts queues but excludes some older people without devices; the kitchen is considering phone booking too.",
+            "zh": "網上預約領餐可成為助力或負擔：它減少排隊，但沒有裝置的部分長者難以使用；廚房正考慮同時設電話預約。"
+          },
+          {
+            "en": "The booking change is a blessing or a burden depending on access: shorter waits help some users, while older residents without devices may need a phone option that is not yet confirmed.",
+            "zh": "預約改動可因參與條件而成為助力或負擔：輪候縮短幫助部分使用者，但沒有裝置的長者可能需要尚未確定的電話選項。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Online meal booking",
+            "zh": "網上預約領餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "cuts queues",
+            "zh": "減少排隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 67
+            }
+          },
+          {
+            "en": "without devices",
+            "zh": "沒有裝置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 114
+            }
+          },
+          {
+            "en": "considering phone booking",
+            "zh": "考慮電話預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 156
+            }
+          },
+          {
+            "en": "shorter waits",
+            "zh": "輪候縮短",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 79
+            }
+          },
+          {
+            "en": "not yet confirmed",
+            "zh": "尚未確定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 184
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An online booking requirement can be a blessing or a burden: it shortens queues for connected visitors but makes access harder for people without internet.",
+          "zh": "網上預約規定可成為助力或負擔：它讓能上網的訪客少排隊，卻令沒有網絡的人較難使用服務。"
+        },
+        {
+          "en": "When a change is a blessing or a burden, identify who faces each effect.",
+          "zh": "指出誰承受負擔，以及如何保留好處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

@@ -66,33 +66,33 @@
       },
       "contentRevision": 1,
       "listening": {
-        "promptZh": "講者為何說導賞員在以藉口逃避？",
+        "promptZh": "講者為何說助理在以藉口逃避？",
         "options": [
           {
             "id": "a",
-            "en": "He repeats an explanation while avoiding an available correction and apology.",
-            "zh": "他反覆解釋，卻避開可做的更正和道歉。"
+            "en": "He repeats a reason while avoiding an available report and repair.",
+            "zh": "他反覆解釋，卻避開可做的報告和維修。"
           },
           {
             "id": "b",
-            "en": "He has already corrected the notice and informed every visitor.",
-            "zh": "他已更正通知並告知每位訪客。"
+            "en": "He has already reported the damage and arranged a repair.",
+            "zh": "他已報告損壞並安排維修。"
           },
           {
             "id": "c",
-            "en": "The date was never included in the confirmation email.",
-            "zh": "確認電郵根本沒有列日期。"
+            "en": "No safety check was demonstrated that morning.",
+            "zh": "當天早上沒有人示範安全檢查。"
           },
           {
             "id": "d",
-            "en": "He has asked for help reading a genuinely unreadable form.",
-            "zh": "他請人幫忙看一份確實無法看清的表格。"
+            "en": "He asks for help understanding a genuinely unclear instruction.",
+            "zh": "他請人幫忙理解一項確實不清楚的指示。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "有確認日期的資料，也有可做的補救；他卻只重複理由。",
-        "en": "The guide says the wrong date appeared because the form was confusing. Yet the date was printed on the confirmation email, and he still has not corrected the notice or apologised. He is hiding behind excuses instead of fixing it.",
-        "zh": "導賞員說日期寫錯是因為表格難懂。但確認電郵已列明日期，他仍未更正通知或道歉。他正以藉口逃避，而非補救。"
+        "explanationZh": "程序已示範，也有可做的報告和維修；他卻只重複理由。",
+        "en": "The assistant skipped a safety check and damaged a projector. He blames an unclear checklist, though he saw the procedure demonstrated that morning. He has not reported the damage or arranged a repair. He is hiding behind excuses.",
+        "zh": "助理略過安全檢查，損壞了投影機。他怪清單不清楚，但當天早上已看過程序示範。他也未報告損壞或安排維修，正以藉口逃避。"
       },
       "reply": {
         "promptEn": "The guide sent visitors the wrong date. He says the form was confusing, but the confirmation email was clear and he has not corrected the notice. What should we say?",
@@ -1942,33 +1942,33 @@
       },
       "contentRevision": 3,
       "listening": {
-        "promptZh": "講者為何建議先詢問家長？",
+        "promptZh": "講者為何建議先詢問技術員？",
         "options": [
           {
             "id": "a",
-            "en": "The parents already have several demands on their time and may need a manageable role.",
-            "zh": "家長已有多項事要處理，可能需要可負擔的角色。"
+            "en": "The technicians already have several demands on their time and may need a manageable role.",
+            "zh": "技術員已有多項事要處理，可能需要可負擔的角色。"
           },
           {
             "id": "b",
-            "en": "The parents have already agreed to lead the whole fair.",
-            "zh": "家長已同意負責整個嘉年華。"
+            "en": "The technicians have already agreed to lead the whole open day.",
+            "zh": "技術員已同意負責整個開放日。"
           },
           {
             "id": "c",
-            "en": "The fair has been cancelled this month.",
-            "zh": "嘉年華這個月已取消。"
+            "en": "The open day has been cancelled this month.",
+            "zh": "開放日這個月已取消。"
           },
           {
             "id": "d",
-            "en": "The parents have no current responsibilities.",
-            "zh": "家長目前沒有責任要負。"
+            "en": "The technicians have no current responsibilities.",
+            "zh": "技術員目前沒有責任要負。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "覆診與額外輪班已有時間壓力，應先問其意願與能力。",
-        "en": "The parents are arranging medical visits and covering extra shifts this month. They already have a lot on their plate. Before asking them to run the fair, we should ask what support they would actually welcome.",
-        "zh": "家長這個月要安排覆診，還要做額外輪班。他們已有很多事情要處理。請他們負責嘉年華前，我們應先問他們需要甚麼支援。"
+        "explanationZh": "培訓新員工與維修設備已有時間壓力，應先問其意願與能力。",
+        "en": "The two lab technicians are training new staff and repairing equipment this month. They already have a lot on their plate. Before asking them to run the open day, we should ask what shift they could manage.",
+        "zh": "兩名實驗室技術員這個月要培訓新員工，還要維修設備。他們已有很多事情要處理。請他們負責開放日前，我們應先問他們能承擔甚麼班次。"
       },
       "reply": {
         "promptEn": "These parents are arranging medical visits and covering extra shifts. We need fair helpers. How can we invite them thoughtfully?",

@@ -1,0 +1,24 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3385-3410-b.json",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3385-3410-a.json", "sha256": "539ac0de8fda14fa46dfa3fe785f0c34e779f7bb1d3526e3a2458d98903d27d5"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3385-3410-a.json", "sha256": "360c2ba967ccf084fb13670fbf49fd99cad5a3978deb4139dcee05e3bdb8811b"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "resolvedFindings": [
+    {"id": "R3385-01", "status": "resolved", "evidence": "Model 2 now states the parents saved income from extra weekend shifts before comparing course fees and qualifications; English/Traditional Chinese align."},
+    {"id": "R3391-01", "status": "resolved", "evidence": "Model 1 now attributes the East-meets-West identity to the production rather than to the theatre venue; English/Traditional Chinese and glossary spans align."},
+    {"id": "R3407-01", "status": "resolved", "evidence": "Audio now says the committee has already debated for a week and must order tomorrow, with the same chronology in Chinese; listening key remains grounded."},
+    {"id": "R3407-02", "status": "resolved", "evidence": "English and Chinese dialogue prompts now establish that exactly one of three venues has step-free access before the target-bearing key selects it."}
+  ],
+  "mechanicalChecks": {
+    "guideCopy": "Changed 3385/3391 writing models compared against all 2,604 guide examples; no exact/near hits. Previously screened unchanged fields and fixed target-only overlap remain as documented in the initial review.",
+    "glossary": "All 40 glossary spans in the eight lessons remain exact non-target substrings.",
+    "build": "Focused build and --check pass: eight lessons, 48 questions, 32 audio requests, zero flags."
+  },
+  "perLessonStatus": {"3385": "provisional-content-pass", "3391": "provisional-content-pass", "3393": "provisional-content-pass", "3403": "provisional-content-pass", "3405": "provisional-content-pass", "3406": "provisional-content-pass", "3407": "provisional-content-pass", "3410": "provisional-content-pass"},
+  "remainingFindings": [],
+  "humanApproval": false,
+  "releaseApproval": false
+}

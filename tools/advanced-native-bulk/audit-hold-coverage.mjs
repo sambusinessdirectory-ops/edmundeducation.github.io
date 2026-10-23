@@ -17,6 +17,10 @@ const source = readJsonl(resolve(decisionRoot, 'source-inventory.jsonl'));
 const decisions = decisionFiles.flatMap(name => readJsonl(resolve(decisionRoot, name)));
 const audited = new Map();
 const errors = [];
+const supplementalOwnerReviews = [
+  {name: 'independent-owner-comparison-3413-3672-b.json', ordinal: 3672, actionField: 'recommendedAction'},
+  {name: 'independent-ai-owner-comparison-3703-vs-568-b.json', ordinal: 3703, actionField: 'recommendation'},
+];
 
 for (const name of reports) {
   const report = JSON.parse(readFileSync(resolve(reviewRoot, name), 'utf8'));
@@ -32,8 +36,18 @@ for (const name of reports) {
 }
 
 const currentHolds = decisions.filter(row => row.action === 'hold-editorial');
+const supplementalOrdinals = new Set();
+for (const spec of supplementalOwnerReviews) {
+  const review = JSON.parse(readFileSync(resolve(reviewRoot, spec.name), 'utf8'));
+  const supportsHold = spec.actionField === 'recommendedAction'
+    ? review.recommendedAction === 'hold-editorial' && review.recommendedCanonicalId === null
+    : String(review.recommendation).includes('Hold the proposed-new row');
+  if (!supportsHold || review.sourceId !== source[spec.ordinal - 2112]?.sourceId || (review.sourceOrdinal ?? review.provisionalSourceOrdinal) !== spec.ordinal) errors.push(`${spec.name}: supplemental review does not support the source/action`);
+  supplementalOrdinals.add(spec.ordinal);
+}
+const newlyHeldReviewed = currentHolds.filter(row => !audited.has(row.sourceOrdinal) && supplementalOrdinals.has(row.sourceOrdinal));
 for (const row of currentHolds) {
-  if (!audited.has(row.sourceOrdinal)) errors.push(`Current hold ${row.sourceOrdinal} lacks independent audit`);
+  if (!audited.has(row.sourceOrdinal) && !newlyHeldReviewed.some(item => item.sourceOrdinal === row.sourceOrdinal)) errors.push(`Current hold ${row.sourceOrdinal} lacks independent audit`);
 }
 if (reports.length !== 5) errors.push(`Expected five complete hold-audit ranges, found ${reports.length}`);
 if (audited.size !== 966) errors.push(`Expected 966 original held entries, found ${audited.size}`);
@@ -43,8 +57,9 @@ const result = {
   reportFiles: reports.length,
   originallyAuditedHolds: audited.size,
   currentHolds: currentHolds.length,
-  provisionallyReclassified: audited.size - currentHolds.length,
-  unauditedCurrentHolds: currentHolds.filter(row => !audited.has(row.sourceOrdinal)).length,
+  provisionallyReclassified: audited.size - currentHolds.filter(row => audited.has(row.sourceOrdinal)).length,
+  newlyHeldReviewed: newlyHeldReviewed.length,
+  unauditedCurrentHolds: currentHolds.filter(row => !audited.has(row.sourceOrdinal) && !newlyHeldReviewed.some(item => item.sourceOrdinal === row.sourceOrdinal)).length,
   errorCount: errors.length,
   errors,
 };

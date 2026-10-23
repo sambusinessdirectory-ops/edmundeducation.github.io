@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3065-3071-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3065",
+      "number": 3065,
+      "inventoryId": "expr-3065",
+      "titleEn": "leave room for interpretation",
+      "titleZh": "留有詮釋空間",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving)\\s+room\\s+for\\s+interpretation\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Allow more than one reasonable reading because details are not fully fixed or explained.",
+        "meaningZh": "因細節沒有完全固定或說明，而容許多於一種合理理解。",
+        "grammar": "A text/image can leave room for interpretation; room is metaphorical possibility, not physical space.",
+        "register": "Literature discussion: a teacher tells pupils why an open ending can support several evidence-based readings.",
+        "boundaryZh": "有詮釋空間不等於任何胡亂猜測都合理；仍須有文本證據。",
+        "misconceptionZh": "不是留空地方填字，也不是作者必然不知道答案。",
+        "outcomeZh": "能提出兩個有證據的讀法，並避免說所有說法都一樣正確。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0954",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 89,
+          "book": 12,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 90, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A poem should leave room for interpretation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave room for interpretation"
+        }
+      ],
+      "listening": {
+        "en": "The poem ends with the speaker opening a door but never says who is outside. That detail may leave room for interpretation if readers support their ideas with lines from the poem.",
+        "zh": "詩以敘述者打開一道門作結，卻沒說門外是誰。這細節或留下詮釋空間，只要讀者能以詩句支持自己的看法。",
+        "promptZh": "leave room for interpretation 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Allow several reasonable readings of the open detail.",
+            "zh": "容許對未說明細節作多種合理理解。"
+          },
+          {
+            "id": "b",
+            "en": "Require readers to fill a physical gap on the page.",
+            "zh": "要求讀者填滿紙上實際空白。"
+          },
+          {
+            "id": "c",
+            "en": "Prove every possible guess is equally supported.",
+            "zh": "證明任何猜測都有同樣充分支持。"
+          },
+          {
+            "id": "d",
+            "en": "State clearly who is behind the door.",
+            "zh": "清楚說明門外是誰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "詩沒有交代身份，讀法仍須有文本根據。"
+      },
+      "reply": {
+        "promptEn": "Why are two pupils offering different endings for the short story? It stops before the train arrives, and each pupil cites a different earlier clue about whether the traveller will leave.",
+        "promptZh": "（為何兩名學生對短篇故事提出不同結局？故事在火車到站前結束，兩人各引用前文不同線索，討論旅人會否離開。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The ending does not settle the traveller’s choice.",
+            "zh": "結尾沒有確定旅人的選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Each reading can be discussed using a clue.",
+            "zh": "兩種讀法都可用線索討論。"
+          },
+          {
+            "id": "c",
+            "en": "The ending leaves room for interpretation.",
+            "zh": "結尾留有詮釋空間。"
+          },
+          {
+            "id": "d",
+            "en": "The pupils are weighing evidence from the story.",
+            "zh": "學生正比較故事中的證據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認未定結局與可辯的線索。"
+      },
+      "scene": {
+        "promptZh": "畫中人物背對觀眾站在車站，沒有交代她是在送別還是在等人；畫面各有線索。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The painting leaves room for interpretation.",
+            "zh": "這幅畫留有詮釋空間。"
+          },
+          {
+            "id": "b",
+            "en": "The painting proves any invented story is correct.",
+            "zh": "這幅畫證明隨便編的故事都正確。"
+          },
+          {
+            "id": "c",
+            "en": "The artist forgot to leave space on the canvas.",
+            "zh": "畫家忘了在畫布上留空位。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未交代動機，可作有線索支持的不同理解。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合這說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A novel ends before revealing a character’s decision.",
+            "zh": "小說在揭示人物決定前結束。"
+          },
+          {
+            "id": "b",
+            "en": "A safety notice states an exact time, place and required action with no ambiguity.",
+            "zh": "安全告示清楚列明時間、地點和行動，沒有含糊。"
+          },
+          {
+            "id": "c",
+            "en": "A photograph can reasonably suggest either arrival or departure.",
+            "zh": "照片可合理讓人想到抵達或離開。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "指示清晰而唯一，沒有詮釋空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有詮釋空間，所以任何說法都正確。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A work can leave room for interpretation while still requiring evidence for each reading.",
+            "zh": "作品可留有詮釋空間，但每種讀法仍須有證據。"
+          },
+          {
+            "id": "b",
+            "en": "Every unsupported guess is equally strong.",
+            "zh": "任何沒有根據的猜測都同樣有力。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means an empty room.",
+            "zh": "片語指空房間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多種可能不等於無需根據。"
+      },
+      "speaking": {
+        "en": "The last scene leaves room for interpretation because we hear the door close but never learn who left.",
+        "zh": "最後一幕留有詮釋空間，因為我們聽見門關上，卻不知道誰離開。",
+        "promptZh": "先聽示範，再指出哪項資訊未揭示。",
+        "targetSpan": {
+          "start": 15,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生短片早前交代主角申請一份工作，也曾與朋友爭執；結尾只拍到一封未拆的信和主角的笑容，沒有拍到信的內容。觀眾可依這兩條前文線索推測錄取或和解，但不能斷言已知信中內容。用一至兩句英文說明詮釋空間。",
+        "selfCheckZh": "寫出未拆信和笑容、早前的求職與爭執分別支持兩種可能、信中內容仍未公開。",
+        "examples": [
+          {
+            "en": "The unopened letter and smile leave room for interpretation: her earlier job application supports good news, while the quarrel with a friend supports reconciliation; the film hides the message.",
+            "zh": "未拆的信和笑容留有詮釋空間：早前的求職支持好消息的讀法，與朋友的爭執則支持和解的讀法；短片沒有揭示信的內容。"
+          },
+          {
+            "en": "The film showed a job application and a quarrel with a friend before the unopened letter. Her final smile leaves room for interpretation: it could signal an offer or an apology, but the letter stays unread.",
+            "zh": "短片在未拆的信出現前，拍過主角求職及與朋友爭執。她最後的笑容留有詮釋空間：可能是收到錄取，也可能是道歉，但信始終未拆開。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "unopened letter",
+            "zh": "未拆的信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "job application",
+            "zh": "求職",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 88
+            }
+          },
+          {
+            "en": "quarrel with a friend",
+            "zh": "與朋友爭執",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 140
+            }
+          },
+          {
+            "en": "hides the message",
+            "zh": "沒有揭示信的內容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 175,
+              "end": 192
+            }
+          },
+          {
+            "en": "an offer",
+            "zh": "一份錄取",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 162
+            }
+          },
+          {
+            "en": "an apology",
+            "zh": "一聲道歉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 176
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave room for interpretation allows more than one supported reading.",
+          "zh": "留有詮釋空間，容許多種有根據的讀法。"
+        },
+        {
+          "en": "Leaving room for interpretation does not make every guess valid.",
+          "zh": "留有詮釋空間不表示任何猜測都合理。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3068",
+      "number": 3068,
+      "inventoryId": "expr-3068",
+      "titleEn": "stretch the mind",
+      "titleZh": "擴展思考",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:stretch|stretches|stretched|stretching)\\s+the\\s+mind\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Challenge a person’s thinking by making them consider unfamiliar ideas or perspectives.",
+        "meaningZh": "透過接觸陌生想法或角度，挑戰並擴展思考。",
+        "grammar": "An activity can stretch the mind; mind is figurative, not a physical object being pulled.",
+        "register": "Educational reflection: a history tutor tells learners why studying unfamiliar societies can challenge assumptions.",
+        "boundaryZh": "思考受挑戰不表示已掌握所有內容；也不是單純把工作量加大。",
+        "misconceptionZh": "不是身體伸展，也不能只憑課程困難便斷定有啟發。",
+        "outcomeZh": "能指出新角度如何改變問題的思考方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0957",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 89,
+          "book": 12,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 90, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Studying unfamiliar history can stretch the mind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stretch the mind"
+        }
+      ],
+      "listening": {
+        "en": "Studying an unfamiliar farming system made the class question its assumption that every community grows food the same way. The topic stretched the mind.",
+        "zh": "研究陌生的耕作制度，令全班質疑「每個社群都以同一方式種植」的假設。這課題擴展了思考。",
+        "promptZh": "stretched the mind 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Challenged how the class thought about farming.",
+            "zh": "挑戰全班對耕作的既有想法。"
+          },
+          {
+            "id": "b",
+            "en": "Physically pulled a body part.",
+            "zh": "實際拉伸身體部位。"
+          },
+          {
+            "id": "c",
+            "en": "Proved the class had mastered all farming systems.",
+            "zh": "證明全班已掌握所有耕作制度。"
+          },
+          {
+            "id": "d",
+            "en": "Merely increased homework without new ideas.",
+            "zh": "只增加功課，沒有新想法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "課題使學生重新檢視原有假設。"
+      },
+      "reply": {
+        "promptEn": "Why did the design teacher ask pupils to imagine a playground from a wheelchair user’s view? They had first planned only stairs and now must reconsider who can use each feature.",
+        "promptZh": "（設計老師為何請學生從輪椅使用者的角度想像遊樂場？學生原本只設計樓梯，現在須重想每項設施誰能使用。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The perspective challenges their first design assumptions.",
+            "zh": "這角度挑戰他們最初的設計假設。"
+          },
+          {
+            "id": "b",
+            "en": "They must think about users previously overlooked.",
+            "zh": "他們須想到原本忽略的使用者。"
+          },
+          {
+            "id": "c",
+            "en": "The exercise can stretch the mind.",
+            "zh": "這項練習可擴展思考。"
+          },
+          {
+            "id": "d",
+            "en": "The task asks for a different way of considering access.",
+            "zh": "任務要求以不同方式思考進出問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據新角度如何挑戰舊設計作答。"
+      },
+      "scene": {
+        "promptZh": "學生比較兩種與自己熟悉制度不同的村落治水方法，因而重想「唯一正確方法」的假設。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The comparison can stretch the mind.",
+            "zh": "這項比較可擴展思考。"
+          },
+          {
+            "id": "b",
+            "en": "The comparison proves all water problems are solved.",
+            "zh": "比較證明所有水患已解決。"
+          },
+          {
+            "id": "c",
+            "en": "They must stretch a physical muscle.",
+            "zh": "他們必須拉伸肌肉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新方法促使重想既有假設。"
+      },
+      "contrast": {
+        "promptZh": "哪種活動最不足以支持 stretch the mind？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Learners explore a viewpoint that changes their first assumption.",
+            "zh": "學員探索一個改變最初假設的新角度。"
+          },
+          {
+            "id": "b",
+            "en": "Pupils copy familiar sentences repeatedly without examining an idea.",
+            "zh": "學生反覆抄寫熟悉句子，沒有思考任何主意。"
+          },
+          {
+            "id": "c",
+            "en": "A problem asks pupils to compare two unfamiliar explanations.",
+            "zh": "題目請學生比較兩種陌生解釋。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單純抄寫沒有新角度或思考挑戰。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「課程功課多，就一定 stretch the mind。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Workload alone is not enough; a task stretches the mind when it changes or deepens how we think.",
+            "zh": "單看工作量不足夠；任務令思考方式改變或加深，才算擴展思考。"
+          },
+          {
+            "id": "b",
+            "en": "Any extra worksheet automatically broadens understanding.",
+            "zh": "任何額外工作紙都自動拓寬理解。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase refers only to physical exercise.",
+            "zh": "這片語只指體能鍛鍊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是思考挑戰，而非題量。"
+      },
+      "speaking": {
+        "en": "A visit to the old harbour stretched the mind because the pupils began asking how workers lived, not just naming the ships.",
+        "zh": "參觀舊海港擴展了學生的思考：他們開始問工人怎樣生活，而非只叫出船名。",
+        "promptZh": "先聽示範，再指出學生新增了哪個問題。",
+        "targetSpan": {
+          "start": 27,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園地圖小組原只標示最短路線，試用輪椅視角後，開始考慮坡度、升降機和實際通行時間；地圖仍在修改。用一至兩句英文說明新角度怎樣擴展思考，勿稱地圖已完美。",
+        "selfCheckZh": "寫出原只看最短路線、輪椅視角帶來坡度與升降機等問題、地圖仍修改中。",
+        "examples": [
+          {
+            "en": "Testing the map from a wheelchair user’s view stretched the mind: the team moved beyond the shortest route to consider slopes, lifts and travel time, while the map remains unfinished.",
+            "zh": "從輪椅使用者的角度試用地圖擴展了思考：團隊不再只看最短路線，也考慮坡度、升降機和通行時間，而地圖尚未完成。"
+          },
+          {
+            "en": "The team first marked only the shortest path, but checking wheelchair access stretched the mind and raised questions about slopes, lifts and travel time; revisions continue.",
+            "zh": "團隊起初只標最短路徑，但檢查輪椅通道擴展了思考，帶來坡度、升降機和通行時間的問題；修訂仍在繼續。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheelchair user’s view",
+            "zh": "輪椅使用者的角度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 45
+            }
+          },
+          {
+            "en": "shortest route",
+            "zh": "最短路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 106
+            }
+          },
+          {
+            "en": "slopes, lifts and travel time",
+            "zh": "坡度、升降機和通行時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 148
+            }
+          },
+          {
+            "en": "unfinished",
+            "zh": "尚未完成",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 182
+            }
+          },
+          {
+            "en": "travel time",
+            "zh": "通行時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 141,
+              "end": 152
+            }
+          },
+          {
+            "en": "revisions continue",
+            "zh": "修訂仍在繼續",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 172
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stretch the mind means challenge existing ways of thinking.",
+          "zh": "擴展思考，指挑戰原有思考方式。"
+        },
+        {
+          "en": "A task that stretched the mind need not be finished or perfect.",
+          "zh": "擴展了思考的任務，不一定已完成或完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3071",
+      "number": 3071,
+      "inventoryId": "expr-3071",
+      "titleEn": "with fresher eyes",
+      "titleZh": "以較新的眼光",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwith\\s+fresher\\s+eyes\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "From a less habitual perspective that may notice possibilities familiar observers miss.",
+        "meaningZh": "以較少受慣常想法限制的角度，看見熟悉者可能忽略的可能性。",
+        "grammar": "Look at/view/see something with fresher eyes; fresher is comparative, so identify the less-habituated comparison where possible.",
+        "register": "Creative workshop reflection: a tutor explains why newcomers may notice alternative uses for familiar classroom objects.",
+        "boundaryZh": "新眼光不一定更準確；熟悉者的經驗仍可提供重要資料。",
+        "misconceptionZh": "不是眼睛真的變新，也不能因年紀小就斷定看法必然較好。",
+        "outcomeZh": "能指出哪個慣常假設被重新看待，並保留驗證需要。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0960",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 89,
+          "book": 12,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 91, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children often view simple objects with fresher eyes.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "with fresher eyes"
+        }
+      ],
+      "listening": {
+        "en": "Adults saw an empty box as rubbish, but the children imagined a puppet stage. They looked at the familiar object with fresher eyes.",
+        "zh": "大人把空箱看成垃圾，孩子卻想像它是木偶戲台。他們以較新的眼光看這件熟悉物件。",
+        "promptZh": "with fresher eyes 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "From a less habitual perspective.",
+            "zh": "以較少受慣性限制的角度。"
+          },
+          {
+            "id": "b",
+            "en": "With physically younger eyes.",
+            "zh": "以生理上較年輕的眼睛。"
+          },
+          {
+            "id": "c",
+            "en": "With proof that the puppet stage will work.",
+            "zh": "證明木偶戲台一定可用。"
+          },
+          {
+            "id": "d",
+            "en": "By forgetting what a box is.",
+            "zh": "完全忘掉箱子是甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "孩子看到大人慣常看法以外的用途。"
+      },
+      "reply": {
+        "promptEn": "Why did the museum invite new volunteers to review its signs? Long-serving staff had stopped noticing confusing directions; newcomers identified two turns visitors were likely to miss.",
+        "promptZh": "（博物館為何請新義工檢查指示牌？資深職員已習慣那些容易令人混淆的方向；新義工指出訪客可能錯過的兩個轉彎位。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Newcomers noticed details familiar staff had overlooked.",
+            "zh": "新來者留意到資深職員忽略的細節。"
+          },
+          {
+            "id": "b",
+            "en": "Less habitual viewers found possible points of confusion.",
+            "zh": "較少受慣性影響的檢視者找到可能混淆之處。"
+          },
+          {
+            "id": "c",
+            "en": "They looked at the signs with fresher eyes.",
+            "zh": "他們以較新的眼光檢視指示牌。"
+          },
+          {
+            "id": "d",
+            "en": "Their comments can help staff review the directions.",
+            "zh": "他們的意見可協助職員重新檢視指示。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述新來者相對較少習慣化的角度。"
+      },
+      "scene": {
+        "promptZh": "新同學第一次使用已沿用多年的課室標示，指出大家習以為常的兩個不清楚縮寫。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She saw the signs with fresher eyes.",
+            "zh": "她以較新的眼光看那些標示。"
+          },
+          {
+            "id": "b",
+            "en": "Her eyes are physically new.",
+            "zh": "她的眼睛在生理上是新的。"
+          },
+          {
+            "id": "c",
+            "en": "Her suggestions must be correct without testing.",
+            "zh": "她的建議不用測試也必然正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "首次使用使她看到熟悉者忽略的疑點。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持這說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A newcomer asks why a routine instruction is confusing.",
+            "zh": "新來者問為何一項慣例指示含糊。"
+          },
+          {
+            "id": "b",
+            "en": "A pupil simply repeats the established labels without examining them.",
+            "zh": "學生不加思索地重複既有標示。"
+          },
+          {
+            "id": "c",
+            "en": "A fresh reviewer notices an unused entrance that regulars ignore.",
+            "zh": "新檢視者注意到常客忽略的一個入口。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只是重複習慣做法，沒有新的觀察角度。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「孩子用 fresher eyes 想出用途，所以必定比專家準確。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Looking with fresher eyes can reveal options, but the idea still needs testing and expert knowledge may help.",
+            "zh": "新眼光可帶來選項，但想法仍須測試，專家知識也可能有幫助。"
+          },
+          {
+            "id": "b",
+            "en": "A new perspective automatically proves an idea workable.",
+            "zh": "新角度自動證明方案可行。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase describes eye surgery.",
+            "zh": "這片語描述眼科手術。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新角度有價值，但不保證準確。"
+      },
+      "speaking": {
+        "en": "The visiting pupils saw the old courtyard with fresher eyes and suggested using its quiet corner for reading.",
+        "zh": "來訪學生以較新的眼光看舊庭院，建議把安靜角落用作閱讀區。",
+        "promptZh": "先聽示範，再指出新建議是甚麼。",
+        "targetSpan": {
+          "start": 42,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館職員已習慣舊指示牌；一名首次到訪的家長發現兒童區箭嘴容易令人走錯，建議改位置。圖書館仍要試驗新標示。用一至兩句英文說明新角度及限制。",
+        "selfCheckZh": "寫出職員已習慣舊牌、家長首次到訪而發現箭嘴問題、建議仍待測試。",
+        "examples": [
+          {
+            "en": "Unlike the staff accustomed to the old signs, a first-time parent viewed them with fresher eyes and spotted a confusing arrow to the children’s area; the library still needs to test a new position.",
+            "zh": "與已習慣舊指示牌的職員不同，一名首次到訪的家長以較新的眼光檢視標示，發現往兒童區的箭嘴令人混淆；圖書館仍須測試新位置。"
+          },
+          {
+            "en": "Staff had grown used to the signs, but a first-time parent saw them with fresher eyes and noticed the confusing arrow to the children’s area; the library must test the move.",
+            "zh": "職員已習慣那些指示牌，但一名首次到訪的家長以較新的眼光看，注意到往兒童區的箭嘴令人混淆；圖書館仍須測試改動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "first-time parent",
+            "zh": "首次到訪的家長",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 65
+            }
+          },
+          {
+            "en": "old signs",
+            "zh": "舊指示牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 44
+            }
+          },
+          {
+            "en": "confusing arrow",
+            "zh": "令人混淆的箭嘴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 125
+            }
+          },
+          {
+            "en": "test a new position",
+            "zh": "測試新位置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 177,
+              "end": 196
+            }
+          },
+          {
+            "en": "grown used to the signs",
+            "zh": "已習慣那些指示牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 33
+            }
+          },
+          {
+            "en": "test the move",
+            "zh": "測試改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 172
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "With fresher eyes means viewing familiar things less habitually.",
+          "zh": "以較新的眼光看，指較少受慣常看法限制。"
+        },
+        {
+          "en": "Looking with fresher eyes can suggest changes that still need testing.",
+          "zh": "新眼光可提出改動，但仍須測試。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

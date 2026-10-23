@@ -1,0 +1,434 @@
+{
+  "reviewType": "independent-fuzzy-source-overlap-editorial-triage",
+  "input": {
+    "path": "course-materials/advanced-native/reviews-books10-16/selected-guide-overlap-screen-current.json",
+    "sha256": "9c02cb1858fd230b0340b1bfd3e974155012b8f0b4dfb22939699641034e2982",
+    "selectedLessons": 300,
+    "sourceExamples": 2604,
+    "fuzzyHitCount": 46
+  },
+  "method": "Read each source example beside the learner text, including grammatical carrier, subject/domain, target-span contribution and concrete scenario. Repeated source occurrences are classified separately. The machine severity alone does not decide the action.",
+  "counts": {
+    "rewrite": 14,
+    "accept": 32
+  },
+  "decisions": [
+    {
+      "screenIndex": 0,
+      "lesson": 2298,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0187",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Diary and typhoon rescue add a concrete first-person historical event, distinct from source documentary; target and generic tells carrier account for resemblance."
+    },
+    {
+      "screenIndex": 1,
+      "lesson": 2414,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0303",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Play supplies specific hoarding, profiteering, greed and betrayal absent from generic source novel; no whole-source scenario is carried over."
+    },
+    {
+      "screenIndex": 2,
+      "lesson": 2414,
+      "field": "scene.options[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0303",
+      "action": "rewrite",
+      "reason": "Film + explores duplicates the source fiction-media carrier; retain target but use a new subject/predicate showing the moral failure."
+    },
+    {
+      "screenIndex": 3,
+      "lesson": 2414,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0303",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Drama betrayal for money supplies a specific action beyond source generic novel; examines is a different carrier."
+    },
+    {
+      "screenIndex": 4,
+      "lesson": 2414,
+      "field": "takeaways[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0303",
+      "action": "rewrite",
+      "reason": "Story + explores repeats the source fiction-media frame; use a concrete action as subject while retaining the target."
+    },
+    {
+      "screenIndex": 5,
+      "lesson": 2414,
+      "field": "writing.examples[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0303",
+      "action": "rewrite",
+      "reason": "Play + explores repeats the source fiction-media frame in a model sentence; make the corrupt leader or act the subject."
+    },
+    {
+      "screenIndex": 6,
+      "lesson": 2414,
+      "field": "writing.examples[1].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0303",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Charity fraud and belonging of donations are concrete moral stakes absent from source generic novel; exposes differs from explores."
+    },
+    {
+      "screenIndex": 7,
+      "lesson": 2457,
+      "field": "reply.options[2].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 8,
+      "lesson": 2457,
+      "field": "scene.options[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 9,
+      "lesson": 2457,
+      "field": "dialogue.options[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 10,
+      "lesson": 2457,
+      "field": "speaking.en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 11,
+      "lesson": 2457,
+      "field": "writing.examples[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 12,
+      "lesson": 2457,
+      "field": "writing.examples[1].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0346",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 13,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0533",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 14,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1297",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 15,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1781",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 16,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0533",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 17,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1297",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 18,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1781",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 19,
+      "lesson": 2705,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0594",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 20,
+      "lesson": 2705,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0594",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 21,
+      "lesson": 2705,
+      "field": "takeaways[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0594",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 22,
+      "lesson": 2705,
+      "field": "takeaways[1].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0594",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 23,
+      "lesson": 2705,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0594",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 24,
+      "lesson": 2711,
+      "field": "takeaways[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0600",
+      "action": "rewrite",
+      "reason": "Cheaper ticket with an edge on price reproduces the cheaper-plan/value comparison; make the slight advantage a different criterion."
+    },
+    {
+      "screenIndex": 25,
+      "lesson": 2758,
+      "field": "reply.options[2].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0647",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Old library and grandfather are individual learning memories, distinct from source theatre in collective local memory."
+    },
+    {
+      "screenIndex": 26,
+      "lesson": 2758,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0647",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Old stall and mother learning a dish are individual food memories, distinct from source theatre in collective local memory."
+    },
+    {
+      "screenIndex": 27,
+      "lesson": 2851,
+      "field": "scene.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0740",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Missing age groups is a specific omitted-data cue beyond source generic missing context."
+    },
+    {
+      "screenIndex": 28,
+      "lesson": 2853,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0742",
+      "action": "rewrite",
+      "reason": "Imperative do not read a claim with brain switched off closely follows source do not read serious claims; recast around a specific bad inference."
+    },
+    {
+      "screenIndex": 29,
+      "lesson": 3006,
+      "field": "takeaways[1].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0895",
+      "action": "rewrite",
+      "reason": "The final test matters because a lot more is riding on it repeats the source choice-matters-because frame; put the concrete consequence first."
+    },
+    {
+      "screenIndex": 30,
+      "lesson": 3014,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0903",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Job abroad vs local job supplies a concrete unrealized career path absent from generic source."
+    },
+    {
+      "screenIndex": 31,
+      "lesson": 3014,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-0903",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Museum traineeship vs family shop supplies a second concrete unrealized path absent from generic source."
+    },
+    {
+      "screenIndex": 32,
+      "lesson": 3046,
+      "field": "takeaways[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0935",
+      "action": "rewrite",
+      "reason": "Reliable new evidence can push boundaries closely paraphrases source new methods can push boundaries; use a named finding or research act."
+    },
+    {
+      "screenIndex": 33,
+      "lesson": 3092,
+      "field": "takeaways[0].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-0981",
+      "action": "rewrite",
+      "reason": "One firsthand experience can turn an old opinion on its head almost exactly restates source new experience can turn an old opinion on its head; specify a different concrete case."
+    },
+    {
+      "screenIndex": 34,
+      "lesson": 3113,
+      "field": "dialogue.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1002",
+      "action": "rewrite",
+      "reason": "That question has opened a can of worms keeps the source that question could open frame; identify the refund issue directly instead."
+    },
+    {
+      "screenIndex": 35,
+      "lesson": 3113,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1002",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Museum discount/refund/ticket consequences make the question concrete; source only says that question may open a can of worms."
+    },
+    {
+      "screenIndex": 36,
+      "lesson": 3124,
+      "field": "takeaways[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1013",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Policy swinging from total ban to no limits differs from source generic online-debate extremes."
+    },
+    {
+      "screenIndex": 37,
+      "lesson": 3162,
+      "field": "scene.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1051",
+      "action": "rewrite",
+      "reason": "Her patience is being tested by repeated timetable changes is only a pronoun and schedule variant of source repeated delays; use another stressor."
+    },
+    {
+      "screenIndex": 38,
+      "lesson": 3165,
+      "field": "takeaways[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1054",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Long climb and endurance versus speed differ from source long queue."
+    },
+    {
+      "screenIndex": 39,
+      "lesson": 3165,
+      "field": "writing.examples[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1054",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Seven-hour choir rehearsal and managed breaks differ from source long queue."
+    },
+    {
+      "screenIndex": 40,
+      "lesson": 3176,
+      "field": "listening.en",
+      "severity": "near-full",
+      "sourceId": "book10-16-1065",
+      "action": "rewrite",
+      "reason": "Hot-headed in close games repeats the source sports setting and close-games modifier, despite new referee detail; transfer to another pressured context."
+    },
+    {
+      "screenIndex": 41,
+      "lesson": 3176,
+      "field": "reply.options[2].en",
+      "severity": "near-full",
+      "sourceId": "book10-16-1065",
+      "action": "rewrite",
+      "reason": "Hot-headed in close games exactly retains the source setting; make the advice about a distinct context rather than close games."
+    },
+    {
+      "screenIndex": 42,
+      "lesson": 3280,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1169",
+      "action": "rewrite",
+      "reason": "Guide hiding behind excuses instead of apologising remains the source accountability situation, with a wrong-date subplot added; shift to a different concrete failure."
+    },
+    {
+      "screenIndex": 43,
+      "lesson": 3280,
+      "field": "scene.options[0].en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1169",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Correcting mislabeled items gives an observable accountability task distinct from generic source apology."
+    },
+    {
+      "screenIndex": 44,
+      "lesson": 3329,
+      "field": "listening.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1218",
+      "action": "rewrite",
+      "reason": "Parents already have a lot on their plate repeats the source actor and carrier almost verbatim; use different people with new responsibilities."
+    },
+    {
+      "screenIndex": 45,
+      "lesson": 3334,
+      "field": "speaking.en",
+      "severity": "review-near-full",
+      "sourceId": "book10-16-1223",
+      "action": "accept-fixed-target-or-new-context",
+      "reason": "Concert preparation, labelled cables and backup contact give concrete production detail, distinct from source trip."
+    }
+  ],
+  "note": "This reviews the frozen screen snapshot. Current drafts may have changed since the screen was produced; rehash and rerun screening after any rewrite. No draft, decision or manifest file was changed.",
+  "humanApproval": false,
+  "releaseApproval": false
+}

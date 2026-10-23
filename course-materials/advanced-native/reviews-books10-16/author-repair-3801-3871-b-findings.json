@@ -1,0 +1,45 @@
+{
+  "reviewKind": "author-repair-followup-unselected",
+  "initialIndependentReview": "reviews-books10-16/independent-ai-review-3801-3871-b.json",
+  "initialIndependentReviewSha256": "73e903a02f0a57907793d02ef073cd495dc6f8da024ae42b90b9eb4863b5c595",
+  "reviewedFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3801-3826-review-pilot.json",
+      "sha256": "1bdb36631c6c9c0a00b523efc3f94b9a1d3b3d07167c9c2ac07f6d509aa804d7"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3829-3864-review-pilot.json",
+      "sha256": "d3f85d400959d4b52b60f61ef13f7974da8255ce03c3269461001ea7ceee8b89"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3870-3871-review-pilot.json",
+      "sha256": "ac970ee83b5c2899774e259c8633b4faedea3fd126ab796f97e22e4509bbe404"
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "id": "R3801-01",
+      "repair": "Museum ticket desk now causes the long line; natural agency in English and Traditional Chinese."
+    },
+    {
+      "id": "R3864-01",
+      "repair": "Both writing models now identify today’s electrical failure, the two-day whole-school closure and yesterday’s ten-minute one-room outage."
+    },
+    {
+      "id": "R3870-01",
+      "repair": "Model 2 now explicitly states lunch moved fifteen minutes earlier; Chinese and answer-derived glossary aligned."
+    },
+    {
+      "id": "R3871-01",
+      "repair": "Model 2 now explicitly assigns boxing primarily to sport and tea gathering primarily to social activity."
+    }
+  ],
+  "focusedBuildCheck": "8 lessons, 48 questions, 32 audio requests, zero flags, build plus --check",
+  "sourceOriginality": {
+    "guideRows": 2604,
+    "learnerStrings": 192,
+    "nonTargetHits": 0,
+    "targetOnlyHits": 11
+  },
+  "status": "Author self-check only; independent exact-hash follow-up, human owner and release gates pending. Unselected."
+}

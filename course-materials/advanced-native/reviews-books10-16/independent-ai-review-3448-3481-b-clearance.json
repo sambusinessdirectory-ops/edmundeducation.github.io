@@ -1,0 +1,15 @@
+{
+  "reviewType": "independent-exact-hash-four-valid-reply-final-followup",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3448-3481-a.json",
+  "draftSha256": "3ac6dd78d471c86720faa7d07e91c10c89ff865c555813773568530ef4540335",
+  "authorAuditSha256": "6eee1e75686c732164ae08e6f0536354f3f19a4ce24bfb391059dfe057a0c7d1",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3448-3481-b-final-followup.json",
+  "status": "pass-content-only",
+  "findingDisposition": [
+    {"id": "R3449-03", "status": "cleared", "evidence": "Reply B now connects repeating the shoe-placement action each morning with familiarity, directly explaining automatic habit formation from supplied facts in English and Traditional Chinese."},
+    {"id": "R3455-03", "status": "cleared", "evidence": "Reply D now says the organisers still want visitors to see the display boards despite the original room's closure, answering why they need a different venue without assuming the replacement has been approved."}
+  ],
+  "regressions": [],
+  "focusedBuildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "limits": "All earlier independent findings in this eight-lesson batch are closed at this exact hash. No human sign-off, manifest selection, audio or publication approval."
+}

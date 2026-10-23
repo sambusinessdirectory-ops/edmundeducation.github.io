@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent-eight-lesson-golden-sop-editorial-review",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3702-3715-a.json", "sha256": "be8f6f6435567b419e1df08c8b3a8e5c6e52b080531f9e13c2a82f05aa199bb8"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3728-3738-a.json", "sha256": "2f9e824ff605b38d5ec5598c0c4369c7e96df20e5d76474af44560b5dda0c168"}
+  ],
+  "authorAuditSha256": "39ee6faec12c7d919cd005228abbbc58ed793eee8e10be6471f0eec12b1f37b9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "status": "three-content-repairs-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3702, "status": "pass", "summary": "No established unmet need is consistently distinguished from a merely novel solution. Four reply options are defensible and both writing models give concrete evidence before judgement."},
+    {"ordinal": 3706, "status": "pass", "summary": "Each task identifies a once-unavailable support and later uptake; the metaphor is separated from clock time. English and Traditional Chinese models transfer to different designs."},
+    {"ordinal": 3708, "status": "repair", "summary": "Initial attention versus durable success is taught across the lesson, but the fourth reply does not answer the launch question."},
+    {"ordinal": 3715, "status": "repair", "summary": "The service-adaptation sense is clear, but the second writing model does not establish the changed usage habit or request that the prompt and self-check require."},
+    {"ordinal": 3728, "status": "pass", "summary": "Small measured lead and non-final decision are distinguished consistently. Inflections, source sense, answer keys, bilingual models and glossary spans align."},
+    {"ordinal": 3735, "status": "repair", "summary": "The general workload-coping sense is distinct from canonical 349 stay afloat, whose brief and examples are financial survival. The fourth reply proposes support but does not answer how the assistants are currently coping."},
+    {"ordinal": 3736, "status": "pass", "summary": "Growing demand plus prepared active response are present throughout; the source technology wave is transferred to clothing, cycling, classes and low-waste service."},
+    {"ordinal": 3738, "status": "pass", "summary": "Every assessed and model 'it' has a named proposal or object antecedent; enthusiasm is differentiated from a decision made without required checks."}
+  ],
+  "ownerComparison3735": {"priorCanonical": "advanced-native-349", "priorTitle": "stay afloat", "priorTargetPattern": "\\bstay(?:s|ed|ing)? afloat\\b", "priorSense": "Continue operating or meet basic financial demands despite difficulty", "newOwner": "advanced-native-3735", "newSense": "Keep one's head above water while coping with non-financial workload/time pressure", "decision": "distinct-enough-provisional", "reason": "Different lexical construction and assessment outcome: canonical 349 teaches financial survival; 3735 assesses urgent work completed while backlog grows. Do not merge merely because both use water-survival imagery."},
+  "findings": [
+    {"id": "R3708-01", "severity": "major", "path": "lessons[number=3708].reply.options[id=d]", "issue": "The prompt asks what happened when the podcast launched. D says its long-term audience still needs separate measurement, a true caveat but not an independently valid description of the launch event.", "requiredRepair": "State the observed broad first-week attention and its uncertainty together, for example 'The strong first-week response does not yet prove a lasting audience', with faithful Chinese."},
+    {"id": "R3715-01", "severity": "major", "path": "lessons[number=3715].writing.examples[1]", "issue": "The writing prompt and self-check require evidence of a changed usage habit or need in both examples. Model 2 merely says captioned recordings were offered for shift workers; it does not state a new shift pattern, repeated request, or access gap that triggered the adaptation.", "requiredRepair": "Add a concrete changed-demand or access cue in English and Traditional Chinese while retaining face-to-face support; recalculate glossary spans if affected."},
+    {"id": "R3735-01", "severity": "major", "path": "lessons[number=3735].reply.options[id=d]", "issue": "The prompt asks how three assistants are coping now. D says extra cover would help reduce the backlog, which proposes future support without describing their current coping method; it violates the four-valid-reply contract.", "requiredRepair": "Make D describe urgent checks continuing alongside deferred filing, optionally adding that extra cover would help; align Chinese."}
+  ],
+  "limits": "Unselected drafts; no human owner sign-off, audio or publication clearance."
+}

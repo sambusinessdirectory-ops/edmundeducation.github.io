@@ -144,8 +144,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The story taps into something universal about fearing the loss of a companion.",
-            "zh": "故事觸及害怕失去陪伴這種許多人都有的感受。"
+            "en": "The scene taps into something universal: the fear of losing a companion.",
+            "zh": "這一幕觸及許多人共有的感受：害怕失去陪伴。"
           },
           {
             "id": "b",
@@ -179,8 +179,8 @@
             "zh": "飯堂一幕觸及人人共有的感受：新同學渴望歸屬，一個簡單邀請讓她感到受歡迎。"
           },
           {
-            "en": "When another student offers her a seat, the play taps into something universal about hoping to be accepted in a new place.",
-            "zh": "另一名學生邀她同坐時，這齣戲觸及人在新環境中盼望被接納的普遍感受。"
+            "en": "In the play, another student offers her a seat; this small act taps into something universal—the wish to belong in a new place.",
+            "zh": "劇中另一名學生邀新同學同坐；這個小舉動觸及許多人在新環境中渴望有歸屬感的心情。"
           }
         ],
         "glossary": [
@@ -216,8 +216,8 @@
             "zh": "邀她同坐",
             "exampleIndex": 1,
             "span": {
-              "start": 21,
-              "end": 38
+              "start": 29,
+              "end": 46
             }
           },
           {
@@ -225,16 +225,16 @@
             "zh": "新環境",
             "exampleIndex": 1,
             "span": {
-              "start": 110,
-              "end": 121
+              "start": 115,
+              "end": 126
             }
           }
         ]
       },
       "takeaways": [
         {
-          "en": "The poem taps into something universal about wanting a second chance.",
-          "zh": "這首詩觸及人們希望重來一次的普遍感受。"
+          "en": "By showing a choice the speaker wishes she could undo, the poem taps into something universal.",
+          "zh": "詩中寫出說話者希望能撤回的一個選擇，因此觸及許多人共有的心情。"
         },
         {
           "en": "A specific scene can tap into something universal when it reveals a widely shared fear.",
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2353",

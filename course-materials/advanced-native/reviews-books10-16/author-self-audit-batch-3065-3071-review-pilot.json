@@ -1,0 +1,91 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human approval, media listening approval, or release certification",
+  "createdUtc": "2026-10-23T14:13:56.596916+00:00",
+  "scope": "Three unselected proposed-new owners after selected A batch 3006–3057; duplicate selected ordinals screened out",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "sha256": "557e2410e6e5d55abe7951f607cb01c761b38749f32bc19e07ce8c8705eab819"
+    }
+  ],
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-3065-3071-review-pilot.json",
+    "sha256": "8e34993320afe3d150c1b98a137ea4767dc8833e329a18c13759cdf8489fedd4",
+    "ordinals": [
+      3065,
+      3068,
+      3071
+    ]
+  },
+  "selectedManifestScreen": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "0b2e5b8d319a52fc1abc9d5192d704558f6f24f8c5406d86beec5ab279ec8d14",
+    "collisions": 0,
+    "knownSelectedAFile": "batch-3006-3057-a.json",
+    "excludedAlreadySelected": [
+      3014,
+      3040,
+      3046,
+      3047,
+      3048,
+      3050,
+      3057
+    ]
+  },
+  "focusedBuild": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRequests": 12,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-3065-3071-repair"
+  },
+  "authorChecks": [
+    {
+      "ordinal": 3065,
+      "sourceAndOwnerExact": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "answerDerivedGlossaryAndTarget": true,
+      "englishChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 3068,
+      "sourceAndOwnerExact": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "answerDerivedGlossaryAndTarget": true,
+      "englishChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 3071,
+      "sourceAndOwnerExact": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "answerDerivedGlossaryAndTarget": true,
+      "englishChineseAuthorChecked": true,
+      "independentReview": "pending"
+    }
+  ],
+  "openGates": [
+    "Independent exact-hash English and Traditional Chinese review",
+    "Human source-owner/idiomaticity approval",
+    "Media listening and device QA",
+    "Parent-controlled manifest selection and publication"
+  ],
+  "independentReviewFindingReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3065-3071-b.json",
+  "repairSummary": {
+    "3065": "Prompt and both writing examples now state prior job application and quarrel clues for the two supported readings; glossary spans regenerated.",
+    "3068": "First writing model now considers travel time as well as slopes and lifts; glossary span regenerated.",
+    "3071": "Second writing model now identifies first-time parent and confusing arrow; glossary spans regenerated.",
+    "contentRevision": 2,
+    "independentExactHashFollowup": "pending"
+  }
+}

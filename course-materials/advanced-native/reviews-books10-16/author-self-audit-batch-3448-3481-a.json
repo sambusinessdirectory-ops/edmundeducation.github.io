@@ -1,0 +1,285 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T14:53:09.249575+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3448-3481-a.json",
+  "draftSha256": "3ac6dd78d471c86720faa7d07e91c10c89ff865c555813773568530ef4540335",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "8a905cfdf16d6f0c97576629455d5ebf649995e469abd423b6694f843274de69",
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags",
+  "sourceCopyScreen": {
+    "sources": 2604,
+    "learnerStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 17
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "interpretation": "The repaired 200 learner-facing English strings show zero exact/high/medium source reuse and zero one- or two-substitution near-full overlaps against all 2,604 guide examples. Short fixed-idiom overlaps require normal editorial review."
+  },
+  "canonicalScreen": "All eight ordinals 3448,3449,3452,3455,3458,3469,3472,3481 remain proposed-new-lesson in source triage. No prior selected/drafted owner for these source ordinals; independent owner review pending.",
+  "authorSemanticPass": "Repaired all nine issues in B initial report: eight reply prompts now establish answer facts in English and Traditional Chinese; 3469 teaches personified imminent deadlines as well as human hovering. Lesson 3455 now teaches an abstract quiet condition disappearing and detects the bare go form in source 4383. Independent exact-hash follow-up is pending.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3448,
+      "sourceId": "book10-16-1337",
+      "sourceExpression": "too much fuss",
+      "sourceExample": "Making one portion seemed like too much fuss.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3449,
+      "sourceId": "book10-16-1338",
+      "sourceExpression": "once that habit sets in",
+      "sourceExample": "Once that habit sets in, it is hard to change.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 3452,
+      "sourceId": "book10-16-1341",
+      "sourceExpression": "grab lunch",
+      "sourceExample": "We can grab lunch near the station.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3455,
+      "sourceId": "book10-16-1344",
+      "sourceExpression": "gone out of the window",
+      "sourceExample": "The original timetable has gone out of the window.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 3458,
+      "sourceId": "book10-16-1347",
+      "sourceExpression": "not all doom and gloom",
+      "sourceExample": "Prices are high, but it is not all doom and gloom.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3469,
+      "sourceId": "book10-16-1358",
+      "sourceExpression": "breathing down your neck",
+      "sourceExample": "Deadlines were breathing down your neck all week.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3472,
+      "sourceId": "book10-16-1361",
+      "sourceExpression": "hands down",
+      "sourceExample": "On busy nights, the simpler meal wins hands down.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3481,
+      "sourceId": "book10-16-1370",
+      "sourceExpression": "gravitate towards",
+      "sourceExample": "Customers gravitate towards simple solutions.",
+      "checks": {
+        "sourceExpressionExact": true,
+        "sourceSentenceExact": true,
+        "sourceLocatorExact": true,
+        "keyedTargetAcrossTasks": true,
+        "audioRolesFour": true,
+        "audioUnder240": true,
+        "twoWritingModelsTarget": true,
+        "answerDerivedGlossary": true,
+        "chineseEveryTask": true
+      },
+      "fourValidRepliesAuthorJudgment": "yes, each reply is now grounded in the bilingual prompt; independent follow-up pending",
+      "changedContextWritingExamples": 2,
+      "glossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    }
+  ],
+  "independentReviewRepair": {
+    "reports": [
+      "reviews-books10-16/independent-ai-review-3448-3481-b.json",
+      "reviews-books10-16/independent-ai-review-3448-3481-b-followup.json"
+    ],
+    "findingIds": [
+      "R3448-01",
+      "R3449-01",
+      "R3452-01",
+      "R3455-01",
+      "R3458-01",
+      "R3469-01",
+      "R3469-02",
+      "R3472-01",
+      "R3481-01",
+      "R3449-02",
+      "R3455-02",
+      "R3469-03"
+    ],
+    "authorJudgment": "all reported defects repaired in current draft; independent reviewer must confirm latest exact hash"
+  },
+  "aliasOwnerCheck": {
+    "sourceOrdinal": 4383,
+    "sourceExpression": "peace and quiet can quickly go out of the window",
+    "ownerOrdinal": 3455,
+    "detectorExampleMatched": true,
+    "allDiscoveredAliasAudit": "PASS: 158 alias-new rows; zero exceptions",
+    "senseReason": "Both uses express an abstract condition or expectation ceasing to hold. The revised owner teaches lost quiet and abandoned plans and requires the full out-of-the-window idiom."
+  },
+  "fullVerifierStatus": "Blocked outside this batch by selected lesson 3280 audio[0] over 240 characters; parent notified. Focused build/check and all-discovered alias audit pass."
+}

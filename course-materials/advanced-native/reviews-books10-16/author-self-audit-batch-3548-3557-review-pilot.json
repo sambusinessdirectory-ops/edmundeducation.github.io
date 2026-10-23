@@ -1,0 +1,50 @@
+{
+  "reviewType": "AI author self-audit; independent English/Chinese, human owner, media and release approval pending",
+  "createdUtc": "2026-10-23T14:30:33.621533+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3548-3557-review-pilot.json",
+  "draftSha256": "dde7665b792fdfc6edfd8b97a0a3d5082f7d9c7a60de51bb249483e0dd0fb2fa",
+  "ordinals": [
+    3548,
+    3550,
+    3555,
+    3557
+  ],
+  "selectedManifestSha256": "f9da990c8234e835929534223ad1751cf56e87873a32f56c32b97c2e0fe02b94",
+  "selectedCollisions": 0,
+  "focusedBuild": {
+    "lessons": 4,
+    "questions": 24,
+    "audioRequests": 16,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "authorChecks": {
+    "sourceExamplePattern": "pass",
+    "sixAssessedQuestionsAndFourValidReplies": "author-reviewed",
+    "englishTraditionalChineseFidelity": "author-reviewed",
+    "twoChangedContextWritingModels": "author-reviewed",
+    "answerDerivedGlossarySpans": "pass",
+    "scenarioDiversity": "author-reviewed",
+    "priorOwnerCollision": "screened; human sense approval pending"
+  },
+  "openGates": [
+    "Independent exact-hash English and Traditional Chinese review",
+    "Human source-owner/idiomaticity approval",
+    "Media listening and device QA",
+    "Parent-controlled selection and release"
+  ],
+  "independentInitialReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3486-3557-b.json",
+  "repairs": {
+    "sourceScenarioRewrites": [
+      3555,
+      3557
+    ],
+    "writingCompletenessAndNaturalness": [
+      3555
+    ],
+    "chineseTypography": [],
+    "contentRevision": 2,
+    "exactHashIndependentFollowup": "pending"
+  }
+}

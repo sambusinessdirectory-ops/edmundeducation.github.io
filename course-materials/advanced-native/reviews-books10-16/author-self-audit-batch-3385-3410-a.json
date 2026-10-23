@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T14:06:52.518647+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3385-3410-a.json",
+  "draftSha256": "539ac0de8fda14fa46dfa3fe785f0c34e779f7bb1d3526e3a2458d98903d27d5",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "b22e0a2eaee7fa1eaa1654663b2904b970784597bcb81de8265d28f44e533b85",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "sourceCopyScreen": "Full 2,604-guide × 200 learner-facing English screen: zero exact guide-sentence copies. Eighteen automatic near flags all consist solely of the complete fixed target idiom in 3406 (6 words) or 3410 (9 words); surrounding scenarios and choices are original.",
+  "canonicalScreen": "All eight source rows are proposed-new; no exact canonical phrase/title owner was found in the initial catalogue scan. 3405 marks event onset, 3406 essential-system continuity, 3407 unavoidable choice; these are distinct decisions despite emergency-themed sources. Independent owner/sense review remains pending.",
+  "authorSemanticPass": "Repaired independent R3385-01, R3391-01, R3407-01, R3407-02 with explicit savings, production ownership, coherent decision deadline, and a stated accessible venue; EN/ZH checked. Independent follow-up pending.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3385,
+      "sourceExpression": "hard-earned money",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3391,
+      "sourceExpression": "East-meets-West identity",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3393,
+      "sourceExpression": "full of character",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3403,
+      "sourceExpression": "squeeze water from a stone",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3405,
+      "sourceExpression": "when a crisis hits",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3406,
+      "sourceExpression": "keep a society on its feet",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3407,
+      "sourceExpression": "when push comes to shove",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3410,
+      "sourceExpression": "jack of all trades and master of none",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ],
+  "updatedUtc": "2026-10-23T14:14:39.355955+00:00"
+}

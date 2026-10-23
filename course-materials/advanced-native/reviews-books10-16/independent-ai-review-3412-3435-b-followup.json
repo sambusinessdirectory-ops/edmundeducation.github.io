@@ -1,0 +1,18 @@
+{
+  "reviewType": "independent-exact-hash-follow-up",
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-3412-3435-a.json",
+    "sha256": "b18a9055d379d02094da99770d68f90cb9eaf2e6506d97699e89a3fbb5397609"
+  },
+  "authorSelfAuditSha256": "1e14dd5e5575ebe6206e135c249f8867a859c198cb4b9625a07537f23747db92",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": "Rechecked all three prior writing findings, both bilingual models and affected glossary spans; retained five other lessons' prior content review. The eight source ordinals remain unselected at this review.",
+  "findings": [
+    {"id": "R3412-01", "status": "cleared", "evidence": "Model 2 now states the growers must reuse poor seed and postpone equipment repairs after seed and tool links were cut; Traditional Chinese conveys both impacts and glossary spans are exact."},
+    {"id": "R3429-01", "status": "cleared", "evidence": "Model 2 now compares larger and smaller clinics, explains the audited reserve, replacement equipment and staggered repairs, and keeps the reserve finite in both languages. Revised prompt permits two organisations and fits both models."},
+    {"id": "R3431-01", "status": "cleared", "evidence": "Model 1 states a one-dollar net saving from ten-dollar cut and nine-dollar fee; model 2 states a five-dollar net gain from forty-dollar support and thirty-five-dollar lost allowance. English and Traditional Chinese calculations align; glossary offsets exact."}
+  ],
+  "regressions": [],
+  "mechanicalChecks": "Focused build and --check: 8 lessons, 48 questions, 32 audio requests, zero flags.",
+  "result": "Eight provisional lessons are content-clear at this exact draft hash; this is not human approval, selection or publication."
+}

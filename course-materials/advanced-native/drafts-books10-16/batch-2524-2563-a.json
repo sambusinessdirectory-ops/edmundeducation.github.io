@@ -1034,7 +1034,7 @@
       },
       "takeaways": [
         {
-          "en": "Do not throw the baby out with the bathwater when only one section needs fixing.",
+          "en": "When just one section needs fixing, do not throw the baby out with the bathwater.",
           "zh": "如果只有一節需要修正，就不要連有用部分也丟掉。"
         },
         {
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3385-3410-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3385",
+      "number": 3385,
+      "inventoryId": "expr-3385",
+      "titleEn": "hard-earned money",
+      "titleZh": "辛苦賺來的錢",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhard-earned money\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Money gained through sustained effort, with an implication that spending it deserves care.",
+        "meaningZh": "透過辛勤工作賺來的錢，含有應審慎使用的意思。",
+        "grammar": "hard-earned is a hyphenated adjective before money; hard earn money is not grammatical.",
+        "register": "Neutral, empathetic expression. A consumer adviser may use it with a family comparing prices.",
+        "boundaryZh": "強調賺取不容易；不表示收入一定很低，也不等於任何較貴選項都不值得買。",
+        "misconceptionZh": "不是說紙幣本身很硬，亦不能用它替代具體比較產品的品質和價格。",
+        "outcomeZh": "能說明工作付出和審慎消費的關係，並根據價值作選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1274",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 118,
+          "book": 13,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–6",
+          "locatorNote": "DOCX table 123, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Families want value for their hard-earned money.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hard-earned money"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者為何比較保障和續航力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The families worked extra shifts for the money and want a purchase that lasts.",
+            "zh": "家庭靠加班賺錢，希望買到耐用的產品。"
+          },
+          {
+            "id": "b",
+            "en": "All models cost exactly the same.",
+            "zh": "所有型號價錢完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "The sale price is the only factor that matters.",
+            "zh": "只有折扣價值得考慮。"
+          },
+          {
+            "id": "d",
+            "en": "The families have already returned the laptop.",
+            "zh": "家庭已退回手提電腦。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "辛苦儲來的錢值得按長期價值作比較。",
+        "en": "These families saved from weekend shifts to buy a laptop. It is hard-earned money, so we compared repair cover and battery life as well as the sale price.",
+        "zh": "這些家庭靠週末加班儲錢買手提電腦。那是辛苦賺來的錢，所以我們除了售價，也比較維修保障和電池續航力。"
+      },
+      "reply": {
+        "promptEn": "We saved from weekend shifts for a laptop. One model is cheaper, but its battery and repair cover are weaker. How should we decide?",
+        "promptZh": "（我們靠週末加班儲錢買手提電腦。一款較便宜，但電池和維修保障較差。應怎樣決定？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare the total value, not only the sticker price.",
+            "zh": "比較整體價值，不只看標價。"
+          },
+          {
+            "id": "b",
+            "en": "Ask how long each battery is likely to last.",
+            "zh": "問每款電池大概能用多久。"
+          },
+          {
+            "id": "c",
+            "en": "It is our hard-earned money; let us check the cover before choosing.",
+            "zh": "這是我們辛苦賺來的錢，選擇前先核對保障。"
+          },
+          {
+            "id": "d",
+            "en": "Work out whether later repair costs change the comparison.",
+            "zh": "計算日後維修費會否改變比較結果。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均審慎；金句把工作付出和選購核對連起來。"
+      },
+      "scene": {
+        "promptZh": "護理員儲了數月薪金換洗衣機，購買前比較保用年期、能源用量及價格。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is protecting her hard-earned money by comparing long-term value.",
+            "zh": "她比較長期價值，善用辛苦賺來的錢。"
+          },
+          {
+            "id": "b",
+            "en": "She buys whichever machine has the brightest advert without checking terms.",
+            "zh": "她不看條款，只買廣告最亮眼的一款。"
+          },
+          {
+            "id": "c",
+            "en": "She has no reason to consider running costs.",
+            "zh": "她完全不必考慮使用成本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "工作所得與審慎比較並存。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不符合 hard-earned money 的含義？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The money appeared from a surprise gift, with no work or saving involved.",
+            "zh": "那筆錢是意外收到的禮物，沒有涉及工作或儲蓄。"
+          },
+          {
+            "id": "b",
+            "en": "The student saved from many evening shifts to pay course fees.",
+            "zh": "學生靠多次晚班儲錢付學費。"
+          },
+          {
+            "id": "c",
+            "en": "The cleaner set aside part of each wage before buying equipment.",
+            "zh": "清潔工每次出糧都留起一部分，之後才買器材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "意外收到的禮物不能單憑資料稱為辛苦賺來。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：這個電話計劃起初便宜，但附加收費不清楚。我們儲了好幾個月。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us read the terms before spending our hard-earned money.",
+            "zh": "花辛苦賺來的錢之前，先讀清楚條款。"
+          },
+          {
+            "id": "b",
+            "en": "Ask for a full monthly cost in writing.",
+            "zh": "請對方書面列明每月總費用。"
+          },
+          {
+            "id": "c",
+            "en": "Compare it with a plan that includes those charges.",
+            "zh": "拿它與已包括附加收費的計劃比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出工作所得值得核對條款。",
+        "promptEn": "A: This phone plan is cheap at first, but the extra charges are unclear. We saved for months. B: ______"
+      },
+      "speaking": {
+        "en": "They compared the repair warranty before spending their hard-earned money on the second-hand bicycle.",
+        "zh": "他們花辛苦賺來的錢買二手單車前，先比較維修保用。",
+        "promptZh": "交代賺錢的付出及選購時核對的價值。",
+        "targetSpan": {
+          "start": 56,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人靠工作或持續儲蓄買一項重要物品，購買前比較實際價值。用英文寫出付出與比較。",
+        "selfCheckZh": "兩例須有努力賺取及具體消費核對，不能只說價錢高低。",
+        "examples": [
+          {
+            "en": "After saving wages from night shifts, Li checked the repair history before using her hard-earned money to buy a used scooter.",
+            "zh": "Li 靠夜班薪金儲錢，花辛苦賺來的錢買二手電單車前先查看維修紀錄。"
+          },
+          {
+            "en": "After saving from extra weekend shifts, the parents compared course fees and tutor qualifications before putting their hard-earned money towards lessons.",
+            "zh": "家長靠週末加班的收入儲錢，再比較課程費用及導師資歷，才把辛苦賺來的錢用於課程。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "night shifts",
+            "zh": "夜班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 36
+            }
+          },
+          {
+            "en": "the repair history",
+            "zh": "維修紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 67
+            }
+          },
+          {
+            "en": "a used scooter",
+            "zh": "二手電單車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 124
+            }
+          },
+          {
+            "en": "course fees",
+            "zh": "課程費用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 72
+            }
+          },
+          {
+            "en": "tutor qualifications",
+            "zh": "導師資歷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hard-earned money deserves a value check, not an automatic refusal to spend.",
+          "zh": "辛苦賺來的錢值得先比較價值，而非一律不花。"
+        },
+        {
+          "en": "Her hard-earned money paid for a camera after she checked the warranty.",
+          "zh": "她查看保用後，才用辛苦賺來的錢買相機。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3391",
+      "number": 3391,
+      "inventoryId": "expr-3391",
+      "titleEn": "East-meets-West identity",
+      "titleZh": "中西融合的特色",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bEast-meets-West identity\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A recognisable style formed by combining distinct Eastern and Western cultural features.",
+        "meaningZh": "把東西方不同文化特色結合，形成可辨認的風格。",
+        "grammar": "East-meets-West is a fixed hyphenated compound modifying identity; the target uses the full noun phrase.",
+        "register": "Neutral descriptive phrase. A café reviewer may use it with readers when describing a menu and interior.",
+        "boundaryZh": "須指出兩邊具體元素怎樣共存或互相影響；只在名字寫「fusion」而無可見特色，不足以證明。",
+        "misconceptionZh": "不是說東西方已變成完全相同，也不應把任何一種文化當成單一固定樣板。",
+        "outcomeZh": "能以具體菜式、設計或服務例子說明中西融合，而不空泛貼標籤。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1280",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 119,
+          "book": 13,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "7–8",
+          "locatorNote": "DOCX table 124, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The café has a clear East-meets-West identity.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "East-meets-West identity"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "哪兩方面顯示咖啡店中西融合？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its food pairings and interior each combine specific traditions.",
+            "zh": "食物搭配與室內設計都結合了具體傳統。"
+          },
+          {
+            "id": "b",
+            "en": "The café uses only one unnamed style in every area.",
+            "zh": "咖啡店各處只用一種未說明的風格。"
+          },
+          {
+            "id": "c",
+            "en": "Its name says “fusion,” but nothing in the café reflects that label.",
+            "zh": "店名寫了「融合」，但店內沒有任何相應特色。"
+          },
+          {
+            "id": "d",
+            "en": "The café has stopped serving all drinks and pastries.",
+            "zh": "咖啡店已停止供應所有飲品和糕點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "菜式與佈置均有具體的兩種文化元素。",
+        "en": "The café pairs Cantonese milk tea with French pastries and uses old Hong Kong tiles beside a European-style counter. Its East-meets-West identity is visible in both the menu and the room, not only in its name.",
+        "zh": "咖啡店把港式奶茶配法式糕點，舊香港瓷磚旁又是歐式櫃檯。它中西融合的特色見於菜單和空間，而不只在名字。"
+      },
+      "reply": {
+        "promptEn": "A café serves Cantonese milk tea with French pastries and uses Hong Kong tiles by a European-style counter. How would you describe its style?",
+        "promptZh": "（一間咖啡店供應港式奶茶與法式糕點，歐式櫃檯旁有香港瓷磚。你會怎樣形容？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The menu brings two traditions together.",
+            "zh": "菜單把兩種傳統結合。"
+          },
+          {
+            "id": "b",
+            "en": "The interior also mixes recognisable design elements.",
+            "zh": "室內也混合可辨認的設計元素。"
+          },
+          {
+            "id": "c",
+            "en": "It has an East-meets-West identity shown through food and design.",
+            "zh": "它從食物與設計展示出中西融合的特色。"
+          },
+          {
+            "id": "d",
+            "en": "A review could name the specific pairings rather than just say “fusion”.",
+            "zh": "評論可點出具體搭配，而非只說「融合」。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述具體元素；金句概括店的整體特色。"
+      },
+      "scene": {
+        "promptZh": "一家書店在本地木製屏風旁設西式閱讀椅，活動同時介紹唐詩及歐洲現代詩。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bookshop has an East-meets-West identity in its space and events.",
+            "zh": "書店的空間與活動呈現中西融合的特色。"
+          },
+          {
+            "id": "b",
+            "en": "The shop uses the phrase only as a slogan with no related features.",
+            "zh": "店舖只把這句話當口號，沒有相應特色。"
+          },
+          {
+            "id": "c",
+            "en": "The shop exclusively presents one tradition.",
+            "zh": "店舖只呈現一種傳統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "室內與活動均有具體的中西元素。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明 East-meets-West identity？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shop calls itself “fusion” but shows no identifiable elements from either tradition.",
+            "zh": "店舖自稱「融合」，卻看不出兩邊任何可辨認的特色。"
+          },
+          {
+            "id": "b",
+            "en": "A café pairs a local tea method with a European pastry and explains both.",
+            "zh": "咖啡店把本地泡茶方法與歐洲糕點搭配，並介紹兩者。"
+          },
+          {
+            "id": "c",
+            "en": "A venue combines local craft screens with Western-style reading furniture.",
+            "zh": "場地把本地工藝屏風與西式閱讀家具結合。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "空泛標籤沒有具體文化元素支持。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：場地用了本地格柵屏風、供應港式茶，也有意大利小食。小冊子可以怎樣寫？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Describe its East-meets-West identity with those concrete examples.",
+            "zh": "用這些具體例子描寫它中西融合的特色。"
+          },
+          {
+            "id": "b",
+            "en": "Name the tea and snacks so readers can picture the menu.",
+            "zh": "寫明茶和小食，讓讀者想像菜單。"
+          },
+          {
+            "id": "c",
+            "en": "Explain how the screens contribute to the space.",
+            "zh": "說明屏風如何塑造空間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句要求用實例而非標籤呈現特色。",
+        "promptEn": "A: Our venue uses local lattice screens, serves Hong Kong-style tea and offers Italian snacks. What should the brochure say? B: ______"
+      },
+      "speaking": {
+        "en": "The gallery’s East-meets-West identity appears in its local ink paintings beside European printmaking tools.",
+        "zh": "畫廊中西融合的特色，見於本地水墨畫與歐洲版畫工具並列。",
+        "promptZh": "說出兩類具體元素及如何在同一場景共存。",
+        "targetSpan": {
+          "start": 14,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：場地或作品同時運用具體東西方元素。用英文寫出兩邊元素和它們形成的整體特色。",
+        "selfCheckZh": "兩例不得只寫 fusion；須說出可辨認的具體元素。",
+        "examples": [
+          {
+            "en": "The production’s East-meets-West identity emerged from bamboo set panels paired with Western chamber music during the same scene.",
+            "zh": "該劇目在同一幕把竹製舞台板與西方室內樂結合，形成中西融合的特色。"
+          },
+          {
+            "en": "A bakery built an East-meets-West identity by serving pineapple buns with French-style custard and explaining both traditions on its menu.",
+            "zh": "一間麵包店把菠蘿包配法式吉士，並在菜單介紹兩種傳統，塑造中西融合的特色。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bamboo set panels",
+            "zh": "竹製舞台板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 72
+            }
+          },
+          {
+            "en": "Western chamber music",
+            "zh": "西方室內樂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 106
+            }
+          },
+          {
+            "en": "the same scene",
+            "zh": "同一幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 128
+            }
+          },
+          {
+            "en": "pineapple buns",
+            "zh": "菠蘿包",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 68
+            }
+          },
+          {
+            "en": "French-style custard",
+            "zh": "法式吉士",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An East-meets-West identity needs visible, specific elements from both sides.",
+          "zh": "中西融合的特色須有雙方具體、可見的元素。"
+        },
+        {
+          "en": "The exhibit’s East-meets-West identity appears in its paired textiles and furniture.",
+          "zh": "展品把兩種紡織品與家具並列，呈現中西融合的特色。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3393",
+      "number": 3393,
+      "inventoryId": "expr-3393",
+      "titleEn": "full of character",
+      "titleZh": "別具特色",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfull of character\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Distinctive and appealing because of recognisable details and atmosphere, often of a place.",
+        "meaningZh": "因具體細節與氣氛而別具吸引人的特色，常用於地方。",
+        "grammar": "be/feel/look + full of character; character here is distinctive quality, not a fictional person.",
+        "register": "Positive descriptive phrase. A travel writer may use it with readers about a neighbourhood market.",
+        "boundaryZh": "須有可描述的獨特細節；舊或細小本身不一定有魅力，也不保證所有人都喜歡。",
+        "misconceptionZh": "不是市場裏「有很多角色」，也不是說地方設備必定完善。",
+        "outcomeZh": "能用具體視覺、聲音或人情細節支撐正面評價。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1282",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 119,
+          "book": 13,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "7–8",
+          "locatorNote": "DOCX table 124, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The small market is full of character.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "full of character"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "甚麼令講者認為市集別具特色？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its signs, long-running stalls and familiar vendor relationships give it a distinctive feel.",
+            "zh": "招牌、老攤檔和檔主與熟客的關係，形成獨特氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "It has no recognisable features beyond its size.",
+            "zh": "除了大小，它沒有可辨認的特色。"
+          },
+          {
+            "id": "c",
+            "en": "Every visitor has praised its wide paths.",
+            "zh": "每位訪客都讚它通道寬闊。"
+          },
+          {
+            "id": "d",
+            "en": "Its stalls were all installed yesterday.",
+            "zh": "所有攤檔都是昨天才設立。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多個具體細節支持正面特色評價，也不掩飾通道擠迫。",
+        "en": "The lane market has hand-painted signs, stalls that have been run by the same families for years, and vendors who remember regular shoppers. It is full of character, though the narrow path can be crowded.",
+        "zh": "小巷市集有手繪招牌、經營多年的家庭攤檔，檔主還記得熟客。它別具特色，但狹窄通道有時擠迫。"
+      },
+      "reply": {
+        "promptEn": "The old market has hand-painted signs and family stalls whose owners know regular shoppers. How can we describe it accurately?",
+        "promptZh": "（舊市集有手繪招牌及熟識熟客的家庭攤檔。怎樣準確形容它？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The signs and relationships make it memorable.",
+            "zh": "招牌和人情味令人印象深刻。"
+          },
+          {
+            "id": "b",
+            "en": "We can name the details that make it distinctive.",
+            "zh": "我們可以說出它與別不同的細節。"
+          },
+          {
+            "id": "c",
+            "en": "It is full of character because its atmosphere comes from those specific features.",
+            "zh": "它別具特色，因為氣氛來自這些具體元素。"
+          },
+          {
+            "id": "d",
+            "en": "We can also mention the narrow path fairly.",
+            "zh": "我們也可如實提及通道狹窄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均有根據；金句以實例支撐特色。"
+      },
+      "scene": {
+        "promptZh": "一家小書店保留手寫書評卡，店主會依熟客興趣推薦書，櫥窗每月由本地插畫師設計。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bookshop is full of character thanks to its personal details.",
+            "zh": "書店因充滿個人風格的細節而別具特色。"
+          },
+          {
+            "id": "b",
+            "en": "The bookshop has no distinctive details at all.",
+            "zh": "書店完全沒有獨特細節。"
+          },
+          {
+            "id": "c",
+            "en": "Its small size alone proves that everyone will love it.",
+            "zh": "單憑店面小，就證明所有人都會喜歡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "手寫卡、個人推薦及櫥窗設計構成獨特氣氛。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 a place is full of character？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is small, but no feature or atmosphere has been described.",
+            "zh": "它面積小，但未描述任何細節或氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "Its reclaimed tiles and hand-lettered signs create a recognisable look.",
+            "zh": "回收瓷磚和手寫招牌塑造可辨認外觀。"
+          },
+          {
+            "id": "c",
+            "en": "Long-time staff greet regular visitors by name.",
+            "zh": "資深員工會叫出熟客名字。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大小不能單獨證明地方有特色。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：這間咖啡店保留舊電車座椅，又展示街道舊照片。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds full of character; those details give the room a distinctive feel.",
+            "zh": "聽來別具特色；那些細節令空間有獨特氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "We could mention the tram seats in the review.",
+            "zh": "我們可在評論提及電車座椅。"
+          },
+          {
+            "id": "c",
+            "en": "The photos may help visitors understand the street.",
+            "zh": "照片可能幫訪客了解街道。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句由具體擺設推論獨特氣氛。",
+        "promptEn": "A: This café keeps old tram seats and displays photographs from the street’s past. B: ______"
+      },
+      "speaking": {
+        "en": "The tiny theatre is full of character, with painted seat numbers and programmes made by local artists.",
+        "zh": "小劇院有彩繪座位編號和本地藝術家設計的場刊，別具特色。",
+        "promptZh": "至少寫兩項具體細節，不要只說地方小或舊。",
+        "targetSpan": {
+          "start": 20,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個地方因具體細節而有鮮明、吸引人的氣氛。用英文寫出地方、至少兩項細節及其效果。",
+        "selfCheckZh": "兩例要具體，不以大小或年代當作唯一證據。",
+        "examples": [
+          {
+            "en": "The riverside café is full of character: hand-carved tables and sketches by local boat makers give it a distinct waterfront feel.",
+            "zh": "河畔咖啡店有手雕桌子及本地造船工人的素描，塑造鮮明的水岸氣氛，別具特色。"
+          },
+          {
+            "en": "The neighbourhood cinema feels full of character because it still uses painted ticket boards and displays old posters chosen by its projectionist.",
+            "zh": "社區戲院仍使用彩繪票價板，並展示放映員挑選的舊海報，因此別具特色。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "hand-carved tables",
+            "zh": "手雕桌子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 59
+            }
+          },
+          {
+            "en": "local boat makers",
+            "zh": "本地造船工人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 93
+            }
+          },
+          {
+            "en": "a distinct waterfront feel",
+            "zh": "鮮明的水岸氣氛",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 128
+            }
+          },
+          {
+            "en": "painted ticket boards",
+            "zh": "彩繪票價板",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 92
+            }
+          },
+          {
+            "en": "its projectionist",
+            "zh": "放映員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A place full of character has distinctive details you can name.",
+          "zh": "別具特色的地方，應能說出具體獨特細節。"
+        },
+        {
+          "en": "The old cinema was full of character, with handmade posters and carved doors.",
+          "zh": "舊戲院有手製海報及雕花門，別具特色。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3403",
+      "number": 3403,
+      "inventoryId": "expr-3403",
+      "titleEn": "squeeze water from a stone",
+      "titleZh": "在不可能的條件下強求成果",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:squeeze|squeezes|squeezed|squeezing) water from a stone\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Try to obtain something from a source that lacks the necessary resource, making the request unrealistic.",
+        "meaningZh": "要求一個沒有必要資源的來源產出成果，因而極不現實。",
+        "grammar": "squeeze water from a stone is fixed figurative wording, often after try/like trying to.",
+        "register": "Informal emphatic idiom. A farm adviser may use it with colleagues when rainfall and irrigation are absent.",
+        "boundaryZh": "重點是缺少不可或缺的條件；單純困難但仍有可行方法，不應誇成完全無望。",
+        "misconceptionZh": "不是真的從石頭榨水，也不能拿此說法作為不檢查可行替代方案的藉口。",
+        "outcomeZh": "能指出缺少哪項必要資源，以及改變條件後才可能成功。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1292",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 120,
+          "book": 13,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Growing crops without rainfall is like trying to squeeze water from a stone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeeze water from a stone"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何說原要求不現實？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The crop needs water, but neither rain nor stored water is available.",
+            "zh": "作物需要水，卻沒有雨水或儲水。"
+          },
+          {
+            "id": "b",
+            "en": "The crop has already grown successfully there this week.",
+            "zh": "作物這星期已在該處成功生長。"
+          },
+          {
+            "id": "c",
+            "en": "The team has a working irrigation system ready to use.",
+            "zh": "團隊已有可用的灌溉系統。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker dislikes the colour of the field.",
+            "zh": "講者不喜歡田地顏色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺少必要水源，原要求才近乎不可能。",
+        "en": "The plot has had no rain for weeks, and its tank is empty. Asking for the same water-heavy crop would mean squeezing water from a stone. We must secure irrigation or choose another crop.",
+        "zh": "這塊田幾週沒下雨，水箱也空了。仍要求團隊種植同樣耗水的作物，就像要從石頭榨水。我們必須先取得灌溉水源，或改種其他作物。"
+      },
+      "reply": {
+        "promptEn": "Our plot has no rain, an empty tank and no irrigation. Someone wants the same water-heavy crop. How should we respond?",
+        "promptZh": "（田地沒有雨，水箱空了，也沒有灌溉。有人仍想種同樣耗水的作物。應怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "First work out whether water can be secured.",
+            "zh": "先看看能否取得水源。"
+          },
+          {
+            "id": "b",
+            "en": "Consider a crop suited to the available conditions.",
+            "zh": "考慮適合現有條件的作物。"
+          },
+          {
+            "id": "c",
+            "en": "Without water, we would be squeezing water from a stone.",
+            "zh": "沒有水，這就像要從石頭榨水。"
+          },
+          {
+            "id": "d",
+            "en": "Explain which resource the proposed crop needs.",
+            "zh": "說明擬種作物需要甚麼資源。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都聚焦必要條件；金句指出原要求不現實。"
+      },
+      "scene": {
+        "promptZh": "社團只獲批一小時場地，還要花四十分鐘裝拆器材，卻被要求辦一場兩小時的完整演出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Expecting the full show would mean squeezing water from a stone under those limits.",
+            "zh": "在這些限制下要求完整演出，猶如從石頭榨水。"
+          },
+          {
+            "id": "b",
+            "en": "The team has already secured a three-hour extension.",
+            "zh": "團隊已獲三小時延期。"
+          },
+          {
+            "id": "c",
+            "en": "A short demonstration could fit the available time.",
+            "zh": "簡短示範可能適合現有時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原完整演出所需時間超過可用時數。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不適合用 squeeze water from a stone 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team has the necessary materials and a realistic extra day to finish.",
+            "zh": "團隊有必要材料，另有實際可用的一天完成。"
+          },
+          {
+            "id": "b",
+            "en": "A team is told to print 200 leaflets with no paper or printer access.",
+            "zh": "團隊沒有紙或打印機，卻被要求印二百張傳單。"
+          },
+          {
+            "id": "c",
+            "en": "A garden is expected to grow a water-heavy crop with no water source.",
+            "zh": "花園沒有水源，卻被要求種耗水作物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "材料及時間足夠時，不能把任務說成幾乎無法取得成果。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：診所下星期才有疫苗，但計劃要我們今天為二百人接種。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That would be squeezing water from a stone; we need the doses before setting today’s target.",
+            "zh": "這猶如從石頭榨水；訂今天的目標前必須先有疫苗。"
+          },
+          {
+            "id": "b",
+            "en": "Tell patients when stock is actually due.",
+            "zh": "告知病人疫苗實際何時到貨。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether another clinic has authorised spare stock.",
+            "zh": "問另一間診所有沒有可調配的後備存量。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出必要資源缺失，並提出先解決條件。",
+        "promptEn": "A: The clinic has no vaccine doses until next week, but the plan asks us to vaccinate 200 people today. B: ______"
+      },
+      "speaking": {
+        "en": "Expecting the workshop to run without required safety equipment would mean squeezing water from a stone.",
+        "zh": "沒有必要安全器材卻要求工作坊運作，猶如從石頭榨水。",
+        "promptZh": "指出要產出甚麼，以及缺少的不可或缺資源。",
+        "targetSpan": {
+          "start": 75,
+          "end": 103
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊被要求產出成果，但缺少不可或缺的物資或時數。用英文寫出缺口及合理改動。",
+        "selfCheckZh": "不能把「困難」誇成「不可能」；兩例需有清楚必要條件。",
+        "examples": [
+          {
+            "en": "With no licensed software or access to the source files, asking the editors for a finished video tonight would mean squeezing water from a stone; the manager arranged access first.",
+            "zh": "編輯沒有獲授權的軟件，也無法取得原始檔案，卻被要求今晚交影片，猶如從石頭榨水；經理於是先安排存取權限。"
+          },
+          {
+            "en": "The orchestra had no instruments at the temporary site, so demanding a full rehearsal there would mean squeezing water from a stone; it moved the session to the equipped hall.",
+            "zh": "樂團在臨時場地沒有樂器，要求在那裏完整排練猶如從石頭榨水；於是把練習移到設備齊全的禮堂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "licensed software",
+            "zh": "獲授權的軟件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 25
+            }
+          },
+          {
+            "en": "the source files",
+            "zh": "原始檔案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 55
+            }
+          },
+          {
+            "en": "arranged access",
+            "zh": "安排存取權限",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 173
+            }
+          },
+          {
+            "en": "the temporary site",
+            "zh": "臨時場地",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 54
+            }
+          },
+          {
+            "en": "the equipped hall",
+            "zh": "設備齊全的禮堂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 157,
+              "end": 174
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Without the essential resource, the demand can feel like squeezing water from a stone.",
+          "zh": "缺少必要資源時，要求成果可能猶如從石頭榨水。"
+        },
+        {
+          "en": "Demanding a concert without a sound system would mean squeezing water from a stone.",
+          "zh": "沒有音響系統卻要辦現場音樂會，猶如從石頭榨水。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3405",
+      "number": 3405,
+      "inventoryId": "expr-3405",
+      "titleEn": "when a crisis hits",
+      "titleZh": "危機來臨時",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwhen a crisis hits\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At the point a serious disruptive event begins to affect people, especially when preparation is tested.",
+        "meaningZh": "嚴重、具破壞性的事件突然開始影響人們，事前準備要接受考驗之時。",
+        "grammar": "when a crisis hits is a fixed time clause; a crisis is singular and hits agrees with it.",
+        "register": "Neutral to serious planning language. A logistics coordinator may use it with volunteers discussing emergency supplies.",
+        "boundaryZh": "危機須有明顯嚴重影響；一般小延誤未必可稱危機，且這句不表示危機必然發生。",
+        "misconceptionZh": "不是物理撞擊，也不是把所有日常不便都誇成災難。",
+        "outcomeZh": "能指出突發事件、即時影響及哪些準備在那時發揮作用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1294",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 120,
+          "book": 13,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Stockpiles matter when a crisis hits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "when a crisis hits"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者認為物資在甚麼情況下特別重要？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A district-wide power failure interrupts normal deliveries.",
+            "zh": "全區停電，正常送貨受阻。"
+          },
+          {
+            "id": "b",
+            "en": "A routine five-minute delay occurs with all services working.",
+            "zh": "各項服務正常，只延誤五分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "Deliveries are already back to normal before supplies are needed.",
+            "zh": "物資尚未需要，送貨已恢復正常。"
+          },
+          {
+            "id": "d",
+            "en": "The store has no water or batteries.",
+            "zh": "倉庫沒有水或電池。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "嚴重停電與送貨中斷使事先物資有用。",
+        "en": "Our emergency store contains safe drinking water and batteries. When a crisis hits and power fails across the district, those supplies can support residents until deliveries resume. We still have to check expiry dates.",
+        "zh": "應急倉有安全飲用水和電池。當危機來臨、全區停電時，這些物資可支援居民，直到送貨恢復。我們仍須檢查有效期限。"
+      },
+      "reply": {
+        "promptEn": "The district keeps water and batteries for a possible major power failure. Why check and store them now?",
+        "promptZh": "（地區為可能出現的大停電儲備水和電池。為何現在就核對和存放？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Expiry checks make the supplies more useful if they are needed.",
+            "zh": "有效期檢查令物資需要時更可用。"
+          },
+          {
+            "id": "b",
+            "en": "Advance storage can reduce delays in the first hours.",
+            "zh": "事先儲備可減少頭幾小時的延誤。"
+          },
+          {
+            "id": "c",
+            "en": "When a crisis hits, those supplies can support residents until deliveries resume.",
+            "zh": "危機來臨時，物資可支援居民，直到送貨恢復。"
+          },
+          {
+            "id": "d",
+            "en": "We should identify who will distribute supplies.",
+            "zh": "我們應指定誰負責派發物資。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句指出危機來時儲備的用途。"
+      },
+      "scene": {
+        "promptZh": "沿岸社區預先安排收容地點；強烈颱風突然切斷道路，居民須到收容中心。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The agreed shelter plan becomes important when a crisis hits.",
+            "zh": "危機來臨時，商定的收容計劃便很重要。"
+          },
+          {
+            "id": "b",
+            "en": "The storm is only a minor change to a picnic schedule.",
+            "zh": "風暴只是野餐時間表的小改動。"
+          },
+          {
+            "id": "c",
+            "en": "The roads remained open and no one needed shelter.",
+            "zh": "道路一直開放，沒有人需要收容。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "嚴重風暴及道路中斷使事前計劃接受考驗。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不宜稱為 when a crisis hits？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A meeting begins five minutes late while all services remain normal.",
+            "zh": "所有服務正常，會議只遲五分鐘開始。"
+          },
+          {
+            "id": "b",
+            "en": "A flood cuts the only road to a village and disrupts food delivery.",
+            "zh": "洪水切斷村莊唯一道路，影響食物送達。"
+          },
+          {
+            "id": "c",
+            "en": "A widespread outage stops water pumps for several hours.",
+            "zh": "大範圍停電令抽水機停運幾小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "普通短暫延誤不具嚴重破壞。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：島上診所有後備發電機，但這個月沒有人核對燃油存量。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should test it now; when a crisis hits, the clinic cannot wait for a fuel delivery.",
+            "zh": "我們現在就應測試；危機來臨時，診所等不了燃油送達。"
+          },
+          {
+            "id": "b",
+            "en": "Ask who checks the generator each week.",
+            "zh": "問清楚誰每週檢查發電機。"
+          },
+          {
+            "id": "c",
+            "en": "Record how long the current fuel stock can last.",
+            "zh": "記錄現有燃油可維持多久。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把準備與嚴重中斷時的需要相連。",
+        "promptEn": "A: The island clinic has backup generators, but no one has tested the fuel stock this month. B: ______"
+      },
+      "speaking": {
+        "en": "When a crisis hits and ferries stop, the island’s stored medicine can cover urgent needs until transport resumes.",
+        "zh": "危機來臨、渡輪停駛時，島上儲備藥物可應付緊急需要，直到交通恢復。",
+        "promptZh": "說出嚴重中斷、即時影響及事前準備如何派用場。",
+        "targetSpan": {
+          "start": 0,
+          "end": 18
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：突發嚴重事件中斷平日服務，之前的準備讓人應付最初時段。用英文寫出事件、受影響服務及準備。",
+        "selfCheckZh": "兩例不能把普通小延誤當作危機。",
+        "examples": [
+          {
+            "en": "When a crisis hits and the regional water main fails, the school’s sealed drinking-water reserve can support pupils until repairs begin.",
+            "zh": "危機來臨、區域總水管故障時，學校密封儲存的飲用水可支援學生，直到維修開始。"
+          },
+          {
+            "en": "The port tested its backup radio because when a crisis hits and mobile networks fail, crews still need a way to coordinate rescues.",
+            "zh": "港口測試後備無線電，因為危機來臨、流動網絡失效時，救援隊仍須互相協調。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the regional water main",
+            "zh": "區域總水管",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 46
+            }
+          },
+          {
+            "en": "sealed drinking-water reserve",
+            "zh": "密封儲存的飲用水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 96
+            }
+          },
+          {
+            "en": "repairs",
+            "zh": "維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 129
+            }
+          },
+          {
+            "en": "backup radio",
+            "zh": "後備無線電",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 32
+            }
+          },
+          {
+            "en": "mobile networks",
+            "zh": "流動網絡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 79
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Preparation matters most when a crisis hits and normal systems fail.",
+          "zh": "危機來臨、正常系統失效時，準備尤其重要。"
+        },
+        {
+          "en": "Stored supplies can help when a crisis hits the island.",
+          "zh": "危機襲擊島嶼時，儲備物資可以幫忙。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3406",
+      "number": 3406,
+      "inventoryId": "expr-3406",
+      "titleEn": "keep a society on its feet",
+      "titleZh": "維持社會基本運作",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) a society on its feet\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Maintain the essential functioning of a community through basic systems such as food, water, health and transport.",
+        "meaningZh": "透過食物、水、醫療、交通等基本系統，讓社會維持運作。",
+        "grammar": "keep a society on its feet is figurative keep + object + complement; its refers to society.",
+        "register": "Serious analytical phrase. A policy teacher may use it with students discussing basic supply chains.",
+        "boundaryZh": "指基本功能仍能維持，不等於人們完全沒有困難或經濟全面繁榮。",
+        "misconceptionZh": "不是指社會真的站立，也不應把單一便利服務誇成唯一支柱。",
+        "outcomeZh": "能指出哪項基本服務被維持，以及服務中斷對居民的實際影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1295",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 120,
+          "book": 13,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Basic food supply helps keep a society on its feet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep a society on its feet"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者說基本供應維持了哪些功能？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Food reached families and medicine reached the clinic despite transport difficulties.",
+            "zh": "即使交通困難，家庭仍有食物，診所仍有藥物。"
+          },
+          {
+            "id": "b",
+            "en": "All travel and work returned fully to normal.",
+            "zh": "所有交通和工作都完全恢復正常。"
+          },
+          {
+            "id": "c",
+            "en": "The temporary boat carried only leisure passengers.",
+            "zh": "臨時船隻只載休閒旅客。"
+          },
+          {
+            "id": "d",
+            "en": "The clinic closed because no medicine arrived.",
+            "zh": "沒有藥物到達，診所關閉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基本食物與醫療供應繼續，社會仍可維持核心運作。",
+        "en": "Ferries stopped, but a temporary boat delivered bread and medicine to island shops and the clinic. That basic supply helped keep a society on its feet while travel remained difficult.",
+        "zh": "渡輪停駛，但臨時船把麵包和藥物送到島上商店和診所。基本供應有助維持社會運作，雖然出行仍困難。"
+      },
+      "reply": {
+        "promptEn": "Ferries are stopped, but a temporary boat can deliver bread and medicine to the island. Why does that matter?",
+        "promptZh": "（渡輪停駛，但臨時船可把麵包及藥物送到島上。這有甚麼重要？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Families still have a basic food supply.",
+            "zh": "家庭仍有基本食物供應。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic can continue essential treatment.",
+            "zh": "診所可繼續提供必要治療。"
+          },
+          {
+            "id": "c",
+            "en": "Those deliveries help keep a society on its feet while travel is disrupted.",
+            "zh": "交通受阻時，這些送貨有助維持社會基本運作。"
+          },
+          {
+            "id": "d",
+            "en": "The boat schedule should prioritise essential cargo.",
+            "zh": "船期應優先運送必要物資。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句概括基本系統繼續運作。"
+      },
+      "scene": {
+        "promptZh": "暴雨期間主要道路封閉，但水廠與醫院仍獲必要燃料，能持續供水和急症服務。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The essential fuel deliveries help keep a society on its feet.",
+            "zh": "必要燃料送達，有助維持社會基本運作。"
+          },
+          {
+            "id": "b",
+            "en": "Every resident has faced no disruption at all.",
+            "zh": "所有居民完全沒有受影響。"
+          },
+          {
+            "id": "c",
+            "en": "Only entertainment services received support.",
+            "zh": "只有娛樂服務得到支援。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "供水與急症醫療是基本功能。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以單憑資料說成 keeping a society on its feet？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new decorative sign improves one shop’s appearance during normal business.",
+            "zh": "一塊新裝飾牌在正常營業期間令一間店更美觀。"
+          },
+          {
+            "id": "b",
+            "en": "Emergency deliveries let clinics continue essential treatment.",
+            "zh": "緊急送貨讓診所繼續必要治療。"
+          },
+          {
+            "id": "c",
+            "en": "Backup pumps maintain safe drinking water for the district.",
+            "zh": "後備抽水機維持地區安全食水供應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一店舖裝飾不是社會基本運作。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：風暴封閉多數道路。為何優先把燃油送給抽水機和救護車？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can keep a society on its feet by sustaining water and emergency care.",
+            "zh": "這樣維持食水和緊急醫療，有助社會基本運作。"
+          },
+          {
+            "id": "b",
+            "en": "Safe water is needed by households and clinics.",
+            "zh": "家庭和診所都需要安全食水。"
+          },
+          {
+            "id": "c",
+            "en": "Ambulances need fuel to reach urgent cases.",
+            "zh": "救護車需要燃油前往處理急症。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把優先供應與基本系統連結。",
+        "promptEn": "A: The storm closed most roads. Why prioritise fuel for water pumps and ambulances? B: ______"
+      },
+      "speaking": {
+        "en": "A reliable cold-chain network helped keep a society on its feet by delivering insulin to clinics during the port closure.",
+        "zh": "港口關閉期間，可靠的冷鏈網絡把胰島素送到診所，有助維持社會基本運作。",
+        "promptZh": "指出哪種基本服務得到維持，以及居民如何受益。",
+        "targetSpan": {
+          "start": 37,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：交通或能源受阻，某項必要供應仍讓居民得到基本服務。用英文寫出供應、服務和限制。",
+        "selfCheckZh": "不能把正常便利服務當成社會唯一支柱；兩例須有實際中斷。",
+        "examples": [
+          {
+            "en": "During the blackout, backup generators kept the hospital and water pumps running, helping keep a society on its feet even as shops stayed closed.",
+            "zh": "停電期間，後備發電機讓醫院和抽水機繼續運作；即使店舖停業，仍有助維持社會基本運作。"
+          },
+          {
+            "en": "A temporary truck route helped keep a society on its feet after the bridge closed by bringing staple food and clinic supplies to remote villages.",
+            "zh": "橋樑關閉後，臨時貨車路線把主食和診所物資送到偏遠村莊，有助維持社會基本運作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "backup generators",
+            "zh": "後備發電機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 38
+            }
+          },
+          {
+            "en": "water pumps",
+            "zh": "抽水機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 72
+            }
+          },
+          {
+            "en": "shops stayed closed",
+            "zh": "店舖停業",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 144
+            }
+          },
+          {
+            "en": "A temporary truck route",
+            "zh": "臨時貨車路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "clinic supplies",
+            "zh": "診所物資",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Essential food and health services can keep a society on its feet during disruption.",
+          "zh": "食物和醫療等基本服務在中斷期間可維持社會運作。"
+        },
+        {
+          "en": "Reliable water delivery helped keep a society on its feet after the flood.",
+          "zh": "洪水後，可靠的食水運送有助維持社會基本運作。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3407",
+      "number": 3407,
+      "inventoryId": "expr-3407",
+      "titleEn": "when push comes to shove",
+      "titleZh": "到關鍵時刻；不得不作選擇時",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwhen push comes to shove\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "When pressure makes a real decision or action unavoidable, rather than during earlier discussion.",
+        "meaningZh": "壓力來到必須實際決定或行動的關鍵時刻，而非仍在空談時。",
+        "grammar": "when push comes to shove is a fixed clause; do not change comes to come or add articles.",
+        "register": "Informal but serious. A hospital coordinator may use it with colleagues discussing what matters in an emergency.",
+        "boundaryZh": "不一定是暴力或災難；重點是空談結束，真正要行動或取捨的時刻。",
+        "misconceptionZh": "不是字面上推撞，也不等於任何普通時間點都可以這樣說。",
+        "outcomeZh": "能辨別一般討論與必須作出實際決策的時刻。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1296",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 121,
+          "book": 13,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "When push comes to shove, hospitals need reliable supplies.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "when push comes to shove"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者所說的關鍵時刻是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic must place its order tomorrow and choose a supplier that can deliver.",
+            "zh": "診所明天必須落單，選擇能交貨的供應商。"
+          },
+          {
+            "id": "b",
+            "en": "The committee is still brainstorming with no deadline.",
+            "zh": "委員會仍在構思，沒有期限。"
+          },
+          {
+            "id": "c",
+            "en": "All suppliers have already completed delivery.",
+            "zh": "所有供應商已完成送貨。"
+          },
+          {
+            "id": "d",
+            "en": "The clinic has decided to stop ordering medicine.",
+            "zh": "診所已決定不再訂藥。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明天必須落實採購，不能只停留於討論。",
+        "en": "Our committee has debated suppliers for a week. Now, when push comes to shove and the clinic must order tomorrow, we need one company that can deliver the medicine reliably. Price still matters, but delivery cannot be guessed.",
+        "zh": "委員會已討論供應商一星期。如今診所明天就必須落單，到了關鍵時刻，我們需要一家能可靠送藥的公司。價格仍重要，但不能靠猜交貨能力。"
+      },
+      "reply": {
+        "promptEn": "Our clinic must order medicine tomorrow. We have discussed two suppliers, but now need to choose. What matters at this point?",
+        "promptZh": "（診所明天必須訂藥。我們已討論兩家供應商，現在要作選擇。此刻甚麼重要？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check which supplier can actually meet the delivery date.",
+            "zh": "核對哪家供應商真正能按期交貨。"
+          },
+          {
+            "id": "b",
+            "en": "Compare the final prices with the available budget.",
+            "zh": "把最終價格與預算比較。"
+          },
+          {
+            "id": "c",
+            "en": "When push comes to shove, reliable delivery must guide the decision.",
+            "zh": "到關鍵時刻，可靠交貨必須引導決定。"
+          },
+          {
+            "id": "d",
+            "en": "Assign someone to place the order once the choice is made.",
+            "zh": "作選擇後指定人員落單。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是落實選擇所需；金句標出從討論到決策的關鍵。"
+      },
+      "scene": {
+        "promptZh": "劇團早前討論兩種舞台布景，今天必須把尺寸交給承辦商，否則趕不上製作。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When push comes to shove, the team must choose a design it can deliver on time.",
+            "zh": "到了關鍵時刻，團隊須選一個能如期交付的設計。"
+          },
+          {
+            "id": "b",
+            "en": "The team can avoid choosing forever without affecting production.",
+            "zh": "團隊可永遠不選，亦不影響製作。"
+          },
+          {
+            "id": "c",
+            "en": "Both sets have already been built and delivered.",
+            "zh": "兩套布景已製成並交付。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "交尺寸的期限令真正取捨無可避免。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像 when push comes to shove？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An informal discussion begins months before any deadline or commitment.",
+            "zh": "距離期限或承諾還有幾個月，只是開始非正式討論。"
+          },
+          {
+            "id": "b",
+            "en": "The rescue team must choose a route before the tide rises.",
+            "zh": "潮漲前，救援隊必須選路線。"
+          },
+          {
+            "id": "c",
+            "en": "The committee has to sign one contract by today’s deadline.",
+            "zh": "委員會須在今天限期前簽一份合約。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有實際決策壓力，尚非關鍵時刻。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們討論了三個排練場地，只有一個設有無障礙通道，而且預訂一小時後就到期。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "When push comes to shove, we need to choose the accessible venue and confirm it now.",
+            "zh": "到關鍵時刻，我們須選無障礙場地並立即確認。"
+          },
+          {
+            "id": "b",
+            "en": "Check which venue can still hold our group.",
+            "zh": "核對哪個場地仍能容納全團。"
+          },
+          {
+            "id": "c",
+            "en": "Call the venue desk before the booking closes.",
+            "zh": "預訂截止前致電場地櫃檯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把迫近期限與實際決定連起來。",
+        "promptEn": "A: We have debated three rehearsal venues. Only one has step-free access, and the booking expires in an hour. B: ______"
+      },
+      "speaking": {
+        "en": "When push comes to shove and the grant form is due, the team must choose which two projects it can actually fund.",
+        "zh": "補助申請到期的關鍵時刻，團隊必須選出真正有能力資助的兩個項目。",
+        "promptZh": "寫出此前討論、迫近的決策點與實際取捨。",
+        "targetSpan": {
+          "start": 0,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一段討論後，期限或具體責任迫使人作決定。用英文寫出之前討論及關鍵時刻的行動。",
+        "selfCheckZh": "不是所有突發事件都適用；兩例須有必須選擇或行動的點。",
+        "examples": [
+          {
+            "en": "The volunteers debated two collection sites, but when push comes to shove and the permit deadline arrives, they must choose the site with safe access.",
+            "zh": "義工討論兩個收集地點；到許可申請限期的關鍵時刻，必須選擇出入安全的一個。"
+          },
+          {
+            "en": "The orchestra discussed several conductors, yet when push comes to shove and the concert contract is due, the board has to appoint one who is available.",
+            "zh": "樂團討論了幾位指揮；但到音樂會合約期限的關鍵時刻，董事會須委任一位有空的人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two collection sites",
+            "zh": "兩個收集地點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 43
+            }
+          },
+          {
+            "en": "the permit deadline",
+            "zh": "許可申請限期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 97
+            }
+          },
+          {
+            "en": "safe access",
+            "zh": "安全出入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 149
+            }
+          },
+          {
+            "en": "several conductors",
+            "zh": "幾位指揮",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 42
+            }
+          },
+          {
+            "en": "the concert contract",
+            "zh": "音樂會合約",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When push comes to shove, discussion has to become a decision.",
+          "zh": "到關鍵時刻，討論就要化成決定。"
+        },
+        {
+          "en": "When push comes to shove, the organisers must confirm the accessible hall.",
+          "zh": "到了關鍵時刻，主辦人須確認無障礙禮堂。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3410",
+      "number": 3410,
+      "inventoryId": "expr-3410",
+      "titleEn": "jack of all trades and master of none",
+      "titleZh": "樣樣會一點，卻樣樣不精",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a )?jack of all trades and master of none\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Able or trying to do many different kinds of work but lacking deep mastery in any one; may be a warning about diluted expertise.",
+        "meaningZh": "樣樣工作都涉獵，卻可能沒有一項真正精通；常用來提醒專業能力被分散。",
+        "grammar": "a jack of all trades and master of none is a fixed noun proverb; can follow become/be. The source uses a.",
+        "register": "Informal evaluative proverb. A factory adviser may use it with managers considering whether to make too many products.",
+        "boundaryZh": "廣泛能力本身有價值；只有在需要專門水平卻因攤得太散而不足時，這個評語才有根據。",
+        "misconceptionZh": "不是說多才多藝一定不好，也不是指某個人完全不會做任何事。",
+        "outcomeZh": "能比較廣度與深度，指出何時應集中培養關鍵專長。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1299",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 121,
+          "book": 13,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 126, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A factory trying to make everything may become a jack of all trades and master of none.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "jack of all trades and master of none"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者擔心甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team may spread into services without enough specialised skill.",
+            "zh": "團隊或會擴展到缺乏專門技能的服務。"
+          },
+          {
+            "id": "b",
+            "en": "The workshop has stopped repairing bicycles entirely.",
+            "zh": "工場已完全停止修單車。"
+          },
+          {
+            "id": "c",
+            "en": "Every worker is already trained for all three services.",
+            "zh": "每名員工已受訓處理三項服務。"
+          },
+          {
+            "id": "d",
+            "en": "The workshop has decided never to learn a new skill.",
+            "zh": "工場決定永不學新技能。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "擴展太多種類而欠缺後兩項專業訓練，才是風險。",
+        "en": "Our workshop repairs bicycles well but now wants to add phone screens and appliance wiring. No one is trained for either new service. Without training, it risks being a jack of all trades and master of none.",
+        "zh": "我們的工場擅長修單車，但現在想加修手機屏幕和電器線路。新服務都沒有人受過訓練。若不培訓，工場有樣樣涉獵卻樣樣不精的風險。"
+      },
+      "reply": {
+        "promptEn": "Our small workshop is good at bicycle repairs, but wants to add phone and appliance repairs without training. How should we assess that plan?",
+        "promptZh": "（我們的小工場擅長修單車，卻想未經訓練就加修手機與電器。應怎樣評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check which new work needs certified skills.",
+            "zh": "核對哪些新工作需要認證技能。"
+          },
+          {
+            "id": "b",
+            "en": "Consider training before promising those services.",
+            "zh": "承諾服務前先考慮培訓。"
+          },
+          {
+            "id": "c",
+            "en": "Without depth, we risk being a jack of all trades and master of none.",
+            "zh": "若欠缺深度，我們可能變成樣樣會一點卻樣樣不精。"
+          },
+          {
+            "id": "d",
+            "en": "Keep the strong bicycle service while testing one new area carefully.",
+            "zh": "保留擅長的單車服務，審慎試行一個新範疇。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句指出廣度與專長的失衡。"
+      },
+      "scene": {
+        "promptZh": "小型翻譯社同時接法律、醫學和廣告文件，但沒有任何相關領域的審稿人，錯誤開始增加。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It risks becoming a jack of all trades and master of none.",
+            "zh": "它有變成樣樣涉獵卻樣樣不精的風險。"
+          },
+          {
+            "id": "b",
+            "en": "Its specialist reviewers have reduced errors in every area.",
+            "zh": "各領域審稿人已減少所有錯誤。"
+          },
+          {
+            "id": "c",
+            "en": "Offering several kinds of work is automatically a failure even with experts.",
+            "zh": "即使有專家，提供多種工作也必然失敗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "種類擴大而專門把關不足，品質開始受影響。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說明 jack of all trades and master of none 的問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team covers several services with qualified specialists and maintains strong quality checks.",
+            "zh": "團隊有合資格專家處理多種服務，並保持嚴格品質檢查。"
+          },
+          {
+            "id": "b",
+            "en": "A team advertises five technical services but has trained staff for only one.",
+            "zh": "團隊宣傳五種技術服務，卻只有一項有受訓人員。"
+          },
+          {
+            "id": "c",
+            "en": "A worker takes on four complex roles and repeatedly misses the specialist standards of each.",
+            "zh": "員工包攬四項複雜工作，卻反覆達不到各項專業標準。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有足夠專業把關時，廣泛服務不必然欠缺精通。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：創客空間想下月新增金工、電子及食物處理，卻沒有相關受訓督導。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We risk being a jack of all trades and master of none; train specialists before expanding.",
+            "zh": "我們可能樣樣涉獵卻樣樣不精；擴展前先培訓專門人員。"
+          },
+          {
+            "id": "b",
+            "en": "Choose one area to develop safely first.",
+            "zh": "先選一個範疇安全地發展。"
+          },
+          {
+            "id": "c",
+            "en": "Find out which activities require certified supervision.",
+            "zh": "查明哪些活動須由合資格人員督導。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句明確指出擴展過廣與專業不足的風險。",
+        "promptEn": "A: The makerspace wants to add metalwork, electronics and food handling next month, but has no trained supervisors for them. B: ______"
+      },
+      "speaking": {
+        "en": "A tiny repair shop offering six complex services without training risks being a jack of all trades and master of none.",
+        "zh": "小維修店若未經培訓便提供六種複雜服務，可能樣樣涉獵卻樣樣不精。",
+        "promptZh": "指出涉獵範圍、缺乏的專長及因此出現的品質風險。",
+        "targetSpan": {
+          "start": 78,
+          "end": 117
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：組織擴展到多個專門範疇，但人員能力或把關未跟上。用英文寫出範圍及風險；也說明怎樣改善。",
+        "selfCheckZh": "不可把廣泛技能本身當缺點；兩例須有專門水準不足的證據。",
+        "examples": [
+          {
+            "en": "The small print studio risked becoming a jack of all trades and master of none when it added bookbinding and sign wiring without trained staff, so it paused both services for training.",
+            "zh": "小型印刷工作室未有受訓人員便加做裝訂和招牌接線，有樣樣涉獵卻樣樣不精的風險，因此暫停兩項服務進行培訓。"
+          },
+          {
+            "en": "A design agency became a jack of all trades and master of none after promising five specialist services with one generalist; repeated review errors led it to hire an expert for its core work.",
+            "zh": "一間設計公司只有一位通才，卻承諾五項專門服務，漸漸樣樣涉獵卻樣樣不精；反覆出現的審稿錯誤令它聘請核心業務專家。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bookbinding",
+            "zh": "裝訂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 104
+            }
+          },
+          {
+            "en": "sign wiring",
+            "zh": "招牌接線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 120
+            }
+          },
+          {
+            "en": "trained staff",
+            "zh": "受訓人員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 142
+            }
+          },
+          {
+            "en": "five specialist services",
+            "zh": "五項專門服務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 103
+            }
+          },
+          {
+            "en": "repeated review errors",
+            "zh": "反覆出現的審稿錯誤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Breadth helps, but without depth a group risks being a jack of all trades and master of none.",
+          "zh": "廣度有用，但欠缺深度時，團隊可能樣樣涉獵卻樣樣不精。"
+        },
+        {
+          "en": "The agency hired a specialist rather than risk being a jack of all trades and master of none.",
+          "zh": "公司聘請專家，以免樣樣涉獵卻樣樣不精。"
+        }
+      ]
+    }
+  ]
+}

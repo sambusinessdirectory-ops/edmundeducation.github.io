@@ -1940,7 +1940,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 4,
       "listening": {
         "promptZh": "講者認為孩子仍需做甚麼？",
         "options": [
@@ -1967,8 +1967,8 @@
         ],
         "answerId": "a",
         "explanationZh": "講者願意聽原因，但仍要求孩子更正對他人有影響的錯誤。",
-        "en": "The child wrote the wrong start time on the notice. We will listen to how it happened, but kindness does not mean letting children off the hook. The child can help correct the notice and explain the change to families.",
-        "zh": "孩子在通知上寫錯開始時間。我們會聆聽出錯原因，但仁慈不代表讓孩子完全不用負責。孩子可以協助更正通知，並向家庭說明改動。"
+        "en": "The child put the wrong start time on the notice. We can hear their explanation without letting children off the hook: they can correct the notice and tell families about the change.",
+        "zh": "孩子在通知上寫錯開始時間。我們可以聽取解釋，同時不讓孩子完全不用負責：孩子可更正通知，並告知各家庭改動。"
       },
       "reply": {
         "promptEn": "A child wrote the wrong start time on the notice. Families have been told the correct time. How can we be kind while teaching responsibility?",
@@ -2137,8 +2137,8 @@
       },
       "takeaways": [
         {
-          "en": "Kindness need not mean letting children off the hook.",
-          "zh": "仁慈不必等於完全免除孩子的責任。"
+          "en": "A calm conversation and a fair repair task can coexist without letting children off the hook.",
+          "zh": "平靜對話與公平的補救工作可以並行，同時不讓孩子完全免除責任。"
         },
         {
           "en": "They did not let the volunteer off the hook, but chose a fair way to repair the error.",

@@ -1,0 +1,16 @@
+{
+  "reviewType": "independent-exact-hash-final-follow-up",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3486-3557-b-followup.json",
+  "draftHashes": [
+    ["batch-3486-3512-review-pilot.json", "ba108db06021f9738ac6ef6fa921f86c1410cb25d7baebcdc7ba0ac3fb4c1388"],
+    ["batch-3521-3547-review-pilot.json", "536a93a44dc81089688afe5319fe2abb723f08e536992acebf41668a5dec60e9"],
+    ["batch-3548-3557-review-pilot.json", "dde7665b792fdfc6edfd8b97a0a3d5082f7d9c7a60de51bb249483e0dd0fb2fa"]
+  ],
+  "findings": [
+    {"id": "N3495-02", "status": "cleared", "evidence": "Audio now uses a blue platform sign and a checked arrow to Nia's needed platform. Key and distractor B correctly separate eye-catching appearance from verified direction; Chinese matches."},
+    {"id": "N3529-02", "status": "cleared", "evidence": "Listening now contrasts a refund challenge with threatening messages sent to the clerk's private account; scene retains publishing a referee's home address and urging strangers to visit. Source filming example and reply medical-message leak remain separate. English, Chinese and keyed option align."}
+  ],
+  "regressions": [],
+  "mechanicalChecks": "Combined focused build and --check pass: 14 lessons, 84 questions, 56 audio requests, zero flags. The prior ten findings remain cleared; no selected-ordinal collisions were found at the initial review.",
+  "result": "All fourteen provisional lessons are content-clear at these exact hashes. No human approval, selected-manifest edit or publication is implied."
+}

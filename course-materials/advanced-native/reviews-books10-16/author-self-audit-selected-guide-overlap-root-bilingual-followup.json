@@ -1,0 +1,101 @@
+{
+  "status": "author-bilingual-repair-pending-independent-review",
+  "priorReport": "reviews-books10-16/independent-ai-review-selected-guide-overlap-root-b.json",
+  "changes": [
+    {
+      "lesson": 2133,
+      "file": "batch-2132-2138-b.json",
+      "field": "reply.options.2.zh",
+      "before": "我們應在行程計劃中預留一點餘裕。",
+      "after": "為了去博物館參加導賞團，我們應在行程計劃中預留一點餘裕。"
+    },
+    {
+      "lesson": 2251,
+      "file": "batch-2251-2269-a.json",
+      "field": "scene.options.0.zh",
+      "before": "送餐前，義工以極高強度工作。",
+      "after": "為了趕上這次緊急送餐，義工以極高強度打包並核對每袋內容。"
+    },
+    {
+      "lesson": 2270,
+      "file": "batch-2270-2284-a.json",
+      "field": "reply.options.2.zh",
+      "before": "一篇評論不應成為對這間中心的最後定論。",
+      "after": "在把那一篇評論視作中心的最後定論前，我們應聽取更多訪客的意見。"
+    },
+    {
+      "lesson": 2293,
+      "file": "batch-2291-2304-a.json",
+      "field": "writing.examples.0.zh",
+      "before": "今天我沒興致去嘈吵的遊戲中心。我們可在家看一齣短片，下次再去嗎？",
+      "after": "剛完成比賽，今天去嘈吵的遊戲中心令我覺得疲累，我沒有這個興致。我們可在家看一齣短片，下次再去嗎？"
+    },
+    {
+      "lesson": 2457,
+      "file": "batch-2449-2458-a.json",
+      "field": "listening.zh",
+      "before": "理財程式幫娜兒發現浪費。後來她過分嚴格地遵從建議限額，連必需的食材也不買。她按自己的需要調整限額：科技可以是出色的僕人，卻是拙劣的主人。",
+      "after": "理財程式幫娜兒發現浪費，但程式建議的嚴格限額令她連必需食材也不買。她按自己的需要調整限額：程式是出色的僕人，卻是拙劣的主人。"
+    },
+    {
+      "lesson": 2764,
+      "file": "batch-2745-2766-review-pilot-2.json",
+      "field": "listening.zh",
+      "before": "這支不被看好的隊伍贏了首兩場淘汰賽。它希望今季一路晉級到最後，但準決賽仍未舉行。",
+      "after": "這支不被看好的隊伍已贏兩場淘汰賽，希望一路晉級到最後，但準決賽仍未舉行。"
+    },
+    {
+      "lesson": 2833,
+      "file": "batch-2833-2870-review-pilot-1.json",
+      "field": "reply.options.2.en",
+      "before": "He held back the announcement until approval arrived because he did not want to jinx it.",
+      "after": "He held back the announcement while approval was pending because he did not want to jinx it."
+    },
+    {
+      "lesson": 2833,
+      "file": "batch-2833-2870-review-pilot-1.json",
+      "field": "reply.options.2.zh",
+      "before": "批准未到前，他不想把好事說早，以免不吉利。",
+      "after": "最終批准未到前，他暫不公布，因為不想把好事說早，以免不吉利。"
+    },
+    {
+      "lesson": 2133,
+      "file": "batch-2132-2138-b.json",
+      "field": "reply.options[2].zh",
+      "before": "為了去博物館參加導賞團，我們應在行程計劃中預留一點餘裕。",
+      "after": "為了這趟博物館行程，我們應在行程計劃中預留一點餘裕。"
+    }
+  ],
+  "hashes": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2132-2138-b.json",
+      "sha256": "61c07ec6f757a1b178ad74a914ff108f4426cf0235c578decf9d21ed48f391f8"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2251-2269-a.json",
+      "sha256": "0b6761eef9046166e8bd42af5dcd565674bc4fe70658c657cf7f7f272eaaac72"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+      "sha256": "5b2bdf2ae52dabb9492bc7343c24f99edde70e6f20ecd3871d3f033d7a37d027"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json",
+      "sha256": "ea5526e960ae675c3f62612d2f1de0fa83da846704b1a3864bdc673819d2f046"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "sha256": "246612f90c73f07713499a15cb13d039b0748a18cc1330a68f0743ec350264a9"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-2.json",
+      "sha256": "4f78eeaf4d2192513837fc11c3acb36857dbb9326d15bd96932572f4726acd1a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "4e433167fdc3548f1cbfd1d6b5400a75309c2e8fad3ed06f1783de635e0f8e0f"
+    }
+  ],
+  "humanApproval": false,
+  "releaseApproval": false
+}

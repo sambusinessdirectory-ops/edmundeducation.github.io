@@ -1,0 +1,73 @@
+{
+  "reviewType": "AI author owner-scope repair evidence; independent and human owner approval pending",
+  "createdUtc": "2026-10-23T14:39:13.042749+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3521-3547-review-pilot.json",
+  "draftSha256": "5e1f065ad8ace672ee2139d48c022e1d2c8e12c576048ef3877ae126db4c9fb9",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": {
+    "3525": "The noun a free-for-all is the reusable unit; descend into marks worsening, a bit of a marks mild degree. Same uncontrolled-setting sense in source 3525 and 3549.",
+    "3529": "Cross the/a line shares unacceptable-conduct boundary sense with article variation; source 3529 and 4417/4422 match."
+  },
+  "targetPatterns": {
+    "3525": "\\ba\\s+free-for-all\\b",
+    "3529": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b"
+  },
+  "fullSourceMatches": [
+    {
+      "owner": 3525,
+      "sourceOrdinal": 3525,
+      "sourceExample": "Without moderation, the forum risks descending into a free-for-all.",
+      "detectedSpan": "a free-for-all",
+      "matches": true
+    },
+    {
+      "owner": 3525,
+      "sourceOrdinal": 3549,
+      "sourceExample": "Without a bedtime routine, evenings became a bit of a free-for-all.",
+      "detectedSpan": "a free-for-all",
+      "matches": true
+    },
+    {
+      "owner": 3529,
+      "sourceOrdinal": 3529,
+      "sourceExample": "Filming strangers without consent crosses the line.",
+      "detectedSpan": "crosses the line",
+      "matches": true
+    },
+    {
+      "owner": 3529,
+      "sourceOrdinal": 4417,
+      "sourceExample": "He knew he had crossed a line with that remark.",
+      "detectedSpan": "crossed a line",
+      "matches": true
+    },
+    {
+      "owner": 3529,
+      "sourceOrdinal": 4422,
+      "sourceExample": "He knew he had crossed a line with that remark.",
+      "detectedSpan": "crossed a line",
+      "matches": true
+    }
+  ],
+  "focusedBuildAndCheck": {
+    "lessons": 4,
+    "questions": 24,
+    "audioRequests": 16,
+    "reviewFlags": 0
+  },
+  "allDiscoveredAliasAudit": {
+    "aliasNewRows": 158,
+    "matchedDrafts": 128,
+    "awaitingDrafts": 29,
+    "exceptionCount": 1,
+    "unrelatedException": {
+      "sourceOrdinal": 4383,
+      "canonicalId": "advanced-native-3455"
+    }
+  },
+  "approval": {
+    "independentAI": "pending",
+    "humanSense": "pending",
+    "release": false
+  }
+}

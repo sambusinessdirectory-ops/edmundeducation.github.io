@@ -573,8 +573,8 @@
         }
       ],
       "listening": {
-        "en": "A budgeting app helped Noor spot waste. She then obeyed its suggested limits so strictly that she skipped necessary groceries. She revised the limits to reflect her needs: technology can be a brilliant servant, but a poor master.",
-        "zh": "理財程式幫娜兒發現浪費。後來她過分嚴格地遵從建議限額，連必需的食材也不買。她按自己的需要調整限額：科技可以是出色的僕人，卻是拙劣的主人。",
+        "en": "A budgeting app helped Noor spot waste, but its strict limits made her skip necessary groceries. She revised them around her needs: the app was a brilliant servant, but a poor master.",
+        "zh": "理財程式幫娜兒發現浪費，但程式建議的嚴格限額令她連必需食材也不買。她按自己的需要調整限額：程式是出色的僕人，卻是拙劣的主人。",
         "promptZh": "這句話在娜兒使用理財程式時指甚麼？",
         "options": [
           {
@@ -767,7 +767,7 @@
       },
       "takeaways": [
         {
-          "en": "Technology can be a brilliant servant, but a poor master when it replaces a person’s judgment.",
+          "en": "As a tool, technology is a brilliant servant, but a poor master if it replaces a person’s judgment.",
           "zh": "科技可成為出色的僕人，但若取代人的判斷，便是拙劣的主人。"
         },
         {
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 6
     },
     {
       "id": "advanced-native-2458",

@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-exact-hash-editorial-follow-up",
+  "status": "repairs-required-before-content-clearance",
+  "scope": "Thirteen selected lesson repairs in author-self-audit-selected-guide-overlap-repairs-root.json. Compared changed English and Traditional Chinese learner-facing fields, source sense, assessment grounding, target and glossary spans, and all 2604 source examples for six-token non-target copies.",
+  "authorReport": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-selected-guide-overlap-repairs-root.json",
+    "sha256": "d0fd8ee62225c998c42009bd98831fdad18e0c0cf90765bdf50289cc91f22ac4"
+  },
+  "fileHashesAtReview": [
+    ["batch-2132-2138-b.json", "7c797be27f97c0b469532a9bcbbe16838e7d38bff66543be0bc9d6b7f1bda50f"],
+    ["batch-2209-2231-a.json", "153edfedce35cb18be7e6fcc4d101cecce38fcf2d2a54094c799be04097a2ceb"],
+    ["batch-2235-2246-a.json", "6e98f070c84634da897ccdea923d8465aa64c20d6f9edad61e390ac29cee44db"],
+    ["batch-2251-2269-a.json", "ca3a23c2a159082994b1973adc7cd04490e3ca041b672868b64213ab360cdfa3"],
+    ["batch-2270-2284-a.json", "7d7502bae02342b04052cdd5b6918d424dc1ae83a714832d6dcc441dadab458e"],
+    ["batch-2291-2304-a.json", "02487a2d917cd5dfd979edc06dba7cfa51a5328582f7743f8fb3b783e05cd52f"],
+    ["batch-2449-2458-a.json", "7d201e6969958fe8841bd46a884ba151e7461283396fb81cec1feb66873bf058"],
+    ["batch-2524-2563-a.json", "dfb891cd5cb5c41790e5441bac05f75715836e49959e7823c562255001c74e44"],
+    ["batch-2745-2766-review-pilot-2.json", "8a91dd81bec9db3dc456a9d99d713e3852b5551d25ff6150acfcd8a0b2c21bfb"],
+    ["batch-2833-2870-review-pilot-1.json", "eb82be58de838f7c684ea74b163299f4d6f3e6e75cce74c3d75a0be0245a0748"],
+    ["batch-3006-3057-a.json", "cdab4bf58cf4ce65051c46c20ebcbcdaa17537f933dda19a13735e0df87a56c2"],
+    ["batch-3159-3186-a.json", "38dd365e1cfcd4c8626ac4c3aea99712d17f0769b4358bca77cf829b33c59029"]
+  ],
+  "hashNote": "The author report's hashes for batch-2251-2269-a.json and batch-2291-2304-a.json were already stale when this review was saved because other concurrent lesson edits changed those files. Their reviewed 2251 and 2293 fields remained unchanged; the hashes above are the actual read-time file hashes. Rehash before any selection or release decision.",
+  "mechanicalChecks": {
+    "learnerEnglishStringsScreened": 380,
+    "sourceExamplesScreened": 2604,
+    "sixTokenNonTargetCopies": 0,
+    "targetAndGlossary": "All thirteen target-bearing answer/audio and speaking spans checked; 67 glossary spans remained exact and non-target at review time. These checks do not establish bilingual or assessment quality."
+  },
+  "perLesson": [
+    {"number": 2133, "status": "minor-repair", "finding": "Reply C adds a museum trip in English but the Chinese omits that setting.", "field": "reply.options[c].zh", "english": "For the museum trip, let us build a small buffer into our journey plan.", "currentChinese": "我們應在行程計劃中預留一點餘裕。", "suggestion": "加入博物館行程，例如「去博物館這趟行程，我們應在計劃中預留一點餘裕。」"},
+    {"number": 2228, "status": "pass", "evidence": "Museum-entrance listening rewrite preserves school groups leaving and the crowd thinning; Chinese audio and keyed interpretation align."},
+    {"number": 2240, "status": "pass", "evidence": "Reading rooms remain while the institution shifts with the times; reordered English reply and Chinese retain the same two claims."},
+    {"number": 2251, "status": "minor-repair", "finding": "Scene key Chinese gives only intensity and omits the English key's urgent delivery and concrete packing/checking actions.", "field": "scene.options[a].zh", "english": "To meet the urgent delivery, the volunteers packed and checked bags at a full-throttle pace.", "currentChinese": "送餐前，義工以極高強度工作。", "suggestion": "「為了趕上這宗緊急送餐訂單，義工全速打包並核對每袋內容。」"},
+    {"number": 2270, "status": "minor-repair", "finding": "Reply C Chinese omits the new action of hearing from more visitors before treating one review as final.", "field": "reply.options[c].zh", "english": "We should hear from more visitors before treating that one review as the last word on the centre.", "suggestion": "「我們應先聽取更多訪客的意見，才考慮是否把那一篇評論當成對這間中心的最後定論。」"},
+    {"number": 2293, "status": "minor-repair", "finding": "Writing model 1 Chinese omits the tiring effect of the match, which English supplies as the reason for declining the arcade.", "field": "writing.examples[0].zh", "english": "A trip to a noisy arcade today sounds tiring after the match; I am not in the mood for that. Could we watch a short film at home and visit the arcade next time?", "suggestion": "加入「打完比賽後，今天再去嘈吵的遊戲中心太累」並保留在家看短片及下次去的安排。"},
+    {"number": 2457, "status": "major-repair", "finding": "Listening English says the app's strict limits made Noor skip essentials and concludes the app was the servant/master. Chinese changes the actor and causality to Noor's overstrict obedience and broadens the app to generic technology. The keyed option refers to suggested limits, so the bilingual audio should precisely match that agency.", "field": "listening.zh", "english": "A budgeting app helped Noor spot waste, but its strict limits made her skip necessary groceries. She revised them around her needs: the app was a brilliant servant, but a poor master.", "suggestion": "Align both versions around app-suggested limits and Noor's choice, e.g. revise English to '...but she followed its strict suggested limits so closely that she skipped necessary groceries. She revised the limits around her needs: the app was a brilliant servant, but a poor master.' Translate with 程式 rather than broad 科技, and recheck key/explanation/audio queue."},
+    {"number": 2563, "status": "pass", "evidence": "Single-section repair and warning against discarding useful parts remain aligned after the English takeaway rewrite."},
+    {"number": 2764, "status": "pass-with-small-wording-note", "evidence": "Knockout wins, hope to go all the way and an upcoming semi-final align; Chinese adds 首兩場 where English says two matches. This does not change the answer, but 首兩場 could become 兩場 for exact parity."},
+    {"number": 2833, "status": "major-repair", "finding": "Golden reply C says he withheld the announcement 'until approval arrived', which asserts final approval eventually arrived. The prompt explicitly says the final approval email had not arrived and gives no later outcome. The Chinese reply stays pending. This creates an unsupported future event in the keyed answer.", "field": "reply.options[c].en", "english": "He held back the announcement until approval arrived because he did not want to jinx it.", "currentChinese": "批准未到前，他不想把好事說早，以免不吉利。", "suggestion": "Use ongoing uncertainty: 'He is holding back the announcement while final approval is still pending because he does not want to jinx it.' Match Chinese tense and rerun keyed-option/target/audio checks."},
+    {"number": 2851, "status": "pass", "evidence": "June chart, whole-year claim and omitted-month caution are present in both listening languages and the key."},
+    {"number": 3050, "status": "pass", "evidence": "Forecast motivates an indoor plan, while not clinging to the original plan; English and Chinese dialogue/takeaway align."},
+    {"number": 3162, "status": "pass", "evidence": "Three cancellations, patience being tested, request for confirmed date and delayed decision all remain aligned; speaking span retained."}
+  ],
+  "counts": {"pass": 6, "passWithSmallWordingNote": 1, "minorRepair": 4, "majorRepair": 2},
+  "releaseClaim": "No human approval or publication clearance is implied. This review is read-only apart from its report file."
+}

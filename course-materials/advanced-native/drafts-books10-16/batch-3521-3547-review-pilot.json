@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3521-3547-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3521",
+      "number": 3521,
+      "inventoryId": "expr-3521",
+      "titleEn": "leaf through",
+      "titleZh": "隨手翻閱",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:leaf|leaves|leafed|leafing)\\s+through\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Turn pages casually to get an initial impression without reading every line.",
+        "meaningZh": "隨手翻頁，先大概看看內容，而非逐字細讀。",
+        "grammar": "Leaf through + a book, magazine or it; leafed is the past form. The object follows through.",
+        "register": "Library browsing: a reader tells a friend how she chooses a magazine article.",
+        "boundaryZh": "隨手翻閱不等於已細讀或查證全文，也不表示讀者一定喜歡。",
+        "misconceptionZh": "這裏 leaf 是翻頁動詞，不是樹葉；也不是用搜尋功能精確查字。",
+        "outcomeZh": "能分辨初步瀏覽與細讀，說出翻閱後還要作甚麼判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1410",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 131,
+          "book": 13,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 139, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I like to leaf through it before choosing an article.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leaf through it"
+        }
+      ],
+      "listening": {
+        "en": "Mira leafed through the magazine before choosing an article; she looked at headings but had not read any story fully.",
+        "zh": "米拉選文章前先隨手翻閱雜誌；她看了標題，還未細讀任何故事。",
+        "promptZh": "leafed through 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Turned pages casually for an overview.",
+            "zh": "隨手翻頁以了解大概。"
+          },
+          {
+            "id": "b",
+            "en": "Read every article closely.",
+            "zh": "仔細讀完每篇文章。"
+          },
+          {
+            "id": "c",
+            "en": "Picked leaves from a tree.",
+            "zh": "從樹上摘葉。"
+          },
+          {
+            "id": "d",
+            "en": "Searched for one exact word with software.",
+            "zh": "用軟件搜尋某個確切詞語。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她只看標題，屬初步翻閱。"
+      },
+      "reply": {
+        "promptEn": "Why did Tomas pause before borrowing a recipe book? He turned several pages, glanced at pictures and headings, and then decided which chapter to read at home.",
+        "promptZh": "（托馬斯借食譜前為何稍作停留？他翻看幾頁，略看圖片和標題，再決定回家讀哪章。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He got a quick sense of the book.",
+            "zh": "他快速了解書本大概。"
+          },
+          {
+            "id": "b",
+            "en": "He browsed some pages before choosing.",
+            "zh": "他選擇前略看了幾頁。"
+          },
+          {
+            "id": "c",
+            "en": "He leafed through the book.",
+            "zh": "他隨手翻閱了那本書。"
+          },
+          {
+            "id": "d",
+            "en": "He checked its layout without reading it all.",
+            "zh": "他看看編排，沒有讀完整本書。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是粗略翻看，金句用 leaf through。"
+      },
+      "scene": {
+        "promptZh": "學生選參考書前先略看目錄和幾張內頁，未開始細讀。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She leafed through the book.",
+            "zh": "她隨手翻閱那本書。"
+          },
+          {
+            "id": "b",
+            "en": "She mastered every chapter.",
+            "zh": "她掌握了每一章。"
+          },
+          {
+            "id": "c",
+            "en": "She collected fallen tree leaves.",
+            "zh": "她收集落葉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "略看目錄和內頁是初步翻閱。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像 leaf through？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader turns a few pages of a travel guide.",
+            "zh": "讀者翻看旅遊指南的幾頁。"
+          },
+          {
+            "id": "b",
+            "en": "A student studies each paragraph of one chapter and checks every citation.",
+            "zh": "學生細讀一章每段並核對每條引文。"
+          },
+          {
+            "id": "c",
+            "en": "A shopper glances over pictures in a cookbook.",
+            "zh": "購物者略看食譜圖片。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "逐段精讀和核對引文超出隨手翻閱。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我 leafed through the report，所以已核實全部數據。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leafing through gives an overview; checking every figure requires closer reading.",
+            "zh": "隨手翻閱只得大概；核對每個數字仍須細讀。"
+          },
+          {
+            "id": "b",
+            "en": "Turning pages automatically verifies all data.",
+            "zh": "翻頁會自動核實所有數據。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means burning the pages.",
+            "zh": "片語指焚燒書頁。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "初步瀏覽與完整核對不同。"
+      },
+      "speaking": {
+        "en": "I leafed through the exhibition catalogue and marked two photographs to study more carefully later.",
+        "zh": "我隨手翻閱展覽目錄，標記兩張照片，稍後再仔細研究。",
+        "promptZh": "先聽示範，再指出說話者之後會做甚麼。",
+        "targetSpan": {
+          "start": 2,
+          "end": 16
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：志玲在書店選一本香港步道指南，先翻看地圖、目錄和幾頁圖片；她還未核對路線的最新開放情況。用一至兩句英文描述翻閱及其限制。",
+        "selfCheckZh": "寫出略看地圖、目錄、圖片，尚未核對路線是否開放。",
+        "examples": [
+          {
+            "en": "Chi-ling leafed through the walking guide, glancing at maps, contents and pictures, but she still needs to check whether its routes are open.",
+            "zh": "志玲隨手翻閱步道指南，略看地圖、目錄和圖片，但仍須核對路線是否開放。"
+          },
+          {
+            "en": "Before buying the guide, she leafed through it for a quick overview; that did not confirm the current status of any route.",
+            "zh": "買指南前，她隨手翻閱以了解大概；這並沒有確認任何路線目前的開放情況。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "walking guide",
+            "zh": "步道指南",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 41
+            }
+          },
+          {
+            "en": "maps",
+            "zh": "地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 59
+            }
+          },
+          {
+            "en": "contents",
+            "zh": "目錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 69
+            }
+          },
+          {
+            "en": "routes are open",
+            "zh": "路線是否開放",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 140
+            }
+          },
+          {
+            "en": "quick overview",
+            "zh": "大概",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 67
+            }
+          },
+          {
+            "en": "current status",
+            "zh": "目前情況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leaf through means browse pages for an overview.",
+          "zh": "隨手翻閱，指翻看書頁了解大概。"
+        },
+        {
+          "en": "Leafing through a guide does not verify every detail.",
+          "zh": "隨手翻閱指南不等於核實每個細節。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3525",
+      "number": 3525,
+      "inventoryId": "expr-3525",
+      "titleEn": "a free-for-all",
+      "titleZh": "無序混亂的局面",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+free-for-all\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A chaotic situation in which effective rules or moderation are absent; a situation can descend into one.",
+        "meaningZh": "缺乏有效規則或管理的無序混亂局面；情況亦可逐步陷入此局面。",
+        "grammar": "A free-for-all is a hyphenated noun. Be/become a free-for-all describes a state; descend into a free-for-all describes deterioration; a bit of a free-for-all softens the degree.",
+        "register": "Forum moderation meeting: an organiser warns about an unmoderated public discussion.",
+        "boundaryZh": "熱烈討論不必然是無序混亂；a bit of a 可指程度較輕，仍須看到規則失效。",
+        "misconceptionZh": "不是活動免費，也不是大家可自由發言就必定混亂。",
+        "outcomeZh": "能分辨熱烈但有序、輕度混亂，以及秩序逐步崩潰。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1414",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 132,
+          "book": 13,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "48–51",
+          "locatorNote": "DOCX table 140, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without moderation, the forum risks descending into a free-for-all.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "descending into a free-for-all"
+        }
+      ],
+      "listening": {
+        "en": "At the community fair, booth signs were missing and visitors wandered into several queues at once. The entrance became a free-for-all until volunteers added directions.",
+        "zh": "社區嘉年華的攤位標示不見了，訪客同時排進幾條隊。入口一度變成無序混亂的局面，直到義工加上指示。",
+        "promptZh": "a free-for-all 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An entrance without effective queuing order.",
+            "zh": "入口沒有有效排隊秩序。"
+          },
+          {
+            "id": "b",
+            "en": "An event with no admission fee.",
+            "zh": "一項不用付入場費的活動。"
+          },
+          {
+            "id": "c",
+            "en": "A lively but clearly directed entrance.",
+            "zh": "熱鬧但指示清楚的入口。"
+          },
+          {
+            "id": "d",
+            "en": "A unanimous decision by visitors.",
+            "zh": "訪客一致作出的決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "標示缺失令幾條隊伍混在一起，指無序的局面；與免費無關。"
+      },
+      "reply": {
+        "promptEn": "What happened to the online debate after moderators left? Posts repeated unchecked, members shouted over one another, and no one could follow the original question.",
+        "promptZh": "（版主離開後網上辯論怎樣了？帖子無人審核而不斷重複，成員互相叫嚷，沒人能跟上原本問題。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It lost the rules that kept discussion usable.",
+            "zh": "討論失去維持秩序的規則。"
+          },
+          {
+            "id": "b",
+            "en": "It became increasingly hard to follow.",
+            "zh": "內容愈來愈難跟上。"
+          },
+          {
+            "id": "c",
+            "en": "It descended into a free-for-all.",
+            "zh": "它陷入無序混亂。"
+          },
+          {
+            "id": "d",
+            "en": "Moderation failure allowed disorder to grow.",
+            "zh": "管理失效令混亂擴大。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據管理失效和秩序惡化作答。"
+      },
+      "scene": {
+        "promptZh": "小型家長日有幾個攤位標示不清，家長稍微互相插隊，但義工很快重新排好；哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For a short while, it was a bit of a free-for-all.",
+            "zh": "有一小段時間，場面有點無序混亂。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone followed a clear queue from the start.",
+            "zh": "所有人一開始就依清楚次序排隊。"
+          },
+          {
+            "id": "c",
+            "en": "The event was free of admission charges.",
+            "zh": "活動免收入場費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫插隊顯示輕度混亂；a bit of a 緩和程度，並非免費。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以使用此片語？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A chair uses timed turns, and a heated debate still follows them.",
+            "zh": "主席設定限時輪流發言，激烈辯論仍遵守次序。"
+          },
+          {
+            "id": "b",
+            "en": "A discussion loses its moderator and becomes a shouting match.",
+            "zh": "討論失去主持後變成互相叫嚷。"
+          },
+          {
+            "id": "c",
+            "en": "A queue collapses when no one checks turns.",
+            "zh": "無人維持次序，隊伍陷入混亂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "意見激烈但規則仍有效，未陷入無序。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有人反對我，所以會議是 free-for-all。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Disagreement alone does not mean a meeting has descended into a free-for-all; we need evidence that its rules broke down.",
+            "zh": "單有異議不表示會議已陷入無序混亂；須看規則是否失效。"
+          },
+          {
+            "id": "b",
+            "en": "Any opposing view means rules have failed.",
+            "zh": "任何反對意見都代表規則失效。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means everyone receives free tickets.",
+            "zh": "片語指人人獲免費門票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "判斷重點是秩序，不是意見一致與否。"
+      },
+      "speaking": {
+        "en": "The public forum descended into a free-for-all after speakers ignored the time limit and shouted across the room.",
+        "zh": "發言者無視時間限制、隔着會場互相叫嚷後，公眾論壇陷入無序混亂。",
+        "promptZh": "先聽示範，再指出哪項規則被忽視。",
+        "targetSpan": {
+          "start": 17,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：屋苑會議原本每人兩分鐘發言；主持中途離開後，數人同時搶咪高風、發言時間無人控制，議題無法繼續。用一至兩句英文描述秩序變化，勿把異議本身當成混亂。",
+        "selfCheckZh": "寫出原有兩分鐘規則、主持離開後搶咪與無人控時、秩序惡化。",
+        "examples": [
+          {
+            "en": "After the chair left, the residents’ meeting descended into a free-for-all: several people grabbed the microphone at once and the two-minute rule stopped working.",
+            "zh": "主持離開後，居民會議陷入無序混亂：幾人同時搶咪高風，兩分鐘發言規則也失效。"
+          },
+          {
+            "en": "The meeting began to descend into a free-for-all when the chair left, speakers talked over one another, and no one enforced the time limit.",
+            "zh": "主持離開、發言者互相蓋過對方聲音，又無人執行時間限制時，會議開始陷入無序混亂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "residents’ meeting",
+            "zh": "居民會議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 44
+            }
+          },
+          {
+            "en": "microphone",
+            "zh": "咪高風",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 113
+            }
+          },
+          {
+            "en": "two-minute rule",
+            "zh": "兩分鐘發言規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 145
+            }
+          },
+          {
+            "en": "stopped working",
+            "zh": "失效",
+            "exampleIndex": 0,
+            "span": {
+              "start": 146,
+              "end": 161
+            }
+          },
+          {
+            "en": "talked over one another",
+            "zh": "互相蓋過對方聲音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 102
+            }
+          },
+          {
+            "en": "time limit",
+            "zh": "時間限制",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 138
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A free-for-all is a disorderly situation without effective rules.",
+          "zh": "a free-for-all 指缺乏有效規則的無序局面。"
+        },
+        {
+          "en": "A situation may descend into a free-for-all, or be a bit of a free-for-all.",
+          "zh": "情況可逐步陷入無序混亂，也可只是有點混亂。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3529",
+      "number": 3529,
+      "inventoryId": "expr-3529",
+      "titleEn": "cross the line",
+      "titleZh": "越過可接受界線",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Go beyond an accepted ethical or social boundary in conduct.",
+        "meaningZh": "行為超出社會或情境中可接受的界線。",
+        "grammar": "Cross/crosses/crossed the line or a line; both mark an unacceptable boundary. The points of reference may be a shared threshold (the) or one boundary among others (a). Specify the conduct, not a literal painted line.",
+        "register": "Digital-citizenship discussion: a teacher explains why recording strangers without permission is unacceptable.",
+        "boundaryZh": "要說明哪項行為、哪條界線，不是單靠自己不喜歡便判定越界。",
+        "misconceptionZh": "不是跨過地上的實際線，也不等於所有批評都不可接受。",
+        "outcomeZh": "能指出具體越界行為和涉及的同意或私隱原則。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1418",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 132,
+          "book": 13,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "48–51",
+          "locatorNote": "DOCX table 140, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Filming strangers without consent crosses the line.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "crosses the line"
+        }
+      ],
+      "listening": {
+        "en": "A customer challenged a refund decision, then sent threats to the clerk’s personal account. The threats crossed the line.",
+        "zh": "顧客質疑退款決定後，向職員的私人帳戶發出恐嚇訊息。恐嚇行為越過了可接受界線。",
+        "promptZh": "crossed the line 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Threatening the clerk went beyond acceptable conduct.",
+            "zh": "恐嚇職員超出可接受行為。"
+          },
+          {
+            "id": "b",
+            "en": "The customer stepped over a painted line.",
+            "zh": "顧客跨過畫在地上的線。"
+          },
+          {
+            "id": "c",
+            "en": "Respectful disagreement itself was forbidden.",
+            "zh": "有禮的異議本身被禁止。"
+          },
+          {
+            "id": "d",
+            "en": "The clerk gave permission to receive threats.",
+            "zh": "職員准許對方恐嚇自己。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "越界點是向私人帳戶發恐嚇訊息，並非單純質疑退款。"
+      },
+      "reply": {
+        "promptEn": "A club member disagrees with a proposal, then shares another member’s private medical message in the group chat to embarrass them. What changed?",
+        "promptZh": "（社團成員不同意提案，之後把另一成員的私人醫療訊息貼到群組，令對方難堪。哪項行為改變了事情性質？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sharing private information went beyond fair disagreement.",
+            "zh": "公開私人資料超出合理異議。"
+          },
+          {
+            "id": "b",
+            "en": "The medical message should not have been exposed.",
+            "zh": "醫療訊息不應被公開。"
+          },
+          {
+            "id": "c",
+            "en": "Posting that private message crossed the line.",
+            "zh": "張貼那則私人訊息越過可接受界線。"
+          },
+          {
+            "id": "d",
+            "en": "The member violated a clear privacy boundary.",
+            "zh": "該成員觸犯明確私隱界線。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均把越界點放在公開私人醫療訊息，而非單純反對。"
+      },
+      "scene": {
+        "promptZh": "有人在比賽後批評判決，之後公開裁判住址並鼓勵陌生人上門。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Publishing the address crossed the line.",
+            "zh": "公開住址越過可接受界線。"
+          },
+          {
+            "id": "b",
+            "en": "Any disagreement with a referee is forbidden.",
+            "zh": "任何對裁判的異議都被禁止。"
+          },
+          {
+            "id": "c",
+            "en": "The person crossed a painted sports line.",
+            "zh": "此人跨過球場畫線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公開私人住址是具體越界行為。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 cross the line？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student respectfully questions a teacher’s reasoning during discussion.",
+            "zh": "學生討論時有禮地質疑老師的理據。"
+          },
+          {
+            "id": "b",
+            "en": "A user posts a neighbour’s private phone number without permission.",
+            "zh": "用戶未經准許公開鄰居私人電話。"
+          },
+          {
+            "id": "c",
+            "en": "A player threatens an official after a match.",
+            "zh": "球員賽後恐嚇裁判。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有禮的討論不等於越過行為界線。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我不喜歡你的意見，所以你 crossed the line。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Disagreement alone need not cross a line; identify the actual conduct and boundary.",
+            "zh": "單純異議不一定越過可接受界線；須指出具體行為與界線。"
+          },
+          {
+            "id": "b",
+            "en": "Anything I dislike is automatically misconduct.",
+            "zh": "凡我不喜歡的事都自動屬不當行為。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase refers to crossing a road only.",
+            "zh": "片語只指過馬路。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "要有可說明的行為界線。"
+      },
+      "speaking": {
+        "en": "The moderator crossed a line by mocking a speaker’s disability; disagreeing with the proposal itself would have been fair.",
+        "zh": "主持嘲笑發言者的殘疾，越過了可接受界線；單純不同意提案本來可以合理。",
+        "promptZh": "先聽示範，再指出哪個行為越界、哪個行為本可接受。",
+        "targetSpan": {
+          "start": 14,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會候選人公開辯論午膳政策，這本來合理；其中一人把對手與輔導員的私人談話截圖發到全校群組。用一至兩句英文說明哪項行為越界及原因。",
+        "selfCheckZh": "區分公開政策辯論與未經同意公開私人輔導談話，點出私隱界線。",
+        "examples": [
+          {
+            "en": "Debating lunch policy was fair, but posting a private counselling chat to the whole school crossed the line because it exposed confidential information.",
+            "zh": "辯論午膳政策是合理的，但向全校發出私人輔導談話越過可接受界線，因為這公開了機密資料。"
+          },
+          {
+            "en": "The candidate crossed the line by sharing a screenshot of the rival’s private counselling conversation; the disagreement over lunch policy did not justify that privacy breach.",
+            "zh": "候選人分享對手私人輔導對話截圖，越過可接受界線；午膳政策上的異議不能成為侵犯私隱的理由。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lunch policy",
+            "zh": "午膳政策",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 21
+            }
+          },
+          {
+            "en": "counselling chat",
+            "zh": "輔導談話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 70
+            }
+          },
+          {
+            "en": "confidential information",
+            "zh": "機密資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 151
+            }
+          },
+          {
+            "en": "whole school",
+            "zh": "全校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          },
+          {
+            "en": "screenshot",
+            "zh": "截圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 54
+            }
+          },
+          {
+            "en": "privacy breach",
+            "zh": "侵犯私隱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 174
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Cross the line means go beyond acceptable conduct.",
+          "zh": "越過界線，指行為超出可接受範圍。"
+        },
+        {
+          "en": "A remark can cross a line when it violates a clear boundary; disagreement alone need not.",
+          "zh": "言論若觸犯清楚界線便可能越界；單純異議不一定越界。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 4
+    },
+    {
+      "id": "advanced-native-3547",
+      "number": 3547,
+      "inventoryId": "expr-3547",
+      "titleEn": "run into the ground",
+      "titleZh": "把人操勞到筋疲力盡",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:run|runs|ran|running)\\s+(?:[A-Za-z]+\\s+){0,4}into\\s+the\\s+ground\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Overwork a person until they are exhausted.",
+        "meaningZh": "使人因過度工作而筋疲力盡。",
+        "grammar": "Run someone into the ground; the object can be a person or group. Passive: be run into the ground. Ran is the past form.",
+        "register": "Workplace discussion: a union representative warns managers that repeated overtime can exhaust staff.",
+        "boundaryZh": "辛苦的一天未必等於長期過勞；要看工作量和休息是否持續失衡。",
+        "misconceptionZh": "不是把人實際壓入泥土，也不是稱讚其勤奮。",
+        "outcomeZh": "能描述造成疲勞的工作安排，不把過勞美化為敬業。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1436",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 134,
+          "book": 13,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "52–54",
+          "locatorNote": "DOCX table 141, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "No employee should be run into the ground by overtime.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "run into the ground"
+        }
+      ],
+      "listening": {
+        "en": "The manager scheduled double shifts for weeks with no recovery days. By the final weekend, the kitchen team had been run into the ground.",
+        "zh": "經理連續幾週安排雙更，沒有恢復休息日。到了最後一個週末，廚房團隊已被操勞得筋疲力盡。",
+        "promptZh": "run into the ground 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Overworked until exhausted.",
+            "zh": "因過度工作而筋疲力盡。"
+          },
+          {
+            "id": "b",
+            "en": "Buried physically in soil.",
+            "zh": "實際被埋進泥土。"
+          },
+          {
+            "id": "c",
+            "en": "Given plenty of rest.",
+            "zh": "得到充足休息。"
+          },
+          {
+            "id": "d",
+            "en": "Praised for one busy but balanced day.",
+            "zh": "因忙碌但平衡的一天受讚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連續雙更且沒有休息，使團隊過勞。"
+      },
+      "reply": {
+        "promptEn": "Why did the theatre crew ask for a new rota? They had worked late rehearsals every night for three weeks, with early calls each morning and no full day off.",
+        "promptZh": "（劇團工作人員為何要求新更表？他們連續三週每晚排練至深夜，翌日清早又要上班，沒有一整天休息。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The schedule left too little recovery time.",
+            "zh": "更表留下的恢復時間太少。"
+          },
+          {
+            "id": "b",
+            "en": "They were exhausted by sustained overwork.",
+            "zh": "持續過勞令他們筋疲力盡。"
+          },
+          {
+            "id": "c",
+            "en": "The rota was running them into the ground.",
+            "zh": "更表把他們操勞得筋疲力盡。"
+          },
+          {
+            "id": "d",
+            "en": "Repeated late and early shifts were wearing them out.",
+            "zh": "反覆晚班和早班令他們疲憊。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都依據連續過勞與欠缺休息作答。"
+      },
+      "scene": {
+        "promptZh": "清潔團隊連續一個月每週工作七天，主管仍加班次，員工多次疲倦病倒。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rota is running the cleaners into the ground.",
+            "zh": "更表正把清潔員操勞得筋疲力盡。"
+          },
+          {
+            "id": "b",
+            "en": "The team has a well-rested schedule.",
+            "zh": "團隊有充分休息的更表。"
+          },
+          {
+            "id": "c",
+            "en": "The cleaners are working underground.",
+            "zh": "清潔員在地底工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期無休加班與病倒支持過勞。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持此片語？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A busy festival shift is followed by agreed time off and adequate rest.",
+            "zh": "忙碌節慶班次後有預先安排的假期及充足休息。"
+          },
+          {
+            "id": "b",
+            "en": "A manager adds weeks of double shifts without recovery days.",
+            "zh": "經理連續幾週安排雙更且無恢復休息日。"
+          },
+          {
+            "id": "c",
+            "en": "A team works nightly overtime for months and falls ill from fatigue.",
+            "zh": "團隊連續數月每晚加班，因疲倦病倒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "忙碌但有足夠休息，未見持續過勞。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他們被 run into the ground，證明主管很會激勵人。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Running workers into the ground is harmful overwork, not effective motivation.",
+            "zh": "把員工操勞到筋疲力盡是有害的過勞，不是有效激勵。"
+          },
+          {
+            "id": "b",
+            "en": "Exhaustion proves excellent management.",
+            "zh": "筋疲力盡證明管理出色。"
+          },
+          {
+            "id": "c",
+            "en": "It means workers were put under the floor.",
+            "zh": "它指工人被放到地板下。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "語意是否定性的過勞。"
+      },
+      "speaking": {
+        "en": "The volunteers were run into the ground by six weeks of late-night sorting with no rest days.",
+        "zh": "義工連續六週深夜整理物資，沒有休息日，被操勞得筋疲力盡。",
+        "promptZh": "先聽示範，再指出令義工過勞的安排。",
+        "targetSpan": {
+          "start": 20,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：慈善熱線原本每人每週四更，遇上活動後連續五週每週七更，沒有補假，幾名接線員因疲勞請病假。用一至兩句英文說明安排造成甚麼問題，勿稱這是值得讚揚的效率。",
+        "selfCheckZh": "寫出四更變七更、持續五週無補假、接線員疲勞請病假。",
+        "examples": [
+          {
+            "en": "When four shifts rose to seven a week for five weeks without time off, the helpline operators were run into the ground; several took sick leave from exhaustion.",
+            "zh": "接線員原本每週四更，連續五週增至七更又沒有補假，結果被操勞得筋疲力盡；幾人因疲勞請病假。"
+          },
+          {
+            "en": "The charity changed from four to seven shifts a week for five weeks and offered no recovery days. That schedule was running operators into the ground; several took sick leave from exhaustion.",
+            "zh": "慈善機構連續五週把每週四更改為七更，又沒有恢復休息日。這更表正把接線員操勞得筋疲力盡；幾人因疲勞請病假。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "seven a week",
+            "zh": "每週七更",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 37
+            }
+          },
+          {
+            "en": "without time off",
+            "zh": "沒有補假",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 69
+            }
+          },
+          {
+            "en": "five weeks",
+            "zh": "五週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 52
+            }
+          },
+          {
+            "en": "sick leave",
+            "zh": "病假",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 143
+            }
+          },
+          {
+            "en": "four to seven shifts",
+            "zh": "四更改為七更",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 45
+            }
+          },
+          {
+            "en": "recovery days",
+            "zh": "恢復休息日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 96
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Run someone into the ground means overwork them to exhaustion.",
+          "zh": "把人操勞到筋疲力盡，指過度工作令其疲憊。"
+        },
+        {
+          "en": "Do not praise a schedule that runs workers into the ground.",
+          "zh": "不應稱讚把員工操勞得筋疲力盡的更表。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

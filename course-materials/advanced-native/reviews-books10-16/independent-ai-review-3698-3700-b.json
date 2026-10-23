@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent-golden-sop-content-review",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3698-3700-review-pilot.json",
+  "draftSha256": "5d28b712d48a458cb5f001ffef9f8b9a08b7b720932d32a7f2702af5d99ef6a9",
+  "authorAuditSha256": "1209a072ccf77ab4194b564e17899a018449124c0d017dabbb3e4bf6037e91d6",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "2 lessons, 12 questions, 8 audio requests, zero mechanical flags",
+  "status": "minor-repair-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3698, "status": "pass", "summary": "The second-necessary-factor sense from the public-trust source is preserved across distinct accessible-lift, flood-alert, equipment and school-notice scenes. Four reply choices are defensible; exact target, Traditional Chinese and two changed-context models align."},
+    {"ordinal": 3700, "status": "minor-repair", "summary": "The real-use pressure sense from the app-testing source is preserved across distinct cup-return, delivery, umbrella and library scenes. Target and answer keys are sound. Model 1 weakens the stated unresolved-repair condition."}
+  ],
+  "findings": [
+    {"id": "R3700-01", "severity": "minor", "path": "lessons[number=3700].writing.examples[0]", "issue": "The prompt and selfCheckZh say staff have not found a repair method. Model 1 says only that staff 'have not fixed it yet', which permits an already-found repair awaiting implementation; its Chinese likewise says 尚未修好. Model 2 preserves the intended uncertainty.", "requiredRepair": "State in model 1 that staff have not yet found a fix, in both English and Traditional Chinese, then refresh affected glossary spans."}
+  ],
+  "limits": "No selection, release, audio or human editorial approval."
+}

@@ -332,7 +332,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 2,
       "listening": {
         "promptZh": "連續三次改期對講者有甚麼影響？",
         "options": [
@@ -391,17 +391,17 @@
         "explanationZh": "四句都能合理表達需要；金句明確說出反覆改期造成的耐性壓力。"
       },
       "scene": {
-        "promptZh": "家長在一星期內三次收到校車時間改動通知。她尚未投訴或取消服務，但每次都要重新安排接送。哪句最貼切？",
+        "promptZh": "家長接連三晚替孩子網上交功課，但學校網站每晚都在提交前當機。她尚未責罵職員，卻每次都要重新輸入資料。哪句最貼切？",
         "options": [
           {
             "id": "a",
-            "en": "Her patience is being tested by the repeated timetable changes.",
-            "zh": "時間表反覆改動令她的耐性受考驗。"
+            "en": "Her patience is being tested by the repeated website failures.",
+            "zh": "網站反覆故障令她的耐性受考驗。"
           },
           {
             "id": "b",
-            "en": "She has completely lost her temper with the driver.",
-            "zh": "她已對司機大發脾氣。"
+            "en": "She has completely lost her temper with the school.",
+            "zh": "她已對學校大發脾氣。"
           },
           {
             "id": "c",
@@ -410,7 +410,7 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "反覆改動帶來真實安排成本，但尚未失控，正是耐性受考驗。"
+        "explanationZh": "網站連續當機，令她要反覆輸入資料；她尚未失控，正是耐性受考驗。"
       },
       "contrast": {
         "promptZh": "哪個情況較不足以說 patience is being tested？",
@@ -458,12 +458,12 @@
         "promptEn": "A: They changed the pickup time again, and I have to rearrange work for the third time. B: ______"
       },
       "speaking": {
-        "en": "My patience is being tested by the repeated cancellations, but I will ask for a confirmed date before deciding what to do.",
-        "zh": "反覆取消令我的耐性受考驗，但我會先要求確定日期，再決定怎樣做。",
+        "en": "After three cancellations, my patience is being tested, but I will ask for a confirmed date before deciding what to do.",
+        "zh": "預約取消了三次，我的耐性正受考驗，但我會先要求確定日期，再決定怎樣做。",
         "promptZh": "交代反覆困難、耐性受壓，以及尚未失控的下一步。",
         "targetSpan": {
-          "start": 0,
-          "end": 27
+          "start": 27,
+          "end": 54
         }
       },
       "writing": {
@@ -1406,37 +1406,37 @@
       },
       "contentRevision": 2,
       "listening": {
-        "promptZh": "隊長為何擔心 Noah 在緊張比賽中的反應？",
+        "promptZh": "主管為何擔心 Noah 面對同事質疑時的反應？",
         "options": [
           {
             "id": "a",
-            "en": "Twice this month, Noah argued sharply before hearing the referee’s explanation, then apologised.",
-            "zh": "這個月有兩次，Noah 未聽球證解釋便激烈爭論，之後才道歉。"
+            "en": "Twice this month, Noah snapped before hearing his colleagues’ concerns, then apologised.",
+            "zh": "這個月有兩次，Noah 未聽完同事的疑慮便厲聲回應，之後才道歉。"
           },
           {
             "id": "b",
-            "en": "Noah calmly asked the referee for an explanation on both occasions.",
-            "zh": "兩次事件中，Noah 都平靜地請球證解釋。"
+            "en": "Noah calmly heard his colleagues’ concerns on both occasions.",
+            "zh": "兩次事件中，Noah 都平靜地聽完同事的疑慮。"
           },
           {
             "id": "c",
-            "en": "Noah has missed several matches because of injury.",
-            "zh": "Noah 因受傷錯過了多場比賽。"
+            "en": "Noah has missed several shifts because of injury.",
+            "zh": "Noah 因受傷錯過了幾次輪班。"
           },
           {
             "id": "d",
-            "en": "Noah keeps a detailed record of each game.",
-            "zh": "Noah 詳細記錄每場比賽。"
+            "en": "Noah keeps a detailed record of each repair.",
+            "zh": "Noah 詳細記錄每次維修。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "隊長明確提到這個月兩次先激烈爭論、後向球隊道歉的情況。",
-        "en": "Noah is talented, but he can be hot-headed in close games. Twice this month he argued sharply with the referee before hearing the explanation, and later he apologised to the team.",
-        "zh": "Noah 很有天分，但比賽緊張時可能會急躁衝動。這個月有兩次，他未聽解釋便激烈地與球證爭論，之後才向球隊道歉。"
+        "explanationZh": "主管明確提到這個月兩次先厲聲回應、後向團隊道歉的情況。",
+        "en": "Noah is skilled at repairing equipment, but he can be hot-headed when colleagues question his work. Twice this month he snapped at them before hearing their concerns, and later he apologised to the team.",
+        "zh": "Noah 擅長維修設備，但同事質疑他的工作時，他可能會急躁衝動。這個月有兩次，他未聽完同事的疑慮便厲聲回應，之後才向團隊道歉。"
       },
       "reply": {
-        "promptEn": "Noah has argued sharply with the referee before listening twice this month. How can we talk to him about it fairly?",
-        "promptZh": "（Noah 這個月已有兩次未聽解釋便激烈地與球證爭論。我們怎樣公平地跟他談？）",
+        "promptEn": "Noah has snapped at coworkers before hearing their concerns twice this month. How can we talk to him about it fairly?",
+        "promptZh": "（Noah 這個月已有兩次未聽完同事的疑慮便厲聲回應。我們怎樣公平地跟他談？）",
         "options": [
           {
             "id": "a",
@@ -1450,13 +1450,13 @@
           },
           {
             "id": "c",
-            "en": "He can be hot-headed in close games; let us agree on a pause before he speaks.",
-            "zh": "比賽緊張時他可能急躁衝動；我們一起定好發言前先停一停。"
+            "en": "He can be hot-headed when feedback arrives; let us agree on a pause before he responds.",
+            "zh": "收到意見時他可能急躁衝動；我們一起定好回應前先停一停。"
           },
           {
             "id": "d",
-            "en": "Discuss how the arguments affected the team.",
-            "zh": "討論爭論怎樣影響球隊。"
+            "en": "Discuss how his sharp replies affected the team.",
+            "zh": "討論他的尖銳回應怎樣影響團隊。"
           }
         ],
         "goldenId": "c",

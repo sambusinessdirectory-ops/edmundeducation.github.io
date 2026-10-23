@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3698-3700-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3698",
+      "number": 3698,
+      "inventoryId": "expr-3698",
+      "titleEn": "the other half of the equation",
+      "titleZh": "另一個同樣重要的要素",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+other\\s+half\\s+of\\s+the\\s+equation\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A second necessary factor that must be considered alongside the one already named.",
+        "meaningZh": "已指出一個要素後，還須考慮的另一個同樣必要的因素。",
+        "grammar": "X is the other half of the equation; explicitly name the first factor and the second, without implying literal arithmetic or exact fifty-fifty weighting.",
+        "register": "Emergency-planning meeting: an organiser notes that trained staff and a reliable alert route are both needed for evacuation.",
+        "boundaryZh": "不是任何第二個細節都可稱另一半；它應對結果有實質必要性。",
+        "misconceptionZh": "不是數學上必須各佔百分之五十，也不表示只需兩個因素便能解釋一切。",
+        "outcomeZh": "能指出第一要素與缺失的第二要素，以及兩者如何共同影響結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1587",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 149,
+          "book": 14,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 158, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Public trust is the other half of the equation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the other half of the equation"
+        }
+      ],
+      "listening": {
+        "en": "The theatre bought an accessible lift, but audience members still need clear directions to find it. Wayfinding is the other half of the equation.",
+        "zh": "劇院買了無障礙升降機，但觀眾仍需清楚指示才能找到。導向標示是另一個同樣重要的要素。",
+        "promptZh": "the other half of the equation 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A further necessary factor alongside the lift.",
+            "zh": "與升降機同樣需要的另一要素。"
+          },
+          {
+            "id": "b",
+            "en": "Exactly fifty percent of the building’s cost.",
+            "zh": "建築成本的剛好一半。"
+          },
+          {
+            "id": "c",
+            "en": "Proof that the lift itself is useless.",
+            "zh": "證明升降機本身毫無用處。"
+          },
+          {
+            "id": "d",
+            "en": "A literal written calculation.",
+            "zh": "寫在紙上的實際算式。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有升降機仍需指示才容易使用；兩者相互配合。"
+      },
+      "reply": {
+        "promptEn": "A flood-warning system sends accurate alerts, but some residents cannot receive them without a staffed phone line. What did planners overlook?",
+        "promptZh": "（水浸預警系統能準確發訊息，但部分居民若沒有有人接聽的電話線便收不到。規劃者忽略了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Alerts must reach the people who need them.",
+            "zh": "警報須送到需要的人手中。"
+          },
+          {
+            "id": "b",
+            "en": "Accuracy alone does not ensure access.",
+            "zh": "準確性本身不足以確保收到。"
+          },
+          {
+            "id": "c",
+            "en": "Delivery is the other half of the equation.",
+            "zh": "傳達渠道是另一個同樣重要的要素。"
+          },
+          {
+            "id": "d",
+            "en": "A staffed line could complete the warning plan.",
+            "zh": "有人接聽的電話線可補足預警安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出準確內容之外，可靠傳達也是必要條件。"
+      },
+      "scene": {
+        "promptZh": "運動中心購置新急救箱，但職員未受訓，不知何時如何使用。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Training is the other half of the equation.",
+            "zh": "職員培訓是另一個同樣重要的要素。"
+          },
+          {
+            "id": "b",
+            "en": "The equipment alone guarantees safety.",
+            "zh": "只靠設備就保證安全。"
+          },
+          {
+            "id": "c",
+            "en": "Training must be exactly half the budget.",
+            "zh": "培訓必須剛好佔預算一半。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有設備仍要懂得使用。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 the other half of the equation？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Clear instructions are needed as well as equipment.",
+            "zh": "除了設備，還需要清楚指示。"
+          },
+          {
+            "id": "b",
+            "en": "A poster uses a different border colour that does not affect whether warnings reach anyone.",
+            "zh": "海報換了邊框顏色，但不影響警告是否傳達。"
+          },
+          {
+            "id": "c",
+            "en": "A transport pass matters as well as a free museum ticket for remote pupils.",
+            "zh": "對偏遠學生而言，除免費門票外，交通證也重要。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "無關成敗的裝飾細節不是必要的第二要素。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「另一半就必須剛好佔百分之五十。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The other half of the equation means another essential factor, not an exact numerical share.",
+            "zh": "另一個同樣重要的要素，不指精確的數字比例。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase always gives a measured fifty-fifty split.",
+            "zh": "片語一定表示精確各半。"
+          },
+          {
+            "id": "c",
+            "en": "It can describe only mathematics homework.",
+            "zh": "它只能形容數學功課。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比喻重點是不可忽略的互補因素。"
+      },
+      "speaking": {
+        "en": "The sports hall has ramps, but signs showing the step-free route are the other half of the equation.",
+        "zh": "體育館有斜道，但指示無梯級路線的標示是另一個同樣重要的要素。",
+        "promptZh": "先聽示範，再指出除了斜道還需要甚麼。",
+        "targetSpan": {
+          "start": 69,
+          "end": 99
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校提供免費戲劇工作坊名額，卻只在網上公布；一些學生沒有穩定網絡。校方考慮在圖書館貼出紙本報名通知，尚未實施。用一至兩句英文說明兩項必要因素及待辦事項。",
+        "selfCheckZh": "寫出免費名額與可接觸報名資訊的渠道缺一不可、部分學生網絡不穩、紙本通知仍在考慮。",
+        "examples": [
+          {
+            "en": "Free workshop places matter, but accessible announcements are the other half of the equation for pupils without reliable internet; the school is considering paper notices.",
+            "zh": "免費工作坊名額重要，但對網絡不穩的學生而言，可接觸報名資訊的渠道是另一個同樣重要的要素；學校正考慮紙本通知。"
+          },
+          {
+            "en": "The school has offered free drama places, yet reaching offline pupils is the other half of the equation. It may post paper registration notices in the library, but has not done so yet.",
+            "zh": "學校已提供免費戲劇工作坊名額，但讓沒有穩定網絡的學生得知消息是另一個同樣重要的要素。學校或會在圖書館張貼紙本報名通知，目前尚未實施。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "workshop places",
+            "zh": "工作坊名額",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 20
+            }
+          },
+          {
+            "en": "accessible announcements",
+            "zh": "可接觸報名資訊的渠道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 57
+            }
+          },
+          {
+            "en": "reliable internet",
+            "zh": "穩定網絡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 129
+            }
+          },
+          {
+            "en": "paper notices",
+            "zh": "紙本通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 170
+            }
+          },
+          {
+            "en": "offline pupils",
+            "zh": "沒有穩定網絡的學生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 69
+            }
+          },
+          {
+            "en": "registration notices",
+            "zh": "報名通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 143
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The other half of the equation names another necessary factor.",
+          "zh": "另一個同樣重要的要素，指另一項必要條件。"
+        },
+        {
+          "en": "The other half of the equation is a metaphor, not an exact percentage.",
+          "zh": "另一個同樣重要的要素是比喻，不是精確百分比。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3700",
+      "number": 3700,
+      "inventoryId": "expr-3700",
+      "titleEn": "the cracks begin to show",
+      "titleZh": "弱點開始顯現",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+cracks\\s+(?:begin|began|start|started)\\s+to\\s+show\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Weaknesses that were less visible at first become apparent when something faces real use or pressure.",
+        "meaningZh": "初時較難看到的弱點，在實際使用或壓力下開始顯現。",
+        "grammar": "The cracks begin/began to show; cracks are figurative flaws unless a literal structure is being discussed. State what exposed the weaknesses.",
+        "register": "Pilot-service review: a manager discusses a reusable-cup return scheme that struggles during busy lunch periods.",
+        "boundaryZh": "出現可見弱點不等於整個計劃全無價值；須指出具體問題。",
+        "misconceptionZh": "不一定有實際裂縫，也不能只因有人不喜歡計劃便說弱點已顯現。",
+        "outcomeZh": "能指出初步表現、壓力測試與具體浮現的缺陷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1589",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 149,
+          "book": 14,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once users test the app, the cracks begin to show.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the cracks begin to show"
+        }
+      ],
+      "listening": {
+        "en": "The reusable-cup return scheme looked simple on quiet mornings, but at lunch queues formed and clean cups ran out. Under pressure, the cracks began to show.",
+        "zh": "可重用杯歸還計劃在清靜早上看來簡單，但午飯時排起長龍，乾淨杯也用完了。面對繁忙時段，弱點開始顯現。",
+        "promptZh": "the cracks began to show 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Operational weaknesses became visible during the rush.",
+            "zh": "繁忙時段令運作弱點顯現。"
+          },
+          {
+            "id": "b",
+            "en": "Actual cracks opened in the cups.",
+            "zh": "杯子真的裂開。"
+          },
+          {
+            "id": "c",
+            "en": "The scheme had no benefit at all.",
+            "zh": "計劃完全沒有好處。"
+          },
+          {
+            "id": "d",
+            "en": "Morning queues were already the main problem.",
+            "zh": "早上排隊本來就是主要問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "午飯時的排隊和供應不足顯示原本不明顯的弱點。"
+      },
+      "reply": {
+        "promptEn": "A volunteer delivery rota worked for three households. When it expanded to thirty, two addresses were repeatedly missed because nobody checked route changes. What became apparent?",
+        "promptZh": "（義工送貨更表服務三戶時運作良好；擴展至三十戶後，因無人核對路線變更，兩個地址反覆漏送。甚麼開始明顯？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The larger scale exposed a route-checking weakness.",
+            "zh": "擴大規模暴露核對路線的弱點。"
+          },
+          {
+            "id": "b",
+            "en": "The original process needed a stronger check.",
+            "zh": "原有程序需要更可靠的核對。"
+          },
+          {
+            "id": "c",
+            "en": "The cracks began to show under the larger workload.",
+            "zh": "工作量變大時，弱點開始顯現。"
+          },
+          {
+            "id": "d",
+            "en": "Repeated missed addresses revealed a system gap.",
+            "zh": "反覆漏送揭示制度漏洞。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都把擴大規模與具體漏送缺陷相連。"
+      },
+      "scene": {
+        "promptZh": "社區雨傘借用制度試行三天順利，遇上暴雨後還傘處太少，櫃台塞滿。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cracks began to show during the storm.",
+            "zh": "暴雨時弱點開始顯現。"
+          },
+          {
+            "id": "b",
+            "en": "Every umbrella had a physical crack.",
+            "zh": "每把雨傘都有實際裂縫。"
+          },
+          {
+            "id": "c",
+            "en": "The scheme never helped anyone.",
+            "zh": "制度從未幫助任何人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "較大需求顯示歸還安排不足。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the cracks begin to show？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trial grows and a previously unnoticed capacity limit causes delays.",
+            "zh": "試行擴大後，原本不明顯的容量限制引致延誤。"
+          },
+          {
+            "id": "b",
+            "en": "A person dislikes the poster colour but identifies no problem with how the service works.",
+            "zh": "有人不喜歡海報顏色，卻沒有指出服務運作問題。"
+          },
+          {
+            "id": "c",
+            "en": "A busy period reveals repeated errors hidden during a quiet trial.",
+            "zh": "繁忙時段揭露清靜試行時隱藏的重複錯誤。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單純不喜歡顏色，不等於運作弱點浮現。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「弱點開始顯現，所以整項服務必須取消。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When the cracks begin to show, identify the flaws and test repairs before judging the whole service.",
+            "zh": "弱點開始顯現時，應找出缺陷並測試修補方案，再評價整項服務。"
+          },
+          {
+            "id": "b",
+            "en": "Any flaw proves the service has no value.",
+            "zh": "任何缺陷都證明服務毫無價值。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase always means broken concrete.",
+            "zh": "片語一定指混凝土裂開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "顯現弱點不等於只能取消。"
+      },
+      "speaking": {
+        "en": "The cracks began to show when the ticket desk faced its first large crowd and could not update changes quickly enough.",
+        "zh": "售票處第一次面對大批人潮，無法及時更新改動時，弱點開始顯現。",
+        "promptZh": "先聽示範，再指出甚麼情況暴露弱點。",
+        "targetSpan": {
+          "start": 0,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館的新書預訂辦法在試行十人時沒有問題；全校使用後，同一本書被重複預留，職員仍未找到修補方法。用一至兩句英文說明弱點何時顯現及具體問題，勿稱制度毫無用處。",
+        "selfCheckZh": "寫出十人試行正常、全校使用後同書重複預留、修補方法仍未找到。",
+        "examples": [
+          {
+            "en": "The reservation system worked for ten pupils, but when the whole school joined, the cracks began to show: the same book was reserved twice, and staff have not yet found a way to prevent it.",
+            "zh": "預訂制度服務十名學生時運作正常，但全校使用後弱點開始顯現：同一本書被重複預留，職員仍未找到避免重複預訂的方法。"
+          },
+          {
+            "en": "The cracks began to show only after the trial expanded from ten readers to the whole school; duplicate bookings appeared, and the library is still searching for a repair.",
+            "zh": "試行由十名讀者擴展至全校後，弱點才開始顯現；重複預訂出現，圖書館仍在尋找修補方法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "reservation system",
+            "zh": "預訂制度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "ten pupils",
+            "zh": "十名學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 44
+            }
+          },
+          {
+            "en": "same book",
+            "zh": "同一本書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 119
+            }
+          },
+          {
+            "en": "not yet found a way",
+            "zh": "仍未找到方法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 174
+            }
+          },
+          {
+            "en": "duplicate bookings",
+            "zh": "重複預訂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 111
+            }
+          },
+          {
+            "en": "searching for a repair",
+            "zh": "尋找修補方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The cracks begin to show when hidden weaknesses become visible.",
+          "zh": "弱點開始顯現，指原本隱藏的問題浮現。"
+        },
+        {
+          "en": "When the cracks begin to show, identify the specific problem.",
+          "zh": "弱點開始顯現時，應指出具體問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

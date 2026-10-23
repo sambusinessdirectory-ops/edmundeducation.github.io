@@ -264,8 +264,8 @@
           "zh": "更多人依賴結果時，這件事牽涉的後果便更大。"
         },
         {
-          "en": "The final test matters because a lot more is riding on it than in the pilot.",
-          "zh": "最終測試很重要，因為它比試行階段牽涉更多後果。"
+          "en": "The device’s public launch is tomorrow; a lot more is riding on it than on last week’s staff rehearsal.",
+          "zh": "設備明天公開推出；與上星期的員工綵排相比，這次推出牽涉的後果大得多。"
         }
       ]
     },
@@ -1061,8 +1061,8 @@
       },
       "takeaways": [
         {
-          "en": "Reliable new evidence can push the boundaries of understanding without answering every question.",
-          "zh": "可靠的新證據可以拓展理解界限，而不必回答所有問題。"
+          "en": "Mapping a newly found cave may push the boundaries of understanding in geology without answering every question.",
+          "zh": "繪製一個新發現洞穴的地圖，或能拓展地質學的理解界限，但未必能回答所有問題。"
         },
         {
           "en": "A surprising claim will not push the boundaries of understanding until researchers test it.",
@@ -1666,7 +1666,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 3,
       "listening": {
         "promptZh": "說話者為何批評負責人的做法？",
         "options": [
@@ -1773,7 +1773,7 @@
         "options": [
           {
             "id": "a",
-            "en": "I know we worked hard on it, but we should not cling to it for dear life when the forecast calls for a safer indoor plan.",
+            "en": "I know we worked hard on it, but the forecast makes an indoor plan safer; we should not cling to it for dear life.",
             "zh": "我知道大家下了功夫，但預報顯示應改為較安全的室內方案時，我們不應死守原計劃。"
           },
           {
@@ -1862,7 +1862,7 @@
       },
       "takeaways": [
         {
-          "en": "An old plan can be valuable, but we need not cling to it for dear life when the facts change.",
+          "en": "An old plan may be valuable; when facts change, we need not cling to it for dear life.",
           "zh": "舊計劃可以有價值，但事實改變時，我們毋須死守。"
         },
         {

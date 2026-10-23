@@ -1,0 +1,133 @@
+{
+  "reviewKind": "author-self-audit-unselected-pilot",
+  "dateUtc": "2026-10-23T14:56:34.170718+00:00",
+  "reviewedFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3801-3826-review-pilot.json",
+      "sha256": "7baec53c4260c090c70f1b1faf1c3c84bc5f476c209d3438a905eb91247757d8",
+      "count": 4
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3829-3864-review-pilot.json",
+      "sha256": "587f619f2431dc748d11aa3dcb2d6638927bcf6bc846d08276ef56b8c9db4175",
+      "count": 2
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3870-3871-review-pilot.json",
+      "sha256": "4fdde836a71922d5e7750726dcb899fcc3b9e6d7a874593ce548dbd437d2df42",
+      "count": 2
+    }
+  ],
+  "sourceInventoryRows": 2604,
+  "lessonCount": 8,
+  "questionCount": 48,
+  "audioRequestCount": 32,
+  "focusedBuildCheck": "8 lessons, 48 questions, 32 audio requests; 0 review flags; initial build and --check pass",
+  "originalityScreen": {
+    "guideSourceRows": 2604,
+    "learnerStrings": 192,
+    "totalHits": 11,
+    "nonTargetHits": 0,
+    "method": "6-token contiguous and trigram-filtered fuzzy comparison against all guide-written source examples; manually inspected target-only overlaps, including long 3829 target"
+  },
+  "sourceAliasNote": "Ordinal 3857 is proposed-alias-new to 3812 and its exact source sentence matches the 3812 detector.",
+  "lessons": [
+    {
+      "sourceOrdinal": 3801,
+      "id": "advanced-native-3801",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3803,
+      "id": "advanced-native-3803",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3812,
+      "id": "advanced-native-3812",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3826,
+      "id": "advanced-native-3826",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3829,
+      "id": "advanced-native-3829",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3864,
+      "id": "advanced-native-3864",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3870,
+      "id": "advanced-native-3870",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    },
+    {
+      "sourceOrdinal": 3871,
+      "id": "advanced-native-3871",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourceTargetRegexMatches": true,
+      "decisionProposedNewOwnerMatches": true,
+      "selectedManifestCollision": false,
+      "sixAnswerDerivedGlossarySpansExact": true,
+      "fourValidReplyAuthorAssessment": "Four replies express the keyed situation; only golden reply contains the target. Independent fairness review pending.",
+      "writingAuthorAssessment": "Both EN/ZH models were checked against the changed-context prompt and self-check; independent fidelity review pending."
+    }
+  ],
+  "releaseStatus": "Unselected provisional AI drafts. Independent editorial, human sense/owner, media and release approvals remain pending."
+}

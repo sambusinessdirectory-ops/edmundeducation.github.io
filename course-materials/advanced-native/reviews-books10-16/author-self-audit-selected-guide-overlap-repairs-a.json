@@ -1,0 +1,97 @@
+{
+  "auditKind": "author-self-audit-selected-guide-near-copy-repairs",
+  "createdUtc": "2026-10-23T14:17:25.260514+00:00",
+  "scopeLessons": [
+    2296,
+    2297,
+    2298,
+    2519,
+    3116,
+    3139,
+    3199,
+    3274
+  ],
+  "files": {
+    "batch-2296-2306-a.json": {
+      "sha256": "7d957826aab7fcb2dc6518020963989998b15f0658a69e4641ac774da34daaf6",
+      "lessons": [
+        2296,
+        2297,
+        2298
+      ]
+    },
+    "batch-2511-2521-a.json": {
+      "sha256": "b165d431b3bb97c696b8084ffb2f2c30323b38053ee5a380ba72b53546fe158d",
+      "lessons": [
+        2519
+      ]
+    },
+    "batch-3109-3126-a.json": {
+      "sha256": "a73bf6bc5d985a044bbded95cc25a310e25715e0577c5353ab36547cf5547206",
+      "lessons": [
+        3116
+      ]
+    },
+    "batch-3129-3155-a.json": {
+      "sha256": "b49de0d1bdf823a4183241fa01b9208a9708c8b06e092835a4127c3979544a93",
+      "lessons": [
+        3139
+      ]
+    },
+    "batch-3198-3228-a.json": {
+      "sha256": "bf75cdc0c21cf84976be3e0ca0a5d59f1ca6a977ade1cf908b16fc6192144156",
+      "lessons": [
+        3199
+      ]
+    },
+    "batch-3230-3274-a.json": {
+      "sha256": "cc61c5b32f7df9081595f44932b5ecc08d820a5409ecabdb1e01a3521701bf52",
+      "lessons": [
+        3274
+      ]
+    }
+  },
+  "changedFieldsByLesson": {
+    "2296": [
+      "reply.options[c].en/zh"
+    ],
+    "2297": [
+      "scene.options[a].en/zh",
+      "listening.en/zh",
+      "writing.examples[0,1].en/zh",
+      "writing.glossary spans",
+      "reply.options[d].en",
+      "dialogue.options[a].en"
+    ],
+    "2298": [
+      "takeaways[0].en/zh"
+    ],
+    "2519": [
+      "listening.en/zh",
+      "reply.options[c].en/zh—independent near-full sentence follow-up"
+    ],
+    "3116": [
+      "takeaways[0].en/zh"
+    ],
+    "3139": [
+      "listening.en/zh"
+    ],
+    "3199": [
+      "takeaways[0].en/zh"
+    ],
+    "3274": [
+      "listening.en/zh",
+      "takeaways[0].en/zh—independent near-full sentence follow-up"
+    ]
+  },
+  "checkResults": {
+    "focusedBuildAndCheck": "PASS for all six modified batch files; 39 lessons, 234 questions, 156 audio requests, zero review flags",
+    "wholeCatalogueVerifier": "PASS: 2,604 intake/decision rows; 281 selected drafts; 1,686 questions; 1,124 audio requests; 0 schema errors; 0 exact guide copies; 0 near-duplicate flags; unpublished",
+    "aliasOwnerAudit": "PASS: 159 alias-new rows, 113 matched selected drafts, 46 awaiting drafts, 0 exceptions",
+    "allGuideNearScreen": "Six edited batch files: 967 learner-facing English strings × 2,604 source examples; no residual high-risk non-target frame from the eight repaired lessons. Remaining screen flags are fixed target strings or other lessons outside assigned scope."
+  },
+  "humanApproval": false,
+  "releaseApproval": false,
+  "independentFollowup": "Initial review identified two near-full sentence paraphrases in 2519 reply C and 3274 takeaway 0. Both rewritten with distinct syntax/context; further independent review pending.",
+  "updatedUtc": "2026-10-23T14:19:50.286236+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-ai-exact-hash-selected-guide-overlap-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-selected-guide-overlap-a-b.json",
+  "inputFiles": {
+    "batch-2511-2521-a.json": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json", "sha256": "b165d431b3bb97c696b8084ffb2f2c30323b38053ee5a380ba72b53546fe158d"},
+    "batch-3230-3274-a.json": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3230-3274-a.json", "sha256": "cc61c5b32f7df9081595f44932b5ecc08d820a5409ecabdb1e01a3521701bf52"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-selected-guide-overlap-repairs-a.json", "sha256": "b37d228e9bf8bbda297351df0be21d373d75fd339d7fa3454811468d5f1ca383"}
+  },
+  "resolvedFindings": [
+    {"id": "R2519-SRC-01", "status": "resolved", "evidence": "Keyed reply now ties Nora's apology to her friend's continued silence and need for time; it retains 'the hurt may run deeper' and aligned Chinese without the guide's near-entire sentence frame."},
+    {"id": "R3274-SRC-01", "status": "resolved", "evidence": "Takeaway now combines a calm conversation with a fair repair task while retaining 'letting children off the hook'; the English and Chinese no longer paraphrase the guide's sentence frame."}
+  ],
+  "mechanicalChecks": {
+    "sourceOriginality": "Both revised strings compared with all 2,604 guide examples under the established six-token/60-percent or nine-token near-copy rule; zero hits.",
+    "targetSemantics": "Both target patterns still match, with the same correct key for 2519. The 3274 takeaway preserves considerate accountability rather than exemption.",
+    "build": "Focused build and --check across the two changed batch files pass: 12 lessons, 72 questions, 48 audio requests, zero flags."
+  },
+  "status": "all-eight-a-repaired-lessons-provisional-content-pass-at-listed-hashes",
+  "remainingFindings": [],
+  "humanApproval": false,
+  "releaseApproval": false
+}

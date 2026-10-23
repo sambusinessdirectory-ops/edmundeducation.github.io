@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3801-3826-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3801",
+      "number": 3801,
+      "inventoryId": "expr-3801",
+      "titleEn": "vote with their feet",
+      "titleZh": "用行動選擇離開",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bvot(?:e|es|ed|ing)\\s+with\\s+(?:their|your|our|my|his|her|its|one[’\\']s)\\s+feet\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Show a preference or disapproval by leaving, refusing to attend, or choosing an alternative.",
+        "meaningZh": "以離開、不參與或轉選其他選項來表達偏好或不滿。",
+        "grammar": "Vote with one’s feet; change the possessive to match the people acting. The vote is figurative, not a formal ballot.",
+        "register": "Everyday to public commentary; a colleague explains how commuters react when an unreliable shuttle is replaced by another service.",
+        "boundaryZh": "必須有以去留或選擇作行動的證據；口頭投訴、正式投票或因被迫缺席而離開都不是同一意思。",
+        "misconceptionZh": "不需真的到票站投票，也不是每次離開都在表達不滿。",
+        "outcomeZh": "能指出誰離開或改選甚麼，以及行動透露的偏好。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1690",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 159,
+          "book": 14,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 170, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Unhappy shoppers may vote with their feet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "vote with their feet"
+        }
+      ],
+      "listening": {
+        "en": "The museum booking line grew longer because the only ticket desk worked slowly. Many visitors voted with their feet and chose the smaller gallery nearby.",
+        "zh": "博物館只有一個售票櫃檯，辦理速度很慢，購票隊伍越排越長。許多訪客以行動表態，改去附近較小的畫廊。",
+        "promptZh": "voted with their feet 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors showed their preference by going elsewhere.",
+            "zh": "訪客改去別處，以行動表達偏好。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors stayed and only sent a complaint.",
+            "zh": "訪客留下，只寄出投訴。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors had completed their original booking despite the delay.",
+            "zh": "訪客雖然等候，最後仍完成原來預訂。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors left because the museum had closed for the day.",
+            "zh": "訪客因博物館當天關門而離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們改去另一間畫廊，以選擇表達不滿。"
+      },
+      "reply": {
+        "promptEn": "Why is the neighbourhood café quieter now? When the lunch menu became much smaller, many regulars started eating at the stall across the road instead.",
+        "promptZh": "（這間社區咖啡店現在為何較冷清？午餐選擇大減後，許多熟客改去對面攤檔用餐。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The regulars changed where they ate.",
+            "zh": "熟客改變了用餐地點。"
+          },
+          {
+            "id": "b",
+            "en": "Their absence shows a preference for the other place.",
+            "zh": "他們不再光顧，顯示較喜歡另一處。"
+          },
+          {
+            "id": "c",
+            "en": "The regulars voted with their feet.",
+            "zh": "熟客以去留作選擇。"
+          },
+          {
+            "id": "d",
+            "en": "They chose a different lunch provider.",
+            "zh": "他們改選另一個午餐供應者。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述以轉往別處表達偏好；金句用 vote with their feet。"
+      },
+      "scene": {
+        "promptZh": "健身中心取消早班，會員於是轉到仍提供早班的另一中心。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The members voted with their feet.",
+            "zh": "會員以轉往別處作選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Members complained but continued attending the same centre.",
+            "zh": "會員投訴後，仍繼續在原中心上課。"
+          },
+          {
+            "id": "c",
+            "en": "The early class resumed at the original centre before anyone switched.",
+            "zh": "原中心的早班在有人轉報前已恢復。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "轉投另一中心是可觀察的選擇行動。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不足以支持 vote with their feet？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Diners move to a new restaurant after repeated long waits.",
+            "zh": "食客因屢次久候而轉往新餐廳。"
+          },
+          {
+            "id": "b",
+            "en": "Parents complain about a class time but continue enrolling there.",
+            "zh": "家長投訴上課時間，卻仍繼續報讀。"
+          },
+          {
+            "id": "c",
+            "en": "Viewers stop using one service and switch to a competitor.",
+            "zh": "觀眾停用某服務，轉投競爭者。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有說出不滿，未以去留或改選表態。"
+      },
+      "dialogue": {
+        "promptZh": "老師說：「班上正式舉手投票，就叫 vote with their feet。」你會怎樣解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To vote with their feet, students would leave or choose another class; a raised-hand ballot is different.",
+            "zh": "學生若以去留表態，就會離開或改選另一班；舉手投票是另一回事。"
+          },
+          {
+            "id": "b",
+            "en": "It means all votes must be placed on the floor.",
+            "zh": "它指所有選票必須放在地上。"
+          },
+          {
+            "id": "c",
+            "en": "It requires the voters to walk to a polling station.",
+            "zh": "它要求投票者步行到票站。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這裏的 vote 是比喻性的選擇。"
+      },
+      "speaking": {
+        "en": "When the ferry cut its evening trips, some passengers voted with their feet and took the train instead.",
+        "zh": "渡輪削減晚間班次後，一些乘客以行動表態，改乘火車。",
+        "promptZh": "先聽示範，再說出乘客改用了甚麼交通工具。",
+        "targetSpan": {
+          "start": 54,
+          "end": 75
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心把週末陶藝班由上午改至傍晚。二十名原有學員中，十二人改報另一中心的上午班，其餘八人留下。用英文說明哪一組以選擇表態，不要假稱所有人都離開。",
+        "selfCheckZh": "寫出改班時間、十二人轉報另一中心的上午班、八人仍留下。",
+        "examples": [
+          {
+            "en": "After the pottery class moved to the evening, twelve of twenty students voted with their feet and joined another centre’s morning class; eight stayed.",
+            "zh": "陶藝班改到傍晚後，二十名學員中有十二人以去留表態，轉報另一中心的上午班；八人留下。"
+          },
+          {
+            "en": "Twelve students voted with their feet by switching to a morning pottery class elsewhere, while the other eight kept their places in the evening group.",
+            "zh": "十二名學員轉報別處的上午陶藝班，以行動作選擇；另外八人則留在傍晚班。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twelve of twenty students",
+            "zh": "二十名學員中的十二人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 71
+            }
+          },
+          {
+            "en": "another centre",
+            "zh": "另一中心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 119
+            }
+          },
+          {
+            "en": "morning class",
+            "zh": "上午班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 135
+            }
+          },
+          {
+            "en": "eight stayed",
+            "zh": "八人留下",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 149
+            }
+          },
+          {
+            "en": "switching",
+            "zh": "轉報",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 50
+            }
+          },
+          {
+            "en": "evening group",
+            "zh": "傍晚班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Vote with one’s feet means show a choice by leaving or switching.",
+          "zh": "用去留或轉選來表達選擇。"
+        },
+        {
+          "en": "A complaint alone is not voting with one’s feet.",
+          "zh": "單是口頭投訴，不算以去留表態。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3803",
+      "number": 3803,
+      "inventoryId": "expr-3803",
+      "titleEn": "come back to haunt",
+      "titleZh": "日後反過來造成麻煩",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming)\\s+back\\s+to\\s+haunt\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Return as a later problem or regret after an earlier action seemed over.",
+        "meaningZh": "早前做過的事在日後重新造成問題或令人後悔。",
+        "grammar": "Come back to haunt someone or something; came back for past events. The object names the person, group or organisation later affected.",
+        "register": "Everyday and business commentary; a teammate explains how an ignored accessibility report can affect a later event.",
+        "boundaryZh": "須有早前事件與後來的不利結果的關聯；眼前即時故障或真正幽靈並不是此比喻。",
+        "misconceptionZh": "不是「鬼魂回來」，也不等於任何舊事必定造成後果。",
+        "outcomeZh": "能交代早前做了甚麼、多久後如何反過來造成問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1692",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 159,
+          "book": 14,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 170, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One rude incident can come back to haunt a business.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come back to haunt a business"
+        }
+      ],
+      "listening": {
+        "en": "The club ignored warnings that its ramp was too steep. Months later, that decision came back to haunt it when guests could not reach the award hall.",
+        "zh": "社團忽視斜道太陡的警告。數月後，賓客無法到達頒獎禮堂，當初的決定便反過來造成麻煩。",
+        "promptZh": "came back to haunt it 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An earlier decision created a later problem for the club.",
+            "zh": "早前決定日後為社團帶來問題。"
+          },
+          {
+            "id": "b",
+            "en": "The warning itself stopped guests from using the hall immediately.",
+            "zh": "當初的警告立即令賓客無法使用禮堂。"
+          },
+          {
+            "id": "c",
+            "en": "The club fixed the steep ramp before the event.",
+            "zh": "社團在活動前修好了太陡的斜道。"
+          },
+          {
+            "id": "d",
+            "en": "Guests used another accessible entrance without difficulty.",
+            "zh": "賓客順利使用另一個無障礙入口。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數月前忽視警告，後來令賓客無法進入。"
+      },
+      "reply": {
+        "promptEn": "Why did the school regret deleting the older workshop instructions? Two terms later, new tutors needed them and had no record of the safety steps.",
+        "promptZh": "（學校為何後悔刪除舊工作坊指引？兩個學期後，新導師需要那些指引，卻找不到安全步驟紀錄。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The old deletion caused trouble later.",
+            "zh": "早前刪除文件，後來帶來麻煩。"
+          },
+          {
+            "id": "b",
+            "en": "The missing record now affects the tutors.",
+            "zh": "缺失的紀錄現在影響導師。"
+          },
+          {
+            "id": "c",
+            "en": "Deleting the instructions came back to haunt the school.",
+            "zh": "刪除指引一事日後反過來困擾學校。"
+          },
+          {
+            "id": "d",
+            "en": "The earlier deletion left a later safety gap.",
+            "zh": "早前刪除文件，日後留下安全資料缺口。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均連接早前刪除與後來的困難。"
+      },
+      "scene": {
+        "promptZh": "表演隊去年刪掉排練備份，今年原檔損壞，無法重播重要片段。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The deletion came back to haunt the team.",
+            "zh": "刪除備份一事日後反過來困擾隊伍。"
+          },
+          {
+            "id": "b",
+            "en": "The original file remained available, so no backup was needed.",
+            "zh": "原檔一直可用，因此無需備份。"
+          },
+          {
+            "id": "c",
+            "en": "The team had already restored the missing backup before the file failed.",
+            "zh": "原檔損壞前，隊伍已恢復缺失的備份。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "早前刪除備份，後來失去重播所需資料。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不足以使用 come back to haunt？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An untested change causes complaints six months later.",
+            "zh": "未測試的改動半年後引起投訴。"
+          },
+          {
+            "id": "b",
+            "en": "A lamp breaks today and is repaired immediately, with no later consequence.",
+            "zh": "燈今天壞掉，立即修好，日後沒有影響。"
+          },
+          {
+            "id": "c",
+            "en": "A missing archive becomes a problem at next year’s exhibition.",
+            "zh": "缺失的檔案在明年展覽時造成問題。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有早前行為在日後再造成問題。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「一件舊事只要被提起，就一定 came back to haunt us。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An earlier action comes back to haunt us only if it causes trouble later, not simply when it is mentioned.",
+            "zh": "早前做法只有在日後造成麻煩，才算反過來困擾我們；單是被提起並不足夠。"
+          },
+          {
+            "id": "b",
+            "en": "Any old memory is necessarily harmful.",
+            "zh": "任何舊回憶必定有害。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase requires a supernatural event.",
+            "zh": "這片語必須有超自然事件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是後來的不利後果。"
+      },
+      "speaking": {
+        "en": "We skipped the translation check in spring, and that shortcut came back to haunt us when the autumn guide confused visitors.",
+        "zh": "我們在春季省略了翻譯核對；到了秋季指南令訪客困惑，這個求快的做法便反過來造成麻煩。",
+        "promptZh": "先聽示範，再指出哪項早前省略的工作造成後果。",
+        "targetSpan": {
+          "start": 62,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：樂團兩年前把舊譜的授權電郵刪掉，當時沒出問題。現在準備重錄，卻無法證明有錄音許可，計劃延遲。用英文說明早前做法與後來的影響；不要聲稱有人控告樂團。",
+        "selfCheckZh": "寫出兩年前刪掉授權電郵、現在無法證明錄音許可、重錄延遲、沒有杜撰法律訴訟。",
+        "examples": [
+          {
+            "en": "Deleting the licence email two years ago came back to haunt the orchestra: it cannot now show recording permission, so its new recording is delayed.",
+            "zh": "兩年前刪掉授權電郵一事，如今反過來困擾樂團：樂團現在無法證明錄音許可，因此重錄延遲。"
+          },
+          {
+            "en": "Deleting the permission email two years earlier came back to haunt the orchestra when it prepared to record again; without proof of permission, the project had to wait.",
+            "zh": "樂團兩年前刪掉許可電郵，準備再次錄音時這事反過來造成麻煩；沒有許可證明，計劃只好延後。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "licence email",
+            "zh": "授權電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 26
+            }
+          },
+          {
+            "en": "two years ago",
+            "zh": "兩年前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 40
+            }
+          },
+          {
+            "en": "recording permission",
+            "zh": "錄音許可",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 114
+            }
+          },
+          {
+            "en": "delayed",
+            "zh": "延遲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 147
+            }
+          },
+          {
+            "en": "record again",
+            "zh": "再次錄音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 113
+            }
+          },
+          {
+            "en": "proof of permission",
+            "zh": "許可證明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 142
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Come back to haunt links an earlier action to later trouble.",
+          "zh": "日後反過來造成麻煩，連接早前行為與後來困難。"
+        },
+        {
+          "en": "A harmless memory alone does not come back to haunt someone.",
+          "zh": "單是想起一件無害的舊事，並不足以用這片語。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3812",
+      "number": 3812,
+      "inventoryId": "expr-3812",
+      "titleEn": "scrape by",
+      "titleZh": "勉強維持生活",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bscrap(?:e|es|ed|ing)\\s+by\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Barely manage to live or meet essential costs with limited resources.",
+        "meaningZh": "資源有限，只能勉強維持生活或支付基本開支。",
+        "grammar": "Scrape by; scrapes/scraped/scraping by. Often add on + an amount. It describes narrow survival, not comfort or financial growth.",
+        "register": "Everyday economic discussion; a social worker explains the difference between covering essentials and building savings.",
+        "boundaryZh": "勉強應付基本開支不等於完全無收入，也不等於生活寬裕。",
+        "misconceptionZh": "不是實際擦過物件；也不能把普通節儉自動等同捉襟見肘。",
+        "outcomeZh": "能指出哪些基本開支剛好付得起，以及仍無餘裕的部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1701",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 160,
+          "book": 14,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 171, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Workers should earn enough to live, not just scrape by.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "scrape by"
+        }
+      ],
+      "listening": {
+        "en": "After paying rent and medicine, Amir had only enough for basic groceries. He was scraping by, with nothing left to save.",
+        "zh": "支付租金和藥費後，阿米爾只夠買基本食品。他只是勉強過活，沒有餘錢儲蓄。",
+        "promptZh": "scraping by 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He barely covers essential costs.",
+            "zh": "他只是勉強支付基本開支。"
+          },
+          {
+            "id": "b",
+            "en": "He can save a substantial amount after paying for essentials.",
+            "zh": "支付必需開支後，他仍可儲蓄一筆可觀款項。"
+          },
+          {
+            "id": "c",
+            "en": "He cannot even afford basic groceries after rent and medicine.",
+            "zh": "付完租金和藥費後，他連基本食品也買不起。"
+          },
+          {
+            "id": "d",
+            "en": "He chooses not to save despite having spare money.",
+            "zh": "他有餘錢，卻選擇不儲蓄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能買必需品但無餘錢，屬勉強維持生活。"
+      },
+      "reply": {
+        "promptEn": "How is Leung managing while the shop is closed for repairs? Her temporary wage covers rent and simple meals, but she cannot replace her broken laptop yet.",
+        "promptZh": "（店舖維修停業期間，梁女士的生活如何？臨時工資足夠交租和買簡單餐食，但她暫時無法更換壞掉的手提電腦。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is meeting only the most necessary costs.",
+            "zh": "她只能應付最基本的開支。"
+          },
+          {
+            "id": "b",
+            "en": "Her budget leaves little spare money.",
+            "zh": "她的預算幾乎沒有餘錢。"
+          },
+          {
+            "id": "c",
+            "en": "She is scraping by on the temporary wage.",
+            "zh": "她靠臨時工資勉強過活。"
+          },
+          {
+            "id": "d",
+            "en": "She can manage essentials but not the replacement.",
+            "zh": "她能應付必需品，卻無力換電腦。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指能應付基本開支，但幾乎沒有餘裕。"
+      },
+      "scene": {
+        "promptZh": "實習生能付宿舍費和簡單食物，卻沒有任何額外預算。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The intern is scraping by.",
+            "zh": "實習生正勉強維持生活。"
+          },
+          {
+            "id": "b",
+            "en": "The intern can also afford optional weekend travel.",
+            "zh": "實習生還負擔得起非必需的週末旅行。"
+          },
+          {
+            "id": "c",
+            "en": "The intern cannot cover dorm fees or food at all.",
+            "zh": "實習生連宿舍費和食物費也完全無法支付。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基本生活剛好維持，沒有額外預算。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不足以說 scrape by？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A worker pays only essentials and cannot save.",
+            "zh": "工人只能付基本開支，無法儲蓄。"
+          },
+          {
+            "id": "b",
+            "en": "A family has a large monthly surplus and takes optional holidays.",
+            "zh": "家庭每月有大量盈餘，還可自選度假。"
+          },
+          {
+            "id": "c",
+            "en": "A student can cover food and travel but nothing unexpected.",
+            "zh": "學生只負擔得起食物和交通，無力應付突發開支。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "有大量盈餘，並非勉強過活。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「scrape by 就是完全沒有收入。」你怎樣解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People can scrape by on a small income while barely covering essentials.",
+            "zh": "人們可以靠微薄收入勉強過活，只能應付基本開支。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase always means zero income.",
+            "zh": "這片語一定表示零收入。"
+          },
+          {
+            "id": "c",
+            "en": "It means spending freely on luxuries.",
+            "zh": "它表示可隨意購買奢侈品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是生活剛好維持，而不是收入必為零。"
+      },
+      "speaking": {
+        "en": "The grant let the music club scrape by for one more term, but it did not pay for new instruments.",
+        "zh": "資助讓音樂社勉強再維持一學期，但不足以購買新樂器。",
+        "promptZh": "先聽示範，再指出資助未能支付甚麼。",
+        "targetSpan": {
+          "start": 29,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型社區電台每月捐款剛好支付租金、電費與最基本的設備維修；沒有餘款買新咪高峰。用英文描述目前情況，並說明哪一項開支仍無法支付。",
+        "selfCheckZh": "寫出捐款剛好支付租金、電費及基本維修，仍買不起新咪高峰。",
+        "examples": [
+          {
+            "en": "The station is scraping by on monthly donations: they cover rent, electricity and basic repairs, but not a new microphone.",
+            "zh": "電台靠每月捐款勉強維持：捐款足夠支付租金、電費和基本維修，卻買不起新咪高峰。"
+          },
+          {
+            "en": "Monthly gifts let the community station scrape by with its rent, power bill and essential repairs; there is nothing left for a new microphone.",
+            "zh": "每月捐款讓社區電台勉強應付租金、電費和基本維修；已沒有餘款購買新咪高峰。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "monthly donations",
+            "zh": "每月捐款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 47
+            }
+          },
+          {
+            "en": "electricity",
+            "zh": "電費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 77
+            }
+          },
+          {
+            "en": "basic repairs",
+            "zh": "基本維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "microphone",
+            "zh": "咪高峰",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 121
+            }
+          },
+          {
+            "en": "power bill",
+            "zh": "電費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 65,
+              "end": 75
+            }
+          },
+          {
+            "en": "essential repairs",
+            "zh": "基本維修",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Scrape by means manage essentials with little or no spare money.",
+          "zh": "勉強維持生活，指只能應付基本開支，幾乎沒有餘裕。"
+        },
+        {
+          "en": "Scraping by does not mean having no income at all.",
+          "zh": "勉強過活不等於完全沒有收入。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3826",
+      "number": 3826,
+      "inventoryId": "expr-3826",
+      "titleEn": "put plans on hold",
+      "titleZh": "暫時擱置計劃",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bput(?:ting|s)?\\s+(?:(?:those|the|their|our|my|his|her|its|your)\\s+)?plans\\s+on\\s+hold\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pause intended actions temporarily rather than carry them out now or abandon them permanently.",
+        "meaningZh": "暫時不執行原定計劃，並非當下實行或必然永久取消。",
+        "grammar": "Put plans on hold; put is both base and past form, putting is progressive. Possessive or determiner before plans changes with owner.",
+        "register": "Everyday planning; a family explains why a garden project must wait until repairs finish.",
+        "boundaryZh": "暫緩不保證日後一定重啟；但也不能直接解讀為永遠取消。",
+        "misconceptionZh": "不是把紙張實際放到架上，也不是表示計劃已完成。",
+        "outcomeZh": "能說出原定計劃、暫緩原因及目前尚未作出的決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1715",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 162,
+          "book": 14,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "High costs meant putting those plans on hold.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "putting those plans on hold"
+        }
+      ],
+      "listening": {
+        "en": "The community choir planned an outdoor concert, but the park was closed for repairs. It put those plans on hold until the venue reopened.",
+        "zh": "社區合唱團原打算舉辦戶外音樂會，但公園因維修關閉。合唱團暫時擱置計劃，等待場地重開。",
+        "promptZh": "put those plans on hold 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The concert plan was paused for now.",
+            "zh": "音樂會計劃目前暫緩。"
+          },
+          {
+            "id": "b",
+            "en": "The concert went ahead in the park before repairs ended.",
+            "zh": "公園維修完成前，音樂會已如期舉行。"
+          },
+          {
+            "id": "c",
+            "en": "The choir permanently abandoned all concerts after the closure.",
+            "zh": "公園關閉後，合唱團永久放棄所有音樂會。"
+          },
+          {
+            "id": "d",
+            "en": "The choir moved the concert indoors on the original date.",
+            "zh": "合唱團在原定日期改於室內演出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地維修令原定活動暫緩，並非已完成或永久放棄。"
+      },
+      "reply": {
+        "promptEn": "Will the robotics club visit the factory next month? The factory cannot host visitors while safety work is under way. The club will discuss a new date once it reopens.",
+        "promptZh": "（機械人學會下月會參觀工廠嗎？工廠進行安全工程期間不能接待訪客；重開後學會會討論新日期。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visit is paused while the work continues.",
+            "zh": "工程期間參觀暫緩。"
+          },
+          {
+            "id": "b",
+            "en": "The club will consider another date after reopening.",
+            "zh": "重開後學會會考慮另一日期。"
+          },
+          {
+            "id": "c",
+            "en": "The club has put its plans on hold.",
+            "zh": "學會已暫時擱置計劃。"
+          },
+          {
+            "id": "d",
+            "en": "The original timing no longer works, but a later visit is possible.",
+            "zh": "原定時間不可行，但日後仍可能參觀。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明暫緩，未說永久取消。"
+      },
+      "scene": {
+        "promptZh": "畫展原定五月開幕，空調維修期間暫不展出，修好後再商議日期。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The gallery put its plans on hold.",
+            "zh": "畫廊暫時擱置計劃。"
+          },
+          {
+            "id": "b",
+            "en": "The exhibition opened in May as originally advertised.",
+            "zh": "展覽如原先公布般在五月開幕。"
+          },
+          {
+            "id": "c",
+            "en": "The gallery has confirmed it will never hold this exhibition.",
+            "zh": "畫廊已確定永不舉辦這個展覽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "維修使安排暫緩，並未決定永久取消。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 put plans on hold？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trip is postponed until the bridge reopens.",
+            "zh": "旅程延至橋樑重開後。"
+          },
+          {
+            "id": "b",
+            "en": "A team pauses rehearsal while the hall is repaired.",
+            "zh": "團隊在禮堂維修期間暫停綵排。"
+          },
+          {
+            "id": "c",
+            "en": "An organiser completes the event on schedule.",
+            "zh": "主辦者如期完成活動。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "如期完成，不是暫緩計劃。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「on hold 一定代表永久取消。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Putting plans on hold means pausing them for now; resumption is a separate question.",
+            "zh": "暫時擱置計劃是目前停一停；日後會否重啟，要另作判斷。"
+          },
+          {
+            "id": "b",
+            "en": "It means the event already took place.",
+            "zh": "它表示活動已舉行。"
+          },
+          {
+            "id": "c",
+            "en": "It means the printed plan is on a shelf.",
+            "zh": "它表示印好的計劃書放在架上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "暫時擱置與永久取消是兩種不同結果。"
+      },
+      "speaking": {
+        "en": "We put our plans on hold when the rehearsal room closed, and we will review dates after the repairs.",
+        "zh": "排練室關閉後，我們暫時擱置計劃，待維修完成再檢討日期。",
+        "promptZh": "先聽示範，再說出何時會檢討日期。",
+        "targetSpan": {
+          "start": 3,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館原定四月辦夜間讀書會，但照明工程延至五月才完成。職員暫不開放報名，會在五月檢討新日期，尚未保證活動必定舉行。用英文解釋目前決定。",
+        "selfCheckZh": "寫出四月讀書會暫緩、原因是照明工程、五月再檢討，沒有假稱已保證重開。",
+        "examples": [
+          {
+            "en": "The library has put its plans on hold for an April evening reading club because lighting work continues; staff will review a new date in May.",
+            "zh": "照明工程仍在進行，因此圖書館暫時擱置四月夜間讀書會計劃；職員會在五月檢討新日期。"
+          },
+          {
+            "en": "Staff put their plans on hold and paused registration for the evening club. They will reconsider its date after the lighting work ends in May, without promising that it will run.",
+            "zh": "職員暫時擱置計劃，並暫停夜間讀書會報名；五月照明工程完成後會重新考慮日期，但尚未保證舉行。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "April evening reading club",
+            "zh": "四月夜間讀書會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 71
+            }
+          },
+          {
+            "en": "lighting work",
+            "zh": "照明工程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 93
+            }
+          },
+          {
+            "en": "review a new date",
+            "zh": "檢討新日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 133
+            }
+          },
+          {
+            "en": "in May",
+            "zh": "五月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 140
+            }
+          },
+          {
+            "en": "paused registration",
+            "zh": "暫停報名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 53
+            }
+          },
+          {
+            "en": "without promising",
+            "zh": "沒有保證",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Put plans on hold means pause them for now.",
+          "zh": "暫時擱置計劃，指目前不執行。"
+        },
+        {
+          "en": "Putting plans on hold neither guarantees resumption nor proves permanent cancellation.",
+          "zh": "暫時擱置計劃既不保證重啟，也不代表已永久取消。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

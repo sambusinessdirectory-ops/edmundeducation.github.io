@@ -1,0 +1,26 @@
+{
+  "reviewType": "independent-exact-hash-selected-source-originality-followup",
+  "authorReport": "course-materials/advanced-native/reviews-books10-16/author-repair-selected-fuzzy-14-root.json",
+  "authorReportSha256": "46601e851da0c6d653f3ed58e0268e7701240fc989c1159be836d39ccab23a04",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "two-minor-wording-repairs",
+  "exactDraftHashesVerified": true,
+  "reviewedFields": [
+    {"lesson": 2414, "fields": ["scene.options[0]", "takeaways[0]", "writing.examples[0]"], "status": "pass", "reason": "The merchant's concealment, official's betrayal and fundraiser's theft are concrete human actions rather than source fiction-media paraphrases; bilingual meanings and key remain grounded."},
+    {"lesson": 2711, "fields": ["takeaways[0]"], "status": "pass", "reason": "Journey time is a distinct comparison from the guide's cheaper-plan value criterion; Chinese preserves slight advantage."},
+    {"lesson": 2853, "fields": ["listening"], "status": "pass", "reason": "The flawed inference from mismatched classes is a concrete new case; the keyed option remains supported and bilingual."},
+    {"lesson": 3006, "fields": ["takeaways[1]"], "status": "minor-wording", "reason": "The public-launch consequence differs from the source, but the conditional 'If the device fails ... more is riding on it' leaves 'it' weakly anchored and puts stakes on the failure instead of the device's performance."},
+    {"lesson": 3046, "fields": ["takeaways[0]"], "status": "minor-wording", "reason": "Cave mapping is a genuinely different research example and Chinese matches; 'the boundaries of understanding of the island's geology' is clumsy English."},
+    {"lesson": 3092, "fields": ["takeaways[0]"], "status": "pass", "reason": "Shelter visit and changed view of stray dogs replace the generic source frame with a specific before/after; Chinese preserves reversal."},
+    {"lesson": 3113, "fields": ["dialogue.options[0]"], "status": "pass", "reason": "The exact ten refund requests are in the prompt, so the keyed reply is grounded and distinct from the source's generic question frame."},
+    {"lesson": 3162, "fields": ["scene.options[0]"], "status": "pass", "reason": "Repeated website failures are a new stressor and are explicitly supplied in the scene; English and Chinese agree."},
+    {"lesson": 3176, "fields": ["listening", "reply.options[2]"], "status": "pass", "reason": "Repair-team criticism and responding to feedback replace the source's close-game context; audio/key and bilingual advice remain aligned."},
+    {"lesson": 3280, "fields": ["listening"], "status": "pass", "reason": "Skipped safety check and projector damage are a new failure; the audio supports avoidance and the answer key without copying the source apology sentence."},
+    {"lesson": 3329, "fields": ["listening"], "status": "pass", "reason": "Lab technicians, equipment repair and open-day shifts are distinct from the source parents' workload; bilingual narration and key remain coherent."}
+  ],
+  "findings": [
+    {"id": "F3006-01", "severity": "minor", "path": "lessons[number=3006].takeaways[1].en/zh", "issue": "The revised conditional leaves 'it' weakly anchored and says a lot more is riding on it if the device fails, although the intended stakes concern the public launch/device's performance.", "suggestedRepair": "For example, 'At the public launch, a lot more is riding on the device's performance than at a staff rehearsal.' Align Traditional Chinese."},
+    {"id": "F3046-01", "severity": "minor", "path": "lessons[number=3046].takeaways[0].en", "issue": "'Push the boundaries of understanding of the island's geology' has an awkward double-of chain.", "suggestedRepair": "Use 'push the boundaries of our understanding of the island's geology' or similarly natural wording; retain the limitation and Chinese meaning."}
+  ],
+  "limits": "All 14 rewritten fields were checked for source differentiation and local semantic/translation/key effects at the exact author-reported hashes. This is not human sign-off, audio clearance, manifest selection or publication approval."
+}

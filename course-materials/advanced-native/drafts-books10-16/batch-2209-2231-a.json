@@ -834,7 +834,7 @@
         }
       ],
       "listening": {
-        "en": "At first the museum entrance was packed, but the crowd began to thin out after the school groups left.",
+        "en": "After the school groups left the packed museum entrance, the crowd thinned out.",
         "zh": "博物館入口起初擠滿人，但學校團體離開後，人群開始逐漸散去。",
         "promptZh": "學校團體離開後，入口的人群有甚麼變化？",
         "options": [
@@ -1063,7 +1063,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2231",

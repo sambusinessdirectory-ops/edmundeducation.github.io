@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3702",
+      "number": 3702,
+      "inventoryId": "expr-3702",
+      "titleEn": "a solution in search of a problem",
+      "titleZh": "為不存在的問題硬找解方",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba solution in search of a problem\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An elaborate answer or invention for which no real need has been established.",
+        "meaningZh": "一套精巧的解法或發明，卻沒有可證實的實際問題需要它解決。",
+        "grammar": "A solution in search of a problem is a noun phrase, often after seem/look like; the paradox reverses the normal order of problem then solution.",
+        "register": "Wry, critical conversational English. A project member might use it with colleagues after checking users’ actual needs.",
+        "boundaryZh": "新工具不等於多餘；要先核實沒有真實痛點，才可作此批評。",
+        "misconceptionZh": "不表示發明本身一定不能運作，而是它缺乏值得解決的問題。",
+        "outcomeZh": "能以使用者需要與成本證據判斷方案是否缺乏問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1591",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 149,
+          "book": 14,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The elaborate gadget felt like a solution in search of a problem.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a solution in search of a problem"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The office proposed a costly dashboard for tracking two monthly visitor queries. Staff already answer both by email on the same day. Without a recurring delay to fix, the dashboard feels like a solution in search of a problem.",
+        "zh": "辦公室提議購買昂貴儀表板，追蹤每月兩宗訪客查詢；員工現時已在當天用電郵答覆。既沒有反覆延誤要解決，儀表板便像為不存在的問題硬找解方。",
+        "promptZh": "為何講者質疑儀表板？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The current two queries are already answered promptly, so no unmet need is shown.",
+            "zh": "現有兩宗查詢已及時處理，未見未解決的需要。"
+          },
+          {
+            "id": "b",
+            "en": "A dashboard could never display visitor queries.",
+            "zh": "儀表板根本不可能顯示訪客查詢。"
+          },
+          {
+            "id": "c",
+            "en": "The office has been banned from using email.",
+            "zh": "辦公室已被禁止使用電郵。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors have requested a more expensive dashboard.",
+            "zh": "訪客已要求更昂貴的儀表板。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "現有做法已解決小量查詢；昂貴工具缺乏實際問題。"
+      },
+      "reply": {
+        "promptEn": "The club wants to buy a sensor that texts everyone whenever its single storage cupboard opens. The cupboard is used once a week, and the key log already records access. Why might a member question the purchase?",
+        "promptZh": "（社團想買感應器，只要唯一的儲物櫃一打開便傳訊給所有人。櫃子每週只用一次，現有鑰匙紀錄已記下出入。社員為何可能質疑購買？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The present log already records who opens the cupboard.",
+            "zh": "現有紀錄已記下誰打開櫃子。"
+          },
+          {
+            "id": "b",
+            "en": "The extra alerts would add a cost for a rarely used cupboard.",
+            "zh": "甚少使用的櫃子若增設通知，會增加成本。"
+          },
+          {
+            "id": "c",
+            "en": "The sensor looks like a solution in search of a problem.",
+            "zh": "這個感應器看來是為不存在的問題硬找解方。"
+          },
+          {
+            "id": "d",
+            "en": "They could check whether any access has actually gone unrecorded first.",
+            "zh": "他們可先查查是否真的有出入沒有被記錄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都由現有紀錄與使用頻率出發；金句概括缺乏真實痛點。"
+      },
+      "scene": {
+        "promptZh": "市集已用紙本號碼牌順利處理每天十位領取者，有人提出昂貴的生物辨識排隊機，卻拿不出漏派或長候證據。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The machine seems like a solution in search of a problem until a real queue failure is shown.",
+            "zh": "在證實排隊問題前，機器看來只是為不存在的問題硬找解方。"
+          },
+          {
+            "id": "b",
+            "en": "The machine is essential because all technology is more secure than a numbered ticket.",
+            "zh": "機器必需，因為任何科技都比號碼牌安全。"
+          },
+          {
+            "id": "c",
+            "en": "The current ticket system has already failed every day.",
+            "zh": "現有號碼牌制度每天都失效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原做法運作順利，而提案未證明有待解決的問題。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合稱為 a solution in search of a problem？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Residents repeatedly miss medicine pickups, and a tested reminder system substantially reduces misses.",
+            "zh": "居民反覆錯過取藥，經測試的提醒系統明顯減少漏領。"
+          },
+          {
+            "id": "b",
+            "en": "A costly app replaces a reliable two-line notice for an event held once a year.",
+            "zh": "昂貴程式取代每年只辦一次活動原本可靠的兩行通知。"
+          },
+          {
+            "id": "c",
+            "en": "A new scanner is bought before anyone checks whether documents are being misplaced.",
+            "zh": "未查核文件是否遺失，便先購買新掃描器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有反覆且已驗證的實際問題，解法便不是硬找用途。"
+      },
+      "dialogue": {
+        "promptEn": "A: The garden committee wants automated alerts for watering, but volunteers already check the beds daily and have recorded no missed days. B: ______",
+        "promptZh": "（甲：花園委員會想設自動澆水通知，但義工每天都檢查花圃，紀錄中沒有一天漏做。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That may be a solution in search of a problem; let us check for a real gap first.",
+            "zh": "這可能是為不存在的問題硬找解方；先查核是否真有漏洞吧。"
+          },
+          {
+            "id": "b",
+            "en": "The daily log is useful evidence before we spend money.",
+            "zh": "花錢前，每日紀錄是有用證據。"
+          },
+          {
+            "id": "c",
+            "en": "We can ask volunteers whether the current check is burdensome.",
+            "zh": "我們可問義工現有檢查是否帶來負擔。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句先看實際問題是否存在，沒有武斷否定工具本身。"
+      },
+      "speaking": {
+        "en": "A clinic proposed a second booking portal, but staff found no missed appointments in the existing phone log; without a demonstrated gap, it sounded like a solution in search of a problem.",
+        "zh": "診所提議設第二個預約網站，但員工在現有電話紀錄找不到漏約；沒有證實漏洞，這就像為不存在的問題硬找解方。",
+        "promptZh": "指出新方案、現有證據，以及尚未證實的問題。",
+        "targetSpan": {
+          "start": 153,
+          "end": 186
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項提案各帶來成本或工作量，卻未先證明現行方式有漏洞。用英文寫出查核結果與較合理的下一步。",
+        "selfCheckZh": "兩例須有具體現行做法與證據；不可只因方案新穎便斷言多餘。",
+        "examples": [
+          {
+            "en": "The museum considered a face-recognition kiosk for its three weekly volunteers, but a signed roster already tracks every shift; it would be a solution in search of a problem until a missing shift is documented.",
+            "zh": "博物館考慮為每週三名義工裝人臉辨識終端機，但簽名值班表已記錄每次輪班；在證實有缺班前，這只是為不存在的問題硬找解方。"
+          },
+          {
+            "en": "A delivery team proposed live tracking for its single daily parcel, yet the receipt book showed every handover on time; a paid tracker looked like a solution in search of a problem, so the team first asked customers about any hidden delays.",
+            "zh": "送貨隊提議為每天唯一一件包裹設即時追蹤，但收據簿顯示每次交接都準時；付費追蹤器看來缺乏實際問題，因此團隊先問客戶有沒有未被發現的延誤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a signed roster",
+            "zh": "簽名值班表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 99
+            }
+          },
+          {
+            "en": "a missing shift",
+            "zh": "缺班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 180,
+              "end": 195
+            }
+          },
+          {
+            "en": "the receipt book",
+            "zh": "收據簿",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 88
+            }
+          },
+          {
+            "en": "every handover on time",
+            "zh": "每次交接都準時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 118
+            }
+          },
+          {
+            "en": "hidden delays",
+            "zh": "未被發現的延誤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 226,
+              "end": 239
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A solution in search of a problem lacks a demonstrated unmet need.",
+          "zh": "a solution in search of a problem 指缺乏已證實的未滿足需要。"
+        },
+        {
+          "en": "Before calling a tool a solution in search of a problem, check the existing process.",
+          "zh": "批評工具是為不存在的問題硬找解方前，先查核現行做法。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3706",
+      "number": 3706,
+      "inventoryId": "expr-3706",
+      "titleEn": "ahead of its time",
+      "titleZh": "超前於當時",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bahead of its time\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "More advanced than the surrounding period is ready to understand, support or adopt; it may later prove influential.",
+        "meaningZh": "構思超前於當時環境所能理解、支援或接受的程度；日後可能獲得肯定。",
+        "grammar": "Ahead of its time follows a singular design, idea or work; its refers to that work, and time means the era rather than clock time.",
+        "register": "Neutral evaluative English. A design historian may say it to visitors when comparing early and later adoption.",
+        "boundaryZh": "當時不流行不一定代表超前；須有後來被接受的先進特點或當時欠缺配套。",
+        "misconceptionZh": "不等於設計必然完美，也不是比預定時間早完成。",
+        "outcomeZh": "能指出當時的限制與後來使構想可行的改變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1595",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 150,
+          "book": 14,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The design may have been ahead of its time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ahead of its time"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "In 1998, an engineer built a portable sign that updated bus arrivals over a wireless network. The local network could not cover bus stops then; decades later, similar signs became common. Her prototype was ahead of its time.",
+        "zh": "一九九八年，一位工程師做了以無線網絡更新巴士到站時間的流動顯示牌。當時本地網絡尚未覆蓋巴士站；數十年後類似顯示牌才普及。她的原型可說超前於當時。",
+        "promptZh": "為何原型當時未普及？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The wireless coverage needed at bus stops was not yet available.",
+            "zh": "巴士站當時未有足夠無線網絡覆蓋。"
+          },
+          {
+            "id": "b",
+            "en": "The engineer never built a working prototype.",
+            "zh": "工程師根本沒有製成可用原型。"
+          },
+          {
+            "id": "c",
+            "en": "Similar signs had already been common for decades before 1998.",
+            "zh": "一九九八年之前，類似顯示牌已普及數十年。"
+          },
+          {
+            "id": "d",
+            "en": "Bus arrivals did not need any information at all.",
+            "zh": "巴士到站完全不需要任何資訊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "構想具先進功能，但當時的網絡配套不足。"
+      },
+      "reply": {
+        "promptEn": "An early electronic score sheet gave instant results, but the school could not afford enough tablets at the time. Now the same method is routine. How would you describe that early design?",
+        "promptZh": "（早期電子計分表可即時顯示成績，但學校當年買不起足夠平板電腦。如今同樣方法已很普遍。你會怎樣形容早期設計？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its main idea became practical when the devices became affordable.",
+            "zh": "裝置價格變得可負擔後，核心構想才實用。"
+          },
+          {
+            "id": "b",
+            "en": "The school lacked the equipment then, though the method was promising.",
+            "zh": "當年學校欠缺設備，但方法已有前景。"
+          },
+          {
+            "id": "c",
+            "en": "The design was ahead of its time because its supporting equipment arrived later.",
+            "zh": "設計超前於當時，因為配套設備其後才普及。"
+          },
+          {
+            "id": "d",
+            "en": "The recent use shows the idea eventually found a setting.",
+            "zh": "近年的使用顯示構想終於找到可行環境。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以當時缺設備、後來普及為據；金句概括時間落差。"
+      },
+      "scene": {
+        "promptZh": "一九八○年代的觸控地圖可讓旅客選路線，但當時螢幕昂貴又易損；今日類似功能已在車站普及。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The map was ahead of its time, although the early hardware limited adoption.",
+            "zh": "地圖構想超前於當時，但早期硬件限制了普及。"
+          },
+          {
+            "id": "b",
+            "en": "The map was late because it took longer than one hour to draw.",
+            "zh": "地圖因繪畫超過一小時而遲到。"
+          },
+          {
+            "id": "c",
+            "en": "The modern maps prove the early screens never existed.",
+            "zh": "現代地圖證明早期螢幕根本不存在。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "當時技術與成本未能支援，後來同類構想才普及。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 ahead of its time？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A poster used ordinary techniques and was ignored because the date was printed incorrectly.",
+            "zh": "海報只用一般技術，卻因日期印錯而無人理會。"
+          },
+          {
+            "id": "b",
+            "en": "An early interface anticipated a feature later used widely when hardware improved.",
+            "zh": "早期介面預見了硬件改善後廣泛使用的功能。"
+          },
+          {
+            "id": "c",
+            "en": "A prototype proposed a useful method before the required infrastructure existed.",
+            "zh": "原型提出有用方法時，必要基建尚未存在。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "印錯日期造成失敗，不是構想超前。"
+      },
+      "dialogue": {
+        "promptEn": "A: That folding solar lamp barely sold when it first appeared; batteries were heavy then, but recent light batteries have made the same idea useful. B: ______",
+        "promptZh": "（甲：那款摺疊太陽能燈初推出時幾乎賣不出；當時電池很重，如今輕電池令同一構想變得實用。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds ahead of its time: the idea was there before the batteries caught up.",
+            "zh": "看來是超前於當時：構想先出現，電池配套後來才跟上。"
+          },
+          {
+            "id": "b",
+            "en": "The older batteries explain why people hesitated.",
+            "zh": "舊電池解釋了人們當時為何猶豫。"
+          },
+          {
+            "id": "c",
+            "en": "Its usefulness changed as the supporting technology improved.",
+            "zh": "隨配套技術改進，它的實用性也改變了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句連結早期構想與後來配套成熟。"
+      },
+      "speaking": {
+        "en": "The first tactile museum label was ahead of its time only if it anticipated later accessible displays; we should compare its design with what museums use now.",
+        "zh": "最早的觸感展品標籤只有確實預示日後無障礙展示，才可說超前於當時；我們應比較其設計與今天博物館的做法。",
+        "promptZh": "提出當時設計、後來發展及評價所需的比較證據。",
+        "targetSpan": {
+          "start": 35,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項早期設計因當時配套不足未被採用，後來相同核心想法變得可行。用英文寫出早期限制與後來變化。",
+        "selfCheckZh": "兩例須有先進特點、當時具體限制及後來採納線索；不能把普通失誤當成超前。",
+        "examples": [
+          {
+            "en": "A 1970s classroom recorder that let pupils replay instructions was ahead of its time: tapes were costly then, but cheap digital storage later made replay routine.",
+            "zh": "一九七○年代有一款讓學生重聽指示的課室錄音機，構想超前於當時：錄音帶當年昂貴，後來廉價數碼儲存令重聽變得普遍。"
+          },
+          {
+            "en": "The architect’s modular stall system was ahead of its time because local rules once barred movable structures; after those rules changed, several markets adopted similar units.",
+            "zh": "建築師的組合式攤位系統超前於當時，因本地規例曾禁止可移動結構；規例改變後，多個市集採用類似單位。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "replay instructions",
+            "zh": "重聽指示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 62
+            }
+          },
+          {
+            "en": "cheap digital storage",
+            "zh": "廉價數碼儲存",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 135
+            }
+          },
+          {
+            "en": "modular stall system",
+            "zh": "組合式攤位系統",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 36
+            }
+          },
+          {
+            "en": "movable structures",
+            "zh": "可移動結構",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 109
+            }
+          },
+          {
+            "en": "similar units",
+            "zh": "類似單位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 162,
+              "end": 175
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Ahead of its time compares a design with the era that first received it.",
+          "zh": "ahead of its time 是比較設計與它首次出現的年代。"
+        },
+        {
+          "en": "Later adoption helps show why an idea was ahead of its time; early rejection alone does not.",
+          "zh": "後來被採納有助說明構想為何超前於當時；單是早期受冷落並不足夠。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3708",
+      "number": 3708,
+      "inventoryId": "expr-3708",
+      "titleEn": "make a big splash",
+      "titleZh": "初推出時引起轟動",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making) a big splash\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attract substantial public attention, especially when first appearing; it does not guarantee enduring success.",
+        "meaningZh": "尤其在初次亮相時吸引大量公眾注意；不保證長遠成功。",
+        "grammar": "Make a big splash is a verb phrase; subject may be a product, performer or campaign. Make inflects for tense. The splash is figurative attention, not water.",
+        "register": "Informal media or marketing English. A launch organiser might use it with colleagues while judging first-week response.",
+        "boundaryZh": "要有較大關注的證據；少數熟人稱讚不足以說引起轟動，也不能由首日熱度推斷長期成效。",
+        "misconceptionZh": "不是把水濺得很大，也不等於銷量必然持續。",
+        "outcomeZh": "能分清初期曝光與持久成果，並指出關注的證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1597",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 150,
+          "book": 14,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The product may make a big splash at launch.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make a big splash"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At Saturday’s repair fair, local radio mentioned the opening twice, hundreds queued for workshops, and photos spread online. It made a big splash, though later attendance is still unknown.",
+        "zh": "星期六的維修市集開幕時，本地電台兩度報道，數百人排隊參加工作坊，照片也在網上流傳。它引起轟動，但之後的人流仍未知。",
+        "promptZh": "甚麼支持「開幕時引起轟動」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Radio coverage, queues and online sharing show broad early attention.",
+            "zh": "電台報道、排隊與網上分享顯示初期關注廣泛。"
+          },
+          {
+            "id": "b",
+            "en": "The team already knows attendance will stay high for years.",
+            "zh": "團隊已知道人流未來多年都會維持高水平。"
+          },
+          {
+            "id": "c",
+            "en": "Only the organisers heard about the fair.",
+            "zh": "只有主辦者聽說過市集。"
+          },
+          {
+            "id": "d",
+            "en": "The workshops were cancelled before visitors arrived.",
+            "zh": "訪客到來前所有工作坊已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多種可觀察的初期反應支持「引起轟動」，不證明長期成功。"
+      },
+      "reply": {
+        "promptEn": "A new student podcast received thousands of plays in its first week, several clubs discussed it, and the school paper interviewed the hosts. What happened at launch?",
+        "promptZh": "（新學生播客首週有數千次播放，幾個社團討論它，校報也訪問主持。推出時出現甚麼情況？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reached many listeners immediately.",
+            "zh": "它即時接觸到很多聽眾。"
+          },
+          {
+            "id": "b",
+            "en": "The hosts drew attention beyond their own class.",
+            "zh": "主持吸引了本班以外的關注。"
+          },
+          {
+            "id": "c",
+            "en": "The podcast made a big splash when it launched.",
+            "zh": "播客推出時引起了轟動。"
+          },
+          {
+            "id": "d",
+            "en": "Its first-week attention reached the school paper as well as several clubs.",
+            "zh": "它首週引起的關注除了幾個社團，也傳到校報。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合首週大量關注；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "新展覽開幕當日吸引長龍、兩家報章報道，雖然之後的參觀數仍未知。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition made a big splash on opening day.",
+            "zh": "展覽開幕當日引起轟動。"
+          },
+          {
+            "id": "b",
+            "en": "The exhibition is certain to remain popular for ten years.",
+            "zh": "展覽未來十年必定持續受歡迎。"
+          },
+          {
+            "id": "c",
+            "en": "The reporters were only discussing a water leak.",
+            "zh": "記者只是在討論漏水。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有強烈初期關注，但不能推斷十年後。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 make a big splash？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Three relatives complimented a private prototype, and nobody else has seen it.",
+            "zh": "三名親戚稱讚私人原型，其他人尚未見過。"
+          },
+          {
+            "id": "b",
+            "en": "A debut video was widely shared and covered by several news outlets.",
+            "zh": "首支影片廣泛轉載，也獲多家新聞機構報道。"
+          },
+          {
+            "id": "c",
+            "en": "A new performance drew a large crowd and immediate press attention.",
+            "zh": "新表演即時吸引大批觀眾和媒體關注。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "親友小範圍稱讚，不等於面向公眾的轟動。"
+      },
+      "dialogue": {
+        "promptEn": "A: The community science show sold out its first three sessions, and reporters photographed the queue. B: ______",
+        "promptZh": "（甲：社區科學表演首三場售罄，記者還拍攝排隊人潮。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has made a big splash so far; let us see whether the later sessions stay busy.",
+            "zh": "目前它已引起轟動；我們再看看之後場次能否保持熱度。"
+          },
+          {
+            "id": "b",
+            "en": "The early bookings and coverage give us a strong start.",
+            "zh": "早期預訂和報道令我們有好開始。"
+          },
+          {
+            "id": "c",
+            "en": "We should measure repeat attendance before claiming lasting success.",
+            "zh": "聲稱長期成功前，應量度回流觀眾。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句恰當說初期熱度，並保留長遠成效的疑問。"
+      },
+      "speaking": {
+        "en": "The first issue of the youth magazine made a big splash when its launch reading filled the hall and local papers ran interviews; the editors will track later subscriptions separately.",
+        "zh": "青年雜誌創刊號的發佈朗讀會坐滿禮堂，本地報章亦刊登訪問，因此初推出時引起轟動；編輯會另行追蹤之後的訂閱情況。",
+        "promptZh": "指出首發關注證據，也別把初期熱度當作長期成果。",
+        "targetSpan": {
+          "start": 38,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項新活動初次亮相時受到廣泛注意。用英文寫出當時的證據，並區分後續成果。",
+        "selfCheckZh": "兩例須有公眾關注而非親友稱讚；不能把首日反應當成必然長久成功。",
+        "examples": [
+          {
+            "en": "The accessibility map made a big splash when its first release was shared by several neighbourhood groups, but the council will still test whether residents keep using it.",
+            "zh": "無障礙地圖首版被數個社區團體轉載，因而引起轟動；議會仍會測試居民是否持續使用。"
+          },
+          {
+            "en": "A new dance workshop made a big splash at the festival after its queue filled the courtyard and local television filmed the opening; future enrolment remains uncertain.",
+            "zh": "新舞蹈工作坊在節日引起轟動：排隊人潮擠滿庭院，本地電視台也拍攝開幕；未來報名情況仍未確定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its first release",
+            "zh": "首版",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "neighbourhood groups",
+            "zh": "社區團體",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 105
+            }
+          },
+          {
+            "en": "residents keep using it",
+            "zh": "居民持續使用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 170
+            }
+          },
+          {
+            "en": "the courtyard",
+            "zh": "庭院",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 91
+            }
+          },
+          {
+            "en": "future enrolment",
+            "zh": "未來報名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Make a big splash describes attention at an appearance or launch.",
+          "zh": "make a big splash 描述亮相或推出時引起的關注。"
+        },
+        {
+          "en": "A campaign can make a big splash without proving lasting use.",
+          "zh": "宣傳活動可在初期引起轟動，卻未證明有人持續使用。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3715",
+      "number": 3715,
+      "inventoryId": "expr-3715",
+      "titleEn": "move with the times",
+      "titleZh": "與時並進",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:move|moves|moved|moving) with the times\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Adapt one’s practices to changing technology, needs or social expectations while keeping the underlying purpose.",
+        "meaningZh": "隨技術、需要或社會期望改變而調整做法，同時保留原本目的。",
+        "grammar": "Move with the times is an intransitive verb phrase; the subject is usually an organisation or person adapting over time. Move changes tense; with the times stays fixed.",
+        "register": "Neutral conversational English. A service manager may say it to colleagues discussing an evidence-based update.",
+        "boundaryZh": "不是追逐每個潮流；應有需要改變的具體證據，亦可保留原有服務。",
+        "misconceptionZh": "不是搬到另一個時區，也不表示舊方法必須全部廢除。",
+        "outcomeZh": "能指出變化、調整方式及仍要服務的人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1604",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 151,
+          "book": 14,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "36–38",
+          "locatorNote": "DOCX table 160, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The library has to move with the times.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "move with the times"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Many pharmacy patients now reorder medicine after work. The pharmacy added an evening online request form but kept the counter for those who prefer staff help. It can move with the times without excluding them.",
+        "zh": "不少藥房病人如今下班後才補訂藥物。藥房增設晚間網上申請表，同時為偏好職員協助的人保留櫃位。它可以與時並進，又不排除他們。",
+        "promptZh": "藥房怎樣回應顧客習慣改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added an evening request option while retaining in-person service.",
+            "zh": "增設晚間申請方式，同時保留面對面服務。"
+          },
+          {
+            "id": "b",
+            "en": "It closed the counter and refused to speak with patients.",
+            "zh": "它關閉櫃位並拒絕與病人交談。"
+          },
+          {
+            "id": "c",
+            "en": "It stopped supplying regular medicine.",
+            "zh": "它不再供應常用藥。"
+          },
+          {
+            "id": "d",
+            "en": "It changed the pharmacy’s time zone.",
+            "zh": "它改變了藥房所在時區。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新方式配合下班後需求，同時保留原有服務。"
+      },
+      "reply": {
+        "promptEn": "More residents now check bus arrivals on phones, but some still rely on printed timetables. The bus office adds a live feed and keeps notices at stops. Why is this a sensible update?",
+        "promptZh": "（更多居民如今用手機查巴士到站時間，但有些人仍依賴紙本時間表。巴士公司增設即時資訊，同時保留站牌通知。為何這項更新合理？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It responds to a change in how many people seek information.",
+            "zh": "它回應不少人查找資訊方式的改變。"
+          },
+          {
+            "id": "b",
+            "en": "It still serves people who use printed notices.",
+            "zh": "它仍服務依賴紙本通知的人。"
+          },
+          {
+            "id": "c",
+            "en": "The office can move with the times without dropping the older channel.",
+            "zh": "公司可與時並進，而不放棄舊有渠道。"
+          },
+          {
+            "id": "d",
+            "en": "Both channels can help travellers plan the same journey.",
+            "zh": "兩種渠道都可幫旅客規劃同一段路程。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據兩種資訊方式；金句概括有取捨的更新。"
+      },
+      "scene": {
+        "promptZh": "社區診所發現越來越多人要在晚上查覆診日期，於是加入安全的網上查詢，同時保留電話服務。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic moves with the times while keeping access for callers.",
+            "zh": "診所與時並進，同時保留電話使用者的服務。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic has replaced every human appointment with a machine.",
+            "zh": "診所已用機器取代每項人手預約。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic changes only because digital services are fashionable, with no patient need.",
+            "zh": "診所只因數碼服務流行而改變，並無病人需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有明確新需求，也保留舊渠道。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不能證明 move with the times？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An organisation copies a popular app without checking whether its users need it or can access it.",
+            "zh": "機構只因程式流行便照搬，沒有查核用戶是否需要或能否使用。"
+          },
+          {
+            "id": "b",
+            "en": "A centre extends evening hours after residents repeatedly request them.",
+            "zh": "中心在居民多次提出要求後延長晚間服務。"
+          },
+          {
+            "id": "c",
+            "en": "A service adds accessible digital forms while retaining help for those who need paper.",
+            "zh": "服務增設無障礙電子表格，同時保留紙本協助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "盲目追潮流而忽視使用者，不算有根據地與時並進。"
+      },
+      "dialogue": {
+        "promptEn": "A: The sports centre now lets people renew memberships online, but staff still help members at the desk. B: ______",
+        "promptZh": "（甲：體育中心如今讓人網上續會，但職員仍在服務台協助會員。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is moving with the times while keeping help for people who need it.",
+            "zh": "它與時並進，同時保留給有需要者的協助。"
+          },
+          {
+            "id": "b",
+            "en": "That gives members another way to renew.",
+            "zh": "這讓會員多了一種續會方式。"
+          },
+          {
+            "id": "c",
+            "en": "Keeping desk support should help those who prefer it.",
+            "zh": "保留服務台支援應能幫助偏好親身辦理的人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括調整與服務延續。"
+      },
+      "speaking": {
+        "en": "The local archive moved with the times by adding searchable digital records after researchers requested remote access, yet it kept supervised access to fragile originals.",
+        "zh": "本地檔案館在研究者要求遠端查閱後加入可搜尋的數碼紀錄，因而與時並進；同時仍保留脆弱原件的受監督查閱。",
+        "promptZh": "指出改變的需求、新做法及原有目的如何保留。",
+        "targetSpan": {
+          "start": 18,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項服務面對使用習慣改變，採取有根據的新做法，同時照顧仍需要舊渠道的人。用英文寫出前因後果。",
+        "selfCheckZh": "兩例須有需求證據與具體調整；不可把每種新工具一概視為進步。",
+        "examples": [
+          {
+            "en": "After market traders asked for later payment hours, the cooperative moved with the times by adding a secure evening payment link while keeping the staffed morning desk.",
+            "zh": "市集商戶要求較晚付款時段後，合作社增設安全的晚間付款連結，並保留早上的人手櫃位，以此與時並進。"
+          },
+          {
+            "en": "After shift workers asked for lessons they could revisit outside class hours, the adult-learning centre moved with the times by offering captioned recordings; tutors still ran face-to-face question sessions.",
+            "zh": "輪班工人要求有課外可重溫的課程後，成人教育中心提供有字幕的錄影課，藉此與時並進；導師仍主持面對面的答疑環節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "market traders",
+            "zh": "市集商戶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "a secure evening payment link",
+            "zh": "安全的晚間付款連結",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 128
+            }
+          },
+          {
+            "en": "the staffed morning desk",
+            "zh": "早上的人手櫃位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 167
+            }
+          },
+          {
+            "en": "captioned recordings",
+            "zh": "有字幕的錄影課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 157
+            }
+          },
+          {
+            "en": "face-to-face question sessions",
+            "zh": "面對面的答疑環節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 176,
+              "end": 206
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Move with the times means adapting to a demonstrated change.",
+          "zh": "move with the times 是因應已證實的改變而調整。"
+        },
+        {
+          "en": "A service can move with the times without abolishing a useful older route.",
+          "zh": "服務可與時並進，不必取消仍有用的舊途徑。"
+        }
+      ]
+    }
+  ]
+}

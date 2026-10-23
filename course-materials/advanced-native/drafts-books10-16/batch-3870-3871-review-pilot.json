@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3870-3871-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3870",
+      "number": 3870,
+      "inventoryId": "expr-3870",
+      "titleEn": "on the receiving end",
+      "titleZh": "承受另一方的影響",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bon\\s+the\\s+receiving\\s+end\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be the person or group subjected to an action, often an unpleasant one, rather than the one doing it.",
+        "meaningZh": "身處承受某行為影響的一方，通常是承受不愉快的對待，而非施行該行為的一方。",
+        "grammar": "Be/on the receiving end of + criticism, abuse, a decision or other action. Specify whose action and who experiences it; receiving does not imply willing acceptance.",
+        "register": "Everyday workplace conversation; an assistant discusses how a scheduling change felt to staff who were affected by it.",
+        "boundaryZh": "須辨清行動的發出者與承受者；不代表對方同意、值得遭受或完全無法回應。",
+        "misconceptionZh": "不是單純收到包裹，也不等於兩方承受的後果相同。",
+        "outcomeZh": "能指出誰作出行動、誰承受影響，以及影響是甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1759",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "73–74",
+          "locatorNote": "DOCX table 177, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Harm feels different to someone on the receiving end.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on the receiving end"
+        }
+      ],
+      "listening": {
+        "en": "The manager announced a new rota without warning. Night staff were on the receiving end of the change: they had to rearrange childcare at short notice.",
+        "zh": "經理沒有預告便宣布新更表。夜班職員承受了改動帶來的影響，須在短時間內重新安排照顧孩子。",
+        "promptZh": "on the receiving end 在這裏指誰？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Night staff who had to deal with the change.",
+            "zh": "須應付更表改動的夜班職員。"
+          },
+          {
+            "id": "b",
+            "en": "Night staff designed the new rota themselves.",
+            "zh": "夜班職員自行制定新更表。"
+          },
+          {
+            "id": "c",
+            "en": "The manager had to rearrange night staff’s childcare.",
+            "zh": "經理須重新安排夜班職員照顧孩子的事。"
+          },
+          {
+            "id": "d",
+            "en": "Night staff kept the old rota without any change.",
+            "zh": "夜班職員沿用舊更表，完全沒有改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "經理作決定，夜班職員承受短時間內改安排的影響。"
+      },
+      "reply": {
+        "promptEn": "Who bore the consequences of the transport office’s sudden route change? Elderly residents had to walk farther to the new stop; the office itself did not make that walk.",
+        "promptZh": "（交通部門突然改路線後，誰承受後果？長者須多走一段路才能到新車站；部門本身不用走這段路。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The elderly residents had to deal with the change.",
+            "zh": "長者須面對這項改動。"
+          },
+          {
+            "id": "b",
+            "en": "The people using the stop bore the practical cost.",
+            "zh": "使用車站的人承受實際代價。"
+          },
+          {
+            "id": "c",
+            "en": "The elderly residents were on the receiving end of the route change.",
+            "zh": "長者是路線改動影響所及的一方。"
+          },
+          {
+            "id": "d",
+            "en": "The transport office’s decision affected older passengers.",
+            "zh": "交通部門的決定影響長者乘客。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指長者承受改路線的實際影響。"
+      },
+      "scene": {
+        "promptZh": "導演臨時改首映時間，主持人因此錯過返程尾班車。若說誰承受改動影響，哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The host was on the receiving end of the last-minute change.",
+            "zh": "主持人承受了臨時改動的影響。"
+          },
+          {
+            "id": "b",
+            "en": "The host chose the new premiere time.",
+            "zh": "主持人決定了新的首映時間。"
+          },
+          {
+            "id": "c",
+            "en": "The director was the one who missed the last train.",
+            "zh": "錯過尾班車的是導演。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導演改時間，主持人承受無車可回的後果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不適合說某人 on the receiving end？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Residents must handle noise from a decision they did not make.",
+            "zh": "居民須承受一項非由自己作出的決定帶來的噪音。"
+          },
+          {
+            "id": "b",
+            "en": "A caller repeatedly insults a worker; the worker hears the insults.",
+            "zh": "來電者反覆辱罵員工，員工承受辱罵。"
+          },
+          {
+            "id": "c",
+            "en": "A planner independently designs a timetable but nobody is affected yet.",
+            "zh": "規劃者獨自設計時間表，目前尚無人受影響。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "尚無人承受該行動的影響。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「on the receiving end 表示當事人必定同意該安排。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being on the receiving end identifies who experiences the action; it says nothing about consent.",
+            "zh": "身處承受影響的一方，只說誰經歷了該行動，沒有表示同意。"
+          },
+          {
+            "id": "b",
+            "en": "Receiving an effect is the same as approving it.",
+            "zh": "承受影響就等於贊成。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase only concerns delivered parcels.",
+            "zh": "這片語只談送達的包裹。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承受與同意是兩回事。"
+      },
+      "speaking": {
+        "en": "When the theatre cancelled the late bus without notice, volunteers were on the receiving end of that decision and had to pay for taxis.",
+        "zh": "劇院沒有預告便取消尾班接駁巴士，義工承受了決定帶來的影響，只好付錢乘的士。",
+        "promptZh": "先聽示範，再指出誰作決定、誰承受車費。",
+        "targetSpan": {
+          "start": 72,
+          "end": 92
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校行政處把飯堂午餐時段提前十五分鐘，沒有先通知清潔隊；清潔隊原來的工作與用膳時間重疊，被迫重新編更，但行政處沒有額外工作。用英文分辨作決定與承受影響的人。",
+        "selfCheckZh": "寫出行政處提前十五分鐘、清潔隊未獲預告並要重編更、行政處沒有承受這項額外工作。",
+        "examples": [
+          {
+            "en": "The office moved lunch fifteen minutes earlier, but cleaners were on the receiving end of the unannounced change: they had to rewrite their rota when work overlapped with lunch, while the office had no extra duty.",
+            "zh": "行政處把午餐提前十五分鐘，但清潔隊承受未預告改動的影響：工作與用膳時間重疊，須重編更表，而行政處沒有額外工作。"
+          },
+          {
+            "en": "Cleaners were on the receiving end of the office’s decision to move lunch fifteen minutes earlier. They had no warning and had to rearrange their duties; the office did not face that extra task.",
+            "zh": "清潔隊承受行政處把午餐提前十五分鐘的影響。他們未獲預告，須重新安排職務；行政處本身不用處理這項額外工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fifteen minutes earlier",
+            "zh": "提前十五分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 46
+            }
+          },
+          {
+            "en": "cleaners",
+            "zh": "清潔隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 60
+            }
+          },
+          {
+            "en": "unannounced change",
+            "zh": "未預告改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 112
+            }
+          },
+          {
+            "en": "rewrite their rota",
+            "zh": "重編更表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 144
+            }
+          },
+          {
+            "en": "decision to move lunch",
+            "zh": "把午餐提前的決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 73
+            }
+          },
+          {
+            "en": "extra task",
+            "zh": "額外工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 183,
+              "end": 193
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "On the receiving end identifies the person who experiences another party’s action.",
+          "zh": "身處承受影響的一方，指經歷另一方行動的人。"
+        },
+        {
+          "en": "Being on the receiving end does not imply agreement or deserved treatment.",
+          "zh": "承受影響不代表同意，也不代表理應受此對待。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3871",
+      "number": 3871,
+      "inventoryId": "expr-3871",
+      "titleEn": "clean-cut",
+      "titleZh": "界線清晰",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bclean-cut\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Clearly and sharply defined, with little ambiguity; often used in a negated form for distinctions that are not simple.",
+        "meaningZh": "界線清楚、容易分辨；否定形式常用於表示界線並不簡單明確。",
+        "grammar": "Clean-cut is a hyphenated adjective before a noun or after a linking verb. In “not clean-cut”, the distinction is unclear, not necessarily absent.",
+        "register": "Everyday analytical discussion; a teacher explains why two categories of public art overlap.",
+        "boundaryZh": "「界線不清」不等於兩類完全相同；也不是說不能作任何判斷。",
+        "misconceptionZh": "不是指頭髮剪得整齊的外觀意思；須看上下文中的分類界線。",
+        "outcomeZh": "能指出分類之間哪些部分重疊、哪些差異仍存在。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1760",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "73–74",
+          "locatorNote": "DOCX table 177, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The boundary is not always clean-cut.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "clean-cut"
+        }
+      ],
+      "listening": {
+        "en": "The exhibition includes drawings that also use digital animation. The line between the two sections is not clean-cut, even though each has a different main focus.",
+        "zh": "展覽有些畫作亦用了數碼動畫。雖然兩個展區各有重點，兩者之間的界線並不十分清晰。",
+        "promptZh": "not clean-cut 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The categories overlap, so their boundary is unclear.",
+            "zh": "兩類有重疊，界線不夠清晰。"
+          },
+          {
+            "id": "b",
+            "en": "Every work fits exactly one section with no overlap.",
+            "zh": "每件作品都只屬於一個展區，毫無重疊。"
+          },
+          {
+            "id": "c",
+            "en": "The two sections share exactly the same main focus.",
+            "zh": "兩個展區的主要重點完全相同。"
+          },
+          {
+            "id": "d",
+            "en": "The exhibition has merged both sections into one.",
+            "zh": "展覽已把兩個展區合併為一個。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數碼動畫與畫作有交集，但兩區仍有不同重點。"
+      },
+      "reply": {
+        "promptEn": "Should the library separate local history from family memoirs? Some books contain both personal stories and verified town records, although other books fit one shelf clearly.",
+        "promptZh": "（圖書館應否把地方史與家族回憶錄完全分開？部分書兼有個人故事及經核實的城鎮紀錄，雖然另一些書可清楚放入其中一類。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some titles sit between the two categories.",
+            "zh": "部分書介乎兩類之間。"
+          },
+          {
+            "id": "b",
+            "en": "The shelving distinction has exceptions.",
+            "zh": "書架分類有例外。"
+          },
+          {
+            "id": "c",
+            "en": "The division is not clean-cut for every book.",
+            "zh": "並非每本書的分類界線都清楚。"
+          },
+          {
+            "id": "d",
+            "en": "A few books combine both kinds of content.",
+            "zh": "少數書同時包含兩種內容。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認有些書跨越分類界線。"
+      },
+      "scene": {
+        "promptZh": "兩種課程大多不同，但有幾個共同單元，學生可互相認學分。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The boundary between the courses is not clean-cut.",
+            "zh": "兩種課程的界線不十分清晰。"
+          },
+          {
+            "id": "b",
+            "en": "Every module in both courses is identical.",
+            "zh": "兩種課程的每個單元都完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Students can transfer every course credit without review.",
+            "zh": "學生無須審核便能轉認所有課程學分。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有共同單元，但兩種課程並非完全相同。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最能支持 clean-cut 的肯定用法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two award categories have separate rules and no overlapping eligible entries.",
+            "zh": "兩個獎項有不同規則，合資格作品完全不重疊。"
+          },
+          {
+            "id": "b",
+            "en": "Several entries meet both categories’ rules.",
+            "zh": "多項作品同時符合兩類規則。"
+          },
+          {
+            "id": "c",
+            "en": "Judges cannot agree which category applies to half the entries.",
+            "zh": "評審無法判斷一半作品適用哪一類。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資格完全不重疊，界線較清晰。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「not clean-cut 等於兩類完全沒有差別。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not clean-cut means the boundary is unclear; the categories may still differ in other respects.",
+            "zh": "界線不清只表示難以明確劃分；兩類在其他方面仍可能不同。"
+          },
+          {
+            "id": "b",
+            "en": "It proves all examples are identical.",
+            "zh": "這證明所有例子完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "It describes only a neat hairstyle.",
+            "zh": "它只形容整齊髮型。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有重疊不代表完全相同。"
+      },
+      "speaking": {
+        "en": "The difference between a rehearsal and a public preview is not clean-cut when invited guests can comment and changes are still possible.",
+        "zh": "當受邀觀眾可提意見，而作品仍可修改時，排練與公開預演的界線並不十分清晰。",
+        "promptZh": "先聽示範，再指出觀眾做甚麼令界線變得模糊。",
+        "targetSpan": {
+          "start": 63,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心把活動分為「運動」與「社交」。晨間健步小組既有步行鍛鍊，也有交流環節；拳擊課主要是運動，茶敘主要是社交。用英文描述分類界線，不要說兩類完全一樣。",
+        "selfCheckZh": "寫出健步小組兩種元素、拳擊課與茶敘各有主要目的、分類界線並不完全清晰。",
+        "examples": [
+          {
+            "en": "The boundary is not clean-cut: the morning walking group combines exercise with conversation, although boxing is mainly sport and the tea gathering is mainly social.",
+            "zh": "分類界線並不完全清晰：晨間健步小組結合運動與交流，但拳擊課主要是運動，茶敘主要是社交。"
+          },
+          {
+            "en": "Sport and social activities are not clean-cut categories at this centre. Walking offers both movement and conversation, while boxing is mainly sport and the tea gathering mainly social.",
+            "zh": "在這個中心，運動與社交活動不是界線完全清楚的類別。健步活動兼有鍛鍊和交流，拳擊課則主要是運動，茶敘主要是社交。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "morning walking group",
+            "zh": "晨間健步小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 56
+            }
+          },
+          {
+            "en": "exercise",
+            "zh": "運動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 74
+            }
+          },
+          {
+            "en": "conversation",
+            "zh": "交流",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 92
+            }
+          },
+          {
+            "en": "tea gathering",
+            "zh": "茶敘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 147
+            }
+          },
+          {
+            "en": "movement",
+            "zh": "鍛鍊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 101
+            }
+          },
+          {
+            "en": "mainly social",
+            "zh": "主要是社交",
+            "exampleIndex": 1,
+            "span": {
+              "start": 171,
+              "end": 184
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A clean-cut distinction has a clear boundary.",
+          "zh": "界線清晰的區分，表示分類不易混淆。"
+        },
+        {
+          "en": "A distinction that is not clean-cut can still preserve real differences.",
+          "zh": "界線不清，不等於兩類完全沒有差別。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

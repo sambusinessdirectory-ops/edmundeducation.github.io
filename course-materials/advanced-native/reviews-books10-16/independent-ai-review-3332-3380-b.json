@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review-with-full-source-screen",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 3332, 3334, 3336, 3338, 3339, 3359, 3377, 3380",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3332-3380-a.json", "sha256": "e61654c9252d3acd6f520fc80b5aafc70fbd215fa2b8949ad6660feaec95470d"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3332-3380-a.json", "sha256": "7823a9cfcb5d7ac900024c9ca47df3523b611b8abf0e596a723df9d96655e5e7"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "mechanicalChecks": {
+    "sourceTargetGlossary": "All eight source IDs, guide examples and exact expressions match the inventory. Audio, speaking, keyed reply, scene and dialogue contain the reviewed target regex; speaking and 39 answer-derived glossary spans are exact, with no target in the glossaries.",
+    "guideCopyScreen": "All 200 learner-facing English strings compared with all 2,604 guide examples (520,800 pairwise checks) after case, punctuation and apostrophe normalisation. Zero exact or near-copy hits. Near threshold: at least six contiguous shared tokens covering 60 percent of the shorter string, or nine shared tokens regardless of ratio.",
+    "build": "Focused build and --check pass: eight lessons, 48 questions, 32 audio requests, zero flags. This does not itself establish editorial approval."
+  },
+  "perLesson": [
+    {"sourceOrdinal": 3332, "lessonId": "advanced-native-3332", "status": "provisional-content-pass", "findings": [], "evidence": "Specific information reduces nerves without a false guarantee; all four replies are useful and the changed-context examples identify anxiety and concrete support."},
+    {"sourceOrdinal": 3334, "lessonId": "advanced-native-3334", "status": "provisional-content-pass", "findings": [], "evidence": "Small logistical checks support thorough preparation without claiming an immutable plan; distinct from 3338's pre-planned route and 3336's flexible open choices."},
+    {"sourceOrdinal": 3336, "lessonId": "advanced-native-3336", "status": "provisional-content-pass", "findings": [], "evidence": "Both 'play things by ear' and 'play it by ear' are correctly detected, with a fixed return commitment and weather-dependent open activity."},
+    {"sourceOrdinal": 3338, "lessonId": "advanced-native-3338", "status": "provisional-content-pass", "findings": [], "evidence": "The route or operational sequence exists before departure; a contingency is compatible with advance planning and unlike exhaustive minor-detail preparation."},
+    {"sourceOrdinal": 3339, "lessonId": "advanced-native-3339", "status": "provisional-content-pass", "findings": [], "evidence": "Unexpected opportunities are assessed against time and commitments before acceptance; this is distinct from adapting an existing itinerary by ear."},
+    {"sourceOrdinal": 3359, "lessonId": "advanced-native-3359", "status": "provisional-content-pass", "findings": [], "evidence": "Investigate-before-concluding meaning is preserved in complaint, score and reservation settings; EN/ZH actor and evidentiary status align."},
+    {"sourceOrdinal": 3377, "lessonId": "advanced-native-3377", "status": "requires-repair", "findings": [{"id": "R3377-01", "severity": "minor", "path": "writing.examples[0], writing.examples[1]", "text": "The writing prompt explicitly asks for an initially exciting purchase/prize/praise followed by a hollow feeling. Both models imply an initially positive event, but neither explicitly says Jae was excited about the purchase or the captain initially celebrated the prize. Add the early positive reaction to each English and aligned Traditional Chinese model so the before/after contrast is observable, then recalculate affected glossary spans."}], "evidence": "The listening, reply and scene correctly distinguish later lack of satisfaction from literal hollowness; target and source originality checks pass."},
+    {"sourceOrdinal": 3380, "lessonId": "advanced-native-3380", "status": "provisional-content-pass", "findings": [], "evidence": "Unequal allocations are quantified; the material distinguishes descriptive imbalance from an automatic fairness judgment, with aligned EN/ZH proportions."}
+  ],
+  "findingCount": {"major": 0, "minor": 1},
+  "humanApproval": false,
+  "releaseApproval": false
+}

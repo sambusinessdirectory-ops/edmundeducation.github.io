@@ -83,8 +83,8 @@
           },
           {
             "id": "c",
-            "en": "One review should not be the last word on the centre.",
-            "zh": "一篇評論不應成為對這間中心的最後定論。"
+            "en": "We should hear from more visitors before treating that one review as the last word on the centre.",
+            "zh": "在把那一篇評論視作中心的最後定論前，我們應聽取更多訪客的意見。"
           },
           {
             "id": "d",
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2272",

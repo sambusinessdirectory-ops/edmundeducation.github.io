@@ -1,0 +1,32 @@
+{
+  "reviewKind": "source-sense-and-owner-comparison",
+  "createdUtc": "2026-10-23T14:29:13.619075+00:00",
+  "owner": {
+    "ordinal": 3413,
+    "sourceId": "book10-16-1302",
+    "sourceExpression": "shut the door",
+    "sourceExample": "New rules should not shut the door on collaboration.",
+    "teachableConstruction": "shut the door on + noun/gerund",
+    "sense": "A policy or choice blocks an external opportunity, access or cooperation.",
+    "draftFile": "drafts-books10-16/batch-3412-3435-a.json",
+    "draftTargetPattern": "\\b(?:shut|shuts|shutting) the door on\\b"
+  },
+  "proposedAlias": {
+    "ordinal": 3672,
+    "sourceId": "book10-16-1561",
+    "sourceExpression": "emotionally, they start shutting the door",
+    "sourceExample": "If they feel judged, emotionally, they start shutting the door.",
+    "construction": "shutting the door with no on-complement, under an emotional context",
+    "sense": "Children withdraw or withhold thoughts and feelings after perceived judgement."
+  },
+  "assessment": "Shared door imagery does not establish the same teachable lexical construction or decision. The 3413 lesson teaches an object-bearing shut the door on + opportunity; the 3672 line teaches emotional withdrawal without an object. Broadening 3413 to any bare shut the door would admit common literal closing and would not teach the emotional-withholding cue. The 3672 source sentence is also stilted English, so a new high-confidence canonical lesson from it is premature.",
+  "recommendation": {
+    "action": "hold-editorial",
+    "canonicalId": null,
+    "reason": "Bare emotional shutting the door denotes withdrawing feelings after judgement, not the source 3413 object-bearing shut the door on + opportunity. Avoid aliasing across this construction/sense boundary or widening the owner regex to literal closures. Hold pending native editorial decision on teachable natural form."
+  },
+  "decisionFileEditMade": false,
+  "draftEditMade": false,
+  "manifestEditMade": false,
+  "humanApproval": false
+}

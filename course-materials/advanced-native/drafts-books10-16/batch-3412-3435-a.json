@@ -1,0 +1,2141 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3412-3435-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3412",
+      "number": 3412,
+      "inventoryId": "expr-3412",
+      "titleEn": "closed off",
+      "titleZh": "與外界隔絕的",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bclosed off\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Cut off from useful outside exchange or contact, especially an economy lacking trade links.",
+        "meaningZh": "缺少與外界的有效往來，尤其指經濟體缺乏貿易聯繫。",
+        "grammar": "closed off is an adjective after become/be/remain; often followed by from + outside markets/ideas. This lesson uses the economic sense.",
+        "register": "Neutral analytical phrase. An economics teacher may use it with students comparing trade choices.",
+        "boundaryZh": "某些產業有保護措施不等於整個經濟與外界隔絕；須看實際貿易和知識交流。",
+        "misconceptionZh": "不是實體門關上，也不表示任何開放政策都一定有利。",
+        "outcomeZh": "能用進出口或知識交流的具體證據判斷是否與外界隔絕。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1301",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 121,
+          "book": 13,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 126, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An economy can become closed off without trade.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "closed off"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "甚麼證據顯示島上經濟與外界隔絕？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The ban stopped both incoming parts and technical exchange.",
+            "zh": "禁令同時阻斷零件輸入和技術交流。"
+          },
+          {
+            "id": "b",
+            "en": "Nearby ports continue supplying every spare part.",
+            "zh": "附近港口繼續供應所有零件。"
+          },
+          {
+            "id": "c",
+            "en": "Only one locally made item changed its packaging.",
+            "zh": "只有一種本地產品改了包裝。"
+          },
+          {
+            "id": "d",
+            "en": "The island has opened new advice exchanges this month.",
+            "zh": "島上這個月開展新的技術交流。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "商品與知識聯繫一併中斷，才支持隔絕的判斷。",
+        "en": "The island once imported spare parts and exchanged farming methods with nearby ports. After the trade ban, neither goods nor technical advice could enter. Its economy became closed off, making repairs harder.",
+        "zh": "島上過去從附近港口輸入零件，也交換耕作方法。貿易禁令後，貨物和技術建議都無法進入，經濟因而與外界隔絕，維修也更困難。"
+      },
+      "reply": {
+        "promptEn": "The island can no longer import repair parts or exchange farming advice with nearby ports. How might we describe its economy?",
+        "promptZh": "（島上不能再從附近港口輸入維修零件，也無法交換耕作建議。可怎樣形容它的經濟？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Outside links for goods have been lost.",
+            "zh": "與外界的貨物流通已中斷。"
+          },
+          {
+            "id": "b",
+            "en": "Technical knowledge is harder to share.",
+            "zh": "技術知識更難交流。"
+          },
+          {
+            "id": "c",
+            "en": "Its economy has become closed off from those useful exchanges.",
+            "zh": "它的經濟已與這些有用的外界往來隔絕。"
+          },
+          {
+            "id": "d",
+            "en": "Repair work may now take longer.",
+            "zh": "維修工作現在可能較費時。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據資料；金句概括對外聯繫減少。"
+      },
+      "scene": {
+        "promptZh": "某地區停止與鄰近城市交易，也不再參與共同研究；工廠難以取得零件與新技術。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The region has become closed off from outside exchange.",
+            "zh": "該地區已與外界往來隔絕。"
+          },
+          {
+            "id": "b",
+            "en": "The region has expanded trading and research links.",
+            "zh": "該地區擴大了貿易和研究聯繫。"
+          },
+          {
+            "id": "c",
+            "en": "A single import tariff proves every connection has ended.",
+            "zh": "單一進口關稅證明所有聯繫都已終止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多種貨物與知識交流同時中斷。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明 an economy is closed off？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One industry faces a tariff, but goods and research still move widely across borders.",
+            "zh": "一個行業有關稅，但貨物和研究仍廣泛跨境流通。"
+          },
+          {
+            "id": "b",
+            "en": "Ports cannot receive either goods or repair expertise for months.",
+            "zh": "港口數月不能接收貨物或維修專業支援。"
+          },
+          {
+            "id": "c",
+            "en": "Trade and technical exchanges with neighbouring regions have both ceased.",
+            "zh": "與鄰近地區的貿易和技術交流都已停止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "局部關稅不等於整體與外界隔絕。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：省份停止輸入機械零件，也退出區域培訓網絡；工廠現在難以維修器材。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is becoming closed off from both supplies and know-how.",
+            "zh": "它正與外界的物資及技術知識隔絕。"
+          },
+          {
+            "id": "b",
+            "en": "We should check which parts are most urgently needed.",
+            "zh": "我們應查明哪些零件最急需。"
+          },
+          {
+            "id": "c",
+            "en": "Restoring a training link might help repair teams.",
+            "zh": "恢復培訓聯繫或能協助維修隊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括物資和知識聯繫減少。",
+        "promptEn": "A: The province stopped importing machine parts and left the regional training network. Its factories now struggle to repair equipment. B: ______"
+      },
+      "speaking": {
+        "en": "A region can become closed off when both trade routes and technical exchanges are cut, leaving clinics short of replacement parts.",
+        "zh": "貿易路線和技術交流都中斷時，一個地區可能與外界隔絕，令診所缺乏更換零件。",
+        "promptZh": "交代原有外界聯繫、甚麼被切斷及實際影響。",
+        "targetSpan": {
+          "start": 20,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某地原有貨物或知識交流，後來多項聯繫中斷。用英文寫出前後差異與居民或服務受影響之處。",
+        "selfCheckZh": "不能單憑一項保護政策便稱整個經濟隔絕。",
+        "examples": [
+          {
+            "en": "The coastal economy grew closed off after its ports stopped receiving grain and repair technicians, leaving mills idle while local supplies ran low.",
+            "zh": "沿岸經濟在港口停止接收穀物和維修技師後日漸與外界隔絕；本地物資漸少，磨坊也停工。"
+          },
+          {
+            "en": "When the district left the seed exchange and blocked farm-tool imports, it became closed off from ideas and supplies growers had used each season, forcing them to reuse poor seed and postpone equipment repairs.",
+            "zh": "該區退出種子交流，又阻止農具進口後，與農民每季原本使用的知識和物資隔絕，令他們被迫重用劣質種子，並推遲修理器材。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "repair technicians",
+            "zh": "維修技師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 98
+            }
+          },
+          {
+            "en": "local supplies",
+            "zh": "本地物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 139
+            }
+          },
+          {
+            "en": "mills idle",
+            "zh": "磨坊停工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 118
+            }
+          },
+          {
+            "en": "the seed exchange",
+            "zh": "種子交流",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 40
+            }
+          },
+          {
+            "en": "farm-tool imports",
+            "zh": "農具進口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 70
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An economy is closed off when important outside links stop, not merely when one tariff exists.",
+          "zh": "重要對外往來中斷才可能令經濟隔絕；單一關稅不足以證明。"
+        },
+        {
+          "en": "The remote port became closed off after losing both trade and training links.",
+          "zh": "偏遠港口失去貿易和培訓聯繫後，與外界隔絕。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3413",
+      "number": 3413,
+      "inventoryId": "expr-3413",
+      "titleEn": "shut the door on",
+      "titleZh": "堵塞；斷絕某種可能",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:shut|shuts|shutting) the door on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "End or block a future possibility, relationship or avenue of cooperation.",
+        "meaningZh": "終止或堵塞未來某種機會、關係或合作途徑。",
+        "grammar": "shut the door on + noun/gerund; shut is also the past form, shuts third-person, shutting progressive.",
+        "register": "Neutral figurative speech. A policy adviser may use it with colleagues considering a rule that affects partnerships.",
+        "boundaryZh": "不是所有限制都完全斷絕合作；須看是否仍有可行的後續途徑。",
+        "misconceptionZh": "不是關上一扇實體門，也不等於只是暫時延期。",
+        "outcomeZh": "能指出哪項政策或行動封閉了哪條具體合作或申請途徑。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1302",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 121,
+          "book": 13,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 126, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New rules should not shut the door on collaboration.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shut the door"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者擔心新規則有甚麼影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Small local groups could lose the chance to apply and partner with the programme.",
+            "zh": "小型本地團體可能失去申請及合作的機會。"
+          },
+          {
+            "id": "b",
+            "en": "The rule automatically funds every local group.",
+            "zh": "規則自動資助每個本地團體。"
+          },
+          {
+            "id": "c",
+            "en": "The application process is merely delayed for one day.",
+            "zh": "申請程序只延遲一天。"
+          },
+          {
+            "id": "d",
+            "en": "The groups have already signed new partnerships.",
+            "zh": "團體已簽下新合作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完全排除申請，會封閉未來合作途徑。",
+        "en": "The new grant rule would exclude small neighbourhood groups from applying at all. It could shut the door on collaboration with organisations that know local needs. A lower-cost application route would keep that partnership possible.",
+        "zh": "新的資助規則會令小型社區團體完全無法申請，可能堵塞與熟悉本地需要的組織合作之路。較簡便的申請途徑可保留合作可能。"
+      },
+      "reply": {
+        "promptEn": "A proposed grant rule would bar all small neighbourhood groups from applying. We still value their local knowledge. How should we discuss it?",
+        "promptZh": "（擬議資助規則會禁止所有小型社區團體申請，但我們仍重視它們的本地知識。應怎樣討論？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check whether a simpler route can include smaller groups.",
+            "zh": "看看簡化途徑能否讓小型團體參與。"
+          },
+          {
+            "id": "b",
+            "en": "Ask what application burden the groups can manage.",
+            "zh": "問團體能處理多少申請工作。"
+          },
+          {
+            "id": "c",
+            "en": "The rule may shut the door on collaboration unless we leave them a fair route in.",
+            "zh": "若不留公平途徑，規則可能堵塞合作之路。"
+          },
+          {
+            "id": "d",
+            "en": "Compare the rule with the programme’s partnership goals.",
+            "zh": "把規則與計劃的合作目標比較。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應問題；金句指出完全排除可能斷絕合作。"
+      },
+      "scene": {
+        "promptZh": "學校原與社區中心合辦課程，新規定卻禁止任何校外機構參與，也沒有例外或其他申請途徑。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rule shuts the door on the existing partnership.",
+            "zh": "規定堵塞了原有合作途徑。"
+          },
+          {
+            "id": "b",
+            "en": "The rule simply moves the course to a new date.",
+            "zh": "規定只是改課程日期。"
+          },
+          {
+            "id": "c",
+            "en": "The centre can still apply through a stated exception.",
+            "zh": "中心仍可按列明的例外途徑申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "規定完全封閉校外參與，非單純延期。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像 shutting the door on future cooperation？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The partners pause one event but agree to submit a new proposal next term.",
+            "zh": "夥伴暫停一次活動，但同意下學期再提新方案。"
+          },
+          {
+            "id": "b",
+            "en": "The policy permanently bars all outside groups from the programme.",
+            "zh": "政策永久禁止所有外部團體參與計劃。"
+          },
+          {
+            "id": "c",
+            "en": "The committee cancels all partner access and refuses further applications.",
+            "zh": "委員會取消夥伴參與權，也拒絕往後申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍有明確後續合作途徑，沒有把門堵死。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：政策草案禁止所有校外團體參與學生工作坊。我們與圖書館多年來合作良好。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That could shut the door on a useful partnership; let us propose a safe exception.",
+            "zh": "這可能堵塞有用的合作之路；我們提出安全的例外安排。"
+          },
+          {
+            "id": "b",
+            "en": "Ask what risk the ban is meant to address.",
+            "zh": "問清楚禁令要處理甚麼風險。"
+          },
+          {
+            "id": "c",
+            "en": "Check whether supervised visits could meet the same goal.",
+            "zh": "看看有督導的探訪能否達到同一目標。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說明合作途徑受阻，並提出可行調整。",
+        "promptEn": "A: The draft policy bans every outside group from our student workshop. We have worked well with the library for years. B: ______"
+      },
+      "speaking": {
+        "en": "A blanket ban might shut the door on joint lessons with the museum, even though supervised visits could meet the safety rule.",
+        "zh": "全面禁令可能堵塞與博物館合辦課堂的途徑，雖然有督導的探訪也許能符合安全規定。",
+        "promptZh": "指出被封閉的機會和原本可行的後續合作。",
+        "targetSpan": {
+          "start": 20,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項決定會完全封閉原可行的合作或參與途徑；另一方案仍能處理真正的顧慮。用英文寫出兩者。",
+        "selfCheckZh": "不能把單純延期說成完全斷絕。",
+        "examples": [
+          {
+            "en": "The town’s new rule would shut the door on small theatres sharing the public hall, although a staffed evening slot could address the noise concern.",
+            "zh": "鎮上的新規定會堵塞小劇團共用公共禮堂的途徑，雖然安排有職員在場的晚間時段可能處理噪音顧慮。"
+          },
+          {
+            "en": "Refusing every community proposal could shut the door on future garden projects; the council instead offered a supervised pilot application.",
+            "zh": "拒絕所有社區提案可能堵塞未來園藝項目；議會改為提供有督導的試點申請途徑。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "small theatres",
+            "zh": "小劇團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 57
+            }
+          },
+          {
+            "en": "a staffed evening slot",
+            "zh": "有職員在場的晚間時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 114
+            }
+          },
+          {
+            "en": "the noise concern",
+            "zh": "噪音顧慮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 146
+            }
+          },
+          {
+            "en": "community proposal",
+            "zh": "社區提案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 33
+            }
+          },
+          {
+            "en": "a supervised pilot application",
+            "zh": "有督導的試點申請途徑",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A ban may shut the door on cooperation if no fair route remains.",
+          "zh": "禁令若不留公平途徑，可能堵塞合作。"
+        },
+        {
+          "en": "The revised policy kept access open instead of shutting the door on local groups.",
+          "zh": "修訂政策保留參與途徑，沒有堵塞本地團體的機會。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3419",
+      "number": 3419,
+      "inventoryId": "expr-3419",
+      "titleEn": "squeezed out",
+      "titleZh": "被擠出市場",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsqueezed out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pushed out of a market or opportunity by pressure from stronger competitors or changing conditions.",
+        "meaningZh": "在更強競爭者或環境壓力下，逐漸失去立足空間，被擠出市場或機會。",
+        "grammar": "squeezed out is commonly passive: small shops are squeezed out by larger chains. This lesson targets market exclusion, distinct from squeezing out flexibility in a schedule.",
+        "register": "Neutral economic or community discussion. A market organiser may use it with local shopkeepers.",
+        "boundaryZh": "須有實際失去客源、攤位或經營能力的壓力；單純出現新競爭者不代表小店已被擠走。",
+        "misconceptionZh": "不是身體被擠出去，也不是斷言大型商店一定有錯。",
+        "outcomeZh": "能指出競爭壓力、對小店的具體影響及可查證的證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1308",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 122,
+          "book": 13,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "13–16",
+          "locatorNote": "DOCX table 127, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Small shops may be squeezed out by larger chains.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeezed out"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "哪項資料最支持小店被擠走的風險？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They lost customers, and one already surrendered its lease amid stronger competition.",
+            "zh": "競爭加劇下，小店失去顧客，其中一家已退租。"
+          },
+          {
+            "id": "b",
+            "en": "Both local shops gained more customers and opened new branches.",
+            "zh": "兩家本地店顧客增加，還開了分店。"
+          },
+          {
+            "id": "c",
+            "en": "The chain left every stall available at low rent.",
+            "zh": "連鎖店讓所有舖位以低租金出租。"
+          },
+          {
+            "id": "d",
+            "en": "No shop has experienced any change in sales or rent.",
+            "zh": "沒有店舖的營業額或租金出現變化。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "客源流失和退租是市場空間受擠壓的具體證據。",
+        "en": "A large chain rented most stalls and cut prices. Two local repair shops lost customers; one gave up its lease. With affordable space shrinking, independent sellers risk being squeezed out.",
+        "zh": "大型連鎖店租下大部分舖位並減價。兩家本地維修店失去顧客，其中一家退租。負擔得起的舖位減少，獨立商戶有被擠走的風險。"
+      },
+      "reply": {
+        "promptEn": "The new chain rents most stalls and offers deep discounts. Two local repair shops are losing customers; one has given up its lease. What could we say?",
+        "promptZh": "（新連鎖店租下大部分舖位並大幅折扣。兩家本地維修店失去顧客，一家已退租。可以怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The local shops are under measurable pressure.",
+            "zh": "本地店舖正受可觀察的壓力。"
+          },
+          {
+            "id": "b",
+            "en": "Affordable stalls could help smaller traders stay.",
+            "zh": "負擔得起的舖位或可幫小商戶留下。"
+          },
+          {
+            "id": "c",
+            "en": "Small shops risk being squeezed out as customers and space disappear.",
+            "zh": "客源和舖位消失，小店有被擠出市場的風險。"
+          },
+          {
+            "id": "d",
+            "en": "We should compare rents and customer numbers before proposing support.",
+            "zh": "提出支援前，應比較租金和客流。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都依據情況；金句描述逐漸失去立足空間。"
+      },
+      "scene": {
+        "promptZh": "兩家本地麵包店在連鎖店以低價包下多個舖位後，客源下降，續租也更難。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The local bakeries are at risk of being squeezed out.",
+            "zh": "本地麵包店有被擠出市場的風險。"
+          },
+          {
+            "id": "b",
+            "en": "The bakeries have gained new long-term leases at lower rent.",
+            "zh": "麵包店以較低租金獲得新長期租約。"
+          },
+          {
+            "id": "c",
+            "en": "A new chain has opened, but no effect on customers or space is known.",
+            "zh": "新連鎖店開業，但未知對客源或舖位有任何影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "客源及租約都受壓，構成被擠走風險。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說明小店 are being squeezed out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new shop opens nearby, but the local stores keep their customers and affordable leases.",
+            "zh": "附近有新店，但本地店保持客源及負擔得起的租約。"
+          },
+          {
+            "id": "b",
+            "en": "Rents rise beyond what small traders can pay, forcing several closures.",
+            "zh": "租金升至小商戶無力承擔，迫使數家關門。"
+          },
+          {
+            "id": "c",
+            "en": "A chain secures the only suitable stalls, and independent sellers lose access.",
+            "zh": "連鎖店取得僅有的合適舖位，獨立賣家失去進場機會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新競爭者存在，不等於已造成實際排擠。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：租金上升後，三個獨立攤檔關門；新商場亦只供應大型舖位。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Smaller traders are being squeezed out; let us ask for affordable small units.",
+            "zh": "小商戶正被擠出市場；不如爭取負擔得起的小舖位。"
+          },
+          {
+            "id": "b",
+            "en": "Check which closed stalls wanted to renew.",
+            "zh": "查明哪些結業攤檔原想續租。"
+          },
+          {
+            "id": "c",
+            "en": "Compare the new unit sizes with what small traders need.",
+            "zh": "比較新舖位大小與小商戶需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出失去立足空間及可行支援。",
+        "promptEn": "A: Three independent stalls closed after rent rose, and the new centre offers only large units. B: ______"
+      },
+      "speaking": {
+        "en": "Independent bookshops may be squeezed out when rising rent and exclusive leases leave them no affordable premises.",
+        "zh": "租金上升及獨家租約令獨立書店找不到負擔得起的舖位時，它們可能被擠出市場。",
+        "promptZh": "寫出壓力來源及小店實際失去甚麼。",
+        "targetSpan": {
+          "start": 29,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型業者因租金、進場或競爭壓力失去客源或場地。用英文寫出可觀察影響，不只提新競爭者。",
+        "selfCheckZh": "兩例都要有真實客源、舖位或經營能力的變化。",
+        "examples": [
+          {
+            "en": "After the new market reserved every low-rent stall for one franchise, family growers were squeezed out and had to sell from a more distant site.",
+            "zh": "新市場把所有低租攤檔留給一家特許經營店後，家庭農戶被擠走，只能在較遠的地方出售產品。"
+          },
+          {
+            "en": "Several small cafés were squeezed out when rents doubled and their regular customers shifted to the large chain across the road.",
+            "zh": "租金倍增、熟客轉到對面大型連鎖店後，數間小咖啡店被擠出市場。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "every low-rent stall",
+            "zh": "所有低租攤檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 50
+            }
+          },
+          {
+            "en": "family growers",
+            "zh": "家庭農戶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 84
+            }
+          },
+          {
+            "en": "a more distant site",
+            "zh": "較遠的地方",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 143
+            }
+          },
+          {
+            "en": "rents doubled",
+            "zh": "租金倍增",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 56
+            }
+          },
+          {
+            "en": "regular customers",
+            "zh": "熟客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Being squeezed out requires real loss of room to operate, not merely a new rival.",
+          "zh": "被擠出市場須有實際經營空間損失，而非只因有新對手。"
+        },
+        {
+          "en": "The repair stall was squeezed out after affordable units disappeared.",
+          "zh": "負擔得起的舖位消失後，維修攤檔被擠走。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3421",
+      "number": 3421,
+      "inventoryId": "expr-3421",
+      "titleEn": "send shockwaves",
+      "titleZh": "引起廣泛連鎖衝擊",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:send|sends|sent|sending) shockwaves(?: far and wide)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Cause a surprising event to have serious consequences or alarm across many connected people or places.",
+        "meaningZh": "一件突發事件在相連的人或地方之間引起嚴重、廣泛的連鎖影響。",
+        "grammar": "send shockwaves is the reusable verb-object phrase; far and wide can add emphasis, as in the exact source expression. Sent is past.",
+        "register": "Strong neutral news or analytical phrase. A supply coordinator may use it with colleagues about a shipping breakdown.",
+        "boundaryZh": "須有可指出的擴散影響；一間店的單次小延誤未必足以稱為廣泛震盪。",
+        "misconceptionZh": "不是實際地震波，也不能只因消息令人驚訝便忽略影響範圍。",
+        "outcomeZh": "能追蹤起點、傳播途徑及至少兩類受影響者。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1310",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 122,
+          "book": 13,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "13–16",
+          "locatorNote": "DOCX table 127, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A shipping failure can send shockwaves far and wide.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "send shockwaves far and wide"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "甚麼顯示故障的影響擴散？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Factories and shops in several regions were affected after the port stopped.",
+            "zh": "港口停運後，數個地區的工廠和商店都受影響。"
+          },
+          {
+            "id": "b",
+            "en": "Only one port office printer needed paper.",
+            "zh": "只有港口辦公室一部打印機缺紙。"
+          },
+          {
+            "id": "c",
+            "en": "Containers continued moving on schedule everywhere.",
+            "zh": "各處貨櫃仍按時運送。"
+          },
+          {
+            "id": "d",
+            "en": "No factory used any parts from that port.",
+            "zh": "沒有工廠使用該港口運來的零件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "港口故障沿供應鏈影響多個地區和行業。",
+        "en": "A port computer failure stopped containers for three days. Factories missed parts, and shops in several regions ran short of stock. The failure sent shockwaves far and wide through the supply network, beyond the port itself.",
+        "zh": "港口電腦故障令貨櫃停運三天。工廠收不到零件，數個地區的商店也缺貨。故障透過供應網絡引起廣泛連鎖衝擊，影響不限於港口。"
+      },
+      "reply": {
+        "promptEn": "A port failure has stopped shipments for three days. Factories miss parts, and shops in several regions are short of stock. What does this show?",
+        "promptZh": "（港口故障令貨運停了三天。工廠缺零件，數個地區商店缺貨。這顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The effects reach beyond the port itself.",
+            "zh": "影響超出港口本身。"
+          },
+          {
+            "id": "b",
+            "en": "Different kinds of businesses are affected.",
+            "zh": "不同類型企業都受影響。"
+          },
+          {
+            "id": "c",
+            "en": "The failure has sent shockwaves through the wider supply network.",
+            "zh": "故障已在更廣的供應網絡引起連鎖衝擊。"
+          },
+          {
+            "id": "d",
+            "en": "Restoring shipments may help several regions.",
+            "zh": "恢復貨運可能幫助多個地區。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都符合資料；金句概括跨行業擴散。"
+      },
+      "scene": {
+        "promptZh": "一家主要零件廠突然停產，三個國家的裝配廠缺貨，多家醫院的器材交付也延期。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shutdown sent shockwaves across the connected supply chain.",
+            "zh": "停產在相連的供應鏈引起廣泛衝擊。"
+          },
+          {
+            "id": "b",
+            "en": "The shutdown affected only the factory canteen.",
+            "zh": "停產只影響工廠飯堂。"
+          },
+          {
+            "id": "c",
+            "en": "All deliveries were completed before the shutdown.",
+            "zh": "停產前所有貨物已交付。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "影響沿供應鏈跨國擴散，甚至延及醫院。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說明 an event sent shockwaves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One shop opened ten minutes late with no customers or suppliers affected.",
+            "zh": "一間店遲十分鐘開門，沒有顧客或供應商受影響。"
+          },
+          {
+            "id": "b",
+            "en": "A port closure delayed factories and retailers in several regions.",
+            "zh": "港口關閉令數地工廠及零售商延誤。"
+          },
+          {
+            "id": "c",
+            "en": "A major supplier failure stopped production across several connected firms.",
+            "zh": "大供應商故障令數家相連企業停產。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫、局部且無後續影響，不足以稱廣泛衝擊。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：主要冷藏中心故障。四區診所無法收到預定的疫苗。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That failure could send shockwaves across the health network; let us check alternate cold storage now.",
+            "zh": "故障可能在醫療網絡引起廣泛衝擊；立即核對後備冷藏設施。"
+          },
+          {
+            "id": "b",
+            "en": "Tell each clinic when an update will be available.",
+            "zh": "告知各診所何時有最新消息。"
+          },
+          {
+            "id": "c",
+            "en": "Check which deliveries are most urgent.",
+            "zh": "查明哪些送貨最急需。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出擴散風險，並提出相關應對。",
+        "promptEn": "A: The main cold-storage hub has failed. Clinics in four districts cannot receive scheduled vaccine deliveries. B: ______"
+      },
+      "speaking": {
+        "en": "The rail shutdown sent shockwaves through the food network as farms, warehouses and city markets all missed deliveries.",
+        "zh": "鐵路停駛令農場、倉庫與城市市場都錯過送貨，在食物網絡引起廣泛連鎖衝擊。",
+        "promptZh": "交代起點、連鎖途徑及至少兩類受影響者。",
+        "targetSpan": {
+          "start": 18,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個重要節點故障，影響沿網絡擴展到不同地點或行業。用英文寫出起點與至少兩類後果。",
+        "selfCheckZh": "不能把單次局部小失誤誇成 shockwaves。",
+        "examples": [
+          {
+            "en": "The payment-network outage sent shockwaves through market towns: stallholders could not take cards, and suppliers delayed their deliveries.",
+            "zh": "付款網絡停擺在多個市鎮引起連鎖衝擊：攤販無法收卡，供應商亦延遲送貨。"
+          },
+          {
+            "en": "A damaged bridge sent shockwaves far and wide as schools lost bus routes and hospitals waited longer for medicine from the depot.",
+            "zh": "橋樑損毀引起廣泛連鎖衝擊：學校失去巴士路線，醫院也須更久才收到倉庫送來的藥物。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The payment-network outage",
+            "zh": "付款網絡停擺",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "stallholders",
+            "zh": "攤販",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 77
+            }
+          },
+          {
+            "en": "suppliers delayed their deliveries",
+            "zh": "供應商延遲送貨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 138
+            }
+          },
+          {
+            "en": "bus routes",
+            "zh": "巴士路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 72
+            }
+          },
+          {
+            "en": "medicine from the depot",
+            "zh": "倉庫送來的藥物",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A failure sends shockwaves when consequences spread through connected systems.",
+          "zh": "故障的影響沿相連系統擴散，才會引起廣泛衝擊。"
+        },
+        {
+          "en": "The warehouse fire sent shockwaves through regional food deliveries.",
+          "zh": "倉庫火災在區域食物運送中引起連鎖衝擊。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3429",
+      "number": 3429,
+      "inventoryId": "expr-3429",
+      "titleEn": "deep pockets",
+      "titleZh": "資金雄厚",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bdeep pockets\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Substantial financial resources that allow a person or organisation to absorb costs more easily.",
+        "meaningZh": "有較充裕的資金，能較容易承受費用或延誤成本。",
+        "grammar": "have/with deep pockets; pockets is plural. The phrase describes relative financial capacity, not literal clothing.",
+        "register": "Informal business idiom. A supply analyst may use it with colleagues comparing firms’ ability to absorb delays.",
+        "boundaryZh": "資金較多不表示無限，也不保證一定會投資或承擔任何損失。",
+        "misconceptionZh": "不是指衣袋深，也不能單憑公司規模就斷言它有現金可用。",
+        "outcomeZh": "能用資金儲備或可承受成本的具體證據判斷此說法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1318",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 123,
+          "book": 13,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "17–20",
+          "locatorNote": "DOCX table 128, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Large firms with deep pockets can absorb delays.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "deep pockets"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者憑甚麼說大公司資金雄厚？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its cash reserves can cover three months of extra storage fees.",
+            "zh": "現金儲備足以支付多三個月倉儲費。"
+          },
+          {
+            "id": "b",
+            "en": "Its pockets are physically larger than its rival’s.",
+            "zh": "它員工的衣袋比對手的大。"
+          },
+          {
+            "id": "c",
+            "en": "It has no storage costs to pay.",
+            "zh": "它完全不用付倉儲費。"
+          },
+          {
+            "id": "d",
+            "en": "It has promised to fund every supplier indefinitely.",
+            "zh": "它承諾無限期資助所有供應商。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可承擔額外費用的現金儲備是財力證據。",
+        "en": "The port delay added storage fees. One firm has enough cash reserves to cover three extra months, while the smaller supplier would struggle after two weeks. The larger firm has deep pockets, but it still wants the delay resolved.",
+        "zh": "港口延誤增加倉儲費。一家公司有現金儲備，可支付多三個月費用；較小供應商兩星期後便會吃力。大公司資金雄厚，但仍希望解決延誤。"
+      },
+      "reply": {
+        "promptEn": "A port delay adds storage fees. One firm can cover three months from cash reserves; another struggles after two weeks. What is fair to say?",
+        "promptZh": "（港口延誤增加倉儲費。一家公司現金儲備可應付三個月，另一家兩週後便吃力。可以怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first firm has more room to absorb short-term costs.",
+            "zh": "第一家公司較有能力承受短期成本。"
+          },
+          {
+            "id": "b",
+            "en": "The second firm may need an earlier solution.",
+            "zh": "第二家公司可能需要更早解決。"
+          },
+          {
+            "id": "c",
+            "en": "The first firm has deep pockets, although the delay still matters to it.",
+            "zh": "第一家公司資金雄厚，但延誤對它仍有影響。"
+          },
+          {
+            "id": "d",
+            "en": "We should compare actual reserves, not just company size.",
+            "zh": "我們應比較實際儲備，不只看公司大小。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均有根據；金句描述相對財力，不說無限。"
+      },
+      "scene": {
+        "promptZh": "兩間承辦商遇上材料漲價；甲有足夠流動資金維持半年的訂單，乙只有一個月。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Contractor A has deep pockets relative to B.",
+            "zh": "甲承辦商相對乙資金雄厚。"
+          },
+          {
+            "id": "b",
+            "en": "Both contractors have identical reserves.",
+            "zh": "兩家承辦商有完全相同儲備。"
+          },
+          {
+            "id": "c",
+            "en": "A is guaranteed to spend its reserves on every project.",
+            "zh": "甲保證把儲備用在每個項目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可承受成本的時間差反映相對財力。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以斷言公司 has deep pockets？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its logo is famous, but no funding or cash information is available.",
+            "zh": "商標很有名，但沒有資金或現金資料。"
+          },
+          {
+            "id": "b",
+            "en": "Audited reserves cover several months of unexpected costs.",
+            "zh": "經審計的儲備可支付數月意外成本。"
+          },
+          {
+            "id": "c",
+            "en": "It can finance a long repair period from available cash without borrowing.",
+            "zh": "它可用現有現金支付長期維修，不需借款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "名氣不是可用資金證據。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：若貨運延誤，哪家供應商能承受額外冷藏費？其中一家有文件證明儲備可支付六個月。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That supplier has deep pockets for this risk, though we should still limit the delay.",
+            "zh": "就這項風險而言，該供應商資金雄厚，但仍應減少延誤。"
+          },
+          {
+            "id": "b",
+            "en": "Check the reserve documents against the expected fee.",
+            "zh": "把儲備文件與預計費用核對。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether the supplier will accept the storage terms.",
+            "zh": "問供應商會否接受倉儲條款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以可支付的儲備支撐說法。",
+        "promptEn": "A: Which supplier can carry extra cold-storage costs if the shipment is delayed? One has documented reserves for six months. B: ______"
+      },
+      "speaking": {
+        "en": "The builder has deep pockets compared with its rivals, with cash set aside for months of unexpected repair work.",
+        "zh": "建築商相對對手資金雄厚，預留了可支付數月意外維修的現金。",
+        "promptZh": "指出財力證據和能承受哪項成本；不要說資金無限。",
+        "targetSpan": {
+          "start": 16,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個機構面對延誤或額外費用，其中一方有可查證的資金儲備。用英文寫出比較及限制。",
+        "selfCheckZh": "兩例須比較兩個機構，以可用儲備而非名氣作依據，並說明儲備並非無限。",
+        "examples": [
+          {
+            "en": "The publisher has deep pockets relative to the small press: its audited reserve can cover a six-month printing delay, though it still wants the books on time.",
+            "zh": "出版社相對小型印刷社資金雄厚：經審計的儲備可應付六個月的印刷延誤，但它仍希望書按時推出。"
+          },
+          {
+            "en": "The larger clinic has deep pockets compared with the smaller clinic nearby: an audited reserve covers replacement equipment after a costly breakdown, while the smaller clinic must stagger repairs. The larger clinic’s reserve is still finite.",
+            "zh": "較大的診所比鄰近的小診所更能負擔開支：經審計的儲備足以在設備嚴重故障後購置替換器材，小診所卻須分階段維修；大診所的儲備仍然有限。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its audited reserve",
+            "zh": "經審計的儲備",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 79
+            }
+          },
+          {
+            "en": "a six-month printing delay",
+            "zh": "六個月的印刷延誤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 116
+            }
+          },
+          {
+            "en": "replacement equipment",
+            "zh": "替換器材",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 123
+            }
+          },
+          {
+            "en": "a costly breakdown",
+            "zh": "嚴重故障",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 148
+            }
+          },
+          {
+            "en": "stagger repairs",
+            "zh": "分階段維修",
+            "exampleIndex": 1,
+            "span": {
+              "start": 180,
+              "end": 195
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Deep pockets means relative financial capacity, not an endless budget.",
+          "zh": "資金雄厚指相對有財力，不是預算無限。"
+        },
+        {
+          "en": "The clinic with deep pockets still checked the storage bill.",
+          "zh": "資金較雄厚的診所仍核對倉儲費用。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3431",
+      "number": 3431,
+      "inventoryId": "expr-3431",
+      "titleEn": "give with one hand and take with the other",
+      "titleZh": "一邊給予，一邊取回",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:gives with one hand and takes|give with one hand and take|gave with one hand and took|giving with one hand and taking) with the other\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Offer one benefit while another part of the same arrangement removes or reduces its value.",
+        "meaningZh": "同一安排一方面給予好處，另一方面又以另一條款抵銷或減少好處。",
+        "grammar": "give with one hand and take with the other is a paired metaphor; agree the verb forms (gives/takes, gave/took).",
+        "register": "Critical conversational or policy commentary. A tenant adviser may use it when comparing a rent rebate with a new fee.",
+        "boundaryZh": "須同時指出給予和抵銷的具體條款；不同時間的兩件無關事情不宜硬說成一邊給一邊取。",
+        "misconceptionZh": "不是實際左右手的動作，也不表示所有有成本的優惠都毫無價值。",
+        "outcomeZh": "能計算或解釋好處與抵銷因素的關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1320",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 123,
+          "book": 13,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "17–20",
+          "locatorNote": "DOCX table 128, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new agreement gives with one hand and takes with the other.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gives with one hand and takes with the other"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "為何講者認為回贈被抵銷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A compulsory fee almost equals the rent rebate.",
+            "zh": "強制服務費幾乎等同租金回贈。"
+          },
+          {
+            "id": "b",
+            "en": "The rebate is larger than the entire rent.",
+            "zh": "回贈比整筆租金還高。"
+          },
+          {
+            "id": "c",
+            "en": "The service fee is optional and unrelated to the lease.",
+            "zh": "服務費可選，與租約無關。"
+          },
+          {
+            "id": "d",
+            "en": "No tenant will ever pay a monthly bill.",
+            "zh": "租客以後完全不用付月費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一租約新增的強制費用幾乎抵銷回贈。",
+        "en": "The lease offers tenants a monthly rent rebate, but adds a compulsory service fee nearly equal to that rebate. That lease gives with one hand and takes with the other; tenants should compare the final monthly bill.",
+        "zh": "租約給租客每月租金回贈，卻新增一項幾乎等同回贈的強制服務費。這份租約一邊給予，一邊取回；租客應比較最後每月帳單。"
+      },
+      "reply": {
+        "promptEn": "A lease offers a $100 monthly rebate but adds a compulsory $90 service fee. How should tenants assess it?",
+        "promptZh": "（租約每月回贈一百元，卻新增九十元強制服務費。租客應怎樣評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare the final bill rather than the rebate alone.",
+            "zh": "比較最後帳單，不只看回贈。"
+          },
+          {
+            "id": "b",
+            "en": "Ask what the service fee covers.",
+            "zh": "問清楚服務費包含甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "The lease gives with one hand and takes with the other; the net saving is small.",
+            "zh": "租約一邊給一邊取，淨節省很少。"
+          },
+          {
+            "id": "d",
+            "en": "Check whether the fee will rise later.",
+            "zh": "核對服務費日後會否上升。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均合宜；金句點出回贈與費用相互抵銷。"
+      },
+      "scene": {
+        "promptZh": "課程給每名學生一筆教材補助，卻規定必須支付幾乎等額的新教材管理費。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The policy gives with one hand and takes with the other.",
+            "zh": "政策一邊給予，一邊取回。"
+          },
+          {
+            "id": "b",
+            "en": "The subsidy has no attached fee or condition.",
+            "zh": "補助沒有任何附加費或條件。"
+          },
+          {
+            "id": "c",
+            "en": "Students get both the subsidy and a free textbook with no new cost.",
+            "zh": "學生獲補助及免費課本，沒有新費用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新費用幾乎抵銷補助。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說明 an offer gives with one hand and takes with the other？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A discount is given with no new fee or restriction affecting its value.",
+            "zh": "提供折扣，沒有新增費用或限制減少其價值。"
+          },
+          {
+            "id": "b",
+            "en": "A travel credit is offered but a compulsory charge nearly matches it.",
+            "zh": "提供旅遊額度，卻新增近乎等額的強制收費。"
+          },
+          {
+            "id": "c",
+            "en": "A higher allowance is announced while an overlapping benefit is removed.",
+            "zh": "公布較高津貼，同時取消原有相關福利。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有與優惠相抵銷的措施。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：會籍承諾免費送貨，卻把必付年費加至幾乎等於過去送貨費的金額。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives with one hand and takes with the other; compare our total yearly cost.",
+            "zh": "它一邊給一邊取；比較全年總成本吧。"
+          },
+          {
+            "id": "b",
+            "en": "Check whether any other membership benefit has changed.",
+            "zh": "核對其他會員福利有沒有改變。"
+          },
+          {
+            "id": "c",
+            "en": "Calculate how many deliveries we usually need.",
+            "zh": "計算我們平時需要多少次送貨。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句用總成本評估看似免費的好處。",
+        "promptEn": "A: The membership promises free delivery, but it raises the required annual fee by almost the same amount we used to pay for delivery. B: ______"
+      },
+      "speaking": {
+        "en": "The subsidy gave with one hand and took with the other: it lowered tuition but added a mandatory course fee of similar size.",
+        "zh": "補助一邊給予一邊取回：它降低學費，卻新增近乎等額的必付課程費。",
+        "promptZh": "列出好處、同一安排中的抵銷成本及淨效果。",
+        "targetSpan": {
+          "start": 12,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項政策或優惠提供明顯好處，同時有相關強制費或取消原福利。用英文寫出兩邊及淨影響。",
+        "selfCheckZh": "兩例須是同一安排中相關的給予與抵銷。",
+        "examples": [
+          {
+            "en": "The ticket plan gives with one hand and takes with the other: it cuts the entry price by ten dollars but adds a nine-dollar booking fee, so buyers save only one dollar overall.",
+            "zh": "票務計劃一邊給一邊取：門票減十元，卻新增九元訂票費，所以買票者整體只省一元。"
+          },
+          {
+            "en": "The revised contract gave with one hand and took with the other by raising travel support by forty dollars a month while removing the existing transport allowance of thirty-five dollars; workers gain only five dollars overall.",
+            "zh": "修訂合約一邊給一邊取：每月交通支援增加四十元，卻取消原有的三十五元交通津貼；員工整體只多得五元。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the entry price",
+            "zh": "門票價格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "a nine-dollar booking fee",
+            "zh": "九元訂票費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 135
+            }
+          },
+          {
+            "en": "travel support",
+            "zh": "交通支援",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 89
+            }
+          },
+          {
+            "en": "the existing transport allowance",
+            "zh": "原有交通津貼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 162
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An offer can give with one hand and take with the other when a new cost offsets the benefit.",
+          "zh": "新成本抵銷好處時，優惠便可能一邊給一邊取。"
+        },
+        {
+          "en": "The revised grant gave with one hand and took with the other through a matching fee.",
+          "zh": "修訂補助附帶相應費用，一邊給予一邊取回。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3432",
+      "number": 3432,
+      "inventoryId": "expr-3432",
+      "titleEn": "shorts out",
+      "titleZh": "某環節失靈；令系統中斷",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:short|shorts|shorted|shorting) out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A component fails and interrupts a connected system; literally electrical, here extended to a supply or workflow link.",
+        "meaningZh": "一個環節失靈，令相連系統受阻；原指電路短路，這裏延伸到供應或工作流程。",
+        "grammar": "short out is a phrasal verb; shorts out is third-person singular, shorted out past. Its figurative subject is a component or link.",
+        "register": "Informal technical metaphor. A supply planner may use it with colleagues to describe how one failed node affects others.",
+        "boundaryZh": "須有可指出的連鎖影響；單一小錯誤若不影響其他環節，不應誇成整個系統故障。",
+        "misconceptionZh": "不一定真有電路短路；談供應鏈時要清楚指出是比喻。",
+        "outcomeZh": "能指出失靈節點、相連環節和可見後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1321",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 123,
+          "book": 13,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "17–20",
+          "locatorNote": "DOCX table 128, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "If one part shorts out, suppliers elsewhere may suffer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one part shorts out"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者所說失靈的環節會造成甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Orders fail to reach the warehouse, affecting connected suppliers.",
+            "zh": "訂單到不了倉庫，影響相連的供應商。"
+          },
+          {
+            "id": "b",
+            "en": "All growers and shops receive orders as usual.",
+            "zh": "農戶和商店照常收到訂單。"
+          },
+          {
+            "id": "c",
+            "en": "Only the colour of the order form changes.",
+            "zh": "只是訂單表格顏色改變。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker confirms an actual electrical short occurred.",
+            "zh": "講者確認真的發生電路短路。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵節點故障沿流程影響其他單位。",
+        "en": "One server links growers, warehouses and shops. If that part shorts out, orders miss the warehouse and suppliers elsewhere suffer. Here 'shorts out' is a workflow metaphor, not an electrical fault.",
+        "zh": "一個伺服器連接農戶、倉庫和商店。若這個環節失靈，訂單到不了倉庫，其他地方的供應商也會受影響。這裏的「失靈」是工作流程比喻，不是真有電路故障。"
+      },
+      "reply": {
+        "promptEn": "Growers, a warehouse and shops use one ordering server. If it fails, suppliers elsewhere may miss orders. How would you explain the risk?",
+        "promptZh": "（農戶、倉庫和商店共用一個訂貨伺服器。它一旦失靈，其他地方供應商可能收不到訂單。怎樣解釋風險？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared server is a critical link.",
+            "zh": "共用伺服器是關鍵環節。"
+          },
+          {
+            "id": "b",
+            "en": "A backup route for orders could reduce disruption.",
+            "zh": "訂單有後備途徑可減少中斷。"
+          },
+          {
+            "id": "c",
+            "en": "If this one part shorts out, the connected suppliers may be affected.",
+            "zh": "若這一環節失靈，相連的供應商可能受影響。"
+          },
+          {
+            "id": "d",
+            "en": "Test how the warehouse receives orders when the server fails.",
+            "zh": "測試伺服器故障時倉庫怎樣接收訂單。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句指出單一節點失效的連鎖風險。"
+      },
+      "scene": {
+        "promptZh": "票務平台的付款模組失靈，三家場館都收不到已付訂單，也無法讓觀眾入場。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One part shorts out, and several linked venues are disrupted.",
+            "zh": "一個環節失靈，數個相連場館受影響。"
+          },
+          {
+            "id": "b",
+            "en": "The payment module is working and every venue receives orders.",
+            "zh": "付款模組正常，所有場館都收到訂單。"
+          },
+          {
+            "id": "c",
+            "en": "A spelling error in an unrelated poster disrupted the ticket system.",
+            "zh": "無關海報的拼寫錯誤中斷票務系統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共同付款環節失靈，引發多場館連鎖問題。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說明 one part shorts out 的連鎖影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A typo in an unused draft is corrected before it reaches any other team.",
+            "zh": "未使用的草稿有拼寫錯誤，傳給其他組前已更正。"
+          },
+          {
+            "id": "b",
+            "en": "A shared payment system fails, so several shops cannot process orders.",
+            "zh": "共用付款系統故障，數間店無法處理訂單。"
+          },
+          {
+            "id": "c",
+            "en": "A central dispatch list fails to update, delaying several suppliers.",
+            "zh": "中央出貨清單未更新，令數家供應商延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有傳到相連環節，未構成系統性中斷。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：中央預約資料庫故障，三間診所都看不到今天的預約。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "One part has shorted out, and the linked clinics need a backup appointment list.",
+            "zh": "一個環節已失靈，相連診所需要後備預約名單。"
+          },
+          {
+            "id": "b",
+            "en": "Call each clinic to confirm which patients are waiting.",
+            "zh": "致電各診所確認哪些病人等候。"
+          },
+          {
+            "id": "c",
+            "en": "Check whether paper appointment lists are current.",
+            "zh": "核對紙本預約名單是否最新。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以失靈節點說明連鎖影響及後備方案。",
+        "promptEn": "A: The central booking database is down, and three clinics cannot see today’s appointments. B: ______"
+      },
+      "speaking": {
+        "en": "When the shared dispatch system shorted out, four warehouses missed orders and moved to their backup lists.",
+        "zh": "共用出貨系統失靈後，四個倉庫收不到訂單，改用後備清單。",
+        "promptZh": "指出具體節點如何失效及兩個以上相連單位受甚麼影響。",
+        "targetSpan": {
+          "start": 32,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：相連的工作流程中，某個共用節點失效，影響多個單位；團隊採取後備方法。用英文寫出節點、後果和應對。",
+        "selfCheckZh": "本課是比喻用法，不能在沒有證據時聲稱真的電路短路。",
+        "examples": [
+          {
+            "en": "When the shared inventory feed shorted out, two pharmacies missed stock updates and used telephone checks until the feed returned.",
+            "zh": "共用存貨資訊系統失靈後，兩間藥房收不到存量更新，於系統恢復前改用電話核對。"
+          },
+          {
+            "en": "If the central timetable service shorts out, buses in three districts lose live route changes, so controllers keep printed backup schedules ready.",
+            "zh": "若中央時間表服務失靈，三區巴士便收不到即時路線更改；因此控制員備妥紙本後備時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the shared inventory feed",
+            "zh": "共用存貨資訊系統",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 30
+            }
+          },
+          {
+            "en": "stock updates",
+            "zh": "存量更新",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 79
+            }
+          },
+          {
+            "en": "telephone checks",
+            "zh": "電話核對",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 105
+            }
+          },
+          {
+            "en": "live route changes",
+            "zh": "即時路線更改",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 93
+            }
+          },
+          {
+            "en": "printed backup schedules",
+            "zh": "紙本後備時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "If a shared link shorts out, connected teams may need a backup path.",
+          "zh": "共用環節失靈時，相連團隊可能需要後備途徑。"
+        },
+        {
+          "en": "The booking link shorted out, so staff used the paper list.",
+          "zh": "預約環節失靈，職員於是改用紙本名單。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3435",
+      "number": 3435,
+      "inventoryId": "expr-3435",
+      "titleEn": "one job too many",
+      "titleZh": "多出一件無力負荷的事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bone job too many\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "One additional task beyond what a person can reasonably manage at that moment.",
+        "meaningZh": "在已有負擔之上，額外增加一件當下難以合理承擔的工作。",
+        "grammar": "one job too many is a fixed noun phrase, often after be/feel like. It refers to capacity, not necessarily exactly one task in the whole day.",
+        "register": "Informal empathetic phrase. A colleague may use it when discussing someone’s load after overtime.",
+        "boundaryZh": "須交代已有工作與新增任務；不等於當事人懶惰，也不表示該工作永遠不能做。",
+        "misconceptionZh": "不是純粹算一天做了多少「工作」，而是當下可承受的界限。",
+        "outcomeZh": "能說明目前負擔、額外任務和較合理的分工或延期。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1324",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 123,
+          "book": 13,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "21–22",
+          "locatorNote": "DOCX table 129, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Cooking after overtime felt like one job too many.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one job too many"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何說準備簡報超出 Nia 的負荷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It was added after a long shift and an urgent report still due.",
+            "zh": "長時間工作後還有緊急報告，卻又加上簡報。"
+          },
+          {
+            "id": "b",
+            "en": "She had no duties before the presentation request.",
+            "zh": "接到簡報要求前她沒有任何工作。"
+          },
+          {
+            "id": "c",
+            "en": "The presentation had already been finished by Nia.",
+            "zh": "Nia 已完成簡報。"
+          },
+          {
+            "id": "d",
+            "en": "The manager permanently cancelled all presentations.",
+            "zh": "經理永久取消所有簡報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有長班及緊急報告，再加簡報便超出當下合理負荷。",
+        "en": "After a ten-hour shift, Nia still had to finish an urgent incident report. Her manager then asked her to prepare tomorrow’s presentation tonight. That was one job too many, so they reassigned the slides to a rested colleague.",
+        "zh": "Nia 工作十小時後，仍要完成緊急事故報告。經理又要她今晚準備明天的簡報。這是她當下無力承擔的額外工作，因此他們把投影片交給休息較充足的同事。"
+      },
+      "reply": {
+        "promptEn": "Nia worked ten hours and must finish an urgent report. Her manager also asks for tomorrow’s slides tonight. What is a fair response?",
+        "promptZh": "（Nia 工作十小時，還要完成緊急報告。經理又要求她今晚做明天的投影片。怎樣回應較公平？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask whether another colleague can prepare the slides.",
+            "zh": "問另一名同事能否準備投影片。"
+          },
+          {
+            "id": "b",
+            "en": "Decide which task genuinely needs Nia tonight.",
+            "zh": "決定今晚哪項工作真的須由 Nia 處理。"
+          },
+          {
+            "id": "c",
+            "en": "The slides may be one job too many for her tonight; let us reassign them.",
+            "zh": "今晚再加投影片，她可能無力負荷；不如重新分配。"
+          },
+          {
+            "id": "d",
+            "en": "Check whether the slides can wait until morning.",
+            "zh": "看看投影片能否明早才做。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都考慮負荷；金句點出額外任務超過當下容量。"
+      },
+      "scene": {
+        "promptZh": "廚師完成雙倍晚班後仍須清點存貨，主管又要他在關門前獨自重整整個倉庫。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reorganising the warehouse is one job too many for him tonight.",
+            "zh": "今晚再要他重整倉庫，是多一件無力負荷的工作。"
+          },
+          {
+            "id": "b",
+            "en": "He has no other task or fatigue to consider.",
+            "zh": "他沒有其他工作或疲勞要考慮。"
+          },
+          {
+            "id": "c",
+            "en": "The warehouse has already been reorganised by another team.",
+            "zh": "倉庫已由另一隊重整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "現有長班及清點工作令新任務超負荷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能單憑資料說成 one job too many？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A rested worker accepts one planned task during a free shift.",
+            "zh": "休息充足的員工在空閒班次接下原定工作。"
+          },
+          {
+            "id": "b",
+            "en": "A worker ending overtime is assigned another urgent task without relief.",
+            "zh": "員工加班將結束，卻在無人接替下又獲派緊急工作。"
+          },
+          {
+            "id": "c",
+            "en": "A carer handling three appointments is asked to take on an unrelated event that evening.",
+            "zh": "照顧者要處理三個預約，晚上又被要求辦一項無關活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有已滿負荷或新增壓力的證據。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Omar 已代兩名缺席隊友工作，正完成今晚交接。我們還要請他寫活動報告嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That may be one job too many; let us give the report to someone with time.",
+            "zh": "再加報告可能令他無力負荷；交給有時間的人吧。"
+          },
+          {
+            "id": "b",
+            "en": "Check whether the report can wait until tomorrow.",
+            "zh": "看看報告能否明天才寫。"
+          },
+          {
+            "id": "c",
+            "en": "Ask what part of the handover still needs his attention.",
+            "zh": "問交接還有哪些部分須由他處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把現有負擔與合理重新分工連起來。",
+        "promptEn": "A: Omar has covered two absent teammates and is finishing tonight’s handover. Should we ask him to write the event report as well? B: ______"
+      },
+      "speaking": {
+        "en": "After managing the late delivery and the safety check, preparing another full briefing was one job too many for the coordinator.",
+        "zh": "統籌員處理延誤送貨和安全檢查後，再準備一份完整簡報，便成了無力負荷的額外工作。",
+        "promptZh": "指出已有工作、新增工作及較合理的改安排。",
+        "targetSpan": {
+          "start": 91,
+          "end": 107
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人已因必要任務或長時間工作接近容量，再接一項額外工作便不合理。用英文寫出原有負擔和重新分工。",
+        "selfCheckZh": "兩例要有明確原有負擔；不能把任何一項普通工作都說成超負荷。",
+        "examples": [
+          {
+            "en": "After covering the morning clinic and completing a medication audit, another evening shift was one job too many for the nurse, so a rested colleague took it.",
+            "zh": "護士主持早上診症並完成藥物審核後，再做晚班便超出負荷，因此由休息充足的同事接替。"
+          },
+          {
+            "en": "The organiser was handling a venue change and missing supplies; writing the entire guest booklet that night was one job too many, so the team divided the pages.",
+            "zh": "統籌員正處理場地更改和物資不足；當晚再寫整本賓客小冊子令他無力負荷，因此團隊把頁面分工。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the morning clinic",
+            "zh": "早上診症",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 33
+            }
+          },
+          {
+            "en": "a medication audit",
+            "zh": "藥物審核",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 67
+            }
+          },
+          {
+            "en": "a rested colleague",
+            "zh": "休息充足的同事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 148
+            }
+          },
+          {
+            "en": "a venue change",
+            "zh": "場地更改",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 41
+            }
+          },
+          {
+            "en": "the entire guest booklet",
+            "zh": "整本賓客小冊子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 96
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One job too many depends on present capacity, not laziness.",
+          "zh": "多一件事做不來，取決於當下負荷，不代表懶惰。"
+        },
+        {
+          "en": "The extra briefing was one job too many after a full shift.",
+          "zh": "做完整班後，額外簡報成了難以承擔的工作。"
+        }
+      ]
+    }
+  ]
+}

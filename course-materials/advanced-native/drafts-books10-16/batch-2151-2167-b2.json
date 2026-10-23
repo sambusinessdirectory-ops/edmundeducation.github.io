@@ -1403,32 +1403,32 @@
         "zh": "地圖標出了每個無障礙入口，大幅減少了規劃參觀路線時的不確定性。"
       },
       "reply": {
-        "promptZh": "新義工怎樣知道如何替參加者登記？",
+        "promptZh": "（新義工怎樣在活動前學會連接學校投影機？）",
         "options": [
           {
             "id": "a",
-            "en": "They can follow the printed steps at the desk.",
-            "zh": "他們可以依照桌上的印製步驟。"
+            "en": "They can follow the numbered cable diagram on the cabinet.",
+            "zh": "他們可依照櫃上的編號接線圖。"
           },
           {
             "id": "b",
-            "en": "An experienced volunteer can show them the form.",
-            "zh": "有經驗的義工可以向他們示範表格。"
+            "en": "A technician can demonstrate the cable order once.",
+            "zh": "技術員可示範一次接線次序。"
           },
           {
             "id": "c",
-            "en": "A clear guide takes a lot of the guesswork out of registration.",
-            "zh": "清楚的指南大幅減少登記程序中的猜測。"
+            "en": "A labelled cable map takes a lot of the guesswork out of connecting the projector.",
+            "zh": "有標籤的接線圖大幅減少連接投影機時要自行摸索的部分。"
           },
           {
             "id": "d",
-            "en": "They can ask the organiser before the session starts.",
-            "zh": "他們可以在活動開始前詢問主辦者。"
+            "en": "They can test an image and ask about any connection that fails.",
+            "zh": "他們可先測試畫面，再詢問哪個接駁出錯。"
           }
         ],
-        "explanationZh": "四項都能提供協助；金句指出清楚指引可減少登記工作的不確定性。",
+        "explanationZh": "四句都能幫助義工學會接駁；金句指出標示清楚的接線圖可減少自行摸索。",
         "goldenId": "c",
-        "promptEn": "How can new volunteers learn to register participants?"
+        "promptEn": "How can new volunteers learn to connect the school projector before the event?"
       },
       "scene": {
         "promptZh": "社團發給新成員一張列明步驟和所需文件的報名表。哪句最能說明它的作用？",
@@ -1602,7 +1602,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     }
   ]
 }

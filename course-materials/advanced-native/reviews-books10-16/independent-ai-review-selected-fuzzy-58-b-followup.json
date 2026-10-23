@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-exact-hash-four-field-originality-followup",
+  "priorTriage": "course-materials/advanced-native/reviews-books10-16/independent-ai-triage-selected-fuzzy-58-b.json",
+  "drafts": [
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json", "sha256": "7b49320f00561f0df5ae4f08ca3f89f9b67a106bae6bd9f9552a377ac35c9944"},
+    {"file": "course-materials/advanced-native/drafts-books10-16/batch-3640-3689-review-pilot.json", "sha256": "071a337aca262a7ffe30f21a4fcc945e6680bb17f424400b32a93a6408faa2ff"}
+  ],
+  "status": "one-reply-grounding-repair",
+  "fieldReviews": [
+    {"lesson": 3508, "field": "listening.en/zh", "status": "pass", "reason": "Museum audio-tour transcript and three-link route replace the guide source carrier; reading-versus-finding boundary and bilingual key remain aligned."},
+    {"lesson": 3508, "field": "reply.options[2]", "status": "repair", "reason": "The Forms route makes the key source-distinct, but it now says Noor still needs to complete the form although the prompt only establishes that she has not submitted it."},
+    {"lesson": 3508, "field": "scene.options[0]", "status": "pass", "reason": "The keyed route names Activities and Registration and preserves the prompt's unfilled state; it is source-distinct and bilingual."},
+    {"lesson": 3689, "field": "takeaways[0]", "status": "pass", "reason": "Connected/offline booking access is a concrete two-sided case rather than a generic tools sentence; English and Traditional Chinese agree."}
+  ],
+  "findings": [
+    {"id": "F3508-01", "severity": "minor", "path": "lessons[number=3508].reply.options[id=c].en/zh", "issue": "'Still needs to complete and submit it' asserts the form is unfilled; the bilingual prompt only says Noor has not submitted it. It might already be completed.", "requiredRepair": "Say only that she still needs to submit it, or add the unfilled fact to both prompt languages. Keep the route and target phrase."}
+  ],
+  "limits": "Content review of the four originality rewrites only; no human approval, manifest mutation or publication clearance."
+}

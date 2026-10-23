@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3332-3380-b.json",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3332-3380-a.json", "sha256": "b2b42c867046131a19e083e4cecc8e4c4c7da1740238e6b6790aef34f3f84a8b"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3332-3380-a.json", "sha256": "2ad218fdb1c7062b6d4c1e7ad0737fd827b2a127db2deadbc57c99f7b8fd13d5"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "resolvedFindings": [
+    {"id": "R3377-01", "status": "resolved", "evidence": "Writing model 1 explicitly says Jae was excited at purchase, then feels hollow when novelty wears off; model 2 explicitly says the captain was initially thrilled, then feels hollow after the omission. Both Traditional Chinese versions retain the before/after contrast, all five glossary spans are exact, and neither new model copies or nearly copies any of 2,604 guide examples."}
+  ],
+  "mechanicalChecks": {
+    "sourceCopy": "Both changed writing models compared against all 2,604 guide examples with the prior exact/near rule; zero hits. The other 198 learner-facing strings are unchanged from the earlier full-screened hash.",
+    "build": "Focused build and --check pass: eight lessons, 48 questions, 32 audio requests, zero flags."
+  },
+  "perLessonStatus": {
+    "3332": "provisional-content-pass",
+    "3334": "provisional-content-pass",
+    "3336": "provisional-content-pass",
+    "3338": "provisional-content-pass",
+    "3339": "provisional-content-pass",
+    "3359": "provisional-content-pass",
+    "3377": "provisional-content-pass",
+    "3380": "provisional-content-pass"
+  },
+  "remainingFindings": [],
+  "humanApproval": false,
+  "releaseApproval": false
+}

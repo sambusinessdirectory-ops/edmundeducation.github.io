@@ -100,8 +100,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The volunteers worked at a full-throttle pace before the delivery.",
-            "zh": "送餐前，義工以極高強度工作。"
+            "en": "To meet the urgent delivery, the volunteers packed and checked bags at a full-throttle pace.",
+            "zh": "為了趕上這次緊急送餐，義工以極高強度打包並核對每袋內容。"
           },
           {
             "id": "b",
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 6
     },
     {
       "id": "advanced-native-2252",
@@ -505,8 +505,8 @@
           "zh": "小組決定在作下一個決定前放慢節奏、重新整理思路。"
         },
         {
-          "en": "A quiet afternoon helped us slow down and reset after the busy week.",
-          "zh": "忙碌的一週後，寧靜的下午令我們放慢節奏並重新調整。"
+          "en": "After the crowded rehearsal, we stepped into the garden to slow down and reset.",
+          "zh": "擠迫的排練結束後，我們走到花園，放慢節奏並重新整理心情。"
         }
       ],
       "review": {
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2253",

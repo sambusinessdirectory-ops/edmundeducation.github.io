@@ -1,0 +1,59 @@
+{
+  "reviewType": "AI author self-audit; independent English/Chinese, human owner, media and release approval pending",
+  "createdUtc": "2026-10-23T14:31:30.390983+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3559-3627-review-pilot.json",
+  "draftSha256": "9bea90b11143f4cb89df0f2ad938b3f56eebe73af95d5775e6621a294d2c5e0d",
+  "ordinals": [
+    3559,
+    3617,
+    3618,
+    3627
+  ],
+  "selectedManifestSha256": "c039b2ae464e4483f6133571d820d2cd3ab0e81fa4541d2db5a9b4e2734f0ea3",
+  "selectedCollisions": 0,
+  "fullGuideOriginalityScreen": {
+    "sourceRows": 2604,
+    "contiguousThresholdWords": 6,
+    "fuzzySimilarityThreshold": 0.72,
+    "examined": "listening, reply prompt, speaking, two writing models",
+    "hits": 0
+  },
+  "focusedBuild": {
+    "lessons": 4,
+    "questions": 24,
+    "audioRequests": 16,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "authorChecks": {
+    "sourceExamplePattern": "pass",
+    "sixAssessedQuestionsAndFourValidReplies": "author-reviewed",
+    "englishTraditionalChineseFidelity": "author-reviewed",
+    "twoChangedContextWritingModels": "author-reviewed",
+    "answerDerivedGlossarySpans": "pass",
+    "scenarioDiversity": "author-reviewed",
+    "priorOwnerCollision": "screened; human sense approval pending"
+  },
+  "openGates": [
+    "Independent exact-hash English and Traditional Chinese review",
+    "Human source-owner/idiomaticity approval",
+    "Media listening and device QA",
+    "Parent-controlled selection and release"
+  ],
+  "independentInitialReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3559-3627-b.json",
+  "repairs": {
+    "sourceScenarioRewrites": [
+      3559,
+      3617
+    ],
+    "writingCompleteness": [
+      3559,
+      3617,
+      3618,
+      3627
+    ],
+    "contentRevision": 2,
+    "exactHashIndependentFollowup": "pending"
+  }
+}

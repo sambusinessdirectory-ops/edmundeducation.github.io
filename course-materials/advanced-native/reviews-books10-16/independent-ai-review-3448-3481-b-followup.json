@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-exact-hash-nine-finding-followup",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3448-3481-a.json",
+  "draftSha256": "80fbcce1260b27fcb739a72aca250f36c39084c9332465f72a6d39f0e71c2c9b",
+  "authorAuditSha256": "99c44df82374be4544352bade59aa2c0ba4c8fd17a579dfa2ce97ea53cc39d8f",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3448-3481-b.json",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags",
+  "status": "three-residual-content-repairs-before-selection",
+  "priorFindingDisposition": [
+    {"id": "R3448-01", "status": "cleared", "evidence": "The bilingual reply prompt now states ten participants and an existing paper list."},
+    {"id": "R3449-01", "status": "partially-cleared", "evidence": "The prompt now supplies months of repetition and a visible shoe cue, but option B still claims an unsupported superlative: the shoes are 'easiest' to find there."},
+    {"id": "R3452-01", "status": "cleared", "evidence": "Half-hour gap, nearby quick-meal stall and shaded benches now appear in both prompts."},
+    {"id": "R3455-01", "status": "partially-cleared", "evidence": "Repair closure, unusable display room and replacement search now ground the key, but reply D still says visitors can see 'experiments' when only display boards are established."},
+    {"id": "R3458-01", "status": "cleared", "evidence": "The library evening room, two rehearsal meetings and shorter show now appear in both prompts."},
+    {"id": "R3469-01", "status": "cleared", "evidence": "The bilingual reply prompt now gives watching every edit, repeated interruptions and one later review."},
+    {"id": "R3469-02", "status": "cleared", "evidence": "The brief, scene and takeaway now teach personified multiple urgent deadlines as well as intrusive human hovering; source deadline sentence matches the target."},
+    {"id": "R3472-01", "status": "cleared", "evidence": "Both prompts now compare same-route completion without help for the short guide versus repeated help needed for the long guide."},
+    {"id": "R3481-01", "status": "cleared", "evidence": "Both prompts now state a repeated preference for true life stories and prolonged biography browsing."}
+  ],
+  "newOrResidualFindings": [
+    {"id": "R3449-02", "severity": "minor", "path": "lessons[number=3449].reply.options[id=b]", "issue": "'The shoes are easiest to find there' asserts a superlative placement that is absent from the prompt. Repetition and visibility are provided, but no comparison to another location is.", "requiredRepair": "Use a reply tied to the stated visible cue/repeated placement without the comparative claim, or add that comparison to the bilingual prompt."},
+    {"id": "R3455-02", "severity": "minor", "path": "lessons[number=3455].reply.options[id=d]", "issue": "A replacement room could show the display boards, but the prompt does not identify the boards as experiments. 'Visitors see the experiments' is an extra fact.", "requiredRepair": "Replace experiments with display boards in English and Traditional Chinese."},
+    {"id": "R3469-03", "severity": "major", "path": "lessons[number=3469].dialogue.promptEn/promptZh and options", "issue": "The technician merely asks others to wait outside during a repair. The prompt supplies no hovering, repeated demands or deadline pressure, so keyed A's 'us breathing down his neck' is invented; B's need for clear space and C's later update are equally reasonable. The target usage is not grounded.", "requiredRepair": "Add observable intrusive watching/repeated update demands to the bilingual dialogue prompt, then keep the key and distractors distinct; or rewrite the options around the supplied reason."}
+  ],
+  "aliasCoverage": {"owner": 3455, "aliasOrdinal": 4383, "sourceExample": "In a crowded flat, peace and quiet can quickly go out of the window.", "detectorMatch": true, "senseCovered": true, "evidence": "The owner scene and writing model now assess loss of quiet under sustained disturbance, beyond the original timetable sense."},
+  "limits": "Independent content review only; no manifest selection or human/release approval."
+}

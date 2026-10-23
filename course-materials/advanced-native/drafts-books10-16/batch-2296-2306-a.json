@@ -83,8 +83,8 @@
           },
           {
             "id": "c",
-            "en": "It speaks to them personally because it reflects their own working lives.",
-            "zh": "它呈現他們親身的工作經歷，因此令他們深有共鳴。"
+            "en": "Because it speaks to them personally, the exhibition brings back factory routines they still remember.",
+            "zh": "展覽令他們深有共鳴，也喚起他們仍記得的工廠日常。"
           },
           {
             "id": "d",
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2297",
@@ -307,8 +307,8 @@
         }
       ],
       "listening": {
-        "en": "The first podcast episode used interviews, while the second used recorded diaries. The second was every bit as compelling as the first.",
-        "zh": "播客第一集用訪問，第二集用錄製的日記。第二集與第一集同樣引人入勝。",
+        "en": "Episode one drew on interviews; episode two used recorded diaries. Despite that change, I found the diary-led episode every bit as compelling as its predecessor.",
+        "zh": "第一集播客以訪問為主，第二集則採用錄製的日記。形式雖有轉變，我仍覺得以日記帶動的第二集與前一集同樣引人入勝。",
         "promptZh": "說話者如何評價第二集？",
         "options": [
           {
@@ -356,7 +356,7 @@
           },
           {
             "id": "d",
-            "en": "Yes, it is every bit as compelling as the first exhibition.",
+            "en": "Yes, this exhibition is every bit as compelling as its predecessor.",
             "zh": "值得，它與首個展覽同樣引人入勝。"
           }
         ],
@@ -368,8 +368,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The second lecture was every bit as compelling as the first.",
-            "zh": "第二場講座與第一場同樣引人入勝。"
+            "en": "The interview-led session proved every bit as compelling as the photo-led talk.",
+            "zh": "以訪問帶動的講座與以照片帶動的講座同樣引人入勝。"
           },
           {
             "id": "b",
@@ -412,7 +412,7 @@
         "options": [
           {
             "id": "a",
-            "en": "It sounds every bit as compelling as the first, even with a quieter plot.",
+            "en": "The quieter sequel sounds every bit as compelling as that first book.",
             "zh": "雖然情節較平靜，看來它與第一本同樣引人入勝。"
           },
           {
@@ -443,22 +443,22 @@
         "selfCheckZh": "指出兩場演示的形式差別，以及觀眾同樣投入；比較對象須寫清楚。",
         "examples": [
           {
-            "en": "The student experiments made the second demonstration every bit as compelling as the first for our audience.",
-            "zh": "學生實驗令第二場演示對觀眾而言與第一場同樣引人入勝。"
+            "en": "The hands-on experiments made the second demonstration feel every bit as compelling to our audience as the teacher-led first session.",
+            "zh": "動手實驗令第二場演示對觀眾而言，與由教師帶領的第一場同樣引人入勝。"
           },
           {
-            "en": "Although it relied on student experiments rather than a teacher’s talk, the second demonstration was every bit as compelling as the first.",
-            "zh": "第二場演示雖採用學生實驗，而不是教師講解，卻與第一場同樣引人入勝。"
+            "en": "Student-run experiments, rather than a teacher’s talk, made the second demonstration every bit as compelling to our audience as the first.",
+            "zh": "第二場演示由學生做實驗，而不是由教師講解；對我們的觀眾而言，它與第一場同樣引人入勝。"
           }
         ],
         "glossary": [
           {
-            "en": "student experiments",
-            "zh": "學生實驗",
+            "en": "hands-on experiments",
+            "zh": "動手實驗",
             "exampleIndex": 0,
             "span": {
               "start": 4,
-              "end": 23
+              "end": 24
             }
           },
           {
@@ -466,8 +466,8 @@
             "zh": "第二場演示",
             "exampleIndex": 0,
             "span": {
-              "start": 29,
-              "end": 53
+              "start": 30,
+              "end": 54
             }
           },
           {
@@ -475,8 +475,8 @@
             "zh": "我們的觀眾",
             "exampleIndex": 0,
             "span": {
-              "start": 95,
-              "end": 107
+              "start": 87,
+              "end": 99
             }
           },
           {
@@ -484,8 +484,8 @@
             "zh": "教師講解",
             "exampleIndex": 1,
             "span": {
-              "start": 54,
-              "end": 70
+              "start": 37,
+              "end": 53
             }
           },
           {
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2298",
@@ -769,8 +769,8 @@
       },
       "takeaways": [
         {
-          "en": "The documentary tells a gripping real-life story about a neighbourhood rescue.",
-          "zh": "紀錄片講述一次社區救援，是個扣人心弦的真實故事。"
+          "en": "Recorded interviews turn the dockworkers’ rescue into a gripping real-life story.",
+          "zh": "錄製的訪問把碼頭工人的救援經歷串成扣人心弦的真實故事。"
         },
         {
           "en": "A gripping real-life story needs both a factual basis and a way to hold attention.",
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2306",

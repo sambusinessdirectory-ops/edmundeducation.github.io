@@ -975,8 +975,8 @@
         "options": [
           {
             "id": "a",
-            "en": "That question has opened a can of worms; we need a consistent refund rule.",
-            "zh": "那個問題引出一連串棘手事；我們需要一致的退款規則。"
+            "en": "The ten extra refund requests have opened a can of worms; we need a consistent rule.",
+            "zh": "另外十宗退款要求引出一連串棘手事；我們需要一致的規則。"
           },
           {
             "id": "b",
@@ -1136,7 +1136,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 3,
       "listening": {
         "promptZh": "分享會的氣氛為何突然變得尷尬？",
         "options": [
@@ -1333,8 +1333,8 @@
       },
       "takeaways": [
         {
-          "en": "One careless remark can sour the mood even when the gathering started well.",
-          "zh": "即使聚會開頭氣氛良好，一句欠考慮的話也可能破壞氣氛。"
+          "en": "A guest’s mocking comment about someone’s accent can sour the mood at a team dinner.",
+          "zh": "在團隊晚餐中，賓客嘲笑別人的口音，可能破壞氣氛。"
         },
         {
           "en": "The cruel joke soured the mood and left the group silent.",

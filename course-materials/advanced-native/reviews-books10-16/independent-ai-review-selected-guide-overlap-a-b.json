@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent-ai-exact-hash-selected-guide-overlap-review",
+  "scopeLessons": [2296, 2297, 2298, 2519, 3116, 3139, 3199, 3274],
+  "inputFiles": {
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-selected-guide-overlap-repairs-a.json", "sha256": "a6030acea97a0d0f6020ee6aa5b9853dd0f3820f27dd6b5c2cbd9b3ab51e7fbb"},
+    "batch-2296-2306-a.json": "7d957826aab7fcb2dc6518020963989998b15f0658a69e4641ac774da34daaf6",
+    "batch-2511-2521-a.json": "0821ba4a0a0e243c4b82bb8f06eeb02554b93fe6dcfc76f2dcfe3b2b62a16aac",
+    "batch-3109-3126-a.json": "a73bf6bc5d985a044bbded95cc25a310e25715e0577c5353ab36547cf5547206",
+    "batch-3129-3155-a.json": "b49de0d1bdf823a4183241fa01b9208a9708c8b06e092835a4127c3979544a93",
+    "batch-3198-3228-a.json": "bf75cdc0c21cf84976be3e0ca0a5d59f1ca6a977ade1cf908b16fc6192144156",
+    "batch-3230-3274-a.json": "cdb2f941ea8f49ee7ce2f307fa834410365e414bb873181ff388fa8037d4cbc7",
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "mechanicalChecks": {
+    "selection": "All six changed batch files are in the selected manifest; no source-ordinal collision among their 39 selected lessons.",
+    "sourceTargetGlossary": "Eight requested lessons retain matching source examples, target-bearing audio/speaking/keyed reply/scene/dialogue, exact speaking spans and 40 exact non-target glossary spans.",
+    "guideCopyScreen": "196 learner-facing English strings from the eight requested lessons compared against all 2,604 guide examples. Zero whole-text exact copies. Five near hits: two residual near-full guide sentence frames requiring repair (2519, 3274), one 2298 target-plus-ordinary 'tells a' frame in a substantively new diary scenario, and two 3199 hits consisting only of its fixed seven-token target phrase in new contexts. Threshold: six contiguous shared tokens covering 60 percent of shorter text, or nine contiguous tokens.",
+    "build": "Combined focused build and --check across six changed batch files pass: 39 lessons, 234 questions, 156 audio requests, zero flags. This does not certify the two editorial near-copy findings."
+  },
+  "perLesson": [
+    {"sourceOrdinal": 2296, "status": "provisional-content-pass", "findings": [], "evidence": "Factory-exhibition reply is source-distinct and links remembered experience to personal resonance; EN/ZH align."},
+    {"sourceOrdinal": 2297, "status": "provisional-content-pass", "findings": [], "evidence": "Second episode/session/exhibition comparison remains equally engaging; changed EN/ZH and all five glossary spans match their revised answer examples."},
+    {"sourceOrdinal": 2298, "status": "provisional-content-pass", "findings": [], "evidence": "Takeaway 0 now uses recorded dockworker interviews. Writing model 1 shares the conventional 'tells a gripping real-life story' carrier with the guide but adds a new diary/rescue referent and concrete typhoon outcome; no near-full source sentence remains."},
+    {"sourceOrdinal": 2519, "status": "requires-repair", "findings": [{"id": "R2519-SRC-01", "severity": "major", "path": "reply.options[c].en/zh", "text": "The keyed reply `The hurt may run deeper than a brief apology can address.` is the guide sentence `The hurt may run deeper than a quick apology can address.` with only one adjective changed. Recast around Nora's private-news disclosure and continuing avoidance, preserving the target and aligned Chinese; then recheck key fairness and target regex."}], "evidence": "Revised listening audio itself makes a distinct observable trust-withdrawal inference and aligns with Chinese."},
+    {"sourceOrdinal": 3116, "status": "provisional-content-pass", "findings": [], "evidence": "New takeaway uses a guest's accent-mocking at a team dinner, with aligned Chinese and a distinct consequence from the guide."},
+    {"sourceOrdinal": 3139, "status": "provisional-content-pass", "findings": [], "evidence": "Revised audio gives two-tap ordering and home delivery while preserving continued price comparison, so convenience is primary rather than exclusive; EN/ZH and options align."},
+    {"sourceOrdinal": 3199, "status": "provisional-content-pass", "findings": [], "evidence": "Takeaway is a pre-commitment invitation in a new plan context. Two near hits are only the fixed target phrase and not copied source-frame content."},
+    {"sourceOrdinal": 3274, "status": "requires-repair", "findings": [{"id": "R3274-SRC-01", "severity": "major", "path": "takeaways[0].en/zh", "text": "`Kindness need not mean letting children off the hook.` changes only `does not` to `need not` from the guide `Kindness does not mean letting children off the hook.` Retain the target but rewrite as a context-specific consequence of the wrong-time notice or another original scenario; align Chinese."}], "evidence": "Revised listening audio has a distinct error, correction and family-notice repair; this remaining takeaway is the source-copy problem."}
+  ],
+  "findingCount": {"major": 2, "minor": 0},
+  "humanApproval": false,
+  "releaseApproval": false
+}

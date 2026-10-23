@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3548-3557-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3548",
+      "number": 3548,
+      "inventoryId": "expr-3548",
+      "titleEn": "tie a workplace in knots",
+      "titleZh": "令工作場所陷入繁複束縛",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:tie|ties|tied|tying)\\s+(?:[A-Za-z]+\\s+){1,4}in\\s+knots\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Create so much procedural complexity or restriction that ordinary work becomes hard to carry out.",
+        "meaningZh": "使程序過於複雜或限制過多，令日常工作難以進行。",
+        "grammar": "Tie + organisation/workplace/team + in knots; tying is the -ing form. This is a metaphor for operational entanglement, not literal rope.",
+        "register": "Workplace policy review: a manager warns that requiring too many approvals for routine tasks may impede service.",
+        "boundaryZh": "有規則不等於陷入繁複束縛；要看規則是否造成不必要的延誤或互相牴觸。",
+        "misconceptionZh": "不是用繩把辦公室打結，也不是說安全審批一定要取消。",
+        "outcomeZh": "能指出哪項程序造成哪種實際延誤，並保留必要的安全保障。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1437",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 134,
+          "book": 13,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "52–54",
+          "locatorNote": "DOCX table 141, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A rigid rule risks tying every workplace in knots.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tying every workplace in knots"
+        }
+      ],
+      "listening": {
+        "en": "The new policy requires five signatures to replace a broken pen. It risks tying every workplace in knots without improving safety.",
+        "zh": "新政策要求換一支壞筆也要五個簽名，恐怕令每個工作場所陷入繁複束縛，卻沒有改善安全。",
+        "promptZh": "tying every workplace in knots 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Making routine work needlessly difficult through procedures.",
+            "zh": "程序令日常工作無謂地困難。"
+          },
+          {
+            "id": "b",
+            "en": "Physically tying office doors with rope.",
+            "zh": "用繩實際綁住辦公室門。"
+          },
+          {
+            "id": "c",
+            "en": "Making every workplace safer automatically.",
+            "zh": "自動令每個工作場所更安全。"
+          },
+          {
+            "id": "d",
+            "en": "Removing all approval rules.",
+            "zh": "取消所有審批規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連換筆也要五個簽名，顯示行政程序過繁。"
+      },
+      "reply": {
+        "promptEn": "A clinic introduces a rule: nurses need three separate approvals before replacing a used supply tray, so patient rooms wait longer. How does the rule affect routine work?",
+        "promptZh": "（診所新規定：護士更換用過的物資盤前須取得三層審批，令病房等待更久。這規則如何影響日常工作？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It adds unnecessary steps to a simple replacement.",
+            "zh": "它為簡單更換增加不必要步驟。"
+          },
+          {
+            "id": "b",
+            "en": "It delays routine supply work.",
+            "zh": "它拖慢例行物資工作。"
+          },
+          {
+            "id": "c",
+            "en": "It ties the clinic team in knots.",
+            "zh": "它令診所團隊陷入繁複束縛。"
+          },
+          {
+            "id": "d",
+            "en": "It complicates an ordinary task without clear benefit.",
+            "zh": "它令普通任務無故變複雜。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出程序負擔與實際延誤。"
+      },
+      "scene": {
+        "promptZh": "學校規定每次借一支白板筆都須填四份表，老師因此錯過上課前準備。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rule ties the staff in knots.",
+            "zh": "這規則令職員陷入繁複束縛。"
+          },
+          {
+            "id": "b",
+            "en": "The rule physically knots their shoelaces.",
+            "zh": "這規則實際打結他們的鞋帶。"
+          },
+          {
+            "id": "c",
+            "en": "Any form is automatically useless.",
+            "zh": "任何表格都自動沒有用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不必要程序妨礙普通工作。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 tie a workplace in knots？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A single clear safety check catches a real hazard without delaying service.",
+            "zh": "單一清楚的安全檢查發現真實危險，卻沒有拖慢服務。"
+          },
+          {
+            "id": "b",
+            "en": "Three teams must approve a one-minute repair, causing days of delay.",
+            "zh": "一分鐘維修須三隊審批，拖延數天。"
+          },
+          {
+            "id": "c",
+            "en": "Two contradictory forms block a routine delivery.",
+            "zh": "兩份互相矛盾的表格阻礙例行送貨。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "檢查有效且沒有造成繁複阻礙。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有任何安全審批就是 tying us in knots。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A necessary check is different from a process that ties the team in knots with needless delays.",
+            "zh": "必要檢查不同於以無謂延誤令團隊陷入繁複束縛的程序。"
+          },
+          {
+            "id": "b",
+            "en": "All safety checks should be removed.",
+            "zh": "所有安全檢查都應取消。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase refers to tying physical ropes.",
+            "zh": "片語只指綁繩。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "判斷關鍵是程序是否造成不必要的實際阻礙。"
+      },
+      "speaking": {
+        "en": "The four-approval rule is tying the repair team in knots: a loose door handle now waits three days for a signature.",
+        "zh": "四層審批規定令維修團隊陷入繁複束縛：一個鬆脫門柄如今要等三天簽名。",
+        "promptZh": "先聽示範，再指出哪件小事被延誤。",
+        "targetSpan": {
+          "start": 26,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心為安全保留大型維修審批，但新規要求借一卷膠紙也須經三人批准，課堂物資因此常延遲。用一至兩句英文批評造成問題的部分，勿主張取消大型維修的安全審批。",
+        "selfCheckZh": "寫出借膠紙須三人批准、課堂物資延遲、保留大型維修安全審批。",
+        "examples": [
+          {
+            "en": "Requiring three approvals for a roll of tape ties the centre staff in knots and delays class supplies, though major repairs should still receive safety approval.",
+            "zh": "借一卷膠紙也須三人批准，令中心職員陷入繁複束縛，拖慢課堂物資；但大型維修仍應接受安全審批。"
+          },
+          {
+            "en": "The centre should keep safety checks for major repairs, but its three-signature tape rule is tying everyday work in knots by holding up lesson materials.",
+            "zh": "中心應保留大型維修的安全檢查，但借膠紙也要三人簽名的規則令日常工作陷入繁複束縛，拖延課堂物資。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three approvals",
+            "zh": "三人批准",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 25
+            }
+          },
+          {
+            "en": "roll of tape",
+            "zh": "一卷膠紙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 44
+            }
+          },
+          {
+            "en": "class supplies",
+            "zh": "課堂物資",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 101
+            }
+          },
+          {
+            "en": "major repairs",
+            "zh": "大型維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 123
+            }
+          },
+          {
+            "en": "safety checks",
+            "zh": "安全檢查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 36
+            }
+          },
+          {
+            "en": "lesson materials",
+            "zh": "課堂物資",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 152
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Tie a workplace in knots means impede work through excessive complexity.",
+          "zh": "令工作場所陷入繁複束縛，指過多繁複程序妨礙工作。"
+        },
+        {
+          "en": "A useful safety check need not tie a team in knots.",
+          "zh": "有效安全檢查不一定令團隊陷入繁複束縛。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3550",
+      "number": 3550,
+      "inventoryId": "expr-3550",
+      "titleEn": "ground rules",
+      "titleZh": "基本規則",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bground\\s+rules\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Basic agreed rules that set expectations for how people may act in an activity or relationship.",
+        "meaningZh": "為活動或相處方式定下基本行為期望的規則。",
+        "grammar": "Set/agree on/follow ground rules; usually plural. Specify the activity and conduct the rules govern.",
+        "register": "Family planning conversation: parents and teenagers agree on basic phone-use expectations during dinner.",
+        "boundaryZh": "基本規則不等於詳細列出每種情況，也不是單純的願望或目標。",
+        "misconceptionZh": "不是地面上的線，也不是所有規則都必須由一方強行制定。",
+        "outcomeZh": "能提出可執行的基本行為規則，並說明適用情境。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1439",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 134,
+          "book": 13,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 142, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The family agreed on a few ground rules.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ground rules"
+        }
+      ],
+      "listening": {
+        "en": "Before the cousins shared a room, the family agreed on ground rules: ask before borrowing things and keep lights low after ten.",
+        "zh": "表兄弟姊妹同房前，家人先訂好基本規則：借物品前先問，晚上十時後把燈光調暗。",
+        "promptZh": "ground rules 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Basic expectations for sharing the room.",
+            "zh": "同房相處的基本期望。"
+          },
+          {
+            "id": "b",
+            "en": "Lines painted on the floor.",
+            "zh": "畫在地上的線。"
+          },
+          {
+            "id": "c",
+            "en": "A wish without any behaviour to follow.",
+            "zh": "沒有具體行為要求的願望。"
+          },
+          {
+            "id": "d",
+            "en": "Rules that apply only outdoors.",
+            "zh": "只適用於戶外的規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "借物品和燈光安排是同房前約定的行為規則。"
+      },
+      "reply": {
+        "promptEn": "Before a student debate, the class agrees to let each speaker finish and to challenge ideas rather than attack people. What did they establish?",
+        "promptZh": "（學生辯論前，全班同意讓每名發言者說完，並只質疑觀點、不攻擊個人。他們訂立了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They set basic expectations for conduct.",
+            "zh": "他們訂立基本行為期望。"
+          },
+          {
+            "id": "b",
+            "en": "They agreed how people should take turns.",
+            "zh": "他們同意怎樣輪流發言。"
+          },
+          {
+            "id": "c",
+            "en": "They set ground rules for the debate.",
+            "zh": "他們為辯論訂立基本規則。"
+          },
+          {
+            "id": "d",
+            "en": "They clarified acceptable discussion behaviour.",
+            "zh": "他們釐清可接受的討論行為。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指辯論前約定的基本行為。"
+      },
+      "scene": {
+        "promptZh": "義工分組出發前，約好不獨自離隊、有事先通知組長。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They agreed on ground rules for the trip.",
+            "zh": "他們為外出活動訂好基本規則。"
+          },
+          {
+            "id": "b",
+            "en": "They drew rules on the ground.",
+            "zh": "他們把規則畫在地上。"
+          },
+          {
+            "id": "c",
+            "en": "They guaranteed that nothing can go wrong.",
+            "zh": "他們保證絕不會出事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "離隊與通報是可執行的基本規則。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像 ground rules？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A workshop agrees not to share personal stories outside the room.",
+            "zh": "工作坊約定不外傳室內分享的個人故事。"
+          },
+          {
+            "id": "b",
+            "en": "A club says only, “We hope everyone has fun,” without any conduct expectation.",
+            "zh": "社團只說「希望大家玩得開心」，沒有行為期望。"
+          },
+          {
+            "id": "c",
+            "en": "A team agrees on speaking turns before its meeting.",
+            "zh": "團隊會議前約定發言次序。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這是願望而非可依循的行為規則。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「ground rules 一定要列出每個罕見情況。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ground rules establish basic conduct; they need not predict every unusual case.",
+            "zh": "基本規則定出主要行為要求，不必預測每個罕見情況。"
+          },
+          {
+            "id": "b",
+            "en": "A basic rule must be a complete legal code.",
+            "zh": "基本規則必須是完整法典。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase is about the soil.",
+            "zh": "片語談的是泥土。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基本原則與包羅萬有的細則不同。"
+      },
+      "speaking": {
+        "en": "The art club set ground rules for sharing tools: return brushes clean and ask before using someone else’s paint.",
+        "zh": "美術社為共用工具訂立基本規則：還畫筆前先清潔，用別人的顏料前先問。",
+        "promptZh": "先聽示範，再指出其中一項具體規則。",
+        "targetSpan": {
+          "start": 17,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：三名學生準備合作拍短片，拍攝前約定：上載片段前先取得所有出鏡者同意；遇到劇本分歧先討論再投票。用一至兩句英文說明為何這是基本規則。",
+        "selfCheckZh": "寫出拍攝前約定、上載前徵求同意、劇本分歧先討論再投票。",
+        "examples": [
+          {
+            "en": "Before filming, the students set ground rules: get everyone on screen to agree before posting footage, and discuss script disputes before voting.",
+            "zh": "拍攝前，學生訂立基本規則：上載片段前先取得所有出鏡者同意，遇到劇本分歧則先討論再投票。"
+          },
+          {
+            "en": "Their ground rules for the short film cover two basic behaviours: ask for consent before uploading a clip and talk through script disagreements before a vote.",
+            "zh": "他們為短片訂的基本規則涵蓋兩項行為：上載片段前先徵求同意，劇本意見不同時先討論再投票。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Before filming",
+            "zh": "拍攝前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "everyone on screen",
+            "zh": "所有出鏡者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 69
+            }
+          },
+          {
+            "en": "posting footage",
+            "zh": "上載片段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 101
+            }
+          },
+          {
+            "en": "script disputes",
+            "zh": "劇本分歧",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 130
+            }
+          },
+          {
+            "en": "short film",
+            "zh": "短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 37
+            }
+          },
+          {
+            "en": "before a vote",
+            "zh": "投票前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Ground rules establish basic expectations for conduct.",
+          "zh": "基本規則定出主要行為期望。"
+        },
+        {
+          "en": "Useful ground rules say what people should actually do.",
+          "zh": "有用的基本規則會說明人們實際應如何做。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3555",
+      "number": 3555,
+      "inventoryId": "expr-3555",
+      "titleEn": "disappear into their phones",
+      "titleZh": "埋首手機、忽略周遭",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:disappear|disappears|disappeared|disappearing)\\s+into\\s+(?:their|his|her|our|my|your)\\s+phones?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become so absorbed in a phone that nearby people or surroundings receive little attention.",
+        "meaningZh": "太投入手機內容，以致很少留意身邊的人或環境。",
+        "grammar": "Disappear into one’s phone/phones is figurative; use a possessive matching the person or group.",
+        "register": "Family routine discussion: a parent describes children becoming absorbed in phones at dinner.",
+        "boundaryZh": "使用手機本身不一定等於忽略周遭；要有注意力轉移的跡象。",
+        "misconceptionZh": "人沒有真的走進手機，也不能只憑手持手機就推斷沒有在聽。",
+        "outcomeZh": "能描述注意力如何從身邊活動轉到手機，避免過度推斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1444",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 135,
+          "book": 13,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 142, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children can disappear into their phones after dinner.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "disappear into their phones"
+        }
+      ],
+      "listening": {
+        "en": "During the museum tour, two visitors disappeared into their phones and missed the guide’s instruction to meet at the east exit.",
+        "zh": "參觀博物館時，兩名訪客埋首手機，沒聽到導賞員叫大家在東出口集合。",
+        "promptZh": "disappeared into their phones 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They were so absorbed in their phones that they missed the guide.",
+            "zh": "他們太投入手機，沒留意導賞員的指示。"
+          },
+          {
+            "id": "b",
+            "en": "They physically entered the devices.",
+            "zh": "他們實際走進手機。"
+          },
+          {
+            "id": "c",
+            "en": "They put the phones away and listened.",
+            "zh": "他們收起手機並專心聽。"
+          },
+          {
+            "id": "d",
+            "en": "They followed every instruction carefully.",
+            "zh": "他們仔細遵從每項指示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錯過集合指示，顯示注意力被手機吸走。"
+      },
+      "reply": {
+        "promptEn": "Why did the board-game pause? During the next round, two players stared at videos on their screens and missed whose turn it was.",
+        "promptZh": "（桌上遊戲為何停下？下一回合時兩名玩家盯着螢幕影片，連輪到誰也沒注意。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They stopped following the game.",
+            "zh": "他們不再跟上遊戲。"
+          },
+          {
+            "id": "b",
+            "en": "The videos held their attention instead.",
+            "zh": "影片轉而吸引了他們的注意。"
+          },
+          {
+            "id": "c",
+            "en": "They disappeared into their phones.",
+            "zh": "他們埋首手機，忽略周遭。"
+          },
+          {
+            "id": "d",
+            "en": "They missed the turn because they were absorbed in the screens.",
+            "zh": "他們因投入螢幕而錯過回合。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都由錯過回合推知注意力被手機吸走。"
+      },
+      "scene": {
+        "promptZh": "巴士站的朋友一直滑手機，沒聽到同行者說改乘下一班車。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He disappeared into his phone.",
+            "zh": "他埋首手機，忽略了身邊對話。"
+          },
+          {
+            "id": "b",
+            "en": "He physically shrank into the phone.",
+            "zh": "他實際縮進手機。"
+          },
+          {
+            "id": "c",
+            "en": "He listened closely to the plan.",
+            "zh": "他專心聽了計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒聽到同行者說話，支持注意力被手機吸走。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以使用這片語？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A pupil uses a phone to show a map while answering her friend’s route question.",
+            "zh": "學生用手機展示地圖，同時回答朋友的路線問題。"
+          },
+          {
+            "id": "b",
+            "en": "A player watches clips and misses several calls to join the game.",
+            "zh": "玩家看影片，錯過數次叫他加入遊戲的呼喚。"
+          },
+          {
+            "id": "c",
+            "en": "A dinner guest scrolls silently and does not notice others have left.",
+            "zh": "晚餐客人一直滑手機，連其他人已離開也沒察覺。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "手機是共同討論工具，沒有忽略身邊的人。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有人拿着手機，就一定 disappeared into their phone。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Holding a phone alone does not mean someone has disappeared into their phone; we need signs of lost attention.",
+            "zh": "單是拿手機不表示已埋首其中；須有注意力轉移的跡象。"
+          },
+          {
+            "id": "b",
+            "en": "Any phone use proves social withdrawal.",
+            "zh": "任何手機使用都證明不理人。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means a device swallowed someone.",
+            "zh": "片語表示裝置吞下了某人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "判斷重點是是否忽略周遭，而非是否持機。"
+      },
+      "speaking": {
+        "en": "During the picnic, two cousins disappeared into their phones and missed the call to take a group photo.",
+        "zh": "野餐時兩名表親埋首手機，錯過了拍團體照的呼喚。",
+        "promptZh": "先聽示範，再指出他們錯過了甚麼。",
+        "targetSpan": {
+          "start": 31,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：三名社團成員在車站等巴士，本來正討論表演順序；其中兩人開始看手機直播，沒聽到第三人說演出提前十分鐘。用一至兩句英文描述注意力變化，勿說他們真的消失。",
+        "selfCheckZh": "寫出原本討論演出順序、兩人看手機直播、錯過提前十分鐘的通知。",
+        "examples": [
+          {
+            "en": "While the club discussed its running order, two members disappeared into their phones to watch a livestream and missed the announcement that the performance would start ten minutes early.",
+            "zh": "社團討論表演順序時，兩名成員埋首手機看直播，沒聽到演出會提前十分鐘開始的通知。"
+          },
+          {
+            "en": "Two members disappeared into their phones during the bus-stop discussion; because they watched a livestream, they did not hear that the performance would start ten minutes early.",
+            "zh": "兩名成員在巴士站討論期間埋首手機；他們看直播，因而沒聽到演出會提前十分鐘開始。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "running order",
+            "zh": "表演順序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 42
+            }
+          },
+          {
+            "en": "livestream",
+            "zh": "直播",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 107
+            }
+          },
+          {
+            "en": "start ten minutes early",
+            "zh": "提前十分鐘開始",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 186
+            }
+          },
+          {
+            "en": "club",
+            "zh": "社團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 14
+            }
+          },
+          {
+            "en": "bus-stop discussion",
+            "zh": "巴士站討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 72
+            }
+          },
+          {
+            "en": "performance",
+            "zh": "演出",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Disappear into your phone describes lost attention to surroundings.",
+          "zh": "埋首手機，形容對周遭的注意力減少。"
+        },
+        {
+          "en": "Someone can disappear into their phone without literally vanishing.",
+          "zh": "埋首手機不表示人真的消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3557",
+      "number": 3557,
+      "inventoryId": "expr-3557",
+      "titleEn": "come and go",
+      "titleZh": "來來去去、興衰更迭",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:come\\s+and\\s+go|comes\\s+and\\s+goes|came\\s+and\\s+went)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Appear and later disappear over time, especially as interests or fashions change.",
+        "meaningZh": "隨時間出現又消退，尤其指潮流或興趣的更迭。",
+        "grammar": "Come and go; third person comes and goes, past came and went. Subject can be trends, fashions or public interests.",
+        "register": "Media studies reflection: a student observes that short-lived design trends change while basic accessibility needs remain.",
+        "boundaryZh": "某種潮流消退不等於永遠不會再出現；也不表示所有事物都同樣短暫。",
+        "misconceptionZh": "此處不是人實際進出房間；要看長期時間變化。",
+        "outcomeZh": "能對比短暫潮流與較持久的需要，避免把暫時流行當成永恆。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1446",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 135,
+          "book": 13,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "57–60",
+          "locatorNote": "DOCX table 143, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Fashion trends come and go.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come and go"
+        }
+      ],
+      "listening": {
+        "en": "Lunch-box sticker styles come and go, but pupils always need labels they can read quickly when collecting their food.",
+        "zh": "飯盒貼紙的款式來來去去，但學生取餐時始終需要一眼就能看清的標籤。",
+        "promptZh": "come and go 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sticker fashions appear and fade as tastes change.",
+            "zh": "貼紙潮流隨喜好變化而出現又消退。"
+          },
+          {
+            "id": "b",
+            "en": "Stickers walk into and out of a classroom.",
+            "zh": "貼紙走進和走出課室。"
+          },
+          {
+            "id": "c",
+            "en": "Every design remains popular forever.",
+            "zh": "每款設計都永遠受歡迎。"
+          },
+          {
+            "id": "d",
+            "en": "Readable food labels are no longer needed.",
+            "zh": "不再需要清楚易讀的食物標籤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "貼紙款式會變，清楚易讀的標籤仍重要。"
+      },
+      "reply": {
+        "promptEn": "An exhibition looks back at five poster styles that each became popular for a season and then faded. The museum still keeps its readability standard. What does that contrast show?",
+        "promptZh": "（展覽回顧五種海報風格：每種只流行一季便消退。博物館仍維持清晰易讀的標準。這對比說明甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visual fashions change over time.",
+            "zh": "視覺潮流隨時間改變。"
+          },
+          {
+            "id": "b",
+            "en": "Readability can matter after a style fades.",
+            "zh": "某種風格消退後，易讀性仍重要。"
+          },
+          {
+            "id": "c",
+            "en": "Poster fashions come and go.",
+            "zh": "海報潮流來來去去。"
+          },
+          {
+            "id": "d",
+            "en": "A season of popularity is not permanent.",
+            "zh": "流行一季不等於永久。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出短暫風格與持久標準的對比。"
+      },
+      "scene": {
+        "promptZh": "一款濾鏡去年大熱，今年少人用；新款又冒起。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Filter trends come and go.",
+            "zh": "濾鏡潮流來來去去。"
+          },
+          {
+            "id": "b",
+            "en": "Every filter stays equally popular.",
+            "zh": "每款濾鏡都一直同樣流行。"
+          },
+          {
+            "id": "c",
+            "en": "The filters physically walk out.",
+            "zh": "濾鏡實際走出去。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "流行款式隨時間興起與消退。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不符合這個用法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A school’s need for safe drinking water stays important year after year.",
+            "zh": "學校對安全飲用水的需要年復一年都重要。"
+          },
+          {
+            "id": "b",
+            "en": "A dance challenge becomes popular and then fades.",
+            "zh": "某舞蹈挑戰一度流行，後來淡出。"
+          },
+          {
+            "id": "c",
+            "en": "An app style rises and loses favour as newer ones appear.",
+            "zh": "某款應用程式風格興起，隨新款出現而失寵。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是持續基本需要，而非短暫潮流。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「潮流 come and go，所以今次退潮後永不會回來。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Trends can come and go more than once; the phrase does not rule out a revival.",
+            "zh": "潮流可以多次興起又消退；片語不排除再次流行。"
+          },
+          {
+            "id": "b",
+            "en": "A fading trend can never return.",
+            "zh": "消退的潮流永不能回來。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means people walking through a door.",
+            "zh": "片語只指人走過一道門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "來來去去不保證只發生一次。"
+      },
+      "speaking": {
+        "en": "Social-media challenges come and go, but the club still checks safety before joining any new one.",
+        "zh": "社交媒體挑戰來來去去，但社團參與任何新挑戰前仍會先檢查安全。",
+        "promptZh": "先聽示範，再指出哪項做法保持不變。",
+        "targetSpan": {
+          "start": 24,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校圖書館兩年間曾流行彩色貼紙、透明書套等展示風格，後來各自淡出；館員一直堅持書名清楚易見。用一至兩句英文對比短暫風格與持續需要。",
+        "selfCheckZh": "寫出彩色貼紙和透明書套先後流行又淡出、書名易見的需要一直存在。",
+        "examples": [
+          {
+            "en": "Display fashions such as coloured stickers and clear covers come and go, but the library still needs book titles that readers can see easily.",
+            "zh": "彩色貼紙和透明書套等展示潮流來來去去，但圖書館仍需要讀者容易看見的書名。"
+          },
+          {
+            "en": "Coloured labels came and went, and clear covers later did the same; those display styles come and go while readable titles remain essential.",
+            "zh": "彩色標籤曾流行後淡出，透明書套後來也一樣；這些展示風格來來去去，清楚易讀的書名仍不可少。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "coloured stickers",
+            "zh": "彩色貼紙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 42
+            }
+          },
+          {
+            "en": "clear covers",
+            "zh": "透明書套",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 59
+            }
+          },
+          {
+            "en": "book titles",
+            "zh": "書名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 112
+            }
+          },
+          {
+            "en": "see easily",
+            "zh": "容易看見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 140
+            }
+          },
+          {
+            "en": "display styles",
+            "zh": "展示風格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 88
+            }
+          },
+          {
+            "en": "readable titles",
+            "zh": "清楚易讀的書名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 122
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Come and go describes trends that rise and fade over time.",
+          "zh": "來來去去，形容潮流隨時間興起又消退。"
+        },
+        {
+          "en": "A trend can come and go while a basic need persists.",
+          "zh": "潮流可來來去去，基本需要卻持續存在。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

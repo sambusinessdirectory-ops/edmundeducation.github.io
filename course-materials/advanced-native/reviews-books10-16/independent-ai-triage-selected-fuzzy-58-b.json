@@ -1,0 +1,567 @@
+{
+  "reviewType": "independent-332-selected-fuzzy-source-overlap-triage",
+  "input": {
+    "path": "course-materials/advanced-native/reviews-books10-16/selected-guide-overlap-screen-current.json",
+    "sha256": "fe965147f8a26a1a2b8e6138fe21bb132648836b6a5ba634c7621f02edc1cdb4",
+    "manifestSha256": "99e1d363c457f84b4f8c158f2b7c05aac3c9982c4e7095bc7fa38c6e10a04681",
+    "selectedLessons": 332,
+    "sourceExamples": 2604,
+    "fuzzyHitCount": 58,
+    "priorTriageSha256": "33ca27d639b58c7245729be33dcb9301e2f7a116f5c92503720712fb79d1ed34"
+  },
+  "method": "Compared each guide source example and current learner-facing sentence, distinguishing the fixed target words from duplicated carrier, actor, or source situation; retained prior editorial accept decisions only where the present scenario still supports them.",
+  "counts": {
+    "rewriteHits": 10,
+    "rewriteDistinctFields": 4,
+    "acceptHits": 48,
+    "nearFull": 21,
+    "reviewNearFull": 37
+  },
+  "rewriteFields": [
+    {
+      "lesson": 3508,
+      "field": "listening.en",
+      "reason": "After a new click path, the final clause still keeps the source noun guide and the full source carrier “guide is only a few clicks away”; use a genuinely different online item or rephrase the carrier while retaining the target."
+    },
+    {
+      "lesson": 3508,
+      "field": "reply.options[2].en",
+      "reason": "The key changes only guide to form in the complete source sentence. Add the specific Forms-tab route or another source-distinct action to the keyed reply without changing the target."
+    },
+    {
+      "lesson": 3508,
+      "field": "scene.options[0].en",
+      "reason": "The key changes only guide to form in the complete source sentence. Make the two-click Activities-to-Registration route part of the keyed statement."
+    },
+    {
+      "lesson": 3689,
+      "field": "takeaways[0].en",
+      "reason": "Generic “A change can be a blessing or a burden” is a near-complete re-skin of source “New tools can be a blessing or a burden”; make the takeaway name a concrete new two-sided case and its condition."
+    }
+  ],
+  "decisions": [
+    {
+      "screenIndex": 0,
+      "lesson": 2298,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0187",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Diary and typhoon rescue add a concrete first-person historical event, distinct from source documentary; target and generic tells carrier account for resemblance."
+    },
+    {
+      "screenIndex": 1,
+      "lesson": 2414,
+      "field": "listening.en",
+      "sourceId": "book10-16-0303",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Play supplies specific hoarding, profiteering, greed and betrayal absent from generic source novel; no whole-source scenario is carried over."
+    },
+    {
+      "screenIndex": 2,
+      "lesson": 2414,
+      "field": "speaking.en",
+      "sourceId": "book10-16-0303",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Drama betrayal for money supplies a specific action beyond source generic novel; examines is a different carrier."
+    },
+    {
+      "screenIndex": 3,
+      "lesson": 2414,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-0303",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Charity fraud and belonging of donations are concrete moral stakes absent from source generic novel; exposes differs from explores."
+    },
+    {
+      "screenIndex": 4,
+      "lesson": 2457,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 5,
+      "lesson": 2457,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 6,
+      "lesson": 2457,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 7,
+      "lesson": 2457,
+      "field": "speaking.en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 8,
+      "lesson": 2457,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 9,
+      "lesson": 2457,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-0346",
+      "severity": "near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "The fixed long proverb itself accounts for nearly all overlap; the app, translation, photo, navigation and editorial decisions are distinct concrete contexts."
+    },
+    {
+      "screenIndex": 10,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-0533",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 11,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-1297",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 12,
+      "lesson": 2644,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-1781",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 13,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "sourceId": "book10-16-0533",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 14,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1297",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 15,
+      "lesson": 2644,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1781",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Somewhere in the middle is the fixed target and lies is an ordinary grammatical carrier; school timing and library-room compromises supply distinct extremes."
+    },
+    {
+      "screenIndex": 16,
+      "lesson": 2705,
+      "field": "listening.en",
+      "sourceId": "book10-16-0594",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 17,
+      "lesson": 2705,
+      "field": "speaking.en",
+      "sourceId": "book10-16-0594",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 18,
+      "lesson": 2705,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-0594",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 19,
+      "lesson": 2705,
+      "field": "takeaways[1].en",
+      "sourceId": "book10-16-0594",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 20,
+      "lesson": 2705,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0594",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Punishment does not fit the crime is the fixed target phrase; the camera, form, paint and sanction alternatives are specific new cases absent from the generic source."
+    },
+    {
+      "screenIndex": 21,
+      "lesson": 2758,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-0647",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Old library and grandfather are individual learning memories, distinct from source theatre in collective local memory."
+    },
+    {
+      "screenIndex": 22,
+      "lesson": 2758,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0647",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Old stall and mother learning a dish are individual food memories, distinct from source theatre in collective local memory."
+    },
+    {
+      "screenIndex": 23,
+      "lesson": 2851,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-0740",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Missing age groups is a specific omitted-data cue beyond source generic missing context."
+    },
+    {
+      "screenIndex": 24,
+      "lesson": 3014,
+      "field": "listening.en",
+      "sourceId": "book10-16-0903",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Job abroad vs local job supplies a concrete unrealized career path absent from generic source."
+    },
+    {
+      "screenIndex": 25,
+      "lesson": 3014,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0903",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Museum traineeship vs family shop supplies a second concrete unrealized path absent from generic source."
+    },
+    {
+      "screenIndex": 26,
+      "lesson": 3113,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1002",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Museum discount/refund/ticket consequences make the question concrete; source only says that question may open a can of worms."
+    },
+    {
+      "screenIndex": 27,
+      "lesson": 3124,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-1013",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Policy swinging from total ban to no limits differs from source generic online-debate extremes."
+    },
+    {
+      "screenIndex": 28,
+      "lesson": 3162,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1051",
+      "severity": "review-near-full",
+      "action": "accept-repaired-context",
+      "reason": "The earlier schedule/delay near-copy was replaced by repeated website submission failures, with the stressor supplied in the scene; remaining words are the fixed target frame."
+    },
+    {
+      "screenIndex": 29,
+      "lesson": 3165,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-1054",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Long climb and endurance versus speed differ from source long queue."
+    },
+    {
+      "screenIndex": 30,
+      "lesson": 3165,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1054",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Seven-hour choir rehearsal and managed breaks differ from source long queue."
+    },
+    {
+      "screenIndex": 31,
+      "lesson": 3280,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1169",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Correcting mislabeled items gives an observable accountability task distinct from generic source apology."
+    },
+    {
+      "screenIndex": 32,
+      "lesson": 3329,
+      "field": "listening.en",
+      "sourceId": "book10-16-1218",
+      "severity": "review-near-full",
+      "action": "accept-repaired-context",
+      "reason": "The parents and generic load from the source became lab technicians training staff and repairing equipment before a separate open day; remaining similarity is the fixed target."
+    },
+    {
+      "screenIndex": 33,
+      "lesson": 3334,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1223",
+      "severity": "review-near-full",
+      "action": "accept-context-or-fixed-target",
+      "reason": "Concert preparation, labelled cables and backup contact give concrete production detail, distinct from source trip."
+    },
+    {
+      "screenIndex": 34,
+      "lesson": 3431,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1320",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "A ticket discount offset by a nine-dollar booking fee is a fully specified new two-sided policy, beyond the source generic new agreement."
+    },
+    {
+      "screenIndex": 35,
+      "lesson": 3508,
+      "field": "listening.en",
+      "sourceId": "book10-16-1397",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "After a new click path, the final clause still keeps the source noun guide and the full source carrier “guide is only a few clicks away”; use a genuinely different online item or rephrase the carrier while retaining the target."
+    },
+    {
+      "screenIndex": 36,
+      "lesson": 3508,
+      "field": "listening.en",
+      "sourceId": "book10-16-1480",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "After a new click path, the final clause still keeps the source noun guide and the full source carrier “guide is only a few clicks away”; use a genuinely different online item or rephrase the carrier while retaining the target."
+    },
+    {
+      "screenIndex": 37,
+      "lesson": 3508,
+      "field": "listening.en",
+      "sourceId": "book10-16-1772",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "After a new click path, the final clause still keeps the source noun guide and the full source carrier “guide is only a few clicks away”; use a genuinely different online item or rephrase the carrier while retaining the target."
+    },
+    {
+      "screenIndex": 38,
+      "lesson": 3508,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1397",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Add the specific Forms-tab route or another source-distinct action to the keyed reply without changing the target."
+    },
+    {
+      "screenIndex": 39,
+      "lesson": 3508,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1480",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Add the specific Forms-tab route or another source-distinct action to the keyed reply without changing the target."
+    },
+    {
+      "screenIndex": 40,
+      "lesson": 3508,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1772",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Add the specific Forms-tab route or another source-distinct action to the keyed reply without changing the target."
+    },
+    {
+      "screenIndex": 41,
+      "lesson": 3508,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1397",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Make the two-click Activities-to-Registration route part of the keyed statement."
+    },
+    {
+      "screenIndex": 42,
+      "lesson": 3508,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1480",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Make the two-click Activities-to-Registration route part of the keyed statement."
+    },
+    {
+      "screenIndex": 43,
+      "lesson": 3508,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1772",
+      "severity": "near-full",
+      "action": "rewrite-context",
+      "reason": "The key changes only guide to form in the complete source sentence. Make the two-click Activities-to-Registration route part of the keyed statement."
+    },
+    {
+      "screenIndex": 44,
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1397",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 45,
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1480",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 46,
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1772",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 47,
+      "lesson": 3508,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1397",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 48,
+      "lesson": 3508,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1480",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 49,
+      "lesson": 3508,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1772",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 50,
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1397",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 51,
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1480",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 52,
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1772",
+      "severity": "near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed click-distance expression overlaps, but this field adds a distinct timetable, date-checking or concrete navigation task and does not simply reproduce the short source sentence."
+    },
+    {
+      "screenIndex": 53,
+      "lesson": 3689,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1578",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed blessing/burden expression overlaps, but this assessed field includes a new light- or harm-mitigation decision grounded by its prompt; it is not the source tools claim."
+    },
+    {
+      "screenIndex": 54,
+      "lesson": 3689,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-1578",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed blessing/burden expression overlaps, but this assessed field includes a new light- or harm-mitigation decision grounded by its prompt; it is not the source tools claim."
+    },
+    {
+      "screenIndex": 55,
+      "lesson": 3689,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-1578",
+      "severity": "review-near-full",
+      "action": "rewrite-context",
+      "reason": "Generic “A change can be a blessing or a burden” is a near-complete re-skin of source “New tools can be a blessing or a burden”; make the takeaway name a concrete new two-sided case and its condition."
+    },
+    {
+      "screenIndex": 56,
+      "lesson": 3698,
+      "field": "listening.en",
+      "sourceId": "book10-16-1587",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed second-factor idiom overlaps, but the lift-wayfinding or drama-place access scenario specifies a new first and second condition beyond source public trust."
+    },
+    {
+      "screenIndex": 57,
+      "lesson": 3698,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1587",
+      "severity": "review-near-full",
+      "action": "accept-new-context",
+      "reason": "The fixed second-factor idiom overlaps, but the lift-wayfinding or drama-place access scenario specifies a new first and second condition beyond source public trust."
+    }
+  ],
+  "limits": "Read-only editorial triage of fuzzy candidates, not human sign-off or release approval. Exact/high/medium mechanical counts are zero. Rewrites require fresh exact-hash independent review."
+}

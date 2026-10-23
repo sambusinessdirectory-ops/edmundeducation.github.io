@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-eight-lesson-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3801-3871-b.json",
+  "priorReviewSha256": "73e903a02f0a57907793d02ef073cd495dc6f8da024ae42b90b9eb4863b5c595",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3801-3826-review-pilot.json", "sha256": "1bdb36631c6c9c0a00b523efc3f94b9a1d3b3d07167c9c2ac07f6d509aa804d7"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3829-3864-review-pilot.json", "sha256": "d3f85d400959d4b52b60f61ef13f7974da8255ce03c3269461001ea7ceee8b89"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3870-3871-review-pilot.json", "sha256": "ac970ee83b5c2899774e259c8633b4faedea3fd126ab796f97e22e4509bbe404"}
+  ],
+  "authorRepairReportSha256": "2387bce547333236f720223a10789cdf8bdf33202a53afc023a2cf7b7901767b",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "all-four-prior-findings-cleared-at-exact-hashes",
+  "findingOutcomes": [
+    {"id": "R3801-01", "status": "clear", "evidence": "The listening line now says the booking line grew longer because the only ticket desk worked slowly. Traditional Chinese uses the same cause and no longer makes the museum deliberately extend queues. The visitors still choose a smaller gallery, grounding the target."},
+    {"id": "R3864-01", "status": "clear", "evidence": "Both writing models explicitly identify today's electrical failure and its two-day whole-school closure, while retaining yesterday's ten-minute one-classroom outage. English, Traditional Chinese and answer-derived glossary spans align."},
+    {"id": "R3870-01", "status": "clear", "evidence": "Writing model two now explicitly says the office decided to move lunch fifteen minutes earlier; the no-warning, cleaners' rearrangement and unaffected office remain, and the Chinese matches."},
+    {"id": "R3871-01", "status": "clear", "evidence": "Writing model two now names boxing as mainly sport and the tea gathering as mainly social, alongside walking's dual purpose. The Chinese gives the same classification, and the changed glossary span is exact."}
+  ],
+  "unchangedLessons": [3803, 3812, 3826, 3829],
+  "regressionCheck": "The four changed lessons retain the original keyed answer logic, target-bearing assessed items, distinct audio roles, two writing models and non-target answer-derived glossary. No new content defect found in this scoped recheck.",
+  "scopeLimit": "Independent provisional content clearance only; no selection, publication, human approval or release certification is implied."
+}

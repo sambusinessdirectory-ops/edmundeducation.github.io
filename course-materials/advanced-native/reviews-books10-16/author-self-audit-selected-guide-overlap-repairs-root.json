@@ -1,0 +1,115 @@
+{
+  "status": "author-originality-repair-pending-independent-review",
+  "reason": "New six-token full-guide screen found copied context outside fixed targets; revised wording while preserving target meaning and scene.",
+  "selectedLessonIds": [
+    2133,
+    2228,
+    2240,
+    2251,
+    2270,
+    2293,
+    2457,
+    2563,
+    2764,
+    2833,
+    2851,
+    3050,
+    3162
+  ],
+  "files": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2132-2138-b.json",
+      "sha256": "7c797be27f97c0b469532a9bcbbe16838e7d38bff66543be0bc9d6b7f1bda50f",
+      "lessons": [
+        2133
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2209-2231-a.json",
+      "sha256": "153edfedce35cb18be7e6fcc4d101cecce38fcf2d2a54094c799be04097a2ceb",
+      "lessons": [
+        2228
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2235-2246-a.json",
+      "sha256": "6e98f070c84634da897ccdea923d8465aa64c20d6f9edad61e390ac29cee44db",
+      "lessons": [
+        2240
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2251-2269-a.json",
+      "sha256": "49277b67fef399b2b5e653871a42407a9672188ae3211e05679ef761202afd55",
+      "lessons": [
+        2251
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+      "sha256": "7d7502bae02342b04052cdd5b6918d424dc1ae83a714832d6dcc441dadab458e",
+      "lessons": [
+        2270
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json",
+      "sha256": "f6bdc776932a24a1182d8eb267b9548c7066b17e88a88297a058e1837a43be4f",
+      "lessons": [
+        2293
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "sha256": "7d201e6969958fe8841bd46a884ba151e7461283396fb81cec1feb66873bf058",
+      "lessons": [
+        2457
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2524-2563-a.json",
+      "sha256": "dfb891cd5cb5c41790e5441bac05f75715836e49959e7823c562255001c74e44",
+      "lessons": [
+        2563
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-2.json",
+      "sha256": "8a91dd81bec9db3dc456a9d99d713e3852b5551d25ff6150acfcd8a0b2c21bfb",
+      "lessons": [
+        2764
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2833-2870-review-pilot-1.json",
+      "sha256": "eb82be58de838f7c684ea74b163299f4d6f3e6e75cce74c3d75a0be0245a0748",
+      "lessons": [
+        2833,
+        2851
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+      "sha256": "cdab4bf58cf4ce65051c46c20ebcbcdaa17537f933dda19a13735e0df87a56c2",
+      "lessons": [
+        3050
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+      "sha256": "38dd365e1cfcd4c8626ac4c3aea99712d17f0769b4358bca77cf829b33c59029",
+      "lessons": [
+        3162
+      ]
+    }
+  ],
+  "checks": {
+    "selectedGuideOverlapScreen": "0 exact, 0 high, 0 medium after combined A and root repairs among 281 selected drafts",
+    "glossarySpans": "recomputed for changed writing examples",
+    "speakingTargetSpan": "recomputed for changed speaking text",
+    "fullSchema": "281 selected lessons, 1686 questions, 1124 audio roles, 0 schema errors, 0 exact-guide copies, 0 selected near-duplicate flags",
+    "chineseFidelity": "pending independent review",
+    "humanApproval": false,
+    "releaseApproval": false
+  }
+}
