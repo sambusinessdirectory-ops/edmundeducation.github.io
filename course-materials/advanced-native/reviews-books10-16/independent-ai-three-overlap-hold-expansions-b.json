@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent focused exact-hash review of three adjudicated owner expansions",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-three-overlap-hold-expansions-review-pilot.json",
+  "authorAuditSha256": "d8e4d44a908bf59372e9a818999c67ee91192492efcce3ede18e048a9b71e6e5",
+  "status": "AI content-clear for three provisional aliases; no release or media clearance",
+  "scope": "Reviewed exact source examples and decision rows, changed patterns and live positive/negative controls, owner meanings, changed English/Traditional Chinese teaching and assessed scene, source provenance, and unchanged keyed IDs. The unrelated 2929 hold remains unchanged.",
+  "results": [
+    {
+      "sourceOrdinal": 2539,
+      "ownerId": "advanced-native-007",
+      "result": "clear after inherited pronoun-this false-positive repair",
+      "evidence": "Neighbours enduring the storm is legacy 007's difficult-experience sense. The current named-ordeal branch matches the complete source; the legacy it/this forms still work. An independent live test now rejects 'got through this tunnel' and 'got through this routine paperwork' while matching 'get through this with help'. Summary and changed second takeaway teach a named ordeal with natural Chinese. Legacy owner 007 has no sources array, so inventory and decision retain exact provenance."
+    },
+    {
+      "sourceOrdinal": 2715,
+      "ownerId": "advanced-native-287",
+      "result": "clear",
+      "evidence": "Passive sidelining of local artists is the same reduced-prominence/participation sense as 'pushed to the margins', distinct from voluntary observing in owner 4208. The new destination branch matches the exact source and does not match 'stood on the sidelines'. Exact source metadata is attached. The new theatre-stage-time takeaway has evidence of lost prominence, with aligned Traditional Chinese. Assessed answer IDs and sentences remain unchanged."
+    },
+    {
+      "sourceOrdinal": 2826,
+      "ownerId": "advanced-native-2270",
+      "result": "clear",
+      "evidence": "The first article not being 'the final word' is the same nondefinitive-account judgment as selected 2270's 'the last word on'. The new bounded variant matches the full source and excludes 'the final wording' and 'the last word of the play'. Exact provenance is attached. Revised scene key names possible new finds before treating the article as nonfinal; the changed forecast takeaway supplies a different context and its Chinese preserves uncertainty. All answer IDs remain unchanged."
+    }
+  ],
+  "independentChecks": {
+    "allAfterFileSha256MatchAuthorAudit": true,
+    "inventoryAndDecisionRowsExact": "3/3",
+    "newOwnerSourceOccurrenceExact": "2/2; legacy 007 has no sources array",
+    "fullSourceLiveTargetMatch": "3/3 under case-insensitive matching",
+    "pronounThisPhysicalAndRoutineNegatives": "2/2 rejected after repair",
+    "focusedBuildAndCheck": "31 lessons, 186 questions, 124 audio requests, zero flags in both build and --check",
+    "selectedQuestionAnswerIds": "unchanged for owners 287 and 2270"
+  },
+  "blockingFindings": [],
+  "nonblockingScopeNote": "Owner 287's active push/pushes/pushing regex alternatives predate this expansion and were not broadened in verb scope; the newly attached source and taught form are passive. This review did not re-audit every inherited active construction across the catalogue.",
+  "mediaDelta": "Takeaway audio text changed in 007 role 2, 287 role 2 and 2270 role 1; these require regeneration and technical/listening review before release.",
+  "releaseStatus": "No database, upload, public site or media approval claimed."
+}

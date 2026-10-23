@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import legacy from '../../natural-english/advanced-expressions.mjs';
+import {targetPatterns} from '../../natural-english/advanced-display.mjs';
 import {validateRecord,compileRecord,normalise} from './schema.mjs';
 import {buildArtifacts} from './build.mjs';
 const lesson=legacy.find(l=>l.number===7);
@@ -12,7 +13,7 @@ const question=style=>{
 };
 const speaking=lesson.steps.find(s=>s.style==='speak'),writing=get('final');
 const target='got through it',start=speaking.model.indexOf(target);
-const record={id:'advanced-native-1007',number:1007,titleEn:lesson.titleEn,titleZh:lesson.titleZh,category:'phrasal-verb',target:{pattern:String.raw`\b(?:get|gets|got|getting)\s+through\s+(?:it|this)\b`,glossaryForbidden:[String.raw`\b(?:get|gets|got|getting)\s+through\b`]},
+const record={id:'advanced-native-1007',number:1007,titleEn:lesson.titleEn,titleZh:lesson.titleZh,category:'phrasal-verb',target:{pattern:targetPatterns['advanced-native-007'],glossaryForbidden:[String.raw`\b(?:get|gets|got|getting)\s+through\b`]},
  sources:[{file:'TEST FIXTURE ONLY.pdf',referenceSentenceKind:'guide_original_example',sha256:'0'.repeat(64),page:1,book:null,question:null,sample:null,locatorNote:'Synthetic test source; never published.',sentence:'We got through it.',expression:'get through it'}],
  brief:{meaningEn:'Endure or complete a difficult experience.',meaningZh:lesson.meaning,grammar:'get through + object',register:'neutral',boundaryZh:'完成困難不等於變得更強。',misconceptionZh:'過程不一定輕鬆。',outcomeZh:'辨別撐過與成長。'},
  listening:{...question('audio'),en:lesson.audio,zh:lesson.audioZh},reply:question('reply'),scene:question('scene'),contrast:question('contrast'),dialogue:question('branch'),

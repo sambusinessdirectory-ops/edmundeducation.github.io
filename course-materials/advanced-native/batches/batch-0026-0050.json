@@ -640,6 +640,48 @@
           "sentence": "Good teachers open the academic door for new students.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "open the academic door"
+        },
+        {
+          "occurrenceId": "book10-16-0986",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 92,
+          "book": 12,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "56–58",
+          "locatorNote": "DOCX table 93, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Evidence may open the door, but growth often walks them through it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "growth often walks them through it"
+        },
+        {
+          "occurrenceId": "book10-16-1178",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An apology opens the door, but changed behaviour is what walks through it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changed behaviour is what walks through it"
+        },
+        {
+          "occurrenceId": "book10-16-1600",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 150,
+          "book": 14,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 159, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The idea may open a door, but the market decides whether anyone actually walks through it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "market decides whether anyone actually walks through it"
         }
       ],
       "brief": {

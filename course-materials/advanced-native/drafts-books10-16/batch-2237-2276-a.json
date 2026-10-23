@@ -299,6 +299,20 @@
           "sentence": "Treat the advert as a starting point for research.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a starting point"
+        },
+        {
+          "occurrenceId": "book10-16-1268",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 118,
+          "book": 12,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "118–120",
+          "locatorNote": "DOCX table 121, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Treat the suggestion as a starting point, not a final command.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "starting point, not a final command"
         }
       ],
       "review": {

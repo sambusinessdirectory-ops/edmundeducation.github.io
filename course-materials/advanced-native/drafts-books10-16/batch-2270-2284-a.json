@@ -6,17 +6,17 @@
       "id": "advanced-native-2270",
       "number": 2270,
       "inventoryId": "expr-2270",
-      "titleEn": "the last word on",
-      "titleZh": "對某議題的最後定論",
+      "titleEn": "the last / final word",
+      "titleZh": "最後定論",
       "category": "idiom",
       "target": {
-        "pattern": "\\bthe last word on\\b",
+        "pattern": "\\bthe (?:last|final) word on\\b|\\bthe final word(?=\\s*(?:[.!?;,:]|$))",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "The final or supposedly definitive statement about a subject.",
         "meaningZh": "對某議題被視為最終、具權威性的結論或說法。",
-        "grammar": "the last word on the matter; not the last word on a subject.",
+        "grammar": "The last/final word on a subject; the final word may also stand alone when the subject is clear. Negation often warns that a single early source is not definitive.",
         "register": "Neutral set phrase, often used to caution against treating one source as final. A researcher may tell a colleague that one interview should not be treated as the last word on the dispute.",
         "boundaryZh": "表示「最終定論」，不必是字面最後說出的字；單一初步來源往往不足以作定論。",
         "misconceptionZh": "不要因一篇短文或一個人的意見就假設問題已完全解決。",
@@ -36,6 +36,20 @@
           "sentence": "One short article should not be the last word on the subject.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "the last word on"
+        },
+        {
+          "occurrenceId": "book10-16-0715",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "67–68",
+          "locatorNote": "DOCX table 63, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The first article is not the final word.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "final word"
         }
       ],
       "listening": {
@@ -100,8 +114,8 @@
         "options": [
           {
             "id": "a",
-            "en": "That one article may not be the last word on the city’s history.",
-            "zh": "那篇文章未必是古城歷史的最後定論。"
+            "en": "New finds could change the picture, so the article may not be the final word on the city’s history.",
+            "zh": "新發現或會改變看法，因此這篇文章未必是古城歷史的最後定論。"
           },
           {
             "id": "b",
@@ -233,8 +247,8 @@
       },
       "takeaways": [
         {
-          "en": "An early forecast is rarely the last word on next week’s weather.",
-          "zh": "初步預報很少是下週天氣的最後定論。"
+          "en": "An early forecast is rarely the final word.",
+          "zh": "初步預報很少是最後定論。"
         },
         {
           "en": "The panel’s signed report became the last word on the contest result.",
@@ -268,7 +282,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-2272",

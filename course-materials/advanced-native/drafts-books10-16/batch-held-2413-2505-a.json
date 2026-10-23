@@ -39,6 +39,20 @@
           "sentence": "The back-and-forth between suspects kept the trial tense.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "back-and-forth"
+        },
+        {
+          "occurrenceId": "book10-16-0876",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 81,
+          "book": 12,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 83, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The back-and-forth between suspects kept the trial tense.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "back-and-forth"
         }
       ],
       "listening": {

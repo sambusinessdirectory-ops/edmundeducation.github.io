@@ -1,0 +1,114 @@
+{
+  "reviewType": "independent focused review of 16 held-source decisions",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-focused-hold-reconciliation-16-review-pilot.json",
+  "authorAuditSha256": "a8bc3591b479a93e53a222c7daa260084631418448bb6e97f68174f517200c69",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": "Eleven converted aliases and five retained holds; exact source/decision/owner identities, sense, target detection and changed owner fields. Unchanged prior assessments were not re-reviewed.",
+  "method": "Independently compared all 16 exact inventory examples and expressions to current decision rows, every converted owner brief and full-source detector, provenance where supported, and changed-file diffs. Reviewed legacy 009 source text and live display pattern separately.",
+  "convertedAliasReview": [
+    {
+      "sourceOrdinal": 2482,
+      "ownerId": "advanced-native-2443",
+      "result": "clear",
+      "evidence": "The reusable embedded unit 'grinding to a halt' is a complete stop; the engine clause is source-specific. Owner 2443 teaches this stopping sense and its pattern matches the full source."
+    },
+    {
+      "sourceOrdinal": 3379,
+      "ownerId": "advanced-native-2273",
+      "result": "clear",
+      "evidence": "'A starting point' names an initial basis, contrasted with a final command. Owner 2273 teaches initial-not-final reasoning and matches the source."
+    },
+    {
+      "sourceOrdinal": 3619,
+      "ownerId": "advanced-native-2400",
+      "result": "clear",
+      "evidence": "Deliveries keeping businesses moving means continuing operations. The owner covers service/operation continuation and matches the complete sentence."
+    },
+    {
+      "sourceOrdinal": 3985,
+      "ownerId": "advanced-native-3142",
+      "result": "clear",
+      "evidence": "'Do not give up at once after a mistake' expresses immediate timing, not simultaneous acts. Owner 3142 expressly teaches the immediate sense."
+    },
+    {
+      "sourceOrdinal": 4141,
+      "ownerId": "advanced-native-3142",
+      "result": "clear",
+      "evidence": "A picture catching attention 'at once' expresses immediate timing. The same-sense owner is distinct from canonical 048's simultaneous sense."
+    },
+    {
+      "sourceOrdinal": 3763,
+      "ownerId": "advanced-native-020",
+      "result": "clear",
+      "evidence": "Advertising 'shapes' attention and decisions by influencing them, exactly canonical 020's figurative meaning. Both source tokens match its existing inflection detector."
+    },
+    {
+      "sourceOrdinal": 3258,
+      "ownerId": "advanced-native-009",
+      "result": "clear",
+      "evidence": "Short projects are enabling intermediate experiences towards a career, matching legacy 009's stepping-stone outcome. The bounded plural display variant matches; legacy source provenance remains in inventory and decision because that lesson has no sources array."
+    },
+    {
+      "sourceOrdinal": 3520,
+      "ownerId": "advanced-native-1988",
+      "result": "clear",
+      "evidence": "A magazine used intermittently over a week fits the prior return-to-resource sense. The revised pattern includes 'the magazine' and excludes tested literal place uses; grammar now names the resource clearly."
+    },
+    {
+      "sourceOrdinal": 3097,
+      "ownerId": "advanced-native-028",
+      "result": "clear",
+      "evidence": "The bespoke 'growth walks them through it' personification follows the reusable 'open the door' opportunity unit in the same sentence. The owner teaches access without guaranteed success and matches that unit."
+    },
+    {
+      "sourceOrdinal": 3289,
+      "ownerId": "advanced-native-028",
+      "result": "clear",
+      "evidence": "The apology 'opens the door' to possible reconciliation; changed behaviour walking through it is bespoke elaboration. The owner's opportunity-not-completion boundary fits."
+    },
+    {
+      "sourceOrdinal": 3711,
+      "ownerId": "advanced-native-028",
+      "result": "clear",
+      "evidence": "An idea may 'open a door' to opportunity while uptake remains uncertain. The owner explicitly distinguishes opening access from a completed outcome; the later market personification is not a separate stable unit."
+    }
+  ],
+  "retainedHoldReview": [
+    {
+      "sourceOrdinal": 2210,
+      "result": "retain hold",
+      "reason": "Festival character extends owner 1687's wellbeing-routine object and current assessed scope."
+    },
+    {
+      "sourceOrdinal": 2849,
+      "result": "retain hold",
+      "reason": "Working in the dark changes owner 163's 'left in the dark' construction and agency."
+    },
+    {
+      "sourceOrdinal": 3388,
+      "result": "retain hold",
+      "reason": "A window to another culture changes canonical 305's into/onto preposition; naturalness and pattern scope need resolution."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "result": "retain hold",
+      "reason": "The referent of 'it' in 'take the shine off it' is unavailable from the isolated guide sentence, while owner 1839 is trip-specific."
+    },
+    {
+      "sourceOrdinal": 4289,
+      "result": "retain hold",
+      "reason": "Rules keeping pace with invention broadens canonical 590 beyond provision keeping pace with demand."
+    }
+  ],
+  "independentChecks": {
+    "inventoryExpressionAndExampleExact": "16/16",
+    "convertedDecisionActionAndOwnerExact": "11/11",
+    "convertedFullSourceDetectorMatch": "11/11 under case-insensitive matching",
+    "canonicalSourceOccurrenceExact": "10/10 non-legacy converted rows; 009 is legacy without a sources array",
+    "allReferencedDecisionAndOwnerHashesCurrent": true,
+    "changedAssessedQuestionOrKeyFields": 0,
+    "changedOwnerContent": "Only owner 1988 grammar/register/target changed; other current owner JSON changes attach source provenance, while legacy 009 changes the display detector. Current Chinese answers and keyed options were not rewritten by this cohort."
+  },
+  "blockingFindings": [],
+  "limits": "This is independent AI editorial clearance of the 11 specified aliases and support for the five explicit holds, not human approval, audio listening, hosted QA or release approval. The source-specific re-lemma choices should remain visible in provenance and decision reason."
+}

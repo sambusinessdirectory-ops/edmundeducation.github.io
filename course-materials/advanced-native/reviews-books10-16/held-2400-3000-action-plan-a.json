@@ -1,0 +1,579 @@
+{
+  "status": "read-only editorial plan; no decisions/drafts/manifest changed",
+  "scope": {
+    "ordinalMin": 2400,
+    "ordinalMax": 3000,
+    "currentHoldCount": 167,
+    "selectedLessonCount": 579
+  },
+  "inputHashes": {
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "selectedManifest": "8ee3b1a29664dc8d6c7f3c66d7a717cd3766b17b3fffc22ab094c97336ef6548",
+    "decisionFiles": [
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+        "sha256": "a7e1cf4abd1537cd9e483dcf64b438df1f5bad82ca9ec656a6daa856b24d5eee"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+        "sha256": "8269ff182a1e5db80025499deee8ebfa42fefa56143f634383f5a472bf9c29f5"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+        "sha256": "9ce5e1bf2d92803896942c39185e5c9176867e591df5a72b988100c94776968e"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+        "sha256": "7c62049af7b2337afb351053b5744aa412be62b538d5bafa5ce267e2d292b883"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+        "sha256": "af35297774e349bed5011917bb4452a68ce1c6a3c90c7fd27bf0071fcd3ae8d3"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+        "sha256": "48007ebf36399c6bf0d2475cec81e16f8e01aa9ee5b93280f7e9dc56a64b2b99"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+        "sha256": "ba6254c1a3a243454a9eb1601289288b811d3df0ce5affad799c502b04cbd24a"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+        "sha256": "810328fc1e8561aed56374ad25ef6d80c351fc43a37aa332303708f14d8ea2ad"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+        "sha256": "37f632816c90e9def86360485ab0b06074cc52b6888c60f54e281d57d0b0ed80"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+        "sha256": "504b3588067ddb8670ba205fb491ddbfa439d97d978d0bed1033d5a2ea441187"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+        "sha256": "f8ff92903cad6d776ec5e3c3d5d690319b552afa7f0a280ebb3bf32c5ea75be7"
+      }
+    ]
+  },
+  "actionCount": 16,
+  "coveredHeldSourceOrdinalCount": 17,
+  "actions": [
+    {
+      "sourceOrdinals": [
+        2539
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2539,
+          "sourceId": "book10-16-0428",
+          "phrase": "get through",
+          "example": "Neighbours helped each other get through the storm.",
+          "sourceMeaning": "Survive or complete a difficult period or task; a common phrasal verb."
+        }
+      ],
+      "senseEvidence": "Storm is a difficult period to endure, identical to get through it/this; exact prior phrase and guide meaning independently point to owner 007.",
+      "requiredNextStep": "Bound get through + difficult event/object; retain legacy it/this and check full source.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-007",
+      "candidateOwnerTitle": "get through it",
+      "ownerLessonPath": "natural-english/advanced-expressions-part2.mjs",
+      "currentTargetPattern": "Legacy form get through it/this; inspect runtime detector before mutation.",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2551
+      ],
+      "proposedAction": "alias-new",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2551,
+          "sourceId": "book10-16-0440",
+          "phrase": "piece it together",
+          "example": "We used the letters to piece it together.",
+          "sourceMeaning": "Combine fragments into a coherent understanding; a fixed puzzle image."
+        }
+      ],
+      "senseEvidence": "Letters are fragments combined into a coherent account, the same puzzle-assembly decision.",
+      "requiredNextStep": "Add bounded piece it together with a clear antecedent and a changed-context example.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-2411",
+      "candidateOwnerTitle": "piece the puzzle together",
+      "candidateOwnerMeaningZh": "把分散的線索拼合起來，了解事情全貌。",
+      "ownerLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "currentTargetPattern": "\\b(?:piece|pieces|pieced|piecing) the puzzle together\\b",
+      "currentFullSourceMatches": [
+        false
+      ],
+      "ownerSelected": true
+    },
+    {
+      "sourceOrdinals": [
+        2574
+      ],
+      "proposedAction": "alias-new",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2574,
+          "sourceId": "book10-16-0463",
+          "phrase": "run the child's day",
+          "example": "Parents should not let a device run the child's day.",
+          "sourceMeaning": "Control a child's routine; running is figurative."
+        }
+      ],
+      "senseEvidence": "Device controls a child’s daily routine, the same control-versus-assistance decision as running their life.",
+      "requiredNextStep": "Bound run someone’s day to control of routine, not literal hosting of a day.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-2458",
+      "candidateOwnerTitle": "running their life",
+      "candidateOwnerMeaningZh": "主導某人的日常安排或選擇，而不只是提供協助。",
+      "ownerLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "currentTargetPattern": "\\b(?:run|runs|ran|running) (?:my|your|his|her|our|their|its|the) (?:life|lives)\\b",
+      "currentFullSourceMatches": [
+        false
+      ],
+      "ownerSelected": true
+    },
+    {
+      "sourceOrdinals": [
+        2594
+      ],
+      "proposedAction": "alias-new",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2594,
+          "sourceId": "book10-16-0483",
+          "phrase": "money is a good servant, but a poor master",
+          "example": "My grandfather believed money is a good servant, but a poor master in family life.",
+          "sourceMeaning": "Money helps when controlled but harms when allowed to rule life; an extended personification."
+        }
+      ],
+      "senseEvidence": "Money as useful servant but harmful master repeats the tool-versus-user-control proverb taught with technology.",
+      "requiredNextStep": "Review good/brilliant servant variants, money scope, and nonliteral master sense.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-2457",
+      "candidateOwnerTitle": "a brilliant servant, but a poor master",
+      "candidateOwnerMeaningZh": "工具受人支配時很有用；若反過來主導人的選擇，便可能帶來問題。",
+      "ownerLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "currentTargetPattern": "\\ba brilliant servant,?\\s+but a poor master\\b",
+      "currentFullSourceMatches": [
+        false
+      ],
+      "ownerSelected": true
+    },
+    {
+      "sourceOrdinals": [
+        2664
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2664,
+          "sourceId": "book10-16-0553",
+          "phrase": "leave the same deep footprint",
+          "example": "Few new songs leave the same deep footprint for me.",
+          "sourceMeaning": "Have an equally lasting emotional impact; a footprint metaphor."
+        }
+      ],
+      "senseEvidence": "Same deep footprint compares lasting personal impact, matching deeper footprint.",
+      "requiredNextStep": "Bound comparative same deep form and preserve evidence of lasting impact.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-398",
+      "candidateOwnerTitle": "leave a deeper footprint",
+      "candidateOwnerMeaningZh": "以較深足印的意象，形容留下較強、較持久的印象或影響。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0376-0400.json",
+      "currentTargetPattern": "\\b(?:leave|leaves|leaving|left) a deeper footprint\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2674
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2674,
+          "sourceId": "book10-16-0563",
+          "phrase": "keep that door wide open",
+          "example": "The school should keep that door wide open for beginners.",
+          "sourceMeaning": "Preserve access to an opportunity; a door metaphor."
+        }
+      ],
+      "senseEvidence": "Keeping the door wide open preserves an opportunity, the owner’s open-doors sense.",
+      "requiredNextStep": "Bound keep that/the door wide open; reject literal entrances.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-785",
+      "candidateOwnerTitle": "keep more doors open",
+      "candidateOwnerMeaningZh": "保留一個或多個未來選擇，而非現在就把所有可能性定死。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "currentTargetPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2715
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2715,
+          "sourceId": "book10-16-0604",
+          "phrase": "pushed to the sidelines",
+          "example": "Local artists should not be pushed to the sidelines.",
+          "sourceMeaning": "Made less central or influential; a fixed sports-field metaphor."
+        }
+      ],
+      "senseEvidence": "Artists pushed to sidelines lose centrality and influence, as with pushed to margins.",
+      "requiredNextStep": "Add bounded sidelines destination; do not imply complete exclusion.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-287",
+      "candidateOwnerTitle": "pushed to the margins",
+      "candidateOwnerMeaningZh": "在活動或討論中變得較少被看見、較少影響力或較不受重視。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "currentTargetPattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the margins\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2717,
+        2786
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2717,
+          "sourceId": "book10-16-0606",
+          "phrase": "close to home",
+          "example": "The lyrics feel close to home for many listeners.",
+          "sourceMeaning": "Personally or locally familiar; a conventional home metaphor."
+        },
+        {
+          "ordinal": 2786,
+          "sourceId": "book10-16-0675",
+          "phrase": "close to home",
+          "example": "The lyrics feel close to home for many listeners.",
+          "sourceMeaning": "Personally or locally familiar; a conventional home metaphor."
+        }
+      ],
+      "senseEvidence": "The two sources repeat one lyric example; feel/hit close to home both involve personal connection, and owner includes a touching response.",
+      "requiredNextStep": "Check neutral familiarity against owner boundary, then add bounded feel close to home and both provenances.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-1079",
+      "candidateOwnerTitle": "hits close to home",
+      "candidateOwnerMeaningZh": "因與個人經驗有關，而感到格外切身、觸動或不自在。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-1076-1100.json",
+      "currentTargetPattern": "\\bhit(?:s|ting)? close to home\\b",
+      "currentFullSourceMatches": [
+        false,
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2730
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2730,
+          "sourceId": "book10-16-0619",
+          "phrase": "ripple through the city",
+          "example": "News of the concert began to ripple through the city.",
+          "sourceMeaning": "Spread quickly from person to person; a water-ripple metaphor."
+        }
+      ],
+      "senseEvidence": "Concert news rippling through a city has the spreading-news sense of ripple out.",
+      "requiredNextStep": "Add bounded ripple through a place; require a propagation link.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-772",
+      "candidateOwnerTitle": "ripple out / outward",
+      "candidateOwnerMeaningZh": "從最初事件或群體向外擴散，影響其他人或領域。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "currentTargetPattern": "\\brippl(?:e|es|ed|ing) out(?:ward)?\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2762
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2762,
+          "sourceId": "book10-16-0651",
+          "phrase": "a heartbeat of its own",
+          "example": "The small venue seemed to have a heartbeat of its own.",
+          "sourceMeaning": "An independent feeling of life and immediacy; a body metaphor."
+        }
+      ],
+      "senseEvidence": "Venue with a heartbeat of its own has independent life/rhythm, like a pulse of its own.",
+      "requiredNextStep": "Add a bounded heartbeat variant with concrete venue activity.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-1058",
+      "candidateOwnerTitle": "a pulse of its own",
+      "candidateOwnerMeaningZh": "地方、活動或群體獨特的活力、動感或節奏。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "currentTargetPattern": "\\ba pulse of (?:its|their|our) own\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2770
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2770,
+          "sourceId": "book10-16-0659",
+          "phrase": "the weight of a whole nation on their shoulders",
+          "example": "No artist should carry the weight of a whole nation on their shoulders.",
+          "sourceMeaning": "The excessive burden of representing everyone; a physical weight metaphor."
+        }
+      ],
+      "senseEvidence": "Nation-weight on artists’ shoulders is excessive representative responsibility, same weight-of-world image.",
+      "requiredNextStep": "Bound weight of a whole nation; avoid implying all artists represent everyone.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-059",
+      "candidateOwnerTitle": "carry the weight of the world on their shoulders",
+      "candidateOwnerMeaningZh": "覺得肩負極沉重的責任或憂慮。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0051-0075.json",
+      "currentTargetPattern": "\\b(?:carry|carries|carried|carrying)\\s+the\\s+(?:weight\\s+of\\s+the\\s+world|whole\\s+world)\\s+on\\s+(?:my|your|his|her|our|their)\\s+shoulders\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2826
+      ],
+      "proposedAction": "alias-new",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2826,
+          "sourceId": "book10-16-0715",
+          "phrase": "final word",
+          "example": "The first article is not the final word.",
+          "sourceMeaning": "A definitive judgement or account; a conventional phrase."
+        }
+      ],
+      "senseEvidence": "First article not the final word means no definitive account, the same last-word-on decision.",
+      "requiredNextStep": "Add bounded final word form and retain no-final-word task logic.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-2270",
+      "candidateOwnerTitle": "the last word on",
+      "candidateOwnerMeaningZh": "對某議題被視為最終、具權威性的結論或說法。",
+      "ownerLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+      "currentTargetPattern": "\\bthe last word on\\b",
+      "currentFullSourceMatches": [
+        false
+      ],
+      "ownerSelected": true
+    },
+    {
+      "sourceOrdinals": [
+        2849
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2849,
+          "sourceId": "book10-16-0738",
+          "phrase": "working in the dark",
+          "example": "Investigators were working in the dark until the records arrived.",
+          "sourceMeaning": "Operating without information or guidance; a fixed light metaphor."
+        }
+      ],
+      "senseEvidence": "Investigators working in dark before records arrive share the owner’s lack-of-information task decision.",
+      "requiredNextStep": "Compare working versus tentative groping, then add bounded work in dark; avoid passive owner 163.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-1916",
+      "candidateOwnerTitle": "grope in the dark",
+      "candidateOwnerMeaningZh": "缺乏足夠資訊、例子或指引時，嘗試理解或繼續做。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "currentTargetPattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2929
+      ],
+      "proposedAction": "distinct-teachable-lesson",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2929,
+          "sourceId": "book10-16-0818",
+          "phrase": "make the most of it",
+          "example": "We have one free evening, so let's make the most of it.",
+          "sourceMeaning": "Use an opportunity fully; a conventional phrase."
+        }
+      ],
+      "senseEvidence": "Make the most of it naturally means use the one free evening fully; owner 1616 is confined to limited physical space.",
+      "requiredNextStep": "Draft a seven-step generic time/opportunity lesson with two changed settings and boundary against over-scheduling.",
+      "status": "proposal-only"
+    },
+    {
+      "sourceOrdinals": [
+        2936
+      ],
+      "proposedAction": "alias-existing",
+      "confidence": "high",
+      "source": [
+        {
+          "ordinal": 2936,
+          "sourceId": "book10-16-0825",
+          "phrase": "the invisible glue",
+          "example": "Trust is the invisible glue in a good team.",
+          "sourceMeaning": "A less visible quality that holds people together; a glue metaphor."
+        }
+      ],
+      "senseEvidence": "Trust as invisible glue in a team is the owner’s group-cohesion factor.",
+      "requiredNextStep": "Add bounded invisible glue with team referent and actual cooperation evidence.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-110",
+      "candidateOwnerTitle": "the glue that holds the group together",
+      "candidateOwnerMeaningZh": "讓團體保持連繫、團結與合作的人或因素。",
+      "ownerLessonPath": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "currentTargetPattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)",
+      "currentFullSourceMatches": [
+        false
+      ]
+    },
+    {
+      "sourceOrdinals": [
+        2966
+      ],
+      "proposedAction": "alias-new",
+      "confidence": "moderate",
+      "source": [
+        {
+          "ordinal": 2966,
+          "sourceId": "book10-16-0855",
+          "phrase": "all glitter and no substance",
+          "example": "The ceremony was all glitter and no substance.",
+          "sourceMeaning": "Attractive on the surface but lacking real value; a conventional contrast."
+        }
+      ],
+      "senseEvidence": "Showy ceremony without real value makes the same appearance-versus-results judgement as more show than substance.",
+      "requiredNextStep": "Add bounded all glitter and no substance and preserve an evidence threshold.",
+      "status": "proposal-only",
+      "candidateOwnerId": "advanced-native-2961",
+      "candidateOwnerTitle": "more show than substance",
+      "candidateOwnerMeaningZh": "表面聲勢或宣傳大於真正的實際價值。",
+      "ownerLessonPath": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "currentTargetPattern": "\\bmore show than substance\\b",
+      "currentFullSourceMatches": [
+        false
+      ],
+      "ownerSelected": true
+    }
+  ],
+  "unresolvedBlockers": [
+    {
+      "sourceOrdinals": [
+        2401,
+        2406
+      ],
+      "reason": "Pressure/suspense usage and the tension snap need natural construction review; neither should be promoted from the current wording."
+    },
+    {
+      "sourceOrdinals": [
+        2472,
+        2541
+      ],
+      "reason": "Repeated make the topic open up lacks a secure natural object/use of open up."
+    },
+    {
+      "sourceOrdinals": [
+        2507
+      ],
+      "reason": "Write on water may be literary; the exhausted-memory simile does not prove an everyday fixed use."
+    },
+    {
+      "sourceOrdinals": [
+        2646,
+        2678
+      ],
+      "reason": "Identical cultural-memory noun source repeats, while owner 406 tests uncovering a layer; generic concept needs owner-scope review before any alias."
+    },
+    {
+      "sourceOrdinals": [
+        2663
+      ],
+      "reason": "Prior independent review found time-capsule lesson repeated selected 2726’s sound-triggered nostalgia decision."
+    },
+    {
+      "sourceOrdinals": [
+        2676
+      ],
+      "reason": "Stitch it back together has no explicit referent; owner 1357 specifically restores social fabric."
+    },
+    {
+      "sourceOrdinals": [
+        2729
+      ],
+      "reason": "The spotlight is shared does not assert the unequal sharing taught by owner 1478."
+    },
+    {
+      "sourceOrdinals": [
+        2837
+      ],
+      "reason": "Good news with a spring in its step personifies news; owner 804 teaches an animate walker."
+    },
+    {
+      "sourceOrdinals": [
+        2987
+      ],
+      "reason": "Back-and-forth between suspects could mean exchange or shifting suspicion; intended action remains ambiguous."
+    },
+    {
+      "sourceOrdinals": [
+        2405,
+        2408,
+        2409,
+        2448,
+        2543,
+        2652,
+        2692,
+        2727,
+        2782,
+        2843
+      ],
+      "reason": "Tailored images or doubtful collocations need a stable shorter target and natural usage evidence."
+    }
+  ],
+  "otherHeldOrdinalsNotPrioritized": 128,
+  "limits": [
+    "Alias proposals require exact full-source target coverage plus source/sense, grammar, Chinese and changed-context review before reclassification.",
+    "Unlisted holds remain held; this is a prioritized plan rather than an exhaustive editorial audit."
+  ]
+}

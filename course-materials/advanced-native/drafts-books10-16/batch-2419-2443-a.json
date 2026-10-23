@@ -837,6 +837,20 @@
           "sentence": "The project ground to a halt when the supplier failed.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "ground to a halt"
+        },
+        {
+          "occurrenceId": "book10-16-0371",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 34,
+          "book": 10,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 30, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Clear communication is the engine that keeps modern work from grinding to a halt.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "engine that keeps modern work from grinding to a halt"
         }
       ],
       "listening": {

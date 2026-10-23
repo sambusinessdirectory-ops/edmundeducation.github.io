@@ -9,9 +9,9 @@ export const targetPatterns={
  'advanced-native-004':String.raw`\b(?:throw|throws|threw|throwing|thrown)(?:\s+(?:me|you|him|her|us|them))?\s+in\s+at\s+the\s+deep\s+end\b`,
  'advanced-native-005':String.raw`\bthe\s+making\s+of\s+(?:me|you|him|her|us|them|someone|a\s+person)\b`,
  'advanced-native-006':String.raw`\bback(?:s|ed|ing)?\s+out\b`,
- 'advanced-native-007':String.raw`\b(?:get|gets|got|getting)\s+through\s+(?:it|this)\b`,
+ 'advanced-native-007':String.raw`\b(?:get|gets|got|getting)\s+through\s+(?:it|this(?=$|[.!?,;:]|\s+(?:with|by|together|after|before|despite|while|although|and|because|when)\b)|(?:a|the|this|that)\s+(?:storm|ordeal|crisis|difficult\s+week|hard\s+period|recovery)(?=$|[.!?,;:]|\s+(?:with|by|together|after|before|despite|while|although|and|because|when)\b))\b`,
  'advanced-native-008':String.raw`\b(?:come|comes|came|coming)\s+out\s+stronger\b`,
- 'advanced-native-009':String.raw`\bstepping\s+stone\b`,
+ 'advanced-native-009':String.raw`\bstepping\s+stones?\b`,
  'advanced-native-010':String.raw`\bstumbling\s+block\b`,
  ...importedTargetPatterns
 };

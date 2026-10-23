@@ -1,0 +1,178 @@
+{
+  "title": "Three adjudicated held-source owner expansions — exact-hash author audit",
+  "status": "Provisional AI-authored changes pending independent AI peer review; no human or release approval claimed.",
+  "previousIndependentAdjudication": "reviews-books10-16/independent-ai-overlap-hold-adjudication-2539-2715-2826-2929-b.json",
+  "sourceAndOwnerDecisions": [
+    {
+      "sourceOrdinal": 2539,
+      "sourceId": "book10-16-0428",
+      "sourceExpression": "get through",
+      "exactSourceSentence": "Neighbours helped each other get through the storm.",
+      "sourceMeaningNote": "Survive or complete a difficult period or task; a common phrasal verb.",
+      "decision": {
+        "sourceOrdinal": 2539,
+        "sourceId": "book10-16-0428",
+        "phrase": "get through",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-007",
+        "reason": "The neighbours endure a named storm, the same difficult-experience sense as legacy 007. Its bounded detector now accepts named ordeals while rejecting physical passage and routine task completion. Provisional; independent AI review pending."
+      },
+      "ownerId": "advanced-native-007",
+      "fullSourcePatternMatch": true,
+      "legacyProvenance": "Legacy 007 has no sources array; exact source remains in inventory and decision row."
+    },
+    {
+      "sourceOrdinal": 2715,
+      "sourceId": "book10-16-0604",
+      "sourceExpression": "pushed to the sidelines",
+      "exactSourceSentence": "Local artists should not be pushed to the sidelines.",
+      "sourceMeaningNote": "Made less central or influential; a fixed sports-field metaphor.",
+      "decision": {
+        "sourceOrdinal": 2715,
+        "sourceId": "book10-16-0604",
+        "phrase": "pushed to the sidelines",
+        "action": "proposed-alias-existing",
+        "canonicalId": "advanced-native-287",
+        "reason": "Local artists lose centrality and influence, the same marginalisation decision as canonical 287. “To the sidelines” is a bounded destination variant of “to the margins,” not owner 4208’s voluntary observing role. Provisional; independent AI review pending."
+      },
+      "ownerId": "advanced-native-287",
+      "fullSourcePatternMatch": true,
+      "sourceOccurrenceAttached": true,
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 2826,
+      "sourceId": "book10-16-0715",
+      "sourceExpression": "final word",
+      "exactSourceSentence": "The first article is not the final word.",
+      "sourceMeaningNote": "A definitive judgement or account; a conventional phrase.",
+      "decision": {
+        "sourceOrdinal": 2826,
+        "sourceId": "book10-16-0715",
+        "phrase": "final word",
+        "action": "proposed-alias-new",
+        "canonicalId": "advanced-native-2270",
+        "reason": "The first article is not the definitive account, matching selected owner 2270. The owner now teaches “the final word” without an on-complement alongside “the last word on”; both are bounded target forms. Provisional; independent AI review pending."
+      },
+      "ownerId": "advanced-native-2270",
+      "fullSourcePatternMatch": true,
+      "sourceOccurrenceAttached": true,
+      "contentRevision": 5
+    }
+  ],
+  "ownerScope": {
+    "007": "Named storm is an ordeal endured with support, not literal travel. Lesson 007 already assesses endurance; summary and a new named-ordeal takeaway explain the variant.",
+    "287": "Passive marginalisation of local artists has the same reduced-participation sense as margins. Grammar, bounded detector and a new theatre-programming takeaway teach the sidelines variant while answer IDs remain unchanged.",
+    "2270": "A first article is not definitive. The final word variant is taught in title/grammar, a keyed scene answer and takeaway; existing last word on examples remain. Answer IDs remain unchanged."
+  },
+  "patternControls": {
+    "7": {
+      "pattern": "\\b(?:get|gets|got|getting)\\s+through\\s+(?:it|this(?=$|[.!?,;:]|\\s+(?:with|by|together|after|before|despite|while|although|and|because|when)\\b)|(?:a|the|this|that)\\s+(?:storm|ordeal|crisis|difficult\\s+week|hard\\s+period|recovery)(?=$|[.!?,;:]|\\s+(?:with|by|together|after|before|despite|while|although|and|because|when)\\b))\\b",
+      "positive": [
+        "We got through it with support.",
+        "Neighbours helped each other get through the storm.",
+        "Our team got through the difficult week by sharing the work.",
+        "We can get through this with help."
+      ],
+      "negative": [
+        "We got through the tunnel.",
+        "We got through the storm drain.",
+        "We got through the routine paperwork.",
+        "We got through this tunnel.",
+        "We got through this routine paperwork."
+      ],
+      "positiveResults": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "negativeResults": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "287": {
+      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the (?:margins|sidelines)\\b",
+      "positive": [
+        "Local artists should not be pushed to the sidelines.",
+        "Small groups were pushed to the margins.",
+        "They pushed quietly to the margins."
+      ],
+      "negative": [
+        "The performer stood on the sidelines.",
+        "They were pushed toward the margins."
+      ],
+      "positiveResults": [
+        true,
+        true,
+        true
+      ],
+      "negativeResults": [
+        false,
+        false
+      ]
+    },
+    "2270": {
+      "pattern": "\\bthe (?:last|final) word on\\b|\\bthe final word(?=\\s*(?:[.!?;,:]|$))",
+      "positive": [
+        "The first article is not the final word.",
+        "This is not the final word on the matter.",
+        "That article is not the last word on the subject."
+      ],
+      "negative": [
+        "He spoke the last word of the play.",
+        "This is the final wording."
+      ],
+      "positiveResults": [
+        true,
+        true,
+        true
+      ],
+      "negativeResults": [
+        false,
+        false
+      ]
+    }
+  },
+  "assessedAnswerIdsUnchanged": {
+    "287": true,
+    "2270": true
+  },
+  "beforeFileSha256": {
+    "natural-english/advanced-display.mjs": "7a1440433565e36b11bce6973c3535b04c83f5623a8bcb8a2b659c3a6e57f86e",
+    "natural-english/advanced-expressions-part2.mjs": "98f44b1eb08d4806a269c47a93dc1b7c8af09a3eb2440a8330df867f7bc6d3c3",
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "f832fc36ff26c381158584b663a6e8faa5159d2f1a2f0dee1973ed73d5c818a1",
+    "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json": "5b2bdf2ae52dabb9492bc7343c24f99edde70e6f20ecd3871d3f033d7a37d027",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl": "7c62049af7b2337afb351053b5744aa412be62b538d5bafa5ce267e2d292b883",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "ba6254c1a3a243454a9eb1601289288b811d3df0ce5affad799c502b04cbd24a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl": "810328fc1e8561aed56374ad25ef6d80c351fc43a37aa332303708f14d8ea2ad"
+  },
+  "afterFileSha256": {
+    "natural-english/advanced-display.mjs": "9544a1699b55fe03efa8154868aa43222c1406399be3cb66364a4f490e2a7527",
+    "natural-english/advanced-expressions-part2.mjs": "907d5a7fec0017755ef88f3c19f75572a5e31982b27463505871b505b809d665",
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "67897dd74d5304704af2d2b9de35244ace500c7fb3fbde3ef580c0609838f339",
+    "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json": "4a9affc2daf180277a652a2ff947c5b6e776e6ff921c13ca8defad16acff80b9",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl": "f628f0cf5af1f189d6c5f59a0f255c164e0710d7fb6669119dc0904a6d8173ce",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl": "e8cf00daea9717734d1be5a99e043c72a7590873800a32dc2f544ba4b39e41b4",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl": "9df8058dfb802d9108ebad390fc64603eb3b87ed93a5ba9693982bba3519b499"
+  },
+  "checks": {
+    "focusedBuildAndCheck": "31 lessons, 186 questions, 124 audio requests, zero review flags; both build and --check passed",
+    "wholeCatalogueVerifier": "579 selected lessons, 3474 questions, 2316 audio roles; 1121 existing aliases, 169 new aliases, 735 holds; zero schema errors",
+    "existingAliasAudit": "1121/1121 full-source matches, zero exceptions",
+    "newAliasAudit": "169/169 full-source matches, zero exceptions",
+    "JavaScriptSyntax": "node --check passed for both edited .mjs files",
+    "gitDiffCheck": "passed"
+  },
+  "excludedSource2929": "Remains hold-editorial: free evening opportunity requires a substantive time/resource broadening of space-specific canonical 1616; no decision, lesson or detector changed.",
+  "audioDelta": "Lesson 007 takeaway 2; canonical 287 takeaway 2; and owner 2270 takeaway 1 changed. 287 and 2270 contentRevision increased. These changed spoken strings need audio regeneration/review before release.",
+  "limitations": [
+    "Legacy 007 has no per-lesson source occurrence metadata field.",
+    "Target regexes identify surface forms; source context and assessed tasks distinguish figurative from literal readings.",
+    "No selected manifest, database, media upload or live release was changed."
+  ]
+}

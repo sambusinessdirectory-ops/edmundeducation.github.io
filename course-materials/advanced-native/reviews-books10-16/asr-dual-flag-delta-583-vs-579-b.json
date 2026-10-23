@@ -1,0 +1,20 @@
+{
+  "status": "read-only exact-key ASR delta; no listening or pronunciation approval",
+  "currentQueue": "../audio-production/combined-20261024-583/audio-queue.generated.json",
+  "currentQueueSha256": "c4f30312581945415ef007f40171a65c783c2c2836cbdbb766fda8d24dcdf728",
+  "currentSmallAsr": "../audio-production/combined-20261024-583/asr-small-flags-2426.json",
+  "currentSmallAsrSha256": "5a5e165f7e26a530b62257c336b3c060f5c9ec7516d0dcc0353f16aa7e0500c5",
+  "priorAdjudication": "course-materials/advanced-native/reviews-books10-16/asr-dual-model-adjudication-2417-a.json",
+  "priorAdjudicationSha256": "a228b2a5af90d18de183f3332f4c07308bc6d49b6d65d3b1d2fba22a3d0a1e9e",
+  "prior579Retained": 28,
+  "current583Retained": 28,
+  "addedSynthesisKeys": [],
+  "removedSynthesisKeys": [],
+  "changedExpectedKeys": [],
+  "changedSmallTranscriptKeys": [],
+  "carriedPriorClassification": {
+    "likelyAsrOrthographicOrHomophone": 19,
+    "targetedListeningRequired": 9
+  },
+  "conclusion": "The 28 dual-ASR flags are the exact same synthesis keys with unchanged expected text and second-model transcripts as the prior 579-queue adjudication. No new or changed flag in the 583 cohort. Prior nine targeted-listening cases remain open; no listening performed."
+}

@@ -1,0 +1,349 @@
+{
+  "title": "Focused 16-row held-source owner reconciliation — author audit",
+  "status": "Provisional AI editorial decisions; independent AI peer review pending. No human approval or release claim.",
+  "baseSelectedLessons": 579,
+  "baseQuestions": 3474,
+  "baseAudioRoles": 2316,
+  "cohort": {
+    "assigned": 16,
+    "convertedToExistingAlias": 6,
+    "convertedToNewAlias": 5,
+    "remainingHeld": 5,
+    "holdOrdinals": [
+      2210,
+      2849,
+      3388,
+      3468,
+      4289
+    ]
+  },
+  "method": "Compared exact DOCX inventory examples and meaning notes with selected owner briefs, assessed constructions, and live target patterns. Re-lemmas retain the exact original expression in each decision and source occurrence. Only the selected reusable embedded unit routes to an owner.",
+  "rows": [
+    {
+      "sourceOrdinal": 2482,
+      "sourceId": "book10-16-0371",
+      "originalExpression": "engine that keeps modern work from grinding to a halt",
+      "exactSourceExample": "Clear communication is the engine that keeps modern work from grinding to a halt.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "a4d85ea4f4161cf60d624fd93d09eb0bf1c5f891e8fed3e4699d934ecfcc8e9c",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2443",
+      "reason": "The source contains the reusable stop-completely unit “grinding to a halt”; its engine clause is a bespoke frame. Owner 2443 teaches the same full-stop sense and its bounded detector matches the complete source sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 2443,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json",
+      "ownerFileSha256": "1bb270ab669f514dcb31bdc466514cb8523a0c11485528d5f506d2b3520c7207",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\b(?:grind|grinds|ground|grinding) to a halt\\b"
+    },
+    {
+      "sourceOrdinal": 3379,
+      "sourceId": "book10-16-1268",
+      "originalExpression": "starting point, not a final command",
+      "exactSourceExample": "Treat the suggestion as a starting point, not a final command.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "b954d3e8cc8c0695f3a261b68e49d8c6a585879f8bacb29b6d15c3bd93071780",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2273",
+      "reason": "The source contrasts an initial basis with a final command. Owner 2273 teaches the same initial-not-final learner decision and its detector matches the full sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 2273,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2237-2276-a.json",
+      "ownerFileSha256": "38851ac9b67c8069af65c9c1161c4f53f2b2b5e7be4f264eb2d389392aa9bb59",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\b(?:a|the|our|your) starting point\\b"
+    },
+    {
+      "sourceOrdinal": 3619,
+      "sourceId": "book10-16-1508",
+      "originalExpression": "keep moving",
+      "exactSourceExample": "Reliable deliveries help businesses keep moving.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "decisionFileSha256": "291402b772b5375d0fcca829605d1183c1bab4d39c76c950c06049fe8e50bea0",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2400",
+      "reason": "Reliable deliveries help businesses continue functioning. Owner 2400 teaches this continuation sense and its detector matches the full sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 2400,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json",
+      "ownerFileSha256": "ee5fa3a2e99900a6e3973c2d31f801c0204225aaf544dcf04f4e2b9d2cb44518",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\b(?:keep|keeps|kept|keeping)(?:\\s+(?:[A-Za-z]+\\s+){0,3})moving\\b"
+    },
+    {
+      "sourceOrdinal": 3985,
+      "sourceId": "book10-16-1874",
+      "originalExpression": "at once",
+      "exactSourceExample": "Do not give up at once after a mistake.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "decisionFileSha256": "13c71c41c03fa45e3b62d3815921acc6c8e030121dd2d2ad5c703865dcad44a8",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3142",
+      "reason": "After a mistake, “at once” means immediately, not simultaneous actions. Owner 3142 teaches immediate-after-trigger and matches the full sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 3142,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "ownerFileSha256": "54c5c15b1d56b0250c0f48b4855c352b1888b23feabfe9fbbaaeea85eb0d2fa5",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\bat once\\b"
+    },
+    {
+      "sourceOrdinal": 4141,
+      "sourceId": "book10-16-2030",
+      "originalExpression": "at once",
+      "exactSourceExample": "The picture caught her attention at once.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionFileSha256": "3b32e40c78afeaa89af8d7cd9ce5a71981b2d106170780703cf6a400b8770280",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-3142",
+      "reason": "The picture caught attention immediately. Owner 3142 teaches this immediate sense rather than the simultaneous-actions sense of 048 and matches the full sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 3142,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "ownerFileSha256": "54c5c15b1d56b0250c0f48b4855c352b1888b23feabfe9fbbaaeea85eb0d2fa5",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\bat once\\b"
+    },
+    {
+      "sourceOrdinal": 3763,
+      "sourceId": "book10-16-1652",
+      "originalExpression": "advertising shapes attention before it shapes decisions",
+      "exactSourceExample": "The study suggests advertising shapes attention before it shapes decisions about brands.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionFileSha256": "2192d51ed6839c76275f42ae2b84d5740130e2b6d763288e61a7c9eaffa5e30a",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-020",
+      "reason": "The study says advertising influences attention and brand decisions. Canonical 020 teaches this influence sense of shape; its bounded inflection detector matches both “shapes” tokens in the full sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 20,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "ownerFileSha256": "85030416a4b1bbd395d3a3fb1b9357a8f0b89af374466ffe99e7a379289af924",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\bshap(?:e|es|ed|ing)\\b"
+    },
+    {
+      "sourceOrdinal": 3258,
+      "sourceId": "book10-16-1147",
+      "originalExpression": "stepping stones",
+      "exactSourceExample": "Short projects can be stepping stones to a new career.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "bd67a618b5e2e2288c6e478aeb207ce8b9c67a451b7d6fe78bd78e508262139e",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-009",
+      "reason": "Short projects as stepping stones toward a career are enabling intermediate experiences, the same goal-progress sense as legacy canonical 009. Its bounded target now covers singular and plural noun forms and matches the complete source sentence. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 9,
+      "ownerFile": "natural-english/advanced-expressions-part2.mjs (legacy lesson)",
+      "targetFile": "natural-english/advanced-display.mjs",
+      "legacySourceMetadata": "Legacy lessons have no sources array. Exact source provenance remains in the inventory and decision record.",
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\bstepping\\s+stones?\\b"
+    },
+    {
+      "sourceOrdinal": 2849,
+      "sourceId": "book10-16-0738",
+      "originalExpression": "working in the dark",
+      "exactSourceExample": "Investigators were working in the dark until the records arrived.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "37f632816c90e9def86360485ab0b06074cc52b6888c60f54e281d57d0b0ed80",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Working in the dark overlaps canonical 163 on lack of information but changes construction beyond its detector. Provisional editorial decision; independent review remains open.",
+      "holdRationale": "“Working in the dark” is an intransitive investigative construction; owner 163 teaches someone being left somewhat in the dark. Shared information-gap theme is insufficient to add a full new construction without owner redesign."
+    },
+    {
+      "sourceOrdinal": 3520,
+      "sourceId": "book10-16-1409",
+      "originalExpression": "dip in and out",
+      "exactSourceExample": "You can dip in and out of the magazine over a week.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionFileSha256": "46b16faf53bec540865ef4812878f37c70ecc13ec111e163943f90f446b75ca7",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1988",
+      "reason": "The source describes intermittent use of a magazine over a week, the same resource-use sense as canonical 1988. Its bounded detector now covers the explicit magazine object as well as “it”. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 1988,
+      "ownerFile": "course-materials/advanced-native/batches/batch-1976-2000.json",
+      "ownerFileSha256": "02f4928a526a4e70e8785bdd986e08acbe01c49a07d1429cb75b4c4f16d6fc1a",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "\\bdip(?:s|ped|ping)? in and out of (?:it|(?:a|the|this|that) (?:magazine|book|guide|course|resource|collection))\\b"
+    },
+    {
+      "sourceOrdinal": 4289,
+      "sourceId": "book10-16-2178",
+      "originalExpression": "keep pace with human invention",
+      "exactSourceExample": "Ethical rules must keep pace with human invention.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "decisionFileSha256": "c3dfc3ad30bbd9a90522d4257c9f95960309dfa603d4a76ebea258b13a2ff9e5",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Keep pace with human invention shares existing pace idiom but owner restricts object to demand. Provisional editorial decision; independent review remains open.",
+      "holdRationale": "Owner 590 tests provision keeping up with demand; ethical rules adapting to invention has a broader regulatory subject/object and requires a separate owner-scope decision."
+    },
+    {
+      "sourceOrdinal": 3388,
+      "sourceId": "book10-16-1277",
+      "originalExpression": "a small window to another culture",
+      "exactSourceExample": "Imported food can be a small window to another culture.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "b954d3e8cc8c0695f3a261b68e49d8c6a585879f8bacb29b6d15c3bd93071780",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Hold: a small window to another culture may be a valid window-to variant of canonical 305 a window into, both describing insight or access. The preposition falls outside 305’s detector; resolve variant naturalness and owner scope before release.",
+      "holdRationale": "Owner 305 teaches “a window into/onto” and its current detector excludes “a window to”. Naturalness and preposition scope require evidence before expansion."
+    },
+    {
+      "sourceOrdinal": 2210,
+      "sourceId": "book10-16-0099",
+      "originalExpression": "lean into",
+      "exactSourceExample": "The festival decided to lean into its local character.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "3e7d06e4473fe2d24ce2ab3f7bd10208fc6501badbbd608fb8b05b99e816c364",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Hold: deliberate embrace or emphasis in lean into a festival may be covered by prior general lean-into lesson 1687; healthy habits may only be its example object. Compare contexts and decide broaden-versus-split before authoring. Provisional; independent human review open.",
+      "holdRationale": "Owner 1687 is a wellbeing-routine lesson; leaning into a festival’s local character broadens the object and learner decision beyond existing assessed content."
+    },
+    {
+      "sourceOrdinal": 3097,
+      "sourceId": "book10-16-0986",
+      "originalExpression": "growth often walks them through it",
+      "exactSourceExample": "Evidence may open the door, but growth often walks them through it.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionFileSha256": "a6d8b55f4e2c23d573c588468097cb46f0fbc9ee798cfc26a709a5faf430ec02",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-028",
+      "reason": "The source’s “growth walks them through it” is bespoke personification; “open the door” is the reusable opportunity unit. Canonical 028 covers that opportunity sense and matches the full source. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 28,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "ownerFileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "(?:\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b)|(?:\\b(?:open|opens|opened|opening) the academic door\\b)"
+    },
+    {
+      "sourceOrdinal": 3289,
+      "sourceId": "book10-16-1178",
+      "originalExpression": "changed behaviour is what walks through it",
+      "exactSourceExample": "An apology opens the door, but changed behaviour is what walks through it.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "bd67a618b5e2e2288c6e478aeb207ce8b9c67a451b7d6fe78bd78e508262139e",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-028",
+      "reason": "Changed behaviour walking through a door is bespoke personification; the apology “opens the door” to reconciliation. Canonical 028 teaches creating an opportunity and matches the full source. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 28,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "ownerFileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "(?:\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b)|(?:\\b(?:open|opens|opened|opening) the academic door\\b)"
+    },
+    {
+      "sourceOrdinal": 3711,
+      "sourceId": "book10-16-1600",
+      "originalExpression": "market decides whether anyone actually walks through it",
+      "exactSourceExample": "The idea may open a door, but the market decides whether anyone actually walks through it.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "4c2affff92722ee7f7ce76f4a65fa8b91f804a8d61d990658e30eff83bba536c",
+      "action": "proposed-alias-existing",
+      "canonicalId": "advanced-native-028",
+      "reason": "The market walking through a door is bespoke personification; the idea may “open a door” to an opportunity. Canonical 028 teaches creating an opportunity and matches the full source. Provisional editorial decision; independent AI review pending.",
+      "ownerNumber": 28,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "ownerFileSha256": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56",
+      "sourceOccurrenceAttached": true,
+      "fullSourceDetectorMatch": true,
+      "boundedTargetPattern": "(?:\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b)|(?:\\b(?:open|opens|opened|opening) the academic door\\b)"
+    },
+    {
+      "sourceOrdinal": 3468,
+      "sourceId": "book10-16-1357",
+      "originalExpression": "take the shine off it",
+      "exactSourceExample": "A long journey can take the shine off it.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d",
+      "action": "hold-editorial",
+      "canonicalId": null,
+      "reason": "Take the shine off it matches canonical 1839 enjoyment-loss sense but its it object is outside the trip-specific detector. Provisional editorial decision; independent review remains open.",
+      "holdRationale": "“It” lacks an explicit antecedent in the source sentence, so the object may be the journey, destination or expectation; owner 1839 is trip-specific. Hold until source referent is resolved."
+    }
+  ],
+  "targetRegressionControls": {
+    "legacy009": {
+      "pattern": "\\bstepping\\s+stones?\\b",
+      "positives": [
+        "a stepping stone to a career",
+        "stepping stones to a new career"
+      ],
+      "negatives": [
+        "stepping on stones",
+        "a stumbling block"
+      ],
+      "positiveResults": [
+        true,
+        true
+      ],
+      "negativeResults": [
+        false,
+        false
+      ]
+    },
+    "owner1988": {
+      "pattern": "\\bdip(?:s|ped|ping)? in and out of (?:it|(?:a|the|this|that) (?:magazine|book|guide|course|resource|collection))\\b",
+      "positives": [
+        "dip in and out of it",
+        "dipped in and out of the magazine",
+        "dips in and out of this guide",
+        "dipping in and out of a book"
+      ],
+      "negatives": [
+        "dip in and out of the river",
+        "dipped in and out of meetings",
+        "dipping into the magazine"
+      ],
+      "positiveResults": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "negativeResults": [
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "checks": {
+    "wholeCatalogueVerifier": "passed: 2604 decisions, 579 selected drafts, 3474 questions, 2316 audio roles, 0 schema errors",
+    "selectedExistingAliasAudit": "1119/1119 source sentences match, 0 exceptions",
+    "selectedNewAliasAudit": "168/168 source sentences match, 0 exceptions",
+    "focusedBuildAndCheck": "77 lessons, 462 questions, 308 audio roles, 0 flags in both build and --check",
+    "gitDiffCheck": "passed"
+  },
+  "changedFileSha256": {
+    "course-materials/advanced-native/batches/batch-0011-0025.json": "85030416a4b1bbd395d3a3fb1b9357a8f0b89af374466ffe99e7a379289af924",
+    "course-materials/advanced-native/batches/batch-0026-0050.json": "92f9ecbd23ee2116aba48ea0fde14ee00e67252a643dfbf16398a3e3db524c56",
+    "course-materials/advanced-native/batches/batch-1976-2000.json": "02f4928a526a4e70e8785bdd986e08acbe01c49a07d1429cb75b4c4f16d6fc1a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl": "a4d85ea4f4161cf60d624fd93d09eb0bf1c5f891e8fed3e4699d934ecfcc8e9c",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl": "a6d8b55f4e2c23d573c588468097cb46f0fbc9ee798cfc26a709a5faf430ec02",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": "bd67a618b5e2e2288c6e478aeb207ce8b9c67a451b7d6fe78bd78e508262139e",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "b954d3e8cc8c0695f3a261b68e49d8c6a585879f8bacb29b6d15c3bd93071780",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl": "46b16faf53bec540865ef4812878f37c70ecc13ec111e163943f90f446b75ca7",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "291402b772b5375d0fcca829605d1183c1bab4d39c76c950c06049fe8e50bea0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl": "4c2affff92722ee7f7ce76f4a65fa8b91f804a8d61d990658e30eff83bba536c",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "2192d51ed6839c76275f42ae2b84d5740130e2b6d763288e61a7c9eaffa5e30a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl": "13c71c41c03fa45e3b62d3815921acc6c8e030121dd2d2ad5c703865dcad44a8",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl": "3b32e40c78afeaa89af8d7cd9ce5a71981b2d106170780703cf6a400b8770280",
+    "course-materials/advanced-native/drafts-books10-16/batch-2237-2276-a.json": "38851ac9b67c8069af65c9c1161c4f53f2b2b5e7be4f264eb2d389392aa9bb59",
+    "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json": "ee5fa3a2e99900a6e3973c2d31f801c0204225aaf544dcf04f4e2b9d2cb44518",
+    "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json": "1bb270ab669f514dcb31bdc466514cb8523a0c11485528d5f506d2b3520c7207",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json": "54c5c15b1d56b0250c0f48b4855c352b1888b23feabfe9fbbaaeea85eb0d2fa5",
+    "natural-english/advanced-display.mjs": "7a1440433565e36b11bce6973c3535b04c83f5623a8bcb8a2b659c3a6e57f86e"
+  },
+  "mediaDeltaNote": "Only canonical 1988 contentRevision increased due revised grammar/target scope. Its audio identity may require refresh even though spoken text is unchanged. Other owner source-array additions are provenance-only; legacy 009 target highlighting changed without lesson audio text change.",
+  "limitations": [
+    "The five remaining holds need separate sense/grammar evidence and were not silently aliased.",
+    "This author audit is not an independent reviewer or human sign-off.",
+    "No selected manifest, live site, database or audio asset was changed."
+  ]
+}

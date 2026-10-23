@@ -2538,12 +2538,12 @@
       "id": "advanced-native-1988",
       "number": 1988,
       "inventoryId": "expr-1988",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "dip in and out of it",
       "titleZh": "不時短暫取用，再回來看",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\bdip(?:s|ped|ping)? in and out of it\\b"
+        "pattern": "\\bdip(?:s|ped|ping)? in and out of (?:it|(?:a|the|this|that) (?:magazine|book|guide|course|resource|collection))\\b"
       },
       "sources": [
         {
@@ -2559,13 +2559,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "dip in and out of it",
           "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "book10-16-1409",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 131,
+          "book": 13,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "46–47",
+          "locatorNote": "DOCX table 139, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "You can dip in and out of the magazine over a week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dip in and out"
         }
       ],
       "brief": {
         "meaningEn": "Engage with a resource briefly at intervals, leaving and returning rather than using it continuously.",
         "meaningZh": "隔一段時間短暫使用某資源，離開再回來，不是一直連續進行。",
-        "grammar": "Dip in and out of a book/course/resource; with it, name the resource first. Dipped/dipping. The pattern describes intermittent engagement, not necessarily completion or neglect.",
-        "register": "neutral",
+        "grammar": "Dip in and out of a book, magazine, guide, course or other resource; a clear earlier referent permits “it”. Dipped/dipping. This is intermittent engagement, not literal movement in and out of a place or necessarily completion.",
+        "register": "Neutral everyday English; a reader may use it to describe returning to a magazine or reference book at intervals.",
         "boundaryZh": "短暫回來使用不保證已完成全課，也不表示一定不認真；需看資源設計及目的。",
         "misconceptionZh": "短暫回來使用不保證已完成全課，也不表示一定不認真；需看資源設計及目的。",
         "outcomeZh": "理解「不時短暫取用，再回來看」的語境及用法，並在新情境寫出自然句子。"

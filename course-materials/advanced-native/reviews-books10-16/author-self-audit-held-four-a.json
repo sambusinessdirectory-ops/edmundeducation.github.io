@@ -1,0 +1,175 @@
+{
+  "status": "unselected-unpublished-ai-author-self-audit-independent-review-pending",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3340-4315-a.json",
+  "draftSha256": "24e39fb09fd27c775a87adf4840f1ae38454123f3a106c7a9b8ec330a73ca190",
+  "lessonCount": 4,
+  "assessedQuestions": 24,
+  "audioRequests": 16,
+  "builderReviewFlags": 0,
+  "buildCommand": "node tools/advanced-native-bulk/build.mjs <draft> --out-dir /private/tmp/advanced-native-held-four-a",
+  "checkCommand": "node tools/advanced-native-bulk/build.mjs <draft> --out-dir /private/tmp/advanced-native-held-four-a --check",
+  "buildAndCheck": "pass (4 lessons, 24 questions, 16 audio requests, 0 flags)",
+  "r3340RegexRegression": {
+    "positive": [
+      "pin everything down",
+      "pin the layout down",
+      "pin the event date down",
+      "pinning the details down",
+      "pin down the details",
+      "pin every date down",
+      "pin all dates down",
+      "pin these details down"
+    ],
+    "negative": [
+      "pin the box down",
+      "pin the final date up",
+      "pin every details down",
+      "pin these plan down",
+      "pin all date down",
+      "pin these schedule down",
+      "pin every dates down",
+      "pin all layout down"
+    ],
+    "result": "all positives matched; all negatives rejected"
+  },
+  "sourceOriginality": {
+    "scope": "96 learner-facing English strings against 2,604 inventory examples",
+    "contiguousHighOrMediumSixTokenHits": 0,
+    "nearFullOneOrTwoSubstitutionHits": 0,
+    "screen": "/private/tmp/scoped-held-four-audit.py"
+  },
+  "lessonChecks": [
+    {
+      "ordinal": 3340,
+      "sourceId": "book10-16-1229",
+      "sourceExpression": "pin everything down too early",
+      "sourceMeaning": "Decide all details prematurely; a fixed restraint metaphor.",
+      "guideExample": "We do not need to pin everything down too early.",
+      "targetRegexMatchesFullSource": true,
+      "keyedSceneAndDialogueUseTarget": [
+        "scene",
+        "dialogue"
+      ],
+      "listeningAndSpeakingUseTarget": true,
+      "twoWritingModelsAndFiveGlossarySpans": true,
+      "sixAssessedQuestions": true,
+      "fourReplyOptions": true,
+      "hanPresentInQuestionPromptsExplanationsAndOptions": true,
+      "reviewStatus": "pending"
+    },
+    {
+      "ordinal": 4012,
+      "sourceId": "book10-16-1901",
+      "sourceExpression": "get back up",
+      "sourceMeaning": "Recover after failure and continue; a common phrasal verb.",
+      "guideExample": "After losing the final, she had to get back up and train again.",
+      "targetRegexMatchesFullSource": true,
+      "keyedSceneAndDialogueUseTarget": [
+        "scene",
+        "dialogue"
+      ],
+      "listeningAndSpeakingUseTarget": true,
+      "twoWritingModelsAndFiveGlossarySpans": true,
+      "sixAssessedQuestions": true,
+      "fourReplyOptions": true,
+      "hanPresentInQuestionPromptsExplanationsAndOptions": true,
+      "reviewStatus": "pending"
+    },
+    {
+      "ordinal": 4038,
+      "sourceId": "book10-16-1927",
+      "sourceExpression": "keeps turning up",
+      "sourceMeaning": "Continues to attend and make an effort; a natural phrasal verb.",
+      "guideExample": "He keeps turning up for practice even in winter.",
+      "targetRegexMatchesFullSource": true,
+      "keyedSceneAndDialogueUseTarget": [
+        "scene",
+        "dialogue"
+      ],
+      "listeningAndSpeakingUseTarget": true,
+      "twoWritingModelsAndFiveGlossarySpans": true,
+      "sixAssessedQuestions": true,
+      "fourReplyOptions": true,
+      "hanPresentInQuestionPromptsExplanationsAndOptions": true,
+      "reviewStatus": "pending"
+    },
+    {
+      "ordinal": 4315,
+      "sourceId": "book10-16-2204",
+      "sourceExpression": "come across the wrong way",
+      "sourceMeaning": "Be interpreted differently from what was intended; a natural phrasal verb.",
+      "guideExample": "A brief text can come across the wrong way.",
+      "targetRegexMatchesFullSource": true,
+      "keyedSceneAndDialogueUseTarget": [
+        "scene",
+        "dialogue"
+      ],
+      "listeningAndSpeakingUseTarget": true,
+      "twoWritingModelsAndFiveGlossarySpans": true,
+      "sixAssessedQuestions": true,
+      "fourReplyOptions": true,
+      "hanPresentInQuestionPromptsExplanationsAndOptions": true,
+      "reviewStatus": "pending"
+    }
+  ],
+  "ownerDistinctions": [
+    {
+      "ordinal": 3340,
+      "comparison": "No same-decision owner found in source-order/canonical screen. Pin down concrete arrangements is a bounded planning target; source too early is timing context, not fixed expression."
+    },
+    {
+      "ordinal": 4012,
+      "comparison": "Canonical 1121 bounce back teaches recovered state after setback. This lesson assesses resumed purposeful action before recovery or success; source explicitly trains again after loss. Independent owner adjudication pending."
+    },
+    {
+      "ordinal": 4038,
+      "comparison": "Selected 2123 show up teaches single arrival/appearance. This source uses keeps turning up, and all assessed uses require repeated attendance/persistence; independent owner adjudication pending."
+    },
+    {
+      "ordinal": 4315,
+      "comparison": "Selected 2335 come across as teaches a perceived quality; canonical 120 come across is chance discovery. This source teaches unintended interpretation of tone or meaning; independent owner adjudication pending."
+    }
+  ],
+  "excludedCandidateComparisons": [
+    {
+      "ordinal": 3281,
+      "sourceId": "book10-16-1170",
+      "sourceExpression": "regret can sound a bit hollow",
+      "existingOwner": 2689,
+      "existingTarget": "ring a little hollow",
+      "evidence": "Both test whether regret/apology sounds unconvincing because action does not support words. Strong same-decision overlap.",
+      "recommendation": "Hold pending bounded alias to 2689 and source provenance update; no separate draft."
+    },
+    {
+      "ordinal": 4154,
+      "sourceId": "book10-16-2043",
+      "sourceExpression": "switch off",
+      "existingOwner": 1487,
+      "existingTarget": "switch off straight away",
+      "evidence": "Both describe loss of attention during an unengaging activity; straight away is timing, not a new sense.",
+      "recommendation": "Hold pending 1487 owner-scope/detector review; no separate draft."
+    },
+    {
+      "ordinal": 4424,
+      "sourceId": "book10-16-2313",
+      "sourceExpression": "lower the temperature",
+      "existingOwner": 727,
+      "existingTarget": "take the heat out of",
+      "evidence": "Both test reducing tension in a dispute. Surface wording differs, but learner decision is the same.",
+      "recommendation": "Hold pending broader owner merge/alias adjudication; no separate draft."
+    },
+    {
+      "ordinal": 3823,
+      "sourceId": "book10-16-1712",
+      "sourceExpression": "social fabric",
+      "existingOwner": 1717,
+      "existingTarget": "keeps the social fabric from coming apart",
+      "evidence": "Both concern the relational network holding a community together; source uses strengthen rather than prevent collapse.",
+      "recommendation": "Hold pending broader 1717 noun/construction scope review; no separate draft."
+    }
+  ],
+  "limitations": [
+    "Author has not independently reviewed own work as a substitute for B focused review.",
+    "These four drafts are absent from selected manifest and have no release, audio synthesis, or human review approval."
+  ]
+}

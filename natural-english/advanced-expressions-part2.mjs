@@ -22,7 +22,7 @@ export default [
   },
   {
     id:'advanced-native-007',number:7,titleZh:'撐過困難',cardTitleLines:['撐過困難'],titleEn:'get through it',kind:'動詞片語 · Phrasal verb',
-    summary:'get through it 表示熬過或完成困難的一段經歷；不表示過程輕鬆。',
+    summary:'get through it／the storm 表示熬過困難經歷；受詞可指前文的難關或具名的困境，不表示過程輕鬆。',
     audio:'The first week of training was exhausting, but we got through it together.',
     audioZh:'第一週訓練令人筋疲力盡，但我們一起撐過來了。',
     meaning:'熬過或完成一段困難經歷；並不表示過程輕鬆。',
@@ -37,7 +37,7 @@ export default [
     final:['新情境：你的朋友在搬家的一週內還要應付考試。她最後在朋友幫助下完成兩件事。用一至兩句英文描述。',["It was a stressful week of moving and exams, but she got through it with help from her friends.","She had a hard week of exams and moving, yet she got through it by making a simple plan with her friends."],'指出困難和如何熬過；get through it 不表示她過程中毫不費力。',[
       ['a stressful week','充滿壓力的一週'],['moving and exams','搬家和考試'],['help from her friends','朋友的幫助'],['a hard week','艱難的一週'],['making a simple plan','訂立簡單計劃']
     ]],
-    takeaways:['It was difficult, but we got through it.','You can get through it with support.']
+    takeaways:['It was difficult, but we got through it.','Our team got through the difficult week by sharing the work.']
   },
   {
     id:'advanced-native-008',number:8,titleZh:'挫折後變得更強',cardTitleLines:['挫折後變得更強'],titleEn:'come out stronger',kind:'比喻用法 · Figurative use',

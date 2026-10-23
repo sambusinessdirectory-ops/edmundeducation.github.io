@@ -2597,6 +2597,20 @@
         "expression": "shape how people feel",
         "referenceSentenceKind": "guide_original_example",
         "sourceCategory": "Figurative use"
+      },
+      {
+        "occurrenceId": "book10-16-1652",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 155,
+        "book": 14,
+        "question": 22,
+        "sample": "S1",
+        "sourceBookPages": "49–50",
+        "locatorNote": "DOCX table 166, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The study suggests advertising shapes attention before it shapes decisions about brands.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "advertising shapes attention before it shapes decisions"
       }
     ],
     "listening": {

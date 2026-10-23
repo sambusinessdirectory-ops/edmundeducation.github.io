@@ -1,0 +1,449 @@
+{
+  "type": "read-only focused triage of current repeated-source editorial holds",
+  "scopeNote": "The pilot snapshot grouped 21 rows heuristically without a saved member list. Current hold decisions contain 25 reason texts matching word-boundary repeat/repeats; this report covers that safer superset.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "755934fb0967bf85bd8251ad54e7765ac57629d6920822e17fd6fb6c5b1484ad",
+  "heldRowsReviewed": 25,
+  "highConfidenceActionableAliases": [
+    2987
+  ],
+  "keepHeldRows": 24,
+  "algorithm": "Exact source inventory sentence/meaning, repeated-source peers, selected/canonical owner meaning and full-source target regex checked; no lexical match alone treated as proof of same sense.",
+  "entries": [
+    {
+      "sourceOrdinal": 2367,
+      "sourceId": "book10-16-0256",
+      "decisionFile": "editorial-decisions-2352-2411.jsonl",
+      "phrase": "understated but powerful screen presence",
+      "fullSourceSentence": "She has an understated but powerful screen presence.",
+      "sourceMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+      "repeatedSourceOrdinals": [
+        2331
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 2331; a film-review description rather than a bounded seven-step expression. No selected target matches the full sentence."
+    },
+    {
+      "sourceOrdinal": 2541,
+      "sourceId": "book10-16-0430",
+      "decisionFile": "editorial-decisions-2532-2591.jsonl",
+      "phrase": "open up",
+      "fullSourceSentence": "A patient explanation can make the topic open up.",
+      "sourceMeaning": "Become accessible or understandable; a natural phrasal verb.",
+      "repeatedSourceOrdinals": [
+        2472,
+        3670,
+        3681,
+        4112
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 2472. “Make the topic open up” is awkward as a comprehension idiom; no selected target matches this construction."
+    },
+    {
+      "sourceOrdinal": 2678,
+      "sourceId": "book10-16-0567",
+      "decisionFile": "editorial-decisions-2652-2711.jsonl",
+      "phrase": "cultural memory",
+      "fullSourceSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceMeaning": "Shared remembrance within a community; a natural abstract collocation.",
+      "repeatedSourceOrdinals": [
+        2646,
+        4469,
+        4505
+      ],
+      "candidateOwnerId": "advanced-native-406",
+      "candidateOwnerTitle": "uncover a layer of cultural memory",
+      "candidateOwnerMeaning": "Discover an aspect of a community’s remembered past, using an image of revealing a hidden layer.",
+      "fullSourceMatchesCandidateOwnerTarget": false,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact generic-noun repeat of held 2646/4469/4505. Canonical 406 teaches uncovering a layer of cultural memory, not the standalone noun; its detector misses this sentence and ownership needs a broadening decision."
+    },
+    {
+      "sourceOrdinal": 2987,
+      "sourceId": "book10-16-0876",
+      "decisionFile": "editorial-decisions-2952-3011.jsonl",
+      "phrase": "back-and-forth",
+      "fullSourceSentence": "The back-and-forth between suspects kept the trial tense.",
+      "sourceMeaning": "Repeated movement between positions or guesses; a conventional compound.",
+      "repeatedSourceOrdinals": [
+        2413
+      ],
+      "candidateOwnerId": "advanced-native-2413",
+      "candidateOwnerTitle": "back-and-forth",
+      "candidateOwnerMeaning": "Repeated exchanges between people or sides, often involving questions, responses or challenges.",
+      "fullSourceMatchesCandidateOwnerTarget": true,
+      "disposition": "high-confidence-alias-new",
+      "evidenceAndGate": "Exact expression, sentence and source gloss repeat of selected owner 2413. Owner target matches the full sentence; use its existing exchange lesson, with source provenance attached. No duplicate lesson."
+    },
+    {
+      "sourceOrdinal": 3067,
+      "sourceId": "book10-16-0956",
+      "decisionFile": "editorial-decisions-3012-3071.jsonl",
+      "phrase": "building a whole world in their head",
+      "fullSourceSentence": "While reading, they were building a whole world in their head.",
+      "sourceMeaning": "Imagining a complete fictional setting; a construction metaphor.",
+      "repeatedSourceOrdinals": [],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Imagining a fictional world is a compositional construction metaphor, without a bounded recurring target or selected detector; no direct alias."
+    },
+    {
+      "sourceOrdinal": 3133,
+      "sourceId": "book10-16-1022",
+      "decisionFile": "editorial-decisions-3132-3191.jsonl",
+      "phrase": "patience is a bit like a muscle",
+      "fullSourceSentence": "Patience is a bit like a muscle in long queues.",
+      "sourceMeaning": "Patience improves with practice; a muscle simile.",
+      "repeatedSourceOrdinals": [
+        3170
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "One-off explanatory patience-as-muscle simile, repeated at held 3170; no stable target or selected detector."
+    },
+    {
+      "sourceOrdinal": 3140,
+      "sourceId": "book10-16-1029",
+      "decisionFile": "editorial-decisions-3132-3191.jsonl",
+      "phrase": "at the tap of a screen",
+      "fullSourceSentence": "A timetable is available at the tap of a screen.",
+      "sourceMeaning": "With a simple touch on a device; a fixed modern convenience phrase.",
+      "repeatedSourceOrdinals": [
+        2238
+      ],
+      "candidateOwnerId": "advanced-native-829",
+      "candidateOwnerTitle": "with a tap on the screen",
+      "candidateOwnerMeaning": "Obtain information or trigger an action through a simple touch on a device screen.",
+      "fullSourceMatchesCandidateOwnerTarget": false,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 2238. “At the tap of a screen” differs from canonical 829 “with a tap on the screen”; current detector misses it and source phrasing needs idiomaticity review."
+    },
+    {
+      "sourceOrdinal": 3285,
+      "sourceId": "book10-16-1174",
+      "decisionFile": "editorial-decisions-3252-3311.jsonl",
+      "phrase": "earns its stripes",
+      "fullSourceSentence": "The young coach earns its stripes by handling a difficult season.",
+      "sourceMeaning": "Proves its quality or worth through performance; a fixed rank metaphor.",
+      "repeatedSourceOrdinals": [
+        2354
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 2354; source calls a human coach “its”. Repair/source-language judgment is required before any target ownership decision."
+    },
+    {
+      "sourceOrdinal": 3293,
+      "sourceId": "book10-16-1182",
+      "decisionFile": "editorial-decisions-3252-3311.jsonl",
+      "phrase": "owning the mistake",
+      "fullSourceSentence": "Owning the mistake is the first step toward repair.",
+      "sourceMeaning": "Accepting responsibility for an error; a conventional possession metaphor.",
+      "repeatedSourceOrdinals": [
+        3282
+      ],
+      "candidateOwnerId": "advanced-native-2882",
+      "candidateOwnerTitle": "take responsibility",
+      "candidateOwnerMeaning": "Accept accountability for one’s action, mistake or duty rather than shifting it to others.",
+      "fullSourceMatchesCandidateOwnerTarget": false,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 3282. “Owning the mistake” and selected 2882 “take responsibility” share accountability, but the owner detector does not match; a lexical-owner decision is needed before aliasing."
+    },
+    {
+      "sourceOrdinal": 3475,
+      "sourceId": "book10-16-1364",
+      "decisionFile": "editorial-decisions-3432-3491.jsonl",
+      "phrase": "home-cooked food",
+      "fullSourceSentence": "Many families prefer home-cooked food during the week.",
+      "sourceMeaning": "Meals prepared at home; a useful natural compound.",
+      "repeatedSourceOrdinals": [
+        3454,
+        3477
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 3454/3477. Transparent home-cooked food compound, not a distinct advanced figurative decision."
+    },
+    {
+      "sourceOrdinal": 3477,
+      "sourceId": "book10-16-1366",
+      "decisionFile": "editorial-decisions-3432-3491.jsonl",
+      "phrase": "home-cooked food",
+      "fullSourceSentence": "Many families prefer home-cooked food during the week.",
+      "sourceMeaning": "Meals prepared at home; a useful natural compound.",
+      "repeatedSourceOrdinals": [
+        3454,
+        3475
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repetition of held 3454/3475. Transparent home-cooked food compound, not a distinct advanced figurative decision."
+    },
+    {
+      "sourceOrdinal": 3634,
+      "sourceId": "book10-16-1523",
+      "decisionFile": "editorial-decisions-3612-3671.jsonl",
+      "phrase": "hold their hand",
+      "fullSourceSentence": "Parents cannot always hold their hand on the journey to school.",
+      "sourceMeaning": "Guide someone closely; a fixed hand idiom.",
+      "repeatedSourceOrdinals": [],
+      "candidateOwnerId": "advanced-native-1586",
+      "candidateOwnerTitle": "friends can hold your hand",
+      "candidateOwnerMeaning": "Offer reassuring companionship or close guidance through a difficult experience; a negative form can stress that this constant help will not always be available.",
+      "fullSourceMatchesCandidateOwnerTarget": false,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Figurative guidance could align with canonical 1586, but “on the journey to school” can also describe literal hand-holding and the pronoun is unclear. Canonical detector misses this source; retain hold."
+    },
+    {
+      "sourceOrdinal": 3740,
+      "sourceId": "book10-16-1629",
+      "decisionFile": "editorial-decisions-3732-3791.jsonl",
+      "phrase": "every powerful tool casts a shadow",
+      "fullSourceSentence": "Every powerful tool casts a shadow when used carelessly.",
+      "sourceMeaning": "Major benefits may have harmful side effects; a shadow metaphor.",
+      "repeatedSourceOrdinals": [
+        3731
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 3731’s bespoke warning image; not a conventional fixed target and no selected detector."
+    },
+    {
+      "sourceOrdinal": 3741,
+      "sourceId": "book10-16-1630",
+      "decisionFile": "editorial-decisions-3732-3791.jsonl",
+      "phrase": "mentally lazier",
+      "fullSourceSentence": "Excessive automation could make us mentally lazier.",
+      "sourceMeaning": "Less inclined to think independently; a precise natural comparison.",
+      "repeatedSourceOrdinals": [
+        3732
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 3732’s ordinary comparative description; no idiomatic decision or selected detector."
+    },
+    {
+      "sourceOrdinal": 3748,
+      "sourceId": "book10-16-1637",
+      "decisionFile": "editorial-decisions-3732-3791.jsonl",
+      "phrase": "stay in control of the change",
+      "fullSourceSentence": "Training helps staff stay in control of the change.",
+      "sourceMeaning": "Guide a transition rather than be passively affected; a natural governance phrase.",
+      "repeatedSourceOrdinals": [
+        3739
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 3739’s general transition-agency wording; not a bounded idiom and no selected detector."
+    },
+    {
+      "sourceOrdinal": 3994,
+      "sourceId": "book10-16-1883",
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "phrase": "little gyms for the brain",
+      "fullSourceSentence": "Puzzles are little gyms for the brain after a long holiday.",
+      "sourceMeaning": "Activities that exercise the mind; a fitness metaphor.",
+      "repeatedSourceOrdinals": [
+        3989
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Same custom brain-gym simile as held 3989 with altered framing. Figurative but not a stable bounded expression; no selected detector."
+    },
+    {
+      "sourceOrdinal": 3998,
+      "sourceId": "book10-16-1887",
+      "decisionFile": "editorial-decisions-3972-4031.jsonl",
+      "phrase": "changes its clothes",
+      "fullSourceSentence": "Creativity changes its clothes as people grow older.",
+      "sourceMeaning": "Takes a different form without disappearing; a clothing personification.",
+      "repeatedSourceOrdinals": [
+        3031
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 3031’s bespoke clothing personification; no established fixed target or selected detector."
+    },
+    {
+      "sourceOrdinal": 4505,
+      "sourceId": "book10-16-2394",
+      "decisionFile": "editorial-decisions-4452-4511.jsonl",
+      "phrase": "cultural memory",
+      "fullSourceSentence": "Old songs remain part of the city's cultural memory.",
+      "sourceMeaning": "Shared remembrance within a community; a natural abstract collocation.",
+      "repeatedSourceOrdinals": [
+        2646,
+        2678,
+        4469
+      ],
+      "candidateOwnerId": "advanced-native-406",
+      "candidateOwnerTitle": "uncover a layer of cultural memory",
+      "candidateOwnerMeaning": "Discover an aspect of a community’s remembered past, using an image of revealing a hidden layer.",
+      "fullSourceMatchesCandidateOwnerTarget": false,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact generic-noun repeat of held 2646/2678/4469. Canonical 406 only teaches uncovering a layer, and its detector misses this sentence; keep grouped until scope decision."
+    },
+    {
+      "sourceOrdinal": 4560,
+      "sourceId": "book10-16-2449",
+      "decisionFile": "editorial-decisions-4512-4571.jsonl",
+      "phrase": "awkward transfers",
+      "fullSourceSentence": "The new route avoids awkward transfers.",
+      "sourceMeaning": "Inconvenient changes between vehicles; a useful travel collocation.",
+      "repeatedSourceOrdinals": [
+        4537
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4537’s ordinary transport collocation; literal inconvenient vehicle changes, no separate idiomatic decision."
+    },
+    {
+      "sourceOrdinal": 4570,
+      "sourceId": "book10-16-2459",
+      "decisionFile": "editorial-decisions-4512-4571.jsonl",
+      "phrase": "leave the car at home",
+      "fullSourceSentence": "The pass encourages drivers to leave the car at home.",
+      "sourceMeaning": "Choose another transport option instead of driving; a fixed phrase.",
+      "repeatedSourceOrdinals": [
+        4555
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4555’s literal advice to choose transport other than a car; no idiomatic extension."
+    },
+    {
+      "sourceOrdinal": 4572,
+      "sourceId": "book10-16-2461",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "phrase": "first instinct rather than their last option",
+      "fullSourceSentence": "The city wants buses to be the first instinct rather than their last option.",
+      "sourceMeaning": "A preferred automatic choice instead of a reluctant fallback; a contrast metaphor.",
+      "repeatedSourceOrdinals": [
+        4557
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4557’s ad hoc first-choice/fallback contrast; no stable phrase unit and no selected detector."
+    },
+    {
+      "sourceOrdinal": 4619,
+      "sourceId": "book10-16-2508",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "phrase": "make more sense",
+      "fullSourceSentence": "For late travel, a car may make more sense.",
+      "sourceMeaning": "Be a more sensible choice; a fixed phrase.",
+      "repeatedSourceOrdinals": [
+        4513,
+        4627
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4513 and 4627. Broad ordinary judgment of which option is sensible; no distinct advanced target."
+    },
+    {
+      "sourceOrdinal": 4627,
+      "sourceId": "book10-16-2516",
+      "decisionFile": "editorial-decisions-4572-4631.jsonl",
+      "phrase": "make more sense",
+      "fullSourceSentence": "For late travel, a car may make more sense.",
+      "sourceMeaning": "Be a more sensible choice; a fixed phrase.",
+      "repeatedSourceOrdinals": [
+        4513,
+        4619
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4513 and 4619. Broad ordinary judgment of which option is sensible; no distinct advanced target."
+    },
+    {
+      "sourceOrdinal": 4653,
+      "sourceId": "book10-16-2542",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "phrase": "tell its story",
+      "fullSourceSentence": "A museum helps the city tell its story.",
+      "sourceMeaning": "Present its history and identity; a fixed storytelling metaphor.",
+      "repeatedSourceOrdinals": [
+        4480
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 4480. Common broad storytelling metaphor; no bounded source-specific learning decision or selected detector."
+    },
+    {
+      "sourceOrdinal": 4677,
+      "sourceId": "book10-16-2566",
+      "decisionFile": "editorial-decisions-4632-4691.jsonl",
+      "phrase": "a few taps",
+      "fullSourceSentence": "You can reserve a room with a few taps.",
+      "sourceMeaning": "A small number of phone-screen actions; a natural digital collocation.",
+      "repeatedSourceOrdinals": [
+        2694,
+        4531
+      ],
+      "candidateOwnerId": null,
+      "candidateOwnerTitle": null,
+      "candidateOwnerMeaning": null,
+      "fullSourceMatchesCandidateOwnerTarget": null,
+      "disposition": "keep-held",
+      "evidenceAndGate": "Exact repeat of held 2694/4531. Literal device-action collocation, not an idiomatic lesson target; no selected detector."
+    }
+  ],
+  "mutationPerformed": false,
+  "releaseApproved": false
+}

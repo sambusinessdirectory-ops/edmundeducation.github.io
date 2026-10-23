@@ -38,6 +38,34 @@
           "sentence": "The room became quiet at once.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "at once"
+        },
+        {
+          "occurrenceId": "book10-16-1874",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 177,
+          "book": 15,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 190, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not give up at once after a mistake.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at once"
+        },
+        {
+          "occurrenceId": "book10-16-2030",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 191,
+          "book": 15,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 208, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The picture caught her attention at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at once"
         }
       ],
       "listening": {

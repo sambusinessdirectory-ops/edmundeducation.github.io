@@ -1,0 +1,46 @@
+{
+  "reviewType": "independent focused four-lesson draft review",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3340-4315-a.json",
+  "draftSha256": "f2ac4a47fc73f505bc0f6d48f2f62296e1b16671735f03741a6e67291b60ca3e",
+  "authorAuditSha256": "ddcdb37ac478a8e05de9519e88cde6fce266bb4fd3afac46cec4428b5defbe84",
+  "status": "three lessons content-clear; one target-pattern blocker before selection",
+  "scope": "Reviewed all 24 assessment keys/options, four source meanings and owner boundaries, English/Traditional Chinese parity, target-bearing scene/dialogue, two writing models per lesson and exact non-target glossary/speaking spans. Reran a focused build followed by --check: 4 lessons, 24 questions, 16 audio requests, zero builder flags.",
+  "lessonResults": [
+    {
+      "sourceOrdinal": 3340,
+      "title": "pin the details down",
+      "status": "repair required",
+      "findingId": "R3340-01",
+      "severity": "major",
+      "field": "lessons[number=3340].target.pattern",
+      "evidence": "The current determiner/noun cross-product accepts ungrammatical assessed target spans: 'pin every details down', 'pin these plan down', and 'pin all date down' all match under live gi flags. Valid 'pin the date down' and 'pin down the details' also match. The source and authored keys are valid; the detector itself is overbroad.",
+      "requiredRepair": "Pair singular determiners with singular nouns and these/all with plural nouns in both object positions, preserving 'everything' and source 'pin everything down'. Add explicit negative assertions for the three malformed forms and rerun source, assessed-target, glossary, speaking and focused build/check."
+    },
+    {
+      "sourceOrdinal": 4012,
+      "title": "get back up",
+      "status": "content-clear",
+      "evidence": "Source loss followed by training again, all keyed uses and both writing models show renewed purposeful action without claiming full recovery or victory. This differs from canonical 1121 bounce back, which teaches recovered state after setback."
+    },
+    {
+      "sourceOrdinal": 4038,
+      "title": "keep turning up",
+      "status": "content-clear",
+      "evidence": "Repeated attendance is explicit throughout, including the source's winter practice, unlike selected 2123 show up as a single arrival. Four reply options remain pragmatically valid, and the writing models preserve ongoing learning rather than inventing success."
+    },
+    {
+      "sourceOrdinal": 4315,
+      "title": "come across the wrong way",
+      "status": "content-clear",
+      "evidence": "Each keyed scenario distinguishes the sender's intention from the receiver's interpretation, with natural clarification. This construction and learner decision differ from canonical 120 chance discovery and selected 2335 come across as a perceived quality. Both writing models and Chinese explanations retain the intended-versus-received contrast."
+    }
+  ],
+  "mechanicalEvidence": {
+    "exactInventorySourceExpressionAndExample": "4/4",
+    "fullSourceTargetMatch": "4/4 under i flag",
+    "listeningSpeakingReplySceneDialogueAndBothWritingModelsTargetBearing": "4/4 lessons",
+    "nonTargetAnswerDerivedGlossarySpans": "20/20 exact",
+    "speakingTargetSpans": "4/4 exact"
+  },
+  "releaseStatus": "unselected and unpublished; no human or media approval implied"
+}

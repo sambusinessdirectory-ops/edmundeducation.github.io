@@ -570,6 +570,20 @@
           "sentence": "Reliable deliveries help businesses keep moving.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "keep moving"
+        },
+        {
+          "occurrenceId": "book10-16-1508",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 141,
+          "book": 14,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 150, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Reliable deliveries help businesses keep moving.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep moving"
         }
       ],
       "listening": {

@@ -1,0 +1,81 @@
+{
+  "reviewType": "read-only independent source-owner sense adjudication",
+  "status": "provisional recommendation; no lesson, decision, or selection changed",
+  "inputsSha256": {
+    "aPlan": "7fe3cc3fe93800b08584e80c8457dd74464e28bcdd9121720a35e77ca191fd8f",
+    "pilotPlan": "ce74d87223e8e9afc96df0cf86b311a9eacc03d4047fdaaa1ac264e133b89379",
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "legacyTargetPatterns": "281b8570686371a1de9999da0cb4b05437d8ec2939453c5f855b5c1c6ae545ee",
+    "legacyLesson007": "98f44b1eb08d4806a269c47a93dc1b7c8af09a3eb2440a8330df867f7bc6d3c3",
+    "canonical287Batch": "f832fc36ff26c381158584b663a6e8faa5159d2f1a2f0dee1973ed73d5c818a1",
+    "canonical1616Batch": "8c54eaba73315ec6e0301917d8da32b4e35589c9e5453fa8556fcfb0a11960b3",
+    "selectedOwner2270Batch": "5b2bdf2ae52dabb9492bc7343c24f99edde70e6f20ecd3871d3f033d7a37d027",
+    "decision2532to2591": "7c62049af7b2337afb351053b5744aa412be62b538d5bafa5ce267e2d292b883",
+    "decision2712to2771": "ba6254c1a3a243454a9eb1601289288b811d3df0ce5affad799c502b04cbd24a",
+    "decision2772to2831": "810328fc1e8561aed56374ad25ef6d80c351fc43a37aa332303708f14d8ea2ad",
+    "decision2892to2951": "504b3588067ddb8670ba205fb491ddbfa439d97d978d0bed1033d5a2ea441187"
+  },
+  "adjudications": [
+    {
+      "sourceOrdinal": 2539,
+      "sourceId": "book10-16-0428",
+      "sourceSentence": "Neighbours helped each other get through the storm.",
+      "aProposal": "alias-existing 007 after bounded object expansion",
+      "pilotProposal": "expand-existing-owner-then-alias 007",
+      "ownerId": "advanced-native-007",
+      "ownerTitle": "get through it",
+      "currentPattern": "\\b(?:get|gets|got|getting)\\s+through\\s+(?:it|this)\\b",
+      "currentFullSourceMatch": false,
+      "meaningEvidence": "The storm is an ordeal endured with neighbours' help. Lesson 007 explicitly teaches enduring or completing a difficult experience and says that doing so need not be easy. The guide's broader possible 'complete a task' gloss is not the sense shown by this sentence.",
+      "recommendation": "expand-existing-owner-then-alias",
+      "requiredGuard": "Add a bounded named-ordeal object branch, preserve it/this, and teach at least one named-ordeal example. Reject physical passage through a place and routine task completion without adversity. Test the full source sentence under the live case-insensitive detector before changing the decision.",
+      "separateOwnerJustified": false
+    },
+    {
+      "sourceOrdinal": 2715,
+      "sourceId": "book10-16-0604",
+      "sourceSentence": "Local artists should not be pushed to the sidelines.",
+      "aProposal": "alias-existing 287 after sidelines expansion",
+      "pilotProposal": "candidate distinct lesson",
+      "ownerId": "advanced-native-287",
+      "ownerTitle": "pushed to the margins",
+      "currentPattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the margins\\b",
+      "currentFullSourceMatch": false,
+      "meaningEvidence": "The guide says artists lose centrality or influence. Owner 287 defines becoming less visible, influential or central, and teaches that remaining present does not guarantee a voice. This is the same learner decision. Selected owner 4208 'watch from/stand on the sidelines' instead describes observing without joining and does not imply that someone else marginalized the observer.",
+      "recommendation": "expand-existing-owner-then-alias",
+      "requiredGuard": "Add the passive/active destination variant 'to the sidelines' to owner 287, retain margins, and show reduced participation or influence without implying literal seats or complete exclusion. A bounded lexical pattern could end 'to the (?:margins|sidelines)'. Do not route this passive marginalization example to owner 4208.",
+      "separateOwnerJustified": false
+    },
+    {
+      "sourceOrdinal": 2826,
+      "sourceId": "book10-16-0715",
+      "sourceSentence": "The first article is not the final word.",
+      "aProposal": "alias-new 2270 after final-word expansion",
+      "pilotProposal": "candidate distinct lesson",
+      "ownerId": "advanced-native-2270",
+      "ownerTitle": "the last word on",
+      "currentPattern": "\\bthe last word on\\b",
+      "currentFullSourceMatch": false,
+      "meaningEvidence": "Both source sentences warn that an early or single article is not a definitive account. Owner 2270 already teaches 'not the last word on' and the need for further evidence; replacing last with final and omitting an expressed on-complement changes wording, not the intended judgment.",
+      "recommendation": "expand-selected-new-owner-then-alias-new",
+      "requiredGuard": "Teach 'the final word' as a bounded variant, including an omitted on-complement, while retaining 'the last word on'. Check the negative article example and a positive definitive-ruling example. Exclude literal last spoken words through semantic assessment; adding a regex alternative alone is insufficient.",
+      "separateOwnerJustified": false
+    },
+    {
+      "sourceOrdinal": 2929,
+      "sourceId": "book10-16-0818",
+      "sourceSentence": "We have one free evening, so let's make the most of it.",
+      "aProposal": "distinct generic time/opportunity lesson",
+      "pilotProposal": "expand-existing-owner-then-alias 1616",
+      "ownerId": "advanced-native-1616",
+      "ownerTitle": "make the most of limited space",
+      "currentPattern": "\\bmake\\s+the\\s+most\\s+of\\s+limited\\s+space\\b",
+      "currentFullSourceMatch": false,
+      "meaningEvidence": "The source's 'it' refers to one available evening and means use that limited opportunity fully. Owner 1616's brief explicitly calls its fixed title a 'make the most of + resource frame'; its limited-space lesson is a narrower resource example, not a different idiom sense. The current seven steps, however, assess layout and accessible space rather than use of a finite time opportunity.",
+      "recommendation": "retain-hold-until-existing-owner-is-substantively-broadened-then-alias",
+      "requiredGuard": "Before aliasing, broaden owner 1616's meaning, grammar, target and multiple assessed contexts to limited resources/opportunities; explicitly teach that 'it' points back to the free evening. Preserve spatial-use examples and the usable-layout boundary. Do not merely add '|it' to the detector. If the owner must remain a deliberately space-specific lesson, a separately reviewed pronominal time/opportunity lesson is the fallback, with an explicit nonduplicate outcome.",
+      "separateOwnerJustifiedNow": false,
+      "confidence": "moderate"
+    }
+  ]
+}

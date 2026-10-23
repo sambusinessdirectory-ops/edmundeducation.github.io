@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-distinct-3340-4315-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3340",
+      "number": 3340,
+      "inventoryId": "expr-3340",
+      "titleEn": "pin the details down",
+      "titleZh": "敲定具體細節",
+      "category": "phrasal-verb",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:pin|pins|pinned|pinning)\\s+(?:everything|the\\s+(?:(?:opening|event|start|final)\\s+)?(?:(?:detail|arrangement|date|time|step|schedule|plan|layout)|(?:details|arrangements|dates|times|steps|schedules|plans|layouts))|(?:these|all)\\s+(?:(?:opening|event|start|final)\\s+)?(?:details|arrangements|dates|times|steps|schedules|plans|layouts)|every\\s+(?:(?:opening|event|start|final)\\s+)?(?:detail|arrangement|date|time|step|schedule|plan|layout))\\s+down\\b|\\b(?:pin|pins|pinned|pinning)\\s+down\\s+(?:everything|the\\s+(?:(?:opening|event|start|final)\\s+)?(?:(?:detail|arrangement|date|time|step|schedule|plan|layout)|(?:details|arrangements|dates|times|steps|schedules|plans|layouts))|(?:these|all)\\s+(?:(?:opening|event|start|final)\\s+)?(?:details|arrangements|dates|times|steps|schedules|plans|layouts)|every\\s+(?:(?:opening|event|start|final)\\s+)?(?:detail|arrangement|date|time|step|schedule|plan|layout))\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Set specific arrangements firmly so they are no longer open to change.",
+        "meaningZh": "把具體安排敲定，使關鍵細節不再懸而未決。",
+        "grammar": "Pin X down or pin down X. Use an object such as the date, the details, or everything; pin changes tense and down remains fixed. Timing words such as too early are optional context.",
+        "register": "Neutral conversational planning language. A community organiser may say it to volunteers awaiting a venue decision; an editor may use it with colleagues after missing material arrives.",
+        "boundaryZh": "要有待確定的具體安排；可以先定部分事項，再等資料齊全才敲定其餘細節。這不是把物件釘在桌上，也不表示愈早敲定愈好。",
+        "misconceptionZh": "too early 描述時機，不是片語固定部分；pin down 之後要有清楚的安排或細節作受詞。",
+        "outcomeZh": "能說出哪些細節已可敲定、哪些仍需等待，以及何時再作最後決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1229",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 114,
+          "book": 12,
+          "question": 48,
+          "sample": "S2",
+          "sourceBookPages": "112–113",
+          "locatorNote": "DOCX table 118, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We do not need to pin everything down too early.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pin everything down too early"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "主持人會在甚麼時候敲定街坊工作坊的開始時間？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After the new bus timetable is published.",
+            "zh": "在新巴士時間表公布之後。"
+          },
+          {
+            "id": "b",
+            "en": "As soon as the venue is booked, before transport information arrives.",
+            "zh": "場地一訂好、交通資料尚未公布時。"
+          },
+          {
+            "id": "c",
+            "en": "After workshop registration closes, even if the bus timetable is still unknown.",
+            "zh": "工作坊報名結束後，即使巴士時間表仍未公布。"
+          },
+          {
+            "id": "d",
+            "en": "After the volunteers confirm the refreshments, before the transport details are known.",
+            "zh": "義工確認茶點後、交通資料尚未清楚時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地已定，但交通資料未齊；主辦者明說會待新巴士時間表公布後敲定開始時間。",
+        "en": "The community workshop has a venue, but the bus timetable will change next month. The organisers will pin the start time down after the new timetable is published.",
+        "zh": "社區工作坊已有場地，但巴士時間表下月會更改。主辦者會待新時間表公布後，才敲定開始時間。"
+      },
+      "reply": {
+        "promptEn": "We have chosen the exhibition room, but the delivery date for the display cases is still uncertain. How should we handle the opening schedule?",
+        "promptZh": "（我們已選好展覽室，但展示櫃的送貨日期仍未確定。開幕時間應怎樣安排？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can announce the room now and wait for the delivery date before setting the opening day.",
+            "zh": "我們可以先公布場地，待送貨日期確定後才定開幕日。"
+          },
+          {
+            "id": "b",
+            "en": "We can ask the supplier for a firm delivery window and then update visitors.",
+            "zh": "我們可以請供應商確認送貨時段，然後通知訪客。"
+          },
+          {
+            "id": "c",
+            "en": "We should not pin the opening date down until the display cases have a confirmed arrival date.",
+            "zh": "展示櫃未有確定到貨日期前，我們不應敲定開幕日。"
+          },
+          {
+            "id": "d",
+            "en": "We can prepare the publicity text now while leaving the date blank.",
+            "zh": "我們可以先準備宣傳文案，但暫時留空日期。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應送貨日期未明的安排；金句用 pin the opening date down 指敲定開幕日，而非停止所有準備。"
+      },
+      "scene": {
+        "promptZh": "校刊已收到文章，但攝影組下週才交相片。編輯要決定版面；哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editors can pin the layout down once the photos arrive.",
+            "zh": "編輯可在相片送達後敲定版面。"
+          },
+          {
+            "id": "b",
+            "en": "The editors can reserve spaces using last year’s photo sizes and lock the layout today.",
+            "zh": "編輯可按去年的相片尺寸預留位置，今天便定下版面。"
+          },
+          {
+            "id": "c",
+            "en": "The editors can approve a layout based on the expected photo sizes before seeing the new images.",
+            "zh": "編輯可先按預計相片尺寸批准版面，不用等新相片。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "文章已齊，但相片位置影響版面；等相片到齊再敲定版面，與情境相符。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 pin the details down 表示敲定細節？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A choir confirms the concert time after the hall grants access.",
+            "zh": "合唱團獲場地批准後，確認音樂會時間。"
+          },
+          {
+            "id": "b",
+            "en": "A tutor compares two possible lesson dates while waiting for pupils’ availability.",
+            "zh": "導師正比較兩個上課日期，仍等學生回覆是否有空。"
+          },
+          {
+            "id": "c",
+            "en": "A committee finalises the seating plan after the guest list closes.",
+            "zh": "委員會在賓客名單截止後，敲定座位表。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只是在比較兩個可能日期，尚未敲定；另外兩項都作出具體最後決定。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「食物供應商星期五才確定可送貨的日子；我們現在要在海報寫上日期嗎？」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us pin the event date down after the supplier confirms delivery; the poster can be drafted now.",
+            "zh": "待供應商確定送貨日後再敲定活動日期；海報可先起草。"
+          },
+          {
+            "id": "b",
+            "en": "We could print a date based on the supplier’s usual schedule and treat it as confirmed.",
+            "zh": "我們可按供應商平常的送貨時間印上日期，當作已確定。"
+          },
+          {
+            "id": "c",
+            "en": "We could wait until Friday before drafting any part of the poster.",
+            "zh": "我們可等到星期五才開始起草海報的任何部分。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應保留了先起草海報的進度，並把敲定日期放在關鍵送貨資料確認之後。"
+      },
+      "speaking": {
+        "en": "The library can pin the date down once the visiting author confirms her travel plans.",
+        "zh": "待到訪作家確認行程後，圖書館便可敲定日期。",
+        "promptZh": "先聽示範，再說明圖書館何時能敲定日期。",
+        "targetSpan": {
+          "start": 16,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館機器人小組在設計自動推書車，尚未完成使用者的把手高度測試。用一至兩句英文說明現在可先做甚麼，以及何時敲定細節。",
+        "selfCheckZh": "須指出可先做基本推書車或原型，並在使用者測試把手高度後才敲定細節；不可說測試已完成。",
+        "examples": [
+          {
+            "en": "The team can build a basic book cart now, but it should test handle heights with library users before pinning the details down.",
+            "zh": "團隊現在可以先製作基本推書車，但應先請圖書館使用者測試把手高度，再敲定細節。"
+          },
+          {
+            "en": "We can test a prototype with library users first and pin down the details after we learn which handle height works for them.",
+            "zh": "我們可以先請圖書館使用者測試原型，了解哪個把手高度適合他們，再敲定細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a basic book cart",
+            "zh": "基本推書車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 36
+            }
+          },
+          {
+            "en": "handle heights",
+            "zh": "把手高度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "library users",
+            "zh": "圖書館使用者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 94
+            }
+          },
+          {
+            "en": "test a prototype",
+            "zh": "測試原型",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 23
+            }
+          },
+          {
+            "en": "which handle height works for them",
+            "zh": "哪個把手高度適合他們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We can pin the date down once everyone has confirmed their availability.",
+          "zh": "待所有人確認是否有空後，我們便可以敲定日期。"
+        },
+        {
+          "en": "Pinning everything down too early can leave no room for new information.",
+          "zh": "太早敲定所有細節，可能令人無法因應新資料調整。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4012",
+      "number": 4012,
+      "inventoryId": "expr-4012",
+      "titleEn": "get back up",
+      "titleZh": "跌倒後重新起步",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting)\\s+back\\s+up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Resume purposeful effort after a setback or failure, even before full recovery or success.",
+        "meaningZh": "遭遇挫折或失敗後重新行動、繼續努力，不表示已完全恢復或必定成功。",
+        "grammar": "Get back up / got back up / getting back up. In this figurative sense, a setback and renewed action should be clear; the same words can literally mean rise after a fall.",
+        "register": "Encouraging, informal to neutral. A coach can say it to a disappointed player, or a project partner can use it after an unsuccessful proposal.",
+        "boundaryZh": "重點是挫折後再次採取行動；只休息、只得到安慰，或尚未重試，都不足以說已經重新起步。它不保證後來勝出。",
+        "misconceptionZh": "不要把 get back up 一律理解成字面站起來；亦不要誤當成已完全恢復水準的 bounce back。",
+        "outcomeZh": "能指出具體挫折、重新嘗試的行動，以及結果仍未確定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1901",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 179,
+          "book": 15,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 194, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After losing the final, she had to get back up and train again.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get back up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "游泳選手落選後，做了甚麼來重新起步？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She resumed training and changed her start technique.",
+            "zh": "她恢復訓練，並調整起步技巧。"
+          },
+          {
+            "id": "b",
+            "en": "She joined the team despite missing the qualifying time.",
+            "zh": "她雖未達標，仍加入了隊伍。"
+          },
+          {
+            "id": "c",
+            "en": "She decided never to enter another race.",
+            "zh": "她決定再也不參加比賽。"
+          },
+          {
+            "id": "d",
+            "en": "She waited for the team to change its results before training again.",
+            "zh": "她等隊伍修改結果後才再訓練。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說她落選後回到訓練，並改良起步技巧；沒有說她已入選或保證下次成功。",
+        "en": "Lena missed the regional swimming team by a few seconds. After a day to reflect, she got back up and returned to morning training with a revised start technique.",
+        "zh": "Lena 以數秒之差落選地區游泳隊。她用一天反思，然後重新起步，帶着改良後的起步技巧回到早晨訓練。"
+      },
+      "reply": {
+        "promptEn": "Noah lost the school debate final, but he wants to prepare for the next competition. What could he do now?",
+        "promptZh": "（Noah 在校際辯論決賽落敗，但想準備下一次比賽。他現在可以做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He could ask the judges which arguments were least clear and practise those points.",
+            "zh": "他可以問評判哪些論點最不清楚，再練習那些部分。"
+          },
+          {
+            "id": "b",
+            "en": "He could review the recording with his team and plan new examples.",
+            "zh": "他可以與隊員重看錄影，再構思新例子。"
+          },
+          {
+            "id": "c",
+            "en": "He could get back up by joining next week’s practice with a revised opening.",
+            "zh": "他可以帶着改良後的開場白參加下週練習，重新起步。"
+          },
+          {
+            "id": "d",
+            "en": "He could arrange a short practice round before the next contest.",
+            "zh": "他可以在下次比賽前安排一場短練習賽。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是落敗後可行的準備；金句說明重新參加練習，並不聲稱他已贏得下一場。"
+      },
+      "scene": {
+        "promptZh": "社區菜園的首次募款提案遭拒；負責人已按反饋修訂預算，並預約下週再向另一個資助小組說明。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organisers got back up and prepared a revised proposal for another meeting.",
+            "zh": "主辦者重新起步，準備了修訂提案，在另一場會議再提出。"
+          },
+          {
+            "id": "b",
+            "en": "The organisers can ask the first panel to reconsider the original proposal without addressing its feedback.",
+            "zh": "主辦者可請第一個小組重新審議原提案，但不回應其意見。"
+          },
+          {
+            "id": "c",
+            "en": "The organisers can focus on promoting the garden and postpone the revised funding meeting.",
+            "zh": "主辦者可先宣傳菜園，把已預約的修訂提案會議押後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提案失敗後，主辦者根據反饋修訂並再次提出，符合挫折後繼續行動的意思。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 get back up 表示挫折後重新努力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A singer fails an audition and books a lesson to improve breath control.",
+            "zh": "歌手試音落選後，預約課堂改善呼吸控制。"
+          },
+          {
+            "id": "b",
+            "en": "A cyclist rests after a loss but has not decided whether to train or race again.",
+            "zh": "單車選手落敗後休息，仍未決定會否再訓練或比賽。"
+          },
+          {
+            "id": "c",
+            "en": "A school team loses a match and returns to practise its weak defence.",
+            "zh": "校隊輸掉一場比賽後，回去練習薄弱的防守。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "休息可以合理，但仍未有重新行動；另外兩項都有具體的再次努力。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「我們的社區劇團申請演出場地失敗了；你還想繼續嗎？」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes. We can get back up, ask why the request failed, and try another venue.",
+            "zh": "想。我們可以重新起步，了解申請失敗原因，再試另一個場地。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. We could appeal the refusal using the same venue request without asking what went wrong.",
+            "zh": "想。我們可用同一份場地申請提出上訴，不問失敗原因。"
+          },
+          {
+            "id": "c",
+            "en": "I would wait for that venue to become available rather than prepare another request.",
+            "zh": "我會等原場地有空檔，不準備另一份申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句承認申請被拒，並提出了解原因和再次嘗試；沒有把努力當成已獲批的證據。"
+      },
+      "speaking": {
+        "en": "The chess club lost its sponsor, but it can get back up by testing a smaller tournament before seeking new funding.",
+        "zh": "棋會失去贊助商，但可以先試辦較小型比賽，再尋找新資助，重新起步。",
+        "promptZh": "先聽示範，再說出棋會失去贊助後可怎樣重新起步。",
+        "targetSpan": {
+          "start": 44,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校環保小組首次回收活動參與人數不多，但成員想下月再試。用一至兩句英文說明挫折、下一步具體改動，以及結果仍未知。",
+        "selfCheckZh": "須指出首次參與人數不多、下月再試的具體改動；不要保證第二次一定成功。",
+        "examples": [
+          {
+            "en": "The first recycling day drew few pupils, but our group can get back up by asking classes when to collect paper and trying again next month.",
+            "zh": "第一次回收日只有少數學生參與，但我們小組可以先問各班何時方便交廢紙，並在下月再試，重新起步。"
+          },
+          {
+            "en": "After a quiet first event, we will get back up and move the collection desk closer to the library next month; we will check whether participation improves.",
+            "zh": "第一次活動反應冷淡後，我們會在下月把回收桌移近圖書館再試，重新起步；之後會看看參與人數有否改善。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The first recycling day",
+            "zh": "第一次回收日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "drew few pupils",
+            "zh": "只有少數學生參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 39
+            }
+          },
+          {
+            "en": "asking classes",
+            "zh": "詢問各班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 88
+            }
+          },
+          {
+            "en": "the collection desk",
+            "zh": "回收桌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 75
+            }
+          },
+          {
+            "en": "whether participation improves",
+            "zh": "參與人數會否改善",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 154
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Getting back up means trying again after a setback, not proving the next attempt will succeed.",
+          "zh": "get back up 指遇挫後再次嘗試，不是證明下一次一定成功。"
+        },
+        {
+          "en": "She got back up by returning to practice with a clearer plan.",
+          "zh": "她帶着更清晰的計劃回去練習，重新起步。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4038",
+      "number": 4038,
+      "inventoryId": "expr-4038",
+      "titleEn": "keep turning up",
+      "titleZh": "持續到場參與",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping)\\s+turning\\s+up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue attending and putting in effort over time, especially when progress is slow or conditions are inconvenient.",
+        "meaningZh": "在一段時間內持續到場參與和付出努力，即使進展緩慢或條件不方便。",
+        "grammar": "Keep/keeps/kept turning up, often with for/at plus an activity and a repeated-time cue. Keep marks persistence; turn up alone only marks arrival.",
+        "register": "Natural, encouraging informal English. A coach may say it about a committed trainee, or a volunteer coordinator may say it about a reliable helper.",
+        "boundaryZh": "要有一再到場的證據；只出席一次、口頭承諾或單純出現，不能證明持續投入。亦不保證參與者已有突出成果。",
+        "misconceptionZh": "不要把 turn up 單次到場與 keep turning up 持續出席混為一談；這裏不是把音量調大。",
+        "outcomeZh": "能指出持續參與的時間線索及具體活動，並避免把勤奮誤寫成已成功。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1927",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 182,
+          "book": 15,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "41–43",
+          "locatorNote": "DOCX table 196, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He keeps turning up for practice even in winter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeps turning up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "Maya 這幾週為甚麼被稱為可靠的學員？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has attended the class every week despite working late.",
+            "zh": "她雖然工作至很晚，這學期仍每週上課。"
+          },
+          {
+            "id": "b",
+            "en": "She speaks the language fluently after one class.",
+            "zh": "她上過一堂課後已能流利說這種語言。"
+          },
+          {
+            "id": "c",
+            "en": "She teaches the class whenever the tutor is absent.",
+            "zh": "導師缺席時，她會代為授課。"
+          },
+          {
+            "id": "d",
+            "en": "She joined the class only once and then stopped attending.",
+            "zh": "她只上過一堂課，之後便不再出席。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音明說她這學期每週到課，工作至晚也沒有中斷；沒有說她已流利或代課。",
+        "en": "Maya works late on Thursdays, yet she keeps turning up for the evening language class. She has attended every week this term and asks for help when a word is unclear.",
+        "zh": "Maya 星期四工作至很晚，但仍持續出席晚間語言班。這學期她每週都到場，遇到不懂的詞便請教老師。"
+      },
+      "reply": {
+        "promptEn": "How has Tariq stayed involved with the neighbourhood repair group while learning the skills?",
+        "promptZh": "（Tariq 在學習維修技巧期間，怎樣持續參與社區維修小組？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He has attended the Saturday sessions and asked experienced members for feedback.",
+            "zh": "他持續參加星期六活動，並請有經驗的成員給予意見。"
+          },
+          {
+            "id": "b",
+            "en": "He has brought a small item to practise on at each monthly meeting.",
+            "zh": "他每次月會都帶一件小物品來練習。"
+          },
+          {
+            "id": "c",
+            "en": "He keeps turning up for the repair sessions, even while he is still learning.",
+            "zh": "即使仍在學習，他也持續到場參加維修活動。"
+          },
+          {
+            "id": "d",
+            "en": "He has joined the monthly rota and practised the basic checks with a partner.",
+            "zh": "他加入每月輪值，並與拍檔練習基本檢查。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明他持續參與和學習；金句用 keeps turning up 表示一再到場，不等於已成為專家。"
+      },
+      "scene": {
+        "promptZh": "社區電台的新學員連續三個月每週來學剪接，雖然她還未主持節目。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She keeps turning up for the editing sessions while she builds her skills.",
+            "zh": "她在培養技巧期間持續到場參加剪接課。"
+          },
+          {
+            "id": "b",
+            "en": "She enjoyed her first editing session, but she has not returned for the later sessions.",
+            "zh": "她喜歡第一堂剪接課，但之後沒有再來上課。"
+          },
+          {
+            "id": "c",
+            "en": "She practises editing at home but rarely attends the weekly sessions.",
+            "zh": "她在家練習剪接，但很少到場參加每週課堂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週到場且持續三個月，足以表示持續參與；情境明說她尚未主持節目。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 keeps turning up 讚賞持續參與？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner attends four evening rehearsals in a row despite a long journey.",
+            "zh": "學員雖然路程遠，仍連續出席四次晚間排練。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor attends the first pottery class but has not booked or attended another.",
+            "zh": "訪客上過首堂陶藝課，但尚未預約或出席第二堂。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer joins the monthly park survey throughout the winter.",
+            "zh": "義工整個冬季都參加每月的公園調查。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只上過第一堂，未有一再出席的證據；另外兩項都有重複參與的時間線索。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「新來的實習生尚未能獨立修理單車，但這兩個月每個星期六都來工場學習。」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The intern keeps turning up, and the team can teach one repair step at a time.",
+            "zh": "這位實習生持續到場，團隊可以逐步教授維修。"
+          },
+          {
+            "id": "b",
+            "en": "The intern may be learning quickly, but one good repair alone does not show regular attendance.",
+            "zh": "實習生可能學得很快，但只成功修好一輛單車，不能證明有持續到場。"
+          },
+          {
+            "id": "c",
+            "en": "The intern could study repairs at home instead of continuing the Saturday sessions.",
+            "zh": "實習生也可在家學習維修，毋須繼續參加星期六課堂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每個星期六都來，表示持續參與；尚未能獨立維修，不應被說成已樣樣精通。"
+      },
+      "speaking": {
+        "en": "Even before he could paint a full mural, Jun kept turning up for the community art sessions each weekend.",
+        "zh": "即使 Jun 尚未能畫完整壁畫，他仍每個週末持續參加社區美術活動。",
+        "promptZh": "先聽示範，再說明 Jun 在學會畫完整壁畫前如何持續參與。",
+        "targetSpan": {
+          "start": 45,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區回收小組的新義工仍在學分類物品，但整個秋季都參加每月收集日。用一至兩句英文寫出持續到場的證據，以及她尚未完全掌握的技巧。",
+        "selfCheckZh": "須寫出整個秋季每月參與及仍在學分類；不可說她已能獨自處理所有物品。",
+        "examples": [
+          {
+            "en": "Nadia keeps turning up for the monthly collection days throughout autumn, although she still asks how to sort unusual items.",
+            "zh": "Nadia 整個秋季都持續參加每月收集日，雖然仍會請教如何分類不常見的物品。"
+          },
+          {
+            "en": "She is still learning the sorting rules, but she has kept turning up at each collection day this autumn and works beside an experienced volunteer.",
+            "zh": "她仍在學分類規則，但這個秋季每次收集日都持續到場，並在有經驗的義工旁邊工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "monthly collection days",
+            "zh": "每月收集日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 54
+            }
+          },
+          {
+            "en": "throughout autumn",
+            "zh": "整個秋季",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 72
+            }
+          },
+          {
+            "en": "sort unusual items",
+            "zh": "分類不常見的物品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 123
+            }
+          },
+          {
+            "en": "the sorting rules",
+            "zh": "分類規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 39
+            }
+          },
+          {
+            "en": "an experienced volunteer",
+            "zh": "有經驗的義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep turning up points to repeated attendance, not a promise of quick success.",
+          "zh": "keep turning up 指重複到場，不保證很快成功。"
+        },
+        {
+          "en": "Mina kept turning up for practice through the winter and learned from each session.",
+          "zh": "Mina 整個冬季持續參加練習，並從每節課學習。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4315",
+      "number": 4315,
+      "inventoryId": "expr-4315",
+      "titleEn": "come across the wrong way",
+      "titleZh": "令人誤解語氣或意思",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming)\\s+across\\s+the\\s+wrong\\s+way\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be interpreted with a tone or meaning the speaker did not intend, especially when context or vocal cues are missing.",
+        "meaningZh": "因缺少語境或語氣線索，被人理解成說話者本來無意表達的意思或態度。",
+        "grammar": "Come/comes/came across the wrong way, often of a message, comment or gesture. The phrase describes reception; it does not by itself prove bad intention.",
+        "register": "Neutral conversational English. A team member may say it about a short work message, or a family member may explain a misunderstood note.",
+        "boundaryZh": "須有原意與別人的理解之間的落差；訊息本來就故意冒犯，便不是「無意中令人誤解」。亦不等於偶然找到東西的 come across。",
+        "misconceptionZh": "不能只看字句長短便判斷一定會被誤解；要有可辨認的原意、接收者的不同理解或合理風險。",
+        "outcomeZh": "能說明原本想表達甚麼、別人可能怎樣理解，以及可加入甚麼語境減少誤會。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2204",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 208,
+          "book": 16,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 227, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A brief text can come across the wrong way.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come across the wrong way"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "活動統籌發現簡短告示造成甚麼誤會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors thought the whole museum was shut when only the east gallery was closed.",
+            "zh": "訪客以為整間博物館關閉，但其實只有東展室暫停開放。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors correctly understood that only the east gallery was closed.",
+            "zh": "訪客正確理解只有東展室暫停開放。"
+          },
+          {
+            "id": "c",
+            "en": "The coordinator intended to announce a full museum closure.",
+            "zh": "統籌原本就是要宣布整間博物館關閉。"
+          },
+          {
+            "id": "d",
+            "en": "The sign named the east gallery clearly from the start.",
+            "zh": "告示一開始便清楚寫明東展室。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原意只是東展室暫停開放，但訪客誤以為整間博物館關閉；新告示才補上展室名稱。",
+        "en": "A museum sign said “Closed for repairs today.” The coordinator meant only the east gallery, but visitors thought the whole museum was shut. It came across the wrong way, so she named the room in a new notice.",
+        "zh": "博物館告示寫着「今天維修關閉」。統籌原意只是東展室暫停開放，但訪客以為整間博物館關閉。告示令人誤解，所以她在新告示寫明展室名稱。"
+      },
+      "reply": {
+        "promptEn": "I meant “I can review it tomorrow,” but my message only said “Tomorrow.” My colleague took it as an impatient order. How could I clarify it?",
+        "promptZh": "（我本來想說「我明天可以檢查」，但訊息只寫了「明天」。同事以為我在不耐煩地下命令。我可以怎樣澄清？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I could say that I meant to offer a review tomorrow, not set a deadline for them.",
+            "zh": "我可以說明原意是明天幫忙檢查，不是替對方定期限。"
+          },
+          {
+            "id": "b",
+            "en": "I could add the full offer and ask whether tomorrow suits them.",
+            "zh": "我可以補上完整提議，並問明天是否方便。"
+          },
+          {
+            "id": "c",
+            "en": "I could explain that my short message came across the wrong way and restate my offer.",
+            "zh": "我可以解釋簡短訊息令人誤解，再重新說清楚我的提議。"
+          },
+          {
+            "id": "d",
+            "en": "I could apologise for the unclear wording and send a clearer sentence.",
+            "zh": "我可以為表達不清道歉，再傳一句更清楚的話。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能澄清「明天」原本是協助的提議；金句指出接收者誤會了原意，不替對方捏造新的要求。"
+      },
+      "scene": {
+        "promptZh": "一位老師在學生交出初稿後只寫「Interesting」。她原意是想知道更多細節，但學生以為是在諷刺。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The brief comment came across the wrong way, so the teacher should explain what interested her.",
+            "zh": "簡短評語令人誤解，老師應說明她感興趣的是甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher meant a short compliment and the student understood it as praise.",
+            "zh": "老師本意是簡短稱讚，學生也把它理解為讚賞。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher had already followed the brief comment with a clear explanation of her interest.",
+            "zh": "老師在簡短評語後已清楚解釋她感興趣的地方。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "老師想詢問更多，學生卻聽出諷刺；補上具體語境可修正誤會。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說一句話 came across the wrong way？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager meant “please check this when free”; an employee heard it as an urgent order.",
+            "zh": "經理原意是「有空再看」；員工卻聽成緊急命令。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker deliberately insulted a visitor, who understood the insult exactly as intended.",
+            "zh": "說話者故意侮辱訪客，訪客也完全照原意理解。"
+          },
+          {
+            "id": "c",
+            "en": "A short congratulatory note was read as sarcasm, though the sender meant it sincerely.",
+            "zh": "簡短祝賀訊息被理解成諷刺，但發送者本意是真誠祝賀。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "故意侮辱而且對方照原意理解，沒有原意與理解的落差；另兩項都有誤會。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「我回覆姨媽『也許遲一點』，本意是行程未定；她卻以為我嫌她的邀請麻煩。」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your reply may have come across the wrong way; tell her your schedule is uncertain, not that you dislike the invitation.",
+            "zh": "你的回覆可能令人誤解；告訴她是行程未定，不是討厭她的邀請。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps she needs time to consider a visit; I would leave the message as it is.",
+            "zh": "也許她需要時間考慮探訪；我會讓訊息維持原樣。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether another date suits her, without explaining what your earlier reply meant.",
+            "zh": "問她另一個日子是否合適，但不用解釋先前回覆的意思。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲本意是行程未定，姨媽卻理解成嫌麻煩；金句提出澄清原意，而非聲稱甲故意拒絕。"
+      },
+      "speaking": {
+        "en": "A short note about a delayed parcel could come across the wrong way unless the shop explains the new delivery date.",
+        "zh": "如果商店不說明新的送貨日期，一則關於包裹延誤的簡短通知可能令人誤解。",
+        "promptZh": "先聽示範，再說出商店可怎樣避免簡短延誤通知令人誤解。",
+        "targetSpan": {
+          "start": 42,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區合唱團指揮在排練紙上寫「刪去第二段」，原意只是修改一段歌詞；幾位隊員卻以為整首歌被取消。用一至兩句英文說明原意、誤會及如何澄清。",
+        "selfCheckZh": "須指出只刪第二段、隊員誤以為整首歌被取消，以及指揮應清楚說明改動；不要說演出已取消。",
+        "examples": [
+          {
+            "en": "The rehearsal note came across the wrong way: the director meant to remove only the second verse, but some singers thought the whole song was cancelled. She should explain the change clearly.",
+            "zh": "排練紙上的註記令人誤解：指揮原意只是刪去第二段，但部分歌手以為整首歌被取消。她應清楚解釋改動。"
+          },
+          {
+            "en": "Some choir members thought the song was gone when the director wrote “drop verse two”. The note came across the wrong way; she should say that only one verse will be removed.",
+            "zh": "指揮寫下「刪去第二段」時，部分合唱團成員以為整首歌被取消。註記令人誤解；她應說明只會刪去其中一段。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the second verse",
+            "zh": "第二段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 96
+            }
+          },
+          {
+            "en": "some singers",
+            "zh": "部分歌手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 114
+            }
+          },
+          {
+            "en": "the whole song",
+            "zh": "整首歌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 137
+            }
+          },
+          {
+            "en": "choir members",
+            "zh": "合唱團成員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 18
+            }
+          },
+          {
+            "en": "only one verse",
+            "zh": "只有其中一段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An invitation without a clear time may come across the wrong way.",
+          "zh": "邀請若沒有寫清楚時間，可能令人誤解。"
+        },
+        {
+          "en": "If a comment came across the wrong way, explain the intention without blaming the reader.",
+          "zh": "若評語令人誤解，應解釋原意，而非責怪讀者。"
+        }
+      ]
+    }
+  ]
+}
