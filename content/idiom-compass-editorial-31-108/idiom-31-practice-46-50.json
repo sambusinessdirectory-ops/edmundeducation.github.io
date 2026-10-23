@@ -7,7 +7,7 @@
       "correctReason": "「Rather than let ...」表明姨姨用分配不同工作來避免兄弟整個週末爭吵。",
       "foils": [
         { "text": "Rather than let the brothers fight like cat and dog all weekend, their aunt gave them one job to share.", "reason": "「one job to share」把各自不同的工作改成共用一項工作。", "kind": "changed-intervention" },
-        { "text": "Their aunt gave each brother a separate job because she wanted them to fight like cat and dog all weekend.", "reason": "「wanted them to fight」把姨姨想避免爭吵改成想讓兄弟爭吵。", "kind": "reversed-purpose" },
+        { "text": "Rather than let the brothers fight like cat and dog for one afternoon, their aunt gave each a separate job.", "reason": "「for one afternoon」把姨姨想避免的整個週末爭吵縮成一個下午。", "kind": "changed-risk-duration" },
         { "text": "Rather than give them separate jobs, their aunt let the brothers fight like cat and dog all weekend.", "reason": "「let」表示姨姨放任爭吵，與原題說她採取行動避免爭吵相反。", "kind": "reversed-action" }
       ]
     },
@@ -24,7 +24,7 @@
       "truthCondition": "Two former friends argued fiercely for years, then finally sat down and solved their main problem.",
       "correctReason": "正確句保留多年爭吵之後終於坐下解決主要問題的時間與結果。",
       "foils": [
-        { "text": "Before years of fighting like cat and dog, the two former friends sat down and solved their main problem.", "reason": "「Before」把解決問題移到多年爭吵之前，倒轉原題的先後。", "kind": "reversed-sequence" },
+        { "text": "The two former friends solved their main problem before they began fighting like cat and dog for years.", "reason": "「before」把解決問題移到多年爭吵之前，倒轉原題的先後。", "kind": "reversed-sequence" },
         { "text": "After years of fighting like cat and dog, the two former friends finally avoided discussing their main problem.", "reason": "「avoided discussing」把坐下解決問題改成迴避討論。", "kind": "changed-resolution" },
         { "text": "After one day of fighting like cat and dog, the two former friends finally solved their main problem.", "reason": "「one day」把多年激烈爭吵縮成一天。", "kind": "changed-duration" }
       ]

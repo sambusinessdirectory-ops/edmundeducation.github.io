@@ -2,7 +2,7 @@
   "lessonId": "idiom-31",
   "method": "Key-hidden AI review of deterministically rotated answer choices; same AI, not independent human review",
   "status": "PARTIAL_NOT_RELEASE_APPROVAL",
-  "checkedAgainstStoredKey": "40/40 v2 selections matched after choices were recorded; v1 cycle discarded",
+  "checkedAgainstStoredKey": "60/60 v2 selections matched after choices were recorded; this is key-recognition evidence, not full 12-axis item approval",
   "selections": {
     "idiom-31-q01": { "letter": "D", "reason": "It preserves the television choice and habitual argument while using the idiom." },
     "idiom-31-q02": { "letter": "A", "reason": "It preserves the whenever-playing trigger and angry argument." },
@@ -43,7 +43,27 @@
     "idiom-31-q37": { "letter": "D", "reason": "It keeps the picnic contrast and the football dispute." },
     "idiom-31-q38": { "letter": "A", "reason": "It keeps quarrels at home and protection at school." },
     "idiom-31-q39": { "letter": "A", "reason": "It keeps the manager's surprise at success despite habitual conflict." },
-    "idiom-31-q40": { "letter": "C", "reason": "It keeps turn-taking as the point after which conflict ended." }
+    "idiom-31-q40": { "letter": "C", "reason": "It keeps turn-taking as the point after which conflict ended." },
+    "idiom-31-q41": { "letter": "D", "reason": "It keeps continuing arguments since the grandmother's visit and the counsellor's question." },
+    "idiom-31-q42": { "letter": "B", "reason": "It keeps the photo-versus-private contrast and immediate onset after the camera is put away." },
+    "idiom-31-q43": { "letter": "B", "reason": "It keeps the failure-to-listen condition, possibility, and every-decision dispute." },
+    "idiom-31-q44": { "letter": "A", "reason": "It keeps prior projects' conflicts as the reason for separate roles this time." },
+    "idiom-31-q45": { "letter": "D", "reason": "It keeps the relapse after the calm promise and the rubbish-bin issue." },
+    "idiom-31-q46": { "letter": "B", "reason": "It keeps the aunt's preventive reason and assignment of separate jobs." },
+    "idiom-31-q47": { "letter": "A", "reason": "It keeps the prior conflict and the unless-clear-rules condition." },
+    "idiom-31-q48": { "letter": "C", "reason": "It keeps years of argument before the eventual resolution." },
+    "idiom-31-q49": { "letter": "A", "reason": "It keeps an old quarrel causing the early end of the meal." },
+    "idiom-31-q50": { "letter": "D", "reason": "It keeps habitual conflict but this instance of cooperation to help the younger brother." },
+    "idiom-31-q51": { "letter": "D", "reason": "It keeps every afternoon appointment-allocation argument." },
+    "idiom-31-q52": { "letter": "A", "reason": "It keeps months of recurring conflict at planning meetings." },
+    "idiom-31-q53": { "letter": "C", "reason": "It keeps fierce repeated conflict over the login flow without resolution." },
+    "idiom-31-q54": { "letter": "B", "reason": "It keeps agreement on the theme but quarrels over each artwork." },
+    "idiom-31-q55": { "letter": "C", "reason": "It keeps last year's ferry project and near-every-meeting disputes." },
+    "idiom-31-q56": { "letter": "C", "reason": "It keeps the recurring shared-oven conflict, though the answer should specify who uses it first." },
+    "idiom-31-q57": { "letter": "B", "reason": "It keeps each script change as a trigger for new quarrels." },
+    "idiom-31-q58": { "letter": "A", "reason": "It keeps past quarrels and current joint decisions." },
+    "idiom-31-q59": { "letter": "A", "reason": "It keeps the collection-day planning trigger and recurrent conflict." },
+    "idiom-31-q60": { "letter": "A", "reason": "It keeps the conditional, probable return of disputes over a shared small counter." }
   },
   "closedFindings": [
     "Question 7's awkward 'over only major mistakes' distractor was revised to 'only over major mistakes' after the first key-hidden review.",
@@ -51,10 +71,13 @@
     "Question 21's awkward 'take turns peacefully over who' distractor was rewritten as natural English.",
     "Question 26's internally contradictory 'Yes ... fight' distractor was replaced with a plausible changed-issue foil.",
     "Question 36's internally contradictory advice/reasons were replaced with coherent alternative scenarios.",
-    "Question 39's implausible 'expected success because they fight' foil was replaced with a changed-reaction foil."
+    "Question 39's implausible 'expected success because they fight' foil was replaced with a changed-reaction foil.",
+    "Question 46's implausible 'aunt wanted them to fight' foil was replaced with a duration near miss.",
+    "Question 48's unnatural 'Before years of fighting' foil was rewritten as a natural sentence with the wrong sequence.",
+    "Question 56's correct English answer now preserves who uses the shared oven first, matching its source prompt and Chinese answer."
   ],
   "openFindings": [
-    "Questions 41–60 have not received v2 key-hidden review.",
-    "Guide, audio, runtime and visual checks remain open."
+    "A separate 12-axis editorial and 60-item diversity audit remains open; 60/60 key matches do not certify those gates.",
+    "Guide/bonus integration, audio, recording, runtime and visual checks remain open."
   ]
 }
