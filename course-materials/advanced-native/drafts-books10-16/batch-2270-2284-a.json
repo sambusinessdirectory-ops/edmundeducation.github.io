@@ -1,0 +1,1614 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-second60-provisional-a3-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2270",
+      "number": 2270,
+      "inventoryId": "expr-2270",
+      "titleEn": "the last word on",
+      "titleZh": "對某議題的最後定論",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe last word on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The final or supposedly definitive statement about a subject.",
+        "meaningZh": "對某議題被視為最終、具權威性的結論或說法。",
+        "grammar": "the last word on the matter; not the last word on a subject.",
+        "register": "Neutral set phrase, often used to caution against treating one source as final.",
+        "boundaryZh": "表示「最終定論」，不必是字面最後說出的字；單一初步來源往往不足以作定論。",
+        "misconceptionZh": "不要因一篇短文或一個人的意見就假設問題已完全解決。",
+        "outcomeZh": "能判斷現有資料是否足以支持最終定論，並建議下一步核實。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0159",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One short article should not be the last word on the subject.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the last word on"
+        }
+      ],
+      "listening": {
+        "en": "A short article blamed the town’s old bridge for every traffic delay, but engineers had not finished their study. The article was not the last word on the matter.",
+        "zh": "一篇短文把鎮上所有交通延誤都歸咎於舊橋，但工程師仍未完成研究。那篇文章並非此事的最後定論。",
+        "promptZh": "為何文章不能被當成最後定論？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The engineers were still gathering evidence.",
+            "zh": "工程師仍在搜集證據。"
+          },
+          {
+            "id": "b",
+            "en": "The article was the official final engineering report.",
+            "zh": "那篇文章就是正式的最終工程報告。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone had already agreed on the cause.",
+            "zh": "所有人早已同意成因。"
+          },
+          {
+            "id": "d",
+            "en": "The unfinished study concerns costs rather than traffic delays.",
+            "zh": "尚未完成的研究只涉及費用，不涉及交通延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "研究未完成，單一短文不足以作為交通延誤的最終解釋。"
+      },
+      "reply": {
+        "promptEn": "Can one visitor review settle whether the new community centre works well for everyone?",
+        "promptZh": "（一篇訪客評論能否判定新社區中心是否適合所有人？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should hear from more kinds of visitors.",
+            "zh": "我們應聽取更多不同訪客的意見。"
+          },
+          {
+            "id": "b",
+            "en": "We need to see how the centre works at different times.",
+            "zh": "我們需要看看中心在不同時間如何運作。"
+          },
+          {
+            "id": "c",
+            "en": "One review should not be the last word on the centre.",
+            "zh": "一篇評論不應成為對這間中心的最後定論。"
+          },
+          {
+            "id": "d",
+            "en": "It would help to ask staff about common problems too.",
+            "zh": "也可以向職員了解常見問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理主張繼續查證；金句明確指出單一評論不能成為最終定論。"
+      },
+      "scene": {
+        "promptZh": "學生只讀了一篇談古城歷史的短文，老師提醒她新發現的文物可能改變解釋。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That one article may not be the last word on the city’s history.",
+            "zh": "那篇文章未必是古城歷史的最後定論。"
+          },
+          {
+            "id": "b",
+            "en": "The newly found object has already proved every claim in the article false.",
+            "zh": "新文物已證明文章中的每項說法都錯。"
+          },
+          {
+            "id": "c",
+            "en": "The article is useful background, so no further source needs to be checked.",
+            "zh": "文章可作背景資料，所以不用再核對其他來源。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新文物可能帶來新解釋，一篇短文未必足以定論。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最有根據把一份文件視為某個狹窄問題的 the last word on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A committee fully reviews the evidence and signs its final decision on that procedure.",
+            "zh": "委員會完整審核證據後，就該程序問題簽署最終決定。"
+          },
+          {
+            "id": "b",
+            "en": "A single unverified rumour circulates before the inquiry starts.",
+            "zh": "調查開始前流傳一則未核實的傳聞。"
+          },
+          {
+            "id": "c",
+            "en": "An early study says further measurements are still needed.",
+            "zh": "一項初步研究指出仍須進一步量度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "經完整審核的正式最終決定，才較有根據被視為該狹窄程序問題的定論。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「網上第一篇文章說這條河已沒有魚，不用再查了。」你知道下週會公布新生態調查。哪個回應最合理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That article is not the last word on the river; let us read the new survey before deciding.",
+            "zh": "那篇文章不是這條河的最後定論；作決定前先看看新調查吧。"
+          },
+          {
+            "id": "b",
+            "en": "The first article settles the whole question, so the new survey cannot add anything useful.",
+            "zh": "第一篇文章已解決整個問題，新調查不可能提供有用資料。"
+          },
+          {
+            "id": "c",
+            "en": "The new survey will definitely prove the first article false, even before it is published.",
+            "zh": "新調查還未公布，也肯定會證明第一篇文章錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新調查尚未公布，不能預先斷定結果；也不能把第一篇文章當成最終定論。"
+      },
+      "speaking": {
+        "en": "The first review was not the last word on the exhibition because many visitors had not yet seen it.",
+        "zh": "首篇評論不是展覽的最後定論，因為很多訪客還未看過展覽。",
+        "promptZh": "先聽示範，再說明為何首篇評論不能作定論。",
+        "targetSpan": {
+          "start": 25,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館舊指南說一件雕塑出自某位藝術家，但最近發現一封當時的信件，研究人員正在重新核對資料。用一至兩句英文解釋為何舊指南未必能作最後定論。",
+        "selfCheckZh": "指出新信件與仍在進行的核對，說明舊指南不一定是最終結論。",
+        "examples": [
+          {
+            "en": "The old guide may not be the last word on the sculpture’s origin because researchers are examining a newly found letter.",
+            "zh": "研究人員正在查閱一封新發現的信，因此舊指南未必是雕塑來源的最後定論。"
+          },
+          {
+            "en": "Until the letter is checked, we should not treat the museum guide as the last word on who made the sculpture.",
+            "zh": "在信件獲核實前，我們不應把博物館指南當成雕塑作者的最後定論。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old guide",
+            "zh": "舊指南",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "the sculpture’s origin",
+            "zh": "雕塑來源",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 64
+            }
+          },
+          {
+            "en": "a newly found letter",
+            "zh": "新發現的信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 119
+            }
+          },
+          {
+            "en": "the letter is checked",
+            "zh": "信件獲核實",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 27
+            }
+          },
+          {
+            "en": "who made the sculpture",
+            "zh": "雕塑作者是誰",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An early forecast is rarely the last word on next week’s weather.",
+          "zh": "初步預報很少是下週天氣的最後定論。"
+        },
+        {
+          "en": "The panel’s signed report became the last word on the contest result.",
+          "zh": "評審小組簽署的報告成為比賽結果的最終定論。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2272",
+      "number": 2272,
+      "inventoryId": "expr-2272",
+      "titleEn": "close the book",
+      "titleZh": "就此結案、不再深究",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:close|closes|closed|closing) the book\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Treat an issue, inquiry or chapter of work as finished.",
+        "meaningZh": "把某個問題、調查或階段視為已經結束，不再繼續追查或討論。",
+        "grammar": "close the book on an investigation; not close the book yet.",
+        "register": "Common figurative phrase; often followed by on plus the matter.",
+        "boundaryZh": "不是字面合上書；是否適宜結案要看證據是否充分。",
+        "misconceptionZh": "不要因出現第一條線索就貿然停止調查，也不要在已充分解決時無限拖延。",
+        "outcomeZh": "能說明何時仍須跟進，何時可以合理地結束一件事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0161",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The first report should not close the book on the investigation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "close the book"
+        }
+      ],
+      "listening": {
+        "en": "The first inventory check found one missing parcel, but several deliveries were still unexamined. The manager refused to close the book on the case yet.",
+        "zh": "首次庫存核對發現一件包裹遺失，但還有幾批送貨未檢查。經理拒絕就此結案。",
+        "promptZh": "經理為何沒有就此結案？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There was still relevant evidence to check.",
+            "zh": "仍有相關資料需要核對。"
+          },
+          {
+            "id": "b",
+            "en": "Every delivery had already been fully checked.",
+            "zh": "所有送貨都已徹底核對。"
+          },
+          {
+            "id": "c",
+            "en": "The manager put the case aside without reviewing the unchecked deliveries.",
+            "zh": "經理沒核對未檢查的送貨便把案件擱下。"
+          },
+          {
+            "id": "d",
+            "en": "The missing parcel had already been found.",
+            "zh": "遺失的包裹已經找到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍有未檢查的送貨，現時就結束調查太早。"
+      },
+      "reply": {
+        "promptEn": "Should we stop reviewing the playground drainage problem after one dry afternoon?",
+        "promptZh": "（只有一個乾爽下午，我們便應停止檢查遊樂場排水問題嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should look at what happens after rain.",
+            "zh": "我們應看看下雨後的情況。"
+          },
+          {
+            "id": "b",
+            "en": "It would help to ask the caretakers about earlier flooding.",
+            "zh": "向管理員了解之前有沒有積水會有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "We should not close the book on it until we check a wet day.",
+            "zh": "未檢查下雨天的情況前，我們不應就此結案。"
+          },
+          {
+            "id": "d",
+            "en": "One dry afternoon does not answer the drainage question.",
+            "zh": "一個乾爽下午不足以回答排水問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出證據尚不足；金句用 close the book 表示不宜過早停止跟進。"
+      },
+      "scene": {
+        "promptZh": "圖書館遺失一本珍本書。保安只看了入口錄影，館長仍要求核對借閱紀錄與其他鏡頭。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The director is not ready to close the book on the inquiry.",
+            "zh": "館長還未準備就調查結案。"
+          },
+          {
+            "id": "b",
+            "en": "The director has finished checking every possible record.",
+            "zh": "館長已查完所有可能的紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The director chose to finish the inquiry after viewing only the entrance camera.",
+            "zh": "館長只看了入口鏡頭便決定結束調查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "還要核對借閱與錄影資料，說明調查未完。"
+      },
+      "contrast": {
+        "promptZh": "以本課「把事情視作已完結」的意思，哪種情況最不適合說 close the book？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A review panel finishes checking every application and formally signs its final decision.",
+            "zh": "審核小組核對所有申請後，正式簽署最終決定。"
+          },
+          {
+            "id": "b",
+            "en": "An inquiry has just begun, with several key witnesses still to interview.",
+            "zh": "調查剛開始，仍有多名關鍵證人未訪談。"
+          },
+          {
+            "id": "c",
+            "en": "A repaired machine passes all agreed tests and the service ticket is completed.",
+            "zh": "修好的機器通過所有約定測試，維修單亦已完成。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "關鍵證人仍未訪談，現在把調查視為完結並不合適。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們發現一次記帳錯誤，可以馬上說財務調查完成了嗎？」你知道還有上月單據未核對。哪個回應最恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us not close the book on the investigation until we check last month’s receipts.",
+            "zh": "核對上月單據前，我們不要就財務調查結案。"
+          },
+          {
+            "id": "b",
+            "en": "The one error probably explains everything, so we can finish the review now.",
+            "zh": "一項錯誤大概已解釋一切，我們現在可以結束審查。"
+          },
+          {
+            "id": "c",
+            "en": "We can publish the first finding as though the remaining receipts have already been checked.",
+            "zh": "我們可以把初步發現當作已核對餘下單據的結果公布。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "上月單據仍未核對，不能因一個發現就結束調查，亦不能把初步結果當成全面結論。"
+      },
+      "speaking": {
+        "en": "The team did not close the book on the complaint until they had spoken to everyone involved.",
+        "zh": "團隊與所有相關人士交談後，才就那宗投訴結案。",
+        "promptZh": "先聽示範，再說明團隊何時才結束跟進。",
+        "targetSpan": {
+          "start": 17,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區游泳池的水質檢查第一次達標，但還有兩次約定測試尚未完成。負責人建議立即宣布問題已完全解決。用一至兩句英文提出更審慎的做法。",
+        "selfCheckZh": "指出仍有兩次測試，現在不宜視問題為已完結；說明完成核對後再作決定。",
+        "examples": [
+          {
+            "en": "We should not close the book on the water-quality issue after one test; two checks still remain.",
+            "zh": "只完成一次測試，我們不應就水質問題結案；還有兩次檢查未完成。"
+          },
+          {
+            "en": "Let us finish the two remaining tests before we close the book on this problem and announce the result.",
+            "zh": "我們完成餘下兩次測試後，再把問題視為解決並公布結果吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the water-quality issue",
+            "zh": "水質問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 55
+            }
+          },
+          {
+            "en": "after one test",
+            "zh": "只完成一次測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 70
+            }
+          },
+          {
+            "en": "two checks still remain",
+            "zh": "還有兩次檢查未完成",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 95
+            }
+          },
+          {
+            "en": "the two remaining tests",
+            "zh": "餘下兩次測試",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 37
+            }
+          },
+          {
+            "en": "announce the result",
+            "zh": "公布結果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The committee can close the book on the request after the final documents arrive.",
+          "zh": "收到最後文件後，委員會可以結束處理這項申請。"
+        },
+        {
+          "en": "A promising first clue should not close the book on a wider inquiry.",
+          "zh": "有希望的第一條線索，不應讓更廣泛的調查就此結束。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2278",
+      "number": 2278,
+      "inventoryId": "expr-2278",
+      "titleEn": "shed light on",
+      "titleZh": "闡明、幫助理解",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:shed|sheds|shedding) light on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Help explain something that was previously unclear.",
+        "meaningZh": "提供資料或角度，使原先不清楚的問題更易理解。",
+        "grammar": "shed light on a problem; sheds light on why something happened.",
+        "register": "Neutral useful phrase in reports, discussion and explanation.",
+        "boundaryZh": "是幫助理解，不一定提供完整答案或最終證明；不是字面照明。",
+        "misconceptionZh": "不要把無關資料說成能解釋問題，也不要因一條線索就宣稱所有疑問已解決。",
+        "outcomeZh": "能指出哪項新資料如何幫助釐清一個具體問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0167",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The interviews shed light on why customers left.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shed light on"
+        }
+      ],
+      "listening": {
+        "en": "The town knew fewer people were using the evening bus but not why. Interviews shed light on the problem: many residents felt unsafe at the poorly lit stop.",
+        "zh": "鎮上知道晚上乘巴士的人少了，卻不知道原因。訪談幫助釐清問題：很多居民覺得燈光不足的車站不安全。",
+        "promptZh": "訪談提供了甚麼幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They offered a possible explanation for falling bus use.",
+            "zh": "它們為巴士乘客減少提供了可能解釋。"
+          },
+          {
+            "id": "b",
+            "en": "They proved that nobody had used the evening bus.",
+            "zh": "它們證明沒有人乘過晚間巴士。"
+          },
+          {
+            "id": "c",
+            "en": "The interviews showed the bus stop was already brightly lit.",
+            "zh": "訪談顯示巴士站本來就燈光充足。"
+          },
+          {
+            "id": "d",
+            "en": "They suggested that the evening route had become slower than before.",
+            "zh": "它們顯示晚間路線比以往慢了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訪談揭示乘客對車站安全的擔心，為原本不明的乘客減少提供可能原因。"
+      },
+      "reply": {
+        "promptEn": "What clues help explain why the bakery sold fewer loaves after changing its opening hours?",
+        "promptZh": "（麵包店改了營業時間後，哪些線索有助解釋麵包銷量下降？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some customers said the new closing time was before they finished work.",
+            "zh": "有些顧客說，新的關門時間早於他們下班時間。"
+          },
+          {
+            "id": "b",
+            "en": "The sales log shows the largest drop in the hour the shop now closes early.",
+            "zh": "銷售紀錄顯示，跌幅最大的是店舖現在提早關門的那個時段。"
+          },
+          {
+            "id": "c",
+            "en": "Customer comments shed light on the drop: regulars can no longer reach the shop before closing.",
+            "zh": "顧客意見有助解釋銷量下降：熟客現在趕不及在關門前到店。"
+          },
+          {
+            "id": "d",
+            "en": "Staff noticed fewer after-work visitors once the closing time changed.",
+            "zh": "員工留意到關門時間改變後，下班後來訪的顧客少了。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提供營業時間改變後的具體線索；金句用 shed light on 說明顧客意見如何幫助解釋銷量下降。"
+      },
+      "scene": {
+        "promptZh": "校園花圃的幼苗突然枯萎。園藝小組查看澆水紀錄，發現噴水器有三天沒有運作。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The watering record sheds light on why the seedlings wilted.",
+            "zh": "澆水紀錄幫助解釋幼苗為何枯萎。"
+          },
+          {
+            "id": "b",
+            "en": "The record confirms that the sprinkler worked every day.",
+            "zh": "紀錄證實噴水器每天都有運作。"
+          },
+          {
+            "id": "c",
+            "en": "The record says only when the group planted the seedlings, not when they were watered.",
+            "zh": "紀錄只寫下幼苗種植日期，沒有記下澆水時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紀錄顯示噴水器停了三天，為枯萎提供了可能解釋；另外兩句與紀錄內容不符。"
+      },
+      "contrast": {
+        "promptZh": "以本課「提供有關線索、幫助理解」的意思，哪個情況最不適合說 shed light on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Interview notes reveal why pupils avoid the old stairway.",
+            "zh": "訪談筆記揭示學生為何避開舊樓梯。"
+          },
+          {
+            "id": "b",
+            "en": "A random photo of an unrelated building is added to a report about missing library books.",
+            "zh": "一張無關建築的隨意照片，被放入調查圖書館失書的報告。"
+          },
+          {
+            "id": "c",
+            "en": "A timed log shows when a machine first began to fail.",
+            "zh": "有時間記錄的日誌顯示機器最初何時開始故障。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "無關照片不能幫助理解失書問題；另外兩項提供直接相關資料。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「我們知道公園晚上很少人去，但不知道原因。」你已收集訪客意見，顯示入口照明不足。哪個回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visitor comments shed light on why the park is quiet at night, though we should still check other factors.",
+            "zh": "訪客意見幫助解釋公園晚上冷清的原因，但我們仍應查看其他因素。"
+          },
+          {
+            "id": "b",
+            "en": "The comments prove that lighting is the only possible cause.",
+            "zh": "意見證明照明是唯一可能的原因。"
+          },
+          {
+            "id": "c",
+            "en": "The comments are unrelated to why visitors avoid the entrance.",
+            "zh": "訪客意見與他們為何避開入口完全無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訪客意見提供合理線索，但不保證已排除所有其他原因。"
+      },
+      "speaking": {
+        "en": "The dispatch log shows parcels waited two extra hours at the depot; that sheds light on why they arrived late.",
+        "zh": "派件紀錄顯示包裹在分發中心多等了兩小時；這有助解釋它們為何遲到。",
+        "promptZh": "先聽示範，再說明派件紀錄揭示延誤發生在哪個環節。",
+        "targetSpan": {
+          "start": 73,
+          "end": 87
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校發現圖書館書籍經常遲還，卻不知道原因。問卷顯示，不少學生放學後趕不上還書櫃台的關門時間。用一至兩句英文說明問卷如何幫助理解問題。",
+        "selfCheckZh": "指出問卷提供具體線索，有助理解遲還原因；不要聲稱已找出所有原因。",
+        "examples": [
+          {
+            "en": "The survey sheds light on late returns by showing that many pupils miss the desk before it closes.",
+            "zh": "問卷顯示很多學生趕不上還書櫃台關門時間，幫助理解遲還問題。"
+          },
+          {
+            "en": "Students’ comments shed light on the problem: the return desk closes before some pupils can reach it.",
+            "zh": "學生意見幫助解釋問題：部分學生到達前，還書櫃台已經關門。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late returns",
+            "zh": "遲還",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 38
+            }
+          },
+          {
+            "en": "many pupils",
+            "zh": "很多學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 66
+            }
+          },
+          {
+            "en": "the desk",
+            "zh": "還書櫃台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 80
+            }
+          },
+          {
+            "en": "Students’ comments",
+            "zh": "學生意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the return desk",
+            "zh": "還書櫃台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 61
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The diary shed light on how the old harbour was used.",
+          "zh": "那本日記幫助我們了解舊港口以往如何使用。"
+        },
+        {
+          "en": "One clue may shed light on the question without settling it completely.",
+          "zh": "一條線索或許能幫助理解問題，卻未必能完全解決。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2280",
+      "number": 2280,
+      "inventoryId": "expr-2280",
+      "titleEn": "stretch the truth",
+      "titleZh": "誇大事實",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stretch|stretches|stretched|stretching) the truth\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Exaggerate facts beyond what the evidence supports to make a story or claim sound better.",
+        "meaningZh": "為使說法更吸引而誇大真實情況，超出證據支持的程度。",
+        "grammar": "stretch the truth about a result; stretched the truth in an advert.",
+        "register": "Conversational idiom for exaggeration; overlaps with bend the truth, with emphasis here on enlarging a claim.",
+        "boundaryZh": "與 bend the truth 都可指誤導；bend the truth 可包括挑選或扭曲細節，本課的 stretch the truth 特別指把真實成果誇大至超出證據支持的規模。",
+        "misconceptionZh": "不要把明確標示的估計值當成誇大，也不要因喜歡故事就忽視可核實的事實。",
+        "outcomeZh": "能辨認過度誇大的說法，並提出保留真實成果的準確改寫。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0169",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The advertisement seemed to stretch the truth about the result.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stretch the truth"
+        }
+      ],
+      "listening": {
+        "en": "The club won three of its five debates, but the newsletter said it had won every debate. The writer stretched the truth to make the season sound perfect.",
+        "zh": "辯論學會在五場比賽中贏了三場，但通訊寫成每場都贏。作者誇大事實，令整個賽季聽起來完美。",
+        "promptZh": "通訊的說法有甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It exaggerated a real success into a perfect record.",
+            "zh": "它把真實的勝利誇大成全勝紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "It stated the three wins out of five accurately.",
+            "zh": "它準確寫出五場中勝了三場。"
+          },
+          {
+            "id": "c",
+            "en": "It warned readers that its claim was only an estimate.",
+            "zh": "它提醒讀者，說法只是估算。"
+          },
+          {
+            "id": "d",
+            "en": "It said the club had entered no debates at all.",
+            "zh": "它說學會完全沒有參加辯論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三勝五場是事實，但寫成全勝，將成果誇大至超出紀錄。"
+      },
+      "reply": {
+        "promptEn": "How should we present our school garden’s first harvest in the newsletter?",
+        "promptZh": "（校園花園第一次收成，通訊應怎樣呈現？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should count what was actually harvested.",
+            "zh": "我們應計算實際收成。"
+          },
+          {
+            "id": "b",
+            "en": "We can say it produced twenty baskets if the records confirm that number.",
+            "zh": "若紀錄證實有二十籃，我們可以照實寫。"
+          },
+          {
+            "id": "c",
+            "en": "We must not stretch the truth by calling twenty baskets hundreds.",
+            "zh": "我們不可把二十籃說成數百籃，藉此誇大事實。"
+          },
+          {
+            "id": "d",
+            "en": "We can include a photo of the measured harvest.",
+            "zh": "我們可以附上已量度收成的照片。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四個做法都支持準確呈報；金句點出不能把真實數量誇大許多。"
+      },
+      "scene": {
+        "promptZh": "社區花園第一次收成只有一籃番茄，通訊卻宣稱這批收成足以供應整個社區一星期。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The newsletter stretches the truth about what this harvest can provide.",
+            "zh": "通訊誇大了這批收成能供應的數量。"
+          },
+          {
+            "id": "b",
+            "en": "The newsletter accurately reports that the first harvest filled one basket.",
+            "zh": "通訊如實報告第一次收成只有一籃。"
+          },
+          {
+            "id": "c",
+            "en": "The newsletter says the garden may produce more next season.",
+            "zh": "通訊說花園下季可能有更多收成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有一籃番茄，卻說足以供應整個社區一星期，是把真實成果誇大至超出證據支持的規模。"
+      },
+      "contrast": {
+        "promptZh": "以本課「把事實說得過大」的意思，哪種情況最不適合說 stretch the truth？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A brochure claims a small room seats a thousand, though it holds only fifty.",
+            "zh": "小房間只容納五十人，小冊子卻聲稱有一千個座位。"
+          },
+          {
+            "id": "b",
+            "en": "A survey report says “roughly one hundred” for a verified count of ninety-eight.",
+            "zh": "核實人數為九十八，調查報告清楚寫成「約一百」。"
+          },
+          {
+            "id": "c",
+            "en": "A player says she won every match when she won only two of six.",
+            "zh": "球員六場只贏兩場，卻說自己全勝。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "九十八寫成清楚標示的約一百，是合理約數，沒有把成果誇大。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們只修好十輛單車，海報可以寫一百輛，較吸引吧？」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That would stretch the truth. Let us celebrate the ten repairs we actually completed.",
+            "zh": "那會誇大事實。我們如實慶祝完成的十輛維修吧。"
+          },
+          {
+            "id": "b",
+            "en": "We could round ten up to one hundred without noting how we calculated it.",
+            "zh": "我們可以把十輛算成一百輛，不用說明如何計算。"
+          },
+          {
+            "id": "c",
+            "en": "Put one hundred in the headline and the real count in small print.",
+            "zh": "標題寫一百輛，真實數目則用細字印出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "把十輛說成一百輛，即使在別處以細字補上真數字，仍會誤導讀者。"
+      },
+      "speaking": {
+        "en": "The speaker stretched the truth when he called a modest increase a tenfold rise.",
+        "zh": "增幅其實不大，講者卻稱它上升十倍，誇大了事實。",
+        "promptZh": "先聽示範，再說明講者如何誇大增幅。",
+        "targetSpan": {
+          "start": 12,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會在清潔日收集了三十袋垃圾。有同學想在校報寫成「數百袋」，讓活動看起來更成功。用一至兩句英文指出問題並建議準確寫法。",
+        "selfCheckZh": "指出把三十袋寫成數百袋是誇大，應如實呈報並肯定實際成果。",
+        "examples": [
+          {
+            "en": "Calling thirty bags “hundreds” would stretch the truth. We should report the real total and thank the volunteers.",
+            "zh": "把三十袋說成「數百袋」會誇大事實。我們應報告真實總數並感謝義工。"
+          },
+          {
+            "en": "We need not stretch the truth about the clean-up: the school paper should say we collected thirty bags, a real result worth celebrating.",
+            "zh": "我們不用誇大清潔活動的成果：校報應寫明我們收集了三十袋垃圾，這是真實而值得肯定的成果。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "thirty bags",
+            "zh": "三十袋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 19
+            }
+          },
+          {
+            "en": "the real total",
+            "zh": "真實總數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 87
+            }
+          },
+          {
+            "en": "thank the volunteers",
+            "zh": "感謝義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 112
+            }
+          },
+          {
+            "en": "the clean-up",
+            "zh": "清潔活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 48
+            }
+          },
+          {
+            "en": "a real result",
+            "zh": "真實成果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The poster stretched the truth about how many trees had been planted.",
+          "zh": "海報誇大了種植樹木的數量。"
+        },
+        {
+          "en": "We can be proud of the result without stretching the truth.",
+          "zh": "我們可以為成果自豪，毋須誇大事實。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2283",
+      "number": 2283,
+      "inventoryId": "expr-2283",
+      "titleEn": "come along",
+      "titleZh": "出現、碰上機會",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming) along\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become available or happen, especially of an opportunity.",
+        "meaningZh": "指機會、邀請或合適時機出現，可供人把握。",
+        "grammar": "an opportunity comes along; a chance like this may not come along soon.",
+        "register": "Everyday conversational phrase; the subject is usually a chance or opportunity in this sense.",
+        "boundaryZh": "本課指機會出現，不是某人沿路走來或陪同出行。",
+        "misconceptionZh": "不要假設機會一定會再來，也不要把已經存在但無法參與的事硬說成出現可把握的機會。",
+        "outcomeZh": "能辨認新出現的機會並說明合理的下一步。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0172",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A chance like this may not come along soon.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come along"
+        }
+      ],
+      "listening": {
+        "en": "A free place opened in the weekend photography class. When an opportunity like that comes along, Mei likes to ask about the schedule before deciding.",
+        "zh": "週末攝影班空出一個免費名額。有這樣的機會出現時，美會先詢問時間表再決定。",
+        "promptZh": "這裏的 comes along 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A useful opportunity becomes available.",
+            "zh": "一個有用的機會出現。"
+          },
+          {
+            "id": "b",
+            "en": "Mei walks along the road to class.",
+            "zh": "美沿着道路步行去上課。"
+          },
+          {
+            "id": "c",
+            "en": "Mei has already registered without asking about the schedule.",
+            "zh": "美尚未問時間表，就已經報名。"
+          },
+          {
+            "id": "d",
+            "en": "The free place had already been taken when Mei heard about it.",
+            "zh": "美得知消息時，免費名額已被人取走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "免費名額新近空出，表示機會出現；不能推斷美已報名或名額已額滿。"
+      },
+      "reply": {
+        "promptEn": "What would you do if a free place in the local art workshop became available?",
+        "promptZh": "（如果本地美術工作坊有免費名額，你會怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I would check whether its time suits me.",
+            "zh": "我會看看時間是否適合。"
+          },
+          {
+            "id": "b",
+            "en": "I would ask what materials I need to bring.",
+            "zh": "我會問要帶甚麼材料。"
+          },
+          {
+            "id": "c",
+            "en": "If a chance like that comes along, I would consider joining.",
+            "zh": "若有這種機會出現，我會考慮參加。"
+          },
+          {
+            "id": "d",
+            "en": "I would speak to the organiser before signing up.",
+            "zh": "報名前，我會先問問主辦者。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是面對新名額時可做的合理回應；金句用 comes along 指機會出現。"
+      },
+      "scene": {
+        "promptZh": "一間電台突然開放一個學生錄音名額，學校原本沒有預計會有這種機會。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A rare opportunity has come along for the students.",
+            "zh": "學生碰上一個難得的機會。"
+          },
+          {
+            "id": "b",
+            "en": "The recording slot had already been filled before the students heard about it.",
+            "zh": "學生得知消息前，錄音名額已有人填補。"
+          },
+          {
+            "id": "c",
+            "en": "The station might offer a slot later, but no place is available now.",
+            "zh": "電台日後可能提供名額，但目前沒有空缺。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "臨時開放錄音名額，表示原本沒有的機會現在可把握。"
+      },
+      "contrast": {
+        "promptZh": "以本課「機會出現」的意思，哪種情況最不適合說 come along？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A scholarship place becomes available after a student withdraws.",
+            "zh": "一名學生退出後，獎學金名額空出。"
+          },
+          {
+            "id": "b",
+            "en": "A guide walks along the path beside a group of visitors.",
+            "zh": "導遊沿着小路陪訪客步行。"
+          },
+          {
+            "id": "c",
+            "en": "An invitation to join a new project arrives unexpectedly.",
+            "zh": "突然收到參與新項目的邀請。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "導遊沿路同行是 come along 的移動意思，不是本課的機會出現。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「社區廣播站剛有一個新節目助理名額，我一直想學錄音。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When a chance like this comes along, check the duties and apply if they suit you.",
+            "zh": "有這樣的機會出現時，先看看職責；適合的話便申請。"
+          },
+          {
+            "id": "b",
+            "en": "Apply straight away and read the duties only if they offer you the place.",
+            "zh": "先立即申請；如果獲取錄，才細看工作職責。"
+          },
+          {
+            "id": "c",
+            "en": "It sounds interesting, but leave this opening aside and wait for another one before checking the duties.",
+            "zh": "聽起來很有趣，但先放過這次名額，等下次有空缺才細看職責。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "名額與朋友興趣相關，但仍應先看清職責再決定是否申請。"
+      },
+      "speaking": {
+        "en": "A chance to display her sketches came along when the community hall planned a local art show.",
+        "zh": "社區會堂籌辦本地藝術展時，她得到展示素描的機會。",
+        "promptZh": "先聽示範，再說明甚麼新機會出現了。",
+        "targetSpan": {
+          "start": 33,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位學生喜歡天文學。社區中心突然增加一場免費夜空觀察活動，還有幾個名額。她要先核對時間和交通。用一至兩句英文描述這個機會和合理的下一步。",
+        "selfCheckZh": "說明新名額讓機會出現，同時提到核對時間或交通；不要假設一定能參加。",
+        "examples": [
+          {
+            "en": "A chance to join the free stargazing evening has come along, so she should check the time and bus route before registering.",
+            "zh": "參加免費觀星晚會的機會出現了，所以她報名前應先核對時間和巴士路線。"
+          },
+          {
+            "en": "When an opportunity like this comes along, she can ask about the journey and decide whether she can attend.",
+            "zh": "有這種機會出現時，她可先問清交通，再決定能否出席。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the free stargazing evening",
+            "zh": "免費觀星晚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 44
+            }
+          },
+          {
+            "en": "the time and bus route",
+            "zh": "時間和巴士路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 103
+            }
+          },
+          {
+            "en": "before registering",
+            "zh": "報名前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 122
+            }
+          },
+          {
+            "en": "the journey",
+            "zh": "交通",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 72
+            }
+          },
+          {
+            "en": "whether she can attend",
+            "zh": "能否出席",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 106
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A useful volunteer opportunity came along just before the holidays.",
+          "zh": "假期前，剛好有一個有用的義工機會出現。"
+        },
+        {
+          "en": "If another chance comes along, I will read the details before applying.",
+          "zh": "若再有機會出現，我會先看詳情再申請。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2284",
+      "number": 2284,
+      "inventoryId": "expr-2284",
+      "titleEn": "keep them hooked",
+      "titleZh": "讓他們一直看得入迷",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) them hooked\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Maintain an audience’s strong interest so they want to continue.",
+        "meaningZh": "持續吸引讀者、聽眾或觀眾，讓他們想追下去。",
+        "grammar": "keep them hooked until the end; kept them hooked throughout.",
+        "register": "Informal figurative phrase for storytelling and engaging content.",
+        "boundaryZh": "them 必須有清楚的指代對象；重點是興趣持續，不只是開頭一秒被吸引。",
+        "misconceptionZh": "不要把 hooked 理解成真的用鉤子鉤住，也不要把突兀的懸念當成唯一方法。",
+        "outcomeZh": "能指出具體敘事安排如何讓一群人持續關注。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0173",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The mystery should keep them hooked until the final chapter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep them hooked"
+        }
+      ],
+      "listening": {
+        "en": "The podcast asked a new question at the end of each episode and answered it in the next. That pattern kept listeners curious and helped keep them hooked through the whole series.",
+        "zh": "播客每集結尾提出一個新問題，下一集才解答。這種安排令聽眾保持好奇，整個系列都想繼續聽。",
+        "promptZh": "播客如何令聽眾持續有興趣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave them a reason to hear the next episode.",
+            "zh": "它讓聽眾有理由繼續聽下一集。"
+          },
+          {
+            "id": "b",
+            "en": "Each episode repeats the same facts without developing the question.",
+            "zh": "每集只重複同樣的事實，沒有推進問題。"
+          },
+          {
+            "id": "c",
+            "en": "Each episode switches to a new, unrelated topic and drops the earlier mystery.",
+            "zh": "每集都轉到互不相關的新主題，放棄之前的謎團。"
+          },
+          {
+            "id": "d",
+            "en": "Only the first episode has an intriguing opening; the later ones add nothing new.",
+            "zh": "只有第一集有吸引人的開頭，往後各集都沒有新內容。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每集留下問題、下集再解答，能讓聽眾持續好奇。"
+      },
+      "reply": {
+        "promptEn": "How could the children’s audio story hold listeners’ attention from one episode to the next?",
+        "promptZh": "（兒童聲音故事怎樣能讓聽眾從一集到下一集仍有興趣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It could develop the characters a little in every episode.",
+            "zh": "它可以在每集逐步發展角色。"
+          },
+          {
+            "id": "b",
+            "en": "It could give the children a puzzle to follow.",
+            "zh": "它可以讓孩子追看一個謎題。"
+          },
+          {
+            "id": "c",
+            "en": "A clear ongoing mystery could keep them hooked.",
+            "zh": "清楚而持續的謎團可以讓他們一直聽得入迷。"
+          },
+          {
+            "id": "d",
+            "en": "It could answer one question and raise another.",
+            "zh": "它可以解答一個問題，再提出另一個。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理維持兒童聽眾興趣；金句用 keep them hooked 指持續吸引。"
+      },
+      "scene": {
+        "promptZh": "一部網上科學短片系列，每集用簡單實驗回答上集留下的問題，觀眾常會期待下一集。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The continuing questions keep them hooked.",
+            "zh": "接連出現的問題令他們一直看得入迷。"
+          },
+          {
+            "id": "b",
+            "en": "Viewers enjoy the first clip but see no reason to watch the next one.",
+            "zh": "觀眾喜歡第一段影片，卻沒有理由接着看下一段。"
+          },
+          {
+            "id": "c",
+            "en": "A strong first clip will keep viewers hooked even if later episodes stop developing the questions.",
+            "zh": "即使後續影片不再發展問題，只靠精彩的第一集仍能讓觀眾一直追看。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "上一集留下問題、下一集回答，令觀眾持續期待。"
+      },
+      "contrast": {
+        "promptZh": "以本課「長時間維持受眾興趣」的意思，哪個情況最不適合說 keep them hooked？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A serial story lets readers follow a changing character over several chapters.",
+            "zh": "連載故事讓讀者跨越多章追隨角色變化。"
+          },
+          {
+            "id": "b",
+            "en": "A video has a striking opening image, but viewers quickly leave because nothing follows.",
+            "zh": "影片開場畫面很搶眼，但之後沒有內容，觀眾很快離開。"
+          },
+          {
+            "id": "c",
+            "en": "A tour reveals new clues at each stop, encouraging visitors to finish.",
+            "zh": "導賞在每一站揭示新線索，鼓勵訪客走完全程。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只在開頭吸睛、觀眾隨即離開，不是持續維持興趣。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我做的歷史短片開頭有人看，但大家很快就關掉。」你知道他有一段後來才揭示的日記內容。哪個建議最實際？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Give viewers a question about the diary early on; the later answer may keep them hooked.",
+            "zh": "開頭先提出一個與日記有關的問題，稍後揭曉答案，或可令觀眾一直看下去。"
+          },
+          {
+            "id": "b",
+            "en": "Reveal the diary answer in the first few seconds, then repeat it without new detail.",
+            "zh": "在開頭幾秒就揭曉日記答案，之後只重複同一內容。"
+          },
+          {
+            "id": "c",
+            "en": "Present several unrelated facts without returning to the diary question.",
+            "zh": "列出幾項互不相關的事實，卻不再回應日記的問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "開頭提出與日記有關的問題，後段給出答案，為觀眾提供持續觀看的理由。"
+      },
+      "speaking": {
+        "en": "Readers followed the mystery as it introduced a new clue in every chapter, and that kept them hooked until the ending.",
+        "zh": "讀者追看這部懸疑小說，因為它每章加入新線索，令他們一直看到結局。",
+        "promptZh": "先聽示範，再說明甚麼令讀者一直追看。",
+        "targetSpan": {
+          "start": 84,
+          "end": 100
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的自然觀察小組每週給同學發一則簡短電子通訊。你想讓同學願意連續閱讀四週，而不是只看第一期。你們能在每期加入一個小謎題，下一期再揭曉。用一至兩句英文提出做法。",
+        "selfCheckZh": "明確指出同學是 them，並說明每期謎題及後續答案如何維持興趣。",
+        "examples": [
+          {
+            "en": "We could give classmates a new nature puzzle each week and reveal the answer later to keep them hooked.",
+            "zh": "我們可以每週給同學一個新的自然謎題，稍後才揭曉答案，讓他們一直讀得入迷。"
+          },
+          {
+            "en": "Our readers may stay curious if each newsletter ends with a question; the next issue can answer it and keep them hooked.",
+            "zh": "若每期通訊都以問題作結，讀者或會保持好奇；下一期解答問題，便能讓他們繼續追看。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "classmates",
+            "zh": "同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 24
+            }
+          },
+          {
+            "en": "a new nature puzzle",
+            "zh": "一個新的自然謎題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 44
+            }
+          },
+          {
+            "en": "reveal the answer later",
+            "zh": "稍後揭曉答案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 82
+            }
+          },
+          {
+            "en": "each newsletter",
+            "zh": "每期通訊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 47
+            }
+          },
+          {
+            "en": "the next issue",
+            "zh": "下一期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 84
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The readers followed every clue; the author kept them hooked until the end.",
+          "zh": "讀者追看每條線索；作者讓他們一直看到結局。"
+        },
+        {
+          "en": "For viewers, a strong opening matters, but the middle must also keep them hooked.",
+          "zh": "對觀眾而言，有力的開頭固然重要，中段也必須持續吸引他們。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

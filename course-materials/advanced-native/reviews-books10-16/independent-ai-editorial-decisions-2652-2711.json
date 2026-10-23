@@ -1,0 +1,37 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 1, "minor": 0, "sourceOrdinalsWithFindings": 1},
+  "findings": [
+    {
+      "sourceOrdinal": 2660,
+      "sourceId": "book10-16-0549",
+      "phrase": "staying power",
+      "path": "editorial-decisions-2652-2711.jsonl:sourceOrdinal=2660.action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "This row is marked proposed-new-lesson 2660, but lesson advanced-native-2255 is already drafted for the exact same expression, source sense, and guide example sentence ('The simple design has surprising staying power.'). Creating another owner would duplicate a canonical lesson and its exercises.",
+      "recommendedFix": "Change row 2660 to proposed-alias-new with canonicalId advanced-native-2255, preserving source occurrence 0549 as additional evidence. Do not draft or reserve 2660 as a separate lesson."
+    }
+  ],
+  "passedChecks": [
+    "All 60 decision source IDs, expression labels and source senses were compared with the extracted source inventory; no missing or misnumbered source row was found.",
+    "All 19 aliases to existing canonical lessons have an English source-example match under the canonical target regex and a compatible taught sense. The 2661 and 2709 aliases point to provisional new owners 2616 and 2675; their detector coverage must still be checked when those owners are drafted.",
+    "The remaining new-lesson candidates have source-supported figurative, idiomatic or useful natural-English senses. The held creative extensions and owner-scope questions remain appropriately unresolved rather than silently selected.",
+    "In particular, 2676, 2678, 2679, 2697 and 2706 remain held with a reason tied to prior-canonical scope or pattern differences."
+  ],
+  "forwardChecks": [
+    "Before selecting 2675 and its later alias 2709, define the teachable target as the reusable adjective heavy-handed rather than the whole noun phrase heavy-handed requirement; validate both source sentences against the approved detector.",
+    "If 2689 is drafted, teach the reusable ring hollow family with optional degree wording rather than freezing the modifier a little as the only target form.",
+    "If 2703 is drafted, review whether the lesson target should be the figurative back door rather than the source-specific look for the back door construction."
+  ],
+  "limits": ["This is AI peer review of provisional source decisions, not human editorial approval or permission to release lessons.", "No audio, browser, device or live-course checks were performed."]
+}

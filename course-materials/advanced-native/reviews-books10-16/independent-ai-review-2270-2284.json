@@ -1,0 +1,93 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonIds": ["advanced-native-2270", "advanced-native-2272", "advanced-native-2278", "advanced-native-2280", "advanced-native-2283", "advanced-native-2284"],
+    "contentRevisionsReviewed": {"2270": 1, "2272": 1, "2278": 1, "2280": 1, "2283": 1, "2284": 1}
+  },
+  "counts": {"blocker": 0, "major": 2, "minor": 8, "lessonsWithFindings": 5},
+  "findings": [
+    {
+      "lessonId": "advanced-native-2272",
+      "path": "scene.promptZh; scene.options[a].en; scene.options[a].zh; scene.explanationZh",
+      "severity": "minor",
+      "explanation": "The scenario assigns the follow-up decision to the 館長 (library director), but the keyed English and Chinese answer suddenly name a librarian/圖書館員. That changes who took the decision in a question that depends on the person's decision.",
+      "recommendedFix": "Use 'The director'/'館長' in the keyed sentence and aligned explanation, or make the prompt consistently about a librarian. Preserve the target and recheck audio if model text changes."
+    },
+    {
+      "lessonId": "advanced-native-2278",
+      "path": "reply.promptEn; reply.promptZh; reply.options[b..c]; reply.explanationZh",
+      "severity": "major",
+      "explanation": "The question asks 'Why did the bakery sell fewer loaves?' but the golden reply merely says customer comments 'shed light on the drop' without stating why. The sales-log reply identifies when purchases fell, not the cause. Thus at least two of the four supposedly correct replies do not independently answer the actual question, violating the four-valid-reply contract.",
+      "recommendedFix": "Either ask 'What clues could help us understand why the bakery sold fewer loaves after changing its hours?' and make all four options independently responsive, or include the actual after-closing explanation in the golden and log replies. Keep one target-bearing golden option and aligned bilingual wording."
+    },
+    {
+      "lessonId": "advanced-native-2278",
+      "path": "speaking.en; speaking.zh; speaking.targetSpan; speaking.promptZh",
+      "severity": "major",
+      "explanation": "'The recorded delivery times shed light on why the parcels arrived late' gives arrival times but no causal clue. Delivery timestamps alone establish that parcels were late; they need not explain why. The model risks teaching 'shed light on why' for evidence that only restates the problem.",
+      "recommendedFix": "Give a concrete causal record, such as route-stage or dispatch timestamps that show where time was lost, and align Chinese, target span, prompt and the approved audio text if changed."
+    },
+    {
+      "lessonId": "advanced-native-2278",
+      "path": "listening.options[d].en; listening.options[d].zh",
+      "severity": "minor",
+      "explanation": "The idea that interviews made residents forget the bus route is unrelated and implausible, unlike a credible alternative explanation for declining evening ridership. The brightly lit stop is an opposite factual reading; this fourth option should test a different nearby inference.",
+      "recommendedFix": "Use a plausible but unsupported outcome or cause, for example that the interviews showed the route was slower than before or that residents preferred a different service, while retaining exactly one defensible key."
+    },
+    {
+      "lessonId": "advanced-native-2280",
+      "path": "reply.promptEn; reply.promptZh; reply.options[d]",
+      "severity": "minor",
+      "explanation": "'How should we describe our school garden's first harvest in the newsletter?' is a wording question. 'We can include a photo of the measured harvest' is useful supporting presentation, but it does not independently say how to describe the harvest. The golden task requires four replies that each answer the prompt.",
+      "recommendedFix": "Broaden the question to 'How should we present the first harvest in the newsletter?' or make option D include a truthful description alongside the photograph. Recheck all four replies against the revised question."
+    },
+    {
+      "lessonId": "advanced-native-2280",
+      "path": "writing.promptZh; writing.selfCheckZh; writing.examples[1]",
+      "severity": "minor",
+      "explanation": "The prompt asks the learner to identify the exaggerated 'hundreds' claim and recommend accurate wording for the school paper. The second model praises the real thirty-bag result but does not explicitly tell the writer to publish thirty bags or reject 'hundreds'. It is a useful thought, but incomplete as a suggested answer to both requested actions.",
+      "recommendedFix": "Add a direct accurate newsletter wording or instruction, such as 'say we collected thirty bags', and update the Chinese and glossary spans as needed."
+    },
+    {
+      "lessonId": "advanced-native-2280",
+      "path": "brief.boundaryZh; scene; dialogue; writing",
+      "severity": "minor",
+      "explanation": "The brief promises a distinction from nearby lesson 2269 'bend the truth' by stressing inflated scale, but both lessons already use inflated headcounts or capacities in promotion and accurate-number corrections. This new lesson has a different target collocation but repeats much of the same decision and scenario logic without an explicit learner-facing comparison.",
+      "recommendedFix": "Retain the source-supported separate expression if editorial ownership permits, but vary at least one decision or context and add a concise distinction between general distortion/selective presentation and stretching a true result beyond the evidence. This addresses the SOP's near-duplicate scenario check."
+    },
+    {
+      "lessonId": "advanced-native-2283",
+      "path": "listening.options[b].en; listening.options[d].en; listening.options[b].zh; listening.options[d].zh",
+      "severity": "minor",
+      "explanation": "Two of three listening foils are separate physical-movement readings of 'come along' (walking and accompanying Mei), both visibly incompatible with the subject 'an opportunity'. Literal reading is allowed, but two such foils make this meaning question easier than necessary and do not test other plausible opportunity interpretations.",
+      "recommendedFix": "Keep at most one literal movement foil; make the other a realistic but unsupported claim about the opportunity's availability, timing or Mei's response."
+    },
+    {
+      "lessonId": "advanced-native-2283",
+      "path": "dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "Both incorrect replies urge the friend to skip checking the role, with one saying to promise every duty and the other guaranteeing fit. They test essentially the same overconfident reaction, so the three-option task lacks a distinct near-miss about timing or applying.",
+      "recommendedFix": "Replace one with a distinct plausible but less suitable response, such as postponing all inquiry despite an open place, while leaving the keyed conditional encouragement clearly best."
+    },
+    {
+      "lessonId": "advanced-native-2284",
+      "path": "scene.options[b..c]",
+      "severity": "minor",
+      "explanation": "Both foils say the series gives viewers no reason to return: option B explicitly says so, and C says each experiment is disconnected from any later question. They are near paraphrases rather than two distinct misconceptions about sustained interest.",
+      "recommendedFix": "Retain one no-continuity foil and make the other a different tempting mistake, such as a strong first-episode hook with no sustained development, while preserving the single keyed answer."
+    }
+  ],
+  "passedChecks": [
+    "All six source occurrence IDs, expressions and guide sentences match the extracted source inventory; the taught senses are source-supported.",
+    "Approved target patterns match listening and speaking models, golden replies, keyed scene/dialogue answers, both writing examples and takeaways for all six lessons; speaking target spans exactly match model text.",
+    "All 30 glossary rows are exact spans of the cited current suggested answers and exclude target forms. All six changed-context tasks are distinct from their earlier lesson scenes; the 2280 answer-completeness concern is noted above.",
+    "Scene, contrast and dialogue keys are defensible and Traditional Chinese generally preserves English subject, negation and outcome. The 2272 role error is identified above."
+  ],
+  "limits": ["This is AI peer review, not human English or Traditional Chinese approval, owner acceptance or release approval.", "No prerecorded audio listening, browser/device typography, answer-feedback, microphone, or live course check was performed."]
+}

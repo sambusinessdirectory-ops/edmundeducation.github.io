@@ -1,0 +1,26 @@
+{
+  "reviewType": "independent AI editorial peer-review follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+    "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2270-2284.json",
+    "contentRevisionsReviewed": {"2270": 1, "2272": 2, "2278": 2, "2280": 2, "2283": 2, "2284": 2}
+  },
+  "counts": {"priorFindings": 10, "resolved": 10, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "remainingFindings": [],
+  "resolutionChecks": [
+    {"lessonId": "advanced-native-2272", "result": "The director/館長 now consistently owns the follow-up decision in prompt, options and translation."},
+    {"lessonId": "advanced-native-2278", "result": "All four replies now offer concrete clues to the changed-hours sales decline; the golden option includes the after-closing cause. The speaking model identifies two extra depot hours as a causal clue. The implausible listening foil now proposes a nearby unsupported slower-route cause."},
+    {"lessonId": "advanced-native-2280", "result": "The broadened presentational question admits the photograph reply. Both writing examples now reject exaggeration and give accurate school-paper wording; the changed scene and brief distinguish inflated scale from the nearby bend-the-truth lesson."},
+    {"lessonId": "advanced-native-2283", "result": "The listening foils now test registration and place availability rather than duplicate literal movement senses; the two dialogue foils test different premature-application and delay choices."},
+    {"lessonId": "advanced-native-2284", "result": "The scene foils now distinguish an explicit no-return interpretation from an overconfident first-clip hook despite later loss of development."}
+  ],
+  "mechanicalChecks": [
+    "The revised target-bearing listening and speaking models, keyed answers, writing examples and takeaways match each lesson's approved target pattern.",
+    "The revised speaking target span for 2278 exactly extracts shed light on from its current model.",
+    "All current glossary rows are exact cited-answer spans and exclude target forms."
+  ],
+  "limits": ["This is AI peer review, not human English or Traditional Chinese approval, owner acceptance or release approval.", "No audio playback or browser/device typography and interaction checks were performed."]
+}

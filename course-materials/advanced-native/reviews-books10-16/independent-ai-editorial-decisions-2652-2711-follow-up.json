@@ -1,0 +1,15 @@
+{
+  "reviewType": "independent AI provisional editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+    "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-editorial-decisions-2652-2711.json",
+    "sourceOrdinalRechecked": 2660
+  },
+  "counts": {"priorFindings": 1, "resolved": 1, "remaining": 0},
+  "remainingFindings": [],
+  "resolution": "Source 2660 staying power is now proposed-alias-new to provisional lesson advanced-native-2255, with a reason that explicitly records the repeated meaning and guide sentence. It no longer proposes a duplicate canonical lesson.",
+  "limits": ["This is AI peer review of a provisional ownership decision, not human editorial approval or release authorization."]
+}
