@@ -32,7 +32,7 @@ Evidence artifacts: source catalogue `idiom-system-data.js`; curated guides `idi
 
 ## B. Source dossier and sense gate (§5, appendix A)
 
-- [x] B01. Extract one source-backed dossier per lesson 031–108 (78/78) with lemma, meaning, source PDF name, manifest SHA-256 and pages, register fields, forms, selected rules and five diverse original-question anchors.
+- [x] B01. Extract one source-backed dossier per lesson 031–108 (78/78) with lemma, meaning, source PDF name, manifest SHA-256 and pages, register fields, forms, selected rules and five diverse original-question anchors. `verify-idiom-31-108-source-pdfs.mjs` matched all 78 owner PDF files to their import-manifest hashes on 23 October.
 - [x] B02. Remove detectable placeholder, circular or merely procedural source meanings and register labels. Seventeen canonical source fragments were corrected and regenerated; `node tools/test-idiom-super-source-readiness.mjs` checks the 78 meanings, glosses, register labels and 3,900 target-meaning snapshots. Downstream guide and item review remains open under B03–B09.
 - [ ] B03. Verify each dossier's concise English meaning and idiomatic Hong Kong Traditional Chinese gloss against the target sense.
 - [ ] B04. Identify a falsifiable positive condition and near-miss negative condition; do not invent an absolute prohibition from a contextual tendency.
