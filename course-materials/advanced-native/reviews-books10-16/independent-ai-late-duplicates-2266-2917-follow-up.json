@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent AI late-discovery canonical-ownership audit and scoped follow-up",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": [
+    {"sourceOrdinal": 2266, "sourceId": "book10-16-0155", "phrase": "really lands", "existingOwner": "advanced-native-135"},
+    {"sourceOrdinal": 2917, "sourceId": "book10-16-0806", "phrase": "gathering dust", "existingOwner": "advanced-native-1056"}
+  ],
+  "lateDiscovery": [
+    {"sourceOrdinal": 2266, "severityBeforeRepair": "major", "finding": "The final point really lands with a personal story uses the same communication-effect sense as canonical 135 land; that owner's meaning and grammar explicitly cover a message or lesson landing with an audience, and its regex matches lands in the complete source example."},
+    {"sourceOrdinal": 2917, "severityBeforeRepair": "major", "finding": "An expensive toy sitting unused and gathering dust uses the same neglected/unused sense as canonical 1056 gather dust; that owner's brief covers the construction, and its regex matches gathering dust in the complete source example."}
+  ],
+  "repairVerification": [
+    {"sourceOrdinal": 2266, "decision": "Now proposed-alias-existing to canonical 135 with an explicit duplicate-sense reason.", "draftState": "The selected batch-2251-2269-a.json now excludes lesson 2266; the selected draft manifest also excludes ordinal 2266. The withdrawn lesson is retained separately as withdrawn-2266.json for provenance.", "impactOnPriorReview": "Earlier independent review of lesson 2266 assessed draft content and repairs but did not establish unique canonical ownership. It is historical draft-quality evidence only, not approval to release a separate 2266 lesson."},
+    {"sourceOrdinal": 2917, "decision": "Now proposed-alias-existing to canonical 1056 with an explicit duplicate-sense reason.", "draftState": "No separate selected 2917 draft was found in the current unpublished manifest."}
+  ],
+  "counts": {"resolved": 2, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "findings": [],
+  "limits": ["This is AI peer review of provisional ownership and manifest state, not human editorial approval or release authorization.", "No live-site, audio, or device validation was performed."]
+}

@@ -1,0 +1,34 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 1, "minor": 0, "sourceOrdinalsWithFindings": 1},
+  "findings": [
+    {
+      "sourceOrdinal": 2832,
+      "phrase": "keep to themselves",
+      "path": "editorial-decisions-2832-2891.jsonl:sourceOrdinal=2832.action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The proposed new lesson's source, 'They prefer to keep to themselves on holidays', describes avoiding company or preferring privacy. Existing canonical 1290 keep to yourself teaches exactly that social-behaviour sense and its approved regex matches 'keep to themselves' in the full sentence. A new owner would duplicate an existing lesson and its learner outcome.",
+      "recommendedFix": "Change 2832 to proposed-alias-existing with canonicalId advanced-native-1290 and record the exact target and sense match. Do not reserve a separate lesson."
+    }
+  ],
+  "passedChecks": [
+    "All 60 source IDs, expressions, guide sentences, categories and stated meanings match the extracted source inventory.",
+    "All 20 proposed aliases to existing canonical lessons match the owner's target regex in the complete source sentence and have a compatible taught sense.",
+    "Other near relations, such as living in a bubble versus stepping out of a bubble, retain distinct state/action outcomes; keep their eyes open versus with their eyes open retains alertness versus informed decision-making.",
+    "Creative essay-specific images and target-pattern mismatches remain held rather than being silently selected."
+  ],
+  "forwardChecks": [
+    "When drafting 2876 hands on the wheel, contrast retained/direct control with canonical 925 handing someone the steering wheel, which teaches transfer of control; do not reuse the same scenario logic.",
+    "When drafting adjacent 2878 make headlines and 2879 all over the news, distinguish becoming a prominent story from already pervasive coverage so the two lesson decisions do not collapse into one."
+  ],
+  "limits": ["This is AI review of provisional source decisions, not human editorial approval, selection or release authorization.", "No audio, browser or device checks were performed."]
+}

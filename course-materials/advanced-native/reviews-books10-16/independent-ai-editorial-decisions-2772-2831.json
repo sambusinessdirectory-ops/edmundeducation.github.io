@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 2, "minor": 1, "sourceOrdinalsWithFindings": 3},
+  "findings": [
+    {
+      "sourceOrdinal": 2780,
+      "phrase": "it sticks",
+      "path": "editorial-decisions-2772-2831.jsonl:sourceOrdinal=2780.action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The proposed new lesson's source says 'The chorus is short, so it sticks', meaning the chorus stays in memory. Existing canonical 131, stick in my mind, explicitly teaches the bare 'sticks' information-retention form in its grammar/source-classification notes; its approved target regex matches 'sticks' in this complete source sentence. The same learner sense already has an owner.",
+      "recommendedFix": "Change 2780 to proposed-alias-existing with canonicalId advanced-native-131 and record the exact bare-stick memory match. Do not reserve a duplicate new lesson."
+    },
+    {
+      "sourceOrdinal": 2786,
+      "phrase": "close to home",
+      "path": "editorial-decisions-2772-2831.jsonl:sourceOrdinal=2786.action; canonicalId; reason",
+      "severity": "minor",
+      "explanation": "This row aliases source 2717's exact lyric example to provisional owner 2717, but the independent audit of 2717 has an unresolved owner-scope question against canonical 1079 hits close to home. Selecting this alias would indirectly ratify the disputed new owner before that comparison is resolved.",
+      "recommendedFix": "Temporarily hold this repeated occurrence with an explicit dependency on 2717 versus canonical 1079. Reassign it only after the earlier owner's meaning and detector scope are settled."
+    },
+    {
+      "sourceOrdinal": 2826,
+      "phrase": "final word",
+      "path": "editorial-decisions-2772-2831.jsonl:sourceOrdinal=2826.action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The source 'The first article is not the final word' is a direct lexical variant of provisional lesson 2270 'the last word on', which teaches a definitive account and even uses a first short article as its model. New lesson 2826 would repeat the same sense and decision. Current owner 2270 regex covers 'the last word on' only, so a silent alias is also invalid.",
+      "recommendedFix": "Move 2826 to an explicit editorial hold comparing final word with 2270 last word. Decide whether to broaden 2270's canonical target and lesson examples or keep a distinct construction with a documented separate outcome; do not draft a second near-identical lesson before that decision."
+    }
+  ],
+  "passedChecks": [
+    "All 60 source IDs, expression labels, guide sentences, categories and senses match the extracted source inventory.",
+    "All 18 aliases to existing canonical lessons match the owner target regex in the full source sentence and have a compatible sense.",
+    "Other repeated occurrences such as come across, turn to and spread like wildfire retain stable owners; creative essay-scale imagery remains held with a concrete reason.",
+    "The alias-new rows for 2295 pull them in, 2231 put on and 2122 at face value refer to compatible provisional draft owners; 2306 a soundtrack remains undrafted and requires detector confirmation when authored."
+  ],
+  "limits": ["This is AI review of provisional decisions, not human idiomaticity approval, owner acceptance, selection or release authorization.", "No audio, browser or device checks were performed."]
+}

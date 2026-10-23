@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent AI scoped editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+  "recheckedSourceOrdinals": [2780, 2786, 2826],
+  "counts": {"resolved": 3, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "resolved": [
+    {"sourceOrdinal": 2780, "resolution": "Aliased to canonical 131 for the bare stick memory-retention sense; the target regex matches the complete source sentence."},
+    {"sourceOrdinal": 2786, "resolution": "Held pending the earlier 2717 versus canonical 1079 close-to-home owner-scope decision."},
+    {"sourceOrdinal": 2826, "resolution": "Held pending a sense and detector comparison with provisional owner 2270 the last word on."}
+  ],
+  "verification": "Re-read all three repaired decision records against the source inventory and owner descriptions; all 19 aliases to existing lessons in this 60-row file match their owner regex in the complete source sentence.",
+  "findings": [],
+  "limits": ["This is AI peer review of provisional decisions, not human editorial approval or authorization to select or release them."]
+}

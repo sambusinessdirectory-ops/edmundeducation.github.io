@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "batchId": "withdrawn-duplicate-2266",
+  "selectionStatus": "withdrawn-duplicate-existing",
+  "withdrawnReason": "Late existing-owner collision audit: canonical advanced-native-135 already teaches the same land communicative-impact sense and matches the complete source sentence. Retained only for audit provenance; excluded from batch-manifest.json.",
+  "lessons": [
+    {
+      "id": "advanced-native-2266",
+      "number": 2266,
+      "inventoryId": "expr-2266",
+      "titleEn": "really lands",
+      "titleZh": "真正打動人、讓重點深入人心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\breally land(?:s|ed|ing)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have a strong effect on listeners or become fully understood.",
+        "meaningZh": "說話的重點因表達得清楚或具體，而真正觸動聽眾或讓他們理解。",
+        "grammar": "the point really lands; the message really landed.",
+        "register": "Informal spoken figurative use for talks, stories and arguments.",
+        "boundaryZh": "通常要指出哪個重點及為何有效；不是物件真的着陸。",
+        "misconceptionZh": "不要以掌聲單獨代替理解證據，也不要把空泛口號說成必然打動人。",
+        "outcomeZh": "能指出具體例子如何讓某個訊息更有說服力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0155",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The final point really lands when the speaker uses a personal story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "really lands"
+        }
+      ],
+      "listening": {
+        "en": "The speaker first lists recycling figures, but her point really lands when she shows one family’s weekly waste in a single clear photograph.",
+        "zh": "講者起初列出回收數字，但她展示一張清楚呈現某家庭一週垃圾量的照片後，論點才真正深入人心。",
+        "promptZh": "照片令講者的論點有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes the point more vivid and easier to grasp.",
+            "zh": "它令論點更具體、更容易理解。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph challenges the figures and changes her argument.",
+            "zh": "照片質疑數字，令她改變原本的論點。"
+          },
+          {
+            "id": "c",
+            "en": "The photograph repeats the figures without making the problem easier to grasp.",
+            "zh": "照片只是重複數字，沒有令問題更容易理解。"
+          },
+          {
+            "id": "d",
+            "en": "The photograph suggests that the figures are less important than the speaker first claimed.",
+            "zh": "照片暗示那些數字沒有講者原先所說的重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體照片把抽象數字變成易明的例子，所以重點更能打動聽眾。"
+      },
+      "reply": {
+        "promptEn": "Why did the safety talk become clearer after the speaker described a real cycling accident?",
+        "promptZh": "（講者描述真實單車意外後，安全講座為何變得更清楚？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The story showed why the rule matters.",
+            "zh": "故事說明了規則為何重要。"
+          },
+          {
+            "id": "b",
+            "en": "Listeners could picture the risk more easily.",
+            "zh": "聽眾更容易想像當中的風險。"
+          },
+          {
+            "id": "c",
+            "en": "The warning really lands once listeners hear the concrete example.",
+            "zh": "聽眾聽到具體例子後，警告才真正深入人心。"
+          },
+          {
+            "id": "d",
+            "en": "The example connected the advice to everyday travel.",
+            "zh": "例子把建議與日常出行連起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理說明真實故事的作用；金句指出具體例子讓警告更有效。"
+      },
+      "scene": {
+        "promptZh": "校長談到節水時，先列出數字，然後展示學校一週浪費的水量相當於多少桶水。學生終於明白問題有多大。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The message really lands when the wasted amount is compared with a familiar number of bucketfuls.",
+            "zh": "把浪費的水量比作大家熟悉的水桶數量後，訊息更能深入人心。"
+          },
+          {
+            "id": "b",
+            "en": "The message becomes less clear because the example is concrete.",
+            "zh": "例子很具體，訊息反而更不清楚。"
+          },
+          {
+            "id": "c",
+            "en": "The comparison is memorable, but it leaves students unsure how much water was wasted.",
+            "zh": "這個比較令人印象深刻，卻沒有讓學生明白浪費了多少水。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熟悉的水桶讓學生理解抽象用水量；really lands 指訊息終於發揮作用。"
+      },
+      "contrast": {
+        "promptZh": "以本課「訊息有效傳達」的意思，哪個情況最不適合說 really lands？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A personal story helps listeners understand a difficult warning.",
+            "zh": "個人故事幫助聽眾理解一個艱深的警告。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker rushes through an inaudible slide, and the audience cannot identify the point.",
+            "zh": "講者匆匆略過聽不清的投影片，聽眾完全不明白重點。"
+          },
+          {
+            "id": "c",
+            "en": "A clear comparison helps a class grasp why a change matters.",
+            "zh": "清晰的比較令全班明白一項改變為何重要。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "聽眾連重點都聽不明白，不能說訊息已有效傳達。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我的短講只有一句『要關心鄰居』，觀眾可能覺得太空泛。」哪個建議最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Add a brief real example so the message really lands.",
+            "zh": "加入簡短的真實例子，讓訊息真正深入人心。"
+          },
+          {
+            "id": "b",
+            "en": "Add another statistic without explaining what it means for the neighbours.",
+            "zh": "再加一個數字，但不用說明它對鄰居有甚麼意義。"
+          },
+          {
+            "id": "c",
+            "en": "Keep only the slogan and make the talk shorter, without giving a concrete example.",
+            "zh": "只保留口號，把短講縮短，不用給具體例子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真實例子能把抽象口號變得具體，較能讓聽眾理解及記住。"
+      },
+      "speaking": {
+        "en": "Her final point really lands when she describes how a neighbour helped her family after the flood.",
+        "zh": "她講述洪水後鄰居如何幫助家人，令最後的論點真正深入人心。",
+        "promptZh": "先聽示範，再說明哪個細節使論點更有力量。",
+        "targetSpan": {
+          "start": 16,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會希望學校增設飲水機。主席先說塑膠瓶用量高，接着展示一個班一星期丟掉的瓶子，讓同學明白問題。用一至兩句英文說明這個例子如何令訊息更有效。",
+        "selfCheckZh": "指出具體的瓶子數量或展示如何讓減塑訊息更容易理解；不要把片語當作實物着陸。",
+        "examples": [
+          {
+            "en": "The point really lands when the chair shows how many bottles one class throws away in a week.",
+            "zh": "主席展示一個班一星期丟掉多少瓶子後，論點才真正深入人心。"
+          },
+          {
+            "en": "Her message really lands because the displayed weekly bottle count makes the waste easy to see.",
+            "zh": "她的訊息更能深入人心，因為展示出來的每週塑膠瓶數量讓浪費清楚可見。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the chair",
+            "zh": "主席",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 37
+            }
+          },
+          {
+            "en": "one class",
+            "zh": "一個班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 70
+            }
+          },
+          {
+            "en": "in a week",
+            "zh": "一星期內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 92
+            }
+          },
+          {
+            "en": "the displayed weekly bottle count",
+            "zh": "展示出來的每週塑膠瓶數量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 66
+            }
+          },
+          {
+            "en": "easy to see",
+            "zh": "清楚可見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The lesson really lands when the teacher links it to a familiar daily choice.",
+          "zh": "老師把道理連到熟悉的日常選擇，課堂重點便深入人心。"
+        },
+        {
+          "en": "A clear example can help the central message really land.",
+          "zh": "清楚的例子能令核心訊息真正深入人心。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

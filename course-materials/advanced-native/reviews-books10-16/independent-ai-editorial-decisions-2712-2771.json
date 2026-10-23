@@ -1,0 +1,62 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 0, "minor": 5, "sourceOrdinalsWithFindings": 5},
+  "findings": [
+    {
+      "sourceOrdinal": 2715,
+      "phrase": "pushed to the sidelines",
+      "path": "editorial-decisions-2712-2771.jsonl:sourceOrdinal=2715.action; reason",
+      "severity": "minor",
+      "explanation": "The proposed new lesson teaches being made less central or influential. Existing canonical 287, pushed to the margins, has essentially that same definition and outcome, although the sports-field wording differs and its regex does not cover sidelines. The decision gives no reason why this near-synonymous spatial metaphor merits a separate seven-step lesson.",
+      "recommendedFix": "Hold for explicit owner-scope comparison with canonical 287. Either justify a distinct collocation/learner decision, or broaden/cross-reference the owner after reviewing its target detector; do not silently alias a nonmatching source form."
+    },
+    {
+      "sourceOrdinal": 2717,
+      "phrase": "close to home",
+      "path": "editorial-decisions-2712-2771.jsonl:sourceOrdinal=2717.action; reason",
+      "severity": "minor",
+      "explanation": "The reason calls this distinct from canonical 1079 hits close to home, but the source's 'lyrics feel close to home' overlaps 1079's personal-relevance meaning. It may be less painful and can suggest local familiarity, yet the current reason does not decide whether that nuance supports a separate course outcome rather than a construction variant. Canonical 1079's regex does not cover feel close to home.",
+      "recommendedFix": "Hold pending a documented comparison with canonical 1079 of personal relevance versus specifically uncomfortable impact and of the feel/hit constructions. Keep the source form intact until owner/detector scope is settled."
+    },
+    {
+      "sourceOrdinal": 2719,
+      "phrase": "land a punch",
+      "path": "editorial-decisions-2712-2771.jsonl:sourceOrdinal=2719.action; reason",
+      "severity": "minor",
+      "explanation": "The source sentence is 'A simple line can land a punch in the final verse.' In figurative rhetoric, 'pack a punch' is a closer conventional collocation for a line's impact, while 'land a punch' may evoke a delivered blow. The proposed-new decision labels this a fixed boxing metaphor without checking whether the full source use is natural enough to model at scale.",
+      "recommendedFix": "Hold for an independent idiomaticity check of this exact lyric-line use and decide whether to teach land a punch as a delivered-impact action, extract a different target, or preserve only the source evidence without drafting a lesson."
+    },
+    {
+      "sourceOrdinal": 2730,
+      "phrase": "ripple through the city",
+      "path": "editorial-decisions-2712-2771.jsonl:sourceOrdinal=2730.action; reason",
+      "severity": "minor",
+      "explanation": "The proposed new lesson describes news spreading among people, overlapping canonical 772 ripple out/outward and its linked-spread outcome. The through construction adds spatial coverage and the existing regex cannot detect it, but the decision does not compare these possible owner scopes before reserving a new lesson.",
+      "recommendedFix": "Hold for comparison with canonical 772. If through conveys a distinct learner decision, document it; otherwise extend/cross-reference an approved owner and detector rather than duplicating the same spreading metaphor."
+    },
+    {
+      "sourceOrdinal": 2759,
+      "phrase": "something electric about",
+      "path": "editorial-decisions-2712-2771.jsonl:sourceOrdinal=2759.action; reason",
+      "severity": "minor",
+      "explanation": "This source's exciting live-concert quality is close to canonical 1062 the electricity of the moment, which already teaches charged shared excitement at an event. The adjective construction is different and may support a separate lesson, but the new-owner reason does not record that comparison or a distinct outcome.",
+      "recommendedFix": "Hold for a brief comparison with canonical 1062, including noun versus adjective construction and general event quality versus a particular moment. Select a new owner only after a defensible distinct lesson aim is stated."
+    }
+  ],
+  "passedChecks": [
+    "All 60 source IDs, expression labels, guide sentences, source senses and stated reasons were checked against the extracted inventory; no row mapping error was found.",
+    "All 16 proposed aliases to existing canonical lessons match the owner target regex in the full source sentence and have a compatible source sense.",
+    "Repeated occurrences of play an important role, at once and cultural heartbeat consistently retain their original owners rather than creating duplicates.",
+    "Other creative images and possible owner-scope differences are explicitly held; the remaining proposed new expressions have a defensible conventional or useful natural-English basis in the source, subject to later full drafting review."
+  ],
+  "limits": ["This is AI review of provisional source decisions, not independent human idiomaticity approval or permission to select, publish or release lessons.", "No audio, browser or device checks were performed."]
+}

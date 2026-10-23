@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent AI scoped editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+  "recheckedSourceOrdinals": [2715, 2717, 2719, 2730, 2759],
+  "counts": {"resolved": 5, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "resolved": [
+    {"sourceOrdinal": 2715, "resolution": "Held pending explicit comparison to canonical 287 pushed to the margins and owner target scope."},
+    {"sourceOrdinal": 2717, "resolution": "Held pending comparison of feel close to home with canonical 1079 hits close to home."},
+    {"sourceOrdinal": 2719, "resolution": "Held for lyric-line collocation and target-unit review rather than prematurely reserved as a lesson."},
+    {"sourceOrdinal": 2730, "resolution": "Held pending comparison with canonical 772 ripple out and its detector."},
+    {"sourceOrdinal": 2759, "resolution": "Held pending comparison with canonical 1062 the electricity of the moment."}
+  ],
+  "verification": "Re-read all five repaired decision records against the source inventory and owner descriptions; all 16 aliases to existing lessons in this 60-row file match their owner regex in the complete source sentence.",
+  "findings": [],
+  "limits": ["This is AI peer review of provisional decisions, not human editorial approval or authorization to select or release them."]
+}

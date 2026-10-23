@@ -1,0 +1,46 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 1, "minor": 2, "sourceOrdinalsWithFindings": 3},
+  "findings": [
+    {
+      "sourceOrdinal": 2929,
+      "phrase": "make the most of it",
+      "path": "editorial-decisions-2892-2951.jsonl:sourceOrdinal=2929.action; reason",
+      "severity": "minor",
+      "explanation": "Existing canonical 1616 already teaches the make the most of + resource frame, but narrows its content and detector to limited space. The new source uses an evening/opportunity with the pronoun it, and the reason acknowledges broader scope without stating why this deserves a second seven-step owner rather than a broadened construction. The source form does not match 1616's current regex.",
+      "recommendedFix": "Hold for explicit owner-scope comparison with canonical 1616. If a distinct opportunity-use outcome is approved, document it; otherwise expand/cross-reference the frame and detector after reviewing existing 1616 examples."
+    },
+    {
+      "sourceOrdinal": 2941,
+      "phrase": "strike the right balance",
+      "path": "editorial-decisions-2892-2951.jsonl:sourceOrdinal=2941.action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "The proposed new lesson's source, 'The host must strike the right balance between planning and spontaneity', teaches the same workable compromise between competing needs as canonical 156 strike a balance. The adjective right changes degree but not the learner outcome. Canonical 156's regex is limited to strike a balance, so direct aliasing without approved detector expansion would also be invalid.",
+      "recommendedFix": "Move 2941 to an explicit hold pending canonical 156 owner/detector expansion, or record a defensible distinct lesson outcome before keeping a new owner. Do not draft a duplicate balance lesson or silently alias a nonmatching form."
+    },
+    {
+      "sourceOrdinal": 2947,
+      "phrase": "putting on a show",
+      "path": "editorial-decisions-2892-2951.jsonl:sourceOrdinal=2947.action; reason",
+      "severity": "minor",
+      "explanation": "A separate lesson for an insincere display is semantically justified, but the full source sentence also matches canonical 2231's short 'put on' detector, whose owner teaches starting media playback. The current new-owner reason does not identify this homograph collision. Regex-only duplicate checks could wrongly attach the show source to the playback lesson.",
+      "recommendedFix": "Keep the distinct show/display owner if editorially approved, but explicitly document the contrast with 2231 and require sense-aware ownership. Ensure the new target pattern includes putting on a show and the 2231 alias checks never treat this occurrence as playback."
+    }
+  ],
+  "passedChecks": [
+    "All 60 source IDs, phrase labels, guide sentences, categories and source meanings match the extracted source inventory.",
+    "All 19 proposed aliases to existing canonical lessons match the owner target regex in the full source sentence and have a compatible sense.",
+    "The two alias-new occurrences, 2930 come along and 2932 fast-paced, refer to compatible provisional draft owners; other creative or detector-mismatched expressions are explicitly held."
+  ],
+  "limits": ["This is AI review of provisional decisions, not human editorial approval, selection or release authorization.", "No audio, browser or device checks were performed."]
+}

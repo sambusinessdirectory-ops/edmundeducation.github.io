@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent AI scoped editorial-decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+  "recheckedSourceOrdinals": [2929, 2941, 2947],
+  "counts": {"resolved": 3, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "resolved": [
+    {"sourceOrdinal": 2929, "resolution": "Held pending owner-scope comparison with canonical 1616 make the most of a limited resource."},
+    {"sourceOrdinal": 2941, "resolution": "Held pending owner and detector review against canonical 156 strike a balance, whose current pattern does not cover right."},
+    {"sourceOrdinal": 2947, "resolution": "Kept as a distinct provisional show/display lesson with explicit warning that the shorter 2231 playback detector matches the source and that ownership must be sense-aware."}
+  ],
+  "verification": "Re-read the three repaired records against source and owner sense; all 19 aliases to existing lessons in this 60-row file match their owner regex in the complete source sentence.",
+  "findings": [],
+  "limits": ["This is AI peer review of provisional decisions, not human editorial approval or authorization to select or release them."]
+}

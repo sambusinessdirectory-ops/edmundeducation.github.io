@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionCount": 60
+  },
+  "counts": {"blocker": 0, "major": 0, "minor": 0, "sourceOrdinalsWithFindings": 0},
+  "findings": [],
+  "passedChecks": [
+    "All 60 source IDs, expressions, guide sentences, categories and senses match the extracted source inventory.",
+    "All 25 aliases to existing canonical lessons match the owner target regex in the complete source sentence and have a compatible taught sense.",
+    "The proposed new lesson expressions are source-supported conventional or useful natural-English targets; ambiguous creative images, unreviewed construction changes and near-owner variants remain held with explicit reasons.",
+    "Related pairs are provisionally distinct in meaning or action: money well spent versus more show than substance, living a simple celebration versus recovering afterward, and independent go solo versus broad self-reliance. No duplicate owner was established in this pass."
+  ],
+  "forwardChecks": [
+    "Before selecting alias-new 2957, draft owner 2956 with a reusable pick up the pieces detector that covers both 'picking up the pieces afterwards' and 'pick up the pieces' without making afterwards mandatory.",
+    "Alias-new 2960 to provisional 2636 and 3003 to provisional 2611 still require full-example target and sense validation after those owners are drafted; 2992 already has a compatible draft owner 2310.",
+    "When drafting 2984 fewer moving parts, keep the complexity/coordination meaning separate from literal machinery."
+  ],
+  "limits": ["This is AI review of provisional source decisions, not human editorial approval, selection or release authorization.", "Undrafted alias-new owners cannot yet receive exact target-regex validation; no audio, browser or device checks were performed."]
+}

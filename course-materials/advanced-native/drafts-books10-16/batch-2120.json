@@ -269,5 +269,7 @@
       },
       "contentRevision": 1
     }
-  ]
+  ],
+  "selectionStatus": "withdrawn-duplicate-existing",
+  "withdrawnReason": "Late cross-batch audit: canonical advanced-native-1863 already teaches wear thin with the source sense and matching target detector; this file is retained only for audit provenance and excluded from batch-manifest.json."
 }

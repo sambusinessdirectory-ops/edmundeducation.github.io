@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent AI late-discovery canonical-ownership audit and scoped follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": {
+    "sourceOrdinal": 2120,
+    "sourceId": "book10-16-0009",
+    "sourceExample": "His excuses began to wear thin by the third week.",
+    "repairedDecision": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+    "existingOwner": "advanced-native-1863",
+    "withdrawnDraft": "course-materials/advanced-native/drafts-books10-16/batch-2120.json",
+    "selectedDraftManifest": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json"
+  },
+  "lateDiscovery": {
+    "severityBeforeRepair": "major",
+    "finding": "The provisional 2120 wear thin lesson duplicated existing canonical 1863. Canonical 1863's meaning covers becoming less convincing through repetition, its grammar explicitly allows an explanation or patience to wear thin, and its target regex matches wear thin in the complete 2120 source sentence.",
+    "impactOnPriorReview": "The earlier independent first-eight draft follow-up found no remaining lesson-content defects in 2120, but that review did not establish unique canonical ownership. Its 2120 result is historical draft-quality evidence only and must not be read as an approval to select, publish, or release a separate 2120 lesson."
+  },
+  "repairVerification": {
+    "decision": "Source 2120 is now proposed-alias-existing with canonicalId advanced-native-1863; the reason explicitly records the source-sense match and withdrawal of the duplicate lesson.",
+    "regex": "Canonical 1863 pattern \\b(?:wear(?:s|ing)?|wore|worn) thin\\b matches wear thin in the complete source example.",
+    "manifest": "batch-2120.json and ordinal 2120 are absent from the selected unpublished-draft manifest.",
+    "archivedDraft": "batch-2120.json remains on disk as an unselected historical draft; downstream build and release tools must consume the selected manifest rather than globbing every draft JSON."
+  },
+  "counts": {"resolved": 1, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "findings": [],
+  "limits": ["This is AI peer review of provisional ownership and manifest state, not human editorial approval or release authorization.", "No live-site, audio, or device validation was performed."]
+}
