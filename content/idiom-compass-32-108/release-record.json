@@ -120,5 +120,6 @@
     "https://dictionary.cambridge.org/us/dictionary/english/go-bananas",
     "Source dossier register contexts for lessons 65, 69 and 97."
   ],
-  "deployment": "Published through the repository’s existing idiom release workflow; deployment status is recorded by GitHub Actions for the release commit."
+  "deployment": "Published through the repository’s existing idiom release workflow; deployment status is recorded by GitHub Actions for the release commit.",
+  "deploymentCorrection": "Initial Pages run 39972900834 stopped because the mobile test pinned the previous CSS cache version. Updated that assertion to the new release version, retaining all checks."
 }
