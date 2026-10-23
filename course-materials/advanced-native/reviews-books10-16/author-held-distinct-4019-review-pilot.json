@@ -1,0 +1,68 @@
+{
+  "status": "author AI self-audit; not independent or human approval",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-4019-review-pilot.json",
+  "draftFileSha256": "aeaec19e435e392de40c7cf0a9e5ecb9e21e49abf8e2ddacf7dc472d8c8ee5c3",
+  "sourceOrdinal": 4019,
+  "sourceId": "book10-16-1908",
+  "exactSourceSentence": "At school she excelled, but elite is a different game altogether.",
+  "sourceInventoryCategory": "Figurative use",
+  "sourceInventoryMeaning": "Top-level competition requires fundamentally different standards; a game metaphor.",
+  "currentDecision": "hold-editorial, unchanged",
+  "ownerComparison": {
+    "selectedOwner": "advanced-native-2289 playing different games",
+    "ownerSense": "Two parties pursue different aims/rules in a seeming shared market or contest.",
+    "newSense": "One related activity at a new level has substantially different demands or standards.",
+    "boundary": "No lesson claims that two parties have different goals; every affirmative assessment identifies an escalated standard or responsibility.",
+    "risk": "The phrase without ball is a productive game metaphor rather than a tightly fixed idiom; category is figurative, and owner eligibility needs independent review."
+  },
+  "sourceFidelity": "Exact source occurrence attached; teaching preserves step-up in standards and transfers to non-sport contexts.",
+  "schemaChecks": {
+    "lessonCount": 1,
+    "questionCount": 6,
+    "audioRoles": 4,
+    "builderFlags": 0,
+    "checkFlags": 0,
+    "targetRegexControls": {
+      "Elite is a different game altogether.": true,
+      "Running a citywide service is a different game altogether.": true,
+      "They are playing different games.": false,
+      "The committee changed meeting rooms.": false,
+      "They chose a different game.": false
+    },
+    "targetInListeningAudioReplyGoldenSceneKeyDialogueKeySpeakingAndBothWritingModels": true,
+    "speakingTargetSpanExact": true,
+    "glossarySpansExact": true,
+    "glossaryTargetExcluded": true,
+    "fourReplyOptionsAllPlausible": "author judgement, independent check pending",
+    "writingTwoModelsCoverPromptFacts": "author judgement, independent check pending"
+  },
+  "originality": {
+    "learnerEnglishStringsScreened": 34,
+    "sourceExamplesScreened": 2604,
+    "contiguousSixTokenHits": 0,
+    "limitation": "Lexical screen does not establish semantic or scenario originality."
+  },
+  "reviewGates": {
+    "independentAI": "pending",
+    "humanEditorial": "pending",
+    "media": "pending",
+    "selection": "not selected",
+    "release": "not approved"
+  },
+  "notes": [
+    "Earlier ten questionable held pilots remain in separate unselected files.",
+    "No editorial decision, selected manifest, or release file was changed."
+  ],
+  "contentRevision": 2,
+  "repairOf": {
+    "independentReview": "reviews-books10-16/independent-ai-review-held-4019-a.json",
+    "independentReviewSha256": "5994088780c1ed65b481fcf63d9e57310d410e75fb797d2a60df00191438c952",
+    "originalDraftSha256": "389c805bbfec491cdba7344e6078e1accb02217b5d130f3446a0d390628eb054",
+    "resolvedByAuthor": [
+      "R4019-01: all four replies now explain the increased safety/rota demands before a next step",
+      "R4019-02: scene and dialogue now assess changed professional/performance standards without numerical scale-up",
+      "R4019-03: listening, scene and dialogue foils now test closer task-specific omissions; no unsupported loaf count"
+    ],
+    "independentFollowup": "pending"
+  }
+}

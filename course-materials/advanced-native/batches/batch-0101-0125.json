@@ -1914,7 +1914,7 @@
     "titleZh": "維繫團體的凝聚力量",
     "category": "figurative",
     "target": {
-      "pattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)",
+      "pattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)|\\bthe invisible glue\\b",
       "glossaryForbidden": [
         "\\bglue\\b",
         "\\bholds?\\b",
@@ -1924,7 +1924,7 @@
     "brief": {
       "meaningEn": "The person or factor that keeps a group connected and functioning together.",
       "meaningZh": "讓團體保持連繫、團結與合作的人或因素。",
-      "grammar": "X is the glue that holds a group together; X can also act like glue, helping family or team members stay connected. The glue is metaphorical.",
+      "grammar": "X is the glue that holds a group together; X can also act like glue or be the invisible glue, meaning a less visible factor that sustains cooperation. The glue is metaphorical; name how the person, trust or habit connects people.",
       "register": "Positive, vivid metaphor for cohesion.",
       "boundaryZh": "不只是單項任務表現好，而是有維繫合作的作用；可指信任、習慣或人。",
       "misconceptionZh": "不是一個人必須包辦所有事情；有凝聚作用也不保證沒有分歧。",
@@ -1957,6 +1957,20 @@
         "sentence": "Shared meals can act like glue in a busy family.",
         "referenceSentenceKind": "guide_original_example",
         "expression": "act like glue"
+      },
+      {
+        "occurrenceId": "book10-16-0825",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 76,
+        "book": 12,
+        "question": 7,
+        "sample": "S1",
+        "sourceBookPages": "18–19",
+        "locatorNote": "DOCX table 77, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Trust is the invisible glue in a good team.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the invisible glue"
       }
     ],
     "listening": {
@@ -2004,8 +2018,8 @@
         },
         {
           "id": "c",
-          "en": "It is the glue that holds the group together.",
-          "zh": "它是維繫小組的凝聚力量。"
+          "en": "It is the invisible glue that keeps us connected despite our busy schedules.",
+          "zh": "即使大家都忙，這項習慣仍是維繫我們的無形力量。"
         },
         {
           "id": "d",
@@ -2013,7 +2027,7 @@
           "zh": "沒有它，我們會失去一項重要連繫。"
         }
       ],
-      "explanationZh": "四個回應都解釋交流的維繫作用；金句用黏合的比喻。",
+      "explanationZh": "四個回應都解釋交流的維繫作用；金句用看不見的黏合力量作比喻。",
       "goldenId": "c"
     },
     "scene": {
@@ -2158,8 +2172,8 @@
         "zh": "坦誠溝通是維繫團隊的凝聚力量。"
       },
       {
-        "en": "A trusted coordinator can act like glue when two volunteer teams need to cooperate.",
-        "zh": "兩支義工隊需要合作時，一位受信任的統籌者可以發揮凝聚作用。"
+        "en": "A trusted coordinator can be the invisible glue that helps two volunteer teams cooperate.",
+        "zh": "一位受信任的統籌者可以是維繫兩支義工隊合作的無形力量。"
       }
     ],
     "review": {
@@ -2188,7 +2202,7 @@
         "Full AI author self-review completed for this draft: checked four contextually valid replies, nearby distractors, bilingual meanings, source locators, target-bearing audio lines and answer-derived glossary support. Independent review, audio and browser evidence remain pending."
       ]
     },
-    "contentRevision": 2
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-112",

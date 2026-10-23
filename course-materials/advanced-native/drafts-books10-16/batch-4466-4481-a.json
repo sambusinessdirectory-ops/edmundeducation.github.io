@@ -282,15 +282,15 @@
       "titleZh": "保留根源",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots\\b",
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
         "glossaryForbidden": []
       },
       "brief": {
-        "meaningEn": "Stay connected to origins or defining traditions while changing or growing.",
-        "meaningZh": "在改變或發展時，仍與起源或核心傳統保持連結。",
-        "grammar": "Keep + possessive + roots; roots is figurative. Explain both the origin retained and the new development.",
+        "meaningEn": "Stay connected to origins or defining traditions over time, including while changing or growing.",
+        "meaningZh": "隨時間延續與起源或核心傳統的連結，包括在改變或發展時。",
+        "grammar": "Keep + possessive + roots, optionally followed by alive; roots is figurative. Name the actual origin, practice or people preserved. A new format can make the contrast visible, but change is not required for keeping roots alive.",
         "register": "Neutral reflective English. A community editor may use it when an old local magazine adopts a digital format.",
-        "boundaryZh": "須有可指出的原有元素持續存在；只是沿用舊名字、內容全被替換，不一定保留根源。",
+        "boundaryZh": "須有可指出的原有元素持續存在；只是沿用舊名字、內容全被替換，不一定保留根源。可有新形式，也可只是透過活動延續傳統。",
         "misconceptionZh": "不是植物真的留住樹根，也不是說所有改變都必須拒絕。",
         "outcomeZh": "能同時指出新做法和仍被保存的來源、做法或聲音。"
       },
@@ -308,6 +308,20 @@
           "sentence": "The town wants to keep its roots while growing.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "keep its roots"
+        },
+        {
+          "occurrenceId": "book10-16-0646",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 55, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Community performances help keep their roots alive.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep their roots alive"
         }
       ],
       "review": {
@@ -336,7 +350,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 4,
       "listening": {
         "en": "The neighbourhood magazine moved online and added audio interviews. It kept its roots by letting long-time residents edit the local-history section and check the place names before publication.",
         "zh": "鄰里雜誌轉到網上並加入語音訪談；它讓老居民編輯本地歷史版、出版前核對地名，藉此保留根源。",
@@ -399,8 +413,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The theatre keeps its roots as it reaches online viewers.",
-            "zh": "劇團接觸網上觀眾時仍保留根源。"
+            "en": "The theatre keeps its roots alive as it reaches online viewers.",
+            "zh": "劇團接觸網上觀眾時，仍讓原有根源得以延續。"
           },
           {
             "id": "b",
@@ -542,8 +556,8 @@
           "zh": "keep its roots 指與起源保持實際連結。"
         },
         {
-          "en": "A project can keep its roots while adopting a new format.",
-          "zh": "計劃採用新形式時仍可保留根源。"
+          "en": "A community troupe can keep its roots alive when long-time members continue teaching the original songs.",
+          "zh": "若資深成員持續教授原有歌曲，社區表演團體便能延續自己的文化根源。"
         }
       ]
     },

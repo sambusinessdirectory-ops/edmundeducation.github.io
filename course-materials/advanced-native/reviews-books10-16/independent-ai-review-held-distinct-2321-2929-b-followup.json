@@ -1,0 +1,53 @@
+{
+  "reportType": "independent-ai-focused-followup",
+  "status": "four_lessons_content_clear_unselected",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2321-2929-a.json",
+  "draftSha256": "a42216df4b38fde5dfb69f9bc6c5cd4b8be64ed469bd668587cab1c2e0e731c1",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-2321-2929-a.json",
+  "authorAuditSha256": "d63071c4ca3c2f9d37a4cfe20a447de49848a683af06e0f01b07c75a7f0cc066",
+  "lessons": [
+    {
+      "sourceOrdinal": 2321,
+      "ownerId": "advanced-native-2321",
+      "result": "pass",
+      "evidence": "Source it has an unclear antecedent; learner material names notes/interviews/feedback and a resulting summary. Four-valid reply, EN/ZH, writing models and source pattern are grounded."
+    },
+    {
+      "sourceOrdinal": 2904,
+      "ownerId": "advanced-native-2904",
+      "result": "pass",
+      "evidence": "The revised golden reply now uses idiomatic practise speaking up at your pace, aligns with ZH, answers the prompt, and retains the target-bearing leave scars construction."
+    },
+    {
+      "sourceOrdinal": 2914,
+      "ownerId": "advanced-native-2914",
+      "result": "pass",
+      "evidence": "Source describes gradual overbuying without a budget. Lesson tests accumulated drift over several decisions, distinguishes a single exception, and transfers to repeated skipped checks. EN/ZH and keys agree."
+    },
+    {
+      "sourceOrdinal": 2929,
+      "ownerId": "advanced-native-2929",
+      "result": "pass",
+      "evidence": "Source uses a limited free evening. This opportunity-prioritisation outcome is distinguishable from canonical 1610 limited-space design. Full source/answer pattern, four-valid reply and transfer models are grounded."
+    }
+  ],
+  "mechanicalChecks": {
+    "lessonCount": 4,
+    "sourceMatches": 4,
+    "assessedKeysTargetBearing": 16,
+    "writingModelsTargetBearing": 8,
+    "glossarySpansExact": 24,
+    "speakingSpansExact": 4
+  },
+  "scope": "Scoped changed-field recheck after initial full four-lesson content review. AI content clearance only; four lessons remain unselected and decision rows unchanged.",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-2321-2929-b.json",
+  "priorReviewSha256": "6d8e73f802760009d87759b9ca11cbbcce5319c07bfdfc79a58c27f724c291c0",
+  "resolvedFinding": {
+    "id": "R2904-01",
+    "field": "reply.options[a].en/zh",
+    "finalEn": "That treatment can leave scars; your hesitation makes sense, and we can practise speaking up at your pace.",
+    "finalZh": "那種對待可能留下傷痕；你現在猶豫是可以理解的，我們可以按你的步伐練習發言。",
+    "revision": 2,
+    "result": "clear"
+  }
+}

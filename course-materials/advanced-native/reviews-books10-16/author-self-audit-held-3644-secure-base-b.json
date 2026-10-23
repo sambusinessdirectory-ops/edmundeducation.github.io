@@ -1,0 +1,109 @@
+{
+  "type": "author-self-audit-unselected-held-source-lesson",
+  "status": "revision-2 author repair frozen pending independent scoped follow-up",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-3644-secure-base-b.json",
+  "draftSha256": "26553953ae409bcf63c5717570e68f75cd46e10d9a051eaa5a6365822d35c01a",
+  "sourceOrdinal": 3644,
+  "sourceId": "book10-16-1533",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+  "decisionFileSha256": "028e09a2242a1d6af99be80a1081fe856a4c295395ed5c5e828eb62b4717bf73",
+  "sourceExpression": "secure base",
+  "sourceSentence": "The family gives the child a secure base.",
+  "sourceMeaningAndReason": "A reliable source of support from which a child can explore; a natural developmental collocation.",
+  "exactSourceProvenanceInDraft": true,
+  "ownerScreen": "No selected or authored canonical lesson title/target teaches the secure-base noun phrase; full source sentence had no existing target-detector hit in the 1,883 canonical plus 597 selected screen.",
+  "senseBoundary": "Dependable caregiver or established teacher relationship supports child exploration and return for help. It does not imply constant direction, no help, guaranteed success, or clinical diagnosis.",
+  "usageEvidence": [
+    {
+      "url": "https://academic.oup.com/chidev/article/84/6/1896/8267217",
+      "reason": "Primary cross-cultural secure-base study describes caregiver as base for child exploration and return."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.920985/full",
+      "reason": "Research review supports teacher-child secure-base function in education."
+    },
+    {
+      "url": "https://www.swd.gov.hk/storage/asset/section/404/tc/Fostering_Secure-base_Relationship.pdf",
+      "reason": "Hong Kong government social-welfare material uses Traditional Chinese term 安全基地 for secure base."
+    }
+  ],
+  "sourceAndTargetControls": {
+    "positive": [
+      "a secure base",
+      "the secure base",
+      "The family gives the child a secure base."
+    ],
+    "negativeRejected": [
+      "an secure base",
+      "securely based",
+      "a secure basement",
+      "base for security",
+      "a secure baseplate"
+    ],
+    "sourceSentenceMatched": true,
+    "keyAndModelTargetsMatched": true
+  },
+  "assessmentReview": {
+    "questions": 6,
+    "listeningAnswerId": "a",
+    "replyFourValidSelfReviewed": true,
+    "replyOnlyGoldenUsesTarget": true,
+    "sceneAnswerId": "a",
+    "contrastAnswerId": "c",
+    "dialogueAnswerId": "a",
+    "writingSelfCheckCoveredByBothModels": true,
+    "changedContext": "School library duty with a previously trusted teacher; differs from source family statement and other assessed contexts.",
+    "replyFourValidEvidence": "A agrees pickup/availability and project choice; B confirms pickup and asks the daughter her preferred project; C confirms a parent pickup and leaves project choice to her; D agrees who attends pickup and asks about the project she chose."
+  },
+  "bilingualReview": "Revised reply C/D each cover parent pickup and child project choice in English and Traditional Chinese; speaking gives months of dependable teacher help before independent exploration, with aligned 安全基地.",
+  "glossary": {
+    "rows": 5,
+    "answerDerivedExactSpans": true,
+    "targetExcluded": true
+  },
+  "speakingTargetSpanExact": true,
+  "originalityScreen": {
+    "learnerEnglishFields": 28,
+    "guideSourceExamples": 2604,
+    "nonTargetSixTokenHits": 0,
+    "limitation": "Mechanical contiguous screen; does not prove full originality or editorial naturalness."
+  },
+  "focusedBuildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0,
+    "buildPassed": true,
+    "checkPassed": true
+  },
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "A initial review SHA 517ae8b4c76bdf5ccc8afd88e127422171545274cbcfaf1516b600f8b0aaca0d found R3644-01/02; revised fields await scoped independent follow-up",
+  "releaseApproved": false,
+  "limitations": [
+    "AI author self-audit only. Independent source, English, Chinese and pedagogical review pending.",
+    "No rendered browser, audio playback, human review, hosted media, database application or publication claim."
+  ],
+  "contentRevision": 2,
+  "repairs": [
+    {
+      "findingId": "R3644-01",
+      "fields": [
+        "reply.options[c].en/zh",
+        "reply.options[d].en/zh",
+        "reply.explanationZh"
+      ],
+      "resolution": "Both options independently cover parent pickup and the daughter choosing her own project; target remains only in golden A."
+    },
+    {
+      "findingId": "R3644-02",
+      "fields": [
+        "speaking.en",
+        "speaking.zh",
+        "speaking.targetSpan"
+      ],
+      "resolution": "Months of dependable teacher help establish trust before first trip, while Eli independently interviews the guide."
+    }
+  ]
+}

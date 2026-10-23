@@ -1,0 +1,30 @@
+{
+  "status": "independent-ai-content-clear-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-4019-review-pilot.json",
+  "draftSha256": "aeaec19e435e392de40c7cf0a9e5ecb9e21e49abf8e2ddacf7dc472d8c8ee5c3",
+  "aFollowupFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4019-a-followup.json",
+  "aFollowupSha256": "9fb18cb852985b17f6a426660a34ba5924ce76c439c008696e5646e2ccd99599",
+  "selectedManifestSha256": "6730e20d8e206eaafc58f2a586c5571befbfcd52d6041dceb32e5455c3ebad51",
+  "reviewedLesson": "advanced-native-4019",
+  "sourceOccurrenceId": "book10-16-1908",
+  "contentRevision": 2,
+  "ownerComparison": {
+    "owner": "advanced-native-2289",
+    "judgment": "distinct",
+    "evidence": "4019 source contrasts school excellence with elite-level performance and changed standards; 2289 contrasts two simultaneous parties with differing aims. The revised dialogue explicitly tests audition sight-reading and assessed tempo."
+  },
+  "focusedIndependentChecks": {
+    "sourceSentence": "exact guide source and target match",
+    "reply": "Four independently defensible replies all answer the volunteer question with new duties; only golden uses target.",
+    "scene": "School posters versus public emergency signs adds accessibility and safety standards; key and Traditional Chinese agree.",
+    "contrast": "Room-only change is correctly insufficient.",
+    "dialogue": "Conservatory assessment adds sight-reading and steady tempo; key/foils grounded and bilingual.",
+    "writing": "Both models name 6 classmates, 600 visitors, crowd flow and trained safety stewards; different public-demo context; six glossary spans exact/non-target.",
+    "targetAndAudio": "Source and all target-bearing models match bounded target; speaking span exact; four audio roles present."
+  },
+  "remainingBlockingFindings": [],
+  "decisionManifestEdited": false,
+  "selectionManifestEdited": false,
+  "releaseApproved": false,
+  "limits": "AI editorial review only; source 4019 remains held and draft unselected. No human/media/live approval asserted."
+}

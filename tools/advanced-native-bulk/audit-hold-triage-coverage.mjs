@@ -10,8 +10,9 @@ const readJsonl = path => readFileSync(resolve(base, path), 'utf8').trim().split
 
 const sourceById = new Map(readJsonl('books10-16/source-inventory.jsonl').map(row => [row.sourceId, row]));
 const manifest = readJson('books10-16/editorial-decision-manifest.json');
-const held = new Map(manifest.decisionFiles.flatMap(name => readJsonl(`books10-16/${name}`))
-  .filter(row => row.action === 'hold-editorial').map(row => [row.sourceOrdinal, row]));
+const decisions = new Map(manifest.decisionFiles.flatMap(name => readJsonl(`books10-16/${name}`))
+  .map(row => [row.sourceOrdinal, row]));
+const held = new Map([...decisions].filter(([, row]) => row.action === 'hold-editorial'));
 const reports = [
   ['reviews-books10-16/read-only-grouped-hold-disposition-2112-3000-a.json', 'sourceExample', 'workingGroup'],
   ['reviews-books10-16/independent-ai-readonly-hold-disposition-3001-3900-b.json', 'sourceSentence', 'category'],
@@ -20,13 +21,17 @@ const reports = [
 const seen = new Set();
 const categories = {};
 const errors = [];
+let closedSinceTriage = 0;
 for (const [path, sentenceKey, categoryKey] of reports) {
   for (const row of readJson(path).rows) {
     const ordinal = row.sourceOrdinal;
     const source = sourceById.get(row.sourceId);
     if (seen.has(ordinal)) errors.push(`${ordinal}: duplicate triage row`);
     seen.add(ordinal);
-    if (!held.has(ordinal)) errors.push(`${ordinal}: no longer a current hold`);
+    if (!held.has(ordinal)) {
+      if (decisions.has(ordinal)) closedSinceTriage++;
+      else errors.push(`${ordinal}: no editorial decision`);
+    }
     if (!source || source.example !== row[sentenceKey]) errors.push(`${ordinal}: source sentence mismatch`);
     const category = row[categoryKey];
     if (!category) errors.push(`${ordinal}: missing category`);
@@ -35,7 +40,9 @@ for (const [path, sentenceKey, categoryKey] of reports) {
       errors.push(`${ordinal}: read-only report claims approval`);
   }
 }
-for (const ordinal of held.keys()) if (!seen.has(ordinal)) errors.push(`${ordinal}: missing triage row`);
-const result = {currentHolds: held.size, triageRows: seen.size, reports: reports.length, categories, errorCount: errors.length, errors};
+let untriagedCurrentHolds = 0;
+for (const ordinal of held.keys()) if (!seen.has(ordinal)) { errors.push(`${ordinal}: missing triage row`); untriagedCurrentHolds++; }
+const result = {currentHolds: held.size, triageRows: seen.size, closedSinceTriage,
+  untriagedCurrentHolds, reports: reports.length, categories, errorCount: errors.length, errors};
 console.log(JSON.stringify(result));
 if (errors.length) process.exitCode = 1;

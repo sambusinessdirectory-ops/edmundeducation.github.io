@@ -1,0 +1,55 @@
+{
+  "status": "independent-ai-content-review-initial",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3644-secure-base-b.json",
+  "draftSha256": "cb0372441861e989bb5a1dfd74480f247ff8497e46058150f5dbd251769b6dc3",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3644-secure-base-b.json",
+  "authorAuditSha256": "325bfb1f4c30c2c60170ee8e7193adafd63b0443bafbe85aa3cf7c13b2f8a7bb",
+  "sourceOrdinal": 3644,
+  "sourceId": "book10-16-1533",
+  "sourceExpression": "secure base",
+  "sourceSentence": "The family gives the child a secure base.",
+  "sourceAndTargetMatch": true,
+  "ownerComparison": {
+    "finding": "Defensibly distinct: canonical 1526 home base is a broad place/source of support; new 4680 base camp is a logistical departure/return point. Secure base here teaches a child–trusted-adult relationship enabling exploration and return for reassurance, supported by public attachment/education guidance.",
+    "comparedOwners": [
+      1526,
+      4680
+    ],
+    "sources": [
+      "https://www.lpft.nhs.uk/young-people/lincolnshire/young-people/i-need-more-help/child-and-adolescent-mental-health-services-cahms/camhs-ld",
+      "https://schools.essex.gov.uk/pupil-support-and-wellbeing/essex-virtual-school/guidance-and-support/attachment-guidance"
+    ]
+  },
+  "traditionalChinese": {
+    "finding": "安全基地 is established Traditional Chinese terminology for secure base in Hong Kong public guidance; the lesson translations are generally faithful.",
+    "source": "https://www.swd.gov.hk/storage/asset/section/404/tc/Fostering_Secure-base_Relationship.pdf"
+  },
+  "checks": {
+    "sevenStepsPresent": true,
+    "sixQuestionsPresent": true,
+    "fourAudioRolesPresent": true,
+    "sourceProvenanceExact": true,
+    "fiveGlossarySpansExact": true,
+    "targetSpeakingSpanExact": true,
+    "answerKeyGrounding": "All keyed scene/contrast/dialogue/listening answers defensible; reply options C/D need completion."
+  },
+  "findings": [
+    {
+      "id": "R3644-01",
+      "severity": "major",
+      "path": "lessons[number=3644].reply.options[c,d]",
+      "issue": "The prompt gives two concrete wishes: a parent at pickup and the daughter choosing her own project. Option C discusses a possible leader check-in and project choice but never commits to pickup; D arranges a meeting afterwards without explicitly preserving the project choice. The SOP requires each of four replies to answer independently.",
+      "repair": "Make C and D explicitly cover pickup and child choice, while retaining distinct valid suggestions. Keep A as the sole target-bearing golden reply and align EN/ZH."
+    },
+    {
+      "id": "R3644-02",
+      "severity": "minor",
+      "path": "lessons[number=3644].speaking.en/zh",
+      "issue": "The speaking model labels a teacher a secure base based only on being a help point during one first school trip. In attachment/education usage the term implies a dependable relationship that supports exploration, not merely a one-time directions contact.",
+      "repair": "Add an established trust/ongoing support cue to the same spoken model, retain the child independently interviewing the guide, align Chinese and recalculate targetSpan if affected."
+    }
+  ],
+  "overall": "repair-required-before-provisional-selection",
+  "decisionOrManifestEdited": false,
+  "published": false
+}

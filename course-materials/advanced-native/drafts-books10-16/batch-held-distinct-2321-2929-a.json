@@ -1,0 +1,1133 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2321",
+      "number": 2321,
+      "inventoryId": "expr-2321",
+      "titleEn": "distil X into Y",
+      "titleZh": "把複雜資料提煉成重點",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:distil|distill|distils|distills|distilled|distilling)\\s+(?:it|them|the\\s+(?:notes|interviews|feedback|evidence|discussion|research|responses|report|reports|survey))\\s+into\\b",
+        "glossaryForbidden": [
+          "\\b(?:distil|distill|distils|distills|distilled|distilling)\\s+(?:it|them|the\\s+(?:notes|interviews|feedback|evidence|discussion|research|responses|report|reports|survey))\\s+into\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Reduce a large body of information to its essential points without pretending that the source material said more than it did.",
+        "meaningZh": "把大量資訊提煉成核心重點，同時不把原資料說得比證據更確定。",
+        "grammar": "Distil (UK) / distill (US) + source material + into + concise result. Name both the material and resulting themes; do not use it without a clear antecedent. Distilled and distilling work in past and progressive contexts.",
+        "register": "Neutral to formal. A researcher may explain a summary to colleagues; an organiser may brief volunteers from collected comments.",
+        "boundaryZh": "提煉是保留重要意思並簡化，不等於只選自己喜歡的意見，亦不等於逐字抄下全部內容。",
+        "misconceptionZh": "原文的 it 指代不夠清楚；學習例句會明確交代被提煉的是甚麼。",
+        "outcomeZh": "能說明資料來源、提煉後的重點，以及仍須保留的異議。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0210",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 19,
+          "book": 10,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 21; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The short essay succeeded by distilling it into one clear idea.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "distilling it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source lesson; independent review pending. Source decision remains hold-editorial; no selection or release approval."
+        ]
+      },
+      "listening": {
+        "promptEn": "What did the curator do with the interviews?",
+        "promptZh": "策展人如何處理訪談內容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She distilled the interviews into three recurring concerns while noting one disagreement.",
+            "zh": "她把訪談提煉成三個反覆出現的關注點，同時記下一項不同意見。"
+          },
+          {
+            "id": "b",
+            "en": "She treated the longest interview as the view of every participant.",
+            "zh": "她把最長的一段訪談當成所有受訪者的看法。"
+          },
+          {
+            "id": "c",
+            "en": "She kept every comment in order but offered no account of the recurring themes.",
+            "zh": "她按次序保留所有意見，卻沒有概括反覆出現的主題。"
+          },
+          {
+            "id": "d",
+            "en": "She counted the speakers but left out what they said about the exhibition.",
+            "zh": "她只點算受訪者人數，卻沒有交代他們對展覽的意見。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她從訪談找出三個反覆出現的關注點，亦保留不同意見；並非以一人代表眾人或只整理篇幅。",
+        "en": "The curator reviewed twenty interviews about the exhibition. She distilled the interviews into three recurring concerns, but kept one disagreement visible in the summary.",
+        "zh": "策展人查看了二十份關於展覽的訪談。她把訪談提煉成三個反覆出現的關注點，但在摘要中仍保留一項不同意見。"
+      },
+      "reply": {
+        "promptEn": "We have twenty-eight comments about the museum signs and visitor route, and the trustees need a short briefing tomorrow. How should I summarise them without hiding disagreement?",
+        "promptZh": "我們收到二十八則關於博物館指示牌和參觀路線的意見，理事明天需要一份簡短報告。我應如何概括，同時不掩蓋不同看法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Distil the feedback into the main route and sign issues, then note where visitors disagree.",
+            "zh": "把意見提煉成路線和指示牌的主要問題，再指出訪客在哪裏有不同看法。"
+          },
+          {
+            "id": "b",
+            "en": "Group the comments by location, quote a representative point for each, and note any exception.",
+            "zh": "按地點整理意見，為每類引述一個具代表性的觀點，並註明例外。"
+          },
+          {
+            "id": "c",
+            "en": "Use a short table showing how often each issue appeared, with one original example beside it.",
+            "zh": "用簡表列出各問題出現次數，旁邊附上一個原來的例子。"
+          },
+          {
+            "id": "d",
+            "en": "Let a second reader check the short briefing against all twenty-eight comments before it goes out.",
+            "zh": "報告發出前，請另一人把簡短版本與全部二十八則意見核對。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回應都能在縮短篇幅的同時保留證據和異議；金句以 distil ... into 點出提煉過程。"
+      },
+      "scene": {
+        "promptEn": "A librarian has fifty reading logs from a term but only two minutes to brief the team. Which response best identifies the main patterns without erasing exceptions?",
+        "promptZh": "圖書館員收集了一學期五十份閱讀紀錄，卻只有兩分鐘向團隊簡報。哪句最能指出主要模式，又不抹去例外？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She distils the notes into two recurring reading barriers and flags the few logs that differ.",
+            "zh": "她把紀錄提煉成兩項反覆出現的閱讀障礙，並標出少數不同的紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "She reads the first ten logs in full and assumes the other forty say the same thing.",
+            "zh": "她全文讀出頭十份紀錄，並假定其餘四十份內容相同。"
+          },
+          {
+            "id": "c",
+            "en": "She lists every book title but does not explain which problems kept recurring.",
+            "zh": "她列出每本書的書名，卻沒有說明哪些問題反覆出現。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "限時簡報須提煉反覆出現的障礙，也保留少數例外；另兩句要麼以少代全，要麼只列資料。"
+      },
+      "contrast": {
+        "promptEn": "Which action least counts as distilling evidence into a useful summary?",
+        "promptZh": "哪項做法最不足以把證據提煉成有用的摘要？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Combining repeated observations into a short theme while citing the source.",
+            "zh": "把重複的觀察歸成簡短主題，並註明來源。"
+          },
+          {
+            "id": "b",
+            "en": "Separating a minority concern from the two most common themes.",
+            "zh": "把少數人的關注與兩項最常見的主題分開列明。"
+          },
+          {
+            "id": "c",
+            "en": "Copying the whole transcript into the summary without selecting or explaining key points.",
+            "zh": "把整份逐字稿抄進摘要，卻不挑選或解釋重點。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "逐字照抄既沒有縮減，也沒有找出核心意思；A、B 都有保留資料脈絡的提煉判斷。"
+      },
+      "dialogue": {
+        "promptEn": "A research group has one slide for a ninety-minute discussion. Members disagree on one cause. What should the presenter say?",
+        "promptZh": "研究小組須以一張投影片交代九十分鐘的討論，成員對其中一個原因仍有分歧。講者應怎樣說？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us distil the discussion into three drivers and mark the disputed one as unsettled.",
+            "zh": "我們把討論提煉成三個成因，並標明其中一個仍有爭議。"
+          },
+          {
+            "id": "b",
+            "en": "Let us quote the first speaker and present that view as the group’s conclusion.",
+            "zh": "我們只引述第一位發言者，並把他的看法當成全組結論。"
+          },
+          {
+            "id": "c",
+            "en": "Let us list all speaking turns on the slide and leave the links between them unexplained.",
+            "zh": "我們把所有發言次序列在投影片上，不解釋彼此關係。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句既概括三個成因，亦標明未定論的部分；另兩句沒有忠實處理討論。"
+      },
+      "speaking": {
+        "en": "The flood team distilled the reports into two urgent access problems, then checked whether smaller streets were missing from the summary.",
+        "zh": "防洪小組把報告提煉成兩項緊急通行問題，再核對摘要有否遺漏較小的街道。",
+        "promptZh": "先聽示範，再指出資料來源、提煉後的結果和保留的核對步驟。",
+        "targetSpan": {
+          "start": 15,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校午膳小組收到六十份匿名回覆，反覆提及等候時間和素食標示，另有少數人關注過敏原。用一至兩句英文交代資料來源、兩項主要主題及少數意見；不要說所有人意見一致。",
+        "selfCheckZh": "兩例都須寫出六十份匿名回覆、等候時間、素食標示和較少人提出的過敏原關注。",
+        "examples": [
+          {
+            "en": "The lunch team distilled the survey into two recurring concerns, waiting times and vegetarian labels, while keeping the allergy concern from a few of the sixty anonymous replies in view.",
+            "zh": "午膳小組把六十份匿名回覆提煉成兩項反覆出現的關注：等候時間和素食標示，同時保留少數人提出的過敏原問題。"
+          },
+          {
+            "en": "From sixty anonymous replies, we distilled the feedback into waiting times and vegetarian labels as the main themes; we also noted the smaller group concerned about allergens.",
+            "zh": "我們從六十份匿名回覆中把意見提煉成等候時間及素食標示兩項主要主題，亦記下較少人提出的過敏原關注。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two recurring concerns",
+            "zh": "兩項反覆出現的關注",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 63
+            }
+          },
+          {
+            "en": "waiting times",
+            "zh": "等候時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 78
+            }
+          },
+          {
+            "en": "vegetarian labels",
+            "zh": "素食標示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 100
+            }
+          },
+          {
+            "en": "the allergy concern",
+            "zh": "過敏原關注",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 135
+            }
+          },
+          {
+            "en": "sixty anonymous replies",
+            "zh": "六十份匿名回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 28
+            }
+          },
+          {
+            "en": "the smaller group concerned about allergens",
+            "zh": "較少數關注過敏原的人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 174
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Distil the research into a concise result, and keep the limits of the evidence visible.",
+          "zh": "把原始資料提煉成簡明結果，同時清楚保留證據的限制。"
+        },
+        {
+          "en": "Distilling the notes into themes should not erase a minority view.",
+          "zh": "有用的摘要會指出反覆出現的主題，亦不會抹去少數意見。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2904",
+      "number": 2904,
+      "inventoryId": "expr-2904",
+      "titleEn": "leave scars",
+      "titleZh": "留下深遠傷痕",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving)\\s+(?:emotional\\s+|lasting\\s+)?scars\\b",
+        "glossaryForbidden": [
+          "\\b(?:leave|leaves|left|leaving)\\s+(?:emotional\\s+|lasting\\s+)?scars\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Cause harm whose emotional effects remain after the event, even if the injury is not visible. The noun can also describe physical marks, but the source concerns harsh words.",
+        "meaningZh": "造成事件過後仍留下的情緒傷害，即使外表看不到；scar 也可指身體傷疤，但原文說的是言語傷害。",
+        "grammar": "Leave/left scars; add emotional or lasting when needed. Name the harmful act and evidence of an ongoing effect. Do not infer literal wounds from figurative wording.",
+        "register": "Serious, empathetic figurative language. A mentor may discuss public humiliation with a colleague; a friend may acknowledge someone’s lasting loss of confidence.",
+        "boundaryZh": "不必聲稱傷害永遠無法修復；要有持續影響的依據，亦不要把受傷害的人說成有身體傷口。",
+        "misconceptionZh": "道歉或更正可能有幫助，但不能單憑它們便斷定較深的情緒影響已消失。",
+        "outcomeZh": "能從持續的行為或感受判斷何時可說 leave scars，並謹慎區分可見與看不見的傷害。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0793",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 73,
+          "book": 12,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "10–11",
+          "locatorNote": "DOCX table 73, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Harsh words can leave scars, both seen and unseen.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "scars, both seen and unseen"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source lesson; independent review pending. Source decision remains hold-editorial; no selection or release approval."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the speaker say the false accusation left scars?",
+        "promptZh": "講者為甚麼說錯誤指控留下了傷痕？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The false accusation left scars: Mina still avoids presenting months after the correction.",
+            "zh": "錯誤指控留下了傷痕：更正數月後，Mina 仍避開發表。"
+          },
+          {
+            "id": "b",
+            "en": "The accusation was corrected, so the later reluctance must have an unrelated cause.",
+            "zh": "指控既已更正，其後的退縮必定另有原因。"
+          },
+          {
+            "id": "c",
+            "en": "The word scars proves Mina suffered a visible physical injury.",
+            "zh": "scars 一字證明 Mina 身上有看得見的傷口。"
+          },
+          {
+            "id": "d",
+            "en": "The correction happened quickly, so any emotional effect could only have lasted a day.",
+            "zh": "更正很快作出，所以情緒影響最多只維持一天。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音明說更正後數月仍不願發表，支持持續的自信損傷；沒有提到身體受傷，也不能因更正便否定影響。",
+        "en": "At a meeting, Mina was wrongly accused of altering the figures. The team corrected the record the next day, but months later she still avoids presenting. The accusation left scars.",
+        "zh": "Mina 在會議上被錯誤指控改動數字。團隊翌日更正紀錄，但數月後她仍避開發表。那次指控留下了傷痕。"
+      },
+      "reply": {
+        "promptEn": "My old manager mocked my questions in meetings for months. Even after changing jobs, I hesitate before speaking. How would you respond?",
+        "promptZh": "以前的經理連續數月在會議上嘲笑我的問題。即使轉工後，我發言前仍會猶豫。你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That treatment can leave scars; your hesitation makes sense, and we can practise speaking up at your pace.",
+            "zh": "那種對待可能留下傷痕；你現在猶豫是可以理解的，我們可以按你的步伐練習發言。"
+          },
+          {
+            "id": "b",
+            "en": "Months of being mocked could affect anyone’s confidence; I can listen before we discuss what might help.",
+            "zh": "被嘲笑數月可能影響任何人的自信；我們可以先談你的感受，再想甚麼有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "A new workplace does not erase the old experience overnight; there is no need to rush yourself.",
+            "zh": "新工作環境不會一夜間抹掉舊經歷；你不必催促自己。"
+          },
+          {
+            "id": "d",
+            "en": "If you want, we could rehearse one question together before the next meeting.",
+            "zh": "如果你願意，我們可在下次會議前一起練習提出一個問題。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都正面回應持續受影響的自信，並尊重對方步伐；金句以 leave scars 指出長遠傷害。"
+      },
+      "scene": {
+        "promptEn": "A student was repeatedly excluded from a club. Months later, they are nervous about joining a different club despite a welcoming invitation. Which description is most careful?",
+        "promptZh": "一名學生曾多次被社團排斥。數月後，即使另一個社團熱情邀請，他們仍害怕加入。哪句描述最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The earlier exclusion may have left emotional scars, so a welcoming invitation alone may not remove the fear.",
+            "zh": "早前的排斥可能留下情緒傷痕；單有熱情邀請未必能消除恐懼。"
+          },
+          {
+            "id": "b",
+            "en": "The new club’s invitation proves the earlier exclusion did not affect the student.",
+            "zh": "新社團的邀請證明早前的排斥沒有影響這名學生。"
+          },
+          {
+            "id": "c",
+            "en": "The student’s fear proves the new club has already excluded them too.",
+            "zh": "這名學生害怕，證明新社團也已排斥他們。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "過去反覆遭排斥與如今的猶豫形成有根據的可能關聯，但不能推斷新社團也會排斥他們。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports saying an event left emotional scars?",
+        "promptZh": "哪種情況最不足以說某事留下了情緒傷痕？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person still avoids speaking in groups a year after repeated public mockery.",
+            "zh": "一個人在反覆遭公開嘲笑一年後，仍避免在團體中發言。"
+          },
+          {
+            "id": "b",
+            "en": "A child remains anxious about joining teams months after being excluded repeatedly.",
+            "zh": "一名孩子多次被排斥，數月後仍對加入團隊感到焦慮。"
+          },
+          {
+            "id": "c",
+            "en": "Someone receives one polite correction, accepts it, and speaks confidently at the next meeting.",
+            "zh": "有人收到一次有禮貌的更正，接受後在下一次會議仍自信發言。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "C 既沒有嚴重傷害，也沒有持續影響的線索；A、B 都提供了事件過後仍受影響的證據。"
+      },
+      "dialogue": {
+        "promptEn": "A volunteer was falsely blamed in public. The organiser corrected the claim, but the volunteer is still nervous about leading events. What should the organiser acknowledge?",
+        "promptZh": "一名義工被公開錯怪。主辦人已更正說法，但義工仍害怕帶領活動。主辦人應承認甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The public blame may have left scars; correcting the record matters, but rebuilding trust may take time.",
+            "zh": "公開錯怪可能留下傷痕；更正紀錄很重要，但重建信任可能需要時間。"
+          },
+          {
+            "id": "b",
+            "en": "The correction proves the volunteer’s nerves are unrelated to the accusation.",
+            "zh": "既已更正，義工如今緊張便與指控無關。"
+          },
+          {
+            "id": "c",
+            "en": "Because the volunteer feels nervous, they can never lead an event again.",
+            "zh": "既然義工感到緊張，他們以後便永遠不能帶領活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "更正能處理事實錯誤，卻未必即時消除持續的不安；B 和 C 分別否認或誇大影響。"
+      },
+      "speaking": {
+        "en": "Repeated ridicule can leave scars long after a rehearsal ends, even when no injury is visible.",
+        "zh": "反覆的嘲笑可在綵排結束後留下長久傷痕，即使外表看不到傷口。",
+        "promptZh": "先聽示範，再說明句子為何是情緒傷害，而非證實身體受傷。",
+        "targetSpan": {
+          "start": 22,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學員在網上課程被公開錯指抄襲，課程團隊其後更正，但學員之後仍不敢分享作品。寫一至兩句英文，承認更正及持續影響，不聲稱傷害必然永久。",
+        "selfCheckZh": "兩例都須交代公開的錯誤指控、其後更正，以及學員仍不敢分享作品；不能憑空加入身體傷害或永久創傷。",
+        "examples": [
+          {
+            "en": "The public plagiarism accusation was corrected, but it left emotional scars: the learner still hesitates to share work in the online class.",
+            "zh": "公開的抄襲指控後來已更正，但仍留下情緒傷痕：這名學員在網上課堂仍猶豫是否分享作品。"
+          },
+          {
+            "en": "Although the online course corrected its false public accusation, those words had left scars; the learner remained reluctant to show classmates new work.",
+            "zh": "雖然網上課程已更正公開作出的錯誤指控，那番話仍留下傷痕；這名學員仍不願向同學展示新作品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "public plagiarism accusation",
+            "zh": "公開的抄襲指控",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 32
+            }
+          },
+          {
+            "en": "was corrected",
+            "zh": "已更正",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 46
+            }
+          },
+          {
+            "en": "the learner still hesitates",
+            "zh": "這名學員仍猶豫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 104
+            }
+          },
+          {
+            "en": "false public accusation",
+            "zh": "公開作出的錯誤指控",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 64
+            }
+          },
+          {
+            "en": "remained reluctant",
+            "zh": "仍不願意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 124
+            }
+          },
+          {
+            "en": "show classmates new work",
+            "zh": "向同學展示新作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 152
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave scars can describe lasting emotional effects even when no physical mark is visible.",
+          "zh": "leave scars 可以形容看不到身體傷口、卻持續存在的情緒影響。"
+        },
+        {
+          "en": "A correction can help after words leave scars, but it does not by itself prove that confidence has recovered.",
+          "zh": "更正說法可以有幫助，但不能單憑更正便斷定當事人的自信已恢復。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2914",
+      "number": 2914,
+      "inventoryId": "expr-2914",
+      "titleEn": "slide into an unwanted habit",
+      "titleZh": "逐漸滑向不良習慣",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:slide|slides|slid|sliding)\\s+into\\s+(?:overbuying|overspending|skipping\\s+checks|a\\s+risky\\s+habit)\\b",
+        "glossaryForbidden": [
+          "\\b(?:slide|slides|slid|sliding)\\s+into\\s+(?:overbuying|overspending|skipping\\s+checks|a\\s+risky\\s+habit)\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Drift gradually into an unwanted pattern through repeated small choices, often without a deliberate decision to adopt it.",
+        "meaningZh": "因多次小選擇而逐漸養成不理想的做法，往往並非有意一次過決定這樣做。",
+        "grammar": "Slide/slid/sliding into + an unwanted activity or state. This lesson uses bounded objects: overbuying, overspending, skipping checks and a risky habit. State the repeated drift, not just a single act.",
+        "register": "Neutral figurative wording. A treasurer may warn a club about purchases; a supervisor may describe safety checks eroding over several shifts.",
+        "boundaryZh": "重點是反覆的小例外令情況逐步變差；一次有計劃的例外或已明確決定的改動，不足以叫 slide into。",
+        "misconceptionZh": "不要把 slide into 說成「滑倒」的字面動作，也不要假定一個偶然失誤已形成習慣。",
+        "outcomeZh": "能辨認逐步惡化的時間線、具體證據及可及早修正的做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0803",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 74,
+          "book": 12,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 75, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Gift shopping can slide into overbuying without a budget.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "slide into overbuying"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source lesson; independent review pending. Source decision remains hold-editorial; no selection or release approval."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the speaker say the group is sliding into overspending?",
+        "promptZh": "講者為甚麼說小組正逐漸超支？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The club is sliding into overspending as repeated unplanned orders push costs above its agreed limit.",
+            "zh": "每星期都有未經計劃的加購，令開支超過議定上限；社團正逐步陷入超支。"
+          },
+          {
+            "id": "b",
+            "en": "A single approved purchase used the budget exactly as planned.",
+            "zh": "一次獲批准的購買按原定計劃用盡預算。"
+          },
+          {
+            "id": "c",
+            "en": "The team has spent less each week because it stopped ordering extras.",
+            "zh": "團隊停止加購後，每星期的開支反而下降。"
+          },
+          {
+            "id": "d",
+            "en": "The group replaced one supplier but kept the total cost unchanged.",
+            "zh": "小組換了一個供應商，但總開支沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連續數星期的額外訂單逐步推高開支，才支持「滑向超支」；單次已批准購買或成本不變都不符合。",
+        "en": "The club agreed a monthly supply limit. Each week someone added a few unplanned items, and the total is now above that limit. The club is sliding into overspending.",
+        "zh": "社團議定每月的物資開支上限。每星期都有人加購幾件未經計劃的物品，如今總額已超標。社團正逐漸滑向超支。"
+      },
+      "reply": {
+        "promptEn": "Our school trip group began with one planned order, but now we place small extra supply orders every week and the total keeps rising. How should I explain the risk to the committee?",
+        "promptZh": "學校旅行小組起初只有一張預定訂單，現在卻每星期都有小額加購，總開支持續上升。我應怎樣向委員會解釋風險？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We are sliding into overspending through repeated extras; let us check the list before another order.",
+            "zh": "我們因反覆加購而逐漸超支；下次下單前先核對清單。"
+          },
+          {
+            "id": "b",
+            "en": "The weekly extras have become a pattern, so I would compare the running total with our limit.",
+            "zh": "每周加購已形成模式；我會把累計總額與上限比較。"
+          },
+          {
+            "id": "c",
+            "en": "No single extra order is large, but together they raise the cost; we should agree who approves them.",
+            "zh": "每張加購單都不大，合起來卻推高成本；我們應定好由誰批准。"
+          },
+          {
+            "id": "d",
+            "en": "Let us separate necessary supplies from repeat extras before we promise more purchases.",
+            "zh": "承諾再買東西前，先分清必需品和重複加購的物品。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都針對每周反覆加購及成本上升，提出可行的核對方法；金句用 slide into 點明逐步變化。"
+      },
+      "scene": {
+        "promptEn": "A volunteer kitchen used to verify every delivery. During several busy shifts, staff began skipping one check, then another, and no replacement check was agreed. Which description is most accurate?",
+        "promptZh": "義工廚房原本每次收貨都會核對。幾次繁忙輪班期間，工作人員先漏做一項檢查，後來再漏做另一項，亦沒有訂立替代核對程序。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team is sliding into skipping checks; the repeated omissions need a clear reset.",
+            "zh": "團隊正逐漸變成省略核對；反覆漏做需要明確重設程序。"
+          },
+          {
+            "id": "b",
+            "en": "The first omission was approved in advance, so every later omission must also be safe.",
+            "zh": "第一次漏做事先獲批准，所以之後每次漏做都必然安全。"
+          },
+          {
+            "id": "c",
+            "en": "The kitchen has already replaced the missing checks with a new agreed process.",
+            "zh": "廚房已用一套新議定程序取代漏做的檢查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次輪班逐步漏做核對，且沒有替代程序，支持習慣滑向省略檢查；其他選項加入了題目沒有的批准或新程序。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports describing a slide into a bad pattern?",
+        "promptZh": "哪種情況最不足以形容為逐漸滑向不良模式？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Small unapproved purchases recur each week until the agreed limit is exceeded.",
+            "zh": "每周反覆有小額未批購買，最終超過議定上限。"
+          },
+          {
+            "id": "b",
+            "en": "A team skips more routine checks over several shifts without adopting replacements.",
+            "zh": "團隊連續幾次輪班漏做愈來愈多例行核對，亦沒有替代方法。"
+          },
+          {
+            "id": "c",
+            "en": "A committee approves one clearly costed exception in advance and returns to its normal rule the next week.",
+            "zh": "委員會事先批准一次列明成本的例外，下周便恢復原有規則。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "C 是事先知情且只出現一次的例外，沒有逐步形成習慣；A、B 則有重複和累積。"
+      },
+      "dialogue": {
+        "promptEn": "A community concert committee keeps adding small optional costs at each meeting. The overall estimate has risen for four meetings in a row. What is the best warning?",
+        "promptZh": "社區音樂會委員會每次開會都加上一些可有可無的小開支，總預算估算已連續四次上升。哪句提醒最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We are sliding into overspending; let us review the optional items against the agreed ceiling now.",
+            "zh": "我們正逐漸滑向超支；現在就把可選項目與議定上限核對。"
+          },
+          {
+            "id": "b",
+            "en": "Each small addition is harmless because no single meeting raised the estimate very much.",
+            "zh": "每項小加購都沒有問題，因為沒有一次會議令估算大幅上升。"
+          },
+          {
+            "id": "c",
+            "en": "The rising estimate proves the concert has already secured extra funding.",
+            "zh": "估算持續上升，證明音樂會已取得額外資金。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "四次連續加項目帶來累積超支風險；不能因每次增幅小便忽略，也沒有額外資金的證據。"
+      },
+      "speaking": {
+        "en": "After several rushed handovers, the repair team slid into skipping checks, so the supervisor restored a signed handover list.",
+        "zh": "幾次匆忙交接後，維修隊逐漸漏做核對，因此主管恢復了須簽署的交接清單。",
+        "promptZh": "先聽示範，再指出逐步變差的證據及後來採取的修正措施。",
+        "targetSpan": {
+          "start": 48,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：照片檔案小組原本每次公開圖片前都核對使用許可；趕工數星期後，每星期都有更多圖片未經核對便上載。寫一至兩句英文指出逐步形成的問題和一項修正措施，不要把它說成單次失誤。",
+        "selfCheckZh": "兩例都須寫出原本逐張核對許可、數星期以來每周漏核對的圖片增加，以及一項具體修正措施。",
+        "examples": [
+          {
+            "en": "The archive used to check permission for every image, but after several rushed weeks it slid into skipping checks as more unverified pictures went online each week; the team paused uploads for a permissions review.",
+            "zh": "檔案小組原本逐張核對圖片使用許可，但趕工數星期後，每周有更多未經核對的圖片上載，逐漸變成省略核對；團隊暫停上載，先檢查許可。"
+          },
+          {
+            "en": "After weeks of deadlines, the photo team was sliding into skipping checks: despite its old image-by-image permission rule, the number of unverified uploads rose each week, so it added a second reviewer before publication.",
+            "zh": "趕工數星期後，照片小組逐漸漏做核對：雖然原有規則要求逐張核對使用許可，每周未經核對的上載數量仍不斷增加，因此團隊安排第二名審核員在公開前核對。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "check permission for every image",
+            "zh": "逐張核對圖片使用許可",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 52
+            }
+          },
+          {
+            "en": "several rushed weeks",
+            "zh": "趕工數星期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 84
+            }
+          },
+          {
+            "en": "unverified pictures",
+            "zh": "未經核對的圖片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 141
+            }
+          },
+          {
+            "en": "paused uploads",
+            "zh": "暫停上載",
+            "exampleIndex": 0,
+            "span": {
+              "start": 174,
+              "end": 188
+            }
+          },
+          {
+            "en": "image-by-image permission rule",
+            "zh": "逐張核對使用許可的規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 121
+            }
+          },
+          {
+            "en": "a second reviewer before publication",
+            "zh": "公開前的第二名審核員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 184,
+              "end": 220
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Sliding into overspending names a gradual drift shown by repeated small changes, not a single planned exception.",
+          "zh": "slide into 指反覆的小變化逐漸累積，不是事先計劃好的一次例外。"
+        },
+        {
+          "en": "If a team slides into skipping checks, state the pattern and restore the missing control.",
+          "zh": "說明模式如何形成，並指出何時可恢復核對程序或開支上限。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2929",
+      "number": 2929,
+      "inventoryId": "expr-2929",
+      "titleEn": "make the most of it",
+      "titleZh": "充分利用眼前機會",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making)\\s+the\\s+most\\s+of\\s+(?:it|the\\s+(?:time|chance|opportunity|day|evening|visit|weekend))\\b",
+        "glossaryForbidden": [
+          "\\b(?:make|makes|made|making)\\s+the\\s+most\\s+of\\s+(?:it|the\\s+(?:time|chance|opportunity|day|evening|visit|weekend))\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Use or enjoy an available opportunity as fully as practical, especially when it may not last. This is broader than using limited physical space efficiently.",
+        "meaningZh": "在機會仍然存在時，盡量善用或享受它；意思比有效使用狹小空間更廣。",
+        "grammar": "Make/made/making the most of + it/the time/the chance/the opportunity. It must refer to an opportunity or resource already named. Give a useful priority rather than imply doing everything at once.",
+        "register": "Common neutral idiom. A teammate may suggest priorities to volunteers; a mentor may advise a learner during a short appointment.",
+        "boundaryZh": "重點是把可用機會用得有價值，不等於倉促做盡所有事情，也不限定於節省空間。",
+        "misconceptionZh": "it 必須有清楚先行詞；如果機會並未真正可用，不能假設已可利用。",
+        "outcomeZh": "能指出有限機會、選擇有價值的重點，以及不必勉強完成的事項。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0818",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 76,
+          "book": 12,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 76, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We have one free evening, so let's make the most of it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make the most of it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source lesson; independent review pending. Source decision remains hold-editorial; no selection or release approval."
+        ]
+      },
+      "listening": {
+        "promptEn": "How do the volunteers make the most of the sunny afternoon?",
+        "promptZh": "義工如何充分利用這個晴朗下午？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They make the most of the time by planting the ready beds during the short dry window and leaving the muddy path for later.",
+            "zh": "他們趁短暫乾爽時段先種植已備好的花圃，把泥濘小路留待之後，充分利用這段時間。"
+          },
+          {
+            "id": "b",
+            "en": "They begin the muddy path work first, although the materials for it have not arrived.",
+            "zh": "他們先做泥濘小路工程，儘管材料尚未到達。"
+          },
+          {
+            "id": "c",
+            "en": "They spend the dry afternoon reviewing next month's path design instead of planting the ready beds.",
+            "zh": "他們把乾爽的下午用來檢視下個月的小路設計，卻沒有種植已備好的花圃。"
+          },
+          {
+            "id": "d",
+            "en": "They attempt every unfinished project at once despite having only one afternoon.",
+            "zh": "雖然只有一個下午，他們仍同時開始所有未完成的項目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說晴天時段短，而且花圃已備好；先處理可完成的重點，才是充分利用機會。",
+        "en": "Rain is forecast tomorrow, and the volunteer garden has one sunny afternoon. The planting beds are ready, but the path is still too muddy. They will make the most of it by planting the ready beds today.",
+        "zh": "預報明天會下雨，義工花園只有一個晴朗下午。花圃已備好，但小路仍太泥濘。他們今天會先種好花圃，充分利用這個機會。"
+      },
+      "reply": {
+        "promptEn": "The recording studio has unexpectedly offered our group two free hours tonight. We have one scene ready to record and several scripts still unfinished. What should we do with the slot?",
+        "promptZh": "錄音室今晚突然給我們兩小時免費時段。我們有一場戲已準備好錄音，另有幾份劇本尚未完成。這個時段應怎樣用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us make the most of it by recording the ready scene and leaving unfinished scripts for another day.",
+            "zh": "讓我們充分利用這時段，先錄好已準備的戲，未完成的劇本留待另一天。"
+          },
+          {
+            "id": "b",
+            "en": "We could record the ready scene first and use any remaining time to check the sound.",
+            "zh": "我們可以先錄好已準備的戲，如有餘下時間再檢查聲音。"
+          },
+          {
+            "id": "c",
+            "en": "Let us agree the speaking order before the session so the ready scene gets a clean recording.",
+            "zh": "進錄音室前先定好說話次序，讓已準備的戲能順利錄製。"
+          },
+          {
+            "id": "d",
+            "en": "I would book the ready actors now and tell the others their unfinished scripts will wait.",
+            "zh": "我會現在通知已準備好的演員，並告訴其他人未完成的劇本須押後。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都優先利用已可用的免費時段和已準備好的戲；金句以 make the most of it 表達善用短暫機會。"
+      },
+      "scene": {
+        "promptEn": "A learner has one free hour with a language tutor before an exam. Two grammar questions remain unresolved, while familiar vocabulary needs little review. Which plan best uses the hour?",
+        "promptZh": "考試前，一名學生有一小時免費與語言導師見面。他們仍有兩個未解決的文法問題，熟悉的詞彙則毋須花太多時間重溫。哪個計劃最能善用這一小時？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They make the most of the time by asking about the two unresolved questions and practising the answers.",
+            "zh": "他們充分利用時間，問清兩個未解決的問題，並練習相關答案。"
+          },
+          {
+            "id": "b",
+            "en": "They spend the hour reciting only vocabulary they already know well.",
+            "zh": "他們整小時只背已經很熟悉的詞彙。"
+          },
+          {
+            "id": "c",
+            "en": "They reserve the grammar questions for the final five minutes, leaving no time to practise.",
+            "zh": "他們把文法問題留到最後五分鐘才問，結果沒有時間練習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師時間有限，先處理仍未明白的兩題並練習，較能善用機會；另兩項錯過了主要需要。"
+      },
+      "contrast": {
+        "promptEn": "Which action least shows someone making the most of a short opportunity?",
+        "promptZh": "哪項做法最不足以顯示某人善用短暫機會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Preparing two specific questions before a brief expert visit.",
+            "zh": "短暫會見專家前先準備兩個具體問題。"
+          },
+          {
+            "id": "b",
+            "en": "Finishing the ready task during a one-hour room booking and leaving unready work for later.",
+            "zh": "在一小時場地預約內先完成已備好的工作，未備好的押後。"
+          },
+          {
+            "id": "c",
+            "en": "Letting a rare one-hour session pass without using it or arranging a replacement, despite a prepared task.",
+            "zh": "已有備妥的工作，卻讓難得的一小時時段白白過去，亦沒有安排補回。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "C 有備妥的工作卻完全沒有利用難得時段；A、B 都有按限制選擇重點。"
+      },
+      "dialogue": {
+        "promptEn": "The local museum grants a student team one day to examine letters relevant to its exhibition. The team needs dates and names but cannot copy private pages. What should it do?",
+        "promptZh": "本地博物館只給學生小組一天查閱與展覽相關的書信。他們需要日期和姓名，但不得複製私人頁面。小組應怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Make the most of the day by recording permitted dates and names, while leaving private pages untouched.",
+            "zh": "充分利用這一天，記下准許記錄的日期和姓名，並不碰私人頁面。"
+          },
+          {
+            "id": "b",
+            "en": "Copy every page first and seek permission only after the visit ends.",
+            "zh": "先複製每一頁，參觀結束後才申請許可。"
+          },
+          {
+            "id": "c",
+            "en": "Spend the day browsing unrelated boxes and leave the relevant letters unopened.",
+            "zh": "整天翻閱無關箱子，卻不打開相關書信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句善用一天時段，又遵守不可複製私人頁面的限制；另兩項分別違反限制或錯過目標。"
+      },
+      "speaking": {
+        "en": "The trial bus route lasts one month, so we should make the most of the chance by testing the journeys we need and recording any access problems.",
+        "zh": "試行巴士路線只維持一個月，所以我們應充分利用機會，試乘所需路程，並記下任何無障礙問題。",
+        "promptZh": "先聽示範，再指出機會的期限、所選的實際行動和要保留的紀錄。",
+        "targetSpan": {
+          "start": 50,
+          "end": 77
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：鄰里維修小組借到貨車一天，可到兩個已確認的地點收取捐贈零件。貨車有載重上限，另有五個較遠、尚未確認的請求。寫一至兩句英文說明如何善用這一天：先處理兩個確認地點、留意載重，不要聲稱五個遠方請求都做得到。",
+        "selfCheckZh": "兩例都須寫出只借到貨車一天、兩個已確認地點、載重限制，以及不把五個未確認的遠方請求排進同一天。",
+        "examples": [
+          {
+            "en": "We have the borrowed van for one day, so let us make the most of it by collecting parts from the two confirmed sites, checking the load limit and leaving the five distant, unconfirmed requests for later.",
+            "zh": "我們只借到貨車一天，因此要充分利用它，先到兩個已確認的地點收取零件，核對載重上限，把五個遠方而未確認的請求留待之後。"
+          },
+          {
+            "en": "To make the most of the day with the borrowed van, the repair group will visit its two confirmed pickup sites within the load limit; it will not promise the five distant requests that remain unconfirmed.",
+            "zh": "為了善用借來貨車的這一天，維修小組會在載重上限內到兩個已確認的收件地點；至於五個仍未確認的遠方請求，小組不會先作承諾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the borrowed van for one day",
+            "zh": "借到貨車一天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 36
+            }
+          },
+          {
+            "en": "the two confirmed sites",
+            "zh": "兩個已確認的地點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 116
+            }
+          },
+          {
+            "en": "the load limit",
+            "zh": "載重上限",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 141
+            }
+          },
+          {
+            "en": "five distant, unconfirmed requests",
+            "zh": "五個遠方而未確認的請求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 192
+            }
+          },
+          {
+            "en": "two confirmed pickup sites",
+            "zh": "兩個已確認的收件地點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 109
+            }
+          },
+          {
+            "en": "will not promise",
+            "zh": "不會先作承諾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 152
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Make the most of it refers to using an available chance well; it needs a clear it and a sensible priority.",
+          "zh": "make the most of it 是善用眼前機會；it 所指須清楚，行動亦要有合理優先次序。"
+        },
+        {
+          "en": "Making the most of the time does not require doing every task at once or ignoring practical limits.",
+          "zh": "短暫機會不代表要同時做盡所有事情，或無視實際限制。"
+        }
+      ]
+    }
+  ]
+}

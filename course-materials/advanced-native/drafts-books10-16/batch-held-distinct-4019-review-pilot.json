@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-4019-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4019",
+      "number": 4019,
+      "inventoryId": "expr-4019",
+      "titleEn": "a different game altogether",
+      "titleZh": "完全是另一個層次",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\ba different game altogether\\b",
+        "glossaryForbidden": [
+          "\\ba different game altogether\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A situation at a new level has substantially different demands, standards or consequences from a familiar one, even when the activity seems related.",
+        "meaningZh": "事情進入新層次後，要求、標準或後果與熟悉的階段有實質差別，即使表面仍屬同一類活動。",
+        "grammar": "Use “X is a different game altogether” after naming the new situation. Game is figurative; altogether intensifies the contrast. The construction compares levels or conditions, not necessarily two people with opposing goals.",
+        "register": "Conversational to neutral figurative description. A manager may explain a scale change to a colleague, or a mentor may warn a trainee that a professional setting demands more preparation.",
+        "boundaryZh": "重點是新階段的要求實質改變，不只是換了場地、名稱或參與者；也不是兩方目標不同的 playing different games。",
+        "misconceptionZh": "不要因為規模略增或地點轉換便說是完全另一回事；應指出至少一項新的標準或責任。",
+        "outcomeZh": "能在相關活動升級時，指出新增要求，並分清層次轉變與兩方目標不同。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1908",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 180,
+          "book": 15,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 195, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At school she excelled, but elite is a different game altogether.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "elite is a different game altogether"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source figurative draft; independent review pending. Source 4019 remains held; no selection or release approval."
+        ]
+      },
+      "listening": {
+        "promptEn": "Why does the organiser call the larger event a different game altogether?",
+        "promptZh": "籌辦者為甚麼說大型活動完全是另一個層次？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Serving many guests adds allergy controls and a new scale of planning.",
+            "zh": "接待大量來賓，須新增過敏原控制並大幅擴充安排。"
+          },
+          {
+            "id": "b",
+            "en": "She only needs more portions; the same unlabelled buffet will cover the allergy requirements.",
+            "zh": "她只需增加份量；沿用沒有標示的自助餐檯已足以處理過敏原要求。"
+          },
+          {
+            "id": "c",
+            "en": "The important change is an earlier start time; allergy labels can be added after guests eat.",
+            "zh": "重要改變是提早開始；過敏原標示可以待來賓吃完後才加上。"
+          },
+          {
+            "id": "d",
+            "en": "She can label the food but need not plan serving stations or timing for the larger group.",
+            "zh": "她可標示食物，但不用為較多人安排分餐台或供餐時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由六位朋友擴至二百位客人，還要建立過敏原標示和分餐安排；新要求不只是改菜單或意見不同。",
+        "en": "Lena usually cooks for six friends. Catering for 200 guests is a different game altogether: she now needs allergy labels, separate serving stations and a timed food plan.",
+        "zh": "Lena 平時為六位朋友下廚。為二百位來賓供餐完全是另一個層次：她現在要準備過敏原標示、獨立分餐台和按時間安排的供餐計劃。"
+      },
+      "reply": {
+        "promptEn": "Our garden group tends one small plot. The council has asked us to care for twelve public plots with safety checks and a weekly rota. How should I explain the change to the volunteers?",
+        "promptZh": "園藝小組原本照顧一小塊地。區議會現在請我們照顧十二塊公共園圃，還要做安全檢查和每周值班表。我應怎樣向義工解釋轉變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Twelve public plots are a different game altogether; let us plan the safety checks and rota before we agree.",
+            "zh": "十二塊公共園圃完全是另一個層次；我們先規劃安全檢查和輪值表，再決定是否接手。"
+          },
+          {
+            "id": "b",
+            "en": "The safety checks add work we did not have before; I would show everyone the requirements and ask about their time.",
+            "zh": "安全檢查增加了從前沒有的工作；我會向大家展示要求，並問他們能投入多少時間。"
+          },
+          {
+            "id": "c",
+            "en": "A weekly rota across twelve plots needs more reliable cover than one plot; let us test an extra plot first.",
+            "zh": "十二塊地的每周輪值比一塊地更需要穩定人手；我們先試照顧多一塊地。"
+          },
+          {
+            "id": "d",
+            "en": "We cannot promise twelve plots without covering the new safety duties; I would ask the council what support it offers.",
+            "zh": "未能應付新增安全職責前，我們不能承諾照顧十二塊地；我會先問區議會提供甚麼支援。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回應都向義工點出新增的安全或輪值要求，並提出合理下一步；金句以 a different game altogether 點出層次變化。"
+      },
+      "scene": {
+        "promptEn": "Jules designs informal posters for a school club. She has now accepted a paid commission for public emergency signs, whose wording must be accessible and pass safety review. Which description fits?",
+        "promptZh": "Jules 原本替學校社團設計非正式海報，現在接下有酬工作，為公眾設計緊急指示牌；文字須方便不同人士理解，並通過安全審核。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Public emergency signs are a different game altogether because accessibility and safety review add standards her club posters did not face.",
+            "zh": "公眾緊急指示牌完全是另一個層次，因為易讀性和安全審核是社團海報未遇過的標準。"
+          },
+          {
+            "id": "b",
+            "en": "She can improve the colours but keep unreviewed wording; the paid commission changes only the fee.",
+            "zh": "她可以改進顏色，但沿用未經審核的文字；有酬工作只改變報酬。"
+          },
+          {
+            "id": "c",
+            "en": "Safety review matters, but accessibility can wait until after the signs are installed.",
+            "zh": "安全審核固然重要，但易讀性可以待指示牌安裝後才處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "正式的緊急指示牌須符合易讀及安全標準；另兩句各忽略其中一項須在安裝前完成的要求。"
+      },
+      "contrast": {
+        "promptEn": "Which situation least supports calling the new stage a different game altogether?",
+        "promptZh": "哪個情況最不足以說新階段「完全是另一個層次」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A local rehearsal becomes a live broadcast with strict timing and accessibility checks.",
+            "zh": "本地綵排變成現場直播，並須嚴守時間及無障礙安排。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer project gains legal responsibility for confidential records and staff supervision.",
+            "zh": "義工項目新增保管機密紀錄及督導員工的法律責任。"
+          },
+          {
+            "id": "c",
+            "en": "The same four colleagues hold the same meeting in the room next door, with no change to the agenda or duties.",
+            "zh": "原來四位同事搬到隔壁房間開同樣的會，議程與職責都不變。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "只是換房間，標準與責任未變；另兩例有實質新增要求。"
+      },
+      "dialogue": {
+        "promptEn": "Noah plays piano confidently for friends. A conservatory audition now requires sight-reading unfamiliar music and keeping tempo under assessment. He says his familiar songs are enough. What is the best reply?",
+        "promptZh": "Noah 在朋友面前彈鋼琴很有自信。音樂學院試奏卻要即席讀奏陌生樂譜，並在評核下保持節奏。他說熟悉的曲子已足夠。怎樣回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A conservatory audition is a different game altogether; you need to practise sight-reading and steady tempo, not only familiar songs.",
+            "zh": "音樂學院試奏完全是另一個層次；你不只要彈熟悉的曲子，還須練習即席讀奏及穩定節奏。"
+          },
+          {
+            "id": "b",
+            "en": "Keep practising your familiar songs and steady tempo; sight-reading can wait until after the audition.",
+            "zh": "繼續練熟悉的曲子和穩定節奏即可；即席讀奏可以等試奏結束後再練。"
+          },
+          {
+            "id": "c",
+            "en": "Practise sight-reading now, but deal with the assessed tempo only after the audition.",
+            "zh": "現在先練即席讀奏；評核中的節奏問題待試奏後再處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新階段同時評核即席讀奏及節奏；B 和 C 各把其中一項必要準備推遲至試奏後。"
+      },
+      "speaking": {
+        "en": "Turning a five-household delivery round into a citywide service is a different game altogether: we would need routes and a way to handle missed deliveries.",
+        "zh": "把五戶人的送貨路線擴展成全市服務，完全是另一個層次：我們需要規劃路線，也要有處理漏送的辦法。",
+        "promptZh": "先聽示範，再指出擴大服務後新增的兩項實際要求。",
+        "targetSpan": {
+          "start": 67,
+          "end": 94
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學社曾為六位同學做示範，現在受邀在有六百位來賓的公眾開放日示範。新活動須安排人流及受過訓練的安全員。寫一至兩句英文向社員說明規模轉變和兩項新增要求，不要假裝原有小型安排已足夠。",
+        "selfCheckZh": "兩例都須寫出原來只有六位同學、如今六百位來賓，並明確寫出人流安排及受過訓練的安全員。",
+        "examples": [
+          {
+            "en": "Running a science demonstration for six classmates is one thing; the public open day for 600 visitors is a different game altogether, so we need a crowd plan and trained safety stewards.",
+            "zh": "為六位同學做科學示範是一回事；面對六百位來賓的公眾開放日完全是另一個層次，所以我們需要人流安排及受過訓練的安全員。"
+          },
+          {
+            "en": "Our six-classmate science demo needs only a small table, but an open day for 600 visitors is a different game altogether: we must plan crowd flow and assign trained safety stewards.",
+            "zh": "我們為六位同學示範時只需一張小桌子，但六百位來賓的開放日完全是另一個層次：我們必須規劃人流，並指派受過訓練的安全員。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "six classmates",
+            "zh": "六位同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "the public open day",
+            "zh": "公眾開放日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 84
+            }
+          },
+          {
+            "en": "a crowd plan",
+            "zh": "人流安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 157
+            }
+          },
+          {
+            "en": "trained safety stewards",
+            "zh": "受過訓練的安全員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 185
+            }
+          },
+          {
+            "en": "plan crowd flow",
+            "zh": "規劃人流",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 145
+            }
+          },
+          {
+            "en": "assign trained safety stewards",
+            "zh": "指派受過訓練的安全員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 150,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A different game altogether names a substantial change in demands, not merely a new location.",
+          "zh": "a different game altogether 指要求有實質轉變，而不只是換了地點。"
+        },
+        {
+          "en": "A different game altogether calls for naming new responsibilities instead of assuming earlier success is enough.",
+          "zh": "完全不同層次的挑戰，需要說清楚新增責任，不能假設過往成功便已足夠。"
+        }
+      ]
+    }
+  ]
+}

@@ -928,9 +928,9 @@
       "titleEn": "with a tap on the screen",
       "titleZh": "輕點螢幕即可取得",
       "category": "natural",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bwith a tap on (?:the|a) screen\\b",
+        "pattern": "\\b(?:with a tap on (?:the|a) screen|at the tap of a screen)\\b",
         "glossaryForbidden": [
           "\\btap\\b",
           "\\bscreen\\b"
@@ -949,13 +949,41 @@
           "sentence": "A timetable is available at the tap of a screen.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "at the tap of a screen"
+        },
+        {
+          "occurrenceId": "book10-16-0127",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A timetable is available at the tap of a screen.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at the tap of a screen"
+        },
+        {
+          "occurrenceId": "book10-16-1029",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A timetable is available at the tap of a screen.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at the tap of a screen"
         }
       ],
       "brief": {
         "meaningEn": "Obtain information or trigger an action through a simple touch on a device screen.",
         "meaningZh": "透過輕觸裝置螢幕，取得資料或啟動操作。",
-        "grammar": "with a tap on the screen; tap names a light touchscreen touch; say what is already open or available.",
-        "register": "Literal digital-convenience pattern, not a nonliteral idiom. Natural learner form uses tap on the screen; exact source at the tap of a screen remains an alias.",
+        "grammar": "With a tap on the screen is the usual productive instruction; at the tap of a screen is an attested availability phrasing in the source. Both mean that a screen touch reveals already available information or triggers a stated action. Say what page is open or what other step is required.",
+        "register": "Literal digital-convenience wording, not a nonliteral idiom. A teacher explaining an app to learners may use with a tap on the screen; an availability notice may say at the tap of a screen.",
         "boundaryZh": "方便不表示資料必定正確，也不表示每項服務都毋須登入或其他準備。",
         "misconceptionZh": "要按實際介面及前提描述，不能把一項方便功能外推為全部操作都只需一次。",
         "outcomeZh": "能清楚描述簡單操作及它實際提供的資料或行動。"
@@ -1163,8 +1191,8 @@
           "zh": "頁面開啟後，輕點螢幕便可取得詳情。"
         },
         {
-          "en": "I can view the booking with a tap on the screen, then check the date carefully.",
-          "zh": "我輕點螢幕便可看預訂，再細心核對日期。"
+          "en": "The booking is available at the tap of a screen once the page is open; I still check the date carefully.",
+          "zh": "頁面開啟後，輕點螢幕便可看到預訂資料；我仍會仔細核對日期。"
         }
       ],
       "review": {

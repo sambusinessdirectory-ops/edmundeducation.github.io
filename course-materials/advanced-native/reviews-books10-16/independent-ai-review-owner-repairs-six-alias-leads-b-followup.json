@@ -1,0 +1,113 @@
+{
+  "reportType": "independent-ai-focused-followup",
+  "status": "content_clear_for_six_proposed_aliases_unselected_decisions_unchanged",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-owner-repairs-six-alias-leads-review-pilot.json",
+  "authorAuditSha256": "c38a2d88759731fe4b2e3af17bc2478d2a86dfc610f165d3f66d2a2e0b0792f1",
+  "ownerFiles": [
+    {
+      "ownerId": "advanced-native-829",
+      "path": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "sha256": "17c798f9e2f0187363422d38551c30a9b23c07d2f7692af5745bedf671fa514e"
+    },
+    {
+      "ownerId": "advanced-native-4470",
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "sha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c"
+    },
+    {
+      "ownerId": "advanced-native-1916",
+      "path": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "sha256": "c530fbd717bbf49e862d80b2c5caacee6b7f69f8cddaba53c16a25bd171eb5db"
+    },
+    {
+      "ownerId": "advanced-native-110",
+      "path": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "sha256": "10aa11a61157a8a96d2d641f15a83bc110232dc720dc3ed249d5d3db324a1f3c"
+    },
+    {
+      "ownerId": "advanced-native-1965",
+      "path": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "sha256": "96b70fb50e7889b5fffc0d1dc2e1cfceca828aa0863c598ff8483889a5a956db"
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceOrdinal": 2238,
+      "sourceId": "book10-16-0127",
+      "proposedOwnerId": "advanced-native-829",
+      "result": "pass",
+      "fullSourceSentence": "A timetable is available at the tap of a screen.",
+      "evidence": "Exact repeat of 3140. Source describes timetable availability after a screen touch; 829 retains its ordinary with-a-tap productive form and adds the attested availability variant without changing assessed keys.",
+      "decisionRowSha256": "4706a0a61285878e04d910dacb14f1c68eb59185370845c8a8fc3f7934f0ceae"
+    },
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "proposedOwnerId": "advanced-native-4470",
+      "result": "pass",
+      "fullSourceSentence": "Community performances help keep their roots alive.",
+      "evidence": "Cultural-root preservation matches 4470, optional alive is grammatical, and the revised troupe takeaway now supplies an unambiguous human/community antecedent in EN and ZH.",
+      "decisionRowSha256": "d2999d6ef1d2f70bd67df113a707c5dc234e246654a6c84b4b7577e00f137bf4"
+    },
+    {
+      "sourceOrdinal": 2849,
+      "sourceId": "book10-16-0738",
+      "proposedOwnerId": "advanced-native-1916",
+      "result": "pass",
+      "fullSourceSentence": "Investigators were working in the dark until the records arrived.",
+      "evidence": "Investigators continue work without records; 1916 already teaches proceeding without needed information. New work-in-the-dark form is bounded; scene distinguishes damaged-item guidance from known ordinary registration.",
+      "decisionRowSha256": "e4c5e2157d8ad53f0812422fcab3aad26325363ce0f7bee66a35fb3ba1d61d65"
+    },
+    {
+      "sourceOrdinal": 2936,
+      "sourceId": "book10-16-0825",
+      "proposedOwnerId": "advanced-native-110",
+      "result": "pass",
+      "fullSourceSentence": "Trust is the invisible glue in a good team.",
+      "evidence": "Invisible glue is the same cohesion metaphor as 110; reply key answers the busy weekly-check-in prompt and ZH preserves less-visible cohesion.",
+      "decisionRowSha256": "dd657e44eabb34793261d4e5495d3fc91c01a451bf31614f2b03bea7796e0f31"
+    },
+    {
+      "sourceOrdinal": 3140,
+      "sourceId": "book10-16-1029",
+      "proposedOwnerId": "advanced-native-829",
+      "result": "pass",
+      "fullSourceSentence": "A timetable is available at the tap of a screen.",
+      "evidence": "Exact same sentence and meaning as 2238; same bounded 829 detector.",
+      "decisionRowSha256": "d3056a7a55e87ae1106e36abd5493870287014c68d843413d449ae0aa9dc0ec6"
+    },
+    {
+      "sourceOrdinal": 3531,
+      "sourceId": "book10-16-1420",
+      "proposedOwnerId": "advanced-native-1965",
+      "result": "pass",
+      "fullSourceSentence": "Fair rules are the guardrails of social life.",
+      "evidence": "Fair rules as protective guardrails matches 1965 boundary-with-freedom outcome; new noun form is bounded to the source phrase and takeaway EN/ZH preserve conditional benefit.",
+      "decisionRowSha256": "f69e04da215f681674e474ee4642d3b6d3ad88dce39f17cfdd1ab8cd45e3911a"
+    }
+  ],
+  "checks": {
+    "ownerShaVerified": 5,
+    "decisionFileShaVerified": 6,
+    "sourceProvenanceExact": 6,
+    "fullSourceRegexMatches": 6,
+    "authorControlCasesIndependentlyReplayed": 20,
+    "changedAssessedKeysInspected": [
+      "4470 scene",
+      "1916 scene",
+      "110 reply"
+    ],
+    "unchangedAssessedIds": true,
+    "sourceDecisionAndManifestEdits": false
+  },
+  "limits": "All six proposed source-to-owner mappings pass AI content review at these exact file hashes. Source decision rows still hold-editorial; this does not authorize reclassification, audio listening, or release.",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner-repairs-six-alias-leads-b.json",
+  "priorReviewSha256": "265aab242cd3ba27d1120e9fb538d15689bcfaeed68e3eaf62bb0f9eedb12af9",
+  "resolvedFinding": {
+    "id": "R4470-01",
+    "finalOwnerSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+    "finalAudioTextEn": "A community troupe can keep its roots alive when long-time members continue teaching the original songs.",
+    "finalAudioTextZh": "若資深成員持續教授原有歌曲，社區表演團體便能延續自己的文化根源。",
+    "result": "clear: troupe has members and its cultural roots remain explicit; target regex matches. Source provenance and changed scene key remain intact."
+  }
+}

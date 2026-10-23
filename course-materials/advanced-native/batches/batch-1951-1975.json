@@ -2880,12 +2880,12 @@
       "id": "advanced-native-1965",
       "number": 1965,
       "inventoryId": "expr-1965",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "titleEn": "putting up guardrails",
       "titleZh": "設立保護性的界限",
       "category": "figurative",
       "target": {
-        "pattern": "\\bput(?:ting)? up guardrails\\b|\\b(?:act|acts|acting|acted) as guardrails\\b"
+        "pattern": "\\bput(?:ting)? up guardrails\\b|\\b(?:act|acts|acting|acted) as guardrails\\b|\\bthe guardrails of social life\\b"
       },
       "sources": [
         {
@@ -2915,12 +2915,26 @@
           "sentence": "Parents can act as guardrails without controlling every decision.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "act as guardrails"
+        },
+        {
+          "occurrenceId": "book10-16-1420",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 132,
+          "book": 13,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "48–51",
+          "locatorNote": "DOCX table 140, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Fair rules are the guardrails of social life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "guardrails of social life"
         }
       ],
       "brief": {
-        "meaningEn": "Create practical boundaries intended to reduce risk while leaving some room to act.",
-        "meaningZh": "設立實際界限，旨在減低風險，同時保留一些行動空間。",
-        "grammar": "put/putting up guardrails around an activity describes creating safeguards; people, rules or arrangements can also act as guardrails by limiting risk while leaving choices. Name what the boundary does and how people know it; it does not guarantee nothing can go wrong.",
+        "meaningEn": "Create or provide practical boundaries intended to reduce harm while leaving people some room to act.",
+        "meaningZh": "設立或提供實際界限，旨在減少傷害，同時讓人保留一些行動空間。",
+        "grammar": "Put up guardrails around an activity describes creating safeguards; rules or arrangements can act as guardrails. The guardrails of social life is a broader metaphor for fair rules that limit harmful conduct while leaving freedom. Name the specific risk and boundary in practical applications; no rule guarantees zero harm.",
         "register": "A parent explaining boundaries to another adult, or a coordinator discussing safeguards with volunteers, can use this neutral protective-barrier metaphor. The fairness of a particular limit still depends on the people and task.",
         "boundaryZh": "保護界限與全面禁止不同，也不表示任何規則都有用；要交代風險、範圍及實際作用。",
         "misconceptionZh": "不要只因寫了規則，就說人人已理解或所有問題已防止；也不把需要調整當成完全不應有界限。",
@@ -3129,8 +3143,8 @@
           "zh": "小組界定試行時段，並問每位參與者安排帶來甚麼影響，藉此設立保護界限。"
         },
         {
-          "en": "Clear handover notes act as guardrails for volunteers handling borrowed equipment without dictating each choice.",
-          "zh": "清楚的交接紀錄為處理借用器材的義工提供保護界限，同時不規定每一個選擇。"
+          "en": "Fair rules can be the guardrails of social life when they limit harm without dictating every choice.",
+          "zh": "公平的規則若能限制傷害，同時不規定每個選擇，便可成為社會生活的保護界限。"
         }
       ],
       "review": {

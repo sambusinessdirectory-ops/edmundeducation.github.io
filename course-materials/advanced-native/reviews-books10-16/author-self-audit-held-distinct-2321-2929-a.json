@@ -1,0 +1,204 @@
+{
+  "status": "provisional-author-self-audit",
+  "scope": "Strict selection of 15 read-only hold leads from source ordinals 2112–3000",
+  "candidateCount": 15,
+  "draftedCount": 4,
+  "heldUnchangedCount": 11,
+  "candidateDecisions": [
+    {
+      "sourceOrdinal": 2188,
+      "sourceId": "book10-16-0077",
+      "sourceExpression": "draws a line around their time",
+      "sourceSentence": "A freelancer who draws a line around their time can protect evenings for family.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold naturalness: source-specific around-time extension; compare canonical463 draw a line between.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2210,
+      "sourceId": "book10-16-0099",
+      "sourceExpression": "lean into",
+      "sourceSentence": "The festival decided to lean into its local character.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold owner comparison: broad lean into variant may belong to canonical1687 rather than a second same-sense lesson.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2262,
+      "sourceId": "book10-16-0151",
+      "sourceExpression": "come back to themselves",
+      "sourceSentence": "After the break, the performers began to come back to themselves.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold naturalness: come back to themselves is not established here as a fixed expression; seven transfer decisions would be weak.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2302,
+      "sourceId": "book10-16-0191",
+      "sourceExpression": "cut away",
+      "sourceSentence": "The editor chose to cut away the long introduction.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold naturalness: cut away a long introduction is questionable beside established physical cut-away sense.",
+      "primaryEvidenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/cut-away"
+    },
+    {
+      "sourceOrdinal": 2321,
+      "sourceId": "book10-16-0210",
+      "sourceExpression": "distilling it",
+      "sourceSentence": "The short essay succeeded by distilling it into one clear idea.",
+      "status": "unselected-draft",
+      "reason": "Draft: figurative distil information into a concise result, explicit input and result.",
+      "primaryEvidenceUrl": "https://dictionary.cambridge.org/dictionary/english/distil"
+    },
+    {
+      "sourceOrdinal": 2356,
+      "sourceId": "book10-16-0245",
+      "sourceExpression": "speak different emotional languages",
+      "sourceSentence": "The story can speak different emotional languages to children and parents.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold one-off: creative emotional languages image, no bounded fixed target.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2506,
+      "sourceId": "book10-16-0395",
+      "sourceExpression": "a browser with too many tabs open",
+      "sourceSentence": "On busy days, my brain feels like a browser with too many tabs open.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold one-off: browser tabs simile is intelligible but not a stable unit with seven decisions.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2574,
+      "sourceId": "book10-16-0463",
+      "sourceExpression": "run the child's day",
+      "sourceSentence": "Parents should not let a device run the child's day.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold compositional: run the child's day is broad control language, not a distinct idiom.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2646,
+      "sourceId": "book10-16-0535",
+      "sourceExpression": "cultural memory",
+      "sourceSentence": "Old songs remain part of the city's cultural memory.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold owner comparison: cultural memory appears inside canonical406; standalone decision unclear.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2676,
+      "sourceId": "book10-16-0565",
+      "sourceExpression": "stitch it back together",
+      "sourceSentence": "The community worked to stitch it back together.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold owner comparison: community restoration repeats canonical1357 social-fabric repair decision.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2816,
+      "sourceId": "book10-16-0705",
+      "sourceExpression": "the truth catches up",
+      "sourceSentence": "A rumour can spread before the truth catches up.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold source-specific: personified truth catches up is not canonical1521 same sense despite detector hit.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2904,
+      "sourceId": "book10-16-0793",
+      "sourceExpression": "scars, both seen and unseen",
+      "sourceSentence": "Harsh words can leave scars, both seen and unseen.",
+      "status": "unselected-draft",
+      "reason": "Draft: figurative leave scars can describe continuing emotional harm without literal injury or permanence claim.",
+      "primaryEvidenceUrl": "https://dictionary.cambridge.org/dictionary/english/scar"
+    },
+    {
+      "sourceOrdinal": 2914,
+      "sourceId": "book10-16-0803",
+      "sourceExpression": "slide into overbuying",
+      "sourceSentence": "Gift shopping can slide into overbuying without a budget.",
+      "status": "unselected-draft",
+      "reason": "Draft: slide into unwanted pattern is gradual drift, distinct from one planned exception.",
+      "primaryEvidenceUrl": "https://dictionary.cambridge.org/dictionary/english/slide"
+    },
+    {
+      "sourceOrdinal": 2925,
+      "sourceId": "book10-16-0814",
+      "sourceExpression": "mark a moment",
+      "sourceSentence": "A small dinner can mark a moment beautifully.",
+      "status": "hold-editorial-unchanged",
+      "reason": "Hold thin collocation: mark a moment lacks seven distinct reusable decisions.",
+      "primaryEvidenceUrl": null
+    },
+    {
+      "sourceOrdinal": 2929,
+      "sourceId": "book10-16-0818",
+      "sourceExpression": "make the most of it",
+      "sourceSentence": "We have one free evening, so let's make the most of it.",
+      "status": "unselected-draft",
+      "reason": "Draft: general opportunity sense is wider than canonical1616 limited-space use.",
+      "primaryEvidenceUrl": "https://dictionary.cambridge.org/dictionary/english/make-the-most-of"
+    }
+  ],
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2321-2929-a.json",
+  "draftSha256": "a42216df4b38fde5dfb69f9bc6c5cd4b8be64ed469bd668587cab1c2e0e731c1",
+  "draftOrdinals": [
+    2321,
+    2904,
+    2914,
+    2929
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "4 lessons / 24 questions / 16 audio requests / 0 review flags; --check passed after 2904 revision-2 reply naturalness repair",
+    "sourceTargetSpeakingKeyGlossary": [
+      {
+        "ordinal": 2321,
+        "sourceId": "book10-16-0210",
+        "sourceSentenceMatchesTarget": true,
+        "speakingSpanMatchesTarget": true,
+        "fourTargetBearingKeys": true,
+        "glossaryRowsExact": 6
+      },
+      {
+        "ordinal": 2904,
+        "sourceId": "book10-16-0793",
+        "sourceSentenceMatchesTarget": true,
+        "speakingSpanMatchesTarget": true,
+        "fourTargetBearingKeys": true,
+        "glossaryRowsExact": 6
+      },
+      {
+        "ordinal": 2914,
+        "sourceId": "book10-16-0803",
+        "sourceSentenceMatchesTarget": true,
+        "speakingSpanMatchesTarget": true,
+        "fourTargetBearingKeys": true,
+        "glossaryRowsExact": 6
+      },
+      {
+        "ordinal": 2929,
+        "sourceId": "book10-16-0818",
+        "sourceSentenceMatchesTarget": true,
+        "speakingSpanMatchesTarget": true,
+        "fourTargetBearingKeys": true,
+        "glossaryRowsExact": 6
+      }
+    ],
+    "keyCount": 16,
+    "glossaryCount": 24,
+    "replyFourValid": "author reviewed all four options per lesson; independent review pending",
+    "sourceOriginality": {
+      "sourceExamples": 2604,
+      "learnerEnglishStrings": 136,
+      "sixTokenMatches": 0
+    },
+    "bilingualContent": "author reviewed; independent review pending"
+  },
+  "editorialDecisionEdited": false,
+  "selectedManifestEdited": false,
+  "audioSynthesized": false,
+  "humanApproval": false,
+  "independentReview": "initial B review found only R2904-01; reply option A repaired in English and Chinese; scoped exact-hash follow-up pending",
+  "release": false
+}

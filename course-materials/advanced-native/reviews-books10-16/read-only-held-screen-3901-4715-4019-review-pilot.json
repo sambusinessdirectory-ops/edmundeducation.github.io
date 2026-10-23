@@ -1,0 +1,120 @@
+{
+  "status": "read-only held-source triage, not release or human approval",
+  "range": [
+    3901,
+    4715
+  ],
+  "heldRowsScreened": 253,
+  "newProvisionalLessonsAuthored": [
+    4019
+  ],
+  "otherNewLessonsAuthored": 0,
+  "decisionAndManifestEdits": 0,
+  "scopeNote": "No fixed numeric lesson quota applied. Most source rows in this range remain transparent, one-off, awkward, or overlap prior owners; the listed borderline cases show why they were not promoted.",
+  "evidenceRows": [
+    {
+      "sourceOrdinal": 3928,
+      "sourceId": "book10-16-1817",
+      "expression": "social fabric",
+      "sourceSentence": "Volunteers strengthen the social fabric.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "decisionFileSha256": "a5036066eca332600fa403f8d79d6695ed1de84f5ae8b67823cf8bf37dc5f218",
+      "priorOwnerIds": "1357,1717",
+      "assessment": "Keep held for owner-scope comparison: noun social fabric shares relationship-network meaning with selected 1357/1717; new noun lesson may repeat their learner decision."
+    },
+    {
+      "sourceOrdinal": 4019,
+      "sourceId": "book10-16-1908",
+      "expression": "elite is a different game altogether",
+      "sourceSentence": "At school she excelled, but elite is a different game altogether.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "decisionFileSha256": "0256c49f5c30c937fc2ee6359bcb3e050a5a91f0f87c397b917d32d4614ce48e",
+      "priorOwnerIds": "2289",
+      "assessment": "One provisional figurative lesson drafted and independently AI content-cleared; level/standards contrast differs from 2289 two-party goals. Remains held/unselected pending parent disposition."
+    },
+    {
+      "sourceOrdinal": 4059,
+      "sourceId": "book10-16-1948",
+      "expression": "before their time",
+      "sourceSentence": "Those chairs were discarded before their time.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "decisionFileSha256": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8",
+      "priorOwnerIds": "none established",
+      "assessment": "Keep held: discarded chairs before their time personifies premature death/end; naturalness and reusable target boundary are uncertain."
+    },
+    {
+      "sourceOrdinal": 4076,
+      "sourceId": "book10-16-1965",
+      "expression": "bread and butter of daily life",
+      "sourceSentence": "Groceries are the bread and butter of daily life.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "decisionFileSha256": "ed5c5edb518985bd80198f9cc8c49ae335c42d2934febd2d2be2997a73ccc8f8",
+      "priorOwnerIds": "none established",
+      "assessment": "Keep held: groceries create a food-literal and figurative bread-and-butter collision; source sense of everyday basics differs from common livelihood use."
+    },
+    {
+      "sourceOrdinal": 4094,
+      "sourceId": "book10-16-1983",
+      "expression": "stumbling around in the dark",
+      "sourceSentence": "At first, I felt like I was stumbling around in the dark.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionFileSha256": "3b32e40c78afeaa89af8d7cd9ce5a71981b2d106170780703cf6a400b8770280",
+      "priorOwnerIds": "1916",
+      "assessment": "Keep held for owner comparison: stumbling in the dark is close in decision to 1916 grope in the dark, though target lexemes differ."
+    },
+    {
+      "sourceOrdinal": 4154,
+      "sourceId": "book10-16-2043",
+      "expression": "switch off",
+      "sourceSentence": "During a dull lecture, the mind can switch off.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionFileSha256": "83561b046f47bfc00b5279dd4079a3b1a849374a17a977b2f33e7d7088fc3168",
+      "priorOwnerIds": "1487",
+      "assessment": "Keep held for owner comparison: attention mentally switching off overlaps prior disengagement teaching; do not draft a duplicate."
+    },
+    {
+      "sourceOrdinal": 4468,
+      "sourceId": "book10-16-2357",
+      "expression": "pass it on",
+      "sourceSentence": "Grandparents can pass it on to their children.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "7a5851b94258ca880ed2e6f779154bf4ecec6c6cf06edcb26fab3688f2627cb2",
+      "priorOwnerIds": "1326",
+      "assessment": "Keep held for antecedent/owner comparison: pass it on is conventional but it is ambiguous whether it transfers a product or tradition; canonical 1326 already teaches intergenerational transfer."
+    },
+    {
+      "sourceOrdinal": 4473,
+      "sourceId": "book10-16-2362",
+      "expression": "pushed aside by cheap mass-produced goods",
+      "sourceSentence": "Local crafts can be pushed aside by cheap mass-produced goods.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "7a5851b94258ca880ed2e6f779154bf4ecec6c6cf06edcb26fab3688f2627cb2",
+      "priorOwnerIds": "287",
+      "assessment": "Keep held for owner comparison: crafts pushed aside by cheap goods suggests displacement overlapping marginalisation in 287; full phrasal pattern differs."
+    },
+    {
+      "sourceOrdinal": 4621,
+      "sourceId": "book10-16-2510",
+      "expression": "comfort bubble",
+      "sourceSentence": "He stayed inside his comfort bubble throughout the tour.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "84168c89de5a5209da26e23a4f6f0227980a847722dbb3981481d6da57aaffa4",
+      "priorOwnerIds": "551,2856",
+      "assessment": "Keep held: comfort bubble overlaps comfort-zone/bubble owners without an independently defensible learner outcome."
+    },
+    {
+      "sourceOrdinal": 4693,
+      "sourceId": "book10-16-2582",
+      "expression": "live on reputation forever",
+      "sourceSentence": "A city cannot live on reputation forever.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+      "decisionFileSha256": "b6be97752a7c3804cb02def18dcdab13b09facfbe8064550032a9b394792f73f",
+      "priorOwnerIds": "2009",
+      "assessment": "Keep held for alias comparison: city living on reputation is same-sense as selected 2009; bounded detector/owner review required."
+    }
+  ],
+  "languageEvidence": {
+    "CambridgeBallgameFamily": "https://dictionary.cambridge.org/dictionary/learner-english/a-whole-new-ball-game",
+    "limitation": "Cambridge attests the ball-game family, not the exact source variant without ball. Source 4019 is treated as figurative use rather than a fixed idiom."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "reportType": "independent-ai-exact-hash-scoped-followup",
+  "status": "pass-content-and-local-browser-qa",
+  "lessonId": "advanced-native-4019",
+  "contentRevision": 2,
+  "draftPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-held-distinct-4019-review-pilot.json",
+  "draftSha256": "c9ebf3f07a6a7469fc3d484ea3ed2b7e74bf7086c8023e079737f23cf8b81ec4",
+  "selectedManifestPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "1e912f9caec9e7144fc3598b4301a926e707cb18978c93e9a9c8b1be90a71fa5",
+  "changedField": "writing.glossary row 1",
+  "glossary": {
+    "en": "the public open day",
+    "zh": "公眾開放日",
+    "exampleIndex": 0,
+    "span": {
+      "start": 65,
+      "end": 84
+    },
+    "answerSubstringExact": true,
+    "traditionalChineseMeaningAligned": true,
+    "targetExcluded": true,
+    "context": "The writing model contrasts a six-classmate demonstration with a public open day for 600 visitors; 公眾開放日 accurately translates the shorter glossary phrase."
+  },
+  "browserEvidence": {
+    "summaryPath": "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/browser-qa-603-summary.json",
+    "summarySha256": "d79162bc1db0b6a709a6b9b9ef3797321900424a435fcac374bef042d2e4381a",
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "stepsPerEngine": 7,
+    "widths": [
+      1280,
+      1024,
+      768,
+      600,
+      390,
+      320
+    ],
+    "scopedWrapFlags": 0,
+    "pageErrors": 0,
+    "horizontalOverflow": 0,
+    "resultSha256": {
+      "chromium": "791531bfb407972a894c5f1b6922295997caf7a59782eb3c3185e78a4ec28e2f",
+      "webkit": "b7cb58b10c1be7551628cd0b4cc5f1408a223f9dd70eef2a50e7f4954241f7f6"
+    }
+  },
+  "priorIssue": "The longer glossary phrase wrapped to a short final line at 600px and 320px in both engines; it remains recorded in the initial QA summary. The shortened exact answer span resolved it.",
+  "limits": "AI review of the changed glossary and synthetic local browser rendering only. No physical-device, audio-listening, hosted-media or release approval. No draft, decision, manifest or SOP audit edits made for this review."
+}

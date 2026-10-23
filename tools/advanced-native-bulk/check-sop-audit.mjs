@@ -37,8 +37,10 @@ expect(audit.includes('**Release verdict: NOT APPROVED.**'), 'Audit must retain 
 expect(report.published === false && report.releaseApproved === false, 'Draft verifier unexpectedly reports publication or approval');
 expect(holdCoverage.errorCount === 0 && holdCoverage.unauditedCurrentHolds === 0, 'Current editorial holds lack independent audit coverage');
 expect(holdCoverage.currentHolds === report.provisionalEditorialTriage['hold-editorial'], 'Hold audit and decision counts disagree');
-expect(holdTriage.errorCount === 0 && holdTriage.currentHolds === holdTriage.triageRows && holdTriage.currentHolds === holdCoverage.currentHolds,
-  'Read-only hold triage does not cover each current hold exactly once');
+expect(holdTriage.errorCount === 0 && holdTriage.untriagedCurrentHolds === 0 &&
+  holdTriage.currentHolds + holdTriage.closedSinceTriage === holdTriage.triageRows &&
+  holdTriage.currentHolds === holdCoverage.currentHolds,
+  'Read-only baseline triage does not cover each current hold exactly once');
 expect(/^\d{4}-\d{2}-\d{2}$/.test(intake.retrievedForIntakeDate ?? ''), 'Intake retrieval date is missing');
 expect(Boolean(intake.sourceReuseRestrictions?.known && intake.sourceReuseRestrictions?.unknown && intake.sourceReuseRestrictions?.handling),
   'Source reuse scope/uncertainty/handling record is missing');

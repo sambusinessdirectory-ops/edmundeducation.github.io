@@ -1,0 +1,45 @@
+{
+  "status": "independent-ai-content-clear-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-4019-review-pilot.json",
+  "draftSha256": "aeaec19e435e392de40c7cf0a9e5ecb9e21e49abf8e2ddacf7dc472d8c8ee5c3",
+  "authorAuditSha256": "e0ca37facd5b3e7a5fd3a41714391d45a934854a79ac76d3ede666e7536de6b8",
+  "reviewedLesson": "advanced-native-4019",
+  "sourceOccurrenceId": "book10-16-1908",
+  "contentRevision": 2,
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-4019-a.json",
+  "priorReportSha256": "5994088780c1ed65b481fcf63d9e57310d410e75fb797d2a60df00191438c952",
+  "resolvedFindings": [
+    {
+      "id": "R4019-01",
+      "result": "resolved",
+      "evidence": "All four replies now explain a concrete new demand to the volunteers before proposing any next step: the golden reply names safety checks and rota, while B/C/D name safety workload, reliable rota cover, or new safety duties. English and Traditional Chinese are aligned."
+    },
+    {
+      "id": "R4019-02",
+      "result": "resolved",
+      "evidence": "The scene now contrasts informal club posters with public emergency signs requiring accessibility and safety review; the dialogue contrasts confident playing for friends with a conservatory audition assessing sight-reading and steady tempo. Both assess a higher professional/performance standard without relying on numerical scale-up, while other steps retain operational-transfer contexts."
+    },
+    {
+      "id": "R4019-03",
+      "result": "resolved",
+      "evidence": "The incorrect listening, scene, and dialogue options now each mishandle a named requirement or its timing. No foil uses the earlier unsupported loaf metric. The changed English options and Chinese translations agree on the reason each foil is wrong."
+    }
+  ],
+  "ownerJudgment": {
+    "comparedOwner": "advanced-native-2289",
+    "result": "defensibly distinct",
+    "reason": "4019 compares successive levels of one undertaking and their changed standards; 2289 compares simultaneous parties pursuing different aims or metrics. The source example's elite-performance sense is now assessed in the dialogue."
+  },
+  "focusedChecks": {
+    "build": "1 lesson / 6 questions / 4 audio requests / 0 review flags",
+    "generatedOutputCheck": "passed",
+    "sourceSentenceTargetMatch": "passed",
+    "speakingTargetSpan": "exact",
+    "glossaryRows": 6,
+    "glossaryAnswerSpans": "exact",
+    "glossaryExcludesTarget": true,
+    "requiredChineseFields": "present and semantically aligned in changed fields"
+  },
+  "remainingContentFindings": [],
+  "selectionRecommendation": "AI content-clear for provisional unpublished selection; source 4019 remains hold-editorial and this review does not change its decision or manifest. Human English/Chinese/media/release approval remains pending."
+}

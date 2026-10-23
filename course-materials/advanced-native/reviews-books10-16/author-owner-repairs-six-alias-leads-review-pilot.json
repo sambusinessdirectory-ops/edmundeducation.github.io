@@ -1,0 +1,369 @@
+{
+  "status": "provisional owner repair author audit; independent AI, human, media and release review pending",
+  "reviewedReadOnlyVerdict": "reviews-books10-16/read-only-owner-verdict-14-alias-leads-review-pilot.json",
+  "reviewedReadOnlyVerdictSha256": "ca02f5d139a01e28cdf4d8e292ccfd5bb010576e09529361bdc79422d1739d2a",
+  "repairedOwnerCount": 5,
+  "coveredHeldSourceCount": 6,
+  "sourceRows": [
+    {
+      "sourceOrdinal": 2238,
+      "sourceId": "book10-16-0127",
+      "sourceSentence": "A timetable is available at the tap of a screen.",
+      "sourceMeaning": "With a simple touch on a device; a fixed modern convenience phrase.",
+      "proposedOwnerId": "advanced-native-829",
+      "sameSenseRationale": "Digital timetable availability after a screen touch; the same outcome as owner829. Source phrasing is an attested availability variant, while productive learner examples retain the more usual with-a-tap form.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionFileSha256": "67f49856f3692ea58d5ff1d7702386cc1facc566083bdd787bf130e3ea5d04f6",
+      "decisionRowSha256": "4706a0a61285878e04d910dacb14f1c68eb59185370845c8a8fc3f7934f0ceae",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2757,
+      "sourceId": "book10-16-0646",
+      "sourceSentence": "Community performances help keep their roots alive.",
+      "sourceMeaning": "Maintain a connection with cultural origins; a plant metaphor.",
+      "proposedOwnerId": "advanced-native-4470",
+      "sameSenseRationale": "Performances preserve a genuine connection to cultural origins, the existing keep-roots decision. Alive adds continuation, not a new sense.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionFileSha256": "688ea69a3a40f8cc36be9924c9d1d69f3b1d6a3cac99a9b36f6ddaec70c761f0",
+      "decisionRowSha256": "d2999d6ef1d2f70bd67df113a707c5dc234e246654a6c84b4b7577e00f137bf4",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2849,
+      "sourceId": "book10-16-0738",
+      "sourceSentence": "Investigators were working in the dark until the records arrived.",
+      "sourceMeaning": "Operating without information or guidance; a fixed light metaphor.",
+      "proposedOwnerId": "advanced-native-1916",
+      "sameSenseRationale": "Investigators continue work without crucial records, the existing information-gap decision in1916. Work in the dark adds an agentive verb, not a new outcome.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "37f632816c90e9def86360485ab0b06074cc52b6888c60f54e281d57d0b0ed80",
+      "decisionRowSha256": "e4c5e2157d8ad53f0812422fcab3aad26325363ce0f7bee66a35fb3ba1d61d65",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2936,
+      "sourceId": "book10-16-0825",
+      "sourceSentence": "Trust is the invisible glue in a good team.",
+      "sourceMeaning": "A less visible quality that holds people together; a glue metaphor.",
+      "proposedOwnerId": "advanced-native-110",
+      "sameSenseRationale": "Trust functions as a less visible cohesive factor, precisely owner110 glue metaphor.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "504b3588067ddb8670ba205fb491ddbfa439d97d978d0bed1033d5a2ea441187",
+      "decisionRowSha256": "dd657e44eabb34793261d4e5495d3fc91c01a451bf31614f2b03bea7796e0f31",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 3140,
+      "sourceId": "book10-16-1029",
+      "sourceSentence": "A timetable is available at the tap of a screen.",
+      "sourceMeaning": "With a simple touch on a device; a fixed modern convenience phrase.",
+      "proposedOwnerId": "advanced-native-829",
+      "sameSenseRationale": "Exact repeated source sentence of2238; same owner and bounded variant.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "777734b9d5fb33d9f6cb5968342dc11df00040a05f4f4baa3ed9ca5cbcf36038",
+      "decisionRowSha256": "d3056a7a55e87ae1106e36abd5493870287014c68d843413d449ae0aa9dc0ec6",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 3531,
+      "sourceId": "book10-16-1420",
+      "sourceSentence": "Fair rules are the guardrails of social life.",
+      "sourceMeaning": "Rules that prevent harmful conduct while allowing freedom; a road metaphor.",
+      "proposedOwnerId": "advanced-native-1965",
+      "sameSenseRationale": "Fair rules protect social conduct while leaving freedom, the existing guardrails-as-boundaries decision in1965.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionFileSha256": "7c3792a10df0df67f4c361ea3a3a3b724fb5553a3444407fba1effa30dfd8d6a",
+      "decisionRowSha256": "f69e04da215f681674e474ee4642d3b6d3ad88dce39f17cfdd1ab8cd45e3911a",
+      "decisionActionStill": "hold-editorial",
+      "provenanceExact": true,
+      "ownerPatternMatchesFullSource": true
+    }
+  ],
+  "ownerFiles": [
+    {
+      "ownerId": "advanced-native-829",
+      "file": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "beforeFileSha256": "d3838157a5e68e932704fa382e9f1a1f4f213fd864319f29fccc8aaf3d144101",
+      "afterFileSha256": "17c798f9e2f0187363422d38551c30a9b23c07d2f7692af5745bedf671fa514e",
+      "contentRevision": 2,
+      "targetPattern": "\\b(?:with a tap on (?:the|a) screen|at the tap of a screen)\\b",
+      "changedAssessedFields": [],
+      "changedAudioText": [
+        "takeaways[1].en/zh"
+      ],
+      "focusedBuilderAndCheck": "passed; zero review flags"
+    },
+    {
+      "ownerId": "advanced-native-4470",
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "beforeFileSha256": "71dad5ef635d81c22d6e67b1453dbc885da1016f1bcecf8b9f152dd9451b95e2",
+      "afterFileSha256": "b4749ba641ad0a3d0da68568690e29675daf703146200d85a93900ee8059036c",
+      "contentRevision": 4,
+      "targetPattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+      "changedAssessedFields": [
+        "scene.options[answerId].en/zh"
+      ],
+      "changedAudioText": [
+        "takeaways[1].en/zh"
+      ],
+      "peerFindingRepair": "Revision 4 changes the learner-facing takeaway subject to a community troupe, so its members and cultural roots have an explicit antecedent in both languages; source provenance and detector are unchanged.",
+      "focusedBuilderAndCheck": "passed; zero review flags"
+    },
+    {
+      "ownerId": "advanced-native-1916",
+      "file": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "beforeFileSha256": "4d57125ed5e6ff23880122ca1108ce3f878998abfc89fae349510806f1092535",
+      "afterFileSha256": "c530fbd717bbf49e862d80b2c5caacee6b7f69f8cddaba53c16a25bd171eb5db",
+      "contentRevision": 3,
+      "targetPattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b",
+      "changedAssessedFields": [
+        "scene.options[answerId].en/zh"
+      ],
+      "changedAudioText": [
+        "takeaways[1].en/zh"
+      ],
+      "focusedBuilderAndCheck": "passed; zero review flags"
+    },
+    {
+      "ownerId": "advanced-native-110",
+      "file": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "beforeFileSha256": "71b4715311a7987f59d3d830a4cb93ddd452b2f3ef09d6475462756b1d828411",
+      "afterFileSha256": "10aa11a61157a8a96d2d641f15a83bc110232dc720dc3ed249d5d3db324a1f3c",
+      "contentRevision": 3,
+      "targetPattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)|\\bthe invisible glue\\b",
+      "changedAssessedFields": [
+        "reply.options[goldenId].en/zh"
+      ],
+      "changedAudioText": [
+        "takeaways[1].en/zh"
+      ],
+      "focusedBuilderAndCheck": "passed; zero review flags"
+    },
+    {
+      "ownerId": "advanced-native-1965",
+      "file": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "beforeFileSha256": "83e9beedb80e025dcb48b63cd4a35687e638c1b1cc6327f49a949a003dab2f75",
+      "afterFileSha256": "96b70fb50e7889b5fffc0d1dc2e1cfceca828aa0863c598ff8483889a5a956db",
+      "contentRevision": 3,
+      "targetPattern": "\\bput(?:ting)? up guardrails\\b|\\b(?:act|acts|acting|acted) as guardrails\\b|\\bthe guardrails of social life\\b",
+      "changedAssessedFields": [],
+      "changedAudioText": [
+        "takeaways[1].en/zh"
+      ],
+      "focusedBuilderAndCheck": "passed; zero review flags"
+    }
+  ],
+  "liveJavaScriptRegexControls": [
+    {
+      "ownerId": 829,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "sourceOrdinals": [
+        2238,
+        3140
+      ],
+      "pattern": "\\b(?:with a tap on (?:the|a) screen|at the tap of a screen)\\b",
+      "positive": [
+        {
+          "text": "A timetable is available at the tap of a screen.",
+          "match": true
+        },
+        {
+          "text": "I can view the details with a tap on the screen.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The app is accessible without a screen.",
+          "match": false
+        },
+        {
+          "text": "He turned on the kitchen tap.",
+          "match": false
+        }
+      ],
+      "sourceProvenance": [
+        {
+          "occurrenceId": "book10-16-0127",
+          "sentence": "A timetable is available at the tap of a screen."
+        },
+        {
+          "occurrenceId": "book10-16-1029",
+          "sentence": "A timetable is available at the tap of a screen."
+        }
+      ]
+    },
+    {
+      "ownerId": 4470,
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "sourceOrdinals": [
+        2757
+      ],
+      "pattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots(?: alive)?\\b",
+      "positive": [
+        {
+          "text": "Community performances help keep their roots alive.",
+          "match": true
+        },
+        {
+          "text": "The theatre keeps its roots.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The roots died after the tree fell.",
+          "match": false
+        },
+        {
+          "text": "They kept changing the old name.",
+          "match": false
+        }
+      ],
+      "sourceProvenance": [
+        {
+          "occurrenceId": "book10-16-0646",
+          "sentence": "Community performances help keep their roots alive."
+        }
+      ]
+    },
+    {
+      "ownerId": 1916,
+      "ownerFile": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "sourceOrdinals": [
+        2849
+      ],
+      "pattern": "\\bgrop(?:e|es|ed|ing) in the dark\\b|\\bguess(?:es|ed|ing)? in the dark\\b|\\b(?:work|works|worked|working) in the dark\\b",
+      "positive": [
+        {
+          "text": "Investigators were working in the dark until the records arrived.",
+          "match": true
+        },
+        {
+          "text": "Without examples, learners can grope in the dark.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The investigators worked with full records.",
+          "match": false
+        },
+        {
+          "text": "She worked through the issue in daylight.",
+          "match": false
+        }
+      ],
+      "sourceProvenance": [
+        {
+          "occurrenceId": "book10-16-0738",
+          "sentence": "Investigators were working in the dark until the records arrived."
+        }
+      ]
+    },
+    {
+      "ownerId": 110,
+      "ownerFile": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "sourceOrdinals": [
+        2936
+      ],
+      "pattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)|\\bthe invisible glue\\b",
+      "positive": [
+        {
+          "text": "Trust is the invisible glue in a good team.",
+          "match": true
+        },
+        {
+          "text": "Trust is the glue that holds the team together.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "They bought glue for a model.",
+          "match": false
+        },
+        {
+          "text": "Team members shared duties.",
+          "match": false
+        }
+      ],
+      "sourceProvenance": [
+        {
+          "occurrenceId": "book10-16-0825",
+          "sentence": "Trust is the invisible glue in a good team."
+        }
+      ]
+    },
+    {
+      "ownerId": 1965,
+      "ownerFile": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "sourceOrdinals": [
+        3531
+      ],
+      "pattern": "\\bput(?:ting)? up guardrails\\b|\\b(?:act|acts|acting|acted) as guardrails\\b|\\bthe guardrails of social life\\b",
+      "positive": [
+        {
+          "text": "Fair rules are the guardrails of social life.",
+          "match": true
+        },
+        {
+          "text": "Parents can act as guardrails without controlling every decision.",
+          "match": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "They leaned against the roadside guardrails.",
+          "match": false
+        },
+        {
+          "text": "The group banned every choice.",
+          "match": false
+        }
+      ],
+      "sourceProvenance": [
+        {
+          "occurrenceId": "book10-16-1420",
+          "sentence": "Fair rules are the guardrails of social life."
+        }
+      ]
+    }
+  ],
+  "liveControlSummary": {
+    "positive": 10,
+    "negative": 10,
+    "failures": 0,
+    "limitation": "Regex identifies surface forms; figurative roots, darkness and glue still require semantic context to distinguish literal usage."
+  },
+  "focusedBuildCheck": {
+    "files": 5,
+    "lessons": 84,
+    "questions": 504,
+    "audioRequests": 336,
+    "flags": 0
+  },
+  "mediaDelta": {
+    "changedTakeaway2AudioTexts": 5,
+    "audioGenerated": false,
+    "listeningReview": "pending"
+  },
+  "unchanged": {
+    "decisionRows": true,
+    "selectedManifest": true,
+    "lessonAndQuestionIds": true
+  },
+  "remainingEightAliasLeads": "Read-only verdict keeps them held because source naturalness, owner scope or sense is unresolved.",
+  "nextGate": "Independent exact-hash peer review of six source/owner decisions and changed EN/ZH/key/audio text, then decide whether to update source decisions. No release approval."
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-distinct-3644-b",
+  "lessons": [
+    {
+      "id": "advanced-native-3644",
+      "number": 3644,
+      "inventoryId": "book10-16-1533",
+      "titleEn": "a secure base",
+      "titleZh": "安全基地",
+      "category": "natural",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:a|the) secure base\\b",
+        "glossaryForbidden": [
+          "\\bsecure base\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A dependable caregiver or trusted adult whose availability helps a child explore and try things independently, knowing they can return for support when needed.",
+        "meaningZh": "一位可靠且可求助的照顧者或師長，讓孩子安心探索、自己嘗試，並在需要時回來尋求支援；這種關係稱為「安全基地」。",
+        "grammar": "a secure base for a child; use as a count noun for a dependable person or relationship. It is a developmental and educational term, not a literal building base.",
+        "register": "Neutral educational and developmental discussion; describe observable support and room to explore rather than diagnosing a child.",
+        "boundaryZh": "安全基地不等於大人代孩子作每個決定，也不等於完全放手不管；能求助與自行探索須同時存在。",
+        "misconceptionZh": "孩子回來求助不代表缺乏獨立能力；大人在旁亦不代表要逐步指揮。",
+        "outcomeZh": "能指出成人如何保持可求助，同時讓孩子自行嘗試，並避免把「安全基地」誤解為控制或保證結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1533",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 144,
+          "book": 14,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 153, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The family gives the child a secure base.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "secure base"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source lesson; independent content review pending. Source 3644 remains hold-editorial; not selected or published."
+        ]
+      },
+      "listening": {
+        "en": "At the playground, Imani tries a new climbing route while her father stays on a nearby bench. When she feels unsure, she returns to ask him a question, then chooses her next route herself. He is a secure base for her exploration.",
+        "zh": "在遊樂場，Imani 嘗試新的攀爬路線，爸爸則坐在附近的長椅上。她感到不確定時，便回來問他一個問題，然後自行選擇下一條路線。爸爸是她探索時的安全基地。",
+        "promptEn": "Why is Imani’s father described as a secure base?",
+        "promptZh": "為甚麼 Imani 的爸爸被稱為她的「安全基地」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He stays available for help while Imani chooses and tries routes herself.",
+            "zh": "他讓 Imani 知道需要時可以找他，同時讓她自己選擇和嘗試路線。"
+          },
+          {
+            "id": "b",
+            "en": "He chooses every route for Imani so she never has to make a decision.",
+            "zh": "他替 Imani 選定每條路線，讓她完全不用作決定。"
+          },
+          {
+            "id": "c",
+            "en": "He leaves the playground so Imani must manage every difficulty alone.",
+            "zh": "他離開遊樂場，讓 Imani 必須獨自處理所有困難。"
+          },
+          {
+            "id": "d",
+            "en": "He climbs each route first and treats Imani’s questions as a reason to stop trying.",
+            "zh": "他先替她爬每條路線，並把她提問視為該停止嘗試的理由。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "爸爸在附近，孩子需要時可回來問問題，但路線仍由孩子自己選；其餘選項不是過度控制，就是取消可求助的支援。"
+      },
+      "reply": {
+        "promptEn": "Our daughter is starting a new after-school art group. She wants one of us at pickup, but she also wants to choose her own project. What should I suggest to my partner?",
+        "promptZh": "女兒開始參加新的課後美術小組。她希望我們其中一人接她放學，也想自行選擇作品。我要怎樣向伴侶提議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us be a secure base: agree on pickup, stay available for questions, and let her choose the project.",
+            "zh": "我們可做她的安全基地：先約定接她的安排，讓她有問題時能找我們，同時由她自行選作品。"
+          },
+          {
+            "id": "b",
+            "en": "Let us confirm pickup with her, then ask which project she wants to try first.",
+            "zh": "我們先和她確認接送安排，再問她最想先嘗試哪個作品。"
+          },
+          {
+            "id": "c",
+            "en": "We can confirm that one of us will pick her up, ask the leader to be available for a brief check-in, and leave the project choice to her.",
+            "zh": "我們可確認由其中一人接她，請組長在她需要時簡短關心，並由她自行選擇作品。"
+          },
+          {
+            "id": "d",
+            "en": "Let us agree which of us will be at pickup, then invite her to tell us about the project she chose herself.",
+            "zh": "我們先約好由誰接她，再請她告訴我們她自行選了甚麼作品。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回應都向伴侶提出可行的接送安排，同時保留女兒自行選作品的空間；金句以 a secure base 表達可靠支援與自主探索並存。"
+      },
+      "scene": {
+        "promptEn": "A pupil who has known her teacher for several weeks wants to join the school debate club but is nervous about speaking. The teacher offers to practise one opening sentence, says the pupil may return with questions throughout the term, and lets her choose the topic. Which interpretation fits?",
+        "promptZh": "一名學生已認識老師數周，想參加學校辯論社，卻擔心發言。老師陪她練習一句開場白，說她這學期有問題都可再來問，並讓她自己選題。哪種理解最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher acts as a secure base by offering help without taking over the pupil’s topic choice.",
+            "zh": "老師成為學生的安全基地：學生有需要時可再求助，辯題仍由她自己選。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher should select the topic and write the whole speech because the pupil is nervous.",
+            "zh": "因學生緊張，老師應替她選題並寫好整篇發言稿。"
+          },
+          {
+            "id": "c",
+            "en": "Because the pupil is nervous, the teacher should encourage her but offer no chance to check in again.",
+            "zh": "因學生緊張，老師應鼓勵她，卻不再給她回來確認的機會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "老師提供練習和後續求助途徑，學生仍自行選題；B 過度代勞，C 則取消支援。"
+      },
+      "contrast": {
+        "promptEn": "Which claim is least supported by calling an adult a secure base for a child?",
+        "promptZh": "稱一位大人是孩子的「安全基地」，最不能直接推出哪項說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The child can return for help after trying something unfamiliar.",
+            "zh": "孩子嘗試陌生事物後，可以回來求助。"
+          },
+          {
+            "id": "b",
+            "en": "The adult can remain dependable while allowing age-appropriate choices.",
+            "zh": "大人可以保持可靠，同時讓孩子作合乎年齡的選擇。"
+          },
+          {
+            "id": "c",
+            "en": "The adult’s presence guarantees the child will succeed at every new task.",
+            "zh": "大人在場便保證孩子每項新任務都會成功。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "安全基地指支援探索和可求助，並不保證每次嘗試成功。"
+      },
+      "dialogue": {
+        "promptEn": "Nora wants to try the supervised weekend science workshop. Her aunt can be reached if Nora needs reassurance, but plans to let her choose a project. Another relative says the aunt should decide every step because Nora might ask for help. What is the best reply?",
+        "promptZh": "Nora 想參加有導師在場的周末科學工作坊。姨姨在她需要安慰時可以聯絡，但打算讓她自行選項目。另一位親戚說，Nora 可能求助，所以姨姨應替她決定每一步。怎樣回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her aunt can be a secure base: reachable if needed, while Nora chooses her project and the workshop leader handles on-site supervision.",
+            "zh": "姨姨可以做 Nora 的安全基地：需要時可聯絡，同時由 Nora 自行選項目，現場則由工作坊導師照看。"
+          },
+          {
+            "id": "b",
+            "en": "Because Nora might ask for reassurance, her aunt should choose the project before Nora arrives.",
+            "zh": "既然 Nora 可能需要安慰，姨姨應在她到場前替她選好項目。"
+          },
+          {
+            "id": "c",
+            "en": "If Nora chooses her own project, her aunt should be unreachable for the whole workshop.",
+            "zh": "如果 Nora 自己選項目，姨姨在整個工作坊期間都不應讓人聯絡到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可聯絡的姨姨提供支援，但不奪去 Nora 的項目選擇；現場安全由導師負責。B 過度代勞，C 把自主誤解為不能求助。"
+      },
+      "speaking": {
+        "en": "After months of dependable help in class, Eli trusted his teacher as a secure base on their first school trip; he knew he could ask for help, then interviewed the museum guide himself.",
+        "zh": "在課堂上得到老師數月來可靠的支援後，Eli 在第一次學校旅行時信任老師，把老師視為安全基地；他知道有需要時可以求助，然後自行訪問博物館導賞員。",
+        "promptZh": "先聽示範，再指出老師提供的支援，以及 Eli 自己完成的事。",
+        "targetSpan": {
+          "start": 69,
+          "end": 82
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：新生 Jia 已與學校圖書館老師 Ms Chan 相處數周。Jia 第一次輪值時，老師會指出到哪裏求助，讓她自行選擇並嘗試一項整理工作，當天結束前再和她簡短回顧。寫一至兩句英文，說明 Ms Chan 如何成為她的安全基地，同時讓 Jia 自主嘗試。",
+        "selfCheckZh": "兩例都須寫出兩人已相處數周、Jia 知道到哪裏求助、自行選擇並嘗試一項整理工作，以及當天結束時的簡短回顧；不可讓老師代做。",
+        "examples": [
+          {
+            "en": "After several weeks of support, Ms Chan is a secure base for Jia on her first library shift: Jia knows where to ask for help, chooses and tries one shelving task, and reviews the shift with Ms Chan before she goes home.",
+            "zh": "經過數周相處，Ms Chan 在 Jia 首次到圖書館輪值時成為她的安全基地：Jia 知道到哪裏求助，自行選擇並嘗試一項排書工作，回家前再和 Ms Chan 簡短回顧。"
+          },
+          {
+            "en": "Jia has learned to trust Ms Chan over several weeks. On Jia’s first library duty, Ms Chan offers a secure base by showing where to ask questions and checking in at day’s end, while Jia picks and tries a sorting task herself.",
+            "zh": "Jia 經過數周相處，已逐漸信任 Ms Chan。Jia 第一次在圖書館輪值時，Ms Chan 指出到哪裏提問，並在當天結束時和她簡短回顧，成為她的安全基地；Jia 則自行選擇並嘗試一項分類工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "several weeks of support",
+            "zh": "數周相處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 30
+            }
+          },
+          {
+            "en": "where to ask for help",
+            "zh": "到哪裏求助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 124
+            }
+          },
+          {
+            "en": "one shelving task",
+            "zh": "一項排書工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 161
+            }
+          },
+          {
+            "en": "first library duty",
+            "zh": "第一次在圖書館輪值",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 80
+            }
+          },
+          {
+            "en": "a sorting task",
+            "zh": "一項分類工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 201,
+              "end": 215
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A secure base stays available for help while a child explores; it does not make every choice for the child.",
+          "zh": "安全基地讓孩子探索時仍可求助，並非替孩子作每個決定。"
+        },
+        {
+          "en": "A secure base lets a child return for reassurance and then try the next step independently; support and exploration work together.",
+          "zh": "安全基地讓孩子可回來尋求安心，再自行嘗試下一步；支援與探索可以並存。"
+        }
+      ]
+    }
+  ]
+}

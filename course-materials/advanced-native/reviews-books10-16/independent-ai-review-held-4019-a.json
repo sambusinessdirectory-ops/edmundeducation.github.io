@@ -1,0 +1,50 @@
+{
+  "status": "independent-ai-content-review-unselected",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-4019-review-pilot.json",
+  "draftSha256": "389c805bbfec491cdba7344e6078e1accb02217b5d130f3446a0d390628eb054",
+  "sourceOrdinal": 4019,
+  "sourceOccurrenceId": "book10-16-1908",
+  "sourceSentence": "At school she excelled, but elite is a different game altogether.",
+  "sourceMeaning": "Top-level competition requires fundamentally different standards; a game metaphor.",
+  "comparedOwner": {
+    "id": "advanced-native-2289",
+    "title": "playing different games",
+    "judgment": "defensibly-distinct",
+    "reason": "Owner 2289 compares two simultaneous parties with different aims or metrics in the same field. Source 4019 compares one person's familiar school level with a later elite level requiring substantially different standards. The two reviewed target patterns do not match each other's full source sentence. These are different learner decisions, even though both use the game metaphor."
+  },
+  "mechanicalChecks": {
+    "focusedBuildCheck": "1 lesson / 6 assessed questions / 4 audio requests / 0 review flags",
+    "sourceSentenceMatchesTarget": true,
+    "speakingTargetSpanExact": true,
+    "glossaryRows": 6,
+    "glossaryAnswerSpansExact": true,
+    "glossaryExcludesTarget": true,
+    "allRequiredChineseFieldsPresent": true,
+    "reviewStateStillPending": true
+  },
+  "findings": [
+    {
+      "id": "R4019-01",
+      "severity": "major",
+      "fields": ["reply.promptEn", "reply.options[b]", "reply.options[c]", "reply.options[d]"],
+      "problem": "The prompt asks how to explain the change to volunteers. B offers to show requirements and ask about time, C proposes a trial plot, and D asks the council for support. Those are possible next actions but do not each explain why twelve public plots with safety checks and a rota change the undertaking. Step 2 requires all four replies to answer the same listener and question.",
+      "suggestedRepair": "Make B/C/D each name a concrete new demand before its practical next step, or reframe the prompt as a request for what to propose in response to the council. Keep one natural target-bearing golden reply and align Traditional Chinese."
+    },
+    {
+      "id": "R4019-02",
+      "severity": "major",
+      "fields": ["listening", "reply", "scene", "dialogue", "speaking", "writing"],
+      "problem": "Nearly all positive uses repeat a small/local task becoming a much larger operation with new administrative or safety requirements (six dinners to 200 guests, one plot to twelve, neighbour bread sales to a bakery, ten-household phone tree to citywide alerts, five-household deliveries to citywide service, six-classmate demo to 600 visitors). The guide source specifically contrasts school success with elite performance standards, but no assessed choice tests a higher standard of skill or consequence without a numerical scale-up. The repeated escalation decision limits transfer across seven steps.",
+      "suggestedRepair": "Replace at least one assessed small-to-citywide/large-audience scenario with a distinct school-to-elite, amateur-to-professional, or low-stakes-to-high-stakes performance decision that names the changed standard. Avoid copying the guide sentence; preserve the exact source only in provenance. Keep English/Chinese, keys, target spans, and any affected audio aligned."
+    },
+    {
+      "id": "R4019-03",
+      "severity": "major",
+      "fields": ["listening.options", "scene.options[b,c]", "dialogue.options[b,c]"],
+      "problem": "Several wrong options are implausibly remote or simply deny explicit prompt facts instead of testing a close timing, standard or consequence distinction. Scene C also changes 'twenty neighbours' into 'twenty loaves', a metric never supplied by the prompt. The SOP calls for plausible, grounded distractors, especially in the concrete scene.",
+      "suggestedRepair": "Replace the mismatched-loaf foil and the broad 'exactly the same because bread/telephones' denials with context-specific near misses: for example, a reply that recognises scale but wrongly postpones daily records, contact verification or trained safety coverage. Keep each foil wrong for one precise reason and translate that reason faithfully."
+    }
+  ],
+  "translationAssessment": "No material English/Traditional Chinese semantic mismatch found in the current keyed answers or writing examples; revise corresponding Chinese whenever an English prompt or option changes.",
+  "selectionRecommendation": "The distinct owner is defensible, but keep source 4019 held and the draft unselected until all three content findings are repaired and independently rechecked at a new exact hash. Structural build/check is not release or human approval."
+}

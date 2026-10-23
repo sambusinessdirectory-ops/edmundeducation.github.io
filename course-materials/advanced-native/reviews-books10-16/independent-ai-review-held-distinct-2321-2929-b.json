@@ -1,0 +1,52 @@
+{
+  "reportType": "independent-ai-focused-review",
+  "status": "one_minor_wording_blocker",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-2321-2929-a.json",
+  "draftSha256": "6d291cee7e0c2be4871436c8ec6010d9b56e8d55c4a44dc917603422c3b30760",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-distinct-2321-2929-a.json",
+  "authorAuditSha256": "2270f9ca026d5367ad78a0faf6dcf67f4cb9dc9559594372a51b3c201c29e43c",
+  "lessons": [
+    {
+      "sourceOrdinal": 2321,
+      "ownerId": "advanced-native-2321",
+      "result": "pass",
+      "evidence": "Source it has an unclear antecedent; learner material names notes/interviews/feedback and a resulting summary. Four-valid reply, EN/ZH, writing models and source pattern are grounded."
+    },
+    {
+      "sourceOrdinal": 2904,
+      "ownerId": "advanced-native-2904",
+      "result": "needs_wording_repair",
+      "evidence": "Long-lived emotional harm from harsh words is distinct from literal scars; all answer keys are grounded, but golden reply English is unidiomatic."
+    },
+    {
+      "sourceOrdinal": 2914,
+      "ownerId": "advanced-native-2914",
+      "result": "pass",
+      "evidence": "Source describes gradual overbuying without a budget. Lesson tests accumulated drift over several decisions, distinguishes a single exception, and transfers to repeated skipped checks. EN/ZH and keys agree."
+    },
+    {
+      "sourceOrdinal": 2929,
+      "ownerId": "advanced-native-2929",
+      "result": "pass",
+      "evidence": "Source uses a limited free evening. This opportunity-prioritisation outcome is distinguishable from canonical 1610 limited-space design. Full source/answer pattern, four-valid reply and transfer models are grounded."
+    }
+  ],
+  "finding": {
+    "id": "R2904-01",
+    "severity": "minor_blocking_learner_english",
+    "ownerId": "advanced-native-2904",
+    "field": "reply.options[a].en",
+    "observed": "That treatment can leave scars; your hesitation makes sense, and we can take speaking up at your pace.",
+    "issue": "Take speaking up at your pace is unidiomatic and does not fully express Chinese 按你的步伐慢慢練習發言.",
+    "suggestedRepair": "Use work on speaking up at your pace or practise speaking up at your pace, and align Chinese."
+  },
+  "mechanicalChecks": {
+    "lessonCount": 4,
+    "sourceMatches": 4,
+    "assessedKeysTargetBearing": 16,
+    "writingModelsTargetBearing": 8,
+    "glossarySpansExact": 24,
+    "speakingSpansExact": 4
+  },
+  "scope": "Read-only editorial review of four unselected lessons. Author focused build/check 4/24/16/0 was considered but is not independent evidence of meaning. No source-decision/manifest/release approval."
+}

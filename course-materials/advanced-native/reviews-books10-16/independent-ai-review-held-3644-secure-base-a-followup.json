@@ -1,0 +1,34 @@
+{
+  "status": "independent-exact-hash-content-followup-clear",
+  "sourceOrdinal": 3644,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3644-secure-base-b.json",
+  "draftSha256": "26553953ae409bcf63c5717570e68f75cd46e10d9a051eaa5a6365822d35c01a",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3644-secure-base-b.json",
+  "authorAuditSha256": "23f829a4f9badf257b6541c9219365f40b6a33736f662e850c1786b0a2f6f2d6",
+  "initialReviewPath": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3644-secure-base-a.json",
+  "resolvedFindings": [
+    {
+      "id": "R3644-01",
+      "result": "clear",
+      "evidence": "Reply C now confirms one parent at pickup and leaves the project choice to the daughter; D names the pickup parent and explicitly says the daughter chose the project herself. All four replies independently answer both prompt needs, with aligned Traditional Chinese and exactly one target-bearing golden reply."
+    },
+    {
+      "id": "R3644-02",
+      "result": "clear",
+      "evidence": "Speaking now states months of dependable classroom help and Eli’s trust before the first trip, then shows independent interviewing after available support. English and Traditional Chinese align; target span remains exact."
+    }
+  ],
+  "verification": {
+    "contentRevision": 2,
+    "focusedBuild": "1 lesson / 6 questions / 4 audio requests / 0 flags",
+    "focusedCheck": "passed",
+    "targetSpeakingSpan": "a secure base, exact",
+    "fiveAnswerDerivedGlossarySpans": "exact"
+  },
+  "ownerSense": "Defensibly distinct from home base and base camp as child–trusted-adult exploratory support.",
+  "overall": "AI content-clear for provisional unpublished selection",
+  "humanApproval": false,
+  "audioVerification": false,
+  "selected": false,
+  "published": false
+}
