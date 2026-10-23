@@ -1,0 +1,34 @@
+{
+  "reviewType": "independent-ai-exact-hash-repair-followup",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2876-2919-b.json",
+  "inputFiles": {
+    "pilot1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+      "sha256": "4a03b2a8c49d147814d462a54b6da3ced2c78dda44e0108137b4e33dfe625c4b"
+    },
+    "pilot2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "sha256": "7ae55db9521bd93c32667390f27ec3d6e6994bbd61a69bc7a60044a7b783c688"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2876-2919-review-pilot.json",
+      "sha256": "3a61944c475b1e3b20612939e83b75a826cba5a8279a405134e6e5ab48f016ea"
+    }
+  },
+  "findingsRechecked": [
+    {
+      "id": "R2876-01",
+      "status": "cleared",
+      "evidence": "Keyed dialogue now says 'Having their hands on the wheel means they can direct decisions, not guarantee a perfect outcome.' This matches the possessive frame in the source, brief and other examples, while the Traditional Chinese retains the authority-versus-outcome distinction."
+    },
+    {
+      "id": "R2880-01",
+      "status": "cleared",
+      "evidence": "Listening now says both free fairs are open to everyone, in English and Traditional Chinese. The keyed same-public-access reason and explanation are therefore grounded in an identical criterion, without asserting approval of the second fair."
+    }
+  ],
+  "regressionCheck": "The changed assessed text remains target-bearing where required. The unchanged six lessons retain their prior provisional content pass. Combined focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "status": "all-eight-provisional-content-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

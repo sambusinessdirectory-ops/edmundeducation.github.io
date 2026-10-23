@@ -1,0 +1,107 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 3230, 3234, 3235, 3236, 3237, 3245, 3273, 3274",
+  "inputFiles": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3230-3274-a.json",
+      "sha256": "c80b18f76b2ea5d8c1ae0138956d4e86974ec0b5007ad928884f709ea1655c2d"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3230-3274-a.json",
+      "sha256": "1ec07eb1885c73569f64f6089da7e944276d76385d80ff7bd048e29294eb50d4"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "mechanicalChecks": {
+    "source": "All eight source IDs, expressions and full examples match the source inventory; each full source example matches its lesson target detector.",
+    "target": "All keyed scene, dialogue and four-valid-reply options, speaking spans, and both writing models match the corresponding fresh gi target regex; no non-key option accidentally contains the target.",
+    "glossary": "All 40 glossary spans are exact, non-target substrings of the linked English answer models.",
+    "build": "Focused build and --check passed: 8 lessons, 48 questions, 32 audio requests, zero review flags."
+  },
+  "ownerBoundary": "3273 teaches repairing an error and adding a prevention check; 3274 teaches retaining a person's concrete repair responsibility despite sympathy. This is a defensible semantic boundary, although both currently use erroneous-notice scenarios and should retain clearly differentiated explanations.",
+  "perLesson": [
+    {
+      "sourceOrdinal": 3230,
+      "lessonId": "advanced-native-3230",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R3230-01",
+          "severity": "minor",
+          "path": "writing.examples[0]",
+          "text": "The writing prompt asks for available resources, a concrete step and a practical reason. The librarian model specifies a tray and hourly check but does not say the tray is already available or why the plan is workable under limited resources. Make this example independently satisfy the full prompt, then recalculate any affected glossary spans."
+        }
+      ],
+      "evidence": "All assessed keys, Chinese meanings and target/glossary spans otherwise pass."
+    },
+    {
+      "sourceOrdinal": 3234,
+      "lessonId": "advanced-native-3234",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Emotional support without promising to reverse the setback is consistently distinguished across listening, reply, scene, contrast, dialogue, speaking and two changed-context models."
+    },
+    {
+      "sourceOrdinal": 3235,
+      "lessonId": "advanced-native-3235",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "The lesson distinguishes giving up after a fixable setback from a planned safety pause; both writing models include a concrete retry action."
+    },
+    {
+      "sourceOrdinal": 3236,
+      "lessonId": "advanced-native-3236",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Repeated failure, a clear boundary and a concrete corrective request are grounded in the source sense and each assessed context."
+    },
+    {
+      "sourceOrdinal": 3237,
+      "lessonId": "advanced-native-3237",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "The lesson consistently keeps the decision pending, establishes time to wait, and excludes an emergency response; writing contexts change from the assessed tasks."
+    },
+    {
+      "sourceOrdinal": 3245,
+      "lessonId": "advanced-native-3245",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Evidence-based review rather than guaranteed future correctness is maintained; both judgment and judgement spelling forms are detected and used naturally."
+    },
+    {
+      "sourceOrdinal": 3273,
+      "lessonId": "advanced-native-3273",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R3273-01",
+          "severity": "major",
+          "path": "reply.promptEn, reply.promptZh, reply.options[c]",
+          "text": "The prompt explicitly states that the incorrect record has now been corrected and asks what the teacher should do next. The keyed reply says 'by correcting the record and practising a date check', reintroducing a repair already completed. Keep all four responses valid for the stated moment by changing the keyed answer to the next prevention action, or change the prompt's timeline; align Chinese and retain the target expression."
+        }
+      ],
+      "evidence": "Other six-step content, source fidelity, target spans and answer-derived glossary pass."
+    },
+    {
+      "sourceOrdinal": 3274,
+      "lessonId": "advanced-native-3274",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R3274-01",
+          "severity": "minor",
+          "path": "writing.examples[1]",
+          "text": "The writing prompt requires cause, impact on others and concrete retained responsibility. The family emergency and missed handover are named, and the next shift is notified, but the impact on that shift is left implicit. State briefly what the missed handover caused for the next shift, in both English and Traditional Chinese, and recalculate any affected glossary spans."
+        }
+      ],
+      "evidence": "The source sense and responsibility-versus-punishment boundary pass; 3273 and 3274 remain distinguishable despite sharing notice-error settings."
+    }
+  ],
+  "findingCount": {"major": 1, "minor": 2},
+  "humanApproval": false,
+  "releaseApproval": false
+}

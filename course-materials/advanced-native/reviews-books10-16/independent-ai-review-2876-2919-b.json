@@ -1,0 +1,108 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 2876, 2878, 2879, 2880, 2882, 2912, 2916, 2919",
+  "inputFiles": {
+    "pilot1": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+      "sha256": "bcffea19be30964ab1bf2a667a194917ea263f7ca7e020973bc3ccc5df013b7f"
+    },
+    "pilot2": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "sha256": "7ae55db9521bd93c32667390f27ec3d6e6994bbd61a69bc7a60044a7b783c688"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2876-2919-review-pilot.json",
+      "sha256": "0217255a77356460a9a9d02cc172b259b63e786401a09fb5e4ab770c39481894"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "canonical329": {
+      "path": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "sha256": "05b312f7ffa8dcab9092f97d87c80f6eb8173828a8d17a1c4199b5568b6d4e76"
+    }
+  },
+  "mechanicalChecks": {
+    "source": "All eight source IDs, expressions and full examples match the source inventory; each full example matches its target detector.",
+    "target": "All golden reply, keyed scene and dialogue options, speaking spans and both writing models match a fresh gi target detector. The 2878 dialogue intentionally mentions the target within one false generalisation distractor; this is a conceptual distractor, not a second correct answer.",
+    "glossary": "All 48 glossary spans are exact non-target substrings of the linked English answer models.",
+    "build": "Combined focused build and --check passed: 8 lessons, 48 questions, 32 audio requests, zero review flags."
+  },
+  "ownerBoundary": "Canonical 329 hands-on teaches direct practical participation. Source 2876 hands on the wheel teaches control of decisions; different grammatical frame and meaning, despite a detector substring overlap. 2878 make headlines stresses prominent placement; 2879 all over the news stresses breadth across outlets. Both owner distinctions are defensible on current examples.",
+  "perLesson": [
+    {
+      "sourceOrdinal": 2876,
+      "lessonId": "advanced-native-2876",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R2876-01",
+          "severity": "minor",
+          "path": "dialogue.options[a]",
+          "text": "The keyed English says 'Having hands on the wheel means ...' without a possessive, although the source, brief grammar, listening, reply and scene consistently use 'their/its/her hands on the wheel'. Add a suitable possessive ('Having their hands ...') to model the idiom naturally, keep Chinese aligned, and recheck the target detector."
+        }
+      ],
+      "evidence": "Distinct from canonical 329 hands-on: authority to direct decisions versus personally carrying out practice. Four reply options are valid and only C is the target-bearing golden response."
+    },
+    {
+      "sourceOrdinal": 2878,
+      "lessonId": "advanced-native-2878",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Prominence rather than breadth, positive coverage or factual verification is consistently tested; bilingual content and both writing models align."
+    },
+    {
+      "sourceOrdinal": 2879,
+      "lessonId": "advanced-native-2879",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Broad reporting without claiming every outlet or headline placement is distinct from 2878; both writing models retain the future implementation date."
+    },
+    {
+      "sourceOrdinal": 2880,
+      "lessonId": "advanced-native-2880",
+      "status": "requires-repair",
+      "findings": [
+        {
+          "id": "R2880-01",
+          "severity": "major",
+          "path": "listening.en, listening.zh, listening.options[a], listening.explanationZh",
+          "text": "The first fair is funded because 'everyone can enter', but the second fair is only said to be 'open to all schools'. Those are not necessarily the same access criterion: individuals outside schools may be excluded. The keyed answer asserts that the same public-access reason applies, undermining the analogy this lesson teaches. Make both fairs meet the same clearly stated criterion, or explicitly define the relevant criterion as access for all schools in both cases; update English, Traditional Chinese and the explanation together."
+        }
+      ],
+      "evidence": "The remaining six decisions and both writing models preserve the shared-principle/pending-approval boundary."
+    },
+    {
+      "sourceOrdinal": 2882,
+      "lessonId": "advanced-native-2882",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Accepting accountability is distinguished from claiming a promised repair has already been completed; the 10-participant writing state is preserved in both models."
+    },
+    {
+      "sourceOrdinal": 2912,
+      "lessonId": "advanced-native-2912",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Habitual first choice is supported by repeated-use evidence without claiming exclusivity or universal preference."
+    },
+    {
+      "sourceOrdinal": 2916,
+      "lessonId": "advanced-native-2916",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "Short intense reaction versus lasting success is maintained across listening, choices, dialogue and both future-exhibition models."
+    },
+    {
+      "sourceOrdinal": 2919,
+      "lessonId": "advanced-native-2919",
+      "status": "provisional-content-pass",
+      "findings": [],
+      "evidence": "The models justify a quality gain, compare three workshops with twelve talks, and retain the capacity constraint; no claim that fewer is automatically better."
+    }
+  ],
+  "findingCount": {"major": 1, "minor": 1},
+  "humanApproval": false,
+  "releaseApproval": false
+}

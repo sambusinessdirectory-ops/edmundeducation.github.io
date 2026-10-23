@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2876-2919-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2876",
+      "number": 2876,
+      "inventoryId": "expr-2876",
+      "titleEn": "hands on the wheel",
+      "titleZh": "直接掌握局面",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhands?\\s+on\\s+the\\s+wheel\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Having practical control over decisions and the direction of events.",
+        "meaningZh": "實際掌握決策與事態方向。",
+        "grammar": "Have/keep one’s hands on the wheel is a driving metaphor; possessive agrees with the person or group controlling decisions.",
+        "register": "Crisis-planning discussion: a community coordinator explains which team can change the evacuation timetable rather than merely comment on it.",
+        "boundaryZh": "掌握局面指有實際決策權，不等於能保證結果完美或獨自負責所有工作。",
+        "misconceptionZh": "不是必須開車，也不能把只提供意見的人說成直接操控者。",
+        "outcomeZh": "能指出誰有權改變安排、誰只是建議，以及控制不等於保證成功。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0765",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 71,
+          "book": 11,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 70, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Officials have their hands on the wheel during a crisis.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hands on the wheel"
+        }
+      ],
+      "listening": {
+        "en": "During the flood warning, the operations team could change bus routes and assign drivers without waiting for another committee. It had its hands on the wheel.",
+        "zh": "洪水警告期間，行動隊毋須等另一委員會批准，便可更改巴士路線和調配司機，直接掌握局面。",
+        "promptZh": "had its hands on the wheel 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team held practical decision-making control.",
+            "zh": "團隊有實際決策控制權。"
+          },
+          {
+            "id": "b",
+            "en": "The team could only submit suggestions for later approval.",
+            "zh": "團隊只能提交建議，等待日後批准。"
+          },
+          {
+            "id": "c",
+            "en": "The team guaranteed that no route would ever fail.",
+            "zh": "團隊保證沒有路線會出錯。"
+          },
+          {
+            "id": "d",
+            "en": "Every team member was physically driving a bus.",
+            "zh": "每名隊員都在實際駕駛巴士。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能直接更改路線和調配司機，支持實際掌控，而非只提意見。"
+      },
+      "reply": {
+        "promptEn": "Who is steering the festival schedule? The student committee can approve timetable changes and move volunteers today; the sponsor may advise but cannot veto those changes.",
+        "promptZh": "（誰在掌握節慶時間表？學生委員會今天可批准時間改動並調動義工；贊助者可提意見，但不能否決改動。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student committee can make the operative changes.",
+            "zh": "學生委員會可以作出實際改動。"
+          },
+          {
+            "id": "b",
+            "en": "The sponsor advises, while the committee decides.",
+            "zh": "贊助者提供意見，委員會作決定。"
+          },
+          {
+            "id": "c",
+            "en": "The student committee has its hands on the wheel.",
+            "zh": "學生委員會直接掌握安排。"
+          },
+          {
+            "id": "d",
+            "en": "Timetable authority rests with the student committee.",
+            "zh": "時間表的決定權在學生委員會。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以批准及調動權識別掌控者；金句用 hands on the wheel。"
+      },
+      "scene": {
+        "promptZh": "一間中心的主管可即時調整開放時間和人手；顧問只提交建議。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The manager has her hands on the wheel, while the advisers only recommend changes.",
+            "zh": "主管直接掌握安排，顧問只是提出建議。"
+          },
+          {
+            "id": "b",
+            "en": "The advisers alone decide every opening hour.",
+            "zh": "只有顧問能決定所有開放時間。"
+          },
+          {
+            "id": "c",
+            "en": "The manager can guarantee that no visitor will ever wait.",
+            "zh": "主管能保證訪客永遠不用等候。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際調整權在主管，而非顧問。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 someone has their hands on the wheel？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team can redirect deliveries when a road closes.",
+            "zh": "道路封閉時，團隊可更改送貨路線。"
+          },
+          {
+            "id": "b",
+            "en": "A spectator can watch updates but cannot alter any decision.",
+            "zh": "旁觀者可看更新，卻不能改動任何決定。"
+          },
+          {
+            "id": "c",
+            "en": "A manager can reassign staff during a disruption.",
+            "zh": "出現中斷時，經理可重新分配人手。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "旁觀者沒有決策權，並非掌握局面。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「負責隊伍雙手掌舵，就保證活動不會出錯。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Having their hands on the wheel means they can direct decisions, not guarantee a perfect outcome.",
+            "zh": "直接掌握安排表示可作決策，不保證結果完美。"
+          },
+          {
+            "id": "b",
+            "en": "Control always prevents every unexpected problem.",
+            "zh": "有控制權就必然避免所有意外問題。"
+          },
+          {
+            "id": "c",
+            "en": "If a team delegates tasks, it cannot make decisions.",
+            "zh": "團隊只要分工，就不可能作決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "控制的是決策權，不是所有未來結果。"
+      },
+      "speaking": {
+        "en": "The local organisers kept their hands on the wheel by approving route changes themselves while accepting safety advice.",
+        "zh": "本地籌辦人自行批准路線改動，同時聽取安全建議，保持對安排的直接掌握。",
+        "promptZh": "先聽示範，再指出他們保留了哪項權限。",
+        "targetSpan": {
+          "start": 32,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園市集遇上暴雨，學生委員會有權即時把攤位移入禮堂並調整義工崗位；校長提供安全建議，但毋須逐項批准。用一至兩句英文說明誰直接掌握安排，不要保證天氣問題完全解決。",
+        "selfCheckZh": "寫出學生委員會可自行移動攤位與調動義工、校長只提供建議，並避免保證完美結果。",
+        "examples": [
+          {
+            "en": "The student committee has its hands on the wheel: it can move stalls into the hall and reassign volunteers, while the principal only offers safety advice.",
+            "zh": "學生委員會直接掌握安排：可以把攤位移入禮堂並重新分配義工，校長則只提供安全建議。"
+          },
+          {
+            "en": "With its hands on the wheel, the committee can change stall locations and volunteer roles during the storm; the principal advises but need not approve each move.",
+            "zh": "學生委員會在暴雨中直接掌握安排，可更改攤位位置和義工崗位；校長提供建議，毋須逐項批准。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "student committee",
+            "zh": "學生委員會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 21
+            }
+          },
+          {
+            "en": "move stalls",
+            "zh": "移動攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 68
+            }
+          },
+          {
+            "en": "reassign volunteers",
+            "zh": "重新分配義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 106
+            }
+          },
+          {
+            "en": "safety advice",
+            "zh": "安全建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 153
+            }
+          },
+          {
+            "en": "volunteer roles",
+            "zh": "義工崗位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "need not approve",
+            "zh": "毋須批准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hands on the wheel means direct control over decisions.",
+          "zh": "直接掌握局面，指擁有實際決策權。"
+        },
+        {
+          "en": "Keeping hands on the wheel does not guarantee every outcome will be perfect.",
+          "zh": "保留掌控權不保證每個結果都完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2878",
+      "number": 2878,
+      "inventoryId": "expr-2878",
+      "titleEn": "make headlines",
+      "titleZh": "成為顯眼新聞",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making)\\s+headlines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become a prominent news story, usually attracting conspicuous media attention.",
+        "meaningZh": "成為備受注目的新聞題材。",
+        "grammar": "An event/person makes or made headlines; the phrase describes news prominence, not whether coverage is positive or true.",
+        "register": "Neutral media briefing: a school communications officer tells colleagues that a remarkable student result led several outlets to feature the story prominently.",
+        "boundaryZh": "備受報道不代表每個媒體都報道，也不等於消息必然正面或已核實。",
+        "misconceptionZh": "不是自己製作印刷標題；也不是只在一篇文章角落被提及。",
+        "outcomeZh": "能分辨顯眼的新聞焦點與普通提及，並避免把曝光率當成真偽或好壞判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0767",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 71,
+          "book": 11,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 70, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A record win can make headlines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make headlines"
+        }
+      ],
+      "listening": {
+        "en": "A student-built water filter won an international prize, and several local papers put the achievement in prominent stories. The win made headlines.",
+        "zh": "學生製作的濾水器獲國際獎項，幾份本地報章顯眼報道。這次獲獎成為焦點新聞。",
+        "promptZh": "made headlines 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The win became a prominent news story.",
+            "zh": "這次獲獎成為顯眼新聞。"
+          },
+          {
+            "id": "b",
+            "en": "One paper mentioned the win only in an unrelated footnote.",
+            "zh": "一份報章只在無關的註腳提及獲獎。"
+          },
+          {
+            "id": "c",
+            "en": "The papers placed the achievement only in small unrelated links.",
+            "zh": "報章只把這項成就放在不起眼的無關連結。"
+          },
+          {
+            "id": "d",
+            "en": "Coverage proves every claim about the filter is correct.",
+            "zh": "有報道就證明濾水器的每項聲稱都正確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "幾份報章顯眼報道，支持成為新聞焦點；並不證明所有產品聲稱。"
+      },
+      "reply": {
+        "promptEn": "Why did the museum prepare a press statement? Its newly restored film appeared as the lead cultural story on several news sites, prompting public questions.",
+        "promptZh": "（博物館為何準備新聞聲明？新修復的電影成為多個新聞網站的文化版首要報道，引來公眾提問。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The restoration attracted conspicuous media coverage.",
+            "zh": "修復工作吸引顯眼報道。"
+          },
+          {
+            "id": "b",
+            "en": "Several outlets featured the film prominently.",
+            "zh": "多個媒體顯眼介紹該電影。"
+          },
+          {
+            "id": "c",
+            "en": "The restored film made headlines.",
+            "zh": "修復電影成為焦點新聞。"
+          },
+          {
+            "id": "d",
+            "en": "The museum needed to respond to increased public attention.",
+            "zh": "博物館需要回應增加的公眾關注。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據首要報道與提問說明關注度；金句用 made headlines。"
+      },
+      "scene": {
+        "promptZh": "一名跑手破了紀錄，多家報章把她放在體育版顯眼位置。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her record-breaking run made headlines.",
+            "zh": "她破紀錄的表現成為焦點新聞。"
+          },
+          {
+            "id": "b",
+            "en": "Her result appeared only in one private training log.",
+            "zh": "她的成績只記在一份私人訓練日誌。"
+          },
+          {
+            "id": "c",
+            "en": "The coverage guarantees she will win every future race.",
+            "zh": "報道保證她日後每場賽事都會勝出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "顯眼的多家報道符合 make headlines，卻不保證未來成績。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 the event made headlines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event leads the evening news on several channels.",
+            "zh": "事件登上多個頻道晚間新聞頭條。"
+          },
+          {
+            "id": "b",
+            "en": "One visitor writes about it only in a private diary.",
+            "zh": "只有一名訪客在私人日記寫下事件。"
+          },
+          {
+            "id": "c",
+            "en": "Several newspapers feature it prominently the next day.",
+            "zh": "翌日多份報章顯眼報道事件。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "私人日記不是顯眼的媒體報道。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「成為 headlines 就代表這一定是好消息，而且每家媒體都報道了。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Making headlines means prominent coverage; it need not be positive or appear in every outlet.",
+            "zh": "成為焦點新聞指顯眼報道，不一定是好消息，也不一定每家媒體都報。"
+          },
+          {
+            "id": "b",
+            "en": "Only positive events can ever make headlines.",
+            "zh": "只有正面事件能成為焦點新聞。"
+          },
+          {
+            "id": "c",
+            "en": "One headline proves every report on the topic is accurate.",
+            "zh": "一個標題就證明這題目下每份報道都準確。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語只交代媒體關注度，不保證報道範圍、性質或真確性。"
+      },
+      "speaking": {
+        "en": "The local robotics team made headlines after its rescue device won a national design prize.",
+        "zh": "本地機械人隊的救援裝置贏得全國設計獎後，成為焦點新聞。",
+        "promptZh": "先聽示範，再指出引發報道的具體事情。",
+        "targetSpan": {
+          "start": 24,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區義工隊設計低成本輪椅坡道，獲全市創新獎；三家本地新聞網站把它列作顯眼報道，但沒有證據說全國媒體都有報。用一至兩句英文描述其受關注程度。",
+        "selfCheckZh": "寫出坡道獲全市獎、三家本地網站顯眼報道，不要說全國每家媒體都報。",
+        "examples": [
+          {
+            "en": "The volunteer team’s low-cost wheelchair ramp made headlines after its citywide award, with three local news sites featuring the design prominently.",
+            "zh": "義工隊的低成本輪椅坡道獲全市獎項後成為焦點新聞，三家本地新聞網站顯眼介紹這項設計。"
+          },
+          {
+            "en": "Three local sites gave prominent coverage to the award-winning ramp, so it made headlines locally; national coverage has not been established.",
+            "zh": "三家本地網站顯眼報道這項獲獎坡道，因此它成為本地焦點新聞；目前未能證實全國媒體也有報道。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "volunteer team",
+            "zh": "義工隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "low-cost wheelchair ramp",
+            "zh": "低成本輪椅坡道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 45
+            }
+          },
+          {
+            "en": "citywide award",
+            "zh": "全市獎項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 85
+            }
+          },
+          {
+            "en": "three local news sites",
+            "zh": "三家本地新聞網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 114
+            }
+          },
+          {
+            "en": "prominent coverage",
+            "zh": "顯眼報道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 41
+            }
+          },
+          {
+            "en": "national coverage",
+            "zh": "全國媒體報道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Make headlines means become prominent news, not merely receive one passing mention.",
+          "zh": "成為焦點新聞是顯眼受報道，不只是偶然被提及。"
+        },
+        {
+          "en": "Making headlines does not by itself prove the event was positive or the reports complete.",
+          "zh": "成為焦點新聞，本身不證明事件正面或報道全面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2879",
+      "number": 2879,
+      "inventoryId": "expr-2879",
+      "titleEn": "all over the news",
+      "titleZh": "新聞到處都在報",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ball\\s+over\\s+the\\s+news\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reported or discussed across many news outlets, so it is difficult to miss.",
+        "meaningZh": "許多新聞媒體都在報道或討論，令人很難錯過。",
+        "grammar": "A story/result is or was all over the news; this describes breadth of coverage, while make headlines specifically stresses prominence.",
+        "register": "Everyday media conversation: a librarian explains why people had already heard about a transport change from television, radio and news sites.",
+        "boundaryZh": "到處受報道不表示每個媒體都報或每項細節已核實，也不要求每則報道都是頭條。",
+        "misconceptionZh": "不是新聞紙實際鋪滿地面；片語的重點是廣泛曝光。",
+        "outcomeZh": "能區分廣泛曝光與單一顯眼頭條，並保留消息仍可能需要核實。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0768",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 71,
+          "book": 11,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 70, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The result was all over the news by morning.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all over the news"
+        }
+      ],
+      "listening": {
+        "en": "By morning, the rail strike was discussed on local radio, television and several news sites. It was all over the news, though the talks were still continuing.",
+        "zh": "到了早上，本地電台、電視和多個新聞網站都討論鐵路罷工。這消息到處都有報道，但談判仍在進行。",
+        "promptZh": "all over the news 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many news outlets were reporting or discussing the strike.",
+            "zh": "許多新聞媒體在報道或討論罷工。"
+          },
+          {
+            "id": "b",
+            "en": "Only one private message mentioned the strike.",
+            "zh": "只有一則私人訊息提及罷工。"
+          },
+          {
+            "id": "c",
+            "en": "All negotiations were already complete.",
+            "zh": "所有談判都已完成。"
+          },
+          {
+            "id": "d",
+            "en": "Every report contained the same verified detail.",
+            "zh": "每份報道都有相同且已核實的細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電台、電視和網站都有報，說明曝光廣；談判仍未結束。"
+      },
+      "reply": {
+        "promptEn": "Why did the information desk receive so few questions about the museum reopening? The date had been repeated on radio, television and many local news sites for two days.",
+        "promptZh": "（資訊台為何很少收到博物館重開日期的查詢？日期已連續兩天在電台、電視和多個本地新聞網站重複報道。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many visitors could have heard the date from news reports.",
+            "zh": "不少訪客可能已從新聞報道得知日期。"
+          },
+          {
+            "id": "b",
+            "en": "Several kinds of outlet repeated the reopening date.",
+            "zh": "不同類型媒體重複報道重開日期。"
+          },
+          {
+            "id": "c",
+            "en": "The reopening date was all over the news.",
+            "zh": "重開日期在新聞中到處都有報道。"
+          },
+          {
+            "id": "d",
+            "en": "The widespread coverage may have answered visitors’ main question.",
+            "zh": "廣泛報道可能已解答訪客最主要的疑問。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以多個渠道反覆報道解釋資訊普及；金句用 all over the news。"
+      },
+      "scene": {
+        "promptZh": "一個新公園開放日期在多個電台和新聞網站反覆出現，但未必登上頭條。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The opening date is all over the news even if it is not every outlet’s lead story.",
+            "zh": "開放日期在新聞中廣泛出現，雖未必是每家媒體的頭條。"
+          },
+          {
+            "id": "b",
+            "en": "The date has appeared in no public report.",
+            "zh": "日期完全未見於公開報道。"
+          },
+          {
+            "id": "c",
+            "en": "Every outlet has made it its single biggest headline.",
+            "zh": "每家媒體都把它列為最大頭條。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "廣泛報道不等於每家媒體都列為首要新聞。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 a story is all over the news？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It appears repeatedly on regional radio and news sites.",
+            "zh": "它反覆出現在地區電台與新聞網站。"
+          },
+          {
+            "id": "b",
+            "en": "One person mentions it only in a private letter.",
+            "zh": "只有一人在私人信件提及它。"
+          },
+          {
+            "id": "c",
+            "en": "Television, radio and online news all discuss it.",
+            "zh": "電視、電台和網上新聞都在討論它。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "私人信件不是新聞媒體的廣泛報道。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「消息 all over the news，所以每項細節一定已核實。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is all over the news, but wide coverage alone does not verify each detail.",
+            "zh": "消息廣泛受報道，但單憑曝光率不能證實每項細節。"
+          },
+          {
+            "id": "b",
+            "en": "Many reports guarantee that every detail is correct.",
+            "zh": "很多媒體報道就保證每個細節正確。"
+          },
+          {
+            "id": "c",
+            "en": "If details still need checking, the story cannot be widely reported.",
+            "zh": "細節若仍要核實，消息便不可能廣泛受報道。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "報道範圍與資料核實程度不同。"
+      },
+      "speaking": {
+        "en": "The election timetable was all over the news this week, so volunteers prepared answers to questions about the dates.",
+        "zh": "本週新聞廣泛報道選舉時間表，因此義工準備好回答日期查詢。",
+        "promptZh": "先聽示範，再指出義工為何預計有人提問。",
+        "targetSpan": {
+          "start": 27,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項渡輪班次改動在地區電台、電視和四個新聞網站連續兩天被報道；新時間表下週才生效。用一至兩句英文描述報道範圍及生效時間，不要說改動已經實施。",
+        "selfCheckZh": "寫出多個媒體反覆報道、改動下週才生效，並避免說每家媒體都列作頭條。",
+        "examples": [
+          {
+            "en": "The ferry timetable change was all over the news for two days, appearing on local radio, television and four news sites, but it will not take effect until next week.",
+            "zh": "渡輪班次改動連續兩天在新聞中廣泛出現，見於本地電台、電視和四個新聞網站，但要到下週才生效。"
+          },
+          {
+            "en": "Local radio, television and four sites covered the ferry change repeatedly, so it was all over the news; the new schedule starts next week.",
+            "zh": "本地電台、電視和四個網站反覆報道渡輪改動，因此新聞到處都有提及；新時間表下週開始。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "ferry timetable change",
+            "zh": "渡輪班次改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 26
+            }
+          },
+          {
+            "en": "two days",
+            "zh": "兩天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 61
+            }
+          },
+          {
+            "en": "four news sites",
+            "zh": "四個新聞網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 119
+            }
+          },
+          {
+            "en": "next week",
+            "zh": "下週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 164
+            }
+          },
+          {
+            "en": "covered the ferry change",
+            "zh": "報道渡輪改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 63
+            }
+          },
+          {
+            "en": "new schedule",
+            "zh": "新時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "All over the news means wide coverage across outlets, not necessarily a lead headline everywhere.",
+          "zh": "新聞到處都有報，指跨媒體廣泛曝光，不一定處處是頭條。"
+        },
+        {
+          "en": "A story all over the news can still have details that require checking.",
+          "zh": "消息即使到處受報道，細節仍可能需要核實。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2880",
+      "number": 2880,
+      "inventoryId": "expr-2880",
+      "titleEn": "by the same token",
+      "titleZh": "同樣道理",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bby\\s+the\\s+same\\s+token\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "For the same reason or by applying the same principle to a comparable case.",
+        "meaningZh": "基於相同理由，把同一原則應用於可比較的另一情況。",
+        "grammar": "Sentence-level linker often at the start of the second clause, followed by a comma; it connects analogous reasoning, not an unrelated new point.",
+        "register": "Reasoned committee discussion: a student representative argues that the same access criterion should apply to two public school events.",
+        "boundaryZh": "兩件事必須共享相關理由；不能只因都令人喜歡便硬說同樣道理。",
+        "misconceptionZh": "不是「同一張代幣」，也不是 therefore 式的直接因果結果。",
+        "outcomeZh": "能先說清共同原則，再用 by the same token 公平地推及另一個相似個案。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0769",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 71,
+          "book": 11,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "84–85",
+          "locatorNote": "DOCX table 70, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "By the same token, athletes can attract coverage after a major win.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "by the same token"
+        }
+      ],
+      "listening": {
+        "en": "The city funds a free reading fair because everyone can enter. By the same token, a free science fair open to everyone deserves consideration under the same access rule.",
+        "zh": "市政府資助免費閱讀嘉年華，因為人人可參加。同樣道理，向所有人開放的免費科學展也值得按同一參與準則考慮。",
+        "promptZh": "By the same token 在這裏怎樣連接兩件事？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It applies the same public-access reason to the science fair.",
+            "zh": "把相同的公開參與理由套用到科學展。"
+          },
+          {
+            "id": "b",
+            "en": "It says the science fair is caused by the reading fair.",
+            "zh": "說科學展由閱讀嘉年華直接造成。"
+          },
+          {
+            "id": "c",
+            "en": "It claims both fairs already received identical grants.",
+            "zh": "聲稱兩個嘉年華已獲完全相同資助。"
+          },
+          {
+            "id": "d",
+            "en": "It introduces an unrelated reason for a private event.",
+            "zh": "為私人活動提出一個無關的新理由。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩個活動都免費向公眾開放，可按同一準則考慮。"
+      },
+      "reply": {
+        "promptEn": "Should the school lend the hall to the robotics club? It lent the hall to the drama club because that club admits all interested pupils and holds free after-school meetings; the robotics club does too.",
+        "promptZh": "（學校應借禮堂給機械人學會嗎？學校借禮堂給戲劇學會，是因為它歡迎所有有興趣學生，並免費在課後聚會；機械人學會也一樣。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The same open-access rule supports considering both clubs.",
+            "zh": "相同的公開參與準則支持考慮兩個學會。"
+          },
+          {
+            "id": "b",
+            "en": "Both clubs meet the reason already used for the hall decision.",
+            "zh": "兩個學會都符合原有借場理由。"
+          },
+          {
+            "id": "c",
+            "en": "By the same token, the robotics club should be considered under that rule.",
+            "zh": "同樣道理，也應按那項準則考慮機械人學會。"
+          },
+          {
+            "id": "d",
+            "en": "The school can apply its stated criterion consistently.",
+            "zh": "學校可以一致地應用已表明的準則。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出同一開放準則；金句用 by the same token 連接相似個案。"
+      },
+      "scene": {
+        "promptZh": "校方因學生可免費參加而批准一個講座；另一個活動也免費開放給所有學生。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "By the same token, the second event merits consideration under the access criterion.",
+            "zh": "同樣道理，第二個活動也值得按參與準則考慮。"
+          },
+          {
+            "id": "b",
+            "en": "The first talk directly caused the second event to exist.",
+            "zh": "第一個講座直接造成第二個活動出現。"
+          },
+          {
+            "id": "c",
+            "en": "The second event must be funded without checking any other criteria.",
+            "zh": "毋須查其他準則，也必須資助第二個活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩個活動共享免費開放的理由，但仍可檢查其他條件。"
+      },
+      "contrast": {
+        "promptZh": "哪個銜接最不適合用 by the same token？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both clubs are open to all, so the same access rule may apply.",
+            "zh": "兩個學會都向所有人開放，故可用同一準則。"
+          },
+          {
+            "id": "b",
+            "en": "One club is free; an unrelated bus route closed for repairs.",
+            "zh": "一個學會免費；另一條無關巴士路線因維修停運。"
+          },
+          {
+            "id": "c",
+            "en": "Two libraries offer the same public hours, so both qualify for the access review.",
+            "zh": "兩間圖書館有相同公眾開放時間，都可接受參與評估。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有共同原則可把學會與巴士停運相連。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「兩件事都很受歡迎，所以一定能用 by the same token 支持相同補助。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "By the same token needs a shared relevant criterion; popularity alone may not be the funding rule.",
+            "zh": "同樣道理要有共同的相關準則；受歡迎未必是補助規則。"
+          },
+          {
+            "id": "b",
+            "en": "Any two popular things always deserve the same funding.",
+            "zh": "只要都受歡迎，就必定應得相同補助。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means one event automatically causes another.",
+            "zh": "這片語表示一項活動自動造成另一項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "須先確認用來類比的理由確實相關。"
+      },
+      "speaking": {
+        "en": "The museum waives entry fees for school groups to improve access. By the same token, it could consider waiving fees for local youth clubs under the same access goal.",
+        "zh": "博物館為了方便參與，免收學校團體門票。同樣道理，也可按同一目標考慮豁免本地青年團體的費用。",
+        "promptZh": "先聽示範，再指出兩類團體共享的目標。",
+        "targetSpan": {
+          "start": 66,
+          "end": 83
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區基金給免費、向所有居民開放的園藝課程場地補貼；一個同樣免費並向所有居民開放的烹飪課程申請相同補貼，但仍須完成一般審核。用一至兩句英文以相同參與準則作類比，不要說已批准第二個申請。",
+        "selfCheckZh": "寫出園藝課程已獲補貼、兩課都免費且開放、烹飪課仍待審核。",
+        "examples": [
+          {
+            "en": "The free gardening class received a venue subsidy because it is open to all residents. By the same token, the free cooking class deserves review under that access rule, though approval is still pending.",
+            "zh": "免費園藝課程因向所有居民開放而獲場地補貼。同樣道理，免費烹飪課程也值得按參與準則審核，但批准仍待決定。"
+          },
+          {
+            "en": "The fund supported the open, free gardening class; by the same token, it should consider the equally open cooking class for the subsidy, without treating the application as approved yet.",
+            "zh": "基金資助了免費開放的園藝課程；同樣道理，也應考慮同樣開放的烹飪課程，但目前不能當作申請已獲批。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "venue subsidy",
+            "zh": "場地補貼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 49
+            }
+          },
+          {
+            "en": "all residents",
+            "zh": "所有居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 85
+            }
+          },
+          {
+            "en": "free cooking class",
+            "zh": "免費烹飪課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 128
+            }
+          },
+          {
+            "en": "approval is still pending",
+            "zh": "批准仍待決定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 176,
+              "end": 201
+            }
+          },
+          {
+            "en": "equally open cooking class",
+            "zh": "同樣開放的烹飪課程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 119
+            }
+          },
+          {
+            "en": "application",
+            "zh": "申請",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 169
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "By the same token carries one relevant reason from one case to a comparable case.",
+          "zh": "同樣道理，是把相關理由用於可比較的另一個案。"
+        },
+        {
+          "en": "By the same token does not mean the second application is automatically approved.",
+          "zh": "同樣道理不代表第二份申請自動獲批。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

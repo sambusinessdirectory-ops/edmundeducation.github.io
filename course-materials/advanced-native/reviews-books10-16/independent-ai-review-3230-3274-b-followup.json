@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent-ai-exact-hash-repair-followup",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3230-3274-b.json",
+  "inputFiles": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3230-3274-a.json",
+      "sha256": "bc80db40ca01287dadee0c2f100facc65e55152cbea39501d9f73df3b4e9a769"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3230-3274-a.json",
+      "sha256": "f67a586cdede96597714297ab19cb185dfeaed524c536297404de78ba06fafa9"
+    }
+  },
+  "findingsRechecked": [
+    {
+      "id": "R3230-01",
+      "status": "cleared",
+      "evidence": "Writing model 1 now specifies an already available spare return tray, an hourly check, and the practical reason that returns should not mix with new loans. English and Traditional Chinese align; changed glossary 'a spare return tray' has an exact recomputed span."
+    },
+    {
+      "id": "R3273-01",
+      "status": "cleared",
+      "evidence": "With the record already corrected, keyed reply C now proposes reviewing the cause and practising a date check as the next action. The target idiom and Traditional Chinese remain aligned; all four replies are valid for the prompt."
+    },
+    {
+      "id": "R3274-01",
+      "status": "cleared",
+      "evidence": "Writing model 2 now states the family emergency, the missed handover's effect on the next shift's opening, and the specific repair of notifying waiting workers and arranging key collection. The Traditional Chinese states the same cause, impact and action; all five glossary spans remain exact."
+    }
+  ],
+  "regressionCheck": "The three changed lessons retain source-target matches, target-bearing keys and speaking spans, two answer models and exact non-target glossary spans. All eight lessons focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "status": "all-eight-provisional-content-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

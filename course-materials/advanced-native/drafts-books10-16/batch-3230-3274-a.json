@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3230-3274-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3230",
+      "number": 3230,
+      "inventoryId": "expr-3230",
+      "titleEn": "down-to-earth",
+      "titleZh": "務實；切合實際",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bdown-to-earth\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Practical, realistic and easy to apply, without unnecessary show or abstraction.",
+        "meaningZh": "務實、切合實際，而且容易付諸實行，不流於空泛或華麗。",
+        "grammar": "Down-to-earth is a fixed hyphenated adjective before a noun or after be/seem; it can describe a person, plan or advice.",
+        "register": "Warm neutral conversational praise. A student may use it to a classmate about a mentor’s workable advice.",
+        "boundaryZh": "重點在建議或做法可實行；語氣親切不等於一定有可行步驟，簡單也不一定等於務實。",
+        "misconceptionZh": "不是字面上靠近地面，也不等於缺乏創意或抱負。",
+        "outcomeZh": "能以具體可行的步驟判斷建議是否務實，而非只按語氣或外觀判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1119",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 104,
+          "book": 12,
+          "question": 38,
+          "sample": "S1",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her advice was down-to-earth and easy to use.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "down-to-earth"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者為何認為導師的建議很務實？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It names a small first step the group can do with existing materials.",
+            "zh": "建議指出一個可用現有材料完成的小步驟。"
+          },
+          {
+            "id": "b",
+            "en": "It promises that the group will solve every issue immediately.",
+            "zh": "建議保證團隊立即解決所有問題。"
+          },
+          {
+            "id": "c",
+            "en": "It uses impressive language without saying what to do.",
+            "zh": "建議使用華麗語言，卻沒有說明做法。"
+          },
+          {
+            "id": "d",
+            "en": "It asks the group to buy tools it cannot afford.",
+            "zh": "建議要團隊買無法負擔的工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師提出以現有材料先做可執行的小步驟。",
+        "en": "Our mentor’s advice was down-to-earth. Instead of asking us to redesign the whole garden, she suggested measuring the sunny patch today and using the seeds we already have for one test bed.",
+        "zh": "導師的建議很務實。她沒有叫我們重新設計整個花園，而是建議今天量度陽光充足的一塊地，並用現有種子先試種一小畦。"
+      },
+      "reply": {
+        "promptEn": "Our garden group has a small budget. A mentor suggests one test bed using seeds we already have. What is useful about that advice?",
+        "promptZh": "（我們的園藝小組預算有限。導師建議用現有種子先試種一小畦。這建議有甚麼用處？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can try it without buying more supplies.",
+            "zh": "我們不用再買物資也可以試。"
+          },
+          {
+            "id": "b",
+            "en": "It gives us a manageable first step.",
+            "zh": "它讓我們有一個可處理的第一步。"
+          },
+          {
+            "id": "c",
+            "en": "It is down-to-earth because we can act on it now.",
+            "zh": "這建議很務實，因為我們現在就可以實行。"
+          },
+          {
+            "id": "d",
+            "en": "We can learn from the test before changing the whole garden.",
+            "zh": "我們可以先從試種學習，再改動整個花園。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句概括建議的可實行性。"
+      },
+      "scene": {
+        "promptZh": "新教師問如何改善課堂討論。資深教師建議每節先給學生兩分鐘寫想法，再請兩人分享，無需新增器材。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advice is down-to-earth and easy to try tomorrow.",
+            "zh": "建議務實，明天便可以嘗試。"
+          },
+          {
+            "id": "b",
+            "en": "The advice depends on buying tablets before discussion can improve.",
+            "zh": "建議認為須先購買平板電腦，討論才可改善。"
+          },
+          {
+            "id": "c",
+            "en": "The advice praises discussion without describing any classroom action.",
+            "zh": "建議只稱讚討論，沒有說明課堂做法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有清楚步驟，且不用新器材，故可立即試行。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以單憑內容稱為 down-to-earth advice？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Make every visitor feel inspired; no plan or available resources are specified.",
+            "zh": "讓每位訪客都感到鼓舞，但沒有具體計劃或現有資源。"
+          },
+          {
+            "id": "b",
+            "en": "Put a labelled box by the entrance so visitors can return cards.",
+            "zh": "入口放一個有標籤的箱子，方便訪客交回卡片。"
+          },
+          {
+            "id": "c",
+            "en": "Try a shorter opening hour for one week and count attendance.",
+            "zh": "試行一星期較短開放時間，並記錄出席人數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有理想目標，沒有可操作步驟。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們這星期無法替換整個展示區。Mina 建議先重新標示三個容易令人混淆的書架。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is a down-to-earth plan we can carry out with the time we have.",
+            "zh": "這是務實計劃，用現有時間便能完成。"
+          },
+          {
+            "id": "b",
+            "en": "Let us test whether visitors can find those shelves afterwards.",
+            "zh": "之後我們測試訪客能否找到那些書架。"
+          },
+          {
+            "id": "c",
+            "en": "We could start with the shelf visitors ask about most.",
+            "zh": "我們可以先處理訪客最常問的書架。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出在現有時間內可實行的方案。",
+        "promptEn": "A: We cannot replace the whole display this week. Mina suggests relabelling the three confusing shelves first. B: ______"
+      },
+      "speaking": {
+        "en": "The coach gave down-to-earth advice: practise one short drill daily and check progress at the end of the week.",
+        "zh": "教練給了務實的建議：每天練一個短練習，並在週末檢查進度。",
+        "promptZh": "說出建議的實際步驟，以及為何可行。",
+        "targetSpan": {
+          "start": 15,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊資源有限，需要一項明天或本月可實行的建議。用英文寫出可用資源、具體步驟和務實理由。",
+        "selfCheckZh": "不能只寫漂亮願景；每個模型都要有可執行動作。",
+        "examples": [
+          {
+            "en": "The librarian offered down-to-earth advice to new helpers: use a spare return tray already beside the desk and check it every hour, so returned books do not get mixed with new loans.",
+            "zh": "圖書館員給新幫手務實建議：使用櫃檯旁現有的後備還書托盤，並每小時查看，以免歸還的書混進新借出的書。"
+          },
+          {
+            "en": "A down-to-earth budget plan used the club’s existing supplies to run one trial session and set one affordable goal for the month.",
+            "zh": "一個務實的預算計劃善用社團現有物資，先試辦一次活動，再為本月訂下一項負擔得起的目標。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new helpers",
+            "zh": "新幫手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 57
+            }
+          },
+          {
+            "en": "a spare return tray",
+            "zh": "後備還書托盤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 82
+            }
+          },
+          {
+            "en": "every hour",
+            "zh": "每小時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 130
+            }
+          },
+          {
+            "en": "existing supplies",
+            "zh": "現有物資",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 61
+            }
+          },
+          {
+            "en": "one affordable goal",
+            "zh": "一項負擔得起的目標",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Down-to-earth advice offers a workable next step.",
+          "zh": "務實建議會提出可行的下一步。"
+        },
+        {
+          "en": "Her down-to-earth plan used resources the group already had.",
+          "zh": "她務實的計劃善用團隊已有的資源。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3234",
+      "number": 3234,
+      "inventoryId": "expr-3234",
+      "titleEn": "a shoulder to cry on",
+      "titleZh": "可傾訴和依靠的人",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the) shoulder to cry on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A person who listens and offers comfort when someone is distressed.",
+        "meaningZh": "在別人難過時願意聆聽、給予安慰的人。",
+        "grammar": "a shoulder to cry on is a noun phrase, often with need, offer, or be; it refers to emotional support, not necessarily solving the cause.",
+        "register": "Warm informal idiom. A friend might offer it to another friend after a disappointment.",
+        "boundaryZh": "重點在陪伴和傾聽；提供方案、借錢或保證事情變好，未必等於情緒支持。",
+        "misconceptionZh": "不是只要有人真的哭在肩上才可用，也不是要求朋友立即消除難過。",
+        "outcomeZh": "能辨別安慰與解決問題，並在對方難過時作合適回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1123",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 104,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After the setback, he needed a shoulder to cry on.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a shoulder to cry on"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者得知 Eva 落選後，主要提供甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A chance to talk and be heard without pressure to fix the result.",
+            "zh": "一個可傾訴、被聆聽的機會，不強迫她立即解決落選。"
+          },
+          {
+            "id": "b",
+            "en": "A guaranteed place in the next competition.",
+            "zh": "下一次比賽的保證名額。"
+          },
+          {
+            "id": "c",
+            "en": "A detailed appeal that Eva did not ask for.",
+            "zh": "一份 Eva 沒有要求的詳細上訴書。"
+          },
+          {
+            "id": "d",
+            "en": "A claim that Eva should not feel disappointed.",
+            "zh": "一句說 Eva 不應感到失望的話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者讓 Eva 談感受並陪伴，沒有假裝能改變結果。",
+        "en": "Eva did not get the place she hoped for. I cannot change the result, but I can be a shoulder to cry on. I told her I would listen if she wanted to talk, and we sat together for a while.",
+        "zh": "Eva 沒有得到期待的名額。我不能改變結果，但可以做個讓她傾訴和依靠的人。我告訴她，若想談談，我願意聽；我們也一起坐了一會兒。"
+      },
+      "reply": {
+        "promptEn": "Eva missed out on a place she wanted and says she feels disappointed. She is not asking you to change the decision. How can you respond?",
+        "promptZh": "（Eva 沒有得到想要的名額，說自己很失望。她沒有請你改變決定。你可以怎樣回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can listen if you want to tell me what happened.",
+            "zh": "若你想說說發生甚麼事，我願意聽。"
+          },
+          {
+            "id": "b",
+            "en": "Would you like company for a little while?",
+            "zh": "你想我陪你一會兒嗎？"
+          },
+          {
+            "id": "c",
+            "en": "I can be a shoulder to cry on; you do not have to explain everything now.",
+            "zh": "我可以讓你傾訴和依靠；你現在不用解釋一切。"
+          },
+          {
+            "id": "d",
+            "en": "It makes sense that you feel disappointed.",
+            "zh": "你感到失望是可以理解的。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提供合適安慰；金句直接表達可聆聽、陪伴。"
+      },
+      "scene": {
+        "promptZh": "同學的祖母入院，她一時不想討論功課。朋友陪她坐著，讓她按自己意願說出擔憂。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her friend offered a shoulder to cry on without forcing advice.",
+            "zh": "朋友讓她傾訴和依靠，沒有強迫給建議。"
+          },
+          {
+            "id": "b",
+            "en": "Her friend immediately planned a homework schedule instead of hearing her worries.",
+            "zh": "朋友沒有聆聽她的擔憂，而是立即安排功課時間表。"
+          },
+          {
+            "id": "c",
+            "en": "Her friend changed the subject every time she mentioned worry.",
+            "zh": "她每次提到擔憂，朋友都轉換話題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友以陪伴和聆聽回應難過，而非急於安排功課或避開情緒。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不像 offer a shoulder to cry on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Interrupt the upset person repeatedly to insist on a quick solution.",
+            "zh": "反覆打斷難過的人，堅持立即給出解決方法。"
+          },
+          {
+            "id": "b",
+            "en": "Ask if the person would prefer quiet company.",
+            "zh": "詢問對方是否更想有人靜靜陪伴。"
+          },
+          {
+            "id": "c",
+            "en": "Listen to what the person wishes to say before suggesting anything.",
+            "zh": "提出建議前，先聆聽對方想說的話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "急於主導解決方法，沒有給對方表達和被聆聽的空間。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我試音沒有通過。我還未準備好訂新計劃，只覺得很難過。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I am here if you need a shoulder to cry on; we can talk about plans later.",
+            "zh": "若你需要人傾訴，我在這裏；計劃可以之後再談。"
+          },
+          {
+            "id": "b",
+            "en": "Would you like me to sit with you for a bit?",
+            "zh": "你想我陪你坐一會兒嗎？"
+          },
+          {
+            "id": "c",
+            "en": "You can tell me which part of today was hardest.",
+            "zh": "你可以告訴我今天哪一部分最難受。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句尊重對方暫不作計劃的需要，先提供情緒支持。",
+        "promptEn": "A: I did not pass the audition. I am not ready to make a new plan; I just feel awful. B: ______"
+      },
+      "speaking": {
+        "en": "After the disappointing news, I needed a shoulder to cry on, and my cousin listened without rushing me.",
+        "zh": "聽到失望的消息後，我需要一個可傾訴的人；表親耐心聆聽，沒有催促我。",
+        "promptZh": "說明難過的原因、誰提供陪伴和聆聽，而非保證解決。",
+        "targetSpan": {
+          "start": 39,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人經歷失望或難過，不想立刻處理方案；另一人提供傾聽或陪伴。用英文寫出難過原因、支持方式和不強迫解決的態度。",
+        "selfCheckZh": "須以情緒支持為主，不能保證事情會被解決。",
+        "examples": [
+          {
+            "en": "When the exhibition was cancelled, the young artist needed a shoulder to cry on, and her neighbour listened without trying to erase her disappointment.",
+            "zh": "展覽取消時，年輕藝術家需要一個可傾訴的人；鄰居聆聽，沒有試圖抹去她的失望。"
+          },
+          {
+            "en": "After the difficult phone call, Theo offered a shoulder to cry on by staying with his friend and letting her decide when to speak.",
+            "zh": "那通令人難受的電話後，Theo 留在朋友身旁，讓她自己決定何時開口，成為她可傾訴的人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the exhibition",
+            "zh": "展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 19
+            }
+          },
+          {
+            "en": "the young artist",
+            "zh": "年輕藝術家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "her disappointment",
+            "zh": "她的失望",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 150
+            }
+          },
+          {
+            "en": "the difficult phone call",
+            "zh": "令人難受的電話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 30
+            }
+          },
+          {
+            "en": "when to speak",
+            "zh": "何時開口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A shoulder to cry on offers comfort, not a guaranteed solution.",
+          "zh": "可傾訴的人提供安慰，不保證解決問題。"
+        },
+        {
+          "en": "He needed a shoulder to cry on after the setback.",
+          "zh": "遭遇挫折後，他需要一個可傾訴的人。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3235",
+      "number": 3235,
+      "inventoryId": "expr-3235",
+      "titleEn": "throw in the towel",
+      "titleZh": "認輸；放棄努力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|thrown|throwing) in the towel\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Give up an effort or attempt after difficulty, rather than merely pause or revise the approach.",
+        "meaningZh": "遇到困難後，放棄原本仍可繼續的努力或嘗試，而非只暫停或改變方法。",
+        "grammar": "throw in the towel; threw is simple past, thrown follows have/has/had. The towel is figurative.",
+        "register": "Informal idiom. A teammate may say it to another teammate after a difficult rehearsal.",
+        "boundaryZh": "是否真正放棄要看當事人是否停止嘗試；為安全暫停、改策略或結束不可行計劃不必然是消極認輸。",
+        "misconceptionZh": "不是把真的毛巾丟進去，也不代表堅持到底在任何情況都較好。",
+        "outcomeZh": "能分辨放棄目標與暫停、調整方法或負責任結束。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1124",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 104,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One bad day is no reason to throw in the towel.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throw in the towel"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者收到修改建議後，決定怎樣處理海報？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Revise the layout and try again instead of giving up after one rejection.",
+            "zh": "修改版面後再試，而不是一次被退回便放棄。"
+          },
+          {
+            "id": "b",
+            "en": "Stop submitting any design to the exhibition.",
+            "zh": "停止為展覽提交任何設計。"
+          },
+          {
+            "id": "c",
+            "en": "Ignore the specific feedback and send the same poster again.",
+            "zh": "無視具體意見，重交同一張海報。"
+          },
+          {
+            "id": "d",
+            "en": "Withdraw because the exhibition has been cancelled.",
+            "zh": "因展覽已取消而撤回。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者不把第一次被退回當成終點，而是按意見修訂。",
+        "en": "The exhibition team rejected my first poster and explained that the text was too small. I was disappointed, but I will not throw in the towel. I will enlarge the text and submit a revision tomorrow.",
+        "zh": "展覽團隊退回我的第一張海報，解釋字體太小。我很失望，但不會就此認輸。我會把字體放大，明天交修訂稿。"
+      },
+      "reply": {
+        "promptEn": "The exhibition team rejected our first poster because the text is too small, but we may submit a revision tomorrow. What should we do?",
+        "promptZh": "（展覽團隊因字體太小退回我們第一張海報，但明天可以交修訂稿。我們應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Enlarge the text and check it from a distance.",
+            "zh": "把字體放大，從遠處檢查。"
+          },
+          {
+            "id": "b",
+            "en": "Ask someone unfamiliar with the poster to read it.",
+            "zh": "請未見過海報的人試讀。"
+          },
+          {
+            "id": "c",
+            "en": "We need not throw in the towel after one fixable problem.",
+            "zh": "遇到一個可修正的問題，我們不用就此認輸。"
+          },
+          {
+            "id": "d",
+            "en": "Submit a revised version before tomorrow’s deadline.",
+            "zh": "明天截止前提交修訂版。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都針對可修正問題；金句區分繼續嘗試與放棄。"
+      },
+      "scene": {
+        "promptZh": "合唱團第一次錄音不合格，導師指出節奏可練改善。團員提議不再排練、不再交第二次錄音。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The singers want to throw in the towel after a fixable setback.",
+            "zh": "歌手想在可改善的挫折後就此認輸。"
+          },
+          {
+            "id": "b",
+            "en": "The singers are taking a planned rest day before the next practice.",
+            "zh": "歌手按計劃休息一天，之後繼續練習。"
+          },
+          {
+            "id": "c",
+            "en": "The singers are changing their rehearsal method and trying again.",
+            "zh": "歌手改變排練方法，再次嘗試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有改善機會卻決定完全停止嘗試，符合認輸。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能直接說成 throw in the towel？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An injured runner pauses training on medical advice and plans to resume safely.",
+            "zh": "跑手依醫囑暫停訓練，並計劃安全地恢復。"
+          },
+          {
+            "id": "b",
+            "en": "A group stops applying after one rejection despite a clear route to revise.",
+            "zh": "團隊第一次被拒後便停止申請，雖然有清楚的修訂途徑。"
+          },
+          {
+            "id": "c",
+            "en": "A player quits a tournament after a difficult first round without trying the next match.",
+            "zh": "球員第一輪困難後退出賽事，沒有嘗試下一場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "為安全而暫停並計劃恢復，不是放棄目標。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們第一段錄音表現不好，但老師給了具體意見，也讓我們再試一次。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us not throw in the towel yet; we can practise the difficult section first.",
+            "zh": "我們先別認輸；可先練最困難的部分。"
+          },
+          {
+            "id": "b",
+            "en": "Ask which section needs the most work.",
+            "zh": "問哪一部分最需要改進。"
+          },
+          {
+            "id": "c",
+            "en": "Schedule one practice before recording again.",
+            "zh": "重新錄音前安排一次練習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把可改善的挫折與放棄區分，提出再試的具體步驟。",
+        "promptEn": "A: Our first recording was poor, but the teacher gave specific advice and offered one more attempt. B: ______"
+      },
+      "speaking": {
+        "en": "I nearly threw in the towel after the first rejection, but the feedback showed one change I could make before trying again.",
+        "zh": "第一次被拒後，我差點認輸；但意見指出我再試之前可以修改的一點。",
+        "promptZh": "說明挫折、是否仍有可行下一步，以及有否真的放棄。",
+        "targetSpan": {
+          "start": 9,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：第一次嘗試失敗，但收到可行意見，仍有再試機會。用英文寫出挫折、差點或拒絕放棄，以及下一步。",
+        "selfCheckZh": "不能把醫療或安全原因的暫停一概寫成認輸；每個模型都要有具體再試動作。",
+        "examples": [
+          {
+            "en": "The gardening club nearly threw in the towel when the first seedlings failed, but it adjusted the watering schedule and tried another tray.",
+            "zh": "園藝社第一批幼苗失敗時差點認輸，但它調整了澆水時間表，另試一盤。"
+          },
+          {
+            "en": "After one rejected article, the student refused to throw in the towel; she rewrote the introduction using the editor’s concrete comments.",
+            "zh": "一篇文章被退回後，學生拒絕認輸；她按編輯具體意見重寫引言。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the first seedlings",
+            "zh": "第一批幼苗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 69
+            }
+          },
+          {
+            "en": "the watering schedule",
+            "zh": "澆水時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 115
+            }
+          },
+          {
+            "en": "another tray",
+            "zh": "另一盤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 138
+            }
+          },
+          {
+            "en": "one rejected article",
+            "zh": "一篇被退回的文章",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 26
+            }
+          },
+          {
+            "en": "the editor’s concrete comments",
+            "zh": "編輯的具體意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One setback need not make a learner throw in the towel.",
+          "zh": "一次挫折不必令學習者認輸。"
+        },
+        {
+          "en": "Pausing for safety is different from throwing in the towel.",
+          "zh": "為安全暫停，與就此認輸不同。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3236",
+      "number": 3236,
+      "inventoryId": "expr-3236",
+      "titleEn": "enough is enough",
+      "titleZh": "忍無可忍；必須制止",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\benough is enough\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Declare that a repeated or unacceptable situation has crossed a limit and action must now be taken.",
+        "meaningZh": "表示反覆或不可接受的情況已超過容忍界限，現在必須採取行動。",
+        "grammar": "Enough is enough is a complete fixed declaration; often followed by a concrete boundary or next step.",
+        "register": "Firm everyday phrase. A resident representative might say it to neighbours after repeated unaddressed noise complaints.",
+        "boundaryZh": "重點是界限已到，應說明要停止甚麼及下一步；一次可解釋的小失誤未必足夠。",
+        "misconceptionZh": "不是單說數量足夠，也不是鼓勵不受控制的怒氣。",
+        "outcomeZh": "能在反覆問題後提出清楚界限，而非只有情緒宣洩。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1125",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 104,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After repeated delays, the group said enough is enough.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "enough is enough"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者說「夠了」後打算採取甚麼行動？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Document the repeated blocked exits and request a formal safety response.",
+            "zh": "記錄出口屢次被堵，並正式要求安全回應。"
+          },
+          {
+            "id": "b",
+            "en": "Ignore the blocked exit because this was the first time.",
+            "zh": "因為第一次發生而忽略堵塞的出口。"
+          },
+          {
+            "id": "c",
+            "en": "Accept another informal promise without recording the incidents.",
+            "zh": "不記錄事件，只接受另一次口頭承諾。"
+          },
+          {
+            "id": "d",
+            "en": "Promise that the problem is already permanently solved.",
+            "zh": "保證問題已永久解決。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三次堵塞已觸及安全界限，講者提出記錄和正式處理。",
+        "en": "For the third time this month, delivery boxes have blocked the emergency exit. Enough is enough. We will record the dates and ask the building manager for a written safety plan.",
+        "zh": "這個月第三次有送貨箱堵住緊急出口。忍無可忍，必須制止。我們會記錄日期，並要求大廈經理提供書面安全計劃。"
+      },
+      "reply": {
+        "promptEn": "Delivery boxes have blocked the emergency exit three times this month, despite earlier reminders. What should our residents’ group say?",
+        "promptZh": "（送貨箱這個月已三次堵住緊急出口，之前的提醒也沒有作用。住戶小組應怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Record each incident and report the safety risk.",
+            "zh": "記錄每次事件，報告安全風險。"
+          },
+          {
+            "id": "b",
+            "en": "Ask for a written plan to keep the exit clear.",
+            "zh": "要求書面計劃，確保出口暢通。"
+          },
+          {
+            "id": "c",
+            "en": "Enough is enough; the exit must stay clear from now on.",
+            "zh": "忍無可忍；從現在起，出口必須保持暢通。"
+          },
+          {
+            "id": "d",
+            "en": "Tell the manager which delivery times caused the problem.",
+            "zh": "告訴經理問題發生於哪些送貨時段。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可負責任地處理反覆風險；金句直接劃出界限。"
+      },
+      "scene": {
+        "promptZh": "社區中心連續四星期漏發義工輪班表。幾次提醒都沒有改善，組長決定明天正式提出改正期限。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leader said enough is enough and set a deadline for fixing the rota.",
+            "zh": "組長表示忍無可忍，並訂出修正輪班表的期限。"
+          },
+          {
+            "id": "b",
+            "en": "The leader saw one harmless typo and decided to close the centre.",
+            "zh": "組長看到一次無害筆誤，便決定關閉中心。"
+          },
+          {
+            "id": "c",
+            "en": "The leader accepted the repeated omissions without asking for change.",
+            "zh": "組長接受反覆漏發，沒有要求改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆問題及無效提醒使組長需要提出清楚界限和修正期限。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況較不足以說 enough is enough？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One isolated printing delay was explained and corrected promptly.",
+            "zh": "一次印刷延誤已獲解釋，並迅速改正。"
+          },
+          {
+            "id": "b",
+            "en": "A safety rule has been ignored repeatedly after clear warnings.",
+            "zh": "清楚警告後，安全規則仍被反覆忽略。"
+          },
+          {
+            "id": "c",
+            "en": "The same promised repair has been postponed for months without an update.",
+            "zh": "同一項承諾的維修延後數月，仍沒有消息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單次、已解釋並即時修正的延誤，未見界限被反覆突破。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：自修室在公布開放時間上鎖，已是第四次；我們的報告也一直沒有人回覆。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Enough is enough; let us request a response date and a reliable opening schedule.",
+            "zh": "忍無可忍；我們要求明確回覆日期和可靠的開放時間表。"
+          },
+          {
+            "id": "b",
+            "en": "Collect the dates of the four closures.",
+            "zh": "整理四次關閉的日期。"
+          },
+          {
+            "id": "c",
+            "en": "Ask who is responsible for opening the room.",
+            "zh": "問清楚誰負責開自修室。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句將反覆失誤轉成明確的改正要求。",
+        "promptEn": "A: This is the fourth time the study room has been locked during the advertised opening hours, and no one has replied to our reports. B: ______"
+      },
+      "speaking": {
+        "en": "After three missed safety checks, we said enough is enough and asked for a written inspection schedule.",
+        "zh": "三次安全檢查落空後，我們說忍無可忍，並要求一份書面檢查時間表。",
+        "promptZh": "說明反覆問題、已達界限及負責任的下一步。",
+        "targetSpan": {
+          "start": 42,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項重要安排反覆出錯，提醒後仍未改善；團體提出清楚、負責任的界限和修正要求。用英文寫出反覆問題、界限與下一步。",
+        "selfCheckZh": "避免只寫怒氣；兩個模型都要明確要求改正。",
+        "examples": [
+          {
+            "en": "After repeated late bus arrivals left pupils waiting outside, the parents said enough is enough and requested a revised pickup plan.",
+            "zh": "巴士屢次遲到，令學生在外面等候後，家長表示忍無可忍，並要求修訂接送計劃。"
+          },
+          {
+            "en": "The club said enough is enough when the hall booking was lost for a third time; it asked the office to confirm every future reservation in writing.",
+            "zh": "會堂預訂第三次遺失時，社團表示忍無可忍；它要求辦事處日後以書面確認每次預訂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late bus arrivals",
+            "zh": "巴士遲到",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 32
+            }
+          },
+          {
+            "en": "pupils waiting outside",
+            "zh": "學生在外面等候",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 60
+            }
+          },
+          {
+            "en": "a revised pickup plan",
+            "zh": "修訂接送計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 131
+            }
+          },
+          {
+            "en": "the hall booking",
+            "zh": "會堂預訂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 52
+            }
+          },
+          {
+            "en": "in writing",
+            "zh": "以書面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After repeated failures, enough is enough can introduce a clear boundary.",
+          "zh": "反覆失誤後，「忍無可忍」可帶出明確界限。"
+        },
+        {
+          "en": "Enough is enough; we need a specific plan to stop the problem.",
+          "zh": "忍無可忍；我們需要具體計劃制止問題。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3237",
+      "number": 3237,
+      "inventoryId": "expr-3237",
+      "titleEn": "sleep on it",
+      "titleZh": "過一晚再決定",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:sleep|sleeps|slept|sleeping) on it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Wait until after a night’s rest before making a decision, allowing time to think without deciding immediately.",
+        "meaningZh": "先睡一晚、隔天再作決定，讓自己有時間思考，而非即時表態。",
+        "grammar": "sleep on it; slept is the past form. It refers to a pending decision, so it needs a clear antecedent for it.",
+        "register": "Informal everyday phrase. A friend might say it to another friend considering a non-urgent offer.",
+        "boundaryZh": "適合可等到翌日的決定；即時安全風險或今天截止的選擇不能只用此話拖延。",
+        "misconceptionZh": "不是睡在某件物品上，也不保證一覺醒來就必定有正確答案。",
+        "outcomeZh": "能分辨需要冷靜思考且可延後的選擇，與必須立即處理的情況。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1126",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 38,
+          "sample": "S2",
+          "sourceBookPages": "91–93",
+          "locatorNote": "DOCX table 108, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not decide tonight; sleep on it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sleep on it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者今晚會怎樣處理課程選擇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Wait until tomorrow morning to decide because the deadline is next week.",
+            "zh": "截止日期在下星期，所以講者會明早才決定。"
+          },
+          {
+            "id": "b",
+            "en": "Accept the offer at once without reading its timetable.",
+            "zh": "不看時間表便立即接受。"
+          },
+          {
+            "id": "c",
+            "en": "Reject the offer because a decision is due in ten minutes.",
+            "zh": "因十分鐘後截止而拒絕。"
+          },
+          {
+            "id": "d",
+            "en": "Ask the school to cancel every other course.",
+            "zh": "要求學校取消其他課程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍有時間，講者打算先看資料並隔天再決定。",
+        "en": "The evening course sounds useful, but I want to check its timetable against my work hours. The reply is due next week, so I will sleep on it and decide tomorrow morning.",
+        "zh": "晚間課程聽來有用，但我想看看時間表是否配合工作時段。下星期才要回覆，所以我會睡一晚，明早再決定。"
+      },
+      "reply": {
+        "promptEn": "The evening course sounds useful, but the reply is not due until next week. You want to compare it with your work schedule. What should you say tonight?",
+        "promptZh": "（晚間課程聽來有用，但下星期才要回覆。你想跟自己的工作時間表比較。今晚應怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I will check the timetable before accepting.",
+            "zh": "接受前我會查看時間表。"
+          },
+          {
+            "id": "b",
+            "en": "I can give you a considered answer tomorrow.",
+            "zh": "我明天可以給你經過考慮的答覆。"
+          },
+          {
+            "id": "c",
+            "en": "Let me sleep on it and reply tomorrow morning.",
+            "zh": "讓我睡一晚想想，明早回覆。"
+          },
+          {
+            "id": "d",
+            "en": "Please send me the full course schedule first.",
+            "zh": "請先傳給我完整課程時間表。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均可合理延後非緊急決定；金句明確說出隔晚再考慮。"
+      },
+      "scene": {
+        "promptZh": "社團邀請 Maya 接任明年的司庫。她今晚有點興奮，但仍想仔細看工作內容；社團說星期五前回覆即可。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Maya can sleep on it before giving a final answer.",
+            "zh": "Maya 可以睡一晚再給最後答覆。"
+          },
+          {
+            "id": "b",
+            "en": "Maya must answer immediately because the post closes in five minutes.",
+            "zh": "職位五分鐘後截止，Maya 必須立即回答。"
+          },
+          {
+            "id": "c",
+            "en": "Maya has already accepted and has no decision left to make.",
+            "zh": "Maya 已接受，沒有決定要作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "決定未作且截止日仍遠，隔晚思考合理。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不宜只建議 sleep on it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A fire alarm sounds and everyone must leave the building now.",
+            "zh": "火警鐘響起，所有人現在必須離開大廈。"
+          },
+          {
+            "id": "b",
+            "en": "A club member has until Friday to choose between two roles.",
+            "zh": "社團成員可在星期五前選兩個職位之一。"
+          },
+          {
+            "id": "c",
+            "en": "A parent can reply tomorrow about a non-urgent weekend plan.",
+            "zh": "家長明天可回覆一項非緊急週末安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "即時安全風險不能拖到明天才行動。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：新項目職位令我感興趣，但星期四才須答覆，我也還未看工作內容。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sleep on it after reading the duties; you can answer tomorrow.",
+            "zh": "先看工作內容，再睡一晚想想；明天才回答也可以。"
+          },
+          {
+            "id": "b",
+            "en": "Ask for a clear description of the duties first.",
+            "zh": "先要求一份清楚的工作說明。"
+          },
+          {
+            "id": "c",
+            "en": "Compare the role with your current commitments.",
+            "zh": "把這職位與你目前的工作比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句利用可延後的時間讓對方在充分了解後再決定。",
+        "promptEn": "A: The new project role interests me, but I do not have to answer until Thursday and I have not read the duties. B: ______"
+      },
+      "speaking": {
+        "en": "The offer is appealing, but I will sleep on it because I have until Friday to decide and still need to check the timetable.",
+        "zh": "這個邀請很吸引，但我會睡一晚再決定，因為星期五才截止，我仍須查看時間表。",
+        "promptZh": "交代待決事項、可延後的期限及仍需考慮的資料。",
+        "targetSpan": {
+          "start": 35,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項非緊急邀請或安排尚未定案，截止日期在幾天後，當事人需要查看資料。用英文寫出待決事項、可用時間及隔晚再決定的理由。",
+        "selfCheckZh": "不得用於必須立即避險的情況；模型不應把睡一晚寫成保證得到最佳答案。",
+        "examples": [
+          {
+            "en": "The museum offered Li a weekend guide role, but she chose to sleep on it because she had two days to compare the duties with her studies.",
+            "zh": "博物館邀請 Li 擔任週末導賞員；她仍有兩天可比較工作內容與學業，於是決定睡一晚再答覆。"
+          },
+          {
+            "en": "The club proposed a new meeting time on Monday; its members checked room availability, slept on it and gave their views on Tuesday before the Friday deadline.",
+            "zh": "社團星期一建議新的開會時間；成員先查看房間是否可用，睡一晚後星期二提出意見，仍趕得上星期五的截止日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a weekend guide role",
+            "zh": "週末導賞員職位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 42
+            }
+          },
+          {
+            "en": "two days",
+            "zh": "兩天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 97
+            }
+          },
+          {
+            "en": "the duties",
+            "zh": "工作內容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 119
+            }
+          },
+          {
+            "en": "a new meeting time",
+            "zh": "新的開會時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "the Friday deadline",
+            "zh": "星期五截止日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 138,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "If the decision can wait, sleep on it before replying.",
+          "zh": "若決定可以等，回覆前先睡一晚想想。"
+        },
+        {
+          "en": "They slept on it and considered the offer again the next day.",
+          "zh": "他們睡一晚後，翌日再考慮那個邀請。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3245",
+      "number": 3245,
+      "inventoryId": "expr-3245",
+      "titleEn": "sharpen our judgment",
+      "titleZh": "提升判斷力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:sharpen|sharpens|sharpened|sharpening) (?:my|your|his|her|our|their|its) judg(?:e)?ment\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Improve the ability to assess situations or choices accurately through reflection and practice.",
+        "meaningZh": "透過反思與練習，提升準確評估情況或選項的能力。",
+        "grammar": "sharpen + possessive determiner + judgment/judgement; sharpened is past. Judgment is figuratively made more precise, not physically sharpened.",
+        "register": "Neutral educational or professional phrase. A coach might tell trainees how reviewing decisions can improve future assessment.",
+        "boundaryZh": "須有反思、比對或新證據使判斷更精準；重複同一錯誤而不檢討，不會自動提高判斷力。",
+        "misconceptionZh": "不是磨利一把實體工具，也不代表一次練習就能確保每次決定正確。",
+        "outcomeZh": "能指出哪種檢討活動如何改善下一次判斷，而不作過度保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1134",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 109, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Reviewing errors can sharpen our judgment.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sharpen our judgment"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者要求比較答案理由和文章證據，是為了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Help listeners notice what evidence they missed and assess future cases better.",
+            "zh": "幫聽者找出忽略的證據，日後更好判斷。"
+          },
+          {
+            "id": "b",
+            "en": "Prove every earlier guess was wrong.",
+            "zh": "證明以前每個猜測都錯。"
+          },
+          {
+            "id": "c",
+            "en": "Avoid making any decision in future.",
+            "zh": "以後避免作任何決定。"
+          },
+          {
+            "id": "d",
+            "en": "Memorise a list without checking evidence.",
+            "zh": "只背清單，不核對證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比較理由與文章證據可看出漏掉的線索，讓下一次評估更準確。",
+        "en": "First, write down why you chose each answer. Then compare your reasons with the evidence in the passage. That review can sharpen your judgment next time; it does not mean every future answer will be right.",
+        "zh": "先寫下你選每個答案的原因，再把理由與文章證據比較。這種檢討可提升你下次的判斷力，卻不代表以後每題都會答對。"
+      },
+      "reply": {
+        "promptEn": "We guessed which route would be fastest, but the actual travel times were different. How could we use this?",
+        "promptZh": "（我們估計哪條路最快，但實際行車時間不同。我們可以怎樣利用這次經驗？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare our estimates with the recorded times.",
+            "zh": "比較估算和紀錄的時間。"
+          },
+          {
+            "id": "b",
+            "en": "Check which factors we missed, such as transfer time.",
+            "zh": "看看忽略了甚麼因素，例如轉車時間。"
+          },
+          {
+            "id": "c",
+            "en": "Reviewing the difference can sharpen our judgment for the next route choice.",
+            "zh": "檢討差異可提升我們下次選路的判斷力。"
+          },
+          {
+            "id": "d",
+            "en": "Use the evidence to make a better estimate next time.",
+            "zh": "下次根據證據作較好的估計。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能從結果學習；金句說明檢討有助更準確判斷。"
+      },
+      "scene": {
+        "promptZh": "編輯把團隊最初預測的讀者問題與實際來信逐項比較，找出遺漏的線索，準備下次編排專題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The comparison may sharpen their judgment about readers’ needs.",
+            "zh": "這種比較可能提升他們判斷讀者需要的能力。"
+          },
+          {
+            "id": "b",
+            "en": "The editor learned nothing because the predictions were not perfect.",
+            "zh": "預測不完美，所以編輯完全沒有學到東西。"
+          },
+          {
+            "id": "c",
+            "en": "The next issue is guaranteed to contain no mistakes.",
+            "zh": "下一期保證不會出錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "逐項比較與發現漏掉線索，能改善日後評估，但非保證。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不足以 sharpen judgment？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeat the same guess without examining why it failed.",
+            "zh": "不檢討失敗原因，反覆作同一猜測。"
+          },
+          {
+            "id": "b",
+            "en": "Compare a prediction with what happened and note a missed clue.",
+            "zh": "比較預測與結果，記下一個漏掉的線索。"
+          },
+          {
+            "id": "c",
+            "en": "Ask which evidence supported the better option.",
+            "zh": "問哪些證據支持較好的選項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有反思或新證據，重複猜測不會自行改善判斷。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：上兩次選的海報，吸引到的訪客比預期少。我們應否隨機再選另一種顏色？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us compare what visitors noticed; that may sharpen our judgment for the next design.",
+            "zh": "不如比較訪客留意到甚麼；這可能提升我們下次設計的判斷力。"
+          },
+          {
+            "id": "b",
+            "en": "Ask visitors which details they found clear.",
+            "zh": "問訪客哪些細節清晰。"
+          },
+          {
+            "id": "c",
+            "en": "Review the earlier designs before choosing a new one.",
+            "zh": "選新設計前先檢討舊設計。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句提出蒐集及比較證據，以改善下一次判斷。",
+        "promptEn": "A: Our last two poster choices drew fewer visitors than expected. Should we just choose another colour at random? B: ______"
+      },
+      "speaking": {
+        "en": "Comparing our forecast with the actual turnout sharpened our judgment about which event times work best.",
+        "zh": "比較預測和實際出席人數，提升了我們判斷哪個活動時段最合適的能力。",
+        "promptZh": "交代原先判斷、實際證據和能力如何改善。",
+        "targetSpan": {
+          "start": 47,
+          "end": 69
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：個人或團隊原先作出一項估計，後來取得實際證據，透過比較找出遺漏並改善下一次判斷。用英文寫出比較方法和後續改變。",
+        "selfCheckZh": "需有檢討或新證據；不能宣稱日後每次都會正確。",
+        "examples": [
+          {
+            "en": "The volunteer team sharpened its judgment by comparing expected attendance with actual numbers, then changed how it planned future shifts.",
+            "zh": "義工團隊比較預期與實際出席人數，提升了判斷力，並改變往後安排輪班的方法。"
+          },
+          {
+            "en": "By reviewing which clues she missed in three practice cases, Nara sharpened her judgement before making another recommendation.",
+            "zh": "Nara 檢討三個練習個案中漏掉的線索後，提升了判斷力，才再提出建議。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "expected attendance",
+            "zh": "預期出席人數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 74
+            }
+          },
+          {
+            "en": "actual numbers",
+            "zh": "實際人數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 94
+            }
+          },
+          {
+            "en": "future shifts",
+            "zh": "往後輪班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 137
+            }
+          },
+          {
+            "en": "three practice cases",
+            "zh": "三個練習個案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 59
+            }
+          },
+          {
+            "en": "another recommendation",
+            "zh": "另一項建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 126
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Checking missed clues can sharpen our judgment.",
+          "zh": "檢查漏掉的線索可提升判斷力。"
+        },
+        {
+          "en": "The review sharpened her judgement without guaranteeing future perfection.",
+          "zh": "這次檢討提升了她的判斷力，但不保證往後完美。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3273",
+      "number": 3273,
+      "inventoryId": "expr-3273",
+      "titleEn": "turn mistakes into learning moments",
+      "titleZh": "把錯誤化作學習機會",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:turn|turns|turned|turning) (?:(?:(?:a|the|one|her|his) mistake into a learning moment)|(?:(?:mistakes|their mistakes|our mistakes|the mistakes) into learning moments))\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Use an error as a chance to understand what happened and improve the next attempt.",
+        "meaningZh": "把錯誤當成了解原因、改善下次做法的機會。",
+        "grammar": "turn a mistake into a learning moment; plural mistakes into learning moments. The construction needs an actual mistake and a learning action, not merely a comforting label.",
+        "register": "Supportive educational phrase. A teacher might use it with a parent when discussing a child’s corrected work.",
+        "boundaryZh": "重點是找原因並練習改進；錯誤帶來真實後果時仍要承擔責任，不能只說「這是學習」便算。",
+        "misconceptionZh": "不是讚美錯誤本身，也不是保證每次犯錯都自動成長。",
+        "outcomeZh": "能指出錯誤、檢討步驟和下一次的具體改進。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1162",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 108,
+          "book": 12,
+          "question": 42,
+          "sample": "S1",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 112, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Patient adults can turn mistakes into learning moments.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn mistakes into learning moments"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者如何處理學生寫錯的借書日期？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The record is corrected, and the skipped calendar check is identified.",
+            "zh": "紀錄得到改正，也找出了漏掉的日曆核對步驟。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker accepts the error as accidental and leaves the record unchanged.",
+            "zh": "講者認為只是意外，所以不改正紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker changes the date without checking how the error happened.",
+            "zh": "講者改了日期，卻不檢查出錯原因。"
+          },
+          {
+            "id": "d",
+            "en": "The student repeats the same entry without checking it.",
+            "zh": "學生不檢查便再填同樣資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者先修正對他人有影響的紀錄，再找出漏掉的核對步驟。",
+        "en": "The student entered the wrong return date, so another borrower got wrong information. We corrected it and found the calendar check was skipped. We turn mistakes into learning moments by checking dates before saving next time.",
+        "zh": "學生輸入錯誤還書日期，令另一名借書人收到錯誤資訊。我們改正紀錄，發現漏了核對日曆。我們透過下次儲存前先查日期，把錯誤化作學習機會。"
+      },
+      "reply": {
+        "promptEn": "A student entered the wrong return date and another borrower got incorrect information. The record has now been corrected. How can the teacher help next?",
+        "promptZh": "（學生輸入錯誤還書日期，另一名借書人收到錯誤資訊。紀錄現已改正。老師下一步可以怎樣幫忙？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask the student which step was missed.",
+            "zh": "問學生漏掉哪個步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Practise checking the calendar before saving a date.",
+            "zh": "練習在儲存日期前核對日曆。"
+          },
+          {
+            "id": "c",
+            "en": "We can turn mistakes into learning moments by reviewing the cause and practising a date check.",
+            "zh": "我們可以檢討原因、練習核對日期，把錯誤化作學習機會。"
+          },
+          {
+            "id": "d",
+            "en": "Check the next few entries together.",
+            "zh": "之後幾筆紀錄可一起核對。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "紀錄已更正；四句均聚焦下次如何核對，金句連結錯誤與改進。"
+      },
+      "scene": {
+        "promptZh": "學生忘記為社區活動發提醒，幾人因此遲到。他先道歉並發出正確時間，再和導師整理一份下次發訊息前要核對的清單。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They turned a mistake into a learning moment while repairing its effect.",
+            "zh": "他們在補救影響的同時，把錯誤化作學習機會。"
+          },
+          {
+            "id": "b",
+            "en": "They called the error a lesson but never told attendees the right time.",
+            "zh": "他們說錯誤是教訓，卻沒有告訴參加者正確時間。"
+          },
+          {
+            "id": "c",
+            "en": "They copied the old reminder without checking any details.",
+            "zh": "他們不核對資料，照抄舊提醒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先補救及道歉，再整理核對清單，才真正把錯誤轉化成學習。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最不足以 turn a mistake into a learning moment？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say “everyone makes mistakes” and repeat the same process unchanged.",
+            "zh": "只說「人人都會犯錯」，然後照舊做同一流程。"
+          },
+          {
+            "id": "b",
+            "en": "Correct the affected record and examine why the error happened.",
+            "zh": "改正受影響的紀錄，並檢查出錯原因。"
+          },
+          {
+            "id": "c",
+            "en": "Practise the missing check before the next attempt.",
+            "zh": "下次再試前，練習漏掉的核對步驟。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有檢討或新做法，只用安慰話語不能產生學習。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：團隊在邀請函中用了去年的房號，客人走錯樓層。我們已送出更正通知。下一步呢？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us turn the mistake into a learning moment by checking the venue details against the current booking next time.",
+            "zh": "不如把錯誤化作學習機會；下次根據最新預訂核對場地資料。"
+          },
+          {
+            "id": "b",
+            "en": "Ask guests whether anyone still needs directions.",
+            "zh": "問客人是否仍有人需要指路。"
+          },
+          {
+            "id": "c",
+            "en": "Update the invitation template with the new room number.",
+            "zh": "在邀請函範本更新新房號。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句在已補救後提出可避免重犯的核對方法。",
+        "promptEn": "A: The team used last year’s room number in the invitation, and guests went to the wrong floor. We have sent the correction. What next? B: ______"
+      },
+      "speaking": {
+        "en": "The team turned a mistake into a learning moment by correcting the timetable and adding a second check before publication.",
+        "zh": "團隊先修正時間表，再在發布前加設第二次核對，把錯誤化作學習機會。",
+        "promptZh": "說出實際錯誤、即時補救及下次的改進。",
+        "targetSpan": {
+          "start": 9,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊發送錯誤資訊或漏掉重要標示，先補救對他人的影響，再訂出可執行的防錯步驟。用英文寫出錯誤、補救和下次怎樣核對。",
+        "selfCheckZh": "不能只說錯誤帶來學習；每個模型須有補救和改進行動。",
+        "examples": [
+          {
+            "en": "After sending the wrong pickup point, the volunteers turned a mistake into a learning moment: they corrected the message and tested the new location-check step.",
+            "zh": "義工送出錯誤集合地點後，把錯誤化作學習機會：他們更正訊息，並測試新的地點核對步驟。"
+          },
+          {
+            "en": "The club turned mistakes into learning moments by fixing the missing labels and asking two members to check the next set of boxes.",
+            "zh": "社團先補回遺漏的標籤，再請兩名成員核對下一批箱子，把錯誤化作學習機會。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the wrong pickup point",
+            "zh": "錯誤集合地點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 36
+            }
+          },
+          {
+            "en": "corrected the message",
+            "zh": "更正訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 120
+            }
+          },
+          {
+            "en": "location-check step",
+            "zh": "地點核對步驟",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 159
+            }
+          },
+          {
+            "en": "the missing labels",
+            "zh": "遺漏的標籤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          },
+          {
+            "en": "the next set of boxes",
+            "zh": "下一批箱子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We turn mistakes into learning moments when we repair harm and change the next process.",
+          "zh": "補救影響並改進流程，才能把錯誤化作學習機會。"
+        },
+        {
+          "en": "The teacher turned a mistake into a learning moment by practising the missed check.",
+          "zh": "老師練習漏掉的核對步驟，把錯誤化作學習機會。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3274",
+      "number": 3274,
+      "inventoryId": "expr-3274",
+      "titleEn": "let someone off the hook",
+      "titleZh": "免除應負的責任",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:let|lets|letting) (?:me|you|him|her|us|them|children|students|staff|(?:the|a) (?:child|student|volunteer|player|worker|team)) off the hook\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Release someone from an obligation or consequence they would otherwise face; in this source, doing so without accountability.",
+        "meaningZh": "免除某人本來須承擔的責任或後果；在本來源情境中，指未有要求其負責。",
+        "grammar": "let/lets/letting + person or group + off the hook; let is unchanged in the past. The person object is replaceable, not literally the word someone.",
+        "register": "Informal conversational phrase. A teacher might use it with a parent when explaining why kindness can coexist with a fair correction.",
+        "boundaryZh": "合理的體諒與適當免責可以存在；本課關鍵是仍需承擔可行的修正責任，不能把「仁慈」等同完全不處理。",
+        "misconceptionZh": "不是把人從真正的鈎上放下，也不代表每項錯誤都須嚴厲懲罰。",
+        "outcomeZh": "能分辨理解原因、調整處理方法與完全免除必要責任。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1163",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 108,
+          "book": 12,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 112, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Kindness does not mean letting children off the hook.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "letting children off the hook"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者認為孩子仍需做甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Correct the notice that gave the wrong start time and explain the error.",
+            "zh": "改正寫錯開始時間的通知，並說明錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "Receive a severe punishment without being heard.",
+            "zh": "未獲聆聽便受嚴厲懲罰。"
+          },
+          {
+            "id": "c",
+            "en": "Do nothing because the mistake was accidental.",
+            "zh": "因為並非故意，所以完全不用處理。"
+          },
+          {
+            "id": "d",
+            "en": "Ask the child only to apologise without correcting the notice.",
+            "zh": "只請孩子道歉，卻不更正通知。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者願意聽原因，但仍要求孩子更正對他人有影響的錯誤。",
+        "en": "The child wrote the wrong start time on the notice. We will listen to how it happened, but kindness does not mean letting children off the hook. The child can help correct the notice and explain the change to families.",
+        "zh": "孩子在通知上寫錯開始時間。我們會聆聽出錯原因，但仁慈不代表讓孩子完全不用負責。孩子可以協助更正通知，並向家庭說明改動。"
+      },
+      "reply": {
+        "promptEn": "A child wrote the wrong start time on the notice. Families have been told the correct time. How can we be kind while teaching responsibility?",
+        "promptZh": "（孩子在通知上寫錯開始時間。家庭已收到正確時間。怎樣既有體諒，也教孩子負責？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask what check the child missed without shaming them.",
+            "zh": "不羞辱孩子，問清楚漏掉哪個核對步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Let the child help write a correction note.",
+            "zh": "讓孩子協助寫更正通知。"
+          },
+          {
+            "id": "c",
+            "en": "We need not let the child off the hook; they can help repair the mistake.",
+            "zh": "我們不必完全免除孩子的責任；孩子可以協助補救。"
+          },
+          {
+            "id": "d",
+            "en": "Practise checking the time together before the next notice.",
+            "zh": "下次發通知前，一起練習核對時間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以可行方式教責任；金句拒絕把體諒等同完全免責。"
+      },
+      "scene": {
+        "promptZh": "學生借走社團相機，忘記按約定時間歸還，令下一組不能使用。導師理解他有突發家庭事，但仍請他聯絡下一組、道歉並安排歸還。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher did not let the student off the hook, though the response was considerate.",
+            "zh": "導師雖然體諒，仍沒有完全免除學生的責任。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher ignored the affected group and required no follow-up.",
+            "zh": "導師無視受影響的小組，也沒有要求後續行動。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher decided the student must leave the club permanently.",
+            "zh": "導師決定學生須永久退出社團。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "理解原因但仍要求聯絡、道歉和歸還，是有界限的負責任處理。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最清楚是在 let someone off the hook，而非要求負責？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser says no correction is needed after a volunteer sent the wrong address.",
+            "zh": "義工送錯地址後，主辦人說不必更正。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser hears the reason and asks the volunteer to send a correction.",
+            "zh": "主辦人聽了解釋，請義工發更正通知。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser adjusts the deadline because of illness but still asks for a handover.",
+            "zh": "主辦人因病情調整期限，但仍要求交接。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已造成錯誤資訊卻完全不要求更正，才是免除本來應負的責任。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Mira 送出了舊場地地址，但她已道歉。雖然客人可能去錯地方，我們應否就此算了？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can be understanding without letting her off the hook; ask her to send the corrected address.",
+            "zh": "我們可以體諒，但不應完全免除她的責任；請她送出正確地址。"
+          },
+          {
+            "id": "b",
+            "en": "Check which guests received the old message.",
+            "zh": "查清楚哪些客人收到舊訊息。"
+          },
+          {
+            "id": "c",
+            "en": "Offer to help her prepare the correction.",
+            "zh": "可以幫她準備更正通知。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句兼顧理解和補救，避免把道歉當成可不更正的理由。",
+        "promptEn": "A: Mira sent the old venue address, but she apologised. Should we leave it there even though guests may arrive at the wrong place? B: ______"
+      },
+      "speaking": {
+        "en": "The coach did not let the player off the hook after the missed handover; the player still contacted the waiting team and apologised.",
+        "zh": "交接落空後，教練沒有完全免除球員的責任；球員仍聯絡等候的隊伍並道歉。",
+        "promptZh": "說明原有責任、造成的影響及公平的補救方式。",
+        "targetSpan": {
+          "start": 18,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生或義工因可理解原因漏做承諾的交接或通知，影響他人；團隊以體諒態度要求可行補救。用英文寫出原因、影響和仍須承擔的具體責任。",
+        "selfCheckZh": "體諒不等於嚴懲，也不等於完全免責；兩個模型須顯示合理補救。",
+        "examples": [
+          {
+            "en": "The student missed the promised key handover when a train disruption delayed him, so the library opened late. The librarian did not let him off the hook: he apologised to waiting visitors and arranged a backup handover for the next shift.",
+            "zh": "學生因列車受阻而遲到，錯過了承諾的鑰匙交接，令圖書館延遲開門。圖書館員沒有完全免除他的責任：他向等候的訪客道歉，並安排下一更的後備交接。"
+          },
+          {
+            "en": "The club was kind about the volunteer’s family emergency without letting the volunteer off the hook for the missed handover, which delayed the next shift’s opening; together they notified the waiting workers and arranged key collection.",
+            "zh": "社團體諒義工遇上家庭急事，但沒有完全免除漏做交接的責任；這令下一更延遲開門。大家一起通知等候的員工，並安排領取鑰匙。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a train disruption",
+            "zh": "列車受阻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 68
+            }
+          },
+          {
+            "en": "the promised key handover",
+            "zh": "承諾的鑰匙交接",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 44
+            }
+          },
+          {
+            "en": "waiting visitors",
+            "zh": "等候的訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 171,
+              "end": 187
+            }
+          },
+          {
+            "en": "family emergency",
+            "zh": "家庭急事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 40,
+              "end": 56
+            }
+          },
+          {
+            "en": "the missed handover",
+            "zh": "漏做的交接",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Kindness need not mean letting children off the hook.",
+          "zh": "仁慈不必等於完全免除孩子的責任。"
+        },
+        {
+          "en": "They did not let the volunteer off the hook, but chose a fair way to repair the error.",
+          "zh": "他們沒有完全免除義工的責任，但選擇了公平的補救方式。"
+        }
+      ]
+    }
+  ]
+}

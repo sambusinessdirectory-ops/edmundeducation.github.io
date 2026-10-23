@@ -1,0 +1,183 @@
+{
+  "reviewType": "AI author self-audit, not independent peer review, human approval, media listening approval, or release certification",
+  "scope": "Eight unselected Books 10–16 proposed-new lessons after source ordinal 2870",
+  "createdUtc": "2026-10-23T13:39:33.847177+00:00",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "sha256": "7decbc6b334f613812f6fd5d1842505d9f62a6fd8d0ebca1126aa67c104c1db4"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "sha256": "710b4da399e33d20a9e31a5ba746015fe3cbcae73ac94fea18ed52cc85e67831"
+    }
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+      "sha256": "4a03b2a8c49d147814d462a54b6da3ced2c78dda44e0108137b4e33dfe625c4b",
+      "sourceOrdinals": [
+        2876,
+        2878,
+        2879,
+        2880
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "sha256": "7ae55db9521bd93c32667390f27ec3d6e6994bbd61a69bc7a60044a7b783c688",
+      "sourceOrdinals": [
+        2882,
+        2912,
+        2916,
+        2919
+      ]
+    }
+  ],
+  "sourceOrdinals": [
+    2876,
+    2878,
+    2879,
+    2880,
+    2882,
+    2912,
+    2916,
+    2919
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass after repairs",
+    "check": "pass after repairs",
+    "outputDirectory": "/private/tmp/advanced-native-2876-2919-pilot"
+  },
+  "authorChecks": [
+    {
+      "sourceOrdinal": 2876,
+      "lessonId": "advanced-native-2876",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2878,
+      "lessonId": "advanced-native-2878",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2879,
+      "lessonId": "advanced-native-2879",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2880,
+      "lessonId": "advanced-native-2880",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2882,
+      "lessonId": "advanced-native-2882",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2912,
+      "lessonId": "advanced-native-2912",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2916,
+      "lessonId": "advanced-native-2916",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    },
+    {
+      "sourceOrdinal": 2919,
+      "lessonId": "advanced-native-2919",
+      "exactSourceAndOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsPresent": true,
+      "keyedTargetAndFourReplies": true,
+      "bothWritingModelsTargetBearing": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "chineseAndFairness": "AI author checked; independent adversarial review pending"
+    }
+  ],
+  "priorOwnerDetectorCollision": {
+    "sourceOrdinal": 2876,
+    "priorCanonicalId": "advanced-native-329",
+    "priorCanonicalTitle": "hands-on",
+    "priorPattern": "\\bhands[- ]on\\b",
+    "sourcePhrase": "hands on the wheel",
+    "semanticComparison": "Canonical 329 teaches direct practical participation in an activity. Proposed 2876 teaches who has decision-making control in a crisis. The prior broad hands-on detector matches the first words of a longer different idiom; exact source and learner decision are distinct. Human owner sign-off remains needed.",
+    "action": "Kept unselected; no decision or owner edit."
+  },
+  "nearbySourceOwnership": {
+    "sourceOrdinal": 2920,
+    "phrase": "less really is more",
+    "comparison": "Near conceptual neighbour of 2919 quality over quantity; needs independent learner-decision comparison before a separate lesson. No decision edit."
+  },
+  "openGates": [
+    "Independent exact-hash follow-up on R2876-01 and R2880-01",
+    "Human source-owner/sense approval under Golden SOP",
+    "Media listening and device QA",
+    "Manifest selection and publication controlled by parent; no release action taken"
+  ],
+  "updatedUtc": "2026-10-23T13:44:53.568743+00:00",
+  "independentReviewRepairs": [
+    {
+      "finding": "R2876-01",
+      "repair": "Added their to keyed dialogue target; source/grammar now agree.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2880-01",
+      "repair": "Science fair is now open to everyone, aligning both event access criteria in English and Chinese listening.",
+      "contentRevision": 2
+    }
+  ]
+}

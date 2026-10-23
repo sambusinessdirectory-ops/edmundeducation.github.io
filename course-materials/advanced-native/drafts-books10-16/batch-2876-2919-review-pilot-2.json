@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2876-2919-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2882",
+      "number": 2882,
+      "inventoryId": "expr-2882",
+      "titleEn": "take responsibility",
+      "titleZh": "承擔責任",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking)\\s+responsibility\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Accept accountability for one’s action, mistake or duty rather than shifting it to others.",
+        "meaningZh": "承認自己對行動、錯誤或職責負有責任，而不把責任推給別人。",
+        "grammar": "Take responsibility for + action/problem; the phrase identifies accountability and can be followed by a specific repair, but does not itself describe the repair.",
+        "register": "Plain workplace accountability: a project lead tells colleagues she sent the wrong schedule and will correct it.",
+        "boundaryZh": "承擔責任不等於獨自造成全部問題，亦不能只靠一句話便證明已完成補救。",
+        "misconceptionZh": "不是把「責任」當物品拿走，也不是把錯誤全推給下屬。",
+        "outcomeZh": "能指出應由誰承認自己造成的部分，以及還須採取甚麼具體補救。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0771",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 71,
+          "book": 12,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–5",
+          "locatorNote": "DOCX table 71, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Leaders should take responsibility for mistakes.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take responsibility"
+        }
+      ],
+      "listening": {
+        "en": "The coordinator sent the outdated timetable to families. She said she would take responsibility for the mistake and send a corrected version that afternoon.",
+        "zh": "統籌員把舊時間表發給家長。她說會為這次失誤承擔責任，並在當天下午發出修正版。",
+        "promptZh": "take responsibility 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She accepts accountability for sending the wrong timetable.",
+            "zh": "她承認自己發錯時間表的責任。"
+          },
+          {
+            "id": "b",
+            "en": "She says families caused the mistake.",
+            "zh": "她說錯誤由家長造成。"
+          },
+          {
+            "id": "c",
+            "en": "She has already proven every family read the correction.",
+            "zh": "她已證明每位家長看過修正。"
+          },
+          {
+            "id": "d",
+            "en": "She can repair the error without telling anyone.",
+            "zh": "她可不告知任何人便補救錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她承認自己發錯版本，並承諾補發。"
+      },
+      "reply": {
+        "promptEn": "What should the club secretary say after she accidentally omitted two volunteers from the duty list? She prepared the list herself, and the omitted names need adding before tomorrow.",
+        "promptZh": "（學會秘書不小心把兩名義工漏出值勤名單後應怎樣說？名單由她整理，明天前須補上名字。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She should acknowledge that she left the names out.",
+            "zh": "她應承認自己漏掉名字。"
+          },
+          {
+            "id": "b",
+            "en": "She can correct the list before it is used.",
+            "zh": "她可在名單使用前修正。"
+          },
+          {
+            "id": "c",
+            "en": "She should take responsibility for the omission and update the list.",
+            "zh": "她應為遺漏承擔責任並更新名單。"
+          },
+          {
+            "id": "d",
+            "en": "She should not blame the omitted volunteers for her list error.",
+            "zh": "她不應把自己整理名單的錯誤推給被漏掉的義工。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都把她造成的遺漏與具體修正連起來；金句用 take responsibility。"
+      },
+      "scene": {
+        "promptZh": "職員親自把錯誤日期放上網站，發現後向訪客承認並改正。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She took responsibility for the incorrect date and corrected it.",
+            "zh": "她為錯誤日期承擔責任並作出更正。"
+          },
+          {
+            "id": "b",
+            "en": "She blamed visitors for reading the date.",
+            "zh": "她責怪訪客閱讀該日期。"
+          },
+          {
+            "id": "c",
+            "en": "She denied ever uploading the date.",
+            "zh": "她否認曾上載日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認自己上載錯誤並更正，是承擔責任的做法。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不符合 take responsibility for a mistake？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editor admits the wrong caption and publishes a correction.",
+            "zh": "編輯承認圖片說明有誤並刊登更正。"
+          },
+          {
+            "id": "b",
+            "en": "The author quietly blames a colleague for an error she herself made.",
+            "zh": "作者把自己造成的錯誤暗中推給同事。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser says the invitation omitted the room number and sends an update.",
+            "zh": "籌辦人承認邀請函漏寫房號並發出更新。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "把自己造成的錯誤推給同事，是逃避責任。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她說會 take responsibility，就代表補救已經全部完成。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Taking responsibility is accepting accountability; we should still check whether the promised correction was sent.",
+            "zh": "承擔責任是承認應負責任；仍要核實承諾的更正是否已發出。"
+          },
+          {
+            "id": "b",
+            "en": "A promise to correct proves every recipient already received the new version.",
+            "zh": "承諾更正就證明每位收件人已收到新版。"
+          },
+          {
+            "id": "c",
+            "en": "Accountability means the error cannot be corrected.",
+            "zh": "承擔責任表示錯誤無法更正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認責任與完成補救是不同步驟。"
+      },
+      "speaking": {
+        "en": "I sent the old form, so I will take responsibility for the mix-up and email the corrected link today.",
+        "zh": "我發錯了舊表格，所以會為這次混亂承擔責任，今天電郵發出正確連結。",
+        "promptZh": "先聽示範，再指出說話者承諾的補救。",
+        "targetSpan": {
+          "start": 31,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區活動籌辦人自己發出寫錯集合時間的通知，十位參加者可能受影響；她打算承認失誤並今天發出更正，但仍未確認所有人已收到。用一至兩句英文描述責任和補救狀態。",
+        "selfCheckZh": "寫出錯誤通知由籌辦人發出、她會承擔責任並今天更正、尚未確認所有人收到。",
+        "examples": [
+          {
+            "en": "The organiser will take responsibility for sending the wrong meeting time and issue a correction today; she has not yet confirmed that all ten participants received it.",
+            "zh": "籌辦人會為發出錯誤集合時間承擔責任，今天發出更正；她尚未確認十位參加者全都收到。"
+          },
+          {
+            "en": "Because she sent the incorrect notice, the organiser plans to take responsibility for the mistake and send an update today, while receipt by all ten people remains unconfirmed.",
+            "zh": "因為錯誤通知由她發出，籌辦人打算為失誤承擔責任，並於今天發出更新；十人是否全都收到仍未確認。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wrong meeting time",
+            "zh": "錯誤集合時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 73
+            }
+          },
+          {
+            "en": "issue a correction",
+            "zh": "發出更正",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 96
+            }
+          },
+          {
+            "en": "all ten participants",
+            "zh": "十位參加者全都",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 155
+            }
+          },
+          {
+            "en": "has not yet confirmed",
+            "zh": "尚未確認",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 129
+            }
+          },
+          {
+            "en": "incorrect notice",
+            "zh": "錯誤通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 37
+            }
+          },
+          {
+            "en": "send an update",
+            "zh": "發出更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Take responsibility for a mistake means accept accountability rather than shift blame.",
+          "zh": "為錯誤承擔責任，是承認應負責而非推卸。"
+        },
+        {
+          "en": "Taking responsibility is not the same as having completed every corrective action.",
+          "zh": "承擔責任不等於已完成所有補救。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2912",
+      "number": 2912,
+      "inventoryId": "expr-2912",
+      "titleEn": "go-to reward",
+      "titleZh": "慣常首選獎勵",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bgo-to\\s+reward\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The reward chosen as the usual first option in a particular setting.",
+        "meaningZh": "某個情境中慣常首先採用的獎勵。",
+        "grammar": "Go-to is a hyphenated adjective before reward; the phrase identifies a habitual default, not the only reward ever used.",
+        "register": "Reflective classroom planning: a teacher tells a colleague that praise has become her routine response to effort and considers when other feedback might help.",
+        "boundaryZh": "慣常首選不等於永遠唯一，亦不證明它對每位學生都最有效。",
+        "misconceptionZh": "不是「走到獎勵那裏」；一次使用還不足以稱為 go-to。",
+        "outcomeZh": "能根據反覆選用的證據辨認預設獎勵，同時保留例外及效果評估。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0801",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 74,
+          "book": 12,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 74, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Praise became the go-to reward in the classroom.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go-to reward"
+        }
+      ],
+      "listening": {
+        "en": "For months, the teacher has praised pupils first whenever they show effort; she uses stickers only occasionally. Praise has become her go-to reward.",
+        "zh": "幾個月來，老師每逢學生用功，通常先給口頭讚賞，貼紙則只偶爾使用。讚賞已成為她的慣常首選獎勵。",
+        "promptZh": "go-to reward 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Praise is her usual first reward for effort.",
+            "zh": "讚賞是她獎勵用功時慣常的第一選擇。"
+          },
+          {
+            "id": "b",
+            "en": "She has used praise only once this year.",
+            "zh": "她今年只讚賞過學生一次。"
+          },
+          {
+            "id": "c",
+            "en": "Stickers are the only reward she ever gives.",
+            "zh": "貼紙是她唯一會給的獎勵。"
+          },
+          {
+            "id": "d",
+            "en": "Every pupil prefers praise to every other form of feedback.",
+            "zh": "每位學生都比起任何其他回饋更喜歡讚賞。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她幾個月來反覆先用讚賞，貼紙只是偶爾使用。"
+      },
+      "reply": {
+        "promptEn": "Why does the sports coach call a short thank-you note his regular choice? After almost every volunteer shift he writes one; certificates are reserved for occasional milestones.",
+        "promptZh": "（體育教練為何說簡短感謝卡是他的慣常選擇？幾乎每次義工值勤後，他都寫一張；證書只在偶爾的重要節點頒發。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He gives thank-you notes after most shifts.",
+            "zh": "他在大多數值勤後送感謝卡。"
+          },
+          {
+            "id": "b",
+            "en": "Certificates remain available for special milestones.",
+            "zh": "證書仍可用於特別的重要節點。"
+          },
+          {
+            "id": "c",
+            "en": "A note is his go-to reward for regular volunteer help.",
+            "zh": "感謝卡是他獎勵日常義工幫忙時的首選。"
+          },
+          {
+            "id": "d",
+            "en": "His usual acknowledgement is a note, not a certificate.",
+            "zh": "他慣常以感謝卡而非證書表達謝意。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都據頻率判斷首選獎勵，沒有排除證書；金句用 go-to reward。"
+      },
+      "scene": {
+        "promptZh": "社區中心幾乎每次孩子完成閱讀任務都讓他們選一本二手書，只有少數日子改送書籤。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A second-hand book is the centre’s go-to reward for the reading task.",
+            "zh": "二手書是中心給完成閱讀任務孩子的慣常首選獎勵。"
+          },
+          {
+            "id": "b",
+            "en": "The centre has offered a book only once.",
+            "zh": "中心只曾送書一次。"
+          },
+          {
+            "id": "c",
+            "en": "The centre never gives any bookmarks.",
+            "zh": "中心從不送書籤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆送書而偶爾送書籤，支持「慣常首選」。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以稱一項獎勵為 go-to reward？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tutor chooses it after nearly every completed practice session.",
+            "zh": "導師幾乎每次學生完成練習都選它。"
+          },
+          {
+            "id": "b",
+            "en": "A school gives it once for a unique anniversary and never again.",
+            "zh": "學校只在一次獨特周年活動頒發，之後沒有再用。"
+          },
+          {
+            "id": "c",
+            "en": "A club usually offers it first, with occasional alternatives.",
+            "zh": "學會通常先給這項獎勵，偶爾改用其他。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只用過一次，不足以構成慣常首選。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這是老師的 go-to reward，所以每個學生都一定喜歡，而且她不能用其他獎勵。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is her go-to reward because she chooses it often; that does not prove universal preference or exclude alternatives.",
+            "zh": "它是慣常首選，因為她經常使用；這不證明人人喜歡，也不排除其他選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A default reward must be every pupil’s favourite.",
+            "zh": "預設獎勵一定是每位學生最喜歡的。"
+          },
+          {
+            "id": "c",
+            "en": "If she ever uses another reward, there cannot be a go-to choice.",
+            "zh": "只要她曾用其他獎勵，就不可能有首選。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "使用頻率與普遍喜好是兩回事，首選也容許例外。"
+      },
+      "speaking": {
+        "en": "The club’s go-to reward for regular helpers is a handwritten note, while an annual certificate marks exceptional service.",
+        "zh": "學會對日常幫手慣常首選的獎勵是手寫感謝卡，年度證書則表揚特別傑出的服務。",
+        "promptZh": "先聽示範，再說出兩種獎勵的使用頻率。",
+        "targetSpan": {
+          "start": 11,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館閱讀計劃通常在孩子完成一本書後送書籤，偶爾在學期末送證書；負責人仍在評估書籤對不同孩子是否有效。用一至兩句英文描述慣常獎勵與限制。",
+        "selfCheckZh": "寫出書籤是反覆使用的首選、證書只是偶爾發、效果仍待評估，不要說每個孩子都喜歡。",
+        "examples": [
+          {
+            "en": "A bookmark is the library’s go-to reward when a child finishes a book; certificates are occasional, and staff are still checking how well bookmarks work for different children.",
+            "zh": "孩子讀完一本書時，書籤是圖書館慣常首選的獎勵；證書偶爾才發，員工仍在評估書籤對不同孩子的效果。"
+          },
+          {
+            "en": "The programme usually gives a bookmark after each finished book, making it the go-to reward; end-of-term certificates are rarer, and its effect for every child is still being assessed.",
+            "zh": "計劃通常在孩子讀完一本書後送書籤，使它成為慣常首選獎勵；學期末證書較少發，而書籤對不同孩子的效果仍在評估。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A bookmark",
+            "zh": "書籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 10
+            }
+          },
+          {
+            "en": "certificates",
+            "zh": "證書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 83
+            }
+          },
+          {
+            "en": "different children",
+            "zh": "不同孩子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 175
+            }
+          },
+          {
+            "en": "staff are still checking",
+            "zh": "員工仍在評估",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 128
+            }
+          },
+          {
+            "en": "after each finished book",
+            "zh": "每讀完一本書後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 63
+            }
+          },
+          {
+            "en": "end-of-term certificates",
+            "zh": "學期末證書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A go-to reward is the usual first choice, not the only reward available.",
+          "zh": "慣常首選獎勵是通常先選的，不是唯一可用的獎勵。"
+        },
+        {
+          "en": "Calling something a go-to reward does not show it works for everyone.",
+          "zh": "稱一項獎勵為慣常首選，不代表它對每個人都有效。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2916",
+      "number": 2916,
+      "inventoryId": "expr-2916",
+      "titleEn": "a burst of excitement",
+      "titleZh": "一陣興奮",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:a|the)\\s+burst\\s+of\\s+excitement\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A short, intense moment of enthusiasm, often after a particular trigger.",
+        "meaningZh": "因某件事而出現的短暫強烈興奮。",
+        "grammar": "A burst of excitement is a noun phrase, often follows bring/cause/feel; it identifies a temporary reaction, not lasting satisfaction.",
+        "register": "Warm but measured activity report: a teacher describes pupils’ immediate reaction to a surprise game without claiming the whole programme succeeded.",
+        "boundaryZh": "短暫興奮不代表長期喜愛或活動一直成功；須看其後反應。",
+        "misconceptionZh": "不是實際爆炸，也不是平穩持續整天的情緒。",
+        "outcomeZh": "能說出引發短暫情緒的事件，並把當下反應與長期效果分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0805",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 75, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new game brought a burst of excitement.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a burst of excitement"
+        }
+      ],
+      "listening": {
+        "en": "When the new game began, the room filled with cheers for a few minutes. It brought a burst of excitement, though the pupils soon returned to their quiet projects.",
+        "zh": "新遊戲開始時，教室歡呼了幾分鐘。它帶來一陣興奮，但學生很快又回到安靜的專題活動。",
+        "promptZh": "a burst of excitement 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A brief, strong enthusiastic reaction to the game.",
+            "zh": "對遊戲短暫而強烈的興奮反應。"
+          },
+          {
+            "id": "b",
+            "en": "The pupils stayed equally excited for the entire week.",
+            "zh": "學生整個星期都保持同等興奮。"
+          },
+          {
+            "id": "c",
+            "en": "A physical explosion occurred in the room.",
+            "zh": "教室發生了實際爆炸。"
+          },
+          {
+            "id": "d",
+            "en": "The game was proven to improve all later projects.",
+            "zh": "遊戲已證實能改善所有後續專題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "歡呼只持續幾分鐘，之後活動恢復平靜。"
+      },
+      "reply": {
+        "promptEn": "What happened when the orchestra announced a surprise guest? The audience cheered loudly for a minute, then settled down to listen to the rehearsal.",
+        "promptZh": "（樂團公布驚喜嘉賓時發生甚麼事？觀眾高聲歡呼約一分鐘，然後安靜下來聽綵排。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The announcement briefly stirred strong enthusiasm.",
+            "zh": "公布消息短暫引起強烈興奮。"
+          },
+          {
+            "id": "b",
+            "en": "The audience cheered and then settled.",
+            "zh": "觀眾歡呼後便安靜下來。"
+          },
+          {
+            "id": "c",
+            "en": "There was a burst of excitement after the surprise announcement.",
+            "zh": "驚喜公布後，現場出現一陣興奮。"
+          },
+          {
+            "id": "d",
+            "en": "The reaction was vivid but did not last through the rehearsal.",
+            "zh": "反應熱烈，但沒有持續整場綵排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出短暫強烈反應；金句用 a burst of excitement。"
+      },
+      "scene": {
+        "promptZh": "科學隊收到入圍通知，歡呼十秒後又繼續工作，最後得獎與否尚未定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notice brought a burst of excitement, but the final result remains open.",
+            "zh": "通知帶來一陣興奮，但最終結果仍未確定。"
+          },
+          {
+            "id": "b",
+            "en": "The team has already won the final award.",
+            "zh": "團隊已拿到最終獎項。"
+          },
+          {
+            "id": "c",
+            "en": "Their excitement lasted without pause all day.",
+            "zh": "他們一整天都持續興奮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "入圍令他們短暫興奮，不等於已獲最後獎項。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 a burst of excitement？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A surprise visitor prompts a minute of delighted applause.",
+            "zh": "驚喜訪客引起一分鐘開心掌聲。"
+          },
+          {
+            "id": "b",
+            "en": "A group remains mildly interested at the same level for six months.",
+            "zh": "小組六個月都保持相同程度的輕微興趣。"
+          },
+          {
+            "id": "c",
+            "en": "A winner’s name triggers sudden cheers that quickly fade.",
+            "zh": "公布得獎者時突然歡呼，然後很快平息。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "平穩持續的輕微興趣，缺少短暫而強烈的反應。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「孩子見到新遊戲時很興奮，所以這課程日後一定長期成功。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The game brought a burst of excitement, but lasting interest needs separate evidence.",
+            "zh": "遊戲帶來一陣興奮，但能否維持興趣須另有證據。"
+          },
+          {
+            "id": "b",
+            "en": "One lively minute guarantees long-term learning.",
+            "zh": "一分鐘熱烈反應保證長期學習成效。"
+          },
+          {
+            "id": "c",
+            "en": "A short cheer means nobody enjoyed the game.",
+            "zh": "歡呼短暫代表沒有人喜歡遊戲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫反應不能直接證明長期成效。"
+      },
+      "speaking": {
+        "en": "The announcement of a surprise exhibit brought a burst of excitement before visitors returned to the guided tour.",
+        "zh": "驚喜展品公布時帶來一陣興奮，之後訪客繼續導賞。",
+        "promptZh": "先聽示範，再指出興奮何時出現及持續多久。",
+        "targetSpan": {
+          "start": 47,
+          "end": 68
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館宣布下月會展出一幅罕見畫作，現場觀眾歡呼約一分鐘，然後繼續聽原本的講座；展覽尚未開幕，也未有參觀滿意度資料。用一至兩句英文描述反應及限制。",
+        "selfCheckZh": "寫出宣布引起約一分鐘強烈興奮、講座繼續、展覽尚未開幕；不要當作長期成功證據。",
+        "examples": [
+          {
+            "en": "The rare-painting announcement brought a burst of excitement: visitors cheered for about a minute, then returned to the talk; the exhibition has not opened yet.",
+            "zh": "罕見畫作公布時引起一陣興奮：訪客歡呼約一分鐘，然後繼續聽講座；展覽尚未開幕。"
+          },
+          {
+            "en": "Visitors showed a burst of excitement and cheered for about a minute when the museum named next month’s exhibit, then returned to the talk; the exhibition has not opened, so later satisfaction is unknown.",
+            "zh": "博物館公布下月展品時，訪客興奮歡呼約一分鐘，然後繼續聽講座；展覽尚未開幕，日後滿意度仍未明。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "rare-painting announcement",
+            "zh": "罕見畫作公布",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 30
+            }
+          },
+          {
+            "en": "for about a minute",
+            "zh": "約一分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 97
+            }
+          },
+          {
+            "en": "returned to the talk",
+            "zh": "繼續聽講座",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 124
+            }
+          },
+          {
+            "en": "has not opened yet",
+            "zh": "尚未開幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 141,
+              "end": 159
+            }
+          },
+          {
+            "en": "next month’s exhibit",
+            "zh": "下月展品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 111
+            }
+          },
+          {
+            "en": "cheered for about a minute",
+            "zh": "歡呼約一分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 68
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A burst of excitement is intense but brief.",
+          "zh": "一陣興奮是強烈而短暫的。"
+        },
+        {
+          "en": "A burst of excitement does not by itself prove lasting success.",
+          "zh": "短暫興奮本身不證明長期成功。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2919",
+      "number": 2919,
+      "inventoryId": "expr-2919",
+      "titleEn": "quality over quantity",
+      "titleZh": "重質不重量",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bquality\\s+over\\s+quantity\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Prefer fewer well-made or useful things to a larger number of weaker ones.",
+        "meaningZh": "寧取較少但更好、更有用的東西，不只追求數量多。",
+        "grammar": "Quality over quantity is a compact principle often used as a noun phrase or stand-alone judgement; the quality criterion must be stated in context.",
+        "register": "Practical curriculum planning: a library coordinator tells tutors why three well-supported workshops may serve children better than twelve rushed sessions.",
+        "boundaryZh": "不是「少就一定好」；要有具體質素差異，亦不表示數量永遠不重要。",
+        "misconceptionZh": "不是把可行的大規模服務一概排除，也不能只減少數目卻不改善內容。",
+        "outcomeZh": "能比較具體品質與數量取捨，並說明選較少的理由。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0808",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 75, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For toys, quality over quantity is sensible.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "quality over quantity"
+        }
+      ],
+      "listening": {
+        "en": "The toy shop offered two sturdy puzzles that children could use repeatedly instead of a box of twenty flimsy prizes. The parent chose quality over quantity.",
+        "zh": "玩具店有兩款耐用、孩子可反覆玩的拼圖，也有一盒二十件易壞的小獎品。家長選擇重質不重量。",
+        "promptZh": "quality over quantity 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The parent preferred fewer durable toys to many weak ones.",
+            "zh": "家長寧選較少但耐用的玩具，而非多件易壞品。"
+          },
+          {
+            "id": "b",
+            "en": "The parent chose the box solely because it contained more pieces.",
+            "zh": "家長只因盒內件數多而選它。"
+          },
+          {
+            "id": "c",
+            "en": "Every small set is automatically better than every large set.",
+            "zh": "任何小套裝都一定勝過任何大套裝。"
+          },
+          {
+            "id": "d",
+            "en": "The puzzles were chosen without any quality comparison.",
+            "zh": "家長選拼圖時完全沒有比較品質。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "選擇依據是耐用與可反覆使用，不只是數量少。"
+      },
+      "reply": {
+        "promptEn": "Why did the art club choose four coached sessions instead of twelve five-minute demonstrations? Pupils could practise and get feedback in each coached session, while the short demonstrations allowed neither.",
+        "promptZh": "（藝術學會為何選四節有導師指導的活動，而非十二節五分鐘示範？學生可在每節有指導的活動中練習並獲回饋，短示範則兩者都做不到。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The four sessions offered practice and feedback.",
+            "zh": "四節課提供練習與回饋。"
+          },
+          {
+            "id": "b",
+            "en": "The club valued useful depth above session count.",
+            "zh": "學會重視有用的深度多於節數。"
+          },
+          {
+            "id": "c",
+            "en": "The choice put quality over quantity.",
+            "zh": "這項選擇重質不重量。"
+          },
+          {
+            "id": "d",
+            "en": "The shorter demonstrations could not meet the stated learning need.",
+            "zh": "簡短示範無法滿足所述學習需要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以練習和回饋的品質解釋較少節數；金句用 quality over quantity。"
+      },
+      "scene": {
+        "promptZh": "雜誌可刊兩篇經充分核實的專訪，或十篇未核對資料的短文；編輯選前者。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The editor put quality over quantity by choosing two checked interviews.",
+            "zh": "編輯選兩篇已核實專訪，是重質不重量。"
+          },
+          {
+            "id": "b",
+            "en": "The editor chose ten unchecked pieces to maximise volume.",
+            "zh": "編輯選十篇未核對短文，以提高數量。"
+          },
+          {
+            "id": "c",
+            "en": "Two pieces are always superior even when their facts are wrong.",
+            "zh": "兩篇文章即使事實有錯，也總勝過其他選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩篇有查核，十篇未查核，質素差異有具體根據。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不支持 quality over quantity？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team publishes three tested guides instead of fifteen untested drafts.",
+            "zh": "團隊刊出三份測試過的指南，而非十五份未測試草稿。"
+          },
+          {
+            "id": "b",
+            "en": "A club cuts ten useful sessions to two equally rushed ones without improving them.",
+            "zh": "學會把十節有用課縮成兩節同樣匆忙的課，沒有改善內容。"
+          },
+          {
+            "id": "c",
+            "en": "A charity chooses one reliable helpline with trained staff over several unstaffed numbers.",
+            "zh": "慈善機構選一條由受訓職員接聽的可靠熱線，而非幾條無人接聽的電話。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單純減少數量而沒有提高質素，不能算重質不重量。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只要變少，就一定是 quality over quantity。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Quality over quantity needs a real quality gain, such as better practice or feedback, not just fewer items.",
+            "zh": "重質不重量要有真正質素提升，例如更好的練習或回饋，不只是數目減少。"
+          },
+          {
+            "id": "b",
+            "en": "Any smaller number automatically means better quality.",
+            "zh": "任何較小數目都自動代表較高質素。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means number never matters in any decision.",
+            "zh": "片語表示任何決定都不用考慮數量。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "選較少須有具體品質理由，而非以少為本。"
+      },
+      "speaking": {
+        "en": "We chose quality over quantity: three small workshops with individual feedback instead of twelve crowded talks with no practice.",
+        "zh": "我們選擇重質不重量：三節小組工作坊有個別回饋，而非十二場擠迫又無練習的講座。",
+        "promptZh": "先聽示範，再指出質素改善在哪裏。",
+        "targetSpan": {
+          "start": 9,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館暑期閱讀計劃可開三節由受訓導師帶領、每位學生能獲回饋的工作坊，或十二節沒有練習與回饋的匆忙講座；小組選前者，但仍需預留足夠名額。用一至兩句英文解釋取捨。",
+        "selfCheckZh": "寫出三節有導師和回饋、十二節欠缺練習、小組仍須確保足夠名額；不是少就一定好。",
+        "examples": [
+          {
+            "en": "The library chose quality over quantity: three tutor-led workshops with individual feedback instead of twelve rushed talks without practice, while still reserving enough places.",
+            "zh": "圖書館選擇重質不重量：開三節有導師指導和個別回饋的工作坊，而非十二節缺乏練習的匆忙講座，同時仍預留足夠名額。"
+          },
+          {
+            "en": "Three coached workshops give pupils practice and feedback that twelve rushed talks cannot; the library put quality over quantity but will check that enough children can join.",
+            "zh": "三節有指導的工作坊讓學生練習及獲回饋，是十二節匆忙講座做不到的；圖書館選擇重質不重量，但仍會確認足夠孩子可參加。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three tutor-led workshops",
+            "zh": "三節有導師指導的工作坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 66
+            }
+          },
+          {
+            "en": "individual feedback",
+            "zh": "個別回饋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 91
+            }
+          },
+          {
+            "en": "twelve rushed talks",
+            "zh": "十二節匆忙講座",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 122
+            }
+          },
+          {
+            "en": "enough places",
+            "zh": "足夠名額",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 176
+            }
+          },
+          {
+            "en": "practice and feedback",
+            "zh": "練習及回饋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 57
+            }
+          },
+          {
+            "en": "enough children can join",
+            "zh": "足夠孩子可參加",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Quality over quantity prefers stronger outcomes, not merely a smaller count.",
+          "zh": "重質不重量是追求較好效果，不是單純減少數目。"
+        },
+        {
+          "en": "Choosing quality over quantity can still require enough places for the people served.",
+          "zh": "重質不重量時，仍可能要確保服務對象有足夠名額。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
