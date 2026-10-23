@@ -82,15 +82,17 @@
       }
     ],
     "meaning": {
-      "en": "walk on eggshells",
-      "zh": "Accepted Alternative 可接受變體",
+      "en": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
+      "zh": "因害怕觸怒他人或令緊張情況惡化，說話做事時步步為營。",
       "naturalZh": [
-        "Accepted Alternative 可接受變體"
+        "步步為營",
+        "小心翼翼，唯恐得罪別人",
+        "如履薄冰"
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
+      "labelEn": "Conversational; context-sensitive",
+      "labelZh": "適合談話；須留意關係語境",
       "summaryEn": "news reports; writing about relationships or group atmosphere.",
       "summaryZh": "walk on eggshells 屬於非正式至中性的表達，常見於日常對話、個人敘述、工作討論、訪問、新聞報道，以及描述關係或團隊氣氛的文章。",
       "contextsEn": [
@@ -107,7 +109,7 @@
         "an unhealthy lack of open communication"
       ],
       "contextsZh": [],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalEn": "Use for careful behaviour motivated by fear of upsetting someone, not ordinary politeness.",
       "formalZh": "在較嚴重的語境中，長期需要在伴侶或家人面前步步為營，可能表示某人感到害怕或受到控制。 使用這個表達時，不應把責任歸咎於感到害怕的人。"
     },
     "fixedVariable": {
@@ -683,7 +685,7 @@
         "answer": "Everyone walks on eggshells around Owen because he becomes upset over small comments.",
         "answerZh": "大家在歐文身邊說話都處處小心，因為一些小評論也會令他不高興。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walks on eggshells"
       },
       {
@@ -703,7 +705,7 @@
         "answer": "I walk on eggshells when I speak to my sister because she is still upset about yesterday’s argument.",
         "answerZh": "我與妹妹說話時處處小心，因為她仍然為昨天的爭執感到不高興。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -723,7 +725,7 @@
         "answer": "The staff are walking on eggshells around the manager today.",
         "answerZh": "職員今天在經理面前都戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -743,7 +745,7 @@
         "answer": "We had to walk on eggshells throughout dinner because Dad was in a bad mood.",
         "answerZh": "爸爸心情不好，因此整頓晚飯期間我們都必須步步為營。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -763,7 +765,7 @@
         "answer": "Grace walks on eggshells whenever she discusses money with her flatmate, who easily feels criticised.",
         "answerZh": "Grace 每次與容易覺得受批評的室友討論金錢時，說話都處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walks on eggshells"
       },
       {
@@ -783,7 +785,7 @@
         "answer": "The children have been walking on eggshells around their coach during practice for several weeks.",
         "answerZh": "幾個星期以來，孩子們練習時在教練面前都戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -803,7 +805,7 @@
         "answer": "You need to walk on eggshells when asking the customer about the missing payment.",
         "answerZh": "向顧客詢問失蹤款項時，你需要說話非常小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -823,7 +825,7 @@
         "answer": "I felt as though I was walking on eggshells during my conversation with Clara.",
         "answerZh": "與 Clara 交談時，我覺得自己每句說話都要非常小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -843,7 +845,7 @@
         "answer": "The team must walk on eggshells with every comment after the argument.",
         "answerZh": "爭執過後，團隊每說一句話都必須小心翼翼。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -863,7 +865,7 @@
         "answer": "Everyone in the shop walks on eggshells around the owner because he treats every suggestion as a personal criticism.",
         "answerZh": "店內所有人在店主面前都說話處處小心，因為他把每項建議都視為對自己的批評。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walks on eggshells"
       },
       {
@@ -883,7 +885,7 @@
         "answer": "Daniel walks on eggshells around his uncle at every family meeting.",
         "answerZh": "每次家庭聚會，Daniel 在叔叔面前都說話處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walks on eggshells"
       },
       {
@@ -903,7 +905,7 @@
         "answer": "We walked on eggshells when we told Lucy that the trip had been cancelled.",
         "answerZh": "我們告訴 Lucy 旅程已經取消時，說話戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walked on eggshells"
       },
       {
@@ -923,7 +925,7 @@
         "answer": "The new assistant will have to walk on eggshells when discussing the mistake with the director tomorrow.",
         "answerZh": "新助理明天與主管討論錯誤時，將需要非常小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -943,7 +945,7 @@
         "answer": "The whole office has been walking on eggshells since the manager shouted at a worker on Monday.",
         "answerZh": "經理星期一向一名職員大吼後，整間辦公室的人說話都一直處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -963,7 +965,7 @@
         "answer": "You may have to walk on eggshells when you ask Ryan why he missed the deadline.",
         "answerZh": "你詢問 Ryan 為何錯過限期時，可能需要步步為營。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -983,7 +985,7 @@
         "answer": "A healthy team should allow disagreement without making people walk on eggshells.",
         "answerZh": "健康的團隊應該容許不同意見，而不會令人戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1003,7 +1005,7 @@
         "answer": "Do I have to walk on eggshells around the angry customer?",
         "answerZh": "我在憤怒的顧客面前是否必須每句說話都非常小心？",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1023,7 +1025,7 @@
         "answer": "His sudden changes of mood keep everyone in the office walking on eggshells.",
         "answerZh": "他突然轉變的情緒令辦公室內所有人一直戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1043,7 +1045,7 @@
         "answer": "The fear of upsetting the client left us walking on eggshells throughout the call.",
         "answerZh": "由於害怕令客戶不高興，我們整段通話期間都說話處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1063,7 +1065,7 @@
         "answer": "Walking on eggshells around someone all day is exhausting.",
         "answerZh": "整天在一個人身邊說話處處小心，實在令人疲倦。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "Walking on eggshells"
       },
       {
@@ -1083,7 +1085,7 @@
         "answer": "I’m tired of walking on eggshells around you because you become angry so easily.",
         "answerZh": "我厭倦了在你面前每句說話都要小心，因為你實在太容易發怒。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1103,7 +1105,7 @@
         "answer": "Rather than walk on eggshells around him, we should speak honestly.",
         "answerZh": "與其在他面前步步為營，我們應該坦誠地說話。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1123,7 +1125,7 @@
         "answer": "I want meetings where people can disagree openly without having to walk on eggshells around the manager.",
         "answerZh": "我希望會議容許大家公開提出不同意見，而不需要在經理面前戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1143,7 +1145,7 @@
         "answer": "The need to walk on eggshells around the coach is making the players anxious.",
         "answerZh": "球員需要在教練面前處處小心，令他們感到焦慮。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1163,7 +1165,7 @@
         "answer": "It is an office where everyone walks on eggshells whenever the director visits.",
         "answerZh": "這是一間每當主管到訪時，所有人都變得戰戰兢兢的辦公室。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walks on eggshells"
       },
       {
@@ -1183,7 +1185,7 @@
         "answer": "Clara spoke as though she were walking on eggshells because she was afraid of offending her guest.",
         "answerZh": "Clara 說話時彷彿步步為營，因為她害怕冒犯客人。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1203,7 +1205,7 @@
         "answer": "Having walked on eggshells around the angry customer all morning, Ben felt relieved when the meeting ended.",
         "answerZh": "Ben 整個早上在憤怒的顧客面前都小心翼翼，因此會議結束時感到如釋重負。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walked on eggshells"
       },
       {
@@ -1223,7 +1225,7 @@
         "answer": "We found ourselves walking on eggshells after the chairperson criticised the first speaker.",
         "answerZh": "主席批評第一名發言者後，我們發現自己開始說話處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1243,7 +1245,7 @@
         "answer": "Why is everyone walking on eggshells around Henry after he became angry at the last meeting?",
         "answerZh": "Henry 在上次會議發怒後，為甚麼所有人在他身邊都說話處處小心？",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1263,7 +1265,7 @@
         "answer": "The new rule has every worker walking on eggshells because it is unclear and the punishment is harsh.",
         "answerZh": "新規則並不清楚，而且懲罰嚴厲，因此令每名職員都戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1283,7 +1285,7 @@
         "answer": "Although we were walking on eggshells around Grace, she still misunderstood our question.",
         "answerZh": "雖然我們在 Grace 身邊已經非常小心，但她仍然誤解了我們的問題。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1303,7 +1305,7 @@
         "answer": "Ever since the complaint, the receptionist has been walking on eggshells whenever she speaks to the customer.",
         "answerZh": "自從投訴發生後，接待員每次與顧客說話都處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1323,7 +1325,7 @@
         "answer": "Until the manager explains what went wrong, we will continue to walk on eggshells when discussing the missing money.",
         "answerZh": "在經理解釋出了甚麼問題前，我們討論失蹤款項時會繼續步步為營。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1343,7 +1345,7 @@
         "answer": "It felt like walking on eggshells throughout the interview because the guest might take offence.",
         "answerZh": "整場訪問都令人感到步步為營，因為嘉賓可能會感到受冒犯。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1363,7 +1365,7 @@
         "answer": "What made me feel as if I were walking on eggshells was the director’s habit of becoming angry at small questions.",
         "answerZh": "令我感到說話時步步為營的，是主管連聽到小問題也會發怒的習慣。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1383,7 +1385,7 @@
         "answer": "Walking on eggshells may prevent one argument tonight, but it cannot solve the real communication problem.",
         "answerZh": "步步為營可能可以避免今晚的一場爭執，但不能解決真正的溝通問題。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "Walking on eggshells"
       },
       {
@@ -1403,7 +1405,7 @@
         "answer": "The supervisor told the staff not to walk on eggshells around the customer, but to answer honestly.",
         "answerZh": "主管叫職員不要在顧客面前過分戰戰兢兢，而應坦誠回答問題。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1423,7 +1425,7 @@
         "answer": "No one should have to walk on eggshells in their own home because they fear another person’s reaction.",
         "answerZh": "任何人都不應該因為害怕另一個人的反應，而在自己家中戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1443,7 +1445,7 @@
         "answer": "If you are always walking on eggshells around a friend, the friendship may not feel safe.",
         "answerZh": "如果你在朋友身邊總是戰戰兢兢，這段友誼可能不會令你感到安心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1463,7 +1465,7 @@
         "answer": "The fact that everyone is walking on eggshells shows that the atmosphere in the meeting is tense.",
         "answerZh": "所有人都小心翼翼這個事實，顯示會議的氣氛十分緊張。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1483,7 +1485,7 @@
         "answer": "Everyone has been walking on eggshells around the chairperson since yesterday’s argument.",
         "answerZh": "自從昨天的爭執後，所有人在主席面前都說話處處小心。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1503,7 +1505,7 @@
         "answer": "By reacting differently each time, the director keeps the staff walking on eggshells as they try to guess which comments will upset him.",
         "answerZh": "主管每次都有不同反應，令職員猜測哪些評論會觸怒他，並一直戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1523,7 +1525,7 @@
         "answer": "The more unpredictable her reactions became, the more we had to walk on eggshells around her.",
         "answerZh": "她的反應越難預測，我們在她身邊便越需要步步為營。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1543,7 +1545,7 @@
         "answer": "Only after the manager left did we realise how long we had been walking on eggshells around him.",
         "answerZh": "直至經理離開後，我們才發現自己在他身邊戰戰兢兢已有很長時間。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1563,7 +1565,7 @@
         "answer": "Had the teacher welcomed questions, the pupils would not have had to walk on eggshells around him.",
         "answerZh": "如果老師當時歡迎學生提問，學生便不需要在他面前戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1583,7 +1585,7 @@
         "answer": "Not wanting to walk on eggshells any longer, the group asked the leader to set clear rules.",
         "answerZh": "小組不想再說話時處處小心，因此要求領袖制定清楚規則。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1603,7 +1605,7 @@
         "answer": "So used were we to walking on eggshells that we did not notice how tense the office had become.",
         "answerZh": "我們已經太習慣每句說話都小心翼翼，以致沒有察覺辦公室的氣氛已變得多麼緊張。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1623,7 +1625,7 @@
         "answer": "Whether we agree or not, we should not have to walk on eggshells to ask a fair question.",
         "answerZh": "不論我們是否意見一致，都不應該只為了提出合理問題而戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walk on eggshells"
       },
       {
@@ -1643,7 +1645,7 @@
         "answer": "What began as simple politeness turned into walking on eggshells whenever the owner entered the room.",
         "answerZh": "原本只是一般禮貌的行為，後來變成每當店主進入房間時，職員都戰戰兢兢。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       },
       {
@@ -1663,7 +1665,7 @@
         "answer": "After months of walking on eggshells at work, the team finally agreed that no workplace should make people fear every small comment.",
         "answerZh": "在工作場所戰戰兢兢了幾個月後，團隊終於同意任何工作環境都不應令人害怕每個小評論。",
         "targetForm": "Walk on Eggs / Walk on Eggshells",
-        "targetMeaning": "walk on eggshells",
+        "targetMeaning": "to speak or act with great care because you fear upsetting someone or making a tense situation worse",
         "highlight": "walking on eggshells"
       }
     ]

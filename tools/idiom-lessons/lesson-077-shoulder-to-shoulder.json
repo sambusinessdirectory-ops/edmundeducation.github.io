@@ -93,13 +93,23 @@
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
-      "summaryEn": "Source-Guided Register",
-      "summaryZh": "按原檔語域使用",
-      "contextsEn": [],
-      "contextsZh": [],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "labelEn": "Neutral to supportive; figurative or literal",
+      "labelZh": "中性至支持；可作比喻或字面理解",
+      "summaryEn": "People can stand physically side by side, or work and support one another in a shared effort.",
+      "summaryZh": "可指人們實際並肩站立，也可比喻彼此合作、互相支持。",
+      "contextsEn": [
+        "shared work",
+        "joint effort",
+        "public solidarity",
+        "physical proximity"
+      ],
+      "contextsZh": [
+        "共同工作",
+        "合作努力",
+        "公開表達團結",
+        "實際並肩站立"
+      ],
+      "formalEn": "Distinguish physical closeness from cooperation; the lesson targets united effort.",
       "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
     },
     "fixedVariable": {

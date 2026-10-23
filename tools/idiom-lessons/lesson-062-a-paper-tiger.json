@@ -79,23 +79,15 @@
       ]
     },
     "register": {
-      "labelEn": "Source-Guided Register",
-      "labelZh": "按原檔語域使用",
+      "labelEn": "Disapproving",
+      "labelZh": "帶批評意味",
       "summaryEn": "The expression is common in conversation, journalism, presentations and general commentary. Its tone is normally critical, disapproving or dismissive. It is not a swear word, but calling a person a paper tiger directly may sound insulting because it suggests that the person’s confidence or power is largely false. Cambridge specifically labels the expression as disapproving.",
       "summaryZh": "這個表達常見於對話、新聞報道、簡報和一般評論。 語氣通常帶有批評、不認同或輕視意味。 它不是粗俗用語，但直接把一個人稱為 a paper tiger 可能帶有侮辱性，因為這暗示對方的自信或權力大部分只是表象。",
       "contextsEn": [
-        "a",
-        "paper",
-        "tiger",
-        "The threat is a paper tiger",
-        "The organisation proved to be a paper tiger",
-        "paper tiger without an article ✗",
-        "a tiger of paper ✗",
-        "a papered tiger ✗",
-        "a tiger on paper ✗",
-        "a paper tigers ✗",
-        "the subject",
-        "the linking or reporting verb"
+        "conversation",
+        "journalism",
+        "presentations",
+        "general commentary"
       ],
       "contextsZh": [
         "主語",
@@ -106,7 +98,7 @@
         "解釋實際弱點的原因",
         "對比表面形象和實際情況的子句。"
       ],
-      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalEn": "Use when apparent strength is not matched by real power; calling a person this may sound insulting.",
       "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
     },
     "fixedVariable": {
