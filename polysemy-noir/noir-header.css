@@ -18,3 +18,24 @@
 @media (max-width: 600px) {
   .noir-polysemy-mascot { flex-basis: 56px; width: 56px; height: 56px; margin-inline: 0; }
 }
+@media (max-width: 700px) {
+  .noir-mascot-header.edmund-system-header__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 56px;
+    align-items: center;
+  }
+  .noir-mascot-header > .edmund-system-switcher { grid-column: 1; grid-row: 1; }
+  .noir-mascot-header > .noir-polysemy-mascot {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    width: 56px;
+    height: 56px;
+    margin: 0;
+  }
+  .noir-mascot-header > .edmund-system-header__actions {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+  }
+}

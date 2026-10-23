@@ -22,15 +22,17 @@
   <link rel="stylesheet" href="learning-portal-scaffold.css?v=20260908-loading1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
   <link rel="stylesheet" href="synonyms/style.css?v=20261022-arcane1">
+  <link rel="stylesheet" href="polysemy-noir/noir-header.css?v=20261023-shared1">
   <link rel="preload" as="image" type="image/webp" href="synonyms-arcane-london-login-frame-v1.webp">
 </head>
 <body data-learning-portal="synonyms">
   <a class="learning-portal-skip" href="#learning-portal-main">跳至主要內容</a>
   <header class="edmund-system-header">
-    <div class="edmund-system-header__inner">
+    <div class="edmund-system-header__inner noir-mascot-header">
       <div class="edmund-system-switcher" data-edmund-system-switcher data-system="synonyms">
         <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Synonyms Learning System</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
       </div>
+      <button class="noir-polysemy-mascot" type="button" data-noir-polysemy-toggle aria-label="暫停 Noir 動畫" aria-pressed="true"><img src="polysemy-noir/noir-polysemy.gif?v=20261022-2" width="68" height="68" alt="Noir 在桌面螢幕選擇詞義，選項變綠並出現勾號"></button>
       <div class="edmund-system-header__actions"><span class="connection-pill" data-connection-status data-state="checking">正在連接</span><span class="user-pill" data-user-pill hidden></span><button class="learning-portal-header-button" type="button" data-logout hidden>登出</button></div>
     </div>
   </header>
@@ -42,5 +44,6 @@
   <script src="learning-portal-scaffold.js?v=20260810-1"></script>
   <script src="shared-learning-tools.js?v=20260908-refine7"></script>
   <script type="module" src="synonyms/app.mjs?v=20261021-speed2"></script>
+  <script defer src="polysemy-noir/noir-header.js?v=20261023-shared1"></script>
 </body>
 </html>
