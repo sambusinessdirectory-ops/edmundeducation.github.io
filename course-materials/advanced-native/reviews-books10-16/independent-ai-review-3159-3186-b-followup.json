@@ -1,0 +1,46 @@
+{
+  "reportType": "independent-ai-exact-hash-followup",
+  "scope": "Eight unselected lessons 3159–3186; focused follow-up to R3159-01 and R3176-01",
+  "inputFiles": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+      "sha256": "6ecf476a9098e3c519173dcf90f65713a93789729dfa584e38a612c21811309d"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3159-3186-a.json",
+      "sha256": "8e3bca1e2fef4bd37ffeb9d51eee327623553e2971b2b744974ac46cf9b45280"
+    }
+  },
+  "findings": [
+    {
+      "id": "R3159-01",
+      "lesson": 3159,
+      "status": "cleared",
+      "evidence": "Dialogue promptEn now says Ben interrupted mid-sentence and snapped “Hurry up—skip to the deadline.” PromptZh conveys the same interruption and sharp urging. The keyed cut in impatiently answer is now observable and grounded; contentRevision 2."
+    },
+    {
+      "id": "R3176-01",
+      "lesson": 3176,
+      "status": "cleared",
+      "evidence": "Listening key now states exactly two sharp referee arguments before Noah heard the explanation, followed by an apology; its Traditional Chinese matches. The revised question no longer presupposes provocation. Audio itself is unchanged; contentRevision 2."
+    }
+  ],
+  "regressionChecks": {
+    "sourceTarget": "All eight source sentences and target-bearing assessed items match fresh gi regex checks.",
+    "glossary": "All 40 answer-derived glossary spans are exact and contain no target phrase.",
+    "bilingual": "Changed English and Traditional Chinese dialogue/listening fields align.",
+    "otherLessons": "The other six lessons retain initial review clearance.",
+    "ownerBoundary": "Lesson 3186 remains semantically distinct from human-emotion canonical 1164, with human owner sign-off still open."
+  },
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-review-b-3159-3186-followup"
+  },
+  "selectionRecommendation": "All eight content-cleared for provisional selection; human English, Chinese, media, QA and release gates remain pending.",
+  "selectedOrPublished": false
+}

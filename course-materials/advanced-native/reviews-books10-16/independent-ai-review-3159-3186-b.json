@@ -1,0 +1,58 @@
+{
+  "reportType": "independent-ai-seven-step-editorial-review",
+  "scope": "Eight unselected lessons 3159,3162,3165,3169,3175,3176,3184,3186",
+  "inputFiles": {
+    "draft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+      "sha256": "82354298ab324d1b5c3551b7bd52d98c9313ddc9a64a80dec9fa93f66e99a992"
+    },
+    "authorSelfAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3159-3186-a.json",
+      "sha256": "7926aa8d8d689b685340bcb30b1f0e74a923aca3dc40df20409774bc4f22543d"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "canonical1164": {
+      "path": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "sha256": "db0476cb10421e3179d4befcc529c1b7f853654d1c64051a33fbccd255ae03d9"
+    }
+  },
+  "findings": [
+    {
+      "id": "R3159-01",
+      "severity": "major",
+      "lesson": 3159,
+      "path": "dialogue.promptEn; dialogue.options[a]",
+      "status": "requires-author-repair",
+      "issue": "The dialogue only says Ben told the speaker to skip ahead while the schedule was being described. That establishes interruption but not impatience; the keyed reply labels him as cutting in impatiently without a sharp tone, repeated urging, or similar cue.",
+      "suggestedRepair": "Add an observable impatience cue to A’s report, such as Ben interrupting mid-sentence and snapping “Hurry up—skip to the deadline,” while preserving the other reply options as plausible but less precise."
+    },
+    {
+      "id": "R3176-01",
+      "severity": "minor",
+      "lesson": 3176,
+      "path": "listening.options[a].en; listening.options[a].zh",
+      "status": "requires-author-repair",
+      "issue": "The audio states two angry arguments this month before Noah heard the referee’s explanation, followed by apologies. The keyed answer says he “often” responds angrily before considering the effect on the team, overstating frequency and supplying an unspoken internal consideration. Chinese has the same overstatement.",
+      "suggestedRepair": "State the supported facts directly: Noah argued sharply twice before hearing the referee’s explanation, then apologised; align Traditional Chinese."
+    }
+  ],
+  "ownerBoundary": {
+    "lesson": 3186,
+    "canonical": "advanced-native-1164",
+    "assessment": "Provisionally distinct. Canonical 1164 teaches a person emotionally falling apart; 3186 consistently teaches an inanimate plan/project breaking down after multiple essential arrangements fail. The new bounded detector matches its own full source and excludes a human subject. However, the broad canonical regex also matches the surface phrase in 3186, so human owner/sense sign-off remains necessary before release."
+  },
+  "checks": {
+    "sourceTarget": "All eight source sentences match their own target regex with fresh gi instantiation.",
+    "assessedTarget": "All eight listening texts, golden replies, keyed scenes/dialogues, speaking demonstrations, and both writing models contain a target form.",
+    "glossary": "All 40 entries are exact answer-derived spans and exclude the target.",
+    "reply": "Four independently plausible replies are present for each lesson, with one target-bearing golden response.",
+    "dialogueBilingual": "All eight dialogue promptEn/promptZh pairs and assessed options were reviewed; no material translation drift found.",
+    "writing": "Two complete changed-context models per lesson; no material pronoun or self-check omission found.",
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 review flags; build and --check pass."
+  },
+  "selectionRecommendation": "Hold lessons 3159 and 3176 for targeted repairs; other six provisionally content-cleared. Human review and release gates remain pending for all.",
+  "selectedOrPublished": false
+}

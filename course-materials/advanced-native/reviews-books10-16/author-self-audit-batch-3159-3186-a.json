@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T13:09:00.596550+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3159-3186-a.json",
+  "draftSha256": "6ecf476a9098e3c519173dcf90f65713a93789729dfa584e38a612c21811309d",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "58d0780dde5e1522950b7fb9bd614047c3377bca7826e48754d084144a523fc3",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "canonicalScreen": "All eight source ordinals are proposed-new. Lesson 3186 teaches plan-failure falling apart with a plan-like grammatical subject; canonical 1164 teaches a person emotionally falling apart. Both complete sentences may still be caught by canonical 1164 broad detection, so subject/sense-aware ownership must be reviewed before selection.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3159,
+      "sourceExpression": "cut in impatiently",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3162,
+      "sourceExpression": "patience is being tested",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3165,
+      "sourceExpression": "test of endurance",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3169,
+      "sourceExpression": "reacting on impulse",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3175,
+      "sourceExpression": "even-tempered",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3176,
+      "sourceExpression": "hot-headed",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3184,
+      "sourceExpression": "at any cost",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3186,
+      "sourceExpression": "falling apart",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ],
+  "authorChecks": [
+    "Exact source provenance and source-sentence target match checked for all eight.",
+    "All five MC prompts have Han Traditional Chinese; English dialogue and Chinese translation compared.",
+    "Listening keys checked against spoken facts, without unsupported role or gender claims.",
+    "Four independent replies in each reply task, one target-bearing golden response.",
+    "Keyed scene/dialogue, speaking model, writing models and four audio texts contain reviewed target forms.",
+    "All glossary spans revalidated against final English writing answers and exclude target forms.",
+    "Both writing answers checked against the stated prompt and self-check requirements.",
+    "Multiple plausible wrong options distinguish target nuance rather than rely on absurdity."
+  ],
+  "limitations": [
+    "Independent English, Traditional Chinese, assessment and device review still pending.",
+    "No audio synthesis, upload, manifest selection or publication occurred."
+  ],
+  "updatedUtc": "2026-10-23T13:13:32.043241+00:00",
+  "independentReviewRepair": {
+    "reviewFile": "reviews-books10-16/independent-ai-review-3159-3186-b.json",
+    "reviewSha256": "65efe2861c065b4fd3ac25f74da69211dca27353ec07e0347660d078c195d359",
+    "findingsResolvedInDraft": [
+      "R3159-01",
+      "R3176-01"
+    ],
+    "specificEdits": [
+      "3159 dialogue now states a sharp mid-sentence demand; Traditional Chinese prompt and rationale aligned.",
+      "3176 listening key now states two sharp referee arguments before explanation and later apology; Chinese aligned, prompt no longer invents provocation."
+    ],
+    "audioTextChanged": false,
+    "status": "awaiting independent exact-hash follow-up"
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3159-3186-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3159",
+      "number": 3159,
+      "inventoryId": "expr-3159",
+      "titleEn": "cut in impatiently",
+      "titleZh": "不耐煩地插話",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:cut|cuts|cutting) in impatiently\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Interrupt someone before they have finished, showing impatience.",
+        "meaningZh": "別人尚未說完便帶著不耐煩插話。",
+        "grammar": "cut in + adverb; cut has the same past form, and cutting doubles the final t. Impatiently describes the manner of interruption.",
+        "register": "Neutral conversational phrase. A meeting participant might say it to a colleague about a speaker being interrupted.",
+        "boundaryZh": "重點是打斷發言並顯露不耐煩；禮貌地在對方說完後提問並不符合。",
+        "misconceptionZh": "不是加入隊伍；單說有人說話較快，不足以證明他打斷別人。",
+        "outcomeZh": "能從說話先後和語氣判斷是否不耐煩地插話。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1048",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 97,
+          "book": 12,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 101, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not cut in impatiently when she is explaining.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cut in impatiently"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "會議中，Leo 怎樣回應 Mei 的解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leo interrupted before Mei finished and pressed her to hurry.",
+            "zh": "Leo 在 Mei 說完前打斷她，催她快點。"
+          },
+          {
+            "id": "b",
+            "en": "Leo waited for Mei to finish and then requested a shorter summary.",
+            "zh": "Leo 等 Mei 說完後才請她簡短總結。"
+          },
+          {
+            "id": "c",
+            "en": "Leo asked for clarification because the audio connection was poor.",
+            "zh": "Leo 因音訊連接不佳而要求澄清。"
+          },
+          {
+            "id": "d",
+            "en": "Leo raised the timing issue with the chair after the meeting.",
+            "zh": "Leo 在會後向主席提出時間安排問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Mei 尚未說完，Leo 就催促她，所以是帶著不耐煩插話。",
+        "en": "Mei was still explaining the timetable when Leo cut in impatiently and said, “Can you get to the point? We are running late.” The chair asked Leo to let Mei finish.",
+        "zh": "Mei 還在解釋時間表時，Leo 不耐煩地插話：「可以講重點嗎？我們快要超時了。」主席請 Leo 讓 Mei 說完。"
+      },
+      "reply": {
+        "promptEn": "Mei is halfway through explaining the timetable, but we are short of time. How can I raise that without interrupting rudely?",
+        "promptZh": "（Mei 正在解釋時間表，但時間不多。我怎樣提出這點，才不會失禮地打斷她？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let Mei finish her sentence, then ask for a brief summary.",
+            "zh": "讓 Mei 說完這句，再請她簡短總結。"
+          },
+          {
+            "id": "b",
+            "en": "Ask the chair to manage the remaining time for everyone.",
+            "zh": "請主席安排大家剩餘的發言時間。"
+          },
+          {
+            "id": "c",
+            "en": "I should not cut in impatiently; I can ask for the main dates when she pauses.",
+            "zh": "我不應不耐煩地插話；可在她停頓時詢問主要日期。"
+          },
+          {
+            "id": "d",
+            "en": "Write down the timing question and raise it at the next pause.",
+            "zh": "記下時間安排的問題，在下一個停頓提出。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四種做法都可讓會議兼顧時間和禮貌；金句直接指出要避免的插話方式。"
+      },
+      "scene": {
+        "promptZh": "導賞員仍在說明路線，一名參加者皺眉並在句中催促她「快點講下一站」。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The participant cut in impatiently while the guide was explaining.",
+            "zh": "導賞員解釋時，參加者不耐煩地插話。"
+          },
+          {
+            "id": "b",
+            "en": "The participant waited for the guide’s pause before asking about the next stop.",
+            "zh": "參加者等導賞員停頓後才問下一站。"
+          },
+          {
+            "id": "c",
+            "en": "The participant asked the same question later because the map was unclear.",
+            "zh": "參加者因地圖不清楚而稍後再問同一問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "句中打斷加上催促，符合不耐煩插話。"
+      },
+      "contrast": {
+        "promptZh": "哪一種提問較不適合說 cut in impatiently？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She waits until the speaker finishes, then asks for the deadline.",
+            "zh": "她等講者說完，才詢問截止日期。"
+          },
+          {
+            "id": "b",
+            "en": "He interrupts mid-answer and tells the speaker to hurry.",
+            "zh": "他在回答途中打斷講者，叫對方快點。"
+          },
+          {
+            "id": "c",
+            "en": "She talks over the explanation and demands the conclusion.",
+            "zh": "她蓋過解釋的聲音，要求直接講結論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "等對方說完才提問，沒有打斷，也沒有不耐煩的插話。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我還在說明時間表，Ben 就在我說到一半時打斷，語氣尖銳地說：「快點，直接講截止日期。」乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He cut in impatiently; perhaps the chair can give you time to finish.",
+            "zh": "他不耐煩地插話；也許主席可以讓你說完。"
+          },
+          {
+            "id": "b",
+            "en": "You can send the full schedule after the meeting.",
+            "zh": "你可以在會後傳送完整時間表。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether Ben needs the deadline first.",
+            "zh": "問 Ben 是否想先知道截止日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Ben 在講者未完時語氣尖銳地催促，金句準確描述其插話方式。",
+        "promptEn": "A: I was still describing the schedule when Ben interrupted mid-sentence and snapped, “Hurry up—skip to the deadline.” B: ______"
+      },
+      "speaking": {
+        "en": "Nora cut in impatiently while I was explaining the route, so I asked her to let me finish the safety instructions.",
+        "zh": "我解釋路線時，Nora 不耐煩地插話，所以我請她讓我說完安全指示。",
+        "promptZh": "說明誰尚未講完、誰插話，以及你如何回應。",
+        "targetSpan": {
+          "start": 5,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人仍在說明重要安排，另一人未等對方說完便帶著不耐煩插話。用英文寫出說明內容、插話時機及其後反應。",
+        "selfCheckZh": "須有清楚的未說完證據和不耐煩語氣；不能只寫有人快速發言。",
+        "examples": [
+          {
+            "en": "During the rehearsal briefing, an actor cut in impatiently before the director had explained the new entrance, so the director asked for a minute to finish.",
+            "zh": "綵排簡報期間，導演尚未解釋新的入場位置，一名演員便不耐煩地插話；導演因此請對方讓自己用一分鐘說完。"
+          },
+          {
+            "en": "The parent cut in impatiently while the teacher was outlining the trip rules, then apologised and waited for the teacher to finish.",
+            "zh": "老師說明旅行規則時，家長不耐煩地插話；之後家長道歉，等老師說完。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the rehearsal briefing",
+            "zh": "綵排簡報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 29
+            }
+          },
+          {
+            "en": "the new entrance",
+            "zh": "新的入場位置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 109
+            }
+          },
+          {
+            "en": "a minute to finish",
+            "zh": "一分鐘說完",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 155
+            }
+          },
+          {
+            "en": "the trip rules",
+            "zh": "旅行規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 76
+            }
+          },
+          {
+            "en": "apologised",
+            "zh": "道歉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 93
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "He cut in impatiently before she had completed her explanation.",
+          "zh": "她尚未解釋完，他便不耐煩地插話。"
+        },
+        {
+          "en": "Wait for a pause rather than cutting in impatiently.",
+          "zh": "等到對方停頓，別不耐煩地插話。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3162",
+      "number": 3162,
+      "inventoryId": "expr-3162",
+      "titleEn": "patience is being tested",
+      "titleZh": "耐性正受考驗",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:my|your|his|her|our|their|the) patience (?:is|was|has been|had been) being tested\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Repeated difficulty is straining someone’s ability to stay calm and wait.",
+        "meaningZh": "反覆的困難正令某人越來越難保持耐心。",
+        "grammar": "possessive/the + patience + be being tested; a passive construction. My patience is being tested and their patience was being tested are natural forms.",
+        "register": "Neutral conversational language. A delayed passenger might tell a friend how repeated changes are affecting them.",
+        "boundaryZh": "表示耐性正在受壓，不等於已經發怒或完全放棄；一次很短的正常等待通常不足以支持此說法。",
+        "misconceptionZh": "不是正式測驗，也不是指耐性得到證明。",
+        "outcomeZh": "能辨別耐性受反覆壓力考驗與已經爆發或只需普通等待。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1051",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 98,
+          "book": 12,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 101, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My patience is being tested by the repeated delays.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "patience is being tested"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "連續三次改期對講者有甚麼影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated changes make it harder for the speaker to remain patient.",
+            "zh": "反覆改期令講者越來越難保持耐心。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker has already cancelled the booking.",
+            "zh": "講者已取消預約。"
+          },
+          {
+            "id": "c",
+            "en": "The first appointment started exactly on time.",
+            "zh": "第一次預約準時開始。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker is testing a new booking website.",
+            "zh": "講者正在測試新的預約網站。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者仍在等候，但三次改期令耐性受考驗。",
+        "en": "The clinic has moved my appointment three times this month. I have not cancelled it, but my patience is being tested. I will ask for a firm date before arranging another day off.",
+        "zh": "診所這個月已三次改動我的預約。我未有取消，但耐性正受考驗。我會先問清楚確定日期，再安排另一天請假。"
+      },
+      "reply": {
+        "promptEn": "The clinic has moved my appointment three times, and I still need it. How can I describe the frustration while seeking a solution?",
+        "promptZh": "（診所已三次改動我的預約，而我仍需要看診。我怎樣表達不滿，同時尋求解決方法？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask politely for a date they can confirm.",
+            "zh": "禮貌地要求一個可確認的日期。"
+          },
+          {
+            "id": "b",
+            "en": "Explain that each change makes it hard to arrange time off.",
+            "zh": "說明每次改期都令請假安排變得困難。"
+          },
+          {
+            "id": "c",
+            "en": "My patience is being tested by these changes; could you confirm the next date?",
+            "zh": "這些改動令我的耐性受考驗；可否確認下次日期？"
+          },
+          {
+            "id": "d",
+            "en": "Request a call if an earlier appointment becomes available.",
+            "zh": "要求如有較早的預約空缺便致電通知。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理表達需要；金句明確說出反覆改期造成的耐性壓力。"
+      },
+      "scene": {
+        "promptZh": "家長在一星期內三次收到校車時間改動通知。她尚未投訴或取消服務，但每次都要重新安排接送。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her patience is being tested by the repeated timetable changes.",
+            "zh": "時間表反覆改動令她的耐性受考驗。"
+          },
+          {
+            "id": "b",
+            "en": "She has completely lost her temper with the driver.",
+            "zh": "她已對司機大發脾氣。"
+          },
+          {
+            "id": "c",
+            "en": "She is calmly checking a single routine update.",
+            "zh": "她正平靜地查看一次例行更新。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆改動帶來真實安排成本，但尚未失控，正是耐性受考驗。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況較不足以說 patience is being tested？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A train is delayed by two minutes once, and the traveller reads while waiting.",
+            "zh": "列車有一次延誤兩分鐘，旅客一邊閱讀一邊等候。"
+          },
+          {
+            "id": "b",
+            "en": "The same delivery date is changed for the fourth time.",
+            "zh": "同一送貨日期第四次改動。"
+          },
+          {
+            "id": "c",
+            "en": "A help desk repeatedly promises a reply but gives none.",
+            "zh": "服務台反覆承諾回覆，卻一直沒有消息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫、單次且未造成困擾的等待，缺乏耐性受反覆壓力影響的證據。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：他們又改接送時間，我得第三次重排工作。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your patience is being tested; ask them for a reliable schedule.",
+            "zh": "你的耐性正受考驗；請他們提供可靠的時間表。"
+          },
+          {
+            "id": "b",
+            "en": "You could explain which work hours are hardest to change.",
+            "zh": "你可以解釋哪些工作時段最難改動。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether they can give more notice next time.",
+            "zh": "問他們下次可否提早通知。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "第三次重排工作已造成壓力；金句準確描述耐性正在受考驗。",
+        "promptEn": "A: They changed the pickup time again, and I have to rearrange work for the third time. B: ______"
+      },
+      "speaking": {
+        "en": "My patience is being tested by the repeated cancellations, but I will ask for a confirmed date before deciding what to do.",
+        "zh": "反覆取消令我的耐性受考驗，但我會先要求確定日期，再決定怎樣做。",
+        "promptZh": "交代反覆困難、耐性受壓，以及尚未失控的下一步。",
+        "targetSpan": {
+          "start": 0,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：重要安排反覆改動，當事人仍需繼續等待並尋求確定消息。用英文寫出改動次數、耐性受壓和合理下一步。",
+        "selfCheckZh": "需顯示反覆壓力，而不是把一次短暫等待誇大成失控。",
+        "examples": [
+          {
+            "en": "After the library postponed the workshop for the third time, the volunteers felt their patience was being tested, but they asked for a confirmed date.",
+            "zh": "圖書館第三次延期工作坊後，義工覺得耐性正受考驗，但仍要求一個確定日期。"
+          },
+          {
+            "en": "The supplier changed the delivery window twice in one morning, and the baker said her patience was being tested while she waited for a clear update.",
+            "zh": "供應商在一個上午兩次改動送貨時段；麵包師等候明確消息時說，自己的耐性正受考驗。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the workshop",
+            "zh": "工作坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 40
+            }
+          },
+          {
+            "en": "the volunteers",
+            "zh": "義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 75
+            }
+          },
+          {
+            "en": "a confirmed date",
+            "zh": "確定日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 149
+            }
+          },
+          {
+            "en": "the delivery window",
+            "zh": "送貨時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 40
+            }
+          },
+          {
+            "en": "a clear update",
+            "zh": "明確消息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Their patience is being tested by repeated delays.",
+          "zh": "反覆延誤令他們的耐性受考驗。"
+        },
+        {
+          "en": "Her patience was being tested, but she still asked calmly for a firm date.",
+          "zh": "她的耐性正受考驗，但仍平靜地要求確定日期。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3165",
+      "number": 3165,
+      "inventoryId": "expr-3165",
+      "titleEn": "test of endurance",
+      "titleZh": "耐力考驗",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the) test of endurance\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A prolonged difficulty that demands sustained physical or mental persistence.",
+        "meaningZh": "需要長時間堅持才能完成的困難經歷。",
+        "grammar": "a/the test of endurance; use a when first introducing the challenge and the for a known one.",
+        "register": "Neutral descriptive phrase. A walker might tell a companion how a long route tested everyone’s stamina.",
+        "boundaryZh": "重點在困難持續一段時間並需要堅持；短暫但驚嚇的事件不一定是耐力考驗。",
+        "misconceptionZh": "不必是體育正式測試；也不等於只要事情難就要用 endurance。",
+        "outcomeZh": "能把長時間的持續負擔與短暫難題分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1054",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 98,
+          "book": 12,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 101, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The long queue became a test of endurance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "test of endurance"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何把這次搬遷稱為耐力考驗？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The work continued for many hours and required steady effort.",
+            "zh": "工作持續多個小時，需要不斷出力。"
+          },
+          {
+            "id": "b",
+            "en": "The group had to make a single quick decision at the start.",
+            "zh": "眾人只須在開始時迅速作出一次決定。"
+          },
+          {
+            "id": "c",
+            "en": "The boxes arrived earlier than expected.",
+            "zh": "箱子比預期早到。"
+          },
+          {
+            "id": "d",
+            "en": "The group competed in a formal fitness examination.",
+            "zh": "眾人參加了正式體能測試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長時間搬運及持續付出使其成為耐力考驗。",
+        "en": "We carried the archive boxes up four flights of stairs for almost six hours. By the end, the move felt like a test of endurance, but we finished the last shelf together.",
+        "zh": "我們花了差不多六個小時，把檔案箱搬上四層樓梯。到最後，這次搬遷像一場耐力考驗，但我們一起完成了最後一個書架。"
+      },
+      "reply": {
+        "promptEn": "The charity walk lasts most of the day and includes several steep sections. How can we prepare?",
+        "promptZh": "（慈善步行活動大半天都在進行，還有幾段陡坡。我們可以怎樣準備？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Plan rest stops and carry enough water.",
+            "zh": "安排休息站，帶足夠飲用水。"
+          },
+          {
+            "id": "b",
+            "en": "Choose a pace that the group can maintain.",
+            "zh": "選擇全組都能維持的步速。"
+          },
+          {
+            "id": "c",
+            "en": "It may be a test of endurance, so let us pace ourselves.",
+            "zh": "這可能是一場耐力考驗，所以我們要分配好體力。"
+          },
+          {
+            "id": "d",
+            "en": "Check which participants need a shorter route.",
+            "zh": "了解哪些參加者需要較短路線。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四項都能為長時間步行作準備；金句說明持續負擔的性質。"
+      },
+      "scene": {
+        "promptZh": "劇團連續八小時搬布景、調燈光和重新排練，直到晚上才完成。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The day became a test of endurance for the whole cast.",
+            "zh": "那一天成了全體演員的耐力考驗。"
+          },
+          {
+            "id": "b",
+            "en": "One brief cue change solved everything in five minutes.",
+            "zh": "一次簡短的提示改動，在五分鐘內解決一切。"
+          },
+          {
+            "id": "c",
+            "en": "The cast had only to choose one costume before going home.",
+            "zh": "演員回家前只須選一套服裝。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項工作持續八小時，考驗持續投入。"
+      },
+      "contrast": {
+        "promptZh": "哪件事主要是短暫判斷，而不是 test of endurance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A judge selects one of two poster designs in a ten-minute meeting.",
+            "zh": "評審在十分鐘會議中選出兩款海報之一。"
+          },
+          {
+            "id": "b",
+            "en": "A team repairs damaged books throughout a long weekend.",
+            "zh": "團隊用整個長週末修復損壞書籍。"
+          },
+          {
+            "id": "c",
+            "en": "A hiker completes a steep trail in heavy rain over many hours.",
+            "zh": "行山者在大雨中花多小時走完陡峭路線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十分鐘內作出一次判斷，主要考驗選擇，而非長時間堅持。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們從早上起一直整理捐來的書，還有書架要放滿。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a test of endurance; let us rotate the lifting work.",
+            "zh": "這是一場耐力考驗；我們輪流搬書吧。"
+          },
+          {
+            "id": "b",
+            "en": "We could take a short break before the next shelf.",
+            "zh": "整理下一個書架前，我們可以短暫休息。"
+          },
+          {
+            "id": "c",
+            "en": "Ask whether more volunteers can help this afternoon.",
+            "zh": "問問下午能否多找幾名義工幫忙。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從早上持續工作且仍未完成，金句點出長時間負擔。",
+        "promptEn": "A: We have been sorting donated books since morning, and there are still shelves to fill. B: ______"
+      },
+      "speaking": {
+        "en": "Cataloguing the donated books all weekend was a test of endurance, so we took turns and kept regular breaks.",
+        "zh": "整個週末為捐書編目是一場耐力考驗，所以我們輪流工作並定時休息。",
+        "promptZh": "說明工作持續多久、需要怎樣堅持，以及應對方法。",
+        "targetSpan": {
+          "start": 46,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項活動持續多個小時或多天，參與者需要長時間維持努力。用英文交代時長、持續負擔及應對方式或結果。",
+        "selfCheckZh": "重點是長時間堅持；不要只描述一次短暫選擇。",
+        "examples": [
+          {
+            "en": "The school choir rehearsed for seven hours before the concert, and the final session became a test of endurance for the singers, who took short breaks to keep going.",
+            "zh": "學校合唱團在音樂會前排練七小時，最後一節排練成了歌手們的耐力考驗；他們靠短暫休息繼續下去。"
+          },
+          {
+            "en": "Keeping the community kitchen open through a full holiday weekend was a test of endurance, so the volunteers divided the shifts carefully.",
+            "zh": "整個假日長週末維持社區廚房開放是一場耐力考驗，因此義工仔細分配輪班。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "school choir",
+            "zh": "學校合唱團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "for seven hours",
+            "zh": "七小時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 42
+            }
+          },
+          {
+            "en": "the final session",
+            "zh": "最後一節排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "the community kitchen",
+            "zh": "社區廚房",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 29
+            }
+          },
+          {
+            "en": "the shifts",
+            "zh": "輪班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The long climb was a test of endurance rather than speed.",
+          "zh": "漫長的攀登是耐力考驗，而非速度比拼。"
+        },
+        {
+          "en": "Several hours of careful work can become a test of endurance.",
+          "zh": "連續多小時仔細工作也可能成為耐力考驗。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3169",
+      "number": 3169,
+      "inventoryId": "expr-3169",
+      "titleEn": "reacting on impulse",
+      "titleZh": "憑一時衝動回應",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:react|reacts|reacted|reacting) on impulse\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Respond immediately from a sudden feeling without first considering consequences.",
+        "meaningZh": "未先考慮後果，便憑一時情緒作出回應。",
+        "grammar": "react on impulse; react is intransitive and the prepositional phrase describes how one responds.",
+        "register": "Neutral conversational language. A student might use it with a friend when discussing an angry message.",
+        "boundaryZh": "指回應前缺乏思考；迅速但經過充分準備的行動不一定是衝動。",
+        "misconceptionZh": "不是所有快反應都錯；要看是否有機會思考而仍被一時情緒帶動。",
+        "outcomeZh": "能辨別情緒驅動的即時回應與經判斷後的迅速行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1058",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 98,
+          "book": 12,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "77–79",
+          "locatorNote": "DOCX table 102, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Pause before reacting on impulse.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "reacting on impulse"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者收到批評訊息後做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker waited before sending a reply to avoid an impulsive response.",
+            "zh": "講者暫緩回覆，以免衝動回應。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker sent an angry reply at once.",
+            "zh": "講者立即送出憤怒的回覆。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker deleted every earlier message.",
+            "zh": "講者刪除了所有較早的訊息。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker asked the sender to stop giving any feedback.",
+            "zh": "講者叫對方不要再給任何意見。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者先放下手機，避免憑情緒立刻回覆。",
+        "en": "I felt angry when I read the criticism, but I did not want to react on impulse. I put my phone down for ten minutes, then wrote a question about the point I did not understand.",
+        "zh": "我看到批評時感到生氣，但不想憑一時衝動回應。我把手機放下十分鐘，然後就不明白的地方寫了一個問題。"
+      },
+      "reply": {
+        "promptEn": "The message annoyed me, and I am about to send the first angry sentence that comes to mind. What would help?",
+        "promptZh": "（那則訊息令我不快，我正打算把第一句想到的氣話發出去。怎樣做較好？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Wait a few minutes before deciding whether to reply.",
+            "zh": "等幾分鐘再決定是否回覆。"
+          },
+          {
+            "id": "b",
+            "en": "Draft the message without sending it, then read it again.",
+            "zh": "先寫草稿但不要送出，之後重讀。"
+          },
+          {
+            "id": "c",
+            "en": "I may be reacting on impulse; I should check what the message actually says.",
+            "zh": "我可能正憑一時衝動回應；應先看清楚訊息的內容。"
+          },
+          {
+            "id": "d",
+            "en": "Ask which part of the feedback needs clarification.",
+            "zh": "問清楚意見中哪一部分需要解釋。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可避免草率回應；金句準確命名一時情緒驅動的反應。"
+      },
+      "scene": {
+        "promptZh": "隊友提出修改海報，一名組員未看具體建議，便因一時不快立即退出群組，稍後又說後悔。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The member reacted on impulse before considering the suggestion.",
+            "zh": "該組員未考慮建議便憑一時衝動回應。"
+          },
+          {
+            "id": "b",
+            "en": "The member reviewed the proposal and then decided to leave after a week.",
+            "zh": "該組員看過方案後，一星期才決定離開。"
+          },
+          {
+            "id": "c",
+            "en": "The member followed an agreed emergency procedure immediately.",
+            "zh": "該組員立即按已商定的緊急程序行事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "在未看建議前因一時不快立即退群，顯示衝動回應。"
+      },
+      "contrast": {
+        "promptZh": "哪個迅速行動較不足以說 reacting on impulse？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trained first-aider follows the practised steps immediately.",
+            "zh": "受訓急救員立即按練習過的步驟行動。"
+          },
+          {
+            "id": "b",
+            "en": "A student sends a sharp reply without reading the full email.",
+            "zh": "學生未讀完整封電郵便送出尖銳回覆。"
+          },
+          {
+            "id": "c",
+            "en": "A shopper buys an expensive item at once because of a momentary urge.",
+            "zh": "購物者因一時慾望立即買下昂貴物品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "速度快但按既定訓練和判斷行事，沒有一時衝動的證據。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我當時很不開心，還未聽他們的計劃就答應退出團隊。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You reacted on impulse; perhaps hear the plan before confirming your decision.",
+            "zh": "你憑一時衝動作出回應；不如先聽計劃，再確認決定。"
+          },
+          {
+            "id": "b",
+            "en": "You can ask what work the team expects from you.",
+            "zh": "你可以問團隊希望你負責甚麼工作。"
+          },
+          {
+            "id": "c",
+            "en": "Tell them you need time before making the final decision.",
+            "zh": "告訴他們你需要時間才作最後決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未聽計劃便因不快答應退出，金句指出缺乏思考的即時回應。",
+        "promptEn": "A: I was upset and agreed to quit the team before I had heard their plan. B: ______"
+      },
+      "speaking": {
+        "en": "I nearly reacted on impulse to the complaint, but I read it again and asked one calm question first.",
+        "zh": "我差點對投訴憑一時衝動回應，但我重新讀了一次，先平靜地問了一條問題。",
+        "promptZh": "說明情緒觸發、原本的衝動反應和後來的選擇。",
+        "targetSpan": {
+          "start": 9,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人收到令人不快的消息，差點或已經立即作出回應。用英文寫出觸發事件、衝動反應，以及稍後怎樣處理。",
+        "selfCheckZh": "須清楚交代未先考慮的情緒反應；不能只說動作很快。",
+        "examples": [
+          {
+            "en": "After a teammate criticised the draft, I nearly reacted on impulse and sent a harsh reply, but I waited and asked for a specific example instead.",
+            "zh": "隊友批評草稿後，我差點憑一時衝動回應，送出尖刻訊息；但我先等一等，改為要求一個具體例子。"
+          },
+          {
+            "en": "The customer reacted on impulse to the price change and cancelled the order, then called back after reading the full notice.",
+            "zh": "顧客看到價格變動後憑一時衝動取消訂單；看完整份通知後，才再致電。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a teammate",
+            "zh": "隊友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 16
+            }
+          },
+          {
+            "en": "the draft",
+            "zh": "草稿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 37
+            }
+          },
+          {
+            "en": "a specific example",
+            "zh": "具體例子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 136
+            }
+          },
+          {
+            "en": "the price change",
+            "zh": "價格變動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "the full notice",
+            "zh": "完整通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Pause before reacting on impulse to a difficult message.",
+          "zh": "收到難以接受的訊息時，先停一停，避免衝動回應。"
+        },
+        {
+          "en": "She reacted on impulse and later reconsidered her decision.",
+          "zh": "她憑一時衝動作出回應，之後重新考慮決定。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3175",
+      "number": 3175,
+      "inventoryId": "expr-3175",
+      "titleEn": "even-tempered",
+      "titleZh": "性情平和；情緒穩定",
+      "category": "natural",
+      "target": {
+        "pattern": "\\beven-tempered\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Generally calm and steady in mood, including when facing pressure or disagreement.",
+        "meaningZh": "性情通常平和穩定，遇到壓力或分歧也不易動怒。",
+        "grammar": "Even-tempered is an adjective, usually before a noun or after be/seem/remain. It describes a characteristic rather than one isolated calm act.",
+        "register": "Neutral descriptive language. A coach might use it when recommending a player to a team captain.",
+        "boundaryZh": "指一貫較穩定的性情；一個人只在某次會議保持冷靜，未必足以判定其性格。",
+        "misconceptionZh": "不是完全沒有情緒，也不保證任何情況下都永遠平靜。",
+        "outcomeZh": "能分辨穩定的性情與單次克制，以及與容易衝動動怒的性格。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1064",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 99,
+          "book": 12,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "77–79",
+          "locatorNote": "DOCX table 102, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She is even-tempered under pressure.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "even-tempered"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "教練為何說 Ava 適合協調隊員？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ava usually stays calm when teammates disagree or a game becomes tense.",
+            "zh": "隊友有分歧或賽事緊張時，Ava 通常保持冷靜。"
+          },
+          {
+            "id": "b",
+            "en": "Ava never has any opinion about the team.",
+            "zh": "Ava 對團隊從來沒有意見。"
+          },
+          {
+            "id": "c",
+            "en": "Ava won one match despite becoming angry.",
+            "zh": "Ava 有一次在生氣時仍贏得比賽。"
+          },
+          {
+            "id": "d",
+            "en": "Ava avoids every difficult conversation.",
+            "zh": "Ava 迴避所有困難對話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "教練描述她在多次有壓力的情況下都保持穩定，而非只談一次表現。",
+        "en": "Ava is even-tempered. In close matches, she listens before answering, and when teammates disagree, she helps them discuss the next move without raising her voice. That is why I trust her to coordinate the group.",
+        "zh": "Ava 性情平和。比賽緊張時，她會先聽再回答；隊友意見不合時，她幫大家討論下一步，也不提高聲量。所以我信任她協調團隊。"
+      },
+      "reply": {
+        "promptEn": "Ava stays calm in close matches and listens when teammates disagree. How can we describe her as a coordinator?",
+        "promptZh": "（Ava 在緊張比賽中仍保持冷靜，隊友意見不合時也願意聆聽。我們可以怎樣描述她作為協調者？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She gives others time to explain their views.",
+            "zh": "她給別人時間解釋意見。"
+          },
+          {
+            "id": "b",
+            "en": "She helps the team talk through disagreements calmly.",
+            "zh": "她幫團隊平靜地討論分歧。"
+          },
+          {
+            "id": "c",
+            "en": "She is even-tempered and helps everyone stay focused.",
+            "zh": "她性情平和，幫大家保持專注。"
+          },
+          {
+            "id": "d",
+            "en": "She listens first rather than assuming she knows the answer.",
+            "zh": "她先聆聽，不會以為自己早知道答案。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合 Ava 的做法；金句概括其一貫穩定的性情。"
+      },
+      "scene": {
+        "promptZh": "在多次繁忙的輪班中，主管面對排班分歧都先聽雙方，再平靜調整安排，從未因壓力突然責罵同事。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The supervisor is even-tempered under pressure.",
+            "zh": "主管受壓時仍性情平和。"
+          },
+          {
+            "id": "b",
+            "en": "The supervisor was calm once but usually snaps at staff.",
+            "zh": "主管只有一次冷靜，平日卻常責罵同事。"
+          },
+          {
+            "id": "c",
+            "en": "The supervisor has no view on how shifts should work.",
+            "zh": "主管對輪班安排毫無看法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次受壓仍平靜處理分歧，可支持性情穩定的描述。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以單獨判斷某人 even-tempered？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He answered one easy question politely on a quiet day.",
+            "zh": "他在平靜的一天，禮貌地回答了一條簡單問題。"
+          },
+          {
+            "id": "b",
+            "en": "She repeatedly listens calmly when colleagues disagree.",
+            "zh": "同事意見不合時，她多次平靜聆聽。"
+          },
+          {
+            "id": "c",
+            "en": "He stays measured through several demanding meetings.",
+            "zh": "多次具挑戰性的會議中，他仍保持沉著。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單次、低壓的禮貌表現不足以推斷穩定性情。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：即使綵排臨時改動，Farah 也會先聽雙方意見才作決定。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sounds even-tempered, which helps when everyone feels rushed.",
+            "zh": "她似乎性情平和；大家都趕時間時，這很有幫助。"
+          },
+          {
+            "id": "b",
+            "en": "That listening habit may make the revised plan easier to accept.",
+            "zh": "她願意聆聽，也許令修訂計劃更容易被接受。"
+          },
+          {
+            "id": "c",
+            "en": "We could ask her to lead the next discussion.",
+            "zh": "我們可以請她主持下一次討論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆受壓仍先聽後決定，金句準確描述平和穩定的性格。",
+        "promptEn": "A: Even when the rehearsal changes at short notice, Farah listens to both sides before deciding. B: ______"
+      },
+      "speaking": {
+        "en": "Our captain is even-tempered: she remains calm during close games and hears both sides of an argument.",
+        "zh": "我們的隊長性情平和：比賽緊張時仍冷靜，也會聽取爭論雙方的意見。",
+        "promptZh": "交代反覆可觀察到的沉著行為，不只描述一次容易的對話。",
+        "targetSpan": {
+          "start": 15,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人多次遇到壓力或分歧，仍能平靜聆聽和回應。用英文寫出反覆的情況及其穩定做法。",
+        "selfCheckZh": "性情描述需要不止一次的行為證據；不要寫成此人沒有意見或情緒。",
+        "examples": [
+          {
+            "en": "Across several booking disputes, the librarian has remained even-tempered; she listens to each request and explains the available times calmly.",
+            "zh": "幾次預約爭議中，圖書館員一直性情平和；她聆聽每項要求，平靜地解釋可用時段。"
+          },
+          {
+            "en": "Across several busy rehearsals, the director remained even-tempered and discussed mistakes without blaming the actors.",
+            "zh": "幾次繁忙的綵排中，導演一直保持平和，討論失誤時沒有責怪演員。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "several booking disputes",
+            "zh": "幾次預約爭議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 31
+            }
+          },
+          {
+            "en": "each request",
+            "zh": "每項要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 102
+            }
+          },
+          {
+            "en": "the available times",
+            "zh": "可用時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 135
+            }
+          },
+          {
+            "en": "several busy rehearsals",
+            "zh": "幾次繁忙的綵排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 30
+            }
+          },
+          {
+            "en": "without blaming the actors",
+            "zh": "沒有責怪演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She is even-tempered when a discussion becomes tense.",
+          "zh": "討論變得緊張時，她仍性情平和。"
+        },
+        {
+          "en": "One polite reply alone does not prove someone is even-tempered.",
+          "zh": "單憑一次禮貌回覆，不足以證明某人性情一向平和。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3176",
+      "number": 3176,
+      "inventoryId": "expr-3176",
+      "titleEn": "hot-headed",
+      "titleZh": "急躁易怒；容易衝動",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhot-headed\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Quick to become angry or act rashly, especially when challenged.",
+        "meaningZh": "遇到挑戰時容易動怒或衝動行事。",
+        "grammar": "Hot-headed is a hyphenated adjective before a noun or after be/seem. It usually characterises a tendency, not a single angry sentence.",
+        "register": "Informal but common description. A teammate might caution a friend about a player’s pattern of hasty reactions.",
+        "boundaryZh": "側重容易發火或草率行動的傾向；合理地表達一次強烈意見，不足以貼上此性格標籤。",
+        "misconceptionZh": "不是指體溫高，也不等同每次大聲說話都是衝動。",
+        "outcomeZh": "能根據反覆、可觀察的行為判斷急躁性格，避免單次事件過度定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1065",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 99,
+          "book": 12,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "77–79",
+          "locatorNote": "DOCX table 102, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He can be hot-headed during close games.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hot-headed"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "隊長為何擔心 Noah 在緊張比賽中的反應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Twice this month, Noah argued sharply before hearing the referee’s explanation, then apologised.",
+            "zh": "這個月有兩次，Noah 未聽球證解釋便激烈爭論，之後才道歉。"
+          },
+          {
+            "id": "b",
+            "en": "Noah calmly asked the referee for an explanation on both occasions.",
+            "zh": "兩次事件中，Noah 都平靜地請球證解釋。"
+          },
+          {
+            "id": "c",
+            "en": "Noah has missed several matches because of injury.",
+            "zh": "Noah 因受傷錯過了多場比賽。"
+          },
+          {
+            "id": "d",
+            "en": "Noah keeps a detailed record of each game.",
+            "zh": "Noah 詳細記錄每場比賽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隊長明確提到這個月兩次先激烈爭論、後向球隊道歉的情況。",
+        "en": "Noah is talented, but he can be hot-headed in close games. Twice this month he argued sharply with the referee before hearing the explanation, and later he apologised to the team.",
+        "zh": "Noah 很有天分，但比賽緊張時可能會急躁衝動。這個月有兩次，他未聽解釋便激烈地與球證爭論，之後才向球隊道歉。"
+      },
+      "reply": {
+        "promptEn": "Noah has argued sharply with the referee before listening twice this month. How can we talk to him about it fairly?",
+        "promptZh": "（Noah 這個月已有兩次未聽解釋便激烈地與球證爭論。我們怎樣公平地跟他談？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mention the two incidents rather than calling him a bad person.",
+            "zh": "談具體兩次事件，而不是說他是壞人。"
+          },
+          {
+            "id": "b",
+            "en": "Ask what he felt just before he argued.",
+            "zh": "問他爭論前一刻有甚麼感受。"
+          },
+          {
+            "id": "c",
+            "en": "He can be hot-headed in close games; let us agree on a pause before he speaks.",
+            "zh": "比賽緊張時他可能急躁衝動；我們一起定好發言前先停一停。"
+          },
+          {
+            "id": "d",
+            "en": "Discuss how the arguments affected the team.",
+            "zh": "討論爭論怎樣影響球隊。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可針對具體行為討論；金句點出傾向並提出可行改進。"
+      },
+      "scene": {
+        "promptZh": "同一名組員在三次排練意見不合時，都未聽完便提高聲量並立刻退出討論，稍後又回來道歉。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The member can be hot-headed during disagreements.",
+            "zh": "這名組員在意見不合時可能急躁衝動。"
+          },
+          {
+            "id": "b",
+            "en": "The member once expressed a firm view after hearing everyone.",
+            "zh": "這名組員有一次聽完各方後堅定表達意見。"
+          },
+          {
+            "id": "c",
+            "en": "The member consistently helps others settle arguments calmly.",
+            "zh": "這名組員一向平靜地幫別人化解爭論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次未聽完便激烈反應，可支持急躁衝動的傾向。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以單獨稱某人 hot-headed？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She raises a serious safety concern firmly after checking the facts.",
+            "zh": "她核對事實後，堅定地提出嚴重安全問題。"
+          },
+          {
+            "id": "b",
+            "en": "He repeatedly snaps at teammates before hearing their explanations.",
+            "zh": "他屢次未聽解釋便對隊友惡言相向。"
+          },
+          {
+            "id": "c",
+            "en": "She often makes angry decisions and soon regrets them.",
+            "zh": "她經常一生氣就決定事情，很快又後悔。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有根據而堅定地提出安全問題，不代表易怒或衝動。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Kai 已兩次未聽完建議改動，便怒氣沖沖地離開計劃會議。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He seems hot-headed in those meetings; we should discuss the pattern with him.",
+            "zh": "他在那些會議中似乎急躁衝動；我們應跟他討論這個反覆情況。"
+          },
+          {
+            "id": "b",
+            "en": "We could send the proposed changes before the next meeting.",
+            "zh": "我們可以在下次會議前先傳送建議改動。"
+          },
+          {
+            "id": "c",
+            "en": "Ask Kai what made him leave before the explanation finished.",
+            "zh": "問 Kai 為何未聽完解釋便離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩次未聽解釋便憤然離開，金句謹慎地描述已見的傾向。",
+        "promptEn": "A: Kai has stormed out of planning meetings twice before hearing the proposed changes. B: ______"
+      },
+      "speaking": {
+        "en": "He can be hot-headed when a plan changes, but asking for a pause has helped him listen before replying.",
+        "zh": "計劃改動時，他可能急躁衝動；但要求先停一停，已幫他在回應前聆聽。",
+        "promptZh": "說出反覆情況、急躁反應，以及具體改善方法。",
+        "targetSpan": {
+          "start": 10,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人在多次有分歧或改動時快速發怒或草率行動，之後嘗試改善。用英文寫出反覆行為證據及改善方式。",
+        "selfCheckZh": "須用具體反覆行為支持性情描述；不要把有理據的一次堅定發言說成易怒。",
+        "examples": [
+          {
+            "en": "The club treasurer can be hot-headed when a budget proposal changes; after several sharp replies, she agreed to read each revision before commenting.",
+            "zh": "預算建議改動時，社團司庫可能急躁衝動；幾次尖銳回應後，她同意每次先讀修訂內容才評論。"
+          },
+          {
+            "en": "During three rehearsals, the actor was hot-headed about small timing changes and interrupted the stage manager, but later asked for the schedule in writing.",
+            "zh": "三次綵排中，演員都因細微的時間改動而急躁衝動，打斷舞台監督；之後他要求一份書面時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "club treasurer",
+            "zh": "社團司庫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "a budget proposal",
+            "zh": "預算建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 59
+            }
+          },
+          {
+            "en": "each revision",
+            "zh": "每次修訂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 130
+            }
+          },
+          {
+            "en": "three rehearsals",
+            "zh": "三次綵排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 23
+            }
+          },
+          {
+            "en": "the stage manager",
+            "zh": "舞台監督",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "He can be hot-headed when teammates question his plan.",
+          "zh": "隊友質疑他的計劃時，他可能急躁衝動。"
+        },
+        {
+          "en": "One firm, well-considered reply does not make someone hot-headed.",
+          "zh": "單憑一次經深思而堅定的回覆，不能斷定某人容易衝動。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3184",
+      "number": 3184,
+      "inventoryId": "expr-3184",
+      "titleEn": "at any cost",
+      "titleZh": "不惜任何代價",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat any cost\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pursue a goal regardless of the possible expense, harm, or other consequences.",
+        "meaningZh": "為達到目標而不顧可能付出的費用、損害或其他後果。",
+        "grammar": "at any cost is an adverbial phrase after a goal/action; the cost may be financial or non-financial.",
+        "register": "Neutral but emphatic. A project lead may use it when warning a team against sacrificing safety for speed.",
+        "boundaryZh": "用於表示不設可接受代價上限的追求，常用作提醒風險；願意多花一筆有限費用不等於不惜一切代價。",
+        "misconceptionZh": "cost 不限於金錢；也不應把任何認真努力都誇大為不顧後果。",
+        "outcomeZh": "能分辨有界限的投入與為目標忽視重大代價。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1073",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 100,
+          "book": 12,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–81",
+          "locatorNote": "DOCX table 103, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Speed at any cost is a poor design goal.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at any cost"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "團隊主管反對哪一種加快進度的方法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ignoring the required safety checks merely to meet the date.",
+            "zh": "純粹為趕及日期而忽略必要安全檢查。"
+          },
+          {
+            "id": "b",
+            "en": "Adding a short review meeting before release.",
+            "zh": "發布前增加一次短暫檢討會議。"
+          },
+          {
+            "id": "c",
+            "en": "Moving one non-urgent task to next week.",
+            "zh": "把一項不急的工作延至下星期。"
+          },
+          {
+            "id": "d",
+            "en": "Asking for help with the remaining checks.",
+            "zh": "就餘下檢查尋求協助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主管反對為趕日期而犧牲必要安全檢查，這才是不顧重大代價。",
+        "en": "I want the playground open by Friday, but not at any cost. The safety checks are required, and if they take another day, we must change the opening date.",
+        "zh": "我希望遊樂場星期五開放，但不能不惜任何代價。安全檢查是必要的；如果需要多一天，我們就必須更改開放日期。"
+      },
+      "reply": {
+        "promptEn": "We want to open the playground on Friday, but the required safety check might take another day. What should we do?",
+        "promptZh": "（我們希望星期五開放遊樂場，但必要安全檢查可能要多一天。我們應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep the check and tell visitors if the opening changes.",
+            "zh": "完成檢查；若開放日期改變便通知訪客。"
+          },
+          {
+            "id": "b",
+            "en": "Ask the inspector when the result will be ready.",
+            "zh": "問檢查員何時有結果。"
+          },
+          {
+            "id": "c",
+            "en": "We should not open at any cost; safety comes before the date.",
+            "zh": "我們不應不惜任何代價開放；安全比日期重要。"
+          },
+          {
+            "id": "d",
+            "en": "Prepare a revised announcement in case of delay.",
+            "zh": "預備修訂公告，以防延遲。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都尊重安全要求；金句明確拒絕為期限不顧重大代價。"
+      },
+      "scene": {
+        "promptZh": "活動主辦方堅持準時開場，甚至打算讓未受訓義工操作危險設備。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are pursuing an on-time opening at any cost.",
+            "zh": "他們為準時開場而不惜任何代價。"
+          },
+          {
+            "id": "b",
+            "en": "They have set a fixed budget for extra trained staff.",
+            "zh": "他們已為增聘受訓職員設定固定預算。"
+          },
+          {
+            "id": "c",
+            "en": "They are delaying the opening until volunteers are trained.",
+            "zh": "他們正延遲開場，等待義工完成培訓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "準時開場被置於設備安全之上，顯示不顧重大後果。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不屬於追求目標 at any cost？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team pays a modest, approved fee for an extra safety inspection.",
+            "zh": "團隊獲批支付一筆合理費用，以進行額外安全檢查。"
+          },
+          {
+            "id": "b",
+            "en": "The team hides a serious defect to meet the launch date.",
+            "zh": "團隊隱瞞嚴重缺陷，以趕及推出日期。"
+          },
+          {
+            "id": "c",
+            "en": "The team ignores staff exhaustion to keep production running overnight.",
+            "zh": "團隊無視職員過勞，讓生產通宵運作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有限且獲批的額外費用是有界限的選擇，並非不顧代價。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：會堂尚未準備好。如果跳過電線檢查，我們今晚仍可開放。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We cannot open at any cost; the wiring must be checked first.",
+            "zh": "我們不能不惜任何代價開放；電線必須先檢查。"
+          },
+          {
+            "id": "b",
+            "en": "Tell attendees when we can give them an update.",
+            "zh": "告訴參加者我們何時能提供最新消息。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the inspector when the hall can be checked.",
+            "zh": "詢問檢查員何時可檢查會堂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跳過電線安全檢查屬重大代價，金句明確拒絕。",
+        "promptEn": "A: The hall is not ready. If we skip the wiring inspection, we could still open tonight. B: ______"
+      },
+      "speaking": {
+        "en": "The museum wanted to reopen quickly, but not at any cost; it waited until the damaged stairway was repaired.",
+        "zh": "博物館希望盡快重新開放，但不能不惜任何代價；它等到受損樓梯修妥才開放。",
+        "promptZh": "說明目標、不可接受的代價，以及安全或公平的界限。",
+        "targetSpan": {
+          "start": 45,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：組織想達成一個期限或目標，但某種做法會帶來重大安全或公平代價。用英文交代目標、界限，以及最後採取的做法。",
+        "selfCheckZh": "須有具體不可接受的代價；不要把有限而合理的額外花費說成不惜一切代價。",
+        "examples": [
+          {
+            "en": "The library wanted to extend its hours, but not at any cost: it hired another attendant instead of leaving one worker alone all evening.",
+            "zh": "圖書館想延長開放時間，但不能不惜任何代價：它增聘一名值班員，而不是讓一名職員整晚獨自當值。"
+          },
+          {
+            "en": "The delivery firm refused to meet the deadline at any cost and postponed the route when the bridge inspection was incomplete.",
+            "zh": "運送公司拒絕為趕期限而不惜任何代價；橋樑檢查尚未完成時，它延後了路線安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "extend its hours",
+            "zh": "延長開放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 38
+            }
+          },
+          {
+            "en": "another attendant",
+            "zh": "另一名值班員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 87
+            }
+          },
+          {
+            "en": "all evening",
+            "zh": "整晚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 135
+            }
+          },
+          {
+            "en": "the deadline",
+            "zh": "期限",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 46
+            }
+          },
+          {
+            "en": "the bridge inspection",
+            "zh": "橋樑檢查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 109
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A deadline should not be met at any cost if safety is at stake.",
+          "zh": "若關乎安全，就不應為趕期限而不惜任何代價。"
+        },
+        {
+          "en": "Spending a small agreed amount is not the same as acting at any cost.",
+          "zh": "花一筆雙方同意的小額費用，並不等於不惜任何代價。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3186",
+      "number": 3186,
+      "inventoryId": "expr-3186",
+      "titleEn": "falling apart",
+      "titleZh": "逐漸瓦解；無法照原計劃運作",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the|this|that|our|their|his|her|my|your) (?:[a-z]+ ){0,3}(?:plan|schedule|arrangement|project|strategy|event) (?:is|was|seems to be|appears to be) falling apart\\b|\\b(?:a|the|this|that|our|their|his|her|my|your) (?:[a-z]+ ){0,3}(?:plan|schedule|arrangement|project|strategy|event) (?:fell|falls) apart\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A plan or organised activity is breaking down because its necessary parts no longer work together.",
+        "meaningZh": "計劃或有組織的活動因關鍵部分接連失效而逐漸無法運作。",
+        "grammar": "An inanimate plan, schedule, arrangement, project, strategy, or event falls/fell/is falling apart; up to three modifiers may precede the plan-like subject. The detector deliberately excludes a human subject.",
+        "register": "Neutral conversational metaphor. An organiser might tell fellow organisers that linked failures are undermining an event plan.",
+        "boundaryZh": "本課只教計劃失去可行性的意思。既有第 1164 課教人因情緒打擊而快要崩潰；兩者的完整句子可能同含 falling apart，但應按主語及意義分別歸屬。單一可補救的延誤未必等於整個計劃瓦解。",
+        "misconceptionZh": "不是物件在物理上散開，也不是把人的情緒崩潰自動套進計劃。",
+        "outcomeZh": "能從關鍵環節接連出問題辨認計劃瓦解，並與人的情緒崩潰區分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1075",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 100,
+          "book": 12,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–81",
+          "locatorNote": "DOCX table 103, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The plan was falling apart after the second delay.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "falling apart"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "主辦人為何說活動計劃逐漸瓦解？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two linked essentials failed: the venue booking and the transport arrangement.",
+            "zh": "場地預訂和交通安排兩個互相關連的關鍵環節都出了問題。"
+          },
+          {
+            "id": "b",
+            "en": "One guest changed a non-essential preference.",
+            "zh": "一名嘉賓改變了一項非必要喜好。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker became too upset to continue talking.",
+            "zh": "講者傷心得無法繼續說話。"
+          },
+          {
+            "id": "d",
+            "en": "The printed programme came apart at its binding.",
+            "zh": "印好的場刊在裝訂處散開了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地和交通兩個必要環節都失效，令原計劃難以實行。",
+        "en": "The venue cancelled our booking, and the bus company cannot bring the students to the replacement site. Our plan is falling apart. We need to decide whether to postpone the trip.",
+        "zh": "場地取消了我們的預訂，而巴士公司無法把學生送往替代地點。我們的計劃正逐漸瓦解。我們需要決定是否延期旅行。"
+      },
+      "reply": {
+        "promptEn": "The venue cancelled, and the bus cannot reach the replacement site. What should we tell the organising team?",
+        "promptZh": "（場地取消預訂，巴士也無法到達替代地點。我們應怎樣告訴籌辦團隊？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "List the two failed arrangements and decide whether to postpone.",
+            "zh": "列出兩項出問題的安排，再決定是否延期。"
+          },
+          {
+            "id": "b",
+            "en": "Tell everyone that the replacement site is not yet workable.",
+            "zh": "告訴大家替代地點目前不可行。"
+          },
+          {
+            "id": "c",
+            "en": "Our plan is falling apart; we need a new venue and transport plan or a postponement.",
+            "zh": "我們的計劃正逐漸瓦解；需要新的場地及交通安排，否則就延期。"
+          },
+          {
+            "id": "d",
+            "en": "Ask the venue and bus company for written confirmation.",
+            "zh": "向場地和巴士公司索取書面確認。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可合理處理困局；金句概括互相關連的關鍵安排失效。"
+      },
+      "scene": {
+        "promptZh": "展覽的借展許可未批、保險亦未生效，開幕所需的作品因此不能運入場地。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exhibition plan is falling apart because essential steps are blocked.",
+            "zh": "必要步驟受阻，展覽計劃正逐漸瓦解。"
+          },
+          {
+            "id": "b",
+            "en": "The curator feels emotional but the exhibition arrangements are intact.",
+            "zh": "策展人感到難過，但展覽安排仍然完好。"
+          },
+          {
+            "id": "c",
+            "en": "One caption has a spelling mistake that can be corrected before opening.",
+            "zh": "一則說明文字有拼寫錯誤，開幕前可修正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "借展許可與保險兩個關鍵前置條件未完成，令作品不能入場。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況較不足以說 plan is falling apart？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One speaker is ten minutes late, but the schedule has a free slot and the event proceeds.",
+            "zh": "一名講者遲到十分鐘，但時間表有空檔，活動仍順利進行。"
+          },
+          {
+            "id": "b",
+            "en": "The venue is lost and the replacement cannot hold the registered group.",
+            "zh": "場地不見了，替代場地又容不下已報名的人。"
+          },
+          {
+            "id": "c",
+            "en": "Two essential permits are denied, preventing the planned opening.",
+            "zh": "兩項必要許可未獲批，原定開幕因此無法進行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一延誤已被預留空檔吸收，整體計劃仍可運作。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：資助已被撤回，而我們的新日期也不能使用會堂。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The project plan is falling apart; let us review whether it can still run.",
+            "zh": "項目計劃正逐漸瓦解；我們檢視一下能否繼續推行。"
+          },
+          {
+            "id": "b",
+            "en": "We should tell partners about both changes promptly.",
+            "zh": "我們應盡快通知合作伙伴這兩項改動。"
+          },
+          {
+            "id": "c",
+            "en": "Let us calculate what the project can do without the grant.",
+            "zh": "我們計算一下沒有資助時還能做甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資助和場地兩大支柱皆失效，金句準確描述項目計劃的瓦解。",
+        "promptEn": "A: The grant has been withdrawn, and the hall will not be available on our new date. B: ______"
+      },
+      "speaking": {
+        "en": "Our project plan is falling apart: the sponsor withdrew, and the only suitable room is no longer available.",
+        "zh": "我們的項目計劃正逐漸瓦解：贊助方撤出，唯一合適的房間亦不再可用。",
+        "promptZh": "說明計劃及至少兩項關鍵失效環節，避免寫成人的情緒崩潰。",
+        "targetSpan": {
+          "start": 0,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項活動或項目的兩個必要安排接連失效，原計劃已難以照常進行。用英文寫出兩項失效、計劃受到的影響及後續決定。",
+        "selfCheckZh": "須用計劃或項目作主語，並交代不止一項關鍵故障；不要改寫成人的情緒崩潰。",
+        "examples": [
+          {
+            "en": "The school fair plan was falling apart after the supplier withdrew and the backup stalls were unavailable, so the committee considered a later date.",
+            "zh": "供應商退出，而備用攤位亦無法使用後，學校嘉年華計劃正逐漸瓦解，委員會因此考慮延期。"
+          },
+          {
+            "en": "The theatre project fell apart when the rehearsal space closed and the funding agreement ended; the group cancelled the opening night.",
+            "zh": "綵排場地關閉、資助協議終止後，劇團項目瓦解了；團隊取消了首演夜。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the supplier",
+            "zh": "供應商",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 57
+            }
+          },
+          {
+            "en": "the backup stalls",
+            "zh": "備用攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 88
+            }
+          },
+          {
+            "en": "a later date",
+            "zh": "較後日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 147
+            }
+          },
+          {
+            "en": "the rehearsal space",
+            "zh": "綵排場地",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 55
+            }
+          },
+          {
+            "en": "the funding agreement",
+            "zh": "資助協議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The event plan is falling apart because its essential arrangements have failed.",
+          "zh": "必要安排失效，活動計劃正逐漸瓦解。"
+        },
+        {
+          "en": "A small change with a workable backup does not mean a plan is falling apart.",
+          "zh": "一項小改動若有可行後備方案，不代表計劃正在瓦解。"
+        }
+      ]
+    }
+  ]
+}
