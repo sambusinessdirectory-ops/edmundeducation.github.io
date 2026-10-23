@@ -8,6 +8,7 @@ const directory = path.join(root, 'content', 'idiom-compass-editorial-31-108');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'idiom-import-manifest.json'), 'utf8'));
 const sourceById = new Map(manifest.sources.map((source) => [source.lessonId, source]));
 const files = fs.readdirSync(directory).filter((name) => /^idiom-\d{2,3}\.json$/.test(name)).sort();
+const practiceFiles = fs.readdirSync(directory).filter((name) => /^idiom-\d{2,3}-practice-\d{2}-\d{2}\.json$/.test(name)).sort();
 const hasEnglish = (value) => /[A-Za-z]/.test(String(value || ''));
 const hasChinese = (value) => /[\u3400-\u9fff]/u.test(String(value || ''));
 const failures = [];
@@ -73,10 +74,42 @@ for (const name of files) {
   if (!Array.isArray(draft.openGates) || !draft.openGates.length) fail('unfinished review gates are not recorded');
 }
 
+let practiceCount = 0;
+for (const name of practiceFiles) {
+  const fail = (message) => failures.push(`${name}: ${message}`);
+  let draft;
+  try { draft = JSON.parse(fs.readFileSync(path.join(directory, name), 'utf8')); }
+  catch (error) { fail(`invalid JSON: ${error.message}`); continue; }
+  const lessonId = name.match(/^idiom-\d{2,3}/)?.[0];
+  const sourceOrder = lessonId.slice(6).padStart(3, '0');
+  const sourceName = fs.readdirSync(path.join(root, 'tools', 'idiom-lessons'))
+    .find((filename) => filename.startsWith(`lesson-${sourceOrder}-`) && filename.endsWith('.json'));
+  if (!sourceName || draft.lessonId !== lessonId || draft.status !== 'AI_EDITORIAL_DRAFT_NOT_LIVE') {
+    fail('source lesson, ID or draft status mismatch');
+    continue;
+  }
+  const lesson = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'idiom-lessons', sourceName), 'utf8')).lesson;
+  const questions = new Map(lesson.questions.map((question) => [question.id, question]));
+  for (const [id, choice] of Object.entries(draft.items || {})) {
+    practiceCount++;
+    const source = questions.get(id);
+    if (!source) { fail(`unknown original ID ${id}`); continue; }
+    if (!hasEnglish(choice.truthCondition) || !hasChinese(choice.correctReason)) fail(`${id}: missing truth condition or correct reason`);
+    if (!Array.isArray(choice.foils) || choice.foils.length !== 3) { fail(`${id}: requires three foils`); continue; }
+    const lines = [source.answer, ...choice.foils.map((foil) => foil.text)];
+    if (new Set(lines.map((line) => String(line).toLocaleLowerCase('en'))).size !== 4) fail(`${id}: repeated answer/foil`);
+    if (new Set(choice.foils.map((foil) => foil.kind)).size !== 3) fail(`${id}: repeated foil mechanisms`);
+    if (!choice.foils.every((foil) => hasEnglish(foil.text) && hasChinese(foil.reason) && hasEnglish(foil.kind))) fail(`${id}: incomplete English/Chinese foil`);
+    const lengths = lines.map((line) => String(line).trim().split(/\s+/).length).sort((a, b) => a - b);
+    const median = (lengths[1] + lengths[2]) / 2;
+    if (lengths[3] > median * 1.3) fail(`${id}: option length requires editorial review (${lengths.join(',')})`);
+  }
+}
+
 assert.ok(files.length, 'No editorial draft files found');
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`${files.length} source-linked editorial draft(s) pass structural checks; none is approved for release.`);
+  console.log(`${files.length} source-linked guide draft(s) and ${practiceCount} practice item draft(s) pass structural checks; none is approved for release.`);
 }

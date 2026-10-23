@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q01": {
+      "truthCondition": "Emma and her brother repeatedly argue angrily about which television programme to watch.",
+      "correctReason": "原題說兄妹幾乎每晚都為看甚麼節目激烈爭吵；「fight like cat and dog」保留了反覆爭執及爭議內容。",
+      "foils": [
+        { "text": "Emma and her brother fight like cat and dog over who owns the television.", "reason": "這句把爭議由「看甚麼節目」改成「誰擁有電視機」，改變了原題的重要事實。", "kind": "changed-issue" },
+        { "text": "Emma and her brother rarely fight like cat and dog over what to watch on television.", "reason": "「rarely」表示很少爭吵，與原題「幾乎每晚」相反。", "kind": "changed-frequency" },
+        { "text": "Emma and her brother have angry arguments almost every evening about what to watch on television.", "reason": "這句保留了情況，卻沒有用上本課要求的英語慣用語。", "kind": "missing-target-idiom" }
+      ]
+    },
+    "idiom-31-q02": {
+      "truthCondition": "Jack and Leo soon argue angrily each time they play computer games together.",
+      "correctReason": "原題說兩人每次一起玩電腦遊戲便很快激烈爭吵；正確句用慣用語保留這個反覆模式。",
+      "foils": [
+        { "text": "Jack and Leo fight like cat and dog whenever they watch others play computer games.", "reason": "「watch others play」改成旁觀別人玩；原題說的是兩人自己一起玩。", "kind": "changed-activity" },
+        { "text": "Jack and Leo fight like cat and dog before they start playing computer games together.", "reason": "「before they start」把爭吵移到遊戲開始前；原題說的是兩人一起玩時便開始爭吵。", "kind": "changed-sequence" },
+        { "text": "Jack and Leo might fight like cat and dog when they play computer games together.", "reason": "「might」只說有可能爭吵；原題明說兩人每次一起玩都很快開始爭吵。", "kind": "changed-certainty" }
+      ]
+    },
+    "idiom-31-q03": {
+      "truthCondition": "The two cousins repeatedly argue fiercely about whose turn it is to wash the dishes.",
+      "correctReason": "原題說兩名表親每次決定誰洗碗都會激烈爭吵；正確句用慣用語保留人物、頻率及洗碗一事。",
+      "foils": [
+        { "text": "My two cousins fight like cat and dog about whose turn it is to cook dinner.", "reason": "「cook dinner」把爭議由洗碗改成煮晚餐，並非原題內容。", "kind": "changed-task" },
+        { "text": "My two cousins used to fight like cat and dog about whose turn it is to wash the dishes.", "reason": "「used to」暗示這種爭執已是過去；原題說他們現在仍每次都爭吵。", "kind": "changed-aspect" },
+        { "text": "My two cousins argue fiercely about whose turn it is to wash the dishes.", "reason": "這句保留爭議，但未用上指定的「fight like cat and dog」慣用語。", "kind": "missing-target-idiom" }
+      ]
+    },
+    "idiom-31-q04": {
+      "truthCondition": "Hannah and her older sister repeatedly argue angrily about borrowing each other's clothes.",
+      "correctReason": "原題明說 Hannah 與姐姐經常為互借衣服激烈爭吵；正確句保留姐姐、持續情況和爭議內容。",
+      "foils": [
+        { "text": "Hannah fights like cat and dog with her younger sister over borrowing each other's clothes.", "reason": "「younger sister」改成妹妹；原題說的是姐姐。", "kind": "changed-person" },
+        { "text": "Hannah fought like cat and dog with her older sister over borrowing each other's clothes.", "reason": "「fought」只把爭執放在過去；原題描述的是現在仍反覆發生的情況。", "kind": "changed-tense" },
+        { "text": "Hannah fights like cat and dog with her older sister over buying new clothes.", "reason": "「buying new clothes」改成購買新衣；原題的爭議是互相借衣服。", "kind": "changed-issue" }
+      ]
+    },
+    "idiom-31-q05": {
+      "truthCondition": "The two neighbours repeatedly shout at each other because of the noise.",
+      "correctReason": "原題說兩名鄰居總是因噪音互相叫罵；正確句以慣用語概括反覆而激烈的爭吵。",
+      "foils": [
+        { "text": "The two neighbours fight like cat and dog about the parking spaces.", "reason": "這句把爭議由「噪音」換成「泊車位」，改變了原題內容。", "kind": "changed-issue" },
+        { "text": "The two neighbours no longer fight like cat and dog about the noise.", "reason": "「no longer」表示已停止爭吵；原題說兩人現在仍總是互相叫罵。", "kind": "changed-polarity" },
+        { "text": "The two neighbours have a calm discussion whenever they hear noise.", "reason": "這句改成平靜討論，與原題的經常互相叫罵相反，也沒有使用目標慣用語。", "kind": "changed-intensity" }
+      ]
+    }
+  }
+}
