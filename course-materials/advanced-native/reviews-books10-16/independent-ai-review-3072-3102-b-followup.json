@@ -1,0 +1,24 @@
+{
+  "reviewType": "Final independent exact-hash follow-up on eight 3072–3102 unselected drafts",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [3072, 3081, 3082, 3083, 3084, 3092, 3093, 3102],
+  "inputHashes": {
+    "draft": "0bbeb48794d9dd6d712d5386e9b997c2fe7a3e192ab8c0340d6c62bf38fea65a",
+    "authorSelfAudit": "ef9a5e1f04535422c5319d669f2f1561f1fb565ee7e283616c761ae191659388"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "integrityChecks": "All eight source examples, listening texts, keyed scene/dialogue options, speaking spans and both writing models contain target-regex matches; all speaking target spans and answer-derived glossary spans are exact. The repaired 3072 detector rejects 'let his minds wander' and accepts 'let his mind wander'; the 3093 detector rejects 'a inner compass' and accepts 'an inner compass'.",
+  "findingDisposition": {
+    "R3072-01": "cleared: possessive number is constrained in target regex",
+    "R3083-01": "cleared: listening key distinguishes evidence from unspecified pressure without asserting a threat",
+    "R3084-01": "cleared: Chinese listening prompt refers to the pupil and no longer invents a counsellor or sudden timing",
+    "R3092-01": "cleared: keyed listening option uses speaker/講者; no gender is supplied by the audio",
+    "R3093-01": "cleared: target detector permits grammatical an inner compass and excludes a inner compass",
+    "R3092-02": "cleared: all three listening distractors now use speaker/講者, removing the gender cue"
+  },
+  "freshListeningReview": "Checked all eight listening English transcripts against their Traditional Chinese, prompts, four options and keys. The additional 3081 rota, 3082 role, 3083 actor, 3084 timing and 3102 user-role repairs are grounded in the audible text and preserve a fair answer choice.",
+  "ownerScope3093Vs1215": "Provisional distinctness remains defensible: inner compass in this lesson concerns changed internal priorities after caregiving; canonical 1215 clearer compass concerns becoming surer of a criterion or direction. Human owner-scope sign-off remains open.",
+  "remainingContentFindings": [],
+  "selectionRecommendation": "No remaining content blocker from this independent follow-up. This supports only provisional manifest selection, not human, media, device or release approval."
+}

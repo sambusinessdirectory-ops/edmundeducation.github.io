@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T12:10:10.023237+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3072-3102-a.json",
+  "draftSha256": "0bbeb48794d9dd6d712d5386e9b997c2fe7a3e192ab8c0340d6c62bf38fea65a",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "163522d2274b2403265ee1155073c1d9c64717823127f010594114728107e9d5",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "canonicalScreen": "Eight rows are proposed-new in the 3072–3131 decision file. Distinctions explicitly recorded: 3083 backing down yields a disputed position rather than backing out of a commitment; 3093 inner compass concerns the values guiding choices rather than merely clearer guidance in canonical 1215. Independent owner review pending.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3072,
+      "sourceExpression": "let their minds wander",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3081,
+      "sourceExpression": "dig their heels in",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 3082,
+      "sourceExpression": "losing face",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3083,
+      "sourceExpression": "backing down",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3084,
+      "sourceExpression": "shut down",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3092,
+      "sourceExpression": "turn an old opinion on its head",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 3093,
+      "sourceExpression": "inner compass",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 4
+    },
+    {
+      "sourceOrdinal": 3102,
+      "sourceExpression": "the first port of call",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    }
+  ],
+  "limitations": [
+    "Independent English, Traditional Chinese, assessment, and device review still pending.",
+    "No audio synthesis, upload, manifest selection or publication occurred."
+  ],
+  "updatedUtc": "2026-10-23T12:19:38.365385+00:00",
+  "independentReviewRepair": {
+    "reviewFile": "reviews-books10-16/independent-ai-review-3072-3102-b.json",
+    "findingsResolvedInDraft": [
+      "R3083-01",
+      "R3092-01",
+      "R3084-01",
+      "R3093-01",
+      "R3072-01"
+    ],
+    "additionalPromptAlignment": [
+      3081,
+      3084
+    ],
+    "status": "awaiting independent exact-hash recheck",
+    "additionalListeningGenderCorrection": [
+      3092,
+      3093
+    ],
+    "allListeningCueAudit": "All eight audio texts, Chinese prompts, keyed answer paraphrases and A–D person/gender/role cues rechecked; 3081/3082/3083/3084/3092/3093/3102 wording aligned to stated audio."
+  }
+}

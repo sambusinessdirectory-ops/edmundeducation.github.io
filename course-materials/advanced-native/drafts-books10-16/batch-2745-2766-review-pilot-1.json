@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2745-2766-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2745",
+      "number": 2745,
+      "inventoryId": "expr-2745",
+      "titleEn": "have a moment in the sun",
+      "titleZh": "有過一段受歡迎的時光",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:have|has|had|having)\\s+(?:a|their|his|her|its|our|my|your)\\s+moment\\s+in\\s+the\\s+sun\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Enjoy a limited spell of success or public attention, often looked back on after it has passed.",
+        "meaningZh": "曾有一段受歡迎或備受注目的時期，通常暗示那段時間有限。",
+        "grammar": "Pattern: have/has/had + possessive or a + moment in the sun; a person, product or style is the subject. Had marks a past spell rather than an ongoing guarantee.",
+        "register": "Reflective cultural commentary: a record-shop owner tells a younger customer that a former format once enjoyed popularity without calling it useless now.",
+        "boundaryZh": "指一度風行或受注目，不表示當時人人都喜歡，也不表示今天完全沒有人使用。",
+        "misconceptionZh": "不是在太陽下待一會兒；moment 強調成功或焦點有時間界限。",
+        "outcomeZh": "能說清楚哪個事物在何時曾受歡迎，同時避免誇大其後完全消失。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0634",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "47–48",
+          "locatorNote": "DOCX table 54, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Physical discs had their moment in the sun.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "had their moment in the sun"
+        }
+      ],
+      "listening": {
+        "en": "Pocket music players were everywhere during the early festival years. They had their moment in the sun, even though some collectors still use them today.",
+        "zh": "早年的音樂節時期，隨身音樂播放器到處可見。它們曾風行一時，雖然今天仍有收藏家使用。",
+        "promptZh": "had their moment in the sun 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The players enjoyed a period of strong popularity.",
+            "zh": "那些播放器曾有一段非常受歡迎的時期。"
+          },
+          {
+            "id": "b",
+            "en": "The players stayed just as popular with everyone right up to today.",
+            "zh": "那些播放器直到今天仍同樣廣受所有人歡迎。"
+          },
+          {
+            "id": "c",
+            "en": "Nobody uses the players at all today.",
+            "zh": "今天完全沒有人使用那些播放器。"
+          },
+          {
+            "id": "d",
+            "en": "Only a few collectors used the players, even in those early years.",
+            "zh": "即使在那些早年，也只有少數收藏家使用那些播放器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目說它們昔日到處可見、今天仍有人使用；片語說的是一段受歡迎時期。"
+      },
+      "reply": {
+        "promptEn": "What can you say about the popularity of the shop’s old instant cameras, past and present? They were fashionable for several years before phone cameras became dominant, and collectors still occasionally buy them.",
+        "promptZh": "（你會怎樣描述店內舊即影即有相機過去和現在的受歡迎程度？它們在手機鏡頭成為主流前曾流行數年，現在收藏家仍偶爾購買。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cameras were once widely fashionable.",
+            "zh": "這些相機昔日曾廣受歡迎。"
+          },
+          {
+            "id": "b",
+            "en": "Collectors still have some interest despite the change in trend.",
+            "zh": "潮流改變後，收藏家仍有些興趣。"
+          },
+          {
+            "id": "c",
+            "en": "The cameras had their moment in the sun.",
+            "zh": "這些相機曾風行一時。"
+          },
+          {
+            "id": "d",
+            "en": "Their most popular period came before phone cameras took over.",
+            "zh": "它們最受歡迎的時期在手機鏡頭成為主流之前。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都保留曾流行數年與現今仍有收藏者的事實；金句概括有限的風光時期。"
+      },
+      "scene": {
+        "promptZh": "本地街頭戲劇節十年前曾在全城廣受歡迎，近年規模縮小，但仍有幾間學校參與。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The street theatre festival had its moment in the sun without disappearing completely.",
+            "zh": "街頭戲劇節曾風光一時，但沒有完全消失。"
+          },
+          {
+            "id": "b",
+            "en": "The festival draws the same citywide crowds today as it did at its peak.",
+            "zh": "戲劇節今天仍像高峰時期一樣吸引全城觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "The festival never attracted anyone beyond its organising team.",
+            "zh": "戲劇節從未吸引籌辦團隊以外的人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "昔日全城受歡迎支持有過風光期；現在仍有學校參與，說明它沒有完全消失。"
+      },
+      "contrast": {
+        "promptZh": "哪項情況最不適合說 had a moment in the sun？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A dance style briefly dominates school performances, then becomes less common.",
+            "zh": "一種舞風短暫主導學校演出，之後較少出現。"
+          },
+          {
+            "id": "b",
+            "en": "A newly invented product has not been shown to anyone yet.",
+            "zh": "一款新發明產品仍未向任何人展示。"
+          },
+          {
+            "id": "c",
+            "en": "A local band is widely discussed for a season before attention shifts.",
+            "zh": "本地樂隊一季間備受討論，之後焦點轉移。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全尚未亮相的產品沒有曾受注目的時期。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「紙本旅遊指南以前每間店都有，現在較少，但仍有人買。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They had their moment in the sun, and some readers still value them.",
+            "zh": "它們曾風行一時，現在仍有讀者珍惜。"
+          },
+          {
+            "id": "b",
+            "en": "Then every shop must still stock printed guides.",
+            "zh": "那每間店如今一定仍有紙本指南。"
+          },
+          {
+            "id": "c",
+            "en": "Their earlier popularity means nobody can still buy one today.",
+            "zh": "它們以前受歡迎，表示現在一定沒有人買得到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應承認昔日風行，亦保留現在仍有人買的事實。"
+      },
+      "speaking": {
+        "en": "The neighbourhood choir had its moment in the sun, but a smaller audience still follows it.",
+        "zh": "這支社區合唱團曾風光一時，但現在仍有一小群聽眾支持。",
+        "promptZh": "先聽示範，再指出昔日受注目時期與今日較小規模的聽眾群有何不同。",
+        "targetSpan": {
+          "start": 24,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區美食節五年前開始，曾連續兩年在全城極受歡迎；如今熱潮已退，但仍有幾個攤主每年參與。用一至兩句英文描述它曾受歡迎的時期和現在的狀況。",
+        "selfCheckZh": "寫出昔日兩年的全城熱潮與今日仍有攤主參與，不要說美食節完全消失。",
+        "examples": [
+          {
+            "en": "The food festival had its moment in the sun during two popular years, and several vendors still take part each year.",
+            "zh": "這個美食節曾連續兩年風光一時，今天仍有幾個攤主每年參與。"
+          },
+          {
+            "en": "Although its biggest crowds have gone, the festival had its moment in the sun and remains an annual event for a few vendors.",
+            "zh": "雖然最多人參與的熱潮已過，這個美食節曾風光一時，如今仍是幾個攤主每年參與的活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two popular years",
+            "zh": "受歡迎的兩年",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 68
+            }
+          },
+          {
+            "en": "several vendors",
+            "zh": "幾個攤主",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "take part each year",
+            "zh": "每年參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 115
+            }
+          },
+          {
+            "en": "its biggest crowds",
+            "zh": "最多人參與的熱潮",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 27
+            }
+          },
+          {
+            "en": "an annual event",
+            "zh": "每年舉行的活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 105
+            }
+          },
+          {
+            "en": "a few vendors",
+            "zh": "幾個攤主",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A product can have its moment in the sun without vanishing when the trend fades.",
+          "zh": "產品可以曾風行一時，熱潮退後卻未必消失。"
+        },
+        {
+          "en": "Had a moment in the sun points to a limited period of attention, not literal sunlight.",
+          "zh": "曾風行一時指有限的受注目時期，不是字面的日照。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2746",
+      "number": 2746,
+      "inventoryId": "expr-2746",
+      "titleEn": "call the tune",
+      "titleZh": "主導事情的走向",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:call|calls|called|calling)\\s+the\\s+tune\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have the power to determine the decisions or direction in a situation.",
+        "meaningZh": "在某種情況下有能力決定選擇或主導方向。",
+        "grammar": "Pattern: person/factor calls the tune; the subject is the controlling party or influence. It can take now or in + domain, and called is past.",
+        "register": "Informal market analysis: a shop manager tells colleagues that customers’ delivery preferences now determine stock decisions, without claiming every decision has only one cause.",
+        "boundaryZh": "要指出哪個因素實際左右決定；只是參與討論或提供建議，不一定算主導。",
+        "misconceptionZh": "不是在指揮樂手彈曲；也不表示某人說話最大聲就必然有決定權。",
+        "outcomeZh": "能從決策依據辨認真正主導因素，而非把熱鬧的意見誤作控制權。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0635",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "47–48",
+          "locatorNote": "DOCX table 54, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In online retail, convenience now calls the tune.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "convenience now calls the tune"
+        }
+      ],
+      "listening": {
+        "en": "The store used to choose stock by the owner’s taste. Now customer orders decide which products are restocked, so demand calls the tune.",
+        "zh": "商店以前按店主喜好選貨。現在顧客訂單決定補甚麼貨，因此主導選貨的是需求。",
+        "promptZh": "demand calls the tune 在此指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Customer demand now determines restocking choices.",
+            "zh": "顧客需求現在決定補貨選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The owner checks orders but still restocks by personal taste.",
+            "zh": "店主雖查看訂單，補貨仍只按個人喜好。"
+          },
+          {
+            "id": "c",
+            "en": "The owner still selects stock solely by personal taste.",
+            "zh": "店主仍完全按個人喜好選貨。"
+          },
+          {
+            "id": "d",
+            "en": "Every requested product is guaranteed to be in stock immediately.",
+            "zh": "每款顧客要求的產品都保證立即有貨。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "補貨以訂單為依據，說明需求主導決定；不能推斷每件貨都即時供應。"
+      },
+      "reply": {
+        "promptEn": "What determines the library’s new opening hours? The committee looks at attendance records and sets hours to match when readers actually visit; staff suggestions are heard but do not determine the schedule.",
+        "promptZh": "（甚麼因素決定圖書館的新開放時間？委員會參考到館紀錄，按讀者實際到訪時間定時；員工建議雖獲聆聽，卻不是定時間表的依據。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Attendance patterns guide the committee’s final choice.",
+            "zh": "到館模式引導委員會作最終選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule follows the times readers actually visit.",
+            "zh": "時間表按讀者實際到訪時段安排。"
+          },
+          {
+            "id": "c",
+            "en": "Reader demand calls the tune in setting the hours.",
+            "zh": "設定開放時間時，讀者需求起主導作用。"
+          },
+          {
+            "id": "d",
+            "en": "Staff can offer views, but the data determines the plan.",
+            "zh": "員工可以提供意見，但數據決定計劃。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出到館需求才是定時的主要依據；金句用 call the tune 概括主導因素。"
+      },
+      "scene": {
+        "promptZh": "一間餐廳調整午市菜單，主廚列出三款新菜，但最後按顧客預訂量決定留下哪款。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Customer orders call the tune when the menu is finalised.",
+            "zh": "菜單定案時，顧客訂單起主導作用。"
+          },
+          {
+            "id": "b",
+            "en": "The chef’s first list alone determines every final dish.",
+            "zh": "主廚最初的名單獨自決定所有最後菜式。"
+          },
+          {
+            "id": "c",
+            "en": "Bookings were noted, but the chef’s original list alone settled the menu.",
+            "zh": "預訂量雖有紀錄，菜單仍只由主廚最初的名單決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "最後依預訂量取捨，顧客需求才是決定性因素。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某因素 calls the tune？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A council chooses bus times primarily from riders’ travel data.",
+            "zh": "議會主要按乘客出行數據定巴士時間。"
+          },
+          {
+            "id": "b",
+            "en": "A neighbour offers a suggestion, but planners ignore it and follow the approved budget.",
+            "zh": "鄰居提出建議，但規劃者沒有採納，仍按已批預算辦事。"
+          },
+          {
+            "id": "c",
+            "en": "A festival selects venues according to accessibility needs.",
+            "zh": "節慶按無障礙需要選場地。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "未被採納的建議沒有主導決定；已批預算才是依據。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「經理問過大家的意見，但最終只按訂單取消了幾款貨。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if orders call the tune here, even though everyone could comment.",
+            "zh": "看來這裏是訂單主導決定，雖然人人都能提意見。"
+          },
+          {
+            "id": "b",
+            "en": "Every comment must have been adopted equally.",
+            "zh": "每項意見一定都被同等採納。"
+          },
+          {
+            "id": "c",
+            "en": "Orders were counted but played no part in the cancellations.",
+            "zh": "訂單雖有統計，卻完全沒有影響取消哪些貨品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有發言機會不等於意見有決定權；已知最後依訂單取捨。"
+      },
+      "speaking": {
+        "en": "In the new timetable, passenger demand calls the tune more than the manager’s preference.",
+        "zh": "新時間表主要受乘客需求主導，而非經理個人喜好。",
+        "promptZh": "先聽示範，再指出哪項因素實際決定安排。",
+        "targetSpan": {
+          "start": 39,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區電影院選擇週末放映時間；職員各有喜好，但最後按過去三個月的售票紀錄決定場次。用一至兩句英文指出真正主導安排的因素。",
+        "selfCheckZh": "指出售票紀錄如何主導決策，同時保留職員曾提出意見的事實。",
+        "examples": [
+          {
+            "en": "Ticket records call the tune when the cinema sets its weekend screenings, although staff have offered preferences.",
+            "zh": "電影院安排週末場次時，售票紀錄起主導作用，雖然職員也表達過喜好。"
+          },
+          {
+            "en": "The staff can suggest times, but three months of sales data calls the tune in the final schedule.",
+            "zh": "職員可建議時間，但最後的時間表由三個月的售票數據主導。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Ticket records",
+            "zh": "售票紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "weekend screenings",
+            "zh": "週末場次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 72
+            }
+          },
+          {
+            "en": "staff",
+            "zh": "職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 88
+            }
+          },
+          {
+            "en": "suggest times",
+            "zh": "建議時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 27
+            }
+          },
+          {
+            "en": "three months of sales data",
+            "zh": "三個月的售票數據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 59
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Who calls the tune is the person or factor that determines the decision, not merely contributes an idea.",
+          "zh": "主導決定者是實際左右結果的人或因素，不只是提出意見。"
+        },
+        {
+          "en": "Evidence that sales data calls the tune should show the final plan follows that data.",
+          "zh": "說售票數據主導安排，應有證據顯示最終計劃按數據制定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2753",
+      "number": 2753,
+      "inventoryId": "expr-2753",
+      "titleEn": "outward-looking",
+      "titleZh": "放眼外界的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\boutward[- ]looking\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Interested in and receptive to people, ideas or opportunities beyond one’s own group or locality.",
+        "meaningZh": "對自己群體或地方以外的人、觀點和機會保持關注與開放。",
+        "grammar": "Attributive or predicative adjective outward-looking: an outward-looking community; become more outward-looking. It describes orientation, not a literal direction of gaze.",
+        "register": "Positive but specific community commentary: a youth organiser tells local residents how an exchange programme connects participants to outside ideas without devaluing local traditions.",
+        "boundaryZh": "接觸外界不等於看不起本地文化，也不等於每個人都必須離開家鄉。",
+        "misconceptionZh": "不是眼睛向外看；外向善交際的個性也不必然表示關心更廣的世界。",
+        "outcomeZh": "能以具體對外交流或學習作證據，而非只因人多話便稱 outward-looking。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0642",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 55, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The festival made the community more outward-looking.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "outward-looking"
+        }
+      ],
+      "listening": {
+        "en": "The town invited artists from neighbouring regions to share techniques, while local craftspeople also presented their own work. The exchange made the festival more outward-looking.",
+        "zh": "小鎮邀請鄰近地區的藝術家分享技法，本地工匠亦展示自己的作品。這種交流令節慶更願意接觸外界。",
+        "promptZh": "more outward-looking 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The festival engaged with ideas and people beyond the town.",
+            "zh": "節慶接觸小鎮以外的人和觀點。"
+          },
+          {
+            "id": "b",
+            "en": "The town stopped showing local crafts entirely.",
+            "zh": "小鎮完全不再展示本地工藝。"
+          },
+          {
+            "id": "c",
+            "en": "The visiting artists replaced every local exhibitor.",
+            "zh": "外來藝術家取代了所有本地參展者。"
+          },
+          {
+            "id": "d",
+            "en": "The visitors displayed their work but shared no methods with anyone.",
+            "zh": "訪客展示了作品，卻沒有和任何人分享技法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跨區交流令視野向外，同時本地作品仍有展示。"
+      },
+      "reply": {
+        "promptEn": "Why do parents call the school’s exchange programme outward-looking? Pupils work with overseas classes on shared projects and also introduce their own local stories.",
+        "promptZh": "（家長為何說學校的交流計劃放眼外界？學生與海外班級合作做共同項目，也向對方介紹自己的本地故事。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Pupils hear views from classmates beyond their own city.",
+            "zh": "學生聽到本市以外同學的觀點。"
+          },
+          {
+            "id": "b",
+            "en": "They share local experiences while learning from overseas partners.",
+            "zh": "他們分享本地經歷，也向海外伙伴學習。"
+          },
+          {
+            "id": "c",
+            "en": "Working with overseas classmates makes the programme outward-looking.",
+            "zh": "與海外同學合作，令這計劃更放眼外界。"
+          },
+          {
+            "id": "d",
+            "en": "The projects connect the class with people outside its usual circle.",
+            "zh": "項目把班級與平日圈子以外的人連起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據與海外合作且保留本地故事；金句概括對外開放。"
+      },
+      "scene": {
+        "promptZh": "一個小型圖書館與其他城市的館員定期交流做法，也向對方介紹本區閱讀活動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The library is outward-looking while keeping its local identity.",
+            "zh": "圖書館放眼外界，同時保留本地特色。"
+          },
+          {
+            "id": "b",
+            "en": "The library replaced all district reading events with outside programmes.",
+            "zh": "圖書館把本區所有閱讀活動都改為外地節目。"
+          },
+          {
+            "id": "c",
+            "en": "The library shares local methods but never learns from other cities.",
+            "zh": "圖書館分享本地做法，卻從不向其他城市學習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跨城市互相交流支持對外開放，並未否定本地內容。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 outward-looking？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A club invites members of another community to exchange ideas.",
+            "zh": "社團邀請另一個社區的人交流意見。"
+          },
+          {
+            "id": "b",
+            "en": "A leader speaks loudly at local meetings but rejects all outside input.",
+            "zh": "領袖在本地會議說話很大聲，卻拒絕所有外來意見。"
+          },
+          {
+            "id": "c",
+            "en": "A school compares methods with partner schools abroad.",
+            "zh": "學校與海外伙伴學校比較做法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "說話大聲屬個人表現，不等於對外界觀點開放。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們想讓社區合唱團與鄰區交流，但仍唱自己的老歌。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds outward-looking without giving up the choir’s own songs.",
+            "zh": "這樣既放眼外界，也不用放棄合唱團自己的歌曲。"
+          },
+          {
+            "id": "b",
+            "en": "The exchange could broaden the choir’s outlook only if it drops every local song.",
+            "zh": "合唱團只有放棄所有本地歌曲，交流才可能擴闊視野。"
+          },
+          {
+            "id": "c",
+            "en": "Keeping its old songs alone proves the choir is outward-looking.",
+            "zh": "只要保留舊歌，就足以證明合唱團放眼外界。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對外交流與保留本地歌曲可以並存。"
+      },
+      "speaking": {
+        "en": "The museum became more outward-looking by inviting curators from other towns to compare collections.",
+        "zh": "博物館邀請其他城鎮的策展人比較藏品，因此更放眼外界。",
+        "promptZh": "先聽示範，再指出哪項具體交流讓機構接觸外界。",
+        "targetSpan": {
+          "start": 23,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個本地農墟邀請鄰近城市的攤主分享減廢做法，本地農戶也展示自己的產品。用一至兩句英文說明這種交流如何改變農墟，而不抹去本地特色。",
+        "selfCheckZh": "寫出向外地攤主學習與本地農戶繼續展示產品兩點；正確使用形容詞。",
+        "examples": [
+          {
+            "en": "The farmers’ market is becoming more outward-looking by learning waste-saving ideas from nearby cities while showcasing local produce.",
+            "zh": "農墟向鄰近城市學習減廢做法，同時展示本地農產品，因而更放眼外界。"
+          },
+          {
+            "en": "Inviting neighbouring sellers makes the market outward-looking, but local farmers still present their own products.",
+            "zh": "邀請鄰近城市的攤主，令農墟更放眼外界；本地農戶亦繼續展示自己的產品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "waste-saving ideas",
+            "zh": "減廢做法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 83
+            }
+          },
+          {
+            "en": "nearby cities",
+            "zh": "鄰近城市",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 102
+            }
+          },
+          {
+            "en": "local produce",
+            "zh": "本地農產品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 133
+            }
+          },
+          {
+            "en": "neighbouring sellers",
+            "zh": "鄰近城市的攤主",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 29
+            }
+          },
+          {
+            "en": "their own products",
+            "zh": "自己的產品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An outward-looking group engages with outside ideas without necessarily discarding its own traditions.",
+          "zh": "放眼外界的群體接觸外來觀點，不必丟棄自身傳統。"
+        },
+        {
+          "en": "Use outward-looking when there is evidence of attention beyond the usual circle.",
+          "zh": "有關注平日圈子以外事物的證據，才適合說放眼外界。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2754",
+      "number": 2754,
+      "inventoryId": "expr-2754",
+      "titleEn": "come out ahead",
+      "titleZh": "最終較有利",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming)\\s+out\\s+ahead\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Finish a comparison or decision in a better overall position than another option.",
+        "meaningZh": "比較不同選擇後，最終處於較有利的位置。",
+        "grammar": "Pattern: option/person comes or came out ahead after/in + comparison; come out ahead for + purpose. The subject is the option that wins overall, not necessarily every criterion.",
+        "register": "Measured everyday recommendation: a commuter tells a colleague why one travel pass is better overall after considering price and use, without claiming it wins on every measure.",
+        "boundaryZh": "要有比較後的淨優勢；某選項在一方面較快，卻不一定整體較有利。",
+        "misconceptionZh": "不是字面走在前面；也不表示所有比較項目都勝出。",
+        "outcomeZh": "能指出比較標準和最後較有利的一方，並承認它可能仍有缺點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0643",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 55, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The online option may come out ahead for daily use.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come out ahead"
+        }
+      ],
+      "listening": {
+        "en": "The paper pass costs less at first, but the digital pass includes free changes and saves frequent travellers more over a month. For daily trips, the digital option comes out ahead.",
+        "zh": "紙本車票起初較便宜，但電子車票可免費改期，常出行的人一個月下來節省更多。對每日乘車的人而言，電子選項最終較有利。",
+        "promptZh": "電子選項如何 comes out ahead？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its overall monthly value is better for frequent travellers.",
+            "zh": "對經常出行的人，它一個月的整體價值較高。"
+          },
+          {
+            "id": "b",
+            "en": "It is cheaper at the moment of purchase than the paper pass.",
+            "zh": "它購買當刻比紙本票便宜。"
+          },
+          {
+            "id": "c",
+            "en": "It has no possible disadvantages for any traveller.",
+            "zh": "它對任何旅客都沒有缺點。"
+          },
+          {
+            "id": "d",
+            "en": "The paper pass gives frequent travellers better value over the month.",
+            "zh": "對經常乘車的人而言，紙本車票整個月較划算。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電子票起價並非較低，但常用者因免費改期而整體較有利。"
+      },
+      "reply": {
+        "promptEn": "How should the club compare the rehearsal venues? Hall A has cheaper rent, but Hall B is next to the train and saves members more in travel costs over the full term.",
+        "promptZh": "（社團應怎樣比較排練場地？甲場地租金較低，但乙場地鄰近鐵路站，整個學期可為成員節省更多交通費。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Hall B costs members less overall across the term.",
+            "zh": "整個學期算下來，乙場令會員整體支出較少。"
+          },
+          {
+            "id": "b",
+            "en": "The lower travel costs outweigh Hall A’s cheaper rent.",
+            "zh": "交通費的節省蓋過甲場較便宜的租金。"
+          },
+          {
+            "id": "c",
+            "en": "Hall B comes out ahead for the club’s full-term costs.",
+            "zh": "按社團整學期成本比較，乙場最終較有利。"
+          },
+          {
+            "id": "d",
+            "en": "Choosing only by rental price would miss part of the cost.",
+            "zh": "只看租金會忽略另一部分成本。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據租金與整學期交通費的總比較；金句總結哪個場地較有利。"
+      },
+      "scene": {
+        "promptZh": "兩個課程都教相同內容。甲班學費較低，但路程很遠；乙班學費稍高，卻在學生家附近。學生每週可用的時間不多，乙班能讓她多留兩小時溫習。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The nearby course comes out ahead for her limited study time.",
+            "zh": "以她有限的溫習時間來看，附近的課程較有利。"
+          },
+          {
+            "id": "b",
+            "en": "The lower tuition alone proves Course A gives her more study time.",
+            "zh": "學費較低本身就證明甲班能給她更多溫習時間。"
+          },
+          {
+            "id": "c",
+            "en": "Both courses must leave her exactly the same time to study because they teach the same content.",
+            "zh": "兩班所教內容相同，所以她留下的溫習時間一定完全一樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "以有限時間作比較，乙班讓她每週多留兩小時溫習；不能只憑學費或課程內容推斷時間相同。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 comes out ahead？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After all fees are counted, Option A costs less and meets the same need.",
+            "zh": "計入所有費用後，甲選項較便宜，也滿足相同需要。"
+          },
+          {
+            "id": "b",
+            "en": "One product has a lower sticker price, but no one has checked its running costs yet.",
+            "zh": "一款產品標價較低，但還沒有人查過使用成本。"
+          },
+          {
+            "id": "c",
+            "en": "A route takes longer initially but saves more money over repeated journeys.",
+            "zh": "一條路線起初較慢，但多次使用後節省更多金錢。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只知道標價，未比較總成本，還不能判斷最終哪個較有利。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「這款印表機較貴，但墨水便宜；一年下來總花費更少。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may come out ahead over a year even though its upfront price is higher.",
+            "zh": "雖然起價較高，它一年下來可能更划算。"
+          },
+          {
+            "id": "b",
+            "en": "The higher upfront price proves it can never be better value.",
+            "zh": "起價較高，證明它永遠不可能更划算。"
+          },
+          {
+            "id": "c",
+            "en": "The cheaper ink guarantees a lower purchase price as well.",
+            "zh": "墨水較便宜，表示購買印表機時價格也一定較低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比較一年的總成本，而不是只看購買當刻。"
+      },
+      "speaking": {
+        "en": "The monthly pass comes out ahead for regular riders because free changes offset its higher starting price.",
+        "zh": "對經常乘車的人，月票因可免費改期而抵銷較高起價，整體更有利。",
+        "promptZh": "先聽示範，再指出較高起價為何不妨礙整體勝出。",
+        "targetSpan": {
+          "start": 17,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個讀書會平台都可辦同樣數量的活動。甲平台月費低，但每次活動另收費；乙平台月費稍高，卻不另收活動費。根據過去半年出席次數，社團算出乙平台總花費較低。用一至兩句英文說明哪個方案最終較有利及原因。",
+        "selfCheckZh": "指出總花費比較、乙平台較低，以及甲平台看似便宜的月費；不要聲稱乙平台每項成本都低。",
+        "examples": [
+          {
+            "en": "Platform B comes out ahead on total cost because it charges no per-event fee, despite its higher monthly price.",
+            "zh": "乙平台雖然月費較高，卻不逐場收費，因此按總花費計較有利。"
+          },
+          {
+            "en": "The club found that Platform B comes out ahead over six months: its monthly fee is higher, but the overall bill is lower.",
+            "zh": "社團發現六個月下來乙平台最終較有利：月費雖高，總帳單卻較低。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "total cost",
+            "zh": "總花費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 40
+            }
+          },
+          {
+            "en": "per-event fee",
+            "zh": "逐場費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 76
+            }
+          },
+          {
+            "en": "higher monthly price",
+            "zh": "較高月費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 110
+            }
+          },
+          {
+            "en": "over six months",
+            "zh": "六個月下來",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 62
+            }
+          },
+          {
+            "en": "the overall bill",
+            "zh": "總帳單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An option can come out ahead overall without winning on every single measure.",
+          "zh": "一個選項可以整體較有利，而非每項比較都勝出。"
+        },
+        {
+          "en": "Before saying it comes out ahead, compare the costs or benefits that matter to the user.",
+          "zh": "說某方案最終較有利前，要比較對使用者重要的成本或利益。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

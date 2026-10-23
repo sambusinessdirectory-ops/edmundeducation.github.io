@@ -1,0 +1,19 @@
+{
+  "reviewType": "Independent exact-hash follow-up on the two 2745–2766 editorial findings",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [2745, 2746, 2753, 2754, 2758, 2760, 2764, 2766],
+  "inputHashes": {
+    "draft1": "e117d3349e64c5540c0a68b1044191a781d55945ba3ea5e089cecad9d9eb312a",
+    "draft2": "96e545378ef207282180860e31c2abc75c634569523eae760d1d1ca5b31dcac5",
+    "authorSelfAudit": "3fe1acc5d252bbf327b074d7d198772eef56d6fb621b0bfb651fff22f9c7ec4c"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "findingDisposition": {
+    "R2745-01": "cleared: street-theatre scene, neighbourhood-choir speaking and food-festival writing now rotate settings beyond nostalgic consumer goods while preserving the bounded-success sense; both writing models and all six recalculated glossary spans are aligned and exact",
+    "R2758-01": "cleared: brief explicitly includes community memory, and old-pier scene grounds shared neighbourhood attachment among many residents without claiming universal sentiment"
+  },
+  "ownerScope2745Vs116": "Still provisionally distinct: moment in the sun marks a limited period of popularity or success and may be retrospective; canonical 116 in the spotlight denotes public attention that may be current and unwelcome. Human owner-scope sign-off remains open.",
+  "remainingContentFindings": [],
+  "selectionRecommendation": "No remaining content blocker from this independent follow-up. These drafts may be considered for provisional manifest selection; media, device, human and release approvals remain separate."
+}

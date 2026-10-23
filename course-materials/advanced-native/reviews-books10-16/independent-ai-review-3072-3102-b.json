@@ -1,0 +1,61 @@
+{
+  "reviewType": "Independent Golden SOP content and owner-scope review of eight unselected lessons",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [3072, 3081, 3082, 3083, 3084, 3092, 3093, 3102],
+  "inputHashes": {
+    "draft": "77137caf539443215932ca1853fcc3ca91e855db7cc2c7e10f9a9ff4c7ba2811",
+    "authorSelfAudit": "9d2b33943f8c6a7cda3460a38396a5747ad78346d21b185c3f549e05c82b975d",
+    "canonical1215Batch": "edea0c3ef47a4ffc535acda8c25737ceb01208e18d6b80e6d96cdbea48422329"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "contentScreen": "Checked exact source examples, meaning and category, five assessed multiple-choice decisions, four independently valid replies, target-bearing keys, English and Traditional Chinese nuance, speaking spans, changed writing situations, both complete writing examples and answer-derived glossary spans. Structural build and check pass; the four findings below need targeted repair.",
+  "canonicalComparison3093": {
+    "new": "inner compass concerns a change in the internal values/priorities used to choose work after caregiving or community experience.",
+    "existing1215": "clearer compass concerns a previously uncertain criterion or direction becoming better defined, while practical choices remain open.",
+    "assessment": "The two phrases share a guidance metaphor, but the new scene and contrast test changed values rather than merely clearer expression of an unchanged criterion. Provisional separate content is defensible; human owner-scope sign-off remains open."
+  },
+  "findings": [
+    {
+      "id": "R3083-01",
+      "severity": "major",
+      "sourceOrdinal": 3083,
+      "path": "lessons[number=3083].listening.options[id=a].en/zh",
+      "detail": "The keyed option says the councillor was not changed by a threat from the other side, but the audio only contrasts new evidence with unspecified pressure; no threat is mentioned or ruled out. The key adds an unsupported fact.",
+      "repair": "Replace `threatened her` and the Chinese threat wording with a neutral pressure formulation grounded in the transcript."
+    },
+    {
+      "id": "R3084-01",
+      "severity": "minor",
+      "sourceOrdinal": 3084,
+      "path": "lessons[number=3084].listening.promptZh",
+      "detail": "The Chinese question asks what a counsellor thinks, but the audio mentions only a teacher and pupil. The unintroduced counsellor can confuse the perspective of the meaning question.",
+      "repair": "Ask directly why the pupil stopped responding, without inserting a counsellor."
+    },
+    {
+      "id": "R3092-01",
+      "severity": "major",
+      "sourceOrdinal": 3092,
+      "path": "lessons[number=3092].listening.options[id=a].en/zh",
+      "detail": "The first-person listening model gives no gender for its speaker, but the keyed English and Chinese options say `his belief` and `他`. This invents a speaker identity that audio alone cannot establish.",
+      "repair": "Use `the speaker's belief` and gender-neutral Traditional Chinese while retaining the reversed-view meaning."
+    },
+    {
+      "id": "R3093-01",
+      "severity": "minor-detector",
+      "sourceOrdinal": 3093,
+      "path": "lessons[number=3093].target.pattern",
+      "detail": "The alternative `an? inner compass` matches ungrammatical `a inner compass` as well as `an inner compass`.",
+      "repair": "Use `an inner compass` for the indefinite-article alternative and verify all source/model spans."
+    },
+    {
+      "id": "R3072-01",
+      "severity": "minor-detector",
+      "sourceOrdinal": 3072,
+      "path": "lessons[number=3072].target.pattern",
+      "detail": "The free combination of possessive pronouns with `minds?` also marks impossible forms such as `his minds wander`.",
+      "repair": "Constrain possessive-number combinations while keeping the source `their minds wander` and natural singular forms such as `my mind wander`."
+    }
+  ],
+  "selectionRecommendation": "Keep the eight unselected until the three assessed-text defects and two detector precision defects are repaired and independently rechecked; this is not media, device or release approval."
+}

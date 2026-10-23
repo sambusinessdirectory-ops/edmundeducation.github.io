@@ -1,0 +1,29 @@
+{
+  "reviewType": "Read-only manifest and full-verifier check of two independently content-cleared eight-lesson batches",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "selectionManifest": "47cf65b15e4c5aa850823885aad0a382686c828c859330215a2dc1dbfd6ebcfb",
+    "draft2745To2754": "e117d3349e64c5540c0a68b1044191a781d55945ba3ea5e089cecad9d9eb312a",
+    "draft2758To2766": "96e545378ef207282180860e31c2abc75c634569523eae760d1d1ca5b31dcac5",
+    "draft3072To3102": "0bbeb48794d9dd6d712d5386e9b997c2fe7a3e192ab8c0340d6c62bf38fea65a"
+  },
+  "selectedOrdinalsVerified": [2745, 2746, 2753, 2754, 2758, 2760, 2764, 2766, 3072, 3081, 3082, 3083, 3084, 3092, 3093, 3102],
+  "excludedOrdinalVerified": 2734,
+  "manifestStatus": "unpublished-drafts",
+  "wholeVerifier": {
+    "intakeRows": 2604,
+    "editorialDecisionRows": 2604,
+    "selectedLessons": 187,
+    "selectedQuestions": 1122,
+    "selectedAudioRequests": 748,
+    "wholeCatalogueSchemaErrors": 0,
+    "selectedExistingAliasPatternExceptions": 0,
+    "exactGuideSentenceCopies": 0,
+    "pilotNearDuplicateFlags": 0,
+    "published": false,
+    "releaseApproved": false
+  },
+  "outstandingOwnerSignOff": ["2745 versus canonical 116", "3093 versus canonical 1215"],
+  "finding": "The manifest selects exactly the two reviewed eight-lesson batches at their reviewed hashes; 2734 remains unselected. The full verifier passes at 187/1122/748. This check does not certify human editorial, media, device or release gates."
+}

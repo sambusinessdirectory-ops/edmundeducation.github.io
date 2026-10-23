@@ -66,6 +66,8 @@ expectText(scope, `${formatted(report.pilotDrafts * 7)} steps, ${formatted(repor
 expectText(scope, `${triage['proposed-new-lesson']} proposed new lessons, ${triage['proposed-alias-existing']} proposed aliases to existing lessons, ${triage['proposed-alias-new']} proposed aliases within this document, and ${triage['hold-editorial']} wording`, 'Provisional triage counts are stale in the scope bullet');
 expectText(scope, `${holdCoverage.provisionallyReclassified} of the earlier ${holdCoverage.originallyAuditedHolds} holds were provisionally reclassified`, 'Editorial-hold reclassification count is stale');
 expectText(scope, `The remaining ${holdCoverage.currentHolds} are still tracked`, 'Remaining editorial-hold count is stale');
+expectText(scope, '4,237 and 4,680', 'Historical hold-promotion source IDs changed');
+expectText(audit, 'then-selected 342 writing examples', 'Historical 171-lesson writing audit scope changed');
 expectText(scope, `All ${triage['proposed-alias-existing']} existing-owner links match full source sentences. Of ${triage['proposed-alias-new']} new-owner links`, 'Alias-owner counts are stale in the scope bullet');
 expectText(audit, `Existing-owner alias audit reports ${triage['proposed-alias-existing']}/${triage['proposed-alias-existing']} full-source detector matches`, 'Existing-owner audit count is stale');
 expectText(audit, `${formatted(report.existingCanonical - 10 + report.pilotDrafts)} authored records, 0 schema errors`, 'Combined imported-plus-draft record count is stale');

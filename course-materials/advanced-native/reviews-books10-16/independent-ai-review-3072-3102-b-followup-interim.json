@@ -1,0 +1,28 @@
+{
+  "reviewType": "Exact-hash independent follow-up on R3072-01, R3083-01, R3084-01, R3092-01, R3093-01 and new assessed-text cues",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "draft": "c3de27498e78dfa639246847a9cb45bb78032be7bda9d4cfcd46803a70a48b91",
+    "authorSelfAudit": "bd70714361e4c05f7da910fe20d11149e7632601981f30662c979ee7099a399e"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "originalFindings": {
+    "R3072-01": "cleared: possessive number now constrained in the detector",
+    "R3083-01": "cleared: keyed answer says pressure rather than an unspoken threat",
+    "R3084-01": "cleared: Chinese prompt now asks about the pupil, with no invented counsellor",
+    "R3092-01": "keyed option cleared: English and Chinese now say speaker rather than male pronoun; residual distractor cue below remains",
+    "R3093-01": "cleared: detector accepts an inner compass and excludes a inner compass; all listening options now use gender-neutral speaker"
+  },
+  "findings": [
+    {
+      "id": "R3092-02",
+      "severity": "minor",
+      "sourceOrdinal": 3092,
+      "path": "lessons[number=3092].listening.options[id=b/c/d].en/zh",
+      "detail": "The first-person listening audio never establishes speaker gender. Distractors B, C and D still say He/他, while the keyed A says the speaker/講者. A student can reject the distractors on an unsupported gender cue instead of interpreting the idiom.",
+      "repair": "Use the speaker/講者 consistently in B, C and D, or establish gender explicitly in the audio without distorting the source situation."
+    }
+  ],
+  "selectionRecommendation": "Keep this eight-lesson batch unselected until R3092-02 is repaired and independently rechecked."
+}

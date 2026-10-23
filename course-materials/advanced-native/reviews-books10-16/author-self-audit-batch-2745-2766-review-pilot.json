@@ -1,0 +1,244 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human approval, media listening approval, or release certification",
+  "scope": "Eight unselected Books 10–16 proposed-new lessons after source ordinal 2744",
+  "createdUtc": "2026-10-23T12:12:31+00:00",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisions": {
+    "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+    "sha256": "bb27261e0faadd3eb1d1850082d1bfec88474cb9d66a8aea985ec593d3f2eea9"
+  },
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-1.json",
+      "sha256": "e117d3349e64c5540c0a68b1044191a781d55945ba3ea5e089cecad9d9eb312a",
+      "sourceOrdinals": [
+        2745,
+        2746,
+        2753,
+        2754
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-2.json",
+      "sha256": "96e545378ef207282180860e31c2abc75c634569523eae760d1d1ca5b31dcac5",
+      "sourceOrdinals": [
+        2758,
+        2760,
+        2764,
+        2766
+      ]
+    }
+  ],
+  "sourceOrdinals": [
+    2745,
+    2746,
+    2753,
+    2754,
+    2758,
+    2760,
+    2764,
+    2766
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass after repairs",
+    "check": "pass after repairs",
+    "outputDirectory": "/private/tmp/advanced-native-2745-2766-pilot"
+  },
+  "readOnlyExistingOwnerCollisionScreen": {
+    "scope": "all-discovered provisional decisions against selected canonical lessons",
+    "matchedRecordsForEight": 0,
+    "interpretation": "No detector collision was found; semantic owner comparison remains editorial, not automatically certified."
+  },
+  "authorChecks": [
+    {
+      "sourceOrdinal": 2745,
+      "lessonId": "advanced-native-2745",
+      "title": "have a moment in the sun",
+      "batch": "batch-2745-2766-review-pilot-1.json",
+      "contentRevision": 3,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2746,
+      "lessonId": "advanced-native-2746",
+      "title": "call the tune",
+      "batch": "batch-2745-2766-review-pilot-1.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2753,
+      "lessonId": "advanced-native-2753",
+      "title": "outward-looking",
+      "batch": "batch-2745-2766-review-pilot-1.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2754,
+      "lessonId": "advanced-native-2754",
+      "title": "come out ahead",
+      "batch": "batch-2745-2766-review-pilot-1.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2758,
+      "lessonId": "advanced-native-2758",
+      "title": "hold a special place",
+      "batch": "batch-2745-2766-review-pilot-2.json",
+      "contentRevision": 3,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2760,
+      "lessonId": "advanced-native-2760",
+      "title": "unfold in real time",
+      "batch": "batch-2745-2766-review-pilot-2.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2764,
+      "lessonId": "advanced-native-2764",
+      "title": "go all the way",
+      "batch": "batch-2745-2766-review-pilot-2.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2766,
+      "lessonId": "advanced-native-2766",
+      "title": "put a place on the map",
+      "batch": "batch-2745-2766-review-pilot-2.json",
+      "contentRevision": 2,
+      "sourceSentenceExact": true,
+      "sourcePhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sixQuestionsPresent": true,
+      "fourReplyOptionsAllContextuallyValidAuthorAssessment": true,
+      "oneGoldenTargetReply": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "newWritingScenarioAuthorAssessment": true,
+      "traditionalChineseFidelityAuthorAssessment": true,
+      "glossarySpansAndTargetPatternBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    }
+  ],
+  "openReview": {
+    "independentEnglishChineseAndQA": "pending Author B",
+    "mediaListening": "pending",
+    "humanOwnerAndRelease": "pending",
+    "semanticCrossReference": [
+      {
+        "sourceOrdinal": 2745,
+        "canonicalId": "advanced-native-116",
+        "reason": "Moment in the sun has an inherent limited-spell component; in the spotlight denotes current public attention. Editors should cross-reference and confirm distinct owner scope."
+      },
+      {
+        "sourceOrdinal": 2764,
+        "reason": "The provisional source decision defines reaching the final/highest competition stage; examples must not imply that a hopeful team has already won."
+      }
+    ]
+  },
+  "selectionState": "unselected and unpublished",
+  "updatedUtc": "2026-10-23T12:19:38+00:00",
+  "independentInitialReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2745-2766-b.json",
+    "sha256": "5dc458f5574fe76ceccb58d0899a10a44860ec9f66c1fb46100b496c7b3ba8c8",
+    "findings": [
+      "R2745-01",
+      "R2758-01"
+    ],
+    "status": "author repaired; independent follow-up pending"
+  },
+  "authorRepairAssessment": [
+    {
+      "finding": "R2745-01",
+      "change": "Street theatre festival scene, neighbourhood choir speaking model and food festival final writing now rotate beyond product nostalgia; target-bearing keys and glossary offsets recalculated.",
+      "status": "author checked; independent follow-up pending"
+    },
+    {
+      "finding": "R2758-01",
+      "change": "Brief includes personal and community memory; old-pier scene tests supported shared neighbourhood memory while expressly avoiding universal claims; second takeaway includes person or community.",
+      "status": "author checked; independent follow-up pending"
+    }
+  ]
+}

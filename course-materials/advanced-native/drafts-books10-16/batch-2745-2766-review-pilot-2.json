@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2745-2766-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2758",
+      "number": 2758,
+      "inventoryId": "expr-2758",
+      "titleEn": "hold a special place",
+      "titleZh": "有特別的意義",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:hold|holds|held|holding)\\s+a\\s+special\\s+place\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have particular emotional importance in a person’s or community’s memory or affections.",
+        "meaningZh": "在個人或社區的回憶與情感中具有特別意義。",
+        "grammar": "Pattern: thing/person holds a special place in + someone’s memory/heart/community history; hold may inflect. The place is figurative, not a reserved physical seat.",
+        "register": "Warm local-history commentary: a neighbourhood organiser tells a new volunteer why an old pier matters to many residents, without claiming every resident shares the memory.",
+        "boundaryZh": "情感意義特別，不代表物件在客觀上最好、最昂貴，或人人都同樣喜歡。",
+        "misconceptionZh": "不是留一個實際座位；也不必因為仍有感情就拒絕所有新選擇。",
+        "outcomeZh": "能說清楚某事物對哪個人或群體有特殊意義，以及背後的具體經歷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0647",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 59,
+          "book": 11,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 55, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The old theatre holds a special place in local memory.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "holds a special place"
+        }
+      ],
+      "listening": {
+        "en": "The old theatre had worn seats, but it hosted the first play that Lina performed with her father. It still holds a special place in her memory.",
+        "zh": "舊劇院的座位已磨損，但 Lina 曾在那裏與父親同演第一齣戲。它在她的回憶裏仍有特別意義。",
+        "promptZh": "為何劇院 holds a special place？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is linked to a personally important first performance.",
+            "zh": "它與一次對她很重要的首次演出有關。"
+          },
+          {
+            "id": "b",
+            "en": "It has the newest and most comfortable seats in town.",
+            "zh": "它擁有全城最新、最舒適的座位。"
+          },
+          {
+            "id": "c",
+            "en": "Lina values it mainly because its seats are more comfortable than those elsewhere.",
+            "zh": "Lina 珍惜它，主要因為座椅比別處舒適。"
+          },
+          {
+            "id": "d",
+            "en": "Everyone in town has the same memory of her father.",
+            "zh": "全城人都對她父親有同一段回憶。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她與父親在那裏首次同演，形成個人情感連結；劇院設備並不新。"
+      },
+      "reply": {
+        "promptEn": "Why does Arun keep a photo of the old library? He learned to read there with his grandfather; newer libraries are more convenient, but that shared memory matters to him.",
+        "promptZh": "（Arun 為何保留舊圖書館照片？他曾在那裏與祖父學閱讀；較新的圖書館更方便，但那段共同回憶對他很重要。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photo reminds him of learning with his grandfather.",
+            "zh": "照片令他想起與祖父一起學習。"
+          },
+          {
+            "id": "b",
+            "en": "Convenience is not the only reason a place matters to him.",
+            "zh": "一個地方對他重要，便利並非唯一原因。"
+          },
+          {
+            "id": "c",
+            "en": "The old library holds a special place in his memory because he learned there with his grandfather.",
+            "zh": "舊圖書館在他的回憶中有特別地位，因為他曾在那裏跟祖父學習閱讀。"
+          },
+          {
+            "id": "d",
+            "en": "He values the shared experience even while using newer libraries.",
+            "zh": "即使使用新圖書館，他仍珍惜那段共同經歷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據與祖父的共同回憶；金句概括個人的特殊情感意義。"
+      },
+      "scene": {
+        "promptZh": "居民多年來在舊碼頭舉辦社區音樂晚會；碼頭現已停用，但許多居民談起共同經歷仍很珍惜。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The old pier holds a special place in the neighbourhood’s shared memory.",
+            "zh": "舊碼頭在這個社區的共同回憶中有特別地位。"
+          },
+          {
+            "id": "b",
+            "en": "The pier matters chiefly because it is the newest venue for concerts.",
+            "zh": "碼頭重要，主要因為它是最新的音樂會場地。"
+          },
+          {
+            "id": "c",
+            "en": "Many residents value the pier, so every resident must feel exactly the same.",
+            "zh": "許多居民珍惜碼頭，所以每位居民的感受一定完全一樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "許多居民與舊碼頭有共同的音樂晚會回憶，足以支持社區記憶中的特殊地位；不表示所有居民感受相同。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以支持 holds a special place？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The café was where two friends met every week before one moved away.",
+            "zh": "咖啡店是兩位朋友在其中一人搬走前每週見面的地方。"
+          },
+          {
+            "id": "b",
+            "en": "A shop sells the cheapest notebook, but the buyer has no personal connection to it.",
+            "zh": "一間商店賣最便宜的筆記簿，但買家與它沒有個人連結。"
+          },
+          {
+            "id": "c",
+            "en": "A song reminds a family of celebrations they shared for years.",
+            "zh": "一首歌令一家人想起多年來一起慶祝的日子。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "便宜可能有實際用途，卻未提供特別情感意義的證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新體育館更好，但我仍喜歡以前和隊友第一次奪冠的小球場。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That court holds a special place in your memory because of the team’s first win.",
+            "zh": "那球場因球隊第一次奪冠，在你的回憶裏有特別意義。"
+          },
+          {
+            "id": "b",
+            "en": "So the old court must have better equipment than the new hall.",
+            "zh": "那舊球場的設備一定比新體育館好。"
+          },
+          {
+            "id": "c",
+            "en": "That first win proves every teammate must value the court equally now.",
+            "zh": "首次奪冠證明每位隊友現在一定同樣珍惜球場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "特別意義來自共同經歷，不需否認新場館設備更好。"
+      },
+      "speaking": {
+        "en": "The small rehearsal room holds a special place in my memory because our band first played there.",
+        "zh": "那間小排練室在我的回憶裏有特別意義，因為樂隊首次在那裏演奏。",
+        "promptZh": "先聽示範，再指出哪段個人經歷帶來特殊意義。",
+        "targetSpan": {
+          "start": 25,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名廚師如今在設備完善的廚房工作，但仍珍惜舊攤檔，因為她在那裏與母親一起學做第一道菜。用一至兩句英文說明舊攤檔的情感意義，不要說它設備最好。",
+        "selfCheckZh": "指出與母親學做第一道菜的經歷，以及現今廚房設備更完善的事實。",
+        "examples": [
+          {
+            "en": "The old stall holds a special place in her memory because she learned her first dish there with her mother.",
+            "zh": "她曾在舊攤檔與母親學做第一道菜，因此那地方在她回憶裏有特別意義。"
+          },
+          {
+            "en": "Although her current kitchen has better equipment, the first cooking lessons with her mother mean the stall still holds a special place in her heart.",
+            "zh": "雖然現在的廚房設備更好，與母親最初的烹飪課仍令舊攤檔在她心中有特別意義。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old stall",
+            "zh": "舊攤檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "her first dish",
+            "zh": "她的第一道菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 84
+            }
+          },
+          {
+            "en": "her mother",
+            "zh": "她的母親",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 106
+            }
+          },
+          {
+            "en": "better equipment",
+            "zh": "更好的設備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 49
+            }
+          },
+          {
+            "en": "the first cooking lessons",
+            "zh": "最初的烹飪課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 76
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Something can hold a special place because of a memory, not because it is objectively best.",
+          "zh": "某事物可因回憶而有特別意義，不必在客觀上最好。"
+        },
+        {
+          "en": "To explain why something holds a special place in memory, name the person or community and the experience behind it.",
+          "zh": "解釋某事物為何在回憶中有特別地位時，要指出相關人物或群體及具體經歷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2760",
+      "number": 2760,
+      "inventoryId": "expr-2760",
+      "titleEn": "unfold in real time",
+      "titleZh": "即時展開",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:unfold|unfolds|unfolded|unfolding)\\s+in\\s+real\\s+time\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Develop as observers watch or receive updates, without a later replay or retrospective summary.",
+        "meaningZh": "事情在觀看者或接收消息者面前同步發展，而非事後重播或回顧。",
+        "grammar": "Pattern: event/story/drama unfolds/unfolded/is unfolding in real time; in real time is an adverbial complement modifying the unfolding.",
+        "register": "Neutral live-event description: a reporter tells viewers that a debate’s outcome is becoming clear while the broadcast continues, without claiming to know the ending in advance.",
+        "boundaryZh": "即時看到發展不代表事件發生得很快，也不保證觀眾知道最終結果。",
+        "misconceptionZh": "不是把劇情像紙張一樣打開；預先錄好的重播不算同步展開。",
+        "outcomeZh": "能分清現場同步發展、事後整理與事件速度三個不同概念。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0649",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The drama was unfolding in real time before us.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "unfolding in real time"
+        }
+      ],
+      "listening": {
+        "en": "The town-hall vote was broadcast live. Viewers watched each result arrive and the debate unfold in real time, without knowing the final count yet.",
+        "zh": "市政廳投票以直播方式播出。觀眾看着結果逐項公布、辯論即時展開，當時尚不知道最後票數。",
+        "promptZh": "debate unfold in real time 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Viewers saw developments as they happened on the live broadcast.",
+            "zh": "觀眾在直播中同步看到事情發展。"
+          },
+          {
+            "id": "b",
+            "en": "Viewers saw the edited recap only after the whole vote had ended.",
+            "zh": "觀眾只在整場表決結束後看到剪輯回顧。"
+          },
+          {
+            "id": "c",
+            "en": "The debate ended before the first result appeared.",
+            "zh": "首個結果公布前辯論已結束。"
+          },
+          {
+            "id": "d",
+            "en": "The final vote was known before the live programme began.",
+            "zh": "直播開始前已知道最終票數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "直播中結果逐項出現，觀眾同步看到發展；最後結果當時未定。"
+      },
+      "reply": {
+        "promptEn": "What can you say about watching the live cooking contest? The judges tasted dishes and announced scores as the broadcast continued; no one knew the winner beforehand.",
+        "promptZh": "（你會怎樣描述觀看直播烹飪比賽的情況？評判隨直播進行試食並宣布分數；事前沒有人知道勝出者。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Scores arrived during the broadcast rather than from a later summary.",
+            "zh": "分數在直播時公布，而非事後總結。"
+          },
+          {
+            "id": "b",
+            "en": "The winner was still unknown as the judging continued.",
+            "zh": "評分進行時，勝出者仍未揭曉。"
+          },
+          {
+            "id": "c",
+            "en": "The contest unfolded in real time for viewers.",
+            "zh": "比賽在觀眾眼前即時展開。"
+          },
+          {
+            "id": "d",
+            "en": "The audience watched the judging happen step by step.",
+            "zh": "觀眾逐步看到評分過程。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說觀眾同步看到評分與結果漸次出現；金句用本課表達。"
+      },
+      "scene": {
+        "promptZh": "一場校際辯論直播中，評判當場追問，兩隊即時調整論點；觀眾與參賽者一樣不知道最後結果。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The debate is unfolding in real time before the audience.",
+            "zh": "辯論正在觀眾眼前即時展開。"
+          },
+          {
+            "id": "b",
+            "en": "The viewers are seeing a replay edited after the debate ended.",
+            "zh": "觀眾看到的是辯論結束後剪輯的重播。"
+          },
+          {
+            "id": "c",
+            "en": "The final result was announced before the teams adjusted their arguments.",
+            "zh": "兩隊調整論點之前，最終結果已公布。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "現場追問、即時調整及結果未定，支持同步觀看發展。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 unfolds in real time？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reporter posts each new result as officials announce it.",
+            "zh": "官員每公布一項新結果，記者便即時發帖。"
+          },
+          {
+            "id": "b",
+            "en": "A documentary reconstructs a finished event using edited interviews recorded weeks later.",
+            "zh": "紀錄片用數週後錄製的訪問剪輯，重構已結束的事件。"
+          },
+          {
+            "id": "c",
+            "en": "Live viewers see a performance change when the actors respond to an interruption.",
+            "zh": "直播觀眾看到演員因突發情況即時改變演出。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "事後剪輯重構沒有讓觀眾與事件同步看到發展。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們現在正直播社區會議，提案才剛提出，表決還沒開始。」你怎樣描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The discussion is unfolding in real time; we should not announce an outcome yet.",
+            "zh": "討論正在即時展開；我們還不應宣布結果。"
+          },
+          {
+            "id": "b",
+            "en": "Because it is live, the proposal must already have passed.",
+            "zh": "既然是直播，提案一定已通過。"
+          },
+          {
+            "id": "c",
+            "en": "The live stream is merely a recap recorded after the vote.",
+            "zh": "這場直播只是在表決後錄製的回顧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "直播中仍在討論，不能把尚未表決的結果當成已知。"
+      },
+      "speaking": {
+        "en": "The audience watched the final round unfold in real time as judges announced each score.",
+        "zh": "評判逐項宣布分數時，觀眾同步看着最後一輪展開。",
+        "promptZh": "先聽示範，再指出觀眾是否同步看到發展。",
+        "targetSpan": {
+          "start": 37,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區舞蹈比賽正直播決賽。評判每完成一組評分，分數便立即顯示；冠軍尚未確定。用一至兩句英文說明觀眾怎樣觀看比賽，以及他們尚不知道甚麼。",
+        "selfCheckZh": "指出直播與分數逐項顯示，保留冠軍尚未確定的事實；不要說進行得特別快。",
+        "examples": [
+          {
+            "en": "The final is unfolding in real time as scores appear after each group, and viewers do not yet know the champion.",
+            "zh": "每組評分後分數便顯示，決賽正即時展開；觀眾尚不知道冠軍是誰。"
+          },
+          {
+            "en": "Viewers watch the contest unfold in real time, with new scores arriving during the live broadcast before the winner is decided.",
+            "zh": "觀眾在直播中同步看着比賽展開，新的分數逐項公布，勝出者尚未決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "after each group",
+            "zh": "每組之後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 69
+            }
+          },
+          {
+            "en": "the champion",
+            "zh": "冠軍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 111
+            }
+          },
+          {
+            "en": "new scores",
+            "zh": "新的分數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 62
+            }
+          },
+          {
+            "en": "the live broadcast",
+            "zh": "直播",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 97
+            }
+          },
+          {
+            "en": "the winner",
+            "zh": "勝出者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An event can unfold in real time without happening quickly or having a known ending.",
+          "zh": "事情可即時展開，卻不一定很快或已有結果。"
+        },
+        {
+          "en": "Unfolding in real time differs from an edited recap shown after the event.",
+          "zh": "即時展開與事後剪輯回顧不同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2764",
+      "number": 2764,
+      "inventoryId": "expr-2764",
+      "titleEn": "go all the way",
+      "titleZh": "一路晉級至最終階段",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going)\\s+all\\s+the\\s+way\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Advance through every remaining stage to reach the final or highest point of a competition.",
+        "meaningZh": "在比賽中跨過往後各階段，晉級至決賽或最高階段。",
+        "grammar": "Pattern: team/athlete hopes to go all the way; went all the way in + competition. In this lesson the context explicitly establishes competition stages, because the phrase has other uses.",
+        "register": "Informal sports prediction: a coach tells supporters a team hopes to reach the final but has not done so yet.",
+        "boundaryZh": "本課只教比賽晉級用法；有信心或贏了一場，不等於已晉級到最後。",
+        "misconceptionZh": "不是字面走完整條路，也不把「希望一路晉級」誤寫成「已奪冠」。",
+        "outcomeZh": "能分清目標、當前輪次與實際晉級結果，準確使用希望或已完成的時態。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0653",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 56, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She hopes to go all the way this season.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go all the way"
+        }
+      ],
+      "listening": {
+        "en": "The underdog team won its first two knockout matches. It hopes to go all the way this season, but the semi-final is still ahead.",
+        "zh": "這支不被看好的隊伍贏了首兩場淘汰賽。它希望今季一路晉級到最後，但準決賽仍未舉行。",
+        "promptZh": "hopes to go all the way 在此指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team aims to reach the final stage of the competition.",
+            "zh": "球隊目標是晉級到比賽的最後階段。"
+          },
+          {
+            "id": "b",
+            "en": "The team has already won the final.",
+            "zh": "球隊已贏得決賽。"
+          },
+          {
+            "id": "c",
+            "en": "The team is content with its first two wins and has no further goal.",
+            "zh": "球隊滿足於首兩場勝仗，不再有下一個目標。"
+          },
+          {
+            "id": "d",
+            "en": "The team will skip the semi-final automatically.",
+            "zh": "球隊會自動跳過準決賽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是對往後輪次的目標；準決賽尚未舉行，不能說已奪冠。"
+      },
+      "reply": {
+        "promptEn": "What can you say about the basketball club’s ambition after it reached the quarter-final? The semi-final and final are still to come, and the players want to reach the last match.",
+        "promptZh": "（籃球會晉身八強後，你會怎樣描述他們的目標？準決賽和決賽仍未舉行，球員希望打進最後一場。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The players want to progress beyond the remaining rounds.",
+            "zh": "球員想在餘下輪次繼續晉級。"
+          },
+          {
+            "id": "b",
+            "en": "They are aiming to play in the last match.",
+            "zh": "他們目標是打進最後一場。"
+          },
+          {
+            "id": "c",
+            "en": "They hope to go all the way in the tournament.",
+            "zh": "他們希望在賽事中一路晉級到最後。"
+          },
+          {
+            "id": "d",
+            "en": "Reaching the quarter-final has not ended their ambitions.",
+            "zh": "打進八強沒有令他們停止追求更遠目標。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都談尚未完成的晉級目標；金句保留 hope 而不是聲稱已勝出。"
+      },
+      "scene": {
+        "promptZh": "一名跑手已通過預賽，下週才參加準決賽；若能再贏一場，便可打進決賽。教練認為她有這個機會。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may go all the way, but she still has to win the semi-final.",
+            "zh": "她可能一路晉級到最後，但仍要先贏得準決賽。"
+          },
+          {
+            "id": "b",
+            "en": "She has already secured the final place without needing the semi-final.",
+            "zh": "她不用比準決賽，已經取得決賽席位。"
+          },
+          {
+            "id": "c",
+            "en": "She can reach the final only if the remaining races are cancelled.",
+            "zh": "只有餘下比賽取消，她才能打進決賽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她尚未參加準決賽，may 正確保留一路晉級到最後的可能性。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持「球隊 went all the way」的已完成說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team reached the final after winning every earlier knockout round.",
+            "zh": "球隊贏盡較早的淘汰賽，打進決賽。"
+          },
+          {
+            "id": "b",
+            "en": "The team hopes to reach the final but has only played its first match.",
+            "zh": "球隊希望打進決賽，但目前只踢了第一場。"
+          },
+          {
+            "id": "c",
+            "en": "The team advanced through all qualifying rounds to the championship match.",
+            "zh": "球隊通過所有資格賽，晉身爭冠最後一場。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "希望與完成不同；只打首場不能用過去式斷言一路晉級到最後。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他們今天贏了八強，明天才打四強，但我想說他們已經 go all the way。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They could go all the way, but the semi-final and final are still ahead.",
+            "zh": "他們有可能一路晉級到最後，但四強和決賽仍未舉行。"
+          },
+          {
+            "id": "b",
+            "en": "Winning the quarter-final means the final has already been played.",
+            "zh": "贏了八強就表示決賽已舉行。"
+          },
+          {
+            "id": "c",
+            "en": "Since they have another match tomorrow, they cannot aim for the final.",
+            "zh": "既然明天還有比賽，他們就不能以決賽為目標。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "用 could 保留可能性，並準確交代尚未完成的輪次。"
+      },
+      "speaking": {
+        "en": "The young team hopes to go all the way, but its semi-final is not until next week.",
+        "zh": "年輕球隊希望一路晉級到最後，但準決賽下週才舉行。",
+        "promptZh": "先聽示範，再指出這是目標還是已完成的結果。",
+        "targetSpan": {
+          "start": 24,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一支校際羽毛球隊首次打進八強。四強賽下週才開始，決賽更在其後；隊員希望打進最後一場。用一至兩句英文描述目標與未完成的輪次。",
+        "selfCheckZh": "寫出希望晉級到最後，但四強和決賽仍未舉行；不要說已奪冠。",
+        "examples": [
+          {
+            "en": "The badminton team hopes to go all the way, but the semi-final and final are still ahead.",
+            "zh": "羽毛球隊希望一路晉級到最後，但準決賽和決賽仍未舉行。"
+          },
+          {
+            "en": "After reaching the quarter-final for the first time, the players want to go all the way to the last match; they have not won it yet.",
+            "zh": "首次打進八強後，球員希望一路晉級到最後一場；他們尚未贏得那場比賽。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The badminton team",
+            "zh": "羽毛球隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the semi-final and final",
+            "zh": "準決賽和決賽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 72
+            }
+          },
+          {
+            "en": "reaching the quarter-final",
+            "zh": "打進八強",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 32
+            }
+          },
+          {
+            "en": "the last match",
+            "zh": "最後一場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 105
+            }
+          },
+          {
+            "en": "not won it yet",
+            "zh": "尚未贏得",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hoping to go all the way names a goal, not a title already won.",
+          "zh": "希望一路晉級到最後是目標，不是已奪冠。"
+        },
+        {
+          "en": "In sports, go all the way should be grounded in actual competition stages.",
+          "zh": "在體育語境使用一路晉級到最後，應交代實際賽事階段。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2766",
+      "number": 2766,
+      "inventoryId": "expr-2766",
+      "titleEn": "put a place on the map",
+      "titleZh": "令一個地方廣為人知",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:put|puts|putting)\\s+(?:[A-Za-z’\\x27-]+\\s+){1,5}on\\s+the\\s+map\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a place widely known beyond its previous audience through an achievement or event.",
+        "meaningZh": "透過成就或事件，令一個地方在原有圈子以外廣為人知。",
+        "grammar": "Pattern: achievement/performer puts a named place on the map; put is unchanged in past, puts in third-person present. The place is the object before on the map.",
+        "register": "Positive cultural commentary: a local music organiser tells journalists how a song brought outside attention to a town, without guaranteeing tourism or economic gains.",
+        "boundaryZh": "知名度提升不等於地圖真的新增地名，也不保證訪客、收入或居民生活立即改善。",
+        "misconceptionZh": "地方本來就在地圖上；片語指外界認識它，不是重新測量位置。",
+        "outcomeZh": "能指出哪項作品或成就帶來外界關注，以及受關注的是哪個地方。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0655",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 57, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A hit song can put their country or city on the map.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "put their country or city on the map"
+        }
+      ],
+      "listening": {
+        "en": "A band from a quiet port town released a song that reached listeners across the region. The hit put their town on the map, even though visitor numbers had not been measured yet.",
+        "zh": "一隊來自寧靜港口小鎮的樂隊推出一首歌曲，傳到區內各地聽眾耳中。熱門歌曲令他們的小鎮廣為人知，但訪客數目尚未統計。",
+        "promptZh": "put their town on the map 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The song made the port town better known outside its area.",
+            "zh": "歌曲令港口小鎮在本區以外更廣為人知。"
+          },
+          {
+            "id": "b",
+            "en": "The town was already known across the region before the song appeared.",
+            "zh": "歌曲推出前，小鎮已在區內各地廣為人知。"
+          },
+          {
+            "id": "c",
+            "en": "Visitor numbers are confirmed to have doubled.",
+            "zh": "已確認訪客數目增加一倍。"
+          },
+          {
+            "id": "d",
+            "en": "The song drew attention only from people who already knew the town.",
+            "zh": "歌曲只引起原本已認識小鎮的人注意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "歌曲傳到區外，支持知名度提高；題目明說訪客數目尚未統計。"
+      },
+      "reply": {
+        "promptEn": "What has changed in attention to Lark Bay? A local choir’s recording was shared nationally, and reporters who had never heard of the village began covering its music; nobody has counted tourism yet.",
+        "promptZh": "（Lark Bay 受到的關注有何變化？本地合唱團的錄音在全國流傳，原本不知道村莊的記者開始報道當地音樂；目前尚未統計旅遊數據。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recording introduced the village to a wider audience.",
+            "zh": "錄音讓更廣泛的聽眾認識村莊。"
+          },
+          {
+            "id": "b",
+            "en": "National sharing brought attention from reporters outside the area.",
+            "zh": "全國流傳令區外記者開始關注。"
+          },
+          {
+            "id": "c",
+            "en": "The choir put the village on the map through its recording.",
+            "zh": "合唱團透過錄音令村莊廣為人知。"
+          },
+          {
+            "id": "d",
+            "en": "The village is being discussed beyond its local community.",
+            "zh": "村莊現正受到本地社區以外的人討論。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明作品令村莊在區外受注目，沒有推斷旅遊人數。"
+      },
+      "scene": {
+        "promptZh": "某島上青年隊贏得全國機械人比賽，原本不認識該島的媒體開始介紹其學校。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team’s win put the island on the map.",
+            "zh": "隊伍奪冠令這座島廣為人知。"
+          },
+          {
+            "id": "b",
+            "en": "The island was already widely covered by those national outlets before the win.",
+            "zh": "那些全國媒體在奪冠前已廣泛報道這座島。"
+          },
+          {
+            "id": "c",
+            "en": "The win proves the island has gained visitors and new jobs already.",
+            "zh": "奪冠證明島上訪客和新工作已經增加。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "全國媒體的新關注支持知名度提高，不涉及地圖或就業保證。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以支持 put the place on the map？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A film about the town is watched nationally for the first time.",
+            "zh": "一部關於小鎮的電影首次在全國廣受觀看。"
+          },
+          {
+            "id": "b",
+            "en": "A surveyor updates the town’s road coordinates, but no new audience hears about it.",
+            "zh": "測量員更新小鎮道路座標，但沒有新的觀眾知道此事。"
+          },
+          {
+            "id": "c",
+            "en": "A local athlete’s win brings the village repeated national coverage.",
+            "zh": "本地運動員奪冠，令村莊屢獲全國報道。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只更新實際座標，不代表地方在外界更知名。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們的學生電影在全國得獎，第一次有外地媒體提到這座小城。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The film may put your city on the map, though we cannot yet claim it has increased tourism.",
+            "zh": "電影可能令你們的小城廣為人知，但我們仍不能聲稱旅客已增加。"
+          },
+          {
+            "id": "b",
+            "en": "A national award proves the city has already gained more tourists.",
+            "zh": "全國獎項證明小城已迎來更多旅客。"
+          },
+          {
+            "id": "c",
+            "en": "The film brought attention only from people who already knew the city.",
+            "zh": "電影只引起原本已認識小城的人注意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有外地媒體關注，適合談知名度；旅遊成效尚未有數據。"
+      },
+      "speaking": {
+        "en": "The choir’s national broadcast put its village on the map for listeners beyond the region.",
+        "zh": "合唱團的全國廣播令村莊在區外聽眾之間廣為人知。",
+        "promptZh": "先聽示範，再指出哪項成就令哪個地方被外界認識。",
+        "targetSpan": {
+          "start": 31,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個偏遠山區小鎮的學生製作短片，獲全國電影節放映。原本不了解小鎮的媒體開始報道當地故事，但尚沒有遊客數字。用一至兩句英文描述知名度改變，不要保證旅遊或收入增加。",
+        "selfCheckZh": "寫出短片在全國放映與媒體開始關注小鎮；保留旅客數目未知。",
+        "examples": [
+          {
+            "en": "The students’ film put the mountain town on the map when national reporters began covering its stories.",
+            "zh": "學生短片令山區小鎮廣為人知，全國記者開始報道當地故事。"
+          },
+          {
+            "en": "Screening the short film nationally may put the town on the map, but no visitor figures are available yet.",
+            "zh": "短片在全國放映可能令小鎮廣為人知，但目前仍沒有訪客數字。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The students’ film",
+            "zh": "學生短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "national reporters",
+            "zh": "全國記者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          },
+          {
+            "en": "its stories",
+            "zh": "當地故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 102
+            }
+          },
+          {
+            "en": "the short film",
+            "zh": "短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 24
+            }
+          },
+          {
+            "en": "visitor figures",
+            "zh": "訪客數字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 87
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Putting a place on the map means making it better known, not adding it to an actual map.",
+          "zh": "令地方廣為人知，不是實際把它加進地圖。"
+        },
+        {
+          "en": "A film may put a town on the map without proving tourism has increased.",
+          "zh": "電影可能令小鎮廣為人知，卻不能證明旅客已增加。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

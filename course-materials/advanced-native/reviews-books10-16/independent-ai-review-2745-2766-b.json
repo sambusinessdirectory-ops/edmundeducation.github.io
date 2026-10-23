@@ -1,0 +1,39 @@
+{
+  "reviewType": "Independent Golden SOP content and owner-scope review of eight unselected lessons",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [2745, 2746, 2753, 2754, 2758, 2760, 2764, 2766],
+  "inputHashes": {
+    "draft1": "fd0f1cc142f58cf86bb6fdbf15f3748925ad1158ae524e7d55b5cd9d3f25e960",
+    "draft2": "4a59321f4b0d7f7a40d82c030b6c188b8c22178426476caecfd8b26e0a25ec50",
+    "authorSelfAudit": "ad79799988b37fe0c71783f9e0977cb8c7c8271d931d8a6a5e90ca00a11744a0",
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonical116Batch": "2c64e84e63cdc84a09cc887d72c81658ef982a251e47c3cc5bec5c825fad7f7d"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "contentScreen": "Checked all eight exact source examples and inventory meanings, seven learner actions, keyed target spans, four independently valid replies, Traditional Chinese fidelity, changed-context writing, two complete models, exact answer-derived glossaries, and four audio-role texts. Structural build and check pass; the two content findings below need repair before selection.",
+  "canonicalComparison2745": {
+    "new": "Have a moment in the sun presents a bounded spell of success or popularity, often retrospectively, while allowing residual interest afterwards.",
+    "existing116": "In the spotlight presents being the current focus of public attention, which can be welcome or unwelcome and need not imply success or a completed period.",
+    "assessment": "The temporal-success boundary supports a provisional distinct owner despite overlap in public attention. Its lesson must teach this boundary through varied settings; human owner-scope sign-off remains open."
+  },
+  "findings": [
+    {
+      "id": "R2745-01",
+      "severity": "minor",
+      "sourceOrdinal": 2745,
+      "path": "lessons[number=2745].listening/reply/scene/dialogue/speaking/writing",
+      "detail": "Six of seven learner steps use the same lifecycle of a once-fashionable physical product: music player, instant camera, toy, printed guide, game console and puzzle game. The decisions differ mechanically, but the people and settings barely rotate, so a learner gets little transfer beyond product nostalgia. Golden SOP P97 calls for rotating people and settings; P327 calls for screening scenario monotony.",
+      "repair": "Replace at least two assessed or production contexts with a person, local event, cultural practice or project that had a bounded period of attention while retaining the distinction from canonical 116's current spotlight. Keep source-sense and target-bearing keys intact."
+    },
+    {
+      "id": "R2758-01",
+      "severity": "minor",
+      "sourceOrdinal": 2758,
+      "path": "lessons[number=2758].brief.meaningEn and assessed scenarios",
+      "detail": "The exact source says the old theatre holds a special place in local memory, a shared community memory. The brief narrows the possessor to someone's memory/affections, and every affirmative practice situation uses one individual's personal memory. The learner never applies the phrase to the collective-memory form in the source.",
+      "repair": "Broaden the brief to include a group's or community's shared memory and revise at least one assessed or writing situation to make a supported collective attachment explicit, without implying every member feels identically."
+    }
+  ],
+  "selectionRecommendation": "Keep all eight unselected until the two editorial findings are repaired and independently rechecked. This is not human, media, device or release approval."
+}
