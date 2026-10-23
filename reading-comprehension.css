@@ -645,10 +645,21 @@ html:has(body.dse-paper-mode){scroll-padding-top:20px}
   overflow: visible;
   border: 0;
   border-radius: 0;
-  background: url("reading-login-art/archive-parchment-v1.webp") center / 100% 100% no-repeat;
+  background: transparent;
   box-shadow: none;
   isolation: isolate;
   color: #302718;
+}
+/* The mask is the frame's connected center opening, excluding transparent space outside it. */
+.login-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url("reading-login-art/archive-parchment-v1.webp") center / 100% 100% no-repeat;
+  -webkit-mask: url("reading-login-art/archive-opening-mask-v1.webp") center / 100% 100% no-repeat;
+  mask: url("reading-login-art/archive-opening-mask-v1.webp") center / 100% 100% no-repeat;
+  pointer-events: none;
 }
 .reading-login-frame {
   position: absolute;
