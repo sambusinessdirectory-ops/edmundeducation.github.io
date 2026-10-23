@@ -75,6 +75,7 @@ def detail_foils(q):
    # preposition replacement can break the argument structure or change negation twice
    if old in ['with','without'] and (m.start()<hi or q['answer'][max(0,m.start()-8):m.start()].endswith('together ')):continue
    if old in ['before','after','until'] and not re.match(r'\s+[A-Za-z]',answer[m.end():]):continue
+   if old=='fair' and re.search(r'(school|village|book)\s+$',answer[:m.start()],re.I):new='concert';axis='活動'
    replacement=caps(new,m[0]);text=answer[:m.start()]+replacement+answer[m.end():]
    text=re.sub(r'\ba old\b','an old',text);text=re.sub(r'\ban new\b','a new',text)
    reason=f'這句把「{m[0]}」改成「{replacement}」，改變了原題的{axis}，未保留題目所述情況。'

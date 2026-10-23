@@ -8,7 +8,7 @@ const systems = ["idiom-system", "proverb-system", "sentence-structure"];
 
 for (const system of systems) {
   const release = {
-    "idiom-system": "20261023-compass32-108-1",
+    "idiom-system": "20261023-compass138-zh-1",
     "proverb-system": "20261022-purple-spellbook1",
     "sentence-structure": "20261022-horse-login2"
   }[system];

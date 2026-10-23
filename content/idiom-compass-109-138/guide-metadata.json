@@ -1,0 +1,318 @@
+{
+  "109": {
+    "toneEn": "Informal; energetic",
+    "toneZh": "非正式；充滿活力",
+    "socialEn": "It vividly describes extra energy or drive.",
+    "socialZh": "這個說法生動地形容額外的精力或動力。",
+    "wrong1En": "It solemnly describes exhaustion after all energy has been used up.",
+    "wrong1Zh": "它嚴肅地形容精力用盡後的疲倦。",
+    "wrong2En": "It is a neutral report about the amount of petrol in a vehicle.",
+    "wrong2Zh": "它是關於車內汽油量的中性報告。"
+  },
+  "110": {
+    "toneEn": "Neutral; negative relationship",
+    "toneZh": "中性語域；負面人際關係",
+    "socialEn": "It describes lingering hostility between people or groups.",
+    "socialZh": "這個說法形容人或群體之間持續的敵意。",
+    "wrong1En": "It warmly celebrates the affection between the people involved.",
+    "wrong1Zh": "它溫暖地讚頌當事人之間的感情。",
+    "wrong2En": "It diagnoses a blood disorder rather than describing a relationship.",
+    "wrong2Zh": "它診斷血液疾病，而非描述關係。"
+  },
+  "111": {
+    "toneEn": "Conversational; positive fit",
+    "toneZh": "日常用語；強調合適",
+    "socialEn": "It stresses a perfect fit, literally or figuratively.",
+    "socialZh": "這個說法強調實際或比喻上的完全合適。",
+    "wrong1En": "It dismisses the fit as inadequate and disappointing.",
+    "wrong1Zh": "它批評尺寸不合適，令人失望。",
+    "wrong2En": "It praises the object's low price without commenting on its fit.",
+    "wrong2Zh": "它讚揚物品價錢低廉，沒有評論是否合適。",
+    "meaning": {
+      "meaningEn": "Fit perfectly in size or shape, or suit a person or situation extremely well.",
+      "meaningZh": "大小或形狀完全合適；也可比喻非常適合某人或某種情況。"
+    }
+  },
+  "112": {
+    "toneEn": "Informal; old-fashioned British expression",
+    "toneZh": "非正式；較舊式的英式說法",
+    "socialEn": "It emphatically expresses the speaker's certainty.",
+    "socialZh": "這個說法強烈表達說話者的肯定。",
+    "wrong1En": "It cautiously admits that the speaker has almost no confidence.",
+    "wrong1Zh": "它審慎地承認說話者幾乎毫無信心。",
+    "wrong2En": "It reports a laboratory finding about eggs without expressing certainty.",
+    "wrong2Zh": "它報告關於雞蛋的實驗結果，沒有表達肯定。"
+  },
+  "113": {
+    "toneEn": "Informal; confused state",
+    "toneZh": "非正式；混亂狀態",
+    "socialEn": "It describes confusion or disorganisation, often after disruption.",
+    "socialZh": "這個說法形容混亂或缺乏組織的狀態，常見於秩序受擾後。",
+    "wrong1En": "It praises the team's calm organisation and clear priorities.",
+    "wrong1Zh": "它讚揚團隊組織冷靜，優先次序清晰。",
+    "wrong2En": "It neutrally states the exact number of people present.",
+    "wrong2Zh": "它中性地陳述在場人數。",
+    "meaning": {
+      "meaningEn": "Confused, disorganised or unsure what to do.",
+      "meaningZh": "混亂、缺乏組織或無所適從。"
+    }
+  },
+  "114": {
+    "toneEn": "Conversational; comfort contrasted with difficulty",
+    "toneZh": "日常用語；舒適與困難的對比",
+    "socialEn": "It often appears in negatives to warn that life is not entirely easy.",
+    "socialZh": "這個說法常用於否定句，提醒生活並非全然輕鬆。",
+    "wrong1En": "It is a botanical description rather than a comment on how easy life is.",
+    "wrong1Zh": "它是植物學描述，而非評論生活是否輕鬆。",
+    "wrong2En": "It always celebrates hardship as the main pleasure of the situation.",
+    "wrong2Zh": "它總是把困難讚頌為處境中的主要樂趣。"
+  },
+  "115": {
+    "toneEn": "Informal; emphatic complaint",
+    "toneZh": "非正式；強烈抱怨",
+    "socialEn": "It emphasises a very high cost, often with disapproval.",
+    "socialZh": "這個說法強調費用極高，常帶不滿。",
+    "wrong1En": "It warmly praises the price as a remarkable bargain.",
+    "wrong1Zh": "它熱情讚揚價錢非常划算。",
+    "wrong2En": "It states an exact monetary amount without emphasis.",
+    "wrong2Zh": "它毫不強調地列出確實金額。"
+  },
+  "116": {
+    "toneEn": "Conversational; delay",
+    "toneZh": "日常用語；暫緩行動",
+    "socialEn": "It recommends or describes waiting before acting.",
+    "socialZh": "這個說法建議或描述行動前先等一等。",
+    "wrong1En": "It urgently demands action without any pause.",
+    "wrong1Zh": "它急切要求毫不暫停地採取行動。",
+    "wrong2En": "It declares that the plan has been permanently abandoned.",
+    "wrong2Zh": "它宣布計劃已永久放棄。"
+  },
+  "117": {
+    "toneEn": "Informal; playful greeting",
+    "toneZh": "非正式；帶玩笑的招呼",
+    "socialEn": "It playfully acknowledges the arrival of someone just mentioned.",
+    "socialZh": "這個說法以玩笑口吻回應剛被提及的人出現。",
+    "wrong1En": "It seriously accuses the arriving person of being morally evil.",
+    "wrong1Zh": "它認真指控到場者品行邪惡。",
+    "wrong2En": "It formally orders the arriving person to leave immediately.",
+    "wrong2Zh": "它正式命令到場者立即離開。"
+  },
+  "118": {
+    "toneEn": "Conversational; following a trend",
+    "toneZh": "日常用語；順應趨勢",
+    "socialEn": "It describes following the prevailing direction without necessarily praising it.",
+    "socialZh": "這個說法描述跟隨主流走向，不一定帶讚賞。",
+    "wrong1En": "It praises deliberate resistance to the prevailing trend.",
+    "wrong1Zh": "它讚揚刻意抗拒主流趨勢。",
+    "wrong2En": "It guarantees that the majority's preference is morally right.",
+    "wrong2Zh": "它保證大多數人的偏好在道德上正確。"
+  },
+  "119": {
+    "toneEn": "Conversational; critical",
+    "toneZh": "日常用語；帶批評意味",
+    "socialEn": "It criticises someone for refusing to face an unpleasant reality.",
+    "socialZh": "這個說法批評某人拒絕面對不愉快的現實。",
+    "wrong1En": "It praises a brave willingness to investigate unpleasant facts.",
+    "wrong1Zh": "它讚揚勇於調查不愉快事實的態度。",
+    "wrong2En": "It neutrally describes a person who has never been told of the problem.",
+    "wrong2Zh": "它中性地描述一個從未獲告知問題的人。"
+  },
+  "120": {
+    "toneEn": "Informal; revealing a secret",
+    "toneZh": "非正式；洩露秘密",
+    "socialEn": "It describes revealing secret information, deliberately or accidentally.",
+    "socialZh": "這個說法描述有意或無意地洩露秘密。",
+    "wrong1En": "It praises the successful protection of every secret.",
+    "wrong1Zh": "它讚揚成功保守所有秘密。",
+    "wrong2En": "It necessarily accuses the person of deliberately lying.",
+    "wrong2Zh": "它必然指控當事人刻意說謊。"
+  },
+  "121": {
+    "toneEn": "Conversational; strategic disclosure",
+    "toneZh": "日常用語；透露策略",
+    "socialEn": "It describes revealing a previously hidden plan or position.",
+    "socialZh": "這個說法描述透露之前隱藏的計劃或立場。",
+    "wrong1En": "It celebrates keeping every intention concealed throughout the exchange.",
+    "wrong1Zh": "它讚揚整段交流中隱藏所有意圖。",
+    "wrong2En": "It neutrally describes showing an injured hand to a doctor.",
+    "wrong2Zh": "它中性地描述向醫生展示受傷的手。"
+  },
+  "122": {
+    "toneEn": "Neutral; written evidence",
+    "toneZh": "中性語域；書面證據",
+    "socialEn": "It stresses that something is recorded in writing.",
+    "socialZh": "這個說法強調事情已有文字記錄。",
+    "wrong1En": "It treats a spoken promise alone as sufficient written evidence.",
+    "wrong1Zh": "它把單純口頭承諾視為足夠的書面證據。",
+    "wrong2En": "It guarantees the factual truth of whatever has been written.",
+    "wrong2Zh": "它保證任何已寫下的內容都是事實。",
+    "meaning": {
+      "meaningEn": "Clearly recorded in writing.",
+      "meaningZh": "清楚地以文字記錄下來。"
+    }
+  },
+  "123": {
+    "toneEn": "Conversational; positive hindsight",
+    "toneZh": "日常用語；事後發現好處",
+    "socialEn": "It reassesses an apparent setback in light of a later benefit.",
+    "socialZh": "這個說法根據後來的好處，重新看待原本似乎不利的事情。",
+    "wrong1En": "It expresses regret that a welcome event later became harmful.",
+    "wrong1Zh": "它對原本令人歡迎的事情後來變得有害表示遺憾。",
+    "wrong2En": "It guarantees in advance that every setback will benefit everyone.",
+    "wrong2Zh": "它事先保證每個挫折都會令所有人受益。"
+  },
+  "124": {
+    "toneEn": "Informal; chance rather than established skill",
+    "toneZh": "非正式；歸因於運氣而非已證實的技巧",
+    "socialEn": "It attributes a newcomer's early success to luck, sometimes teasingly.",
+    "socialZh": "這個說法把新手初次成功歸因於運氣，有時帶玩笑意味。",
+    "wrong1En": "It certifies the newcomer as an expert on the basis of proven long-term skill.",
+    "wrong1Zh": "它根據已證實的長期技巧，認定新手為專家。",
+    "wrong2En": "It solemnly predicts that every future attempt will fail.",
+    "wrong2Zh": "它嚴肅預言未來每次嘗試都會失敗。",
+    "meaning": {
+      "meaningEn": "Unexpected early success attributed to chance rather than established skill.",
+      "meaningZh": "把新手初次的意外成功歸因於運氣，而非已證實的技巧。"
+    }
+  },
+  "125": {
+    "toneEn": "Informal; embarrassed admission",
+    "toneZh": "非正式；尷尬地認錯",
+    "socialEn": "It describes admitting an error or accepting defeat after confidence or pride.",
+    "socialZh": "這個說法形容原本自信或自負的人後來認錯或認輸。",
+    "wrong1En": "It proudly celebrates refusing to admit an error.",
+    "wrong1Zh": "它自豪地讚頌拒絕認錯。",
+    "wrong2En": "It describes pleasure in proving someone else wrong without any embarrassment.",
+    "wrong2Zh": "它描述證明別人錯了的快感，毫無尷尬。"
+  },
+  "126": {
+    "toneEn": "Conversational; analytical comparison",
+    "toneZh": "日常用語；分析比較",
+    "socialEn": "It challenges a comparison because the things differ in relevant ways.",
+    "socialZh": "這個說法指出事物在重要方面不同，因此質疑比較是否公平。",
+    "wrong1En": "It endorses the direct comparison because both things are identical.",
+    "wrong1Zh": "它認同直接比較，因為兩件事物完全相同。",
+    "wrong2En": "It dismisses both things as worthless without discussing comparability.",
+    "wrong2Zh": "它說兩件事物都毫無價值，沒有討論是否可比較。"
+  },
+  "127": {
+    "toneEn": "Proverbial; evenly matched rivalry",
+    "toneZh": "諺語式；勢均力敵的對抗",
+    "socialEn": "It describes equally clever or skilful opponents confronting each other.",
+    "socialZh": "這個說法形容同樣精明或熟練的對手互相對抗。",
+    "wrong1En": "It mocks a weak opponent who is easily defeated by an expert.",
+    "wrong1Zh": "它嘲笑被專家輕易擊敗的弱小對手。",
+    "wrong2En": "It praises harmony between people who are not competing at all.",
+    "wrong2Zh": "它讚揚完全沒有競爭的人之間的和諧。"
+  },
+  "128": {
+    "toneEn": "Informal; delighted",
+    "toneZh": "非正式；欣喜",
+    "socialEn": "It vividly expresses a person's intense happiness.",
+    "socialZh": "這個說法生動地表達極度快樂。",
+    "wrong1En": "It solemnly describes severe grief and disappointment.",
+    "wrong1Zh": "它嚴肅地形容深切悲傷和失望。",
+    "wrong2En": "It measures a person's literal height above the ground.",
+    "wrong2Zh": "它量度當事人實際離地的高度。"
+  },
+  "129": {
+    "toneEn": "Informal; delighted",
+    "toneZh": "非正式；欣喜",
+    "socialEn": "It vividly describes feeling extremely happy.",
+    "socialZh": "這個說法生動地形容欣喜若狂的心情。",
+    "wrong1En": "It expresses mild curiosity without any particular happiness.",
+    "wrong1Zh": "它表達輕微好奇，沒有特別快樂。",
+    "wrong2En": "It objectively reports an aircraft's altitude.",
+    "wrong2Zh": "它客觀地報告飛機高度。"
+  },
+  "130": {
+    "toneEn": "Conversational; approximate frequency",
+    "toneZh": "日常用語；概略頻率",
+    "socialEn": "It usually gives an informal estimate of very frequent occurrence.",
+    "socialZh": "這個說法通常以非正式方式表示事情發生得非常頻密。",
+    "wrong1En": "It emphasises that the event is exceptionally rare.",
+    "wrong1Zh": "它強調事情極為罕見。",
+    "wrong2En": "It guarantees a scientifically measured percentage in every use.",
+    "wrong2Zh": "它保證每次使用都表示科學量度的百分比。"
+  },
+  "131": {
+    "toneEn": "Emphatic; serious warning",
+    "toneZh": "強烈語氣；嚴重警告",
+    "socialEn": "It warns of or criticises a potentially fatal risk.",
+    "socialZh": "這個說法警告或批評可能致命的冒險。",
+    "wrong1En": "It playfully describes a harmless inconvenience with no threat to life.",
+    "wrong1Zh": "它以玩笑口吻描述毫無生命威脅的小不便。",
+    "wrong2En": "It calmly guarantees that the person will survive unharmed.",
+    "wrong2Zh": "它平靜地保證當事人會毫髮無損地生還。"
+  },
+  "132": {
+    "toneEn": "Critical; sceptical",
+    "toneZh": "批評；懷疑",
+    "socialEn": "It accuses a display or explanation of misleading people.",
+    "socialZh": "這個說法指責某種展示或解釋有誤導作用。",
+    "wrong1En": "It praises complete transparency and clear supporting evidence.",
+    "wrong1Zh": "它讚揚完全透明和清晰的支持證據。",
+    "wrong2En": "It neutrally lists decorative materials without questioning honesty.",
+    "wrong2Zh": "它中性地列出裝飾材料，沒有質疑誠實程度。"
+  },
+  "133": {
+    "toneEn": "Conversational; physical discomfort",
+    "toneZh": "日常用語；身體不適",
+    "socialEn": "It describes nausea, which can have physical or emotional causes.",
+    "socialZh": "這個說法描述作嘔的感覺，原因可以是身體或情緒上的。",
+    "wrong1En": "It describes ordinary hunger with no feeling of nausea.",
+    "wrong1Zh": "它描述普通肚餓，沒有作嘔感覺。",
+    "wrong2En": "It guarantees that vomiting has already occurred.",
+    "wrong2Zh": "它保證已經發生嘔吐。"
+  },
+  "134": {
+    "toneEn": "Conversational; disruption",
+    "toneZh": "日常用語；打亂安排",
+    "socialEn": "It describes a disruption to existing plans or arrangements.",
+    "socialZh": "這個說法描述原有計劃或安排受到擾亂。",
+    "wrong1En": "It praises the preservation of every existing arrangement unchanged.",
+    "wrong1Zh": "它讚揚每項原有安排都維持不變。",
+    "wrong2En": "It guarantees that the disruption will improve the result.",
+    "wrong2Zh": "它保證擾亂安排將改善結果。"
+  },
+  "135": {
+    "toneEn": "Conversational; strong desire",
+    "toneZh": "日常用語；強烈渴望",
+    "socialEn": "It describes wanting a particular outcome or thing very strongly.",
+    "socialZh": "這個說法描述非常渴望某個結果或事物。",
+    "wrong1En": "It expresses indifference between all available choices.",
+    "wrong1Zh": "它表達對所有可用選擇都毫無偏好。",
+    "wrong2En": "It announces that the desired outcome has already been obtained.",
+    "wrong2Zh": "它宣布渴望的結果已經得到。"
+  },
+  "136": {
+    "toneEn": "Informal; lively",
+    "toneZh": "非正式；活力充沛",
+    "socialEn": "In this lesson it warmly describes someone lively and energetic.",
+    "socialZh": "在本課中，這個說法以親切口吻形容人精力充沛。",
+    "wrong1En": "It criticises someone for being exhausted and inactive.",
+    "wrong1Zh": "它批評某人疲倦而不活躍。",
+    "wrong2En": "It neutrally reports the person's most recent meal.",
+    "wrong2Zh": "它中性地報告當事人最近吃過的一餐。"
+  },
+  "137": {
+    "toneEn": "Conversational; watching trends",
+    "toneZh": "日常用語；觀察趨勢",
+    "socialEn": "It describes assessing the direction of opinion or events.",
+    "socialZh": "這個說法描述判斷輿論或形勢的走向。",
+    "wrong1En": "It asserts that current opinions and trends can safely be ignored.",
+    "wrong1Zh": "它斷言可以放心忽視當前意見和趨勢。",
+    "wrong2En": "It guarantees an exact prediction of every future event.",
+    "wrong2Zh": "它保證能準確預測未來每件事。"
+  },
+  "138": {
+    "toneEn": "Informal; rarity",
+    "toneZh": "非正式；罕見",
+    "socialEn": "It describes an event as happening very rarely.",
+    "socialZh": "這個說法形容某事極少發生。",
+    "wrong1En": "It emphasises a reliable event that happens every day.",
+    "wrong1Zh": "它強調一件每天穩定發生的事。",
+    "wrong2En": "It states that the event is completely impossible.",
+    "wrong2Zh": "它表示事情完全不可能發生。"
+  }
+}

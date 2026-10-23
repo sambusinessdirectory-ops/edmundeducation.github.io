@@ -1,0 +1,30 @@
+idiom-109-q55|Seeing the first donations failed to put a tiger in the volunteers’ tank.|原題說捐款帶來新動力，這句卻說沒有帶來動力。|Seeing no donations put a tiger in the volunteers’ tank.|原題已有首批捐款，這句卻改成沒有捐款。
+idiom-111-q36|Before the final adjustment, the racing suit fitted like a glove.|原題說最後調整後才合身，這句把時間改成調整前。|After the final adjustment, the racing suit still did not fit like a glove.|原題說調整後完全合身，這句卻仍否定合身。
+idiom-111-q53|After one adjustment, the cycling jacket still did not fit like a glove.|原題說調整後完全合身，這句卻否定合身。|After five adjustments, the cycling jacket fitted like a glove.|原題只調整一次，這句改成五次。
+idiom-111-q57|To everyone’s disappointment, the last available jacket did not fit like a glove.|原題令人鬆一口氣且完全合身，這句反轉結果和感受。|To everyone’s relief, every available jacket fitted like a glove.|原題只說最後一件，這句擴大到全部外套。
+idiom-115-q51|A room beside the stadium does not cost the earth during the final.|原題說決賽期間非常昂貴，這句否定高價。|A room beside the stadium costs the earth only after the final ends.|原題說決賽期間昂貴，這句改成賽後才昂貴。
+idiom-116-q03|Do not hang fire; act before we receive the final email.|原題要求等收到電郵才行動，這句要求事前立即行動。|Hang fire until we receive the first email.|原題等待最後一封電郵，這句改成第一封。
+idiom-116-q56|The museum did not hang fire and announced the exhibition before the loan was approved.|原題暫緩至借展獲批，這句改成獲批前已公布。|The museum hung fire until the loan was rejected.|原題是借展獲批，這句改成遭拒。
+idiom-116-q59|Rather than hang fire, the retailer guessed the demand and ordered more stock.|原題避免猜測並暫緩訂貨，這句反過來猜測並立即訂貨。|Rather than guess the demand, the retailer hung fire on selling the remaining stock.|原題暫緩增訂存貨，這句改成暫緩出售餘貨。
+idiom-117-q08|Speak of the devil! Ben has just left the gate.|原題是本出現在閘口，這句卻說他剛離開。|Speak of the devil! Ben has just appeared on the roof.|原題地點是閘口，這句改成屋頂。
+idiom-117-q21|“Speak of the devil!” Eva said as Sam walked out of the kitchen.|原題森姆走進廚房，這句改成走出去。|“Speak of the devil!” Sam said as Eva walked into the kitchen.|這句對調到場者和說話者，原題到場的是森姆。
+idiom-117-q27|Speak of the devil! Mr Wong has already left the building.|原題黃先生正在門口，這句說他已離開。|Speak of the devil! Mr Wong is at the airport.|原題黃先生在房門外敲門，這句改成機場。
+idiom-118-q16|Then let’s refuse to go with the tide this time.|原題接受大多數人的選擇，這句卻拒絕跟隨。|Then let’s go with the tide next year instead.|原題是這一次，這句改成明年才跟隨。
+idiom-118-q45|Whether to go with the tide or take a different path depended on the colour of each choice.|原題考慮成本，這句改成顏色。|The group would go with the tide regardless of the cost of each choice.|原題選擇取決於成本，這句卻說不論成本都跟隨。
+idiom-118-q49|We should go with the tide because the popular choice clearly causes no problems.|原題熱門選擇帶來更多問題，這句說沒有問題並建議跟隨。|Why go with the tide if the unpopular choice clearly causes more problems?|原題出問題的是熱門選擇，這句改成不受歡迎的選擇。
+idiom-122-q06|Keep the full offer out of black and white so that nobody can read it later.|原題要求清楚寫下，這句要求不留下文字記錄。|Put only half the offer in black and white so that nobody can deny it later.|原題要求完整記錄，這句只記下一半。
+idiom-122-q44|Let’s rely on memory instead of putting the final plan in black and white.|原題用文字取代記憶，這句反過來依靠記憶。|Let’s put the abandoned plan in black and white instead of the final plan.|原題記錄最終方案，這句改成已放棄的方案。
+idiom-124-q22|Call it beginner’s luck, but I solved the puzzle on my tenth attempt.|原題首次嘗試成功，這句改成第十次。|Call it beginner’s luck, but I failed to solve the puzzle on my first attempt.|原題成功解謎，這句改成失敗。
+idiom-127-q03|When the two clever lawyers met, one easily outwitted the other rather than diamond cutting diamond.|原題兩人同樣精明，這句卻說一人輕易勝過另一人。|When the five clever lawyers met, diamond cuts diamond.|原題只有兩名律師，這句改成五名。
+idiom-127-q07|Diamond cuts diamond, so Victor will easily fool Aaron.|原題亞倫同樣精明，不支持維克多能輕易騙過他。|Diamond cuts diamond, but Aaron has none of Victor’s cleverness.|原題兩人同樣精明，這句否定亞倫的才智。
+idiom-127-q42|In a contest where only one side can predict the other’s next move, diamond cuts diamond.|原題雙方都能預測對手，這句縮減為只有一方。|In a contest where neither side can predict the other’s next move, diamond cuts diamond.|原題雙方都能預測，這句改成雙方都不能。
+idiom-127-q60|The novel’s detective easily defeats the mastermind; it is hardly a case of diamond cuts diamond.|原題勢均力敵，這句改成偵探輕易勝出。|The novel’s detective and mastermind refuse to confront each other: diamond cuts diamond.|原題描述兩人對抗，這句卻說拒絕交鋒。
+idiom-131-q22|Tell Ryan to dice with death for a photograph.|原題勸阻拿性命冒險，這句卻鼓勵冒險。|Tell Ryan he has already diced with death for a photograph.|原題是對計劃的勸阻，這句卻斷言已經發生。
+idiom-131-q32|Because the ice was thin, the people skating in the middle of the lake were not dicing with death.|原題有生命危險，這句否定危險。|Because the ice was thin, the people skating at the edge of the lake were dicing with death.|原題位置在湖中央，這句改成湖邊。
+idiom-133-q18|If you feel sick to your stomach, hide it from the nurse.|原題要求告訴護士，這句卻要求隱瞞。|Tell the nurse that you always feel sick to your stomach.|原題是條件指示，這句加入總是作嘔的斷言。
+idiom-133-q36|If the fumes make you sick to your stomach, stay in the room and tell nobody.|原題要求離開並告訴成人，這句把兩項行動都反轉。|If the fumes make you sick to your stomach, leave the room but keep it secret from adults.|原題要求告訴成人，這句卻要求保密。
+idiom-133-q48|If the treatment continues to make you sick to your stomach, conceal the timing from the nurse.|原題要求準確報告時間，這句卻要求隱瞞時間。|Tell the nurse the treatment has never made you sick to your stomach.|原題作嘔持續時要報告，這句卻說從未作嘔。
+idiom-134-q03|Please upset the apple cart by changing the schedule now.|原題要求不要改動，這句卻要求立即更改。|Please don’t upset the apple cart by cancelling the venue now.|原題關於更改時間表，這句改成取消場地。
+idiom-138-q02|Once in a blue moon, our family cooks food at home.|原題說極少訂外賣，這句卻說極少在家煮食。|Our family orders takeaway every day, not once in a blue moon.|原題極少訂外賣，這句改成每天。
+idiom-138-q30|The quietest pupil volunteers to speak last once in a blue moon.|原題極少自願首先發言，這句改成最後發言。|The quietest pupil volunteers to speak first every day, not once in a blue moon.|原題極少發生，這句改成每天。
+idiom-138-q53|My cousins visit us every week, not once in a blue moon.|原題非常罕見，這句改成每週。|We visit my cousins once in a blue moon.|原題表親探訪我們，這句對調探訪者和被訪者。

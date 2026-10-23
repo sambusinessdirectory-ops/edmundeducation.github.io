@@ -21,6 +21,8 @@ const expandedCompassSource = await read("idiom-compass-06-30-curation.js");
 const expandedCompassBonusSource = await read("idiom-compass-06-30-bonus.js");
 const lesson31CompassSource = await read("idiom-compass-31-curation.js");
 const rolloutCompassSource = await read("idiom-compass-32-108-curation.js");
+const finalCompassSource = await read("idiom-compass-109-138-curation.js");
+const translatedCompassSource = await read("idiom-compass-guide-zh.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -350,6 +352,8 @@ function createFrontendHarness({ withCompass = false } = {}) {
     vm.runInContext(expandedCompassBonusSource, context, { filename: "idiom-compass-06-30-bonus.js" });
     vm.runInContext(lesson31CompassSource, context, { filename: "idiom-compass-31-curation.js" });
     vm.runInContext(rolloutCompassSource, context, { filename: "idiom-compass-32-108-curation.js" });
+    vm.runInContext(finalCompassSource, context, { filename: "idiom-compass-109-138-curation.js" });
+    vm.runInContext(translatedCompassSource, context, { filename: "idiom-compass-guide-zh.js" });
   }
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
@@ -937,10 +941,10 @@ test("first five show a real idiom sentence and require idiom use in social sign
       sut.setLessonPage(page);
       markup = sut.elements.lessonContent.innerHTML;
       assert.equal(occurrences(markup, 'class="compass-option-copy"'), 3);
-      assert.equal(occurrences(markup, "<strong>" ) >= 3, true);
-      assert.equal(occurrences(markup, "</strong><small>") >= 3, true);
-      assert.match(markup, /class="compass-option-copy"><strong>[A-Za-z]/);
-      assert.match(markup, /<\/strong><small>[\u3400-\u9fff]/);
+      assert.equal(occurrences(markup, '<strong lang="zh-Hant">' ) >= 3, true);
+      assert.equal(occurrences(markup, '</strong><small lang="en">') >= 3, true);
+      assert.match(markup, /class="compass-option-copy"><strong lang="zh-Hant">[\u3400-\u9fff]/);
+      assert.match(markup, /<\/strong><small lang="en">[A-Za-z]/);
       if ([3, 5, 6].includes(page)) assert.match(markup, idiom, `${current.id} page ${page} must visibly use the idiom`);
     }
     sut.setLessonPage(7);
@@ -1112,7 +1116,8 @@ test("Compass 06–30 guide decisions use distinct scenes and reveal Chinese exp
   const correct = (guide.choices[page].correct + rotation) % 3;
   sut.openLesson(current.id, { page, attempt: attemptSeed({ lessonId: current.id }) });
   let markup = sut.elements.lessonContent.innerHTML;
-  assert.doesNotMatch(markup, /class="compass-option-copy"><strong>[^<]+<\/strong><small>/, "pre-answer Chinese explanations must not give away the key");
+  assert.ok(!renderedText(markup).includes(guide.choices[page].options[1]), "pre-answer rationale stays hidden");
+  assertChineseBeforeEnglish(markup,guide.choices[page].optionsZh[1],guide.choices[page].optionsEn[1],"translated option");
   sut.state.pilotSelections[`${current.id}:${page}`] = (correct + 1) % 3;
   sut.setLessonPage(page);
   markup = sut.elements.lessonContent.innerHTML;
@@ -1122,7 +1127,7 @@ test("Compass 06–30 guide decisions use distinct scenes and reveal Chinese exp
   sut.setLessonPage(page);
   markup = sut.elements.lessonContent.innerHTML;
   assert.match(markup, /class="compass-option is-right"/, "a correct attempt reveals the answer");
-  assert.match(markup, /class="compass-option-copy"><strong>[^<]+<\/strong><small>/, "Chinese explanations become available after success");
+  assert.ok(renderedText(markup).includes(guide.choices[page].feedback), "Chinese explanation appears after success");
 });
 
 test("answering a later Compass question updates its card without rebuilding the long page", async () => {
@@ -1262,11 +1267,11 @@ test("lesson 31 shows its seven-page guide and all 60 curated four-choice items"
   assert.match(sut.elements.lessonContent.innerHTML.replace(/<[^>]*>/g, ''), /Nina told me that she and her flatmate had fought like cat and dog about the heating every day last week/);
 });
 
-test("lessons 32–108 render all guides, retain original IDs, and show 240 choices per lesson", async () => {
+test("lessons 32–138 render all guides, retain original IDs, and show 240 choices per lesson", async () => {
   assert.match(html, /idiom-compass-32-108-curation\.js\?v=/);
   const { sut, compass } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
-  for (const target of content.lessons.filter((l) => l.order >= 32 && l.order <= 108)) {
+  for (const target of content.lessons.filter((l) => l.order >= 32 && l.order <= 138)) {
     const guide = compass[target.id];
     assert.ok(guide, `${target.id}: guide`);
     const questions = sut.compassPracticeQuestions(target);
@@ -1307,8 +1312,38 @@ test("lessons 32–108 render all guides, retain original IDs, and show 240 choi
   }
 });
 
+test("all 138 guides put Chinese choices first, hide explanations and skip the removed stage", () => {
+  const { sut, compass }=createFrontendHarness({withCompass:true});
+  authenticateStudent(sut);
+  assert.equal(Object.keys(compass).length,138);
+  for(const target of content.lessons){
+    const guide=compass[target.id];
+    for(const page of [2,3,5,6]){
+      sut.openLesson(target.id,{page});
+      const markup=sut.elements.lessonContent.innerHTML;
+      const choice=guide.choices[page];
+      assertChineseBeforeEnglish(markup,choice.promptZh,choice.promptEn,`${target.id}:${page} prompt`);
+      assert.equal(choice.optionsZh.length,3);
+      const copies=[...markup.matchAll(/class="compass-option-copy">([\s\S]*?)<\/span>/g)].map(m=>m[1]);
+      for(let i=0;i<3;i++){
+        const copy=copies.find(copy=>renderedText(copy).endsWith(choice.optionsEn[i]));
+        assert.ok(copy,`${target.id}:${page}:${i} translated choice`);
+        assertChineseBeforeEnglish(copy,choice.optionsZh[i],choice.optionsEn[i],`${target.id}:${page}:${i}`);
+      }
+      assert.doesNotMatch(markup,/compass-feedback|is-right|is-wrong/);
+      if(page===3)assertChineseBeforeEnglish(markup,guide.where,guide.whereEn,`${target.id} natural context`);
+      if(page===6)assertChineseBeforeEnglish(markup,guide.boundary,guide.boundaryEn,`${target.id} boundary`);
+    }
+    sut.openLesson(target.id,{page:3});sut.setLessonPage(4);
+    assert.equal(sut.state.lessonPage,5,'next skips retired stage');
+    sut.setLessonPage(4);assert.equal(sut.state.lessonPage,3,'previous skips retired stage');
+    sut.openLesson(target.id,{page:4});assert.equal(sut.state.lessonPage,5,'old bookmark remains usable');
+    assert.doesNotMatch(sut.elements.lessonContent.innerHTML,/Build the phrase|拆句式|compass-shape/);
+  }
+});
+
 test("rollout practice supports wrong answer, correction and device-local extension progress", async () => {
-  for (const order of [32,68,82,100,108]) {
+  for (const order of [32,68,82,100,108,125,138]) {
     const { sut }=createFrontendHarness({withCompass:true});
     authenticateStudent(sut);
     const target=content.lessons.find(l => l.order===order);

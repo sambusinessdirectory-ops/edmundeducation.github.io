@@ -10,7 +10,10 @@ const scripts = [
   'idiom-first-five-curation.js',
   'idiom-compass-06-30-curation.js',
   'idiom-compass-06-30-bonus.js',
-  'idiom-compass-31-108-curation.js',
+  'idiom-compass-31-curation.js',
+  'idiom-compass-32-108-curation.js',
+  'idiom-compass-109-138-curation.js',
+  'idiom-compass-guide-zh.js',
 ];
 for (const name of scripts) {
   const filename = path.join(root, name);
@@ -19,7 +22,7 @@ for (const name of scripts) {
 
 const catalogue = context.window.EDMUND_IDIOM_SYSTEM_DATA?.lessons || [];
 const guides = context.window.EDMUND_IDIOM_COMPASS || {};
-const lessons = catalogue.filter((lesson) => lesson.order >= 1 && lesson.order <= 108);
+const lessons = catalogue.filter((lesson) => lesson.order >= 1 && lesson.order <= 138);
 const errors = [];
 const rows = [];
 const allIds = new Set();
@@ -58,7 +61,7 @@ for (const lesson of lessons) {
     if (![guide.meaningZh, guide.modelZh, guide.readAloudZh, guide.picture, guide.boundary,
       guide.where, guide.tone, guide.moving].every(chinese)) issue('GUIDE_CHINESE_FIELD');
     if (text(guide.modelEn) === text(guide.readAloudEn)) issue('READ_ALOUD_DUPLICATES_MODEL');
-    if (!Array.isArray(guide.forms) || guide.forms.length < 2) issue('MISSING_FORMS');
+    // The owner removed the phrase-building stage; forms are retained data, not a displayed requirement.
     if (!Array.isArray(guide.checksEn) || guide.checksEn.length !== 3 ||
         !Array.isArray(guide.checks) || guide.checks.length !== 3) issue('POCKET_CHECK_COUNT');
     const lines = [];
@@ -74,11 +77,12 @@ for (const lesson of lessons) {
         if (!english(option)) issue('GUIDED_CHOICE_ENGLISH', String(page));
         lines.push(text(option).toLocaleLowerCase('en'));
       });
-      (choice.options || []).forEach((option) => { if (!chinese(option)) issue('GUIDED_CHOICE_CHINESE', String(page)); });
+      (choice.options || []).forEach((option) => { if (!chinese(option)) issue('GUIDED_RATIONALE_CHINESE', String(page)); });
+      if (choice.optionsZh?.length !== 3 || !choice.optionsZh.every(chinese)) issue('GUIDED_TRANSLATION_CHINESE', String(page));
     }
     row.distinctGuidedChoices = new Set(lines).size;
     if (lines.length === 12 && row.distinctGuidedChoices !== 12) issue('REPEATED_GUIDED_CHOICE');
-    if (!guide.bonusPractice?.every((question, index) => question.id === `${lesson.id}-bonus-${String(index + 1).padStart(2, '0')}` &&
+    if (!guide.bonusPractice?.every((question, index) => [`${lesson.id}-bonus-${String(index + 1).padStart(2, '0')}`, `${lesson.id}-q${51 + index}`].includes(question.id) &&
       question.number === 51 + index && english(question.prompt) && english(question.answer))) issue('BONUS_ID_OR_CONTENT');
     if (lesson.order >= 6 && lesson.order <= 30 && typeof context.window.EDMUND_IDIOM_COMPASS_FOILS === 'function') {
       const rationales = new Map();
@@ -97,7 +101,7 @@ for (const lesson of lessons) {
 
 const report = {
   date: new Date().toISOString(),
-  scope: 'idiom-01 through idiom-108',
+  scope: 'idiom-01 through idiom-138',
   lessonCount: lessons.length,
   originalQuestionCount: lessons.reduce((sum, lesson) => sum + (lesson.questions?.length || 0), 0),
   compassCoverage: rows.filter((row) => row.guidePresent).length,

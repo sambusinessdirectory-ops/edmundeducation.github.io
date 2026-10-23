@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-23",
+  "release": "Lessons 109–138 and Chinese-first guide presentation across 001–138",
+  "authorization": "Owner extended scope to 138, requested Chinese-first pages and removal of Build the phrase, selected AI-only review and authorised live deployment.",
+  "counts": {
+    "guides": 138,
+    "newGuides": 30,
+    "newOriginalItems": 1500,
+    "newExtensions": 300,
+    "newPracticeItems": 1800,
+    "totalPracticeItems": 8280,
+    "translatedGuideDecisions": 552,
+    "translatedGuideOptions": 1656,
+    "visibleStagesPerLesson": 7
+  },
+  "tests": {
+    "runtime": 27,
+    "catalogueAndPaper": 19,
+    "worker": 11,
+    "mobileActionSystems": 3,
+    "previewRenders": 16,
+    "previewWidths": [
+      1280,
+      390
+    ],
+    "horizontalOverflow": false,
+    "realMobileStepper": 7
+  },
+  "sourceOriginalsChanged": 0,
+  "humanReview": false,
+  "knownOpenWork": [
+    "Full item-level twelve-axis and ambiguity review is not complete.",
+    "246/1800 new items trigger the >1.5 option word-count ratio triage threshold.",
+    "25 earlier lessons retain repeated-rationale editorial findings.",
+    "Extension progress retains existing device-local storage."
+  ],
+  "lexicalSources": [
+    "https://dictionary.cambridge.org/dictionary/english/as-sure-as-eggs-is-eggs",
+    "https://dictionary.cambridge.org/thesaurus/hang-fire"
+  ],
+  "deployment": "Pending GitHub Pages run and live byte verification.",
+  "sha256": {
+    "idiom-compass-109-138-curation.js": "cd5383ba00492e7645b9f313b8ef0d0e74277e08d1f3053278918ece8ad8c65a",
+    "idiom-compass-guide-zh.js": "f14bfe696d1220a9edbec819fb929d63a4b4c105dbe51f6324ba915a03d14a4e",
+    "idiom-system.js": "20b2fd38529d909cadd65f8d7268c57ffdecbac93eb944e731f9bad097acb787",
+    "idiom-system.css": "7927afab816da6441b1e233641b4c5dda825e1df7d4cf49fed4906ad2a33e076"
+  }
+}

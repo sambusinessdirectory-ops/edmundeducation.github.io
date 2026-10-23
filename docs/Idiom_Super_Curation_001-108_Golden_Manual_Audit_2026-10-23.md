@@ -8,6 +8,19 @@
 
 **Scope and denominator:** 108 lessons × (50 retained original items + 10 extensions) = 6,480 final-practice items and 25,920 choices. The source catalogue currently has 5,400 original IDs. Existing Compass curation covers lessons 001–030 and has 300 extensions; lessons 031–108 lack Compass guides and 780 extensions. The older 006–030 MC bank needs substantive editorial revision too: a quantitative audit found that in every one of those 25 lessons, at least one identical rationale appears 50 or more times. Structural candidates are not language-approved items. Every item requires a separate semantic, bilingual, foil, rationale, comparison-mark and rendering decision.
 
+
+## Latest rollout update — scope extended through lesson 138
+
+Owner steering on 23 October overrides the earlier presentation requirements: remove **Build the phrase / 拆句式**; Chinese is primary with English underneath in Spot the clue, Where it fits, Your call, Say it naturally and the whole Know the boundary page. AI-only review and autonomous publication remain authorised.
+
+The implementation now contains **138 Compass guides**, **6,900 original questions** and **1,380 extensions** (8,280 practice items). Each lesson has six visible guide stages plus practice. Internal page IDs and all original question IDs remain stable; retired page-4 links redirect to the response stage. All **552 guided decisions / 1,656 choices** have separate, direct Traditional Chinese translations. Answer explanations remain post-answer.
+
+Verification: 27 runtime checks cover all 138 guides, original IDs, choices, feedback, saved progress, Chinese order and retired-stage routing; 19 catalogue/paper checks, 11 worker checks and mobile action checks pass. Sixteen desktop/mobile preview renders (1280 px and 390 px) show no horizontal overflow. A real mobile DOM check confirms seven visible navigation stages numbered 1–7. Lesson 093 matches the owner's screenshots; lesson 125 (“eat humble pie”) now uses the MC renderer.
+
+**Editorial acceptance remains OPEN.** The refreshed structural inventory has 138/138 guides and 25 existing repeated-rationale review findings for lessons 006–030, with no missing-guide findings. This does not certify the complete twelve-axis rubric. The new 109–138 bank has 246 option-length ratio flags (>1.5 longest/shortest), recurring polarity/certainty patterns and incomplete exhaustive ambiguity review. These are retained as open editorial work, not converted to passes. The earlier 32–108 length flags also remain. No independent human review is claimed.
+
+Evidence: `content/idiom-compass-guide-zh/coverage-audit.json`, `translation-report.json`, `grammar-repairs.json`; `content/idiom-compass-109-138/build-report.json`, `assessment-audit.json`, `release-record.json`. The historical 108-lesson baseline below is retained for traceability and is superseded by this current coverage inventory.
+
 ## Status legend and evidence rules
 
 - `[x]` means the named assertion was verified against a cited artifact or recorded observation.

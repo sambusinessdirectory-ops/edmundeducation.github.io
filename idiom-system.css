@@ -1763,3 +1763,15 @@ body > .site-header.edmund-system-header {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Chinese-first Compass guidance; stable internal step IDs preserve saved progress. */
+.lesson-stepper [data-step][hidden] { display: none; }
+.compass-header p small { display: block; margin-top: 4px; color: var(--muted); font-size: 14px; }
+.compass-note .compass-chinese { color: var(--navy-deep); font-size: 18px; font-weight: 750; }
+.compass-note .compass-english { color: var(--muted); font-size: 14px; font-weight: 500; }
+.compass-decision h3 { line-height: 1.55; }
+.compass-decision h3 small { line-height: 1.55; }
+.compass-option-copy { min-width: 0; overflow-wrap: anywhere; }
+
+.compass-option > .compass-option-copy { text-align: left; }
+.compass-section-label small,.compass-header .page-label small { display: block; margin-top: 3px; font-size: 10px; font-weight: 600; letter-spacing: .06em; }
