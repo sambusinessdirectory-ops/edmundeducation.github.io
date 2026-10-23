@@ -316,15 +316,15 @@
       "titleZh": "生活未必按劇本發展",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b",
+        "pattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b",
         "glossaryForbidden": [
-          "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b"
+          "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b"
         ]
       },
       "brief": {
         "meaningEn": "Events do not necessarily unfold according to a plan or expected sequence.",
         "meaningZh": "事情不一定照預定計劃或想像中的次序發生。",
-        "grammar": "Life does not always follow a script; the subject can be life, a day, a trip or events. Here follow a script is about unpredictability, not a person complying with a social role.",
+        "grammar": "Life does not always follow a script; life rarely sticks to the script is a close figurative variant. Both describe events departing from an expected sequence, not a performer refusing a written script.",
         "register": "Reflective, conversational metaphor; a trip organiser can acknowledge a change while keeping practical next steps.",
         "boundaryZh": "未按劇本發展不表示完全不能計劃，也不保證改變必定更好。",
         "misconceptionZh": "不要把這裏的 script 當成真的戲劇台詞，或用一句比喻取代具體調整。",
@@ -344,6 +344,20 @@
           "sentence": "Even careful planners know life does not always follow a script.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "life does not always follow a script"
+        },
+        {
+          "occurrenceId": "book10-16-1202",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 112,
+          "book": 12,
+          "question": 46,
+          "sample": "S1",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Travellers learn that life rarely sticks to the script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life rarely sticks to the script"
         }
       ],
       "listening": {
@@ -554,8 +568,8 @@
           "zh": "生活未必照劇本發展，但修訂後的計劃仍可清楚。"
         },
         {
-          "en": "When life does not follow a script, name the actual change instead of speaking vaguely.",
-          "zh": "生活沒有按計劃發展時，要指出實際改動，不要含糊交代。"
+          "en": "The festival team keeps a rain plan because life rarely sticks to the script.",
+          "zh": "節慶團隊備有雨天方案，因為事情很少完全照計劃發展。"
         }
       ],
       "review": {
@@ -584,7 +598,7 @@
           "Provisional source-backed seven-step draft. No human or release approval."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-3394",

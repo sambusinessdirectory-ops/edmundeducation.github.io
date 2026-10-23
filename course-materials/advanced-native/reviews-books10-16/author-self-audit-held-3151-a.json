@@ -1,0 +1,40 @@
+{
+  "type": "author self-audit; provisional held-source lesson 3151",
+  "recordedAtUtc": "2026-10-23T20:06:09.503620+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3151-a.json",
+  "draftSha256": "0c2b57d6ccefeea44486598d34859fc4c7f6968787c510b0433b56c3fd7056de",
+  "sourceOrdinal": 3151,
+  "sourceId": "book10-16-1040",
+  "sourceExpression": "sand in the gears of society",
+  "sourceSentence": "Red tape can feel like sand in the gears of society.",
+  "normalizedTarget": "sand in the gears",
+  "senseEvidence": "Cambridge English Dictionary defines sand in the gears as an idiom for a problem that impedes a process; source applies that fixed idiom to society.",
+  "primaryUsageEvidence": "https://dictionary.cambridge.org/dictionary/english/sand-in-the-gears",
+  "ownerScreen": "No selected sand in the gears title found; distinct from grinding to a halt, which is complete stoppage rather than a hindrance while work continues.",
+  "sourceAndAllTeachingTargetsMatchReviewedPattern": true,
+  "fiveGlossarySpansExactAndNonTarget": true,
+  "fourIndependentlyValidRepliesSelfReviewed": true,
+  "traditionalChineseFieldsPresentAndParitySelfReviewed": true,
+  "writingModelsChangedContextAndPromptComplete": true,
+  "buildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0
+  },
+  "originalityScreen": {
+    "learnerEnglishStrings": 24,
+    "guideSourceExamples": 2604,
+    "highOrMediumContiguousHits": 0,
+    "nearFullOneOrTwoSubstitutionHits": 0
+  },
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "pending",
+  "limitations": [
+    "AI author review only; independent content review pending.",
+    "No live, device, audio playback or human review claim."
+  ],
+  "contentRevision": 2,
+  "repairNote": "Independent reviewer four-valid-reply concern repaired in reply.options; English/Traditional Chinese aligned. Focused build/--check and full-guide originality screen rerun."
+}

@@ -1102,12 +1102,12 @@
       "id": "advanced-native-1306",
       "number": 1306,
       "inventoryId": "expr-1306",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "stretched thin",
       "titleZh": "忙於應付多項要求",
       "category": "idiom",
       "target": {
-        "pattern": "\\bstretched thin\\b"
+        "pattern": "\\bstretched thin\\b|\\bspread(?:s|ing)?\\s+(?:itself|themselves|ourselves|myself|yourself|himself|herself)\\s+too\\s+thin\\b"
       },
       "sources": [
         {
@@ -1137,12 +1137,26 @@
           "sentence": "Working parents can feel stretched thin.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page195, table2, row8; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-1287",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 120,
+          "book": 13,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A small country risks spreading itself too thin.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spreading itself too thin"
         }
       ],
       "brief": {
         "meaningEn": "Having time, energy or resources spread across more demands than can comfortably be met.",
         "meaningZh": "時間、精力或資源被分散到太多要求，難以從容應付。",
-        "grammar": "be/feel stretched thin; stretched thin by commitments; stretched thin across several tasks. Usually describes limited capacity, not a judgement of character.",
+        "grammar": "Be or feel stretched thin; a person, team or institution can also spread itself/themselves too thin by taking on more commitments than its time or resources can support. This is about capacity, not character or literal thickness.",
         "register": "Conventional stretch metaphor, often about people or teams. Related stretched is broader; thin stresses resources spread across demands.",
         "boundaryZh": "忙得應付不來，不等於不願幫忙或沒有能力；也不能單憑工作數目判斷負擔。",
         "misconceptionZh": "要看時間、精力和實際支援，不把暫時有空當成可持續承諾。",
@@ -1351,8 +1365,8 @@
           "zh": "兩位成員不在、日常要求仍不斷送到時，小團隊感到忙得應付不來。"
         },
         {
-          "en": "She enjoyed helping with the festival but felt stretched thin when there was no evening left for her own work.",
-          "zh": "她喜歡協助節慶，但沒有一個晚上能留給自己的工作時，便感到忙得應付不來。"
+          "en": "The small clinic spreads itself too thin if it promises every district a separate evening service.",
+          "zh": "若小診所答應每區都提供獨立夜診，便可能把有限資源分得太散。"
         }
       ],
       "review": {

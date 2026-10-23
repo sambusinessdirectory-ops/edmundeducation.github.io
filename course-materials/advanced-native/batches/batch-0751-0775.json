@@ -5419,9 +5419,9 @@
       "titleEn": "ripple out / outward",
       "titleZh": "影響逐步向外擴散",
       "category": "phrasal-verb",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\brippl(?:e|es|ed|ing) out(?:ward)?\\b",
+        "pattern": "\\brippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)\\b",
         "glossaryForbidden": [
           "\\brippl(?:e|es|ed|ing)\\b"
         ]
@@ -5452,12 +5452,26 @@
           "sentence": "A calm response can ripple outward.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "ripple outward"
+        },
+        {
+          "occurrenceId": "book10-16-0896",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 83,
+          "book": 12,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 85, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A job change may ripple through the whole family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ripple through the whole family"
         }
       ],
       "brief": {
         "meaningEn": "Spread from an initial event or group to affect other people or areas.",
         "meaningZh": "從最初事件或群體向外擴散，影響其他人或領域。",
-        "grammar": "effects/benefits/problems ripple out or ripple outward from X to Y; often through linked stages. Outward makes the direction away from the initial source explicit; it does not create a different spreading meaning.",
+        "grammar": "Effects, benefits or problems can ripple out or ripple outward from a starting point; a change can also ripple through a family when linked relatives are affected. Identify the initial cause and transmission, rather than assuming coincidence proves impact.",
         "register": "Common figurative water-movement phrasal verb; can describe good or bad effects.",
         "boundaryZh": "不表示每個人同時受相同影響，也不限定一定緩慢；需有傳播連結。",
         "misconceptionZh": "要說明最初來源及後續影響，不能只把同時發生但無關的事連起來。",
@@ -5666,8 +5680,8 @@
           "zh": "小改變可透過互相連結的社區向外擴散。"
         },
         {
-          "en": "The effects rippled out from the first workshop as people shared the method.",
-          "zh": "大家分享方法時，影響從首個工作坊向外擴散。"
+          "en": "A changed shift can ripple through a family when childcare plans have to move.",
+          "zh": "輪班改動令照顧孩子的安排也要調整時，影響可波及整個家庭。"
         }
       ],
       "review": {

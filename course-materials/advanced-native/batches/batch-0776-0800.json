@@ -2137,9 +2137,9 @@
       "titleEn": "keep more doors open",
       "titleZh": "保留更多未來選擇",
       "category": "idiom",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "target": {
-        "pattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+        "pattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)|(?:\\bmore doors (?:stay|stays|stayed) open\\b)",
         "glossaryForbidden": [
           "\\bdoors open\\b"
         ]
@@ -2185,12 +2185,26 @@
           "sentence": "A fair response leaves the door open to change.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "leaves the door open to change"
+        },
+        {
+          "occurrenceId": "book10-16-1112",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 103,
+          "book": 12,
+          "question": 37,
+          "sample": "S1",
+          "sourceBookPages": "89–90",
+          "locatorNote": "DOCX table 107, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Strong basic skills mean more doors stay open.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more doors stay open"
         }
       ],
       "brief": {
         "meaningEn": "Preserve one or several possible future choices rather than deciding every option now.",
         "meaningZh": "保留一個或多個未來選擇，而非現在就把所有可能性定死。",
-        "grammar": "keep more doors open preserves several options; leave the door open for something preserves a particular possible route. Both are opportunity metaphors, not physical doors.",
+        "grammar": "Keep more doors open or let more doors stay open describes preserving several future options. Leave the door open for something preserves one particular possibility; none guarantees success or means leaving physical doors unlocked.",
         "register": "Figurative option-preservation pattern, distinct from opening a new door to a particular opportunity.",
         "boundaryZh": "不是拖延每項決定，也不保證將來每條路都有成果；要解釋保留哪些選擇。",
         "misconceptionZh": "學得較廣可能保留方向，但仍須顧及時間及必要先修條件。",
@@ -2399,8 +2413,8 @@
           "zh": "彈性培訓可幫畢業生保留更多選擇。"
         },
         {
-          "en": "The invitation leaves the door open for another collaboration next year.",
-          "zh": "這份邀請為明年再次合作保留可能。"
+          "en": "With broad basic training, more doors stay open while learners compare possible careers.",
+          "zh": "有較廣泛的基礎訓練，學員比較不同職業時便可保留更多選擇。"
         }
       ],
       "review": {

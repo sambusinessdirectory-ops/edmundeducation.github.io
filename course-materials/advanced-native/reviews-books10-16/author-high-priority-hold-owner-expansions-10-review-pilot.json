@@ -1,0 +1,550 @@
+{
+  "reviewKind": "AI author focused same-sense hold-to-owner expansions",
+  "scope": "Ten high-priority candidate variants from read-only 61-row 3000–4000 hold triage; all current source sentences match newly bounded owner detectors. Provisional alias decisions only; no manifest, database, media upload or release edits.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "755934fb0967bf85bd8251ad54e7765ac57629d6920822e17fd6fb6c5b1484ad",
+  "beforeFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": "a09d0e0f578d238b83ecbf89617478bad68582eb46d59d1f91d09e959f98df59",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "b954d3e8cc8c0695f3a261b68e49d8c6a585879f8bacb29b6d15c3bd93071780",
+    "course-materials/advanced-native/drafts-books10-16/batch-3521-3547-review-pilot.json": "5e1f065ad8ace672ee2139d48c022e1d2c8e12c576048ef3877ae126db4c9fb9",
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json": "979d254c6b39ca767f328beb554d25b37ab6624b1916c21494a225ea5eccc20a",
+    "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json": "65dd3bb5117cb3f108f69ecd7cb2b066d3529b556b5e8abdc3389fc1009cd7f1",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl": "7874887460c2f391dda2ebc96d87e9c73acbfcf6175fdcea081ad8f8c7f896e2",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl": "a6d8b55f4e2c23d573c588468097cb46f0fbc9ee798cfc26a709a5faf430ec02",
+    "course-materials/advanced-native/batches/batch-0901-0925.json": "ebbd19644bd1c74991b22ae5bd976fc393a218f4e37d2f715de845014e7ddec1",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "e83795867975a8fa8c1e7473818a491784210eda6655d5e2b4eb966553ab93e5",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json": "54c5c15b1d56b0250c0f48b4855c352b1888b23feabfe9fbbaaeea85eb0d2fa5",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": "bd67a618b5e2e2288c6e478aeb207ce8b9c67a451b7d6fe78bd78e508262139e",
+    "course-materials/advanced-native/batches/batch-1301-1325.json": "3682b34e1e46ea0dd151f50b9e90b89f22dd9db25c2b65ad437ba25ff40d84e9",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl": "93c7070760a98845e7b3a510554a0f42636b076e7c17ceff9fc124a7824f7b06",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl": "8ec421c45538e8ceabe36de4f90fbc2ca1cbf63eff02fa61c926dbc4c213f8bd",
+    "course-materials/advanced-native/batches/batch-0151-0175.json": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl": "d5077fe22ca60b04ac11b17d5d5578d6ef92bd20585a2533aab1bc7238b8403a",
+    "course-materials/advanced-native/batches/batch-1576-1600.json": "172d9a93676a5c122e3d691a21a5c6685bff81fa85294e5a6d95f80adf1f4124",
+    "course-materials/advanced-native/batches/batch-0776-0800.json": "37e091e9e7fed632263a2b7ede11aadccc2880aaee2ad7c873dba362e4f89b25",
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "d7f002689cc1c7143500e27138982053f5ee94e3436e1977e896f07f0b9edaff"
+  },
+  "afterFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": "1870715a5ad6aa5e6364a55814c6a056dab5cc7f706e1674b3fc56aae33b8404",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "ec5594bd62e300d04f99d8f82bd9e3cd92823ea773fe295afa001b796617f481",
+    "course-materials/advanced-native/drafts-books10-16/batch-3521-3547-review-pilot.json": "a7b8003a3a097829de454c8e98cd6f07f8072a3d2fe0dcaf2e9dc8bd6888a04d",
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json": "4657953c8ab1762aac9e4f0274e2ea422e464c7953864eaebd6f86038ee210df",
+    "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json": "30ea497327154fd77a552044e10cd8e29b5b5e399c593d6053415d1d4a8402c7",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl": "04aa7bf80d4920dcfd3755ee85e864439561c7221fa68624d7aa2c21166842cb",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl": "012a24216d2dd2014cf5986c84209aa5e40ebff5460f7e79bc42e8bf46add69a",
+    "course-materials/advanced-native/batches/batch-0901-0925.json": "a676cffaa7824fa1bef83fa47e70e2af55a833b5da329db6de560b676f67675c",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "6a2a240a3981ca4ac0a75838f06e7f54457f8a30736e3435a7694a4b4c9e7a0e",
+    "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json": "a7a153a820c948a7d759463fc461162cc2fd877f506016b0ae307e57fa06433a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": "f459fa31e279f2622bb650ebf9eeb2bda13ec11696be828ba32b824e9d8a16da",
+    "course-materials/advanced-native/batches/batch-1301-1325.json": "8a092664db44ea4f2ac92b3dc5131304216950c3329693c1b2badf73f0c4bcb5",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl": "e9bafac5cf08c4b87c456fa3973403837e80b68ae88d05f9b3c0f8db2cce469d",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl": "bd783ba50911afaf605a4d3b8583ed24b6b5967eb5119d044901d33b50757710",
+    "course-materials/advanced-native/batches/batch-0151-0175.json": "166a5852c9758ce665221941fe2999ae672b6e6f21289071c3cd1ffa562c4e05",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl": "0256c49f5c30c937fc2ee6359bcb3e050a5a91f0f87c397b917d32d4614ce48e",
+    "course-materials/advanced-native/batches/batch-1576-1600.json": "af0154ce3c391e5806899be9c6c3e7f6e00d0640df24c825dfb3ecbed9ac96b0",
+    "course-materials/advanced-native/batches/batch-0776-0800.json": "072206c7097689ac85077c2861cf78233e8655bcdb79b2ba341ec6e847a911cb",
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "e55592593772f9649fee8d3de1cf9917435a2573c7753188ad05dfdb64c23f25"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3007,
+      "sourceId": "book10-16-0896",
+      "sourceSentence": "A job change may ripple through the whole family.",
+      "sourceExpression": "ripple through the whole family",
+      "ownerId": "advanced-native-772",
+      "ownerTitle": "ripple out / outward",
+      "ownerMeaning": "Spread from an initial event or group to affect other people or areas.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "oldPattern": "\\brippl(?:e|es|ed|ing) out(?:ward)?\\b",
+      "newPattern": "\\brippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "A job change spreading consequences among relatives is the same linked-consequence sense as owner 772. The bounded through-(the whole)-family path is added alongside ripple out, with exact source provenance; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-0896",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 83,
+        "book": 12,
+        "question": 15,
+        "sample": "S1",
+        "sourceBookPages": "39–40",
+        "locatorNote": "DOCX table 85, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A job change may ripple through the whole family.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "ripple through the whole family"
+      },
+      "changedTakeaway2": {
+        "en": "A changed shift can ripple through a family when childcare plans have to move.",
+        "zh": "輪班改動令照顧孩子的安排也要調整時，影響可波及整個家庭。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "A delay rippled out across the city.",
+          "A policy can ripple through a family."
+        ],
+        "negative": [
+          "The water rippled through the pond.",
+          "The family has no known connection to the delay."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3100,
+      "sourceId": "book10-16-0989",
+      "sourceSentence": "Close friends often feel they are speaking the same emotional language.",
+      "sourceExpression": "speaking the same emotional language",
+      "ownerId": "advanced-native-1577",
+      "ownerTitle": "speak the same emotional language",
+      "ownerMeaning": "Understand and respond to one another’s feelings in a familiar, compatible way.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1576-1600.json",
+      "oldPattern": "\\bspeak\\s+the\\s+same\\s+emotional\\s+language\\b",
+      "newPattern": "\\b(?:speak|speaks|spoke|spoken|speaking)\\s+the\\s+same\\s+emotional\\s+language\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "The source has the same mutual emotional-understanding sense as owner 1577; speaking is a bounded verb inflection of speak. Exact source attached; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-0989",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 92,
+        "book": 12,
+        "question": 24,
+        "sample": "S1",
+        "sourceBookPages": "59–61",
+        "locatorNote": "DOCX table 94, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Close friends often feel they are speaking the same emotional language.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "speaking the same emotional language"
+      },
+      "changedTakeaway2": {
+        "en": "The two neighbours were speaking the same emotional language when they recognised each other’s worry.",
+        "zh": "兩位鄰居看出彼此的憂慮時，很容易理解對方的感受。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "They speak the same emotional language.",
+          "The friends spoke the same emotional language."
+        ],
+        "negative": [
+          "They speak the same written language.",
+          "They understand the same grammar."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3223,
+      "sourceId": "book10-16-1112",
+      "sourceSentence": "Strong basic skills mean more doors stay open.",
+      "sourceExpression": "more doors stay open",
+      "ownerId": "advanced-native-785",
+      "ownerTitle": "keep more doors open",
+      "ownerMeaning": "Preserve one or several possible future choices rather than deciding every option now.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "oldPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+      "newPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)|(?:\\bmore doors (?:stay|stays|stayed) open\\b)",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "More doors staying open and keeping more doors open express the same preservation of future options. The bounded stay-open branch matches the complete source; independent review pending.",
+      "contentRevision": 3,
+      "provenance": {
+        "occurrenceId": "book10-16-1112",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 103,
+        "book": 12,
+        "question": 37,
+        "sample": "S1",
+        "sourceBookPages": "89–90",
+        "locatorNote": "DOCX table 107, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Strong basic skills mean more doors stay open.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "more doors stay open"
+      },
+      "changedTakeaway2": {
+        "en": "With broad basic training, more doors stay open while learners compare possible careers.",
+        "zh": "有較廣泛的基礎訓練，學員比較不同職業時便可保留更多選擇。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Flexible training can keep more doors open.",
+          "With funding, more doors stayed open."
+        ],
+        "negative": [
+          "More doors stay closed.",
+          "The workers repaired the doors."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3281,
+      "sourceId": "book10-16-1170",
+      "sourceSentence": "Without action, regret can sound a bit hollow.",
+      "sourceExpression": "regret can sound a bit hollow",
+      "ownerId": "advanced-native-2689",
+      "ownerTitle": "ring a little hollow",
+      "ownerMeaning": "Sound insincere, weak or unconvincing because actions fail to support the words.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json",
+      "oldPattern": "\\b(?:ring|rings|rang|ringing)\\s+(?:a\\s+little\\s+)?hollow\\b",
+      "newPattern": "\\b(?:ring|rings|rang|ringing)\\s+(?:a\\s+little\\s+)?hollow\\b|\\b(?:regret|praise|apolog(?:y|ies)|promises?|words|assurances?)\\s+(?:(?:can|may|might|could)\\s+)?sound(?:s|ed|ing)?\\s+(?:(?:a\\s+bit|a\\s+little)\\s+)?hollow\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "Regret sounds unconvincing without action, the same unsupported-words judgment as owner 2689 ring hollow. Added a bounded abstract-subject sound-hollow branch; independent review pending.",
+      "contentRevision": 3,
+      "provenance": {
+        "occurrenceId": "book10-16-1170",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 109,
+        "book": 12,
+        "question": 43,
+        "sample": "S1",
+        "sourceBookPages": "102–103",
+        "locatorNote": "DOCX table 113, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Without action, regret can sound a bit hollow.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "regret can sound a bit hollow"
+      },
+      "changedTakeaway2": {
+        "en": "An apology can sound a bit hollow when the same harmful rule remains in place.",
+        "zh": "若有害的規則照舊不改，道歉便可能顯得缺乏誠意。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Their praise rang hollow.",
+          "Regret can sound a bit hollow.",
+          "Her apology sounded hollow."
+        ],
+        "negative": [
+          "The metal pipe sounded hollow.",
+          "Praise can sound sincere."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3313,
+      "sourceId": "book10-16-1202",
+      "sourceSentence": "Travellers learn that life rarely sticks to the script.",
+      "sourceExpression": "life rarely sticks to the script",
+      "ownerId": "advanced-native-3308",
+      "ownerTitle": "life does not follow a script",
+      "ownerMeaning": "Events do not necessarily unfold according to a plan or expected sequence.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-held-reviewed-3142-3394-review-pilot.json",
+      "oldPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b",
+      "newPattern": "\\b(?:life|the day|the trip|events?|reality) (?:does not|doesn\\x27t|did not|didn\\x27t|rarely|never) (?:always )?follow a script\\b|\\blife rarely sticks to the script\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "The source uses the same event-unpredictability decision as owner 3308, with sticks-to rather than follows-a wording. Added this narrow life-rarely construction and provenance; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-1202",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 112,
+        "book": 12,
+        "question": 46,
+        "sample": "S1",
+        "sourceBookPages": "108–109",
+        "locatorNote": "DOCX table 116, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Travellers learn that life rarely sticks to the script.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "life rarely sticks to the script"
+      },
+      "changedTakeaway2": {
+        "en": "The festival team keeps a rain plan because life rarely sticks to the script.",
+        "zh": "節慶團隊備有雨天方案，因為事情很少完全照計劃發展。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Life does not always follow a script.",
+          "Life rarely sticks to the script."
+        ],
+        "negative": [
+          "The actor rarely sticks to the script.",
+          "Life rarely sticks to the page."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3318,
+      "sourceId": "book10-16-1207",
+      "sourceSentence": "A broad plan is more like a compass than a cage.",
+      "sourceExpression": "a compass than a cage",
+      "ownerId": "advanced-native-904",
+      "ownerTitle": "a compass, not a cage",
+      "ownerMeaning": "Guidance should help someone find a direction without controlling all their choices.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0901-0925.json",
+      "oldPattern": "\\ba compass,? not a cage\\b",
+      "newPattern": "\\b(?:a compass,? not a cage|more like a compass than a cage)\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "The source’s comparative compass/cage contrast teaches the same guidance-with-autonomy decision as owner 904. Added a narrow comparative branch, not broad compass or cage terms; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-1207",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 112,
+        "book": 12,
+        "question": 46,
+        "sample": "S1",
+        "sourceBookPages": "108–109",
+        "locatorNote": "DOCX table 116, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A broad plan is more like a compass than a cage.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "a compass than a cage"
+      },
+      "changedTakeaway2": {
+        "en": "A useful mentor is more like a compass than a cage: she explains the routes and lets trainees choose.",
+        "zh": "有幫助的導師更像指南針而不是牢籠：她說明不同路線，讓學員自己選擇。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Good advice is a compass, not a cage.",
+          "The plan is more like a compass than a cage."
+        ],
+        "negative": [
+          "The compass was beside the cage.",
+          "The plan is a cage rather than a compass."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3398,
+      "sourceId": "book10-16-1287",
+      "sourceSentence": "A small country risks spreading itself too thin.",
+      "sourceExpression": "spreading itself too thin",
+      "ownerId": "advanced-native-1306",
+      "ownerTitle": "stretched thin",
+      "ownerMeaning": "Having time, energy or resources spread across more demands than can comfortably be met.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1301-1325.json",
+      "oldPattern": "\\bstretched thin\\b",
+      "newPattern": "\\bstretched thin\\b|\\bspread(?:s|ing)?\\s+(?:itself|themselves|ourselves|myself|yourself|himself|herself)\\s+too\\s+thin\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "Spreading a country’s capacity across too many commitments is the same limited-resources outcome as owner 1306 stretched thin. Added a reflexive spread-too-thin construction; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-1287",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 120,
+        "book": 13,
+        "question": 4,
+        "sample": "S1",
+        "sourceBookPages": "9–10",
+        "locatorNote": "DOCX table 125, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A small country risks spreading itself too thin.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "spreading itself too thin"
+      },
+      "changedTakeaway2": {
+        "en": "The small clinic spreads itself too thin if it promises every district a separate evening service.",
+        "zh": "若小診所答應每區都提供獨立夜診，便可能把有限資源分得太散。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Parents can feel stretched thin.",
+          "A team risks spreading itself too thin."
+        ],
+        "negative": [
+          "A team spreads its work evenly.",
+          "A thin rope broke."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3605,
+      "sourceId": "book10-16-1494",
+      "sourceSentence": "Teaching is the bridge between knowledge and people.",
+      "sourceExpression": "the bridge between knowledge and people",
+      "ownerId": "advanced-native-164",
+      "ownerTitle": "a bridge between",
+      "ownerMeaning": "Something that connects groups, needs or perspectives.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "oldPattern": "\\ba bridge between\\b",
+      "newPattern": "\\b(?:a|the) bridge between\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "Teaching links knowledge and people, the same connection outcome as owner 164 a bridge between. Added the definite-article form without broadening the bridge object; independent review pending.",
+      "contentRevision": 2,
+      "provenance": {
+        "occurrenceId": "book10-16-1494",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 140,
+        "book": 14,
+        "question": 5,
+        "sample": "S1",
+        "sourceBookPages": "12–15",
+        "locatorNote": "DOCX table 149, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Teaching is the bridge between knowledge and people.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the bridge between knowledge and people"
+      },
+      "changedTakeaway2": {
+        "en": "The translation team can be the bridge between residents and the council when a new policy is explained.",
+        "zh": "解說新政策時，翻譯團隊可成為居民與議會之間的橋樑。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "The website is a bridge between residents and staff.",
+          "Teaching is the bridge between knowledge and people."
+        ],
+        "negative": [
+          "The bridge crosses a river.",
+          "The bridge is between the two hills."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3872,
+      "sourceId": "book10-16-1761",
+      "sourceSentence": "The policy states that some lines simply cannot be crossed.",
+      "sourceExpression": "some lines simply cannot be crossed",
+      "ownerId": "advanced-native-3529",
+      "ownerTitle": "cross the line",
+      "ownerMeaning": "Go beyond an accepted ethical or social boundary in conduct.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-3521-3547-review-pilot.json",
+      "oldPattern": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b",
+      "newPattern": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b|\\b(?:some|certain)\\s+lines\\s+(?:simply\\s+)?cannot\\s+be\\s+crossed\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "The policy names unacceptable lines of conduct, the same ethical-boundary sense as owner 3529. Added a narrow passive-plural prohibition, not generic literal line crossing; independent review pending.",
+      "contentRevision": 5,
+      "provenance": {
+        "occurrenceId": "book10-16-1761",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 166,
+        "book": 14,
+        "question": 34,
+        "sample": "S1",
+        "sourceBookPages": "75–76",
+        "locatorNote": "DOCX table 178, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The policy states that some lines simply cannot be crossed.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "some lines simply cannot be crossed"
+      },
+      "changedTakeaway2": {
+        "en": "A school may debate many rules, but some lines cannot be crossed when pupils’ private records are involved.",
+        "zh": "學校可討論不少規則，但涉及學生私人紀錄時，有些界線不能越過。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Filming strangers crosses the line.",
+          "Some lines simply cannot be crossed."
+        ],
+        "negative": [
+          "Some lines cannot be erased.",
+          "The rules may be crossed out."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "sourceOrdinal": 3999,
+      "sourceId": "book10-16-1888",
+      "sourceSentence": "Short walks can fit into a busy life.",
+      "sourceExpression": "fit into a busy life",
+      "ownerId": "advanced-native-2202",
+      "ownerTitle": "fit into everyday life",
+      "ownerMeaning": "Work naturally within an ordinary routine without being impractical.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json",
+      "oldPattern": "\\b(?:fit|fits|fitted|fitting) into everyday life\\b",
+      "newPattern": "\\b(?:fit|fits|fitted|fitting) into (?:everyday life|a busy life)\\b",
+      "oldPatternFullSourceMatch": false,
+      "newPatternFullSourceMatch": true,
+      "sameSenseRationale": "Short walks being workable in a busy routine is the same practical-compatibility decision as owner 2202 fit into everyday life. Added only a busy life as a routine object; independent review pending.",
+      "contentRevision": 4,
+      "provenance": {
+        "occurrenceId": "book10-16-1888",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 178,
+        "book": 15,
+        "question": 15,
+        "sample": "S1",
+        "sourceBookPages": "34–36",
+        "locatorNote": "DOCX table 193, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Short walks can fit into a busy life.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "fit into a busy life"
+      },
+      "changedTakeaway2": {
+        "en": "A short stretching routine can fit into a busy life if it takes no time away from the commute.",
+        "zh": "若短時間的伸展運動不影響通勤，便可能融入忙碌生活。"
+      },
+      "assessedKeysChanged": false,
+      "nativeJavaScriptRegressionControls": {
+        "positive": [
+          "Exercise must fit into everyday life.",
+          "Short walks can fit into a busy life."
+        ],
+        "negative": [
+          "The shelf fits into a busy room.",
+          "This plan conflicts with everyday life."
+        ],
+        "result": "pass"
+      }
+    }
+  ],
+  "counts": {
+    "aliasesProposed": 10,
+    "existingOwnerAliases": 6,
+    "selectedNewOwnerAliases": 4,
+    "scoredAnswerKeysChanged": 0,
+    "newTakeawayAudioTexts": 10
+  },
+  "openGates": [
+    "Focused builder and schema checks",
+    "Independent exact-hash AI editorial review",
+    "Regenerate and verify ten changed takeaway audio clips",
+    "Human owner sense and final release approval"
+  ],
+  "independentHumanApproval": false,
+  "releaseApproved": false,
+  "verification": {
+    "focusedBuild": "PASS: 147 lessons, 882 questions, 588 audio requests, zero review flags across the ten changed owner batch files",
+    "focusedCheck": "PASS: generated outputs exactly reproduce focused build",
+    "nativeJavaScriptTargetControls": "PASS: 21 positive and 20 negative cases across ten owners",
+    "allCanonicalOccurrenceSentences": "PASS: all occurrence sentences on changed owners match current target pattern",
+    "otherCurrentHeldSentenceHits": "0 other held rows matched any of the ten new owner patterns at this frozen snapshot",
+    "assessedFieldPreservation": "Compared every affected owner with HEAD: listening, reply, scene, contrast, dialogue, speaking and writing are byte-equivalent JSON values; only target, grammar, source provenance, second takeaway and contentRevision changed",
+    "fullCatalogueVerifier": {
+      "pilotDrafts": 583,
+      "pilotQuestions": 3498,
+      "pilotAudioRequests": 2332,
+      "provisionalEditorialTriage": {
+        "proposed-new-lesson": 583,
+        "proposed-alias-existing": 1127,
+        "proposed-alias-new": 174,
+        "hold-editorial": 720
+      },
+      "selectedExistingAliasPatternExceptions": 0,
+      "wholeCatalogueSchemaErrors": 0,
+      "published": false,
+      "releaseApproved": false
+    },
+    "fullCatalogueVerifierStatus": "PASS at frozen ten-owner checkpoint; source/decision integrity, selected schema and alias detector audit completed without exception."
+  }
+}

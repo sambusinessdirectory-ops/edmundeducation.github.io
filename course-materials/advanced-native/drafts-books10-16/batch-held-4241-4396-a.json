@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-distinct-4241-4396-a",
+  "lessons": [
+    {
+      "id": "advanced-native-4241",
+      "number": 4241,
+      "inventoryId": "expr-4241",
+      "titleEn": "hold the room together",
+      "titleZh": "維持全場秩序與共同焦點",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:hold|holds|held|holding)\\s+(?:the|a|this|that)\\s+room\\s+together\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Keep a group in one room engaged with a shared activity when competing voices or distractions might pull it apart.",
+        "meaningZh": "當不同聲音或干擾可能使全場失去焦點時，維持一群人共同參與的秩序與方向。",
+        "grammar": "Hold the room together; held the room together in the past. The room stands for the people in it, and together refers to their shared focus, not the walls.",
+        "register": "Natural informal-to-neutral language. A workshop facilitator may say it to a co-organiser after a difficult discussion; a teacher trainer may use it with trainee teachers.",
+        "boundaryZh": "要有同一場合的參與者、可能失散的共同焦點，以及主持者維持參與的具體做法；不是修補房間，也不等於壓制所有異議。",
+        "misconceptionZh": "維持全場一致參與不代表人人必須同意；教師可以容許辯論，同時守住輪流發言與共同議題。",
+        "outcomeZh": "能指出場內焦點如何受到挑戰、主持者採取的做法，以及討論如何仍能繼續。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2130",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 201,
+          "book": 16,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An experienced teacher can hold the room together during debate.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hold the room together"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "主持人如何讓社區規劃會議仍有共同焦點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She gave both sides time and brought the discussion back to the route map.",
+            "zh": "她讓雙方都有發言時間，並把討論帶回路線圖。"
+          },
+          {
+            "id": "b",
+            "en": "She removed the map and ended the meeting before either side spoke.",
+            "zh": "她收起路線圖，在任何一方發言前結束會議。"
+          },
+          {
+            "id": "c",
+            "en": "She decided the route herself without allowing either group to speak.",
+            "zh": "她不讓兩組人發言，獨自決定路線。"
+          },
+          {
+            "id": "d",
+            "en": "She asked one group to speak for the rest of the meeting.",
+            "zh": "她要求其中一組包辦會議餘下的發言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說她給雙方相同發言時間，再把焦點帶回路線圖；沒有取消討論或壓制其中一方。",
+        "en": "At the neighbourhood planning meeting, two groups began speaking over one another. Mei held the room together by giving each side two minutes and returning everyone to the map of the proposed route.",
+        "zh": "在社區規劃會議上，兩組人開始互相搶話。Mei 讓雙方各有兩分鐘發言，再請大家回到擬議路線圖，令全場保持共同焦點。"
+      },
+      "reply": {
+        "promptEn": "During a museum volunteer briefing, several people start discussing different exhibits at once. The coordinator needs everyone to understand the same safety route. What could she do?",
+        "promptZh": "在博物館義工簡介會上，幾個人同時談論不同展品。統籌需要大家明白同一條安全路線。她可以怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She could pause the separate conversations and point everyone to the route diagram.",
+            "zh": "她可以暫停各自的談話，請大家看路線圖。"
+          },
+          {
+            "id": "b",
+            "en": "She could invite one question at a time about the route before continuing.",
+            "zh": "她可以逐一回答與路線有關的問題，再繼續講解。"
+          },
+          {
+            "id": "c",
+            "en": "She could hold the room together by checking the route with the whole group before returning to individual exhibits.",
+            "zh": "她可以先和全組核對安全路線，維持共同焦點，再回到個別展品。"
+          },
+          {
+            "id": "d",
+            "en": "She could summarise the route aloud and ask volunteers to repeat its first turn.",
+            "zh": "她可以口頭概述路線，再請義工重述第一個轉彎位置。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應共同安全路線的需要；金句用 hold the room together 表示在分散的談話中維持全組焦點。"
+      },
+      "scene": {
+        "promptZh": "公開讀書會上，三位讀者對結局意見不同，並開始互相打斷。主持人請大家輪流發言，每次回到同一段文字。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The host held the room together while allowing disagreement about the ending.",
+            "zh": "主持人容許大家對結局有不同意見，同時維持全場討論的共同焦點。"
+          },
+          {
+            "id": "b",
+            "en": "The host collected separate written comments and ended the live discussion.",
+            "zh": "主持人收集各人的書面意見，結束即場討論。"
+          },
+          {
+            "id": "c",
+            "en": "The host let each reader move to an unrelated favourite book.",
+            "zh": "主持人讓每位讀者改談自己喜歡但與本次討論無關的書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "輪流發言及回到同一段文字，讓有分歧的讀者仍能一起討論；另兩項都沒有維持同一場即時討論的焦點。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 hold the room together 描述主持者的作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trainer redirects scattered questions to one shared demonstration.",
+            "zh": "導師把四散的提問帶回同一個示範。"
+          },
+          {
+            "id": "b",
+            "en": "A facilitator cancels a debate before the participants enter the room.",
+            "zh": "主持人在參與者入場前取消辯論。"
+          },
+          {
+            "id": "c",
+            "en": "A chair gives opposing speakers equal turns and keeps the discussion on one proposal.",
+            "zh": "主席讓意見相反的人輪流發言，並守住同一項提案。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "辯論在參與者入場前已取消，沒有需要維持焦點的在場群體；另兩項均在協調已開始的共同活動。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「家長會的問題開始轉向互不相關的話題，但我們仍須談完新的接送安排。」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can hold the room together by grouping questions around the pickup plan and taking other issues afterward.",
+            "zh": "我們可以先把問題集中到接送安排，維持全場共同焦點，其他議題稍後再談。"
+          },
+          {
+            "id": "b",
+            "en": "We can declare that everyone agrees with the pickup plan and end questions now.",
+            "zh": "我們可以宣稱所有人都同意接送安排，立即停止提問。"
+          },
+          {
+            "id": "c",
+            "en": "We can answer only the loudest parent and assume the rest understand.",
+            "zh": "我們可以只回答聲音最大的家長，假設其他人都明白。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句讓共同議題先完成，同時承諾稍後處理其他問題；並不假定人人同意。"
+      },
+      "speaking": {
+        "en": "When the workshop questions scattered, the facilitator held the room together by returning each speaker to the shared design sketch.",
+        "zh": "工作坊的提問開始分散時，主持人請每位發言者回到共同設計草圖，維持全場焦點。",
+        "promptZh": "先聽示範，再說明主持人如何令工作坊仍圍繞同一項設計。",
+        "targetSpan": {
+          "start": 55,
+          "end": 77
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：青年議會討論公園照明時，有人談安全，有人談費用，兩方開始搶話。用一至兩句英文說明主席如何在容許分歧的同時維持共同討論。",
+        "selfCheckZh": "須寫出安全與費用兩種關注、具體輪流或整理發言做法，以及仍討論同一個公園照明方案；不可說雙方已同意。",
+        "examples": [
+          {
+            "en": "The chair held the room together by giving the safety and cost speakers equal turns, then asking both groups to comment on the same park-lighting proposal.",
+            "zh": "主席讓關心安全與費用的人輪流發言，再請兩組人評論同一個公園照明方案，維持全場共同焦點。"
+          },
+          {
+            "en": "Although one side worried about safety and the other about cost, the chair held the room together with timed turns and a shared list of questions about the lighting plan.",
+            "zh": "雖然一方擔心安全，另一方擔心費用，主席仍以限時輪流發言及照明方案的共同問題清單，維持全場焦點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "equal turns",
+            "zh": "同等的發言機會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 83
+            }
+          },
+          {
+            "en": "the same park-lighting proposal",
+            "zh": "同一個公園照明方案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 154
+            }
+          },
+          {
+            "en": "worried about safety",
+            "zh": "擔心安全",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 38
+            }
+          },
+          {
+            "en": "timed turns",
+            "zh": "限時輪流發言",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 114
+            }
+          },
+          {
+            "en": "a shared list of questions",
+            "zh": "共同問題清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A good moderator can hold the room together without demanding agreement.",
+          "zh": "好的主持人可以在不強求共識的情況下維持全場共同焦點。"
+        },
+        {
+          "en": "She held the room together by returning each contribution to the question everyone had come to discuss.",
+          "zh": "她把每段發言帶回大家原本要討論的問題，維持全場焦點。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4396",
+      "number": 4396,
+      "inventoryId": "expr-4396",
+      "titleEn": "make a racket",
+      "titleZh": "製造擾人的嘈吵聲",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making)\\s+(?:a\\s+racket|a\\s+(?:(?:very|rather)\\s+)?(?:terrible|awful|real|loud|constant|unbearable|huge)\\s+racket|an\\s+unnecessary\\s+racket|such\\s+a\\s+racket)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Produce a conspicuously loud, usually unwelcome noise; a racket is an informal word for disturbing noise.",
+        "meaningZh": "發出明顯而通常令人困擾的嘈吵聲；racket 是非正式用語，指擾人的噪音。",
+        "grammar": "Make a racket; made a racket in the past. Modifiers such as unnecessary or terrible may appear before racket. This is noise, not a tennis racket or a criminal scheme.",
+        "register": "Informal conversation. A resident may say it to a neighbour about late-night drilling; a hall caretaker may say it to an event organiser about stacked chairs.",
+        "boundaryZh": "須有可聽到的嘈吵聲及受影響的場合；單純聲音大但不打擾任何人，不一定值得用這個帶有抱怨語氣的說法。",
+        "misconceptionZh": "racket 在這裏是擾人的聲響，不是球拍；unnecessary 不是固定必需部分，說話者須有理由認為聲音不必要。",
+        "outcomeZh": "能指出噪音來源、受影響的人與時段，以及可採取的降噪做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2285",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 216,
+          "book": 16,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "52–56",
+          "locatorNote": "DOCX table 237, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Modified cars can make an unnecessary racket.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make an unnecessary racket"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "閱覽室旁的搬運工作造成甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The metal shelves disturbed pupils, so the work was moved to after closing.",
+            "zh": "金屬架的嘈吵聲打擾學生，因此搬運工作改到閉館後。"
+          },
+          {
+            "id": "b",
+            "en": "The shelves were silent, but the manager moved them for a different reason.",
+            "zh": "金屬架沒有聲音，經理卻因其他原因改期。"
+          },
+          {
+            "id": "c",
+            "en": "The pupils had already left before the shelves were moved.",
+            "zh": "搬動金屬架前，學生已經離開。"
+          },
+          {
+            "id": "d",
+            "en": "The team stopped delivering shelves permanently.",
+            "zh": "隊伍永久停止運送金屬架。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說金屬架在學生學習時造成噪音，經理才把搬運改到閉館後。",
+        "en": "The delivery team moved metal shelves beside the reading room while pupils were studying. The shelves made an unnecessary racket, so the manager moved the work to after closing time.",
+        "zh": "送貨隊伍在學生學習時，於閱覽室旁搬動金屬架。金屬架發出不必要的嘈吵聲，經理因此把工作改到閉館後進行。"
+      },
+      "reply": {
+        "promptEn": "A neighbour is stacking glass bottles outside your window at midnight, and the clatter wakes your family. How could you raise the problem politely?",
+        "promptZh": "鄰居午夜在你窗外堆疊玻璃瓶，碰撞聲吵醒家人。你可以怎樣禮貌地提出問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I could ask whether the bottles can be moved earlier in the evening.",
+            "zh": "我可以問能否在晚上較早時搬動玻璃瓶。"
+          },
+          {
+            "id": "b",
+            "en": "I could explain that the clatter wakes us and suggest a quieter time.",
+            "zh": "我可以說明碰撞聲會吵醒我們，並建議較安靜的時段。"
+          },
+          {
+            "id": "c",
+            "en": "I could say the bottles make a racket at midnight and ask whether they can be stacked elsewhere.",
+            "zh": "我可以說玻璃瓶在午夜造成嘈吵聲，並問能否在別處堆放。"
+          },
+          {
+            "id": "d",
+            "en": "I could offer to help move the bottles before bedtime so the late clatter stops.",
+            "zh": "我可以提議睡前幫忙搬瓶子，避免深夜再有碰撞聲。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都有禮貌地指出深夜噪音並提出可行調整；金句用 make a racket 指玻璃瓶的擾人聲響。"
+      },
+      "scene": {
+        "promptZh": "旅館走廊凌晨一時有人拖動金屬桌子，隔壁房客被聲音吵醒。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The metal tables made a racket in the corridor and woke the guests next door.",
+            "zh": "金屬桌子在走廊發出嘈吵聲，吵醒隔壁房客。"
+          },
+          {
+            "id": "b",
+            "en": "The tables made only a faint sound that did not reach the nearby rooms.",
+            "zh": "桌子只發出微弱聲響，沒有傳到附近房間。"
+          },
+          {
+            "id": "c",
+            "en": "The guests complained about the music in their own rooms rather than the tables.",
+            "zh": "房客投訴的是自己房間的音樂，而不是桌子的聲響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有聲源、凌晨時段和被吵醒的房客，符合帶有抱怨意味的噪音用法；另兩句改寫了已知的聲量或來源。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合抱怨有人 made a racket？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A café uses a blender beside a quiet study area throughout an exam.",
+            "zh": "咖啡店在安靜溫習區旁，整場考試期間使用攪拌機。"
+          },
+          {
+            "id": "b",
+            "en": "A violinist practises at the agreed hour in a soundproof room, and no one nearby hears it.",
+            "zh": "小提琴手在約定時間於隔音室練習，附近沒有人聽到。"
+          },
+          {
+            "id": "c",
+            "en": "A cleaner drops metal bins outside bedrooms at five in the morning.",
+            "zh": "清潔員清晨五時在睡房外放下金屬垃圾桶。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "約定時段、隔音室及無人聽到，都欠缺擾人的聲音；另兩項都有被噪音打擾的場合。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「劇院旁的裝修隊在午間演出時敲打管道，觀眾連對白都聽不清。」乙怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are making a racket; ask the site manager to pause the hammering during the performance.",
+            "zh": "他們製造了擾人的嘈吵聲；請工地主管在演出期間暫停敲打。"
+          },
+          {
+            "id": "b",
+            "en": "Ask the actors to project more strongly while the hammering continues.",
+            "zh": "請演員加大聲量，裝修隊則繼續敲打。"
+          },
+          {
+            "id": "c",
+            "en": "Post a notice about possible noise but keep the hammering schedule unchanged.",
+            "zh": "張貼可能有噪音的告示，但不改動敲打時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "敲打聲令觀眾聽不清對白，金句指出擾人的噪音並提出有限度的協調方法；另兩項都未處理聲源。"
+      },
+      "speaking": {
+        "en": "The loose trolley wheels made a racket outside the clinic, so the staff moved the supplies by hand until the wheels were repaired.",
+        "zh": "診所外的手推車輪子鬆動，發出擾人的嘈吵聲；職員便先用人手搬運物資，等車輪修好。",
+        "promptZh": "先聽示範，再說明職員在修好車輪前如何減少噪音。",
+        "targetSpan": {
+          "start": 25,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區檔案室正在錄製口述歷史訪問，園藝隊卻準備在窗外使用吹葉機。用一至兩句英文說明噪音會怎樣影響錄音，以及可怎樣調整工作時間或訪問地點。",
+        "selfCheckZh": "須指出吹葉機會干擾尚未完成的口述歷史錄音，並提出改動吹葉時間或訪問地點；不可說錄音已經完成。",
+        "examples": [
+          {
+            "en": "The leaf blower would make a racket outside the archive window and spoil the oral-history recording, so the gardeners should start after the interview.",
+            "zh": "吹葉機在檔案室窗外會造成嘈吵聲，干擾口述歷史錄音，因此園藝隊應在訪問後才開始工作。"
+          },
+          {
+            "en": "If the gardeners make a racket with the leaf blower during the interview, the team could move the recording to an inner room until the outdoor work ends.",
+            "zh": "若園藝隊在訪問期間用吹葉機製造擾人聲響，團隊可把錄音改到內側房間，待室外工作結束。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the archive window",
+            "zh": "檔案室窗戶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 62
+            }
+          },
+          {
+            "en": "the oral-history recording",
+            "zh": "口述歷史錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 99
+            }
+          },
+          {
+            "en": "after the interview",
+            "zh": "訪問後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 150
+            }
+          },
+          {
+            "en": "an inner room",
+            "zh": "內側房間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 124
+            }
+          },
+          {
+            "en": "the outdoor work",
+            "zh": "室外工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The bins made a racket before dawn, so the collection time was changed.",
+          "zh": "垃圾桶在天亮前發出嘈吵聲，因此收集時間改了。"
+        },
+        {
+          "en": "Before saying the volunteers made a racket, explain who heard the noise and when.",
+          "zh": "說義工製造擾人的嘈吵聲之前，先說明誰在甚麼時候聽到噪音。"
+        }
+      ]
+    }
+  ]
+}

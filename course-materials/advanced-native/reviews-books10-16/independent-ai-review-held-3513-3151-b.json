@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-focused-held-lesson-review",
+  "status": "targeted-repairs-required",
+  "inputs": [
+    {
+      "lesson": 3513,
+      "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3513-a.json",
+      "draftSha256": "1f8a31b031443e342fe8cf3c8f29456718b6ad6bf1dae3f4fe8d2bc8211187b7",
+      "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3513-a.json",
+      "authorAuditSha256": "7de3b97f00a81afbc975541e41deaa127073b226df6bcd45032ff5df1d382f09"
+    },
+    {
+      "lesson": 3151,
+      "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3151-a.json",
+      "draftSha256": "b3a9bb1ded4deff652da5f7c7f3e8e0555b794021545b9caf2c3fc1d8c2bab8e",
+      "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-3151-a.json",
+      "authorAuditSha256": "a5d9ddf1b4f63425c1b6a70b4ca51ec469b0d67151d6a2d523274d9a90839a64"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "independentCoverage": "Both draft and author-audit hashes match. Checked exact source sentence/expression against inventory, source sense and owner distinctness, seven-step content, keyed choices, all four reply choices, Traditional Chinese alignment, changed-context writing, exact target spans and all ten non-target glossary spans. Both sources and target-bearing assessed/writing/takeaway strings match live patterns. Source-copy and focused build/check pass are author-reported; this review did not repeat the whole-catalogue verifier.",
+  "findings": [
+    {
+      "id": "R3513-01",
+      "severity": "blocking",
+      "lesson": 3513,
+      "path": "lessons[0].reply.options[1]",
+      "evidence": "The prompt's problem is a single uninterrupted twelve-procedure induction in which learners lose track. Option b merely sends one short card per procedure before that same session, leaving the uninterrupted session unchanged. It is weaker than a pragmatically valid redesign of the stated problem, despite the four-valid-reply requirement.",
+      "repair": "Make the short cards replace or break up the uninterrupted session, with brief paced practice or checks. Preserve a distinct valid strategy from the other three options."
+    },
+    {
+      "id": "R3151-01",
+      "severity": "blocking",
+      "lesson": 3151,
+      "path": "lessons[0].reply.options[0]",
+      "evidence": "Option a proposes keeping only fields both kitchen teams need. Fields required by only one of the teams would then be discarded, so this is not reliably a valid fix for duplicate order lists.",
+      "repair": "Use one shared list that retains each team's required fields while removing duplicate entry, or a compatible mapping that preserves team-specific data."
+    }
+  ],
+  "otherContent": {
+    "3513": "The draft correctly separates bite-sized length/segment size from easy-to-digest comprehension, consistent with the source's paired expressions and Oxford's figurative short/small definition. Listening, scene, contrast, dialogue, speaking, both writing models and their Chinese are coherent; all five glossary spans exact.",
+    "3151": "The draft teaches continuing-but-hindered process friction, distinct from total stoppage; source red tape sense and novel scenarios align. Listening, scene, contrast, dialogue, speaking, both writing models and Chinese are coherent; all five glossary spans exact."
+  },
+  "reference": "https://www.oxfordlearnersdictionaries.com/us/definition/english/bite-sized",
+  "selection": "unselected; content not yet cleared",
+  "releaseApproved": false
+}

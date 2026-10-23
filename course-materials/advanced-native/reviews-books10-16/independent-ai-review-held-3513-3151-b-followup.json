@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent-scoped-followup",
+  "priorReport": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3513-3151-b.json",
+    "sha256": "82f2511602d1f5231d09e537db2eb5d807749774b2fee9967aa3a20730fe7190"
+  },
+  "inputs": [
+    {
+      "lesson": 3513,
+      "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3513-a.json",
+      "draftSha256": "111f1384102eb4f87b9176832328632a32b4a3dcd504eecc2fddcb19246c0d39",
+      "authorAuditSha256": "a3530e934df0aba69dc0b8616a81f7f2ed764464237918f239a19f3026597533",
+      "contentRevision": 2,
+      "finding": "R3513-01",
+      "status": "cleared",
+      "evidence": "Reply b now uses one short card per procedure and pauses after every card during the session. It directly breaks the formerly uninterrupted induction into manageable steps; the Traditional Chinese says the same. Other reply strategies remain pragmatically valid and c remains the one target-bearing golden reply."
+    },
+    {
+      "lesson": 3151,
+      "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3151-a.json",
+      "draftSha256": "0c2b57d6ccefeea44486598d34859fc4c7f6968787c510b0433b56c3fd7056de",
+      "authorAuditSha256": "014f751631544329ab8ff02f4cf03d55b00f5ece388003169e79a1f965aa290c",
+      "contentRevision": 2,
+      "finding": "R3151-01",
+      "status": "cleared",
+      "evidence": "Reply a now creates one shared form while retaining the fields each team requires. The Chinese explicitly preserves each team's needed fields. It resolves duplicate entry without dropping team-specific data; c remains the one target-bearing golden reply."
+    }
+  ],
+  "scope": "Verified exact current draft and author-audit hashes, the two changed options, their prompt grounding, English/Traditional Chinese parity, the four-valid-reply requirement and golden-target uniqueness. The unchanged source, other six decisions, writing and glossary were cleared in the prior report; author reports focused build/--check 1/6/4/0 for each lesson. No whole-catalogue rerun or media-listening claim.",
+  "blockingFindings": [],
+  "contentStatus": "Both lessons AI content-clear for provisional unpublished selection; source decisions and manifest remain unchanged by this reviewer.",
+  "releaseApproved": false
+}

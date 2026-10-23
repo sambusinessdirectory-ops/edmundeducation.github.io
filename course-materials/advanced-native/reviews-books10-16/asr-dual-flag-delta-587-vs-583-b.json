@@ -1,0 +1,30 @@
+{
+  "reviewType": "read-only-exact-synthesis-key-dual-asr-delta",
+  "previous": {
+    "path": "../audio-production/combined-20261024-583/asr-small-flags-2426.json",
+    "sha256": "5a5e165f7e26a530b62257c336b3c060f5c9ec7516d0dcc0353f16aa7e0500c5",
+    "checkedBaseFlags": 85,
+    "dualFlags": 28
+  },
+  "current": {
+    "path": "../audio-production/combined-20261024-587/asr-small-flags-2447.json",
+    "sha256": "f600cc36186ab3443a2fb813655a24a4c7b70f6ddae3864de68d117dbd4d2c37",
+    "checkedBaseFlags": 86,
+    "dualFlags": 28
+  },
+  "comparison": {
+    "sameFlaggedSynthesisKeys": 28,
+    "newFlaggedKeys": 0,
+    "removedFlaggedKeys": 0,
+    "changedExpectedText": 0,
+    "changedSecondModelTranscript": 0,
+    "changedModuleOrRole": 0
+  },
+  "priorAdjudication": {
+    "path": "course-materials/advanced-native/reviews-books10-16/asr-dual-flag-delta-583-vs-579-b.json",
+    "sha256": "302bafe367d801974dfbeb1a6d5e297185343d580789224500ac4cb0dd14a585",
+    "likelyOrthographicOrHomophone": 19,
+    "targetedListeningStillNeeded": 9
+  },
+  "limits": "This compares text and ASR flag identities only. It does not constitute actual listening, pronunciation or accent approval, and it does not certify hosted playback."
+}

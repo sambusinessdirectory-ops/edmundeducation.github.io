@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-source-distinct-3151-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3151",
+      "number": 3151,
+      "inventoryId": "expr-3151",
+      "titleEn": "sand in the gears",
+      "titleZh": "令運作受阻的阻力",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bsand\\s+in\\s+the\\s+gears\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A problem that makes a process run less smoothly or more slowly, even if the process has not stopped completely.",
+        "meaningZh": "令一個仍在進行的過程變得不順暢或緩慢的阻力，並不一定表示整個過程已完全停頓。",
+        "grammar": "Sand in the gears is a noun phrase, often after is/was or like, and may be followed by of plus a process or organisation. Do not treat the surrounding of society in the source as fixed.",
+        "register": "Informal-to-neutral figurative explanation. A service manager may say it to colleagues about repeated handoffs; a project coordinator may use it with partners analysing delays.",
+        "boundaryZh": "要指出原本可以運作的流程，以及實際造成摩擦或延誤的因素；單純價格稍高但不妨礙運作，或整個系統已徹底停頓，都不是此課的典型情況。",
+        "misconceptionZh": "此片語把問題比作進入機械齒輪的砂粒；不是字面修理機器，也不表示「阻力」一定導致完全停擺。",
+        "outcomeZh": "能說出哪個流程受影響、哪個具體問題造成延誤，以及如何減少阻力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1040",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 97,
+          "book": 12,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 100, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Red tape can feel like sand in the gears of society.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sand in the gears of society"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptZh": "社區中心的網上預約為何變慢，但仍可繼續？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff must make an extra call for each booking, slowing confirmation.",
+            "zh": "職員須為每項預約額外打電話，因此確認速度變慢。"
+          },
+          {
+            "id": "b",
+            "en": "The booking site is closed, so no applications can be submitted.",
+            "zh": "預約網站已關閉，因此不能遞交申請。"
+          },
+          {
+            "id": "c",
+            "en": "The missing code affects only posters, not the booking process.",
+            "zh": "缺少的編號只影響海報，不影響預約流程。"
+          },
+          {
+            "id": "d",
+            "en": "Staff completed all calls before the online system opened.",
+            "zh": "網上系統啟用前，職員已完成所有電話聯絡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音說系統仍接受預約，但逐一打電話的額外步驟拖慢確認；沒有說網站完全關閉。",
+        "en": "The community centre still accepts online bookings, but a missing approval code means staff must phone each applicant before confirming a place. That extra step is sand in the gears of an otherwise working system.",
+        "zh": "社區中心仍接受網上預約，但因缺少核准編號，職員確認每個名額前都須打電話給申請者。這額外步驟令原本可運作的系統變得不順暢。"
+      },
+      "reply": {
+        "promptEn": "Our community kitchen can still prepare lunch, but volunteers copy every order into two separate lists. The duplication delays packing. What should we tell the team?",
+        "promptZh": "我們的社區廚房仍能準備午餐，但義工要把每張訂單抄進兩份名單，重複工序拖慢包裝。我們應怎樣向團隊說明？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can compare the two lists and create one shared form with the fields each team requires.",
+            "zh": "我們可以比較兩份名單，製作一張共用表格，保留每組人各自需要的欄目。"
+          },
+          {
+            "id": "b",
+            "en": "We can use one shared list so volunteers do not enter each order twice.",
+            "zh": "我們可以共用一份名單，免得義工重複輸入每張訂單。"
+          },
+          {
+            "id": "c",
+            "en": "The duplicate entries are sand in the gears; let us agree on one order list before tomorrow.",
+            "zh": "重複輸入令流程受阻；我們在明天前商定一份訂單名單吧。"
+          },
+          {
+            "id": "d",
+            "en": "We can test a single list during one lunch shift before changing the whole routine.",
+            "zh": "全面改動前，我們可以在一次午餐輪值試用單一名單。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都處理仍在運作、但因重複記錄而變慢的廚房流程；金句用 sand in the gears 指明阻力。"
+      },
+      "scene": {
+        "promptZh": "小型影展仍能讓觀眾入場，但每張票都要由兩位職員重複核對同一資料，入口排隊愈來愈長。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The duplicate check is sand in the gears of the entry process.",
+            "zh": "重複核對是入場流程中的阻力。"
+          },
+          {
+            "id": "b",
+            "en": "The queue exists because the film has been cancelled.",
+            "zh": "排隊是因為電影已取消。"
+          },
+          {
+            "id": "c",
+            "en": "The checks were completed in advance, so they cannot affect entry.",
+            "zh": "核對工作早已完成，因此不會影響入場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "入場仍在進行，重複核對卻拖慢隊伍；另兩項改寫了已知的影展及核對情況。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 sand in the gears 描述一個流程的阻力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared database opens slowly, so staff wait between otherwise successful searches.",
+            "zh": "共用資料庫開啟緩慢，職員每次成功搜尋之間都要等待。"
+          },
+          {
+            "id": "b",
+            "en": "A team budgets for a slightly dearer printer, buys it on schedule, and continues work without delay.",
+            "zh": "團隊已為稍貴的打印機編好預算，按期購買，工作沒有延誤。"
+          },
+          {
+            "id": "c",
+            "en": "Two departments use incompatible forms, so requests require repeated re-entry.",
+            "zh": "兩個部門使用不相容表格，申請須重複輸入。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "價格稍高但已在預算內，工作亦沒有受阻；另兩項的等待或重複輸入直接妨礙流程。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「圖書館仍能處理還書，但條碼掃描器不時失靈，職員須逐本手動輸入。」乙怎樣描述目前情況最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unreliable scanner is sand in the gears of returns; repairs could remove the repeated manual step.",
+            "zh": "不穩定的掃描器令還書流程受阻；修好後可省去反覆手動輸入。"
+          },
+          {
+            "id": "b",
+            "en": "Returns have stopped completely, so no book can be recorded.",
+            "zh": "還書已完全停頓，任何書籍都無法記錄。"
+          },
+          {
+            "id": "c",
+            "en": "The scanner problem affects only new membership cards, not returned books.",
+            "zh": "掃描器問題只影響新會員證，與還書無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "甲明說還書仍能處理，但掃描失靈增加手動步驟；金句把這項具體阻力與完全停頓分開。"
+      },
+      "speaking": {
+        "en": "Incompatible file formats were sand in the gears of the river survey, because volunteers had to convert each report before combining the results.",
+        "zh": "不相容的檔案格式令河流調查受阻，因為義工在合併結果前須逐份轉換報告。",
+        "promptZh": "先聽示範，再指出河流調查受哪一項具體問題拖慢。",
+        "targetSpan": {
+          "start": 31,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區氣象站的義工仍能收集數據，但兩組人用不同的溫度單位，合併紀錄時須逐項換算。用一至兩句英文說出阻力、仍在進行的工作，以及一個減少延誤的方法。",
+        "selfCheckZh": "須指出收集仍在進行、不同溫度單位造成合併延誤，並提出統一單位或預先轉換；不可說整個調查已停止。",
+        "examples": [
+          {
+            "en": "The mismatch between temperature units is sand in the gears of the weather survey: collection continues, but merging records takes longer, so volunteers should agree on one unit.",
+            "zh": "兩組溫度單位不一致，令氣象調查受阻：收集仍在繼續，但合併紀錄需時更長，所以義工應商定一種單位。"
+          },
+          {
+            "en": "The station still gathers readings, yet incompatible units are sand in the gears when the teams combine results; a shared conversion sheet would reduce the delay.",
+            "zh": "氣象站仍在收集讀數，但兩組人在合併結果時因單位不相容而受阻；共用換算表可減少延誤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "temperature units",
+            "zh": "溫度單位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 38
+            }
+          },
+          {
+            "en": "merging records",
+            "zh": "合併紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 124
+            }
+          },
+          {
+            "en": "agree on one unit",
+            "zh": "商定一種單位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 177
+            }
+          },
+          {
+            "en": "gathers readings",
+            "zh": "收集讀數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 34
+            }
+          },
+          {
+            "en": "a shared conversion sheet",
+            "zh": "共用換算表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 138
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A missing handoff can be sand in the gears even while the service keeps running.",
+          "zh": "即使服務仍在運作，漏掉交接也可能令流程受阻。"
+        },
+        {
+          "en": "Find the sand in the gears before asking the whole team to work faster.",
+          "zh": "要求整隊人加快之前，先找出令流程受阻的具體因素。"
+        }
+      ]
+    }
+  ]
+}

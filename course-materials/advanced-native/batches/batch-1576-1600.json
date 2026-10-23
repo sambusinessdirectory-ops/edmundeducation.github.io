@@ -256,12 +256,12 @@
       "id": "advanced-native-1577",
       "number": 1577,
       "inventoryId": "expr-1577",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "speak the same emotional language",
       "titleZh": "容易理解彼此的感受",
       "category": "figurative",
       "target": {
-        "pattern": "\\bspeak\\s+the\\s+same\\s+emotional\\s+language\\b"
+        "pattern": "\\b(?:speak|speaks|spoke|spoken|speaking)\\s+the\\s+same\\s+emotional\\s+language\\b"
       },
       "sources": [
         {
@@ -277,12 +277,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "speak the same emotional language",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0989",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 92,
+          "book": 12,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 94, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Close friends often feel they are speaking the same emotional language.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "speaking the same emotional language"
         }
       ],
       "brief": {
         "meaningEn": "Understand and respond to one another’s feelings in a familiar, compatible way.",
         "meaningZh": "以熟悉、互相配合的方式理解及回應彼此感受。",
-        "grammar": "friends / partners speak the same emotional language; a metaphor for emotional understanding rather than spoken-language identity",
+        "grammar": "Friends, partners or relatives speak/spoke/are speaking the same emotional language when they readily understand each other’s feelings; this does not imply mind-reading or sharing a native language.",
         "register": "neutral",
         "boundaryZh": "不表示讀心或永遠不用解釋，也不要求說同一種母語；仍需確認對方當下需要。",
         "misconceptionZh": "不表示讀心或永遠不用解釋，也不要求說同一種母語；仍需確認對方當下需要。",
@@ -487,8 +501,8 @@
           "zh": "兩人即使母語不同，也可以容易理解彼此感受。"
         },
         {
-          "en": "We speak the same emotional language, yet we still tell each other when our needs change.",
-          "zh": "我們容易理解彼此感受，但需要改變時仍會告訴對方。"
+          "en": "The two neighbours were speaking the same emotional language when they recognised each other’s worry.",
+          "zh": "兩位鄰居看出彼此的憂慮時，很容易理解對方的感受。"
         }
       ],
       "review": {

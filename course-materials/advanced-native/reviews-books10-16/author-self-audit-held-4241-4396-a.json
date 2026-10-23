@@ -1,0 +1,139 @@
+{
+  "type": "author self-audit; provisional new held-source lesson cohort",
+  "recordedAtUtc": "2026-10-23T19:58:49.086062+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-4241-4396-a.json",
+  "draftSha256": "d99bc52ba4269051407d644921e893e2d8c8b411a9bda4fec28fb0d6df729f1c",
+  "includedOrdinals": [
+    4241,
+    4396
+  ],
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "pending",
+  "buildCheck": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "reviewFlags": 0
+  },
+  "sourceTargetAndProvenance": [
+    {
+      "ordinal": 4241,
+      "sourceSentenceMatched": true,
+      "assessedAndModelsMatched": true,
+      "provenanceExact": true
+    },
+    {
+      "ordinal": 4396,
+      "sourceSentenceMatched": true,
+      "assessedAndModelsMatched": true,
+      "provenanceExact": true
+    }
+  ],
+  "glossaryExactNonTargetSpans": 10,
+  "replyReview": [
+    {
+      "ordinal": 4241,
+      "fourIndependentRepliesSelfReviewed": true,
+      "goldenTargetBearing": true,
+      "note": "All four replies directly address the stated problem; only one is marked golden."
+    },
+    {
+      "ordinal": 4396,
+      "fourIndependentRepliesSelfReviewed": true,
+      "goldenTargetBearing": true,
+      "note": "All four replies directly address the stated problem; only one is marked golden."
+    }
+  ],
+  "translationReview": [
+    {
+      "ordinal": 4241,
+      "allRequiredChinesePresent": true,
+      "enZhParitySelfReviewed": true
+    },
+    {
+      "ordinal": 4396,
+      "allRequiredChinesePresent": true,
+      "enZhParitySelfReviewed": true
+    }
+  ],
+  "regexControls": {
+    "4396Positive": [
+      "make an unnecessary racket",
+      "made a racket",
+      "making a terrible racket",
+      "makes such a racket"
+    ],
+    "4396NegativeRejected": [
+      "make a unnecessary racket",
+      "made an terrible racket",
+      "making a very racket",
+      "make a tennis racket"
+    ],
+    "4241FamilyFalsePositiveRejected": true
+  },
+  "originality": {
+    "screenedLearnerEnglishStrings": 48,
+    "guideSourceExamples": 2604,
+    "highOrMediumContiguousHits": 0,
+    "nearFullOneOrTwoSubstitutionHits": 0
+  },
+  "senseEvidence": [
+    {
+      "sourceOrdinal": 4241,
+      "sourceId": "book10-16-2130",
+      "newOwnerMeaning": "Moderator maintains shared attention and orderly exchange within a live room despite divergent views.",
+      "nearOwners": "1327 family cohesion; 1569 self-composure; neither teaches live-group facilitation.",
+      "reasonDistinct": "The learner chooses an intervention that preserves discussion without forcing agreement."
+    },
+    {
+      "sourceOrdinal": 4396,
+      "sourceId": "book10-16-2285",
+      "newOwnerMeaning": "Informal racket is conspicuously disturbing noise, with a source, affected listener, and adjustable timing or location.",
+      "nearOwners": "No selected racket title; tennis-equipment sense excluded.",
+      "reasonDistinct": "The learner chooses when a complaint is warranted and how to reduce the disturbance."
+    }
+  ],
+  "excludedReservations": [
+    {
+      "ordinal": 4257,
+      "action": "keep-held",
+      "reason": "Broad attention-drift wording has no sufficiently bounded target beyond general focus change; mental disengagement already taught by canonical 1487."
+    },
+    {
+      "ordinal": 4379,
+      "action": "keep-held",
+      "reason": "Literal vehicle arrival phrasal verb; original hold rationale remains stronger than a seven-step advanced lesson."
+    },
+    {
+      "ordinal": 4539,
+      "action": "keep-held",
+      "reason": "Literal awkward payment handling; no distinct seven-decision unit over generic fumble with an object."
+    },
+    {
+      "ordinal": 4589,
+      "action": "keep-held",
+      "reason": "Transparent drawn-out adjective plus journey; existing broad duration vocabulary can carry the distinction."
+    },
+    {
+      "ordinal": 4702,
+      "action": "keep-held",
+      "reason": "Ordinary haven noun plus little modifier; no bounded multi-step target beyond general refuge vocabulary."
+    },
+    {
+      "ordinal": 4154,
+      "action": "owner-review-alias-instead-of-new",
+      "reason": "Mental switch off sense is covered by canonical 1487 switch off straight away; canonical 375 is the separate relaxation sense."
+    },
+    {
+      "ordinal": 4424,
+      "action": "owner-review-alias-instead-of-new",
+      "reason": "Reduce dispute tension overlaps canonical 727 take the heat out of; separate owner would teach same decision."
+    }
+  ],
+  "limitations": [
+    "AI author review only; independent content review remains pending.",
+    "No live site, physical device, human sign-off, or audio playback claimed."
+  ],
+  "revisionNote": "Replaced over-obvious scene and dialogue foils with plausible alternatives before independent review; English and Traditional Chinese aligned. Rebuilt, checked, and reran full-source originality screen."
+}

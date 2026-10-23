@@ -1,0 +1,58 @@
+{
+  "type": "author self-audit; provisional held-source lesson 3513",
+  "recordedAtUtc": "2026-10-23T20:06:09.502788+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3513-a.json",
+  "draftSha256": "111f1384102eb4f87b9176832328632a32b4a3dcd504eecc2fddcb19246c0d39",
+  "sourceOrdinal": 3513,
+  "sourceId": "book10-16-1402",
+  "sourceExpression": "bite-sized and easy to digest",
+  "sourceSentence": "The lessons are bite-sized and easy to digest.",
+  "normalizedTarget": "bite-sized (also bite-size)",
+  "ownerScreen": "No selected or canonical bite-sized title found; source full sentence does not match an existing selected target detector.",
+  "senseBoundary": "Short/manageable unit size; easy to digest is separate comprehension language and is not an automatic consequence of shortness.",
+  "primaryUsageEvidence": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/bite-sized",
+      "evidence": "Oxford lists informal short/small figurative use and bite-sized information/chunks; also bite-size variant."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bite-sized",
+      "evidence": "Pilot independently checked manageable short-unit figurative sense; direct fetch by author returned 403."
+    }
+  ],
+  "buildCheck": {
+    "lessons": 1,
+    "questions": 6,
+    "audioRequests": 4,
+    "reviewFlags": 0
+  },
+  "sourceAndAllTeachingTargetsMatchReviewedPattern": true,
+  "regexControls": {
+    "positive": [
+      "bite-sized",
+      "bite-size"
+    ],
+    "negativeRejected": [
+      "bite size"
+    ]
+  },
+  "fourIndependentlyValidRepliesSelfReviewed": true,
+  "fiveGlossarySpansExactAndNonTarget": true,
+  "traditionalChineseFieldsPresentAndParitySelfReviewed": true,
+  "writingModelsChangedContextAndPromptComplete": true,
+  "originalityScreen": {
+    "learnerEnglishStrings": 24,
+    "guideSourceExamples": 2604,
+    "highOrMediumContiguousHits": 0,
+    "nearFullOneOrTwoSubstitutionHits": 0
+  },
+  "selectedManifestEdited": false,
+  "editorialDecisionsEdited": false,
+  "independentReview": "pending",
+  "limitations": [
+    "AI author review only; independent content review pending.",
+    "No live, device, audio playback or human review claim."
+  ],
+  "contentRevision": 2,
+  "repairNote": "Independent reviewer four-valid-reply concern repaired in reply.options; English/Traditional Chinese aligned. Focused build/--check and full-guide originality screen rerun."
+}

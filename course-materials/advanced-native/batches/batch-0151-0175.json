@@ -3706,7 +3706,7 @@
     "titleZh": "連結雙方的橋樑",
     "category": "figurative",
     "target": {
-      "pattern": "\\ba bridge between\\b",
+      "pattern": "\\b(?:a|the) bridge between\\b",
       "glossaryForbidden": [
         "\\bbridge\\b"
       ]
@@ -3714,7 +3714,7 @@
     "brief": {
       "meaningEn": "Something that connects groups, needs or perspectives.",
       "meaningZh": "連結不同群體、需要或觀點的事物。",
-      "grammar": "be/provide/act as a bridge between A and B; identify both connected sides.",
+      "grammar": "Be, provide or act as a/the bridge between A and B; identify both sides and the actual connecting function. The can identify a particular link already clear in context; it does not make the bridge literal.",
       "register": "Neutral transparent metaphor.",
       "boundaryZh": "連結不保證雙方完全同意，也不表示差異消失；要有實際溝通或接觸作用。",
       "misconceptionZh": "不只指實體橋樑，也不能因同時提到兩方就說已連結。",
@@ -3785,6 +3785,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 171, table 1, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p171-t1-r07"
+      },
+      {
+        "occurrenceId": "book10-16-1494",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 140,
+        "book": 14,
+        "question": 5,
+        "sample": "S1",
+        "sourceBookPages": "12–15",
+        "locatorNote": "DOCX table 149, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Teaching is the bridge between knowledge and people.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the bridge between knowledge and people"
       }
     ],
     "listening": {
@@ -3986,8 +4000,8 @@
         "zh": "共同活動可以成為不同社群之間的橋樑。"
       },
       {
-        "en": "The platform provides a bridge between people who need help and those who can offer it.",
-        "zh": "平台成為需要幫忙的人與可提供幫忙的人之間的橋樑。"
+        "en": "The translation team can be the bridge between residents and the council when a new policy is explained.",
+        "zh": "解說新政策時，翻譯團隊可成為居民與議會之間的橋樑。"
       }
     ],
     "review": {
@@ -4016,7 +4030,7 @@
         "Full AI author self-review completed on this draft: meanings, bilingual sentence fidelity, four valid replies, one defensible standard key, plausible nearby distractors, target-bearing audio and exact glossary source spans. Independent content/media/browser review pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-165",

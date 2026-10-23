@@ -1,0 +1,37 @@
+{
+  "reviewType": "independent-focused-owner-expansion-review",
+  "status": "content-clear-with-nonblocking-detector-limits",
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-high-priority-hold-owner-expansions-10-review-pilot.json",
+    "sha256": "e66e4e9b3a940025af7d766f8646af7f4853f2328773a2ff62ca6c6c3187ca55"
+  },
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "selectedManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "755934fb0967bf85bd8251ad54e7765ac57629d6920822e17fd6fb6c5b1484ad"
+  },
+  "coverage": "All ten exact owner and decision files match the 19 after-file SHA-256 values in the author audit. Each source ID, full sentence and expression matches the inventory and the added owner provenance. The live gi target regex matched every complete source sentence; independent native-JavaScript replay of ten source positives plus the author's 21 positives and 20 negatives passed 51/51. Compared all seven assessed fields per owner against HEAD: no changes to listening, reply, scene, contrast, dialogue, speaking or writing. Reviewed the ten changed grammar notes and second takeaways for source sense and English/Traditional Chinese alignment. No new lesson was selected by this review.",
+  "perSource": [
+    {"sourceOrdinal": 3007, "ownerId": "advanced-native-772", "status": "clear", "reason": "Family consequences of a job change are the owner's linked ripple-out effect; the takeaway gives a new childcare consequence."},
+    {"sourceOrdinal": 3100, "ownerId": "advanced-native-1577", "status": "clear", "reason": "Speaking is an ordinary inflection of mutual emotional understanding; the neighbour takeaway and Chinese preserve the sense."},
+    {"sourceOrdinal": 3223, "ownerId": "advanced-native-785", "status": "clear", "reason": "More doors staying open preserves future career options, matching the existing owner."},
+    {"sourceOrdinal": 3281, "ownerId": "advanced-native-2689", "status": "clear", "reason": "Regret without action sounds unconvincing, the same unsupported-words judgment as ring hollow; abstract-subject branch excludes the tested literal pipe."},
+    {"sourceOrdinal": 3313, "ownerId": "advanced-native-3308", "status": "clear", "reason": "Life rarely sticking to the script is the same event-unpredictability decision, distinct from a performer ignoring a script."},
+    {"sourceOrdinal": 3318, "ownerId": "advanced-native-904", "status": "clear", "reason": "The complete source sentence and target express guidance without excessive control; the source inventory itself supplies the shortened expression field 'a compass than a cage', while the detector and lesson teach the complete comparative form."},
+    {"sourceOrdinal": 3398, "ownerId": "advanced-native-1306", "status": "clear", "reason": "A country committing beyond its capacity has the same resource-overload outcome as stretched thin; the clinic takeaway and Chinese are aligned."},
+    {"sourceOrdinal": 3605, "ownerId": "advanced-native-164", "status": "clear", "reason": "Teaching connects knowledge and learners; definite-article bridge form keeps the existing connection meaning."},
+    {"sourceOrdinal": 3872, "ownerId": "advanced-native-3529", "status": "clear", "reason": "The policy's prohibited lines refer to unacceptable conduct, the same ethical-boundary meaning; school-records takeaway supplies a concrete conduct domain."},
+    {"sourceOrdinal": 3999, "ownerId": "advanced-native-2202", "status": "clear", "reason": "A short walk working within a demanding schedule is the existing practical-routine compatibility decision."}
+  ],
+  "nonblockingDetectorLimits": [
+    {"sourceOrdinal": 3007, "example": "The change can ripple through family.", "observation": "The optional article admits this unnatural wording, but all attested and assessed examples use grammatical family forms."},
+    {"sourceOrdinal": 3281, "example": "The apologies sounds hollow.", "observation": "The abstract-subject detector does not enforce subject-verb agreement; it also rejects the tested literal pipe. No learner-facing item uses the bad pairing."},
+    {"sourceOrdinal": 3398, "example": "The team spreads himself too thin.", "observation": "A target-span regex cannot reliably validate agreement with an external subject; the current source, grammar and takeaway use correct reflexive forms."},
+    {"sourceOrdinal": 3605, "example": "The bridge between the two islands was closed.", "observation": "The bridge metaphor is ambiguous in isolation, as the prior indefinite-article form was; owner teaching and source context identify the figurative connection sense."}
+  ],
+  "blockingFindings": [],
+  "limits": "This is AI content and source-coverage clearance for the ten changed owner variants, not audio-listening, human, hosting, database or publication approval."
+}

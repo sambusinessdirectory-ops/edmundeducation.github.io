@@ -562,13 +562,13 @@
       "titleZh": "越過可接受界線",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b",
+        "pattern": "\\b(?:cross|crosses|crossed|crossing)\\s+(?:the|a)\\s+line\\b|\\b(?:some|certain)\\s+lines\\s+(?:simply\\s+)?cannot\\s+be\\s+crossed\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Go beyond an accepted ethical or social boundary in conduct.",
         "meaningZh": "行為超出社會或情境中可接受的界線。",
-        "grammar": "Cross/crosses/crossed the line or a line; both mark an unacceptable boundary. The points of reference may be a shared threshold (the) or one boundary among others (a). Specify the conduct, not a literal painted line.",
+        "grammar": "Cross/crosses/crossed the line or a line; in a negative passive rule, some lines (simply) cannot be crossed. Both refer to an ethical or social boundary, so name the conduct and principle rather than a literal painted line.",
         "register": "Digital-citizenship discussion: a teacher explains why recording strangers without permission is unacceptable.",
         "boundaryZh": "要說明哪項行為、哪條界線，不是單靠自己不喜歡便判定越界。",
         "misconceptionZh": "不是跨過地上的實際線，也不等於所有批評都不可接受。",
@@ -588,6 +588,20 @@
           "sentence": "Filming strangers without consent crosses the line.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "crosses the line"
+        },
+        {
+          "occurrenceId": "book10-16-1761",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The policy states that some lines simply cannot be crossed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "some lines simply cannot be crossed"
         }
       ],
       "listening": {
@@ -798,8 +812,8 @@
           "zh": "越過界線，指行為超出可接受範圍。"
         },
         {
-          "en": "A remark can cross a line when it violates a clear boundary; disagreement alone need not.",
-          "zh": "言論若觸犯清楚界線便可能越界；單純異議不一定越界。"
+          "en": "A school may debate many rules, but some lines cannot be crossed when pupils’ private records are involved.",
+          "zh": "學校可討論不少規則，但涉及學生私人紀錄時，有些界線不能越過。"
         }
       ],
       "review": {
@@ -828,7 +842,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     },
     {
       "id": "advanced-native-3547",

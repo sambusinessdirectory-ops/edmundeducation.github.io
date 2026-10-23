@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent focused AI editorial review; draft only",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-4241-4396-a.json",
+  "draftSha256": "d99bc52ba4269051407d644921e893e2d8c8b411a9bda4fec28fb0d6df729f1c",
+  "authorSelfAudit": "course-materials/advanced-native/reviews-books10-16/author-self-audit-held-4241-4396-a.json",
+  "authorSelfAuditSha256": "0f07b5c1f46751431c564a55e2a8572011c758bb5a84d0e3f50b002720fbdd91",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "755934fb0967bf85bd8251ad54e7765ac57629d6920822e17fd6fb6c5b1484ad",
+  "focusedBuild": {
+    "lessons": 2,
+    "questions": 12,
+    "audioRequests": 8,
+    "reviewFlags": 0,
+    "buildAndCheck": "pass",
+    "outputDir": "/private/tmp/advanced-native-review-4241-4396-b"
+  },
+  "findings": [],
+  "lessons": [
+    {
+      "sourceOrdinal": 4241,
+      "status": "AI content clear for provisional unpublished selection",
+      "sourceSense": "Group moderator preserves shared focus during divergent debate; source example and target detector match.",
+      "assessment": "Listening, four valid replies, scene, contrast, and dialogue have one grounded key each; revised scene foils test ending the live discussion versus losing topic coherence.",
+      "bilingual": "Keyed actions, negation and disagreement are aligned in Traditional Chinese.",
+      "transfer": "Meeting, briefing, reading group, parent meeting, workshop, and youth council are separate contexts; both complete writing models meet their self-check."
+    },
+    {
+      "sourceOrdinal": 4396,
+      "status": "AI content clear for provisional unpublished selection",
+      "sourceSense": "Re-lemma make an unnecessary racket to make a racket retains the source’s objectionable-noise meaning and permits natural intensifiers.",
+      "assessment": "One grounded key in each assessment; revised scene and dialogue foils now represent plausible wrong causes or inadequate noise responses.",
+      "bilingual": "Noise source, timing, affected listener and proposed adjustments align in Traditional Chinese.",
+      "transfer": "Delivery, neighbour, hotel, theatre, clinic and oral-history recording are distinct settings; both writing models meet their self-check."
+    }
+  ],
+  "limits": [
+    "This is risk-based AI content review of exact current draft hashes, not a full manual re-review of unchanged catalogue questions.",
+    "Author self-audit was context only; independent source/answer/translation judgment and focused build/check were performed.",
+    "No human listening, hosting, database application, publication or release approval is implied."
+  ],
+  "mutationPerformed": false,
+  "releaseApproved": false
+}

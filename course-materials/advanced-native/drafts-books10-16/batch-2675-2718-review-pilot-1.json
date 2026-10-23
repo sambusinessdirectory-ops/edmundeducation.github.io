@@ -820,13 +820,13 @@
       "titleZh": "聽起來有點空泛",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:ring|rings|rang|ringing)\\s+(?:a\\s+little\\s+)?hollow\\b",
+        "pattern": "\\b(?:ring|rings|rang|ringing)\\s+(?:a\\s+little\\s+)?hollow\\b|\\b(?:regret|praise|apolog(?:y|ies)|promises?|words|assurances?)\\s+(?:(?:can|may|might|could)\\s+)?sound(?:s|ed|ing)?\\s+(?:(?:a\\s+bit|a\\s+little)\\s+)?hollow\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Sound insincere, weak or unconvincing because actions fail to support the words.",
         "meaningZh": "因言行不符而聽起來缺乏誠意或說服力。",
-        "grammar": "Pattern: praise, promises or apologies ring/rang (a little) hollow; an abstract statement is the subject. Ring is intransitive here, with hollow as complement.",
+        "grammar": "Praise, promises, apologies or regret can ring or sound (a little/a bit) hollow when action does not support the words. Sound hollow takes an abstract evaluation subject; do not treat a literal hollow object as evidence of insincerity.",
         "register": "Measured but critical evaluation: an employee or community member tells a colleague why an institution’s praise lacks supporting action.",
         "boundaryZh": "要指出話語與實際支援之間的落差；聲音小、用詞簡短，不等於 ring hollow。",
         "misconceptionZh": "不是指真正敲擊空心物件；也不要在沒有證據時直接斷定說話者故意說謊。",
@@ -846,6 +846,20 @@
           "sentence": "Their praise may ring a little hollow without support.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "ring a little hollow"
+        },
+        {
+          "occurrenceId": "book10-16-1170",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S1",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Without action, regret can sound a bit hollow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "regret can sound a bit hollow"
         }
       ],
       "listening": {
@@ -1047,8 +1061,8 @@
           "zh": "若實際支援被撤銷，讚賞便可能顯得空泛。"
         },
         {
-          "en": "An apology may ring a little hollow if the same harmful practice continues.",
-          "zh": "若有害做法照舊，道歉可能聽起來有點空泛。"
+          "en": "An apology can sound a bit hollow when the same harmful rule remains in place.",
+          "zh": "若有害的規則照舊不改，道歉便可能顯得缺乏誠意。"
         }
       ],
       "review": {
@@ -1077,7 +1091,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }
