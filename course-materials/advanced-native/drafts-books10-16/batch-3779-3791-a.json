@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3779",
+      "number": 3779,
+      "inventoryId": "expr-3779",
+      "titleEn": "try them out",
+      "titleZh": "試用它們",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:try|tries|tried|trying) (?:(?:it|them) out|out)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Test an item, method or service in practice before deciding whether it works for your purpose.",
+        "meaningZh": "在決定是否合用前實際試用物品、方法或服務，觀察其功能與效果。",
+        "grammar": "Try out + object or try it/them out; a pronoun goes between try and out. Unlike try on, it tests use or performance rather than clothing fit.",
+        "register": "Neutral everyday English. A buyer may say it to a colleague before purchasing equipment.",
+        "boundaryZh": "須有實際操作或使用；只看照片或產品說明不算試用。",
+        "misconceptionZh": "不是穿上衣物檢查尺碼，那是 try on；也不代表試用後一定購買。",
+        "outcomeZh": "能指出試用的對象、待查功能和決定前的結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1668",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 157,
+          "book": 14,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "50–52",
+          "locatorNote": "DOCX table 167, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Customers prefer to try them out in the store.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "try them out"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The school could not tell from a brochure whether two portable microphones would stay clear in a noisy hall. The supplier lent them for an afternoon, so teachers could try them out during rehearsal before placing an order.",
+        "zh": "學校看說明書無法判斷兩支流動咪高峰在嘈雜禮堂是否仍清晰。供應商借出一下午，教師可在排練時實際試用，再決定是否訂購。",
+        "promptZh": "教師要藉試用查核甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Whether the microphones sound clear in the actual hall.",
+            "zh": "咪高峰在實際禮堂裏是否清晰。"
+          },
+          {
+            "id": "b",
+            "en": "Whether the microphones look attractive in a photograph.",
+            "zh": "咪高峰在照片裏是否好看。"
+          },
+          {
+            "id": "c",
+            "en": "Whether the supplier can guarantee every future performance.",
+            "zh": "供應商能否保證未來每場表演。"
+          },
+          {
+            "id": "d",
+            "en": "Whether the microphones fit as clothing.",
+            "zh": "咪高峰作為衣物是否合身。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "排練時操作咪高峰可檢查實際音效。"
+      },
+      "reply": {
+        "promptEn": "The library has borrowed two reading tablets for one week. Staff will use both with large-print files before choosing a model. Why borrow them first?",
+        "promptZh": "（圖書館借來兩部閱讀平板一週。職員會用兩部讀取大字檔案，然後才選型號。為何先借來？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Staff can compare how both tablets handle the same files.",
+            "zh": "職員可比較兩部平板處理同一檔案的表現。"
+          },
+          {
+            "id": "b",
+            "en": "A week gives them time to use each device.",
+            "zh": "一週讓他們有時間使用每部裝置。"
+          },
+          {
+            "id": "c",
+            "en": "They can try them out before making a purchase.",
+            "zh": "購買前，他們可實際試用兩部裝置。"
+          },
+          {
+            "id": "d",
+            "en": "The test can reveal whether either model meets the reading need.",
+            "zh": "測試可顯示哪一款符合閱讀需要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以已安排的實際使用為據；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "劇場在購買兩款燈光控制器前，把它們接上現場燈具操作，查看切換是否順暢。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team will try them out with its actual lights before choosing.",
+            "zh": "團隊會接上現場燈具試用，再作選擇。"
+          },
+          {
+            "id": "b",
+            "en": "The team only reads the product names and makes no test.",
+            "zh": "團隊只看產品名稱，完全沒有測試。"
+          },
+          {
+            "id": "c",
+            "en": "The team is checking whether the controllers fit as jackets.",
+            "zh": "團隊在查控制器作外套是否合身。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際操作控制器而非只看資料，符合 try them out。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 try them out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager buys both devices after seeing pictures but never switches them on.",
+            "zh": "經理看過照片便買兩部裝置，從未開機。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher runs both projectors in the classroom for one lesson.",
+            "zh": "教師在課室用兩部投影機上課一節。"
+          },
+          {
+            "id": "c",
+            "en": "A gardener tests two watering timers over a week.",
+            "zh": "園丁用一週測試兩個澆水計時器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看照片而未實際操作，不能說已試用。"
+      },
+      "dialogue": {
+        "promptEn": "A: The two captioning tools have different controls. The provider has offered a free workshop tomorrow. B: ______",
+        "promptZh": "（甲：兩款字幕工具的控制方式不同。供應商明天提供免費工作坊。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us try them out during the workshop before choosing one.",
+            "zh": "選擇前，我們在工作坊實際試用兩款工具吧。"
+          },
+          {
+            "id": "b",
+            "en": "Using both should make their controls easier to compare.",
+            "zh": "兩款都用過，應較容易比較操作方式。"
+          },
+          {
+            "id": "c",
+            "en": "We can bring one sample video for the test.",
+            "zh": "我們可帶一段樣本影片測試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句提議在合適場合實際試用。"
+      },
+      "speaking": {
+        "en": "The archivists borrowed two scanners to try them out on fragile paper; they measured jams and image clarity before recommending either model.",
+        "zh": "檔案員借來兩部掃描器，在易損紙張上試用；他們量度卡紙次數與影像清晰度，才推薦型號。",
+        "promptZh": "交代試用對象、真實操作及判斷準則。",
+        "targetSpan": {
+          "start": 40,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人在購買或採用工具前實際使用多個選項。用英文寫出所測功能及如何根據結果選擇。",
+        "selfCheckZh": "兩例要有實際操作，不可把看宣傳圖當作試用；不要寫成穿衣服試尺碼。",
+        "examples": [
+          {
+            "en": "Before buying portable speakers, the choir borrowed two models and tried them out in its rehearsal room. The second let the back row hear the words clearly, so the choir chose it.",
+            "zh": "合唱團買流動揚聲器前，借來兩款在排練室實際試用。第二款讓後排清楚聽到歌詞，所以合唱團選了它。"
+          },
+          {
+            "en": "The café borrowed two card readers and tried them out during a quiet service hour. Only the first stayed connected throughout the test, so the café chose that model.",
+            "zh": "咖啡店借來兩部讀卡機，在較清閒的營業時段試用。只有第一部在整個測試中保持連線，所以咖啡店選了該款。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "portable speakers",
+            "zh": "流動揚聲器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 31
+            }
+          },
+          {
+            "en": "the back row",
+            "zh": "後排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 132
+            }
+          },
+          {
+            "en": "two card readers",
+            "zh": "兩部讀卡機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 34
+            }
+          },
+          {
+            "en": "a quiet service hour",
+            "zh": "較清閒的營業時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 81
+            }
+          },
+          {
+            "en": "throughout the test",
+            "zh": "整個測試期間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Try them out means use the items to test performance.",
+          "zh": "try them out 指實際使用物品以測試表現。"
+        },
+        {
+          "en": "You can try them out and still decide not to buy either one.",
+          "zh": "試用過後，你仍可決定兩款都不買。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3780",
+      "number": 3780,
+      "inventoryId": "expr-3780",
+      "titleEn": "try on",
+      "titleZh": "穿上試尺寸",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:try|tries|tried|trying) (?:(?:it|them) on|on)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Put on clothing, shoes or an accessory briefly to check fit or appearance before deciding.",
+        "meaningZh": "暫時穿戴衣物、鞋或配件，檢查尺碼與外觀後再決定。",
+        "grammar": "Try on + garment, or try it/them on with a pronoun in the middle. Unlike try out, the object is wearable and the question is fit or appearance.",
+        "register": "Neutral everyday English. A shopper may use it with a sales assistant in a fitting area.",
+        "boundaryZh": "重點是穿戴檢查，不是操作電子產品；只用眼看尺碼牌尚未算試穿。",
+        "misconceptionZh": "不保證試穿後一定購買，也不是測試一件器材能否運作。",
+        "outcomeZh": "能說出要試穿的物件，以及想核對的尺碼或舒適度。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1669",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 157,
+          "book": 14,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "50–52",
+          "locatorNote": "DOCX table 167, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I prefer to try on shoes before buying.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "try on"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The cycling club ordered sample rain jackets. The size chart looked right, but members wanted to try on the jackets over their usual layers before ordering. They checked shoulder movement rather than trusting the label.",
+        "zh": "單車會訂來雨衣樣本。尺碼表看似合適，但會員訂購前想在平常衣服外試穿雨衣；他們檢查肩部活動空間，而不只相信標籤。",
+        "promptZh": "會員為何要試穿？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They need to check fit and movement over normal layers.",
+            "zh": "他們要檢查穿在平常衣服外是否合身及活動自如。"
+          },
+          {
+            "id": "b",
+            "en": "They want to test how a machine processes the jackets.",
+            "zh": "他們想測試機器如何處理雨衣。"
+          },
+          {
+            "id": "c",
+            "en": "They have already bought every size without wearing one.",
+            "zh": "他們未穿過便買下每個尺碼。"
+          },
+          {
+            "id": "d",
+            "en": "The size chart alone proved every person’s fit.",
+            "zh": "尺碼表已證明每人都合身。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "試穿能查真實合身程度及活動空間。"
+      },
+      "reply": {
+        "promptEn": "A student can read the shoe size label, but she is unsure whether the toe box feels tight. The store has a fitting bench. What should she do before buying?",
+        "promptZh": "（學生看得懂鞋的尺碼標籤，但不確定鞋頭會否太窄。店內有試鞋長椅。購買前她應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She can check the fit while wearing the shoes.",
+            "zh": "她可穿上鞋檢查是否合腳。"
+          },
+          {
+            "id": "b",
+            "en": "The bench gives her a place to put them on safely.",
+            "zh": "長椅讓她可安全地穿上鞋。"
+          },
+          {
+            "id": "c",
+            "en": "She should try on the shoes before deciding.",
+            "zh": "決定前她應試穿鞋子。"
+          },
+          {
+            "id": "d",
+            "en": "Walking a few steps can reveal whether the toe box is tight.",
+            "zh": "走幾步可看出鞋頭是否太窄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均回應尺碼不確定與店內試鞋條件；金句自然使用 try on。"
+      },
+      "scene": {
+        "promptZh": "買家擔心兩件外套的袖長不同，店舖容許她在更衣區穿上各款並活動雙手。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She can try on both coats to compare sleeve length.",
+            "zh": "她可試穿兩件外套，比較袖長。"
+          },
+          {
+            "id": "b",
+            "en": "She should only test whether the coat’s online page loads.",
+            "zh": "她只應測試外套網頁能否載入。"
+          },
+          {
+            "id": "c",
+            "en": "Reading the label alone proves how each sleeve feels.",
+            "zh": "只看標籤便能確定每件外套的袖子穿起來如何。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "衣物實際穿在身上比較尺碼，正是 try on。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 try on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A buyer reads the jacket’s size chart but never puts it on.",
+            "zh": "買家只看外套尺碼表，沒有穿上。"
+          },
+          {
+            "id": "b",
+            "en": "A shopper wears sample boots and walks around the fitting area.",
+            "zh": "顧客穿上樣本靴，在試鞋區走動。"
+          },
+          {
+            "id": "c",
+            "en": "A performer puts on two costumes to compare movement.",
+            "zh": "表演者穿上兩套戲服，比較活動空間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看尺碼表，未有試穿。"
+      },
+      "dialogue": {
+        "promptEn": "A: These gloves look the right size, but I need to know whether I can bend my fingers comfortably. B: ______",
+        "promptZh": "（甲：這雙手套看來尺碼合適，但我想知道手指能否舒適彎曲。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Please try them on here and move your hands before deciding.",
+            "zh": "請在這裏試戴並活動雙手，再作決定。"
+          },
+          {
+            "id": "b",
+            "en": "The fitting area has a mirror and enough space.",
+            "zh": "試戴區有鏡子，也有足夠空間。"
+          },
+          {
+            "id": "c",
+            "en": "You can compare the feel of both sizes.",
+            "zh": "你可比較兩個尺碼的手感。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把試戴與活動手指這個具體目的連起來。"
+      },
+      "speaking": {
+        "en": "The dancers had to try on the new shoes before rehearsal so they could check heel support while moving, rather than rely on the size numbers alone.",
+        "zh": "舞者排練前須試穿新鞋，邊活動邊檢查鞋跟支撐，而不只依賴尺碼數字。",
+        "promptZh": "指出穿戴物件、合身準則和為何只看標籤不足。",
+        "targetSpan": {
+          "start": 19,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名買家因尺碼或活動舒適度不確定，在付款前試穿不同衣物。用英文寫出查核內容。",
+        "selfCheckZh": "兩例須真的穿上衣物；不可把操作電子工具寫成 try on。",
+        "examples": [
+          {
+            "en": "At the uniform shop, Mina tried on the longer apron and checked whether she could reach the upper shelf without the strap pulling.",
+            "zh": "在制服店，米娜試穿較長圍裙，檢查伸手到上層架時肩帶會否拉扯。"
+          },
+          {
+            "en": "Before ordering winter boots, the volunteers tried them on with thick socks and walked across the shop to check the fit.",
+            "zh": "義工訂購冬靴前，穿着厚襪試穿靴子，在店內走一段路，檢查是否合腳。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the longer apron",
+            "zh": "較長圍裙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "the upper shelf",
+            "zh": "上層架",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          },
+          {
+            "en": "winter boots",
+            "zh": "冬靴",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 28
+            }
+          },
+          {
+            "en": "thick socks",
+            "zh": "厚襪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 75
+            }
+          },
+          {
+            "en": "the fit",
+            "zh": "合腳程度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 119
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Try on is for checking how wearable items fit or look.",
+          "zh": "try on 用於檢查穿戴物件是否合身或好看。"
+        },
+        {
+          "en": "You may try them on before deciding, even when the size label seems right.",
+          "zh": "即使尺碼標籤看來合適，決定前也可試穿。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3785",
+      "number": 3785,
+      "inventoryId": "expr-3785",
+      "titleEn": "safer bets",
+      "titleZh": "較穩妥的選擇",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a safer bet|safer bets)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An option or options that appear less risky on the available evidence, though not guaranteed to succeed.",
+        "meaningZh": "根據現有證據看來風險較低的選擇，但並非保證成功。",
+        "grammar": "Safer bet is a countable gambling metaphor: a safer bet singular, safer bets plural. Compare specific risks rather than claiming certainty.",
+        "register": "Informal evaluative English. A buyer may use it when discussing familiar suppliers and uncertain alternatives.",
+        "boundaryZh": "須說明何種風險較低；較熟悉未必必然最好，也不能把安全網誤作同義詞。",
+        "misconceptionZh": "不是賭博建議，也不表示結果毫無風險。",
+        "outcomeZh": "能列出比較準則與仍未消除的風險。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1674",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 157,
+          "book": 14,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 168, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Established products can seem like safer bets.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "safer bets"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The theatre needs curtains by Friday. Two suppliers delivered on time in past seasons; a cheaper new seller has no record. The familiar suppliers look like safer bets for timing, though stock still needs checking.",
+        "zh": "劇場星期五前需要布幕。兩家供應商過往季度都準時交貨；較便宜的新賣家沒有相關紀錄。就期限而言，熟悉的供應商看來較穩妥，但仍要查現貨。",
+        "promptZh": "為何熟悉供應商顯得較穩妥？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have a documented record of on-time delivery for similar orders.",
+            "zh": "他們有同類訂單準時交貨的紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The new seller is certainly dishonest.",
+            "zh": "新賣家肯定不誠實。"
+          },
+          {
+            "id": "c",
+            "en": "The familiar suppliers guarantee there can be no stock problem.",
+            "zh": "熟悉供應商保證不會缺貨。"
+          },
+          {
+            "id": "d",
+            "en": "The lowest price alone settles delivery risk.",
+            "zh": "單看最低價已足以解決送貨風險。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "較低的期限風險有過往紀錄支持，但仍要查現貨。"
+      },
+      "reply": {
+        "promptEn": "A club must print programmes before Saturday. Two printers have met the same deadline for the club before, while a cheaper third printer has no turnaround record. Which are lower-risk choices for timing?",
+        "promptZh": "（社團須在星期六前印好場刊。兩家印刷店以往都為社團準時完成同樣工作；較便宜的第三家則沒有交貨時間紀錄。就時間風險而言，哪些選擇較穩妥？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two printers with proven delivery records.",
+            "zh": "兩家有準時交貨紀錄的印刷店。"
+          },
+          {
+            "id": "b",
+            "en": "Their past work gives the club evidence about timing.",
+            "zh": "他們過往的工作提供時間方面的證據。"
+          },
+          {
+            "id": "c",
+            "en": "Those two printers are safer bets for the deadline.",
+            "zh": "就期限而言，那兩家印刷店是較穩妥的選擇。"
+          },
+          {
+            "id": "d",
+            "en": "The club should still confirm each printer’s current capacity.",
+            "zh": "社團仍應確認兩家目前的接單能力。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都由交貨紀錄與期限出發；金句表達比較而非保證。"
+      },
+      "scene": {
+        "promptZh": "學校要在雨季前修理屋頂，兩家承辦商有同類工程按時完成紀錄，第三家報價較低但沒有相關紀錄。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The experienced contractors may be safer bets for meeting the deadline.",
+            "zh": "就準時完工而言，有紀錄的承辦商可能較穩妥。"
+          },
+          {
+            "id": "b",
+            "en": "The cheaper contractor is certainly incapable of any repair.",
+            "zh": "較便宜的承辦商肯定完全不會維修。"
+          },
+          {
+            "id": "c",
+            "en": "Past performance removes every possibility of delay.",
+            "zh": "過往表現完全消除延期可能。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紀錄提供較低風險的理由，但不是絕對保證。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持稱某選擇 a safer bet？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No one has checked either option’s cost, record or suitability; the speaker chooses solely by logo colour.",
+            "zh": "沒有人查成本、紀錄或適合程度，只按標誌顏色作選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A familiar supplier has repeatedly met the exact delivery deadline.",
+            "zh": "熟悉供應商多次符合相同交貨期限。"
+          },
+          {
+            "id": "c",
+            "en": "A tested route has fewer known hazards than an untested route.",
+            "zh": "經測試路線比未測試路線有較少已知危險。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有與相關風險有關的證據，只按顏色不能判斷較穩妥。"
+      },
+      "dialogue": {
+        "promptEn": "A: We need an accessible venue in two weeks. Two halls have hosted the same event successfully, and the new space has not yet been inspected. B: ______",
+        "promptZh": "（甲：我們兩週後需要無障礙場地。兩間禮堂以往成功舉辦過同類活動，新場地尚未查驗。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two known halls are safer bets for now, though we should confirm their availability.",
+            "zh": "目前兩間熟悉禮堂較穩妥，但仍須確認檔期。"
+          },
+          {
+            "id": "b",
+            "en": "Their previous events give us useful access evidence.",
+            "zh": "過往活動提供有用的無障礙證據。"
+          },
+          {
+            "id": "c",
+            "en": "We can inspect the new space before ruling it out.",
+            "zh": "排除新場地前，我們可先查驗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以已有紀錄作相對判斷，也保留仍需查檔期。"
+      },
+      "speaking": {
+        "en": "For a time-sensitive exhibition, the established courier looked like a safer bet than an untested service because its tracking records showed reliable morning deliveries; the curator still confirmed this week’s schedule.",
+        "zh": "對於時間緊迫的展覽，老牌速遞公司看來比未經測試的服務較穩妥，因其追蹤紀錄顯示早上送貨可靠；策展人仍確認本週時間表。",
+        "promptZh": "說明比較對象、具體風險與剩餘查核。",
+        "targetSpan": {
+          "start": 69,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項決定都有不確定性，但其中一個選擇有較可靠的相關紀錄。用英文寫出比較範圍及仍需查核的事。",
+        "selfCheckZh": "兩例須指明風險類型，不可聲稱較穩妥等於絕無風險。",
+        "examples": [
+          {
+            "en": "For preserving old photographs, two conservators with verified archival work were safer bets than an untested bidder, though the museum still reviewed their current workload.",
+            "zh": "就保存舊照片而言，兩名有已核實檔案修復經驗的修復師，比未經驗證的投標者較穩妥；博物館仍查核他們目前的工作量。"
+          },
+          {
+            "en": "The tested indoor route seemed a safer bet for the children’s walk than the flooded riverside path, but leaders checked its exit signs before setting off.",
+            "zh": "兒童步行活動採用經測試的室內路線，似乎比被水浸的河畔小徑更穩妥；領隊出發前仍檢查出口標誌。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "verified archival work",
+            "zh": "已核實檔案修復經驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 76
+            }
+          },
+          {
+            "en": "their current workload",
+            "zh": "他們目前的工作量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 173
+            }
+          },
+          {
+            "en": "The tested indoor route",
+            "zh": "經測試的室內路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "the flooded riverside path",
+            "zh": "被水浸的河畔小徑",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 98
+            }
+          },
+          {
+            "en": "its exit signs",
+            "zh": "其出口標誌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Safer bets are lower-risk choices on the stated evidence, not guarantees.",
+          "zh": "safer bets 指根據所述證據風險較低的選擇，並非保證。"
+        },
+        {
+          "en": "A safer bet still needs a final check of current conditions.",
+          "zh": "較穩妥的選擇仍需查核現況。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3791",
+      "number": 3791,
+      "inventoryId": "expr-3791",
+      "titleEn": "go the extra mile",
+      "titleZh": "多走一步；額外付出",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|going|gone) the extra mile\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make useful effort beyond what is ordinarily expected to help someone or complete a task well.",
+        "meaningZh": "為幫助他人或做好工作，付出超出一般要求而有用的額外努力。",
+        "grammar": "Go the extra mile is an idiom; go changes tense. Often followed by for + person or to + verb. The mile is figurative, not a measured distance.",
+        "register": "Positive informal-to-neutral English. A service user may say it to a manager when praising specific extra support.",
+        "boundaryZh": "應指出超出本分的具體而有幫助的行動；必要安全職責本身不算額外付出，也不應美化無償過勞。",
+        "misconceptionZh": "不是真的多走一英里，也不是只做了原本應盡的基本職責。",
+        "outcomeZh": "能說明一般要求、額外行動及對受助者的實際好處。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1680",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 158,
+          "book": 14,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 169, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The staff go the extra mile for regular customers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go the extra mile"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At the museum, a guide noticed a visitor could not read the small captions. Beyond leading the tour, she prepared a large-print route sheet and checked it with the visitor. She went the extra mile to make the visit usable.",
+        "zh": "在博物館，導賞員發現訪客看不清小字說明。除了帶團，她還準備大字路線表，並與訪客核對；她多走一步，讓參觀真正可行。",
+        "promptZh": "甚麼行動超出導賞員原本職責？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She prepared and checked a large-print route sheet for the visitor.",
+            "zh": "她為訪客準備並核對大字路線表。"
+          },
+          {
+            "id": "b",
+            "en": "She simply led the tour she was assigned to lead.",
+            "zh": "她只是帶領原本獲派的導賞。"
+          },
+          {
+            "id": "c",
+            "en": "She ignored the visitor’s difficulty with captions.",
+            "zh": "她無視訪客看不清說明的困難。"
+          },
+          {
+            "id": "d",
+            "en": "She walked an actual extra mile without helping anyone.",
+            "zh": "她真的多走一英里，卻沒有幫助任何人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大字路線表及事前核對是有用的額外支援。"
+      },
+      "reply": {
+        "promptEn": "A school office normally emails a timetable. One new family cannot read the file format, so an assistant also makes a printable version and checks that the family can open it. What did the assistant do?",
+        "promptZh": "（學校辦公室通常電郵時間表。一個新家庭無法讀取該檔案格式，助理便另外製作可列印版本，並確認他們能打開。助理做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The assistant supplied another usable format.",
+            "zh": "助理提供了另一種可用格式。"
+          },
+          {
+            "id": "b",
+            "en": "The assistant checked that the family could access it.",
+            "zh": "助理確認家庭能讀取。"
+          },
+          {
+            "id": "c",
+            "en": "The assistant went the extra mile to make the timetable usable.",
+            "zh": "助理多走一步，讓時間表真正可用。"
+          },
+          {
+            "id": "d",
+            "en": "The extra check responded to a difficulty the family reported.",
+            "zh": "額外核對回應了家庭提出的困難。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆由正常電郵以外的有用協助出發。"
+      },
+      "scene": {
+        "promptZh": "中心職員原本只須派發活動地址，但知道一名參加者使用輪椅後，還核對無障礙入口，並把清楚路線傳給對方。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The worker went the extra mile by confirming an accessible route.",
+            "zh": "職員核對無障礙路線，多走了一步。"
+          },
+          {
+            "id": "b",
+            "en": "The worker only sent the standard address and did nothing more.",
+            "zh": "職員只傳原定地址，沒有做其他事。"
+          },
+          {
+            "id": "c",
+            "en": "The worker merely walked a longer distance for exercise.",
+            "zh": "職員只為運動而多走一段路。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "額外查核入口令資訊真正切合參加者需要。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 go the extra mile？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A staff member performs a required fire-safety check and offers no additional assistance.",
+            "zh": "職員完成必須的消防安全檢查，沒有提供其他協助。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer translates a route note after hearing a participant cannot read it.",
+            "zh": "義工知道參加者看不懂路線說明後，額外翻譯。"
+          },
+          {
+            "id": "c",
+            "en": "A clerk follows up to ensure an alternative format actually works for a user.",
+            "zh": "職員額外跟進，確保替代格式真的可供使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完成強制基本職責本身不等於額外付出。"
+      },
+      "dialogue": {
+        "promptEn": "A: The visitor needed a quiet route. Our guide checked the opening times of a side entrance and walked through it with her before the tour. B: ______",
+        "promptZh": "（甲：訪客需要一條較安靜的路線。我們的導賞員在導賞前查了側門的開放時間，並陪她走過一次。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guide went the extra mile to make the visit comfortable.",
+            "zh": "導賞員多走一步，令參觀更舒適。"
+          },
+          {
+            "id": "b",
+            "en": "Checking the side entrance made the plan more reliable.",
+            "zh": "查側門令安排更可靠。"
+          },
+          {
+            "id": "c",
+            "en": "Walking the route together helped the visitor know what to expect.",
+            "zh": "一起試走路線，讓訪客知道接下來會怎樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括超出一般導賞的具體協助。"
+      },
+      "speaking": {
+        "en": "The bus-station volunteer went the extra mile for a traveller with limited vision by reading out the platform changes and waiting until the correct bus number was announced.",
+        "zh": "車站義工為視力有限的旅客多走一步：讀出月台變更，並等到正確巴士號碼公布。",
+        "promptZh": "說明一般支援以外的額外行動及其實際用途。",
+        "targetSpan": {
+          "start": 26,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名工作者除原本職責外，因聽到具體需要而作出有用的額外協助。用英文說明正常工作、額外行動與效果。",
+        "selfCheckZh": "兩例要有超出基本要求的可見行動；不能把必要安全程序包裝成額外美德。",
+        "examples": [
+          {
+            "en": "The theatre usher normally checked tickets, but she went the extra mile by printing a larger seating map and walking a first-time visitor to the correct entrance.",
+            "zh": "劇場帶位員平常檢查門票，但她另印大字座位圖，並帶首次到訪者到正確入口，多走了一步。"
+          },
+          {
+            "en": "A community-centre clerk went the extra mile for an older resident after routine registration, calling the venue to confirm step-free access and sending a clear bus-stop note so the resident could plan an accessible journey.",
+            "zh": "社區中心職員完成例行登記後，為年長居民多走一步：致電場地確認無梯級通道，並傳送清楚的巴士站說明，讓對方能規劃無障礙行程。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a larger seating map",
+            "zh": "大字座位圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 104
+            }
+          },
+          {
+            "en": "a first-time visitor",
+            "zh": "首次到訪者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 137
+            }
+          },
+          {
+            "en": "routine registration",
+            "zh": "例行登記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 93
+            }
+          },
+          {
+            "en": "step-free access",
+            "zh": "無梯級通道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 140
+            }
+          },
+          {
+            "en": "a clear bus-stop note",
+            "zh": "清楚的巴士站說明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 153,
+              "end": 174
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Go the extra mile means making helpful effort beyond normal duty.",
+          "zh": "go the extra mile 指超出一般職責而作出有用的額外努力。"
+        },
+        {
+          "en": "A team can go the extra mile by checking whether the extra help actually works.",
+          "zh": "團隊可多走一步，查核額外協助是否真的奏效。"
+        }
+      ]
+    }
+  ]
+}

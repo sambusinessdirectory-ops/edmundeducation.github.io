@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3888-3890-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3888",
+      "number": 3888,
+      "inventoryId": "expr-3888",
+      "titleEn": "go overboard",
+      "titleZh": "做得過火",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going)\\s+overboard\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Do, buy or add more than is sensible for the situation.",
+        "meaningZh": "在某情況下做得、買得或加得超過合理需要。",
+        "grammar": "Go overboard with something, go overboard on something, or go overboard without a complement. Went overboard is past tense; the phrase is figurative.",
+        "register": "Informal everyday advice; a friend helps plan a small farewell tea without making it extravagant.",
+        "boundaryZh": "適量享受並非「過火」；要有超出預算、目的或合理程度的證據。",
+        "misconceptionZh": "不是從船上掉進水裏，也不是所有慶祝或購物都過度。",
+        "outcomeZh": "能指出原本合理的做法、過量的部分及其實際代價。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1777",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 167,
+          "book": 15,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 179, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A small treat is fine, but do not go overboard.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go overboard"
+        }
+      ],
+      "listening": {
+        "en": "The class wanted a modest thank-you card, but then ordered a huge stage and hundreds of balloons. Their teacher said they had gone overboard for a ten-minute farewell.",
+        "zh": "全班原本只想送一張簡單的感謝卡，後來卻訂了大型舞台和數百個氣球。老師說，為一場十分鐘的歡送會，這樣做有點過火。",
+        "promptZh": "gone overboard 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They planned much more than the short event needed.",
+            "zh": "他們安排的東西遠超短活動所需。"
+          },
+          {
+            "id": "b",
+            "en": "They stayed within the original modest plan.",
+            "zh": "他們仍依照原本簡單的計劃。"
+          },
+          {
+            "id": "c",
+            "en": "The stage and balloons were essential to a ten-minute farewell.",
+            "zh": "大型舞台和數百氣球是十分鐘歡送會的必需品。"
+          },
+          {
+            "id": "d",
+            "en": "They cancelled the farewell entirely.",
+            "zh": "他們把歡送會完全取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大型舞台與數百氣球，相對十分鐘活動明顯過量。"
+      },
+      "reply": {
+        "promptEn": "Should Ravi buy twenty gift boxes for a dinner with four guests? Each guest needs only one small box, and the rest would use up the entire event budget.",
+        "promptZh": "（拉維要為只有四位賓客的晚餐買二十盒禮物嗎？每人只需一小盒，其餘會用盡整個活動預算。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Four small boxes would meet the need.",
+            "zh": "四小盒已能滿足需要。"
+          },
+          {
+            "id": "b",
+            "en": "Twenty boxes exceed the number of guests and the budget.",
+            "zh": "二十盒超過賓客數目，亦超出預算。"
+          },
+          {
+            "id": "c",
+            "en": "Buying twenty boxes would be going overboard.",
+            "zh": "買二十盒會做得過火。"
+          },
+          {
+            "id": "d",
+            "en": "The extra sixteen boxes are unnecessary here.",
+            "zh": "多出的十六盒在此並不需要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出二十盒對四人而言過量。"
+      },
+      "scene": {
+        "promptZh": "小型讀書會只有六位參加者，主辦者卻租下可容五百人的禮堂，費用吃掉全年預算。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser has gone overboard.",
+            "zh": "主辦者做得過火。"
+          },
+          {
+            "id": "b",
+            "en": "The organiser chose a room exactly suited to six people.",
+            "zh": "主辦者選了剛好適合六人的房間。"
+          },
+          {
+            "id": "c",
+            "en": "The venue costs nothing.",
+            "zh": "場地完全免費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地規模與費用都遠超需要。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不適合說 go overboard？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Buy two chairs for two people within budget.",
+            "zh": "在預算內為兩人買兩張椅子。"
+          },
+          {
+            "id": "b",
+            "en": "Order thirty cakes for four visitors when most will be thrown away.",
+            "zh": "為四位訪客訂三十個蛋糕，大多會被丟掉。"
+          },
+          {
+            "id": "c",
+            "en": "Cover every wall with costly decorations for a brief meeting.",
+            "zh": "為短會議花大錢裝飾每面牆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數量與預算都合理，沒有過量證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「一買蛋糕就是 go overboard。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Go overboard means excessive for the occasion; a suitable small cake may be perfectly reasonable.",
+            "zh": "做得過火要看是否超出場合需要；一個合適的小蛋糕可以很合理。"
+          },
+          {
+            "id": "b",
+            "en": "Any purchase is necessarily excessive.",
+            "zh": "任何購物必然過度。"
+          },
+          {
+            "id": "c",
+            "en": "Go overboard applies only when money is overspent, never when the amount is excessive.",
+            "zh": "做得過火只適用於超出金錢預算，數量過多卻不算。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是程度是否超過合理需要。"
+      },
+      "speaking": {
+        "en": "We can add flowers to the table, but let’s not go overboard and spend the whole month’s club budget on one dinner.",
+        "zh": "我們可以在桌上放花，但不要做得過火，把社團一整個月的預算花在一頓晚餐上。",
+        "promptZh": "先聽示範，再指出說話者接受甚麼、反對甚麼。",
+        "targetSpan": {
+          "start": 47,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區舞蹈班有十二名學員，原定每人一瓶水。組織者卻想訂二百瓶並借用大型貨車運送，會超出運輸預算。用英文建議合適數量，並說明何處過量。",
+        "selfCheckZh": "寫出十二名學員每人一瓶、二百瓶與大型貨車超出需要及運輸預算；不要說完全不用水。",
+        "examples": [
+          {
+            "en": "Twelve bottles would cover the twelve dancers, but ordering two hundred and hiring a large truck would go overboard and exceed the transport budget.",
+            "zh": "十二瓶水足夠十二名舞蹈學員；訂二百瓶還借大型貨車就過火了，會超出運輸預算。"
+          },
+          {
+            "en": "For twelve dancers, the class needs one bottle per person, not two hundred. Bringing in a large truck for the surplus would go overboard and cost more than the transport budget allows.",
+            "zh": "舞蹈班有十二名學員，每人只需一瓶水，而不是二百瓶。為多出的水借大型貨車會做得過火，並超出運輸預算。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twelve dancers",
+            "zh": "十二名舞蹈學員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "two hundred",
+            "zh": "二百瓶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 71
+            }
+          },
+          {
+            "en": "large truck",
+            "zh": "大型貨車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 96
+            }
+          },
+          {
+            "en": "transport budget",
+            "zh": "運輸預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 147
+            }
+          },
+          {
+            "en": "one bottle per person",
+            "zh": "每人一瓶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 57
+            }
+          },
+          {
+            "en": "surplus",
+            "zh": "多出的水",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Go overboard means do more than a situation reasonably calls for.",
+          "zh": "做得過火，指超出情況合理所需。"
+        },
+        {
+          "en": "A modest choice is not going overboard merely because it is optional.",
+          "zh": "適量的非必需選擇，不一定就是做得過火。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3890",
+      "number": 3890,
+      "inventoryId": "expr-3890",
+      "titleEn": "retail therapy",
+      "titleZh": "靠購物轉換心情",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bretail\\s+therapy\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Informal name for shopping in hopes of feeling better. It is not clinical therapy and may or may not improve one’s mood.",
+        "meaningZh": "非正式地指希望透過購物改善心情；並非臨床治療，效果也未必確定。",
+        "grammar": "Retail therapy is a noun phrase; “a little retail therapy” is common. It describes the motive for shopping, not the value or necessity of the item.",
+        "register": "Informal conversation among friends; a speaker explains a small purchase after a difficult week without claiming it treats distress.",
+        "boundaryZh": "重點是以購物轉換心情；買必需品、接受治療或純粹比較價格不一定是此意思。",
+        "misconceptionZh": "therapy 一字在此是輕鬆比喻，不是醫療建議，也不保證花錢後感覺更好。",
+        "outcomeZh": "能區分購物動機、實際結果及真正求助方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1779",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 168,
+          "book": 15,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 179, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She used a little retail therapy after a hard week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "retail therapy"
+        }
+      ],
+      "listening": {
+        "en": "After a tiring week of rehearsals, Mei bought one inexpensive notebook simply because choosing it cheered her up. She joked that it was a little retail therapy.",
+        "zh": "經過一週疲累的排練，美兒買了一本不貴的筆記本，只因挑選它令她心情好一點。她笑說這是小小的購物解悶。",
+        "promptZh": "retail therapy 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She shopped to lift her mood.",
+            "zh": "她透過購物轉換心情。"
+          },
+          {
+            "id": "b",
+            "en": "She received professional psychological treatment.",
+            "zh": "她接受了專業心理治療。"
+          },
+          {
+            "id": "c",
+            "en": "She bought the notebook because it was required for rehearsal.",
+            "zh": "她因排練必需才買筆記本。"
+          },
+          {
+            "id": "d",
+            "en": "She was guaranteed to feel better permanently.",
+            "zh": "她保證會永久感覺更好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她說挑選筆記本令自己稍微開心，並非接受治療。"
+      },
+      "reply": {
+        "promptEn": "Why did Ben browse the weekend bookstall? He had a disappointing day, wanted the pleasant experience of choosing a low-cost novel and was not shopping for a required textbook.",
+        "promptZh": "（阿賓為何逛週末書攤？他那天不如意，想藉挑一本便宜小說轉換心情，並不是要買必需課本。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He wanted a small purchase to lift his mood.",
+            "zh": "他想透過小額購物改善心情。"
+          },
+          {
+            "id": "b",
+            "en": "He enjoyed browsing after a difficult day.",
+            "zh": "他在不如意的一天後享受逛書攤。"
+          },
+          {
+            "id": "c",
+            "en": "He was looking for a little retail therapy.",
+            "zh": "他想小小購物解悶。"
+          },
+          {
+            "id": "d",
+            "en": "Choosing a low-cost novel was his way of feeling better after that day.",
+            "zh": "挑一本便宜小說，是他在不如意的一天後轉換心情的方法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出購物的轉換心情動機。"
+      },
+      "scene": {
+        "promptZh": "朋友在緊張的演講後到市集挑了一張小明信片，說逛攤位讓她放鬆。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She enjoyed a little retail therapy.",
+            "zh": "她小小購物，轉換了心情。"
+          },
+          {
+            "id": "b",
+            "en": "She has completed a medical treatment.",
+            "zh": "她已完成醫療治療。"
+          },
+          {
+            "id": "c",
+            "en": "She purchased a compulsory work supply.",
+            "zh": "她購買了工作必需品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "購買小物與逛市集是為了舒緩心情。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不像 retail therapy？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Someone buys a small plant after a hard day because browsing feels enjoyable.",
+            "zh": "有人因為逛店開心，在辛苦一天後買一盆小植物。"
+          },
+          {
+            "id": "b",
+            "en": "A parent buys prescribed medicine needed immediately, without any wish to shop for pleasure.",
+            "zh": "家長因急需而購買處方藥，完全不是為購物樂趣。"
+          },
+          {
+            "id": "c",
+            "en": "A student chooses an inexpensive scarf after exams to cheer herself up.",
+            "zh": "學生考試後挑一條便宜圍巾，讓自己開心一點。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "購買急需的藥物不是為購物轉換心情。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「retail therapy 就等於正式心理治療，而且一定有效。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Retail therapy is an informal shopping expression, not treatment or a guaranteed result.",
+            "zh": "購物解悶是非正式說法，並非治療，也不保證有效。"
+          },
+          {
+            "id": "b",
+            "en": "Any shopping trip replaces professional help.",
+            "zh": "任何購物都可代替專業協助。"
+          },
+          {
+            "id": "c",
+            "en": "Any low-cost purchase must improve a person’s mood.",
+            "zh": "任何低價購物都必定改善心情。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這裏的 therapy 是比喻用法。"
+      },
+      "speaking": {
+        "en": "I bought one cheap postcard as a bit of retail therapy after the long journey, but it was not a solution to every worry.",
+        "zh": "漫長旅程後，我買了一張便宜明信片，當作小小購物解悶；但這不能解決所有煩惱。",
+        "promptZh": "先聽示範，再指出說話者買了甚麼及沒有聲稱甚麼。",
+        "targetSpan": {
+          "start": 40,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：阿玲因校園展覽準備得很累，週六逛二手書店，花三十元買一冊詩集，只因挑選過程令她放鬆；她仍須休息並完成展覽工作。用英文說明購物動機和限制，勿稱之為醫療治療。",
+        "selfCheckZh": "寫出二手書店、三十元詩集、挑選令她放鬆、仍要休息及完成展覽工作。",
+        "examples": [
+          {
+            "en": "After exhausting exhibition preparations, Ling spent thirty dollars on a poetry book at a second-hand shop as a little retail therapy. Browsing helped her relax, but she still needed rest and had work to finish.",
+            "zh": "準備展覽後感到疲累，玲在二手書店花三十元買詩集，當作小小購物解悶。逛店讓她放鬆，但她仍須休息並完成工作。"
+          },
+          {
+            "en": "Ling’s retail therapy was a thirty-dollar poetry book from a second-hand shop: choosing it after exhibition work felt relaxing, yet the purchase did not replace rest or finish her remaining tasks.",
+            "zh": "玲以三十元在二手書店買詩集，當作購物解悶：展覽工作後挑書令她放鬆，但購物不能代替休息，也不能完成餘下任務。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "thirty dollars",
+            "zh": "三十元",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 67
+            }
+          },
+          {
+            "en": "poetry book",
+            "zh": "詩集",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 84
+            }
+          },
+          {
+            "en": "second-hand shop",
+            "zh": "二手書店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 106
+            }
+          },
+          {
+            "en": "needed rest",
+            "zh": "須休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 176,
+              "end": 187
+            }
+          },
+          {
+            "en": "exhibition work",
+            "zh": "展覽工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 112
+            }
+          },
+          {
+            "en": "remaining tasks",
+            "zh": "餘下任務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 180,
+              "end": 195
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Retail therapy is informal shopping to try to feel better.",
+          "zh": "購物解悶是為轉換心情而購物的非正式說法。"
+        },
+        {
+          "en": "Retail therapy is not clinical treatment or a guaranteed cure.",
+          "zh": "購物解悶不是臨床治療，也不保證解決問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

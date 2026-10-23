@@ -1,0 +1,89 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:05:21.075025+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3798-3799-a.json",
+      "sha256": "6492dec7405a9f13963a81a4ae5146b8e2977b2b24139cd619e047d0d18b9e40"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "13e45fa2fda485c8e66232071bb594a1962b4b28e102de8245e6eb9a6c39a1e9"
+  ],
+  "focusedBuildAndCheck": "PASS: 2 lessons, 12 questions, 8 audio requests, zero flags",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "PASS: all-discovered 158 alias-new rows, zero exceptions",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 50,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 3
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "3798": "Silent tolerance is distinguished from a polite remedy; the lesson does not endorse enduring unsafe or deficient service.",
+    "3799": "A public disturbance is distinguished from a calm private complaint, even when the complaint is justified."
+  },
+  "independentContentReview": "pending",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3798,
+      "sourceId": "book10-16-1687",
+      "sourceExpression": "grin and bear it",
+      "sourceExample": "Customers need not grin and bear it when service fails.",
+      "batch": "batch-3798-3799-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3799,
+      "sourceId": "book10-16-1688",
+      "sourceExpression": "make a scene",
+      "sourceExample": "She did not want to make a scene at the counter.",
+      "batch": "batch-3798-3799-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    }
+  ]
+}

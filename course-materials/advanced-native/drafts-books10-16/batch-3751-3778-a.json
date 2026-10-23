@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3751",
+      "number": 3751,
+      "inventoryId": "expr-3751",
+      "titleEn": "meeting up",
+      "titleZh": "相約見面",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:meet|meets|met|meeting) up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Get together in person, usually by arrangement; the emphasis is the gathering, not necessarily exchanging old news.",
+        "meaningZh": "通常按約定親身聚在一起；重點是見面，不一定要久別重逢後敘舊。",
+        "grammar": "Meet up is an intransitive phrasal verb, often with with + person or at + place. Meet inflects; up stays fixed.",
+        "register": "Informal everyday English. Friends may use it when arranging an in-person activity.",
+        "boundaryZh": "網上傳訊不等於實際相聚；與第1521課 catching up 的敘舊重點不同。",
+        "misconceptionZh": "不表示必須多年未見，也不是單純碰巧在街上遇到。",
+        "outcomeZh": "能說明誰與誰、在哪裏及為何相約見面。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1640",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 154,
+          "book": 14,
+          "question": 20,
+          "sample": "S1",
+          "sourceBookPages": "44–46",
+          "locatorNote": "DOCX table 164, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Friends enjoy meeting up at the market.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "meeting up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The volunteers work in separate buildings, so they agreed to meet up at the community hall on Friday to sort the donated books together. The meeting is in person; their messages only settled the time.",
+        "zh": "義工分別在不同大樓工作，因此約好星期五在社區禮堂見面，一起整理捐書。這是親身相聚；訊息只是用來定時間。",
+        "promptZh": "義工的訊息與星期五的活動有何不同？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The messages arranged an in-person gathering for shared work.",
+            "zh": "訊息安排了親身聚會，一起工作。"
+          },
+          {
+            "id": "b",
+            "en": "They will only exchange messages on Friday.",
+            "zh": "他們星期五只會互傳訊息。"
+          },
+          {
+            "id": "c",
+            "en": "They met by chance without arranging anything.",
+            "zh": "他們事前沒有安排，只是偶然碰面。"
+          },
+          {
+            "id": "d",
+            "en": "They are gathering only to recall childhood memories.",
+            "zh": "他們相聚只為回憶童年。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "meet up 指約好親身見面，訊息只是安排工具。"
+      },
+      "reply": {
+        "promptEn": "Three friends agree by text to gather at the covered market at eleven and walk to an exhibition together. What are they planning?",
+        "promptZh": "（三位朋友用訊息約好十一時在有蓋市集集合，再一起走去展覽。他們計劃做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have agreed on a time and place to gather.",
+            "zh": "他們已約定聚集的時間和地點。"
+          },
+          {
+            "id": "b",
+            "en": "They will start the walk together from the market.",
+            "zh": "他們會從市集一起出發。"
+          },
+          {
+            "id": "c",
+            "en": "They will meet up at the market before the exhibition.",
+            "zh": "他們會在展覽前於市集相約見面。"
+          },
+          {
+            "id": "d",
+            "en": "The texts help coordinate an in-person visit.",
+            "zh": "訊息有助安排親身參觀。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆根據時間、地點和親身同行；金句概括相約見面。"
+      },
+      "scene": {
+        "promptZh": "兩名同學約好放學後在社區中心集合，一起製作展板，並非只在網上討論。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They will meet up at the centre to work on the display.",
+            "zh": "他們會在中心相約見面，一起製作展板。"
+          },
+          {
+            "id": "b",
+            "en": "They will only send each other photographs from home.",
+            "zh": "他們只會從家中互傳照片。"
+          },
+          {
+            "id": "c",
+            "en": "They happened to pass each other without a plan.",
+            "zh": "他們沒有計劃，只是偶然擦身而過。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有約定的親身相聚及共同活動。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 meeting up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They remain in separate cities and only exchange voice notes.",
+            "zh": "兩人在不同城市，只互傳語音訊息。"
+          },
+          {
+            "id": "b",
+            "en": "They agree to gather at the gallery entrance.",
+            "zh": "他們約好在畫廊入口集合。"
+          },
+          {
+            "id": "c",
+            "en": "They arrange to work together at a café table.",
+            "zh": "他們安排在咖啡店同桌工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有遠距訊息，沒有親身見面。"
+      },
+      "dialogue": {
+        "promptEn": "A: We have chosen the library entrance for Saturday and will examine the maps together there. B: ______",
+        "promptZh": "（甲：我們選好星期六在圖書館入口集合，會在那裏一起看地圖。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Good; we can meet up there before choosing our route.",
+            "zh": "好，我們可先在那裏相約見面，再選路線。"
+          },
+          {
+            "id": "b",
+            "en": "The entrance gives us a clear gathering point.",
+            "zh": "入口是清楚的集合點。"
+          },
+          {
+            "id": "c",
+            "en": "Bringing the maps will help when we arrive.",
+            "zh": "抵達時帶着地圖會有幫助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句自然指出約定地點和見面後的事。"
+      },
+      "speaking": {
+        "en": "The photography group is meeting up at the pier entrance on Sunday morning, then walking to two viewpoints together; the online chat only confirms who is coming.",
+        "zh": "攝影小組星期日上午會在碼頭入口相約見面，再一起走到兩處觀景點；網上群組只用來確認出席者。",
+        "promptZh": "交代人、時間、地點和親身相聚後的活動。",
+        "targetSpan": {
+          "start": 25,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人先遠距安排，之後在明確地點親身相聚辦事。用英文寫出安排和共同活動。",
+        "selfCheckZh": "兩例須有實際見面，而不是只有通訊；不必寫成久別重逢敘舊。",
+        "examples": [
+          {
+            "en": "After confirming the time in a group message, the neighbourhood gardeners met up outside the tool shed at nine and divided the planting beds before the rain arrived.",
+            "zh": "社區園藝義工先在群組訊息中確認時間，九時在工具棚外相約見面，趁下雨前分配種植區。"
+          },
+          {
+            "en": "After confirming the time by phone, the student translators met up in the print room to check the captions against the original posters.",
+            "zh": "學生翻譯員先用電話確認時間，再在印刷室相約見面，對照原海報檢查字幕。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the tool shed",
+            "zh": "工具棚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 102
+            }
+          },
+          {
+            "en": "planting beds",
+            "zh": "種植區",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 140
+            }
+          },
+          {
+            "en": "the print room",
+            "zh": "印刷室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 84
+            }
+          },
+          {
+            "en": "the captions",
+            "zh": "字幕",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 106
+            }
+          },
+          {
+            "en": "original posters",
+            "zh": "原海報",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Meet up usually marks an arranged in-person gathering.",
+          "zh": "meet up 通常指按安排親身相聚。"
+        },
+        {
+          "en": "Friends can meet up for work or leisure without needing old news to share.",
+          "zh": "朋友可為工作或休閒相約見面，不一定要敘舊。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3754",
+      "number": 3754,
+      "inventoryId": "expr-3754",
+      "titleEn": "being out and about",
+      "titleZh": "在外走動；四處活動",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bout and about\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be active outside the home or usual indoor base, moving among places or people rather than staying in.",
+        "meaningZh": "離開家或平常的室內據點，到外面走動、接觸不同地方或人。",
+        "grammar": "Out and about follows be; being out and about works as a gerund phrase. It does not specify a particular destination or require vigorous exercise.",
+        "register": "Informal everyday English. A carer might use it with a colleague discussing someone’s day in the neighbourhood.",
+        "boundaryZh": "短暫離開家門一次也未必足以概括整天在外活動；重點是外出走動的狀態。",
+        "misconceptionZh": "不是失蹤，也不一定是旅遊或運動。",
+        "outcomeZh": "能依外出走動的證據描述活動狀態，而不誇大成旅遊。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1643",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 154,
+          "book": 14,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "44–46",
+          "locatorNote": "DOCX table 164, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The trip was mostly about being out and about.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "being out and about"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After weeks of staying indoors, Elsie spent Saturday visiting the flower market, greeting neighbours and walking through the park. She enjoyed being out and about again without planning a long trip.",
+        "zh": "艾爾西連續幾週留在室內後，星期六去花市、跟鄰居打招呼，又走過公園。她享受再次在外走動，並沒有安排長途旅行。",
+        "promptZh": "甚麼支持她「在外走動」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She visited several local places and interacted with neighbours.",
+            "zh": "她到訪幾個本地地方，並與鄰居互動。"
+          },
+          {
+            "id": "b",
+            "en": "She stayed inside all Saturday and spoke to nobody.",
+            "zh": "她星期六整天留在室內，沒有跟任何人說話。"
+          },
+          {
+            "id": "c",
+            "en": "She had to travel overseas to qualify.",
+            "zh": "她必須出國才算在外活動。"
+          },
+          {
+            "id": "d",
+            "en": "She disappeared and could not be contacted.",
+            "zh": "她失蹤而且無法聯絡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "花市、鄰里與公園顯示外出活動，不必是長途旅行。"
+      },
+      "reply": {
+        "promptEn": "After recovering, Arun now walks to the small shops, chats with neighbours and visits the park most afternoons. How is he spending those afternoons?",
+        "promptZh": "（阿倫康復後，如今大多數下午會走到小店、跟鄰居聊天，又到公園。他如何度過下午？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is leaving home and visiting nearby places.",
+            "zh": "他會離家到附近地方走走。"
+          },
+          {
+            "id": "b",
+            "en": "He has resumed contact with people in the neighbourhood.",
+            "zh": "他重新跟社區的人接觸。"
+          },
+          {
+            "id": "c",
+            "en": "He is out and about on most afternoons.",
+            "zh": "他大多數下午都在外走動。"
+          },
+          {
+            "id": "d",
+            "en": "The outings include shops and the park.",
+            "zh": "外出行程包括小店和公園。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都據具體行為回答；金句自然概括活動狀態。"
+      },
+      "scene": {
+        "promptZh": "旅行團的長者每天早上到海旁散步、逛市集、在茶室與居民談話，並非整天待在旅館。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They enjoy being out and about in the neighbourhood.",
+            "zh": "他們喜歡在社區四處活動。"
+          },
+          {
+            "id": "b",
+            "en": "They remain in their hotel rooms all day.",
+            "zh": "他們整天留在旅館房間。"
+          },
+          {
+            "id": "c",
+            "en": "They must be travelling to another country.",
+            "zh": "他們必定正在出國旅行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項外出活動支持「在外走動」。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is out and about？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The person spends the afternoon indoors reading and makes no trip outside.",
+            "zh": "那人整個下午在室內閱讀，沒有外出。"
+          },
+          {
+            "id": "b",
+            "en": "The person visits a market, then walks to the community garden.",
+            "zh": "那人去市集，再走到社區花園。"
+          },
+          {
+            "id": "c",
+            "en": "The person calls on neighbours and runs a few local errands.",
+            "zh": "那人探望鄰居，並在附近辦幾件事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完全沒有外出，不符 out and about。"
+      },
+      "dialogue": {
+        "promptEn": "A: Since the repairs ended, May has been walking to the library, market and waterfront every week. B: ______",
+        "promptZh": "（甲：維修結束後，美每週都步行到圖書館、市集和海濱。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is good to see her out and about again.",
+            "zh": "很高興看到她再次到外面走動。"
+          },
+          {
+            "id": "b",
+            "en": "She has several nearby places to enjoy.",
+            "zh": "附近有好幾個地方供她活動。"
+          },
+          {
+            "id": "c",
+            "en": "Those regular outings sound meaningful to her.",
+            "zh": "那些定期外出對她似乎很有意義。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括反覆外出活動的狀態。"
+      },
+      "speaking": {
+        "en": "The new community guide made it easier for residents to be out and about: they could find accessible paths between the clinic, market and park.",
+        "zh": "新的社區指南讓居民更容易在外走動：他們可找到診所、市集與公園之間的無障礙路線。",
+        "promptZh": "說明外出活動與具體地點，不要把它誤作出國旅行。",
+        "targetSpan": {
+          "start": 59,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人最近有更多本地外出活動。用英文列出可觀察的地點與行動，不必寫成遠行或劇烈運動。",
+        "selfCheckZh": "兩例要有實際外出走動，不能只說在家上網。",
+        "examples": [
+          {
+            "en": "During the neighbourhood art week, Jun was out and about each morning, visiting the mural lane and speaking with stallholders about their designs.",
+            "zh": "社區藝術週期間，俊每天早上都在外走動，去壁畫巷，並與攤主談他們的設計。"
+          },
+          {
+            "en": "After the new ramp opened, Farah enjoyed being out and about again, stopping at the bakery and walking to the garden with her sister.",
+            "zh": "新斜台啟用後，法拉享受再次外出走動，與姊姊到麵包店，再步行到花園。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the mural lane",
+            "zh": "壁畫巷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 94
+            }
+          },
+          {
+            "en": "stallholders",
+            "zh": "攤主",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 125
+            }
+          },
+          {
+            "en": "the new ramp",
+            "zh": "新斜台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 18
+            }
+          },
+          {
+            "en": "the bakery",
+            "zh": "麵包店",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 90
+            }
+          },
+          {
+            "en": "the garden",
+            "zh": "花園",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Being out and about describes active time outside the home.",
+          "zh": "being out and about 描述離家外出走動的狀態。"
+        },
+        {
+          "en": "You can be out and about locally; a long journey is unnecessary.",
+          "zh": "在本地四處活動也算 out and about，不必遠行。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3766",
+      "number": 3766,
+      "inventoryId": "expr-3766",
+      "titleEn": "come to mind",
+      "titleZh": "浮現腦海",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming) to mind\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Occur to someone as a thought, memory or example, often spontaneously in response to a topic.",
+        "meaningZh": "某想法、回憶或例子因話題而自然浮現腦海。",
+        "grammar": "A thought or example comes to mind; with a person, use comes to my/your mind or comes to mind for me. Do not use a person as the subject merely for remembering.",
+        "register": "Neutral conversational English. A teacher may use it when asking for examples in discussion.",
+        "boundaryZh": "重點是自然想起，不一定已仔細研究或證實其相關性。",
+        "misconceptionZh": "不是某人身體走來，也不表示腦中第一個念頭必然正確。",
+        "outcomeZh": "能指出話題和自然想到的具體例子，並保留驗證空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1655",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 156,
+          "book": 14,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "49–50",
+          "locatorNote": "DOCX table 166, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Busy roads come to mind when we discuss noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come to mind"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "When the class discussed accessible public spaces, the steep steps at the old station came to mind for Leena. She had used that station last week, but she checked the current entrance map before citing it as evidence.",
+        "zh": "班上討論無障礙公共空間時，舊車站的陡梯浮現在莉娜腦海。她上週用過該站，但引用作證前仍查核現時入口地圖。",
+        "promptZh": "莉娜如何得到這個例子？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Discussion prompted her to recall a station she had used.",
+            "zh": "討論令她想起自己用過的車站。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher assigned her that exact station as the only answer.",
+            "zh": "老師指定那個車站為唯一答案。"
+          },
+          {
+            "id": "c",
+            "en": "She invented a station without any memory of it.",
+            "zh": "她毫無記憶，純粹虛構那個車站。"
+          },
+          {
+            "id": "d",
+            "en": "She concluded her memory needed no checking.",
+            "zh": "她斷定自己的記憶完全不用查核。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "例子因討論自然浮現，之後仍可查證。"
+      },
+      "reply": {
+        "promptEn": "The group is discussing places where signs confuse first-time visitors. Mei remembers the hospital’s two similar entrances from yesterday and says it first. What happened?",
+        "promptZh": "（小組討論哪些地方的指示牌令首次到訪者困惑。美想起昨天醫院兩個相似的入口，並先說出這個例子。發生了甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The hospital example occurred to her during the discussion.",
+            "zh": "討論時她想到了醫院的例子。"
+          },
+          {
+            "id": "b",
+            "en": "Her recent visit made that example easy to recall.",
+            "zh": "最近去過醫院，令這例子容易想起。"
+          },
+          {
+            "id": "c",
+            "en": "The similar entrances came to mind when signs were mentioned.",
+            "zh": "談到指示牌時，相似的入口浮現在她腦海。"
+          },
+          {
+            "id": "d",
+            "en": "Yesterday’s visit gave her a concrete example to mention in the discussion.",
+            "zh": "昨天的到訪讓她在討論中想起一個可提出的具體例子。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合昨日經歷與討論引發回想；金句使用目標語。"
+      },
+      "scene": {
+        "promptZh": "大家討論社區裏能避雨的公共空間時，阿樂立即想到上週走過的有蓋行人道，並打算稍後查其開放時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The covered walkway came to mind when the group discussed shelter.",
+            "zh": "小組談避雨地方時，有蓋行人道浮現在他腦海。"
+          },
+          {
+            "id": "b",
+            "en": "He had already proved every detail without checking.",
+            "zh": "尚未查核，他便已證實所有細節。"
+          },
+          {
+            "id": "c",
+            "en": "The walkway physically walked into his mind.",
+            "zh": "行人道真的走進他的腦袋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "話題觸發相關記憶，並不保證全部細節已驗證。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 the example came to mind？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A facilitator hands each student a preselected example to read aloud, with no recollection or selection.",
+            "zh": "主持人把預選例子交給每名學生照讀，沒有回想或自選。"
+          },
+          {
+            "id": "b",
+            "en": "A smell reminds someone of a childhood garden.",
+            "zh": "某種氣味令一個人想起童年花園。"
+          },
+          {
+            "id": "c",
+            "en": "A question prompts someone to recall a nearby crossing.",
+            "zh": "一個問題令某人想起附近的過路處。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照讀指定例子，不是想法自然浮現。"
+      },
+      "dialogue": {
+        "promptEn": "A: We need examples of quiet public places. The riverside reading garden I visited yesterday is the first one I can think of. B: ______",
+        "promptZh": "（甲：我們需要安靜公共空間的例子。我昨天到過的河畔閱讀花園是第一個想到的。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That garden came to mind quickly; let us verify its opening hours.",
+            "zh": "那個花園很快浮現在你腦海；我們再核實開放時間。"
+          },
+          {
+            "id": "b",
+            "en": "Your recent visit may explain why you remembered it.",
+            "zh": "你最近到過，也許因此想起它。"
+          },
+          {
+            "id": "c",
+            "en": "We can check whether it still meets the quiet-place criterion.",
+            "zh": "我們可查查它是否仍符合安靜空間的準則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句描述自然想到例子，並保留查證。"
+      },
+      "speaking": {
+        "en": "When the committee asked for ways to reduce glare, the shaded bus shelter came to mind for Hana because she had measured its roof angle during last month’s survey.",
+        "zh": "委員會要求提出減少眩光的方法時，遮蔭巴士站浮現在哈娜腦海，因她在上月調查量過它的屋頂角度。",
+        "promptZh": "交代觸發話題、想到的例子及相關經驗。",
+        "targetSpan": {
+          "start": 74,
+          "end": 86
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個話題各使某人自然想到一個相關例子。用英文寫出觸發點及其後的合理查核。",
+        "selfCheckZh": "兩例須有想法浮現的線索；不要說第一個念頭必定是正確結論。",
+        "examples": [
+          {
+            "en": "When residents discussed safe night routes, the bright passage beside the clinic came to mind for Dev, but he checked whether its lights still worked.",
+            "zh": "居民討論夜間安全路線時，診所旁明亮的通道浮現在德夫腦海；他仍查核照明是否如常運作。"
+          },
+          {
+            "en": "At the workshop on reusable containers, the school’s shared lunch boxes came to mind for Suri; she asked staff how often they were actually returned.",
+            "zh": "在可重用容器工作坊上，學校共用飯盒浮現在蘇莉腦海；她向職員查問實際歸還頻率。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "safe night routes",
+            "zh": "夜間安全路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 42
+            }
+          },
+          {
+            "en": "the bright passage",
+            "zh": "明亮的通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 62
+            }
+          },
+          {
+            "en": "its lights still worked",
+            "zh": "照明仍如常運作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 149
+            }
+          },
+          {
+            "en": "reusable containers",
+            "zh": "可重用容器",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 38
+            }
+          },
+          {
+            "en": "actually returned",
+            "zh": "實際歸還",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 148
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Come to mind describes a thought occurring, not a verified conclusion.",
+          "zh": "come to mind 指想法浮現，不等於已證實的結論。"
+        },
+        {
+          "en": "Relevant memories can come to mind when a topic is raised.",
+          "zh": "提出話題時，相關記憶可能浮現腦海。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3778",
+      "number": 3778,
+      "inventoryId": "expr-3778",
+      "titleEn": "see them with their own eyes",
+      "titleZh": "親眼查看",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bsee (?:it|them|this|those) with (?:my|your|his|her|our|their|its) own eyes\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Personally inspect or witness something directly rather than relying only on a description or image.",
+        "meaningZh": "親自實地查看或目睹，而不是只依靠文字描述或照片。",
+        "grammar": "See + object + with + possessive + own eyes. The possessive agrees with the viewer; the object can be them for multiple items. With their eyes open is a different idiom about awareness.",
+        "register": "Neutral emphatic English. A buyer may say it to a seller before committing to a purchase.",
+        "boundaryZh": "強調第一手觀察，不保證親眼看過便知道所有隱藏問題；亦不等於冒險時保持警覺。",
+        "misconceptionZh": "不是多長了一雙眼，也不等於第1753課 with their eyes open 的「知情而做」。",
+        "outcomeZh": "能交代網上資料不足及親身查看能核實的細節。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1667",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 157,
+          "book": 14,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "50–52",
+          "locatorNote": "DOCX table 167, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Buyers want to see them with their own eyes before paying.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "see them with their own eyes"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "A buyer saw photographs of the refurbished chairs, but the seat fabric and frame joints were hard to judge on screen. She arranged a visit to see them with her own eyes before paying the deposit.",
+        "zh": "買家看過翻新椅子的照片，但布料與椅架接合處在螢幕上難以判斷。她安排到現場親眼查看，然後才付訂金。",
+        "promptZh": "買家為何安排到現場？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wants to inspect details that photographs do not show clearly.",
+            "zh": "她想查看照片未能清楚呈現的細節。"
+          },
+          {
+            "id": "b",
+            "en": "She has already inspected every chair in person.",
+            "zh": "她已親自檢查每張椅子。"
+          },
+          {
+            "id": "c",
+            "en": "The deposit was paid before she saw any pictures.",
+            "zh": "她未看任何照片便已付訂金。"
+          },
+          {
+            "id": "d",
+            "en": "She believes photographs are always legally invalid.",
+            "zh": "她相信照片在法律上一律無效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "親眼查看可核對布料及接合處，仍不保證知道所有問題。"
+      },
+      "reply": {
+        "promptEn": "The school plans to buy used music stands. Photos show the colour, but staff cannot tell whether the joints are loose; they arrange to visit the store before paying. What do they want to do?",
+        "promptZh": "（學校打算買二手譜架。照片顯示顏色，職員卻看不清接合處是否鬆動；付款前他們安排到店舖。職員想做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They want to inspect the stands in person.",
+            "zh": "他們想親自檢查譜架。"
+          },
+          {
+            "id": "b",
+            "en": "They can test whether the joints feel loose.",
+            "zh": "他們可試試接合處是否鬆動。"
+          },
+          {
+            "id": "c",
+            "en": "At the store, staff can see them with their own eyes and inspect the joints.",
+            "zh": "到店後，職員可親眼查看譜架，並檢查接合處。"
+          },
+          {
+            "id": "d",
+            "en": "The visit can answer a question photographs leave open.",
+            "zh": "到店舖可解答照片未能顯示的疑問。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由照片不足與到店查核而來；金句強調第一手觀察。"
+      },
+      "scene": {
+        "promptZh": "網上照片看不出兩張舊書桌的抽屜是否順暢，買家便約時間到店舖檢查，才決定是否付款。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They will see them with their own eyes before deciding.",
+            "zh": "他們會先親眼查看兩張書桌，再作決定。"
+          },
+          {
+            "id": "b",
+            "en": "They will rely only on a small online photograph.",
+            "zh": "他們只會依靠小幅網上照片。"
+          },
+          {
+            "id": "c",
+            "en": "They already know every hidden defect from looking once.",
+            "zh": "他們看一次便已知道所有隱藏缺陷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "親身看實物可核對照片難以顯示的抽屜狀態。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 see them with their own eyes？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The buyer relies solely on a seller’s written list and never visits or views the items directly.",
+            "zh": "買家只依賴賣家的文字清單，從未親自查看物品。"
+          },
+          {
+            "id": "b",
+            "en": "The buyer visits a workshop to inspect several chairs.",
+            "zh": "買家到工作坊親自檢查數張椅子。"
+          },
+          {
+            "id": "c",
+            "en": "The buyer watches the two machines operate in person.",
+            "zh": "買家在現場看兩部機器運作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有文字轉述，沒有第一手觀察。"
+      },
+      "dialogue": {
+        "promptEn": "A: The seller’s photos do not show the backs of those shelves, and the repair marks matter to us. B: ______",
+        "promptZh": "（甲：賣家的照片看不到那些書架背面，而我們重視修補痕跡。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Then we should see them with our own eyes before placing an order.",
+            "zh": "那麼下單前，我們應親眼查看那些書架。"
+          },
+          {
+            "id": "b",
+            "en": "An in-person visit could reveal the back panels.",
+            "zh": "到現場可能看清背板。"
+          },
+          {
+            "id": "c",
+            "en": "We can ask the seller for a viewing time.",
+            "zh": "我們可向賣家約時間看實物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把照片不足與親自查看聯繫起來。"
+      },
+      "speaking": {
+        "en": "Before accepting the donated microscopes, the lab team went to see them with their own eyes and checked the lenses and stage controls against the inventory list.",
+        "zh": "實驗室團隊接受捐贈的顯微鏡前，到場親眼查看，並依照清單檢查鏡片和載物台控制裝置。",
+        "promptZh": "說明資料來源、親自查核的原因與可見細節。",
+        "targetSpan": {
+          "start": 63,
+          "end": 91
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人先收到影像或描述，但關鍵實物細節仍不清楚。用英文寫出親自查看及核對的內容。",
+        "selfCheckZh": "兩例須有第一手查看，不能聲稱一次目視便發現所有隱藏問題。",
+        "examples": [
+          {
+            "en": "After seeing photos of two portable stages, the theatre crew visited the rental store to see them with their own eyes and checked the wheels and locking bars before signing.",
+            "zh": "劇場團隊看過兩個流動舞台的照片後，到租賃店親眼查看實物，簽約前檢查輪子與鎖桿。"
+          },
+          {
+            "en": "After viewing catalogue images of the handrails, the housing team arranged to see them with their own eyes and compare the mounting points with the measured staircase.",
+            "zh": "房屋團隊看過扶手目錄圖片後，安排親眼查看實物，並把安裝點與已量度的樓梯比較。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the rental store",
+            "zh": "租賃店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 85
+            }
+          },
+          {
+            "en": "locking bars",
+            "zh": "鎖桿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 157
+            }
+          },
+          {
+            "en": "catalogue images",
+            "zh": "目錄圖片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 30
+            }
+          },
+          {
+            "en": "mounting points",
+            "zh": "安裝點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 138
+            }
+          },
+          {
+            "en": "the measured staircase",
+            "zh": "已量度的樓梯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 166
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "See them with their own eyes stresses direct inspection rather than a description.",
+          "zh": "see them with their own eyes 強調親自查看，而不是聽取描述。"
+        },
+        {
+          "en": "You may see them with your own eyes and still need a technical test.",
+          "zh": "即使親眼查看，也可能仍需技術測試。"
+        }
+      ]
+    }
+  ]
+}

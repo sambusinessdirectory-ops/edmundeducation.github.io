@@ -1,0 +1,53 @@
+{
+  "reviewType": "independent-eight-lesson-golden-sop-editorial-review",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3751-3778-a.json", "sha256": "890e3e340d0b3034e9e70465fb67fc6c37653c659c6bf22d6b46f7c2f41abe16"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3779-3791-a.json", "sha256": "d0fa3910f97beb07698fc3e82cd8372fa6b859e869b789ea73b151c72a7343f9"}
+  ],
+  "authorAuditSha256": "020c387a8f0b5009c6899403406cfc14b662555c58d99838df48de1d7e37b549",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "five-content-repairs-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3751, "status": "repair", "summary": "Meeting up means a planned in-person gathering, whereas canonical 1521 catching up emphasizes exchanging news after time apart. Assessment senses and four replies are sound, but first writing model omits the remote arrangement explicitly required by its prompt."},
+    {"ordinal": 3754, "status": "pass", "summary": "Local movement and engagement outside home are observable; no overseas travel or strenuous exercise is falsely required. English/Chinese, reply choices, models and target align."},
+    {"ordinal": 3766, "status": "repair", "summary": "The thought-arising sense and source form are clear, but fourth reply is future checking advice, not an independently valid description of what happened in the prompt."},
+    {"ordinal": 3778, "status": "repair", "summary": "The direct-inspection sense and assessments are coherent, but first standalone writing model says 'them' before identifying its referent; Chinese silently supplies the missing noun."},
+    {"ordinal": 3779, "status": "repair", "summary": "The practical test sense is distinct from 3780 clothing fit. Both writing models conduct trials, but neither states a result-based choice despite the prompt requiring how the trial informed selection."},
+    {"ordinal": 3780, "status": "pass", "summary": "Try on consistently requires wearing a garment or shoes to test fit; it is distinguished from operating equipment. Four replies, English/Chinese, speaking and glossary align."},
+    {"ordinal": 3785, "status": "pass", "summary": "Relevant past record grounds a lower-risk comparison without guaranteeing success. Both singular/plural grammar and remaining verification are represented."},
+    {"ordinal": 3791, "status": "repair", "summary": "Extra helpful effort is distinct from required work. Second writing model lists extra acts but leaves the effect on the older resident unstated, although the prompt requires the outcome."}
+  ],
+  "ownerBoundaries": [
+    {"newOrdinal": 3751, "nearCanonical": 1521, "decision": "distinct-provisional", "reason": "The new gathering lesson does not require old-news conversation; catching up does. The source and tested target forms are different."},
+    {"newOrdinal": 3779, "nearNewOrdinal": 3780, "decision": "distinct-provisional", "reason": "Try out tests performance in use; try on tests clothing fit while worn. Each lesson consistently assesses its own verb-particle frame."}
+  ],
+  "findings": [
+    {
+      "id": "R3751-01", "severity": "major", "path": "lessons[number=3751].writing.examples[0]",
+      "issue": "The writing prompt calls for both groups to arrange matters remotely before meeting in person. Model one starts at the tool shed at nine without any text, call or other prior remote arrangement; model two does include a phone call.",
+      "requiredRepair": "Add an explicit prior remote arrangement to model one in both English and Traditional Chinese, while retaining its concrete in-person planting task and updating answer-derived glossary spans if needed."
+    },
+    {
+      "id": "R3766-01", "severity": "major", "path": "lessons[number=3766].reply.options[id=d]",
+      "issue": "The prompt asks what happened when Mei remembered and mentioned the hospital entrance. D, 'She can check details before using the memory as proof', is sensible future advice but does not describe that event, so it fails the four independently valid replies requirement.",
+      "requiredRepair": "Make D a true answer about Mei's prompted recollection or immediate mention, without repeating the keyed target expression; align Traditional Chinese."
+    },
+    {
+      "id": "R3778-01", "severity": "major", "path": "lessons[number=3778].writing.examples[0].en/zh",
+      "issue": "The standalone English model says the crew visited the rental store 'to see them with their own eyes' before identifying 'the two portable stages' later in the sentence. The antecedent is unclear at the point of use; Chinese names the stages immediately and therefore has stronger information than English.",
+      "requiredRepair": "Name the portable stages before 'see them' (or otherwise establish an unambiguous plural antecedent) in English, keep the first-hand inspection and contract-check sequence, align Chinese and recalculate affected glossary spans."
+    },
+    {
+      "id": "R3779-01", "severity": "major", "path": "lessons[number=3779].writing.examples[0..1]",
+      "issue": "The prompt asks how trial results guide a choice. Model one compares back-row clarity but never indicates which speaker was chosen; model two records failures 'before choosing one' but never identifies the chosen reader or its better result. Both remain incomplete as independent model answers.",
+      "requiredRepair": "In each model, add a concrete measured comparison and the resulting selection, without claiming that mere viewing is a trial; align both Chinese versions and update glossary spans."
+    },
+    {
+      "id": "R3791-01", "severity": "minor", "path": "lessons[number=3791].writing.examples[1]",
+      "issue": "The writing prompt requires normal duty, extra action and effect. Model two has registration, access confirmation and a bus-stop note but does not say how the older resident benefited or was able to use the information.",
+      "requiredRepair": "State a modest concrete effect (for example, that the resident could plan an accessible journey) without inventing a completed visit; align Traditional Chinese and recalculate affected glossary spans."
+    }
+  ],
+  "scopeLimit": "Independent exact-hash editorial review of unselected drafts only. No human release approval, manifest selection or publication is implied."
+}

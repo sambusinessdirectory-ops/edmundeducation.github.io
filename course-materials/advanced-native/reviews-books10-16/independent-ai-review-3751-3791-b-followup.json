@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-eight-lesson-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3751-3791-b.json",
+  "priorReviewSha256": "c27a71782ce1c27810db201cee61b299c7950b494ffaebf5d09759914deb7ef6",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3751-3778-a.json", "sha256": "cb9e896b8bedd8ee0e386d81447ca539d05c6253a35649074d3d5a7587f8dcd2"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3779-3791-a.json", "sha256": "ab5f4656ea0ad6df470fe4796c0ae0ab4a2488123902499b520c5dfe351c41bd"}
+  ],
+  "authorAuditSha256": "029b0f1bb027c395f907adb165114008ff07b01605bf5cf828be30dc1e796e18",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "all-five-prior-findings-cleared-at-exact-hashes",
+  "findingOutcomes": [
+    {"id": "R3751-01", "status": "clear", "evidence": "Model one now begins with a group-message time confirmation before the gardeners meet at the tool shed; the Chinese has the same remote arrangement and in-person task."},
+    {"id": "R3766-01", "status": "clear", "evidence": "Reply D now describes how yesterday's visit supplied Mei with the concrete example she mentioned in the discussion. It answers the event question independently without repeating the target phrase; the Chinese agrees."},
+    {"id": "R3778-01", "status": "clear", "evidence": "Model one names two portable stages in previously seen photos before using 'them' for the store inspection; the Chinese matches and the wheel/locking-bar check remains."},
+    {"id": "R3779-01", "status": "clear", "evidence": "Both models now try two actual options, state the useful result, and identify the resulting choice: the second speaker model reaches the choir's back row; the first card reader stays connected. Chinese and glossary are aligned."},
+    {"id": "R3791-01", "status": "clear", "evidence": "Model two retains routine registration plus extra access/stop checks and now states the resident could plan an accessible journey. This is a modest beneficiary effect without claiming a completed visit."}
+  ],
+  "unchangedLessons": [3754, 3780, 3785],
+  "regressionCheck": "Changed English and Traditional Chinese remain semantically paired; target-bearing assessed content, answer keys, exact glossary spans and distinct scenarios survive the revisions. No new content defect found in the focused recheck.",
+  "scopeLimit": "Independent provisional content clearance only; no selection, publication, human approval or release certification is implied."
+}

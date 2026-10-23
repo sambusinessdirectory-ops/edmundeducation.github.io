@@ -1,0 +1,246 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T15:07:34.940010+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3751-3778-a.json",
+      "sha256": "cb9e896b8bedd8ee0e386d81447ca539d05c6253a35649074d3d5a7587f8dcd2"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3779-3791-a.json",
+      "sha256": "ab5f4656ea0ad6df470fe4796c0ae0ab4a2488123902499b520c5dfe351c41bd"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "eb622badfeeb183678c89fe4aaa826e6a8dbfde1cbea14842c05202deefa42eb",
+    "39520aa19e8ed47ae210b0b33fe8ac408665b2f7920ba3611217bd4aaa78b4bd"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero flags in two batches",
+  "combinedVerifier": "PASS: 2,604 source rows, 2,604 editorial decisions, 0 source page gaps, 0 whole-catalogue schema errors; release not approved",
+  "aliasAudit": "PASS: all-discovered 158 alias-new rows, zero exceptions",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 200,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 6
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "authorSemanticNotes": {
+    "3751": "Meeting up is an arranged in-person gathering, distinguished from canonical 1521 catching up, which centres on exchanging news after time apart.",
+    "3778": "Directly seeing physical items is distinguished from canonical 1753 with their eyes open, which concerns awareness of risks.",
+    "3779/3780": "Try out tests an item’s function; try on checks wearable fit. The adjacent lessons use separate object classes and assessment decisions."
+  },
+  "independentContentReview": "initial exact-hash review identified five findings; all five author-repaired and awaiting B follow-up",
+  "reviewRepairs": {
+    "R3751-01": "First writing model now includes remote group-message arrangement before in-person meeting.",
+    "R3766-01": "Reply D now reports the recalled example rather than giving future advice.",
+    "R3778-01": "First writing model names two stages before them and grounds the prior photos.",
+    "R3779-01": "Both writing models now report trial comparison and choice, with exact glossary spans.",
+    "R3791-01": "Second writing model now states the resident can plan an accessible journey."
+  },
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "releaseApproval": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3751,
+      "sourceId": "book10-16-1640",
+      "sourceExpression": "meeting up",
+      "sourceExample": "Friends enjoy meeting up at the market.",
+      "batch": "batch-3751-3778-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3754,
+      "sourceId": "book10-16-1643",
+      "sourceExpression": "being out and about",
+      "sourceExample": "The trip was mostly about being out and about.",
+      "batch": "batch-3751-3778-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3766,
+      "sourceId": "book10-16-1655",
+      "sourceExpression": "come to mind",
+      "sourceExample": "Busy roads come to mind when we discuss noise.",
+      "batch": "batch-3751-3778-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3778,
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "batch": "batch-3751-3778-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3779,
+      "sourceId": "book10-16-1668",
+      "sourceExpression": "try them out",
+      "sourceExample": "Customers prefer to try them out in the store.",
+      "batch": "batch-3779-3791-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3780,
+      "sourceId": "book10-16-1669",
+      "sourceExpression": "try on",
+      "sourceExample": "I prefer to try on shoes before buying.",
+      "batch": "batch-3779-3791-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3785,
+      "sourceId": "book10-16-1674",
+      "sourceExpression": "safer bets",
+      "sourceExample": "Established products can seem like safer bets.",
+      "batch": "batch-3779-3791-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3791,
+      "sourceId": "book10-16-1680",
+      "sourceExpression": "go the extra mile",
+      "sourceExample": "The staff go the extra mile for regular customers.",
+      "batch": "batch-3779-3791-a.json",
+      "checks": {
+        "exactProvenance": true,
+        "sixQuestions": true,
+        "sevenSteps": true,
+        "fourRepliesStructurallyPresent": true,
+        "replyGroundingAuthorJudgment": "yes; independent review pending",
+        "sceneKeyTarget": true,
+        "dialogueKeyTarget": true,
+        "speakingSpanExact": true,
+        "twoChangedContextWritingModels": true,
+        "glossaryExactNonTargetSpans": true,
+        "TraditionalChineseEveryQuestion": true,
+        "fourAudioRolesUnder240": true
+      },
+      "glossaryRows": 5,
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    }
+  ]
+}

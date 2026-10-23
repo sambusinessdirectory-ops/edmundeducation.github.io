@@ -1,13 +1,13 @@
 {
   "status": "mechanical-review-queue-not-editorial-approval",
-  "selectedLessons": 356,
+  "selectedLessons": 374,
   "sourceExamples": 2604,
-  "learnerFacingStrings": 8638,
+  "learnerFacingStrings": 9080,
   "counts": {
     "exact": 0,
     "high": 0,
     "medium": 0,
-    "target-or-short-overlap": 420
+    "target-or-short-overlap": 429
   },
   "fuzzyCounts": {
     "nearFull": 12,
@@ -610,6 +610,34 @@
       "sourceExample": "We should not be carried away by it without scrutiny.",
       "learnerText": "They should not be carried away by it before reviewing those gaps.",
       "sharedText": "should not be carried away by it",
+      "sharedTokens": 7,
+      "targetTokens": 4,
+      "excessTokens": 3,
+      "sourceCoverage": 0.7,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3798,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1687",
+      "sourceExpression": "grin and bear it",
+      "sourceExample": "Customers need not grin and bear it when service fails.",
+      "learnerText": "They need not grin and bear it when a polite request can seek a remedy.",
+      "sharedText": "need not grin and bear it when",
+      "sharedTokens": 7,
+      "targetTokens": 4,
+      "excessTokens": 3,
+      "sourceCoverage": 0.7,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3798,
+      "field": "takeaways[1].en",
+      "sourceId": "book10-16-1687",
+      "sourceExpression": "grin and bear it",
+      "sourceExample": "Customers need not grin and bear it when service fails.",
+      "learnerText": "You need not grin and bear it when a fair, polite remedy is available.",
+      "sharedText": "need not grin and bear it when",
       "sharedTokens": 7,
       "targetTokens": 4,
       "excessTokens": 3,
@@ -2073,6 +2101,20 @@
       "severity": "target-or-short-overlap"
     },
     {
+      "lesson": 3798,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1687",
+      "sourceExpression": "grin and bear it",
+      "sourceExample": "Customers need not grin and bear it when service fails.",
+      "learnerText": "Members need not grin and bear it; they can submit a calm request for a reliable start time.",
+      "sharedText": "need not grin and bear it",
+      "sharedTokens": 6,
+      "targetTokens": 4,
+      "excessTokens": 2,
+      "sourceCoverage": 0.6,
+      "severity": "target-or-short-overlap"
+    },
+    {
       "lesson": 2611,
       "field": "dialogue.options[0].en",
       "sourceId": "book10-16-0500",
@@ -2700,6 +2742,62 @@
       "targetTokens": 6,
       "excessTokens": 1,
       "sourceCoverage": 0.778,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "They will see them with their own eyes before deciding.",
+      "sharedText": "see them with their own eyes before",
+      "sharedTokens": 7,
+      "targetTokens": 6,
+      "excessTokens": 1,
+      "sourceCoverage": 0.636,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "Before accepting the donated microscopes, the lab team went to see them with their own eyes and checked the lenses and stage controls against the inventory list.",
+      "sharedText": "to see them with their own eyes",
+      "sharedTokens": 7,
+      "targetTokens": 6,
+      "excessTokens": 1,
+      "sourceCoverage": 0.636,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "After seeing photos of two portable stages, the theatre crew visited the rental store to see them with their own eyes and checked the wheels and locking bars before signing.",
+      "sharedText": "to see them with their own eyes",
+      "sharedTokens": 7,
+      "targetTokens": 6,
+      "excessTokens": 1,
+      "sourceCoverage": 0.636,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "After viewing catalogue images of the handrails, the housing team arranged to see them with their own eyes and compare the mounting points with the measured staircase.",
+      "sharedText": "to see them with their own eyes",
+      "sharedTokens": 7,
+      "targetTokens": 6,
+      "excessTokens": 1,
+      "sourceCoverage": 0.636,
       "severity": "target-or-short-overlap"
     },
     {
@@ -5528,6 +5626,34 @@
       "targetTokens": 6,
       "excessTokens": 0,
       "sourceCoverage": 0.667,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "At the store, staff can see them with their own eyes and inspect the joints.",
+      "sharedText": "see them with their own eyes",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
+      "severity": "target-or-short-overlap"
+    },
+    {
+      "lesson": 3778,
+      "field": "takeaways[0].en",
+      "sourceId": "book10-16-1667",
+      "sourceExpression": "see them with their own eyes",
+      "sourceExample": "Buyers want to see them with their own eyes before paying.",
+      "learnerText": "See them with their own eyes stresses direct inspection rather than a description.",
+      "sharedText": "see them with their own eyes",
+      "sharedTokens": 6,
+      "targetTokens": 6,
+      "excessTokens": 0,
+      "sourceCoverage": 0.545,
       "severity": "target-or-short-overlap"
     },
     {

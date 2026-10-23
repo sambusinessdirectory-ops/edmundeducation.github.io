@@ -1,0 +1,45 @@
+{
+  "reviewType": "independent-eight-lesson-golden-sop-editorial-review",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3874-3879-review-pilot.json", "sha256": "ded948f7beee30b4f698118ebc807a997cc4aefb0cd95617ba4be9e5e3d8f951"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3888-3890-review-pilot.json", "sha256": "9ea986163a087b98f82c8a671216bba9570b0179ef00168f6aa43a215d8578bc"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3914-3916-review-pilot.json", "sha256": "b3e57c9e7ee8d3e87ce0d1ae2ced235ab85d3d1e2d988dc8d3aa49bfac5685e9"}
+  ],
+  "authorAuditSha256": "fd3acd0bc9dd8b7689eb2b9b2903941179b41cba2f401badd15f74e910522bb5",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "four-content-repairs-before-selection",
+  "lessonReviews": [
+    {"ordinal": 3874, "status": "repair", "summary": "The no-jail outcome is distinguished from innocence or reasons, but reply D omits that actual custody decision; one writing sentence also has avoidable ambiguity about whether an innocence finding was reported."},
+    {"ordinal": 3875, "status": "pass", "summary": "A blanket policy is contrasted with a targeted response across genuinely different nonlegal settings, preserving the source's indiscriminate-remedy sense. Both writing models retain the three-complaint/two-evening facts."},
+    {"ordinal": 3878, "status": "pass", "summary": "The prison meaning is correctly separated from community programmes and literal bar counters; the fictional scenario avoids invented grounds for differing outcomes. Four replies, bilingual writing and glossary align."},
+    {"ordinal": 3879, "status": "pass", "summary": "Sustained multi-domain change rather than one pleasant event grounds the target. The two writing models preserve eighteen months of work/study/family contact without promising perfection."},
+    {"ordinal": 3888, "status": "pass", "summary": "Excess is measured against the actual small event and transport budget; appropriate water is not incorrectly rejected. Both models and four valid replies fit the intended meaning."},
+    {"ordinal": 3890, "status": "repair", "summary": "The informal mood-shopping sense is taught accurately and not confused with clinical treatment, but reply D is only a negative description of the novel rather than a direct answer to why Ben browsed."},
+    {"ordinal": 3914, "status": "repair", "summary": "Popularity/adoption is distinguished from a person understanding a rule. Model two changes the required unit from six schools to six weekly school events in English while Chinese states six schools."},
+    {"ordinal": 3916, "status": "pass", "summary": "Figurative place-specific character is supported by local voices, transport artefacts and signs, not food taste or mere local venue. Bilingual assessed content and both writing models are complete."}
+  ],
+  "findings": [
+    {
+      "id": "R3874-01", "severity": "major", "path": "lessons[number=3874].reply.options[id=d]",
+      "issue": "The prompt asks what the fictional hearing decided about Rana's custody. D says only that the report covers a custody outcome and not every earlier fact; it never states the actual no-jail decision, so it is not independently an answer to the question.",
+      "requiredRepair": "Have D directly state the no-custody/no-jail outcome while still observing the limit on earlier facts. Keep the target only in C and align Traditional Chinese."
+    },
+    {
+      "id": "R3874-02", "severity": "minor", "path": "lessons[number=3874].writing.examples[0].en",
+      "issue": "'The report gives no grounds for the ruling or finding of innocence' can read as giving no grounds for an innocence finding, rather than saying that the report neither explains the ruling nor establishes innocence. The Chinese states the latter clearly.",
+      "requiredRepair": "Make the two unknowns syntactically separate in English, preserving the no-custody fact and aligned Chinese; update glossary offsets if affected."
+    },
+    {
+      "id": "R3890-01", "severity": "major", "path": "lessons[number=3890].reply.options[id=d]",
+      "issue": "The question is why Ben browsed the bookstall. D says the novel was discretionary rather than required, which rules out one motive but does not give the actual mood-lifting reason. All four replies are required to answer the prompt independently.",
+      "requiredRepair": "Tie D's optional purchase explicitly to seeking a pleasant break after a disappointing day, without using the target phrase; align Traditional Chinese."
+    },
+    {
+      "id": "R3914-01", "severity": "major", "path": "lessons[number=3914].writing.examples[1].en/zh",
+      "issue": "The learner prompt requires one school initially and five additional schools six weeks later, each holding weekly events. English says growth from one school to 'six weekly school events', switching the counted unit from schools to events and permitting a different number of schools. Chinese states six schools.",
+      "requiredRepair": "State growth from one school to six schools holding weekly events in English; retain increasing families and not-every-school limitation, align Chinese and recalculate any affected glossary span."
+    }
+  ],
+  "scopeLimit": "Independent exact-hash editorial review of unselected drafts only. No human release approval, manifest selection or publication is implied."
+}

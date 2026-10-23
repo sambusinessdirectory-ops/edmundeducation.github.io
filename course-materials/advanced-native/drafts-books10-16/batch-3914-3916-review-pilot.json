@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3914-3916-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3914",
+      "number": 3914,
+      "inventoryId": "expr-3914",
+      "titleEn": "catch on",
+      "titleZh": "逐漸流行起來",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:catch(?:es)?|caught|catching)\\s+on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become popular or widely adopted; in this source sense, the subject is an activity or idea, not a person beginning to understand.",
+        "meaningZh": "一項活動或想法逐漸受歡迎、被更多人採用；在此來源語境中，不是某人開始理解。",
+        "grammar": "An activity catches on; caught on is past, catching on progressive. Catch on can also mean understand, so use the surrounding subject and evidence to identify the popularity sense.",
+        "register": "Informal social observation; a club organiser reports that a new lunchtime game spreads among schools.",
+        "boundaryZh": "有人第一次嘗試不等於已流行；要有參與人數或採用範圍擴大的線索。",
+        "misconceptionZh": "不是實際抓住物件，也不能把「明白了」的另一個意思直接套用在活動擴散上。",
+        "outcomeZh": "能辨別流行與理解兩種用法，並指出活動擴散的證據。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1803",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 170,
+          "book": 15,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 182, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A simple new sport can catch on quickly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catch on"
+        }
+      ],
+      "listening": {
+        "en": "Only one class tried the courtyard game in April. By June, eight classes played it at lunch; the game was catching on across the school.",
+        "zh": "四月只有一班試玩庭院遊戲，到了六月，八個班在午飯時間都玩它；這遊戲正在全校流行起來。",
+        "promptZh": "catching on 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "More groups are taking up the game.",
+            "zh": "愈來愈多班級開始玩這遊戲。"
+          },
+          {
+            "id": "b",
+            "en": "The game is becoming less familiar each month.",
+            "zh": "這遊戲每個月都愈來愈少人知道。"
+          },
+          {
+            "id": "c",
+            "en": "One pupil has finally understood the rules.",
+            "zh": "一名學生終於理解了規則。"
+          },
+          {
+            "id": "d",
+            "en": "Only the first class played, while the other seven merely watched.",
+            "zh": "只有第一班玩，另外七班只是觀看。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由一班增至八班，說的是活動傳播。"
+      },
+      "reply": {
+        "promptEn": "Is the new courtyard dance gaining followers? At first only two neighbours joined. Over four weekends, more families arrived and three nearby streets began their own sessions.",
+        "promptZh": "（新的庭院舞蹈是否吸引更多人？起初只有兩位鄰居參加；四個週末後，更多家庭加入，附近三條街也各自開始活動。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Participation is spreading beyond the first group.",
+            "zh": "參與範圍已超出最初小組。"
+          },
+          {
+            "id": "b",
+            "en": "More households are trying the dance.",
+            "zh": "更多家庭正在嘗試這項舞蹈。"
+          },
+          {
+            "id": "c",
+            "en": "The dance is catching on in the neighbourhood.",
+            "zh": "這項舞蹈正在社區流行起來。"
+          },
+          {
+            "id": "d",
+            "en": "The sessions now attract people from several streets.",
+            "zh": "活動現在吸引多條街的居民。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出參與者和活動地點增加。"
+      },
+      "scene": {
+        "promptZh": "原本只有兩間學校設午間棋局，三個月後已有十二間學校舉辦。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The lunchtime chess activity has caught on.",
+            "zh": "午間棋局活動已逐漸流行起來。"
+          },
+          {
+            "id": "b",
+            "en": "Only one student understands chess now.",
+            "zh": "現在只有一名學生懂棋。"
+          },
+          {
+            "id": "c",
+            "en": "The activity has stopped everywhere.",
+            "zh": "活動在各地都停止了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "採用學校由二增至十二，支持逐漸流行。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持「活動 catch on」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One person tries a game once, but nobody else joins or repeats it.",
+            "zh": "一人只試玩一次，沒有人加入或再次玩。"
+          },
+          {
+            "id": "b",
+            "en": "Neighbourhood teams multiply from one to seven.",
+            "zh": "社區隊伍由一隊增至七隊。"
+          },
+          {
+            "id": "c",
+            "en": "A short challenge spreads to several classes over a term.",
+            "zh": "一項短挑戰在一學期內傳到多個班級。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有一次嘗試，沒有擴散證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「老師說 I caught on to the rule，就等於遊戲流行了。」你怎樣解釋？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person can catch on to a rule by understanding it; a game catches on when more people adopt it.",
+            "zh": "人可以因理解規則而「明白過來」；遊戲則因更多人參與而「流行起來」。"
+          },
+          {
+            "id": "b",
+            "en": "Both uses always mean a trend becomes popular.",
+            "zh": "兩種用法一定都指潮流流行。"
+          },
+          {
+            "id": "c",
+            "en": "Both uses mean catching a ball.",
+            "zh": "兩種用法都指接球。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "catch on 的意思要看主語與語境。"
+      },
+      "speaking": {
+        "en": "The new lunchtime debate game caught on after several clubs shared its rules, and attendance grew from six pupils to thirty.",
+        "zh": "多個社團分享規則後，新的午間辯論遊戲逐漸流行；參與人數由六人增至三十人。",
+        "promptZh": "先聽示範，再指出甚麼數據顯示活動流行。",
+        "targetSpan": {
+          "start": 30,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：城鎮首次舉辦「步行上學日」只有一所學校參與。六週後，另外五所學校也每週舉行，參與家庭持續增加。用英文說明活動如何逐漸流行，不要說所有學校都已參與。",
+        "selfCheckZh": "寫出最初一所學校、六週後再有五所學校每週參與、家庭增加，但不是所有學校。",
+        "examples": [
+          {
+            "en": "Walk-to-School Day is catching on: one school began it, and six weeks later five more schools hold weekly events as more families join.",
+            "zh": "「步行上學日」正在流行起來：最初只有一所學校參與，六週後另外五所也每週舉辦，加入的家庭愈來愈多。"
+          },
+          {
+            "en": "The idea caught on over six weeks, growing from one school to six schools holding weekly events. More families now take part, though not every school in town has adopted it.",
+            "zh": "這個構思在六週內逐漸流行，由一所學校擴展至六所學校每週舉辦。現在更多家庭參與，但鎮上並非每所學校都已採用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one school",
+            "zh": "一所學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 45
+            }
+          },
+          {
+            "en": "six weeks later",
+            "zh": "六週後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "five more schools",
+            "zh": "另外五所學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 93
+            }
+          },
+          {
+            "en": "more families",
+            "zh": "更多家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 129
+            }
+          },
+          {
+            "en": "six schools",
+            "zh": "六所學校",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 73
+            }
+          },
+          {
+            "en": "not every school",
+            "zh": "並非每所學校",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An activity catches on when adoption spreads.",
+          "zh": "活動逐漸流行，是指愈來愈多人採用或參與。"
+        },
+        {
+          "en": "Catch on can also mean understand; context identifies the intended sense.",
+          "zh": "catch on 也可表示「明白」；須按語境判斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3916",
+      "number": 3916,
+      "inventoryId": "expr-3916",
+      "titleEn": "local flavour",
+      "titleZh": "本地特色",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\blocal\\s+flavou?r\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The distinctive character a place or community gives to an event or work, not necessarily a literal taste.",
+        "meaningZh": "一個地方或社群賦予活動或作品的獨有特色，未必與實際味道有關。",
+        "grammar": "Local flavour (British) or local flavor (American) is a noun phrase; strong local flavour adds degree. Name the local practices, voices or details that create the character.",
+        "register": "Cultural-event review; an organiser explains how neighbourhood stories and crafts make a festival recognisably local.",
+        "boundaryZh": "只在本地舉行不足以自動有本地特色；須有可指認的在地內容。食物的實際味道則須按語境另作判斷。",
+        "misconceptionZh": "flavour 不一定指舌頭嚐到的味道，也不能只靠地點標籤就斷定活動有特色。",
+        "outcomeZh": "能指出具體本地元素，並分辨比喻特色與字面味道。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1805",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 170,
+          "book": 15,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 182, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The tournament has strong local flavour.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "strong local flavour"
+        }
+      ],
+      "listening": {
+        "en": "The river festival invited neighbourhood boat builders to demonstrate their craft and used residents’ stories in its programme. Those details gave it strong local flavour.",
+        "zh": "河畔節邀請社區造船師傅示範手藝，節目還加入居民故事。這些細節為活動增添濃厚的本地特色。",
+        "promptZh": "local flavour 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Distinctive features linked to the community.",
+            "zh": "與社區有關的獨有特色。"
+          },
+          {
+            "id": "b",
+            "en": "The festival’s food necessarily tasted salty.",
+            "zh": "節日食物一定有鹹味。"
+          },
+          {
+            "id": "c",
+            "en": "The event could only admit local residents.",
+            "zh": "活動只能讓本地居民參加。"
+          },
+          {
+            "id": "d",
+            "en": "The festival had no connection with neighbourhood traditions.",
+            "zh": "活動與社區傳統毫無關係。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "造船手藝與居民故事讓活動具有在地性。"
+      },
+      "reply": {
+        "promptEn": "Why does the radio series feel rooted in this town? It records older residents recalling the old tram route and includes sounds from the harbour market, not just generic studio music.",
+        "promptZh": "（為何這輯電台節目帶有城鎮特色？它錄下長者回憶舊電車路線，也收錄海港市集的聲音，而非只播一般錄音室音樂。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The series includes sounds and memories specific to the town.",
+            "zh": "節目包含這城鎮特有的聲音與記憶。"
+          },
+          {
+            "id": "b",
+            "en": "Local voices help distinguish it from a generic programme.",
+            "zh": "本地聲音令它有別於一般節目。"
+          },
+          {
+            "id": "c",
+            "en": "The recordings give the series local flavour.",
+            "zh": "這些錄音令節目富有本地特色。"
+          },
+          {
+            "id": "d",
+            "en": "Its sense of place comes from residents and the harbour.",
+            "zh": "居民與海港令節目帶出地方感。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出可聽到的在地內容。"
+      },
+      "scene": {
+        "promptZh": "社區戲劇用本地渡輪廣播聲與居民採訪片段，讓觀眾認出自己的地區。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those details give the play local flavour.",
+            "zh": "這些細節令劇作富有本地特色。"
+          },
+          {
+            "id": "b",
+            "en": "The ferry sounds and interviews are absent from the play.",
+            "zh": "劇作並沒有渡輪聲音與居民採訪。"
+          },
+          {
+            "id": "c",
+            "en": "A local venue alone explains every detail.",
+            "zh": "單是本地場地便解釋了所有細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲音與居民內容形成具體地方特色。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 figurative local flavour？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A street event uses oral histories from that neighbourhood.",
+            "zh": "街頭活動加入該社區的口述歷史。"
+          },
+          {
+            "id": "b",
+            "en": "An imported exhibition is placed in a local hall with no local content or adaptation.",
+            "zh": "外地展覽只放在本地禮堂，沒有在地內容或改編。"
+          },
+          {
+            "id": "c",
+            "en": "A film includes local speech and traditional shop signs.",
+            "zh": "電影加入本地說話方式與傳統店舖招牌。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有場地在本地，作品內容沒有在地特色。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「local flavour 一定是指菜餚味道。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Local flavour can be figurative, as when regional stories or sounds shape an event.",
+            "zh": "本地特色可以是比喻，指地方故事或聲音塑造活動風格。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase never appears outside cooking.",
+            "zh": "這片語從不在烹飪以外使用。"
+          },
+          {
+            "id": "c",
+            "en": "Any event in a town automatically has local flavour.",
+            "zh": "任何在城鎮舉行的活動都自動有本地特色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這裏的 flavour 指地方氣息，不必是食物味道。"
+      },
+      "speaking": {
+        "en": "The mural has local flavour because its painted shopfronts copy real signs from the old market street.",
+        "zh": "壁畫富有本地特色，因為畫中的店面參照舊市集街道上的真實招牌。",
+        "promptZh": "先聽示範，再指出哪項具體細節帶來在地特色。",
+        "targetSpan": {
+          "start": 14,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校製作街區歷史展，借用老街坊的口述錄音，並展出舊巴士車票與本地店舖招牌；展覽不涉及食物。用英文說明具體在地元素如何塑造展覽特色，不要只說「在本地舉行」。",
+        "selfCheckZh": "寫出老街坊錄音、舊巴士車票及店舖招牌，說明比喻性的本地特色，不誤當食物味道。",
+        "examples": [
+          {
+            "en": "The history exhibition has strong local flavour because it pairs older residents’ recordings with old bus tickets and neighbourhood shop signs; the phrase describes its sense of place, not food.",
+            "zh": "歷史展富有濃厚本地特色，因為它把老街坊的錄音與舊巴士車票、社區店舖招牌一起展示；這片語形容地方氣息，而非食物。"
+          },
+          {
+            "en": "Recordings from long-time residents, old bus tickets and local shop signs give the school exhibition local flavour. These specific details root it in the neighbourhood, with no reference to taste.",
+            "zh": "老街坊錄音、舊巴士車票與本地店舖招牌，令學校展覽富有本地特色。這些具體細節把展覽連繫到社區，與實際味道無關。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "older residents",
+            "zh": "老街坊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 80
+            }
+          },
+          {
+            "en": "old bus tickets",
+            "zh": "舊巴士車票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 113
+            }
+          },
+          {
+            "en": "shop signs",
+            "zh": "店舖招牌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 142
+            }
+          },
+          {
+            "en": "sense of place",
+            "zh": "地方氣息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 169,
+              "end": 183
+            }
+          },
+          {
+            "en": "long-time residents",
+            "zh": "老街坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 35
+            }
+          },
+          {
+            "en": "neighbourhood",
+            "zh": "社區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 167
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Local flavour can describe a place’s distinctive character in an event or work.",
+          "zh": "本地特色可指地方賦予活動或作品的獨有氣息。"
+        },
+        {
+          "en": "Local flavour need not mean literal taste or merely a local venue.",
+          "zh": "本地特色不一定指實際味道，也不只是場地設於本地。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

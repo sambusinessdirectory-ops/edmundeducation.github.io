@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-eight-lesson-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3874-3916-b.json",
+  "priorReviewSha256": "ba02c389185e93959e016b9527c7a4d014bc5e129c8663b092936ae99e0c66df",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3874-3879-review-pilot.json", "sha256": "bd2e6ac4dfef7c072f27a2fbbe1ea73ddd3c12141a86c8b257fff63d4cbf5ea1"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3888-3890-review-pilot.json", "sha256": "f21aa67a1bcf0a1eafa574fc47422f9edbe61ebe1ab96c6344a5e0e061584621"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3914-3916-review-pilot.json", "sha256": "808b230b6192dc349bd41712d28c219447349ba4e0f20d20b81da349bdad70aa"}
+  ],
+  "authorRepairReportSha256": "074a5de08c3b01de81d99568606384ec1e6d185175922cb4e150b4246de000a1",
+  "buildCheck": "8 lessons, 48 questions, 32 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "all-four-prior-findings-cleared-at-exact-hashes",
+  "findingOutcomes": [
+    {"id": "R3874-01", "status": "clear", "evidence": "Reply D explicitly says Rana will not be jailed after this hearing while separately limiting what the report says about earlier events. It now answers the custody question and does not contain the keyed target expression."},
+    {"id": "R3874-02", "status": "clear", "evidence": "Writing model one now separates absence of grounds from absence of an innocence determination with 'explains neither ... nor whether he is innocent'; Traditional Chinese expresses the same two unknowns."},
+    {"id": "R3890-01", "status": "clear", "evidence": "Reply D now directly says Ben chose a low-cost novel to feel better after the disappointing day; the Chinese likewise gives the mood reason. All four replies answer why he browsed."},
+    {"id": "R3914-01", "status": "clear", "evidence": "Writing model two counts one school growing to six schools holding weekly events, with increasing families and an explicit not-every-school limit. English and Traditional Chinese now use the same unit."}
+  ],
+  "unchangedLessons": [3875, 3878, 3879, 3888, 3916],
+  "regressionCheck": "Keyed and non-keyed assessed content remains grounded; writing models, target patterns, Traditional Chinese and answer-derived glossary spans retain their original sense. No new issue found in this scoped recheck.",
+  "scopeLimit": "Independent provisional content clearance only; no selection, publication, human approval or release certification is implied."
+}

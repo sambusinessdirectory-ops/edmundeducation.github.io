@@ -1,0 +1,56 @@
+{
+  "reviewKind": "author-self-audit-unselected-pilot",
+  "dateUtc": "2026-10-23T15:06:23.632003+00:00",
+  "files": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3874-3879-review-pilot.json",
+      "sha256": "ded948f7beee30b4f698118ebc807a997cc4aefb0cd95617ba4be9e5e3d8f951",
+      "lessonCount": 4
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3888-3890-review-pilot.json",
+      "sha256": "9ea986163a087b98f82c8a671216bba9570b0179ef00168f6aa43a215d8578bc",
+      "lessonCount": 2
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3914-3916-review-pilot.json",
+      "sha256": "b3e57c9e7ee8d3e87ce0d1ae2ced235ab85d3d1e2d988dc8d3aa49bfac5685e9",
+      "lessonCount": 2
+    }
+  ],
+  "sourceOrdinals": [
+    3874,
+    3875,
+    3878,
+    3879,
+    3888,
+    3890,
+    3914,
+    3916
+  ],
+  "checks": {
+    "sourceAndEditorialOwnership": "Eight exact guide-written source sentences and eight proposed-new owner IDs verified; no existing selected or drafted owner collision from read-only screen.",
+    "targetAndGlossary": "Each source example matches its bounded target detector; all 48 answer-derived glossary spans exactly match English example substrings and contain no target.",
+    "sevenSteps": "Each lesson has six assessed decisions plus changed-context writing, two English model answers, Traditional Chinese support, speaking target chunk and two takeaways.",
+    "scenarioAndReply": "New scenes rotate settings; author checked four reply options for practical sense and one target-bearing golden answer. Independent fairness review pending.",
+    "distractorPolish": "Replaced obvious literal decoys in listening and scene with contextual near misses before handoff.",
+    "buildCheck": "8 lessons, 48 questions, 32 audio requests; initial build and --check pass with zero flags.",
+    "guideOriginality": {
+      "sourceRows": 2604,
+      "learnerFacingStrings": 192,
+      "contiguousOrFuzzyHits": 0,
+      "nonTargetHits": 0
+    }
+  },
+  "lessonNotes": {
+    "3874": "Fictional court setting states a no-jail outcome without inferring legal grounds or innocence.",
+    "3875": "Teaches reusable policy-tool metaphor with targeted alternatives, not physical instrument.",
+    "3878": "Fictional imprisonment contrasts with non-custodial programme; no legal advice.",
+    "3879": "Requires sustained change and avoids guaranteed future outcome.",
+    "3888": "Overdoing measured against attendance, quantity and budget; modest choice remains possible.",
+    "3890": "Informal shopping motive is distinguished from clinical care or guaranteed mood improvement.",
+    "3914": "Popularity sense is grounded by growth counts and contrasted with understand sense.",
+    "3916": "Figurative place character is supported by specific local voices and objects; food-taste literal sense separated."
+  },
+  "status": "AI author self-audit only. Independent editorial, human owner-scope, audio QA and release gates pending. Batches remain unselected and unpublished."
+}

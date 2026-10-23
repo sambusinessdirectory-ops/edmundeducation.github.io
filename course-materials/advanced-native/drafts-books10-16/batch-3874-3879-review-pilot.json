@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3874-3879-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3874",
+      "number": 3874,
+      "inventoryId": "expr-3874",
+      "titleEn": "walk free",
+      "titleZh": "無需入獄而離開法院",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwalk\\s+free\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Leave court or legal custody without being imprisoned in the situation described; it does not itself explain why.",
+        "meaningZh": "在所述法律情況下無需入獄，離開法院或羈押；片語本身不交代原因。",
+        "grammar": "Walk free, walked free, will walk free. Free is a subject complement; the phrase does not by itself establish innocence or the legal grounds.",
+        "register": "News and courtroom reporting; a reporter describes the outcome of a fictional hearing to readers.",
+        "boundaryZh": "無需入獄不等於法庭已證明此人無辜，也不表示案件一定沒有其他後果；須按具體情況說明。",
+        "misconceptionZh": "不是強調步行離開的交通方式，也不能單憑片語推斷審訊細節。",
+        "outcomeZh": "能分清「無需入獄」這個結果與原因或無辜與否。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1763",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The court did not allow the violent offender to walk free.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "walk free"
+        }
+      ],
+      "listening": {
+        "en": "At the end of the hearing, the judge ordered no jail time under the agreed outcome. The defendant could walk free, though the report gave no reason beyond that ruling.",
+        "zh": "聆訊結束時，法官按已議定的結果下令毋須入獄。被告可無需入獄而離開，但報道沒有交代裁決以外的原因。",
+        "promptZh": "walk free 在這段報道中表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The defendant leaves without being jailed.",
+            "zh": "被告無需入獄而離開。"
+          },
+          {
+            "id": "b",
+            "en": "The defendant has been proved innocent of every possible act.",
+            "zh": "被告已被證明從未做過任何被指行為。"
+          },
+          {
+            "id": "c",
+            "en": "The defendant must enter prison after the hearing.",
+            "zh": "被告在聆訊後必須入獄。"
+          },
+          {
+            "id": "d",
+            "en": "The hearing ended without any ruling on whether custody was required.",
+            "zh": "聆訊結束時，法庭仍未裁定是否需要羈押。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語只交代無需入獄的結果，不能補造原因。"
+      },
+      "reply": {
+        "promptEn": "What did the fictional hearing decide about Rana’s custody? The ruling says she will not be sent to jail after this hearing; it gives no broader account of what happened earlier.",
+        "promptZh": "（這場虛構聆訊對拉娜的羈押作了甚麼決定？裁決說本次聆訊後不會送她入獄，卻沒有交代更早之前發生甚麼。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Rana will leave the hearing without a jail term.",
+            "zh": "拉娜在聆訊後無需入獄。"
+          },
+          {
+            "id": "b",
+            "en": "The ruling does not require her imprisonment now.",
+            "zh": "這項裁決現時不要求把她關進監獄。"
+          },
+          {
+            "id": "c",
+            "en": "Rana can walk free after the hearing.",
+            "zh": "拉娜在聆訊後可無需入獄而離開。"
+          },
+          {
+            "id": "d",
+            "en": "Rana will not be jailed after this hearing, though the report gives no account of earlier events.",
+            "zh": "拉娜在這場聆訊後不會入獄，但報道沒有交代早前事件。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均忠於所知的結果，金句用 walk free。"
+      },
+      "scene": {
+        "promptZh": "虛構案件的聆訊後，法官決定被告毋須入獄，並准許她離開；報道沒有說明案情。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She was allowed to walk free after the hearing.",
+            "zh": "她獲准在聆訊後無需入獄而離開。"
+          },
+          {
+            "id": "b",
+            "en": "The report proves she never did anything wrong.",
+            "zh": "報道證明她從未做錯事。"
+          },
+          {
+            "id": "c",
+            "en": "She was sent to prison immediately.",
+            "zh": "她立即被送往監獄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只描述聆訊後毋須入獄的結果。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以支持「walk free」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A court lets someone leave without a jail sentence.",
+            "zh": "法庭讓某人無需入獄而離開。"
+          },
+          {
+            "id": "b",
+            "en": "A person leaves custody because the order no longer requires detention.",
+            "zh": "命令不再要求羈押，某人因此離開。"
+          },
+          {
+            "id": "c",
+            "en": "A witness walks down the street after a court hearing, with no information about custody.",
+            "zh": "證人在聆訊後沿街步行，報道沒有任何羈押資料。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "單是步行離開街道，不足以判斷有沒有入獄命令。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「walk free 就證明法庭已確定此人完全無辜。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Walk free states the no-jail outcome; the grounds must be reported separately.",
+            "zh": "無需入獄而離開只交代結果，裁決理據須另行說明。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase always proves complete innocence.",
+            "zh": "這片語一定證明完全無辜。"
+          },
+          {
+            "id": "c",
+            "en": "It only describes the person’s walking speed.",
+            "zh": "它只形容那人的步速。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不可從片語自行推斷裁決理由。"
+      },
+      "speaking": {
+        "en": "The article says the accused may walk free today, but it does not tell us why the court reached that decision.",
+        "zh": "文章說被告今天可無需入獄而離開，但沒有說明法庭為何作此決定。",
+        "promptZh": "先聽示範，再指出文章沒有提供甚麼資料。",
+        "targetSpan": {
+          "start": 33,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：虛構的地方報道只說，聆訊結束後，法庭不再要求羈押一名被告，准許他離開；報道沒有提供裁決理據，也沒有說他是否無辜。用英文寫出確知結果與未知之處。",
+        "selfCheckZh": "寫出聆訊後可無需入獄而離開、法庭不再要求羈押、理據與無辜與否未交代。",
+        "examples": [
+          {
+            "en": "The court no longer requires custody, so the defendant may walk free after the hearing; the report explains neither the grounds for the ruling nor whether he is innocent.",
+            "zh": "法庭不再要求羈押，被告可在聆訊後無需入獄而離開；報道既沒有交代裁決理據，也沒有說明他是否無辜。"
+          },
+          {
+            "en": "The defendant can walk free because detention is no longer required after the hearing, but the local report does not explain the reason or establish whether he is innocent.",
+            "zh": "聆訊後毋須再羈押，被告可無需入獄而離開；但地方報道沒有說明原因，也沒有確定他是否無辜。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "requires custody",
+            "zh": "要求羈押",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 36
+            }
+          },
+          {
+            "en": "after the hearing",
+            "zh": "聆訊後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "grounds for the ruling",
+            "zh": "裁決理據",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 142
+            }
+          },
+          {
+            "en": "whether he is innocent",
+            "zh": "他是否無辜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 169
+            }
+          },
+          {
+            "en": "detention",
+            "zh": "羈押",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 45
+            }
+          },
+          {
+            "en": "local report",
+            "zh": "地方報道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Walk free reports a no-jail result in context.",
+          "zh": "無需入獄而離開，是按語境描述一項羈押結果。"
+        },
+        {
+          "en": "Walk free alone does not explain the ruling or prove innocence.",
+          "zh": "單憑「無需入獄而離開」不能推斷理據或證明無辜。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-3875",
+      "number": 3875,
+      "inventoryId": "expr-3875",
+      "titleEn": "too blunt an instrument",
+      "titleZh": "過於粗糙的處理工具",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btoo\\s+blunt\\s+an\\s+instrument\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An approach too indiscriminate or crude for a problem that needs finer distinctions.",
+        "meaningZh": "某種方法不夠精細，無法妥善處理需要區分不同情況的問題。",
+        "grammar": "X is too blunt an instrument for Y; the “too + adjective + an + noun” order is standard. The instrument is a figurative policy tool, not necessarily a physical object.",
+        "register": "Policy and school administration discussion; a teacher weighs whether one blanket rule fits different kinds of lateness.",
+        "boundaryZh": "指出方法過於一刀切，不等於問題無須處理；應交代哪些情況須分開看。",
+        "misconceptionZh": "不是器材真的不鋒利，也不表示所有嚴格規則都必然錯誤。",
+        "outcomeZh": "能指出過於籠統的做法、被混在一起的情況，以及較精準的選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1764",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For a minor offence, prison is too blunt an instrument.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "prison is too blunt an instrument"
+        }
+      ],
+      "listening": {
+        "en": "A library considered banning every group booking after one noisy party. The ban was too blunt an instrument: quiet study groups and disruptive events needed different responses.",
+        "zh": "圖書館因一場嘈吵聚會考慮禁止所有團體預訂。這項禁令過於一刀切：安靜的溫習小組與滋擾活動需要不同處理。",
+        "promptZh": "too blunt an instrument 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The blanket ban fails to distinguish different groups.",
+            "zh": "全面禁令沒有區分不同團體。"
+          },
+          {
+            "id": "b",
+            "en": "The library has no need to respond to noisy events.",
+            "zh": "圖書館完全不用處理嘈吵活動。"
+          },
+          {
+            "id": "c",
+            "en": "The ban was limited to the noisy group alone.",
+            "zh": "禁令只針對那個嘈吵團體。"
+          },
+          {
+            "id": "d",
+            "en": "Every group booking was disruptive.",
+            "zh": "每項團體預訂都造成滋擾。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安靜小組與滋擾活動不能一律禁絕。"
+      },
+      "reply": {
+        "promptEn": "Would a ban on every student carrying a phone solve the single exam-room cheating problem? Many students need phones for travel after school, and the concern is use during the exam.",
+        "promptZh": "（禁止所有學生攜帶電話，能解決一次考場作弊問題嗎？許多學生放學後要用電話聯絡交通安排，問題在於考試期間使用電話。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A universal ban ignores the difference between carrying and using phones in the exam.",
+            "zh": "全面禁止忽略攜帶電話與考試時使用電話的差別。"
+          },
+          {
+            "id": "b",
+            "en": "The rule should focus on exam-time use rather than every journey home.",
+            "zh": "規則應針對考試期間使用，而非所有放學行程。"
+          },
+          {
+            "id": "c",
+            "en": "A blanket carrying ban is too blunt an instrument for this exam problem.",
+            "zh": "為解決這項考試問題，全面禁止攜帶電話過於一刀切。"
+          },
+          {
+            "id": "d",
+            "en": "Different situations call for a more targeted response.",
+            "zh": "不同情況需要更有針對性的處理。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出全禁的手段不夠精準。"
+      },
+      "scene": {
+        "promptZh": "社區中心為防一場活動超時，打算取消全年所有課程；大多課程向來準時。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cancelling every course is too blunt an instrument.",
+            "zh": "取消所有課程過於一刀切。"
+          },
+          {
+            "id": "b",
+            "en": "No late event needs any response.",
+            "zh": "超時活動完全不用處理。"
+          },
+          {
+            "id": "c",
+            "en": "Every course has the same late-running problem.",
+            "zh": "所有課程都有相同超時問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只針對一場超時，卻取消所有課程，沒有區分情況。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不像 too blunt an instrument？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Cancel all workshops because one group exceeded capacity.",
+            "zh": "因一組超額，就取消所有工作坊。"
+          },
+          {
+            "id": "b",
+            "en": "Check each booking’s size and adjust only those exceeding capacity.",
+            "zh": "逐項核對預訂人數，只調整超額的預訂。"
+          },
+          {
+            "id": "c",
+            "en": "Punish every class because a single class missed a deadline.",
+            "zh": "因一班遲交，就懲罰全部班級。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "逐項核對並只處理超額情況，較有針對性。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「說政策 too blunt an instrument 就是反對任何規管。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Calling it too blunt an instrument means the response needs finer distinctions, not that action is unnecessary.",
+            "zh": "說做法過於一刀切，是要求更精細地區分，而非主張完全不用處理。"
+          },
+          {
+            "id": "b",
+            "en": "Any criticism of a blanket rule means no rules at all.",
+            "zh": "批評全面規則就表示不要任何規則。"
+          },
+          {
+            "id": "c",
+            "en": "The criticism means the blanket rule should stay exactly as it is.",
+            "zh": "這項批評表示全面規則應完全照舊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "批評手段粗糙，並不是說問題不存在。"
+      },
+      "speaking": {
+        "en": "Removing every visitor comment is too blunt an instrument when the problem is a small number of abusive messages.",
+        "zh": "如果問題只是少數辱罵留言，刪除所有訪客留言便過於一刀切。",
+        "promptZh": "先聽示範，再指出哪些留言真正需要處理。",
+        "targetSpan": {
+          "start": 34,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：藝術中心只收到三宗展覽場地的噪音投訴，其中兩宗關於晚間活動。管理層打算永久取消所有早晚場次。請用英文指出為何一律取消過於粗糙，並提出只處理問題場次的方向；不要假稱所有活動都有噪音。",
+        "selfCheckZh": "寫出三宗投訴、兩宗涉及晚間、全面取消早晚場次過於一刀切、較有針對性地處理問題活動。",
+        "examples": [
+          {
+            "en": "Cancelling every daytime and evening event is too blunt an instrument for three noise complaints, two of which concern evening sessions; the centre should examine the affected events first.",
+            "zh": "因三宗噪音投訴便取消所有日間與晚間活動，過於一刀切；其中兩宗涉及晚間場次，中心應先檢視相關活動。"
+          },
+          {
+            "en": "With only three complaints and two linked to evening events, a permanent ban on all sessions is too blunt an instrument. Staff could review the noisy bookings rather than close the entire programme.",
+            "zh": "只有三宗投訴，其中兩宗涉及晚間活動，永久禁止所有場次過於一刀切。職員可檢視造成噪音的預訂，而非關閉整個活動計劃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "daytime and evening event",
+            "zh": "日間與晚間活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 42
+            }
+          },
+          {
+            "en": "three noise complaints",
+            "zh": "三宗噪音投訴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 96
+            }
+          },
+          {
+            "en": "evening sessions",
+            "zh": "晚間場次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 135
+            }
+          },
+          {
+            "en": "affected events",
+            "zh": "相關活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 182
+            }
+          },
+          {
+            "en": "permanent ban",
+            "zh": "永久禁令",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 76
+            }
+          },
+          {
+            "en": "noisy bookings",
+            "zh": "造成噪音的預訂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 158
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Too blunt an instrument describes an indiscriminate response to a nuanced problem.",
+          "zh": "過於粗糙的工具，形容以一刀切手段處理有細節差異的問題。"
+        },
+        {
+          "en": "Calling a rule too blunt an instrument does not mean ignoring the problem.",
+          "zh": "說規則過於一刀切，不等於主張忽略問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3878",
+      "number": 3878,
+      "inventoryId": "expr-3878",
+      "titleEn": "behind bars",
+      "titleZh": "身陷囹圄",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbehind\\s+bars\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In prison, or sent to prison in a construction such as put someone behind bars.",
+        "meaningZh": "身在監獄；與 put/send 等動詞連用時表示把人送入獄中。",
+        "grammar": "Be behind bars; put/send someone behind bars. Bars evoke prison bars figuratively; identify the person and the custodial result.",
+        "register": "News and social-policy discussion; a community worker contrasts custody with a non-custodial programme in a fictional case.",
+        "boundaryZh": "說明入獄結果，不代表解釋判決是否合法、是否適當，也不等於任何被關在欄杆後的情況。",
+        "misconceptionZh": "不是酒吧後面，也不是只要有鐵欄就算入獄。",
+        "outcomeZh": "能區分監禁、社區服務及其他處理方法，並指明是否已入獄。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1767",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 166,
+          "book": 14,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Treatment may be more useful than throwing them behind bars.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throwing them behind bars"
+        }
+      ],
+      "listening": {
+        "en": "In the fictional case, the court imposed a prison term. The convicted person is now behind bars, rather than attending a community programme.",
+        "zh": "在這宗虛構案件中，法庭判處監禁。被定罪的人現已入獄，而非參加社區計劃。",
+        "promptZh": "behind bars 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The person is serving time in prison.",
+            "zh": "那人正在監獄服刑。"
+          },
+          {
+            "id": "b",
+            "en": "The person is waiting at home for a sentence that has not yet been set.",
+            "zh": "那人正在家中等待尚未作出的判刑。"
+          },
+          {
+            "id": "c",
+            "en": "The prison term is only a future possibility, not the current outcome.",
+            "zh": "監禁只是將來可能出現的結果，並非現況。"
+          },
+          {
+            "id": "d",
+            "en": "The person was assigned a community programme instead of prison.",
+            "zh": "那人獲安排社區計劃，而非入獄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "法庭判處監禁；此處不是社區計劃。"
+      },
+      "reply": {
+        "promptEn": "Where is the character at the end of the novel? After sentencing, the story says he starts a prison term; the alternative training programme was not chosen.",
+        "promptZh": "（小說結尾時，角色在哪裏？判刑後，他開始服監禁刑期；另一個培訓計劃沒有獲採用。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is serving a sentence in prison.",
+            "zh": "他正在監獄服刑。"
+          },
+          {
+            "id": "b",
+            "en": "The court chose custody over training.",
+            "zh": "法庭選擇監禁而非培訓。"
+          },
+          {
+            "id": "c",
+            "en": "He is behind bars.",
+            "zh": "他身陷囹圄。"
+          },
+          {
+            "id": "d",
+            "en": "The ending places him in prison, not the programme.",
+            "zh": "結尾寫他身在監獄，而非參加計劃。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指小說角色入獄。"
+      },
+      "scene": {
+        "promptZh": "電影結尾明說角色被送往監獄，並非獲安排社區服務。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The character ends up behind bars.",
+            "zh": "角色最後身陷囹圄。"
+          },
+          {
+            "id": "b",
+            "en": "The character is free to leave after community service.",
+            "zh": "角色做完社區服務便可離開。"
+          },
+          {
+            "id": "c",
+            "en": "The prison term will start only if a future appeal fails.",
+            "zh": "只有日後上訴失敗，監禁刑期才會開始。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語在此形容角色被送入監獄。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 behind bars 表示監禁？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A fictional offender starts a prison sentence.",
+            "zh": "虛構罪犯開始服監禁刑期。"
+          },
+          {
+            "id": "b",
+            "en": "A character is detained in prison under the story’s ruling.",
+            "zh": "故事中的角色按裁決被關進監獄。"
+          },
+          {
+            "id": "c",
+            "en": "A bartender stands behind the counter but has never been imprisoned.",
+            "zh": "調酒師站在櫃檯後，從未被監禁。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "實際站在酒吧櫃檯後，不是監禁。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「behind bars 表示當事人只是需要參加輔導，不用坐牢。」你怎樣回答？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Behind bars means in prison; counselling without custody is a different outcome.",
+            "zh": "身陷囹圄指人在監獄；毋須監禁的輔導是另一種結果。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase means any kind of advice programme.",
+            "zh": "這片語指任何輔導計劃。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means someone is awaiting trial outside prison.",
+            "zh": "這片語表示某人在監獄外等候審訊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "監禁與社區輔導不可混為一談。"
+      },
+      "speaking": {
+        "en": "The story places the thief behind bars for the final chapter, while her accomplice remains outside prison.",
+        "zh": "故事最後一章寫小偷身陷囹圄，而她的同夥沒有入獄。",
+        "promptZh": "先聽示範，再指出哪位角色沒有入獄。",
+        "targetSpan": {
+          "start": 27,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇作中的兩個角色參與同一宗虛構案件。結局寫阿青入獄三個月，阿健則參加不涉監禁的社區計劃。用英文準確指出誰入獄、誰沒有；不要從這些資料推斷原因。",
+        "selfCheckZh": "寫出阿青入獄三個月、阿健參加非監禁社區計劃，沒有杜撰裁決理據。",
+        "examples": [
+          {
+            "en": "In the play, Ah Ching is behind bars for three months, while Ah Kin joins a non-custodial community programme; the ending does not explain why their outcomes differ.",
+            "zh": "在劇作中，阿青入獄三個月，阿健則參加非監禁社區計劃；結局沒有解釋兩人結果為何不同。"
+          },
+          {
+            "en": "The ending puts Ah Ching behind bars for a three-month term but sends Ah Kin to a community programme instead. It gives no reason for the difference.",
+            "zh": "結局寫阿青服刑三個月，阿健則參加社區計劃；劇作沒有交代差別的原因。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three months",
+            "zh": "三個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 53
+            }
+          },
+          {
+            "en": "non-custodial",
+            "zh": "非監禁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 89
+            }
+          },
+          {
+            "en": "community programme",
+            "zh": "社區計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 109
+            }
+          },
+          {
+            "en": "outcomes differ",
+            "zh": "結果不同",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 164
+            }
+          },
+          {
+            "en": "three-month term",
+            "zh": "三個月刑期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 59
+            }
+          },
+          {
+            "en": "no reason",
+            "zh": "沒有交代原因",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Behind bars means in prison.",
+          "zh": "身陷囹圄表示人在監獄。"
+        },
+        {
+          "en": "Behind bars is distinct from a non-custodial programme.",
+          "zh": "入獄與非監禁計劃是不同結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-3879",
+      "number": 3879,
+      "inventoryId": "expr-3879",
+      "titleEn": "turn their life around",
+      "titleZh": "扭轉人生方向",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bturn(?:s|ed|ing)?\\s+(?:their|his|her|my|our|your|its|one[’\\']s)\\s+life\\s+around\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a substantial positive change in the course of one’s life after difficulties or harmful habits.",
+        "meaningZh": "經歷困難或不良習慣後，在生活方向上作出顯著正面轉變。",
+        "grammar": "Turn one’s life around; the possessive matches the person. Past “turned”, progressive “turning”. A single good day is usually not enough to establish lasting change.",
+        "register": "Supportive everyday conversation; a mentor describes sustained changes in a former pupil’s habits without claiming a cure or guarantee.",
+        "boundaryZh": "要有一段時間內可見的生活轉向；一次好消息或一時情緒好轉不足以支持此強烈說法。",
+        "misconceptionZh": "不是身體轉身，也不能假定每個人接受支援後都必然改善。",
+        "outcomeZh": "能指出先前困難、之後持續採取的新做法，以及目前已見的改變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1768",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 167,
+          "book": 14,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Support may help the teenager turn their life around.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn their life around"
+        }
+      ],
+      "listening": {
+        "en": "After missing classes for months, Lena began attending regularly, asked for help and kept a study routine through the whole term. Her friends say she is turning her life around.",
+        "zh": "莉娜曾連續數月缺課，後來重新定期上課、主動求助，並在整個學期維持溫習習慣。朋友說她正逐步扭轉人生方向。",
+        "promptZh": "turning her life around 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is making sustained positive changes after difficulties.",
+            "zh": "她在經歷困難後持續作出正面改變。"
+          },
+          {
+            "id": "b",
+            "en": "She had one pleasant afternoon and nothing else changed.",
+            "zh": "她只是某天下午心情好，其他一切未變。"
+          },
+          {
+            "id": "c",
+            "en": "She only plans to return to class next term; no new routine has begun.",
+            "zh": "她只計劃下學期復課，尚未開始任何新作息。"
+          },
+          {
+            "id": "d",
+            "en": "Her friends can guarantee every future outcome.",
+            "zh": "朋友可保證她將來一切順利。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "定期上課、求助及維持習慣，顯示持續轉向。"
+      },
+      "reply": {
+        "promptEn": "Why is Theo’s mentor encouraged? After a long period of missed deadlines, Theo has held a stable routine, repaid what he owed and kept regular appointments for a year.",
+        "promptZh": "（提奧的導師為何感到鼓舞？經過長期遲交後，提奧一年來維持穩定作息、還清欠款，並定期赴約。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Theo has made lasting changes in several parts of his life.",
+            "zh": "提奧在生活多方面持續改變。"
+          },
+          {
+            "id": "b",
+            "en": "His recent habits differ greatly from the earlier pattern.",
+            "zh": "他最近的習慣與早前情況大不相同。"
+          },
+          {
+            "id": "c",
+            "en": "Theo has turned his life around.",
+            "zh": "提奧已扭轉人生方向。"
+          },
+          {
+            "id": "d",
+            "en": "The year of steady actions supports a major improvement.",
+            "zh": "一年持續行動支持顯著改善的判斷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據一年持續轉變作答，不保證未來。"
+      },
+      "scene": {
+        "promptZh": "角色多年失業後接受訓練，連續一年穩定工作並重建與家人的關係。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The character has turned his life around.",
+            "zh": "角色已扭轉人生方向。"
+          },
+          {
+            "id": "b",
+            "en": "The character merely had one lucky afternoon.",
+            "zh": "角色只是在某天下午走運。"
+          },
+          {
+            "id": "c",
+            "en": "The new job lasted only one day and no other habit changed.",
+            "zh": "新工作只做了一天，其他習慣也沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "工作與家庭關係皆持續改善。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 turn one’s life around？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person maintains a new routine and stable work for a year.",
+            "zh": "一個人一年來維持新作息與穩定工作。"
+          },
+          {
+            "id": "b",
+            "en": "Someone receives a single encouraging message, with no change in habits yet.",
+            "zh": "某人收到一則鼓勵訊息，但習慣尚未改變。"
+          },
+          {
+            "id": "c",
+            "en": "A former dropout returns to study and keeps attending over several terms.",
+            "zh": "曾經輟學者重返校園，連續幾個學期都持續上課。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一次鼓勵尚未證明生活方向有持續轉變。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有人接受協助，便保證 turn their life around。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Support may help people turn their life around, but the phrase needs evidence of sustained change, not a guarantee.",
+            "zh": "支援可能幫人扭轉人生，但須有持續改變的證據，不能視為保證。"
+          },
+          {
+            "id": "b",
+            "en": "All support necessarily succeeds at once.",
+            "zh": "所有支援必定立即成功。"
+          },
+          {
+            "id": "c",
+            "en": "One pleasant afternoon alone proves a lasting life change.",
+            "zh": "單憑一個愉快下午就能證明人生已持續改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可能提供幫助，與保證每人轉變不同。"
+      },
+      "speaking": {
+        "en": "Over several years, Niko turned his life around by keeping steady work and repairing relationships, though he still faces ordinary setbacks.",
+        "zh": "幾年間，尼高靠持續工作並修補關係，扭轉了人生方向；但他仍會遇到一般挫折。",
+        "promptZh": "先聽示範，再指出尼高做了哪兩件持續的事。",
+        "targetSpan": {
+          "start": 25,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小說中的美娜曾長期缺課，也與妹妹失聯。過去十八個月，她持續完成夜校課程、每週與妹妹聯絡，並找到穩定工作；仍有一些困難。用英文描述這段明顯但並非完美的轉變。",
+        "selfCheckZh": "寫出以前缺課與失聯、十八個月持續夜校與聯絡、穩定工作，沒有誇稱往後毫無困難。",
+        "examples": [
+          {
+            "en": "Mina has turned her life around over eighteen months: after long absences and losing touch with her sister, she has kept up night classes, called her weekly and found stable work, despite remaining challenges.",
+            "zh": "美娜在十八個月間扭轉了人生方向：她曾長期缺課、與妹妹失聯，現在持續上夜校、每週與妹妹聯絡，並找到穩定工作，雖仍有困難。"
+          },
+          {
+            "en": "After missing school and losing contact with her sister, Mina began to turn her life around. For eighteen months she has attended night school, stayed in weekly touch and held steady work, while still facing some difficulties.",
+            "zh": "美娜曾缺課並與妹妹失聯，其後開始扭轉人生方向。十八個月來，她持續上夜校、每週保持聯絡並穩定工作，但仍面對一些困難。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "eighteen months",
+            "zh": "十八個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 52
+            }
+          },
+          {
+            "en": "losing touch",
+            "zh": "失聯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 90
+            }
+          },
+          {
+            "en": "night classes",
+            "zh": "夜校課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 137
+            }
+          },
+          {
+            "en": "remaining challenges",
+            "zh": "仍有困難",
+            "exampleIndex": 0,
+            "span": {
+              "start": 188,
+              "end": 208
+            }
+          },
+          {
+            "en": "weekly touch",
+            "zh": "每週聯絡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 154,
+              "end": 166
+            }
+          },
+          {
+            "en": "steady work",
+            "zh": "穩定工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 176,
+              "end": 187
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Turn one’s life around means a substantial positive change after difficulty.",
+          "zh": "扭轉人生方向，指經歷困難後有顯著正面轉變。"
+        },
+        {
+          "en": "A single good moment does not prove someone has turned their life around.",
+          "zh": "一次好消息不足以證明一個人已持續扭轉人生。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "reviewType": "independent-two-lesson-golden-sop-editorial-review",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-3798-3799-a.json",
+    "sha256": "6492dec7405a9f13963a81a4ae5146b8e2977b2b24139cd619e047d0d18b9e40"
+  },
+  "authorAuditSha256": "0682cf07c14c9b01d1fcac70602254dadb4f7476053a8b488185c74121aceb02",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "buildCheck": "2 lessons, 12 questions, 8 audio requests, zero mechanical flags; fresh build and --check both passed",
+  "status": "provisional-content-clearance",
+  "lessonReviews": [
+    {
+      "ordinal": 3798,
+      "status": "pass",
+      "summary": "Source sense is tolerating an unpleasant service failure silently; the lesson explicitly permits a polite remedy rather than treating all complaints as public anger. Listening, four-valid reply, contrast, dialogue, changed-context writing and bilingual models consistently distinguish quiet endurance from factual requests. The target and exact non-target glossary spans validate."
+    },
+    {
+      "ordinal": 3799,
+      "status": "pass",
+      "summary": "The source's public-disturbance sense remains separate from a private, calm complaint. All four reply choices address the certificate error without requiring a scene; writing models transfer to a gallery label and school-fair overcharge, with English/Traditional Chinese and glossary aligned."
+    }
+  ],
+  "nonblockingNote": "Lesson 3799 writing model one would be slightly clearer if it identified the source of 'the correct label' in the curator email, but this does not obscure the taught public-commotion contrast or make the model unusable.",
+  "findings": [],
+  "scopeLimit": "Independent provisional content clearance of exact unselected draft hash only. No manifest selection, publication, human approval or release certification is implied."
+}

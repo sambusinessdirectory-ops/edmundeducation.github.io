@@ -1,0 +1,45 @@
+{
+  "reviewKind": "author-repair-followup-unselected",
+  "initialIndependentReview": "reviews-books10-16/independent-ai-review-3874-3916-b.json",
+  "initialIndependentReviewSha256": "ba02c389185e93959e016b9527c7a4d014bc5e129c8663b092936ae99e0c66df",
+  "reviewedFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3874-3879-review-pilot.json",
+      "sha256": "bd2e6ac4dfef7c072f27a2fbbe1ea73ddd3c12141a86c8b257fff63d4cbf5ea1"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3888-3890-review-pilot.json",
+      "sha256": "f21aa67a1bcf0a1eafa574fc47422f9edbe61ebe1ab96c6344a5e0e061584621"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3914-3916-review-pilot.json",
+      "sha256": "808b230b6192dc349bd41712d28c219447349ba4e0f20d20b81da349bdad70aa"
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "id": "R3874-01",
+      "repair": "Reply D now directly states Rana will not be jailed after this hearing, while preserving unknown earlier events."
+    },
+    {
+      "id": "R3874-02",
+      "repair": "Writing model 1 uses parallel neither/nor to distinguish absent ruling grounds from absent innocence information; glossary span changed."
+    },
+    {
+      "id": "R3890-01",
+      "repair": "Reply D now expressly ties choosing a low-cost novel to improving mood after a disappointing day."
+    },
+    {
+      "id": "R3914-01",
+      "repair": "Writing model 2 says six schools hold weekly events, not six events; Traditional Chinese and glossary aligned."
+    }
+  ],
+  "focusedBuildCheck": "8 lessons, 48 questions, 32 audio requests; build and --check pass with zero flags",
+  "sourceOriginality": {
+    "guideRows": 2604,
+    "learnerStrings": 192,
+    "nonTargetHits": 0,
+    "targetOnlyHits": 0
+  },
+  "status": "Author self-check only; independent exact-hash follow-up, human owner and release gates pending. Unselected."
+}

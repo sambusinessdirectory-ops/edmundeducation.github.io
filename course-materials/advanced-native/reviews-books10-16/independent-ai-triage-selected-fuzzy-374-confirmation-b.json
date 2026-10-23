@@ -1,0 +1,26 @@
+{
+  "reviewType": "independent-selected-guide-fuzzy-selection-delta-check",
+  "priorEditorialReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-triage-selected-fuzzy-356-confirmation-b.json",
+  "priorEditorialReportSha256": "09565a1bde697259033ff19d085465400da8753f04f9b8b179e505f78678ad47",
+  "currentScreen": {
+    "path": "course-materials/advanced-native/reviews-books10-16/selected-guide-overlap-screen-current.json",
+    "sha256": "1b94ef735fb64adf03ed6feaa6dfafee5b11e872afd9fecf3b5175a03d1064f9"
+  },
+  "currentManifest": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+    "sha256": "53a547a87e67057b54c46807364f6a44322b6ef73c626ccd158050dd08fe8828"
+  },
+  "selectedLessons": 374,
+  "learnerFacingStrings": 9080,
+  "mechanicalCounts": {"exact": 0, "high": 0, "medium": 0, "nearFull": 12, "reviewNearFull": 46, "fuzzyTotal": 58},
+  "identityCheck": "All 58 current fuzzy hits have the same 19 lesson IDs and identical per-lesson hit, field and source-occurrence counts recorded at the 356-selected checkpoint. None of the 18 newly selected 3751–3799 and 3874–3916 lessons appears in the fuzzy queue. The two high-volume repaired draft files for 3508 and 3689 remain byte-identical to their previously reviewed SHA-256 values.",
+  "perLessonFuzzyCounts": {
+    "2298": 1, "2414": 3, "2457": 6, "2644": 6, "2705": 5, "2758": 2, "2851": 1, "3014": 2, "3113": 1, "3124": 1, "3162": 1, "3165": 2, "3280": 1, "3329": 1, "3334": 1, "3431": 1, "3508": 18, "3689": 3, "3698": 2
+  },
+  "knownUnchangedDraftHashes": [
+    {"lesson": 3508, "path": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json", "sha256": "a18e165093f5d5bbf3308e0bd3fb98ad0696eb05bcadaf9c38eea735c6399a0c"},
+    {"lesson": 3689, "path": "course-materials/advanced-native/drafts-books10-16/batch-3640-3689-review-pilot.json", "sha256": "071a337aca262a7ffe30f21a4fcc945e6680bb17f424400b32a93a6408faa2ff"}
+  ],
+  "learnerStringComparisonLimit": "The prior 356-selected screen was overwritten in place rather than retained as a separate file. Its exact 58 learnerText values cannot all be compared byte-for-byte from the available prior report. The observed identity/count match plus unchanged high-volume draft hashes supports no new fuzzy concern, but is narrower than a full string equality proof.",
+  "editorialConclusion": "No new fuzzy originality issue is identified at this selection checkpoint. Previously cleared fixed-target overlaps remain the current review disposition; this is not human release approval."
+}

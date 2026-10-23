@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3798",
+      "number": 3798,
+      "inventoryId": "expr-3798",
+      "titleEn": "grin and bear it",
+      "titleZh": "強顏歡笑地忍受",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:grin and bear|grins and bears|grinned and bore|grinning and bearing) it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Put up with something unpleasant without protesting, often trying to appear cheerful. The phrase can be used critically when a fair remedy is available.",
+        "meaningZh": "對不愉快的事不作聲地忍受，往往還努力裝作若無其事；有合理補救途徑時，這種忍受未必必要。",
+        "grammar": "Grin and bear it is a coordinated verb idiom with fixed it referring to the unpleasant situation. In past tense, grinned and bore it.",
+        "register": "Informal conversational English. A class participant may use it when deciding whether to raise a service problem politely.",
+        "boundaryZh": "適用於可辨認的不愉快情況與默默忍受；合理地提出問題不等於鬧事。",
+        "misconceptionZh": "不是鼓勵忍受危險或失當服務，也不表示真的一直在微笑。",
+        "outcomeZh": "能區分默默忍受、禮貌反映問題與公開吵鬧。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1687",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 159,
+          "book": 14,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 170, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Customers need not grin and bear it when service fails.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grin and bear it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The pottery class lost its kiln for a second week, so students could not finish their pieces. Some planned to grin and bear it, but Mara politely asked for a revised date or refund instead.",
+        "zh": "陶藝班連續第二週無法使用窯爐，學生不能完成作品。有人打算默默忍受，瑪拉則禮貌要求新日期或退款。",
+        "promptZh": "瑪拉與打算默默忍受的同學有何不同？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She politely asked for a concrete remedy to the repeated problem.",
+            "zh": "她就反覆出現的問題禮貌要求具體補救。"
+          },
+          {
+            "id": "b",
+            "en": "She accepted the delay silently and made no request.",
+            "zh": "她默默接受延期，完全沒有提出要求。"
+          },
+          {
+            "id": "c",
+            "en": "She publicly shouted at every teacher.",
+            "zh": "她當眾向每位導師吼叫。"
+          },
+          {
+            "id": "d",
+            "en": "The kiln was working normally throughout.",
+            "zh": "窯爐一直運作正常。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她沒有強顏歡笑地忍受，也沒有吵鬧，而是提出具體合理要求。"
+      },
+      "reply": {
+        "promptEn": "The shared workshop has cancelled its repair session twice without offering a new date. Participants paid in advance, and the office accepts written requests. What can they do?",
+        "promptZh": "（共用工作坊兩度取消已付款的維修課，卻沒有提供新日期；辦公室接受書面查詢。參加者可怎樣處理？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can write to ask for a new date.",
+            "zh": "他們可寫信要求新日期。"
+          },
+          {
+            "id": "b",
+            "en": "They can request a refund if no session is available.",
+            "zh": "如果沒有補課，他們可要求退款。"
+          },
+          {
+            "id": "c",
+            "en": "They need not grin and bear it when a polite request can seek a remedy.",
+            "zh": "既可禮貌要求補救，他們便不必默默忍受。"
+          },
+          {
+            "id": "d",
+            "en": "They can explain the repeated cancellation in a factual message.",
+            "zh": "他們可在訊息中如實說明課堂兩度取消。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句皆與可用的書面途徑和具體補救相符；金句對比默默忍受。"
+      },
+      "scene": {
+        "promptZh": "社區合唱班連續三次遲開四十分鐘，學員可透過正式回饋表要求調整，卻有人說只好裝作沒事。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members need not grin and bear it; they can submit a calm request for a reliable start time.",
+            "zh": "學員不必強顏歡笑地忍受，可平靜要求準時開課。"
+          },
+          {
+            "id": "b",
+            "en": "Members must shout at the conductor in public.",
+            "zh": "學員必須當眾向指揮吼叫。"
+          },
+          {
+            "id": "c",
+            "en": "One late start proves no remedy can ever work.",
+            "zh": "只要遲開一次，便證明任何補救都不會奏效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆問題與正式途徑使默默忍受並非唯一選擇。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 someone had to grin and bear it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The person is content with the arrangement and experiences no inconvenience.",
+            "zh": "那人滿意安排，完全沒有不便。"
+          },
+          {
+            "id": "b",
+            "en": "The person feels upset about repeated delays but says nothing.",
+            "zh": "那人因反覆延期而不快，卻甚麼都不說。"
+          },
+          {
+            "id": "c",
+            "en": "The person tolerates a noisy venue with a fixed smile while wanting a quieter place.",
+            "zh": "那人想換安靜場地，卻仍帶着勉強笑容忍受噪音。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有不快或不便，便談不上忍受。"
+      },
+      "dialogue": {
+        "promptEn": "A: The online course has missed three scheduled tutorials. The provider has a written complaints route, but I do not want to sound rude. B: ______",
+        "promptZh": "（甲：網上課程有三次預定導修都沒有舉行。供應者有書面投訴途徑，但我不想顯得無禮。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You do not have to grin and bear it; a factual, polite request is reasonable.",
+            "zh": "你不必強顏歡笑地忍受；如實而有禮地提出要求很合理。"
+          },
+          {
+            "id": "b",
+            "en": "You could list the three missed tutorials in your message.",
+            "zh": "你可在訊息列出三次未舉行的導修。"
+          },
+          {
+            "id": "c",
+            "en": "Asking for a make-up date does not have to be rude.",
+            "zh": "要求補課日期不一定無禮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句分清默默忍受與有禮反映。"
+      },
+      "speaking": {
+        "en": "When the community shuttle skipped the accessible stop twice, riders did not have to grin and bear it; they recorded the dates and asked the operator to restore the published route.",
+        "zh": "社區穿梭巴士兩度跳過無障礙車站，乘客不必默默忍受；他們記下日期，要求營運者恢復公布的路線。",
+        "promptZh": "交代具體不便，以及不靠吵鬧的合理申訴途徑。",
+        "targetSpan": {
+          "start": 85,
+          "end": 101
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人遇到反覆而有記錄的不便，原本想默默忍受，後來提出有禮而具體的改善要求。用英文寫出問題和途徑。",
+        "selfCheckZh": "兩例須有真實不便與可行申訴；不要把合理反映寫成公開吵鬧。",
+        "examples": [
+          {
+            "en": "After the library lift broke down for several mornings, wheelchair users chose not to grin and bear it; they logged the closures and asked for a temporary accessible route.",
+            "zh": "圖書館升降機連續多個早上故障後，輪椅使用者沒有默默忍受；他們記下封閉情況，要求臨時無障礙路線。"
+          },
+          {
+            "en": "The market’s parcel counter lost two prepaid orders, so customers refused to grin and bear it and sent receipt copies to request replacements.",
+            "zh": "市集包裹櫃位遺失兩件預付訂單，顧客沒有默默忍受，而是送交收據副本要求補貨。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "logged the closures",
+            "zh": "記下封閉情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 128
+            }
+          },
+          {
+            "en": "a temporary accessible route",
+            "zh": "臨時無障礙路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 171
+            }
+          },
+          {
+            "en": "prepaid orders",
+            "zh": "預付訂單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 51
+            }
+          },
+          {
+            "en": "receipt copies",
+            "zh": "收據副本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          },
+          {
+            "en": "replacements",
+            "zh": "補貨",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Grin and bear it describes silent tolerance of an unpleasant situation.",
+          "zh": "grin and bear it 描述對不愉快情況的默默忍受。"
+        },
+        {
+          "en": "You need not grin and bear it when a fair, polite remedy is available.",
+          "zh": "有公平而禮貌的補救途徑時，你不必默默忍受。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3799",
+      "number": 3799,
+      "inventoryId": "expr-3799",
+      "titleEn": "make a scene",
+      "titleZh": "當眾鬧場",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making) a scene\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Cause a conspicuous public disturbance, often through loud anger or argument; a calm complaint does not count.",
+        "meaningZh": "通常因大聲發怒或爭吵而造成引人注目的公開騷動；平靜反映問題不算。",
+        "grammar": "Make a scene is a verb idiom; make inflects. It commonly appears in negative advice not to make a scene. The scene is figurative public commotion.",
+        "register": "Informal conversational English. A friend may use it when suggesting a private way to resolve an event error.",
+        "boundaryZh": "須有公開、顯眼的騷動；只是提出異議或私下反映，不等於鬧場。",
+        "misconceptionZh": "不是拍攝戲劇場面，也不能用來阻止合理投訴。",
+        "outcomeZh": "能辨認公開吵鬧與有禮處理問題的差別。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1688",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 159,
+          "book": 14,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 170, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She did not want to make a scene at the counter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make a scene"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the youth concert, Ben found his reserved seat had been given to someone else. He was upset, but he did not make a scene in front of the audience. He spoke quietly to an usher, who found another seat and corrected the list.",
+        "zh": "在青年音樂會，本發現預留座位已給了別人。他很不快，但沒有在觀眾面前鬧場；他平靜地跟帶位員說明，對方找到另一座位並修正名單。",
+        "promptZh": "本如何處理座位問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He raised it quietly with an usher instead of causing a public disturbance.",
+            "zh": "他平靜地向帶位員反映，沒有造成公開騷動。"
+          },
+          {
+            "id": "b",
+            "en": "He shouted at the audience until the concert stopped.",
+            "zh": "他向觀眾吼叫，直至音樂會停下。"
+          },
+          {
+            "id": "c",
+            "en": "He accepted the error without telling anyone.",
+            "zh": "他沒有告訴任何人，只接受錯誤。"
+          },
+          {
+            "id": "d",
+            "en": "He filmed a dramatic stage scene.",
+            "zh": "他拍攝了一幕戲劇場面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "平靜反映座位錯誤不是當眾鬧場。"
+      },
+      "reply": {
+        "promptEn": "A workshop organiser has put the wrong name on a certificate. The learner wants it corrected, and the desk can fix it after the session. What should the learner avoid doing in front of the audience?",
+        "promptZh": "（工作坊主辦者把證書上的姓名印錯。學員想更正，服務台可在課後處理。學員在觀眾面前應避免做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should avoid shouting across the room about the mistake.",
+            "zh": "他們應避免隔着房間大聲吵嚷錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "They can ask the desk for a correction after the session.",
+            "zh": "他們可在課後向服務台要求更正。"
+          },
+          {
+            "id": "c",
+            "en": "They do not need to make a scene to get the certificate fixed.",
+            "zh": "要修正證書，他們不必當眾鬧場。"
+          },
+          {
+            "id": "d",
+            "en": "A quiet request can still address the error.",
+            "zh": "平靜提出要求仍能處理錯誤。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指向不必公開吵鬧；金句用目標語區分爭取更正與鬧場。"
+      },
+      "scene": {
+        "promptZh": "參觀者發現展覽門票日期印錯；她站在人群中大聲指責每位職員，令導賞停下。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She made a scene in front of the visitors instead of speaking to the desk quietly.",
+            "zh": "她在訪客面前鬧場，沒有平靜地找服務台處理。"
+          },
+          {
+            "id": "b",
+            "en": "She merely asked a private, calm question.",
+            "zh": "她只是私下平靜地問一個問題。"
+          },
+          {
+            "id": "c",
+            "en": "She created a theatre performance as part of the tour.",
+            "zh": "她在導賞中創作一齣戲劇表演。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "高聲指責令活動中斷，符合公開騷動。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以說 make a scene？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A participant calmly asks a clerk in private to correct a name.",
+            "zh": "參加者私下平靜請職員更正姓名。"
+          },
+          {
+            "id": "b",
+            "en": "A guest yells at staff in a crowded lobby until the event stops.",
+            "zh": "賓客在擠滿人的大堂對職員吼叫，令活動停頓。"
+          },
+          {
+            "id": "c",
+            "en": "Someone loudly argues over a seat while others turn to watch.",
+            "zh": "有人為座位大聲爭吵，引得旁人回頭看。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "私下有禮提出問題，並無公開騷動。"
+      },
+      "dialogue": {
+        "promptEn": "A: The gallery sent us the wrong entry time. I want it corrected, but the opening talk has already begun. B: ______",
+        "promptZh": "（甲：畫廊給我們的入場時間錯了。我想更正，但開幕講座已開始。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can speak to the desk afterward rather than make a scene during the talk.",
+            "zh": "我們可在講座後找服務台，而不是在場內鬧場。"
+          },
+          {
+            "id": "b",
+            "en": "Keeping the talk uninterrupted is considerate of other visitors.",
+            "zh": "不打斷講座是體諒其他訪客。"
+          },
+          {
+            "id": "c",
+            "en": "We can still ask for a correction in a calm way.",
+            "zh": "我們仍可平靜地要求更正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句不放棄合理更正，但避免在講座中公開吵鬧。"
+      },
+      "speaking": {
+        "en": "The coach noticed the scoreboard was wrong, yet chose not to make a scene during the awards; she recorded the result and asked officials for a correction after the ceremony.",
+        "zh": "教練發現記分牌錯誤，卻選擇不在頒獎時鬧場；她記下結果，典禮後再向工作人員要求更正。",
+        "promptZh": "指出公開活動、可能的騷動，以及平靜處理方法。",
+        "targetSpan": {
+          "start": 61,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人遇到真實錯誤，原可當眾吵鬧，卻選擇有禮的補救方法。用英文寫出公開場合與處理步驟。",
+        "selfCheckZh": "兩例須區分公開吵鬧和合理申訴；不能把所有投訴都說成鬧場。",
+        "examples": [
+          {
+            "en": "When the museum listed the wrong artist, Mina avoided making a scene at the crowded opening and emailed the curator a photograph of the correct label.",
+            "zh": "博物館列錯藝術家時，米娜沒有在擠滿人的開幕禮鬧場，而是電郵策展人，附上正確標籤的照片。"
+          },
+          {
+            "en": "The parent did not make a scene at the school fair when a stall overcharged them; they kept the receipt and requested a refund from the organiser afterward.",
+            "zh": "學校嘉年華的攤位多收費時，家長沒有當眾鬧場；他們保留收據，事後向主辦者要求退款。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the crowded opening",
+            "zh": "擠滿人的開幕禮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 91
+            }
+          },
+          {
+            "en": "the correct label",
+            "zh": "正確標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 149
+            }
+          },
+          {
+            "en": "overcharged them",
+            "zh": "向他們多收費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 80
+            }
+          },
+          {
+            "en": "the receipt",
+            "zh": "收據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 103
+            }
+          },
+          {
+            "en": "a refund",
+            "zh": "退款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 126
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Make a scene means create a conspicuous public disturbance.",
+          "zh": "make a scene 指造成顯眼的公開騷動。"
+        },
+        {
+          "en": "You can avoid making a scene and still ask for a correction.",
+          "zh": "你可避免當眾鬧場，同時要求更正。"
+        }
+      ]
+    }
+  ]
+}
