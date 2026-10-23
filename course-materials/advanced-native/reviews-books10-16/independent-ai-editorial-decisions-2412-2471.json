@@ -1,0 +1,52 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {
+    "proposedAliasExisting": 24,
+    "proposedAliasNew": 1,
+    "holdEditorial": 20,
+    "proposedNewLesson": 15,
+    "findings": 2,
+    "major": 1,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 2413,
+      "sourceId": "book10-16-0302",
+      "phrase": "back-and-forth",
+      "path": "action; reason; proposed lesson sense",
+      "severity": "major",
+      "explanation": "The source guide defines repeated movement between positions or guesses, and the example says 'The back-and-forth between suspects kept the trial tense.' The proposed-new reason narrows that to an exchange between the suspects. The sentence does not say whether suspects are exchanging remarks, or whether attention and suspicion shift back and forth between them. Those are different teaching senses, so the new lesson's core meaning is not yet established by the source evidence.",
+      "recommendedFix": "Place the row on editorial hold until surrounding source context establishes what moves back and forth. Then compare the confirmed noun sense with canonical 885's vacillation verb and document why a separate lesson is needed."
+    },
+    {
+      "sourceOrdinal": 2467,
+      "sourceId": "book10-16-0356",
+      "phrase": "fall apart under closer inspection",
+      "path": "action; reason",
+      "severity": "minor",
+      "explanation": "The proposed-new reason distinguishes this argument-failure use only from emotional collapse, but the catalogue also has non-emotional fall-apart lessons: 521 ('the basics fall apart') and 098 ('fall apart at the seams'). The source's 'under closer inspection' adds a scrutiny condition to the broad failure metaphor, so a new whole-chunk lesson may be justified, but its ownership boundary is not documented against those nearer lessons.",
+      "recommendedFix": "Record explicit comparisons with 521 and 098. Keep a separate lesson only if the argument-under-scrutiny sense and teaching decisions are distinct; otherwise broaden an existing owner or hold until editorial review resolves the boundary."
+    }
+  ],
+  "mechanicalChecks": [
+    "All 60 source ordinals are contiguous 2412–2471, and source IDs, expressions and offsets match the extracted inventory.",
+    "New canonical IDs match their source ordinals; holds have null canonical IDs; the alias-new row points to an earlier proposed owner.",
+    "The 24 remaining existing aliases were checked for broad semantic ownership against prior lesson meanings; no additional clear sense conflict was found in this pass.",
+    "Existing-alias regex exceptions previously identified in this window are on specific editorial holds rather than counted as covered."
+  ],
+  "limits": [
+    "This is AI peer review of provisional decisions, not human language approval, owner acceptance or release approval.",
+    "The original DOCX pages and device/audio behavior were not independently rechecked in this decision audit."
+  ]
+}

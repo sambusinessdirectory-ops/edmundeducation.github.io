@@ -1,0 +1,69 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {
+    "proposedAliasExisting": 19,
+    "proposedAliasNew": 15,
+    "holdEditorial": 13,
+    "proposedNewLesson": 13,
+    "findings": 4,
+    "major": 3,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinals": [2363, 2387],
+      "sourceIds": ["book10-16-0252", "book10-16-0276"],
+      "phrase": "leave a lasting mark",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Both source rows use the identical sentence 'Good teachers leave a lasting mark on students.' Canonical 283 teaches the same broad influence sense, but its current target regex covers 'a mark', 'a strong mark', 'a deep mark' and possessives, not 'a lasting mark'. The source sentence cannot be recognized by the existing lesson detector, so the alias currently overstates implemented coverage.",
+      "recommendedFix": "Hold both repeated source rows together until canonical 283 is deliberately expanded to teach and detect the lasting variant, with grammar and examples updated; or document a separately reviewed teaching target."
+    },
+    {
+      "sourceOrdinal": 2392,
+      "sourceId": "book10-16-0281",
+      "phrase": "hide clues in plain sight",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 161 currently detects only 'hidden in plain sight', the state of being visible yet overlooked. This source uses an active transitive construction ('The writer likes to hide clues in plain sight') with an agent deliberately placing clues. The existing regex does not recognize the source phrase, and the action/agent grammar is not yet taught.",
+      "recommendedFix": "Hold this source pending a reviewed expansion of canonical 161 that covers active hide + object + in plain sight and its deliberate-placement meaning, or justify a distinct lesson."
+    },
+    {
+      "sourceOrdinal": 2396,
+      "sourceId": "book10-16-0285",
+      "phrase": "slow-burn tension",
+      "path": "action; canonicalId; reason",
+      "severity": "minor",
+      "explanation": "This adjectival compound is aliased to proposed lesson 2291, 'a slow burn', a noun construction. Both mean gradual build, but the owner lesson is still provisional and no authored target matcher or grammar demonstrates the adjective use. The alias is plausible but premature as an implemented coverage claim.",
+      "recommendedFix": "Keep the alias conditional or place it on hold until lesson 2291 explicitly teaches and detects both noun 'a slow burn' and adjective 'slow-burn + noun' patterns."
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "phrase": "tighten the screws",
+      "path": "action; reason",
+      "severity": "major",
+      "explanation": "The source example says a director used silence to 'tighten the screws' of suspense. This idiom ordinarily means increasing pressure on people, typically to make them act or yield, whereas tension or suspense building is a looser metaphorical extension. A new lesson built directly from this cinematic use risks teaching a nonstandard sense as the core usage.",
+      "recommendedFix": "Hold for editorial idiom and register review. If retained, teach the conventional pressure-on-someone sense first and present suspense use only as a carefully qualified extension if native editorial review supports it."
+    }
+  ],
+  "mechanicalChecks": [
+    "All 60 source ordinals are contiguous 2352–2411; source IDs, expressions and source-ordinal offsets match the extracted inventory.",
+    "Proposed-new IDs follow their source ordinals; holds use null canonical IDs; alias-new IDs point to earlier proposed owner IDs.",
+    "Existing canonical lesson detectors were checked against source examples for the alias-coverage findings."
+  ],
+  "limits": [
+    "This is AI peer review of provisional editorial decisions, not human language approval, owner acceptance or release approval.",
+    "The original DOCX pages and device/audio behavior were not independently rechecked in this decision audit."
+  ]
+}

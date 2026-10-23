@@ -1,0 +1,18 @@
+{
+  "reviewType": "independent AI editorial decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": "Recheck of two findings in independent-ai-editorial-decisions-2412-2471.json",
+  "result": {
+    "previousFindings": 2,
+    "resolvedByDecisionRevision": 2,
+    "remainingKnownFindings": 0
+  },
+  "resolvedEvidence": [
+    "2413 back-and-forth is now held because the source may describe verbal exchanges or shifting suspicion; its reason explicitly calls for source-sense clarification and comparison with prior go back and forth.",
+    "2467 fall apart under closer inspection is now held. Its reason compares non-emotional canonical 098 and 521 and defers the distinct-owner decision until review."
+  ],
+  "newFindings": [],
+  "limits": ["Independent AI peer review only; no human editorial or release approval."]
+}

@@ -1,0 +1,23 @@
+{
+  "reviewType": "independent AI editorial decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": "Recheck of four grouped findings across five source ordinals in editorial-decisions-2352-2411.jsonl",
+  "result": {
+    "previousGroupedFindings": 4,
+    "affectedSourceOrdinals": 5,
+    "resolvedByDecisionRevision": 4,
+    "remainingKnownFindings": 0
+  },
+  "resolvedEvidence": [
+    "2363 and 2387 repeated leave a lasting mark occurrences are both held pending canonical 283 modifier/pattern review.",
+    "2392 hide clues in plain sight is held pending active transitive construction comparison with canonical 161.",
+    "2396 slow-burn tension is held until the proposed noun owner 2291 covers the adjective or a distinct target is justified.",
+    "2401 tighten the screws is held for idiom/register review of the suspense extension."
+  ],
+  "newFindings": [],
+  "limits": [
+    "AI peer review only, not human editorial or release approval."
+  ]
+}

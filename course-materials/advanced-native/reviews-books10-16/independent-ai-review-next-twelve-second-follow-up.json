@@ -1,0 +1,39 @@
+{
+  "reviewType": "independent AI editorial second follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "Recheck of the four minor repairs reported in independent-ai-review-next-twelve-follow-up.json for batches 2141–2150 and 2151–2167",
+  "result": {
+    "priorMinorFindings": 4,
+    "resolvedOnSecondFollowUp": 4,
+    "stillOpenFromPriorFollowUp": 0,
+    "newMinorFindings": 2
+  },
+  "resolved": [
+    "2152 scene rationale now describes the current deliberate-timing and frequent-clock-check distractors.",
+    "2152 first writing-model Chinese now naturally says the class-sale spending total has become unclear.",
+    "2153 scene rationale no longer claims the current distractors literalise the metaphor.",
+    "2167 contrast rationale now calls the notice vague rather than blank."
+  ],
+  "newFindings": [
+    {
+      "lessonId": "advanced-native-2152",
+      "path": "writing.examples[1].zh",
+      "severity": "minor",
+      "explanation": "The second model still says '我忘了掌握小額開支' for 'I lost track of the small costs'. This is awkward and suggests forgetting to keep track, rather than no longer knowing the accumulated amount.",
+      "recommendedFix": "Use '我弄不清累積的小額開支有多少' or a concise equivalent, while retaining the later receipt-and-total action."
+    },
+    {
+      "lessonId": "advanced-native-2153",
+      "path": "scene.options[b]; scene.options[c]",
+      "severity": "minor",
+      "explanation": "After the repair, both wrong choices say the upload went faster than expected. One says it finished in one minute without extra steps; the other says the repeated form made it finish earlier. They test almost the same error and weaken the diversity of plausible misconceptions.",
+      "recommendedFix": "Make one alternative test a distinct timing or outcome error while remaining credible in the website-upload scene, then align the rationale."
+    }
+  ],
+  "limits": [
+    "This is AI peer review, not human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No browser/device typography or actual audio test was performed."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "reviewType": "independent AI editorial decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": "The sixty decisions in editorial-decisions-2232-2291.jsonl, rechecked against all eight findings in independent-ai-editorial-decisions-2232-2291.json",
+  "result": {
+    "priorFindings": 8,
+    "resolvedOnFollowUp": 8,
+    "stillOpenFromPriorReview": 0,
+    "newFindingsWithinThisFile": 0
+  },
+  "resolution": [
+    "The seven source-form/sense findings covering ordinals 2233, 2234, 2238, 2254, 2256, 2263, 2267 and 2277 are now explicit editorial holds with null canonical IDs and concrete review reasons.",
+    "Ordinal 2287, lean on my friend, now aliases existing canonical 1210, which already teaches and detects that support sense."
+  ],
+  "mechanicalRecheck": [
+    "All 60 source ordinals and phrases still match the source inventory.",
+    "All holds have null canonical IDs; the revised 2287 alias names the existing owner rather than a second proposed lesson."
+  ],
+  "limits": [
+    "The holds are safe unresolved states, not verified source senses or approved lessons. Human editorial review remains open.",
+    "This is AI peer review, not human approval, owner acceptance or release approval."
+  ]
+}

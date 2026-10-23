@@ -1,0 +1,58 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2235-2246-a.json",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 6
+  },
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 2,
+    "lessonsWithFindings": 4
+  },
+  "findings": [
+    {
+      "lessonId": "advanced-native-2235",
+      "path": "writing.promptZh; writing.examples[*]; writing.selfCheckZh",
+      "severity": "major",
+      "explanation": "The changed writing situation concerns an internal student-council proposal for one school study room, signed by students. Both models describe this as having 'caught the public mood'. The lesson brief itself calls the phrase a neutral journalistic expression for broad public sentiment. A school's student body can have a shared preference, but calling that the public mood sounds inflated or unnatural without a wider community/public campaign.",
+      "recommendedFix": "Move the new-context task to a genuine public/community issue, such as local residents supporting a public-library study room, and align both models, translations and exact answer-derived glossary spans. Keep it distinct from the lesson's earlier street-crossing, bus-service and clothing-exchange examples."
+    },
+    {
+      "lessonId": "advanced-native-2243",
+      "path": "reply.promptEn; reply.options[c].en; reply.options[c].zh; reply.explanationZh",
+      "severity": "major",
+      "explanation": "The question says the gallery suddenly lost power. The golden reply says the team quickly changed the route through the exhibition, but no lit or daylight route is established. If the exhibition remains dark, rerouting visitors through it is not a clearly valid response. This violates the four-valid-replies contract, even though the idiom itself is used naturally.",
+      "recommendedFix": "Supply a usable lit/daylight section in the prompt, or change the golden response to a clearly feasible immediate alternative such as moving a talk or exhibit discussion to a daylight foyer. Preserve four independently valid replies and update the Chinese and rationale."
+    },
+    {
+      "lessonId": "advanced-native-2240",
+      "path": "writing.selfCheckZh; writing.examples[1].en; writing.examples[1].zh",
+      "severity": "minor",
+      "explanation": "The self-check requires explaining both the new mobile-ordering service and retention of hand baking. The second suggested answer describes only mobile ordering and collection, omitting the maintained handmade method. It is a possible answer to the broad prompt, but it does not meet this lesson's own full self-check model.",
+      "recommendedFix": "Add a brief clause such as 'while the bakery still bakes by hand' to the second English example and translate it faithfully; recheck any glossary spans after editing."
+    },
+    {
+      "lessonId": "advanced-native-2246",
+      "path": "writing.examples[0].en; writing.examples[0].zh",
+      "severity": "minor",
+      "explanation": "'They disagree about the beach or the museum' is awkward and may suggest disagreement about the places themselves. The task is specifically disagreement over which destination to choose. The Chinese accurately states the intended choice, so the English should express that choice as clearly.",
+      "recommendedFix": "Write 'They disagree about whether to go to the beach or the museum' or 'They disagree over where to go: the beach or the museum', preserving the target phrase and aligned Chinese."
+    }
+  ],
+  "passedChecks": [
+    "All six source occurrence IDs, expression strings, guide sentences, question numbers and sample labels match the extracted source inventory.",
+    "All listening and speaking models, the six golden replies, keyed dialogue answers, two writing examples per lesson and takeaways contain the approved target form. Speaking target spans are exact and blanking removes the target.",
+    "Every glossary row is an exact character span in the cited suggested answer and excludes the target phrase. The 2235 glossary must be recalculated if its writing task changes.",
+    "Apart from the 2243 reply feasibility issue, the remaining replies are independently plausible. Standard scene, contrast and dialogue keys are defensible in this pass."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No actual audio listening, browser/device typography, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

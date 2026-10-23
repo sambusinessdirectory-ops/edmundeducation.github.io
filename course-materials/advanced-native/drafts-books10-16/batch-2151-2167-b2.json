@@ -447,7 +447,7 @@
           },
           {
             "en": "I lost track of the small costs, so I kept the receipts and calculated the total.",
-            "zh": "我忘了掌握小額開支，因此保留收據並計算了總額。"
+            "zh": "我弄不清累積的小額開支有多少，所以保留收據並計算了總額。"
           }
         ],
         "glossary": [
@@ -644,11 +644,11 @@
           },
           {
             "id": "c",
-            "en": "The repeated form made the upload finish earlier than expected.",
-            "zh": "重複填寫表格令上載比預期更早完成。"
+            "en": "The repeated form reduced the amount of information she had to enter.",
+            "zh": "重複表格令她需要輸入的資料減少了。"
           }
         ],
-        "explanationZh": "重複欄位令短工作變成一小時，符合出乎意料地大量耗時；另外兩個選項卻說上傳速度變快，與情境不符。",
+        "explanationZh": "重複欄位令短工作變成一小時，符合出乎意料地大量耗時；選項 b 說上載速度加快，選項 c 說輸入內容減少，兩者都與情境相反。",
         "answerId": "a"
       },
       "contrast": {

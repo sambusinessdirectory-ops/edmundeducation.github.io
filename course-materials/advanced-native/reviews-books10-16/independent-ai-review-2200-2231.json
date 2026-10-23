@@ -1,0 +1,62 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFiles": [
+      "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json",
+      "course-materials/advanced-native/drafts-books10-16/batch-2209-2231-a.json"
+    ],
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 10
+  },
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 3,
+    "lessonsWithFindings": 4
+  },
+  "findings": [
+    {
+      "lessonId": "advanced-native-2208",
+      "path": "dialogue.promptZh; dialogue.options[a]; dialogue.explanationZh",
+      "severity": "major",
+      "explanation": "The dialogue says only that the speaker has seen a poll about the new court. It does not tell the learner what the poll found. The keyed response asserts that respondents split between more courts and more seating, but neither result is available in the prompt. A learner cannot infer that detailed split, and the rationale treats an unstated poll result as evidence.",
+      "recommendedFix": "Add the actual two large poll groups to the dialogue prompt, with any minority nuance needed, or change the keyed reply to an appropriately qualified answer that does not invent poll findings. Recheck the Chinese and explanation against the revised prompt."
+    },
+    {
+      "lessonId": "advanced-native-2226",
+      "path": "scene.options[b]; scene.options[c]",
+      "severity": "minor",
+      "explanation": "Both distractors say the pottery student lacks interest in any further classes, so they test nearly the same opposite outcome. The scene is still keyed unambiguously, but the two alternatives add little distinct diagnostic value.",
+      "recommendedFix": "Replace one distractor with a different plausible misconception, such as treating one class as a firm professional commitment or confusing initial curiosity with established mastery, and align its Chinese wording."
+    },
+    {
+      "lessonId": "advanced-native-2209",
+      "path": "dialogue.options[c]",
+      "severity": "minor",
+      "explanation": "Telling a tired editor to stare at a page without blinking until it looks right is implausibly extreme. The SOP asks for plausible wrong options that test meaning, timing or outcome; this choice makes the correct break-taking advice too easy to identify without understanding step away from.",
+      "recommendedFix": "Use a realistic but less helpful alternative, such as continuing to check the same slides immediately without a break, and translate that exact advice."
+    },
+    {
+      "lessonId": "advanced-native-2228",
+      "path": "dialogue.options[c]",
+      "severity": "minor",
+      "explanation": "The claim that a queue will remain exactly the same size forever is implausible in an active signing event. It tests rejection of an absolute exaggeration rather than understanding how a crowd thins out.",
+      "recommendedFix": "Use a credible but incorrect timing prediction or observation about arrivals, keeping the intended best next turn and its Chinese translation aligned."
+    }
+  ],
+  "passedChecks": [
+    "All ten cited source occurrence IDs, guide sentences, expression strings, questions and sample labels match the extracted source inventory.",
+    "Every lesson has four independently plausible reply options and exactly one target-bearing golden reply; the 2208 dialogue issue concerns missing poll evidence in a different task.",
+    "Listening, speaking, golden reply, keyed dialogue, both writing examples and takeaways have matching target forms. All speaking target spans identify the exact target chunk, and the blanked speaking text contains no remaining target form.",
+    "Every glossary item is an exact substring at its recorded character span in the cited writing example, with no target phrase leakage.",
+    "The ten changed-context writing prompts differ from the earlier lesson situations. No additional English–Traditional Chinese meaning mismatch, misleading modal change or answer-key ambiguity was found in this pass."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No actual audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "reviewType": "independent AI editorial follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "Recheck of four findings in independent-ai-review-2235-2246.json after author repair",
+  "result": {
+    "previousFindings": 4,
+    "resolved": 4,
+    "stillOpenFromPriorReview": 0,
+    "newMajorFindings": 1
+  },
+  "resolvedEvidence": [
+    "2235 final writing task now concerns a public, citywide petition about library weekend hours, with thousands of signatures from several districts. Both models naturally use caught the public mood, and all six glossary spans match the changed answers exactly without target leakage.",
+    "2240 second writing model now states the bakery still bakes bread by hand, matching the self-check and its Chinese translation.",
+    "2243 golden reply now moves the talk to a daylit foyer explicitly left open during the gallery power outage, making that action feasible and aligning its Chinese and rationale.",
+    "2246 first writing model now says whether to go to the beach or the museum, matching the destination choice and Chinese translation; glossary spans remain exact."
+  ],
+  "newFindings": [
+    {
+      "lessonId": "advanced-native-2243",
+      "path": "reply.options[a]; reply.options[c]",
+      "severity": "major",
+      "explanation": "The repaired golden option C moves the exhibition talk to the daylit foyer. Option A already moves the talk to a daylight room. Both describe essentially the same response to the same outage, so the four options are no longer distinct ways of responding, contrary to the SOP's four-valid, four-distinct reply contract.",
+      "recommendedFix": "Keep C as the target-bearing move to the daylit foyer, but change A to a separate valid action, such as closing the unlit rooms for safety or checking the emergency lighting, and translate it faithfully. Keep B and D as other distinct plausible responses."
+    }
+  ],
+  "mechanicalRecheck": [
+    "Changed English writing examples still match the approved target patterns, and changed glossary source spans are exact and target-free.",
+    "All four affected records have contentRevision 2."
+  ],
+  "limits": [
+    "This is AI peer review, not human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No audio, browser/device typography, sound feedback or live lesson check was performed."
+  ]
+}

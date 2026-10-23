@@ -1,0 +1,22 @@
+{
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "limits": [
+    "Independent AI peer review only; no human language approval, owner acceptance or release approval.",
+    "No live browser, typography, device, audio or microphone check was performed in this follow-up."
+  ],
+  "reviewType": "independent AI editorial second follow-up",
+  "scope": "Recheck of the three newly found issues in lessons 2168 and 2170 after author repair",
+  "result": {
+    "previousFindings": 3,
+    "resolved": 3,
+    "remainingKnownFindings": 0
+  },
+  "resolvedEvidence": [
+    "2168 fourth valid reply now explains the walkway connecting the two buildings; it answers the between-building travel prompt and differs from maps, shuttle and signs.",
+    "2168 second writing example no longer invents a five-minute journey; it proposes clear signs at both entrances. All five glossary spans still cite exact answer text.",
+    "2170 self-check now says 預先網上訂票的要求 and no longer claims the ticket rule is new."
+  ],
+  "newFindings": []
+}

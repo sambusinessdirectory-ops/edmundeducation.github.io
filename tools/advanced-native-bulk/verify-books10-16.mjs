@@ -7,6 +7,7 @@ import {fileURLToPath} from 'node:url';
 import {validateCatalogue} from './schema.mjs';
 import {buildArtifacts} from './build.mjs';
 import {nearDuplicates} from './near-duplicates.mjs';
+import {runAudit as auditExistingAliasPatterns} from './audit-existing-alias-patterns.mjs';
 
 const repo=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const base=path.join(repo,'course-materials/advanced-native');
@@ -21,6 +22,8 @@ assert.equal(new Set(decisionFiles).size,decisionFiles.length);
 assert.ok(decisionFiles.every(name=>/^editorial-decisions-\d+-\d+\.jsonl$/.test(name)));
 const decisions=decisionFiles.flatMap(name=>readLines(`books10-16/${name}`));
 const exactAliasSuggestions=readLines('books10-16/exact-prior-alias-suggestions.jsonl');
+const aliasCoverage=auditExistingAliasPatterns([]);
+assert.equal(aliasCoverage.exceptionCount,0,JSON.stringify(aliasCoverage.exceptions.slice(0,5)));
 const release=read('release-index.json');
 const draftManifest=read('drafts-books10-16/batch-manifest.json');
 const draftFiles=draftManifest.batchFiles;
@@ -125,7 +128,7 @@ assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number
                  baseIndex.map(row=>[row.id,row.number]));
 assert.deepEqual(nextIndex.slice(-pilot.length).map(row=>row.number),Array.from({length:pilot.length},(_,i)=>1894+i));
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,selectedExistingAliasPatternExceptions:aliasCoverage.exceptionCount,existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
  projectedDisplayRange:`1894–${1893+pilot.length}`,wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));

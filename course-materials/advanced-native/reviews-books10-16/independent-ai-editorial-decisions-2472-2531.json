@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "countsAtReviewCompletion": {
+    "proposedAliasExisting": 20,
+    "proposedAliasNew": 1,
+    "holdEditorial": 25,
+    "proposedNewLesson": 14,
+    "openFindings": 0
+  },
+  "resolvedDuringAudit": [
+    {
+      "sourceOrdinal": 2508,
+      "sourceId": "book10-16-0397",
+      "phrase": "nothing really sticks",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-131",
+      "explanation": "Canonical 131 already teaches bare stick with information as subject as the same memory-retention sense as stick in my mind; its grammar note explicitly records this variant and its regex recognizes sticks. Earlier source 1772 is owned by 131 for 'the history tends to stick'. Negative nothing really sticks therefore belongs to that owner rather than a duplicate new lesson.",
+      "status": "resolved in current decision file before this review was finalized"
+    }
+  ],
+  "findings": [],
+  "mechanicalChecks": [
+    "All 60 source ordinals are contiguous 2472–2531, and source IDs, expressions and offsets match the extracted inventory.",
+    "New canonical IDs match their source ordinals; holds have null canonical IDs; the alias-new row points to earlier proposed owner 2438.",
+    "The 20 current existing aliases were compared against prior lesson meanings and teaching grammar. Apart from the 2508 correction already incorporated, no further clear sense or ownership conflict was found in this pass.",
+    "Specific holds preserve unresolved source wording, target-form, idiomaticity and polysemy questions rather than counting them as covered."
+  ],
+  "limits": [
+    "This is AI peer review of provisional decisions, not human language approval, owner acceptance or release approval.",
+    "The original DOCX pages and device/audio behavior were not independently rechecked in this decision audit."
+  ]
+}

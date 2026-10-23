@@ -1,0 +1,69 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2176-2198-a.json",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 6
+  },
+  "counts": {"major": 2, "minor": 2, "blocker": 0},
+  "lessons": [
+    {
+      "lessonId": "advanced-native-2176",
+      "sourceSense": "Ready to go means sufficiently prepared to begin, not already finished; the target meaning is correctly defined.",
+      "findings": [
+        {
+          "path": "writing.promptZh; writing.selfCheckZh; writing.examples[*]; writing.glossary",
+          "severity": "major",
+          "explanation": "The new task calls the event a '舊書交換' (used-book exchange) but says the class has price signs and a cashier. Pricing and payment imply a book sale rather than an exchange; both model answers preserve those sale details. The task's activity type and preparation facts conflict.",
+          "recommendedFix": "Either call the event a used-book sale/charity sale and keep price signs/cashier, or make it a genuine exchange with genre labels and volunteers to register swaps. Align the self-check, both models, translations and answer-derived glossary spans."
+        },
+        {
+          "path": "contrast.options[a].en; contrast.options[a].zh; contrast.explanationZh",
+          "severity": "major",
+          "explanation": "The contrast asks which situation is least suitable for 'ready to go'. Option B clearly lacks required safety permission, but option A only says maps and name badges are packed for a trip. It does not establish that transport, participants or other necessary arrangements are complete, so A could also be not ready to go under the lesson's 'fully prepared' boundary.",
+          "recommendedFix": "State that all required trip arrangements have been confirmed in A, with maps and badges packed as examples, or choose a different clearly ready scenario. Keep B as the single defensible exception."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2185",
+      "sourceSense": "Fight back is active response to pressure; nonviolent civic response is well within the source sense.",
+      "findings": [
+        {
+          "path": "writing.examples[1].en; writing.examples[1].zh",
+          "severity": "minor",
+          "explanation": "The task opposes shortening study-room hours, but the model proposes keeping the room open 'twice a week'. Without the current weekly schedule, twice a week might itself be the proposed reduction; the response does not clearly protect students' access.",
+          "recommendedFix": "Propose retaining the current hours or adding two study-room evenings, or state the existing schedule in the prompt so the compromise's direction is clear."
+        }
+      ]
+    },
+    {"lessonId": "advanced-native-2186", "sourceSense": "Keeping tasks under control through monitoring and follow-up; source sense and all seven decisions are coherent.", "findings": []},
+    {"lessonId": "advanced-native-2189", "sourceSense": "Deliberately reserve time for study; source sense and scheduled-time distinction are coherent.", "findings": []},
+    {"lessonId": "advanced-native-2196", "sourceSense": "Busy and pressured rather than merely lively; source sense and answer contrasts are coherent.", "findings": []},
+    {
+      "lessonId": "advanced-native-2198",
+      "sourceSense": "Brief recovery after exertion or pressure; source sense and task decisions are coherent.",
+      "findings": [
+        {
+          "path": "takeaways[1].en; takeaways[1].zh",
+          "severity": "minor",
+          "explanation": "'Give the movers a moment to catch their breath after the stairs' is compressed and less natural than the rest of the English lesson. 'After the stairs' names the physical feature rather than the completed effort; the Chinese likewise says '走完樓梯後' but does not specify climbing/carrying.",
+          "recommendedFix": "Say 'after climbing the stairs' or 'after carrying the boxes upstairs', and align the Chinese with that exertion."
+        }
+      ]
+    }
+  ],
+  "mechanicalObservations": [
+    "All six records match their cited source occurrence, expression, guide example, book/question/sample and rendered-page locator.",
+    "Listening, golden replies, speaking, both writing examples and both takeaways have target matches; all six speaking clozes remove the target.",
+    "Every glossary row is an exact source-character span from the cited writing answer and excludes the lesson target."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-first120-provisional-a2-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2209",
+      "number": 2209,
+      "inventoryId": "expr-2209",
+      "titleEn": "step away from",
+      "titleZh": "暫時離開，稍作抽身",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:step|steps|stepped|stepping) away from\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Take a short break or create distance from an activity or situation.",
+        "meaningZh": "暫時離開某項活動或情境，讓自己稍作休息或重新整理。",
+        "grammar": "step away from the screen; stepped away from work.",
+        "register": "Neutral conversational advice; often suggests a temporary pause.",
+        "boundaryZh": "本課指暫時抽身以休息，不等於永久放棄責任。",
+        "misconceptionZh": "不要把片語只理解成身體移動一步，也不要把休息說成逃避工作。",
+        "outcomeZh": "能提出有界線的短暫休息，並說明何時回來。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0098",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 10,
+          "book": 10,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 16; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She needed to step away from the screen for a while.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "step away from"
+        }
+      ],
+      "listening": {
+        "en": "After editing for two hours, Leo stepped away from the screen for ten minutes and returned with a clearer view of the draft.",
+        "zh": "編輯了兩小時後，里奧暫時離開螢幕十分鐘，再回來看稿件時思路較清晰。",
+        "promptZh": "里奧做了甚麼讓自己重新整理思路？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He took a brief break from the editing screen.",
+            "zh": "他暫時離開編輯畫面，稍作休息。"
+          },
+          {
+            "id": "b",
+            "en": "He permanently abandoned the whole project.",
+            "zh": "他永久放棄整個項目。"
+          },
+          {
+            "id": "c",
+            "en": "He moved his chair one step and kept editing without a pause.",
+            "zh": "他只把椅子移開一步，並不停地繼續編輯。"
+          },
+          {
+            "id": "d",
+            "en": "He asked someone else to delete the draft.",
+            "zh": "他叫別人刪掉草稿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "for ten minutes 和 returned 說明他只是短暫抽身，再回來工作；不是永久放棄。"
+      },
+      "reply": {
+        "promptEn": "How can you refresh your mind before checking the report again?",
+        "promptZh": "（再次檢查報告前，你怎樣讓思路清晰一點？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can take a short walk and then return.",
+            "zh": "我可以短暫散步，之後再回來。"
+          },
+          {
+            "id": "b",
+            "en": "I can drink some water away from the desk.",
+            "zh": "我可以離開書桌喝點水。"
+          },
+          {
+            "id": "c",
+            "en": "I can step away from the screen for a few minutes.",
+            "zh": "我可以暫時離開螢幕幾分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "I can pause the task and check it with fresh eyes.",
+            "zh": "我可以暫停工作，稍後再以清晰思路檢查。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四種做法都能讓人短暫休息再檢查；金句用本課片語明確指出暫離螢幕。"
+      },
+      "scene": {
+        "promptZh": "學生連續看線上筆記兩小時，打算休息十分鐘再回來改文章。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She will step away from the screen briefly before revising.",
+            "zh": "她會短暫離開螢幕，之後再修改文章。"
+          },
+          {
+            "id": "b",
+            "en": "She has decided to stop writing forever.",
+            "zh": "她已決定永遠不再寫作。"
+          },
+          {
+            "id": "c",
+            "en": "She will keep staring at the screen throughout the break.",
+            "zh": "休息時她仍會一直盯着螢幕。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫休息並回來修改，符合暫時抽身；其餘兩句誤說成永久放棄或根本沒休息。"
+      },
+      "contrast": {
+        "promptZh": "以本課「暫時抽身、稍後再回來」的意思，哪種情況最不適合說 step away from？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A designer pauses the work for a short walk and returns.",
+            "zh": "設計師暫停工作，短暫散步後回來。"
+          },
+          {
+            "id": "b",
+            "en": "A student permanently deletes the project and refuses to revisit it.",
+            "zh": "學生永久刪掉項目，拒絕再處理。"
+          },
+          {
+            "id": "c",
+            "en": "A player takes a break from the game and rejoins later.",
+            "zh": "玩家暫停遊戲，稍後重新加入。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "永久刪掉並拒絕再處理，與本課的短暫抽身不同；另外兩項都有回來的安排。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我一直改簡報，現在連錯字都看不出來。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Step away from the slides for ten minutes, then read them once more.",
+            "zh": "先暫時離開簡報十分鐘，之後再讀一次。"
+          },
+          {
+            "id": "b",
+            "en": "Delete the slides now and tell no one.",
+            "zh": "現在刪掉簡報，也不要告訴任何人。"
+          },
+          {
+            "id": "c",
+            "en": "Check the same slides immediately once more without taking a break.",
+            "zh": "不要休息，立即再檢查同一份簡報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對方疲勞，短暫抽身再檢查有助重新專注；另外兩句都不合適。"
+      },
+      "speaking": {
+        "en": "We stepped away from the planning board for a short break before making the final choice.",
+        "zh": "作最後決定前，我們暫時離開規劃板，稍作休息。",
+        "promptZh": "先聽示範，再說明作決定前團隊怎樣休息。",
+        "targetSpan": {
+          "start": 3,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友連續排練話劇兩小時，大家開始疲倦，但稍後還要練最後一幕。用一至兩句英文提出一項短暫休息安排。",
+        "selfCheckZh": "說明先暫時離開排練，休息後會回來完成最後一幕；不要寫成放棄演出。",
+        "examples": [
+          {
+            "en": "Let us step away from our rehearsal for fifteen minutes and then practise the final scene.",
+            "zh": "先暫停排練十五分鐘，然後再練最後一幕吧。"
+          },
+          {
+            "en": "We can step away from the stage for a short break so the cast can return with more focus.",
+            "zh": "我們可以暫時離開舞台稍作休息，讓演員回來時更專注。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "for fifteen minutes",
+            "zh": "十五分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 55
+            }
+          },
+          {
+            "en": "the final scene",
+            "zh": "最後一幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "the stage",
+            "zh": "舞台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 31
+            }
+          },
+          {
+            "en": "a short break",
+            "zh": "短暫休息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 49
+            }
+          },
+          {
+            "en": "the cast",
+            "zh": "演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 61
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After a difficult meeting, we stepped away from the discussion and returned later.",
+          "zh": "艱難的會議後，我們暫時離開討論，稍後再回來。"
+        },
+        {
+          "en": "It is fine to step away from a screen briefly before checking your work.",
+          "zh": "檢查工作前，短暫離開螢幕休息是可以的。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2225",
+      "number": 2225,
+      "inventoryId": "expr-2225",
+      "titleEn": "reconnect with",
+      "titleZh": "重新聯繫",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:reconnect|reconnects|reconnected|reconnecting) with\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Restore contact with a person or renew an earlier connection.",
+        "meaningZh": "與曾經熟悉、後來少了聯絡的人重新取得聯繫。",
+        "grammar": "reconnect with an old friend; reconnected with classmates.",
+        "register": "Warm neutral phrase; a new connection with a stranger is different.",
+        "boundaryZh": "重點是恢復已有的聯繫，不一定回到以前同樣親密的程度。",
+        "misconceptionZh": "不要把初次認識某人也說成 reconnect with；亦不要假設對方一定回覆。",
+        "outcomeZh": "能提出尊重對方意願的重新聯繫方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0114",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 8, row 16; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The retreat helped her reconnect with old friends.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "reconnect with"
+        }
+      ],
+      "listening": {
+        "en": "After years without contact, Rina sent a short message to reconnect with a friend from primary school.",
+        "zh": "多年沒有聯絡後，麗娜傳了一則短訊，嘗試與一位小學舊友重新聯繫。",
+        "promptZh": "麗娜傳訊息的目的是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To restore contact with someone she knew before.",
+            "zh": "重新聯絡以前認識的人。"
+          },
+          {
+            "id": "b",
+            "en": "To introduce herself to a complete stranger.",
+            "zh": "向完全不認識的人作自我介紹。"
+          },
+          {
+            "id": "c",
+            "en": "To end a friendship she had maintained every day.",
+            "zh": "結束一段每天都有聯絡的友誼。"
+          },
+          {
+            "id": "d",
+            "en": "To ask the school to delete an old class list.",
+            "zh": "要求學校刪除舊班級名單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年沒聯絡又是小學舊友，表明這是恢復過去的聯繫；對方是否回覆仍未知。"
+      },
+      "reply": {
+        "promptEn": "How could you get in touch with your former teammates again?",
+        "promptZh": "（你可以怎樣再次聯絡以前的隊友？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I could send a friendly message in our old group chat.",
+            "zh": "我可以在舊群組傳一則友善訊息。"
+          },
+          {
+            "id": "b",
+            "en": "I could invite them to a casual reunion.",
+            "zh": "我可以邀請他們參加輕鬆的聚會。"
+          },
+          {
+            "id": "c",
+            "en": "I could reconnect with them by asking how they have been.",
+            "zh": "我可以問問他們近況，重新與他們聯繫。"
+          },
+          {
+            "id": "d",
+            "en": "I could ask a mutual friend whether they would welcome contact.",
+            "zh": "我可以問問共同朋友，他們是否願意再聯絡。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四個方法都尊重舊隊友並有助恢復聯繫；金句直接使用 reconnect with。"
+      },
+      "scene": {
+        "promptZh": "一名學生多年沒與前合唱團隊員說話，現在寫信邀請她們一起重唱舊歌。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She hopes to reconnect with her former choir friends.",
+            "zh": "她希望與以前的合唱團朋友重新聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "She is meeting every singer for the first time.",
+            "zh": "她第一次認識每一位歌者。"
+          },
+          {
+            "id": "c",
+            "en": "She has already decided never to speak to them again.",
+            "zh": "她已決定永遠不再跟她們說話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年未聯絡的舊團友收到邀請，是重新建立舊聯繫；不是初次認識。"
+      },
+      "contrast": {
+        "promptZh": "按本課「恢復已有的聯繫」的意思，哪種情況最不適合說 reconnect with？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two childhood friends exchange messages after a long gap.",
+            "zh": "兩名童年朋友多年後再次傳訊息。"
+          },
+          {
+            "id": "b",
+            "en": "A student is introduced to a new classmate whom she has never met.",
+            "zh": "學生被介紹認識從未見過的新同學。"
+          },
+          {
+            "id": "c",
+            "en": "Former neighbours arrange a call after moving apart.",
+            "zh": "舊鄰居搬走後約好通話。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "從未見過的新同學是初次認識，沒有舊聯繫可恢復；另外兩項都有過去的關係。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我想再聯絡以前的同學，但怕突然打電話打擾她。」哪個建議最體貼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could reconnect with her by sending a brief message first and letting her reply when free.",
+            "zh": "你可以先傳簡短訊息，等她有空才回覆，重新與她聯繫。"
+          },
+          {
+            "id": "b",
+            "en": "Call repeatedly until she answers, even if she is busy.",
+            "zh": "即使她很忙，也不停打電話直到她接聽。"
+          },
+          {
+            "id": "c",
+            "en": "Tell everyone she has already agreed to meet you.",
+            "zh": "告訴所有人她已答應跟你見面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先發簡短訊息並讓對方自行回覆，既能嘗試恢復聯繫，也尊重她的時間。"
+      },
+      "speaking": {
+        "en": "At the reunion, we reconnected with old neighbours and exchanged our new addresses.",
+        "zh": "在聚會上，我們與舊鄰居重新聯繫，交換了新地址。",
+        "promptZh": "先聽示範，再說明聚會上恢復了哪段舊聯繫。",
+        "targetSpan": {
+          "start": 19,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你小學時與一位同學經常一起畫畫，搬家後多年沒有聯絡。最近你找到她公開的社交帳號。用一至兩句英文提出一個有禮貌的重新聯繫方法。",
+        "selfCheckZh": "說明對方是舊友，並建議簡短、尊重其回覆意願的訊息；不要假設她必定回覆。",
+        "examples": [
+          {
+            "en": "I could reconnect with my old classmate by sending a short message about the drawings we made together.",
+            "zh": "我可以提起我們一起畫過的畫，傳一則簡短訊息，與小學舊同學重新聯繫。"
+          },
+          {
+            "en": "To reconnect with her, I will say hello politely and let her decide whether she wants to reply.",
+            "zh": "為了與她重新聯繫，我會有禮貌地打招呼，讓她自行決定是否回覆。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "my old classmate",
+            "zh": "我的小學舊同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 39
+            }
+          },
+          {
+            "en": "a short message",
+            "zh": "一則簡短訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 66
+            }
+          },
+          {
+            "en": "the drawings we made together",
+            "zh": "我們一起畫過的畫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 102
+            }
+          },
+          {
+            "en": "say hello politely",
+            "zh": "有禮貌地打招呼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 48
+            }
+          },
+          {
+            "en": "whether she wants to reply",
+            "zh": "她是否想回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "He reconnected with an old friend through a shared music group.",
+          "zh": "他透過共同的音樂群組與舊友重新聯繫。"
+        },
+        {
+          "en": "A reunion can help former classmates reconnect with one another.",
+          "zh": "聚會能幫助舊同學重新互相聯繫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2226",
+      "number": 2226,
+      "inventoryId": "expr-2226",
+      "titleEn": "get into",
+      "titleZh": "逐漸對活動感興趣",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) into\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become interested in, or begin to enjoy, an activity.",
+        "meaningZh": "開始對某項活動產生興趣，或逐漸喜歡它。",
+        "grammar": "get into painting; got into swimming; getting into a hobby.",
+        "register": "Informal everyday phrase; this lesson teaches interest, not physical entry.",
+        "boundaryZh": "須談論對活動的興趣，不是實際走進房間或乘上交通工具。",
+        "misconceptionZh": "不要只因嘗試一次就斷言已喜歡，也不要把字面「進入」當成本課意思。",
+        "outcomeZh": "能描述怎樣開始並逐漸喜歡一項活動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0115",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I found it easy to get into swimming after the first lesson.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get into"
+        }
+      ],
+      "listening": {
+        "en": "Mina tried birdwatching with her aunt and soon got into it, borrowing a guidebook to learn more.",
+        "zh": "米娜跟阿姨試着觀鳥，很快便對這活動產生興趣，還借了指南了解更多。",
+        "promptZh": "米娜借指南反映她對觀鳥有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has begun to enjoy the activity.",
+            "zh": "她開始喜歡這項活動。"
+          },
+          {
+            "id": "b",
+            "en": "She borrowed the guidebook for a school assignment, despite disliking the activity.",
+            "zh": "雖然她不喜歡觀鳥，卻為了學校作業借了指南。"
+          },
+          {
+            "id": "c",
+            "en": "She decided never to try birdwatching again.",
+            "zh": "她決定永遠不再嘗試觀鳥。"
+          },
+          {
+            "id": "d",
+            "en": "She was required to buy a book before joining.",
+            "zh": "她必須買書才可以參加。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "試過後主動借指南，說明她開始有興趣；沒有證據顯示她為學校作業而借書。"
+      },
+      "reply": {
+        "promptEn": "How did you become interested in gardening?",
+        "promptZh": "（你怎樣開始對園藝感興趣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "My neighbour showed me how to grow herbs.",
+            "zh": "鄰居教我種香草。"
+          },
+          {
+            "id": "b",
+            "en": "I enjoyed looking after one small plant.",
+            "zh": "我喜歡照顧一棵小植物。"
+          },
+          {
+            "id": "c",
+            "en": "A weekend workshop made me want to learn more.",
+            "zh": "週末工作坊令我想再學多些。"
+          },
+          {
+            "id": "d",
+            "en": "I got into gardening after helping in the community garden.",
+            "zh": "我在社區花園幫忙後，開始喜歡園藝。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都自然說明興趣如何開始；金句用 got into 描述幫忙後逐漸喜歡園藝。"
+      },
+      "scene": {
+        "promptZh": "學生初次參加陶藝課後，自行借書研究釉色，還報名下一期課程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is getting into pottery.",
+            "zh": "她開始對陶藝感興趣。"
+          },
+          {
+            "id": "b",
+            "en": "She attended the first class but has no interest in another one.",
+            "zh": "她上了第一節課，但對再上課沒有興趣。"
+          },
+          {
+            "id": "c",
+            "en": "She has already mastered pottery and could teach the next class.",
+            "zh": "她已經精通陶藝，可以教授下一期課程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主動借書並續報課程，顯示興趣正在形成；這不代表她對課程沒興趣，也不能證明她已精通陶藝。"
+      },
+      "contrast": {
+        "promptZh": "以本課「對活動逐漸產生興趣」的意思，哪種情況最不適合說 get into？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student begins to enjoy chess after several games.",
+            "zh": "學生下了幾盤棋後開始喜歡國際象棋。"
+          },
+          {
+            "id": "b",
+            "en": "A passenger gets into a taxi to reach the station.",
+            "zh": "乘客坐進的士前往車站。"
+          },
+          {
+            "id": "c",
+            "en": "A beginner returns to dance classes because she enjoys them.",
+            "zh": "初學者因喜歡跳舞而再去上舞蹈課。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "坐進的士是實際進入交通工具，並非對活動產生興趣；另外兩項符合本課意思。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我想試攝影，但不知道自己會否喜歡。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Try a short walk with a camera; you may get into photography once you start taking pictures.",
+            "zh": "帶着相機短暫散步試試；開始拍照後，你可能會喜歡攝影。"
+          },
+          {
+            "id": "b",
+            "en": "You must already love photography before taking a single photo.",
+            "zh": "拍第一張照片前，你必須已經熱愛攝影。"
+          },
+          {
+            "id": "c",
+            "en": "If you try it once, you are certain to become a professional.",
+            "zh": "只要試一次，你肯定會成為專業攝影師。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先以低壓力方式嘗試，才有機會逐漸產生興趣；不保證一定喜歡或變成專業人士。"
+      },
+      "speaking": {
+        "en": "I got into sketching after a friend showed me a few simple techniques.",
+        "zh": "朋友教我幾種簡單技巧後，我開始喜歡素描。",
+        "promptZh": "先聽示範，再說明說話者如何開始喜歡素描。",
+        "targetSpan": {
+          "start": 2,
+          "end": 10
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你原本不熟悉國際象棋，最近與朋友下了幾盤後，開始想學更多策略。用一至兩句英文說明興趣怎樣出現。",
+        "selfCheckZh": "指出因實際嘗試而逐漸喜歡國際象棋，並說明想學更多；不要把片語當作實際走進場所。",
+        "examples": [
+          {
+            "en": "I got into chess after playing with my friends, and now I want to learn a few new strategies.",
+            "zh": "與朋友下了幾盤後，我開始喜歡國際象棋，現在想學幾種新策略。"
+          },
+          {
+            "en": "A few friendly games helped me get into chess, so I am reading a beginner’s guide.",
+            "zh": "幾場輕鬆的棋局令我開始對國際象棋感興趣，所以我正在讀一本入門指南。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "playing with my friends",
+            "zh": "與朋友下棋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 46
+            }
+          },
+          {
+            "en": "new strategies",
+            "zh": "新策略",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 92
+            }
+          },
+          {
+            "en": "friendly games",
+            "zh": "輕鬆的棋局",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "a beginner’s guide",
+            "zh": "入門指南",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 81
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She got into climbing after trying an introductory class.",
+          "zh": "試過入門課後，她開始喜歡攀石。"
+        },
+        {
+          "en": "You might get into painting if you enjoy the first workshop.",
+          "zh": "如果你喜歡第一節工作坊，可能會逐漸喜歡繪畫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2228",
+      "number": 2228,
+      "inventoryId": "expr-2228",
+      "titleEn": "thin out",
+      "titleZh": "人群逐漸變少",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:thin|thins|thinned|thinning) out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become fewer or less dense over time, especially of a crowd.",
+        "meaningZh": "人數或密度隨時間下降，尤其指人群慢慢散去。",
+        "grammar": "the crowd thins out; the queue thinned out.",
+        "register": "Neutral phrasal verb for crowds or queues; not about someone losing weight.",
+        "boundaryZh": "須見人群逐漸減少或變疏，不一定完全散去。",
+        "misconceptionZh": "不要把它理解成個人瘦身，也不要把增加人數說成變疏。",
+        "outcomeZh": "能描述擁擠人群如何逐漸散去，以及何時較方便進入。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0117",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The crowd began to thin out after sunset.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "thin out"
+        }
+      ],
+      "listening": {
+        "en": "At first the museum entrance was packed, but the crowd began to thin out after the school groups left.",
+        "zh": "博物館入口起初擠滿人，但學校團體離開後，人群開始逐漸散去。",
+        "promptZh": "學校團體離開後，入口的人群有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There were gradually fewer people.",
+            "zh": "人數逐漸減少。"
+          },
+          {
+            "id": "b",
+            "en": "The same number of visitors remained at the entrance.",
+            "zh": "入口仍有相同數量的訪客。"
+          },
+          {
+            "id": "c",
+            "en": "More groups arrived and the entrance became denser.",
+            "zh": "更多團體到來，入口更加擠迫。"
+          },
+          {
+            "id": "d",
+            "en": "The museum closed before anyone entered.",
+            "zh": "博物館在任何人進入前便關閉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學校團體離開後人群變少，所以開始 thin out；不是人數維持不變或增加。"
+      },
+      "reply": {
+        "promptEn": "Why did you wait until late afternoon to visit the gallery?",
+        "promptZh": "（你為何等到下午較晚時才參觀畫廊？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The crowd usually thins out after the school tours leave.",
+            "zh": "學校導賞團離開後，人群通常逐漸散去。"
+          },
+          {
+            "id": "b",
+            "en": "I prefer a quieter visit.",
+            "zh": "我較喜歡安靜一點地參觀。"
+          },
+          {
+            "id": "c",
+            "en": "The last tour gives me enough time to see one room.",
+            "zh": "最後一節導賞讓我有足夠時間看一個展室。"
+          },
+          {
+            "id": "d",
+            "en": "My friend was only free after lunch.",
+            "zh": "我朋友午飯後才有空。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都能解釋較晚參觀的理由；金句用本課片語指出人潮漸少。"
+      },
+      "scene": {
+        "promptZh": "市集開門時排隊很長，到了三點多數人已離開，隊伍只剩幾人。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The queue has thinned out by three o’clock.",
+            "zh": "到了三點，隊伍已逐漸變短。"
+          },
+          {
+            "id": "b",
+            "en": "The queue is longer than it was at opening time.",
+            "zh": "隊伍比開門時更長。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone in the queue has become thinner.",
+            "zh": "隊伍裏每個人都變瘦了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隊伍從很長變成只有幾人，表示人數減少；不涉及個人體重。"
+      },
+      "contrast": {
+        "promptZh": "按本課「人數逐漸減少」的意思，哪種情況最不適合說 thin out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The crowd slowly disperses after the concert.",
+            "zh": "演唱會後人群慢慢散去。"
+          },
+          {
+            "id": "b",
+            "en": "More and more visitors arrive, and the queue becomes denser.",
+            "zh": "越來越多訪客到場，隊伍更加擠迫。"
+          },
+          {
+            "id": "c",
+            "en": "The waiting area has fewer people after lunch.",
+            "zh": "午飯後等候區的人少了。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "人數增加、隊伍更密集，與逐漸變少相反；另外兩項都有疏散或減少。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新書簽售會門口太擠，我們現在進不去。」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us wait until the crowd thins out, then join the shorter queue.",
+            "zh": "先等人群逐漸散去，再排較短的隊伍吧。"
+          },
+          {
+            "id": "b",
+            "en": "Push through everyone without asking; the crowd does not matter.",
+            "zh": "不用理會別人，直接擠過去。"
+          },
+          {
+            "id": "c",
+            "en": "The queue will probably be shorter in five minutes, so let us join it now.",
+            "zh": "隊伍大概五分鐘後就會縮短，我們現在加入吧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "等待人群變少能較從容地進入；選項 b 不尊重他人，選項 c 則無根據地預測五分鐘後的人數，仍建議立即加入擁擠隊伍。"
+      },
+      "speaking": {
+        "en": "The crowd thinned out after the first performance, so we could see the display clearly.",
+        "zh": "第一場表演後，人群逐漸散去，我們便能清楚看展品。",
+        "promptZh": "先聽示範，再說明為何說話者後來能看清楚展品。",
+        "targetSpan": {
+          "start": 10,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區書展早上很擠迫，下午四點不少家庭已離開，你想帶朋友去看書。用一至兩句英文描述人潮變化及參觀建議。",
+        "selfCheckZh": "指出人群下午逐漸變少，並建議在較不擠迫時入場。",
+        "examples": [
+          {
+            "en": "The crowd should thin out by late afternoon, so we can browse the book stalls more comfortably.",
+            "zh": "傍晚前人群應會逐漸變少，我們便能更從容地逛書攤。"
+          },
+          {
+            "en": "Families are leaving now, and the queue is thinning out. Let us visit the fair after four.",
+            "zh": "家庭訪客現在陸續離開，隊伍正逐漸變短。我們四點後去書展吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "late afternoon",
+            "zh": "下午較晚時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 43
+            }
+          },
+          {
+            "en": "book stalls",
+            "zh": "書攤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 77
+            }
+          },
+          {
+            "en": "more comfortably",
+            "zh": "更從容地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "Families are leaving",
+            "zh": "家庭訪客陸續離開",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "after four",
+            "zh": "四點後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 89
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The queue thinned out once the morning tour ended.",
+          "zh": "早上的導賞結束後，隊伍逐漸變短。"
+        },
+        {
+          "en": "We waited for the visitors to thin out before entering the hall.",
+          "zh": "我們等訪客逐漸散去，才進入禮堂。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2231",
+      "number": 2231,
+      "inventoryId": "expr-2231",
+      "titleEn": "put on",
+      "titleZh": "播放影片或音樂",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:put|puts|putting) on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Start playing a film, show, recording or music for others to hear or watch.",
+        "meaningZh": "開始播放電影、節目、錄音或音樂，供別人觀看或聆聽。",
+        "grammar": "put on a film; put on some music; put on a recording.",
+        "register": "Everyday spoken use; context makes playback clear.",
+        "boundaryZh": "本課指開始播放媒體，不是穿上衣服或籌辦舞台演出。",
+        "misconceptionZh": "不要只見 put on 就忽略後接的媒體；同一片語有其他意思，本課只教播放。",
+        "outcomeZh": "能在具體場合自然提議播放合適的影片或音樂。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0120",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We decided to put on a comedy after dinner.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "put on"
+        }
+      ],
+      "listening": {
+        "en": "When the rain kept the children indoors, Maya put on a short nature film on the classroom screen.",
+        "zh": "大雨令孩子留在室內時，瑪雅在課室螢幕播放了一齣自然短片。",
+        "promptZh": "瑪雅為孩子做了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She started playing a film for them to watch.",
+            "zh": "她開始播放影片供孩子觀看。"
+          },
+          {
+            "id": "b",
+            "en": "She selected a film but did not start playing it.",
+            "zh": "她選了一齣影片，但沒有開始播放。"
+          },
+          {
+            "id": "c",
+            "en": "She cancelled the film and sent everyone outside.",
+            "zh": "她取消影片，並叫所有人到室外去。"
+          },
+          {
+            "id": "d",
+            "en": "She wrote a new script during the rain.",
+            "zh": "她在下雨期間寫了一份新劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "film 與 classroom screen 表明她已開始播放影片，而非只選好影片。"
+      },
+      "reply": {
+        "promptEn": "What can we watch together while we wait for the coach?",
+        "promptZh": "（等候教練期間，我們可以一起看甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could put on a short documentary about the city.",
+            "zh": "我們可以播放一齣關於這座城市的短紀錄片。"
+          },
+          {
+            "id": "b",
+            "en": "We could watch the recorded school concert.",
+            "zh": "我們可以看學校音樂會的錄影。"
+          },
+          {
+            "id": "c",
+            "en": "A brief cartoon might keep everyone entertained.",
+            "zh": "一齣短卡通可能讓大家有所消遣。"
+          },
+          {
+            "id": "d",
+            "en": "Let us choose one of the videos already saved on the tablet.",
+            "zh": "我們從平板已儲存的影片中選一齣吧。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個回答都合理建議可一起觀看的內容；金句直接提出播放短紀錄片。"
+      },
+      "scene": {
+        "promptZh": "老師在投影機上開啟一段關於海洋生物的影片，按下播放鍵讓全班觀看。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teacher put on a short film about sea life.",
+            "zh": "老師播放了一齣關於海洋生物的短片。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher put on a jacket before entering the room.",
+            "zh": "老師進課室前穿上外套。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher asked students to produce a new stage play.",
+            "zh": "老師要求學生製作一齣新舞台劇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "影片已在投影機開始播放，符合本課 put on 的媒體用法；另外兩句屬不同活動。"
+      },
+      "contrast": {
+        "promptZh": "以本課「開始播放媒體」的意思，哪種情況最不適合用 put on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A parent starts a song on a speaker for the family.",
+            "zh": "家長在揚聲器播放歌曲給家人聽。"
+          },
+          {
+            "id": "b",
+            "en": "A student puts on a raincoat before walking outside.",
+            "zh": "學生出門前穿上雨衣。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer plays a recording through the hall system.",
+            "zh": "義工透過禮堂系統播放錄音。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "穿雨衣是 put on 的另一個字面意思，與本課播放媒體不同；另外兩項都有開始播音。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「活動還有十分鐘才開始，大家可以先聽點輕鬆音樂嗎？」哪個回應最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sure, I will put on a quiet playlist while we wait.",
+            "zh": "可以，我們等候時，我會播放一份輕柔的歌曲清單。"
+          },
+          {
+            "id": "b",
+            "en": "I will write down a playlist but leave the speakers off for now.",
+            "zh": "我會寫下一份歌曲清單，但暫時不開揚聲器。"
+          },
+          {
+            "id": "c",
+            "en": "We cannot play anything now because the speakers are being repaired.",
+            "zh": "揚聲器正在維修，所以我們現在無法播放音樂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對方要求聽音樂，而情境沒有指出設備故障；播放輕柔歌曲清單是直接、合宜的回應。"
+      },
+      "speaking": {
+        "en": "The librarian put on a recording of birdsong for the children to identify different calls.",
+        "zh": "圖書館員播放鳥鳴錄音，讓孩子分辨不同叫聲。",
+        "promptZh": "先聽示範，再說明圖書館員播放錄音的目的。",
+        "targetSpan": {
+          "start": 14,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心的人因大雨不能到戶外活動。中心有投影機與一段已儲存的短旅行影片。用一至兩句英文提出播放建議及原因。",
+        "selfCheckZh": "建議開始播放已儲存的影片，並說明可讓大家在室內觀看；不要用穿衣或演出意思。",
+        "examples": [
+          {
+            "en": "We could put on the short travel film while we wait for the rain to stop. It will give everyone something to watch.",
+            "zh": "等雨停時，我們可以播放那齣旅行短片，讓大家有東西可看。"
+          },
+          {
+            "en": "Let us put on the saved video using the projector so the group can enjoy the journey from indoors.",
+            "zh": "我們用投影機播放已儲存的影片吧，讓大家在室內也能欣賞旅程。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "short travel film",
+            "zh": "旅行短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 37
+            }
+          },
+          {
+            "en": "the rain to stop",
+            "zh": "雨停",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 72
+            }
+          },
+          {
+            "en": "something to watch",
+            "zh": "可看的內容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 114
+            }
+          },
+          {
+            "en": "the saved video",
+            "zh": "已儲存的影片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 29
+            }
+          },
+          {
+            "en": "using the projector",
+            "zh": "用投影機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 49
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She put on a calming song while the group settled in.",
+          "zh": "小組安頓下來時，她播放了一首舒緩的歌曲。"
+        },
+        {
+          "en": "Could you put on the documentary after lunch?",
+          "zh": "午飯後，你可以播放那齣紀錄片嗎？"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

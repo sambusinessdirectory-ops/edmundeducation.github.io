@@ -1,0 +1,1623 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-second60-provisional-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2235",
+      "number": 2235,
+      "inventoryId": "expr-2235",
+      "titleEn": "caught the public mood",
+      "titleZh": "切合大眾當下的想法",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:catch|catches|caught|catching) the public mood\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Match what many people are feeling or wanting at a particular time.",
+        "meaningZh": "某項主張或行動剛好回應大眾當時的共同感受或需求。",
+        "grammar": "a campaign caught the public mood; a message catches the public mood.",
+        "register": "Neutral journalistic expression for collective feeling; support needs evidence.",
+        "boundaryZh": "指當時廣泛的感受，不是只取悅一人，也不保證所有人都贊成。",
+        "misconceptionZh": "不要把 caught 當成抓住實物；應指出哪些共同關注令行動受到響應。",
+        "outcomeZh": "能用具體公眾反應解釋一項倡議為何得到支持。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0124",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 9, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The campaign caught the public mood at exactly the right moment.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "caught the public mood"
+        }
+      ],
+      "listening": {
+        "en": "Residents had been asking for safer crossings. When a petition for a new zebra crossing appeared, it caught the public mood and quickly gained hundreds of signatures.",
+        "zh": "居民一直要求更安全的過路處。有人發起設置新斑馬線的請願，恰好切合大眾心聲，很快得到數百人簽名。",
+        "promptZh": "請願為何很快得到支持？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It matched a concern shared by many residents.",
+            "zh": "它回應了很多居民共同關注的問題。"
+          },
+          {
+            "id": "b",
+            "en": "It was signed only by its organiser.",
+            "zh": "只有發起人簽了名。"
+          },
+          {
+            "id": "c",
+            "en": "It asked residents to remove all crossings.",
+            "zh": "它要求居民拆除所有過路處。"
+          },
+          {
+            "id": "d",
+            "en": "It addressed parking charges rather than crossing safety.",
+            "zh": "它處理的是泊車收費，而不是過路安全。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民早已關注過路安全，數百人簽名顯示請願切合當時廣泛的訴求。"
+      },
+      "reply": {
+        "promptEn": "Why did the campaign to reduce food waste gain support just as residents began discussing the issue?",
+        "promptZh": "（居民開始討論食物浪費時，減廢活動為何得到支持？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It offered a practical way to share unused food.",
+            "zh": "它提供分享剩餘食物的實際方法。"
+          },
+          {
+            "id": "b",
+            "en": "It addressed a concern many neighbours had raised.",
+            "zh": "它回應了很多鄰居提出的憂慮。"
+          },
+          {
+            "id": "c",
+            "en": "It caught the public mood at the right time.",
+            "zh": "它在合適時機切合了大眾心聲。"
+          },
+          {
+            "id": "d",
+            "en": "It gave volunteers an easy first step.",
+            "zh": "它讓義工有容易實行的第一步。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可合理解釋支持的原因；金句概括活動與當時大眾關注的事相呼應。"
+      },
+      "scene": {
+        "promptZh": "社區居民一直抱怨巴士班次太少。一項增加晚間班次的倡議公開後，短時間得到大量支持。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The proposal caught the public mood because many residents wanted better service.",
+            "zh": "這項建議切合大眾心聲，因為很多居民希望改善服務。"
+          },
+          {
+            "id": "b",
+            "en": "The proposal ignored every concern residents had mentioned.",
+            "zh": "這項建議忽略了居民提過的所有問題。"
+          },
+          {
+            "id": "c",
+            "en": "The support came only from the one person who wrote the proposal.",
+            "zh": "支持只來自撰寫建議的一人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量居民先已關注班次，倡議正回應共同需求。"
+      },
+      "contrast": {
+        "promptZh": "以本課「切合當時廣泛感受」的意思，哪種情況最不適合說 catch the public mood？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A campaign for cleaner streets gains broad support after many residents complain about litter.",
+            "zh": "多人投訴街道垃圾後，清潔街道活動獲得廣泛支持。"
+          },
+          {
+            "id": "b",
+            "en": "One person privately likes a poster, while nobody else has seen it.",
+            "zh": "只有一人私下喜歡一張海報，其他人都未看過。"
+          },
+          {
+            "id": "c",
+            "en": "An event on low-cost travel attracts large crowds during a period of rising fares.",
+            "zh": "車費上升期間，低成本出行活動吸引大量人參加。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一人的私人喜好不足以證明大眾有共同感受；另外兩項有廣泛反應。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何我們的舊衣交換活動這星期特別受歡迎？」你知道很多家庭正在討論減少浪費。哪個回答最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It caught the public mood because many families already wanted to reuse clothes.",
+            "zh": "它切合大眾心聲，因為很多家庭本來就想重用衣物。"
+          },
+          {
+            "id": "b",
+            "en": "Its popularity proves every family has exactly the same view.",
+            "zh": "它受歡迎證明每個家庭的看法完全一致。"
+          },
+          {
+            "id": "c",
+            "en": "It became popular before anyone knew the event existed.",
+            "zh": "在任何人知道活動存在之前，它已經受歡迎。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有很多家庭關注重用衣物，能合理解釋活動如何切合當時的共同想法；不代表人人意見一致。"
+      },
+      "speaking": {
+        "en": "The local recycling drive caught the public mood after neighbours called for less waste.",
+        "zh": "鄰居呼籲減少浪費後，這項本地回收活動切合了大眾心聲。",
+        "promptZh": "先聽示範，再說明回收活動為何得到回應。",
+        "targetSpan": {
+          "start": 26,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：市政府打算縮短多區公共圖書館的週末開放時間。居民一直擔心學生和上班族失去自修空間；一項要求保留週末開放時間的公開聯署很快獲得數千人支持。用一至兩句英文解釋聯署為何得到支持。",
+        "selfCheckZh": "指出聯署回應了多區居民已有的共同關注，並說明週末圖書館開放時間的具體問題；不要只說一個人喜歡。",
+        "examples": [
+          {
+            "en": "The petition to keep libraries open on weekends caught the public mood because residents across the city feared losing a quiet place to study.",
+            "zh": "要求圖書館週末繼續開放的聯署切合了大眾心聲，因為全市居民擔心失去安靜的自修場所。"
+          },
+          {
+            "en": "By defending weekend library hours, the campaign caught the public mood and gathered thousands of signatures from several districts.",
+            "zh": "這項活動爭取保留圖書館的週末開放時間，切合了大眾心聲，並從多區收集到數千個簽名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The petition",
+            "zh": "這項聯署",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "libraries open on weekends",
+            "zh": "圖書館週末繼續開放",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 47
+            }
+          },
+          {
+            "en": "residents across the city",
+            "zh": "全市居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 104
+            }
+          },
+          {
+            "en": "weekend library hours",
+            "zh": "圖書館的週末開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 34
+            }
+          },
+          {
+            "en": "thousands of signatures",
+            "zh": "數千個簽名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 108
+            }
+          },
+          {
+            "en": "several districts",
+            "zh": "多區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The appeal caught the public mood when families were asking for safer streets.",
+          "zh": "家庭正要求更安全的街道時，這項呼籲切合了大眾心聲。"
+        },
+        {
+          "en": "A good idea still needs evidence before we say it caught the public mood.",
+          "zh": "要說一個好主意切合大眾心聲，仍需要證據。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2236",
+      "number": 2236,
+      "inventoryId": "expr-2236",
+      "titleEn": "face to face",
+      "titleZh": "面對面地",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bface to face\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In person, with the people involved physically present together.",
+        "meaningZh": "雙方親身在同一地方直接交談或處理事情。",
+        "grammar": "talk face to face; meet face to face.",
+        "register": "Neutral conversational phrase; often contrasts with messages or calls.",
+        "boundaryZh": "重點是親身相見；視像通話雖可看到臉，仍不等於同處一室。",
+        "misconceptionZh": "不要把每次看到別人的照片或視像畫面都當成面對面見面。",
+        "outcomeZh": "能選擇適合親身討論的情況並清楚提出安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0125",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We resolved the problem face to face.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "face to face"
+        }
+      ],
+      "listening": {
+        "en": "After several confusing text messages, the two volunteers met face to face at the centre and settled the delivery plan.",
+        "zh": "幾則訊息令兩名義工越談越混亂，於是他們在中心面對面見面，釐清了送貨安排。",
+        "promptZh": "兩名義工最後怎樣釐清安排？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They discussed it together in person.",
+            "zh": "他們親身相聚討論。"
+          },
+          {
+            "id": "b",
+            "en": "They stopped communicating altogether.",
+            "zh": "他們完全停止溝通。"
+          },
+          {
+            "id": "c",
+            "en": "They continued only by text and never met.",
+            "zh": "他們只繼續傳訊息，從未見面。"
+          },
+          {
+            "id": "d",
+            "en": "They asked someone to make the plan without telling them.",
+            "zh": "他們叫別人擅自替他們決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "met at the centre 表明他們親身碰面；face to face 在此不是只靠手機溝通。"
+      },
+      "reply": {
+        "promptEn": "How should we settle the seating plan if our messages keep causing confusion?",
+        "promptZh": "（若訊息反覆造成誤會，我們應怎樣敲定座位安排？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could compare the plan together after class.",
+            "zh": "我們可以下課後一起對照安排。"
+          },
+          {
+            "id": "b",
+            "en": "Let us meet face to face and draw the layout on paper.",
+            "zh": "我們面對面見面，在紙上畫出座位佈局吧。"
+          },
+          {
+            "id": "c",
+            "en": "We could visit the room at the same time.",
+            "zh": "我們可以同時到場看看課室。"
+          },
+          {
+            "id": "d",
+            "en": "We could ask the organiser to join us for a short discussion.",
+            "zh": "我們可以請主辦者和我們簡短討論。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四項都能讓相關人士直接釐清安排；金句明確用 face to face 提議親身見面。"
+      },
+      "scene": {
+        "promptZh": "兩名同學用訊息討論展覽海報，對尺寸產生誤會。放學後他們在美術室見面，一起對照紙本樣稿。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They resolved the confusion face to face.",
+            "zh": "他們面對面地釐清了誤會。"
+          },
+          {
+            "id": "b",
+            "en": "They never met and relied only on messages.",
+            "zh": "他們從未見面，只靠訊息溝通。"
+          },
+          {
+            "id": "c",
+            "en": "They looked at one another’s profile pictures instead of the sample.",
+            "zh": "他們只看彼此的個人頭像，沒有看樣稿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "放學後在美術室親身看樣稿，是面對面地處理問題。"
+      },
+      "contrast": {
+        "promptZh": "按本課「親身在同一地方」的意思，哪個情況最不適合說 face to face？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach and player discuss a mistake together on the court.",
+            "zh": "教練與球員在球場一起討論失誤。"
+          },
+          {
+            "id": "b",
+            "en": "Two friends speak by video call from different countries.",
+            "zh": "兩名朋友身處不同國家，以視像通話交談。"
+          },
+          {
+            "id": "c",
+            "en": "A parent and teacher meet in the school office.",
+            "zh": "家長與老師在學校辦公室見面。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "視像通話可互相看見，但雙方沒有親身同處一室；另外兩項是當面會面。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們在群組裏越講越亂，連誰帶道具都不清楚。」哪個建議最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us meet face to face for ten minutes and write down who will bring each prop.",
+            "zh": "我們面對面談十分鐘，寫下每件道具由誰帶來。"
+          },
+          {
+            "id": "b",
+            "en": "Keep sending vague messages without checking the list.",
+            "zh": "繼續傳含糊訊息，不用核對清單。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel the performance without telling the group.",
+            "zh": "不用通知小組，直接取消演出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "親身快速核對道具分工，能針對群組訊息造成的混亂。"
+      },
+      "speaking": {
+        "en": "We talked face to face after the rehearsal and agreed on the final order of songs.",
+        "zh": "排練後，我們面對面地討論，敲定了歌曲的最後次序。",
+        "promptZh": "先聽示範，再說明大家如何敲定歌曲次序。",
+        "targetSpan": {
+          "start": 10,
+          "end": 22
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和鄰居用訊息商量社區花園的澆水時間，但大家理解不同。你們今晚會在花園碰面。用一至兩句英文提出怎樣釐清安排。",
+        "selfCheckZh": "提出親身見面時直接討論澆水時間，避免只依賴訊息；不要把視像通話說成同處一室。",
+        "examples": [
+          {
+            "en": "We can talk face to face in the garden tonight and agree on a watering schedule.",
+            "zh": "我們今晚可以在花園面對面談談，敲定澆水時間表。"
+          },
+          {
+            "en": "We can meet face to face for a brief discussion and check each day on the calendar together.",
+            "zh": "我們可以面對面簡短討論，一起核對日曆上的每一天。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "in the garden tonight",
+            "zh": "今晚在花園",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 46
+            }
+          },
+          {
+            "en": "a watering schedule",
+            "zh": "澆水時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 79
+            }
+          },
+          {
+            "en": "a brief discussion",
+            "zh": "簡短討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 47
+            }
+          },
+          {
+            "en": "each day",
+            "zh": "每一天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 66
+            }
+          },
+          {
+            "en": "on the calendar",
+            "zh": "在日曆上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 82
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "It was easier to explain the map face to face than in a long email.",
+          "zh": "當面解釋地圖，比寫長電郵容易。"
+        },
+        {
+          "en": "The neighbours met face to face to settle the shared garden timetable.",
+          "zh": "鄰居面對面見面，敲定共用花園的時間表。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2240",
+      "number": 2240,
+      "inventoryId": "expr-2240",
+      "titleEn": "shifted with the times",
+      "titleZh": "隨時代改變而調整",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:shift|shifts|shifted|shifting) with the times\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Adapt gradually as society, habits or technology change.",
+        "meaningZh": "因應社會、習慣或科技的變化而調整做法。",
+        "grammar": "shift with the times; has shifted with the times.",
+        "register": "Neutral phrase for adaptation; change may preserve valued traditions.",
+        "boundaryZh": "是因應時代而改變，不是毫無理由地突然換方向，也不一定拋棄傳統。",
+        "misconceptionZh": "不要只列出新事物；要說清楚舊做法如何調整及為何調整。",
+        "outcomeZh": "能描述一項服務如何因應新習慣而改進，同時保留核心特色。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0129",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The shop has shifted with the times while keeping its name.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shifted with the times"
+        }
+      ],
+      "listening": {
+        "en": "The local theatre still stages live plays, but it has shifted with the times by offering online booking and captioned performances.",
+        "zh": "本地劇院仍上演現場話劇，卻已隨時代改變，提供網上訂票和附字幕演出。",
+        "promptZh": "劇院怎樣在保留特色之餘調整做法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It added newer services while continuing live plays.",
+            "zh": "它加入新服務，同時繼續上演現場話劇。"
+          },
+          {
+            "id": "b",
+            "en": "It permanently stopped staging any plays.",
+            "zh": "它永久停止上演所有話劇。"
+          },
+          {
+            "id": "c",
+            "en": "It kept every process unchanged despite new needs.",
+            "zh": "儘管需求改變，它仍保持所有流程不變。"
+          },
+          {
+            "id": "d",
+            "en": "It changed its name but offered no new service.",
+            "zh": "它只改了名稱，沒有提供新服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上訂票和字幕回應新習慣及需求，但劇院仍保留現場演出。"
+      },
+      "reply": {
+        "promptEn": "How has the old public library stayed useful to younger readers?",
+        "promptZh": "（那間舊公共圖書館怎樣繼續對年輕讀者有用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It now lends e-books as well as printed books.",
+            "zh": "它現在除了紙本書，也提供電子書借閱。"
+          },
+          {
+            "id": "b",
+            "en": "It offers online reservations for busy readers.",
+            "zh": "它為忙碌的讀者提供網上預約。"
+          },
+          {
+            "id": "c",
+            "en": "It has shifted with the times while keeping its reading rooms.",
+            "zh": "它隨時代改變，同時保留閱讀室。"
+          },
+          {
+            "id": "d",
+            "en": "It runs workshops on digital research.",
+            "zh": "它舉辦數碼資料搜集工作坊。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四項都可解釋圖書館如何維持實用；金句概括新服務與保留閱讀室並行。"
+      },
+      "scene": {
+        "promptZh": "一間家族照相館以前只收底片沖印，現在也提供數碼照片修復，仍保留暗房。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The studio has shifted with the times without abandoning its darkroom.",
+            "zh": "照相館隨時代改變，同時沒有放棄暗房。"
+          },
+          {
+            "id": "b",
+            "en": "The studio has never changed any of its services.",
+            "zh": "照相館從未改變任何服務。"
+          },
+          {
+            "id": "c",
+            "en": "The studio abandoned photography altogether.",
+            "zh": "照相館完全不再經營攝影服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新增數碼修復回應技術變化，保留暗房表示改變不等於放棄傳統。"
+      },
+      "contrast": {
+        "promptZh": "以本課「因應時代變化而調整」的意思，哪種情況最不適合說 shift with the times？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A newspaper adds a mobile edition as readers change habits.",
+            "zh": "讀者習慣改變後，報紙增設手機版本。"
+          },
+          {
+            "id": "b",
+            "en": "A café changes its opening hours at random every day with no customer reason.",
+            "zh": "咖啡店每天隨意更改營業時間，與顧客需要無關。"
+          },
+          {
+            "id": "c",
+            "en": "A museum adds audio descriptions while keeping its original displays.",
+            "zh": "博物館保留原有展品，同時加入語音描述。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "每天無原因地隨意改時間，不是因應社會或顧客需求作出調整。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這間老餐廳開始接受手機點餐，是不是不再重視傳統？」餐廳仍沿用家傳食譜。哪個回應最恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can shift with the times by changing how orders are placed while keeping its family recipes.",
+            "zh": "它可以改變點餐方法，隨時代調整，同時保留家傳食譜。"
+          },
+          {
+            "id": "b",
+            "en": "Any new ordering method proves the food is no longer traditional.",
+            "zh": "只要採用新點餐方法，菜式就一定不再傳統。"
+          },
+          {
+            "id": "c",
+            "en": "The restaurant should stop serving customers to preserve its history.",
+            "zh": "餐廳應停止招待顧客，才能保存歷史。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "點餐方式可更新，菜式傳統仍可保留；兩者並不矛盾。"
+      },
+      "speaking": {
+        "en": "The neighbourhood paper shifted with the times by launching a mobile edition beside its printed one.",
+        "zh": "社區報紙推出手機版本，同時保留印刷版，因而隨時代改變。",
+        "promptZh": "先聽示範，再說明報紙如何調整服務。",
+        "targetSpan": {
+          "start": 24,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一家家庭麵包店一直用手工製作麵包。現在顧客希望早上在手機預訂，放學後才取貨。店主開設預訂服務，但繼續手工烘焙。用一至兩句英文描述改變。",
+        "selfCheckZh": "指出店舖回應顧客新習慣，同時保留手工製作；不要說它完全放棄原來的做法。",
+        "examples": [
+          {
+            "en": "The bakery shifted with the times by adding phone pre-orders while still baking bread by hand.",
+            "zh": "麵包店加入手機預訂服務，同時仍手工製作麵包，因而隨時代改變。"
+          },
+          {
+            "en": "It has shifted with the times: customers can reserve loaves on their phones and collect them after school, while the bakery still bakes bread by hand.",
+            "zh": "它已隨時代改變：顧客可以用手機預訂麵包，放學後取貨，而麵包店仍然以手工製作麵包。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "phone pre-orders",
+            "zh": "手機預訂服務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 60
+            }
+          },
+          {
+            "en": "baking bread by hand",
+            "zh": "手工製作麵包",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 93
+            }
+          },
+          {
+            "en": "reserve loaves",
+            "zh": "預訂麵包",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 59
+            }
+          },
+          {
+            "en": "on their phones",
+            "zh": "用手機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "after school",
+            "zh": "放學後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The cinema shifted with the times when it added accessible screenings.",
+          "zh": "戲院增設無障礙放映場次，隨時代改變。"
+        },
+        {
+          "en": "A service can shift with the times and still keep what people value about it.",
+          "zh": "一項服務可以隨時代改變，同時保留人們珍惜的特色。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2241",
+      "number": 2241,
+      "inventoryId": "expr-2241",
+      "titleEn": "go out of style",
+      "titleZh": "不再流行",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going) out of style\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stop being fashionable or widely favoured.",
+        "meaningZh": "曾經受歡迎的款式或做法逐漸不再流行。",
+        "grammar": "go out of style; went out of style; never goes out of style.",
+        "register": "Everyday phrase for fashion, design, and popular customs.",
+        "boundaryZh": "不再流行不等於完全消失或沒有品質；個人仍可喜歡它。",
+        "misconceptionZh": "不要把個人的一時厭倦當成整個社會已不再流行。",
+        "outcomeZh": "能區分潮流轉變與個人喜好，避免過度概括。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0130",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Simple white shirts rarely go out of style.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go out of style"
+        }
+      ],
+      "listening": {
+        "en": "The once-popular neon phone cases went out of style, but Nadia still uses hers because she likes the bright colour.",
+        "zh": "曾經流行的霓虹色手機殼不再流行，但娜迪亞仍在使用，因為她喜歡鮮艷顏色。",
+        "promptZh": "手機殼的流行程度發生了甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The design is no longer as fashionable as before.",
+            "zh": "這款設計不再像以前那麼流行。"
+          },
+          {
+            "id": "b",
+            "en": "The cases have all disappeared from the world.",
+            "zh": "所有這類手機殼都在世上消失了。"
+          },
+          {
+            "id": "c",
+            "en": "Nadia must now dislike her own case.",
+            "zh": "娜迪亞現在一定討厭自己的手機殼。"
+          },
+          {
+            "id": "d",
+            "en": "The design has become popular for the first time.",
+            "zh": "這款設計第一次流行起來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "曾經流行與 went out of style 表示潮流退去；娜迪亞仍可喜歡它。"
+      },
+      "reply": {
+        "promptEn": "Why do people still wear that jacket design after so many years?",
+        "promptZh": "（為何多年後人們仍會穿那款外套？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its simple shape works with many outfits.",
+            "zh": "它的簡單剪裁能配搭很多服裝。"
+          },
+          {
+            "id": "b",
+            "en": "It is comfortable in cool weather.",
+            "zh": "天氣涼時穿它很舒服。"
+          },
+          {
+            "id": "c",
+            "en": "It rarely goes out of style.",
+            "zh": "它很少會過時。"
+          },
+          {
+            "id": "d",
+            "en": "Many people already own one and continue to use it.",
+            "zh": "很多人本來就有一件，並繼續穿。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理解釋這款外套長久有人穿；金句指出款式不易過時。"
+      },
+      "scene": {
+        "promptZh": "一種曾在校園很流行的彩色筆袋，現在很少人在用，但有些學生仍然喜歡。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That pencil-case design has gone out of style, though some students still like it.",
+            "zh": "那款筆袋已不再流行，但有些學生仍喜歡。"
+          },
+          {
+            "id": "b",
+            "en": "No student could possibly still like that design.",
+            "zh": "絕不可能有學生仍喜歡那款設計。"
+          },
+          {
+            "id": "c",
+            "en": "The design has just become popular for the first time.",
+            "zh": "那款設計剛第一次流行起來。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "使用人數大減可說不再流行，但不抹去個人的喜好。"
+      },
+      "contrast": {
+        "promptZh": "按本課「不再流行」的意思，哪種情況最不適合說 go out of style？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shoe shape was common last year but is rarely sold now.",
+            "zh": "某款鞋去年常見，現在很少有售。"
+          },
+          {
+            "id": "b",
+            "en": "A student dislikes a new coat, even though it is popular with most people.",
+            "zh": "一名學生不喜歡新外套，但它仍受大多數人歡迎。"
+          },
+          {
+            "id": "c",
+            "en": "An old poster style becomes uncommon as designers choose other looks.",
+            "zh": "設計師改用其他風格後，一種舊海報風格變得少見。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一個人的不喜歡，不能證明整體潮流已經退去。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我的紅色帆布袋已經不流行了，是否一定要扔掉？」哪個回應最合理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Even if it goes out of style, you can keep using it if you like it.",
+            "zh": "即使它不再流行，只要你喜歡，仍可以繼續用。"
+          },
+          {
+            "id": "b",
+            "en": "Anything unfashionable is immediately unusable.",
+            "zh": "任何不流行的東西都立即不能用。"
+          },
+          {
+            "id": "c",
+            "en": "Your bag must be fashionable because it is red.",
+            "zh": "你的袋一定流行，因為它是紅色的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不再流行是潮流變化，不等於物品失去用途或主人必須棄用。"
+      },
+      "speaking": {
+        "en": "That pattern went out of style years ago, yet my aunt still loves her old coat.",
+        "zh": "那款花紋多年前已不再流行，但我阿姨仍喜歡她的舊外套。",
+        "promptZh": "先聽示範，再說明流行程度與阿姨喜好有何不同。",
+        "targetSpan": {
+          "start": 13,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某款厚重的相機帶曾經很流行，如今大多數攝影愛好者改用輕便款式，但你朋友仍喜歡舊相機帶。用一至兩句英文描述潮流變化及個人喜好。",
+        "selfCheckZh": "指出舊款不再流行，卻不等於朋友不能繼續喜歡或使用。",
+        "examples": [
+          {
+            "en": "The heavy camera strap has gone out of style, but my friend still likes its sturdy feel.",
+            "zh": "厚重相機帶已不再流行，但我的朋友仍喜歡它結實的觸感。"
+          },
+          {
+            "en": "Although that old strap went out of style, she keeps using it because it feels reliable.",
+            "zh": "雖然那款舊相機帶已不再流行，她仍繼續使用，因為它用起來可靠。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "heavy camera strap",
+            "zh": "厚重相機帶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "its sturdy feel",
+            "zh": "它結實的觸感",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 87
+            }
+          },
+          {
+            "en": "that old strap",
+            "zh": "那款舊相機帶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 23
+            }
+          },
+          {
+            "en": "keeps using it",
+            "zh": "繼續使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 61
+            }
+          },
+          {
+            "en": "feels reliable",
+            "zh": "用起來可靠",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 87
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Some trends go out of style quickly, while practical designs last longer.",
+          "zh": "有些潮流很快過時，實用的設計則能維持更久。"
+        },
+        {
+          "en": "The poster style went out of style, but the message remained clear.",
+          "zh": "那款海報風格不再流行，但訊息仍然清楚。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2243",
+      "number": 2243,
+      "inventoryId": "expr-2243",
+      "titleEn": "turn on a dime",
+      "titleZh": "瞬間改變方向或態度",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:turn|turns|turned|turning) on a dime\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Change direction, decision or opinion very quickly, often in response to new information.",
+        "meaningZh": "因新情況而極快改變方向、決定或看法。",
+        "grammar": "a plan can turn on a dime; opinion turned on a dime.",
+        "register": "American idiom; vivid and informal in conversation, also used in commentary.",
+        "boundaryZh": "重點是改變迅速；未必是壞事，也不是字面在硬幣上轉身。",
+        "misconceptionZh": "不要把經過長期討論的緩慢轉變說成瞬間改變。",
+        "outcomeZh": "能指出觸發快速改變的事件，並準確描述結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0132",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 13,
+          "book": 10,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Public opinion can turn on a dime after a major event.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn on a dime"
+        }
+      ],
+      "listening": {
+        "en": "The parade was set for the square, but when a storm warning arrived, the organisers turned on a dime and moved it indoors.",
+        "zh": "遊行原定在廣場舉行，但暴風雨警告一到，主辦者便迅速改變安排，把活動移到室內。",
+        "promptZh": "主辦者收到警告後怎樣應對？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They changed the plan almost immediately.",
+            "zh": "他們幾乎立即改變安排。"
+          },
+          {
+            "id": "b",
+            "en": "They spent months debating without reaching a decision.",
+            "zh": "他們討論了幾個月，仍沒有決定。"
+          },
+          {
+            "id": "c",
+            "en": "They kept the outdoor route despite the warning.",
+            "zh": "儘管有警告，他們仍維持戶外路線。"
+          },
+          {
+            "id": "d",
+            "en": "They postponed the parade for several weeks instead of moving it indoors.",
+            "zh": "他們把遊行延後幾星期，沒有移到室內。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "警告一到就把活動移入室內，說明安排改得很快。"
+      },
+      "reply": {
+        "promptEn": "How did the exhibition team respond when the gallery lost power but the daylit foyer remained open?",
+        "promptZh": "（畫廊停電，但有自然光的大堂仍開放時，展覽團隊怎樣應對？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They closed the unlit rooms until power returned.",
+            "zh": "他們暫時關閉沒有照明的展廳，等電力恢復。"
+          },
+          {
+            "id": "b",
+            "en": "They contacted visitors with the new location.",
+            "zh": "他們把新地點通知訪客。"
+          },
+          {
+            "id": "c",
+            "en": "They turned on a dime and moved the exhibition talk to the daylit foyer.",
+            "zh": "他們迅速改變安排，把展覽講座移到有自然光的大堂。"
+          },
+          {
+            "id": "d",
+            "en": "They used printed guides until the lights came back.",
+            "zh": "燈光恢復前，他們使用紙本導覽資料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是停電後可行的應對方法；金句強調團隊立即改變安排，把講座移到仍可使用的地方。"
+      },
+      "scene": {
+        "promptZh": "學校辯論賽開始前，投影機突然故障。工作人員幾分鐘內改用紙本圖表，讓比賽準時開始。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team turned on a dime and switched to printed charts.",
+            "zh": "團隊迅速改變安排，改用紙本圖表。"
+          },
+          {
+            "id": "b",
+            "en": "The team made the switch only after several months of planning.",
+            "zh": "團隊經過幾個月規劃才改用圖表。"
+          },
+          {
+            "id": "c",
+            "en": "The event was cancelled without any alternative materials.",
+            "zh": "活動取消了，也沒有任何替代材料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "投影機突然故障，團隊幾分鐘內改用紙本圖表，符合快速轉向。"
+      },
+      "contrast": {
+        "promptZh": "以本課「迅速改變決定或方向」的意思，哪種情況最不適合說 turn on a dime？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team changes its route as soon as a bridge closes.",
+            "zh": "橋樑一封閉，團隊立即更改路線。"
+          },
+          {
+            "id": "b",
+            "en": "A council takes four years of planned consultations before gradually changing a policy.",
+            "zh": "議會經過四年有計劃的諮詢，才逐步改變政策。"
+          },
+          {
+            "id": "c",
+            "en": "A coach quickly changes the line-up after a player is injured.",
+            "zh": "球員受傷後，教練迅速更改陣容。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "四年內逐步變動，缺乏這個慣用語所強調的即時性。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們今晚約好在圖書館見面，但它剛宣布提早關門。」附近的咖啡店仍營業。哪個回應最實際？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should turn on a dime and meet at the café instead.",
+            "zh": "我們應立即改變安排，改到咖啡店見面。"
+          },
+          {
+            "id": "b",
+            "en": "Let us wait outside the closed library without telling anyone.",
+            "zh": "我們不用通知任何人，只在已關門的圖書館外等候。"
+          },
+          {
+            "id": "c",
+            "en": "The closure cannot affect the plan, so we must meet inside the library.",
+            "zh": "關門不可能影響安排，所以我們必須在圖書館裏見面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "圖書館突然提早關門，應立即調整見面地點；金句用 turn on a dime 指快速應變。"
+      },
+      "speaking": {
+        "en": "The chess organisers turned on a dime when the hall became unavailable and moved the final to the library.",
+        "zh": "禮堂無法使用時，棋賽主辦者迅速改變安排，把決賽移到圖書館。",
+        "promptZh": "先聽示範，再說明棋賽主辦者如何迅速應變。",
+        "targetSpan": {
+          "start": 21,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們的社區跑步活動開始前半小時，公園突然關閉。主辦者立即改為室內步行挑戰，並傳訊息通知參加者。用一至兩句英文描述應變。",
+        "selfCheckZh": "說明公園突然關閉觸發即時改變，並指出新安排；不要寫成多月後才轉變。",
+        "examples": [
+          {
+            "en": "The organisers turned on a dime when the park closed and moved the challenge indoors.",
+            "zh": "公園關閉時，主辦者迅速改變安排，把挑戰移到室內。"
+          },
+          {
+            "en": "After the sudden closure, the team turned on a dime, switching to an indoor walk and messaging the participants.",
+            "zh": "公園突然關閉後，團隊迅速改變安排，改為室內步行並通知參加者。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the park closed",
+            "zh": "公園關閉",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 52
+            }
+          },
+          {
+            "en": "the challenge indoors",
+            "zh": "把挑戰移到室內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 84
+            }
+          },
+          {
+            "en": "the sudden closure",
+            "zh": "突然關閉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 24
+            }
+          },
+          {
+            "en": "an indoor walk",
+            "zh": "室內步行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 80
+            }
+          },
+          {
+            "en": "the participants",
+            "zh": "參加者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The coach turned on a dime after seeing the weather warning.",
+          "zh": "教練看到天氣警告後，立刻改變安排。"
+        },
+        {
+          "en": "A team that can turn on a dime can respond quickly to new information.",
+          "zh": "能迅速改變安排的團隊，可以快速回應新資訊。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2246",
+      "number": 2246,
+      "inventoryId": "expr-2246",
+      "titleEn": "underneath it all",
+      "titleZh": "撇開表面差異，深一層來看",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bunderneath it all\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a deeper level beneath visible differences or behaviour.",
+        "meaningZh": "撇開表面上的差異或表現，看到較根本的感受或共同點。",
+        "grammar": "different habits, but underneath it all they want the same thing.",
+        "register": "Conversational figurative phrase; should lead to a supported deeper point.",
+        "boundaryZh": "必須有表面與深層的對照；不是實際藏在某物下面。",
+        "misconceptionZh": "不要憑空替別人推斷隱藏動機；要有情境支持。",
+        "outcomeZh": "能在表面分歧中，謹慎指出雙方可觀察到的共同關注。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0135",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 13,
+          "book": 10,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Their customs differ, but underneath it all they share the same hopes.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "underneath it all"
+        }
+      ],
+      "listening": {
+        "en": "The two parents argued about the school trip route, but underneath it all they both wanted the children to travel safely.",
+        "zh": "兩位家長為學校旅行路線爭論，但撇開表面分歧，他們都希望孩子能安全出行。",
+        "promptZh": "兩位家長有甚麼共同的深層關注？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both care about the children’s safety.",
+            "zh": "兩人都關心孩子的安全。"
+          },
+          {
+            "id": "b",
+            "en": "Neither cares where the children go.",
+            "zh": "兩人都不在乎孩子去哪裏。"
+          },
+          {
+            "id": "c",
+            "en": "One parent cares about safety, while the other cares only about travel time.",
+            "zh": "一位家長關心安全，另一位只關心車程。"
+          },
+          {
+            "id": "d",
+            "en": "They have already agreed on every route detail.",
+            "zh": "他們已同意路線的每個細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們在路線上有分歧，但共同目的是孩子安全；underneath it all 指更深一層的共同點。"
+      },
+      "reply": {
+        "promptEn": "Why can the two volunteers work together even though one likes posters and the other prefers videos?",
+        "promptZh": "（兩名義工分別喜歡海報與影片，為何仍能合作？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They both want more people to know about the food collection.",
+            "zh": "兩人都希望更多人知道食物募集活動。"
+          },
+          {
+            "id": "b",
+            "en": "They can use both posters and videos.",
+            "zh": "他們可以同時使用海報與影片。"
+          },
+          {
+            "id": "c",
+            "en": "Underneath it all, they share the aim of helping local families.",
+            "zh": "撇開表面差異，他們都希望幫助本地家庭。"
+          },
+          {
+            "id": "d",
+            "en": "They can divide the design work between them.",
+            "zh": "他們可以分工處理設計工作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可解釋合作的可能；金句透過表面方法差異，指出更根本的共同目標。"
+      },
+      "scene": {
+        "promptZh": "兩位學生為畢業展覽應選照片還是繪畫爭論，但他們都希望每名同學有作品展出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Underneath it all, they share the wish to include everyone.",
+            "zh": "撇開表面分歧，他們都希望每個人都能參與。"
+          },
+          {
+            "id": "b",
+            "en": "They agree on exactly which art form to use.",
+            "zh": "他們完全同意使用哪種藝術形式。"
+          },
+          {
+            "id": "c",
+            "en": "Neither student cares whether anyone gets to exhibit.",
+            "zh": "兩人都不在乎有沒有同學能展出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "展品形式上有分歧，讓全體同學展出的目標卻一致。"
+      },
+      "contrast": {
+        "promptZh": "以本課「表面差異背後的深層共同點」的意思，哪種情況最不適合說 underneath it all？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two neighbours favour different garden designs but both want safe play space.",
+            "zh": "兩名鄰居喜歡不同花園設計，但都想要安全遊玩空間。"
+          },
+          {
+            "id": "b",
+            "en": "A lost key is physically underneath a stack of papers.",
+            "zh": "遺失的鑰匙實際壓在一疊紙下。"
+          },
+          {
+            "id": "c",
+            "en": "Two teammates disagree on tactics but both want the team to learn.",
+            "zh": "兩名隊友的策略不同，但都希望團隊進步。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "鑰匙在紙下是實際位置，沒有表面差異與深層共同點的對照。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「阿欣想把街市保留下來，阿明想翻新；他們是不是完全沒有共識？」你知道兩人都想讓長者容易買菜。哪個回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Underneath it all, they both want the market to remain easy for older shoppers to use.",
+            "zh": "撇開表面分歧，兩人都希望街市繼續方便長者買菜。"
+          },
+          {
+            "id": "b",
+            "en": "They must agree on every renovation detail already.",
+            "zh": "他們一定已同意翻新的每個細節。"
+          },
+          {
+            "id": "c",
+            "en": "They have opposite views on whether older shoppers matter.",
+            "zh": "他們對長者是否重要持完全相反的看法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留與翻新的方案不同，但方便長者買菜是有根據的共同關注。"
+      },
+      "speaking": {
+        "en": "The two neighbours disagreed about the playground design, but underneath it all they both wanted a safe space for children.",
+        "zh": "兩名鄰居對遊樂場設計意見不同，但撇開表面分歧，兩人都想給孩子一個安全的空間。",
+        "promptZh": "先聽示範，再說明兩名鄰居共同關注甚麼。",
+        "targetSpan": {
+          "start": 62,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位朋友討論週末家庭活動。一人想去海邊，一人想去博物館；他們都說希望全家能一起度過輕鬆的一天。用一至兩句英文指出表面分歧和共同目標。",
+        "selfCheckZh": "指出目的地意見不同，但雙方都想與家人輕鬆相處；不要推斷他們沒有說過的隱藏動機。",
+        "examples": [
+          {
+            "en": "They disagree about whether to go to the beach or the museum, but underneath it all they both want a relaxed day with their family.",
+            "zh": "他們對去海邊還是博物館有分歧，但撇開表面差異，兩人都想與家人共度輕鬆的一天。"
+          },
+          {
+            "en": "One friend suggests the beach and the other suggests a museum; underneath it all, they share the wish to spend time together.",
+            "zh": "一人提議去海邊，另一人提議去博物館；撇開表面差異，他們都希望共度時光。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the beach or the museum",
+            "zh": "海邊還是博物館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 60
+            }
+          },
+          {
+            "en": "a relaxed day",
+            "zh": "輕鬆的一天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 112
+            }
+          },
+          {
+            "en": "with their family",
+            "zh": "與家人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 130
+            }
+          },
+          {
+            "en": "suggests a museum",
+            "zh": "提議去博物館",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 61
+            }
+          },
+          {
+            "en": "spend time together",
+            "zh": "共度時光",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Their methods differ, but underneath it all they are working toward the same goal.",
+          "zh": "他們的方法不同，但撇開表面差異，仍朝着同一目標努力。"
+        },
+        {
+          "en": "Underneath it all, both speakers care about keeping the tradition alive.",
+          "zh": "撇開表面差異，兩名發言者都關心延續這項傳統。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

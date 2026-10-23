@@ -122,8 +122,8 @@
         "options": [
           {
             "id": "a",
-            "en": "All maps and name badges are packed for the trip.",
-            "zh": "旅行所需的地圖與名牌都已收好。"
+            "en": "The trip transport is confirmed, all participants are registered, and the maps and name badges are packed.",
+            "zh": "旅程交通已確認，所有參加者已登記，地圖和名牌也已收好。"
           },
           {
             "id": "b",
@@ -171,12 +171,12 @@
         }
       },
       "writing": {
-        "promptZh": "新情境：明早你們要在操場舉辦舊書交換。今晚你們已分類書本、做好價目牌，並安排了收款員。用一至兩句英文說明明早的準備狀態。",
-        "selfCheckZh": "指出書本、標示及人手等必要準備已完成，活動可以開始；不要說交換已結束。",
+        "promptZh": "新情境：明早你們要在操場舉辦舊書義賣。今晚你們已分類書本、做好價目牌，並安排了收款員。用一至兩句英文說明明早的準備狀態。",
+        "selfCheckZh": "指出書本、標示及人手等必要準備已完成，活動可以開始；不要說義賣已結束。",
         "examples": [
           {
-            "en": "The books are sorted and the price signs are finished, so our swap is ready to go tomorrow morning.",
-            "zh": "書本已分類，價目牌也已做好，所以明早的交換活動已準備妥當，可以開始。"
+            "en": "The books are sorted and the price signs are finished, so our book sale is ready to go tomorrow morning.",
+            "zh": "書本已分類，價目牌也已做好，所以明早的舊書義賣已準備妥當，可以開始。"
           },
           {
             "en": "With the cashier assigned and every table labelled, we are ready to go when the gates open.",
@@ -207,8 +207,8 @@
             "zh": "明早",
             "exampleIndex": 0,
             "span": {
-              "start": 82,
-              "end": 98
+              "start": 87,
+              "end": 103
             }
           },
           {
@@ -447,8 +447,8 @@
             "zh": "我們可以收集學生意見並向學校呈報，積極爭取維持自修室較長的開放時間。"
           },
           {
-            "en": "Instead of simply complaining, our group could fight back with a proposal to keep the room open twice a week.",
-            "zh": "我們小組可以提出每星期保留兩晚開放的方案，積極爭取，而不只是抱怨。"
+            "en": "Instead of simply complaining, our group could fight back with a proposal to keep the current opening hours.",
+            "zh": "我們小組可以提出維持現有開放時間的方案，積極爭取，而不只是抱怨。"
           }
         ],
         "glossary": [
@@ -489,12 +489,12 @@
             }
           },
           {
-            "en": "twice a week",
-            "zh": "每星期兩次",
+            "en": "current opening hours",
+            "zh": "現有開放時間",
             "exampleIndex": 1,
             "span": {
-              "start": 96,
-              "end": 108
+              "start": 86,
+              "end": 107
             }
           }
         ]
@@ -1577,8 +1577,8 @@
           "zh": "行山人士在最後一段短坡前喘了口氣。"
         },
         {
-          "en": "Give the movers a moment to catch their breath after the stairs.",
-          "zh": "搬運者走完樓梯後，給他們一點時間喘口氣。"
+          "en": "Give the movers a moment to catch their breath after carrying the boxes upstairs.",
+          "zh": "搬運者把箱子搬上樓後，給他們一點時間喘口氣。"
         }
       ],
       "review": {

@@ -1,0 +1,70 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "comparisonDecisions": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2291.jsonl (four consecutive decision files)",
+    "priorLabels": "course-materials/advanced-native/provenance/source-labels.json",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "counts": {
+    "proposedAliasExisting": 19,
+    "proposedAliasNew": 3,
+    "holdEditorial": 13,
+    "proposedNewLesson": 25,
+    "findings": 4,
+    "major": 3,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 2299,
+      "sourceId": "book10-16-0188",
+      "phrase": "bring that reality to life",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 327's broad title 'bring something to life' can express vividness, but its target pattern enumerates supported objects and does not include 'that reality'. The source example 'The photographs bring that reality to life for readers' cannot match the canonical lesson. The same canonical-coverage problem was placed on hold for 'bring ideas to life' at source ordinal 2263.",
+      "recommendedFix": "Place this source on the same editorial hold as 2263 until canonical 327 is deliberately broadened and tested for reality/ideas objects, or a justified separate construction is documented."
+    },
+    {
+      "sourceOrdinal": 2300,
+      "sourceId": "book10-16-0189",
+      "phrase": "drawn into a story",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "Canonical 328 teaches 'be drawn in by' and its target pattern requires 'drawn in'. The source 'felt drawn into a story' uses the related but different 'drawn into + narrative' construction; the full source example does not match the canonical matcher. The absorption meaning is close, but the present alias is overconfident about grammatical coverage.",
+      "recommendedFix": "Hold pending a reviewed expansion of canonical 328 for 'drawn into + story/world', including target pattern and contrasted contexts, or document why this merits a separate teaching target."
+    },
+    {
+      "sourceOrdinal": 2347,
+      "sourceId": "book10-16-0236",
+      "phrase": "drawn to",
+      "path": "action; canonicalId; reason",
+      "severity": "major",
+      "explanation": "This row again aliases the exact be-passive source example 'Many visitors are drawn to the quiet garden' to canonical 021. The earlier identical rows 2227, 2233 and 2254 are now on editorial hold because canonical 021 only teaches and matches 'feel drawn to'. This is a repeated cross-batch ownership-state contradiction.",
+      "recommendedFix": "Place 2347 on the same hold as 2227/2233/2254, then resolve all four together after reviewing canonical 021's be + drawn to form."
+    },
+    {
+      "sourceOrdinal": 2348,
+      "sourceId": "book10-16-0237",
+      "phrase": "through the lens of",
+      "path": "action; canonicalId; reason",
+      "severity": "minor",
+      "explanation": "The generic 'through the lens of + perspective' construction is proposed as new without comparing canonical 1765, 'through the lens of yesterday'. The earlier lesson is specifically about viewing the present through the past, so a broader perspective lesson may be justified, but it shares the same metaphor and preposition pattern. Its proposed-new reason does not record the sense/scope boundary.",
+      "recommendedFix": "Document an explicit comparison with canonical 1765 before drafting. Either retain a distinct general-perspective lesson with a clear history-specific boundary or broaden the canonical lesson if review finds the difference is only its object."
+    }
+  ],
+  "mechanicalChecks": [
+    "All 60 source ordinals are contiguous 2292–2351; source IDs, expressions and source-ordinal offsets match the extracted inventory.",
+    "All proposed-new IDs follow their source ordinals, all holds have null canonical IDs, and proposed-alias-new IDs 2292, 2334 and 2346 point to earlier proposed-new owners.",
+    "Among existing aliases with authored canonical lessons, source examples 2299, 2300 and 2347 fail the current canonical target pattern; these are the substantive alias-coverage findings above."
+  ],
+  "limits": [
+    "This is AI peer review of provisional editorial decisions, not independent human language approval, owner acceptance or release approval.",
+    "Source comparisons used the extracted source inventory, prior source labels and canonical lesson records; this review did not separately inspect every page of the original DOCX or perform device/audio testing."
+  ]
+}

@@ -88,8 +88,8 @@
           },
           {
             "id": "d",
-            "en": "Staff could explain which entrance is closer to each display.",
-            "zh": "職員可以解釋哪個入口較接近各個展區。"
+            "en": "Staff could explain which walkway connects the two buildings.",
+            "zh": "職員可以解釋哪條行人通道連接兩座大樓。"
           }
         ],
         "goldenId": "a",
@@ -179,8 +179,8 @@
             "zh": "有標記的地圖會令新同學從主校舍前往體育館更容易。我們可以指出最安全的行人過路處。"
           },
           {
-            "en": "Getting from A to B takes about five minutes on foot, so I will put clear signs beside both entrances.",
-            "zh": "兩地之間步行約需五分鐘，所以我會在兩邊入口旁放置清晰的指示牌。"
+            "en": "Getting from A to B can be confusing for new students, so I will put clear signs beside both entrances.",
+            "zh": "新同學可能不清楚怎樣從主校舍前往體育館，所以我會在兩邊入口旁放置清晰的指示牌。"
           }
         ],
         "glossary": [
@@ -212,12 +212,12 @@
             }
           },
           {
-            "en": "five minutes on foot",
-            "zh": "步行五分鐘",
+            "en": "clear signs",
+            "zh": "清晰的指示牌",
             "exampleIndex": 1,
             "span": {
-              "start": 32,
-              "end": 52
+              "start": 69,
+              "end": 80
             }
           },
           {
@@ -225,8 +225,8 @@
             "zh": "兩邊入口",
             "exampleIndex": 1,
             "span": {
-              "start": 87,
-              "end": 101
+              "start": 88,
+              "end": 102
             }
           }
         ]
@@ -697,7 +697,7 @@
       },
       "writing": {
         "promptZh": "新情境：你們準備參觀科技館，卻在門口才知道團體票必須先在網上預約，因此要改天再來。用一至兩句英文說明發生甚麼事及下次如何避免。",
-        "selfCheckZh": "指出新的訂票要求令隊伍措手不及，並提出下次預先查網頁或預約。",
+        "selfCheckZh": "指出預先網上訂票的要求令隊伍措手不及，並提出下次預先查網頁或預約。",
         "examples": [
           {
             "en": "We were caught out by the online booking rule and had to return another day. Next time, we will check the website first.",

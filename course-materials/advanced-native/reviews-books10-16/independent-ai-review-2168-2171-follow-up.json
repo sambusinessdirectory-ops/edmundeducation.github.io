@@ -1,0 +1,49 @@
+{
+  "reviewType": "independent AI editorial follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "Recheck of all three findings in independent-ai-review-2168-2171.json after repair, with a fresh pass over the four draft lessons",
+  "result": {
+    "priorFindings": 3,
+    "resolvedOnFollowUp": 3,
+    "stillOpenFromPriorReview": 0,
+    "newMajorFindings": 2,
+    "newMinorFindings": 1
+  },
+  "resolved": [
+    "2168 no longer renders one-way 'getting from A to B' as a Chinese round trip.",
+    "2169 now uses fluent Chinese for time to spare instead of repeated '餘裕時間'.",
+    "2171 now uses distinct warehouse, canteen and event-check-in situations instead of repeating 2166's road-warning-and-rerouting pattern."
+  ],
+  "newFindings": [
+    {
+      "lessonId": "advanced-native-2168",
+      "path": "reply.options[d].en; reply.options[d].zh",
+      "severity": "major",
+      "explanation": "The prompt asks what would help visitors travel between two exhibition buildings. Option D instead explains which entrance is closer to each display. That may help navigate exhibits but does not clearly help them get from one building to the other, so the four-valid-replies condition is not fully met.",
+      "recommendedFix": "Make D directly about the between-building route, such as staff explaining the walkway or exit to use; translate it faithfully and retain a distinct reason from maps, shuttle and signs."
+    },
+    {
+      "lessonId": "advanced-native-2168",
+      "path": "writing.promptZh; writing.examples[1].en; writing.examples[1].zh; writing.glossary",
+      "severity": "major",
+      "explanation": "The new situation says only that the main building and gym host activities and a new student does not know the route. Model 2 states that walking takes about five minutes, but the prompt supplies no distance or travel time. This invented factual detail weakens grounding of a suggested answer.",
+      "recommendedFix": "Either give an established five-minute walk in the prompt, or rewrite the model to offer signs or a route without claiming a duration. Recalculate affected glossary character spans if the answer changes."
+    },
+    {
+      "lessonId": "advanced-native-2170",
+      "path": "writing.selfCheckZh",
+      "severity": "minor",
+      "explanation": "The writing situation establishes that group tickets must be booked online in advance, but it does not say the rule is new. The self-check calls it '新的訂票要求', adding a change in policy that the learner was never told about.",
+      "recommendedFix": "Say '預先網上訂票的要求' or explicitly establish that the rule was newly introduced in the task."
+    }
+  ],
+  "mechanicalRecheck": [
+    "All four source mappings, required target matches, speaking clozes and answer-derived glossary spans remain mechanically valid after the repairs."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance or release approval.",
+    "No actual audio listening, browser/device line-ending inspection, sound feedback, microphone check or live lesson check was performed."
+  ]
+}

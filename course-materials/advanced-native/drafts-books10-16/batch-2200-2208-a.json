@@ -1,0 +1,1346 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-first120-provisional-a1-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2200",
+      "number": 2200,
+      "inventoryId": "expr-2200",
+      "titleEn": "meet up",
+      "titleZh": "相約見面",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:meet|meets|met|meeting) up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Come together at an arranged time, usually for a social activity.",
+        "meaningZh": "按約定時間相聚，通常一起參與社交活動。",
+        "grammar": "meet up with someone; meet up for lunch; met up yesterday.",
+        "register": "Informal and friendly; more social than a formal meeting.",
+        "boundaryZh": "須有相聚或約見的意思；在街上偶然遇見不等於事先相約。",
+        "misconceptionZh": "不要把 meet up 當成必然開正式會議，也不要忽略相約的語境。",
+        "outcomeZh": "能自然提出朋友間的約見安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0089",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We meet up for lunch every Friday.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "meet up"
+        }
+      ],
+      "listening": {
+        "en": "The old classmates agreed to meet up at the park on Saturday and bring photos from school.",
+        "zh": "舊同學約好星期六在公園見面，並帶來讀書時的照片。",
+        "promptZh": "舊同學打算怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Get together at an agreed place and time.",
+            "zh": "在約好的時間和地點相聚。"
+          },
+          {
+            "id": "b",
+            "en": "Hold a compulsory staff meeting at work.",
+            "zh": "在公司召開必須出席的員工會議。"
+          },
+          {
+            "id": "c",
+            "en": "Accidentally see one another on the street.",
+            "zh": "在街上偶然遇見對方。"
+          },
+          {
+            "id": "d",
+            "en": "Send photos without seeing anyone.",
+            "zh": "只寄照片，不與任何人見面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "agreed、星期六和公園表明事先相約見面；不是偶遇或只寄照片。"
+      },
+      "reply": {
+        "promptEn": "How can we spend time together after exams?",
+        "promptZh": "（考試後，我們可以怎樣一起相聚？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could meet up for lunch next Saturday.",
+            "zh": "我們下星期六可以相約吃午飯。"
+          },
+          {
+            "id": "b",
+            "en": "Let us visit the new exhibition together.",
+            "zh": "我們一起參觀新展覽吧。"
+          },
+          {
+            "id": "c",
+            "en": "We could have a picnic when everyone is free.",
+            "zh": "大家有空時可以去野餐。"
+          },
+          {
+            "id": "d",
+            "en": "Why not choose a film and go as a group?",
+            "zh": "何不選一齣電影，一起去看？"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四個建議都能讓朋友考試後相聚；金句以 meet up 明確提出相約見面。"
+      },
+      "scene": {
+        "promptZh": "三位朋友透過訊息約定星期日下午在海濱散步。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They will meet up at the waterfront on Sunday.",
+            "zh": "他們星期日會在海濱相約見面。"
+          },
+          {
+            "id": "b",
+            "en": "They have already met by chance without arranging anything.",
+            "zh": "他們未經安排便已偶然遇見。"
+          },
+          {
+            "id": "c",
+            "en": "They will communicate only by message and never gather.",
+            "zh": "他們只會傳訊息，絕不相聚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訊息裏已約定時間和地點，因此是相約見面；其餘兩句否定了約定和相聚。"
+      },
+      "contrast": {
+        "promptZh": "按本課「事先相約相聚」的意思，哪種情況最不適合說 meet up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two cousins choose a café and agree to meet there tomorrow.",
+            "zh": "兩名表親選好咖啡店，約定明天在那裏見面。"
+          },
+          {
+            "id": "b",
+            "en": "Two strangers pass one another at a crossing and never speak.",
+            "zh": "兩名陌生人在過路處擦身而過，沒有交談。"
+          },
+          {
+            "id": "c",
+            "en": "Old friends arrange a walk together at six.",
+            "zh": "舊朋友約好六點一起散步。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "陌生人擦身而過並沒有相約或相聚；另外兩項有明確安排。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「大家下星期都有空，但還未決定去哪裏。」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us meet up at the library café on Wednesday and decide where to go next.",
+            "zh": "我們星期三在圖書館咖啡店相約見面，再決定下一站去哪裏。"
+          },
+          {
+            "id": "b",
+            "en": "We cannot see one another unless the whole year is free.",
+            "zh": "除非全年都有空，否則我們不能見面。"
+          },
+          {
+            "id": "c",
+            "en": "Do not choose a time or place; everyone will somehow arrive together.",
+            "zh": "不用選時間或地點，大家自然會同時到達。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提出具體時間和地點，讓相聚可成事；其餘兩句沒有可行的安排。"
+      },
+      "speaking": {
+        "en": "We met up after the volunteer shift and shared stories over tea.",
+        "zh": "義工時段結束後，我們相約見面，一邊喝茶一邊分享故事。",
+        "promptZh": "先聽示範，再說明義工活動後發生了甚麼事。",
+        "targetSpan": {
+          "start": 3,
+          "end": 9
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和兩位朋友很久沒有見面，今個星期日都有空。用一至兩句英文提出一項具體的相聚安排，包括地點或活動。",
+        "selfCheckZh": "寫出朋友之間的相約見面，並提出實際的時間、地點或活動；不要寫成偶遇。",
+        "examples": [
+          {
+            "en": "Let us meet up at the riverside café on Sunday afternoon and catch up over tea.",
+            "zh": "星期日下午，我們在河邊咖啡店相約見面，一邊喝茶一邊聊近況吧。"
+          },
+          {
+            "en": "We could meet up before the film and have an early dinner near the cinema.",
+            "zh": "我們可以在電影開始前相約見面，到戲院附近早點吃晚飯。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the riverside café",
+            "zh": "河邊咖啡店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "Sunday afternoon",
+            "zh": "星期日下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 56
+            }
+          },
+          {
+            "en": "catch up over tea",
+            "zh": "一邊喝茶一邊聊近況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 78
+            }
+          },
+          {
+            "en": "before the film",
+            "zh": "電影開始前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 17,
+              "end": 32
+            }
+          },
+          {
+            "en": "an early dinner",
+            "zh": "早點吃晚飯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 57
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Our neighbours meet up for a walk once a month.",
+          "zh": "我們的鄰居每個月相約散步一次。"
+        },
+        {
+          "en": "I met up with my cousin near the ferry pier.",
+          "zh": "我在渡輪碼頭附近與表親相約見面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2201",
+      "number": 2201,
+      "inventoryId": "expr-2201",
+      "titleEn": "window-shopping",
+      "titleZh": "只看不買地逛店",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwindow-shopping\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Browse shop displays or products for pleasure without intending to buy.",
+        "meaningZh": "為了消遣而看商店陳列或商品，並不打算購買。",
+        "grammar": "go window-shopping; spend an afternoon window-shopping.",
+        "register": "Everyday leisure expression; may include browsing inside stores.",
+        "boundaryZh": "重點是看商品而沒有即時購買打算；稍後改變主意不使先前用法錯誤。",
+        "misconceptionZh": "不要把它理解成只看真正的玻璃櫥窗，也不要說成已經大量購物。",
+        "outcomeZh": "能區分消遣式瀏覽與計劃中的採購。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0090",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We spent the afternoon window-shopping in the city centre.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "window-shopping"
+        }
+      ],
+      "listening": {
+        "en": "We had no money to spend, so we went window-shopping and compared the book displays for fun.",
+        "zh": "我們沒有錢可花，便只看不買地逛書店，為了消遣而比較書籍陳列。",
+        "promptZh": "說話者逛店時的主要打算是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Browse products without planning to buy.",
+            "zh": "看商品，但不打算購買。"
+          },
+          {
+            "id": "b",
+            "en": "Purchase every book on display.",
+            "zh": "買下所有陳列的書。"
+          },
+          {
+            "id": "c",
+            "en": "Clean the shop windows for pay.",
+            "zh": "有薪酬地清潔店舖櫥窗。"
+          },
+          {
+            "id": "d",
+            "en": "Search only for an urgent required textbook.",
+            "zh": "只尋找急需購買的指定課本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有錢可花、為消遣比較陳列，表明是看而不買；不是清潔櫥窗或大採購。"
+      },
+      "reply": {
+        "promptEn": "What could we do at the shopping arcade without spending money?",
+        "promptZh": "（不花錢的話，我們在商場可以做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could look at the public art displays.",
+            "zh": "我們可以看看公共藝術展品。"
+          },
+          {
+            "id": "b",
+            "en": "We could go window-shopping and admire the new designs.",
+            "zh": "我們可以只看不買地逛店，欣賞新設計。"
+          },
+          {
+            "id": "c",
+            "en": "We could sit and talk in the open seating area.",
+            "zh": "我們可以在公共座位區坐下聊天。"
+          },
+          {
+            "id": "d",
+            "en": "We could explore the free photography exhibition.",
+            "zh": "我們可以參觀免費攝影展。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四項都可以不花錢在商場消遣；金句特別指逛店看貨而不打算買。"
+      },
+      "scene": {
+        "promptZh": "朋友在商店街看了幾家鞋店的新款，拍下喜歡的款式，當天沒有購買打算。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She spent the afternoon window-shopping for shoes.",
+            "zh": "她下午只看不買地逛鞋店。"
+          },
+          {
+            "id": "b",
+            "en": "She bought several pairs of shoes immediately.",
+            "zh": "她立刻買了幾雙鞋。"
+          },
+          {
+            "id": "c",
+            "en": "She was repairing the shops’ display windows.",
+            "zh": "她在修理店舖的陳列櫥窗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "看款式且當天不打算買，符合 window-shopping；其餘兩句加入購買或修窗的不同活動。"
+      },
+      "contrast": {
+        "promptZh": "按本課「看商品但當時不打算買」的意思，哪種情況最不適合說 window-shopping？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student browses clothing displays for fun and leaves without buying.",
+            "zh": "學生為消遣看看服裝陳列，沒有購物便離開。"
+          },
+          {
+            "id": "b",
+            "en": "A parent enters a pharmacy to collect medicine already ordered and pays for it.",
+            "zh": "家長進藥房領取已訂藥物並付款。"
+          },
+          {
+            "id": "c",
+            "en": "Two friends look at furniture styles without choosing a purchase.",
+            "zh": "兩名朋友看看家具款式，沒有決定購買。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "領取已訂藥物並付款是實際採購，不是消遣式瀏覽；另外兩項以觀看為主。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「還有半小時，錢不夠買東西，但我想看看新出的文具。」哪個回應最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can go window-shopping in the stationery shops and buy nothing today.",
+            "zh": "我們可以去文具店只看不買地逛逛，今天不購物。"
+          },
+          {
+            "id": "b",
+            "en": "If you look at a pen, you must pay for it immediately.",
+            "zh": "只要看了一支筆，就必須立即付款。"
+          },
+          {
+            "id": "c",
+            "en": "Let us avoid the shops, even though you want to see the new items.",
+            "zh": "雖然你想看新品，我們也不要去商店。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只想看新品又沒有購買預算，適合輕鬆地只看不買；其餘兩句不合朋友的願望。"
+      },
+      "speaking": {
+        "en": "The sisters went window-shopping after lunch and took notes on styles they liked.",
+        "zh": "兩姊妹午飯後只看不買地逛店，記下喜歡的款式。",
+        "promptZh": "先聽示範，再說明兩姊妹午飯後做了甚麼。",
+        "targetSpan": {
+          "start": 17,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和同學週末要到新開的商店街，大家想看環保用品的設計，但當天不打算買。用一至兩句英文描述計劃。",
+        "selfCheckZh": "說明看商品設計是消遣，當天沒有購買打算；不要寫成已購物。",
+        "examples": [
+          {
+            "en": "We plan to go window-shopping for eco-friendly products on Saturday. We can compare designs without buying anything.",
+            "zh": "我們打算星期六只看不買地逛環保用品店。即使不購物，也可以比較設計。"
+          },
+          {
+            "en": "Window-shopping at the new arcade will let us explore reusable items while keeping our money for later.",
+            "zh": "在新商店街只看不買，能讓我們看看可重用用品，同時把錢留待日後使用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "eco-friendly products",
+            "zh": "環保用品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 55
+            }
+          },
+          {
+            "en": "compare designs",
+            "zh": "比較設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 91
+            }
+          },
+          {
+            "en": "without buying anything",
+            "zh": "不購物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 115
+            }
+          },
+          {
+            "en": "reusable items",
+            "zh": "可重用用品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 68
+            }
+          },
+          {
+            "en": "keeping our money for later",
+            "zh": "把錢留待日後使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We went window-shopping and left without a single bag.",
+          "zh": "我們只看不買地逛店，離開時一袋東西也沒有。"
+        },
+        {
+          "en": "Window-shopping can be a pleasant way to discover new designs.",
+          "zh": "只看不買地逛店可以是發掘新設計的愉快方式。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2202",
+      "number": 2202,
+      "inventoryId": "expr-2202",
+      "titleEn": "fit into everyday life",
+      "titleZh": "融入日常生活",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:fit|fits|fitted|fitting) into everyday life\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Work naturally within an ordinary routine without being impractical.",
+        "meaningZh": "能自然融入平日作息，實際上容易持續。",
+        "grammar": "fit into everyday life; fits into everyday life.",
+        "register": "Neutral useful collocation for habits, activities and plans.",
+        "boundaryZh": "重點是與現有作息相容，不表示完全不用付出時間或努力。",
+        "misconceptionZh": "不要只因活動很好，就假設它必然能在忙碌日程中持續。",
+        "outcomeZh": "能判斷一項新習慣是否實際適合日常作息。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0091",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The exercise plan must fit into everyday life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fit into everyday life"
+        }
+      ],
+      "listening": {
+        "en": "A ten-minute walk after dinner fits into everyday life more easily than a two-hour workout on every school night.",
+        "zh": "晚飯後散步十分鐘，比每個上課日晚上運動兩小時更容易融入日常生活。",
+        "promptZh": "說話者為何較推崇短時間散步？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is easier to keep within a normal routine.",
+            "zh": "它較容易配合平常作息，長期維持。"
+          },
+          {
+            "id": "b",
+            "en": "It requires no time at all.",
+            "zh": "它完全不需要時間。"
+          },
+          {
+            "id": "c",
+            "en": "It guarantees the same result as every longer workout.",
+            "zh": "它保證與任何較長的運動得到相同效果。"
+          },
+          {
+            "id": "d",
+            "en": "It can happen only during school holidays.",
+            "zh": "它只能在學校假期進行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十分鐘散步較能配合上課日作息；這不表示完全不用時間或保證效果相同。"
+      },
+      "reply": {
+        "promptEn": "Why are you choosing the shorter reading plan?",
+        "promptZh": "（你為何選擇較短的閱讀計劃？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can do it during my daily commute.",
+            "zh": "我可以在每天乘車時完成。"
+          },
+          {
+            "id": "b",
+            "en": "It fits into everyday life without replacing family time.",
+            "zh": "它能融入日常生活，不必佔去與家人相處的時間。"
+          },
+          {
+            "id": "c",
+            "en": "I am more likely to keep a manageable habit.",
+            "zh": "可負擔的習慣，我較有機會維持。"
+          },
+          {
+            "id": "d",
+            "en": "I still have time for other commitments.",
+            "zh": "我仍有時間處理其他責任。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四個回應都合理說明選擇較短計劃的原因；金句指出它與現有作息相容。"
+      },
+      "scene": {
+        "promptZh": "學生每日巴士車程二十分鐘，想養成讀書習慣。哪項計劃最能 fit into everyday life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Read for ten minutes on the bus each weekday.",
+            "zh": "每個上課日在巴士上讀十分鐘。"
+          },
+          {
+            "id": "b",
+            "en": "Read for four hours every school night despite existing homework.",
+            "zh": "即使已有功課，每個上課日晚上仍讀四小時。"
+          },
+          {
+            "id": "c",
+            "en": "Read only if a whole month suddenly becomes free.",
+            "zh": "只有突然空出整個月才讀書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每日車程已有固定時間，十分鐘閱讀較容易融入作息；其餘計劃過於沉重或不穩定。"
+      },
+      "contrast": {
+        "promptZh": "以本課「實際融入平常作息」的意思，哪種情況最不適合用 fit into everyday life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person cooks one simple meal at home on a usual weekday.",
+            "zh": "一個人在平常上課日於家中煮一頓簡單飯菜。"
+          },
+          {
+            "id": "b",
+            "en": "A club proposes a three-hour session every night despite members’ jobs and classes.",
+            "zh": "社團建議每晚活動三小時，卻無視會員的工作和課堂。"
+          },
+          {
+            "id": "c",
+            "en": "A runner adds a short walk to an existing lunch break.",
+            "zh": "跑手在原有午休時段加上一小段步行。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "每晚三小時又無視既有責任，難以自然融入日常；另外兩項利用可管理的時間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我想學畫畫，但每晚只有十五分鐘。」哪個建議最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A brief sketch after dinner could fit into everyday life better than a long daily class.",
+            "zh": "晚飯後畫一幅簡短素描，比每天上長課更容易融入日常生活。"
+          },
+          {
+            "id": "b",
+            "en": "If you cannot study for three hours nightly, there is no point trying.",
+            "zh": "如果不能每晚學三小時，就不用嘗試。"
+          },
+          {
+            "id": "c",
+            "en": "Sign up for a class that clashes with every family commitment.",
+            "zh": "報讀一個與所有家庭責任撞期的課程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "利用已有的短時間練習，較可能持續；其餘建議忽視朋友的時間限制。"
+      },
+      "speaking": {
+        "en": "The short language lesson fits into everyday life because I can complete it on the train.",
+        "zh": "這節短語言課能融入日常生活，因為我可以在火車上完成。",
+        "promptZh": "先聽示範，再說明這節課為何容易持續。",
+        "targetSpan": {
+          "start": 26,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的家人想每天做些伸展運動，但晚飯後只剩十分鐘空閒。用一至兩句英文提出實際可行的安排。",
+        "selfCheckZh": "提出能配合既有作息的短時間伸展安排，不要聲稱完全不用時間或一定有特定健康效果。",
+        "examples": [
+          {
+            "en": "A short stretching routine can fit into everyday life if we do it for ten minutes after dinner.",
+            "zh": "如果我們晚飯後做十分鐘，一套簡短的伸展動作便能融入日常生活。"
+          },
+          {
+            "en": "We could choose three simple stretches that fit into everyday life instead of planning a long class each night.",
+            "zh": "我們可以選三個能融入日常生活的簡單伸展動作，而非每晚安排一堂長課。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "stretching routine",
+            "zh": "伸展動作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 26
+            }
+          },
+          {
+            "en": "for ten minutes",
+            "zh": "十分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 81
+            }
+          },
+          {
+            "en": "after dinner",
+            "zh": "晚飯後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "three simple stretches",
+            "zh": "三個簡單伸展動作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 38
+            }
+          },
+          {
+            "en": "a long class each night",
+            "zh": "每晚一堂長課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small daily habit is easier to fit into everyday life than a demanding new schedule.",
+          "zh": "細小的每日習慣，比要求很高的新時間表更容易融入日常生活。"
+        },
+        {
+          "en": "The reading plan fitted into everyday life once we shortened each session.",
+          "zh": "我們縮短每節閱讀時間後，計劃便融入了日常生活。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2204",
+      "number": 2204,
+      "inventoryId": "expr-2204",
+      "titleEn": "hidden charms",
+      "titleZh": "不易察覺的吸引之處",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bhidden charms\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Appealing qualities that are not obvious on a first look.",
+        "meaningZh": "初看未必發現、細看才察覺的吸引之處。",
+        "grammar": "the hidden charms of a place; has hidden charms.",
+        "register": "Positive figurative description, often for places or experiences.",
+        "boundaryZh": "須有後來才發現的吸引力；不是秘密危險或刻意隱藏的金錢。",
+        "misconceptionZh": "不要只因地方不出名就斷言必有吸引力，需有具體發現。",
+        "outcomeZh": "能指出一個不顯眼地方令人喜愛的具體細節。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0093",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The small town has hidden charms beyond its main street.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hidden charms"
+        }
+      ],
+      "listening": {
+        "en": "The lane looked plain from the main road, but its tiny bookshops and painted doorways revealed hidden charms.",
+        "zh": "從大路看，那條小巷很平凡，但小書店和彩繪門口展現了不易察覺的吸引之處。",
+        "promptZh": "說話者後來發現小巷有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It has attractive details that were not obvious at first.",
+            "zh": "它有初看不明顯的吸引之處。"
+          },
+          {
+            "id": "b",
+            "en": "It contains dangerous traps behind the doors.",
+            "zh": "門後藏着危險陷阱。"
+          },
+          {
+            "id": "c",
+            "en": "It has no shops or decorations at all.",
+            "zh": "那裏完全沒有店舖或裝飾。"
+          },
+          {
+            "id": "d",
+            "en": "It is famous only because of a large road sign.",
+            "zh": "它只因一個巨型路牌而出名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "初看平凡的小巷有小書店和彩繪門口，構成後來才發現的吸引之處。"
+      },
+      "reply": {
+        "promptEn": "Why did you enjoy visiting the small village twice?",
+        "promptZh": "（你為何喜歡兩次到那個小村莊遊覽？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its quiet paths gave me time to explore.",
+            "zh": "寧靜的小徑讓我有時間探索。"
+          },
+          {
+            "id": "b",
+            "en": "I liked talking to the local craftspeople.",
+            "zh": "我喜歡與當地工藝師聊天。"
+          },
+          {
+            "id": "c",
+            "en": "I noticed its hidden charms on my second visit.",
+            "zh": "第二次到訪時，我留意到村莊不易察覺的吸引之處。"
+          },
+          {
+            "id": "d",
+            "en": "The riverside walk was especially pleasant.",
+            "zh": "河邊的步道特別舒服。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理解釋喜歡再次到訪；金句強調第二次才發現的吸引之處。"
+      },
+      "scene": {
+        "promptZh": "社區公園入口很普通，走進去卻有漂亮壁畫和一個安靜的小花園。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The park has hidden charms beyond its plain entrance.",
+            "zh": "公園平凡的入口後面，藏着不易察覺的吸引之處。"
+          },
+          {
+            "id": "b",
+            "en": "The entrance proves there is nothing pleasant inside.",
+            "zh": "入口證明園內沒有任何宜人之處。"
+          },
+          {
+            "id": "c",
+            "en": "The park is attractive only because its entrance is grand.",
+            "zh": "公園吸引人只因入口宏偉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "入口普通，但園內有壁畫和小花園，正好顯示初看不明顯的吸引力。"
+      },
+      "contrast": {
+        "promptZh": "以本課「初看不明顯的吸引力」的意思，哪個情況最不適合說 hidden charms？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A plain-looking café has a beautiful courtyard behind it.",
+            "zh": "外觀平凡的咖啡店後面有漂亮庭院。"
+          },
+          {
+            "id": "b",
+            "en": "A crowded venue is openly advertised for its huge illuminated sign and nothing else.",
+            "zh": "一個擠迫場地只以顯眼的巨型燈牌作宣傳，沒有其他吸引之處。"
+          },
+          {
+            "id": "c",
+            "en": "A small town reveals interesting craft stalls off the main street.",
+            "zh": "小鎮大街旁的小路有有趣的手工藝攤位。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "場地只有一個一眼可見的燈牌，沒有後來才發現的吸引之處；其餘兩項有不顯眼的特色。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這條舊街看起來沒甚麼特別，還值得走進去嗎？」你已知道裏面有特色小店。哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, it has hidden charms, such as the tiny music shop around the corner.",
+            "zh": "值得，那裏有不易察覺的吸引之處，例如轉角的小音樂店。"
+          },
+          {
+            "id": "b",
+            "en": "There is nothing to see, even though I found several unique shops.",
+            "zh": "沒有甚麼可看，雖然我發現了幾間特色小店。"
+          },
+          {
+            "id": "c",
+            "en": "Every old street is guaranteed to be amazing.",
+            "zh": "每條舊街都保證精彩。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體指出轉角的小店，能解釋為何值得探索；其他回應自相矛盾或誇大。"
+      },
+      "speaking": {
+        "en": "The old market revealed its hidden charms when we found a quiet courtyard behind the stalls.",
+        "zh": "我們在攤位後發現寧靜庭院時，才察覺舊市場不易察覺的吸引之處。",
+        "promptZh": "先聽示範，再說明為何舊市場值得探索。",
+        "targetSpan": {
+          "start": 28,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你帶朋友參觀一所外觀普通的社區圖書館，裏面卻有一面漂亮的手繪地圖和舒適的閱讀角。用一至兩句英文說明它值得參觀的原因。",
+        "selfCheckZh": "先指出外觀普通，再具體說明入內才發現的吸引之處；不要只稱讚它「很好」。",
+        "examples": [
+          {
+            "en": "The library has hidden charms behind its plain front door: a hand-painted map and a cosy reading corner.",
+            "zh": "圖書館外門平凡，裏面卻有不易察覺的吸引之處：手繪地圖和舒適的閱讀角。"
+          },
+          {
+            "en": "Its hidden charms become clear once you enter and see the colourful map beside the quiet seats.",
+            "zh": "走進去看到安靜座位旁的彩色地圖後，你便會發現它不易察覺的吸引之處。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "plain front door",
+            "zh": "平凡的外門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 57
+            }
+          },
+          {
+            "en": "hand-painted map",
+            "zh": "手繪地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 77
+            }
+          },
+          {
+            "en": "cosy reading corner",
+            "zh": "舒適的閱讀角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 103
+            }
+          },
+          {
+            "en": "once you enter",
+            "zh": "走進去後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "quiet seats",
+            "zh": "安靜的座位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The modest café has hidden charms in its little garden.",
+          "zh": "那間不起眼的咖啡店，小花園裏有不易察覺的吸引之處。"
+        },
+        {
+          "en": "A second visit helped me notice the neighbourhood’s hidden charms.",
+          "zh": "第二次到訪令我留意到社區不易察覺的吸引之處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2208",
+      "number": 2208,
+      "inventoryId": "expr-2208",
+      "titleEn": "fall into two main camps",
+      "titleZh": "主要分成兩派",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:fall|falls|fell|falling) into two main camps\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Divide broadly into two groups of opinions or preferences.",
+        "meaningZh": "按意見或喜好，大致分成兩個主要群體。",
+        "grammar": "fall into two main camps; fell into two main camps.",
+        "register": "Neutral discussion phrase; the groups need not be hostile.",
+        "boundaryZh": "表示兩個主要類別，仍可能有少數其他看法；不應憑一兩人就概括所有人。",
+        "misconceptionZh": "不要理解成真的住進兩個營地，或必然有敵對陣營。",
+        "outcomeZh": "能用概括語氣描述兩組主要不同看法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0097",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 9,
+          "book": 10,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 7, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The survey responses fall into two main camps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fall into two main camps"
+        }
+      ],
+      "listening": {
+        "en": "In our survey, answers fell into two main camps: some wanted a quiet reading room, while others preferred group tables.",
+        "zh": "在我們的調查中，答案主要分成兩派：有些人想要安靜閱讀室，另一些人較喜歡小組桌子。",
+        "promptZh": "調查答案呈現甚麼分布？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There were two broad groups of preferences.",
+            "zh": "受訪者大致有兩類不同喜好。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone gave exactly the same answer.",
+            "zh": "所有人給出完全相同的答案。"
+          },
+          {
+            "id": "c",
+            "en": "Students discussed furniture colours but expressed no preference about room layout.",
+            "zh": "學生討論了家具顏色，卻沒有表達對房間佈局的喜好。"
+          },
+          {
+            "id": "d",
+            "en": "The survey asked only one person.",
+            "zh": "調查只問了一個人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "想要安靜閱讀與偏好小組桌子，形成兩個主要喜好群體。"
+      },
+      "reply": {
+        "promptEn": "How did students respond to the proposed lunch changes?",
+        "promptZh": "（學生怎樣看待午餐安排的改動建議？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some liked the earlier break.",
+            "zh": "有些人喜歡較早的午休。"
+          },
+          {
+            "id": "b",
+            "en": "Others wanted the present timetable.",
+            "zh": "另一些人想保留現有時間表。"
+          },
+          {
+            "id": "c",
+            "en": "Students fell into two main camps over the proposal.",
+            "zh": "學生對這項建議的意見主要分成兩派。"
+          },
+          {
+            "id": "d",
+            "en": "A few asked for a chance to discuss it first.",
+            "zh": "少數人要求先有機會討論。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可合理描述學生的反應；金句概括兩個主要意見群體，不排除少數其他意見。"
+      },
+      "scene": {
+        "promptZh": "學生會調查顯示，多數人支持延長圖書館開放時間，另一大群人希望維持原狀，只有少數人提出第三方案。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Responses fall into two main camps, with a few other suggestions.",
+            "zh": "回應主要分成兩派，另有少數其他建議。"
+          },
+          {
+            "id": "b",
+            "en": "Every student supports one identical option.",
+            "zh": "每名學生都支持同一選項。"
+          },
+          {
+            "id": "c",
+            "en": "No clear preference groups emerged; every response was unrelated to the others.",
+            "zh": "沒有形成明顯的意見群組；每個回應都與其他回應毫無關係。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩大群人意見不同，同時有少數第三方案，故可概括為兩派而不抹去少數聲音。"
+      },
+      "contrast": {
+        "promptZh": "按本課「兩個主要意見群體」的意思，哪種情況最不適合說 fall into two main camps？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A debate group is roughly split between two policy choices.",
+            "zh": "辯論小組大致分成支持兩項政策的兩群。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone in a small team agrees on the same plan.",
+            "zh": "一個小團隊所有人都同意同一計劃。"
+          },
+          {
+            "id": "c",
+            "en": "A poll has two large preference groups and a few undecided people.",
+            "zh": "民調有兩大喜好群體，也有少數未決定的人。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "全隊意見一致，便沒有兩個主要群體；另外兩項可以用概括性的「兩派」。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「為何大家對新球場的安排一直有不同意見？」你看過民調：受訪者主要分成兩組，一組希望增加球場，另一組希望增加座位。哪個回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The responses fall into two main camps: some want more courts, while others prefer more seating.",
+            "zh": "回應主要分成兩派：有些人想要更多球場，另一些人希望有更多座位。"
+          },
+          {
+            "id": "b",
+            "en": "Every respondent wants more seating and no additional courts.",
+            "zh": "每名受訪者都想要更多座位，不想增加球場。"
+          },
+          {
+            "id": "c",
+            "en": "One person’s opinion tells us what every respondent thinks.",
+            "zh": "一個人的意見足以代表所有受訪者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "民調能支持兩大偏好群體的概括；其他選項錯誤地說全體意見一致或以個別意見代表全體。"
+      },
+      "speaking": {
+        "en": "At the planning meeting, opinions fell into two main camps over where to build the playground.",
+        "zh": "在規劃會議上，關於遊樂場應建在哪裏，意見主要分成兩派。",
+        "promptZh": "先聽示範，再說明規劃會議的意見如何分布。",
+        "targetSpan": {
+          "start": 34,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們班調查下次旅行地點。二十人想去博物館，十八人想去海灘，另有兩人提出其他地點。用一至兩句英文概括調查結果。",
+        "selfCheckZh": "描述兩個主要喜好群體，同時可以提到少數其他建議；不要說全班只有兩種看法。",
+        "examples": [
+          {
+            "en": "The class fell into two main camps: twenty preferred the museum and eighteen chose the beach. Two suggested other places.",
+            "zh": "全班意見主要分成兩派：二十人較喜歡博物館，十八人選海灘。另有兩人提出其他地點。"
+          },
+          {
+            "en": "The responses to our survey fall into two main camps, with the museum and the beach drawing most votes. A few classmates preferred elsewhere.",
+            "zh": "我們的調查回應主要分成兩派，博物館和海灘得到最多票。少數同學喜歡其他地點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twenty preferred the museum",
+            "zh": "二十人較喜歡博物館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 63
+            }
+          },
+          {
+            "en": "eighteen chose the beach",
+            "zh": "十八人選海灘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 92
+            }
+          },
+          {
+            "en": "other places",
+            "zh": "其他地點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 120
+            }
+          },
+          {
+            "en": "drawing most votes",
+            "zh": "得到最多票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 102
+            }
+          },
+          {
+            "en": "A few classmates",
+            "zh": "少數同學",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The views fall into two main camps, though a few people remain undecided.",
+          "zh": "意見主要分成兩派，雖然少數人仍未決定。"
+        },
+        {
+          "en": "The committee fell into two main camps on the timetable question.",
+          "zh": "委員會對時間表問題的意見主要分成兩派。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

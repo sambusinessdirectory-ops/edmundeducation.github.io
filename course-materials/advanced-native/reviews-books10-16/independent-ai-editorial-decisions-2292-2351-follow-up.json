@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent AI editorial decision follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": "Recheck of four findings in editorial-decisions-2292-2351.jsonl",
+  "result": {
+    "previousFindings": 4,
+    "resolvedByDecisionRevision": 4,
+    "remainingKnownFindings": 0
+  },
+  "resolvedEvidence": [
+    "2299 bring that reality to life is held because canonical 327 does not cover its object; its reason cross-references related hold 2263.",
+    "2300 drawn into a story is held pending comparison with canonical 328 be drawn in by.",
+    "2347 drawn to is held consistently with earlier repeated be + drawn to occurrences 2227, 2233 and 2254.",
+    "2348 proposed new through the lens of explicitly distinguishes broad perspective use from history-specific canonical 1765 and makes the new lesson conditional on review."
+  ],
+  "newFindings": [],
+  "limits": [
+    "AI peer review only, not human editorial or release approval."
+  ]
+}
