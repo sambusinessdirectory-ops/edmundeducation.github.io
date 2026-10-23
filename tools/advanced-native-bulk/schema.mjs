@@ -79,6 +79,7 @@ export function validateRecord(record,{release=false}={}){
   if(!Number.isSafeInteger(source.page)||source.page<1)fail(`sources[${index}].page`,'Use one-based actual PDF page.');
   for(const field of ['book','question','sample'])if((source[field]===null||source[field]===undefined)&&!nonempty(source.locatorNote))fail(`sources[${index}].${field}`,'Missing locator needs an explicit locatorNote; do not invent one.');
  }
+ const books1016=record.sources?.some(source=>source.file==='Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx');
  const checkTarget=(text,path)=>{if(pattern&&!pattern.test(text||''))fail(path,'Required teaching target is not covered by the reviewed pattern.');};
  const checkSentence=(sentence,path)=>{
   requireText(sentence?.en,`${path}.en`);requireZh(sentence?.zh,`${path}.zh`);
@@ -87,7 +88,7 @@ export function validateRecord(record,{release=false}={}){
  const checkQuestion=(q,path,{reply=false,listening=false}={})=>{
   if(!q){fail(path,'Required question missing.');return;}
   if(!nonempty(q.promptEn)&&!nonempty(q.promptZh))fail(`${path}.prompt`,'A question prompt is required.');
-  if(nonempty(q.promptEn))requireZh(q.promptZh,`${path}.promptZh`);
+  if(books1016||nonempty(q.promptEn))requireZh(q.promptZh,`${path}.promptZh`);
   requireZh(q.explanationZh,`${path}.explanationZh`);
   if(/第[一二三四1234](?:句|項(?!好處)|個選項)|選項\s*[ABCDＡＢＣＤ]|[ABCDＡＢＣＤ]\s*選項/.test(q.explanationZh||''))fail(`${path}.explanationZh`,'Options are shuffled: explain the wording or meaning, never a displayed position or letter.');
   if(!Array.isArray(q.options)){fail(`${path}.options`,'Options must be an array.');return;}
@@ -111,7 +112,7 @@ export function validateRecord(record,{release=false}={}){
  checkSentence(record.listening,'listening');checkTarget(record.listening?.en,'listening.en');checkQuestion(record.listening,'listening',{listening:true});
  checkQuestion(record.reply,'reply',{reply:true});
  for(const key of ['scene','contrast','dialogue'])checkQuestion(record[key],key);
- if(record.sources?.some(source=>source.file==='Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx')&&pattern){
+ if(books1016&&pattern){
   const keyedScene=record.scene?.options?.find(option=>option.id===record.scene.answerId);
   if(!keyedScene||!pattern.test(keyedScene.en||''))fail('scene.answerId','Books 10–16 scene key must model the target expression chosen for the concrete situation.');
   const keyedDialogue=record.dialogue?.options?.find(option=>option.id===record.dialogue.answerId);

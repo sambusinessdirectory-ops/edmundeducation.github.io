@@ -57,6 +57,10 @@ assert.ok(validateRecord(missingSceneTarget).errors.some(e=>e.path==='scene.answ
 const missingDialogueTarget=structuredClone(books1016);
 missingDialogueTarget.dialogue.options.find(option=>option.id===missingDialogueTarget.dialogue.answerId).en='Use headphones in the study room.';
 assert.ok(validateRecord(missingDialogueTarget).errors.some(e=>e.path==='dialogue.answerId'),'A Books 10–16 keyed dialogue must actually model its target expression.');
+const untranslatedDialogue=structuredClone(books1016);
+untranslatedDialogue.dialogue.promptEn='';
+untranslatedDialogue.dialogue.promptZh='A: I need help. B: What happened?';
+assert.ok(validateRecord(untranslatedDialogue).errors.some(e=>e.path==='dialogue.promptZh'),'A Books 10–16 dialogue prompt needs actual Traditional Chinese even when its English field is absent.');
 assert.ok(validateRecord(record,{release:true}).errors.some(e=>e.path==='review.media'),'Draft metadata cannot claim release approval.');
 const unstable=structuredClone(record);unstable.speaking.cloze='__________________';
 assert.ok(validateRecord(unstable).errors.some(e=>e.path==='speaking.cloze'),'Surrounding speaking text cannot disappear.');

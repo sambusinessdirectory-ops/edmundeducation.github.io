@@ -1,0 +1,16 @@
+{
+  "scope": "Independent exact-hash follow-up of bilingual dialogue prompt repair in eight selected-candidate lessons; read-only review",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3072-3102-a.json",
+  "draftSha256": "f92c5a3dc64340f6842b132cab1152c8b5b98da186333501f693780737f6c8d6",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFileSha256": "b290cd6ff78befccc1593516aef08a48598dd8a0976b7720fd116f2c8721f9a9",
+  "lessonIds": [3072, 3081, 3082, 3083, 3084, 3092, 3093, 3102],
+  "checks": [
+    "All eight dialogue.promptZh fields contain Traditional Chinese; 3072 remains a Chinese-only situational prompt.",
+    "The seven English dialogue scripts are in promptEn and each bracketed promptZh faithfully preserves the actors, action, time, question, and answer blank without adding a new fact.",
+    "The repaired prompts do not disclose the keyed target or change the assessed reply options.",
+    "Focused build and --check under the new promptZh Han guard both passed: 8 lessons, 48 questions, 32 audio requests, 0 review flags."
+  ],
+  "findings": [],
+  "result": "CLEARED_FOR_PROVISIONAL_SELECTION; editorial owner sign-off for 3093 versus canonical 1215 remains outside this scoped follow-up"
+}

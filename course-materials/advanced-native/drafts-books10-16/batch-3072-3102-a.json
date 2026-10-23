@@ -331,7 +331,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 4,
+      "contentRevision": 5,
       "listening": {
         "promptZh": "義工對新值班表有甚麼反應？",
         "options": [
@@ -434,7 +434,7 @@
         "explanationZh": "提出疑問並聽取解釋，仍可能願意協商；另外兩句呈現堅拒改變。"
       },
       "dialogue": {
-        "promptZh": "A: We announced a new timetable without asking the staff, and now they will not discuss any alternatives. B: ______",
+        "promptZh": "（甲：我們沒有徵詢職員就宣布新時間表，現在他們不願討論任何替代方案。乙：______）",
         "options": [
           {
             "id": "a",
@@ -453,7 +453,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "不願討論任何替代方案，切合固執拒改的意思。"
+        "explanationZh": "不願討論任何替代方案，切合固執拒改的意思。",
+        "promptEn": "A: We announced a new timetable without asking the staff, and now they will not discuss any alternatives. B: ______"
       },
       "speaking": {
         "en": "After the club changed the plan without asking us, some members dug their heels in and would not consider a compromise.",
@@ -598,7 +599,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 3,
       "listening": {
         "promptZh": "講者為何提出私下更正資料？",
         "options": [
@@ -701,7 +702,7 @@
         "explanationZh": "獨處時發現錯字未涉及他人眼中的體面；其餘兩項含公開尷尬。"
       },
       "dialogue": {
-        "promptZh": "A: I should tell the chair that the award list contains a mistake. Should I correct him on stage? B: ______",
+        "promptZh": "（甲：獎項名單有錯，我應告訴主席。我要在台上糾正他嗎？乙：______）",
         "options": [
           {
             "id": "a",
@@ -720,7 +721,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "三句都能協助處理錯誤；金句特別顧及公開場合的面子。"
+        "explanationZh": "三句都能協助處理錯誤；金句特別顧及公開場合的面子。",
+        "promptEn": "A: I should tell the chair that the award list contains a mistake. Should I correct him on stage? B: ______"
       },
       "speaking": {
         "en": "I pointed out the mistake in private because I did not want my teammate to lose face in front of the whole group.",
@@ -865,7 +867,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 3,
+      "contentRevision": 4,
       "listening": {
         "promptZh": "議員為何說改票並非退讓？",
         "options": [
@@ -968,7 +970,7 @@
         "explanationZh": "取消已答應參與的活動是 back out；其餘涉及爭論中的讓步。"
       },
       "dialogue": {
-        "promptZh": "A: The organisers kept pressing for a shorter break, and our team finally dropped its demand for thirty minutes. B: ______",
+        "promptZh": "（甲：主辦方不斷要求縮短休息時間，我們隊伍最後撤回三十分鐘休息的要求。乙：______）",
         "options": [
           {
             "id": "a",
@@ -987,7 +989,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "原來的要求在對方持續施壓後被撤回，符合退讓。"
+        "explanationZh": "原來的要求在對方持續施壓後被撤回，符合退讓。",
+        "promptEn": "A: The organisers kept pressing for a shorter break, and our team finally dropped its demand for thirty minutes. B: ______"
       },
       "speaking": {
         "en": "We backed down on the price after the buyer threatened to leave, but we should not pretend the change came from new evidence.",
@@ -1132,7 +1135,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 3,
+      "contentRevision": 4,
       "listening": {
         "promptZh": "學生為何不再回應？",
         "options": [
@@ -1235,7 +1238,7 @@
         "explanationZh": "短暫思考後仍能完整回應，不等於因壓力而停止交流。"
       },
       "dialogue": {
-        "promptZh": "A: I kept repeating everything he had done wrong. He answered at first, but then he went silent and would not look at me. B: ______",
+        "promptZh": "（甲：我一直重複指出他做錯的地方。他起初有回答，後來沉默，也不看我。乙：______）",
         "options": [
           {
             "id": "a",
@@ -1254,7 +1257,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "三句都可作下一步推測，但金句以目標片語準確描述受壓後停止回應。"
+        "explanationZh": "三句都可作下一步推測，但金句以目標片語準確描述受壓後停止回應。",
+        "promptEn": "A: I kept repeating everything he had done wrong. He answered at first, but then he went silent and would not look at me. B: ______"
       },
       "speaking": {
         "en": "When the interview turned into a long lecture, the trainee shut down and stopped answering, so I suggested a short break.",
@@ -1399,7 +1403,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 4,
+      "contentRevision": 5,
       "listening": {
         "promptZh": "參觀後，發言者對夜班工作者的看法如何改變？",
         "options": [
@@ -1502,7 +1506,7 @@
         "explanationZh": "只更正開放時間，整體觀點未被顛覆。"
       },
       "dialogue": {
-        "promptZh": "A: I had always assumed the river was lifeless, but the survey found many species there. B: ______",
+        "promptZh": "（甲：我一直以為這條河沒有生物，但調查在那裏發現了許多物種。乙：______）",
         "options": [
           {
             "id": "a",
@@ -1521,7 +1525,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "由深信河流沒有生命，轉為看到物種眾多，是根本改觀。"
+        "explanationZh": "由深信河流沒有生命，轉為看到物種眾多，是根本改觀。",
+        "promptEn": "A: I had always assumed the river was lifeless, but the survey found many species there. B: ______"
       },
       "speaking": {
         "en": "Meeting the residents turned an old opinion on its head: I had assumed nobody wanted the park, but dozens of families use it each day.",
@@ -1666,7 +1671,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 4,
+      "contentRevision": 5,
       "listening": {
         "promptZh": "講者成為照顧者後，作決定時有甚麼改變？",
         "options": [
@@ -1769,7 +1774,7 @@
         "explanationZh": "目標與價值不變，只是日程更清楚，未顯示內心價值指引轉向。"
       },
       "dialogue": {
-        "promptZh": "A: Since the flood, I choose projects by whether they help local families, not just by their pay. B: ______",
+        "promptZh": "（甲：水災後，我選項目時不再只看報酬，還看能否幫助當地家庭。乙：______）",
         "options": [
           {
             "id": "a",
@@ -1788,7 +1793,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "選擇項目的根本優先次序已由薪金轉向社區幫助。"
+        "explanationZh": "選擇項目的根本優先次序已由薪金轉向社區幫助。",
+        "promptEn": "A: Since the flood, I choose projects by whether they help local families, not just by their pay. B: ______"
       },
       "speaking": {
         "en": "Volunteering changed my inner compass: I still value a steady income, but meaningful community work now guides my choices too.",
@@ -1933,7 +1939,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 3,
+      "contentRevision": 4,
       "listening": {
         "promptZh": "無法登入帳戶的人應先聯絡誰？",
         "options": [
@@ -2036,7 +2042,7 @@
         "explanationZh": "題目要找不屬於第一站的安排：專員是在支援處轉介後才聯絡。"
       },
       "dialogue": {
-        "promptZh": "A: I cannot find the permit form. Do I call the inspector directly? B: ______",
+        "promptZh": "（甲：我找不到許可證表格。要直接打電話給檢查員嗎？乙：______）",
         "options": [
           {
             "id": "a",
@@ -2055,7 +2061,8 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "三句均提供可行資訊；金句明確標明首先聯絡的地方。"
+        "explanationZh": "三句均提供可行資訊；金句明確標明首先聯絡的地方。",
+        "promptEn": "A: I cannot find the permit form. Do I call the inspector directly? B: ______"
       },
       "speaking": {
         "en": "When I needed advice about the application, the library desk was my first port of call, and the staff directed me to the right form.",
