@@ -1,0 +1,73 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2291-2304-a.json",
+  "lessonIds": [
+    "advanced-native-2291",
+    "advanced-native-2293",
+    "advanced-native-2295",
+    "advanced-native-2304"
+  ],
+  "originalFindingCount": 5,
+  "counts": {
+    "resolved": 5,
+    "remainingBlocker": 0,
+    "remainingMajor": 0,
+    "remainingMinor": 0,
+    "newFindings": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2291",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]; dialogue.options[c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Listening, scene and dialogue alternatives now separate a merely pleasant or surprising ending from gradual clue convergence and cumulative payoff."
+    },
+    {
+      "lessonId": "advanced-native-2293",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Scene and dialogue alternatives now use plausible present versus general preferences; the key uniquely expresses the stated mood."
+    },
+    {
+      "lessonId": "advanced-native-2295",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Listening, scene and dialogue alternatives now use informative openings, delayed hooks and broad introductions; the key is supported by curiosity at the beginning."
+    },
+    {
+      "lessonId": "advanced-native-2304",
+      "originalSeverity": "minor",
+      "originalPath": "writing.examples[1].en; writing.examples[1].zh; writing.glossary[3]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Second writing model now says “when they get busy with homework”; Chinese and glossary align."
+    },
+    {
+      "lessonId": "advanced-native-2304",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Scene and dialogue alternatives now test steady membership or structured games against genuinely open participation."
+    }
+  ],
+  "remainingFindings": [],
+  "passedChecks": [
+    "Re-read affected prompts, alternatives, answer defensibility, English and Traditional Chinese alignment, and revised writing examples against the original findings.",
+    "Current files pass source target-pattern matching, two target-containing writing examples per lesson, exact answer-derived glossary spans excluding the target, and four reply options."
+  ],
+  "limits": [
+    "AI peer review only; human editorial adjudication and release/device/audio QA remain separate.",
+    "This follow-up closes the original findings in the current provisional files; subsequent edits require another check."
+  ]
+}

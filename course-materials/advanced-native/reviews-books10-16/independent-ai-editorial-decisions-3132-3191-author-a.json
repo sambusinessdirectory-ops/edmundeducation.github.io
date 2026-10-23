@@ -1,0 +1,66 @@
+{
+  "reviewType": "independent AI provisional editorial-decision cross-review",
+  "reviewer": "author_batch_a (independent of author B decision drafting)",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "reviewedAtUtc": "2026-10-23T09:20:13+00:00",
+  "scope": {
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+    "decisionCount": 60,
+    "reviewedSha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84"
+  },
+  "findings": [],
+  "clearForProvisionalSelection": true,
+  "limits": [
+    "AI cross-review of provisional editorial decisions only; human editorial approval and release review remain pending.",
+    "Undrafted alias-new owners cannot yet receive final target-regex validation; source/sense/owner links were checked against their proposed owner rows."
+  ],
+  "verifiedChecks": {
+    "sourceRows": 60,
+    "existingAliasFullSentenceRegex": 24,
+    "aliasNewSameSourceSenseAndOwner": 2,
+    "draftedAliasNewRegex": 1,
+    "exactSourceOrOrdinalMismatches": 0,
+    "unresolvedSameSensePriorOwners": 0
+  },
+  "resolvedCollisionChecks": [
+    {
+      "sourceOrdinal": 3152,
+      "relatedOrdinal": 3153,
+      "priorOwner": "advanced-native-569",
+      "finding": "Both wear-people-down sources now alias the prior fatigue/discouragement owner; its regex matches each complete source sentence. No separate duplicate owner remains."
+    },
+    {
+      "sourceOrdinal": 3186,
+      "priorOwner": "advanced-native-1164",
+      "finding": "Prior regex matches falling apart in the full plan sentence, but canonical 1164 teaches a person becoming emotionally unable to cope. New 3186 is a plan failing after delays. Decision reason now records subject-and-sense-aware ownership; regex-only alias assignment is prohibited."
+    },
+    {
+      "sourceOrdinal": 3175,
+      "priorOwner": "advanced-native-486",
+      "finding": "Under pressure is an incidental phrase in the source example. It does not own the marked even-tempered expression."
+    }
+  ],
+  "forwardChecks": [
+    "For lesson 3159, teach the reusable interrupting phrasal verb cut in; impatiently is source context, not a required lexical suffix. Make the target detector cover natural interrupting forms.",
+    "For lesson 3169, ensure the on-impulse behaviour pattern works with different subjects and verb forms, rather than requiring the source gerund reacting.",
+    "For lesson 3186, enforce a plan/system-failure subject and meaning boundary versus canonical 1164 person-emotion sense in the authored lesson and owner routing."
+  ],
+  "passedChecks": [
+    "All 60 source IDs, exact marked expressions, complete guide sentences, and ordinal-to-source mappings agree with the source inventory.",
+    "All 24 existing aliases match their prior owner regex on the complete source sentence and were checked for compatible taught sense.",
+    "Both alias-new rows point to matching provisional owner decisions with the same guide example and meaning; the drafted owner 2117 also passes regex.",
+    "All 19 holds have null canonical IDs and clear source-specific reasons; all 15 new owner IDs equal their source ordinals.",
+    "No additional same-sense prior canonical owner was found among the proposed-new targets after the 3152/3153 repair."
+  ],
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0,
+    "sourceOrdinalsWithFindings": 0
+  }
+}

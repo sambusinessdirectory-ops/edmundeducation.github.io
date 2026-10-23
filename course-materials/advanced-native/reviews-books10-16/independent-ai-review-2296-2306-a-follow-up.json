@@ -1,0 +1,65 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2296-2306-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2296-2306-a.json",
+  "lessonIds": [
+    "advanced-native-2296",
+    "advanced-native-2297",
+    "advanced-native-2298",
+    "advanced-native-2306"
+  ],
+  "originalFindingCount": 4,
+  "counts": {
+    "resolved": 4,
+    "remainingBlocker": 0,
+    "remainingMajor": 0,
+    "remainingMinor": 0,
+    "newFindings": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2296",
+      "originalSeverity": "major",
+      "originalPath": "dialogue.promptZh; dialogue.options[a-b]; dialogue.explanationZh",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Dialogue prompt establishes the character’s move to an unfamiliar city; key A follows the shared experience and B is plausible but less supported."
+    },
+    {
+      "lessonId": "advanced-native-2296",
+      "originalSeverity": "minor",
+      "originalPath": "writing.examples[1].en; writing.examples[1].zh; writing.glossary[3-4]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Second writing model now refers to neighbouring stallholders; Traditional Chinese and glossary spans align."
+    },
+    {
+      "lessonId": "advanced-native-2297",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[b-c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Scene and dialogue alternatives distinguish equal engagement from subject similarity or another reason for liking a work."
+    },
+    {
+      "lessonId": "advanced-native-2306",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; scene.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Listening and scene foils contrast official or routine music with music representing shared memory."
+    }
+  ],
+  "remainingFindings": [],
+  "passedChecks": [
+    "Re-read affected prompts, alternatives, answer defensibility, English and Traditional Chinese alignment, and revised writing examples against the original findings.",
+    "Current files pass source target-pattern matching, two target-containing writing examples per lesson, exact answer-derived glossary spans excluding the target, and four reply options."
+  ],
+  "limits": [
+    "AI peer review only; human editorial adjudication and release/device/audio QA remain separate.",
+    "This follow-up closes the original findings in the current provisional files; subsequent edits require another check."
+  ]
+}

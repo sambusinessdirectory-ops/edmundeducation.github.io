@@ -1,0 +1,15 @@
+{
+  "reviewType": "independent AI scoped editorial-decision follow-up",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+  "recheckedSourceOrdinals": [3078, 3093, 3114],
+  "counts": {"resolved": 1, "previouslyRepairedReverified": 2, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "resolved": [{"sourceOrdinal": 3093, "resolution": "The new-owner reason now explicitly distinguishes an inner compass of changing personal values from canonical 1215's clearer guidance, while keeping human sense review open."}],
+  "reverified": [{"sourceOrdinal": 3078, "resolution": "Space to breathe remains an explicit hold pending canonical 307 room to breathe owner/detector review."}, {"sourceOrdinal": 3114, "resolution": "Go round in circles points to the exact canonical ID advanced-native-058; its full source sentence matches the owner regex and no duplicate lesson remains selected."}],
+  "verification": "All 23 existing-owner aliases resolve and match the complete source sentence; alias-new 3095 resolves to proposed owner 2400; no 2120, 2266 or 2616 retired-owner link appears.",
+  "findings": [],
+  "selectionNote": "No residual AI-audit finding in this provisional 60-row decision file. This does not constitute human editorial or release approval.",
+  "limits": ["No future lesson-content, audio, browser or device validation was performed."]
+}

@@ -30,6 +30,7 @@ const draftFiles=draftManifest.batchFiles;
 assert.equal(new Set(draftFiles).size,draftFiles.length);
 assert.ok(draftFiles.every(name=>/^batch-.*\.json$/.test(name)));
 const pilot=draftFiles.flatMap(name=>read(`drafts-books10-16/${name}`).lessons).sort((a,b)=>a.number-b.number);
+const pilotById=new Map(pilot.map(lesson=>[lesson.id,lesson]));
 assert.equal(rows.length,2604);
 assert.equal(reconciliation.length,rows.length);
 assert.equal(intake.sourceRows,rows.length);
@@ -39,6 +40,20 @@ assert.equal(new Set(rows.map(r=>r.sourceId)).size,rows.length);
 assert.equal(decisions.length,decisionManifest.expectedSourceOrdinals);
 assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:decisions.length},(_,i)=>2112+i));
 const sourceById=new Map(rows.map(row=>[row.sourceId,row]));
+const draftedNewAliasMatches=[];
+const draftedNewAliasExceptions=[];
+const undraftedNewAliasOwners=[];
+for(const decision of decisions.filter(row=>row.action==='proposed-alias-new')){
+ const owner=pilotById.get(decision.canonicalId);
+ if(!owner){undraftedNewAliasOwners.push(decision.sourceOrdinal);continue;}
+ const example=sourceById.get(decision.sourceId)?.example??'';
+ const pattern=owner.target?.pattern;
+ try{
+  if(pattern&&new RegExp(pattern,'gi').test(example))draftedNewAliasMatches.push(decision.sourceOrdinal);
+  else draftedNewAliasExceptions.push({sourceOrdinal:decision.sourceOrdinal,canonicalId:decision.canonicalId,example,pattern});
+ }catch{draftedNewAliasExceptions.push({sourceOrdinal:decision.sourceOrdinal,canonicalId:decision.canonicalId,example,pattern});}
+}
+assert.deepEqual(draftedNewAliasExceptions,[],'Drafted new-owner aliases must match their owner target pattern in the full source sentence.');
 const existingIds=new Set(read('provenance/curated-module-index.json').map(row=>row.moduleId));
 const oldLabels=new Map(read('provenance/source-labels.json').map(row=>[row.inventoryId,row]));
 for(const decision of decisions){
@@ -128,7 +143,7 @@ assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number
                  baseIndex.map(row=>[row.id,row.number]));
 assert.deepEqual(nextIndex.slice(-pilot.length).map(row=>row.number),Array.from({length:pilot.length},(_,i)=>1894+i));
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,selectedExistingAliasPatternExceptions:aliasCoverage.exceptionCount,existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,editorialDecisionRows:decisions.length,provisionalEditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,exactSuggestionEditorialExceptions:exactAliasSuggestions.filter(row=>{const decision=decisions.find(other=>other.sourceId===row.sourceId);return decision&&decision.action!=='proposed-alias-existing';}).length,selectedExistingAliasPatternExceptions:aliasCoverage.exceptionCount,draftedNewAliasPatternMatches:draftedNewAliasMatches.length,undraftedNewAliasOwnerRows:undraftedNewAliasOwners.length,existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
  projectedDisplayRange:`1894–${1893+pilot.length}`,wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));

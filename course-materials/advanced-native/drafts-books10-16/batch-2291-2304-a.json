@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-third60-provisional-a1-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2291",
+      "number": 2291,
+      "inventoryId": "expr-2291",
+      "titleEn": "a slow burn",
+      "titleZh": "慢熱但逐漸引人入勝",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba slow burn\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A story or experience whose effect builds gradually rather than arriving at once.",
+        "meaningZh": "故事或體驗開始時較平靜，隨着發展逐漸累積吸引力或情感效果。",
+        "grammar": "the film is a slow burn; a rewarding slow burn.",
+        "register": "Informal evaluation of stories and experiences; not simply a synonym for boring.",
+        "boundaryZh": "須有後來逐漸累積的效果；一直無變化或一開場就高潮都不符合。",
+        "misconceptionZh": "不要只因節奏慢就稱讚為慢熱，還要看到後段有回報。",
+        "outcomeZh": "能指出故事如何逐步鋪排，以及後段帶來甚麼效果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0180",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The novel is a slow burn, but the ending is rewarding.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a slow burn"
+        }
+      ],
+      "listening": {
+        "en": "The radio drama begins with small conversations between neighbours. Each episode adds one detail, and the final reveal makes the whole series a slow burn worth following.",
+        "zh": "廣播劇起初只是鄰居之間的小對話。每集加入一個細節，最後的揭曉令整個系列慢熱卻值得追聽。",
+        "promptZh": "說話者如何評價這部廣播劇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its impact grows through details that build toward the ending.",
+            "zh": "它透過逐步累積的細節，在結尾產生更強效果。"
+          },
+          {
+            "id": "b",
+            "en": "Its intriguing opening never develops into a stronger later effect.",
+            "zh": "開場雖有趣，後續卻沒有發展出更強效果。"
+          },
+          {
+            "id": "c",
+            "en": "It remains pleasant throughout, with no meaningful final payoff.",
+            "zh": "它一直輕鬆好看，但結尾沒有帶來有意義的回報。"
+          },
+          {
+            "id": "d",
+            "en": "Its ending is surprising, but earlier details do not prepare the audience for it.",
+            "zh": "結尾令人意外，但前面的細節沒有為它鋪墊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細節隨劇集逐步累積，到結尾才帶來效果；單有平靜開場或驚喜結尾都不足以構成 slow burn。"
+      },
+      "reply": {
+        "promptEn": "Why did you recommend the quiet mystery play to your friends?",
+        "promptZh": "（你為何向朋友推薦那齣開頭平靜的懸疑劇？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clues grow more meaningful in later scenes.",
+            "zh": "線索在後面的場景漸漸更有意義。"
+          },
+          {
+            "id": "b",
+            "en": "The ending rewards attention to early details.",
+            "zh": "結局回應了早期細節，值得細看。"
+          },
+          {
+            "id": "c",
+            "en": "It is a slow burn that becomes more gripping as it goes.",
+            "zh": "它是一齣慢熱的劇，越看越吸引。"
+          },
+          {
+            "id": "d",
+            "en": "The characters change in believable ways.",
+            "zh": "角色的轉變令人信服。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理解釋推薦理由；金句把漸進的吸引力概括為 a slow burn。"
+      },
+      "scene": {
+        "promptZh": "一部短片開頭只是記錄老人每天修理腳踏車，片中逐步揭示他免費幫助鄰居的原因，結尾令人感動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The short film is a slow burn with a moving payoff.",
+            "zh": "這部短片慢熱鋪排，最後帶來感人的回報。"
+          },
+          {
+            "id": "b",
+            "en": "The ending is moving, but the earlier repair scenes do not build towards it.",
+            "zh": "結尾令人感動，但前面的修車場面沒有逐步鋪墊。"
+          },
+          {
+            "id": "c",
+            "en": "The routine scenes are charming, but the ending adds little to their meaning.",
+            "zh": "日常場面有趣，但結尾沒有加深它們的意義。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "修車日常逐步揭示免費幫人的原因，結尾讓前面細節產生更深意義，屬慢熱鋪排。"
+      },
+      "contrast": {
+        "promptZh": "哪種故事最不適合稱為 a slow burn？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A novel slowly adds clues before a rewarding final discovery.",
+            "zh": "小說逐步加入線索，最後有值得期待的發現。"
+          },
+          {
+            "id": "b",
+            "en": "A film opens with its main twist and stays at the same intensity throughout.",
+            "zh": "電影一開場便揭示主要轉折，其後強度一直不變。"
+          },
+          {
+            "id": "c",
+            "en": "A series begins quietly but builds tension across several episodes.",
+            "zh": "影集開頭平靜，幾集之間逐漸累積張力。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "開場即有主要轉折且其後不再累積效果，不符合慢熱發展。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這套片頭十分平靜，我擔心後面也沒甚麼看頭。」你看過全片，知道線索會逐步匯合。哪個回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a slow burn: the clues gather gradually and make the final scene rewarding.",
+            "zh": "它是慢熱作品：線索逐漸匯合，令最後一幕很值得看。"
+          },
+          {
+            "id": "b",
+            "en": "A quiet film can still end well, but the middle may not give you much to follow.",
+            "zh": "平靜的電影仍可有好結局，但中段未必有值得留意的發展。"
+          },
+          {
+            "id": "c",
+            "en": "The final reveal may be satisfying even if the earlier clues do not build on one another.",
+            "zh": "即使前面的線索沒有逐步匯合，最後的揭示也可能令人滿意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友擔心平靜開場會一直平淡；金句指出線索在中段逐步累積，結尾才帶來回報。"
+      },
+      "speaking": {
+        "en": "The story was a slow burn, with each ordinary visit adding meaning to the final reunion.",
+        "zh": "故事慢熱鋪排，每次平凡的探訪都為最後重聚增添意義。",
+        "promptZh": "先聽示範，再說明平凡探訪如何鋪墊結尾。",
+        "targetSpan": {
+          "start": 14,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生拍了一部五分鐘短片。前半段只見妹妹每天在空置的店門前留下花；後半段才揭示店主曾照顧她的家人，結尾兩人重逢。用一至兩句英文評價短片的鋪排。",
+        "selfCheckZh": "指出前段平靜、細節逐步累積，並說明後段揭曉帶來情感效果；不能只說節奏慢。",
+        "examples": [
+          {
+            "en": "The student film is a slow burn: the repeated flowers seem ordinary at first, but the later reunion gives them meaning.",
+            "zh": "這部學生短片慢熱鋪排：反覆出現的花起初看似平凡，後來的重逢卻讓它們有了意義。"
+          },
+          {
+            "en": "It is a slow burn because the quiet scenes build toward the reveal about the shopkeeper and a moving final meeting.",
+            "zh": "短片慢熱，因為平靜的場景逐步鋪墊店主往事的揭曉，以及感人的最後重逢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the repeated flowers",
+            "zh": "反覆出現的花",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 53
+            }
+          },
+          {
+            "en": "ordinary at first",
+            "zh": "起初看似平凡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 76
+            }
+          },
+          {
+            "en": "the later reunion",
+            "zh": "後來的重逢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 99
+            }
+          },
+          {
+            "en": "the quiet scenes",
+            "zh": "平靜的場景",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 42
+            }
+          },
+          {
+            "en": "a moving final meeting",
+            "zh": "感人的最後重逢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The series is a slow burn, but its small clues pay off in the final episode.",
+          "zh": "影集慢熱，但小線索在最後一集得到回應。"
+        },
+        {
+          "en": "A slow burn needs more than a slow beginning; its effect should grow.",
+          "zh": "慢熱作品不能只有緩慢開頭，效果還應逐步增強。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2293",
+      "number": 2293,
+      "inventoryId": "expr-2293",
+      "titleEn": "in the mood for",
+      "titleZh": "現在有興致做或享受",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin the mood for\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feel inclined to do or enjoy something at this moment.",
+        "meaningZh": "當下想參與或享受某種活動、食物或內容。",
+        "grammar": "in the mood for a film; not in the mood for a loud event.",
+        "register": "Conversational phrase for a temporary preference, not necessarily a permanent taste.",
+        "boundaryZh": "表示此刻的興致；不代表以後永遠喜歡或討厭該活動。",
+        "misconceptionZh": "不要把「今天不想」改寫成「一向不喜歡」；亦不要忽略對方當下的狀態。",
+        "outcomeZh": "能有禮貌地表達暫時偏好，並提出合適替代選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0182",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I am not in the mood for a serious film tonight.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in the mood for"
+        }
+      ],
+      "listening": {
+        "en": "After a noisy day at work, I was not in the mood for a competitive quiz, so I suggested a quiet card game instead.",
+        "zh": "忙了一整天，又聽了不少噪音後，我當時沒有興致參加競爭激烈的問答遊戲，便改為提議玩安靜的卡牌遊戲。",
+        "promptZh": "說話者為何提議卡牌遊戲？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It better suited what they felt like doing that evening.",
+            "zh": "它更符合說話者當晚的興致。"
+          },
+          {
+            "id": "b",
+            "en": "They had never enjoyed quizzes at any time in their life.",
+            "zh": "說話者一生中從未喜歡過問答遊戲。"
+          },
+          {
+            "id": "c",
+            "en": "The quiz had already been cancelled by the organiser.",
+            "zh": "主辦者已取消問答遊戲。"
+          },
+          {
+            "id": "d",
+            "en": "They wanted a louder activity after a noisy day.",
+            "zh": "經過嘈吵的一天後，說話者想要更吵的活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "說話者只是當晚較想玩安靜遊戲，不能推斷永久不喜歡問答遊戲。"
+      },
+      "reply": {
+        "promptEn": "What do you feel like doing after dinner tonight?",
+        "promptZh": "（今晚晚飯後，你想做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I would like a gentle walk near home.",
+            "zh": "我想在家附近輕鬆散步。"
+          },
+          {
+            "id": "b",
+            "en": "A quiet film sounds good to me.",
+            "zh": "看一齣安靜的電影感覺不錯。"
+          },
+          {
+            "id": "c",
+            "en": "I am in the mood for a short comedy.",
+            "zh": "我現在有興致看一齣短喜劇。"
+          },
+          {
+            "id": "d",
+            "en": "I could sit and listen to music.",
+            "zh": "我可以坐下來聽音樂。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都直接表達今晚想做的事；金句使用 in the mood for 表達當下興致。"
+      },
+      "scene": {
+        "promptZh": "朋友平常喜歡爬山，但今天剛完成長途步行，只想坐在家裏聽歌。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is not in the mood for another hike today.",
+            "zh": "她今天沒有興致再去爬山。"
+          },
+          {
+            "id": "b",
+            "en": "She still enjoys hiking in general and may plan another trip for next weekend.",
+            "zh": "她一般仍喜歡爬山，也可能安排下星期末再去。"
+          },
+          {
+            "id": "c",
+            "en": "A shorter hill walk might suit her this evening after she has rested.",
+            "zh": "她休息後今晚或許適合去山上短走一程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她今晚只想在家聽歌，金句準確描述當下沒有爬山興致；一般喜好或另一個較短行程都不是今晚的選擇。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 in the mood for 描述當下的興致？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person wants a light meal rather than a heavy dinner tonight.",
+            "zh": "一個人今晚想吃清淡的一餐，而非豐富晚飯。"
+          },
+          {
+            "id": "b",
+            "en": "A student has always disliked football and is writing a lifelong sports history.",
+            "zh": "一名學生一向不喜歡足球，正在寫自己的長期運動喜好史。"
+          },
+          {
+            "id": "c",
+            "en": "Two friends want to watch a comedy rather than a serious drama now.",
+            "zh": "兩名朋友現在想看喜劇，而不是嚴肅劇情片。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一向不喜歡某運動屬長期喜好，並非單純當下的興致；其他兩項都指目前偏好。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「我知道你平日喜歡恐怖片，但今晚要早睡，還想看嗎？」你今天只想看短喜劇。哪個回答最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I am not in the mood for horror tonight; could we watch a short comedy instead?",
+            "zh": "今晚我沒興致看恐怖片；我們可改看短喜劇嗎？"
+          },
+          {
+            "id": "b",
+            "en": "I usually enjoy horror, but perhaps a short horror film would let me sleep early.",
+            "zh": "我平日喜歡恐怖片，也許看一齣短的仍能早睡。"
+          },
+          {
+            "id": "c",
+            "en": "Could we save the horror film and choose a gentle drama tonight?",
+            "zh": "我們可把恐怖片留待改天，今晚看一齣溫和的劇情片嗎？"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句同時回應今晚沒有恐怖片興致，以及想看短喜劇的具體偏好；另兩句只處理了時間或題材的一部分。"
+      },
+      "speaking": {
+        "en": "I was in the mood for a simple walk, not a crowded evening market.",
+        "zh": "我當時想輕鬆散步，沒有興致逛擠迫的夜市。",
+        "promptZh": "先聽示範，再說明說話者當時想選哪項活動。",
+        "targetSpan": {
+          "start": 6,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：星期日下午，朋友邀請你去喧鬧的遊戲中心。你剛完成一場長比賽，今天想在家看一齣輕鬆短片，但下次仍願意和朋友去。用一至兩句英文有禮貌地回答。",
+        "selfCheckZh": "明確說明只是今天的興致，提出輕鬆短片或其他安靜安排，並保留下次一起去的可能。",
+        "examples": [
+          {
+            "en": "I am not in the mood for a noisy arcade today. Could we watch a short film at home and visit the arcade next time?",
+            "zh": "今天我沒興致去嘈吵的遊戲中心。我們可在家看一齣短片，下次再去嗎？"
+          },
+          {
+            "en": "After the long match, I am in the mood for a short, quiet film this afternoon, but I would happily join you at the arcade another day.",
+            "zh": "長比賽後，今天下午我想看一齣安靜的短片；改天我也很樂意跟你去遊戲中心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a noisy arcade today",
+            "zh": "今天嘈吵的遊戲中心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 45
+            }
+          },
+          {
+            "en": "a short film at home",
+            "zh": "在家看一齣短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 82
+            }
+          },
+          {
+            "en": "next time",
+            "zh": "下次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 113
+            }
+          },
+          {
+            "en": "the long match",
+            "zh": "長比賽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "another day",
+            "zh": "改天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "I am in the mood for soup tonight, though I usually choose noodles.",
+          "zh": "今晚我想喝湯，雖然平日通常選麵。"
+        },
+        {
+          "en": "She was not in the mood for a debate after a tiring journey.",
+          "zh": "旅途疲累後，她當時沒興致辯論。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2295",
+      "number": 2295,
+      "inventoryId": "expr-2295",
+      "titleEn": "pull them in",
+      "titleZh": "一開始便吸引他們",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pull|pulls|pulled|pulling) them in\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attract an audience’s attention or curiosity so they want to engage.",
+        "meaningZh": "透過開頭或首個接觸點吸引觀眾、讀者或訪客繼續了解。",
+        "grammar": "an opening question can pull them in; the first scene pulled them in.",
+        "register": "Informal figurative pattern; them needs a clear audience antecedent.",
+        "boundaryZh": "重點是把人吸引進內容的起點；後段能否一直留住他們仍要另看。",
+        "misconceptionZh": "不要把它理解成拉人進門，也不要因開頭有資訊就假定能吸引人。",
+        "outcomeZh": "能設計具體而相關的開頭，說明它如何引發目標受眾的好奇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0184",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The opening scene should pull them in at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pull them in"
+        }
+      ],
+      "listening": {
+        "en": "The exhibition welcomed visitors with a mysterious recording of a market call. That opening sound pulled them in before they read a single label.",
+        "zh": "展覽一開始就讓訪客聽到神秘的街市叫賣錄音。還未讀展品標籤，這段開場聲音便吸引了他們。",
+        "promptZh": "這段開場聲音有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made visitors curious at the start of the exhibition.",
+            "zh": "它在展覽開始時引起訪客好奇。"
+          },
+          {
+            "id": "b",
+            "en": "It gave useful background but left visitors with little to wonder about.",
+            "zh": "它提供實用背景資料，卻少了令人想追問的地方。"
+          },
+          {
+            "id": "c",
+            "en": "It raised curiosity only after visitors had explored the displays.",
+            "zh": "它在訪客看完展品後才引起好奇。"
+          },
+          {
+            "id": "d",
+            "en": "It mainly directed visitors to the schedule rather than the exhibition’s mystery.",
+            "zh": "它主要指示訪客看日程，而非引起對展覽謎題的興趣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "神秘錄音在入場之初、閱讀標籤之前引起好奇；金句抓住開場吸引人繼續探索的作用。"
+      },
+      "reply": {
+        "promptEn": "How could the opening of our local-history video interest new viewers?",
+        "promptZh": "（我們的本地歷史影片開頭怎樣吸引新觀眾？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could begin with a surprising question about the old street.",
+            "zh": "我們可以先問一個關於舊街道、令人意外的問題。"
+          },
+          {
+            "id": "b",
+            "en": "We could show one unexplained photograph and return to it later.",
+            "zh": "我們可以先展示一張未解釋的照片，稍後再談。"
+          },
+          {
+            "id": "c",
+            "en": "A vivid first scene could pull them in.",
+            "zh": "鮮明的第一幕可以吸引他們看下去。"
+          },
+          {
+            "id": "d",
+            "en": "We could start with a resident’s short memory of the place.",
+            "zh": "我們可以先放入一段居民對這地方的簡短回憶。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四個開頭都有可能引發新觀眾的興趣；金句直接說明第一幕能吸引他們投入。"
+      },
+      "scene": {
+        "promptZh": "校刊新專題的第一頁先展示一張不尋常的舊校園照片，問讀者「這裏以前是甚麼？」很多人因此翻到下一頁。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The opening question pulled them in.",
+            "zh": "開頭的問題吸引讀者繼續看。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph supplies background information but gives readers little reason to ask what happened there.",
+            "zh": "照片提供背景資料，卻沒有令讀者想追問這裏發生過甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "The question might interest readers, but it would work better after the whole feature.",
+            "zh": "這個問題或會引起興趣，但放在整篇專題後面可能較好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照片與開場問題令讀者立即想知道答案，並翻到下一頁；其他說法弱化或延後了開場吸引力。"
+      },
+      "contrast": {
+        "promptZh": "哪個開頭最不可能 pull them in？目標讀者是想了解社區小店故事的學生。",
+        "options": [
+          {
+            "id": "a",
+            "en": "Show an old shop sign and ask which store it belonged to.",
+            "zh": "先展示一張舊招牌，再問它屬於哪間小店。"
+          },
+          {
+            "id": "b",
+            "en": "Open with a long list of shop registration numbers before explaining any story.",
+            "zh": "先列出一長串商店登記編號，卻沒有交代任何故事。"
+          },
+          {
+            "id": "c",
+            "en": "Play a short, intriguing childhood memory from a shop owner.",
+            "zh": "先播放店主一段有趣的童年回憶。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單列登記編號，卻不提供人物或故事線索，較難在開頭引起目標讀者的好奇。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們的自然短片內容很好，可是同學點開後很快關掉。」你有一張動物腳印的清楚照片。哪個建議最能改善開頭？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Show the footprint first and ask which animal made it; that may pull them in.",
+            "zh": "先展示腳印，再問它屬於哪種動物；這或可吸引他們看下去。"
+          },
+          {
+            "id": "b",
+            "en": "Begin by explaining the animal’s habitat in detail, then show the footprint after viewers know the answer.",
+            "zh": "先詳細介紹動物棲息地，讓觀眾知道答案後才展示腳印。"
+          },
+          {
+            "id": "c",
+            "en": "Open with a broad overview of local animals before introducing the footprint question later.",
+            "zh": "先概述本地動物，稍後才提出腳印問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同學很快關掉短片；先展示清楚腳印並提問，可立即引發與影片內容相關的好奇，其他安排較晚才用到這個線索。"
+      },
+      "speaking": {
+        "en": "Viewers saw a strange mark in the sand, and the question beside the first image pulled them in.",
+        "zh": "觀眾看到沙上的奇特痕跡，第一張圖片旁的問題吸引他們繼續看。",
+        "promptZh": "先聽示範，再說明哪個開場安排吸引觀眾。",
+        "targetSpan": {
+          "start": 80,
+          "end": 94
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校天文展覽想吸引初次到訪的學生。第一塊展板可以展示一張星空照片，並問「為何這顆星看來一閃一閃？」用一至兩句英文建議開場做法及吸引力。",
+        "selfCheckZh": "明確指出初次到訪的學生是 them，並說明照片和具體問題如何在開頭引起好奇。",
+        "examples": [
+          {
+            "en": "New students could see a night-sky photo on the first panel and read a question about why one star twinkles. That question may pull them in.",
+            "zh": "初次到訪的學生可在第一塊展板看到星空照片，並讀到一個關於星星為何閃爍的問題；這或可吸引他們。"
+          },
+          {
+            "en": "We should greet new visitors with a clear star image and one question about twinkling that may pull them in.",
+            "zh": "我們應先向初次到訪的學生展示清晰的星空圖片，再提出一個有關星星閃爍的問題，以吸引他們。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "New students",
+            "zh": "初次到訪的學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "a night-sky photo",
+            "zh": "星空照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 40
+            }
+          },
+          {
+            "en": "That question",
+            "zh": "這個問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 122
+            }
+          },
+          {
+            "en": "new visitors",
+            "zh": "初次到訪的學生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 28
+            }
+          },
+          {
+            "en": "a clear star image",
+            "zh": "清晰的星空圖片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 52
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "For new visitors, a concrete opening question can pull them in before the main explanation begins.",
+          "zh": "對初次到訪者而言，具體的開場問題能在正式解說前吸引他們。"
+        },
+        {
+          "en": "Viewers saw the first photograph, which pulled them in, but later sections had to keep their interest.",
+          "zh": "觀眾看到第一張照片時被吸引，但後面的部分仍須維持他們的興趣。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2304",
+      "number": 2304,
+      "inventoryId": "expr-2304",
+      "titleEn": "drift in and out of",
+      "titleZh": "不固定地加入又離開",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:drift|drifts|drifted|drifting) in and out of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Join and leave a group or activity over time without a firm, continuous commitment.",
+        "meaningZh": "人在一段時間內自然地加入或離開某個團體或活動，參與沒有固定承諾。",
+        "grammar": "drift in and out of a club; people drifted in and out of the group.",
+        "register": "Neutral descriptive pattern, often for loose participation; not necessarily criticism.",
+        "boundaryZh": "指一段時間內參與有進有出；不是準時的固定輪班，也不一定是每次同一人反覆出入。",
+        "misconceptionZh": "不要把開放式參與錯寫成失職，也不要把單次有計劃的進出稱為 drift。",
+        "outcomeZh": "能描述開放式活動的成員變化，並提出相應的安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0193",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "People drift in and out of the club throughout the year.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drift in and out of"
+        }
+      ],
+      "listening": {
+        "en": "The neighbourhood sketch club has no term-long sign-up. People drift in and out of it as their free time changes, so the organiser prepares flexible activities.",
+        "zh": "社區素描小組不用報名整個學期。人們隨空閒時間改變而不固定地加入或離開，因此主辦者準備彈性活動。",
+        "promptZh": "小組的參與方式有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Membership changes informally as people’s availability changes.",
+            "zh": "成員按空閒時間自然變動，參與並不固定。"
+          },
+          {
+            "id": "b",
+            "en": "Every member signs a fixed term-long contract.",
+            "zh": "每名成員都簽了整個學期的固定合約。"
+          },
+          {
+            "id": "c",
+            "en": "Members usually leave permanently after their first session.",
+            "zh": "成員通常在第一次參加後便永久離開。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser changes activities because the room moves each week.",
+            "zh": "主辦者改動活動，只是因為場地每週搬遷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有學期制報名，參與者隨時間與空閒程度加入或離開，故活動需有彈性。"
+      },
+      "reply": {
+        "promptEn": "Why are the Saturday craft sessions designed so newcomers can join easily?",
+        "promptZh": "（為何星期六手作活動設計得容易讓新人加入？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Attendance changes from week to week.",
+            "zh": "每週的出席者都可能不同。"
+          },
+          {
+            "id": "b",
+            "en": "Some families can attend only occasionally.",
+            "zh": "有些家庭只能偶爾出席。"
+          },
+          {
+            "id": "c",
+            "en": "People drift in and out of the group through the year.",
+            "zh": "一年裏，人們會不固定地加入或離開小組。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser wants each session to stand alone.",
+            "zh": "主辦者想讓每節活動都能獨立參與。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四個回答都支持開放式設計；金句概括全年不固定的成員流動。"
+      },
+      "scene": {
+        "promptZh": "社區合唱團允許人們在有空的月份加入，也可因工作暫停，沒有固定一年的出席要求。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Singers drift in and out of the choir over the year.",
+            "zh": "歌者全年會不固定地加入或離開合唱團。"
+          },
+          {
+            "id": "b",
+            "en": "Most singers attend regularly but occasionally miss a rehearsal.",
+            "zh": "大部分歌者定期出席，偶爾缺席一次排練。"
+          },
+          {
+            "id": "c",
+            "en": "The choir enrols singers at the start of each term and keeps a stable group until the next term.",
+            "zh": "合唱團每學期初招收歌者，直至下學期成員大致固定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有人在有空月份加入、工作忙時暫停，全年參與情況有進有出；另外兩項描述較穩定的出席或學期制。"
+      },
+      "contrast": {
+        "promptZh": "以本課「一段時間內不固定地參與」的意思，哪種情況最不適合說 drift in and out of？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers join an open garden group when free and pause during exam weeks.",
+            "zh": "義工有空時加入開放式園藝小組，考試週暫停。"
+          },
+          {
+            "id": "b",
+            "en": "A technician enters a workshop at exactly nine and leaves at exactly five under a daily roster.",
+            "zh": "技術員按固定更表每天九時進入工場、五時離開。"
+          },
+          {
+            "id": "c",
+            "en": "Members sometimes leave a book club for a season and later rejoin.",
+            "zh": "會員有時離開讀書會一季，之後再加入。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "按每天固定更表進出，是有計劃的穩定工作安排，不是隨情況自然變動的團體參與。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們的社區棋藝會每月人數都不同，該怎樣準備活動？」這是自由參加的會。哪個回應最實際？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People may drift in and out of the club, so let us choose games newcomers can join.",
+            "zh": "人們可能不固定地加入或離開棋藝會，因此我們選些新人容易參加的棋局吧。"
+          },
+          {
+            "id": "b",
+            "en": "Build each meeting directly on last month’s game so regular players can progress.",
+            "zh": "讓每次活動直接延續上月棋局，使固定成員不斷進步。"
+          },
+          {
+            "id": "c",
+            "en": "Set a tournament bracket in advance and leave a few places for visitors.",
+            "zh": "預先編好賽程表，留幾個名額給偶爾來訪的人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每月出席者都不同，金句選擇新人可即時加入的棋局；延續上月棋局或固定賽程對流動成員較不方便。"
+      },
+      "speaking": {
+        "en": "People drifted in and out of the weekend workshop, so each lesson began with a short recap.",
+        "zh": "人們不固定地參加週末工作坊，所以每節課都先簡短重溫。",
+        "promptZh": "先聽示範，再說明工作坊為何每節都要重溫。",
+        "targetSpan": {
+          "start": 7,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個免費社區讀書角每逢星期三開放。學生可有空時加入，忙於功課時暫停；負責人希望新來者也跟得上。用一至兩句英文描述參與模式及活動安排。",
+        "selfCheckZh": "指出學生不固定地加入或暫停，並建議每次活動可獨立參與或簡短重溫；不能說所有人必定長期固定出席。",
+        "examples": [
+          {
+            "en": "Students drift in and out of the Wednesday reading group, so each session should include a brief introduction for newcomers.",
+            "zh": "學生不固定地加入或離開星期三讀書角，因此每節應為新來者作簡短介紹。"
+          },
+          {
+            "en": "Because pupils drift in and out of the group when they get busy with homework, we can choose short texts that stand alone.",
+            "zh": "學生忙於做功課時會不固定地參加讀書角，因此我們可選擇能獨立閱讀的短文。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Wednesday reading group",
+            "zh": "星期三讀書角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 56
+            }
+          },
+          {
+            "en": "each session",
+            "zh": "每節活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 73
+            }
+          },
+          {
+            "en": "newcomers",
+            "zh": "新來者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 123
+            }
+          },
+          {
+            "en": "get busy with homework",
+            "zh": "忙於做功課",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 77
+            }
+          },
+          {
+            "en": "short texts",
+            "zh": "短文",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Visitors drift in and out of the open studio, so the guide repeats the safety note.",
+          "zh": "訪客不固定地進出開放工作室，因此導師會重複安全提醒。"
+        },
+        {
+          "en": "People can drift in and out of a club without being unreliable members.",
+          "zh": "人們可以不固定地參加社團，而不代表他們不可靠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

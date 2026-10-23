@@ -1,0 +1,14 @@
+{
+  "reviewType": "independent AI scoped editorial-decision follow-up",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+  "recheckedSourceOrdinals": [3022],
+  "counts": {"resolved": 1, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "resolved": [{"sourceOrdinal": 3022, "resolution": "The alias-new reason now correctly distinguishes the storm source from provisional owner 2956's separate party-aftermath example while identifying the shared damage-recovery idiom."}],
+  "verification": "All 19 existing-owner aliases still resolve and match the complete source sentence; all five alias-new references have current proposed-new owners; no 2120, 2266 or 2616 retired-owner link appears.",
+  "findings": [],
+  "selectionNote": "No residual AI-audit finding in this provisional 60-row decision file. This does not constitute human editorial or release approval.",
+  "limits": ["No future lesson-content, audio, browser or device validation was performed."]
+}

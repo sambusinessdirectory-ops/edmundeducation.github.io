@@ -1,0 +1,81 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2332-2350-a.json",
+  "lessonIds": [
+    "advanced-native-2332",
+    "advanced-native-2335",
+    "advanced-native-2342",
+    "advanced-native-2350"
+  ],
+  "originalFindingCount": 6,
+  "counts": {
+    "resolved": 6,
+    "remainingBlocker": 0,
+    "remainingMajor": 0,
+    "remainingMinor": 0,
+    "newFindings": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2332",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[b-d]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Listening and dialogue foils now use performance-adjacent causes such as editing, script or supporting cast, leaving the performer’s screen presence as the key."
+    },
+    {
+      "lessonId": "advanced-native-2335",
+      "originalSeverity": "major",
+      "originalPath": "reply.promptEn; reply.options[d]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Reply D directly characterises the current announcement as impersonal; all four replies answer the same question."
+    },
+    {
+      "lessonId": "advanced-native-2335",
+      "originalSeverity": "minor",
+      "originalPath": "editorial ownership / target pattern; canonical advanced-native-120",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Decision 2335 now records canonical 120’s shorter detector collision, distinguishes construction and sense, and requires sense-aware routing."
+    },
+    {
+      "lessonId": "advanced-native-2342",
+      "originalSeverity": "minor",
+      "originalPath": "contrast.options[a].zh",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Contrast Chinese now uses 影迷 for fans of the actor."
+    },
+    {
+      "lessonId": "advanced-native-2342",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Scene and dialogue alternatives distinguish advance-sales star draw from script reviews or presumed story quality."
+    },
+    {
+      "lessonId": "advanced-native-2350",
+      "originalSeverity": "minor",
+      "originalPath": "scene.options[c]; dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Scene and dialogue alternatives now test parallel attendance or shallow familiarity against actual shared conversation across generations."
+    }
+  ],
+  "remainingFindings": [],
+  "passedChecks": [
+    "Re-read affected prompts, alternatives, answer defensibility, English and Traditional Chinese alignment, and revised writing examples against the original findings.",
+    "Current files pass source target-pattern matching, two target-containing writing examples per lesson, exact answer-derived glossary spans excluding the target, and four reply options."
+  ],
+  "limits": [
+    "AI peer review only; human editorial adjudication and release/device/audio QA remain separate.",
+    "This follow-up closes the original findings in the current provisional files; subsequent edits require another check."
+  ]
+}

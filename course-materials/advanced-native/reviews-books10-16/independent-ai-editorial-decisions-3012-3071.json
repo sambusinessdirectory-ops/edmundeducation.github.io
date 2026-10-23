@@ -1,0 +1,13 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": {"decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl", "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "decisionCount": 60},
+  "counts": {"blocker": 0, "major": 0, "minor": 1, "sourceOrdinalsWithFindings": 1},
+  "findings": [
+    {"sourceOrdinal": 3022, "phrase": "pick up the pieces", "severity": "minor", "path": "editorial-decisions-3012-3071.jsonl:sourceOrdinal=3022.reason", "explanation": "The decision says the storm example is already attached to provisional owner 2956, but 2956's actual source is a costly celebration and its aftermath. The two occurrences share the broad damage-recovery idiom, but the stated provenance comparison is false and could narrow the future owner incorrectly to a storm scenario.", "recommendedFix": "Keep an alias-new only if owner 2956 is briefed to cover recovery after both physical storm damage and post-celebration financial or practical fallout. Rewrite the reason with the actual two source sentences and their shared underlying recovery sense; do not call them the same storm example."}
+  ],
+  "passedChecks": ["All 60 source IDs, phrase labels, guide sentences, categories and source meanings match the inventory.", "All 19 aliases to existing canonical lessons match the owner detector in the complete source sentence and have a compatible taught sense.", "All five alias-new references resolve to current proposed-new owners: 2956, 2831, 3040 twice and 2799; none points to retired 2120, 2266 or 2616.", "The proposed-new expressions reviewed here have no established same-sense canonical duplicate in the checked existing-owner set; uncertain bespoke constructions were held rather than assigned a lesson."],
+  "limits": ["This is AI peer review of provisional decisions, not human editorial approval or authorization to select or release lessons.", "No future lesson content, audio or device testing was performed."]
+}

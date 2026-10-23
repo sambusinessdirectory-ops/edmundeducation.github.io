@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-selected-2332-2350-provisional-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2332",
+      "number": 2332,
+      "inventoryId": "expr-2332",
+      "titleEn": "light up the screen",
+      "titleZh": "在銀幕上光彩奪目",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:light|lights|lit|lighting) up the screen\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Appear so engaging in filmed performance that viewers’ attention is drawn to the performer.",
+        "meaningZh": "演員在鏡頭前富有魅力和感染力，令觀眾目光集中。",
+        "grammar": "an actor lights up the screen; she lit up the screen.",
+        "register": "Positive entertainment review phrase; the screen itself need not be bright.",
+        "boundaryZh": "指表演者的銀幕魅力，不是畫面曝光更亮，也不等於整部電影一定成功。",
+        "misconceptionZh": "不要把 light 解成照明操作；要指出演員如何吸引觀眾。",
+        "outcomeZh": "能評價具體的銀幕表演與觀眾反應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0221",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The young actor can light up the screen with one smile.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "light up the screen"
+        }
+      ],
+      "listening": {
+        "en": "The short film has a quiet opening, yet the newcomer’s lively expressions immediately light up the screen and draw viewers into the scene.",
+        "zh": "短片開頭平靜，但新演員生動的表情隨即在銀幕上光彩奪目，令觀眾投入。",
+        "promptZh": "這句主要稱讚甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The newcomer’s engaging screen presence catches the viewers’ attention.",
+            "zh": "新演員富感染力的銀幕表現吸引觀眾。"
+          },
+          {
+            "id": "b",
+            "en": "Quick editing, rather than the newcomer’s performance, gives the opening its energy.",
+            "zh": "開場活力主要來自快速剪接，而非新演員的表演。"
+          },
+          {
+            "id": "c",
+            "en": "The supporting cast carries the scene while the newcomer has little effect on it.",
+            "zh": "場面主要靠配角帶動，新演員影響不大。"
+          },
+          {
+            "id": "d",
+            "en": "The script explains the plot clearly, but the newcomer does not draw attention.",
+            "zh": "劇本清楚交代情節，但新演員沒有特別吸引目光。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "句子明言新演員生動的表情使觀眾投入，稱讚的是她的銀幕感染力，而非剪接或配角。"
+      },
+      "reply": {
+        "promptEn": "What did you think of the young actor in the school film?",
+        "promptZh": "（你覺得校園電影中的年輕演員表現如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her expressions made the awkward reunion scene feel warm.",
+            "zh": "她的表情令尷尬的重逢場面變得溫暖。"
+          },
+          {
+            "id": "b",
+            "en": "She lit up the screen whenever she appeared.",
+            "zh": "她每次出場都在銀幕上光彩奪目。"
+          },
+          {
+            "id": "c",
+            "en": "She held my attention even in the quieter scenes.",
+            "zh": "即使在較平靜的場面，她仍能抓住我的注意。"
+          },
+          {
+            "id": "d",
+            "en": "Her performance made me want to watch her next film.",
+            "zh": "她的演出令我想看她的下一部電影。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都可稱讚她的演出；金句應用本課表達，描述她的銀幕魅力。"
+      },
+      "scene": {
+        "promptZh": "演員在劇中只出現數分鐘，卻憑自然反應成為觀眾最記得的人。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She lights up the screen despite having only a brief role.",
+            "zh": "雖然戲份不多，她仍在銀幕上光彩奪目。"
+          },
+          {
+            "id": "b",
+            "en": "Her role is remembered mainly because it lasts longer than the others.",
+            "zh": "她的角色令人難忘，主要因為戲份比其他角色長。"
+          },
+          {
+            "id": "c",
+            "en": "She needed much longer screen time to be noticed.",
+            "zh": "她需要更長的戲份才會被留意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫出場仍令人難忘，重點是演員的銀幕魅力。"
+      },
+      "contrast": {
+        "promptZh": "哪個描述最不適合說演員 light up the screen？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her smile makes a simple close-up unexpectedly engaging.",
+            "zh": "她的笑容使簡單特寫意外地吸引人。"
+          },
+          {
+            "id": "b",
+            "en": "The audience remembers her small role more than several larger ones.",
+            "zh": "觀眾對她的小角色比幾個大角色更有印象。"
+          },
+          {
+            "id": "c",
+            "en": "A technician makes the projected image brighter while the actor’s performance remains flat.",
+            "zh": "技術人員調高投影亮度，但演員表演仍平淡。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "調高投影亮度並不代表演員的銀幕表演有魅力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我本以為那個小角色沒甚麼特別，結果每次她出場我都留意她。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She seems to light up the screen, even without a leading role.",
+            "zh": "她看來即使不是主角也能在銀幕上光彩奪目。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps the editing gives her short scenes their impact, rather than her acting.",
+            "zh": "或許短場面的感染力來自剪接，而非她的演出。"
+          },
+          {
+            "id": "c",
+            "en": "Maybe the other actors make those scenes memorable regardless of what she does.",
+            "zh": "也許那些場面因其他演員而難忘，與她的表現無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說每次她出場都會留意她，關鍵是這位演員本身的銀幕魅力，並非剪接或其他演員。"
+      },
+      "speaking": {
+        "en": "In the final scene, the actor lights up the screen with a small, hopeful smile.",
+        "zh": "在最後一幕，演員以一個細微而充滿希望的笑容，在銀幕上光彩奪目。",
+        "promptZh": "先聽示範，再說出她如何吸引觀眾。",
+        "targetSpan": {
+          "start": 30,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生製作一段短片，一位平日害羞的同學在鏡頭前演出，憑真誠的笑容和自然反應吸引全班觀眾。用一至兩句英文評價她的銀幕表現。",
+        "selfCheckZh": "指出同學在鏡頭前的具體表現及觀眾反應；light up the screen 應指演出魅力。",
+        "examples": [
+          {
+            "en": "Her sincere smile and natural reactions light up the screen, and our classmates follow her every move.",
+            "zh": "她真誠的笑容和自然反應令她在銀幕上光彩奪目，全班同學都留意她的一舉一動。"
+          },
+          {
+            "en": "Although she is usually shy, she lights up the screen in our short film and draws the whole class into the scene.",
+            "zh": "雖然她平時害羞，但她在我們的短片中光彩奪目，令全班投入那一幕。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sincere smile",
+            "zh": "真誠的笑容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "natural reactions",
+            "zh": "自然反應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 39
+            }
+          },
+          {
+            "en": "our classmates",
+            "zh": "我們的同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 79
+            }
+          },
+          {
+            "en": "short film",
+            "zh": "短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 71
+            }
+          },
+          {
+            "en": "draws the whole class",
+            "zh": "吸引全班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The supporting actor lit up the screen in a brief scene at the station.",
+          "zh": "配角在車站的短暫場面中光彩奪目。"
+        },
+        {
+          "en": "An expressive face can light up the screen without a long speech.",
+          "zh": "即使沒有長篇對白，富表情的面孔也能在銀幕上發光。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2335",
+      "number": 2335,
+      "inventoryId": "expr-2335",
+      "titleEn": "come across as",
+      "titleZh": "給人某種印象",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming) across as\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Seem to others to have a particular quality, regardless of the speaker’s intention.",
+        "meaningZh": "言行在別人眼中呈現某種特質；這個印象不一定與本人原意相同。",
+        "grammar": "come across as impatient; came across as helpful.",
+        "register": "Neutral everyday phrase, used for impressions in conversation or writing.",
+        "boundaryZh": "本課 come across as 指言行給別人的印象；既有第 120 課 come across 指偶然遇見或發現，兩者須按完整結構與語義分開判斷，不能只用部分字串歸類。",
+        "misconceptionZh": "不要把 come across 誤解為偶然找到東西；要補上 as 及所形成的印象。",
+        "outcomeZh": "能區分說話者意圖和別人實際感受到的語氣。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0224",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A short reply may come across as rude.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come across as"
+        }
+      ],
+      "listening": {
+        "en": "Mina meant to be efficient, but her one-word email replies came across as impatient to the new volunteers.",
+        "zh": "美娜原意是提高效率，但她只用一個字回覆電郵，令新義工覺得她不耐煩。",
+        "promptZh": "came across as impatient 強調甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her replies gave others an impatient impression, though she may not have intended it.",
+            "zh": "她的回覆令別人覺得她不耐煩，儘管那未必是她的原意。"
+          },
+          {
+            "id": "b",
+            "en": "She had told the volunteers she was deliberately angry with them.",
+            "zh": "她告訴義工自己故意對他們生氣。"
+          },
+          {
+            "id": "c",
+            "en": "Her replies were delayed, rather than short.",
+            "zh": "她回覆得遲，而非回覆得短。"
+          },
+          {
+            "id": "d",
+            "en": "The volunteers found her message difficult to locate.",
+            "zh": "義工很難找到她的訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原意是有效率，但他人感受到的是不耐煩；句子聚焦表現給人的印象。"
+      },
+      "reply": {
+        "promptEn": "How might our brief announcement sound to people who have not met us?",
+        "promptZh": "（這段簡短公告會令未見過我們的人覺得我們怎樣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The wording may seem rather formal to newcomers.",
+            "zh": "措辭對新來者而言可能太正式。"
+          },
+          {
+            "id": "b",
+            "en": "Some readers may think we sound rushed.",
+            "zh": "部分讀者可能覺得我們語氣匆忙。"
+          },
+          {
+            "id": "c",
+            "en": "It could come across as unfriendly without a greeting.",
+            "zh": "若沒有問候語，它可能給人不友善的印象。"
+          },
+          {
+            "id": "d",
+            "en": "It might seem impersonal to readers who do not know us.",
+            "zh": "未認識我們的讀者可能覺得它缺少人情味。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都直接描述現有公告給陌生讀者的可能印象；金句用 come across as 說明沒問候語可能顯得不友善。"
+      },
+      "scene": {
+        "promptZh": "組長本想節省時間，卻在新人提問時只說「自己看通知」。新人覺得他冷淡。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His reply came across as dismissive even though he meant to save time.",
+            "zh": "他的回覆給人敷衍的印象，雖然他原意只是節省時間。"
+          },
+          {
+            "id": "b",
+            "en": "His reply proved that he disliked every new member.",
+            "zh": "他的回覆證明他討厭每一位新成員。"
+          },
+          {
+            "id": "c",
+            "en": "His reply was warm, and newcomers clearly felt reassured.",
+            "zh": "他的回覆親切，新人明顯感到安心。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "組長原意和新人觀感不同；come across as 正好描述後者。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合用 come across as 來描述「給人某種印象」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A hurried message seems curt to its readers.",
+            "zh": "匆忙的訊息令讀者覺得語氣生硬。"
+          },
+          {
+            "id": "b",
+            "en": "A patient explanation seems reassuring to a visitor.",
+            "zh": "耐心的解釋令訪客感到安心。"
+          },
+          {
+            "id": "c",
+            "en": "A student finds a missing book behind the shelf.",
+            "zh": "學生在書架後找到一本遺失的書。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "找到物件屬 come across 的另一種用法，並非 come across as 後接印象。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我只是想把提醒寫得簡潔，卻有人說我很嚴厲。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your message may have come across as harsh; a greeting could soften its tone.",
+            "zh": "你的訊息或許給人嚴厲的印象；加上問候語或能令語氣柔和。"
+          },
+          {
+            "id": "b",
+            "en": "Their reaction shows you definitely intended to be harsh.",
+            "zh": "他們的反應證明你一定是故意嚴厲。"
+          },
+          {
+            "id": "c",
+            "en": "A shorter message would necessarily sound warmer.",
+            "zh": "把訊息寫得更短就一定更溫暖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認別人的觀感，同時沒有把它誤作說話者的意圖。"
+      },
+      "speaking": {
+        "en": "His careful questions came across as thoughtful, not critical, during the interview.",
+        "zh": "他在訪問中細心提問，給人深思熟慮而非挑剔的印象。",
+        "promptZh": "先聽示範，再指出訪問者形成的印象。",
+        "targetSpan": {
+          "start": 22,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替義工團寫邀請電郵，原想寫得簡潔，但初稿缺乏問候語，令新成員覺得冷淡。用一至兩句英文描述觀感及可作的修改。",
+        "selfCheckZh": "寫出原意、讀者感受到的冷淡印象，以及可改善語氣的具體改動；不要斷言作者真心冷淡。",
+        "examples": [
+          {
+            "en": "I meant to keep the invitation brief, but it may come across as cold without a greeting, so I will add a warmer opening.",
+            "zh": "我原本想把邀請寫得簡潔，但沒有問候語可能令人覺得冷淡，因此我會加上較溫暖的開頭。"
+          },
+          {
+            "en": "The draft came across as unfriendly to new volunteers despite my good intentions; I will thank them at the start.",
+            "zh": "雖然我原意是好的，初稿仍令新義工覺得不友善；我會在開頭感謝他們。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "keep the invitation brief",
+            "zh": "把邀請寫得簡潔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 36
+            }
+          },
+          {
+            "en": "without a greeting",
+            "zh": "沒有問候語",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 87
+            }
+          },
+          {
+            "en": "a warmer opening",
+            "zh": "較溫暖的開頭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 119
+            }
+          },
+          {
+            "en": "new volunteers",
+            "zh": "新義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 53
+            }
+          },
+          {
+            "en": "thank them at the start",
+            "zh": "在開頭感謝他們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Her comment came across as supportive because she offered a useful suggestion.",
+          "zh": "她提出實用建議，因此評論給人支持的感覺。"
+        },
+        {
+          "en": "A direct question can come across as rude if the tone is too sharp.",
+          "zh": "如果語氣太尖銳，直接提問可能給人粗魯的印象。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied.",
+          "Sense-aware ownership: canonical advanced-native-120 teaches chance encounter (come across); this lesson teaches the distinct impression construction come across as. The broad 120 regex can match this construction, so regex-only alias assignment is unsafe. Keep separate owners pending editorial adjudication."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2342",
+      "number": 2342,
+      "inventoryId": "expr-2342",
+      "titleEn": "star power",
+      "titleZh": "明星號召力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstar power\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A celebrity’s ability to attract an audience or public attention.",
+        "meaningZh": "知名藝人的名氣與魅力能吸引觀眾、媒體或支持者的力量。",
+        "grammar": "use star power to draw an audience; star power alone may not sustain a film.",
+        "register": "Entertainment and media phrase; it measures draw, not artistic merit.",
+        "boundaryZh": "強調明星帶來的關注或票房，不保證作品本身質素高，也不指天上的星星。",
+        "misconceptionZh": "不要把名氣直接等同好表演；若觀眾主要為故事而來，則不必歸功於 star power。",
+        "outcomeZh": "能區分名人吸引力和作品內容的價值。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0231",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The film relied on star power to fill cinemas.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "star power"
+        }
+      ],
+      "listening": {
+        "en": "The film’s story received mixed reviews, but tickets sold quickly after the well-known singer joined the cast. The producer credited her star power.",
+        "zh": "電影故事評價不一，但知名歌手加入演員陣容後，門票迅速售出。製片人把這歸功於她的明星號召力。",
+        "promptZh": "製片人認為甚麼促使門票售出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The singer’s fame attracted people who wanted to see her.",
+            "zh": "歌手的知名度吸引想看她的觀眾。"
+          },
+          {
+            "id": "b",
+            "en": "Reviewers had unanimously praised the film’s story.",
+            "zh": "評論者一致讚賞電影故事。"
+          },
+          {
+            "id": "c",
+            "en": "The cinema reduced all ticket prices after she joined.",
+            "zh": "她加入後，戲院調低所有票價。"
+          },
+          {
+            "id": "d",
+            "en": "The singer wrote the entire screenplay herself.",
+            "zh": "歌手親自寫了整個劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是知名歌手加入後門票迅速售出，並非故事獲一致好評。"
+      },
+      "reply": {
+        "promptEn": "Why did the small charity concert sell out soon after announcing its guest performer?",
+        "promptZh": "（小型慈善音樂會宣布嘉賓後為何很快售罄？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many of the performer’s fans bought tickets to see her.",
+            "zh": "很多嘉賓的歌迷買票看她。"
+          },
+          {
+            "id": "b",
+            "en": "Her star power brought the concert to a much wider audience.",
+            "zh": "她的明星號召力令音樂會吸引更多觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "The announcement gave the concert wider publicity.",
+            "zh": "嘉賓公布後，音樂會得到更多宣傳。"
+          },
+          {
+            "id": "d",
+            "en": "People who followed her work decided to support the event.",
+            "zh": "關注她作品的人決定支持活動。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都合理解釋售罄；金句以 star power 概括嘉賓名氣帶來的觀眾。"
+      },
+      "scene": {
+        "promptZh": "地方劇團邀請知名演員參與新劇，預售隨即大增。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The actor’s star power helped bring new audiences to the production.",
+            "zh": "該演員的明星號召力幫助劇作吸引新觀眾。"
+          },
+          {
+            "id": "b",
+            "en": "The script must have attracted the extra buyers through strong reviews rather than the new actor.",
+            "zh": "增加的購票者一定是受劇本好評吸引，而不是因為新加入的演員。"
+          },
+          {
+            "id": "c",
+            "en": "The actor’s arrival may help publicity, but it cannot affect advance ticket sales.",
+            "zh": "演員加入或許有助宣傳，卻不會影響預售票房。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "知名演員加入後預售立即增加，最直接的解釋是名氣帶來觀眾；題目沒有提供劇本好評證據。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合把入場人數歸因於 star power？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A famous actor’s name on the poster brings in many fans.",
+            "zh": "著名演員的名字印在海報上，吸引許多影迷。"
+          },
+          {
+            "id": "b",
+            "en": "A well-known singer’s surprise appearance draws media attention.",
+            "zh": "知名歌手的驚喜亮相吸引傳媒關注。"
+          },
+          {
+            "id": "c",
+            "en": "An unknown cast fills a small hall after excellent reviews of the script.",
+            "zh": "不知名的演員陣容憑劇本的好評令小劇院滿座。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "入場原因是劇本好評，並非名人的號召力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我因主角是著名歌手而買票，但看完覺得劇情一般。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her star power may have drawn you in, but that alone does not guarantee a strong story.",
+            "zh": "她的明星號召力可能吸引你入場，但單靠名氣不能保證故事精彩。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps you bought the ticket for the story as much as for the singer.",
+            "zh": "也許你買票既為故事，也為那位歌手。"
+          },
+          {
+            "id": "c",
+            "en": "Her name probably filled seats, so the story may have been stronger than you thought.",
+            "zh": "她的名字大概令座位坐滿，所以劇情可能比你所想更精彩。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友明言因著名歌手買票，卻覺得劇情一般；金句把明星吸引力與故事質素分開。"
+      },
+      "speaking": {
+        "en": "The concert sold out on star power, but the arrangements still had to satisfy the audience.",
+        "zh": "音樂會憑明星號召力售罄，但編曲仍須令觀眾滿意。",
+        "promptZh": "先聽示範，再指出明星號召力能做到甚麼、不能保證甚麼。",
+        "targetSpan": {
+          "start": 24,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區文化節邀請一位知名演員擔任朗讀嘉賓，宣傳後預約增加；你仍希望節目內容本身有質素。用一至兩句英文評價。",
+        "selfCheckZh": "指出知名演員如何吸引預約，以及節目內容仍須有質素；不要把名氣說成質素的保證。",
+        "examples": [
+          {
+            "en": "The actor’s star power brought more bookings to the community festival, but the readings still need strong material.",
+            "zh": "演員的明星號召力令社區文化節獲得更多預約，但朗讀內容仍須扎實。"
+          },
+          {
+            "en": "Star power helped publicise the reading event after the actor joined, yet the programme still needs strong readings to reward its audience.",
+            "zh": "演員加入後，明星號召力幫助宣傳朗讀活動，但節目仍需優質朗讀，令觀眾覺得值得。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "more bookings",
+            "zh": "更多預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 44
+            }
+          },
+          {
+            "en": "community festival",
+            "zh": "社區文化節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 70
+            }
+          },
+          {
+            "en": "strong material",
+            "zh": "扎實的內容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 115
+            }
+          },
+          {
+            "en": "reading event",
+            "zh": "朗讀活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 45
+            }
+          },
+          {
+            "en": "strong readings",
+            "zh": "優質朗讀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Star power filled the opening night, though critics still judged the play on its writing.",
+          "zh": "明星號召力令首演滿座，但評論者仍按劇本評價作品。"
+        },
+        {
+          "en": "The campaign borrowed a singer’s star power to draw attention to the charity.",
+          "zh": "這項活動借助歌手的明星號召力，吸引人關注慈善機構。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2350",
+      "number": 2350,
+      "inventoryId": "expr-2350",
+      "titleEn": "cross generational lines",
+      "titleZh": "跨越世代界線",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:cross|crosses|crossed|crossing) generational lines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Appeal to or connect people from different age generations.",
+        "meaningZh": "讓不同世代的人都能欣賞、參與或產生連繫。",
+        "grammar": "music can cross generational lines; a story crossed generational lines.",
+        "register": "Figurative phrase about age groups, not literal boundary lines.",
+        "boundaryZh": "需有不同世代之間的共同吸引力；不要求每個年齡層的喜好完全相同。",
+        "misconceptionZh": "不要把同齡人之間的流行誤說成跨世代，也不要把 lines 解成實體線條。",
+        "outcomeZh": "能舉出兩代人如何透過同一作品產生交流。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0239",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 22,
+          "book": 10,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The song managed to cross generational lines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cross generational lines"
+        }
+      ],
+      "listening": {
+        "en": "At the festival, teenagers sang the chorus while their grandparents shared memories of hearing the song years earlier. The tune still crosses generational lines.",
+        "zh": "節慶上，青少年唱着副歌，祖父母則分享多年前聽這首歌的回憶。這首曲子至今仍能跨越世代界線。",
+        "promptZh": "這首歌如何跨越世代界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives younger and older listeners different ways to enjoy the same song.",
+            "zh": "年輕與年長聽眾都能以不同方式欣賞同一首歌。"
+          },
+          {
+            "id": "b",
+            "en": "It is known only to people who heard it when it was first released.",
+            "zh": "只有初次發行時聽過它的人才認識這首歌。"
+          },
+          {
+            "id": "c",
+            "en": "It was written to teach teenagers about music theory.",
+            "zh": "這首歌是為教青少年樂理而寫的。"
+          },
+          {
+            "id": "d",
+            "en": "All the listeners remember exactly the same event from the song.",
+            "zh": "所有聽眾從歌曲想起完全相同的事件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "青少年唱歌、祖父母回憶過去，同一曲子吸引不同世代，方式可以不同。"
+      },
+      "reply": {
+        "promptEn": "Why did the community choose this story for both the youth club and the seniors’ group?",
+        "promptZh": "（社區為何選這故事給青年會及長者小組一起分享？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Young readers enjoy its humour, while older readers recognise its family themes.",
+            "zh": "年輕讀者欣賞幽默，年長讀者理解家庭主題。"
+          },
+          {
+            "id": "b",
+            "en": "It gives both groups something to discuss together.",
+            "zh": "它讓兩個小組有共同話題。"
+          },
+          {
+            "id": "c",
+            "en": "Its characters remind people of relationships at different ages.",
+            "zh": "人物令不同年齡的讀者想起自己的人際關係。"
+          },
+          {
+            "id": "d",
+            "en": "It crosses generational lines by engaging readers of different ages.",
+            "zh": "它吸引不同年齡的讀者，跨越世代界線。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都解釋了共同選書；金句以 cross generational lines 概括跨年齡吸引力。"
+      },
+      "scene": {
+        "promptZh": "一齣戲同時令中學生和他們的父母發笑，散場後兩代人還一起談論角色。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The play crossed generational lines and gave families a shared subject.",
+            "zh": "這齣戲跨越世代界線，給家庭一個共同話題。"
+          },
+          {
+            "id": "b",
+            "en": "Parents and teenagers laughed at different jokes, so the play gave them no shared experience.",
+            "zh": "家長與中學生笑的是不同笑話，所以這齣戲沒有帶來共同經歷。"
+          },
+          {
+            "id": "c",
+            "en": "Both age groups attended the theatre, but each followed a separate programme.",
+            "zh": "兩個年齡層都到過劇院，但各自參加不同節目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中學生與家長都欣賞同一齣戲，散場後還一起討論角色；共同作品跨越世代界線，欣賞角度不必完全一樣。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說一個節目 crosses generational lines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Parents and children enjoy its different layers of humour.",
+            "zh": "家長和孩子欣賞它不同層次的幽默。"
+          },
+          {
+            "id": "b",
+            "en": "Teenagers and grandparents both attend and discuss it afterwards.",
+            "zh": "青少年與祖父母都來參與，之後一起討論。"
+          },
+          {
+            "id": "c",
+            "en": "The entire audience belongs to the same school year, with no evidence of older viewers.",
+            "zh": "全部觀眾都來自同一年級，沒有年長觀眾的證據。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "只有同一年級參與，尚看不到跨越不同世代的吸引力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這首舊歌原本是我媽媽喜歡的，現在我和同學也常唱，還會問她當年的故事。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It crosses generational lines because it connects your classmates with your mother’s memories.",
+            "zh": "它跨越世代界線，把同學與你媽媽的回憶連起來。"
+          },
+          {
+            "id": "b",
+            "en": "The song may be familiar to your mother, while your classmates only know a brief sample.",
+            "zh": "你媽媽或許熟悉整首歌，而同學只認識一小段取樣。"
+          },
+          {
+            "id": "c",
+            "en": "You may sing the same chorus, but perhaps it gives you little to discuss together.",
+            "zh": "你們也許唱同一段副歌，但它未必帶來多少共同話題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同學也常唱這首歌，還向媽媽問起往事；它促成兩代人的欣賞與交流，不必有完全相同的回憶。"
+      },
+      "speaking": {
+        "en": "The comedy crosses generational lines: children enjoy the jokes, and grandparents recognise the family stories.",
+        "zh": "這齣喜劇跨越世代界線：孩子欣賞笑話，祖父母則對家庭故事有共鳴。",
+        "promptZh": "先聽示範，再指出兩代人如何各自欣賞同一作品。",
+        "targetSpan": {
+          "start": 11,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書館舉辦故事夜，年輕人喜歡故事的冒險情節，祖父母則會分享與情節相似的童年回憶；兩代人之後一起聊天。用一至兩句英文介紹活動。",
+        "selfCheckZh": "寫出年輕人和祖父母各自欣賞甚麼，以及故事夜如何促成兩代人的交流。",
+        "examples": [
+          {
+            "en": "The story night crosses generational lines: young listeners enjoy the adventure, while grandparents share childhood memories afterwards.",
+            "zh": "故事夜跨越世代界線：年輕聽眾欣賞冒險情節，祖父母則在活動後分享童年回憶。"
+          },
+          {
+            "en": "At the library, the adventure story crossed generational lines by giving young people and grandparents a reason to talk about their experiences.",
+            "zh": "在圖書館，冒險故事為年輕人與祖父母帶來交流自身經歷的話題，跨越了世代界線。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "story night",
+            "zh": "故事夜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "young listeners",
+            "zh": "年輕聽眾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 59
+            }
+          },
+          {
+            "en": "childhood memories",
+            "zh": "童年回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 124
+            }
+          },
+          {
+            "en": "adventure story",
+            "zh": "冒險故事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 35
+            }
+          },
+          {
+            "en": "a reason to talk",
+            "zh": "交流的話題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 119
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The board game crossed generational lines at our family gathering.",
+          "zh": "這款桌上遊戲在家庭聚會上跨越世代界線。"
+        },
+        {
+          "en": "A shared story can cross generational lines even when each age group notices different details.",
+          "zh": "即使各年齡層留意的細節不同，共同的故事仍能跨越世代界線。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

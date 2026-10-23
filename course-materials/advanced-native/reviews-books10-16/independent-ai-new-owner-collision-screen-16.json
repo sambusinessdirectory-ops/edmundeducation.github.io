@@ -1,0 +1,37 @@
+{
+  "reviewType": "independent AI semantic audit of existing-owner regex collisions",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "Read-only audit-new-owner-collisions.mjs output: 16 initial proposed-new source/owner records across Books 10–16, followed by a rerun after the 2616 correction",
+  "method": "Compared each full source example, the matched substring, proposed target meaning, prior canonical brief/grammar/boundary and editorial decision. A regex hit was treated as a review lead, not as an automatic semantic merge.",
+  "counts": {"initialCollisionRecords": 16, "sameSenseDuplicateFound": 1, "duplicateResolved": 1, "remainingCollisionRecordsAfterRepair": 15, "remainingSameSenseDuplicateFindings": 0},
+  "resolvedDuplicate": {
+    "sourceOrdinal": 2616,
+    "phrase": "sink in",
+    "existingOwner": "advanced-native-1731",
+    "severityBeforeRepair": "major",
+    "evidence": "The source 'The lesson took a day to sink in' expresses delayed understanding. Canonical 1731 explicitly states that sink in is its phrasal unit, with lesson and quietly only context and manner; its detector matches the full source example.",
+    "verifiedRepair": "Source 2616 is now proposed-alias-existing to 1731; related same-sense 2661, 3214 and 3272 were also moved to that owner. Ordinal 2616 is absent from the selected draft manifest, and a rerun leaves 15 collision records."
+  },
+  "distinctCollisionDecisions": [
+    {"sourceOrdinal": 2123, "proposedPhrase": "show up", "matchedPriorOwner": "advanced-native-364 show up", "distinction": "The new source is arrival before noon; 364 teaches being present to support someone. Same words, different learner decision. Keep sense-specific ownership."},
+    {"sourceOrdinal": 2134, "proposedPhrase": "timing is too tight", "matchedPriorOwner": "advanced-native-256 rely on", "distinction": "The prior detector matches the separate subordinate phrase rely on the final train. The proposed tight-schedule phrase is a different span and meaning."},
+    {"sourceOrdinal": 2176, "proposedPhrase": "ready to go", "matchedPriorOwner": "advanced-native-434 packed", "distinction": "The source uses packed as a literal verb for documents; 434 teaches a crowded venue. Ready to go is the proposed readiness target."},
+    {"sourceOrdinal": 2279, "proposedPhrase": "grounded in facts", "matchedPriorOwner": "advanced-native-798 grounded / more grounded", "distinction": "Evidence-based argument versus feeling emotionally steady and connected to daily reality. The shared adjective is not a shared lesson outcome."},
+    {"sourceOrdinal": 2295, "proposedPhrase": "pull them in", "matchedPriorOwner": "advanced-native-048 at once", "distinction": "The prior detector matches the separate at once adjunct, which here means immediately; 048 focuses simultaneous demands. Pull them in teaches attracting an audience."},
+    {"sourceOrdinal": 2335, "proposedPhrase": "come across as", "matchedPriorOwner": "advanced-native-120 come across", "distinction": "Impression-giving come across as differs from 120's chance-discovery come across. The shorter 120 detector matches inside the new construction, so aliasing must be sense- and construction-aware."},
+    {"sourceOrdinal": 2342, "proposedPhrase": "star power", "matchedPriorOwner": "advanced-native-256 rely on", "distinction": "Relied on is a separate ordinary dependency verb in the source. Star power names the celebrity's audience draw."},
+    {"sourceOrdinal": 2366, "proposedPhrase": "keep your feet on the ground", "matchedPriorOwner": "advanced-native-536 on the ground", "distinction": "The longer phrase means remain realistic after success, not 536's local operational conditions; the latter is a substring collision."},
+    {"sourceOrdinal": 2458, "proposedPhrase": "running their life", "matchedPriorOwner": "advanced-native-041 end up", "distinction": "Ended up is a separate eventual-result expression in the sentence; running their life describes control over daily choices."},
+    {"sourceOrdinal": 2514, "proposedPhrase": "show up", "matchedPriorOwner": "advanced-native-364 show up", "distinction": "Effects becoming evident in final results differs from 364's human supportive presence. Exact-title collision needs an explicit sense tag."},
+    {"sourceOrdinal": 2585, "proposedPhrase": "caught up in social pressure", "matchedPriorOwner": "advanced-native-1521 catching up", "distinction": "Becoming entangled in social pressure differs from 1521's catching up through conversation after time apart."},
+    {"sourceOrdinal": 2657, "proposedPhrase": "blow up overnight", "matchedPriorOwner": "advanced-native-061 overnight", "distinction": "The matched adverb overnight contributes speed, but the proposed construction also teaches blow up as sudden online popularity. They are not interchangeable target units."},
+    {"sourceOrdinal": 2853, "proposedPhrase": "brain switched off", "matchedPriorOwner": "advanced-native-375 switch off", "distinction": "Reading claims with one's brain switched off means inattentive or uncritical thinking. Canonical 375 teaches deliberately leaving work/worries mentally for relaxation; the subject, context and valence differ. Preserve this distinction in the future lesson brief."},
+    {"sourceOrdinal": 2876, "proposedPhrase": "hands on the wheel", "matchedPriorOwner": "advanced-native-329 hands-on", "distinction": "Direct control during a crisis differs from practical hands-on participation; a space/hyphen tolerant detector caused this false semantic match."},
+    {"sourceOrdinal": 2956, "proposedPhrase": "picking up the pieces afterwards", "matchedPriorOwner": "advanced-native-441 pick up", "distinction": "Recovering from damage after an extravagant celebration is the idiom pick up the pieces, not 441's informally acquiring knowledge. The prior detector matches only the two-word prefix. A future lesson should make the financial or practical damage concrete because the source sentence alone does not specify it."}
+  ],
+  "findings": [],
+  "watchItems": ["The 2335 come across as and 2956 pick up the pieces collisions require explicit sense-aware detector checks; a prefix-only regex merge would teach the wrong sense.", "The 2853 lesson should contrast uncritical inattention with 375's chosen relaxation rather than treating all mental switch off uses as identical.", "The 2956 source sentence is elliptical about what went wrong after the costly party; future models should supply concrete aftermath without changing the exact archived source quote."],
+  "limits": ["This is AI peer review of provisional editorial ownership, not human editorial approval or authorization to select or release lessons.", "No audio, browser, or device checks were performed."]
+}

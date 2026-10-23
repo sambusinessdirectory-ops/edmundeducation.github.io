@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-third60-provisional-a2-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2308",
+      "number": 2308,
+      "inventoryId": "expr-2308",
+      "titleEn": "mixed feelings",
+      "titleZh": "百感交集、喜憂參半",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmixed feelings\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Both positive and negative feelings about the same thing.",
+        "meaningZh": "面對同一件事時，同時有支持或高興的一面，也有擔心或難過的一面。",
+        "grammar": "have mixed feelings about a change; mixed feelings about leaving.",
+        "register": "Neutral everyday phrase; explain the two sides rather than using it as vague indecision.",
+        "boundaryZh": "同時有正反兩面，不只是完全拿不定主意，也不是兩個人各持一種看法。",
+        "misconceptionZh": "不要只寫「我有感覺」而不說明兩面；亦不要把純粹高興或純粹失望說成喜憂參半。",
+        "outcomeZh": "能具體說出同一決定帶來的好處和顧慮。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0197",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I have mixed feelings about replacing a repairable phone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mixed feelings"
+        }
+      ],
+      "listening": {
+        "en": "Tara was pleased that her choir had been invited abroad, but worried about missing her family celebration. She had mixed feelings about the trip.",
+        "zh": "塔拉很高興合唱團獲邀到海外演出，但也擔心會錯過家人的慶祝活動。她對旅程喜憂參半。",
+        "promptZh": "塔拉的感受為何可稱為 mixed feelings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She welcomes the invitation but worries about what she may miss.",
+            "zh": "她歡迎邀請，但也擔心會錯過一些事。"
+          },
+          {
+            "id": "b",
+            "en": "She dislikes the invitation and sees no benefit in it.",
+            "zh": "她不喜歡邀請，完全看不到好處。"
+          },
+          {
+            "id": "c",
+            "en": "She feels pleased but has no concern about travelling.",
+            "zh": "她高興，卻沒有任何出行顧慮。"
+          },
+          {
+            "id": "d",
+            "en": "She likes the trip but is worried about an unrelated task that does not conflict with it.",
+            "zh": "她喜歡這次旅程，卻擔心一項與旅程無衝突的其他工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她既期待受邀出行，也擔心同一旅程令她錯過家庭慶祝；兩面感受指向同一決定。"
+      },
+      "reply": {
+        "promptEn": "How do you feel about replacing the school garden with a bigger sports area?",
+        "promptZh": "（你對把學校花園改成較大運動場有甚麼感受？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "More students would have space to play, but the plants would be lost.",
+            "zh": "更多學生有地方活動，但植物會消失。"
+          },
+          {
+            "id": "b",
+            "en": "I like the extra sports space and worry about losing a quiet place.",
+            "zh": "我喜歡增加運動空間，卻擔心失去安靜的地方。"
+          },
+          {
+            "id": "c",
+            "en": "I have mixed feelings because the plan helps players but removes the garden.",
+            "zh": "我喜憂參半，因為計劃有利運動的同學，卻會拆掉花園。"
+          },
+          {
+            "id": "d",
+            "en": "I would feel hopeful about more space to play but sad to lose the plants.",
+            "zh": "我會期待有更多活動空間，卻也難過會失去植物。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理表達這項改動帶來的兩面感受；金句直接用 mixed feelings 概括好處與顧慮。"
+      },
+      "scene": {
+        "promptZh": "一位學生獲選為比賽隊長，感到自豪，同時擔心要減少與朋友一起練習的時間。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has mixed feelings about becoming captain.",
+            "zh": "她對當隊長喜憂參半。"
+          },
+          {
+            "id": "b",
+            "en": "She is proud of becoming captain but worried mainly about a separate exam.",
+            "zh": "她以當上隊長自豪，但主要擔心另一場考試。"
+          },
+          {
+            "id": "c",
+            "en": "She is proud of the title but treats the lost practice time as an unrelated scheduling problem.",
+            "zh": "她以隊長名銜自豪，卻把練習時間減少視為無關的時間表問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "自豪和擔心都源於當隊長這一安排，而不是兩項互不相干的事。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 mixed feelings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer is excited about a new role but worries about the travel time.",
+            "zh": "義工期待新職位，但擔心交通時間。"
+          },
+          {
+            "id": "b",
+            "en": "A student is delighted with an award and expresses no reservation about it.",
+            "zh": "學生為得獎感到高興，對此沒有任何保留。"
+          },
+          {
+            "id": "c",
+            "en": "A family appreciates a larger home but will miss its old neighbourhood.",
+            "zh": "一家人欣賞較大的新居，也會懷念舊社區。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有高興一面，沒有相反感受，便不是喜憂參半。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我獲選到遠方參加音樂交流，很期待，但要錯過姐姐生日。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes sense to have mixed feelings; the trip is exciting, and missing the birthday is hard.",
+            "zh": "你喜憂參半很自然；旅程令人期待，錯過生日也令人難過。"
+          },
+          {
+            "id": "b",
+            "en": "Being excited means you cannot also feel disappointed about the birthday.",
+            "zh": "既然期待旅程，你就不可能同時為錯過生日而難過。"
+          },
+          {
+            "id": "c",
+            "en": "You should describe only the journey and keep the birthday concern out of the discussion.",
+            "zh": "你只應說旅程，不必提及生日的顧慮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩種感受可同時存在，回應應承認兩面而非否定其中一面。"
+      },
+      "speaking": {
+        "en": "I had mixed feelings about the new timetable: the later start helped me, but the shorter lunch break did not.",
+        "zh": "我對新時間表喜憂參半：較遲上課對我有幫助，但縮短午飯時間則不理想。",
+        "promptZh": "先聽示範，再說明新時間表的好處與顧慮。",
+        "targetSpan": {
+          "start": 6,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你獲邀在週末市集展示自己的畫。你期待讓更多人看見作品，但也會因此錯過與表親的一次聚餐。用一至兩句英文表達兩面的感受。",
+        "selfCheckZh": "明確指出展示畫作的好處和錯過聚餐的顧慮；兩面須指向同一個邀請。",
+        "examples": [
+          {
+            "en": "I have mixed feelings about showing my paintings at the market: I am excited to meet visitors but sad to miss lunch with my cousins.",
+            "zh": "我對在市集展示畫作喜憂參半：很期待認識訪客，但也難過會錯過與表親聚餐。"
+          },
+          {
+            "en": "The invitation gives me mixed feelings because it lets people see my art, yet it clashes with a family meal.",
+            "zh": "這項邀請令我喜憂參半，因為它能讓人看到我的作品，卻與家庭聚餐撞期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "showing my paintings",
+            "zh": "展示我的畫作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 48
+            }
+          },
+          {
+            "en": "meet visitors",
+            "zh": "認識訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 93
+            }
+          },
+          {
+            "en": "lunch with my cousins",
+            "zh": "與表親聚餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 131
+            }
+          },
+          {
+            "en": "see my art",
+            "zh": "看到我的作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 72
+            }
+          },
+          {
+            "en": "a family meal",
+            "zh": "家庭聚餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She had mixed feelings about leaving the team: the new role was exciting, but she would miss her friends.",
+          "zh": "她對離開隊伍喜憂參半：新職位令人期待，但她會想念朋友。"
+        },
+        {
+          "en": "Mixed feelings are easier to explain when you name both the hope and the concern.",
+          "zh": "說清希望與顧慮，較易解釋喜憂參半的感受。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2310",
+      "number": 2310,
+      "inventoryId": "expr-2310",
+      "titleEn": "drag on",
+      "titleZh": "拖延下去，令人不耐",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:drag|drags|dragged|dragging) on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continue longer than expected or wanted, often unpleasantly.",
+        "meaningZh": "某事比預期或理想時間更久，令人感到拖沓或難以忍受。",
+        "grammar": "the meeting dragged on; a dispute may drag on.",
+        "register": "Neutral-to-negative phrase; duration alone is not enough without unwanted delay.",
+        "boundaryZh": "表示不受歡迎地持續太久，不是事情本來就安排得長但大家樂意參與。",
+        "misconceptionZh": "不要把有成果的長時間活動自動說成拖沓，也不要用來形容突然結束。",
+        "outcomeZh": "能交代原定時長、實際延長和造成的不便。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0199",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The dispute began to drag on through the winter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drag on"
+        }
+      ],
+      "listening": {
+        "en": "The repair meeting was scheduled for twenty minutes, but a repeated argument made it drag on for nearly two hours, delaying the workshop.",
+        "zh": "維修會議原定二十分鐘，但重複的爭論令它拖延近兩小時，耽誤了工作坊。",
+        "promptZh": "drag on 在這裏表達甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The meeting continued much longer than wanted and caused a delay.",
+            "zh": "會議持續得比大家想要的久，造成延誤。"
+          },
+          {
+            "id": "b",
+            "en": "The meeting itself ended on time, but the workshop began late for another reason.",
+            "zh": "會議本身準時結束，工作坊卻因另一原因遲了開始。"
+          },
+          {
+            "id": "c",
+            "en": "The two-hour discussion had been scheduled from the start.",
+            "zh": "兩小時的討論一開始就是原定安排。"
+          },
+          {
+            "id": "d",
+            "en": "The delay came from a new workshop topic rather than the repeated argument.",
+            "zh": "延誤來自工作坊的新議題，而非會議中反覆的爭論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原定二十分鐘卻延至近兩小時，還耽誤工作坊，說明是不受歡迎的拖延。"
+      },
+      "reply": {
+        "promptEn": "What should the chair do if our planning meeting keeps running beyond its end time?",
+        "promptZh": "（若規劃會議超過原定結束時間，主席應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Summarise the decisions already made.",
+            "zh": "概括已作出的決定。"
+          },
+          {
+            "id": "b",
+            "en": "Set a clear time for the remaining points.",
+            "zh": "為餘下議題訂下明確時間。"
+          },
+          {
+            "id": "c",
+            "en": "Stop the meeting from dragging on by assigning follow-up tasks.",
+            "zh": "分配跟進工作，避免會議一直拖下去。"
+          },
+          {
+            "id": "d",
+            "en": "Arrange a separate discussion for unresolved details.",
+            "zh": "為未解決的細節另約時間討論。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四項都能防止會議不必要地延長；金句用 dragging on 指令人困擾的拖延。"
+      },
+      "scene": {
+        "promptZh": "原定一週完成的路牌更換工程，因反覆等待批核延至三個月，附近店主一直感到不便。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The road-sign project dragged on for months.",
+            "zh": "更換路牌的工程拖延了數月。"
+          },
+          {
+            "id": "b",
+            "en": "The replacement was finished within a week; only the announcement arrived later.",
+            "zh": "更換工程一週內已完成，只是公告較遲發出。"
+          },
+          {
+            "id": "c",
+            "en": "The three-month schedule had been announced before any work began.",
+            "zh": "動工前已公布工程原定歷時三個月。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一週工程拖成三個月且造成不便，符合 drag on。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合說 drag on？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A short decision meeting takes hours because the same point is repeated.",
+            "zh": "簡短決策會議因反覆討論同一點而花上數小時。"
+          },
+          {
+            "id": "b",
+            "en": "A planned three-hour concert runs for exactly three hours, and the audience enjoys the whole show.",
+            "zh": "原定三小時的音樂會如期完成，觀眾全程享受。"
+          },
+          {
+            "id": "c",
+            "en": "A complaint remains unresolved far beyond the promised response date.",
+            "zh": "投訴超過承諾回覆日期很久仍未解決。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "如期而且全程受歡迎的長音樂會，不是令人不快的拖延。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「這個兩天前就該結束的名單核對，大家還在反覆改同一項，其他工作都停了。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The checking is dragging on; let us agree on a final rule and finish the list.",
+            "zh": "核對工作一直拖下去；我們先同意最終準則，再完成名單。"
+          },
+          {
+            "id": "b",
+            "en": "We could review the disputed item once more, then see whether everyone agrees.",
+            "zh": "我們可以再檢視爭議項目一次，之後看看大家能否同意。"
+          },
+          {
+            "id": "c",
+            "en": "Let us pause this list and return to it at our next scheduled meeting.",
+            "zh": "我們先暫停這份名單，下次例會再處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "工作已超期並阻礙其他任務；金句提出最終準則以收尾，另兩項仍缺少結束反覆修改的辦法。"
+      },
+      "speaking": {
+        "en": "The discussion dragged on past closing time because nobody settled the final question.",
+        "zh": "大家沒能解決最後一個問題，討論一直拖到關門時間以後。",
+        "promptZh": "先聽示範，再說明討論為何延長。",
+        "targetSpan": {
+          "start": 15,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區巴士路線檢討原定兩週完成，但反覆改動同一份問卷，三個月後仍未公布結果，居民因此不知道新時間表。用一至兩句英文描述延誤並提出實際下一步。",
+        "selfCheckZh": "指出原定兩週、實際拖了三個月及居民的不便，並提出明確完成辦法。",
+        "examples": [
+          {
+            "en": "The review has dragged on for three months instead of two weeks, leaving residents unsure of the new timetable. The team should set a final date.",
+            "zh": "檢討原定兩週，卻拖了三個月，令居民不清楚新時間表。團隊應訂下最終日期。"
+          },
+          {
+            "en": "The survey changes made the two-week review drag on for three months, leaving residents without a new timetable. We should approve one final version and give them a publication date.",
+            "zh": "反覆修改問卷，令原定兩週的檢討拖了三個月，居民因此仍未有新時間表。我們應通過一個最終版本，並告知他們公布日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three months",
+            "zh": "三個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 42
+            }
+          },
+          {
+            "en": "instead of two weeks",
+            "zh": "而非兩週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 63
+            }
+          },
+          {
+            "en": "residents unsure",
+            "zh": "居民不清楚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 89
+            }
+          },
+          {
+            "en": "The survey changes",
+            "zh": "反覆修改問卷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "one final version",
+            "zh": "一個最終版本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 148
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The complaint dragged on for weeks after the promised reply date.",
+          "zh": "承諾回覆日期過後，投訴仍拖了幾星期。"
+        },
+        {
+          "en": "A long event need not drag on if its length was planned and welcome.",
+          "zh": "活動即使很長，若時長是事先安排且受歡迎，也未必算拖延。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2319",
+      "number": 2319,
+      "inventoryId": "expr-2319",
+      "titleEn": "ring true",
+      "titleZh": "聽起來真實可信",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:ring|rings|rang|rung|ringing) true\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feel convincing or authentic because details match lived experience or observation.",
+        "meaningZh": "細節與人的經驗或觀察吻合，令人覺得說法真實可信。",
+        "grammar": "the story rings true; the dialogue rang true.",
+        "register": "Neutral figurative evaluation of accounts and fictional portrayals.",
+        "boundaryZh": "讓人覺得可信不等於已被獨立證實；這是對呈現是否真實的判斷。",
+        "misconceptionZh": "不要把共鳴當作事實查證，也不要因故事動人就自動說細節可信。",
+        "outcomeZh": "能指出一個具體細節為何使描寫顯得可信，同時保留查證空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0208",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 19,
+          "book": 10,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 19; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her account of grief seemed to ring true.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ring true"
+        }
+      ],
+      "listening": {
+        "en": "The short story showed a new pupil quietly studying a map of the school before asking for help. That small hesitation rang true to many students who remembered their first day.",
+        "zh": "短篇小說描寫新同學先默默看校園地圖，才開口求助。很多學生想起自己的入學第一天，覺得這個小小猶豫很真實。",
+        "promptZh": "學生為何覺得描寫 ring true？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The hesitation matched experiences they recognised.",
+            "zh": "那份猶豫與他們熟悉的經驗吻合。"
+          },
+          {
+            "id": "b",
+            "en": "The author based the scene on an independently documented event at that school.",
+            "zh": "作者根據在該校獲獨立證實的事件寫成這一幕。"
+          },
+          {
+            "id": "c",
+            "en": "The character entered confidently and needed no help finding a classroom.",
+            "zh": "角色自信地進入校園，無須別人幫忙找課室。"
+          },
+          {
+            "id": "d",
+            "en": "The story was popular, so the specific first-day detail did not matter.",
+            "zh": "故事受歡迎，所以入學第一天的具體細節並不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新學生猶豫求助的細節與讀者經驗吻合，故顯得可信；並不代表小說事件經核實。"
+      },
+      "reply": {
+        "promptEn": "Why did the dialogue in the new school play feel believable to you?",
+        "promptZh": "（你為何覺得新話劇的對白可信？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pupils interrupted one another in ways I recognise.",
+            "zh": "學生互相插話的方式讓我覺得熟悉。"
+          },
+          {
+            "id": "b",
+            "en": "Their concerns sounded like ones I have heard at school.",
+            "zh": "他們的顧慮像我在學校聽過的。"
+          },
+          {
+            "id": "c",
+            "en": "The awkward pauses ring true because real conversations often have them.",
+            "zh": "那些尷尬停頓聽來真實，因為真實對話也常有這情況。"
+          },
+          {
+            "id": "d",
+            "en": "The characters did not always find perfect words.",
+            "zh": "角色並非每次都能找到完美措辭。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出令人覺得可信的具體對白特徵；金句用 ring true 概括熟悉的停頓。"
+      },
+      "scene": {
+        "promptZh": "一段短片描寫新義工第一次派飯時要反覆核對名單，還會因怕弄錯而停一停。曾當義工的人覺得這些細節很貼近經驗。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer scenes ring true to people who have done the work.",
+            "zh": "對做過義工的人而言，這些場景顯得真實可信。"
+          },
+          {
+            "id": "b",
+            "en": "The film is a documentary that verifies every detail of the volunteer work.",
+            "zh": "短片是一部核實了義工工作每項細節的紀錄片。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers handle the delivery without checking any names.",
+            "zh": "片中的義工沒有核對姓名，便完成派送。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核對和猶豫的細節與義工經驗吻合，令人覺得可信；毋須假定短片是紀錄片。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 ring true？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An experienced gardener recognises the small mistakes in a fictional planting scene.",
+            "zh": "有經驗的園丁認出虛構種植場景中的小失誤。"
+          },
+          {
+            "id": "b",
+            "en": "A speech sounds impressive, but its account of ordinary school routines contradicts what students know.",
+            "zh": "演說聽來有氣勢，但描述的日常校園作息與學生所知相反。"
+          },
+          {
+            "id": "c",
+            "en": "A teacher recognises the realistic hesitations in a pupil’s dialogue.",
+            "zh": "老師認得出學生對白中真實的猶豫。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "氣勢不等於真實可信；細節與已有經驗衝突時，難說描寫 ring true。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這段短劇感人，所以它對巴士司機日常工作的一切描寫一定準確。」你沒看過相關資料。哪個回應最審慎？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may ring true emotionally, but we should check the work details before treating them as facts.",
+            "zh": "情感上它或許顯得真實，但把工作細節當成事實前仍應核查。"
+          },
+          {
+            "id": "b",
+            "en": "The emotional reaction suggests the work details are accurate, so checking them is unnecessary.",
+            "zh": "情感反應說明工作細節準確，所以不用核查。"
+          },
+          {
+            "id": "c",
+            "en": "Because the scene is fictional, none of its details can reflect real work.",
+            "zh": "場景是虛構的，因此沒有任何細節可能反映真實工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情感可信與細節經核實是兩回事；可承認作品的真實感，同時保留查證。"
+      },
+      "speaking": {
+        "en": "Her account of the first rehearsal rang true because she included the small mistakes everyone remembered.",
+        "zh": "她描述第一次排練時提到大家都記得的小失誤，因此聽起來真實可信。",
+        "promptZh": "先聽示範，再說明甚麼細節令人覺得描述可信。",
+        "targetSpan": {
+          "start": 35,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的同學寫了一篇關於初到新校的短篇小說。主角拿錯時間表，到門口才發現走錯課室，然後請同學幫忙。你也有過類似經驗。用一至兩句英文評論這些細節為何可信，但不要聲稱故事是真的。",
+        "selfCheckZh": "指出與自身經驗相符的至少一個具體細節，並區分「顯得真實」與「已證實發生」。",
+        "examples": [
+          {
+            "en": "The scene rings true to me because I once checked the wrong timetable too, although the story is fictional.",
+            "zh": "這個場景令我覺得真實，因為我也曾看錯時間表；不過故事是虛構的。"
+          },
+          {
+            "en": "Her mistake at the classroom door rang true to me: I remember asking a classmate for help on my first day, but I cannot say the story really happened.",
+            "zh": "她在課室門口犯的錯讓我覺得真實：我記得入學第一天也曾向同學求助，但我不能說故事確實發生過。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the wrong timetable",
+            "zh": "錯的時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 69
+            }
+          },
+          {
+            "en": "the story is fictional",
+            "zh": "故事是虛構的",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 106
+            }
+          },
+          {
+            "en": "at the classroom door",
+            "zh": "在課室門口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 33
+            }
+          },
+          {
+            "en": "asking a classmate for help",
+            "zh": "向同學求助",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 89
+            }
+          },
+          {
+            "en": "on my first day",
+            "zh": "入學第一天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The dialogue rang true to former students, but no one claimed it was a transcript.",
+          "zh": "舊生覺得對白真實可信，但沒有人聲稱那是逐字紀錄。"
+        },
+        {
+          "en": "A familiar detail can make a story ring true without proving it happened.",
+          "zh": "熟悉的細節可以令故事顯得真實，卻不能證明它曾發生。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2327",
+      "number": 2327,
+      "inventoryId": "expr-2327",
+      "titleEn": "a tearjerker",
+      "titleZh": "催淚作品",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba tearjerker\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A film or story intended to move viewers strongly, often to tears.",
+        "meaningZh": "情感強烈、容易令觀眾或讀者感動落淚的電影或故事。",
+        "grammar": "a tearjerker film; the story is a tearjerker.",
+        "register": "Informal noun for emotional storytelling; no claim that every viewer will cry.",
+        "boundaryZh": "重點是作品刻意以情感打動人，不是單純悲慘，也不用保證所有觀眾流淚。",
+        "misconceptionZh": "不要以觀眾性別推斷反應；不同人可以有不同感受。",
+        "outcomeZh": "能用具體情節解釋一部作品為何具催淚效果，並尊重不同觀眾反應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0216",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 16, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The final film was a tearjerker that moved the whole audience.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a tearjerker"
+        }
+      ],
+      "listening": {
+        "en": "The film follows two sisters who restore their father’s old radio and hear a recording of his voice at the end. Many viewers called it a tearjerker.",
+        "zh": "電影講述兩姊妹修好父親的舊收音機，最後聽到他的聲音錄音。很多觀眾稱它是催淚作品。",
+        "promptZh": "觀眾為何可能稱電影為 a tearjerker？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Hearing their father’s recorded voice after the repair creates a moving family moment.",
+            "zh": "修好收音機後聽見父親的錄音，構成感人的家庭時刻。"
+          },
+          {
+            "id": "b",
+            "en": "The sisters complete a repair project, but the recording carries little family meaning.",
+            "zh": "姊妹完成修理工作，但錄音對一家人沒有太多意義。"
+          },
+          {
+            "id": "c",
+            "en": "The description tells us exactly how every viewer reacted after seeing it.",
+            "zh": "這段描述準確交代了每位觀眾看後的反應。"
+          },
+          {
+            "id": "d",
+            "en": "The film stresses the sisters’ technical solution more than their response to their father.",
+            "zh": "電影較着重姊妹怎樣修好收音機，而非她們聽見父親聲音的感受。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "修好收音機後聽到父親的錄音，形成可能令觀眾動容的家庭時刻；題目沒有交代父親是否已去世，也沒有說明姊妹的確切反應。"
+      },
+      "reply": {
+        "promptEn": "What kind of film should we choose if the group wants an emotional story tonight?",
+        "promptZh": "（如果大家今晚想看一齣感人的故事片，應選哪種電影？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A film about a family finding a farewell letter from their late father might work.",
+            "zh": "一家人找到亡父留下的告別信，這樣的電影可能合適。"
+          },
+          {
+            "id": "b",
+            "en": "We could choose a story about friends reuniting after years apart.",
+            "zh": "我們可以選多年後朋友重聚的故事。"
+          },
+          {
+            "id": "c",
+            "en": "A tearjerker with a well-told reunion might suit the group.",
+            "zh": "一齣把重逢故事說得好的催淚片可能適合大家。"
+          },
+          {
+            "id": "d",
+            "en": "A film that develops caring relationships could be a good choice.",
+            "zh": "展現關懷關係的電影或許是不錯的選擇。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四個答案都提出可能令人動容的故事；金句用 a tearjerker 明確概括催淚片。"
+      },
+      "scene": {
+        "promptZh": "一齣動畫描寫孩子多年後把祖母留下的食譜做成一道菜，並在結尾與家人分享回憶。很多觀眾因此感動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The animated film is a tearjerker.",
+            "zh": "這部動畫是一齣催淚作品。"
+          },
+          {
+            "id": "b",
+            "en": "The grandmother’s recipe appears only as a cooking demonstration without the family’s memories.",
+            "zh": "祖母的食譜只用來示範烹飪，沒有牽連家人回憶。"
+          },
+          {
+            "id": "c",
+            "en": "The viewers were moved mainly by the animation style, not by the family memories.",
+            "zh": "觀眾主要被動畫風格打動，而非被家人共同回憶打動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "祖母食譜與家人回憶的結尾造成強烈情感效果，適合稱為催淚作品。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合稱為 a tearjerker？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A drama builds an emotional reunion after years of separation.",
+            "zh": "劇情片經過多年分離的鋪排，最後讓角色重逢。"
+          },
+          {
+            "id": "b",
+            "en": "A short instructional clip lists bus fares without characters or an emotional story.",
+            "zh": "一段短教學片只列出車費，沒有角色或情感故事。"
+          },
+          {
+            "id": "c",
+            "en": "A novel traces a child’s efforts to remember a late relative through shared songs.",
+            "zh": "小說描寫孩子藉共同的歌曲，努力懷念一位已故親人。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "純列車費的教學片沒有以情感故事打動觀眾；另外兩項有感人情節。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這部電影被很多人稱為催淚片，但我沒哭，是不是我看錯了？」哪個回答最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Not at all. A film can be a tearjerker even if different viewers respond differently.",
+            "zh": "當然不是。即使不同觀眾反應不同，它仍可以是催淚作品。"
+          },
+          {
+            "id": "b",
+            "en": "A film is a tearjerker only if every viewer cries at the same scene.",
+            "zh": "只有每位觀眾在同一幕都哭，電影才算催淚片。"
+          },
+          {
+            "id": "c",
+            "en": "You must have missed the scene the other viewers found emotional.",
+            "zh": "你一定錯過了其他觀眾覺得感人的那一幕。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "催淚作品指敘事可能帶來的情感效果，不要求每位觀眾都哭，也不能推斷未落淚的人漏看情節。"
+      },
+      "speaking": {
+        "en": "The final reunion made the drama a tearjerker for many viewers, although others stayed dry-eyed.",
+        "zh": "最後的重逢令很多觀眾覺得這齣戲催淚，但也有人沒有落淚。",
+        "promptZh": "先聽示範，再說明催淚效果與個別觀眾反應可有何不同。",
+        "targetSpan": {
+          "start": 33,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生拍了一部短片，講述義工修好社區中心一架舊鋼琴。結尾，一位多年沒彈琴的長者再次坐下，彈起她兒時常聽的曲子；有觀眾很感動，也有人只覺得溫暖。用一至兩句英文評論作品。",
+        "selfCheckZh": "指出舊鋼琴、長者重彈或熟悉曲子帶來的情感效果，同時不要說所有觀眾必然哭。",
+        "examples": [
+          {
+            "en": "The short film is a tearjerker because the restored piano lets an older resident play a song from her childhood, though not everyone will cry.",
+            "zh": "這部短片很催淚，因為修好的鋼琴讓長者再彈起兒時歌曲；但不是每個人都會哭。"
+          },
+          {
+            "en": "Many may find it a tearjerker when she plays the familiar tune again; others might simply feel warm and hopeful.",
+            "zh": "她再次彈起熟悉的曲子時，很多人可能覺得催淚；其他人或只感到溫暖和希望。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the restored piano",
+            "zh": "修好的鋼琴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 57
+            }
+          },
+          {
+            "en": "a song from her childhood",
+            "zh": "兒時歌曲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 111
+            }
+          },
+          {
+            "en": "not everyone will cry",
+            "zh": "不是每個人都會哭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 141
+            }
+          },
+          {
+            "en": "the familiar tune",
+            "zh": "熟悉的曲子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "warm and hopeful",
+            "zh": "溫暖和希望",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The novel is a tearjerker because its reunion is built on years of separation.",
+          "zh": "小說催淚，因為重逢前有多年分離的鋪排。"
+        },
+        {
+          "en": "Calling a film a tearjerker does not mean every viewer reacts in the same way.",
+          "zh": "稱電影為催淚作品，不等於每位觀眾反應相同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 4
+    }
+  ]
+}

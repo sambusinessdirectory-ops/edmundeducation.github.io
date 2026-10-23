@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": {"decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl", "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "decisionCount": 60},
+  "counts": {"blocker": 0, "major": 0, "minor": 1, "sourceOrdinalsWithFindings": 1},
+  "findings": [
+    {"sourceOrdinal": 3093, "phrase": "inner compass", "severity": "minor", "path": "editorial-decisions-3072-3131.jsonl:sourceOrdinal=3093.reason", "explanation": "Canonical 1215 clearer compass already teaches a guiding principle or sense of direction for decisions. The new inner compass source may justify a separate owner because it describes internal values changing after parenthood rather than guidance becoming clearer, but the decision reason does not make that scope distinction. At scale, this risks reserving a near-duplicate compass lesson without a defined new learner outcome.", "recommendedFix": "Compare source 3093 explicitly with canonical 1215. State the separate learning decision—changing personal values or priorities versus clearer guidance—or hold the row if that distinction cannot support a distinct seven-step lesson."}
+  ],
+  "resolvedDuringAudit": [
+    {"sourceOrdinal": 3078, "resolution": "Moved to hold-editorial for space to breathe versus canonical 307 room to breathe: same creative-freedom sense, but the current owner detector does not match the space variant. This prevents a premature duplicate lesson or invalid alias."},
+    {"sourceOrdinal": 3114, "resolution": "Changed from proposed-new to alias-existing canonical advanced-native-058 go round in circles; the exact canonical ID and full-source regex match were verified after a temporary zero-padding typo was corrected."}
+  ],
+  "passedChecks": ["All 60 source IDs, phrase labels, guide sentences, categories and source meanings match the inventory.", "All 23 aliases to existing canonical lessons resolve and match the owner detector in the complete source sentence, with compatible taught senses; none points to retired 2120, 2266 or 2616.", "Alias-new 3095 resolves to proposed owner 2400 keep moving in the same continued-operation sense.", "Other held constructions preserve uncertainty rather than silently assigning unsupported owner scopes."],
+  "limits": ["This is AI peer review of provisional decisions, not human editorial approval or authorization to select or release lessons.", "No future lesson content, audio or device testing was performed."]
+}

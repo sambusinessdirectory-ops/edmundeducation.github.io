@@ -1,0 +1,65 @@
+{
+  "reviewType": "independent AI provisional lesson-content follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2308-2327-a.json",
+  "originalReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2308-2327-a.json",
+  "lessonIds": [
+    "advanced-native-2308",
+    "advanced-native-2310",
+    "advanced-native-2319",
+    "advanced-native-2327"
+  ],
+  "originalFindingCount": 4,
+  "counts": {
+    "resolved": 4,
+    "remainingBlocker": 0,
+    "remainingMajor": 0,
+    "remainingMinor": 0,
+    "newFindings": 0
+  },
+  "resolutions": [
+    {
+      "lessonId": "advanced-native-2308",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[d]; scene.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Listening and scene alternatives now test unrelated worries or separable reactions; the key connects pride and concern to the same opportunity."
+    },
+    {
+      "lessonId": "advanced-native-2310",
+      "originalSeverity": "minor",
+      "originalPath": "dialogue.options[b-c]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 2,
+      "evidence": "Dialogue alternatives now offer plausible unresolved review or pause approaches; the key addresses excessive duration with a final rule."
+    },
+    {
+      "lessonId": "advanced-native-2327",
+      "originalSeverity": "major",
+      "originalPath": "reply.options[a]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 4,
+      "evidence": "Reply A now proposes an emotional film through a farewell letter from a late father; all four replies answer the film-selection question."
+    },
+    {
+      "lessonId": "advanced-native-2327",
+      "originalSeverity": "minor",
+      "originalPath": "listening.options[a-b,d]",
+      "status": "resolved on independent AI follow-up",
+      "currentContentRevision": 4,
+      "evidence": "Listening key now accurately describes the moving family moment of hearing the father’s recording after repair. It avoids unsupported claims that he was late or that the sisters themselves were moved; closer family-centred foils are present."
+    }
+  ],
+  "remainingFindings": [],
+  "passedChecks": [
+    "Re-read affected prompts, alternatives, answer defensibility, English and Traditional Chinese alignment, and revised writing examples against the original findings.",
+    "Current files pass source target-pattern matching, two target-containing writing examples per lesson, exact answer-derived glossary spans excluding the target, and four reply options."
+  ],
+  "limits": [
+    "AI peer review only; human editorial adjudication and release/device/audio QA remain separate.",
+    "This follow-up closes the original findings in the current provisional files; subsequent edits require another check."
+  ]
+}

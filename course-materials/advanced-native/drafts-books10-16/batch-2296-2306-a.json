@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-selected-2296-2306-provisional-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2296",
+      "number": 2296,
+      "inventoryId": "expr-2296",
+      "titleEn": "speaks to them personally",
+      "titleZh": "令他們深有共鳴",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:speak|speaks|spoke|speaking) to (?:them|us|me|her|him|you|someone) personally\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feel directly relevant to particular people and their experiences.",
+        "meaningZh": "令某些人因自身經歷而感到作品與自己息息相關。",
+        "grammar": "a story speaks to them personally; it spoke to me personally.",
+        "register": "Figurative, often used of art, stories and public messages.",
+        "boundaryZh": "關鍵是與聽眾自身經歷產生聯繫，不只是作品很受歡迎或容易明白。",
+        "misconceptionZh": "不要把 speak 理解為作品會真的開口說話，也不要把普遍受歡迎等同個人共鳴。",
+        "outcomeZh": "能指出作品與哪一段自身經歷相呼應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0185",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The story speaks to them personally because it reflects their town.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "speaks to them personally"
+        }
+      ],
+      "listening": {
+        "en": "The short film follows a family rebuilding after a flood. For residents who went through the same thing, it speaks to them personally.",
+        "zh": "短片講述一個家庭在水災後重建生活。對有同樣經歷的居民而言，作品令他們深有共鳴。",
+        "promptZh": "為甚麼這部短片令部分居民深有共鳴？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its events resemble something they experienced themselves.",
+            "zh": "片中的經歷與他們親身遭遇的事相似。"
+          },
+          {
+            "id": "b",
+            "en": "Its special effects are more elaborate than other films.",
+            "zh": "它的特效比其他電影更精細。"
+          },
+          {
+            "id": "c",
+            "en": "Its tickets are discounted for local residents.",
+            "zh": "本地居民買票可享折扣。"
+          },
+          {
+            "id": "d",
+            "en": "Its plot is easy to follow even without knowing the town.",
+            "zh": "即使不認識該城鎮，劇情也容易理解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民曾經歷相似的水災與重建，因此作品與他們自身生活產生聯繫。"
+      },
+      "reply": {
+        "promptEn": "Why did the exhibition matter so much to former factory workers?",
+        "promptZh": "（這個展覽為何對昔日工廠工人特別重要？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It displays photographs of the machines they once used.",
+            "zh": "它展出他們曾使用的機器照片。"
+          },
+          {
+            "id": "b",
+            "en": "It helps visitors understand the work they did every day.",
+            "zh": "它幫助參觀者了解他們昔日每天的工作。"
+          },
+          {
+            "id": "c",
+            "en": "It speaks to them personally because it reflects their own working lives.",
+            "zh": "它呈現他們親身的工作經歷，因此令他們深有共鳴。"
+          },
+          {
+            "id": "d",
+            "en": "It brings back memories of colleagues they knew.",
+            "zh": "它喚起他們對昔日同事的回憶。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能回答展覽與工人的關係；金句點出作品與其親身經歷的共鳴。"
+      },
+      "scene": {
+        "promptZh": "一首歌描寫離鄉求學。有相同經歷的畢業生聽後想起自己的旅程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The song speaks to them personally because they have lived through that move.",
+            "zh": "這首歌令他們深有共鳴，因為他們也曾經歷離鄉。"
+          },
+          {
+            "id": "b",
+            "en": "The song is popular mainly because its chorus is short.",
+            "zh": "這首歌受歡迎主要因為副歌簡短。"
+          },
+          {
+            "id": "c",
+            "en": "The song teaches them details about a place they have never visited.",
+            "zh": "這首歌教他們認識一個從未去過的地方。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "畢業生將歌中離鄉經歷與自己的旅程連起來，屬個人共鳴。"
+      },
+      "contrast": {
+        "promptZh": "以下哪個情況最不適合說作品 speaks to them personally？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A play about caring for a parent reminds carers of their own routines.",
+            "zh": "照顧父母的戲劇令照顧者想起自己的日常。"
+          },
+          {
+            "id": "b",
+            "en": "A visually impressive advert attracts viewers who have no connection to its story.",
+            "zh": "廣告畫面亮眼，吸引了一批與其故事毫無關聯的觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "A photo essay about migration reflects experiences shared by several visitors.",
+            "zh": "移民攝影作品反映了幾位參觀者的親身經歷。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "視覺吸引力可使廣告受歡迎，但題述並沒有與觀眾自身經驗的聯繫。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「那部劇講一個人初次搬到陌生城市，令我想起自己第一次搬到陌生城市的日子。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It speaks to you personally because the character faces a move like yours.",
+            "zh": "它令你深有共鳴，因為角色與你一樣曾搬到陌生地方。"
+          },
+          {
+            "id": "b",
+            "en": "Perhaps the city scenery, rather than the character’s adjustment, brought back those memories.",
+            "zh": "或許令你想起往事的是城市景象，而不是角色適應新環境的過程。"
+          },
+          {
+            "id": "c",
+            "en": "It probably explains the city’s history better than a guidebook.",
+            "zh": "它講解這座城市的歷史，可能比旅遊書更詳盡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "劇中角色與朋友都曾初次搬到陌生城市；金句直接指出相同經歷帶來的個人共鳴。"
+      },
+      "speaking": {
+        "en": "The exhibition speaks to them personally because it shows the market where their parents worked.",
+        "zh": "展覽呈現他們父母曾工作的街市，因此令他們深有共鳴。",
+        "promptZh": "先聽示範，再說明哪段家庭經歷令觀眾有共鳴。",
+        "targetSpan": {
+          "start": 15,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團製作一齣關於舊街市關閉的戲；你的幾位鄰居曾在那裏經營攤檔。用一至兩句英文說明為何這齣戲令他們有個人共鳴。",
+        "selfCheckZh": "寫出戲劇及鄰居在舊街市的具體經歷，說清兩者的聯繫；不能只說它很受歡迎。",
+        "examples": [
+          {
+            "en": "The play speaks to them personally because it shows the stalls where they spent years serving customers.",
+            "zh": "這齣戲呈現他們多年來招待顧客的攤檔，因此令他們深有共鳴。"
+          },
+          {
+            "en": "By recreating the old market, the play speaks to them personally and recalls the stallholders who worked beside them.",
+            "zh": "這齣戲重現舊街市，令他們深有共鳴，也喚起他們對曾在鄰近攤檔工作的檔主的回憶。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the stalls",
+            "zh": "那些攤檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 62
+            }
+          },
+          {
+            "en": "serving customers",
+            "zh": "招待顧客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 103
+            }
+          },
+          {
+            "en": "recreating the old market",
+            "zh": "重現舊街市",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 28
+            }
+          },
+          {
+            "en": "the stallholders",
+            "zh": "那些檔主",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 93
+            }
+          },
+          {
+            "en": "worked beside them",
+            "zh": "在他們旁邊工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The novel speaks to them personally because its school scenes mirror their childhood.",
+          "zh": "小說中的校園場景與他們的童年相似，因此令他們深有共鳴。"
+        },
+        {
+          "en": "A familiar detail can help a story speak to someone personally.",
+          "zh": "熟悉的細節能令故事與個別讀者產生共鳴。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2297",
+      "number": 2297,
+      "inventoryId": "expr-2297",
+      "titleEn": "every bit as compelling",
+      "titleZh": "同樣引人入勝",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bevery bit as compelling\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Just as engaging or persuasive as the person or thing being compared with.",
+        "meaningZh": "與比較對象同樣能吸引人或說服人，毫不遜色。",
+        "grammar": "every bit as compelling as the first film.",
+        "register": "Emphatic but natural comparison, especially in reviews and evaluations.",
+        "boundaryZh": "須有清楚的比較對象；不是說第二個作品更吸引人，也不是只表示兩者題材相同。",
+        "misconceptionZh": "不要漏掉 as 後的比較對象；compelling 指吸引力，不必表示內容完全一致。",
+        "outcomeZh": "能評價兩個作品雖形式不同，吸引力卻同樣強。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0186",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her second lecture was every bit as compelling as the first.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "every bit as compelling"
+        }
+      ],
+      "listening": {
+        "en": "The first podcast episode used interviews, while the second used recorded diaries. The second was every bit as compelling as the first.",
+        "zh": "播客第一集用訪問，第二集用錄製的日記。第二集與第一集同樣引人入勝。",
+        "promptZh": "說話者如何評價第二集？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It held attention as strongly as the first despite a different format.",
+            "zh": "雖然形式不同，它與第一集一樣吸引人。"
+          },
+          {
+            "id": "b",
+            "en": "It copied the first episode’s format exactly.",
+            "zh": "它完全照搬第一集的形式。"
+          },
+          {
+            "id": "c",
+            "en": "It was engaging only because the first episode was weak.",
+            "zh": "它有吸引力，只因第一集表現差。"
+          },
+          {
+            "id": "d",
+            "en": "It was shorter, though its appeal was not compared.",
+            "zh": "它比較短，但吸引力並未作比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "every bit as compelling 表示兩集雖採用不同形式，吸引力同樣強。"
+      },
+      "reply": {
+        "promptEn": "Is the follow-up exhibition worth visiting after the excellent first one?",
+        "promptZh": "（首個展覽很出色，後續展覽還值得看嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, its new photographs offer another perspective.",
+            "zh": "值得，新照片提供了另一個角度。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the stories behind the objects held my attention.",
+            "zh": "值得，展品背後的故事令我投入。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, its smaller displays are carefully chosen.",
+            "zh": "值得，規模較小的展品也經過細心挑選。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, it is every bit as compelling as the first exhibition.",
+            "zh": "值得，它與首個展覽同樣引人入勝。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都合理說明後續展覽值得參觀；金句明確比較兩個展覽的吸引力。"
+      },
+      "scene": {
+        "promptZh": "兩場講座分別用照片和親身訪問解說同一議題，觀眾對兩場都聽得十分投入。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The second lecture was every bit as compelling as the first.",
+            "zh": "第二場講座與第一場同樣引人入勝。"
+          },
+          {
+            "id": "b",
+            "en": "The two lectures covered the same issue, but the second engaged listeners less.",
+            "zh": "兩場講座談同一議題，但第二場較難令聽眾投入。"
+          },
+          {
+            "id": "c",
+            "en": "The second used a different format, so its appeal cannot be compared with the first.",
+            "zh": "第二場形式不同，所以無法比較兩者的吸引力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "觀眾對兩場都十分投入，即使使用不同材料，第二場仍可說與第一場同樣引人入勝。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說續作 every bit as compelling as the first？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It uses different characters but keeps readers equally absorbed.",
+            "zh": "人物不同，但讀者同樣投入。"
+          },
+          {
+            "id": "b",
+            "en": "Reviewers find it much less engaging than the first.",
+            "zh": "評論者覺得它遠不及第一部吸引。"
+          },
+          {
+            "id": "c",
+            "en": "Its quieter plot still holds viewers’ attention just as strongly.",
+            "zh": "情節較平靜，但同樣抓住觀眾注意。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "明顯較不吸引便不能說「同樣引人入勝」；其餘兩項有相等吸引力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「第二本書沒有第一本那麼多驚險場面，但我還是讀到停不下來。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds every bit as compelling as the first, even with a quieter plot.",
+            "zh": "雖然情節較平靜，看來它與第一本同樣引人入勝。"
+          },
+          {
+            "id": "b",
+            "en": "The quieter plot may have a different appeal, though that alone would not show it held you as strongly.",
+            "zh": "較平靜的情節或有另一種吸引力，但單憑這點不能說它同樣抓住你。"
+          },
+          {
+            "id": "c",
+            "en": "You may enjoy its quieter style without finding it quite as absorbing as the first.",
+            "zh": "你或許喜歡它較平靜的風格，但未必覺得它與第一本同樣令人投入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友雖說第二本較少驚險場面，卻讀到停不下來；金句比較的是投入程度，而非動作場面多少。"
+      },
+      "speaking": {
+        "en": "The new exhibition was every bit as compelling as last year’s, although it focused on different artists.",
+        "zh": "新展覽雖以不同藝術家為主題，但與去年的展覽同樣引人入勝。",
+        "promptZh": "先聽示範，再說明新舊展覽的比較。",
+        "targetSpan": {
+          "start": 23,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校先後舉辦兩場科學演示。第二場改用學生實驗，但觀眾與看第一場時一樣投入。用一至兩句英文比較兩場演示。",
+        "selfCheckZh": "指出兩場演示的形式差別，以及觀眾同樣投入；比較對象須寫清楚。",
+        "examples": [
+          {
+            "en": "The student experiments made the second demonstration every bit as compelling as the first for our audience.",
+            "zh": "學生實驗令第二場演示對觀眾而言與第一場同樣引人入勝。"
+          },
+          {
+            "en": "Although it relied on student experiments rather than a teacher’s talk, the second demonstration was every bit as compelling as the first.",
+            "zh": "第二場演示雖採用學生實驗，而不是教師講解，卻與第一場同樣引人入勝。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "student experiments",
+            "zh": "學生實驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 23
+            }
+          },
+          {
+            "en": "the second demonstration",
+            "zh": "第二場演示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 53
+            }
+          },
+          {
+            "en": "our audience",
+            "zh": "我們的觀眾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 107
+            }
+          },
+          {
+            "en": "a teacher’s talk",
+            "zh": "教師講解",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 70
+            }
+          },
+          {
+            "en": "the first",
+            "zh": "第一場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The radio drama was every bit as compelling as its stage version.",
+          "zh": "這部廣播劇與舞台版本同樣引人入勝。"
+        },
+        {
+          "en": "A small cast can still make a sequel every bit as compelling.",
+          "zh": "即使演員陣容較小，續作仍可同樣引人入勝。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2298",
+      "number": 2298,
+      "inventoryId": "expr-2298",
+      "titleEn": "gripping real-life story",
+      "titleZh": "扣人心弦的真實故事",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgripping real-life stor(?:y|ies)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A true account that strongly holds the audience’s attention.",
+        "meaningZh": "以真實事件為基礎，而且情節或敘述十分吸引人的故事。",
+        "grammar": "a gripping real-life story about rescue; gripping real-life stories.",
+        "register": "Natural descriptive phrase for books, films and spoken accounts.",
+        "boundaryZh": "real-life 指真實經歷，gripping 指抓住注意力；不能只因寫得刺激便把虛構作品稱為真實故事。",
+        "misconceptionZh": "不要把 gripping 誤解為真的抓住人，也不要略過真實性要求。",
+        "outcomeZh": "能交代真實事件及其使聽眾投入的原因。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0187",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 17,
+          "book": 10,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 14, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The documentary tells a gripping real-life story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gripping real-life story"
+        }
+      ],
+      "listening": {
+        "en": "The film follows the actual rescue of hikers trapped by a sudden storm. Their difficult choices make it a gripping real-life story.",
+        "zh": "電影講述登山客突遇暴風雨而被困後的真實救援。當中的艱難抉擇使它成為扣人心弦的真實故事。",
+        "promptZh": "為甚麼這部電影可這樣形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It recounts a true rescue and keeps viewers engaged through difficult decisions.",
+            "zh": "它講述真實救援，艱難抉擇使觀眾投入。"
+          },
+          {
+            "id": "b",
+            "en": "It imagines a rescue but clearly presents it as fiction.",
+            "zh": "它虛構了一次救援，並清楚表明是小說。"
+          },
+          {
+            "id": "c",
+            "en": "It records a true event but gives almost no account of what happened.",
+            "zh": "它記錄真事，卻幾乎不交代事情經過。"
+          },
+          {
+            "id": "d",
+            "en": "It focuses on explaining weather charts rather than the hikers’ experience.",
+            "zh": "它主要解說天氣圖，而非登山客的經歷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真實救援與引人投入的艱難抉擇，分別對應 real-life 和 gripping。"
+      },
+      "reply": {
+        "promptEn": "What kind of book would you recommend for the community reading group?",
+        "promptZh": "（你會向社區讀書會推薦哪一種書？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A gripping real-life story about a nurse helping her town after the flood.",
+            "zh": "一本講述水災後護士幫助居民的扣人心弦真實故事。"
+          },
+          {
+            "id": "b",
+            "en": "An interview collection about local food traditions.",
+            "zh": "一本介紹本地飲食傳統的訪問集。"
+          },
+          {
+            "id": "c",
+            "en": "A short history of the neighbourhood, with old photographs.",
+            "zh": "一本附有舊照片的社區簡史。"
+          },
+          {
+            "id": "d",
+            "en": "A memoir by someone who grew up near the harbour.",
+            "zh": "一本在港口附近長大的人寫的回憶錄。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四種書都適合讀書會；金句同時指出真實性與令人投入的敘事。"
+      },
+      "scene": {
+        "promptZh": "記者根據訪問重構一宗真實的海上救援，敘述讓讀者急於知道每一步結果。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a gripping real-life story about the rescue.",
+            "zh": "這是一個關於救援、扣人心弦的真實故事。"
+          },
+          {
+            "id": "b",
+            "en": "It is a fictional account inspired only by rumours.",
+            "zh": "這是僅從傳聞得到靈感的虛構故事。"
+          },
+          {
+            "id": "c",
+            "en": "It is mainly a list of dates with little narrative detail.",
+            "zh": "它主要是日期列表，少有敘事細節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真實海上救援、採訪與引人追讀的敘述同時滿足兩個關鍵特點。"
+      },
+      "contrast": {
+        "promptZh": "哪部作品最不適合稱為 a gripping real-life story？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An engaging memoir about rebuilding a shop after a fire.",
+            "zh": "一本引人投入、講述火災後重建店舖的回憶錄。"
+          },
+          {
+            "id": "b",
+            "en": "A fast-paced novel about an invented island and invented characters.",
+            "zh": "一本節奏明快、以虛構島嶼及人物為題的小說。"
+          },
+          {
+            "id": "c",
+            "en": "A documentary following the tense search for missing hikers.",
+            "zh": "一部記錄緊張搜救失蹤登山客的紀錄片。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "小說可扣人心弦，但明確虛構的人物和地點不屬 real-life story。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這本書記錄消防員親身參與的一次救援，我一直想知道他們如何脫困。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds like a gripping real-life story, especially because they describe the rescue themselves.",
+            "zh": "聽來是個扣人心弦的真實故事，尤其消防員親自講述救援。"
+          },
+          {
+            "id": "b",
+            "en": "The details may be useful, though it could read more like a manual than a story.",
+            "zh": "細節可能實用，但它讀起來或許更像手冊，而非故事。"
+          },
+          {
+            "id": "c",
+            "en": "The tension alone would not tell us whether an account was true.",
+            "zh": "單靠緊張的情節，不能判斷故事是否真實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "消防員親述確立真實性，而朋友的投入顯示故事扣人心弦。"
+      },
+      "speaking": {
+        "en": "The volunteers’ account of the mountain rescue is a gripping real-life story, not an invented adventure.",
+        "zh": "義工講述的山區救援是個扣人心弦的真實故事，並非虛構冒險。",
+        "promptZh": "先聽示範，再說明故事哪裏真實、哪裏吸引。",
+        "targetSpan": {
+          "start": 52,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區書展將展示一位港口工人親筆記錄的真實颱風夜；他幫助船員安全返回岸上，過程緊張。用一至兩句英文向讀者介紹這份記錄。",
+        "selfCheckZh": "須指出工人親身記錄的真實事件、幫助船員返岸及其緊張之處；不可把它寫成虛構故事。",
+        "examples": [
+          {
+            "en": "The harbour worker’s diary tells a gripping real-life story of guiding sailors safely ashore during a typhoon.",
+            "zh": "這名港口工人的日記講述了一個扣人心弦的真實故事：颱風期間引導船員安全上岸。"
+          },
+          {
+            "en": "His first-hand account of helping sailors return to shore on a stormy night is a gripping real-life story.",
+            "zh": "他親述暴風雨夜協助船員返岸的經歷，是個扣人心弦的真實故事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "harbour worker’s diary",
+            "zh": "港口工人的日記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 26
+            }
+          },
+          {
+            "en": "guiding sailors",
+            "zh": "引導船員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 78
+            }
+          },
+          {
+            "en": "safely ashore",
+            "zh": "安全上岸",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 92
+            }
+          },
+          {
+            "en": "first-hand account",
+            "zh": "第一手記錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "stormy night",
+            "zh": "暴風雨之夜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 75
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The documentary tells a gripping real-life story about a neighbourhood rescue.",
+          "zh": "紀錄片講述一次社區救援，是個扣人心弦的真實故事。"
+        },
+        {
+          "en": "A gripping real-life story needs both a factual basis and a way to hold attention.",
+          "zh": "扣人心弦的真實故事既要有事實基礎，也要能抓住注意力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2306",
+      "number": 2306,
+      "inventoryId": "expr-2306",
+      "titleEn": "a soundtrack",
+      "titleZh": "一段經歷的代表配樂",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) soundtrack\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Music strongly associated with an experience, period or group, beyond a film’s literal soundtrack.",
+        "meaningZh": "某首或某組音樂與一段生活經歷、時期或群體緊密相連，彷彿為其配樂。",
+        "grammar": "became a soundtrack for their summer; the soundtrack to a campaign.",
+        "register": "Figurative extension of film terminology; name the experience the music represents.",
+        "boundaryZh": "這裏不單指電影真正的配樂，須交代音樂與某段經歷的象徵性連繫。",
+        "misconceptionZh": "不要把播放過一次的歌曲自動稱為整段經歷的 soundtrack，也不要與電影配樂清單混淆。",
+        "outcomeZh": "能說明一首歌為何代表某群人的共同回憶。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0195",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One anthem became a soundtrack for the celebration.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a soundtrack"
+        }
+      ],
+      "listening": {
+        "en": "For months, the same song played at every rehearsal and on the bus home. It became a soundtrack to the dancers’ final year together.",
+        "zh": "幾個月來，同一首歌在每次排練和回程車上響起，成了舞者們共度最後一年的代表配樂。",
+        "promptZh": "這首歌在此有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It came to represent a shared period in the dancers’ lives.",
+            "zh": "它逐漸代表舞者共同度過的一段日子。"
+          },
+          {
+            "id": "b",
+            "en": "It repeatedly set the pace for one demanding routine but did not mark the group’s whole year.",
+            "zh": "它反覆為一段高難度舞步定節奏，卻沒有代表團隊整年。"
+          },
+          {
+            "id": "c",
+            "en": "It was chosen as the official track for the final show without shaping their shared memories.",
+            "zh": "它獲選為最後演出的官方歌曲，卻沒有融入大家的共同回憶。"
+          },
+          {
+            "id": "d",
+            "en": "The dancers liked its rhythm in rehearsals but never associated it with the journeys home.",
+            "zh": "舞者喜歡它的排練節奏，卻從未把它與回家路程連在一起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "歌曲反覆伴隨排練和回家路程，已代表舞者共度的一年，而不只是為一段舞步定拍或被指定為演出歌曲。"
+      },
+      "reply": {
+        "promptEn": "Why do the volunteers still play that song at their reunions?",
+        "promptZh": "（義工重聚時為何仍會播放那首歌？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminds them of the long evenings they worked together.",
+            "zh": "它令他們想起一起工作的漫長夜晚。"
+          },
+          {
+            "id": "b",
+            "en": "It was the music they heard on every journey to the shelter.",
+            "zh": "每次前往收容所的路上，他們都會聽到它。"
+          },
+          {
+            "id": "c",
+            "en": "It brings back memories of the people they helped.",
+            "zh": "它喚起他們對受助者的回憶。"
+          },
+          {
+            "id": "d",
+            "en": "It became a soundtrack to their months of work at the shelter.",
+            "zh": "它成了他們在收容所工作幾個月的代表配樂。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四句都說明歌曲與義工經歷的連繫；金句用 a soundtrack 概括共同回憶。"
+      },
+      "scene": {
+        "promptZh": "同一首歌陪伴運動員每次晨練，也在他們奪冠後響起。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It became a soundtrack to their season of training and victory.",
+            "zh": "它成為這個訓練及奪冠賽季的代表配樂。"
+          },
+          {
+            "id": "b",
+            "en": "It served as the team’s official victory song, with little link to the earlier training.",
+            "zh": "它是隊伍的官方勝利歌曲，與之前的訓練沒有太大關聯。"
+          },
+          {
+            "id": "c",
+            "en": "It helped set the morning pace, but the athletes attached no memory to it after the season.",
+            "zh": "它協助晨練定節奏，但賽季過後運動員對它沒有特別回憶。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一首歌陪伴每天晨練，也在奪冠後響起，因此象徵整個訓練與勝利的賽季。"
+      },
+      "contrast": {
+        "promptZh": "按本課的比喻意思，哪個情況最不適合把一首歌稱為 a soundtrack to their journey？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Friends heard it throughout their cross-country trip and still associate it with the road.",
+            "zh": "朋友在長途旅程中常聽到它，現在仍會想起沿途風景。"
+          },
+          {
+            "id": "b",
+            "en": "A café played an unfamiliar song once while they waited briefly for a bus.",
+            "zh": "他們短暫等巴士時，咖啡店偶然播放了一首陌生歌。"
+          },
+          {
+            "id": "c",
+            "en": "The same chorus marked every rehearsal in the group’s first year.",
+            "zh": "團隊第一年每次排練都有同一段副歌相伴。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "偶然聽到一次，沒有形成持續而具代表性的回憶連繫。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們籌辦社區節慶時，每天收工都放那首歌，現在一聽就想起整個過程。」哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds like a soundtrack to that project, not merely a song you happened to hear.",
+            "zh": "它聽來成了那項計劃的代表配樂，不只是你偶然聽到的歌。"
+          },
+          {
+            "id": "b",
+            "en": "It must have been written as the official score for a film about the project.",
+            "zh": "它一定是為一部關於計劃的電影正式創作的配樂。"
+          },
+          {
+            "id": "c",
+            "en": "You probably remember it because the festival lasted only one afternoon.",
+            "zh": "你大概記得這首歌，只因節慶只辦了一個下午。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每日收工都播放，歌曲已象徵整個籌辦過程，而非電影真正配樂。"
+      },
+      "speaking": {
+        "en": "That old song became a soundtrack to our summer at the youth centre because we played it every evening.",
+        "zh": "我們每晚在青年中心播放那首舊歌，它因而成了那個夏天的代表配樂。",
+        "promptZh": "先聽示範，再說出音樂與哪段共同經歷相連。",
+        "targetSpan": {
+          "start": 21,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：讀書小組準備期末展覽的整個月，都在收拾資料時播放同一首爵士樂。用一至兩句英文解釋為何大家後來一聽就想起那個月。",
+        "selfCheckZh": "寫出反覆播放的爵士樂、籌備展覽的月份和它帶來的共同回憶；須用比喻而非指電影真正配樂。",
+        "examples": [
+          {
+            "en": "The jazz tune became a soundtrack to our month of preparing the exhibition because we played it while sorting materials every evening.",
+            "zh": "那首爵士樂成了我們籌備展覽那個月的代表配樂，因為我們每晚整理資料時都播放它。"
+          },
+          {
+            "en": "Whenever we hear the tune, we remember sorting exhibits together; it was a soundtrack to that busy month.",
+            "zh": "每次聽到那首曲子，我們都想起一起整理展品的日子；它是那個忙碌月份的代表配樂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "jazz tune",
+            "zh": "爵士樂曲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 13
+            }
+          },
+          {
+            "en": "preparing the exhibition",
+            "zh": "籌備展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 74
+            }
+          },
+          {
+            "en": "sorting materials",
+            "zh": "整理資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 119
+            }
+          },
+          {
+            "en": "sorting exhibits",
+            "zh": "整理展品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 55
+            }
+          },
+          {
+            "en": "that busy month",
+            "zh": "那個忙碌的月份",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One song became a soundtrack to the team’s long train journeys.",
+          "zh": "一首歌成了團隊長途火車旅程的代表配樂。"
+        },
+        {
+          "en": "For us, the melody is a soundtrack to our first year at university.",
+          "zh": "對我們而言，那段旋律是大學第一年的代表配樂。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

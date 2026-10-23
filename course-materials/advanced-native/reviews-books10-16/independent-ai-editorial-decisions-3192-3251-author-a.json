@@ -1,0 +1,66 @@
+{
+  "reviewType": "independent AI provisional editorial-decision cross-review",
+  "reviewer": "author_batch_a (independent of author B decision drafting)",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "reviewedAtUtc": "2026-10-23T09:20:13+00:00",
+  "scope": {
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorCanonical": "course-materials/advanced-native/batches/*.json",
+    "provisionalDrafts": "course-materials/advanced-native/drafts-books10-16/*.json",
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+    "decisionCount": 60,
+    "reviewedSha256": "8812d7541d4cbc77c8d1a96b2a1acaf77f02875ab970dd1b8aec2a46aa3ac87c"
+  },
+  "findings": [],
+  "clearForProvisionalSelection": true,
+  "limits": [
+    "AI cross-review of provisional editorial decisions only; human editorial approval and release review remain pending.",
+    "Undrafted alias-new owners cannot yet receive final target-regex validation; source/sense/owner links were checked against their proposed owner rows."
+  ],
+  "verifiedChecks": {
+    "sourceRows": 60,
+    "existingAliasFullSentenceRegex": 28,
+    "baselineAliasProvenanceChecked": 1,
+    "aliasNewSameSourceSenseAndOwner": 3,
+    "exactSourceOrOrdinalMismatches": 0,
+    "unresolvedSameSensePriorOwners": 0
+  },
+  "resolvedCollisionChecks": [
+    {
+      "sourceOrdinal": 3198,
+      "priorOwner": "advanced-native-562",
+      "finding": "Prior at-heart regex matches a substring of the complete best-interests-at-heart source sentence. Canonical 562 teaches inner nature; new 3198 teaches sincere concern for someone’s welfare. Decision reason now requires the full construction and sense before ownership, not substring matching."
+    },
+    {
+      "sourceOrdinal": 3202,
+      "priorOwner": "advanced-native-115",
+      "finding": "On the same wavelength describes a state, while the prior owner detects getting on that wavelength; the row remains held pending owner-scope review rather than being forced into an alias."
+    },
+    {
+      "sourceOrdinal": 3251,
+      "priorOwner": "advanced-native-009",
+      "finding": "Baseline stepping-stone ownership is supported by the prior provenance/source-label records and the same progress-toward-goal sense. The preserved baseline lesson is outside the batch files, so this pass did not directly run its target regex."
+    }
+  ],
+  "forwardChecks": [
+    "Before release, verify baseline owner 009’s detector on the complete 3251 guide sentence; its provenance and meaning match are established here.",
+    "When drafting 3198, require someone’s best interests at heart as a complete construction and keep it distinct from canonical 562 at heart.",
+    "For 3211 keep my word, author a reusable possessive detector (my/your/his/her/our/their word) without reducing the taught promise-keeping sense.",
+    "For held 3202, decide whether prior 115 should be broadened or a separate state owner justified before selection."
+  ],
+  "passedChecks": [
+    "All 60 source IDs, exact marked expressions, complete guide sentences, and ordinal-to-source mappings agree with the source inventory.",
+    "All 28 batch-backed existing aliases match their prior owner regex on the complete source sentence with compatible taught sense; baseline 009 was checked through provenance.",
+    "All three alias-new rows point to matching provisional owner decisions with the same guide example and meaning.",
+    "All 14 holds have null canonical IDs and source-specific reasons; all 14 new owner IDs equal their source ordinals.",
+    "No additional same-sense prior canonical owner was found among the proposed-new targets."
+  ],
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0,
+    "sourceOrdinalsWithFindings": 0
+  }
+}

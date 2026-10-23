@@ -43,9 +43,15 @@ export function auditNewOwners({decisions,sources,lessons,legacyTargetPatterns={
   records:collisions};
 }
 
-export function runAudit(){
+export function runAudit(args=process.argv.slice(2)){
+ if(args.some(arg=>arg!=='--all-discovered'))throw new Error('Usage: audit-new-owner-collisions.mjs [--all-discovered]');
+ const allDiscovered=args.includes('--all-discovered');
  const decisionManifest=readJson(path.join(sourceDir,'editorial-decision-manifest.json'));
- const decisions=decisionManifest.decisionFiles.flatMap(name=>readJsonl(path.join(sourceDir,name)));
+ const decisionFiles=allDiscovered
+  ? fs.readdirSync(sourceDir).filter(name=>/^editorial-decisions-\d+-\d+\.jsonl$/.test(name))
+   .sort((a,b)=>Number(a.match(/\d+/)[0])-Number(b.match(/\d+/)[0]))
+  : decisionManifest.decisionFiles;
+ const decisions=decisionFiles.flatMap(name=>readJsonl(path.join(sourceDir,name)));
  const sources=readJsonl(path.join(sourceDir,'source-inventory.jsonl'));
  const release=readJson(path.join(base,'release-index.json'));
  const lessons=release.canonicalInputFiles.flatMap(name=>{
@@ -56,7 +62,9 @@ export function runAudit(){
   const id=`advanced-native-${String(index+1).padStart(3,'0')}`;
   return [id,legacyTargets[id]];
  }));
- return auditNewOwners({decisions,sources,lessons,legacyTargetPatterns:patterns});
+ return {scope:allDiscovered?'all-discovered-provisional':'selected-manifest',
+  decisionFiles:decisionFiles.length,decisionRows:decisions.length,
+  ...auditNewOwners({decisions,sources,lessons,legacyTargetPatterns:patterns})};
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){

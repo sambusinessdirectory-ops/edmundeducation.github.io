@@ -1,0 +1,17 @@
+{
+  "reviewType": "independent AI provisional lesson-content review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "course-materials/advanced-native/drafts-books10-16/batch-2308-2327-a.json",
+  "lessonIds": ["advanced-native-2308", "advanced-native-2310", "advanced-native-2319", "advanced-native-2327"],
+  "counts": {"blocker": 0, "major": 1, "minor": 3},
+  "findings": [
+    {"lessonId": "advanced-native-2308", "severity": "minor", "path": "listening.options[d]; scene.options[b-c]", "explanation": "The invitation is already known and the captain's pride and worry are explicit, so these alternatives merely negate the prompt. They do not test whether two reactions concern the same decision.", "recommendedFix": "Replace with plausible partial interpretations, for example excitement about travel plus an unrelated worry, or pride and concern attached to two different decisions; retain one unambiguous mixed-feelings key."},
+    {"lessonId": "advanced-native-2310", "severity": "minor", "path": "dialogue.options[b-c]", "explanation": "Claiming repeated rework cannot affect other work and recommending more undecided rounds are implausible after the colleague says work has stopped. The dialogue tests common sense rather than unwanted duration and a proportionate next step.", "recommendedFix": "Offer credible but less apt replies, such as another short review of the disputed item without a decision deadline, or a pause that leaves the list unresolved; distinguish them from the keyed final-rule proposal in the explanation."},
+    {"lessonId": "advanced-native-2327", "severity": "major", "path": "reply.options[a]", "explanation": "The prompt asks for an emotional story, but a family merely finding an old letter is not independently enough to make the book or film emotionally moving. The SOP requires all four reply choices to be valid without unstated extra facts.", "recommendedFix": "Specify an emotionally meaningful letter in A, such as one from a late relative, while preserving exactly one target-bearing golden reply."},
+    {"lessonId": "advanced-native-2327", "severity": "minor", "path": "listening.options[a-b,d]", "explanation": "'Its reunion with a loved one's voice' is an unnatural English description of hearing the late father's recording. The other foils shift to a radio-repair manual or technical features, which are distant from a clearly family-centred film.", "recommendedFix": "Write the key as hearing their father's voice again being moving, and replace at least one technical foil with a plausible emotional near miss that does not erase the family story; align the Chinese translation."}
+  ],
+  "passedChecks": ["All four source sentences, categories, target senses, target regexes, speaking spans and answer-derived glossary spans pass the mechanical/source checks.", "Lesson 2319 preserves the difference between sounding authentic and being independently proved; the selected scene, contrast and dialogue answers remain defensible on this pass.", "The changed-context writing examples each use the taught target with aligned Traditional Chinese support."],
+  "limits": ["AI peer review only; a human editor must still adjudicate naturalness and release readiness.", "No audio playback, browser layout, or device verification was performed."]
+}
