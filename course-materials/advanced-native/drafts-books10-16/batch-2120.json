@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-wear-thin-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2120",
+      "number": 2120,
+      "inventoryId": "expr-2120",
+      "titleEn": "wear thin",
+      "titleZh": "愈來愈難令人接受",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:wear|wears|wearing|wore|worn) thin\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become less convincing or acceptable after repeated use, especially of excuses or explanations.",
+        "meaningZh": "藉口或解釋重複使用後，愈來愈難令人信服或接受。",
+        "grammar": "excuses wear thin; an explanation is wearing thin; wore thin/worn thin.",
+        "register": "Natural neutral-to-informal figurative use; often marks a listener becoming less patient or persuaded.",
+        "boundaryZh": "本課重點是重複的藉口逐漸失去說服力；一次合理解釋或真正磨薄的布料並非同一意思。",
+        "misconceptionZh": "不要把它理解為藉口在物理上變薄，也不要自動斷言說話者一定在撒謊。",
+        "outcomeZh": "能指出反覆解釋何時開始失去說服力，並提出合理的跟進方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0009",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "His excuses began to wear thin by the third week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "wear thin"
+        }
+      ],
+      "listening": {
+        "en": "After the third late delivery, the supplier's excuses were wearing thin, so we asked for the tracking records.",
+        "zh": "第三次延遲送貨後，供應商的藉口愈來愈難令人接受，所以我們要求查看追蹤紀錄。",
+        "promptZh": "買方為甚麼要求查看追蹤紀錄？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated explanations were becoming less convincing.",
+            "zh": "反覆的解釋愈來愈難令人信服。"
+          },
+          {
+            "id": "b",
+            "en": "The delivery boxes had become physically thinner.",
+            "zh": "送貨紙箱在物理上變薄了。"
+          },
+          {
+            "id": "c",
+            "en": "The third delivery arrived earlier than promised.",
+            "zh": "第三次送貨比承諾的時間更早。"
+          },
+          {
+            "id": "d",
+            "en": "The supplier had already supplied complete tracking proof.",
+            "zh": "供應商已經提供完整的追蹤證據。"
+          }
+        ],
+        "explanationZh": "第三次遲送使同類藉口逐漸失去說服力；買方因此要求可核實的紀錄。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：你為甚麼要求活動團隊提供書面時間表？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their updates have changed several times, and we need a firm date.",
+            "zh": "他們的更新已改動數次，我們需要確定日期。"
+          },
+          {
+            "id": "b",
+            "en": "Their explanations are wearing thin, so a written schedule would help.",
+            "zh": "他們的解釋愈來愈難令人信服，所以書面時間表會有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "I want everyone to know when to prepare.",
+            "zh": "我想讓大家知道何時準備。"
+          },
+          {
+            "id": "d",
+            "en": "We cannot plan transport without a reliable start time.",
+            "zh": "沒有可靠的開始時間，我們就無法安排交通。"
+          }
+        ],
+        "explanationZh": "四個回應都能合理回答問題；金句指出重複解釋已失去說服力，並要求書面安排。",
+        "goldenId": "b",
+        "promptEn": "Why did you ask the event team for a written schedule?"
+      },
+      "scene": {
+        "promptZh": "一間商店連續三週以同一個含糊理由推遲退款，卻仍未提供證明。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shop's excuses are wearing thin after three delays.",
+            "zh": "三次延誤後，商店的藉口愈來愈難令人接受。"
+          },
+          {
+            "id": "b",
+            "en": "The shop gave one clear explanation and paid the refund immediately.",
+            "zh": "商店作出一次清楚解釋，並立即退款。"
+          },
+          {
+            "id": "c",
+            "en": "The shop has a long but fully documented refund process.",
+            "zh": "商店的退款程序雖長，但每一步都有完整紀錄。"
+          }
+        ],
+        "explanationZh": "同一含糊理由重複三週，又沒有證明，正是藉口逐漸失去說服力的情境。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "本課指解釋因反覆使用而失去說服力。哪個情況最不適合說 wear thin？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach gives the same vague excuse for cancelling practice each week.",
+            "zh": "教練每週都以同一含糊理由取消練習。"
+          },
+          {
+            "id": "b",
+            "en": "A company repeatedly promises to reply tomorrow but never does.",
+            "zh": "公司反覆承諾明天回覆，卻始終沒有回覆。"
+          },
+          {
+            "id": "c",
+            "en": "A speaker gives one clear explanation and promptly supplies proof.",
+            "zh": "講者作出一次清楚解釋，並迅速提供證據。"
+          }
+        ],
+        "explanationZh": "一次清楚而有證據的解釋，沒有反覆使用後逐漸失信的過程。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同學說：『戲劇社第四次用同一個理由改排練時間，我們無法安排交通。』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That excuse is wearing thin. Let's ask for a confirmed timetable.",
+            "zh": "那個藉口愈來愈難令人接受。我們要求一份確定的時間表吧。"
+          },
+          {
+            "id": "b",
+            "en": "Because they changed the time, they must be lying about everything.",
+            "zh": "他們改了時間，所以所有事情都一定在說謊。"
+          },
+          {
+            "id": "c",
+            "en": "There is no point asking for a timetable, even if the change affects you.",
+            "zh": "即使改動影響你們，也沒有必要要求時間表。"
+          }
+        ],
+        "explanationZh": "回應指出反覆理由的問題，又沒有武斷指責說謊，並提出可行的下一步。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The organiser's excuses are wearing thin after another unexplained delay.",
+        "zh": "再次無故延誤後，主辦方的藉口愈來愈難令人接受。",
+        "promptZh": "先聽完整示範，再說明反覆延誤如何影響大家對藉口的看法。",
+        "targetSpan": {
+          "start": 28,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區園藝活動數次在最後一刻取消，主辦方每次都給出同一個含糊理由。用一至兩句英文說明大家對這個理由的看法，並提出下一步。",
+        "selfCheckZh": "指出理由反覆出現後不再令人信服，並提出核實或改善安排的具體方法；不要直接斷定有人說謊。",
+        "examples": [
+          {
+            "en": "The organiser's excuses are wearing thin after another unexplained cancellation. We should ask for a clear plan.",
+            "zh": "活動再次無故取消後，主辦方的藉口愈來愈難令人接受。我們應要求一個清晰的計劃。"
+          },
+          {
+            "en": "The same reason is wearing thin after several last-minute changes. Please share a new date that the team can rely on.",
+            "zh": "幾次臨時更改後，相同的理由愈來愈難令人信服。請提供一個團隊可以依靠的新日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "another unexplained cancellation",
+            "zh": "再次無故取消",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 79
+            }
+          },
+          {
+            "en": "ask for a clear plan",
+            "zh": "要求一個清晰的計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 111
+            }
+          },
+          {
+            "en": "several last-minute changes",
+            "zh": "幾次臨時更改",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 65
+            }
+          },
+          {
+            "en": "share a new date",
+            "zh": "提供一個新日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 90
+            }
+          },
+          {
+            "en": "rely on",
+            "zh": "依靠",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Repeated delays made the manager's excuses wear thin.",
+          "zh": "反覆延誤令經理的藉口愈來愈難令人接受。"
+        },
+        {
+          "en": "The same explanation is wearing thin, so we need a reliable timetable.",
+          "zh": "相同的解釋愈來愈難令人信服，所以我們需要可靠的時間表。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

@@ -17,7 +17,7 @@ const intake=read('books10-16/intake-summary.json');
 const reconciliation=readLines('books10-16/reconciliation-register.jsonl');
 const decisions=readLines('books10-16/editorial-decisions-2112-2141.jsonl');
 const release=read('release-index.json');
-const pilot=[...read('drafts-books10-16/batch-2112-2119.json').lessons,...read('drafts-books10-16/batch-2113.json').lessons,...read('drafts-books10-16/batch-2123.json').lessons].sort((a,b)=>a.number-b.number);
+const pilot=[...read('drafts-books10-16/batch-2112-2119.json').lessons,...read('drafts-books10-16/batch-2113.json').lessons,...read('drafts-books10-16/batch-2120.json').lessons,...read('drafts-books10-16/batch-2123.json').lessons].sort((a,b)=>a.number-b.number);
 assert.equal(rows.length,2604);
 assert.equal(reconciliation.length,rows.length);
 assert.equal(intake.sourceRows,rows.length);
@@ -45,8 +45,8 @@ for(const [book,count] of Object.entries(intake.reportedBookCounts)){
  assert.equal(intake.extractedBookCounts[book].questions,count.questions);
  assert.equal(intake.extractedBookCounts[book].expressions,count.expressions);
 }
-assert.equal(pilot.length,7);
-assert.deepEqual(pilot.map(r=>r.id),['advanced-native-2112','advanced-native-2113','advanced-native-2115','advanced-native-2117','advanced-native-2118','advanced-native-2119','advanced-native-2123']);
+assert.equal(pilot.length,8);
+assert.deepEqual(pilot.map(r=>r.id),['advanced-native-2112','advanced-native-2113','advanced-native-2115','advanced-native-2117','advanced-native-2118','advanced-native-2119','advanced-native-2120','advanced-native-2123']);
 const bySource=new Map(rows.map(row=>[row.sourceId,row]));
 for(const lesson of pilot){
  for(const source of lesson.sources){
@@ -82,12 +82,12 @@ const imported=body=>JSON.parse(body.slice(body.indexOf('export default ')+15).r
 const baseIndex=imported(baseBuild.files['advanced-imported.generated.mjs']);
 const nextIndex=imported(extended.files['advanced-imported.generated.mjs']);
 assert.equal(baseIndex.length,1883);
-assert.equal(nextIndex.length,1890);
+assert.equal(nextIndex.length,1891);
 assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number]),
                  baseIndex.map(row=>[row.id,row.number]));
-assert.deepEqual(nextIndex.slice(-7).map(row=>row.number),[1894,1895,1896,1897,1898,1899,1900]);
+assert.deepEqual(nextIndex.slice(-8).map(row=>row.number),[1894,1895,1896,1897,1898,1899,1900,1901]);
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
  sourcePageGaps:0,first30EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
- projectedDisplayRange:'1894–1900',wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
+ projectedDisplayRange:'1894–1901',wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));
