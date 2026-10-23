@@ -990,12 +990,12 @@
         "explanationZh": "到達資料與掌握內容是兩個階段。"
       },
       "speaking": {
-        "en": "The timetable is only a few clicks away on the course site, although you still need to check which week applies.",
-        "zh": "課程網站只需按幾下便可找到時間表，但你仍須核對適用週次。",
+        "en": "Once you open the course site, you are only a few clicks away from the timetable; check which week applies after you find it.",
+        "zh": "打開課程網站後，只需再按幾下便可找到時間表；找到後仍須核對適用週次。",
         "promptZh": "先聽示範，再指出找到時間表後仍須做甚麼。",
         "targetSpan": {
-          "start": 17,
-          "end": 39
+          "start": 39,
+          "end": 61
         }
       },
       "writing": {
@@ -1007,8 +1007,8 @@
             "zh": "經「課程」和「下載」兩個連結，只需按幾下便可找到游泳班時間表，但會員仍須核對自己班別的日期。"
           },
           {
-            "en": "From the centre homepage, the timetable is only a few clicks away; reaching it quickly does not tell a member which session date applies.",
-            "zh": "從中心首頁只需按幾下便可找到時間表；迅速找到也不代表會員已知道哪個上課日期適用。"
+            "en": "By following Courses and then Downloads from the centre homepage, members are only a few clicks away from the swimming timetable; they still need to check which session date applies to their own class.",
+            "zh": "會員從中心首頁依次按「課程」和「下載」，只需按幾下便可找到游泳班時間表；他們仍須核對哪個上課日期適用於自己的班別。"
           }
         ],
         "glossary": [
@@ -1053,8 +1053,8 @@
             "zh": "中心首頁",
             "exampleIndex": 1,
             "span": {
-              "start": 9,
-              "end": 24
+              "start": 49,
+              "end": 64
             }
           },
           {
@@ -1062,8 +1062,8 @@
             "zh": "上課日期",
             "exampleIndex": 1,
             "span": {
-              "start": 116,
-              "end": 128
+              "start": 161,
+              "end": 173
             }
           }
         ]
@@ -1104,7 +1104,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-3510",

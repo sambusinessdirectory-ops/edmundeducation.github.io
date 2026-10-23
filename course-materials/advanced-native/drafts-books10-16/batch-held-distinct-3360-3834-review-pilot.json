@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-3360-3834-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-3360",
+      "number": 3360,
+      "inventoryId": "expr-3360",
+      "titleEn": "change the script",
+      "titleZh": "改寫預期的發展",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:change|changes|changed|changing) the script\\b",
+        "glossaryForbidden": [
+          "\\b(?:change|changes|changed|changing) the script\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1249",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 116,
+          "book": 12,
+          "question": 50,
+          "sample": "S2",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 120, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A new interest can start changing the script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changing the script"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Alter an expected course or plan because new interests or evidence open a different path; the change may still be tentative.",
+        "meaningZh": "因新興趣或新證據而改變原先預期的發展或計劃；改變可以仍在考慮中。",
+        "grammar": "Something or someone changes/is changing the script for a plan, future or event. Changed marks an actual shift; may/could be changing keeps a proposal tentative. This is a stage metaphor, not a claim that a literal script was edited.",
+        "register": "Conversational to journalistic figurative language. A student can describe an emerging career path; a project team can describe a plan changing after new evidence.",
+        "boundaryZh": "有新的方向或預期變化才適用；一時的新興趣不等於已正式改定全部安排。",
+        "misconceptionZh": "不是指真的修改戲劇台詞，也不是任何小變動都代表原先計劃已被推翻。",
+        "outcomeZh": "能指出原本預期、引發變化的新因素，以及改變是正在考慮還是已確定。"
+      },
+      "listening": {
+        "en": "The youth centre expected to run only sports clubs next term. Strong interest in music is changing the script: staff are considering music sessions as well, but have not approved them yet.",
+        "zh": "青年中心原預計下學期只辦運動小組。對音樂的強烈興趣正改變原先構想：職員也在考慮音樂活動，但尚未批准。",
+        "promptEn": "What has changed in the youth centre’s planning?",
+        "promptZh": "青年中心的規劃有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sports clubs have already been cancelled.",
+            "zh": "運動小組已經取消。"
+          },
+          {
+            "id": "b",
+            "en": "Interest in music has led staff to consider adding sessions.",
+            "zh": "對音樂的興趣令職員考慮增加活動。"
+          },
+          {
+            "id": "c",
+            "en": "The music sessions have already been formally approved.",
+            "zh": "音樂活動已正式獲批。"
+          },
+          {
+            "id": "d",
+            "en": "Staff are still planning only sports clubs despite the requests.",
+            "zh": "儘管有人提出要求，職員仍只計劃運動小組。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "新興趣令職員重新考慮安排；音樂活動尚未獲批，運動小組亦未被取消。"
+      },
+      "reply": {
+        "promptEn": "I expected to train as an accountant, but I enjoy interpreting and have started a short course. I have not applied for a new job yet.",
+        "promptZh": "我原本打算當會計師，但我喜歡傳譯，也開始上短期課程。我尚未申請新工作。",
+        "options": [
+          {
+            "id": "a",
+            "en": "That new interest may be changing the script for your career.",
+            "zh": "這個新興趣或許正改變你原先的職涯方向。"
+          },
+          {
+            "id": "b",
+            "en": "You can explore interpreting while keeping your present plan open.",
+            "zh": "你可以探索傳譯，同時保留現有計劃的可能性。"
+          },
+          {
+            "id": "c",
+            "en": "You could talk to an interpreter before deciding whether to apply.",
+            "zh": "你可以先跟傳譯員談談，再決定是否申請。"
+          },
+          {
+            "id": "d",
+            "en": "The short course can help you test whether the work suits you.",
+            "zh": "這個短期課程可幫你看看自己是否適合這份工作。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都合理回應正在探索新方向的人；金句用 may be changing 保留尚未作決定的程度。"
+      },
+      "scene": {
+        "promptZh": "市議會原擬維持現有巴士路線；新調查顯示晚間班次需求很高，委員會正研究替代方案，尚未表決。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The survey may be changing the script for the route plan.",
+            "zh": "調查或許正改變原先的路線方案。"
+          },
+          {
+            "id": "b",
+            "en": "The council has already approved a new evening route.",
+            "zh": "市議會已批准新的晚間路線。"
+          },
+          {
+            "id": "c",
+            "en": "The survey confirms that no one wants an evening service.",
+            "zh": "調查證實沒有人需要晚間服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新證據可能改變原計劃，但仍在研究，未能說已批准。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最沒有顯示 change the script 所需的預期改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A museum adds tactile tours after visitors ask for them.",
+            "zh": "博物館因訪客要求而增設觸摸導賞。"
+          },
+          {
+            "id": "b",
+            "en": "A cookbook writer begins planning classes after readers ask to learn the recipes.",
+            "zh": "食譜作者因讀者想學做菜而開始計劃課程。"
+          },
+          {
+            "id": "c",
+            "en": "A reading group keeps its weekly schedule after considering a request to change it.",
+            "zh": "讀書會考慮過改期要求後，仍維持原本的每周安排。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "讀書會考慮後沒有改變安排；前兩例都有新因素帶來方向調整。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「有幾個人對新活動感興趣，所以明年的計劃一定已正式改好。」目前只是初步討論。你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their interest could change the script, but the new plan is not final.",
+            "zh": "他們的興趣可能改變原先計劃，但新方案尚未定案。"
+          },
+          {
+            "id": "b",
+            "en": "The new activity is definitely approved and begins tomorrow.",
+            "zh": "新活動肯定已獲批准，明天開始。"
+          },
+          {
+            "id": "c",
+            "en": "Interest from the group cannot affect any future plan.",
+            "zh": "這群人的興趣不可能影響任何未來計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新因素有改變預期的可能，但不能把初步討論說成正式決定。"
+      },
+      "speaking": {
+        "en": "The longer waiting list is changing the script for next year’s garden plan, although extra plots are not approved yet.",
+        "zh": "輪候名單變長，正改變明年社區花園計劃的原先構想，但增設園圃尚未獲批。",
+        "promptZh": "先聽示範，再說明新因素和計劃是否已定案。",
+        "targetSpan": {
+          "start": 27,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館原定只在放學後辦一個編程小組。成年讀者報名表達興趣後，館方正考慮增設晚上初學班；原小組不會取消，新班也未獲批。用一至兩句英文向同事交代變化及其未定狀態。",
+        "selfCheckZh": "兩例都交代原有放學後小組、成年讀者帶來的新興趣、正在考慮晚上初學班，以及尚未獲批；不要說原小組已取消。",
+        "examples": [
+          {
+            "en": "Adult readers’ interest is changing the script for the library’s plan: staff are considering evening beginner sessions alongside the after-school coding club, but have not approved them yet.",
+            "zh": "成年讀者的興趣正改變圖書館的原有計劃：職員正考慮在放學後編程小組以外增設晚上初學班，但尚未批准。"
+          },
+          {
+            "en": "The library still plans its after-school coding club, while adult requests may change the script by adding evening beginner sessions; approval is still pending.",
+            "zh": "圖書館仍計劃開辦放學後編程小組；成年讀者的要求可能令計劃增設晚上初學班，但批准仍待落實。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Adult readers’ interest",
+            "zh": "成年讀者的興趣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "evening beginner sessions",
+            "zh": "晚上初學班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 118
+            }
+          },
+          {
+            "en": "the after-school coding club",
+            "zh": "放學後編程小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 157
+            }
+          },
+          {
+            "en": "adult requests",
+            "zh": "成年讀者的要求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 74
+            }
+          },
+          {
+            "en": "approval is still pending",
+            "zh": "批准仍待落實",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 159
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Changing the script means a new factor is altering what people expected to happen.",
+          "zh": "changing the script 指新因素正改變人們原先預期的發展。"
+        },
+        {
+          "en": "A new interest may change the script for a career without settling the final decision.",
+          "zh": "新興趣或許改變職涯原先的方向，但不代表最後決定已作出。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-3594",
+      "number": 3594,
+      "inventoryId": "expr-3594",
+      "titleEn": "an engine room of",
+      "titleZh": "推動實務運作的核心",
+      "category": "figurative",
+      "contentRevision": 4,
+      "target": {
+        "pattern": "\\b(?:an?|the) engine room of\\b",
+        "glossaryForbidden": [
+          "\\bengine room\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1483",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 139,
+          "book": 14,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "11–12",
+          "locatorNote": "DOCX table 148, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Universities act as an engine room of a modern society.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "engine room of a modern society"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A team or institution whose continuing skilled work helps produce essential results for a wider service or community; it may be backstage, but need not be.",
+        "meaningZh": "團隊或機構透過持續的專業工作，為較大的服務或社群產生重要成果；它可以在幕後，也不一定在幕後。",
+        "grammar": "X acts as/is an engine room of Y, where X may be a team or a whole institution and Y is the larger service or community it helps. Name the continuing productive work. The phrase does not mean X alone controls every policy.",
+        "register": "Figurative institutional or workplace description. A college may be called an engine room of regional skills, or a curator may use the image for a museum conservation team.",
+        "boundaryZh": "要有持續產生重要成果的專業工作證據；X 可以是整間機構，也可以是團隊，並非一定躲在幕後。只掛名或單純作最後決策不足以支持比喻。",
+        "misconceptionZh": "不是指建築物內真的有船的引擎艙，也不表示該機構或團隊獨自決定較大服務的政策。",
+        "outcomeZh": "能指出機構或團隊的持續專業工作如何服務較大社群，並分清實務產出與政策決定。"
+      },
+      "listening": {
+        "en": "Visitors see the gallery’s finished displays. Behind them, a conservation team repairs fragile objects, records damage and prepares pieces for each exhibition. The curator calls that team an engine room of the museum.",
+        "zh": "訪客看到畫廊完成的展品陳列；幕後的修復團隊修補易損物件、記錄損壞，並為每次展覽準備展品。策展人稱這團隊為博物館實務運作的核心。",
+        "promptEn": "Why does the curator use the engine-room image?",
+        "promptZh": "策展人為何用 engine room 比喻這團隊？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team does continuing preparation that helps make exhibitions possible.",
+            "zh": "這團隊持續準備展品，協助展覽順利舉行。"
+          },
+          {
+            "id": "b",
+            "en": "The team alone decides every museum policy.",
+            "zh": "這團隊獨自決定博物館每項政策。"
+          },
+          {
+            "id": "c",
+            "en": "The museum has a ship engine hidden behind the displays.",
+            "zh": "博物館的陳列背後藏着船舶引擎。"
+          },
+          {
+            "id": "d",
+            "en": "The team only welcomes visitors at the entrance.",
+            "zh": "這團隊只在入口迎接訪客。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "修復、記錄和備展是持續的幕後實務工作；沒有證據說團隊獨自決策。"
+      },
+      "reply": {
+        "promptEn": "The presenters get the applause, but our research desk checks every source and prepares evidence each week. How can we recognise that desk?",
+        "promptZh": "主持人得到掌聲，但研究組每周核對所有資料來源並準備證據。我們可以怎樣肯定研究組？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The research desk is an engine room of the programme because its weekly checks support the presenters.",
+            "zh": "研究組每周核查資料，支援主持人，是節目實務運作的核心。"
+          },
+          {
+            "id": "b",
+            "en": "We should name the researchers and thank them for their careful checks.",
+            "zh": "我們應點名感謝研究員仔細核查資料。"
+          },
+          {
+            "id": "c",
+            "en": "Let us explain how their evidence helps the public presentation.",
+            "zh": "我們可以說明他們的證據如何支援公開講解。"
+          },
+          {
+            "id": "d",
+            "en": "We can credit the desk without claiming it makes every editorial decision.",
+            "zh": "我們可肯定研究組，而不用說它作出每個編輯決定。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都能合理肯定研究組；金句指出持續實務工作如何支援公開成果。"
+      },
+      "scene": {
+        "promptZh": "慈善團體的排程組每天把物資配送路線交給義工，董事會另行決定政策。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The scheduling team is an engine room of the charity’s delivery service.",
+            "zh": "排程組是慈善團體配送服務實務運作的核心。"
+          },
+          {
+            "id": "b",
+            "en": "The scheduling team is only a ceremonial name with no daily work.",
+            "zh": "排程組只是一個禮儀性的名稱，沒有日常工作。"
+          },
+          {
+            "id": "c",
+            "en": "The scheduling team must therefore set all the charity’s policies.",
+            "zh": "因此排程組一定制定慈善團體所有政策。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "排程組每日編排配送，支援服務運作；董事會另行決策。"
+      },
+      "contrast": {
+        "promptZh": "哪個角色最不像服務的 engine room？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Technicians repair school instruments each week so pupils can use them.",
+            "zh": "技術員每周修理學校樂器，讓學生能使用。"
+          },
+          {
+            "id": "b",
+            "en": "Clinic pharmacy staff prepare prescriptions every day for the nurses.",
+            "zh": "診所藥房職員每天為護士準備處方藥物。"
+          },
+          {
+            "id": "c",
+            "en": "An honorary patron attends one annual photo event but does no ongoing work.",
+            "zh": "名譽贊助人只出席每年一次的拍照活動，沒有持續工作。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "只在拍照活動露面而沒有持續實務工作，不符合比喻；前兩例有日常產出。"
+      },
+      "dialogue": {
+        "promptZh": "朋友聽說一間海洋研究所被稱為沿海城鎮水質監測工作的 engine room，便問：「研究所裏是不是有船舶引擎艙？」研究所每季測量水質，數據供漁民和公共衛生部門使用。你怎樣回答？",
+        "options": [
+          {
+            "id": "a",
+            "en": "No. The marine institute is an engine room of the town’s water-safety work: its regular tests give fishers and health staff useful evidence, not power from a ship.",
+            "zh": "不是。這間海洋研究所是城鎮水質安全工作實務運作的核心：它定期檢測，為漁民及公共衛生人員提供有用證據，並非用船舶引擎供電。"
+          },
+          {
+            "id": "b",
+            "en": "Yes. The institute must contain a ship engine because it studies the sea.",
+            "zh": "是。研究所研究海洋，所以一定設有船舶引擎。"
+          },
+          {
+            "id": "c",
+            "en": "It means the institute only appears in publicity photographs and does no testing.",
+            "zh": "這表示研究所只在宣傳照片中出現，完全不做檢測。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把整間研究所的定期專業檢測連到城鎮的水質安全工作；engine room 是比喻，不是實際船艙。"
+      },
+      "speaking": {
+        "en": "The caption team is an engine room of the news service: it prepares accurate subtitles before each morning bulletin.",
+        "zh": "字幕組是新聞服務實務運作的核心：它在每天早上的新聞播出前準備準確字幕。",
+        "promptZh": "先聽示範，再指出幕後團隊的持續工作。",
+        "targetSpan": {
+          "start": 20,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間本地技術學院每學期為區內巴士車廠培訓維修員，並出版保養指引；運輸機構另行決定路線和票價。用一至兩句英文向居民說明學院如何支援更大的巴士服務，但不要說它決定所有政策。",
+        "selfCheckZh": "兩例都要交代技術學院每學期培訓區內車廠的維修員及出版保養指引，也要說明路線和票價由運輸機構決定；學院是整間機構，不是只有一個幕後小組。",
+        "examples": [
+          {
+            "en": "The technical college is an engine room of the region’s bus service: each term it trains mechanics for local depots and publishes maintenance guides, while the transport authority sets routes and fares.",
+            "zh": "這間技術學院是區內巴士服務實務運作的核心：它每學期為本地車廠培訓維修員並出版保養指引，路線和票價則由運輸機構決定。"
+          },
+          {
+            "en": "Each term, the college trains mechanics for regional bus depots and issues maintenance guides, making the institution an engine room of the bus service; route and fare decisions remain with the transport authority.",
+            "zh": "學院每學期為區內巴士車廠培訓維修員並出版保養指引，因此整間學院是巴士服務實務運作的核心；路線與票價仍由運輸機構決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "trains mechanics",
+            "zh": "培訓維修員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 98
+            }
+          },
+          {
+            "en": "local depots",
+            "zh": "本地車廠",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 115
+            }
+          },
+          {
+            "en": "maintenance guides",
+            "zh": "保養指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 148
+            }
+          },
+          {
+            "en": "regional bus depots",
+            "zh": "區內巴士車廠",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 63
+            }
+          },
+          {
+            "en": "route and fare decisions",
+            "zh": "路線與票價的決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 153,
+              "end": 177
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An institution or team can be an engine room of a wider service when its continuing skilled work produces useful results.",
+          "zh": "機構或團隊若持續以專業工作為更大的服務帶來實際成果，就可以稱為該服務的 engine room。"
+        },
+        {
+          "en": "A backstage operations team can be an engine room of an event without setting every policy.",
+          "zh": "幕後營運團隊可以是活動運作的核心，但不一定制定所有政策。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
+        ]
+      }
+    },
+    {
+      "id": "advanced-native-3834",
+      "number": 3834,
+      "inventoryId": "expr-3834",
+      "titleEn": "spill into",
+      "titleZh": "從一個範疇蔓延到另一範疇",
+      "category": "figurative",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\b(?:spill|spills|spilled|spilt|spilling) into\\b",
+        "glossaryForbidden": [
+          "\\b(?:spill|spills|spilled|spilt|spilling) into\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1723",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 162,
+          "book": 14,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Work pressure can end up spilling into every part of life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spilling into every part of life"
+        }
+      ],
+      "brief": {
+        "meaningEn": "For a pressure, problem or effect from one part of life or work to extend into another domain beyond its starting point.",
+        "meaningZh": "壓力、問題或影響從原本所在的工作或生活範疇，延伸到另一範疇。",
+        "grammar": "Pressure, work demands or delays spill into + an affected domain. Has spilled into marks an observed effect; may spill into predicts one. The liquid image is figurative here, so identify evidence that the effect crossed a boundary.",
+        "register": "Everyday to journalistic figurative description. A worker may notice a rota problem spilling into family time; a coordinator may describe a transport delay affecting a class.",
+        "boundaryZh": "必須有明確的起點和另一個受影響範疇；在原範疇內忙碌或真的打翻液體並非此處所教的比喻。",
+        "misconceptionZh": "不要把可能造成的影響說成已發生，也不要因兩件事相近便臆測其因果關係。",
+        "outcomeZh": "能指出影響從哪個範疇擴散到哪裏，並區分已發生與可能發生。"
+      },
+      "listening": {
+        "en": "Mara’s work rota changed three times this week. She began answering shift messages during family dinner, so the scheduling pressure was spilling into her home time.",
+        "zh": "Mara 的工作更表本周改了三次。她開始在家庭晚餐時回覆更班訊息，因此排班壓力正蔓延到她的家庭時間。",
+        "promptEn": "What boundary has the pressure crossed?",
+        "promptZh": "這股壓力跨越了哪個範疇的界線？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Work scheduling has begun affecting time at home.",
+            "zh": "工作排班開始影響在家的時間。"
+          },
+          {
+            "id": "b",
+            "en": "Mara has already resigned from her job.",
+            "zh": "Mara 已經辭職。"
+          },
+          {
+            "id": "c",
+            "en": "Her family asked her to take extra shifts.",
+            "zh": "她的家人要求她加班。"
+          },
+          {
+            "id": "d",
+            "en": "The rota changes stayed entirely within office hours.",
+            "zh": "更表變動完全只在辦公時間內產生影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她在家庭晚餐時處理工作訊息，顯示工作壓力延伸到家中時間。"
+      },
+      "reply": {
+        "promptEn": "My volunteer rota was meant to take two hours a week, but I now answer club messages every Sunday afternoon. How would you respond?",
+        "promptZh": "我本來每周只需花兩小時處理義工更表，但現在每逢周日下午都要回覆學會訊息。你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if the club work is spilling into your rest time.",
+            "zh": "聽起來學會工作正蔓延到你的休息時間。"
+          },
+          {
+            "id": "b",
+            "en": "You could agree with the team on a fixed time for replies.",
+            "zh": "你可以跟團隊協議一個固定回覆時段。"
+          },
+          {
+            "id": "c",
+            "en": "That seems to take more of your weekend than the rota allowed.",
+            "zh": "這似乎佔用你周末的時間，比原定更表多。"
+          },
+          {
+            "id": "d",
+            "en": "Perhaps another volunteer could share the messages on Sundays.",
+            "zh": "也許另一名義工可分擔周日的訊息。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都合理回應周日時間被佔用的情況；金句用 spill into 表達工作影響休息。"
+      },
+      "scene": {
+        "promptZh": "晚間社區課程原定六時開始；巴士改道令多名參加者遲到二十分鐘，導師因而延遲開課。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bus delay is spilling into the evening class timetable.",
+            "zh": "巴士延誤正影響晚間課程的時間安排。"
+          },
+          {
+            "id": "b",
+            "en": "The evening class caused the bus route to change.",
+            "zh": "晚間課程導致巴士改道。"
+          },
+          {
+            "id": "c",
+            "en": "The route change affected drivers but left the class start time unchanged.",
+            "zh": "改道只影響司機，課程開始時間沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "交通問題已影響課程開始時間；另兩句倒置因果或否認題目所述延誤。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最沒有顯示問題 spill into 另一範疇？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shop’s staffing gap forces a parent to miss a child’s pickup.",
+            "zh": "商店人手不足令一名家長錯過接孩子的時間。"
+          },
+          {
+            "id": "b",
+            "en": "A rehearsal overrun delays the chess club’s room booking.",
+            "zh": "排練超時令棋藝會使用房間的時間延後。"
+          },
+          {
+            "id": "c",
+            "en": "A school deadline is handled entirely during class hours, with no effect on activities afterward.",
+            "zh": "學校限期完全在上課時間內處理，沒有影響之後的活動。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "限期的影響沒有延伸出原本課堂；前兩例都跨越了活動範疇。"
+      },
+      "dialogue": {
+        "promptZh": "經理說：「工作報告都在辦公室寫，所以期限壓力不可能影響家庭。」但同事為完成報告取消了兩次家庭晚餐。哪句回應最有根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The deadline pressure has spilled into family time; the cancelled dinners show the effect.",
+            "zh": "期限壓力已蔓延到家庭時間；取消晚餐就是證據。"
+          },
+          {
+            "id": "b",
+            "en": "The family dinners must have caused the work deadline.",
+            "zh": "家庭晚餐一定造成工作期限。"
+          },
+          {
+            "id": "c",
+            "en": "There is no evidence that the deadline affected time at home.",
+            "zh": "沒有證據顯示工作期限影響在家時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "取消家庭晚餐是工作壓力影響家庭時間的具體證據。"
+      },
+      "speaking": {
+        "en": "The delayed permit is spilling into the community workshop schedule: volunteers cannot open the room on Saturday.",
+        "zh": "許可證延誤正影響社區工作坊的日程：義工周六無法開放場地。",
+        "promptZh": "先聽示範，再指出問題從哪裏擴散到哪個安排。",
+        "targetSpan": {
+          "start": 22,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區體育館的新報名系統在周一和周二出錯。兩名義工周三晚上要手動核對預約，因此錯過原定的培訓；系統何時修好仍未確定。用一至兩句英文說明問題如何跨越到義工的晚上安排，不要說系統已修好。",
+        "selfCheckZh": "兩例都寫出周一及周二的報名問題、兩名義工周三晚手動核對預約而錯過培訓，以及修復時間未定。",
+        "examples": [
+          {
+            "en": "The Monday and Tuesday booking errors have spilled into the volunteers’ Wednesday evening: two people checked reservations by hand and missed training, while the repair date remains unknown.",
+            "zh": "周一和周二的預約錯誤已影響義工的周三晚上：兩人手動核對預約而錯過培訓，系統修復日期仍未確定。"
+          },
+          {
+            "en": "Because the new system failed on Monday and Tuesday, the problem spilled into Wednesday evening training: two volunteers had to check bookings manually and could not attend; no repair date is confirmed.",
+            "zh": "因新系統在周一和周二出錯，問題蔓延到周三晚的培訓：兩名義工須手動核對預約而無法出席；修復日期仍未確定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Monday and Tuesday booking errors",
+            "zh": "周一和周二的預約錯誤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 37
+            }
+          },
+          {
+            "en": "checked reservations by hand",
+            "zh": "手動核對預約",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 130
+            }
+          },
+          {
+            "en": "the repair date remains unknown",
+            "zh": "修復日期仍未確定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 189
+            }
+          },
+          {
+            "en": "Wednesday evening training",
+            "zh": "周三晚的培訓",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 104
+            }
+          },
+          {
+            "en": "check bookings manually",
+            "zh": "手動核對預約",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When a problem spills into another part of life, its effects cross an identifiable boundary.",
+          "zh": "問題 spill into 另一生活範疇，表示影響跨越了清楚可辨的界線。"
+        },
+        {
+          "en": "A delay may spill into a class schedule, but a possible effect should not be presented as already certain.",
+          "zh": "延誤可能影響課程時間表，但不應把尚未發生的影響說成已成定局。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional held-source lesson. Independent English, Traditional Chinese, media, QA and human release review remain pending."
+        ]
+      }
+    }
+  ]
+}

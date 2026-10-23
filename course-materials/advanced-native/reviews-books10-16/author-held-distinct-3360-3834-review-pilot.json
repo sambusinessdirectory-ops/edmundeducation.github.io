@@ -1,0 +1,110 @@
+{
+  "reviewType": "author self-audit of unselected provisional lessons; not independent or human approval",
+  "reviewedAtUtc": "2026-10-23T22:37:19.640424+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "draftFileSha256": "358fce7cd5c1e186b479c319ded425ece347388c1957534cdca6f8eda35956e2",
+  "sourceInventoryFile": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestUnchanged": true,
+  "decisionFilesUnchanged": true,
+  "releaseStatus": "unselected; no upload or deployment",
+  "counts": {
+    "lessons": 3,
+    "questions": 18,
+    "audioRequests": 12,
+    "glossaryRows": 15,
+    "englishLearnerStringsScreened": 84,
+    "guideExamplesScreened": 2604,
+    "sixTokenSourceOverlaps": 0
+  },
+  "build": "node tools/advanced-native-bulk/build.mjs ... --out-dir /private/tmp/held-distinct-3360-3834-build and --check both passed; 3 lessons, 18 questions, 12 audio requests, 0 review flags",
+  "lessons": [
+    {
+      "sourceOrdinal": 3360,
+      "moduleId": "advanced-native-3360",
+      "title": "change the script",
+      "contentRevision": 1,
+      "sourceId": "book10-16-1249",
+      "exactSourceSentence": "A new interest can start changing the script.",
+      "sourceExpression": "changing the script",
+      "sourceMeaning": "Altering the expected course of events; a stage metaphor.",
+      "sourceAndTargetExact": true,
+      "fullSourceTargetRegexMatches": true,
+      "glossaryRows": 5,
+      "glossarySpansExact": true,
+      "nearestOwnerComparison": {
+        "nearOwners": [
+          711
+        ],
+        "boundary": "Changing the script means a newly relevant factor alters an expected course; owner 711 tests following an existing social/routine script."
+      }
+    },
+    {
+      "sourceOrdinal": 3594,
+      "moduleId": "advanced-native-3594",
+      "title": "an engine room of",
+      "contentRevision": 3,
+      "sourceId": "book10-16-1483",
+      "exactSourceSentence": "Universities act as an engine room of a modern society.",
+      "sourceExpression": "engine room of a modern society",
+      "sourceMeaning": "A place where essential skilled work is produced; a ship-engine metaphor.",
+      "sourceAndTargetExact": true,
+      "fullSourceTargetRegexMatches": true,
+      "glossaryRows": 5,
+      "glossarySpansExact": true,
+      "nearestOwnerComparison": {
+        "nearOwners": [
+          526,
+          553
+        ],
+        "boundary": "An engine room of an institution identifies a continuing backstage team or unit producing practical output; owners 526 and 553 teach an abstract engine driving a business or personal growth."
+      }
+    },
+    {
+      "sourceOrdinal": 3834,
+      "moduleId": "advanced-native-3834",
+      "title": "spill into",
+      "contentRevision": 2,
+      "sourceId": "book10-16-1723",
+      "exactSourceSentence": "Work pressure can end up spilling into every part of life.",
+      "sourceExpression": "spilling into every part of life",
+      "sourceMeaning": "Stress spreading beyond its original source; a liquid metaphor.",
+      "sourceAndTargetExact": true,
+      "fullSourceTargetRegexMatches": true,
+      "glossaryRows": 5,
+      "glossarySpansExact": true,
+      "nearestOwnerComparison": {
+        "nearOwners": [
+          2830,
+          2854
+        ],
+        "boundary": "Spill into identifies consequences crossing from one life/activity domain to another; owner 2830 concerns emotion spilling over, and owner 2854 concerns effects crossing geographic borders."
+      }
+    }
+  ],
+  "editorialSelfChecks": {
+    "sevenSteps": "Each lesson has listening, four-valid-reply selection, scene, contrast, dialogue, speaking, and changed-context writing with two EN/ZH models.",
+    "answerGrounding": "Keyed options were manually compared to their prompts; 3360 preserves tentative planning, 3594 requires continuing backstage work without asserting policy control, 3834 requires evidence of a crossed domain boundary.",
+    "replyPragmatics": "All four reply alternatives in each lesson are contextually reasonable; the keyed reply alone is the target-bearing model.",
+    "bilingualFidelity": "English prompts/options/models and Traditional Chinese counterparts checked for actors, quantities, timing, modality and intended meaning.",
+    "glossary": "Five answer-derived, non-target glossary rows per lesson; all 15 English offsets verified against final writing models.",
+    "sourceOriginality": "Every English learner-facing string was compared with every inventory example for shared contiguous six-token windows; zero hits after rewriting 3594 model 2.",
+    "detectorLimit": "Target regex is a lexical detector, not a semantic classifier. The phrases engine room of and spill into can occur literally; surrounding lesson contexts and independent editorial review must enforce figurative sense."
+  },
+  "primaryUsageReferences": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/engine-room",
+      "appliesTo": 3594,
+      "note": "Supports figurative engine-room usage as a working hub beyond a literal ship room."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/spill",
+      "appliesTo": 3834,
+      "note": "Supports spill with directional construction; the figurative cross-domain use is grounded in the exact source sentence."
+    }
+  ],
+  "remainingGates": [
+    "Independent AI editorial review of all three source-owner boundaries, option fairness, naturalness and bilingual fidelity.",
+    "Human editorial and release decisions remain outside this author audit."
+  ]
+}

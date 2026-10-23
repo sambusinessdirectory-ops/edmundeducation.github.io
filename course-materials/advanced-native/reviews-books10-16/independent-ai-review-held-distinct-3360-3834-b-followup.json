@@ -1,0 +1,35 @@
+{
+  "reportType": "independent-ai-scoped-followup",
+  "status": "all_three_content_clear_unselected",
+  "initialReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-3360-3834-b.json",
+  "initialReviewSha256": "cb37c0dc6de87b6ca308c71d2946fce186bf46532de419a76bc2f926028eff76",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "draftSha256": "14bf74c30a5504daf8fef45c7fc980173184601b1ca14b28189b655be4b69f5f",
+  "authorRepairAudit": "course-materials/advanced-native/reviews-books10-16/author-held-distinct-3360-3834-scoped-repair-review-pilot.json",
+  "authorRepairAuditSha256": "66144cdeb7554beb02df48e361889fdfce4339b5a982f52bbdae2718ff024fed",
+  "findings": [
+    {
+      "id": "R3360-01",
+      "sourceOrdinal": 3360,
+      "result": "resolved",
+      "evidence": "listening.zh now says 對音樂的強烈興趣 without inventing residents; this matches the unidentified interested group in listening.en. The tentative music-session planning and keyed answer remain unchanged."
+    },
+    {
+      "id": "R3594-01",
+      "sourceOrdinal": 3594,
+      "result": "resolved",
+      "evidence": "The brief now allows a team or whole institution and says backstage status is optional. The revised dialogue assesses a marine institute's regular testing for a town's water-safety work; both writing models use a technical college training regional bus mechanics and publishing maintenance guides, with route/fare decisions elsewhere. This transfers the source's university-to-society productive-institution relation without repeating its sentence. EN/ZH actor, output and policy boundaries agree; five glossary rows have exact spans."
+    }
+  ],
+  "unchangedLesson": {"sourceOrdinal":3834,"result":"previous_accept_retained","evidence":"Source sense, target and assessed content remain as cleared in the initial review."},
+  "independentChecks": {
+    "focusedBuildAndCheck": "3 lessons, 18 questions, 12 audio requests, zero flags in fresh build and --check",
+    "sourceRegex": "3/3 complete source sentences match",
+    "targetBearingReplySceneDialogueKeys": "9/9",
+    "targetBearingWritingModels": "6/6",
+    "speakingSpans": "3/3",
+    "glossarySpans": "15/15 exact and non-target"
+  },
+  "mediaDelta": "The 3594 takeaway wording changed in this revision; its audio role needs separate synthesis and media QA before release.",
+  "scope": "Scoped read-only AI content follow-up at exact draft hash; no draft, decision, manifest, audio or release edits. Content clearance supports only provisional unpublished selection."
+}

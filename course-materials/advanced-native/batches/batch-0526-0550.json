@@ -3356,20 +3356,20 @@
     "titleZh": "善意也需要堅定原則",
     "category": "figurative",
     "target": {
-      "pattern": "\\bkindness needs a backbone\\b|\\b(?:real )?kindness should have a backbone\\b",
+      "pattern": "\\bkindness needs a backbone\\b|\\b(?:real )?kindness should have a backbone\\b|\\b(?:an )?open society(?: also)? needs a backbone\\b",
       "glossaryForbidden": [
         "\\bkindness\\b",
         "\\bbackbone\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Compassion needs firm principles, boundaries or organised follow-through as well as a wish to help.",
-      "meaningZh": "善意除了想幫人，亦需要堅定原則、界線或有組織的跟進。",
-      "grammar": "kindness needs a backbone; real kindness should have a backbone; productive backbone-as-firmness metaphor, not a fixed proverb with only one permitted wording.",
-      "register": "Figurative image advocating principled help. Firmness means clear, reasonable limits rather than hostility or withdrawing all help.",
-      "boundaryZh": "有界線不等於冷漠，善意也不等於答應所有要求；需說明界線怎支持可持續或公平幫助。",
-      "misconceptionZh": "拒絕一項不合理要求可同時保留合適幫助，不必在全答應與全不理間二選一。",
-      "outcomeZh": "能有禮表達支持及具體界線。"
+      "meaningEn": "A compassionate or open approach needs firm principles, fair boundaries or organised follow-through as well as a wish to include and help.",
+      "meaningZh": "善意或開放的做法除了願意接納與幫助，也需要堅定原則、公平界線或有組織的跟進。",
+      "grammar": "kindness needs a backbone; real kindness should have a backbone; an open society needs a backbone (also may precede needs). Productive backbone-as-firmness metaphor, not a fixed proverb with only one permitted subject.",
+      "register": "Figurative civic or interpersonal commentary. A volunteer may explain a fair service limit to visitors, or a speaker may explain shared rules in an open forum; firmness means reasonable principles rather than hostility.",
+      "boundaryZh": "堅定原則不等於冷漠或排除不同意見；善意與開放可配合公平、可實行的界線。",
+      "misconceptionZh": "不必在全答應與全不理之間二選一；開放討論也不等於對不同參與者採用不同規則。",
+      "outcomeZh": "能有禮表達支持或開放，同時說明公平、可實行的原則。"
     },
     "sources": [
       {
@@ -3398,6 +3398,20 @@
         "sentence": "Real kindness should have a backbone when demands become unfair.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 208, table 1, row 11"
+      },
+      {
+        "occurrenceId": "book10-16-1011",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 94,
+        "book": 12,
+        "question": 26,
+        "sample": "S2",
+        "sourceBookPages": "64–65",
+        "locatorNote": "DOCX table 96, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "An open society also needs a backbone.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "needs a backbone"
       }
     ],
     "listening": {
@@ -3458,26 +3472,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "同學願幫朋友溫習，但對方要求每天替他做全部功課；她提議一起討論一道題，答案仍由對方自己寫。哪句貼切？",
+      "promptZh": "假設的社區論壇容許不同意見發言，但每組都須遵守相同發言時間，並清楚交代所用資料來源。主持人想說開放仍需要公平原則。哪句貼切？",
       "options": [
         {
           "id": "a",
-          "en": "Kindness needs a backbone: she can offer study help without taking over the homework.",
-          "zh": "善意也需堅定原則；她可供溫習幫助，不代做功課。"
+          "en": "An open society needs a backbone: different views can be heard under fair, shared rules.",
+          "zh": "開放社會也需堅定原則：不同意見可在公平、共同的規則下被聽見。"
         },
         {
           "id": "b",
-          "en": "She must complete the homework herself before she can describe the offer as caring.",
-          "zh": "她需親自做完功課，才可稱提議是關心。"
+          "en": "The forum should postpone every discussion until all groups agree on a single view.",
+          "zh": "論壇應延後所有討論，直到各組都同意單一觀點。"
         },
         {
           "id": "c",
-          "en": "She has refused every form of study contact, including discussing a question.",
-          "zh": "她已拒絕所有溫習聯絡，包括討論一道題。"
+          "en": "The forum should relax the time limit only for groups whose views attract more support.",
+          "zh": "論壇只應為較受支持的組別放寬發言時間。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "合適支援及不代做可並存，沒有答應全做或全拒。"
+      "explanationZh": "容許分歧並對各組一視同仁，才把開放與公平原則結合；先要求同一觀點或只讓熱門立場獲特許，會破壞這個平衡。"
     },
     "contrast": {
       "promptZh": "哪項最誤解 kindness needs a backbone？",
@@ -3506,8 +3520,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Explain the same limit kindly and offer the next available option instead of promising stock we do not have.",
-          "zh": "友善解同樣上限，並提供下一個可行選項，不承諾沒有的存量。"
+          "en": "Kindness needs a backbone here: explain the same limit kindly and offer the next available option.",
+          "zh": "這裏善意也需堅定原則：友善說明相同上限，並提供下一個可行選項。"
         },
         {
           "id": "b",
@@ -3599,8 +3613,8 @@
         "zh": "反覆承諾令義工無法完成已提供幫助時，善意也需堅定原則。"
       },
       {
-        "en": "Real kindness should have a backbone, and she offered a useful hour of help rather than agree to an entire week she could not spare.",
-        "zh": "真正善意應有堅定原則，她提出有用的一小時幫助，而非答應抽不出的整周。"
+        "en": "An open society needs a backbone when a forum protects disagreement through fair, shared rules.",
+        "zh": "論壇以公平、共同規則保障不同意見時，開放社會也需有堅定原則。"
       }
     ],
     "review": {
@@ -3629,7 +3643,7 @@
         "Exact source539 charitable rules and proposed1726 unfair-demand context express same kindness/backbone firmness image; preserve both exact occurrences in the final family attachment. The need/have wording is productive variation, not a claimed distinct fixed proverb."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-540",

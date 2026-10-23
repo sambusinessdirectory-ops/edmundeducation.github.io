@@ -1,0 +1,24 @@
+{
+  "reportType": "independent-ai-scoped-alias-followup",
+  "status": "all_findings_resolved",
+  "initialReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-alias-3122-3275-3586-b.json",
+  "initialReviewSha256": "30451212314a08386ef28349b6273fb9370cd54df851afcb3f682972d14d0c5b",
+  "owner1119File": "course-materials/advanced-native/batches/batch-1101-1125.json",
+  "owner1119FileSha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-unresolved-3122-3275-3586-a.json",
+  "authorAuditSha256": "8da308c9472045f8d48830bf88241e8ab17612403b287a1b54ca7bcd5f70cdbe",
+  "finding": {
+    "id": "R3586-01",
+    "sourceOrdinal": 3586,
+    "ownerId": "advanced-native-1119",
+    "result": "resolved",
+    "evidence": "Revision 3 brief.grammar explicitly says build/builds/built/building strong foundations may stand alone, cites the exact source 'Daily reading builds strong foundations,' and permits an optional for + noun complement. The live detector matches the full bare source and the changed choir scene/takeaway forms. The scene key still distinguishes a secure base from mastery of later harmony work, with aligned English and Traditional Chinese. Legacy lay-the-foundations meaning and answer IDs remain intact."
+  },
+  "unchangedVerdicts": [
+    {"sourceOrdinal":3122,"result":"prior_accept_maintained","ownerId":"advanced-native-539"},
+    {"sourceOrdinal":3275,"result":"prior_retain_hold_maintained","comparedOwnerId":"advanced-native-193"}
+  ],
+  "independentCheck": "Fresh focused owner1119 build and --check: 22 lessons, 132 questions, 88 audio requests, zero flags.",
+  "recommendation": "Source 3586 is content-clear for a later alias-existing decision to owner1119; source3122 remains clear for owner539; source3275 remains held. Decisions and selected manifest were not changed in this review.",
+  "scope": "Read-only exact-hash changed-field review. No source, owner, decision, manifest, media or release edits."
+}

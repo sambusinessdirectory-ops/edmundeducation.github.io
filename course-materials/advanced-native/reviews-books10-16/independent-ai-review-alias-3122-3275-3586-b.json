@@ -1,0 +1,68 @@
+{
+  "reportType": "independent-ai-focused-alias-review",
+  "status": "one_accept_one_minor_repair_one_retain_hold",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-unresolved-3122-3275-3586-a.json",
+  "authorAuditSha256": "7cc16512b2c2b9bd5d2746f79a364455ef2d87b924357addf0581404a735ce90",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "ownerFiles": [
+    {"ownerId":"advanced-native-539","path":"course-materials/advanced-native/batches/batch-0526-0550.json","sha256":"e911bb517e1a1d6ad5c61f09c11609657628cf24e6af4d6bc80a7daee0c7395f"},
+    {"ownerId":"advanced-native-1119","path":"course-materials/advanced-native/batches/batch-1101-1125.json","sha256":"5f29586b0dbbbc2af993033375f225e38093e4d16e7b539684eb37ba5d17270e"},
+    {"ownerId":"advanced-native-193","path":"course-materials/advanced-native/batches/batch-0176-0200.json","sha256":"b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2","changed":false}
+  ],
+  "decisionsRemainUnchanged": [
+    {"sourceOrdinal":3122,"sha256":"012a24216d2dd2014cf5986c84209aa5e40ebff5460f7e79bc42e8bf46add69a"},
+    {"sourceOrdinal":3275,"sha256":"9d644a2724fe681d7354fa32d72dc35b3bb3b80105bde942235cc1b4441e3044"},
+    {"sourceOrdinal":3586,"sha256":"f4d224bd48d3a79739488e746c188b781d32ecef8e3af352a091f954392a7d24"}
+  ],
+  "perSource": [
+    {
+      "sourceOrdinal":3122,
+      "sourceId":"book10-16-1011",
+      "sourceSentence":"An open society also needs a backbone.",
+      "proposedOwner":"advanced-native-539",
+      "verdict":"accept_alias_expansion",
+      "evidence":"The shared image is firm principles and fair boundaries supporting an open or compassionate practice. The changed civic-forum scene grounds openness plus shared speaking-time/source rules without excluding dissent, while existing kindness cases remain intact. The live detector matches this full source and the prior kindness forms, rejects the three author negative controls, and provenance is exact. Changed scene and dialogue keyed EN/ZH are faithful and target-bearing; answer IDs remain grounded.",
+      "decisionActionAfterReview":"alias-existing to advanced-native-539 is supportable; decision row is still hold-editorial until separately changed."
+    },
+    {
+      "sourceOrdinal":3275,
+      "sourceId":"book10-16-1164",
+      "sourceSentence":"Without follow-through, the lesson can lose its teeth.",
+      "proposedOwner":"advanced-native-193",
+      "verdict":"retain_hold",
+      "evidence":"The guide gloss is a parenting consequence or lesson becoming too weak to matter without follow-through. Canonical 193 teaches an enforceable law with inspectors, investigation powers and penalties; its fixed detector is 'the law has real teeth'. The actors, mechanism and assessed decision differ, so expanding 193 merely on the teeth image would overmerge. Owner 193 is unchanged at its recorded hash.",
+      "decisionActionAfterReview":"retain hold-editorial; evaluate a distinct reusable lesson separately if warranted."
+    },
+    {
+      "sourceOrdinal":3586,
+      "sourceId":"book10-16-1475",
+      "sourceSentence":"Daily reading builds strong foundations.",
+      "proposedOwner":"advanced-native-1119",
+      "verdict":"repair_then_accept_alias_expansion",
+      "findingIds":["R3586-01"],
+      "evidence":"Both sources use a construction metaphor for basic skills or arrangements that support later development. The changed choir scene correctly assesses an emerging foundation without claiming complex harmony is already mastered; source sentence, scene key and legacy dialogue key match the live detector, with aligned EN/ZH and exact provenance. The build-strong-foundations branch can also match literal construction sentences, a pre-existing limitation of this metaphor's lexical detector; the lesson contexts and brief must retain figurative sense.",
+      "decisionActionAfterReview":"Keep the decision on hold until the grammar note accurately covers the bare source form; then alias-existing to advanced-native-1119 is supportable."
+    }
+  ],
+  "findings": [
+    {
+      "id":"R3586-01",
+      "severity":"minor_blocking_grammar_accuracy",
+      "ownerId":"advanced-native-1119",
+      "field":"brief.grammar",
+      "observed":"build/builds/built/building strong foundations for + noun describes the secure base formed through it",
+      "issue":"The exact attached source is 'Daily reading builds strong foundations.' without a for-complement, and the target regex also intentionally accepts the bare form. The grammar description incorrectly presents for + noun as required for this new branch.",
+      "suggestedRepair":"State that build strong foundations may stand alone or take 'for + noun/-ing' when the later activity is named; preserve the existing lay-the-foundations description and bounded detector."
+    }
+  ],
+  "independentChecks": {
+    "owner539FocusedBuildAndCheck":"22 lessons, 132 questions, 88 audio requests, zero flags in both runs",
+    "owner1119FocusedBuildAndCheck":"22 lessons, 132 questions, 88 audio requests, zero flags in both runs",
+    "completeSourceRegexMatches":"2/2 proposed aliases",
+    "positiveControls":"6/6 match across two owner patterns",
+    "negativeControls":"6/6 reject across two owner patterns",
+    "changedSceneAndDialogueKeys":"4/4 target-bearing; keyed EN/ZH manually checked",
+    "sourceProvenance":"Exact book10-16-1011 and book10-16-1475 sentence/expression/occurrence IDs attached"
+  },
+  "scope":"Read-only independent review of the two changed canonical owners and one unchanged held candidate. No owner, decision, manifest, SOP audit, media, upload or release edits; acceptance is provisional content clearance only."
+}

@@ -1,0 +1,141 @@
+{
+  "status": "scoped author proposal; independent AI review pending; no alias action changed",
+  "scope": "Three next earlier-owner candidates from read-only-unresolved-102-next-action-triage-review-pilot.json, excluding previously resolved 3282,3293,4098.",
+  "counts": {
+    "screened": 3,
+    "provisionallySupportedAliasExpansions": 2,
+    "retainHold": 1
+  },
+  "sourceDocumentSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+  "fileHashes": {
+    "owner539": {
+      "path": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "sha256": "e911bb517e1a1d6ad5c61f09c11609657628cf24e6af4d6bc80a7daee0c7395f"
+    },
+    "owner1119": {
+      "path": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "sha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9"
+    },
+    "owner193Unchanged": {
+      "path": "course-materials/advanced-native/batches/batch-0176-0200.json",
+      "sha256": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2"
+    },
+    "decision3122Unchanged": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "sha256": "012a24216d2dd2014cf5986c84209aa5e40ebff5460f7e79bc42e8bf46add69a"
+    },
+    "decision3275Unchanged": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "sha256": "9d644a2724fe681d7354fa32d72dc35b3bb3b80105bde942235cc1b4441e3044"
+    },
+    "decision3586Unchanged": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "sha256": "f4d224bd48d3a79739488e746c188b781d32ecef8e3af352a091f954392a7d24"
+    }
+  },
+  "beforeHashes": {
+    "owner539": "db678d199e58e0a78a417f561088703be3fe43c5de8e4f4ef660c196a5d0432f",
+    "owner1119": "015fcac2fc27b02630ee391709716441f35224f7d86968c07a37ae7c99941f82",
+    "owner193Unchanged": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2"
+  },
+  "candidates": [
+    {
+      "sourceOrdinal": 3122,
+      "sourceId": "book10-16-1011",
+      "sourceExpression": "needs a backbone",
+      "sourceSentence": "An open society also needs a backbone.",
+      "proposedOwnerId": "advanced-native-539",
+      "proposal": "same-sense bounded owner expansion, pending independent review",
+      "senseComparison": "The firmness/backbone image spans compassionate assistance with boundaries and an open forum protected by fair shared rules; the new scene assesses the wider subject rather than merely adding a regex.",
+      "changedFields": [
+        "target.pattern",
+        "brief",
+        "sources",
+        "scene",
+        "dialogue.options[a].en/zh",
+        "takeaways[1]",
+        "contentRevision"
+      ],
+      "sourceFullSentenceMatchesTarget": true,
+      "negativeControlsReject": [
+        "An open society needs no backbone.",
+        "A society needs a backbone.",
+        "The kind helper has a backbone."
+      ],
+      "sourceInventoryPatternMatches": [
+        "book10-16-1011"
+      ],
+      "audioTextChangedRoles": [
+        "dialogue is not an audio role",
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 3275,
+      "sourceId": "book10-16-1164",
+      "sourceExpression": "the lesson can lose its teeth",
+      "sourceSentence": "Without follow-through, the lesson can lose its teeth.",
+      "proposedOwnerId": "advanced-native-193",
+      "proposal": "retain hold-editorial; no owner mutation",
+      "senseComparison": "Canonical 193 teaches an enforceable law with inspectors and penalties; this source teaches a parenting lesson or consequence losing practical force without follow-through. A generic teeth regex would conceal distinct actors, mechanics and learner decisions.",
+      "changedFields": []
+    },
+    {
+      "sourceOrdinal": 3586,
+      "sourceId": "book10-16-1475",
+      "sourceExpression": "strong foundations",
+      "sourceSentence": "Daily reading builds strong foundations.",
+      "proposedOwnerId": "advanced-native-1119",
+      "proposal": "same-sense bounded action/result expansion, pending independent review",
+      "senseComparison": "Canonical laying foundations establishes basic preparation for later work; regular reading builds a secure base of basic skills for later learning. Revised scene tests a newly established base without claiming later work is done.",
+      "changedFields": [
+        "target.pattern",
+        "target.glossaryForbidden",
+        "brief",
+        "sources",
+        "scene",
+        "takeaways[1]",
+        "contentRevision"
+      ],
+      "sourceFullSentenceMatchesTarget": true,
+      "negativeControlsReject": [
+        "The building has strong foundations.",
+        "They built a foundation.",
+        "The group lay the foundation."
+      ],
+      "sourceInventoryPatternMatches": [
+        "book10-16-1475"
+      ],
+      "knownDetectorLimit": "The standalone phrase build strong foundations can also be literal in a construction context; learner content and source occurrence are figurative, and detector alone is not a sense classifier.",
+      "audioTextChangedRoles": [
+        "takeaway-2"
+      ]
+    }
+  ],
+  "checks": {
+    "focusedBuildCheckOwner539": "22 lessons,132 questions,88 audio requests,0 flags",
+    "focusedBuildCheckOwner1119": "22 lessons,132 questions,88 audio requests,0 flags",
+    "fullBooks10to16Verifier": "2604 source rows; 604 selected drafts; 0 whole-catalogue schema errors; 0 existing alias pattern exceptions",
+    "sourceProvenanceExact": true,
+    "assessedSourceVariantKeyed": true,
+    "chineseAlignedAuthorCheck": true,
+    "existingDecisionRowsUnchanged": true,
+    "selectedManifestUnchanged": true,
+    "uploadOrDeployPerformed": false
+  },
+  "remainingGates": [
+    "Independent exact-hash owner/sense review",
+    "Decision JSONL updates for supported aliases after clearance",
+    "Audio delta generation/validation for changed takeaway roles",
+    "No human listening or release approval claimed"
+  ],
+  "followup": {
+    "reviewFinding": "R3586-01: brief.grammar incorrectly implied build strong foundations always requires for + noun.",
+    "repair": "State that the expression can stand alone, as in exact source sentence, or take an optional for + noun complement. No assessment, audio text, target detector, source provenance, Chinese text, decision or manifest changed.",
+    "ownerId": "advanced-native-1119",
+    "contentRevision": 3,
+    "ownerSha256": "3b8db33adc07a44326335324a4d2c898a166df0d3b3c40f748b9a882252175d9",
+    "focusedBuildCheck": "22 lessons,132 questions,88 audio roles,0 flags; build and --check pass",
+    "independentFinalHashReview": "pending"
+  }
+}

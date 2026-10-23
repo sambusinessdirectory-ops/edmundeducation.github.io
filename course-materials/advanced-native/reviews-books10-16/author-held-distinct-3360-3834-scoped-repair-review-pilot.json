@@ -1,0 +1,57 @@
+{
+  "reportType": "author-scoped-repair-self-audit",
+  "status": "unselected-pending-independent-followup",
+  "atUtc": "2026-10-23T22:41:57.546719+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "beforeDraftSha256": "358fce7cd5c1e186b479c319ded425ece347388c1957534cdca6f8eda35956e2",
+  "afterDraftSha256": "14bf74c30a5504daf8fef45c7fc980173184601b1ca14b28189b655be4b69f5f",
+  "independentFindingReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-distinct-3360-3834-b.json",
+  "independentFindingReportSha256": "cb37c0dc6de87b6ca308c71d2946fce186bf46532de419a76bc2f926028eff76",
+  "repairs": [
+    {
+      "finding": "R3360-01",
+      "sourceOrdinal": 3360,
+      "changedFields": [
+        "listening.zh",
+        "contentRevision"
+      ],
+      "result": "Removed unsupported 居民 actor; English and Chinese now attribute the change to interest in music without inventing who expressed it. Planning remains tentative.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R3594-01",
+      "sourceOrdinal": 3594,
+      "changedFields": [
+        "brief.meaningEn",
+        "brief.meaningZh",
+        "brief.grammar",
+        "brief.register",
+        "brief.boundaryZh",
+        "brief.misconceptionZh",
+        "brief.outcomeZh",
+        "dialogue",
+        "writing",
+        "takeaways[0]",
+        "contentRevision"
+      ],
+      "result": "Lesson now explicitly covers a whole productive institution as well as a team. The marine institute dialogue assesses institution-to-town water-safety work, and both changed-context writing models assess a technical college serving regional bus maintenance while leaving route/fare policy to the transport authority. Existing support-team listening/reply/scene/speaking remain valid.",
+      "contentRevision": 4
+    },
+    {
+      "finding": "3834",
+      "sourceOrdinal": 3834,
+      "changedFields": [],
+      "result": "Accepted lesson was not edited.",
+      "contentRevision": 2
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "3 lessons / 18 questions / 12 audio requests / 0 review flags in fresh build and --check",
+    "sourceSentenceAndTargetRegex": "3/3 exact source sentences and live full-sentence detector matches",
+    "glossary": "15/15 exact answer-derived English spans",
+    "originality": "84 English learner-facing strings versus 2,604 guide examples; 0 shared six-token windows",
+    "selectedManifestAndDecisionFiles": "unchanged by this repair",
+    "audioDelta": "3594 takeaway[0] changed; final media generation and listening review remain pending"
+  },
+  "reviewLimit": "Author self-audit only. Independent reviewer must recheck grounded institution use, EN/ZH fidelity, four-valid reply and no regressions. No human or release approval."
+}

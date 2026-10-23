@@ -1,0 +1,70 @@
+{
+  "reportType": "independent-ai-focused-review",
+  "status": "two_repairs_one_accept",
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-held-distinct-3360-3834-review-pilot.json",
+  "draftSha256": "358fce7cd5c1e186b479c319ded425ece347388c1957534cdca6f8eda35956e2",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-held-distinct-3360-3834-review-pilot.json",
+  "authorAuditSha256": "72607fc3e7b00d00cddf4666ec00fedb3d3db0134262c2d3a100329856ed3368",
+  "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "lessons": [
+    {
+      "sourceOrdinal": 3360,
+      "sourceId": "book10-16-1249",
+      "ownerId": "advanced-native-3360",
+      "verdict": "repair",
+      "sourceSense": "Changing the script is a tentative or actual change to an expected course. This differs from selected owner 711, following a pre-existing script. The lesson keeps proposals distinct from approval and transfers across career, transport, garden and library contexts.",
+      "findingIds": ["R3360-01"],
+      "otherChecks": "The six keyed decisions are grounded; all four reply options are useful responses to the speaker, with only the golden reply target-bearing. Both writing models meet the new-context prompt and all five glossary rows have exact non-target spans."
+    },
+    {
+      "sourceOrdinal": 3594,
+      "sourceId": "book10-16-1483",
+      "ownerId": "advanced-native-3594",
+      "verdict": "repair",
+      "sourceSense": "The guide calls universities an engine room of modern society: an institution producing essential skilled work for a larger society. This is distinct from owners 526 and 553, which describe an abstract engine or driving force rather than the figurative productive place or group.",
+      "findingIds": ["R3594-01"],
+      "otherChecks": "The keys and four reply options are defensible, and the English/Chinese examples and glossary spans are otherwise aligned. The draft repeatedly assesses hidden support teams rather than the source's broader institution-to-society relation."
+    },
+    {
+      "sourceOrdinal": 3834,
+      "sourceId": "book10-16-1723",
+      "ownerId": "advanced-native-3834",
+      "verdict": "accept",
+      "sourceSense": "Spill into describes pressure or effects crossing into another life or activity domain. This differs from owner 2830's emotion spilling over into a reaction and owner 2854's effects crossing geographic borders. The lesson distinguishes observed effects from predictions.",
+      "findingIds": [],
+      "otherChecks": "Listening, four-valid reply, scene, contrast and dialogue keys are grounded. Speaking and both writing models transfer the cross-domain effect, with faithful Traditional Chinese and five exact answer-derived non-target glossary spans."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R3360-01",
+      "severity": "minor_blocking_translation_fidelity",
+      "ownerId": "advanced-native-3360",
+      "field": "listening.zh",
+      "observedEn": "Strong interest in music is changing the script",
+      "observedZh": "居民對音樂的強烈興趣正改變原先構想",
+      "issue": "The Chinese supplies residents as the interested actor, although the English audio never identifies who expressed the interest. The keyed option concerns interest rather than a named group, so the actor should not be invented in one language.",
+      "suggestedRepair": "Remove 居民 or identify the same group in both English and Chinese audio; keep the planning status unchanged."
+    },
+    {
+      "id": "R3594-01",
+      "severity": "major_source_scope",
+      "ownerId": "advanced-native-3594",
+      "fields": ["brief.outcomeZh", "brief.grammar", "dialogue", "writing"],
+      "sourceEvidence": "Universities act as an engine room of a modern society. Guide gloss: a place where essential skilled work is produced.",
+      "issue": "The current outcome requires a backstage team (幕後持續工作的團隊), and nearly every assessed example is a hidden support unit inside a service. The source instead applies the image to universities as whole institutions producing essential work for society. Being backstage is common but is not a necessary condition of this expression. The sole university dialogue reduces the relation to a research centre inside the university, so the source's institution-to-larger-society use is not assessed.",
+      "suggestedRepair": "Broaden the learning outcome to a productive team or institution, often but not necessarily backstage. Add or revise one assessed case and an aligned EN/ZH model to show an institution's continuing skilled work serving a larger community without copying the guide sentence or implying it alone sets policy. Retain the existing support-team use as a valid variant."
+    }
+  ],
+  "independentChecks": {
+    "focusedBuildAndCheck": "3 lessons, 18 questions, 12 audio requests, zero review flags in both fresh build and --check",
+    "sourceDetectorMatches": "3/3 complete source sentences",
+    "targetBearingKeys": "9/9 reply, scene and dialogue keyed options checked with live JS regex",
+    "speakingSpans": "3/3 exact target-bearing spans",
+    "writingModels": "6/6 target-bearing",
+    "glossarySpans": "15/15 exact non-target answer-derived English spans",
+    "sevenStepReview": "All three lessons reviewed across listening, reply, scene, contrast, dialogue, speaking and writing; source, owner boundary, grounded key, option pragmatics and EN/ZH checked."
+  },
+  "scope": "Read-only independent AI content review at the recorded draft hash. No draft, source decision, selected manifest, media, or release edits; acceptance of 3834 is only provisional unpublished content clearance."
+}

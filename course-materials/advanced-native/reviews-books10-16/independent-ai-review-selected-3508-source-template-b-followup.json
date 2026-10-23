@@ -1,0 +1,31 @@
+{
+  "reportType": "independent-ai-scoped-selected-content-followup",
+  "status": "accept_content_repair",
+  "lessonId": "advanced-native-3508",
+  "contentRevision": 4,
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+  "selectedFileSha256": "00e7a664b1b5f126b4d7cb95196f4a5917386b256676999beae3642335da28ad",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-selected-3508-source-template-repair-review-pilot.json",
+  "authorAuditSha256": "c50fa01024649d0514b612fa2a45eaa2d273060eb90fcd3959248c12e2f9826f",
+  "source": {
+    "sourceId": "book10-16-1397",
+    "sentence": "The guide is only a few clicks away.",
+    "expression": "only a few clicks away"
+  },
+  "verdictEvidence": {
+    "sourceOriginality": "Changed speaking addresses the site user ('Once you open the course site, you are...'), and writing model 2 traces Courses then Downloads from the centre homepage. Neither repeats the guide's 'The guide is...' carrier. Independent six-token comparison of both changed English strings against all 2604 inventory examples found zero hits.",
+    "targetAndNaturalness": "'You are only a few clicks away from the timetable' and 'members are only a few clicks away from the swimming timetable' naturally describe online access. The target detector matches both; the exact speaking target span [39,61) is 'only a few clicks away'.",
+    "writingAndChinese": "Both writing models say the two links lead to a swimming timetable, then require checking the applicable class date. Neither claims registration is complete. Chinese follows the changed user/navigation action and date caveat without adding a different actor or result.",
+    "assessment": "Listening, reply, scene, contrast and dialogue assessed content and answer IDs are unchanged. The target-bearing reply, scene and dialogue keys remain consistent with access rather than reading, understanding, submission or setup completion; the revised speaking/model text introduces no cloze or answer leakage.",
+    "glossary": "All six writing glossary spans are exact UTF-16 substrings of their answer models and exclude the target; changed model-2 offsets for 'centre homepage' and 'session date' both resolve correctly."
+  },
+  "independentChecks": {
+    "focusedBuildAndCheck": "6 lessons, 36 questions, 24 audio requests, zero flags in fresh build and --check",
+    "sourceSixTokenHitsForChangedStrings": 0,
+    "speakingSpanExact": true,
+    "writingModelsTargetBearing": "2/2",
+    "glossarySpansExactAndNonTarget": "6/6"
+  },
+  "mediaDelta": "speaking.en changed in a selected lesson; its speaking audio must be regenerated and checked separately. No listening or media approval is inferred from this text review.",
+  "scope": "Read-only review of exact changed fields and their dependencies; no selected draft, manifest, source decision, SOP audit, audio, upload or release edit."
+}

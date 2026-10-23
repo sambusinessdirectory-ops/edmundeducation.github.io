@@ -1,0 +1,738 @@
+{
+  "reportType": "read-only selected-set owner and guide-originality risk review",
+  "reviewedAtUtc": "2026-10-23T22:43:04.540861+00:00",
+  "selectedManifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "aacb92cc09e03b0dfea4b312510a1a675021b6e8f265a9d1355f954ce56152e7",
+  "selectedLessons": 604,
+  "selectedContentDigestMethod": "SHA-256 of newline-joined canonical JSON lesson objects, sorted by lesson id, ensure_ascii=false and sorted keys",
+  "selectedContentSha256": "1ab1ac456c0f90e6b350aa9d7b3c9a55d4dca25b97214c416954206851a4c765",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "mechanicalScreens": {
+    "newOwnerCollisionTool": "tools/advanced-native-bulk/audit-new-owner-collisions.mjs",
+    "newOwnerCollisionLeads": 27,
+    "exactTitleLeads": 4,
+    "exactSourceExpressionLeads": 4,
+    "guideOriginalityTool": "tools/advanced-native-bulk/audit-guide-originality.mjs",
+    "fuzzyTotal": 60,
+    "nearFull": 12,
+    "reviewNearFull": 48,
+    "selectedLearnerStrings": 14832,
+    "sourceExamples": 2604
+  },
+  "semanticReviewScope": {
+    "collisionLeadsReviewed": 27,
+    "nearFullFuzzyLeadsReviewed": 12,
+    "reviewNearFullLeadsTextScreened": 6,
+    "reviewNearFullLeadsNotFullyContextReviewed": 48,
+    "exactSelectedTitleDuplicates": 0,
+    "nearTitleAndBriefPairsManuallyCompared": 6,
+    "limitation": "All 27 collision leads and 12 near-full fuzzy leads received source/target sense or source-text review. The 48 review-near-full leads were mechanically enumerated; six received text-only spot checks, not complete lesson-context review. This report does not claim full semantic clearance of all 60 fuzzy leads."
+  },
+  "ownerCollisionVerdicts": [
+    {
+      "sourceOrdinal": 2123,
+      "sourceSentence": "Guests should show up before noon.",
+      "proposedTitle": "show up",
+      "proposedOwnerId": "advanced-native-2123",
+      "priorOwnerId": "advanced-native-364",
+      "priorOwnerTitle": "show up",
+      "exactTitle": true,
+      "exactSourceExpression": true,
+      "detectorMatch": true,
+      "proposedMeaning": "Arrive or appear at a place, meeting or event.",
+      "priorMeaning": "Be present when needed and offer support, especially in show up for someone.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Arrival at an event versus being present to support another person.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2134,
+      "sourceSentence": "Our timing is too tight if we rely on the final train.",
+      "proposedTitle": "timing is too tight",
+      "proposedOwnerId": "advanced-native-2134",
+      "priorOwnerId": "advanced-native-256",
+      "priorOwnerTitle": "rely on",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "A schedule leaves too little spare time for likely delays or tasks.",
+      "priorMeaning": "Depend on a person, service, resource or method for something needed.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Timing margin is the target; rely on the train is an incidental clause.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2176,
+      "sourceSentence": "I packed the documents so everything was ready to go.",
+      "proposedTitle": "ready to go",
+      "proposedOwnerId": "advanced-native-2176",
+      "priorOwnerId": "advanced-native-434",
+      "priorOwnerTitle": "packed",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Fully prepared to start an activity or leave.",
+      "priorMeaning": "Very full of people in the stated place or event.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Prepared to start versus packed meaning crowded; packed documents is incidental.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2279,
+      "sourceSentence": "Her argument was grounded in facts rather than speculation.",
+      "proposedTitle": "grounded in facts",
+      "proposedOwnerId": "advanced-native-2279",
+      "priorOwnerId": "advanced-native-798",
+      "priorOwnerTitle": "grounded / more grounded",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Supported by verifiable facts or evidence rather than mere assumption.",
+      "priorMeaning": "A person who feels or remains calm, steady and connected to practical reality; well-grounded describes a sensible, emotionally steady person, while more grounded explicitly compares with before.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Evidence-backed argument versus emotionally steady person.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2295,
+      "sourceSentence": "The opening scene should pull them in at once.",
+      "proposedTitle": "pull them in",
+      "proposedOwnerId": "advanced-native-2295",
+      "priorOwnerId": "advanced-native-048",
+      "priorOwnerTitle": "at once",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Attract an audience’s attention or curiosity so they want to engage.",
+      "priorMeaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Attract attention versus at once as a time adjunct.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2335,
+      "sourceSentence": "A short reply may come across as rude.",
+      "proposedTitle": "come across as",
+      "proposedOwnerId": "advanced-native-2335",
+      "priorOwnerId": "advanced-native-120",
+      "priorOwnerTitle": "come across",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Seem to others to have a particular quality, regardless of the speaker’s intention.",
+      "priorMeaning": "Find or meet someone or something by chance.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Impression formed by come across as versus chance discovery with come across.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2342,
+      "sourceSentence": "The film relied on star power to fill cinemas.",
+      "proposedTitle": "star power",
+      "proposedOwnerId": "advanced-native-2342",
+      "priorOwnerId": "advanced-native-256",
+      "priorOwnerTitle": "rely on",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "A celebrity’s ability to attract an audience or public attention.",
+      "priorMeaning": "Depend on a person, service, resource or method for something needed.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Celebrity appeal versus incidental relied on.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2366,
+      "sourceSentence": "It is wise to keep your feet on the ground after a big win.",
+      "proposedTitle": "keep your feet on the ground",
+      "proposedOwnerId": "advanced-native-2366",
+      "priorOwnerId": "advanced-native-536",
+      "priorOwnerTitle": "on the ground",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Remain realistic and sensible despite success, praise or excitement.",
+      "priorMeaning": "In the actual local situation where work happens, rather than only in plans or distant descriptions.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Stay realistic after praise versus work on the ground in the local situation.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2458,
+      "sourceSentence": "The schedule ended up running their life.",
+      "proposedTitle": "running their life",
+      "proposedOwnerId": "advanced-native-2458",
+      "priorOwnerId": "advanced-native-041",
+      "priorOwnerTitle": "end up",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Control a person’s daily choices or routine instead of merely assisting them.",
+      "priorMeaning": "Eventually reach a result or find yourself doing something, often without originally intending it. The examples here mainly show an initial purpose turning into comparison.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "A schedule controlling choices versus incidental ended up.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2467,
+      "sourceSentence": "The argument began to fall apart under closer inspection.",
+      "proposedTitle": "fall apart under closer inspection",
+      "proposedOwnerId": "advanced-native-2467",
+      "priorOwnerId": "advanced-native-1164",
+      "priorOwnerTitle": "fall apart",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "An argument or claim proves weak when its evidence and logic are examined carefully.",
+      "priorMeaning": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Weak argument under scrutiny versus a person losing emotional composure.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2514,
+      "sourceSentence": "The effects will show up in the final results.",
+      "proposedTitle": "show up",
+      "proposedOwnerId": "advanced-native-2514",
+      "priorOwnerId": "advanced-native-364",
+      "priorOwnerTitle": "show up",
+      "exactTitle": true,
+      "exactSourceExpression": true,
+      "detectorMatch": true,
+      "proposedMeaning": "For an effect or difference to become evident in later observations or results.",
+      "priorMeaning": "Be present when needed and offer support, especially in show up for someone.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "A measurable effect becoming visible versus interpersonal support.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2585,
+      "sourceSentence": "Teenagers can become caught up in social pressure online.",
+      "proposedTitle": "caught up in social pressure",
+      "proposedOwnerId": "advanced-native-2585",
+      "priorOwnerId": "advanced-native-1521",
+      "priorOwnerTitle": "catching up",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Become so entangled in others’ expectations that one’s choices are driven by that pressure.",
+      "priorMeaning": "Talk and share recent news after time apart.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Entrapment in social pressure versus exchanging news after time apart.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2627,
+      "sourceSentence": "Saving is difficult if you keep blowing it all at once.",
+      "proposedTitle": "blowing it all at once",
+      "proposedOwnerId": "advanced-native-2627",
+      "priorOwnerId": "advanced-native-048",
+      "priorOwnerTitle": "at once",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Spend all of an available sum quickly in one burst instead of keeping some for later.",
+      "priorMeaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Spend all money in one burst versus simultaneous events; at once is incidental.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2657,
+      "sourceSentence": "An unknown artist can blow up overnight online.",
+      "proposedTitle": "blow up overnight",
+      "proposedOwnerId": "advanced-native-2657",
+      "priorOwnerId": "advanced-native-061",
+      "priorOwnerTitle": "overnight",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Become widely noticed or popular very quickly, especially online.",
+      "priorMeaning": "Very quickly or almost suddenly, not necessarily during one literal night.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Sudden popularity versus the time adverb overnight alone.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2853,
+      "sourceSentence": "Do not read serious claims with your brain switched off.",
+      "proposedTitle": "brain switched off",
+      "proposedOwnerId": "advanced-native-2853",
+      "priorOwnerId": "advanced-native-375",
+      "priorOwnerTitle": "switch off",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "In an informal metaphor, not actively thinking or checking what one is told.",
+      "priorMeaning": "Stop thinking about work or worries for a while and relax.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Failing to think critically versus relaxing from work/worry.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2876,
+      "sourceSentence": "Officials have their hands on the wheel during a crisis.",
+      "proposedTitle": "hands on the wheel",
+      "proposedOwnerId": "advanced-native-2876",
+      "priorOwnerId": "advanced-native-329",
+      "priorOwnerTitle": "hands-on",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Having practical control over decisions and the direction of events.",
+      "priorMeaning": "Involving direct practical participation rather than only observing or studying theory.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Control of decisions versus direct practical participation.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 2956,
+      "sourceSentence": "The celebration is not worth picking up the pieces afterwards.",
+      "proposedTitle": "picking up the pieces afterwards",
+      "proposedOwnerId": "advanced-native-2956",
+      "priorOwnerId": "advanced-native-441",
+      "priorOwnerTitle": "pick up",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Deal with damage, disrupted plans or other consequences after a harmful event or decision.",
+      "priorMeaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Repair consequences after harm versus informal skill acquisition.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3142,
+      "sourceSentence": "The room became quiet at once.",
+      "proposedTitle": "at once",
+      "proposedOwnerId": "advanced-native-3142",
+      "priorOwnerId": "advanced-native-048",
+      "priorOwnerTitle": "at once",
+      "exactTitle": true,
+      "exactSourceExpression": true,
+      "detectorMatch": true,
+      "proposedMeaning": "Immediately after a trigger, without delay; this is the time-sequence sense, not simultaneous actions.",
+      "priorMeaning": "At the same time; this lesson focuses on simultaneous actions or demands.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Immediate sequence after a trigger versus simultaneous action; same surface has a separate taught sense.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3175,
+      "sourceSentence": "She is even-tempered under pressure.",
+      "proposedTitle": "even-tempered",
+      "proposedOwnerId": "advanced-native-3175",
+      "priorOwnerId": "advanced-native-486",
+      "priorOwnerTitle": "under pressure",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Generally calm and steady in mood, including when facing pressure or disagreement.",
+      "priorMeaning": "Facing stress, demands or a strong expectation to act.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Stable temperament versus temporary demands under pressure.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3186,
+      "sourceSentence": "The plan was falling apart after the second delay.",
+      "proposedTitle": "falling apart",
+      "proposedOwnerId": "advanced-native-3186",
+      "priorOwnerId": "advanced-native-1164",
+      "priorOwnerTitle": "fall apart",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "A plan or organised activity is breaking down because its necessary parts no longer work together.",
+      "priorMeaning": "Become so upset that it is difficult to think calmly or deal with the immediate situation.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "A plan ceasing to function versus a person emotionally breaking down.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3198,
+      "sourceSentence": "Her parents have her best interests at heart.",
+      "proposedTitle": "best interests at heart",
+      "proposedOwnerId": "advanced-native-3198",
+      "priorOwnerId": "advanced-native-562",
+      "priorOwnerTitle": "at heart",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Sincerely want what is best for another person’s welfare, even when the advice is unwelcome.",
+      "priorMeaning": "In someone’s basic nature or deepest interests, even if outward roles suggest something else.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Wanting another person’s welfare versus a person’s inner nature.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3308,
+      "sourceSentence": "Even careful planners know life does not always follow a script.",
+      "proposedTitle": "life does not always follow a script",
+      "proposedOwnerId": "advanced-native-3308",
+      "priorOwnerId": "advanced-native-711",
+      "priorOwnerTitle": "follow a script",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Events do not necessarily unfold according to a plan or expected sequence.",
+      "priorMeaning": "Behave according to a familiar or expected pattern rather than choosing freely.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Events departing from expected sequence versus a person following a routine/social script.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3394,
+      "sourceSentence": "Visitors can pick up a postcard at the market.",
+      "proposedTitle": "pick up",
+      "proposedOwnerId": "advanced-native-3394",
+      "priorOwnerId": "advanced-native-441",
+      "priorOwnerTitle": "pick up",
+      "exactTitle": true,
+      "exactSourceExpression": true,
+      "detectorMatch": true,
+      "proposedMeaning": "Obtain or buy a small item casually while visiting or passing a place; not the skill-learning sense.",
+      "priorMeaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Obtaining a tangible item versus acquiring a skill informally.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 3735,
+      "sourceSentence": "Others may struggle to keep their heads above water.",
+      "proposedTitle": "keep their heads above water",
+      "proposedOwnerId": "advanced-native-3735",
+      "priorOwnerId": "advanced-native-491",
+      "priorOwnerTitle": "keep a cool head",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Continue coping with heavy demands without being overwhelmed, often only just. This lesson uses workload and time pressure rather than canonical 349’s financial viability sense.",
+      "priorMeaning": "Remain calm and able to think clearly in a difficult or tense situation.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Barely coping with ongoing demands versus remaining calm and clear-headed.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 4047,
+      "sourceSentence": "Children grow out of clothes remarkably quickly.",
+      "proposedTitle": "grow out of clothes",
+      "proposedOwnerId": "advanced-native-4047",
+      "priorOwnerId": "advanced-native-957",
+      "priorOwnerTitle": "grow out of real daily life",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Become physically too large for clothes that once fitted, usually through growth.",
+      "priorMeaning": "Develop from an existing experience, need or situation.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Physically outgrowing clothing versus developing from an experience or need.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 4315,
+      "sourceSentence": "A brief text can come across the wrong way.",
+      "proposedTitle": "come across the wrong way",
+      "proposedOwnerId": "advanced-native-4315",
+      "priorOwnerId": "advanced-native-120",
+      "priorOwnerTitle": "come across",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Be interpreted with a tone or meaning the speaker did not intend, especially when context or vocal cues are missing.",
+      "priorMeaning": "Find or meet someone or something by chance.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Unintended wrong interpretation versus finding something by chance.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    },
+    {
+      "sourceOrdinal": 4488,
+      "sourceSentence": "A festival changes shape when it enters a new culture.",
+      "proposedTitle": "changes shape",
+      "proposedOwnerId": "advanced-native-4488",
+      "priorOwnerId": "advanced-native-020",
+      "priorOwnerTitle": "shape",
+      "exactTitle": false,
+      "exactSourceExpression": false,
+      "detectorMatch": true,
+      "proposedMeaning": "Take a different form as circumstances or cultural setting change while some purpose may continue.",
+      "priorMeaning": "Influence how something develops or how someone thinks or behaves.",
+      "verdict": "distinct_target_or_sense",
+      "rationale": "Changing form versus influencing how something develops.",
+      "action": "keep separate; lexical detector hit alone is not owner equivalence"
+    }
+  ],
+  "nearFullFuzzyVerdicts": [
+    {
+      "lesson": 2457,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "It can be a brilliant servant, but a poor master; let it remind us without obeying every suggestion.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 2457,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "The translation tool can be a brilliant servant, but a poor master: it saves time, yet volunteers must check the event details.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 2457,
+      "field": "dialogue.options[0].en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "It can be a brilliant servant, but a poor master; use the light correction, but decide yourself which details belong in the picture.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 2457,
+      "field": "speaking.en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "A navigation app can be a brilliant servant, but a poor master if drivers follow it past a clear road-closure sign.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 2457,
+      "field": "writing.examples[0].en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "The editing tool can be a brilliant servant, but a poor master: it corrected grammar, yet the school editors kept an important quote after reviewing its suggestion.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 2457,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-0346",
+      "sourceSentence": "Technology can be a brilliant servant, but a poor master.",
+      "learnerText": "The school editors used software to fix grammar, but rejected its suggestion to remove an important quote; they showed that it can be a brilliant servant, but a poor master when allowed to decide what matters.",
+      "mismatches": 1,
+      "verdict": "fixed_target_overlap",
+      "rationale": "The fixed quoted expression occupies nearly the entire short guide example; changing it would remove the assessed target."
+    },
+    {
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1397",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "The timetable is only a few clicks away on the course site, although you still need to check which week applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    },
+    {
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1480",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "The timetable is only a few clicks away on the course site, although you still need to check which week applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    },
+    {
+      "lesson": 3508,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1772",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "The timetable is only a few clicks away on the course site, although you still need to check which week applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    },
+    {
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1397",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "From the centre homepage, the timetable is only a few clicks away; reaching it quickly does not tell a member which session date applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    },
+    {
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1480",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "From the centre homepage, the timetable is only a few clicks away; reaching it quickly does not tell a member which session date applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    },
+    {
+      "lesson": 3508,
+      "field": "writing.examples[1].en",
+      "sourceId": "book10-16-1772",
+      "sourceSentence": "The guide is only a few clicks away.",
+      "learnerText": "From the centre homepage, the timetable is only a few clicks away; reaching it quickly does not tell a member which session date applies.",
+      "mismatches": 1,
+      "verdict": "source_template_rewrite_candidate",
+      "rationale": "The short guide sentence is reproduced with timetable replacing guide; the target must stay, but the surrounding sentence frame can change."
+    }
+  ],
+  "reviewNearFullSpotChecks": [
+    {
+      "lesson": 2758,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-0647",
+      "sourceSentence": "The old theatre holds a special place in local memory.",
+      "learnerText": "The old library holds a special place in his memory because he learned there with his grandfather.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    },
+    {
+      "lesson": 3162,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1051",
+      "sourceSentence": "My patience is being tested by the repeated delays.",
+      "learnerText": "Her patience is being tested by the repeated website failures.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    },
+    {
+      "lesson": 3280,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-1169",
+      "sourceSentence": "He kept hiding behind excuses instead of apologising.",
+      "learnerText": "He is hiding behind excuses instead of correcting the labels.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    },
+    {
+      "lesson": 3334,
+      "field": "speaking.en",
+      "sourceId": "book10-16-1223",
+      "sourceSentence": "He planned the trip down to the last detail.",
+      "learnerText": "The team planned the concert down to the last detail, including labelled cables and a backup contact for the performers.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    },
+    {
+      "lesson": 3689,
+      "field": "reply.options[2].en",
+      "sourceId": "book10-16-1578",
+      "sourceSentence": "New tools can be a blessing or a burden.",
+      "learnerText": "The lights can be a blessing or a burden.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    },
+    {
+      "lesson": 4709,
+      "field": "scene.options[0].en",
+      "sourceId": "book10-16-2598",
+      "sourceSentence": "The hotel sits right in the thick of things.",
+      "learnerText": "The volunteer is right in the thick of things.",
+      "status": "text_level_carrier_similarity_for_manual_context_check",
+      "reason": "Short source and learner lines share the fixed target plus surrounding sentence structure; lesson context and target constraints were not fully re-reviewed in this pass."
+    }
+  ],
+  "titleBriefComparisons": [
+    {
+      "lessonIds": [
+        2240,
+        3715
+      ],
+      "titles": [
+        "shifted with the times",
+        "move with the times"
+      ],
+      "verdict": "semantic_near_pair_different_target_lexemes",
+      "reason": "Both concern adapting as circumstances change, but the assessed verb construction differs; no exact detector-supported alias."
+    },
+    {
+      "lessonIds": [
+        2278,
+        4652
+      ],
+      "titles": [
+        "shed light on",
+        "shine a light on"
+      ],
+      "verdict": "related_distinct_decision",
+      "reason": "2278 explains a cause or unclear matter; 4652 brings an overlooked issue to notice."
+    },
+    {
+      "lessonIds": [
+        2854,
+        4304
+      ],
+      "titles": [
+        "spill across borders",
+        "cross borders"
+      ],
+      "verdict": "related_distinct_decision",
+      "reason": "Spill foregrounds effects spreading from one place; cross borders states transnational reach without that spillover image."
+    },
+    {
+      "lessonIds": [
+        2335,
+        4315
+      ],
+      "titles": [
+        "come across as",
+        "come across the wrong way"
+      ],
+      "verdict": "related_distinct_construction",
+      "reason": "General perceived quality versus unintended wrong interpretation; different complements and target patterns."
+    },
+    {
+      "lessonIds": [
+        2969,
+        3564
+      ],
+      "titles": [
+        "imposed from above",
+        "from the top down"
+      ],
+      "verdict": "related_distinct_decision",
+      "reason": "A specific requirement imposed without input versus an organisational direction of decision flow."
+    },
+    {
+      "lessonIds": [
+        2152,
+        4146
+      ],
+      "titles": [
+        "losing track",
+        "keep track of"
+      ],
+      "verdict": "opposite_decision",
+      "reason": "Failure to maintain awareness versus maintaining it."
+    }
+  ],
+  "actionableFindings": [
+    {
+      "id": "O3508-01",
+      "severity": "medium_source_template_risk",
+      "lesson": 3508,
+      "fields": [
+        "speaking.en",
+        "writing.examples[1].en"
+      ],
+      "sourceIds": [
+        "book10-16-1397",
+        "book10-16-1480",
+        "book10-16-1772"
+      ],
+      "sourceSentence": "The guide is only a few clicks away.",
+      "finding": "The selected lesson keeps the source sentence frame and substitutes timetable for guide in two near-full matches. The target phrase itself is legitimate; the non-target carrier should be rephrased while preserving the target and EN/ZH meaning.",
+      "action": "Scoped author rewrite and independent exact-hash recheck before treating this wording risk as closed."
+    }
+  ],
+  "conclusion": "No concrete same-sense owner merge is established by the 27 detector hits or the exact/near title-and-brief screen. One selected lesson has a specific source-template rewrite candidate. Other lower-priority fuzzy signals remain a bounded review queue, not an originality certification.",
+  "mutations": "No draft, decision, manifest or audit file changed by this report."
+}

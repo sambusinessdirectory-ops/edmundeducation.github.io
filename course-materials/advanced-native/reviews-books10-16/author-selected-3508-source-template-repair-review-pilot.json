@@ -1,0 +1,37 @@
+{
+  "reportType": "author scoped selected-lesson originality repair",
+  "atUtc": "2026-10-23T22:44:31.351648+00:00",
+  "finding": "O3508-01 from independent-ai-selected-604-owner-originality-risk-review-pilot.json",
+  "selectedFile": "course-materials/advanced-native/drafts-books10-16/batch-3486-3512-review-pilot.json",
+  "beforeSelectedFileSha256": "a18e165093f5d5bbf3308e0bd3fb98ad0696eb05bcadaf9c38eea735c6399a0c",
+  "afterSelectedFileSha256": "00e7a664b1b5f126b4d7cb95196f4a5917386b256676999beae3642335da28ad",
+  "selectedManifestFile": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "aacb92cc09e03b0dfea4b312510a1a675021b6e8f265a9d1355f954ce56152e7",
+  "lessonId": "advanced-native-3508",
+  "contentRevision": 4,
+  "changedFields": [
+    "speaking.en",
+    "speaking.zh",
+    "speaking.targetSpan",
+    "writing.examples[1].en",
+    "writing.examples[1].zh",
+    "writing.glossary[4].span",
+    "writing.glossary[5].span",
+    "contentRevision"
+  ],
+  "repairSummary": "Speaking now addresses the listener who opens the course site; writing model 2 follows Courses and Downloads from the centre homepage. Both retain only a few clicks away and the need to check the applicable week or class date, without following the guide sentence X is only a few clicks away. Traditional Chinese matches the new navigation and caveat.",
+  "checks": {
+    "focusedBuildAndCheck": "6 lessons, 36 questions, 24 audio requests, zero flags in fresh build and --check",
+    "targetRegexMatchesSpeaking": true,
+    "speakingTargetSpanExact": true,
+    "writingGlossarySpansExact": "6/6",
+    "selectedOriginalityBefore": "12 near-full fuzzy leads, of which six were three source IDs times two 3508 fields",
+    "selectedOriginalityAfter": "6 near-full fuzzy leads, zero for 3508; selected set remains 604",
+    "newGuideExactHighMediumCounts": "0/0/0",
+    "writingPromptAndSelfCheck": "Both links, swimming timetable, class-specific date and no false registration claim preserved.",
+    "otherLessonsInFile": "Only lesson 3508 changed; diff shows two EN/ZH fields, two glossary offsets, speaking target span and contentRevision."
+  },
+  "audioDelta": "3508 speaking.en changed; regenerate/review that audio role before release. No audio generated here.",
+  "status": "pending independent exact-hash review; no release approval",
+  "mutations": "No decision, selected manifest, central SOP audit, or audio file edited."
+}

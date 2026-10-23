@@ -4114,11 +4114,12 @@
       "titleEn": "lay the foundations",
       "titleZh": "為日後發展打好基礎",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\b(?:lay(?:s|ing)?|laid) the foundations\\b",
+        "pattern": "\\b(?:lay(?:s|ing)?|laid) the foundations\\b|\\b(?:build|builds|built|building) strong foundations\\b",
         "glossaryForbidden": [
-          "\\bthe foundations\\b"
+          "\\bthe foundations\\b",
+          "\\bstrong foundations\\b"
         ]
       },
       "sources": [
@@ -4160,16 +4161,30 @@
           "sentence": "Early reading can lay the foundations for later study.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "lay the foundations"
+        },
+        {
+          "occurrenceId": "book10-16-1475",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 138,
+          "book": 14,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 146, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Daily reading builds strong foundations.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "strong foundations"
         }
       ],
       "brief": {
-        "meaningEn": "Establish basic conditions, knowledge or arrangements that support something developing later.",
-        "meaningZh": "建立日後發展所需的基本條件、知識或安排。",
-        "grammar": "lay/laid/laying the foundations for + noun/-ing; foundations are figurative support in this lesson. Laying them is a preparatory achievement, not completion of the later work.",
-        "register": "Conventional construction metaphor. Related building-block language names the components, while lay the foundations emphasises establishing support.",
-        "boundaryZh": "打基礎不等於後續已完成或保證成功，也不必只有一種基礎；需說何種準備支撐甚麼。",
-        "misconceptionZh": "不能只開過會或寫過標題便當已建立條件，要看實際協議、練習或可用資料。",
-        "outcomeZh": "能把已做準備連到後續用途，清楚保留未做部分。"
+        "meaningEn": "Establish basic conditions, knowledge or habits that support later development, or describe the secure base those preparations create.",
+        "meaningZh": "建立支持日後發展的基本條件、知識或習慣，也可描述這些準備形成的穩固基礎。",
+        "grammar": "lay/laid/laying the foundations for + noun/-ing describes preparation; build/builds/built/building strong foundations may stand alone, as in “Daily reading builds strong foundations,” or take a for + noun complement naming later work. Neither form says the later work is complete.",
+        "register": "Conventional construction metaphor. A teacher may describe regular basic practice to learners; a project organiser may describe preliminary agreements to colleagues.",
+        "boundaryZh": "打下或建立穩固基礎不等於後續已完成或保證成功；需說明具體準備會支撐甚麼。",
+        "misconceptionZh": "不能只開過會或寫過標題便當已建立基礎；須有實際協議、練習或可用資料。",
+        "outcomeZh": "能把已做的基礎練習或安排連到後續用途，同時保留未完成部分。"
       },
       "listening": {
         "promptEn": "",
@@ -4231,26 +4246,26 @@
       },
       "scene": {
         "promptEn": "",
-        "promptZh": "小組開會只說「要合作更好」，未議誰交資料、用哪版本或怎查；你不想把一次會議就稱已打好交接基礎。哪句最謹慎？",
+        "promptZh": "社區合唱團每周練習音高與呼吸，現在能更穩定地唱準簡單旋律，但尚未學複雜和聲。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "They have not yet laid the foundations for the handover, because the needed arrangements remain undecided.",
-            "zh": "所需安排仍未定，所以他們尚未為交接打好基礎。"
+            "en": "The regular practice is building strong foundations for later harmony work, though that work still lies ahead.",
+            "zh": "定期練習正為日後的和聲學習建立穩固基礎，雖然那部分仍未開始。"
           },
           {
             "id": "choice-2",
-            "en": "The group agreed which version to use and assigned who would send it.",
-            "zh": "小組已議定用哪個版本，以及由誰發送。"
+            "en": "The choir has already mastered the later harmonies because its basic pitch has improved.",
+            "zh": "合唱團因基本音高有進步，便已掌握日後的複雜和聲。"
           },
           {
             "id": "choice-3",
-            "en": "The handover was tested and completed before the group discussed its purpose.",
-            "zh": "小組討論目的前，交接已測完並完成。"
+            "en": "The pitch practice is only a warm-up unrelated to the choir’s later singing.",
+            "zh": "音高練習只是熱身，與合唱團日後的歌唱無關。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "只有口號，版本及責任仍未議定；也未測試交接，不能把一次討論當準備條件已建好。"
+        "explanationZh": "每周的基本練習形成日後學和聲的穩固基礎；音高進步不表示已掌握複雜和聲，練習也並非與後續無關。"
       },
       "contrast": {
         "promptEn": "",
@@ -4374,8 +4389,8 @@
           "zh": "早期談話為共同展覽打基礎，但最後選材仍需討論。"
         },
         {
-          "en": "They were laying the foundations for a reliable catalogue by agreeing how to record uncertain dates.",
-          "zh": "他們正議定怎記未確認日期，為可靠目錄打基礎。"
+          "en": "A local choir built strong foundations for more complex songs by practising basic pitch patterns.",
+          "zh": "本地合唱團練習基本音高模式，為日後較複雜的歌曲建立穩固基礎。"
         }
       ],
       "review": {
