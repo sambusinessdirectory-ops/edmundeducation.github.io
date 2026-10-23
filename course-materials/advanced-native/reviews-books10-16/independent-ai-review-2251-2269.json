@@ -1,0 +1,111 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2251-2269-a.json",
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonIds": ["advanced-native-2251", "advanced-native-2252", "advanced-native-2253", "advanced-native-2255", "advanced-native-2266", "advanced-native-2269"],
+    "contentRevisionsReviewed": {"2251": 2, "2252": 2, "2253": 2, "2255": 2, "2266": 2, "2269": 2}
+  },
+  "counts": {"blocker": 0, "major": 1, "minor": 11, "lessonsWithFindings": 6},
+  "findings": [
+    {
+      "lessonId": "advanced-native-2251",
+      "path": "writing.promptZh; writing.selfCheckZh; writing.examples[0..1]",
+      "severity": "major",
+      "explanation": "The changed situation and self-check require both testing two robot functions and clearing the table. Example 1 mentions testing both functions but omits clearing; example 2 mentions clearing and a generic safety check but not testing both functions. Neither is a complete model for the two-part task.",
+      "recommendedFix": "Make at least one example cover both testing the two functions and clearing the table while retaining the short, intense pace. Align its Chinese and recompute all glossary spans after editing."
+    },
+    {
+      "lessonId": "advanced-native-2251",
+      "path": "scene.options[c]; dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "The car-accelerator scene option is a conspicuously irrelevant literal gag in a community-kitchen situation. The dialogue alternatives explicitly advocate accepting errors or waiting until doors open, leaving no credible near-miss. These do not meet the SOP's plausible-distractor standard.",
+      "recommendedFix": "Use scene alternatives about a slower or differently timed packing approach, and dialogue alternatives that are superficially helpful but miss the need to finish and verify before opening. Preserve the single keyed target response."
+    },
+    {
+      "lessonId": "advanced-native-2252",
+      "path": "scene.options[b]; dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "Permanently abandoning schoolwork after a ten-minute break, deleting every design without telling the team, and making random changes until the goal is forgotten are caricatures rather than plausible learner choices. The correct options are too easy to spot without understanding a temporary reset.",
+      "recommendedFix": "Contrast a temporary pause and return with plausible but less suitable responses such as continuing immediately despite confusion, postponing the comparison to a defined later time, or choosing a version before the group regains clarity. Keep the intended key and the four-valid reply step unchanged."
+    },
+    {
+      "lessonId": "advanced-native-2253",
+      "path": "listening.options[d]; scene.options[c]; contrast.options[c]; dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "Carrying travel equipment is an arbitrary explanation for someone explicitly at a desk. A long-distance run is unrelated to comparing witness accounts. A blue chair becoming mentally draining and the claim that numbers can never require thought are absurd foils; the no-pause command is similarly blunt. The contrast should test the adjective's cause-versus-person boundary through credible wording.",
+      "recommendedFix": "Use credible mental-versus-physical or effort-versus-outcome alternatives tied to the same office task; for the contrast, keep the useful 'I was mentally draining' misuse and replace the blue-chair option with another natural-looking but wrong application. Make dialogue alternatives plausible partial responses to the colleague's fatigue."
+    },
+    {
+      "lessonId": "advanced-native-2255",
+      "path": "scene.options[c]; dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "A cookbook allegedly popular because it never leaves its shelf is internally incoherent. The dialogue's absolute claims that one day proves attendance for decades or no activity can ever last are much less plausible than the keyed caution. They fail to test the needed evidence across time with realistic near-misses.",
+      "recommendedFix": "Use a launch-day-only cookbook claim or a distinct but insufficient period of popularity as the scene foil. Make dialogue alternatives plausible premature conclusions from opening-day attendance while keeping only the keyed answer appropriately evidence-based."
+    },
+    {
+      "lessonId": "advanced-native-2266",
+      "path": "listening.en",
+      "severity": "minor",
+      "explanation": "'The speaker first listed recycling figures, but her point really lands when she shows ...' switches from past narrative to present without an established historical-present frame. This is conspicuous in a model sentence that students may repeat.",
+      "recommendedFix": "Use a consistent present frame ('The speaker first lists ... and her point really lands when she shows ...') or a consistent past frame with an approved target form and revised target metadata/audio."
+    },
+    {
+      "lessonId": "advanced-native-2266",
+      "path": "scene.promptZh; scene.options[a].en; scene.options[a].zh; scene.options[c]",
+      "severity": "minor",
+      "explanation": "The scene says the principal compares the wasted water with a number of buckets, but the keyed English says 'the water is shown in familiar buckets', implying actual water is displayed. The roof-landing buckets option is also a literal joke, not a plausible rival explanation of the principal's comparison.",
+      "recommendedFix": "Say the amount is expressed as a familiar number of bucketfuls or compared with buckets, translate that precisely, and replace the roof-landing option with a realistic but inadequate interpretation of the comparison."
+    },
+    {
+      "lessonId": "advanced-native-2266",
+      "path": "listening.options[d]; dialogue.options[c]",
+      "severity": "minor",
+      "explanation": "Family spending is an unexplained topic jump from weekly waste in the listening model, while removing the short talk's entire main point is not a plausible advice option. Both are conspicuous rather than meaningfully tempting.",
+      "recommendedFix": "For listening, use a nearby but unsupported inference about the recycling argument. For dialogue, use a superficially sensible speaking tactic that fails to make the main point concrete; retain one clearly best helpful answer."
+    },
+    {
+      "lessonId": "advanced-native-2266",
+      "path": "writing.promptZh; writing.examples[1].en; writing.examples[1].zh; writing.glossary[3]",
+      "severity": "minor",
+      "explanation": "The writing situation says the chair shows how many bottles one class threw away in a week; it does not establish a physical pile. Example 2 invents 'the pile of used bottles', and the Chinese translation follows that ungrounded detail. Its glossary inherits the invented display method.",
+      "recommendedFix": "Refer to the displayed weekly count or a visual chart in both English and Chinese, unless the prompt is expanded to explicitly establish a pile. Re-extract the affected glossary row from the revised answer."
+    },
+    {
+      "lessonId": "advanced-native-2269",
+      "path": "dialogue.options[b..c]",
+      "severity": "minor",
+      "explanation": "Deleting the attendance record and openly inventing any figure are exaggerated, self-incriminating replies. The task already makes the 80-versus-200 discrepancy clear, so these foils offer little practice distinguishing misleading promotion from a defensible report.",
+      "recommendedFix": "Use plausible promotional compromises that remain wrong, such as reporting registrations or expected reach as attendance without clear labels, or rounding eighty upward to a misleading figure. Keep the keyed response based on verified attendance."
+    },
+    {
+      "lessonId": "advanced-native-2251",
+      "path": "listening.options[b]",
+      "severity": "minor",
+      "explanation": "The delayed-opening premise appears nowhere in the model, so this option is not as tightly tailored to the audible evidence as the other tempo alternatives. It is still grammatical and unambiguously wrong, but distractor quality can be improved.",
+      "recommendedFix": "Use an interpretation that stays within the last-hour preparation scenario, such as treating the team as working methodically at its normal pace despite the remaining work."
+    },
+    {
+      "lessonId": "advanced-native-2266",
+      "path": "listening.options[c]",
+      "severity": "minor",
+      "explanation": "The option says the photograph adds a side issue without clarifying the main point, which is a valid contrary reading to test; however, the model's single clear photograph of one family's waste makes that reading rather remote. This is a quality concern rather than answer ambiguity.",
+      "recommendedFix": "Prefer a closer but unsupported interpretation, such as the photograph merely illustrating the figures without changing how well the audience grasps the argument."
+    }
+  ],
+  "passedChecks": [
+    "All six source occurrence IDs, expression strings and guide example sentences match the extracted source inventory; the taught senses and broad grammar/register choices are supported.",
+    "All six listening models and speaking models, golden replies, keyed scene/dialogue answers, two writing examples per lesson and takeaways have approved target-form matches. Every speaking target span matches the exact approved surface phrase.",
+    "Each lesson has four distinct independently valid replies with exactly one target-bearing golden reply; all standard scene, contrast and dialogue keys remain unambiguous despite the weak distractors noted above.",
+    "All 30 glossary entries are exact character spans in their cited suggested answers and exclude target forms. The 2266 pile row is mechanically valid but editorially inherits an invented scene detail.",
+    "The revised listening options are mostly closer to the model and remain unambiguously wrong; the specific weaker options are identified in the findings. English and Traditional Chinese option meanings and negation generally align."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval, owner acceptance, or release approval.",
+    "No prerecorded audio was heard and no browser/device typography, sound-feedback, microphone, progress-state, or live lesson check was performed."
+  ]
+}

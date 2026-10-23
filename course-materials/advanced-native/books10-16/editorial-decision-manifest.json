@@ -8,7 +8,9 @@
     "editorial-decisions-2292-2351.jsonl",
     "editorial-decisions-2352-2411.jsonl",
     "editorial-decisions-2412-2471.jsonl",
-    "editorial-decisions-2472-2531.jsonl"
+    "editorial-decisions-2472-2531.jsonl",
+    "editorial-decisions-2532-2591.jsonl",
+    "editorial-decisions-2592-2651.jsonl"
   ],
-  "expectedSourceOrdinals": 420
+  "expectedSourceOrdinals": 540
 }

@@ -1,0 +1,61 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "countsAtReviewCompletion": {
+    "proposedAliasExisting": 25,
+    "proposedAliasNew": 0,
+    "holdEditorial": 27,
+    "proposedNewLesson": 8,
+    "openFindings": 0
+  },
+  "resolvedDuringAudit": [
+    {
+      "sourceOrdinal": 2565,
+      "phrase": "open the door to",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-028",
+      "explanation": "Canonical 028 explicitly teaches open the door to + noun/gerund and detects the complete source sentence. A second opportunity-metaphor lesson would duplicate its owner."
+    },
+    {
+      "sourceOrdinal": 2578,
+      "phrase": "training wheels",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "hold-editorial",
+      "explanation": "Canonical 1276 already explains the temporary-learning-support metaphor in strip away the training wheels; this source uses that metaphor for support being provided rather than removed. Ownership and action scope need review."
+    },
+    {
+      "sourceOrdinal": 2581,
+      "phrase": "open the door to",
+      "originalAction": "proposed-alias-new",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-028",
+      "explanation": "The repeated source sentence shares 2565's existing canonical owner 028 rather than aliasing a proposed duplicate lesson."
+    },
+    {
+      "sourceOrdinal": 2582,
+      "phrase": "well-grounded",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "hold-editorial",
+      "explanation": "Canonical 798 already teaches grounded for calm, steady emotional balance; the well- modifier and person-description need owner-scope review before a new lesson is warranted."
+    }
+  ],
+  "findings": [],
+  "mechanicalChecks": [
+    "All 60 ordinals are contiguous 2532–2591; source IDs, expressions and ordinal offsets match the extracted inventory.",
+    "Proposed-new IDs match their source ordinals; all holds have null IDs; no alias-new owner remains in this window.",
+    "The remaining existing aliases were checked for source sense and prior lesson ownership, not merely regex coverage. Specific construction mismatches remain explicit holds."
+  ],
+  "limits": [
+    "AI peer review of provisional decisions only, not human editorial, owner or release approval.",
+    "The original DOCX pages and device/audio behavior were not independently rechecked."
+  ]
+}

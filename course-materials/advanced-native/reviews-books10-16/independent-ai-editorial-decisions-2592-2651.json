@@ -1,0 +1,53 @@
+{
+  "reviewType": "independent AI editorial decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "decisionState": "provisional; unpublished",
+  "scope": {
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+    "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "priorLessons": "course-materials/advanced-native/batches/*.json",
+    "decisionCount": 60
+  },
+  "countsAtReviewCompletion": {
+    "proposedAliasExisting": 23,
+    "proposedAliasNew": 2,
+    "holdEditorial": 22,
+    "proposedNewLesson": 13,
+    "openFindings": 0
+  },
+  "resolvedDuringAudit": [
+    {
+      "sourceOrdinal": 2626,
+      "phrase": "training wheels",
+      "originalAction": "proposed-alias-new",
+      "currentAction": "hold-editorial",
+      "explanation": "This repeated occurrence cannot alias proposed owner 2578 after that owner was held; both occurrences now await the same canonical-1276 comparison."
+    },
+    {
+      "sourceOrdinal": 2645,
+      "phrase": "deep roots here",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "hold-editorial",
+      "explanation": "Canonical 1471 already teaches a festival/practice with deep roots in family life, while canonical 1854 teaches developing deep community ties. The broader local-place wording needs an explicit owner-scope decision."
+    },
+    {
+      "sourceOrdinal": 2646,
+      "phrase": "cultural memory",
+      "originalAction": "proposed-new-lesson",
+      "currentAction": "hold-editorial",
+      "explanation": "Canonical 406 already defines and teaches cultural memory inside uncover a layer of cultural memory; the standalone noun may merit a separate outcome, but ownership must be decided before drafting."
+    }
+  ],
+  "findings": [],
+  "mechanicalChecks": [
+    "All 60 ordinals are contiguous 2592–2651; source IDs, expressions and ordinal offsets match the extracted inventory.",
+    "Proposed-new IDs match their source ordinals; holds have null IDs; the two remaining alias-new entries point to earlier proposed owner 2614.",
+    "Existing-alias source meanings were compared with prior lesson meanings, including negated and inflected variants; no additional clear mismatch was found.",
+    "For 2651, canonical 309's existing regex matches the complete source sentence 'The decision is not always black and white.' under Unicode-aware case-insensitive matching; a contrary byte-level audit report would be a tool false exception, not source-sense evidence."
+  ],
+  "limits": [
+    "AI peer review of provisional decisions only, not human editorial, owner or release approval.",
+    "The original DOCX pages and device/audio behavior were not independently rechecked."
+  ]
+}

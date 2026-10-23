@@ -1,0 +1,1614 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-second60-provisional-a2-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2251",
+      "number": 2251,
+      "inventoryId": "expr-2251",
+      "titleEn": "full-throttle",
+      "titleZh": "全力以赴、以最高強度",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfull-throttle\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At maximum speed or intensity, like an engine at full power.",
+        "meaningZh": "形容一段工作或活動以非常高的速度與強度進行。",
+        "grammar": "a full-throttle pace; a full-throttle rehearsal.",
+        "register": "Vivid informal engine metaphor; often used for a short demanding period.",
+        "boundaryZh": "表示強度高，不表示可以忽略安全或長期不休息。",
+        "misconceptionZh": "不要把它當成真的操縱油門，也不要用來形容悠閒、低強度活動。",
+        "outcomeZh": "能描述短時間的高強度安排，同時清楚說明實際行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0140",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 13,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The team worked at a full-throttle pace before the launch.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "full-throttle"
+        }
+      ],
+      "listening": {
+        "en": "The museum team had one hour before opening, so they worked at a full-throttle pace to finish the signs and test the displays.",
+        "zh": "博物館團隊離開放時間只剩一小時，所以他們全速工作，完成標示並測試展品。",
+        "promptZh": "團隊最後一小時的工作節奏如何？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They worked with unusually high intensity.",
+            "zh": "他們以很高的強度工作。"
+          },
+          {
+            "id": "b",
+            "en": "They kept a measured pace through the last hour of preparation.",
+            "zh": "他們在最後一小時仍按平日節奏準備。"
+          },
+          {
+            "id": "c",
+            "en": "They slowed down to review each sign before testing any display.",
+            "zh": "他們放慢速度，逐一檢查標示後才測試展品。"
+          },
+          {
+            "id": "d",
+            "en": "They paused preparation and planned to test the displays later.",
+            "zh": "他們暫停準備，打算稍後才測試展品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只剩一小時仍要完成標示和測試，full-throttle pace 指高強度工作，不是字面開車。"
+      },
+      "reply": {
+        "promptEn": "How could the stage crew use the final hour before the concert begins?",
+        "promptZh": "（音樂會開始前最後一小時，舞台團隊可以怎樣利用時間？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They could divide the remaining jobs between them.",
+            "zh": "他們可以分工處理餘下工作。"
+          },
+          {
+            "id": "b",
+            "en": "They could finish the sound checks promptly.",
+            "zh": "他們可以迅速完成音響檢查。"
+          },
+          {
+            "id": "c",
+            "en": "They could work at a full-throttle pace while still following safety checks.",
+            "zh": "他們可以全速工作，同時仍遵守安全檢查。"
+          },
+          {
+            "id": "d",
+            "en": "They could check each performer’s entrance time.",
+            "zh": "他們可以核對每位表演者的進場時間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是最後一小時可做的事；金句用 full-throttle 指高強度工作，並保留安全程序。"
+      },
+      "scene": {
+        "promptZh": "社區廚房臨時收到大型送餐訂單。義工在一小時內分工打包，迅速核對每袋內容。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteers worked at a full-throttle pace before the delivery.",
+            "zh": "送餐前，義工以極高強度工作。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers packed at a measured pace and left the bag checks until after delivery.",
+            "zh": "義工按一般節奏打包，打算送餐後才核對每袋內容。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers focused on planning the next delivery instead of finishing this one.",
+            "zh": "義工集中策劃下一次送餐，而沒有先完成今次工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短時間內大量打包與核對，符合高強度工作的比喻；並無提及開車。"
+      },
+      "contrast": {
+        "promptZh": "以本課「高強度進行」的意思，哪種情況最不適合用 full-throttle？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team spends a busy hour finishing a launch checklist.",
+            "zh": "團隊忙碌一小時完成發布前清單。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor wanders through a quiet garden without any deadline.",
+            "zh": "訪客沒有時間限制，在安靜花園閒逛。"
+          },
+          {
+            "id": "c",
+            "en": "A crew rapidly sets up chairs for an event about to begin.",
+            "zh": "活動快要開始時，工作團隊快速擺好椅子。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "悠閒散步沒有高速度或高強度；另外兩項有急迫而密集的工作。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「開幕前只剩四十分鐘，但我們仍要貼標籤、核對名單。」哪個回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us split the tasks and work at a full-throttle pace, checking each item as we go.",
+            "zh": "我們分工全速處理，同時逐項核對。"
+          },
+          {
+            "id": "b",
+            "en": "Let us finish the labels first and leave the name checks until visitors arrive.",
+            "zh": "我們先貼好標籤，等訪客到達後才核對名單。"
+          },
+          {
+            "id": "c",
+            "en": "Let everyone work on labels now; we can decide who checks the list later.",
+            "zh": "現在先讓所有人貼標籤，稍後再決定由誰核對名單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "既回應時間壓力，又保留逐項核對；高強度不等於粗心或冒險。"
+      },
+      "speaking": {
+        "en": "The volunteers kept a full-throttle pace for the last hour and finished packing before the van arrived.",
+        "zh": "義工在最後一小時全速工作，在貨車抵達前完成打包。",
+        "promptZh": "先聽示範，再說明義工如何趕及貨車到達。",
+        "targetSpan": {
+          "start": 22,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：機械人隊伍還有四十五分鐘便要向來賓示範，仍須測試兩項功能和清理桌面。用一至兩句英文描述團隊短時間的工作節奏與安排。",
+        "selfCheckZh": "指出短時間內高強度完成測試及清理，同時不能省略必要測試。",
+        "examples": [
+          {
+            "en": "The robotics team worked at a full-throttle pace, testing both functions and clearing the table before the guests arrived.",
+            "zh": "機械人隊伍全速工作，在來賓到達前測試兩項功能並清理桌面。"
+          },
+          {
+            "en": "During the final forty-five minutes, we worked at a full-throttle pace to test both functions and clear the table before the demonstration.",
+            "zh": "最後四十五分鐘，我們全速測試兩項功能，並在示範前清理桌面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The robotics team",
+            "zh": "機械人隊伍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "testing both functions",
+            "zh": "測試兩項功能",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 72
+            }
+          },
+          {
+            "en": "before the guests arrived",
+            "zh": "在來賓到達前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 121
+            }
+          },
+          {
+            "en": "the final forty-five minutes",
+            "zh": "最後四十五分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 35
+            }
+          },
+          {
+            "en": "clear the table",
+            "zh": "清理桌面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 113
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The kitchen had a full-throttle hour before the lunch crowd arrived.",
+          "zh": "午餐人潮到來前，廚房忙得全速運作了一小時。"
+        },
+        {
+          "en": "A full-throttle sprint can help before a deadline, but the team still needs breaks.",
+          "zh": "期限前短時間全力衝刺或許有幫助，但團隊仍需要休息。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2252",
+      "number": 2252,
+      "inventoryId": "expr-2252",
+      "titleEn": "slow down and reset",
+      "titleZh": "放慢腳步，重新調整",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:slow|slows|slowed|slowing) down and reset\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reduce one’s pace and regain a calmer, clearer state before continuing.",
+        "meaningZh": "暫時降低活動節奏，讓自己恢復平靜或清晰思路，再繼續。",
+        "grammar": "slow down and reset; slowed down and reset.",
+        "register": "Natural conversational pairing for a temporary pause and fresh start.",
+        "boundaryZh": "不一定完全停止活動，也不等於放棄責任或按實體重設鍵。",
+        "misconceptionZh": "不要把休息描寫成逃避，也不要保證片刻休息能解決所有問題。",
+        "outcomeZh": "能提出有時限的放慢節奏安排，並說明其後如何再開始。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0141",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 13,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A weekend away helped us slow down and reset.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "slow down and reset"
+        }
+      ],
+      "listening": {
+        "en": "After a hectic morning of rehearsals, the dancers took a quiet lunch break to slow down and reset before the afternoon run-through.",
+        "zh": "經過忙亂的早上排練，舞者安靜地吃午飯、放慢節奏並調整狀態，才進行下午的完整彩排。",
+        "promptZh": "舞者午休的作用是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped them pause and regain focus before continuing.",
+            "zh": "午休讓他們暫停一下，重新專注後再繼續。"
+          },
+          {
+            "id": "b",
+            "en": "The break gave them time to change the whole afternoon programme.",
+            "zh": "午休讓他們有時間全面更改下午的安排。"
+          },
+          {
+            "id": "c",
+            "en": "They used lunch to rehearse the most difficult sequence again.",
+            "zh": "他們利用午休再次排練最難的舞步。"
+          },
+          {
+            "id": "d",
+            "en": "They decided the afternoon run-through was no longer needed.",
+            "zh": "他們決定下午不用再作完整彩排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "上午忙亂後安靜午休、下午再彩排，說明他們暫時放慢並重新整理狀態。"
+      },
+      "reply": {
+        "promptEn": "What could we do before tackling the second half of the long planning session?",
+        "promptZh": "（處理長時間規劃會議的下半場前，我們可以做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could take a short walk outside.",
+            "zh": "我們可以到外面短暫散步。"
+          },
+          {
+            "id": "b",
+            "en": "We could drink some water and review the agenda.",
+            "zh": "我們可以喝點水，看看議程。"
+          },
+          {
+            "id": "c",
+            "en": "We could slow down and reset before choosing the next steps.",
+            "zh": "決定下一步前，我們可以放慢節奏、重新整理思路。"
+          },
+          {
+            "id": "d",
+            "en": "We could give everyone a quiet ten-minute break.",
+            "zh": "我們可以讓大家安靜休息十分鐘。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四項都可幫助小組暫停與重新專注；金句直接表達放慢並調整後再作決定。"
+      },
+      "scene": {
+        "promptZh": "學生連續兩小時做功課，開始看不懂自己寫的內容。她休息十分鐘、喝水，再回來檢查。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She took time to slow down and reset before checking her work.",
+            "zh": "檢查功課前，她花點時間放慢節奏、重新整理思路。"
+          },
+          {
+            "id": "b",
+            "en": "She set the work aside for the rest of the day without checking it.",
+            "zh": "她把功課擱置到明天，當天沒有再檢查。"
+          },
+          {
+            "id": "c",
+            "en": "She reread the same lines immediately without taking a break.",
+            "zh": "她沒有休息，立即把同幾行內容再讀一遍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫休息後再檢查，符合放慢並重新專注，而非永久放棄。"
+      },
+      "contrast": {
+        "promptZh": "以本課「暫時放慢並恢復狀態」的意思，哪個情況最不適合說 slow down and reset？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader takes a short break and returns to a difficult chapter.",
+            "zh": "讀者短暫休息，之後回來讀艱深的一章。"
+          },
+          {
+            "id": "b",
+            "en": "A runner increases speed without stopping and finishes exhausted.",
+            "zh": "跑手沒有停下來，反而加快速度，最後筋疲力盡。"
+          },
+          {
+            "id": "c",
+            "en": "A team pauses a tense discussion and resumes after lunch.",
+            "zh": "團隊暫停緊張的討論，午飯後再繼續。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "加速而不休息，與放慢並重新整理相反。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們一直在改設計，現在誰也分不清哪個版本最好。」哪個建議最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us slow down and reset for ten minutes, then compare the versions again.",
+            "zh": "我們先放慢節奏、休息十分鐘，再比較各個版本吧。"
+          },
+          {
+            "id": "b",
+            "en": "Let us pick the newest version now, before we lose more time comparing them.",
+            "zh": "我們現在就選最新版本，免得再花時間比較。"
+          },
+          {
+            "id": "c",
+            "en": "Let us keep editing every version for another hour before deciding what matters.",
+            "zh": "我們再修改每個版本一小時，之後才決定甚麼最重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫停下並重新比較，直接回應思路混亂，也保留繼續工作的安排。"
+      },
+      "speaking": {
+        "en": "We slowed down and reset after the first round of edits, then returned with clearer ideas.",
+        "zh": "第一輪修改後，我們放慢節奏並重新整理思路，之後帶着更清晰的想法回來。",
+        "promptZh": "先聽示範，再說明第一輪修改後小組怎樣調整。",
+        "targetSpan": {
+          "start": 3,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友在公園為義賣攤位安排工作，討論太久開始互相打斷。活動明天才開始。用一至兩句英文提出短暫調整後再討論的建議。",
+        "selfCheckZh": "說明先放慢節奏或短休，再回來有秩序地討論；不要說取消活動。",
+        "examples": [
+          {
+            "en": "We can slow down and reset with a short break, then return to the stall plan with clearer ideas.",
+            "zh": "我們可以短暫休息、放慢節奏並重新整理，再用更清晰的想法討論攤位安排。"
+          },
+          {
+            "en": "Let us slow down and reset for fifteen minutes before assigning each volunteer a task.",
+            "zh": "分配每位義工的工作前，我們先放慢節奏、休息十五分鐘吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a short break",
+            "zh": "短暫休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 45
+            }
+          },
+          {
+            "en": "the stall plan",
+            "zh": "攤位安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 76
+            }
+          },
+          {
+            "en": "clearer ideas",
+            "zh": "更清晰的想法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "for fifteen minutes",
+            "zh": "十五分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 46
+            }
+          },
+          {
+            "en": "each volunteer",
+            "zh": "每位義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 78
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The group chose to slow down and reset before making another decision.",
+          "zh": "小組決定在作下一個決定前放慢節奏、重新整理思路。"
+        },
+        {
+          "en": "A quiet afternoon helped us slow down and reset after the busy week.",
+          "zh": "忙碌的一週後，寧靜的下午令我們放慢節奏並重新調整。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2253",
+      "number": 2253,
+      "inventoryId": "expr-2253",
+      "titleEn": "mentally draining",
+      "titleZh": "令人心力交瘁",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmentally draining\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Causing mental tiredness because it demands sustained thought, worry or attention.",
+        "meaningZh": "一項活動或處境因持續要思考、擔心或專注而令人精神疲累。",
+        "grammar": "a mentally draining task; the delay was mentally draining.",
+        "register": "Neutral descriptive adjective; it names the cause, not the person’s state.",
+        "boundaryZh": "用來形容造成精神疲勞的事情；人感到疲累則可說 mentally drained。",
+        "misconceptionZh": "不要以為只有體力勞動才會累，也不要把任何短暫困難都誇大成極度耗神。",
+        "outcomeZh": "能具體說明哪項工作或處境令人精神疲累及其原因。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0142",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 13,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An uncertain commute can feel mentally draining.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mentally draining"
+        }
+      ],
+      "listening": {
+        "en": "Checking dozens of conflicting travel updates all morning was mentally draining, even though I never left my desk.",
+        "zh": "整個早上不停核對數十則互相矛盾的交通消息，雖然我沒有離開書桌，仍令人心力交瘁。",
+        "promptZh": "說話者為何覺得疲累？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The continual checking and uncertainty used a lot of mental energy.",
+            "zh": "持續核對和不確定性耗費了很多心力。"
+          },
+          {
+            "id": "b",
+            "en": "A demanding trip left them physically exhausted.",
+            "zh": "一趟辛苦的旅程令他們身體疲累。"
+          },
+          {
+            "id": "c",
+            "en": "All the updates were clear and settled before they started checking.",
+            "zh": "他們開始核對前，所有消息已清晰確定。"
+          },
+          {
+            "id": "d",
+            "en": "Their eyes were tired from reading, but the updates themselves were straightforward.",
+            "zh": "他們因閱讀而眼睛疲累，但消息本身並不難理解。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆處理互相矛盾的消息需要持續專注，即使沒有體力勞動也會精神疲累。"
+      },
+      "reply": {
+        "promptEn": "Why did you take a break after reviewing the applications?",
+        "promptZh": "（看完申請書後，你為何休息一下？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I had to compare many different details.",
+            "zh": "我需要比較很多不同細節。"
+          },
+          {
+            "id": "b",
+            "en": "I wanted to check the final list with a fresh mind.",
+            "zh": "我想精神清晰地核對最終名單。"
+          },
+          {
+            "id": "c",
+            "en": "Reading and weighing so many applications was mentally draining.",
+            "zh": "閱讀並衡量那麼多申請書，令人心力交瘁。"
+          },
+          {
+            "id": "d",
+            "en": "I needed a pause before making any decisions.",
+            "zh": "作決定前，我需要停一停。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可合理解釋休息原因；金句直接描述評估多份申請書造成的精神疲勞。"
+      },
+      "scene": {
+        "promptZh": "小組花整晚核對互相矛盾的證人說法，必須留意每個細節，完成後都覺得很累。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Comparing the accounts was mentally draining.",
+            "zh": "比較各份說法令人心力交瘁。"
+          },
+          {
+            "id": "b",
+            "en": "The witnesses agreed on the details, so comparing their accounts was straightforward.",
+            "zh": "證人對細節意見一致，因此比較說法相當容易。"
+          },
+          {
+            "id": "c",
+            "en": "They were tired mainly from writing up a brief summary after an easy comparison.",
+            "zh": "他們主要因在簡單比較後撰寫摘要而疲累。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆比較細節需要大量心力；mentally draining 形容造成疲勞的工作。"
+      },
+      "contrast": {
+        "promptZh": "以本課「事情令人精神疲累」的意思，哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The long series of uncertain decisions was mentally draining.",
+            "zh": "接連面對不確定的決定令人心力交瘁。"
+          },
+          {
+            "id": "b",
+            "en": "After the long meeting, I was mentally draining.",
+            "zh": "長時間開會後，我是令人心力交瘁的。"
+          },
+          {
+            "id": "c",
+            "en": "The heavy folder was mentally draining because it was hard to carry upstairs.",
+            "zh": "那份厚重文件夾因為難搬上樓，所以令人精神疲累。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "mentally draining 修飾造成疲勞的處境；描述個人感受時應說 mentally drained。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「這份報告要核對很多互相矛盾的數字，我做到頭昏腦脹。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds mentally draining. Let us take a short break before checking the next table.",
+            "zh": "聽起來很耗神。我們先短暫休息，再核對下一張表吧。"
+          },
+          {
+            "id": "b",
+            "en": "Let us check the next table now while the figures are still fresh in mind.",
+            "zh": "趁數字還記得清楚，我們現在就核對下一張表吧。"
+          },
+          {
+            "id": "c",
+            "en": "Let us submit the table with a note that we will reconcile the conflicting figures tomorrow.",
+            "zh": "我們先提交表格，註明明天才核對互相矛盾的數字。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核對矛盾數字耗費心力，短休後再處理是合理回應。"
+      },
+      "speaking": {
+        "en": "Sorting the mixed-up archive records was mentally draining because every date had to be checked.",
+        "zh": "整理混亂的檔案紀錄令人心力交瘁，因為每個日期都必須核對。",
+        "promptZh": "先聽示範，再說明哪項工作令人耗神以及原因。",
+        "targetSpan": {
+          "start": 41,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：義工要從多份不一致的報名表中整理出正確的活動人數，並核對每個聯絡方法。用一至兩句英文說明這項工作為何耗神。",
+        "selfCheckZh": "形容報名表核對工作造成精神疲勞，並指出須持續比較及檢查的原因。",
+        "examples": [
+          {
+            "en": "Checking the conflicting registration forms was mentally draining because we had to confirm every contact detail.",
+            "zh": "核對互相矛盾的報名表令人心力交瘁，因為我們要確認每項聯絡資料。"
+          },
+          {
+            "en": "It was mentally draining to compare the headcounts and verify each phone number before the event.",
+            "zh": "活動前要比較人數和核實每個電話號碼，令人心力交瘁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "conflicting registration forms",
+            "zh": "互相矛盾的報名表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 43
+            }
+          },
+          {
+            "en": "every contact detail",
+            "zh": "每項聯絡資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 112
+            }
+          },
+          {
+            "en": "the headcounts",
+            "zh": "人數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "each phone number",
+            "zh": "每個電話號碼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "before the event",
+            "zh": "活動前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 96
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Planning around repeated timetable changes can be mentally draining.",
+          "zh": "反覆因時間表改變而重新安排，可能令人精神疲累。"
+        },
+        {
+          "en": "The paperwork was mentally draining, so the team shared the checking work.",
+          "zh": "文書工作很耗神，因此團隊分擔核對工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2255",
+      "number": 2255,
+      "inventoryId": "expr-2255",
+      "titleEn": "staying power",
+      "titleZh": "持久吸引力或效用",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstaying power\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The ability of something to remain popular, useful or effective over time.",
+        "meaningZh": "某物經過一段時間仍能保持吸引力、受歡迎程度或效用。",
+        "grammar": "has staying power; surprising staying power.",
+        "register": "Neutral evaluative phrase; requires evidence beyond an impressive launch.",
+        "boundaryZh": "重點是長期維持，而不是首日反應熱烈，也不是原地不動。",
+        "misconceptionZh": "不要只因剛推出就說它有持久力；應指出多年或多次使用後的表現。",
+        "outcomeZh": "能用跨時間的證據判斷活動或設計是否具有持久吸引力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0144",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 14,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The simple design has surprising staying power.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "staying power"
+        }
+      ],
+      "listening": {
+        "en": "The community board game is still borrowed every weekend ten years after it was made. Its simple rules have given it real staying power.",
+        "zh": "那款社區桌遊製作十年後，至今每個週末仍有人借玩。簡單的規則讓它一直有吸引力。",
+        "promptZh": "為何說這款桌遊有 staying power？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It continues to attract players many years later.",
+            "zh": "多年後它仍吸引玩家。"
+          },
+          {
+            "id": "b",
+            "en": "It attracted players only during its first weekend.",
+            "zh": "它只在推出的第一個週末吸引玩家。"
+          },
+          {
+            "id": "c",
+            "en": "It is still borrowed mainly because it was made recently.",
+            "zh": "它現在仍有人借用，主要因為它最近才製成。"
+          },
+          {
+            "id": "d",
+            "en": "Its complicated rules make it popular only with experts.",
+            "zh": "它的複雜規則令它只受高手歡迎。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十年後每週仍有人借玩，顯示吸引力能夠延續。"
+      },
+      "reply": {
+        "promptEn": "Why do families still choose the old riverside trail after so many newer routes have opened?",
+        "promptZh": "（有了許多新路線後，為何家庭仍會選擇舊河畔步道？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The path is easy for different age groups.",
+            "zh": "這條路適合不同年齡的人。"
+          },
+          {
+            "id": "b",
+            "en": "The river views remain pleasant.",
+            "zh": "河景仍然宜人。"
+          },
+          {
+            "id": "c",
+            "en": "It has staying power because visitors keep returning year after year.",
+            "zh": "它有持久吸引力，因為訪客年復一年地重遊。"
+          },
+          {
+            "id": "d",
+            "en": "Families know where the rest stops are.",
+            "zh": "家庭熟悉休息站的位置。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理解釋舊步道仍受歡迎；金句以持續回訪作為長期吸引力的證據。"
+      },
+      "scene": {
+        "promptZh": "一本兒童食譜出版十五年後，圖書館仍經常有人借閱，讀者不斷用裏面的簡單食譜。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cookbook has staying power.",
+            "zh": "這本食譜有持久吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "The cookbook was borrowed only once at its launch.",
+            "zh": "這本食譜只在推出時借出過一次。"
+          },
+          {
+            "id": "c",
+            "en": "The cookbook has survived on the shelf for fifteen years, but no one borrows it now.",
+            "zh": "這本食譜在書架上保存了十五年，但現在已沒有人借閱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十五年後仍被反覆借閱和使用，足以顯示長期效用。"
+      },
+      "contrast": {
+        "promptZh": "以本課「長久保持吸引力或效用」的意思，哪種情況最不適合說 staying power？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A radio show keeps a steady audience for twelve years.",
+            "zh": "廣播節目十二年來持續有穩定聽眾。"
+          },
+          {
+            "id": "b",
+            "en": "A new game receives many downloads on its first day, with no later information.",
+            "zh": "新遊戲首日下載量很高，但沒有之後的資料。"
+          },
+          {
+            "id": "c",
+            "en": "A simple study guide remains useful to many classes over several years.",
+            "zh": "一本簡單的溫習指南多年來仍對多屆學生有用。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "首日下載量只說明開始受注意，未能證明吸引力維持了一段時間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這個閱讀活動今天開幕就擠滿人，證明它一定有 staying power。」哪個回應最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A busy first day is promising, but repeat visits are needed before we can claim staying power.",
+            "zh": "首日熱鬧是好開始，但要有持續回訪，才可說它有持久吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "The full room today already shows that the activity has staying power.",
+            "zh": "今天座無虛席，已足以證明活動有持久吸引力。"
+          },
+          {
+            "id": "c",
+            "en": "Advance sign-ups are strong, so we can claim staying power before seeing any return visits.",
+            "zh": "預先報名人數很多，所以不用看回訪情況便可說它有持久吸引力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持久吸引力須靠日後持續參與來判斷，不能單憑開幕日。"
+      },
+      "speaking": {
+        "en": "The picture book has staying power because children still ask for it years after its first printing.",
+        "zh": "這本圖畫書有持久吸引力，因為初版多年後，孩子仍會要求看它。",
+        "promptZh": "先聽示範，再說明甚麼證據支持這本書持久受歡迎。",
+        "targetSpan": {
+          "start": 21,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心五年前開辦一個免費棋藝午間小組。其他短期活動已結束，但它至今每星期仍有新舊會員出席。用一至兩句英文評價它的持久吸引力。",
+        "selfCheckZh": "用五年及每週仍有人出席的證據支持判斷；不要只談開幕日。",
+        "examples": [
+          {
+            "en": "The chess group has staying power: five years later, both new and returning members still attend each week.",
+            "zh": "棋藝小組有持久吸引力：五年後，新舊會員每星期仍會出席。"
+          },
+          {
+            "en": "Its staying power is clear from the steady weekly attendance long after the group first began.",
+            "zh": "小組成立很久後，每週出席人數仍然穩定，足見它有持久吸引力。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "five years later",
+            "zh": "五年後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 51
+            }
+          },
+          {
+            "en": "new and returning members",
+            "zh": "新舊會員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 83
+            }
+          },
+          {
+            "en": "each week",
+            "zh": "每星期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 106
+            }
+          },
+          {
+            "en": "steady weekly attendance",
+            "zh": "每週穩定的出席人數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 60
+            }
+          },
+          {
+            "en": "long after the group first began",
+            "zh": "小組成立很久後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 93
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The simple exercise routine has staying power because people still use it after many years.",
+          "zh": "這套簡單的運動方法有持久效用，因為多年後人們仍在使用。"
+        },
+        {
+          "en": "A strong launch does not prove staying power; regular use over time does.",
+          "zh": "推出時反應熱烈不足以證明持久力；長期定期使用才能。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2266",
+      "number": 2266,
+      "inventoryId": "expr-2266",
+      "titleEn": "really lands",
+      "titleZh": "真正打動人、讓重點深入人心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\breally land(?:s|ed|ing)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have a strong effect on listeners or become fully understood.",
+        "meaningZh": "說話的重點因表達得清楚或具體，而真正觸動聽眾或讓他們理解。",
+        "grammar": "the point really lands; the message really landed.",
+        "register": "Informal spoken figurative use for talks, stories and arguments.",
+        "boundaryZh": "通常要指出哪個重點及為何有效；不是物件真的着陸。",
+        "misconceptionZh": "不要以掌聲單獨代替理解證據，也不要把空泛口號說成必然打動人。",
+        "outcomeZh": "能指出具體例子如何讓某個訊息更有說服力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0155",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The final point really lands when the speaker uses a personal story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "really lands"
+        }
+      ],
+      "listening": {
+        "en": "The speaker first lists recycling figures, but her point really lands when she shows one family’s weekly waste in a single clear photograph.",
+        "zh": "講者起初列出回收數字，但她展示一張清楚呈現某家庭一週垃圾量的照片後，論點才真正深入人心。",
+        "promptZh": "照片令講者的論點有甚麼變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes the point more vivid and easier to grasp.",
+            "zh": "它令論點更具體、更容易理解。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph challenges the figures and changes her argument.",
+            "zh": "照片質疑數字，令她改變原本的論點。"
+          },
+          {
+            "id": "c",
+            "en": "The photograph repeats the figures without making the problem easier to grasp.",
+            "zh": "照片只是重複數字，沒有令問題更容易理解。"
+          },
+          {
+            "id": "d",
+            "en": "The photograph suggests that the figures are less important than the speaker first claimed.",
+            "zh": "照片暗示那些數字沒有講者原先所說的重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體照片把抽象數字變成易明的例子，所以重點更能打動聽眾。"
+      },
+      "reply": {
+        "promptEn": "Why did the safety talk become clearer after the speaker described a real cycling accident?",
+        "promptZh": "（講者描述真實單車意外後，安全講座為何變得更清楚？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The story showed why the rule matters.",
+            "zh": "故事說明了規則為何重要。"
+          },
+          {
+            "id": "b",
+            "en": "Listeners could picture the risk more easily.",
+            "zh": "聽眾更容易想像當中的風險。"
+          },
+          {
+            "id": "c",
+            "en": "The warning really lands once listeners hear the concrete example.",
+            "zh": "聽眾聽到具體例子後，警告才真正深入人心。"
+          },
+          {
+            "id": "d",
+            "en": "The example connected the advice to everyday travel.",
+            "zh": "例子把建議與日常出行連起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理說明真實故事的作用；金句指出具體例子讓警告更有效。"
+      },
+      "scene": {
+        "promptZh": "校長談到節水時，先列出數字，然後展示學校一週浪費的水量相當於多少桶水。學生終於明白問題有多大。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The message really lands when the wasted amount is compared with a familiar number of bucketfuls.",
+            "zh": "把浪費的水量比作大家熟悉的水桶數量後，訊息更能深入人心。"
+          },
+          {
+            "id": "b",
+            "en": "The message becomes less clear because the example is concrete.",
+            "zh": "例子很具體，訊息反而更不清楚。"
+          },
+          {
+            "id": "c",
+            "en": "The comparison is memorable, but it leaves students unsure how much water was wasted.",
+            "zh": "這個比較令人印象深刻，卻沒有讓學生明白浪費了多少水。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熟悉的水桶讓學生理解抽象用水量；really lands 指訊息終於發揮作用。"
+      },
+      "contrast": {
+        "promptZh": "以本課「訊息有效傳達」的意思，哪個情況最不適合說 really lands？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A personal story helps listeners understand a difficult warning.",
+            "zh": "個人故事幫助聽眾理解一個艱深的警告。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker rushes through an inaudible slide, and the audience cannot identify the point.",
+            "zh": "講者匆匆略過聽不清的投影片，聽眾完全不明白重點。"
+          },
+          {
+            "id": "c",
+            "en": "A clear comparison helps a class grasp why a change matters.",
+            "zh": "清晰的比較令全班明白一項改變為何重要。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "聽眾連重點都聽不明白，不能說訊息已有效傳達。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我的短講只有一句『要關心鄰居』，觀眾可能覺得太空泛。」哪個建議最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Add a brief real example so the message really lands.",
+            "zh": "加入簡短的真實例子，讓訊息真正深入人心。"
+          },
+          {
+            "id": "b",
+            "en": "Add another statistic without explaining what it means for the neighbours.",
+            "zh": "再加一個數字，但不用說明它對鄰居有甚麼意義。"
+          },
+          {
+            "id": "c",
+            "en": "Keep only the slogan and make the talk shorter, without giving a concrete example.",
+            "zh": "只保留口號，把短講縮短，不用給具體例子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真實例子能把抽象口號變得具體，較能讓聽眾理解及記住。"
+      },
+      "speaking": {
+        "en": "Her final point really lands when she describes how a neighbour helped her family after the flood.",
+        "zh": "她講述洪水後鄰居如何幫助家人，令最後的論點真正深入人心。",
+        "promptZh": "先聽示範，再說明哪個細節使論點更有力量。",
+        "targetSpan": {
+          "start": 16,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會希望學校增設飲水機。主席先說塑膠瓶用量高，接着展示一個班一星期丟掉的瓶子，讓同學明白問題。用一至兩句英文說明這個例子如何令訊息更有效。",
+        "selfCheckZh": "指出具體的瓶子數量或展示如何讓減塑訊息更容易理解；不要把片語當作實物着陸。",
+        "examples": [
+          {
+            "en": "The point really lands when the chair shows how many bottles one class throws away in a week.",
+            "zh": "主席展示一個班一星期丟掉多少瓶子後，論點才真正深入人心。"
+          },
+          {
+            "en": "Her message really lands because the displayed weekly bottle count makes the waste easy to see.",
+            "zh": "她的訊息更能深入人心，因為展示出來的每週塑膠瓶數量讓浪費清楚可見。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the chair",
+            "zh": "主席",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 37
+            }
+          },
+          {
+            "en": "one class",
+            "zh": "一個班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 70
+            }
+          },
+          {
+            "en": "in a week",
+            "zh": "一星期內",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 92
+            }
+          },
+          {
+            "en": "the displayed weekly bottle count",
+            "zh": "展示出來的每週塑膠瓶數量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 66
+            }
+          },
+          {
+            "en": "easy to see",
+            "zh": "清楚可見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The lesson really lands when the teacher links it to a familiar daily choice.",
+          "zh": "老師把道理連到熟悉的日常選擇，課堂重點便深入人心。"
+        },
+        {
+          "en": "A clear example can help the central message really land.",
+          "zh": "清楚的例子能令核心訊息真正深入人心。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2269",
+      "number": 2269,
+      "inventoryId": "expr-2269",
+      "titleEn": "bend the truth",
+      "titleZh": "歪曲事實",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:bend|bends|bent|bending) the truth\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Alter or selectively present facts so a claim sounds better than the reality.",
+        "meaningZh": "為了令說法好聽一點而改動或選擇性呈現事實，令他人誤解。",
+        "grammar": "bend the truth about a cost; bent the truth in an advert.",
+        "register": "Conversational expression for misleading distortion; it still matters ethically.",
+        "boundaryZh": "可能不像完全捏造那樣明顯，但仍不誠實；不等於正常四捨五入並清楚標示。",
+        "misconceptionZh": "不要把有意誤導說成無害，也不要在沒有證據時指控他人歪曲事實。",
+        "outcomeZh": "能辨認看似輕微的事實扭曲，並提出準確替代說法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0158",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He was tempted to bend the truth about the project's cost.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "bend the truth"
+        }
+      ],
+      "listening": {
+        "en": "The festival advert claimed the venue was a two-minute walk from the station, though the organisers knew it usually took fifteen minutes. They bent the truth to make the event sound convenient.",
+        "zh": "節慶廣告聲稱場地離車站只需步行兩分鐘，但主辦者知道通常要十五分鐘。他們歪曲事實，令活動聽起來更方便。",
+        "promptZh": "主辦者的說法有甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They knowingly made the journey sound much shorter than it was.",
+            "zh": "他們明知路程較長，仍把它說得短得多。"
+          },
+          {
+            "id": "b",
+            "en": "They timed a slower route and honestly reported that journey.",
+            "zh": "他們量度較慢路線的時間，並如實報告。"
+          },
+          {
+            "id": "c",
+            "en": "They published a clearly labelled rough estimate based on the usual walk.",
+            "zh": "他們根據平日步行時間，刊出有清楚標明的概算。"
+          },
+          {
+            "id": "d",
+            "en": "They confused the station with another nearby stop.",
+            "zh": "他們把車站與另一個附近的站點弄混。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明知通常要十五分鐘，卻寫成兩分鐘，是有意令資訊比事實更吸引。"
+      },
+      "reply": {
+        "promptEn": "How should we describe the number of people who attended the workshop?",
+        "promptZh": "（我們應怎樣描述出席工作坊的人數？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should use the number on the attendance sheet.",
+            "zh": "我們應使用出席紀錄上的人數。"
+          },
+          {
+            "id": "b",
+            "en": "We can say roughly forty if the record shows forty-two and we mark it as an estimate.",
+            "zh": "若紀錄是四十二人，我們可清楚註明約四十人。"
+          },
+          {
+            "id": "c",
+            "en": "We should not bend the truth by claiming a hundred when only forty-two came.",
+            "zh": "只有四十二人出席時，我們不應歪曲事實說成一百人。"
+          },
+          {
+            "id": "d",
+            "en": "We should check the sign-in sheet before publishing a figure.",
+            "zh": "公布人數前，我們應核對簽到紀錄。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都支持準確呈報；金句明確指出不可把四十二人誇大成一百人。"
+      },
+      "scene": {
+        "promptZh": "一間活動中心明知報名費包含必須支付的材料費，廣告卻只顯示較低的基本費用，讓家長以為總費用較低。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The advert bends the truth about the full cost.",
+            "zh": "廣告歪曲了完整費用的事實。"
+          },
+          {
+            "id": "b",
+            "en": "The advert explains every required charge clearly.",
+            "zh": "廣告清楚列出了每項必須支付的費用。"
+          },
+          {
+            "id": "c",
+            "en": "The advert openly says that its price is only an incomplete estimate.",
+            "zh": "廣告清楚說明價格只是未完整的估算。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "刻意隱去必須支付的材料費，令讀者誤解總額，符合歪曲事實。"
+      },
+      "contrast": {
+        "promptZh": "以本課「有意讓事實聽起來更好」的意思，哪種情況最不適合說 bend the truth？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A seller calls a scratched table spotless despite seeing the scratches.",
+            "zh": "賣家明知桌子有刮痕，仍稱它完好無瑕。"
+          },
+          {
+            "id": "b",
+            "en": "A report says “about fifty” for forty-nine people and clearly labels the number as approximate.",
+            "zh": "報告把四十九人寫成「約五十人」，並清楚標明是約數。"
+          },
+          {
+            "id": "c",
+            "en": "An advert leaves out a compulsory charge so the price looks lower.",
+            "zh": "廣告略去必須支付的費用，讓價格顯得較低。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "清楚標明約數的正常四捨五入，沒有意圖誤導；其餘兩項有意改變讀者對事實的理解。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「其實只有八十人參加，但宣傳稿寫成二百人看起來更好。」你有出席紀錄。哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should not bend the truth; let us use the verified attendance figure.",
+            "zh": "我們不應歪曲事實，應使用已核實的出席人數。"
+          },
+          {
+            "id": "b",
+            "en": "We could round eighty up to a hundred and call it a strong turnout.",
+            "zh": "我們可以把八十人說成一百人，稱作反應熱烈。"
+          },
+          {
+            "id": "c",
+            "en": "We could present the two hundred as expected attendance without explaining that only eighty came.",
+            "zh": "我們可以把二百人寫成預計出席人數，卻不說實際只有八十人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "既然有核實過的紀錄，應準確呈報，不能為了宣傳效果誇大人數。"
+      },
+      "speaking": {
+        "en": "The brochure bent the truth by describing a steep thirty-minute walk as an easy five-minute stroll.",
+        "zh": "小冊子把一段陡峭的三十分鐘步程說成輕鬆的五分鐘散步，歪曲了事實。",
+        "promptZh": "先聽示範，再說明小冊子如何扭曲了步程資訊。",
+        "targetSpan": {
+          "start": 13,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你負責社區電影夜的宣傳。場地只有八十個座位，但有人建議寫成「可容納數百人」以吸引觀眾。用一至兩句英文說明你會怎樣處理這個建議。",
+        "selfCheckZh": "指出誇大座位數是歪曲事實，並建議使用準確容量。",
+        "examples": [
+          {
+            "en": "We should not bend the truth about capacity: the hall has eighty seats, so the poster must say so.",
+            "zh": "我們不應歪曲容納人數：禮堂有八十個座位，海報就應如實寫明。"
+          },
+          {
+            "en": "Claiming that hundreds can attend would bend the truth. Let us publish the verified seat count instead.",
+            "zh": "聲稱可容納數百人會歪曲事實。我們改為公布已核實的座位數目吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "capacity",
+            "zh": "容納人數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 43
+            }
+          },
+          {
+            "en": "eighty seats",
+            "zh": "八十個座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 70
+            }
+          },
+          {
+            "en": "the poster",
+            "zh": "海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 85
+            }
+          },
+          {
+            "en": "hundreds can attend",
+            "zh": "可容納數百人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 33
+            }
+          },
+          {
+            "en": "the verified seat count",
+            "zh": "已核實的座位數目",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small exaggeration can still bend the truth if it misleads readers.",
+          "zh": "即使只是輕微誇大，只要誤導讀者，也是在歪曲事實。"
+        },
+        {
+          "en": "She refused to bend the truth about the repair cost.",
+          "zh": "她拒絕歪曲維修費用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "Provisional draft pending editorial and source-sense review; no release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

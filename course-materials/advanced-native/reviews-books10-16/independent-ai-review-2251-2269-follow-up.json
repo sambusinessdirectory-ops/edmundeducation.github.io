@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent AI editorial peer-review follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFile": "course-materials/advanced-native/drafts-books10-16/batch-2251-2269-a.json",
+    "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2251-2269.json",
+    "contentRevisionsReviewed": {"2251": 3, "2252": 3, "2253": 3, "2255": 3, "2266": 3, "2269": 3}
+  },
+  "counts": {"priorFindings": 12, "resolved": 12, "remainingBlocker": 0, "remainingMajor": 0, "remainingMinor": 0},
+  "remainingFindings": [],
+  "resolutionChecks": [
+    {"lessonId": "advanced-native-2251", "result": "Both writing models now mention testing both functions and clearing the table; the changed scene and dialogue options are contextual, plausible timing/checking near-misses. The listening normal-pace foil stays within the heard preparation scenario."},
+    {"lessonId": "advanced-native-2252", "result": "The scene and dialogue alternatives now describe believable choices about delaying, continuing, or prematurely choosing, without cartoonish abandonment or deletion."},
+    {"lessonId": "advanced-native-2253", "result": "The listening foil now offers a physical eye-strain interpretation of desk work; scene and contrast foils test the actual task and cause-versus-person boundary; dialogue alternatives are practical but less responsive than the keyed short break."},
+    {"lessonId": "advanced-native-2255", "result": "The shelf-only scene foil now tests surviving without current use, while the dialogue foils make plausible premature claims from opening attendance or sign-ups."},
+    {"lessonId": "advanced-native-2266", "result": "The listening model consistently uses the present tense; the bucket comparison describes an amount rather than physically displayed water; all revised foils are contextual. The writing answer now refers to a displayed weekly bottle count established by the prompt, and its glossary span is recalculated."},
+    {"lessonId": "advanced-native-2269", "result": "The dialogue alternatives now represent plausible but misleading promotional reporting of attendance rather than record deletion or arbitrary fabrication."}
+  ],
+  "mechanicalChecks": [
+    "All six source occurrence IDs, expressions and guide example sentences still match the source inventory.",
+    "Approved target patterns match all listening/speaking models, keyed target answers, both writing examples and both takeaways for every lesson; speaking target spans exactly match the model text.",
+    "All 30 glossary rows are exact spans in their cited current suggested answers and exclude target forms."
+  ],
+  "limits": ["This is AI peer review, not human English or Traditional Chinese approval, owner acceptance or release approval.", "No audio playback or browser/device typography and interaction checks were performed."]
+}
