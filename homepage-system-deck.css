@@ -330,6 +330,7 @@
     grid-template-rows: auto minmax(0, 1fr) auto;
     align-items: stretch;
     gap: 10px;
+    flex-basis: auto;
     min-height: 0;
     aspect-ratio: 880 / 1787;
     padding: 58px 30px 60px;
