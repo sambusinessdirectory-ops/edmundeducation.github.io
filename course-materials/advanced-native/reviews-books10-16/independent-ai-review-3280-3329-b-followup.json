@@ -1,0 +1,15 @@
+{
+  "reviewType": "independent-ai-exact-hash-repair-followup",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3280-3329-b.json",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json", "sha256": "1a802be19ee3cb6173ed6523848e18291ac04524444ceec999c9609a6e8d2176"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3280-3329-a.json", "sha256": "938464f5eca44ebc279bc1d08ded30c616e55aef5852927fadbae0f13731ebb7"}
+  },
+  "findingsRechecked": [
+    {"id": "R3286-01", "status": "cleared", "evidence": "The damaged-camera writing model now gives the harm, prompt disclosure, an explicit apology, an offer to pay for repair, and time for the owner to respond before return. Traditional Chinese preserves each action and the owner's choice; all five glossary spans are exact."}
+  ],
+  "regressionCheck": "The changed example retains the target and preserves the prior seven-lesson content passes. Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "status": "all-eight-provisional-content-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

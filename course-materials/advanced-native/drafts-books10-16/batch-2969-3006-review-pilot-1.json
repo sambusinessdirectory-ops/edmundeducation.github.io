@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2969-3006-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2969",
+      "number": 2969,
+      "inventoryId": "expr-2969",
+      "titleEn": "imposed from above",
+      "titleZh": "由上而下強加",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bimposed\\s+from\\s+above\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Required by people in authority without meaningful participation from those affected.",
+        "meaningZh": "由上級或掌權者決定並推行，受影響的人沒有實質參與。",
+        "grammar": "A policy/plan was or felt imposed from above; above is figurative institutional rank, not physical height.",
+        "register": "Civic consultation: a residents’ representative tells a council officer why a timetable change feels illegitimate despite possible benefits.",
+        "boundaryZh": "由管理層提出不一定等於強加；關鍵是受影響者沒有實質參與決定。",
+        "misconceptionZh": "不是從高處掉下，也不表示政策內容必然有害。",
+        "outcomeZh": "能辨認決策過程是否缺乏參與，同時把過程與政策成效分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0858",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "26–29",
+          "locatorNote": "DOCX table 80, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The plan felt imposed from above.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "imposed from above"
+        }
+      ],
+      "listening": {
+        "en": "The head office announced new shop hours without speaking to staff who would work them. The schedule felt imposed from above.",
+        "zh": "總部未與要按新時間工作的員工商議，便宣布更改店舖營業時間。這安排令人覺得是由上而下強加。",
+        "promptZh": "imposed from above 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Management required a change without staff input.",
+            "zh": "管理層未聽取員工意見便要求改變。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule fell from an upper floor.",
+            "zh": "時間表從樓上掉下來。"
+          },
+          {
+            "id": "c",
+            "en": "Staff jointly designed the final hours.",
+            "zh": "員工共同設計了最終時段。"
+          },
+          {
+            "id": "d",
+            "en": "The new hours are proven harmful.",
+            "zh": "新時段已證實有害。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是受影響員工未參與決策，不是高度或成效判斷。"
+      },
+      "reply": {
+        "promptEn": "Why did residents question the new park rules? The council approved them privately and announced them after the decision, although local users had asked to discuss access.",
+        "promptZh": "（居民為何質疑新的公園規則？議會私下批准後才公布，雖然當地使用者曾要求討論進出安排。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Residents had no real part in deciding the rules.",
+            "zh": "居民沒有實質參與訂立規則。"
+          },
+          {
+            "id": "b",
+            "en": "The council decided before hearing local users.",
+            "zh": "議會未聽取當地使用者意見便已決定。"
+          },
+          {
+            "id": "c",
+            "en": "The rules felt imposed from above.",
+            "zh": "規則令人覺得是由上而下強加。"
+          },
+          {
+            "id": "d",
+            "en": "The announcement came after a closed decision.",
+            "zh": "議會閉門決定後才公布。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述缺少實質參與；金句用 imposed from above。"
+      },
+      "scene": {
+        "promptZh": "校長不問師生便定下新休息時間，之後才通知大家。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The timetable was imposed from above.",
+            "zh": "時間表是由上而下強加的。"
+          },
+          {
+            "id": "b",
+            "en": "The pupils chose the timetable together.",
+            "zh": "學生共同選出時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The timetable must have failed already.",
+            "zh": "時間表一定已經失敗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "過程缺乏受影響者參與；效果仍未可知。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 imposed from above？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager announces a rule after excluding affected workers.",
+            "zh": "經理排除受影響員工後公布規則。"
+          },
+          {
+            "id": "b",
+            "en": "Staff and managers jointly revise a proposal before approval.",
+            "zh": "員工與經理在批准前共同修訂提案。"
+          },
+          {
+            "id": "c",
+            "en": "A board finalises changes before asking residents what they think.",
+            "zh": "董事會完成改動後才問居民意見。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "員工能在定案前實質參與，不是單向強加。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「由上而下強加的計劃一定沒有好處。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A plan can feel imposed from above because of its process even if its results have not been tested.",
+            "zh": "計劃可因決策過程令人覺得由上而下強加，即使成效尚未驗證。"
+          },
+          {
+            "id": "b",
+            "en": "A closed decision proves every outcome will be bad.",
+            "zh": "閉門決定證明所有結果都會不好。"
+          },
+          {
+            "id": "c",
+            "en": "Above means the planners were upstairs.",
+            "zh": "above 表示決策者在樓上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "決策過程與最終成效是兩項不同問題。"
+      },
+      "speaking": {
+        "en": "The volunteers resisted the rota because it had been imposed from above without asking who could work weekends.",
+        "zh": "義工反對輪值表，因為決策者未問誰能在週末值班，便由上而下強加安排。",
+        "promptZh": "先聽示範，再指出誰沒有被徵詢。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心董事會在不詢問導師和學員的情況下，決定把所有課程改到清晨；中心尚未評估出席率。用一至兩句英文說明決策問題，不要假稱新時間已失敗。",
+        "selfCheckZh": "寫出董事會未諮詢導師與學員、改為清晨、出席率未評估。",
+        "examples": [
+          {
+            "en": "The early-morning timetable felt imposed from above because the board did not consult tutors or learners; attendance has not yet been measured.",
+            "zh": "清晨時間表令人覺得由上而下強加，因為董事會沒有諮詢導師或學員；出席率尚未量度。"
+          },
+          {
+            "en": "The board moved every class to early morning without asking tutors or learners, so the change felt imposed from above; its effect on attendance is still unknown.",
+            "zh": "董事會沒有詢問導師和學員，便把所有課程改到清晨，因此改動令人覺得是由上而下強加；對出席率的影響仍未可知。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "early-morning timetable",
+            "zh": "清晨時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 27
+            }
+          },
+          {
+            "en": "board",
+            "zh": "董事會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 69
+            }
+          },
+          {
+            "en": "consult tutors or learners",
+            "zh": "諮詢導師或學員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 104
+            }
+          },
+          {
+            "en": "attendance",
+            "zh": "出席率",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 116
+            }
+          },
+          {
+            "en": "every class",
+            "zh": "所有課程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 27
+            }
+          },
+          {
+            "en": "still unknown",
+            "zh": "仍未可知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Imposed from above focuses on missing participation in a decision.",
+          "zh": "由上而下強加，重點是受影響者缺乏參與。"
+        },
+        {
+          "en": "A plan imposed from above is not automatically proven ineffective.",
+          "zh": "由上而下強加的計劃，成效未必已證實不佳。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2973",
+      "number": 2973,
+      "inventoryId": "expr-2973",
+      "titleEn": "a small circle",
+      "titleZh": "小圈子的親近朋友",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+small\\s+circle\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A limited group of close people, usually trusted friends or family.",
+        "meaningZh": "人數不多而關係親近的一群人，通常是朋友或家人。",
+        "grammar": "A small circle of friends/family; circle is metaphorical social closeness, not a physical shape.",
+        "register": "Personal celebration planning: a friend asks a graduate who she wants at a quiet dinner.",
+        "boundaryZh": "人少不代表排斥所有其他人，也不等於與那群人的關係一定完全相同。",
+        "misconceptionZh": "不是要坐成圓形；重點是親近與範圍有限。",
+        "outcomeZh": "能指出參與者少而親近，避免只憑場地大小推斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0862",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 80,
+          "book": 12,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "30–31",
+          "locatorNote": "DOCX table 81, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She celebrated with a small circle of friends.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a small circle"
+        }
+      ],
+      "listening": {
+        "en": "After graduation, Jo invited only her sister and three close friends to dinner. She wanted to celebrate with a small circle of people she trusted.",
+        "zh": "畢業後，祖只邀請妹妹和三位好友吃飯。她想與一小群信任的人慶祝。",
+        "promptZh": "a small circle 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A few people close to Jo.",
+            "zh": "少數與祖關係親近的人。"
+          },
+          {
+            "id": "b",
+            "en": "Guests seated around a round table.",
+            "zh": "圍坐圓桌的客人。"
+          },
+          {
+            "id": "c",
+            "en": "A large public crowd.",
+            "zh": "一大群公眾。"
+          },
+          {
+            "id": "d",
+            "en": "People chosen only because they live nearby.",
+            "zh": "只因住得近而獲邀的人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她只邀請妹妹和三位好友，重點是少而親近。"
+      },
+      "reply": {
+        "promptEn": "Why was the farewell meal quiet? Mari invited two old friends and her brother rather than announcing it to the whole office.",
+        "promptZh": "（告別聚餐為何較安靜？瑪麗邀請兩位老朋友和哥哥，而沒有向整個辦公室公開邀請。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Mari chose only a few close people.",
+            "zh": "瑪麗只選了少數親近的人。"
+          },
+          {
+            "id": "b",
+            "en": "The gathering was personal rather than office-wide.",
+            "zh": "聚餐是私人性質，而非全辦公室活動。"
+          },
+          {
+            "id": "c",
+            "en": "Mari kept her farewell within a small circle of people close to her.",
+            "zh": "瑪麗只與一小群親近的人舉行告別聚餐。"
+          },
+          {
+            "id": "d",
+            "en": "Her guest list centred on long relationships.",
+            "zh": "她的邀請名單以長久的關係為主。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據少數親友作答；金句用 a small circle。"
+      },
+      "scene": {
+        "promptZh": "退休教師只與三位多年好友和伴侶分享消息。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She shared the news with a small circle of loved ones.",
+            "zh": "她與一小群親近的人分享消息。"
+          },
+          {
+            "id": "b",
+            "en": "She must have excluded everybody out of anger.",
+            "zh": "她一定因憤怒而排除所有其他人。"
+          },
+          {
+            "id": "c",
+            "en": "They had to stand in a physical circle.",
+            "zh": "他們必須站成一個圓形。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "人數少而親近，不需推測憤怒或站位。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 a small circle？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A writer tells two trusted friends before a public announcement.",
+            "zh": "作家公開宣布前先告訴兩位信任的朋友。"
+          },
+          {
+            "id": "b",
+            "en": "A city invites thousands of strangers to an open celebration.",
+            "zh": "城市邀請數千名陌生人參加公開慶祝。"
+          },
+          {
+            "id": "c",
+            "en": "A family has dinner with four close relatives.",
+            "zh": "一家與四位親近親戚吃飯。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "數千陌生人的公開活動，不是少數親近者。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只邀請小圈子，就表示她討厭其他人。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Choosing a small circle can reflect a wish for intimacy, not dislike of everyone else.",
+            "zh": "選擇小圈子可以是想親近地相聚，不代表討厭其他人。"
+          },
+          {
+            "id": "b",
+            "en": "A small guest list proves hostility.",
+            "zh": "邀請人數少證明有敵意。"
+          },
+          {
+            "id": "c",
+            "en": "Circle here only describes seating shape.",
+            "zh": "circle 在這裏只形容座位形狀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "少數親友的安排不自動代表排斥或敵意。"
+      },
+      "speaking": {
+        "en": "She told a small circle of trusted friends first, then shared the announcement with the whole class the next day.",
+        "zh": "她先告訴一小群信任的朋友，翌日再向全班公布消息。",
+        "promptZh": "先聽示範，再指出先後告知的對象。",
+        "targetSpan": {
+          "start": 9,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：研究員獲新職位，先與伴侶和兩位摯友吃晚飯分享消息；翌日才公開告訴整個研究團隊。用一至兩句英文描述兩個不同對象，不要說她不喜歡同事。",
+        "selfCheckZh": "寫出先告訴伴侶和兩位摯友、翌日才告訴整隊同事，勿推測敵意。",
+        "examples": [
+          {
+            "en": "The researcher first celebrated her new job with a small circle—her partner and two close friends—before telling the whole team the next day.",
+            "zh": "研究員先與一小群親近的人——伴侶和兩位摯友——慶祝新工作，翌日才告訴整個團隊。"
+          },
+          {
+            "en": "She shared the new job over dinner with a small circle of loved ones—her partner and two close friends—then announced it to her research team the following day.",
+            "zh": "她吃晚飯時先向一小群親近的人——伴侶和兩位摯友——分享新工作，翌日再向研究團隊公布。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "researcher",
+            "zh": "研究員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 14
+            }
+          },
+          {
+            "en": "partner",
+            "zh": "伴侶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 75
+            }
+          },
+          {
+            "en": "two close friends",
+            "zh": "兩位摯友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 97
+            }
+          },
+          {
+            "en": "whole team",
+            "zh": "整個團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 127
+            }
+          },
+          {
+            "en": "new job",
+            "zh": "新工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 22
+            }
+          },
+          {
+            "en": "research team",
+            "zh": "研究團隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small circle refers to a few close people, not a seating arrangement.",
+          "zh": "小圈子指少數親近的人，不是座位排列。"
+        },
+        {
+          "en": "Sharing first with a small circle does not imply dislike of others.",
+          "zh": "先與小圈子分享，不代表討厭其他人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2977",
+      "number": 2977,
+      "inventoryId": "expr-2977",
+      "titleEn": "eat out",
+      "titleZh": "外出用餐",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:eat|eats|ate|eating)\\s+out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have a meal away from home, usually at a restaurant or café.",
+        "meaningZh": "在家以外用餐，通常在餐廳或咖啡室。",
+        "grammar": "Eat out / eats out / ate out / eating out; out refers to the dining setting, not necessarily outdoors.",
+        "register": "Casual weekly planning: a colleague tells another colleague where the team will have Friday dinner after work.",
+        "boundaryZh": "可在室內餐廳用餐；買外賣回家吃通常不算 eat out。",
+        "misconceptionZh": "不是一定露天吃，也不是只要離開家購買食物便算。",
+        "outcomeZh": "能以實際用餐地點區分外出用餐與外賣回家。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0866",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 80,
+          "book": 12,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 82, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We eat out on Fridays after work.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "eat out"
+        }
+      ],
+      "listening": {
+        "en": "On Fridays after work, the team goes to a small restaurant and eats dinner there. They usually eat out once a week.",
+        "zh": "每逢星期五下班後，團隊到小餐廳並在店內吃晚飯。他們通常每週外出用餐一次。",
+        "promptZh": "eat out 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Have the meal away from home at the restaurant.",
+            "zh": "在家以外的餐廳用餐。"
+          },
+          {
+            "id": "b",
+            "en": "Buy food and always bring it home to eat.",
+            "zh": "買食物後一定帶回家吃。"
+          },
+          {
+            "id": "c",
+            "en": "Eat only in the open air.",
+            "zh": "只在露天地方吃。"
+          },
+          {
+            "id": "d",
+            "en": "Skip dinner entirely.",
+            "zh": "完全不吃晚飯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們在餐廳內吃飯，而不是只買外賣。"
+      },
+      "reply": {
+        "promptEn": "Why did the family book a table? They want to have Saturday dinner at the neighbourhood café rather than cook or take food home.",
+        "promptZh": "（這家人為何訂位？他們想星期六在附近咖啡室吃晚飯，而非煮食或帶食物回家。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They plan to dine at the café.",
+            "zh": "他們打算在咖啡室用餐。"
+          },
+          {
+            "id": "b",
+            "en": "Saturday dinner will be away from home.",
+            "zh": "星期六晚飯會在家以外吃。"
+          },
+          {
+            "id": "c",
+            "en": "They plan to eat out on Saturday.",
+            "zh": "他們打算星期六外出用餐。"
+          },
+          {
+            "id": "d",
+            "en": "The booking is for a meal at the venue.",
+            "zh": "訂位是為了在店內用餐。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都表示在咖啡室吃飯；金句用 eat out。"
+      },
+      "scene": {
+        "promptZh": "兩名同事進入室內餐館，坐下吃午餐。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They ate out for lunch.",
+            "zh": "他們外出吃午餐。"
+          },
+          {
+            "id": "b",
+            "en": "They had to eat outdoors.",
+            "zh": "他們必須在戶外吃。"
+          },
+          {
+            "id": "c",
+            "en": "They cooked lunch at home.",
+            "zh": "他們在家煮午餐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "在室內餐館吃也可叫 eat out。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 eat out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Friends sit down for noodles at a café.",
+            "zh": "朋友在咖啡室坐下吃麵。"
+          },
+          {
+            "id": "b",
+            "en": "A pupil collects takeaway noodles and eats them at home.",
+            "zh": "學生拿外賣麵回家吃。"
+          },
+          {
+            "id": "c",
+            "en": "A couple has dinner in an indoor restaurant.",
+            "zh": "一對伴侶在室內餐廳吃晚飯。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "買外賣但在家吃，通常不叫外出用餐。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「雨天不能 eat out，因為 out 一定要露天。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can eat out in an indoor restaurant even when it rains.",
+            "zh": "即使下雨，我們仍可在室內餐廳外出用餐。"
+          },
+          {
+            "id": "b",
+            "en": "Eat out only means eating outdoors.",
+            "zh": "eat out 只表示在戶外吃。"
+          },
+          {
+            "id": "c",
+            "en": "Booking a restaurant table means staying home.",
+            "zh": "訂餐廳位表示留在家中。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "out 是離家用餐，不是露天用餐。"
+      },
+      "speaking": {
+        "en": "We eat out at the corner café on Fridays, but tonight we are cooking at home.",
+        "zh": "我們星期五會到街角咖啡室外出用餐，但今晚會在家煮食。",
+        "promptZh": "先聽示範，再指出兩晚的用餐地點。",
+        "targetSpan": {
+          "start": 3,
+          "end": 10
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校辯論隊比賽後星期六在室內餐館吃晚飯；星期日改為買外賣帶回家吃。用一至兩句英文說明哪一天外出用餐，避免把外賣回家也算進去。",
+        "selfCheckZh": "寫出星期六在室內餐館吃、星期日外賣回家，只有前者屬外出用餐。",
+        "examples": [
+          {
+            "en": "The debate team ate out at an indoor restaurant on Saturday after the match, but bought takeaway to eat at home on Sunday.",
+            "zh": "辯論隊星期六賽後在室內餐館外出用餐，但星期日買外賣回家吃。"
+          },
+          {
+            "en": "They chose to eat out on Saturday and sit in the restaurant; on Sunday they bought takeaway and ate it at home.",
+            "zh": "他們星期六選擇在餐館坐下外出用餐；星期日則買外賣回家吃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "debate team",
+            "zh": "辯論隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "indoor restaurant",
+            "zh": "室內餐館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 47
+            }
+          },
+          {
+            "en": "after the match",
+            "zh": "賽後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "to eat at home",
+            "zh": "回家吃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 111
+            }
+          },
+          {
+            "en": "bought takeaway",
+            "zh": "買外賣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 91
+            }
+          },
+          {
+            "en": "at home",
+            "zh": "在家",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Eat out means dining away from home, often indoors.",
+          "zh": "外出用餐指在家以外吃飯，通常也可在室內。"
+        },
+        {
+          "en": "Buying takeaway to eat at home is usually not eating out.",
+          "zh": "買外賣回家吃通常不算外出用餐。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2982",
+      "number": 2982,
+      "inventoryId": "expr-2982",
+      "titleEn": "mind their own business",
+      "titleZh": "別干涉別人的事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmind\\s+(?:their|his|her|your|our|my)\\s+own\\s+business\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Avoid interfering in another person’s private affairs when no help or input has been requested.",
+        "meaningZh": "在別人沒有求助或邀請意見時，避免干涉其私事。",
+        "grammar": "Mind one’s own business; business here means personal affairs, not a company. Direct imperative can sound blunt, so register matters.",
+        "register": "Tactful peer conversation: a friend tells another friend not to press a classmate for private family details.",
+        "boundaryZh": "不干涉私事不等於忽視明顯危險或拒絕對方主動求助。",
+        "misconceptionZh": "不是經營自己的企業；直接命令別人 mind your own business 可能顯得無禮。",
+        "outcomeZh": "能區分越界打探與受邀協助，並選擇較得體的說法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0871",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 81,
+          "book": 12,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 82, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They should mind their own business.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mind their own business"
+        }
+      ],
+      "listening": {
+        "en": "At a bookshop, a customer kept asking the owner why she had closed for a private family matter. She said she did not want to discuss it. He needed to mind his own business.",
+        "zh": "在書店，一名顧客不斷問店主為何因私人家庭事務暫停營業。她說不想討論；那名顧客應別干涉她的私事。",
+        "promptZh": "mind his own business 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Stop pressing the owner for private details.",
+            "zh": "停止向店主追問私人細節。"
+          },
+          {
+            "id": "b",
+            "en": "Open his own company.",
+            "zh": "開設自己的公司。"
+          },
+          {
+            "id": "c",
+            "en": "Ignore an explicit emergency request.",
+            "zh": "無視明確的緊急求助。"
+          },
+          {
+            "id": "d",
+            "en": "Ask even more personal questions.",
+            "zh": "再問更多私人問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "店主清楚表示不想談，顧客應停止打探。"
+      },
+      "reply": {
+        "promptEn": "How should the club members respond to Leo’s private family matter? He has said he does not want to discuss it, and no safety concern has been raised.",
+        "promptZh": "（學會成員應如何對待里奧的家庭私事？他已說不想討論，也沒有出現安全疑慮。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They should respect Leo’s stated privacy.",
+            "zh": "他們應尊重里奧明確表達的私隱。"
+          },
+          {
+            "id": "b",
+            "en": "They should stop asking for details.",
+            "zh": "他們應停止追問細節。"
+          },
+          {
+            "id": "c",
+            "en": "The members should mind their own business and let Leo choose whether to share.",
+            "zh": "成員應別干涉他的私事，讓里奧自行決定是否分享。"
+          },
+          {
+            "id": "d",
+            "en": "They can let Leo choose whether to speak later.",
+            "zh": "他們可讓里奧日後自行決定是否談起。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都尊重對方表示的界線；金句用 mind their own business。"
+      },
+      "scene": {
+        "promptZh": "同學已說不想談家事，旁人仍反覆追問，沒有安全問題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those classmates need to mind their own business and respect her answer.",
+            "zh": "那些同學應別干涉她的私事，尊重她的回答。"
+          },
+          {
+            "id": "b",
+            "en": "They must run a company together.",
+            "zh": "他們必須一起經營公司。"
+          },
+          {
+            "id": "c",
+            "en": "Repeated questions show she invited their advice.",
+            "zh": "反覆追問表示她邀請了意見。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對方清楚表示不願討論，應停止越界打探。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合以 mind their own business 拒絕？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Someone asks a stranger intrusive questions about a private choice.",
+            "zh": "陌生人越界追問私人選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A friend explicitly asks for help with a difficult form.",
+            "zh": "朋友明確請你協助填寫一份困難表格。"
+          },
+          {
+            "id": "c",
+            "en": "A neighbour keeps demanding details after being told no.",
+            "zh": "鄰居被拒絕後仍要求知道細節。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "對方主動求助，適當提供幫忙不是越界干涉。"
+      },
+      "dialogue": {
+        "promptZh": "朋友想直接對長輩說「Mind your own business!」，但只需婉轉拒絕追問。你怎樣建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The idea is to ask them to mind their own business, but a gentler privacy request may suit this conversation.",
+            "zh": "意思是請對方別干涉私事，但這場合用較溫和的私隱請求可能更得體。"
+          },
+          {
+            "id": "b",
+            "en": "The imperative is always equally polite in every setting.",
+            "zh": "這命令句在任何場合都同樣有禮。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means to invest in a company.",
+            "zh": "這片語表示投資一間公司。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "理解意思，也要照顧語氣和對象。"
+      },
+      "speaking": {
+        "en": "We should mind our own business and let Amira decide whether she wants to talk about her family.",
+        "zh": "我們應別干涉阿米拉的私事，讓她自行決定是否想談家人。",
+        "promptZh": "先聽示範，再指出誰有權決定是否分享。",
+        "targetSpan": {
+          "start": 10,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區課程一名學員請同學不要再問她為何轉工；她沒有要求建議，也沒有安全疑慮。導師想溫和提醒同學尊重界線。用一至兩句英文表達，讓片語出現在敘述而非對學員或同學直接發出的粗魯命令。",
+        "selfCheckZh": "寫出學員不想談轉工、未求助，以及導師用溫和說法提醒同學；目標片語在敘述中使用。",
+        "examples": [
+          {
+            "en": "The tutor can say, “Please stop asking about her job change.” The classmates should mind their own business because she did not ask for advice.",
+            "zh": "導師可以說：「請不要再問她轉工的事。」同學應別干涉她的私事，因為她沒有徵求意見。"
+          },
+          {
+            "en": "The tutor should gently remind classmates, “Please respect what she wants to keep private.” They can mind their own business, since she asked for no advice, and let her choose whether to share later.",
+            "zh": "導師應溫和提醒同學：「請尊重她想保留私隱的事。」既然她沒有徵求意見，他們便應別干涉，讓她日後自行決定是否分享。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "tutor",
+            "zh": "導師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 9
+            }
+          },
+          {
+            "en": "job change",
+            "zh": "轉工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "classmates",
+            "zh": "同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 76
+            }
+          },
+          {
+            "en": "ask for advice",
+            "zh": "徵求意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 142
+            }
+          },
+          {
+            "en": "respect",
+            "zh": "尊重",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 58
+            }
+          },
+          {
+            "en": "choose whether to share",
+            "zh": "自行決定是否分享",
+            "exampleIndex": 1,
+            "span": {
+              "start": 169,
+              "end": 192
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Mind your own business means stop interfering in private affairs.",
+          "zh": "別干涉別人的事，指停止越界插手私事。"
+        },
+        {
+          "en": "Mind your own business can sound blunt as a direct command.",
+          "zh": "直接命令別人別管閒事，語氣可能生硬。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

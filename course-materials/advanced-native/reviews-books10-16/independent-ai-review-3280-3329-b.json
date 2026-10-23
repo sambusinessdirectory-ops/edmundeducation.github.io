@@ -1,0 +1,36 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 3280, 3283, 3286, 3306, 3319, 3327, 3328, 3329",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json", "sha256": "ee9f9c6d46176eac06a8182bc3e49a2243d45bb6078a72ff1284ceeee2efdb07"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3280-3329-a.json", "sha256": "f864b31dc08cfaca1be9b30f2e04c6492f27270ac78e6d4bd0b5b3f827f0388a"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"},
+    "canonical1143": {"path": "course-materials/advanced-native/batches/batch-1126-1150.json", "sha256": "87fa865a7b37225192d4faaadfa43fc5071a49a214cddd561e579a8608502a43"}
+  },
+  "mechanicalChecks": {
+    "source": "All eight source IDs, expression labels and full source examples match the inventory; all examples match their own target regex.",
+    "targetAndKeys": "All golden replies, keyed scene and dialogue options, speaking spans and both writing models match fresh gi target detectors; one defensible key and four valid reply options were inspected per lesson.",
+    "glossary": "All 40 glossary spans are exact non-target substrings of the linked English answer models.",
+    "build": "Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags."
+  },
+  "ownerBoundary": "3280 focuses on explanations used to block available repair; 3283 focuses on evasion of an assigned duty without a clear handover; 3286 focuses on sincere repair of harm to another person. These are adjacent but different learner decisions. Lesson 3327 on track is project progress against milestones and uses a bounded project/plan regex; canonical 1143 getting life back on track concerns recovery of a person's life after disruption. Distinct owners are justified at these source senses.",
+  "perLesson": [
+    {"sourceOrdinal": 3280, "lessonId": "advanced-native-3280", "status": "provisional-content-pass", "findings": [], "evidence": "The seven steps distinguish genuine explanation plus repair from repeated excuse-making; both writing models include a reason, delayed correction and concrete repair."},
+    {"sourceOrdinal": 3283, "lessonId": "advanced-native-3283", "status": "provisional-content-pass", "findings": [], "evidence": "Avoidance of an assigned task is separated from an agreed handover or a legitimate request for help; source, EN/ZH and both repair models align."},
+    {
+      "sourceOrdinal": 3286,
+      "lessonId": "advanced-native-3286",
+      "status": "requires-repair",
+      "findings": [{"id": "R3286-01", "severity": "major", "path": "writing.examples[1]", "text": "The writing prompt requires the harm, an apology, a relevant repair and respect for the affected person's response. The damaged-camera model gives prompt disclosure, payment and safe return, but never apologises or leaves the owner free to respond or decline. Add a concise apology and respect for the owner's response in English and Traditional Chinese, preserving the concrete repair; recalculate any moved glossary spans."}],
+      "evidence": "The first model and assessed decisions correctly distinguish making amends from apology alone or compelled forgiveness."
+    },
+    {"sourceOrdinal": 3306, "lessonId": "advanced-native-3306", "status": "provisional-content-pass", "findings": [], "evidence": "The busy-but-undirected day is distinct from chosen rest; both writing examples show an important task left untouched and a subsequent priority reset."},
+    {"sourceOrdinal": 3319, "lessonId": "advanced-native-3319", "status": "provisional-content-pass", "findings": [], "evidence": "Overfilled schedules, affected users and a practical buffer are present in both writing contexts; mere detailed planning is not treated as harmful."},
+    {"sourceOrdinal": 3327, "lessonId": "advanced-native-3327", "status": "provisional-content-pass", "findings": [], "evidence": "Progress is tied to a concrete deadline and remaining risk rather than guaranteed completion; project-focused grammar and detector stay distinct from canonical 1143 personal recovery."},
+    {"sourceOrdinal": 3328, "lessonId": "advanced-native-3328", "status": "provisional-content-pass", "findings": [], "evidence": "A measurable aim, supporting actions and review are consistently linked; both writing models complete all three elements."},
+    {"sourceOrdinal": 3329, "lessonId": "advanced-native-3329", "status": "provisional-content-pass", "findings": [], "evidence": "Multiple current demands are grounded without inferring unwillingness; both writing examples make help optional and respect refusal."}
+  ],
+  "findingCount": {"major": 1, "minor": 0},
+  "humanApproval": false,
+  "releaseApproval": false
+}

@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-ai-exact-hash-repair-followup",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2922-2967-b.json",
+  "inputFiles": {
+    "pilot1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-1.json", "sha256": "305f376d5f0aae616185a688da09ecfb24f4710e24cc6c24c17cf7b8bd4b4d2f"},
+    "pilot2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-2.json", "sha256": "ed5e1b425f4cdb1b05821f37d95739451f48162e572e396aa6c5ee362a8d7b95"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2922-2967-review-pilot.json", "sha256": "7595bc8c849c93876e184d2eb2ad3ec06ee4f4f5b78bbd4de8417bd9d5f3855a"}
+  },
+  "findingsRechecked": [
+    {"id": "R2922-01", "status": "cleared", "evidence": "Model 2 now explicitly says repeated options made participation fall after the first popular week, while the system had no technical fault. The Traditional Chinese gives the same cause and effect; glossary offsets remain exact."},
+    {"id": "R2947-01", "status": "cleared", "evidence": "Model 2 now explicitly abandons the filmed giant-cheque handover, provides homework help and makes only a brief donation announcement, in both languages. The performative target sense remains distinct from 2231 playback."},
+    {"id": "R2949-01", "status": "cleared", "evidence": "Model 1 now states the ten-thousand-dollar grant and no additional donations against the thirty-thousand-dollar outside theatre, then chooses the school stage. English and Traditional Chinese agree."},
+    {"id": "R2950-01", "status": "cleared", "evidence": "Model 2 now opens 'After years apart' and preserves the simple seventieth-birthday home reunion as personally valuable without predicting no reunion can ever recur; Chinese is aligned."}
+  ],
+  "regressionCheck": "All changed models retain the target and exact non-target glossary spans. The other four lessons are byte-unchanged content passes. Combined focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "status": "all-eight-provisional-content-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

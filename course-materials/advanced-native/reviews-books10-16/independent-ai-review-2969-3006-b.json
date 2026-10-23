@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review-with-full-source-screen",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 2969, 2973, 2977, 2982, 2984, 2985, 2996, 3006",
+  "inputFiles": {
+    "pilot1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-1.json", "sha256": "00da044534882f0419e04a7a227b81bf070f2b7e262eecfcd85181dabab4fcbf"},
+    "pilot2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-2.json", "sha256": "0b8549044e4a36c5b5343b338922fc231d31cd2cde111a921e30e5c3293a8079"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2969-3006-review-pilot.json", "sha256": "94006f8f1731cf851bba0cca84880af85d6d93f25c4c26dad00d51bd99d485c8"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "mechanicalChecks": {
+    "sourceTargetGlossary": "All eight exact source IDs/expressions/examples and target-bearing keys match; all 48 glossary spans are exact non-target substrings.",
+    "guideCopyScreen": "192 learner-facing English strings compared against all 2,604 guide example sentences after case/punctuation/apostrophe normalisation. One whole-text exact copy (2982 reply C) and 12 near hits. Nine 3006 hits consist only of its seven-token fixed target phrase in otherwise new content; three non-target or source-frame hits require editorial action in 2973/2982.",
+    "nearRule": "At least six contiguous shared tokens covering at least 60 percent of the shorter text, or nine shared tokens regardless of ratio; fixed target overlap manually discounted.",
+    "build": "Combined focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags. Build does not clear source-copy or register findings."
+  },
+  "perLesson": [
+    {"sourceOrdinal": 2969, "lessonId": "advanced-native-2969", "status": "provisional-content-pass", "findings": [], "evidence": "No source copy; decision process without participant input is separated from proven bad outcome, with complete bilingual models."},
+    {"sourceOrdinal": 2973, "lessonId": "advanced-native-2973", "status": "requires-repair", "findings": [{"id": "R2973-01", "severity": "minor", "path": "reply.options[c].en", "text": "The golden reply 'She celebrated with a small circle' shares the first six contiguous words of the guide example 'She celebrated with a small circle of friends.' Recast it around Mari's farewell so it is an original situational reply while retaining 'a small circle'; align Chinese."}], "evidence": "Other seven-step content and writing models express intimacy without hostility or a literal seating circle."},
+    {"sourceOrdinal": 2977, "lessonId": "advanced-native-2977", "status": "provisional-content-pass", "findings": [], "evidence": "Restaurant dining is distinguished from outdoor-only or takeaway-at-home; both writing models separate Saturday from Sunday."},
+    {
+      "sourceOrdinal": 2982,
+      "lessonId": "advanced-native-2982",
+      "status": "requires-repair",
+      "findings": [
+        {"id": "R2982-01", "severity": "major", "path": "reply.options[c].en, listening.en, scene.options[a].en", "text": "The keyed reply exactly copies the complete guide example 'They should mind their own business.' The listening transcript embeds the same sentence, and scene key begins with it before adding context. Rewrite all three around their distinct people/settings, retaining the target phrase and correct English/Traditional Chinese meanings without the full guide sentence frame."},
+        {"id": "R2982-02", "severity": "major", "path": "writing.examples[0], writing.examples[1]", "text": "The writing prompt asks the tutor to remind classmates gently, yet both models have the tutor ask/remind them to 'mind their own business', a blunt expression the lesson's own dialogue cautions against using as a direct interpersonal request. Keep the target in neutral narration, but have the tutor's actual message politely ask classmates to respect the learner's privacy; update both English and Traditional Chinese and glossary offsets."}
+      ],
+      "evidence": "The privacy boundary and exception for an actual help request are otherwise well grounded."
+    },
+    {"sourceOrdinal": 2984, "lessonId": "advanced-native-2984", "status": "provisional-content-pass", "findings": [], "evidence": "Coordination elements rather than literal machine parts are tested; both models preserve the missing-books check and avoid guaranteeing success."},
+    {"sourceOrdinal": 2985, "lessonId": "advanced-native-2985", "status": "provisional-content-pass", "findings": [], "evidence": "Temporary staffing versus later permanent hire is consistent across seven steps and both writing models."},
+    {"sourceOrdinal": 2996, "lessonId": "advanced-native-2996", "status": "provisional-content-pass", "findings": [], "evidence": "Solo final action remains compatible with advice and continued teamwork elsewhere; both writing models scope the poster task."},
+    {"sourceOrdinal": 3006, "lessonId": "advanced-native-3006", "status": "provisional-content-pass", "findings": [], "evidence": "The apparent near-copy hits consist of the fixed seven-token target phrase only; the poster/bus, water supply and hospital-stakes scenarios are substantively new and preserve referent clarity."}
+  ],
+  "findingCount": {"major": 2, "minor": 1},
+  "humanApproval": false,
+  "releaseApproval": false
+}

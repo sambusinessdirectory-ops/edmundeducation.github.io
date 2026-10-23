@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2922-2967-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2947",
+      "number": 2947,
+      "inventoryId": "expr-2947",
+      "titleEn": "put on a show",
+      "titleZh": "做場面給別人看",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bput(?:ting|s)?\\s+on\\s+a\\s+show\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a conspicuous display mainly to impress observers rather than because of sincere care.",
+        "meaningZh": "主要為了取悅旁觀者而刻意做場面，並非出於真誠關懷。",
+        "grammar": "Put on a show / putting on a show; distinguish the performative display sense from literally staging entertainment or starting playback.",
+        "register": "Candid family-event discussion: a sister tells her brother to keep their parents’ anniversary gathering thoughtful instead of staging a display for social media.",
+        "boundaryZh": "有漂亮佈置不一定是假；要看是否把給人看凌駕於真誠目的。",
+        "misconceptionZh": "不是指真的表演節目，也不同於只播放影片的 put on。",
+        "outcomeZh": "能以行動目的判斷真誠照顧與為觀眾做場面。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0836",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "20–22",
+          "locatorNote": "DOCX table 78, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The gathering is about care, not putting on a show.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "putting on a show"
+        }
+      ],
+      "listening": {
+        "en": "The hosts hired photographers to film every gift but barely spoke to the guest of honour. It felt like putting on a show rather than caring for her.",
+        "zh": "主人請攝影師拍下每份禮物，卻幾乎沒跟主角說話。這更像做場面給人看，而非關心她。",
+        "promptZh": "putting on a show 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Creating a display to impress onlookers more than to care for her.",
+            "zh": "做場面令旁人留下印象，多於關心她。"
+          },
+          {
+            "id": "b",
+            "en": "Staging a theatre performance for the guest.",
+            "zh": "為主角演一齣舞台劇。"
+          },
+          {
+            "id": "c",
+            "en": "Starting a film on a screen.",
+            "zh": "在螢幕播放電影。"
+          },
+          {
+            "id": "d",
+            "en": "Quietly asking what she actually wants.",
+            "zh": "私下詢問她真正想要甚麼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是拍攝給人看，卻忽略主角。"
+      },
+      "reply": {
+        "promptEn": "Why did Nia choose a small meal rather than a filmed ceremony? Her grandmother wanted time to talk with family; the large event would focus on dramatic entrances for viewers.",
+        "promptZh": "（妮雅為何選小型聚餐而非拍攝典禮？祖母希望與家人交談；大型活動則會著重給觀眾看的戲劇化進場。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The meal better matches her grandmother’s wish for conversation.",
+            "zh": "聚餐較符合祖母想交談的願望。"
+          },
+          {
+            "id": "b",
+            "en": "The filmed entrance would prioritise appearances.",
+            "zh": "拍攝進場會把場面放在首位。"
+          },
+          {
+            "id": "c",
+            "en": "Nia does not want to put on a show for viewers.",
+            "zh": "妮雅不想為觀眾做場面。"
+          },
+          {
+            "id": "d",
+            "en": "The family can give attention to the person being honoured.",
+            "zh": "家人可以關注受慶祝的主角。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以主角需要對照觀眾場面；金句用 put on a show。"
+      },
+      "scene": {
+        "promptZh": "義工為了照片排長龍，卻沒有把食物交給等候的人。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photo queue risks putting on a show instead of meeting people’s needs.",
+            "zh": "排隊拍照恐怕是在做場面，而非滿足人們需要。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers are literally staging a play.",
+            "zh": "義工真的在演戲。"
+          },
+          {
+            "id": "c",
+            "en": "The people have already received all their meals.",
+            "zh": "大家已收到全部餐點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只顧照片而沒有提供服務，支持做場面之判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說是 put on a show？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team spends all its effort on camera angles and ignores clients.",
+            "zh": "團隊只顧鏡頭角度，忽略服務對象。"
+          },
+          {
+            "id": "b",
+            "en": "A host decorates the room and still spends the evening listening to guests.",
+            "zh": "主人佈置房間後，整晚仍用心聽客人說話。"
+          },
+          {
+            "id": "c",
+            "en": "An organiser stages a public display while omitting the promised help.",
+            "zh": "籌辦人安排公開場面，卻不提供承諾的協助。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "漂亮佈置可與真誠關心並存。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只要有漂亮佈置，就是做場面。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A lovely room is not necessarily putting on a show; the purpose and care shown to guests matter.",
+            "zh": "漂亮場地不一定是做場面；要看目的和對客人的關心。"
+          },
+          {
+            "id": "b",
+            "en": "Every decoration proves the host is insincere.",
+            "zh": "任何佈置都證明主人不真誠。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase only means playing a video.",
+            "zh": "這片語只表示播放影片。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "應看展示是否取代真誠照顧。"
+      },
+      "speaking": {
+        "en": "They stopped putting on a show for the cameras and spent the afternoon helping the families who had come.",
+        "zh": "他們不再為鏡頭做場面，轉而花整個下午協助到場家庭。",
+        "promptZh": "先聽示範，再指出改變前後的目的。",
+        "targetSpan": {
+          "start": 13,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園慈善日的主辦人原想請人拍攝巨型支票交接，但受助學生更需要安靜的功課輔導；團隊改為提供輔導，只簡單公布捐款。用一至兩句英文說明選擇，不要說所有拍照都不真誠。",
+        "selfCheckZh": "寫出放棄巨型支票場面、提供功課輔導、簡單公布捐款；勿一概否定拍照。",
+        "examples": [
+          {
+            "en": "Instead of putting on a show with a giant cheque, the team offered quiet homework support and announced the donation simply.",
+            "zh": "團隊沒有拿巨型支票做場面，而是提供安靜的功課輔導，並簡單公布捐款。"
+          },
+          {
+            "en": "The organisers dropped the filmed giant-cheque handover rather than put on a show for the cameras: they gave pupils homework help and kept the donation announcement brief.",
+            "zh": "主辦人放棄拍攝巨型支票交接，不為鏡頭做場面：他們為學生提供功課輔導，並簡短公布捐款。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "giant cheque",
+            "zh": "巨型支票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 48
+            }
+          },
+          {
+            "en": "quiet homework support",
+            "zh": "安靜的功課輔導",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 89
+            }
+          },
+          {
+            "en": "donation",
+            "zh": "捐款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 116
+            }
+          },
+          {
+            "en": "simply",
+            "zh": "簡單地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 123
+            }
+          },
+          {
+            "en": "homework help",
+            "zh": "功課輔導",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 129
+            }
+          },
+          {
+            "en": "announcement brief",
+            "zh": "公布簡短",
+            "exampleIndex": 1,
+            "span": {
+              "start": 152,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Putting on a show focuses on impressing observers rather than the person served.",
+          "zh": "做場面是重視旁觀者印象多於服務對象。"
+        },
+        {
+          "en": "A lovely room is not automatically putting on a show.",
+          "zh": "呈現得漂亮本身不證明不真誠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2949",
+      "number": 2949,
+      "inventoryId": "expr-2949",
+      "titleEn": "beyond their means",
+      "titleZh": "超出負擔能力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbeyond\\s+(?:their|his|her|our|my|your|its)\\s+means\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "More than a person or group can afford from its available resources.",
+        "meaningZh": "超出個人或團體的財力負擔。",
+        "grammar": "Spend/live beyond one’s means; means is plural and refers to financial resources, not a method.",
+        "register": "Practical budgeting advice: a community finance volunteer discusses wedding costs with a couple who want to avoid borrowing for extras.",
+        "boundaryZh": "花費高不一定超出負擔能力；要與實際預算和資源比較。",
+        "misconceptionZh": "means 在此不是「方法」；亦不能單憑價格猜測別人的財務狀況。",
+        "outcomeZh": "能比較支出與可用預算，而非只比較場面大小。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0838",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 78,
+          "book": 12,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "23–25",
+          "locatorNote": "DOCX table 79, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Couples should not spend beyond their means.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "beyond their means"
+        }
+      ],
+      "listening": {
+        "en": "The couple could pay for a simple meal, but the luxury venue would require a loan they could not repay. They decided not to spend beyond their means.",
+        "zh": "這對新人付得起簡單聚餐，但租用豪華場地便要借無法償還的款項。他們決定不花超出負擔能力的錢。",
+        "promptZh": "beyond their means 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "More than the couple can afford.",
+            "zh": "超出這對新人的財力負擔。"
+          },
+          {
+            "id": "b",
+            "en": "More than they know how to organise.",
+            "zh": "超出他們懂得籌辦的方法。"
+          },
+          {
+            "id": "c",
+            "en": "Any celebration that looks elegant.",
+            "zh": "任何看起來高雅的慶祝。"
+          },
+          {
+            "id": "d",
+            "en": "A cost that they already saved enough to cover.",
+            "zh": "他們已存夠錢支付的費用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "要借無法償還的款項，表示支出超出負擔。"
+      },
+      "reply": {
+        "promptEn": "Why did the club cancel the expensive coach trip? Its budget covers a local visit, but the trip would need debt that next year’s membership fees could not repay.",
+        "promptZh": "（學會為何取消昂貴的旅遊車行程？預算足以支付本地參觀，但旅遊車行程需借款，來年的會費也無法還清。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The coach trip exceeds what the club can afford.",
+            "zh": "旅遊車行程超出學會能負擔的費用。"
+          },
+          {
+            "id": "b",
+            "en": "The local visit fits the current budget.",
+            "zh": "本地參觀符合目前預算。"
+          },
+          {
+            "id": "c",
+            "en": "The club should not spend beyond its means.",
+            "zh": "學會不應花超出負擔能力的錢。"
+          },
+          {
+            "id": "d",
+            "en": "Avoiding unrepayable debt explains the decision.",
+            "zh": "避免無法償還的債務，解釋了這項決定。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以預算和還款能力作根據；金句用 beyond its means。"
+      },
+      "scene": {
+        "promptZh": "家庭每月可用二千元作旅行開支，卻打算每月支付五千元旅費並持續借款。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They would be spending beyond their means.",
+            "zh": "他們會花超出負擔能力的錢。"
+          },
+          {
+            "id": "b",
+            "en": "They have already saved enough for the trip.",
+            "zh": "他們已存夠旅費。"
+          },
+          {
+            "id": "c",
+            "en": "The trip must be poorly organised.",
+            "zh": "旅行一定安排得很差。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "費用大於可用預算，且需持續借款。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以證明 beyond their means？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A family borrows repeatedly to pay for optional extras it cannot repay.",
+            "zh": "家庭反覆借款支付無法償還的額外開支。"
+          },
+          {
+            "id": "b",
+            "en": "A family uses savings set aside for a trip and keeps its essential bills covered.",
+            "zh": "家庭用預留旅費的儲蓄旅行，仍能支付必要帳單。"
+          },
+          {
+            "id": "c",
+            "en": "A club books equipment costing twice its available budget without new funding.",
+            "zh": "學會無新資金，卻預訂價格為預算兩倍的器材。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "有儲蓄且必要開支受保障，不足以說超出負擔。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「婚宴很漂亮，所以一定超出他們能力。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Looking elegant does not prove they spent beyond their means; compare the cost with what they can afford.",
+            "zh": "單看外觀不足判斷；要比較費用和他們可負擔的金額。"
+          },
+          {
+            "id": "b",
+            "en": "Beautiful events always require debt.",
+            "zh": "漂亮活動必然要借款。"
+          },
+          {
+            "id": "c",
+            "en": "Means here refers to event-planning methods.",
+            "zh": "這裏的 means 指籌辦方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "判斷要以資源與支出為準。"
+      },
+      "speaking": {
+        "en": "They chose a modest celebration rather than spending beyond their means on a venue that required a loan.",
+        "zh": "他們選擇簡樸慶祝，沒有為要借款的場地花超出負擔能力的錢。",
+        "promptZh": "先聽示範，再指出哪項費用會造成壓力。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生劇團有一萬元資助，可支付校內舞台和服裝；租外面劇院要三萬元，而且沒有額外捐款。團隊選校內演出。用一至兩句英文解釋財務理由，不要批評外面劇院本身。",
+        "selfCheckZh": "寫出一萬元預算、外面劇院需三萬元且無新捐款、選校內舞台避免超支。",
+        "examples": [
+          {
+            "en": "With a ten-thousand-dollar grant and no additional donations, the troupe would spend beyond its means on a thirty-thousand-dollar theatre, so it chose the school stage.",
+            "zh": "劇團只有一萬元資助，也沒有額外捐款；花三萬元租劇院便會超出負擔能力，因此選擇校內舞台。"
+          },
+          {
+            "en": "The outside theatre costs thirty thousand dollars, while the grant is only ten thousand with no new donations; the troupe avoided spending beyond its means by performing at school.",
+            "zh": "外面劇院要三萬元，資助卻只有一萬元，而且沒有新捐款；劇團選擇在學校演出，避免花超出負擔能力的錢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "grant",
+            "zh": "資助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 32
+            }
+          },
+          {
+            "en": "thirty-thousand-dollar theatre",
+            "zh": "三萬元劇院",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 137
+            }
+          },
+          {
+            "en": "school stage",
+            "zh": "校內舞台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 167
+            }
+          },
+          {
+            "en": "outside theatre",
+            "zh": "外面劇院",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "new donations",
+            "zh": "新捐款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 109
+            }
+          },
+          {
+            "en": "performing at school",
+            "zh": "在學校演出",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 179
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Spending beyond their means exceeds their available resources.",
+          "zh": "超出負擔能力，要比較支出與可用資源。"
+        },
+        {
+          "en": "An expensive choice is not necessarily beyond their means when they can afford it.",
+          "zh": "昂貴選擇並非對所有人都超出負擔能力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2950",
+      "number": 2950,
+      "inventoryId": "expr-2950",
+      "titleEn": "once-in-a-lifetime moment",
+      "titleZh": "一生難得的一刻",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bonce[- ]in[- ]a[- ]lifetime\\s+moments?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A moment felt to be exceptionally rare and not expected to recur in the same way.",
+        "meaningZh": "令人感到極其難得、料想不會以同樣方式重現的一刻。",
+        "grammar": "Once-in-a-lifetime is a compound adjective before moment/opportunity; a wedding can feel this way without a literal guarantee that no similar event will occur.",
+        "register": "Warm personal speech: a sibling explains why the family wants to mark a unique graduation reunion thoughtfully, without claiming every costly extra is necessary.",
+        "boundaryZh": "強調珍貴與罕見，不等於昂貴才值得，也不保證人生絕不再有相似時刻。",
+        "misconceptionZh": "不是「一生只准一次」的法律規則；也不能用它直接證明任何開支合理。",
+        "outcomeZh": "能表達難得時刻，同時避免由珍貴推論必須豪花。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0839",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 78,
+          "book": 12,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "23–25",
+          "locatorNote": "DOCX table 79, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A wedding can feel like one of life's once-in-a-lifetime moments.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "once-in-a-lifetime moments"
+        }
+      ],
+      "listening": {
+        "en": "After years apart, the whole family gathered to celebrate her graduation. For her, seeing everyone together was one of those once-in-a-lifetime moments.",
+        "zh": "分隔多年後，全家聚首慶祝她畢業。對她而言，見到所有人團聚，是一生難得的一刻。",
+        "promptZh": "once-in-a-lifetime moments 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Exceptionally rare and personally memorable occasions.",
+            "zh": "非常難得、值得個人銘記的時刻。"
+          },
+          {
+            "id": "b",
+            "en": "Occasions that require a luxury venue.",
+            "zh": "必須租豪華場地的時刻。"
+          },
+          {
+            "id": "c",
+            "en": "Moments that are legally permitted only once.",
+            "zh": "法律上只准發生一次的時刻。"
+          },
+          {
+            "id": "d",
+            "en": "Ordinary weekly family meals.",
+            "zh": "每星期普通的家庭聚餐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年後全家聚首，重點是難得而珍貴。"
+      },
+      "reply": {
+        "promptEn": "Why did Priya keep a small photograph from the reunion? Three generations met for the first time, and the eldest relative could travel only on that occasion.",
+        "promptZh": "（普麗雅為何保留聚會的小照片？三代人首次見面，最年長的親人亦只有那次能出行。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The gathering was unusually rare for the family.",
+            "zh": "這次聚會對家庭而言非常難得。"
+          },
+          {
+            "id": "b",
+            "en": "The photograph helps her remember a special meeting.",
+            "zh": "照片讓她記住這次特別相聚。"
+          },
+          {
+            "id": "c",
+            "en": "It felt like a once-in-a-lifetime moment to Priya.",
+            "zh": "對普麗雅而言，那像是一生難得的一刻。"
+          },
+          {
+            "id": "d",
+            "en": "The chance for all three generations to meet was exceptional.",
+            "zh": "三代同堂的機會十分難得。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以三代首次同聚和難以重來為根據；金句用 once-in-a-lifetime moment。"
+      },
+      "scene": {
+        "promptZh": "運動員首次代表家鄉出賽，全鎮親友在終點迎接她；她覺得極其難忘。哪句最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may describe the welcome as a once-in-a-lifetime moment.",
+            "zh": "她可能形容這次迎接為一生難得的一刻。"
+          },
+          {
+            "id": "b",
+            "en": "The welcome proves she will never race again.",
+            "zh": "這次迎接證明她永遠不會再比賽。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means the welcome must have cost a lot.",
+            "zh": "這說法表示迎接活動必定花費高昂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可表達個人珍貴感受，不必預言未來。"
+      },
+      "contrast": {
+        "promptZh": "哪個例子最不適合這個說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A family reunites across three countries after twenty years.",
+            "zh": "家人相隔二十年後跨三國重聚。"
+          },
+          {
+            "id": "b",
+            "en": "A commuter catches the same bus at the same stop every weekday.",
+            "zh": "通勤者每個工作天都在同一站乘同一班巴士。"
+          },
+          {
+            "id": "c",
+            "en": "A student hears her name called at a rare award ceremony.",
+            "zh": "學生在難得的頒獎禮聽到自己的名字。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "每天重複的例行事，沒有特別罕見的依據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然是 once-in-a-lifetime，就一定要借錢辦最貴的慶祝。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A once-in-a-lifetime moment can be meaningful without unaffordable spending.",
+            "zh": "一生難得的一刻可以意義深刻，毋須花超出負擔能力的錢。"
+          },
+          {
+            "id": "b",
+            "en": "Rare moments always justify any amount of debt.",
+            "zh": "難得時刻一定值得承擔任何債務。"
+          },
+          {
+            "id": "c",
+            "en": "An inexpensive gathering cannot be memorable.",
+            "zh": "不昂貴的聚會不可能令人難忘。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "難得與昂貴之間沒有必然關係。"
+      },
+      "speaking": {
+        "en": "Hearing her father sing with her children felt like a once-in-a-lifetime moment, even in their small kitchen.",
+        "zh": "在小廚房裏聽父親和孩子一起唱歌，對她而言像是一生難得的一刻。",
+        "promptZh": "先聽示範，再指出珍貴感是否取決於場地價格。",
+        "targetSpan": {
+          "start": 54,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：多年分居的三姊妹終於在母親七十歲生日同桌吃飯；家中簡單煮食，沒有豪華場地，但她們十分珍惜這次相聚。用一至兩句英文描述時刻的意義，勿聲稱絕對不會再聚。",
+        "selfCheckZh": "寫出三姊妹多年後與母親相聚、簡單家宴仍珍貴，避免絕對預言。",
+        "examples": [
+          {
+            "en": "After years apart, the sisters’ simple dinner with their mother on her seventieth birthday felt like a once-in-a-lifetime moment, even without a grand venue.",
+            "zh": "多年分居後，三姊妹在母親七十歲生日與她吃的簡單晚餐像是一生難得的一刻，即使沒有豪華場地。"
+          },
+          {
+            "en": "After years apart, the three sisters treasured their mother’s seventieth birthday meal at home as a once-in-a-lifetime moment; its value came from meeting again, not the cost.",
+            "zh": "多年分居後，三姊妹珍惜在家為母親慶祝七十歲生日的飯局，視之為一生難得的一刻；珍貴之處在於重聚，不在花費。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "years apart",
+            "zh": "多年分居",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 17
+            }
+          },
+          {
+            "en": "simple dinner",
+            "zh": "簡單晚餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 45
+            }
+          },
+          {
+            "en": "grand venue",
+            "zh": "豪華場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 156
+            }
+          },
+          {
+            "en": "seventieth birthday",
+            "zh": "七十歲生日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 81
+            }
+          },
+          {
+            "en": "meal at home",
+            "zh": "家中飯局",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "meeting again",
+            "zh": "再次相聚",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A once-in-a-lifetime moment feels exceptionally rare to the person involved.",
+          "zh": "一生難得強調對當事人而言非常罕見。"
+        },
+        {
+          "en": "A once-in-a-lifetime moment need not require an expensive celebration.",
+          "zh": "難得時刻不必以昂貴慶祝來證明。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2967",
+      "number": 2967,
+      "inventoryId": "expr-2967",
+      "titleEn": "money well spent",
+      "titleZh": "花得值得",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmoney\\s+well\\s+spent\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Money used for a result that the speaker judges worthwhile.",
+        "meaningZh": "某筆錢帶來說話者認為值得的成果。",
+        "grammar": "Call/consider something money well spent; spent is a past participle modifying money. State the benefit, not merely the price.",
+        "register": "Public-budget discussion: a resident explains to a council member why accessible seating at a local festival justified its cost.",
+        "boundaryZh": "這是有理由的價值判斷，不是「便宜」的同義詞，也不保證每個人同意。",
+        "misconceptionZh": "錢花光了不等於花得值得；須指出所得成果。",
+        "outcomeZh": "能把開支連到具體好處，並區分花得值與只因價格低。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0856",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "26–29",
+          "locatorNote": "DOCX table 80, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The community festival was money well spent.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money well spent"
+        }
+      ],
+      "listening": {
+        "en": "The community festival paid for ramps so wheelchair users could reach every activity. Many residents called the accessibility work money well spent.",
+        "zh": "社區節慶付費設置斜道，讓輪椅使用者能到達每項活動。許多居民認為改善無障礙設施的錢花得值得。",
+        "promptZh": "money well spent 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cost produced a worthwhile accessibility benefit.",
+            "zh": "這筆開支帶來值得的無障礙改善。"
+          },
+          {
+            "id": "b",
+            "en": "The ramps must have been free.",
+            "zh": "斜道一定免費。"
+          },
+          {
+            "id": "c",
+            "en": "Every resident agreed on every budget item.",
+            "zh": "每名居民都同意每項預算。"
+          },
+          {
+            "id": "d",
+            "en": "The festival spent all available cash without a result.",
+            "zh": "節慶花光可用現金卻沒有成果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民所肯定的是輪椅使用者能參與活動的具體好處。"
+      },
+      "reply": {
+        "promptEn": "Why did the library renew the large-print collection? Older readers had waited months for readable books, and the new copies are now borrowed every week.",
+        "promptZh": "（圖書館為何更新大字版藏書？年長讀者等了幾個月才有容易閱讀的書，新書現時每週都有借出。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The purchase answered a documented need.",
+            "zh": "採購回應了已知需要。"
+          },
+          {
+            "id": "b",
+            "en": "Readers are using the new books regularly.",
+            "zh": "讀者正定期借閱新書。"
+          },
+          {
+            "id": "c",
+            "en": "The library considers the purchase money well spent.",
+            "zh": "圖書館認為這筆採購花得值得。"
+          },
+          {
+            "id": "d",
+            "en": "The new copies improved access for waiting readers.",
+            "zh": "新書改善了等候讀者的閱讀機會。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以有需要且實際使用解釋值得；金句用 money well spent。"
+      },
+      "scene": {
+        "promptZh": "學校買了可重複使用的水壺，學生每日使用，亦減少即棄杯。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bottles may be money well spent because they are used and reduce waste.",
+            "zh": "水壺每日有用，亦減少廢物，這筆錢可能花得值得。"
+          },
+          {
+            "id": "b",
+            "en": "They are worthwhile only if they cost nothing.",
+            "zh": "水壺只有免費才值得。"
+          },
+          {
+            "id": "c",
+            "en": "Any purchase is worthwhile once payment is complete.",
+            "zh": "只要付了錢，任何採購都值得。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有使用和減廢的具體成果。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最能支持「花得值得」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learning kit cost more than expected but helped all six classes practise weekly.",
+            "zh": "學習工具價錢較預期高，卻讓六班每週都能練習。"
+          },
+          {
+            "id": "b",
+            "en": "A kit was bought and kept unopened in a cupboard.",
+            "zh": "工具買回後一直未開封，放在櫃裏。"
+          },
+          {
+            "id": "c",
+            "en": "The receipt confirms only that the school paid for a kit.",
+            "zh": "收據只證明學校付錢買了工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "判斷值得須有實際而相關的好處。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這項目便宜，所以必然是 money well spent。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A low price alone does not make it money well spent; ask what useful result the spending produced.",
+            "zh": "價錢低本身不足夠；要看開支帶來甚麼有用成果。"
+          },
+          {
+            "id": "b",
+            "en": "Anything cheap is automatically worthwhile.",
+            "zh": "任何便宜東西都自動值得。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means that all the money was spent.",
+            "zh": "這片語只表示錢已花光。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "價值要看成果，不能只看標價。"
+      },
+      "speaking": {
+        "en": "Repairing the school lift was money well spent because pupils who use wheelchairs could finally reach the science rooms.",
+        "zh": "維修學校升降機的錢花得值得，因為使用輪椅的學生終於可到達科學室。",
+        "promptZh": "先聽示範，再指出改善帶來甚麼好處。",
+        "targetSpan": {
+          "start": 30,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心花費兩萬元改善門口斜道，之前無法進入的輪椅使用者如今能參加每週課程；費用並不便宜，但中心認為有價值。用一至兩句英文解釋為何花得值得。",
+        "selfCheckZh": "寫出兩萬元開支、斜道改善、輪椅使用者能參加每週課程；勿說因為便宜才值得。",
+        "examples": [
+          {
+            "en": "The centre called the twenty-thousand-dollar ramp money well spent because wheelchair users can now attend its weekly classes.",
+            "zh": "中心認為花兩萬元改善斜道值得，因為輪椅使用者如今能參加每週課程。"
+          },
+          {
+            "en": "Although the twenty-thousand-dollar entrance ramp was not cheap, it was money well spent: people previously unable to enter can now join weekly activities.",
+            "zh": "雖然兩萬元的門口斜道並不便宜，但這筆錢花得值得：之前無法進入的人如今可參加每週活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twenty-thousand-dollar ramp",
+            "zh": "兩萬元斜道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 49
+            }
+          },
+          {
+            "en": "wheelchair users",
+            "zh": "輪椅使用者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          },
+          {
+            "en": "attend",
+            "zh": "參加",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 106
+            }
+          },
+          {
+            "en": "weekly classes",
+            "zh": "每週課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 125
+            }
+          },
+          {
+            "en": "entrance ramp",
+            "zh": "門口斜道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 49
+            }
+          },
+          {
+            "en": "previously unable to enter",
+            "zh": "之前無法進入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Money well spent needs a worthwhile result, not just a low price.",
+          "zh": "花得值得須有有價值的成果，不只是價格低。"
+        },
+        {
+          "en": "Call spending money well spent only when it brings a useful result.",
+          "zh": "判斷一筆錢是否花得值時，要說明誰受益及如何受益。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

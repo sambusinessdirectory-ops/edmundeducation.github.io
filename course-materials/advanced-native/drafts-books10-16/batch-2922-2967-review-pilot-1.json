@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2922-2967-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2922",
+      "number": 2922,
+      "inventoryId": "expr-2922",
+      "titleEn": "lose their charm",
+      "titleZh": "漸漸失去吸引力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing)\\s+(?:their|its|his|her|the)\\s+charm\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become less appealing after an initially attractive period.",
+        "meaningZh": "原本吸引人的事物逐漸失去吸引力。",
+        "grammar": "Lose/loses/lost + possessive + charm; the possessive refers to the thing becoming less attractive.",
+        "register": "Everyday consumer advice: a parent explains to another parent why novelty alone is a weak reason to buy a toy.",
+        "boundaryZh": "失去吸引力不等於產品已損壞，也不表示每個人都不再喜歡。",
+        "misconceptionZh": "不能只因某物舊了便斷定它失去吸引力；要有興趣轉淡的證據。",
+        "outcomeZh": "能分辨新鮮感消退、實際損壞與仍然有用。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0811",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 75, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Cheap gadgets often lose their charm quickly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose their charm"
+        }
+      ],
+      "listening": {
+        "en": "The flashing toy thrilled Mei on Monday, but by Friday she ignored it although it still worked. Such gadgets can lose their charm quickly.",
+        "zh": "閃燈玩具星期一令美很興奮，到星期五她已不理會它，雖然玩具仍能使用。這類玩具很快就會失去吸引力。",
+        "promptZh": "lose their charm 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They become less appealing after the initial excitement fades.",
+            "zh": "最初的興奮消退後，它們變得沒那麼吸引。"
+          },
+          {
+            "id": "b",
+            "en": "They stop working mechanically by Friday.",
+            "zh": "它們到星期五便機械故障。"
+          },
+          {
+            "id": "c",
+            "en": "Mei has never liked any flashing toy.",
+            "zh": "美從來不喜歡任何閃燈玩具。"
+          },
+          {
+            "id": "d",
+            "en": "Their price must have fallen.",
+            "zh": "它們的價錢一定下降了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "玩具仍能使用，但美的興趣已轉淡。"
+      },
+      "reply": {
+        "promptEn": "Why is the new puzzle no longer on the café table? Customers tried it often during its first week, but hardly anyone chooses it now; all pieces are intact.",
+        "promptZh": "（為何咖啡室桌上不再放那款新拼圖？首星期客人經常玩，現在幾乎沒有人選它；所有拼圖塊仍齊全。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Customers seem less interested in the puzzle now.",
+            "zh": "客人現在似乎對拼圖較沒興趣。"
+          },
+          {
+            "id": "b",
+            "en": "The initial novelty has faded despite the intact pieces.",
+            "zh": "即使拼圖塊齊全，最初的新鮮感仍已消退。"
+          },
+          {
+            "id": "c",
+            "en": "The puzzle has lost its charm for many customers.",
+            "zh": "對許多客人而言，拼圖已失去吸引力。"
+          },
+          {
+            "id": "d",
+            "en": "Its condition is sound, but demand has weakened.",
+            "zh": "它仍完好，但受歡迎程度下降。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據使用量下降而非損壞作答；金句用 lost its charm。"
+      },
+      "scene": {
+        "promptZh": "展覽開幕時有長龍；三個月後展品仍完好，回頭客卻明顯減少。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The display may have lost its charm for repeat visitors.",
+            "zh": "對回頭客而言，展覽可能已失去吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "The display has definitely been damaged.",
+            "zh": "展覽一定已損壞。"
+          },
+          {
+            "id": "c",
+            "en": "Nobody enjoyed the exhibition at its opening.",
+            "zh": "開幕時沒有人喜歡展覽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回頭客減少支持吸引力下降，不能推出展品損壞。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 lose its charm？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors came back less often after their first enthusiastic month.",
+            "zh": "訪客首月熱情，之後回訪較少。"
+          },
+          {
+            "id": "b",
+            "en": "The same readers still choose the old book every week.",
+            "zh": "同一批讀者每星期仍選那本舊書。"
+          },
+          {
+            "id": "c",
+            "en": "Children stopped requesting the game although it still works.",
+            "zh": "遊戲仍可用，但孩子不再要求玩。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "持續主動選擇，沒有顯示吸引力消退。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這款玩具失去吸引力，就代表它壞了。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can lose its charm while still working perfectly.",
+            "zh": "它即使仍能正常使用，也可能失去吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "A working toy must remain exciting forever.",
+            "zh": "能運作的玩具一定永遠有趣。"
+          },
+          {
+            "id": "c",
+            "en": "If interest fades, the toy was never appealing.",
+            "zh": "若興趣消退，玩具起初就一定不吸引。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "吸引力和功能是兩個不同判斷。"
+      },
+      "speaking": {
+        "en": "The app lost its charm for commuters once its daily tips began repeating, although every feature still worked.",
+        "zh": "應用程式的每日提示開始重複後，對通勤者而言失去吸引力，雖然所有功能仍能使用。",
+        "promptZh": "先聽示範，再指出興趣變化和功能狀態。",
+        "targetSpan": {
+          "start": 8,
+          "end": 22
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園午餐投票的新介面首週吸引很多學生；一個月後，學生覺得選項總是相同，參與人數下降；系統並沒有故障。用一至兩句英文說明變化，避免誤稱它壞了。",
+        "selfCheckZh": "寫出首週受歡迎、重複選項令參與下降、系統仍能運作。",
+        "examples": [
+          {
+            "en": "After attracting many students in its first week, the lunch-vote interface lost its charm after a month: repeated choices reduced participation, even though the system still worked.",
+            "zh": "午餐投票介面首週吸引很多學生，但一個月後失去吸引力：重複的選項令參與人數下降，儘管系統仍能運作。"
+          },
+          {
+            "en": "Although it drew many students in its first week, the interface lost its charm when repeated options made participation fall; there was no technical fault.",
+            "zh": "雖然介面首週吸引很多學生，但重複的選項令參與人數下降，它便失去吸引力；系統並沒有技術故障。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lunch-vote interface",
+            "zh": "午餐投票介面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 74
+            }
+          },
+          {
+            "en": "after a month",
+            "zh": "一個月後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 103
+            }
+          },
+          {
+            "en": "repeated choices",
+            "zh": "重複的選項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 121
+            }
+          },
+          {
+            "en": "participation",
+            "zh": "參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 143
+            }
+          },
+          {
+            "en": "first week",
+            "zh": "首週",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 48
+            }
+          },
+          {
+            "en": "technical fault",
+            "zh": "技術故障",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 154
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Something can lose its charm when interest fades.",
+          "zh": "興趣轉淡時，某物可以失去吸引力。"
+        },
+        {
+          "en": "A toy can lose its charm while still working perfectly.",
+          "zh": "失去吸引力不一定代表東西損壞。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2927",
+      "number": 2927,
+      "inventoryId": "expr-2927",
+      "titleEn": "a pretty big deal",
+      "titleZh": "一件頗重要的事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+pretty\\s+big\\s+deal\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Something fairly important or impressive, expressed in an informal, understated way.",
+        "meaningZh": "一件頗重要或令人印象深刻的事，語氣較口語。",
+        "grammar": "Be a pretty big deal for/to someone; pretty intensifies big in informal speech, not physical attractiveness.",
+        "register": "Friendly conversation: a music teacher tells a student that their first public performance matters to them personally without claiming it is world-famous.",
+        "boundaryZh": "重要程度可因人而異；不代表全球大事，也不是外表漂亮。",
+        "misconceptionZh": "不要把 pretty 理解為漂亮，亦不要推斷事情對每個人同樣重要。",
+        "outcomeZh": "能依說話者和對象判斷個人重要性與語氣。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0816",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 76,
+          "book": 12,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 76, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The first concert was a pretty big deal for her.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a pretty big deal"
+        }
+      ],
+      "listening": {
+        "en": "Lena has practised alone for years. Playing her first concert for an audience is a pretty big deal for her, even if the hall is small.",
+        "zh": "蓮娜獨自練習多年。首次在觀眾面前演出，對她而言是件頗重要的事，即使演奏廳不大。",
+        "promptZh": "a pretty big deal 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The first performance matters a lot to Lena personally.",
+            "zh": "首次演出對蓮娜個人頗重要。"
+          },
+          {
+            "id": "b",
+            "en": "The concert hall looks physically beautiful.",
+            "zh": "演奏廳外觀漂亮。"
+          },
+          {
+            "id": "c",
+            "en": "Every person in the country knows about her concert.",
+            "zh": "全國每個人都知道她的音樂會。"
+          },
+          {
+            "id": "d",
+            "en": "The hall must be enormous.",
+            "zh": "演奏廳一定很大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年練習後首次公開演出，說的是個人重要性。"
+      },
+      "reply": {
+        "promptEn": "Why does Arun want a photograph of his first published poem? He worked on it for months and is proud, though it appears only in the school magazine.",
+        "promptZh": "（阿倫為何想為首次發表的詩拍照？他花了幾個月修改，感到自豪，雖然詩只刊於校刊。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Publishing the poem matters personally to Arun.",
+            "zh": "發表這首詩對阿倫個人有意義。"
+          },
+          {
+            "id": "b",
+            "en": "Months of work make the first publication memorable for him.",
+            "zh": "幾個月的努力令首次發表值得他紀念。"
+          },
+          {
+            "id": "c",
+            "en": "His first published poem is a pretty big deal to him.",
+            "zh": "首次發表詩作對他而言是件頗重要的事。"
+          },
+          {
+            "id": "d",
+            "en": "He values the achievement despite its modest audience.",
+            "zh": "即使讀者不多，他仍重視這項成就。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都肯定個人成就而不誇稱全國知名。"
+      },
+      "scene": {
+        "promptZh": "阿姨首次完成半馬，雖不是冠軍，仍十分重視。哪句最自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Finishing her first half-marathon is a pretty big deal to her.",
+            "zh": "首次跑畢半馬對她而言是件頗重要的事。"
+          },
+          {
+            "id": "b",
+            "en": "She must have won an international title.",
+            "zh": "她一定奪得國際冠軍。"
+          },
+          {
+            "id": "c",
+            "en": "Pretty means her running shoes look beautiful.",
+            "zh": "pretty 表示她的跑鞋漂亮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "句子保留個人重要性，沒有無根據的獎項。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最不合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A modest milestone can matter deeply to the person involved.",
+            "zh": "平實的里程碑也可以對當事人意義重大。"
+          },
+          {
+            "id": "b",
+            "en": "Pretty here describes the physical appearance of the event.",
+            "zh": "這裏的 pretty 是說活動外觀漂亮。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase can sound conversational rather than ceremonial.",
+            "zh": "這個說法較像日常交談而非典禮用語。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "pretty 在這裏加強程度，不是形容外貌。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只是校內得獎，怎會是 a pretty big deal？」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It can be a pretty big deal to the pupil even if it is not nationally famous.",
+            "zh": "即使不是全國知名的獎項，對學生而言仍可以是件頗重要的事。"
+          },
+          {
+            "id": "b",
+            "en": "The phrase only applies to internationally famous events.",
+            "zh": "這個說法只適用於國際知名事件。"
+          },
+          {
+            "id": "c",
+            "en": "If an event is personal, it cannot be important.",
+            "zh": "事情若屬個人經歷，就不可能重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "個人重要性不需要等同公眾知名度。"
+      },
+      "speaking": {
+        "en": "Getting the first acceptance letter was a pretty big deal to Noor after months of applications.",
+        "zh": "經過幾個月申請，收到第一封錄取信對努爾而言是件頗重要的事。",
+        "promptZh": "先聽示範，再指出是對誰重要。",
+        "targetSpan": {
+          "start": 40,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區合唱團的一名新成員練習半年後，首次獲安排獨唱一小段；觀眾只有二十人，但她很重視這機會。用一至兩句英文說明，不要誇稱她已成名。",
+        "selfCheckZh": "寫出半年練習、首次獨唱對她個人重要，以及小型觀眾不等於成名。",
+        "examples": [
+          {
+            "en": "After six months of practice, singing her first solo is a pretty big deal to the new choir member, even with an audience of twenty.",
+            "zh": "練習半年後，首次獨唱對這名合唱團新成員而言是件頗重要的事，即使觀眾只有二十人。"
+          },
+          {
+            "en": "Her first short solo is a pretty big deal to her after half a year in the community choir; the small audience does not make her famous.",
+            "zh": "加入社區合唱團半年後，首次短暫獨唱對她而言是件頗重要的事；觀眾不多不代表她已成名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "six months of practice",
+            "zh": "半年練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 28
+            }
+          },
+          {
+            "en": "first solo",
+            "zh": "首次獨唱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 52
+            }
+          },
+          {
+            "en": "new choir member",
+            "zh": "合唱團新成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          },
+          {
+            "en": "audience of twenty",
+            "zh": "二十名觀眾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 130
+            }
+          },
+          {
+            "en": "community choir",
+            "zh": "社區合唱團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "make her famous",
+            "zh": "令她成名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A pretty big deal can be personally important without being famous.",
+          "zh": "一件頗重要的事可以只對當事人重要，而不必廣為人知。"
+        },
+        {
+          "en": "Calling something a pretty big deal does not mean it is famous.",
+          "zh": "這裏的 pretty 是口語強調，不是「漂亮」。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2937",
+      "number": 2937,
+      "inventoryId": "expr-2937",
+      "titleEn": "feel like a spare part",
+      "titleZh": "覺得自己多餘",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:feel|feels|felt|feeling)\\s+like\\s+a\\s+spare\\s+part\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feel unnecessary or excluded in a group because no one gives you a role or includes you.",
+        "meaningZh": "在群體中因沒有角色或未被納入而覺得自己多餘。",
+        "grammar": "Feel like a spare part; in the room is optional context, not part of the reusable unit.",
+        "register": "Informal social reflection: a host asks a co-host how to include a new guest who has been left outside the conversation.",
+        "boundaryZh": "指人的主觀被排除感，不能因對方安靜就斷定；也不是機械零件。",
+        "misconceptionZh": "不等於真的沒有價值；要留意是否缺乏參與機會。",
+        "outcomeZh": "能辨認被晾在一旁的感受，並提出具體納入方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0826",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 76,
+          "book": 12,
+          "question": 7,
+          "sample": "S1",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 77, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "No guest should feel like a spare part in the room.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a spare part in the room"
+        }
+      ],
+      "listening": {
+        "en": "At dinner, the old friends discussed stories Ava did not know and never asked her a question. She began to feel like a spare part in the room.",
+        "zh": "晚餐時，老朋友只談艾娃不知道的往事，也從沒問她問題。她開始覺得自己在房間裏像個多餘的人。",
+        "promptZh": "feel like a spare part 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ava felt left out and without a part in the conversation.",
+            "zh": "艾娃覺得自己被冷落，無法參與對話。"
+          },
+          {
+            "id": "b",
+            "en": "Ava was asked to repair a machine.",
+            "zh": "艾娃被要求維修機器。"
+          },
+          {
+            "id": "c",
+            "en": "Ava had chosen to tell the stories herself.",
+            "zh": "艾娃選擇親自講那些故事。"
+          },
+          {
+            "id": "d",
+            "en": "Ava knew every story well.",
+            "zh": "艾娃很熟悉每個故事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "別人沒有給她加入對話的機會。"
+      },
+      "reply": {
+        "promptEn": "Why did Ben leave the project meeting uneasy? Everyone assigned tasks among themselves before he arrived, then continued planning without asking what he could do.",
+        "promptZh": "（本為何不安地離開專題會議？他到達前大家已自行分配任務，之後繼續計劃，沒問他可做甚麼。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ben was not given a way to join the work.",
+            "zh": "本沒有獲得參與工作的機會。"
+          },
+          {
+            "id": "b",
+            "en": "The team overlooked his possible contribution.",
+            "zh": "團隊忽略了他可能作出的貢獻。"
+          },
+          {
+            "id": "c",
+            "en": "Ben felt like a spare part in the meeting.",
+            "zh": "本在會議中覺得自己多餘。"
+          },
+          {
+            "id": "d",
+            "en": "The planning left Ben without a role.",
+            "zh": "這次計劃令本沒有角色。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述缺乏參與角色；金句用 feel like a spare part。"
+      },
+      "scene": {
+        "promptZh": "新同學坐在小組旁，別人不分派工作，也不回應他的提議。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He may feel like a spare part because nobody includes him.",
+            "zh": "沒有人讓他參與，他可能覺得自己多餘。"
+          },
+          {
+            "id": "b",
+            "en": "He must be unwilling to help.",
+            "zh": "他一定不願意幫忙。"
+          },
+          {
+            "id": "c",
+            "en": "He is literally a spare machine component.",
+            "zh": "他真的是一件備用機械零件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有被排除的具體證據，但不能推測他不願幫忙。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持這個說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A guest is repeatedly ignored when she tries to join a conversation.",
+            "zh": "客人嘗試加入對話，卻一再被忽略。"
+          },
+          {
+            "id": "b",
+            "en": "A quiet guest is invited to help choose the music and happily accepts.",
+            "zh": "一名安靜客人獲邀選音樂，並開心接受。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer receives no task while the others plan together.",
+            "zh": "義工沒有獲分派任務，其他人一起計劃。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "安靜不等於被排除；這名客人有參與機會。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她沒有說話，所以她一定覺得自己多餘。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Silence alone does not prove she feels like a spare part; ask whether she had a chance to join in.",
+            "zh": "單憑沉默不能證明；要看她有沒有參與機會。"
+          },
+          {
+            "id": "b",
+            "en": "Quiet people always feel excluded.",
+            "zh": "安靜的人一定覺得被排除。"
+          },
+          {
+            "id": "c",
+            "en": "Feeling excluded means the person has no value.",
+            "zh": "覺得被排除代表這人沒有價值。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "需要參與機會的證據，不可只看沉默。"
+      },
+      "speaking": {
+        "en": "The organiser gave each newcomer a small role so no one would feel like a spare part during the workshop.",
+        "zh": "籌辦人給每位新來者一個小角色，讓大家在工作坊中不會覺得自己多餘。",
+        "promptZh": "先聽示範，再指出籌辦人如何避免冷落新來者。",
+        "targetSpan": {
+          "start": 62,
+          "end": 84
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：圖書館讀書會的舊成員一直談私下笑話，新成員想發言卻沒有機會。主持人打算請她先選下一本書。用一至兩句英文描述她可能的感受與改善方法，勿斷言她真的不喜歡讀書。",
+        "selfCheckZh": "寫出私下笑話令她可能覺得被排除，以及主持人讓她選書。",
+        "examples": [
+          {
+            "en": "The newcomer may feel like a spare part when members trade private jokes; the host can invite her to choose the next book.",
+            "zh": "成員互相講私下笑話時，新成員可能覺得自己多餘；主持人可請她選下一本書。"
+          },
+          {
+            "en": "Because she cannot enter the private conversation, the new member may feel like a spare part, so the host should give her a voice in the next book choice.",
+            "zh": "因為她無法加入私下對話，新成員可能覺得自己多餘；主持人應讓她參與選下一本書。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "newcomer",
+            "zh": "新成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 12
+            }
+          },
+          {
+            "en": "private jokes",
+            "zh": "私下笑話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 72
+            }
+          },
+          {
+            "en": "invite her",
+            "zh": "邀請她",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 97
+            }
+          },
+          {
+            "en": "next book",
+            "zh": "下一本書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 121
+            }
+          },
+          {
+            "en": "private conversation",
+            "zh": "私下對話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 49
+            }
+          },
+          {
+            "en": "give her a voice",
+            "zh": "讓她有發言機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Feeling like a spare part describes exclusion, not a person’s worth.",
+          "zh": "覺得自己多餘，說的是被排除的感受，不是人的價值。"
+        },
+        {
+          "en": "Someone can feel like a spare part when no one gives them a chance to join.",
+          "zh": "要給新來者實際參與的機會。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2943",
+      "number": 2943,
+      "inventoryId": "expr-2943",
+      "titleEn": "find its own rhythm",
+      "titleZh": "漸漸形成自然節奏",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:find|finds|found|finding)\\s+its\\s+own\\s+rhythm\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Gradually develop a comfortable natural flow without every moment being tightly directed.",
+        "meaningZh": "逐漸形成舒適自然的進行節奏，毋須每刻嚴格指揮。",
+        "grammar": "An event, group or routine finds its own rhythm; possessive its agrees with the singular subject.",
+        "register": "Casual event planning: a neighbourhood host tells a volunteer that introductions may be guided, then conversation can develop naturally.",
+        "boundaryZh": "自然節奏不等於完全沒有安排，也不保證人人自動融入。",
+        "misconceptionZh": "不是必須有音樂或固定拍子；是活動逐漸流暢。",
+        "outcomeZh": "能區分逐漸形成的活動節奏與失控或強行逐分鐘安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0832",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 77, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A relaxed gathering usually finds its own rhythm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "finds its own rhythm"
+        }
+      ],
+      "listening": {
+        "en": "The neighbours began with introductions, then small conversations grew without anyone directing each minute. The gathering found its own rhythm.",
+        "zh": "鄰居先互相介紹，之後毋須有人逐分鐘指揮，大家便自然聊起來。聚會漸漸形成自己的節奏。",
+        "promptZh": "found its own rhythm 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The gathering developed a comfortable flow.",
+            "zh": "聚會逐漸進行得自然順暢。"
+          },
+          {
+            "id": "b",
+            "en": "Someone played music at a fixed tempo.",
+            "zh": "有人以固定速度播放音樂。"
+          },
+          {
+            "id": "c",
+            "en": "Every minute was scripted in advance.",
+            "zh": "每一分鐘都預先寫好流程。"
+          },
+          {
+            "id": "d",
+            "en": "The host had no safety plan at all.",
+            "zh": "主人完全沒有安全安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對話自然延續，並非真正音樂節拍。"
+      },
+      "reply": {
+        "promptEn": "Why did the host stop announcing every conversation topic? After introductions, the guests began exchanging stories easily, and no one needed prompts to keep talking.",
+        "promptZh": "（主人為何不再逐一宣布話題？介紹過後，客人自然分享故事，毋須提示也能繼續交談。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guests were talking comfortably on their own.",
+            "zh": "客人已能自在交談。"
+          },
+          {
+            "id": "b",
+            "en": "Conversation no longer needed constant prompting.",
+            "zh": "交談不再需要不斷提示。"
+          },
+          {
+            "id": "c",
+            "en": "The gathering had found its own rhythm.",
+            "zh": "聚會已漸漸形成自然節奏。"
+          },
+          {
+            "id": "d",
+            "en": "Introductions helped conversation begin naturally.",
+            "zh": "介紹有助對話自然開始。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述引導後自然延續；金句用 found its own rhythm。"
+      },
+      "scene": {
+        "promptZh": "工作坊開頭有簡短說明；之後小組自行輪流討論，毋須主持人逐句安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workshop found its own rhythm after the introduction.",
+            "zh": "簡介過後，工作坊漸漸形成自然節奏。"
+          },
+          {
+            "id": "b",
+            "en": "The workshop became a music lesson.",
+            "zh": "工作坊變成音樂課。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser had planned every utterance.",
+            "zh": "籌辦人安排了每句發言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有起始安排，其後討論自然延續。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 find its own rhythm？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A team needs fewer prompts as members learn how to work together.",
+            "zh": "成員漸懂合作後，團隊較少需要提示。"
+          },
+          {
+            "id": "b",
+            "en": "A facilitator must interrupt and assign every sentence throughout.",
+            "zh": "引導員全程都須打斷並分派每句發言。"
+          },
+          {
+            "id": "c",
+            "en": "A new class begins awkwardly, then settles into an easy routine.",
+            "zh": "新班起初有點生硬，後來形成順暢慣例。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "全程仍靠逐句指揮，沒有自然形成的節奏。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「聚會自然順暢，就不需要照顧新來者。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A gathering can find its own rhythm while the host still checks that newcomers can join in.",
+            "zh": "聚會可以形成自然節奏，主人仍要留意新來者能否參與。"
+          },
+          {
+            "id": "b",
+            "en": "Natural flow proves that every guest feels included.",
+            "zh": "自然順暢就證明每位客人都覺得被接納。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means the host must never prepare anything.",
+            "zh": "這個說法表示主人絕不能預先準備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "自然節奏不等於放棄照顧參與者。"
+      },
+      "speaking": {
+        "en": "After a short welcome, the reading circle found its own rhythm as members began responding to one another.",
+        "zh": "簡短歡迎後，讀書會成員開始互相回應，活動漸漸形成自然節奏。",
+        "promptZh": "先聽示範，再指出自然節奏如何形成。",
+        "targetSpan": {
+          "start": 42,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區園藝小組首十分鐘由導師介紹工具，其後成員自行分工、互相請教；導師仍留意新手是否跟得上。用一至兩句英文說明活動如何進入自然節奏。",
+        "selfCheckZh": "寫出首十分鐘有介紹、其後自行分工請教，以及導師仍照顧新手。",
+        "examples": [
+          {
+            "en": "After a ten-minute tool introduction, the gardening group found its own rhythm as members divided tasks and helped one another, while the tutor checked on beginners.",
+            "zh": "十分鐘工具介紹後，園藝小組成員自行分工、互相幫忙，活動漸漸形成自然節奏；導師仍留意新手。"
+          },
+          {
+            "en": "The group found its own rhythm once members began sharing tasks and advice after the ten-minute tool introduction; the tutor still made sure beginners could keep up.",
+            "zh": "十分鐘工具介紹後，成員開始分擔工作、互相請教，小組便漸漸形成自然節奏；導師仍確保新手跟得上。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "tool introduction",
+            "zh": "工具介紹",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 36
+            }
+          },
+          {
+            "en": "gardening group",
+            "zh": "園藝小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 57
+            }
+          },
+          {
+            "en": "divided tasks",
+            "zh": "分擔工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 103
+            }
+          },
+          {
+            "en": "checked on beginners",
+            "zh": "留意新手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 164
+            }
+          },
+          {
+            "en": "sharing tasks and advice",
+            "zh": "分擔工作和互相請教",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 74
+            }
+          },
+          {
+            "en": "keep up",
+            "zh": "跟得上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 157,
+              "end": 164
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A group finds its own rhythm when interaction becomes natural.",
+          "zh": "小組互動變得自然時，便可說它形成自己的節奏。"
+        },
+        {
+          "en": "A group can find its own rhythm while keeping sensible preparation.",
+          "zh": "自然順暢仍可與適當準備及照顧新手並存。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

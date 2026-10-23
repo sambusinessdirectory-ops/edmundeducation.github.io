@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2969-2996-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2984",
+      "number": 2984,
+      "inventoryId": "expr-2984",
+      "titleEn": "fewer moving parts",
+      "titleZh": "較少需要協調的環節",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfewer\\s+moving\\s+parts\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Fewer separate elements that must be coordinated for a plan to work.",
+        "meaningZh": "計劃中需要互相配合的獨立環節較少。",
+        "grammar": "A plan has fewer moving parts; plural moving parts is a mechanical metaphor for coordination complexity.",
+        "register": "Project planning: a volunteer coordinator compares two ways to distribute supplies under a deadline.",
+        "boundaryZh": "環節較少通常較易協調，但不保證計劃較好或完全沒有風險。",
+        "misconceptionZh": "不是比較真正會移動的零件數，也不能忽略簡化後可能失去的服務。",
+        "outcomeZh": "能找出要協調的獨立環節，並區分簡化與品質保證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0873",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 81,
+          "book": 12,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 83, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The simpler plan has fewer moving parts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fewer moving parts"
+        }
+      ],
+      "listening": {
+        "en": "The first plan needs three vans, four suppliers and two booking systems. The second uses one supplier and one collection point, so it has fewer moving parts.",
+        "zh": "第一個計劃需要三輛貨車、四個供應商和兩套預約系統；第二個只用一個供應商和一個領取點，因此需要協調的環節較少。",
+        "promptZh": "fewer moving parts 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Fewer separate elements to coordinate.",
+            "zh": "需要協調的獨立環節較少。"
+          },
+          {
+            "id": "b",
+            "en": "Fewer physical wheels on the vans.",
+            "zh": "貨車的實際車輪較少。"
+          },
+          {
+            "id": "c",
+            "en": "A guarantee that the second plan will succeed.",
+            "zh": "保證第二個計劃會成功。"
+          },
+          {
+            "id": "d",
+            "en": "No services will be provided.",
+            "zh": "不會提供任何服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "供應商和領取點減少，指協調複雜度下降。"
+      },
+      "reply": {
+        "promptEn": "Why did the school choose one sign-up form? The alternative required parents to complete separate forms for the club, bus and lunch team, which then had to reconcile records.",
+        "promptZh": "（學校為何選擇一份報名表？另一方案要求家長分別為學會、校巴和午膳組填表，之後還要核對紀錄。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "One form reduces the number of systems to coordinate.",
+            "zh": "一份表減少了要協調的系統數目。"
+          },
+          {
+            "id": "b",
+            "en": "Staff have fewer separate records to reconcile.",
+            "zh": "職員要核對的不同紀錄較少。"
+          },
+          {
+            "id": "c",
+            "en": "The one-form plan has fewer moving parts.",
+            "zh": "一份表的方案需要協調的環節較少。"
+          },
+          {
+            "id": "d",
+            "en": "The chosen process is simpler to administer.",
+            "zh": "所選流程較易管理。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據表格及核對工作減少；金句用 fewer moving parts。"
+      },
+      "scene": {
+        "promptZh": "展覽可用一個報到台，或四個台加上每天同步名單；其他條件相同。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The one-desk plan has fewer moving parts.",
+            "zh": "一個報到台的方案需要協調的環節較少。"
+          },
+          {
+            "id": "b",
+            "en": "The one-desk plan has fewer literal machine parts.",
+            "zh": "一個報到台有較少真正的機械零件。"
+          },
+          {
+            "id": "c",
+            "en": "The one-desk plan guarantees no queues.",
+            "zh": "一個報到台保證沒有隊伍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "減少報到台和名單同步，協調環節較少；仍可能排隊。"
+      },
+      "contrast": {
+        "promptZh": "哪個方案最不支持「較少環節」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One team records bookings in one shared list.",
+            "zh": "一隊人把預約記在一份共用名單。"
+          },
+          {
+            "id": "b",
+            "en": "Five teams use separate lists and call one another daily to reconcile them.",
+            "zh": "五隊人各用不同名單，每天通話核對。"
+          },
+          {
+            "id": "c",
+            "en": "One desk handles check-in without another handoff.",
+            "zh": "一個櫃台完成登記，毋須另行交接。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "多隊、多份名單與每日核對增加協調環節。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「方案有 fewer moving parts，就一定最好。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Fewer moving parts can reduce coordination work, but we still need to check whether people get the service they need.",
+            "zh": "較少環節可減少協調工作，但仍須檢查服務是否滿足需要。"
+          },
+          {
+            "id": "b",
+            "en": "Simplicity guarantees quality in every case.",
+            "zh": "簡單在任何情況都保證品質。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase refers only to machine repair.",
+            "zh": "這片語只指維修機器。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "簡化不自動代表服務充分。"
+      },
+      "speaking": {
+        "en": "The clinic chose one shared appointment list because it had fewer moving parts than sending patients through three separate desks.",
+        "zh": "診所選一份共用預約名單，因為這比讓病人經過三個不同櫃台有較少協調環節。",
+        "promptZh": "先聽示範，再指出哪些交接被減少。",
+        "targetSpan": {
+          "start": 60,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園捐書活動原方案由三個小組各自收書並每天合併名單；新方案改為單一收集點及一份共用名單，但仍要核對遺失書籍。用一至兩句英文比較協調環節，勿保證零失誤。",
+        "selfCheckZh": "寫出三組及每日合併名單、新方案單一收集點與共用名單，以及仍需核對遺失書籍。",
+        "examples": [
+          {
+            "en": "The one-point collection plan with a shared list has fewer moving parts than three teams merging lists daily, though volunteers still need to check for missing books.",
+            "zh": "單一收集點及共用名單的方案，比三組每天合併名單需要協調的環節較少，但義工仍須核對有沒有遺失書籍。"
+          },
+          {
+            "en": "With one collection point and a shared list, the book drive has fewer moving parts than the three-team system with daily merged lists; staff must still check for missing books.",
+            "zh": "捐書活動改用一個收集點和共用名單後，比每天合併名單的三組制度需要協調的環節較少；職員仍須核對遺失書籍。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "one-point collection plan",
+            "zh": "單一收集點方案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 29
+            }
+          },
+          {
+            "en": "three teams",
+            "zh": "三組人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 88
+            }
+          },
+          {
+            "en": "merging lists daily",
+            "zh": "每天合併名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 108
+            }
+          },
+          {
+            "en": "missing books",
+            "zh": "遺失書籍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 165
+            }
+          },
+          {
+            "en": "shared list",
+            "zh": "共用名單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 43
+            }
+          },
+          {
+            "en": "book drive",
+            "zh": "捐書活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fewer moving parts means fewer elements to coordinate.",
+          "zh": "較少需要協調的環節，指獨立配合事項較少。"
+        },
+        {
+          "en": "A plan with fewer moving parts can still need careful checks.",
+          "zh": "環節較少的計劃，仍可能需要仔細核對。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2985",
+      "number": 2985,
+      "inventoryId": "expr-2985",
+      "titleEn": "in the short term",
+      "titleZh": "短期內",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bin\\s+the\\s+short\\s+term\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "During the near future while longer-term arrangements may be different.",
+        "meaningZh": "在較近的未來一段時間內，往後安排可能不同。",
+        "grammar": "In the short term is a time adverbial often set off by a comma at sentence start; contrast with in the long term.",
+        "register": "Work planning: a team leader explains temporary staffing needs while permanent recruitment continues.",
+        "boundaryZh": "短期並無固定天數，須依情境說明；不能把短期措施誤說成永久解決。",
+        "misconceptionZh": "不是指一個「短學期」；也不能忽略句中長遠安排。",
+        "outcomeZh": "能把近期需要與較長遠方案分開說清楚。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0874",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 81,
+          "book": 12,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 83, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In the short term, the team needs extra support.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in the short term"
+        }
+      ],
+      "listening": {
+        "en": "The team needs two temporary assistants this month while it recruits permanent staff. In the short term, extra support will keep the desk open.",
+        "zh": "團隊本月需要兩名臨時助理，同時招聘正式職員。短期內，額外人手可令櫃台繼續服務。",
+        "promptZh": "In the short term 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For the near future, while recruitment continues.",
+            "zh": "在招聘持續期間的近期。"
+          },
+          {
+            "id": "b",
+            "en": "For the rest of time without change.",
+            "zh": "永遠不再改變。"
+          },
+          {
+            "id": "c",
+            "en": "During a short school semester.",
+            "zh": "在短學期期間。"
+          },
+          {
+            "id": "d",
+            "en": "Only after permanent staff have arrived.",
+            "zh": "只在正式職員到任後。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "臨時支援應對本月需要，正式招聘仍在進行。"
+      },
+      "reply": {
+        "promptEn": "Why is the library borrowing staff from another branch this month? Its new permanent posts will not be filled until later, but the reading room must stay open now.",
+        "promptZh": "（圖書館為何本月向另一分館借調職員？新的長期職位較後才會填補，但閱覽室現在必須維持開放。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Borrowed staff cover the immediate gap.",
+            "zh": "借調職員填補眼前空缺。"
+          },
+          {
+            "id": "b",
+            "en": "The permanent posts remain the later solution.",
+            "zh": "長期職位仍是往後方案。"
+          },
+          {
+            "id": "c",
+            "en": "In the short term, borrowed staff can keep the room open.",
+            "zh": "短期內，借調職員可維持閱覽室開放。"
+          },
+          {
+            "id": "d",
+            "en": "The library needs help before recruitment finishes.",
+            "zh": "圖書館在招聘完成前需要協助。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均區分眼前支援與日後招聘；金句用 in the short term。"
+      },
+      "scene": {
+        "promptZh": "學校本月先租用流動課室，明年才建成新教室。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "In the short term, the mobile room provides space.",
+            "zh": "短期內，流動課室提供空間。"
+          },
+          {
+            "id": "b",
+            "en": "The mobile room is definitely the permanent solution.",
+            "zh": "流動課室一定是永久方案。"
+          },
+          {
+            "id": "c",
+            "en": "Short term means the shortest school semester.",
+            "zh": "short term 指最短的學期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "流動課室應對近期，永久教室明年才落成。"
+      },
+      "contrast": {
+        "promptZh": "哪句最正確區分兩個時段？",
+        "options": [
+          {
+            "id": "a",
+            "en": "In the short term, use temporary tutors; in the long term, train permanent staff.",
+            "zh": "短期用臨時導師；長遠培訓正式職員。"
+          },
+          {
+            "id": "b",
+            "en": "In the short term means the plan can never change.",
+            "zh": "短期表示計劃永遠不能改。"
+          },
+          {
+            "id": "c",
+            "en": "In the short term only refers to yesterday.",
+            "zh": "短期只指昨天。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "近期措施與長遠方案分明。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然短期有臨時員工，往後就不需要招聘。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "In the short term, temporary staff help; permanent recruitment may still be needed later.",
+            "zh": "短期內臨時員工有幫助，往後仍可能需要正式招聘。"
+          },
+          {
+            "id": "b",
+            "en": "Short-term help automatically solves every future staffing need.",
+            "zh": "短期支援自動解決將來所有人手需要。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means temporary staff have already left.",
+            "zh": "這片語表示臨時員工已離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "近期措施不等於長遠問題已解決。"
+      },
+      "speaking": {
+        "en": "In the short term, the centre will extend two volunteer shifts while it searches for a permanent receptionist.",
+        "zh": "短期內，中心會延長兩更義工輪值，同時尋找正式接待員。",
+        "promptZh": "先聽示範，再指出當前和長遠的人手安排。",
+        "targetSpan": {
+          "start": 0,
+          "end": 17
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區診所的新正式護士要兩個月後才到任；本月由鄰近診所借調護士，確保晚間門診照常開放。用一至兩句英文區分短期做法與長遠人手。",
+        "selfCheckZh": "寫出本月借調、晚間門診維持開放、正式護士兩個月後到任。",
+        "examples": [
+          {
+            "en": "In the short term, the clinic will borrow a nurse this month to keep evening appointments open; its permanent nurse arrives in two months.",
+            "zh": "短期內，診所本月會借調護士，維持晚間門診；正式護士兩個月後到任。"
+          },
+          {
+            "en": "The permanent nurse starts in two months, so in the short term a borrowed nurse will cover this month’s evening clinic.",
+            "zh": "正式護士兩個月後上班，因此短期內會由借調護士負責本月晚間門診。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "borrow a nurse",
+            "zh": "借調護士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 49
+            }
+          },
+          {
+            "en": "evening appointments",
+            "zh": "晚間門診",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 89
+            }
+          },
+          {
+            "en": "permanent nurse",
+            "zh": "正式護士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 115
+            }
+          },
+          {
+            "en": "in two months",
+            "zh": "兩個月後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 137
+            }
+          },
+          {
+            "en": "cover",
+            "zh": "負責",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 90
+            }
+          },
+          {
+            "en": "evening clinic",
+            "zh": "晚間門診",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In the short term identifies a near-future period, not a fixed number of days.",
+          "zh": "短期內指近期一段時間，沒有固定日數。"
+        },
+        {
+          "en": "In the short term, a temporary fix can coexist with a permanent plan.",
+          "zh": "短期措施可與長遠計劃並存。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2996",
+      "number": 2996,
+      "inventoryId": "expr-2996",
+      "titleEn": "go solo",
+      "titleZh": "獨自進行",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|going)\\s+solo\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Act or make a decision alone rather than with a partner or group.",
+        "meaningZh": "不與搭檔或團隊一起，而是獨自進行或作決定。",
+        "grammar": "Go solo after decide/prefer/choose to; solo may describe action or independent decision-making, not a music performance necessarily.",
+        "register": "Informal planning: a student tells a teammate that she will draft her own optional poster but collaborate on the shared exhibition.",
+        "boundaryZh": "獨自完成一項工作，不代表永遠拒絕合作或完全沒有外部協助。",
+        "misconceptionZh": "不一定是歌手獨唱；也不要把「自行決定」誤說成「沒有人給任何建議」。",
+        "outcomeZh": "能說明哪項工作或決定獨自處理，並界定合作仍在哪裏存在。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0885",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 82,
+          "book": 12,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "34–35",
+          "locatorNote": "DOCX table 83, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For a small choice, I prefer to go solo.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go solo"
+        }
+      ],
+      "listening": {
+        "en": "Mira asked for advice about the poster, but she chose its final design herself rather than join the design team. For that small choice, she preferred to go solo.",
+        "zh": "米拉曾徵詢海報意見，但她不加入設計組，而是自行決定最終設計。這項小決定，她較想獨自進行。",
+        "promptZh": "go solo 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Make that design choice independently.",
+            "zh": "獨自作出該項設計決定。"
+          },
+          {
+            "id": "b",
+            "en": "Refuse to hear any advice at all.",
+            "zh": "完全拒絕聽取任何意見。"
+          },
+          {
+            "id": "c",
+            "en": "Perform a song alone on stage.",
+            "zh": "獨自在台上唱歌。"
+          },
+          {
+            "id": "d",
+            "en": "Stop working on every shared activity.",
+            "zh": "停止參與所有共同活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她聽了建議，但最終選擇自己決定。"
+      },
+      "reply": {
+        "promptEn": "Why is Omar writing the optional book review by himself? The group is still building its shared display, but each pupil may choose how to write an individual reflection.",
+        "promptZh": "（奧馬為何獨自寫額外的書評？小組仍共同製作展板，但每名學生可自行決定怎樣寫個人感想。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The optional reflection is Omar’s individual choice.",
+            "zh": "額外感想由奧馬個人決定。"
+          },
+          {
+            "id": "b",
+            "en": "He can write this part without a partner.",
+            "zh": "這部分他可以不找搭檔。"
+          },
+          {
+            "id": "c",
+            "en": "Omar decided to go solo on the book review.",
+            "zh": "奧馬決定獨自撰寫書評。"
+          },
+          {
+            "id": "d",
+            "en": "The shared display remains group work.",
+            "zh": "共同展板仍由小組製作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都界定獨自處理書評，而非退出所有小組工作。"
+      },
+      "scene": {
+        "promptZh": "攝影師聽過同事建議後，自行決定個人作品的編排；團體展覽仍一起籌備。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She chose to go solo on the personal layout while joining the group exhibition.",
+            "zh": "她獨自處理個人作品編排，仍參與團體展覽。"
+          },
+          {
+            "id": "b",
+            "en": "She never spoke to a colleague.",
+            "zh": "她從未跟同事交談。"
+          },
+          {
+            "id": "c",
+            "en": "She stopped taking part in every group task.",
+            "zh": "她停止參與所有團體工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "個人編排獨立，團體展覽仍合作。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 go solo？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A writer drafts her own chapter after discussing the outline with the team.",
+            "zh": "作家和團隊討論大綱後，獨自寫自己的章節。"
+          },
+          {
+            "id": "b",
+            "en": "Two partners jointly approve every line of their shared proposal.",
+            "zh": "兩名搭檔共同批准提案每一行。"
+          },
+          {
+            "id": "c",
+            "en": "A student chooses the final colour scheme for his individual poster.",
+            "zh": "學生自行選個人海報的最終配色。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "每行都共同決定，不是獨自處理。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她 go solo，所以一定不會接受任何建議。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Going solo can mean making the final choice alone while still listening to suggestions.",
+            "zh": "獨自決定可以包括聽取建議，最後由自己作選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Anyone who goes solo must avoid every conversation.",
+            "zh": "獨自進行的人必須避免所有對話。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase only refers to singing.",
+            "zh": "這片語只指獨唱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "獨立決策不等於隔絕意見。"
+      },
+      "speaking": {
+        "en": "I will go solo on the optional sketch, but we will still build the main model together.",
+        "zh": "額外草圖我會獨自完成，但主要模型我們仍會一起製作。",
+        "promptZh": "先聽示範，再指出獨自與合作的兩部分。",
+        "targetSpan": {
+          "start": 7,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區海報比賽容許個人參賽。嘉雯聽取朋友的配色建議後，決定自己製作參賽海報；她仍與朋友一起籌辦頒獎禮。用一至兩句英文說明獨自處理的範圍。",
+        "selfCheckZh": "寫出聽取配色建議、獨自製作海報、仍一起籌辦頒獎禮。",
+        "examples": [
+          {
+            "en": "After hearing colour suggestions, Ka-man chose to go solo on her competition poster, while still helping her friends organise the awards ceremony.",
+            "zh": "嘉雯聽取配色建議後，決定獨自製作參賽海報，但仍與朋友一起籌辦頒獎禮。"
+          },
+          {
+            "en": "Ka-man will go solo when making her own poster, although she heard friends’ colour advice and will work with them on the awards event.",
+            "zh": "嘉雯製作自己的海報時會獨自進行，雖然她聽取了朋友的配色意見，仍會與他們一起籌辦頒獎活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "colour suggestions",
+            "zh": "配色建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 32
+            }
+          },
+          {
+            "en": "competition poster",
+            "zh": "參賽海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 83
+            }
+          },
+          {
+            "en": "friends organise",
+            "zh": "朋友一起籌辦",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 125
+            }
+          },
+          {
+            "en": "awards ceremony",
+            "zh": "頒獎禮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 145
+            }
+          },
+          {
+            "en": "colour advice",
+            "zh": "配色意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 89
+            }
+          },
+          {
+            "en": "awards event",
+            "zh": "頒獎活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Go solo identifies an action or decision handled independently.",
+          "zh": "獨自進行要指出哪項行動或決定由一人處理。"
+        },
+        {
+          "en": "Going solo on one task does not rule out teamwork elsewhere.",
+          "zh": "一項工作獨自處理，不排除其他工作仍然合作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

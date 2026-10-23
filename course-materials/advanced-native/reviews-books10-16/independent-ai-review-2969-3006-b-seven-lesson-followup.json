@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent-ai-duplicate-owner-trim-and-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2969-3006-b-followup.json",
+  "inputFiles": {
+    "pilot1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-1.json", "sha256": "8adfaf1d5b16b51e84801fc6e7196f81e9765d2a63da172388cb9ea93674597b"},
+    "pilot2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-2.json", "sha256": "b8f9de81d5207ebaaa2022ede65a9df6d738a926ad59985a4f1d252aa7c87c51"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2969-3006-review-pilot.json", "sha256": "3f05959e9445a0c440c6d2bca551c34eac225f66a5a72d001a697add0be163f1"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "selectedManifest": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "exactSourceOrdinals": [2969, 2973, 2977, 2982, 2984, 2985, 2996],
+  "duplicateResolution": "Pilot lesson 3006 has been removed from pilot-2; selected source ordinal 3006 remains owned by batch-3006-3057-a.json. None of the seven retained ordinals occurs in the current selected manifest; both pilot files remain unselected. Pilot-1 is byte-identical to the prior reviewed file; pilot-2 now contains only 2984, 2985 and 2996, whose content remains consistent with the prior clearance.",
+  "reviewFindings": "Prior R2973-01 and R2982-01/02 repairs remain present at the same pilot-1 exact hash. Seven retained lessons preserve the reviewed seven-step source meaning, EN/ZH, answer keys and glossary integrity. No new issue found in the trimmed set.",
+  "mechanicalChecks": {
+    "guideCopyScreen": "All 168 retained learner-facing English strings compared against 2,604 guide examples; zero exact or near-copy hits under the established six-token/60-percent or nine-token rule.",
+    "build": "Combined focused build and --check pass: seven lessons, 42 questions, 28 audio requests, zero flags."
+  },
+  "status": "seven-retained-lessons-provisional-content-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

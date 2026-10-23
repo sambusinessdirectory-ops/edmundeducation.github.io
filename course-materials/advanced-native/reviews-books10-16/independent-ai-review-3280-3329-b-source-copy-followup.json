@@ -1,0 +1,51 @@
+{
+  "reviewType": "independent-ai-guide-source-originality-followup",
+  "priorReports": [
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3280-3329-b.json",
+    "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3280-3329-b-followup.json"
+  ],
+  "firstPassMiss": "The prior independent review checked source provenance and content, but did not compare every learner-facing sentence against the full 2,604-example guide inventory. Seven takeaway lines copied guide source examples exactly and were missed by that limited scope. The author revised them before this follow-up; this report adds full-inventory exact and near-copy screening rather than treating a focused build pass as originality evidence.",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json", "sha256": "03a926d6d8ca405cab251652d4a3f91f1516c56f141b89aa94e2d4dc7a6eb9b2"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3280-3329-a.json", "sha256": "f667d0ba8c34bf4a4904504fa36fed8c489464da6e3995bcbf1c00644fff4e4c"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "screen": {
+    "sourceExamples": 2604,
+    "lessonCount": 8,
+    "learnerFacingEnglishStrings": 200,
+    "fields": "All listening and speaking transcripts, two takeaways, two writing models, English reply/dialogue prompts when present, and every English assessed option per lesson.",
+    "normalisation": "Case-fold; unify typographic apostrophes; collapse punctuation and whitespace to tokens.",
+    "nearRule": "Flag at least six contiguous shared tokens covering at least 60 percent of the shorter text, or nine contiguous shared tokens regardless of ratio; editorially inspect target-only matches.",
+    "wholeTextExactCopies": 0,
+    "nearMatches": 4,
+    "substantiveNearMatchesRequiringRewrite": 2,
+    "targetOnlyOrCommonFrameMatches": 2
+  },
+  "priorSevenTakeawayRepairs": "The seven previously copied takeaway lines at 3283, 3286, 3306, 3319, 3327, 3328 and 3329 now use new wording and examples. Their English/Traditional Chinese meanings and target forms were checked; none exactly or closely copies any of the 2,604 source examples under the stated near rule.",
+  "perLesson": [
+    {"sourceOrdinal": 3280, "lessonId": "advanced-native-3280", "status": "originality-pass", "findings": [], "evidence": "No exact or near guide-source match in its 25 learner-facing English strings; existing content review remains valid."},
+    {"sourceOrdinal": 3283, "lessonId": "advanced-native-3283", "status": "originality-pass", "findings": [], "evidence": "Both takeaways now use new accountability examples; source and target sense remain aligned."},
+    {"sourceOrdinal": 3286, "lessonId": "advanced-native-3286", "status": "originality-pass", "findings": [], "evidence": "The revised takeaway uses a damaged borrowed book, not the guide argument sentence; the earlier writing repair remains intact."},
+    {"sourceOrdinal": 3306, "lessonId": "advanced-native-3306", "status": "originality-pass", "findings": [], "evidence": "The grant-application/email takeaway is a new scenario; no flagged guide-source overlap."},
+    {"sourceOrdinal": 3319, "lessonId": "advanced-native-3319", "status": "originality-pass", "findings": [], "evidence": "The studio-repair takeaway is new and keeps the packed-schedule/flexibility sense."},
+    {
+      "sourceOrdinal": 3327,
+      "lessonId": "advanced-native-3327",
+      "status": "requires-originality-repair",
+      "findings": [{"id": "R3327-02", "severity": "minor", "path": "listening.en", "text": "The source example is 'Daily checks keep the project on track.' The listening transcript ends with 'These checks keep the project on track', sharing six of the source's seven consecutive words. The library-display scenario is new, but this clause closely paraphrases the full guide sentence. Recast the target-bearing conclusion using a different grammatical frame and preserve the Friday/Thursday evidence and Chinese alignment."}],
+      "evidence": "The revised takeaway is original and the bounded project-progress owner remains distinct from canonical personal recovery."
+    },
+    {"sourceOrdinal": 3328, "lessonId": "advanced-native-3328", "status": "originality-pass", "findings": [], "evidence": "The editor/publication-milestone takeaway is original and preserves goal/action/review."},
+    {
+      "sourceOrdinal": 3329,
+      "lessonId": "advanced-native-3329",
+      "status": "requires-originality-repair",
+      "findings": [{"id": "R3329-02", "severity": "major", "path": "speaking.en", "text": "The speaking line begins with the entire nine-word guide example, 'The parents already have a lot on their plate', then adds a school volunteer-shift scenario. Rewrite the opening so the whole source sentence is not embedded verbatim; retain the target expression, concrete competing demands and thoughtful choice of a short optional role, with aligned Traditional Chinese and a recomputed targetSpan."}],
+      "evidence": "Two other automated near hits in this lesson (listening and keyed reply) are dominated by the fixed target idiom, while their actors, facts and learner decision are original; they are recorded but not treated as separate copy defects."
+    }
+  ],
+  "verification": "Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags. This does not clear the two near-copy editorial findings.",
+  "humanApproval": false,
+  "releaseApproval": false
+}

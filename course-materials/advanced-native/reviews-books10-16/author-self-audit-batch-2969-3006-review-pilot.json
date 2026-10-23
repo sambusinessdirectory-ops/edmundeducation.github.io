@@ -1,0 +1,184 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human approval, media listening approval, or release certification",
+  "createdUtc": "2026-10-23T13:57:47.115113+00:00",
+  "scope": "Seven unselected Books 10–16 proposed-new lessons after ordinal 2967; source 3006 withdrawn after selected-owner collision",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "sha256": "f8ff92903cad6d776ec5e3c3d5d690319b552afa7f0a280ebb3bf32c5ea75be7"
+    }
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-1.json",
+      "sha256": "8adfaf1d5b16b51e84801fc6e7196f81e9765d2a63da172388cb9ea93674597b",
+      "ordinals": [
+        2969,
+        2973,
+        2977,
+        2982
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-2.json",
+      "sha256": "b8f9de81d5207ebaaa2022ede65a9df6d738a926ad59985a4f1d252aa7c87c51",
+      "ordinals": [
+        2984,
+        2985,
+        2996
+      ]
+    }
+  ],
+  "focusedBuild": {
+    "lessons": 7,
+    "questions": 42,
+    "audioRequests": 28,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-2969-2996-pilot"
+  },
+  "authorChecks": [
+    {
+      "ordinal": 2969,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2973,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2977,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2982,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2984,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2985,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2996,
+      "exactSourceAndProposedOwner": true,
+      "targetMatchesSource": true,
+      "sevenStepsAndSixQuestions": true,
+      "fourValidRepliesAuthorChecked": true,
+      "twoChangedContextModelsAuthorChecked": true,
+      "sixAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    }
+  ],
+  "sourceOwnerNotes": [
+    {
+      "ordinal": 2969,
+      "note": "Imposed from above teaches decision-process exclusion, not proof that the decision is ineffective."
+    },
+    {
+      "ordinal": 2973,
+      "note": "A small circle teaches limited trusted company, not a physical circular seating pattern."
+    },
+    {
+      "ordinal": 2982,
+      "note": "Mind one’s own business can be blunt as an imperative; task distinguishes privacy from ignoring invited help."
+    }
+  ],
+  "openGates": [
+    "Independent exact-hash follow-up on R2973-01 and R2982-01/02",
+    "Human source-owner and idiomaticity approval",
+    "Media generation/listening and device typography QA",
+    "Parent-controlled manifest selection and publication; no release action taken"
+  ],
+  "updatedUtc": "2026-10-23T14:08:17.978609+00:00",
+  "independentReviewRepairs": [
+    {
+      "finding": "R2973-01",
+      "repair": "Golden reply recast around Mari’s farewell; no guide-sentence opening copied.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2982-01",
+      "repair": "Listening uses a bookshop owner/customer; scene and golden reply use longer source-distinct language.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2982-02",
+      "repair": "Writing models put target idiom in neutral narration and quote genuinely polite reminders; EN/ZH and glossary rebuilt.",
+      "contentRevision": 2
+    }
+  ],
+  "nearCopyScreen": {
+    "inventoryExamples": 2604,
+    "scope": "Repaired 2973 and 2982 listening, reply and scene answer text",
+    "method": "Normalized full-sentence difflib SequenceMatcher; reported all ratio >= 0.70",
+    "hitsAtOrAboveThreshold": 0,
+    "status": "pass as screening aid, not human originality approval"
+  },
+  "sourceOrdinals": [
+    2969,
+    2973,
+    2977,
+    2982,
+    2984,
+    2985,
+    2996
+  ],
+  "crossBatchOwnerCorrection": {
+    "sourceOrdinal": 3006,
+    "selectedOwnerFile": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+    "action": "Removed duplicate 3006 from this unselected pilot; no manifest or decision edit.",
+    "followUp": "Full selected-file screen also found 3014,3040,3046,3047,3048,3050,3057 already owned by Author A; they will not be drafted or selected by this agent."
+  }
+}

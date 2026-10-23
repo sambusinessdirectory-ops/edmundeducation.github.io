@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-3280-3329-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3280",
+      "number": 3280,
+      "inventoryId": "expr-3280",
+      "titleEn": "hiding behind excuses",
+      "titleZh": "以藉口逃避責任",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:hide|hides|hid|hidden|hiding) behind excuses\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Use explanations as a shield to avoid acknowledging or repairing one’s own mistake.",
+        "meaningZh": "拿理由當擋箭牌，逃避承認或補救自己的錯誤。",
+        "grammar": "hide behind excuses; hides/hid/hidden/hiding are possible verb forms. The plural excuses is fixed in this lesson.",
+        "register": "Critical but conversational. A project leader may say it to a colleague who keeps explaining away a missed task.",
+        "boundaryZh": "真實原因可解釋困難；只有用它來迴避可行的承認和補救，才是本課意思。",
+        "misconceptionZh": "不是所有解釋都是藉口，也不是要求忽視疾病或突發事故。",
+        "outcomeZh": "能區分交代原因與用理由遮掩本應處理的錯誤。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1169",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S1",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He kept hiding behind excuses instead of apologising.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hiding behind excuses"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者為何說導賞員在以藉口逃避？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He repeats an explanation while avoiding an available correction and apology.",
+            "zh": "他反覆解釋，卻避開可做的更正和道歉。"
+          },
+          {
+            "id": "b",
+            "en": "He has already corrected the notice and informed every visitor.",
+            "zh": "他已更正通知並告知每位訪客。"
+          },
+          {
+            "id": "c",
+            "en": "The date was never included in the confirmation email.",
+            "zh": "確認電郵根本沒有列日期。"
+          },
+          {
+            "id": "d",
+            "en": "He has asked for help reading a genuinely unreadable form.",
+            "zh": "他請人幫忙看一份確實無法看清的表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有確認日期的資料，也有可做的補救；他卻只重複理由。",
+        "en": "The guide says the wrong date appeared because the form was confusing. Yet the date was printed on the confirmation email, and he still has not corrected the notice or apologised. He is hiding behind excuses instead of fixing it.",
+        "zh": "導賞員說日期寫錯是因為表格難懂。但確認電郵已列明日期，他仍未更正通知或道歉。他正以藉口逃避，而非補救。"
+      },
+      "reply": {
+        "promptEn": "The guide sent visitors the wrong date. He says the form was confusing, but the confirmation email was clear and he has not corrected the notice. What should we say?",
+        "promptZh": "（導賞員送錯日期。他說表格難懂，但確認電郵很清楚，他也沒有更正通知。我們可以怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us send visitors the corrected date now.",
+            "zh": "我們現在就把正確日期送給訪客。"
+          },
+          {
+            "id": "b",
+            "en": "We should ask him to explain what check he missed.",
+            "zh": "我們應請他說明漏掉了哪項核對。"
+          },
+          {
+            "id": "c",
+            "en": "He is hiding behind excuses when he could correct the notice.",
+            "zh": "他明明可以更正通知，卻以藉口逃避。"
+          },
+          {
+            "id": "d",
+            "en": "He should apologise to the visitors affected.",
+            "zh": "他應向受影響的訪客道歉。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合宜；金句指出解釋已變成逃避。"
+      },
+      "scene": {
+        "promptZh": "義工把展覽標籤貼錯，主管給了正確清單。他仍反覆說「時間太趕」，卻不重貼標籤。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is hiding behind excuses instead of correcting the labels.",
+            "zh": "他以藉口逃避，沒有更正標籤。"
+          },
+          {
+            "id": "b",
+            "en": "He is checking which labels need changing before acting.",
+            "zh": "他先核對哪些標籤要更換。"
+          },
+          {
+            "id": "c",
+            "en": "He is explaining the delay while arranging another volunteer to help.",
+            "zh": "他解釋延誤，同時安排另一名義工幫忙。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵是以理由取代可做的補救。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不能單憑表面說成 hiding behind excuses？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A worker explains that a power failure stopped the printer and arranges a new collection time.",
+            "zh": "員工解釋停電令打印機停用，並安排新領取時間。"
+          },
+          {
+            "id": "b",
+            "en": "A worker blames the printer without checking or sending the corrected document.",
+            "zh": "員工怪罪打印機，卻不核對或送出更正文件。"
+          },
+          {
+            "id": "c",
+            "en": "A worker repeats that the instructions were unclear but ignores the marked corrections.",
+            "zh": "員工反覆說指示不清，卻無視標出的更正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真實原因加上具體補救，不等於用藉口逃避。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Theo 送出了未完成的時間表。他一直說會議開得太久，但還未送出更正版。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is hiding behind excuses; let us ask for the corrected timetable by noon.",
+            "zh": "他在以藉口逃避；我們請他中午前交更正版時間表。"
+          },
+          {
+            "id": "b",
+            "en": "We can check which entries are incomplete before asking him.",
+            "zh": "我們可先核對哪些項目未完成。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps we can help with the entries that need verification.",
+            "zh": "也許我們可協助核對需要確認的項目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出用理由迴避補救，並提出可行要求。",
+        "promptEn": "A: Theo sent an unfinished timetable. He keeps saying the meeting ran late, but he has not sent the corrected version. B: ______"
+      },
+      "speaking": {
+        "en": "She was hiding behind excuses after losing the booking email, until she called the venue and corrected the date.",
+        "zh": "遺失預訂電郵後，她起初以藉口逃避；直到致電場地並更正日期才停止。",
+        "promptZh": "交代出錯、逃避方式和真正的補救。",
+        "targetSpan": {
+          "start": 8,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人犯了可補救的錯，反覆引用一項理由卻未承認或行動。用英文寫出理由、可行補救與之後的改變。",
+        "selfCheckZh": "兩個示例均須顯示理由如何阻礙補救，也須寫出具體修正。",
+        "examples": [
+          {
+            "en": "The museum helper hid behind excuses about a busy morning after printing the wrong entry time, but she finally posted a corrected sign and informed the queue.",
+            "zh": "博物館助理印錯入場時間後，以早上忙碌作藉口逃避；最後她張貼更正告示，並通知排隊的人。"
+          },
+          {
+            "en": "After misplacing the delivery list, Omar stopped hiding behind excuses about a crowded desk; he reconstructed the list from receipts and called each customer.",
+            "zh": "Omar 遺失送貨清單後，不再以桌面雜亂作藉口逃避；他根據收據重整清單，並致電每位顧客。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the wrong entry time",
+            "zh": "錯誤入場時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 93
+            }
+          },
+          {
+            "en": "a corrected sign",
+            "zh": "更正告示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 134
+            }
+          },
+          {
+            "en": "the queue",
+            "zh": "排隊的人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 148,
+              "end": 157
+            }
+          },
+          {
+            "en": "the delivery list",
+            "zh": "送貨清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 17,
+              "end": 34
+            }
+          },
+          {
+            "en": "from receipts",
+            "zh": "根據收據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Do not hide behind excuses when a needed correction is possible.",
+          "zh": "若可以補救，不要以藉口逃避。"
+        },
+        {
+          "en": "He stopped hiding behind excuses and fixed the notice.",
+          "zh": "他不再以藉口逃避，並更正了通知。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3283",
+      "number": 3283,
+      "inventoryId": "expr-3283",
+      "titleEn": "dodging responsibility",
+      "titleZh": "逃避責任",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:dodge|dodges|dodged|dodging) responsibility\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Avoid accepting an obligation or one’s share of accountability, often by deflecting it.",
+        "meaningZh": "迴避自己應承擔的任務或責任，常把問題推開。",
+        "grammar": "dodge responsibility is a transitive verb phrase; the object responsibility follows dodge directly.",
+        "register": "Critical neutral speech. A committee member may use it to another member about an assigned role.",
+        "boundaryZh": "可合理重新分工，但應明確交接；直接避開既定任務而不安排承擔者才是本課重點。",
+        "misconceptionZh": "不等於所有求助或因能力限制而調整工作的情況。",
+        "outcomeZh": "能辨別負責任交接與悄悄避開任務。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1172",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S1",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She stopped dodging responsibility and corrected the record.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dodging responsibility"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "統籌員後來怎樣停止逃避責任？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She checked the permissions herself and corrected the record.",
+            "zh": "她親自核對許可並更正紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "She forwarded the request again without assigning an owner.",
+            "zh": "她再次轉寄請求，仍沒指定負責人。"
+          },
+          {
+            "id": "c",
+            "en": "She removed the images without checking why they were flagged.",
+            "zh": "她未查明原因便刪除圖片。"
+          },
+          {
+            "id": "d",
+            "en": "She left the record unchanged while waiting for someone else to take the check.",
+            "zh": "她等別人接手核對，期間讓紀錄維持原樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她不再把既定核對工作推開，而是完成並更正。",
+        "en": "The archive coordinator was assigned to check image permissions. She passed the request between teams without naming an owner. When she stopped dodging responsibility, she verified the permissions and corrected the record.",
+        "zh": "檔案統籌員本應核對圖片使用許可，卻把請求在團隊間轉來轉去，沒有指定負責人。她停止逃避責任後，核對許可並更正紀錄。"
+      },
+      "reply": {
+        "promptEn": "Our club treasurer was assigned to reconcile receipts. She keeps sending the file to others without a clear handover. What is a fair response?",
+        "promptZh": "（社團司庫本應核對收據，卻一直把檔案轉給別人，沒有明確交接。怎樣回應才公平？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask whether she needs help with a specific part.",
+            "zh": "問她是否在某部分需要協助。"
+          },
+          {
+            "id": "b",
+            "en": "Agree on who will finish the reconciliation and by when.",
+            "zh": "商定誰在何時前完成核對。"
+          },
+          {
+            "id": "c",
+            "en": "She should stop dodging responsibility and either do the check or arrange a clear handover.",
+            "zh": "她應停止逃避責任：要麼完成核對，要麼清楚交接。"
+          },
+          {
+            "id": "d",
+            "en": "Offer a second reviewer after the first check is done.",
+            "zh": "完成第一輪核對後安排另一人覆核。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能處理既定工作；金句點明不應只把任務推開。"
+      },
+      "scene": {
+        "promptZh": "活動組長答應整理無障礙路線，卻只把未整理的地圖轉寄給別組，既不核對也不正式交接。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leader is dodging responsibility for the route check.",
+            "zh": "組長在逃避核對路線的責任。"
+          },
+          {
+            "id": "b",
+            "en": "The leader has transferred the route check through an agreed handover.",
+            "zh": "組長已透過雙方同意的交接移交核對工作。"
+          },
+          {
+            "id": "c",
+            "en": "The leader has completed the check and invited another team to review it.",
+            "zh": "組長已完成核對，請另一組覆核。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有轉寄，沒有完成或清楚交接。"
+      },
+      "contrast": {
+        "promptZh": "哪個行為較不像 dodging responsibility？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer cannot finish on time and arranges an agreed handover with notes.",
+            "zh": "義工未能按時完成，便附上紀錄並安排已獲同意的交接。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer sees an assigned error but quietly leaves it for the next shift.",
+            "zh": "義工看到自己負責的錯誤，卻悄悄留待下一更。"
+          },
+          {
+            "id": "c",
+            "en": "A volunteer forwards an assigned complaint repeatedly without naming an owner.",
+            "zh": "義工反覆轉寄自己負責的投訴，卻不指定跟進者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有明確、獲接納的交接，責任沒有落空。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Nina 答應確認講者，但現在每封電郵都被轉給別人，沒有負責人。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should ask her to stop dodging responsibility and confirm who will contact them.",
+            "zh": "我們應請她停止逃避責任，確認誰會聯絡講者。"
+          },
+          {
+            "id": "b",
+            "en": "Let us list which speakers have answered so far.",
+            "zh": "我們先列出已回覆的講者。"
+          },
+          {
+            "id": "c",
+            "en": "We could offer her help drafting the remaining messages.",
+            "zh": "我們可幫她擬寫餘下訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句要求釐清承擔者，而非默許任務無主。",
+        "promptEn": "A: Nina agreed to confirm the speakers, but every email is now forwarded to someone else without an owner. B: ______"
+      },
+      "speaking": {
+        "en": "The editor stopped dodging responsibility for the missing credit and sent the corrected caption to the designer.",
+        "zh": "編輯不再逃避遺漏署名的責任，並把更正圖片說明送給設計師。",
+        "promptZh": "說出原先任務、迴避或承擔，以及明確跟進。",
+        "targetSpan": {
+          "start": 19,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人已有指定任務，曾把它推給別人而沒有交接，後來重新承擔或清楚移交。用英文寫出任務、問題和承擔行動。",
+        "selfCheckZh": "要把迴避責任與正式求助或交接區分開。",
+        "examples": [
+          {
+            "en": "After passing the sign-up file between teams without an agreed owner, the workshop host stopped dodging responsibility for the missing list: he rebuilt it from confirmation emails and told the instructor who was registered.",
+            "zh": "工作坊主持把報名檔案在團隊間轉來轉去，沒有商定負責人；之後他不再逃避遺失名單的責任，根據確認電郵重整名單，並告知導師誰已報名。"
+          },
+          {
+            "en": "After forwarding the equipment sheet twice without arranging a handover, Priya stopped dodging responsibility for the check: she inspected each microphone and passed a signed checklist to the next shift.",
+            "zh": "Priya 兩次轉寄器材表格，卻沒有安排交接；之後她不再逃避檢查責任，逐一檢查咪高峰，並把簽妥的清單交給下一更。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the missing list",
+            "zh": "遺失的名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 139
+            }
+          },
+          {
+            "en": "confirmation emails",
+            "zh": "確認電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 179
+            }
+          },
+          {
+            "en": "who was registered",
+            "zh": "誰已報名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 204,
+              "end": 222
+            }
+          },
+          {
+            "en": "each microphone",
+            "zh": "每支咪高峰",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 154
+            }
+          },
+          {
+            "en": "a signed checklist",
+            "zh": "簽妥的清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 184
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Dodging responsibility leaves an assigned task without an owner.",
+          "zh": "逃避責任會令指定工作沒有人承擔。"
+        },
+        {
+          "en": "The stage manager stopped dodging responsibility and confirmed the missing sound check.",
+          "zh": "舞台經理不再逃避責任，確認了漏做的音響檢查。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3286",
+      "number": 3286,
+      "inventoryId": "expr-3286",
+      "titleEn": "make amends",
+      "titleZh": "作出補償；彌補過錯",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:make|makes|made|making) amends\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Take sincere action to repair harm done to another person, beyond merely saying sorry.",
+        "meaningZh": "在道歉以外採取真誠行動，盡力補救對別人造成的傷害。",
+        "grammar": "make amends is a fixed plural-object phrase; made amends is past. Often followed by for + mistake/harm or with + person.",
+        "register": "Neutral to warm. A friend may discuss it with another friend after an argument.",
+        "boundaryZh": "補救須與造成的傷害有關，而且對方可選擇是否接受；一句道歉不保證關係立即修復。",
+        "misconceptionZh": "不是購買禮物就必然能抵銷傷害，也不能要求被傷害者原諒。",
+        "outcomeZh": "能說明傷害與相稱的補救行動，不把道歉當成終點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1175",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He tried to make amends after the argument.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make amends"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "講者怎樣嘗試彌補過錯？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker apologised and acted to limit the spread of Mei’s private message.",
+            "zh": "講者道歉，並採取行動阻止 Mei 的私人訊息繼續流傳。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker asked Mei to forgive them immediately.",
+            "zh": "講者要求 Mei 立即原諒。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker denied sharing the message.",
+            "zh": "講者否認轉發訊息。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker left the screenshot in the group and sent a gift.",
+            "zh": "講者讓截圖留在群組，只送一份禮物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "道歉以外還要求刪除截圖並承諾改變行為。",
+        "en": "After our argument, I realised I had shared Mei’s private message with others. I apologised, asked the group to delete the screenshot, and promised not to share her messages again. I am trying to make amends, though Mei may need time.",
+        "zh": "我們爭執後，我才發現自己把 Mei 的私人訊息傳給別人。我道歉，請群組刪除截圖，也承諾不再轉發她的訊息。我正嘗試彌補，但 Mei 可能需要時間。"
+      },
+      "reply": {
+        "promptEn": "I shared a friend’s private message after an argument. I have apologised. What can I do next without pressuring my friend?",
+        "promptZh": "（爭執後，我轉發了朋友的私人訊息。我已道歉。下一步可以怎樣做，才不會給朋友壓力？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask people who received it to delete their copies.",
+            "zh": "請收到訊息的人刪除副本。"
+          },
+          {
+            "id": "b",
+            "en": "Give my friend space to decide when to talk.",
+            "zh": "給朋友空間，讓對方決定何時再談。"
+          },
+          {
+            "id": "c",
+            "en": "I can try to make amends by stopping the spread and respecting my friend’s wishes.",
+            "zh": "我可以阻止訊息流傳、尊重朋友意願，嘗試彌補。"
+          },
+          {
+            "id": "d",
+            "en": "Promise not to share private messages again and follow through.",
+            "zh": "承諾不再轉發私人訊息，並做到。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均尊重對方；金句概括與傷害相關的補救。"
+      },
+      "scene": {
+        "promptZh": "學生擅自使用同學的相片做海報，令同學不安。她撤下海報、徵詢對方意願並重做設計。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is trying to make amends for using the photo without permission.",
+            "zh": "她正嘗試彌補未經同意使用相片的過錯。"
+          },
+          {
+            "id": "b",
+            "en": "She only explains why the photo looked good and leaves the poster up.",
+            "zh": "她只解釋相片為何好看，海報仍繼續展示。"
+          },
+          {
+            "id": "c",
+            "en": "She removes the poster but insists the classmate must forgive her today.",
+            "zh": "她撤下海報，但堅持同學今天必須原諒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "撤下作品及徵詢意願，是與傷害直接相關的補救。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不足以稱為 make amends？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Send a gift while refusing to correct the false claim that hurt someone.",
+            "zh": "送一份禮物，卻拒絕更正傷害別人的失實說法。"
+          },
+          {
+            "id": "b",
+            "en": "Correct the false claim and apologise to the person affected.",
+            "zh": "更正失實說法，並向受影響的人道歉。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the affected person what practical repair would help, without demanding forgiveness.",
+            "zh": "不強求原諒，詢問對方甚麼補救有幫助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "禮物不能代替更正造成傷害的說法。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我怪 Arun 弄丟文件夾，卻發現它在自己的袋裏。他已在會議上受批評。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You should make amends by correcting the account to everyone who heard the accusation.",
+            "zh": "你應向聽過指控的人更正事實，以彌補過錯。"
+          },
+          {
+            "id": "b",
+            "en": "Tell Arun first that the folder was in your bag.",
+            "zh": "先告訴 Arun 文件夾其實在你袋裏。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the chair for time to explain the mistake at the next meeting.",
+            "zh": "請主席在下次會議給你時間解釋錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把補救對準公開指控造成的影響。",
+        "promptEn": "A: I blamed Arun for the missing folder, but I found it in my own bag. He has already been criticised in the meeting. B: ______"
+      },
+      "speaking": {
+        "en": "I made amends for the false accusation by correcting the meeting record and apologising to the colleague I had blamed.",
+        "zh": "我更正會議紀錄，並向被我錯怪的同事道歉，以彌補失實指控。",
+        "promptZh": "說出具體傷害、相應補救，且不強求對方立刻原諒。",
+        "targetSpan": {
+          "start": 2,
+          "end": 13
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人在公開場合錯怪別人或損壞別人的物品。用英文寫出傷害、道歉和相應補救，並尊重對方反應。",
+        "selfCheckZh": "每個模型都須包含與過錯相關的行動，不可只有道歉。",
+        "examples": [
+          {
+            "en": "After blaming a teammate for a wrong score, I made amends by correcting the club record, apologising publicly, and allowing her time to respond.",
+            "zh": "錯怪隊友報錯分數後，我更正社團紀錄、公開道歉，並給她時間回應，以彌補過錯。"
+          },
+          {
+            "en": "Luca damaged a borrowed camera and tried to make amends by telling its owner promptly, apologising, offering to pay for the repair, and giving the owner time to respond before arranging its return.",
+            "zh": "Luca 弄壞借來的相機後，立即告知物主並道歉，提出支付維修費，也讓物主有時間回應，之後才安排歸還，藉此嘗試彌補。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a wrong score",
+            "zh": "錯誤分數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 42
+            }
+          },
+          {
+            "en": "the club record",
+            "zh": "社團紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 87
+            }
+          },
+          {
+            "en": "time to respond",
+            "zh": "時間回應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 143
+            }
+          },
+          {
+            "en": "a borrowed camera",
+            "zh": "借來的相機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "the repair",
+            "zh": "維修",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Making amends means repairing harm, not demanding forgiveness.",
+          "zh": "彌補過錯是補救傷害，不是要求原諒。"
+        },
+        {
+          "en": "After damaging the borrowed book, Jo tried to make amends by arranging a replacement.",
+          "zh": "Jo 弄壞借來的書後，安排補買一本，嘗試彌補過錯。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3306",
+      "number": 3306,
+      "inventoryId": "expr-3306",
+      "titleEn": "drift through the day",
+      "titleZh": "漫無目的地度過一天",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:drift|drifts|drifted|drifting) through the day\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pass the day without clear priorities or deliberate direction, letting events determine what happens.",
+        "meaningZh": "沒有清楚優先次序或主動安排，任由事情帶着自己度過一天。",
+        "grammar": "drift through the day is a verb phrase; through the day is fixed here, with drifted/drifting inflections.",
+        "register": "Neutral reflective speech. A study coach might use it with a student who feels busy but completes no main task.",
+        "boundaryZh": "休息日可以刻意不排滿行程；本課說的是本想完成要務，卻因缺少優先次序而漫無方向。",
+        "misconceptionZh": "不等於一天沒有每分鐘時間表，也不是說放鬆本身有錯。",
+        "outcomeZh": "能指出未定優先次序如何使一天被雜事牽走。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1195",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 111,
+          "book": 12,
+          "question": 45,
+          "sample": "S1",
+          "sourceBookPages": "106–107",
+          "locatorNote": "DOCX table 115, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "It is easy to drift through the day without priorities.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drift through the day"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者認為為何未完成申請？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Notifications took priority because the speaker never chose a main task.",
+            "zh": "講者沒有定下主要任務，於是通知佔了先。"
+          },
+          {
+            "id": "b",
+            "en": "The application website was closed all day.",
+            "zh": "申請網站整天關閉。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker had deliberately reserved the day for rest.",
+            "zh": "講者刻意把整天留作休息。"
+          },
+          {
+            "id": "d",
+            "en": "The form had already been submitted before five.",
+            "zh": "表格五時前已提交。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者讓通知決定先後，沒有先處理重要表格。",
+        "en": "I opened my laptop to finish the application, but answered every new notification first. At five o’clock the form was still blank. I had drifted through the day without deciding what mattered most.",
+        "zh": "我打開手提電腦想完成申請，卻先回覆每則新通知。到了五時，表格仍空白。我沒有決定甚麼最重要，就這樣漫無方向地過了一天。"
+      },
+      "reply": {
+        "promptEn": "I meant to finish an application today, but I keep reacting to small messages. What could I do?",
+        "promptZh": "（我今天原想完成申請，卻一直回應零碎訊息。我可以怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Choose one section of the form to finish first.",
+            "zh": "先選表格的一部分完成。"
+          },
+          {
+            "id": "b",
+            "en": "Silence non-urgent alerts for a short work period.",
+            "zh": "在短暫工作時段關掉非緊急通知。"
+          },
+          {
+            "id": "c",
+            "en": "I do not want to drift through the day; I will give the application the first hour.",
+            "zh": "我不想漫無目的地過一天；我會把第一小時留給申請。"
+          },
+          {
+            "id": "d",
+            "en": "Set a time to check messages after that section.",
+            "zh": "完成那部分後才安排時間看訊息。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可定出優先次序；金句把漫無方向與主動安排對照。"
+      },
+      "scene": {
+        "promptZh": "實習生打算寫報告，卻一整天只跟着每封新電郵轉換工作；下班時報告仍未開始。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The intern drifted through the day without choosing a priority.",
+            "zh": "實習生沒有定優先次序，漫無目的地度過一天。"
+          },
+          {
+            "id": "b",
+            "en": "The intern chose to postpone the report after agreeing on a new deadline.",
+            "zh": "實習生同意新期限後，才決定推遲報告。"
+          },
+          {
+            "id": "c",
+            "en": "The intern finished the report before dealing with messages.",
+            "zh": "實習生先完成報告才處理訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他一直被新電郵帶着走，主要任務未開始。"
+      },
+      "contrast": {
+        "promptZh": "哪種安排最不像 drift through the day？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student deliberately takes a rest day after finishing the week’s urgent work.",
+            "zh": "學生完成本週急務後，刻意休息一天。"
+          },
+          {
+            "id": "b",
+            "en": "A student hopes to revise but spends hours reacting to every alert without starting.",
+            "zh": "學生原想溫習，卻花數小時回應通知，始終未開始。"
+          },
+          {
+            "id": "c",
+            "en": "A student plans to draft an essay but lets unrelated requests fill every hour.",
+            "zh": "學生打算寫文章，卻讓不相干的要求佔滿每一小時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有意識的休息不同於本想做要務卻失去方向。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我來圖書館溫習，但已看了兩小時訊息，仍沒有計劃。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us not drift through the day; pick the chapter that needs attention first.",
+            "zh": "我們別再漫無方向地過一天；先選最需要處理的一章。"
+          },
+          {
+            "id": "b",
+            "en": "Put the phone away for the next short study period.",
+            "zh": "下一段短暫溫習時間把電話收起。"
+          },
+          {
+            "id": "c",
+            "en": "Write down two topics to cover before lunch.",
+            "zh": "寫下午飯前要溫習的兩個課題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句明確指出要停止漫無方向，先定優先事項。",
+        "promptEn": "A: I came to the library to revise, but I have checked messages for two hours and still have no plan. B: ______"
+      },
+      "speaking": {
+        "en": "I was drifting through the day until I listed the two urgent calls and finished the first one before opening my messages.",
+        "zh": "我原本漫無目的地過一天，直到列出兩通緊急電話，並在看訊息前先打第一通。",
+        "promptZh": "說出本來的重要任務、如何被雜事牽走，以及重設優先次序。",
+        "targetSpan": {
+          "start": 6,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人本想做一件重要事，卻不斷回應瑣事；之後定下一項優先任務。用英文寫出原目標、偏離和新的做法。",
+        "selfCheckZh": "不是批評刻意休息；兩個模型要顯示原本有任務而未開始。",
+        "examples": [
+          {
+            "en": "Nadia meant to prepare the exhibition labels, but requests for minor edits made her drift through the day; she finally blocked an hour to draft the first label.",
+            "zh": "Nadia 原本要準備展覽標籤，卻被零碎修改要求牽着走，漫無方向地度過一天；最後她留出一小時起草第一張標籤。"
+          },
+          {
+            "en": "The caretaker drifted through the day answering routine calls while the urgent safety report remained untouched, so he set aside the next morning for the report first.",
+            "zh": "管理員整天回覆例行電話，漫無目的地過了一天，急需完成的安全報告卻未動筆；因此他把翌日早上先留給報告。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "exhibition labels",
+            "zh": "展覽標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 44
+            }
+          },
+          {
+            "en": "minor edits",
+            "zh": "零碎修改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 74
+            }
+          },
+          {
+            "en": "the first label",
+            "zh": "第一張標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 159
+            }
+          },
+          {
+            "en": "routine calls",
+            "zh": "例行電話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 61
+            }
+          },
+          {
+            "en": "the urgent safety report",
+            "zh": "急需完成的安全報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 92
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A chosen rest day differs from drifting through the day when an important task remains.",
+          "zh": "刻意休息，與重要任務未做卻漫無目的地過一天不同。"
+        },
+        {
+          "en": "Without a plan for the grant application, Priya drifted through the day answering minor emails.",
+          "zh": "Priya 沒有為補助申請訂計劃，整天只回覆零碎電郵，漫無目的地過了一天。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3319",
+      "number": 3319,
+      "inventoryId": "expr-3319",
+      "titleEn": "squeezing out flexibility",
+      "titleZh": "擠走靈活調整的空間",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:squeeze|squeezes|squeezed|squeezing) out flexibility\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Leave too little room to adapt because a schedule, rule or demand occupies all available space.",
+        "meaningZh": "排程、規則或要求佔得太滿，令臨時調整的空間大幅減少。",
+        "grammar": "squeeze out flexibility is a figurative verb phrase; squeezed/squeezing are regular forms.",
+        "register": "Neutral planning language. A coordinator may say it to a team discussing an over-detailed schedule.",
+        "boundaryZh": "有時間安排不等於僵化；問題是把每段時間填滿，以致合理變動也無法處理。",
+        "misconceptionZh": "不是把實物擠出去，也不是主張完全不規劃。",
+        "outcomeZh": "能解釋哪項過密安排壓縮了調整空間，並提出保留餘裕的方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1208",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 112,
+          "book": 12,
+          "question": 46,
+          "sample": "S1",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Minute-by-minute schedules risk squeezing out flexibility.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeezing out flexibility"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "為甚麼講者想保留未分配時段？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The packed schedule leaves no person free to respond when a guest needs extra help.",
+            "zh": "排程太滿，訪客需要額外協助時無人可調整。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteers have no tasks assigned at all.",
+            "zh": "義工完全沒有獲派工作。"
+          },
+          {
+            "id": "c",
+            "en": "A floating volunteer is available to help guests on each shift.",
+            "zh": "每個班次都有一名流動義工可協助訪客。"
+          },
+          {
+            "id": "d",
+            "en": "The guest has asked for a fixed ten-minute appointment.",
+            "zh": "訪客要求固定十分鐘的預約。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每個人每段時間都已排滿，突發需要便無人可調整。",
+        "en": "The festival plan assigns every volunteer a task every ten minutes. If a guest needs extra help, no one is free to respond. The schedule is squeezing out flexibility; we need some unassigned blocks.",
+        "zh": "節慶計劃每十分鐘都給每位義工安排任務。若訪客需要額外協助，沒有人可抽身回應。這份排程正擠走彈性；我們需要保留一些未分配時段。"
+      },
+      "reply": {
+        "promptEn": "Our festival rota fills every ten-minute slot, and an unexpected accessibility request leaves no volunteer free. How could we improve it?",
+        "promptZh": "（節慶值班表每十分鐘都排滿；突然有無障礙協助需要時，沒有義工可抽身。我們可以怎樣改善？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leave a few blocks unassigned for unexpected requests.",
+            "zh": "留幾個未分配時段處理突發要求。"
+          },
+          {
+            "id": "b",
+            "en": "Ask which tasks can be covered by a floating volunteer.",
+            "zh": "看看哪些工作可由流動義工支援。"
+          },
+          {
+            "id": "c",
+            "en": "The detailed rota is squeezing out flexibility; we need room to adapt.",
+            "zh": "詳細值班表正擠走調整空間；我們需要保留彈性。"
+          },
+          {
+            "id": "d",
+            "en": "Build a backup plan for busy periods.",
+            "zh": "為繁忙時段制定後備安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應排程問題；金句概括彈性被佔滿。"
+      },
+      "scene": {
+        "promptZh": "排練表把每一分鐘填滿；演員要臨時重練轉場，便必須取消另一段必要練習。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The packed rehearsal plan is squeezing out flexibility.",
+            "zh": "排滿的排練計劃正擠走彈性。"
+          },
+          {
+            "id": "b",
+            "en": "The plan includes a free block for unexpected rehearsal needs.",
+            "zh": "計劃留了空檔給突發排練需要。"
+          },
+          {
+            "id": "c",
+            "en": "The company has agreed to change the show date and revise the entire plan.",
+            "zh": "劇團已同意改演出日期並重訂計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "緊密安排令合理調整只能犧牲其他必要工作。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不像 squeezing out flexibility？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A school timetable reserves one period each week for catch-up or unexpected needs.",
+            "zh": "學校時間表每週留一節處理補課或突發需要。"
+          },
+          {
+            "id": "b",
+            "en": "A school books every free room, so a class cannot move during repairs.",
+            "zh": "學校預訂了每間空房，維修時班級無處可轉。"
+          },
+          {
+            "id": "c",
+            "en": "A school fills every break with required meetings, leaving no time for urgent parent calls.",
+            "zh": "學校把每個休息時段排滿必須參加的會議，無暇處理緊急家長電話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "預留時段提供了應變空間。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：工作坊每個時段都已排滿，但器材延誤有時需要短暫轉場時間。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We are squeezing out flexibility; let us leave one buffer slot between sessions.",
+            "zh": "我們正在擠走彈性；不如在場次之間留一個緩衝時段。"
+          },
+          {
+            "id": "b",
+            "en": "Identify which sessions have the most complex equipment.",
+            "zh": "找出哪些場次的器材最複雜。"
+          },
+          {
+            "id": "c",
+            "en": "Tell instructors what delays have occurred before.",
+            "zh": "告訴導師過往出現過甚麼延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句說明問題並提出緩衝。",
+        "promptEn": "A: Every workshop slot is booked, but equipment delays sometimes require a short changeover. B: ______"
+      },
+      "speaking": {
+        "en": "Booking every room all afternoon squeezed out flexibility when one class needed to move during repairs.",
+        "zh": "整個下午把所有課室預訂滿，當有班級因維修需要轉房時便沒有調整空間。",
+        "promptZh": "指出哪項安排太滿、實際變動及緩衝方法。",
+        "targetSpan": {
+          "start": 33,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：詳細排程令突發但合理的需要難以處理。用英文寫出過滿安排、受影響的人及可行緩衝。",
+        "selfCheckZh": "不能只說計劃很詳細；須顯示調整時出現甚麼困難。",
+        "examples": [
+          {
+            "en": "The museum filled every guide’s hour with tours, squeezing out flexibility when a visitor needed an accessible route and no guide could adapt; it added one floating guide to the next rota.",
+            "zh": "博物館把每名導賞員的每小時都排滿；訪客需要無障礙路線時，沒有導賞員可調整工作，彈性因而被擠走。下一份值班表因此加了一名流動導賞員。"
+          },
+          {
+            "en": "A timetable that booked every rehearsal room squeezed out flexibility when a scene needed extra practice and no room was free, so the director reserved a shared buffer hour.",
+            "zh": "時間表把每間排練室都訂滿；一幕需要額外練習時，沒有空房可用，彈性因而被擠走。導演於是預留一小時共用緩衝時段。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an accessible route",
+            "zh": "無障礙路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 116
+            }
+          },
+          {
+            "en": "one floating guide",
+            "zh": "一名流動導賞員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 170
+            }
+          },
+          {
+            "en": "the next rota",
+            "zh": "下一份值班表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 174,
+              "end": 187
+            }
+          },
+          {
+            "en": "extra practice",
+            "zh": "額外練習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 104
+            }
+          },
+          {
+            "en": "a shared buffer hour",
+            "zh": "一小時共用緩衝時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 152,
+              "end": 172
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A schedule can squeeze out flexibility if it leaves no room for reasonable changes.",
+          "zh": "時間表若沒有合理變動空間，就可能擠走彈性。"
+        },
+        {
+          "en": "Booking every studio hour squeezed out flexibility when a repair was needed.",
+          "zh": "每小時都預訂滿工作室，當需要維修時便沒有調整空間。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3327",
+      "number": 3327,
+      "inventoryId": "expr-3327",
+      "titleEn": "on track",
+      "titleZh": "按計劃進行",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:the|our|their|this|a) (?:project|plan|schedule|work|campaign|build|programme|program) on track\\b|\\b(?:the|our|their|this|a) (?:project|plan|schedule|work|campaign|build|programme|program) (?:is|was|stays|remains) on track\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A project or plan is progressing toward its agreed timing or goal, or actions help it do so.",
+        "meaningZh": "項目或計劃正朝商定的時間或目標推進，或有行動使其保持如此。",
+        "grammar": "on track follows be/stay/remain or appears after keep + plan/project + on track. This lesson bounds the pattern to work plans/projects; personal-life recovery belongs to a separate existing lesson.",
+        "register": "Neutral workplace and school-planning phrase. A team lead may use it with colleagues during a progress check.",
+        "boundaryZh": "須有明確目標或進度基準；單純「很忙」不代表按計劃，也不能因一次檢查就保證最後如期完成。",
+        "misconceptionZh": "不是站在鐵路路軌上；本課指計劃進度，不指個人生活重回正軌。",
+        "outcomeZh": "能用具體進度證據判斷計劃是否按軌道前進，並提出維持進度的行動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1216",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 113,
+          "book": 12,
+          "question": 46,
+          "sample": "S2",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 16; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Daily checks keep the project on track.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on track"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "講者根據甚麼認為項目仍按計劃推進？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Captions are complete and the remaining labels fit the Thursday deadline.",
+            "zh": "圖片說明已完成，餘下標籤可在星期四期限內印好。"
+          },
+          {
+            "id": "b",
+            "en": "The display has already opened to visitors.",
+            "zh": "展示已向訪客開放。"
+          },
+          {
+            "id": "c",
+            "en": "No final delivery needs checking.",
+            "zh": "最後交付毋須檢查。"
+          },
+          {
+            "id": "d",
+            "en": "The team has changed the opening date to next month.",
+            "zh": "團隊把開放日期改到下月。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已完成部分工作，而餘下工作可按期限進行。",
+        "en": "The library display opens Friday. Captions are done, and Thursday printing can finish the labels. The project is on track for opening, although we still need to confirm the final delivery.",
+        "zh": "圖書館展示星期五開放。圖片說明已完成，標籤可於星期四印好。項目正按計劃朝開放推進，但我們仍須確認最後交付。"
+      },
+      "reply": {
+        "promptEn": "Our display opens Friday. Captions are done; labels are due Thursday. How should we use today’s update?",
+        "promptZh": "（展示星期五開放。圖片說明已完成，標籤須於星期四印好。我們應怎樣利用今天的進度更新？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Confirm the labels are ready for Thursday printing.",
+            "zh": "確認標籤可於星期四印製。"
+          },
+          {
+            "id": "b",
+            "en": "Check whether any delivery could delay opening.",
+            "zh": "檢查交付會否延誤開放。"
+          },
+          {
+            "id": "c",
+            "en": "The update helps keep the project on track, but we still need the final checks.",
+            "zh": "這次更新有助項目按計劃推進，但仍須做最後檢查。"
+          },
+          {
+            "id": "d",
+            "en": "Tell the team which tasks are complete and which remain.",
+            "zh": "告訴團隊哪些工作已完成、哪些尚未完成。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理；金句指出進度更新與餘下核對的關係。"
+      },
+      "scene": {
+        "promptZh": "學校舞台改建工程目標下週驗收；地板已完成，燈光測試安排在期限前兩天，經理每天對照清單檢查。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The daily checks are helping keep the project on track.",
+            "zh": "每日檢查有助工程按計劃推進。"
+          },
+          {
+            "id": "b",
+            "en": "The team has no agreed deadline or progress measure.",
+            "zh": "團隊沒有商定期限或進度標準。"
+          },
+          {
+            "id": "c",
+            "en": "The project has already passed the final inspection.",
+            "zh": "工程已通過最終驗收。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有期限、清單和可核對的進度，符合按計劃推進。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明 a project is on track？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team feels busy but has not checked tasks against the agreed deadline.",
+            "zh": "團隊感到忙碌，卻未按商定期限核對工作。"
+          },
+          {
+            "id": "b",
+            "en": "The team completed the planned first stage by its deadline.",
+            "zh": "團隊按限期完成計劃中的第一階段。"
+          },
+          {
+            "id": "c",
+            "en": "The remaining steps have owners and dates before the opening.",
+            "zh": "開放前的餘下步驟已有負責人和日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "忙碌感不是進度證據。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：社區花園下星期六開放。路徑已完成，但標示牌仍須於星期四前裝好。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us check the sign delivery tomorrow to keep the project on track.",
+            "zh": "不如明天核對標示牌交貨，讓項目按計劃推進。"
+          },
+          {
+            "id": "b",
+            "en": "Confirm who is responsible for installing each sign.",
+            "zh": "確認誰負責安裝各個標示牌。"
+          },
+          {
+            "id": "c",
+            "en": "Update the opening checklist after the signs arrive.",
+            "zh": "標示牌到貨後更新開放清單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把具體跟進與開放期限連起來。",
+        "promptEn": "A: The community garden opens next Saturday. The paths are finished, but the signs still need to be installed by Thursday. B: ______"
+      },
+      "speaking": {
+        "en": "Checking the supplier’s delivery date helped keep the project on track for its Friday opening.",
+        "zh": "核對供應商交貨日期，有助項目按計劃在星期五開放。",
+        "promptZh": "說明項目期限、已有進度和需要跟進的風險。",
+        "targetSpan": {
+          "start": 45,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊有明確開放或交付期限，部分工作已完成，仍需核對一項風險。用英文寫出期限、進度證據及下一步。",
+        "selfCheckZh": "不能只寫團隊很忙；須有可檢查的進度。",
+        "examples": [
+          {
+            "en": "The school fair opens on Monday. Stall maps are printed, and a Friday safety check will help keep the project on track before the gates open.",
+            "zh": "學校嘉年華星期一開放。攤位地圖已印好，星期五的安全檢查有助項目在開門前按計劃推進。"
+          },
+          {
+            "en": "The plan is on track for Thursday’s exhibition: the captions are approved, and the curator will confirm the final frame delivery tomorrow.",
+            "zh": "星期四展覽的計劃正按進度推進：圖片說明已獲批，策展人明天會確認最後一批相框交貨。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Stall maps",
+            "zh": "攤位地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 43
+            }
+          },
+          {
+            "en": "a Friday safety check",
+            "zh": "星期五的安全檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 82
+            }
+          },
+          {
+            "en": "the gates",
+            "zh": "入口閘門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 135
+            }
+          },
+          {
+            "en": "the captions",
+            "zh": "圖片說明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 60
+            }
+          },
+          {
+            "en": "the final frame delivery",
+            "zh": "最後一批相框交貨",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Progress checks can keep a project on track without guaranteeing completion.",
+          "zh": "進度檢查可讓項目按計劃推進，但不保證完成。"
+        },
+        {
+          "en": "Confirming the supplier’s delivery date kept the project on track for opening.",
+          "zh": "確認供應商交貨日期，令項目能按計劃開放。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3328",
+      "number": 3328,
+      "inventoryId": "expr-3328",
+      "titleEn": "goal-oriented",
+      "titleZh": "以目標為本的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgoal-oriented\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Focused on setting goals and organising action toward them, rather than merely being busy.",
+        "meaningZh": "重視訂立目標，並安排具體行動逐步達成；不只是忙碌。",
+        "grammar": "goal-oriented is a hyphenated adjective before a noun or after be; not a verb.",
+        "register": "Neutral positive description. A teammate may use it when describing another teammate’s working style.",
+        "boundaryZh": "可以重視目標，同時調整方法和照顧別人；不表示凡事只看成果或必定達標。",
+        "misconceptionZh": "喜歡寫計劃表不一定就是以目標為本，須看到計劃如何連到目標。",
+        "outcomeZh": "能根據目標、行動和檢查方式判斷此形容詞是否貼切。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1217",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 113,
+          "book": 12,
+          "question": 47,
+          "sample": "S1",
+          "sourceBookPages": "110–111",
+          "locatorNote": "DOCX table 117, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She is goal-oriented and enjoys planning.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "goal-oriented"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "為甚麼講者稱 Rina 以目標為本？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She connects a stated aim to tasks and later checks the outcome.",
+            "zh": "她把明確目標連到工作，之後檢查成果。"
+          },
+          {
+            "id": "b",
+            "en": "She fills every minute with tasks without defining an aim.",
+            "zh": "她未定目標便把每分鐘排滿。"
+          },
+          {
+            "id": "c",
+            "en": "She refuses to review an event after it ends.",
+            "zh": "活動結束後她拒絕檢討。"
+          },
+          {
+            "id": "d",
+            "en": "She chooses tasks only because they look impressive.",
+            "zh": "她只因工作看起來吸引而選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有目標、相應行動及事後檢查，才是本課重點。",
+        "en": "Rina is goal-oriented. Before each community event she defines one measurable aim, assigns tasks that support it, and checks what worked afterwards. She enjoys planning, but the goal guides the plan.",
+        "zh": "Rina 以目標為本。每次社區活動前，她都訂一項可量度目標，分配有助達標的工作，事後再檢查成效。她喜歡策劃，但引導計劃的是目標。"
+      },
+      "reply": {
+        "promptEn": "Our teammate sets a clear turnout goal, chooses outreach tasks for it, and reviews the numbers after each event. How would you describe her style?",
+        "promptZh": "（隊友訂下清楚的出席人數目標，挑選相應宣傳工作，並在每次活動後檢討數字。你會怎樣形容她的做事方式？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She links her actions to the turnout she wants.",
+            "zh": "她把行動連到希望達到的出席人數。"
+          },
+          {
+            "id": "b",
+            "en": "She checks whether the plan actually works.",
+            "zh": "她檢查計劃是否奏效。"
+          },
+          {
+            "id": "c",
+            "en": "She is goal-oriented because she plans and reviews around a clear aim.",
+            "zh": "她以目標為本，因為她圍繞清楚目標安排並檢討。"
+          },
+          {
+            "id": "d",
+            "en": "Her task choices have a clear purpose.",
+            "zh": "她選擇工作有清楚目的。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均貼切；金句直接描述做事方式。"
+      },
+      "scene": {
+        "promptZh": "隊長希望下月讓更多新成員參與，便訂下人數目標、試兩種邀請方法，每週檢查回覆。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The captain is goal-oriented in planning the invitations.",
+            "zh": "隊長在安排邀請時以目標為本。"
+          },
+          {
+            "id": "b",
+            "en": "The captain schedules invitations without deciding what they should achieve.",
+            "zh": "隊長未決定目的便安排邀請。"
+          },
+          {
+            "id": "c",
+            "en": "The captain changes the goal every day without measuring any response.",
+            "zh": "隊長每天改目標，卻不量度回覆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "清楚目標、相應方法和定期檢查，支持形容詞。"
+      },
+      "contrast": {
+        "promptZh": "哪個人最不能單憑資料稱為 goal-oriented？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A helper makes a colourful timetable but cannot say what the tasks are meant to achieve.",
+            "zh": "幫手做了彩色時間表，卻說不出工作要達成甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "A helper sets a target, chooses steps and checks progress weekly.",
+            "zh": "幫手訂下目標、選擇步驟，並每週檢查進度。"
+          },
+          {
+            "id": "c",
+            "en": "A helper changes a method after reviewing whether it serves the agreed aim.",
+            "zh": "幫手檢查方法能否達到商定目標後，作出調整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有漂亮時間表，欠缺目標與行動連結。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：Aya 希望閱讀社歡迎十名新成員。她安排到兩班介紹，每次後都會點算報名。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is goal-oriented: the visits and checks both serve her membership aim.",
+            "zh": "她以目標為本：探訪和檢查都為了招募目標。"
+          },
+          {
+            "id": "b",
+            "en": "She can compare sign-ups from the two classes.",
+            "zh": "她可以比較兩班的報名數。"
+          },
+          {
+            "id": "c",
+            "en": "She might adjust the second visit after the first one.",
+            "zh": "第一次介紹後，她可以調整第二次。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句把目標、行動和檢查合在一起。",
+        "promptEn": "A: Aya wants the reading club to welcome ten new members. She has planned visits to two classes and will count sign-ups after each visit. B: ______"
+      },
+      "speaking": {
+        "en": "Our goal-oriented organiser set a recycling target and checked weekly collections before changing the pickup plan.",
+        "zh": "我們以目標為本的統籌員訂下回收目標，檢查每週收集量後才改收集安排。",
+        "promptZh": "說明目標、相應行動及如何檢查，而非只讚人很忙。",
+        "targetSpan": {
+          "start": 4,
+          "end": 17
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名統籌員或學生訂下可檢查的目標，選擇相應步驟，並定期檢討。用英文寫出三者關係。",
+        "selfCheckZh": "兩個模型須有目標、步驟與檢查，不是單寫喜歡計劃。",
+        "examples": [
+          {
+            "en": "The goal-oriented choir leader aimed to recruit six singers, held two open rehearsals, and counted new sign-ups after each one.",
+            "zh": "以目標為本的合唱團領隊希望招募六名歌手，便辦了兩次公開排練，每次後點算新報名。"
+          },
+          {
+            "en": "Maya is goal-oriented: she set a target of 100 donated books for the library, contacted nearby offices, and reviewed the book count every Friday.",
+            "zh": "Maya 以目標為本：她為圖書館訂下一百本捐書目標、聯絡附近辦公室，並每星期五檢查書籍數量。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "six singers",
+            "zh": "六名歌手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 59
+            }
+          },
+          {
+            "en": "two open rehearsals",
+            "zh": "兩次公開排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 85
+            }
+          },
+          {
+            "en": "new sign-ups",
+            "zh": "新報名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 111
+            }
+          },
+          {
+            "en": "a target of 100 donated books",
+            "zh": "一百本捐書目標",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 60
+            }
+          },
+          {
+            "en": "the book count",
+            "zh": "書籍數量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Goal-oriented planning ties actions and review to a clear aim.",
+          "zh": "以目標為本的計劃會把行動及檢討連到明確目標。"
+        },
+        {
+          "en": "Our goal-oriented editor sets a publication date and checks each milestone.",
+          "zh": "我們以目標為本的編輯訂下出版日期，並核對每個進度節點。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3329",
+      "number": 3329,
+      "inventoryId": "expr-3329",
+      "titleEn": "a lot on their plate",
+      "titleZh": "有很多事情要處理",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a lot|too much|so much) on (?:my|your|his|her|our|their) plate\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have many current responsibilities or concerns competing for limited time and attention.",
+        "meaningZh": "現時有許多責任或煩心事要處理，時間和心力有限。",
+        "grammar": "have + a lot on + possessive + plate; replace their with my/your/his/her/our as context requires. Plate stays singular.",
+        "register": "Warm informal idiom. A school coordinator may use it when discussing a parent’s existing workload.",
+        "boundaryZh": "重點在同時承擔多件事，而非判斷某人不願幫忙；應先核實對方是否有空和意願。",
+        "misconceptionZh": "不是餐碟上真的放滿食物，也不等於該人必然無法接受任何新任務。",
+        "outcomeZh": "能在分工時體諒既有責任，提出可選擇的支援方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1218",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 113,
+          "book": 12,
+          "question": 47,
+          "sample": "S1",
+          "sourceBookPages": "110–111",
+          "locatorNote": "DOCX table 117, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The parents already have a lot on their plate.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a lot on their plate"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "講者為何建議先詢問家長？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The parents already have several demands on their time and may need a manageable role.",
+            "zh": "家長已有多項事要處理，可能需要可負擔的角色。"
+          },
+          {
+            "id": "b",
+            "en": "The parents have already agreed to lead the whole fair.",
+            "zh": "家長已同意負責整個嘉年華。"
+          },
+          {
+            "id": "c",
+            "en": "The fair has been cancelled this month.",
+            "zh": "嘉年華這個月已取消。"
+          },
+          {
+            "id": "d",
+            "en": "The parents have no current responsibilities.",
+            "zh": "家長目前沒有責任要負。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "覆診與額外輪班已有時間壓力，應先問其意願與能力。",
+        "en": "The parents are arranging medical visits and covering extra shifts this month. They already have a lot on their plate. Before asking them to run the fair, we should ask what support they would actually welcome.",
+        "zh": "家長這個月要安排覆診，還要做額外輪班。他們已有很多事情要處理。請他們負責嘉年華前，我們應先問他們需要甚麼支援。"
+      },
+      "reply": {
+        "promptEn": "These parents are arranging medical visits and covering extra shifts. We need fair helpers. How can we invite them thoughtfully?",
+        "promptZh": "（這些家長正安排覆診，又要做額外輪班。我們需要嘉年華幫手。怎樣體貼地邀請？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask whether they want a small, optional role.",
+            "zh": "問他們是否想做一項自願而較輕的工作。"
+          },
+          {
+            "id": "b",
+            "en": "Offer a short shift instead of assuming they can lead the whole fair.",
+            "zh": "提供短班次，而非假定他們能負責整個嘉年華。"
+          },
+          {
+            "id": "c",
+            "en": "They have a lot on their plate, so let us ask what support fits their time.",
+            "zh": "他們已有很多事情要處理；我們問甚麼支援合乎他們時間。"
+          },
+          {
+            "id": "d",
+            "en": "Make it easy for them to decline without pressure.",
+            "zh": "讓他們能不受壓力地婉拒。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均尊重對方；金句概括既有負擔與合適邀請。"
+      },
+      "scene": {
+        "promptZh": "一名義工這星期要照顧生病家人、應付考試，還要完成原有值班。統籌員想再加一項活動任務。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer has a lot on her plate, so ask before adding another task.",
+            "zh": "義工已有很多事情要處理，加工作前應先問她。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteer has already agreed to lead the extra activity.",
+            "zh": "義工已同意帶領額外活動。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteer has no demands on her time this week.",
+            "zh": "義工這星期沒有事情要處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項現有責任同時佔用時間，不能假定可再接新任務。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以斷言某人 has a lot on their plate？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You only know the person declined one invitation, with no information about current demands.",
+            "zh": "只知道對方拒絕一次邀請，沒有其現時負擔資料。"
+          },
+          {
+            "id": "b",
+            "en": "The person is managing two deadlines while caring for a relative.",
+            "zh": "對方照顧親屬，同時處理兩個期限。"
+          },
+          {
+            "id": "c",
+            "en": "The person is covering extra shifts and preparing an exam this week.",
+            "zh": "對方這星期要加班，又要準備考試。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一次婉拒不能單獨證明他有多項負擔。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們可以請 Dev 也統籌籌款活動嗎？他已代兩名同事工作，還準備搬家。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He has a lot on his plate; let us ask what he can realistically take on.",
+            "zh": "他已有很多事情要處理；我們問他實際能承擔甚麼。"
+          },
+          {
+            "id": "b",
+            "en": "Offer to divide the fundraiser into small roles.",
+            "zh": "提出把籌款工作拆成幾項小任務。"
+          },
+          {
+            "id": "c",
+            "en": "Check whether another volunteer is available first.",
+            "zh": "先看看有沒有其他義工可幫忙。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句顧及既有負擔，但不替 Dev 斷定他一定拒絕。",
+        "promptEn": "A: Can we ask Dev to organise the fundraiser too? He is already covering two colleagues and preparing a family move. B: ______"
+      },
+      "speaking": {
+        "en": "With weekend shifts and a family move, Dev has a lot on his plate, so the centre offered him a smaller optional role.",
+        "zh": "Dev 既要做週末輪班，又要搬家，已有很多事情要處理；因此中心給他選擇較輕的自願工作。",
+        "promptZh": "說明具體負擔、擬加的工作及尊重意願的回應。",
+        "targetSpan": {
+          "start": 47,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人同時有多項責任，團隊希望請其協助另一件事。用英文寫出已有責任、合理邀請與可拒絕的空間。",
+        "selfCheckZh": "不得由忙碌推斷對方不願幫忙；兩例都要尊重選擇。",
+        "examples": [
+          {
+            "en": "Because Nila had a lot on her plate with exams and evening care for her grandfather, the club offered a short optional shift and welcomed a refusal.",
+            "zh": "Nila 要應付考試，晚上又要照顧祖父，已有很多事情要處理；社團只提出一個自願的短班次，也接受她婉拒。"
+          },
+          {
+            "en": "The two organisers had a lot on their plate with a venue change and late deliveries, so their team asked whether they wanted help with the guest list instead of assigning more work.",
+            "zh": "兩名統籌員既要處理場地更改，又要應付延遲送貨，已有很多事情要處理；團隊問他們是否想有人幫忙整理賓客名單，而非再派更多工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "exams",
+            "zh": "考試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 46
+            }
+          },
+          {
+            "en": "evening care for her grandfather",
+            "zh": "晚上照顧祖父",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 83
+            }
+          },
+          {
+            "en": "a short optional shift",
+            "zh": "自願的短班次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 124
+            }
+          },
+          {
+            "en": "a venue change",
+            "zh": "場地更改",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "the guest list",
+            "zh": "賓客名單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "If someone has a lot on their plate, invite them thoughtfully rather than assuming.",
+          "zh": "若對方已有很多事情要處理，應體貼地邀請，不該擅自替對方決定。"
+        },
+        {
+          "en": "Nora has a lot on her plate while caring for her father and covering weekend shifts.",
+          "zh": "Nora 要照顧父親，又要做週末輪班，已有很多事情要處理。"
+        }
+      ]
+    }
+  ]
+}

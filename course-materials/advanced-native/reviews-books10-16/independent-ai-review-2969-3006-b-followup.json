@@ -1,0 +1,32 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2969-3006-b.json",
+  "inputFiles": {
+    "pilot1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-1.json", "sha256": "8adfaf1d5b16b51e84801fc6e7196f81e9765d2a63da172388cb9ea93674597b"},
+    "pilot2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2969-3006-review-pilot-2.json", "sha256": "0b8549044e4a36c5b5343b338922fc231d31cd2cde111a921e30e5c3293a8079"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2969-3006-review-pilot.json", "sha256": "4c77dfb971b97304c410326ca074d0bae4939edc36831990bc2b06513fe33438"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "resolvedFindings": [
+    {"id": "R2973-01", "status": "resolved", "evidence": "Reply C now uses Mari's farewell and 'within a small circle of people close to her', no longer the guide's six-word sentence frame; Traditional Chinese matches."},
+    {"id": "R2982-01", "status": "resolved", "evidence": "The target is now used with Leo, the bookshop owner, and classmates in independently grounded examples. The complete guide sentence no longer appears in reply, audio or scene; Chinese preserves each privacy boundary."},
+    {"id": "R2982-02", "status": "resolved", "evidence": "Both tutor models put polite privacy requests inside direct quotation and retain 'mind their own business' only in third-person narration. English and Traditional Chinese align, and 2982 glossary spans are exact."}
+  ],
+  "mechanicalChecks": {
+    "guideCopyScreen": "192 learner-facing English strings compared against all 2,604 guide examples. Zero whole-text exact copies. Nine near hits are all lesson 3006's fixed seven-token target 'a lot more is riding on it' in otherwise distinct contexts; no non-target near copies remain.",
+    "build": "Combined focused build and --check pass: eight lessons, 48 questions, 32 audio requests, zero flags."
+  },
+  "perLessonStatus": {
+    "2969": "provisional-content-pass",
+    "2973": "provisional-content-pass",
+    "2977": "provisional-content-pass",
+    "2982": "provisional-content-pass",
+    "2984": "provisional-content-pass",
+    "2985": "provisional-content-pass",
+    "2996": "provisional-content-pass",
+    "3006": "provisional-content-pass"
+  },
+  "remainingFindings": [],
+  "humanApproval": false,
+  "releaseApproval": false
+}

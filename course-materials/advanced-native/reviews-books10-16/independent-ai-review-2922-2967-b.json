@@ -1,0 +1,55 @@
+{
+  "reviewType": "independent-ai-seven-step-editorial-review",
+  "scope": "Eight unselected provisional Books 10–16 lessons: 2922, 2927, 2937, 2943, 2947, 2949, 2950, 2967",
+  "inputFiles": {
+    "pilot1": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-1.json", "sha256": "f6cbc86a3c62497c1f9b9d69e8b6436728ff70849c763b5c371e55cba7890b3b"},
+    "pilot2": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-2.json", "sha256": "3eb06abcd31e8a2766d348915777be500376a110d3f000fc305f1cdee94a3a33"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-2922-2967-review-pilot.json", "sha256": "9dca7ccaab4eeb1ac312251bcff3298cc86936ed9e1d9d0c402da0ccbda52acc"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"},
+    "canonical2231": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2209-2231-a.json", "sha256": "21f6632e523b04387edeaf0f5b3f8fdbb2979b4d953f4ce8fab0657cc7d0ba69"}
+  },
+  "mechanicalChecks": {
+    "source": "All eight source IDs, exact expression labels and full source examples match the inventory; each example matches its target detector.",
+    "targetAndKeys": "All golden reply, keyed scene and keyed dialogue options, speaking spans and both writing models match a fresh gi target detector. Each assessed choice has one defensible keyed answer; four reply options are individually valid for their prompt.",
+    "glossary": "All 48 answer-derived glossary spans are exact non-target substrings of the linked English writing model.",
+    "build": "Combined focused build and --check passed: 8 lessons, 48 questions, 32 audio requests, zero review flags."
+  },
+  "ownerBoundary": "2947 put on a show is a performative display undertaken to impress observers rather than to serve the guest/client. Canonical 2231 put on is the playback sense with media as its object. Their source sentences, grammatical objects and seven-step learner decisions differ. The 2947 full target detector is appropriately narrower than 2231's substring detector; the overlap alone does not justify merging these senses.",
+  "perLesson": [
+    {
+      "sourceOrdinal": 2922,
+      "lessonId": "advanced-native-2922",
+      "status": "requires-repair",
+      "findings": [{"id": "R2922-01", "severity": "major", "path": "writing.examples[1]", "text": "The writing prompt/self-check requires the interface's first-week popularity, repeated choices causing a decline in participation, and continued technical operation. Model 2 states first-week popularity, repeated options and no fault but omits the participation decline. State the drop explicitly in English and Traditional Chinese; recompute any affected glossary offsets."}],
+      "evidence": "The appeal-versus-breakage distinction otherwise holds through the seven steps."
+    },
+    {"sourceOrdinal": 2927, "lessonId": "advanced-native-2927", "status": "provisional-content-pass", "findings": [], "evidence": "Personal importance despite a modest audience and the informal pretty intensifier are consistently taught; both writing models are complete."},
+    {"sourceOrdinal": 2937, "lessonId": "advanced-native-2937", "status": "provisional-content-pass", "findings": [], "evidence": "Feeling excluded is grounded in missing participation opportunities without inferring that every quiet guest feels this way; both models propose inclusion."},
+    {"sourceOrdinal": 2943, "lessonId": "advanced-native-2943", "status": "provisional-content-pass", "findings": [], "evidence": "Gradual natural flow remains distinct from no structure or neglecting newcomers; both models preserve the ten-minute introduction and beginner support."},
+    {
+      "sourceOrdinal": 2947,
+      "lessonId": "advanced-native-2947",
+      "status": "requires-repair",
+      "findings": [{"id": "R2947-01", "severity": "minor", "path": "writing.examples[1]", "text": "The self-check asks each model to show dropping the proposed giant-cheque spectacle, supplying homework support and keeping the donation announcement simple. Model 2 refers only to not performing for cameras, without identifying the abandoned giant-cheque plan. Mention that specific choice in English and Traditional Chinese; preserve the narrower performative-display target and recheck glossary offsets."}],
+      "evidence": "The sense is distinct from canonical 2231 media playback; source, keys and Chinese otherwise align."
+    },
+    {
+      "sourceOrdinal": 2949,
+      "lessonId": "advanced-native-2949",
+      "status": "requires-repair",
+      "findings": [{"id": "R2949-01", "severity": "minor", "path": "writing.examples[0]", "text": "The self-check requires the ten-thousand-dollar grant, the thirty-thousand-dollar outside theatre with no new donations, and choosing the school stage. Model 1 states the two prices and school-stage decision but omits the no-new-funding condition that makes the unaffordability inference bounded. Add the funding condition in both languages and recalculate any moved glossary spans."}],
+      "evidence": "Financial means rather than appearance or event-planning methods is otherwise consistently taught."
+    },
+    {
+      "sourceOrdinal": 2950,
+      "lessonId": "advanced-native-2950",
+      "status": "requires-repair",
+      "findings": [{"id": "R2950-01", "severity": "minor", "path": "writing.examples[1]", "text": "The self-check asks for the sisters' reunion after years apart, the simple home meal and the moment's personal value without an absolute prediction. Model 2 says 'meeting again' but never makes the years-long separation clear. Add a brief 'after years apart' equivalent in English and Traditional Chinese; recheck affected glossary offsets."}],
+      "evidence": "Rare, personally valued moment versus mandatory luxury spending is otherwise taught faithfully."
+    },
+    {"sourceOrdinal": 2967, "lessonId": "advanced-native-2967", "status": "provisional-content-pass", "findings": [], "evidence": "Both models link the twenty-thousand-dollar accessible ramp to weekly participation and avoid equating low cost with value."}
+  ],
+  "findingCount": {"major": 1, "minor": 3},
+  "humanApproval": false,
+  "releaseApproval": false
+}

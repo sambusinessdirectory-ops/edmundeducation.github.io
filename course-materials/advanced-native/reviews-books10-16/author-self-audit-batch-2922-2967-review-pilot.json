@@ -1,0 +1,191 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human owner approval, media listening approval, or release certification",
+  "createdUtc": "2026-10-23T13:49:06.544878+00:00",
+  "scope": "Eight unselected Books 10–16 proposed-new lessons after ordinal 2919",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "sha256": "710b4da399e33d20a9e31a5ba746015fe3cbcae73ac94fea18ed52cc85e67831"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "sha256": "f8ff92903cad6d776ec5e3c3d5d690319b552afa7f0a280ebb3bf32c5ea75be7"
+    }
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-1.json",
+      "sha256": "305f376d5f0aae616185a688da09ecfb24f4710e24cc6c24c17cf7b8bd4b4d2f",
+      "ordinals": [
+        2922,
+        2927,
+        2937,
+        2943
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2922-2967-review-pilot-2.json",
+      "sha256": "ed5e1b425f4cdb1b05821f37d95739451f48162e572e396aa6c5ee362a8d7b95",
+      "ordinals": [
+        2947,
+        2949,
+        2950,
+        2967
+      ]
+    }
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass",
+    "outputDirectory": "/private/tmp/advanced-native-2922-2967-pilot"
+  },
+  "authorChecks": [
+    {
+      "ordinal": 2922,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2927,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2937,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2943,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2947,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2949,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2950,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    },
+    {
+      "ordinal": 2967,
+      "sourceExact": true,
+      "targetMatchesSource": true,
+      "sevenStepSchema": true,
+      "fourValidReplyAuthorChecked": true,
+      "twoChangedContextModels": true,
+      "sixExactAnswerDerivedGlossarySpans": true,
+      "traditionalChineseAuthorChecked": true,
+      "independentReview": "pending"
+    }
+  ],
+  "sourceOwnerNotes": [
+    {
+      "ordinal": 2920,
+      "status": "deferred, not edited",
+      "reason": "Less really is more is conceptually close to drafted 2919 quality over quantity; owner and seven-distinct-step scope need comparison."
+    },
+    {
+      "ordinal": 2924,
+      "status": "deferred, not edited",
+      "reason": "Throw a party is a low-distinctiveness organising action; seven distinct learner decisions and separate owner value need review before drafting."
+    },
+    {
+      "ordinal": 2947,
+      "status": "drafted, unselected",
+      "reason": "Put on a show means insincere performative display. Prior 2231 put on means start playback; its shorter detector may hit source as a substring, but source sense and new constrained show detector differ. Human sense-aware owner sign-off open."
+    },
+    {
+      "ordinal": 2956,
+      "status": "not drafted",
+      "reason": "Pick up in canonical 441 regex matches source substring; requires comparison of full pick up the pieces recovery idiom."
+    }
+  ],
+  "openGates": [
+    "Independent exact-hash follow-up on four writing-model repairs",
+    "Human source-owner and idiomaticity approval, especially 2947",
+    "Media generation/listening and device typography QA",
+    "Parent-controlled manifest selection and publication; no release action taken"
+  ],
+  "updatedUtc": "2026-10-23T13:52:23.283058+00:00",
+  "independentReviewRepairs": [
+    {
+      "finding": "R2922-01",
+      "repair": "Writing model 2 explicitly states the participation decline, aligned in English and Traditional Chinese.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2947-01",
+      "repair": "Writing model 2 explicitly states the abandoned filmed giant-cheque handover.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2949-01",
+      "repair": "Writing model 1 explicitly states no additional donations.",
+      "contentRevision": 2
+    },
+    {
+      "finding": "R2950-01",
+      "repair": "Writing model 2 explicitly states the years-apart separation.",
+      "contentRevision": 2
+    }
+  ]
+}

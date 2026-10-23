@@ -1,0 +1,24 @@
+{
+  "reviewType": "independent-ai-exact-hash-originality-and-content-followup",
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-3280-3329-b-source-copy-followup.json",
+  "inputFiles": {
+    "draft": {"path": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json", "sha256": "3ec59dd9cdce621314835cb8472502020d5459c427d433140e7008ddd5867f2a"},
+    "authorSelfAudit": {"path": "course-materials/advanced-native/reviews-books10-16/author-self-audit-batch-3280-3329-a.json", "sha256": "f9271ab229504e84cff7276a2b5d9a40f803d2980669899184b9d3e5e0b4f5c2"},
+    "sourceInventory": {"path": "course-materials/advanced-native/books10-16/source-inventory.jsonl", "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"}
+  },
+  "findingsRechecked": [
+    {"id": "R3327-02", "status": "cleared", "evidence": "Listening now says 'The project is on track for opening' after new Friday/Thursday caption-and-label evidence, rather than closely paraphrasing the full guide sentence about daily checks. English and Traditional Chinese preserve the bounded project-progress sense and final-delivery caveat."},
+    {"id": "R3329-02", "status": "cleared", "evidence": "Speaking now begins with Dev's weekend shifts and family move, uses 'a lot on his plate' in a new sentence, and offers a smaller optional role. The guide's complete parents sentence is no longer embedded; Chinese and recomputed targetSpan align."}
+  ],
+  "fullGuideScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingEnglishStrings": 200,
+    "wholeTextExactCopies": 0,
+    "nearMatches": 2,
+    "editorialDisposition": "Both residual hits are 3329's fixed idiom with 'already' or pronoun substitution in listening/keyed reply. The medical visits, extra shifts, fair support and optional-role decision are original. No near hit repeats the guide's complete nine-word sentence or its scenario."
+  },
+  "semanticRegressionCheck": "All eight lessons retain their earlier source/target, six-question, four-valid-reply, EN/ZH and answer-derived glossary clearances. The 3327 listening change still grounds the keyed progress evidence; the 3329 speaking change retains an actual competing-demand situation and supportive response. Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "status": "all-eight-provisional-content-and-originality-pass",
+  "humanApproval": false,
+  "releaseApproval": false
+}

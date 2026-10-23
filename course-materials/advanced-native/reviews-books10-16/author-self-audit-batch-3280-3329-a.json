@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T14:00:39.991762+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3280-3329-a.json",
+  "draftSha256": "3ec59dd9cdce621314835cb8472502020d5459c427d433140e7008ddd5867f2a",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "97cf54abee60d7ee90be36b7f34a3c0271d91bc93489919c52e0a3a02f0af445",
+  "focusedBuild": "PASS after near-copy repairs: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS after near-copy repairs",
+  "canonicalScreen": "All eight source rows remain proposed-new in editorial decisions. Title/phrase search found no exact prior owner for seven expressions. 3327 on track is bounded to plans/projects in its reviewed regex and examples, distinct in intended sense from canonical personal recovery getting life back on track; broad owner overlap warrants independent/human sign-off. 3280 excuses, 3283 assigned-responsibility evasion, and 3286 repair are distinct learning decisions despite adjacent accountability theme.",
+  "authorSemanticPass": "Reviewed listening audio vs all options for unsupported gender, role, threat and causal details; all eight reply sets have four contextually valid responses and one target-bearing golden line; writing examples were read against every prompt/self-check; EN/ZH dialogue prompts and examples aligned provisionally. Independent review still required.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3280,
+      "sourceExpression": "hiding behind excuses",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 1
+    },
+    {
+      "sourceOrdinal": 3283,
+      "sourceExpression": "dodging responsibility",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3286,
+      "sourceExpression": "make amends",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3306,
+      "sourceExpression": "drift through the day",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3319,
+      "sourceExpression": "squeezing out flexibility",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3327,
+      "sourceExpression": "on track",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    },
+    {
+      "sourceOrdinal": 3328,
+      "sourceExpression": "goal-oriented",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 2
+    },
+    {
+      "sourceOrdinal": 3329,
+      "sourceExpression": "a lot on their plate",
+      "sourceSentenceExact": true,
+      "decision": "proposed-new-lesson",
+      "reviewedPatternMatchesSourceExampleAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending",
+      "contentRevision": 3
+    }
+  ],
+  "independentReviewRepairs": [
+    "R3286-01: damaged-camera writing model now includes apology, repair offer, and time for owner response; EN/ZH and glossary spans updated.",
+    "Seven takeaway lines that copied guide examples replaced with original, context-distinct scenarios (3283,3286,3306,3319,3327,3328,3329).",
+    "R3327-02: listening conclusion now uses different project-progress frame with Friday/Thursday evidence; EN/ZH aligned.",
+    "R3329-02: speaking now uses Dev/work-shift/family-move setting, and targetSpan recomputed; EN/ZH aligned."
+  ],
+  "sourceSentenceCopyScreen": "PASS across all 2,604 source examples and 200 learner-facing English strings: zero whole-sentence copies; two automated near matches are fixed target-idiom-only overlaps in 3329, no reproduced source scenario. Rule: >=9 contiguous shared words or >=6 covering >=60% of shorter sentence."
+}
