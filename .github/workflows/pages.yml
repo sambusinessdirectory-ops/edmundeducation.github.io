@@ -59,8 +59,9 @@ jobs:
         run: |
           test -s academy-nexus-selector-frame-v2.webp
           grep -Fq 'academy-nexus-selector-frame-v2.webp' index.html
-          grep -Fq '20261023-academy-nexus2' index.html
-          grep -Fq 'position: relative; padding-inline:' homepage-system-deck.css
+          grep -Fq '20261023-academy-nexus3' index.html
+          grep -Fq 'aspect-ratio: 3 / 1;' homepage-system-deck.css
+          grep -Fq 'background: transparent;' homepage-system-deck.css
           grep -Fq 'object-fit: contain;' homepage-system-deck.css
           grep -Fq 'pointer-events: none;' homepage-system-deck.css
           node --check homepage-system-deck.js

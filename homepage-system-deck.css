@@ -198,10 +198,27 @@
   object-fit: contain;
   pointer-events: none;
 }
-@media (min-width: 1900px) and (pointer: fine) {
-  .system-card-deck { position: relative; padding-inline: clamp(90px, 5vw, 112px); }
-  .system-card-deck__frame { display: block; }
+@media (min-width: 2040px) and (pointer: fine) {
+  .system-card-deck {
+    position: relative;
+    min-height: 0;
+    aspect-ratio: 3 / 1;
+    padding: 58px clamp(90px, 5vw, 112px) 26px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .system-card-deck::before {
+    content: "";
+    position: absolute;
+    inset: 15% 5%;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, rgba(248, 251, 255, .88) 0%, rgba(240, 247, 255, .72) 68%, rgba(240, 247, 255, 0) 100%);
+  }
+  .system-card-deck__frame { display: block; z-index: 1; }
   .system-card-deck__copy,
   .system-card-deck__stage,
-  .system-card-deck__controls { position: relative; z-index: 1; }
+  .system-card-deck__controls { position: relative; z-index: 2; }
 }
