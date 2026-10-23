@@ -535,6 +535,112 @@
     }
     return foils;
   }
+  // Two independent decisions per lesson. Page 03 tests evidence and register;
+  // page 05 asks for a usable response in a different setting. Each tuple is
+  // [English situation, Traditional Chinese situation, English choices,
+  //  Traditional Chinese choices, English reason, Traditional Chinese reason].
+  const freshDecisions = {
+    "idiom-06": [
+      ["A gallery can still book a visiting artist, but the offer expires tonight. Which advice fits?", "畫廊仍可預約一位到訪藝術家，但邀請今晚失效。哪項建議合適？", ["Strike while the iron is hot and confirm the booking today.", "Strike while the iron is hot after the artist accepts another offer.", "Strike while the iron is hot by buying unrelated paintings instead."], ["趁邀請仍有效，今天便確認預約。", "藝術家接受別人的邀請後才行動，已錯過機會。", "購買無關畫作並非把握這項邀請。"], "The invitation is open now and may disappear tonight.", "邀請仍有效，但今晚可能失效；此時行動才是把握時機。"],
+      ["Your friend can apply for a funded internship until Friday. What would you tell her?", "朋友可在星期五前申請有津貼的實習。你會怎樣提醒她？", ["Strike while the iron is hot—send the application before Friday.", "Strike while the iron is hot—wait until the application closes.", "Strike while the iron is hot—accept a role she does not want."], ["趁截止前遞交申請，把握現有機會。", "等到截止後才申請，便錯過時機。", "接受不想要的工作，不代表善用這項申請機會。"], "The useful opening has a clear deadline.", "實習申請有截止日期；應趁機會仍在時行動。"]
+    ],
+    "idiom-07": [
+      ["A designer wants feedback on a new library sign. Which comment concerns its appearance?", "設計師想聽新圖書館標示的意見。哪句評價的是外觀？", ["The uncluttered sign is easy on the eye.", "The loud announcement is easy on the eye.", "The low printing bill is easy on the eye."], ["標示清爽悅目，看起來舒服。", "廣播音量屬聽覺，不是視覺。", "印刷費低屬成本，不是外觀。"], "The comment evaluates what people see.", "這句評價的是標示的視覺效果，而非聲音或價錢。"],
+      ["Your classmate has simplified a crowded presentation slide. What praise sounds natural?", "同學把擠迫的簡報頁面整理得更簡潔。你會怎樣自然地稱讚？", ["The new layout is easy on the eye; I can follow it now.", "The new layout is easy on the eye; it sounds quieter now.", "The new layout is easy on the eye; it costs less now."], ["新版面悅目，內容也更容易看清。", "版面不會因設計改變而『聽起來』更安靜。", "節省成本不是 easy on the eye 的意思。"], "The response names a visible improvement.", "新版面在視覺上較舒適，因此用 easy on the eye 貼切。"]
+    ],
+    "idiom-08": [
+      ["Before any results arrive, a singer feels certain that her audition went well. Which account is honest?", "成績未公布前，歌手強烈覺得試音成功。哪種說法如實？", ["I know in my bones that the audition went well, though I have no result yet.", "I know in my bones that it went well because the official score proves it.", "I know in my bones that it went well, so no one needs to hear me sing."], ["尚未有結果，但內心強烈相信試音順利。", "已有正式分數作證，重點便不是沒有證據的直覺。", "個人直覺不能代替別人實際聆聽。"], "The speaker admits certainty without claiming proof.", "說話者承認仍未有結果，只表達強烈直覺。"],
+      ["A friend asks why you returned to your childhood town despite no clear plan. How might you answer?", "朋友問你為何在尚無明確計劃時回到童年住過的小鎮。你會怎樣回答？", ["I knew in my bones that I belonged here, even before I found work.", "I knew in my bones that I belonged here because a contract required it.", "I knew in my bones that everyone here must feel exactly as I do."], ["尚未找到工作時，內心已強烈覺得自己屬於這裏。", "合約要求是外在理由，並非內心的強烈直覺。", "自己的直覺不能證明每個人都有相同感受。"], "This is a personal conviction, not a claim about others.", "這句只表達自己的內在確信，沒有冒稱掌握他人的感受。"]
+    ],
+    "idiom-09": [
+      ["A refund dispute has a signed receipt and an admission. Which assessment is justified?", "退款爭議有已簽收據，也有人承認錯誤。哪項判斷有根據？", ["With the signed receipt and admission, the case looks open-and-shut.", "With two opposing witnesses, the case is certainly open-and-shut.", "Without checking any records, the case must be open-and-shut."], ["有收據和承認，事情看來沒有重大疑點。", "證人說法相反，不能斷言毫無疑點。", "未核查紀錄，不能先斷言事情明確。"], "Two independent facts support the conclusion.", "收據和承認互相支持，因此作此判斷有根據。"],
+      ["A colleague says the missing parcel case is obvious, but the delivery photo shows a different door. What would you say?", "同事說包裹失蹤案很明確，但送貨照片拍到另一扇門。你會怎樣回應？", ["It isn't open-and-shut; the delivery photo raises a real question.", "It is open-and-shut; the wrong doorway proves everything is settled.", "It is open-and-shut; we need not look at the photo at all."], ["案件並非毫無疑點；照片提出重要問題。", "拍到錯誤門口，反而令原有結論存疑。", "不看照片便斷言案情明確，缺乏根據。"], "A contradictory photo prevents a simple conclusion.", "照片與原有說法不符，不能稱為 open-and-shut。"]
+    ],
+    "idiom-10": [
+      ["Two proposals are under discussion and a public vote is tomorrow. Which reply suits the uncertainty?", "兩項方案仍在討論，明天有公眾投票。哪句回應符合未明朗的局面？", ["Let's see which way the cat jumps before we back either proposal.", "Let's see which way the cat jumps after we sign an irreversible deal.", "Let's see which way the cat jumps and refuse to decide forever."], ["先看投票結果，再決定支持哪項方案。", "簽下不能撤回的協議後，便不是決定前觀望。", "永遠不決定，並非等待有用資訊。"], "The vote can inform a decision that is still open.", "決定尚未作出，投票結果可提供有用資訊。"],
+      ["Your family asks whether to book a hiking trip while the park closure decision is pending. What is a measured answer?", "公園是否關閉仍未公布，家人問要不要預訂遠足。怎樣回答較審慎？", ["Let's see which way the cat jumps on the closure before we book.", "Let's see which way the cat jumps after we pay the non-refundable fee.", "Let's see which way the cat jumps even if the park never announces anything."], ["先等關閉安排明朗，再決定預訂。", "付了不能退款的費用才觀望，已失去決定空間。", "若沒有等待中的消息，這句觀望便缺乏依據。"], "Waiting is useful because a specific decision is pending.", "正在等待的關閉決定會影響預訂，因此暫時觀望合理。"]
+    ],
+    "idiom-11": [
+      ["The trail may be slippery after rain. Which suggestion is a sensible precaution?", "雨後山徑可能濕滑。哪項建議屬合理防範？", ["Take shoes with good grip—better safe than sorry.", "Ignore the weather warning—better safe than sorry.", "Cancel every future walk—better safe than sorry."], ["穿防滑鞋，以防萬一。", "忽略天氣警告不是防範。", "因一次雨後濕滑便取消所有日後遠足，措施不合比例。"], "Grippy shoes address a plausible risk without overreacting.", "防滑鞋針對實際風險，也沒有過度反應。"],
+      ["Before updating a shared computer, a teammate offers to save a backup. How would you respond?", "更新共用電腦前，隊友提議先備份。你會怎樣回應？", ["Yes, back it up first—better safe than sorry.", "No, delete the backup—better safe than sorry.", "Yes, stop using computers forever—better safe than sorry."], ["好，先備份，以免資料意外遺失。", "刪掉備份增加風險，與防範相反。", "永遠不用電腦不符合這項風險的比例。"], "A backup is a modest safeguard against data loss.", "備份是針對資料遺失的合理預防措施。"]
+    ],
+    "idiom-12": [
+      ["A damaged charger is getting hot, but its owner keeps using it overnight. Which warning fits?", "充電器損壞並發熱，物主卻整晚繼續使用。哪句警告貼切？", ["You're playing with fire by leaving that damaged charger on overnight.", "You're playing with fire by unplugging the damaged charger now.", "You're playing with fire by asking an electrician to inspect it."], ["讓損壞充電器整晚通電，可能釀成嚴重事故。", "立即拔掉損壞充電器是在降低風險。", "請電工檢查是審慎做法，並非冒險。"], "The person continues a serious, avoidable risk.", "明知充電器有故障仍整晚使用，是可避免的嚴重風險。"],
+      ["Your friend is about to send her bank password to someone she met online. What would you tell her?", "朋友準備把銀行密碼傳給網上認識的人。你會怎樣勸她？", ["You're playing with fire; don't send your password.", "You're playing with fire; ask the bank through its official app.", "You're playing with fire; keep the password private."], ["你這樣冒很大風險；不要傳送密碼。", "透過銀行官方程式查詢是在降低風險。", "保密密碼是在保護自己，並非冒險。"], "Sharing a bank password creates serious danger.", "把銀行密碼交給陌生人有嚴重而可避免的風險。"]
+    ],
+    "idiom-13": [
+      ["Two neighbours are already arguing. Which comment describes the effect of a mocking post?", "鄰居已在爭吵。哪句能描述嘲諷貼文的影響？", ["The mocking post added fuel to the fire between the neighbours.", "The private apology added fuel to the fire by calming them both.", "The dispute ended before any post appeared, but it added fuel to the fire."], ["嘲諷貼文令現有爭執加劇。", "私下道歉令雙方冷靜，沒有令爭執惡化。", "貼文出現前爭執已結束，便不是火上加油。"], "The post worsens a conflict already under way.", "嘲諷貼文令已存在的爭執進一步惡化。"],
+      ["A teammate wants to blame one person publicly while a meeting is already tense. What might you say?", "會議已很緊張，隊友還想公開責怪一人。你會怎樣提醒他？", ["Public blame will add fuel to the fire; speak to them privately first.", "Private discussion will add fuel to the fire because it may calm everyone.", "A calm pause will add fuel to the fire because it may stop the argument."], ["公開指責會火上加油，先私下談較好。", "私下談若能平息局面，便不是火上加油。", "冷靜暫停若能阻止爭吵，也不是令局面惡化。"], "Public blame may intensify an existing dispute.", "爭執已存在，公開責怪可能令情況更差。"]
+    ],
+    "idiom-14": [
+      ["A candidate promises to double sales but cannot explain the plan. Which assessment is fair?", "候選人聲稱能令銷售額倍增，卻無法解釋方法。哪項判斷合理？", ["He is talking big about sales without showing a workable plan.", "He is talking big because he quietly presents audited results.", "He is talking big because he asks what figures are reliable."], ["未提出可行計劃卻誇口能大幅增加銷售。", "平實展示已審核成果，不一定是誇口。", "詢問數據是否可靠，並非吹噓。"], "The grand claim outruns the evidence.", "誇大的聲稱沒有相應計劃或證據支持。"],
+      ["A start-up founder says her untested app will replace every school textbook. What would you tell a colleague?", "初創創辦人說未測試的程式會取代所有學校課本。你會怎樣向同事評論？", ["She's talking big; I'd like to see a classroom trial first.", "She's talking big; the classroom trial has already proved every claim.", "She's talking big; she only asked teachers for feedback."], ["她在誇口；我想先看課堂實測。", "若實測已證實所有聲稱，不能只憑雄心說她誇口。", "只向教師徵求意見，並非宣稱自己無所不能。"], "The promise is sweeping, but the app is untested.", "程式尚未測試，全面取代課本的聲稱缺乏支持。"]
+    ],
+    "idiom-15": [
+      ["At a busy food bank, Mei greets visitors and sorts parcels without slowing down. Which description fits?", "食物銀行很忙，Mei 一邊招呼訪客，一邊整理物資，始終充滿活力。哪句貼切？", ["Mei is a ball of fire at the food bank.", "The hot parcel is a ball of fire at the food bank.", "The empty room is a ball of fire at the food bank."], ["Mei 精力充沛、積極投入。", "發熱的包裹不是形容有活力的人。", "空房間並非一位充滿幹勁的人。"], "The phrase praises an energetic person.", "這句讚賞 Mei 這位熱心而精力充沛的人。"],
+      ["Your new stage manager solves problems cheerfully all afternoon. What would you say to the director?", "新舞台經理整個下午都精神奕奕地解決問題。你會怎樣告訴導演？", ["Our new stage manager is a ball of fire; she keeps the show moving.", "Our new stage manager is a ball of fire because the lamps are hot.", "Our new stage manager is a ball of fire because the stage is empty."], ["她充滿幹勁，推動演出順利進行。", "燈具發熱與她是否充滿活力無關。", "舞台沒有人，也不能說明她的精神狀態。"], "Her sustained energy makes the compliment apt.", "她持續積極工作，正好符合這句讚美。"]
+    ],
+    "idiom-16": [
+      ["A community group can hire a hall within its small budget. Which comment fits the cost?", "社區小組可在有限預算內租用會堂。哪句符合費用情況？", ["Hiring the hall won't break the bank for the group.", "Hiring the hall will break the bank because it is fully funded.", "Hiring the hall broke the bank because it cost nothing."], ["會堂租金負擔得起，不會耗盡預算。", "費用已全數獲資助，不能說造成重大負擔。", "沒有費用，自然不會耗盡預算。"], "The negative form means the cost is manageable.", "won't break the bank 表示這筆開支負擔得起。"],
+      ["A friend worries that a museum ticket will be expensive, but it costs only a few dollars. How would you reassure him?", "朋友擔心博物館門票很貴，但門票只需幾元。你會怎樣安慰他？", ["The ticket won't break the bank; let's go together.", "The ticket will break the bank; it costs almost nothing.", "The ticket won't break the bank; neither of us can afford it."], ["門票價格相宜，不會造成財政壓力。", "幾元門票不可能耗盡預算。", "前半句說負擔得起，後半句卻說兩人都付不起。"], "A small price warrants the reassuring negative form.", "價格很低，適合用否定式表示不會花費太多。"]
+    ],
+    "idiom-17": [
+      ["A family postpones a trip because every flight is unusually costly. Which remark fits?", "一家人因機票異常昂貴而押後旅行。哪句貼切？", ["Flights this week cost an arm and a leg.", "Flights this week cost an arm and a leg because they are free.", "Flights this week cost an arm and a leg because they are short."], ["本週機票價錢高得驚人。", "免費機票並不昂貴。", "飛行時間短，不代表票價昂貴。"], "The family's decision is driven by a high price.", "一家人因高昂票價而押後旅行，符合慣用語的意思。"],
+      ["A mechanic quotes far more than you expected for a simple repair. What might you tell your brother?", "簡單維修的報價遠高於預期。你會怎樣告訴弟弟？", ["That repair could cost an arm and a leg; I'll get another quote.", "That repair costs an arm and a leg because the mechanic works nearby.", "That repair costs an arm and a leg because the spare part is tiny."], ["維修費可能非常高，我會再問另一個報價。", "維修店在附近，不能證明收費昂貴。", "零件細小，也不能直接證明收費昂貴。"], "The unexpectedly large quote supports the idiom.", "報價遠高於預期，才有根據說維修費非常昂貴。"]
+    ],
+    "idiom-18": [
+      ["A charity's budget assumes a donation that nobody has promised. Which assessment is grounded?", "慈善機構的預算假設會收到一筆未獲承諾的捐款。哪項評估有根據？", ["The budget is built on sand because the donation is unconfirmed.", "The budget is built on sand because the donation is already in its account.", "The budget is built on sand because two signed grants cover every cost."], ["捐款未獲確認，預算基礎薄弱。", "捐款已入帳，便不能以此說基礎不穩。", "已有兩筆正式撥款支付全部費用，並非缺乏支持。"], "A crucial assumption has not been secured.", "關鍵捐款尚未確定，整份預算因而缺乏可靠基礎。"],
+      ["A teammate presents a campaign forecast based on one anonymous comment. What would you say?", "隊友只憑一則匿名留言預測整項宣傳活動的成效。你會怎樣回應？", ["That forecast is built on sand; we need stronger evidence.", "That forecast is built on sand; three independent surveys confirm it.", "That forecast is built on sand; the figures have been audited twice."], ["預測缺乏可靠基礎，應尋找更多證據。", "三項獨立調查支持預測，不能說毫無根據。", "數據經兩次審核，不能因此說基礎薄弱。"], "One anonymous comment is a weak foundation for a forecast.", "一則匿名留言不足以支撐整項活動的預測。"]
+    ],
+    "idiom-19": [
+      ["An audit is still examining missing funds, and the treasurer faces public suspicion. Which statement is careful?", "帳目審查仍在追查失款，司庫受到公眾懷疑。哪句審慎？", ["The treasurer is under a cloud while the audit continues.", "The treasurer is under a cloud, so the accusation is proved.", "The treasurer is under a cloud because everyone has cleared her."], ["審查未完，司庫仍受懷疑。", "受到懷疑不等於指控已被證實。", "若已獲澄清，便不應說仍被懷疑。"], "The phrase describes suspicion, not a verdict.", "under a cloud 只說聲譽受疑，沒有斷言有罪。"],
+      ["A colleague wants to announce that a singer is guilty before an inquiry ends. How would you correct him?", "調查未結束，同事卻想宣布歌手有罪。你會怎樣糾正他？", ["She's under a cloud, but the inquiry has not reached a finding.", "She's under a cloud, so we can call the rumour a conviction.", "She's under a cloud, though no one has raised any concern."], ["她受懷疑，但調查尚無結論。", "傳聞不能當作定罪。", "若無任何疑慮，便沒有聲譽蒙陰的根據。"], "A careful response separates suspicion from proof.", "審慎的說法把懷疑與已證實的事實分開。"]
+    ],
+    "idiom-20": [
+      ["An unranked runner reaches the final after several surprising wins. Which description fits?", "一位沒有排名的跑手意外連勝，闖入決賽。哪句貼切？", ["She is a dark horse in the race after those surprise wins.", "She is a dark horse because she was the clear favourite from day one.", "She is a dark horse because her running shoes are black."], ["她原本不被看好，如今有望勝出。", "從一開始便是大熱門，並非黑馬。", "鞋子顏色不是黑馬的意思。"], "Her rise was unexpected and she may win.", "她先前被低估，如今有勝出可能。"],
+      ["Your friend dismisses a little-known choir before the contest, but it wins its heat. What would you say?", "朋友賽前看輕一隊鮮為人知的合唱團，但它在初賽勝出。你會怎樣說？", ["That choir could be a dark horse in the final.", "That choir is a dark horse because everyone picked it to win.", "That choir is a dark horse because it wears dark uniforms."], ["這隊合唱團可能是決賽中的黑馬。", "若眾人早已看好它，便沒有意外性。", "制服顏色與出人意料的競爭力無關。"], "The overlooked choir has become a real contender.", "合唱團原本不受注意，初賽勝出後已有競爭力。"]
+    ],
+    "idiom-21": [
+      ["A landlord allocates rooms only to whoever can threaten other tenants. Which judgment fits?", "房東只把房間分給能威嚇其他租客的人。哪項判斷貼切？", ["In that building, it is the law of the jungle.", "In that building, it is the law of the jungle because fair rules protect all.", "In that building, it is the law of the jungle because tenants share rooms fairly."], ["強者靠威嚇取得資源，缺乏公平保障。", "有公平規則保障所有人，並非弱肉強食。", "租客公平分享房間，也不是強者欺壓弱者。"], "Threats replace fair protection.", "這裏以威嚇代替公平規則，符合弱肉強食的意思。"],
+      ["A colleague says a fair sports league is 'the law of the jungle.' How would you respond?", "同事把有公平球例的體育聯賽稱作『弱肉強食』。你會怎樣回應？", ["I wouldn't call it the law of the jungle; the rules protect every team.", "It is the law of the jungle precisely because the rules protect every team.", "It is the law of the jungle because referees enforce those fair rules."], ["有規則保障各隊，便不宜稱作弱肉強食。", "公平保障與弱肉強食的意思相反。", "裁判執行公平規則，也不是無視公正。"], "The phrase would overstate an ordinary fair contest.", "普通而有保障的競賽，不應誇稱為弱肉強食。"]
+    ],
+    "idiom-22": [
+      ["After months of uncertainty, Farah signs a lease for her first studio. Which account fits?", "Farah 猶豫數月後，簽約租下第一間工作室。哪句貼切？", ["Farah took the plunge and signed the studio lease.", "Farah took the plunge by reading the lease but refusing to decide.", "Farah took the plunge by buying her usual coffee on the way."], ["她終於下定決心，簽下工作室租約。", "只閱讀合約卻不決定，未有採取行動。", "照常買咖啡沒有重大承諾。"], "The long-considered decision becomes a real commitment.", "她經過猶豫，終於作出有實際承諾的決定。"],
+      ["A friend has debated entering a marathon and finally registers today. What would you say?", "朋友考慮參加馬拉松一段時間，今天終於報名。你會怎樣說？", ["You took the plunge and signed up—I'll cheer for you.", "You took the plunge by browsing the entry page without deciding.", "You took the plunge by running your usual short route again."], ["你終於下定決心報名，我會支持你。", "只瀏覽報名頁而未決定，並非付諸行動。", "照常跑短路線不是報名這項重大決定。"], "Registration turns hesitation into action.", "完成報名代表終於作出原本猶豫的決定。"]
+    ],
+    "idiom-23": [
+      ["Nina is rehearsing a play, editing a magazine and coaching a team this month. Which summary fits?", "Nina 本月同時排練話劇、編輯雜誌和訓練隊伍。哪句概括貼切？", ["Nina has many irons in the fire this month.", "Nina has many irons in the fire because she once considered three hobbies.", "Nina has many irons in the fire because all three projects ended last year."], ["她現時同時投入多項工作。", "曾考慮幾種嗜好，並不等於同步參與。", "去年已完結的項目，不是現在同時在做的事。"], "Several projects are active at the same time.", "三項工作都在本月進行，因此符合慣用語的意思。"],
+      ["A colleague asks why you cannot take on another task while you are running two events and a newsletter. What would you say?", "你同時籌辦兩項活動和一份通訊，同事問為何不能再接工作。你會怎樣回答？", ["I have many irons in the fire already; could we discuss next month?", "I have many irons in the fire already; I only imagined those projects.", "I have many irons in the fire already; every project finished yesterday."], ["我現時已有多項工作在進行，能否下月再談？", "只是想像項目，並非實際同時參與。", "所有項目昨天已完成，便不是現時忙於多項工作。"], "The reply refers to current, overlapping commitments.", "兩項活動和通訊都正在籌辦，正好說明手頭有多項工作。"]
+    ],
+    "idiom-24": [
+      ["A new committee chair dismisses older volunteers as beneath her. Which comment is justified?", "新任委員會主席輕視資深義工，認為他們不如自己。哪句評論合理？", ["She is getting above herself since becoming chair.", "She is getting above herself because she thanks the volunteers.", "She is getting above herself simply because she accepted the role."], ["她上任後開始自視高人一等。", "感謝義工不等於傲慢。", "接受職務本身不能證明她自視過高。"], "Her dismissive behaviour, not her title, supports the criticism.", "判斷根據是她輕視他人的行為，而不是主席職銜。"],
+      ["A friend calls a student arrogant merely for applying to lead the debate club. What would you say?", "朋友只因一名學生申請當辯論學會主席，便說他傲慢。你會怎樣回應？", ["Applying for the role doesn't mean he's getting above himself.", "Applying for the role proves he's getting above himself already.", "Asking for feedback proves he's getting above himself already."], ["申請職務本身並不代表他自視過高。", "只憑申請職務不能斷言他傲慢。", "徵求意見也不是輕視他人的表現。"], "Ambition alone is not condescension.", "有抱負不等於看不起別人，不能只憑申請作判斷。"]
+    ],
+    "idiom-25": [
+      ["A trainee works well with help but has not yet handled a shift alone. Which assessment is measured?", "實習生在有人協助時表現良好，尚未獨自當值。哪項評估較審慎？", ["The acid test will be her first shift without the supervisor.", "The acid test was her first assisted shift under close guidance.", "The acid test will be another rehearsal with the supervisor."], ["首次沒有主管協助當值，才是關鍵考驗。", "有人密切指導的班次，不能證明她能獨立工作。", "主管在場的再一次排練，仍未檢驗獨立工作能力。"], "An unsupervised shift tests the specific ability still in doubt.", "尚未驗證的是獨立工作能力，須看她沒有主管協助時的表現。"],
+      ["A charity says its new water filter works. A village will rely on it through the dry season. What would you tell the team?", "慈善機構聲稱新濾水器有效，一條村將在旱季依賴它。你會怎樣告訴團隊？", ["Sustained use through the dry season will be the acid test of the filter's reliability.", "One supervised demonstration will be the acid test of the filter's reliability.", "A favourable review of the design will be the acid test of the filter's reliability."], ["旱季持續使用，才可關鍵地檢驗濾水器是否可靠。", "一次有人監督的示範，未能證明它能應付整個旱季。", "設計獲得好評，仍不能驗證長期使用的可靠程度。"], "The claim concerns sustained reliability, not a short demonstration or an appraisal.", "要驗證的是長期可靠性，短暫示範或設計評價均不足夠。"]
+    ],
+    "idiom-26": [
+      ["After a long professional career, a goalkeeper announces that she will never play competitively again. Which line fits?", "守門員經過漫長職業生涯，宣布不再參與競技比賽。哪句貼切？", ["The goalkeeper has decided to hang up her boots.", "The goalkeeper has hung up her boots for one afternoon.", "The goalkeeper has hung up her boots by changing clubs."], ["守門員決定退役，結束球員生涯。", "只休息一個下午，不等於退役。", "轉會後仍繼續作賽，也不是退役。"], "The decision ends her playing career.", "她不再參賽，才符合退役的意思。"],
+      ["Your uncle says he is retiring from competitive rugby after this season. What would you say?", "叔叔說本季過後會退出競技欖球。你會怎樣說？", ["So you're hanging up your boots after the final match?", "So you're hanging up your boots for next Tuesday's training only?", "So you're hanging up your boots while joining another rugby team?"], ["所以最後一場賽事後，你便正式退役？", "只缺席下星期二的訓練，不是退役。", "加入另一支球隊繼續比賽，也不是退役。"], "The phrase asks about ending competitive play.", "叔叔說的是本季後退出競賽，因此可問是否正式退役。"]
+    ],
+    "idiom-27": [
+      ["Two old neighbours meet again after twelve years apart. Which greeting sounds natural?", "兩位舊鄰居相隔十二年再見。哪句招呼自然？", ["I haven't seen you in a dog's age!", "I haven't seen you in a dog's age—we met this morning!", "I haven't seen you in a dog's age—I see you every week!"], ["真的很久沒見了！", "今早才見過，並非久別重逢。", "每星期見面，也不是很久沒見。"], "The expression fits a genuinely long interval.", "兩人相隔十二年再見，符合很久沒見的意思。"],
+      ["A friend brings back a board game you last played years ago. How would you react?", "朋友拿來一款你多年沒玩過的桌上遊戲。你會怎樣回應？", ["I haven't played this in a dog's age—let's set it up!", "I haven't played this in a dog's age—I played it yesterday.", "I haven't played this in a dog's age—I play it each weekend."], ["我很久沒玩這款遊戲了，來擺好棋盤吧！", "昨天才玩過，並非很久沒玩。", "每週都玩，也不能說久違。"], "The gap since the last game is measured in years.", "多年沒玩，正好可用 in a dog's age 表達久違。"]
+    ],
+    "idiom-28": [
+      ["Two co-directors repeatedly clash over every decision and cannot run the project together. Which description fits?", "兩名聯合總監事事爭執，無法合作管理項目。哪句貼切？", ["The co-directors are like oil and water.", "The co-directors are like oil and water because their skills complement each other.", "The co-directors are like oil and water because they agree on every choice."], ["兩人性格或做法不合，難以共事。", "技能互補並非格格不入。", "事事意見一致，也不是彼此不合。"], "Repeated clashes show an inability to mix well.", "兩人不斷衝突，符合油水難融的比喻。"],
+      ["Your club wants two people with opposite working styles to share one job, but every trial ends in conflict. What would you say?", "學會讓工作方式相反的兩人共職，但每次試行都以爭執告終。你會怎樣說？", ["They are like oil and water; let's give them separate roles.", "They are like oil and water; their methods fit perfectly together.", "They are like oil and water; one likes tea and the other likes coffee."], ["兩人難以合作，或可分開職務。", "方法完全相配，與油水難融相反。", "飲品喜好不同，不足以判斷兩人不能合作。"], "The proposed roles should reflect a real working conflict.", "多次共職都發生衝突，才有根據說兩人難以融合。"]
+    ],
+    "idiom-29": [
+      ["One missing photograph becomes an excuse to delay a report that could be sent without it. Which reply fits?", "一張照片不見了，有人以此為由拖延一份原本可先寄出的報告。哪句貼切？", ["Don't make the missing photo a lion in the way; send the report.", "The missing photo is a lion in the way because it is required by law.", "The missing photo is a lion in the way because the report has already been sent."], ["別把小障礙誇大成藉口，先寄出報告。", "若法律規定必須附上，便是真正限制，不是虛構藉口。", "報告已寄出，照片便沒有阻止寄出。"], "The small obstacle is being exaggerated to avoid action.", "照片並非寄出報告的必要條件，卻被誇大為阻礙。"],
+      ["A classmate will not begin rehearsing because the first line feels awkward, though the script is ready. What might you say?", "劇本已備妥，同學卻因第一句說得不順而遲遲不肯排練。你會怎樣說？", ["Don't let one awkward line become a lion in the way; start rehearsing.", "The awkward line is a lion in the way because rehearsal is forbidden.", "The awkward line is a lion in the way because you have rehearsed for weeks."], ["別把一句不順口的台詞當成拖延排練的藉口。", "若排練真的被禁止，障礙並非被誇大。", "若早已排練多週，就不是這一句阻止開始。"], "A manageable first line should not stop the whole rehearsal.", "一句可改善的台詞被放大成不開始排練的理由。"]
+    ],
+    "idiom-30": [
+      ["A reporter enters a meeting with people who have threatened her, despite a warning. Which description fits?", "記者收到警告後，仍走進曾威脅她的人的會議。哪句貼切？", ["She is walking into the lion's mouth by entering that meeting alone.", "She is walking into the lion's mouth by meeting a friendly colleague.", "She is walking into the lion's mouth by taking a harmless wrong turn."], ["她獨自進入明知有威脅的地方。", "會見友善同事沒有嚴重威脅。", "無害地走錯路，也不是進入險境。"], "She knowingly enters a place of serious danger.", "她明知現場有威脅，仍獨自走進去。"],
+      ["Your teammate plans to confront a violent group alone. How would you warn him?", "隊友計劃獨自面對一群有暴力傾向的人。你會怎樣提醒他？", ["Going alone would put your head into the lion's mouth; get support.", "Going alone would put your head into the lion's mouth; they are trusted friends.", "Going alone would put your head into the lion's mouth; they pose no threat."], ["獨自行動會身陷險境，應先找人支援。", "若對方是可信任的朋友，便沒有相同危險。", "若對方沒有威脅，便不應說身陷險境。"], "The warning is justified by a credible threat.", "有實際暴力風險，獨自前往才稱得上進入險境。"]
+    ]
+  };
   for (const lesson of catalogue.filter((item) => Number(item.order) >= 6 && Number(item.order) <= 30)) {
     const row = editorial[lesson.id];
     if (!row) continue;
@@ -546,10 +652,27 @@
     const checks = checksJoined.split("|");
     const [fitScene, badScene1, badScene2, fitSceneZh, badSceneZh1, badSceneZh2] = situationScenes[lesson.id];
     const forms = approvedForms[lesson.id];
-    const goodSecond = source[11].answer;
+    const [socialDecision, responseDecision] = freshDecisions[lesson.id];
+    const situationPrompts = [
+      ["Which situation genuinely calls for this idiom?", "哪個情境真正適合使用這個慣用語？"],
+      ["Where is the essential condition present?", "哪個情境具備這個說法所需的關鍵條件？"],
+      ["Which account matches the expression's real meaning?", "哪項描述符合這個說法的真正意思？"],
+      ["Which event gives you a sound reason to use the idiom?", "哪件事足以支持使用這個慣用語？"],
+      ["Find the situation that supports the figurative sense.", "找出符合比喻意思的情境。"]
+    ];
+    const boundaryPrompts = [
+      ["Which line stretches the idiom beyond its meaning?", "哪一句超出了這個慣用語的意思？"],
+      ["Which statement would you challenge as a misuse?", "哪個說法屬於誤用，值得你指出？"],
+      ["Spot the sentence that lacks the necessary condition.", "找出缺少必要條件的一句。"],
+      ["Which use needs a more accurate expression?", "哪一句需要改用更準確的說法？"]
+    ];
+    const situationPrompt = situationPrompts[(lesson.order - 6) % situationPrompts.length];
+    const boundaryPrompt = boundaryPrompts[(lesson.order - 6) % boundaryPrompts.length];
     const choice = (promptEn, promptZh, optionsEn, options, correct, feedbackEn, feedback) => ({
       promptEn, promptZh, optionsEn, options, correct, feedbackEn, feedback
     });
+    const refreshedChoice = ([promptEn, promptZh, optionsEn, options, feedbackEn, feedback]) =>
+      choice(promptEn, promptZh, optionsEn, options, 0, feedbackEn, feedback);
     extended[lesson.id] = {
       modelEn: model.answer, modelZh: model.answerZh,
       readAloudEn: reading.answer, readAloudZh: reading.answerZh,
@@ -562,10 +685,15 @@
       moving: lesson.fixedVariable?.variableZh || "保留固定說法，只按語境調整前後文法。",
       forms, checksEn, checks,
       choices: {
-        2: choice("Which situation supports the lesson idiom?", "哪個情境真正符合這個慣用語？", [fitScene, badScene1, badScene2], [fitSceneZh, badSceneZh1, badSceneZh2], 0, `The first situation has the essential condition: ${meaningEn}`, `第一個情境符合核心意思：${meaningZh}`),
-        3: choice("Which line uses the idiom with the right meaning and tone?", "哪一句在意思和語氣上最貼切？", [model.answer, badEn1, badEn2], [model.answerZh, badZh1, badZh2], 0, `This line fits the setting. ${boundaryEn}`, `這句符合情境。${boundary}`),
-        5: choice(model.prompt, model.promptZh, [model.answer, badEn1, badEn2], [model.answerZh, badZh1, badZh2], 0, `The response uses the idiom to express this situation: ${meaningEn}`, `正確回應用慣用語表達：${meaningZh}`),
-        6: choice("Which use of this idiom crosses its meaning boundary?", "哪一句誤用了這個慣用語？", [model.answer, goodSecond, badEn1], [model.answerZh, source[11].answerZh, badZh1], 2, boundaryEn, boundary)
+        2: lesson.id === "idiom-25"
+          ? choice(...situationPrompt,
+              ["A new bridge carries loaded trucks safely during a severe storm.", "A bridge model holds a small weight in a sheltered classroom.", "Engineers praise a bridge's design before any load trial."],
+              ["新橋在暴風雨中安全承受滿載貨車，經得起實際嚴格考驗。", "模型在室內承受小重量，尚未驗證真橋的實際表現。", "工程師稱讚設計，仍未測試橋樑的承重能力。"],
+              0, "The storm and full load test the bridge's real performance.", "暴風雨與滿載貨車能檢驗橋樑的實際表現。")
+          : choice(...situationPrompt, [fitScene, badScene1, badScene2], [fitSceneZh, badSceneZh1, badSceneZh2], 0, meaningEn, meaningZh),
+        3: refreshedChoice(socialDecision),
+        5: refreshedChoice(responseDecision),
+        6: choice(...boundaryPrompt, [source[17].answer, source[34].answer, lesson.id === "idiom-25" ? badEn2 : badEn1], [source[17].answerZh, source[34].answerZh, lesson.id === "idiom-25" ? badZh2 : badZh1], 2, boundaryEn, boundary)
       }
     };
   }

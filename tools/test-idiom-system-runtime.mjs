@@ -1083,6 +1083,44 @@ test("Idiom Compass 06–30 keeps the source catalogue and provides seven biling
   }
 });
 
+test("Compass 06–30 guide decisions use distinct scenes and reveal Chinese explanations only after answering", () => {
+  const { sut, compass } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  for (const current of content.lessons.slice(5, 30)) {
+    const guide = compass[current.id];
+    const decisionLines = [2, 3, 5, 6].flatMap((page) => guide.choices[page].optionsEn);
+    assert.equal(new Set(decisionLines).size, 12, `${current.id}: guide pages must not recycle choices`);
+    assert.notEqual(guide.choices[3].promptEn, guide.choices[5].promptEn, `${current.id}: signal and response need different contexts`);
+    assert.notEqual(guide.choices[3].optionsEn[guide.choices[3].correct], guide.modelEn, `${current.id}: avoid repeating the opening model`);
+    assert.notEqual(guide.choices[5].optionsEn[guide.choices[5].correct], guide.modelEn, `${current.id}: response needs a new utterance`);
+    assert.ok(guide.choices[5].promptEn.length > 30, `${current.id}: response needs a concrete situation`);
+  }
+  const acid = compass["idiom-25"];
+  assert.ok(!acid.choices[2].optionsEn.join(" ").includes("umbrella"), "situation scene should introduce a fresh test");
+  assert.ok(!acid.choices[3].optionsEn.join(" ").includes("umbrella"), "social-signal scene should not recycle the umbrella exercise");
+  assert.ok(!acid.choices[5].optionsEn.join(" ").includes("umbrella"), "response scene should use a fresh theme");
+  assert.ok(!acid.choices[6].optionsEn.join(" ").includes("umbrella"), "boundary scene should not return to the opening model");
+
+  const current = content.lessons[24];
+  const page = 5;
+  const guide = compass[current.id];
+  const rotation = (current.order + page) % 3;
+  const correct = (guide.choices[page].correct + rotation) % 3;
+  sut.openLesson(current.id, { page, attempt: attemptSeed({ lessonId: current.id }) });
+  let markup = sut.elements.lessonContent.innerHTML;
+  assert.doesNotMatch(markup, /class="compass-option-copy"><strong>[^<]+<\/strong><small>/, "pre-answer Chinese explanations must not give away the key");
+  sut.state.pilotSelections[`${current.id}:${page}`] = (correct + 1) % 3;
+  sut.setLessonPage(page);
+  markup = sut.elements.lessonContent.innerHTML;
+  assert.doesNotMatch(markup, /class="compass-option is-right"/, "a wrong attempt must not reveal the answer");
+  assert.match(markup, /class="compass-feedback is-wrong"/, "the chosen wrong option receives feedback");
+  sut.state.pilotSelections[`${current.id}:${page}`] = correct;
+  sut.setLessonPage(page);
+  markup = sut.elements.lessonContent.innerHTML;
+  assert.match(markup, /class="compass-option is-right"/, "a correct attempt reveals the answer");
+  assert.match(markup, /class="compass-option-copy"><strong>[^<]+<\/strong><small>/, "Chinese explanations become available after success");
+});
+
 test("answering a later Compass question updates its card without rebuilding the long page", async () => {
   const { sut, document } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
