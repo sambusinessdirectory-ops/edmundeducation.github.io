@@ -1,0 +1,51 @@
+{
+  "reportType": "independent-ai-exact-hash-owner-alias-proposal-review",
+  "status": "three-accept-one-repair",
+  "proposalOnly": true,
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-alias-four-3998-4456-proposed.json",
+  "proposalSha256": "2515d0bb504b9f1a588a5813d78a2083145e4c0f5b7af5e0e209ecd256ba6090",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/proposed-owner-alias-four-3998-4456-author-audit.json",
+  "authorAuditSha256": "aa8f9d46f5fad7f10d10df941a80fc7e5d20fb0925795ef707b278ed1434db35",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "results": [
+    {
+      "sourceOrdinal": 3998,
+      "sourceId": "book10-16-1887",
+      "proposedOwnerId": "advanced-native-1706",
+      "verdict": "accept",
+      "reason": "The source sentence exactly repeats the prior creativity-changes-its-clothes occurrence. The unchanged pattern matches its complete sentence, and only exact occurrence provenance is appended. Meaning, keys, Chinese and four audio texts are unchanged."
+    },
+    {
+      "sourceOrdinal": 4234,
+      "sourceId": "book10-16-2123",
+      "proposedOwnerId": "advanced-native-1913",
+      "verdict": "accept",
+      "reason": "The source sentence exactly repeats the earlier mentor-as-compass occurrence. The existing detector matches its complete sentence; the guidance-without-replacing-choice teaching and all assessed/audio content remain unchanged."
+    },
+    {
+      "sourceOrdinal": 4289,
+      "sourceId": "book10-16-2178",
+      "proposedOwnerId": "advanced-native-590",
+      "verdict": "repair",
+      "sourceAndOwnerSense": "The pace metaphor legitimately transfers from service capacity versus demand to rule updates versus invention; the revised scene has a defensible target-bearing key, stable answer ID and aligned Chinese.",
+      "finding": {
+        "id": "R4289-590-01",
+        "severity": "major",
+        "field": "takeaways[1].en/zh",
+        "issue": "The changed spoken takeaway says privacy guidance can keep pace when reviewers merely examine new uses before launch. Examining a use does not itself update the guidance; the source's rule-keeping-pace claim and the new scene both require timely revision. The Chinese also makes prelaunch examination the cause of keeping pace.",
+        "repair": "Explicitly say reviewers revise the guidance in response to new uses before launch, in EN and Traditional Chinese, while retaining the caveat that a timely revision still needs adequacy testing. Recheck target and regenerate the changed takeaway-2 audio key."
+      },
+      "otherChecks": "Exact source provenance and full-sentence bounded detector pass; unchanged listening/reply/contrast/dialogue/speaking/writing keys and five glossary spans remain stable."
+    },
+    {
+      "sourceOrdinal": 4456,
+      "sourceId": "book10-16-2345",
+      "proposedOwnerId": "advanced-native-1620",
+      "verdict": "accept",
+      "reason": "The attributive 'products rooted in the place' form teaches the same specific local connection as the prior predicative rooted-versus-generic sense. The new scene distinguishes documented local craft from a merely printed place name without treating old technique as proof that a new cup is antique. Its key, Chinese, bounded source match, exact provenance and glossary pass; takeaway-2 is a changed audio role if implemented."
+    }
+  ],
+  "sharedChecks": "All four proposed source sentences and expressions match source-inventory.jsonl exactly. Complete-source target matches, target-bearing scene/dialogue keys and exact unchanged writing glossary spans were checked at the proposal hash. The author reports 4/24/16/0 focused build/check and 30 live JS pattern controls; this review did not repeat the whole selected catalogue.",
+  "decision": "Do not implement 4289 at this hash. Recheck its repaired takeaway EN/ZH and audio text; the other three source-owner proposals are content-clear but remain unimplemented.",
+  "releaseBoundary": "No selected owner file, source decision, manifest, audio upload, database or live release was changed or approved."
+}

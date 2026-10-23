@@ -1,0 +1,27 @@
+{
+  "reportType": "scoped-proposal-repair-after-independent-ai-review",
+  "status": "proposal-only-pending-final-hash-independent-recheck",
+  "timestampUtc": "2026-10-23T23:37:33.558250+00:00",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1729-source-3264-proposed.json",
+  "beforeProposalSha256": "73c86332fca8ba60f4578ec12ed975a7b0254a102e4e525c4405fcf75540d32e",
+  "afterProposalSha256": "81ce10eb2295ccddf8dafb2381214d58e0376044b126abdca1188f0f7b0bc682",
+  "independentReviewFile": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-proposed-owner-3264-to-1729-b.json",
+  "independentReviewSha256": "e4cbed7f7669089616298f1ce81ea5f5e8f8c00758e3aed6969c684204cff0ba",
+  "findingsAddressed": [
+    {
+      "id": "R3264-1729-01",
+      "repair": "Scene key now starts with the target expression and the box-sorting evidence, without copying the full At home source sentence carrier."
+    },
+    {
+      "id": "R3264-1729-02",
+      "repair": "Scene prompt, options and explanation use the child/孩子 consistently without invented gender."
+    }
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio requests / 0 flags",
+    "originalCanonicalFileEdited": false,
+    "selectedManifestOrDecisionEdited": false,
+    "audioTextChange": "takeaway-2 remains the only changed synthesis text versus current owner"
+  },
+  "approvalBoundary": "Proposal only. Source 3264 remains held; no human/release approval."
+}

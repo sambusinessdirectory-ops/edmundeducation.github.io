@@ -4529,12 +4529,12 @@
       "id": "advanced-native-1620",
       "number": 1620,
       "inventoryId": "expr-1620",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "feel rooted rather than generic",
       "titleZh": "有在地連結而非千篇一律",
       "category": "figurative",
       "target": {
-        "pattern": "\\bfeel\\s+rooted\\s+rather\\s+than\\s+generic\\b"
+        "pattern": "\\b(?:feel\\s+rooted\\s+rather\\s+than\\s+generic|(?:products?|crafts?|designs?)\\s+rooted\\s+in\\s+the\\s+place)\\b"
       },
       "sources": [
         {
@@ -4550,16 +4550,31 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "feel rooted rather than generic",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-2345",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 221,
+          "book": 16,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 244, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors seek products rooted in the place.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "rooted in the place",
+          "sourceCategory": "Idiom or set phrase"
         }
       ],
       "brief": {
-        "meaningEn": "Seem connected to a particular history, place or identity instead of anonymous and interchangeable.",
-        "meaningZh": "感到與特定歷史、地方或身份有連結，而非無個性、可任意互換。",
-        "grammar": "a room / design / account can feel rooted rather than generic; explain what it is rooted in through context. The rooted image can also describe an account grounded in particular personal experiences, rather than interchangeable self-description.",
-        "register": "neutral",
-        "boundaryZh": "rooted 比喻有連結，generic 指欠具體特色，不是說所有新物都無價值；感覺有歷史也不證明物件真有某個年代來源。",
-        "misconceptionZh": "rooted 比喻有連結，generic 指欠具體特色，不是說所有新物都無價值；感覺有歷史也不證明物件真有某個年代來源。",
-        "outcomeZh": "理解「有在地連結而非千篇一律」的語境及用法，並在新情境寫出自然句子。"
+        "meaningEn": "Seem connected to a particular place, history or identity rather than interchangeable. A product rooted in the place draws on a specific local practice or story; the adjective does not itself prove provenance.",
+        "meaningZh": "與特定地方、歷史或身份有連結，而非可隨處互換。扎根當地的產品可承載具體在地技法或故事，但形容詞本身不能證明來源。",
+        "grammar": "Predicative: a room, design or account can feel rooted rather than generic. Attributive: products/crafts/designs rooted in the place. In either form, identify the specific local practice, material or history; do not infer an item’s age from its appearance.",
+        "register": "Reflective figurative wording in design, tourism and local-craft discussion. A visitor may compare souvenirs; a designer may explain what links an interior to its neighbourhood.",
+        "boundaryZh": "有地方連結可由具體技法、材料或故事支持；印有地名或看來古舊本身不證明產地、年代或工藝來源。",
+        "misconceptionZh": "不要把 rooted 當成植物真的生根，也不要把地方感當成未經查核的來源證明。",
+        "outcomeZh": "能分辨「感到有在地連結」與「扎根當地的產品」兩種語法，並用具體地方證據支持評價而不誇大來源。"
       },
       "listening": {
         "en": "The room’s repaired local pieces and the stories beside them help it feel rooted rather than generic, linking its design to the neighbourhood’s past.",
@@ -4619,26 +4634,26 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "社區咖啡店展示本地手作者作品及街坊故事，沒有只套用無關地點的裝飾照片。哪句貼切？",
+        "promptZh": "旅客比較兩個木杯。甲由本地工匠依有紀錄的舊碼頭木工技法製作；乙是大量生產，只印上鎮名，沒有本地製作資料。哪句最有根據？",
         "options": [
           {
             "id": "choice-1",
-            "en": "Those details can help the café feel rooted rather than generic.",
-            "zh": "那些細節可讓咖啡店有在地連結，而非千篇一律。"
+            "en": "Visitors can choose the product rooted in the place: the cup made by a local craftsperson using a documented local technique.",
+            "zh": "旅客可選那件扎根當地的產品：由本地工匠採用有紀錄的在地技法製成的木杯。"
           },
           {
             "id": "choice-2",
-            "en": "The old-fashioned look is enough to date the displayed pieces, even without source notes.",
-            "zh": "即使沒有來源註記，古舊外觀也足夠判定展示物件年代。"
+            "en": "The printed town name alone proves the mass-produced cup was made by a local craftsperson.",
+            "zh": "單憑印上的鎮名，就證明大量生產的木杯由本地工匠製作。"
           },
           {
             "id": "choice-3",
-            "en": "The café’s identity is explained only by a design copied without reference to the place.",
-            "zh": "咖啡店身份只由不涉及地方的複製設計解釋。"
+            "en": "The locally made cup must be an antique because the craft technique has a documented local history.",
+            "zh": "本地製作的木杯採用有紀錄的舊技法，因此它本身必然是古物。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "具體地方故事支持連結感，不等於每件物品年代已核實。"
+        "explanationZh": "甲有本地工匠及技法的具體資料；乙只有地名印字。舊技法也不能證明新製木杯本身是古物。"
       },
       "contrast": {
         "promptZh": "哪種推論不宜由 feel rooted rather than generic 得出？",
@@ -4760,8 +4775,8 @@
           "zh": "具體家庭故事可讓共用房間有連結感，而非千篇一律。"
         },
         {
-          "en": "A local account can feel rooted rather than generic when its details belong to the place it describes.",
-          "zh": "細節確實屬於所描述地方時，本地敘述可有在地連結，而非千篇一律。"
+          "en": "Products rooted in the place carry a specific local practice or story; a printed place name alone does not establish that link.",
+          "zh": "扎根當地的產品承載具體在地技法或故事；單印地名不足以證明這種連結。"
         }
       ],
       "review": {

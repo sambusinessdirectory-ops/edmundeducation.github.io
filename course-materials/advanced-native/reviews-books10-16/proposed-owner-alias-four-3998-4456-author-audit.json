@@ -1,0 +1,184 @@
+{
+  "reviewType": "unselected-owner-alias-proposal-author-audit",
+  "status": "proposal-only-pending-independent-ai-review",
+  "humanApproval": false,
+  "selectedOwnerFilesEdited": false,
+  "sourceDecisionsEdited": false,
+  "selectedManifestEdited": false,
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-alias-four-3998-4456-proposed.json",
+  "proposalFileSha256": "2515d0bb504b9f1a588a5813d78a2083145e4c0f5b7af5e0e209ecd256ba6090",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "counts": {
+    "sourceRows": 4,
+    "provenanceOnlyOwners": 2,
+    "boundedTeachingExpansionOwners": 2,
+    "lessonsBuilt": 4,
+    "questionsBuilt": 24,
+    "audioRolesBuilt": 16,
+    "changedAudioRoles": 2,
+    "focusedBuildReviewFlags": 0,
+    "liveJavascriptDetectorChecksPassed": 30
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3998,
+      "sourceId": "book10-16-1887",
+      "sourceSentence": "Creativity changes its clothes as people grow older.",
+      "ownerId": "advanced-native-1706",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "currentOwnerFileSha256": "7d4ef472c0833048d9401ab1eaced0efc747d28fe9487ff8de016f29d93067e3",
+      "currentOwnerObjectSha256": "39d701ac1e40b7082ee2442dbe5b85c1ef2591b917fa8a03cc668dab979147c8",
+      "proposedOwnerObjectSha256": "155a2525eaa7af47723ba66e12eba083b5152fe58a4f2c7349a898140ce457b1",
+      "currentTargetPattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b",
+      "proposedTargetPattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b",
+      "changedFields": [
+        "sources"
+      ],
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatch": true,
+      "fiveAnswerKeysPreserved": true,
+      "listeningReplyContrastDialogueSpeakingWritingReviewUnchanged": true,
+      "changedAudioRoles": []
+    },
+    {
+      "sourceOrdinal": 4234,
+      "sourceId": "book10-16-2123",
+      "sourceSentence": "A good mentor is a bit like a compass.",
+      "ownerId": "advanced-native-1913",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "currentOwnerFileSha256": "c530fbd717bbf49e862d80b2c5caacee6b7f69f8cddaba53c16a25bd171eb5db",
+      "currentOwnerObjectSha256": "4790665ac76bca41abd595bf4ddcd96bf3321cbd7a2fec87dc3037a9c6581037",
+      "proposedOwnerObjectSha256": "ca4be27acda0d3d1e7bd4b11f049d9f13db7283fe6c7421e181a4e7b2f55ce50",
+      "currentTargetPattern": "\\b(?:act(?:s|ed|ing)? like|(?:is|are|was|were) a bit like) a compass\\b",
+      "proposedTargetPattern": "\\b(?:act(?:s|ed|ing)? like|(?:is|are|was|were) a bit like) a compass\\b",
+      "changedFields": [
+        "sources"
+      ],
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatch": true,
+      "fiveAnswerKeysPreserved": true,
+      "listeningReplyContrastDialogueSpeakingWritingReviewUnchanged": true,
+      "changedAudioRoles": []
+    },
+    {
+      "sourceOrdinal": 4289,
+      "sourceId": "book10-16-2178",
+      "sourceSentence": "Ethical rules must keep pace with human invention.",
+      "ownerId": "advanced-native-590",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "currentOwnerFileSha256": "8ededa7897d259c08721cf1b9720062b17c08cdf8eac971f6f5931c0f1e6b41f",
+      "currentOwnerObjectSha256": "b7f64eb826258f3201c7418b20b1a65d0049d13d07454fc30038f70d4d478c11",
+      "proposedOwnerObjectSha256": "8412cfb4dbfcbc0e9c119747d4f1705f28bfa64d27ed45952a98ffded4a81156",
+      "currentTargetPattern": "\\bkeep(?:s|ing)? pace with demand\\b|\\bkept pace with demand\\b",
+      "proposedTargetPattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
+      "changedFields": [
+        "brief",
+        "contentRevision",
+        "scene",
+        "sources",
+        "takeaways",
+        "target"
+      ],
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatch": true,
+      "fiveAnswerKeysPreserved": true,
+      "listeningReplyContrastDialogueSpeakingWritingReviewUnchanged": true,
+      "changedAudioRoles": [
+        "takeaway-2"
+      ]
+    },
+    {
+      "sourceOrdinal": 4456,
+      "sourceId": "book10-16-2345",
+      "sourceSentence": "Visitors seek products rooted in the place.",
+      "ownerId": "advanced-native-1620",
+      "currentOwnerFile": "course-materials/advanced-native/batches/batch-1601-1625.json",
+      "currentOwnerFileSha256": "8c54eaba73315ec6e0301917d8da32b4e35589c9e5453fa8556fcfb0a11960b3",
+      "currentOwnerObjectSha256": "056943c9ba05e24a3e027b99266a5368158a6d86bb42d081bd1a2671fa497350",
+      "proposedOwnerObjectSha256": "267bf38ad6ca827f08412d9ad0ee0674b3c0c8e442a6709f579217e2b228a431",
+      "currentTargetPattern": "\\bfeel\\s+rooted\\s+rather\\s+than\\s+generic\\b",
+      "proposedTargetPattern": "\\b(?:feel\\s+rooted\\s+rather\\s+than\\s+generic|(?:products?|crafts?|designs?)\\s+rooted\\s+in\\s+the\\s+place)\\b",
+      "changedFields": [
+        "brief",
+        "contentRevision",
+        "scene",
+        "sources",
+        "takeaways",
+        "target"
+      ],
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatch": true,
+      "fiveAnswerKeysPreserved": true,
+      "listeningReplyContrastDialogueSpeakingWritingReviewUnchanged": true,
+      "changedAudioRoles": [
+        "takeaway-2"
+      ]
+    }
+  ],
+  "senseRationale": {
+    "3998": "Exact repeated guide sentence and same changed-form-with-continuity decision as 1706; existing detector matches.",
+    "4234": "Exact repeated guide sentence and same directional-guidance-without-replacing-choice simile as 1913; existing detector matches.",
+    "4289": "The keep pace with idiom tests whether a system adapts as quickly as demand or invention; object expansion is source-bounded and new scene distinguishes timeliness from adequacy.",
+    "4456": "Both forms express a specific local connection rather than a generic surface association; new attributive form is limited to product/craft/design subjects and assessed in a local-craft scene."
+  },
+  "detectorControls": {
+    "1706": {
+      "positive": [
+        "Creativity changes its clothes as people grow older.",
+        "Online kindness has simply changed clothes.",
+        "The habit changed its clothes when it moved online."
+      ],
+      "negative": [
+        "She changes her clothes.",
+        "The wardrobe has simply changed."
+      ]
+    },
+    "1913": {
+      "positive": [
+        "A good mentor is a bit like a compass.",
+        "A patient mentor can act like a compass.",
+        "They are a bit like a compass."
+      ],
+      "negative": [
+        "A good mentor is like a compass.",
+        "The metal compass is broken."
+      ]
+    },
+    "590": {
+      "positive": [
+        "Ethical rules must keep pace with human invention.",
+        "The clinic could not keep pace with demand.",
+        "Guidance is keeping pace with human invention.",
+        "Services kept pace with demand."
+      ],
+      "negative": [
+        "They keep pace with a runner.",
+        "The team keeps pace with a metronome.",
+        "The pace of invention changes."
+      ]
+    },
+    "1620": {
+      "positive": [
+        "Visitors seek products rooted in the place.",
+        "The crafts rooted in the place draw interest.",
+        "Antique pieces can feel rooted rather than generic."
+      ],
+      "negative": [
+        "Plant roots grow in the place.",
+        "Visitors seek generic products.",
+        "The products were rooted in a pot."
+      ]
+    }
+  },
+  "externalUsageEvidence": {
+    "4289": [
+      "https://www.unesco.org/en/articles/global-cooperation-ethical-ai-governance-reinforced-unescos-4th-global-forum-ethics-ai-saudi-arabia?hub=392",
+      "https://assets.publishing.service.gov.uk/media/5b1feba7e5274a19127178e8/CDEI_consultation__1_.pdf"
+    ],
+    "4456": [
+      "https://www.craftscouncil.org.uk/documents/877/Making_it_local_2014.pdf",
+      "https://www.craftscouncil.org.uk/directory/samantha-boot"
+    ]
+  },
+  "pending": "Independent AI exact-hash review. No source-decision or selected-lesson change."
+}

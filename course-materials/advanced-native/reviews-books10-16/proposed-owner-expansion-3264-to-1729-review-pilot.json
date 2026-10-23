@@ -1,0 +1,109 @@
+{
+  "reportType": "read-only-owner-expansion-proposal",
+  "status": "proposal-only-pending-independent-ai-owner-and-content-review",
+  "timestampUtc": "2026-10-23T23:32:04.647172+00:00",
+  "heldSourceOrdinal": 3264,
+  "heldSourceId": "book10-16-1153",
+  "sourceExpression": "learning is caught rather than taught",
+  "exactSourceSentence": "At home, much learning is caught rather than taught.",
+  "sourceMeaning": "Children absorb behaviour through observation; a catch metaphor.",
+  "proposedOwnerId": "advanced-native-1729",
+  "ownerTitlePreserved": "kindness is often caught before it is taught",
+  "ownerSourceSentence": "In families, kindness is often caught before it is taught.",
+  "ownerFile": "course-materials/advanced-native/batches/batch-1726-1750.json",
+  "ownerFileSha256": "e4c132ac50a4390489688327745035e61a70150a2cdaf22b2977117503872401",
+  "ownerLessonContentSha256": "43300cc15d702ab193c59a641bb496be30e8e8a610364b26823b1ed2f894d8ce",
+  "proposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1729-source-3264-proposed.json",
+  "proposalFileSha256": "73c86332fca8ba60f4578ec12ed975a7b0254a102e4e525c4405fcf75540d32e",
+  "proposedLessonContentSha256": "c5a9bb3146fbdb2ce8cf3d6c072127c99ce77ccf219a2be8f8ddae6dc36ec3a5",
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+  "decisionFileSha256Unchanged": "9d644a2724fe681d7354fa32d72dc35b3bb3b80105bde942235cc1b4441e3044",
+  "selectedManifestSha256Unchanged": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3",
+  "sameDecisionVerdict": "Conditionally yes: both sources describe acquisition of behaviour or habits from observed example before explicit teaching. Preserve the nuance that before it is taught is temporal, while rather than taught emphasizes observation over formal explanation. Neither makes an absolute claim that teaching is useless or that one observation guarantees mastery.",
+  "priorOwnerDistinction": "Canonical 1728 lead by example describes what the demonstrator does; 1729 describes what the observer learns. The source and 1729 belong to the observer-side decision.",
+  "externalUsageEvidence": [
+    {
+      "title": "International Baccalaureate Extended Essay teacher support",
+      "url": "https://ibpublishing.ibo.org/extendedessay/apps/dpapp/tsm.html?chapter=3&doc=d_0_eeyyy_gui_1602_1_e&part=3&section=1",
+      "relevance": "Uses caught rather than taught for learning reflection as a faculty, supporting the contrast outside kindness."
+    },
+    {
+      "title": "Royal Society of Chemistry Education, Teaching skills leads to success",
+      "url": "https://edu.rsc.org/feature/teaching-skills-leads-to-success/4017276.article",
+      "relevance": "Discusses the caught rather than taught assumption for skills and the continuing value of explicit instruction, supporting the lesson boundary."
+    }
+  ],
+  "proposedChangedFields": [
+    "contentRevision",
+    "target.pattern",
+    "sources (append exact book10-16-1153)",
+    "brief.meaningEn",
+    "brief.meaningZh",
+    "brief.grammar",
+    "brief.register",
+    "brief.boundaryZh",
+    "brief.misconceptionZh",
+    "brief.outcomeZh",
+    "brief.sourceClassificationNote",
+    "scene.promptZh",
+    "scene.options[0..2]",
+    "scene.explanationZh",
+    "takeaways[1]"
+  ],
+  "unchangedFields": [
+    "id",
+    "number",
+    "inventoryId",
+    "titleEn",
+    "titleZh",
+    "category",
+    "original source occurrence",
+    "listening",
+    "reply",
+    "contrast",
+    "dialogue",
+    "speaking and targetSpan",
+    "writing examples and all five glossary spans",
+    "takeaways[0]",
+    "all six assessment answer IDs",
+    "review metadata"
+  ],
+  "targetPattern": "\\b(?:kindness\\s+is\\s+often\\s+caught\\s+before\\s+it\\s+is\\s+taught|(?:much\\s+)?learning\\s+is\\s+caught\\s+rather\\s+than\\s+taught)\\b",
+  "detectorControls": {
+    "positiveCount": 3,
+    "negativeCount": 4,
+    "positives": [
+      "In families, kindness is often caught before it is taught.",
+      "At home, much learning is caught rather than taught.",
+      "Much learning is caught rather than taught when children repeat a practice they have seen."
+    ],
+    "negatives": [
+      "The child caught a cold before she was taught.",
+      "Much learning is taught rather than caught.",
+      "Learning is caught by a teacher.",
+      "She caught the ball rather than taught the game."
+    ],
+    "result": "7/7 live JavaScript gi checks pass"
+  },
+  "assessmentImpact": {
+    "scene": "Replaces the old kindness-specific insufficient-evidence scene with a non-kindness household sorting observation→imitation case. choice-1 remains correct; distractors reject no-learning and one-example-means-no-future-guidance overclaims.",
+    "allOtherQuestionKeys": "Unchanged, including listening, four-valid reply, contrast and dialogue; historic answer IDs stable.",
+    "writing": "Unchanged kindness-focused changed context; all five answer-derived glossary spans remain exact.",
+    "speaking": "Unchanged text, Chinese and targetSpan; audio synthesis key unchanged."
+  },
+  "mediaImpact": {
+    "listening": "unchanged text and synthesis key",
+    "speaking": "unchanged text and synthesis key",
+    "takeaway1": "unchanged text and synthesis key",
+    "takeaway2": "changed English and Chinese; new exact synthesis key and separate audio generation/listening QA required before any release"
+  },
+  "focusedBuildAndCheck": "1 lesson, 6 questions, 4 audio requests, 0 review flags; proposal-only build, not a release gate",
+  "nextGate": "Independent B or other peer review of same-sense ownership, target breadth, Chinese scene fairness and source provenance. If cleared, a separate authorized implementation can edit owner and source decision, rerun full alias/schema/media checks, and update SOP audit. Until then source3264 remains hold-editorial.",
+  "nonActions": [
+    "No selected canonical owner modification",
+    "No decision or manifest modification",
+    "No audio synthesis",
+    "No upload, commit, push or deploy"
+  ],
+  "approvalBoundary": "AI owner proposal is not human editorial or release approval."
+}

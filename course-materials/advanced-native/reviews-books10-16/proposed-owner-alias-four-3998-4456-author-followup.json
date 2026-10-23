@@ -1,0 +1,37 @@
+{
+  "reviewType": "scoped-author-repair-followup",
+  "status": "pending-independent-exact-hash-recheck",
+  "humanApproval": false,
+  "priorProposalSha256": "2515d0bb504b9f1a588a5813d78a2083145e4c0f5b7af5e0e209ecd256ba6090",
+  "finalProposalFile": "course-materials/advanced-native/reviews-books10-16/proposals/owner-alias-four-3998-4456-proposed.json",
+  "finalProposalSha256": "9a59c0fe670615e17200a183a2bafe5bbf17f2940549de7ada66553ab591460c",
+  "priorAuthorAuditSha256": "aa8f9d46f5fad7f10d10df941a80fc7e5d20fb0925795ef707b278ed1434db35",
+  "independentInitialReviewSha256": "be580821cdc006f428b032389cd873754acf22e6e2a13a215910d1b1556418ef",
+  "changedOwnerId": "advanced-native-590",
+  "changedField": "takeaways[1].en / takeaways[1].zh",
+  "priorOwnerObjectSha256": "8412cfb4dbfcbc0e9c119747d4f1705f28bfa64d27ed45952a98ffded4a81156",
+  "finalOwnerObjectSha256": "f8f926623e3a4c2e83ad256816f931bb101af09cc2626a199f3372d9b929cf72",
+  "unchangedOtherOwnerIds": [
+    "advanced-native-1706",
+    "advanced-native-1913",
+    "advanced-native-1620"
+  ],
+  "repair": "Both languages now explicitly say reviewers examine new uses and revise outdated rules before launch, while preserving the adequacy-testing caveat.",
+  "finalTakeaway2": {
+    "en": "Privacy guidance can keep pace with human invention when reviewers check new uses and revise outdated rules before launch; whether the revisions are adequate still needs testing.",
+    "zh": "審查者在推出前檢視新用途並修訂過時規則，私隱指引便可跟上技術發展；修訂是否足夠仍須測試。"
+  },
+  "targetPattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
+  "targetPatternMatchesFinalEnglish": true,
+  "focusedBuild": {
+    "lessons": 4,
+    "questions": 24,
+    "audioRequests": 16,
+    "reviewFlags": 0,
+    "checkPassed": true
+  },
+  "audioImpact": "Only advanced-native-590 takeaway-2 text changes relative to prior proposal; no audio generated.",
+  "selectedFilesEdited": false,
+  "sourceDecisionsEdited": false,
+  "manifestEdited": false
+}

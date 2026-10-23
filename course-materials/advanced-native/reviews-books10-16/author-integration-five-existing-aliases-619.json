@@ -1,0 +1,211 @@
+{
+  "reportType": "author-integration-five-reviewed-existing-aliases",
+  "status": "unpublished-selected-manifest-unchanged",
+  "humanApproval": false,
+  "publication": false,
+  "selectedManifestFile": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "selectedManifestSha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "proposalSha256": {
+    "3264to1729": "81ce10eb2295ccddf8dafb2381214d58e0376044b126abdca1188f0f7b0bc682",
+    "fourOwners": "9a59c0fe670615e17200a183a2bafe5bbf17f2940549de7ada66553ab591460c"
+  },
+  "independentReviewSha256": {
+    "independent-ai-review-proposed-owner-3264-to-1729-b-followup.json": "f0f0c49a03181f7459b8e73e29b9fcd13cb3da9cbf7ca8c1ffb86fbff231b971",
+    "independent-ai-review-proposed-owner-alias-four-3998-4456-b-followup.json": "692924a0a195f616e8945d528c661b359497625f4a6bb8531d1813312e34d8d7"
+  },
+  "counts": {
+    "sourceRows": 2604,
+    "selectedLessons": 619,
+    "selectedQuestions": 3714,
+    "selectedAudioRoles": 2476,
+    "existingAliases": 1164,
+    "newAliases": 181,
+    "holds": 640,
+    "schemaErrors": 0,
+    "existingAliasPatternExceptions": 0,
+    "newAliasPatternExceptions": 0,
+    "holdCoverageErrors": 0,
+    "focusedOwnerLessons": 5,
+    "focusedOwnerQuestions": 30,
+    "focusedOwnerAudioRoles": 20,
+    "focusedBuildFlags": 0,
+    "liveJsDetectorChecksPassed": 38,
+    "changedAssessmentTextQuestions": 3,
+    "changedAudioRoles": 3
+  },
+  "sourceRows": [
+    {
+      "sourceOrdinal": 3264,
+      "sourceId": "book10-16-1153",
+      "canonicalId": "advanced-native-1729",
+      "sourceSentence": "At home, much learning is caught rather than taught.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1726-1750.json",
+      "ownerBeforeSha256": "e4c132ac50a4390489688327745035e61a70150a2cdaf22b2977117503872401",
+      "ownerAfterSha256": "95472b588c7cbe056856681c7156c38c282b15e94ef928357d9dc3bbb7aeb9de",
+      "revisionBefore": 1,
+      "revisionAfter": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionBeforeSha256": "9d644a2724fe681d7354fa32d72dc35b3bb3b80105bde942235cc1b4441e3044",
+      "decisionAfterSha256": "c817e0b379d508d503a63e1c41a4c85b9ce57b1c2c187426fe0ea23cafa36aa6",
+      "fullSourceDetectorMatch": true,
+      "sourceOccurrenceExact": true,
+      "changedLessonFields": [
+        "brief",
+        "contentRevision",
+        "scene",
+        "sources",
+        "takeaways",
+        "target"
+      ]
+    },
+    {
+      "sourceOrdinal": 3998,
+      "sourceId": "book10-16-1887",
+      "canonicalId": "advanced-native-1706",
+      "sourceSentence": "Creativity changes its clothes as people grow older.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "ownerBeforeSha256": "7d4ef472c0833048d9401ab1eaced0efc747d28fe9487ff8de016f29d93067e3",
+      "ownerAfterSha256": "be64c87c9f9394ad39b20111f2c70ce8613a670d5418e980c4662767b2751b6f",
+      "revisionBefore": 2,
+      "revisionAfter": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "decisionBeforeSha256": "d96d56e2602378ee3cf21a2bf85171eea39bb97ca9b701ca7836201b0a0cdb5c",
+      "decisionAfterSha256": "20c6f2125ee3f9c243bb81bd2b1c6a6ed1aec8a780899918d2ae903e5e0dde5c",
+      "fullSourceDetectorMatch": true,
+      "sourceOccurrenceExact": true,
+      "changedLessonFields": [
+        "sources"
+      ]
+    },
+    {
+      "sourceOrdinal": 4234,
+      "sourceId": "book10-16-2123",
+      "canonicalId": "advanced-native-1913",
+      "sourceSentence": "A good mentor is a bit like a compass.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1901-1925.json",
+      "ownerBeforeSha256": "c530fbd717bbf49e862d80b2c5caacee6b7f69f8cddaba53c16a25bd171eb5db",
+      "ownerAfterSha256": "2c2785448554a725dcf005ce1d7866d26abd89005c1023cce371f3512122af0b",
+      "revisionBefore": 2,
+      "revisionAfter": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "decisionBeforeSha256": "dd86084e4bc7a4b67d4d274203c50a2bc35a60b79a5a150114ac5f685a62493a",
+      "decisionAfterSha256": "be79f40922c8d968bb87d686a2f4ef72afca3a8bc47a41f269e1877f598ebb29",
+      "fullSourceDetectorMatch": true,
+      "sourceOccurrenceExact": true,
+      "changedLessonFields": [
+        "sources"
+      ]
+    },
+    {
+      "sourceOrdinal": 4289,
+      "sourceId": "book10-16-2178",
+      "canonicalId": "advanced-native-590",
+      "sourceSentence": "Ethical rules must keep pace with human invention.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "ownerBeforeSha256": "8ededa7897d259c08721cf1b9720062b17c08cdf8eac971f6f5931c0f1e6b41f",
+      "ownerAfterSha256": "9b6da03c001fc0bf732bcd2b45a09e3ef877a2d02df218e92d6602ea1de9413f",
+      "revisionBefore": 1,
+      "revisionAfter": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "decisionBeforeSha256": "1522bae9d0d05c73a84c4ad1a843cd4ab819b609d058e21667a4fce3c130a1b9",
+      "decisionAfterSha256": "d4ae9a6867cf2a6f343089e1b5c007dc4288596787dd2045874f8024a51e2c25",
+      "fullSourceDetectorMatch": true,
+      "sourceOccurrenceExact": true,
+      "changedLessonFields": [
+        "brief",
+        "contentRevision",
+        "scene",
+        "sources",
+        "takeaways",
+        "target"
+      ]
+    },
+    {
+      "sourceOrdinal": 4456,
+      "sourceId": "book10-16-2345",
+      "canonicalId": "advanced-native-1620",
+      "sourceSentence": "Visitors seek products rooted in the place.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1601-1625.json",
+      "ownerBeforeSha256": "8c54eaba73315ec6e0301917d8da32b4e35589c9e5453fa8556fcfb0a11960b3",
+      "ownerAfterSha256": "cc6bf43d1280b69dd6b8a6f8be2203aaa8a5366c139163f54646cf0dc99b32f3",
+      "revisionBefore": 1,
+      "revisionAfter": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionBeforeSha256": "bea99a9bddd5ce5f05fcebd2f0b81e5cfa39e4552b95d04a296debdefe72f7b9",
+      "decisionAfterSha256": "bbccfbd136984523d970102b31c7b35fb4bfc8c8071a3bcc0ea961e5b639311e",
+      "fullSourceDetectorMatch": true,
+      "sourceOccurrenceExact": true,
+      "changedLessonFields": [
+        "brief",
+        "contentRevision",
+        "scene",
+        "sources",
+        "takeaways",
+        "target"
+      ]
+    }
+  ],
+  "changedAssessmentQuestionIds": [
+    "advanced-native-590-v1-scene",
+    "advanced-native-1620-v1-scene",
+    "advanced-native-1729-v1-scene"
+  ],
+  "audioDeltas": [
+    {
+      "canonicalId": "advanced-native-1620",
+      "role": "takeaway-2",
+      "retiredSynthesisKey": "e77400dcf9525888ab285a9ce6901a34660943743321dec971505e4916165e98",
+      "newSynthesisKey": "de12e7b918056bbd231f099845f3bfbf3237cbb9608b658ee35a34e6e10594de",
+      "oldText": "A local account can feel rooted rather than generic when its details belong to the place it describes.",
+      "newText": "Products rooted in the place carry a specific local practice or story; a printed place name alone does not establish that link."
+    },
+    {
+      "canonicalId": "advanced-native-1729",
+      "role": "takeaway-2",
+      "retiredSynthesisKey": "4de96b34bbd4e5e801628d1e97a19068b2c30c1400f7f2050faa3678eba0cad6",
+      "newSynthesisKey": "dde634b25fb80eaa798df410e2007ed70822758b78a6ea93a14fa1d0deb033db",
+      "oldText": "She recalled that kindness is often caught before it is taught, then described the patient welcome she had learned to repeat.",
+      "newText": "Much learning is caught rather than taught when children repeat a practice they have seen; later guidance can still help."
+    },
+    {
+      "canonicalId": "advanced-native-590",
+      "role": "takeaway-2",
+      "retiredSynthesisKey": "1bf19ea86fde97b5eda64f9fef96396265a96e7629af80a655f553fa9ee97287",
+      "newSynthesisKey": "19c51b6ae97fb562062d52608c98865ad27aec0edee27bf1c60f80112a469615",
+      "oldText": "We were processing more forms but still could not keep pace with demand, so we checked where the queue was growing.",
+      "newText": "Privacy guidance can keep pace with human invention when reviewers check new uses and revise outdated rules before launch; whether the revisions are adequate still needs testing."
+    }
+  ],
+  "originality": {
+    "selectedExactHits": 0,
+    "selectedHighHits": 0,
+    "selectedMediumHits": 0,
+    "selectedNearFullFuzzyHits": 6,
+    "selectedReviewNearFullFuzzyHits": 48,
+    "note": "Selected learner text is unchanged in this integration; these are the existing review queues, not release approvals."
+  },
+  "newOwnerCollisionScreen": {
+    "allDiscoveredProposedNew": 619,
+    "totalHeuristicCollisions": 30,
+    "collisionsWithFiveChangedOwners": 0,
+    "note": "Heuristic collisions are review leads; not all 30 were re-adjudicated in this scoped integration."
+  },
+  "checks": [
+    "verify-books10-16.mjs",
+    "audit-existing-alias-patterns.mjs --all-discovered",
+    "audit-new-alias-owners.mjs",
+    "audit-hold-coverage.mjs",
+    "audit-guide-originality.mjs",
+    "audit-new-owner-collisions.mjs --all-discovered",
+    "focused build.mjs and --check on five integrated owner objects",
+    "38 live JavaScript target controls and attached source sentences",
+    "git diff --check"
+  ],
+  "audioState": "Three changed takeaway-2 synthesis keys require regeneration and media review; no audio was generated in this task.",
+  "remainingGates": [
+    "Combined exact-current audio and browser QA",
+    "Human SOP/release approval",
+    "Publication"
+  ]
+}

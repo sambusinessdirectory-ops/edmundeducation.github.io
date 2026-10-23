@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-alias-four-3998-4456-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-1706",
+      "number": 1706,
+      "inventoryId": "expr-1706",
+      "contentRevision": 2,
+      "titleEn": "has simply changed clothes",
+      "titleZh": "本質仍在，只換了出現形式",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:(?:has|have|had) simply changed|(?:changes|changed) its) clothes\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p205-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 205,
+          "book": 8,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Online kindness has simply changed clothes.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "has simply changed clothes",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0920",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "43–46",
+          "locatorNote": "DOCX table 87, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Creativity changes its clothes as people grow older.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changes its clothes"
+        },
+        {
+          "occurrenceId": "book10-16-1642",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 154,
+          "book": 14,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "44–46",
+          "locatorNote": "DOCX table 164, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The habit changed its clothes when it moved online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changed its clothes"
+        },
+        {
+          "occurrenceId": "book10-16-1887",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 178,
+          "book": 15,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 192, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Creativity changes its clothes as people grow older.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changes its clothes",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Remain essentially the same while appearing in a different form.",
+        "meaningZh": "本質大致仍在，只以另一種形式出現。",
+        "grammar": "An abstract quality or habit has simply changed clothes or changes/changed its clothes: identify what persists and what outward form changes. The clothing is figurative.",
+        "register": "Creative, neutral figurative wording; a community organiser may describe how an old practice takes a new online form, or a teacher may describe creativity across life stages.",
+        "boundaryZh": "不是實際換衫，也不保證新舊形式對人人一樣好用；需有核心延續及具體改變，而非一律說任何新事都相同。",
+        "misconceptionZh": "不是實際換衫，也不保證新舊形式對人人一樣好用；需有核心延續及具體改變，而非一律說任何新事都相同。",
+        "outcomeZh": "理解「本質仍在，只換了出現形式」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The neighbourly help had simply changed clothes: where residents once left paper notes offering spare tools, they now posted the same offers in a shared message group and arranged collection directly.",
+        "zh": "鄰里互助只是換了形式：居民從前用紙便條借出多餘工具，現在在共用訊息群貼同樣提議，再直接約取。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "互助仍在，從紙便條轉為訊息群安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "工具借用已停止，訊息群只刊商業廣告。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "居民仍只用紙便條，沒有把借工具提議放進訊息群。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "新群組已證明每位居民都能同樣方便使用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "paper notes 轉 shared message group，但 same offers 保留互助；不是已改成商業廣告、仍只用紙或人人體驗已量度。"
+      },
+      "reply": {
+        "promptEn": "What changed about the neighbours’ offers of help?",
+        "promptZh": "鄰居幫忙提議有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The help had simply changed clothes, moving from paper notes to shared messages.",
+            "zh": "幫忙只是換了形式，由紙便條轉到共用訊息。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The way people announced the spare tools changed, while the offers continued.",
+            "zh": "公布多餘工具的方法改了，但提議繼續。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They used a message group for an exchange they had once arranged on paper.",
+            "zh": "他們用訊息群安排從前用紙處理的交換。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The same neighbourly purpose appeared through a different channel.",
+            "zh": "同一鄰里目的經不同渠道出現。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學校原在午間小舞台分享學生故事，後來改學生自己錄短聲音、讓同學回覆；老師想說互相聆聽的目的仍在，不是實際服裝。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The sharing has simply changed clothes, with the same wish to hear one another.",
+            "zh": "分享只是換了形式，仍有互相聆聽的意願。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The change means students no longer exchange any stories with one another.",
+            "zh": "改動表示學生不再互相交流任何故事。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The new recordings establish that every student prefers audio to the old stage.",
+            "zh": "新錄音確立每位學生都較喜歡聲音而非舊舞台。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "舞台轉錄音但交流目的延續，不確立停止或每人偏好。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由此處 has simply changed clothes 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "抽象行動或特質換了表現形式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新形式已證對每一位參與者都比以前方便。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需指出舊新形式間哪項核心仍在。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "形式改變不確立所有人使用體驗或價值相同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「沒再見紙便條，就代表鄰里不互助了吧？」你見群組仍有借工具提議。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The help has simply changed clothes; the shared messages continue the offers once made on paper.",
+            "zh": "互助只是換了形式；共用訊息延續從前紙上的提議。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Count only the paper notes when deciding whether anyone still offers tools.",
+            "zh": "判還有沒有人借工具時，只計紙便條。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the new channel as proof that no resident needs the old way of receiving information.",
+            "zh": "把新渠道當沒有居民再需要舊資訊方法的證明。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需看新形式實際行動，不能只計舊載體，也不推人人不需舊法。"
+      },
+      "speaking": {
+        "en": "The support has simply changed clothes, but we should still ask who can use the new form and who might need another way.",
+        "zh": "支持只是換了形式，但仍應問誰可用新形式、誰可能需另一方法。",
+        "targetSpan": {
+          "start": 12,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再分清核心延續與使用條件。"
+      },
+      "writing": {
+        "promptZh": "新情境：親戚擔心孫兒這年沒送花，就不再重視祖父生日；你知道他先問祖父想做甚麼，再安排一起砌舊模型、留下整個下午陪伴。你想回覆關心只是換形式，提議也先問祖父感受，不宣稱新舊禮物人人都一樣喜歡。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The care has simply changed clothes: instead of a bouquet, he asked Grandad what he wanted and spent the afternoon building a model with him. Could we hear how Grandad felt before judging the gift?",
+            "zh": "關心只是換形式：他沒送花，先問祖父想做甚麼，再花下午一起砌模型。判這禮物前，可否先聽祖父感受？"
+          },
+          {
+            "en": "His birthday thoughtfulness has simply changed clothes, from flowers to time spent on a shared interest. I would ask Grandad about the afternoon rather than assume the missing bouquet means less care.",
+            "zh": "他生日的體貼只是換形式，由鮮花到為共同興趣花時間。我會問祖父下午怎樣，而非假定沒花就少關心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a bouquet",
+            "zh": "一束花",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 57
+            }
+          },
+          {
+            "en": "what he wanted",
+            "zh": "他想要甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          },
+          {
+            "en": "building a model",
+            "zh": "砌模型",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          {
+            "en": "a shared interest",
+            "zh": "共同興趣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 103
+            }
+          },
+          {
+            "en": "the missing bouquet",
+            "zh": "沒有出現的花束",
+            "exampleIndex": 1,
+            "span": {
+              "start": 164,
+              "end": 183
+            }
+          }
+        ],
+        "selfCheckZh": "用已問意願及共同模型活動說關心延續，邀聽收禮者感受，不只憑舊形式缺席判無心，也不宣稱新法人人較愛。"
+      },
+      "takeaways": [
+        {
+          "en": "The custom has simply changed clothes, appearing in a short recording instead of a handwritten card.",
+          "zh": "習俗只是換了形式，以短錄音而非手寫卡出現。"
+        },
+        {
+          "en": "The reading habit changed its clothes when the shared paper diary became a weekly voice note.",
+          "zh": "共同閱讀由紙本日記轉成每週語音留言時，這個習慣只是換了形式。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1913",
+      "number": 1913,
+      "inventoryId": "expr-1913",
+      "contentRevision": 2,
+      "titleEn": "act like a compass",
+      "titleZh": "像指南針般提供方向",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:act(?:s|ed|ing)? like|(?:is|are|was|were) a bit like) a compass\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p237-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 237,
+          "book": 9,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A patient mentor can act like a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "act like a compass",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-1239",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 115,
+          "book": 12,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 119, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good mentor is a bit like a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bit like a compass"
+        },
+        {
+          "occurrenceId": "book10-16-2123",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 200,
+          "book": 16,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good mentor is a bit like a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bit like a compass",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Provide orientation or guidance that helps someone consider a direction without making every decision for them.",
+        "meaningZh": "提供方向感或引導，幫人考慮去向，而不是代作每個決定。",
+        "grammar": "A mentor can act like a compass or be a bit like a compass; both compare guidance to orientation. Name the questions or principles that guide the person rather than imply the mentor chooses for them.",
+        "register": "Neutral simile. A student may describe a mentor to classmates, or a volunteer may explain how a guiding principle helps a team choose a direction.",
+        "boundaryZh": "方向指引不等於命令、保證成功或唯一正確路線；要看當事人仍如何比較與決定。",
+        "misconceptionZh": "方向指引不等於命令、保證成功或唯一正確路線；要看當事人仍如何比較與決定。",
+        "outcomeZh": "理解「像指南針般提供方向」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A productive navigation simile for a guiding person or principle, related to compass metaphors without claiming a new underlying dictionary sense."
+      },
+      "listening": {
+        "en": "My mentor acted like a compass by asking which part of the project mattered most to me; she helped me compare the routes, but left the final choice for me to explain.",
+        "zh": "導師問項目哪部分對我最重要，像指南針般引導；她幫我比較路線，但留下最後選擇由我解釋。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "導師用提問幫助定向，而不代作最後選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "導師已替說話者作所有選擇，只要求照做。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩人主要按導師個人偏好排名，沒有談說話者目標。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者已完成項目，導師現在只負責排名。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "asking/compare/left choice 描寫引導及自主，不是命令或完成後排名。"
+      },
+      "reply": {
+        "promptEn": "How did the mentor help with your decision?",
+        "promptZh": "導師怎樣幫你作決定？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She acted like a compass by helping me identify what mattered before comparing routes.",
+            "zh": "她幫我辨認重視甚麼再比較路線，像指南針般引導。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Her questions gave me a clearer basis for choosing, without choosing for me.",
+            "zh": "她的問題給我較清楚的選擇依據，沒有代選。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She helped me examine the direction against my own priorities.",
+            "zh": "她幫我按自己的優先事項檢視方向。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I still had to explain my final choice, but did not have to consider it without guidance.",
+            "zh": "我仍需解釋最後選擇，但不用在沒有引導下考慮。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "顧問只交代自己會選哪個方案，未問人物目標，還要求不准比較。有人把這全稱為保留自主的方向引導。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To act like a compass in the intended sense, the guidance should help the person orient a choice, not replace it with an unquestioned command.",
+            "zh": "要符合這裏像指南針般引導的意思，指引應幫人定向選擇，不是以不能質疑的命令取代。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says the adviser asked about priorities and left the decision open.",
+            "zh": "敘述說顧問已問優先事項，並留下開放決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The adviser’s confidence in a preferred answer is enough to show how that choice fits the person’s own priorities.",
+            "zh": "顧問對偏好答案有信心，就足以顯示那選擇符合當事人自己的優先事項。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看有沒有按當事人目標引導；顧問自身的信心或偏好，不能代替本人選擇的理由。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 act like a compass 的引導圖像得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "幫助別人找到考慮方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "引導者已保證這條路一定成功。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "當事人仍可自己比較並說明選擇。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "方向感不等於結果保證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說有導師就不必再解釋自己的選擇；你想保留方向指引和責任。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can act like a compass, but I still need to consider the routes and explain why one fits my priorities.",
+            "zh": "她可像指南針般引導，但我仍需考慮路線，解釋何以符合自己的優先事項。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought having guidance meant the mentor’s own preference was already my reason.",
+            "zh": "我原以為，有指引就表示導師的偏好已是我的理由。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would ask only which option she prefers, not how to compare them against my aims.",
+            "zh": "我只會問她偏好哪項，不問怎樣按我的目標比較。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可借助方向，但決定的理由仍要自己理解。"
+      },
+      "speaking": {
+        "en": "A shared principle can act like a compass when the details change, helping us ask which choice still serves the purpose.",
+        "zh": "細節改變時，共同原則可像指南針，幫我們問哪個選擇仍符合目的。",
+        "targetSpan": {
+          "start": 23,
+          "end": 41
+        },
+        "promptZh": "先聽示範，再交代原則如何引導具體選擇。"
+      },
+      "writing": {
+        "promptZh": "新情境：學會原定戶外展覽因場地改動，需要在小型室內展示和延後大展之間選擇。你想請組員回到「讓新會員有機會解說作品」的共同目的，比較兩方案實際可否做到，而不是只問創辦人喜歡哪個。用一至兩句英文提出討論方法。",
+        "examples": [
+          {
+            "en": "Our aim of giving new members a chance to explain their work can act like a compass here. Could we compare what each option lets them do, rather than decide only by the founder’s preference?",
+            "zh": "讓新會員有機會解說作品的目標，在這裏可像指南針。我們可否比較各方案讓他們做到甚麼，而不是只按創辦人偏好決定？"
+          },
+          {
+            "en": "Let that shared purpose act like a compass while we choose between the indoor display and a later event. I suggest checking the speaking opportunities in each before we settle on the format.",
+            "zh": "在室內展示與較後活動之間選擇時，讓共同目的像指南針般引導。我建議先檢查各方案的解說機會，再定形式。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new members",
+            "zh": "新會員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 29
+            }
+          },
+          {
+            "en": "explain their work",
+            "zh": "解說作品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 60
+            }
+          },
+          {
+            "en": "the founder’s preference",
+            "zh": "創辦人的偏好",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 189
+            }
+          },
+          {
+            "en": "the indoor display",
+            "zh": "室內展示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "the speaking opportunities",
+            "zh": "發言機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 150
+            }
+          }
+        ],
+        "selfCheckZh": "用已知目的設計具體比較，讓共同原則提供方向而不代替分析；不以某人的地位或偏好當自動答案。"
+      },
+      "takeaways": [
+        {
+          "en": "The question of who benefits acted like a compass when the volunteers compared two very different plans.",
+          "zh": "義工比較兩個很不同的計劃時，「誰受益」這個問題像指南針般引導。"
+        },
+        {
+          "en": "A mentor is a bit like a compass when she asks which route matches your aims but leaves the choice to you.",
+          "zh": "導師問你哪條路符合自己的目標，卻讓你自行選擇，這時她就有點像指南針。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review completed: all bilingual learner fields, keys, four valid replies, original audio-role examples and answer-derived glossary spans reread. Independent editorial, human, audio, browser and release approvals remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-590",
+      "number": 590,
+      "inventoryId": "expr-0590",
+      "titleEn": "keep pace with demand",
+      "titleZh": "跟得上需求的增長",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
+        "glossaryForbidden": [
+          "\\bpace\\s+with\\s+demand\\b",
+          "\\bpace\\s+with\\s+human\\s+invention\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Match the rate of a relevant change: a service may meet rising demand, while rules may be updated as new inventions create new uses and risks.",
+        "meaningZh": "跟上相關變化的速度：服務可配合增長的需求；規則亦可隨新發明帶來的用途與風險更新。",
+        "grammar": "Keep/keeps/kept/keeping pace with demand or human invention. State what is changing and what provision or guidance must adapt; matching the timetable alone does not prove adequacy.",
+        "register": "Conventional pace-as-matching-rate metaphor in service and policy discussion. A coordinator may compare requests with capacity; an ethics reviewer may compare technology releases with rule updates.",
+        "boundaryZh": "供應增加須與需求比較；規則在新用途推出前更新，也不證明所有倫理或私隱風險已消除。",
+        "misconceptionZh": "不要把「做得更多」直接當成跟得上需求，也不要把「更新得及時」當成規則必然足夠。",
+        "outcomeZh": "能辨認被比較的變化速度，分別判斷服務能否配合需求，或規則能否隨技術新用途及時調整。"
+      },
+      "sources": [
+        {
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 40,
+          "expression": "keep pace with demand",
+          "sentence": "The clinic could not keep pace with demand.",
+          "referenceSentenceKind": "guide_original_example",
+          "book": 3,
+          "question": 4,
+          "sample": "S1",
+          "locatorNote": "PDF page 40, table 1, row 4; source book/question/sample not stated where null.",
+          "occurrenceId": "pdf-2-p040-t1-r04"
+        },
+        {
+          "occurrenceId": "book10-16-2178",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 205,
+          "book": 16,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "18–19",
+          "locatorNote": "DOCX table 223, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Ethical rules must keep pace with human invention.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep pace with human invention",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "listening": {
+        "en": "The costume team repaired more each week but could not keep pace with demand after two productions joined. New requests outpaced finished repairs, so the coordinator asked directors to prioritise essential changes.",
+        "zh": "服裝組每周修更多件，但多兩個製作加入後仍跟不上需求；請求比完成修補來得快，統籌請導演先排必要改動。",
+        "promptZh": "為甚麼修更多仍不夠？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Requests were growing faster than completed repairs, despite increased output.",
+            "zh": "請求比完成修補增得更快，即使產量已升。"
+          },
+          {
+            "id": "b",
+            "en": "The team stopped all repairs when the extra productions joined.",
+            "zh": "額外製作加入時，小組停全部修補。"
+          },
+          {
+            "id": "c",
+            "en": "Every request had already been completed before the directors discussed priorities.",
+            "zh": "導演談優先次序前，每項請求已完成。"
+          },
+          {
+            "id": "d",
+            "en": "The coordinator wanted directors to order new costumes instead of comparing repair needs.",
+            "zh": "統籌要導演訂新服裝，不比較修補需求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "要比請求與完成，不只看修多；優先必要改動是所述回應。"
+      },
+      "reply": {
+        "promptZh": "為甚麼每周修更多後，仍要排優先次序？",
+        "promptEn": "Why are priorities still needed after increasing weekly repairs?",
+        "options": [
+          {
+            "id": "a",
+            "en": "We cannot keep pace with demand because new requests are arriving faster than repairs are finished.",
+            "zh": "新請求比修好來得快，所以我們仍跟不上需求。"
+          },
+          {
+            "id": "b",
+            "en": "The extra productions increased the workload beyond the rise in completed repairs.",
+            "zh": "額外製作增加的工作量，超過修補完成量的增長。"
+          },
+          {
+            "id": "c",
+            "en": "More output is not enough when the incoming requests are growing even faster.",
+            "zh": "若新請求增得更快，產量增加仍不夠。"
+          },
+          {
+            "id": "d",
+            "en": "We need to decide which changes matter first while the repair queue is growing.",
+            "zh": "修補隊伍漸長時，我們需決定先改甚麼。"
+          }
+        ],
+        "explanationZh": "四句都用供需差或漸長輪候答排優先的原因。",
+        "goldenId": "a"
+      },
+      "scene": {
+        "promptZh": "學校的圖像辨識工具每月增加新用途；審查小組在每項新用途推出前檢視資料風險並修訂相關規則，但仍要測試修訂是否足夠。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The review rules are keeping pace with human invention by being revised before each new use, though their adequacy still needs testing.",
+            "zh": "審查規則在每項新用途推出前修訂，正跟上技術發展；但仍須測試修訂是否足夠。"
+          },
+          {
+            "id": "b",
+            "en": "Because the rules were updated before launch, every privacy risk has already been eliminated.",
+            "zh": "規則在推出前更新，便代表所有私隱風險已消除。"
+          },
+          {
+            "id": "c",
+            "en": "The old unchanged rules already cover each new use, so checking the new data risks adds nothing.",
+            "zh": "舊規則毋須更改便涵蓋每項新用途，因此檢查新的資料風險毫無作用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每項新用途推出前有檢視及修訂，支持規則及時跟上；但修訂的充分程度仍須另外測試。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以單獨證明 keep pace with demand？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Completed work increases, but the rate of incoming requests has not been checked.",
+            "zh": "完成量增加，但未查新請求的速度。"
+          },
+          {
+            "id": "b",
+            "en": "Provision matches new requests over the period, with existing waiting work stable or falling.",
+            "zh": "期間供應配合新請求，舊輪候持平或減少。"
+          },
+          {
+            "id": "c",
+            "en": "The comparison considers both the needed volume and available provision.",
+            "zh": "比較同時考慮需求量及可用供應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只知完成量上升未有需求比較，不能單憑此判已跟上。"
+      },
+      "dialogue": {
+        "promptZh": "同伴想用「修多三件」宣布已跟上，但新製作加入後請求增加多少還未比較。哪個回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Compare incoming requests with finished repairs before claiming we can keep pace with demand.",
+            "zh": "先比新請求與修好數，再稱跟得上需求。"
+          },
+          {
+            "id": "b",
+            "en": "Use the higher repair total alone and leave the new productions out of the comparison.",
+            "zh": "只用較高修補總數，不把新製作放進比較。"
+          },
+          {
+            "id": "c",
+            "en": "Ask for every optional change first while postponing the discussion of essential repairs.",
+            "zh": "延後談必要修補，先要每項非必要改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "需要供需同看，並非單看多做或先加非必要需求。"
+      },
+      "speaking": {
+        "en": "The service is doing more, but we need to compare new requests before saying it can keep pace with demand.",
+        "zh": "服務做得更多，但說跟得上需求前，需比較新請求。",
+        "promptZh": "先聽，再用供需比較而非單看速度。",
+        "targetSpan": {
+          "start": 84,
+          "end": 105
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你與朋友主持短篇互評，每人每周只能仔細讀兩篇，邀稿後來了十二篇，但兩位主持合共只能讀四篇。你想寫公開回覆，說這輪未能跟上，提分批並先問作者願否等下輪，不假裝加快看便可保持仔細回饋。用一至兩句英文表達。",
+        "selfCheckZh": "比較十二請求與每周四篇仔細閱讀，說分批及讓作者選等，不以空泛加快保證全部即時且仔細。",
+        "examples": [
+          {
+            "en": "Our careful feedback cannot keep pace with demand this round: twelve stories have arrived, and we can read four properly each week. Could we arrange batches and ask which writers are willing to wait for the next round?",
+            "zh": "本輪仔細回饋跟不上需求：來了十二篇，我們每周可仔細讀四篇；可否分批，問哪些作者願等下輪？"
+          },
+          {
+            "en": "We cannot keep pace with demand by promising immediate comments on every story. Let us offer a clear place in a later batch rather than rush the reading without the writer’s agreement.",
+            "zh": "承諾每篇即時評語，不能讓我們跟上需求；與其未得作者同意便趕讀，不如清楚提供較後批次名額。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twelve stories have arrived",
+            "zh": "已收到十二篇故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 89
+            }
+          },
+          {
+            "en": "read four properly",
+            "zh": "仔細讀四篇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 120
+            }
+          },
+          {
+            "en": "arrange batches",
+            "zh": "安排分批",
+            "exampleIndex": 0,
+            "span": {
+              "start": 141,
+              "end": 156
+            }
+          },
+          {
+            "en": "wait for the next round",
+            "zh": "等候下輪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 217
+            }
+          },
+          {
+            "en": "the writer’s agreement",
+            "zh": "作者同意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 183
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The lending desk kept pace with demand after the team added a second collection session each week.",
+          "zh": "團隊每周多加一段取件時段後，借物櫃枱跟上了需求。"
+        },
+        {
+          "en": "Privacy guidance can keep pace with human invention when reviewers check new uses and revise outdated rules before launch; whether the revisions are adequate still needs testing.",
+          "zh": "審查者在推出前檢視新用途並修訂過時規則，私隱指引便可跟上技術發展；修訂是否足夠仍須測試。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+        },
+        "chinese": {
+          "status": "passed",
+          "reviewer": "AI author self-review",
+          "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": []
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-1620",
+      "number": 1620,
+      "inventoryId": "expr-1620",
+      "contentRevision": 2,
+      "titleEn": "feel rooted rather than generic",
+      "titleZh": "有在地連結而非千篇一律",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:feel\\s+rooted\\s+rather\\s+than\\s+generic|(?:products?|crafts?|designs?)\\s+rooted\\s+in\\s+the\\s+place)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p190-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 190,
+          "book": 7,
+          "question": 17,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Antique pieces can feel rooted rather than generic.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "feel rooted rather than generic",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-2345",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 221,
+          "book": 16,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 244, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors seek products rooted in the place.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "rooted in the place",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Seem connected to a particular place, history or identity rather than interchangeable. A product rooted in the place draws on a specific local practice or story; the adjective does not itself prove provenance.",
+        "meaningZh": "與特定地方、歷史或身份有連結，而非可隨處互換。扎根當地的產品可承載具體在地技法或故事，但形容詞本身不能證明來源。",
+        "grammar": "Predicative: a room, design or account can feel rooted rather than generic. Attributive: products/crafts/designs rooted in the place. In either form, identify the specific local practice, material or history; do not infer an item’s age from its appearance.",
+        "register": "Reflective figurative wording in design, tourism and local-craft discussion. A visitor may compare souvenirs; a designer may explain what links an interior to its neighbourhood.",
+        "boundaryZh": "有地方連結可由具體技法、材料或故事支持；印有地名或看來古舊本身不證明產地、年代或工藝來源。",
+        "misconceptionZh": "不要把 rooted 當成植物真的生根，也不要把地方感當成未經查核的來源證明。",
+        "outcomeZh": "能分辨「感到有在地連結」與「扎根當地的產品」兩種語法，並用具體地方證據支持評價而不誇大來源。"
+      },
+      "listening": {
+        "en": "The room’s repaired local pieces and the stories beside them help it feel rooted rather than generic, linking its design to the neighbourhood’s past.",
+        "zh": "房內修好的本地物件及旁邊故事，把設計連到社區過往，讓它有在地連結，而非千篇一律。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "具體本地物件及故事讓設計與地方過往相連。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "物件外觀已確認來源年代，不需再看敘述或紀錄。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "房間刻意移除地方背景，讓它與任何地方都沒有分別。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "設計的唯一價值是同一套可在任何地方複製的展示效果。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "local pieces、stories、neighbourhood past 指具體連結，不只是外觀舊或可四處套用。"
+      },
+      "reply": {
+        "promptEn": "Why does that room feel connected to the neighbourhood rather than anonymous?",
+        "promptZh": "那房間為甚麼讓人覺得與社區相連，而非沒有個性？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Its local pieces and stories help it feel rooted rather than generic.",
+            "zh": "本地物件及故事讓它有在地連結，而非千篇一律。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The design includes specific memories of the area.",
+            "zh": "設計包括地區的具體記憶。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It gives visitors reasons to connect the objects with the place.",
+            "zh": "它讓訪客有理由把物件與地方連起來。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The details could not simply be copied into any town without losing meaning.",
+            "zh": "細節不能隨便搬到任何小鎮而仍保留相同意義。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "旅客比較兩個木杯。甲由本地工匠依有紀錄的舊碼頭木工技法製作；乙是大量生產，只印上鎮名，沒有本地製作資料。哪句最有根據？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Visitors can choose the product rooted in the place: the cup made by a local craftsperson using a documented local technique.",
+            "zh": "旅客可選那件扎根當地的產品：由本地工匠採用有紀錄的在地技法製成的木杯。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The printed town name alone proves the mass-produced cup was made by a local craftsperson.",
+            "zh": "單憑印上的鎮名，就證明大量生產的木杯由本地工匠製作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The locally made cup must be an antique because the craft technique has a documented local history.",
+            "zh": "本地製作的木杯採用有紀錄的舊技法，因此它本身必然是古物。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "甲有本地工匠及技法的具體資料；乙只有地名印字。舊技法也不能證明新製木杯本身是古物。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 feel rooted rather than generic 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有特定地方或歷史連結的感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "帶有地方故事的外觀，就等於年代及來源已核實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需查核物件年代及故事來源。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "感受與可核實來源不同，有根連結不是史料證明。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這裝飾看起來有年代，就可說每件都是真古物吧？」哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may feel rooted rather than generic, but we should check the provenance before making claims about age.",
+            "zh": "它可能有歷史連結感，而非千篇一律，但聲稱年代前應核對來源。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the old-fashioned look as the only evidence needed for the object’s age.",
+            "zh": "只用古舊外觀作為物件年代的所需證據。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Leave the story labels unchecked because an attractive room makes their accuracy less important.",
+            "zh": "不用核對故事標示，因為房間吸引讓準確度不太重要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "外觀感受不能代替來源核對，地方故事仍需準確說明。"
+      },
+      "speaking": {
+        "en": "The introduction should feel rooted rather than generic by naming the people and experiences that shaped this place.",
+        "zh": "介紹應透過說明塑造這地方的人及經驗，帶出在地連結，而非千篇一律。",
+        "targetSpan": {
+          "start": 24,
+          "end": 55
+        },
+        "promptZh": "先聽示範，再用具體連結支持評價。"
+      },
+      "writing": {
+        "promptZh": "新情境：你寫學生交流計劃的個人申請，初稿只有「我積極、喜歡合作」等任何人都能用的自評。你曾幫新同學整理找課室的路線，也從他們的問題學會聆聽。你想用這段自己的經驗支持申請，請同伴幫你看是否寫得具體。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I want my application to feel rooted rather than generic, so I will explain how helping new pupils find their classrooms taught me to listen.",
+            "zh": "我想申請內容有自身經驗根基，而非千篇一律，所以會解釋幫新同學找課室怎樣讓我學會聆聽。"
+          },
+          {
+            "en": "To help this account feel rooted rather than generic, I will describe the route guide I made and the questions that changed it. Could you check whether the example supports my point?",
+            "zh": "要讓這段敘述有自身經驗根基而非千篇一律，我會描述自己製作的路線指引及促使我修改它的問題。你可幫我看例子是否支持重點嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "my application",
+            "zh": "我的申請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 21
+            }
+          },
+          {
+            "en": "new pupils",
+            "zh": "新同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 98
+            }
+          },
+          {
+            "en": "find their classrooms",
+            "zh": "找他們的課室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 120
+            }
+          },
+          {
+            "en": "the route guide I made",
+            "zh": "我製作的路線指引",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 92
+            }
+          },
+          {
+            "en": "supports my point",
+            "zh": "支持我的重點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 164,
+              "end": 181
+            }
+          }
+        ],
+        "selfCheckZh": "用自己整理路線及聆聽問題的經驗支持申請，讓敘述有具體根基，不只列任何人都能用的自評。"
+      },
+      "takeaways": [
+        {
+          "en": "Specific family stories can help a shared room feel rooted rather than generic.",
+          "zh": "具體家庭故事可讓共用房間有連結感，而非千篇一律。"
+        },
+        {
+          "en": "Products rooted in the place carry a specific local practice or story; a printed place name alone does not establish that link.",
+          "zh": "扎根當地的產品承載具體在地技法或故事；單印地名不足以證明這種連結。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}

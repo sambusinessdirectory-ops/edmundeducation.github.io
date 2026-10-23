@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "batchId": "proposal-owner-1729-source-3264-unselected",
+  "lessons": [
+    {
+      "id": "advanced-native-1729",
+      "number": 1729,
+      "inventoryId": "expr-1729",
+      "contentRevision": 2,
+      "titleEn": "kindness is often caught before it is taught",
+      "titleZh": "善意往往先從觀察中學會",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:kindness\\s+is\\s+often\\s+caught\\s+before\\s+it\\s+is\\s+taught|(?:much\\s+)?learning\\s+is\\s+caught\\s+rather\\s+than\\s+taught)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p209-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 209,
+          "book": 8,
+          "question": 6,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "In families, kindness is often caught before it is taught.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "kindness is often caught before it is taught",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-1153",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 107,
+          "book": 12,
+          "question": 41,
+          "sample": "S2",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 111, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At home, much learning is caught rather than taught.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "learning is caught rather than taught",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Caring behaviour and other household habits can be learned by watching and imitating others before, or without, an explicit explanation; kindness is one example.",
+        "meaningZh": "善意及其他日常習慣可先透過觀察與模仿學到，未必先靠明確講解；善意是其中一例。",
+        "grammar": "Two bounded forms: kindness is often caught before it is taught; (much) learning is caught rather than taught. Caught means absorbed through example, not literally seized or infected. Often and much qualify the claim; neither form says instruction is useless.",
+        "register": "Reflective figurative phrasing in family or education discussions. A parent may describe a child’s copied household routine; a teacher may explain observed kindness to another adult.",
+        "boundaryZh": "須有先看到行動、後來嘗試模仿的具體線索；一次模仿不保證已掌握所有細節，也不表示其後的解釋或教導無用。",
+        "misconceptionZh": "caught 不是字面「抓住」；不要把「從觀察中學到」說成所有知識都不需教，或只要看過一次就必然學會。",
+        "outcomeZh": "能把善意與其他日常行為的觀察式學習連起來，判斷何時可用 caught/taught 對比，並保留後續教導仍有用的界線。",
+        "sourceClassificationNote": "The existing kindness source and new general-learning source share the same observation-before-explicit-instruction decision. This is a figurative contrast, not a universal scientific law. Related 1728 lead by example describes the demonstrator; this lesson describes learning through observation."
+      },
+      "listening": {
+        "en": "The child watched her uncle wait patiently while a new neighbour found the words, and later gave another visitor the same time; kindness is often caught before it is taught, as that small imitation suggested.",
+        "zh": "孩子看叔叔耐心等新鄰居找說話用詞，後來也給另一訪客同樣時間；那小模仿顯示，善意往往先從觀察中學會，才獲教導。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "孩子先見耐心行為，後來嘗試相似關懷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "孩子只在聽完正式規則課後才首次看見那行為。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "叔叔每次打斷訪客，孩子照樣學打斷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "孩子只記得叔叔說過耐心的定義，沒有在待人時嘗試。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "watched→later gave same time 是先見行動再模仿，不只聽定義，也不是正式課先行。"
+      },
+      "reply": {
+        "promptEn": "What suggested the child had learned from watching her uncle?",
+        "promptZh": "甚麼顯示孩子從看叔叔中學到？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Kindness is often caught before it is taught; she later gave another visitor time to speak.",
+            "zh": "善意往往先從觀察中學會；她後來也給另一訪客時間說。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She repeated the patience she had seen rather than interrupting the visitor.",
+            "zh": "她重複所見耐心，而非打斷訪客。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Her later response resembled the uncle’s small act of care.",
+            "zh": "她後來回應像叔叔的小關懷。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The account links an observed example with her own attempt.",
+            "zh": "敘述把看見的榜樣與她自己的嘗試連起。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "孩子在家看家人把用過的盒子沖洗後分類，沒有人先向孩子講解步驟；翌日孩子自己照樣沖洗和分類。你要描述這次觀察與模仿，但不聲稱孩子已掌握所有回收規則。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Much learning is caught rather than taught here: the child copied the sorting routine after watching an adult do it.",
+            "zh": "這次很多做法是從觀察中學會，而非先靠講解：孩子看過大人做，便照樣分類。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Watching the routine tells us nothing about learning, even though the child repeated it the next day.",
+            "zh": "雖然孩子翌日照樣做，但看過分類過程完全不能說明孩子學到甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The child’s one successful imitation proves that no other recycling rule will ever need explaining.",
+            "zh": "孩子成功模仿一次，便證明以後任何回收規則都不需人指導。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先看示範、後來自己照樣做，支持觀察式學習；但一次模仿不證明孩子已掌握所有規則，也不排除日後講解有用。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 kindness is often caught before it is taught 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "觀察榜樣可先於明確教導影響關懷行為。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "看到一次榜樣，就可跳過後來討論怎在不同情況實行。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需有具體看到及嘗試的線索，不能只用口號。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "often 不省掉後來解釋及實行，初次看到也未必足以轉用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「孩子沒聽道德課，所以那耐心不算學到吧？」你見她模仿叔叔做法。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Kindness is often caught before it is taught; the observed example can matter even before a formal lesson.",
+            "zh": "善意往往先從觀察中學會；正式課前，看到榜樣也可重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Ignore the imitation unless the child can first recite a rule about patience.",
+            "zh": "除非孩子先背出耐心規則，否則不計模仿。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ask her to repeat a definition before discussing the way she actually welcomed the visitor.",
+            "zh": "先叫她背定義，未先談她實際怎歡迎訪客。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可從具體模仿看學習，不需只有背規則才算，也不省掉實際榜樣。"
+      },
+      "speaking": {
+        "en": "Kindness is often caught before it is taught, but a small example can still need discussion and practice afterwards.",
+        "zh": "善意往往先從觀察中學會，但小榜樣之後仍可需討論及練習。",
+        "targetSpan": {
+          "start": 0,
+          "end": 44
+        },
+        "promptZh": "先聽示範，再保留 often 及仍可教導的範圍。"
+      },
+      "writing": {
+        "promptZh": "新情境：你寫謝卡給家人，回想他每次發現有人做錯都先聽，不急着取笑；你如今合作時也嘗試這樣問。你想感謝生活中的榜樣，不說自己已因此永不犯錯，也不只列道德口號。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Kindness is often caught before it is taught, and I learned from the way you listened when someone made a mistake. I now try to ask what happened before judging a colleague, so thank you for that example.",
+            "zh": "善意往往先從觀察中學會，我從你在別人失手時聆聽的方式學到。現在評同事前，我也嘗試先問發生甚麼，謝謝那榜樣。"
+          },
+          {
+            "en": "I think kindness is often caught before it is taught because I remember your patient questions more than any speech. I am still learning, but I try to bring that approach into my own work with others.",
+            "zh": "我覺得善意往往先從觀察中學會，因我記得你耐心提問，多於任何說教。我仍在學，但嘗試把那方式帶進與人合作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the way you listened",
+            "zh": "你聆聽的方式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 85
+            }
+          },
+          {
+            "en": "someone made a mistake",
+            "zh": "有人失手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 113
+            }
+          },
+          {
+            "en": "judging a colleague",
+            "zh": "評斷同事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 153,
+              "end": 172
+            }
+          },
+          {
+            "en": "your patient questions",
+            "zh": "你耐心的提問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 94
+            }
+          },
+          {
+            "en": "my own work with others",
+            "zh": "我自己與人合作的工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 176,
+              "end": 199
+            }
+          }
+        ],
+        "selfCheckZh": "感謝具體已見身教及自己仍在嘗試的後續，保留 often 及學習未完，不把一例當人人必學會或教導無用。"
+      },
+      "takeaways": [
+        {
+          "en": "Kindness is often caught before it is taught when children see adults make room for someone who needs time.",
+          "zh": "孩子看大人為需時間的人留空間時，善意往往先從觀察中學會。"
+        },
+        {
+          "en": "Much learning is caught rather than taught when children repeat a practice they have seen; later guidance can still help.",
+          "zh": "孩子重複看過的做法時，很多學習是從觀察中得到，而非先靠講解；其後指導仍可有幫助。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full bilingual AI author self-review completed; independent AI editorial review, human approval, audio hearing, responsive visual and live release checks remain separate and pending."
+      }
+    }
+  ]
+}

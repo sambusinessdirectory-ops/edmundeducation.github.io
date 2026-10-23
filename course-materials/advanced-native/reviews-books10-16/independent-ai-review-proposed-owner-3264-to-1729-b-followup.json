@@ -1,0 +1,32 @@
+{
+  "reportType": "independent-ai-exact-hash-proposal-followup",
+  "status": "content-clear-proposal-only",
+  "sourceOrdinal": 3264,
+  "sourceId": "book10-16-1153",
+  "proposedOwnerId": "advanced-native-1729",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1729-source-3264-proposed.json",
+  "proposalSha256": "81ce10eb2295ccddf8dafb2381214d58e0376044b126abdca1188f0f7b0bc682",
+  "authorFollowupSha256": "48bd260977ce9e7b2c7c0f4ae21eb7a0d7f391aeaa4eacb3b77e14b085794651",
+  "priorIndependentReviewSha256": "e4cbed7f7669089616298f1ce81ea5f5e8f8c00758e3aed6969c684204cff0ba",
+  "findingsRechecked": [
+    {
+      "id": "R3264-1729-01",
+      "result": "resolved",
+      "evidence": "The scene key now begins 'Much learning is caught rather than taught here', with a new box-sorting carrier. It retains only the fixed source expression, not the source's 'At home' sentence frame. The exact source sentence is preserved in provenance."
+    },
+    {
+      "id": "R3264-1729-02",
+      "result": "resolved",
+      "evidence": "Scene prompt, three options and explanation consistently use the child/孩子 without unsupported gender."
+    }
+  ],
+  "regressionChecks": {
+    "sourceSense": "The older temporal 'before it is taught' and source3264 contrastive 'rather than taught' variants still share the observer-learning decision; later explicit guidance is not ruled out.",
+    "target": "The bounded live pattern matches both complete source sentences and the revised scene key.",
+    "assessments": "All six answer IDs remain stable; the revised scene still has one target-bearing key and two untenable overclaims/denials.",
+    "chinese": "The new scene key and feedback describe observed box sorting, later imitation and limited inference without adding a new actor or claim.",
+    "glossary": "Five unchanged answer-derived spans remain exact and exclude the target.",
+    "audio": "Only takeaway-2 text would change if implemented; that audio key needs regeneration and technical/listening checks."
+  },
+  "decision": "Accept the repaired proposal for a separately coordinated owner/decision implementation. This is not selection, media, human or release approval."
+}

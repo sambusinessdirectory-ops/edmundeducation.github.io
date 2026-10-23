@@ -3391,19 +3391,20 @@
     "titleZh": "跟得上需求的增長",
     "category": "idiom",
     "target": {
-      "pattern": "\\bkeep(?:s|ing)? pace with demand\\b|\\bkept pace with demand\\b",
+      "pattern": "\\b(?:keep(?:s|ing)?|kept)\\s+pace\\s+with\\s+(?:demand|human\\s+invention)\\b",
       "glossaryForbidden": [
-        "\\bpace with demand\\b"
+        "\\bpace\\s+with\\s+demand\\b",
+        "\\bpace\\s+with\\s+human\\s+invention\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Maintain or increase provision sufficiently to match the level or growth of need.",
-      "meaningZh": "維持或增加供應，使其足以配合需求程度或增長。",
-      "grammar": "a service/team can or cannot keep pace with demand; kept/keeping. Compare what is needed with what can be provided, not speed alone.",
-      "register": "Conventional pace-as-matching-rate metaphor. Demand can concern visits, requests or materials; more activity does not prove needs are being met.",
-      "boundaryZh": "變快或做更多不表示足夠，要比較需求；跟得上也不保證每人即時獲服務或品質已核。",
-      "misconceptionZh": "需同看供需，不能只用完成量上升判已追上。",
-      "outcomeZh": "能描述需求與供應的相對變化，提出可核的調整。"
+      "meaningEn": "Match the rate of a relevant change: a service may meet rising demand, while rules may be updated as new inventions create new uses and risks.",
+      "meaningZh": "跟上相關變化的速度：服務可配合增長的需求；規則亦可隨新發明帶來的用途與風險更新。",
+      "grammar": "Keep/keeps/kept/keeping pace with demand or human invention. State what is changing and what provision or guidance must adapt; matching the timetable alone does not prove adequacy.",
+      "register": "Conventional pace-as-matching-rate metaphor in service and policy discussion. A coordinator may compare requests with capacity; an ethics reviewer may compare technology releases with rule updates.",
+      "boundaryZh": "供應增加須與需求比較；規則在新用途推出前更新，也不證明所有倫理或私隱風險已消除。",
+      "misconceptionZh": "不要把「做得更多」直接當成跟得上需求，也不要把「更新得及時」當成規則必然足夠。",
+      "outcomeZh": "能辨認被比較的變化速度，分別判斷服務能否配合需求，或規則能否隨技術新用途及時調整。"
     },
     "sources": [
       {
@@ -3418,6 +3419,21 @@
         "sample": "S1",
         "locatorNote": "PDF page 40, table 1, row 4; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p040-t1-r04"
+      },
+      {
+        "occurrenceId": "book10-16-2178",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 205,
+        "book": 16,
+        "question": 8,
+        "sample": "S2",
+        "sourceBookPages": "18–19",
+        "locatorNote": "DOCX table 223, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Ethical rules must keep pace with human invention.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "keep pace with human invention",
+        "sourceCategory": "Idiom or set phrase"
       }
     ],
     "listening": {
@@ -3478,26 +3494,26 @@
       "goldenId": "a"
     },
     "scene": {
-      "promptZh": "圖書交換站加快處理，最近每周可配對二十個請求；新請求穩定每周十五個，舊輪候也在減。你想只就處理量說現況，不推每人即時拿書。哪句準確？",
+      "promptZh": "學校的圖像辨識工具每月增加新用途；審查小組在每項新用途推出前檢視資料風險並修訂相關規則，但仍要測試修訂是否足夠。哪句最準確？",
       "options": [
         {
           "id": "a",
-          "en": "At this rate, the exchange is keeping pace with demand and reducing the backlog, though some people still wait.",
-          "zh": "按此速度，交換站跟得上需求，也減積壓，但仍有人需等。"
+          "en": "The review rules are keeping pace with human invention by being revised before each new use, though their adequacy still needs testing.",
+          "zh": "審查規則在每項新用途推出前修訂，正跟上技術發展；但仍須測試修訂是否足夠。"
         },
         {
           "id": "b",
-          "en": "The number processed is rising, so every reader must receive a book immediately.",
-          "zh": "處理量上升，所以每位讀者必即時拿書。"
+          "en": "Because the rules were updated before launch, every privacy risk has already been eliminated.",
+          "zh": "規則在推出前更新，便代表所有私隱風險已消除。"
         },
         {
           "id": "c",
-          "en": "The remaining backlog shows that new requests still arrive faster than the exchange can process them.",
-          "zh": "仍有積壓顯新請求仍比處理速度快。"
+          "en": "The old unchanged rules already cover each new use, so checking the new data risks adds nothing.",
+          "zh": "舊規則毋須更改便涵蓋每項新用途，因此檢查新的資料風險毫無作用。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "二十配對比十五新請求多，舊隊亦在減；仍有舊積壓不證新需求已超容量，也不等於每人即時拿書。"
+      "explanationZh": "每項新用途推出前有檢視及修訂，支持規則及時跟上；但修訂的充分程度仍須另外測試。"
     },
     "contrast": {
       "promptZh": "哪個證據最不足以單獨證明 keep pace with demand？",
@@ -3619,8 +3635,8 @@
         "zh": "團隊每周多加一段取件時段後，借物櫃枱跟上了需求。"
       },
       {
-        "en": "We were processing more forms but still could not keep pace with demand, so we checked where the queue was growing.",
-        "zh": "雖處理更多表格，我們仍跟不上需求，所以查隊伍在哪漸長。"
+        "en": "Privacy guidance can keep pace with human invention when reviewers check new uses and revise outdated rules before launch; whether the revisions are adequate still needs testing.",
+        "zh": "審查者在推出前檢視新用途並修訂過時規則，私隱指引便可跟上技術發展；修訂是否足夠仍須測試。"
       }
     ],
     "review": {
@@ -3647,7 +3663,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-591",

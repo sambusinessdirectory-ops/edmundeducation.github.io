@@ -2313,6 +2313,21 @@
           "sentence": "A good mentor is a bit like a compass.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a bit like a compass"
+        },
+        {
+          "occurrenceId": "book10-16-2123",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 200,
+          "book": 16,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A good mentor is a bit like a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bit like a compass",
+          "sourceCategory": "Figurative use"
         }
       ],
       "brief": {

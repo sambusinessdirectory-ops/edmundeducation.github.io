@@ -1058,6 +1058,21 @@
           "sentence": "The habit changed its clothes when it moved online.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "changed its clothes"
+        },
+        {
+          "occurrenceId": "book10-16-1887",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 178,
+          "book": 15,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "locatorNote": "DOCX table 192, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Creativity changes its clothes as people grow older.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changes its clothes",
+          "sourceCategory": "Figurative use"
         }
       ],
       "brief": {

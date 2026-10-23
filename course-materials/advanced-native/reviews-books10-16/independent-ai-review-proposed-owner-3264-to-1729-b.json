@@ -1,0 +1,43 @@
+{
+  "reportType": "independent-ai-review-proposed-owner-expansion",
+  "status": "repair-before-implementation",
+  "proposalOnly": true,
+  "sourceOrdinal": 3264,
+  "sourceId": "book10-16-1153",
+  "proposedOwnerId": "advanced-native-1729",
+  "inputs": {
+    "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-1729-source-3264-proposed.json",
+    "proposalSha256": "73c86332fca8ba60f4578ec12ed975a7b0254a102e4e525c4405fcf75540d32e",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/proposed-owner-expansion-3264-to-1729-review-pilot.json",
+    "authorAuditSha256": "6e27ad204b4123dd7031e5e5c509f95f95a057820fd85cca243f7fcbaee02cde",
+    "selectedManifestSha256": "e6a9beb2defd46634a66c225fc09d0519b254569ce80c39799cdc8d01f83f1d3"
+  },
+  "ownershipVerdict": "accept-same-learner-decision-conditionally",
+  "ownershipReason": "Both full source sentences describe a child acquiring behaviour by observing and later imitating it. The older 'before it is taught' form gives temporal order; source 3264 'rather than taught' contrasts observation with explicit instruction. The proposed brief correctly preserves that difference and does not claim teaching is useless. Owner 1728 concerns the demonstrator's action, whereas 1729 assesses what the observer learns.",
+  "checks": {
+    "exactSourceProvenance": "pass: proposed book10-16-1153 expression, sentence, book/question/sample and locator match source-inventory.jsonl",
+    "targetDetector": "pass for both complete source sentences and changed scene key; bounded alternatives reject the four supplied non-target controls in the author audit",
+    "answerIds": "pass: all six answer IDs are unchanged; the changed scene still has one defensible target-bearing key and two overclaim/denial foils",
+    "unchangedAssessments": "pass within scope: listening, four-valid reply, contrast, dialogue, speaking and both writing models remain byte-unchanged from current owner",
+    "glossary": "pass: five unchanged answer-derived spans equal their displayed English text and exclude the target",
+    "audioImpact": "only takeaway-2 EN/ZH changed; its audio key requires regeneration and media QA if the proposal is implemented"
+  },
+  "findings": [
+    {
+      "id": "R3264-1729-01",
+      "severity": "major",
+      "field": "scene.options[0].en",
+      "issue": "The keyed learner sentence begins 'At home, much learning is caught rather than taught', reproducing the complete source sentence through its period apart from punctuation. This includes the source's 'At home' carrier in addition to the fixed target expression.",
+      "repair": "Keep the target but write a new carrier grounded in the box-sorting scene, such as 'Her copying the sorting routine shows how much learning is caught rather than taught.' Recheck the paired Chinese, target match and full-guide originality."
+    },
+    {
+      "id": "R3264-1729-02",
+      "severity": "minor",
+      "field": "scene.promptZh; scene.options[0..2].en/zh",
+      "issue": "The prompt identifies only a child (孩子), while the changed options introduce 'she/Her' and 她 without establishing the child's gender.",
+      "repair": "Name a girl in the prompt or use 'the child'/孩子 consistently in the changed options, then align the Chinese."
+    }
+  ],
+  "decision": "Do not apply owner or source-decision edits at this proposal hash. Recheck only the repaired scene fields, source-originality result and any resulting target/span/audio change; the unchanged assessments need no new full review.",
+  "releaseBoundary": "No human listening, hosting, database, publication or release approval is implied."
+}

@@ -1,0 +1,27 @@
+{
+  "reportType": "independent-ai-scoped-exact-hash-proposal-followup",
+  "status": "content-clear-proposal-only",
+  "proposalPath": "course-materials/advanced-native/reviews-books10-16/proposals/owner-alias-four-3998-4456-proposed.json",
+  "proposalSha256": "9a59c0fe670615e17200a183a2bafe5bbf17f2940549de7ada66553ab591460c",
+  "authorRepairAuditSha256": "b9e7dafee73959031bc8748e64d62236124175bb6a4241c4d3fdb92ede5ea263",
+  "priorIndependentReviewSha256": "be580821cdc006f428b032389cd873754acf22e6e2a13a215910d1b1556418ef",
+  "findingRechecked": {
+    "id": "R4289-590-01",
+    "result": "resolved",
+    "evidence": "Takeaway-2 now says reviewers check new uses and revise outdated rules before launch, then separately test whether those revisions are adequate. Traditional Chinese states the same two actions and caveat. The English still matches the bounded keep pace with human invention target."
+  },
+  "regressionChecks": {
+    "advanced-native-590": "Only takeaway-2 EN/ZH changed since the initially reviewed proposal; the source sentence, target pattern, scene, answer ID, glossary and other assessed content are unchanged. Proposed owner object SHA-256 f8f926623e3a4c2e83ad256816f931bb101af09cc2626a199f3372d9b929cf72.",
+    "advanced-native-1706": "Object SHA-256 155a2525eaa7af47723ba66e12eba083b5152fe58a4f2c7349a898140ce457b1, unchanged from accepted initial review.",
+    "advanced-native-1913": "Object SHA-256 ca4be27acda0d3d1e7bd4b11f049d9f13db7283fe6c7421e181a4e7b2f55ce50, unchanged from accepted initial review.",
+    "advanced-native-1620": "Object SHA-256 267bf38ad6ca827f08412d9ad0ee0674b3c0c8e442a6709f579217e2b228a431, unchanged from accepted initial review."
+  },
+  "perSourceVerdict": {
+    "3998": "accept-1706",
+    "4234": "accept-1913",
+    "4289": "accept-590-after-repair",
+    "4456": "accept-1620"
+  },
+  "audioImpact": "If separately implemented, advanced-native-590 and advanced-native-1620 takeaway-2 each require an exact new synthesis key and technical/listening checks. No audio was generated in this review.",
+  "implementationBoundary": "These four are content-clear proposals. This review did not edit selected owner files, source decisions, the selected manifest, audio, database or deployment, and is not release approval."
+}
