@@ -632,3 +632,50 @@ html:has(body.dse-paper-mode){scroll-padding-top:20px}
 }
 
 .reading-super-entry{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;background:linear-gradient(125deg,#fff9e9,#e6f4e9);border-color:#bdd2be}.reading-super-entry[hidden]{display:none}.reading-super-entry h2{font-size:1.6rem;margin:.3rem 0}.reading-super-entry p{margin:.4rem 0}.reading-super-entry [data-reading-super-status]:empty{display:none}.reading-super-entry [data-reading-super-status]{flex-basis:100%;font-size:.85rem}
+
+/* The login artwork is one intact frame over its matching parchment. */
+.login-panel.panel {
+  width: 100%;
+  max-width: 610px;
+  min-height: 0;
+  aspect-ratio: 1145 / 1374;
+  justify-self: center;
+  align-self: center;
+  padding: 11% 13%;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: url("assets/reading-login/archive-parchment-v1.webp") center / 100% 100% no-repeat;
+  box-shadow: none;
+  isolation: isolate;
+  color: #302718;
+}
+.reading-login-frame {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  user-select: none;
+}
+.login-panel > :not(.reading-login-frame) { position: relative; z-index: 1; }
+.login-panel .eyebrow { color: #71603f; }
+.login-panel > p:not(.eyebrow) { color: #5b4a30; }
+.login-panel input { border-color: #bcae8c; background: #fffaf0; color: #302718; }
+.login-panel input:focus-visible { outline: 3px solid #a57530; outline-offset: 2px; }
+
+@media (max-width: 650px), (min-width: 1001px) and (max-width: 1250px) {
+  .login-panel.panel { padding: 10.5% 12.5%; }
+  .login-panel .eyebrow { margin-bottom: .1rem; font-size: .62rem; }
+  .login-panel h2 { margin: .1rem 0 .35rem; font-size: clamp(1.4rem, 6vw, 1.7rem); line-height: 1.12; }
+  .login-panel > p:not(.eyebrow) { margin: 0; font-size: .76rem; line-height: 1.35; }
+  .login-panel form { gap: 7px; margin-top: 8px; }
+  .login-panel label { gap: 2px; font-size: .8rem; line-height: 1.25; }
+  .login-panel input { min-height: 40px; padding: 7px 9px; font-size: .9rem; }
+  .login-panel .password-field button { top: 5px; right: 5px; bottom: 5px; padding: 0 9px; font-size: .76rem; }
+  .login-panel .form-status { min-height: 1.2em; margin: 0; font-size: .72rem; line-height: 1.2; }
+  .login-panel [data-login-button] { min-height: 44px; padding: .55rem .7rem; font-size: .86rem; }
+}
