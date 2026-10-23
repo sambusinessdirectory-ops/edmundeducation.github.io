@@ -16,6 +16,7 @@ from pathlib import Path
 BUCKET = 'edmund-assets'
 PREFIX = 'assets/natural-english/audio/advanced-native/v1/'
 ENDPOINT = 'https://bb52550c9a10ce282a09d742d800c06e.r2.cloudflarestorage.com'
+HOST = 'https://edmund-neural-audio.edmundeducation.workers.dev/'
 LOCK = threading.Lock()
 
 
@@ -50,11 +51,16 @@ def main():
     queue = json.loads(args.queue.read_text())
     summary = json.loads((args.state_dir / 'summary.json').read_text())
     metadata = json.loads((args.state_dir / 'metadata.json').read_text())
+    manifest = json.loads((args.state_dir / 'manifest.json').read_text())
     if summary['failed'] or summary['pending'] or summary['requests'] != len(queue):
         raise SystemExit('Exact audio queue is not fully generated and verified.')
     records = {row['synthesisKey']: row for rows in metadata.values() for row in rows}
     if len(records) != len(queue):
         raise SystemExit('Audio metadata does not exactly match queue length.')
+    manifested = [Path(local_path).stem for mapping in manifest.values()
+                  for local_path in mapping.values()]
+    if len(manifested) != len(queue) or set(manifested) != set(records):
+        raise SystemExit('The frozen public manifest does not exactly match the audio queue.')
     pending = []
     checkpoint = args.state_dir / 'r2-uploaded.json'
     uploaded = json.loads(checkpoint.read_text()) if checkpoint.exists() else {}
@@ -102,6 +108,17 @@ def main():
     (args.state_dir / 'r2-upload-failures.json').write_text(json.dumps(errors, indent=2) + '\n')
     if errors:
         raise SystemExit(f'{len(errors)} objects failed; successful uploads are checkpointed for resume.')
+    if any(uploaded.get(PREFIX + key + '.mp3') != records[key]['sha256'] for key in records):
+        raise SystemExit('Not all exact queue objects have upload evidence.')
+    public = {
+        module: {sentence: HOST + PREFIX + Path(local_path).name
+                 for sentence, local_path in mapping.items()}
+        for module, mapping in manifest.items()
+    }
+    public_file = args.state_dir / 'public-manifest.json'
+    temporary = public_file.with_suffix('.tmp')
+    temporary.write_text(json.dumps(public, ensure_ascii=False, indent=2) + '\n')
+    temporary.replace(public_file)
     print(json.dumps({'uploadedObjects': len(uploaded), 'remainingUploads': 0, 'releaseApproved': False}))
 
 
