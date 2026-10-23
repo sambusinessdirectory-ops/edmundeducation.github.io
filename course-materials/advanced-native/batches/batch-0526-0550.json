@@ -1940,7 +1940,7 @@
     "titleZh": "在制度或交接縫隙中被漏掉",
     "category": "idiom",
     "target": {
-      "pattern": "\\bfall(?:s|ing)? through the cracks\\b|\\bfell through the cracks\\b|\\bfallen through the cracks\\b",
+      "pattern": "(?:\\bfall(?:s|ing)? through the cracks\\b|\\bfell through the cracks\\b|\\bfallen through the cracks\\b)|(?:\\b(?:slip|slips|slipped|slipping) through the cracks\\b)",
       "glossaryForbidden": [
         "\\bthrough the cracks\\b"
       ]
@@ -1948,7 +1948,7 @@
     "brief": {
       "meaningEn": "Be overlooked or fail to receive needed attention because of gaps in a system or process.",
       "meaningZh": "因制度或程序有縫隙而被忽略，未獲所需關注。",
-      "grammar": "people/requests fall through the cracks; fell/have fallen; identify the missing attention or handover, not a literal surface crack.",
+      "grammar": "fall/slip through the cracks; fall, fell, fallen, slip, slipped and slipping can describe something missed by a process. The cracks are institutional gaps, not physical fissures.",
       "register": "Established gap metaphor, often used for support or administration. It can describe an unintended omission rather than deliberate exclusion.",
       "boundaryZh": "被漏不證明有人故意拒絕，也不表示全制度完全無效；需指哪個需要沒接上。",
       "misconceptionZh": "有轉介紀錄與實際有人跟進不同；交接仍需清楚責任。",
@@ -1967,6 +1967,34 @@
         "sample": "S1",
         "locatorNote": "PDF page 32, table 1, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p032-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1211",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 112,
+        "book": 12,
+        "question": 46,
+        "sample": "S2",
+        "sourceBookPages": "108–109",
+        "locatorNote": "DOCX table 116, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Names can slip through the cracks when we are distracted.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "slip through the cracks"
+      },
+      {
+        "occurrenceId": "book10-16-2023",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 191,
+        "book": 15,
+        "question": 29,
+        "sample": "S1",
+        "sourceBookPages": "68–69",
+        "locatorNote": "DOCX table 207, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Names can slip through the cracks when we are distracted.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "slip through the cracks"
       }
     ],
     "listening": {
@@ -2075,8 +2103,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Check who will make contact and confirm the family receives it before closing the follow-up.",
-          "zh": "結束跟進前，核誰聯絡，並確認家庭有收到。"
+          "en": "If nobody contacts the family, it may fall through the cracks; let's assign that follow-up before closing the case.",
+          "zh": "如果沒有人聯絡這個家庭，個案可能被遺漏；結案前先指定跟進人員。"
         },
         {
           "id": "b",
@@ -2168,8 +2196,8 @@
         "zh": "申請在部門間轉交卻無具名聯絡人後，被漏接了。"
       },
       {
-        "en": "A short follow-up helped us notice which questions were falling through the cracks in the busy discussion.",
-        "zh": "簡短跟進幫我們看到，繁忙討論中哪些問題正被漏掉。"
+        "en": "A second register check helps ensure late applications do not slip through the cracks.",
+        "zh": "再次核對登記冊，有助避免遲交的申請被系統遺漏。"
       }
     ],
     "review": {
@@ -2196,7 +2224,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-535",
@@ -5593,24 +5621,25 @@
     "id": "advanced-native-549",
     "number": 549,
     "inventoryId": "expr-0549",
-    "titleEn": "stuck in old patterns",
-    "titleZh": "困在舊有做法之中",
+    "titleEn": "stuck in old patterns / trapped in old habits",
+    "titleZh": "困在僵化舊做法之中",
     "category": "figurative",
     "target": {
-      "pattern": "\\bstuck in old patterns\\b",
+      "pattern": "\\b(?:stuck\\s+in\\s+old\\s+patterns|trapped\\s+in\\s+old\\s+habits)\\b",
       "glossaryForbidden": [
         "\\bstuck\\b",
-        "\\bold patterns\\b"
+        "\\bold patterns\\b",
+        "\\bold habits\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Unable or slow to move away from familiar repeated ways of behaving or working.",
-      "meaningZh": "難以或遲遲未能離開熟悉、反覆的行為或工作方式。",
-      "grammar": "be/remain/get stuck in old patterns; specify the repeated behaviour and what makes change difficult.",
-      "register": "Figurative trapped-in-a-pattern image. Oldness alone is not the problem; the context should show inflexibility or repetition that no longer fits.",
-      "boundaryZh": "熟悉安排也可有用，不因舊就應全棄；指出不合當前需要的重複及可行試改。",
-      "misconceptionZh": "可檢視行為，不把一次重複當某人永不能改或整個人沒價值。",
-      "outcomeZh": "能具體描述僵化做法，提出可檢視的小改動。"
+      "meaningEn": "Unable or slow to move away from familiar repeated ways of behaving or working, even when they no longer fit.",
+      "meaningZh": "熟悉而反覆的行事方式已不合用，卻仍難以擺脫。",
+      "grammar": "Be/remain/get stuck in old patterns; be/become/get trapped in old habits. Name the repeated action and why change is needed.",
+      "register": "Neutral reflective workplace language; a team leader discusses a rigid workflow with colleagues.",
+      "boundaryZh": "舊方法若經檢視仍合用，不必說成僵化；指出反覆限制改變的具體做法。",
+      "misconceptionZh": "trapped 是比喻，不表示永不能改，也不應把整個人貶低。",
+      "outcomeZh": "能指出反覆而不合用的做法，提出可檢視的小改動。"
     },
     "sources": [
       {
@@ -5625,6 +5654,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 34, table 1, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p034-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1008",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 94,
+        "book": 12,
+        "question": 26,
+        "sample": "S1",
+        "sourceBookPages": "64–65",
+        "locatorNote": "DOCX table 96, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A team can become trapped in old habits.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "trapped in old habits"
       }
     ],
     "listening": {
@@ -5689,8 +5732,8 @@
       "options": [
         {
           "id": "a",
-          "en": "We have been stuck in old patterns of guessing, so let us check our understanding before arguing.",
-          "zh": "我們一直困在猜測的舊模式，所以爭前先核理解吧。"
+          "en": "We have been trapped in old habits of guessing, so let us check our understanding before arguing.",
+          "zh": "我們一直困在互相猜測的舊習慣，爭論前先核對理解吧。"
         },
         {
           "id": "b",
@@ -5733,8 +5776,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Try sharing a role with a newcomer and review it, rather than replace one rigid rule with another.",
-          "zh": "試跟新人共任角色並檢視，不以另一僵硬規則取代。"
+          "en": "We may be stuck in old patterns of assigning roles; try sharing one role with a newcomer and review it, rather than replacing one rigid rule with another.",
+          "zh": "我們可能困在分配角色的舊模式；不如試讓一名新人共任一個角色並檢視，不要以另一僵硬規則取代舊規則。"
         },
         {
           "id": "b",
@@ -5751,9 +5794,9 @@
       "explanationZh": "先試一個共同角色並檢視，是具體可調的改動；不突然把整場全交新人，也不只旁聽而維持原分工。"
     },
     "speaking": {
-      "en": "We may be stuck in old patterns, so I would like to name the repeated behaviour and try one change we can review.",
-      "zh": "我們可能困在舊模式，所以我想指出反覆行為，並試一項可檢視的改動。",
-      "promptZh": "先聽，再把僵化模式連到具體行為。",
+      "en": "We may be trapped in old habits, so I would like to name the repeated behaviour and try one change we can review.",
+      "zh": "我們可能困在舊習慣，所以我想指出反覆行為，並試一項可檢視的改動。",
+      "promptZh": "先聽，再把僵化習慣連到具體行為。",
       "targetSpan": {
         "start": 10,
         "end": 31
@@ -5768,8 +5811,8 @@
           "zh": "評語指動機不清時，我總改版面，困在舊模式；這次先改一段關鍵對白，問朋友覺得角色想甚麼，再動顏色。"
         },
         {
-          "en": "Instead of remaining stuck in old patterns of polishing the surface first, I want to test whether the dialogue explains the character’s choice. The layout can wait until I have a clearer response from a reader.",
-          "zh": "不再困在先修表面的舊模式，我想測對白是否解釋角色選擇；版面可等有較清楚讀者回應才處理。"
+          "en": "Instead of remaining trapped in old habits of polishing the surface first, I will revise one key exchange and ask a reader whether the dialogue explains the character’s choice before changing the layout.",
+          "zh": "我不想繼續困在先修表面的舊習慣；我會先修改一段關鍵對白，問讀者對白是否解釋角色選擇，再改版面。"
         }
       ],
       "glossary": [
@@ -5801,21 +5844,30 @@
           }
         },
         {
-          "en": "the character seems to want",
-          "zh": "角色似乎想要",
-          "exampleIndex": 0,
+          "en": "polishing the surface",
+          "zh": "只修表面",
+          "exampleIndex": 1,
           "span": {
-            "start": 166,
-            "end": 193
+            "start": 46,
+            "end": 67
           }
         },
         {
-          "en": "a clearer response",
-          "zh": "較清楚回應",
+          "en": "a reader",
+          "zh": "讀者",
           "exampleIndex": 1,
           "span": {
-            "start": 177,
-            "end": 195
+            "start": 114,
+            "end": 122
+          }
+        },
+        {
+          "en": "the dialogue explains",
+          "zh": "對白解釋",
+          "exampleIndex": 1,
+          "span": {
+            "start": 131,
+            "end": 152
           }
         }
       ]
@@ -5826,8 +5878,8 @@
         "zh": "小組困在先宣布決定再聽的舊模式，所以試先收問題。"
       },
       {
-        "en": "I noticed I was stuck in old patterns when the same avoidable confusion returned after every meeting.",
-        "zh": "每次會後同樣可避免混亂重現時，我發現自己困在舊模式。"
+        "en": "I noticed I was trapped in old habits when the same avoidable confusion returned after every meeting.",
+        "zh": "每次會後同樣可避免的混亂重現時，我發現自己困在舊習慣。"
       }
     ],
     "review": {
@@ -5854,7 +5906,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-550",

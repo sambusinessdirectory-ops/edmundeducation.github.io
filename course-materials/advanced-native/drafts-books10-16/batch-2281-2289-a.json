@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2281",
+      "number": 2281,
+      "inventoryId": "expr-2281",
+      "titleEn": "emotional ride",
+      "titleZh": "情緒起伏之旅",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:an?|the) emotional ride\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An experience that carries someone through a strong sequence of different feelings.",
+        "meaningZh": "一段令人體驗一連串強烈、不同情緒的經歷。",
+        "grammar": "An emotional ride; often go on or take someone on an emotional ride. Ride is figurative, and the feelings should change over time.",
+        "register": "Neutral, expressive speech and reviews. A viewer may say it to a friend after a film moves from hope to worry and relief.",
+        "boundaryZh": "須有可辨認的情緒變化與起伏；單一平穩感受或只因事件很忙碌，不足以稱為 emotional ride。",
+        "misconceptionZh": "不一定是實際乘車，也不表示每一段都令人難過。",
+        "outcomeZh": "能指出至少兩種前後變化的感受，以及引發轉變的事件。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0170",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The film takes viewers on an emotional ride.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional ride"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The youth orchestra waited for the audition results. Mari felt hopeful after her solo, anxious when the first names were read, then relieved when her group qualified. The afternoon was an emotional ride.",
+        "zh": "青年樂團等候試音結果。瑪莉獨奏後滿懷希望，聽到首批名字時焦慮，知道小組入選後鬆一口氣。那個下午情緒起伏很大。",
+        "promptZh": "為何可稱為 emotional ride？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her feelings changed from hope to anxiety to relief.",
+            "zh": "她的感受由希望轉為焦慮，最後感到釋然。"
+          },
+          {
+            "id": "b",
+            "en": "The orchestra travelled to three venues by bus.",
+            "zh": "樂團乘巴士去了三個場地。"
+          },
+          {
+            "id": "c",
+            "en": "She stayed equally calm through the whole announcement.",
+            "zh": "她在整個公布過程中同樣平靜。"
+          },
+          {
+            "id": "d",
+            "en": "She felt only one brief moment of disappointment.",
+            "zh": "她只有片刻失望一種感受。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多種情緒隨結果公布而轉變。"
+      },
+      "reply": {
+        "promptEn": "A play follows a lost child from fear through reunion to relief, and the audience describes feeling each shift. What can a viewer say about that experience?",
+        "promptZh": "（一齣戲寫迷路孩子由恐懼到重聚、最後釋然；觀眾說自己感受到每次轉變。觀眾可怎樣形容這段體驗？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The story moved through several strong feelings.",
+            "zh": "故事經過幾種強烈情緒。"
+          },
+          {
+            "id": "b",
+            "en": "The audience felt fear before relief.",
+            "zh": "觀眾先感到恐懼，後感到釋然。"
+          },
+          {
+            "id": "c",
+            "en": "It was an emotional ride.",
+            "zh": "那是一段情緒起伏之旅。"
+          },
+          {
+            "id": "d",
+            "en": "The reunion changed the mood near the end.",
+            "zh": "重聚改變了接近尾聲的氣氛。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述明確情緒轉變。"
+      },
+      "scene": {
+        "promptZh": "社區隊伍先以為失去場地，最後獲批借用，成員由失望轉為欣喜。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The decision took the team on an emotional ride.",
+            "zh": "這項決定令隊員經歷一番情緒起伏。"
+          },
+          {
+            "id": "b",
+            "en": "The team needed a vehicle to reach the venue.",
+            "zh": "團隊需要車輛前往場地。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone remained indifferent to both announcements.",
+            "zh": "每個人對兩次公布都毫無感覺。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "失望到欣喜是情緒轉變，不是交通工具。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 an emotional ride？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A calm demonstration gives clear instructions and leaves participants with the same steady feeling throughout.",
+            "zh": "一場平靜示範給出清楚指示，參加者全程心情同樣平穩。"
+          },
+          {
+            "id": "b",
+            "en": "A family moves from worry over a missing pet to relief when it is found.",
+            "zh": "家人由擔心寵物失蹤，到找回牠時釋然。"
+          },
+          {
+            "id": "c",
+            "en": "A tense final turns concern into joy when the local team scores.",
+            "zh": "緊張的決賽在本地隊得分時令擔憂化為喜悅。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有顯著情緒轉變，便不是此處的起伏之旅。"
+      },
+      "dialogue": {
+        "promptEn": "A: At first the documentary made me hopeful for the rescue. Then the storm made me fear the worst, and the safe landing left me relieved. B: ______",
+        "promptZh": "（甲：紀錄片起初令我對救援有希望，暴風雨又令我擔心，安全着陸後終於放心。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your feelings changed as the rescue unfolded.",
+            "zh": "你的感受隨救援進展而改變。"
+          },
+          {
+            "id": "b",
+            "en": "The storm shifted the mood before the safe ending.",
+            "zh": "暴風雨在安全結局前轉變了氣氛。"
+          },
+          {
+            "id": "c",
+            "en": "That sounds like an emotional ride.",
+            "zh": "聽來是一段情緒起伏之旅。"
+          },
+          {
+            "id": "d",
+            "en": "The relief at the end follows the earlier fear.",
+            "zh": "最後的釋然接續先前恐懼。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句總結希望、恐懼及釋然的變化。"
+      },
+      "speaking": {
+        "en": "The debate result made Lena proud at first, nervous during the recount and grateful when both teams congratulated each other; it was an emotional ride rather than a single happy moment.",
+        "zh": "辯論結果先令莉娜自豪，覆核票數時緊張，兩隊互相祝賀時又感激；那是情緒起伏的歷程，不是單一快樂時刻。",
+        "promptZh": "說出至少兩次情緒轉折及成因。",
+        "targetSpan": {
+          "start": 133,
+          "end": 150
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩段經歷各令當事人經歷至少兩次不同情緒轉變。用英文寫出事件次序與感受。",
+        "selfCheckZh": "兩例須有可見的事件及情緒轉變，不能只是說很刺激。",
+        "examples": [
+          {
+            "en": "The week-long search for her missing sketchbook was an emotional ride for Noor: she feared losing the drawings, felt embarrassed asking around, then relaxed when a neighbour returned it.",
+            "zh": "努爾為失去的素描本尋找了一週，經歷一番情緒起伏：她怕失去畫作、到處查問時尷尬，鄰居交還時才放鬆。"
+          },
+          {
+            "en": "The charity auction was an emotional ride for Ken: early bids raised hope, a technical pause caused doubt, and the final total brought relief to the volunteers.",
+            "zh": "慈善拍賣令阿健情緒起伏：早段出價帶來希望，技術暫停引起疑慮，最後總額令義工鬆一口氣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "missing sketchbook",
+            "zh": "失去的素描本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 47
+            }
+          },
+          {
+            "en": "a neighbour returned it",
+            "zh": "鄰居把它交還",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 185
+            }
+          },
+          {
+            "en": "early bids",
+            "zh": "早段出價",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 61
+            }
+          },
+          {
+            "en": "technical pause",
+            "zh": "技術暫停",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 92
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An emotional ride involves changes in strong feelings over time.",
+          "zh": "an emotional ride 指隨時間出現強烈情緒轉變。"
+        },
+        {
+          "en": "An emotional ride needs events that turn hope into fear or relief.",
+          "zh": "情緒起伏之旅須有令希望轉成恐懼或釋然的事件。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2282",
+      "number": 2282,
+      "inventoryId": "expr-2282",
+      "titleEn": "heighten the drama",
+      "titleZh": "增強戲劇張力",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:heighten|heightens|heightened|heightening) the drama\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a scene or telling of events feel more tense or emotionally compelling.",
+        "meaningZh": "令場景或敘事更緊張、更能牽動情緒。",
+        "grammar": "Heighten the drama; heighten is a transitive verb and drama is the emotional tension of events, not a school subject here.",
+        "register": "Neutral review or production language. A stage director may use it when discussing a lighting choice with performers.",
+        "boundaryZh": "須指出具體的敘事或呈現手法如何增加緊張感；只把音量調大而沒有情緒效果，不足以支持此說。",
+        "misconceptionZh": "不等於捏造事實、加插爭吵，也不是把戲劇課變高。",
+        "outcomeZh": "能指出手法、原來場面及觀眾感受到的新增張力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0171",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The sudden silence helped heighten the drama.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heighten the drama"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "In the radio play, the actor paused just before revealing whose footsteps were outside the door. The quiet gap heightened the drama because listeners had time to worry about who might enter.",
+        "zh": "在廣播劇中，演員在揭示門外腳步聲屬誰之前停頓。那段安靜空白增強了張力，令聽眾有時間擔心誰會進來。",
+        "promptZh": "停頓有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It increased suspense before the identity was revealed.",
+            "zh": "它在揭曉身分前增加懸念。"
+          },
+          {
+            "id": "b",
+            "en": "It explained the full plot in advance.",
+            "zh": "它事先解釋完整劇情。"
+          },
+          {
+            "id": "c",
+            "en": "It made every listener know the answer immediately.",
+            "zh": "它令每名聽眾即時知道答案。"
+          },
+          {
+            "id": "d",
+            "en": "It removed the importance of the footsteps.",
+            "zh": "它令腳步聲不再重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "停頓延長未知身分的緊張感。"
+      },
+      "reply": {
+        "promptEn": "A theatre scene has a letter that may change a family decision. The director dims the lights while the actor opens it slowly, and the audience waits in silence. What does this staging do?",
+        "promptZh": "（舞台一場戲有封可能改變家人決定的信。導演在演員慢慢拆信時調暗燈光，觀眾靜候。這種呈現有何作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It makes the uncertain contents feel more important.",
+            "zh": "它令未知內容顯得更重要。"
+          },
+          {
+            "id": "b",
+            "en": "It gives the audience more time to anticipate the news.",
+            "zh": "它讓觀眾有更多時間期待消息。"
+          },
+          {
+            "id": "c",
+            "en": "It heightens the drama.",
+            "zh": "它增強了戲劇張力。"
+          },
+          {
+            "id": "d",
+            "en": "The lighting and pace build suspense around the letter.",
+            "zh": "燈光和節奏圍繞信件營造懸念。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均基於未知信件及緩慢揭示的張力。"
+      },
+      "scene": {
+        "promptZh": "短片在揭示比賽結果前，畫面停在兩名隊員的表情，令觀眾更緊張。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The close shots heighten the drama.",
+            "zh": "特寫鏡頭增強戲劇張力。"
+          },
+          {
+            "id": "b",
+            "en": "The shots tell viewers the result before it is announced.",
+            "zh": "鏡頭在公布前告訴觀眾結果。"
+          },
+          {
+            "id": "c",
+            "en": "The film removes any uncertainty about the result.",
+            "zh": "影片消除結果的一切不確定性。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "特寫延長懸念並加強感受。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a choice heightens the drama？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A narrator adds a neutral date caption after the outcome is fully known, without changing tension or emotional focus.",
+            "zh": "結果已完全知道後，旁白加上中性的日期字幕，沒有改變緊張感或情緒焦點。"
+          },
+          {
+            "id": "b",
+            "en": "A pause before a verdict gives listeners time to feel uncertainty.",
+            "zh": "裁決前停頓讓聽眾感到不確定。"
+          },
+          {
+            "id": "c",
+            "en": "A close view of a waiting family makes the outcome feel more personal.",
+            "zh": "等待家人的特寫令結果更牽動人心。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中性資料若沒有增加張力，就不是增強戲劇感。"
+      },
+      "dialogue": {
+        "promptEn": "A: We already know the hikers heard a noise, but the camera stays on their uncertain faces before showing what caused it. B: ______",
+        "promptZh": "（甲：我們知道行山者聽到聲音，但鏡頭在揭示原因前停留在他們不安的臉上。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That delay keeps viewers wondering about the sound.",
+            "zh": "那段延遲令觀眾猜想聲音來源。"
+          },
+          {
+            "id": "b",
+            "en": "Their faces show why the unknown cause matters.",
+            "zh": "他們的表情顯示未知原因為何重要。"
+          },
+          {
+            "id": "c",
+            "en": "The pause heightens the drama.",
+            "zh": "停頓增強了戲劇張力。"
+          },
+          {
+            "id": "d",
+            "en": "Holding the reveal builds suspense without changing the facts.",
+            "zh": "延後揭示在不改動事實下營造懸念。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括延後揭示帶來的張力。"
+      },
+      "speaking": {
+        "en": "The podcast let the witness finish describing the empty platform before revealing the delayed train announcement; that order heightened the drama without inventing a new event.",
+        "zh": "播客先讓證人說完空月台的情況，才揭示列車延誤公告；這種次序不必捏造事件也能增強張力。",
+        "promptZh": "指出敘事安排及其效果。",
+        "targetSpan": {
+          "start": 125,
+          "end": 145
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位創作者以不同真實或虛構敘事手法增加懸念。用英文寫出原本未知之事、手法及觀眾效果。",
+        "selfCheckZh": "兩例不能只說音量變大；須有具體懸念來源。",
+        "examples": [
+          {
+            "en": "The exhibition guide waited until visitors had examined the damaged map before revealing its repair, using the delay to heighten the drama of the discovery.",
+            "zh": "展覽導賞員等訪客看過受損地圖才揭示修復成果，以延遲揭曉來增強發現的張力。"
+          },
+          {
+            "en": "In the school film, a close shot of an unopened result envelope heightened the drama as classmates waited to learn which design had won.",
+            "zh": "學校短片特寫尚未打開的結果信封；同學等候知道哪項設計得勝時，這鏡頭增強張力。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "damaged map",
+            "zh": "受損地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 71
+            }
+          },
+          {
+            "en": "its repair",
+            "zh": "其修復成果",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 99
+            }
+          },
+          {
+            "en": "result envelope",
+            "zh": "結果信封",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 63
+            }
+          },
+          {
+            "en": "which design had won",
+            "zh": "哪項設計得勝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Heighten the drama means increase a scene’s emotional tension.",
+          "zh": "heighten the drama 指增加場面的情緒張力。"
+        },
+        {
+          "en": "A pause or reveal can heighten the drama when the outcome matters.",
+          "zh": "結果重要時，停頓或揭示可增強張力。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2289",
+      "number": 2289,
+      "inventoryId": "expr-2289",
+      "titleEn": "playing different games",
+      "titleZh": "目標或規則不同",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:playing|play|plays|played) different games\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Pursue different aims or operate by different assumptions despite seeming to be in the same contest or market.",
+        "meaningZh": "雖看似在同一競爭或市場，實際卻追求不同目標或遵循不同做法。",
+        "grammar": "Be playing different games; subjects are people or organisations, with the comparison made explicit. Figurative games need not involve sport.",
+        "register": "Informal-to-neutral analytical speech. A small-business adviser may use it when comparing two shops with different business goals.",
+        "boundaryZh": "須有可指出的目標或評量標準差異；只是售賣不同產品，不足以推斷雙方策略不同。",
+        "misconceptionZh": "不是說兩隊真的在玩不同球類，也不必判斷哪一方比較高明。",
+        "outcomeZh": "能分別指出兩方重視甚麼，以及為何不能只用一項指標直接比較。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0178",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The two companies are playing different games in the same market.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "playing different games"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Two cafés opened nearby. One kept meals affordable; the other used premium events to fund free music lessons. Turnover alone could not settle which succeeded: they were playing different games.",
+        "zh": "附近開了兩間咖啡店。一間保持膳食價格相宜，另一間用較高價活動資助免費音樂課。單看營業額不能判斷誰成功：兩者追求不同目標。",
+        "promptZh": "為何不能只比較營業額？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cafés judge success by different goals.",
+            "zh": "兩間咖啡店按不同目標衡量成功。"
+          },
+          {
+            "id": "b",
+            "en": "Both cafés promise exactly the same service and price.",
+            "zh": "兩間咖啡店承諾完全相同服務及價格。"
+          },
+          {
+            "id": "c",
+            "en": "One café necessarily has a higher turnover.",
+            "zh": "其中一間必然有較高營業額。"
+          },
+          {
+            "id": "d",
+            "en": "They are literally playing a board game together.",
+            "zh": "兩間店正一起玩桌上遊戲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "低價膳食與資助課程是不同目標。"
+      },
+      "reply": {
+        "promptEn": "Two publishers both sell children’s books. One seeks wide, low-cost access for schools; the other prints small handmade editions to support illustrators. A colleague wants to rank them only by copies sold. What can you say?",
+        "promptZh": "（兩家出版社都賣兒童書；一間着重學校能低價取得大量書，另一間印少量手製本以支持插畫師。同事想只按售出冊數排名。你可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Copies sold alone miss the difference in aims.",
+            "zh": "只看銷量會忽略目標差異。"
+          },
+          {
+            "id": "b",
+            "en": "One values broad access while the other values craft and artist support.",
+            "zh": "一方重視普及，另一方重視工藝與支持藝術家。"
+          },
+          {
+            "id": "c",
+            "en": "They are playing different games.",
+            "zh": "他們追求的玩法不同。"
+          },
+          {
+            "id": "d",
+            "en": "Use each publisher’s stated goal when judging its results.",
+            "zh": "評估成果時應看各自聲稱的目標。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均解釋相同市場內的不同目標。"
+      },
+      "scene": {
+        "promptZh": "兩個學習平台都提供語言課：一個以免費普及為目標，另一個提供收費的個別指導。只比註冊人數難定高下。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are playing different games.",
+            "zh": "它們追求不同目標。"
+          },
+          {
+            "id": "b",
+            "en": "They share exactly one success measure.",
+            "zh": "它們只有完全相同的一項成功標準。"
+          },
+          {
+            "id": "c",
+            "en": "Both platforms must be teaching a different sport.",
+            "zh": "兩平台必定在教不同運動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "普及與個別指導並非同一成功標準。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 two groups are playing different games？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two teams enter the same contest under the same rules and both aim to maximise the same score.",
+            "zh": "兩隊參加同一比賽、遵守相同規則，且都以同一分數最大化為目標。"
+          },
+          {
+            "id": "b",
+            "en": "One service values fast delivery while another prioritises careful repairs.",
+            "zh": "一項服務重視快速送達，另一項重視仔細維修。"
+          },
+          {
+            "id": "c",
+            "en": "One charity seeks maximum attendance while another focuses on long-term mentoring.",
+            "zh": "一間慈善機構重視最多參與人數，另一間着重長期師友關係。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "目標與量度方法完全相同時，沒有此處的策略差別。"
+      },
+      "dialogue": {
+        "promptEn": "A: Both groups teach music, but ours measures success by free access, while theirs wants each learner to have weekly one-to-one coaching. B: ______",
+        "promptZh": "（甲：兩個團體都教音樂；我們以免費普及衡量成功，他們則希望每名學員每週有一對一指導。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two groups value different outcomes.",
+            "zh": "兩個團體重視不同成果。"
+          },
+          {
+            "id": "b",
+            "en": "A single headcount would miss the coaching goal.",
+            "zh": "單一人數指標會忽略個別指導目標。"
+          },
+          {
+            "id": "c",
+            "en": "You are playing different games.",
+            "zh": "你們追求不同目標。"
+          },
+          {
+            "id": "d",
+            "en": "Each programme should be judged against its own stated aim.",
+            "zh": "應按各計劃自己的目標評估。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括不同目標下不能單一排名。"
+      },
+      "speaking": {
+        "en": "A public library and a specialist archive both lend material, but one aims for quick everyday access and the other preserves rare records; they are playing different games.",
+        "zh": "公共圖書館和專門檔案館都提供資料，但前者追求日常快捷取用，後者保存稀有紀錄；兩者目標不同。",
+        "promptZh": "說出雙方目標與不同的評估方式。",
+        "targetSpan": {
+          "start": 148,
+          "end": 171
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩對看似提供相近服務的機構各有不同目標。用英文說明各自量度成果的方式。",
+        "selfCheckZh": "兩例須指出具體目標差異，不可只列產品名稱。",
+        "examples": [
+          {
+            "en": "The local bike hire scheme and the repair co-op are playing different games: one counts short rides, while the other values keeping old bicycles safe to use.",
+            "zh": "本地單車租借計劃與維修合作社追求不同目標：前者計短途使用次數，後者重視讓舊單車安全可用。"
+          },
+          {
+            "en": "Two school clubs were playing different games: the debate club sought a larger open membership, while the science team prioritised careful preparation for one contest.",
+            "zh": "兩個學校社團追求不同目標：辯論社希望更多人自由加入，科學隊則着重為一項比賽作仔細準備。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "short rides",
+            "zh": "短途使用次數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 99
+            }
+          },
+          {
+            "en": "old bicycles safe to use",
+            "zh": "舊單車安全可用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 156
+            }
+          },
+          {
+            "en": "open membership",
+            "zh": "自由加入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 94
+            }
+          },
+          {
+            "en": "careful preparation",
+            "zh": "仔細準備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Playing different games means pursuing different goals or rules.",
+          "zh": "playing different games 指追求不同目標或遵循不同做法。"
+        },
+        {
+          "en": "When groups are playing different games, compare each against the outcome it values.",
+          "zh": "團體追求不同目標時，應按各自重視的成果比較。"
+        }
+      ]
+    }
+  ]
+}

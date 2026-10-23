@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "scope": "R4450-01 source-form repair in an eight-lesson unselected batch",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4444-4462-a.json",
+      "sha256": "90965cb83f4a916404b2eff213280a74c7a47765927a3b0dcdd4e66440fad183"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "sha256": "71dad5ef635d81c22d6e67b1453dbc885da1016f1bcecf8b9f152dd9451b95e2"
+    }
+  ],
+  "priorReview": "independent-ai-review-4444-4481-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFinding": {
+    "id": "R4450-01",
+    "result": "Brief meaning and grammar now explicitly distinguish food-subject verb `tastes of home` from noun `a taste of home`. The revised keyed scene naturally uses `the gingerbread tastes of home`, with aligned Traditional Chinese and explanation. The exact source verb, revised scene, unchanged noun models and speaking span all match the target; the final writing task still supplies two complete memory-linked examples."
+  },
+  "validation": {
+    "focusedBuildAndCheck": "Changed four-lesson file passes: 4 lessons, 24 questions, 16 audio requests, zero flags; companion file was unchanged and passed in initial review.",
+    "sourceAndTarget": "Live positive controls for source `pastries taste of home`, revised `gingerbread tastes of home`, noun `a taste of home`, and past `tasted of home` all match."
+  },
+  "coverageLimit": "Scoped review of revised grammar, scene key, bilingual text and target behavior; seven unaffected lessons retain initial risk-based clearance. AI content clearance is not release certification.",
+  "remainingFindings": []
+}

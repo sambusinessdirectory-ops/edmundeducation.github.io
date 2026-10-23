@@ -1,0 +1,84 @@
+{
+  "reviewType": "AI read-only residual detector screen, not a semantic merge approval",
+  "method": [
+    "Screen all 763 current held source examples outside author A’s reserved 2400–2700 range against all 1,893 canonical target detectors.",
+    "A detector hit is lexical evidence only. Keep holds unless guide meaning and canonical learner decision are the same and a reviewed bounded detector/content update supports the full sentence."
+  ],
+  "currentHeldRowsWithAnyCanonicalDetectorHit": 43,
+  "exactSourceExpressionMatches": [
+    {
+      "sourceOrdinal": 3142,
+      "expression": "at once",
+      "sourceExample": "The room became quiet at once.",
+      "sourceGuideMeaning": "Almost immediately; a fixed time expression.",
+      "matchedCanonicals": [
+        {
+          "id": "advanced-native-048",
+          "title": "at once",
+          "meaning": "At the same time; this lesson focuses on simultaneous actions or demands."
+        }
+      ],
+      "reasonToKeepHeld": "Here at once means immediately, whereas existing canonical 048 teaches simultaneous demands despite matching spelling. Provisional editorial decision; independent review remains open."
+    },
+    {
+      "sourceOrdinal": 3394,
+      "expression": "pick up",
+      "sourceExample": "Visitors can pick up a postcard at the market.",
+      "sourceGuideMeaning": "Buy or obtain casually; a useful phrasal verb.",
+      "matchedCanonicals": [
+        {
+          "id": "advanced-native-441",
+          "title": "pick up",
+          "meaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching."
+        }
+      ],
+      "reasonToKeepHeld": "Picking up a postcard means buying or obtaining it, unlike canonical 441 informal skill-acquisition sense. Provisional editorial decision; independent review remains open."
+    },
+    {
+      "sourceOrdinal": 3985,
+      "expression": "at once",
+      "sourceExample": "Do not give up at once after a mistake.",
+      "sourceGuideMeaning": "Immediately, without delay; a fixed time expression.",
+      "matchedCanonicals": [
+        {
+          "id": "advanced-native-048",
+          "title": "at once",
+          "meaning": "At the same time; this lesson focuses on simultaneous actions or demands."
+        }
+      ],
+      "reasonToKeepHeld": "Do not give up at once means immediately, distinct from the existing simultaneous-actions lesson. Provisional editorial decision; independent review remains open."
+    },
+    {
+      "sourceOrdinal": 4141,
+      "expression": "at once",
+      "sourceExample": "The picture caught her attention at once.",
+      "sourceGuideMeaning": "Almost immediately; a fixed time expression.",
+      "matchedCanonicals": [
+        {
+          "id": "advanced-native-048",
+          "title": "at once",
+          "meaning": "At the same time; this lesson focuses on simultaneous actions or demands."
+        }
+      ],
+      "reasonToKeepHeld": "Caught attention at once means immediately, distinct from simultaneous-actions canonical owner. Provisional editorial decision; independent review remains open."
+    },
+    {
+      "sourceOrdinal": 4154,
+      "expression": "switch off",
+      "sourceExample": "During a dull lecture, the mind can switch off.",
+      "sourceGuideMeaning": "Stop paying attention or thinking actively; a figurative phrasal verb.",
+      "matchedCanonicals": [
+        {
+          "id": "advanced-native-375",
+          "title": "switch off",
+          "meaning": "Stop thinking about work or worries for a while and relax."
+        }
+      ],
+      "reasonToKeepHeld": "Mind switching off during a dull lecture means losing attention, distinct from canonical relax-after-work sense. Provisional editorial decision; independent review remains open."
+    }
+  ],
+  "exactSourceExpressionMatchCount": 5,
+  "otherDetectorHitsAreIncidentalOrNeedSenseReview": 38,
+  "conclusion": "No additional automatic alias is justified by lexical detector overlap. The five exact-expression hits shown use a distinct sense from the matched canonical (at once: immediacy versus simultaneity; pick up: obtain versus learn; switch off: lose attention versus relax), so they remain held.",
+  "scope": "763 current holds outside source ordinals 2400–2700 reserved for author A; 120 held rows in that reserved range were not screened here."
+}

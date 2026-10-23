@@ -1,0 +1,46 @@
+{
+  "auditKind": "author-held-to-existing-alias-wave-two-c",
+  "createdUtc": "2026-10-23T17:18:10.438176+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2477,
+      "sourceId": "book10-16-0366",
+      "expression": "the bar is definitely being raised",
+      "sourceExample": "With the new rules, the bar is definitely being raised.",
+      "meaning": "Expectations or standards are increasing; a fixed sports metaphor.",
+      "canonicalOwner": "advanced-native-502",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0501-0525.json",
+      "ownerFileSha256": "7d77855e7b9c15337897ae850f597853d4b4065ed057dfa40d61786687ed2d36",
+      "contentRevision": 2,
+      "fullSourceDetectorMatch": true
+    },
+    {
+      "sourceOrdinal": 2535,
+      "sourceId": "book10-16-0424",
+      "expression": "take today's comfort for granted",
+      "sourceExample": "We should not take today's comfort for granted.",
+      "meaning": "Fail to appreciate advantages currently enjoyed; a fixed evaluative pattern.",
+      "canonicalOwner": "advanced-native-1398",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1376-1400.json",
+      "ownerFileSha256": "be69ca061164a5e72b4cdf4c74a22119aabd26b747aa90bb1353c72267b29d7d",
+      "contentRevision": 2,
+      "fullSourceDetectorMatch": true
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "sha256": "9c08293438bdd430c46067311a0cfeebd099d8fac5269e51a1ec2bc8ae9f7dc4"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "71c5089f1cffd4093ce332230df0dede660979586c553588d9b8d5e8ee02fdff"
+    }
+  ],
+  "focusedBuildAndCheck": "PASS: two canonical batches, 42 lessons, 252 questions, 168 audio requests, zero flags",
+  "allDiscoveredAliasAudit": "PASS: 158 alias-new rows, 158 matched drafts, zero exceptions",
+  "fullVerifier": "PASS: 2604 intake/decision rows, 0 page gaps, 0 selected-existing alias pattern exceptions, 0 schema errors, 0 exact guide copies",
+  "independentReview": "pending",
+  "selectedManifestChanged": false,
+  "published": false
+}

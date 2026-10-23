@@ -1,0 +1,147 @@
+{
+  "reviewType": "independent-dual-asr-delta-triage-2208",
+  "status": "automated-speech-screen; no-human-listening-certification",
+  "inputFiles": {
+    "small": {
+      "path": "../audio-production/asr-small-flags-2208.json",
+      "sha256": "3b5e6ac35d1eef2dae200eb42a082c48df35049b7400c02de6a926269e724b6b"
+    },
+    "base": {
+      "path": "../audio-production/asr-base-2208.json",
+      "sha256": "82465bec041d802ca29f5ed3a4e7a9a02479ce16a0c4048d4b88ae47cd243cbe"
+    },
+    "signal": {
+      "path": "../audio-production/signal-report-2208.json",
+      "sha256": "7292458dd3562bbe1c78d84315ffdab7f32baa0d4f8859b30ed0710f19ba2896"
+    },
+    "priorIndependentTriage": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-asr-dual-flags-2004-b.json",
+      "sha256": "4eeb7dcc98216e47f49d60653519a0654d9fdf53efad44814a433dd1223d5044"
+    }
+  },
+  "counts": {
+    "audioRolesChecked": 2208,
+    "signalDecodeFailures": 0,
+    "baseFlagsPassedToSmall": 82,
+    "currentDualAsrFlags": 27,
+    "currentOrthographyOrHomophone": 17,
+    "currentTargetAudition": 10,
+    "currentKnownG2PAction": 0,
+    "unchangedPreviouslyTriagedKeys": 24,
+    "newFlaggedKeys": 3,
+    "priorFlaggedKeysNotCurrentlyFlagged": 5
+  },
+  "newFlaggedKeys": [
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "speaking",
+      "synthesisKey": "946db15689427a1848547fce34df896bc4077c9c6049d13e68a00ca57d85b3c7",
+      "expected": "A simple walking map made getting from A to B easier for new visitors.",
+      "baseRecognised": "A simple walking map made getting from A to be easier for new visitors.",
+      "smallRecognised": "A simple walking map made getting from A to be easier for new visitors.",
+      "category": "orthography-or-homophone",
+      "assessment": "Letter B and the word be are homophones; both recognizers transcribe B as be. Do not infer a synthesis fault from this spelling choice."
+    },
+    {
+      "moduleId": "advanced-native-3814",
+      "role": "takeaway-1",
+      "synthesisKey": "40f56ba78680e94cbedbc5299504ddecf57a0f20d471058b580eae12ed250b97",
+      "expected": "Break out of poverty means escape an enduring low-income condition.",
+      "baseRecognised": "Breakout of poverty means escape and enduring low-income condition.",
+      "smallRecognised": "Breakout of poverty means escape an enduring low-income condition.",
+      "category": "orthography-or-homophone",
+      "assessment": "Break out and breakout have the same phonemes; small ASR preserves the expected article an. Base alone has a function-word slip. No lexical pronunciation failure established."
+    },
+    {
+      "moduleId": "advanced-native-2327",
+      "role": "takeaway-2",
+      "synthesisKey": "97609add668392f177eda6d86b8ce61c0a48575e48d600fd8acaf6c6cb87b440",
+      "expected": "Calling a film a tearjerker does not mean every viewer reacts in the same way.",
+      "baseRecognised": "Calling a film a tear jerker does not mean every viewer reacts in the same way.",
+      "smallRecognised": "Calling a film a tear jerker does not mean every viewer reacts in the same way",
+      "category": "orthography-or-homophone",
+      "assessment": "Tearjerker and tear jerker differ only in ASR word segmentation; both recognise the same spoken compound. This is a new synthesis key after the previous G2P correction, not evidence that it regressed."
+    }
+  ],
+  "carriedForwardTargetAuditionKeys": [
+    "da760a203682f39a9832a3eb59d5d2a7524bd12eef67115e45c84871713bc984",
+    "90fcf38dfc69c3b9d4dda419ea4c3a9f8fe1466e71e8a5a5f9314ec670664c64",
+    "2d41c546f5c82971955b5fdbf1ca8b1873b6a86d2ac89558230e5d2ad276b834",
+    "2f57d0d6bfcfc0acb3099d941b37894d0bfdb2b66da42776d2e5d292c9fbb7ce",
+    "d0b97267f176429c43237a72784846e1fe9fa7fa6f1f72b36b3352a037e2d976",
+    "83d3645c0b5f92dae3911bffaf2968618133d8564ecfa849ae255e991aac492e",
+    "966108e9dc9fee64b10a6202c6f3d8d3b006281e4dc7d06c8e56688b8692bf71",
+    "27e4947db07ee04a20f3d0ac3c4018e16196c3870f65d82a4554abb851c3e414",
+    "1bd4b8abd33d2d5820f46e5d97403a4689d92e60cf500f2dc43e1776482f40e5",
+    "6e3863ed81b1c9f4aad1a738714f4d4d31040a5c51c2e02498899aba9294cd58"
+  ],
+  "carriedForwardOrthographyOrHomophoneKeys": [
+    "37f0e6cee27ace38c769f8a24b3b04cfeaea02e598e4962b30bb9ea3fa3bc49c",
+    "65c3d56a4dac8e06a5f3d5c9f8d54b7038337e80f58ce134845a28081c449ce9",
+    "ecc791ac5e8feadbb7b2d2ca2a281f4de1ecc5a78f8cb3aa5fbe91806311624a",
+    "388fb1ba27d34ef292539a9b3f81a5cca16cfe5bff1358ca34afd8b1dcf7fe28",
+    "2ffe3c12818d5d234458ee231cb1d155eaaaf9430d2b37d18974f7b03019ac5c",
+    "9330d790ca368341dfd7fc5a00469d1e431f3f6f28a729310736bfac227e1379",
+    "e20dbff8a42fbc417171b23eab95d03291e09707e57de6dd85e942ed2e968f14",
+    "53567425039a71e1fb30051e466301ccb51e51e4719cf8103a186bfe051b75fe",
+    "864ea59be1b95f965c8021b1b85dbb2fbd13a9b2cbb7eb833e46e6c220df5422",
+    "833ca4b83b5a08642d710f40c90381f61f9ee7105614f0391e16db1a4805c566",
+    "ca46c5df5f89bdcaa7beeb3ab2dcaecdbc89f0d2eba481cbf035bd91f6fab79a",
+    "541b438ff5216b1d179f26fc39a93f22acf1fa5ba238fa87449b3f2068f1ebc7",
+    "8242742dfdc8b6a2c7604dcf67f08bb69265a7719b2f0eba5bbd63badac636ef",
+    "76eb3f17db612fb3308bb4df667f8790cd2c44592350aa6d61c7abb6c0baa7ee"
+  ],
+  "priorFlaggedKeysNotCurrentlyFlagged": [
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "speaking",
+      "oldSynthesisKey": "47893ce7b1f034d510b332e237d4ca8e036f7260c86abab3f81a332e95b3c461",
+      "priorCategory": "orthography-or-homophone"
+    },
+    {
+      "moduleId": "advanced-native-2327",
+      "role": "speaking",
+      "oldSynthesisKey": "66de18f42c33627d96c6e0ef8a6e922c02956372b2a00b7a23e3ddee2010f113",
+      "priorCategory": "g2p-action"
+    },
+    {
+      "moduleId": "advanced-native-2327",
+      "role": "takeaway-1",
+      "oldSynthesisKey": "91bfe20b2fa7e1358bcd920097aa4814dcdccb074de3ed486d48f246ac3105a5",
+      "priorCategory": "g2p-action"
+    },
+    {
+      "moduleId": "advanced-native-4407",
+      "role": "takeaway-1",
+      "oldSynthesisKey": "b33360b75539a27c39835ccb511e78e385d230eab2066613ece5f9a2976fc9b4",
+      "priorCategory": "g2p-action"
+    },
+    {
+      "moduleId": "advanced-native-4407",
+      "role": "listening",
+      "oldSynthesisKey": "101600beaf095c690a0ddbafcfa5aa574f52d06183461b3177762a1a4c0039d3",
+      "priorCategory": "g2p-action"
+    }
+  ],
+  "recommendedActions": [
+    {
+      "priority": "medium",
+      "scope": "Ten carried-forward target-audition synthesis keys",
+      "action": "Keep the ten exact clips queued for targeted acoustic listening or controlled resynthesis comparison. Their dual-ASR disagreements and previously checked phonemizer forms do not alone prove a speech fault; do not rewrite canonical text from ASR output."
+    },
+    {
+      "priority": "none",
+      "scope": "Seventeen orthography/homophone flags, including three new keys",
+      "action": "No content change or resynthesis solely for these ASR spelling, homophone or segmentation differences."
+    },
+    {
+      "priority": "check-before-closure",
+      "scope": "Four prior tearjerker/quiet-hour G2P-action keys",
+      "action": "Their old synthesis keys are no longer among current dual flags; retain the prior phonemizer correction evidence and verify exact current regenerated clips if release audio QA requires it."
+    }
+  ],
+  "limits": "Two ASR models and MP3 signal/decode checks are automated evidence, not human listening, accent certification or release approval. The 24 carried-forward keys retain their prior detailed assessments rather than being re-adjudicated here.",
+  "humanListeningReviewClaimed": false,
+  "pronunciationOrAccentCertified": false,
+  "releaseApproved": false
+}

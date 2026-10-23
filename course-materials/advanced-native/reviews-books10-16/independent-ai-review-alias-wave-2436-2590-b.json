@@ -1,0 +1,107 @@
+{
+  "reviewKind": "independent-ai-alias-wave-2436-2590-initial",
+  "createdUtc": "2026-10-23T17:32:05.743892+00:00",
+  "status": "minor-chinese-repair-requested",
+  "inputs": {
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2436-2590-a.json",
+      "sha256": "e211a4b60277ad09b2084f486b749d362650418d43badc32825c68ac81bc7dca"
+    },
+    "canonicalBatch": {
+      "path": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "sha256": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c"
+    },
+    "decisionFiles": [
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+        "sha256": "7cdf788c6a21a0c27018d3be465be96b2f1f63a855d14a6cbb4db78c4d51895a"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+        "sha256": "798284460262924fe444b753f9f12ecce9c6277c5b48da5c7823cb2dcc152450"
+      }
+    ],
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "reviewedCanonical": "advanced-native-801",
+  "canonicalContentRevision": 4,
+  "rows": [
+    {
+      "sourceOrdinal": 2436,
+      "sourceId": "book10-16-0325",
+      "sourceExpression": "take a lot of that weight off people's shoulders",
+      "fullSourceExample": "The extra staff take a lot of that weight off people's shoulders.",
+      "decisionRowSha256": "11d67459214fc1d8729c6235a921bafb1caa06db98bbdae8b869ec9f4556538d",
+      "decisionMatchesSource": true,
+      "provenanceExact": true,
+      "fullSentenceDetectorMatch": true,
+      "sameSenseAssessment": "The support reduces an established mental or practical burden and leaves some responsibility; same shoulder-burden metaphor as canonical 801."
+    },
+    {
+      "sourceOrdinal": 2590,
+      "sourceId": "book10-16-0479",
+      "sourceExpression": "take a lot of pressure off your shoulders",
+      "fullSourceExample": "An emergency fund can take a lot of pressure off your shoulders.",
+      "decisionRowSha256": "8b8e8cd672c6a2b0a4385b3ccdb2ac69908a2bc2318b9bf931373e52bb4a6ea3",
+      "decisionMatchesSource": true,
+      "provenanceExact": true,
+      "fullSentenceDetectorMatch": true,
+      "sameSenseAssessment": "The support reduces an established mental or practical burden and leaves some responsibility; same shoulder-burden metaphor as canonical 801."
+    }
+  ],
+  "detectorControls": {
+    "positive": [
+      {
+        "text": "The staff take a lot of that weight off people's shoulders.",
+        "matched": true
+      },
+      {
+        "text": "The emergency fund took a lot of pressure off your shoulders.",
+        "matched": true
+      },
+      {
+        "text": "The plan took a lot of pressure off teachers' shoulders.",
+        "matched": true
+      },
+      {
+        "text": "The roster took a lot of pressure off the volunteers' shoulders.",
+        "matched": true
+      }
+    ],
+    "negative": [
+      {
+        "text": "The team took several heavy boxes off people's shoulders.",
+        "matched": false
+      },
+      {
+        "text": "The shoes took pressure off his shoulders.",
+        "matched": false
+      },
+      {
+        "text": "The new rota took a lot of pressure off Jo's shoulders.",
+        "matched": false
+      }
+    ]
+  },
+  "assessedContentReview": "Both new takeaway variants are natural and faithfully translated. The earlier listening/reply/scene/contrast/dialogue/speaking/writing outcomes still distinguish partial relief from complete transfer. Glossary remains answer-derived and does not include target words.",
+  "finding": {
+    "severity": "minor",
+    "path": "batches/batch-0801-0825.json:lessons[advanced-native-801].listening.explanationZh",
+    "observed": "The Traditional Chinese explanation embeds the English connective “though”.",
+    "suggestedRepair": "Use Chinese “但” and preserve the remaining-work meaning; bump contentRevision and rerun focused build/check."
+  },
+  "focusedBuildCheck": {
+    "lessons": 21,
+    "questions": 126,
+    "audioRequests": 84,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Shared full verifier had concurrent unrelated 208/351/464/563 target-bearing key failures at author handoff. This review makes no global-verifier or release-approval claim.",
+  "selectedManifestEdited": false,
+  "published": false
+}

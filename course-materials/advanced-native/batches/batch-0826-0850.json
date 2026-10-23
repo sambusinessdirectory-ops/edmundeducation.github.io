@@ -3074,9 +3074,9 @@
       "titleEn": "a small pocket of peace",
       "titleZh": "一小段安寧時光",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ba small pocket of peace\\b",
+        "pattern": "\\ba (?:small )?pocket of peace\\b",
         "glossaryForbidden": [
           "\\bpocket of peace\\b"
         ]
@@ -3107,12 +3107,26 @@
           "sentence": "Her morning walk was a small pocket of peace.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a small pocket of peace"
+        },
+        {
+          "occurrenceId": "book10-16-0145",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 14,
+          "book": 10,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 11, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The garden offered a pocket of peace near the busy road.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a pocket of peace"
         }
       ],
       "brief": {
-        "meaningEn": "A brief, limited space or period of calm within a busier situation.",
-        "meaningZh": "較忙亂環境裏，一小段有限的安寧空間或時光。",
-        "grammar": "find/create/protect a small pocket of peace; identify the limited calm and its surrounding demands.",
+        "meaningEn": "A brief, limited space or period of calm within a busier situation; small can make that limited scope explicit.",
+        "meaningZh": "較忙亂環境裏，一小段有限的安寧空間或時光；small 可以明確指出其範圍有限。",
+        "grammar": "find/create/protect a (small) pocket of peace; small is optional. Identify the limited calm and its surrounding demands.",
         "register": "Productive pocket metaphor for a small area or interval, not a physical clothing pocket.",
         "boundaryZh": "短暫安寧不表示所有問題已解，也不一定需要完全無聲或獨處。",
         "misconceptionZh": "要說清短暫範圍與周圍情況，不把一刻平靜擴大成全日沒有壓力。",
@@ -3321,8 +3335,8 @@
           "zh": "繁忙活動中，後院提供一小段安寧。"
         },
         {
-          "en": "We protected a small pocket of peace before returning to the discussion.",
-          "zh": "回到討論前，我們保留一小段安寧。"
+          "en": "The quiet corner gave volunteers a pocket of peace between the two noisy workshops.",
+          "zh": "兩場嘈雜工作坊之間，那個安靜角落讓義工得享片刻安寧。"
         }
       ],
       "review": {
@@ -4144,9 +4158,9 @@
       "titleEn": "pulled in ten different directions",
       "titleZh": "被多方要求拉扯",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bpulled in (?:ten )?different directions\\b",
+        "pattern": "\\bpulled in (?:(?:ten )?different directions|too many directions(?: at once)?)\\b",
         "glossaryForbidden": [
           "\\bpulled in\\b",
           "\\bdifferent directions\\b"
@@ -4205,12 +4219,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "pulled in different directions",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0068",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 7,
+          "book": 10,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "New managers can feel pulled in too many directions at once.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pulled in too many directions at once"
         }
       ],
       "brief": {
-        "meaningEn": "Feel pressure from several competing demands on attention, time or decisions.",
-        "meaningZh": "注意、時間或決定受到幾項互相競爭的要求施壓。",
-        "grammar": "be/feel pulled in different directions; ten may intensify the many competing demands and is not an exact count.",
+        "meaningEn": "Feel pressure from several competing demands on attention, time or decisions; too many directions and at once can stress the simultaneous pull.",
+        "meaningZh": "注意、時間或決定受到幾項互相競爭的要求施壓；too many directions 和 at once 可強調同時受到拉扯。",
+        "grammar": "be/feel pulled in different directions or pulled in too many directions at once; ten is an intensifier rather than an exact count. The demands compete for attention or time.",
         "register": "Conventional physical-pulling metaphor. Optional ten is an intensifier in the same competing-demands sense.",
         "boundaryZh": "不必剛好十項，也不一定真的移動；可都是重要要求，卻不能同時滿足。",
         "misconceptionZh": "不是單一清楚優次的工作量大，重點是要求彼此爭時間或方向。",
@@ -4419,8 +4447,8 @@
           "zh": "父母可能因互相競爭的責任，感到被多方拉扯。"
         },
         {
-          "en": "I felt pulled in ten different directions until we agreed which task came first.",
-          "zh": "議定哪項工作先做之前，我感到被多方拉扯。"
+          "en": "With the lab report due and choir rehearsal moved, Mara felt pulled in too many directions at once.",
+          "zh": "實驗報告快到期，合唱團排練時間又更改，瑪拉感到同時被太多事情拉扯。"
         }
       ],
       "review": {
@@ -5788,9 +5816,9 @@
       "titleEn": "glued to their screens",
       "titleZh": "注意力牢牢黏在螢幕上",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bglued to (?:their|the|our|his|her|my|your|a) (?:screens?|phones?)\\b",
+        "pattern": "(?:\\bglued to (?:their|the|our|his|her|my|your|a) (?:screens?|phones?)\\b)|(?:\\bglued to a different screen\\b)",
         "glossaryForbidden": [
           "\\bglued to\\b",
           "\\bscreens?\\b",
@@ -5837,12 +5865,26 @@
           "sentence": "They were glued to their phone all evening.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "glued to their phone"
+        },
+        {
+          "occurrenceId": "book10-16-2231",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 210,
+          "book": 16,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 230, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The family sat together but remained glued to a different screen.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "glued to a different screen"
         }
       ],
       "brief": {
         "meaningEn": "Very absorbed in watching a screen or phone, often with little attention for other things.",
         "meaningZh": "非常專注看螢幕或手機，往往很少注意其他事情。",
-        "grammar": "be glued to a/their screen(s) or phone(s); choose pronoun and singular/plural to match the people and devices. Screen and phone variants express the same absorbed-attention image.",
+        "grammar": "be glued to a screen / their screens / a different screen; the idiom marks intense absorbed attention, not physical glue. Different can distinguish each person's device.",
         "register": "Conventional glue metaphor for absorbed attention; context determines whether the attention is helpful or disruptive.",
         "boundaryZh": "不表示真的不能移動，也不一概指懶惰或成癮；學習或有意義事件也可令人投入。",
         "misconceptionZh": "要看注意集中及情境影響，不只按裝置存在或觀看時間判斷。",
@@ -6052,8 +6094,8 @@
           "zh": "最後結果出現時，他們注意力牢牢黏在螢幕上。"
         },
         {
-          "en": "She was glued to the screen during the live demonstration.",
-          "zh": "直播示範時，她注意力牢牢黏在螢幕上。"
+          "en": "During the meeting, each guest was glued to a different screen instead of joining the discussion.",
+          "zh": "會議期間，各賓客只顧看著不同的螢幕，沒有參與討論。"
         }
       ],
       "review": {

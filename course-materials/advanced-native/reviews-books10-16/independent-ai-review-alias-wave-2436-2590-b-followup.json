@@ -1,0 +1,51 @@
+{
+  "reviewKind": "independent-ai-alias-wave-2436-2590-followup",
+  "createdUtc": "2026-10-23T17:32:49.951893+00:00",
+  "status": "content-clear-at-exact-hash",
+  "inputs": {
+    "owner": {
+      "path": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "sha256": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c"
+    },
+    "audit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2436-2590-a.json",
+      "sha256": "c003f34051e51a2b4848a250bba31f121967d868fca29ad377df653fc8866747"
+    },
+    "decision2436": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "7cdf788c6a21a0c27018d3be465be96b2f1f63a855d14a6cbb4db78c4d51895a"
+    },
+    "decision2590": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "798284460262924fe444b753f9f12ecce9c6277c5b48da5c7823cb2dcc152450"
+    },
+    "initialReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-alias-wave-2436-2590-b.json",
+      "sha256": "e1efacd36a63550fd218655335fca0226af075100d5f7fed9250495e7e5685d5"
+    }
+  },
+  "canonicalId": "advanced-native-801",
+  "contentRevision": 4,
+  "priorFinding": "English connective `though` in listening.explanationZh",
+  "resolution": {
+    "path": "lessons[advanced-native-801].listening.explanationZh",
+    "currentValue": "分擔電話是具體支援，但時間表仍要準備，並非把責任全數轉交。",
+    "assessment": "The Chinese conjunction 但 accurately marks that sharing calls reduces the burden while the final schedule remains the organiser’s responsibility. No stray English connective remains."
+  },
+  "sourceAndDetectorRecheck": {
+    "2436": "Exact source sentence and provenance retained; detector matches the full sentence.",
+    "2590": "Exact source sentence and provenance retained; detector matches the full sentence.",
+    "sense": "Both variants teach partial relief of weight/pressure on the shoulders under the same owner."
+  },
+  "focusedBuildCheck": {
+    "lessons": 21,
+    "questions": 126,
+    "audioRequests": 84,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "globalVerifier": "Author reports full verifier pass after disjoint Pilot repair; not independently rerun in this scoped follow-up.",
+  "approvalScope": "Independent AI content clearance at these file hashes only; no human listening, publication or release certification.",
+  "manifestEdited": false
+}

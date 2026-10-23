@@ -1,0 +1,136 @@
+{
+  "type": "AI author self-audit, not independent human approval",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-2831-4095-review-pilot.json",
+  "draftSha256": "6ac096ae61c2bc669667a3f25d41bdd0770a638e0d9fd530c8f473322557d6d7",
+  "lessons": [
+    {
+      "number": 2831,
+      "sourceId": "book10-16-0720",
+      "sourceExample": "They kept the announcement under wraps until Friday.",
+      "targetMatch": "kept the announcement under wraps",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 3806,
+      "sourceId": "book10-16-1695",
+      "sourceExample": "Families may be trapped in a cycle of pressure and insecurity.",
+      "targetMatch": "trapped in a cycle of",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "Target-only six-token match against duplicate guide source 3851; no non-target carrier reused."
+    },
+    {
+      "number": 3813,
+      "sourceId": "book10-16-1702",
+      "sourceExample": "Training can provide a hand up into a more secure future.",
+      "targetMatch": "a hand up",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 3814,
+      "sourceId": "book10-16-1703",
+      "sourceExample": "Education can help families break out of poverty.",
+      "targetMatch": "break out of poverty",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 4078,
+      "sourceId": "book10-16-1967",
+      "sourceExample": "Families stock up on rice before a holiday.",
+      "targetMatch": "stock up on",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 4079,
+      "sourceId": "book10-16-1968",
+      "sourceExample": "Portable chargers are always in demand.",
+      "targetMatch": "in demand",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 4087,
+      "sourceId": "book10-16-1976",
+      "sourceExample": "Teachers cannot spoon-feed them every solution.",
+      "targetMatch": "spoon-feed them",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    },
+    {
+      "number": 4095,
+      "sourceId": "book10-16-1984",
+      "sourceExample": "The first attempt was nowhere near what they imagined.",
+      "targetMatch": "nowhere near what they imagined",
+      "exactGlossarySpans": 6,
+      "fourReplyOptionsValidByAuthorReview": true,
+      "sourceOriginalitySixTokenMaterialHits": 0,
+      "notes": "No material six-token match against other guide examples."
+    }
+  ],
+  "gates": {
+    "sourceSentencesAndTargetRegex": "8/8 pass",
+    "sevenStepBuilder": "8 lessons, 48 assessed questions, 32 audio requests, 0 review flags",
+    "focusedBuildCheck": "pass",
+    "writingGlossary": "all 48 answer-derived spans exact; target excluded",
+    "fourValidReply": "author-reviewed, one target-bearing golden among four contextually valid responses in each lesson",
+    "enZh": "author-reviewed for source meaning and target boundary; independent AI review pending",
+    "originality": "zero material non-own six-token source-example matches"
+  },
+  "ownerScreen": {
+    "undraftedProposedNewBelow4243": 42,
+    "selectedForBatch": [
+      2831,
+      3806,
+      3813,
+      3814,
+      4078,
+      4079,
+      4087,
+      4095
+    ],
+    "deferred": [
+      {
+        "sourceOrdinal": 3825,
+        "reason": "An uphill climb overlaps canonical 100 an uphill battle in sustained difficulty; distinct image and outcome need owner comparison."
+      },
+      {
+        "sourceOrdinal": 4136,
+        "reason": "Earlier author recorded possible prior owners 339/367 for take things in; source lacks disambiguating object; no lesson drafted."
+      }
+    ],
+    "priorExactTitleMatchesForSelected": 0
+  },
+  "limitations": [
+    "AI author self-audit is not independent editorial, human, media or release approval.",
+    "Pattern checks identify forms, not semantic use in every possible future sentence."
+  ],
+  "initialIndependentReviewRepairs": [
+    {
+      "id": "R3814-01",
+      "resolution": "Contrast key now requires stable income covering basic needs for three years, supporting poverty-escape inference.",
+      "contentRevision": 2
+    },
+    {
+      "id": "R4095-01",
+      "resolution": "Second writing model Traditional Chinese now says the event was very different, not inherently worse.",
+      "contentRevision": 2
+    }
+  ]
+}

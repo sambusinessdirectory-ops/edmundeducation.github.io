@@ -1,0 +1,19 @@
+{
+  "reviewType": "independent-ai-exact-hash-owner-coverage-followup",
+  "scope": "Lesson 2956 pick up the pieces, including alias-new source ordinals 2957, 3022 and 3420",
+  "supersedesFor2956": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2920-3676-b-followup.json",
+  "draftFile": {"path": "course-materials/advanced-native/drafts-books10-16/batch-2920-2956-a.json", "sha256": "a4ef0fa5ddde6c0930e6becdb0e5398fa14e08fbed6dd22ad12872325e328f8a"},
+  "companionDraftHashes": {
+    "batch-2961-3487-a.json": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97",
+    "batch-3564-3676-a.json": "d27898c6d7bb5f1efcf9fbf5a9304191ee2b3ac13285df5fd7dd8912842b6b33"
+  },
+  "authorSelfAuditSha256": "1d014eac56b74d7f977d3e52d39cfbcd03707ee8daf6f942a096231b59d75136",
+  "status": "content-clear-at-listed-hashes",
+  "evidence": [
+    "The bounded target now detects both 'picking up the pieces afterwards' in original source book10-16-0845 and the exact 'pick up the pieces' sentence repeated in alias sources book10-16-0846, book10-16-0911 and book10-16-1309 under live case-insensitive matching.",
+    "The brief and writing task now teach the core idiom with optional 'afterwards'; model 1 handles a rushed announcement, while model 2 shows figurative post-storm recovery after a pantry flood. The second model identifies damaged supplies, temporary storage and help for affected families, so its use is broader than literal picking up debris.",
+    "English and Traditional Chinese in changed writing model 2 align; four exact glossary spans exclude the target, the speaking target span is exact, and four audio role texts remain distinct. The source expression, source sentence and keyed assessment target matches are preserved.",
+    "Independent combined build and --check of all nine final-gap lessons pass: 9 lessons, 54 questions, 36 audio requests, zero flags. No new assessed-field defect found."
+  ],
+  "limits": "Regex matching cannot by itself distinguish a literal use of 'pieces'; the lesson brief and examples establish the intended figurative aftermath. This is AI content clearance only, not publication or human listening certification."
+}

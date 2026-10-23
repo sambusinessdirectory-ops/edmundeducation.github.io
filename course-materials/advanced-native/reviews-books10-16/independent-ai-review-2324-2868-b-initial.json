@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eleven unselected Books 10–16 lessons: 2324, 2329, 2336, 2337, 2339, 2348, 2585, 2657, 2785, 2859, 2868",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2324-2337-a.json", "sha256": "ac70de9461c5f68857bb41ea08513cd167d3104c0bc9963b390935814ce97f9a"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2339-2348-a.json", "sha256": "3057efb36e436f6d7183e8f6afcdce208690ef1dbef64f8adacb021dc82c0bb3"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2585-2657-a.json", "sha256": "ee0b50b5019a9cad2db412216ac0c568685832881dfb1242e06b45d8911c4341"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2785-2868-a.json", "sha256": "699ca99769bca0d8dbc08f55773b365a3fe07b1fc2f7a0e24c3a182a5ff71f2e"}
+  ],
+  "authorSelfAuditSha256": "e04e56b6515c268c9a44c6fdaec2d68193910eff1b15f6d22ba763896550846c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedManifestSha256": "2463050ae4445a25533d0fa693895b9fb955b1ebc91c1301cdab81a9948fb09d",
+  "status": "three-targeted-repairs-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Independent combined build and --check passed: 11 lessons, 66 questions, 44 audio requests, zero review flags.",
+    "sourceTargetSpansAndCollisions": "All 11 exact source examples and phrases match inventory; all 11 live case-insensitive target patterns match sources, all 33 keyed scene/dialogue/reply options match target, all 11 speaking spans and 44 non-target answer-derived glossary spans are exact, all four audio roles are distinct per lesson; zero selected-ordinal collisions.",
+    "originality": "286 learner-facing English strings screened against all 2,604 guide examples: zero substantive non-own six-token or near-complete overlaps; one six-token match in 2339 is only the fixed target phrase 'seemed to disappear into a role'.",
+    "coverageLimit": "Risk-based editorial inspection focused source/owner sense, keyed answers, four-valid replies, Traditional Chinese fidelity and both writing models. Automated passes cannot certify naturalness or human listening."
+  },
+  "ownerComparisons": [
+    {"lesson": 2348, "priorCanonical": 1765, "judgment": "distinct-teaching-outcome", "evidence": "2348 source and lesson use a named analytical perspective ('through the lens of public health'); canonical 1765 fixes 'yesterday' to interpret present choices by past conditions. The 2348 detector excludes yesterday and its tasks require a named angle plus the new question that angle raises. Conceptual construction overlaps, but the assessed sense and complement differ."},
+    {"lesson": 2868, "priorCanonical": 524, "judgment": "distinct-sense", "evidence": "2868 source 'I ran into it while reading the morning feed' and all tasks use an identifiable item found by chance; canonical 524 'run into trouble' teaches encountering difficulties. The objects, meaning and target detectors are separate."}
+  ],
+  "perLesson": [
+    {"number": 2324, "status": "clear", "note": "Mixed feelings develop beneath simple surface events in distinct examples."},
+    {"number": 2329, "status": "clear", "note": "The exaggerated claims retain their evidence-supported partial benefit."},
+    {"number": 2336, "status": "minor-repair", "note": "Scene key Chinese assigns male gender where the student and English key do not."},
+    {"number": 2337, "status": "clear", "note": "Added effects overwhelm the original subtle artistic choice."},
+    {"number": 2339, "status": "clear", "note": "Observable acting choices shift attention from performer to character."},
+    {"number": 2348, "status": "repair-needed", "note": "Reply golden option has an unnatural and ambiguous subject for the act of viewing."},
+    {"number": 2585, "status": "clear", "note": "Peer expectation affects a concrete choice, then the person reconsiders."},
+    {"number": 2657, "status": "clear", "note": "Rapid attention is distinguished from sustained demand."},
+    {"number": 2785, "status": "repair-needed", "note": "One supposedly valid reply does not state that budgeting remains included."},
+    {"number": 2859, "status": "clear", "note": "Headline volume, confusion and selective reading are grounded."},
+    {"number": 2868, "status": "clear", "note": "All uses identify the antecedent of 'it' and an unplanned discovery."}
+  ],
+  "findings": [
+    {"id": "R2348-01", "severity": "major", "lesson": 2348, "path": "reply.options[2].en/zh", "observed": "Golden option 'It views the plan through the lens of public health.' is intended to answer what a nurse's perspective adds. If 'It' means the perspective, a perspective does not itself view a plan; if it means the food-sharing plan, the plan does not view itself. The Chinese '它從公共衞生角度看計劃' has the same unclear actor.", "repair": "Name the viewing actor, for example 'The nurse views the plan through the lens of public health.' / '護士從公共衞生角度看這項計劃。' Preserve the four independently valid replies and target expression."},
+    {"id": "R2785-01", "severity": "major", "lesson": 2785, "path": "reply.options[3].en/zh", "observed": "The prompt asks the coordinator to explain that budgeting remains in the course but is not its whole content. Option D 'Learners can see how the strands fit together' does not say budgeting remains included, so it is not an independently sufficient valid reply.", "repair": "Make D explicitly mention budgeting as one retained strand alongside the other activities, in both languages, without using the target phrase."},
+    {"id": "R2336-01", "severity": "minor", "lesson": 2336, "path": "scene.options[0].zh", "observed": "Scene refers only to '學生' and English keyed option uses neutral 'They', but the Traditional Chinese key says '他'. The male referent is unsupported.", "repair": "Use gender-neutral '這名學生一直把感受藏在心裏' or equivalent, keeping the English target and answer key unchanged."}
+  ],
+  "selectionRecommendation": "Hold the three affected lessons until the exact changed fields are repaired and rechecked. The other eight are content-clear at these hashes; no publication or human listening approval is implied."
+}

@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent-ai-risk-based-canonical-alias-review",
+  "scope": "Pilot's first held-row reconciliation wave: 38 source occurrences converted to existing aliases across eight canonical owners and seven canonical batch files",
+  "authorAudit": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-38-review-pilot.json",
+  "authorAuditSha256": "839dd2f20c4b786f4879f028268e03be90c2186f3369bb3944dea2d0b309fba0",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "canonicalFileHashes": {
+    "course-materials/advanced-native/batches/batch-0011-0025.json": "0349a5172bca66c1a712d2cb76f5708f66f028c80f52f08fdb1648805a495a52",
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "4dfd436849bb48608fb8f08ff09a331f4a2eadb65a650fa699cda2fb35573890",
+    "course-materials/advanced-native/batches/batch-0551-0575.json": "37f28b4dc08ac880693d156b55ef7d4a1d4b3d407a91e8fafc84476e08e79402",
+    "course-materials/advanced-native/batches/batch-0826-0850.json": "51007555e55c787ba669058707e2a66ebcd99c9b748bc3e2c354edb77b906053",
+    "course-materials/advanced-native/batches/batch-0851-0875.json": "c88f6c0ba128739cd198c52ca7e7a7f4a508757c2022b9d8c00775107ea49b86",
+    "course-materials/advanced-native/batches/batch-1126-1150.json": "0e18fc4a29d36762c1575c4678c5027dac7b54eac1529965a5568dec4c0fee81",
+    "course-materials/advanced-native/batches/batch-1801-1825.json": "33e00f8f796ee687e43d2d31984d30ca80b0692e7f0f5d218b1dd06d6d85bf00"
+  },
+  "decisionFileHashSource": "All 23 decision-file SHA-256 values in the exact author audit were independently recomputed and match; 38 individual decision-row hashes also match their on-disk JSONL lines.",
+  "status": "content-and-coverage-clear-at-listed-hashes",
+  "mechanicalValidation": {
+    "sourceAndDecisionProvenance": "All 38 converted rows match inventory source ID, expression and complete example, and each on-disk decision is proposed-alias-existing with the reported canonical ID. All 63 source records attached to the eight canonicals retain exact inventory sentences where available.",
+    "targetCoverage": "Live case-insensitive canonical regex matches every one of the 38 converted source examples and all 63 canonical attached source examples; all author positive and negative controls pass. Scene, dialogue and reply keyed English options remain target-bearing for the eight owners.",
+    "focusedBuildAndCheck": "Independent build and --check passed for each of the seven canonical batch files, 154 total lessons, 924 questions and 616 audio requests across those files, with zero flags.",
+    "changedAudio": "Eight takeaway-2 texts changed and therefore need their own synthesis keys/audio refresh; other audio roles were not declared reviewed by listening."
+  },
+  "ownerSenseReview": [
+    {"canonicalId": "advanced-native-021", "convertedRows": 14, "judgment": "clear", "evidence": "The passive 'are drawn to' and active feeling form express the same attraction, including attraction to a garden or narrative pace. The revised brief teaches both constructions and detector excludes drawn-to-scale and drawn-to-conclusion frames."},
+    {"canonicalId": "advanced-native-283", "convertedRows": 2, "judgment": "clear", "evidence": "A teacher leaving a lasting mark on pupils is the same enduring influence metaphor as a strong or deep mark; lasting adds duration. The revised dialogue key acknowledges lasting effect without claiming permanent inability to change, and its two distractors do not satisfy the prompt."},
+    {"canonicalId": "advanced-native-567", "convertedRows": 16, "judgment": "clear", "evidence": "A schedule that looks simple on paper has the same apparent-versus-practical contrast as good/impressive/secure on paper. The brief does not assume practical failure; the revised dialogue key asks for timing real set moves before treating the timetable as workable, unlike its two premature-commitment distractors."},
+    {"canonicalId": "advanced-native-837", "convertedRows": 1, "judgment": "clear", "evidence": "Dropping 'small' preserves the limited calm within a busy setting; the source garden near a road and revised takeaway's quiet corner carry the same pocket-of-peace image."},
+    {"canonicalId": "advanced-native-841", "convertedRows": 1, "judgment": "clear", "evidence": "Too many directions at once describes simultaneous competing demands, the same sense as ten different directions; the new form is taught in grammar and takeaway."},
+    {"canonicalId": "advanced-native-855", "convertedRows": 1, "judgment": "clear", "evidence": "So fine intensifies a tiny timing margin without asserting lateness; the station source, revised grammar and takeaway agree."},
+    {"canonicalId": "advanced-native-1149", "convertedRows": 1, "judgment": "clear", "evidence": "Unexpected calls eating into the day consumes usable time, fitting the finite-resource metaphor of eating into budget, time and energy; the new takeaway makes the lost time concrete."},
+    {"canonicalId": "advanced-native-1821", "convertedRows": 2, "judgment": "clear", "evidence": "Wait until the last minute extends delay to near a deadline and is properly distinguished in grammar from a last-minute trip and action at the last minute; revised takeaway gives a natural task deadline example."}
+  ],
+  "limits": "AI editorial and mechanical clearance of the 38 conversions only. Four other held-row conversions by Author A are outside this scope. Changed audio has not been listened to, and this is not publication or human approval."
+}

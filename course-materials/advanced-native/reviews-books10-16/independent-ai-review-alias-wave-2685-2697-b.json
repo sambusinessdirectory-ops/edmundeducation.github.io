@@ -1,0 +1,47 @@
+{
+  "reviewKind": "independent-ai-alias-wave-2685-2697",
+  "createdUtc": "2026-10-23T17:46:48.578362+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "b5f2a5fc390fb3a3b66e370b198c538475dd4c9bf1726e7f0797c5651429ffa6",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "files": {
+    "course-materials/advanced-native/batches/batch-1051-1075.json": "790ba2b71518e3b17b578fbaca764e138a45e08614df854d7211b36269520361",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl": "aa7f55ad1b96bf4fa733c7059d6839e6f3382c1c5b97563d5e9d6c0589a681a6",
+    "course-materials/advanced-native/batches/batch-0401-0425.json": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2685,
+      "sourceId": "book10-16-0574",
+      "canonicalId": "advanced-native-1054",
+      "decisionRowSha256": "e89b4737b25a7b75baf749d2713be2aa2da2c9bf8f6f08eb4d45a5465e080430",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 2697,
+      "sourceId": "book10-16-0586",
+      "canonicalId": "advanced-native-422",
+      "decisionRowSha256": "e754eba942bce4bf4401872e862a4bf74cfdd24c8aecab901ab33bf3654af896",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": {
+    "2685": "Active lock-it-in-a-glass-case and passive sitting-in-a-glass-case use the same freeze-a-living-tradition metaphor. The repaired dialogue key now reads naturally in English and Traditional Chinese, preserves the target span, and distinguishes teaching with safe copies from damaging originals.",
+    "2697": "Full take-the-wind-out-of-industry-sails and shortened wind-out-of-suspense both describe a setback to force or appeal. The youth-orchestra takeaway transfers this loss of momentum without copying the falling-sales source."
+  },
+  "focusedBuildCheck": {
+    "lessons": 45,
+    "questions": 270,
+    "audioRequests": 180,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI source/content clearance; no human listening, release, or publication certification.",
+  "manifestEdited": false,
+  "published": false
+}

@@ -1,0 +1,29 @@
+{
+  "reviewType": "independent-ai-exact-hash-focused-followup",
+  "scope": "Recheck R3814-01 and R4095-01 in eight unselected lessons 2831, 3806, 3813, 3814, 4078, 4079, 4087, 4095",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2831-4095-review-pilot.json",
+    "sha256": "6ac096ae61c2bc669667a3f25d41bdd0770a638e0d9fd530c8f473322557d6d7"
+  },
+  "authorSelfAuditSha256": "0da445fe5dd0d067510fe3c4c3f2b755e742e97ffbbf5807302bd93441d51828",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2831-4095-b-initial.json",
+  "status": "content-clear-at-exact-hash",
+  "validation": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "glossary": "All 48 answer-derived glossary spans remain exact and exclude the target expression.",
+    "unchangedLessons": "2831, 3806, 3813, 4078, 4079 and 4087 retain the initial review clearance."
+  },
+  "findingsRechecked": [
+    {
+      "id": "R3814-01",
+      "status": "resolved",
+      "evidence": "The keyed contrast now specifies three years of stable work that covers basic needs before saying the household broke out of poverty. Traditional Chinese conveys both duration and basic-cost sufficiency. The two incorrect options remain clearly distinct."
+    },
+    {
+      "id": "R4095-01",
+      "status": "resolved",
+      "evidence": "Second writing model's Chinese now says `與原先想像相差很遠` and retains the 30-person indoor versus 200-person outdoor contrast and positive evaluation, matching English without a worse-than implication."
+    }
+  ],
+  "coverageLimit": "Exact-hash scoped recheck of changed items and glossary integrity plus build/check; earlier full-batch risk-based review is in the linked report. This is AI content clearance, not release certification."
+}

@@ -1,0 +1,65 @@
+{
+  "reviewKind": "independent-ai-hold-merges-wave6",
+  "createdUtc": "2026-10-23T17:37:21.338153+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "65b4c4683d4342e956e0e2f949118cf61ed72336c9f6b82ec52ff24ff4a87b42",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "files": {
+    "course-materials/advanced-native/batches/batch-1801-1825.json": "f6d723b48971c110fa99237586ebc3a3914c121ee92057a691dbebd374fbf5e7",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl": "e04b56ccb67bf03f5d1efcddd1f76e1cc96ca64bb7f23901f543adb70962db8b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl": "37fb72bbdb20f1969741ce82f9f9d8c0ae79aac8170f67ebb04ecf23280394ee",
+    "course-materials/advanced-native/batches/batch-0401-0425.json": "ecad79975e7ae9d0efcb86ecede4503848862f78e79060bcb159b44acaac4966",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl": "e18ad7c4b70e5530bca299c1558c58dac937266db682223d822caa407cff0827",
+    "course-materials/advanced-native/batches/batch-0526-0550.json": "e842b9de4bd24df07e8f4b696e6b2026ed3a60ec8fbfc8a2e35501c0dc08f907"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3884,
+      "sourceId": "book10-16-1773",
+      "canonicalId": "advanced-native-1813",
+      "decisionRowSha256": "c43d95ed9f696aedeb51c387d7390a356abc1bf4763d0c51d360b2db4fa3d034",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4046,
+      "sourceId": "book10-16-1935",
+      "canonicalId": "advanced-native-1813",
+      "decisionRowSha256": "f41e1e5fe3b1c1a9b8f8f2e1db4ae83b7569d46a5afaf8abae84be74400c885f",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4092,
+      "sourceId": "book10-16-1981",
+      "canonicalId": "advanced-native-419",
+      "decisionRowSha256": "cb8c62051f3aaeb6326fda86e7e0c843d07481356cb61316860b49d642d760b4",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4134,
+      "sourceId": "book10-16-2023",
+      "canonicalId": "advanced-native-534",
+      "decisionRowSha256": "0237787c35ebabe7e17d3e08572cc9419964e712e132b4059183d353a8ac72c6",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": "3884 and 4046 are shopping instances of spontaneous action on a whim; 4092 omits optional two but retains independent-function sense; 4134 slip is the same missed-by-a-process idiom as fall through the cracks. Canonical briefs already include these forms and no assessed text or audio changed.",
+  "focusedBuildCheck": {
+    "lessons": 67,
+    "questions": 402,
+    "audioRequests": 268,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Risk-based source/owner/provenance review at recorded hashes; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

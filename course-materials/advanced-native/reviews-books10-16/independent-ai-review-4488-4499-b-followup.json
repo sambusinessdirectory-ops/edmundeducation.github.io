@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent-ai-exact-hash-focused-followup",
+  "scope": "Recheck R4488-01 and R4499-01 in four unselected lessons 4488, 4492, 4497, 4499",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4488-4499-a.json",
+    "sha256": "f4c3d3aec3a0765d3c0db73992044e30ea57a1a1c51d35854c77122f2e175b97"
+  },
+  "authorSelfAuditSha256": "6f4f35186e549241986e65c43df89e8c7cdff65a3a2061f73c51bb85f7937689",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-4488-4499-b-initial.json",
+  "status": "content-clear-at-exact-hash",
+  "validation": {
+    "focusedBuildAndCheck": "4 lessons, 24 questions, 16 audio requests, zero flags",
+    "glossary": "All 19 answer-derived glossary spans across the four lessons point to exact, non-target English text; each lesson has 4–5 spans.",
+    "sourceOriginality": "Changed 4488 and 4499 models are distinct from their guide source sentences; author full 2,604-example originality screen reports zero exact/high/medium/fuzzy non-target hits."
+  },
+  "findingsRechecked": [
+    {
+      "id": "R4488-01",
+      "status": "resolved",
+      "evidence": "Second writing model now has a harvest celebration entering a coastal community, adding local seaweed dishes while retaining its thanksgiving ritual; English and Traditional Chinese express the cultural adaptation and retained purpose."
+    },
+    {
+      "id": "R4499-01",
+      "status": "resolved",
+      "evidence": "Meaning and boundary no longer require heaviness. The scene tests a compact reinforced camera, and second writing model has a one-hand survey meter with reinforced seams and a shock-resistant case. This distinguishes physical robustness from 4492's demonstrated long service."
+    }
+  ],
+  "perLesson": [
+    {"number": 4488, "status": "clear"},
+    {"number": 4492, "status": "clear-unchanged"},
+    {"number": 4497, "status": "clear-unchanged"},
+    {"number": 4499, "status": "clear"}
+  ],
+  "coverageLimit": "Focused recheck of prior findings, changed English/Traditional Chinese and glossary integrity plus build/check. This is AI content clearance at the stated SHA, not release certification."
+}

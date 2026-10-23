@@ -1,0 +1,71 @@
+{
+  "reviewKind": "independent-ai-alias-wave-2422-2602",
+  "createdUtc": "2026-10-23T17:34:01.269930+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "inputs": {
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2422-2602-a.json",
+      "sha256": "5e65f964ba8b78aeb0395efe45ceeeaa3855e13cefc3ade7e92a81d446339c71"
+    },
+    "canonical579": {
+      "path": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "sha256": "3468bb34e0bdeb8dc1ea2fb404d466b378dfd5719be3015efbd850e927e878a1"
+    },
+    "canonical1875": {
+      "path": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "sha256": "2a945c4d4699d6735bdf2c27429f7c7560c9df0d5829948bc0b88118adca166c"
+    },
+    "decision2422": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "b17c453efe4cf8d10faf8ef72e7196351e2491820748860dfac68506bbeb6da0"
+    },
+    "decision2602": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "eab6576689ff74798ea802b0f1d5b2e42dfe8816fc0499780c87099b57346c3a"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2422,
+      "sourceId": "book10-16-0311",
+      "canonicalId": "advanced-native-579",
+      "decisionRowSha256": "0ce80b71a5affbdb819c71dfc1039063a1ecccbe8607893dc74cd6b072cbf0eb",
+      "sameSense": true,
+      "sourceAndProvenanceExact": true,
+      "fullSourceRegexMatch": true
+    },
+    {
+      "sourceOrdinal": 2602,
+      "sourceId": "book10-16-0491",
+      "canonicalId": "advanced-native-1875",
+      "decisionRowSha256": "34ca626029df50b3af3daa05c356edfb795f8ce2b940c5387fffaca0237e07a9",
+      "sameSense": true,
+      "sourceAndProvenanceExact": true,
+      "fullSourceRegexMatch": true
+    }
+  ],
+  "editorialAssessment": {
+    "2422": "The quantifier whole day increases duration but keeps canonical 579’s eat-up-time meaning. New book-cataloguing takeaway is distinct from the repairs source; target-bearing dialogue stays fair.",
+    "2602": "The unmodified phrase names the same flexibility as canonical 1875’s least-room comparative. The new museum staffing example naturally teaches the base form while comparison tasks retain the original lesson outcome."
+  },
+  "regexControls": {
+    "579": "Full source, half-day and entire-day variants match; unrelated eat-up-the-leaf and missing-particle controls reject.",
+    "1875": "Full source and original least-room source match; room-for-manoeuvre alternative does not match. The lexical detector also matches literal “truck has room to manoeuvre”; the lesson text explicitly distinguishes physical floor space, but regex alone cannot assess context."
+  },
+  "changedContentReview": "Exact source metadata retained. Updated briefs/takeaways and 579 target-bearing dialogue have coherent EN/Traditional Chinese meaning. Existing six answer keys and writing/glossary spans remain structurally valid.",
+  "focusedBuildCheck": {
+    "lessons": 44,
+    "questions": 264,
+    "audioRequests": 176,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Content and lexical source coverage reviewed; regex cannot decide figurative versus literal use without context. No human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

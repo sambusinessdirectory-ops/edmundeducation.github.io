@@ -1,0 +1,275 @@
+{
+  "reviewType": "AI author self-audit; independent and human release gates pending",
+  "scope": "Six same-sense source variants routed to existing canonical lessons with bounded target and takeaway revisions",
+  "rows": [
+    {
+      "sourceOrdinal": 4106,
+      "sourceId": "book10-16-1995",
+      "sourcePhrase": "pick things up quickly",
+      "sourceExample": "She can pick things up quickly in a practical lesson.",
+      "sourceMeaning": "Learn things rapidly and informally; a natural phrasal verb.",
+      "canonicalId": "advanced-native-441",
+      "canonicalMeaning": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0426-0450.json",
+      "canonicalFileBeforeSha256": "5e5733e6596ccd723e9ff883053c35bbf2cf2da89eed9cf85647105dd85e8c0d",
+      "oldPattern": "\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b",
+      "newPattern": "(?:\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b)|(?:\\bpick(?:s|ed|ing)? things up quickly\\b)",
+      "positive": [
+        "She can pick things up quickly in a practical lesson.",
+        "At the workshop, Nia picked things up quickly by testing each setting on a spare microphone."
+      ],
+      "negative": [
+        "She lifted the tools from the floor.",
+        "She collected the parcel quickly."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1995",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 188,
+        "book": 15,
+        "question": 26,
+        "sample": "S2",
+        "sourceBookPages": "62–63",
+        "locatorNote": "DOCX table 204, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "She can pick things up quickly in a practical lesson.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "pick things up quickly"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091",
+      "decisionFileAfterSha256": "0326179a32460bdcbbba25a448741b74ef5c41b282c86dae0c7f8ba2eab562e2"
+    },
+    {
+      "sourceOrdinal": 4356,
+      "sourceId": "book10-16-2245",
+      "sourcePhrase": "carry even more weight",
+      "sourceExample": "Subtle details can carry even more weight among collectors.",
+      "sourceMeaning": "Have greater significance; a fixed load idiom.",
+      "canonicalId": "advanced-native-767",
+      "canonicalMeaning": "Have influence or importance, including the importance of consequential choices. In the main examples here, it concerns persuasive force in a decision or discussion.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "canonicalFileBeforeSha256": "5509059bcc0b8e4dcce5b72c58c3433369dba20f8f79cf2e1c1542985ac03ab4",
+      "oldPattern": "\\b(?:carry|carries|carried|carrying) (?:some |real |more |enormous |a lot of )?weight\\b",
+      "newPattern": "(?:\\b(?:carry|carries|carried|carrying) (?:some |real |more |enormous |a lot of )?weight\\b)|(?:\\b(?:carry|carries|carried|carrying) even more weight\\b)",
+      "positive": [
+        "Subtle details can carry even more weight among collectors.",
+        "After the cataloguing errors surfaced, the conservator’s notes carried even more weight in the committee’s decision."
+      ],
+      "negative": [
+        "The porter carried a heavy box.",
+        "The exhibit weighs more than before."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-2245",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 212,
+        "book": 16,
+        "question": 17,
+        "sample": "S2",
+        "sourceBookPages": "41–42",
+        "locatorNote": "DOCX table 232, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Subtle details can carry even more weight among collectors.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "carry even more weight"
+      },
+      "contentRevision": 3,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "d7f002689cc1c7143500e27138982053f5ee94e3436e1977e896f07f0b9edaff",
+      "decisionFileAfterSha256": "6dabaa3704f3a200e46d8d3c506692684e1cfab12ed346a4088433541532fba4"
+    },
+    {
+      "sourceOrdinal": 4332,
+      "sourceId": "book10-16-2221",
+      "sourcePhrase": "gold dust",
+      "sourceExample": "Quiet time is gold dust in a busy office.",
+      "sourceMeaning": "Something especially valuable or hard to obtain; a fixed idiom.",
+      "canonicalId": "advanced-native-461",
+      "canonicalMeaning": "Extremely difficult to obtain and therefore highly valued.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0451-0475.json",
+      "canonicalFileBeforeSha256": "7cfc0e1acdda990bbc6de7ffc59f305478f30973e3756d958a1b8db703904754",
+      "oldPattern": "\\blike gold dust\\b",
+      "newPattern": "(?:\\blike gold dust\\b)|(?:\\b(?:is|are|was|were|be|been|being) gold dust\\b)",
+      "positive": [
+        "Quiet time is gold dust in a busy office.",
+        "In the crowded clinic, an uninterrupted ten minutes was gold dust for the duty nurse."
+      ],
+      "negative": [
+        "The jeweller collected gold dust from the bench.",
+        "The nurse bought a gold bracelet."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-2221",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 209,
+        "book": 16,
+        "question": 14,
+        "sample": "S1",
+        "sourceBookPages": "33–34",
+        "locatorNote": "DOCX table 229, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Quiet time is gold dust in a busy office.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "gold dust"
+      },
+      "contentRevision": 3,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "c02c8116216dc85a18f706ed8b3ac8878e3372f1eda7cbc1ed7e0e183f68886b",
+      "decisionFileAfterSha256": "6dabaa3704f3a200e46d8d3c506692684e1cfab12ed346a4088433541532fba4"
+    },
+    {
+      "sourceOrdinal": 4301,
+      "sourceId": "book10-16-2190",
+      "sourcePhrase": "gather real momentum",
+      "sourceExample": "Joint projects can gather real momentum.",
+      "sourceMeaning": "Gain speed and force; a fixed motion idiom.",
+      "canonicalId": "advanced-native-1161",
+      "canonicalMeaning": "Develop progress or participation that helps further progress become easier or more likely.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "canonicalFileBeforeSha256": "d7199fd0e1a69eea13b9a781a68af16cafaf389217459e811906c7098ab6369d",
+      "oldPattern": "\\bbuild(?:s|ing)? momentum\\b|\\bbuilt momentum\\b",
+      "newPattern": "(?:\\bbuild(?:s|ing)? momentum\\b|\\bbuilt momentum\\b)|(?:\\b(?:gather|gathers|gathered|gathering) (?:real )?momentum\\b)",
+      "positive": [
+        "Joint projects can gather real momentum.",
+        "The repair campaign gathered real momentum once three local groups offered volunteers."
+      ],
+      "negative": [
+        "The team gathered tools before work.",
+        "The car gained speed downhill."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-2190",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 206,
+        "book": 16,
+        "question": 10,
+        "sample": "S1",
+        "sourceBookPages": "24–26",
+        "locatorNote": "DOCX table 225, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Joint projects can gather real momentum.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "gather real momentum"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "dbe1c5a50f7b6fcb97852b95988a17f96c82c61d5cca94f57240881e83405613",
+      "decisionFileAfterSha256": "2f808a80fca195ef96d2b0b09030b665226068474b3def672b09e03eb008450d"
+    },
+    {
+      "sourceOrdinal": 4443,
+      "sourceId": "book10-16-2332",
+      "sourcePhrase": "make it right",
+      "sourceExample": "She promised to make it right with her colleague.",
+      "sourceMeaning": "Correct harm or a mistake; a fixed expression.",
+      "canonicalId": "advanced-native-778",
+      "canonicalMeaning": "Take action to correct a mistake or repair the harm caused.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "canonicalFileBeforeSha256": "4dfc4e5a88e45bed1fca3be3dd7009b6031ff09432d9b00547c88590101f7d4d",
+      "oldPattern": "\\b(?:put|puts|putting) things right\\b",
+      "newPattern": "(?:\\b(?:put|puts|putting) things right\\b)|(?:\\b(?:make|makes|made|making) it right\\b)",
+      "positive": [
+        "She promised to make it right with her colleague.",
+        "After sending the wrong timetable, the organiser made it right by contacting every participant and booking another room."
+      ],
+      "negative": [
+        "The organiser made a right turn.",
+        "She said sorry but took no corrective action."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-2332",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 220,
+        "book": 16,
+        "question": 27,
+        "sample": "S2",
+        "sourceBookPages": "66–67",
+        "locatorNote": "DOCX table 242, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "She promised to make it right with her colleague.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "make it right"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "4a488d77dd24b38eb3344be88ca5b0691bfbfacecc72ce1a2931d6885de28c4a",
+      "decisionFileAfterSha256": "09a91fb29100cf828c0f92eb223b10f09215e2c2fc2ddbaf29a777fcfe585173"
+    },
+    {
+      "sourceOrdinal": 4006,
+      "sourceId": "book10-16-1895",
+      "sourcePhrase": "lean more towards",
+      "sourceExample": "Younger members may lean more towards group classes.",
+      "sourceMeaning": "Show a stronger preference for one option; a natural figurative verb pattern.",
+      "canonicalId": "advanced-native-430",
+      "canonicalMeaning": "Have a preference for one possibility without necessarily making a final commitment.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0426-0450.json",
+      "canonicalFileBeforeSha256": "5e5733e6596ccd723e9ff883053c35bbf2cf2da89eed9cf85647105dd85e8c0d",
+      "oldPattern": "\\blean(?:s|ed|ing|t)? towards\\b",
+      "newPattern": "(?:\\blean(?:s|ed|ing|t)? towards\\b)|(?:\\b(?:lean|leans|leaned|leaning|leant) more towards\\b)",
+      "positive": [
+        "Younger members may lean more towards group classes.",
+        "After trying both formats, the volunteers leaned more towards short evening sessions."
+      ],
+      "negative": [
+        "The shelf tilted towards the wall.",
+        "The vote was final and unanimous."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1895",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 179,
+        "book": 15,
+        "question": 15,
+        "sample": "S2",
+        "sourceBookPages": "34–36",
+        "locatorNote": "DOCX table 193, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Younger members may lean more towards group classes.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "lean more towards"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091",
+      "decisionFileAfterSha256": "e374cb6580f79ef7e7ab840b0870ea1f2d5e7a907231dce59f0fd21fc8badca5"
+    }
+  ],
+  "deferred": [
+    {
+      "sourceOrdinal": 3845,
+      "reason": "Passive institution-level stretched to breaking point may exceed canonical 1889 person-level capacity scope."
+    },
+    {
+      "sourceOrdinal": 3768,
+      "reason": "Advert get its foot in the door has uncertain agency and differs from canonical 1892 career-entry context."
+    }
+  ],
+  "checks": {
+    "fullSourceDetectorMatch": true,
+    "exactSourceProvenance": true,
+    "twoControlsPerOwner": true,
+    "fiveFocusedBatchBuildAndCheck": "5/5 build and --check, 113 lessons/678 questions/452 audio roles, zero flags",
+    "wholeCatalogueVerifier": "2604 decisions, 553 selected drafts, 3318 questions, 2212 audio roles; zero schema/alias exceptions at check time",
+    "allDiscoveredAliasAudit": "1087/1087 full-source matches, zero exceptions at check time",
+    "holdCoverage": "806 current holds, zero unaudited/errors at check time",
+    "targetBearingDialogueKeys": "6/6 revised canonical owners have fair keyed answers containing the target, English and Traditional Chinese aligned",
+    "changedAudioRequests": "6 takeaway-2 items generated from focused audio queues, zero listening changes",
+    "gitDiffCheck": "passed",
+    "registerSelfCorrection": "Canonical 461 register now explicitly covers both like gold dust comparison and be gold dust direct metaphor, contentRevision 3; focused build/check still passes."
+  },
+  "counts": {
+    "holdRowsConverted": 6,
+    "canonicalOwnerFilesChanged": 5,
+    "decisionFilesChanged": 5,
+    "takeawayAudioRefresh": 6
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "reviewType": "AI author self-audit, not independent human or release approval",
+  "scope": "Third high-confidence held-source to existing-owner alias wave, with bounded target expansion and exact source provenance.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "owners": [
+    {
+      "canonicalId": "advanced-native-711",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0701-0725.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:follow|follows|followed|following) a script\\b",
+      "newPattern": "(?:\\b(?:follow|follows|followed|following) a script\\b)|(?:\\b(?:follow|follows|followed|following) a rigid script\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        2895
+      ],
+      "positive": [
+        "Parenting need not follow a rigid script.",
+        "Organisers should leave time for discussion instead of following a rigid script throughout the workshop."
+      ],
+      "negative": [
+        "The actor reads from a script.",
+        "The timetable is rigid."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "e79ddc6190d9a97b3cd764ffc7ee1c4dbb97556fce5799a71f4f99c492a592d6",
+      "newAudioSynthesisKey": "d168326da678b70d1fb36fca6c431309fd5c90b05ce0ef266b4f6ec133e45551",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-156",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:strike|strikes|striking|struck) a balance\\b",
+      "newPattern": "(?:\\b(?:strike|strikes|striking|struck) a balance\\b)|(?:\\b(?:strike|strikes|striking|struck) the right balance\\b)",
+      "oldSourceMatchesRetained": 5,
+      "newSourceOrdinals": [
+        2941
+      ],
+      "positive": [
+        "The host must strike the right balance between planning and spontaneity.",
+        "A useful timetable strikes the right balance between quiet study and group discussion."
+      ],
+      "negative": [
+        "The coach struck the ball.",
+        "The balance is on the table."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "newAudioSynthesisKey": "b46efa9a801f0cb6336f2d62055acac923daaf2ff3d97867b16256d6d37d8894",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-801",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:take|takes|taking|took|taken) (?:a |the |some )?(?:heavy )?weight off (?:my|your|his|her|our|their|(?:elderly |older )?people[’\\x27]s) shoulders\\b",
+      "newPattern": "(?:\\b(?:take|takes|taking|took|taken) (?:a |the |some )?(?:heavy )?weight off (?:my|your|his|her|our|their|(?:elderly |older )?people[’\\x27]s) shoulders\\b)|(?:\\b(?:(?:take|takes|taking|took|taken) (?:a bit of weight|a real burden|a lot of weight) off (?:their|people[’']s|teachers[’']) shoulders|(?:lift|lifts|lifted|lifting) that weight off their shoulders)\\b)",
+      "oldSourceMatchesRetained": 4,
+      "newSourceOrdinals": [
+        3103,
+        3436,
+        3713,
+        4271
+      ],
+      "positive": [
+        "A sympathetic call can take a bit of weight off their shoulders.",
+        "A prepared meal lifts that weight off their shoulders.",
+        "The service can take a real burden off people's shoulders.",
+        "Automated marking can take a lot of weight off teachers' shoulders.",
+        "Sharing administrative work takes a lot of weight off teachers’ shoulders while leaving feedback decisions with them."
+      ],
+      "negative": [
+        "The porter lifted that weight onto their shoulders.",
+        "The student carries a heavy bag on her shoulders."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "cf2a3fad1507819d7b79710b526b83b0077d95ec275b7eabcb3ba59b348512f3",
+      "newAudioSynthesisKey": "dd39e1f98976faa1976df0fab664be5af028a8c41003314a37a8701afda40e4d",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1129",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1126-1150.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:light(?:s|ing)?|lit|lighted) a fire under (?:a child|(?:the )?(?:child|children|group|team|employees)|me|you|him|her|us|them)\\b",
+      "newPattern": "(?:\\b(?:light(?:s|ing)?|lit|lighted) a fire under (?:a child|(?:the )?(?:child|children|group|team|employees)|me|you|him|her|us|them)\\b)|(?:\\b(?:light|lights|lighting|lit|lighted) a fire under (?:a student|someone)\\b)",
+      "oldSourceMatchesRetained": 2,
+      "newSourceOrdinals": [
+        3262
+      ],
+      "positive": [
+        "One encouraging comment can light a fire under a student.",
+        "A challenge she can actually meet may light a fire under a student who has lost momentum."
+      ],
+      "negative": [
+        "They lit a fire under the kettle.",
+        "The student stood beside a fire."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "d9b26337d4eabe5b3633a361136e04e2cbd2cd423b77326a1494039b7efb3d53",
+      "newAudioSynthesisKey": "cea16e5854cb94fff0048ac47e7ffc5a0cb2697a2aa78760cdd1995b64346402",
+      "changedDialogueKey": false,
+      "changedSceneKey": true
+    },
+    {
+      "canonicalId": "advanced-native-1162",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:throw(?:s|n|ing)?|threw)(?: (?:me|you|him|her|us|them|the panel))? (?:a|a few|two|some) curveballs?\\b",
+      "newPattern": "(?:\\b(?:throw(?:s|n|ing)?|threw)(?: (?:me|you|him|her|us|them|the panel))? (?:a|a few|two|some) curveballs?\\b)|(?:\\b(?:throw(?:s|n|ing)?|threw) curveballs(?: at (?:me|you|him|her|us|them))?\\b)|(?:\\b(?:throw(?:s|n|ing)?|threw) (?:me|you|him|her|us|them) an unexpected curveball\\b)",
+      "oldSourceMatchesRetained": 2,
+      "newSourceOrdinals": [
+        3314
+      ],
+      "positive": [
+        "The project kept throwing curveballs at us.",
+        "Each permit review threw curveballs at us, so we scheduled extra time for revisions."
+      ],
+      "negative": [
+        "The pitcher threw a fastball at the batter.",
+        "The project threw a party for us."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "848c2bf452e688916b42149880eca81099805ceee3141cc99abaf329714c0797",
+      "newAudioSynthesisKey": "0fd12e72723cfb7f787cb3848eb15d21a2bf8d540ccea56454bb82d0fe1eaa95",
+      "changedDialogueKey": false,
+      "changedSceneKey": true
+    },
+    {
+      "canonicalId": "advanced-native-504",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0501-0525.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? beneath (?:me|you|him|her|us|them)\\b",
+      "newPattern": "(?:\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? beneath (?:me|you|him|her|us|them)\\b)|(?:\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? under (?:my|your|his|her|our|their) feet\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        3353
+      ],
+      "positive": [
+        "Adaptability matters when the ground shifts under your feet.",
+        "The ground shifted under their feet when the timetable changed overnight; workers need time to adapt."
+      ],
+      "negative": [
+        "The ground shook under your feet during the quake.",
+        "The road shifted a little in the heat."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "7d77855e7b9c15337897ae850f597853d4b4065ed057dfa40d61786687ed2d36",
+      "newAudioSynthesisKey": "a7980bf40ae274079f3f5180b33966d4e50cd2e5163fb15d5b6b6282d836f423",
+      "changedDialogueKey": true,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1869",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:have|has|had|having|put(?:ting)?) all (?:my|our|their|your|her|his|the) eggs in one basket\\b",
+      "newPattern": "(?:\\b(?:have|has|had|having|put(?:ting)?) all (?:my|our|their|your|her|his|the) eggs in one basket\\b)|(?:\\b(?:have|has|had|having|put(?:ting)?) all its eggs in one basket\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        3404
+      ],
+      "positive": [
+        "A supplier should not put all its eggs in one basket.",
+        "By booking three venues, the theatre avoids putting all its eggs in one basket."
+      ],
+      "negative": [
+        "The farmer put a few eggs in one basket.",
+        "The shop arranged eggs in several baskets."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "newAudioSynthesisKey": "37601ce0f2316047c6eb68e64fbce51d537de882b688fe9bb8d0a7465e767589",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1861",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bpull(?:s|ed|ing)? the rug out from under (?:them|me|us|her|him|you|someone)\\b",
+      "newPattern": "(?:\\bpull(?:s|ed|ing)? the rug out from under (?:them|me|us|her|him|you|someone)\\b)|(?:\\b(?:pull|pulls|pulled|pulling) the rug out from under local people\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        3423
+      ],
+      "positive": [
+        "A policy should not pull the rug out from under local people.",
+        "Closing the only evening clinic without notice would pull the rug out from under local people."
+      ],
+      "negative": [
+        "The caretaker pulled a rug out from under the table.",
+        "Local people bought a new rug."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "newAudioSynthesisKey": "d0b6e506b4d0c7645a768f13fca7c0f37f5069c24b9a71068b6207023a22a0fd",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1806",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:a (?:real )?reset(?: button)?|press(?:es|ed|ing)? reset)\\b",
+      "newPattern": "(?:\\b(?:a (?:real )?reset(?: button)?|press(?:es|ed|ing)? reset)\\b)|(?:\\ba small reset button\\b)",
+      "oldSourceMatchesRetained": 4,
+      "newSourceOrdinals": [
+        3466
+      ],
+      "positive": [
+        "A walk at lunchtime can be a small reset button.",
+        "Before the next appointment, five minutes of quiet may serve as a small reset button."
+      ],
+      "negative": [
+        "She pressed a tiny button on the router.",
+        "The button is small but red."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "e8b7c0e76f5d69b1811ff62361ea32503f447dae559ea40f77bebaafa20cccb9",
+      "newAudioSynthesisKey": "6893d232d422d9df8e51135503fb1c24589b2384185fd8d7cb2c2c5e96d622db",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-554",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:widen|widens|widened|widening|broaden|broadens|broadened|broadening|expand|expands|expanded|expanding) (?:my|your|his|her|our|their|people[’\\x27]s|young people[’\\x27]s) horizons\\b",
+      "newPattern": "(?:\\b(?:widen|widens|widened|widening|broaden|broadens|broadened|broadening|expand|expands|expanded|expanding) (?:my|your|his|her|our|their|people[’\\x27]s|young people[’\\x27]s) horizons\\b)|(?:\\b(?:widen|widens|widened|widening) society[’']s horizons\\b)",
+      "oldSourceMatchesRetained": 5,
+      "newSourceOrdinals": [
+        3596
+      ],
+      "positive": [
+        "Research can widen society's horizons.",
+        "Public access to archived letters may widen society’s horizons about daily life in the past."
+      ],
+      "negative": [
+        "The engineer widened the physical horizon.",
+        "Society's horizon is drawn in blue."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "5e1276221679ff19f97a549a2a5bf63777a9ad79423b94100a33cc45b06a6ae1",
+      "newAudioSynthesisKey": "cb06dc85ca8a282b175c54fcf98f9952b5035a359d6871ba3e9c402051fa881f",
+      "changedDialogueKey": true,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-057",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0051-0075.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:hit|hits|hitting)\\s+a\\s+wall\\b",
+      "newPattern": "(?:\\b(?:hit|hits|hitting)\\s+a\\s+wall\\b)|(?:\\b(?:hit|hits|hitting)\\s+that\\s+wall\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        4127
+      ],
+      "positive": [
+        "Most beginners hit that wall after a few weeks.",
+        "If you hit that wall after the first month, ask for feedback before changing courses."
+      ],
+      "negative": [
+        "She painted that wall with a brush.",
+        "They painted that wall blue."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "3ad66ac612540163311a64b707faf55341ad8e823c208eca92f1ba67e57c1795",
+      "newAudioSynthesisKey": "89cd812764ecd4a9d606603045c83af7bfc87a0f98d3c81fc5390bd1875af481",
+      "changedDialogueKey": true,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-165",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bbombarded with\\b",
+      "newPattern": "(?:\\bbombarded with\\b)|(?:\\bbombarded by noise\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        4411
+      ],
+      "positive": [
+        "Residents feel bombarded by noise near the highway.",
+        "Parents in the waiting room are bombarded by noise from nearby renovations."
+      ],
+      "negative": [
+        "The town was bombarded by artillery.",
+        "The residents heard one brief sound."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "newAudioSynthesisKey": "d3450785d02a2cdce8f9a550b33ece81eb099fb211258aeeea99979e7929cab1",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-897",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0876-0900.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:fall|falls|falling|fell|fallen) flat\\b",
+      "newPattern": "(?:\\b(?:fall|falls|falling|fell|fallen) flat\\b)|(?:\\b(?:fall|falls|falling|fell|fallen) completely flat\\b)",
+      "oldSourceMatchesRetained": 3,
+      "newSourceOrdinals": [
+        4672
+      ],
+      "positive": [
+        "A highly rated film can fall completely flat for me.",
+        "The announcement fell completely flat because it offered no answers to the staff's questions."
+      ],
+      "negative": [
+        "The tire lost air overnight.",
+        "The proposal fell onto the floor."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "5cf0401a4fbf439e0b816d863e1bff858454543a5f3290cb9480daeac17c61ef",
+      "newAudioSynthesisKey": "919de2698f26efe939225905dbd314adf3875ddb6518c13497123d9134de7275",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-847",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bglued to (?:their|the|our|his|her|my|your|a) (?:screens?|phones?)\\b",
+      "newPattern": "(?:\\bglued to (?:their|the|our|his|her|my|your|a) (?:screens?|phones?)\\b)|(?:\\bglued to a different screen\\b)",
+      "oldSourceMatchesRetained": 3,
+      "newSourceOrdinals": [
+        4342
+      ],
+      "positive": [
+        "The family sat together but remained glued to a different screen.",
+        "During the meeting, each guest was glued to a different screen instead of joining the discussion."
+      ],
+      "negative": [
+        "The label was stuck to a different screen.",
+        "They looked at a screen for one second."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "d3838157a5e68e932704fa382e9f1a1f4f213fd864319f29fccc8aaf3d144101",
+      "newAudioSynthesisKey": "19e3a272f83b2a7cc965060470de0b7108568e1a201e76c06dbd096cc79edc57",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1430",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1426-1450.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bsqueeze\\s+every\\s+young\\s+person\\s+into\\s+the\\s+same\\s+mould\\b",
+      "newPattern": "(?:\\bsqueeze\\s+every\\s+young\\s+person\\s+into\\s+the\\s+same\\s+mould\\b)|(?:\\b(?:force|forces|forced|forcing) everyone into the same mould\\b)",
+      "oldSourceMatchesRetained": 1,
+      "newSourceOrdinals": [
+        4314
+      ],
+      "positive": [
+        "Good teaching avoids forcing everyone into the same mould.",
+        "A flexible timetable need not force everyone into the same mould."
+      ],
+      "negative": [
+        "The factory forced everyone into the same building.",
+        "They poured clay into the same mould."
+      ],
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "f5f2e5691cea8eaac890b73a8d70bcf580a719ff4b7d3b36b11612382bebf8a6",
+      "newAudioSynthesisKey": "4f4aa447420b43bb0b7b2888cfc18f3c95a59f644e3212b28f3ee449cd7a61e1",
+      "changedDialogueKey": false,
+      "changedSceneKey": false
+    }
+  ],
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2895,
+      "sourceId": "book10-16-0784",
+      "phrase": "follow a rigid script",
+      "example": "Parenting need not follow a rigid script.",
+      "canonicalId": "advanced-native-711",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "a4b340de58ad74ec7538e394cc4b331562a96ffa6a0c04f01e4854945dfe7844"
+    },
+    {
+      "sourceOrdinal": 2941,
+      "sourceId": "book10-16-0830",
+      "phrase": "strike the right balance",
+      "example": "The host must strike the right balance between planning and spontaneity.",
+      "canonicalId": "advanced-native-156",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "a4b340de58ad74ec7538e394cc4b331562a96ffa6a0c04f01e4854945dfe7844"
+    },
+    {
+      "sourceOrdinal": 3103,
+      "sourceId": "book10-16-0992",
+      "phrase": "take a bit of weight off their shoulders",
+      "example": "A sympathetic call can take a bit of weight off their shoulders.",
+      "canonicalId": "advanced-native-801",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionFileSha256": "0fa7ce7e526eb114a806fecf6c37129f4643806eb48e512da0e10f9cd2722968"
+    },
+    {
+      "sourceOrdinal": 3436,
+      "sourceId": "book10-16-1325",
+      "phrase": "lifts that weight off their shoulders",
+      "example": "A prepared meal lifts that weight off their shoulders.",
+      "canonicalId": "advanced-native-801",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d"
+    },
+    {
+      "sourceOrdinal": 3713,
+      "sourceId": "book10-16-1602",
+      "phrase": "take a real burden off people's shoulders",
+      "example": "The service can take a real burden off people's shoulders.",
+      "canonicalId": "advanced-native-801",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "20b9595af2eb030e4a03fa34def097519fd3e4566e39a9eea8b6d9c137a5cc54"
+    },
+    {
+      "sourceOrdinal": 4271,
+      "sourceId": "book10-16-2160",
+      "phrase": "take a lot of weight off teachers' shoulders",
+      "example": "Automated marking can take a lot of weight off teachers' shoulders.",
+      "canonicalId": "advanced-native-801",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "decisionFileSha256": "4d5d3e50fbc4ed2b7c4dd03936f346ec3c7e45c8e75ca7d8feff11ddaf390a0d"
+    },
+    {
+      "sourceOrdinal": 3262,
+      "sourceId": "book10-16-1151",
+      "phrase": "light a fire under a student",
+      "example": "One encouraging comment can light a fire under a student.",
+      "canonicalId": "advanced-native-1129",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "f2aa6e8b2560c535a51aeb5b75ff7e449faf02c742c06d872c15e8e0ab5b982e"
+    },
+    {
+      "sourceOrdinal": 3314,
+      "sourceId": "book10-16-1203",
+      "phrase": "throwing curveballs",
+      "example": "The project kept throwing curveballs at us.",
+      "canonicalId": "advanced-native-1162",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "a7e5a2a0f4d1acd68f5f7fe751bbc96af6ca386ff1a1aea2bda7bde2c5c42f0d"
+    },
+    {
+      "sourceOrdinal": 3353,
+      "sourceId": "book10-16-1242",
+      "phrase": "when the ground shifts under your feet",
+      "example": "Adaptability matters when the ground shifts under your feet.",
+      "canonicalId": "advanced-native-504",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "a7e5a2a0f4d1acd68f5f7fe751bbc96af6ca386ff1a1aea2bda7bde2c5c42f0d"
+    },
+    {
+      "sourceOrdinal": 3404,
+      "sourceId": "book10-16-1293",
+      "phrase": "all its eggs in one basket",
+      "example": "A supplier should not put all its eggs in one basket.",
+      "canonicalId": "advanced-native-1869",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "509ee534f0c07ed2ac89d3b771739613c9700ef99a023371f35a38305ff92fb4"
+    },
+    {
+      "sourceOrdinal": 3423,
+      "sourceId": "book10-16-1312",
+      "phrase": "pull the rug out from under local people",
+      "example": "A policy should not pull the rug out from under local people.",
+      "canonicalId": "advanced-native-1861",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "decisionFileSha256": "509ee534f0c07ed2ac89d3b771739613c9700ef99a023371f35a38305ff92fb4"
+    },
+    {
+      "sourceOrdinal": 3466,
+      "sourceId": "book10-16-1355",
+      "phrase": "a small reset button",
+      "example": "A walk at lunchtime can be a small reset button.",
+      "canonicalId": "advanced-native-1806",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d"
+    },
+    {
+      "sourceOrdinal": 3596,
+      "sourceId": "book10-16-1485",
+      "phrase": "widen society's horizons",
+      "example": "Research can widen society's horizons.",
+      "canonicalId": "advanced-native-554",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionFileSha256": "f7c45cf520d6e79e843626b6dca42f0540cb33749014bf1d96f6570c29cc2e48"
+    },
+    {
+      "sourceOrdinal": 4127,
+      "sourceId": "book10-16-2016",
+      "phrase": "hit that wall",
+      "example": "Most beginners hit that wall after a few weeks.",
+      "canonicalId": "advanced-native-057",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionFileSha256": "68a3d0e31caa67deab5b04f84c1612cc0926c1cbdfc0c76b9301bd8d8c67171f"
+    },
+    {
+      "sourceOrdinal": 4411,
+      "sourceId": "book10-16-2300",
+      "phrase": "bombarded by noise",
+      "example": "Residents feel bombarded by noise near the highway.",
+      "canonicalId": "advanced-native-165",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "decisionFileSha256": "8b339fe4bb7b63c8c4f45c4b506a69d8723b64f3725de5edea48abedf0e3e24f"
+    },
+    {
+      "sourceOrdinal": 4672,
+      "sourceId": "book10-16-2561",
+      "phrase": "fall completely flat",
+      "example": "A highly rated film can fall completely flat for me.",
+      "canonicalId": "advanced-native-897",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionFileSha256": "78f49ab8986356fc1b0cb2afb696130e70f2f68ce542926e1f126247db43f5da"
+    },
+    {
+      "sourceOrdinal": 4342,
+      "sourceId": "book10-16-2231",
+      "phrase": "glued to a different screen",
+      "example": "The family sat together but remained glued to a different screen.",
+      "canonicalId": "advanced-native-847",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "decisionFileSha256": "52bfa23a69f23904d096b8b30fcd33a6690ccb0f6afe38726010c5a3c5f60d7a"
+    },
+    {
+      "sourceOrdinal": 4314,
+      "sourceId": "book10-16-2203",
+      "phrase": "forcing everyone into the same mould",
+      "example": "Good teaching avoids forcing everyone into the same mould.",
+      "canonicalId": "advanced-native-1430",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "decisionFileSha256": "2f289169c4e5a8eff858f5f125f6d0ffcbf622b9b174281409c40da1c7168e21"
+    }
+  ],
+  "deferred": [
+    {
+      "sourceOrdinal": 4332,
+      "reason": "Bare gold dust cannot be bounded cleanly from literal gold dust by a target regex; figurative noun versus canonical simile needs further owner review."
+    },
+    {
+      "sourceOrdinal": 4356,
+      "reason": "Agent A is concurrently editing canonical 767; avoided shared-file conflict."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "reason": "Source pronoun it lacks a clear antecedent while canonical 1839 is specifically journey-based; retained editorial hold."
+    }
+  ],
+  "verification": {
+    "focusedBatchBuildAndCheck": "13/13 touched canonical batch files passed build and --check with zero flags.",
+    "fullBooks1016Verifier": "2604/2604 source and decision rows; 553 selected drafts, 3318 questions, 2212 audio roles, 0 schema errors and 0 selected alias exceptions at time of final run.",
+    "allDiscoveredExistingAliasAudit": "1040/1040 full source examples match their assigned canonical detectors; 0 exceptions at time of final run.",
+    "holdCoverageAudit": "853 current holds; 0 unaudited current holds and 0 errors at time of final run.",
+    "guideOriginality": "All changed takeaway-2 and repaired keyed EN strings screened against all 2604 guide examples for six-word contiguous overlap; the only four overlaps are complete/near-complete target expressions, with no copied non-target source frame.",
+    "diffCheck": "git diff --check passed.",
+    "remainingGates": [
+      "Independent AI source/sense/content review at exact current file hashes",
+      "Generate and listen-check 15 changed takeaway-2 clips",
+      "Hosted-media and browser/device release checks; no human/release approval is claimed"
+    ]
+  },
+  "counts": {
+    "canonicalOwnersRevised": 15,
+    "holdRowsConverted": 18,
+    "canonicalFilesChanged": 13,
+    "decisionFilesChanged": 14,
+    "changedAudioRequests": 15
+  },
+  "audioRequestFile": "course-materials/advanced-native/reviews-books10-16/audio-requests-hold-merges-wave3.json",
+  "audioRequestFileSha256": "6ad0aa7f00b6a2dac28287455224ec2753baf00145d417eedac4d5cf5c627f35"
+}

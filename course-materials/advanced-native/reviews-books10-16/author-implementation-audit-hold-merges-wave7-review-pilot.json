@@ -1,0 +1,86 @@
+{
+  "reviewType": "AI author self-audit; independent review and release approval pending",
+  "scope": "Two repeated same-sense holds after earlier canonical-owner resolutions",
+  "rows": [
+    {
+      "sourceOrdinal": 2828,
+      "sourceId": "book10-16-0717",
+      "sourcePhrase": "facts from noise",
+      "sourceExample": "A careful check separates facts from noise.",
+      "sourceMeaning": "Reliable information distinguished from distraction; a communications metaphor.",
+      "canonicalId": "advanced-native-2010",
+      "canonicalMeaning": "Distinguish useful, reliable information from distracting or unsupported messages.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-2001-2025.json",
+      "canonicalFileBeforeSha256": "253fa2f77d7e6034a612b0de27d420c3642e64a04ec53d1d51359f682271d7c5",
+      "oldPattern": "(?:\\bseparat(?:e|es|ed|ing) real information from noise\\b)|(?:\\bseparat(?:e|es|ed|ing) the signal from the noise\\b)",
+      "newPattern": "(?:(?:\\bseparat(?:e|es|ed|ing) real information from noise\\b)|(?:\\bseparat(?:e|es|ed|ing) the signal from the noise\\b))|(?:\\bseparat(?:e|es|ed|ing) facts from noise\\b)",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "contentRevision": 3,
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-0717",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 66,
+        "book": 11,
+        "question": 27,
+        "sample": "S2",
+        "sourceBookPages": "67–68",
+        "locatorNote": "DOCX table 63, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A careful check separates facts from noise.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "facts from noise"
+      },
+      "canonicalFileAfterSha256": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+      "decisionFileAfterSha256": "810328fc1e8561aed56374ad25ef6d80c351fc43a37aa332303708f14d8ea2ad"
+    },
+    {
+      "sourceOrdinal": 3880,
+      "sourceId": "book10-16-1769",
+      "sourcePhrase": "leaves the door open to change",
+      "sourceExample": "A fair response leaves the door open to change.",
+      "sourceMeaning": "Preserves the possibility of improvement; a fixed door metaphor.",
+      "canonicalId": "advanced-native-785",
+      "canonicalMeaning": "Preserve one or several possible future choices rather than deciding every option now.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "canonicalFileBeforeSha256": "5b862f3d0df838ad4c3defc5e481e87d2542daf58de8852fe0e0a0ade36557c8",
+      "oldPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+      "newPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "contentRevision": 2,
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1769",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 167,
+        "book": 14,
+        "question": 34,
+        "sample": "S2",
+        "sourceBookPages": "75–76",
+        "locatorNote": "DOCX table 178, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A fair response leaves the door open to change.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "leaves the door open to change"
+      },
+      "canonicalFileAfterSha256": "4dfc4e5a88e45bed1fca3be3dd7009b6031ff09432d9b00547c88590101f7d4d",
+      "decisionFileAfterSha256": "8353313105bb6fcdecfe56cb7d1bace72883764934c617b7e825a29e76b13f34"
+    }
+  ],
+  "checks": {
+    "exactSourceProvenance": true,
+    "fullSourcePatternMatch": true,
+    "twoFocusedBatchBuildAndCheck": "2/2 build and --check, 44 lessons/264 questions/176 audio-role requests, zero flags",
+    "wholeCatalogueVerifier": "2604 decisions, 553 selected drafts, 3318 questions, 2212 audio roles, zero schema/alias errors at check time",
+    "allDiscoveredAliasAudit": "1079/1079 full-source matches, zero exceptions at check time",
+    "holdCoverage": "814 holds, zero unaudited/errors at check time",
+    "newDetectorPositiveControls": 4,
+    "newDetectorNegativeControls": 3,
+    "audioDelta": "one changed takeaway-2 request for canonical 2010; no listening/audio changes in canonical 785",
+    "gitDiffCheck": "passed"
+  },
+  "counts": {
+    "holdRowsConverted": 2,
+    "canonicalOwnerFilesChanged": 2,
+    "decisionFilesChanged": 2,
+    "takeawayAudioRefresh": 1
+  }
+}

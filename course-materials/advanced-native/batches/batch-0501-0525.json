@@ -326,7 +326,7 @@
     "titleZh": "提高要求或標準",
     "category": "idiom",
     "target": {
-      "pattern": "\\brais(?:e|es|ed|ing) the bar\\b",
+      "pattern": "\\b(?:rais(?:e|es|ed|ing) the bar|the bar (?:is|was|has been|will be)(?: definitely)? (?:being )?raised)\\b",
       "glossaryForbidden": [
         "\\bthe bar\\b"
       ]
@@ -334,8 +334,8 @@
     "brief": {
       "meaningEn": "Set a higher standard for what is expected or required.",
       "meaningZh": "把預期或要求的標準訂得更高。",
-      "grammar": "raise the bar for someone/on something; raised in past; identify the new requirement and who must meet it.",
-      "register": "Established sports metaphor. Raising a standard is distinct from everyone already achieving it or one person improving performance.",
+      "grammar": "raise the bar for someone/on something; passive the bar is being raised and the bar has been raised are natural when standards, rather than the rule maker, are foregrounded. Identify the new requirement and who must meet it.",
+      "register": "Established sports metaphor. A teacher may tell pupils that a new assessment raises the bar, or that the bar is being raised; neither says everyone already meets it.",
       "boundaryZh": "標準提高不確立達標人數或保證品質，仍需培訓及評估；不等於規則必不合理。",
       "misconceptionZh": "更高要求與已經做得更好不同，可有新目標但未完成。",
       "outcomeZh": "能用具體前後要求描述提高標準，保留達成情況。"
@@ -381,6 +381,20 @@
         "sentence": "New tools may raise the bar for workers.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 256, table 1, row 9"
+      },
+      {
+        "occurrenceId": "book10-16-0366",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 34,
+        "book": 10,
+        "question": 29,
+        "sample": "S2",
+        "sourceBookPages": "72–73",
+        "locatorNote": "DOCX table 29, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "With the new rules, the bar is definitely being raised.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "the bar is definitely being raised"
       }
     ],
     "listening": {
@@ -489,8 +503,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Apply the named-source requirement when reviewing the older captions, as well as when creating new ones.",
-          "zh": "檢視舊圖說及製作新圖說時，都應按具名來源要求處理。"
+          "en": "The new rule raises the bar: review old and new captions to make sure each date has a named source and a location.",
+          "zh": "新規則提高標準：檢視新舊圖說，確保每個日期都有具名來源及地點。"
         },
         {
           "id": "b",
@@ -504,7 +518,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "新要求包括日期具名來源，舊條目仍待按此檢視；不能只適用新稿或以地點代來源。"
+      "explanationZh": "新要求包括日期的具名來源和地點，舊條目仍須一併核對；不能只適用新稿或以地點代來源。"
     },
     "speaking": {
       "en": "The change raised the bar for the work, but we still needed evidence that the new requirement was being met.",
@@ -610,7 +624,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 4
   },
   {
     "id": "advanced-native-504",
@@ -620,7 +634,7 @@
     "titleZh": "原有基本條件突然改變",
     "category": "figurative",
     "target": {
-      "pattern": "\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? beneath (?:me|you|him|her|us|them)\\b",
+      "pattern": "(?:\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? beneath (?:me|you|him|her|us|them)\\b)|(?:\\bthe ground (?:(?:has|had) )?shift(?:s|ed|ing)? under (?:my|your|his|her|our|their) feet\\b)",
       "glossaryForbidden": [
         "\\bground shift(?:s|ed|ing)?\\b"
       ]
@@ -628,7 +642,7 @@
     "brief": {
       "meaningEn": "The basic circumstances one relies on change unexpectedly.",
       "meaningZh": "原本依賴的基本情況意外改變。",
-      "grammar": "when the ground shifts beneath them/us; shifted in past; name the assumption or condition that changes.",
+      "grammar": "the ground shifts beneath someone / under someone’s feet; shifts, shifted and shifting describe changed underlying circumstances, not literal ground movement.",
       "register": "Conventional unstable-ground metaphor. It concerns circumstances rather than necessarily a physical event or a personal failure.",
       "boundaryZh": "條件改變不等於當事人不可靠或計劃永遠不可行；需交代改了甚麼及需重評的部分。",
       "misconceptionZh": "可保留目標但改路徑，不能假定原有安排不需再核。",
@@ -647,6 +661,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 28, table 1, row 5; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p028-t1-r05"
+      },
+      {
+        "occurrenceId": "book10-16-1242",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 115,
+        "book": 12,
+        "question": 49,
+        "sample": "S2",
+        "sourceBookPages": "114–115",
+        "locatorNote": "DOCX table 119, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Adaptability matters when the ground shifts under your feet.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "when the ground shifts under your feet"
       }
     ],
     "listening": {
@@ -755,8 +783,8 @@
       "options": [
         {
           "id": "a",
-          "en": "The materials are ready, but the access condition has changed; we need to check a new location.",
-          "zh": "教材備好，但使用條件已改；需核新地點。"
+          "en": "The materials are ready, but the ground has shifted beneath us: evening access is gone, so we need a new location.",
+          "zh": "教材備好，但情況已變：晚間不再開放，所以我們要另找地點。"
         },
         {
           "id": "b",
@@ -848,8 +876,8 @@
         "zh": "規管項目的規則改時，他們依賴的基本條件突然變了。"
       },
       {
-        "en": "We need a plan for responding when the ground shifts beneath us, rather than assume the starting conditions will last.",
-        "zh": "我們需計劃怎樣回應基本條件突變，不假定起步條件一直維持。"
+        "en": "The ground shifted under their feet when the timetable changed overnight; workers need time to adapt.",
+        "zh": "時間表一夜之間改變，員工賴以依靠的情況也突然變了；他們需要時間適應。"
       }
     ],
     "review": {
@@ -876,7 +904,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-506",

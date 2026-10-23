@@ -6,12 +6,12 @@
       "id": "advanced-native-2026",
       "number": 2026,
       "inventoryId": "expr-2026",
-      "titleEn": "the ground is shifting under their feet",
+      "titleEn": "the ground shifting under their feet",
       "titleZh": "熟悉的條件正在改變，令人不安",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bthe ground (?:is|was|seems to be|seemed to be) shifting under (?:their|our|my|his|her|your) feet\\b",
+        "pattern": "\\bthe ground (?:(?:is|was|seems to be|seemed to be) )?shifting under (?:their|our|my|his|her|your) feet\\b",
         "glossaryForbidden": [
           "\\bthe ground\\b",
           "\\bshifting under\\b",
@@ -31,13 +31,27 @@
           "sentence": "Workers feel the ground is shifting under their feet.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "the ground is shifting under their feet"
+        },
+        {
+          "occurrenceId": "book10-16-0365",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 33,
+          "book": 10,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 29, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Workers felt the ground shifting under their feet as the industry changed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the ground shifting under their feet"
         }
       ],
       "brief": {
         "meaningEn": "Familiar conditions are changing in a way that makes someone’s position or expectations feel less stable.",
         "meaningZh": "熟悉的條件正在改變，令人覺得自身處境或原有預期不再穩定。",
-        "grammar": "feel that the ground is shifting under someone’s feet; was shifting for a past account. Name which conditions are changing. The ground is figurative support, and feet identifies the affected person.",
-        "register": "A recognisable unstable-ground image applied to changing circumstances. Related solid-ground/shifting-sand imagery also concerns stability, but this clause places someone within an ongoing change rather than comparing two foundations.",
+        "grammar": "The ground is/was shifting under someone’s feet, or someone feels the ground shifting under their feet. Name which familiar conditions are changing; the ground is figurative support.",
+        "register": "Conversational metaphor for unsettled conditions; affected workers, families or members may use it when familiar rules change beneath them.",
         "boundaryZh": "覺得不穩定不等於工作已失去，也不表示已知道最後結果；要分清已宣布的改動、仍未知的部分及當事人的感受。",
         "misconceptionZh": "不能因聽到有變動，就說所有舊技能都沒有用，也不應用「適應就好」代替回答具體疑問。",
         "outcomeZh": "能說清哪項熟悉條件正在變，並提出需要釐清或支持的具體事項。"
@@ -245,8 +259,8 @@
           "zh": "熟悉的展覽類別取消，替代類別又未議定時，她覺得原有依據正在改變、處境不穩。"
         },
         {
-          "en": "The ground is shifting under their feet as the club changes its purpose, and the members want a meeting about what their roles will become.",
-          "zh": "社團改變宗旨時，成員覺得熟悉依據變得不穩，想開會討論自己的角色將會怎樣。"
+          "en": "When housing-grant rules changed halfway through applications, families felt the ground shifting under their feet and asked which documents would still count.",
+          "zh": "住屋津貼申請中途改規則時，家庭覺得熟悉的依據正在變動，便問哪些文件仍然有效。"
         }
       ],
       "review": {

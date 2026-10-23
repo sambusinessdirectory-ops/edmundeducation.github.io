@@ -815,11 +815,11 @@
     "id": "advanced-native-579",
     "number": 579,
     "inventoryId": "expr-0579",
-    "titleEn": "eat up half the day",
-    "titleZh": "耗去半天時間",
+    "titleEn": "eat up the day",
+    "titleZh": "耗去大半天或一整天",
     "category": "idiom",
     "target": {
-      "pattern": "\\beat(?:s|ing)? up half (?:the|a) day\\b|\\bate up half (?:the|a) day\\b|\\beaten up half (?:the|a) day\\b",
+      "pattern": "\\b(?:eat|eats|eating|ate|eaten) up (?:half (?:the|a)|(?:the|a) whole|an entire) day\\b",
       "glossaryForbidden": [
         "\\beat(?:s|ing)? up\\b",
         "\\bate up\\b",
@@ -828,10 +828,10 @@
       ]
     },
     "brief": {
-      "meaningEn": "Consume a substantial amount of time described as half a day, often with a sense that little time remains for other things.",
-      "meaningZh": "耗去被形容為半天的一大段時間，常帶出其他事情可用時間減少的感覺。",
-      "grammar": "a journey/task eats/ate/has eaten up half the day; half a day is also possible. Specify the actual schedule when precision matters.",
-      "register": "Established eat up time metaphor with a quantity complement. Half the day may be an approximate description, not a claim of exactly twelve hours.",
+      "meaningEn": "Consume a substantial block of time, such as half or all of a day, often leaving less time for other plans.",
+      "meaningZh": "耗去大段時間，例如半天或整天，常使其他事情可用時間變少。",
+      "grammar": "A journey or task eats/ate/has eaten up half the day, the whole day, or an entire day. State actual hours when timing matters; the quantity depends on context.",
+      "register": "Common conversational eat up time metaphor; a colleague may use it to explain scheduling pressure. Half the day can be approximate, while the whole day describes all available daytime.",
       "boundaryZh": "耗時不表示事情沒價值或做錯，也不必整整十二小時；需要時間表時應給實際時段。",
       "misconceptionZh": "不能只因花時間就斷言無用；可保留活動價值而調整其後計劃。",
       "outcomeZh": "能描述大量時間消耗及其後安排，分清耗時與價值判斷。"
@@ -849,6 +849,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 38, table 1, row 5; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p038-t1-r05"
+      },
+      {
+        "occurrenceId": "book10-16-0311",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 28,
+        "book": 10,
+        "question": 24,
+        "sample": "S1",
+        "sourceBookPages": "56–59",
+        "locatorNote": "DOCX table 24, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The repairs could eat up the whole day.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "eat up the whole day"
       }
     ],
     "listening": {
@@ -957,8 +971,8 @@
       "options": [
         {
           "id": "a",
-          "en": "It took the morning, but we found what we need; let us revise the editing plan rather than call all the work wasted.",
-          "zh": "它用了早上，但找到所需；重排剪輯，不把全段工作稱浪費。"
+          "en": "Sorting the clips ate up half the day, but we found what we need; let us revise the editing plan rather than call the work wasted.",
+          "zh": "整理片段耗去半天，但我們找到了所需素材；應重排剪輯計劃，不把工作全稱浪費。"
         },
         {
           "id": "b",
@@ -972,7 +986,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "有成果也有時間代價，應按現況安排，不是少核查或無理由重做。"
+      "explanationZh": "整理耗時，也找到所需素材；承認半天的時間代價，同時按現況重排剪輯，不必少核查或無理由重做。"
     },
     "speaking": {
       "en": "The unexpected checks ate up half the day, so we moved the discussion to the afternoon.",
@@ -1046,8 +1060,8 @@
     },
     "takeaways": [
       {
-        "en": "Repairing the damaged labels ate up half the day, leaving the team less time to arrange the display.",
-        "zh": "修補損壞標籤耗去半天，團隊安排展示的時間變少。"
+        "en": "Cataloguing the donated books ate up the whole day, so the team left the display layout until morning.",
+        "zh": "替捐贈書籍編目耗去整天，團隊便把展示佈局留待翌日早上處理。"
       },
       {
         "en": "The journey can eat up half the day, so I would leave the rest of the afternoon free.",
@@ -1078,7 +1092,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-581",

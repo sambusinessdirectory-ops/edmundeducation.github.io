@@ -1,0 +1,86 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T16:28:30.468946+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4488-4499-a.json",
+      "sha256": "f4c3d3aec3a0765d3c0db73992044e30ea57a1a1c51d35854c77122f2e175b97"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "25376eb01c96af2ca52ca39b44475b4bfffda695e2684c447a311619397bbda8",
+  "focusedBuildAndCheck": "PASS: 4 lessons, 24 questions, 16 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 104,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 0
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "0 guide overlaps beyond ordinary idiom use"
+  },
+  "semanticNotes": {
+    "4488": "Change in activity form with core participation retained; not date change alone.",
+    "4492": "Long useful service and repairability; distinct from 4499 physical bulk.",
+    "4497": "Attractive older design distinguished from neglect or unsafe infrastructure.",
+    "4499": "Exceptional physical reinforcement and carrying cost; no lifetime guarantee."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4488,
+      "sourceId": "book10-16-2377",
+      "sourceExpression": "changes shape",
+      "sourceExample": "A festival changes shape when it enters a new culture.",
+      "draftFile": "batch-4488-4499-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4492,
+      "sourceId": "book10-16-2381",
+      "sourceExpression": "built to last",
+      "sourceExample": "The old table was built to last.",
+      "draftFile": "batch-4488-4499-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4497,
+      "sourceId": "book10-16-2386",
+      "sourceExpression": "old-world charm",
+      "sourceExample": "The cabinet has old-world charm.",
+      "draftFile": "batch-4488-4499-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4499,
+      "sourceId": "book10-16-2388",
+      "sourceExpression": "built like a tank",
+      "sourceExample": "The old refrigerator was built like a tank.",
+      "draftFile": "batch-4488-4499-a.json",
+      "contentRevision": 4,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

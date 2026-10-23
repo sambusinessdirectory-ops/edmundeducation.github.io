@@ -1,0 +1,74 @@
+{
+  "auditKind": "author-held-to-existing-alias-wave-four-b",
+  "createdUtc": "2026-10-23T17:16:11.114744+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2492,
+      "sourceId": "book10-16-0381",
+      "sourceExpression": "benefits still outweigh the stress",
+      "sourceExample": "With clear rules, the benefits still outweigh the stress.",
+      "sourceMeaning": "Advantages are greater than disadvantages; a weight metaphor.",
+      "canonicalOwner": "advanced-native-643",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0626-0650.json",
+      "canonicalSha256": "39afa87574299e055c2c80766fe62c05cb91d1544e92317154da1fc87fc65724",
+      "contentRevision": 2,
+      "detectorMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2615,
+      "sourceId": "book10-16-0504",
+      "sourceExpression": "in one go",
+      "sourceExample": "She spent the entire allowance in one go.",
+      "sourceMeaning": "All at once in a single action; a natural set phrase.",
+      "canonicalOwner": "advanced-native-1714",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "canonicalSha256": "d85578b22bae5f2cc660708aa58912c3ebcb7862647aee8a0d8e896900eb5d0b",
+      "contentRevision": 2,
+      "detectorMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2634,
+      "sourceId": "book10-16-0523",
+      "sourceExpression": "training ground for adult life",
+      "sourceExample": "A small allowance is a training ground for adult life.",
+      "sourceMeaning": "A safe place to practise future responsibilities; a conventional training image.",
+      "canonicalOwner": "advanced-native-1120",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "canonicalSha256": "aed9c160995fad6ee311777b5bb0af1d1c722b36e6f3f986cc2f86d67d704ed4",
+      "contentRevision": 2,
+      "detectorMatchesFullSource": true
+    },
+    {
+      "sourceOrdinal": 2679,
+      "sourceId": "book10-16-0568",
+      "sourceExpression": "pushed quietly to the margins",
+      "sourceExample": "Smaller art forms are often pushed quietly to the margins.",
+      "sourceMeaning": "Moved away from the centre of attention; a page-layout metaphor.",
+      "canonicalOwner": "advanced-native-287",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalSha256": "3e2be420b6c7a4fdc6a9d28ca5940fafde787e94c92d7579729e0d294af42be6",
+      "contentRevision": 2,
+      "detectorMatchesFullSource": true
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "sha256": "9c08293438bdd430c46067311a0cfeebd099d8fac5269e51a1ec2bc8ae9f7dc4"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "77726c4986aaf6b1e83757c65a9528f72385cf80e8c0a3d42d39e0f69300e4f3"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "sha256": "b9915cd6cb880accc6194f089c689de9664354af375c3a74daead4e65468474a"
+    }
+  ],
+  "focusedBuildAndCheck": "PASS: four canonical batches, 96 lessons, 576 questions, 384 audio requests, zero flags",
+  "allDiscoveredAliasAudit": "PASS: 158 alias-new rows, all matched, zero exceptions",
+  "fullVerifier": "PASS on rerun: 2604 intake/decision rows, 0 page gaps, 0 selected-existing alias pattern exceptions, 0 whole-catalogue schema errors, 0 exact guide sentence copies, 553 unpublished drafts.",
+  "independentReview": "pending",
+  "selectedManifestChanged": false,
+  "published": false
+}

@@ -3210,12 +3210,12 @@
       "id": "advanced-native-1266",
       "number": 1266,
       "inventoryId": "expr-1266",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "the price tag",
       "titleZh": "價錢、所需費用",
       "category": "natural",
       "target": {
-        "pattern": "\\bthe price tag\\b"
+        "pattern": "\\b(?:a|the) price tag\\b"
       },
       "sources": [
         {
@@ -3231,13 +3231,27 @@
           "sentence": "The feeling mattered more than the price tag.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page138, table1, row11; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-0519",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "17–18",
+          "locatorNote": "DOCX table 43, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Not every worthwhile experience needs a price tag.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "price tag"
         }
       ],
       "brief": {
         "meaningEn": "The stated or implied monetary cost of something.",
         "meaningZh": "某樣東西標示或涉及的金錢費用。",
-        "grammar": "look at/compare/ignore the price tag; the price tag on something. It can mean the cost even when no physical label is being discussed.",
-        "register": "Common monetary-cost noun phrase. A price tag can name the amount charged; figurative statements about a benefit coming with a price tag may instead describe a non-financial consequence. Context distinguishes those readings.",
+        "grammar": "a/the price tag; look at/compare/ignore the price tag; a price tag on something. It can mean the cost even when no physical label is being discussed.",
+        "register": "Common monetary-cost noun phrase. A buyer may tell a friend that a worthwhile experience need not have a price tag; figurative statements about a benefit coming with a price tag may instead describe a non-financial consequence. Context distinguishes those readings.",
         "boundaryZh": "價錢與用途、品質或心意是不同的判斷；價錢低不保證合用，價錢高也不證明較有心。",
         "misconceptionZh": "不把所需費用直接等同物件對人的價值，也不把報價當成已付款。",
         "outcomeZh": "能自然比較價錢與真正需要，並詢問自己尚不知道的選擇依據。"

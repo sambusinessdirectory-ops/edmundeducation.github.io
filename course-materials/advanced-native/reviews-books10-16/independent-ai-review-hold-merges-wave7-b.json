@@ -1,0 +1,48 @@
+{
+  "reviewKind": "independent-ai-hold-merges-wave7",
+  "createdUtc": "2026-10-23T17:39:23.852191+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "18b67a094cca9be14f21570ea0ec982630189e2b166dd3839acb35575a13439e",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "fileHashes": {
+    "course-materials/advanced-native/batches/batch-2001-2025.json": "818f2f78501c23aa1b9ce1f2df10f3d2cdc61242376faa028b291e0b94968077",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl": "810328fc1e8561aed56374ad25ef6d80c351fc43a37aa332303708f14d8ea2ad",
+    "course-materials/advanced-native/batches/batch-0776-0800.json": "4dfc4e5a88e45bed1fca3be3dd7009b6031ff09432d9b00547c88590101f7d4d",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl": "8353313105bb6fcdecfe56cb7d1bace72883764934c617b7e825a29e76b13f34"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2828,
+      "sourceId": "book10-16-0717",
+      "canonicalId": "advanced-native-2010",
+      "decisionRowSha256": "bb9dc5ae7ab23c0300886e72ffcaca0a8d82953611f30c8def36f849d9398564",
+      "sourceProvenanceExact": true,
+      "fullSourceRegexMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 3880,
+      "sourceId": "book10-16-1769",
+      "canonicalId": "advanced-native-785",
+      "decisionRowSha256": "06a2196b61d7aa63ecbf1f09ea777a8ba72242a0749875bb39e087cb36b5ecbc",
+      "sourceProvenanceExact": true,
+      "fullSourceRegexMatch": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": {
+    "2828": "Separates facts from noise is the same checked-information-versus-distraction decision as the existing real-information/signal variants. The inflected detector covers the full guide sentence. The new archive takeaway is original, target-bearing and faithful in Traditional Chinese.",
+    "3880": "Leaves the door open to change preserves a future option, within canonical 785’s open-door owner. The existing detector already covers the complete guide sentence; no assessed content or audio was changed."
+  },
+  "focusedBuildCheck": {
+    "lessons": 44,
+    "questions": 264,
+    "audioRequests": 176,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI source/sense/regex/content review only; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

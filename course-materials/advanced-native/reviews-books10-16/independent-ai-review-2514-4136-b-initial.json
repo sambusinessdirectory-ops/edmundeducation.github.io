@@ -1,0 +1,69 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Two unselected proposed-new Books 10–16 lessons, source ordinals 2514 and 4136",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2514-4136-a.json",
+    "sha256": "00a0ec68fd43142496fde54aa7e184574aed23588a587d61a21d4187302981de"
+  },
+  "authorSelfAuditSha256": "1ace39ad35945aae4777ce9e1b667066b73c870b63c85182672903dfe5fa6c6a",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "canonicalComparisonFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "sha256": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-0351-0375.json",
+      "sha256": "a966c02c6778fbca2eca22572fa08aadb7aedc5688aec069ac5d77d51ab92171"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2123.json",
+      "sha256": "912f558f87ac8d8ca4bbdd65c39dd614c96d984485030913040237c13d554b84"
+    }
+  ],
+  "status": "2514-content-clear;4136-owner-adjudication-required-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "2 lessons, 12 questions, 8 audio requests, 0 review flags for build and --check at the exact draft hash.",
+    "sourceAndAssessmentTargets": "Both exact source sentences match their proposed target regexes under case-insensitive matching; each reply golden option and scene/dialogue keyed option matches its lesson target; each speaking sentence and both writing examples match the target. Builder checks exact glossary spans and audio queue structure.",
+    "reviewCoverage": "Compared exact source meanings and nearby canonical owners, then inspected keyed answers, four-valid reply choices, writing transfer and English–Traditional Chinese fidelity. This is risk-based editorial review, not line-by-line proofreading or human listening approval."
+  },
+  "lessonReviews": [
+    {
+      "lessonId": "advanced-native-2514",
+      "sourceOccurrenceId": "book10-16-0403",
+      "sourceSentence": "The effects will show up in the final results.",
+      "status": "content-clear",
+      "ownerAssessment": "This is an abstract effect becoming evident in later results. Canonical 364 teaches showing up to support someone; Books 10–16 lesson 2123 teaches arriving at a place or event. The proposed abstract-subject detector and measured-outcome assessments make a defensible separate sense. Four reply options are independently true and the golden option expresses the target. The Chinese preserves observation versus proven causation.",
+      "materialFindings": []
+    },
+    {
+      "lessonId": "advanced-native-4136",
+      "sourceOccurrenceId": "book10-16-2025",
+      "sourceSentence": "Quiet time helps students with taking things in.",
+      "status": "hold-for-owner-adjudication",
+      "ownerAssessment": "Canonical 339 teaches attentively absorbing scenery and new sensory experiences, so it is a different sense. Canonical 367, however, already teaches mentally absorbing information rather than merely encountering it; its grammar covers 'take in' information and separable 'take it in', and its assessments verify comprehension by restating or acting on instructions. The new source does not specify spoken input. The 4136 brief and all assessed scenarios impose spoken explanations to distinguish them from canonical 367, which looks like a change of delivery medium rather than a new idiomatic meaning or learner decision. A detector gap for 'things' is not evidence of a distinct owner.",
+      "materialFindings": [
+        {
+          "id": "R4136-01",
+          "severity": "blocker",
+          "affectedFields": [
+            "titleEn",
+            "brief.meaningEn",
+            "brief.grammar",
+            "brief.outcomeZh",
+            "listening",
+            "reply",
+            "scene",
+            "dialogue",
+            "speaking",
+            "writing",
+            "target.pattern"
+          ],
+          "issue": "The lesson claims a new oral-information owner despite an unspecified source and substantial overlap with canonical 367's information-comprehension outcome. Seven steps repeat canonical 367's exposure-versus-understanding distinction, using spoken rather than written delivery.",
+          "recommendedAction": "Hold 4136 from selection. Prefer a bounded canonical-367 variant/alias for 'taking things in', updating its meaning, detector, grammar and any needed teaching examples to cover general information uptake, while preserving its existing written examples and learner progress. If a separate owner is retained, document a genuinely different semantic or pragmatic learner decision supported by the exact source and test it against canonical 367; a spoken-versus-written split alone is insufficient. Rebuild, check, and independently review any changed canonical content and audio requests."
+        }
+      ]
+    }
+  ],
+  "selectionScope": "Only 2514 is content-cleared at this exact hash. Neither lesson is marked published, human-approved or audio-certified by this report."
+}

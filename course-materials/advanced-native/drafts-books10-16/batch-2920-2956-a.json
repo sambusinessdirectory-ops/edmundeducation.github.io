@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2920",
+      "number": 2920,
+      "inventoryId": "expr-2920",
+      "titleEn": "less really is more",
+      "titleZh": "少反而更好",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bless (?:really )?is more\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reducing unnecessary elements can make the intended message or result clearer and more effective.",
+        "meaningZh": "減少非必要元素，反而令原本目標更清晰、更有效。",
+        "grammar": "Less is more; really may add emphasis. Name what is reduced and what improves; not a claim that all cuts are beneficial.",
+        "register": "Neutral-to-informal evaluative expression. A teacher may use it while editing crowded instructions with pupils.",
+        "boundaryZh": "須有刪減後效果改善的依據；若刪掉必要資訊而令人更困惑，不能說少反而更好。",
+        "misconceptionZh": "不是說任何情況都應減至零，也不是單純數量越少越便宜。",
+        "outcomeZh": "能指出被刪的冗餘元素、保留的核心及改善結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0809",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 75, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "With clear instructions, less really is more.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "less really is more"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The original safety card had twelve decorative icons and buried the exit route. The revised card kept one clear map and three steps; volunteers found the route faster. For these instructions, less really is more.",
+        "zh": "原本安全卡有十二個裝飾圖示，掩蓋出口路線。新版保留一張清楚地圖及三個步驟；義工更快找到路線。對這些指示而言，少反而更好。",
+        "promptZh": "為何刪減有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Removing decoration made the necessary route easier to find.",
+            "zh": "刪去裝飾令必要路線更易找到。"
+          },
+          {
+            "id": "b",
+            "en": "The team removed the exit route itself.",
+            "zh": "團隊把出口路線本身刪去。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers now need more time to read the card.",
+            "zh": "義工如今須花更多時間讀卡。"
+          },
+          {
+            "id": "d",
+            "en": "The number of icons proves every design is unsafe.",
+            "zh": "圖示數量證明每種設計都不安全。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留核心資訊而減少干擾。"
+      },
+      "reply": {
+        "promptEn": "A museum label uses several long introductions before naming the object. Editors remove repeated phrases, keep the date and material, and visitors identify the object more quickly. How can they describe that edit?",
+        "promptZh": "（博物館標示在說出展品名稱前寫了幾段長引言。編輯刪去重複語句，保留日期與材質，訪客更快認出展品。可怎樣形容這次修改？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The edit reduced repetition without losing key facts.",
+            "zh": "修改減少重複而不失關鍵事實。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors can find the object information sooner.",
+            "zh": "訪客更快找到展品資料。"
+          },
+          {
+            "id": "c",
+            "en": "Less really is more here.",
+            "zh": "這裏少反而更好。"
+          },
+          {
+            "id": "d",
+            "en": "The shorter label serves its purpose better.",
+            "zh": "較短標示更能達到目的。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據保留關鍵事實的改善。"
+      },
+      "scene": {
+        "promptZh": "簡報原有太多動畫，觀眾看不清數字；刪去重複效果但保留圖表後，大家能讀懂數據。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Less really is more in this slide.",
+            "zh": "這張投影片少反而更好。"
+          },
+          {
+            "id": "b",
+            "en": "Every data label should also be removed.",
+            "zh": "所有數據標示也應刪去。"
+          },
+          {
+            "id": "c",
+            "en": "The animation itself is the only evidence needed.",
+            "zh": "動畫本身是唯一所需證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "減去干擾而保留數據使理解改善。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 less is more？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A route notice becomes shorter by deleting the only accessible-entrance instruction, leaving visitors confused.",
+            "zh": "路線通知刪去唯一的無障礙入口指示，雖然變短，訪客卻更困惑。"
+          },
+          {
+            "id": "b",
+            "en": "A poster drops repeated slogans and the date becomes easier to see.",
+            "zh": "海報刪去重複口號，日期更易看到。"
+          },
+          {
+            "id": "c",
+            "en": "A guide keeps essential steps while removing decorative filler.",
+            "zh": "指南保留必要步驟，刪去裝飾性贅語。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "刪掉必要資訊而令結果變差。"
+      },
+      "dialogue": {
+        "promptEn": "A: The recipe card had six photos of the same step. We kept one photo and all the measurements; the class now follows it without asking for clarification. B: ______",
+        "promptZh": "（甲：食譜卡同一步驟有六張照片。我們保留一張及所有量度，班上現在不用再問就能跟着做。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You removed repetition while preserving instructions.",
+            "zh": "你刪去重複而保留指示。"
+          },
+          {
+            "id": "b",
+            "en": "The class can use the simpler card more easily.",
+            "zh": "班上更易使用簡化卡。"
+          },
+          {
+            "id": "c",
+            "en": "Less really is more in that design.",
+            "zh": "那種設計少反而更好。"
+          },
+          {
+            "id": "d",
+            "en": "The useful measurements are still there.",
+            "zh": "有用的量度仍在。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出刪減帶來的可見改善。"
+      },
+      "speaking": {
+        "en": "The ticket page removed three repeated banners but kept price and access details, and readers found booking information sooner; less really is more in this layout.",
+        "zh": "售票頁面刪去三幅重複橫幅，卻保留價格與無障礙資料，讀者更快找到訂票資訊；這個版面少反而更好。",
+        "promptZh": "指出刪減與保留核心的效果。",
+        "targetSpan": {
+          "start": 128,
+          "end": 147
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份設計或說明各刪去多餘內容而保留必要細節，結果使用更方便。用英文寫出前後對照。",
+        "selfCheckZh": "兩例須有改善證據，不能把刪去必要資訊說成進步。",
+        "examples": [
+          {
+            "en": "The club map dropped decorative borders but kept every entrance label, and newcomers found the meeting room faster; less really is more here.",
+            "zh": "社團地圖刪去裝飾邊框，保留每個入口標籤，新人更快找到會議室；這裏少反而更好。"
+          },
+          {
+            "en": "On the donation form, less really is more: removing repeated appeals while retaining the amount and privacy note helped donors complete it accurately.",
+            "zh": "捐款表格刪去重複呼籲，保留金額與私隱說明，捐款人更準確填寫；少反而更好。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "decorative borders",
+            "zh": "裝飾邊框",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 39
+            }
+          },
+          {
+            "en": "entrance label",
+            "zh": "入口標籤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 69
+            }
+          },
+          {
+            "en": "repeated appeals",
+            "zh": "重複呼籲",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 68
+            }
+          },
+          {
+            "en": "privacy note",
+            "zh": "私隱說明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Less is more when cutting clutter improves the result.",
+          "zh": "減去贅物令結果改善時，便是 less is more。"
+        },
+        {
+          "en": "Less really is more only if essential information remains.",
+          "zh": "只有保留必要資訊，less really is more 才成立。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2924",
+      "number": 2924,
+      "inventoryId": "expr-2924",
+      "titleEn": "throw a party",
+      "titleZh": "辦派對",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|throwing) a party\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Organise or host a social celebration.",
+        "meaningZh": "籌辦或主辦一場社交慶祝聚會。",
+        "grammar": "Throw a party; threw a party in past. Throw is idiomatic for host/organise, not physically hurl. Specify occasion, guests or arrangements.",
+        "register": "Common informal-to-neutral English. A graduate may use it when planning a celebration with classmates.",
+        "boundaryZh": "須有主辦或籌備聚會的意思；只是獲邀出席、在派對上表演，並非自己 throw a party。",
+        "misconceptionZh": "不是把聚會拋出去，也不保證派對規模很大或需要昂貴預算。",
+        "outcomeZh": "能說出主辦者、慶祝原因、場地或賓客安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0813",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 75,
+          "book": 12,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 76, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They plan to throw a party after graduation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throw a party"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "After the trainees completed the repair course, their instructor offered the community room and arranged snacks for a small celebration. She decided to throw a party for the group on Friday.",
+        "zh": "學員完成維修課後，導師借出社區活動室並安排小食，舉辦小型慶祝。她決定星期五為團隊辦派對。",
+        "promptZh": "誰在主辦聚會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The instructor who arranged the room and snacks.",
+            "zh": "安排房間及小食的導師。"
+          },
+          {
+            "id": "b",
+            "en": "Every trainee who was invited to attend.",
+            "zh": "每位獲邀參加的學員。"
+          },
+          {
+            "id": "c",
+            "en": "A person physically throwing decorations.",
+            "zh": "真的把裝飾物拋出去的人。"
+          },
+          {
+            "id": "d",
+            "en": "The building caretaker who only unlocks the room.",
+            "zh": "只負責開門的管理員。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安排場地和小食的人是主辦者。"
+      },
+      "reply": {
+        "promptEn": "A neighbourhood group wants to celebrate opening a shared garden. Jo books the hall, invites volunteers and arranges tea. What is Jo planning?",
+        "promptZh": "（鄰里團體想慶祝共享花園開幕。阿祖預訂場地、邀請義工並安排茶點。阿祖在計劃甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Jo is organising a celebration.",
+            "zh": "阿祖正籌辦慶祝活動。"
+          },
+          {
+            "id": "b",
+            "en": "Jo is hosting the volunteers.",
+            "zh": "阿祖正款待義工。"
+          },
+          {
+            "id": "c",
+            "en": "Jo will throw a party.",
+            "zh": "阿祖會辦派對。"
+          },
+          {
+            "id": "d",
+            "en": "Jo is preparing a celebration for the garden opening.",
+            "zh": "阿祖正在為花園開幕籌備慶祝聚會。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均回應主辦聚會。"
+      },
+      "scene": {
+        "promptZh": "同學為畢業訂房間、邀請朋友並安排簡單食物。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They will throw a party after graduation.",
+            "zh": "他們畢業後會辦派對。"
+          },
+          {
+            "id": "b",
+            "en": "They must physically throw food across the room.",
+            "zh": "他們必須把食物真的拋過房間。"
+          },
+          {
+            "id": "c",
+            "en": "They are only attending an event someone else arranged.",
+            "zh": "他們只是出席別人安排的活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安排場地與邀請是主辦，而非純出席。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone will throw a party？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visitor accepts an invitation to a celebration and has no role in planning or hosting it.",
+            "zh": "訪客接受派對邀請，沒有參與策劃或主辦。"
+          },
+          {
+            "id": "b",
+            "en": "A parent books a room, sends invitations and plans a birthday gathering.",
+            "zh": "家長訂房、發邀請並籌備生日聚會。"
+          },
+          {
+            "id": "c",
+            "en": "A club arranges food and a venue to celebrate its volunteers.",
+            "zh": "社團安排食物和場地慶祝義工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只出席不是主辦。"
+      },
+      "dialogue": {
+        "promptEn": "A: I booked the room, asked the graduates whom to invite and arranged a simple cake for Friday. B: ______",
+        "promptZh": "（甲：我訂了房、問畢業生要邀請誰，還為星期五安排簡單蛋糕。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You are organising the gathering.",
+            "zh": "你正在籌辦聚會。"
+          },
+          {
+            "id": "b",
+            "en": "The graduates have a reason to celebrate.",
+            "zh": "畢業生有值得慶祝的事。"
+          },
+          {
+            "id": "c",
+            "en": "You are going to throw a party.",
+            "zh": "你要辦派對。"
+          },
+          {
+            "id": "d",
+            "en": "You have already made venue and food plans.",
+            "zh": "你已安排場地與食物。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句自然指籌辦慶祝聚會。"
+      },
+      "speaking": {
+        "en": "The reading club will throw a party for its retiring librarian in the small hall, with former members invited to share a short memory.",
+        "zh": "讀書會會在小禮堂為退休圖書館員辦派對，邀請舊會員分享短短的回憶。",
+        "promptZh": "指出主辦者、對象及安排。",
+        "targetSpan": {
+          "start": 22,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩名主辦者各為不同原因安排慶祝聚會。用英文寫出主辦者、原因和至少一項安排。",
+        "selfCheckZh": "兩例不能只是獲邀到場，須有實際籌辦行動。",
+        "examples": [
+          {
+            "en": "The cycling team threw a party for its retiring coach, booking the school room and asking riders to bring photos from past trips.",
+            "zh": "單車隊為退休教練辦派對，預訂學校房間，請隊員帶以往旅程照片。"
+          },
+          {
+            "en": "After the new workshop opened, Lena decided to throw a party for volunteers and arranged tea in the courtyard.",
+            "zh": "新工作坊開幕後，莉娜決定為義工辦派對，在庭院安排茶點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "retiring coach",
+            "zh": "退休教練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 53
+            }
+          },
+          {
+            "en": "past trips",
+            "zh": "以往旅程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 128
+            }
+          },
+          {
+            "en": "new workshop",
+            "zh": "新工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 22
+            }
+          },
+          {
+            "en": "the courtyard",
+            "zh": "庭院",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 109
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Throw a party means organise a celebration.",
+          "zh": "throw a party 指籌辦慶祝聚會。"
+        },
+        {
+          "en": "The person who throws a party arranges it rather than just attends.",
+          "zh": "辦派對的人是籌辦者，而非單純出席者。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2956",
+      "number": 2956,
+      "inventoryId": "expr-2956",
+      "titleEn": "picking up the pieces afterwards",
+      "titleZh": "事後收拾殘局",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:pick|picks|picked|picking) up the pieces(?: afterwards)?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Deal with damage, disrupted plans or other consequences after a harmful event or decision.",
+        "meaningZh": "在不良事件或決定之後處理損害、被打亂的安排及其他後果。",
+        "grammar": "Pick up the pieces; afterwards can follow to stress the later work. Pieces are figurative consequences, not necessarily broken objects. Name the event and repair burden.",
+        "register": "Informal expressive English. A volunteer coordinator may use it when warning colleagues that a rushed publicity decision could leave others with the fallout.",
+        "boundaryZh": "須有不良事件或決定留下的後果及後續補救；活動完畢例行收拾場地、掃地，不一定是此處的收拾殘局。",
+        "misconceptionZh": "不是字面撿碎片，也不表示一切損失都能完全補回。",
+        "outcomeZh": "能指出先前事件或決定、受影響者及事後須做的補救。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0845",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 78,
+          "book": 12,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "23–25",
+          "locatorNote": "DOCX table 79, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The celebration is not worth picking up the pieces afterwards.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "picking up the pieces afterwards"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The club considered announcing a trip before checking the accessible bus. A volunteer warned that if families paid deposits and the transport failed, organisers would be picking up the pieces afterwards by arranging refunds and new travel.",
+        "zh": "社團考慮未核對無障礙巴士就公布旅行。一名義工警告，若家庭付訂金後交通出問題，主辦者事後須安排退款及新交通來收拾殘局。",
+        "promptZh": "哪些是事後殘局？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Refunds and replacement travel after an unchecked promise fails.",
+            "zh": "未核查承諾失敗後的退款與替代交通。"
+          },
+          {
+            "id": "b",
+            "en": "A normal sweep of the hall after a successful meeting.",
+            "zh": "成功會議後照例掃地。"
+          },
+          {
+            "id": "c",
+            "en": "Literal ceramic pieces from a broken cup only.",
+            "zh": "只是一隻破杯的實際碎片。"
+          },
+          {
+            "id": "d",
+            "en": "A transport plan already confirmed before deposits.",
+            "zh": "收訂金前已確認的交通安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未核查承諾可能造成實際補救負擔。"
+      },
+      "reply": {
+        "promptEn": "A team wants to print a launch date before the venue confirms availability. If tickets are sold and the venue refuses, staff must apologise, refund buyers and rebook. What risk is the team creating?",
+        "promptZh": "（團隊想在場地確認可用前印出開幕日期。若售票後場地拒絕，員工便須道歉、退款及重訂。團隊製造甚麼風險？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A rushed announcement could burden the staff later.",
+            "zh": "倉促公布可能令員工之後承擔負擔。"
+          },
+          {
+            "id": "b",
+            "en": "Refunds and rebooking would be consequences to repair.",
+            "zh": "退款及重訂將是須補救的後果。"
+          },
+          {
+            "id": "c",
+            "en": "They may be picking up the pieces afterwards.",
+            "zh": "他們之後可能要收拾殘局。"
+          },
+          {
+            "id": "d",
+            "en": "Confirming availability first could avoid that fallout.",
+            "zh": "先確認場地可用可避免後續問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出先行決定與後續補救。"
+      },
+      "scene": {
+        "promptZh": "團隊未問居民便改出入口，之後有人無法進場，須改路線並向受影響者致歉。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are picking up the pieces afterwards.",
+            "zh": "他們正在事後收拾殘局。"
+          },
+          {
+            "id": "b",
+            "en": "They are only sweeping ordinary paper scraps.",
+            "zh": "他們只是在掃普通紙屑。"
+          },
+          {
+            "id": "c",
+            "en": "The entry change caused no practical harm.",
+            "zh": "入口改動沒有任何實際影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改動造成後果，需要補救。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is picking up the pieces afterwards？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An event ends as planned, and volunteers do only the usual tidy-up with no harm, apology or repair.",
+            "zh": "活動如常結束，義工只例行收拾，沒有損害、道歉或補救。"
+          },
+          {
+            "id": "b",
+            "en": "A failed booking leaves staff refunding families and finding a safe replacement.",
+            "zh": "預訂失敗令員工向家庭退款並找安全替代方案。"
+          },
+          {
+            "id": "c",
+            "en": "A rushed notice misleads applicants, and organisers must correct records and apologise.",
+            "zh": "倉促通知誤導申請人，主辦者須更正紀錄並道歉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "例行清潔不等於處理不良後果。"
+      },
+      "dialogue": {
+        "promptEn": "A: The sponsor wording was published before anyone checked it. Now the wrong promise has reached families, and we need to correct the page and contact them. B: ______",
+        "promptZh": "（甲：贊助商字句沒經核對就發佈。錯誤承諾已傳到家庭，我們須更正網頁並聯絡他們。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That early publication created repair work.",
+            "zh": "過早發佈造成補救工作。"
+          },
+          {
+            "id": "b",
+            "en": "The families need a correction from us.",
+            "zh": "家庭需要我們作更正。"
+          },
+          {
+            "id": "c",
+            "en": "We are picking up the pieces afterwards.",
+            "zh": "我們正在事後收拾殘局。"
+          },
+          {
+            "id": "d",
+            "en": "We should explain what changed and what help is available.",
+            "zh": "我們應解釋改了甚麼及有何協助。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括錯誤公布後的補救負擔。"
+      },
+      "speaking": {
+        "en": "After the rushed app update confused users about the new booking time, the team was picking up the pieces afterwards by restoring old reservations and sending corrected notices.",
+        "zh": "倉促更新程式令用戶混淆新預訂時間後，團隊須恢復舊預訂、發更正通知，事後收拾殘局。",
+        "promptZh": "指出原來決定與實際補救。",
+        "targetSpan": {
+          "start": 84,
+          "end": 116
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項倉促決定及一場不良事件各引起可指出的後果，事後有人須補救。用英文寫出前因、受影響者及補救。",
+        "selfCheckZh": "兩例不能只寫活動後清潔；須有傷害或錯誤及補救工作。",
+        "examples": [
+          {
+            "en": "The organisers advertised free access before checking capacity, then were picking up the pieces afterwards as they apologised to turned-away families and arranged another session.",
+            "zh": "主辦者未查容量便宣傳免費入場，拒絕部分家庭後須道歉並增設一場，事後收拾殘局。"
+          },
+          {
+            "en": "After a storm flooded the community pantry, volunteers picked up the pieces by drying supplies, finding temporary shelves and helping families collect essentials elsewhere.",
+            "zh": "暴風雨淹浸社區食品儲存處後，義工收拾殘局：晾乾物資、尋找臨時貨架，並協助家庭到別處領取必需品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "checking capacity",
+            "zh": "查容量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "turned-away families",
+            "zh": "被拒諸門外的家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 149
+            }
+          },
+          {
+            "en": "temporary shelves",
+            "zh": "臨時貨架",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 121
+            }
+          },
+          {
+            "en": "collect essentials",
+            "zh": "領取必需品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Pick up the pieces means deal with damage after a bad outcome.",
+          "zh": "pick up the pieces 指在不良後果後處理損害。"
+        },
+        {
+          "en": "Avoid a rushed promise if others must pick up the pieces afterwards.",
+          "zh": "若別人事後須收拾殘局，應避免倉促承諾。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2339",
+      "number": 2339,
+      "inventoryId": "expr-2339",
+      "titleEn": "disappear into a role",
+      "titleZh": "完全融入角色",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:disappear|disappears|disappeared|disappearing) into a role\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Act so convincingly that viewers focus on the character rather than the performer’s familiar public identity.",
+        "meaningZh": "演得令人信服，使觀眾集中在角色，而非演員平日的公眾形象。",
+        "grammar": "Disappear into a role; subject is a performer, and the disappearance is figurative. Give observed acting choices, not physical concealment.",
+        "register": "Natural performance-review language. A theatre critic may use it when describing a familiar actor’s convincing transformation.",
+        "boundaryZh": "須有可觀察表演細節令角色可信；只戴假髮、換服裝或本人真的離場，不足以說融入角色。",
+        "misconceptionZh": "不是演員真的消失，也不表示觀眾忘記作品是表演。",
+        "outcomeZh": "能指出熟悉演員形象、具體角色行為及觀眾注意力的轉變。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0228",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The performer seemed to disappear into a role she had studied for months.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "disappear into a role"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The audience knew Mara as a comic host, but in the play she adopted the cautious pauses and clipped answers of a shy archivist. Viewers stopped waiting for her usual jokes; she seemed to disappear into a role.",
+        "zh": "觀眾認得瑪拉是喜劇主持，但劇中她用謹慎停頓和簡短回答演一名害羞檔案員。觀眾不再等她平日的笑話；她彷彿完全融入角色。",
+        "promptZh": "哪項顯示她融入角色？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her acting choices made viewers attend to the archivist rather than her usual persona.",
+            "zh": "她的表演令觀眾注意檔案員，而非平日形象。"
+          },
+          {
+            "id": "b",
+            "en": "She physically left the stage before the scene began.",
+            "zh": "她在場面開始前真的離開舞台。"
+          },
+          {
+            "id": "c",
+            "en": "Viewers kept demanding her familiar jokes during every line.",
+            "zh": "觀眾每句台詞都要求她講慣常笑話。"
+          },
+          {
+            "id": "d",
+            "en": "Only the costume changed; her behaviour stayed identical.",
+            "zh": "只是衣服變了，她的行為完全一樣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "表演細節令觀眾由熟悉形象轉向角色。"
+      },
+      "reply": {
+        "promptEn": "A well-known singer plays a reserved village doctor. Instead of performing with her usual confident gestures, she listens carefully, hesitates before difficult news and speaks softly. Viewers discuss the doctor rather than the singer. What might a reviewer say?",
+        "promptZh": "（一名知名歌手扮演寡言鄉村醫生。她不用平日自信手勢，而是細聽、說困難消息前猶豫，聲音輕柔。觀眾談的是醫生而非歌手。評論者可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her choices make the doctor believable.",
+            "zh": "她的表演選擇令醫生可信。"
+          },
+          {
+            "id": "b",
+            "en": "The audience focuses on the character more than her celebrity image.",
+            "zh": "觀眾更注意角色而非其明星形象。"
+          },
+          {
+            "id": "c",
+            "en": "She disappears into a role.",
+            "zh": "她完全融入角色。"
+          },
+          {
+            "id": "d",
+            "en": "Her restrained manner differs from her usual stage persona.",
+            "zh": "她含蓄的方式有別於平日舞台形象。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均基於表演方式和觀眾焦點。"
+      },
+      "scene": {
+        "promptZh": "著名搞笑演員演一名寡言校長，改用緩慢步伐及謹慎語氣；觀眾不再等待笑話，而是關心校長決定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The performer disappears into a role.",
+            "zh": "演員完全融入角色。"
+          },
+          {
+            "id": "b",
+            "en": "The performer has literally vanished from the theatre.",
+            "zh": "演員真的從劇院消失。"
+          },
+          {
+            "id": "c",
+            "en": "A costume change alone proves the acting is convincing.",
+            "zh": "只換衣服就證明演技可信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "觀眾焦點轉向可信角色。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a performer disappears into a role？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A celebrity wears a different hat but keeps the same voice, gestures and familiar jokes; viewers discuss only the celebrity.",
+            "zh": "明星換帽子，聲線、手勢及慣常笑話全不變；觀眾只討論明星本人。"
+          },
+          {
+            "id": "b",
+            "en": "An actor’s changed rhythm and posture make viewers follow the character’s worries.",
+            "zh": "演員改變節奏與姿態，令觀眾留意角色情緒。"
+          },
+          {
+            "id": "c",
+            "en": "A familiar presenter uses restrained reactions so the audience responds to the fictional parent.",
+            "zh": "熟悉主持人用含蓄反應，令觀眾投入虛構家長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只改衣服而角色行為不變，不足以支持。"
+      },
+      "dialogue": {
+        "promptEn": "A: I usually recognise Ana immediately, but in this film her hesitant answers and careful listening made me think about the new teacher, not Ana’s usual comedy act. B: ______",
+        "promptZh": "（甲：我平日一眼認出安娜，但這部片中她猶豫的回答及細心聆聽，令我想到新老師，而不是她平日的喜劇表演。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her acting changed where your attention went.",
+            "zh": "她的表演改變你的注意焦點。"
+          },
+          {
+            "id": "b",
+            "en": "The teacher felt like a credible character.",
+            "zh": "老師令人覺得是可信角色。"
+          },
+          {
+            "id": "c",
+            "en": "She really disappeared into a role.",
+            "zh": "她真的完全融入角色。"
+          },
+          {
+            "id": "d",
+            "en": "It was more than a costume change.",
+            "zh": "那不只是換衣服。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括由熟悉演員轉向角色。"
+      },
+      "speaking": {
+        "en": "During the reading, Jun changed his familiar brisk speech into a careful, uncertain voice, and the audience followed the anxious courier; he had begun to disappear into a role.",
+        "zh": "朗讀時阿俊把慣常快捷語速改成謹慎、不確定的聲線，觀眾跟着焦慮信差；他開始完全融入角色。",
+        "promptZh": "指出具體表演轉變和觀眾焦點。",
+        "targetSpan": {
+          "start": 154,
+          "end": 175
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位觀眾原本熟悉演員其他形象，卻因具體表演選擇而投入新角色。用英文寫出轉變。",
+        "selfCheckZh": "兩例須有表演細節及觀眾焦點，不能只說換裝。",
+        "examples": [
+          {
+            "en": "Known for cheerful hosting, Mei disappeared into a role as a wary inspector by weighing each answer and refusing to smile at easy jokes; viewers debated the inspector’s doubts.",
+            "zh": "以開朗主持見稱的美演一名警惕督察時，仔細權衡每個答案，也不對簡單笑話微笑；觀眾討論督察的疑慮，顯示她融入角色。"
+          },
+          {
+            "en": "The actor disappeared into a role as a tired gardener: slower steps and a protective hand on each seed tray made the audience notice the gardener’s care rather than his usual action-hero image.",
+            "zh": "演員以慢步伐、逐個護着育苗盤的動作演疲憊園丁；觀眾注意園丁的關懷，而非他慣常的動作英雄形象，顯示他融入角色。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weighing each answer",
+            "zh": "仔細權衡每個答案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 99
+            }
+          },
+          {
+            "en": "inspector’s doubts",
+            "zh": "督察的疑慮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 175
+            }
+          },
+          {
+            "en": "protective hand",
+            "zh": "護着的手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "seed tray",
+            "zh": "育苗盤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Disappear into a role describes convincing transformation in acting.",
+          "zh": "disappear into a role 指演員表演上令人信服地融入角色。"
+        },
+        {
+          "en": "To disappear into a role, behaviour must shift audience focus to the character.",
+          "zh": "融入角色須令觀眾焦點由演員轉向人物。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2348",
+      "number": 2348,
+      "inventoryId": "expr-2348",
+      "titleEn": "through the lens of",
+      "titleZh": "從某角度看",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthrough the lens of (?!yesterday\\b)(?:public health|accessibility|education|housing|conservation|community safety|care work|transport|local history|disability access|climate risk|affordability)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Examine a matter from a named analytical perspective that highlights particular questions.",
+        "meaningZh": "從一個明確的分析角度看事情，突出該角度關心的問題。",
+        "grammar": "View/consider X through the lens of + named perspective. The lens is figurative; this general construction is distinct from canonical 1765 fixed `through the lens of yesterday` historical lens.",
+        "register": "Neutral analytical speech. A town planner may use it with residents when explaining why an access-focused review asks different questions from a cost review.",
+        "boundaryZh": "須說出具體角度及它令哪些問題更受關注；不是透過實際相機鏡頭，也不表示該角度能回答所有問題。",
+        "misconceptionZh": "不是把觀點當成唯一事實，更不是只在歷史角度才可使用。",
+        "outcomeZh": "能指出所選角度、因此浮現的問題，以及仍須補看的其他角度。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0237",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 22,
+          "book": 10,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The report views the problem through the lens of public health.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "through the lens of"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 4,
+      "listening": {
+        "en": "The council first discussed a park path only by construction cost. A resident asked them to view it through the lens of accessibility: could a wheelchair user reach the toilets without steps? The new question did not make cost irrelevant.",
+        "zh": "議會起初只按建築成本討論公園小徑。居民請他們從無障礙角度看：輪椅使用者能否不經樓梯到洗手間？新問題沒有令成本變得無關。",
+        "promptZh": "無障礙角度帶來甚麼不同問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Whether the route works for a wheelchair user.",
+            "zh": "路線是否適合輪椅使用者。"
+          },
+          {
+            "id": "b",
+            "en": "Whether the path looks good through a camera lens.",
+            "zh": "小徑透過相機鏡頭是否好看。"
+          },
+          {
+            "id": "c",
+            "en": "Whether construction cost can never matter.",
+            "zh": "建築成本是否永遠不重要。"
+          },
+          {
+            "id": "d",
+            "en": "Whether the toilets were built yesterday.",
+            "zh": "洗手間是否昨天興建。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "指定角度引出可使用性問題。"
+      },
+      "reply": {
+        "promptEn": "A food-sharing plan is praised for reducing waste. A nurse asks the team to consider it through the lens of public health, including safe storage and allergy labels. What does that perspective add?",
+        "promptZh": "（共享食物計劃因減少浪費獲讚。一名護士請團隊從公共衞生角度看，包括安全儲存及致敏原標示。這角度帶來甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It raises safety questions beyond waste reduction.",
+            "zh": "它提出減廢以外的安全問題。"
+          },
+          {
+            "id": "b",
+            "en": "It asks how food will be stored and labelled.",
+            "zh": "它問食物如何儲存及標示。"
+          },
+          {
+            "id": "c",
+            "en": "Through the lens of public health, the nurse asks whether the food is safe to share.",
+            "zh": "從公共衞生角度，護士問食物是否可安全分享。"
+          },
+          {
+            "id": "d",
+            "en": "It adds a perspective without erasing the waste goal.",
+            "zh": "它增加角度而不抹去減廢目標。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指公共衞生的具體問題。"
+      },
+      "scene": {
+        "promptZh": "地方議會原只以車程評估巴士改線；一名家長問低收入家庭的票價負擔。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The parent views the change through the lens of affordability.",
+            "zh": "家長從負擔能力角度看這項改動。"
+          },
+          {
+            "id": "b",
+            "en": "The parent must be looking through a physical camera.",
+            "zh": "家長必定正在透過相機看。"
+          },
+          {
+            "id": "c",
+            "en": "Travel time is automatically irrelevant to every passenger.",
+            "zh": "車程對每名乘客都自動無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "家長其實提出費用公平，選項須有正確角度。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone views an issue through the lens of a perspective？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker names no perspective and only repeats the original cost figure without asking a new question.",
+            "zh": "講者沒有指出角度，只重複原來成本數字，也沒有提出新問題。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher considers a school change through the lens of education and asks what pupils can learn.",
+            "zh": "老師從教育角度看學校改動，問學生能學到甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "A planner considers a route through the lens of disability access and checks step-free links.",
+            "zh": "規劃者從無障礙角度看路線，核對無梯級通道。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有清楚角度與由此引出的問題。"
+      },
+      "dialogue": {
+        "promptEn": "A: The old market proposal focuses on rent, but I want us to ask whether long-time vendors can reach their stalls during the works. B: ______",
+        "promptZh": "（甲：舊街市方案集中討論租金，但我想問工程期間老檔主能否到自己的攤檔。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That adds an access question to the rent discussion.",
+            "zh": "那在租金討論中加入通道問題。"
+          },
+          {
+            "id": "b",
+            "en": "You are asking about a practical effect on vendors.",
+            "zh": "你在問檔主面對的實際影響。"
+          },
+          {
+            "id": "c",
+            "en": "You are looking at it through the lens of accessibility.",
+            "zh": "你正從無障礙角度看這件事。"
+          },
+          {
+            "id": "d",
+            "en": "Both rent and access deserve checking before a decision.",
+            "zh": "決定前租金與通道都值得核查。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句用具體角度重看方案。"
+      },
+      "speaking": {
+        "en": "Looking at the library redesign through the lens of education led the team to ask whether young readers could find the materials they needed, not just whether shelves were cheaper.",
+        "zh": "從教育角度看圖書館重設，令團隊問年輕讀者能否找到所需資料，而不只看書架是否較便宜。",
+        "promptZh": "指出角度及新增問題。",
+        "targetSpan": {
+          "start": 32,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項計劃原從單一標準評估，另一人提出不同角度及具體新問題。用英文寫出角度和未被取代的原標準。",
+        "selfCheckZh": "兩例不能只寫「換角度」；須有由角度產生的新問題。",
+        "examples": [
+          {
+            "en": "Viewing the river clean-up through the lens of conservation made the team ask how nesting birds would be protected, while the budget still mattered.",
+            "zh": "從保育角度看河道清理，令團隊問如何保護築巢雀鳥，同時仍須考慮預算。"
+          },
+          {
+            "en": "The school bus plan looked different through the lens of community safety: parents asked where children would cross, without ignoring travel time.",
+            "zh": "從社區安全角度看校巴計劃便有所不同：家長問孩子在哪裏過路，同時沒有忽略車程。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "nesting birds",
+            "zh": "築巢雀鳥",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "the budget",
+            "zh": "預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 132
+            }
+          },
+          {
+            "en": "where children would cross",
+            "zh": "孩子在哪裏過路",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 115
+            }
+          },
+          {
+            "en": "travel time",
+            "zh": "車程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Through the lens of public health names a perspective that changes what we ask.",
+          "zh": "through the lens of public health 指從公共衞生角度提出不同問題。"
+        },
+        {
+          "en": "A plan viewed through the lens of accessibility still needs other checks.",
+          "zh": "從無障礙角度看的計劃仍須作其他核查。"
+        }
+      ]
+    }
+  ]
+}

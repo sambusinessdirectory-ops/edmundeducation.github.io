@@ -1,0 +1,2214 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2831-4095-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-2831",
+      "number": 2831,
+      "inventoryId": "expr-2831",
+      "titleEn": "under wraps",
+      "titleZh": "暫時保密",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping|remain|remains|remained|remaining|be|is|are|was|were)\\s+(?:(?:the|a|an|our|their|his|her|its|this|that|details|plans|news|announcement|project)\\s+){0,4}under\\s+wraps\\b|\\bunder\\s+wraps\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Kept secret from the public for a period of time, often before a planned announcement.",
+        "meaningZh": "在預定公布前暫時對外保密。",
+        "grammar": "Keep X under wraps / X remains under wraps; wraps is plural and the object may precede the phrase.",
+        "register": "Neutral informal news-planning language; an organiser explains to colleagues when an announcement may be shared.",
+        "boundaryZh": "重點是暫未公開，不代表永不公布，也不代表實際包裹了物品。",
+        "misconceptionZh": "保密期限與是否已確定是兩回事；不可推論內容已取消。",
+        "outcomeZh": "能判斷消息暫未公開與日後公布的時間差。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0720",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "69–71",
+          "locatorNote": "DOCX table 64, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They kept the announcement under wraps until Friday.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "under wraps"
+        }
+      ],
+      "listening": {
+        "en": "The theatre has chosen its new director, but the name will remain under wraps until the board tells staff on Monday.",
+        "zh": "劇院已選定新總監，但董事會星期一通知員工前，姓名會暫時保密。",
+        "promptZh": "under wraps 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The name is being kept private until Monday.",
+            "zh": "姓名在星期一前暫不公開。"
+          },
+          {
+            "id": "b",
+            "en": "The appointment has been cancelled.",
+            "zh": "任命已取消。"
+          },
+          {
+            "id": "c",
+            "en": "The director is wrapped in a blanket.",
+            "zh": "總監被毛毯包着。"
+          },
+          {
+            "id": "d",
+            "en": "Everyone already knows the name.",
+            "zh": "所有人已知道姓名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已選定人選，但姓名要待星期一才公布。"
+      },
+      "reply": {
+        "promptEn": "A community prize winner has been selected. The committee will announce the result at Friday’s ceremony and asks volunteers not to reveal it earlier. How can a volunteer describe the result now?",
+        "promptZh": "（社區獎項得主已選出。委員會星期五典禮才宣布結果，請義工勿提早透露。義工現在可怎樣描述結果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The result is private until the ceremony.",
+            "zh": "結果在典禮前屬保密資料。"
+          },
+          {
+            "id": "b",
+            "en": "We know the winner but cannot share the name yet.",
+            "zh": "我們知道得主，但暫不能透露姓名。"
+          },
+          {
+            "id": "c",
+            "en": "The winner’s identity is under wraps until Friday.",
+            "zh": "得主身分在星期五前暫時保密。"
+          },
+          {
+            "id": "d",
+            "en": "The committee will reveal the result on Friday.",
+            "zh": "委員會星期五會公布結果。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均表示得主已定，但典禮前不得公開。"
+      },
+      "scene": {
+        "promptZh": "博物館已完成新展覽海報，但下月發表前不對外展示。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The poster is under wraps until next month.",
+            "zh": "海報在下月前暫時保密。"
+          },
+          {
+            "id": "b",
+            "en": "The poster is physically covered with gift paper, so no announcement is possible.",
+            "zh": "海報實際用禮物紙包好，所以無法公布。"
+          },
+          {
+            "id": "c",
+            "en": "The poster has been shown publicly for weeks.",
+            "zh": "海報已公開展示數星期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已完成但暫不展示，正是保密。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把 under wraps 誤解為「永遠隱瞞」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The research findings are under wraps until peer review ends, then the team plans to publish them.",
+            "zh": "研究結果在同儕評審結束前保密，之後團隊打算發表。"
+          },
+          {
+            "id": "b",
+            "en": "The findings are under wraps, so they can never be published.",
+            "zh": "結果暫時保密，因此永遠不能發表。"
+          },
+          {
+            "id": "c",
+            "en": "The findings were announced today, so they remain under wraps to the public.",
+            "zh": "結果今天已公布，因此對公眾仍是保密。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "暫時保密可有明確的日後公開時間。"
+      },
+      "dialogue": {
+        "promptZh": "有人把 under wraps 解作「尚未作出決定」。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The date can be settled and still kept under wraps until the invitations go out.",
+            "zh": "日期可以已定，只是在邀請函發出前暫時保密。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always means no decision exists.",
+            "zh": "對，它一定表示尚無決定。"
+          },
+          {
+            "id": "c",
+            "en": "It means the invitation has been mailed already.",
+            "zh": "它表示邀請函已寄出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已定與暫未公開可以同時成立。"
+      },
+      "speaking": {
+        "en": "The chef’s new menu is under wraps until the tasting event, although the dishes have already been tested.",
+        "zh": "廚師的新菜單在試食會前暫不公開，雖然菜式已經測試。",
+        "promptZh": "指出菜單何時才會公開。",
+        "targetSpan": {
+          "start": 23,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一所學校已選好新的校徽，設計也已批准；校方準備在下週校慶公開，現在請職員勿在社交媒體透露。用英文描述已定但暫未公開。",
+        "selfCheckZh": "兩個示範都應說明校徽已選定及獲批、下週校慶才公開、職員現時勿在社交媒體透露。",
+        "examples": [
+          {
+            "en": "The school has approved its new emblem, but it is under wraps until next week’s anniversary event; staff have been asked not to post it online.",
+            "zh": "學校已批准新校徽，但校徽在下週校慶前暫時保密；職員獲提醒不要把它放上網。"
+          },
+          {
+            "en": "Although the new emblem is chosen and approved, the school is keeping it under wraps until the anniversary celebration next week, so staff must not reveal it on social media.",
+            "zh": "雖然新校徽已選定並獲批准，學校仍會在下週校慶前保密，因此職員不得在社交媒體透露。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "approved",
+            "zh": "批准",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 23
+            }
+          },
+          {
+            "en": "anniversary event",
+            "zh": "校慶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 97
+            }
+          },
+          {
+            "en": "post it online",
+            "zh": "把它放上網",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 142
+            }
+          },
+          {
+            "en": "chosen and approved",
+            "zh": "選定並獲批准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 46
+            }
+          },
+          {
+            "en": "anniversary celebration",
+            "zh": "校慶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 118
+            }
+          },
+          {
+            "en": "social media",
+            "zh": "社交媒體",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Under wraps means not yet shared publicly.",
+          "zh": "under wraps 指暫未向公眾透露。"
+        },
+        {
+          "en": "A decision can be final while its announcement remains under wraps.",
+          "zh": "決定可以已定，但消息仍暫時保密。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3806",
+      "number": 3806,
+      "inventoryId": "expr-3806",
+      "titleEn": "trapped in a cycle of X",
+      "titleZh": "困於反覆的惡性循環",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btrapped\\s+in\\s+a\\s+cycle\\s+of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Unable to escape a repeating pattern of hardship because each round helps cause the next.",
+        "meaningZh": "困在一再重現的困境中，前一輪問題又促成下一輪。",
+        "grammar": "Be/get trapped in a cycle of + hardship noun phrase; name the recurring pattern rather than one isolated setback.",
+        "register": "Neutral social-problem analysis; a support worker explains a repeated barrier to a local committee.",
+        "boundaryZh": "必須有反覆發生及難以脫離的因果循環，不能只指一次壓力事件。",
+        "misconceptionZh": "不是被實際困在單車裏；pressure and insecurity 只是來源例子，名詞可替換。",
+        "outcomeZh": "能指出重複環節及它們怎樣互相造成。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1695",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 160,
+          "book": 14,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 171, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Families may be trapped in a cycle of pressure and insecurity.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "trapped in a cycle of pressure and insecurity"
+        }
+      ],
+      "listening": {
+        "en": "Each missed bus leads to a late shift and lost pay; the reduced pay then makes the next bus pass unaffordable. The worker is trapped in a cycle of transport costs and lost wages.",
+        "zh": "每次錯過巴士都令工人上班遲到、薪金減少；減薪又令下次車票難以負擔。工人困於交通費與失薪反覆造成的惡性循環。",
+        "promptZh": "trapped in a cycle of 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One difficulty repeatedly feeds the next.",
+            "zh": "一種困難反覆促成下一種。"
+          },
+          {
+            "id": "b",
+            "en": "The worker had one bad morning only.",
+            "zh": "工人只遇過一個倒楣早上。"
+          },
+          {
+            "id": "c",
+            "en": "The worker is inside a bicycle.",
+            "zh": "工人被困在單車裏。"
+          },
+          {
+            "id": "d",
+            "en": "The bus pass has already become free.",
+            "zh": "車票已經免費。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "失薪與交通費互相加深困難。"
+      },
+      "reply": {
+        "promptEn": "A tenants’ group finds that leaking flats cause illness, while illness causes missed work and leaves tenants unable to pay for repairs. The same pattern keeps recurring. How can the group describe it?",
+        "promptZh": "（租戶團體發現單位漏水使人患病，患病又令租戶缺勤，無錢維修漏水；同一情況反覆發生。團體可怎樣描述？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The problems reinforce one another.",
+            "zh": "這些問題互相加深。"
+          },
+          {
+            "id": "b",
+            "en": "One setback leads back to another.",
+            "zh": "一種挫折又引出另一種。"
+          },
+          {
+            "id": "c",
+            "en": "The tenants are trapped in a cycle of illness and repair costs.",
+            "zh": "租戶困於病患與維修費的惡性循環。"
+          },
+          {
+            "id": "d",
+            "en": "The leak, missed work and repair costs keep feeding one another.",
+            "zh": "漏水、缺勤與維修費不斷互相促成。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均回應漏水、病患、缺勤與維修費反覆相連。"
+      },
+      "scene": {
+        "promptZh": "學生因照顧家人缺課，缺課使功課落後，落後又令他更難安排照顧時間；情況重複數月。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is trapped in a cycle of missed lessons and care demands.",
+            "zh": "他困於缺課與照顧責任的惡性循環。"
+          },
+          {
+            "id": "b",
+            "en": "One missed lesson is automatically a lifelong cycle.",
+            "zh": "缺一節課就自動成為終身循環。"
+          },
+          {
+            "id": "c",
+            "en": "He is trapped inside a bicycle at school.",
+            "zh": "他被困在學校一架單車裏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數月來兩種困難互相促成。"
+      },
+      "contrast": {
+        "promptZh": "哪句最清楚區分「循環」與單次事件？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated fines make the balance harder to clear, and the growing balance triggers more fines: a cycle of debt.",
+            "zh": "罰款一再使欠款更難清還，欠款增加又引出更多罰款，構成債務循環。"
+          },
+          {
+            "id": "b",
+            "en": "One delayed payment happened once and was fully resolved; it is an endless cycle.",
+            "zh": "有一次延遲付款，已完全解決，卻稱為無盡循環。"
+          },
+          {
+            "id": "c",
+            "en": "Two unrelated problems occurred months apart, so each must have caused the other.",
+            "zh": "兩個無關問題相隔數月發生，因此必定互為因果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩環節互相延續，才形成循環。"
+      },
+      "dialogue": {
+        "promptZh": "有人說 cycle of 後面一定要接 pressure and insecurity。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A family can be trapped in a cycle of debt and late fees; the hardship nouns can change.",
+            "zh": "一家人可困於債務與逾期費的惡性循環；困境名詞可以替換。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, those exact two nouns are mandatory.",
+            "zh": "對，必須原封不動用那兩個名詞。"
+          },
+          {
+            "id": "c",
+            "en": "It means any pleasant routine with no difficulty.",
+            "zh": "它指任何沒有困難的愉快習慣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "困境名詞可替換，重點是反覆難脫。"
+      },
+      "speaking": {
+        "en": "The shop keeps borrowing to cover its rent, and interest raises the next payment; it is trapped in a cycle of debt and interest.",
+        "zh": "店舖不斷借款交租，利息又推高下一期付款；它困於債務與利息的惡性循環。",
+        "promptZh": "指出甚麼令下一期付款更高。",
+        "targetSpan": {
+          "start": 88,
+          "end": 109
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區球隊缺少教練，訓練不足令新成員退出；人數少又使球隊更難招募教練。此情況連續三季重複。用英文描述循環及兩個互相影響的環節。",
+        "selfCheckZh": "兩個示範都應寫出缺教練、訓練不足令成員退出、人數少又難招教練，以及三季反覆。",
+        "examples": [
+          {
+            "en": "For three seasons, the team has been trapped in a cycle of weak training and falling membership: without coaches, players leave, and the smaller group struggles to recruit coaches.",
+            "zh": "三季以來，球隊困於訓練不足與會員減少的惡性循環：缺少教練使球員退出，人數減少又令招募教練更難。"
+          },
+          {
+            "en": "The club is trapped in a cycle of coach shortages and departures. Poor training drives new members away, and a shrinking team has struggled to attract coaches for three seasons.",
+            "zh": "球會困於缺教練與成員退出的惡性循環。訓練不足令新成員離開；三季以來，隊伍縮小又使招募教練更難。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "falling membership",
+            "zh": "會員減少",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 95
+            }
+          },
+          {
+            "en": "recruit coaches",
+            "zh": "招募教練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 179
+            }
+          },
+          {
+            "en": "smaller group",
+            "zh": "人數較少的團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 150
+            }
+          },
+          {
+            "en": "coach shortages",
+            "zh": "教練不足",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 49
+            }
+          },
+          {
+            "en": "drives new members away",
+            "zh": "令新成員離開",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 103
+            }
+          },
+          {
+            "en": "shrinking team",
+            "zh": "縮小的隊伍",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Trapped in a cycle of X requires a recurring hardship pattern.",
+          "zh": "trapped in a cycle of X 要有反覆出現的困境。"
+        },
+        {
+          "en": "Trapped in a cycle of debt means one round of hardship helps cause the next.",
+          "zh": "困於債務循環，表示一輪困難又促成下一輪。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3813",
+      "number": 3813,
+      "inventoryId": "expr-3813",
+      "titleEn": "a hand up",
+      "titleZh": "助人自立的扶持",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+hand\\s+up\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Practical help that enables someone to make progress rather than merely easing a need for a moment.",
+        "meaningZh": "讓人向前邁進的實際扶持，而非只暫時紓緩需要。",
+        "grammar": "Give/provide/offer someone a hand up; can be followed by into/towards + a better situation. Contrast a handout when useful, without assuming all direct relief is bad.",
+        "register": "Supportive community-policy language; a charity adviser explains an enabling programme to donors.",
+        "boundaryZh": "援助須為受助者增加往後行動能力；一次性物資可能重要，但單靠它未必構成本課的 hand up。",
+        "misconceptionZh": "不是實際拉人上台階，也不是保證受助者必定成功。",
+        "outcomeZh": "能分辨可增強能力的扶持與只解決眼前需要的援助。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1702",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 160,
+          "book": 14,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 171, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Training can provide a hand up into a more secure future.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a hand up into a more secure future"
+        }
+      ],
+      "listening": {
+        "en": "A free bicycle-repair course gives delivery riders a hand up: they can maintain their own bikes and keep earning after the course ends.",
+        "zh": "免費單車維修課給送貨員助人自立的扶持：課程結束後，他們仍可自行保養單車並繼續工作。",
+        "promptZh": "a hand up 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Training gives riders a useful skill for future work.",
+            "zh": "培訓讓送貨員掌握日後工作有用的技能。"
+          },
+          {
+            "id": "b",
+            "en": "Someone physically lifts a rider by the hand.",
+            "zh": "有人實際拉送貨員的手。"
+          },
+          {
+            "id": "c",
+            "en": "The course guarantees every rider a permanent job.",
+            "zh": "課程保證每位送貨員都有永久職位。"
+          },
+          {
+            "id": "d",
+            "en": "Only one free meal is supplied, with no training.",
+            "zh": "只提供一頓免費餐，沒有培訓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "課程培養可繼續使用的技能。"
+      },
+      "reply": {
+        "promptEn": "A neighbourhood kitchen offers newcomers paid food-safety training and a chance to run a stall. The organiser asks what kind of help this is. What can you say?",
+        "promptZh": "（社區廚房為新來者提供有薪食物安全培訓，以及經營攤檔的機會。主辦者問這是哪種幫助。你可怎樣回答？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps them build a skill and try work.",
+            "zh": "它幫他們建立技能並嘗試工作。"
+          },
+          {
+            "id": "b",
+            "en": "The training may open a path to future income.",
+            "zh": "培訓可能開啟日後收入途徑。"
+          },
+          {
+            "id": "c",
+            "en": "It offers a hand up through training and practical experience.",
+            "zh": "它透過培訓和實際經驗提供助人自立的扶持。"
+          },
+          {
+            "id": "d",
+            "en": "It gives them more than short-term relief.",
+            "zh": "它帶來的幫助不止於短暫紓困。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據培訓及攤檔機會說明進一步能力。"
+      },
+      "scene": {
+        "promptZh": "社區中心送出一次餐盒，同時另有免費電腦課及求職練習。哪項最明確屬於 a hand up？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The computer course and job practice give participants a hand up.",
+            "zh": "電腦課和求職練習為參加者提供助人自立的扶持。"
+          },
+          {
+            "id": "b",
+            "en": "A single meal necessarily guarantees long-term independence.",
+            "zh": "一頓飯必定保證長期自立。"
+          },
+          {
+            "id": "c",
+            "en": "Someone must physically pull participants onto a platform.",
+            "zh": "一定要有人把參加者實際拉上台。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "技能與求職練習支援往後行動。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把 hand up 誇成成功保證？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A mentoring programme can give apprentices a hand up, although finding work still depends on later opportunities.",
+            "zh": "師友計劃可扶持學徒向前邁進，但找到工作仍取決於往後機會。"
+          },
+          {
+            "id": "b",
+            "en": "A hand up means every apprentice will certainly get a job.",
+            "zh": "助人自立的扶持表示每位學徒一定找到工作。"
+          },
+          {
+            "id": "c",
+            "en": "A hand up is only possible if no immediate support is given.",
+            "zh": "只有完全沒有即時支援才可能稱為扶持。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "增加能力與機會，不等於保證結果。"
+      },
+      "dialogue": {
+        "promptZh": "有人認為提供眼前食物不重要，因為它不是 hand up。哪句較穩妥？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Immediate food support can matter, while a hand up through skills training serves another need.",
+            "zh": "眼前食物支援也可以重要，而透過技能培訓扶持自立則照顧另一種需要。"
+          },
+          {
+            "id": "b",
+            "en": "Only training matters; food never helps anyone.",
+            "zh": "只有培訓重要，食物從不幫助任何人。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means lifting a parcel overhead.",
+            "zh": "這片語指把包裹舉過頭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不必貶低眼前支援，重點是區分功能。"
+      },
+      "speaking": {
+        "en": "The library’s free digital-skills workshops offer older residents a hand up when they need to book services online.",
+        "zh": "圖書館的免費數碼技能工作坊扶持年長居民，使他們能在網上預約服務。",
+        "promptZh": "指出居民學會甚麼實際用途。",
+        "targetSpan": {
+          "start": 66,
+          "end": 75
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區合作社為失業家長提供六週簿記培訓、實習與面試練習；課程不保證工作，但讓他們日後有更多應徵能力。用英文描述這種扶持。",
+        "selfCheckZh": "兩個示範都應寫出六週簿記培訓、實習與面試練習，並說明能力增加但不保證工作。",
+        "examples": [
+          {
+            "en": "The cooperative offers unemployed parents a hand up through six weeks of bookkeeping lessons, a placement and interview practice; it builds their skills without promising a job.",
+            "zh": "合作社透過六週簿記課、實習和面試練習，為失業家長提供助人自立的扶持；課程培養能力，但不保證工作。"
+          },
+          {
+            "en": "Six weeks of bookkeeping training, workplace practice and interview coaching give unemployed parents a hand up. These opportunities strengthen their applications, although employment is not guaranteed.",
+            "zh": "六週簿記培訓、職場實習和面試指導扶持失業家長向前邁進；這些機會增強他們的求職能力，但不保證受聘。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bookkeeping lessons",
+            "zh": "簿記課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          },
+          {
+            "en": "a placement",
+            "zh": "實習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 105
+            }
+          },
+          {
+            "en": "promising a job",
+            "zh": "保證工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 161,
+              "end": 176
+            }
+          },
+          {
+            "en": "workplace practice",
+            "zh": "職場實習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 53
+            }
+          },
+          {
+            "en": "interview coaching",
+            "zh": "面試指導",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 76
+            }
+          },
+          {
+            "en": "employment is not guaranteed",
+            "zh": "不保證受聘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 200
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A hand up is help that enables further progress.",
+          "zh": "a hand up 指可促進往後進展的扶持。"
+        },
+        {
+          "en": "A hand up offers a path or skill, not a guarantee of success.",
+          "zh": "a hand up 帶來途徑或技能，並非成功保證。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-3814",
+      "number": 3814,
+      "inventoryId": "expr-3814",
+      "titleEn": "break out of poverty",
+      "titleZh": "脫離貧困",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:break|breaks|broke|broken|breaking)\\s+out\\s+of\\s+poverty\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Escape a continuing state of poverty, usually through changes that last beyond one payment.",
+        "meaningZh": "脫離持續的貧困狀態，通常須靠超越一次援助的長遠改變。",
+        "grammar": "Break out of poverty; inflect break (breaks/broke/broken/breaking). Can help someone break out of poverty; do not use break poverty out.",
+        "register": "Neutral social-policy discussion; a careers counsellor explains long-term prospects to trainees.",
+        "boundaryZh": "表示脫離長期貧困，不等於某一天收入稍高，亦不表示一次支援必定足夠。",
+        "misconceptionZh": "不是打破一件實物，也不要把短暫收入誤作已經脫貧。",
+        "outcomeZh": "能分辨持續改善與一次性紓困，準確使用 break out of poverty。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1703",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 160,
+          "book": 14,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 171, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Education can help families break out of poverty.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "break out of poverty"
+        }
+      ],
+      "listening": {
+        "en": "A paid apprenticeship and steady childcare let Asha keep a full-time job over several years. Those changes helped her family break out of poverty.",
+        "zh": "有薪學徒訓練與穩定託兒服務讓阿莎多年來保持全職工作；這些改變幫助她一家脫離貧困。",
+        "promptZh": "break out of poverty 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The family escaped a lasting state of low income.",
+            "zh": "一家人脫離長期低收入狀態。"
+          },
+          {
+            "id": "b",
+            "en": "They received one payment for a day only.",
+            "zh": "他們只收到一天的一次款項。"
+          },
+          {
+            "id": "c",
+            "en": "They physically broke a container.",
+            "zh": "他們實際打破一個容器。"
+          },
+          {
+            "id": "d",
+            "en": "Asha stopped working immediately.",
+            "zh": "阿莎立即停止工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續工作與託兒支援帶來長期改變。"
+      },
+      "reply": {
+        "promptEn": "A family has relied on irregular day work for years. One adult completes a certification course, gets stable employment and retains it for two years. What might that change allow?",
+        "promptZh": "（一家人多年來依靠不穩定散工。一名成年人完成證書課程，找到穩定工作並做了兩年。這改變可能帶來甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The family may escape prolonged low income.",
+            "zh": "一家人可能脫離長期低收入。"
+          },
+          {
+            "id": "b",
+            "en": "A steady wage can improve their position over time.",
+            "zh": "穩定薪金可逐步改善處境。"
+          },
+          {
+            "id": "c",
+            "en": "It may help them break out of poverty.",
+            "zh": "它可能幫助他們脫離貧困。"
+          },
+          {
+            "id": "d",
+            "en": "The sustained job offers more than a single short payment.",
+            "zh": "持續工作帶來的幫助超越一次短暫收入。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據持續兩年的穩定收入。"
+      },
+      "scene": {
+        "promptZh": "某人只在一星期收到臨時獎金，之後仍長期入不敷支。哪句避免誤判？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One bonus alone does not show that the family has broken out of poverty.",
+            "zh": "單次獎金不足以證明一家人已脫離貧困。"
+          },
+          {
+            "id": "b",
+            "en": "Any bonus automatically means they broke out of poverty forever.",
+            "zh": "任何獎金都自動表示他們永遠脫貧。"
+          },
+          {
+            "id": "c",
+            "en": "Poverty is a physical box they must break open.",
+            "zh": "貧困是一個要打開的實體盒子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單次收入不代表長遠狀態已改變。"
+      },
+      "contrast": {
+        "promptZh": "哪句配搭及時間證據都恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After three years of stable work that covers basic needs, the household broke out of poverty.",
+            "zh": "經過三年有足夠支付基本生活所需的穩定工作，這戶家庭脫離了貧困。"
+          },
+          {
+            "id": "b",
+            "en": "The household broke poverty out after a single lunch voucher.",
+            "zh": "這戶家庭收到一張午餐券後便「打出貧困」。"
+          },
+          {
+            "id": "c",
+            "en": "The household broke out of poverty yesterday solely because one bill was postponed.",
+            "zh": "只因一張帳單延期，這戶家庭昨天就已脫貧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "break out of poverty 配搭正確，長期工作亦提供足夠證據。"
+      },
+      "dialogue": {
+        "promptZh": "有人以為 break out of poverty 等於任何短暫紓困。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Emergency aid can help today, while lasting work and support may help a family break out of poverty.",
+            "zh": "緊急援助可幫助眼前，持續工作及支援才可能幫一家人脫離貧困。"
+          },
+          {
+            "id": "b",
+            "en": "A single free meal proves permanent escape.",
+            "zh": "一頓免費餐證明已永久脫貧。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase can only describe escaping a locked room.",
+            "zh": "這片語只可描述逃出鎖着的房間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短期紓困與長遠脫貧是不同判斷。"
+      },
+      "speaking": {
+        "en": "With reliable transport and a permanent contract, the workers are beginning to break out of poverty after years of unstable pay.",
+        "zh": "有可靠交通與長期合約後，工人多年來收入不穩的情況逐漸改善，開始脫離貧困。",
+        "promptZh": "指出哪兩項支援使收入較穩定。",
+        "targetSpan": {
+          "start": 79,
+          "end": 99
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：偏遠村莊的織工以往收入忽高忽低；合作社提供長期訂單與穩定收款安排，兩年後多戶家庭可持續支付生活所需。用英文描述逐步脫離貧困，勿說已保證所有人成功。",
+        "selfCheckZh": "兩個示範都應寫出過往收入不穩、長期訂單及穩定收款、兩年後多戶可持續支付生活所需，並避免保證所有人成功。",
+        "examples": [
+          {
+            "en": "After two years of long-term orders and reliable payments, several weaving households are breaking out of poverty: they can now meet everyday costs despite their earlier irregular income.",
+            "zh": "有長期訂單及穩定收款兩年後，數戶織工家庭正逐步脫離貧困：過去收入不穩，現在卻可持續支付日常開支。"
+          },
+          {
+            "en": "The cooperative’s steady orders and payments replaced irregular earnings. Two years on, several families can consistently cover basic needs and are beginning to break out of poverty, though no outcome is guaranteed for everyone.",
+            "zh": "合作社的穩定訂單與收款取代了忽高忽低的收入。兩年後，數戶家庭可持續支付基本生活所需，開始脫離貧困，但不能保證每戶都成功。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "long-term orders",
+            "zh": "長期訂單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 35
+            }
+          },
+          {
+            "en": "reliable payments",
+            "zh": "穩定收款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 57
+            }
+          },
+          {
+            "en": "everyday costs",
+            "zh": "日常開支",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 147
+            }
+          },
+          {
+            "en": "irregular earnings",
+            "zh": "不穩定收入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 72
+            }
+          },
+          {
+            "en": "consistently cover basic needs",
+            "zh": "持續支付基本生活所需",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 139
+            }
+          },
+          {
+            "en": "no outcome is guaranteed",
+            "zh": "不能保證結果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 190,
+              "end": 214
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Break out of poverty means escape an enduring low-income condition.",
+          "zh": "break out of poverty 指脫離持續的低收入處境。"
+        },
+        {
+          "en": "A single payment may help without proving that a family has broken out of poverty.",
+          "zh": "單次援助可有幫助，但不足以證明一家人已脫離貧困。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4078",
+      "number": 4078,
+      "inventoryId": "expr-4078",
+      "titleEn": "stock up on",
+      "titleZh": "預先多買存貨",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:stock|stocks|stocked|stocking)\\s+up\\s+on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Buy or collect extra supplies in advance so they are available later.",
+        "meaningZh": "預先多買或儲存物資，以便日後使用。",
+        "grammar": "Stock up on + supply noun; stock up is intransitive, on introduces the item. Inflect stock: stocks, stocked, stocking.",
+        "register": "Everyday shopping and preparation; a shopkeeper advises residents before a closure.",
+        "boundaryZh": "表示預先增加存量，不等於當下剛好買夠，也不必暗示恐慌搶購。",
+        "misconceptionZh": "不是股票投資；stock up on 後須接儲備的物品。",
+        "outcomeZh": "能指出儲備甚麼、為何在日後才需要。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1967",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 185,
+          "book": 15,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 201, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Families stock up on rice before a holiday.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stock up on"
+        }
+      ],
+      "listening": {
+        "en": "The mountain clinic stocked up on bandages before the road closed for repairs, so it could keep treating patients all week.",
+        "zh": "山區診所在道路封閉維修前預先儲備繃帶，整週仍可為病人治理傷口。",
+        "promptZh": "stocked up on 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It obtained extra bandages before they were needed.",
+            "zh": "它在需要前多儲備繃帶。"
+          },
+          {
+            "id": "b",
+            "en": "It bought shares in a bandage company.",
+            "zh": "它買入繃帶公司的股票。"
+          },
+          {
+            "id": "c",
+            "en": "It used every bandage immediately.",
+            "zh": "它立即用盡所有繃帶。"
+          },
+          {
+            "id": "d",
+            "en": "It stopped treating patients.",
+            "zh": "它停止為病人治理傷口。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "道路封閉前多儲備，供整週使用。"
+      },
+      "reply": {
+        "promptEn": "The island ferry will pause for three days. A café manager buys enough milk and flour for those days before the last boat leaves. How can the manager describe the preparation?",
+        "promptZh": "（離島渡輪將停航三天。咖啡店經理在尾班船離開前，買夠這幾天所需牛奶和麵粉。經理可怎樣描述準備？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We bought extra supplies before deliveries stopped.",
+            "zh": "送貨暫停前，我們先買了額外物資。"
+          },
+          {
+            "id": "b",
+            "en": "We made sure milk and flour would last three days.",
+            "zh": "我們確保牛奶和麵粉足夠三天使用。"
+          },
+          {
+            "id": "c",
+            "en": "We stocked up on milk and flour before the ferry pause.",
+            "zh": "渡輪停航前，我們預先儲備牛奶和麵粉。"
+          },
+          {
+            "id": "d",
+            "en": "We planned ahead for the delivery gap.",
+            "zh": "我們為送貨空檔預先安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合停航前準備三天物資。"
+      },
+      "scene": {
+        "promptZh": "露營小組在出發前多買飲用水，預計營地沒有商店。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They stocked up on drinking water before the trip.",
+            "zh": "他們出發前預先多買飲用水。"
+          },
+          {
+            "id": "b",
+            "en": "They invested in water-company shares.",
+            "zh": "他們投資了水務公司股票。"
+          },
+          {
+            "id": "c",
+            "en": "They waited until all water had run out before thinking ahead.",
+            "zh": "他們等到水用盡才開始預先準備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "出發前多買，供營地使用。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把 stock up on 誤解為恐慌？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The library stocked up on printer paper before its supplier’s planned break.",
+            "zh": "圖書館在供應商預定休假前多儲備打印紙。"
+          },
+          {
+            "id": "b",
+            "en": "To stock up on paper, staff must panic and buy every packet in town.",
+            "zh": "要儲備打印紙，職員必須恐慌並買光全城存貨。"
+          },
+          {
+            "id": "c",
+            "en": "They stocked up on paper by using the last sheet and buying nothing.",
+            "zh": "他們用完最後一張紙又沒有購買，卻說已儲備。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按預計需要多買，不必恐慌。"
+      },
+      "dialogue": {
+        "promptZh": "有人寫 stock up rice，想表示預先買米。哪句較自然？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Stock up on rice before the shop closes for the holiday.",
+            "zh": "店舖假期關門前預先多買米。"
+          },
+          {
+            "id": "b",
+            "en": "Stock up rice before the holiday.",
+            "zh": "假期前「stock up rice」。"
+          },
+          {
+            "id": "c",
+            "en": "Stock up on a share price instead of food.",
+            "zh": "預先儲備股價而非食物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "物資前要有 on。"
+      },
+      "speaking": {
+        "en": "The volunteer centre is stocking up on bottled water ahead of the summer sports day.",
+        "zh": "義工中心正為夏季運動日預先儲備樽裝水。",
+        "promptZh": "指出中心預先儲備哪種物資。",
+        "targetSpan": {
+          "start": 24,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：獸醫診所知道供應商下週休假五天；為免缺貨，診所在休假前多訂狗糧及繃帶，供這五天使用。用英文說明預先儲備，勿稱為恐慌搶購。",
+        "selfCheckZh": "兩個示範都應寫出供應商休假五天、診所預先多訂狗糧及繃帶、以供休假期間使用。",
+        "examples": [
+          {
+            "en": "The veterinary clinic stocked up on dog food and bandages before its supplier’s five-day break, so it would have enough supplies throughout the closure.",
+            "zh": "獸醫診所在供應商休假五天前多儲備狗糧及繃帶，以便休假期間物資足夠。"
+          },
+          {
+            "en": "Ahead of the supplier’s five-day holiday, the clinic is stocking up on bandages and dog food for the days when deliveries will pause.",
+            "zh": "供應商休假五天前，診所正預先儲備繃帶和狗糧，以供暫停送貨期間使用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "veterinary clinic",
+            "zh": "獸醫診所",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 21
+            }
+          },
+          {
+            "en": "five-day break",
+            "zh": "五天休假",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 94
+            }
+          },
+          {
+            "en": "throughout the closure",
+            "zh": "整個停供期間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 151
+            }
+          },
+          {
+            "en": "Ahead of",
+            "zh": "在……之前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 8
+            }
+          },
+          {
+            "en": "deliveries will pause",
+            "zh": "送貨將暫停",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 132
+            }
+          },
+          {
+            "en": "supplier",
+            "zh": "供應商",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 21
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stock up on supplies before they are needed.",
+          "zh": "在需要物資前預先多儲備。"
+        },
+        {
+          "en": "Stocking up on supplies does not itself imply panic buying.",
+          "zh": "預先儲備物資本身不表示恐慌搶購。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4079",
+      "number": 4079,
+      "inventoryId": "expr-4079",
+      "titleEn": "in demand",
+      "titleZh": "需求殷切",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin\\s+demand\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Wanted by many buyers, users or employers, often more than the available supply.",
+        "meaningZh": "受到眾多買家、使用者或僱主需要，需求殷切。",
+        "grammar": "Be in demand; may be much/highly/especially in demand, but in demand is the fixed core. Do not confuse with making a demand of someone.",
+        "register": "Neutral market or employment discussion; a career adviser describes services to jobseekers.",
+        "boundaryZh": "表示多人想要，不等於物品必定昂貴、缺貨或質素最好。",
+        "misconceptionZh": "demand 在此指需求，不是命令他人；需求量須有可見線索。",
+        "outcomeZh": "能從訂單、候補或招聘等證據判斷需求殷切。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1968",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 185,
+          "book": 15,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 201, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Portable chargers are always in demand.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in demand"
+        }
+      ],
+      "listening": {
+        "en": "The repair shop has a three-week waiting list for bicycle mechanics; their skills are in demand.",
+        "zh": "單車維修店的技工預約已排到三星期後；他們的技能需求殷切。",
+        "promptZh": "in demand 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many customers want those skills.",
+            "zh": "很多顧客需要這些技能。"
+          },
+          {
+            "id": "b",
+            "en": "The mechanics are issuing orders to customers.",
+            "zh": "技工正向顧客下命令。"
+          },
+          {
+            "id": "c",
+            "en": "No one needs bicycle repairs.",
+            "zh": "沒有人需要維修單車。"
+          },
+          {
+            "id": "d",
+            "en": "The service must be the most expensive in town.",
+            "zh": "服務必定是全城最昂貴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三星期候補顯示需求高。"
+      },
+      "reply": {
+        "promptEn": "A community hall adds a weekend sign-language class. Every seat fills within an hour and another 40 people join the waiting list. What can the organiser say?",
+        "promptZh": "（社區會堂增設週末手語班。一小時內所有名額滿額，另有四十人輪候。主辦者可怎樣描述？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many people want to take the class.",
+            "zh": "很多人想上這班。"
+          },
+          {
+            "id": "b",
+            "en": "The waiting list shows strong interest.",
+            "zh": "候補名單顯示興趣很大。"
+          },
+          {
+            "id": "c",
+            "en": "The class is clearly in demand.",
+            "zh": "這班明顯需求殷切。"
+          },
+          {
+            "id": "d",
+            "en": "There are more interested learners than current places.",
+            "zh": "有興趣的學員多於現有名額。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據滿額及四十人候補。"
+      },
+      "scene": {
+        "promptZh": "某項翻譯服務新增十個時段，當日全被預約。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The translation service is in demand.",
+            "zh": "翻譯服務需求殷切。"
+          },
+          {
+            "id": "b",
+            "en": "The service must be of perfect quality.",
+            "zh": "服務質素必定完美。"
+          },
+          {
+            "id": "c",
+            "en": "The translators are demanding that every visitor obey them.",
+            "zh": "譯員要求每位訪客服從。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時段立即訂滿支持需求高。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免從需求殷切推論價格？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The free workshop is in demand, as its 60 places filled quickly.",
+            "zh": "免費工作坊需求殷切，六十個名額很快滿額。"
+          },
+          {
+            "id": "b",
+            "en": "It is in demand, therefore it must charge the highest fee.",
+            "zh": "它需求殷切，所以收費必定最高。"
+          },
+          {
+            "id": "c",
+            "en": "No one registered, yet the workshop is in demand.",
+            "zh": "沒有人報名，卻說需求殷切。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "免費活動也可需求殷切。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 in demand 解作「有人下命令」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "With 200 applications for ten places, the training programme is in demand.",
+            "zh": "十個名額收到二百份申請，培訓計劃需求殷切。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the phrase means the organiser is ordering people around.",
+            "zh": "對，這片語指主辦者向人發號施令。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase proves the programme is expensive.",
+            "zh": "這片語證明計劃昂貴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "申請多於名額是需求證據。"
+      },
+      "speaking": {
+        "en": "Experienced captioners are in demand because several theatres are recruiting them this season.",
+        "zh": "多間劇院本季都在招聘有經驗的字幕員，所以他們需求殷切。",
+        "promptZh": "指出甚麼招聘情況顯示需求。",
+        "targetSpan": {
+          "start": 27,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：市立圖書館新設晚間自修室，八十個座位每天很快滿額，還有候補名單；服務免費，未有價格資訊。用英文說明需求，不推論收費或品質。",
+        "selfCheckZh": "兩個示範都應寫出晚間自修室、八十座每日迅速滿額及候補名單，並保留免費與不推論質素的界線。",
+        "examples": [
+          {
+            "en": "The library’s free evening study room is in demand: its 80 seats fill quickly each day and more students join a waiting list, although that does not by itself prove its quality.",
+            "zh": "圖書館的免費晚間自修室需求殷切：八十個座位每天很快滿額，還有學生候補；但單靠這點不能證明質素。"
+          },
+          {
+            "en": "With all 80 places taken early every evening and a waiting list forming, the free library study room is in demand; the bookings show interest, not a quality rating.",
+            "zh": "免費圖書館晚間自修室每天很早就被訂滿八十個座位，還有候補名單，顯示需求殷切；預約量反映興趣，不是質素評級。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "evening study room",
+            "zh": "晚間自修室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 19,
+              "end": 37
+            }
+          },
+          {
+            "en": "waiting list",
+            "zh": "候補名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 124
+            }
+          },
+          {
+            "en": "prove its quality",
+            "zh": "證明質素",
+            "exampleIndex": 0,
+            "span": {
+              "start": 159,
+              "end": 176
+            }
+          },
+          {
+            "en": "places taken",
+            "zh": "座位被訂滿",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 24
+            }
+          },
+          {
+            "en": "bookings",
+            "zh": "預約量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 127
+            }
+          },
+          {
+            "en": "quality rating",
+            "zh": "質素評級",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 163
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In demand means wanted by many people.",
+          "zh": "in demand 指很多人需要或想要。"
+        },
+        {
+          "en": "Being in demand alone does not establish price or quality.",
+          "zh": "需求殷切本身不能證明價格或質素。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4087",
+      "number": 4087,
+      "inventoryId": "expr-4087",
+      "titleEn": "spoon-feed someone",
+      "titleZh": "把答案直接餵給人",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:spoon[- ]?feed|spoon[- ]?feeds|spoon[- ]?fed|spoon[- ]?feeding)\\s+(?:[\\w’\\'-]+\\s+){0,3}(?:them|him|her|us|me|students|learners|trainees|participants|children|employees|workers)\\b|\\b(?:them|him|her|us|me|students|learners|trainees|participants|children|employees|workers)\\s+(?:are|were|is|was)\\s+spoon[- ]?fed\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Give someone answers or information so completely that they need do little thinking themselves.",
+        "meaningZh": "把答案或資料直接交給人，令對方幾乎不用自己思考。",
+        "grammar": "Spoon-feed + person + answers/information; spoon-fed is past or passive. The person must be named or recoverable; literal feeding is outside this lesson.",
+        "register": "Informal but sometimes critical teaching or training language; a tutor discusses learner independence with a colleague.",
+        "boundaryZh": "提供提示或示範不一定等於 spoon-feed；關鍵是替學習者完成本應自行思考的部分。",
+        "misconceptionZh": "不是實際用匙羹餵食；也不表示所有教學支援都應取消。",
+        "outcomeZh": "能分辨有助思考的引導與直接交出全部答案。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1976",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 186,
+          "book": 15,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "56–58",
+          "locatorNote": "DOCX table 202, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teachers cannot spoon-feed them every solution.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spoon-feed them"
+        }
+      ],
+      "listening": {
+        "en": "The trainer filled every blank on the practice sheet before the apprentices tried it; she spoon-fed them the solutions.",
+        "zh": "學徒未嘗試，導師已填好練習紙上每個空格；她把解答直接交給他們。",
+        "promptZh": "spoon-fed them 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She supplied solutions without letting them work them out.",
+            "zh": "她未讓他們自行思考便提供解答。"
+          },
+          {
+            "id": "b",
+            "en": "She served food with a small spoon.",
+            "zh": "她用小匙羹餵食。"
+          },
+          {
+            "id": "c",
+            "en": "She gave one hint and then let them finish.",
+            "zh": "她只給一個提示，再讓他們完成。"
+          },
+          {
+            "id": "d",
+            "en": "The apprentices invented all the solutions alone.",
+            "zh": "學徒獨自想出所有解答。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每格都由導師先填，學徒未自行嘗試。"
+      },
+      "reply": {
+        "promptEn": "A coding coach shows a finished answer for every exercise before learners attempt one. A colleague asks why the class is not solving problems independently. What could the coach change?",
+        "promptZh": "（編程教練在學員嘗試前，先展示每題的完整答案。同事問為何全班沒有獨立解難。教練可怎樣改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let learners attempt the task before showing solutions.",
+            "zh": "先讓學員嘗試，再展示解答。"
+          },
+          {
+            "id": "b",
+            "en": "Offer a hint rather than every completed answer.",
+            "zh": "提供提示，而非每題完整答案。"
+          },
+          {
+            "id": "c",
+            "en": "Stop spoon-feeding them the solutions.",
+            "zh": "不要再把解答直接餵給他們。"
+          },
+          {
+            "id": "d",
+            "en": "Ask learners to explain their own reasoning first.",
+            "zh": "先請學員解釋自己的推理。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是由直接交答案轉向自主思考的合理做法。"
+      },
+      "scene": {
+        "promptZh": "老師先讓學生解題，再只提示下一步，沒有透露完整答案。哪句判斷較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A hint alone does not necessarily spoon-feed the students.",
+            "zh": "單給提示不一定是把答案直接餵給學生。"
+          },
+          {
+            "id": "b",
+            "en": "Any hint automatically means spoon-feeding.",
+            "zh": "任何提示都自動構成直接餵答案。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher must literally feed the students lunch.",
+            "zh": "老師一定要實際餵學生吃午餐。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只提示下一步，仍讓學生自己解題。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠證據支持 spoon-feed？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The guide reads out every correct answer before visitors attempt the quiz, spoon-feeding them the solutions.",
+            "zh": "導賞員在訪客嘗試問答前便讀出全部正確答案，等於直接餵解答。"
+          },
+          {
+            "id": "b",
+            "en": "The guide poses a question, waits, and offers one clue, so he spoon-feeds every answer.",
+            "zh": "導賞員提問、等待，只給一條線索，卻說直接餵全部答案。"
+          },
+          {
+            "id": "c",
+            "en": "The guide leaves the quiz unanswered, so visitors are spoon-fed the key.",
+            "zh": "導賞員未公布答案，卻說訪客獲直接餵解答。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未嘗試前就公布每題答案，是過度提供。"
+      },
+      "dialogue": {
+        "promptZh": "有人認為不 spoon-feed 就不能解釋基本方法。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tutor can model one method without spoon-feeding learners the next answer.",
+            "zh": "導師可示範一個方法，而不把下一題答案直接交給學員。"
+          },
+          {
+            "id": "b",
+            "en": "All demonstrations must be banned.",
+            "zh": "所有示範都必須禁止。"
+          },
+          {
+            "id": "c",
+            "en": "Giving every answer in advance always builds independence.",
+            "zh": "事先交出每個答案總能培養獨立思考。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "示範與替人完成全部題目不同。"
+      },
+      "speaking": {
+        "en": "Instead of spoon-feeding the trainees every answer, the supervisor asks them to compare two possible repairs and explain their choice.",
+        "zh": "主管沒有把每個答案直接交給受訓者，而是請他們比較兩種維修方法並解釋選擇。",
+        "promptZh": "指出主管要求受訓者自行完成哪兩件事。",
+        "targetSpan": {
+          "start": 11,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館兒童工作坊原本在尋寶開始前派發每一站的正確答案；新做法只在孩子卡住時提供一條線索，讓他們自行找展品。用英文比較兩種教法，勿聲稱提示完全不可用。",
+        "selfCheckZh": "兩個示範都應寫出舊做法先派每站答案、新做法只在卡住時給一條線索、孩子自行找展品。",
+        "examples": [
+          {
+            "en": "The old workshop spoon-fed the children every station answer before the hunt began; now a guide offers one clue only when they are stuck, and the children find the exhibits themselves.",
+            "zh": "舊工作坊在尋寶開始前便把每站答案直接交給孩子；現在只在他們卡住時給一條線索，讓孩子自行找展品。"
+          },
+          {
+            "en": "Instead of spoon-feeding children the complete answer sheet, the museum now gives a single hint when needed and lets them identify each exhibit on their own.",
+            "zh": "博物館現在不再把完整答案紙直接交給孩子，而是在需要時給一條提示，讓他們自行辨認每件展品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "station answer",
+            "zh": "每站答案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 60
+            }
+          },
+          {
+            "en": "one clue",
+            "zh": "一條線索",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 111
+            }
+          },
+          {
+            "en": "exhibits",
+            "zh": "展品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 172
+            }
+          },
+          {
+            "en": "complete answer sheet",
+            "zh": "完整答案紙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 59
+            }
+          },
+          {
+            "en": "a single hint",
+            "zh": "一條提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "identify each exhibit",
+            "zh": "辨認每件展品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 143
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Spoon-feeding learners means supplying answers instead of requiring their thinking.",
+          "zh": "spoon-feed learners 指替學員提供答案，毋須對方自行思考。"
+        },
+        {
+          "en": "A useful hint need not spoon-feed students every answer.",
+          "zh": "有用的提示不一定等於把每個答案直接交給學生。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4095",
+      "number": 4095,
+      "inventoryId": "expr-4095",
+      "titleEn": "nowhere near what someone imagined",
+      "titleZh": "與原先想像相差很遠",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bnowhere\\s+near\\s+what\\s+(?:[\\w’\\'-]+\\s+){0,3}(?:imagined|expected|pictured)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Very different from someone’s expectation, often disappointing or far short of it.",
+        "meaningZh": "與某人原先想像相差很遠，常帶失望或不及預期的意味。",
+        "grammar": "X is/was nowhere near what + person + imagined/expected; what-clause names the earlier expectation. Do not infer the exact degree or cause unless context states it.",
+        "register": "Conversational reflection; a student tells a friend how an actual result differed from an expectation.",
+        "boundaryZh": "強調實際情況與預期距離大；不必等於完全失敗，也不表示事情毫無優點。",
+        "misconceptionZh": "near 不是地理距離；必須有可比較的原先想像和現實。",
+        "outcomeZh": "能指出原先預期與實際結果的明確落差。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1984",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 187,
+          "book": 15,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 203, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The first attempt was nowhere near what they imagined.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "nowhere near what they imagined"
+        }
+      ],
+      "listening": {
+        "en": "Nora expected a quiet weekend at the cabin, but construction started outside at dawn and continued all day. The stay was nowhere near what she imagined.",
+        "zh": "諾拉原以為小屋週末會很寧靜，但黎明起屋外便持續施工；住宿體驗遠不如她原先想像。",
+        "promptZh": "nowhere near what she imagined 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The real stay differed greatly from her expectation.",
+            "zh": "實際住宿與她預期相差很遠。"
+          },
+          {
+            "id": "b",
+            "en": "The cabin was geographically far away.",
+            "zh": "小屋在地理位置上很遠。"
+          },
+          {
+            "id": "c",
+            "en": "The stay was exactly as peaceful as planned.",
+            "zh": "住宿完全如預期般寧靜。"
+          },
+          {
+            "id": "d",
+            "en": "The cabin did not exist.",
+            "zh": "小屋並不存在。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原盼寧靜，實際整天有施工聲。"
+      },
+      "reply": {
+        "promptEn": "A choir member expected a small rehearsal with ten singers. On arrival, she finds 120 performers and a live broadcast. How might she describe the event to a friend?",
+        "promptZh": "（合唱團成員原以為是十人的小型排練；到場後發現有一百二十名表演者和直播。她可怎樣向朋友描述？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event was far bigger than she expected.",
+            "zh": "活動遠比她預期大型。"
+          },
+          {
+            "id": "b",
+            "en": "Her idea of the event did not match its scale.",
+            "zh": "她對活動的想像與實際規模不符。"
+          },
+          {
+            "id": "c",
+            "en": "It was nowhere near what she imagined.",
+            "zh": "它與她原先想像相差很遠。"
+          },
+          {
+            "id": "d",
+            "en": "The live broadcast made it different from a small rehearsal.",
+            "zh": "直播令它有別於小型排練。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以十人排練與大型直播作明確對比。"
+      },
+      "scene": {
+        "promptZh": "學員預期是三小時講座，結果是有導師逐人指導的實作課。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The session was nowhere near what the learner imagined.",
+            "zh": "課堂與學員原先想像相差很遠。"
+          },
+          {
+            "id": "b",
+            "en": "The room was nowhere near the station, so the teaching format changed.",
+            "zh": "房間離車站很遠，所以教學方式改變。"
+          },
+          {
+            "id": "c",
+            "en": "The session was exactly the three-hour lecture described.",
+            "zh": "課堂完全是原本想像的三小時講座。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講座與逐人實作有明顯落差。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把落差誇成「必然全無好處」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workshop was nowhere near what I imagined, but I still learned useful techniques.",
+            "zh": "工作坊與我原先想像相差很遠，但我仍學到有用技巧。"
+          },
+          {
+            "id": "b",
+            "en": "It differed from my expectation, so it could not contain one useful idea.",
+            "zh": "它與預期不同，因此不可能有任何有用想法。"
+          },
+          {
+            "id": "c",
+            "en": "The workshop matched my expectation exactly, so it was nowhere near what I imagined.",
+            "zh": "工作坊完全符合預期，卻說相差很遠。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大落差不排除其中仍有價值。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 nowhere near 解作實際路程。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The final painting was nowhere near what the artist pictured, even though the studio was next door.",
+            "zh": "最後畫作與畫家想像相差很遠，即使畫室就在隔壁。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, this phrase must measure kilometres.",
+            "zh": "對，這片語一定用來量公里。"
+          },
+          {
+            "id": "c",
+            "en": "It means the artist never formed an expectation.",
+            "zh": "它表示畫家從未有過預期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這裏比較結果與想像，不是地理位置。"
+      },
+      "speaking": {
+        "en": "The rehearsal turned into a full public performance, nowhere near what the dancers had expected when they signed up for a private practice.",
+        "zh": "原本的排練變成公開正式演出，與舞蹈員報名私人練習時的預期相差很遠。",
+        "promptZh": "指出舞蹈員原先報名的是甚麼。",
+        "targetSpan": {
+          "start": 53,
+          "end": 95
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：志願者報名參加室內三十人的植樹講座；到場後發現活動改為戶外、二百人一起親手種樹。她仍覺得有收穫，但與原先預期相差很遠。用英文說明落差與保留的正面評價。",
+        "selfCheckZh": "兩個示範都應寫出原預期室內三十人講座、實際戶外二百人親手種樹，以及仍有收穫。",
+        "examples": [
+          {
+            "en": "The volunteer expected an indoor talk for 30 people, but found 200 people planting trees outdoors. It was nowhere near what she imagined, though she still found it worthwhile.",
+            "zh": "志願者原預期是三十人的室內講座，實際卻是二百人在戶外種樹；這與她想像相差很遠，但她仍覺得有收穫。"
+          },
+          {
+            "en": "What she joined was nowhere near what she had pictured: instead of a 30-person indoor lecture, she worked outdoors with 200 people planting trees, and still valued the experience.",
+            "zh": "她參加的活動與原先想像相差很遠：不是三十人的室內講座，而是與二百人在戶外種樹；她仍珍惜這次經驗。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "indoor talk",
+            "zh": "室內講座",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 37
+            }
+          },
+          {
+            "en": "planting trees outdoors",
+            "zh": "在戶外種樹",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 97
+            }
+          },
+          {
+            "en": "worthwhile",
+            "zh": "有收穫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 174
+            }
+          },
+          {
+            "en": "indoor lecture",
+            "zh": "室內講座",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 93
+            }
+          },
+          {
+            "en": "valued the experience",
+            "zh": "珍惜這次經驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 157,
+              "end": 178
+            }
+          },
+          {
+            "en": "worked outdoors",
+            "zh": "在戶外工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Nowhere near what someone imagined signals a large expectation gap.",
+          "zh": "nowhere near what someone imagined 表示與原先想像差距很大。"
+        },
+        {
+          "en": "Being nowhere near what you imagined does not mean the experience had no value.",
+          "zh": "與原先想像相差很遠，不等於體驗全無價值。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent-ai-focused-held-to-existing-alias-review",
+  "authorAuditSha256": "e5796020eaf71f4c5762458c401414da5260b163425fdc06c970d4b2505aa9f8",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "six-alias-conversions-content-clear",
+  "scope": "Six source rows 2440, 2450, 2469, 2572, 2605 and 2630; five existing canonical owners. No draft or manifest changes made by reviewer.",
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "a6ce8ba42018969503ab9e5b90f89adf0f2a4261c10d4b09d57cfd97864b71f2"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "25a10b495af0fb068acacd06072310ec5def255a992c01fb097e23021232bf7f"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "184db834dcafcbd46f0f7e0833d27228e95853e194b5c0278c314ce3f2421e3b"
+    }
+  ],
+  "canonicalFiles": [
+    { "path": "course-materials/advanced-native/batches/batch-0751-0775.json", "sha256": "7cabc812c487eeeda6e88384da8dbd40327e1d932b7de4a0c11066610e057bc8" },
+    { "path": "course-materials/advanced-native/batches/batch-1251-1275.json", "sha256": "ca1e34a3ad243a8c26c264470973f0da81ce5bcba0a332efff9b4a793cc1db99" },
+    { "path": "course-materials/advanced-native/batches/batch-1026-1050.json", "sha256": "523235230eb75419c4a2b22d552967bc7d6aa42ee50c1603c5f510c3382b9f52" },
+    { "path": "course-materials/advanced-native/batches/batch-1001-1025.json", "sha256": "82d289c92a3d1fead3c9d029ed13d3e49e067e5280a01c7dc5cb4110347ed49c" },
+    { "path": "course-materials/advanced-native/batches/batch-1326-1350.json", "sha256": "76ce0ed9f387c90b3239a8b9980d5e8b1c5d8899ab1103992eedeca99d179ee3" }
+  ],
+  "rowReviews": [
+    { "ordinal": 2440, "source": "The blinds open at the push of a button.", "owner": "advanced-native-1037", "assessment": "A push/touch of a button is the same one-action convenience idiom; revised bounded detector matches the full source and owner meaning retains simple device activation.", "clear": true },
+    { "ordinal": 2450, "source": "The basic model works well without every bell and whistle.", "owner": "advanced-native-1020", "assessment": "Singular distributive every bell and whistle expresses the same optional-feature sense as bells and whistles; owner meaning and bounded detector cover it.", "clear": true },
+    { "ordinal": 2469, "source": "A basic phone can be a lifeline during an emergency.", "owner": "advanced-native-1344", "assessment": "A lifeline is an important practical source of help or contact in difficulty, the same figurative sense as canonical a real lifeline; detector matches.", "clear": true },
+    { "ordinal": 2572, "source": "A basic phone can be a lifeline during an emergency.", "owner": "advanced-native-1344", "assessment": "Exact repeated source sentence and same figurative lifeline sense as ordinal 2469; same existing owner is correct.", "clear": true },
+    { "ordinal": 2605, "source": "Her advice can carry enormous weight in the community.", "owner": "advanced-native-767", "assessment": "Enormous weight intensifies the same influence/importance metaphor as canonical carry weight; owner brief explicitly includes persuasive force and detector matches the modifier.", "clear": true },
+    { "ordinal": 2630, "source": "Not every worthwhile experience needs a price tag.", "owner": "advanced-native-1266", "assessment": "A price tag refers to implied monetary cost, the same as canonical the price tag; article variant is bounded and source meaning aligns.", "clear": true }
+  ],
+  "verification": "At the stamped hashes, all six decision rows preserve exact source ID/phrase, proposed-alias-existing action and expected canonical ID. Independently compiled each live target regex with case-insensitive flags against the full source sentence; six of six match. Each canonical file hash matches the author audit. Author focused five-batch build/--check passed 109 lessons/654 questions/436 audio requests with zero flags; this review did not re-proofread unrelated lessons or certify listening.",
+  "remainingFindings": []
+}

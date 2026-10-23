@@ -39,6 +39,7 @@ await page.goto(origin+'/advanced-native.html',{waitUntil:'networkidle'});
 await page.locator('[name=username]').fill('Course Preview');await page.locator('[name=password]').fill('preview');await page.locator('[data-login-form] [type=submit]').click();
 await page.locator('[data-module="advanced-native-010"]').waitFor();
 let checkedOptions=0,checkedPrompts=0,checkedExamples=0,checkedTakeaways=0;const wraps=[],completedLessons=[];
+const bracketZh=value=>{const text=String(value).trim();return /^（[\s\S]*）$/.test(text)?text:`（${text}）`;};
 let activeLesson=null,activeStep=null;
 async function checkpoint(failure=null){
  await fs.writeFile(`${output}/wrap-audit.json`,JSON.stringify(wraps,null,2));
@@ -68,7 +69,10 @@ async function widths(label){
      }
     }
     lines.sort((a,b)=>a.y-b.y);if(lines.length<2)continue;
-    const last=lines.at(-1).text;if(last.includes('_')&&/^[_\s\p{P}\p{S}]+$/u.test(last))continue;const plain=last.replace(/[\s\p{P}\p{S}]/gu,'');
+    const last=lines.at(-1).text;if(last.includes('_')&&/^[_\s\p{P}\p{S}]+$/u.test(last))continue;
+    // A dialogue cloze can intentionally end with a speaker cue and blank.
+    if(el.matches('.sentence-translation')&&/^[甲乙丙丁][：:][_\s]+[）)]?$/.test(last.trim()))continue;
+    const plain=last.replace(/[\s\p{P}\p{S}]/gu,'');
     const chinese=(plain.match(/[\u3400-\u9fff]/g)||[]).length;
     if(!plain||chinese===1&&!/[A-Za-z]/.test(plain)||!last.includes('_')&&!chinese&&(el.textContent.match(/[A-Za-z]+/g)||[]).length>3&&(last.match(/[A-Za-z]+/g)||[]).length===1)out.push({tag:el.className||el.tagName,last,text:el.textContent.slice(0,160)});
    }
@@ -95,11 +99,11 @@ for(const lesson of lessons){
   await page.locator(`[data-step="${index}"]`).click();
   if(step.questions.length){
    const q=lesson.questions.find(q=>q.id===step.questions[0]);
-   if(q.promptZh){assert.equal(await page.locator('h3 .sentence-translation').textContent(),`（${q.promptZh}）`);checkedPrompts++;}
+   if(q.promptZh){assert.equal(await page.locator('h3 .sentence-translation').textContent(),bracketZh(q.promptZh));checkedPrompts++;}
    if(q.type==='mc'){
     for(const button of await page.locator(`[data-q="${q.id}"]`).all()){
      const choice=q.options[Number(await button.getAttribute('data-choice'))],translation=q.optionZh?.[choice];
-     if(translation){assert.equal(await button.locator('.sentence-translation').textContent(),`（${translation}）`);checkedOptions++;}
+     if(translation){assert.equal(await button.locator('.sentence-translation').textContent(),bracketZh(translation));checkedOptions++;}
     }
     if(q.style==='audio'){
      const bad=q.options.find(option=>!q.answers.includes(option));
@@ -123,20 +127,20 @@ for(const lesson of lessons){
      await page.locator(`[data-q="${q.id}"][data-choice="${q.options.indexOf(q.answers[0])}"]`).click({force:true});
      assert.equal(await page.evaluate(()=>window.__answerResults.at(-1)),true);
      if(q.style==='audio')assert.ok(await page.locator('.model .target-green').count());
-     if(q.style==='audio')assert.equal(await page.locator('.model .sentence-translation').textContent(),`（${lesson.steps[0].zh}）`);
+     if(q.style==='audio')assert.equal(await page.locator('.model .sentence-translation').textContent(),bracketZh(lesson.steps[0].zh));
     }
    }else{
     assert.equal(await page.locator('.open-review').count(),0,'writing examples stay hidden until the attempt');
     await page.locator('textarea').fill(q.answers[0]);await page.locator('[data-open-reveal]').click();
     assert.ok(await page.locator('.open-review .target-yellow').count());
     for(const [i,answer] of q.answers.entries()){
-     assert.equal(await page.locator('.open-review li .sentence-translation').nth(i).textContent(),`（${q.answersZh[answer]}）`);checkedExamples++;
+     assert.equal(await page.locator('.open-review li .sentence-translation').nth(i).textContent(),bracketZh(q.answersZh[answer]));checkedExamples++;
     }
     if(lesson.number===6)await page.screenshot({path:`${output}/lesson-06-writing.png`,fullPage:true});
     await page.locator('[data-open-complete]').click();
    }
   }else{
-   assert.equal(await page.locator('.model .sentence-translation').textContent(),`（${step.zh}）`);
+   assert.equal(await page.locator('.model .sentence-translation').textContent(),bracketZh(step.zh));
    await page.locator('[data-skip]').click();
   }
   await widths(`${lesson.id} step ${index+1}`);
@@ -149,7 +153,7 @@ for(const lesson of lessons){
  for(const [i,text] of lesson.takeaways.entries()){
   const button=page.locator('.finish .takeaway').nth(i);
   assert.equal(await button.getAttribute('data-say'),text,'audio still uses only the English sentence');
-  assert.equal(await button.locator('.sentence-translation').textContent(),`（${lesson.takeawaysZh[text]}）`);checkedTakeaways++;
+  assert.equal(await button.locator('.sentence-translation').textContent(),bracketZh(lesson.takeawaysZh[text]));checkedTakeaways++;
  }
  await widths(`${lesson.id} completion`);
  if ([11,61,75,125].includes(lesson.number)) {await page.setViewportSize({width:390,height:1000});await page.screenshot({path:`${output}/lesson-${lesson.number}-new-mobile.png`,fullPage:true});await page.setViewportSize({width:1280,height:1000});}

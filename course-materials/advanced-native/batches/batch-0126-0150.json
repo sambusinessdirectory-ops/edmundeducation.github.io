@@ -3932,7 +3932,7 @@
     "titleZh": "體驗後形成正面印象",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\b(?:come|comes|coming|came) away with a positive impression\\b",
+      "pattern": "\\b(?:come|comes|coming|came) away with (?:a positive impression|a new respect)\\b",
       "glossaryForbidden": [
         "\\bpositive impression\\b",
         "\\bcome away\\b",
@@ -3940,9 +3940,9 @@
       ]
     },
     "brief": {
-      "meaningEn": "Finish an experience holding a favourable opinion.",
-      "meaningZh": "一段體驗結束後，帶着正面看法或印象。",
-      "grammar": "come away with a positive impression of + person/place/experience; came away in the past.",
+      "meaningEn": "Finish an experience holding a favourable impression or a new appreciation of someone or something.",
+      "meaningZh": "一段體驗結束後，帶着正面印象或對某人某事新的欣賞。",
+      "grammar": "come away with a positive impression of + person/place/experience; come away with a new respect for + person/place/work. Came away in the past; the object states the positive view gained.",
       "register": "Neutral reflective English; common after visits, meetings or online events.",
       "boundaryZh": "正面整體印象不表示每個細節完美，也不保證一定再訪或購買。",
       "misconceptionZh": "come away 可概括體驗後的結果，不必真的離開實體場所。",
@@ -3961,6 +3961,62 @@
         "sample": "S2",
         "locatorNote": "PDF page 16, table 1, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p016-t1-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0156",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 15,
+        "book": 10,
+        "question": 12,
+        "sample": "S1",
+        "sourceBookPages": "29–30",
+        "locatorNote": "DOCX table 12, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Visitors often come away with a new respect for the place.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "come away with"
+      },
+      {
+        "occurrenceId": "book10-16-0711",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 65,
+        "book": 11,
+        "question": 27,
+        "sample": "S1",
+        "sourceBookPages": "67–68",
+        "locatorNote": "DOCX table 63, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Visitors often come away with a new respect for the place.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "come away with"
+      },
+      {
+        "occurrenceId": "book10-16-1395",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 130,
+        "book": 13,
+        "question": 16,
+        "sample": "S2",
+        "sourceBookPages": "41–43",
+        "locatorNote": "DOCX table 137, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Visitors often come away with a new respect for the place.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "come away with"
+      },
+      {
+        "occurrenceId": "book10-16-2196",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 207,
+        "book": 16,
+        "question": 10,
+        "sample": "S2",
+        "sourceBookPages": "24–26",
+        "locatorNote": "DOCX table 225, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Visitors often come away with a new respect for the place.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "come away with"
       }
     ],
     "listening": {
@@ -4162,8 +4218,8 @@
         "zh": "有用的討論後，我形成了正面印象。"
       },
       {
-        "en": "Visitors can come away with a positive impression even when a small detail needs improvement.",
-        "zh": "即使小細節需要改善，訪客仍可對整體體驗有正面印象。"
+        "en": "After the workshop, the apprentices came away with a new respect for careful repairs.",
+        "zh": "工作坊結束後，學徒們對細心修理有了新的敬意。"
       }
     ],
     "review": {
@@ -4192,7 +4248,7 @@
         "Full AI author self-review completed: bilingual sense, pragmatics of four valid replies, nearby distractors, target-bearing audio lines, source evidence and exact answer-span glossary checked. Independent review/media/browser work remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-140",

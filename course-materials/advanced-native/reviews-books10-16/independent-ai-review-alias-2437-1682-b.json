@@ -1,0 +1,47 @@
+{
+  "reviewKind": "independent-ai-alias-2437-1682",
+  "createdUtc": "2026-10-23T17:36:40.965961+00:00",
+  "status": "content-clear-at-exact-hash",
+  "inputs": {
+    "audit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-2437-1682-a.json",
+      "sha256": "08d68a7f897e344911e4b5d6f5fdbd5df1efb97f7b6e1f511e0049177481df9b"
+    },
+    "owner": {
+      "path": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "sha256": "280c5e64c82eb599e6133220365de33416945b55dab668d35651de7f46667ed2"
+    },
+    "decision": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "b17c453efe4cf8d10faf8ef72e7196351e2491820748860dfac68506bbeb6da0"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  },
+  "sourceOrdinal": 2437,
+  "sourceId": "book10-16-0326",
+  "canonicalId": "advanced-native-1682",
+  "decisionRowSha256": "fa64c56c34d724ac0abc73f1a6f72f7bd62ebed87b12f10ecccbfee8a4bacd1a",
+  "sourceSense": "Buried under chores is the same figurative workload-overload construction as buried in homework; under/in and the task noun differ, not the lesson outcome.",
+  "checks": {
+    "sourceProvenanceExact": true,
+    "fullSourceDetectorMatch": true,
+    "originalSourceDetectorMatch": true,
+    "physicalBurialNegativesReject": true,
+    "newTakeawayContextOriginal": "moving house, unlike the Sunday-evening source"
+  },
+  "chineseRepair": "listening.explanationZh now uses complete Traditional Chinese to preserve the understood-topic versus excessive-workload distinction; contentRevision 3.",
+  "focusedBuildCheck": {
+    "lessons": 24,
+    "questions": 144,
+    "audioRequests": 96,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI content clearance only; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

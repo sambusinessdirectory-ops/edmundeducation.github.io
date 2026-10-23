@@ -1,0 +1,146 @@
+{
+  "reviewType": "AI author self-audit; independent/human/release approval pending",
+  "scope": "Three same-sense construction variants; 274 now covers positive and negative taste polarity",
+  "rows": [
+    {
+      "sourceOrdinal": 3771,
+      "sourceId": "book10-16-1660",
+      "sourcePhrase": "nudge people",
+      "sourceExample": "A discount can nudge people towards a purchase.",
+      "sourceMeaning": "Influence choices gently; a physical push metaphor.",
+      "canonicalId": "advanced-native-025",
+      "canonicalMeaning": "Gently or subtly influence someone towards a choice or course of action.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalFileBeforeSha256": "0349a5172bca66c1a712d2cb76f5708f66f028c80f52f08fdb1648805a495a52",
+      "oldPattern": "\\bnudg(?:e|es|ed|ing) (?:people|me|you|him|her|us|them|students|customers) in (?:a certain|that|this|a particular) direction\\b|\\bnudged in (?:a certain|that|this|a particular) direction\\b",
+      "newPattern": "(?:\\bnudg(?:e|es|ed|ing) (?:people|me|you|him|her|us|them|students|customers) in (?:a certain|that|this|a particular) direction\\b|\\bnudged in (?:a certain|that|this|a particular) direction\\b)|(?:\\bnudg(?:e|es|ed|ing) people towards a purchase\\b)",
+      "positive": [
+        "A discount can nudge people towards a purchase.",
+        "A clearly marked trial period can nudge people towards a purchase without guaranteeing they will buy."
+      ],
+      "negative": [
+        "The assistant pushed the trolley towards the till.",
+        "Everyone was forced to pay."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1660",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 156,
+        "book": 14,
+        "question": 22,
+        "sample": "S2",
+        "sourceBookPages": "49–50",
+        "locatorNote": "DOCX table 166, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A discount can nudge people towards a purchase.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "nudge people"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "07a7c5f339b3fd409b2b265eb48b10a0d1f5a90dea9abee68d2e5077537cd205",
+      "decisionFileAfterSha256": "26ec8fce12396f2bc0fdbacb367a777b881e7956222c610b0867144f905624e7"
+    },
+    {
+      "sourceOrdinal": 3587,
+      "sourceId": "book10-16-1476",
+      "sourcePhrase": "chalk-and-talk teaching",
+      "sourceExample": "The school is using less chalk-and-talk teaching.",
+      "sourceMeaning": "Teacher-led instruction focused on board work and explanation; a conventional education term.",
+      "canonicalId": "advanced-native-1001",
+      "canonicalMeaning": "A teacher-led approach centred on spoken explanation and board work, with learners mainly listening.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+      "canonicalFileBeforeSha256": "9578967101bf93b2c57462f25cd4f24e2cd299133296dd3b08f424c88d1469bf",
+      "oldPattern": "\\bchalk[- ]and[- ]talk model\\b",
+      "newPattern": "(?:\\bchalk[- ]and[- ]talk model\\b)|(?:\\bchalk[- ]and[- ]talk teaching\\b)",
+      "positive": [
+        "The school is using less chalk-and-talk teaching.",
+        "The science department reduced chalk-and-talk teaching by adding laboratory demonstrations."
+      ],
+      "negative": [
+        "The teacher drew a chalk line on the pavement.",
+        "The pupils ran an experiment without a lecture."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1476",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 138,
+        "book": 14,
+        "question": 3,
+        "sample": "S1",
+        "sourceBookPages": "8–10",
+        "locatorNote": "DOCX table 147, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The school is using less chalk-and-talk teaching.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "chalk-and-talk teaching"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "1bd7df4b9208d86b259aad55f39adb5dbaf0e5c7e38909a48441c76d60bcbff6",
+      "decisionFileAfterSha256": "816c90ece8128875e9e5fda30991a160610c6b7bfde51ba964826ff8c61d05c7"
+    },
+    {
+      "sourceOrdinal": 3494,
+      "sourceId": "book10-16-1383",
+      "sourcePhrase": "their cup of tea",
+      "sourceExample": "Travel writing is their cup of tea.",
+      "sourceMeaning": "Something they personally enjoy; a fixed beverage idiom.",
+      "canonicalId": "advanced-native-274",
+      "canonicalMeaning": "A personal preference: affirmative be someone’s cup of tea means they enjoy it; the negative form means they do not or that tastes differ.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0251-0275.json",
+      "canonicalFileBeforeSha256": "1938f9655f8d5af78cc40f32857a1fd87203d4d2c858665dfd571654d9f59212",
+      "oldPattern": "\\bnot (?:everyone[’']s|my|your|his|her|our|their) cup of tea\\b",
+      "newPattern": "(?:\\bnot (?:everyone[’']s|my|your|his|her|our|their) cup of tea\\b)|(?:\\b(?:is|are|was|were) (?:my|your|his|her|our|their) cup of tea\\b)",
+      "positive": [
+        "Travel writing is their cup of tea.",
+        "Local history is her cup of tea, so she volunteered to guide the archive tour."
+      ],
+      "negative": [
+        "The café served her a cup of tea.",
+        "The cup broke during the tour."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1383",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 129,
+        "book": 13,
+        "question": 15,
+        "sample": "S1",
+        "sourceBookPages": "38–40",
+        "locatorNote": "DOCX table 136, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Travel writing is their cup of tea.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "their cup of tea"
+      },
+      "contentRevision": 4,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "658a002d180af37b08010295757abb0a2e06a3f3d7d10fbc71c4707c7a74aaa5",
+      "decisionFileAfterSha256": "bbc26807f954eed1e559d8596d58867648009b4fa9d18c7456314f9d26c7865e",
+      "independentFindingRepair": "Affirmative source polarity is now assessed in contrast: keyed A infers that the history club enjoys community-history work from “is their cup of tea”; distractors test mistaken dislike and overgeneralization. Negative usage remains across other steps. Awaiting independent exact-hash follow-up."
+    }
+  ],
+  "checks": {
+    "fullSourceDetectorMatch": true,
+    "exactSourceProvenance": true,
+    "twoControlsPerOwner": true,
+    "threeFocusedBatchBuildAndCheck": "3/3 build and --check, 58 lessons/348 questions/232 audio roles, zero flags",
+    "wholeCatalogueVerifier": "2604 decisions, 553 selected drafts, 3318 questions, 2212 audio roles; zero schema/alias exceptions at refreshed check time",
+    "allDiscoveredAliasAudit": "1101/1101 full-source matches, zero exceptions at refreshed check time",
+    "holdCoverage": "792 current holds, zero unaudited/errors at refreshed check time",
+    "targetBearingDialogueKeys": "3/3 revised canonical owners have keyed target-bearing EN/ZH replies; 274 key repaired after strict guard activated",
+    "positivePolarityCoverage": "274 positive and negative forms appear in title, brief and takeaway; revision 4 contrast key now assesses affirmative sense with EN/ZH parity, while other steps retain negative practice.",
+    "changedAudioRequests": "3 takeaway-2 items generated from focused audio queues, zero listening changes",
+    "gitDiffCheck": "passed at refreshed check time"
+  },
+  "counts": {
+    "holdRowsConverted": 3,
+    "canonicalOwnerFilesChanged": 3,
+    "decisionFilesChanged": 3,
+    "takeawayAudioRefresh": 3
+  }
+}

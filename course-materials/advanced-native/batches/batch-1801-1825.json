@@ -1268,12 +1268,12 @@
       "id": "advanced-native-1806",
       "number": 1806,
       "inventoryId": "expr-1806",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "a reset button",
       "titleZh": "重新開始的重設鍵",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:a (?:real )?reset(?: button)?|press(?:es|ed|ing)? reset)\\b"
+        "pattern": "(?:\\b(?:a (?:real )?reset(?: button)?|press(?:es|ed|ing)? reset)\\b)|(?:\\ba small reset button\\b)"
       },
       "sources": [
         {
@@ -1331,12 +1331,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "a real reset",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1355",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 126,
+          "book": 13,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 133, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A walk at lunchtime can be a small reset button.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a small reset button"
         }
       ],
       "brief": {
         "meaningEn": "An experience that feels like a chance to start afresh or mentally reorganise after a difficult or repetitive period.",
         "meaningZh": "一段經歷令人感到有機會重新開始，或在困難、重複日子後整理思緒。",
-        "grammar": "a walk acts like a reset button; feel like pressing reset; a real reset stresses a genuine fresh start; the computer-control image describes a felt fresh start, not erasing real events",
+        "grammar": "a reset button / a small reset button as a metaphor for a brief mental restart; also press reset. Small signals limited relief, not a complete solution.",
         "register": "neutral",
         "boundaryZh": "重新開始的感覺不抹去已發生的事或自動完成未辦工作；需說當事人有何改變及下一步。",
         "misconceptionZh": "重新開始的感覺不抹去已發生的事或自動完成未辦工作；需說當事人有何改變及下一步。",
@@ -1542,8 +1556,8 @@
           "zh": "在小房首次排練像重設鍵：我們先聽彼此，不再爭舊演出。"
         },
         {
-          "en": "Sorting the photographs was like pressing reset for her project, giving her a clear first question to take back to the archive.",
-          "zh": "整理照片像替她項目按重設鍵，給她一條可帶回檔案館的清楚首問。"
+          "en": "Before the next appointment, five minutes of quiet may serve as a small reset button.",
+          "zh": "下一個預約前的五分鐘安靜時間，也許能讓人稍微重整心情。"
         }
       ],
       "review": {
@@ -1815,12 +1829,12 @@
       "id": "advanced-native-1809",
       "number": 1809,
       "inventoryId": "expr-1809",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "the postcard view",
       "titleZh": "明信片般漂亮的景色",
       "category": "figurative",
       "target": {
-        "pattern": "\\bthe postcard view\\b"
+        "pattern": "(?:\\bthe postcard view\\b)|(?:\\bthe postcard version\\b)"
       },
       "sources": [
         {
@@ -1836,12 +1850,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "the postcard view",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-2532",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 52,
+          "sample": "S1",
+          "sourceBookPages": "122–123",
+          "locatorNote": "DOCX table 267, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The viewpoint offers the postcard version of Hong Kong.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the postcard version"
         }
       ],
       "brief": {
         "meaningEn": "An attractive scenic appearance, considered like the polished image on a postcard.",
         "meaningZh": "像明信片上經過選取、漂亮悅目的風景外觀。",
-        "grammar": "admire/photograph/value the postcard view; postcard modifies view through a polished scenic-image comparison; context may contrast appearance with lived experience",
+        "grammar": "the postcard view / the postcard version of a place; postcard suggests a polished, picturesque representation, which may omit less attractive daily realities.",
         "register": "neutral",
         "boundaryZh": "描述景色吸引，不表示其他經歷不重要，也不自動說景色虛假；需看說話者怎比較所重視的事。",
         "misconceptionZh": "描述景色吸引，不表示其他經歷不重要，也不自動說景色虛假；需看說話者怎比較所重視的事。",
@@ -2047,8 +2075,8 @@
           "zh": "明信片般風景佔首頁，下一頁則解海港工作時間怎影響當地作息。"
         },
         {
-          "en": "She kept the postcard view in her sketchbook beside a note about the unexpected conversation at the bus stop.",
-          "zh": "她把明信片般風景留在畫簿，旁邊記下巴士站意外的一段談話。"
+          "en": "The brochure shows the postcard version of the fishing village; the interviews tell a fuller story.",
+          "zh": "小冊子展現漁村明信片般的美麗一面；訪談則呈現更完整的故事。"
         }
       ],
       "review": {
@@ -2567,12 +2595,12 @@
       "id": "advanced-native-1813",
       "number": 1813,
       "inventoryId": "expr-1813",
-      "contentRevision": 1,
-      "titleEn": "change course on a whim",
-      "titleZh": "一時興起就改變計劃",
+      "contentRevision": 2,
+      "titleEn": "on a whim",
+      "titleZh": "一時興起",
       "category": "idiom",
       "target": {
-        "pattern": "\\bchang(?:e|es|ed|ing) course on a whim\\b"
+        "pattern": "\\bon a whim\\b"
       },
       "sources": [
         {
@@ -2588,13 +2616,55 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "change course on a whim",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0508",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 47,
+          "book": 11,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "14–16",
+          "locatorNote": "DOCX table 42, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We did not buy the new tablet on a whim.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on a whim"
+        },
+        {
+          "occurrenceId": "book10-16-1773",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 167,
+          "book": 15,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 179, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Young shoppers sometimes buy things on a whim during sales.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "buy things on a whim"
+        },
+        {
+          "occurrenceId": "book10-16-1935",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 182,
+          "book": 15,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "44–45",
+          "locatorNote": "DOCX table 197, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I try not to shop on a whim when prices are high.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shop on a whim"
         }
       ],
       "brief": {
-        "meaningEn": "Alter a plan or direction because of a sudden passing wish rather than a considered reason.",
-        "meaningZh": "因突然、短暫的念頭而改變計劃或方向，而非經仔細考慮。",
-        "grammar": "change/changed/changing course on a whim; course is a plan or direction, and on a whim gives the spontaneous reason for changing it",
-        "register": "neutral",
+        "meaningEn": "Because of a sudden passing wish rather than a considered reason; it can modify changing plans, buying something, or another spontaneous action.",
+        "meaningZh": "因突然、短暫的念頭而行動，而非經仔細考慮；可指改計劃、購物或其他行動。",
+        "grammar": "On a whim is an adverbial phrase modifying an action: change course on a whim, buy something on a whim, or did not act on a whim. It does not itself mean the choice was harmful.",
+        "register": "Neutral conversational idiom; a traveller may say it to a friend about a spontaneous detour, while a shopper may deny that a purchase was impulsive.",
         "boundaryZh": "一時興起不必然好或壞，但與因新證據、限制而改計劃不同；涉及他人時仍需商量。",
         "misconceptionZh": "一時興起不必然好或壞，但與因新證據、限制而改計劃不同；涉及他人時仍需商量。",
         "outcomeZh": "理解「一時興起就改變計劃」的語境及用法，並在新情境寫出自然句子。"
@@ -2798,8 +2868,8 @@
           "zh": "看到陶藝展示後，她一時興起改計劃，用空閒一小時跟製作者談話。"
         },
         {
-          "en": "The designer asked why the client wanted to change course on a whim after approving the same layout that morning.",
-          "zh": "客戶早上才批同一版面，設計師問為何又想一時興起改計劃。"
+          "en": "Maya did not sign up for the night course on a whim: she compared the timetable and costs first.",
+          "zh": "Maya 報讀夜校課程並非一時興起：她先比較了時間表和費用。"
         }
       ],
       "review": {
@@ -4320,12 +4390,12 @@
       "id": "advanced-native-1821",
       "number": 1821,
       "inventoryId": "expr-1821",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "last-minute / at the last minute",
       "titleZh": "事情臨近時才安排或改動",
       "category": "natural",
       "target": {
-        "pattern": "\\b(?:a last-minute trip|at the last minute)\\b",
+        "pattern": "\\b(?:a last-minute trip|(?:at|until) the last minute)\\b",
         "glossaryForbidden": [
           "\\blast[- ]minute\\b"
         ]
@@ -4370,12 +4440,40 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "at the last minute",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0061",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 6,
+          "book": 10,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "13–14",
+          "locatorNote": "DOCX table 5, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Please do not wait until the last minute to submit the form.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "until the last minute"
+        },
+        {
+          "occurrenceId": "book10-16-1131",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 105,
+          "book": 12,
+          "question": 39,
+          "sample": "S1",
+          "sourceBookPages": "94–95",
+          "locatorNote": "DOCX table 109, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Please do not wait until the last minute to submit the form.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "until the last minute"
         }
       ],
       "brief": {
-        "meaningEn": "Close to the relevant departure, event or deadline, leaving little advance notice; last-minute describes a late arrangement, while at the last minute locates an action or change.",
-        "meaningZh": "在相關出發、事件或期限前不久，預先通知時間很短；last-minute 可形容臨時安排，at the last minute 則說明行動或改變發生的時機。",
-        "grammar": "a last-minute trip uses a hyphenated adjective before a noun; change a plan at the last minute uses an adverbial phrase without the hyphen. The surrounding verb shows what was arranged or changed close to the relevant time.",
+        "meaningEn": "Close to the relevant departure, event or deadline, leaving little advance notice; last-minute describes a late arrangement, at the last minute locates an action, and until the last minute describes waiting up to that point.",
+        "meaningZh": "在相關出發、事件或期限前不久，預先通知時間很短；last-minute 形容臨時安排，at the last minute 指行動發生的時機，until the last minute 指一直等到臨近該時點。",
+        "grammar": "a last-minute trip uses a hyphenated adjective before a noun; change a plan at the last minute locates the change; wait or leave a task until the last minute extends the delay up to a late point. The surrounding verb identifies the actual action.",
         "register": "neutral",
         "boundaryZh": "描述安排或改變的時機，不自動表示便宜、差、完全沒有準備或之前沒有計劃；需看接近哪件事，以及實際何時決定。",
         "misconceptionZh": "整趟旅程很早已安排，但可以臨近才買票或改一部分；應分清是哪個行動發生得遲。",
@@ -4580,8 +4678,8 @@
           "zh": "有人取消預約後，姨母家有位置接待我們，臨時旅行才可行。"
         },
         {
-          "en": "They declined a last-minute trip because the invitation came too late to rearrange the commitment they had already made.",
-          "zh": "邀請來得太遲，無法重排已有承諾，所以他們拒絕臨時旅行。"
+          "en": "Do not leave the seating plan until the last minute; the ushers need it before rehearsal.",
+          "zh": "不要等到最後一刻才處理座位表；帶位員在綵排前就需要它。"
         }
       ],
       "review": {

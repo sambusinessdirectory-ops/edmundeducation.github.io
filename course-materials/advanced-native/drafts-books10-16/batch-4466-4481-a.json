@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4466",
+      "number": 4466,
+      "inventoryId": "expr-4466",
+      "titleEn": "lose their soul",
+      "titleZh": "失去原有精神",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) (?:their|its|our|his|her) soul\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Lose the authenticity or deeper meaning that made an activity or tradition valuable.",
+        "meaningZh": "失去令活動或傳統有價值的真實精神或深層意義。",
+        "grammar": "Lose + possessive + soul; the soul is figurative. Identify what original purpose is displaced.",
+        "register": "Reflective conversational English. A community organiser may use it when an event becomes a shallow photo opportunity.",
+        "boundaryZh": "須有原本重要的目的被形式化或商業化擠走；更新做法本身不必然失去精神。",
+        "misconceptionZh": "不是人的靈魂真的消失，也不表示任何收費或新設計都壞。",
+        "outcomeZh": "能指出原有核心、被取代的做法及可觀察的損失。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2355",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 222,
+          "book": 16,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 245, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Traditions can lose their soul when treated as gimmicks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose their soul"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The storytelling night began so older residents could share local memories. The organiser cut each story to fifteen seconds for sponsor clips. Regulars worried the event would lose its soul because nobody could finish a memory.",
+        "zh": "鄰里說故事晚會原為讓長者分享本地回憶。主辦人把每段故事縮至十五秒以放贊助片。常客擔心活動會失去原有精神，因為無人能講完回憶。",
+        "promptZh": "常客擔心失去甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The space for residents to share meaningful memories.",
+            "zh": "居民分享有意義回憶的空間。"
+          },
+          {
+            "id": "b",
+            "en": "The exact colour of the sponsor’s logo.",
+            "zh": "贊助商標誌的確切顏色。"
+          },
+          {
+            "id": "c",
+            "en": "A rule that every story must last exactly one hour.",
+            "zh": "每段故事必須剛好一小時的規則。"
+          },
+          {
+            "id": "d",
+            "en": "A tradition that never involved local residents.",
+            "zh": "一項從來沒有本地居民參與的傳統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本分享回憶的核心被贊助片擠走。"
+      },
+      "reply": {
+        "promptEn": "A craft workshop began as a place for neighbours to teach one another repair skills. Its new format allows only staged photographs and no actual teaching. What can members say about the workshop and how to protect its purpose?",
+        "promptZh": "（工藝工作坊原是鄰居互教維修技術的地方；新形式只許擺拍，沒有真正教學。成員可如何描述這轉變，以及怎樣保護原有目的？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The original teaching purpose is being displaced.",
+            "zh": "原本的教學目的被擠走。"
+          },
+          {
+            "id": "b",
+            "en": "The photographs no longer show the repair process.",
+            "zh": "照片不再展示維修過程。"
+          },
+          {
+            "id": "c",
+            "en": "It may lose its soul if sharing skills stops.",
+            "zh": "若停止分享技術，它可能失去原有精神。"
+          },
+          {
+            "id": "d",
+            "en": "Restoring real instruction would protect what mattered.",
+            "zh": "恢復真正教學可保護原本重要的部分。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據從互教變擺拍的轉變回答。"
+      },
+      "scene": {
+        "promptZh": "節慶原讓居民親手準備共同晚餐，新版本只讓訪客買預製照片套裝，居民不再一起做菜。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The event may lose its soul without shared cooking.",
+            "zh": "沒有共同烹飪，活動可能失去原有精神。"
+          },
+          {
+            "id": "b",
+            "en": "The original purpose was only to sell photographs.",
+            "zh": "原本目的只為賣照片。"
+          },
+          {
+            "id": "c",
+            "en": "Any new visitor automatically destroys a tradition.",
+            "zh": "任何新訪客都必然毀掉傳統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "被擠走的是共同參與的核心。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a tradition lost its soul？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A festival adds online booking but keeps its resident-led preparation and shared meal.",
+            "zh": "節慶加入網上報名，仍保留居民主導準備及共餐。"
+          },
+          {
+            "id": "b",
+            "en": "A storytelling night replaces every story with sponsor clips.",
+            "zh": "說故事晚會以贊助片取代每段故事。"
+          },
+          {
+            "id": "c",
+            "en": "A repair day stops teaching and becomes only a staged photo set.",
+            "zh": "維修日停止教學，只剩擺拍場景。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "更新報名方法而保留核心，不足以說失去精神。"
+      },
+      "dialogue": {
+        "promptEn": "A: The garden fair used to teach seed saving, but now the teaching tables are gone and every slot is a product photo booth. B: ______",
+        "promptZh": "（甲：花園市集以前教授留種，如今教學桌全沒了，每個時段都是產品拍照攤位。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The original learning purpose has disappeared.",
+            "zh": "原本學習目的消失了。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors no longer get the seed-saving lessons.",
+            "zh": "訪客不再有留種課程。"
+          },
+          {
+            "id": "c",
+            "en": "The fair seems to have lost its soul.",
+            "zh": "市集看來失去了原有精神。"
+          },
+          {
+            "id": "d",
+            "en": "Restoring a teaching table could recover some meaning.",
+            "zh": "恢復一張教學桌或可找回部分意義。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出原本核心被表面展示取代。"
+      },
+      "speaking": {
+        "en": "The local music night could lose its soul if neighbours stop playing together and the programme becomes nothing but sponsor videos.",
+        "zh": "若鄰居不再一起演奏，節目只剩贊助影片，本地音樂夜可能失去原有精神。",
+        "promptZh": "說出原有核心及被取代之處。",
+        "targetSpan": {
+          "start": 28,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項活動各原有共同參與或傳承目的，後被表面展示取代。用英文寫出原目的與可見損失。",
+        "selfCheckZh": "兩例不能把單純更新工具當成必然失去精神。",
+        "examples": [
+          {
+            "en": "The junior sports day lost its soul when organisers replaced skill-sharing games with sponsor photo queues, leaving children no time to play together.",
+            "zh": "少年運動日把互教技巧的遊戲換成贊助商拍照隊伍，孩子沒有時間一起玩，活動因而失去原有精神。"
+          },
+          {
+            "en": "The river clean-up may lose its soul if organisers remove the volunteer work and sell only branded souvenirs instead.",
+            "zh": "若主辦人取消義工清理工作，只賣品牌紀念品，河道清潔活動或會失去原有精神。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "skill-sharing games",
+            "zh": "互教技巧的遊戲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 80
+            }
+          },
+          {
+            "en": "sponsor photo queues",
+            "zh": "贊助商拍照隊伍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 106
+            }
+          },
+          {
+            "en": "play together",
+            "zh": "一起玩",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 149
+            }
+          },
+          {
+            "en": "volunteer work",
+            "zh": "義工清理工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 76
+            }
+          },
+          {
+            "en": "branded souvenirs",
+            "zh": "品牌紀念品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 108
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lose its soul means lose the purpose that gave something meaning.",
+          "zh": "lose its soul 指失去賦予事物意義的核心目的。"
+        },
+        {
+          "en": "A festival can lose its soul when shared work becomes mere display.",
+          "zh": "共同參與變成純展示時，節慶可能失去精神。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4470",
+      "number": 4470,
+      "inventoryId": "expr-4470",
+      "titleEn": "keep its roots",
+      "titleZh": "保留根源",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) (?:its|their|our|his|her) roots\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stay connected to origins or defining traditions while changing or growing.",
+        "meaningZh": "在改變或發展時，仍與起源或核心傳統保持連結。",
+        "grammar": "Keep + possessive + roots; roots is figurative. Explain both the origin retained and the new development.",
+        "register": "Neutral reflective English. A community editor may use it when an old local magazine adopts a digital format.",
+        "boundaryZh": "須有可指出的原有元素持續存在；只是沿用舊名字、內容全被替換，不一定保留根源。",
+        "misconceptionZh": "不是植物真的留住樹根，也不是說所有改變都必須拒絕。",
+        "outcomeZh": "能同時指出新做法和仍被保存的來源、做法或聲音。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2359",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 223,
+          "book": 16,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–74",
+          "locatorNote": "DOCX table 245, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The town wants to keep its roots while growing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep its roots"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The neighbourhood magazine moved online and added audio interviews. It kept its roots by letting long-time residents edit the local-history section and check the place names before publication.",
+        "zh": "鄰里雜誌轉到網上並加入語音訪談；它讓老居民編輯本地歷史版、出版前核對地名，藉此保留根源。",
+        "promptZh": "雜誌如何在更新中保留根源？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Long-time residents still shape the local-history content.",
+            "zh": "老居民仍參與塑造本地歷史內容。"
+          },
+          {
+            "id": "b",
+            "en": "The magazine removed every local voice from its pages.",
+            "zh": "雜誌移走所有本地聲音。"
+          },
+          {
+            "id": "c",
+            "en": "It stopped checking place names after going online.",
+            "zh": "轉到網上後它不再核對地名。"
+          },
+          {
+            "id": "d",
+            "en": "The online format prevented any historical article.",
+            "zh": "網上形式令任何歷史文章都無法刊登。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "形式更新，但本地聲音和地名核查仍在。"
+      },
+      "reply": {
+        "promptEn": "A family bakery starts taking online orders. It still teaches the original dough method to new bakers and buys grain from the same nearby mill. What can be said about the bakery?",
+        "promptZh": "（家族麵包店開始接受網上訂單，但仍教新麵包師原有搓麵方法，並向附近同一磨坊買穀物。可如何描述這間店？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It changes how customers order without abandoning its method.",
+            "zh": "它改變訂貨方式，沒有放棄原有方法。"
+          },
+          {
+            "id": "b",
+            "en": "The nearby mill remains part of its practice.",
+            "zh": "附近磨坊仍是做法的一部分。"
+          },
+          {
+            "id": "c",
+            "en": "It keeps its roots while using online orders.",
+            "zh": "它用網上訂單，同時保留根源。"
+          },
+          {
+            "id": "d",
+            "en": "New bakers continue learning the older technique.",
+            "zh": "新麵包師仍學習舊技術。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據新形式與保留做法回答。"
+      },
+      "scene": {
+        "promptZh": "地方劇團加入網上直播，但仍邀請原有街區演員寫故事、用熟悉的方言演出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The theatre keeps its roots as it reaches online viewers.",
+            "zh": "劇團接觸網上觀眾時仍保留根源。"
+          },
+          {
+            "id": "b",
+            "en": "Streaming means no local actor can participate.",
+            "zh": "直播表示本地演員不能參與。"
+          },
+          {
+            "id": "c",
+            "en": "The original stories were removed completely.",
+            "zh": "原有故事被徹底移走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新傳播方式與原來的本地聲音並存。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a group kept its roots？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It retains an old name, but all local contributors and founding practices are removed.",
+            "zh": "它保留舊名字，卻移走所有本地參與者與原來做法。"
+          },
+          {
+            "id": "b",
+            "en": "A new website carries stories checked by the founding neighbourhood group.",
+            "zh": "新網站刊登由原有街坊小組核查的故事。"
+          },
+          {
+            "id": "c",
+            "en": "A craft shop adds delivery while teaching the original making method.",
+            "zh": "工藝店增加送貨服務，仍教授原來製作方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有舊名字，缺乏實際延續。"
+      },
+      "dialogue": {
+        "promptEn": "A: The market has a new booking app, but the same local growers still choose the produce and teach visitors how it is grown. B: ______",
+        "promptZh": "（甲：市集有新訂場應用程式，但仍由同一批本地種植者選農產並教訪客栽種方法。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The ordering tool changed, but local growers still lead.",
+            "zh": "訂場工具改了，本地種植者仍主導。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors can still learn the original growing methods.",
+            "zh": "訪客仍可學原來栽種方法。"
+          },
+          {
+            "id": "c",
+            "en": "The market keeps its roots while modernising bookings.",
+            "zh": "市集更新訂場方式，同時保留根源。"
+          },
+          {
+            "id": "d",
+            "en": "Its local voice has not been replaced by the app.",
+            "zh": "應用程式沒有取代本地聲音。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句結合新技術與持續本地參與。"
+      },
+      "speaking": {
+        "en": "The craft journal kept its roots after launching a video channel: older makers still taught the signature knot and checked every demonstration.",
+        "zh": "工藝雜誌開設影片頻道後仍保留根源：資深製作者繼續教標誌性繩結，並核查每項示範。",
+        "promptZh": "指出新媒介及真正延續的技術。",
+        "targetSpan": {
+          "start": 18,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項社區產品或活動更新傳播方式，但保留可指認的原有技術或參與者。用英文寫出新舊並存。",
+        "selfCheckZh": "兩例不能只留舊名字；須有實際沿用的來源。",
+        "examples": [
+          {
+            "en": "The language course kept its roots after adding video lessons because elder speakers still shaped the vocabulary and corrected pronunciations.",
+            "zh": "語言課程加入影片課後仍保留根源，因為長者說話者仍參與制定詞彙並修正發音。"
+          },
+          {
+            "en": "The dance company keeps its roots on tour by teaching newcomers the founder’s stepping pattern and crediting its village origin.",
+            "zh": "舞團巡演時教新人創辦人的步法，並標明其村落起源，藉此保留根源。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "video lessons",
+            "zh": "影片課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 61
+            }
+          },
+          {
+            "en": "elder speakers",
+            "zh": "長者說話者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 84
+            }
+          },
+          {
+            "en": "corrected pronunciations",
+            "zh": "修正發音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 141
+            }
+          },
+          {
+            "en": "stepping pattern",
+            "zh": "步法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "village origin",
+            "zh": "村落起源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Keep its roots means preserve a real connection to origins.",
+          "zh": "keep its roots 指與起源保持實際連結。"
+        },
+        {
+          "en": "A project can keep its roots while adopting a new format.",
+          "zh": "計劃採用新形式時仍可保留根源。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4474",
+      "number": 4474,
+      "inventoryId": "expr-4474",
+      "titleEn": "a new lease of life",
+      "titleZh": "重獲生機",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the) new lease of life\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A renewed period of use, activity or success after something had declined or seemed finished.",
+        "meaningZh": "在衰落或幾乎結束後，重獲一段有用、活躍或成功的時期。",
+        "grammar": "Give/get/have a new lease of life; lease is figurative. State the earlier decline and the renewed use.",
+        "register": "Neutral idiomatic English, especially British. A museum curator may say it about a restored public instrument.",
+        "boundaryZh": "須有先前衰落與之後持續新用途；單次清潔或只換外觀未必是重獲生機。",
+        "misconceptionZh": "不是簽新租約，也不保證新階段會永久成功。",
+        "outcomeZh": "能指出以前不能用或少人用、促成轉變的行動及後來用途。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2363",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 223,
+          "book": 16,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 246, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The market gave the old craft a new lease of life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a new lease of life"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The old observatory dome had been closed for years because its gears jammed. Volunteers repaired the mechanism and began weekly sky sessions for schools. The restoration gave the dome a new lease of life.",
+        "zh": "舊天文台圓頂因齒輪卡住關閉多年。義工修好機構，開始每週為學校舉辦觀星活動。修復令圓頂重獲生機。",
+        "promptZh": "甚麼支持重獲生機的說法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A closed dome is now used weekly by schools.",
+            "zh": "關閉多年的圓頂如今每週供學校使用。"
+          },
+          {
+            "id": "b",
+            "en": "The dome was only repainted but never reopened.",
+            "zh": "圓頂只重新油漆，從未重開。"
+          },
+          {
+            "id": "c",
+            "en": "The gears remain jammed and no session can occur.",
+            "zh": "齒輪仍卡住，任何活動都無法舉行。"
+          },
+          {
+            "id": "d",
+            "en": "The observatory had been active every week throughout closure.",
+            "zh": "天文台在關閉期間一直每週活躍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從多年關閉變成定期使用。"
+      },
+      "reply": {
+        "promptEn": "A community printing press sat unused after its belt broke. A repair group replaced the belt, trained new operators and now prints weekly event notices. What changed for the press?",
+        "promptZh": "（社區印刷機皮帶壞掉後一直閒置。維修小組換上皮帶，培訓新操作員，如今每週印活動通知。印刷機有何轉變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It moved from disuse to regular community work.",
+            "zh": "它從閒置變成定期服務社區。"
+          },
+          {
+            "id": "b",
+            "en": "Repair and training made the new use possible.",
+            "zh": "維修與培訓促成新用途。"
+          },
+          {
+            "id": "c",
+            "en": "It has a new lease of life.",
+            "zh": "它重獲生機。"
+          },
+          {
+            "id": "d",
+            "en": "The weekly notices show the renewal is more than cosmetic.",
+            "zh": "每週通知顯示更新不止於外觀。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據先前閒置與現時用途回答。"
+      },
+      "scene": {
+        "promptZh": "古老木偶劇場停用多年，修好舞台後開始每月讓學生演出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The theatre has a new lease of life.",
+            "zh": "劇場重獲生機。"
+          },
+          {
+            "id": "b",
+            "en": "It received only a new coat of paint and never opened.",
+            "zh": "它只重新油漆，從未重開。"
+          },
+          {
+            "id": "c",
+            "en": "Students had used the closed stage every month already.",
+            "zh": "學生在舞台關閉期間本已每月使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "停用後重新有持續活動。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 something has a new lease of life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An unused hall is repainted but remains locked with no planned activity.",
+            "zh": "閒置禮堂重新油漆後仍上鎖，也沒有活動計劃。"
+          },
+          {
+            "id": "b",
+            "en": "A repaired workshop now hosts weekly classes after years of closure.",
+            "zh": "工場多年關閉後修好，如今每週開班。"
+          },
+          {
+            "id": "c",
+            "en": "An old instrument is restored and regularly played again.",
+            "zh": "舊樂器修好後再次定期演奏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只換外觀而沒有新用途，不足以說重獲生機。"
+      },
+      "dialogue": {
+        "promptEn": "A: The library’s broken recording booth sat unused for three years. It has been repaired, and students now book it for oral-history interviews every week. B: ______",
+        "promptZh": "（甲：圖書館錄音室壞了，閒置三年；如今修好，學生每週預訂來作口述歷史訪談。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The booth is being used regularly again.",
+            "zh": "錄音室再次定期使用。"
+          },
+          {
+            "id": "b",
+            "en": "The repair enabled a continuing new purpose.",
+            "zh": "維修帶來持續的新用途。"
+          },
+          {
+            "id": "c",
+            "en": "It has a new lease of life.",
+            "zh": "它重獲生機。"
+          },
+          {
+            "id": "d",
+            "en": "Weekly bookings make the change observable.",
+            "zh": "每週預訂令轉變可見。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括從長期閒置到持續使用。"
+      },
+      "speaking": {
+        "en": "The repaired public piano gained a new lease of life when neighbours began weekly lessons and lunchtime performances in the station hall.",
+        "zh": "修好的公共鋼琴重獲生機，鄰居開始每週在車站大堂上課及午間演奏。",
+        "promptZh": "指出持續用途，避免只說修好外觀。",
+        "targetSpan": {
+          "start": 33,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件曾閒置或衰落的事物，因具體行動獲得持續新用途。用英文寫出前後。",
+        "selfCheckZh": "兩例不能只油漆或宣傳，須有後續實際使用。",
+        "examples": [
+          {
+            "en": "The closed ferry shelter gained a new lease of life after repairs turned it into a weekly reading space for commuters.",
+            "zh": "停用渡輪候船處修好後成為乘客每週閱讀空間，重獲生機。"
+          },
+          {
+            "en": "A neglected community loom got a new lease of life when volunteers fixed its frame and began monthly weaving classes.",
+            "zh": "久被忽略的社區織布機由義工修好支架後，開始每月開織布班，重獲生機。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "closed ferry shelter",
+            "zh": "停用渡輪候船處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 24
+            }
+          },
+          {
+            "en": "weekly reading space",
+            "zh": "每週閱讀空間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 103
+            }
+          },
+          {
+            "en": "neglected community loom",
+            "zh": "久被忽略的社區織布機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 2,
+              "end": 26
+            }
+          },
+          {
+            "en": "monthly weaving classes",
+            "zh": "每月織布班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A new lease of life is renewed activity after decline.",
+          "zh": "a new lease of life 指衰落後重新活躍。"
+        },
+        {
+          "en": "Repairs can give a closed space a new lease of life when people use it again.",
+          "zh": "修復後重新有人使用，停用空間便可能重獲生機。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4481",
+      "number": 4481,
+      "inventoryId": "expr-4481",
+      "titleEn": "stuck in the past",
+      "titleZh": "困在過去",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstuck in the past\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Unable or unwilling to adapt to relevant present needs because of attachment to old ways.",
+        "meaningZh": "因過度依戀舊方法而未能或不願適應當前需要。",
+        "grammar": "Be stuck in the past; describe the current need and the refusal or failure to adapt.",
+        "register": "Conversational critical English. A customer may use it when an organisation keeps a process that no longer serves users.",
+        "boundaryZh": "須有現時需要與不適應的證據；保留有效傳統不等於困在過去。",
+        "misconceptionZh": "不是人真的困在另一個年代，也不表示新方法一定較好。",
+        "outcomeZh": "能指出目前需求、過時做法造成的具體問題，以及合理改動。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2370",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 224,
+          "book": 16,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 246, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A traditional product need not be stuck in the past.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stuck in the past"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "The museum still required printed booking emails after switching to digital tickets. People without printers were turned away even though staff could check a code on screen. A trustee called the entry rule stuck in the past.",
+        "zh": "博物館改用電子票後仍要求列印預約電郵。沒有打印機的人被拒入場，雖然員工能在螢幕核對代碼。一名受託人稱入場規則困在過去。",
+        "promptZh": "為何這規則被批評？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It keeps a printing demand despite a workable digital check.",
+            "zh": "已有可行電子核查，它卻仍要求列印。"
+          },
+          {
+            "id": "b",
+            "en": "All visitors can print at home without difficulty.",
+            "zh": "所有訪客都能毫無困難在家列印。"
+          },
+          {
+            "id": "c",
+            "en": "The digital system cannot display any booking code.",
+            "zh": "電子系統無法顯示任何預約代碼。"
+          },
+          {
+            "id": "d",
+            "en": "The museum has already removed the print requirement.",
+            "zh": "博物館早已撤銷列印要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "舊規則阻礙目前可行的電子入場。"
+      },
+      "reply": {
+        "promptEn": "A club receives registrations through a secure online form, yet the office insists applicants mail the same details on paper; this delays confirmation by two weeks. What can members say about that process and a possible fix?",
+        "promptZh": "（社團已用安全網上表格收報名資料，辦公室卻仍要求申請者郵寄相同紙本，令確認延遲兩週。成員可如何描述此流程，以及有甚麼改善方法？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The duplicate paper step no longer serves the current process.",
+            "zh": "重複紙本步驟不再配合現時流程。"
+          },
+          {
+            "id": "b",
+            "en": "The extra mailing delays confirmation.",
+            "zh": "額外郵寄令確認延遲。"
+          },
+          {
+            "id": "c",
+            "en": "The office seems stuck in the past.",
+            "zh": "辦公室看來困在過去。"
+          },
+          {
+            "id": "d",
+            "en": "Removing needless duplication could help applicants.",
+            "zh": "取消不必要的重複步驟可幫助申請者。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據已安全收資料但仍重複郵寄回答。"
+      },
+      "scene": {
+        "promptZh": "圖書館可用電子借書證核對身分，卻仍只接受舊紙卡，令新會員排隊重辦相同資料。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rule is stuck in the past.",
+            "zh": "這規則困在過去。"
+          },
+          {
+            "id": "b",
+            "en": "The electronic check is impossible in this library.",
+            "zh": "圖書館根本無法電子核對。"
+          },
+          {
+            "id": "c",
+            "en": "The paper card causes no extra work.",
+            "zh": "紙卡沒有帶來額外工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "舊步驟已不配合可行的新流程。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a group is stuck in the past？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A craft school keeps a proven hand technique while also offering accessible online booking.",
+            "zh": "工藝學校保留有效手藝，同時提供方便使用的網上報名。"
+          },
+          {
+            "id": "b",
+            "en": "An office refuses a tested digital process and makes applicants repeat data on paper.",
+            "zh": "辦公室拒絕已測試的電子流程，逼申請者在紙上重填資料。"
+          },
+          {
+            "id": "c",
+            "en": "A venue ignores current access needs to preserve an obsolete rule.",
+            "zh": "場地為保留過時規則而忽視現時無障礙需要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留有效手藝且適應新需求，不等於困在過去。"
+      },
+      "dialogue": {
+        "promptEn": "A: We can send accessible digital forms now, but the centre still requires everyone to collect a paper copy in person, even those who cannot travel easily. B: ______",
+        "promptZh": "（甲：我們現在可寄出無障礙電子表格，但中心仍要求所有人親身領紙本，連行動不便者也不例外。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The old requirement excludes some users unnecessarily.",
+            "zh": "舊要求無必要地排除部分使用者。"
+          },
+          {
+            "id": "b",
+            "en": "The available digital form could solve that access problem.",
+            "zh": "現有電子表格可處理無障礙問題。"
+          },
+          {
+            "id": "c",
+            "en": "That policy sounds stuck in the past.",
+            "zh": "這政策聽來困在過去。"
+          },
+          {
+            "id": "d",
+            "en": "The centre should compare the old step with current needs.",
+            "zh": "中心應比較舊步驟與現時需要。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句批評已不配合可行現時需求的舊規則。"
+      },
+      "speaking": {
+        "en": "The archive felt stuck in the past when it made researchers travel for a printed index already available securely online; the director then revised the access rule.",
+        "zh": "檔案館已有安全網上索引，卻仍要求研究者親身來看紙本，顯得困在過去；總監後來修訂查閱規則。",
+        "promptZh": "指出需求與可行新做法。",
+        "targetSpan": {
+          "start": 17,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項舊做法或規則不再配合現時已可行的需求，造成實際阻礙；寫出問題及合理改動。",
+        "selfCheckZh": "兩例不可只因保留傳統便批評，須有明確過時後果。",
+        "examples": [
+          {
+            "en": "The sports centre was stuck in the past when it demanded a mailed form despite a secure upload portal; applicants waited ten extra days, so it removed the duplicate step.",
+            "zh": "體育中心已有安全上載平台，仍要求郵寄表格，申請者多等十天，顯得困在過去；中心於是移除重複步驟。"
+          },
+          {
+            "en": "The allotment group was stuck in the past when it kept a heavy gate that older gardeners struggled to lift despite a tested lighter latch; the committee installed the safer latch after a trial.",
+            "zh": "園圃小組沿用沉重大門，年長園丁難以抬起，儘管已有經測試的較輕門閂，顯得困在過去；委員會試行後安裝較安全的門閂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "secure upload portal",
+            "zh": "安全上載平台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 101
+            }
+          },
+          {
+            "en": "ten extra days",
+            "zh": "多等十天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 135
+            }
+          },
+          {
+            "en": "duplicate step",
+            "zh": "重複步驟",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 169
+            }
+          },
+          {
+            "en": "older gardeners",
+            "zh": "年長園丁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 88
+            }
+          },
+          {
+            "en": "safer latch",
+            "zh": "較安全的門閂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 178
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stuck in the past means failing to adapt to a real present need.",
+          "zh": "stuck in the past 指未能適應實際現時需要。"
+        },
+        {
+          "en": "Keeping a useful tradition does not make a group stuck in the past.",
+          "zh": "保留有用傳統不會令群體困在過去。"
+        }
+      ]
+    }
+  ]
+}

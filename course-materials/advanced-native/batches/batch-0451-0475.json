@@ -2148,7 +2148,7 @@
     "titleZh": "稀少而珍貴",
     "category": "idiom",
     "target": {
-      "pattern": "\\blike gold dust\\b",
+      "pattern": "(?:\\blike gold dust\\b)|(?:\\b(?:is|are|was|were|be|been|being) gold dust\\b)",
       "glossaryForbidden": [
         "\\bgold dust\\b"
       ]
@@ -2156,8 +2156,8 @@
     "brief": {
       "meaningEn": "Extremely difficult to obtain and therefore highly valued.",
       "meaningZh": "極難得到，因而十分珍貴。",
-      "grammar": "tickets/quiet moments are like gold dust; describe what is scarce in the given situation.",
-      "register": "Established comparison, especially British English. It need not refer to a high sale price or literal gold.",
+      "grammar": "like gold dust / be gold dust; both describe something scarce and therefore especially valuable. This is figurative, not literal gold powder.",
+      "register": "Established figurative expression, especially in British English. Like gold dust is a comparison; be gold dust is a direct metaphor. Neither requires a high sale price or literal gold.",
       "boundaryZh": "需有稀少難得及珍惜的情境，不只泛指好；未必花錢買或物品實含黃金。",
       "misconceptionZh": "一段時間、機會或實物都可珍貴，但不能只由昂貴便推數量稀少。",
       "outcomeZh": "能用比喻描述難得的資源並說明其稀缺。"
@@ -2188,6 +2188,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 121, table 1, row 4; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p121-t1-r04"
+      },
+      {
+        "occurrenceId": "book10-16-2221",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 209,
+        "book": 16,
+        "question": 14,
+        "sample": "S1",
+        "sourceBookPages": "33–34",
+        "locatorNote": "DOCX table 229, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Quiet time is gold dust in a busy office.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "gold dust"
       }
     ],
     "listening": {
@@ -2296,8 +2310,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Keep the scarcity point; we have not compared hire prices.",
-          "zh": "保留稀缺重點；我們未比較租價。"
+          "en": "That booking was like gold dust because rooms were scarce; we have not compared hire prices.",
+          "zh": "房間難訂，這次預約極其珍貴；但我們未比較租價。"
         },
         {
           "id": "b",
@@ -2389,8 +2403,8 @@
         "zh": "房子維修期間，幾分鐘安靜時間十分難得珍貴。"
       },
       {
-        "en": "Available evening slots were like gold dust once rehearsals began.",
-        "zh": "排練開始後，可用晚間時段十分難得珍貴。"
+        "en": "In the crowded clinic, an uninterrupted ten minutes was gold dust for the duty nurse.",
+        "zh": "在繁忙的診所，連續不受打擾的十分鐘對當值護士極其珍貴。"
       }
     ],
     "review": {
@@ -2417,7 +2431,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-462",
@@ -3027,7 +3041,7 @@
     "titleZh": "把事情建立在不穩基礎上",
     "category": "figurative",
     "target": {
-      "pattern": "\\bbuild(?:ing|s)? a house on sand\\b|\\bbuilt a house on sand\\b",
+      "pattern": "(?:\\bbuild(?:ing|s)? a house on sand\\b|\\bbuilt a house on sand\\b)|(?:\\b(?:build|builds|built|building) on sand\\b)",
       "glossaryForbidden": [
         "\\bhouse on sand\\b"
       ]
@@ -3035,7 +3049,7 @@
     "brief": {
       "meaningEn": "Developing a plan or undertaking on an unreliable foundation.",
       "meaningZh": "把計劃或事情建立在不可靠的基礎上。",
-      "grammar": "It would be like building a house on sand; compare the weak basis with the later plan it cannot reliably support.",
+      "grammar": "build a house on sand / build on sand; both mean base a plan on unreliable assumptions. Build, builds, built and building are usable forms.",
       "register": "Conventional building image, often in an explicit comparison. It criticises the foundation, not necessarily the intentions or effort.",
       "boundaryZh": "需指出不可靠的資料、假設或安排；不是凡新計劃都必失敗，也不表示已實際倒塌。",
       "misconceptionZh": "投入更多修飾未必補到基礎，應先查關鍵假設。",
@@ -3054,6 +3068,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 23, table 2, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p023-t2-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1230",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 114,
+        "book": 12,
+        "question": 48,
+        "sample": "S2",
+        "sourceBookPages": "112–113",
+        "locatorNote": "DOCX table 118, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Planning around uncertain dates can feel like building on sand.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "building on sand"
       }
     ],
     "listening": {
@@ -3162,8 +3190,8 @@
       "options": [
         {
           "id": "a",
-          "en": "The card design cannot confirm the booking; let us check the room first.",
-          "zh": "卡片設計不能確認預約；先查房間吧。"
+          "en": "Designing the card before confirming the room would be building on sand; let us check the booking first.",
+          "zh": "未確認房間就先設計邀請卡，等於把計劃建立在不穩固的基礎上；先查清預約吧。"
         },
         {
           "id": "b",
@@ -3255,8 +3283,8 @@
         "zh": "未確認導師就擴時間表，就像把屋建在沙上。"
       },
       {
-        "en": "They were building a house on sand by treating an old estimate as a current commitment.",
-        "zh": "他們把舊估計當目前承諾，是把事情建在不穩基礎上。"
+        "en": "They were building on sand by budgeting from an unverified grant estimate.",
+        "zh": "他們以未核實的資助估算編預算，等於把計劃建在不穩固的基礎上。"
       }
     ],
     "review": {
@@ -3283,7 +3311,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-465",
@@ -5033,7 +5061,7 @@
     "titleZh": "按步驟逐步進行",
     "category": "idiom",
     "target": {
-      "pattern": "\\bstep by step\\b",
+      "pattern": "(?:\\bstep by step\\b)|(?:\\bone step at a time\\b)",
       "glossaryForbidden": [
         "\\bstep by step\\b"
       ]
@@ -5041,7 +5069,7 @@
     "brief": {
       "meaningEn": "In successive manageable stages rather than all at once.",
       "meaningZh": "按先後可處理的階段逐步進行，而非一次全做。",
-      "grammar": "explain/check/learn something step by step; step-by-step before a noun is adjectival, but the target here is the adverbial form.",
+      "grammar": "step by step / one step at a time; both describe proceeding through manageable stages instead of trying everything at once. The latter can also reassure someone facing a difficult process.",
       "register": "Established repeated-word phrase. It highlights stages or sequence; it does not itself guarantee accuracy or specify a slow pace.",
       "boundaryZh": "需有階段或先後，並非只拖慢；逐步仍可能出錯，也不是每步不能調整。",
       "misconceptionZh": "把過程拆清可幫理解，不代表只看最後成果或同時開始所有部分。",
@@ -5164,6 +5192,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 248, table 2, row 11; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p248-t2-r11"
+      },
+      {
+        "occurrenceId": "book10-16-1143",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 106,
+        "book": 12,
+        "question": 40,
+        "sample": "S1",
+        "sourceBookPages": "96–97",
+        "locatorNote": "DOCX table 110, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The class learned the routine one step at a time.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "one step at a time"
       }
     ],
     "listening": {
@@ -5272,8 +5314,8 @@
       "options": [
         {
           "id": "a",
-          "en": "The stages help us organise the work; we should still check each joint before moving on.",
-          "zh": "階段幫我們組織工作；繼續前仍應核每個接合。"
+          "en": "Working one step at a time helps us organise the job, but we should still check each joint before moving on.",
+          "zh": "逐步完成工作有助我們安排次序，但進入下一步前仍應檢查每個接合處。"
         },
         {
           "id": "b",
@@ -5365,8 +5407,8 @@
         "zh": "她逐步解釋路線，讓初訪者可跟每個轉彎。"
       },
       {
-        "en": "We checked the procedure step by step rather than infer the whole process from the final result.",
-        "zh": "我們逐步核程序，不從最後結果推整個過程。"
+        "en": "The repair trainees learned the inspection routine one step at a time, checking each reading before moving on.",
+        "zh": "維修學員逐步學習檢查程序，每次核對讀數後才進入下一步。"
       }
     ],
     "review": {
@@ -5393,7 +5435,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-474",

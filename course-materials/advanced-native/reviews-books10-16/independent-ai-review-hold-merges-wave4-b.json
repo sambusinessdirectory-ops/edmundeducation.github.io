@@ -1,0 +1,234 @@
+{
+  "reviewType": "independent-ai-exact-row-risk-review-wave4",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave4-review-pilot.json",
+  "authorAuditSha256": "7a6e531b1a8e5d245de0d0c5c45cfbf7ab234d39a718b915e99c64774eb3ceeb",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "13-held-to-existing-alias-rows-content-clear;4665-retained-on-editorial-hold",
+  "scope": "13 source occurrences, 12 prior canonical lessons in 11 batches; no canonical, decision, manifest or release edits by reviewer.",
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2812,
+      "sourceId": "book10-16-0701",
+      "canonicalId": "advanced-native-2010",
+      "decisionRowSha256": "aebc1a365e5fb648ca50991744a09c94e1b6ec3a766f0432cde7fec69c0eb6e2",
+      "sourceSentence": "A reliable editor helps separate the signal from the noise."
+    },
+    {
+      "sourceOrdinal": 2820,
+      "sourceId": "book10-16-0709",
+      "canonicalId": "advanced-native-1928",
+      "decisionRowSha256": "5a9fa4dae47948a9bec41e473237b12c86cfc1989172dfaee3429bec88b89b25",
+      "sourceSentence": "Do not swallow everything whole after one report."
+    },
+    {
+      "sourceOrdinal": 2891,
+      "sourceId": "book10-16-0780",
+      "canonicalId": "advanced-native-419",
+      "decisionRowSha256": "4fae909180ec1c2a32f301dbcf689516500ba545a77895a4cbd0cdf1285f405b",
+      "sourceSentence": "Young adults need time to stand steadily on their own two feet."
+    },
+    {
+      "sourceOrdinal": 3299,
+      "sourceId": "book10-16-1188",
+      "canonicalId": "advanced-native-419",
+      "decisionRowSha256": "955213eb1c7400f93dd6889d6f3f47fce0fd3dc8fe1969944a9bb7fdffd0d400",
+      "sourceSentence": "Dictionaries help children stand on their own feet academically."
+    },
+    {
+      "sourceOrdinal": 2944,
+      "sourceId": "book10-16-0833",
+      "canonicalId": "advanced-native-1523",
+      "decisionRowSha256": "fe53a1f1dc516defca98afd33ae897034d717c60acbb343dbb8f4123d8966357",
+      "sourceSentence": "Regular calls help with keeping relationships warm."
+    },
+    {
+      "sourceOrdinal": 3032,
+      "sourceId": "book10-16-0921",
+      "canonicalId": "advanced-native-1680",
+      "decisionRowSha256": "fb61723a1ae61438ad16aefe4529a695045293695280158c808a7cf7de8300b9",
+      "sourceSentence": "Art can be squeezed to the edges of a busy schedule."
+    },
+    {
+      "sourceOrdinal": 3078,
+      "sourceId": "book10-16-0967",
+      "canonicalId": "advanced-native-307",
+      "decisionRowSha256": "a866973a29932443d8114f2a22a987442bb71c8c22f78ef5aca1ae672be3aed7",
+      "sourceSentence": "The children need space to breathe and invent stories."
+    },
+    {
+      "sourceOrdinal": 3202,
+      "sourceId": "book10-16-1091",
+      "canonicalId": "advanced-native-115",
+      "decisionRowSha256": "4843ebcc599e51e13e8b3856023b481e7be94c810535e073dbd9f709b0826430",
+      "sourceSentence": "The two friends are on the same wavelength."
+    },
+    {
+      "sourceOrdinal": 3259,
+      "sourceId": "book10-16-1148",
+      "canonicalId": "advanced-native-028",
+      "decisionRowSha256": "1178160be1787079d6d1e5254609e785aa96fb3f0a7ebf924b0b23bf8b782b03",
+      "sourceSentence": "Good teachers open the academic door for new students."
+    },
+    {
+      "sourceOrdinal": 3292,
+      "sourceId": "book10-16-1181",
+      "canonicalId": "advanced-native-1175",
+      "decisionRowSha256": "143e569ce273e07df5589996980a33ce454cd7b6df0f10bb4a36eeaa77285d5c",
+      "sourceSentence": "An apology with no follow-through feels weak."
+    },
+    {
+      "sourceOrdinal": 3322,
+      "sourceId": "book10-16-1211",
+      "canonicalId": "advanced-native-534",
+      "decisionRowSha256": "b10d3a4f6c939699665ddd6261d31b94a1923acf2de8dea5ae28eb7f14c40508",
+      "sourceSentence": "Names can slip through the cracks when we are distracted."
+    },
+    {
+      "sourceOrdinal": 3356,
+      "sourceId": "book10-16-1245",
+      "canonicalId": "advanced-native-785",
+      "decisionRowSha256": "bbf958b1d775268b410784041cddabd2f5ac759973c1260c6361787ac5e089b5",
+      "sourceSentence": "Taking the course means leaving the door open for a new role."
+    },
+    {
+      "sourceOrdinal": 4593,
+      "sourceId": "book10-16-2482",
+      "canonicalId": "advanced-native-1503",
+      "decisionRowSha256": "13252c84eaad5f2cd21793ca36df78286fa732b828e72ca1bef4acbabc9c30a5",
+      "sourceSentence": "Digital booking is woven into ordinary life."
+    }
+  ],
+  "owners": [
+    {
+      "canonicalId": "advanced-native-2010",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-2001-2025.json",
+      "sha256": "253fa2f77d7e6034a612b0de27d420c3642e64a04ec53d1d51359f682271d7c5",
+      "sourceOrdinals": [
+        2812
+      ],
+      "assessment": "Signal/noise wording is the same useful-evidence-versus-distraction decision."
+    },
+    {
+      "canonicalId": "advanced-native-1928",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1926-1950.json",
+      "sha256": "38c25f5d9d0b71d4be781aef6b42b98f51e27976ed8461548df238186610b9bc",
+      "sourceOrdinals": [
+        2820
+      ],
+      "assessment": "Everything whole broadens the object, not the uncritical-acceptance sense."
+    },
+    {
+      "canonicalId": "advanced-native-419",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0401-0425.json",
+      "sha256": "5de5e92b9e2921a313e319bb69961b846f4b1f13806b279cc6584f30f7e864cb",
+      "sourceOrdinals": [
+        2891,
+        3299
+      ],
+      "assessment": "Young-adult and academic independence are domain applications of standing on one’s own feet; the keyed dialogue preserves advice versus surrendered decision."
+    },
+    {
+      "canonicalId": "advanced-native-1523",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "sha256": "0a49ae7c3bb14872443aebb065ec5e6def291a9ffd430b8f5280cddce24d0b9a",
+      "sourceOrdinals": [
+        2944
+      ],
+      "assessment": "Regular calls keep personal ties warm; revised old-friends takeaway avoids shifting to merely professional contact."
+    },
+    {
+      "canonicalId": "advanced-native-1680",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "sha256": "452c3308e7eba0bfbeab28b2a46b574e75fdf1a07d13ef95ace98ea19b2eb862",
+      "sourceOrdinals": [
+        3032
+      ],
+      "assessment": "Busy schedule substitutes for timetable while retaining peripheral time/priority."
+    },
+    {
+      "canonicalId": "advanced-native-307",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "sha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "sourceOrdinals": [
+        3078
+      ],
+      "assessment": "Space to breathe is the same relief/freedom as room to breathe; keyed dialogue distinguishes manageable pacing from withdrawal."
+    },
+    {
+      "canonicalId": "advanced-native-115",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "sha256": "4fac1c38f3a274fd53e6adc9df31a4eb3ed2a15c939276bffb9c8e4149a75868",
+      "sourceOrdinals": [
+        3202
+      ],
+      "assessment": "Be on the same wavelength is the achieved mutual-understanding state of get on the same wavelength."
+    },
+    {
+      "canonicalId": "advanced-native-028",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "sha256": "c1573cb07e22d525860977dc59205b68e2db19ef28b98a206f3bd88693afc36a",
+      "sourceOrdinals": [
+        3259
+      ],
+      "assessment": "Academic door is access to study, within opportunity-opening scope."
+    },
+    {
+      "canonicalId": "advanced-native-1175",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "sha256": "d7199fd0e1a69eea13b9a781a68af16cafaf389217459e811906c7098ab6369d",
+      "sourceOrdinals": [
+        3292
+      ],
+      "assessment": "No follow-through after apology is the absent action component of the existing promise-versus-action owner."
+    },
+    {
+      "canonicalId": "advanced-native-534",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "sha256": "3bd41ceeba457d817e327cf4b763e5b8b92b86688b7016d697e32718bb56480a",
+      "sourceOrdinals": [
+        3322
+      ],
+      "assessment": "Names missed through distraction can be overlooked in a checking process; revised keyed dialogue keeps concrete assigned follow-up rather than a filed note alone."
+    },
+    {
+      "canonicalId": "advanced-native-785",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "sha256": "5b862f3d0df838ad4c3defc5e481e87d2542daf58de8852fe0e0a0ade36557c8",
+      "sourceOrdinals": [
+        3356
+      ],
+      "assessment": "Leaving one door open retains a particular option, the same future-choice metaphor as keeping more doors open."
+    },
+    {
+      "canonicalId": "advanced-native-1503",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "sha256": "0a49ae7c3bb14872443aebb065ec5e6def291a9ffd430b8f5280cddce24d0b9a",
+      "sourceOrdinals": [
+        4593
+      ],
+      "assessment": "Digital booking integrated into ordinary life is the same everyday-routine fabric metaphor."
+    }
+  ],
+  "assessmentKeyReview": {
+    "advanced-native-419.dialogue": "Key allows advice while preserving the learner’s final independent choice; distractors confuse advice with surrendering the choice or rejecting information. English/Chinese align.",
+    "advanced-native-307.dialogue": "Key asks for breathing room to complete the project properly, not withdrawal; distractors misread realistic scheduling as low commitment. English/Chinese align.",
+    "advanced-native-534.dialogue": "Key assigns contact before closing a referral so the family cannot slip through the cracks; distractors treat filed notes or duplicate referrals without responsibility as sufficient. English/Chinese align."
+  },
+  "validation": {
+    "sourceAndDetector": "All 13 exact inventory source examples and all author positive controls match their live canonical regex under i flags; all author negative controls reject. Canonical originals remain covered.",
+    "provenanceAndDecisions": "All 13 exact occurrence IDs and sentences appear in the owning canonical sources arrays, and current decision rows retain exact phrase, source ID, proposed-alias-existing action and canonical ID. All author-stamped canonical and decision file hashes match current files.",
+    "independentBuildAndCheck": "11-file combined build and --check: 250 lessons, 1500 questions, 1000 audio requests, zero flags.",
+    "originality": "Independent 2604-guide selected-manifest screen: none of the 12 revised owners has exact/high/medium or near-full/review-near-full overlap.",
+    "audio": "All 12 revised takeaway-2 English/Traditional Chinese pairs reviewed for meaning; queue of 12 changed roles requires normal synthesis/listening checks."
+  },
+  "rejectedCandidate": {
+    "sourceOrdinal": 4665,
+    "sourceId": "book10-16-2554",
+    "currentAction": "hold-editorial",
+    "reason": "Source chip away at the place is vague/awkward and can be physical-site erosion, unlike canonical 178’s clearer gradual figurative weakening; Pilot reverted owner expansion and kept a specific editorial hold."
+  },
+  "limits": "Risk-based source/owner/key review, not a fresh line-by-line proofread of all 250 lessons, human listening certificate or release approval.",
+  "findings": [],
+  "releaseApproved": false,
+  "humanListeningApproved": false
+}

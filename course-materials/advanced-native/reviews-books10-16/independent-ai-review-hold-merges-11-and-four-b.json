@@ -1,0 +1,45 @@
+{
+  "reviewType": "independent-ai-risk-based-canonical-alias-review",
+  "scope": "Pilot second wave: 11 held source rows to seven existing canonical owners; reconfirm first wave's 38 row hashes; separately check Author A's four held-row aliases",
+  "pilotAuthorAudit": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-11-review-pilot.json",
+  "pilotAuthorAuditSha256": "e5e8b03b419dc0839990f45e14e9e969aff08f1d9d1baff00605626c7e6ddd8b",
+  "firstWaveAuthorAuditSha256": "839dd2f20c4b786f4879f028268e03be90c2186f3369bb3944dea2d0b309fba0",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "pilotCanonicalFileHashes": {
+    "course-materials/advanced-native/batches/batch-0126-0150.json": "ee1340c2cfda84aae81f3cc865714b423c53aecf46f2178bc0040b9ee0f2a44b",
+    "course-materials/advanced-native/batches/batch-0151-0175.json": "aed8cd4c4514ec69fef541b9c33eee176b33d8b0979ae4c842e782a37e7d197b",
+    "course-materials/advanced-native/batches/batch-0326-0350.json": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2",
+    "course-materials/advanced-native/batches/batch-1051-1075.json": "cea9ac18515d2fd8f46bc689180b21176f84ec70e6331c3e0144554b13fd22ae",
+    "course-materials/advanced-native/batches/batch-1501-1525.json": "92a8eaef799efb927fd776ece93867529b13fae82c41715185ff09417687414e",
+    "course-materials/advanced-native/batches/batch-1851-1875.json": "bbd4949ace3b211f35b55cb2107442a665efac5e408237c79d9172cb4eefc051"
+  },
+  "pilotDecisionFileHashSource": "All seven decision-file SHA-256 values embedded in the exact Pilot author audit independently match the current files; all 11 individual decision-row hashes match.",
+  "status": "all-fifteen-conversions-clear-at-reviewed-hashes",
+  "pilotValidation": {
+    "sourceAndDecisionProvenance": "All 11 converted rows match the exact source ID, expression and example in inventory; each on-disk decision is proposed-alias-existing with its reported owner. All 26 source records attached to the seven canonicals remain target-detectable and retain exact inventory sentences where available.",
+    "targetAndAnswerCoverage": "Live case-insensitive owner detectors match all 11 converted examples, all 26 attached canonical examples, and Pilot positive controls while rejecting Pilot negative controls. All keyed scene, dialogue and reply English options remain target-bearing.",
+    "focusedBuildAndCheck": "Independent build and --check pass for each of six canonical batch files: 138 lessons, 828 questions and 552 audio requests across those files, zero flags.",
+    "firstWaveReconfirmation": "The first wave's 38 individual decision-row SHA-256 values still match exactly at the current combined file state. Four containing file hashes changed when the second wave added other rows; the first report's full-file hashes are historical, while the 38 reviewed row contents did not change.",
+    "audioDelta": "Seven takeaway-2 audio texts changed; each needs its own audio refresh and listening review."
+  },
+  "pilotOwnerSenseReview": [
+    {"canonicalId": "advanced-native-139", "convertedRows": 4, "judgment": "clear", "evidence": "Coming away with new respect after a visit is a gained favourable view, the same outcome family as coming away with a positive impression. The revised brief distinguishes the two complements."},
+    {"canonicalId": "advanced-native-161", "convertedRows": 1, "judgment": "clear", "evidence": "A writer hiding clues in plain sight is deliberate placement of visible yet overlooked material. The brief distinguishes this active action from the older passive hidden-in-plain-sight state without claiming all hidden details were planted deliberately."},
+    {"canonicalId": "advanced-native-327", "convertedRows": 2, "judgment": "clear", "evidence": "Models bringing ideas and photographs bringing a referenced reality to life share vivid representation with the original artwork/story uses. The revised dialogue key is target-bearing, preserves documentation-versus-adaptation caution and has two nonresponsive or overclaiming distractors."},
+    {"canonicalId": "advanced-native-328", "convertedRows": 1, "judgment": "clear", "evidence": "Being drawn into a story is the bounded narrative-engagement variant of being drawn in. The revised dialogue key retains attraction without equating it with agreement; its two alternatives improperly waive critical assessment."},
+    {"canonicalId": "advanced-native-1066", "convertedRows": 1, "judgment": "clear", "evidence": "A museum visit sparking curiosity is the same initiating-interest metaphor as sparking something in someone or ideas; the takeaway does not infer lasting mastery."},
+    {"canonicalId": "advanced-native-1524", "convertedRows": 1, "judgment": "clear", "evidence": "Shared meals strengthening bonds across generations is the active form of relationships becoming closer, matching the passive family-bonds frame; the new takeaway uses a concrete weekly call."},
+    {"canonicalId": "advanced-native-1872", "convertedRows": 1, "judgment": "clear", "evidence": "Juggling work and family duties involves overlapping demands, the same figurative multitasking sense as juggling three things at once. The brief does not require exactly three items or claim success."}
+  ],
+  "authorAFour": {
+    "sourceOrdinals": [2538, 2597, 2650, 2669],
+    "decisionFileHashes": {
+      "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl": "969e8f18c37f7704ea44e3a1c57764b2a53b4134bd8c4af3178d48df37820861",
+      "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl": "81e54535bb7bfd6c602b054bc3bf6a5aac1283d5684fe77f11b8288496b93ff6",
+      "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl": "cfb430266aceff423b7b7d4a7725dd622c3b2e10b5f31dd95a2aec7e47e14215"
+    },
+    "judgment": "clear",
+    "evidence": "2538 and 2597 use the identical 'schedule looks simple on paper' written-plan versus practice example and match canonical 567's detector. 2650 and 2669 use the identical 'visitors are drawn to the quiet garden' passive-attraction example and match canonical 021's detector. All four exact source phrases and complete examples match inventory, the decisions name the correct existing owner, and none requires a new lesson."
+  },
+  "limits": "AI editorial and mechanical clearance only. Later edits to any reviewed row, detector or lesson require exact-hash recheck. Changed audio has not been listened to; no release or human approval is implied."
+}

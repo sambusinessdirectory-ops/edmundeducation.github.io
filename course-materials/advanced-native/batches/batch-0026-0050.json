@@ -539,9 +539,9 @@
       "titleEn": "open the door / the door is opening wider",
       "titleZh": "打開機會之門",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b",
+        "pattern": "(?:\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b)|(?:\\b(?:open|opens|opened|opening) the academic door\\b)",
         "glossaryForbidden": [
           "\\bdoor(?:s)?\\b",
           "\\bopen(?:s|ed|ing)?\\b"
@@ -626,12 +626,26 @@
           "sentence": "For women, the door is opening wider.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "the door is opening wider"
+        },
+        {
+          "occurrenceId": "book10-16-1148",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 107,
+          "book": 12,
+          "question": 41,
+          "sample": "S1",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 111, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good teachers open the academic door for new students.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "open the academic door"
         }
       ],
       "brief": {
         "meaningEn": "Create an opportunity for something to happen or develop; an opening door can describe access increasing.",
         "meaningZh": "創造機會，讓某事可能發生或發展；門愈開愈大的圖像，也可描述機會逐漸增加。",
-        "grammar": "open the door to + noun/gerund; open the door for + person identifies who gains the opportunity. Can/could/opening can describe potential or an opportunity being created, not a guaranteed later outcome. The door is opening wider is an intransitive ongoing-change frame: access is increasing compared with before, not a completed outcome. Identify whose access and what opportunity the context actually describes.",
+        "grammar": "open a/the door to an opportunity; open the academic door metaphorically names access to formal study. Open, opens, opened and opening are normal forms.",
         "register": "Common figurative expression in conversation and writing.",
         "boundaryZh": "開啟機會不等於已完成交易、獲聘或成功。",
         "misconceptionZh": "不要把可能的途徑寫成必然結果。",
@@ -840,8 +854,8 @@
           "zh": "一次交談可以帶來一個新機會。"
         },
         {
-          "en": "The workshop opened the door to further training.",
-          "zh": "那個工作坊帶來了接受進一步訓練的機會。"
+          "en": "A preparatory course can open the academic door for adults returning to study.",
+          "zh": "預備課程可以為重返校園的成年人打開接受正規教育的大門。"
         }
       ],
       "review": {

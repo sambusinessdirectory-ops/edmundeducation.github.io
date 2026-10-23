@@ -1,0 +1,20 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "initialReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2324-2868-b-initial.json",
+  "initialReportSha256": "888c38fadf9e9e8ae8223e785561d275a42672c54bc0f9ffc7d0c5a9d8ff6c41",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2324-2337-a.json", "sha256": "372db91537cefc26876e4aedcf0db35c8882a4d656c59a44986a792285e7772a"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2339-2348-a.json", "sha256": "a692d6c3fe588e2b8dd62f68d1593abfc210ee604162f6044265df8444221a3a"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2585-2657-a.json", "sha256": "ee0b50b5019a9cad2db412216ac0c568685832881dfb1242e06b45d8911c4341"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2785-2868-a.json", "sha256": "587842fc1cb54a2c94d637dd9b0e38fbfddd329b994db751fc96f039afdc077c"}
+  ],
+  "authorSelfAuditSha256": "240479b5e330b35df2e74fdd65e761f473cdef7e6956236f24e6958ba2adbbc0",
+  "status": "content-clear-at-listed-hashes",
+  "priorFindings": [
+    {"id": "R2336-01", "status": "cleared", "evidence": "scene.options[0].zh now says '這名學生一直把感受藏在心裏。', matching neutral English 'They' and an unspecified student."},
+    {"id": "R2348-01", "status": "cleared", "evidence": "reply.options[2] now gives the nurse a clear actor and asks whether the food is safe to share; English and Chinese align, the target expression remains exact, and the reply answers the public-health question."},
+    {"id": "R2785-01", "status": "cleared", "evidence": "reply.options[3] now states that budgeting remains one strand beside other sessions, in both English and Chinese; it independently answers the coordinator's prompt."}
+  ],
+  "validation": "Independent combined build and --check pass: 11 lessons, 66 questions, 44 audio requests, zero flags. The original source, owner, target, speaking and glossary checks remain applicable; no new content defect was found in the changed fields.",
+  "limits": "Content clearance is AI editorial review, not release, human listening certification, or publication approval."
+}

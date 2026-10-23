@@ -9,9 +9,9 @@
       "titleEn": "take the weight off my shoulders",
       "titleZh": "減輕壓力與負擔",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 4,
       "target": {
-        "pattern": "\\b(?:take|takes|taking|took|taken) (?:a |the |some )?(?:heavy )?weight off (?:my|your|his|her|our|their|(?:elderly |older )?people[’\\x27]s) shoulders\\b",
+        "pattern": "(?:\\b(?:take|takes|taking|took|taken) (?:a |the |some )?(?:heavy )?weight off (?:my|your|his|her|our|their|(?:elderly |older )?people[’\\x27]s) shoulders\\b)|(?:\\b(?:(?:take|takes|taking|took|taken) (?:a bit of weight|a real burden|a lot of (?:that )?(?:weight|pressure)) off (?:my|your|his|her|our|their|people[’\\x27]s|teachers[’\\x27]|the volunteers[’\\x27]) shoulders|(?:lift|lifts|lifted|lifting) that weight off their shoulders)\\b)",
         "glossaryForbidden": [
           "\\bweight\\b",
           "\\bshoulders\\b"
@@ -69,13 +69,97 @@
           "sentence": "The delivery scheme can take some weight off elderly people's shoulders.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "take some weight off elderly people's shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-0992",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 92,
+          "book": 12,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "59–61",
+          "locatorNote": "DOCX table 94, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A sympathetic call can take a bit of weight off their shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take a bit of weight off their shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-1325",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 124,
+          "book": 13,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "21–22",
+          "locatorNote": "DOCX table 129, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A prepared meal lifts that weight off their shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lifts that weight off their shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-1602",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 150,
+          "book": 14,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "36–38",
+          "locatorNote": "DOCX table 160, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The service can take a real burden off people's shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take a real burden off people's shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-2160",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 203,
+          "book": 16,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "14–15",
+          "locatorNote": "DOCX table 221, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Automated marking can take a lot of weight off teachers' shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take a lot of weight off teachers' shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-0325",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The extra staff take a lot of that weight off people's shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take a lot of that weight off people's shoulders"
+        },
+        {
+          "occurrenceId": "book10-16-0479",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 44,
+          "book": 11,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "9–11",
+          "locatorNote": "DOCX table 40, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An emergency fund can take a lot of pressure off your shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take a lot of pressure off your shoulders"
         }
       ],
       "brief": {
         "meaningEn": "Reduce someone’s worry, pressure or responsibility.",
         "meaningZh": "減輕某人的擔心、壓力或責任負擔。",
-        "grammar": "take a/the/some weight off someone’s shoulders; took/taken in the past; a heavy weight adds degree, while some weight explicitly allows partial relief. A possessive such as elderly people’s identifies whose burden is reduced; the context supplies their actual needs rather than assuming every person in an age group has the same needs.",
-        "register": "Conventional burden-relief idiom; relief may come from help, clarity or a useful break.",
+        "grammar": "Take a/the/some weight, a lot of that weight, or a lot of pressure off someone’s shoulders; took/taken and lifted that weight are also possible. The context should establish the burden, whose shoulders it is lifted from, and what responsibility remains.",
+        "register": "Conventional burden-relief metaphor; a colleague may use weight for shared work, while a household member may use pressure for financial reassurance. Relief may be partial.",
         "boundaryZh": "減輕可以是部分或暫時，不表示一切責任消失；本課不是卸下實際背包。",
         "misconceptionZh": "要說明原來負擔及甚麼帶來舒緩，不能單靠休息就聲稱實際工作已完成。",
         "outcomeZh": "能把具體支援連到負擔減輕，同時保留未完成責任。"
@@ -106,7 +190,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "分擔電話是具體支援，though 保留時間表仍要準備，不是全數轉交。",
+        "explanationZh": "分擔電話是具體支援，但時間表仍要準備，並非把責任全數轉交。",
         "en": "Sharing the calls with another organiser took the weight off my shoulders, though I still had to prepare the final schedule.",
         "zh": "與另一位主辦者分擔電話聯絡，減輕了我的負擔，但我仍要準備最後時間表。"
       },
@@ -279,12 +363,12 @@
       },
       "takeaways": [
         {
-          "en": "Sharing the preparations took a weight off my shoulders.",
-          "zh": "分擔準備工作，減輕了我的負擔。"
+          "en": "After a week of last-minute route changes, the agreed backup plan took a lot of that weight off the volunteers’ shoulders.",
+          "zh": "一星期不斷臨時改路線後，議定的後備計劃大大減輕義工肩上的負擔。"
         },
         {
-          "en": "Reliable support can take a heavy weight off people’s shoulders.",
-          "zh": "可靠支援可減輕人們的沉重負擔。"
+          "en": "Knowing the rent was covered for another month took a lot of pressure off her shoulders, although she still needed to plan ahead.",
+          "zh": "知道下個月租金已有着落，大大減輕她的壓力，儘管她仍須作長遠安排。"
         }
       ],
       "review": {

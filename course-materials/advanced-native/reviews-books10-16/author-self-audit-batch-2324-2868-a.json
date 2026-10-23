@@ -1,0 +1,181 @@
+{
+  "auditKind": "author-self-audit-unselected-eleven",
+  "createdUtc": "2026-10-23T16:51:31.410852+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2324-2337-a.json",
+      "sha256": "372db91537cefc26876e4aedcf0db35c8882a4d656c59a44986a792285e7772a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2339-2348-a.json",
+      "sha256": "a692d6c3fe588e2b8dd62f68d1593abfc210ee604162f6044265df8444221a3a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2585-2657-a.json",
+      "sha256": "ee0b50b5019a9cad2db412216ac0c568685832881dfb1242e06b45d8911c4341"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2785-2868-a.json",
+      "sha256": "587842fc1cb54a2c94d637dd9b0e38fbfddd329b994db751fc96f039afdc077c"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "ed82e350e505df48cbb512780d0e4497a11770d6d029e606134ec453ca91d31b",
+  "focusedBuildAndCheck": "PASS: 11 lessons, 66 questions, 44 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 286,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 7
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "0 guide overlaps beyond ordinary idiom use"
+  },
+  "semanticNotes": {
+    "2348": "General named-perspective construction excludes canonical 1765 historical-yesterday lens; owner decision remains provisional.",
+    "2868": "Chance discovery of a named item distinct from canonical run into trouble/problems.",
+    "all": "Every lesson has two changed-context writing examples and four independently valid reply options by author judgment; independent review pending."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 2324,
+      "sourceId": "book10-16-0213",
+      "sourceExpression": "emotional depth",
+      "sourceExample": "The novel has emotional depth despite its simple plot.",
+      "draftFile": "batch-2324-2337-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2329,
+      "sourceId": "book10-16-0218",
+      "sourceExpression": "overstated",
+      "sourceExample": "The difference may be overstated in the advertisement.",
+      "draftFile": "batch-2324-2337-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2336,
+      "sourceId": "book10-16-0225",
+      "sourceExpression": "holding everything in",
+      "sourceExample": "He was holding everything in during the difficult conversation.",
+      "draftFile": "batch-2324-2337-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2337,
+      "sourceId": "book10-16-0226",
+      "sourceExpression": "overcooked",
+      "sourceExample": "The ending felt overcooked after the quiet first half.",
+      "draftFile": "batch-2324-2337-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2339,
+      "sourceId": "book10-16-0228",
+      "sourceExpression": "disappear into a role",
+      "sourceExample": "The performer seemed to disappear into a role she had studied for months.",
+      "draftFile": "batch-2339-2348-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2348,
+      "sourceId": "book10-16-0237",
+      "sourceExpression": "through the lens of",
+      "sourceExample": "The report views the problem through the lens of public health.",
+      "draftFile": "batch-2339-2348-a.json",
+      "contentRevision": 4,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2585,
+      "sourceId": "book10-16-0474",
+      "sourceExpression": "caught up in social pressure",
+      "sourceExample": "Teenagers can become caught up in social pressure online.",
+      "draftFile": "batch-2585-2657-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2657,
+      "sourceId": "book10-16-0546",
+      "sourceExpression": "blow up overnight",
+      "sourceExample": "An unknown artist can blow up overnight online.",
+      "draftFile": "batch-2585-2657-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2785,
+      "sourceId": "book10-16-0674",
+      "sourceExpression": "part of the mix",
+      "sourceExample": "Jazz is still part of the mix at the festival.",
+      "draftFile": "batch-2785-2868-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2859,
+      "sourceId": "book10-16-0748",
+      "sourceExpression": "drowning in headlines",
+      "sourceExample": "I felt as if I was drowning in headlines by evening.",
+      "draftFile": "batch-2785-2868-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2868,
+      "sourceId": "book10-16-0757",
+      "sourceExpression": "ran into it",
+      "sourceExample": "I ran into it while reading the morning feed.",
+      "draftFile": "batch-2785-2868-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

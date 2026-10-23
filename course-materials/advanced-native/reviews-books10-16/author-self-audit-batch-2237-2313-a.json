@@ -1,0 +1,181 @@
+{
+  "auditKind": "author-self-audit-unselected-eleven",
+  "createdUtc": "2026-10-23T16:42:40.246190+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2237-2276-a.json",
+      "sha256": "632dea4d4dc88e1afbe6be95786bf7f42fd89e87671b264e928988011dc07a5a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2279-a.json",
+      "sha256": "b118669bde04f65aa087917b33b2df3886557bfcd49b1d9a8e0c72f1088cb1d9"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2281-2289-a.json",
+      "sha256": "678b34d9d41fbf34285a3eb8f971446dc473c59f1b7d6e4781ea04d90265f390"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2309-2313-a.json",
+      "sha256": "7be3f857b84106f525fad8b09856a0c47ac6ed8dbbcf983f26419543268fbdb4"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "cf63270b0d56e02bad72b9287e15b97bbbd4fad76e1e77851d29e977110c4d9b",
+  "focusedBuildAndCheck": "PASS: 11 lessons, 66 questions, 44 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 286,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 3
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "0 guide overlaps beyond ordinary idiom use"
+  },
+  "semanticNotes": {
+    "2279": "Evidence-based argument distinct from canonical 798 emotional steadiness; bounded in facts/evidence detector.",
+    "2514": "Abstract-result show up held pending detector and owner strategy; not in this draft batch.",
+    "all": "Every lesson has two changed-context writing examples and four independently valid reply options by author judgment; independent review pending."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 2237,
+      "sourceId": "book10-16-0126",
+      "sourceExpression": "revolve around a screen",
+      "sourceExample": "His leisure time began to revolve around a screen.",
+      "draftFile": "batch-2237-2276-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2273,
+      "sourceId": "book10-16-0162",
+      "sourceExpression": "a starting point",
+      "sourceExample": "Treat the advert as a starting point for research.",
+      "draftFile": "batch-2237-2276-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2275,
+      "sourceId": "book10-16-0164",
+      "sourceExpression": "leave things out",
+      "sourceExample": "The short summary will leave things out unless we revise it.",
+      "draftFile": "batch-2237-2276-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2276,
+      "sourceId": "book10-16-0165",
+      "sourceExpression": "easier to grasp",
+      "sourceExample": "The diagram made the explanation easier to grasp.",
+      "draftFile": "batch-2237-2276-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2279,
+      "sourceId": "book10-16-0168",
+      "sourceExpression": "grounded in facts",
+      "sourceExample": "Her argument was grounded in facts rather than speculation.",
+      "draftFile": "batch-2279-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2281,
+      "sourceId": "book10-16-0170",
+      "sourceExpression": "emotional ride",
+      "sourceExample": "The film takes viewers on an emotional ride.",
+      "draftFile": "batch-2281-2289-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2282,
+      "sourceId": "book10-16-0171",
+      "sourceExpression": "heighten the drama",
+      "sourceExample": "The sudden silence helped heighten the drama.",
+      "draftFile": "batch-2281-2289-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2289,
+      "sourceId": "book10-16-0178",
+      "sourceExpression": "playing different games",
+      "sourceExample": "The two companies are playing different games in the same market.",
+      "draftFile": "batch-2281-2289-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2309,
+      "sourceId": "book10-16-0198",
+      "sourceExpression": "loose ends",
+      "sourceExample": "The team still had several loose ends to settle.",
+      "draftFile": "batch-2309-2313-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2311,
+      "sourceId": "book10-16-0200",
+      "sourceExpression": "moment of closure",
+      "sourceExample": "The reunion gave her a moment of closure.",
+      "draftFile": "batch-2309-2313-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2313,
+      "sourceId": "book10-16-0202",
+      "sourceExpression": "emotional truths",
+      "sourceExample": "A fictional story can still reveal emotional truths.",
+      "draftFile": "batch-2309-2313-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

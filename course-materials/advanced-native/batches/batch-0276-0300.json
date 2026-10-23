@@ -1968,15 +1968,15 @@
     "titleZh": "留下深遠影響",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep) )?|(?:my|your|his|her|its|our|their) )mark\\b",
+      "pattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep|lasting) )?|(?:my|your|his|her|its|our|their) )mark\\b",
       "glossaryForbidden": [
         "\\bmark\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Have a lasting or noticeable effect; strong and deep emphasise its degree.",
-      "meaningZh": "留下持久或可察覺的影響；strong 和 deep 強調影響程度。",
-      "grammar": "leave a strong/deep mark on + person/community/development; past left. Leave their/your/our/its mark on something is the possessive variant; strong and deep evaluate the impact rather than create a different sense.",
+      "meaningEn": "Have a lasting or noticeable effect; strong and deep emphasise degree, while lasting emphasises duration.",
+      "meaningZh": "留下持久或可察覺的影響；strong 和 deep 強調程度，lasting 強調持續時間。",
+      "grammar": "leave a strong/deep/lasting mark on + person/community/development; past left. Leave their/your/our/its mark on something is the possessive variant. Lasting evaluates duration, not a separate physical mark.",
       "register": "Transparent mark metaphor; strong evaluates impact, not necessarily praise.",
       "boundaryZh": "影響可正可負，並非實際污漬；需有後續作用，不只是當下注意。",
       "misconceptionZh": "持久影響不表示是唯一原因，也不表示人的未來不能再改變。",
@@ -2036,6 +2036,34 @@
         "referenceSentenceKind": "guide_original_example",
         "expression": "leaves its mark",
         "sourceCategory": "Idiom or set phrase"
+      },
+      {
+        "occurrenceId": "book10-16-0252",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 23,
+        "book": 10,
+        "question": 19,
+        "sample": "S2",
+        "sourceBookPages": "46–47",
+        "locatorNote": "DOCX table 19, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Good teachers leave a lasting mark on students.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "leave a lasting mark"
+      },
+      {
+        "occurrenceId": "book10-16-0276",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 25,
+        "book": 10,
+        "question": 21,
+        "sample": "S2",
+        "sourceBookPages": "50–51",
+        "locatorNote": "DOCX table 21, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Good teachers leave a lasting mark on students.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "leave a lasting mark"
       }
     ],
     "listening": {
@@ -2154,12 +2182,12 @@
         },
         {
           "id": "c",
-          "en": "It may still influence you, but new experiences can also change your approach.",
-          "zh": "它可能仍影響你，但新經驗也可改變你的方法。"
+          "en": "That disappointment left a strong mark, but new experiences can also change your approach.",
+          "zh": "那次失望留下了深遠影響，但新經驗也可以改變你的做法。"
         }
       ],
       "answerId": "c",
-      "explanationZh": "過往失望可持續影響，但仍應了解新機會及檢視方法；不必未查便拒絕或原封保留舊做法。"
+      "explanationZh": "回應承認過往失望留下影響，也沒有斷言它是唯一影響或未來不能改變；仍可了解新機會及檢視方法。"
     },
     "speaking": {
       "en": "That patient teacher left a strong mark on how I support younger learners.",
@@ -2237,8 +2265,8 @@
         "zh": "艱難的一年對社區留下深遠影響。"
       },
       {
-        "en": "A helpful mentor can leave a strong mark without being the only influence on a learner.",
-        "zh": "有幫助的導師可以留下深遠影響，而非學習者唯一的影響來源。"
+        "en": "The library's weekly visits left a lasting mark on how the children read at home.",
+        "zh": "圖書館每週到訪，長久影響孩子們在家閱讀的方式。"
       }
     ],
     "review": {
@@ -2267,7 +2295,7 @@
         "Root-approved1560 leave their mark on shares the noticeable/lasting-effect unit. Original degree and possessive source retained; no assessed/audio English changed by the family merge."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-284",
@@ -2809,7 +2837,7 @@
     "titleZh": "吸引聽眾注意",
     "category": "natural",
     "target": {
-      "pattern": "\\b(?:catch|catches|catching|caught) listeners[’'] attention\\b",
+      "pattern": "(?:\\b(?:catch|catches|catching|caught) listeners[’'] attention\\b)|(?:\\b(?:catch|catches|catching|caught) people[’\\x27]s attention\\b)",
       "glossaryForbidden": [
         "\\bcatch(?:es|ing)?\\b",
         "\\bcaught\\b",
@@ -2817,9 +2845,9 @@
       ]
     },
     "brief": {
-      "meaningEn": "Make people listening notice a sound or message and become interested.",
-      "meaningZh": "讓正在聆聽的人注意聲音或信息，並產生興趣。",
-      "grammar": "catch listeners’ attention; past caught; attention is uncountable. A clear opening or distinctive sound can do this.",
+      "meaningEn": "Make people who see or hear something notice it and become interested.",
+      "meaningZh": "令看到或聽到某內容的人留意它並產生興趣。",
+      "grammar": "catch listeners’ attention / catch people’s attention; a sound, message or visible feature draws notice. The past form is caught and attention is uncountable.",
       "register": "Natural attention collocation. Learner-facing normalization of a creative source image.",
       "boundaryZh": "本課把原資料 wins people’s ears 的創意寫法，轉為通用自然搭配；吸引注意不等於已喜歡、同意或記住全部內容。",
       "misconceptionZh": "短暫留意與長期認同不同；需另看聽眾之後是否理解或接受。",
@@ -2838,6 +2866,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 3, table 1, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p003-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1389",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 130,
+        "book": 13,
+        "question": 16,
+        "sample": "S1",
+        "sourceBookPages": "41–43",
+        "locatorNote": "DOCX table 137, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Bright pictures catch people's attention quickly.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "catch people's attention"
       }
     ],
     "listening": {
@@ -2956,8 +2998,8 @@
         },
         {
           "id": "c",
-          "en": "They started listening; we still need to explain clearly and check what they understood.",
-          "zh": "他們開始聽了；我們仍需清楚解釋並查核理解。"
+          "en": "The opening caught listeners’ attention, but we still need to explain the conclusion clearly and check what they understood.",
+          "zh": "開場吸引了聽眾注意，但我們仍需清楚解釋結論，並查核他們理解了甚麼。"
         }
       ],
       "answerId": "c",
@@ -3039,8 +3081,8 @@
         "zh": "有特色的聲音可以吸引聽眾注意。"
       },
       {
-        "en": "Catching listeners’ attention is a beginning, not proof that they agree.",
-        "zh": "吸引聽眾注意是開端，不是他們同意的證據。"
+        "en": "A single bold photograph can catch people’s attention before they read the safety notice.",
+        "zh": "一張醒目的照片可先吸引人們注意，然後他們才閱讀安全告示。"
       }
     ],
     "review": {
@@ -3069,7 +3111,7 @@
         "Root-approved transparent sourceNormalization: wins people’s ears retained exactly in sources as creative imagery; learner title and examples use established catch + attention collocation. Primary evidence https://dictionary.cambridge.org/dictionary/english/catch?q=catch_1 (catch someone’s attention: make someone notice and feel interested). Not alias1476 capture attention: different lexical collocation."
       ]
     },
-    "contentRevision": 1,
+    "contentRevision": 2,
     "sourceNormalization": {
       "sourcePhrase": "wins people's ears",
       "learnerPhrase": "catch listeners’ attention",
@@ -3090,7 +3132,7 @@
     "titleZh": "被擠到邊緣而少被重視",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:push|pushes|pushed|pushing) to the margins\\b",
+      "pattern": "\\b(?:push|pushes|pushed|pushing)(?: quietly)? to the margins\\b",
       "glossaryForbidden": [
         "\\bmargins\\b"
       ]
@@ -3098,8 +3140,8 @@
     "brief": {
       "meaningEn": "Made less visible, influential or central in an activity or discussion.",
       "meaningZh": "在活動或討論中變得較少被看見、較少影響力或較不受重視。",
-      "grammar": "be pushed to the margins of a debate/organisation; margins is a spatial metaphor.",
-      "register": "Figurative social or organisational description.",
+      "grammar": "be pushed (quietly) to the margins of a debate, programme or cultural space; the adverb can describe a gradual or low-profile loss of attention. Margins is a spatial metaphor.",
+      "register": "Figurative social or organisational description. A curator may tell colleagues that smaller art forms are being pushed quietly to the margins when their programme slots and publicity shrink.",
       "boundaryZh": "不一定完全被排除或實際坐在邊位；需說清參與、注意或影響力減少的證據。",
       "misconceptionZh": "仍在場不代表仍有實質參與；反過來，未採用一個建議也不單獨證明整個群體被邊緣化。",
       "outcomeZh": "能用發言機會、議程或資源的具體變化描述邊緣化。"
@@ -3117,6 +3159,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 3, table 1, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p003-t1-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0568",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 52,
+        "book": 11,
+        "question": 12,
+        "sample": "S1",
+        "sourceBookPages": "30–32",
+        "locatorNote": "DOCX table 48, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Smaller art forms are often pushed quietly to the margins.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "pushed quietly to the margins"
       }
     ],
     "listening": {
@@ -3230,8 +3286,8 @@
         },
         {
           "id": "b",
-          "en": "Being present does not show how much time or influence they actually have.",
-          "zh": "在場未能顯示他們實際有多少時間或影響力。"
+          "en": "Being present does not rule out being pushed to the margins; check how much time or influence they actually have.",
+          "zh": "人在場仍可能被推到邊緣；要查他們實際有多少發言時間或影響力。"
         },
         {
           "id": "c",
@@ -3346,7 +3402,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-288",

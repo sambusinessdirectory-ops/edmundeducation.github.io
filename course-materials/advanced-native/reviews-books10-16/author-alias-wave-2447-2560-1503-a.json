@@ -1,0 +1,50 @@
+{
+  "auditKind": "author-two-held-woven-into-life-aliases",
+  "createdUtc": "2026-10-23T17:43:52.724294+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2447,
+      "sourceId": "book10-16-0336",
+      "sourceExpression": "woven into everyday living",
+      "sourceExample": "Digital payments are woven into everyday living in the city.",
+      "sourceMeaning": "Closely integrated into daily routines; a fabric metaphor.",
+      "canonicalOwner": "advanced-native-1503",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalBatchSha256": "8873600a322ce7eaa954f0aa32b33a074b990976ad370e95c2e6f3921138a171",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "8275f798235ed0d64c10668c6450b4f58b465e3fecaf6f098ca27a5ffad1045c",
+      "sourceProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "decisionReason": "The source “Digital payments are woven into everyday living in the city” uses the same fabric-integration metaphor as canonical 1503’s daily routines/ordinary life; everyday living is a natural complement variant, not a new sense. The owner now teaches and detects that form, retains exact source provenance and gives a changed voice-message context."
+    },
+    {
+      "sourceOrdinal": 2560,
+      "sourceId": "book10-16-0449",
+      "sourceExpression": "deeply woven into everyday life",
+      "sourceExample": "Digital payments are deeply woven into everyday life.",
+      "sourceMeaning": "Closely integrated into daily routines; a fabric metaphor.",
+      "canonicalOwner": "advanced-native-1503",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalBatchSha256": "8873600a322ce7eaa954f0aa32b33a074b990976ad370e95c2e6f3921138a171",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "c7a1a6a3bf686e8c0924eca4db6f9a11f33ffbfc1b7f0fb6c1a1b32657f70eed",
+      "sourceProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "decisionReason": "The source “Digital payments are deeply woven into everyday life” intensifies the same habitual-integration metaphor already taught by canonical 1503; deeply changes degree, not idiom sense. The owner now teaches the intensifier and everyday-life complement, records the exact source and uses a different communication routine for transfer."
+    }
+  ],
+  "sourceFormReview": "Everyday living, everyday life and deeply woven into are complement/intensity variants of the same habitual-integration fabric metaphor already owned by 1503. Both source sentences concern payments, so the new learner-facing transfer uses separated relatives’ regular voice messages instead.",
+  "detectorTests": {
+    "positive": 4,
+    "negative": 2
+  },
+  "focusedBuildCheck": "PASS: 24 lessons, 144 questions, 96 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 rows, zero source gaps, schema errors, selected alias detector exceptions, guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

@@ -1,0 +1,57 @@
+{
+  "auditKind": "author-last-owner-and-merge",
+  "createdUtc": "2026-10-23T17:13:57.348917+00:00",
+  "provisionalNewOwner": {
+    "sourceOrdinal": 2514,
+    "sourceId": "book10-16-0403",
+    "sourceSense": "Abstract effect or difference becomes evident in later measured results.",
+    "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-2514-a.json",
+    "sha256": "ee6c965d57cca507e4ddc31618e40f094e3ea34f77631ddd5785516d65dffbfc",
+    "focusedBuildAndCheck": "PASS: 1 lesson, 6 questions, 4 audio requests, zero flags when built with revised canonical 367",
+    "sourceCopyScreen": {
+      "sourceExamples": 2604,
+      "learnerFacingStrings": 26,
+      "counts": {
+        "exact": 0,
+        "high": 0,
+        "medium": 0,
+        "target-or-short-overlap": 0
+      },
+      "fuzzyCounts": {
+        "nearFull": 0,
+        "reviewNearFull": 0
+      }
+    },
+    "positiveRegexTests": [
+      "The effects will show up in the final results.",
+      "The difference showed up in a monthly report."
+    ],
+    "negativeRegexTests": [
+      "Mara showed up at the gallery.",
+      "He showed up for his sister."
+    ],
+    "independentReview": "2514 content-clear at prior two-lesson hash; final single-lesson hash awaiting B recheck"
+  },
+  "mergedAlias": {
+    "sourceOrdinal": 4136,
+    "sourceId": "book10-16-2025",
+    "sourceSense": "Absorb and understand information; the source does not specify an oral-only sense.",
+    "canonicalOwner": "advanced-native-367",
+    "canonicalFile": "course-materials/advanced-native/batches/batch-0351-0375.json",
+    "canonicalSha256": "eee51d1808fd5bd0bad17ff65bc4a95725ddef5cdea3a1ed14061c2bda5e6ee3",
+    "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+    "decisionSha256": "4a5318e08111e88bd79fadbce420cd3e8d53dbf11bdcbb91a1de614390bf7ab4",
+    "sourceSentenceDetectorMatch": true,
+    "sensoryNegativeDetectorExamples": [
+      "They took in the new sights.",
+      "The guide took in the view."
+    ],
+    "ownerChanges": "Canonical 367 now teaches read or heard information, assesses an oral explanation as well as preserving its written examples, includes take things in grammar and source occurrence provenance.",
+    "focusedBuildAndCheck": "PASS: combined canonical batch and 2514 draft, 25 lessons, 150 questions, 100 audio requests, zero flags",
+    "independentReview": "pending",
+    "reviewRepair": "Grounded the keyed reply in corrected steps and made the dialogue request the missed instruction before taking it in; canonical contentRevision 4."
+  },
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

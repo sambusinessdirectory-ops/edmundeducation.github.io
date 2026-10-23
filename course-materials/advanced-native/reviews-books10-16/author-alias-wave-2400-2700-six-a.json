@@ -1,0 +1,98 @@
+{
+  "auditKind": "author-held-to-existing-alias-wave-2400-2700",
+  "createdUtc": "2026-10-23T17:13:57.348917+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2605,
+      "sourceId": "book10-16-0494",
+      "expression": "carry enormous weight",
+      "sourceExample": "Her advice can carry enormous weight in the community.",
+      "ownerId": "advanced-native-767",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "ownerFileSha256": "7cabc812c487eeeda6e88384da8dbd40327e1d932b7de4a0c11066610e057bc8",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "Have strong influence or importance; a conventional weight metaphor."
+    },
+    {
+      "sourceOrdinal": 2630,
+      "sourceId": "book10-16-0519",
+      "expression": "price tag",
+      "sourceExample": "Not every worthwhile experience needs a price tag.",
+      "ownerId": "advanced-native-1266",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1251-1275.json",
+      "ownerFileSha256": "ca1e34a3ad243a8c26c264470973f0da81ce5bcba0a332efff9b4a793cc1db99",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "The monetary cost or value attached to something; a conventional label metaphor."
+    },
+    {
+      "sourceOrdinal": 2440,
+      "sourceId": "book10-16-0329",
+      "expression": "at the push of a button",
+      "sourceExample": "The blinds open at the push of a button.",
+      "ownerId": "advanced-native-1037",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1026-1050.json",
+      "ownerFileSha256": "523235230eb75419c4a2b22d552967bc7d6aa42ee50c1603c5f510c3382b9f52",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "With almost no effort through a simple control; a fixed convenience phrase."
+    },
+    {
+      "sourceOrdinal": 2450,
+      "sourceId": "book10-16-0339",
+      "expression": "every bell and whistle",
+      "sourceExample": "The basic model works well without every bell and whistle.",
+      "ownerId": "advanced-native-1020",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+      "ownerFileSha256": "82d289c92a3d1fead3c9d029ed13d3e49e067e5280a01c7dc5cb4110347ed49c",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "Every possible extra feature; a conventional idiom about elaborate equipment."
+    },
+    {
+      "sourceOrdinal": 2469,
+      "sourceId": "book10-16-0358",
+      "expression": "a lifeline",
+      "sourceExample": "A basic phone can be a lifeline during an emergency.",
+      "ownerId": "advanced-native-1344",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "ownerFileSha256": "76ce0ed9f387c90b3239a8b9980d5e8b1c5d8899ab1103992eedeca99d179ee3",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "A vital source of help or contact; the rescue-line image is figurative."
+    },
+    {
+      "sourceOrdinal": 2572,
+      "sourceId": "book10-16-0461",
+      "expression": "a lifeline",
+      "sourceExample": "A basic phone can be a lifeline during an emergency.",
+      "ownerId": "advanced-native-1344",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "ownerFileSha256": "76ce0ed9f387c90b3239a8b9980d5e8b1c5d8899ab1103992eedeca99d179ee3",
+      "ownerContentRevision": 2,
+      "ownerDetectorMatchesFullSource": true,
+      "sense": "A vital source of help or contact; the rescue-line image is figurative."
+    }
+  ],
+  "decisionFiles": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "a6ce8ba42018969503ab9e5b90f89adf0f2a4261c10d4b09d57cfd97864b71f2"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "25a10b495af0fb068acacd06072310ec5def255a992c01fb097e23021232bf7f"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "184db834dcafcbd46f0f7e0833d27228e95853e194b5c0278c314ce3f2421e3b"
+    }
+  ],
+  "focusedBuildAndCheck": "PASS: five changed canonical batches, 109 lessons, 654 questions, 436 audio requests, zero flags",
+  "allDiscoveredNewAliasAudit": "158 rows, 158 matched drafts, zero exceptions",
+  "fullVerifier": "PASS: 2604 intake/decision rows, zero source page gaps, zero whole-catalogue schema errors, zero exact guide copies, zero selected alias pattern exceptions",
+  "independentReview": "pending",
+  "selectedManifestChanged": false,
+  "published": false
+}

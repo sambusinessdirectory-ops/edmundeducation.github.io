@@ -1,0 +1,101 @@
+{
+  "reviewKind": "independent-ai-hold-merges-wave8",
+  "createdUtc": "2026-10-23T17:45:14.996690+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "c1a3c198b449d039d0144e283bcdabe820a85fe13ce25a58f8c207f1cc170a42",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "files": {
+    "course-materials/advanced-native/batches/batch-0426-0450.json": "ca95098a4cb8f4f9909edf0a6f5a684c55c393d631cf74edff667bf5608dc091",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl": "0326179a32460bdcbbba25a448741b74ef5c41b282c86dae0c7f8ba2eab562e2",
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "d7f002689cc1c7143500e27138982053f5ee94e3436e1977e896f07f0b9edaff",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl": "6dabaa3704f3a200e46d8d3c506692684e1cfab12ed346a4088433541532fba4",
+    "course-materials/advanced-native/batches/batch-0451-0475.json": "c02c8116216dc85a18f706ed8b3ac8878e3372f1eda7cbc1ed7e0e183f68886b",
+    "course-materials/advanced-native/batches/batch-1151-1175.json": "dbe1c5a50f7b6fcb97852b95988a17f96c82c61d5cca94f57240881e83405613",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl": "2f808a80fca195ef96d2b0b09030b665226068474b3def672b09e03eb008450d",
+    "course-materials/advanced-native/batches/batch-0776-0800.json": "4a488d77dd24b38eb3344be88ca5b0691bfbfacecc72ce1a2931d6885de28c4a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl": "09a91fb29100cf828c0f92eb223b10f09215e2c2fc2ddbaf29a777fcfe585173",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl": "e374cb6580f79ef7e7ab840b0870ea1f2d5e7a907231dce59f0fd21fc8badca5"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 4106,
+      "sourceId": "book10-16-1995",
+      "canonicalId": "advanced-native-441",
+      "decisionRowSha256": "ff429eb078636a6fd9ab42feba98856dced219453812b8655fcc9e402986d468",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4356,
+      "sourceId": "book10-16-2245",
+      "canonicalId": "advanced-native-767",
+      "decisionRowSha256": "20358bedfa690a0dc0181e89fd4b6e52a92460309700434c57c2c35368d69cd1",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4332,
+      "sourceId": "book10-16-2221",
+      "canonicalId": "advanced-native-461",
+      "decisionRowSha256": "471f3cba17084a6e52845103d893da086c2f7decbab295b313e415d37d230276",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4301,
+      "sourceId": "book10-16-2190",
+      "canonicalId": "advanced-native-1161",
+      "decisionRowSha256": "3039f289752b58124cb2533b9c1f0859ec24fc820db054b6e8b503317d0cd5da",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4443,
+      "sourceId": "book10-16-2332",
+      "canonicalId": "advanced-native-778",
+      "decisionRowSha256": "1ef439c6ddf2914585d2fbd6b083c27abccc05d3cc66eeeaaec57913a14cf3f7",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 4006,
+      "sourceId": "book10-16-1895",
+      "canonicalId": "advanced-native-430",
+      "decisionRowSha256": "b8afff73307356f0baabe09196472ec73114009225c4fe5864a803f87d86b8f1",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": {
+    "4106": "Quick informal learning is within pick-up skill owner; older broad pick-up regex still needs surrounding context to distinguish physically collecting objects.",
+    "4356": "Even more weight intensifies figurative significance and preserves earlier comparative reference.",
+    "4332": "Be gold dust is the direct-metaphor counterpart of like gold dust; clinic takeaway and register cover rarity/value without asserting price.",
+    "4301": "Gather real momentum names accumulating participation/progress, same as build momentum.",
+    "4443": "Make it right is a concrete repair counterpart of put things right. Source is a promise to repair, not proof repair is complete; lesson brief does not misstate that.",
+    "4006": "Lean more towards strengthens a provisional preference; keyed dialogue correctly separates preference from confirmed booking."
+  },
+  "changedAssessedKeys": "Reviewed repaired 430/441/461 dialogue keys; target-bearing answer and Traditional Chinese align, alternatives remain distinguishable. Other lessons retained their existing assessments.",
+  "focusedBuildCheck": {
+    "lessons": 113,
+    "questions": 678,
+    "audioRequests": 452,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI content/source review only; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-ai-exact-hash-focused-followup",
+  "scope": "Recheck R2281-01 in eleven unselected lower-gap lessons 2237–2313",
+  "changedDraftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2281-2289-a.json",
+    "sha256": "678b34d9d41fbf34285a3eb8f971446dc473c59f1b7d6e4781ea04d90265f390"
+  },
+  "unchangedDraftFileSha256": {
+    "batch-2237-2276-a.json": "632dea4d4dc88e1afbe6be95786bf7f42fd89e87671b264e928988011dc07a5a",
+    "batch-2279-a.json": "b118669bde04f65aa087917b33b2df3886557bfcd49b1d9a8e0c72f1088cb1d9",
+    "batch-2309-2313-a.json": "7be3f857b84106f525fad8b09856a0c47ac6ed8dbbcf983f26419543268fbdb4"
+  },
+  "authorSelfAuditSha256": "61d8b8c2284fcbc68ca67217068ca52c7b792eec0c6b69be31107f3ae097cd42",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2237-2313-b-initial.json",
+  "status": "eleven-content-clear-at-exact-hashes",
+  "findingRechecked": {
+    "id": "R2281-01",
+    "status": "resolved",
+    "evidence": "Model 1 now makes the week-long search the emotional ride. It then gives the chronological fear → embarrassment → relief sequence, with aligned Traditional Chinese and exact recalculated glossary spans."
+  },
+  "validation": "Changed three-lesson file build/check passes 3 lessons, 18 questions, 12 audio requests, zero flags; unchanged eight lessons retain the initial risk-based clearance and their listed hashes. No listening or release approval is claimed."
+}

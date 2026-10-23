@@ -1,0 +1,60 @@
+{
+  "reviewType": "independent-ai-exact-hash-risk-review",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave10-review-pilot.json",
+  "authorAuditSha256": "afcc7521a3b931f85777fd7bd4b0b2e048dfcf63d1f40e5167b6130453bf7a72",
+  "scope": "Three held-to-existing variants; exact source/owner/regex/provenance, changed brief/takeaway, and repaired 274 affirmative assessment. Other unchanged lesson content was not reaudited exhaustively.",
+  "rows": [
+    {
+      "ordinal": 3771,
+      "canonicalId": "advanced-native-025",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalSha256": "07a7c5f339b3fd409b2b265eb48b10a0d1f5a90dea9abee68d2e5077537cd205",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionSha256": "26ec8fce12396f2bc0fdbacb367a777b881e7956222c610b0867144f905624e7",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "semanticAndBilingualReview": "Nudge toward a purchase is the same gentle influence sense as the older direction frame; the bounded new detector matches the source and the takeaway does not promise purchase.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3587,
+      "canonicalId": "advanced-native-1001",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+      "canonicalSha256": "1bd7df4b9208d86b259aad55f39adb5dbaf0e5c7e38909a48441c76d60bcbff6",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionSha256": "816c90ece8128875e9e5fda30991a160610c6b7bfde51ba964826ff8c61d05c7",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "semanticAndBilingualReview": "Chalk-and-talk teaching and model both denote teacher explanation plus board work; the bilingual brief distinguishes the term from any chalk mark and does not claim ineffectiveness.",
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 3494,
+      "canonicalId": "advanced-native-274",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0251-0275.json",
+      "canonicalSha256": "658a002d180af37b08010295757abb0a2e06a3f3d7d10fbc71c4707c7a74aaa5",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionSha256": "bbc26807f954eed1e559d8596d58867648009b4fa9d18c7456314f9d26c7865e",
+      "canonicalHashMatchesAuthorAudit": true,
+      "decisionHashMatchesAuthorAudit": true,
+      "exactSourceProvenance": true,
+      "fullSourceMatchesTargetGi": true,
+      "semanticAndBilingualReview": "The affirmative source is now explicitly assessed in contrast: is their cup of tea means the history club enjoys the activity, while the negative original form is retained in other steps. The answer and Chinese do not generalize to every student.",
+      "status": "content-clear"
+    }
+  ],
+  "checks": {
+    "focusedBuildCheck": "Author 58 lessons/348 questions/232 audio roles, zero flags; exact canonical and decision hashes independently rechecked",
+    "fullVerifier": "2,604 decisions, 553 selected drafts, 3,318 questions, 2,212 audio roles; zero schema or selected-alias exceptions",
+    "allDiscoveredAliasAudit": "1,101/1,101 source detector matches, zero exceptions",
+    "sopAuditChecklist": "55 gates/20 steps/30 crosswalks; checker passes"
+  },
+  "blockers": [],
+  "contentClear": true,
+  "publicationApproved": false,
+  "humanApprovalClaimed": false
+}

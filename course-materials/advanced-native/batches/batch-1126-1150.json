@@ -797,9 +797,9 @@
       "titleEn": "light a fire under a child",
       "titleZh": "強烈促使人開始行動",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:light(?:s|ing)?|lit|lighted) a fire under (?:a child|(?:the )?(?:child|children|group|team|employees)|me|you|him|her|us|them)\\b",
+        "pattern": "(?:\\b(?:light(?:s|ing)?|lit|lighted) a fire under (?:a child|(?:the )?(?:child|children|group|team|employees)|me|you|him|her|us|them)\\b)|(?:\\b(?:light|lights|lighting|lit|lighted) a fire under (?:a student|someone)\\b)",
         "glossaryForbidden": [
           "\\ba fire under\\b"
         ]
@@ -830,12 +830,26 @@
           "sentence": "If employees are delaying the task, a deadline may light a fire under them.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "light a fire under them"
+        },
+        {
+          "occurrenceId": "book10-16-1151",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 107,
+          "book": 12,
+          "question": 41,
+          "sample": "S1",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 111, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One encouraging comment can light a fire under a student.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "light a fire under a student"
         }
       ],
       "brief": {
         "meaningEn": "Strongly motivate or prompt someone to act, often after delay or a lack of urgency.",
         "meaningZh": "強烈推動或促使某人行動，常用於原本拖延或欠迫切感的情況。",
-        "grammar": "light/lit/lighting a fire under someone; a deadline, challenge or clear request may be the prompt. The phrase describes a strong spur, not literal fire or a guarantee of good work.",
+        "grammar": "light a fire under a person or group, including a student or someone; lights, lighting, lit and lighted are possible inflections. The fire is metaphorical motivation to act.",
         "register": "Informal motivation idiom. It can sound forceful; whether the prompt is supportive or harmful depends on the action and context.",
         "boundaryZh": "強烈推動不等於威嚇才有效，也不保證合乎負荷；要說實際提示及行動，不以比喻合理化傷害。",
         "misconceptionZh": "開始動工與做得好是兩件事；若困難是欠工具或時間，催促不能自行補足。",
@@ -1044,8 +1058,8 @@
           "zh": "展期將近，促使小組行動，他們終於議定先練哪些作品。"
         },
         {
-          "en": "The chance to interview the retired driver lit a fire under me, and I finally sorted my notes into questions for him.",
-          "zh": "有機會訪問退休司機，強烈促使我行動，我終於把筆記整理成問他的問題。"
+          "en": "A challenge she can actually meet may light a fire under a student who has lost momentum.",
+          "zh": "一項她真正做得到的挑戰，可能激勵一位失去動力的學生重新行動。"
         }
       ],
       "review": {
@@ -4781,9 +4795,9 @@
       "titleEn": "eat into my budget",
       "titleZh": "逐步耗用可用預算或時間精力",
       "category": "phrasal-verb",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy)\\b",
+        "pattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy|day)\\b",
         "glossaryForbidden": [
           "\\b(?:eat(?:s|en|ing)?|ate) into\\b"
         ]
@@ -4814,12 +4828,26 @@
           "sentence": "Long commutes eat into their time and energy.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "eat into their time and energy"
+        },
+        {
+          "occurrenceId": "book10-16-0073",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 7,
+          "book": 10,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "15–17",
+          "locatorNote": "DOCX table 6, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Unexpected calls can eat into the day.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "eat into the day"
         }
       ],
       "brief": {
-        "meaningEn": "Use or reduce part of a finite resource, leaving less available for other purposes.",
-        "meaningZh": "耗用或減少一部分有限資源，令其他用途可用的餘量減少。",
-        "grammar": "costs eat into a budget; demands eat into time and energy; ate/eaten/eating. This is the same resource-consumption phrasal verb with different objects, not a reduction in the original budget limit itself.",
+        "meaningEn": "Use or reduce part of a finite resource, including usable time in a day, leaving less available for other purposes.",
+        "meaningZh": "耗用或減少一部分有限資源，包括一天裏可用的時間，令其他用途可用的餘量減少。",
+        "grammar": "costs eat into a budget; demands eat into time, energy or the day; ate/eaten/eating. Day is a time-resource metonym: part of the usable day is consumed, not the day itself shortened.",
         "register": "Conventional resource-consumption metaphor. A cost may be necessary and still leave less available; whether it is worthwhile needs separate evidence.",
         "boundaryZh": "資源被耗用不等於原定預算上限被削，也不必已超支或耗盡；需分原額、支出及剩餘。",
         "misconceptionZh": "時間或精力也可作受詞；不能只因有消耗就判事情沒價值。",
@@ -5028,8 +5056,8 @@
           "zh": "重複抄寫耗去她部分時間精力，讓訪問本身可得的注意減少。"
         },
         {
-          "en": "Unexpected delivery charges have eaten into their budget, so they are checking the funds left before promising another order.",
-          "zh": "意外運費耗去他們部分預算，所以答應另一訂單前，他們先查餘款。"
+          "en": "Sorting the mislabeled boxes ate into the day, so the team postponed the garden visit.",
+          "zh": "整理標錯標籤的箱子耗去一天中部分可用時間，所以團隊延後了參觀花園。"
         }
       ],
       "review": {

@@ -796,9 +796,9 @@
       "titleEn": "sitting in a glass case",
       "titleZh": "只供保存觀賞而不再實踐",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\bsitting in a glass case\\b",
+        "pattern": "\\b(?:sitting in a glass case|lock(?:s|ed|ing)? it in a glass case)\\b",
         "glossaryForbidden": [
           "\\bsitting in a glass case\\b"
         ]
@@ -816,13 +816,27 @@
           "sentence": "A tradition cannot thrive by sitting in a glass case.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "sitting in a glass case"
+        },
+        {
+          "occurrenceId": "book10-16-0574",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 53,
+          "book": 11,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should not lock it in a glass case simply because it is old.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lock it in a glass case"
         }
       ],
       "brief": {
-        "meaningEn": "Being preserved or admired without continuing active practice, using a museum-display image.",
-        "meaningZh": "借展櫃意象，形容只被保存或欣賞，沒有繼續實踐。",
-        "grammar": "a tradition is/cannot thrive by sitting in a glass case; creative personification of a practice. An actual fragile object may still need protective display.",
-        "register": "Contextual display metaphor, not a fixed rule against museums. Distinguish keeping an original object safe from maintaining a practice through teaching and use.",
+        "meaningEn": "Keep a tradition preserved or admired without allowing it to be practised, using a museum-display image; the case can be something a practice sits in or is locked in.",
+        "meaningZh": "借展櫃意象，形容傳統只被保存或欣賞，卻沒有機會繼續實踐；可說坐在或被鎖進展櫃。",
+        "grammar": "A tradition sits/is sitting in a glass case, or someone locks it in a glass case. It refers to freezing a living practice; an actual fragile original may still need protection.",
+        "register": "Contextual preservation metaphor; a heritage teacher may use it when asking how to keep a practice alive while safeguarding original objects. It is not a blanket rule against museums.",
         "boundaryZh": "保存實物有價值，批評只限沒有實踐的傳統；不能因此說所有展櫃都妨礙文化或原件應任人用。",
         "misconceptionZh": "活用可透過示範、複製品及教學，不必犧牲易損原物。",
         "outcomeZh": "能提出有意義實踐並兼顧保存，清楚分原物及傳統。"
@@ -937,8 +951,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "We can stop the tradition simply sitting in a glass case by teaching the steps, then choose practice clothes that do not damage the originals.",
-            "zh": "我們可透過教舞步，避免傳統只坐在展櫃裏，再選不損原件的練習服。"
+            "en": "We can stop the tradition from simply sitting in a glass case by teaching the steps, then choose practice clothes that do not damage the originals.",
+            "zh": "我們可透過教舞步，避免傳統只是被放在展櫃裏，再選不損原件的練習服。"
           },
           {
             "id": "choice-2",
@@ -1030,8 +1044,8 @@
           "zh": "家族想讓編織傳統再被傳授，而非只在照片旁的展櫃裏被欣賞。"
         },
         {
-          "en": "The museum paired the old tools with a workshop so the knowledge was not left sitting in a glass case.",
-          "zh": "博物館把舊工具展示與工作坊配合，不讓知識只被留在展櫃裏。"
+          "en": "The centre can preserve its cooking tradition without locking it in a glass case: learners can still practise the recipes using copies.",
+          "zh": "中心可保存烹飪傳統，而不把它鎖進展櫃：學員仍可用複本練習食譜。"
         }
       ],
       "review": {
@@ -3706,9 +3720,9 @@
       "titleEn": "sparked something in them",
       "titleZh": "觸發心裏的新想法或感受",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas)\\b",
+        "pattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas|curiosity)\\b",
         "glossaryForbidden": [
           "\\bspark(?:s|ed|ing)?\\b"
         ]
@@ -3739,12 +3753,26 @@
           "expression": "spark ideas",
           "sentence": "A lively debate can spark ideas.",
           "referenceSentenceKind": "guide_original_example"
+        },
+        {
+          "occurrenceId": "book10-16-0166",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 16; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A museum visit can spark curiosity about local history.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spark curiosity"
         }
       ],
       "brief": {
-        "meaningEn": "Trigger the beginning of curiosity, a feeling or an idea.",
-        "meaningZh": "觸發好奇、感受或想法的開始。",
-        "grammar": "spark something in someone; spark ideas. Something is deliberately nonspecific unless the context identifies the response; the spark image does not itself describe a lasting change.",
+        "meaningEn": "Trigger the beginning of curiosity, a feeling or an idea; spark curiosity names the response directly, while spark something in someone leaves it unspecified.",
+        "meaningZh": "觸發好奇、感受或想法的開始；spark curiosity 直接點明反應，spark something in someone 則未明說具體反應。",
+        "grammar": "spark something in someone; spark ideas; spark curiosity about + topic. The spark image begins interest and does not itself prove lasting mastery.",
         "register": "Conventional figurative verb for initiating interest or thought. Observable follow-up can suggest what began, but one response is not proof of mastery or a permanent identity.",
         "boundaryZh": "開始被觸動不等於已掌握、已投入長期計劃或人人同感；需保留something未明的範圍。",
         "misconceptionZh": "可回應好奇並提供小機會，不必立即替人定未來方向。",
@@ -3953,8 +3981,8 @@
           "zh": "散步為她首篇相片故事引出想法，她先記三條問題再選主題。"
         },
         {
-          "en": "The performance sparked something in us, and we stayed afterwards to ask how the shadows were made.",
-          "zh": "演出觸動了我們，讓我們之後留下問影子怎製作。"
+          "en": "The pond survey sparked curiosity about insect life, so the class planned a closer observation.",
+          "zh": "池塘調查引起全班對昆蟲生活的好奇，因此他們計劃再仔細觀察。"
         }
       ],
       "review": {

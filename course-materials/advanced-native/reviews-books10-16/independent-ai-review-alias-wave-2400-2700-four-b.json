@@ -1,0 +1,48 @@
+{
+  "reviewType": "independent-ai-focused-held-to-existing-alias-review",
+  "authorAuditSha256": "3bb95ff652eebeefe13b60202b2e9b0e4a34fdfc34512a5610f67a560e41eddc",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "four-alias-conversions-content-clear",
+  "scope": "Source ordinals 2492, 2615, 2634 and 2679 moved from hold to existing canonical owners. No decision, canonical or manifest files edited by reviewer.",
+  "rowReviews": [
+    {
+      "ordinal": 2492,
+      "owner": "advanced-native-643",
+      "canonicalFileSha256": "39afa87574299e055c2c80766fe62c05cb91d1544e92317154da1fc87fc65724",
+      "sourceSentence": "With clear rules, the benefits still outweigh the stress.",
+      "assessment": "Stress is the named disadvantage in the same comparison as canonical benefits outweigh drawbacks. The brief explicitly covers still and stress; the live bounded detector matches the full source.",
+      "clear": true
+    },
+    {
+      "ordinal": 2615,
+      "owner": "advanced-native-1714",
+      "canonicalFileSha256": "d85578b22bae5f2cc660708aa58912c3ebcb7862647aee8a0d8e896900eb5d0b",
+      "sourceSentence": "She spent the entire allowance in one go.",
+      "assessment": "Spending the whole allowance as a single batch is the same all-at-once sense as canonical all in one go. The brief now includes spending/using a specified whole amount and avoids implying speed or ease; detector matches.",
+      "clear": true
+    },
+    {
+      "ordinal": 2634,
+      "owner": "advanced-native-1120",
+      "canonicalFileSha256": "aed9c160995fad6ee311777b5bb0af1d1c722b36e6f3f986cc2f86d67d704ed4",
+      "sourceSentence": "A small allowance is a training ground for adult life.",
+      "assessment": "An allowance gives safe practice in future adult responsibilities, matching the canonical training-ground-for-life metaphor. Brief grammar explicitly admits allowance/adult life and requires the practice and transfer to be explained; detector matches.",
+      "clear": true
+    },
+    {
+      "ordinal": 2679,
+      "owner": "advanced-native-287",
+      "canonicalFileSha256": "3e2be420b6c7a4fdc6a9d28ca5940fafde787e94c92d7579729e0d294af42be6",
+      "sourceSentence": "Smaller art forms are often pushed quietly to the margins.",
+      "assessment": "Art forms becoming less visible or central is the same marginalisation image as canonical community groups. The brief allows quiet loss of cultural attention and the detector matches the adverbial variant without changing the owner outcome.",
+      "clear": true
+    }
+  ],
+  "decisionFiles": [
+    { "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl", "sha256Verified": true },
+    { "path": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl", "sha256Verified": true },
+    { "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl", "sha256Verified": true }
+  ],
+  "verification": "Each canonical file hash equals the stamped author audit; each full source sentence matches its live canonical target regex under case-insensitive flags. The three decision-file hashes equal the author audit. Author focused four-batch build/--check passed 96 lessons, 576 questions, 384 audio requests with zero flags. This review checked the four source senses, bounded variants and owner briefs, not every unrelated question in those batches.",
+  "limits": "Source occurrences remain recorded in the source inventory and decision rows; the four canonical lessons still list their original guide sources rather than adding these aliases to their lesson sources arrays. This is a metadata convention to confirm in the final SOP audit, not a semantic or detector blocker here. No audio listening or release approval is implied."
+}

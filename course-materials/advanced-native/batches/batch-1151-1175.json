@@ -2420,9 +2420,9 @@
       "titleEn": "building momentum",
       "titleZh": "逐步形成推動後續的勢頭",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bbuild(?:s|ing)? momentum\\b|\\bbuilt momentum\\b",
+        "pattern": "(?:\\bbuild(?:s|ing)? momentum\\b|\\bbuilt momentum\\b)|(?:\\b(?:gather|gathers|gathered|gathering) (?:real )?momentum\\b)",
         "glossaryForbidden": [
           "\\bmomentum\\b"
         ]
@@ -2440,12 +2440,26 @@
           "sentence": "Completing one small task is a way of building momentum.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "building momentum"
+        },
+        {
+          "occurrenceId": "book10-16-2190",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 206,
+          "book": 16,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 225, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Joint projects can gather real momentum.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gather real momentum"
         }
       ],
       "brief": {
         "meaningEn": "Develop progress or participation that helps further progress become easier or more likely.",
         "meaningZh": "累積進展或參與，讓之後的進展更容易繼續。",
-        "grammar": "build/building/built momentum; a first gain can help the next action. Figurative momentum is not a measured physical speed and need not continue without interruption.",
+        "grammar": "build momentum / gather momentum; both describe progress that makes further progress more likely. Real intensifies the degree but is optional.",
         "register": "Conventional motion metaphor, also a natural collocation. Identify the actual sequence linking early and later action.",
         "boundaryZh": "忙碌或速度快，不一定表示正朝目標前進；勢頭不保證完成，休息也不自動等於前功盡棄。",
         "misconceptionZh": "需要說明小進展如何支持後續，而不只是列出很多不相關工作。",
@@ -2654,8 +2668,8 @@
           "zh": "完成第一幅畫板，讓畫師可以具體示範下一項工作，幫助他們累積勢頭。"
         },
         {
-          "en": "The archive team built momentum when one identified photograph led neighbours to bring related letters.",
-          "zh": "一張已認出的照片，促使鄰居帶來相關信件，檔案小組因而累積推進的勢頭。"
+          "en": "The repair campaign gathered real momentum once three local groups offered volunteers.",
+          "zh": "三個本地團體提供義工後，維修倡議真正開始有勢頭。"
         }
       ],
       "review": {
@@ -2682,9 +2696,9 @@
       "titleEn": "throws a few curveballs",
       "titleZh": "帶來意料外的難題",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:throw(?:s|n|ing)?|threw)(?: (?:me|you|him|her|us|them|the panel))? (?:a|a few|two|some) curveballs?\\b",
+        "pattern": "(?:\\b(?:throw(?:s|n|ing)?|threw)(?: (?:me|you|him|her|us|them|the panel))? (?:a|a few|two|some) curveballs?\\b)|(?:\\b(?:throw(?:s|n|ing)?|threw) curveballs(?: at (?:me|you|him|her|us|them))?\\b)|(?:\\b(?:throw(?:s|n|ing)?|threw) (?:me|you|him|her|us|them) an unexpected curveball\\b)",
         "glossaryForbidden": [
           "\\bcurveballs?\\b"
         ]
@@ -2715,12 +2729,26 @@
           "sentence": "Life sometimes throws a curveball despite careful plans.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "throws a curveball"
+        },
+        {
+          "occurrenceId": "book10-16-1203",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 112,
+          "book": 12,
+          "question": 46,
+          "sample": "S1",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 116, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The project kept throwing curveballs at us.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throwing curveballs"
         }
       ],
       "brief": {
         "meaningEn": "Present unexpected difficulties or challenges that complicate an intended course.",
         "meaningZh": "帶來意料外的困難或挑戰，讓原來的打算變得更複雜。",
-        "grammar": "throw someone a curveball; life throws a few curveballs; threw/thrown/throwing; singular/plural depends on the events. The baseball image can describe an unexpected question as well as a practical setback.",
+        "grammar": "throw a few curveballs / throw curveballs at someone; throw, throws, throwing, threw and thrown can frame unexpected complications, not literal baseball pitches. An unexpected curveball may name one unforeseen complication.",
         "register": "Common informal baseball idiom, not a literal sports action in these examples.",
         "boundaryZh": "意外難題不表示整個計劃失敗，也未說每項困難都事先無法預知；需按實際預期說明。",
         "misconceptionZh": "不能把已列明、已準備的普通工作一概叫作意外，也不能從意外推斷有人刻意搗亂。",
@@ -2790,8 +2818,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "The demonstration is a known challenge, not by itself an unexpected curveball the workshop has thrown them.",
-            "zh": "示範是已知的挑戰，本身不算工作坊突然帶來的意外難題。"
+            "en": "The demonstration is a known challenge; it doesn't throw them an unexpected curveball because it was announced beforehand.",
+            "zh": "示範是已知的挑戰；它早已公布，不算突然給他們帶來意外難題。"
           },
           {
             "id": "choice-2",
@@ -2929,8 +2957,8 @@
           "zh": "意料外的問題令小組措手不及，他們請求一點時間核對數字。"
         },
         {
-          "en": "The missing translation threw us a curveball, but we agreed which sections could wait while we contacted the translator.",
-          "zh": "遺漏的翻譯帶來意外難題，但聯絡譯者時，我們先議定哪些部分可以等。"
+          "en": "Each permit review threw curveballs at us, so we scheduled extra time for revisions.",
+          "zh": "每次許可證審核都帶來意外難題，因此我們預留更多時間修改。"
         }
       ],
       "review": {
@@ -5674,9 +5702,9 @@
       "titleEn": "all talk and no follow-through",
       "titleZh": "只說不做，欠缺落實",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ball talk and no follow-through\\b",
+        "pattern": "(?:\\ball talk and no follow-through\\b)|(?:\\bno follow-through\\b)",
         "glossaryForbidden": [
           "\\ball talk\\b",
           "\\bfollow-through\\b"
@@ -5695,12 +5723,26 @@
           "sentence": "His plan was all talk and no follow-through.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "all talk and no follow-through"
+        },
+        {
+          "occurrenceId": "book10-16-1181",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 110,
+          "book": 12,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An apology with no follow-through feels weak.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "no follow-through"
         }
       ],
       "brief": {
         "meaningEn": "Full of stated intentions or promises without the practical completion or continued action needed to carry them out.",
         "meaningZh": "有許多意圖或承諾，卻欠缺落實所需的完成或持續行動。",
-        "grammar": "a plan/person is all talk and no follow-through; follow-through is a hyphenated noun here, related to follow through on a promise. Describe the relevant commitments rather than make a permanent judgement of the whole person.",
+        "grammar": "all talk and no follow-through / an apology with no follow-through; the noun means promised action was not carried through. No marks its absence.",
         "register": "Conventional informal spoken contrast, often critical. Check actual action before using all; a delayed part does not automatically make a partly delivered plan mere talk.",
         "boundaryZh": "需要有承諾及未跟進的資料；完成部分後尚待一項，不一定是只說不做，也不能只從失敗推斷從沒付出。",
         "misconceptionZh": "批評應針對具體承諾，不能用一句標籤，代替詢問障礙或否定整個人。",
@@ -5909,8 +5951,8 @@
           "zh": "有人答應查問哪些部分可以修補之前，修補提案一直只說不做。"
         },
         {
-          "en": "She asked whether the promised visit was all talk and no follow-through after three agreed dates passed without an update.",
-          "zh": "三次議定日期都過了，仍沒有更新，她問答應的探訪是否只說不做。"
+          "en": "A pledge with no follow-through will not repair the damaged equipment.",
+          "zh": "只有承諾卻沒有後續行動，並不能修好損壞的設備。"
         }
       ],
       "review": {

@@ -1,0 +1,48 @@
+{
+  "auditKind": "author-two-shoulder-burden-held-to-existing-aliases",
+  "createdUtc": "2026-10-23T17:32:22.462580+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2436,
+      "sourceId": "book10-16-0325",
+      "sourceExpression": "take a lot of that weight off people's shoulders",
+      "sourceExample": "The extra staff take a lot of that weight off people's shoulders.",
+      "sourceMeaning": "Reduce a major burden on people; a fixed weight metaphor.",
+      "canonicalOwner": "advanced-native-801",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "canonicalBatchSha256": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c",
+      "contentRevision": 4,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "063d23756c6facff75a2ba7a4aecb10d9bf6144b825f754b77b063a7a927ede3",
+      "fullSourceDetectorMatch": true,
+      "sourceProvenanceExact": true,
+      "decisionReason": "The source “extra staff take a lot of that weight off people’s shoulders” expresses the same partial relief of worry or responsibility as canonical 801; that weight is an anaphoric variant of its burden metaphor, not a distinct idiom sense. The owner now teaches the variant, records the exact source and retains bounded target coverage."
+    },
+    {
+      "sourceOrdinal": 2590,
+      "sourceId": "book10-16-0479",
+      "sourceExpression": "take a lot of pressure off your shoulders",
+      "sourceExample": "An emergency fund can take a lot of pressure off your shoulders.",
+      "sourceMeaning": "Reduce a heavy personal burden; a conventional weight metaphor.",
+      "canonicalOwner": "advanced-native-801",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "canonicalBatchSha256": "e415aca3922e9b6279eeeaab6d88c08bca95b45c6f4cc4e4d1307a96bce5041c",
+      "contentRevision": 4,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "798284460262924fe444b753f9f12ecce9c6277c5b48da5c7823cb2dcc152450",
+      "fullSourceDetectorMatch": true,
+      "sourceProvenanceExact": true,
+      "decisionReason": "The source “an emergency fund can take a lot of pressure off your shoulders” uses pressure in the same shoulder-burden relief metaphor as canonical 801’s weight, with the same implication of partial relief rather than all responsibilities disappearing. The owner now teaches the pressure variant, records the source and covers the full sentence."
+    }
+  ],
+  "ownerDistinction": "Both source forms reduce an established mental or practical burden without implying every responsibility has vanished. That weight and pressure are grammatical noun variants inside the same conventional shoulder image, not separate teaching outcomes.",
+  "detectorPrecision": "Both full source sentences and the two new answer-bearing takeaways match; plural teachers’ and volunteers’ possessives work; unrelated shoe/physical-box controls do not match.",
+  "focusedBuildCheck": "PASS: canonical 801 batch 21 lessons/126 questions/84 audio requests; combined 579/1875/801 focused check 65/390/260; zero flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new drafts matched; zero exceptions",
+  "fullVerifier": "PASS after disjoint Pilot dialogue repair: 2604 rows, 0 source gaps, schema errors, selected alias detector exceptions, exact guide copies, near-duplicate flags",
+  "independentReview": "B initial owner/sense/detector review passed; pending exact-hash follow-up of Chinese repair",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false,
+  "chineseRepair": "Listening explanation now uses natural Traditional Chinese 但 instead of stray English though; no question key changed."
+}

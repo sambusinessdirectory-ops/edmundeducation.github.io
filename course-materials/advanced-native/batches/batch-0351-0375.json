@@ -7,7 +7,7 @@
     "titleZh": "價格高得令人負擔不起",
     "category": "figurative",
     "target": {
-      "pattern": "\\bpric(?:e|es|ed|ing) (?:train travel |the tickets |the classes |them |it )?out of (?:people[’']s|our|their|my|many families[’']) reach\\b",
+      "pattern": "(?:\\bpric(?:e|es|ed|ing) (?:train travel |the tickets |the classes |them |it )?out of (?:people[’']s|our|their|my|many families[’']) reach\\b)|(?:\\bpriced out of higher education\\b)",
       "glossaryForbidden": [
         "\\bout of\\b",
         "\\breach\\b"
@@ -16,7 +16,7 @@
     "brief": {
       "meaningEn": "Make an activity or product unaffordable for the people concerned by setting or raising its price.",
       "meaningZh": "因定價或加價，令有關人士負擔不起活動或產品。",
-      "grammar": "be priced out of people’s reach; price something out of our/their reach. Reach is financial access here.",
+      "grammar": "be priced out of an activity or institution, including higher education, when costs prevent access; also price classes or tickets out of someone’s reach.",
       "register": "Contextual combination of price and the conventional out-of-reach metaphor; do not present the whole supplied wording as a separate dictionary idiom.",
       "boundaryZh": "是價格造成負擔障礙，不等於物理距離遠、不感興趣或所有人都買不起。",
       "misconceptionZh": "要指明受影響人士與負擔情況，不能只憑價格上升就判所有人無法參與。",
@@ -35,6 +35,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 10, table 1, row 10",
         "occurrenceId": "pdf-2-p010-t1-r10"
+      },
+      {
+        "occurrenceId": "book10-16-1469",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 137,
+        "book": 14,
+        "question": 1,
+        "sample": "S2",
+        "sourceBookPages": "3–4",
+        "locatorNote": "DOCX table 145, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "No qualified student should be priced out of higher education.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "priced out of higher education"
       }
     ],
     "listening": {
@@ -143,8 +157,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Record the cost barrier separately from a lack of interest before reviewing access.",
-          "zh": "檢視參與機會前，把費用障礙與沒興趣分開記錄。"
+          "en": "The fee may have priced the classes out of their reach; record that cost barrier separately from a lack of interest.",
+          "zh": "費用可能令這些課程超出他們的負擔能力；應把這項費用障礙與沒興趣分開記錄。"
         },
         {
           "id": "b",
@@ -236,8 +250,8 @@
         "zh": "新收費令課程變得許多家庭負擔不起。"
       },
       {
-        "en": "The tickets were priced out of our reach, so we followed the free public recording instead.",
-        "zh": "票價高得我們負擔不起，所以改看免費公開錄影。"
+        "en": "Rising tuition can leave capable applicants priced out of higher education.",
+        "zh": "學費上漲可能令有能力的申請者負擔不起高等教育。"
       }
     ],
     "review": {
@@ -264,7 +278,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-352",
@@ -4744,24 +4758,25 @@
     "id": "advanced-native-367",
     "number": 367,
     "inventoryId": "expr-0367",
-    "titleEn": "take in written information",
-    "titleZh": "讀懂並吸收文字資訊",
+    "titleEn": "take in information / take things in",
+    "titleZh": "吸收並理解資訊",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\b(?:take|takes|taking|took|taken) in (?:(?:the )?written information|the written instructions|the instructions|the text|the key points)\\b|\\b(?:take|takes|taking|took|taken) it in\\b",
+      "pattern": "\\b(?:take|takes|taking|took|taken) in (?:(?:the )?written information|the written instructions|the instructions|the text|the key points)\\b|\\b(?:take|takes|taking|took|taken) it in\\b|\\b(?:take|takes|taking|took|taken) things in\\b",
       "glossaryForbidden": [
         "\\b(?:take|takes|taking|took|taken) in\\b",
-        "\\bwritten information\\b"
+        "\\bwritten information\\b",
+        "\\b(?:take|takes|taking|took|taken) things in\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Understand and mentally absorb information that is read.",
-      "meaningZh": "理解並在腦中吸收讀到的資訊。",
-      "grammar": "take in + information/text; take it in with pronoun between verb and particle; took/taken. Textual-comprehension sense here.",
-      "register": "Common phrasal verb; this lesson focuses on understanding and retaining a written message, rather than noticing or experiencing new sights.",
-      "boundaryZh": "不只眼睛看過、開過頁或抄下文字；能讀懂也不保證永遠記得或資料一定正確。",
-      "misconceptionZh": "要用重述、解釋或能照指示做等資料判斷吸收，不能只看頁面開了多久。",
-      "outcomeZh": "能分清看見文字與理解其意，說明需要重讀或核對的地方。"
+      "meaningEn": "Understand and mentally absorb information that is read, heard or explained.",
+      "meaningZh": "理解並在腦中吸收讀到、聽到或別人解釋的資訊。",
+      "grammar": "take in written information/the instructions/the key points; take it in or take things in with the object before in; took/taken in the past. Things can refer to information just explained, not only printed text.",
+      "register": "Common neutral phrasal verb. A tutor may let pupils pause after an explanation to take things in; written instructions can require the same kind of mental absorption. This lesson is about understanding information, not taking in scenery.",
+      "boundaryZh": "聽過講解、眼睛看過文字或抄下內容，都不一定表示已理解；能理解也不保證永遠記得或資料一定正確。",
+      "misconceptionZh": "可透過重述、解釋或照指示行動，核對是否吸收了口頭或書面內容；不能只看是否點頭或頁面開了多久。",
+      "outcomeZh": "能分清接觸資訊與理解其意，並說明需要重聽、重讀或核對的地方。"
     },
     "sources": [
       {
@@ -4776,6 +4791,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 12, table 2, row 4",
         "occurrenceId": "pdf-2-p012-t2-r04"
+      },
+      {
+        "occurrenceId": "book10-16-2025",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 191,
+        "book": 15,
+        "question": 29,
+        "sample": "S1",
+        "sourceBookPages": "68–69",
+        "locatorNote": "DOCX table 207, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Quiet time helps students with taking things in.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "taking things in"
       }
     ],
     "listening": {
@@ -4808,32 +4837,32 @@
       "explanationZh": "重述次序是理解線索，重讀本身不保證來源正確。"
     },
     "reply": {
-      "promptZh": "你怎樣確認自己不只看過，而是理解了指示？",
-      "promptEn": "How did you check that you understood the instructions rather than only saw them?",
+      "promptEn": "A tutor explained a three-step water test aloud. After a pause, the learners restated each step and corrected one mistake. How can a learner describe checking understanding?",
+      "promptZh": "導師口頭講解三步驟水質測試。稍停後，學員重述每一步，並改正一處錯誤。學員可怎樣描述核對理解的方法？",
       "options": [
         {
           "id": "a",
-          "en": "I explained the steps in my own words.",
-          "zh": "我用自己的話解釋步驟。"
+          "en": "I restated each step instead of only nodding.",
+          "zh": "我重述每一步，而不只是點頭。"
         },
         {
           "id": "b",
-          "en": "I tried to take in the written information and then checked my understanding by explaining the sequence.",
-          "zh": "我嘗試吸收文字資訊，再藉解釋次序查理解。"
+          "en": "I took things in, then checked my version against the corrected steps.",
+          "zh": "我先吸收內容，再把自己的說法與更正後的步驟核對。"
         },
         {
           "id": "c",
-          "en": "I read again and compared my explanation with the instructions.",
-          "zh": "我重讀，再把自己的解釋與指示比較。"
+          "en": "I found and corrected the mistake before starting the test.",
+          "zh": "我在開始測試前找到並改正錯誤。"
         },
         {
           "id": "d",
-          "en": "I checked whether I could describe what to do first and next.",
-          "zh": "我查自己能否描述先做及再做甚麼。"
+          "en": "After the pause, I could explain the order back.",
+          "zh": "稍停後，我能把次序解釋出來。"
         }
       ],
-      "explanationZh": "四句都有理解核對，不只報頁面開着或眼睛看過。",
-      "goldenId": "b"
+      "goldenId": "b",
+      "explanationZh": "四句都描述具體理解核對；金句用 take things in 表達吸收剛聽到的資訊。"
     },
     "scene": {
       "promptZh": "同伴看完一段路線說明後，能解釋哪裏轉車、哪些站不停，並核對原文。哪句合適？",
@@ -4858,7 +4887,7 @@
       "explanationZh": "能解釋及核對提供理解資料，不外推網站全部可靠。"
     },
     "contrast": {
-      "promptZh": "哪項最不足以顯示已 take in written information？",
+      "promptZh": "哪項最不足以顯示已 take in information？",
       "options": [
         {
           "id": "a",
@@ -4867,60 +4896,61 @@
         },
         {
           "id": "b",
-          "en": "Leaving a page open while attention is elsewhere, without reading it.",
-          "zh": "注意別處，頁開着卻未讀。"
+          "en": "Nodding through an explanation while attention is elsewhere, then being unable to restate its first step.",
+          "zh": "講解時心不在焉地點頭，之後連第一步也無法重述。"
         },
         {
           "id": "c",
-          "en": "Restating the conditions after reading and checking them.",
-          "zh": "讀後核對並重述條件。"
+          "en": "Restating the conditions after hearing them and checking them with the speaker.",
+          "zh": "聽過條件後重述，再向講者核對。"
         }
       ],
       "answerId": "b",
-      "explanationZh": "頁開着不是理解證據。"
+      "explanationZh": "只聽過或點頭不是理解證據；準確重述提供較直接的線索。"
     },
     "dialogue": {
-      "promptZh": "同伴以為下載了指示就算懂得操作，但不能說明首步。哪句建議最好？",
+      "promptEn": "A: The fire marshal just explained the new exit order. I missed the second step. B: ______",
+      "promptZh": "甲：消防主管剛解釋新的出口次序，我漏聽了第二步。乙：______",
       "options": [
         {
           "id": "a",
-          "en": "Count the download as proof of understanding without reading.",
-          "zh": "未讀就把下載當理解證據。"
+          "en": "We can begin now and clarify the missing step afterward.",
+          "zh": "我們可以現在開始，之後才弄清漏聽的步驟。"
         },
         {
           "id": "b",
-          "en": "Read the relevant steps and check you can explain them before beginning the task.",
-          "zh": "開始前，讀相關步驟並查能否解釋。"
+          "en": "Let us ask the marshal to repeat the missed step, then pause so you can take things in and repeat the order.",
+          "zh": "我們請消防主管重講漏聽的一步，再稍停讓你吸收內容，然後重述次序。"
         },
         {
           "id": "c",
-          "en": "Use file size as the measure of how much information you have understood.",
-          "zh": "用檔案大小量度已理解多少。"
+          "en": "A printed copy proves you already understood the order.",
+          "zh": "有印本便證明你已理解次序。"
         }
       ],
       "answerId": "b",
-      "explanationZh": "取得檔案與理解不同，需讀及核對內容。"
+      "explanationZh": "漏聽緊急程序時，先補聽缺少的一步，再理解並重述才安全。"
     },
     "speaking": {
-      "en": "I need time to take in the written instructions and check that I understand the order.",
-      "zh": "我需時間吸收文字指示，並核對是否理解次序。",
-      "promptZh": "先聽，再把讀取資訊與理解核對連起來。",
+      "en": "After the trainer explained the new access rules, we paused to take things in and then explained the steps back.",
+      "zh": "導師解釋新的進出規則後，我們稍停吸收內容，再把步驟解釋出來。",
+      "promptZh": "說明口頭資訊如何經過稍停和重述而被理解。",
       "targetSpan": {
-        "start": 15,
-        "end": 47
+        "start": 63,
+        "end": 77
       }
     },
     "writing": {
-      "promptZh": "新情境：你讀一篇短篇評論，起初只認得句子，重讀後才可說明作者主張與支持理由；仍不代表你同意。用一至兩句英文描述吸收與判斷的區別。",
-      "selfCheckZh": "用能重述主張與理由支持理解，並保留是否同意及證據可質疑；不把理解當完全認同。",
+      "promptZh": "新情境：一例讀短篇評論，一例聽口頭簡報；分別寫出理解資訊的可見證據，並保留是否同意或需要核對的地方。",
+      "selfCheckZh": "兩例須分別展示書面及口頭資訊的吸收，不把看過、聽過或點頭當作理解，也不把理解當完全認同或資料必然準確。",
       "examples": [
         {
           "en": "I reread the article to take in the text and explain the argument in my own words. Understanding the writer’s reasons does not mean agreeing with them.",
           "zh": "我重讀文章，吸收文字並用自己的話解釋論點。理解作者理由不表示同意。"
         },
         {
-          "en": "After taking in the key points, I could distinguish the main claim from its support, although I still had questions about the evidence.",
-          "zh": "吸收重點後，我能分清主要主張與支持理由，但對證據仍有疑問。"
+          "en": "After taking things in during the oral budget briefing, I could explain the two grant conditions, although I still checked the written rules for exact amounts.",
+          "zh": "在口頭預算簡報中吸收內容後，我能解釋兩項撥款條件；但仍核對書面規則中的確實金額。"
         }
       ],
       "glossary": [
@@ -4952,21 +4982,30 @@
           }
         },
         {
-          "en": "the main claim",
-          "zh": "主要主張",
+          "en": "the oral budget briefing",
+          "zh": "口頭預算簡報",
           "exampleIndex": 1,
           "span": {
-            "start": 52,
-            "end": 66
+            "start": 30,
+            "end": 54
           }
         },
         {
-          "en": "questions about the evidence",
-          "zh": "對證據的疑問",
+          "en": "the two grant conditions",
+          "zh": "兩項撥款條件",
           "exampleIndex": 1,
           "span": {
-            "start": 106,
-            "end": 134
+            "start": 72,
+            "end": 96
+          }
+        },
+        {
+          "en": "the written rules",
+          "zh": "書面規則",
+          "exampleIndex": 1,
+          "span": {
+            "start": 123,
+            "end": 140
           }
         }
       ]
@@ -4977,8 +5016,8 @@
         "zh": "她吸收指示，再在碰材料前解釋次序。"
       },
       {
-        "en": "I needed a second reading to take in the text before discussing its argument.",
-        "zh": "討論論點前，我需再讀一次才能吸收文字。"
+        "en": "After the spoken briefing, they took things in and explained the key condition back.",
+        "zh": "聽過口頭簡報後，他們吸收內容，再把關鍵條件解釋出來。"
       }
     ],
     "review": {
@@ -5004,10 +5043,11 @@
         "evidence": ""
       },
       "notes": [
-        "Root-approved separate sense from339 sensory noticing/experiencing. Oxford take-in sense6 understand and remember something heard/read: https://www.oxfordlearnersdictionaries.com/definition/english/take-in. Target includes reviewed inflected text objects; pronoun take it in is grammatical support, not used as a keyed/audio target here."
+        "Root-approved separate sense from339 sensory noticing/experiencing. Oxford take-in sense6 understand and remember something heard/read: https://www.oxfordlearnersdictionaries.com/definition/english/take-in. Target includes reviewed inflected text objects; pronoun take it in is grammatical support, not used as a keyed/audio target here.",
+        "Books 10–16 source 4136 is merged as a same-sense information-uptake variant, not a new owner. The revised lesson retains written comprehension and assesses spoken comprehension; canonical 339 remains sensory noticing."
       ]
     },
-    "contentRevision": 2
+    "contentRevision": 4
   },
   {
     "id": "advanced-native-368",

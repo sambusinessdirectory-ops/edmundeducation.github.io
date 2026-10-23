@@ -6,12 +6,12 @@
       "id": "advanced-native-1376",
       "number": 1376,
       "inventoryId": "expr-1376",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "take the heavy lifting off people's shoulders",
       "titleZh": "替人分擔最吃力的部分",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:take|takes|taking|took|taken) the heavy lifting off (?:people[’\\x27]s|our|their|his|her|my|your) shoulders\\b",
+        "pattern": "\\b(?:take|takes|taking|took|taken) the heavy lifting off (?:people[’\\x27]s|our|their|his|her|my|your) shoulders\\b|\\b(?:take|takes|taking|took|taken) the heavy lifting out of\\b",
         "glossaryForbidden": [
           "\\bheavy lifting\\b",
           "\\bshoulders\\b"
@@ -20,8 +20,8 @@
       "brief": {
         "meaningEn": "Remove the most demanding part of a task from people, using a combined work-and-burden image.",
         "meaningZh": "用吃力工作及肩上負擔的意象，描述替人移除任務中最費力的部分。",
-        "grammar": "take the heavy lifting off someone’s shoulders; took/taken. Identify which work is removed and which responsibilities remain. Heavy lifting can be physical or figurative; off marks relief from that work.",
-        "register": "A productive combination of heavy lifting and a burden off someone’s shoulders, not a claim that the entire expanded wording is a separately fixed dictionary idiom.",
+        "grammar": "take the heavy lifting off someone’s shoulders OR take the heavy lifting out of + task; took/taken. The first names relieved people, while the second names the task made easier. Identify which work is removed and which responsibilities remain.",
+        "register": "A colleague describing a tool or helper to teammates can use this neutral work-and-burden metaphor. The two constructions share the same practical relief; neither promises an entirely automatic task.",
         "boundaryZh": "最吃力的部分減少，不等於整項工作已不用人參與；要交代實際移走的任務及仍需有人作的判斷。",
         "misconceptionZh": "有人分擔與工作變得毫不費力不同，也不能由一句可能性的描述就宣稱已完成替代。",
         "outcomeZh": "能具體說明哪部分負擔減輕，同時保留人仍要承擔的責任。"
@@ -40,6 +40,20 @@
           "sentence": "Robots can take the heavy lifting off people's shoulders.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page156, table2, row3."
+        },
+        {
+          "occurrenceId": "book10-16-0312",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new system will take the heavy lifting out of routine checks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the heavy lifting out of"
         }
       ],
       "listening": {
@@ -245,8 +259,8 @@
           "zh": "一位義工先整理申請，讓我再讀個別陳述，替我分擔了最費力的部分。"
         },
         {
-          "en": "The search index takes the heavy lifting off their shoulders, while the researchers still judge which sources answer the question.",
-          "zh": "搜尋索引替研究者分擔最費力的部分，但哪些資料能回答問題，仍由研究者判斷。"
+          "en": "A simple booking form takes the heavy lifting out of collecting requests, but a coordinator still resolves clashes.",
+          "zh": "簡單的預約表格減輕收集申請時最吃力的部分，但時段衝突仍由統籌人處理。"
         }
       ],
       "review": {
@@ -4862,12 +4876,12 @@
       "id": "advanced-native-1398",
       "number": 1398,
       "inventoryId": "expr-1398",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "titleEn": "take someone or something for granted",
       "titleZh": "把人或事物視為理所當然而少有珍惜",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:take|takes|taking|took|taken)(?: (?:him|her|them|it|you|me|the volunteers|their help|the help|the map))? for granted\\b",
+        "pattern": "\\b(?:take|takes|taking|took|taken)(?: (?:him|her|them|it|you|me|the volunteers|their help|the help|the map|today[’\\']s comfort))? for granted\\b",
         "glossaryForbidden": [
           "\\bfor granted\\b"
         ]
@@ -4875,8 +4889,8 @@
       "brief": {
         "meaningEn": "Fail to appreciate a person, contribution or benefit because it is familiar or assumed to be available.",
         "meaningZh": "因人、貢獻或好處太熟悉，或以為隨時可得，而沒有好好重視及感謝。",
-        "grammar": "take someone/something for granted; take for granted + a longer noun phrase; be taken for granted. Took/taken/taking. The appreciation sense here applies to people and things; a separate assume-true sense occurs in take it for granted that....",
-        "register": "Established idiom, often critical of unexamined expectations. A thank-you can recognise value without assuming the person has agreed to future work.",
+        "grammar": "take someone/something for granted, including a familiar benefit such as today’s comfort; take for granted + a longer noun phrase; be taken for granted. Took/taken/taking. Distinguish appreciation from the separate assume-true sense in take it for granted that....",
+        "register": "Established idiom, often critical of unexamined expectations. A parent may remind a teenager not to take today’s comfort for granted while recognising the work behind it; gratitude does not assume future help.",
         "boundaryZh": "少有重視與作出錯誤事實推論不同；應按上下文分清「不珍惜」和「未經查證便假定」兩種用法。",
         "misconceptionZh": "既有幫忙不等於永久承諾；肯定具體貢獻，也可詢問今後的範圍，而不只說一次謝謝。",
         "outcomeZh": "能具體承認被忽略的價值，並避免把感謝變成對未來的要求。"
@@ -4965,6 +4979,20 @@
           "sentence": "It is easy to take for granted the safety of clean water.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page 208, table 1, row 9."
+        },
+        {
+          "occurrenceId": "book10-16-0424",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 39,
+          "book": 10,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "85–86",
+          "locatorNote": "DOCX table 35, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should not take today's comfort for granted.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take today's comfort for granted"
         }
       ],
       "listening": {
@@ -5031,8 +5059,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "Here it means assuming something is true; that is different from failing to appreciate a person’s help.",
-            "zh": "這裏指假定一件事屬實，與沒有珍惜別人的幫助不同。"
+            "en": "Here “takes it for granted that the room will be open” means assuming something is true, not failing to appreciate a person’s help.",
+            "zh": "這裏的「理所當然地以為房間會開放」是指未核實便假定屬實，不是沒有珍惜別人的幫忙。"
           },
           {
             "id": "choice-2",

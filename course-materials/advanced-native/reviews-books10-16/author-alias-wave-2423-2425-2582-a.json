@@ -1,0 +1,70 @@
+{
+  "auditKind": "author-three-held-source-frame-aliases",
+  "createdUtc": "2026-10-23T17:53:17.107470+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2423,
+      "sourceId": "book10-16-0312",
+      "sourceExpression": "take the heavy lifting out of",
+      "sourceExample": "The new system will take the heavy lifting out of routine checks.",
+      "sourceMeaning": "Remove the most difficult work from a task; a fixed effort metaphor.",
+      "canonicalOwner": "advanced-native-1376",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1376-1400.json",
+      "canonicalBatchSha256": "6babd0f7a9b9fda4879090593330a79957ec16eb78be51a565665634618a7940",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Out-of + task and off + person forms both remove the most demanding work; grammar distinguishes task focus from relieved-person focus."
+    },
+    {
+      "sourceOrdinal": 2425,
+      "sourceId": "book10-16-0314",
+      "sourceExpression": "cut down the time",
+      "sourceExample": "The shortcut helped cut down the time needed for review.",
+      "sourceMeaning": "Reduce the amount of time required; a natural phrasal verb.",
+      "canonicalOwner": "advanced-native-1111",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "canonicalBatchSha256": "015fcac2fc27b02630ee391709716441f35224f7d86968c07a37ae7c99941f82",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Direct-object cut down the time and cut down on + resource both express reduction, while requiring distinct grammatical frames."
+    },
+    {
+      "sourceOrdinal": 2582,
+      "sourceId": "book10-16-0471",
+      "sourceExpression": "well-grounded",
+      "sourceExample": "She is a well-grounded teenager who handles online pressure calmly.",
+      "sourceMeaning": "Sensible and emotionally stable; a conventional physical-ground image.",
+      "canonicalOwner": "advanced-native-798",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "canonicalBatchSha256": "37e091e9e7fed632263a2b7ede11aadccc2880aaee2ad7c873dba362e4f89b25",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "9ea0fdcc3b3eaa5357ca5faef50ce6ad63d7581272d20d6635781722d9ec83f0",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Well-grounded teenager describes the same personal steadiness as grounded/more grounded, now taught as an attributive compound before a person noun."
+    }
+  ],
+  "reviewNotes": [
+    "1376 out-of form teaches removal of effort from a task alongside original off-shoulders relief, with a new booking-form transfer.",
+    "1111 transitive cut down the time is not conflated with cut down on + noun; the source is covered and new checklist briefing transfer retains essential safety reading.",
+    "798 well-grounded is limited by the added detector branch to person nouns; the inherited generic be/feel grounded branch remains context-sensitive and can also match literal aircraft contexts, which the brief explicitly distinguishes. The new takeaway uses a volunteer receiving criticism, distinct from the source teenager/phone-pressure scene.",
+    "All source provenance is exact; no claim of human or release approval."
+  ],
+  "focusedBuildCheck": "PASS: three canonical batches, 64 lessons, 384 questions, 256 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows, zero gaps, schema errors, selected alias detector exceptions, exact guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

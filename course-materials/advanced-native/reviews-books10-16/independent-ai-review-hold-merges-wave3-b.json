@@ -1,0 +1,340 @@
+{
+  "reviewType": "independent-ai-exact-row-risk-review-wave3",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave3-review-pilot.json",
+  "authorAuditSha256": "c1d65bfd02bb863502a26a97b1278b42302d7a37fb6678c0afd63485a9edf7d2",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "18-held-to-existing-alias-rows-content-clear",
+  "scope": "18 exact source rows, 15 canonical lessons in 13 batch files; no canonical, decision, manifest or release files edited by reviewer.",
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2895,
+      "sourceId": "book10-16-0784",
+      "canonicalId": "advanced-native-711",
+      "currentDecisionRowSha256": "fe758e99a29fe4b9a72d52a4928fc656f4d7cc6828a7ccf0109fa6a69b83f991",
+      "sourceSentence": "Parenting need not follow a rigid script."
+    },
+    {
+      "sourceOrdinal": 2941,
+      "sourceId": "book10-16-0830",
+      "canonicalId": "advanced-native-156",
+      "currentDecisionRowSha256": "7257f4da04fb2b653173fa7b66f1901542d73af7674bf63dd9dff00d679b7386",
+      "sourceSentence": "The host must strike the right balance between planning and spontaneity."
+    },
+    {
+      "sourceOrdinal": 3103,
+      "sourceId": "book10-16-0992",
+      "canonicalId": "advanced-native-801",
+      "currentDecisionRowSha256": "7ab0707caeaa51cc47c4ee83c6ec3f3e7209c2beb3356ff1ca230eb8d8db1ddd",
+      "sourceSentence": "A sympathetic call can take a bit of weight off their shoulders."
+    },
+    {
+      "sourceOrdinal": 3436,
+      "sourceId": "book10-16-1325",
+      "canonicalId": "advanced-native-801",
+      "currentDecisionRowSha256": "1b56ff200e94e9d21521462097501c7240c2ad2447aa202bc7ae5674390b0fc9",
+      "sourceSentence": "A prepared meal lifts that weight off their shoulders."
+    },
+    {
+      "sourceOrdinal": 3713,
+      "sourceId": "book10-16-1602",
+      "canonicalId": "advanced-native-801",
+      "currentDecisionRowSha256": "35deb74454ff9fa04a8a4983e2f1575582f92f3edf9eabd76e2b5d2d1a0f2400",
+      "sourceSentence": "The service can take a real burden off people's shoulders."
+    },
+    {
+      "sourceOrdinal": 4271,
+      "sourceId": "book10-16-2160",
+      "canonicalId": "advanced-native-801",
+      "currentDecisionRowSha256": "13e6a5a34d95db70a74712a19db83ca2b8ad81ef3813b72e71487e3baa910f42",
+      "sourceSentence": "Automated marking can take a lot of weight off teachers' shoulders."
+    },
+    {
+      "sourceOrdinal": 3262,
+      "sourceId": "book10-16-1151",
+      "canonicalId": "advanced-native-1129",
+      "currentDecisionRowSha256": "2321edee24d4d039cbe8698d35eb23ef14823cfec70b9da07082a18702f2cc25",
+      "sourceSentence": "One encouraging comment can light a fire under a student."
+    },
+    {
+      "sourceOrdinal": 3314,
+      "sourceId": "book10-16-1203",
+      "canonicalId": "advanced-native-1162",
+      "currentDecisionRowSha256": "cf4b65b8508658cc157474222e2c58254f9236694b7a42a7a87703cee0849846",
+      "sourceSentence": "The project kept throwing curveballs at us."
+    },
+    {
+      "sourceOrdinal": 3353,
+      "sourceId": "book10-16-1242",
+      "canonicalId": "advanced-native-504",
+      "currentDecisionRowSha256": "35b6a0f43119beb40e9fe257137bdf45a62fbf82f4cc3320222ae31311d8c892",
+      "sourceSentence": "Adaptability matters when the ground shifts under your feet."
+    },
+    {
+      "sourceOrdinal": 3404,
+      "sourceId": "book10-16-1293",
+      "canonicalId": "advanced-native-1869",
+      "currentDecisionRowSha256": "4df959a3029349093d7d20e6eb9603bd2309b14828250e67ee5071ab5f714186",
+      "sourceSentence": "A supplier should not put all its eggs in one basket."
+    },
+    {
+      "sourceOrdinal": 3423,
+      "sourceId": "book10-16-1312",
+      "canonicalId": "advanced-native-1861",
+      "currentDecisionRowSha256": "5de3ecf0045e1d551fb35c7a32ee0a1a01a132aee3ec38ea0d96b84c5bafc269",
+      "sourceSentence": "A policy should not pull the rug out from under local people."
+    },
+    {
+      "sourceOrdinal": 3466,
+      "sourceId": "book10-16-1355",
+      "canonicalId": "advanced-native-1806",
+      "currentDecisionRowSha256": "ba343036cb490c65dfb2e84c370b02112f23b5da0d2535419b98a9d664263fe3",
+      "sourceSentence": "A walk at lunchtime can be a small reset button."
+    },
+    {
+      "sourceOrdinal": 3596,
+      "sourceId": "book10-16-1485",
+      "canonicalId": "advanced-native-554",
+      "currentDecisionRowSha256": "fd0a17aec206c380ed79e512d76396d06dc23e951d9dc2518d5cb0445abfd1b8",
+      "sourceSentence": "Research can widen society's horizons."
+    },
+    {
+      "sourceOrdinal": 4127,
+      "sourceId": "book10-16-2016",
+      "canonicalId": "advanced-native-057",
+      "currentDecisionRowSha256": "22908816d60a0b236e314b8bf3efd6bf2c771fb562b2ae4fcaf22ea87d9eea7b",
+      "sourceSentence": "Most beginners hit that wall after a few weeks."
+    },
+    {
+      "sourceOrdinal": 4411,
+      "sourceId": "book10-16-2300",
+      "canonicalId": "advanced-native-165",
+      "currentDecisionRowSha256": "8d25de4bb111d76e37a6aef9cb7d7573ef3e678b4c13b290d412ac4849f85d2f",
+      "sourceSentence": "Residents feel bombarded by noise near the highway."
+    },
+    {
+      "sourceOrdinal": 4672,
+      "sourceId": "book10-16-2561",
+      "canonicalId": "advanced-native-897",
+      "currentDecisionRowSha256": "a0f14e7fb6b8c0ca89e6521f6718b706457b0021d6d8b69a06f7cf2ef345816c",
+      "sourceSentence": "A highly rated film can fall completely flat for me."
+    },
+    {
+      "sourceOrdinal": 4342,
+      "sourceId": "book10-16-2231",
+      "canonicalId": "advanced-native-847",
+      "currentDecisionRowSha256": "205cafdc69b15eb7e95f5fb875f8248509ded83a1b3a88996e261c5feabb9f14",
+      "sourceSentence": "The family sat together but remained glued to a different screen."
+    },
+    {
+      "sourceOrdinal": 4314,
+      "sourceId": "book10-16-2203",
+      "canonicalId": "advanced-native-1430",
+      "currentDecisionRowSha256": "216cd7a91d0fbab2e6c34c2fd971e01d635cff88a90cc90451ff6215a24e9494",
+      "sourceSentence": "Good teaching avoids forcing everyone into the same mould."
+    }
+  ],
+  "owners": [
+    {
+      "canonicalId": "advanced-native-711",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0701-0725.json",
+      "authorFileSha256": "e79ddc6190d9a97b3cd764ffc7ee1c4dbb97556fce5799a71f4f99c492a592d6",
+      "currentFileSha256": "e79ddc6190d9a97b3cd764ffc7ee1c4dbb97556fce5799a71f4f99c492a592d6",
+      "sourceOrdinals": [
+        2895
+      ],
+      "review": "Rigid script is the same over-prescribed pattern, now with the source modifier.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-156",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "authorFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "currentFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "sourceOrdinals": [
+        2941
+      ],
+      "review": "Right balance is the same workable trade-off, with the natural intensifier.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-801",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0801-0825.json",
+      "authorFileSha256": "cf2a3fad1507819d7b79710b526b83b0077d95ec275b7eabcb3ba59b348512f3",
+      "currentFileSha256": "cf2a3fad1507819d7b79710b526b83b0077d95ec275b7eabcb3ba59b348512f3",
+      "sourceOrdinals": [
+        3103,
+        3436,
+        3713,
+        4271
+      ],
+      "review": "Four burden/weight-off-shoulders variants all convey eased worry or responsibility, not a literal load.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1129",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1126-1150.json",
+      "authorFileSha256": "d9b26337d4eabe5b3633a361136e04e2cbd2cd423b77326a1494039b7efb3d53",
+      "currentFileSha256": "d9b26337d4eabe5b3633a361136e04e2cbd2cd423b77326a1494039b7efb3d53",
+      "sourceOrdinals": [
+        3262
+      ],
+      "review": "Student is another motivated learner; source action and bounded learner object align.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1162",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "authorFileSha256": "848c2bf452e688916b42149880eca81099805ceee3141cc99abaf329714c0797",
+      "currentFileSha256": "848c2bf452e688916b42149880eca81099805ceee3141cc99abaf329714c0797",
+      "sourceOrdinals": [
+        3314
+      ],
+      "review": "Bare plural curveballs at us are unexpected project difficulties, the existing owner sense.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-504",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0501-0525.json",
+      "authorFileSha256": "7d77855e7b9c15337897ae850f597853d4b4065ed057dfa40d61786687ed2d36",
+      "currentFileSha256": "272297ed7ec7dc6cea45a7dcd65be7b2e2fb956f1eb48d66ea5c0542181f9d58",
+      "sourceOrdinals": [
+        3353
+      ],
+      "review": "Ground shifting under your feet is the same destabilising change as beneath you.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1869",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "authorFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "currentFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "sourceOrdinals": [
+        3404
+      ],
+      "review": "Supplier its-possessive eggs in one basket is the same concentration-of-risk proverb.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1861",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "authorFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "currentFileSha256": "660f3c18755ac6de5ed568488adcc37ee88c4003484caaed4d5201ce2fba7e68",
+      "sourceOrdinals": [
+        3423
+      ],
+      "review": "Local people are the people losing expected support; the object variant preserves the same figurative owner.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1806",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "authorFileSha256": "e8b7c0e76f5d69b1811ff62361ea32503f447dae559ea40f77bebaafa20cccb9",
+      "currentFileSha256": "e8b7c0e76f5d69b1811ff62361ea32503f447dae559ea40f77bebaafa20cccb9",
+      "sourceOrdinals": [
+        3466
+      ],
+      "review": "A small reset button is a short restorative experience, within the existing reset metaphor.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-554",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "authorFileSha256": "5e1276221679ff19f97a549a2a5bf63777a9ad79423b94100a33cc45b06a6ae1",
+      "currentFileSha256": "5e1276221679ff19f97a549a2a5bf63777a9ad79423b94100a33cc45b06a6ae1",
+      "sourceOrdinals": [
+        3596
+      ],
+      "review": "Society’s horizons widen when shared knowledge expands, the same intellectual-breadth outcome.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-057",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0051-0075.json",
+      "authorFileSha256": "3ad66ac612540163311a64b707faf55341ad8e823c208eca92f1ba67e57c1795",
+      "currentFileSha256": "3ad66ac612540163311a64b707faf55341ad8e823c208eca92f1ba67e57c1795",
+      "sourceOrdinals": [
+        4127
+      ],
+      "review": "That wall is an anaphoric progress obstacle, the same hit-a-wall sense.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-165",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "authorFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "currentFileSha256": "35bcb0add007aa241c076cf8905fb401cc5f61f5c61175eacba4b33bbf63b83e",
+      "sourceOrdinals": [
+        4411
+      ],
+      "review": "Noise can bombard listeners with repeated intrusive sensory input, the broadened but same overwhelming-exposure sense.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-897",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0876-0900.json",
+      "authorFileSha256": "5cf0401a4fbf439e0b816d863e1bff858454543a5f3290cb9480daeac17c61ef",
+      "currentFileSha256": "5cf0401a4fbf439e0b816d863e1bff858454543a5f3290cb9480daeac17c61ef",
+      "sourceOrdinals": [
+        4672
+      ],
+      "review": "Completely flat intensifies the same failure-to-elicit-response sense.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-847",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "authorFileSha256": "d3838157a5e68e932704fa382e9f1a1f4f213fd864319f29fccc8aaf3d144101",
+      "currentFileSha256": "d3838157a5e68e932704fa382e9f1a1f4f213fd864319f29fccc8aaf3d144101",
+      "sourceOrdinals": [
+        4342
+      ],
+      "review": "A different screen is still absorption in a screen at the expense of attending to others.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    },
+    {
+      "canonicalId": "advanced-native-1430",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1426-1450.json",
+      "authorFileSha256": "f5f2e5691cea8eaac890b73a8d70bcf580a719ff4b7d3b36b11612382bebf8a6",
+      "currentFileSha256": "f5f2e5691cea8eaac890b73a8d70bcf580a719ff4b7d3b36b11612382bebf8a6",
+      "sourceOrdinals": [
+        4314
+      ],
+      "review": "Everyone in a teaching setting is the same one-size-fits-all mould metaphor, beyond the prior young-person wording.",
+      "positiveNegativeControlsPass": true,
+      "exactProvenancePresent": true
+    }
+  ],
+  "assessmentKeyReview": {
+    "advanced-native-057.dialogue": "Key asks about the essay obstacle and proposes a different approach; distractors misread temporary blockage as permanent failure or completion. English/Chinese align.",
+    "advanced-native-504.dialogue": "Key correctly says evening access has ended although materials are ready; distractors deny the changed hours or discard useful materials. English/Chinese align.",
+    "advanced-native-554.dialogue": "Key treats radio accounts as broadened questions without claiming full expertise; distractors overclaim completion or omit the new experience. English/Chinese align.",
+    "advanced-native-1129.scene": "Key distinguishes motivation from missing materials; a deadline alone cannot supply resources. English/Chinese align.",
+    "advanced-native-1162.scene": "Key distinguishes an announced hard demonstration from an unexpected curveball; distractors claim all difficulty is surprise or invent a late addition. English/Chinese align."
+  },
+  "validation": {
+    "sourceSense": "All 18 exact inventory example sentences and phrases independently compared with canonical outcomes; no same-sense conflict found.",
+    "regex": "All 18 full source examples match current canonical targets under i flags; every audit positive matches and every audit negative rejects.",
+    "provenance": "All 18 exact source IDs are present in their canonical source arrays and current proposed-alias-existing decision rows.",
+    "focusedBuildAndCheck": "Independent combined 13-file build and --check: 295 lessons, 1770 questions, 1180 audio requests, zero flags.",
+    "originality": "Independent selected-manifest 2604-source screen: none of these 15 owners has an exact, high, medium, near-full or review-near-full guide-source overlap.",
+    "bilingualAudio": "All 15 changed takeaway-2 English/Traditional Chinese pairs inspected for semantic parity. Audio request file hash was author-stamped; no listening certification."
+  },
+  "hashScopeNote": "Author canonical file SHA for 504 has changed because A concurrently edited canonical 502 in the same batch-0501-0525 file. Current 504 pattern, source provenance, keyed dialogue and takeaway-2 equal the wave-three owner data and pass focused checks. All other canonical file hashes equal the author audit; all 18 current individual decision rows match the author-stamped values even if a shared decision file later changes.",
+  "findings": [],
+  "releaseApproved": false,
+  "humanListeningApproved": false
+}

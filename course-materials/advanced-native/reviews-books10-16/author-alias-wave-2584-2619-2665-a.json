@@ -1,0 +1,70 @@
+{
+  "auditKind": "author-three-held-to-existing-alias-source-frame-expansion",
+  "createdUtc": "2026-10-23T17:27:40.691180+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2584,
+      "sourceId": "book10-16-0473",
+      "sourceExpression": "a rabbit hole",
+      "sourceExample": "One video can lead a child into a rabbit hole.",
+      "sourceMeaning": "A distracting, absorbing path that takes longer than expected; a fixed literary image.",
+      "canonicalOwner": "advanced-native-1957",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "canonicalBatchSha256": "42c90e8d0e6e1922295d1639da4dbff3035692ad9416f93f990152cb6b098592",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "f61ff5d4d7135b36116cd56a07ba3d288309d1805efb63741c1c7411b7f2a433",
+      "sourceProvenanceExact": true,
+      "sourceAndPositiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "ownerReason": "The source “One video can lead a child into a rabbit hole” uses the same absorbing linked-exploration image as canonical 1957 “go down a rabbit hole”; lead someone into it is a grammatical causative frame, not a new sense. The owner now teaches both forms, covers the full source with a bounded detector and preserves exact provenance."
+    },
+    {
+      "sourceOrdinal": 2619,
+      "sourceId": "book10-16-0508",
+      "sourceExpression": "on a whim",
+      "sourceExample": "We did not buy the new tablet on a whim.",
+      "sourceMeaning": "Because of a sudden, unplanned desire; a conventional phrase.",
+      "canonicalOwner": "advanced-native-1813",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "canonicalBatchSha256": "a28c557282e9798cb0b52ef04c3a8d241db4720aa0ec73b1e2a5207ace16b3ae",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "a725844228004b52e12e1b0d7683b76cf6ed503dd65aedc85dca3342a82d1609",
+      "sourceProvenanceExact": true,
+      "sourceAndPositiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "ownerReason": "The source “We did not buy the new tablet on a whim” denies a spontaneous purchase; canonical 1813 uses the same adverbial reason with change course. Buying versus changing course is the modified action, not a different idiom sense. The owner now teaches the general adverbial phrase including negation, with source provenance and a bounded detector."
+    },
+    {
+      "sourceOrdinal": 2665,
+      "sourceId": "book10-16-0554",
+      "sourceExpression": "squeezing everyone into the same mould",
+      "sourceExample": "The course risks squeezing everyone into the same mould.",
+      "sourceMeaning": "Forcing different people into one pattern; a fixed shaping metaphor.",
+      "canonicalOwner": "advanced-native-1430",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1426-1450.json",
+      "canonicalBatchSha256": "d71d2da3179ecae0171dd645b38a175e199391e6c7c1c1309c659521105fb042",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "4d128aaf43fbcb396d188827e50f84d69658a93f43e4ab88822b0337440a78e0",
+      "sourceProvenanceExact": true,
+      "sourceAndPositiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "ownerReason": "The source “The course risks squeezing everyone into the same mould” is the same forced-conformity metaphor as canonical 1430 “squeeze every young person into the same mould”; everyone broadens the object and squeezing is the progressive form, not a new sense. The owner now teaches both natural frames and retains exact source provenance."
+    }
+  ],
+  "reviewNotes": [
+    "2584 extends the rabbit-hole exploration image from go down to lead someone into, retaining the existing deeper-than-intended sense.",
+    "2619 isolates the same on-a-whim adverbial reason from the original change-course verb, including negation and a deliberately considered alternative.",
+    "2665 extends the same imposed-conformity metaphor from every young person to everyone and its progressive squeezing form.",
+    "New takeaway contexts were written independently of the guide examples; assessed seven-step lesson content remains intact."
+  ],
+  "focusedBuildCheck": "PASS: 3 canonical batches, 57 lessons, 342 questions, 228 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows, zero gaps, schema errors, selected alias detector exceptions, exact guide copies, near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

@@ -69,7 +69,7 @@ function renderLibrary(){
  $('[data-library-count]').textContent=query?`找到 ${filtered.length} 課`:`全部 ${filtered.length} 課`;
 }
 function progress(){if(!user||!run||!current)return;const done=completed(events,run,current);$('[data-count]').textContent=`本次已完成 ${done.size} / ${current.questions.length} 題`;$('[data-progress]').max=current.questions.length;$('[data-progress]').value=done.size;$('[data-steps]').innerHTML=current.steps.map((s,i)=>`<button data-step="${i}" ${i===index?'aria-current="step"':''}><span>${stepDone(s)?'✓':String(i+1).padStart(2,'0')}</span>${s.label}</button>`).join('');const next=$('[data-next]');if(next)next.disabled=!stepDone(current.steps[index]);}
-function sentenceTranslation(value){return advancedCourse&&value?`<span class="sentence-translation" lang="zh-Hant">${zhPhrases(`（${value}）`)}</span>`:'';}
+function sentenceTranslation(value){if(!advancedCourse||!value)return '';const text=String(value).trim(),bracketed=/^（[\s\S]*）$/.test(text)?text:`（${text}）`;return `<span class="sentence-translation" lang="zh-Hant">${zhPhrases(bracketed)}</span>`;}
 function choiceText(value,translation){return `<span class="choice-copy"><span class="choice-original"${translation?' lang="en"':''}>${advancedCourse?(/[\u3400-\u9fff]/.test(value)?chineseText(value):englishText(value)):String(value).split(/,\s+/).map(esc).join(',<br>')}</span>${sentenceTranslation(translation)}</span>`;}
 function questionPrompt(q){return advancedCourse?promptText(q.prompt)+sentenceTranslation(q.promptZh):esc(q.prompt);}
 function safeHint(q){const hint=String(q.hint||'');return q.answers.some(answer=>answer.trim()&&hint.toLocaleLowerCase().includes(answer.trim().toLocaleLowerCase()))?'先根據情境自己試一次；提交後會看到解釋。':hint;}

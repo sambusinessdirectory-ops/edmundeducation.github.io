@@ -2759,9 +2759,9 @@
       "titleEn": "follow a script",
       "titleZh": "照既定劇本行事",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:follow|follows|followed|following) a script\\b",
+        "pattern": "(?:\\b(?:follow|follows|followed|following) a script\\b)|(?:\\b(?:follow|follows|followed|following) a rigid script\\b)",
         "glossaryForbidden": [
           "\\bscript\\b",
           "\\bfollow(?:s|ed|ing)?\\b"
@@ -2780,12 +2780,26 @@
           "sentence": "Choosing a career need not mean following a script.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "following a script"
+        },
+        {
+          "occurrenceId": "book10-16-0784",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 73,
+          "book": 12,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "6–9",
+          "locatorNote": "DOCX table 72, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Parenting need not follow a rigid script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "follow a rigid script"
         }
       ],
       "brief": {
         "meaningEn": "Behave according to a familiar or expected pattern rather than choosing freely.",
         "meaningZh": "按熟悉或被期待的模式行事，而非自行選擇。",
-        "grammar": "follow a script; be following a script; figurative script means expected pattern.",
+        "grammar": "follow a script / follow a rigid script; follow, follows, followed and following take the same noun phrase. Rigid makes the lack of flexibility explicit.",
         "register": "Common metaphor from theatre; may be critical or simply descriptive.",
         "boundaryZh": "不是指每種規劃都沒有自主，也不表示所有社會期待都不好；本課不教照稿演出。",
         "misconceptionZh": "要看行為是否只是照外來期待，而不是有理由地自行決定。",
@@ -2994,8 +3008,8 @@
           "zh": "她選了自己的路，而不是照既定模式行事。"
         },
         {
-          "en": "Following a script can feel easier than asking what you really want.",
-          "zh": "照既定模式走，有時比問自己真正想要甚麼更容易。"
+          "en": "Organisers should leave time for discussion instead of following a rigid script throughout the workshop.",
+          "zh": "主辦者應為討論預留時間，而非在整個工作坊死板地照既定流程進行。"
         }
       ],
       "review": {

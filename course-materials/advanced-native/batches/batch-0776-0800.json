@@ -534,9 +534,9 @@
       "titleEn": "put things right",
       "titleZh": "補救錯誤修復問題",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:put|puts|putting) things right\\b",
+        "pattern": "(?:\\b(?:put|puts|putting) things right\\b)|(?:\\b(?:make|makes|made|making) it right\\b)",
         "glossaryForbidden": [
           "\\bthings right\\b"
         ]
@@ -554,12 +554,26 @@
           "sentence": "The seller promised to put things right.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "put things right"
+        },
+        {
+          "occurrenceId": "book10-16-2332",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 220,
+          "book": 16,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 242, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She promised to make it right with her colleague.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "make it right"
         }
       ],
       "brief": {
         "meaningEn": "Take action to correct a mistake or repair the harm caused.",
         "meaningZh": "採取行動改正錯誤，或補救造成的傷害。",
-        "grammar": "put things right; put is unchanged in the past; often follows an apology or promise.",
+        "grammar": "put things right / make it right; both mean take concrete action to correct a mistake or repair harm. It refers to the specific wrong, not a vague promise of perfection.",
         "register": "Common spoken expression; the right action depends on the specific problem.",
         "boundaryZh": "不只是說對不起，也不保證所有感受立即恢復；要有實際補救行動。",
         "misconceptionZh": "應先問清問題及受影響者需要，不能用自己的善意取代有效處理。",
@@ -768,8 +782,8 @@
           "zh": "賣家提出更換損壞物品，補救問題。"
         },
         {
-          "en": "Putting things right means addressing the problem, not only explaining it.",
-          "zh": "補救是處理問題，不只是解釋它。"
+          "en": "After sending the wrong timetable, the organiser made it right by contacting every participant and booking another room.",
+          "zh": "主辦人發錯時間表後，逐一聯絡參加者並另訂房間，以補救錯誤。"
         }
       ],
       "review": {
@@ -2123,9 +2137,9 @@
       "titleEn": "keep more doors open",
       "titleZh": "保留更多未來選擇",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:keep|keeps|keeping|kept) more doors open\\b",
+        "pattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
         "glossaryForbidden": [
           "\\bdoors open\\b"
         ]
@@ -2143,12 +2157,40 @@
           "sentence": "Flexible training can keep more doors open for graduates.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "keep more doors open"
+        },
+        {
+          "occurrenceId": "book10-16-1245",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 116,
+          "book": 12,
+          "question": 49,
+          "sample": "S2",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 119, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Taking the course means leaving the door open for a new role.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leaving the door open"
+        },
+        {
+          "occurrenceId": "book10-16-1769",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 167,
+          "book": 14,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "75–76",
+          "locatorNote": "DOCX table 178, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A fair response leaves the door open to change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leaves the door open to change"
         }
       ],
       "brief": {
-        "meaningEn": "Preserve a wider range of possible future choices.",
-        "meaningZh": "保留較多未來可選擇的方向。",
-        "grammar": "keep more doors open by/through + action; kept in the past; more invites a comparison with a narrower choice.",
+        "meaningEn": "Preserve one or several possible future choices rather than deciding every option now.",
+        "meaningZh": "保留一個或多個未來選擇，而非現在就把所有可能性定死。",
+        "grammar": "keep more doors open preserves several options; leave the door open for something preserves a particular possible route. Both are opportunity metaphors, not physical doors.",
         "register": "Figurative option-preservation pattern, distinct from opening a new door to a particular opportunity.",
         "boundaryZh": "不是拖延每項決定，也不保證將來每條路都有成果；要解釋保留哪些選擇。",
         "misconceptionZh": "學得較廣可能保留方向，但仍須顧及時間及必要先修條件。",
@@ -2357,8 +2399,8 @@
           "zh": "彈性培訓可幫畢業生保留更多選擇。"
         },
         {
-          "en": "Checking the entry requirements helped her keep more doors open when choosing subjects.",
-          "zh": "查閱入學要求，幫她在選科時保留更多選擇。"
+          "en": "The invitation leaves the door open for another collaboration next year.",
+          "zh": "這份邀請為明年再次合作保留可能。"
         }
       ],
       "review": {
@@ -5111,9 +5153,9 @@
       "titleEn": "grounded / more grounded",
       "titleZh": "感覺更踏實安定",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:(?:more|emotionally) grounded|(?:stay|stays|stayed|staying|feel|feels|felt|feeling|be|is|was|were|being|become|becomes|became|remain|remains|remained) grounded)\\b",
+        "pattern": "\\b(?:(?:more|emotionally) grounded|(?:stay|stays|stayed|staying|feel|feels|felt|feeling|be|is|was|were|being|become|becomes|became|remain|remains|remained) grounded)\\b|\\bwell-grounded (?:teenager|student|young adult|volunteer|person)\\b",
         "glossaryForbidden": [
           "\\bgrounded\\b"
         ]
@@ -5196,14 +5238,28 @@
           "sentence": "Familiar routines helped him feel emotionally grounded.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "emotionally grounded"
+        },
+        {
+          "occurrenceId": "book10-16-0471",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She is a well-grounded teenager who handles online pressure calmly.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "well-grounded"
         }
       ],
       "brief": {
-        "meaningEn": "Feeling calm, steady and connected to practical reality or immediate life; more grounded explicitly compares this state with before.",
-        "meaningZh": "感覺平靜、安定，並貼近日常現實或當下生活；more grounded 明確比較前後程度。",
-        "grammar": "feel/become/stay grounded; feel emotionally grounded describes emotional steadiness; more grounded compares with a prior state, while stay grounded describes maintaining it. Feeling grounded does not itself mean every practical difficulty is resolved.",
-        "register": "Common figurative emotional-balance use; distinguish from an aircraft unable to fly or a child restricted as punishment.",
-        "boundaryZh": "不是問題自動消失，也不是不准外出；要看感受及日常安排的線索。",
+        "meaningEn": "A person who feels or remains calm, steady and connected to practical reality; well-grounded describes a sensible, emotionally steady person, while more grounded explicitly compares with before.",
+        "meaningZh": "形容一個人感到或保持冷靜、安定並貼近現實；well-grounded 指明智而情緒穩定的人，more grounded 則明確比較前後程度。",
+        "grammar": "feel/become/stay grounded describes a state; more grounded compares with a prior state. Well-grounded is an attributive compound adjective before a person noun, as in a well-grounded teenager. It does not guarantee every practical difficulty is resolved.",
+        "register": "A parent or teacher describing a young person to another adult can use the neutral, approving well-grounded; a person describing their own balance can use feel or stay grounded.",
+        "boundaryZh": "well-grounded 在此形容人明智安定，不是說論點證據充分；grounded 也不是不准外出，且安定不表示所有問題已消失。",
         "misconceptionZh": "短暫較安定不代表治好任何健康問題，本課只描述個人感受。",
         "outcomeZh": "能描述維持或獲得安定感的具體活動，需要時比較前後狀態，不由個人感受推所有問題已解決。"
       },
@@ -5410,8 +5466,8 @@
           "zh": "安靜的週末可讓我感覺更踏實安定。"
         },
         {
-          "en": "She felt more grounded after returning to a simple daily routine.",
-          "zh": "回到簡單日常規律後，她感覺更踏實安定。"
+          "en": "The well-grounded volunteer listened to criticism without snapping back and asked which part she could improve.",
+          "zh": "那位明智沉穩的義工聽了批評沒有反駁，並詢問自己可改善哪一部分。"
         }
       ],
       "review": {

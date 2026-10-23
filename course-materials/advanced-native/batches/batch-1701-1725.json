@@ -3025,12 +3025,12 @@
       "id": "advanced-native-1714",
       "number": 1714,
       "inventoryId": "expr-1714",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "all in one go",
       "titleZh": "一口氣，全部一次過",
       "category": "idiom",
       "target": {
-        "pattern": "\\ball in one go\\b"
+        "pattern": "\\b(?:all )?in one go\\b"
       },
       "sources": [
         {
@@ -3046,13 +3046,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "all in one go",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0504",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 46,
+          "book": 11,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "14–16",
+          "locatorNote": "DOCX table 42, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She spent the entire allowance in one go.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in one go"
         }
       ],
       "brief": {
         "meaningEn": "As a single complete effort or batch rather than in separate stages.",
         "meaningZh": "以一次完整行動或一批做，而不是分階段。",
-        "grammar": "do/read/pack it all in one go; not necessarily instant or easy; all refers to the relevant whole",
-        "register": "neutral",
+        "grammar": "do/read/pack it all in one go or spend/use a specified whole amount in one go; the action is completed as one batch, not necessarily instantly or easily.",
+        "register": "Neutral set phrase. A parent may tell a teenager that spending the entire allowance in one go leaves nothing for later needs.",
         "boundaryZh": "一次過不代表極短時間、沒有困難或以後不用檢視；否定時可強調分段而非拒做。",
         "misconceptionZh": "一次過不代表極短時間、沒有困難或以後不用檢視；否定時可強調分段而非拒做。",
         "outcomeZh": "理解「一口氣，全部一次過」的語境及用法，並在新情境寫出自然句子。"

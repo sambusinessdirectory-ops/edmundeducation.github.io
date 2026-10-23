@@ -1,0 +1,1061 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2324",
+      "number": 2324,
+      "inventoryId": "expr-2324",
+      "titleEn": "emotional depth",
+      "titleZh": "情感層次",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bemotional depth\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Sustained, nuanced portrayal of feelings and relationships beneath a story’s surface events.",
+        "meaningZh": "故事表層事件之下，持續而細膩地呈現情感及關係。",
+        "grammar": "Emotional depth is an uncountable noun phrase; a work has, gains or lacks emotional depth. Give evidence of layers, not mere intensity.",
+        "register": "Neutral review language. A reader may use it when explaining a character’s mixed feelings to a book-club friend.",
+        "boundaryZh": "須有多層、細膩且持續呈現的情感；單一震撼畫面或一場激烈哭戲，不足以證明整部作品有情感層次。",
+        "misconceptionZh": "不等於作品必定悲傷、篇幅長，也不表示情節一定複雜。",
+        "outcomeZh": "能指出人物表面行為及其並存的不同感受，解釋層次如何逐漸呈現。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0213",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 16, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The novel has emotional depth despite its simple plot.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional depth"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A short play shows a father proud of his daughter’s new job but uneasy that she will move away. Later scenes let him support her while admitting he will miss her. That mixture gives the simple plot emotional depth.",
+        "zh": "一齣短劇寫父親為女兒新工作自豪，卻又擔心她搬走。後續場面讓他支持女兒，同時承認會想念她。這種混合感受令簡單情節有情感層次。",
+        "promptZh": "情感層次來自甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The father’s pride, worry and support are developed together.",
+            "zh": "父親的自豪、擔憂及支持並存且逐步呈現。"
+          },
+          {
+            "id": "b",
+            "en": "The play includes one loud argument and no other feeling.",
+            "zh": "劇中只有一場大聲爭吵，沒有其他感受。"
+          },
+          {
+            "id": "c",
+            "en": "The plot uses many locations without changing any relationship.",
+            "zh": "情節換了很多場景，人物關係沒有變化。"
+          },
+          {
+            "id": "d",
+            "en": "The daughter’s job is described only by its salary.",
+            "zh": "女兒工作只按薪金描述。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "並存感受在後續場面持續發展。"
+      },
+      "reply": {
+        "promptEn": "A graphic story is simple: two friends repair a boat. Across several chapters, one is grateful for help but embarrassed to need it, while the other is patient yet afraid to interfere. What does the story gain?",
+        "promptZh": "（漫畫故事很簡單：兩名朋友修船。數章中，一人感激幫忙卻尷尬於需要協助，另一人耐心但怕多管閒事。故事因此多了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It explores several feelings within one friendship.",
+            "zh": "它探索同一段友誼中的多種感受。"
+          },
+          {
+            "id": "b",
+            "en": "The mixed responses make the bond more complex.",
+            "zh": "混合反應令關係更複雜。"
+          },
+          {
+            "id": "c",
+            "en": "It gains emotional depth.",
+            "zh": "它增添情感層次。"
+          },
+          {
+            "id": "d",
+            "en": "The feelings develop beyond the boat repair itself.",
+            "zh": "感受不只停留在修船一事。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指持續呈現的混合感受。"
+      },
+      "scene": {
+        "promptZh": "小說情節只是兄妹整理舊屋，但兩人由互相埋怨，逐步理解各自對離家的懷念與鬆一口氣。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The simple story has emotional depth.",
+            "zh": "簡單故事有情感層次。"
+          },
+          {
+            "id": "b",
+            "en": "The house must have many floors.",
+            "zh": "房子必定有很多層。"
+          },
+          {
+            "id": "c",
+            "en": "One sudden shout proves the whole book is nuanced.",
+            "zh": "一次突然大叫足以證明全書細膩。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情感層次來自感受逐步發展，而非建築深度。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 emotional depth？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A scene uses a loud crash for surprise, then never explores any character’s feelings or relationship.",
+            "zh": "一場戲用巨響製造驚訝，其後從不探索人物感受或關係。"
+          },
+          {
+            "id": "b",
+            "en": "A character remains angry while slowly recognising why a friend acted as they did.",
+            "zh": "角色仍生氣，同時逐漸理解朋友的做法。"
+          },
+          {
+            "id": "c",
+            "en": "Several small exchanges reveal pride and regret beneath a polite farewell.",
+            "zh": "幾段小對話揭示禮貌告別下的自豪與後悔。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一刺激沒有持續呈現情感層次。"
+      },
+      "dialogue": {
+        "promptEn": "A: The film follows one dinner, but the mother is both relieved that her son found work and sad that he must leave. Later she encourages him anyway. B: ______",
+        "promptZh": "（甲：電影只寫一頓晚飯，但母親既因兒子找到工作而放心，也因他須離開而難過，後來仍鼓勵他。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those feelings can exist together.",
+            "zh": "那些感受可以並存。"
+          },
+          {
+            "id": "b",
+            "en": "Her support makes the relationship more nuanced.",
+            "zh": "她的支持令關係更細膩。"
+          },
+          {
+            "id": "c",
+            "en": "A simple scene can still have emotional depth.",
+            "zh": "簡單場面仍可有情感層次。"
+          },
+          {
+            "id": "d",
+            "en": "The later encouragement develops what she feels.",
+            "zh": "後來的鼓勵深化她的感受。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出簡單情節中的混合感受。"
+      },
+      "speaking": {
+        "en": "The comic gained emotional depth when the usually cheerful guide admitted both pride in the team and fear of letting it down over several chapters.",
+        "zh": "漫畫在數章中讓平日開朗的導遊承認既為團隊自豪又怕令隊友失望，因而添了情感層次。",
+        "promptZh": "說出兩種並存感受及持續呈現。",
+        "targetSpan": {
+          "start": 17,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩段簡單故事各透過數個時刻呈現人物並存的感受。用英文寫出表面事件和情感層次。",
+        "selfCheckZh": "兩例須有感受的層次與發展，不是只說故事令人哭。",
+        "examples": [
+          {
+            "en": "The puppet play had emotional depth: as a child prepared to move, her friend offered help while quietly grieving their old routine.",
+            "zh": "木偶劇有情感層次：孩子準備搬家時，朋友幫忙之餘默默懷念舊日相處。"
+          },
+          {
+            "en": "A story about fixing a clock gained emotional depth as a mechanic first resented a mentor’s criticism, then recognised the care behind it without losing all frustration.",
+            "zh": "修鐘故事添了情感層次：機械師起初怨導師批評，後來認出背後關心，卻仍非完全不懊惱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "prepared to move",
+            "zh": "準備搬家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 64
+            }
+          },
+          {
+            "en": "old routine",
+            "zh": "舊日相處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 130
+            }
+          },
+          {
+            "en": "mentor’s criticism",
+            "zh": "導師批評",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 101
+            }
+          },
+          {
+            "en": "care behind it",
+            "zh": "背後關心",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Emotional depth comes from nuanced feelings that develop.",
+          "zh": "emotional depth 來自逐步呈現的細膩感受。"
+        },
+        {
+          "en": "A simple plot can have emotional depth without a shocking twist.",
+          "zh": "簡單情節毋須震撼轉折也可有情感層次。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2329",
+      "number": 2329,
+      "inventoryId": "expr-2329",
+      "titleEn": "overstated",
+      "titleZh": "說得過了頭",
+      "category": "natural",
+      "target": {
+        "pattern": "\\boverstated\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Described a difference, claim or effect more strongly than the evidence justifies.",
+        "meaningZh": "把差異、主張或效果說得比證據所容許的更強。",
+        "grammar": "Be overstated; a claim or difference may be overstated. Do not confuse with being entirely false.",
+        "register": "Measured formal-to-neutral evaluation. An analyst may use it when comparing an advert with the actual figures.",
+        "boundaryZh": "須比較說法強度與現有證據；overstated 不等於毫無差異、完全捏造或可直接確定反面結論。",
+        "misconceptionZh": "不是字體過大，也不是凡強烈措辭都一定不妥。",
+        "outcomeZh": "能指出原來說法、較弱的可支持結論，以及仍存在的不確定處。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0218",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 20,
+          "book": 10,
+          "question": 16,
+          "sample": "S2",
+          "sourceBookPages": "39–40",
+          "locatorNote": "DOCX table 16, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The difference may be overstated in the advertisement.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "overstated"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "An advert says the new bottle keeps water cold twice as long as the old one. The company’s own tests show only a small gain under one condition. The benefit may be overstated, although the new bottle does perform slightly better there.",
+        "zh": "廣告說新水樽保冷時間是舊款兩倍。公司測試只顯示某一條件下有少量提升。好處可能被說得過了頭，雖然新樽在該條件下確實稍好。",
+        "promptZh": "為何說法可能 overstated？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The claimed doubling is stronger than the limited test supports.",
+            "zh": "聲稱翻倍比有限測試所支持的更強。"
+          },
+          {
+            "id": "b",
+            "en": "The test proves the new bottle is always worse.",
+            "zh": "測試證明新樽永遠較差。"
+          },
+          {
+            "id": "c",
+            "en": "The advert contains no comparison at all.",
+            "zh": "廣告完全沒有比較。"
+          },
+          {
+            "id": "d",
+            "en": "The new bottle is exactly identical in every condition.",
+            "zh": "新舊水樽在所有條件下完全相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有限測試只能支持較小且有條件的改善。"
+      },
+      "reply": {
+        "promptEn": "A school notice calls a timetable change a complete solution to late arrivals. Records from the first week show some improvement, but several pupils remain late. How might a careful reader assess the notice?",
+        "promptZh": "（學校通知稱時間表改動完全解決遲到。首週紀錄顯示有所改善，但仍有幾名學生遲到。謹慎讀者可怎樣評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The complete-solution claim goes beyond the records.",
+            "zh": "「完全解決」超出紀錄所示。"
+          },
+          {
+            "id": "b",
+            "en": "There is progress, but not total elimination.",
+            "zh": "有所進步，卻未完全消除。"
+          },
+          {
+            "id": "c",
+            "en": "The notice may be overstated.",
+            "zh": "通知的說法可能過了頭。"
+          },
+          {
+            "id": "d",
+            "en": "A narrower claim would fit the first-week evidence.",
+            "zh": "較有分寸的說法更符合首週證據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均保留改善但收窄結論。"
+      },
+      "scene": {
+        "promptZh": "宣傳稱新安排「消除所有等候」，但紀錄顯示平均等候時間只縮短少許。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The claim is overstated.",
+            "zh": "說法過了頭。"
+          },
+          {
+            "id": "b",
+            "en": "The records prove nobody ever waited.",
+            "zh": "紀錄證明從來沒有人等候。"
+          },
+          {
+            "id": "c",
+            "en": "No improvement of any kind occurred.",
+            "zh": "完全沒有任何改善。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有些改善不支持「消除所有等候」。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 overstated？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A report says attendance rose modestly in one term, and checked figures show precisely that limited rise.",
+            "zh": "報告說一學期出席率略升，已核查數字正好顯示這項有限升幅。"
+          },
+          {
+            "id": "b",
+            "en": "An advert calls a small trial result a guaranteed universal success.",
+            "zh": "廣告把小型試驗結果稱作保證普遍成功。"
+          },
+          {
+            "id": "c",
+            "en": "A speaker says every bus was on time when records show several delays.",
+            "zh": "講者說每班巴士準時，紀錄卻顯示數次延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有分寸的說法與數字吻合。"
+      },
+      "dialogue": {
+        "promptEn": "A: The leaflet says the programme transformed every participant, but the survey shows moderate gains for some respondents only. B: ______",
+        "promptZh": "（甲：單張說計劃改變了每名參加者，但問卷只顯示部分受訪者有適度改善。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leaflet claims more than the survey shows.",
+            "zh": "單張聲稱超出問卷所示。"
+          },
+          {
+            "id": "b",
+            "en": "Some gains are real, but they are limited.",
+            "zh": "有些改善是真實的，但範圍有限。"
+          },
+          {
+            "id": "c",
+            "en": "That conclusion sounds overstated.",
+            "zh": "那個結論聽來說得過了頭。"
+          },
+          {
+            "id": "d",
+            "en": "A narrower statement about some respondents would be safer.",
+            "zh": "較穩妥是只說部分受訪者有所改善。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出說法強度超出證據。"
+      },
+      "speaking": {
+        "en": "The travel notice described the new shuttle as always punctual, but three late runs in its first week made that promise look overstated.",
+        "zh": "旅遊通知說新穿梭巴士總是準時，但首週有三班遲到，令承諾顯得過了頭。",
+        "promptZh": "指出原話及反例。",
+        "targetSpan": {
+          "start": 125,
+          "end": 135
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項宣傳或報告把有限改善說成全面成功。用英文寫出原說法、證據和較有分寸的結論。",
+        "selfCheckZh": "不能把 overstated 誤寫成完全虛假；須保留證據支持的部分。",
+        "examples": [
+          {
+            "en": "Calling the new reading guide perfect was overstated: two classes found it helpful, but another still needed examples.",
+            "zh": "稱新閱讀指南完美是說得過了頭：兩班覺得有幫助，另一班仍需要例子。"
+          },
+          {
+            "en": "The claim that a rain cover solved every leak was overstated; it kept one stall dry in light rain but not during the heavier test.",
+            "zh": "聲稱雨蓋解決所有漏水問題說得過了頭；它在微雨時保持一檔乾爽，較大雨量測試則不然。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two classes",
+            "zh": "兩班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 65
+            }
+          },
+          {
+            "en": "needed examples",
+            "zh": "需要例子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 117
+            }
+          },
+          {
+            "en": "one stall dry",
+            "zh": "一檔乾爽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 83
+            }
+          },
+          {
+            "en": "heavier test",
+            "zh": "較大雨量測試",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Overstated means stronger than the evidence warrants.",
+          "zh": "overstated 指說法強度超出證據。"
+        },
+        {
+          "en": "An overstated claim may still contain a smaller truth.",
+          "zh": "說得過了頭的主張仍可能包含較小的真實部分。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2336",
+      "number": 2336,
+      "inventoryId": "expr-2336",
+      "titleEn": "holding everything in",
+      "titleZh": "把感受都藏在心裏",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:holding|hold|holds|held) everything in\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Conceal or suppress one’s feelings instead of expressing them to others.",
+        "meaningZh": "把自己的感受壓住、不向別人表達。",
+        "grammar": "Hold everything in; held everything in in the past. Everything refers to feelings in the contextual expression, not physical objects.",
+        "register": "Natural conversational English. A close friend may use it gently when someone has stayed silent about a difficult period.",
+        "boundaryZh": "須有感受未表達的線索；暫時選擇私下思考，不必推斷為持續壓抑，也不代表對方有義務向所有人說。",
+        "misconceptionZh": "不是把物件全塞進箱內，也不應把不開口自動當作不信任。",
+        "outcomeZh": "能指出未說出的感受、選擇可接受的表達方式及尊重個人界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0225",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He was holding everything in during the difficult conversation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "holding everything in"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "After the community garden closed, Leo told everyone he was fine but stopped joining their calls. He later admitted he had been holding everything in because he did not want to burden his friends.",
+        "zh": "社區花園關閉後，利奧告訴大家自己沒事，卻不再參加電話聊天。後來他承認一直把感受藏在心裏，因為不想加重朋友負擔。",
+        "promptZh": "Leo 的行為顯示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He concealed feelings rather than explaining his sadness.",
+            "zh": "他沒有說出難過，而是把感受藏起來。"
+          },
+          {
+            "id": "b",
+            "en": "He packed all the garden tools into one box.",
+            "zh": "他把所有園藝工具放進一個箱。"
+          },
+          {
+            "id": "c",
+            "en": "He openly discussed his feelings on every call.",
+            "zh": "他每次通話都公開談感受。"
+          },
+          {
+            "id": "d",
+            "en": "His friends had already refused to speak to him.",
+            "zh": "朋友已拒絕跟他說話。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他口說沒事，後來承認沒有表達感受。"
+      },
+      "reply": {
+        "promptEn": "A musician says she is fine after losing an audition, but a week later tells her sister she felt disappointed and kept quiet because she did not want to worry anyone. How can her sister describe that week?",
+        "promptZh": "（一名樂手試音落選後說自己沒事，一週後才告訴姐姐她失望，之前不說是怕別人擔心。姐姐可怎樣形容那一週？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She kept disappointment to herself.",
+            "zh": "她把失望留在心裏。"
+          },
+          {
+            "id": "b",
+            "en": "She was reluctant to tell others how she felt.",
+            "zh": "她不願告訴別人自己的感受。"
+          },
+          {
+            "id": "c",
+            "en": "She was holding everything in.",
+            "zh": "她一直把感受藏在心裏。"
+          },
+          {
+            "id": "d",
+            "en": "Her silence did not mean she felt nothing.",
+            "zh": "她沉默不代表沒有感受。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據後來坦承失望。"
+      },
+      "scene": {
+        "promptZh": "學生在落選後一直說不在乎，後來承認很傷心，只是不想讓同學擔心。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They were holding everything in.",
+            "zh": "這名學生一直把感受藏在心裏。"
+          },
+          {
+            "id": "b",
+            "en": "They were storing every notebook in a bag.",
+            "zh": "他把所有筆記簿放進袋。"
+          },
+          {
+            "id": "c",
+            "en": "They had explained their sadness to everyone immediately.",
+            "zh": "他立即向所有人解釋難過。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "隱藏感受而非收納物品。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以推斷 someone is holding everything in？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A person freely shares disappointment with a trusted friend and says they have chosen not to discuss it publicly.",
+            "zh": "有人向信任的朋友坦白失望，並說自己選擇不公開討論。"
+          },
+          {
+            "id": "b",
+            "en": "Someone repeatedly says nothing is wrong, then admits they hid grief for months.",
+            "zh": "有人反覆說沒事，後來承認把悲傷藏了數月。"
+          },
+          {
+            "id": "c",
+            "en": "A player feels angry and sad but keeps denying both to people trying to support them.",
+            "zh": "球員生氣又難過，卻一直向想支持他的人否認兩種感受。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "向信任的人表達並保留私隱，不等於把一切藏在心裏。"
+      },
+      "dialogue": {
+        "promptEn": "A: After the cancelled performance, Nia kept saying she was fine. Tonight she admitted she felt hurt and had not told anyone because she feared burdening us. B: ______",
+        "promptZh": "（甲：演出取消後，妮雅一直說自己沒事。今晚她承認很受傷，以前怕加重我們負擔而沒告訴任何人。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She had feelings she was not expressing.",
+            "zh": "她有感受沒有表達。"
+          },
+          {
+            "id": "b",
+            "en": "Her silence did not mean the cancellation was easy.",
+            "zh": "她沉默不代表取消演出對她輕鬆。"
+          },
+          {
+            "id": "c",
+            "en": "She was holding everything in.",
+            "zh": "她一直把感受藏在心裏。"
+          },
+          {
+            "id": "d",
+            "en": "We can listen if she chooses to talk, without pressuring her.",
+            "zh": "如果她願意談，我們可以聆聽而不施壓。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句描述隱藏感受，同時尊重當事人意願。"
+      },
+      "speaking": {
+        "en": "Arun realised he had been holding everything in after the workshop closed; he finally told his cousin he was disappointed and asked only for a quiet conversation.",
+        "zh": "工作坊關閉後，阿倫發現自己一直把感受藏在心裏；最後他向表親說自己失望，只希望安靜談談。",
+        "promptZh": "指出未說出的感受及自願表達。",
+        "targetSpan": {
+          "start": 26,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人經歷不同失望事件，表面說沒事，後來選擇向信任的人說出感受。用英文寫出證據與表達方式。",
+        "selfCheckZh": "不能把短暫私隱自動當成壓抑；兩例需有後來承認的感受。",
+        "examples": [
+          {
+            "en": "After the team cut his design, Ben was holding everything in while telling colleagues he did not mind; he later told his brother he felt embarrassed.",
+            "zh": "團隊刪去他的設計後，阿彬對同事說不介意，其實一直把感受藏在心裏；後來他告訴哥哥自己覺得尷尬。"
+          },
+          {
+            "en": "Mina had been holding everything in since her friend moved away, smiling in class but finally telling her aunt she missed their daily walks.",
+            "zh": "朋友搬走後，米娜一直把感受藏在心裏，在課堂上微笑，最後告訴阿姨她懷念每天一起散步。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "cut his design",
+            "zh": "刪去他的設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 29
+            }
+          },
+          {
+            "en": "felt embarrassed",
+            "zh": "覺得尷尬",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 148
+            }
+          },
+          {
+            "en": "smiling in class",
+            "zh": "在課堂上微笑",
+            "exampleIndex": 1,
+            "span": {
+              "start": 65,
+              "end": 81
+            }
+          },
+          {
+            "en": "daily walks",
+            "zh": "每天一起散步",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Holding everything in means keeping feelings unspoken.",
+          "zh": "holding everything in 指把感受藏着不說。"
+        },
+        {
+          "en": "Someone can stop holding everything in by choosing a trusted listener.",
+          "zh": "人可選擇可信的人聆聽，不再把一切藏着。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2337",
+      "number": 2337,
+      "inventoryId": "expr-2337",
+      "titleEn": "overcooked",
+      "titleZh": "處理得過火",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bovercooked\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Overdone or exaggerated in a performance or artistic choice, so it loses subtlety.",
+        "meaningZh": "表演或藝術處理過度誇張，失去原有含蓄效果。",
+        "grammar": "An ending or performance feels overcooked. Here the adjective is figurative; food can also literally be overcooked in other contexts.",
+        "register": "Informal critical language. A theatre reviewer may use it when a director adds effects that swamp a restrained scene.",
+        "boundaryZh": "須指出額外處理如何壓過原來細膩效果；單純情緒強烈或場面盛大，未必是處理過火。",
+        "misconceptionZh": "不是食物煮太久，也不是批評演員有情緒就錯。",
+        "outcomeZh": "能指出原來手法、後加效果及其對觀眾理解的影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0226",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The ending felt overcooked after the quiet first half.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "overcooked"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A school film ends with a quiet apology. In the edit, repeated thunder sounds and three slow-motion replays make the apology harder to hear. The ending feels overcooked because the effects drown out the simple exchange.",
+        "zh": "學校短片以安靜道歉結尾。剪輯後加入重複雷聲和三次慢鏡重播，道歉反而難聽清。結尾顯得處理過火，因為效果蓋過簡單對話。",
+        "promptZh": "為何結尾 overcooked？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated effects overpower the quiet apology.",
+            "zh": "重複效果蓋過安靜道歉。"
+          },
+          {
+            "id": "b",
+            "en": "The actors forgot to cook dinner.",
+            "zh": "演員忘記煮晚餐。"
+          },
+          {
+            "id": "c",
+            "en": "The edit removed all sound from the scene.",
+            "zh": "剪輯把場面所有聲音刪掉。"
+          },
+          {
+            "id": "d",
+            "en": "The apology became clearer with each replay.",
+            "zh": "每次重播都令道歉更清楚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多餘效果令核心對話失焦。"
+      },
+      "reply": {
+        "promptEn": "A stage scene originally lets two sisters reconcile in a brief pause. The new version adds flashing lights and a long shouted speech, and the audience misses the sisters’ small gesture. How might a reviewer assess the revision?",
+        "promptZh": "（舞台一場戲原以短暫停頓呈現姊妹和好，新版加入閃燈及長篇高喊，觀眾反而錯過姊妹的小動作。評論者可怎樣評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The additions overwhelm the subtle gesture.",
+            "zh": "新增效果壓過細微動作。"
+          },
+          {
+            "id": "b",
+            "en": "The quieter version may have served the scene better.",
+            "zh": "較安靜版本或許更適合這場戲。"
+          },
+          {
+            "id": "c",
+            "en": "The revision feels overcooked.",
+            "zh": "新版感覺處理過火。"
+          },
+          {
+            "id": "d",
+            "en": "The added spectacle draws attention away from reconciliation.",
+            "zh": "新增場面把注意力從和好轉走。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據效果壓過細節回答。"
+      },
+      "scene": {
+        "promptZh": "朗讀表演原本靠短暫停頓呈現不安，新版每句都加尖叫，聽眾反而聽不到關鍵用詞。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The performance feels overcooked.",
+            "zh": "表演感覺處理過火。"
+          },
+          {
+            "id": "b",
+            "en": "The meal has been cooked too long.",
+            "zh": "那頓飯煮得太久。"
+          },
+          {
+            "id": "c",
+            "en": "Every added sound makes the wording clearer.",
+            "zh": "每段新增聲音都令用詞更清楚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "額外效果削弱原來的表現。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 overcooked？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A restrained ending uses one well-timed pause so the audience hears the final line clearly.",
+            "zh": "含蓄結尾用一次恰當停頓，觀眾清楚聽到最後一句。"
+          },
+          {
+            "id": "b",
+            "en": "A simple farewell is buried under repeated music cues and speeches.",
+            "zh": "簡單告別被重複配樂與演說蓋過。"
+          },
+          {
+            "id": "c",
+            "en": "A quiet confession is replayed with several effects until the original mood disappears.",
+            "zh": "安靜坦白被加效果重播數次，原有氣氛消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一個有目的的停頓沒有壓過情感。"
+      },
+      "dialogue": {
+        "promptEn": "A: The radio scene was moving when the child spoke softly, but the producer added repeated alarms and a booming narrator over her words. B: ______",
+        "promptZh": "（甲：孩子輕聲說話時，廣播劇那場戲很感人，但製作人加上重複警報及壓過她聲音的宏亮旁白。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new sounds obscure her words.",
+            "zh": "新聲效遮蓋她的話。"
+          },
+          {
+            "id": "b",
+            "en": "The earlier quiet delivery may have been enough.",
+            "zh": "早前安靜的表演可能已足夠。"
+          },
+          {
+            "id": "c",
+            "en": "That edit sounds overcooked.",
+            "zh": "那次剪輯聽來處理過火。"
+          },
+          {
+            "id": "d",
+            "en": "The extra effects change what listeners notice first.",
+            "zh": "額外效果改變聽眾首先注意的事。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句批評過量處理，而非批評情感本身。"
+      },
+      "speaking": {
+        "en": "The dance finale felt overcooked when three projections competed with the soloist’s final movement, leaving viewers unsure where to look.",
+        "zh": "舞蹈結尾有三段投影與獨舞者最後動作爭奪注意力，觀眾不知看哪裏，因而顯得處理過火。",
+        "promptZh": "指出多餘效果及失焦後果。",
+        "targetSpan": {
+          "start": 22,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個作品各在原已有效的細膩片段加入過量效果，令核心表演失焦。用英文寫出前後差異。",
+        "selfCheckZh": "兩例須有具體多加的元素及負面效果，而非只說場面強烈。",
+        "examples": [
+          {
+            "en": "The puppet show’s ending was overcooked after a gentle goodbye gained repeated spotlights and loud drum rolls that masked the final words.",
+            "zh": "木偶劇原有溫柔告別，後來加上重複聚光燈和響亮鼓聲，蓋過最後台詞，結尾處理過火。"
+          },
+          {
+            "en": "The museum audio tour felt overcooked when a modest discovery was retold with three dramatic voices, distracting visitors from the object itself.",
+            "zh": "博物館語音導覽把一項普通發現以三把戲劇化聲音重述，令訪客忽略展品本身，顯得處理過火。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "gentle goodbye",
+            "zh": "溫柔告別",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 62
+            }
+          },
+          {
+            "en": "loud drum rolls",
+            "zh": "響亮鼓聲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 109
+            }
+          },
+          {
+            "en": "modest discovery",
+            "zh": "普通發現",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 61
+            }
+          },
+          {
+            "en": "three dramatic voices",
+            "zh": "三把戲劇化聲音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 99
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Overcooked can criticise an artistic choice that adds too much.",
+          "zh": "overcooked 可批評藝術處理加得過量。"
+        },
+        {
+          "en": "An overcooked ending may lose the subtle feeling it meant to strengthen.",
+          "zh": "處理過火的結尾可能失去原想加強的細膩感。"
+        }
+      ]
+    }
+  ]
+}

@@ -1203,7 +1203,7 @@
     "titleZh": "稍有喘息與調整的空間",
     "category": "idiom",
     "target": {
-      "pattern": "\\broom to breathe\\b",
+      "pattern": "(?:\\broom to breathe\\b)|(?:\\bspace to breathe\\b)",
       "glossaryForbidden": [
         "\\broom to breathe\\b"
       ]
@@ -1211,7 +1211,7 @@
     "brief": {
       "meaningEn": "Enough time, freedom or space to ease pressure and act without feeling overly constrained.",
       "meaningZh": "足夠的時間、自由或空間，讓人稍減壓力，不覺處處受限制。",
-      "grammar": "give/allow someone room to breathe; have/need room to breathe.",
+      "grammar": "room to breathe / space to breathe; either names enough time or freedom to act without excessive pressure. It need not describe literal air or physical room.",
       "register": "Common figurative expression; this lesson includes relief from crowded schedules and overly fixed creative constraints.",
       "boundaryZh": "不是本課的呼吸醫療問題，也不必完全沒有工作或責任；可只是少一點擁擠安排。",
       "misconceptionZh": "喘息空間不等於放棄目標；合理留白可以幫人維持工作及生活。",
@@ -1295,6 +1295,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 230, table 2, row 8; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p230-t2-r08"
+      },
+      {
+        "occurrenceId": "book10-16-0967",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 90,
+        "book": 12,
+        "question": 21,
+        "sample": "S2",
+        "sourceBookPages": "53–54",
+        "locatorNote": "DOCX table 91, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The children need space to breathe and invent stories.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "space to breathe"
       }
     ],
     "listening": {
@@ -1408,8 +1422,8 @@
         },
         {
           "id": "b",
-          "en": "I want enough time to do the work properly, not to remove the commitment.",
-          "zh": "我想有足夠時間做好工作，不是取消承諾。"
+          "en": "I need room to breathe so I can do the work properly; I am not dropping the commitment.",
+          "zh": "我需要一點喘息空間，才能把工作做好；我沒有放棄承諾。"
         },
         {
           "id": "c",
@@ -1496,8 +1510,8 @@
         "zh": "較少擠迫的時間表給家庭喘息空間。"
       },
       {
-        "en": "Room to breathe can help a team finish carefully rather than abandon the task.",
-        "zh": "喘息空間可幫小組仔細完成，而非放棄工作。"
+        "en": "Leaving one afternoon unplanned gives the class space to breathe and test its own ideas.",
+        "zh": "預留一個下午不排滿活動，讓全班有空間自主嘗試想法。"
       }
     ],
     "review": {
@@ -1524,7 +1538,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-308",

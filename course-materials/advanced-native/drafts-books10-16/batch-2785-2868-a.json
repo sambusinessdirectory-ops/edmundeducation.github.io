@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2785",
+      "number": 2785,
+      "inventoryId": "expr-2785",
+      "titleEn": "part of the mix",
+      "titleZh": "其中一部分",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bpart of the mix\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "One component among several that together make up a programme, plan or situation.",
+        "meaningZh": "共同構成活動、計劃或情況的多個元素之一。",
+        "grammar": "Be part of the mix; name the whole collection and other components. Mix is figurative, not necessarily a physical mixture.",
+        "register": "Informal-to-neutral everyday English. An organiser may use it when describing a varied festival programme to visitors.",
+        "boundaryZh": "須有一個可辨的多元素整體；若某元素是唯一內容或已被取消，就不宜說是其中一部分。",
+        "misconceptionZh": "不是必須把東西攪拌起來，也不表示該元素最重要。",
+        "outcomeZh": "能指出整體、目標元素及至少一種其他組成部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0674",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 62,
+          "book": 11,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 59, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Jazz is still part of the mix at the festival.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "part of the mix"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The town festival will include craft workshops, short films and an evening folk concert. Music is part of the mix, but visitors can attend the workshops without going to the concert.",
+        "zh": "小鎮節日包括手工工作坊、短片及晚間民謠音樂會。音樂是其中一部分，但訪客可只參加工作坊而不聽音樂會。",
+        "promptZh": "音樂在節日中有甚麼位置？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is one offering among several activities.",
+            "zh": "它是多項活動中的一項。"
+          },
+          {
+            "id": "b",
+            "en": "It is the only activity visitors may choose.",
+            "zh": "它是訪客唯一可選活動。"
+          },
+          {
+            "id": "c",
+            "en": "It has been cancelled from the programme.",
+            "zh": "它已從節目中取消。"
+          },
+          {
+            "id": "d",
+            "en": "All visitors must physically mix instruments together.",
+            "zh": "所有訪客都必須真的把樂器混合。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "音樂與工藝、短片並列，不是全部。"
+      },
+      "reply": {
+        "promptEn": "A community course includes gardening, budgeting and bicycle maintenance sessions. A coordinator wants to explain that budgeting remains included but is not the whole course. What can she say?",
+        "promptZh": "（社區課程包括園藝、預算和單車保養。統籌員想說預算仍在課程內，但不是全部內容。她可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Budgeting is one of three strands.",
+            "zh": "預算是三個範疇之一。"
+          },
+          {
+            "id": "b",
+            "en": "The course also offers gardening and bicycle maintenance.",
+            "zh": "課程還有園藝及單車保養。"
+          },
+          {
+            "id": "c",
+            "en": "Budgeting is part of the mix.",
+            "zh": "預算是其中一部分。"
+          },
+          {
+            "id": "d",
+            "en": "Budgeting remains one strand alongside the other sessions.",
+            "zh": "預算仍與其他課節並列，是其中一個範疇。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述預算在多元素課程中的位置。"
+      },
+      "scene": {
+        "promptZh": "學校假期計劃有閱讀、運動及烹飪活動；閱讀仍在節目內，但不是唯一內容。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading is part of the mix.",
+            "zh": "閱讀是其中一部分。"
+          },
+          {
+            "id": "b",
+            "en": "Reading is the programme’s only activity.",
+            "zh": "閱讀是計劃唯一活動。"
+          },
+          {
+            "id": "c",
+            "en": "Reading has been removed from the programme.",
+            "zh": "閱讀已從計劃刪去。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "閱讀在多種活動中佔一席。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an activity is part of the mix？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A workshop has only one activity, drawing, and the organiser lists no other elements.",
+            "zh": "工作坊只有繪畫一項活動，主辦者沒有列出其他元素。"
+          },
+          {
+            "id": "b",
+            "en": "A fair offers food, storytelling and craft stalls.",
+            "zh": "市集有食物、說故事及手工攤位。"
+          },
+          {
+            "id": "c",
+            "en": "A schedule combines exercise with music and quiet reading.",
+            "zh": "時間表把運動、音樂與安靜閱讀結合。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有一項內容時，不是多元素中的一部分。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our library open day has storytelling, repair demonstrations and local music. Is music still included? B: ______",
+        "promptZh": "（甲：圖書館開放日有說故事、維修示範和本地音樂。音樂仍在嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, the programme includes music.",
+            "zh": "有，節目包括音樂。"
+          },
+          {
+            "id": "b",
+            "en": "Music sits alongside two other activities.",
+            "zh": "音樂與另外兩項活動並列。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, music is part of the mix.",
+            "zh": "有，音樂是其中一部分。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors will have more than one kind of activity.",
+            "zh": "訪客可參與不只一類活動。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出音樂是多項活動之一。"
+      },
+      "speaking": {
+        "en": "The youth centre still offers board games, but they are part of the mix alongside tutoring and outdoor walks.",
+        "zh": "青年中心仍提供桌上遊戲，但它與補習及戶外散步一樣只是多種活動之一。",
+        "promptZh": "點出整體和其他選項。",
+        "targetSpan": {
+          "start": 56,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個活動或計劃各有數種元素，其中一項保留但不是唯一內容。用英文寫出整體與其他元素。",
+        "selfCheckZh": "兩例須有至少一個其他組成部分，不能把唯一項目稱為 part of the mix。",
+        "examples": [
+          {
+            "en": "Poetry remained part of the mix at the school fair beside science puzzles and a student photo display.",
+            "zh": "學校市集保留詩歌，與科學謎題及學生攝影展並列，成為其中一部分。"
+          },
+          {
+            "en": "In the repair course, tool safety was part of the mix with hands-on mending and a short materials guide.",
+            "zh": "維修課程中，工具安全與動手修理及簡短材料指南並列，是其中一部分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "science puzzles",
+            "zh": "科學謎題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 73
+            }
+          },
+          {
+            "en": "student photo display",
+            "zh": "學生攝影展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 101
+            }
+          },
+          {
+            "en": "hands-on mending",
+            "zh": "動手修理",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 75
+            }
+          },
+          {
+            "en": "materials guide",
+            "zh": "材料指南",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Part of the mix means one element among several.",
+          "zh": "part of the mix 指多種元素中的一部分。"
+        },
+        {
+          "en": "Name the other components when you say something is part of the mix.",
+          "zh": "說某事是其中一部分時，應指出其他組成。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2859",
+      "number": 2859,
+      "inventoryId": "expr-2859",
+      "titleEn": "drowning in headlines",
+      "titleZh": "被新聞標題淹沒",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bdrowning in headlines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feeling overwhelmed by too many news headlines to process meaningfully.",
+        "meaningZh": "因新聞標題太多而感到難以消化、應接不暇。",
+        "grammar": "Be/feel drowning in headlines; figurative water image, not physical danger. Distinguish a high volume of headlines from one upsetting story.",
+        "register": "Informal expressive English. A news reader may use it when explaining information overload to a friend.",
+        "boundaryZh": "須有大量標題同時湧來而難以處理的線索；只讀到一條令人難過的新聞，不足以說被標題淹沒。",
+        "misconceptionZh": "不是人在水裏，也不表示所有標題都不可信。",
+        "outcomeZh": "能指出資訊量、對理解的影響及有分寸的整理方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0748",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 69,
+          "book": 11,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "79–81",
+          "locatorNote": "DOCX table 68, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I felt as if I was drowning in headlines by evening.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drowning in headlines"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "By lunchtime, Mei had seen dozens of election alerts from different angles. She could no longer tell which article she had read fully and felt she was drowning in headlines, so she chose two reports to examine.",
+        "zh": "午飯前，阿美看到數十條從不同角度報道選舉的通知。她已分不清哪些文章讀完，覺得被新聞標題淹沒，於是選兩份報道仔細看。",
+        "promptZh": "甚麼造成資訊過載？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Dozens of overlapping alerts made careful reading difficult.",
+            "zh": "數十條重疊通知令仔細閱讀變難。"
+          },
+          {
+            "id": "b",
+            "en": "One article gave her enough time to study all details.",
+            "zh": "只有一篇文章，她有足夠時間研究所有細節。"
+          },
+          {
+            "id": "c",
+            "en": "She was literally caught in floodwater.",
+            "zh": "她真的被洪水困住。"
+          },
+          {
+            "id": "d",
+            "en": "She had no access to any news.",
+            "zh": "她完全接觸不到新聞。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量標題令她難以區分所讀內容。"
+      },
+      "reply": {
+        "promptEn": "A volunteer follows local policy news. Thirty alerts arrive before breakfast, and she starts mixing up which council made which decision. How can she describe the experience and respond?",
+        "promptZh": "（義工留意地方政策新聞，早餐前收到三十條通知，開始混淆哪個議會作了哪項決定。她可怎樣形容及回應？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volume makes careful comparison hard.",
+            "zh": "資訊量令仔細比較變難。"
+          },
+          {
+            "id": "b",
+            "en": "She could pause alerts and read full reports selectively.",
+            "zh": "她可暫停通知，選擇完整報道閱讀。"
+          },
+          {
+            "id": "c",
+            "en": "She is drowning in headlines.",
+            "zh": "她被新聞標題淹沒。"
+          },
+          {
+            "id": "d",
+            "en": "Sorting by council would help her separate the decisions.",
+            "zh": "按議會分類可助她分清決定。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據大量標題及理解混亂。"
+      },
+      "scene": {
+        "promptZh": "學生手機一早收到數十條不同新聞通知，尚未讀全文已分不清內容。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student is drowning in headlines.",
+            "zh": "學生被新聞標題淹沒。"
+          },
+          {
+            "id": "b",
+            "en": "The student is physically underwater.",
+            "zh": "學生真的在水底。"
+          },
+          {
+            "id": "c",
+            "en": "One carefully read article caused no information overload.",
+            "zh": "一篇仔細閱讀的文章沒有造成資訊過載。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "標題數量與理解混亂支持比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is drowning in headlines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader chooses one article, reads it fully and can explain its main claim without competing alerts.",
+            "zh": "讀者選一篇文章讀完，沒有大量通知干擾，也能解釋主要說法。"
+          },
+          {
+            "id": "b",
+            "en": "Someone receives a stream of alerts faster than they can distinguish topics.",
+            "zh": "有人收到連串通知，快得無法分清題目。"
+          },
+          {
+            "id": "c",
+            "en": "A student skims many headlines and mixes up several unrelated events.",
+            "zh": "學生略讀大量標題，混淆數件不相關事件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一篇文章且沒有資訊量壓力，不適用。"
+      },
+      "dialogue": {
+        "promptEn": "A: My phone sent forty news alerts this morning. I skimmed them all and now cannot remember which story contains the actual figures. B: ______",
+        "promptZh": "（甲：今早手機送來四十條新聞通知。我都略讀了，現在記不起哪篇有實際數字。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That much input makes checking facts difficult.",
+            "zh": "那麼多資訊令核查事實困難。"
+          },
+          {
+            "id": "b",
+            "en": "You could choose a few full reports instead of every alert.",
+            "zh": "你可選幾篇完整報道，而非每條通知都看。"
+          },
+          {
+            "id": "c",
+            "en": "You sound as if you are drowning in headlines.",
+            "zh": "你聽來像被新聞標題淹沒。"
+          },
+          {
+            "id": "d",
+            "en": "Sorting the stories by topic may help.",
+            "zh": "按題目整理報道或有幫助。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出標題過多及理解受阻。"
+      },
+      "speaking": {
+        "en": "After the storm, I was drowning in headlines from several districts and kept confusing warnings with damage reports, so I opened the official updates one area at a time.",
+        "zh": "暴風雨後，我被幾區的新聞標題淹沒，經常混淆警告與災情報道，於是逐區打開官方更新。",
+        "promptZh": "說出資訊量、混淆及整理方式。",
+        "targetSpan": {
+          "start": 23,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人因大量標題湧來而難以理解，後來用有分寸的方法篩選或整理。用英文寫出影響及行動。",
+        "selfCheckZh": "兩例不可把單一難過新聞當成數量過載。",
+        "examples": [
+          {
+            "en": "Ravi felt he was drowning in headlines when a museum dispute generated twenty alerts before noon; he muted duplicates and read the council record.",
+            "zh": "博物館爭議在中午前帶來二十條通知，拉維感到被新聞標題淹沒；他關掉重複通知，閱讀議會紀錄。"
+          },
+          {
+            "en": "The class was drowning in headlines about transport changes, so the teacher grouped stories by route before students checked each timetable.",
+            "zh": "班上被交通改動的新聞標題淹沒，老師先按路線分類報道，再讓學生核查各時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "twenty alerts",
+            "zh": "二十條通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 84
+            }
+          },
+          {
+            "en": "council record",
+            "zh": "議會紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 145
+            }
+          },
+          {
+            "en": "grouped stories by route",
+            "zh": "按路線分類報道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 100
+            }
+          },
+          {
+            "en": "each timetable",
+            "zh": "各時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 139
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Drowning in headlines means overwhelmed by headline volume.",
+          "zh": "drowning in headlines 指標題量大得令人難以消化。"
+        },
+        {
+          "en": "Someone drowning in headlines can sort and verify a smaller set.",
+          "zh": "被標題淹沒的人可整理並核查較少量報道。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2868",
+      "number": 2868,
+      "inventoryId": "expr-2868",
+      "titleEn": "ran into it",
+      "titleZh": "偶然碰見",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:ran|run|runs|running) into it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Come across a particular item or piece of information unexpectedly while doing something else.",
+        "meaningZh": "做別的事時意外遇到某項資料或事物。",
+        "grammar": "Run into it; ran into it in past. Here it refers to an identified item encountered by chance, distinct from run into trouble/practical problems (meet difficulties).",
+        "register": "Neutral conversational English. A researcher may use it when explaining how an old notice surfaced during unrelated reading.",
+        "boundaryZh": "須有先前可指明的 it 及非刻意搜尋的偶遇；專程查找、早已預定取得資料，不是此處的 ran into it。",
+        "misconceptionZh": "不是身體撞上物件，也不是遇到困難的 run into trouble。",
+        "outcomeZh": "能指出偶遇的資料、原本正在做的事，以及偶遇如何改變後續查證。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0757",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 70,
+          "book": 11,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "82–83",
+          "locatorNote": "DOCX table 69, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I ran into it while reading the morning feed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ran into it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Leah had not been searching for the missing festival notice. While checking an unrelated article in the library archive, she ran into it in a scanned newsletter and saved the reference for the organiser.",
+        "zh": "莉亞本來沒有找遺失的節日通知。在圖書館檔案查一篇不相關文章時，她在掃描通訊中偶然碰見它，並把來源留給主辦者。",
+        "promptZh": "她如何找到通知？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She encountered it unexpectedly during unrelated archive reading.",
+            "zh": "她讀不相關檔案時意外找到它。"
+          },
+          {
+            "id": "b",
+            "en": "She followed a planned search for that exact notice.",
+            "zh": "她按計劃專程尋找那份通知。"
+          },
+          {
+            "id": "c",
+            "en": "She physically collided with a paper notice.",
+            "zh": "她身體撞上紙張通知。"
+          },
+          {
+            "id": "d",
+            "en": "The notice was delivered to her by appointment.",
+            "zh": "通知按約定送到她手上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本查別的文章，偶然看到通知。"
+      },
+      "reply": {
+        "promptEn": "A student is researching bus routes, not local theatre. In an old timetable booklet, he unexpectedly finds the first theatre poster; he had never seen it before. How can he explain the discovery?",
+        "promptZh": "（學生研究巴士路線而非地方劇院，在舊時間表小冊中意外找到首張劇院海報，此前從未看過。可怎樣解釋發現？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The poster appeared during a different search.",
+            "zh": "海報在另一次查找中出現。"
+          },
+          {
+            "id": "b",
+            "en": "He was not deliberately looking for the poster.",
+            "zh": "他並非刻意找海報。"
+          },
+          {
+            "id": "c",
+            "en": "He ran into it by chance.",
+            "zh": "他偶然碰見它。"
+          },
+          {
+            "id": "d",
+            "en": "The timetable booklet led him to an unexpected item.",
+            "zh": "時間表小冊帶他找到意料之外資料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據原本目的和意外發現。"
+      },
+      "scene": {
+        "promptZh": "研究者本來查河道地圖，在舊書附錄意外看到失蹤展覽的照片。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She ran into it while reading the appendix.",
+            "zh": "她讀附錄時偶然碰見它。"
+          },
+          {
+            "id": "b",
+            "en": "She deliberately booked a search for that exact photograph.",
+            "zh": "她特意安排尋找那張照片。"
+          },
+          {
+            "id": "c",
+            "en": "She ran into trouble building a bridge.",
+            "zh": "她建橋時遇到困難。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "it 指事先提到的照片，發現是偶然的。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone ran into it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A curator ordered a specific record by catalogue number and received exactly that record at the agreed time.",
+            "zh": "策展人按目錄號訂指定紀錄，並在約定時間收到該紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "A reader spotted an old poster while looking through unrelated meeting notes.",
+            "zh": "讀者翻查無關會議紀錄時看到舊海報。"
+          },
+          {
+            "id": "c",
+            "en": "A student found a forgotten map in a booklet on another topic.",
+            "zh": "學生在另一題目的小冊中發現被遺忘地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有目的且預期取得的資料，不是意外偶遇。"
+      },
+      "dialogue": {
+        "promptEn": "A: I was checking the council minutes for bus changes and saw that old photograph we could not find. I was not looking for the photograph there. B: ______",
+        "promptZh": "（甲：我查議會紀錄的巴士改動時，看見我們一直找不到的舊照片。我沒想到會在那裏找到。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The photograph turned up in an unexpected place.",
+            "zh": "照片在意料之外地方出現。"
+          },
+          {
+            "id": "b",
+            "en": "Your original search was about bus changes.",
+            "zh": "你原本查的是巴士改動。"
+          },
+          {
+            "id": "c",
+            "en": "You ran into it by chance.",
+            "zh": "你偶然碰見它。"
+          },
+          {
+            "id": "d",
+            "en": "That gives us a new source to verify.",
+            "zh": "那給了我們可核查的新來源。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句把 it 連回已指明照片。"
+      },
+      "speaking": {
+        "en": "The missing label was in a repair manual; I ran into it while looking for a wiring diagram.",
+        "zh": "那張缺失標籤原來在維修手冊中；我找線路圖時偶然碰見它。",
+        "promptZh": "交代 it 所指及原本搜尋目的。",
+        "targetSpan": {
+          "start": 44,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各為別的目的閱讀或搜尋，意外找到先前已提到的資料。用英文寫出 it 的指代與偶遇。",
+        "selfCheckZh": "兩例要讓 it 有清楚先行詞，不能只寫 I ran into it 而不知所指。",
+        "examples": [
+          {
+            "en": "The lost volunteer rota was not in the office folder; Hana ran into it while reading an old club newsletter for a different article.",
+            "zh": "失去的義工當值表不在辦公室文件夾；哈娜為另一篇文章讀舊社團通訊時，偶然在其中找到它。"
+          },
+          {
+            "en": "Ari did not search for the recipe card, but ran into it in a scanned family album while checking the date of a wedding photo.",
+            "zh": "阿里沒有尋找食譜卡，卻在核對婚照日期時，於掃描家族相簿偶然碰見它。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "volunteer rota",
+            "zh": "義工當值表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 23
+            }
+          },
+          {
+            "en": "club newsletter",
+            "zh": "社團通訊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 107
+            }
+          },
+          {
+            "en": "recipe card",
+            "zh": "食譜卡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 38
+            }
+          },
+          {
+            "en": "wedding photo",
+            "zh": "婚照",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Ran into it can mean unexpectedly encountered the named item.",
+          "zh": "ran into it 可指意外遇到先前已指明的事物。"
+        },
+        {
+          "en": "To say you ran into it, first make clear what it refers to.",
+          "zh": "說 ran into it 前，先要說清楚 it 所指。"
+        }
+      ]
+    }
+  ]
+}

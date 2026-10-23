@@ -1,0 +1,187 @@
+{
+  "reviewKind": "independent-ai-hold-merges-wave5",
+  "createdUtc": "2026-10-23T17:35:03.804529+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "inputAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave5-review-pilot.json",
+    "sha256": "9918073feec83964bd25b16613677766b22c184be3f79185eb742adba3a2784e"
+  },
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "fileHashes": {
+    "course-materials/advanced-native/batches/batch-0101-0125.json": "71b4715311a7987f59d3d830a4cb93ddd452b2f3ef09d6475462756b1d828411",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl": "504b3588067ddb8670ba205fb491ddbfa439d97d978d0bed1033d5a2ea441187",
+    "course-materials/advanced-native/batches/batch-0451-0475.json": "7cfc0e1acdda990bbc6de7ffc59f305478f30973e3756d958a1b8db703904754",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "03925b700391ae7bd1ba7a07f8b451341a532badb2c011ce78ace023e35ad291",
+    "course-materials/advanced-native/batches/batch-0351-0375.json": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": "dfce45cf9eaa48a811addea3b63ecfdf3d768bdec06894bd5b56e11f91d6eab1",
+    "course-materials/advanced-native/batches/batch-1576-1600.json": "172d9a93676a5c122e3d691a21a5c6685bff81fa85294e5a6d95f80adf1f4124",
+    "course-materials/advanced-native/batches/batch-0551-0575.json": "5dce1452a302a67b6b18d1aa49b3df8a67583d387907d99cc4af291155cda308",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl": "83561b046f47bfc00b5279dd4079a3b1a849374a17a977b2f33e7d7088fc3168",
+    "course-materials/advanced-native/batches/batch-1826-1850.json": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl": "b73e3c55d852c0bb517a4e136b4fe16ab57d3e099e7eedec75a97973a2ef130d",
+    "course-materials/advanced-native/batches/batch-1801-1825.json": "df872517370ef7364bad494c05e3d40af4b5d8a9ca2cdbe0f5b6581705db2659",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl": "a541adecf4d31b1173ee815a41ab5a66861ffdd1244debe3b1c686a7135cad3e",
+    "course-materials/advanced-native/batches/batch-0201-0225.json": "8c2694f465664e412b8470294bd4a5ccf108f7b5454ee1cafa15f152f5b24ffe",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": "f7e276e8f92520d0bd4338e8b2590af2af4e092d733b79709afcd25cd95b9636"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2945,
+      "sourceId": "book10-16-0834",
+      "canonicalId": "advanced-native-110",
+      "sourceExample": "Shared meals can act like glue in a busy family.",
+      "decisionRowSha256": "fb158570fb26a98618632a0260bf2516d968623e1356a69811961775215eaf9d",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 3341,
+      "sourceId": "book10-16-1230",
+      "canonicalId": "advanced-native-464",
+      "sourceExample": "Planning around uncertain dates can feel like building on sand.",
+      "decisionRowSha256": "3d4cec4c5c710421435e2f71d576027d0aa0981789d4b6658e283348462e7159",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 3580,
+      "sourceId": "book10-16-1469",
+      "canonicalId": "advanced-native-351",
+      "sourceExample": "No qualified student should be priced out of higher education.",
+      "decisionRowSha256": "e5c1f40b4cb1c7dfab39675691fb29d09b0e2fe2745434b904497665f3d36e32",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 3611,
+      "sourceId": "book10-16-1500",
+      "canonicalId": "advanced-native-1586",
+      "sourceExample": "At university, nobody will hold your hand every step of the way.",
+      "decisionRowSha256": "a85752c35bb925a81732d8ebcaac2ad793faf32e0724ac711d7d22a2e05c6ff6",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 4203,
+      "sourceId": "book10-16-2092",
+      "canonicalId": "advanced-native-563",
+      "sourceExample": "Coding was new territory for my parents.",
+      "decisionRowSha256": "60cfcf6a5dd283249950c3ad0afafc3ffa035847280411f2757a16f598645877",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 4615,
+      "sourceId": "book10-16-2504",
+      "canonicalId": "advanced-native-1830",
+      "sourceExample": "Travel pulls people out of their usual bubble.",
+      "decisionRowSha256": "583c8c3c0d215c38e4433d3e8d888be70a978753f35ae83fc9b5cb62b2c17b85",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 4643,
+      "sourceId": "book10-16-2532",
+      "canonicalId": "advanced-native-1809",
+      "sourceExample": "The viewpoint offers the postcard version of Hong Kong.",
+      "decisionRowSha256": "946a936af9d6ff7761c379bf35f7b13fea340bd65208eac2a586bb4242e903e0",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    },
+    {
+      "sourceOrdinal": 3792,
+      "sourceId": "book10-16-1681",
+      "canonicalId": "advanced-native-208",
+      "sourceExample": "Local stores may have the edge on friendliness.",
+      "decisionRowSha256": "c0f9cc98ad4a4d85cf1064b9202582731657e51e3aa0225935a2e3f06c25e795",
+      "checks": {
+        "canonicalHashMatchesAudit": true,
+        "decisionHashMatchesAudit": true,
+        "decisionExact": true,
+        "provenanceExact": true,
+        "fullSourceDetectorMatch": true,
+        "allPositiveControlsMatch": true,
+        "allNegativeControlsReject": true
+      },
+      "senseDecision": "same-owner variant"
+    }
+  ],
+  "editorialAssessment": {
+    "2945": "Act like glue retains the social-cohesion metaphor of the glue that holds a group together.",
+    "3341": "Building on sand retains the unreliable-foundation idiom; the dialogue key checks the unconfirmed venue before cosmetic work.",
+    "3580": "Priced out of higher education is the education-access instance of unaffordability, with a target-bearing dialogue key that separates cost from disinterest.",
+    "3611": "Hold your hand every step of the way adds degree and often-negated guidance to the same figurative support construction; the owner brief and takeaway distinguish support from total task takeover.",
+    "4203": "New territory and unfamiliar territory both mark an area the experiencer does not yet know.",
+    "4615": "Pull people out of their usual bubble is the causative counterpart of stepping out; the brief states the agency difference.",
+    "4643": "Postcard version is a polished-place depiction analogous to postcard view, while the takeaway preserves the fuller-story contrast.",
+    "3792": "Have the edge on friendliness is a business advantage on a quality dimension, within canonical commercial-edge meaning; the repaired key asks for comparative customer evidence."
+  },
+  "changedAssessedContent": "Reviewed revised 208/351/464/563 dialogue keys and EN/ZH. Each key contains its target, responds to its prompt, and alternatives remain distinguishable; four-valid reply content in these owners remains separate.",
+  "focusedBuildCheck": {
+    "lessons": 177,
+    "questions": 1062,
+    "audioRequests": 708,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI content/source/regex review at the recorded hashes. This report does not certify human listening, release, or publication.",
+  "manifestEdited": false,
+  "published": false
+}

@@ -1,0 +1,20 @@
+{
+  "reviewType": "independent-ai-exact-hash-followup",
+  "initialReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2920-3676-b-initial.json",
+  "initialReportSha256": "0a6856281a50c1c767fe1209ad0c0d15d6ba648dbe320c3a24ac193294838a9c",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2920-2956-a.json", "sha256": "529854c7ce942ae36a3068475a451b400447a2ffa605605cd91d8aa80e5a0285"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json", "sha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3564-3676-a.json", "sha256": "d27898c6d7bb5f1efcf9fbf5a9304191ee2b3ac13285df5fd7dd8912842b6b33"}
+  ],
+  "authorSelfAuditSha256": "0bb994e95d9825ce211738b1a164a75eb41f8467b3f1d85f75341ca17318a4c3",
+  "status": "content-clear-at-listed-hashes",
+  "priorFindings": [
+    {"id": "R2924-01", "status": "cleared", "evidence": "Reply D now says Jo is preparing a celebration for the garden opening; it independently answers the action question in both languages."},
+    {"id": "R3572-01", "status": "cleared", "evidence": "Replies B and D now explicitly assign final safety decisions to adults while preserving children's opportunity to suggest activities; only keyed C bears the target expression."},
+    {"id": "R3658-01", "status": "cleared", "evidence": "All three scene options now use gender-neutral '那人' for the unspecified person and neutral English 'They'."},
+    {"id": "R3658-02", "status": "cleared", "evidence": "Second writing model now translates 'music club' as '音樂社', preserving weekly indoor meetings and occasional outdoor rehearsal."}
+  ],
+  "validation": "Independent combined build and --check pass: 9 lessons, 54 questions, 36 audio requests, zero review flags. The prior source/target/span and owner-scope checks remain valid; no regression found in changed fields.",
+  "limits": "AI content clearance only; no release, human listening certification or publication approval is implied."
+}

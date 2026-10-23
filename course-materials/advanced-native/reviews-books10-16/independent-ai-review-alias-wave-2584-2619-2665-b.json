@@ -1,0 +1,67 @@
+{
+  "reviewType": "independent-ai-focused-three-alias-review",
+  "status": "three-held-to-existing-alias-rows-content-clear",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2584-2619-2665-a.json",
+  "authorAuditSha256": "76f47054ad7129f51a108afac76a25cd2dbf396d106b860a77e41b9a4fca750c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "rows": [
+    {
+      "sourceOrdinal": 2584,
+      "sourceId": "book10-16-0473",
+      "canonicalId": "advanced-native-1957",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1951-1975.json",
+      "canonicalBatchSha256": "42c90e8d0e6e1922295d1639da4dbff3035692ad9416f93f990152cb6b098592",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "f61ff5d4d7135b36116cd56a07ba3d288309d1805efb63741c1c7411b7f2a433",
+      "decisionRowSha256": "edcde629427da3c1c2c68c66436a47b23249708560b3e4a297dba7407dbe5c98"
+    },
+    {
+      "sourceOrdinal": 2619,
+      "sourceId": "book10-16-0508",
+      "canonicalId": "advanced-native-1813",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "canonicalBatchSha256": "a28c557282e9798cb0b52ef04c3a8d241db4720aa0ec73b1e2a5207ace16b3ae",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "a725844228004b52e12e1b0d7683b76cf6ed503dd65aedc85dca3342a82d1609",
+      "decisionRowSha256": "863556a26b7dd8e20ba502860ea2ca96309cf6f0eef9c4ee0aad4d3fe71b11c0"
+    },
+    {
+      "sourceOrdinal": 2665,
+      "sourceId": "book10-16-0554",
+      "canonicalId": "advanced-native-1430",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1426-1450.json",
+      "canonicalBatchSha256": "d71d2da3179ecae0171dd645b38a175e199391e6c7c1c1309c659521105fb042",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "4d128aaf43fbcb396d188827e50f84d69658a93f43e4ab88822b0337440a78e0",
+      "decisionRowSha256": "581b188531d071fdecd57dbd1431ba113760d0b44ebde47998813bdc56f1d7a7"
+    }
+  ],
+  "ownerAssessments": [
+    {
+      "sourceOrdinal": 2584,
+      "owner": "advanced-native-1957",
+      "assessment": "A video leading a child into a rabbit hole is the causative frame of the existing extended linked-exploration metaphor. It does not require a new meaning; the revised brief allows useful or distracting exploration and the takeaway gives a distinct recipe-index context."
+    },
+    {
+      "sourceOrdinal": 2619,
+      "owner": "advanced-native-1813",
+      "assessment": "Not buying a tablet on a whim denies an impulsive reason; changing course on a whim and buying on a whim share the same adverbial cause. The revised brief keeps neutral valence and the new course-signup takeaway naturally tests considered action under negation."
+    },
+    {
+      "sourceOrdinal": 2665,
+      "owner": "advanced-native-1430",
+      "assessment": "Squeezing everyone into the same mould is the progressive/general-object frame of the existing imposed-conformity metaphor. The brief and takeaway retain the one-size-fits-all harm without making every shared rubric inherently wrong."
+    }
+  ],
+  "validation": {
+    "exactSourceProvenance": "All three canonical source arrays contain the exact occurrence ID, source sentence/expression and book/question/sample/page locator metadata from inventory.",
+    "targetAndDecisions": "All three full source examples match their live owner detector with i flags. Current decision rows retain exact source ID/phrase, proposed-alias-existing action and owner; canonical and decision file hashes equal author handoff.",
+    "independentBuildAndCheck": "Three canonical batch files together: 57 lessons, 342 questions, 228 audio requests, zero review flags in build and --check.",
+    "originality": "Independent 2604-source selected-manifest screen found no exact/high/medium or near-full/review-near-full overlaps for owners 1957,1813,1430.",
+    "englishChinese": "All three changed takeaway-2 English/Traditional Chinese pairs were checked for meaning and naturalness; no material drift found. Keyed assessed items were not changed by this wave."
+  },
+  "findings": [],
+  "limits": "Focused source-frame and takeaway review, not line-by-line proofread of all 57 lessons or human audio listening; changed audio roles require normal refresh and release checks.",
+  "releaseApproved": false,
+  "humanListeningApproved": false
+}

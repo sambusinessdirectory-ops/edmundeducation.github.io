@@ -1,0 +1,309 @@
+{
+  "reviewType": "AI author self-audit, not independent human or release approval",
+  "scope": "Second separate wave: seven bounded canonical expansions and 11 same-sense held-source to existing-owner alias conversions.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "counts": {
+    "canonicalOwnersRevised": 7,
+    "holdRowsConverted": 11,
+    "canonicalFilesChanged": 6,
+    "decisionFilesChanged": 7,
+    "changedAudioRequests": 7,
+    "globalExistingAliasesAtAudit": 1009,
+    "globalRemainingHoldsAtAudit": 883
+  },
+  "canonicalRegression": [
+    {
+      "canonicalId": "advanced-native-139",
+      "file": "course-materials/advanced-native/batches/batch-0126-0150.json",
+      "fileSha256": "ee1340c2cfda84aae81f3cc865714b423c53aecf46f2178bc0040b9ee0f2a44b",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:come|comes|coming|came) away with a positive impression\\b",
+      "newPattern": "\\b(?:come|comes|coming|came) away with (?:a positive impression|a new respect)\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "Visitors came away with a new respect for the team.",
+          "I come away with a positive impression."
+        ],
+        "negative": [
+          "We came away with a new camera.",
+          "They went away with respect."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-161",
+      "file": "course-materials/advanced-native/batches/batch-0151-0175.json",
+      "fileSha256": "aed8cd4c4514ec69fef541b9c33eee176b33d8b0979ae4c842e782a37e7d197b",
+      "beforeRevision": 2,
+      "afterRevision": 3,
+      "oldPattern": "\\bhidden in plain sight\\b",
+      "newPattern": "\\b(?:hidden in plain sight|(?:hide|hides|hiding|hid) clues in plain sight)\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "The clue was hidden in plain sight.",
+          "The author hid clues in plain sight."
+        ],
+        "negative": [
+          "The author hid clues behind a locked door.",
+          "The clue was plain to see."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-327",
+      "file": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "fileSha256": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account) )?to life\\b",
+      "newPattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account|ideas|that reality) )?to life\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "The sketch brought ideas to life.",
+          "Photos bring that reality to life.",
+          "The show brings history to life."
+        ],
+        "negative": [
+          "The sketch brought the chairs to life.",
+          "They bring ideas into the room."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": true
+    },
+    {
+      "canonicalId": "advanced-native-328",
+      "file": "course-materials/advanced-native/batches/batch-0326-0350.json",
+      "fileSha256": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:drawn|draw|draws|drawing|drew) in\\b",
+      "newPattern": "\\b(?:drawn|draw|draws|drawing|drew) (?:in\\b|into (?:a|the) story\\b)",
+      "oldSourceMatchesRetained": 2,
+      "controls": {
+        "positive": [
+          "I was drawn into a story.",
+          "She was drawn in by the opening."
+        ],
+        "negative": [
+          "I was drawn into a crime.",
+          "She drew a picture."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": true
+    },
+    {
+      "canonicalId": "advanced-native-1066",
+      "file": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "fileSha256": "cea9ac18515d2fd8f46bc689180b21176f84ec70e6331c3e0144554b13fd22ae",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas)\\b",
+      "newPattern": "\\bspark(?:s|ed|ing)? (?:something in (?:them|him|her|us|me)|(?:new )?ideas|curiosity)\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "A visit can spark curiosity.",
+          "It sparked something in them."
+        ],
+        "negative": [
+          "It sparked a fire.",
+          "The visit caused boredom."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1524",
+      "file": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "fileSha256": "92a8eaef799efb927fd776ece93867529b13fae82c41715185ff09417687414e",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bfamily\\s+bonds\\s+are\\s+quietly\\s+strengthened\\b",
+      "newPattern": "\\b(?:family\\s+bonds\\s+are\\s+quietly\\s+strengthened|strengthen(?:s|ed|ing)?\\s+(?:family\\s+)?bonds)\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "Shared meals strengthen bonds.",
+          "Family bonds are quietly strengthened."
+        ],
+        "negative": [
+          "Shared meals strengthen bridges.",
+          "The bonds were sold."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1872",
+      "file": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "fileSha256": "bbd4949ace3b211f35b55cb2107442a665efac5e408237c79d9172cb4eefc051",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bjuggle three things at once\\b",
+      "newPattern": "\\b(?:juggle|juggles|juggled|juggling) (?:three things at once|work and family duties)\\b",
+      "oldSourceMatchesRetained": 0,
+      "controls": {
+        "positive": [
+          "She was juggling work and family duties.",
+          "I juggle three things at once."
+        ],
+        "negative": [
+          "The performer was juggling three balls.",
+          "She worked on family duties yesterday."
+        ]
+      },
+      "controlsPass": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    }
+  ],
+  "convertedRows": [
+    {
+      "sourceOrdinal": 2267,
+      "sourceId": "book10-16-0156",
+      "sourceExample": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "owner": "advanced-native-139",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "02f0c4070f5c8878d1f67c4e5961c94d7500a65005b369b6c586849c8901f18a"
+    },
+    {
+      "sourceOrdinal": 2822,
+      "sourceId": "book10-16-0711",
+      "sourceExample": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "owner": "advanced-native-139",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionRowSha256": "e249c8e84bf46ccd85cbfa4f4a1ed9349d942ffeeae1905f5131af292015170a"
+    },
+    {
+      "sourceOrdinal": 3506,
+      "sourceId": "book10-16-1395",
+      "sourceExample": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "owner": "advanced-native-139",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionRowSha256": "c2031dd5539f7f629657a591b4ac294e7e19ce0eeed5ebdaba2ca408876e24ee"
+    },
+    {
+      "sourceOrdinal": 4307,
+      "sourceId": "book10-16-2196",
+      "sourceExample": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "owner": "advanced-native-139",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "decisionRowSha256": "4d25b230c248daf59e855fbdb7625ce8b3e7b346a582c3812e9faf804a34b78a"
+    },
+    {
+      "sourceOrdinal": 2392,
+      "sourceId": "book10-16-0281",
+      "sourceExample": "The writer likes to hide clues in plain sight.",
+      "sourceGuideMeaning": "Place clues openly where they are still overlooked; a conventional paradoxical phrase.",
+      "owner": "advanced-native-161",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionRowSha256": "4c70baee0cd6e938e728496a1c232f43fdd6fccd9048c1ede11a9175f1d92a87"
+    },
+    {
+      "sourceOrdinal": 2263,
+      "sourceId": "book10-16-0152",
+      "sourceExample": "The model helped bring ideas to life for the class.",
+      "sourceGuideMeaning": "Make abstract ideas vivid and understandable; a fixed figurative pattern.",
+      "owner": "advanced-native-327",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "d955939227d00ceca182081ec08321a1b880abb030eea7b86f042cd2b9916fa0"
+    },
+    {
+      "sourceOrdinal": 2299,
+      "sourceId": "book10-16-0188",
+      "sourceExample": "The photographs bring that reality to life for readers.",
+      "sourceGuideMeaning": "Make a real situation vivid and immediate; a fixed figurative pattern.",
+      "owner": "advanced-native-327",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRowSha256": "679a68fc89012c204e3cfa1558156491a4c4fe757cd4937946e40ef241f417af"
+    },
+    {
+      "sourceOrdinal": 2300,
+      "sourceId": "book10-16-0189",
+      "sourceExample": "The audience felt drawn into a story about ordinary neighbours.",
+      "sourceGuideMeaning": "Absorbed by a narrative; drawn suggests physical movement figuratively.",
+      "owner": "advanced-native-328",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRowSha256": "f6aba09915ee7ada3c31b7e6769b731a917ccdc921ff774530d81221e6574ddc"
+    },
+    {
+      "sourceOrdinal": 2277,
+      "sourceId": "book10-16-0166",
+      "sourceExample": "A museum visit can spark curiosity about local history.",
+      "sourceGuideMeaning": "Cause interest to begin; spark is a figurative ignition image.",
+      "owner": "advanced-native-1066",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "4d11a6d9b9c440e1d856206134bb51c216d8d118f51aeb6ddda64727a89eac8c"
+    },
+    {
+      "sourceOrdinal": 2222,
+      "sourceId": "book10-16-0111",
+      "sourceExample": "Shared meals can strengthen bonds across generations.",
+      "sourceGuideMeaning": "Deepen relationships between people; a natural collocation with bonds used figuratively.",
+      "owner": "advanced-native-1524",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "56bf5dff9148031203269dc3a4e69ef76a4617dfe0c27fc0c0efe4e41815e16f"
+    },
+    {
+      "sourceOrdinal": 2214,
+      "sourceId": "book10-16-0103",
+      "sourceExample": "Juggling work and family duties left him exhausted.",
+      "sourceGuideMeaning": "Handling several demands at the same time; juggling is figurative here.",
+      "owner": "advanced-native-1872",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "7f322756e51e2a1b875e8fb861ee156195ba34f41a3d2a4f4465ed4361ecc377"
+    }
+  ],
+  "canonicalFileHashes": {
+    "course-materials/advanced-native/batches/batch-0126-0150.json": "ee1340c2cfda84aae81f3cc865714b423c53aecf46f2178bc0040b9ee0f2a44b",
+    "course-materials/advanced-native/batches/batch-0151-0175.json": "aed8cd4c4514ec69fef541b9c33eee176b33d8b0979ae4c842e782a37e7d197b",
+    "course-materials/advanced-native/batches/batch-0326-0350.json": "597d726f08eeb0dd24679ac39a15e620685274237148ddee78e4613a14a27ce2",
+    "course-materials/advanced-native/batches/batch-1051-1075.json": "cea9ac18515d2fd8f46bc689180b21176f84ec70e6331c3e0144554b13fd22ae",
+    "course-materials/advanced-native/batches/batch-1501-1525.json": "92a8eaef799efb927fd776ece93867529b13fae82c41715185ff09417687414e",
+    "course-materials/advanced-native/batches/batch-1851-1875.json": "bbd4949ace3b211f35b55cb2107442a665efac5e408237c79d9172cb4eefc051"
+  },
+  "decisionFileHashes": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl": "8568a1b467924f07ccf36c5aba095e2b360c3cfab126468a9dad26fa84eb173d",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl": "861d543de76281afb177bc5ca386a24aab9f31b9c76c5fea8cb5f3570e1fe6c9",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl": "93fc45dbc71c4c9822e01375b3f5d24515a295c5e4f430503c6d63549476b905",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "a7e1cf4abd1537cd9e483dcf64b438df1f5bad82ca9ec656a6daa856b24d5eee",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl": "ea0c025c304ea21e6ab8e81f438ee8dab1af034634aaa3c0bd40351efb7b5471",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl": "d7ee543d9bae4f26720bb65c6ff071105f7e8628220a8f85b9d241bdc968dc93",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl": "67f49856f3692ea58d5ff1d7702386cc1facc566083bdd787bf130e3ea5d04f6"
+  },
+  "focusedBuildCheck": "All six touched canonical batches passed build and --check with zero flags.",
+  "fullVerifier": {
+    "selectedExistingAliasPatternExceptions": 0,
+    "drafts": 552,
+    "questions": 3312,
+    "releaseApproved": false,
+    "published": false
+  },
+  "openGates": [
+    "Independent exact-hash AI review",
+    "Generate and verify seven changed takeaway-2 clips",
+    "Hosted-media and browser/device release checks"
+  ]
+}

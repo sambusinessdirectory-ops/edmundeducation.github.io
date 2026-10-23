@@ -1,0 +1,497 @@
+{
+  "reviewType": "Automated exact-provenance audit, not independent editorial/human/release approval",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "waveSourceFiles": [
+    "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-38-review-pilot.json",
+    "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-11-review-pilot.json",
+    "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave3-review-pilot.json",
+    "course-materials/advanced-native/reviews-books10-16/author-implementation-audit-hold-merges-wave4-review-pilot.json"
+  ],
+  "counts": {
+    "convertedRows": 80,
+    "passed": 80,
+    "failed": 0
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2227,
+      "sourceId": "book10-16-0116",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2233,
+      "sourceId": "book10-16-0122",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2254,
+      "sourceId": "book10-16-0143",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2323,
+      "sourceId": "book10-16-0212",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2347,
+      "sourceId": "book10-16-0236",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2877,
+      "sourceId": "book10-16-0766",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2915,
+      "sourceId": "book10-16-0804",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3480,
+      "sourceId": "book10-16-1369",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3485,
+      "sourceId": "book10-16-1374",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3491,
+      "sourceId": "book10-16-1380",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3496,
+      "sourceId": "book10-16-1385",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3772,
+      "sourceId": "book10-16-1661",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4069,
+      "sourceId": "book10-16-1958",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4458,
+      "sourceId": "book10-16-2347",
+      "canonicalId": "advanced-native-021",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2363,
+      "sourceId": "book10-16-0252",
+      "canonicalId": "advanced-native-283",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2387,
+      "sourceId": "book10-16-0276",
+      "canonicalId": "advanced-native-283",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2182,
+      "sourceId": "book10-16-0071",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2898,
+      "sourceId": "book10-16-0787",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3015,
+      "sourceId": "book10-16-0904",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3315,
+      "sourceId": "book10-16-1204",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3361,
+      "sourceId": "book10-16-1250",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3526,
+      "sourceId": "book10-16-1415",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3566,
+      "sourceId": "book10-16-1455",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3579,
+      "sourceId": "book10-16-1468",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3632,
+      "sourceId": "book10-16-1521",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3866,
+      "sourceId": "book10-16-1755",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4196,
+      "sourceId": "book10-16-2085",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4223,
+      "sourceId": "book10-16-2112",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4477,
+      "sourceId": "book10-16-2366",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4526,
+      "sourceId": "book10-16-2415",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4600,
+      "sourceId": "book10-16-2489",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4633,
+      "sourceId": "book10-16-2522",
+      "canonicalId": "advanced-native-567",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2256,
+      "sourceId": "book10-16-0145",
+      "canonicalId": "advanced-native-837",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2179,
+      "sourceId": "book10-16-0068",
+      "canonicalId": "advanced-native-841",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2139,
+      "sourceId": "book10-16-0028",
+      "canonicalId": "advanced-native-855",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2184,
+      "sourceId": "book10-16-0073",
+      "canonicalId": "advanced-native-1149",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2172,
+      "sourceId": "book10-16-0061",
+      "canonicalId": "advanced-native-1821",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3242,
+      "sourceId": "book10-16-1131",
+      "canonicalId": "advanced-native-1821",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2267,
+      "sourceId": "book10-16-0156",
+      "canonicalId": "advanced-native-139",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2822,
+      "sourceId": "book10-16-0711",
+      "canonicalId": "advanced-native-139",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3506,
+      "sourceId": "book10-16-1395",
+      "canonicalId": "advanced-native-139",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4307,
+      "sourceId": "book10-16-2196",
+      "canonicalId": "advanced-native-139",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2392,
+      "sourceId": "book10-16-0281",
+      "canonicalId": "advanced-native-161",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2263,
+      "sourceId": "book10-16-0152",
+      "canonicalId": "advanced-native-327",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2299,
+      "sourceId": "book10-16-0188",
+      "canonicalId": "advanced-native-327",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2300,
+      "sourceId": "book10-16-0189",
+      "canonicalId": "advanced-native-328",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2277,
+      "sourceId": "book10-16-0166",
+      "canonicalId": "advanced-native-1066",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2222,
+      "sourceId": "book10-16-0111",
+      "canonicalId": "advanced-native-1524",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2214,
+      "sourceId": "book10-16-0103",
+      "canonicalId": "advanced-native-1872",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2895,
+      "sourceId": "book10-16-0784",
+      "canonicalId": "advanced-native-711",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2941,
+      "sourceId": "book10-16-0830",
+      "canonicalId": "advanced-native-156",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3103,
+      "sourceId": "book10-16-0992",
+      "canonicalId": "advanced-native-801",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3436,
+      "sourceId": "book10-16-1325",
+      "canonicalId": "advanced-native-801",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3713,
+      "sourceId": "book10-16-1602",
+      "canonicalId": "advanced-native-801",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4271,
+      "sourceId": "book10-16-2160",
+      "canonicalId": "advanced-native-801",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3262,
+      "sourceId": "book10-16-1151",
+      "canonicalId": "advanced-native-1129",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3314,
+      "sourceId": "book10-16-1203",
+      "canonicalId": "advanced-native-1162",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3353,
+      "sourceId": "book10-16-1242",
+      "canonicalId": "advanced-native-504",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3404,
+      "sourceId": "book10-16-1293",
+      "canonicalId": "advanced-native-1869",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3423,
+      "sourceId": "book10-16-1312",
+      "canonicalId": "advanced-native-1861",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3466,
+      "sourceId": "book10-16-1355",
+      "canonicalId": "advanced-native-1806",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3596,
+      "sourceId": "book10-16-1485",
+      "canonicalId": "advanced-native-554",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4127,
+      "sourceId": "book10-16-2016",
+      "canonicalId": "advanced-native-057",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4411,
+      "sourceId": "book10-16-2300",
+      "canonicalId": "advanced-native-165",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4672,
+      "sourceId": "book10-16-2561",
+      "canonicalId": "advanced-native-897",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4342,
+      "sourceId": "book10-16-2231",
+      "canonicalId": "advanced-native-847",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4314,
+      "sourceId": "book10-16-2203",
+      "canonicalId": "advanced-native-1430",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2812,
+      "sourceId": "book10-16-0701",
+      "canonicalId": "advanced-native-2010",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2820,
+      "sourceId": "book10-16-0709",
+      "canonicalId": "advanced-native-1928",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2891,
+      "sourceId": "book10-16-0780",
+      "canonicalId": "advanced-native-419",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3299,
+      "sourceId": "book10-16-1188",
+      "canonicalId": "advanced-native-419",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 2944,
+      "sourceId": "book10-16-0833",
+      "canonicalId": "advanced-native-1523",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3032,
+      "sourceId": "book10-16-0921",
+      "canonicalId": "advanced-native-1680",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3078,
+      "sourceId": "book10-16-0967",
+      "canonicalId": "advanced-native-307",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3202,
+      "sourceId": "book10-16-1091",
+      "canonicalId": "advanced-native-115",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3259,
+      "sourceId": "book10-16-1148",
+      "canonicalId": "advanced-native-028",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3292,
+      "sourceId": "book10-16-1181",
+      "canonicalId": "advanced-native-1175",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3322,
+      "sourceId": "book10-16-1211",
+      "canonicalId": "advanced-native-534",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 3356,
+      "sourceId": "book10-16-1245",
+      "canonicalId": "advanced-native-785",
+      "pass": true
+    },
+    {
+      "sourceOrdinal": 4593,
+      "sourceId": "book10-16-2482",
+      "canonicalId": "advanced-native-1503",
+      "pass": true
+    }
+  ]
+}

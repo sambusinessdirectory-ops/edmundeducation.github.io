@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4444",
+      "number": 4444,
+      "inventoryId": "expr-4444",
+      "titleEn": "actions can sometimes speak louder than words",
+      "titleZh": "行動有時比說話更有說服力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bactions (?:can sometimes|sometimes|can|often) speak louder than words\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "What a person actually does can communicate commitment or care more convincingly than what they say.",
+        "meaningZh": "一個人的實際行動有時比口頭說法更能表達承諾或關心。",
+        "grammar": "Actions can sometimes speak louder than words is a proverb; sometimes keeps the claim bounded rather than universal.",
+        "register": "Conversational reflective English. A team member may use it when comparing promised support with help actually given.",
+        "boundaryZh": "須有行動與說法可比較；一句話也可重要，不能一概斷定行動必然勝過言語。",
+        "misconceptionZh": "不是行動真的發聲，也不是說道歉或解釋永遠沒有價值。",
+        "outcomeZh": "能指出口頭承諾、可核實行動及其造成的信任變化。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2333",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 220,
+          "book": 16,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 242, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In reconciliation, actions can sometimes speak louder than words.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "actions can sometimes speak louder than words"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The treasurer promised clearer event accounts. She posted itemised receipts and answered members’ questions. Her actions can sometimes speak louder than words because members can check the figures.",
+        "zh": "司庫承諾令活動帳目更清楚。她發布逐項收據並回答提問。她的行動有時比說話更有說服力，因為成員可核查數字。",
+        "promptZh": "甚麼令承諾較可信？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She shared records members could inspect and answered questions.",
+            "zh": "她提供可核查紀錄並回答問題。"
+          },
+          {
+            "id": "b",
+            "en": "She repeated the promise but withheld all figures.",
+            "zh": "她重複承諾，卻隱瞞所有數字。"
+          },
+          {
+            "id": "c",
+            "en": "Members were told not to ask about expenses.",
+            "zh": "成員被告知不得問開支。"
+          },
+          {
+            "id": "d",
+            "en": "The receipts were never posted or checked.",
+            "zh": "收據從未公布或核查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可核查的行動支撐了原來的說法。"
+      },
+      "reply": {
+        "promptEn": "A neighbour says she will help maintain a shared ramp. She turns up on two scheduled repair days, brings the agreed materials and finishes the assigned section. What do those actions show alongside her promise?",
+        "promptZh": "（一名鄰居說會協助保養共用斜道。她在兩個預定維修日到場，帶齊商定材料，完成獲分派部分。這些行動連同承諾顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She followed through on the promise.",
+            "zh": "她實際履行承諾。"
+          },
+          {
+            "id": "b",
+            "en": "Others can see what she completed.",
+            "zh": "其他人可看到她完成的工作。"
+          },
+          {
+            "id": "c",
+            "en": "Her actions can sometimes speak louder than words.",
+            "zh": "她的行動有時比說話更有說服力。"
+          },
+          {
+            "id": "d",
+            "en": "The repair gives the promise concrete support.",
+            "zh": "維修行動為承諾提供具體支持。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據到場、材料及完成工作回答。"
+      },
+      "scene": {
+        "promptZh": "社團主席說會聆聽新人，之後真的安排時間讓新人提出問題並記錄建議。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Actions can sometimes speak louder than words.",
+            "zh": "行動有時比說話更有說服力。"
+          },
+          {
+            "id": "b",
+            "en": "The chair only repeated the promise and refused questions.",
+            "zh": "主席只重複承諾，並拒絕提問。"
+          },
+          {
+            "id": "c",
+            "en": "The recorded suggestions show no listening occurred.",
+            "zh": "記下的建議證明從未聆聽。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際安排與記錄讓承諾可見。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 actions spoke louder than words？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Someone says they will help but takes no action and gives no reason.",
+            "zh": "有人說會幫忙，卻毫無行動，也沒有解釋。"
+          },
+          {
+            "id": "b",
+            "en": "A volunteer promises to deliver supplies and completes the delivery on time.",
+            "zh": "義工承諾送物資，並準時完成。"
+          },
+          {
+            "id": "c",
+            "en": "A manager promises a clearer rota and publishes one staff can check.",
+            "zh": "經理承諾更清楚更表，並公布一份員工可核查的更表。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有說法而沒有相應行動，無從比較實際履行。"
+      },
+      "dialogue": {
+        "promptEn": "A: The director said she would improve access, then installed the tested ramp and asked wheelchair users to review it. B: ______",
+        "promptZh": "（甲：總監說會改善無障礙通道，之後安裝了經測試的斜道，還請輪椅使用者檢視。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She did more than restate the promise.",
+            "zh": "她不只是重述承諾。"
+          },
+          {
+            "id": "b",
+            "en": "Users can assess the installed ramp.",
+            "zh": "使用者可評估已安裝斜道。"
+          },
+          {
+            "id": "c",
+            "en": "Her actions can sometimes speak louder than words.",
+            "zh": "她的行動有時比說話更有說服力。"
+          },
+          {
+            "id": "d",
+            "en": "The review gives a way to check whether the change helps.",
+            "zh": "檢視可核查改動是否有幫助。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句把可檢驗行動與原承諾相比。"
+      },
+      "speaking": {
+        "en": "A mentor said he would support the new technicians, then protected a weekly practice hour and reviewed their work; actions can sometimes speak louder than words when support is this visible.",
+        "zh": "導師說會支援新技師，之後固定每週練習時段並檢視作品；支援如此具體可見時，行動有時比說話更有說服力。",
+        "promptZh": "指出承諾如何化成可見行動。",
+        "targetSpan": {
+          "start": 115,
+          "end": 160
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人各先作出口頭承諾，後以可核實的行動支持承諾。用英文寫出前後及效果。",
+        "selfCheckZh": "兩例不可只寫說話，也不可聲稱所有話語都沒有作用。",
+        "examples": [
+          {
+            "en": "The hall manager promised clearer booking rules and then posted dated examples at the desk; her actions can sometimes speak louder than words because users could test the new process.",
+            "zh": "禮堂經理承諾更清楚的訂場規則，之後在服務台張貼有日期的例子；使用者可測試新程序，她的行動有時比說話更有說服力。"
+          },
+          {
+            "en": "The organiser said he would include quieter voices; actions can sometimes speak louder than words when he gave each newcomer a turn and recorded their proposals.",
+            "zh": "主辦人說會讓較少發言的人參與；他讓每名新人輪流發言並記錄建議時，行動有時比說話更有說服力。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "dated examples",
+            "zh": "有日期的例子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 78
+            }
+          },
+          {
+            "en": "test the new process",
+            "zh": "測試新程序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 182
+            }
+          },
+          {
+            "en": "each newcomer a turn",
+            "zh": "每名新人輪流發言",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 131
+            }
+          },
+          {
+            "en": "recorded their proposals",
+            "zh": "記錄他們的建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Actions can sometimes speak louder than words when they support a promise.",
+          "zh": "行動支持承諾時，有時比說話更有說服力。"
+        },
+        {
+          "en": "Visible follow-through shows why actions can sometimes speak louder than words.",
+          "zh": "可見的履行說明行動有時比說話更有說服力。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4445",
+      "number": 4445,
+      "inventoryId": "expr-4445",
+      "titleEn": "swallow their pride",
+      "titleZh": "放下自尊",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:swallow|swallows|swallowed|swallowing) (?:their|his|her|my|our|your) pride\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Set aside one’s ego or reluctance to admit fault, ask for help or make a needed conciliatory move.",
+        "meaningZh": "放下自尊或不情願，承認錯誤、求助或作出必要的和解行動。",
+        "grammar": "Swallow + possessive + pride; keep possessive aligned with the subject. The pride is figurative.",
+        "register": "Neutral idiomatic English. A coach may use it when describing why an experienced player finally asks a junior teammate for advice.",
+        "boundaryZh": "須有自尊或不甘心的阻力，以及克服它的行動；沒有掙扎的普通提問，不必強說放下自尊。",
+        "misconceptionZh": "不是吞下實物，也不表示自尊本身壞或必須接受無理指責。",
+        "outcomeZh": "能指出原有顧慮、實際跨出的一步及其合理結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2334",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 220,
+          "book": 16,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 242, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "They need to swallow their pride and apologise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swallow their pride"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Leah had designed the poster, but the small type was hard to read. She disliked admitting the problem, yet swallowed her pride, asked a younger designer to review it and enlarged the text before printing.",
+        "zh": "莉雅設計了海報，但字太小難讀。她不喜歡承認問題，仍放下自尊，請一名較年輕設計師檢視，印刷前把字放大。",
+        "promptZh": "她克服了甚麼阻力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reluctance to admit her design needed another person’s advice.",
+            "zh": "她本不願承認設計需要別人意見。"
+          },
+          {
+            "id": "b",
+            "en": "A refusal by the younger designer to help.",
+            "zh": "年輕設計師拒絕幫忙。"
+          },
+          {
+            "id": "c",
+            "en": "A rule forbidding any change before printing.",
+            "zh": "規則禁止印刷前作任何改動。"
+          },
+          {
+            "id": "d",
+            "en": "A belief that the type was already too large.",
+            "zh": "她認為字已太大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "明知自尊受挫，仍主動求助。"
+      },
+      "reply": {
+        "promptEn": "An experienced baker keeps burning one tray because the new oven heats unevenly. He hesitates to ask a trainee who knows the machine, then asks for a demonstration and adjusts the settings. What did he do?",
+        "promptZh": "（資深麵包師因新焗爐受熱不均，反覆烤焦一盤糕點。他猶豫是否向熟悉機器的實習生求教，最後請對方示範並調整設定。他做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He overcame reluctance to ask a trainee for help.",
+            "zh": "他克服了向實習生求助的顧慮。"
+          },
+          {
+            "id": "b",
+            "en": "He used the demonstration to correct the setting.",
+            "zh": "他根據示範修正設定。"
+          },
+          {
+            "id": "c",
+            "en": "He swallowed his pride and asked for advice.",
+            "zh": "他放下自尊求教。"
+          },
+          {
+            "id": "d",
+            "en": "He stopped treating seniority as a reason not to learn.",
+            "zh": "他不再因資歷而拒絕學習。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據遲疑、求助與改正回答。"
+      },
+      "scene": {
+        "promptZh": "隊長不願承認自己畫錯路線，卻主動向新隊員請教並更正地圖。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She swallowed her pride and corrected the map.",
+            "zh": "她放下自尊並更正地圖。"
+          },
+          {
+            "id": "b",
+            "en": "She insisted the wrong route was correct.",
+            "zh": "她堅持錯路線正確。"
+          },
+          {
+            "id": "c",
+            "en": "She refused to hear the new member’s evidence.",
+            "zh": "她拒聽新隊員證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "克服不願認錯的顧慮，主動更正。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone swallowed their pride？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A worker asks a routine question with no reluctance, embarrassment or status concern.",
+            "zh": "員工提出普通問題，沒有不情願、尷尬或身分顧慮。"
+          },
+          {
+            "id": "b",
+            "en": "A senior volunteer admits a mistake and accepts a newcomer’s correction despite embarrassment.",
+            "zh": "資深義工尷尬仍承認錯誤，接納新人更正。"
+          },
+          {
+            "id": "c",
+            "en": "A performer apologises after resisting the idea that an audience member was hurt.",
+            "zh": "表演者原不願相信觀眾受傷，最後仍道歉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有自尊或不甘心的阻力，就欠缺慣用語重點。"
+      },
+      "dialogue": {
+        "promptEn": "A: The chair did not want to admit her timetable was wrong, but she thanked the junior organiser who found the overlap and issued a correction. B: ______",
+        "promptZh": "（甲：主席不願承認時間表有錯，但她感謝找出時段重疊的初級主辦人，並發出更正。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She overcame her reluctance to admit the error.",
+            "zh": "她克服承認錯誤的顧慮。"
+          },
+          {
+            "id": "b",
+            "en": "The correction helps everyone use the right timetable.",
+            "zh": "更正有助大家使用正確時間表。"
+          },
+          {
+            "id": "c",
+            "en": "She swallowed her pride and fixed the schedule.",
+            "zh": "她放下自尊並修正時間表。"
+          },
+          {
+            "id": "d",
+            "en": "Thanking the junior organiser acknowledged the useful finding.",
+            "zh": "感謝初級主辦人，認可了有用發現。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句結合不情願與實際修正。"
+      },
+      "speaking": {
+        "en": "The curator swallowed her pride when a student identified a label error; she checked the archive, credited the student and corrected the display.",
+        "zh": "學生指出標示錯誤時，策展人放下自尊，核對檔案，向學生致謝並修正展示。",
+        "promptZh": "指出克服顧慮及更正。",
+        "targetSpan": {
+          "start": 12,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各因資歷或自尊不願求助或認錯，最後作出有建設性的行動。用英文寫出阻力、行動與結果。",
+        "selfCheckZh": "兩例不可只寫普通提問；要有明確不情願。",
+        "examples": [
+          {
+            "en": "The chef disliked admitting a new recipe failed, but he swallowed his pride, asked the apprentice to repeat the temperature test and changed the timing.",
+            "zh": "廚師不喜歡承認新食譜失敗，但仍放下自尊，請學徒重做溫度測試並改變時間。"
+          },
+          {
+            "en": "The club founder swallowed her pride after resisting a newcomer’s safety suggestion; she checked the evidence, thanked him and moved the storage boxes.",
+            "zh": "社團創辦人原抗拒新人安全建議，後來放下自尊，核查證據，向他道謝並搬走儲物箱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new recipe failed",
+            "zh": "新食譜失敗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 47
+            }
+          },
+          {
+            "en": "temperature test",
+            "zh": "溫度測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 128
+            }
+          },
+          {
+            "en": "changed the timing",
+            "zh": "改變時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 151
+            }
+          },
+          {
+            "en": "safety suggestion",
+            "zh": "安全建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 83
+            }
+          },
+          {
+            "en": "storage boxes",
+            "zh": "儲物箱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Swallow your pride means set aside ego to do what is needed.",
+          "zh": "swallow your pride 指放下自尊，做需要做的事。"
+        },
+        {
+          "en": "A leader may swallow her pride and accept a useful correction.",
+          "zh": "領袖可放下自尊，接納有用更正。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4450",
+      "number": 4450,
+      "inventoryId": "expr-4450",
+      "titleEn": "taste of home",
+      "titleZh": "熟悉的家鄉滋味",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:taste|tastes|tasted|tasting) of home\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A food flavour evokes familiar meals, memories and belonging; as a verb, food can taste of home to someone.",
+        "meaningZh": "食物味道喚起熟悉的飯菜、回憶與歸屬感；作動詞時可說食物對某人嚐起來有家的味道。",
+        "grammar": "Two natural forms: food tastes/tasted of home to someone (verb), or gives someone a taste of home (noun phrase). Home evokes family or a place where someone belongs; specify whose memory is involved.",
+        "register": "Warm conversational English. A student away from family may describe a familiar soup to friends this way.",
+        "boundaryZh": "須與個人的熟悉回憶或歸屬感相連；只因一道菜好吃，不必然有家鄉滋味。",
+        "misconceptionZh": "不是房屋本身的味道，也不要求食物在故鄉製作。",
+        "outcomeZh": "能指出具體味道、記憶連結及其個人性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2339",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 221,
+          "book": 16,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 243, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The pastries taste of home to many residents.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "taste of home"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At the university canteen, Hana tasted a soup seasoned with the same herb her grandfather used. It was a taste of home for her, although it had been cooked in a city she had never visited before.",
+        "zh": "大學飯堂裏，哈娜喝到用上祖父常用香草調味的湯。對她而言，那是熟悉的家鄉滋味，儘管湯是在她從未去過的城市煮成。",
+        "promptZh": "為何這道湯令她想起家？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its herb matched a flavour linked to her grandfather.",
+            "zh": "香草味與祖父的味道記憶相連。"
+          },
+          {
+            "id": "b",
+            "en": "It was cooked inside her grandfather’s old house.",
+            "zh": "湯在祖父舊屋煮成。"
+          },
+          {
+            "id": "c",
+            "en": "Every student had the same family memory.",
+            "zh": "每名學生都有相同家庭回憶。"
+          },
+          {
+            "id": "d",
+            "en": "The canteen gave the soup a high price.",
+            "zh": "飯堂把湯定得很貴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熟悉調味與個人記憶是關鍵。"
+      },
+      "reply": {
+        "promptEn": "A student living away from family tastes noodles with the same smoky sauce her aunt made on winter evenings. She remembers those meals and feels comforted. What does the flavour mean to her?",
+        "promptZh": "（一名離家求學的學生吃到用上姨姨冬夜煮麵時那種煙燻醬汁的麵。她想起那些晚餐，感到安慰。這味道對她有甚麼意思？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It recalls meals she shared with her aunt.",
+            "zh": "它喚起她與姨姨共餐的回憶。"
+          },
+          {
+            "id": "b",
+            "en": "The familiar flavour offers comfort.",
+            "zh": "熟悉味道帶來安慰。"
+          },
+          {
+            "id": "c",
+            "en": "It is a taste of home for her.",
+            "zh": "對她而言，那是熟悉的家鄉滋味。"
+          },
+          {
+            "id": "d",
+            "en": "The emotional link is personal, not a claim about everyone.",
+            "zh": "情感連結屬個人，不代表人人相同。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按熟悉味道與私人回憶回答。"
+      },
+      "scene": {
+        "promptZh": "新到一個城市的樂手吃到家人節日時做的薑餅味道，想起一同準備食物的晚上。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To the musician, the gingerbread tastes of home.",
+            "zh": "對樂手而言，薑餅嚐起來有家的味道。"
+          },
+          {
+            "id": "b",
+            "en": "The musician remembers nothing about the family meals.",
+            "zh": "樂手完全想不起家人共餐。"
+          },
+          {
+            "id": "c",
+            "en": "The food must have been baked in the family house to matter.",
+            "zh": "食物一定要在家中烘焙才有意思。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "薑餅味道喚起與家人一起準備食物的回憶；此處 tastes of home 是動詞用法。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱作 a taste of home？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visitor tries an unfamiliar dish for the first time and enjoys it, with no personal memory attached.",
+            "zh": "訪客初次吃到陌生菜式，覺得好吃，卻沒有個人回憶連結。"
+          },
+          {
+            "id": "b",
+            "en": "A familiar spice recalls a family meal to someone living abroad.",
+            "zh": "熟悉香料令旅居外地的人想起家庭晚餐。"
+          },
+          {
+            "id": "c",
+            "en": "A childhood soup flavour makes a student feel close to home.",
+            "zh": "童年湯味令學生感到接近家。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單純好吃而沒有熟悉回憶，不足以說家鄉滋味。"
+      },
+      "dialogue": {
+        "promptEn": "A: When Mei tried the rice cakes, she recognised the sesame flavour from her grandmother’s New Year table and called home that night. B: ______",
+        "promptZh": "（甲：美怡吃米糕時，認出祖母新年餐桌的芝麻味，當晚便打電話回家。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That flavour brought back a family memory.",
+            "zh": "那味道喚起家庭回憶。"
+          },
+          {
+            "id": "b",
+            "en": "Her call shows the memory mattered to her.",
+            "zh": "她打電話回家，顯示回憶對她重要。"
+          },
+          {
+            "id": "c",
+            "en": "The rice cakes gave her a taste of home.",
+            "zh": "米糕令她嚐到熟悉的家鄉滋味。"
+          },
+          {
+            "id": "d",
+            "en": "The link is about her experience, not the shop’s location.",
+            "zh": "連結在於她的經驗，不在店舖位置。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句點明熟悉味道與歸屬感。"
+      },
+      "speaking": {
+        "en": "The toasted seed flavour gave Arun a taste of home during the school trip because it reminded him of breakfasts his father used to make.",
+        "zh": "學校旅行中，烤籽香味令阿倫嚐到家鄉滋味，因為它令他想起父親以前煮的早餐。",
+        "promptZh": "說出具體味道及私人回憶。",
+        "targetSpan": {
+          "start": 37,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各在遠離熟悉環境時吃到某種味道，喚起具體家庭或地方記憶。用英文寫出味道與情感連結。",
+        "selfCheckZh": "兩例不能只說食物好吃，須有特定回憶；來源地可以不同。",
+        "examples": [
+          {
+            "en": "The lemon filling gave Leila a taste of home at the station café; its sharp sweetness recalled cakes she baked with her sister.",
+            "zh": "車站咖啡店的檸檬餡料令蕾拉嚐到家鄉滋味；酸甜味令她想起與姐姐一起烘焙蛋糕。"
+          },
+          {
+            "en": "For Ravi, the cumin in the hostel soup was a taste of home because it matched the lentils his family served on rainy Sundays.",
+            "zh": "對拉維而言，旅舍湯裏的孜然帶來家鄉滋味，因為味道像家人在雨天星期日煮的扁豆。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "station café",
+            "zh": "車站咖啡店",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 64
+            }
+          },
+          {
+            "en": "sharp sweetness",
+            "zh": "酸甜味",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "baked with her sister",
+            "zh": "與姐姐一起烘焙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 126
+            }
+          },
+          {
+            "en": "hostel soup",
+            "zh": "旅舍湯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 38
+            }
+          },
+          {
+            "en": "rainy Sundays",
+            "zh": "雨天星期日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 124
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Food can taste of home when its flavour recalls familiar people and places.",
+          "zh": "食物若讓人想起熟悉的人與地方，便可能嚐起來有家的味道。"
+        },
+        {
+          "en": "A familiar spice may offer a taste of home far from family.",
+          "zh": "遠離家人時，熟悉香料可帶來家鄉滋味。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4462",
+      "number": 4462,
+      "inventoryId": "expr-4462",
+      "titleEn": "comes with a story attached",
+      "titleZh": "背後附有一段故事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming) with a story attached\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have an associated personal or cultural story that adds meaning beyond the object itself.",
+        "meaningZh": "附帶一段個人或文化故事，使物件的意義超越本身用途。",
+        "grammar": "Come with a story attached; come inflects came/coming. The story is figuratively attached, not necessarily written on a label.",
+        "register": "Warm conversational English. A craft seller may say it when describing the history of a handmade object to a visitor.",
+        "boundaryZh": "須有可說明的相關故事；單純猜測「大概有故事」而無內容，不足以教作事實。",
+        "misconceptionZh": "不是故事真的貼在物件上，也不代表每個舊物必然有感人的背景。",
+        "outcomeZh": "能指出物件、相連故事及為何增添意義，同時分清已知與猜測。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2351",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 222,
+          "book": 16,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 244, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "That handmade gift comes with a story attached.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "comes with a story attached"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Nora kept a repaired wooden box from her first theatre tour. Her crew had painted a small star on it after a difficult final show, and she could name everyone involved. The box came with a story attached, not just a worn surface.",
+        "zh": "諾拉保留了首次巡演用過的修好木箱。艱難的最後一場演出後，團員在箱上畫了一顆小星，她也能說出每位參與者。木箱背後附有一段故事，不只是表面舊了。",
+        "promptZh": "箱子為何超越一般舊物？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Nora can explain the crew’s star and the final show it marks.",
+            "zh": "諾拉能解釋星星與它紀念的最後演出。"
+          },
+          {
+            "id": "b",
+            "en": "Its surface is old, so a touching story must be invented.",
+            "zh": "表面很舊，所以必須編一段感人故事。"
+          },
+          {
+            "id": "c",
+            "en": "Nobody knows who used the box or why.",
+            "zh": "沒人知道誰用過箱子及原因。"
+          },
+          {
+            "id": "d",
+            "en": "The repair erased every link to the tour.",
+            "zh": "維修消除了它與巡演的一切連結。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她能說出具體團隊與事件。"
+      },
+      "reply": {
+        "promptEn": "A student receives an old recipe notebook. Her uncle explains that the margins contain her grandmother’s corrections from a community kitchen, with dates beside each change. What can be said about the notebook?",
+        "promptZh": "（學生收到一本舊食譜簿；叔叔說明頁邊是祖母在社區廚房的更正，每次改動旁都有日期。這本簿可如何描述？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its notes connect it to a known family history.",
+            "zh": "筆記把它連到已知家族經歷。"
+          },
+          {
+            "id": "b",
+            "en": "The dated corrections add meaning beyond the pages.",
+            "zh": "有日期的更正令書頁更有意義。"
+          },
+          {
+            "id": "c",
+            "en": "It comes with a story attached.",
+            "zh": "它背後附有一段故事。"
+          },
+          {
+            "id": "d",
+            "en": "The uncle can explain whose changes the notes record.",
+            "zh": "叔叔能說明筆記記下誰的改動。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按有根據的來歷回答。"
+      },
+      "scene": {
+        "promptZh": "手作燈籠背面有一個日期，製作者解釋那是社區停電後鄰居一起修復工作室的那一天。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The lantern comes with a story attached.",
+            "zh": "燈籠背後附有一段故事。"
+          },
+          {
+            "id": "b",
+            "en": "The date proves nothing and the maker offers no explanation.",
+            "zh": "日期毫無意義，製作者也沒有解釋。"
+          },
+          {
+            "id": "c",
+            "en": "Any lantern must have the same history.",
+            "zh": "每個燈籠必有相同歷史。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日期與製作者說明連起具體經歷。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an object comes with a story attached？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A seller says an unmarked cup probably has a dramatic past but knows no person, event or source.",
+            "zh": "賣家說一隻無標記杯子大概有戲劇性過去，卻不知道人物、事件或來源。"
+          },
+          {
+            "id": "b",
+            "en": "A maker explains who carved a bench and why its date matters to a village.",
+            "zh": "製作者說明誰刻了長椅及其日期對村莊的意義。"
+          },
+          {
+            "id": "c",
+            "en": "A family can describe how a quilt was made during a shared project.",
+            "zh": "一家人能描述被子如何在共同計劃中製成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有無根據猜測，沒有可說明的故事。"
+      },
+      "dialogue": {
+        "promptEn": "A: This quilt has small labels sewn inside. The family told us each label names a relative who helped during the winter shelter project. B: ______",
+        "promptZh": "（甲：這張被子裏面縫了小標籤。家人說每個標籤都是一名在冬季庇護計劃出力的親人。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The labels connect the quilt to named helpers.",
+            "zh": "標籤把被子與有名字的幫手連起來。"
+          },
+          {
+            "id": "b",
+            "en": "The family can explain what the labels mean.",
+            "zh": "家人能解釋標籤意思。"
+          },
+          {
+            "id": "c",
+            "en": "It comes with a story attached.",
+            "zh": "它背後附有一段故事。"
+          },
+          {
+            "id": "d",
+            "en": "The project history adds meaning beyond the fabric.",
+            "zh": "計劃歷史令被子超越布料本身。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括具體的人與共同經歷。"
+      },
+      "speaking": {
+        "en": "The brass key came with a story attached: its owner could explain how a closed station became a reading room and why volunteers kept the key.",
+        "zh": "黃銅鑰匙背後附有一段故事：主人能解釋舊車站如何變成閱讀室，以及義工為何保留鑰匙。",
+        "promptZh": "故事有可說明的人、事與用途。",
+        "targetSpan": {
+          "start": 14,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件物品各有已知來歷，讓持有人能講出與人或地方相連的具體經歷。用英文寫出物件與故事。",
+        "selfCheckZh": "兩例不能只因物件古舊便憑空編故事。",
+        "examples": [
+          {
+            "en": "The painted oar comes with a story attached: the rowing club marked each rescue shift on its handle, and the coach can explain the dates.",
+            "zh": "彩繪船槳背後附有故事：划艇社在槳柄標出每次救援更次，教練能解釋日期。"
+          },
+          {
+            "en": "A hand-stitched banner came with a story attached because its maker recorded the names of neighbours who rebuilt the playground after the flood.",
+            "zh": "手縫橫額背後附有一段故事，因為製作者記下水災後重建遊樂場的鄰居名字。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "painted oar",
+            "zh": "彩繪船槳",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "rescue shift",
+            "zh": "救援更次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 85
+            }
+          },
+          {
+            "en": "explain the dates",
+            "zh": "解釋日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 136
+            }
+          },
+          {
+            "en": "hand-stitched banner",
+            "zh": "手縫橫額",
+            "exampleIndex": 1,
+            "span": {
+              "start": 2,
+              "end": 22
+            }
+          },
+          {
+            "en": "rebuilt the playground",
+            "zh": "重建遊樂場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Come with a story attached means carry a known personal or cultural history.",
+          "zh": "come with a story attached 指物件背後有已知個人或文化來歷。"
+        },
+        {
+          "en": "An old object can come with a story attached when its history is known.",
+          "zh": "舊物的來歷獲查明後，才可說背後附有故事。"
+        }
+      ]
+    }
+  ]
+}

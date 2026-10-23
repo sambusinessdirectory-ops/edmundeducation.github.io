@@ -1071,7 +1071,7 @@
     "titleZh": "較傾向某個選擇",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\blean(?:s|ed|ing|t)? towards\\b",
+      "pattern": "(?:\\blean(?:s|ed|ing|t)? towards\\b)|(?:\\b(?:lean|leans|leaned|leaning|leant) more towards\\b)",
       "glossaryForbidden": [
         "\\blean(?:s|ed|ing|t)? towards\\b"
       ]
@@ -1079,7 +1079,7 @@
     "brief": {
       "meaningEn": "Have a preference for one possibility without necessarily making a final commitment.",
       "meaningZh": "對某個可能選項有偏好，未必已作最後承諾。",
-      "grammar": "lean towards + noun/-ing; leaning towards for a developing preference; leaned/leant in past.",
+      "grammar": "lean towards a choice / lean more towards it; both signal a preference without saying the decision is final. More strengthens the comparison with another option.",
       "register": "Common figurative direction pattern; towards is usual British wording, toward is also standard.",
       "boundaryZh": "傾向不是已預約、已買或永不改變，也不必是壓倒性偏好；仍可有待查條件。",
       "misconceptionZh": "說出偏好可有理由，同時保留最後選擇未定。",
@@ -1098,6 +1098,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 20, table 1, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p020-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1895",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 179,
+        "book": 15,
+        "question": 15,
+        "sample": "S2",
+        "sourceBookPages": "34–36",
+        "locatorNote": "DOCX table 193, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Younger members may lean more towards group classes.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "lean more towards"
       }
     ],
     "listening": {
@@ -1206,8 +1220,8 @@
       "options": [
         {
           "id": "a",
-          "en": "You can mention the preference, but wait for the room confirmation before announcing a booking.",
-          "zh": "可提偏好，但宣布預約前等房間確認。"
+          "en": "We lean towards the morning, but the room is not confirmed; let us wait before announcing a booking.",
+          "zh": "我們傾向早上，但房間尚未確認；公布預約前先等場地回覆。"
         },
         {
           "id": "b",
@@ -1299,8 +1313,8 @@
         "zh": "她較傾向短路線，同時查集合點是否配合大家。"
       },
       {
-        "en": "We lean towards a simple format because it is easier for the group to update.",
-        "zh": "我們較傾向簡單格式，因小組較容易更新。"
+        "en": "After trying both formats, the volunteers leaned more towards short evening sessions.",
+        "zh": "試過兩種形式後，義工較傾向短時間的晚間活動。"
       }
     ],
     "review": {
@@ -1327,7 +1341,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-431",
@@ -4115,7 +4129,7 @@
     "titleZh": "在接觸中自然學會",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b",
+      "pattern": "(?:\\bpick(?:s|ed|ing)? up\\b|\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b)|(?:\\bpick(?:s|ed|ing)? things up quickly\\b)",
       "glossaryForbidden": [
         "\\bpick(?:s|ed|ing)? up\\b",
         "\\bpick(?:s|ed|ing)? (?:it|them|something) up\\b"
@@ -4124,7 +4138,7 @@
     "brief": {
       "meaningEn": "Acquire knowledge or a skill informally through exposure or activity rather than only direct teaching.",
       "meaningZh": "透過接觸或活動自然學到知識或技能，而不只靠直接教導。",
-      "grammar": "pick up new words; pick them up; picked/picking. A pronoun object belongs between pick and up, not pick up them.",
+      "grammar": "pick up new words/a skill; pick things up quickly means acquire practical knowledge rapidly through exposure or practice, not physically collect objects.",
       "register": "Common informal-learning sense of pick up. Distinct from lifting an object, collecting a person or resuming a conversation.",
       "boundaryZh": "自然學到不保證完全正確、全面精通或不需練習；可再核對及運用。",
       "misconceptionZh": "有意識學習與自然接觸可並用，不把其中一種說成唯一方法。",
@@ -4312,6 +4326,20 @@
         "sentence": "Children can pick something up quickly through play.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 137, table 1, row 11"
+      },
+      {
+        "occurrenceId": "book10-16-1995",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 188,
+        "book": 15,
+        "question": 26,
+        "sample": "S2",
+        "sourceBookPages": "62–63",
+        "locatorNote": "DOCX table 204, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "She can pick things up quickly in a practical lesson.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "pick things up quickly"
       }
     ],
     "listening": {
@@ -4420,8 +4448,8 @@
       "options": [
         {
           "id": "a",
-          "en": "I can use what I learned while checking which expressions suit a more formal setting.",
-          "zh": "我可用學到的，同時查哪些說法合較正式場合。"
+          "en": "I picked up a few phrases naturally, but I should check which ones suit a more formal setting.",
+          "zh": "我自然學到幾個短語，但仍應查清哪些適合較正式的場合。"
         },
         {
           "id": "b",
@@ -4513,8 +4541,8 @@
         "zh": "她聽鄰居講故事時，自然學到那表達。"
       },
       {
-        "en": "We picked them up through repeated use, then checked which ones suited the invitation.",
-        "zh": "我們反覆使用中學到它們，再查哪些合邀請。"
+        "en": "At the workshop, Nia picked things up quickly by testing each setting on a spare microphone.",
+        "zh": "在工作坊，妮亞用備用咪高峰逐一試調設定，很快便學會了。"
       }
     ],
     "review": {
@@ -4543,7 +4571,7 @@
         "Root-approved1260 pick something up through children’s play is the same informal-acquisition sense; separable pronoun/something forms supported, exact source attachment follows."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-442",

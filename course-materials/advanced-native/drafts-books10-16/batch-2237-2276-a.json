@@ -1,0 +1,1061 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2237",
+      "number": 2237,
+      "inventoryId": "expr-2237",
+      "titleEn": "revolve around a screen",
+      "titleZh": "生活圍着螢幕轉",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:revolve|revolves|revolved|revolving) around a screen\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have daily activity centred mainly on screen use, to the exclusion of other experiences.",
+        "meaningZh": "日常活動主要圍繞螢幕使用，擠走其他體驗。",
+        "grammar": "Revolve around a screen; the orbit is figurative, not physical movement. Specify the routines being displaced.",
+        "register": "Neutral to mildly critical conversational English. A parent may use it when discussing a child’s leisure balance with another caregiver.",
+        "boundaryZh": "須多項日常活動都以螢幕為中心；只是每天用螢幕完成一項功課，不等於整個生活如此。",
+        "misconceptionZh": "不是螢幕真的在轉，也不是說所有數碼活動都沒有益處。",
+        "outcomeZh": "能指出被螢幕集中佔據的時間、被擠走的活動及可行平衡。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0126",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 12,
+          "book": 10,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 10, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "His leisure time began to revolve around a screen.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "revolve around a screen"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "After school, Ellis watched clips during meals, skipped his usual football game and kept checking videos while friends visited. His leisure began to revolve around a screen, so he agreed to set aside time for the game and meals.",
+        "zh": "放學後，艾利斯吃飯看短片、跳過平日足球活動，朋友來訪時仍不斷看影片。他的休閒開始圍着螢幕轉，於是同意預留時間踢球及用膳。",
+        "promptZh": "甚麼顯示休閒失去平衡？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Screens displaced meals with attention, sport and time with friends.",
+            "zh": "螢幕擠走了專心吃飯、運動及與朋友相處。"
+          },
+          {
+            "id": "b",
+            "en": "He used a screen for one homework task only.",
+            "zh": "他只在一項功課上用螢幕。"
+          },
+          {
+            "id": "c",
+            "en": "He played football as usual and put his phone away with friends.",
+            "zh": "他照常踢球，朋友來時收好電話。"
+          },
+          {
+            "id": "d",
+            "en": "The school banned all videos before he watched any.",
+            "zh": "他看任何影片前學校已禁播。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項原有活動被持續看螢幕取代。"
+      },
+      "reply": {
+        "promptEn": "A teenager spends every free evening moving between a game stream and short videos, cancelling art club and ignoring visits from cousins. What pattern is developing, and what might help restore balance?",
+        "promptZh": "一名少年每個空閒晚上都在遊戲直播與短片間轉換，取消美術社活動，也不理會表親來訪。出現甚麼模式？甚麼做法可幫助恢復平衡？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Most free time is being organised around screens.",
+            "zh": "大部分空閒時間都圍繞螢幕安排。"
+          },
+          {
+            "id": "b",
+            "en": "Other social and creative activities are being displaced.",
+            "zh": "其他社交與創作活動被擠走。"
+          },
+          {
+            "id": "c",
+            "en": "Leisure is beginning to revolve around a screen.",
+            "zh": "休閒開始圍着螢幕轉。"
+          },
+          {
+            "id": "d",
+            "en": "The family might agree on time for the missed activities.",
+            "zh": "家人或可商量預留時間恢復被錯過的活動。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據多項活動被螢幕取代回答。"
+      },
+      "scene": {
+        "promptZh": "學生一週七晚都邊吃飯邊看直播，連原來每週的樂隊練習也取消，見朋友時仍不停看手機。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His free time revolves around a screen.",
+            "zh": "他的閒暇時間圍着螢幕轉。"
+          },
+          {
+            "id": "b",
+            "en": "He only opens a device for one assigned lesson.",
+            "zh": "他只為一節指定課打開裝置。"
+          },
+          {
+            "id": "c",
+            "en": "He never watches anything when friends visit.",
+            "zh": "朋友來時他從不看螢幕。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項生活活動都受螢幕主導。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 leisure revolves around a screen？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student watches one tutorial, then spends the rest of the afternoon playing music and meeting friends.",
+            "zh": "學生看完一段教學影片後，下午其餘時間奏樂和見朋友。"
+          },
+          {
+            "id": "b",
+            "en": "A player cancels several club meetings to keep following streams.",
+            "zh": "玩家取消數次社團活動來持續看直播。"
+          },
+          {
+            "id": "c",
+            "en": "Someone watches videos through meals, visits and planned outdoor activities.",
+            "zh": "有人吃飯、探訪及原定戶外活動時都看影片。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有限度使用而保留其他活動，不是生活以螢幕為中心。"
+      },
+      "dialogue": {
+        "promptEn": "A: Sam used to join the weekend walks, but now he streams through breakfast, the walk and visits from friends. B: ______",
+        "promptZh": "（甲：阿森以前參加週末散步，如今早飯、散步及朋友來訪時都在看直播。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several parts of his day are now organised around viewing.",
+            "zh": "一天幾個時段如今都圍繞觀看影片。"
+          },
+          {
+            "id": "b",
+            "en": "The stream is displacing outdoor and social time.",
+            "zh": "直播擠走戶外及社交時間。"
+          },
+          {
+            "id": "c",
+            "en": "His leisure seems to revolve around a screen.",
+            "zh": "他的休閒看來圍着螢幕轉。"
+          },
+          {
+            "id": "d",
+            "en": "He could choose a viewing slot that leaves room for the walk.",
+            "zh": "他可選一個不妨礙散步的觀看時段。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括螢幕佔據多項休閒活動。"
+      },
+      "speaking": {
+        "en": "For a month, the club members’ breaks revolved around a screen: even their shared lunch became a time to scroll rather than talk.",
+        "zh": "一個月來，社團成員的休息都圍着螢幕轉：連一起午膳也變成滑手機而非交談的時間。",
+        "promptZh": "指出持續模式及被取代的交流。",
+        "targetSpan": {
+          "start": 38,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個人或群體多項休閒活動被螢幕佔據，原本的社交或動手活動受影響。用英文寫出具體證據和一項平衡做法。",
+        "selfCheckZh": "兩例不能把單次必要用螢幕誇大為整個生活。",
+        "examples": [
+          {
+            "en": "For weeks, the drama club’s breaks revolved around a screen as members skipped improvisation games to watch clips; the leader reserved one phone-free practice break.",
+            "zh": "數週來戲劇社休息時間都圍着螢幕轉，成員跳過即興遊戲來看短片；領隊預留一段不用手機的練習休息。"
+          },
+          {
+            "en": "Nina’s weekends revolved around a screen after she cancelled cycling and watched streams during family meals; she planned one ride before logging on.",
+            "zh": "妮娜取消騎車、家庭飯時看直播後，週末圍着螢幕轉；她安排先騎一次車才上網。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "improvisation games",
+            "zh": "即興遊戲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 98
+            }
+          },
+          {
+            "en": "phone-free practice break",
+            "zh": "不用手機的練習休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 164
+            }
+          },
+          {
+            "en": "family meals",
+            "zh": "家庭飯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 108
+            }
+          },
+          {
+            "en": "one ride",
+            "zh": "一次騎車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Revolve around a screen means organise much of life around viewing.",
+          "zh": "revolve around a screen 指生活大量時段圍着螢幕觀看轉。"
+        },
+        {
+          "en": "Leisure can revolve around a screen when other activities repeatedly disappear.",
+          "zh": "其他活動反覆被擠走時，休閒可能圍着螢幕轉。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2273",
+      "number": 2273,
+      "inventoryId": "expr-2273",
+      "titleEn": "a starting point",
+      "titleZh": "研究的起點",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the|our|your) starting point\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An initial basis from which to investigate further, not a final answer.",
+        "meaningZh": "進一步查證或研究的初步依據，而非最終答案。",
+        "grammar": "A starting point for + noun/gerund, or treat X as a starting point; name the subsequent check.",
+        "register": "Neutral everyday English. A teacher may use it when guiding students to verify a claim in an advert.",
+        "boundaryZh": "須有之後的查證或延伸步驟；把初步資料直接當結論，不是把它當起點。",
+        "misconceptionZh": "不是實際旅程的起跑線，也不表示最初資料必定正確。",
+        "outcomeZh": "能說出最初線索、下一步查證及未解決的不確定處。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0162",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Treat the advert as a starting point for research.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a starting point"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Maya found a charity’s claim in a poster. She treated it as a starting point, then checked the annual report and asked how the figure had been calculated before citing it in class.",
+        "zh": "瑪雅在海報看到慈善機構的說法。她把它當研究起點，然後查年度報告，並詢問數字如何計算，才在課堂引用。",
+        "promptZh": "海報在她研究中扮演甚麼角色？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It prompted checks rather than serving as a final answer.",
+            "zh": "它促使查證，而非直接成為最終答案。"
+          },
+          {
+            "id": "b",
+            "en": "It was the only source she used before citing the figure.",
+            "zh": "她引用數字前只用海報一項來源。"
+          },
+          {
+            "id": "c",
+            "en": "It guaranteed the number was correct without calculation.",
+            "zh": "它毋須計算便保證數字正確。"
+          },
+          {
+            "id": "d",
+            "en": "It prevented her from consulting the annual report.",
+            "zh": "它阻止她查年度報告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先取得線索，再作獨立查證。"
+      },
+      "reply": {
+        "promptEn": "A student sees a museum label naming an inventor but no date. She plans to check the catalogue and archive before writing her report. What can she say about the label and next steps?",
+        "promptZh": "學生看到博物館標示提到發明者，卻沒有日期；她打算寫報告前查目錄及檔案。她可怎樣說明標示的作用及下一步？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An initial clue to investigate.",
+            "zh": "供進一步調查的初步線索。"
+          },
+          {
+            "id": "b",
+            "en": "A prompt to check the missing date.",
+            "zh": "提醒她核查缺失日期。"
+          },
+          {
+            "id": "c",
+            "en": "It is a starting point, not the finished report.",
+            "zh": "它是研究起點，不是完成的報告。"
+          },
+          {
+            "id": "d",
+            "en": "The catalogue and archive can test what it leaves open.",
+            "zh": "目錄與檔案可核查尚未確定的部分。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據初步資料與後續查證回答。"
+      },
+      "scene": {
+        "promptZh": "學生在旅遊單張看到一項歷史數字，決定先查官方檔案及原始紀錄，才寫文章。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leaflet is a starting point for research.",
+            "zh": "單張是研究的起點。"
+          },
+          {
+            "id": "b",
+            "en": "The leaflet settles every historical question by itself.",
+            "zh": "單張單憑自身解決每項歷史疑問。"
+          },
+          {
+            "id": "c",
+            "en": "There is no reason to inspect the original record.",
+            "zh": "完全不必查原始紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單張提供線索，並非最終證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a source is a starting point？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A writer copies one unverified claim into the final article and refuses any further check.",
+            "zh": "作者把一項未核實說法直接抄進定稿，拒絕再查。"
+          },
+          {
+            "id": "b",
+            "en": "A reader uses a poster to identify a claim, then checks the original data.",
+            "zh": "讀者用海報找出說法，再查原始數據。"
+          },
+          {
+            "id": "c",
+            "en": "A student uses a short summary to find a topic, then reads the full study.",
+            "zh": "學生用短摘要找題目，再讀完整研究。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未再查證就當定論，便沒有從起點向前走。"
+      },
+      "dialogue": {
+        "promptEn": "A: This brochure gives a promising statistic, but the source is not listed. I’ll use it to find the underlying survey before publishing. B: ______",
+        "promptZh": "（甲：小冊子有個看來有用的數字，但沒列來源。我會用它找原來調查，才發表。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The brochure gives you a lead to investigate.",
+            "zh": "小冊子給你一條可追查線索。"
+          },
+          {
+            "id": "b",
+            "en": "The survey will help you test the statistic.",
+            "zh": "調查可幫你核查數字。"
+          },
+          {
+            "id": "c",
+            "en": "Treating it as a starting point sounds sensible.",
+            "zh": "把它當起點聽來合理。"
+          },
+          {
+            "id": "d",
+            "en": "You are not presenting the unsourced number as settled fact.",
+            "zh": "你沒有把無來源數字當成定論。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出初步線索與後續查證。"
+      },
+      "speaking": {
+        "en": "The short interview was a starting point for the historian, who then compared the speaker’s memory with dated letters and a train record.",
+        "zh": "短訪談是歷史學者的起點；他之後把受訪者記憶與有日期的書信及火車紀錄比較。",
+        "promptZh": "說出後續核查工作。",
+        "targetSpan": {
+          "start": 24,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各取得初步資料，但未把它當結論，而是再查原始證據。用英文寫出線索與下一步。",
+        "selfCheckZh": "兩例須有明確後續核查，不可只說「作起點」而沒有行動。",
+        "examples": [
+          {
+            "en": "A shop window claim became a starting point for Eli, who checked the manufacturer’s test sheet before recommending the product.",
+            "zh": "商店櫥窗說法成了以利的研究起點；他查廠商測試表後才推薦產品。"
+          },
+          {
+            "en": "For the school team, a starting point was a short news summary; they read the full council minutes and checked the decision date.",
+            "zh": "對學校團隊而言，短新聞摘要是起點；他們閱讀完整議會紀錄並核對決定日期。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "manufacturer’s test sheet",
+            "zh": "廠商測試表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 94
+            }
+          },
+          {
+            "en": "recommending the product",
+            "zh": "推薦產品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 126
+            }
+          },
+          {
+            "en": "full council minutes",
+            "zh": "完整議會紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 98
+            }
+          },
+          {
+            "en": "decision date",
+            "zh": "決定日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A starting point is an initial basis for further inquiry.",
+          "zh": "a starting point 指進一步查證的初步依據。"
+        },
+        {
+          "en": "A poster can be a starting point if you check its underlying evidence.",
+          "zh": "海報若引導你核查底層證據，便可作研究起點。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2275",
+      "number": 2275,
+      "inventoryId": "expr-2275",
+      "titleEn": "leave things out",
+      "titleZh": "省略部分資訊",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) things out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Omit relevant information from an account or summary, sometimes because space is limited.",
+        "meaningZh": "在敘述或摘要中省略部分相關資訊，有時因篇幅有限。",
+        "grammar": "Leave things out; leave has past left. Specify what was omitted and whether that matters to the purpose.",
+        "register": "Neutral everyday English. An editor may use it when explaining the limits of a short summary to a writer.",
+        "boundaryZh": "須有可指出的資訊未收錄；合理精簡與誤導性遺漏要按目的和重要性區分。",
+        "misconceptionZh": "不是把物件留在室外，也不是所有省略都故意隱瞞。",
+        "outcomeZh": "能指出遺漏內容、原因及讀者是否需補看完整資料。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0164",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The short summary will leave things out unless we revise it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave things out"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The event flyer listed the new venue but not the step-free entrance. The editor realised the short version had left things out that some visitors needed, so she added the access line before printing.",
+        "zh": "活動單張列出新場地，卻沒有無梯級入口資訊。編輯發現短版省略了部分訪客需要的內容，於是在印刷前補上無障礙一行。",
+        "promptZh": "哪項資訊被遺漏而重要？",
+        "options": [
+          {
+            "id": "a",
+            "en": "How visitors can use the step-free entrance.",
+            "zh": "訪客如何使用無梯級入口。"
+          },
+          {
+            "id": "b",
+            "en": "The flyer had no venue name at all.",
+            "zh": "單張完全沒有場地名稱。"
+          },
+          {
+            "id": "c",
+            "en": "The editor removed every access detail after printing.",
+            "zh": "編輯印刷後刪除所有無障礙資料。"
+          },
+          {
+            "id": "d",
+            "en": "No visitor could need entrance information.",
+            "zh": "沒有訪客可能需要入口資訊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "省略的無障礙資料對部分訪客有實際影響。"
+      },
+      "reply": {
+        "promptEn": "A school publishes a two-line trip note with the departure time but omits the return time and pickup point. Parents ask for those details before agreeing. What can someone say about the short note and a response?",
+        "promptZh": "學校發兩行旅行通知，寫了出發時間，卻沒寫回程時間及接送地點；家長答應前先問這些資料。可怎樣說明短通知的問題及回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It omitted details parents needed.",
+            "zh": "它省略家長需要的細節。"
+          },
+          {
+            "id": "b",
+            "en": "The departure time alone was not enough for planning.",
+            "zh": "只有出發時間不足以作安排。"
+          },
+          {
+            "id": "c",
+            "en": "It left things out that the school should add.",
+            "zh": "它省略了學校應補充的內容。"
+          },
+          {
+            "id": "d",
+            "en": "A fuller note could clarify pickup arrangements.",
+            "zh": "較完整通知可澄清接送安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據缺失回程與接送資訊回答。"
+      },
+      "scene": {
+        "promptZh": "活動摘要只列講者及日期，沒有列必須預先報名，結果有人到場才發現無法入場。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The summary left things out that mattered to visitors.",
+            "zh": "摘要省略了對訪客重要的內容。"
+          },
+          {
+            "id": "b",
+            "en": "It included every entry condition clearly.",
+            "zh": "它清楚列出所有入場條件。"
+          },
+          {
+            "id": "c",
+            "en": "Registration was never required.",
+            "zh": "從來不需要報名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺失的入場條件造成實際後果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a summary leaves things out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The summary states every item required for the reader’s stated decision and links to optional background.",
+            "zh": "摘要列齊讀者作指定決定所需資料，並附連結供看額外背景。"
+          },
+          {
+            "id": "b",
+            "en": "A short note omits a necessary return time.",
+            "zh": "短通知漏掉必要的回程時間。"
+          },
+          {
+            "id": "c",
+            "en": "A leaflet leaves out a fee visitors must pay.",
+            "zh": "單張省略訪客必須支付的費用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "就既定用途而言，必要內容齊全。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our poster gives the workshop date but not the cost or whether tools are provided. People keep asking both questions. B: ______",
+        "promptZh": "（甲：海報寫了工作坊日期，卻沒寫費用或是否提供工具；大家不斷問這兩件事。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The missing practical details matter to applicants.",
+            "zh": "缺失的實際細節對報名者重要。"
+          },
+          {
+            "id": "b",
+            "en": "The repeated questions show what readers need.",
+            "zh": "重複提問顯示讀者需要甚麼。"
+          },
+          {
+            "id": "c",
+            "en": "The poster leaves things out; add those details.",
+            "zh": "海報省略了內容，應補上那些細節。"
+          },
+          {
+            "id": "d",
+            "en": "A revised poster could answer both questions in advance.",
+            "zh": "新版海報可事先回答兩個問題。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出遺漏內容並建議補上。"
+      },
+      "speaking": {
+        "en": "The first report left things out about the trial’s access rules, so the team added who could join before sharing it more widely.",
+        "zh": "初版報告省略了試行的參與規則，所以團隊在廣泛發放前補上誰可參加。",
+        "promptZh": "指出具體遺漏與補救。",
+        "targetSpan": {
+          "start": 17,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份短資訊材料各省略影響讀者決定的內容，之後有人補充。用英文寫出遺漏、後果與修訂。",
+        "selfCheckZh": "兩例須指出具體遺漏，不可只說「很短」。",
+        "examples": [
+          {
+            "en": "The museum notice left things out about wheelchair access, so visitors called for details; staff added the lift route to the new version.",
+            "zh": "博物館通知省略輪椅通道，訪客打電話查問；員工在新版補上升降機路線。"
+          },
+          {
+            "en": "The club email left things out about the cancellation deadline, and members booked too late to change plans; the secretary sent a corrected message.",
+            "zh": "社團電郵省略取消期限，會員訂位後太遲改計劃；秘書發出更正訊息。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheelchair access",
+            "zh": "輪椅通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 57
+            }
+          },
+          {
+            "en": "the lift route",
+            "zh": "升降機路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          },
+          {
+            "en": "cancellation deadline",
+            "zh": "取消期限",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 62
+            }
+          },
+          {
+            "en": "corrected message",
+            "zh": "更正訊息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 130,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave things out means omit information from an account.",
+          "zh": "leave things out 指在敘述中省略資訊。"
+        },
+        {
+          "en": "A brief notice may leave things out that readers need to act.",
+          "zh": "簡短通知可能省略讀者行動所需資訊。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2276",
+      "number": 2276,
+      "inventoryId": "expr-2276",
+      "titleEn": "easier to grasp",
+      "titleZh": "較容易理解",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\beasier to grasp\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Simpler to understand because an explanation or representation makes an idea clearer.",
+        "meaningZh": "因解說或呈現更清楚而較容易理解概念。",
+        "grammar": "Make X easier to grasp; grasp is figurative understanding rather than physically holding.",
+        "register": "Neutral everyday English. A teacher may use it when a diagram clarifies a difficult process for students.",
+        "boundaryZh": "須有具體理解改善；只把內容變短、卻仍不清楚，不足以說較容易掌握。",
+        "misconceptionZh": "不是手更容易抓住圖表，也不等於複雜內容全被消除。",
+        "outcomeZh": "能指出原來難點、使之清楚的方法及讀者新能解釋的內容。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0165",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 15,
+          "book": 10,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "29–30",
+          "locatorNote": "DOCX table 12, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The diagram made the explanation easier to grasp.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "easier to grasp"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A tutor’s first explanation of the water cycle used only abstract terms. She then drew arrows showing evaporation, clouds and rain. The sequence became easier to grasp when students could explain where the water went.",
+        "zh": "導師最初只用抽象詞解釋水循環，之後畫箭頭顯示蒸發、雲及降雨。學生能解釋水去了哪裏，顯示次序變得較容易理解。",
+        "promptZh": "甚麼證明理解改善？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Students could explain the sequence after seeing the arrows.",
+            "zh": "學生看箭頭後能解釋次序。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor removed every stage from the explanation.",
+            "zh": "導師刪掉解說的每個階段。"
+          },
+          {
+            "id": "c",
+            "en": "Students still could not identify where water went.",
+            "zh": "學生仍無法指出水去了哪裏。"
+          },
+          {
+            "id": "d",
+            "en": "The drawing was shorter but unrelated to the water cycle.",
+            "zh": "圖畫較短，卻與水循環無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生能解釋原本抽象的流程。"
+      },
+      "reply": {
+        "promptEn": "A science club cannot follow a dense timetable. The leader groups the steps into three labelled phases, then members can describe what happens before each test. What changed?",
+        "promptZh": "（科學社看不明白密集時間表；領隊把步驟分成三個有標籤階段，成員之後能描述每次測試前要做甚麼。有何改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The phases clarified the order of steps.",
+            "zh": "分階段令步驟次序清楚。"
+          },
+          {
+            "id": "b",
+            "en": "Members can now explain the sequence.",
+            "zh": "成員現在能解釋流程。"
+          },
+          {
+            "id": "c",
+            "en": "The timetable became easier to grasp.",
+            "zh": "時間表變得較容易理解。"
+          },
+          {
+            "id": "d",
+            "en": "The labels help readers find each test stage.",
+            "zh": "標籤有助讀者找到每項測試階段。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據分階段與可解釋的改善回答。"
+      },
+      "scene": {
+        "promptZh": "老師用一幅標出轉車次序的路線圖取代密密麻麻的文字；學生之後能指出在哪站轉車。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The route became easier to grasp.",
+            "zh": "路線變得較容易理解。"
+          },
+          {
+            "id": "b",
+            "en": "Students still cannot identify any transfer.",
+            "zh": "學生仍無法指出任何轉車站。"
+          },
+          {
+            "id": "c",
+            "en": "The map removed all transfer information.",
+            "zh": "路線圖移走所有轉車資訊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "能指出轉車站是理解改善的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a concept became easier to grasp？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A handout becomes shorter but loses the key sequence, and readers still cannot explain it.",
+            "zh": "講義縮短卻丟失關鍵次序，讀者仍無法解釋。"
+          },
+          {
+            "id": "b",
+            "en": "A labelled diagram helps learners describe how a machine works.",
+            "zh": "附標籤圖解令學員能描述機器如何運作。"
+          },
+          {
+            "id": "c",
+            "en": "A clear example lets readers explain a difficult rule in their own words.",
+            "zh": "清楚例子令讀者用自己的話解釋困難規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "變短而仍不懂，不是更易理解。"
+      },
+      "dialogue": {
+        "promptEn": "A: We replaced the long paragraph with a numbered diagram, and the volunteers can now explain the evacuation route in order. B: ______",
+        "promptZh": "（甲：我們用有編號的圖取代長段落，義工現在能按次序解釋疏散路線。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The diagram clarified the steps.",
+            "zh": "圖解釐清了步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Their ability to explain the route shows understanding.",
+            "zh": "他們能解釋路線，顯示已理解。"
+          },
+          {
+            "id": "c",
+            "en": "The procedure is easier to grasp now.",
+            "zh": "程序如今較容易理解。"
+          },
+          {
+            "id": "d",
+            "en": "Numbering lets them follow the sequence.",
+            "zh": "編號有助他們跟上次序。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指可驗證的理解改善。"
+      },
+      "speaking": {
+        "en": "A simple timeline made the museum’s restoration process easier to grasp; visitors could now tell which repairs came before the final reopening.",
+        "zh": "簡單時間線令博物館修復過程更容易理解；訪客現在能說出哪些維修在重開前完成。",
+        "promptZh": "指出呈現方式及理解證據。",
+        "targetSpan": {
+          "start": 56,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份原難明的資料經圖示或重組後，讀者能解釋具體流程。用英文寫出改動與可見理解。",
+        "selfCheckZh": "兩例不能只說材料變短；須有實際理解改善。",
+        "examples": [
+          {
+            "en": "The labelled flowchart made the permit process easier to grasp, and applicants could identify the step before inspection.",
+            "zh": "附標籤流程圖令許可程序較容易理解，申請者能指出檢查前的步驟。"
+          },
+          {
+            "en": "Grouping the rehearsal plan by room made the schedule easier to grasp; each actor could now name the correct arrival time.",
+            "zh": "按房間分組綵排計劃令時間表較容易理解；每名演員都能說出正確到場時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "labelled flowchart",
+            "zh": "附標籤流程圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "before inspection",
+            "zh": "檢查前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 120
+            }
+          },
+          {
+            "en": "rehearsal plan",
+            "zh": "綵排計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 27
+            }
+          },
+          {
+            "en": "arrival time",
+            "zh": "到場時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Easier to grasp means easier to understand.",
+          "zh": "easier to grasp 指較容易理解。"
+        },
+        {
+          "en": "A diagram can make a difficult sequence easier to grasp.",
+          "zh": "圖解可令困難流程較容易理解。"
+        }
+      ]
+    }
+  ]
+}

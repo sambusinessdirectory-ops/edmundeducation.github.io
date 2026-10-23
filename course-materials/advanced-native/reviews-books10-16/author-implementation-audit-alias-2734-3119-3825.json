@@ -1,0 +1,240 @@
+{
+  "type": "AI author implementation audit; not human/release approval",
+  "changes": [
+    {
+      "sourceOrdinal": 2734,
+      "ownerId": "advanced-native-116",
+      "batchPath": "batches/batch-0101-0125.json",
+      "batchSha256": "c254a5705c8bb2143363f99980463408c8259a6148f01509af0dc539dff5879a",
+      "decisionPath": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionSha256": "ba6254c1a3a243454a9eb1601289288b811d3df0ce5affad799c502b04cbd24a",
+      "contentRevision": 2,
+      "sourceMatch": "in the public eye",
+      "regressionControls": "3 positive / 3 negative passed",
+      "answerDerivedGlossarySpans": 6,
+      "audioRequests": [
+        {
+          "moduleId": "advanced-native-116",
+          "text": "The unexpected award put the small library in the spotlight, and reporters began calling every day.",
+          "role": "listening",
+          "voice": "af_heart",
+          "lang": "en-us",
+          "speed": 0.96,
+          "synthesisKey": "1dff6b685144df927e320ec07fd1eb4f2570fed943badeb53e7a465a2bf3b871"
+        },
+        {
+          "moduleId": "advanced-native-116",
+          "text": "After months of news coverage, she was in the public eye, but she still needed privacy.",
+          "role": "speaking",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "816c918793f002813f9bd9b252bf4a038298a2aa46ecc5e1b42e6b541990b54d"
+        },
+        {
+          "moduleId": "advanced-native-116",
+          "text": "The award put the project in the spotlight.",
+          "role": "takeaway-1",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "4e0a741d7bcbd85b6808c818c16a5496345fdfd07ae0230990fa453c749c81cf"
+        },
+        {
+          "moduleId": "advanced-native-116",
+          "text": "Being in the public eye does not mean someone welcomes every interview.",
+          "role": "takeaway-2",
+          "voice": "bf_isabella",
+          "lang": "en-gb",
+          "speed": 1.05,
+          "synthesisKey": "16ee73f217e40b02b643962ecea0fbfba3d09c1d6303e105f38d5a099d56b6e6"
+        }
+      ],
+      "newAudioRoles": [
+        "speaking",
+        "takeaway-2"
+      ],
+      "review": "AI author review only; independent B review pending"
+    },
+    {
+      "sourceOrdinal": 3119,
+      "ownerId": "advanced-native-549",
+      "batchPath": "batches/batch-0526-0550.json",
+      "batchSha256": "7325da52ce28275dd49337ba798af205d35fcb64a516816e6ba2700943ec03ec",
+      "decisionPath": "books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionSha256": "83d53f9990d20983563124fc3f4066741cb8db33c98317ace408cfefbded0f4b",
+      "contentRevision": 2,
+      "sourceMatch": "trapped in old habits",
+      "regressionControls": "3 positive / 3 negative passed",
+      "answerDerivedGlossarySpans": 6,
+      "audioRequests": [
+        {
+          "moduleId": "advanced-native-549",
+          "text": "The committee seemed stuck in old patterns, giving the same members every speaking role even after newcomers asked to contribute; it agreed to try one shared presentation with a new pair next month.",
+          "role": "listening",
+          "voice": "af_heart",
+          "lang": "en-us",
+          "speed": 0.96,
+          "synthesisKey": "1ce4598a84add23960a874dac60ca08e473f4baf3912321a30491418c99c9349"
+        },
+        {
+          "moduleId": "advanced-native-549",
+          "text": "We may be trapped in old habits, so I would like to name the repeated behaviour and try one change we can review.",
+          "role": "speaking",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "63aa26812333abcd6c61daaa92f175b08b6978d0cb73f63be16747ff21dee465"
+        },
+        {
+          "moduleId": "advanced-native-549",
+          "text": "The group was stuck in old patterns of announcing decisions before listening, so it tried collecting questions first.",
+          "role": "takeaway-1",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "0029fb90c133a17a79061428f3566318df761c073a34f90eea4ac145d30a733e"
+        },
+        {
+          "moduleId": "advanced-native-549",
+          "text": "I noticed I was trapped in old habits when the same avoidable confusion returned after every meeting.",
+          "role": "takeaway-2",
+          "voice": "bf_isabella",
+          "lang": "en-gb",
+          "speed": 1.05,
+          "synthesisKey": "e0aa0804a2eb90f3845c501a96372f1c5b42a0c7b2249ac61db2367fd6ff7903"
+        }
+      ],
+      "newAudioRoles": [
+        "speaking",
+        "takeaway-2"
+      ],
+      "review": "AI author review only; independent B review pending"
+    },
+    {
+      "sourceOrdinal": 3825,
+      "ownerId": "advanced-native-100",
+      "batchPath": "batches/batch-0076-0100.json",
+      "batchSha256": "f2f0cdc4057f2393ad04348496e9b4c27adafde1262b855865392bc0117b6f38",
+      "decisionPath": "books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionSha256": "b14f9e1759cafc4a07cecbe4e5b2fde515dbb5cdecbc9af7a4230b8dce0a970b",
+      "contentRevision": 2,
+      "sourceMatch": "an endless uphill climb",
+      "regressionControls": "3 positive / 3 negative passed",
+      "answerDerivedGlossarySpans": 6,
+      "audioRequests": [
+        {
+          "moduleId": "advanced-native-100",
+          "text": "With little funding and strong local opposition, getting the new playground approved will be an uphill battle.",
+          "role": "listening",
+          "voice": "af_heart",
+          "lang": "en-us",
+          "speed": 0.96,
+          "synthesisKey": "b75b43d057f4e173b7b3ff8d013d5145a0c82a0ad7c536f93319b3eadc63ca36"
+        },
+        {
+          "moduleId": "advanced-native-100",
+          "text": "Changing the policy may be an uphill climb, so we need a clear plan.",
+          "role": "speaking",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "cbb7786c4db221ea9b0519b67ddab6c77a4fdb502efb38f02a75938e0f9cdb2d"
+        },
+        {
+          "moduleId": "advanced-native-100",
+          "text": "Securing support can be an uphill battle.",
+          "role": "takeaway-1",
+          "voice": "bm_fable",
+          "lang": "en-gb",
+          "speed": 0.98,
+          "synthesisKey": "421c1362ffb476232257dd98459e0b835a29485c7cb3e2ba9083e7046e3055f3"
+        },
+        {
+          "moduleId": "advanced-native-100",
+          "text": "It was an uphill climb, but we kept working on the main obstacles.",
+          "role": "takeaway-2",
+          "voice": "bf_isabella",
+          "lang": "en-gb",
+          "speed": 1.05,
+          "synthesisKey": "9b4f4f8d523f1005c7b23a5d9ea12be01c50caac5c396789d2cacf21cd641e81"
+        }
+      ],
+      "newAudioRoles": [
+        "speaking",
+        "takeaway-2"
+      ],
+      "review": "AI author review only; independent B review pending"
+    }
+  ],
+  "newAudioDeltaCount": 6,
+  "newAudioDelta": [
+    {
+      "moduleId": "advanced-native-116",
+      "text": "After months of news coverage, she was in the public eye, but she still needed privacy.",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "lang": "en-gb",
+      "speed": 0.98,
+      "synthesisKey": "816c918793f002813f9bd9b252bf4a038298a2aa46ecc5e1b42e6b541990b54d"
+    },
+    {
+      "moduleId": "advanced-native-116",
+      "text": "Being in the public eye does not mean someone welcomes every interview.",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "lang": "en-gb",
+      "speed": 1.05,
+      "synthesisKey": "16ee73f217e40b02b643962ecea0fbfba3d09c1d6303e105f38d5a099d56b6e6"
+    },
+    {
+      "moduleId": "advanced-native-549",
+      "text": "We may be trapped in old habits, so I would like to name the repeated behaviour and try one change we can review.",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "lang": "en-gb",
+      "speed": 0.98,
+      "synthesisKey": "63aa26812333abcd6c61daaa92f175b08b6978d0cb73f63be16747ff21dee465"
+    },
+    {
+      "moduleId": "advanced-native-549",
+      "text": "I noticed I was trapped in old habits when the same avoidable confusion returned after every meeting.",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "lang": "en-gb",
+      "speed": 1.05,
+      "synthesisKey": "e0aa0804a2eb90f3845c501a96372f1c5b42a0c7b2249ac61db2367fd6ff7903"
+    },
+    {
+      "moduleId": "advanced-native-100",
+      "text": "Changing the policy may be an uphill climb, so we need a clear plan.",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "lang": "en-gb",
+      "speed": 0.98,
+      "synthesisKey": "cbb7786c4db221ea9b0519b67ddab6c77a4fdb502efb38f02a75938e0f9cdb2d"
+    },
+    {
+      "moduleId": "advanced-native-100",
+      "text": "It was an uphill climb, but we kept working on the main obstacles.",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "lang": "en-gb",
+      "speed": 1.05,
+      "synthesisKey": "9b4f4f8d523f1005c7b23a5d9ea12be01c50caac5c396789d2cacf21cd641e81"
+    }
+  ],
+  "validation": {
+    "focusedBuildAndCheck": "all three canonical batches pass, 67 lessons / 402 questions / 268 audio requests total, zero flags",
+    "explicitAliasPatternAudit": "68/68 alias source examples match across the three decision files",
+    "fullBooks10to16Verifier": "zero whole-catalogue schema errors, zero selected existing-alias exceptions; published false",
+    "originality": "zero non-own six-token matches in edited canonical learner English against 2,604 source examples",
+    "idsAndProgress": "all canonical IDs and source inventory IDs unchanged; source rows appended; three prior pilot IDs stay unselected"
+  },
+  "pending": [
+    "Independent English/Traditional Chinese focused content review by author B.",
+    "Synthesize, verify and host six changed canonical audio clips after text review; existing listening/takeaway-1 audio request texts are unchanged.",
+    "Human owner sign-off and any publication gate remain open."
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+}

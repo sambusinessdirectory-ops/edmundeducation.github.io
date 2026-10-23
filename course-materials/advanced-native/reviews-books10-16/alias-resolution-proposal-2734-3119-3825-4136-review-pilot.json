@@ -1,0 +1,177 @@
+{
+  "type": "Read-only concrete alias-resolution proposal; AI analysis, not human sign-off",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "proposals": [
+    {
+      "sourceOrdinal": 2734,
+      "owner": 116,
+      "file": "batch-0101-0125.json",
+      "pattern": "\\b(?:in\\s+the\\s+spotlight|in\\s+the\\s+public\\s+eye)\\b",
+      "positive": [
+        "She felt uncomfortable being in the spotlight.",
+        "The actor has remained in the public eye for years.",
+        "A newly reported scientist is in the public eye."
+      ],
+      "negative": [
+        "The actor is in the public eyes.",
+        "The committee quietly discussed it with no public attention.",
+        "She looked into a spotlight."
+      ],
+      "meaningImpact": "Canonical 116 already means public attention; add media-visible/famous public-eye usage as a near-synonymous lexical form. Never teach a mandatory brief-versus-long duration divide: Cambridge gives years in the spotlight.",
+      "contentPlan": [
+        {
+          "field": "titleEn/brief",
+          "change": "Present in the spotlight / in the public eye as two public-attention forms; note public-eye often describes well-known, media-visible people. Preserve that attention may be welcome or unwelcome."
+        },
+        {
+          "field": "scene or dialogue",
+          "change": "Replace one target-bearing key with an actor or public advocate widely covered in media, using in the public eye; keep facts sufficient for public visibility, not a single private compliment."
+        },
+        {
+          "field": "speaking and one takeaway",
+          "change": "Use in the public eye in a new speech line and explanatory takeaway so the additional form is assessed and has a prerecorded model; update exact target span and audio request."
+        },
+        {
+          "field": "writing",
+          "change": "Rewrite the new-context prompt and one model for sustained public visibility and interview boundaries; keep the other model in the spotlight for a recent attention event; recalculate answer-derived glossary spans and EN/ZH."
+        }
+      ],
+      "boundary": "Neither phrase alone proves fame is liked, nor does duration alone distinguish them.",
+      "ownerBatchPath": "batches/batch-0101-0125.json",
+      "ownerBatchSha256": "2c64e84e63cdc84a09cc887d72c81658ef982a251e47c3cc5bec5c825fad7f7d",
+      "existingPattern": "\\bin the spotlight\\b",
+      "sourceExample": "The actor has remained in the public eye for years.",
+      "existingPatternMatchesSource": false,
+      "proposedPatternMatchesSource": true
+    },
+    {
+      "sourceOrdinal": 3119,
+      "owner": 549,
+      "file": "batch-0526-0550.json",
+      "pattern": "\\b(?:stuck\\s+in\\s+old\\s+patterns|trapped\\s+in\\s+old\\s+habits)\\b",
+      "positive": [
+        "The committee remained stuck in old patterns.",
+        "A team can become trapped in old habits.",
+        "We are trapped in old habits of choosing the same speakers."
+      ],
+      "negative": [
+        "A team is trapped in a cycle of debt.",
+        "Old habits die hard.",
+        "The committee deliberately kept a proven method after review."
+      ],
+      "meaningImpact": "Canonical 549 already teaches repeated familiar behaviour that blocks needed change. Trapped in old habits adds a natural surface image, not a new behavioural outcome; avoid converting all old habits into defects.",
+      "contentPlan": [
+        {
+          "field": "titleEn/brief.grammar",
+          "change": "Add trapped in old habits as an alternative construction alongside stuck in old patterns, with be/become/get and a concrete repeated behaviour."
+        },
+        {
+          "field": "scene or dialogue",
+          "change": "Use trapped in old habits as a target-bearing keyed answer in one existing committee/friend scenario, ensuring the prompt shows repetition and resistance to a needed change."
+        },
+        {
+          "field": "speaking/takeaway",
+          "change": "Include the alternate form in an audio-backed model and takeaway, with exact target span; keep the practical small-change learner outcome."
+        },
+        {
+          "field": "writing",
+          "change": "Retain the original new-context writing decision, but use trapped in old habits in one full model and stuck in old patterns in the other; refresh Chinese and answer-derived glossary offsets."
+        }
+      ],
+      "boundary": "Unlike old habits die hard, the learner must identify a limiting repeated practice, not just observe that habit change can be difficult.",
+      "ownerBatchPath": "batches/batch-0526-0550.json",
+      "ownerBatchSha256": "969c9324eae126454122a75d3fd89b54a2395e9c5d013cc5b317c8bf1b657e4f",
+      "existingPattern": "\\bstuck in old patterns\\b",
+      "sourceExample": "A team can become trapped in old habits.",
+      "existingPatternMatchesSource": false,
+      "proposedPatternMatchesSource": true
+    },
+    {
+      "sourceOrdinal": 3825,
+      "owner": 100,
+      "file": "batch-0076-0100.json",
+      "pattern": "\\b(?:an\\s+uphill\\s+battle|an\\s+(?:endless\\s+)?uphill\\s+climb)\\b",
+      "positive": [
+        "Getting support will be an uphill battle.",
+        "High rent can make saving feel like an endless uphill climb.",
+        "Saving for the move has been an uphill climb."
+      ],
+      "negative": [
+        "The road has an uphill slope.",
+        "One routine request was accepted immediately.",
+        "The cyclist climbed uphill."
+      ],
+      "meaningImpact": "Canonical 100 covers sustained effort against obstacles and even includes affordable-housing source examples. Uphill climb uses journey imagery but source supplies the same saving/housing difficulty; endless adds emphasis without a new lesson outcome.",
+      "contentPlan": [
+        {
+          "field": "titleEn/brief.grammar",
+          "change": "Add an uphill climb, optionally endless, as a second effort metaphor; keep outcome uncertainty and avoid literal-slope interpretation."
+        },
+        {
+          "field": "listening or scene",
+          "change": "Add one target-bearing uphill-climb example in a genuinely new task (e.g. long-term repayment under rising fees), while preserving one uphill-battle item."
+        },
+        {
+          "field": "speaking/takeaways",
+          "change": "Demonstrate both expressions across the two takeaways or speaking model and validate the new audio target span."
+        },
+        {
+          "field": "writing",
+          "change": "One model may use an uphill climb and one an uphill battle for the same difficult community project, retaining exact obstacles and proposed first steps; recalculate glossary and Chinese."
+        }
+      ],
+      "boundary": "Do not claim climb guarantees gradual progress or battle necessarily means opponents; both can mark difficult prolonged effort.",
+      "ownerBatchPath": "batches/batch-0076-0100.json",
+      "ownerBatchSha256": "f69fd7b26c4b6cb8546dbb5d3018709bd5c50e66b946501792ad25b004399a82",
+      "existingPattern": "\\ban uphill battle\\b",
+      "sourceExample": "High rent can make saving feel like an endless uphill climb.",
+      "existingPatternMatchesSource": false,
+      "proposedPatternMatchesSource": true
+    }
+  ],
+  "unresolved4136": {
+    "sourceOrdinal": 4136,
+    "sourceExample": "Quiet time helps students with taking things in.",
+    "sourceMeaning": "Absorbing or understanding unspecified information.",
+    "closestOwners": [
+      {
+        "id": 339,
+        "scope": "attentive sensory experience of sights/new things",
+        "detectorMatchesSource": false
+      },
+      {
+        "id": 367,
+        "scope": "understanding written text/instructions",
+        "detectorMatchesSource": false
+      }
+    ],
+    "reason": "The source object things does not identify a visual or written channel. Making 367 generic would expand its approved written-information outcome; assigning 339 would assume a sensory scene absent from source. Cambridge take something in has both understanding and viewing senses. Keep the provisional decision unselected and on editorial hold until source context identifies a channel or an owner approves a distinct multimodal lesson with seven non-redundant decisions.",
+    "action": "No alias/new-lesson mutation."
+  },
+  "gatesBeforeAnyFutureMutation": [
+    "Human owner approves near-synonym ownership and exact variant wording.",
+    "Canonical brief, relevant assessed steps, both complete writing models, glossary and EN/ZH are revised together.",
+    "Run full-source detector coverage and targeted positive/negative regression cases.",
+    "Independent English/Chinese review, focused build/--check and audio mapping/revision check clear.",
+    "Only then change provisional source decision and selection manifest."
+  ],
+  "dictionaryEvidence": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/be-in-the-public-eye",
+      "supports": "public-eye media visibility"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/in-the-spotlight",
+      "supports": "spotlight public attention can last years"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/uphill",
+      "supports": "uphill effort family"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/take-in",
+      "supports": "understanding and viewing senses differ"
+    }
+  ],
+  "filesChanged": "This proposal file only; no canonical, decision, draft or manifest edits."
+}

@@ -1,0 +1,42 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eleven unselected Books 10–16 lessons: 2237, 2273, 2275, 2276, 2279, 2281, 2282, 2289, 2309, 2311, 2313",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2237-2276-a.json", "sha256": "632dea4d4dc88e1afbe6be95786bf7f42fd89e87671b264e928988011dc07a5a"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2279-a.json", "sha256": "b118669bde04f65aa087917b33b2df3886557bfcd49b1d9a8e0c72f1088cb1d9"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2281-2289-a.json", "sha256": "5bc0d58917fc43b789a32ed74c0acc7278430952f59b19fb6a2cf21c5ed9636c"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2309-2313-a.json", "sha256": "7be3f857b84106f525fad8b09856a0c47ac6ed8dbbcf983f26419543268fbdb4"}
+  ],
+  "authorSelfAuditSha256": "2c0bb5d948e6d2233a95c63ab4f51274681a7172cf34475a6df776378855a117",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "one-repair-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "11 lessons, 66 questions, 44 audio requests, zero flags across four exact-hash batches",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All eleven exact source sentences and expressions match inventory; case-insensitive target patterns match sources and keyed scene/dialogue/reply; eleven speaking spans and 44 answer-derived, non-target glossary spans pass independent checks.",
+    "sourceOriginality": "308 learner-facing English strings screened against 2,604 guide examples. One non-own six-token overlap is only the fixed 2237 target frame 'began to revolve around a screen'; no copied scenario text."
+  },
+  "perLesson": [
+    {"number": 2237, "status": "clear", "note": "Several leisure activities centred on screen use, with a concrete balancing action."},
+    {"number": 2273, "status": "clear", "note": "An initial source is followed by explicit verification rather than treated as a conclusion."},
+    {"number": 2275, "status": "clear", "note": "Material omissions, their practical effect and correction are grounded."},
+    {"number": 2276, "status": "clear", "note": "Representational changes produce observable comprehension improvements."},
+    {"number": 2279, "status": "clear", "note": "Recommendations cite checked records while preserving remaining uncertainty."},
+    {"number": 2281, "status": "repair-needed", "note": "First writing example wrongly attributes prior fear and embarrassment to the final discovery."},
+    {"number": 2282, "status": "clear", "note": "Concrete timing, shot and staging choices heighten suspense without changing facts."},
+    {"number": 2289, "status": "clear", "note": "Similar domains with different stated goals and success measures justify the expression."},
+    {"number": 2309, "status": "clear", "note": "Unresolved final details are tied to a concrete completion step."},
+    {"number": 2311, "status": "clear", "note": "A specific explanation yields emotional completion without requiring all sadness to vanish."},
+    {"number": 2313, "status": "clear", "note": "Invented plots convey recognisable feelings without being presented as historical facts."}
+  ],
+  "findings": [
+    {
+      "id": "R2281-01",
+      "severity": "major",
+      "field": "lesson 2281 writing.examples[0].en/zh",
+      "evidence": "The model says 'Finding her missing sketchbook after a week of worry gave Noor an emotional ride' and then lists earlier fear and embarrassment followed by relief. The final act of finding cannot have caused the earlier phases; the search across the week is the experience that carried her through them.",
+      "repair": "Make the week-long search the subject of the emotional ride and keep the fear → embarrassment → relief sequence. Align Traditional Chinese and recalculate any affected answer-derived glossary spans."
+    }
+  ],
+  "coverageLimit": "All eleven received automated source, selected-collision, target-key, speaking-span, glossary and guide-copy checks; I inspected source-sense, reply validity, scene, EN/ZH and both writing models with emphasis on material errors. This is risk-based AI content review, not listening or release certification."
+}

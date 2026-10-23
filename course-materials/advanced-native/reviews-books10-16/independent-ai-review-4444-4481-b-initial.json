@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4444, 4445, 4450, 4462, 4466, 4470, 4474, 4481",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4444-4462-a.json",
+      "sha256": "a991eea21e2b2c140ec31c9232e35e6e8a0c6d1fce96ae1c00b63cf283064211"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "sha256": "71dad5ef635d81c22d6e67b1453dbc885da1016f1bcecf8b9f152dd9451b95e2"
+    }
+  ],
+  "authorSelfAuditSha256": "b35980cb117ca4425ff765e07652d6f8f8e2c2fe257a391d515789a1323587b5",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "one-source-form-repair-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Both four-lesson files pass; combined 8 lessons, 48 questions, 32 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All exact inventory sentences/phrases, keyed scene/dialogue/reply patterns, speaking spans and 40 answer-derived non-target glossary spans pass independent mechanical checks.",
+    "sourceOriginality": "230 learner-facing English strings screened against 2,604 guide examples. Eighteen six-token hits are only the eight-word fixed expression in 4444; zero non-target overlaps."
+  },
+  "perLesson": [
+    {"number": 4444, "status": "clear", "note": "Observable follow-through supports the qualified action-versus-words meaning."},
+    {"number": 4445, "status": "clear", "note": "Initial pride/reluctance and constructive admission or request are supplied."},
+    {"number": 4450, "status": "repair-needed", "note": "Only the noun form `a taste of home` is taught, although the exact source uses food-subject verb `taste of home`."},
+    {"number": 4462, "status": "clear", "note": "Each object has a specific known associated story rather than an unsupported assumption."},
+    {"number": 4466, "status": "clear", "note": "Loss of meaningful shared purpose is contrasted with superficial display rather than change itself."},
+    {"number": 4470, "status": "clear", "note": "Concrete original technique or community participants remain amid new distribution methods."},
+    {"number": 4474, "status": "clear", "note": "Prior disuse and sustained renewed activity are both evidenced."},
+    {"number": 4481, "status": "clear", "note": "Outdated requirements cause present friction despite a workable modern alternative."}
+  ],
+  "findings": [
+    {
+      "id": "R4450-01",
+      "severity": "major",
+      "field": "lesson 4450 brief.grammar and assessed source-form coverage",
+      "evidence": "The exact guide sentence is `The pastries taste of home to many residents`, using `taste of home` as a verb with a food subject. Current grammar teaches only `a/the taste of home`, and all seven-step target-bearing models and answers use the noun. A regex hit on the source hides the unaddressed grammatical form.",
+      "repair": "Teach both natural constructions explicitly, and include at least one meaningful assessed or modelled food-subject verb use, with faithful Traditional Chinese and recalculated speaking/glossary spans as needed. Retain the exact source and noun-form examples."
+    }
+  ],
+  "coverageLimit": "Full mechanical source, selected collision, target-key, speaking-span, glossary and guide-overlap checks were combined with targeted source-sense, answer, EN/ZH and writing-transfer review. This is risk-based AI content review, not a line-by-line proofread of all 48 questions or release certification."
+}

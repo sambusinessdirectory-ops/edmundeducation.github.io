@@ -6,12 +6,12 @@
       "id": "advanced-native-1326",
       "number": 1326,
       "inventoryId": "expr-1326",
-      "contentRevision": 1,
-      "titleEn": "pass on values / experience and tradition",
+      "contentRevision": 3,
+      "titleEn": "pass on values and stories",
       "titleZh": "把價值觀、經驗及傳統傳給別人",
       "category": "phrasal-verb",
       "target": {
-        "pattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b",
+        "pattern": "\\bpass(?:es|ed|ing)? on (?:our |their |his |her |the )?(?:values|experience and tradition|stories)\\b|\\bpass(?:es|ed|ing)? (?:our |their |his |her |the )?(?:values|experience and tradition) on\\b|\\bpass(?:es|ed|ing)? (?:those |the )stories on\\b",
         "glossaryForbidden": [
           "\\bpass(?:es|ed|ing)? on\\b",
           "\\bvalues\\b",
@@ -19,10 +19,10 @@
         ]
       },
       "brief": {
-        "meaningEn": "Transmit beliefs about what matters, knowledge gained through experience, or customs, often through teaching, stories or example.",
-        "meaningZh": "透過教導、故事或示範，把價值信念、從經驗得來的知識或傳統習俗傳給別人。",
-        "grammar": "pass on values / experience and tradition to someone; pass values on; passed/passing. Pass on is separable with these transmission objects. Values are beliefs or principles here, not prices; experience and tradition name knowledge and customs. A recipient can hear them without agreeing with or adopting every part.",
-        "register": "Transmission phrasal verb with an abstract object. Intergenerational teaching is common, but on does not itself require a family relationship.",
+        "meaningEn": "Transmit beliefs, experience, customs or remembered stories to other people, often by telling or showing them.",
+        "meaningZh": "把價值觀、經驗、習俗或記下的故事傳給別人，通常透過講述或示範。",
+        "grammar": "Pass on values, experience and tradition, or stories to someone; pass those stories on is the separable order. Passed/passing are natural forms. The recipient need not adopt every belief or story.",
+        "register": "Neutral transmission phrasal verb; a parent may pass stories on to children, while a community volunteer may pass them on to newcomers.",
         "boundaryZh": "傳達不保證對方已採納，也不表示每項舊觀念都不能討論；需指出傳的是甚麼。",
         "misconceptionZh": "把分享某種做法、說明其中信念，以及對方是否接受分清楚，不用親屬身份代替資料。",
         "outcomeZh": "能具體說明傳達的是哪些信念、經驗或傳統，以及怎樣傳達，並尊重接觸與採納仍是不同步驟。"
@@ -55,6 +55,20 @@
           "sentence": "Grandparents pass on experience and tradition.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page268, table1, row2."
+        },
+        {
+          "occurrenceId": "book10-16-0423",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 39,
+          "book": 10,
+          "question": 35,
+          "sample": "S2",
+          "sourceBookPages": "85–86",
+          "locatorNote": "DOCX table 35, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She passes those stories on to her children.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "passes those stories on"
         }
       ],
       "listening": {
@@ -121,8 +135,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "The extract gives cooking instructions; it does not by itself show which values the writer hopes to pass on.",
-            "zh": "節錄提供烹飪指示，本身沒有顯示作者希望傳達哪些價值觀。"
+            "en": "The extract gives cooking instructions; it does not by itself show that the writer is trying to pass on values.",
+            "zh": "節錄提供烹飪指示，本身不足以顯示作者正嘗試傳達價值觀。"
           },
           {
             "id": "choice-2",
@@ -136,7 +150,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "做法可以承載信念，但單憑重量及步驟，還不能確定是哪項價值觀或讀者是否接受。"
+        "explanationZh": "節錄只有重量及步驟，本身不足以證明作者正藉此傳達特定價值觀，更不能推斷讀者是否接受。"
       },
       "contrast": {
         "promptEn": "",
@@ -260,8 +274,8 @@
           "zh": "她透過為每位協助製書的人列出貢獻，傳達價值觀。"
         },
         {
-          "en": "The tutors pass values on when they explain why listening matters, not only when they state a rule.",
-          "zh": "導師解釋聆聽為甚麼重要時，也在傳達價值觀，而不只是在訂規則時才這樣做。"
+          "en": "After recording the gardeners’ memories, Hana passes those stories on to new volunteers so they understand why the park was protected.",
+          "zh": "錄下園丁的回憶後，Hana 把這些故事傳給新義工，讓他們明白公園為何獲保護。"
         }
       ],
       "review": {
@@ -3751,12 +3765,12 @@
       "id": "advanced-native-1344",
       "number": 1344,
       "inventoryId": "expr-1344",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "a real lifeline",
       "titleZh": "困境中真正重要的支援",
       "category": "idiom",
       "target": {
-        "pattern": "\\ba real lifeline\\b",
+        "pattern": "\\ba (?:real )?lifeline\\b",
         "glossaryForbidden": [
           "\\breal lifeline\\b",
           "\\blifeline\\b"
@@ -3765,8 +3779,8 @@
       "brief": {
         "meaningEn": "A genuinely important source of help when someone is in difficulty.",
         "meaningZh": "人在困境中一項真正重要、能幫助應付的支援。",
-        "grammar": "be/become/provide a real lifeline for/to someone. Real emphasises the practical importance; the figurative noun does not require rescue from physical danger.",
-        "register": "Conventional rescue metaphor in a noun frame. Related throw someone a lifeline foregrounds offering help; this frame identifies the helpful thing or service.",
+        "grammar": "be/become/provide a lifeline or a real lifeline for/to someone. Real emphasises the practical importance; the figurative noun does not require rescue from physical danger.",
+        "register": "Conventional rescue metaphor in a noun frame. A teacher may tell families that a basic phone can be a lifeline during an emergency; related throw someone a lifeline foregrounds offering help.",
         "boundaryZh": "形容重要支援，不一定是實際救命，也不表示困難全消失；要說明它幫人應付哪項限制。",
         "misconceptionZh": "不是所有方便都在每個語境中同樣重要，也不能只憑稱讚就確定支援會永久提供。",
         "outcomeZh": "能把具體困難與支援作用連起來，並提出負責任的使用或延續請求。"
@@ -3785,6 +3799,34 @@
           "sentence": "A neighbour's help was a real lifeline.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page151, table1, row2; unknown locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-0358",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 33,
+          "book": 10,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "68–71",
+          "locatorNote": "DOCX table 28, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A basic phone can be a lifeline during an emergency.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a lifeline"
+        },
+        {
+          "occurrenceId": "book10-16-0461",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 42,
+          "book": 11,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A basic phone can be a lifeline during an emergency.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a lifeline"
         }
       ],
       "listening": {

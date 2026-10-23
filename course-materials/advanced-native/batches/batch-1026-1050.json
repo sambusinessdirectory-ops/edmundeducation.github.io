@@ -1071,9 +1071,9 @@
       "titleEn": "a crutch",
       "titleZh": "過度依賴而妨礙獨立嘗試的支柱",
       "category": "figurative",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ba crutch\\b",
+        "pattern": "\\ba (?:digital )?crutch\\b",
         "glossaryForbidden": [
           "\\ba crutch\\b"
         ]
@@ -1117,13 +1117,27 @@
           "sentence": "The template became a crutch instead of a learning tool.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a crutch"
+        },
+        {
+          "occurrenceId": "book10-16-0343",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The app became a digital crutch for routine decisions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "digital crutch"
         }
       ],
       "brief": {
         "meaningEn": "Something relied on to such an extent that it may limit independent action or development.",
         "meaningZh": "被依賴到可能限制獨立行動或發展的東西。",
-        "grammar": "use/rely on something as a crutch; become a crutch; explain the actual dependence and any limitation.",
-        "register": "Conventional figurative support image, sometimes critical. Real mobility aids and legitimate assistance should not be treated as inferior or shameful.",
+        "grammar": "use/rely on something as a crutch; become a crutch or a digital crutch when a digital tool replaces independent judgment. Explain the actual dependence and any limitation.",
+        "register": "Conventional figurative support image, sometimes critical. A teacher may tell pupils that an app has become a digital crutch for decisions they could evaluate themselves; real mobility aids and legitimate assistance should not be treated as inferior or shameful.",
         "boundaryZh": "不能因用了支援便叫過度依賴；需指出支援怎取代應有判斷或嘗試，不貶低實際輔具。",
         "misconceptionZh": "保留有用工具，也可改使用方式；不必把所有支援突然撤去。",
         "outcomeZh": "能分清適當支援與妨礙發展的依賴。"
@@ -1331,8 +1345,8 @@
           "zh": "作者用舊公式取代聆聽場景獨特需要時，公式變成依賴支柱。"
         },
         {
-          "en": "The guide helped me prepare without becoming a crutch; I rewrote the opening after learning what the visitor wanted to discuss.",
-          "zh": "指南幫我準備，沒有變成過度依賴的支柱；得知訪客想談甚麼後，我重寫了開場。"
+          "en": "A route-planning app becomes a digital crutch when a user follows it even after signs show that road is closed.",
+          "zh": "即使路牌顯示道路封閉，使用者仍盲從導航程式，它便變成數碼依賴工具。"
         }
       ],
       "review": {
@@ -2512,9 +2526,9 @@
       "titleEn": "at the touch of a button",
       "titleZh": "只需一按便可做到",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bat the touch of a button\\b",
+        "pattern": "\\bat the (?:touch|push) of a button\\b",
         "glossaryForbidden": [
           "\\bthe touch of a button\\b"
         ]
@@ -2545,13 +2559,27 @@
           "sentence": "Tickets are available at the touch of a button.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "at the touch of a button"
+        },
+        {
+          "occurrenceId": "book10-16-0329",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The blinds open at the push of a button.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at the push of a button"
         }
       ],
       "brief": {
         "meaningEn": "Very easily through a single simple action, often using a device.",
         "meaningZh": "透過一個簡單動作便很容易做到，常指用裝置操作。",
-        "grammar": "available/send/request something at the touch of a button; specify which step is easy, not every later process.",
-        "register": "Conventional device phrase that can be literal as well as emphasising ease. A simple user action can depend on substantial work behind it.",
+        "grammar": "available/send/request something at the touch or push of a button; both variants describe the simple control action. Specify which step is easy, not every later process.",
+        "register": "Conventional device phrase that can be literal as well as emphasising ease. A service designer may tell users that opening the blinds is available at the push of a button, while installation and maintenance still take work.",
         "boundaryZh": "需說哪個動作一按便成，不表示所有後續已完成、資料已核或人人能使用。",
         "misconceptionZh": "容易發出要求與服務已交付不同。",
         "outcomeZh": "能清楚介紹便捷操作及仍待處理步驟。"

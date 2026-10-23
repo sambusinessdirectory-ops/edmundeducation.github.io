@@ -31,6 +31,9 @@ const queue=artifacts.files['audio-queue.generated.json'];
 fs.mkdirSync(destination,{recursive:true});
 const queuePath=path.join(destination,'audio-queue.generated.json');
 fs.writeFileSync(queuePath,queue);
+// Pin the exact lesson text used for speech-content screening. Later edits to
+// selected batches must not silently change the expected transcript of a clip.
+fs.writeFileSync(path.join(destination,'canonical-snapshot.json'),JSON.stringify({schemaVersion:1,lessons:records},null,2)+'\n');
 const evidence={status:'unpublished-local-audio-production',releaseApproved:false,
  selectedLessons:records.length,audioRoles:JSON.parse(queue).length,
  queueSha256:createHash('sha256').update(queue).digest('hex'),

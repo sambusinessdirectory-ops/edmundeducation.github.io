@@ -1,0 +1,94 @@
+{
+  "reviewType": "independent-risk-based-ai-content-review",
+  "scope": "Five held-source variants across two author waves; exact source, owner, target, changed bilingual takeaway and touched assessed fields. Focused check; not a whole-catalogue human or release sign-off.",
+  "inputs": [
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2426-2445-a.json",
+      "sha256": "a77ffd1941be523d3839ee3def086a9754f9aeb065b4b47ca9d1a7ce8cc62a56"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2423-2425-2582-a.json",
+      "sha256": "f7db4e6e50e753f27159ca204045e72aad4a7f7de4a965bd4d73fe24dbffbc56"
+    }
+  ],
+  "rows": [
+    {
+      "ordinal": 2426,
+      "canonicalId": "advanced-native-1505",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalSha256": "b80fbd6d9699abe5d6f25b0e07b856b905f15c9850d09f630b6dfc8a871e22cb",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatchGi": true,
+      "sourceAndBriefSenseReview": "The source and canonical share the central-support metaphor; home infrastructure is a bounded domain extension. Broadband transfer is distinct from the appliance source and EN/ZH agree.",
+      "changedTakeawayEnglishChineseReviewed": true,
+      "assessedContentReviewedWhenChanged": true,
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2445,
+      "canonicalId": "advanced-native-883",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0876-0900.json",
+      "canonicalSha256": "744e71a4bfdb3443b258b7267cc1f2903b59e5f5caa067806a1afee275a8e84e",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatchGi": true,
+      "sourceAndBriefSenseReview": "Comes at a price and comes with a price tag both express a benefit with a possible cost; the new voting takeaway identifies a nonfinancial cost and the Chinese preserves the tradeoff.",
+      "changedTakeawayEnglishChineseReviewed": true,
+      "assessedContentReviewedWhenChanged": true,
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2423,
+      "canonicalId": "advanced-native-1376",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1376-1400.json",
+      "canonicalSha256": "6babd0f7a9b9fda4879090593330a79957ec16eb78be51a565665634618a7940",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatchGi": true,
+      "sourceAndBriefSenseReview": "Out of + task and off + person both remove demanding work while the brief distinguishes argument slots; new booking-form takeaway retains residual coordinator responsibility.",
+      "changedTakeawayEnglishChineseReviewed": true,
+      "assessedContentReviewedWhenChanged": true,
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2425,
+      "canonicalId": "advanced-native-1111",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "canonicalSha256": "015fcac2fc27b02630ee391709716441f35224f7d86968c07a37ae7c99941f82",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatchGi": true,
+      "sourceAndBriefSenseReview": "Direct-object time reduction matches the same reduce sense as cut down on; new takeaway preserves safety-note work, and the detector does not match the unrelated tree sense.",
+      "changedTakeawayEnglishChineseReviewed": true,
+      "assessedContentReviewedWhenChanged": true,
+      "status": "content-clear"
+    },
+    {
+      "ordinal": 2582,
+      "canonicalId": "advanced-native-798",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "canonicalSha256": "37e091e9e7fed632263a2b7ede11aadccc2880aaee2ad7c873dba362e4f89b25",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "9ea0fdcc3b3eaa5357ca5faef50ce6ad63d7581272d20d6635781722d9ec83f0",
+      "sourceProvenanceExact": true,
+      "fullSourceTargetMatchGi": true,
+      "sourceAndBriefSenseReview": "Well-grounded modifies a person with personal steadiness in the source; the added branch requires a person noun and does not broaden to evidence-based arguments.",
+      "changedTakeawayEnglishChineseReviewed": true,
+      "assessedContentReviewedWhenChanged": true,
+      "status": "content-clear"
+    }
+  ],
+  "checks": {
+    "wholeCatalogueVerifier": "2,604 source/decision rows, 553 selected drafts, 2,212 audio roles, 0 schema/selected alias exceptions",
+    "allDiscoveredExistingAliasAudit": "1,101/1,101 full-source matches; 0 exceptions",
+    "sourceAndCanonicalFileHashesMatchedAuthorAudits": true
+  },
+  "blockers": [],
+  "publicationApproved": false,
+  "humanApprovalClaimed": false
+}

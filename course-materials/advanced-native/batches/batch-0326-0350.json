@@ -273,15 +273,15 @@
     "titleZh": "讓內容生動而有感染力",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account) )?to life\\b",
+      "pattern": "\\b(?:bring|brings|bringing|brought) (?:(?:the artwork|the world|learning|the past|the scene|a story|the story|it|them|the painting|the exhibition|local history|history|the account|ideas|that reality) )?to life\\b",
       "glossaryForbidden": [
         "\\bto life\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Make an artwork, story, imagined setting or subject feel vivid and engaging.",
-      "meaningZh": "令藝術作品、故事、想像場景或主題顯得生動而吸引人。",
-      "grammar": "bring a story/artwork to life; bring to life an old story; pronoun bring it to life. Past brought.",
+      "meaningEn": "Make an artwork, story, imagined setting, subject or idea feel vivid and engaging. That reality can refer back to a previously described situation made vivid by presentation.",
+      "meaningZh": "令藝術作品、故事、想像場景、主題或想法顯得生動而吸引人；that reality 可回指前文已交代的情況，透過呈現令它更具體。",
+      "grammar": "bring a story/artwork/ideas to life; bring that reality to life when the referent is clear; bring to life an old story; pronoun bring it to life. Past brought. This describes vivid representation, not necessarily creating a real product.",
       "register": "Conventional life metaphor for vivid representation.",
       "boundaryZh": "本課指作品或主題變得生動，不是描述場所因人流而熱鬧；生動不代表虛構變成史實，也不保證每人同樣理解。",
       "misconceptionZh": "聲音、細節或示範可令內容易感受，但需要把新增想像與查證事實分清。",
@@ -378,6 +378,34 @@
         "expression": "bring the past to life",
         "sentence": "Old letters can bring the past to life.",
         "referenceSentenceKind": "guide_original_example"
+      },
+      {
+        "occurrenceId": "book10-16-0152",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 14,
+        "book": 10,
+        "question": 12,
+        "sample": "S1",
+        "sourceBookPages": "29–30",
+        "locatorNote": "DOCX table 12, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The model helped bring ideas to life for the class.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "bring ideas to life"
+      },
+      {
+        "occurrenceId": "book10-16-0188",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 17,
+        "book": 10,
+        "question": 14,
+        "sample": "S2",
+        "sourceBookPages": "35–36",
+        "locatorNote": "DOCX table 14, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The photographs bring that reality to life for readers.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "bring that reality to life"
       }
     ],
     "listening": {
@@ -491,8 +519,8 @@
         },
         {
           "id": "b",
-          "en": "We should keep the vivid presentation and clearly identify what is documented or adapted.",
-          "zh": "我們應保留生動呈現，同時清楚標出甚麼有記載或經改編。"
+          "en": "The display can bring history to life while clearly identifying what is documented and what is adapted.",
+          "zh": "展覽可以令歷史生動起來，同時清楚標明哪些有文獻根據、哪些經過改編。"
         },
         {
           "id": "c",
@@ -501,7 +529,7 @@
         }
       ],
       "answerId": "b",
-      "explanationZh": "感染力可有用，但不能取消事實與改編的區別。"
+      "explanationZh": "回應保留生動呈現的好處，也不取消有記載與經改編內容的區別。"
     },
     "speaking": {
       "en": "The letters and readings brought the past to life without hiding which details were reconstructed.",
@@ -579,8 +607,8 @@
         "zh": "孩子生動的朗讀，讓故事對小組活現起來。"
       },
       {
-        "en": "The museum brought to life an old story through letters and carefully labelled reconstruction.",
-        "zh": "博物館透過信件及清楚標示的重構，令舊故事生動起來。"
+        "en": "The layered sketches brought ideas to life for neighbours without claiming that the design was final.",
+        "zh": "分層草圖令鄰居更容易具體理解構想，但沒有聲稱設計已定案。"
       }
     ],
     "review": {
@@ -609,7 +637,7 @@
         "Root-approved vivid-representation family397/1005/1754/1769 will be merged with all exact source references;291 actual place liveliness remains separate."
       ]
     },
-    "contentRevision": 1,
+    "contentRevision": 2,
     "aliasInventoryIds": [
       "expr-1754",
       "expr-1769"
@@ -623,15 +651,15 @@
     "titleZh": "受到吸引而投入",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\b(?:drawn|draw|draws|drawing|drew) in\\b",
+      "pattern": "\\b(?:drawn|draw|draws|drawing|drew) (?:in\\b|into (?:a|the) story\\b)",
       "glossaryForbidden": [
         "\\bdrawn in\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Be attracted or become engaged in an experience, story or activity.",
-      "meaningZh": "受到吸引，逐漸投入經驗、故事或活動。",
-      "grammar": "be drawn in by + feature; draw people in (separable active form). This lesson mainly uses passive drawn in.",
+      "meaningEn": "Be attracted or become engaged in an experience, story or activity; drawn into a story is a bounded complement form of the same narrative engagement.",
+      "meaningZh": "受到吸引，逐漸投入經驗、故事或活動；drawn into a story 是同一故事投入意思的介詞變體。",
+      "grammar": "be drawn in by + engaging feature; be drawn into a/the story names the narrative entered figuratively; draw people in is a separable active form. Interest does not prove agreement.",
       "register": "Common figurative phrasal verb.",
       "boundaryZh": "吸引投入不一定受騙、被迫或同意全部觀點；也可指當下興趣而非永久喜好。",
       "misconceptionZh": "願意繼續看不表示已完全理解或評估所有內容；需按具體行為說明投入。",
@@ -663,6 +691,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 101, table 1, row 6",
         "occurrenceId": "pdf-2-p101-t1-r06"
+      },
+      {
+        "occurrenceId": "book10-16-0189",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 17,
+        "book": 10,
+        "question": 14,
+        "sample": "S2",
+        "sourceBookPages": "35–36",
+        "locatorNote": "DOCX table 14, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The audience felt drawn into a story about ordinary neighbours.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn into a story"
       }
     ],
     "listening": {
@@ -771,8 +813,8 @@
       "options": [
         {
           "id": "a",
-          "en": "A story can hold my interest while I still question its ideas or evidence.",
-          "zh": "故事可以吸引我，同時我仍質疑其想法或證據。"
+          "en": "You can be drawn into a story and still question its ideas or evidence.",
+          "zh": "你可以被故事吸引，同時仍質疑其中的想法或證據。"
         },
         {
           "id": "b",
@@ -864,8 +906,8 @@
         "zh": "我被講者敘述修復家族小船的經歷吸引。"
       },
       {
-        "en": "I was drawn in by the story even while questioning its ending.",
-        "zh": "即使質疑結局，我仍被故事吸引。"
+        "en": "The listeners were drawn into a story about a delayed rescue, but still questioned its ending.",
+        "zh": "聽眾被一個延誤救援的故事吸引，但仍質疑其結局。"
       }
     ],
     "review": {
@@ -892,7 +934,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-329",

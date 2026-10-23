@@ -1,0 +1,577 @@
+{
+  "reviewType": "AI author self-audit; not independent human, publication or release approval",
+  "scope": "Eight bounded canonical expansions and 38 source-occurrence hold-to-existing-alias decisions; four matching rows 2538/2597/2650/2669 were reserved for author A and are outside this audit.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "counts": {
+    "canonicalOwnersRevised": 8,
+    "holdRowsConverted": 38,
+    "decisionFilesChanged": 23,
+    "canonicalFilesChanged": 7,
+    "changedAudioRequests": 8,
+    "remainingHoldsAtAudit": 894,
+    "existingAliasesAtAudit": 998
+  },
+  "canonicalRegression": [
+    {
+      "canonicalId": "advanced-native-021",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "canonicalFileSha256": "0349a5172bca66c1a712d2cb76f5708f66f028c80f52f08fdb1648805a495a52",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "newPattern": "\\b(?:feel|feels|felt|feeling|be|am|is|are|was|were|been|being) drawn to(?! (?:scale|a conclusion|an end)\\b)\\b",
+      "oldSourceExampleMatchesRetained": 0,
+      "positiveControls": [
+        "They are drawn to the quiet garden.",
+        "I felt drawn to the course."
+      ],
+      "negativeControls": [
+        "The map was drawn to scale.",
+        "The debate was drawn to a conclusion.",
+        "She drew a garden."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-283",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalFileSha256": "4dfd436849bb48608fb8f08ff09a331f4a2eadb65a650fa699cda2fb35573890",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep) )?|(?:my|your|his|her|its|our|their) )mark\\b",
+      "newPattern": "\\b(?:leave|leaves|leaving|left) (?:a (?:(?:strong|deep|lasting) )?|(?:my|your|his|her|its|our|their) )mark\\b",
+      "oldSourceExampleMatchesRetained": 0,
+      "positiveControls": [
+        "The project left a lasting mark on the town.",
+        "It leaves a deep mark on the team."
+      ],
+      "negativeControls": [
+        "The paint left a lasting stain.",
+        "The project made a mark without a lasting effect."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": true
+    },
+    {
+      "canonicalId": "advanced-native-567",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "canonicalFileSha256": "37f28b4dc08ac880693d156b55ef7d4a1d4b3d407a91e8fafc84476e08e79402",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\blook(?:s|ed|ing)? (?:impressive|good|(?:more )?secure) on paper\\b",
+      "newPattern": "\\blook(?:s|ed|ing)? (?:impressive|good|simple|(?:more )?secure) on paper\\b",
+      "oldSourceExampleMatchesRetained": 1,
+      "positiveControls": [
+        "The rota looks simple on paper.",
+        "The offer looked good on paper."
+      ],
+      "negativeControls": [
+        "The rota looks simple in practice.",
+        "The paper looks simple."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": true
+    },
+    {
+      "canonicalId": "advanced-native-837",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "canonicalFileSha256": "51007555e55c787ba669058707e2a66ebcd99c9b748bc3e2c354edb77b906053",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\ba small pocket of peace\\b",
+      "newPattern": "\\ba (?:small )?pocket of peace\\b",
+      "oldSourceExampleMatchesRetained": 0,
+      "positiveControls": [
+        "The courtyard offered a pocket of peace.",
+        "We found a small pocket of peace."
+      ],
+      "negativeControls": [
+        "She found a pocket of coins.",
+        "There was peace in her pocket."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-841",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0826-0850.json",
+      "canonicalFileSha256": "51007555e55c787ba669058707e2a66ebcd99c9b748bc3e2c354edb77b906053",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\bpulled in (?:ten )?different directions\\b",
+      "newPattern": "\\bpulled in (?:(?:ten )?different directions|too many directions(?: at once)?)\\b",
+      "oldSourceExampleMatchesRetained": 0,
+      "positiveControls": [
+        "She felt pulled in too many directions at once.",
+        "He was pulled in different directions."
+      ],
+      "negativeControls": [
+        "He pulled the rope in two directions.",
+        "She felt pulled into the room."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-855",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0851-0875.json",
+      "canonicalFileSha256": "c88f6c0ba128739cd198c52ca7e7a7f4a508757c2022b9d8c00775107ea49b86",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\bcut(?:s|ting)? it fine\\b",
+      "newPattern": "\\bcut(?:s|ting)? it (?:so )?fine\\b",
+      "oldSourceExampleMatchesRetained": 0,
+      "positiveControls": [
+        "You are cutting it so fine.",
+        "They cut it fine."
+      ],
+      "negativeControls": [
+        "They cut the wood into fine strips.",
+        "They are cutting it short."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1149",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1126-1150.json",
+      "canonicalFileSha256": "0e18fc4a29d36762c1575c4678c5027dac7b54eac1529965a5568dec4c0fee81",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy)\\b",
+      "newPattern": "\\b(?:eat(?:s|en|ing)?|ate) into (?:my|your|his|her|our|their|the) (?:(?:available|rehearsal) )?(?:budget|time and energy|time|energy|day)\\b",
+      "oldSourceExampleMatchesRetained": 1,
+      "positiveControls": [
+        "Unexpected calls eat into the day.",
+        "Fees ate into our budget."
+      ],
+      "negativeControls": [
+        "Fees raise our budget.",
+        "The meeting ended the day."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    },
+    {
+      "canonicalId": "advanced-native-1821",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "canonicalFileSha256": "33e00f8f796ee687e43d2d31984d30ca80b0692e7f0f5d218b1dd06d6d85bf00",
+      "beforeContentRevision": 1,
+      "afterContentRevision": 2,
+      "oldPattern": "\\b(?:a last-minute trip|at the last minute)\\b",
+      "newPattern": "\\b(?:a last-minute trip|(?:at|until) the last minute)\\b",
+      "oldSourceExampleMatchesRetained": 5,
+      "positiveControls": [
+        "Do not wait until the last minute.",
+        "They changed plans at the last minute.",
+        "A last-minute trip became possible."
+      ],
+      "negativeControls": [
+        "Wait until next week.",
+        "The last minute of the film was tense."
+      ],
+      "positiveAndNegativePassed": true,
+      "newAudioRole": "takeaway-2",
+      "changedDialogueKey": false
+    }
+  ],
+  "convertedRows": [
+    {
+      "sourceOrdinal": 2227,
+      "sourceId": "book10-16-0116",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "df89c748470c3e941bfc6112086aaccd9912abfa3f2f33c19056394d24466618"
+    },
+    {
+      "sourceOrdinal": 2233,
+      "sourceId": "book10-16-0122",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "7f68c7428f0ee90955cb4595274a06392cb634e7c0dbdfb2833143e0d63868e1"
+    },
+    {
+      "sourceOrdinal": 2254,
+      "sourceId": "book10-16-0143",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "bd6c6fa5382d647cdda295cb1aac9f981a0a3e6692a09ae54f64e0e241ee696d"
+    },
+    {
+      "sourceOrdinal": 2323,
+      "sourceId": "book10-16-0212",
+      "sourceExample": "Some viewers are drawn to pace more than elaborate dialogue.",
+      "sourceGuideMeaning": "Attracted by the speed of a story; a natural passive construction.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRowSha256": "58979741076d4a8608a2f4e354e862ac799fec484985c77556647c7a4d2ed93a"
+    },
+    {
+      "sourceOrdinal": 2347,
+      "sourceId": "book10-16-0236",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionRowSha256": "e32a4202be74795c704cd2c9325c9aaa872364ae3e22663197c337d9c4c74b55"
+    },
+    {
+      "sourceOrdinal": 2877,
+      "sourceId": "book10-16-0766",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionRowSha256": "699e329425700942ad91cbe5bcb3942e8fe6eecbc45210a8fd7ab95587b5c42d"
+    },
+    {
+      "sourceOrdinal": 2915,
+      "sourceId": "book10-16-0804",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionRowSha256": "6fcaeb189a174ffd509971c4dc718e23ded30b5334b8ae32fdbe39dad9bff0c3"
+    },
+    {
+      "sourceOrdinal": 3480,
+      "sourceId": "book10-16-1369",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionRowSha256": "6a6e844a972a8e1ce94067fc75040e814f1750d1d964e3053a2df79ef0d05cad"
+    },
+    {
+      "sourceOrdinal": 3485,
+      "sourceId": "book10-16-1374",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionRowSha256": "3571cd683251432a52096db90478d79dc645ed6e107106dc5520810129bd3744"
+    },
+    {
+      "sourceOrdinal": 3491,
+      "sourceId": "book10-16-1380",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionRowSha256": "a26febed8f9f19ed2ebe015df44b77c4b3dabe622b43f5004bdd4f513ebef1ed"
+    },
+    {
+      "sourceOrdinal": 3496,
+      "sourceId": "book10-16-1385",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionRowSha256": "67617438cb1643bb0925bf358fcc6b68f411621ca9f1e60295b60e71af992f31"
+    },
+    {
+      "sourceOrdinal": 3772,
+      "sourceId": "book10-16-1661",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "decisionRowSha256": "568abec28ec8d8c59abb8bcbfeb4cebbb4e6598ba76d1c3c88c2365005736b6a"
+    },
+    {
+      "sourceOrdinal": 4069,
+      "sourceId": "book10-16-1958",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "decisionRowSha256": "43987e804222fc9b4592c39e3c74e191480c39a42170ebd1e6c223c3283ae3c6"
+    },
+    {
+      "sourceOrdinal": 4458,
+      "sourceId": "book10-16-2347",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "owner": "advanced-native-021",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionRowSha256": "9f8d79f73cd053504763122bc805f9ccd3244a3939bb2f65498c91c917ae19cd"
+    },
+    {
+      "sourceOrdinal": 2363,
+      "sourceId": "book10-16-0252",
+      "sourceExample": "Good teachers leave a lasting mark on students.",
+      "sourceGuideMeaning": "Have an enduring influence or effect; a fixed physical-mark metaphor.",
+      "owner": "advanced-native-283",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionRowSha256": "35305b5e3e0a673fe838f633c75a7497129b4de979e5f2907366266dd480a8ff"
+    },
+    {
+      "sourceOrdinal": 2387,
+      "sourceId": "book10-16-0276",
+      "sourceExample": "Good teachers leave a lasting mark on students.",
+      "sourceGuideMeaning": "Have an enduring influence or effect; a fixed physical-mark metaphor.",
+      "owner": "advanced-native-283",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionRowSha256": "5a19e1570e52533f630dd7737401c7a89bff57068adc17d31e65559e2f9fb213"
+    },
+    {
+      "sourceOrdinal": 2182,
+      "sourceId": "book10-16-0071",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "3581eceee698648f6873adc8176eed6556fb497840d7465fa9f3e72f2c0de1a6"
+    },
+    {
+      "sourceOrdinal": 2898,
+      "sourceId": "book10-16-0787",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionRowSha256": "64b54cc4dd1806533de277eaa6ef4f926da034427900f8b891a98417c7d50ee5"
+    },
+    {
+      "sourceOrdinal": 3015,
+      "sourceId": "book10-16-0904",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionRowSha256": "16f16d316d817e0322b96164a40ba4b81ca8dcdbf4cd7adf3ab9b41d27a5d57b"
+    },
+    {
+      "sourceOrdinal": 3315,
+      "sourceId": "book10-16-1204",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionRowSha256": "76f2a369a3efbfd18d10fe56b3da1d4934fc0c5d2ef318b429da55ed970f8895"
+    },
+    {
+      "sourceOrdinal": 3361,
+      "sourceId": "book10-16-1250",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionRowSha256": "7b575ab2ae03adf614e9fc6d590b4b0600cf5c5c96068166493204e46069a94d"
+    },
+    {
+      "sourceOrdinal": 3526,
+      "sourceId": "book10-16-1415",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionRowSha256": "815259d9223832c4e6ef43d815c46409c34356fb9965c756a28039fad93f9517"
+    },
+    {
+      "sourceOrdinal": 3566,
+      "sourceId": "book10-16-1455",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionRowSha256": "65f08773dbc28a75be784968747e384715d9c88dcddc9902617e4cc13f0c1a6a"
+    },
+    {
+      "sourceOrdinal": 3579,
+      "sourceId": "book10-16-1468",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionRowSha256": "b08417d5ddc0ec00e85c031f3925653ecf2730bc9277e804df2d9e5272be7f4c"
+    },
+    {
+      "sourceOrdinal": 3632,
+      "sourceId": "book10-16-1521",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "decisionRowSha256": "f1c9c1fc73acc2575733026fefce8ecc0d0d87b8e1a9191ea947221e42af0a93"
+    },
+    {
+      "sourceOrdinal": 3866,
+      "sourceId": "book10-16-1755",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "decisionRowSha256": "1788f476d78f545f7dde2fe4fe9974211001644c31cf0a3c1bdc02d23fb4efce"
+    },
+    {
+      "sourceOrdinal": 4196,
+      "sourceId": "book10-16-2085",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionRowSha256": "0a4926b380bdddb579d8e95eea600e5edb4ab1f83281e6754008f12875ed4c2d"
+    },
+    {
+      "sourceOrdinal": 4223,
+      "sourceId": "book10-16-2112",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "decisionRowSha256": "376089986808039b9bf0c336a4d9fc51aabf997806448aebd70e557af1719f76"
+    },
+    {
+      "sourceOrdinal": 4477,
+      "sourceId": "book10-16-2366",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionRowSha256": "a018209aa4f0281aa1a7b277c18b389df7ce38abb0e23d4c38c80a56499b4054"
+    },
+    {
+      "sourceOrdinal": 4526,
+      "sourceId": "book10-16-2415",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "decisionRowSha256": "0f5f4ba81af7fff188dd2cec24e522e5218ee7b1eaf71759b152a052812637ee"
+    },
+    {
+      "sourceOrdinal": 4600,
+      "sourceId": "book10-16-2489",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionRowSha256": "8d41bd678fc2cb80ecc3c3fb98888b8ed5f71d78999efbfbba86ccfaea09af72"
+    },
+    {
+      "sourceOrdinal": 4633,
+      "sourceId": "book10-16-2522",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "owner": "advanced-native-567",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionRowSha256": "2886fc590c5ec2f83aed812da4b9e568b79a8355b9744e4e0d78f2d3e06bf767"
+    },
+    {
+      "sourceOrdinal": 2256,
+      "sourceId": "book10-16-0145",
+      "sourceExample": "The garden offered a pocket of peace near the busy road.",
+      "sourceGuideMeaning": "A small interval or place of calm amid pressure; pocket is a spatial metaphor.",
+      "owner": "advanced-native-837",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionRowSha256": "b9ff3522e028679e5ef4108eac6592208dbb52c49d1cd8788b537340beec0a2b"
+    },
+    {
+      "sourceOrdinal": 2179,
+      "sourceId": "book10-16-0068",
+      "sourceExample": "New managers can feel pulled in too many directions at once.",
+      "sourceGuideMeaning": "Pressed by several competing demands; a physical pulling image describes divided attention.",
+      "owner": "advanced-native-841",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "82b8bc01b1a54bede42defff013926c6532aaa539efe55a1a7d41fe494fa060d"
+    },
+    {
+      "sourceOrdinal": 2139,
+      "sourceId": "book10-16-0028",
+      "sourceExample": "Stop cutting it so fine and leave for the station earlier.",
+      "sourceGuideMeaning": "Leaving almost no margin for error; a conventional expression about overly precise timing.",
+      "owner": "advanced-native-855",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "decisionRowSha256": "1c134154a5c6607d1ad45e511e71b41da812e5760613cfe78a96499b61de7641"
+    },
+    {
+      "sourceOrdinal": 2184,
+      "sourceId": "book10-16-0073",
+      "sourceExample": "Unexpected calls can eat into the day.",
+      "sourceGuideMeaning": "Consume part of the available time; eating is a figurative verb for gradual loss.",
+      "owner": "advanced-native-1149",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "e71d02aa0c297e5f9d1b40741a917346c77b2c3d2736226f686585956f25731a"
+    },
+    {
+      "sourceOrdinal": 2172,
+      "sourceId": "book10-16-0061",
+      "sourceExample": "Please do not wait until the last minute to submit the form.",
+      "sourceGuideMeaning": "Until very near the deadline; a conventional time phrase.",
+      "owner": "advanced-native-1821",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionRowSha256": "e4b7c9793837e38aca0925dd0c7f3f1f30cb79d2060f2dfe4e148bd61e46a90c"
+    },
+    {
+      "sourceOrdinal": 3242,
+      "sourceId": "book10-16-1131",
+      "sourceExample": "Please do not wait until the last minute to submit the form.",
+      "sourceGuideMeaning": "Until very near the deadline; a conventional time phrase.",
+      "owner": "advanced-native-1821",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionRowSha256": "fd585c5b06b9a4899053ba538ddeee45c899135091b54d59ab4101afbaa13c23"
+    }
+  ],
+  "canonicalFileHashes": {
+    "course-materials/advanced-native/batches/batch-0011-0025.json": "0349a5172bca66c1a712d2cb76f5708f66f028c80f52f08fdb1648805a495a52",
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "4dfd436849bb48608fb8f08ff09a331f4a2eadb65a650fa699cda2fb35573890",
+    "course-materials/advanced-native/batches/batch-0551-0575.json": "37f28b4dc08ac880693d156b55ef7d4a1d4b3d407a91e8fafc84476e08e79402",
+    "course-materials/advanced-native/batches/batch-0826-0850.json": "51007555e55c787ba669058707e2a66ebcd99c9b748bc3e2c354edb77b906053",
+    "course-materials/advanced-native/batches/batch-0851-0875.json": "c88f6c0ba128739cd198c52ca7e7a7f4a508757c2022b9d8c00775107ea49b86",
+    "course-materials/advanced-native/batches/batch-1126-1150.json": "0e18fc4a29d36762c1575c4678c5027dac7b54eac1529965a5568dec4c0fee81",
+    "course-materials/advanced-native/batches/batch-1801-1825.json": "33e00f8f796ee687e43d2d31984d30ca80b0692e7f0f5d218b1dd06d6d85bf00"
+  },
+  "decisionFileHashes": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "ac42b27f0390581a4e7dfbbe2ba0aa04e6229c85b934d60f18bf079cccc497c0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl": "c1eb0b2a56891ad24d33f052dca6bdce35a749f614cd0adedbe1135071594d7b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl": "971f57a1c71a25ea20122c40b5c327fa67bba043e73f44a7834e5e95f008c752",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "b63c96bb2b3a6a31f0203f3f06a4ea1eb079ba8d4f420b9862f0e888e143d324",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl": "5c0359ae12fa321f6f8a2b4eeada6630e4465ead46b1417de64e2ad538fe249a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl": "b19e7ca83da2657171a52f429445e9d1f07bbaf064a92d8d8b4637dcdbcd5546",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl": "37bdc5e771f9406dbd670049d809dfea52f9db5344d36e194927f8bc8c468376",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl": "df41ae2442ad886be1ec576e226c549a94ad09787eb3fb40153a0ab11517010c",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl": "cd4b69928a07bf9381ea2d83e2e513bcebe3305dfdb3e34ef60871f5311de867",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "19e6f235453f4089b094af0670ab95b03ffa073269dd4898e5812c1b8623d4b3",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl": "abefac2afb60aa093d836f3c31b14c101c89abdb8e3b6ae9e8bf15e92574c7af",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl": "5d47c3ca87b44ec4a852405f4db18be6a06963e84856e7a0499aac7382ddf46f",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "9fa26aacf1566b2633316d1d75a593ea41b64b280c6ad86d995bc7ce5d0c105b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl": "c3ee650634a8ee60f501ed060c06e0503dff232e0814d2baff2dc2fb7165a83a",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl": "9a032d8489de05f72283993f06b66d12a1efe9ba10eb9488fbbb2f6ee93e7104",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl": "6a9b6f752a451786b3edb18ceae68ff6fd8442285d0cefe40f1a993c657fed87",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl": "91fe5f5371e4ba077e12966024dedf61f6f574f9277e6fe50ac498db1f1b97a5",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl": "b3b5b726e694cb7e87f3b304f26f626680c12e3514dfcaba2a7552de9656cccc",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl": "7174be08ab1364be1b47cf9fe31313ee653922a634a435107c3fe9894a3754ba",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl": "844fb1ab0ef7b59d69eea6cd7ca0002217298ae0b05ea5705cc38c0a2b1f8ea3",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "4e998671ef9fbd964980f6a24e06cc0c036a7b8d27a21e65a9840d5be051089e",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl": "2de3c5fbcac8eb664fe0faab180fa60453cfb6ab598dc2508b446a71d825ebfc",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "aa425d6d2dd2a58f4fed7efc97bc86b5ff4b7e5340a49e62c3d54c3f1b316a10"
+  },
+  "focusedBuildCheck": "All seven touched canonical batch builds and --check runs passed with zero review flags.",
+  "fullVerifier": {
+    "selectedExistingAliasPatternExceptions": 0,
+    "drafts": 543,
+    "questions": 3258,
+    "releaseApproved": false,
+    "published": false
+  },
+  "openGates": [
+    "Independent exact-hash AI review by author B",
+    "Generate and verify eight changed takeaway-2 clips",
+    "Hosted-media and browser/device release checks"
+  ]
+}

@@ -1886,11 +1886,12 @@
       "titleEn": "comes with a price tag",
       "titleZh": "便利背後也有代價",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bcom(?:e|es|ing) with a price tag\\b|\\bcame with a price tag\\b",
+        "pattern": "\\bcom(?:e|es|ing) with a price tag\\b|\\bcame with a price tag\\b|\\b(?:come|comes|came|coming) at a price\\b",
         "glossaryForbidden": [
-          "\\bprice tag\\b"
+          "\\bprice tag\\b",
+          "\\bat a price\\b"
         ]
       },
       "sources": [
@@ -1906,13 +1907,27 @@
           "sentence": "Every quick fix comes with a price tag.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "comes with a price tag"
+        },
+        {
+          "occurrenceId": "book10-16-0334",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Delivery is fast, but convenience comes at a price.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "convenience comes at a price"
         }
       ],
       "brief": {
         "meaningEn": "Involve a cost or disadvantage, which may be non-financial.",
         "meaningZh": "伴隨代價或缺點，可能並非金錢。",
-        "grammar": "a benefit comes with a price tag; came/coming; explain the particular cost rather than assuming money.",
-        "register": "Conventional cost metaphor; this lesson focuses on figurative costs rather than a literal shop label.",
+        "grammar": "a benefit comes with a price tag or comes at a price; come/came/coming follow the subject and tense. Name the particular cost rather than assuming money.",
+        "register": "A student or colleague weighing a practical choice with a peer can use either neutral conversational cost metaphor; this lesson focuses on figurative costs rather than a literal shop label.",
         "boundaryZh": "不表示壞處必定大於好處，也不自動給出金額；需交代代價是甚麼。",
         "misconceptionZh": "速度、便利或自由可有時間、限制等取捨，不把任何代價都寫成收費。",
         "outcomeZh": "能描述具體好處及相伴成本，再按情況衡量。"
@@ -2120,8 +2135,8 @@
           "zh": "較短路線若要走更多樓梯，舒適上可有代價。"
         },
         {
-          "en": "The extra freedom came with a price tag in responsibilities we had to manage ourselves.",
-          "zh": "更多自由伴隨代價：我們需自行處理責任。"
+          "en": "Remote voting comes at a price if the committee must verify each ballot by hand.",
+          "zh": "如果委員會須逐張人手核對選票，遙距投票的便利便有代價。"
         }
       ],
       "review": {
@@ -5614,9 +5629,9 @@
       "titleEn": "fall flat",
       "titleZh": "沒有達到預期反應",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\b(?:fall|falls|falling|fell|fallen) flat\\b",
+        "pattern": "(?:\\b(?:fall|falls|falling|fell|fallen) flat\\b)|(?:\\b(?:fall|falls|falling|fell|fallen) completely flat\\b)",
         "glossaryForbidden": [
           "\\bflat\\b"
         ]
@@ -5660,12 +5675,26 @@
           "sentence": "Even an expensive party can fall flat.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "fall flat"
+        },
+        {
+          "occurrenceId": "book10-16-2561",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 242,
+          "book": 16,
+          "question": 55,
+          "sample": "S2",
+          "sourceBookPages": "128–129",
+          "locatorNote": "DOCX table 270, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A highly rated film can fall completely flat for me.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fall completely flat"
         }
       ],
       "brief": {
         "meaningEn": "Fail to produce the intended effect or an enthusiastic response.",
         "meaningZh": "未能產生預期效果或熱烈反應。",
-        "grammar": "a joke/event/appeal falls flat; fell/has fallen; explain the intended effect and actual response.",
+        "grammar": "fall flat / fall completely flat; completely intensifies the failure to engage or impress. Fell is past tense and fallen is the participle.",
         "register": "Conventional impact idiom in this lesson, not necessarily a physical fall or a judgement that no effort was made.",
         "boundaryZh": "不表示之後永遠無法改善，也不能單憑花費多少決定；需看目標及觀眾反應。",
         "misconceptionZh": "安靜未必就是失敗，若目標本來要安靜反思，須另判斷。",
@@ -5874,8 +5903,8 @@
           "zh": "觀眾不具預設背景，開場話沒奏效。"
         },
         {
-          "en": "An expensive presentation can still fall flat if it does not connect with its audience.",
-          "zh": "昂貴展示若未連結觀眾，仍可沒奏效。"
+          "en": "The announcement fell completely flat because it offered no answers to the staff's questions.",
+          "zh": "公布的消息完全未能引起員工認同，因為它沒有回答他們的疑問。"
         }
       ],
       "review": {

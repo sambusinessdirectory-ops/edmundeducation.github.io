@@ -1,0 +1,456 @@
+{
+  "reviewType": "AI author self-audit, not independent human or release approval",
+  "scope": "Fourth conservative hold-to-existing-alias wave, source-exact and bounded to compared constructions.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "owners": [
+    {
+      "canonicalId": "advanced-native-2010",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-2001-2025.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bseparat(?:e|es|ed|ing) real information from noise\\b",
+      "newPattern": "(?:\\bseparat(?:e|es|ed|ing) real information from noise\\b)|(?:\\bseparat(?:e|es|ed|ing) the signal from the noise\\b)",
+      "sourceOrdinals": [
+        2812
+      ],
+      "positive": [
+        "A reliable editor helps separate the signal from the noise.",
+        "Before changing the policy, the committee must separate the signal from the noise in the survey responses."
+      ],
+      "negative": [
+        "The microphone separated two signals.",
+        "The survey produced noise."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "253fa2f77d7e6034a612b0de27d420c3642e64a04ec53d1d51359f682271d7c5",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "264de584b0e65df36a48e7f2904b5f5f063c65c5efca04f5504f0f2277820d4f"
+    },
+    {
+      "canonicalId": "advanced-native-1928",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1926-1950.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bswallow(?:s|ed|ing)? (?:it|the claim|the story) whole\\b",
+      "newPattern": "(?:\\bswallow(?:s|ed|ing)? (?:it|the claim|the story) whole\\b)|(?:\\bswallow(?:s|ed|ing)? everything whole\\b)",
+      "sourceOrdinals": [
+        2820
+      ],
+      "positive": [
+        "Do not swallow everything whole after one report.",
+        "One confident speaker is not a reason to swallow everything whole; compare the records first."
+      ],
+      "negative": [
+        "She swallowed the pill with water.",
+        "They considered every claim carefully."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "38c25f5d9d0b71d4be781aef6b42b98f51e27976ed8461548df238186610b9bc",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "171a7ba6321da3c9053530ce6d830f398fe896f00783b2ca82d4a5615af2f069"
+    },
+    {
+      "canonicalId": "advanced-native-419",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0401-0425.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bstand(?:s|ing)? on (?:my|your|his|her|our|their|its) own two feet\\b|\\bstood on (?:my|your|his|her|our|their|its) own two feet\\b",
+      "newPattern": "(?:\\bstand(?:s|ing)? on (?:my|your|his|her|our|their|its) own two feet\\b|\\bstood on (?:my|your|his|her|our|their|its) own two feet\\b)|(?:\\b(?:stand|stands|standing|stood) (?:steadily )?on their own (?:two )?feet(?: academically)?\\b)",
+      "sourceOrdinals": [
+        2891,
+        3299
+      ],
+      "positive": [
+        "Young adults need time to stand steadily on their own two feet.",
+        "Dictionaries help children stand on their own feet academically.",
+        "After guided practice, the learners could stand on their own feet academically when checking sources."
+      ],
+      "negative": [
+        "The learners stood beside a desk.",
+        "The athlete stood steadily on the mat."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "5de5e92b9e2921a313e319bb69961b846f4b1f13806b279cc6584f30f7e864cb",
+      "changedDialogueKey": true,
+      "newAudioSynthesisKey": "c454a33da1691e4629c496dbdaa395f181461981a9317ec3145defa4d05d90f8"
+    },
+    {
+      "canonicalId": "advanced-native-1523",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b",
+      "newPattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)",
+      "sourceOrdinals": [
+        2944
+      ],
+      "positive": [
+        "Regular calls help with keeping relationships warm.",
+        "Short, regular messages can keep relationships warm when old friends live in different cities."
+      ],
+      "negative": [
+        "The heater kept the room warm.",
+        "They kept their coats warm by the fire."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "0a49ae7c3bb14872443aebb065ec5e6def291a9ffd430b8f5280cddce24d0b9a",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "aeb10f1c963e57e73940ac15aef5632314553e9d219c8ecba47911e07823b312"
+    },
+    {
+      "canonicalId": "advanced-native-1680",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1676-1700.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bsqueezed to the edges of the timetable\\b",
+      "newPattern": "(?:\\bsqueezed to the edges of the timetable\\b)|(?:\\bsqueezed to the edges of a busy schedule\\b)",
+      "sourceOrdinals": [
+        3032
+      ],
+      "positive": [
+        "Art can be squeezed to the edges of a busy schedule.",
+        "Painting is squeezed to the edges of a busy schedule when revision fills every afternoon."
+      ],
+      "negative": [
+        "The picture was squeezed into a narrow frame.",
+        "The schedule was busy but included art daily."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "452c3308e7eba0bfbeab28b2a46b574e75fdf1a07d13ef95ace98ea19b2eb862",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "595f80a3f68e7ab726b73850a764ed4b0ee77c68c50c5bfd059648753747e6a0"
+    },
+    {
+      "canonicalId": "advanced-native-307",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0301-0325.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\broom to breathe\\b",
+      "newPattern": "(?:\\broom to breathe\\b)|(?:\\bspace to breathe\\b)",
+      "sourceOrdinals": [
+        3078
+      ],
+      "positive": [
+        "The children need space to breathe and invent stories.",
+        "Leaving one afternoon unplanned gives the class space to breathe and test its own ideas."
+      ],
+      "negative": [
+        "The room has fresh air to breathe.",
+        "The corridor is wide enough to walk through."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "a27ef6e055b8dd34a51a93438c21d6c4f2e6022ef2a90432c6ac2325027b4698",
+      "changedDialogueKey": true,
+      "newAudioSynthesisKey": "dfc9aa49be5cf5e6a970b565093e9446e9d638e874a27f6dc85d35242a418bf0"
+    },
+    {
+      "canonicalId": "advanced-native-115",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:get|gets|getting|got|gotten) on the same wavelength\\b",
+      "newPattern": "(?:\\b(?:get|gets|getting|got|gotten) on the same wavelength\\b)|(?:\\b(?:am|are|is|was|were|be|been|being) on the same wavelength\\b)",
+      "sourceOrdinals": [
+        3202
+      ],
+      "positive": [
+        "The two friends are on the same wavelength.",
+        "The designers are on the same wavelength about the colour scheme, though they still disagree on cost."
+      ],
+      "negative": [
+        "The two radios broadcast on the same wavelength.",
+        "They signed the same document."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "4fac1c38f3a274fd53e6adc9df31a4eb3ed2a15c939276bffb9c8e4149a75868",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "87d86678672ff200e21b24d54e4ea5a03b1d8becfbf65e5c9fe3c50036ade3d5"
+    },
+    {
+      "canonicalId": "advanced-native-028",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0026-0050.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b",
+      "newPattern": "(?:\\b(?:open|opens|opened|opening) (?:the|a) door(?:s)?\\b|\\bthe door (?:is|was) opening wider\\b)|(?:\\b(?:open|opens|opened|opening) the academic door\\b)",
+      "sourceOrdinals": [
+        3259
+      ],
+      "positive": [
+        "Good teachers open the academic door for new students.",
+        "A preparatory course can open the academic door for adults returning to study."
+      ],
+      "negative": [
+        "She opened the classroom door.",
+        "The academic year begins in September."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "c1573cb07e22d525860977dc59205b68e2db19ef28b98a206f3bd88693afc36a",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "3d5a47e74ab012e936163694fd267f58e8f9dcf4c20f6973ec133590b35a2644"
+    },
+    {
+      "canonicalId": "advanced-native-1175",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1151-1175.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\ball talk and no follow-through\\b",
+      "newPattern": "(?:\\ball talk and no follow-through\\b)|(?:\\bno follow-through\\b)",
+      "sourceOrdinals": [
+        3292
+      ],
+      "positive": [
+        "An apology with no follow-through feels weak.",
+        "A pledge with no follow-through will not repair the damaged equipment."
+      ],
+      "negative": [
+        "The runner had no follow-up appointment.",
+        "The repair team completed the promised work."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "d7199fd0e1a69eea13b9a781a68af16cafaf389217459e811906c7098ab6369d",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "2a9a424b164e86f2d7cd79ec6791894dbc7c83febaa90ad36dbf94985f809e99"
+    },
+    {
+      "canonicalId": "advanced-native-534",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0526-0550.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bfall(?:s|ing)? through the cracks\\b|\\bfell through the cracks\\b|\\bfallen through the cracks\\b",
+      "newPattern": "(?:\\bfall(?:s|ing)? through the cracks\\b|\\bfell through the cracks\\b|\\bfallen through the cracks\\b)|(?:\\b(?:slip|slips|slipped|slipping) through the cracks\\b)",
+      "sourceOrdinals": [
+        3322
+      ],
+      "positive": [
+        "Names can slip through the cracks when we are distracted.",
+        "A second register check helps ensure late applications do not slip through the cracks."
+      ],
+      "negative": [
+        "Water slipped through a crack in the floor.",
+        "Every application was reviewed on time."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "3bd41ceeba457d817e327cf4b763e5b8b92b86688b7016d697e32718bb56480a",
+      "changedDialogueKey": true,
+      "newAudioSynthesisKey": "f79425e2566517496a252c44375b7ad3e56e85ae195ffac4e1520842b2ccb8fb"
+    },
+    {
+      "canonicalId": "advanced-native-785",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\b(?:keep|keeps|keeping|kept) more doors open\\b",
+      "newPattern": "(?:\\b(?:keep|keeps|keeping|kept) more doors open\\b)|(?:\\b(?:leave|leaves|left|leaving) the door open\\b)",
+      "sourceOrdinals": [
+        3356
+      ],
+      "positive": [
+        "Taking the course means leaving the door open for a new role.",
+        "The invitation leaves the door open for another collaboration next year."
+      ],
+      "negative": [
+        "She left the office door open for air.",
+        "The door was painted blue."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "5b862f3d0df838ad4c3defc5e481e87d2542daf58de8852fe0e0a0ade36557c8",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "ddad9d3a94a52044574386e174a228b781ac05c1fff4a5974aaf061fd84d00ef"
+    },
+    {
+      "canonicalId": "advanced-native-1503",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bwoven\\s+into\\s+(?:daily\\s+routines|(?:ordinary\\s+)?daily\\s+life)\\b",
+      "newPattern": "(?:\\bwoven\\s+into\\s+(?:daily\\s+routines|(?:ordinary\\s+)?daily\\s+life)\\b)|(?:\\bwoven into ordinary life\\b)",
+      "sourceOrdinals": [
+        4593
+      ],
+      "positive": [
+        "Digital booking is woven into ordinary life.",
+        "Checking the flood forecast is woven into ordinary life for families on the coast."
+      ],
+      "negative": [
+        "The fabric was woven into a scarf.",
+        "The booking page was opened once."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "0a49ae7c3bb14872443aebb065ec5e6def291a9ffd430b8f5280cddce24d0b9a",
+      "changedDialogueKey": false,
+      "newAudioSynthesisKey": "9ca8d8c23c545e0654701ca8ff323144755f6acadf85f366521fa7736194b346"
+    }
+  ],
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2812,
+      "sourceId": "book10-16-0701",
+      "phrase": "separate the signal from the noise",
+      "example": "A reliable editor helps separate the signal from the noise.",
+      "canonicalId": "advanced-native-2010",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionFileSha256": "e23844b93ff0c3df0591ead1eda361548d0b263fe665da28989c1b979b16a7e2"
+    },
+    {
+      "sourceOrdinal": 2820,
+      "sourceId": "book10-16-0709",
+      "phrase": "swallow everything whole",
+      "example": "Do not swallow everything whole after one report.",
+      "canonicalId": "advanced-native-1928",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "decisionFileSha256": "e23844b93ff0c3df0591ead1eda361548d0b263fe665da28989c1b979b16a7e2"
+    },
+    {
+      "sourceOrdinal": 2891,
+      "sourceId": "book10-16-0780",
+      "phrase": "stand steadily on their own two feet",
+      "example": "Young adults need time to stand steadily on their own two feet.",
+      "canonicalId": "advanced-native-419",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "37f632816c90e9def86360485ab0b06074cc52b6888c60f54e281d57d0b0ed80"
+    },
+    {
+      "sourceOrdinal": 3299,
+      "sourceId": "book10-16-1188",
+      "phrase": "stand on their own feet academically",
+      "example": "Dictionaries help children stand on their own feet academically.",
+      "canonicalId": "advanced-native-419",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b738c0297a1ccf9e37cfa7bac528430128897786688f81366d95f00b71015530"
+    },
+    {
+      "sourceOrdinal": 2944,
+      "sourceId": "book10-16-0833",
+      "phrase": "keeping relationships warm",
+      "example": "Regular calls help with keeping relationships warm.",
+      "canonicalId": "advanced-native-1523",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "e416b6d07ea4ea61a9f7ad0a3a8708ce0119580d60a306cc0bdd12ef97822e62"
+    },
+    {
+      "sourceOrdinal": 3032,
+      "sourceId": "book10-16-0921",
+      "phrase": "squeezed to the edges",
+      "example": "Art can be squeezed to the edges of a busy schedule.",
+      "canonicalId": "advanced-native-1680",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "decisionFileSha256": "5e2e03d819f53f9cc12947f6804e31b2e5b6eb42feebda3dcfbdb84cf564f000"
+    },
+    {
+      "sourceOrdinal": 3078,
+      "sourceId": "book10-16-0967",
+      "phrase": "space to breathe",
+      "example": "The children need space to breathe and invent stories.",
+      "canonicalId": "advanced-native-307",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionFileSha256": "a14c638d68f138ec7952059daf95fb5140805dbe6eb4cc56b961585ad542b7a2"
+    },
+    {
+      "sourceOrdinal": 3202,
+      "sourceId": "book10-16-1091",
+      "phrase": "on the same wavelength",
+      "example": "The two friends are on the same wavelength.",
+      "canonicalId": "advanced-native-115",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "93c7070760a98845e7b3a510554a0f42636b076e7c17ceff9fc124a7824f7b06"
+    },
+    {
+      "sourceOrdinal": 3259,
+      "sourceId": "book10-16-1148",
+      "phrase": "open the academic door",
+      "example": "Good teachers open the academic door for new students.",
+      "canonicalId": "advanced-native-028",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b738c0297a1ccf9e37cfa7bac528430128897786688f81366d95f00b71015530"
+    },
+    {
+      "sourceOrdinal": 3292,
+      "sourceId": "book10-16-1181",
+      "phrase": "no follow-through",
+      "example": "An apology with no follow-through feels weak.",
+      "canonicalId": "advanced-native-1175",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "decisionFileSha256": "b738c0297a1ccf9e37cfa7bac528430128897786688f81366d95f00b71015530"
+    },
+    {
+      "sourceOrdinal": 3322,
+      "sourceId": "book10-16-1211",
+      "phrase": "slip through the cracks",
+      "example": "Names can slip through the cracks when we are distracted.",
+      "canonicalId": "advanced-native-534",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "81375a4174405abe6f1c96aa448f95f70b02356f1dcc04e6da3028d2c4e799e7"
+    },
+    {
+      "sourceOrdinal": 3356,
+      "sourceId": "book10-16-1245",
+      "phrase": "leaving the door open",
+      "example": "Taking the course means leaving the door open for a new role.",
+      "canonicalId": "advanced-native-785",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "81375a4174405abe6f1c96aa448f95f70b02356f1dcc04e6da3028d2c4e799e7"
+    },
+    {
+      "sourceOrdinal": 4593,
+      "sourceId": "book10-16-2482",
+      "phrase": "woven into ordinary life",
+      "example": "Digital booking is woven into ordinary life.",
+      "canonicalId": "advanced-native-1503",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "ca040c30d3ce2a178d2af800d9b9c9c79c6f2581e8731d42acc3794930fdc5b6"
+    }
+  ],
+  "deferred": [
+    {
+      "sourceOrdinal": 2837,
+      "reason": "Personifying news with spring in its step differs from human walking; retained hold."
+    },
+    {
+      "sourceOrdinal": 2945,
+      "reason": "Act like glue uses a new simile construction; owner scope still uncertain."
+    },
+    {
+      "sourceOrdinal": 3388,
+      "reason": "Window to another culture is less idiomatic than canonical window into; retained for editorial decision."
+    },
+    {
+      "sourceOrdinal": 3703,
+      "reason": "Novelty wears off changes fixed noun in canonical shine wears off; separate lexical-scope review needed."
+    },
+    {
+      "sourceOrdinal": 4517,
+      "reason": "Elliptical keep pace may broaden owner detector beyond safe source construction."
+    },
+    {
+      "sourceOrdinal": 4643,
+      "reason": "Postcard version may extend beyond picturesque view to curated representation."
+    },
+    {
+      "sourceOrdinal": 4665,
+      "reason": "Returned to hold after independent reviewer flagged awkward/vague physical-site reading of chip away at the place versus canonical 178 metaphorical erosion; no bounded owner expansion yet."
+    }
+  ],
+  "verification": {
+    "focusedBatchBuildAndCheck": "11/11 remaining touched canonical batch files passed build and --check with zero flags; owner 178 reverted to prior content.",
+    "fullBooks1016Verifier": "2604/2604 source and decision rows; 553 selected drafts, 3318 questions, 2212 audio roles, zero schema errors and zero selected alias exceptions at final audit time.",
+    "allDiscoveredExistingAliasAudit": "1054/1054 full source examples match their assigned canonical detectors; zero exceptions at final audit time.",
+    "holdCoverageAudit": "839 current holds; zero unaudited and zero errors at final audit time.",
+    "guideOriginality": "All 12 changed takeaway-2 and three repaired dialogue keys screened against all 2604 guide examples; only full target-construction six-token overlaps, no copied non-target source frame.",
+    "diffCheck": "git diff --check passed.",
+    "openGates": [
+      "Independent exact-hash AI review of remaining 13 source/sense/content conversions",
+      "Generate and listen-check 12 changed takeaway-2 clips",
+      "Hosted media, browser/device checks and release sign-off"
+    ]
+  },
+  "counts": {
+    "canonicalOwnersRevised": 12,
+    "holdRowsConverted": 13,
+    "canonicalFilesChanged": 11,
+    "decisionFilesChanged": 9,
+    "changedAudioRequests": 12
+  },
+  "audioRequestFile": "course-materials/advanced-native/reviews-books10-16/audio-requests-hold-merges-wave4.json",
+  "audioRequestFileSha256": "25e900fc43e437814301ac797add8f0ed0a13579e0fbf21687262e0fe6bc1416"
+}

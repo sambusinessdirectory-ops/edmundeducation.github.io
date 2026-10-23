@@ -1,0 +1,179 @@
+{
+  "type": "AI source-versus-canonical owner adjudication; not human sign-off",
+  "sourceInventoryPath": "books10-16/source-inventory.jsonl",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "findings": [
+    {
+      "sourceOrdinal": 2734,
+      "sourceId": "book10-16-0623",
+      "sourceExpression": "in the public eye",
+      "sourceExample": "The actor has remained in the public eye for years.",
+      "sourceMeaning": "Widely noticed by the public; a fixed eye metaphor.",
+      "decisionAction": "proposed-new-lesson",
+      "decisionPath": "books10-16/editorial-decisions-2712-2771.jsonl",
+      "decisionSha256": "bb27261e0faadd3eb1d1850082d1bfec88474cb9d66a8aea985ec593d3f2eea9",
+      "priorCanonicals": [
+        {
+          "canonicalId": "advanced-native-116",
+          "titleEn": "in the spotlight",
+          "meaningEn": "Receiving a lot of public attention.",
+          "grammar": "be/put someone in the spotlight; in remains part of the phrase.",
+          "targetPattern": "\\bin the spotlight\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "She felt uncomfortable being in the spotlight.",
+          "batchPath": "batches/batch-0101-0125.json",
+          "batchSha256": "2c64e84e63cdc84a09cc887d72c81658ef982a251e47c3cc5bec5c825fad7f7d"
+        }
+      ],
+      "unselectedPilot": {
+        "path": "drafts-books10-16/batch-2734-review-pilot-owner-hold.json",
+        "sha256": "5c76544ee241b6b30af8b81d2f42369e0e7d636f3df579f47db0de5a4f90ab1f"
+      },
+      "assessment": "Same central public-attention meaning as canonical 116. Cambridge distinguishes public-eye fame/media visibility in its definition, but also gives years in the spotlight; the source’s for years does not establish a safe duration boundary. A separate seven-step lesson based only on duration would repeat the earlier learner decision.",
+      "recommendation": "Keep unselected pending owner sign-off. Prefer canonical-116 ownership with an explicit in-the-public-eye variant and revised detector/content if the editor elects to merge; do not set alias-existing until the full source matches and the guide example is represented.",
+      "proposedMergePattern": "\\b(?:in\\s+the\\s+spotlight|in\\s+the\\s+public\\s+eye)\\b",
+      "risk": "Semantic near synonym; literal detector currently misses source. Do not claim one idiom necessarily means long-term attention."
+    },
+    {
+      "sourceOrdinal": 3119,
+      "sourceId": "book10-16-1008",
+      "sourceExpression": "trapped in old habits",
+      "sourceExample": "A team can become trapped in old habits.",
+      "sourceMeaning": "Unable to leave established behaviour; a confinement metaphor.",
+      "decisionAction": "proposed-new-lesson",
+      "decisionPath": "books10-16/editorial-decisions-3072-3131.jsonl",
+      "decisionSha256": "b290cd6ff78befccc1593516aef08a48598dd8a0976b7720fd116f2c8721f9a9",
+      "priorCanonicals": [
+        {
+          "canonicalId": "advanced-native-549",
+          "titleEn": "stuck in old patterns",
+          "meaningEn": "Unable or slow to move away from familiar repeated ways of behaving or working.",
+          "grammar": "be/remain/get stuck in old patterns; specify the repeated behaviour and what makes change difficult.",
+          "targetPattern": "\\bstuck in old patterns\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "The committee remained stuck in old patterns.",
+          "batchPath": "batches/batch-0526-0550.json",
+          "batchSha256": "969c9324eae126454122a75d3fd89b54a2395e9c5d013cc5b317c8bf1b657e4f"
+        },
+        {
+          "canonicalId": "advanced-native-1246",
+          "titleEn": "get stuck in a rut",
+          "meaningEn": "Become caught in an unchanging pattern that feels dull or unproductive.",
+          "grammar": "get/got stuck in a rut; be stuck in a rut; rut originally a track left in a surface. A routine can be useful without being a rut.",
+          "targetPattern": "\\b(?:get|gets|got|getting|be|is|was) stuck in a rut\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "It is easy to get stuck in a rut at work.",
+          "batchPath": "batches/batch-1226-1250.json",
+          "batchSha256": "7e2dbe51287a3c62ca189975b91f2a89a3698233dbd0490b11d09cb825e94571"
+        },
+        {
+          "canonicalId": "advanced-native-2081",
+          "titleEn": "old habits die hard",
+          "meaningEn": "Long-established habits are difficult to change, though change remains possible.",
+          "grammar": "old habits die hard; plural habits takes die. Often an observation after an automatic familiar response reappears, not a literal death or a guarantee that change is impossible.",
+          "targetPattern": "\\bold habits die hard\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "Even with new rules, old habits die hard.",
+          "batchPath": "batches/batch-2076-2100.json",
+          "batchSha256": "5a65333ae746e22f0baed48bac26b70995bd92e914e824bd04c1a1c5ff2f5bf9"
+        }
+      ],
+      "unselectedPilot": {
+        "path": "drafts-books10-16/batch-3119-owner-hold-a.json",
+        "sha256": "2eee6fb91e56aecdd4073d835506b743cf9dd95e8556a3a0a51720bfeeafe031"
+      },
+      "assessment": "Source confinement in old habits closely matches canonical 549 inability to move away from familiar repeated ways. Canonical 1246 adds dull/unproductive rut and 2081 is a proverb about resistance to change, making 549 the closest meaning owner. The existing pilot tests substantially the same old-pattern inflexibility.",
+      "recommendation": "Keep unselected; prefer a source alias to canonical 549 after adding trapped in old habits as a reviewed alternate form and covering the source sentence. Do not route to 1246 or 2081 just because they mention habit.",
+      "proposedMergePattern": "\\b(?:stuck\\s+in\\s+old\\s+patterns|(?:become\\s+)?trapped\\s+in\\s+old\\s+habits)\\b",
+      "risk": "Current canonical detector misses source; alias would fail without variant work."
+    },
+    {
+      "sourceOrdinal": 3825,
+      "sourceId": "book10-16-1714",
+      "sourceExpression": "endless uphill climb",
+      "sourceExample": "High rent can make saving feel like an endless uphill climb.",
+      "sourceMeaning": "A continuing struggle that demands effort; a fixed hill metaphor.",
+      "decisionAction": "proposed-new-lesson",
+      "decisionPath": "books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionSha256": "f5f655365c7383e15680178464ac78f54f58ccf08f81dbed097c88d993d44d1f",
+      "priorCanonicals": [
+        {
+          "canonicalId": "advanced-native-100",
+          "titleEn": "an uphill battle",
+          "meaningEn": "A difficult effort that needs sustained work against obstacles.",
+          "grammar": "be an uphill battle; face an uphill battle; an uphill battle to + verb.",
+          "targetPattern": "\\ban uphill battle\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "Securing support for the proposal will be an uphill battle.",
+          "batchPath": "batches/batch-0076-0100.json",
+          "batchSha256": "f69fd7b26c4b6cb8546dbb5d3018709bd5c50e66b946501792ad25b004399a82"
+        }
+      ],
+      "assessment": "High rent making saving an endless uphill climb and canonical 100 housing affordability as an uphill battle both teach prolonged difficult effort under obstacles. The modifier endless increases perceived duration but does not give a distinct seven-step decision. Cambridge and Oxford list uphill battle/struggle/climb under effortful uphill usage.",
+      "recommendation": "Keep held; prefer canonical-100 ownership as an uphill-climb variant only after pattern/content extension and source-sentence test. A separate lesson would repeat the same housing/difficulty decision.",
+      "proposedMergePattern": "\\b(?:an\\s+uphill\\s+battle|an\\s+(?:endless\\s+)?uphill\\s+climb)\\b",
+      "risk": "Different lexical image; use a reviewed variant rather than silently asserting exact synonymy in every context."
+    },
+    {
+      "sourceOrdinal": 4136,
+      "sourceId": "book10-16-2025",
+      "sourceExpression": "taking things in",
+      "sourceExample": "Quiet time helps students with taking things in.",
+      "sourceMeaning": "Absorbing or understanding information; a natural phrasal verb.",
+      "decisionAction": "proposed-new-lesson",
+      "decisionPath": "books10-16/editorial-decisions-4092-4151.jsonl",
+      "decisionSha256": "0ebf6ef178a1def10deacca6a340c2067719700d9ec7176a66278a7112915b0b",
+      "priorCanonicals": [
+        {
+          "canonicalId": "advanced-native-339",
+          "titleEn": "take in something new",
+          "meaningEn": "Notice and absorb unfamiliar sights or experiences attentively.",
+          "grammar": "take in something new/the scene; past took in. This lesson focuses on attentive sensory experience, not every sense of take in.",
+          "targetPattern": "\\b(?:take|takes|taking|took|taken) in (?:something new|the new sights|the scene|the unfamiliar details)\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "A museum visit lets us take in something new.",
+          "batchPath": "batches/batch-0326-0350.json",
+          "batchSha256": "05b312f7ffa8dcab9092f97d87c80f6eb8173828a8d17a1c4199b5568b6d4e76"
+        },
+        {
+          "canonicalId": "advanced-native-367",
+          "titleEn": "take in written information",
+          "meaningEn": "Understand and mentally absorb information that is read.",
+          "grammar": "take in + information/text; take it in with pronoun between verb and particle; took/taken. Textual-comprehension sense here.",
+          "targetPattern": "\\b(?:take|takes|taking|took|taken) in (?:(?:the )?written information|the written instructions|the instructions|the text|the key points)\\b|\\b(?:take|takes|taking|took|taken) it in\\b",
+          "currentPatternMatchesFullSource": false,
+          "canonicalSourceExample": "Commuters take in written information throughout the journey.",
+          "batchPath": "batches/batch-0351-0375.json",
+          "batchSha256": "a966c02c6778fbca2eca22572fa08aadb7aedc5688aec069ac5d77d51ab92171"
+        }
+      ],
+      "assessment": "Source taking things in means absorbing or understanding unspecified material. Canonical 339 teaches attentive sensory absorption of sights/experiences; canonical 367 teaches understanding written material. The source omits an object specifying either channel, so neither narrow canonical pattern or sense safely owns the whole sentence. Cambridge take something in covers understanding meaning/importance and separately sensory viewing.",
+      "recommendation": "Keep editorial hold; request source-context or owner decision on intended channel. If written meaning is supported, extend canonical 367 to the exact variant with a guarded detector; if broadly multimodal, define a genuinely distinct learner decision and seven tasks before new-owner promotion. Do not alias to 339 or 367 now.",
+      "proposedMergePattern": null,
+      "risk": "Both prior detectors miss source; a broad take things in detector risks crossing sensory, written-comprehension and other take-in senses."
+    }
+  ],
+  "dictionaryEvidence": [
+    {
+      "title": "Cambridge be in the public eye",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/be-in-the-public-eye",
+      "relevance": "fame/media visibility; no inherent duration rule"
+    },
+    {
+      "title": "Cambridge in the spotlight",
+      "url": "https://dictionary.cambridge.org/dictionary/english/in-the-spotlight",
+      "relevance": "public attention; example permits years, so duration is not a boundary"
+    },
+    {
+      "title": "Cambridge uphill",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/uphill",
+      "relevance": "uphill with battle/struggle/climb points to effortful difficulty"
+    },
+    {
+      "title": "Cambridge take something in",
+      "url": "https://dictionary.cambridge.org/dictionary/english/take-in",
+      "relevance": "understanding and viewing are distinct senses; source object remains unspecified"
+    }
+  ],
+  "decisionPolicy": "No decision file, draft pilot, selected manifest or release file was modified. Any merge requires owner approval, revised canonical content/detector and full-source verification."
+}

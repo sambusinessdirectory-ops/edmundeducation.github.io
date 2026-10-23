@@ -1008,12 +1008,12 @@
       "id": "advanced-native-1680",
       "number": 1680,
       "inventoryId": "expr-1680",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "squeezed to the edges of the timetable",
       "titleZh": "被擠到時間表邊緣",
       "category": "figurative",
       "target": {
-        "pattern": "\\bsqueezed to the edges of the timetable\\b"
+        "pattern": "(?:\\bsqueezed to the edges of the timetable\\b)|(?:\\bsqueezed to the edges of a busy schedule\\b)"
       },
       "sources": [
         {
@@ -1029,12 +1029,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "squeezed to the edges of the timetable",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0921",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 85,
+          "book": 12,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "43–46",
+          "locatorNote": "DOCX table 87, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Art can be squeezed to the edges of a busy schedule.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeezed to the edges"
         }
       ],
       "brief": {
         "meaningEn": "Given very little or peripheral scheduled time because other demands take priority.",
         "meaningZh": "其他需要佔優先，令某活動只剩少量或邊緣時段。",
-        "grammar": "be/get squeezed to the edges of the timetable; passive squeezing metaphor; identify the activity losing time and what displaces it",
+        "grammar": "be squeezed to the edges of the timetable / a busy schedule; the image means given only peripheral time or attention, not literally compressed paper.",
         "register": "neutral",
         "boundaryZh": "不必完全取消，也不是實際移動紙張；需指出時段縮減或只餘零碎安排，不從重要性直接推已恢復。",
         "misconceptionZh": "不必完全取消，也不是實際移動紙張；需指出時段縮減或只餘零碎安排，不從重要性直接推已恢復。",
@@ -1239,8 +1253,8 @@
           "zh": "額外會議佔原時段後，美術社被擠到時間表邊緣。"
         },
         {
-          "en": "We kept the activity, but it was squeezed to the edges of the timetable and became difficult to attend.",
-          "zh": "我們保留活動，但它被擠到時間表邊緣，變得難參與。"
+          "en": "Painting is squeezed to the edges of a busy schedule when revision fills every afternoon.",
+          "zh": "當每個下午都用來溫習，繪畫便在繁忙日程中被擠到邊緣。"
         }
       ],
       "review": {
@@ -1258,12 +1272,12 @@
       "id": "advanced-native-1682",
       "number": 1682,
       "inventoryId": "expr-1682",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "titleEn": "buried in homework",
       "titleZh": "功課多得難以應付",
       "category": "figurative",
       "target": {
-        "pattern": "\\bburied in homework\\b"
+        "pattern": "\\bburied (?:in homework|under chores)\\b"
       },
       "sources": [
         {
@@ -1279,17 +1293,31 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "buried in homework",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0326",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "By Sunday evening, she felt buried under chores.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "buried under chores"
         }
       ],
       "brief": {
-        "meaningEn": "Having so much schoolwork that it feels difficult to cope.",
-        "meaningZh": "功課多得令人感到難以應付。",
-        "grammar": "be/feel buried in homework; homework is uncountable; buried is a burden metaphor rather than a literal location",
-        "register": "neutral",
+        "meaningEn": "Feel overwhelmed by a large pile of duties, whether school homework or household chores.",
+        "meaningZh": "被大量要做的事壓得難以應付，可以是學校功課或家務。",
+        "grammar": "Be/feel buried in homework or buried under chores. Homework is uncountable; chores is plural. Buried is an overload metaphor, not a literal location.",
+        "register": "Informal-to-neutral overload metaphor; a student may describe homework to a classmate, while a householder may describe chores to family.",
         "boundaryZh": "形容負荷感，不自動等於學不懂、沒興趣或完全做不完；需看工作量與可用時間。",
         "misconceptionZh": "形容負荷感，不自動等於學不懂、沒興趣或完全做不完；需看工作量與可用時間。",
         "outcomeZh": "理解「功課多得難以應付」的語境及用法，並在新情境寫出自然句子。",
-        "sourceClassificationNote": "The guide calls the whole wording an idiom. Buried in plus work is a productive overload metaphor; homework names the particular load."
+        "sourceClassificationNote": "Both guide sources use the productive buried-in/under overload metaphor; homework and chores name different burdens, not different idiom senses."
       },
       "listening": {
         "en": "With three assignments due after the trip, I felt buried in homework even though I understood the topics; I asked the tutor which task needed attention first.",
@@ -1318,7 +1346,7 @@
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "三份同時到期支持負荷，even though 保留理解；未說已取消或已交評分。"
+        "explanationZh": "三份功課同時到期，說明負荷沉重；雖然說話者理解題目內容，仍需商量先處理哪一項。錄音沒有說功課已取消或已交評分。"
       },
       "reply": {
         "promptEn": "Why did you ask the tutor what to tackle first?",
@@ -1490,8 +1518,8 @@
           "zh": "閱讀任務及項目期限一起到時，她覺功課多得難應付。"
         },
         {
-          "en": "I was buried in homework, but a short conversation helped me explain which deadline worried me most.",
-          "zh": "我功課多得難應付，但短談話幫我說出最擔心哪個期限。"
+          "en": "With the move approaching, I felt buried under chores, so my brother handled the packing list while I booked the van.",
+          "zh": "快要搬家時，我覺得家務多得難以應付，於是哥哥處理執拾清單，我去預約搬運車。"
         }
       ],
       "review": {

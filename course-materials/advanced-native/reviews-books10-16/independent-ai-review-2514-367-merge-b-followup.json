@@ -1,0 +1,31 @@
+{
+  "reviewType": "independent-ai-exact-hash-merge-followup",
+  "supersedes": "independent-ai-review-2514-4136-b-initial.json",
+  "status": "content-clear-for-2514-and-367-merge",
+  "files": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2514-a.json",
+      "sha256": "ee6c965d57cca507e4ddc31618e40f094e3ea34f77631ddd5785516d65dffbfc"
+    },
+    {
+      "path": "course-materials/advanced-native/batches/batch-0351-0375.json",
+      "sha256": "eee51d1808fd5bd0bad17ff65bc4a95725ddef5cdea3a1ed14061c2bda5e6ee3"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "sha256AtFinalReview": "68a3d0e31caa67deab5b04f84c1612cc0926c1cbdfc0c76b9301bd8d8c67171f",
+      "sha256InAuthorHandoffBeforeConcurrentOtherRowChanges": "4a5318e08111e88bd79fadbce420cd3e8d53dbf11bdcbb91a1de614390bf7ab4"
+    }
+  ],
+  "authorAuditSha256": "767e3f7ef84cd088650f6ba8c0ce4087128ed433133d30abc31e0444281f31c4",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "checks": {
+    "focusedBuildAndCheck": "Combined canonical batch and 2514-only draft: 25 lessons, 150 questions, 100 audio requests, zero review flags in both build and --check.",
+    "sourceAndDetector": "367 matches both the prior written-information source and Books 10–16 source 4136 'Quiet time helps students with taking things in'; it retains prior written-form matching and rejects the tested sensory examples for canonical 339. 2514 matches its abstract-effect source and rejects the tested human arrival/support uses.",
+    "assessmentAndSpans": "2514 and 367 have target-bearing keyed reply, scene and dialogue options; exact speaking target slice; target-bearing two writing examples; exact non-target answer-derived glossary spans, six each. The 367 oral and written examples, prompts and Traditional Chinese were checked for meaning parity.",
+    "sourceOwner": "2514's later-evident abstract effect is distinct from human show-up arrival/support. 4136 is now a same-sense alias to canonical 367, which teaches general information comprehension across read and heard input while preserving its prior written cases. Canonical 339 remains sensory uptake. No duplicate new 4136 owner is present in the final single-lesson draft.",
+    "replyAndDialogueRepairs": "The 367 reply golden answer now checks against corrected steps that the prompt establishes. Its dialogue key now requests repetition of the missed emergency step before the learner takes it in and restates the order; English and Traditional Chinese align. The two initial grounding defects are resolved.",
+    "decisionRow": "Current ordinal 4136 row retains exact source ID and phrase, action proposed-alias-existing, canonicalId advanced-native-367 and a concrete same-sense reason. The full decision-file hash changed after author handoff because other rows were edited concurrently; this review checked the current 4136 row, not the historical file as a whole."
+  },
+  "limits": "Content clearance and focused mechanical checks are not human listening certification, release approval or proof that every other lesson in the 24-lesson canonical batch has been freshly editorially reviewed. Changed canonical audio text and target registration require the normal audio refresh and release checks."
+}

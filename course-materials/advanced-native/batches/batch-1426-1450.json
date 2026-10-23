@@ -488,12 +488,12 @@
       "id": "advanced-native-1430",
       "number": 1430,
       "inventoryId": "expr-1430",
-      "contentRevision": 1,
-      "titleEn": "squeeze every young person into the same mould",
+      "contentRevision": 3,
+      "titleEn": "squeeze everyone into the same mould",
       "titleZh": "不要強把人人塑成一樣",
       "category": "idiom",
       "target": {
-        "pattern": "\\bsqueeze\\s+every\\s+young\\s+person\\s+into\\s+the\\s+same\\s+mould\\b"
+        "pattern": "\\b(?:squeez(?:e|es|ed|ing) (?:every young person|everyone)|(?:force|forces|forced|forcing) everyone) into the same mould\\b"
       },
       "sources": [
         {
@@ -509,13 +509,41 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "squeeze every young person into the same mould",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-2203",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 208,
+          "book": 16,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 226, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good teaching avoids forcing everyone into the same mould.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "forcing everyone into the same mould"
+        },
+        {
+          "occurrenceId": "book10-16-0554",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 51,
+          "book": 11,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 47, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The course risks squeezing everyone into the same mould.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeezing everyone into the same mould"
         }
       ],
       "brief": {
-        "meaningEn": "Force different young people to fit one identical model.",
-        "meaningZh": "不顧年輕人的差異，強迫他們符合單一模式。",
-        "grammar": "try to / do not squeeze every young person into the same mould",
-        "register": "neutral",
+        "meaningEn": "Force different people to fit one identical model, ignoring relevant differences in strengths or needs.",
+        "meaningZh": "不顧不同人的能力或需要，強迫人人符合單一模式。",
+        "grammar": "Squeeze everyone/every young person into the same mould, or force everyone into the same mould; mould (British spelling) is an imposed model, not a physical form.",
+        "register": "Neutral-to-critical metaphor; a student or teacher may use it when discussing a one-size-fits-all course or assessment.",
         "boundaryZh": "批評忽視差異的強迫模式，不代表所有共通規則或基本要求都不合理；mould 為英式拼法。",
         "misconceptionZh": "批評忽視差異的強迫模式，不代表所有共通規則或基本要求都不合理；mould 為英式拼法。",
         "outcomeZh": "理解「不要強把人人塑成一樣」的語境及用法，並在新情境寫出自然句子。"
@@ -710,8 +738,8 @@
           "zh": "不要把每位年輕人都強行塑造成同一模式。"
         },
         {
-          "en": "Schools can offer choices rather than squeeze every young person into the same mould.",
-          "zh": "學校可以提供選擇，而非把每位年輕人都強行塑造成同一模式。"
+          "en": "A single audition rubric can squeeze everyone into the same mould, even when the roles call for different strengths.",
+          "zh": "即使角色需要不同長處，單一試鏡評分準則仍可能強把人人塑成同一模式。"
         }
       ],
       "review": {

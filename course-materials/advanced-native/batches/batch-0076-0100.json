@@ -6351,15 +6351,16 @@
       "id": "advanced-native-100",
       "number": 100,
       "inventoryId": "expr-0100",
-      "titleEn": "an uphill battle",
-      "titleZh": "需要苦戰的事",
+      "titleEn": "an uphill battle / an uphill climb",
+      "titleZh": "艱難而漫長的努力",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ban uphill battle\\b",
+        "pattern": "\\b(?:an\\s+uphill\\s+battle|an\\s+(?:endless\\s+)?uphill\\s+climb)\\b",
         "glossaryForbidden": [
           "\\buphill\\b",
-          "\\bbattle\\b"
+          "\\bbattle\\b",
+          "\\buphill climb\\b"
         ]
       },
       "sources": [
@@ -6466,16 +6467,30 @@
           "sentence": "Finding affordable housing can be an uphill battle.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "an uphill battle"
+        },
+        {
+          "occurrenceId": "book10-16-1714",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 161,
+          "book": 14,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 173, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "High rent can make saving feel like an endless uphill climb.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "endless uphill climb"
         }
       ],
       "brief": {
-        "meaningEn": "A difficult effort that needs sustained work against obstacles.",
-        "meaningZh": "需要持續努力、克服障礙的艱難過程。",
-        "grammar": "be an uphill battle; face an uphill battle; an uphill battle to + verb.",
-        "register": "Common figurative expression; may sound strong, so give evidence of difficulty.",
-        "boundaryZh": "難不表示不可能，也不保證堅持後必勝；本課不指真的戰鬥。",
-        "misconceptionZh": "不要把任何小麻煩都誇大，也不要把困難當成已失敗。",
-        "outcomeZh": "能說明持續困難及實際應對方法，同時保留結果的不確定性。"
+        "meaningEn": "A difficult effort that requires sustained work against obstacles; uphill battle and uphill climb are related images.",
+        "meaningZh": "需要持續努力克服障礙的艱難過程；uphill battle 與 uphill climb 是相關比喻。",
+        "grammar": "Be/face an uphill battle; be/feel like an uphill climb (optionally an endless uphill climb). Keep the article an before uphill.",
+        "register": "Common figurative language; a community organiser explains a demanding project to volunteers.",
+        "boundaryZh": "兩種比喻都可指長期困難，不保證成功或失敗，也不可把 climb 說成一定已有進展。",
+        "misconceptionZh": "不是實際爬坡或打仗；單一小麻煩不足以支持這種強烈說法。",
+        "outcomeZh": "能指出持續障礙，選用合適的艱難過程比喻並提出起步做法。"
       },
       "listening": {
         "promptEn": "",
@@ -6541,8 +6556,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "Getting support could be an uphill battle.",
-            "zh": "爭取支持可能需要苦戰。"
+            "en": "Winning support could be an uphill climb.",
+            "zh": "爭取支持可能是艱難而漫長的過程。"
           },
           {
             "id": "choice-2",
@@ -6605,12 +6620,12 @@
         "explanationZh": "承認困難而不把它當成已失敗或必勝，並提出查障礙和第一步。"
       },
       "speaking": {
-        "en": "Changing the policy may be an uphill battle, so we need a clear plan.",
-        "zh": "改變政策可能需要苦戰，所以我們需要清楚計劃。",
-        "promptZh": "你想提醒小組改變不容易，需要準備。先聽示範，再自己說。",
+        "en": "Changing the policy may be an uphill climb, so we need a clear plan.",
+        "zh": "改變政策可能是艱難而漫長的過程，因此我們需要清晰計劃。",
+        "promptZh": "你想提醒小組改變不容易，需要準備；先聽示範，再自己說。",
         "targetSpan": {
           "start": 27,
-          "end": 43
+          "end": 42
         }
       },
       "writing": {
@@ -6621,8 +6636,8 @@
             "zh": "爭取單車停泊位可能需要苦戰，因為空間有限，也有居民反對。我們應收集大家的需要，並找合適位置。"
           },
           {
-            "en": "This could be an uphill battle, but we can start by checking possible locations and listening to residents’ concerns.",
-            "zh": "這可能很艱難，但我們可以先查看可能位置，並聆聽居民的疑慮。"
+            "en": "This could be an uphill climb because space is scarce and some residents object, but we can start by collecting local needs and checking possible bike-parking sites.",
+            "zh": "空間不足且部分居民反對，設單車停泊位可能是艱難而漫長的過程；但我們可先收集居民需要，並查看可行的停泊位置。"
           }
         ],
         "glossary": [
@@ -6654,25 +6669,34 @@
             }
           },
           {
-            "en": "possible locations",
-            "zh": "可能位置",
+            "en": "residents object",
+            "zh": "居民反對",
             "exampleIndex": 1,
             "span": {
-              "start": 61,
+              "start": 63,
               "end": 79
             }
           },
           {
-            "en": "residents’ concerns",
-            "zh": "居民的疑慮",
+            "en": "collecting local needs",
+            "zh": "收集居民需要",
             "exampleIndex": 1,
             "span": {
-              "start": 97,
-              "end": 116
+              "start": 101,
+              "end": 123
+            }
+          },
+          {
+            "en": "bike-parking sites",
+            "zh": "單車停泊位置",
+            "exampleIndex": 1,
+            "span": {
+              "start": 146,
+              "end": 164
             }
           }
         ],
-        "selfCheckZh": "指出具體障礙和可行起點；既不保證成功，也不把困難當成放棄或已失敗的同義詞。"
+        "selfCheckZh": "兩個示範都應寫出空間少、部分居民反對，以及先收集需要和尋找可行位置；不可保證結果。"
       },
       "takeaways": [
         {
@@ -6680,8 +6704,8 @@
           "zh": "爭取支持可能需要苦戰。"
         },
         {
-          "en": "It was an uphill battle, but we kept working on the main obstacles.",
-          "zh": "那是一段艱難過程，但我們持續處理主要障礙。"
+          "en": "It was an uphill climb, but we kept working on the main obstacles.",
+          "zh": "這是一段艱難而漫長的過程，但我們持續處理主要障礙。"
         }
       ],
       "review": {

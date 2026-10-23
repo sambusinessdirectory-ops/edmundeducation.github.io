@@ -1,0 +1,46 @@
+{
+  "scope": "Focused exact source and canonical-sense comparison for two deferred lower-owner rows. No decision or manifest edit.",
+  "items": [
+    {
+      "sourceOrdinal": 2279,
+      "sourceId": "book10-16-0168",
+      "exactSourcePhrase": "grounded in facts",
+      "exactSourceExample": "Her argument was grounded in facts rather than speculation.",
+      "sourceMeaning": "Based firmly on evidence; grounded is a physical metaphor.",
+      "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+      "comparedOwners": [
+        {
+          "canonicalId": "advanced-native-798",
+          "file": "course-materials/advanced-native/batches/batch-0776-0800.json",
+          "sha256": "aef8b5341826399517b3d38d3a7fe6a48d139328d6b602ca71f0a043d95824dd"
+        }
+      ],
+      "classification": "distinct-new-sense",
+      "reason": "Source argument is evidence-based. Canonical 798 describes a person emotionally calm and connected to ordinary reality; its broad `was grounded` match is a subject/sense false positive. Prior independent collision audits agree.",
+      "recommendation": "Retain proposed-new 2279 and author a bounded `grounded in facts/evidence` lesson. Do not alias to 798; target regex must require `in facts/evidence` so personal grounded examples remain 798."
+    },
+    {
+      "sourceOrdinal": 2514,
+      "sourceId": "book10-16-0403",
+      "exactSourcePhrase": "show up",
+      "exactSourceExample": "The effects will show up in the final results.",
+      "sourceMeaning": "Become evident or noticeable; the phrasal verb describes how an abstract quality appears.",
+      "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+      "comparedOwners": [
+        {
+          "canonicalId": "advanced-native-364",
+          "file": "course-materials/advanced-native/batches/batch-0351-0375.json",
+          "sha256": "a966c02c6778fbca2eca22572fa08aadb7aedc5688aec069ac5d77d51ab92171"
+        },
+        {
+          "canonicalId": "advanced-native-2123",
+          "file": "course-materials/advanced-native/drafts-books10-16/batch-2123.json",
+          "sha256": "912f558f87ac8d8ca4bbdd65c39dd614c96d984485030913040237c13d554b84"
+        }
+      ],
+      "classification": "distinct-sense-but-detector-collision",
+      "reason": "Source effects become visible in results. Canonical 364 means reliable support for a person; draft 2123 means human arrival at an event. Neither teaches abstract-result emergence, but both existing surface detectors match bare `show up` in the source without subject/sense discrimination. Source 4221 repeats the same guide example and should share whichever owner is chosen.",
+      "recommendation": "Do not alias by bare-string match. Hold 2514 pending a reviewed subject/context-aware ownership and detector strategy, then draft only if the checker can distinguish abstract evidence from human arrival/support without false positives. Alternatively add a clearly tagged abstract sense to an existing show-up owner after editorial approval."
+    }
+  ]
+}

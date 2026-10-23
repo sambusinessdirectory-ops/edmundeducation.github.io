@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2961",
+      "number": 2961,
+      "inventoryId": "expr-2961",
+      "titleEn": "more show than substance",
+      "titleZh": "外表風光多於實質",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmore show than substance\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Impressive presentation or publicity outweighs genuine practical value.",
+        "meaningZh": "表面聲勢或宣傳大於真正的實際價值。",
+        "grammar": "More show than substance; compare visible display with what the event or proposal actually delivers.",
+        "register": "Critical but natural commentary. A community organiser may use it when a launch event is lavish but promised services do not appear.",
+        "boundaryZh": "須有外在展示與實際成果的對照；單純設計漂亮、但同時提供有用服務，不足以批評為華而不實。",
+        "misconceptionZh": "不表示完全沒有任何價值，也不是反對所有慶祝或設計。",
+        "outcomeZh": "能指出宣傳或場面，以及缺乏的具體實際成果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0850",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 79,
+          "book": 12,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "23–25",
+          "locatorNote": "DOCX table 79, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The costly event felt more show than substance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more show than substance"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A costly health fair had banners, cameras and a long opening speech, but no appointment desk or written guidance for visitors. Several people left without knowing where to seek help. It felt more show than substance.",
+        "zh": "昂貴健康展有橫幅、鏡頭及冗長開幕演說，卻沒有預約櫃檯或給訪客的書面指引。多人離開時仍不知去哪裏求助。活動顯得外表風光多於實質。",
+        "promptZh": "甚麼支持這項批評？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The polished launch did not provide the practical help visitors needed.",
+            "zh": "漂亮的開幕沒有提供訪客需要的實際協助。"
+          },
+          {
+            "id": "b",
+            "en": "The fair had no visual material of any kind.",
+            "zh": "展會完全沒有任何視覺材料。"
+          },
+          {
+            "id": "c",
+            "en": "The appointment desk gave detailed help to everyone.",
+            "zh": "預約櫃檯為所有人提供詳細協助。"
+          },
+          {
+            "id": "d",
+            "en": "The fair was cancelled before visitors arrived.",
+            "zh": "訪客到來前展會已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "外在聲勢與實際服務不相稱。"
+      },
+      "reply": {
+        "promptEn": "A new study app launches with celebrity videos and glossy ads, but the promised practice questions are missing and users cannot save answers. What might a student say?",
+        "promptZh": "（新學習程式以明星影片和精美廣告推出，但承諾的練習題缺失，用戶也不能儲存答案。學生可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The publicity is stronger than the learning tools.",
+            "zh": "宣傳比學習工具強。"
+          },
+          {
+            "id": "b",
+            "en": "The missing questions matter more than the videos.",
+            "zh": "缺失練習題比影片更重要。"
+          },
+          {
+            "id": "c",
+            "en": "It looks more show than substance.",
+            "zh": "它看來外表風光多於實質。"
+          },
+          {
+            "id": "d",
+            "en": "The attractive launch does not deliver the promised practice.",
+            "zh": "吸引的推出活動沒有提供承諾的練習。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均比較展示與實際功能。"
+      },
+      "scene": {
+        "promptZh": "社區計劃舉行華麗記者會，卻仍沒有開通承諾的輔導熱線。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The launch is more show than substance.",
+            "zh": "推出活動外表風光多於實質。"
+          },
+          {
+            "id": "b",
+            "en": "The hotline is already helping every resident.",
+            "zh": "熱線已協助每位居民。"
+          },
+          {
+            "id": "c",
+            "en": "Any attractive design makes a service useless.",
+            "zh": "任何好看設計都令服務無用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "宣傳先行而核心服務未到位。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 more show than substance？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A modestly designed service quietly delivers the promised appointments and clear guidance to users.",
+            "zh": "設計樸素的服務默默提供承諾的預約及清楚指引。"
+          },
+          {
+            "id": "b",
+            "en": "A polished programme advertises lessons that are not yet available.",
+            "zh": "精美計劃宣傳尚未開辦的課。"
+          },
+          {
+            "id": "c",
+            "en": "A large launch ceremony offers no way to access the announced support.",
+            "zh": "盛大開幕禮卻沒有取得所宣布支援的方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "實際成果到位且沒有空洞宣傳。"
+      },
+      "dialogue": {
+        "promptEn": "A: The new reading centre has a dramatic launch video, but the books are not catalogued and visitors cannot borrow any yet. B: ______",
+        "promptZh": "（甲：新閱讀中心有震撼開幕影片，但書籍尚未編目，訪客也未能借閱。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The launch display is ahead of the service.",
+            "zh": "開幕展示走在服務前面。"
+          },
+          {
+            "id": "b",
+            "en": "Borrowing matters more than the video for readers.",
+            "zh": "對讀者而言借書比影片重要。"
+          },
+          {
+            "id": "c",
+            "en": "At the moment, it seems more show than substance.",
+            "zh": "目前看來外表風光多於實質。"
+          },
+          {
+            "id": "d",
+            "en": "Cataloguing the books would give the centre practical value.",
+            "zh": "為書編目才能讓中心有實際價值。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指當前展示超過可用服務。"
+      },
+      "speaking": {
+        "en": "The park project’s illuminated model impressed visitors, but with no confirmed accessible path in the actual plan it risked becoming more show than substance.",
+        "zh": "公園工程的發光模型令訪客印象深刻，但實際計劃尚未確認無障礙路線，恐怕外表風光多於實質。",
+        "promptZh": "比較模型展示與實際缺口。",
+        "targetSpan": {
+          "start": 133,
+          "end": 157
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項產品或計劃各有醒目的宣傳，但承諾的核心效用不足。用英文寫出展示與缺失。",
+        "selfCheckZh": "不能只因作品漂亮就批評；兩例須指出未交付的實際價值。",
+        "examples": [
+          {
+            "en": "The language course was more show than substance: its launch had bright screens and prizes, while learners still lacked the promised feedback sessions.",
+            "zh": "語言課程外表風光多於實質：開幕有亮麗螢幕和獎品，學員卻仍沒有承諾的回饋課。"
+          },
+          {
+            "en": "A glossy neighbourhood guide felt more show than substance because it displayed striking photos but omitted bus access and opening hours visitors needed.",
+            "zh": "精美鄰里指南有奪目照片，卻漏掉訪客需要的巴士路線與開放時間，顯得外表風光多於實質。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "bright screens",
+            "zh": "亮麗螢幕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 79
+            }
+          },
+          {
+            "en": "feedback sessions",
+            "zh": "回饋課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 150
+            }
+          },
+          {
+            "en": "striking photos",
+            "zh": "奪目照片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 95
+            }
+          },
+          {
+            "en": "opening hours",
+            "zh": "開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "More show than substance contrasts display with actual value.",
+          "zh": "more show than substance 對比外在展示與實際價值。"
+        },
+        {
+          "en": "A beautiful launch is more show than substance if the promised help is missing.",
+          "zh": "若承諾的協助缺失，漂亮開幕便可能華而不實。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3487",
+      "number": 3487,
+      "inventoryId": "expr-3487",
+      "titleEn": "grabs the headlines",
+      "titleZh": "搶佔新聞焦點",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:grab|grabs|grabbed|grabbing) the headlines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attract the most prominent news attention, often overshadowing other stories.",
+        "meaningZh": "吸引最顯眼的新聞注意，常令其他消息被遮蓋。",
+        "grammar": "Grab the headlines; subject is a story, event or person. Distinct from simply make headlines: this sense highlights attention dominance.",
+        "register": "Neutral to slightly vivid news commentary. An editor may use it when one story takes the lead position ahead of other reported matters.",
+        "boundaryZh": "須有顯著的新聞焦點或壓過其他報道的線索；只在地方通訊中被提及一次，不足以說搶佔頭條。",
+        "misconceptionZh": "不是用手抓報紙，也不表示該故事最重要或最可靠。",
+        "outcomeZh": "能指出顯眼報道、被遮蓋的其他消息及新聞注意與重要性未必相同。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1376",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 128,
+          "book": 13,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "34–37",
+          "locatorNote": "DOCX table 135, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Celebrity news grabs the headlines.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grabs the headlines"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A celebrity’s surprise wedding led every evening news page, while a new flood-warning map received only a short item. The wedding grabbed the headlines, though the map mattered more to some residents.",
+        "zh": "明星突然結婚佔據各晚間新聞版面頭位，新的洪水警告地圖卻只得到短訊。婚禮搶佔新聞焦點，雖然地圖對部分居民更重要。",
+        "promptZh": "甚麼顯示婚禮 grabs the headlines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It took the prominent lead position across news pages.",
+            "zh": "它佔據多個新聞版面的顯眼頭位。"
+          },
+          {
+            "id": "b",
+            "en": "It was mentioned once in a private message.",
+            "zh": "它只在私人訊息被提及一次。"
+          },
+          {
+            "id": "c",
+            "en": "The flood map received more prominent coverage everywhere.",
+            "zh": "洪水地圖在各處得到更顯眼報道。"
+          },
+          {
+            "id": "d",
+            "en": "The wedding was necessarily more important to every resident.",
+            "zh": "婚禮對每名居民必然更重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "頭位報道表示焦點，不等於普遍重要。"
+      },
+      "reply": {
+        "promptEn": "Several papers lead with a singer’s award, while a local housing consultation appears below in brief. A reader notices that one story dominates the page. What can the reader say?",
+        "promptZh": "（數份報紙都以歌手獲獎作頭條，地方住屋諮詢只在下方短訊出現。讀者注意到一則消息主導版面。可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The award receives the most prominent placement.",
+            "zh": "獎項得到最顯眼的位置。"
+          },
+          {
+            "id": "b",
+            "en": "The housing item gets far less space.",
+            "zh": "住屋消息所佔位置小得多。"
+          },
+          {
+            "id": "c",
+            "en": "The award grabs the headlines.",
+            "zh": "獎項搶佔新聞焦點。"
+          },
+          {
+            "id": "d",
+            "en": "Prominence does not settle which issue matters more.",
+            "zh": "顯眼程度不能決定哪件事更重要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據版面顯眼程度。"
+      },
+      "scene": {
+        "promptZh": "大部分新聞首頁都把一場體育決賽列最前，另一項重要交通通知只佔角落。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The final grabs the headlines.",
+            "zh": "決賽搶佔新聞焦點。"
+          },
+          {
+            "id": "b",
+            "en": "The final was mentioned only in a footnote.",
+            "zh": "決賽只在註腳出現。"
+          },
+          {
+            "id": "c",
+            "en": "The final must matter more than transport to every reader.",
+            "zh": "決賽對每名讀者必定比交通重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "佔據版面顯眼位置是焦點，不是重要性判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a story grabs the headlines？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An item appears once in a small notice and does not lead or dominate any news coverage.",
+            "zh": "一項消息只在小告示出現一次，沒有引領或主導新聞報道。"
+          },
+          {
+            "id": "b",
+            "en": "A result appears at the top of many news pages and pushes other stories down.",
+            "zh": "一項結果佔多個新聞版面最前，其他消息被擠到下面。"
+          },
+          {
+            "id": "c",
+            "en": "A surprise announcement becomes the lead story across major outlets.",
+            "zh": "突然公布的消息成為多家主要媒體頭條。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "小角落提及沒有主導注意。"
+      },
+      "dialogue": {
+        "promptEn": "A: Today’s front pages lead with the actor’s award, while the new safety notice is tucked inside. B: ______",
+        "promptZh": "（甲：今天各報頭版以演員獲獎作頭條，新安全通知則藏在內頁。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The award has the most visible placement.",
+            "zh": "獎項佔最顯眼位置。"
+          },
+          {
+            "id": "b",
+            "en": "The safety notice may still matter more to some readers.",
+            "zh": "安全通知對部分讀者仍可能更重要。"
+          },
+          {
+            "id": "c",
+            "en": "The award grabs the headlines.",
+            "zh": "獎項搶佔新聞焦點。"
+          },
+          {
+            "id": "d",
+            "en": "Front-page attention and practical importance can differ.",
+            "zh": "頭版關注與實際重要性可不同。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出媒體焦點及其局限。"
+      },
+      "speaking": {
+        "en": "The visiting chef’s new restaurant grabbed the headlines across town, while a quieter report on library hours appeared only inside the papers.",
+        "zh": "來訪廚師的新餐廳搶佔全城新聞焦點，圖書館開放時間的較平靜報道則只在內頁。",
+        "promptZh": "對比顯眼報道與被壓低的消息。",
+        "targetSpan": {
+          "start": 35,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩則新聞各佔顯眼位置，另一項仍值得留意的消息被較少報道。用英文寫出焦點與對比。",
+        "selfCheckZh": "不能只說消息有被報道；須指出主導版面的證據。",
+        "examples": [
+          {
+            "en": "The new stadium design grabbed the headlines on several local sites, while changes to bus access appeared in small follow-up notes.",
+            "zh": "新球場設計搶佔多個地方網站頭條，巴士通道改動則只在小型跟進訊息出現。"
+          },
+          {
+            "en": "When the school robot won a prize, it grabbed the headlines in community papers, leaving the updated meal policy on an inside page.",
+            "zh": "學校機械人獲獎時搶佔社區報紙焦點，更新後的膳食政策只在內頁。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "local sites",
+            "zh": "地方網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 67
+            }
+          },
+          {
+            "en": "bus access",
+            "zh": "巴士通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 96
+            }
+          },
+          {
+            "en": "community papers",
+            "zh": "社區報紙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 79
+            }
+          },
+          {
+            "en": "inside page",
+            "zh": "內頁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Grab the headlines means dominate prominent news attention.",
+          "zh": "grab the headlines 指主導顯眼新聞關注。"
+        },
+        {
+          "en": "A story that grabs the headlines is not automatically the most important.",
+          "zh": "搶佔新聞焦點的故事未必最重要。"
+        }
+      ]
+    }
+  ]
+}

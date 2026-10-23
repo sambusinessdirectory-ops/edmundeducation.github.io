@@ -4639,7 +4639,7 @@
     "titleZh": "優點比缺點更重要",
     "category": "idiom",
     "target": {
-      "pattern": "\\bthe benefits outweigh(?:ed)? the drawbacks\\b",
+      "pattern": "\\bthe benefits (?:may |still )?outweigh(?:ed)? the (?:drawbacks|stress)\\b",
       "glossaryForbidden": [
         "\\bbenefits\\b",
         "\\boutweigh(?:s|ed|ing)?\\b",
@@ -4649,8 +4649,8 @@
     "brief": {
       "meaningEn": "The advantages are judged more important or valuable than the disadvantages in a particular comparison.",
       "meaningZh": "在特定比較中，判斷優點比缺點更重要或更有價值。",
-      "grammar": "the benefits outweigh the drawbacks; for this group, the benefits outweighed the drawbacks. Outweigh compares importance rather than requiring a larger count of positive items.",
-      "register": "Conventional balanced-evaluation frame. State whose purpose and which trade-offs are involved; a favourable judgement does not make drawbacks disappear or bind other people to the same choice.",
+      "grammar": "the benefits may/still outweigh the drawbacks/stress; outweighed for the past. May marks a provisional comparison, while still marks continuity. Outweigh compares importance rather than requiring a larger count of positive items.",
+      "register": "Conventional balanced-evaluation frame. A club leader may tell members that the benefits still outweigh the stress for this group, while inviting others to weigh their own trade-offs.",
       "boundaryZh": "不是優點數目較多就必勝，也不是缺點變零；需按具體目的、重要程度及當事人需要。",
       "misconceptionZh": "不要把一組覺值得寫成人人必選，也不把比較權衡當精確秤重。",
       "outcomeZh": "能提出具體得失及判斷範圍，保缺點仍在、選擇或因人不同。"
@@ -4668,6 +4668,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 47, table 2, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p047-t2-r02"
+      },
+      {
+        "occurrenceId": "book10-16-0381",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 35,
+        "book": 10,
+        "question": 30,
+        "sample": "S2",
+        "sourceBookPages": "74–76",
+        "locatorNote": "DOCX table 30, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "With clear rules, the benefits still outweigh the stress.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "benefits still outweigh the stress"
       }
     ],
     "listening": {
@@ -4899,7 +4913,7 @@
         "Root retained643 balanced advantages-versus-disadvantages evaluation frame distinct1924 trusted friend outweighing many online voices creative comparative-influence frame. Related weight metaphor is not claimed a new dictionary sense."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-644",

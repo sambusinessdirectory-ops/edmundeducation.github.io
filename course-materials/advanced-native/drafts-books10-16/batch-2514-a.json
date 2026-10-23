@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-last-proposed-2514-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2514",
+      "number": 2514,
+      "inventoryId": "expr-2514",
+      "titleEn": "show up in the results",
+      "titleZh": "在結果中顯現",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:effects?|differences?|changes?|problems?|gaps?|benefits?|improvements?|errors?|patterns?|impacts?|delays?|risks?|bias|costs?)\\s+(?:(?:will|may|might|can|could|would)\\s+)?(?:show|shows|showed)\\s+up\\b",
+        "glossaryForbidden": [
+          "\\b(?:effects?|differences?|changes?|problems?|gaps?|benefits?|improvements?|errors?|patterns?|impacts?|delays?|risks?|bias|costs?)\\s+(?:(?:will|may|might|can|could|would)\\s+)?(?:show|shows|showed)\\s+up\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "For an effect or difference to become evident in later observations or results.",
+        "meaningZh": "效果或差異在後來的觀察或結果中顯現。",
+        "grammar": "An abstract subject such as the effect, difference or improvement + show/showed/shows up, often followed by in results, figures or records. The subject is not a person arriving.",
+        "register": "Neutral analytic phrasal verb. A coordinator may tell colleagues that a policy change showed up in the next month’s figures.",
+        "boundaryZh": "須有後來可觀察的跡象；不等於有人到場，也不等於僅宣布改動便已證明有效。",
+        "misconceptionZh": "兩件事先後發生，未必足以證明因果；應說清楚哪個指標出現變化。",
+        "outcomeZh": "能說明抽象效果何時在哪些資料中顯現，並與人到場的 show up 分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0403",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 37,
+          "book": 10,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The effects will show up in the final results.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "show up"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A library replaced confusing shelf labels in April. In May, volunteers counted fewer books returned to the wrong shelves. The improvement showed up in the weekly figures, although the team still needs to check other possible causes.",
+        "zh": "圖書館在四月更換令人混淆的書架標籤。五月時，義工點算到放錯書架的歸還圖書減少。改進在每週數字中顯現，但團隊仍須核對其他可能原因。",
+        "promptZh": "講者根據甚麼說改進開始顯現？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The next count recorded fewer books returned to the wrong shelves.",
+            "zh": "下一次點算錄得較少圖書放錯書架。"
+          },
+          {
+            "id": "b",
+            "en": "The labels looked neater, but no returns were counted.",
+            "zh": "標籤看起來更整齊，但沒有點算歸還圖書。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers expected a lower count before the new labels arrived.",
+            "zh": "義工在新標籤送到前已預期數字下降。"
+          },
+          {
+            "id": "d",
+            "en": "A different library reported fewer missing books.",
+            "zh": "另一間圖書館報告遺失圖書減少。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改進是從後來的錯放數字中看到，因果仍要進一步核對。"
+      },
+      "reply": {
+        "promptEn": "The club moved reminders from a crowded noticeboard to a short message. Over the next two weeks, missed rehearsals fell from eight to three. What can the secretary say about the recorded change?",
+        "promptZh": "社團把擠滿資訊的告示板提醒改為簡訊。隨後兩週，缺席排練的人數由八人降至三人。秘書可怎樣描述紀錄中的變化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The attendance record gives us a measurable change.",
+            "zh": "出席紀錄顯示可量度的變化。"
+          },
+          {
+            "id": "b",
+            "en": "Missed rehearsals were lower after the reminder changed.",
+            "zh": "提醒方式改變後，缺席排練的人數較少。"
+          },
+          {
+            "id": "c",
+            "en": "The difference showed up in the attendance figures.",
+            "zh": "差異在出席數字中顯現。"
+          },
+          {
+            "id": "d",
+            "en": "We can report the decline while checking whether anything else changed.",
+            "zh": "我們可報告下降，同時核對有否其他變化。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合紀錄；金句把抽象差異和具體數字連起來。"
+      },
+      "scene": {
+        "promptZh": "診所把預約提醒提早一天發送。下月紀錄顯示未到診次數減少，但仍須核對其他因素。哪句最準確表達「結果顯現」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The effect showed up in the next month’s appointment records.",
+            "zh": "效果在下個月的預約紀錄中顯現。"
+          },
+          {
+            "id": "b",
+            "en": "The reminder was sent, so the effect is already proven without later records.",
+            "zh": "提醒已發出，因此毋須後來紀錄也可證明效果。"
+          },
+          {
+            "id": "c",
+            "en": "A receptionist showed up at the clinic to send the reminder.",
+            "zh": "接待員到診所發送提醒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有後續紀錄才可說抽象效果開始顯現；仍要小心因果判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持「改動的效果 show up」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team announced a new timetable but has not collected any later observations.",
+            "zh": "團隊宣布新時間表，但尚未收集之後的觀察資料。"
+          },
+          {
+            "id": "b",
+            "en": "The next survey recorded fewer complaints about the revised route.",
+            "zh": "下一份調查錄得對修訂路線的投訴減少。"
+          },
+          {
+            "id": "c",
+            "en": "The monthly log recorded shorter queues after the new entrance opened.",
+            "zh": "新入口開放後，每月紀錄顯示輪候時間縮短。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有宣布改動，沒有後續跡象，尚不能說效果已顯現。"
+      },
+      "dialogue": {
+        "promptEn": "A: We adjusted the queue signs last month. The next report shows shorter waits at the same entrance. B: ______",
+        "promptZh": "甲：我們上月調整了排隊標示。下一份報告顯示同一入口的等候時間縮短。乙：______",
+        "options": [
+          {
+            "id": "a",
+            "en": "The signs were adjusted before the report was made.",
+            "zh": "標示是在報告完成前調整的。"
+          },
+          {
+            "id": "b",
+            "en": "We should compare the waiting-time records across the two periods.",
+            "zh": "我們應比較兩個時期的等候時間紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The difference showed up in the next report.",
+            "zh": "差異在下一份報告中顯現。"
+          },
+          {
+            "id": "d",
+            "en": "The shorter waits are worth reporting, with the dates attached.",
+            "zh": "等候時間縮短值得連同日期一併報告。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "四句均回應可見的前後紀錄；金句直接練習抽象差異顯現的用法。"
+      },
+      "speaking": {
+        "en": "After the repair team sealed the window, the difference showed up in the following week’s lower heating readings.",
+        "zh": "維修隊封好窗邊縫隙後，下一週的暖氣用量讀數較低，差異在數字中顯現。",
+        "promptZh": "說出改動及哪項後續數據顯示差異。",
+        "targetSpan": {
+          "start": 45,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：用兩個不同範疇的前後紀錄，說明一項抽象改善在哪裏顯現；不要只說有人到場。",
+        "selfCheckZh": "兩例都須交代改動、後續可見指標及必要的因果保留，不把宣布當成果。",
+        "examples": [
+          {
+            "en": "After the archive added clearer shelf numbers, the improvement showed up in fewer misfiled returns during the next count, though other causes still need checking.",
+            "zh": "檔案館加上更清楚的書架編號後，下一次點算發現錯放的歸還物品減少，改進效果在數字中顯現，但仍須核對其他可能原因。"
+          },
+          {
+            "en": "The school staggered bus departures, and the difference showed up in shorter queues in the following month’s transport log; other changes still need checking.",
+            "zh": "學校把校巴出發時間錯開；下個月的交通紀錄顯示隊伍縮短，差異在紀錄中顯現；其他變化仍須核對。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "clearer shelf numbers",
+            "zh": "更清楚的書架編號",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 45
+            }
+          },
+          {
+            "en": "fewer misfiled returns",
+            "zh": "較少錯放的歸還物品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 98
+            }
+          },
+          {
+            "en": "the next count",
+            "zh": "下一次點算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 120
+            }
+          },
+          {
+            "en": "staggered bus departures",
+            "zh": "錯開校巴出發時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 35
+            }
+          },
+          {
+            "en": "shorter queues",
+            "zh": "較短隊伍",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 83
+            }
+          },
+          {
+            "en": "the following month’s transport log",
+            "zh": "下個月的交通紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 122
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A difference shows up when a later measure makes it visible.",
+          "zh": "後來的指標顯示差異時，可說差異顯現。"
+        },
+        {
+          "en": "People may show up at a meeting; an effect shows up in the figures.",
+          "zh": "人可到場開會；效果則可在數字中顯現。"
+        }
+      ]
+    }
+  ]
+}

@@ -2761,12 +2761,12 @@
       "id": "advanced-native-1889",
       "number": 1889,
       "inventoryId": "expr-1889",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "stretch someone to breaking point",
       "titleZh": "把人推近難以承受的極限",
       "category": "idiom",
       "target": {
-        "pattern": "\\bstretch(?:es|ed|ing)? (?:them|us|me|her|him|you|someone) to breaking point\\b"
+        "pattern": "(?:\\bstretch(?:es|ed|ing)? (?:them|us|me|her|him|you|someone) to breaking point\\b)|(?:\\b(?:is|are|was|were|be|been|being) stretched to breaking point\\b)"
       },
       "sources": [
         {
@@ -2782,12 +2782,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "stretching them to breaking point",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1734",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 163,
+          "book": 14,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 175, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The hospital was stretched to breaking point.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stretched to breaking point"
         }
       ],
       "brief": {
-        "meaningEn": "Put someone under such heavy demands that they are close to being unable to cope.",
-        "meaningZh": "加上很重的要求或壓力，使人接近無法再承受的極限。",
-        "grammar": "risk stretching someone to breaking point; demands stretched them to breaking point; the strain image describes severity, not necessarily an already completed collapse.",
+        "meaningEn": "Put a person or essential service under such heavy demands that they are close to being unable to cope or operate.",
+        "meaningZh": "使人或必要服務承受極大壓力，接近無法應付或運作的程度。",
+        "grammar": "stretch a person to breaking point / be stretched to breaking point; heavy demands can bring a person or an essential service close to being unable to cope, without proving an actual collapse.",
         "register": "neutral",
         "boundaryZh": "比一般忙碌強烈，需有負荷接近極限的線索；不是判斷人格軟弱，也不單憑此斷定已發生特定健康結果。",
         "misconceptionZh": "比一般忙碌強烈，需有負荷接近極限的線索；不是判斷人格軟弱，也不單憑此斷定已發生特定健康結果。",
@@ -2992,8 +3006,8 @@
           "zh": "還未談另一任務，兼顧早上送件及晚上準備，已把她推近承受極限。"
         },
         {
-          "en": "They worried that the repeated last-minute changes would stretch them to breaking point while the original commitments remained.",
-          "zh": "原有承諾仍在時，他們擔心反覆臨時改動會把自己推近承受極限。"
+          "en": "During the winter surge, the small clinic was stretched to breaking point by extra admissions.",
+          "zh": "冬季求診高峰期間，額外收症令這間小診所幾乎不勝負荷。"
         }
       ],
       "review": {

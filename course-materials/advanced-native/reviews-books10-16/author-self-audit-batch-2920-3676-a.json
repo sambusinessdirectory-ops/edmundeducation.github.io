@@ -1,0 +1,153 @@
+{
+  "auditKind": "author-self-audit-unselected-nine",
+  "createdUtc": "2026-10-23T16:56:41.801328+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2920-2956-a.json",
+      "sha256": "a4ef0fa5ddde6c0930e6becdb0e5398fa14e08fbed6dd22ad12872325e328f8a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json",
+      "sha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3564-3676-a.json",
+      "sha256": "d27898c6d7bb5f1efcf9fbf5a9304191ee2b3ac13285df5fd7dd8912842b6b33"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "e3763c6ae1ffcbb31b4d290c4a989759bfda247e9da2ec52d3df16f470199d1a",
+  "focusedBuildAndCheck": "PASS: 9 lessons, 54 questions, 36 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 234,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 12
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "0 guide overlaps beyond ordinary idiom use"
+  },
+  "semanticNotes": {
+    "3487": "Prominent attention dominance differs from prior make-headlines occurrence.",
+    "3572": "Child participation is distinguished from final adult safety authority.",
+    "all": "Every lesson has two changed-context writing examples and four independently valid reply options by author judgment; independent review pending."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 2920,
+      "sourceId": "book10-16-0809",
+      "sourceExpression": "less really is more",
+      "sourceExample": "With clear instructions, less really is more.",
+      "draftFile": "batch-2920-2956-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2924,
+      "sourceId": "book10-16-0813",
+      "sourceExpression": "throw a party",
+      "sourceExample": "They plan to throw a party after graduation.",
+      "draftFile": "batch-2920-2956-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2956,
+      "sourceId": "book10-16-0845",
+      "sourceExpression": "picking up the pieces afterwards",
+      "sourceExample": "The celebration is not worth picking up the pieces afterwards.",
+      "draftFile": "batch-2920-2956-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 2961,
+      "sourceId": "book10-16-0850",
+      "sourceExpression": "more show than substance",
+      "sourceExample": "The costly event felt more show than substance.",
+      "draftFile": "batch-2961-3487-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 3487,
+      "sourceId": "book10-16-1376",
+      "sourceExpression": "grabs the headlines",
+      "sourceExample": "Celebrity news grabs the headlines.",
+      "draftFile": "batch-2961-3487-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 3564,
+      "sourceId": "book10-16-1453",
+      "sourceExpression": "from the top down",
+      "sourceExample": "The timetable was imposed from the top down.",
+      "draftFile": "batch-3564-3676-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 3572,
+      "sourceId": "book10-16-1461",
+      "sourceExpression": "in the driver's seat",
+      "sourceExample": "Children should not be entirely in the driver's seat on safety rules.",
+      "draftFile": "batch-3564-3676-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 3658,
+      "sourceId": "book10-16-1547",
+      "sourceExpression": "now and then",
+      "sourceExample": "We buy new shoes now and then.",
+      "draftFile": "batch-3564-3676-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 3676,
+      "sourceId": "book10-16-1565",
+      "sourceExpression": "fresh start rather than a setback",
+      "sourceExample": "The move became a fresh start rather than a setback.",
+      "draftFile": "batch-3564-3676-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

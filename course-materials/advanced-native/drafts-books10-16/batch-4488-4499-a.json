@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4488",
+      "number": 4488,
+      "inventoryId": "expr-4488",
+      "titleEn": "changes shape",
+      "titleZh": "形式隨環境改變",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:change|changes|changed|changing) shape\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Take a different form as circumstances or cultural setting change while some purpose may continue.",
+        "meaningZh": "隨環境或文化背景轉變而呈現不同形式，核心目的可能仍在。",
+        "grammar": "Change shape; change inflects changed/changing. The shape is figurative when referring to an event, practice or role.",
+        "register": "Neutral reflective English. A cultural organiser may use it when a shared celebration adapts to a new venue.",
+        "boundaryZh": "須有可指出的形式差異；只換日期而內容、參與方式全不變，不足以說形式改變。",
+        "misconceptionZh": "不是物件一定真的變形，也不表示新形式必然背離原有目的。",
+        "outcomeZh": "能說出原形式、新形式及可能延續的核心。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2377",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 224,
+          "book": 16,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 247, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A festival changes shape when it enters a new culture.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "changes shape"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "A neighbourhood reading circle moved into a radio programme when its meeting room closed. Readers now record short passages and discuss them by phone. The circle changed shape, but its shared reading continued.",
+        "zh": "鄰里閱讀小組因會議室關閉而轉成電台節目。成員如今錄短段落並透過電話討論。小組改變形式，但共同閱讀仍延續。",
+        "promptZh": "甚麼顯示形式改變？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group moved from in-person meetings to recorded readings and calls.",
+            "zh": "小組由面對面聚會改為錄音與電話討論。"
+          },
+          {
+            "id": "b",
+            "en": "The same members met in the same room as before.",
+            "zh": "同一批成員仍在原房間照舊聚會。"
+          },
+          {
+            "id": "c",
+            "en": "The group stopped reading anything together.",
+            "zh": "小組完全停止共同閱讀。"
+          },
+          {
+            "id": "d",
+            "en": "Only the calendar date changed, with all activities identical.",
+            "zh": "只有日曆日期改了，活動全同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "參與媒介與討論方式都改變，核心閱讀仍在。"
+      },
+      "reply": {
+        "promptEn": "A town’s lantern workshop used to gather in one hall. After moving outdoors, residents now build smaller lanterns at several street tables and join them in one evening display. What happened to the workshop?",
+        "promptZh": "（城鎮燈籠工作坊原在一個禮堂進行；移到戶外後，居民在多個街頭桌子製作較小燈籠，晚上再合併展示。工作坊有何轉變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its format shifted from one hall to several tables.",
+            "zh": "形式由一個禮堂變成多張街頭桌子。"
+          },
+          {
+            "id": "b",
+            "en": "Residents still make lanterns together.",
+            "zh": "居民仍共同製作燈籠。"
+          },
+          {
+            "id": "c",
+            "en": "The workshop changed shape while keeping its purpose.",
+            "zh": "工作坊改變形式，同時保留原本目的。"
+          },
+          {
+            "id": "d",
+            "en": "The size and final display are now different.",
+            "zh": "燈籠大小及最後展示方式不同了。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據新舊形式及延續的共同製作回答。"
+      },
+      "scene": {
+        "promptZh": "舞蹈班原以一大組在室內排練，改在公園後分成小隊輪流示範，但仍教授相同步法。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The class changed shape in the new setting.",
+            "zh": "課堂在新環境中改變形式。"
+          },
+          {
+            "id": "b",
+            "en": "The class kept every detail of its old format.",
+            "zh": "課堂保留舊形式的每個細節。"
+          },
+          {
+            "id": "c",
+            "en": "No one taught the dance after the move.",
+            "zh": "搬走後無人再教授舞蹈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "小隊輪流示範與舊大組形式不同。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an activity changed shape？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The meeting moves from Tuesday to Wednesday but keeps the same place, people and method.",
+            "zh": "會議由星期二改為星期三，但地點、人員及方法全同。"
+          },
+          {
+            "id": "b",
+            "en": "A workshop moves from one long lecture to short hands-on stations.",
+            "zh": "工作坊由一場長講座變成多個短實作站。"
+          },
+          {
+            "id": "c",
+            "en": "A performance becomes an audio series with a different way for listeners to join.",
+            "zh": "演出變成聲音系列，聽眾參與方式不同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單純改日期而活動形式不變。"
+      },
+      "dialogue": {
+        "promptEn": "A: The heritage tour used to be one long walk; now it uses short audio stops so visitors with limited mobility can join the same stories. B: ______",
+        "promptZh": "（甲：文化導賞以前是一段長路線；如今改成多個短聲音站，行動不便訪客也可參與相同故事。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The way people join the tour is different.",
+            "zh": "大家參與導賞的方法不同了。"
+          },
+          {
+            "id": "b",
+            "en": "The stories still connect the stops.",
+            "zh": "故事仍串連各站。"
+          },
+          {
+            "id": "c",
+            "en": "The tour changed shape to widen access.",
+            "zh": "導賞改變形式，讓更多人參與。"
+          },
+          {
+            "id": "d",
+            "en": "Short stops may let more visitors follow the route.",
+            "zh": "短站點或可讓更多訪客跟上路線。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括形式改變與目的延續。"
+      },
+      "speaking": {
+        "en": "The local debate changed shape when it moved from a stage panel to small tables, but residents still compared proposals and recorded questions.",
+        "zh": "本地辯論由台上座談改成小組桌談，形式改變，但居民仍比較提案並記錄問題。",
+        "promptZh": "指出新形式與延續功能。",
+        "targetSpan": {
+          "start": 17,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項活動因環境改變而換成新形式，同時至少保留一項原來目的。用英文寫出前後。",
+        "selfCheckZh": "兩例不能只改日期而說形式不同。",
+        "examples": [
+          {
+            "en": "The school science fair changed shape when experiments moved to small courtyard stations; pupils still explained their results to visitors.",
+            "zh": "學校科學展把實驗移到庭院小站，形式改變，但學生仍向訪客解釋結果。"
+          },
+          {
+            "en": "After the harvest celebration reached a coastal community with different food customs, it changed shape: families added local seaweed dishes to the shared meal while keeping its thanksgiving ritual.",
+            "zh": "豐收慶典傳到飲食習俗不同的海邊社區後改變形式：各家庭在共餐加入本地海藻菜式，同時保留感謝收成的儀式。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "small courtyard stations",
+            "zh": "庭院小站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 88
+            }
+          },
+          {
+            "en": "explained their results",
+            "zh": "解釋結果",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 126
+            }
+          },
+          {
+            "en": "different food customs",
+            "zh": "不同飲食習俗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 85
+            }
+          },
+          {
+            "en": "local seaweed dishes",
+            "zh": "本地海藻菜式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Change shape means take a different form.",
+          "zh": "change shape 指呈現不同形式。"
+        },
+        {
+          "en": "An event can change shape and still keep its central purpose.",
+          "zh": "活動可改變形式，同時保留核心目的。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4492",
+      "number": 4492,
+      "inventoryId": "expr-4492",
+      "titleEn": "built to last",
+      "titleZh": "為耐用而製",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbuilt to last\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Designed and made to remain useful over time, with durable materials or repairable construction.",
+        "meaningZh": "以耐用材料或可維修結構製成，旨在長時間保持可用。",
+        "grammar": "Be built to last is a fixed passive phrase. It refers to durability, not simply heavy weight or an object’s age.",
+        "register": "Neutral everyday English. A repairer may use it when showing how a product’s replaceable parts support long use.",
+        "boundaryZh": "須有耐用設計或長期使用證據；只因物件很重或看起來舊，不足以證明。",
+        "misconceptionZh": "不是保證永不壞，也不等於「built like a tank」所強調的格外厚重結構；此句重點是長期可用。",
+        "outcomeZh": "能指出材料、維修設計或使用年期的證據，避免誇稱永久不壞。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2381",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 225,
+          "book": 16,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 248, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The old table was built to last.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "built to last"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The community workshop has used the same adjustable benches for twenty years. Their joints can be tightened and damaged boards replaced without discarding the frame. The benches were built to last, though they still need maintenance.",
+        "zh": "社區工場二十年來使用同一批可調工作枱。接合處可重新鎖緊，壞木板可更換，不用棄掉框架。工作枱為耐用而製，但仍需保養。",
+        "promptZh": "甚麼支持耐用的判斷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Replaceable parts and continued use over twenty years.",
+            "zh": "可更換零件與二十年的持續使用。"
+          },
+          {
+            "id": "b",
+            "en": "The benches are heavy but cannot be repaired.",
+            "zh": "工作枱很重，卻無法維修。"
+          },
+          {
+            "id": "c",
+            "en": "A promise that no part will ever wear out.",
+            "zh": "承諾任何零件永不磨損。"
+          },
+          {
+            "id": "d",
+            "en": "The workshop bought them only yesterday.",
+            "zh": "工場昨天才購買。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可維修結構與長期使用提供證據。"
+      },
+      "reply": {
+        "promptEn": "A library still uses its old metal book trolleys. The wheels can be replaced separately, and repaired trolleys have served for many years. How were they designed?",
+        "promptZh": "（圖書館仍用舊金屬書車；輪子可單獨更換，修好的書車已服務多年。它們的設計有何特點？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They can remain useful through part replacement.",
+            "zh": "更換零件後可繼續使用。"
+          },
+          {
+            "id": "b",
+            "en": "Their repairable structure supports long service.",
+            "zh": "可維修結構支持長期使用。"
+          },
+          {
+            "id": "c",
+            "en": "They were built to last.",
+            "zh": "它們為耐用而製。"
+          },
+          {
+            "id": "d",
+            "en": "Their age is supported by evidence of continued use, not weight alone.",
+            "zh": "其耐用有持續使用證據，不只靠重量判斷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據可維修與長期使用回答。"
+      },
+      "scene": {
+        "promptZh": "社區中心舊椅子用了十五年，螺絲及布墊可更換，框架仍穩固。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chairs were built to last.",
+            "zh": "椅子為耐用而製。"
+          },
+          {
+            "id": "b",
+            "en": "They are durable solely because they are heavy.",
+            "zh": "它們只因沉重便耐用。"
+          },
+          {
+            "id": "c",
+            "en": "Every part must remain unchanged forever.",
+            "zh": "每個零件必須永不更換。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可換零件與多年使用支持長期可用。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以證明 an item was built to last？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A newly bought cabinet feels heavy, but nobody knows its materials, repairs or long-term use.",
+            "zh": "新買櫃子感覺沉重，但無人知道材料、維修能力或長期使用表現。"
+          },
+          {
+            "id": "b",
+            "en": "A tool remains useful for decades and has replaceable worn parts.",
+            "zh": "工具用了數十年仍可用，磨損零件可更換。"
+          },
+          {
+            "id": "c",
+            "en": "A bench has robust joinery and stays in service after ordinary repairs.",
+            "zh": "工作枱接合穩固，普通維修後仍可使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單靠重量與新購外觀，未能推斷長期耐用。"
+      },
+      "dialogue": {
+        "promptEn": "A: The old sewing machines still work after years of repairs; their belts and needles can be replaced without discarding the frames. B: ______",
+        "promptZh": "（甲：舊縫紉機多年維修後仍能用；皮帶及針可更換，不用棄掉機架。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their parts are designed for repair.",
+            "zh": "零件方便維修。"
+          },
+          {
+            "id": "b",
+            "en": "They have remained useful over many years.",
+            "zh": "多年來它們仍可使用。"
+          },
+          {
+            "id": "c",
+            "en": "They were built to last.",
+            "zh": "它們為耐用而製。"
+          },
+          {
+            "id": "d",
+            "en": "Maintenance is part of why they still work.",
+            "zh": "保養是它們仍能運作的原因之一。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句以設計和使用證據描述耐用。"
+      },
+      "speaking": {
+        "en": "The school’s drafting tables were built to last: even after many classes, staff could replace the hinges and keep the sturdy tops in service.",
+        "zh": "學校繪圖桌為耐用而製：上了多年課後，員工仍可更換鉸鏈，繼續使用穩固桌面。",
+        "promptZh": "指出可維修與持續用途。",
+        "targetSpan": {
+          "start": 34,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件物品有材料或可維修設計的證據，可長時間使用。用英文寫出證據與保養界線。",
+        "selfCheckZh": "兩例不能只因重或舊便斷言耐用，也不能說永遠不會壞。",
+        "examples": [
+          {
+            "en": "The shared garden carts were built to last: their wheels can be replaced, and the steel frames remain sound after twelve seasons.",
+            "zh": "共用花園手推車為耐用而製：輪子可更換，鋼框架用了十二季仍穩固。"
+          },
+          {
+            "en": "These classroom stools are built to last because repairers can renew the joints and the solid seats have stayed usable for years.",
+            "zh": "這批教室凳子為耐用而製，因為維修人員可修接合處，實木座多年仍可用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheels can be replaced",
+            "zh": "輪子可更換",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 72
+            }
+          },
+          {
+            "en": "steel frames",
+            "zh": "鋼框架",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "twelve seasons",
+            "zh": "十二季",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 128
+            }
+          },
+          {
+            "en": "renew the joints",
+            "zh": "修接合處",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 79
+            }
+          },
+          {
+            "en": "solid seats",
+            "zh": "實木座",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 99
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Built to last means made for long useful service.",
+          "zh": "built to last 指為長期可用而製。"
+        },
+        {
+          "en": "Replaceable parts can show why an item was built to last.",
+          "zh": "可更換零件可顯示物件為何耐用。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4497",
+      "number": 4497,
+      "inventoryId": "expr-4497",
+      "titleEn": "old-world charm",
+      "titleZh": "古雅魅力",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bold-world charm\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attractive character associated with older design, craftsmanship or atmosphere.",
+        "meaningZh": "由舊式設計、工藝或氛圍帶來的吸引力。",
+        "grammar": "Old-world charm is an uncountable noun phrase; old-world takes a hyphen before charm. Give the specific feature producing the appeal.",
+        "register": "Neutral descriptive English. A visitor may use it when praising a restored public hall.",
+        "boundaryZh": "須有具體舊式特徵令人欣賞；只是破舊或功能失靈，不等於有古雅魅力。",
+        "misconceptionZh": "不是說物件來自另一個世界，也不代表舊式設施不需改善安全與無障礙。",
+        "outcomeZh": "能指出帶來古雅感的細節，並分清吸引力與維修需要。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2386",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 225,
+          "book": 16,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 248, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The cabinet has old-world charm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "old-world charm"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The restored station hall kept its carved ticket windows and patterned floor tiles. Visitors praised its old-world charm, while the operator also installed a step-free entrance.",
+        "zh": "修復後車站大堂保留雕花售票窗與花紋地磚。訪客讚賞其古雅魅力，營運者也加設無梯級入口。",
+        "promptZh": "甚麼帶來古雅魅力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The carved windows and patterned tiles.",
+            "zh": "雕花窗與花紋地磚。"
+          },
+          {
+            "id": "b",
+            "en": "A broken lift that prevents some visitors entering.",
+            "zh": "壞掉的升降機令部分訪客無法進入。"
+          },
+          {
+            "id": "c",
+            "en": "An empty room with all historic details removed.",
+            "zh": "所有歷史細節被移走的空房間。"
+          },
+          {
+            "id": "d",
+            "en": "A promise that repairs are never needed.",
+            "zh": "承諾永遠不需維修。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體舊式裝飾帶來吸引力。"
+      },
+      "reply": {
+        "promptEn": "A small theatre restores its timber balcony and hand-painted signs while upgrading the fire exits. Audiences admire the older details. What can they say about the theatre’s character and the safety upgrade?",
+        "promptZh": "（小劇院修復木製露台與手繪標示，同時改善消防出口；觀眾欣賞舊式細節。他們可如何描述劇院特色與安全改善？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The older craftsmanship gives it a distinctive appeal.",
+            "zh": "舊式工藝令它別具吸引力。"
+          },
+          {
+            "id": "b",
+            "en": "The restored signs and balcony add character.",
+            "zh": "修復的標示與露台增添特色。"
+          },
+          {
+            "id": "c",
+            "en": "It has old-world charm.",
+            "zh": "它有古雅魅力。"
+          },
+          {
+            "id": "d",
+            "en": "The exit upgrade can coexist with the old design.",
+            "zh": "改善出口可與舊設計並存。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據舊式特徵與安全改善回答。"
+      },
+      "scene": {
+        "promptZh": "修復的圖書室保留木書架與手工銅燈，同時改善照明及無障礙通道。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The room has old-world charm.",
+            "zh": "房間有古雅魅力。"
+          },
+          {
+            "id": "b",
+            "en": "Its appeal comes solely from damaged wiring.",
+            "zh": "魅力只來自損壞電線。"
+          },
+          {
+            "id": "c",
+            "en": "Accessibility improvements erase all historic character.",
+            "zh": "無障礙改善抹掉所有歷史特色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "木書架及銅燈帶來舊式吸引力。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a place has old-world charm？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A room is merely neglected, with unsafe wiring and no distinct older design features.",
+            "zh": "房間只是失修、電線不安全，沒有可辨認的舊式設計特色。"
+          },
+          {
+            "id": "b",
+            "en": "A restored hall keeps carved doors and original mosaic flooring.",
+            "zh": "修復大堂保留雕花門與原有馬賽克地板。"
+          },
+          {
+            "id": "c",
+            "en": "A café preserves hand-painted signs and polished timber counters.",
+            "zh": "咖啡店保留手繪標示及打磨木櫃檯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "純粹破舊與危險不等於古雅吸引力。"
+      },
+      "dialogue": {
+        "promptEn": "A: The old ferry terminal kept its stone arches and brass signs after restoration, but now has a safe ramp too. B: ______",
+        "promptZh": "（甲：舊渡輪碼頭修復後保留石拱與黃銅標示，也有安全斜道。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those preserved details give the terminal character.",
+            "zh": "保留的細節令碼頭別具特色。"
+          },
+          {
+            "id": "b",
+            "en": "The ramp does not remove the appeal of the old design.",
+            "zh": "斜道沒有抹掉舊設計魅力。"
+          },
+          {
+            "id": "c",
+            "en": "It still has old-world charm.",
+            "zh": "它仍有古雅魅力。"
+          },
+          {
+            "id": "d",
+            "en": "The arches and signs provide concrete reasons to praise it.",
+            "zh": "石拱與標示是欣賞它的具體理由。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句以舊式細節說明吸引力。"
+      },
+      "speaking": {
+        "en": "The reading room’s old-world charm came from its carved shelving and stained glass, not from the broken heater that staff later repaired.",
+        "zh": "閱讀室的古雅魅力來自雕花書架與彩色玻璃，而非後來修好的壞暖爐。",
+        "promptZh": "分清舊式特色與失修問題。",
+        "targetSpan": {
+          "start": 19,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩處地方各保留令人欣賞的舊式工藝，同時也作出需要的現代改善。用英文寫出細節與改動。",
+        "selfCheckZh": "兩例不能把危險或失修當作魅力來源。",
+        "examples": [
+          {
+            "en": "The community hall has old-world charm in its carved doors and painted ceiling, while new lighting makes the stage safer.",
+            "zh": "社區禮堂的雕花門與彩繪天花帶來古雅魅力，新照明則令舞台更安全。"
+          },
+          {
+            "en": "Old-world charm survives in the café’s tiled counter and hand-lettered sign, even after staff add a step-free entrance.",
+            "zh": "咖啡店的瓷磚櫃檯與手寫招牌保留古雅魅力，員工亦加設無梯級入口。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "carved doors",
+            "zh": "雕花門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 58
+            }
+          },
+          {
+            "en": "painted ceiling",
+            "zh": "彩繪天花",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 78
+            }
+          },
+          {
+            "en": "new lighting",
+            "zh": "新照明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 98
+            }
+          },
+          {
+            "en": "tiled counter",
+            "zh": "瓷磚櫃檯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 52
+            }
+          },
+          {
+            "en": "step-free entrance",
+            "zh": "無梯級入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Old-world charm is appeal from older design or craftsmanship.",
+          "zh": "old-world charm 指舊式設計或工藝帶來的吸引力。"
+        },
+        {
+          "en": "A building can keep old-world charm while improving access.",
+          "zh": "建築改善無障礙設施後仍可保留古雅魅力。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4499",
+      "number": 4499,
+      "inventoryId": "expr-4499",
+      "titleEn": "built like a tank",
+      "titleZh": "結實得像坦克",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbuilt like a tank\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Exceptionally solid and robust in physical construction; an object need not be especially heavy.",
+        "meaningZh": "物理結構格外堅固結實，但不一定特別沉重。",
+        "grammar": "Be built like a tank is an informal simile for very solid construction. Weight can vary. Contrast built to last, which focuses on long useful service rather than physical robustness.",
+        "register": "Informal conversational English. A technician may say it about an unusually thick-cased machine.",
+        "boundaryZh": "須有實際堅固或加固結構證據；物件可重也可輕。只是多年未壞、卻沒有結構證據，較適合 built to last。",
+        "misconceptionZh": "不是由真正坦克零件製成，也不保證永遠不壞；重量並非這比喻的必要條件。",
+        "outcomeZh": "能指出厚實外殼、加固接縫等結構證據，並分清堅固與重量、長壽命的不同。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2388",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 225,
+          "book": 16,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "79–80",
+          "locatorNote": "DOCX table 248, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The old refrigerator was built like a tank.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "built like a tank"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 4,
+      "listening": {
+        "en": "The portable projector had a steel case, thick corner guards and a handle that needed two people to lift. The technician laughed that it was built like a tank, though its weight made setup slower.",
+        "zh": "便攜投影機有鋼外殼、厚護角，手柄要兩人才能抬起。技師笑說它結實得像坦克，雖然重量令佈置較慢。",
+        "promptZh": "為何技師用這比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its thick protected case and weight show unusual physical robustness.",
+            "zh": "厚保護外殼與重量顯示格外結實。"
+          },
+          {
+            "id": "b",
+            "en": "The projector is light enough for a child to carry.",
+            "zh": "投影機輕得小孩也能搬。"
+          },
+          {
+            "id": "c",
+            "en": "It has no protective casing or sturdy corners.",
+            "zh": "它沒有保護外殼或穩固護角。"
+          },
+          {
+            "id": "d",
+            "en": "The technician proved it can never break.",
+            "zh": "技師證明它永遠不會壞。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比喻指厚實堅固，也可能笨重。"
+      },
+      "reply": {
+        "promptEn": "A film crew’s field recorder has a heavy metal shell and thick rubber bumpers. It survives ordinary knocks, but needs a trolley for long moves. What can crew members say about its construction and the limits of this comparison?",
+        "promptZh": "（攝製隊的野外錄音機有沉重金屬殼與厚橡膠防撞條，能承受一般碰撞，但長距離搬運要手推車。成員可如何描述其結構，以及這比喻的界線？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The casing is unusually solid.",
+            "zh": "外殼格外結實。"
+          },
+          {
+            "id": "b",
+            "en": "Its bulk protects it but makes transport harder.",
+            "zh": "厚重結構保護它，也令搬運較難。"
+          },
+          {
+            "id": "c",
+            "en": "It is built like a tank.",
+            "zh": "它結實得像坦克。"
+          },
+          {
+            "id": "d",
+            "en": "The description concerns physical construction, not a lifetime guarantee.",
+            "zh": "描述重點是物理結構，不是保證永不壞。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按厚重外殼、防撞與搬運代價回答。"
+      },
+      "scene": {
+        "promptZh": "小型野外相機有加固外殼和結實接縫，普通跌碰後仍完好，但一人可輕鬆拿起。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The camera is built like a tank despite being compact.",
+            "zh": "相機雖小巧，卻結實得像坦克。"
+          },
+          {
+            "id": "b",
+            "en": "The camera must be heavy before its reinforced case matters.",
+            "zh": "相機必須很重，加固外殼才有意義。"
+          },
+          {
+            "id": "c",
+            "en": "The casing is decorative and has no protective role.",
+            "zh": "外殼只是裝飾，沒有保護作用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "加固外殼與結實接縫支持堅固比喻；重量不是必要條件。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an item is built like a tank？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A slim recorder has light casing and no reinforced corners, though it has worked reliably for years.",
+            "zh": "錄音機機身纖薄輕巧，沒有加固護角，雖然多年可靠。"
+          },
+          {
+            "id": "b",
+            "en": "A heavy device has a thick steel shell and reinforced edges.",
+            "zh": "重型裝置有厚鋼殼與加固邊緣。"
+          },
+          {
+            "id": "c",
+            "en": "A field box is bulky, impact-resistant and awkward to carry.",
+            "zh": "野外箱子厚重、防撞，搬運不便。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期可靠不等於厚實如坦克。"
+      },
+      "dialogue": {
+        "promptEn": "A: That old scanning machine has a thick metal frame and huge guards. Three of us had to move it, though its frame survived several workshop knocks. B: ______",
+        "promptZh": "（甲：舊掃描機有厚金屬框與大護板；我們三人才能搬動，機架也捱過工場幾次碰撞。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its frame sounds unusually robust.",
+            "zh": "機架聽來格外堅固。"
+          },
+          {
+            "id": "b",
+            "en": "That bulk also makes it hard to move.",
+            "zh": "厚重結構也令它難搬。"
+          },
+          {
+            "id": "c",
+            "en": "It sounds built like a tank.",
+            "zh": "它聽來結實得像坦克。"
+          },
+          {
+            "id": "d",
+            "en": "The guards provide visible protection against knocks.",
+            "zh": "護板提供可見的防撞保護。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指格外厚重堅固的物理結構。"
+      },
+      "speaking": {
+        "en": "With its thick steel shell and protected switches, the ticket machine looked built like a tank; two workers still needed a trolley to move it.",
+        "zh": "售票機有厚鋼殼與受保護的開關，看起來結實得像坦克；兩名工人仍要用手推車搬。",
+        "promptZh": "指出厚重保護及重量代價。",
+        "targetSpan": {
+          "start": 77,
+          "end": 94
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件裝置各有可見的加固結構並能應付普通碰撞；其中一件可以厚重，另一件不必沉重。用英文寫出具體證據。",
+        "selfCheckZh": "兩例不能單憑使用多年套用坦克比喻，也不可把重量列為必需。",
+        "examples": [
+          {
+            "en": "The outdoor control box was built like a tank: its steel corners resisted repeated knocks, but the crew needed a trolley to move it.",
+            "zh": "戶外控制箱有鋼護角，能承受多次碰撞，結實得像坦克，但工作組要用手推車搬。"
+          },
+          {
+            "en": "The handheld survey meter looked built like a tank with its reinforced seams and shock-resistant case, although it still fit in one hand.",
+            "zh": "手持測量器有加固接縫與防撞外殼，看來結實得像坦克，但一隻手仍可拿起。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "steel corners",
+            "zh": "鋼護角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 64
+            }
+          },
+          {
+            "en": "repeated knocks",
+            "zh": "多次碰撞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 89
+            }
+          },
+          {
+            "en": "a trolley",
+            "zh": "手推車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 120
+            }
+          },
+          {
+            "en": "reinforced seams",
+            "zh": "加固接縫",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 76
+            }
+          },
+          {
+            "en": "shock-resistant case",
+            "zh": "防撞外殼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 101
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Built like a tank means exceptionally solid and often bulky.",
+          "zh": "built like a tank 指格外堅固，而且往往厚重。"
+        },
+        {
+          "en": "A machine built like a tank may resist knocks but be hard to carry.",
+          "zh": "結實得像坦克的機器或能防撞，卻難搬運。"
+        }
+      ]
+    }
+  ]
+}

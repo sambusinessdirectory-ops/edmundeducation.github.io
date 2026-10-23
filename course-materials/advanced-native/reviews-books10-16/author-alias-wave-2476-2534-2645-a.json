@@ -1,0 +1,69 @@
+{
+  "auditKind": "author-three-held-to-existing-source-frame-aliases",
+  "createdUtc": "2026-10-23T17:38:02.358155+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2476,
+      "sourceId": "book10-16-0365",
+      "sourceExpression": "the ground shifting under their feet",
+      "sourceExample": "Workers felt the ground shifting under their feet as the industry changed.",
+      "sourceMeaning": "Basic conditions changing in an unsettling way; a fixed ground metaphor.",
+      "canonicalOwner": "advanced-native-2026",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-2026-2050.json",
+      "canonicalBatchSha256": "4ec7169653a9c36db1f11de38f1b3e9064c02faa1a32c4dc0d581f2dd1c1f284",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "9b6b4a73f7df18922a4670d5400bcb4ba6142996e7ee35ad708d3f3f7ed64737",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Workers feeling “the ground shifting under their feet” as an industry changes uses the same destabilised-familiar-conditions metaphor as canonical 2026 “the ground is shifting under their feet”. The source omits the copula under felt, a grammatical frame rather than a distinct meaning. The owner now teaches both natural forms, contains a new transfer context and retains exact source provenance."
+    },
+    {
+      "sourceOrdinal": 2534,
+      "sourceId": "book10-16-0423",
+      "sourceExpression": "passes those stories on",
+      "sourceExample": "She passes those stories on to her children.",
+      "sourceMeaning": "Transmits stories to another generation; a natural phrasal verb.",
+      "canonicalOwner": "advanced-native-1326",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "canonicalBatchSha256": "685b645879abbf1fe655dd465d4ece563e212839c2872df11d2c7eef8ef6b1e0",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "1d0f965f9a294d4c277593f1e28010793966ced4ed533b88fb3eed21fe5a5c7d",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The source “passes those stories on to her children” uses the same transmission phrasal verb as canonical 1326 “pass on values / experience and tradition”. Stories are the transmitted object; separable object placement is already part of that verb’s grammar, not a distinct sense. The owner now includes stories and exact source provenance."
+    },
+    {
+      "sourceOrdinal": 2645,
+      "sourceId": "book10-16-0534",
+      "sourceExpression": "deep roots here",
+      "sourceExample": "The festival has deep roots here.",
+      "sourceMeaning": "A long-established cultural connection; a plant metaphor.",
+      "canonicalOwner": "advanced-native-1471",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1451-1475.json",
+      "canonicalBatchSha256": "9f7a3a610d2603d2bb37ae05b78acd1e0f17b24266d022f671ec362a7b94ffe4",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "5f92d6ed6369de2fe2619365f2e58ccb2f0aafb25f337adf7f9ee6e402705552",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The festival having “deep roots here” is the same long-established connection metaphor as canonical 1471 “deep roots in family life”; here identifies a local place rather than family life, not a separate image or outcome. The owner now teaches both contexts and records exact source provenance."
+    }
+  ],
+  "reviewNotes": [
+    "2476 omits the finite copula after feel, while canonical 2026 expresses the same unsettling change of familiar conditions. New housing-grant context rehearses the felt form.",
+    "2534 uses separable pass those stories on instead of pass on values/tradition. The transmission act is unchanged; a new park-volunteer context rehearses the story object. Canonical 1326 keyed scene was made target-bearing in EN/ZH.",
+    "2645 changes the location complement from in family life to here but retains the same long-established local/cultural roots metaphor; new workshop context rehearses here."
+  ],
+  "focusedBuildCheck": "PASS: 3 canonical batches, 68 lessons, 408 questions, 272 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 intake/decision rows, zero source gaps, whole-catalogue schema errors, selected alias detector exceptions, exact guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

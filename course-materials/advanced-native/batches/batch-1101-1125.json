@@ -1884,9 +1884,9 @@
       "titleEn": "cut down on",
       "titleZh": "減少某事的量或頻次",
       "category": "phrasal-verb",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bcut(?:s|ting)? down on\\b",
+        "pattern": "\\bcut(?:s|ting)? down on\\b|\\bcut(?:s|ting)? down (?:the )?time\\b",
         "glossaryForbidden": [
           "\\bcut(?:s|ting)? down on\\b"
         ]
@@ -1930,13 +1930,27 @@
           "sentence": "The school wants to cut down on food waste.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "cut down on"
+        },
+        {
+          "occurrenceId": "book10-16-0314",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 29,
+          "book": 10,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The shortcut helped cut down the time needed for review.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cut down the time"
         }
       ],
       "brief": {
         "meaningEn": "Reduce the amount, frequency or use of something.",
         "meaningZh": "減少某事物的數量、頻次或使用。",
-        "grammar": "cut/cuts/is cutting down on + noun/-ing; cut is also past tense. Keep down on together before the object in this reduction sense; cutting down a tree is a different pattern.",
-        "register": "Common reduction phrasal verb. Cutting down does not necessarily mean eliminating completely, and the intended benefit needs contextual support.",
+        "grammar": "cut/cuts/is cutting down on + noun/-ing reduces the amount or frequency of something; cut down the time needed for + task is a transitive time-reduction frame. Cut is also past tense. Cutting down a tree is a different sense.",
+        "register": "A colleague proposing a measured efficiency change to teammates can use either neutral reduction frame; name what time or resource is reduced and what essential work remains.",
         "boundaryZh": "減少不等於完全停止，也不從一句推減了多少或效果已證；需有比較範圍。",
         "misconceptionZh": "可保留必要部分，追蹤改動是否合用；不要把少了當每種需求都消失。",
         "outcomeZh": "能清楚說減少甚麼及保留甚麼，提出可檢視的安排。"
@@ -2144,8 +2158,8 @@
           "zh": "團隊先查幫手實際需哪些副本，再減少重複打印。"
         },
         {
-          "en": "She is cutting down on repeated introductions in the booklet while keeping the different speakers’ names clear.",
-          "zh": "她正在小冊減少重複介紹，同時保留清楚的各講者名字。"
+          "en": "A shared checklist cut down the time needed to brief volunteers, while everyone still read the safety notes.",
+          "zh": "共用清單縮短了向義工簡報所需的時間，但每人仍閱讀安全須知。"
         }
       ],
       "review": {
@@ -4388,9 +4402,9 @@
       "titleEn": "a training ground for life",
       "titleZh": "練習日後生活能力的地方",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\ba training ground for life\\b",
+        "pattern": "\\ba training ground for (?:adult )?life\\b",
         "glossaryForbidden": [
           "\\btraining ground\\b"
         ]
@@ -4408,13 +4422,27 @@
           "sentence": "School can be a training ground for life.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a training ground for life"
+        },
+        {
+          "occurrenceId": "book10-16-0523",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A small allowance is a training ground for adult life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "training ground for adult life"
         }
       ],
       "brief": {
         "meaningEn": "A setting that gives people practice in abilities useful in later everyday life.",
         "meaningZh": "讓人練習日後日常生活有用能力的環境。",
-        "grammar": "a school/club/activity can be a training ground for life; explain which experiences provide practice and what may transfer. This metaphor does not require military or sporting training.",
-        "register": "Conventional practice-ground metaphor. It describes an opportunity to practise, not proof that a setting prepares everyone for every later situation.",
+        "grammar": "a school/club/activity/allowance can be a training ground for life or adult life; explain which experiences provide practice and what may transfer. This metaphor does not require military or sporting training.",
+        "register": "Conventional practice-ground metaphor. A parent may tell a teenager that managing a small allowance is a training ground for adult life, without claiming it prepares everyone for every later situation.",
         "boundaryZh": "能練習不等於已會全部生活事，也不保證所有人獲同樣機會；要給具體活動及能力連結。",
         "misconceptionZh": "不能只列場所名便判有訓練作用，需看是否實際參與、回饋及可用經驗。",
         "outcomeZh": "能用活動證據說明練習用途，保留轉用限制。"

@@ -1,0 +1,353 @@
+{
+  "reviewType": "independent-dual-ASR-and-pinned-G2P-triage",
+  "status": "read-only-triage; no listening certification",
+  "inputFiles": {
+    "small": {
+      "path": "../audio-production/asr-small-flags-2004.json",
+      "sha256": "8c10cf8ab00314791bc1885dfa3961b051632608972b792e48af3cd136f9fbf9"
+    },
+    "base": {
+      "path": "../audio-production/asr-base-2004.json",
+      "sha256": "eef51b4ec69f04aea1c15bc518034d271b2ef8d3985c0430aca27a82e5718576"
+    },
+    "signal": {
+      "path": "../audio-production/signal-report-2004.json",
+      "sha256": "ae82edf4bf40a65cbaf5a9dbc38d14b24315e0bba25f419a1cb4adc26cf7d1d2"
+    }
+  },
+  "counts": {
+    "dualAsrFlags": 29,
+    "orthography-or-homophone": 15,
+    "g2p-action": 4,
+    "target-audition": 10,
+    "signalDecodeFailures": 0
+  },
+  "phonemizerEvidence": {
+    "implementation": "Pinned kokoro_onnx.tokenizer.Tokenizer() in approved .venv-tts; read-only calls to phonemize, no synthesis or file changes",
+    "tearjerkerEnGb": "tˈiədʒəkə",
+    "tearJerkerHyphenEnGb": "tˈiədʒˈɜːkə",
+    "quietHourHyphenEnGb": "kwˈaɪətˈaʊə",
+    "quietHourSeparatedEnGb": "kwˈaɪət ˈaʊə",
+    "quietHourHyphenEnUs": "kwˈaɪətˈaʊɚ",
+    "dentYourCredibilityEnGb": "dˈɛnt jɔː kɹˌɛdɪbˈɪlɪti",
+    "importanceTheyAttachEnGb": "ɪmpˈɔːtəns ðeɪ ɐtˈatʃ",
+    "leafingEnGb": "lˈiːfɪŋ",
+    "sharpenEnGb": "ʃˈɑːpən",
+    "imanishWalletEnUs": "ɪmˈæniz wˈɔlɪt"
+  },
+  "recommendedActions": [
+    {
+      "priority": "high",
+      "scope": "2327 speaking/takeaway-1; ideally every en-gb tearjerker clip",
+      "action": "Correct the audio-layer G2P for exact tearjerker lexeme to retain stressed /dʒɜːk/ as in tokenizer tear-jerker; version synthesis identity, regenerate only affected requests, rerun both ASR systems. Do not alter canonical spelling or mark listening approved."
+    },
+    {
+      "priority": "high",
+      "scope": "4407 takeaway-1/listening quiet-hour compound",
+      "action": "Test a pinned audio-layer phoneme override that inserts a word boundary between quiet and hour while preserving displayed quiet-hour text; version/regenerate affected requests and rerun both ASR systems. Inspect exact target form before any canonical edit."
+    },
+    {
+      "priority": "medium",
+      "scope": "10 target-audition clips listed below",
+      "action": "Inspect target-word acoustics or use a controlled resynthesis/ASR comparison before changing canonical text. Their pinned G2P is not obviously wrong; dual ASR alone cannot establish a synthesis defect."
+    },
+    {
+      "priority": "none",
+      "scope": "15 orthography-or-homophone clips listed below",
+      "action": "Do not change content or regenerate solely for these flags. British/US spelling, homophones, and ASR word segmentation explain them more parsimoniously than a proved audio fault."
+    }
+  ],
+  "files": [
+    {
+      "synthesisKey": "37f0e6cee27ace38c769f8a24b3b04cfeaea02e598e4962b30bb9ea3fa3bc49c",
+      "moduleId": "advanced-native-2124",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "The sponsor offered the committee a blank check to redesign the community hall.",
+      "smallRecognised": "The sponsor offered the committee a blank check to redesign the community hall.",
+      "assessment": "British cheque / US check spelling only; same pronunciation."
+    },
+    {
+      "synthesisKey": "47893ce7b1f034d510b332e237d4ca8e036f7260c86abab3f81a332e95b3c461",
+      "moduleId": "advanced-native-2168",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "A simple walking map made getting from A to be easier for new visitors.",
+      "smallRecognised": "A simple walking map made getting from A to be easier for new visitors.",
+      "assessment": "The letter B and be are homophones in this frame."
+    },
+    {
+      "synthesisKey": "66de18f42c33627d96c6e0ef8a6e922c02956372b2a00b7a23e3ddee2010f113",
+      "moduleId": "advanced-native-2327",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "g2p-action",
+      "baseRecognised": "The final reunion made the drama a Teijica for many viewers, although others stayed dry-eyed.",
+      "smallRecognised": "The final reunion made the drama a Tijica for many viewers, although others stayed dry-eyed.",
+      "assessment": "Both ASR models render tearjerker as Tijica/Teijica; pinned en-gb phonemizer weakens jerker to /dʒəkə/."
+    },
+    {
+      "synthesisKey": "da760a203682f39a9832a3eb59d5d2a7524bd12eef67115e45c84871713bc984",
+      "moduleId": "advanced-native-2511",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "target-audition",
+      "baseRecognised": "Repeated timetable errors condense your credibility with the people, relying on your updates.",
+      "smallRecognised": "Repeated timetable errors condense your credibility with the people relying on your updates.",
+      "assessment": "Both ASR models return condense for dent your; pinned G2P has correct /dɛnt jɔː/. Other 2511 roles recognize the target."
+    },
+    {
+      "synthesisKey": "65c3d56a4dac8e06a5f3d5c9f8d54b7038337e80f58ce134845a28081c449ce9",
+      "moduleId": "advanced-native-3455",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Once the archive building failed its safety inspection, our exhibition plan had gone out to the window, and we began looking for a temporary gallery.",
+      "smallRecognised": "Once the archive building failed its safety inspection, our exhibition plan had gone out the window and we began looking for a temporary gallery.",
+      "assessment": "Both omit weak of in out of the window, a common connected-speech reduction; another role recognizes full form. No definite defect."
+    },
+    {
+      "synthesisKey": "90fcf38dfc69c3b9d4dda419ea4c3a9f8fe1466e71e8a5a5f9314ec670664c64",
+      "moduleId": "advanced-native-4051",
+      "role": "speaking",
+      "voice": "bm_fable",
+      "category": "target-audition",
+      "baseRecognised": "The questionnaire asked people to rank comfort, cost and style, making the importance they they attach to fashion easier to compare.",
+      "smallRecognised": "The questionnaire asked people to rank comfort, cost and style, making the importance they attached to fashion easier to compare.",
+      "assessment": "Both ASR models render attach as attached; final /t/ versus /tʃ/ needs a target-word check. Pinned G2P is grammatical attach."
+    },
+    {
+      "synthesisKey": "ecc791ac5e8feadbb7b2d2ca2a281f4de1ecc5a78f8cb3aa5fbe91806311624a",
+      "moduleId": "advanced-native-2123",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Seven volunteers showed up for the beach cleanup.",
+      "smallRecognised": "Seven volunteers showed up for the beach cleanup.",
+      "assessment": "clean-up / cleanup orthography only."
+    },
+    {
+      "synthesisKey": "388fb1ba27d34ef292539a9b3f81a5cca16cfe5bff1358ca34afd8b1dcf7fe28",
+      "moduleId": "advanced-native-2124",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "The club did not receive a blank check, every purchase needed approval.",
+      "smallRecognised": "The club did not receive a blank check, every purchase needed approval.",
+      "assessment": "British cheque / US check spelling; punctuation differs."
+    },
+    {
+      "synthesisKey": "91bfe20b2fa7e1358bcd920097aa4814dcdccb074de3ed486d48f246ac3105a5",
+      "moduleId": "advanced-native-2327",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "g2p-action",
+      "baseRecognised": "The novel is a tearjaker because its reunion is built on years of separation.",
+      "smallRecognised": "The novel is a Tijica because its reunion is built on years of separation.",
+      "assessment": "Both ASR models miss tearjerker; same British G2P weakness as speaking clip."
+    },
+    {
+      "synthesisKey": "2d41c546f5c82971955b5fdbf1ca8b1873b6a86d2ac89558230e5d2ad276b834",
+      "moduleId": "advanced-native-2410",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "target-audition",
+      "baseRecognised": "Families join the hunt for the lost dog by checking nearby parks.",
+      "smallRecognised": "Families join the hunt for the lost dog by checking nearby parks.",
+      "assessment": "Both ASR models omit past /d/ from joined before the; G2P contains /d/. Other 2410 roles recognize inflected target."
+    },
+    {
+      "synthesisKey": "2ffe3c12818d5d234458ee231cb1d155eaaaf9430d2b37d18974f7b03019ac5c",
+      "moduleId": "advanced-native-2919",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Quality over quantity prefers stronger outcomes, not merely a small account.",
+      "smallRecognised": "Quality over quantity prefers stronger outcomes, not merely a small account.",
+      "assessment": "smaller count / small account boundary is acoustically close; target Quality over quantity is correctly recognized."
+    },
+    {
+      "synthesisKey": "9330d790ca368341dfd7fc5a00469d1e431f3f6f28a729310736bfac227e1379",
+      "moduleId": "advanced-native-3751",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Meetup usually marks an arranged in person gathering.",
+      "smallRecognised": "Meetup usually marks an arranged, in-person gathering.",
+      "assessment": "Meet up / meetup word-boundary spelling; target sound retained."
+    },
+    {
+      "synthesisKey": "e20dbff8a42fbc417171b23eab95d03291e09707e57de6dd85e942ed2e968f14",
+      "moduleId": "advanced-native-3875",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Two blunt and instrument describes an indiscriminate response to a nuanced problem.",
+      "smallRecognised": "Two-blunt an instrument describes an indiscriminate response to a nuanced problem.",
+      "assessment": "Too / two are exact homophones; an extra article in base ASR is not corroborated by small."
+    },
+    {
+      "synthesisKey": "2f57d0d6bfcfc0acb3099d941b37894d0bfdb2b66da42776d2e5d292c9fbb7ce",
+      "moduleId": "advanced-native-3986",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "target-audition",
+      "baseRecognised": "Sharp in the mind means train thinking through practice.",
+      "smallRecognised": "Sharp in the mind means train, thinking through practice.",
+      "assessment": "Both ASR models segment sharpen as sharp in; G2P has correct /ʃɑːpən/. Other 3986 roles recognize sharpen."
+    },
+    {
+      "synthesisKey": "53567425039a71e1fb30051e466301ccb51e51e4719cf8103a186bfe051b75fe",
+      "moduleId": "advanced-native-4340",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Flyback and forth describes rapid repeated exchange.",
+      "smallRecognised": "Flyback and forth describes rapid repeated exchange.",
+      "assessment": "Fly back / flyback word-boundary spelling; target sound retained."
+    },
+    {
+      "synthesisKey": "b33360b75539a27c39835ccb511e78e385d230eab2066613ece5f9a2976fc9b4",
+      "moduleId": "advanced-native-4407",
+      "role": "takeaway-1",
+      "voice": "bm_fable",
+      "category": "g2p-action",
+      "baseRecognised": "Bring in clear acquired tower rules means introduce a more specific noise policy.",
+      "smallRecognised": "Bring in clearer, quieter tower rules means introduce a more specific noise policy.",
+      "assessment": "Both ASR models turn quiet-hour into quiet tower/acquired tower; pinned phonemizer joins quiet and hour without a word boundary."
+    },
+    {
+      "synthesisKey": "864ea59be1b95f965c8021b1b85dbb2fbd13a9b2cbb7eb833e46e6c220df5422",
+      "moduleId": "advanced-native-2124",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "The board let the festival team hire any performers at any price, effectively giving them a blank check.",
+      "smallRecognised": "The board let the festival team hire any performers at any price, effectively giving them a blank check.",
+      "assessment": "British cheque / US check spelling only."
+    },
+    {
+      "synthesisKey": "833ca4b83b5a08642d710f40c90381f61f9ee7105614f0391e16db1a4805c566",
+      "moduleId": "advanced-native-2132",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "The dancers knew their steps, but a sudden lighting change through the whole performance out of rhythm.",
+      "smallRecognised": "The dancers knew their steps, but a sudden lighting changed through the whole performance out of rhythm.",
+      "assessment": "Threw / through are homophones; extra changed is one ASR decoding of change, not shared text evidence."
+    },
+    {
+      "synthesisKey": "d0b97267f176429c43237a72784846e1fe9fa7fa6f1f72b36b3352a037e2d976",
+      "moduleId": "advanced-native-3273",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "target-audition",
+      "baseRecognised": "The student entered the wrong return date, so another borrower got wrong information. We corrected it and found the calendar check was skipped. We turned mistakes into learning moments by checking dates before saving next time.",
+      "smallRecognised": "The student entered the wrong return date, so another borrower got wrong information. We corrected it and found the calendar check was skipped. We turned mistakes into learning moments by checking dates before saving next time.",
+      "assessment": "Both ASR models hear turned instead of turn; G2P has present /tɜːn/. Other 3273 roles recognize forms."
+    },
+    {
+      "synthesisKey": "ca46c5df5f89bdcaa7beeb3ab2dcaecdbc89f0d2eba481cbf035bd91f6fab79a",
+      "moduleId": "advanced-native-3941",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "The junior organizers had to apologize for a canceled workshop and a range refunds themselves. Their mentor said taking responsibility in that way could build character.",
+      "smallRecognised": "The junior organizers had to apologize for a canceled workshop and a range, refunds themselves. Their mentor said taking responsibility in that way could build character.",
+      "assessment": "UK/US spelling differences plus arrange / a range segmentation; target build character is recognized."
+    },
+    {
+      "synthesisKey": "101600beaf095c690a0ddbafcfa5aa574f52d06183461b3177762a1a4c0039d3",
+      "moduleId": "advanced-native-4407",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "g2p-action",
+      "baseRecognised": "After reviewing late-night complaints, the Residence Committee voted to bring in clearer choir tower rules, noisy repairs would stop after 9, and every flat received the new notice. The Committee would review complaints after a month.",
+      "smallRecognised": "After reviewing late-night complaints, the residence committee voted to bring in clearer quietower rules. Noisy repairs would stop after 9, and every flat received the new notice. The committee would review complaints after a month.",
+      "assessment": "Both ASR models turn quiet-hour into quietower/choir tower; same joined phoneme sequence as takeaway."
+    },
+    {
+      "synthesisKey": "83d3645c0b5f92dae3911bffaf2968618133d8564ecfa849ae255e991aac492e",
+      "moduleId": "advanced-native-4554",
+      "role": "listening",
+      "voice": "af_heart",
+      "category": "target-audition",
+      "baseRecognised": "Small app fees are charged every week and together they have become a constant drain on a Manny's wallet",
+      "smallRecognised": "Small app fees are charged every week and together they have become a constant drain on a Manny's wallet",
+      "assessment": "Both ASR models render Imani’s as a Manny’s; pinned en-us G2P is /ɪmæniz/, so the name warrants pronunciation checking, while constant drain is recognized."
+    },
+    {
+      "synthesisKey": "541b438ff5216b1d179f26fc39a93f22acf1fa5ba238fa87449b3f2068f1ebc7",
+      "moduleId": "advanced-native-2124",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Giving a new project a blank check can make its costs hard to control.",
+      "smallRecognised": "Giving a new project a blank check can make its costs hard to control.",
+      "assessment": "British cheque / US check spelling only."
+    },
+    {
+      "synthesisKey": "8242742dfdc8b6a2c7604dcf67f08bb69265a7719b2f0eba5bbd63badac636ef",
+      "moduleId": "advanced-native-2833",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "Jinxit expresses a superstitious worry, not proof that words change a decision.",
+      "smallRecognised": "Jinks it expresses a superstitious worry, not proof that words change a decision.",
+      "assessment": "Jinx / jinks are homophonous in this context; no target-sound conclusion from spelling."
+    },
+    {
+      "synthesisKey": "966108e9dc9fee64b10a6202c6f3d8d3b006281e4dc7d06c8e56688b8692bf71",
+      "moduleId": "advanced-native-2834",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "target-audition",
+      "baseRecognised": "Blirting it out need not mean the speaker intended harm or that the news was false.",
+      "smallRecognised": "Blirting it out need not mean the speaker intended harm, or that the news was false.",
+      "assessment": "Both ASR models hear blirting for blurting; G2P has correct /blɜːtɪd/. Other roles recognize blurted."
+    },
+    {
+      "synthesisKey": "27e4947db07ee04a20f3d0ac3c4018e16196c3870f65d82a4554abb851c3e414",
+      "moduleId": "advanced-native-3155",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "target-audition",
+      "baseRecognised": "I lost my call briefly, then paused before answering.",
+      "smallRecognised": "I lost my call briefly, then paused before answering.",
+      "assessment": "Both ASR models hear call for cool in this voice; pinned G2P has /kuːl/. Other roles recognize cool."
+    },
+    {
+      "synthesisKey": "1bd4b8abd33d2d5820f46e5d97403a4689d92e60cf500f2dc43e1776482f40e5",
+      "moduleId": "advanced-native-3521",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "target-audition",
+      "baseRecognised": "Leaping through a guide does not verify every detail.",
+      "smallRecognised": "Leaping through a guide does not verify every detail.",
+      "assessment": "Both ASR models hear leaping for leafing; G2P has /liːfɪŋ/. Other roles recognize leafed/leaf through."
+    },
+    {
+      "synthesisKey": "6e3863ed81b1c9f4aad1a738714f4d4d31040a5c51c2e02498899aba9294cd58",
+      "moduleId": "advanced-native-4051",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "target-audition",
+      "baseRecognised": "Ask about competing priorities before judging the importance people attached to fashion.",
+      "smallRecognised": "Ask about competing priorities before judging the importance people attached to fashion.",
+      "assessment": "Both ASR models render attach as attached; same final-consonant concern as speaking clip."
+    },
+    {
+      "synthesisKey": "76eb3f17db612fb3308bb4df667f8790cd2c44592350aa6d61c7abb6c0baa7ee",
+      "moduleId": "advanced-native-4664",
+      "role": "takeaway-2",
+      "voice": "bf_isabella",
+      "category": "orthography-or-homophone",
+      "baseRecognised": "To love a sight to death, visits must cause real harm, not just be numerous.",
+      "smallRecognised": "To love a sight to death, visits must cause real harm, not just be numerous.",
+      "assessment": "Site / sight are exact homophones; target audio cannot distinguish spelling."
+    }
+  ],
+  "limits": "Both recognizers operated on the same clips and may share language-model biases. Signal decode checks do not test pronunciation. This report did not audition clips, change content, synthesize audio, or certify accent/listening."
+}

@@ -4267,9 +4267,9 @@
       "titleEn": "carry weight",
       "titleZh": "具有影響力或分量",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\b(?:carry|carries|carried|carrying) (?:some |real |more |a lot of )?weight\\b",
+        "pattern": "(?:\\b(?:carry|carries|carried|carrying) (?:some |real |more |enormous |a lot of )?weight\\b)|(?:\\b(?:carry|carries|carried|carrying) even more weight\\b)",
         "glossaryForbidden": [
           "\\bweight\\b"
         ]
@@ -4355,13 +4355,41 @@
           "sentence": "The final decision will carry more weight than a casual suggestion.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "PDF page141, table1, row6"
+        },
+        {
+          "occurrenceId": "book10-16-0494",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 45,
+          "book": 11,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 41, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her advice can carry enormous weight in the community.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carry enormous weight"
+        },
+        {
+          "occurrenceId": "book10-16-2245",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 212,
+          "book": 16,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 232, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Subtle details can carry even more weight among collectors.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carry even more weight"
         }
       ],
       "brief": {
         "meaningEn": "Have influence or importance, including the importance of consequential choices. In the main examples here, it concerns persuasive force in a decision or discussion.",
         "meaningZh": "有影響或重要性，也可指帶來後果的選擇之分量。本課主例以決定或討論中的說服力為焦點。",
-        "grammar": "an opinion/reference/argument carries weight with + people; choices can carry weight for + the people affected; carried in the past. Some/real/more/a lot of adjust degree.",
-        "register": "Common figurative expression; some/real/more/a lot of adjust degree without creating a different idiom.",
+        "grammar": "carry weight / carry even more weight; weight figuratively names significance or persuasive force. Even more explicitly compares the importance with an earlier or alternative detail.",
+        "register": "Common figurative expression; some/real/more/enormous/a lot of adjust degree without creating a different idiom. A community organiser may tell colleagues that a trusted adviser’s view carries enormous weight with residents.",
         "boundaryZh": "有分量不表示決定由它單獨控制，也不保證內容正確或所有結果已定；本課不是物理承重。",
         "misconceptionZh": "要指出對誰或在哪個判斷中有影響，並容許其他證據。",
         "outcomeZh": "能說明意見或資料的影響程度，而不把影響當成最後保證。"
@@ -4569,8 +4597,8 @@
           "zh": "仔細的解釋可對決策者有分量。"
         },
         {
-          "en": "Her relevant experience carried real weight during the review.",
-          "zh": "她的相關經驗在檢討中很有分量。"
+          "en": "After the cataloguing errors surfaced, the conservator’s notes carried even more weight in the committee’s decision.",
+          "zh": "編目錯誤曝光後，修復師的筆記對委員會決定更具分量。"
         }
       ],
       "review": {

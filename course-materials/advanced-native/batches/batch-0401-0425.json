@@ -4936,7 +4936,7 @@
     "titleZh": "憑自身能力獨立立足",
     "category": "idiom",
     "target": {
-      "pattern": "\\bstand(?:s|ing)? on (?:my|your|his|her|our|their|its) own two feet\\b|\\bstood on (?:my|your|his|her|our|their|its) own two feet\\b",
+      "pattern": "(?:\\bstand(?:s|ing)? on (?:my|your|his|her|our|their|its) own two feet\\b|\\bstood on (?:my|your|his|her|our|their|its) own two feet\\b)|(?:\\b(?:stand|stands|standing|stood) (?:steadily )?on their own (?:two )?feet(?: academically)?\\b)",
       "glossaryForbidden": [
         "\\bown two feet\\b"
       ]
@@ -4944,7 +4944,7 @@
     "brief": {
       "meaningEn": "Function or succeed independently rather than relying entirely on another person or work.",
       "meaningZh": "憑自身條件運作或立足，不全靠另一人或作品。",
-      "grammar": "a film stands on its own two feet; people stand on their own two feet; stood in past. Match the possessive to the subject.",
+      "grammar": "stand on one's own (two) feet; steadily can strengthen independence and academically can specify the domain. Stand, stands, standing and stood are possible forms.",
       "register": "Established body idiom productively applied to people’s independence and to a work that can be appreciated without another work.",
       "boundaryZh": "獨立不等於從沒幫助、完全孤立或所有方面都精通；作品可有來源，仍需自身足夠清楚。",
       "misconceptionZh": "人可逐步學自理，也可合理求助；作品可改編而不要求觀眾先讀原作。",
@@ -5002,6 +5002,48 @@
         "sample": "S1",
         "locatorNote": "PDF page 261, table 1, row 2",
         "occurrenceId": "pdf-2-p261-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-0780",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 72,
+        "book": 12,
+        "question": 1,
+        "sample": "S2",
+        "sourceBookPages": "3–5",
+        "locatorNote": "DOCX table 71, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Young adults need time to stand steadily on their own two feet.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "stand steadily on their own two feet"
+      },
+      {
+        "occurrenceId": "book10-16-1188",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 110,
+        "book": 12,
+        "question": 44,
+        "sample": "S1",
+        "sourceBookPages": "104–105",
+        "locatorNote": "DOCX table 114, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Dictionaries help children stand on their own feet academically.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "stand on their own feet academically"
+      },
+      {
+        "occurrenceId": "book10-16-1981",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 187,
+        "book": 15,
+        "question": 24,
+        "sample": "S2",
+        "sourceBookPages": "56–58",
+        "locatorNote": "DOCX table 202, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Graduates need to stand on their own feet.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "stand on their own feet"
       }
     ],
     "listening": {
@@ -5110,8 +5152,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Making your own decisions can include seeking advice without handing those decisions to someone else.",
-          "zh": "自行決定可包括求意見，而不把決定交給別人。"
+          "en": "You can stand on your own two feet while seeking advice; the final decision can still be yours.",
+          "zh": "你可以一邊徵求意見，一邊保持獨立；最後仍由你自己決定。"
         },
         {
           "id": "b",
@@ -5203,8 +5245,8 @@
         "zh": "電影給新觀眾所需背景，憑自身立足。"
       },
       {
-        "en": "They were learning to stand on their own two feet while still asking questions when needed.",
-        "zh": "他們正學獨立，同時仍會在需要時提問。"
+        "en": "After guided practice, the learners could stand on their own feet academically when checking sources.",
+        "zh": "經過指導練習後，學員核對資料來源時，已能在學習上獨立判斷。"
       }
     ],
     "review": {
@@ -5233,7 +5275,7 @@
         "Root-approved557 person-independence source retained in one productive idiom family with419 work-independence application; not a claim of a new sense. Only language examples about everyday self-management, no substantive financial guidance."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-421",
@@ -5506,7 +5548,7 @@
     "number": 422,
     "inventoryId": "expr-0422",
     "titleEn": "take the wind out of",
-    "titleZh": "削弱作品原有的吸引力",
+    "titleZh": "削弱吸引力或推進勢頭",
     "category": "figurative",
     "target": {
       "pattern": "\\b(?:take|takes|taking|took|taken) the wind out of\\b",
@@ -5515,13 +5557,13 @@
       ]
     },
     "brief": {
-      "meaningEn": "In the supplied film context, reduce a work’s energy, suspense or appeal, as if removing the force that drives it.",
-      "meaningZh": "在所提供的電影情境中，像抽走推動力般，削弱作品的活力、懸念或吸引力。",
-      "grammar": "spoilers take the wind out of a mystery; took in past; name the work or experience whose appeal is reduced.",
-      "register": "Creative object-focused adaptation of a wind/drive image. The supplied phrase is a flexible frame, not the complete dictionary person-idiom take the wind out of someone’s sails.",
-      "boundaryZh": "本課形容故事體驗受削弱，不一定完全沒趣、所有人反應相同或實際少了風；需交代吸引力怎樣變。",
-      "misconceptionZh": "可說自己的懸念減少，不憑一次反應斷言作品對任何人都無價值。",
-      "outcomeZh": "能以具體揭露及觀眾反應說明吸引力減弱，保留個人及程度範圍。"
+      "meaningEn": "Reduce a work’s appeal or a person’s or group’s momentum, as if removing the wind driving it forward.",
+      "meaningZh": "像抽走推動力般，削弱作品的吸引力，或個人、團隊的勢頭。",
+      "grammar": "Take/took the wind out of a mystery or activity; the fuller idiom take the wind out of someone’s sails can describe lost confidence or momentum. State what event caused the setback and which response weakened.",
+      "register": "Conventional wind-and-sails metaphor, with a flexible shortened object-focused form; a reviewer may use it for lost suspense, while a colleague may use the sails form for a group’s setback.",
+      "boundaryZh": "削弱懸念或勢頭，不表示作品全無價值、團隊已停止行動，亦不指實際風力；需交代失去的是甚麼。",
+      "misconceptionZh": "不要由一次失望推斷所有觀眾不喜歡作品，或整個團隊無法恢復；應說明影響範圍及後續。",
+      "outcomeZh": "能以具體事件說明吸引力或推進勢頭如何減弱，並保留程度及後續行動。"
     },
     "sources": [
       {
@@ -5536,6 +5578,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 19, table 1, row 5; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p019-t1-r05"
+      },
+      {
+        "occurrenceId": "book10-16-0586",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 54,
+        "book": 11,
+        "question": 14,
+        "sample": "S1",
+        "sourceBookPages": "37–39",
+        "locatorNote": "DOCX table 50, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Falling sales could take the wind out of the industry's sails.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "take the wind out of the industry's sails"
       }
     ],
     "listening": {
@@ -5644,8 +5700,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Separate the lost suspense from the appreciation that remained.",
-          "zh": "分開減少的懸念與仍保留的欣賞。"
+          "en": "The early reveal took the wind out of the suspense for me, but I still admired the acting.",
+          "zh": "過早揭曉令我少了懸念，但我仍欣賞演技。"
         },
         {
           "id": "b",
@@ -5659,7 +5715,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "已說預先知道答案減少懸念，不等於演技變差或劇本本身容易猜；需分清造成影響的資料及仍保留的欣賞。"
+      "explanationZh": "預先知道答案削弱了懸念，卻沒有抹去對演技的欣賞；要分清兩種反應。"
     },
     "speaking": {
       "en": "The early reveal took the wind out of the story for me, but I still valued the performances.",
@@ -5737,8 +5793,8 @@
         "zh": "太早摘要揭最後選擇，削弱結尾對我的吸引力。"
       },
       {
-        "en": "Giving away the result can take the wind out of a discovery activity, even when the materials are well made.",
-        "zh": "即使材料做得好，先洩結果也可削弱探索活動的吸引力。"
+        "en": "Losing the first sponsor took the wind out of the youth orchestra’s sails, but the members found a smaller hall and kept rehearsing.",
+        "zh": "失去首位贊助者削弱了青年樂團的勢頭，但團員找到較小的場地，繼續排練。"
       }
     ],
     "review": {
@@ -5767,7 +5823,7 @@
         "Root explicitly retains source film-appeal contextual object metaphor separately from017 personal confidence setback. Exact source fragment take the wind out of and complete creative film sentence preserved, not silently normalised to sails. Cambridge https://dictionary.cambridge.org/dictionary/english/take-the-wind-out-of-sails documents the related person idiom and knock alternative; it does not by itself establish this film-object adaptation as a fixed dictionary idiom."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-423",

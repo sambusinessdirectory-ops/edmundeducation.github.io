@@ -900,7 +900,7 @@
     "titleZh": "開闊眼界與經驗",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:widen|widens|widened|widening|broaden|broadens|broadened|broadening|expand|expands|expanded|expanding) (?:my|your|his|her|our|their|people[’\\x27]s|young people[’\\x27]s) horizons\\b",
+      "pattern": "(?:\\b(?:widen|widens|widened|widening|broaden|broadens|broadened|broadening|expand|expands|expanded|expanding) (?:my|your|his|her|our|their|people[’\\x27]s|young people[’\\x27]s) horizons\\b)|(?:\\b(?:widen|widens|widened|widening) society[’']s horizons\\b)",
       "glossaryForbidden": [
         "\\bhorizons?\\b"
       ]
@@ -908,7 +908,7 @@
     "brief": {
       "meaningEn": "Increase the range of what someone knows about, has experienced or can imagine.",
       "meaningZh": "增加某人所知、體驗或能想像的範圍。",
-      "grammar": "widen/broaden/expand someone’s horizons; Cambridge lists these as one idiom. Plural horizons is usual for the range of someone’s knowledge, experience or imagined possibilities.",
+      "grammar": "widen someone's horizons, including society’s horizons as a collective possessor; widened is the past form. The horizons are intellectual or experiential, not physical.",
       "register": "Established spatial metaphor. Exposure creates opportunities for learning, not automatic expertise or a ranking of cultures.",
       "boundaryZh": "見得更多不表示完全懂或原有生活較差；需指出新增經驗及所學，而非只把移動等同成長。",
       "misconceptionZh": "可透過閱讀、交流或新角色開眼界，不必只限旅行，也不保證一次見聞消除偏見。",
@@ -997,6 +997,20 @@
         "sentence": "Travel can broaden young people's horizons.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 236, table 1, row 4"
+      },
+      {
+        "occurrenceId": "book10-16-1485",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 139,
+        "book": 14,
+        "question": 4,
+        "sample": "S2",
+        "sourceBookPages": "11–12",
+        "locatorNote": "DOCX table 148, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Research can widen society's horizons.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "widen society's horizons"
       }
     ],
     "listening": {
@@ -1105,8 +1119,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Say which accounts opened new questions for me, while keeping clear that I am still learning about those jobs.",
-          "zh": "說哪些敘述給我新問題，同時說清我仍在學那些工作。"
+          "en": "The radio accounts widened my horizons and gave me new questions, but I am still learning about those jobs.",
+          "zh": "電台節目中的分享擴闊了我的視野，也帶來新問題，但我仍在認識那些工作。"
         },
         {
           "id": "b",
@@ -1198,8 +1212,8 @@
         "zh": "交流讓她有機會聽另一家庭怎安排日常，開闊眼界。"
       },
       {
-        "en": "Reading unfamiliar voices widened our horizons and left us with more questions to explore together.",
-        "zh": "閱讀陌生聲音開闊我們眼界，也留下更多可一起探究的問題。"
+        "en": "Public access to archived letters may widen society’s horizons about daily life in the past.",
+        "zh": "公眾能查閱舊信件，有助擴闊社會對昔日日常生活的認識。"
       }
     ],
     "review": {
@@ -1228,7 +1242,7 @@
         "Primary Cambridge groups broaden/expand/widen someone’s horizons as one idiom. https://dictionary.cambridge.org/dictionary/english/broaden-expand-widen-horizons . Existing root-approved790 source nominal a wider horizon retained as original source; learner-facing usual plural and verb variants reviewed. Future582/1831/1902 exact sources should attach as same idiom variants."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-555",
@@ -3470,7 +3484,7 @@
     "titleZh": "不熟悉的領域或處境",
     "category": "idiom",
     "target": {
-      "pattern": "\\bunfamiliar territory\\b",
+      "pattern": "(?:\\bunfamiliar territory\\b)|(?:\\bnew territory\\b)",
       "glossaryForbidden": [
         "\\bunfamiliar territory\\b"
       ]
@@ -3478,7 +3492,7 @@
     "brief": {
       "meaningEn": "An area of activity or experience that someone does not yet know well.",
       "meaningZh": "某人尚未熟悉的活動或經驗領域。",
-      "grammar": "be/enter unfamiliar territory; something is unfamiliar territory for/to someone; no article is normally needed before this uncountable metaphor.",
+      "grammar": "be/enter unfamiliar territory or new territory for someone; territory is usually uncountable in this metaphor for a subject or experience one does not yet know well.",
       "register": "Established territory-as-experience image. It describes limited familiarity, not inevitable fear, danger or permanent inability.",
       "boundaryZh": "不熟與不願學、無能力不同，需說哪部分新及可怎了解；同一任務可有熟悉與陌生部分。",
       "misconceptionZh": "不能因一處新便否定所有已有經驗，也不應把承認不懂當已失敗。",
@@ -3510,6 +3524,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 137, table 1, row 4; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p137-t1-r04"
+      },
+      {
+        "occurrenceId": "book10-16-2092",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 197,
+        "book": 15,
+        "question": 37,
+        "sample": "S1",
+        "sourceBookPages": "89–90",
+        "locatorNote": "DOCX table 215, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Coding was new territory for my parents.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "new territory"
       }
     ],
     "listening": {
@@ -3618,8 +3646,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Keep the work I know and support one first step in sound editing, rather than treat a new skill as no experience at all.",
-          "zh": "保留我懂的工作，支援聲音剪接第一步，不把新技能當全無經驗。"
+          "en": "Sound editing is new territory for me, but I can keep organising the photos and learn the audio work one step at a time.",
+          "zh": "聲音剪接對我來說是新領域，但我可以繼續整理照片，並逐步學習聲音工作。"
         },
         {
           "id": "b",
@@ -3711,8 +3739,8 @@
         "zh": "新軟件對義工是不熟領域，所以先做短引導任務。"
       },
       {
-        "en": "She enjoyed entering unfamiliar territory in her writing while asking for help with the details she had not yet learned.",
-        "zh": "她喜歡在寫作進不熟領域，同時在尚未學的細節求助。"
+        "en": "Teaching adults online was new territory for the museum staff, so they ran a small pilot first.",
+        "zh": "網上教授成年人對博物館員工來說是新領域，因此他們先試行一個小型計劃。"
       }
     ],
     "review": {
@@ -3739,7 +3767,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-564",
@@ -4574,15 +4602,15 @@
     "titleZh": "書面看來理想，實際仍需了解",
     "category": "idiom",
     "target": {
-      "pattern": "\\blook(?:s|ed|ing)? (?:impressive|good|(?:more )?secure) on paper\\b",
+      "pattern": "\\blook(?:s|ed|ing)? (?:impressive|good|simple|(?:more )?secure) on paper\\b",
       "glossaryForbidden": [
         "\\bon paper\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Appear favourable, effective or secure in a written description or plan, while practical experience may still differ or need checking.",
-      "meaningZh": "在書面描述或計劃中看來理想、有效或穩妥，但實際體驗可能不同，仍需要了解。",
-      "grammar": "look/looks/looked impressive, good, secure or more secure on paper; the adjective names the quality suggested by the description. More secure introduces a comparison, which the surrounding context should identify. The plan/offer frame differs from describing a person’s credentials as brilliant on paper, though both use the related on-paper contrast.",
+      "meaningEn": "Appear favourable, effective, straightforward or secure in a written description or plan, while practical experience may still differ or need checking.",
+      "meaningZh": "在書面描述或計劃中看來理想、有效、簡單或穩妥，但實際體驗可能不同，仍需要了解。",
+      "grammar": "look/looks/looked impressive, good, simple, secure or more secure on paper; the adjective names the quality suggested by the description. Simple can describe a timetable without proving practical difficulties will occur. More secure introduces a comparison, which the surrounding context should identify.",
       "register": "Conventional on-paper contrast. It often introduces a reservation, but the phrase alone does not prove the plan will fail or that the written features are false.",
       "boundaryZh": "書面上看來理想或穩妥，可以與實際限制並存；需要說明哪項條件仍待了解，不能把這個對比說成所有書面資料都不可信。",
       "misconceptionZh": "尚未試過，不等於已失敗；清單豐富或條款看來穩妥，也不等於已證明適合實際需要。",
@@ -4697,6 +4725,230 @@
         "sentence": "The offer looked more secure on paper than it felt in practice.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 128, table 1, row 4"
+      },
+      {
+        "occurrenceId": "book10-16-0071",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 7,
+        "book": 10,
+        "question": 6,
+        "sample": "S1",
+        "sourceBookPages": "15–17",
+        "locatorNote": "DOCX table 6, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-0787",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 73,
+        "book": 12,
+        "question": 2,
+        "sample": "S2",
+        "sourceBookPages": "6–9",
+        "locatorNote": "DOCX table 72, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-0904",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 84,
+        "book": 12,
+        "question": 15,
+        "sample": "S2",
+        "sourceBookPages": "39–40",
+        "locatorNote": "DOCX table 85, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1204",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 112,
+        "book": 12,
+        "question": 46,
+        "sample": "S1",
+        "sourceBookPages": "108–109",
+        "locatorNote": "DOCX table 116, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1250",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 116,
+        "book": 12,
+        "question": 50,
+        "sample": "S2",
+        "sourceBookPages": "116–117",
+        "locatorNote": "DOCX table 120, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1415",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 132,
+        "book": 13,
+        "question": 19,
+        "sample": "S1",
+        "sourceBookPages": "48–51",
+        "locatorNote": "DOCX table 140, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1455",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 136,
+        "book": 13,
+        "question": 23,
+        "sample": "S1",
+        "sourceBookPages": "61–63",
+        "locatorNote": "DOCX table 144, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1468",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 137,
+        "book": 14,
+        "question": 1,
+        "sample": "S2",
+        "sourceBookPages": "3–4",
+        "locatorNote": "DOCX table 145, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1521",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 142,
+        "book": 14,
+        "question": 7,
+        "sample": "S2",
+        "sourceBookPages": "18–19",
+        "locatorNote": "DOCX table 151, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-1755",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 165,
+        "book": 14,
+        "question": 33,
+        "sample": "S2",
+        "sourceBookPages": "73–74",
+        "locatorNote": "DOCX table 177, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2085",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 197,
+        "book": 15,
+        "question": 36,
+        "sample": "S1",
+        "sourceBookPages": "85–88",
+        "locatorNote": "DOCX table 214, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2112",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 199,
+        "book": 16,
+        "question": 2,
+        "sample": "S1",
+        "sourceBookPages": "5–7",
+        "locatorNote": "DOCX table 217, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2366",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 223,
+        "book": 16,
+        "question": 31,
+        "sample": "S2",
+        "sourceBookPages": "75–76",
+        "locatorNote": "DOCX table 246, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2415",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 228,
+        "book": 16,
+        "question": 37,
+        "sample": "S2",
+        "sourceBookPages": "90–91",
+        "locatorNote": "DOCX table 252, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2489",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 235,
+        "book": 16,
+        "question": 47,
+        "sample": "S2",
+        "sourceBookPages": "110–113",
+        "locatorNote": "DOCX table 262, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
+      },
+      {
+        "occurrenceId": "book10-16-2522",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 238,
+        "book": 16,
+        "question": 51,
+        "sample": "S2",
+        "sourceBookPages": "120–121",
+        "locatorNote": "DOCX table 266, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The schedule looks simple on paper.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on paper"
       }
     ],
     "listening": {
@@ -4805,8 +5057,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Add the set moves to the timing trial and adjust the scope before treating the plan as workable.",
-          "zh": "把移景納計時試行，稱計劃可行前先調範圍。"
+          "en": "The timetable looks good on paper, but let's time the set moves before treating the plan as workable.",
+          "zh": "時間表書面看來理想，但稱計劃可行前，我們先量度移景需時。"
         },
         {
           "id": "b",
@@ -4820,7 +5072,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "先把移景納計時再調範圍，不能漏計它，也不應未量實際時間便先刪討論。"
+      "explanationZh": "先承認時間表書面看來理想，再量度實際移景需時；不能漏計它，也不應未量便先刪討論。"
     },
     "speaking": {
       "en": "The proposal looks impressive on paper, but I want to test the practical conditions before saying it meets our needs.",
@@ -4898,8 +5150,8 @@
         "zh": "提議書面看來出色，但時間表讓她少有時間做最想做的工作。"
       },
       {
-        "en": "Our new layout looks good on paper, so we are asking first-time visitors to try it before making a wider claim.",
-        "zh": "新版面書面看來好，所以我們先請首次訪客試，再作較廣聲稱。"
+        "en": "The new timetable looks simple on paper, but we should try it with a real Saturday crowd.",
+        "zh": "新時間表書面看來簡單，但我們應先用週六實際人流試行。"
       }
     ],
     "review": {
@@ -4928,7 +5180,7 @@
         "Root retained513 person-credentials brilliant-on-paper frame separately; this plan/offer-description frame includes source823 look good on paper alias, with shared on-paper concept explicitly related and no new core-sense claim."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-568",

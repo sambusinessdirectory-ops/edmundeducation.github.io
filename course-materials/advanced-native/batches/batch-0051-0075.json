@@ -1537,12 +1537,12 @@
       "id": "advanced-native-057",
       "number": 57,
       "inventoryId": "expr-0057",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "hit a wall",
       "titleZh": "進展突然受阻",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:hit|hits|hitting)\\s+a\\s+wall\\b"
+        "pattern": "(?:\\b(?:hit|hits|hitting)\\s+a\\s+wall\\b)|(?:\\b(?:hit|hits|hitting)\\s+that\\s+wall\\b)"
       },
       "sources": [
         {
@@ -1557,12 +1557,26 @@
           "sentence": "I hit a wall halfway through the assignment and needed advice.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "hit a wall"
+        },
+        {
+          "occurrenceId": "book10-16-2016",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 190,
+          "book": 15,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 206, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Most beginners hit that wall after a few weeks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hit that wall"
         }
       ],
       "brief": {
         "meaningEn": "Reach a point where you cannot make further progress.",
         "meaningZh": "到達無法繼續取得進展的地步。",
-        "grammar": "hit a wall with / while doing something",
+        "grammar": "hit a wall / hit that wall; that points back to a recognised stall in progress. Hit is also the past form.",
         "register": "neutral",
         "boundaryZh": "本課教進展停滯的比喻，不是撞上真牆，也不一定表示永久失敗。",
         "misconceptionZh": "本課教進展停滯的比喻，不是撞上真牆，也不一定表示永久失敗。",
@@ -1674,8 +1688,8 @@
         "options": [
           {
             "id": "choice-1",
-            "en": "Which part is stuck? We could look at a different approach.",
-            "zh": "哪一部分卡住了？我們可以看看別的方法。"
+            "en": "If you've hit a wall, which part is causing trouble? We can try a different approach.",
+            "zh": "如果你寫作遇上瓶頸，哪部分最難？我們可以換個方法試試。"
           },
           {
             "id": "choice-2",
@@ -1758,8 +1772,8 @@
           "zh": "我們的項目遇到瓶頸。"
         },
         {
-          "en": "If you hit a wall, try another approach.",
-          "zh": "遇到瓶頸時，可以試另一種方法。"
+          "en": "If you hit that wall after the first month, ask for feedback before changing courses.",
+          "zh": "若第一個月後進度遇到那個瓶頸，轉課前先尋求意見。"
         }
       ],
       "review": {

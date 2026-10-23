@@ -1,0 +1,44 @@
+{
+  "reviewKind": "independent-ai-alias-wave-2447-2560-1503",
+  "createdUtc": "2026-10-23T17:47:57.038226+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "97e9a4953866032ba03f59c4764ecdb1a84d56bea48168c253e7fbf61c7d6f71",
+  "fileHashes": {
+    "owner": "8873600a322ce7eaa954f0aa32b33a074b990976ad370e95c2e6f3921138a171",
+    "decision2447": "8275f798235ed0d64c10668c6450b4f58b465e3fecaf6f098ca27a5ffad1045c",
+    "decision2560": "c7a1a6a3bf686e8c0924eca4db6f9a11f33ffbfc1b7f0fb6c1a1b32657f70eed",
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2447,
+      "sourceId": "book10-16-0336",
+      "canonicalId": "advanced-native-1503",
+      "decisionRowSha256": "e6dd180d7039824512659271f403901a82e5a7bb5e2369d0f9ae6d72c2fb6e05",
+      "sourceProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 2560,
+      "sourceId": "book10-16-0449",
+      "canonicalId": "advanced-native-1503",
+      "decisionRowSha256": "9be06ef8d7bcfc304cdd4b924d21e5df14f24101fbac738de83771e25e76dceb",
+      "sourceProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": "Everyday living and everyday life are natural complements of the existing woven-into-daily-routines integration metaphor; deeply intensifies degree. Regular voice messages between relatives provide an original, faithfully translated transfer from the digital-payment sources. Literal cloth weaving and one-off action controls do not match.",
+  "focusedBuildCheck": {
+    "lessons": 24,
+    "questions": 144,
+    "audioRequests": 96,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI content/source review only; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

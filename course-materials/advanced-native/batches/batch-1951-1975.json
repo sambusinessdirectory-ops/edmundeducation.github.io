@@ -1306,12 +1306,12 @@
       "id": "advanced-native-1957",
       "number": 1957,
       "inventoryId": "expr-1957",
-      "contentRevision": 1,
-      "titleEn": "gone down a rabbit hole",
+      "contentRevision": 2,
+      "titleEn": "a rabbit hole",
       "titleZh": "不知不覺深入一連串探索",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:go(?:ne|ing)?|went) down a rabbit hole\\b"
+        "pattern": "\\b(?:(?:go|goes|going|gone|went) down|(?:lead|leads|led|leading) (?:a child|someone|readers|viewers) into) a rabbit hole\\b"
       },
       "sources": [
         {
@@ -1327,13 +1327,27 @@
           "sentence": "I have gone down a rabbit hole of product reviews.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page244, table2, row7; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-0473",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One video can lead a child into a rabbit hole.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a rabbit hole"
         }
       ],
       "brief": {
         "meaningEn": "Become drawn into an extended chain of exploration that goes beyond the original purpose.",
         "meaningZh": "被一連串探索吸引，逐步深入，超出原來目的。",
-        "grammar": "go down a rabbit hole of reviews/references; went/gone/going. Explain where the chain led and whether it was useful, distracting or both; the idiom does not automatically condemn research.",
-        "register": "Established informal exploration metaphor. A long planned investigation is not necessarily an unplanned detour; absorbing discoveries may still be valuable.",
+        "grammar": "Go/went/gone down a rabbit hole, or lead/led someone into a rabbit hole. Name the initial question and the linked detour; the image describes absorbing exploration, which may be useful, distracting or both.",
+        "register": "Informal exploration metaphor, often used by learners or colleagues describing an unexpected chain of discoveries; it does not automatically condemn research.",
         "boundaryZh": "要看原來問題、接續探索及實際影響；深入本身不等於浪費，也不能只按時間長就推論失去方向。",
         "misconceptionZh": "不要把所有延伸閱讀都批評成無用，也不因找到有趣內容就忽略原定任務。",
         "outcomeZh": "能交代探索的路線與取捨，並安排怎樣保留支線及回到目標。"
@@ -1541,8 +1555,8 @@
           "zh": "註腳令她不知不覺深入一連串本地地圖，後來另成一個項目。"
         },
         {
-          "en": "He had gone down a rabbit hole of costume references before noticing that the meeting needed only a simple colour decision.",
-          "zh": "他不知不覺深入一連串服裝資料，才留意到會議只需要簡單定一個顏色。"
+          "en": "The recipe index led readers into a rabbit hole of regional food histories, although they had opened it only to check one cooking time.",
+          "zh": "讀者原只想核對一道菜的烹調時間，食譜索引卻令他們一路深入各地飲食歷史。"
         }
       ],
       "review": {

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2585",
+      "number": 2585,
+      "inventoryId": "expr-2585",
+      "titleEn": "caught up in social pressure",
+      "titleZh": "被社交壓力牽着走",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:caught up|catch(?:es|ing)? up) in social pressure\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become so entangled in others’ expectations that one’s choices are driven by that pressure.",
+        "meaningZh": "深受別人期望牽制，令自己的選擇被那股壓力帶動。",
+        "grammar": "Be/get caught up in social pressure; not the different catch up with someone (reach the same pace) of canonical 1521. Name the expectation and choice it affects.",
+        "register": "Neutral conversational or advisory English. A youth worker may use it when discussing online comparison with a student.",
+        "boundaryZh": "須有別人的期望或比較如何影響決定的證據；單純知道流行趨勢而自行選擇，不等於被社交壓力牽着走。",
+        "misconceptionZh": "不是趕上功課進度，也不表示每個人都無法拒絕同儕要求。",
+        "outcomeZh": "能指出壓力來源、受影響的選擇及重新衡量自身需要的做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0474",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 44,
+          "book": 11,
+          "question": 3,
+          "sample": "S2",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 39, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teenagers can become caught up in social pressure online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "caught up in social pressure"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Tara enjoyed painting, but every friend in her feed posted costly fashion hauls. She nearly spent her art-course savings to match them, then realised she was caught up in social pressure and kept the course money.",
+        "zh": "塔拉喜歡繪畫，但社交平台朋友都分享昂貴服飾戰利品。她差點花掉美術課儲蓄來跟上，後來發現自己被社交壓力牽着走，保留了課程費。",
+        "promptZh": "甚麼顯示壓力影響決定？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She nearly used course savings to match friends’ posts.",
+            "zh": "她差點動用課程儲蓄來跟朋友貼文看齊。"
+          },
+          {
+            "id": "b",
+            "en": "She independently needed new art tools for class.",
+            "zh": "她本來就因上課需要新畫具。"
+          },
+          {
+            "id": "c",
+            "en": "She never saw what friends posted.",
+            "zh": "她從沒看過朋友貼文。"
+          },
+          {
+            "id": "d",
+            "en": "She was catching up on a late assignment.",
+            "zh": "她正在趕上遲交功課。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友展示影響原本的儲蓄選擇。"
+      },
+      "reply": {
+        "promptEn": "Several classmates buy expensive event tickets to avoid feeling excluded. Kim would rather save for a bicycle but feels pushed to buy one too. What can she say before deciding?",
+        "promptZh": "（幾名同學為免被排除而買昂貴活動門票。阿金本想儲錢買單車，卻感到被推着也買票。她決定前可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I should separate my own goal from the group expectation.",
+            "zh": "我應把自己的目標與團體期望分開。"
+          },
+          {
+            "id": "b",
+            "en": "Buying the ticket would use money set aside for my bicycle.",
+            "zh": "買票會用掉原本儲來買單車的錢。"
+          },
+          {
+            "id": "c",
+            "en": "I may be caught up in social pressure.",
+            "zh": "我可能被社交壓力牽着走。"
+          },
+          {
+            "id": "d",
+            "en": "I can consider whether the event matters to me personally.",
+            "zh": "我可以想想活動對我本人是否重要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均針對同儕期望與個人目標。"
+      },
+      "scene": {
+        "promptZh": "一名學生本想參加攝影班，但見同學都報昂貴旅行後，差點也報名，只為不被排除。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The student is caught up in social pressure.",
+            "zh": "學生被社交壓力牽着走。"
+          },
+          {
+            "id": "b",
+            "en": "The student is catching up on missed homework.",
+            "zh": "學生正追趕缺交的功課。"
+          },
+          {
+            "id": "c",
+            "en": "The student independently chose the trip for its itinerary.",
+            "zh": "學生只因行程而自行選旅行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同儕期望推動偏離原來目標的決定。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is caught up in social pressure？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A learner compares options, chooses the music class they already wanted and feels free to decline friends’ different choice.",
+            "zh": "學員比較選項，選原本想上的音樂課，也能自在拒絕朋友的不同選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A teenager buys a costly item mainly to avoid classmates’ criticism.",
+            "zh": "少年主要為免同學批評而買昂貴物品。"
+          },
+          {
+            "id": "c",
+            "en": "A student abandons a preferred club because everyone in the group expects another choice.",
+            "zh": "學生因同儕都期待另一選擇而放棄喜歡的社團。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "獨立而自在的選擇不顯示被壓力牽制。"
+      },
+      "dialogue": {
+        "promptEn": "A: I was going to keep my savings for lessons, but all my friends say I need the same new phone or I will look out of place. B: ______",
+        "promptZh": "（甲：我本想儲錢上課，但朋友都說我須買同款新電話，否則會格格不入。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their expectations are pulling against your own plan.",
+            "zh": "他們的期望與你原有計劃相衝。"
+          },
+          {
+            "id": "b",
+            "en": "You can weigh the phone against the lessons you wanted.",
+            "zh": "你可以比較電話與原本想上的課。"
+          },
+          {
+            "id": "c",
+            "en": "You may be caught up in social pressure.",
+            "zh": "你可能被社交壓力牽着走。"
+          },
+          {
+            "id": "d",
+            "en": "You do not have to decide just to avoid their comments.",
+            "zh": "你不必只為免受評論而決定。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句點出同儕期望的作用。"
+      },
+      "speaking": {
+        "en": "Arun almost changed his subject choice because his friends mocked the course he wanted; he recognised he was caught up in social pressure and asked the adviser about his own goals.",
+        "zh": "朋友嘲笑阿倫想選的科目，他差點改選；他發現自己被社交壓力牽着走，於是向輔導員談自己的目標。",
+        "promptZh": "指出期望、受影響決定及重新評估。",
+        "targetSpan": {
+          "start": 109,
+          "end": 137
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各因群體期望而差點放棄本來重視的選擇，之後重新衡量。用英文寫出壓力和行動。",
+        "selfCheckZh": "不可把所有受朋友影響都寫成不能自主；需有具體選擇受到牽制。",
+        "examples": [
+          {
+            "en": "Nia was caught up in social pressure when her club friends pushed her to buy matching gear, so she checked the actual rules and kept her repair budget.",
+            "zh": "社團朋友催妮雅買同款裝備，她被社交壓力牽着走；後來她查實際規則，保留維修預算。"
+          },
+          {
+            "en": "After classmates mocked his quiet weekend plan, Dev got caught up in social pressure and nearly booked a costly trip; he chose the volunteer shift he had already committed to.",
+            "zh": "同學嘲笑德夫安靜的週末安排後，他被社交壓力牽着走，差點訂昂貴旅行；最後他選擇先前承諾的義工班次。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "matching gear",
+            "zh": "同款裝備",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 90
+            }
+          },
+          {
+            "en": "repair budget",
+            "zh": "維修預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 150
+            }
+          },
+          {
+            "en": "costly trip",
+            "zh": "昂貴旅行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 116
+            }
+          },
+          {
+            "en": "volunteer shift",
+            "zh": "義工班次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Caught up in social pressure means letting others’ expectations drive a choice.",
+          "zh": "caught up in social pressure 指讓別人的期望左右選擇。"
+        },
+        {
+          "en": "Someone caught up in social pressure can still pause and reconsider.",
+          "zh": "被社交壓力牽着走的人仍可停下重新考慮。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2657",
+      "number": 2657,
+      "inventoryId": "expr-2657",
+      "titleEn": "blow up overnight",
+      "titleZh": "一夜爆紅",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:blow|blows|blew|blown|blowing) up overnight\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become widely noticed or popular very quickly, especially online.",
+        "meaningZh": "在很短時間內迅速受到廣泛注意或走紅，尤其在網上。",
+        "grammar": "Blow up overnight; subject is a person, post or work that gains attention. Overnight is figurative for rapid change, not necessarily one literal night; distinct from canonical 61 simple overnight timing.",
+        "register": "Informal contemporary English. A creator may use it when discussing a sudden jump in views with a friend.",
+        "boundaryZh": "須有短時間內明顯的大幅關注增長；只增加幾名熟人觀眾或作品真的爆炸，不是此義。",
+        "misconceptionZh": "不保證關注持久或有收入，也不一定是製作者毫無準備。",
+        "outcomeZh": "能指出原有曝光、迅速上升的可見資料，以及尚未確定的持續效果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0546",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 50,
+          "book": 11,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "25–27",
+          "locatorNote": "DOCX table 46, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An unknown artist can blow up overnight online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blow up overnight"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A small ceramics page usually had a few dozen views. After a museum shared one repair video, it reached hundreds of thousands in two days. The clip blew up overnight, though orders remained modest.",
+        "zh": "一個小陶瓷頁面平日只有數十觀看次數。博物館轉發一段修復影片後，兩天內達數十萬觀看。短片迅速爆紅，雖然訂單仍不多。",
+        "promptZh": "甚麼支持 blew up overnight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Views rose from dozens to hundreds of thousands in two days.",
+            "zh": "兩天內觀看次數由數十升至數十萬。"
+          },
+          {
+            "id": "b",
+            "en": "Orders immediately matched every view.",
+            "zh": "訂單立即與每次觀看相等。"
+          },
+          {
+            "id": "c",
+            "en": "The video was physically damaged by an explosion.",
+            "zh": "影片真的被爆炸毀壞。"
+          },
+          {
+            "id": "d",
+            "en": "The page had the same small audience for months.",
+            "zh": "頁面數月以來觀眾數目完全不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關注短時間急升，不等於收入急升。"
+      },
+      "reply": {
+        "promptEn": "A student’s repair tutorial had forty regular viewers. A large learning channel linked it, and by the next morning thousands had watched and shared it. How might the student describe the change?",
+        "promptZh": "（學生的維修教學平日有四十名觀眾。大型教學頻道連結它，翌晨已有數千人觀看和分享。學生可怎樣形容？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The audience grew extremely quickly.",
+            "zh": "觀眾極速增加。"
+          },
+          {
+            "id": "b",
+            "en": "The channel link brought wider attention.",
+            "zh": "頻道連結帶來更廣泛注意。"
+          },
+          {
+            "id": "c",
+            "en": "The tutorial blew up overnight.",
+            "zh": "教學影片一夜爆紅。"
+          },
+          {
+            "id": "d",
+            "en": "The new reach does not yet prove long-term demand.",
+            "zh": "新增曝光尚未證明長期需求。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據短時間觀看暴增。"
+      },
+      "scene": {
+        "promptZh": "本來只有數十人聽的樂曲，經知名主持分享後一天內獲數十萬次播放。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The song blew up overnight.",
+            "zh": "歌曲迅速爆紅。"
+          },
+          {
+            "id": "b",
+            "en": "The studio suffered a physical explosion.",
+            "zh": "錄音室真的爆炸。"
+          },
+          {
+            "id": "c",
+            "en": "The song has certainly earned the artist a stable income.",
+            "zh": "歌曲肯定已為歌手帶來穩定收入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "播放量急升是關注爆發，不保證收益。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a post blew up overnight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A post gains three extra views over six months and remains within the creator’s small circle.",
+            "zh": "貼文六個月只多三次觀看，仍只在製作者的小圈子流傳。"
+          },
+          {
+            "id": "b",
+            "en": "A clip moves from a few views to a large audience in a day.",
+            "zh": "短片一天內由少量觀看擴至大量觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "An unknown drawing spreads rapidly after a gallery shares it.",
+            "zh": "原本無人認識的畫被畫廊分享後迅速流傳。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "少量而緩慢增加不屬突然爆紅。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our local history clip usually gets thirty views, but after the archive shared it yesterday, twenty thousand people have watched it. B: ______",
+        "promptZh": "（甲：我們的地方歷史短片平日有三十次觀看，但檔案館昨天分享後，已有兩萬人看過。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That is a sudden rise in reach.",
+            "zh": "曝光突然上升。"
+          },
+          {
+            "id": "b",
+            "en": "The archive seems to have introduced it to a much larger audience.",
+            "zh": "檔案館似乎把它帶給更多觀眾。"
+          },
+          {
+            "id": "c",
+            "en": "It really blew up overnight.",
+            "zh": "它真的一夜爆紅。"
+          },
+          {
+            "id": "d",
+            "en": "We can watch whether the new attention lasts.",
+            "zh": "我們可以觀察新關注會否持續。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括短期關注急升。"
+      },
+      "speaking": {
+        "en": "The choir’s rehearsal clip blew up overnight after a school network shared it, but the members waited to see whether viewers would also attend the concert.",
+        "zh": "學校網絡分享合唱團綵排短片後，短片迅速爆紅，但團員仍等着看觀眾會否到音樂會。",
+        "promptZh": "區分急升觀看與未證實的持續行動。",
+        "targetSpan": {
+          "start": 27,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份原本只有小眾觀眾的作品在短時間內大幅走紅。用英文寫出原基線、增長和限制。",
+        "selfCheckZh": "兩例不可把短期曝光寫成保證長期成功。",
+        "examples": [
+          {
+            "en": "The neighbourhood map blew up overnight after a travel account shared it: weekly downloads jumped from fifty to ten thousand, although future use was unknown.",
+            "zh": "旅遊帳號分享社區地圖後，它迅速爆紅：每週下載由五十跳至一萬，雖然未來使用仍未確定。"
+          },
+          {
+            "en": "A volunteer’s sign-language lesson blew up overnight when a national museum linked it; views climbed from a few hundred to forty thousand, but she had not yet planned a series.",
+            "zh": "國家博物館連結一名義工的手語課後，影片迅速爆紅：觀看由數百升至四萬，但她尚未計劃系列。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekly downloads",
+            "zh": "每週下載",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 90
+            }
+          },
+          {
+            "en": "future use",
+            "zh": "未來使用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 145
+            }
+          },
+          {
+            "en": "national museum",
+            "zh": "國家博物館",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "planned a series",
+            "zh": "計劃系列",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 175
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Blow up overnight means gain wide attention very fast.",
+          "zh": "blow up overnight 指極短時間內獲得廣泛注意。"
+        },
+        {
+          "en": "A post that blows up overnight may not keep that audience.",
+          "zh": "一夜爆紅的貼文未必能留住觀眾。"
+        }
+      ]
+    }
+  ]
+}

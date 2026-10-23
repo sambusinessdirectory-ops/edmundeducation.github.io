@@ -1,0 +1,37 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Nine unselected Books 10–16 lessons: 2920, 2924, 2956, 2961, 3487, 3564, 3572, 3658, 3676",
+  "draftFiles": [
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2920-2956-a.json", "sha256": "5baf16469f86b525d627582765f1d492ff695511fe68f78e64174b303e750fd1"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-2961-3487-a.json", "sha256": "f7f0711035af3841ed60c015b39478b429ff1770dfbfd11337b8f99bb668ff97"},
+    {"path": "course-materials/advanced-native/drafts-books10-16/batch-3564-3676-a.json", "sha256": "7f27bf027f31f0ff5ea101b46d7d3ba8c2dd889873b4db5cff2e56c71055a73f"}
+  ],
+  "authorSelfAuditSha256": "2bb5d6838b0f89ab690f97d1de6f1720d909b2733ab4d9d338f030d63b121e5e",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "three-lessons-need-targeted-repair",
+  "validation": {
+    "focusedBuildAndCheck": "Independent combined build and --check pass: 9 lessons, 54 questions, 36 audio requests, zero flags.",
+    "sourceTargetSpansAndCollisions": "Nine source examples/phrases match inventory; nine target patterns match sources; all 27 keyed scene/dialogue/reply options match target; nine speaking spans and 36 answer-derived non-target glossary spans exact; four audio roles distinct per lesson; zero selected-ordinal collisions.",
+    "originality": "234 learner-facing English strings independently screened against 2,604 guide examples: zero non-own six-token overlaps and zero near-full fuzzy overlaps.",
+    "coverageLimit": "Risk-based editorial review focused owner sense, target use, reply validity, English–Traditional Chinese fidelity and writing examples. Mechanical passes cannot certify human listening or publication readiness."
+  },
+  "ownerComparison": {"lesson": 3487, "priorLesson": 2878, "judgment": "distinct-teaching-outcome", "evidence": "2878 'make headlines' means become a conspicuous news story. Source 3487 and every core exercise contrast one story's dominant placement with another story receiving less attention; 'grabs the headlines' teaches attention dominance, not merely publication prominence."},
+  "perLesson": [
+    {"number": 2920, "status": "clear", "note": "Removing redundant design elements improves use while preserving necessary information."},
+    {"number": 2924, "status": "repair-needed", "note": "One valid-reply option gives only a reason for the gathering, not Jo's planned action."},
+    {"number": 2956, "status": "clear", "note": "A rushed decision causes concrete harm and later remediation, beyond literal cleanup."},
+    {"number": 2961, "status": "clear", "note": "Showy presentation is grounded against missing promised utility."},
+    {"number": 3487, "status": "clear", "note": "Dominant headline placement and the displaced news item distinguish it from make headlines."},
+    {"number": 3564, "status": "clear", "note": "Initial authority-led decision remains distinct from later feedback."},
+    {"number": 3572, "status": "repair-needed", "note": "Two supposedly valid replies fail to identify the adults as safety decision-makers."},
+    {"number": 3658, "status": "minor-repairs", "note": "Unsupported gender in scene Chinese; second writing model mistranslates music club as a concert."},
+    {"number": 3676, "status": "clear", "note": "Loss, concrete new opportunity and remaining practical challenge are balanced."}
+  ],
+  "findings": [
+    {"id": "R2924-01", "severity": "major", "lesson": 2924, "path": "reply.options[3].en/zh", "observed": "The prompt asks 'What is Jo planning?' Option D 'The garden opening gives the gathering a reason' states the occasion, but never says Jo is planning or hosting a celebration; it is not an independently sufficient valid reply.", "repair": "Make D explicitly describe Jo's planned gathering or hosting action and its garden-opening purpose, in both languages, without the target phrase."},
+    {"id": "R3572-01", "severity": "major", "lesson": 3572, "path": "reply.options[1] and reply.options[3] (en/zh)", "observed": "The prompt asks who controls water-safety decisions. B only says children have a voice about activities, and D only says a child's suggestion is not a final rule. Neither independently identifies adults as the final safety authority.", "repair": "Retain the child-input nuance but name the adults' final safety control in both options, in English and Chinese; keep the golden target option C as the sole target-bearing reply."},
+    {"id": "R3658-01", "severity": "minor", "lesson": 3658, "path": "scene.options[0..2].zh", "observed": "The scene only says '有人' and English options use neutral 'They'; all three Chinese options impose male '他'.", "repair": "Use gender-neutral '這人'/'對方' or equivalent consistently across the three options."},
+    {"id": "R3658-02", "severity": "minor", "lesson": 3658, "path": "writing.examples[1].zh", "observed": "English 'The music club meets indoors each week' is translated '音樂會每週在室內聚會'; '音樂會' means a concert, not a music club.", "repair": "Translate the actor as '音樂社' or '音樂社團' while preserving the weekly indoor meeting and occasional park rehearsal."}
+  ],
+  "selectionRecommendation": "Hold 2924, 3572 and 3658 for exact-field repairs and follow-up. The other six lessons are content-clear at listed hashes. No release or human approval is implied."
+}

@@ -1,0 +1,76 @@
+{
+  "reviewKind": "independent-ai-hold-merges-wave9",
+  "createdUtc": "2026-10-23T17:48:39.111983+00:00",
+  "status": "content-clear-at-exact-hashes",
+  "authorAuditSha256": "75fbc42f2395ab11bd9f4679892c310863ea7bd9fd042237854a4b055f971943",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "fileHashes": {
+    "course-materials/advanced-native/batches/batch-0176-0200.json": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl": "dbaa0d6d9f5a019cef44518971fbdd9b6f1800cbf58f6eb47f5b4f2f0f816951",
+    "course-materials/advanced-native/batches/batch-1876-1900.json": "05bc229c93a2d3ce9d3f383358a7240c1c296411850a066f58b8ed41cfe6434c",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": "aa12fd926e7de79532501b4f6ac258530724aed60b8d29a7c07c4db38fdcf05f",
+    "course-materials/advanced-native/batches/batch-0451-0475.json": "a4261348a61501550d40ca96d4d4cc6c8126e5bf33d655048d091ee70b53e7b1",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl": "9557e4f453a0c6cdf28b938479ed1314d8fee1b533801069d599566eebb0be79",
+    "course-materials/advanced-native/batches/batch-0276-0300.json": "f147c3cfc6410827dbac4a97c7072511563a172c2207759a56d871cd61fe7d80"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3538,
+      "sourceId": "book10-16-1427",
+      "canonicalId": "advanced-native-178",
+      "decisionRowSha256": "b82f5567a724a7f1ce8f879509eaab9af8f35cb4bf93cc375f15528415f44d51",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 3845,
+      "sourceId": "book10-16-1734",
+      "canonicalId": "advanced-native-1889",
+      "decisionRowSha256": "127668636a87e6a58ab53743d59910767c9b698a01f7a216f9333389906293e4",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 3254,
+      "sourceId": "book10-16-1143",
+      "canonicalId": "advanced-native-473",
+      "decisionRowSha256": "719a9129ac8e98d0d0e5747535b2dd2e2428f6c286e94289092622374984de5b",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    },
+    {
+      "sourceOrdinal": 3500,
+      "sourceId": "book10-16-1389",
+      "canonicalId": "advanced-native-286",
+      "decisionRowSha256": "38b57c0a1a012fc2222f2f32c4cb32bf647c2f862e0fda7dc7bfe7bcb57dd72e",
+      "sourceAndProvenanceExact": true,
+      "fullSourceDetectorMatch": true,
+      "positiveAndNegativeControlsPassed": true,
+      "sameSense": true
+    }
+  ],
+  "editorialAssessment": {
+    "3538": "Gradual overtime-related health damage is a concrete object of chip away at, within the repeated-small-effects erosion owner.",
+    "3845": "The passive hospital construction describes an essential service nearing inability to cope, the institutional counterpart of stretching a person to breaking point; the text does not claim collapse already occurred.",
+    "3254": "One step at a time and step by step both teach manageable sequential progress. The repaired dialogue key keeps verification of each joint.",
+    "3500": "Visual pictures can catch people’s attention just as an opening catches listeners’ attention; owner meaning/grammar now covers seeing and hearing, while the repaired key distinguishes notice from comprehension."
+  },
+  "changedAssessedContent": "Reviewed repaired 286/473 target-bearing dialogue keys and Traditional Chinese; each key answers its prompt, with distinct alternatives. New takeaways are source-distinct and bilingual-aligned.",
+  "focusedBuildCheck": {
+    "lessons": 90,
+    "questions": 540,
+    "audioRequests": 360,
+    "reviewFlags": 0,
+    "build": "pass",
+    "check": "pass"
+  },
+  "scopeLimit": "Independent AI content/source review only; no human listening or release certification.",
+  "manifestEdited": false,
+  "published": false
+}

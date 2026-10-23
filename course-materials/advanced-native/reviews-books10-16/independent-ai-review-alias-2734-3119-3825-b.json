@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent-ai-exact-hash-canonical-alias-review",
+  "scope": "Provisional source 2734→canonical 116, 3119→canonical 549, 3825→canonical 100",
+  "status": "content-clear-at-exact-hashes",
+  "canonicalFiles": [
+    {"path": "course-materials/advanced-native/batches/batch-0101-0125.json", "sha256": "c254a5705c8bb2143363f99980463408c8259a6148f01509af0dc539dff5879a", "canonicalId": "advanced-native-116", "sourceOrdinal": 2734, "decisionSha256": "ba6254c1a3a243454a9eb1601289288b811d3df0ce5affad799c502b04cbd24a"},
+    {"path": "course-materials/advanced-native/batches/batch-0526-0550.json", "sha256": "7325da52ce28275dd49337ba798af205d35fcb64a516816e6ba2700943ec03ec", "canonicalId": "advanced-native-549", "sourceOrdinal": 3119, "decisionSha256": "83d53f9990d20983563124fc3f4066741cb8db33c98317ace408cfefbded0f4b"},
+    {"path": "course-materials/advanced-native/batches/batch-0076-0100.json", "sha256": "f2f0cdc4057f2393ad04348496e9b4c27adafde1262b855865392bc0117b6f38", "canonicalId": "advanced-native-100", "sourceOrdinal": 3825, "decisionSha256": "b14f9e1759cafc4a07cecbe4e5b2fde515dbb5cdecbc9af7a4230b8dce0a970b"}
+  ],
+  "authorImplementationAuditSha256": "3825e461bd0c1d5d4ca6a9a125a0a09ab759aa6569b1442dd6d756c092c06c77",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "validation": {
+    "focusedBuildAndCheck": "All three canonical batch files rebuild and --check with zero flags: 67 lessons, 402 questions, 268 audio requests total.",
+    "sourceCoverage": "All exact legacy source sentences and the three newly attached source sentences match their respective live case-insensitive target detectors.",
+    "keyAndGlossary": "Each revised lesson retains its five assessment answer IDs; keyed scene/reply/dialogue, speaking span and six exact, answer-derived non-target glossary spans pass independent checks.",
+    "patternControls": "Both old and alias forms match. Explicit malformed article, unrelated habit and partial-word negatives reject under case-insensitive matching.",
+    "audioDelta": "For each canonical 100, 116 and 549, only speaking and takeaway-2 audio text changed; listening and takeaway-1 remain byte-identical to the HEAD lesson text. Six synthesis requests therefore require new exact keys after selection."
+  },
+  "perOwner": [
+    {
+      "canonicalId": "advanced-native-116",
+      "sourceOrdinal": 2734,
+      "status": "clear",
+      "evidence": "Guide 'The actor has remained in the public eye for years' and the prior spotlight lesson both concern public attention, not enjoyment of it. The revised brief avoids falsely assigning a fixed duration to either phrase. The old project/shop/publicity examples remain valid; new dialogue, speaking, takeaway and writing teach the person-focused variant with EN/ZH alignment."
+    },
+    {
+      "canonicalId": "advanced-native-549",
+      "sourceOrdinal": 3119,
+      "status": "clear",
+      "evidence": "Guide 'A team can become trapped in old habits' expresses the same repeated, unhelpful behaviour as the existing old-pattern owner. New friend/committee/writing contexts name the habit and a testable small change. The original committee response, listening key and boundary against condemning all old methods remain intact."
+    },
+    {
+      "canonicalId": "advanced-native-100",
+      "sourceOrdinal": 3825,
+      "status": "clear",
+      "evidence": "Guide high rent making saving feel like 'an endless uphill climb' and canonical uphill battle both describe sustained effort against obstacles. The revised brief correctly avoids guaranteed success/failure or literal hill imagery; scene/speaking/writing teach the climb form while original hall/project tasks and their answer keys remain valid."
+    }
+  ],
+  "coverageLimit": "Read-only source-sense, changed-field EN/ZH, old-versus-new regression and exact-span review plus focused build/check. This is independent AI content clearance at the listed hashes; no audio was synthesized or listened to, and no release approval is claimed."
+}

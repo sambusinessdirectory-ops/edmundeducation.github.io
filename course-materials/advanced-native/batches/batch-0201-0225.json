@@ -1893,16 +1893,16 @@
     "titleZh": "在商業競爭中佔優",
     "category": "natural",
     "target": {
-      "pattern": "\\bcommercial edge\\b",
+      "pattern": "(?:\\bcommercial edge\\b)|(?:\\b(?:have|has|had|having) the edge on friendliness\\b)",
       "glossaryForbidden": [
         "\\bcommercial\\b",
         "\\bedge\\b"
       ]
     },
     "brief": {
-      "meaningEn": "An advantage that helps a business compete with other businesses.",
-      "meaningZh": "有助企業與其他企業競爭的優勢。",
-      "grammar": "give/have/gain a commercial edge over competitors.",
+      "meaningEn": "Have an advantage in a competitive setting; the edge can concern service, friendliness or another quality that distinguishes one business.",
+      "meaningZh": "在競爭環境中具有優勢；優勢可以來自服務、親切程度或其他令商戶突出的特點。",
+      "grammar": "a commercial edge / have the edge on a quality; the edge is a comparative advantage, not a physical blade. Has, had and having mark inflection.",
       "register": "Business natural collocation; edge is figurative advantage.",
       "boundaryZh": "是一項競爭優勢，不是保證利潤或銷售額；必須能說明怎樣有利於吸引或服務顧客。",
       "misconceptionZh": "優點未必是商業優勢，例如員工喜歡某裝飾不一定影響企業競爭。",
@@ -1921,6 +1921,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 23, table 1, row 2; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p023-t1-r02"
+      },
+      {
+        "occurrenceId": "book10-16-1681",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 158,
+        "book": 14,
+        "question": 25,
+        "sample": "S1",
+        "sourceBookPages": "55–56",
+        "locatorNote": "DOCX table 169, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Local stores may have the edge on friendliness.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "have the edge"
       }
     ],
     "listening": {
@@ -2029,8 +2043,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Which customer need does it meet better than the alternatives?",
-          "zh": "它比其他選擇更能滿足顧客哪項需要？"
+          "en": "What evidence shows it gives us a commercial edge by meeting a customer need better than the alternatives?",
+          "zh": "有甚麼證據顯示它比其他選擇更能滿足顧客需要，令我們取得商業競爭優勢？"
         },
         {
           "id": "b",
@@ -2113,8 +2127,8 @@
         "zh": "可靠服務能讓企業更具商業競爭優勢。"
       },
       {
-        "en": "The new feature gave the company a commercial edge over its rivals.",
-        "zh": "新功能讓公司比對手更具商業競爭優勢。"
+        "en": "The independent café may have the edge on friendliness even if the chain opens earlier.",
+        "zh": "即使連鎖店較早營業，獨立咖啡店或許在親切服務方面更有優勢。"
       }
     ],
     "review": {
@@ -2141,7 +2155,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-209",

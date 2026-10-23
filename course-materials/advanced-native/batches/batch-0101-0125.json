@@ -1914,7 +1914,7 @@
     "titleZh": "維繫團體的凝聚力量",
     "category": "figurative",
     "target": {
-      "pattern": "\\bthe glue that holds the (?:group|team) together\\b",
+      "pattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)",
       "glossaryForbidden": [
         "\\bglue\\b",
         "\\bholds?\\b",
@@ -1924,7 +1924,7 @@
     "brief": {
       "meaningEn": "The person or factor that keeps a group connected and functioning together.",
       "meaningZh": "讓團體保持連繫、團結與合作的人或因素。",
-      "grammar": "X is the glue that holds the group/team together; glue is uncountable in this metaphor.",
+      "grammar": "X is the glue that holds a group together; X can also act like glue, helping family or team members stay connected. The glue is metaphorical.",
       "register": "Positive, vivid metaphor for cohesion.",
       "boundaryZh": "不只是單項任務表現好，而是有維繫合作的作用；可指信任、習慣或人。",
       "misconceptionZh": "不是一個人必須包辦所有事情；有凝聚作用也不保證沒有分歧。",
@@ -1943,6 +1943,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 13, table 2, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p013-t2-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0834",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 77,
+        "book": 12,
+        "question": 8,
+        "sample": "S1",
+        "sourceBookPages": "20–22",
+        "locatorNote": "DOCX table 78, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Shared meals can act like glue in a busy family.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "act like glue"
       }
     ],
     "listening": {
@@ -2144,8 +2158,8 @@
         "zh": "坦誠溝通是維繫團隊的凝聚力量。"
       },
       {
-        "en": "For us, the weekly meal is the glue that holds the group together.",
-        "zh": "對我們來說，每星期的聚餐是維繫小組的凝聚力量。"
+        "en": "A trusted coordinator can act like glue when two volunteer teams need to cooperate.",
+        "zh": "兩支義工隊需要合作時，一位受信任的統籌者可以發揮凝聚作用。"
       }
     ],
     "review": {
@@ -2174,7 +2188,7 @@
         "Full AI author self-review completed for this draft: checked four contextually valid replies, nearby distractors, bilingual meanings, source locators, target-bearing audio lines and answer-derived glossary support. Independent review, audio and browser evidence remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-112",
@@ -3181,7 +3195,7 @@
     "titleZh": "理解彼此的想法",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:get|gets|getting|got|gotten) on the same wavelength\\b",
+      "pattern": "(?:\\b(?:get|gets|getting|got|gotten) on the same wavelength\\b)|(?:\\b(?:am|are|is|was|were|be|been|being) on the same wavelength\\b)",
       "glossaryForbidden": [
         "\\bwavelength\\b",
         "\\bsame\\b"
@@ -3190,7 +3204,7 @@
     "brief": {
       "meaningEn": "Begin to understand one another and think in a compatible way.",
       "meaningZh": "開始理解彼此，想法能互相配合。",
-      "grammar": "get on the same wavelength (as someone); be on the same wavelength describes the state.",
+      "grammar": "get on the same wavelength marks reaching mutual understanding; be on the same wavelength describes an existing shared way of thinking. Use a suitable form of be or get.",
       "register": "Neutral to informal communication idiom.",
       "boundaryZh": "不要求每個細節都同意，而是能理解彼此的意思、目標或做法。",
       "misconceptionZh": "不用真的談無線電，也不表示永遠沒有分歧；get 強調逐漸達到共通理解。",
@@ -3209,6 +3223,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 13, table 2, row 8; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p013-t2-r08"
+      },
+      {
+        "occurrenceId": "book10-16-1091",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 101,
+        "book": 12,
+        "question": 35,
+        "sample": "S2",
+        "sourceBookPages": "84–85",
+        "locatorNote": "DOCX table 105, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The two friends are on the same wavelength.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "on the same wavelength"
       }
     ],
     "listening": {
@@ -3410,8 +3438,8 @@
         "zh": "幾個清楚例子可以幫助我們理解彼此的想法。"
       },
       {
-        "en": "We got on the same wavelength by checking our expectations together.",
-        "zh": "我們一起確認期望，藉此理解彼此的想法。"
+        "en": "The designers are on the same wavelength about the colour scheme, though they still disagree on cost.",
+        "zh": "設計師對配色想法一致，但仍未就成本達成共識。"
       }
     ],
     "review": {
@@ -3440,29 +3468,30 @@
         "Full AI author self-review completed for this draft: checked four contextually valid replies, nearby distractors, bilingual meanings, source locators, target-bearing audio lines and answer-derived glossary support. Independent review, audio and browser evidence remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-116",
     "number": 116,
     "inventoryId": "expr-0116",
-    "titleEn": "in the spotlight",
-    "titleZh": "成為眾人焦點",
+    "titleEn": "in the spotlight / in the public eye",
+    "titleZh": "成為公眾焦點",
     "category": "idiom",
     "target": {
-      "pattern": "\\bin the spotlight\\b",
+      "pattern": "\\b(?:in\\s+the\\s+spotlight|in\\s+the\\s+public\\s+eye)\\b",
       "glossaryForbidden": [
-        "\\bspotlight\\b"
+        "\\bspotlight\\b",
+        "\\bpublic eye\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Receiving a lot of public attention.",
-      "meaningZh": "受到大量公眾或眾人的注意。",
-      "grammar": "be/put someone in the spotlight; in remains part of the phrase.",
-      "register": "Neutral media and everyday idiom; attention may be positive or negative.",
-      "boundaryZh": "不一定是表揚，也不一定真的站在舞台燈光下；要有受到矚目的意思。",
-      "misconceptionZh": "成為焦點不代表本人喜歡被注意，也不證明有名氣或成就。",
-      "outcomeZh": "能描述受到矚目及當事人的不同感受。"
+      "meaningEn": "Receiving a lot of public attention; in the public eye often describes a person who is widely visible in media.",
+      "meaningZh": "受到大量公眾注意；in the public eye 常形容人物在媒體上廣為人知。",
+      "grammar": "Be/put someone in the spotlight; be/remain in the public eye. Both phrases refer to public attention, and neither fixes how long it lasts.",
+      "register": "Neutral media language; a journalist explains public visibility and interview boundaries to a colleague.",
+      "boundaryZh": "兩個片語都可指公開受注目；不能只以時間長短區分，也不保證當事人喜歡受訪。",
+      "misconceptionZh": "公眾注意不等於讚賞、完全公開私生活或願意接受每次訪問。",
+      "outcomeZh": "能描述人物受到廣泛公眾注意，並把曝光與本人意願分開。"
     },
     "sources": [
       {
@@ -3516,6 +3545,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 238, table 1, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p238-t1-r07"
+      },
+      {
+        "occurrenceId": "book10-16-0623",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 57,
+        "book": 11,
+        "question": 17,
+        "sample": "S1",
+        "sourceBookPages": "45–46",
+        "locatorNote": "DOCX table 53, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The actor has remained in the public eye for years.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "in the public eye"
       }
     ],
     "listening": {
@@ -3624,8 +3667,8 @@
       "options": [
         {
           "id": "a",
-          "en": "She is in the spotlight but may feel uneasy.",
-          "zh": "她成為焦點，但可能感到不自在。"
+          "en": "She is in the public eye but may feel uneasy about the attention.",
+          "zh": "她廣受公眾注目，但可能對這些關注感到不自在。"
         },
         {
           "id": "b",
@@ -3639,74 +3682,83 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "外界注意與個人感受不同，不替當事人下結論。"
+      "explanationZh": "廣受公眾注目與個人感受不同，不能替當事人判定她一定開心。"
     },
     "speaking": {
-      "en": "I was in the spotlight after the announcement, but I needed time to adjust.",
-      "zh": "公布後我成為了焦點，但需要時間適應。",
-      "promptZh": "先聽示範，再說明受到注意與適應之間的關係。",
+      "en": "After months of news coverage, she was in the public eye, but she still needed privacy.",
+      "zh": "經過數月新聞報道後，她廣受公眾注目，但仍需要私隱。",
+      "promptZh": "指出媒體曝光與私隱需要可同時存在。",
       "targetSpan": {
-        "start": 6,
-        "end": 22
+        "start": 39,
+        "end": 56
       }
     },
     "writing": {
-      "promptZh": "新情境：你的小組作品在網上受到大量報道，但其中一名組員不喜歡受訪。用一至兩句英文描述情況，並照顧她的感受。",
-      "selfCheckZh": "描述受到矚目，但不要假定每人都享受；提出尊重個人意願的安排。",
+      "promptZh": "新情境：一位年輕科學家的研究連續數月獲全國媒體報道；她不喜歡受訪，團隊應讓她選擇分享甚麼。用英文說明她受公眾注意及尊重其意願。",
+      "selfCheckZh": "兩個示範都應寫出年輕科學家、研究連續數月獲全國媒體報道、她不喜歡受訪，以及團隊尊重其分享選擇。",
       "examples": [
         {
-          "en": "Our group is in the spotlight, but not everyone enjoys interviews. We should let her choose how to take part.",
-          "zh": "我們小組成為焦點，但不是每個人都喜歡受訪。我們應讓她選擇怎樣參與。"
+          "en": "The young scientist has been in the public eye after months of national coverage of her research, but she dislikes interviews; the team should let her choose what to share.",
+          "zh": "這位年輕科學家的研究連續數月獲全國媒體報道，因此廣受公眾注目；但她不喜歡受訪，團隊應讓她選擇分享甚麼。"
         },
         {
-          "en": "The project has put us in the spotlight, so we need to share the attention in a way that respects everyone’s comfort.",
-          "zh": "項目令我們成為焦點，所以我們需要以尊重每個人舒適程度的方式分配受訪等安排。"
+          "en": "Months of national reporting have put the young scientist in the spotlight for her research, yet she does not enjoy interviews. Her team should respect her choice about what to make public.",
+          "zh": "全國媒體連續數月報道這位年輕科學家的研究，令她成為焦點；但她不喜歡受訪。團隊應尊重她對公開內容的選擇。"
         }
       ],
       "glossary": [
         {
-          "en": "Our group",
-          "zh": "我們小組",
+          "en": "young scientist",
+          "zh": "年輕科學家",
           "exampleIndex": 0,
           "span": {
-            "start": 0,
-            "end": 9
+            "start": 4,
+            "end": 19
           }
         },
         {
-          "en": "enjoys interviews",
-          "zh": "喜歡受訪",
+          "en": "national coverage",
+          "zh": "全國媒體報道",
           "exampleIndex": 0,
           "span": {
-            "start": 48,
-            "end": 65
+            "start": 63,
+            "end": 80
           }
         },
         {
-          "en": "choose how to take part",
-          "zh": "選擇怎樣參與",
+          "en": "choose what to share",
+          "zh": "選擇分享甚麼",
           "exampleIndex": 0,
           "span": {
-            "start": 85,
-            "end": 108
+            "start": 151,
+            "end": 171
           }
         },
         {
-          "en": "share the attention",
-          "zh": "分擔受到的關注",
+          "en": "does not enjoy interviews",
+          "zh": "不喜歡受訪",
           "exampleIndex": 1,
           "span": {
-            "start": 55,
-            "end": 74
+            "start": 101,
+            "end": 126
           }
         },
         {
-          "en": "everyone’s comfort",
-          "zh": "每個人的舒適程度",
+          "en": "respect her choice",
+          "zh": "尊重她的選擇",
           "exampleIndex": 1,
           "span": {
-            "start": 98,
-            "end": 116
+            "start": 144,
+            "end": 162
+          }
+        },
+        {
+          "en": "make public",
+          "zh": "公開",
+          "exampleIndex": 1,
+          "span": {
+            "start": 177,
+            "end": 188
           }
         }
       ]
@@ -3717,8 +3769,8 @@
         "zh": "獎項令項目成為焦點。"
       },
       {
-        "en": "She felt nervous in the spotlight despite the positive response.",
-        "zh": "雖然反應正面，她成為焦點時仍感緊張。"
+        "en": "Being in the public eye does not mean someone welcomes every interview.",
+        "zh": "廣受公眾注目，不等於當事人願意接受每次訪問。"
       }
     ],
     "review": {
@@ -3747,7 +3799,7 @@
         "Full AI author self-review completed for this draft: checked four contextually valid replies, nearby distractors, bilingual meanings, source locators, target-bearing audio lines and answer-derived glossary support. Independent review, audio and browser evidence remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-117",

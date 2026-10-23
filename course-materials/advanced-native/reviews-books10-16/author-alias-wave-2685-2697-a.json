@@ -1,0 +1,53 @@
+{
+  "auditKind": "author-two-held-cultural-metaphor-aliases",
+  "createdUtc": "2026-10-23T17:40:47.399280+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2685,
+      "sourceId": "book10-16-0574",
+      "sourceExpression": "lock it in a glass case",
+      "sourceExample": "We should not lock it in a glass case simply because it is old.",
+      "sourceMeaning": "Preserve something so rigidly that it cannot be used; a museum-case metaphor.",
+      "canonicalOwner": "advanced-native-1054",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1051-1075.json",
+      "canonicalBatchSha256": "790ba2b71518e3b17b578fbaca764e138a45e08614df854d7211b36269520361",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "aa7f55ad1b96bf4fa733c7059d6839e6f3382c1c5b97563d5e9d6c0589a681a6",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The source “We should not lock it in a glass case simply because it is old” uses the same museum-display image as canonical 1054 “sitting in a glass case”: preserving a living cultural practice so rigidly that practice stops. Locking is the active causative frame, not a new metaphor. The owner now teaches it alongside sitting, records exact source provenance and gives a changed cooking-tradition example."
+    },
+    {
+      "sourceOrdinal": 2697,
+      "sourceId": "book10-16-0586",
+      "sourceExpression": "take the wind out of the industry's sails",
+      "sourceExample": "Falling sales could take the wind out of the industry's sails.",
+      "sourceMeaning": "Weaken an industry's energy or progress; a fixed sailing metaphor.",
+      "canonicalOwner": "advanced-native-422",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0401-0425.json",
+      "canonicalBatchSha256": "fe8bbc3493367e7b4afde479d988c39dc0fbef0b831a14e844eb07573f667805",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "aa7f55ad1b96bf4fa733c7059d6839e6f3382c1c5b97563d5e9d6c0589a681a6",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The source “Falling sales could take the wind out of the industry’s sails” uses the full wind-and-sails setback idiom; canonical 422’s shortened “take the wind out of” describes reduced force or appeal. Industry momentum versus a work’s suspense changes the affected object, not the underlying loss-of-drive image. The owner now teaches both uses, records exact source provenance and gives a new youth-orchestra transfer example."
+    }
+  ],
+  "reviewNotes": [
+    "2685 active lock-it form and canonical 1054 passive sitting form both criticise preserving a living tradition without practice; new cooking-tradition example is distinct from source traditional music.",
+    "2697 full out-of-sails form extends canonical 422 shortened wind-out-of frame from reduced suspense to weakened group momentum; new youth-orchestra transfer and target-bearing dialogue are aligned in EN/ZH.",
+    "Both original lesson assessments remain; source provenance, briefs and target coverage were extended.",
+    "Canonical 1054 dialogue key was corrected to 'stop the tradition from simply sitting in a glass case' with natural aligned Traditional Chinese; content revision advanced to 3."
+  ],
+  "focusedBuildCheck": "PASS: 2 canonical batches, 45 lessons, 270 questions, 180 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows, zero gaps, schema errors, selected alias detector exceptions, exact guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

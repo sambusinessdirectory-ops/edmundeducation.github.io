@@ -6,12 +6,12 @@
       "id": "advanced-native-1001",
       "number": 1001,
       "inventoryId": "expr-1001",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "chalk-and-talk model",
       "titleZh": "以講解和板書為主的教學",
       "category": "natural",
       "target": {
-        "pattern": "\\bchalk[- ]and[- ]talk model\\b"
+        "pattern": "(?:\\bchalk[- ]and[- ]talk model\\b)|(?:\\bchalk[- ]and[- ]talk teaching\\b)"
       },
       "sources": [
         {
@@ -27,12 +27,26 @@
           "sentence": "The class moved beyond the chalk-and-talk model.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page98, table2, row2; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-1476",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 138,
+          "book": 14,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–10",
+          "locatorNote": "DOCX table 147, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The school is using less chalk-and-talk teaching.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "chalk-and-talk teaching"
         }
       ],
       "brief": {
         "meaningEn": "A teacher-led approach centred on spoken explanation and board work, with learners mainly listening.",
         "meaningZh": "以教師講解及板書為中心、學生主要聆聽的教學方式。",
-        "grammar": "the chalk-and-talk model; chalk-and-talk modifies model; distinguish the American chalk talk, a diagram-supported lecture.",
+        "grammar": "the chalk-and-talk model / chalk-and-talk teaching; chalk-and-talk modifies model or teaching and refers to explanation plus board work with learners mainly listening. Distinguish American chalk talk, a diagram-supported lecture.",
         "register": "British education term, sometimes critical. Collins describes its teacher-and-board focus; the term alone does not prove a lesson is ineffective.",
         "boundaryZh": "不能因出現黑板便判定整課只有講授，也不能只把黑板換螢幕就說互動增加。",
         "misconceptionZh": "說清學生實際做甚麼，不把教學器材直接當成學習效果。",
@@ -241,8 +255,8 @@
           "zh": "課堂先以講解和板書作介紹，之後進行實作。"
         },
         {
-          "en": "Our tutor used the chalk-and-talk model to introduce the period, then asked us to compare two accounts of the same event.",
-          "zh": "導師先以講解和板書介紹那段時期，再請我們比較同一事件的兩份敘述。"
+          "en": "The science department reduced chalk-and-talk teaching by adding laboratory demonstrations.",
+          "zh": "科學科加入實驗示範，減少單靠教師講解和板書的教學。"
         }
       ],
       "review": {
@@ -4083,12 +4097,12 @@
       "id": "advanced-native-1020",
       "number": 1020,
       "inventoryId": "expr-1020",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "bells and whistles",
       "titleZh": "吸引人但未必必需的附加功能",
       "category": "idiom",
       "target": {
-        "pattern": "\\bbells and whistles\\b"
+        "pattern": "\\b(?:bells and whistles|(?:every|each) bell and whistle)\\b"
       },
       "sources": [
         {
@@ -4104,13 +4118,27 @@
           "sentence": "The basic model works without all the bells and whistles.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "Actual PDF page101, table1, row2; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "book10-16-0339",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "63–65",
+          "locatorNote": "DOCX table 26, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The basic model works well without every bell and whistle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "every bell and whistle"
         }
       ],
       "brief": {
         "meaningEn": "Extra features intended to make something more attractive or impressive, beyond its basic function.",
         "meaningZh": "基本功能以外，用來增加吸引力或氣派的附加功能。",
-        "grammar": "with/without all the bells and whistles; distinguish essential requirements from attractive extras in context.",
-        "register": "Informal, sometimes critical. Extras may be useful to some people; the phrase does not prove they are all worthless.",
+        "grammar": "with/without all the bells and whistles; without every bell and whistle is a singular distributive variant. Distinguish essential requirements from attractive extras in context.",
+        "register": "Informal, sometimes critical. A buyer may tell a friend that a basic model works without every bell and whistle; extras may still be useful to some people.",
         "boundaryZh": "需按用途判必需與附加，不由花巧就推產品完全差或基本版一定合所有人。",
         "misconceptionZh": "新功能的吸引力與是否回應目前需要不同。",
         "outcomeZh": "能列核心需要，再審慎評估附加項目的作用。"

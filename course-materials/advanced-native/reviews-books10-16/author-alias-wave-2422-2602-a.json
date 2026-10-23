@@ -1,0 +1,52 @@
+{
+  "auditKind": "author-two-productive-construction-held-to-existing-aliases",
+  "createdUtc": "2026-10-23T17:32:42.986054+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2422,
+      "sourceId": "book10-16-0311",
+      "sourceExpression": "eat up the whole day",
+      "sourceExample": "The repairs could eat up the whole day.",
+      "sourceMeaning": "Consume all available time; a natural figurative phrasal verb.",
+      "canonicalOwner": "advanced-native-579",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0576-0600.json",
+      "canonicalBatchSha256": "3468bb34e0bdeb8dc1ea2fb404d466b378dfd5719be3015efbd850e927e878a1",
+      "contentRevision": 3,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "7cdf788c6a21a0c27018d3be465be96b2f1f63a855d14a6cbb4db78c4d51895a",
+      "sourceProvenanceExact": true,
+      "sourceAndPositiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The source “The repairs could eat up the whole day” uses the same time-consumption metaphor as canonical 579 “eat up half the day”; whole versus half specifies duration, not a separate idiom sense. The owner now teaches both quantities, retains exact source provenance and covers the full sentence with a bounded detector."
+    },
+    {
+      "sourceOrdinal": 2602,
+      "sourceId": "book10-16-0491",
+      "sourceExpression": "room to manoeuvre",
+      "sourceExample": "A larger budget gives the team room to manoeuvre.",
+      "sourceMeaning": "Freedom to make choices or adjust plans; a fixed spatial image.",
+      "canonicalOwner": "advanced-native-1875",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1851-1875.json",
+      "canonicalBatchSha256": "2a945c4d4699d6735bdf2c27429f7c7560c9df0d5829948bc0b88118adca166c",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "decisionFileSha256": "eab6576689ff74798ea802b0f1d5b2e42dfe8816fc0499780c87099b57346c3a",
+      "sourceProvenanceExact": true,
+      "sourceAndPositiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "The source “A larger budget gives the team room to manoeuvre” expresses the same freedom-to-adapt sense as canonical 1875 “the least room to manoeuvre”; least adds a comparison, not a separate meaning. The owner now teaches base and superlative forms, retains exact provenance and covers the source sentence."
+    }
+  ],
+  "reviewNotes": [
+    "2422 differs from canonical 579 by time quantity (whole versus half day), retaining the same time-consumption phrasal verb. A new catalogue context rehearses whole day without repeating the guide repairs scene; canonical 579 dialogue key now naturally uses the target.",
+    "2602 is the base room-to-manoeuvre phrase, while canonical 1875 teaches its least-room superlative in a comparison; a new museum staffing example rehearses the base phrase.",
+    "Original seven-step assessments remain intact; modified briefs, bounded detectors and source provenance cover both constructions."
+  ],
+  "focusedBuildCheck": "PASS: 2 canonical batches plus concurrent 801 check, 65 lessons, 390 questions, 260 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 intake/decision rows, zero source gaps, schema errors, selected alias detector exceptions, exact guide copies, near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

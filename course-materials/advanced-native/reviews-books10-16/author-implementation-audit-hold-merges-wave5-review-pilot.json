@@ -1,0 +1,287 @@
+{
+  "reviewType": "AI author self-audit, not independent human or release approval",
+  "scope": "Fifth conservative hold-to-existing-owner wave; eight source/meaning matched constructions, with ambiguous readings retained on hold.",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "owners": [
+    {
+      "canonicalId": "advanced-native-110",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0101-0125.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bthe glue that holds the (?:group|team) together\\b",
+      "newPattern": "(?:\\bthe glue that holds the (?:group|team) together\\b)|(?:\\b(?:act|acts|acted|acting) like glue\\b)",
+      "sourceOrdinals": [
+        2945
+      ],
+      "positive": [
+        "Shared meals can act like glue in a busy family.",
+        "A trusted coordinator can act like glue when two volunteer teams need to cooperate."
+      ],
+      "negative": [
+        "The paste stuck the paper together.",
+        "The coordinator bought glue."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "71b4715311a7987f59d3d830a4cb93ddd452b2f3ef09d6475462756b1d828411"
+    },
+    {
+      "canonicalId": "advanced-native-464",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0451-0475.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bbuild(?:ing|s)? a house on sand\\b|\\bbuilt a house on sand\\b",
+      "newPattern": "(?:\\bbuild(?:ing|s)? a house on sand\\b|\\bbuilt a house on sand\\b)|(?:\\b(?:build|builds|built|building) on sand\\b)",
+      "sourceOrdinals": [
+        3341
+      ],
+      "positive": [
+        "Planning around uncertain dates can feel like building on sand.",
+        "They were building on sand by budgeting from an unverified grant estimate."
+      ],
+      "negative": [
+        "They built on a concrete foundation.",
+        "A house stands beside the sand."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "7cfc0e1acdda990bbc6de7ffc59f305478f30973e3756d958a1b8db703904754"
+    },
+    {
+      "canonicalId": "advanced-native-351",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0351-0375.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bpric(?:e|es|ed|ing) (?:train travel |the tickets |the classes |them |it )?out of (?:people[’']s|our|their|my|many families[’']) reach\\b",
+      "newPattern": "(?:\\bpric(?:e|es|ed|ing) (?:train travel |the tickets |the classes |them |it )?out of (?:people[’']s|our|their|my|many families[’']) reach\\b)|(?:\\bpriced out of higher education\\b)",
+      "sourceOrdinals": [
+        3580
+      ],
+      "positive": [
+        "No qualified student should be priced out of higher education.",
+        "Rising tuition can leave capable applicants priced out of higher education."
+      ],
+      "negative": [
+        "The student chose a different subject.",
+        "The university priced books affordably."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "54f81bdf9c3bece9553c930afe857ad5ce6854f3ecbd117c605a3e641f631763"
+    },
+    {
+      "canonicalId": "advanced-native-1586",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1576-1600.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bfriends\\s+can\\s+hold\\s+your\\s+hand\\b",
+      "newPattern": "(?:\\bfriends\\s+can\\s+hold\\s+your\\s+hand\\b)|(?:\\b(?:hold|holds|held|holding) your hand every step of the way\\b)",
+      "sourceOrdinals": [
+        3611
+      ],
+      "positive": [
+        "At university, nobody will hold your hand every step of the way.",
+        "The supervisor cannot hold your hand every step of the way once the research project begins."
+      ],
+      "negative": [
+        "The nurse held your hand during the injection.",
+        "The supervisor wrote the plan alone."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "172d9a93676a5c122e3d691a21a5c6685bff81fa85294e5a6d95f80adf1f4124"
+    },
+    {
+      "canonicalId": "advanced-native-563",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0551-0575.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bunfamiliar territory\\b",
+      "newPattern": "(?:\\bunfamiliar territory\\b)|(?:\\bnew territory\\b)",
+      "sourceOrdinals": [
+        4203
+      ],
+      "positive": [
+        "Coding was new territory for my parents.",
+        "Teaching adults online was new territory for the museum staff, so they ran a small pilot first."
+      ],
+      "negative": [
+        "The country gained another region.",
+        "The museum opened a new room."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "5dce1452a302a67b6b18d1aa49b3df8a67583d387907d99cc4af291155cda308"
+    },
+    {
+      "canonicalId": "advanced-native-1830",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1826-1850.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bstep(?:s|ped|ping)? out of (?:my|your|his|her|our|their) usual bubble\\b",
+      "newPattern": "(?:\\bstep(?:s|ped|ping)? out of (?:my|your|his|her|our|their) usual bubble\\b)|(?:\\b(?:pull|pulls|pulled|pulling) people out of their usual bubble\\b)",
+      "sourceOrdinals": [
+        4615
+      ],
+      "positive": [
+        "Travel pulls people out of their usual bubble.",
+        "The exchange project pulled people out of their usual bubble by pairing neighbours from different streets."
+      ],
+      "negative": [
+        "The project pulled people out of a damaged lift.",
+        "People stayed in the same familiar group."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be"
+    },
+    {
+      "canonicalId": "advanced-native-1809",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1801-1825.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bthe postcard view\\b",
+      "newPattern": "(?:\\bthe postcard view\\b)|(?:\\bthe postcard version\\b)",
+      "sourceOrdinals": [
+        4643
+      ],
+      "positive": [
+        "The viewpoint offers the postcard version of Hong Kong.",
+        "The brochure shows the postcard version of the fishing village; the interviews tell a fuller story."
+      ],
+      "negative": [
+        "The shop printed a postcard with blue ink.",
+        "The brochure lists bus times only."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "df872517370ef7364bad494c05e3d40af4b5d8a9ca2cdbe0f5b6581705db2659"
+    },
+    {
+      "canonicalId": "advanced-native-208",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0201-0225.json",
+      "beforeRevision": 1,
+      "afterRevision": 2,
+      "oldPattern": "\\bcommercial edge\\b",
+      "newPattern": "(?:\\bcommercial edge\\b)|(?:\\b(?:have|has|had|having) the edge on friendliness\\b)",
+      "sourceOrdinals": [
+        3792
+      ],
+      "positive": [
+        "Local stores may have the edge on friendliness.",
+        "The independent café may have the edge on friendliness even if the chain opens earlier."
+      ],
+      "negative": [
+        "The knife has an edge.",
+        "The stores are equally friendly."
+      ],
+      "newAudioRole": "takeaway-2",
+      "canonicalFileSha256": "8c2694f465664e412b8470294bd4a5ccf108f7b5454ee1cafa15f152f5b24ffe"
+    }
+  ],
+  "decisionRows": [
+    {
+      "sourceOrdinal": 2945,
+      "sourceId": "book10-16-0834",
+      "phrase": "act like glue",
+      "example": "Shared meals can act like glue in a busy family.",
+      "canonicalId": "advanced-native-110",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "decisionFileSha256": "504b3588067ddb8670ba205fb491ddbfa439d97d978d0bed1033d5a2ea441187"
+    },
+    {
+      "sourceOrdinal": 3341,
+      "sourceId": "book10-16-1230",
+      "phrase": "building on sand",
+      "example": "Planning around uncertain dates can feel like building on sand.",
+      "canonicalId": "advanced-native-464",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "03925b700391ae7bd1ba7a07f8b451341a532badb2c011ce78ace023e35ad291"
+    },
+    {
+      "sourceOrdinal": 3580,
+      "sourceId": "book10-16-1469",
+      "phrase": "priced out of higher education",
+      "example": "No qualified student should be priced out of higher education.",
+      "canonicalId": "advanced-native-351",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionFileSha256": "dfce45cf9eaa48a811addea3b63ecfdf3d768bdec06894bd5b56e11f91d6eab1"
+    },
+    {
+      "sourceOrdinal": 3611,
+      "sourceId": "book10-16-1500",
+      "phrase": "hold your hand every step of the way",
+      "example": "At university, nobody will hold your hand every step of the way.",
+      "canonicalId": "advanced-native-1586",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "decisionFileSha256": "dfce45cf9eaa48a811addea3b63ecfdf3d768bdec06894bd5b56e11f91d6eab1"
+    },
+    {
+      "sourceOrdinal": 4203,
+      "sourceId": "book10-16-2092",
+      "phrase": "new territory",
+      "example": "Coding was new territory for my parents.",
+      "canonicalId": "advanced-native-563",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "decisionFileSha256": "83561b046f47bfc00b5279dd4079a3b1a849374a17a977b2f33e7d7088fc3168"
+    },
+    {
+      "sourceOrdinal": 4615,
+      "sourceId": "book10-16-2504",
+      "phrase": "pulls people out of their usual bubble",
+      "example": "Travel pulls people out of their usual bubble.",
+      "canonicalId": "advanced-native-1830",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "decisionFileSha256": "b73e3c55d852c0bb517a4e136b4fe16ab57d3e099e7eedec75a97973a2ef130d"
+    },
+    {
+      "sourceOrdinal": 4643,
+      "sourceId": "book10-16-2532",
+      "phrase": "the postcard version",
+      "example": "The viewpoint offers the postcard version of Hong Kong.",
+      "canonicalId": "advanced-native-1809",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "decisionFileSha256": "a541adecf4d31b1173ee815a41ab5a66861ffdd1244debe3b1c686a7135cad3e"
+    },
+    {
+      "sourceOrdinal": 3792,
+      "sourceId": "book10-16-1681",
+      "phrase": "have the edge",
+      "example": "Local stores may have the edge on friendliness.",
+      "canonicalId": "advanced-native-208",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "decisionFileSha256": "f7e276e8f92520d0bd4338e8b2590af2af4e092d733b79709afcd25cd95b9636"
+    }
+  ],
+  "deferred": [
+    {
+      "sourceOrdinal": 2828,
+      "reason": "Canonical 2010 was just independently cleared in wave four; defer additional source until reviewed content hashes are checkpointed."
+    },
+    {
+      "sourceOrdinal": 3880,
+      "reason": "Canonical 785 was just independently cleared in wave four; defer dependent repeat until reviewed content hashes are checkpointed."
+    },
+    {
+      "sourceOrdinal": 3634,
+      "reason": "School-journey hand-holding could be literal as well as figurative; retain hold."
+    },
+    {
+      "sourceOrdinal": 4517,
+      "reason": "Elliptical keep pace needs a safe comparator boundary before canonical 590 expansion."
+    },
+    {
+      "sourceOrdinal": 4712,
+      "reason": "In the middle of the action changes the grammatical unit from canonical where the action is."
+    }
+  ],
+  "verification": {
+    "eightFocusedBatchBuildAndCheck": "8/8 build and --check, 0 review flags",
+    "wholeCatalogueVerifier": "2604/2604 decisions, 553 selected drafts, 3318 questions, 2212 audio roles, 0 schema/alias exceptions at check time",
+    "allDiscoveredExistingAliasAudit": "1069/1069 full-source matches, 0 exceptions at check time",
+    "holdCoverageAudit": "824 current holds, 0 unaudited, 0 errors at check time",
+    "provenance": "8/8 appended exact source examples with page/book/question/sample metadata",
+    "targetControls": "8/8 revised owners passed positive/negative controls and target-bearing dialogue keys",
+    "reviewStatus": "AI author self-audit only; independent B and human release gates open"
+  },
+  "counts": {
+    "canonicalOwnersRevised": 8,
+    "holdRowsConverted": 8,
+    "canonicalFilesChanged": 8,
+    "decisionFilesChanged": 7,
+    "changedAudioRequests": 8
+  }
+}

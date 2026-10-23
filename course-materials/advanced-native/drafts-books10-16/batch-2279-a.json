@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2279",
+      "number": 2279,
+      "inventoryId": "expr-2279",
+      "titleEn": "grounded in facts",
+      "titleZh": "以事實為根據",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:grounded|ground) in (?:facts|evidence)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Supported by verifiable facts or evidence rather than mere assumption.",
+        "meaningZh": "以可核實的事實或證據為依據，而非單憑猜測。",
+        "grammar": "An argument, claim or recommendation is grounded in facts/evidence; the subject is an idea, not a person feeling emotionally grounded.",
+        "register": "Neutral analytical English. A teacher may use it when asking students to support a recommendation with checked records.",
+        "boundaryZh": "須有可指出並已核實的資料支持說法；只說「我覺得」或展示未核實傳聞，不足以說 grounded in facts。",
+        "misconceptionZh": "此處不是人感覺安定，也不是證據越多就必然證明每個細節。",
+        "outcomeZh": "能指出具體證據、所支持的主張，以及證據仍有的限制。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0168",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 16,
+          "book": 10,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–34",
+          "locatorNote": "DOCX table 13, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her argument was grounded in facts rather than speculation.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grounded in facts"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A cycling group asked the council for a safer crossing. Its request was grounded in facts: a traffic count and three dated incident reports showed the junction was busy at school leaving time.",
+        "zh": "單車團體要求議會改善過路處。其要求以事實為根據：車流量統計及三份附日期事故報告顯示路口在放學時繁忙。",
+        "promptZh": "甚麼令要求有事實根據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The traffic count and dated incident reports support the claim.",
+            "zh": "車流量統計及附日期報告支持說法。"
+          },
+          {
+            "id": "b",
+            "en": "A member simply felt worried without checking the junction.",
+            "zh": "成員只是擔心，卻沒有查路口情況。"
+          },
+          {
+            "id": "c",
+            "en": "The council had already built a crossing before the request.",
+            "zh": "議會在要求前已建過路處。"
+          },
+          {
+            "id": "d",
+            "en": "The group felt emotionally calmer after a ride.",
+            "zh": "團體騎車後情緒更安定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可核實資料支持路口繁忙的說法。"
+      },
+      "reply": {
+        "promptEn": "A food-bank volunteer recommends a second collection time. She compares dated attendance records across six weeks and notes how many donors missed the current slot. What can be said of her recommendation?",
+        "promptZh": "（食物銀行義工建議增加第二個收集時段。她比較六週附日期出席紀錄，記下多少捐贈者錯過現有時段。可怎樣說她的建議？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It uses checked attendance information.",
+            "zh": "它使用已核查的出席資料。"
+          },
+          {
+            "id": "b",
+            "en": "The six-week records give a reason for the proposal.",
+            "zh": "六週紀錄為建議提供理據。"
+          },
+          {
+            "id": "c",
+            "en": "It is grounded in facts.",
+            "zh": "它以事實為根據。"
+          },
+          {
+            "id": "d",
+            "en": "The records support a trial, though the result still needs checking.",
+            "zh": "紀錄支持試行，但成果仍須核查。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據紀錄支持、但不誇大結論。"
+      },
+      "scene": {
+        "promptZh": "學生建議延長圖書館開放時間，引用已核對的每小時入場紀錄，而非只靠猜測。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The proposal is grounded in facts.",
+            "zh": "建議以事實為根據。"
+          },
+          {
+            "id": "b",
+            "en": "The student has proved every future visitor will come.",
+            "zh": "學生已證明未來每名訪客都會來。"
+          },
+          {
+            "id": "c",
+            "en": "The student merely feels more emotionally grounded.",
+            "zh": "學生只是情緒較安定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已核對的入場紀錄支持建議，但不保證未來結果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a claim is grounded in facts？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker repeats an unattributed rumour and offers no checkable record.",
+            "zh": "講者重複沒有來源的傳聞，也沒有可核查紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "A committee cites dated figures and explains how they were collected.",
+            "zh": "委員會引用附日期數字並解釋收集方法。"
+          },
+          {
+            "id": "c",
+            "en": "A report compares its conclusion with original measurements.",
+            "zh": "報告把結論與原始量度比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "無來源傳聞不是可核實的事實依據。"
+      },
+      "dialogue": {
+        "promptEn": "A: We want an extra evening bus. We counted riders for four weeks and checked the operator’s published timetable before writing the request. B: ______",
+        "promptZh": "（甲：我們想增加一班晚間巴士。寫要求前，我們統計了四週乘客並核對營辦商公布的時間表。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can point to a record behind the request.",
+            "zh": "你們能指出要求背後的紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The rider count gives a testable reason.",
+            "zh": "乘客統計提供可核查理據。"
+          },
+          {
+            "id": "c",
+            "en": "Your case is grounded in facts.",
+            "zh": "你們的論據以事實為根據。"
+          },
+          {
+            "id": "d",
+            "en": "The data support asking for a trial, though demand may change.",
+            "zh": "資料支持要求試行，雖然需求可能改變。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出已核對紀錄作為理據。"
+      },
+      "speaking": {
+        "en": "The committee’s flood warning was grounded in evidence from two measured river levels, although the members said the timing of the peak remained uncertain.",
+        "zh": "委員會的洪水警告以兩次量度河水水位的證據為根據，雖然成員指出最高水位出現時間仍未確定。",
+        "promptZh": "說出支持資料，也保留未確定之處。",
+        "targetSpan": {
+          "start": 34,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個公共建議各以具體、可核查資料支持，而非只憑猜測。用英文寫出建議、資料和限制。",
+        "selfCheckZh": "兩例須區分有事實依據與保證結果。",
+        "examples": [
+          {
+            "en": "The playground repair request was grounded in facts: three inspection notes recorded the loose rail, though the team still needed a cost estimate.",
+            "zh": "修理遊樂場的要求以事實為根據：三份檢查筆記記錄鬆動欄杆，雖然團隊仍須估算費用。"
+          },
+          {
+            "en": "A proposal for an earlier clinic slot was grounded in evidence from appointment logs showing repeated morning queues; staff planned a trial before making it permanent.",
+            "zh": "提早診所時段的建議以預約紀錄作證據，顯示早上經常排隊；員工計劃先試行，再決定是否永久實施。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "inspection notes",
+            "zh": "檢查筆記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 75
+            }
+          },
+          {
+            "en": "loose rail",
+            "zh": "鬆動欄杆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 99
+            }
+          },
+          {
+            "en": "appointment logs",
+            "zh": "預約紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "morning queues",
+            "zh": "早上排隊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Grounded in facts means supported by checkable evidence.",
+          "zh": "grounded in facts 指有可核查證據支持。"
+        },
+        {
+          "en": "A claim grounded in evidence can still have limits.",
+          "zh": "以證據為根據的說法仍可能有局限。"
+        }
+      ]
+    }
+  ]
+}

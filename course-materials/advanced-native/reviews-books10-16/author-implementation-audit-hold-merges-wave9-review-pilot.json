@@ -1,0 +1,194 @@
+{
+  "reviewType": "AI author self-audit; independent/human/release approval pending",
+  "scope": "Four bounded same-sense source variants including two controlled meaning expansions to institution or visual attention",
+  "rows": [
+    {
+      "sourceOrdinal": 3538,
+      "sourceId": "book10-16-1427",
+      "sourcePhrase": "chip away at their health",
+      "sourceExample": "Constant overtime can chip away at their health.",
+      "sourceMeaning": "Damage health gradually; a carving metaphor in a phrasal verb.",
+      "canonicalId": "advanced-native-178",
+      "canonicalMeaning": "Gradually weaken or reduce something through repeated small effects; confidence, stereotypes or resources can be eroded.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0176-0200.json",
+      "canonicalFileBeforeSha256": "859301eee7525244baf32da6970f53acf7bbfe8a5084e371317e2b2965bd50bd",
+      "oldPattern": "\\bchip(?:s|ped|ping)? away at (?:(?:my|your|his|her|our|their) (?:confidence|savings|budget)|(?:the )?stereotypes)\\b",
+      "newPattern": "(?:\\bchip(?:s|ped|ping)? away at (?:(?:my|your|his|her|our|their) (?:confidence|savings|budget)|(?:the )?stereotypes)\\b)|(?:\\bchip(?:s|ped|ping)? away at (?:my|your|his|her|our|their) health\\b)",
+      "positive": [
+        "Constant overtime can chip away at their health.",
+        "For the nurses, repeated night shifts can chip away at their health over time."
+      ],
+      "negative": [
+        "The nurse chipped a tile away from the wall.",
+        "One long shift ended yesterday."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1427",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 133,
+        "book": 13,
+        "question": 20,
+        "sample": "S1",
+        "sourceBookPages": "52–54",
+        "locatorNote": "DOCX table 141, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Constant overtime can chip away at their health.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "chip away at their health"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "b6aaa6ab9a5eae75205a1f7da705dbaf2f2af4528b2d3f6d061e2ede42ae0ba2",
+      "decisionFileAfterSha256": "dbaa0d6d9f5a019cef44518971fbdd9b6f1800cbf58f6eb47f5b4f2f0f816951"
+    },
+    {
+      "sourceOrdinal": 3845,
+      "sourceId": "book10-16-1734",
+      "sourcePhrase": "stretched to breaking point",
+      "sourceExample": "The hospital was stretched to breaking point.",
+      "sourceMeaning": "Under pressure close to failure; a fixed material metaphor.",
+      "canonicalId": "advanced-native-1889",
+      "canonicalMeaning": "Put a person or essential service under such heavy demands that they are close to being unable to cope or operate.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1876-1900.json",
+      "canonicalFileBeforeSha256": "6f21ac5ffee8abbdd5b7f5f07b84a4dd7d4bca608bec666fa34cc989f5a086fc",
+      "oldPattern": "\\bstretch(?:es|ed|ing)? (?:them|us|me|her|him|you|someone) to breaking point\\b",
+      "newPattern": "(?:\\bstretch(?:es|ed|ing)? (?:them|us|me|her|him|you|someone) to breaking point\\b)|(?:\\b(?:is|are|was|were|be|been|being) stretched to breaking point\\b)",
+      "positive": [
+        "The hospital was stretched to breaking point.",
+        "During the winter surge, the small clinic was stretched to breaking point by extra admissions."
+      ],
+      "negative": [
+        "The clinic stretched a bandage.",
+        "The hospital opened another ward."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1734",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 163,
+        "book": 14,
+        "question": 31,
+        "sample": "S1",
+        "sourceBookPages": "68–69",
+        "locatorNote": "DOCX table 175, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The hospital was stretched to breaking point.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "stretched to breaking point"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "05bc229c93a2d3ce9d3f383358a7240c1c296411850a066f58b8ed41cfe6434c",
+      "decisionFileAfterSha256": "aa12fd926e7de79532501b4f6ac258530724aed60b8d29a7c07c4db38fdcf05f"
+    },
+    {
+      "sourceOrdinal": 3254,
+      "sourceId": "book10-16-1143",
+      "sourcePhrase": "one step at a time",
+      "sourceExample": "The class learned the routine one step at a time.",
+      "sourceMeaning": "Gradually in a manageable sequence; a fixed movement phrase.",
+      "canonicalId": "advanced-native-473",
+      "canonicalMeaning": "In successive manageable stages rather than all at once.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0451-0475.json",
+      "canonicalFileBeforeSha256": "c02c8116216dc85a18f706ed8b3ac8878e3372f1eda7cbc1ed7e0e183f68886b",
+      "oldPattern": "\\bstep by step\\b",
+      "newPattern": "(?:\\bstep by step\\b)|(?:\\bone step at a time\\b)",
+      "positive": [
+        "The class learned the routine one step at a time.",
+        "The repair trainees learned the inspection routine one step at a time, checking each reading before moving on."
+      ],
+      "negative": [
+        "The pupils took one giant leap.",
+        "The class skipped the whole routine."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1143",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 106,
+        "book": 12,
+        "question": 40,
+        "sample": "S1",
+        "sourceBookPages": "96–97",
+        "locatorNote": "DOCX table 110, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The class learned the routine one step at a time.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "one step at a time"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "a4261348a61501550d40ca96d4d4cc6c8126e5bf33d655048d091ee70b53e7b1",
+      "decisionFileAfterSha256": "9557e4f453a0c6cdf28b938479ed1314d8fee1b533801069d599566eebb0be79"
+    },
+    {
+      "sourceOrdinal": 3500,
+      "sourceId": "book10-16-1389",
+      "sourcePhrase": "catch people's attention",
+      "sourceExample": "Bright pictures catch people's attention quickly.",
+      "sourceMeaning": "Attract notice; a fixed expression.",
+      "canonicalId": "advanced-native-286",
+      "canonicalMeaning": "Make people who see or hear something notice it and become interested.",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalFileBeforeSha256": "0b193defd691958cc8b4126e24eca10ea0839a8157a8bf2359952701f6e1c629",
+      "oldPattern": "\\b(?:catch|catches|catching|caught) listeners[’'] attention\\b",
+      "newPattern": "(?:\\b(?:catch|catches|catching|caught) listeners[’'] attention\\b)|(?:\\b(?:catch|catches|catching|caught) people[’\\x27]s attention\\b)",
+      "positive": [
+        "Bright pictures catch people's attention quickly.",
+        "A single bold photograph can catch people’s attention before they read the safety notice."
+      ],
+      "negative": [
+        "The photographer caught the bus.",
+        "The picture was hidden from view."
+      ],
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "sourceMetadata": {
+        "occurrenceId": "book10-16-1389",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 130,
+        "book": 13,
+        "question": 16,
+        "sample": "S1",
+        "sourceBookPages": "41–43",
+        "locatorNote": "DOCX table 137, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Bright pictures catch people's attention quickly.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "catch people's attention"
+      },
+      "contentRevision": 2,
+      "changedAudioRole": "takeaway-2",
+      "canonicalFileAfterSha256": "f147c3cfc6410827dbac4a97c7072511563a172c2207759a56d871cd61fe7d80",
+      "decisionFileAfterSha256": "dbaa0d6d9f5a019cef44518971fbdd9b6f1800cbf58f6eb47f5b4f2f0f816951"
+    }
+  ],
+  "deferred": [
+    {
+      "sourceOrdinal": 3494,
+      "reason": "Positive cup-of-tea form would require full seven-step polarity audit of negative-only canonical 274."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "reason": "It antecedent not established strongly enough to merge into trip-specific shine owner 1839."
+    }
+  ],
+  "checks": {
+    "fullSourceDetectorMatch": true,
+    "exactSourceProvenance": true,
+    "twoControlsPerOwner": true,
+    "fourFocusedBatchBuildAndCheck": "4/4 build and --check, 90 lessons/540 questions/360 audio roles, zero flags",
+    "wholeCatalogueVerifier": "2604 decisions, 553 selected drafts, 3318 questions, 2212 audio roles; zero schema/alias exceptions at check time",
+    "allDiscoveredAliasAudit": "1093/1093 full-source matches, zero exceptions at check time",
+    "holdCoverage": "800 current holds, zero unaudited/errors at check time",
+    "targetBearingDialogueKeys": "4/4 revised canonical owners have keyed target-bearing EN/ZH replies; 286 and 473 keys repaired after strict guard activated",
+    "changedAudioRequests": "4 takeaway-2 items generated from focused audio queues, zero listening changes",
+    "gitDiffCheck": "passed"
+  },
+  "counts": {
+    "holdRowsConverted": 4,
+    "canonicalOwnerFilesChanged": 4,
+    "decisionFilesChanged": 3,
+    "takeawayAudioRefresh": 4
+  }
+}

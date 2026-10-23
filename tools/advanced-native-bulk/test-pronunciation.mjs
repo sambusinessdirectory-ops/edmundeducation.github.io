@@ -10,7 +10,7 @@ import {buildArtifacts} from './build.mjs';
 import config from './pronunciation-overrides.json' with {type:'json'};
 const here=path.dirname(fileURLToPath(import.meta.url));
 const hash=key=>createHash('sha256').update('{'+Object.keys(key).sort().map(name=>JSON.stringify(name)+': '+JSON.stringify(key[name])).join(', ')+'}').digest('hex');
-const vectors=['ordinary text','curve ball','curveballish','precurveballs','curvable','curveball','CURVEBALLS','écurveball','curveball-like','getting from A to B','A to Bee'].flatMap(text=>['en-gb','en-us'].map(lang=>({text,voice:lang==='en-gb'?'bm_fable':'af_heart',lang,speed:.98})));
+const vectors=['ordinary text','curve ball','curveballish','precurveballs','curvable','curveball','CURVEBALLS','écurveball','curveball-like','getting from A to B','A to Bee','tearjerker','tearjerkers','quiet-hour','quiet hours'].flatMap(text=>['en-gb','en-us'].map(lang=>({text,voice:lang==='en-gb'?'bm_fable':'af_heart',lang,speed:.98})));
 const py=spawnSync('python3',['-c',`import sys,json,importlib.util
 s=importlib.util.spec_from_file_location('a',sys.argv[1]);a=importlib.util.module_from_spec(s);s.loader.exec_module(a)
 print(json.dumps([a.identity(x) for x in json.load(sys.stdin)]))`,path.join(here,'audio.py')],{input:JSON.stringify(vectors),encoding:'utf8'});
@@ -29,6 +29,11 @@ for(const lang of ['en-gb','en-us']){
  const request={text:'We got from A to B quickly.',lang};
  const evidence={version:config.version,phonemesBefore:`wɪ ɡɒt fɹɒm ${rule.before} kwɪkli.`,phonemesAfter:`wɪ ɡɒt fɹɒm ${rule.after} kwɪkli.`,replacements:[{lexeme:'a to b',count:1,...rule}]};
  assert.equal(hasRequiredPronunciation(request,{pronunciationOverrideVersion:config.version,pronunciation:evidence}),true,'Letter A must be pronounced as the name of the letter in the exact A to B unit.');
+}
+for(const lang of ['en-gb','en-us'])for(const lexeme of ['tearjerker','quiet-hour']){
+ const rule=config.languages[lang][lexeme],request={text:`The ${lexeme} is here.`,lang};
+ const evidence={version:config.version,phonemesBefore:`ðə ${rule.before} ɪz hɪə.`,phonemesAfter:`ðə ${rule.after} ɪz hɪə.`,replacements:[{lexeme,count:1,...rule}]};
+ assert.equal(hasRequiredPronunciation(request,{pronunciationOverrideVersion:config.version,pronunciation:evidence}),true,`Exact ${lexeme} phoneme correction must verify in ${lang}.`);
 }
 
 const fixture=JSON.parse(fs.readFileSync(path.join(here,'calibration-007.json'))).lessons[0];

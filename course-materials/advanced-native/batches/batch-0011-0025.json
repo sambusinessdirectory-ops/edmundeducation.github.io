@@ -2839,16 +2839,16 @@
     "titleZh": "感到被吸引",
     "category": "natural",
     "target": {
-      "pattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "pattern": "\\b(?:feel|feels|felt|feeling|be|am|is|are|was|were|been|being) drawn to(?! (?:scale|a conclusion|an end)\\b)\\b",
       "glossaryForbidden": [
         "\\bdrawn\\b",
         "\\bdraw(?:s|ing)?\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Feel attracted to someone or something.",
-      "meaningZh": "感到被某人或某事吸引，想更接近或了解。",
-      "grammar": "feel + drawn + to + noun/-ing form; felt drawn to in the past.",
+      "meaningEn": "Feel attracted to someone or something; both feel drawn to and be drawn to express this attraction.",
+      "meaningZh": "感到被某人或某事吸引；feel drawn to 和 be drawn to 都可表達這種吸引力。",
+      "grammar": "feel/feels/felt/feeling drawn to + noun or -ing form; be/am/is/are/was/were drawn to + noun or -ing form. The be form names the same attraction, not a literal drawing action.",
       "register": "Neutral, reflective English for interests, places, people or activities.",
       "boundaryZh": "表示吸引力，不表示真的被拉走，也不等於已經決定採取行動。",
       "misconceptionZh": "drawn 在這裏不是畫畫；被吸引不保證購買、加入或贊同。",
@@ -2867,6 +2867,202 @@
         "sample": null,
         "locatorNote": "PDF page 3, table 2, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p003-t2-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0116",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 11,
+        "book": 10,
+        "question": 9,
+        "sample": "S1",
+        "sourceBookPages": "22–23",
+        "locatorNote": "DOCX table 9, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-0122",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 12,
+        "book": 10,
+        "question": 9,
+        "sample": "S2",
+        "sourceBookPages": "22–23",
+        "locatorNote": "DOCX table 9, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-0143",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 14,
+        "book": 10,
+        "question": 11,
+        "sample": "S2",
+        "sourceBookPages": "27–28",
+        "locatorNote": "DOCX table 11, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-0212",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 19,
+        "book": 10,
+        "question": 16,
+        "sample": "S1",
+        "sourceBookPages": "39–40",
+        "locatorNote": "DOCX table 16, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Some viewers are drawn to pace more than elaborate dialogue.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to pace"
+      },
+      {
+        "occurrenceId": "book10-16-0236",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 22,
+        "book": 10,
+        "question": 18,
+        "sample": "S1",
+        "sourceBookPages": "43–45",
+        "locatorNote": "DOCX table 18, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-0766",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 71,
+        "book": 11,
+        "question": 34,
+        "sample": "S2",
+        "sourceBookPages": "84–85",
+        "locatorNote": "DOCX table 70, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-0804",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 75,
+        "book": 12,
+        "question": 5,
+        "sample": "S1",
+        "sourceBookPages": "14–15",
+        "locatorNote": "DOCX table 75, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1369",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 128,
+        "book": 13,
+        "question": 14,
+        "sample": "S1",
+        "sourceBookPages": "34–37",
+        "locatorNote": "DOCX table 135, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1374",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 128,
+        "book": 13,
+        "question": 14,
+        "sample": "S2",
+        "sourceBookPages": "34–37",
+        "locatorNote": "DOCX table 135, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1380",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 129,
+        "book": 13,
+        "question": 15,
+        "sample": "S1",
+        "sourceBookPages": "38–40",
+        "locatorNote": "DOCX table 136, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1385",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 129,
+        "book": 13,
+        "question": 15,
+        "sample": "S2",
+        "sourceBookPages": "38–40",
+        "locatorNote": "DOCX table 136, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1661",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 156,
+        "book": 14,
+        "question": 22,
+        "sample": "S2",
+        "sourceBookPages": "49–50",
+        "locatorNote": "DOCX table 166, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-1958",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 185,
+        "book": 15,
+        "question": 22,
+        "sample": "S1",
+        "sourceBookPages": "52–53",
+        "locatorNote": "DOCX table 200, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
+      },
+      {
+        "occurrenceId": "book10-16-2347",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 222,
+        "book": 16,
+        "question": 29,
+        "sample": "S1",
+        "sourceBookPages": "70–71",
+        "locatorNote": "DOCX table 244, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Many visitors are drawn to the quiet garden.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "drawn to"
       }
     ],
     "listening": {
@@ -3068,8 +3264,8 @@
         "zh": "能連繫人與人的項目令我感到被吸引。"
       },
       {
-        "en": "She felt drawn to the course but wanted more information before enrolling.",
-        "zh": "她被課程吸引，但想先了解更多資料再報名。"
+        "en": "The apprentices were drawn to the evening class, but asked about the fee before enrolling.",
+        "zh": "學徒們對晚間課程感到有興趣，但報名前先問清費用。"
       }
     ],
     "review": {
@@ -3098,7 +3294,7 @@
         "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-022",
@@ -3957,7 +4153,7 @@
     "titleZh": "輕輕推動選擇方向",
     "category": "figurative",
     "target": {
-      "pattern": "\\bnudg(?:e|es|ed|ing) (?:people|me|you|him|her|us|them|students|customers) in (?:a certain|that|this|a particular) direction\\b|\\bnudged in (?:a certain|that|this|a particular) direction\\b",
+      "pattern": "(?:\\bnudg(?:e|es|ed|ing) (?:people|me|you|him|her|us|them|students|customers) in (?:a certain|that|this|a particular) direction\\b|\\bnudged in (?:a certain|that|this|a particular) direction\\b)|(?:\\bnudg(?:e|es|ed|ing) people towards a purchase\\b)",
       "glossaryForbidden": [
         "\\bnudg(?:e|es|ed|ing)\\b",
         "\\bdirection\\b"
@@ -3966,7 +4162,7 @@
     "brief": {
       "meaningEn": "Gently or subtly influence someone towards a choice or course of action.",
       "meaningZh": "以輕微或不明顯的方式，影響某人的選擇方向。",
-      "grammar": "nudge + object + in a certain/particular direction; be nudged in a certain direction is the passive form, with the influenced person as subject. The image is based on a gentle physical push.",
+      "grammar": "nudge + object + in a certain direction / nudge people towards a purchase; the influenced people remain free to choose. The passive form be nudged in a direction names the influenced person as subject.",
       "register": "Neutral discussion of choices, design and persuasion.",
       "boundaryZh": "表示影響而非強迫；受影響的人仍可能作不同選擇，也不一定完全沒察覺。",
       "misconceptionZh": "不等於把人實際推向某處，也不保證影響一定成功。",
@@ -3998,6 +4194,20 @@
         "sentence": "Children may be nudged in a certain direction by advertising.",
         "referenceSentenceKind": "guide_original_example",
         "locatorNote": "PDF page 20, table 1, row 4"
+      },
+      {
+        "occurrenceId": "book10-16-1660",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 156,
+        "book": 14,
+        "question": 22,
+        "sample": "S2",
+        "sourceBookPages": "49–50",
+        "locatorNote": "DOCX table 166, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "A discount can nudge people towards a purchase.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "nudge people"
       }
     ],
     "listening": {
@@ -4199,8 +4409,8 @@
         "zh": "一個小改變可以輕微引導人們的選擇方向。"
       },
       {
-        "en": "A clear label can nudge people in a certain direction without removing alternatives.",
-        "zh": "清晰的標籤可以輕微引導人們的選擇方向，而不用取消其他選項。"
+        "en": "A clearly marked trial period can nudge people towards a purchase without guaranteeing they will buy.",
+        "zh": "清楚標示的試用期可輕微促使人購買，但不保證他們一定會買。"
       }
     ],
     "review": {
@@ -4230,6 +4440,6 @@
         "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   }
 ]

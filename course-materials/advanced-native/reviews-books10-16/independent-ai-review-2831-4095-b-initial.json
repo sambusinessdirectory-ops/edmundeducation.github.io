@@ -1,0 +1,44 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 2831, 3806, 3813, 3814, 4078, 4079, 4087, 4095",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-2831-4095-review-pilot.json",
+    "sha256": "d1efc40a6c64410b13ab4988ea2bd8bd1c337b51f5b693a8c08e8c54cac2046d"
+  },
+  "authorSelfAuditSha256": "417ed212acaf17c31d2decca25f3acca16d763fba109cd84d58af1b86134a3cf",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "two-repairs-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All eight exact source sentences and phrases match inventory; live case-insensitive target patterns match source and keyed scene/dialogue/reply; eight speaking spans and 48 answer-derived, non-target glossary spans pass independent checks.",
+    "sourceOriginality": "200 learner-facing English strings screened against 2,604 guide examples; one non-own six-token overlap is only the fixed target frame 'be trapped in a cycle of' in 3806, with no copied context."
+  },
+  "perLesson": [
+    {"number": 2831, "status": "clear", "note": "Temporary secrecy before a scheduled announcement is distinguished from undecided or permanently hidden information."},
+    {"number": 3806, "status": "clear", "note": "The recurring, mutually reinforcing hardship pattern is taught with replaceable noun complements."},
+    {"number": 3813, "status": "clear", "note": "Capability-building support is distinguished from immediate relief without disparaging the latter or promising employment."},
+    {"number": 3814, "status": "repair-needed", "note": "The keyed contrast infers poverty exit from duration of employment alone, without evidence that earnings cover basic needs."},
+    {"number": 4078, "status": "clear", "note": "Advance supply accumulation and the required 'on' complement are grounded across tasks."},
+    {"number": 4079, "status": "clear", "note": "Observed bookings and waiting lists support demand without inferring high prices or quality."},
+    {"number": 4087, "status": "clear", "note": "Giving full solutions is separated from hints and demonstrations; the figurative sense remains consistent."},
+    {"number": 4095, "status": "repair-needed", "note": "Second writing model's Traditional Chinese says the experience was worse, whereas English and scenario state only a large difference and continuing value."}
+  ],
+  "findings": [
+    {
+      "id": "R3814-01",
+      "severity": "major",
+      "field": "lesson 3814 contrast.options[0].en/zh",
+      "evidence": "The keyed option says 'After three years of stable work, the household broke out of poverty.' Three years establishes duration, but stable work may still pay too little to meet basic needs. This lesson's own brief and writing models require evidence of a sustained ability to cover those needs, so the item currently treats employment duration alone as proof of escape.",
+      "repair": "Add sufficient-income evidence to the keyed option, for example three years of stable work at an income covering basic costs, and align the Traditional Chinese. Preserve the tense and one-event distractor contrast."
+    },
+    {
+      "id": "R4095-01",
+      "severity": "major",
+      "field": "lesson 4095 writing.examples[1].zh",
+      "evidence": "English 'What she joined was nowhere near what she had pictured' says the event differed greatly, and the model concludes she valued it. Chinese '她參加的活動遠不如原先想像' conventionally means it was much worse than imagined, adding a negative judgment absent from the English and the writing prompt.",
+      "repair": "Change to neutral difference language such as '她參加的活動與原先想像相差很遠', then retain the indoor/outdoor, 30/200 and positive-value details."
+    }
+  ],
+  "coverageLimit": "Every lesson received automated source, selected-collision, target-key, speaking-span, glossary and six-token guide-copy checks plus focused source-sense, answer, EN/ZH and writing review. This is risk-based AI content review, not a line-by-line proofread of all 48 questions or release certification."
+}

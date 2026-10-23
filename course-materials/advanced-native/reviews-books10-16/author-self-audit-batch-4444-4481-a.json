@@ -1,0 +1,142 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T16:25:52.882378+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4444-4462-a.json",
+      "sha256": "90965cb83f4a916404b2eff213280a74c7a47765927a3b0dcdd4e66440fad183"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4466-4481-a.json",
+      "sha256": "71dad5ef635d81c22d6e67b1453dbc885da1016f1bcecf8b9f152dd9451b95e2"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "6700fa30a36d567cb10bedf36e91e593be4007f55fc7dac6528cadc209460f2b",
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 208,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 9
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "9 hits confined to fixed target expressions; no guide framing beyond target"
+  },
+  "semanticNotes": {
+    "4444": "Observed follow-through supports but does not make words universally irrelevant.",
+    "4445": "Reluctance overcome through constructive help or admission.",
+    "4450": "Personal flavour-memory connection, not source location alone.",
+    "4462": "Known provenance and explainable story, not assumed antique value.",
+    "4466": "Core communal purpose displaced, not mere modernisation.",
+    "4470": "New format with actual origin practices retained.",
+    "4474": "Sustained renewed use after prior decline.",
+    "4481": "Present need blocked by obsolete process, not tradition alone."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4444,
+      "sourceId": "book10-16-2333",
+      "sourceExpression": "actions can sometimes speak louder than words",
+      "sourceExample": "In reconciliation, actions can sometimes speak louder than words.",
+      "draftFile": "batch-4444-4462-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4445,
+      "sourceId": "book10-16-2334",
+      "sourceExpression": "swallow their pride",
+      "sourceExample": "They need to swallow their pride and apologise.",
+      "draftFile": "batch-4444-4462-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4450,
+      "sourceId": "book10-16-2339",
+      "sourceExpression": "taste of home",
+      "sourceExample": "The pastries taste of home to many residents.",
+      "draftFile": "batch-4444-4462-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4462,
+      "sourceId": "book10-16-2351",
+      "sourceExpression": "comes with a story attached",
+      "sourceExample": "That handmade gift comes with a story attached.",
+      "draftFile": "batch-4444-4462-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4466,
+      "sourceId": "book10-16-2355",
+      "sourceExpression": "lose their soul",
+      "sourceExample": "Traditions can lose their soul when treated as gimmicks.",
+      "draftFile": "batch-4466-4481-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4470,
+      "sourceId": "book10-16-2359",
+      "sourceExpression": "keep its roots",
+      "sourceExample": "The town wants to keep its roots while growing.",
+      "draftFile": "batch-4466-4481-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4474,
+      "sourceId": "book10-16-2363",
+      "sourceExpression": "a new lease of life",
+      "sourceExample": "The market gave the old craft a new lease of life.",
+      "draftFile": "batch-4466-4481-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4481,
+      "sourceId": "book10-16-2370",
+      "sourceExpression": "stuck in the past",
+      "sourceExample": "A traditional product need not be stuck in the past.",
+      "draftFile": "batch-4466-4481-a.json",
+      "contentRevision": 3,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

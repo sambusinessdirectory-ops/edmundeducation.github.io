@@ -762,12 +762,12 @@
       "id": "advanced-native-1830",
       "number": 1830,
       "inventoryId": "expr-1830",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "step out of their usual bubble",
       "titleZh": "走出自己熟悉的小圈子",
       "category": "idiom",
       "target": {
-        "pattern": "\\bstep(?:s|ped|ping)? out of (?:my|your|his|her|our|their) usual bubble\\b"
+        "pattern": "(?:\\bstep(?:s|ped|ping)? out of (?:my|your|his|her|our|their) usual bubble\\b)|(?:\\b(?:pull|pulls|pulled|pulling) people out of their usual bubble\\b)"
       },
       "sources": [
         {
@@ -783,12 +783,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "step out of their usual bubble",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-2504",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 237,
+          "book": 16,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 264, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Travel pulls people out of their usual bubble.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pulls people out of their usual bubble"
         }
       ],
       "brief": {
         "meaningEn": "Move beyond familiar surroundings, contacts or assumptions to encounter other experiences or perspectives.",
         "meaningZh": "走出熟悉環境、人際圈或想法，接觸其他經驗和觀點。",
-        "grammar": "step/stepped/stepping out of my/their usual bubble; bubble metaphorically encloses a familiar social or mental world",
+        "grammar": "step out of one’s usual bubble / pull people out of their usual bubble; the first is self-initiated, while the second names an experience that prompts people to look beyond familiar contacts or assumptions.",
         "register": "neutral",
         "boundaryZh": "不單憑去遠方就證明觀點已擴闊；需有實際接觸、聆聽或重新看待假設，也不要求放棄原有關係。",
         "misconceptionZh": "不單憑去遠方就證明觀點已擴闊；需有實際接觸、聆聽或重新看待假設，也不要求放棄原有關係。",
@@ -993,8 +1007,8 @@
           "zh": "她詢問晚班職員在訪客離開後如何經歷同一大樓，走出了熟悉的小圈子。"
         },
         {
-          "en": "We stepped out of our usual bubble when the night-shift volunteers showed us why the daytime timetable did not serve them.",
-          "zh": "晚班義工向我們說明白天時間表為甚麼不適合他們時，我們走出了熟悉的小圈子。"
+          "en": "The exchange project pulled people out of their usual bubble by pairing neighbours from different streets.",
+          "zh": "交流計劃把來自不同街道的鄰居配對，讓人們走出熟悉的小圈子。"
         }
       ],
       "review": {

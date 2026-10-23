@@ -1,0 +1,130 @@
+{
+  "reviewType": "independent-ai-exact-hash-provenance-and-key-followup",
+  "supersedes": [
+    "independent-ai-review-alias-wave-2400-2700-six-b.json",
+    "independent-ai-review-alias-wave-2400-2700-four-b.json"
+  ],
+  "status": "13-source-alias-wave-content-clear",
+  "authorAuditFile": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-2400-2700-thirteen-final-a.json",
+  "authorAuditSha256": "d0f124a4aa156ae3f67cf4a598b0f54d3b6797d691b96ada3d869c1f5049e03c",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "scope": "Thirteen held source rows converted to existing-owner aliases in 11 canonical batches; no canonical, decision, manifest or release files edited by reviewer.",
+  "rows": [
+    {
+      "sourceOrdinal": 2440,
+      "sourceId": "book10-16-0329",
+      "canonicalId": "advanced-native-1037",
+      "decisionRowSha256": "86878e1f4c8a85f769ed356ef68508acbc754cc0908a50b2def6135c62ee4282",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1026-1050.json",
+      "canonicalFileSha256": "2e69f8154314d9fae466d04e4d5738f2d9ed2b2e73f56ece0ac8b61a548962ab"
+    },
+    {
+      "sourceOrdinal": 2450,
+      "sourceId": "book10-16-0339",
+      "canonicalId": "advanced-native-1020",
+      "decisionRowSha256": "c3c4573b7d49438018b7ec2c6cf54e44ede865fa3874b795bdbeba42af4e6082",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1001-1025.json",
+      "canonicalFileSha256": "9578967101bf93b2c57462f25cd4f24e2cd299133296dd3b08f424c88d1469bf"
+    },
+    {
+      "sourceOrdinal": 2454,
+      "sourceId": "book10-16-0343",
+      "canonicalId": "advanced-native-1031",
+      "decisionRowSha256": "65377719d76908213eb4de9031e892e7a24be47362ac6181c93198908276be06",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1026-1050.json",
+      "canonicalFileSha256": "2e69f8154314d9fae466d04e4d5738f2d9ed2b2e73f56ece0ac8b61a548962ab"
+    },
+    {
+      "sourceOrdinal": 2469,
+      "sourceId": "book10-16-0358",
+      "canonicalId": "advanced-native-1344",
+      "decisionRowSha256": "144831d511d6bf816e8cb86fa0731164e7f91353abf1a884d1454f23ddf0d0d9",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "canonicalFileSha256": "f717b33afbe306fc06b80c543a0f55ed26f44a0a023d30aafc009eed780e056b"
+    },
+    {
+      "sourceOrdinal": 2477,
+      "sourceId": "book10-16-0366",
+      "canonicalId": "advanced-native-502",
+      "decisionRowSha256": "6e3c30285fc62562c9fdb4d60734d5a60e667f3d705a553182b2bac2fa1afb0c",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0501-0525.json",
+      "canonicalFileSha256": "51e9c7ff6d889ab04d91f85ac2440e8e89f30ad040d3f48de260aff8c7137b6a"
+    },
+    {
+      "sourceOrdinal": 2492,
+      "sourceId": "book10-16-0381",
+      "canonicalId": "advanced-native-643",
+      "decisionRowSha256": "02ab1ebbe1ed4a3822374dbef2c6236586518ee8a454d904c765298ff92885b9",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0626-0650.json",
+      "canonicalFileSha256": "2ef3c1d66edb28a49045f5c1e8779dd4d36844a97eb6aa11a2f5ee217aeddc32"
+    },
+    {
+      "sourceOrdinal": 2535,
+      "sourceId": "book10-16-0424",
+      "canonicalId": "advanced-native-1398",
+      "decisionRowSha256": "620357eaa6375c702b8111c9b1132144207291e579fde2fd7f2f435ea49bacd7",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1376-1400.json",
+      "canonicalFileSha256": "8a07c80bb56cea430d3e5b2a3548021ab16a9c9109ff41d003e6009ad466a480"
+    },
+    {
+      "sourceOrdinal": 2572,
+      "sourceId": "book10-16-0461",
+      "canonicalId": "advanced-native-1344",
+      "decisionRowSha256": "005f62730b9c12cb3f88b931abfaeedfb38830eebdfaab96a1e81b064d47f174",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1326-1350.json",
+      "canonicalFileSha256": "f717b33afbe306fc06b80c543a0f55ed26f44a0a023d30aafc009eed780e056b"
+    },
+    {
+      "sourceOrdinal": 2605,
+      "sourceId": "book10-16-0494",
+      "canonicalId": "advanced-native-767",
+      "decisionRowSha256": "0bb74186cef568506af5ae95d8b30d61ace0f67fe9f840d7400f075b336502f2",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "canonicalFileSha256": "5509059bcc0b8e4dcce5b72c58c3433369dba20f8f79cf2e1c1542985ac03ab4"
+    },
+    {
+      "sourceOrdinal": 2615,
+      "sourceId": "book10-16-0504",
+      "canonicalId": "advanced-native-1714",
+      "decisionRowSha256": "53bbf2c1c6f3e6d81938259138b537be00b5ca6319123550c0585df725b006e7",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1701-1725.json",
+      "canonicalFileSha256": "decc831dbf9f5e2957c88780c0e92f45a1e06018f4a953b115547024427b6e93"
+    },
+    {
+      "sourceOrdinal": 2630,
+      "sourceId": "book10-16-0519",
+      "canonicalId": "advanced-native-1266",
+      "decisionRowSha256": "07f1668a9f720a5db11b8b64cae003c7acaf864311efe16ae6bfa60b96b9f778",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1251-1275.json",
+      "canonicalFileSha256": "75514234af5836c127261e5a9a34230b8de8633a536754574ccc9ef1e3737cb9"
+    },
+    {
+      "sourceOrdinal": 2634,
+      "sourceId": "book10-16-0523",
+      "canonicalId": "advanced-native-1120",
+      "decisionRowSha256": "d1c77ba558b54241a8ebca79ce1c34e4e141dfc73011fd477502cb85f3b828c2",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-1101-1125.json",
+      "canonicalFileSha256": "7e0abac8fd1ff091d65d7be4f3b83626264f91e66563bad86ca33ef3a01c870b"
+    },
+    {
+      "sourceOrdinal": 2679,
+      "sourceId": "book10-16-0568",
+      "canonicalId": "advanced-native-287",
+      "decisionRowSha256": "dc51d0647757aa7aabdc8b609c676c8d1e76966ee1da14ebe2dad45557766384",
+      "canonicalFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+      "canonicalFileSha256": "0b193defd691958cc8b4126e24eca10ea0839a8157a8bf2359952701f6e1c629"
+    }
+  ],
+  "validation": {
+    "sourceSense": "Earlier independent reviews cleared the six- and four-row subsets; 2477 raise-the-bar passive, 2535 appreciation sense of take-for-granted and 2454 digital-crutch overreliance were additionally checked against canonical outcomes. All 13 remain same-sense variants.",
+    "sourceProvenance": "Every canonical sources array contains exact Books 10–16 occurrence ID, example sentence, expression, book/question/sample, rendered page and source-book-page metadata from the inventory.",
+    "targetAndDecisions": "13/13 full source examples match current canonical target under i flags; all 13 current decision rows retain exact ID, phrase, proposed-alias-existing action and owner. All author-stamped canonical and decision file hashes match current files.",
+    "assessedKeyRepairs": "643 scene preserves accessibility need despite aggregate benefits; 287 dialogue distinguishes being invited from actual agenda influence; 502 dialogue now checks both named date source and location for old and new captions; 1398 scene distinguishes unsupported assumption from lack of gratitude. All four keyed options match target patterns, distractors are factually wrong or miss the lesson decision, and English/Traditional Chinese are aligned.",
+    "independentBuildAndCheck": "11-file combined build and --check: 247 lessons, 1482 questions, 988 audio requests, zero review flags.",
+    "originality": "Independent 2604-guide selected-manifest screen: none of the 12 affected canonical owners has exact, high, medium, near-full or review-near-full source overlap.",
+    "limits": "This is focused owner/provenance/key QA, not a new line-by-line review of 247 lessons, a listening certificate or release approval."
+  },
+  "findings": [],
+  "releaseApproved": false,
+  "humanListeningApproved": false
+}

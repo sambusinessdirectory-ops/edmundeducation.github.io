@@ -1,0 +1,1061 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-3564",
+      "number": 3564,
+      "inventoryId": "expr-3564",
+      "titleEn": "from the top down",
+      "titleZh": "由上而下決定",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfrom the top down\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Directed by people in authority down through an organisation, with limited input from those affected.",
+        "meaningZh": "由掌權者往下作決定並推行，受影響者參與有限。",
+        "grammar": "Decide, impose or introduce a change from the top down; top/down are figurative positions in a hierarchy. Describe who decided and whose input was missing.",
+        "register": "Neutral analytical, sometimes critical. A staff representative may use it when explaining a new timetable to colleagues.",
+        "boundaryZh": "須有上級主導與基層參與有限的線索；管理者提出方案後廣泛共同修訂，未必屬純粹由上而下。",
+        "misconceptionZh": "不是從建築物頂樓往下走，也不自動證明決定錯誤；在緊急情況有時仍須迅速指揮。",
+        "outcomeZh": "能指出決策者、受影響群體及參與或缺席的諮詢。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1453",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 136,
+          "book": 13,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 144, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The timetable was imposed from the top down.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "from the top down"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The central office changed branch hours without asking counter staff about queues, then sent each branch the fixed schedule. The change came from the top down; staff could report problems during the trial.",
+        "zh": "總辦事處沒有問櫃檯員工排隊情況，就改了分處開放時間，再把固定時間表發給各分處。改動由上而下推行；員工可在試行時報告問題。",
+        "promptZh": "甚麼顯示由上而下？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The central office fixed the schedule before asking affected staff.",
+            "zh": "總辦事處未問受影響員工就定下時間表。"
+          },
+          {
+            "id": "b",
+            "en": "Counter staff jointly wrote the final schedule first.",
+            "zh": "櫃檯員工先共同寫成最終時間表。"
+          },
+          {
+            "id": "c",
+            "en": "Managers physically walked down a staircase.",
+            "zh": "經理真的走下樓梯。"
+          },
+          {
+            "id": "d",
+            "en": "Every branch freely chose its own hours.",
+            "zh": "每個分處自由選自己的時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "決定由中央傳下，員工原本未參與。"
+      },
+      "reply": {
+        "promptEn": "A school board sets the lunch timetable and sends it to teachers and pupils without seeking their views. They may report problems during a trial, but did not shape the initial plan. How can someone describe the decision process?",
+        "promptZh": "（校董會定午膳時間表，不先徵詢教師及學生就發給他們。試行時可報告問題，但他們沒有參與最初方案。可怎樣形容決策過程？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The board set the initial timetable.",
+            "zh": "校董會定下最初時間表。"
+          },
+          {
+            "id": "b",
+            "en": "Teachers and pupils had little early input.",
+            "zh": "教師及學生早期參與少。"
+          },
+          {
+            "id": "c",
+            "en": "It was decided from the top down.",
+            "zh": "這是由上而下決定。"
+          },
+          {
+            "id": "d",
+            "en": "The trial feedback may still lead to later changes.",
+            "zh": "試行意見仍可能帶來後續改動。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合初始決策與後續回饋的區分。"
+      },
+      "scene": {
+        "promptZh": "總部未問各店員工就發出統一輪班表，各店只可在試行後報告問題。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Head office imposed the hours from the top down.",
+            "zh": "總部由上而下下達開放時間。"
+          },
+          {
+            "id": "b",
+            "en": "Every shop created the timetable jointly.",
+            "zh": "各店共同制訂時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means the office is on the top floor.",
+            "zh": "這句只表示辦公室在頂樓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "總部先定方案，再向下傳達。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a plan came from the top down？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Managers and front-line workers designed and revised the schedule together before approval.",
+            "zh": "經理與前線員工在批准前共同設計並修改時間表。"
+          },
+          {
+            "id": "b",
+            "en": "The head office fixed a policy before hearing users’ views.",
+            "zh": "總部聽使用者意見前已定政策。"
+          },
+          {
+            "id": "c",
+            "en": "Senior leaders imposed a common rule on all branches without early consultation.",
+            "zh": "高層未早作諮詢就向所有分處下達同一規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真正共同制訂不是單向由上而下。"
+      },
+      "dialogue": {
+        "promptEn": "A: The directors set the new room rules last month, and tutors first saw them when the final notice arrived. B: ______",
+        "promptZh": "（甲：董事上月定了新房間規則，導師收到最終通知才第一次見到。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tutors did not shape the initial rules.",
+            "zh": "導師沒有參與最初規則。"
+          },
+          {
+            "id": "b",
+            "en": "The decision moved from directors to tutors.",
+            "zh": "決定由董事傳到導師。"
+          },
+          {
+            "id": "c",
+            "en": "It came from the top down.",
+            "zh": "它由上而下推行。"
+          },
+          {
+            "id": "d",
+            "en": "Tutors could now tell directors about practical problems.",
+            "zh": "導師如今可向董事反映實際問題。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句描述決策方向，不先判定規則好壞。"
+      },
+      "speaking": {
+        "en": "The museum changed volunteer shifts from the top down when senior staff sent a completed roster before asking gallery guides about visitor patterns.",
+        "zh": "博物館高層未問展廳導賞員的訪客情況，就發出完成的義工當值表，由上而下改了班次。",
+        "promptZh": "指出決策層及缺席的前線參與。",
+        "targetSpan": {
+          "start": 36,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個組織各由高層先定方案，受影響者後來才得知或可回饋。用英文寫出決策方向及影響。",
+        "selfCheckZh": "兩例不必斷言政策必壞；須清楚區分先決定與後諮詢。",
+        "examples": [
+          {
+            "en": "The theatre imposed the seating plan from the top down: directors approved it before ushers could explain the narrow aisle, then invited feedback during the first week.",
+            "zh": "劇院由上而下推行座位圖：董事在帶位員解釋狹窄通道前批准，首週才邀請意見。"
+          },
+          {
+            "en": "The youth centre’s timetable came from the top down when senior staff fixed it without consulting mentors; mentors later reported that the early start excluded some learners.",
+            "zh": "青年中心時間表由上而下制定：高層沒有諮詢導師就定案；導師後來報告太早開始令部分學員無法參加。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "narrow aisle",
+            "zh": "狹窄通道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 122
+            }
+          },
+          {
+            "en": "first week",
+            "zh": "首週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 167
+            }
+          },
+          {
+            "en": "consulting mentors",
+            "zh": "諮詢導師",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 105
+            }
+          },
+          {
+            "en": "early start",
+            "zh": "太早開始",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "From the top down describes a decision led by authority above.",
+          "zh": "from the top down 指由上級主導決策。"
+        },
+        {
+          "en": "A plan set from the top down may still change after feedback.",
+          "zh": "由上而下制訂的方案仍可能因回饋而修改。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3572",
+      "number": 3572,
+      "inventoryId": "expr-3572",
+      "titleEn": "in the driver's seat",
+      "titleZh": "掌握決定權",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin the driver[’\\']s seat\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "In control of the key decision or direction.",
+        "meaningZh": "掌握主要決定權或方向。",
+        "grammar": "Be in the driver’s seat; driving is figurative control. Specify the decision domain, and distinguish full control from having a voice.",
+        "register": "Common informal metaphor. A parent may use it when explaining to another caregiver how much say a child has in safety rules.",
+        "boundaryZh": "須說清楚控制哪項決定；讓孩子提出意見不等於由孩子完全掌握安全規則。",
+        "misconceptionZh": "不是一定真的駕車，也不表示掌權者無須聽別人意見。",
+        "outcomeZh": "能指出決定權所在、其他人的參與及必要的責任界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1461",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 136,
+          "book": 13,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 144, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children should not be entirely in the driver's seat on safety rules.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in the driver's seat"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "For the school hiking route, pupils could suggest sights they wanted to visit, but trained leaders chose the safe path after checking weather alerts. The leaders remained in the driver’s seat on safety while listening to pupils.",
+        "zh": "學校遠足路線方面，學生可提議想看的景點，但受訓領隊在查天氣警告後選安全路線。領隊在安全決定上仍掌握主導權，同時聽取學生意見。",
+        "promptZh": "誰掌握安全路線決定權？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The trained leaders, after checking weather alerts.",
+            "zh": "查過天氣警告的受訓領隊。"
+          },
+          {
+            "id": "b",
+            "en": "Any pupil who suggests a scenic stop.",
+            "zh": "任何提出景點的學生。"
+          },
+          {
+            "id": "c",
+            "en": "Only the person who literally drives a bus.",
+            "zh": "只有實際開巴士的人。"
+          },
+          {
+            "id": "d",
+            "en": "No one, because suggestions remove all responsibility.",
+            "zh": "沒有人，因為有建議就不再有責任。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生可提議，但領隊負責安全路線。"
+      },
+      "reply": {
+        "promptEn": "Children suggest activities for a camp, while adults set water-safety limits and can veto unsafe ideas. Who is in control of the safety decisions?",
+        "promptZh": "（孩子建議營地活動，成年人則定水上安全界線，並可否決不安全想法。誰掌握安全決定權？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adults retain final authority on water safety.",
+            "zh": "成年人保留水上安全的最終決定權。"
+          },
+          {
+            "id": "b",
+            "en": "The adults control safety decisions, while children can still suggest activities.",
+            "zh": "成年人掌握安全決定權，孩子仍可提議活動。"
+          },
+          {
+            "id": "c",
+            "en": "The adults are in the driver’s seat on safety.",
+            "zh": "成年人在安全事宜上掌握主導權。"
+          },
+          {
+            "id": "d",
+            "en": "The adults can veto unsafe ideas, so the final safety rule is theirs.",
+            "zh": "成年人可否決不安全提議，因此最終安全規則由他們決定。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均分清提議與最終安全權責。"
+      },
+      "scene": {
+        "promptZh": "團隊成員可建議展覽安排，但館長負責最終消防通道決定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The curator is in the driver’s seat on fire access.",
+            "zh": "館長在消防通道事宜上掌握決定權。"
+          },
+          {
+            "id": "b",
+            "en": "The curator must literally drive everyone home.",
+            "zh": "館長必須真的開車送大家回家。"
+          },
+          {
+            "id": "c",
+            "en": "Suggestions mean the curator has no authority.",
+            "zh": "有建議便代表館長沒有權力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體決定權與聽取建議可並存。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is in the driver’s seat on a decision？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student offers a suggestion, but another person checks the evidence and makes the final choice.",
+            "zh": "學生提出建議，但另一人核查資料並作最終選擇。"
+          },
+          {
+            "id": "b",
+            "en": "A project lead chooses the route after hearing options.",
+            "zh": "項目負責人聽取方案後選路線。"
+          },
+          {
+            "id": "c",
+            "en": "A parent retains final responsibility for a child’s safety rule.",
+            "zh": "家長保留孩子安全規則的最終責任。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有提議而沒有最終決定權，不是掌舵者。"
+      },
+      "dialogue": {
+        "promptEn": "A: The children can pick games for the event, but the supervisors decide whether each activity meets the safety rules. B: ______",
+        "promptZh": "（甲：孩子可選活動遊戲，但監督員決定每項是否符合安全規則。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The children have input into the programme.",
+            "zh": "孩子對節目有發言權。"
+          },
+          {
+            "id": "b",
+            "en": "Safety approval remains with the supervisors.",
+            "zh": "安全審批仍由監督員負責。"
+          },
+          {
+            "id": "c",
+            "en": "The supervisors are in the driver’s seat on safety.",
+            "zh": "監督員在安全事宜上掌握主導權。"
+          },
+          {
+            "id": "d",
+            "en": "Choosing a game does not transfer final safety responsibility.",
+            "zh": "選遊戲不會轉移最終安全責任。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句把控制權限明確限定在安全事宜。"
+      },
+      "speaking": {
+        "en": "The apprentices suggested ways to display the tools, but the workshop manager was in the driver’s seat on electrical safety after reviewing the wiring report.",
+        "zh": "學徒提議如何展示工具，但工作坊經理在閱讀線路報告後，於電力安全事宜上掌握主導權。",
+        "promptZh": "指出領域與決策責任。",
+        "targetSpan": {
+          "start": 82,
+          "end": 102
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項活動可接受參與者建議，但特定責任人須就安全或合規作最後決定。用英文寫出範圍和參與。",
+        "selfCheckZh": "兩例須指明掌權的決定範圍，而非泛稱某人控制一切。",
+        "examples": [
+          {
+            "en": "The crew proposed lighting ideas, but the electrician was in the driver’s seat on power limits after checking the venue circuit.",
+            "zh": "團隊提出燈光構思，但電工核對場地電路後，在用電限制上掌握主導權。"
+          },
+          {
+            "en": "At the kayak club, members chose destinations while the trained guide stayed in the driver’s seat on weather cancellations.",
+            "zh": "獨木舟會會員可選目的地，受訓導師則在因天氣取消活動方面掌握主導權。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "lighting ideas",
+            "zh": "燈光構思",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "venue circuit",
+            "zh": "場地電路",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 127
+            }
+          },
+          {
+            "en": "trained guide",
+            "zh": "受訓導師",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 69
+            }
+          },
+          {
+            "en": "weather cancellations",
+            "zh": "因天氣取消活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 122
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In the driver’s seat means holding the key decision power.",
+          "zh": "in the driver’s seat 指掌握關鍵決定權。"
+        },
+        {
+          "en": "Someone in the driver’s seat can still listen to others.",
+          "zh": "掌握決定權的人仍可聽取別人意見。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3658",
+      "number": 3658,
+      "inventoryId": "expr-3658",
+      "titleEn": "now and then",
+      "titleZh": "間中",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bnow and then\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Occasionally, with intervals between occurrences rather than all the time.",
+        "meaningZh": "偶爾發生，中間有相隔時間，而非一直如此。",
+        "grammar": "Now and then is an adverbial phrase, often at the end of a clause. It expresses occasional recurrence, not a fixed precise schedule.",
+        "register": "Common neutral conversational English. A neighbour may use it when describing occasional community visits.",
+        "boundaryZh": "須有間隔出現的情況；每天固定進行的例行事或只發生一次，不能直接稱為 now and then。",
+        "misconceptionZh": "不是「現在和然後」兩個指定時間，也不表示事件從不重要。",
+        "outcomeZh": "能區分偶爾重複、固定頻率及單次發生。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1547",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 145,
+          "book": 14,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "locatorNote": "DOCX table 154, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We buy new shoes now and then.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "now and then"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The repair café opens every Saturday, but Mina only visits now and then when she has a small item to mend. Last month she went once and this month she has not yet been.",
+        "zh": "維修咖啡店每週六開放，但米娜只在有小物件要修理時間中去。上月去了一次，本月尚未去。",
+        "promptZh": "now and then 描述哪種頻率？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She visits occasionally, not every Saturday.",
+            "zh": "她偶爾去，不是每週六都去。"
+          },
+          {
+            "id": "b",
+            "en": "She is the café’s weekly manager.",
+            "zh": "她是咖啡店每週管理員。"
+          },
+          {
+            "id": "c",
+            "en": "She has never visited at all.",
+            "zh": "她從來沒去過。"
+          },
+          {
+            "id": "d",
+            "en": "She visited exactly once in her life.",
+            "zh": "她一生只去過一次。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "間隔去訪，不是固定每週。"
+      },
+      "reply": {
+        "promptEn": "A family usually borrows books online but sometimes visits the library when a special exhibition is on. They went twice in spring and once in autumn. How can they describe the visits?",
+        "promptZh": "（一家人通常網上借書，但有特別展覽時間中去圖書館；春天去兩次，秋天去一次。可怎樣形容？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They visit occasionally.",
+            "zh": "他們偶爾探訪。"
+          },
+          {
+            "id": "b",
+            "en": "They do not go on a fixed daily schedule.",
+            "zh": "他們不是每天按固定時間去。"
+          },
+          {
+            "id": "c",
+            "en": "They go now and then.",
+            "zh": "他們間中去。"
+          },
+          {
+            "id": "d",
+            "en": "Special exhibitions sometimes draw them in.",
+            "zh": "特別展覽有時吸引他們。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述偶爾重複。"
+      },
+      "scene": {
+        "promptZh": "有人平日步行上班，只在雨很大時偶爾乘巴士，沒有固定每週幾天。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They take the bus now and then.",
+            "zh": "那人間中乘巴士。"
+          },
+          {
+            "id": "b",
+            "en": "They take the bus every workday without exception.",
+            "zh": "那人每個工作天都乘巴士，毫無例外。"
+          },
+          {
+            "id": "c",
+            "en": "They took the bus only once in their entire life.",
+            "zh": "那人一生只乘過一次巴士。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "偶爾重複而非天天或單次。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 something happens now and then？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre opens at nine every single day, without any variation.",
+            "zh": "中心每天九時開門，完全沒有變化。"
+          },
+          {
+            "id": "b",
+            "en": "A friend drops by on a few scattered weekends.",
+            "zh": "朋友在零散幾個週末來訪。"
+          },
+          {
+            "id": "c",
+            "en": "The group sometimes chooses an outdoor meeting instead of its usual room.",
+            "zh": "團體間中在戶外而非平日房間聚會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天固定不屬偶爾。"
+      },
+      "dialogue": {
+        "promptEn": "A: We usually cook at home, but on a few scattered Fridays we try a small café. B: ______",
+        "promptZh": "（甲：我們通常在家煮飯，但零散幾個星期五會試小咖啡店。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The café visits are occasional.",
+            "zh": "去咖啡店是偶爾的。"
+          },
+          {
+            "id": "b",
+            "en": "Home cooking remains your normal routine.",
+            "zh": "在家煮飯仍是日常習慣。"
+          },
+          {
+            "id": "c",
+            "en": "You eat out now and then.",
+            "zh": "你們間中外出吃飯。"
+          },
+          {
+            "id": "d",
+            "en": "Those visits are not a fixed weekly plan.",
+            "zh": "那些外出並非每週固定安排。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括偶爾相隔的活動。"
+      },
+      "speaking": {
+        "en": "We still walk along the old harbour now and then, especially when an exhibition gives us a reason to revisit it.",
+        "zh": "我們間中仍沿着舊港口散步，尤其有展覽令我們想再去時。",
+        "promptZh": "指出平日與間中活動的分別。",
+        "targetSpan": {
+          "start": 36,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各有平日習慣，另一活動只偶爾重複。用英文寫出日常與間中差異。",
+        "selfCheckZh": "兩例不可把每日固定或只發生一次的事說成 now and then。",
+        "examples": [
+          {
+            "en": "Pia usually cycles to work but takes the tram now and then when she has a heavy bag.",
+            "zh": "皮亞通常踏單車上班，但帶重袋時會間中乘電車。"
+          },
+          {
+            "en": "The music club meets indoors each week and rehearses in the park now and then when the weather is mild.",
+            "zh": "音樂社每週在室內聚會，天氣和暖時會間中在公園綵排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "cycles to work",
+            "zh": "踏單車上班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 26
+            }
+          },
+          {
+            "en": "heavy bag",
+            "zh": "重袋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 83
+            }
+          },
+          {
+            "en": "meets indoors",
+            "zh": "在室內聚會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 28
+            }
+          },
+          {
+            "en": "weather is mild",
+            "zh": "天氣和暖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Now and then means occasionally, not constantly.",
+          "zh": "now and then 指偶爾，而非一直。"
+        },
+        {
+          "en": "An activity done now and then need not follow an exact schedule.",
+          "zh": "間中做的活動毋須有精確固定時間表。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3676",
+      "number": 3676,
+      "inventoryId": "expr-3676",
+      "titleEn": "fresh start rather than a setback",
+      "titleZh": "新開始而非挫折",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bfresh start rather than a setback\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Frame a change as a chance to begin constructively instead of only as a loss or obstacle.",
+        "meaningZh": "把變動視為重新建設的機會，而非只當成損失或障礙。",
+        "grammar": "A fresh start rather than a setback; name the change, initial difficulty and concrete new opportunity. Do not deny the setback occurred.",
+        "register": "Encouraging but grounded conversational English. A mentor may use it when discussing a student’s move to a different project team.",
+        "boundaryZh": "須指出實際重新開始的機會與行動；只要求當事人「保持樂觀」而沒有新可能，不足以作此判斷。",
+        "misconceptionZh": "不是說困難不存在，也不保證新安排必定成功。",
+        "outcomeZh": "能說出損失、可採取的新行動及仍需處理的限制。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1565",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 147,
+          "book": 14,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 156, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The move became a fresh start rather than a setback.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fresh start rather than a setback"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The choir lost its hall and members were disappointed. A library room let them rehearse acoustic pieces and welcome neighbours. They called that opportunity a fresh start rather than a setback, though storage still needed work.",
+        "zh": "合唱團失去禮堂，團員很失望。圖書館房間讓他們練無伴奏作品、歡迎鄰居。他們把這個機會視為新開始，而非只是一場挫折，雖然儲物仍須安排。",
+        "promptZh": "甚麼令搬遷成為新開始？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new room created concrete ways to rehearse and welcome people.",
+            "zh": "新房間帶來具體綵排與迎新方法。"
+          },
+          {
+            "id": "b",
+            "en": "The choir never lost the first hall.",
+            "zh": "合唱團從沒失去原禮堂。"
+          },
+          {
+            "id": "c",
+            "en": "All storage problems disappeared automatically.",
+            "zh": "所有儲物問題自動消失。"
+          },
+          {
+            "id": "d",
+            "en": "Members were forbidden to feel disappointed.",
+            "zh": "團員被禁止感到失望。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新行動存在，困難仍須處理。"
+      },
+      "reply": {
+        "promptEn": "A school garden team must move after construction begins. They can reuse raised beds in a sunnier area and invite nearby classes, though watering will take planning. How might they view the move?",
+        "promptZh": "（學校園藝隊因工程須搬遷。他們可在日照較佳位置重用高架花槽並邀請附近班級，雖然澆水要再安排。可怎樣看搬遷？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It creates a chance to include more classes.",
+            "zh": "它提供讓更多班級參加的機會。"
+          },
+          {
+            "id": "b",
+            "en": "The raised beds can be reused in a new place.",
+            "zh": "高架花槽可在新地點重用。"
+          },
+          {
+            "id": "c",
+            "en": "It could be a fresh start rather than a setback.",
+            "zh": "它可以是新開始，而非只是一場挫折。"
+          },
+          {
+            "id": "d",
+            "en": "The watering issue still deserves a plan.",
+            "zh": "澆水問題仍值得安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認具體機會與仍有的困難。"
+      },
+      "scene": {
+        "promptZh": "藝術小組失去原展場，卻獲新場地可讓學生共同策展，仍須解決運輸。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It could be a fresh start rather than a setback.",
+            "zh": "它可以是新開始，而非只是一場挫折。"
+          },
+          {
+            "id": "b",
+            "en": "The original venue was never lost.",
+            "zh": "原場地從未失去。"
+          },
+          {
+            "id": "c",
+            "en": "The new venue guarantees every problem is solved.",
+            "zh": "新場地保證解決所有問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新機會與剩餘問題並存。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a change is a fresh start rather than a setback？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A group loses its room and has no new location, plan or realistic opportunity, but someone simply orders members to be cheerful.",
+            "zh": "團體失去房間，沒有新地點、計劃或實際機會，有人只叫成員開心。"
+          },
+          {
+            "id": "b",
+            "en": "A team moves to a smaller room and uses it to create a workable new format.",
+            "zh": "團隊搬到較小房間，藉此制訂可行的新形式。"
+          },
+          {
+            "id": "c",
+            "en": "A club loses a sponsor but finds a lower-cost plan that still serves members.",
+            "zh": "社團失去贊助，卻找到仍能服務會員的低成本方案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有可行新機會，單靠空泛鼓勵不足。"
+      },
+      "dialogue": {
+        "promptEn": "A: Losing the old room was hard, but the new workshop lets us share tools with another group. We still need to settle storage. B: ______",
+        "promptZh": "（甲：失去舊房很難受，但新工作坊讓我們與另一團體共用工具。儲物仍須處理。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shared tools create a real new possibility.",
+            "zh": "共用工具帶來真實新可能。"
+          },
+          {
+            "id": "b",
+            "en": "You can acknowledge the loss and still plan ahead.",
+            "zh": "你可承認損失，同時向前計劃。"
+          },
+          {
+            "id": "c",
+            "en": "It may be a fresh start rather than a setback.",
+            "zh": "它也許是新開始，而非只是一場挫折。"
+          },
+          {
+            "id": "d",
+            "en": "Sorting storage will help make the new arrangement work.",
+            "zh": "處理儲物能助新安排運作。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句有分寸地把困難與新機會並列。"
+      },
+      "speaking": {
+        "en": "The cooking club found a fresh start rather than a setback in a shared kitchen, teaching neighbours while managing bookings.",
+        "zh": "烹飪會在共用廚房找到新開始，而非只是一場挫折；他們可教鄰居，同時仍須管理預約。",
+        "promptZh": "指出新機會及仍需處理事項。",
+        "targetSpan": {
+          "start": 25,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團體各遇到失去原安排的困難，卻找到具體新機會，同時保留一項待解難題。用英文寫出平衡觀點。",
+        "selfCheckZh": "不能否認損失或保證成功；要有可行新行動。",
+        "examples": [
+          {
+            "en": "After losing its old stall, the craft co-op saw a fresh start rather than a setback in a shared market space where members could teach repairs, though opening hours needed agreement.",
+            "zh": "手工合作社失去舊攤位後，在可教維修的共享市集空間看到新開始，而非只是一場挫折，雖然開放時間仍須協調。"
+          },
+          {
+            "en": "The orchestra treated the smaller rehearsal room as a fresh start rather than a setback by forming chamber groups and inviting new players, while planning instrument storage.",
+            "zh": "樂團把較小綵排室視為新開始而非只是一場挫折，組成室內樂小組並邀請新樂手，同時安排樂器儲存。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shared market space",
+            "zh": "共享市集空間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 108
+            }
+          },
+          {
+            "en": "opening hours",
+            "zh": "開放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 164
+            }
+          },
+          {
+            "en": "chamber groups",
+            "zh": "室內樂小組",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 113
+            }
+          },
+          {
+            "en": "instrument storage",
+            "zh": "樂器儲存",
+            "exampleIndex": 1,
+            "span": {
+              "start": 155,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A fresh start rather than a setback needs a concrete new path.",
+          "zh": "fresh start rather than a setback 須有具體新方向。"
+        },
+        {
+          "en": "Calling change a fresh start rather than a setback need not deny difficulty.",
+          "zh": "稱變動為新開始而非挫折，毋須否認困難。"
+        }
+      ]
+    }
+  ]
+}

@@ -488,12 +488,12 @@
       "id": "advanced-native-1503",
       "number": 1503,
       "inventoryId": "expr-1503",
-      "contentRevision": 1,
-      "titleEn": "woven into daily routines / daily life",
+      "contentRevision": 3,
+      "titleEn": "woven into everyday life",
       "titleZh": "融入日常習慣",
       "category": "figurative",
       "target": {
-        "pattern": "\\bwoven\\s+into\\s+(?:daily\\s+routines|(?:ordinary\\s+)?daily\\s+life)\\b"
+        "pattern": "\\b(?:deeply )?woven into (?:daily routines|(?:ordinary )?daily life|ordinary life|everyday living|everyday life)\\b"
       },
       "sources": [
         {
@@ -523,13 +523,55 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "woven into ordinary daily life",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-2482",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 235,
+          "book": 16,
+          "question": 46,
+          "sample": "S2",
+          "sourceBookPages": "108–109",
+          "locatorNote": "DOCX table 261, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Digital booking is woven into ordinary life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "woven into ordinary life"
+        },
+        {
+          "occurrenceId": "book10-16-0336",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "63–65",
+          "locatorNote": "DOCX table 26, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Digital payments are woven into everyday living in the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "woven into everyday living"
+        },
+        {
+          "occurrenceId": "book10-16-0449",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 41,
+          "book": 11,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Digital payments are deeply woven into everyday life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "deeply woven into everyday life"
         }
       ],
       "brief": {
         "meaningEn": "Integrated into ordinary repeated activities.",
         "meaningZh": "融入平常重複進行的生活活動。",
-        "grammar": "be woven into daily routines / ordinary daily life; woven is the past participle of weave. Daily routines and ordinary daily life name everyday integration, with ordinary emphasising the unexceptional setting; the image does not require an actual fabric object.",
-        "register": "neutral",
+        "grammar": "Be woven into daily routines, ordinary life, everyday living or everyday life; deeply intensifies how fully a practice is integrated. The fabric image is figurative, not literal thread.",
+        "register": "Neutral integration metaphor; a resident may use it to describe a habitual service or family practice to a visitor, without claiming everyone follows the same routine.",
         "boundaryZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
         "misconceptionZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
         "outcomeZh": "理解「融入日常習慣」的語境及用法，並在新情境寫出自然句子。"
@@ -724,8 +766,8 @@
           "zh": "一起吃飯已融入日常習慣。"
         },
         {
-          "en": "Small acts of kindness can be woven into daily routines.",
-          "zh": "小小善意可以融入日常習慣。"
+          "en": "Regular voice messages are deeply woven into everyday life for relatives living apart, giving them a simple way to stay in touch.",
+          "zh": "對分隔兩地的親人來說，定期傳語音訊息已深深融入日常生活，讓他們能簡單地保持聯絡。"
         }
       ],
       "review": {
@@ -985,12 +1027,12 @@
       "id": "advanced-native-1505",
       "number": 1505,
       "inventoryId": "expr-1505",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "the backbone of ...",
       "titleZh": "日常生活或飲食的核心支柱",
       "category": "idiom",
       "target": {
-        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life)\\b"
+        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life|modern\\s+home\\s+life)\\b"
       },
       "sources": [
         {
@@ -1020,16 +1062,30 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "the backbone of everyday life",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0315",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 29,
+          "book": 10,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Reliable appliances form the backbone of modern home life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "backbone of modern home life"
         }
       ],
       "brief": {
-        "meaningEn": "A central supporting element of a system or ordinary life, such as a staple in local food routines or neighbours in everyday life.",
-        "meaningZh": "一個制度或日常生活中的核心支柱，例如本地飲食的主糧，或日常生活裏的鄰里支持。",
-        "grammar": "be/remain/form the backbone of + activity or area of life; rice remains the backbone of local eating habits, while neighbours can be the backbone of everyday life. The noun construction names central support; the complement specifies its domain.",
-        "register": "neutral",
+        "meaningEn": "A central supporting element of a system or ordinary life, such as a staple in local food routines, neighbours in everyday life or essential home infrastructure.",
+        "meaningZh": "一個制度或日常生活中的核心支柱，例如本地飲食的主糧、日常生活裏的鄰里支持，或家居運作不可缺的重要設施。",
+        "grammar": "be/remain/form the backbone of + activity or area of life; local eating habits, everyday life and modern home life are attested complements. The noun construction names central support; the complement specifies its domain.",
+        "register": "A resident explaining a recurring household or community dependence to a neighbour, or a speaker describing a staple to a listener, can use this neutral metaphor.",
         "boundaryZh": "backbone 是核心支柱的比喻；要有慣常中心作用的依據，不等於唯一食物或唯一支持者，也不只是一次幫忙或偶爾受歡迎的菜式。",
         "misconceptionZh": "核心支持不表示其他部分都無用；要有持續作用的線索，而非只因一次受歡迎或被提及便斷定中心地位。",
-        "outcomeZh": "能以具體持續作用描述日常生活或飲食的核心支柱，不把中心支持等同唯一來源。"
+        "outcomeZh": "能以具體持續作用描述家居、日常生活或飲食的核心支柱，不把中心支持等同唯一來源。"
       },
       "listening": {
         "en": "In this village, rice remains the backbone of local eating habits because most everyday meals are planned around it.",
@@ -1221,8 +1277,8 @@
           "zh": "米飯仍是該村落本地飲食的核心支柱。"
         },
         {
-          "en": "The guide explains why that staple is the backbone of local eating habits.",
-          "zh": "指南解釋那種主食為甚麼是本地飲食的核心支柱。"
+          "en": "Shared broadband is the backbone of modern home life in the village: families use it for appointments, homework and bills.",
+          "zh": "在這村落，共用寬頻是現代家居生活的核心支柱：各家用它預約服務、做功課和繳費。"
         }
       ],
       "review": {
@@ -5142,12 +5198,12 @@
       "id": "advanced-native-1523",
       "number": 1523,
       "inventoryId": "expr-1523",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "keep relationships / family ties warm",
       "titleZh": "維繫關係的溫度",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b"
+        "pattern": "(?:\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b)|(?:\\b(?:keep|keeps|keeping|kept) relationships warm\\b)"
       },
       "sources": [
         {
@@ -5177,12 +5233,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "keeping family ties warm",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0833",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 77,
+          "book": 12,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–22",
+          "locatorNote": "DOCX table 78, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Regular calls help with keeping relationships warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping relationships warm"
         }
       ],
       "brief": {
         "meaningEn": "Maintain affection or emotional closeness in personal relationships, including family ties.",
         "meaningZh": "維持人際關係中的情感親近，包括家庭連繫。",
-        "grammar": "people keep their relationships warm through calls or shared time; keeping family ties warm names the family scope explicitly. Keep + relationship/tie object + warm uses warmth for affectionate connection; name whose relationships before their.",
+        "grammar": "keep relationships/family ties warm, with or without their before relationships; keeping and kept mark ongoing or past care. Warm refers to emotional closeness.",
         "register": "neutral",
         "boundaryZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
         "misconceptionZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
@@ -5378,8 +5448,8 @@
           "zh": "朋友們透過定期交談維繫關係的溫度。"
         },
         {
-          "en": "The cousins kept their relationships warm while living in different cities.",
-          "zh": "表親們住在不同城市時，仍維繫關係的溫度。"
+          "en": "Short, regular messages can keep relationships warm when old friends live in different cities.",
+          "zh": "老朋友分隔不同城市生活時，定期傳簡短訊息有助維繫情誼。"
         }
       ],
       "review": {
@@ -5397,12 +5467,12 @@
       "id": "advanced-native-1524",
       "number": 1524,
       "inventoryId": "expr-1524",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "family bonds are quietly strengthened",
       "titleZh": "家人連繫默默加深",
       "category": "figurative",
       "target": {
-        "pattern": "\\bfamily\\s+bonds\\s+are\\s+quietly\\s+strengthened\\b"
+        "pattern": "\\b(?:family\\s+bonds\\s+are\\s+quietly\\s+strengthened|strengthen(?:s|ed|ing)?\\s+(?:family\\s+)?bonds)\\b"
       },
       "sources": [
         {
@@ -5418,12 +5488,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "family bonds are quietly strengthened",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-0111",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 11,
+          "book": 10,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 8, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Shared meals can strengthen bonds across generations.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "strengthen bonds"
         }
       ],
       "brief": {
-        "meaningEn": "Family relationships become closer through small, often unobtrusive acts.",
-        "meaningZh": "家庭關係透過細小而不張揚的互動逐漸加深。",
-        "grammar": "family bonds are quietly strengthened through / when + meaningful interactions",
+        "meaningEn": "Relationships become closer through meaningful interaction; strengthen bonds is the active form, while family bonds are quietly strengthened describes the passive result.",
+        "meaningZh": "關係透過有意義的互動加深；strengthen bonds 是主動用法，family bonds are quietly strengthened 則描述被動結果。",
+        "grammar": "strengthen/strengthens/strengthened/strengthening bonds across or between people; family bonds are quietly strengthened through meaningful interactions. Family and quietly specify the existing relationship and manner, not a different meaning.",
         "register": "neutral",
         "boundaryZh": "bonds 是情感連繫；quietly 不一定指完全無聲，而是常在平凡互動中發生。並非只要一起出席就必定親近。",
         "misconceptionZh": "bonds 是情感連繫；quietly 不一定指完全無聲，而是常在平凡互動中發生。並非只要一起出席就必定親近。",
@@ -5619,8 +5703,8 @@
           "zh": "家人的連繫透過日常善意默默加深。"
         },
         {
-          "en": "Family bonds are quietly strengthened when people feel heard.",
-          "zh": "大家感到被聆聽時，家人的連繫默默加深。"
+          "en": "A weekly call can strengthen bonds between cousins who live far apart.",
+          "zh": "每週通話有助加深相隔兩地的堂表親之間的連繫。"
         }
       ],
       "review": {

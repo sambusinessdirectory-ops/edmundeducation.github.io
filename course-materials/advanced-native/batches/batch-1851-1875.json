@@ -2012,12 +2012,12 @@
       "id": "advanced-native-1861",
       "number": 1861,
       "inventoryId": "expr-1861",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "pull the rug out from under someone",
       "titleZh": "突然抽走依靠，令人失去穩定",
       "category": "idiom",
       "target": {
-        "pattern": "\\bpull(?:s|ed|ing)? the rug out from under (?:them|me|us|her|him|you|someone)\\b"
+        "pattern": "(?:\\bpull(?:s|ed|ing)? the rug out from under (?:them|me|us|her|him|you|someone)\\b)|(?:\\b(?:pull|pulls|pulled|pulling) the rug out from under local people\\b)"
       },
       "sources": [
         {
@@ -2033,12 +2033,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "pull the rug out from under them",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1312",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 122,
+          "book": 13,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "13–16",
+          "locatorNote": "DOCX table 127, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A policy should not pull the rug out from under local people.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pull the rug out from under local people"
         }
       ],
       "brief": {
         "meaningEn": "Suddenly remove an expected source of support or security and leave someone destabilised.",
         "meaningZh": "突然抽走別人原本依靠的支持或保障，使對方失去穩定。",
-        "grammar": "pull the rug out from under someone; pulled/pulling; name the person and the support unexpectedly withdrawn.",
+        "grammar": "pull the rug out from under someone, including local people; pulled is the past form. The lost 'rug' is expected support or security.",
         "register": "neutral",
         "boundaryZh": "要有突然失去依靠或保障的語境，不是任何調整都算；也不能單憑這個比喻判定對方蓄意傷害或此後一定失敗。",
         "misconceptionZh": "要有突然失去依靠或保障的語境，不是任何調整都算；也不能單憑這個比喻判定對方蓄意傷害或此後一定失敗。",
@@ -2243,8 +2257,8 @@
           "zh": "展覽當日早上，議定的交通安排突然沒有了，抽走了我們的依靠。"
         },
         {
-          "en": "Changing the deadline without warning pulled the rug out from under her while she was arranging the team’s remaining work.",
-          "zh": "她安排團隊餘下工作時，期限毫無預告地改變，突然抽走了她的依靠。"
+          "en": "Closing the only evening clinic without notice would pull the rug out from under local people.",
+          "zh": "若毫無預告便關閉唯一的夜間診所，會令區內居民突然失去重要支援。"
         }
       ],
       "review": {
@@ -3764,12 +3778,12 @@
       "id": "advanced-native-1869",
       "number": 1869,
       "inventoryId": "expr-1869",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "not have all your eggs in one basket",
       "titleZh": "不把全部希望放在單一選項",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:have|has|had|having|put(?:ting)?) all (?:my|our|their|your|her|his|the) eggs in one basket\\b"
+        "pattern": "(?:\\b(?:have|has|had|having|put(?:ting)?) all (?:my|our|their|your|her|his|the) eggs in one basket\\b)|(?:\\b(?:have|has|had|having|put(?:ting)?) all its eggs in one basket\\b)"
       },
       "sources": [
         {
@@ -3785,12 +3799,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "not have all their eggs in one basket",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-1293",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 120,
+          "book": 13,
+          "question": 4,
+          "sample": "S2",
+          "sourceBookPages": "9–10",
+          "locatorNote": "DOCX table 125, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A supplier should not put all its eggs in one basket.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "all its eggs in one basket"
         }
       ],
       "brief": {
         "meaningEn": "Depend entirely on a single plan or source; the negative form recommends avoiding that concentration of dependence.",
         "meaningZh": "把希望或依靠全部集中在一個計劃或來源；否定式表示避免只依賴一個。",
-        "grammar": "not have all your eggs in one basket; do not put all your eggs in one basket; vary the possessive with the person. The positive image names concentration, while the negative advises against it.",
+        "grammar": "have/put all your, their or its eggs in one basket; its can refer to a firm or supplier. The idiom concerns dependence on one option, not actual eggs.",
         "register": "neutral",
         "boundaryZh": "分散依靠不是保證成功，也不等於不認真投入任何一項；需有實際不同的選項，不只是同一來源換名稱。",
         "misconceptionZh": "分散依靠不是保證成功，也不等於不認真投入任何一項；需有實際不同的選項，不只是同一來源換名稱。",
@@ -3995,8 +4023,8 @@
           "zh": "編輯不想只依賴單一選項，所以等第一位攝影師回覆時，也詢問另一張圖片的使用許可。"
         },
         {
-          "en": "They had all their eggs in one basket when every event plan depended on the same unconfirmed hall booking.",
-          "zh": "每個活動計劃都依賴同一未確認禮堂預訂時，他們只有單一依靠。"
+          "en": "By booking three venues, the theatre avoids putting all its eggs in one basket.",
+          "zh": "劇院預訂三個場地，避免把所有希望押在同一選項上。"
         }
       ],
       "review": {
@@ -4514,12 +4542,12 @@
       "id": "advanced-native-1872",
       "number": 1872,
       "inventoryId": "expr-1872",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "juggle three things at once",
       "titleZh": "同時兼顧互相競爭的需要",
       "category": "figurative",
       "target": {
-        "pattern": "\\bjuggle three things at once\\b"
+        "pattern": "\\b(?:juggle|juggles|juggled|juggling) (?:three things at once|work and family duties)\\b"
       },
       "sources": [
         {
@@ -4535,12 +4563,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "juggle three things at once",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0103",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 10,
+          "book": 10,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "20–21",
+          "locatorNote": "DOCX table 8, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Juggling work and family duties left him exhausted.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "juggling work"
         }
       ],
       "brief": {
-        "meaningEn": "Manage three competing tasks, demands or priorities at the same time.",
-        "meaningZh": "同時兼顧三項互相爭取時間、資源或注意力的事情。",
-        "grammar": "juggle three things at once; name the three demands. The number belongs to the source frame, not a claim that juggle can only take three items.",
+        "meaningEn": "Manage two or more competing tasks, demands or priorities at the same time; the original three-item frame is one example rather than a fixed numerical requirement.",
+        "meaningZh": "同時兼顧兩項或以上互相爭取時間、資源或注意力的事情；原來三項的句型只是例子，不是固定數目要求。",
+        "grammar": "juggle competing demands; this lesson recognises juggle three things at once and juggle/juggling work and family duties. The demands overlap in time or attention; naming them does not prove success.",
         "register": "neutral",
         "boundaryZh": "要交代需兼顧的三件事及張力，不表示已兼顧得完美，也不只是按順序完成三項互不相干的任務。",
         "misconceptionZh": "要交代需兼顧的三件事及張力，不表示已兼顧得完美，也不只是按順序完成三項互不相干的任務。",
@@ -4745,8 +4787,8 @@
           "zh": "講者到達、投影片出問題、接待桌又需要指示時，統籌要同時兼顧三件事。"
         },
         {
-          "en": "To juggle three things at once in the poster, she discussed readability, image detail and the printer’s size limit with the editor.",
-          "zh": "為在海報同時兼顧三件事，她跟編輯討論可讀性、圖像細節和印刷尺寸限制。"
+          "en": "During the gallery move, Priya was juggling work and family duties, so she asked for help with packing.",
+          "zh": "畫廊搬遷期間，普莉雅要同時兼顧工作和家庭責任，因此請人幫忙執拾。"
         }
       ],
       "review": {
@@ -5264,12 +5306,12 @@
       "id": "advanced-native-1875",
       "number": 1875,
       "inventoryId": "expr-1875",
-      "contentRevision": 1,
-      "titleEn": "the least room to manoeuvre",
-      "titleZh": "在比較之中，可調整的餘地最少",
+      "contentRevision": 2,
+      "titleEn": "room to manoeuvre",
+      "titleZh": "調整餘地",
       "category": "figurative",
       "target": {
-        "pattern": "\\bthe least room to manoeuvre\\b"
+        "pattern": "\\b(?:the least )?room to manoeuvre\\b"
       },
       "sources": [
         {
@@ -5285,13 +5327,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "the least room to manoeuvre",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0491",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 45,
+          "book": 11,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 41, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A larger budget gives the team room to manoeuvre.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "room to manoeuvre"
         }
       ],
       "brief": {
-        "meaningEn": "The smallest amount of freedom to adapt plans or respond, among the people or options being compared.",
-        "meaningZh": "在所比較的人或選項之中，調整計劃或應變的自由最少。",
-        "grammar": "have/leave someone with the least room to manoeuvre; least is superlative within a stated comparison group. Room means scope or flexibility, not physical floor space.",
-        "register": "neutral",
+        "meaningEn": "Freedom to change a plan or respond to new circumstances; the least room marks the smallest amount within a comparison.",
+        "meaningZh": "調整計劃或應變的餘地；the least room 表示在比較中餘地最少。",
+        "grammar": "Have or give someone room to manoeuvre; have the least room to manoeuvre when comparing options. Room means flexibility, not physical floor space.",
+        "register": "Neutral planning metaphor; a team may use it in a budget or schedule discussion, with the superlative only when a comparison is stated.",
         "boundaryZh": "需說清在哪方面、跟誰比較；餘地最少不等於完全沒有任何行動，也不等於不願配合。",
         "misconceptionZh": "需說清在哪方面、跟誰比較；餘地最少不等於完全沒有任何行動，也不等於不願配合。",
         "outcomeZh": "理解「在比較之中，可調整的餘地最少」的語境及用法，並在新情境寫出自然句子。"
@@ -5495,8 +5551,8 @@
           "zh": "申請者之中，依靠每日唯一一班巴士的人，在面試時間改動時調整餘地最少。"
         },
         {
-          "en": "The team with the least room to manoeuvre in its printing budget asked for the final page count before approving the design.",
-          "zh": "印刷預算調整餘地最少的團隊，要求先有最後頁數，才批准設計。"
+          "en": "An extra guide on call gives the museum team room to manoeuvre if a scheduled guide falls ill.",
+          "zh": "多一位隨時候命的導賞員，讓博物館團隊在原定導賞員生病時有調整餘地。"
         }
       ],
       "review": {

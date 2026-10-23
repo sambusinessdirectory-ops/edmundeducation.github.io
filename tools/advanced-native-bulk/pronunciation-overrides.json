@@ -1,22 +1,26 @@
 {
-  "version": "curveball-and-a-to-b-v2",
-  "textPattern": "\\b(?:curveballs?|A to B)\\b",
+  "version": "curveball-a-to-b-tearjerker-quiet-hour-v3",
+  "textPattern": "\\b(?:curveballs?|A to B|tearjerker|quiet-hour)\\b",
   "phonemeSeparators": " \t\r\n\f\u000b.,;:!?…\"'()[]{}—–-",
   "languages": {
     "en-gb": {
       "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːvbˌɔːl"},
       "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːvbˌɔːlz"},
-      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"}
+      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"},
+      "tearjerker": {"before": "tˈiədʒəkə", "after": "tˈiədʒˈɜːkə"},
+      "quiet-hour": {"before": "kwˈaɪətˈaʊə", "after": "kwˈaɪət ˈaʊə"}
     },
     "en-us": {
       "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːɹvbˌɔːl"},
       "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːɹvbˌɔːlz"},
-      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"}
+      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"},
+      "tearjerker": {"before": "tˈɪɹdʒɚkɚ", "after": "tˈɪɹdʒˈɜːkɚ"},
+      "quiet-hour": {"before": "kwˈaɪətˈaʊɚ", "after": "kwˈaɪət ˈaʊɚ"}
     }
   },
   "evidence": [
     "https://dictionary.cambridge.org/pronunciation/english/curveball",
     "https://www.oxfordlearnersdictionaries.com/definition/english/curveball"
   ],
-  "note": "Pinned G2P inserts a spurious vowel in curveball and reads the letter A in A to B as the unstressed article. Correct only exact matched units after full-sentence phonemization; retain all display text, language, voice and speed pins. This configuration does not claim audio hearing approval."
+  "note": "Pinned G2P inserts a spurious vowel in curveball, reads the letter A in A to B as the unstressed article, compresses tearjerker into an ASR-unstable syllable sequence, and joins the two stressed words of quiet-hour. Correct only exact matched units after full-sentence phonemization; retain all display text, language, voice and speed pins. This configuration does not claim audio hearing approval."
 }

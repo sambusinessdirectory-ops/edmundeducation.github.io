@@ -1442,7 +1442,7 @@
     "titleZh": "兼顧相互競爭的需要",
     "category": "idiom",
     "target": {
-      "pattern": "\\b(?:strike|strikes|striking|struck) a balance\\b",
+      "pattern": "(?:\\b(?:strike|strikes|striking|struck) a balance\\b)|(?:\\b(?:strike|strikes|striking|struck) the right balance\\b)",
       "glossaryForbidden": [
         "\\b(?:strike|strikes|striking|struck)\\b",
         "\\bbalance\\b"
@@ -1451,7 +1451,7 @@
     "brief": {
       "meaningEn": "Find a workable arrangement between competing needs.",
       "meaningZh": "在互相競爭的需要之間找到可行的兼顧方式。",
-      "grammar": "strike a balance between A and B; struck in the past.",
+      "grammar": "strike a balance / strike the right balance between competing needs; struck is the past form. Right stresses suitability, not a numerical midpoint.",
       "register": "Neutral decision-making idiom.",
       "boundaryZh": "不一定剛好各佔一半，也不表示沒有取捨；要看實際需要。",
       "misconceptionZh": "平衡不是把一邊完全忽略，也不保證每人得到所有想要的。",
@@ -1522,6 +1522,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 189, table 1, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p189-t1-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0830",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 77,
+        "book": 12,
+        "question": 7,
+        "sample": "S2",
+        "sourceBookPages": "18–19",
+        "locatorNote": "DOCX table 77, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The host must strike the right balance between planning and spontaneity.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "strike the right balance"
       }
     ],
     "listening": {
@@ -1723,8 +1737,8 @@
         "zh": "我們兼顧了有用細節與清楚訊息。"
       },
       {
-        "en": "A realistic plan can strike a balance between ambition and available time.",
-        "zh": "實際計劃可以兼顧目標與可用時間。"
+        "en": "A useful timetable strikes the right balance between quiet study and group discussion.",
+        "zh": "一份實用的時間表能在安靜自修與小組討論之間取得恰當平衡。"
       }
     ],
     "review": {
@@ -1753,7 +1767,7 @@
         "Full AI author self-review completed on this draft: meanings, bilingual sentence fidelity, four valid replies, one defensible standard key, plausible nearby distractors, target-bearing audio and exact glossary source spans. Independent content/media/browser review pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-157",
@@ -2880,16 +2894,16 @@
     "titleZh": "明明看得見卻被忽略",
     "category": "idiom",
     "target": {
-      "pattern": "\\bhidden in plain sight\\b",
+      "pattern": "\\b(?:hidden in plain sight|(?:hide|hides|hiding|hid) clues in plain sight)\\b",
       "glossaryForbidden": [
         "\\bhidden\\b",
         "\\bplain sight\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Visible or easily accessible, yet overlooked.",
-      "meaningZh": "明明可見或容易接觸，卻一直被忽略。",
-      "grammar": "be hidden in plain sight; the contrast between visible and unnoticed creates the idiom.",
+      "meaningEn": "Be visible yet overlooked; in the active hide clues in plain sight form, a writer deliberately places visible clues where readers may miss them.",
+      "meaningZh": "明明可見卻被忽略；主動句 hide clues in plain sight 可指作者故意把可見線索放在讀者容易忽略之處。",
+      "grammar": "be hidden in plain sight describes the visible-yet-overlooked state; hide/hides/hiding/hid clues in plain sight describes deliberate placement. The passive state alone does not prove deliberate hiding.",
       "register": "Neutral vivid idiom.",
       "boundaryZh": "不一定有人故意藏起來；重點是可見卻沒留意，不是上鎖或無法接觸。",
       "misconceptionZh": "找到後覺得明顯不代表之前每個人都愚笨，注意力和版面安排也有影響。",
@@ -2908,6 +2922,20 @@
         "sample": "S1",
         "locatorNote": "PDF page 18, table 2, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p018-t2-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0281",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 26,
+        "book": 10,
+        "question": 22,
+        "sample": "S1",
+        "sourceBookPages": "52–53",
+        "locatorNote": "DOCX table 22, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "The writer likes to hide clues in plain sight.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "hide clues in plain sight"
       }
     ],
     "listening": {
@@ -3109,8 +3137,8 @@
         "zh": "有用細節明明在首頁，卻被忽略。"
       },
       {
-        "en": "A familiar object can be hidden in plain sight when our attention is elsewhere.",
-        "zh": "注意力在別處時，熟悉物件也可能明明可見卻被忽略。"
+        "en": "The instructor hid clues in plain sight on the map, giving students a fair chance to find the route.",
+        "zh": "導師把線索明放在地圖上，讓學生有公平機會找出路線。"
       }
     ],
     "review": {
@@ -3139,7 +3167,7 @@
         "Full AI author self-review completed on this draft: meanings, bilingual sentence fidelity, four valid replies, one defensible standard key, plausible nearby distractors, target-bearing audio and exact glossary source spans. Independent content/media/browser review pending."
       ]
     },
-    "contentRevision": 2
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-162",
@@ -3998,15 +4026,15 @@
     "titleZh": "被大量訊息包圍",
     "category": "figurative",
     "target": {
-      "pattern": "\\bbombarded with\\b",
+      "pattern": "(?:\\bbombarded with\\b)|(?:\\bbombarded by noise\\b)",
       "glossaryForbidden": [
         "\\bbombard(?:ed|ing|s)?\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Exposed to a very large, often overwhelming amount of messages or demands.",
-      "meaningZh": "接收到大量、常令人難以承受的訊息或要求。",
-      "grammar": "be/feel bombarded with + messages/questions/adverts; passive metaphor.",
+      "meaningEn": "Exposed repeatedly to an overwhelming amount of messages, demands or intrusive sensory input such as noise.",
+      "meaningZh": "接連受到大量訊息、要求或噪音等侵擾性刺激，令人難以招架。",
+      "grammar": "be bombarded with messages or demands; also be bombarded by noise. The metaphor describes repeated overwhelming exposure, not literal bombardment.",
       "register": "Strong conversational metaphor; do not use for a single ordinary message.",
       "boundaryZh": "重點是數量及接連湧來的感受，不是真正攻擊，也不表示每個訊息都壞。",
       "misconceptionZh": "覺得資訊過量不等於完全不需要資訊；可以調整頻率或分類。",
@@ -4025,6 +4053,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 18, table 2, row 7; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p018-t2-r07"
+      },
+      {
+        "occurrenceId": "book10-16-2300",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 217,
+        "book": 16,
+        "question": 24,
+        "sample": "S2",
+        "sourceBookPages": "59–60",
+        "locatorNote": "DOCX table 239, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Residents feel bombarded by noise near the highway.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "bombarded by noise"
       }
     ],
     "listening": {
@@ -4226,8 +4268,8 @@
         "zh": "讀者可能覺得被大量重複廣告包圍。"
       },
       {
-        "en": "A clear summary helps when people are bombarded with updates.",
-        "zh": "人們接收大量更新時，清楚摘要會有幫助。"
+        "en": "Parents in the waiting room are bombarded by noise from nearby renovations.",
+        "zh": "候診室內的家長不斷受到附近裝修工程的噪音滋擾。"
       }
     ],
     "review": {
@@ -4256,7 +4298,7 @@
         "Full AI author self-review completed on this draft: meanings, bilingual sentence fidelity, four valid replies, one defensible standard key, plausible nearby distractors, target-bearing audio and exact glossary source spans. Independent content/media/browser review pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-166",

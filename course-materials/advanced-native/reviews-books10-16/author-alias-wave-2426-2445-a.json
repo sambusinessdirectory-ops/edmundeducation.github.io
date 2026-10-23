@@ -1,0 +1,53 @@
+{
+  "auditKind": "author-two-held-existing-aliases",
+  "createdUtc": "2026-10-23T17:50:49.587332+00:00",
+  "rows": [
+    {
+      "sourceOrdinal": 2426,
+      "sourceId": "book10-16-0315",
+      "sourceExpression": "backbone of modern home life",
+      "sourceExample": "Reliable appliances form the backbone of modern home life.",
+      "sourceMeaning": "An essential support for daily domestic routines; a body metaphor.",
+      "canonicalOwner": "advanced-native-1505",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "canonicalBatchSha256": "b80fbd6d9699abe5d6f25b0e07b856b905f15c9850d09f630b6dfc8a871e22cb",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Both source and canonical use backbone for a recurring central support to daily life; modern domestic routines are a bounded complement, not a new metaphor."
+    },
+    {
+      "sourceOrdinal": 2445,
+      "sourceId": "book10-16-0334",
+      "sourceExpression": "convenience comes at a price",
+      "sourceExample": "Delivery is fast, but convenience comes at a price.",
+      "sourceMeaning": "A benefit has a cost or drawback; a conventional evaluative phrase.",
+      "canonicalOwner": "advanced-native-883",
+      "canonicalBatch": "course-materials/advanced-native/batches/batch-0876-0900.json",
+      "canonicalBatchSha256": "744e71a4bfdb3443b258b7267cc1f2903b59e5f5caa067806a1afee275a8e84e",
+      "contentRevision": 2,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "c3a2a2ce2e97977f550c299310108f19729650613479ac53f452593d01a0662a",
+      "sourceProvenanceExact": true,
+      "positiveDetectorTestsPassed": 3,
+      "negativeDetectorTestsPassed": 2,
+      "decisionReason": "Both source and canonical frame a benefit with a concrete possible drawback, including nonfinancial cost; comes at a price is an alternate grammatical cost frame."
+    }
+  ],
+  "reviewNotes": [
+    "2426 domain expansion: existing rice/neighbour support versus modern home infrastructure; new shared-broadband transfer is not the guide appliance sentence.",
+    "2445 alternate cost frame: figurative nonfinancial drawback remains explicit; new remote-voting transfer is distinct from source delivery.",
+    "Each canonical retains its existing assessed decisions, adds exact source provenance and bounded detector coverage; target-bearing keyed tasks remain valid.",
+    "Decision file hash refreshed after separate source rows 2423 and 2425 were provisionally reclassified; owner 883/1505 hashes and this wave’s decision rows are unchanged."
+  ],
+  "focusedBuildCheck": "PASS: two canonical batches, 48 lessons, 288 questions, 192 audio requests, zero flags",
+  "fullVerifier": "PASS: 2604 source/decision rows, zero gaps, schema errors, selected alias detector exceptions, exact guide copies or near-duplicate flags",
+  "allDiscoveredAliasAudit": "PASS: 158/158 alias-new rows matched, zero exceptions",
+  "independentReview": "pending exact-hash focused content review",
+  "selectedManifestChanged": false,
+  "published": false,
+  "releaseApproved": false
+}

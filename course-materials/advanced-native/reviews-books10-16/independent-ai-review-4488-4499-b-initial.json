@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Four unselected Books 10–16 lessons: 4488, 4492, 4497, 4499",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4488-4499-a.json",
+    "sha256": "720cca6cb0806cece0e6c9f72a018abf082d5732f34030d4376f358b7ab6faa8"
+  },
+  "authorSelfAuditSha256": "03af90135ac9e5b5cf6268c1f6e172bbef2429516accab66222c938b80bea42b",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "two-repairs-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "4 lessons, 24 questions, 16 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "Exact source phrases/sentences, scene/dialogue/reply target-bearing keys, speaking spans and 20 answer-derived non-target glossary spans pass independent checks.",
+    "sourceOriginality": "115 learner-facing English strings screened against 2,604 guide examples; zero six-token overlaps."
+  },
+  "perLesson": [
+    {"number": 4488, "status": "repair-needed", "note": "The exact source's cross-cultural festival adaptation is absent; all current uses change venue, medium or class format."},
+    {"number": 4492, "status": "clear", "note": "Long useful service follows actual material/repair evidence rather than weight alone."},
+    {"number": 4497, "status": "clear", "note": "Attractive old design details coexist with necessary modern safety/access improvements."},
+    {"number": 4499, "status": "repair-needed", "note": "Heaviness/bulk is taught as required, overrestricting the exceptional solid-construction sense and obscuring the 4492 boundary."}
+  ],
+  "findings": [
+    {
+      "id": "R4488-01",
+      "severity": "major",
+      "field": "lesson 4488 seven-step source-domain coverage",
+      "evidence": "Exact guide source: `A festival changes shape when it enters a new culture.` The lesson meaning mentions cultural setting, but scene, reply, listening, speaking and writing show only changed venue or medium. No learner must interpret cultural adaptation that retains a core purpose.",
+      "repair": "Include one grounded, non-stereotyped festival or shared practice adapted to a new cultural setting, with the old form, changed form and retained purpose explicit; align English/Traditional Chinese and target spans."
+    },
+    {
+      "id": "R4499-01",
+      "severity": "major",
+      "field": "lesson 4499 brief.boundaryZh, outcomeZh and assessed sense range",
+      "evidence": "Guide gloss says `made exceptionally solid and robust`. The current boundary requires visible thickness/heaviness, and every assessed situation needs a trolley or multiple carriers. Collins defines an object `built like a tank` as made very well and solidly; great weight is not required. The teachable contrast with 4492 is construction robustness versus evidence of long useful service, not heavy versus light.",
+      "externalReference": "https://www.collinsdictionary.com/dictionary/english/someone-or-something-is-built-like-a-tank",
+      "repair": "Make bulk/weight optional, retain robust physical construction and possible transport cost, and assess at least one reinforced object that is not specified as heavy. Preserve 4492's long-service/repairability distinction and avoid promising lifetime."
+    }
+  ],
+  "coverageLimit": "Every lesson received automated source, selected-collision, target-key, speaking-span, glossary and guide-copy checks plus targeted source-sense, answer, EN/ZH and writing review. This is risk-based AI content review, not a line-by-line proofread of all 24 questions or release certification."
+}

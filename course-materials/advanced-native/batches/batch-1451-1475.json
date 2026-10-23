@@ -4897,12 +4897,12 @@
       "id": "advanced-native-1471",
       "number": 1471,
       "inventoryId": "expr-1471",
-      "contentRevision": 1,
-      "titleEn": "deep roots in family life",
-      "titleZh": "深植於家庭生活",
+      "contentRevision": 2,
+      "titleEn": "deep roots",
+      "titleZh": "深厚而長久的根基",
       "category": "idiom",
       "target": {
-        "pattern": "\\bdeep\\s+roots\\s+in\\s+family\\s+life\\b"
+        "pattern": "\\bdeep roots (?:in family life|here)\\b"
       },
       "sources": [
         {
@@ -4918,13 +4918,27 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "deep roots in family life",
           "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "book10-16-0534",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 49,
+          "book": 11,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–24",
+          "locatorNote": "DOCX table 45, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The festival has deep roots here.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "deep roots here"
         }
       ],
       "brief": {
-        "meaningEn": "A long-established and strong place within families’ customs or shared experience.",
-        "meaningZh": "在家庭習俗或共同經驗中，有長久而穩固的基礎。",
-        "grammar": "a festival / practice has deep roots in family life",
-        "register": "neutral",
+        "meaningEn": "A long-established, strong connection to a family practice or local community.",
+        "meaningZh": "與家庭習俗或本地社群有長久而深厚的連繫。",
+        "grammar": "A practice or institution has deep roots in family life or has deep roots here. Roots is plural in the plant metaphor; give evidence of the history or sustained connection.",
+        "register": "Neutral cultural metaphor; local organisers may use it for a longstanding practice, with here referring to a clear place in context.",
         "boundaryZh": "植物根的比喻表示長期紮根，不代表每個家庭都相同，也不由一次大型商業活動就證明有深厚家庭基礎。",
         "misconceptionZh": "植物根的比喻表示長期紮根，不代表每個家庭都相同，也不由一次大型商業活動就證明有深厚家庭基礎。",
         "outcomeZh": "理解「深植於家庭生活」的語境及用法，並在新情境寫出自然句子。"
@@ -5119,8 +5133,8 @@
           "zh": "傳統深植於家庭生活。"
         },
         {
-          "en": "Deep roots in family life can help a festival remain meaningful.",
-          "zh": "深厚家庭基礎能幫節慶保留意義。"
+          "en": "The repair workshop has deep roots here: three generations of apprentices have kept its methods alive.",
+          "zh": "這間維修工坊在此地根基深厚：三代學徒一直傳承它的方法。"
         }
       ],
       "review": {

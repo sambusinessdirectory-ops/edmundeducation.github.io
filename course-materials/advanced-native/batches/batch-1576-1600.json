@@ -2016,12 +2016,12 @@
       "id": "advanced-native-1586",
       "number": 1586,
       "inventoryId": "expr-1586",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "friends can hold your hand",
       "titleZh": "朋友可陪伴並給予安慰",
       "category": "figurative",
       "target": {
-        "pattern": "\\bfriends\\s+can\\s+hold\\s+your\\s+hand\\b"
+        "pattern": "(?:\\bfriends\\s+can\\s+hold\\s+your\\s+hand\\b)|(?:\\b(?:hold|holds|held|holding) your hand every step of the way\\b)"
       },
       "sources": [
         {
@@ -2037,12 +2037,26 @@
           "referenceSentenceKind": "guide_original_example",
           "expression": "friends can hold your hand",
           "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "book10-16-1500",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 141,
+          "book": 14,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 150, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At university, nobody will hold your hand every step of the way.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hold your hand every step of the way"
         }
       ],
       "brief": {
-        "meaningEn": "Friends can offer reassuring companionship or guidance during a difficult experience.",
-        "meaningZh": "朋友可以在困難經驗中陪伴，給予安慰或引導。",
-        "grammar": "friends can hold your hand through + difficult period / task; hand-holding is figurative in these contexts",
+        "meaningEn": "Offer reassuring companionship or close guidance through a difficult experience; a negative form can stress that this constant help will not always be available.",
+        "meaningZh": "在困難經歷中給予安慰、陪伴或貼身指導；否定形式亦可強調這種全程協助並非總會有。",
+        "grammar": "hold someone’s hand through a difficulty; hold your hand every step of the way stresses constant guidance, often negated to encourage independent action. This is figurative when no actual hand is being held.",
         "register": "neutral",
         "boundaryZh": "本課用於陪伴與安慰，不要求真正牽手；具體能提供多少指導要看朋友的知識，不能把情感支持當成包辦。",
         "misconceptionZh": "本課用於陪伴與安慰，不要求真正牽手；具體能提供多少指導要看朋友的知識，不能把情感支持當成包辦。",
@@ -2247,8 +2261,8 @@
           "zh": "朋友可以陪伴你度過困難開始，讓你自己決定下一步。"
         },
         {
-          "en": "Friends can hold your hand with encouragement, even when a tutor provides the specialist guidance.",
-          "zh": "即使專門指導由導師提供，朋友仍可以透過鼓勵陪伴支持。"
+          "en": "The supervisor cannot hold your hand every step of the way once the research project begins.",
+          "zh": "研究項目開始後，導師不可能每一步都手把手指導你。"
         }
       ],
       "review": {

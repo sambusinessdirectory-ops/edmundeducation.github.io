@@ -569,7 +569,7 @@
     "titleZh": "逐步削弱或消耗",
     "category": "phrasal-verb",
     "target": {
-      "pattern": "\\bchip(?:s|ped|ping)? away at (?:(?:my|your|his|her|our|their) (?:confidence|savings|budget)|(?:the )?stereotypes)\\b",
+      "pattern": "(?:\\bchip(?:s|ped|ping)? away at (?:(?:my|your|his|her|our|their) (?:confidence|savings|budget)|(?:the )?stereotypes)\\b)|(?:\\bchip(?:s|ped|ping)? away at (?:my|your|his|her|our|their) health\\b)",
       "glossaryForbidden": [
         "\\bchip(?:s|ped|ping)?\\b",
         "\\bconfidence\\b",
@@ -581,7 +581,7 @@
     "brief": {
       "meaningEn": "Gradually weaken or reduce something through repeated small effects; confidence, stereotypes or resources can be eroded.",
       "meaningZh": "透過反覆的小影響逐漸削弱或減少某事物，例如信心、刻板印象或資源。",
-      "grammar": "chip away at + object; chip away at someone’s confidence / stereotypes / savings; chipped, chipping; at stays before the object. The outcome depends on what is being weakened or reduced.",
+      "grammar": "chip away at + object, including confidence, savings, stereotypes or health; repeated small effects gradually weaken the object. Chipped and chipping mark inflection, and at remains before the object.",
       "register": "Vivid gradual-erosion metaphor within a phrasal verb.",
       "boundaryZh": "重點是逐漸累積，不是一次突然變化，也不表示已完全消失；削弱信心可有害，削弱刻板印象可有益，資源則可逐步減少。",
       "misconceptionZh": "小評語反覆出現也可能有影響，但一次建設性意見不一定削弱信心。",
@@ -627,6 +627,20 @@
         "sample": "S1",
         "occurrenceId": "pdf-2-p122-t1-r04",
         "locatorNote": "PDF page 122, table 1, row 4."
+      },
+      {
+        "occurrenceId": "book10-16-1427",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 133,
+        "book": 13,
+        "question": 20,
+        "sample": "S1",
+        "sourceBookPages": "52–54",
+        "locatorNote": "DOCX table 141, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Constant overtime can chip away at their health.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "chip away at their health"
       }
     ],
     "listening": {
@@ -819,8 +833,8 @@
         "zh": "反覆嘲笑可能逐漸削弱他們信心。"
       },
       {
-        "en": "The small dismissive comments chipped away at my confidence over time.",
-        "zh": "隨時間過去，那些輕視的小評語逐漸削弱我的信心。"
+        "en": "For the nurses, repeated night shifts can chip away at their health over time.",
+        "zh": "對護士來說，連續上夜班可能逐漸損害他們的健康。"
       }
     ],
     "review": {
@@ -850,7 +864,7 @@
         "Full AI author self-review completed for bilingual meaning, four valid replies, one defensible standard key, varied learner decisions, glossary exact spans and target-bearing audio. Independent AI review/media/browser checks remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-179",

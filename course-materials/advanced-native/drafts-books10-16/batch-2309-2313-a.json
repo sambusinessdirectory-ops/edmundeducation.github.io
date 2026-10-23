@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-2309",
+      "number": 2309,
+      "inventoryId": "expr-2309",
+      "titleEn": "loose ends",
+      "titleZh": "未解決的細節",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bloose ends\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Details or questions that remain unresolved before a matter can be fully finished.",
+        "meaningZh": "事情完全結束前尚待處理的細節或問題。",
+        "grammar": "Usually plural loose ends; tie up or settle loose ends. Name the unresolved items.",
+        "register": "Neutral everyday and work English. A project coordinator may use it with colleagues before final handover.",
+        "boundaryZh": "須有尚未處理而與完成事情有關的具體細節；已完成的資料整理不算未解決尾項。",
+        "misconceptionZh": "不是鬆開的繩頭，也不一定表示整個計劃失敗。",
+        "outcomeZh": "能指出尚待解決的細節及誰會在何時處理。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0198",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The team still had several loose ends to settle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "loose ends"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "The community mural was painted, but the team still had to confirm the artist credit and obtain permission for the launch photograph. Those loose ends had to be settled before the public page went online.",
+        "zh": "社區壁畫已完成，但團隊仍須核對畫家署名及取得發放開幕照片的同意。網頁上線前，這些未解決細節須處理。",
+        "promptZh": "哪些是 loose ends？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unresolved credit and photograph permission.",
+            "zh": "尚未核對的署名及照片同意。"
+          },
+          {
+            "id": "b",
+            "en": "The paint already dry on the finished mural.",
+            "zh": "已完成壁畫上乾透的顏料。"
+          },
+          {
+            "id": "c",
+            "en": "A launch page that has already gone online.",
+            "zh": "已上線的開幕網頁。"
+          },
+          {
+            "id": "d",
+            "en": "A piece of rope hanging from the wall.",
+            "zh": "牆上垂下的一段繩。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "署名與許可仍待完成。"
+      },
+      "reply": {
+        "promptEn": "A school concert is arranged, but the organiser has not confirmed the wheelchair entrance or the accompanist’s arrival time. What remains before the event can be fully signed off?",
+        "promptZh": "（學校音樂會已安排，但主辦者尚未確認輪椅入口或伴奏者到場時間。活動正式確認前還有甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two practical details still need answers.",
+            "zh": "兩項實際細節仍待解答。"
+          },
+          {
+            "id": "b",
+            "en": "Access and arrival time require confirmation.",
+            "zh": "通道及到場時間須確認。"
+          },
+          {
+            "id": "c",
+            "en": "There are loose ends to settle.",
+            "zh": "仍有未解決的細節要處理。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser can follow up on both questions.",
+            "zh": "主辦者可跟進兩個問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出兩項具體尾項。"
+      },
+      "scene": {
+        "promptZh": "研究展覽已布置好，但借用圖片的授權及標示來源尚未確認。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team still has loose ends to settle.",
+            "zh": "團隊仍有未解決的細節要處理。"
+          },
+          {
+            "id": "b",
+            "en": "Every permission and source has already been confirmed.",
+            "zh": "所有授權及來源已確認。"
+          },
+          {
+            "id": "c",
+            "en": "Only a loose cable is left on the floor.",
+            "zh": "只是地上剩下一條鬆電線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "授權與來源是未完成尾項。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 loose ends？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The final report has been checked, signed and sent, with no open questions remaining.",
+            "zh": "最終報告已核對、簽署及送出，沒有未解決問題。"
+          },
+          {
+            "id": "b",
+            "en": "A leaflet is ready except for a missing contact number.",
+            "zh": "單張準備好，但缺少聯絡電話。"
+          },
+          {
+            "id": "c",
+            "en": "The event plan still lacks confirmation of the accessible entrance.",
+            "zh": "活動計劃仍待確認無障礙入口。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有待解決細節，不適用此詞。"
+      },
+      "dialogue": {
+        "promptEn": "A: We have finished the garden plan, but the supplier has not confirmed delivery and the caretaker needs the final gate code. B: ______",
+        "promptZh": "（甲：花園計劃已完成，但供應商未確認送貨，管理員也需要最終大門密碼。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two final details still need follow-up.",
+            "zh": "兩項最後細節仍須跟進。"
+          },
+          {
+            "id": "b",
+            "en": "Delivery and gate access remain uncertain.",
+            "zh": "送貨及大門使用仍未確定。"
+          },
+          {
+            "id": "c",
+            "en": "We have a couple of loose ends to tie up.",
+            "zh": "我們還有幾項未解決細節要處理。"
+          },
+          {
+            "id": "d",
+            "en": "Confirming both will make handover easier.",
+            "zh": "確認兩者後交接會更順利。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句自然概括待解決的兩項尾項。"
+      },
+      "speaking": {
+        "en": "The repairs were complete, but loose ends remained: the manager still needed a warranty copy and the caretaker had to confirm the new key list.",
+        "zh": "維修已完成，但仍有未解決細節：經理須取保養書副本，管理員要核對新鑰匙清單。",
+        "promptZh": "指出具體尾項而不誇大為整個工程未完成。",
+        "targetSpan": {
+          "start": 31,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩件工作大致完成，各剩至少一項具體細節待核對。用英文寫出尾項和後續行動。",
+        "selfCheckZh": "兩例須有可處理的未完成細節，並說明誰跟進。",
+        "examples": [
+          {
+            "en": "The photo archive had loose ends after scanning: Imani checked two missing dates before releasing the catalogue.",
+            "zh": "照片檔案掃描後仍有未解決細節：伊瑪妮在發佈目錄前核對兩個缺失日期。"
+          },
+          {
+            "en": "Before the cycle route opened, loose ends included the sign permit and a volunteer contact list; Dev called the council and updated the list.",
+            "zh": "單車路線開放前，未解決細節包括路牌許可及義工聯絡名單；德夫聯絡議會並更新名單。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two missing dates",
+            "zh": "兩個缺失日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          },
+          {
+            "en": "releasing the catalogue",
+            "zh": "發佈目錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 111
+            }
+          },
+          {
+            "en": "the sign permit",
+            "zh": "路牌許可",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 66
+            }
+          },
+          {
+            "en": "volunteer contact list",
+            "zh": "義工聯絡名單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Loose ends are unresolved details, not the whole unfinished project.",
+          "zh": "loose ends 指未解決細節，而非整項工作全未完成。"
+        },
+        {
+          "en": "Name the loose ends and the person who will settle them.",
+          "zh": "說出未解決細節及處理的人。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2311",
+      "number": 2311,
+      "inventoryId": "expr-2311",
+      "titleEn": "moment of closure",
+      "titleZh": "一刻的釋懷",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:a|the) moment of closure\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A particular moment that gives someone a sense of emotional completion after an unresolved experience.",
+        "meaningZh": "一段未了經歷之後，讓人感到情緒上有所了結的一刻。",
+        "grammar": "A moment of closure for someone; closure is emotional completion, not necessarily reconciliation or forgetting.",
+        "register": "Reflective but natural speech. A friend may use it when someone finally receives a long-awaited explanation.",
+        "boundaryZh": "須有與先前未解決感受相連的具體時刻；單純知道事情正式結束，不保證情緒釋懷。",
+        "misconceptionZh": "不表示傷痛完全消失、雙方必然和好或事情可重來。",
+        "outcomeZh": "能指出原來未了之處、帶來釋懷的時刻及仍可能存在的感受。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0200",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 18,
+          "book": 10,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The reunion gave her a moment of closure.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "moment of closure"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "For years, Amira did not know why her mentor had suddenly left. A letter from the mentor explained the move and thanked her for their work. Reading it gave Amira a moment of closure, though she still missed him.",
+        "zh": "多年來，阿米拉不知道導師為何突然離開。導師來信解釋搬遷並感謝她一起工作的日子。讀信給她一刻釋懷，雖然她仍掛念導師。",
+        "promptZh": "甚麼令阿米拉釋懷？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The letter addressed a question she had carried for years.",
+            "zh": "信解答了她多年未解的疑問。"
+          },
+          {
+            "id": "b",
+            "en": "She forgot the mentor immediately and completely.",
+            "zh": "她立即完全忘記導師。"
+          },
+          {
+            "id": "c",
+            "en": "She received a new job from the mentor.",
+            "zh": "她從導師取得新工作。"
+          },
+          {
+            "id": "d",
+            "en": "The letter closed a physical office door.",
+            "zh": "那封信關上了實際辦公室門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "信提供先前欠缺的解釋，並非消除所有感受。"
+      },
+      "reply": {
+        "promptEn": "A former runner had never learned why a race result was changed. The organiser finally showed her the corrected record and explained the error; she felt she could stop wondering. How might she describe that visit?",
+        "promptZh": "（一名昔日跑手一直不知道比賽結果為何改動。主辦者終於給她看更正紀錄並解釋錯誤；她感到不必再猜。她可怎樣形容那次探訪？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It answered a long-standing question.",
+            "zh": "它解答了一個長久疑問。"
+          },
+          {
+            "id": "b",
+            "en": "The explanation helped her move on from uncertainty.",
+            "zh": "解釋助她走出不確定。"
+          },
+          {
+            "id": "c",
+            "en": "It gave her a moment of closure.",
+            "zh": "那給她一刻釋懷。"
+          },
+          {
+            "id": "d",
+            "en": "She now knows why the record changed.",
+            "zh": "她現在知道紀錄為何改動。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均回應長久未解疑問。"
+      },
+      "scene": {
+        "promptZh": "兄弟多年不明白老照片為何被收藏；母親講出背後故事後，他們終於不再猜測。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "For the brothers, that was a moment of closure about the photograph.",
+            "zh": "對兄弟二人而言，那是對照片一事釋懷的一刻。"
+          },
+          {
+            "id": "b",
+            "en": "They physically locked the photograph away again.",
+            "zh": "他們再次把照片鎖起來。"
+          },
+          {
+            "id": "c",
+            "en": "The explanation erased every memory of the past.",
+            "zh": "解釋抹去了所有過去記憶。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "解答未了疑問可帶來情緒上的了結。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 a moment of closure？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A notice says a case is administratively closed, but the family receives no explanation and still feels the same unresolved uncertainty.",
+            "zh": "通知說案件行政上結案，但家人沒有得到解釋，仍有同樣未解的不確定感。"
+          },
+          {
+            "id": "b",
+            "en": "A long-awaited conversation answers the question that kept a friend awake.",
+            "zh": "等了很久的對話解答一直困擾朋友的疑問。"
+          },
+          {
+            "id": "c",
+            "en": "Finding an old letter explains a relative’s decision and eases years of doubt.",
+            "zh": "找到舊信解釋親人決定，減輕多年疑惑。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "行政結束未必帶來情緒釋懷。"
+      },
+      "dialogue": {
+        "promptEn": "A: My aunt finally explained why the family shop closed so suddenly. I still feel sad, but I no longer blame myself for it. B: ______",
+        "promptZh": "（甲：阿姨終於解釋家裏的店為何突然結業。我仍然難過，但不再為此自責。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The explanation changed how you understand the closure.",
+            "zh": "解釋改變你對結業的理解。"
+          },
+          {
+            "id": "b",
+            "en": "You can feel sad and still have an answer.",
+            "zh": "你可以仍難過，同時知道答案。"
+          },
+          {
+            "id": "c",
+            "en": "That sounds like a moment of closure.",
+            "zh": "聽來是釋懷的一刻。"
+          },
+          {
+            "id": "d",
+            "en": "Knowing the reason seems to have eased your self-blame.",
+            "zh": "知道原因似乎減輕了你的自責。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句不把釋懷等同忘記悲傷。"
+      },
+      "speaking": {
+        "en": "When the archived note finally explained the cancelled exhibition, Noor had a moment of closure; she understood the decision even though she still wished it had gone ahead.",
+        "zh": "當檔案筆記終於解釋展覽取消原因，努爾有一刻釋懷；她明白決定，卻仍希望展覽當年能舉行。",
+        "promptZh": "指出解釋與未完全消失的遺憾。",
+        "targetSpan": {
+          "start": 76,
+          "end": 95
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各有一項多年未解的疑問，後來得到具體解釋而感到釋懷，但不必寫成完全忘記。",
+        "selfCheckZh": "兩例須包含原來疑問、帶來解答的時刻及有分寸的情緒結果。",
+        "examples": [
+          {
+            "en": "Reading the repair log gave Mina a moment of closure about her grandfather’s lost boat: the dated entry explained the storm damage, though she still missed sailing with him.",
+            "zh": "讀維修紀錄令米娜對祖父失去的船有一刻釋懷：有日期的記載解釋風暴損害，雖然她仍懷念與祖父出海。"
+          },
+          {
+            "en": "A moment of closure came when the editor showed Ali why his interview had been cut; he accepted the timing reason while still feeling disappointed.",
+            "zh": "編輯向阿里解釋其訪談被刪去的原因，那一刻給他帶來釋懷；他接受時間安排的理由，但仍感失望。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "dated entry",
+            "zh": "有日期的記載",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 103
+            }
+          },
+          {
+            "en": "storm damage",
+            "zh": "風暴損害",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 130
+            }
+          },
+          {
+            "en": "timing reason",
+            "zh": "時間安排的理由",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          },
+          {
+            "en": "feeling disappointed",
+            "zh": "感失望",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A moment of closure resolves some emotional uncertainty.",
+          "zh": "a moment of closure 指部分情緒上的未了疑問得到解答。"
+        },
+        {
+          "en": "A moment of closure can coexist with sadness or disappointment.",
+          "zh": "釋懷的一刻可以與悲傷或失望並存。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-2313",
+      "number": 2313,
+      "inventoryId": "expr-2313",
+      "titleEn": "emotional truths",
+      "titleZh": "真實的人類情感洞察",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bemotional truths\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Insights about recognisable human feelings or relationships, even when the story itself is invented.",
+        "meaningZh": "對真實可辨的人類感受或關係的洞察，即使故事本身是虛構。",
+        "grammar": "Plural emotional truths; reveal, capture or convey emotional truths. Truth here concerns human experience, not documentary fact.",
+        "register": "Reflective review and discussion. A reader may use it when explaining to a friend why a fictional scene felt true to life.",
+        "boundaryZh": "須指出故事呈現了甚麼可辨認的情感模式；不能把虛構情節直接當作歷史事實。",
+        "misconceptionZh": "不是說虛構人物真的存在，也不表示每位觀眾反應完全一樣。",
+        "outcomeZh": "能區分作品的虛構事件與其中可辨認的情感洞察。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0202",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 19,
+          "book": 10,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "37–38",
+          "locatorNote": "DOCX table 15, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A fictional story can still reveal emotional truths.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional truths"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "In a fictional play, a daughter rehearses an apology but cannot say it when her father answers the phone. The event is invented, yet it captures emotional truths about pride, fear and the wish to repair a bond.",
+        "zh": "在虛構舞台劇中，女兒排練道歉，父親接電話時卻說不出口。事件是虛構的，但捕捉了驕傲、恐懼及希望修補關係等真實情感。",
+        "promptZh": "為何可稱為 emotional truths？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The invented scene reflects recognisable human feelings.",
+            "zh": "虛構場面反映人們可辨認的情感。"
+          },
+          {
+            "id": "b",
+            "en": "The exact phone call is verified historical fact.",
+            "zh": "那通電話的細節經證實是歷史事實。"
+          },
+          {
+            "id": "c",
+            "en": "Every daughter would react in precisely the same way.",
+            "zh": "每個女兒都會作出完全相同反應。"
+          },
+          {
+            "id": "d",
+            "en": "The play provides a statistical survey of all families.",
+            "zh": "舞台劇提供所有家庭的統計調查。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "虛構情節可表達真實可辨情緒。"
+      },
+      "reply": {
+        "promptEn": "A novel invents two neighbours who avoid asking for help because each fears being a burden. Readers recognise that feeling from real friendships. What might the novel convey?",
+        "promptZh": "（小說虛構兩名鄰居，兩人都怕成為負擔而不求助。讀者從真實友誼認出那種感受。小說可傳達甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A recognisable fear of burdening someone.",
+            "zh": "怕麻煩別人的可辨情感。"
+          },
+          {
+            "id": "b",
+            "en": "An insight into why friends may stay silent.",
+            "zh": "對朋友為何沉默的洞察。"
+          },
+          {
+            "id": "c",
+            "en": "Emotional truths within an invented story.",
+            "zh": "虛構故事中的真實情感洞察。"
+          },
+          {
+            "id": "d",
+            "en": "A feeling readers can connect to their own relationships.",
+            "zh": "讀者能聯繫自己關係的感受。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均回應虛構故事中可辨的情感。"
+      },
+      "scene": {
+        "promptZh": "一齣虛構短劇描寫兩名朋友在誤會後都想道歉卻怕先開口，觀眾認得這種猶豫。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The play reveals emotional truths.",
+            "zh": "該劇呈現真實的人類情感。"
+          },
+          {
+            "id": "b",
+            "en": "The friendship must be a documented historical event.",
+            "zh": "這段友誼必定是有紀錄的歷史事件。"
+          },
+          {
+            "id": "c",
+            "en": "Every viewer must have lived the same plot.",
+            "zh": "每名觀眾必定經歷同一情節。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可辨的猶豫不要求劇情真實發生。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以稱為 emotional truths？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A fantasy lists invented dates and names but offers no insight into anyone’s feelings or relationships.",
+            "zh": "奇幻故事列出虛構日期和姓名，卻沒有呈現任何人的感受或關係。"
+          },
+          {
+            "id": "b",
+            "en": "An invented farewell captures how affection and resentment can coexist.",
+            "zh": "虛構告別呈現關愛與怨懟可並存。"
+          },
+          {
+            "id": "c",
+            "en": "A made-up argument reflects the fear of losing a valued friendship.",
+            "zh": "虛構爭執反映害怕失去珍貴友誼。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有虛構資料而沒有情感洞察，不足以稱為 emotional truths。"
+      },
+      "dialogue": {
+        "promptEn": "A: The book’s reunion never actually happened, but the awkward mix of affection and old resentment felt familiar. B: ______",
+        "promptZh": "（甲：書中的重聚不曾真的發生，但關愛和舊日怨懟交雜的尷尬感覺很熟悉。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "An invented event can reflect a real kind of feeling.",
+            "zh": "虛構事件仍可反映真實感受。"
+          },
+          {
+            "id": "b",
+            "en": "The relationship feels recognisable despite the imagined plot.",
+            "zh": "雖然情節是想像的，關係仍令人認得。"
+          },
+          {
+            "id": "c",
+            "en": "That is how fiction can reveal emotional truths.",
+            "zh": "這正是小說呈現真實情感的方式。"
+          },
+          {
+            "id": "d",
+            "en": "The familiar feeling does not make the reunion a historical fact.",
+            "zh": "熟悉的感受不會令重聚變成歷史事實。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句區分虛構事件與可信的情感。"
+      },
+      "speaking": {
+        "en": "The animated story is set on another planet, but it reveals emotional truths about a newcomer wanting acceptance while hiding uncertainty from friends.",
+        "zh": "動畫故事發生在另一星球，卻呈現初來者想被接納、又向朋友掩飾不安的真實情感。",
+        "promptZh": "指出虛構情節與可辨感受。",
+        "targetSpan": {
+          "start": 60,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩部虛構作品各展現一種可辨認的人類感受。用英文寫出虛構細節及真實情感。",
+        "selfCheckZh": "兩例不可把虛構情節當作實際歷史資料。",
+        "examples": [
+          {
+            "en": "The imagined island tale reveals emotional truths about siblings who compete for attention yet still protect each other in danger.",
+            "zh": "虛構海島故事呈現手足爭取關注、危難時仍互相保護的真實情感。"
+          },
+          {
+            "en": "A puppet film conveys emotional truths through a made-up farewell: its characters hide their worry because each wants the other to feel brave.",
+            "zh": "木偶影片以虛構告別傳達真實情感：角色掩飾擔憂，因為各自希望對方勇敢。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "compete for attention",
+            "zh": "爭取關注",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 90
+            }
+          },
+          {
+            "en": "protect each other",
+            "zh": "互相保護",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 119
+            }
+          },
+          {
+            "en": "made-up farewell",
+            "zh": "虛構告別",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 65
+            }
+          },
+          {
+            "en": "hide their worry",
+            "zh": "掩飾擔憂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 98
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Emotional truths are insights about feelings, not factual plot claims.",
+          "zh": "emotional truths 是關於感受的洞察，不是劇情事實主張。"
+        },
+        {
+          "en": "Fiction can reveal emotional truths through recognisable relationships.",
+          "zh": "虛構作品可透過可辨關係呈現真實情感。"
+        }
+      ]
+    }
+  ]
+}

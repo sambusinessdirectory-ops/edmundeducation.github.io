@@ -1,0 +1,38 @@
+[
+  {
+    "moduleId": "advanced-native-178",
+    "text": "For the nurses, repeated night shifts can chip away at their health over time.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "b8ad69b4cea5c4a8fc4d59aed95858f09636d9f4ac3bf4c24150b7c442f69197"
+  },
+  {
+    "moduleId": "advanced-native-1889",
+    "text": "During the winter surge, the small clinic was stretched to breaking point by extra admissions.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "87807997fa4357f1975781a9f4b9bf0ab46eb80c12a452bac2c7ef62400d7f8d"
+  },
+  {
+    "moduleId": "advanced-native-473",
+    "text": "The repair trainees learned the inspection routine one step at a time, checking each reading before moving on.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "184fe666b9ea0ca77f4ada3a24100ff09602dac9caa548b5180f23f09ed8a273"
+  },
+  {
+    "moduleId": "advanced-native-286",
+    "text": "A single bold photograph can catch people’s attention before they read the safety notice.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "7de8820360bb5afcc9aa31581fb70252f015a9e1de24074b1ceee131ca3717c3"
+  }
+]

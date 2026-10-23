@@ -2372,9 +2372,9 @@
       "titleEn": "separate real information from noise",
       "titleZh": "從雜訊中分辨真正資訊",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\bseparat(?:e|es|ed|ing) real information from noise\\b",
+        "pattern": "(?:(?:\\bseparat(?:e|es|ed|ing) real information from noise\\b)|(?:\\bseparat(?:e|es|ed|ing) the signal from the noise\\b))|(?:\\bseparat(?:e|es|ed|ing) facts from noise\\b)",
         "glossaryForbidden": [
           "\\breal information\\b",
           "\\bfrom noise\\b"
@@ -2393,12 +2393,40 @@
           "sentence": "Editors help separate real information from noise.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "separate real information from noise"
+        },
+        {
+          "occurrenceId": "book10-16-0701",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 65,
+          "book": 11,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "65–66",
+          "locatorNote": "DOCX table 62, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A reliable editor helps separate the signal from the noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "separate the signal from the noise"
+        },
+        {
+          "occurrenceId": "book10-16-0717",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 66,
+          "book": 11,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "67–68",
+          "locatorNote": "DOCX table 63, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A careful check separates facts from noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "facts from noise"
         }
       ],
       "brief": {
         "meaningEn": "Distinguish useful, reliable information from distracting or unsupported messages.",
         "meaningZh": "把有用、可靠的資訊，與分散注意或未有支持的訊息分開。",
-        "grammar": "separate real information from noise; separated in past, separating in progress. Noise is figurative distraction or confusion, not necessarily a sound recording problem. Noise can also be accurate but irrelevant to a particular task; separating it concerns that task’s information needs, not automatically an accusation of falsehood.",
+        "grammar": "separate real information from noise / separate the signal from the noise / separate facts from noise; the first item names what has been checked, while noise means distracting or unsupported content. Separate may be inflected.",
         "register": "A conventional signal/noise comparison expressed in a productive separate-X-from-Y frame. A quiet message can be unreliable, and a widely repeated claim can remain unverified.",
         "boundaryZh": "要用來源及內容判斷，不只按聲量、轉發次數或自己喜不喜歡；少人說的主張也可能需要核對。 有些話可以真實，卻與目前要做的事無關；把它留在背景，不等於說它是假的。",
         "misconceptionZh": "分辨不等於只留下自己贊同的話，也不應把不確定意見寫成已確認決定。",
@@ -2607,8 +2635,8 @@
           "zh": "她在訪問筆記中標出哪些時間已對照日記核實，藉此從雜訊中分辨真正資訊。"
         },
         {
-          "en": "The editor helped separate real information from noise, keeping the confirmed correction visible beside the remaining open questions.",
-          "zh": "編輯幫忙從雜訊中分辨真正資訊，把已確認更正清楚放在仍待回答的問題旁。"
+          "en": "At the archive, the curator separated facts from noise by checking labels against the accession records.",
+          "zh": "在檔案館，策展人對照藏品登記紀錄核實標籤，從雜訊中分辨事實。"
         }
       ],
       "review": {

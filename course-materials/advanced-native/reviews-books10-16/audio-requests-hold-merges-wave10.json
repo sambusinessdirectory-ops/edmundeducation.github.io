@@ -1,0 +1,29 @@
+[
+  {
+    "moduleId": "advanced-native-025",
+    "text": "A clearly marked trial period can nudge people towards a purchase without guaranteeing they will buy.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "d1691f8e41e01f55b564665af8326a8104bd30cbee1caaf4d848df6d50bb0ab9"
+  },
+  {
+    "moduleId": "advanced-native-1001",
+    "text": "The science department reduced chalk-and-talk teaching by adding laboratory demonstrations.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "ba8cf90f7a5112b31cf1342ca3f018488d38e6695bee8841cff1592e893cd6ea"
+  },
+  {
+    "moduleId": "advanced-native-274",
+    "text": "Local history is her cup of tea, so she volunteered to guide the archive tour.",
+    "role": "takeaway-2",
+    "voice": "bf_isabella",
+    "lang": "en-gb",
+    "speed": 1.05,
+    "synthesisKey": "04806ae556fb6fa79d98b84f6029a080f2f096efdc5ac688973b40591458bf9e"
+  }
+]
