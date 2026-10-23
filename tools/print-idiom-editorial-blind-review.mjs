@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const [lessonId = 'idiom-31', startText = '1', endText = '10', mode = 'cards'] = process.argv.slice(2);
@@ -41,8 +42,9 @@ for (let number = start; number <= end; number++) {
   const source = questions.get(id);
   const draft = drafts.get(id);
   if (!source || !draft) throw new Error(`Missing source or draft ${id}`);
-  // Rotate the key for review. The cards view never prints the key or reasons.
-  const keyIndex = (number * 7 + 1) % 4;
+  // Stable hash prevents a repeating letter sequence from becoming a clue.
+  // The cards view never prints the key or reasons.
+  const keyIndex = createHash('sha256').update(`idiom-editorial-review-v2:${id}`).digest()[0] % 4;
   const options = draft.foils.map((foil) => foil.text);
   options.splice(keyIndex, 0, source.answer);
   if (mode === 'score') {

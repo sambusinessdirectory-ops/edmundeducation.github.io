@@ -7,7 +7,7 @@
       "correctReason": "答句的「No」回應合作是否順利；正確句保留阿米爾與生意拍檔幾乎每個選擇都會爭吵。",
       "foils": [
         { "text": "No. Amir and his business partner fight like cat and dog about one unusual choice.", "reason": "「one unusual choice」把幾乎每個選擇都吵改成只為一項特殊選擇而吵。", "kind": "changed-scope" },
-        { "text": "Yes. Amir and his business partner fight like cat and dog about almost every choice.", "reason": "「Yes」說他們合作得好，與後面幾乎事事激烈爭吵的內容及原題答句不符。", "kind": "contradictory-response" },
+        { "text": "No. Amir and his business partner fight like cat and dog about almost every deadline.", "reason": "「deadline」把爭議由幾乎每個選擇改成幾乎每個截止日期。", "kind": "changed-issue" },
         { "text": "No. Amir and his business partner discuss almost every choice calmly together.", "reason": "「discuss ... calmly」把激烈爭吵改成平靜討論。", "kind": "reversed-behaviour" }
       ]
     },

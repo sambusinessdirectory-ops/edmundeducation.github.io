@@ -6,9 +6,9 @@
       "truthCondition": "The speaker advises against Chloe and Zoe sharing a stall because they usually argue fiercely when working together.",
       "correctReason": "「I would not」是拒絕共用攤位的建議；原因是兩人一起工作時往往激烈爭吵。",
       "foils": [
-        { "text": "I would. Chloe and Zoe fight like cat and dog when they work together, so they should share one stall.", "reason": "「I would」和「should share」把不建議共用攤位改成建議共用。", "kind": "reversed-advice" },
-        { "text": "I would not. Chloe and Zoe fight like cat and dog only when they work apart, so they should not share a stall.", "reason": "「only when they work apart」把爭吵條件由一起工作改成分開工作。", "kind": "reversed-trigger" },
-        { "text": "I would not. Chloe and Zoe work calmly together, so they should not share one stall.", "reason": "「work calmly together」把拒絕共用攤位的理由由激烈爭吵改成和平合作。", "kind": "changed-reason" }
+        { "text": "I would. Chloe and Zoe usually work well together, so they should share one stall.", "reason": "這句說兩人合作融洽、應該共用攤位；原題的答覆是不建議，原因是她們一起工作便常吵。", "kind": "reversed-advice" },
+        { "text": "I would. Chloe and Zoe fight like cat and dog only when they work apart, so they should share one stall.", "reason": "「only when they work apart」把爭吵條件由一起工作改成分開工作，因而倒轉了建議。", "kind": "reversed-trigger" },
+        { "text": "I would not. Chloe and Zoe work calmly together, but one stall is too small for them both.", "reason": "這句把拒絕共用攤位的理由由兩人一起工作常爭吵，改成攤位空間不足。", "kind": "changed-reason" }
       ]
     },
     "idiom-31-q37": {
@@ -33,7 +33,7 @@
       "truthCondition": "The manager was surprised Ella and Rose finished the task because they usually argue angrily whenever they work together.",
       "correctReason": "正確句保留經理的意外：兩人通常一起工作便激烈爭吵，這次卻完成任務。",
       "foils": [
-        { "text": "The manager expected Ella and Rose to complete the task because they normally fight like cat and dog.", "reason": "「expected」把經理的驚訝改成預料之中。", "kind": "changed-reaction" },
+        { "text": "The manager was unsurprised that Ella and Rose completed the task, even though they normally fight like cat and dog.", "reason": "「unsurprised」把經理對兩人完成任務感到驚訝，改成不覺得意外。", "kind": "changed-reaction" },
         { "text": "The manager was surprised Ella and Rose failed the task because they normally fight like cat and dog.", "reason": "「failed the task」把兩人完成任務改成未能完成。", "kind": "changed-result" },
         { "text": "The manager was surprised Ella and Rose completed the task because they normally work together peacefully.", "reason": "「work together peacefully」把經理意外的背景由常爭吵改成合作融洽。", "kind": "changed-background" }
       ]

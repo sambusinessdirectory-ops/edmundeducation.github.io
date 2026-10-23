@@ -8,7 +8,7 @@
       "foils": [
         { "text": "Sam and Alex always fight like cat and dog over who sits by the door.", "reason": "「by the door」把爭議座位由窗邊改成門邊。", "kind": "changed-location" },
         { "text": "Sam and Alex fought like cat and dog once over who sits by the window.", "reason": "「once」把總是發生的爭吵改成一次事件。", "kind": "changed-frequency" },
-        { "text": "Sam and Alex take turns peacefully over who sits by the window.", "reason": "「take turns peacefully」表示輪流而沒有爭吵，與原題的大叫大嚷相反。", "kind": "reversed-behaviour" }
+        { "text": "Sam and Alex agree to take turns sitting by the window without arguing.", "reason": "「take turns ... without arguing」表示輪流而沒有爭吵，與原題的大叫大嚷相反。", "kind": "reversed-behaviour" }
       ]
     },
     "idiom-31-q22": {
