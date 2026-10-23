@@ -359,3 +359,6 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
   .question-card .answer-grid button.correct,
   .question-card .answer-grid button.wrong { border-width: 22px 20px 18px 88px; }
 }
+/* Shared across every Polysemy module: punctuation groups and short endings stay together. */
+.answer-grid .answer-label{min-width:0;line-break:strict;word-break:normal;overflow-wrap:break-word;text-wrap:pretty}
+.answer-grid .answer-clause,.answer-grid .answer-tail{white-space:nowrap}
