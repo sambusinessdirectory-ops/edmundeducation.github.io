@@ -1,0 +1,2973 @@
+{
+  "version": "2023-a-super-curation-v1",
+  "articleId": "dse-2023-a",
+  "sourceSha256": "784949ebefdd348d851ac536b3109cafc70bfc43573f1fc118ebe5939671a1b3",
+  "manualSha256": "ca5b1031594416ebbfbbe43ce2e8deb037e746d55bb7f7c8c1a4bc393f8bf544",
+  "articleSha256": "10dc26f02d62c52ebd4e7b4daeb1909f8f299bd147e600e4d3d7354d0e31451f",
+  "referenceBuild": "c7302d80e",
+  "sourcePageCount": 322,
+  "sourceParagraphs": [
+    {
+      "number": 1,
+      "sentences": [
+        {
+          "id": "p1-s1",
+          "start": 0,
+          "end": 74,
+          "text": "People have been enjoying stories for as long as humanity has been around.",
+          "title": "故事與人類一樣久遠",
+          "note": "for as long as 把享受故事的時間連到人類存在的時間。這裡比較歷史長短，不是故事的字數或身體長度。"
+        },
+        {
+          "id": "p1-s2",
+          "start": 75,
+          "end": 173,
+          "text": "Some people love to read 400-page novels, while others struggle to read the first four paragraphs.",
+          "title": "同一段有兩組讀者",
+          "note": "Some…while others… 對比愛看長篇的人和讀幾段也吃力的人。struggle 描寫後一組人的困難；不要替他們補上「覺得悶」。"
+        },
+        {
+          "id": "p1-s3",
+          "start": 174,
+          "end": 273,
+          "text": "More and more, technology has unfortunately resulted in many people having shorter attention spans.",
+          "title": "把事實和作者態度分開",
+          "note": "resulted in 連接原因與結果：科技 → 專注時間縮短。unfortunately 是作者對這個結果的遺憾；shorter 本身只是比較。"
+        },
+        {
+          "id": "p1-s4",
+          "start": 274,
+          "end": 453,
+          "text": "Therefore, writers have to find new ways to tell stories in a way that appeals to people who are used to reading snippets of information on the small screen of their smart phones.",
+          "title": "Therefore 接回上一句",
+          "note": "作家需要找新方法是結果。snippets of information 指短小資訊片段；手機螢幕是閱讀場景，不能取代「專注時間變短」這個原因。"
+        },
+        {
+          "id": "p1-s5",
+          "start": 454,
+          "end": 531,
+          "text": "Flash fiction is a medium that works perfectly in a low-attention-span world.",
+          "title": "看清作者站在哪一邊",
+          "note": "works perfectly 對 flash fiction 作正面評價。作者認為這種形式適合當代讀者，並非說它是讀者面對的新難題。"
+        }
+      ],
+      "title": "背景與問題",
+      "summary": "人類仍喜歡故事，但部分現代讀者專注時間短。",
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "sentences": [
+        {
+          "id": "p2-s1",
+          "start": 0,
+          "end": 105,
+          "text": "Flash fiction is a category of short story that limits the author to a word count of 1,000 words or less.",
+          "title": "先建立定義與上限",
+          "note": "Flash fiction 是短篇故事的一類，上限是 1,000 字。limits 是限制的動作；word count 是被限制的項目。"
+        },
+        {
+          "id": "p2-s2",
+          "start": 106,
+          "end": 175,
+          "text": "Some magazines limit flash fiction stories to as little as 300 words.",
+          "title": "分清一般上限與個別刊物",
+          "note": "Some magazines 指部分雜誌；as little as 300 是更嚴格的例子。不能把所有 flash fiction 都說成必須恰好 300 字。"
+        }
+      ],
+      "title": "短篇定義",
+      "summary": "1,000字上限，以及部分刊物的300字限制。",
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "sentences": [
+        {
+          "id": "p3-s1",
+          "start": 0,
+          "end": 79,
+          "text": "Following the tips below will guide you in writing a solid flash fiction story.",
+          "title": "標題之後是實作指引",
+          "note": "Following the tips below 指向接下來的寫作建議。solid 在這裡形容故事紮實、有質素，不是物理上的固體。"
+        }
+      ],
+      "title": "由介紹轉入方法",
+      "summary": "below 指向第4至8段寫作指引。",
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "sentences": [
+        {
+          "id": "p4-s1",
+          "start": 0,
+          "end": 131,
+          "text": "With a limit of 1,000 words, there isn't a lot of room for character development, so you'll want to pick one character to focus on.",
+          "title": "一個焦點，不等於只准一個人物",
+          "note": "字數少 → 人物發展空間少 → 集中一位主角。focus on 說的是注意力放在哪裡，還未限制全文只出現一個角色。"
+        },
+        {
+          "id": "p4-s2",
+          "start": 132,
+          "end": 262,
+          "text": "There will likely be two characters in the story because you'll often use a human antagonist as opposition to your main character.",
+          "title": "找出第二個人物的功能",
+          "note": "likely 表示很可能，不是一定。antagonist 與 opposition 說明第二個人物常用來阻礙主角，而不是支持主角。"
+        },
+        {
+          "id": "p4-s3",
+          "start": 263,
+          "end": 385,
+          "text": "You might be able to use three characters, but any more than that will probably be overkill in the realm of flash fiction.",
+          "title": "保留數量和可能性的階梯",
+          "note": "三個角色 might be able to；超過三個 probably overkill。that 回指 three characters。別把「可能太多」改成「絕對不准」。"
+        }
+      ],
+      "title": "人物焦點",
+      "summary": "一個主角、常有對手；角色數量有可能性限制。",
+      "sourcePage": 1
+    },
+    {
+      "number": 5,
+      "sentences": [
+        {
+          "id": "p5-s1",
+          "start": 0,
+          "end": 124,
+          "text": "Longer story forms have a beginning, middle, and end, but with flash fiction, you're really telling only the end of a story.",
+          "title": "but 把兩種故事分開",
+          "note": "but 前是長篇的 beginning / middle / end；but 後才是 flash fiction 的 only the end。答題要先認清問題正在問哪一邊。"
+        },
+        {
+          "id": "p5-s2",
+          "start": 125,
+          "end": 189,
+          "text": "Of course, you won't be able to flesh out a complex story world.",
+          "title": "world 在此是故事環境",
+          "note": "flesh out 是詳加發展；complex story world 是複雜的故事世界。這句說短篇沒有空間慢慢鋪陳，與上一句的長篇形式形成對比。"
+        },
+        {
+          "id": "p5-s3",
+          "start": 190,
+          "end": 292,
+          "text": "Instead, your flash fiction story should focus on one scene, one moment in the life of your character.",
+          "title": "Instead 提供替代做法",
+          "note": "不鋪開複雜世界，改為聚焦 one scene、one moment。scene 是場面，moment 是人物生命中的關鍵時刻。"
+        },
+        {
+          "id": "p5-s4",
+          "start": 293,
+          "end": 363,
+          "text": "It needs to be a significant, life-altering moment for your character.",
+          "title": "It 接回關鍵時刻",
+          "note": "significant 和 life-altering 直接形容 moment。不是任意一刻，而是會帶來重要改變的一刻。"
+        },
+        {
+          "id": "p5-s5",
+          "start": 364,
+          "end": 422,
+          "text": "Focusing on one scene also means focusing on one location.",
+          "title": "場景與地點的連結",
+          "note": "also means 把 one scene 接到 one location。稍後評價故事時，可以用這條準則對照實際場景。"
+        },
+        {
+          "id": "p5-s6",
+          "start": 423,
+          "end": 507,
+          "text": "So for flash fiction your limited word count focuses on the essentials to the story.",
+          "title": "So 收束全段理由",
+          "note": "limited word count 令作者集中 essentials。limited 修飾字數；essentials 是必要內容，不是 beginning / middle / end 的結構名稱。"
+        }
+      ],
+      "title": "場景與結構",
+      "summary": "長篇完整展開；短篇聚焦關鍵時刻與地點。",
+      "sourcePage": 1
+    },
+    {
+      "number": 6,
+      "sentences": [
+        {
+          "id": "p6-s1",
+          "start": 0,
+          "end": 31,
+          "text": "All stories are about conflict.",
+          "title": "先給故事的核心概念",
+          "note": "這裡把 conflict 當成故事的核心。下一句會解釋衝突如何由人物目標和阻力構成。"
+        },
+        {
+          "id": "p6-s2",
+          "start": 32,
+          "end": 162,
+          "text": "A story can be easily defined as a character who wants or needs something and has to overcome some obstacle in order to attain it.",
+          "title": "把目標、障礙、動作分開",
+          "note": "角色 wants / needs something；overcome 的對象是 obstacle；attain 的對象是想要的東西。代詞 it 要按這條動作關係理解。"
+        },
+        {
+          "id": "p6-s3",
+          "start": 163,
+          "end": 192,
+          "text": "The obstacle is the conflict.",
+          "title": "把抽象概念接回具體名詞",
+          "note": "The obstacle is the conflict：障礙就是衝突。它是需要克服的阻力，不能當成角色想得到的目標。"
+        },
+        {
+          "id": "p6-s4",
+          "start": 193,
+          "end": 284,
+          "text": "You have to answer two very important questions to write a really good flash fiction story:",
+          "title": "冒號預告兩個檢查問題",
+          "note": "作者把故事設計變成兩個問題。接下來逐項找出目標和阻力，不要只記 conflict 的中文。"
+        },
+        {
+          "id": "p6-s5",
+          "start": 285,
+          "end": 323,
+          "text": "1. What does your main character want?",
+          "title": "第一問：人物想得到甚麼",
+          "note": "What…want? 要你寫清楚主角的目標。沒有目標，就難以判斷甚麼東西正在阻礙他。"
+        },
+        {
+          "id": "p6-s6",
+          "start": 324,
+          "end": 393,
+          "text": "2. Who or what is trying to stop your main character from getting it?",
+          "title": "第二問：誰或甚麼正在阻止他",
+          "note": "Who or what 容許人物或非人物障礙。getting it 接回上一問的目標；不要把 it 解作阻礙者。"
+        }
+      ],
+      "title": "目標與衝突",
+      "summary": "人物想要的東西、阻礙、克服與得到。",
+      "sourcePage": 1
+    },
+    {
+      "number": 7,
+      "sentences": [
+        {
+          "id": "p7-s1",
+          "start": 0,
+          "end": 47,
+          "text": "Your theme is the moral argument of your story.",
+          "title": "theme 是故事想傳達的立場",
+          "note": "moral argument 在這裡不是人物吵架；它是故事的價值方向。要讀下一句看它影響誰。"
+        },
+        {
+          "id": "p7-s2",
+          "start": 48,
+          "end": 113,
+          "text": "It's about how you want your readers to be impacted by the story.",
+          "title": "被影響的是讀者",
+          "note": "your readers 和 impacted 指向讀者讀後的反應，不是故事長度，也不是阻止角色做事。"
+        },
+        {
+          "id": "p7-s3",
+          "start": 114,
+          "end": 209,
+          "text": "What do you want them to be encouraged to do, be, or believe as a result of reading your story?",
+          "title": "把影響拆成三種結果",
+          "note": "do、be、believe 分別是行動、成為怎樣的人、相信甚麼。它們都是主題希望帶給讀者的影響。"
+        }
+      ],
+      "title": "主題的作用",
+      "summary": "故事希望如何影響讀者。",
+      "sourcePage": 1
+    },
+    {
+      "number": 8,
+      "sentences": [
+        {
+          "id": "p8-s1",
+          "start": 0,
+          "end": 93,
+          "text": "You only have up to 1,000 words to tell your story, so you have to choose those words wisely.",
+          "title": "字數限制帶來選字責任",
+          "note": "up to 1,000 是最多，不是必須用滿。so 連起字數少與選字要謹慎的因果。"
+        },
+        {
+          "id": "p8-s2",
+          "start": 94,
+          "end": 209,
+          "text": "When you know what actions and ideas you want to communicate, choose the least amount of words to communicate them.",
+          "title": "先有意思，才壓縮用字",
+          "note": "先弄清楚要表達哪些 actions and ideas，再用最少的字傳達。精簡不是把重要意思一起刪掉。"
+        }
+      ],
+      "title": "用字選擇",
+      "summary": "在字數限制內精準傳達意思。",
+      "sourcePage": 1
+    },
+    {
+      "number": 9,
+      "sentences": [
+        {
+          "id": "p9-s1",
+          "start": 0,
+          "end": 58,
+          "text": "Flash fiction forces you to be economical with your words.",
+          "title": "economical 指用字節省",
+          "note": "此處不是金錢問題。作者說短篇迫使你用精準而不浪費的字，這是寫作好處。"
+        },
+        {
+          "id": "p9-s2",
+          "start": 59,
+          "end": 151,
+          "text": "It helps you to focus your ideas and strip away anything that isn't essential to your story.",
+          "title": "兩個好處同時出現",
+          "note": "focus your ideas 是集中；strip away anything that isn’t essential 是刪去非必要內容。兩者都要連回寫作能力。"
+        },
+        {
+          "id": "p9-s3",
+          "start": 152,
+          "end": 226,
+          "text": "Often, when you're writing flash fiction, you'll write more than you need.",
+          "title": "這句是待處理的初稿狀況",
+          "note": "write more than you need 說初稿常寫多了。它出現過，但不是被作者列作好處；要繼續看如何修訂。"
+        },
+        {
+          "id": "p9-s4",
+          "start": 227,
+          "end": 402,
+          "text": "When you go back through, you'll see what needs to be there, what can be taken out, and what needs to be reworked, which helps you to develop your editing and revising skills.",
+          "title": "從後面動作解出 go back through",
+          "note": "保留、刪除、重寫都需要先回頭檢查草稿。go back through 是重讀／檢視，不是走回某個地方，也不只是重新寫一次。"
+        }
+      ],
+      "title": "寫作收益",
+      "summary": "精簡、聚焦、刪減、編輯與修訂。",
+      "sourcePage": 2
+    },
+    {
+      "number": 10,
+      "sentences": [
+        {
+          "id": "p10-s1",
+          "start": 0,
+          "end": 17,
+          "text": "BOOOOOOOOMMMM!!!!",
+          "title": "先聽見爆炸，尚未知道成因",
+          "note": "擬聲詞讓讀者直接進入高潮。這是作者先寫的場面，不等於事件最早發生。"
+        },
+        {
+          "id": "p10-s2",
+          "start": 18,
+          "end": 63,
+          "text": "Timothy's eyes nearly popped out of his head.",
+          "title": "找人物反應，不把事件當反應",
+          "note": "eyes nearly popped out 是誇張地描寫 Timothy 非常驚訝，並非眼睛真的脫落。"
+        },
+        {
+          "id": "p10-s3",
+          "start": 64,
+          "end": 123,
+          "text": "His face was blackened with soot and his hair stood on end.",
+          "title": "這裡寫爆炸後的外觀",
+          "note": "soot 和豎起的頭髮呈現爆炸效果。找情緒證據時，要分清外觀結果和最直接的情緒描寫。"
+        },
+        {
+          "id": "p10-s4",
+          "start": 124,
+          "end": 232,
+          "text": "He looked down at what remained of the school laboratory bench and saw smouldering wood and shattered glass.",
+          "title": "實驗桌留下甚麼線索",
+          "note": "smouldering wood、shattered glass 交代爆炸後損壞。現在只知地點是實驗室，還未能判定每張臉屬於誰。"
+        },
+        {
+          "id": "p10-s5",
+          "start": 233,
+          "end": 263,
+          "text": "Shocked faces gazed up at him.",
+          "title": "把人物身分暫時留白",
+          "note": "faces 是複數；本句沒說是同學。先記下「現場觀眾待核對」，到第12及15段再確認。"
+        }
+      ],
+      "title": "高潮先行",
+      "summary": "先見爆炸結果；觀眾身分尚待後文核對。",
+      "sourcePage": 2
+    },
+    {
+      "number": 11,
+      "sentences": [
+        {
+          "id": "p11-s1",
+          "start": 0,
+          "end": 44,
+          "text": "A month ago, it had all started fairly well.",
+          "title": "A month ago 把時間拉回去",
+          "note": "敘事倒回一個月前，補充比賽的起因。把閱讀順序與事件順序分成兩條線。"
+        },
+        {
+          "id": "p11-s2",
+          "start": 45,
+          "end": 235,
+          "text": "It was nearly the end of Chemistry and Timothy was drifting in a pleasant doze with his head rested upon Super Science Experiments for Eager Youngsters, whilst Professor Snookhorn droned on.",
+          "title": "同時追蹤課堂和人物狀態",
+          "note": "Chemistry 是課堂；doze 是 Timothy 打瞌睡的狀態；書名只是他枕著的物件。老師 droned on 與他的走神並列出現。"
+        },
+        {
+          "id": "p11-s3",
+          "start": 236,
+          "end": 313,
+          "text": "\"So, if anyone is interested, raise your hand now ... how about you Timothy?\"",
+          "title": "老師正在徵求自願者",
+          "note": "if anyone is interested…raise your hand 是邀請參與；最後點名 Timothy。此時不要假定 Timothy 已聽懂。"
+        },
+        {
+          "id": "p11-s4",
+          "start": 314,
+          "end": 403,
+          "text": "\"Eh? Ermmm - sure,\" mumbled Timothy with not the faintest idea of what he had been asked.",
+          "title": "說了甚麼與怎樣說是兩回事",
+          "note": "sure 是答覆內容；mumbled 是含糊說話的動作；not the faintest idea 顯示他根本不明白問題。"
+        },
+        {
+          "id": "p11-s5",
+          "start": 404,
+          "end": 515,
+          "text": "\"Marvellous!\" replied an enthused Professor Snookhorn, fixing him with a steely gaze through his thick glasses.",
+          "title": "興奮和銳利眼神可以同時存在",
+          "note": "enthused 描寫老師心情；steely 修飾 gaze；thick 修飾 glasses。不能把三個修飾語任意換到別的對象。"
+        },
+        {
+          "id": "p11-s6",
+          "start": 516,
+          "end": 578,
+          "text": "\"Meet me in Lab 922 after school today and we'll get started.\"",
+          "title": "這是之後的安排",
+          "note": "Lab 922 是放學後的地點，不是 Timothy 剛才走神的課堂名稱。老師把 sure 當成已答應參與。"
+        },
+        {
+          "id": "p11-s7",
+          "start": 579,
+          "end": 667,
+          "text": "The bell clanged and the students crashed out of the classroom like a herd of elephants.",
+          "title": "鐘聲把課堂接到下課後",
+          "note": "like a herd of elephants 是比喻學生蜂擁離開；不是現場真的出現大象。"
+        },
+        {
+          "id": "p11-s8",
+          "start": 668,
+          "end": 793,
+          "text": "Billy Brenton, class thug, barged past Timothy muttering \"Swotty boy - volunteering for Young Scientist of the Year - urghh!\"",
+          "title": "分清標籤落在哪個人身上",
+          "note": "class thug 描寫 Billy；Swotty boy 是 Billy 嘲笑 Timothy 的話；muttering 也是 Billy 的動作。"
+        },
+        {
+          "id": "p11-s9",
+          "start": 794,
+          "end": 844,
+          "text": "\"Arggghhhh!\" thought Timothy, but it was too late.",
+          "title": "把省略的 too late 補完整",
+          "note": "Billy 的話令 Timothy 明白自己被當成自願參賽。too late 是太遲反悔／解釋誤會，不是太遲回答或離開課室。"
+        }
+      ],
+      "title": "一個月前",
+      "summary": "倒敘誤答、被當成自願者和後悔。",
+      "sourcePage": 2
+    },
+    {
+      "number": 12,
+      "sentences": [
+        {
+          "id": "p12-s1",
+          "start": 0,
+          "end": 319,
+          "text": "Four weeks and 25 excruciating extra Chemistry lessons later, Timothy was blinking out nervously at a gaggle of eager science teachers and pushy parents, crammed into the National School of Science Laboratory for what Professor Snookhorn enthusiastically described as \"The pinnacle of my teaching career\" (no pressure).",
+          "title": "回到比賽日：三條資訊並行",
+          "note": "Four weeks…later 接回現在；excruciating 描寫痛苦的準備；crammed 說觀眾擠滿實驗室。pinnacle of my teaching career 是老師的期待，並非 Timothy 已具備能力的證明。"
+        }
+      ],
+      "title": "四星期之後",
+      "summary": "比賽現場、痛苦準備、擁擠觀眾、老師期待。",
+      "sourcePage": 2
+    },
+    {
+      "number": 13,
+      "sentences": [
+        {
+          "id": "p13-s1",
+          "start": 0,
+          "end": 150,
+          "text": "Professor Snookhorn was a superlative scientist but little did he know that Timothy was a bigger hazard than sulphuric acid when it came to Chemistry.",
+          "title": "hazard 在這句形容誰",
+          "note": "老師是出色科學家，但不知道 Timothy 做化學有多危險。這是對 Timothy 的誇張比喻，沒有交代老師有否教過安全知識。"
+        },
+        {
+          "id": "p13-s2",
+          "start": 151,
+          "end": 229,
+          "text": "He had mistaken Timothy's glazed expression for wide-eyed enthusiasm in class.",
+          "title": "人物誤會與讀者所知分開",
+          "note": "mistaken X for Y：老師把迷糊神情誤作熱情。人物相信的事不自動成為客觀事實。"
+        },
+        {
+          "id": "p13-s3",
+          "start": 230,
+          "end": 392,
+          "text": "Timothy looked down at the glistening bench, taking in the jewel-coloured containers of liquids and crystals, without a clue of what they were or how to use them.",
+          "title": "直接證據勝過「上過課應該會」",
+          "note": "without a clue 明說 Timothy 不知道材料是甚麼，也不會使用。25節額外課只是背景，不能推翻這句直接描寫。"
+        }
+      ],
+      "title": "認知差距",
+      "summary": "老師誤會熱情；Timothy 其實不懂材料。",
+      "sourcePage": 2
+    },
+    {
+      "number": 14,
+      "sentences": [
+        {
+          "id": "p14-s1",
+          "start": 0,
+          "end": 16,
+          "text": "A klaxon blared.",
+          "title": "號角標示比賽開始",
+          "note": "blared 表示響亮聲音，是開始行動的訊號，不是後面的爆炸。"
+        },
+        {
+          "id": "p14-s2",
+          "start": 17,
+          "end": 79,
+          "text": "Timothy's competitors scurried around like a pack of lab rats.",
+          "title": "競爭者動起來",
+          "note": "like a pack of lab rats 是明喻。這裡的動作屬於 competitors，別移到 Timothy 身上。"
+        },
+        {
+          "id": "p14-s3",
+          "start": 80,
+          "end": 327,
+          "text": "Timothy had not bothered reading the competition rules, but jerked into action, picking random coloured bottles up and mixing the contents in a large glass container which appeared to have been placed on the bench in front of him for that purpose.",
+          "title": "在一串動作中找直接成因",
+          "note": "沒讀規則是背景；拿起瓶子仍不足以引起爆炸；mixing the contents 才把隨機物質混在一起。物質在瓶內，不能寫成混合瓶子本身。"
+        }
+      ],
+      "title": "直接動作",
+      "summary": "開始比賽，Timothy 亂混物質。",
+      "sourcePage": 2
+    },
+    {
+      "number": 15,
+      "sentences": [
+        {
+          "id": "p15-s1",
+          "start": 0,
+          "end": 113,
+          "text": "A smell like Billy Brenton's worst ever fart began to fill the air and Timothy looked down in alarm at his bench.",
+          "title": "like 是比較，不是來源",
+          "note": "氣味像 Billy 的屁，不表示 Billy 在場。Timothy 看向實驗桌驚慌；這發生在爆炸之前。"
+        },
+        {
+          "id": "p15-s2",
+          "start": 114,
+          "end": 157,
+          "text": "Thick grey smoke filled Timothy's nostrils.",
+          "title": "第二個異常徵兆",
+          "note": "濃灰煙進入鼻孔，接續上一句的氣味。這是混合物反應的一部分。"
+        },
+        {
+          "id": "p15-s3",
+          "start": 158,
+          "end": 238,
+          "text": "The glass container into which he had poured his random mix shuddered and shook.",
+          "title": "第三個異常徵兆",
+          "note": "容器震動是 random mix 反應的結果；不要把徵兆當成最初的混合動作。"
+        },
+        {
+          "id": "p15-s4",
+          "start": 239,
+          "end": 274,
+          "text": "The pushy parents started to point.",
+          "title": "家長是旁觀者",
+          "note": "家長指指點點是現場反應，並不是令化學品爆炸的原因。這也幫助確認第10段觀眾的身分。"
+        },
+        {
+          "id": "p15-s5",
+          "start": 275,
+          "end": 306,
+          "text": "The science teachers went pale.",
+          "title": "老師也有現場反應",
+          "note": "went pale 表示臉色發白。與家長一起構成比賽現場的觀眾，不是一個月前的同學。"
+        },
+        {
+          "id": "p15-s6",
+          "start": 307,
+          "end": 322,
+          "text": "Timothy gulped.",
+          "title": "人物再有緊張反應",
+          "note": "gulped 是吞嚥，放在爆炸前增添緊張感。它仍然不是爆炸的成因。"
+        },
+        {
+          "id": "p15-s7",
+          "start": 323,
+          "end": 340,
+          "text": "BOOOOOOOOMMMM!!!!",
+          "title": "現在才爆炸",
+          "note": "把順序保留下來：混合 → 氣味／煙／震動 → 人物反應 → 爆炸。不能用後來的爆炸解釋較早那一刻的驚慌。"
+        }
+      ],
+      "title": "徵兆到爆炸",
+      "summary": "臭味、煙、震動與各人的反應。",
+      "sourcePage": 2
+    },
+    {
+      "number": 16,
+      "sentences": [
+        {
+          "id": "p16-s1",
+          "start": 0,
+          "end": 119,
+          "text": "As the smoke cleared, the science teachers began to clap and a tear of pride trickled down Professor Snookhorn's cheek.",
+          "title": "同一場面，兩種理解",
+          "note": "讀者知道是亂混造成的意外；觀眾鼓掌，老師流下驕傲的淚。流淚的是 Professor Snookhorn，不是 Timothy。"
+        },
+        {
+          "id": "p16-s2",
+          "start": 120,
+          "end": 260,
+          "text": "A voice boomed: \"Ladies and gentlemen I give you the winner of this year's Young Scientist of the Year - The Biggest Bang: TIMOTHY TRENTON!\"",
+          "title": "最後揭示得獎反轉",
+          "note": "Timothy 被宣布為冠軍，作品稱為 The Biggest Bang。老師把結果視作成功；回答人物心理時，用 seemed / appeared 可保留這種視角差距。"
+        }
+      ],
+      "title": "結果與反諷",
+      "summary": "意外得獎，老師誤以為教學成功。",
+      "sourcePage": 2
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "title": "摘要：意思必須放得回新句子",
+      "contract": "第1段；三格各選一項。先看每格在比較甚麼，再選字。",
+      "scope": [
+        1
+      ],
+      "review": "同字不等於同義；把選項放回新句子，再看比較方向和讀者／作者角度。",
+      "units": [
+        {
+          "id": "q1-history",
+          "title": "(i) 比較歷史，不是長度",
+          "answer": "B · as old as",
+          "why": "原句的時間延續，換到 Stories are…the human race 時，要變成「與人類一樣久遠」。",
+          "evidence": [
+            {
+              "id": "q1-history-e1",
+              "paragraph": 1,
+              "start": 34,
+              "end": 73,
+              "quote": "for as long as humanity has been around",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "as long as",
+              "why": "原文相同字串不適合直接放進新的比較結構。"
+            },
+            {
+              "claim": "as big as / as difficult as",
+              "why": "大小與難度都不是這一格的歷史比較。"
+            }
+          ],
+          "pages": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            46,
+            47
+          ]
+        },
+        {
+          "id": "q1-difficulty",
+          "title": "(ii) 讀得吃力",
+          "answer": "B · difficult",
+          "why": "struggle to read 說閱讀困難；沒有交代讀者覺得沉悶或無意義。",
+          "evidence": [
+            {
+              "id": "q1-difficulty-e1",
+              "paragraph": 1,
+              "start": 123,
+              "end": 172,
+              "quote": "others struggle to read the first four paragraphs",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "boring",
+              "why": "把困難自行解釋為覺得悶，超出文本。"
+            },
+            {
+              "claim": "essential / meaningless",
+              "why": "必要性和有無意義都不是原句的意思。"
+            }
+          ],
+          "pages": [
+            42,
+            43
+          ]
+        },
+        {
+          "id": "q1-solution",
+          "title": "(iii) 短篇對讀者的作用",
+          "answer": "C · an ideal solution",
+          "why": "works perfectly 是作者對這種形式的正面評價，說它適合專注時間短的讀者。",
+          "evidence": [
+            {
+              "id": "q1-solution-e1",
+              "paragraph": 1,
+              "start": 485,
+              "end": 530,
+              "quote": "works perfectly in a low-attention-span world",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "a big challenge",
+              "why": "把作者寫短篇可能覺得難，移成讀者的問題；本段沒有這樣說。"
+            },
+            {
+              "claim": "a confusing idea / an excellent puzzle",
+              "why": "原文沒有困惑或謎題的意思。"
+            }
+          ],
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "analysisPages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "referenceAnswer": "(i) B, (ii) B, (iii) C"
+    },
+    {
+      "number": 2,
+      "title": "作者態度與讀者狀態",
+      "contract": "第1段；只找一個表達作者失望／不滿的字。",
+      "scope": [
+        1
+      ],
+      "review": "把候選字刪去：哪個字刪掉後，句子由評價變成中性敘述？",
+      "units": [
+        {
+          "id": "q2-attitude",
+          "title": "誰在感到遺憾？",
+          "answer": "unfortunately",
+          "why": "unfortunately 是作者的評價；科技與專注時間的因果是被評價的內容。",
+          "evidence": [
+            {
+              "id": "q2-attitude-e1",
+              "paragraph": 1,
+              "start": 204,
+              "end": 217,
+              "quote": "unfortunately",
+              "kind": "language"
+            },
+            {
+              "id": "q2-attitude-e2",
+              "paragraph": 1,
+              "start": 189,
+              "end": 272,
+              "quote": "technology has unfortunately resulted in many people having shorter attention spans",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "struggle",
+              "why": "讀者讀得吃力，不直接等於作者的態度。"
+            },
+            {
+              "claim": "shorter / technology",
+              "why": "一個是比較，一個是原因；本身沒有表達遺憾。"
+            }
+          ],
+          "pages": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ]
+        }
+      ],
+      "analysisPages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "referenceAnswer": "unfortunately"
+    },
+    {
+      "number": 3,
+      "title": "沿 Therefore 找原因",
+      "contract": "第1段；回答「甚麼改變」令作家改變方法。",
+      "scope": [
+        1
+      ],
+      "review": "原因 → 讀者身上的改變 → 作家的應對；答案不能只有一個大名詞。",
+      "units": [
+        {
+          "id": "q3-cause",
+          "title": "把因果鏈寫完整",
+          "answer": "Technology has caused many people to have shorter attention spans.",
+          "why": "resulted in 指向科技造成的改變；Therefore 後才是作家需要新方法的結果。",
+          "evidence": [
+            {
+              "id": "q3-cause-e1",
+              "paragraph": 1,
+              "start": 189,
+              "end": 272,
+              "quote": "technology has unfortunately resulted in many people having shorter attention spans",
+              "kind": "evidence"
+            },
+            {
+              "id": "q3-cause-e2",
+              "paragraph": 1,
+              "start": 274,
+              "end": 330,
+              "quote": "Therefore, writers have to find new ways to tell stories",
+              "kind": "logic"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "technology / smartphones",
+              "why": "只給背景名詞，漏掉專注時間變短。"
+            },
+            {
+              "claim": "People no longer enjoy stories.",
+              "why": "開首說人類一直喜歡故事；不能把閱讀困難改成不喜歡。"
+            }
+          ],
+          "pages": [
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ],
+      "analysisPages": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "referenceAnswer": "Technology has caused many people to have shorter attention spans."
+    },
+    {
+      "number": 4,
+      "title": "詞義：先看要找哪種字",
+      "contract": "第1段；找一個表示短小簡潔事物的原文字。",
+      "scope": [
+        1
+      ],
+      "review": "先查詞性，再查字本身的意思，最後看周邊搭配。",
+      "units": [
+        {
+          "id": "q4-snippets",
+          "title": "things 提示名詞",
+          "answer": "snippets",
+          "why": "snippets of information 中，snippets 才包含「小片段」的意思；of information 說的是片段的內容。",
+          "evidence": [
+            {
+              "id": "q4-snippets-e1",
+              "paragraph": 1,
+              "start": 387,
+              "end": 410,
+              "quote": "snippets of information",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "information / paragraphs / stories",
+              "why": "都可以很長，字本身沒有短小的意思。"
+            },
+            {
+              "claim": "small",
+              "why": "形容螢幕大小，也不符合 things 所需的名詞。"
+            }
+          ],
+          "pages": [
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      ],
+      "analysisPages": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "referenceAnswer": "snippets"
+    },
+    {
+      "number": 5,
+      "title": "同義詞要放回語境",
+      "contract": "第2、3、4段；每格找一個與提示意思接近的字。",
+      "scope": [
+        2,
+        3,
+        4
+      ],
+      "review": "動作、作品質素、過量評價是三種意思；不要只用最熟悉的字典義。",
+      "units": [
+        {
+          "id": "q5-restrict",
+          "title": "(i) 限制是動作",
+          "answer": "limits / limit",
+          "why": "原句 limits the author to… 說把作者限制在字數範圍。最貼近原文詞形是 limits。",
+          "evidence": [
+            {
+              "id": "q5-restrict-e1",
+              "paragraph": 2,
+              "start": 48,
+              "end": 104,
+              "quote": "limits the author to a word count of 1,000 words or less",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "word count / less",
+              "why": "一個是限制對象，一個是比較，不是 restrict 的動作。"
+            }
+          ],
+          "pages": [
+            65,
+            66
+          ]
+        },
+        {
+          "id": "q5-solid",
+          "title": "(ii) 作品紮實",
+          "answer": "solid",
+          "why": "修飾 story，表示故事有質素；此處不取「固體」的意思。",
+          "evidence": [
+            {
+              "id": "q5-solid-e1",
+              "paragraph": 3,
+              "start": 51,
+              "end": 78,
+              "quote": "a solid flash fiction story",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "guide / story",
+              "why": "一個是引導動作，一個是作品名稱，都不表示 strong。"
+            }
+          ],
+          "pages": [
+            67,
+            68,
+            71
+          ]
+        },
+        {
+          "id": "q5-overkill",
+          "title": "(iii) 不只是更多，而是過量",
+          "answer": "overkill",
+          "why": "three 可能可行；any more than that 很可能過量。overkill 帶出超過需要的評價。",
+          "evidence": [
+            {
+              "id": "q5-overkill-e1",
+              "paragraph": 4,
+              "start": 263,
+              "end": 385,
+              "quote": "You might be able to use three characters, but any more than that will probably be overkill in the realm of flash fiction.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "more / characters",
+              "why": "more 只說更多，characters 只說角色；都沒有 too much 的評價。"
+            }
+          ],
+          "pages": [
+            69,
+            70,
+            71
+          ]
+        }
+      ],
+      "analysisPages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "referenceAnswer": "(i) limits / limit, (ii) solid, (iii) overkill"
+    },
+    {
+      "number": 6,
+      "title": "改錯：方向、數量與條件",
+      "contract": "第4段；四行各改一字，一行填✓；跨行句必須連讀，兼顧文法及拼字。",
+      "scope": [
+        4
+      ],
+      "review": "先找破壞意思的字。unless = if not；不要把可能性、角色焦點和角色總數混成同一條規則。",
+      "units": [
+        {
+          "id": "q6-opposition",
+          "title": "(i) 支持還是阻礙？",
+          "answer": "supports → opposes",
+          "why": "antagonist 的功能是 opposition。who 的主語 another character 是單數，所以用 opposes。",
+          "evidence": [
+            {
+              "id": "q6-opposition-e1",
+              "paragraph": 4,
+              "start": 206,
+              "end": 261,
+              "quote": "a human antagonist as opposition to your main character",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "supports",
+              "why": "把阻力翻成支援，方向相反。"
+            }
+          ],
+          "pages": [
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "id": "q6-two",
+          "title": "(ii) 這一行不改",
+          "answer": "✓",
+          "why": "likely 與 probably 對應；一個主角之外可以有另一個對手。",
+          "evidence": [
+            {
+              "id": "q6-two-e1",
+              "paragraph": 4,
+              "start": 132,
+              "end": 180,
+              "quote": "There will likely be two characters in the story",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "two → one",
+              "why": "Focus on One Character 說焦點，不等於全文只有一個人物。"
+            }
+          ],
+          "pages": [
+            76
+          ]
+        },
+        {
+          "id": "q6-possible",
+          "title": "(iii) 把絕對否定還原為可能",
+          "answer": "no → a",
+          "why": "might be able to 支持 There is a chance，不能說完全沒有可能。",
+          "evidence": [
+            {
+              "id": "q6-possible-e1",
+              "paragraph": 4,
+              "start": 263,
+              "end": 304,
+              "quote": "You might be able to use three characters",
+              "kind": "logic"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "no chance",
+              "why": "把可能變成不可能。"
+            }
+          ],
+          "pages": [
+            77,
+            78
+          ]
+        },
+        {
+          "id": "q6-if",
+          "title": "(iv) 讀完整句再修條件",
+          "answer": "unless → if",
+          "why": "this / that 都指三個角色。原文是「超過三個 → 很可能過量」；unless 會變成「沒有想加更多 → 過量」，把危險條件反轉。",
+          "evidence": [
+            {
+              "id": "q6-if-e1",
+              "paragraph": 4,
+              "start": 288,
+              "end": 304,
+              "quote": "three characters",
+              "kind": "evidence"
+            },
+            {
+              "id": "q6-if-e2",
+              "paragraph": 4,
+              "start": 306,
+              "end": 354,
+              "quote": "but any more than that will probably be overkill",
+              "kind": "logic"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "保留 unless",
+              "why": "unless X, Y 等於 if not X, Y；不是普通 if。"
+            },
+            {
+              "claim": "改 However 或 need",
+              "why": "However 保留轉折，feel the need 是可接受改寫；真正反轉意思的是 unless。"
+            },
+            {
+              "claim": "because / when",
+              "why": "because 把可能條件說成已成立原因；when 較像預期發生。這題的參考答案用 if。"
+            }
+          ],
+          "pages": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ]
+        },
+        {
+          "id": "q6-story",
+          "title": "(v) 要改的是故事，不是主題",
+          "answer": "theme → story",
+          "why": "第4段談角色數量與故事負荷；theme 是第7段另一個概念。不要跨段借題。",
+          "evidence": [
+            {
+              "id": "q6-story-e1",
+              "paragraph": 4,
+              "start": 29,
+              "end": 80,
+              "quote": "there isn't a lot of room for character development",
+              "kind": "evidence"
+            },
+            {
+              "id": "q6-story-e2",
+              "paragraph": 4,
+              "start": 346,
+              "end": 384,
+              "quote": "overkill in the realm of flash fiction",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "theme",
+              "why": "把同篇文章另一節的概念錯放進本段。"
+            }
+          ],
+          "pages": [
+            100,
+            101
+          ]
+        }
+      ],
+      "analysisPages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "referenceAnswer": "(i) opposes, (ii) ✓, (iii) a, (iv) if, (v) story"
+    },
+    {
+      "number": 7,
+      "title": "筆記填空：讀空格兩邊",
+      "contract": "第5段；每格只填一個原文字，分清長篇／短篇兩欄。",
+      "scope": [
+        5
+      ],
+      "review": "but 決定比較方向，only 限定焦點；空格之後的 important event 也能鎖定答案。",
+      "units": [
+        {
+          "id": "q7-limited",
+          "title": "(i) 長度的限制",
+          "answer": "limited",
+          "why": "The…length 要形容詞；原句用 limited word count，指出篇幅受限制。",
+          "evidence": [
+            {
+              "id": "q7-limited-e1",
+              "paragraph": 5,
+              "start": 444,
+              "end": 506,
+              "quote": "your limited word count focuses on the essentials to the story",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "short",
+              "why": "意思接近但不是本段提供的字；題目要求取自本段。"
+            }
+          ],
+          "pages": [
+            103,
+            104
+          ]
+        },
+        {
+          "id": "q7-complex",
+          "title": "(ii) 長篇可以鋪開甚麼？",
+          "answer": "complex",
+          "why": "story world 對應 environment；短篇不能充分發展複雜世界，表格以此對比長篇。",
+          "evidence": [
+            {
+              "id": "q7-complex-e1",
+              "paragraph": 5,
+              "start": 136,
+              "end": 188,
+              "quote": "you won't be able to flesh out a complex story world",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "story",
+              "why": "a more…environment 需要形容詞，不能再填整體名稱。"
+            }
+          ],
+          "pages": [
+            105
+          ]
+        },
+        {
+          "id": "q7-end",
+          "title": "(iii) 結構的哪一部分？",
+          "answer": "end",
+          "why": "typical story structure 指 beginning / middle / end。題目問短篇，所以看 but 後的 only the end。這是本文的寫作建議，不是說所有短篇都絕不能有背景。",
+          "evidence": [
+            {
+              "id": "q7-end-e1",
+              "paragraph": 5,
+              "start": 0,
+              "end": 124,
+              "quote": "Longer story forms have a beginning, middle, and end, but with flash fiction, you're really telling only the end of a story.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "beginning / middle",
+              "why": "讀到比較清單就猜，忽略 but 和 only。"
+            },
+            {
+              "claim": "moment / scene",
+              "why": "它們是場景或時刻；這格問的是故事結構的部分。"
+            },
+            {
+              "claim": "story / essentials / significant",
+              "why": "分別是整體、必要內容和性質，不是本句列出的結構部分。"
+            }
+          ],
+          "pages": [
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "id": "q7-moment",
+          "title": "(iv) 哪個詞接得上 important event？",
+          "answer": "moment",
+          "why": "one moment 與下一句 significant, life-altering moment 連起來，對應筆記後半的 important event。",
+          "evidence": [
+            {
+              "id": "q7-moment-e1",
+              "paragraph": 5,
+              "start": 240,
+              "end": 291,
+              "quote": "one scene, one moment in the life of your character",
+              "kind": "evidence"
+            },
+            {
+              "id": "q7-moment-e2",
+              "paragraph": 5,
+              "start": 308,
+              "end": 343,
+              "quote": "a significant, life-altering moment",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "scene",
+              "why": "只看 single…可能覺得合理；後面的 important event 更準確對應 moment。"
+            }
+          ],
+          "pages": [
+            121,
+            122
+          ]
+        }
+      ],
+      "analysisPages": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "referenceAnswer": "(i) limited, (ii) complex, (iii) end, (iv) moment"
+    },
+    {
+      "number": 8,
+      "title": "代詞：用動作驗證指代",
+      "contract": "第6段 attain it；把候選名詞代回原句。",
+      "scope": [
+        6
+      ],
+      "review": "先找候選，再代入句子；距離最近不代表意思最合理。",
+      "units": [
+        {
+          "id": "q8-goal",
+          "title": "得到的是目標，克服的是障礙",
+          "answer": "the thing / something the main character wants or needs",
+          "why": "wants / needs → something；overcome → obstacle；attain → something。這三個配對把角色目標與阻力分開。",
+          "evidence": [
+            {
+              "id": "q8-goal-e1",
+              "paragraph": 6,
+              "start": 65,
+              "end": 161,
+              "quote": "a character who wants or needs something and has to overcome some obstacle in order to attain it",
+              "kind": "logic"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "obstacle / conflict",
+              "why": "角色克服障礙以得到目標，不是為了得到障礙而克服它。"
+            }
+          ],
+          "pages": [
+            124,
+            125,
+            126
+          ]
+        }
+      ],
+      "analysisPages": [
+        123,
+        124,
+        125,
+        126
+      ],
+      "referenceAnswer": "the thing / something the main character wants or needs"
+    },
+    {
+      "number": 9,
+      "title": "主題的功能",
+      "contract": "第7段；找 moral argument 對誰有甚麼作用。",
+      "scope": [
+        7
+      ],
+      "review": "引用片語題先看本段局部功能，別拿別段的長度或結構來替代。",
+      "units": [
+        {
+          "id": "q9-reader",
+          "title": "作用落在讀者身上",
+          "answer": "D · influence the reader’s response to the story",
+          "why": "impacted 與 encouraged to do, be, or believe 都指讀者的反應。",
+          "evidence": [
+            {
+              "id": "q9-reader-e1",
+              "paragraph": 7,
+              "start": 59,
+              "end": 112,
+              "quote": "how you want your readers to be impacted by the story",
+              "kind": "evidence"
+            },
+            {
+              "id": "q9-reader-e2",
+              "paragraph": 7,
+              "start": 142,
+              "end": 174,
+              "quote": "encouraged to do, be, or believe",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "A · end the story quickly",
+              "why": "混入結構及篇幅概念，並非主題作用。"
+            },
+            {
+              "claim": "B · read longer stories",
+              "why": "原文沒有這個讀後行為結果。"
+            },
+            {
+              "claim": "C · prevent characters from doing anything",
+              "why": "把被影響的讀者錯換成人物，亦改變作用。"
+            }
+          ],
+          "pages": [
+            128,
+            129,
+            130,
+            131,
+            132
+          ]
+        }
+      ],
+      "analysisPages": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "referenceAnswer": "D"
+    },
+    {
+      "number": 10,
+      "title": "片語的語境義",
+      "contract": "第9段；解釋 go back through 在寫作流程中的意思。",
+      "scope": [
+        9
+      ],
+      "review": "看片語之前做了甚麼，之後又能做甚麼，用流程推詞義。",
+      "units": [
+        {
+          "id": "q10-review",
+          "title": "回到自己的草稿",
+          "answer": "reread / review what you have written",
+          "why": "寫多了 → 回頭檢查 → 決定保留、刪除和改寫；所以是檢視已寫內容。",
+          "evidence": [
+            {
+              "id": "q10-review-e1",
+              "paragraph": 9,
+              "start": 227,
+              "end": 340,
+              "quote": "When you go back through, you'll see what needs to be there, what can be taken out, and what needs to be reworked",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "physically go back",
+              "why": "段落談寫作，沒有返回的地點。"
+            },
+            {
+              "claim": "write again",
+              "why": "只說重寫，漏掉先重讀、檢查及判斷。"
+            }
+          ],
+          "pages": [
+            134,
+            135,
+            136
+          ]
+        }
+      ],
+      "analysisPages": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "referenceAnswer": "reread / review what you have written"
+    },
+    {
+      "number": 11,
+      "title": "NOT mentioned as a benefit",
+      "contract": "第9段；找沒有被描述為「好處」的一項，不只是搜尋有沒有相同字。",
+      "scope": [
+        9
+      ],
+      "review": "出現過 ≠ 作為好處出現。每個選項都要判斷它在段內的角色。",
+      "units": [
+        {
+          "id": "q11-not-benefit",
+          "title": "把問題狀況與收益分開",
+          "answer": "A · ability to write more",
+          "why": "write more than you need 是待修訂的初稿問題；真正收益是精簡、聚焦和刪改能力。",
+          "evidence": [
+            {
+              "id": "q11-not-benefit-e1",
+              "paragraph": 9,
+              "start": 194,
+              "end": 225,
+              "quote": "you'll write more than you need",
+              "kind": "evidence"
+            },
+            {
+              "id": "q11-not-benefit-e2",
+              "paragraph": 9,
+              "start": 31,
+              "end": 57,
+              "quote": "economical with your words",
+              "kind": "evidence"
+            },
+            {
+              "id": "q11-not-benefit-e3",
+              "paragraph": 9,
+              "start": 75,
+              "end": 150,
+              "quote": "focus your ideas and strip away anything that isn't essential to your story",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "B · more efficient use of words",
+              "why": "economical with words 支持它是好處，所以不是本題答案。"
+            },
+            {
+              "claim": "C · clearer focus",
+              "why": "focus your ideas 與 essentials 支持它是好處。"
+            },
+            {
+              "claim": "D · remove unimportant material",
+              "why": "strip away / taken out 明確支持刪減能力。"
+            }
+          ],
+          "pages": [
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144
+          ]
+        }
+      ],
+      "analysisPages": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "referenceAnswer": "A"
+    },
+    {
+      "number": 12,
+      "title": "情緒證據：人物反應",
+      "contract": "第10段；找 phrase，不是只找一個字。",
+      "scope": [
+        10
+      ],
+      "review": "把造成情緒的事件與顯示情緒的表情分開。",
+      "units": [
+        {
+          "id": "q12-surprise",
+          "title": "誇張地描寫驚訝",
+          "answer": "Timothy’s eyes nearly popped out of his head.",
+          "why": "eyes nearly popped out 是直接的誇張反應，不是眼睛真的彈出。",
+          "evidence": [
+            {
+              "id": "q12-surprise-e1",
+              "paragraph": 10,
+              "start": 18,
+              "end": 63,
+              "quote": "Timothy's eyes nearly popped out of his head.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "BOOOOOOOOMMMM!!!!",
+              "why": "爆炸聲是事件，並非 Timothy 的反應。"
+            },
+            {
+              "claim": "blackened with soot / hair stood on end",
+              "why": "描寫爆炸後外觀；原稿選眼睛反應作最直接的驚訝證據。"
+            }
+          ],
+          "pages": [
+            146,
+            147,
+            148
+          ]
+        }
+      ],
+      "analysisPages": [
+        145,
+        146,
+        147,
+        148
+      ],
+      "referenceAnswer": "“Timothy’s eyes nearly popped out of his head.”"
+    },
+    {
+      "number": 13,
+      "title": "跨段追蹤同一場面",
+      "contract": "第10段的 faces；到第12、15段核對比賽現場。",
+      "scope": [
+        10,
+        12,
+        15
+      ],
+      "review": "敘事指代要核對時間、地點和在場人物，不把倒敘人物搬進現在。",
+      "units": [
+        {
+          "id": "q13-audience",
+          "title": "先保留疑問，再訪問後文",
+          "answer": "the science teachers and pushy parents / the audience watching Timothy",
+          "why": "第10段只給震驚的臉；第12段交代觀眾，第15段再顯示同兩組人的反應。",
+          "evidence": [
+            {
+              "id": "q13-audience-e1",
+              "paragraph": 10,
+              "start": 233,
+              "end": 263,
+              "quote": "Shocked faces gazed up at him.",
+              "kind": "evidence"
+            },
+            {
+              "id": "q13-audience-e2",
+              "paragraph": 12,
+              "start": 100,
+              "end": 208,
+              "quote": "a gaggle of eager science teachers and pushy parents, crammed into the National School of Science Laboratory",
+              "kind": "evidence"
+            },
+            {
+              "id": "q13-audience-e3",
+              "paragraph": 15,
+              "start": 239,
+              "end": 306,
+              "quote": "The pushy parents started to point. The science teachers went pale.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "classmates / Billy Brenton",
+              "why": "這些人在一個月前的課室段出現，未被交代為比賽觀眾。"
+            },
+            {
+              "claim": "Professor Snookhorn alone",
+              "why": "faces 是複數，後文指向老師及家長群體。"
+            }
+          ],
+          "pages": [
+            150,
+            151,
+            152,
+            153
+          ]
+        }
+      ],
+      "analysisPages": [
+        149,
+        150,
+        151,
+        152,
+        153
+      ],
+      "referenceAnswer": "the science teachers and pushy parents / the audience watching Timothy"
+    },
+    {
+      "number": 14,
+      "title": "摘要四格：語法、人物、意思",
+      "contract": "只取第11段原文，每格一字；課堂、說話動作、情緒、身分各有自己的位置。",
+      "scope": [
+        11
+      ],
+      "review": "相鄰字也可能屬於別人；每格都要檢查字的角色、所屬人物和原文字形。",
+      "units": [
+        {
+          "id": "q14-chemistry",
+          "title": "(i) during 後要交代哪節課",
+          "answer": "Chemistry",
+          "why": "Chemistry 是事情開始的課堂；wasn’t paying attention 已概括 doze，空格不必重複狀態。",
+          "evidence": [
+            {
+              "id": "q14-chemistry-e1",
+              "paragraph": 11,
+              "start": 45,
+              "end": 123,
+              "quote": "It was nearly the end of Chemistry and Timothy was drifting in a pleasant doze",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "class / Lab / doze",
+              "why": "class 太泛；Lab 是放學後地點；doze 是狀態且這個槽位不自然。"
+            },
+            {
+              "claim": "書名",
+              "why": "只是枕著的物件，也超過一字限制。"
+            }
+          ],
+          "pages": [
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171
+          ]
+        },
+        {
+          "id": "q14-mumbled",
+          "title": "(ii) Timothy 怎樣說出回答",
+          "answer": "mumbled",
+          "why": "sure 是說話內容；mumbled 才是接 a reply 的動作，並顯示他的迷糊與被動。",
+          "evidence": [
+            {
+              "id": "q14-mumbled-e1",
+              "paragraph": 11,
+              "start": 334,
+              "end": 402,
+              "quote": "mumbled Timothy with not the faintest idea of what he had been asked",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "sure",
+              "why": "不能說 Timothy sure a reply；把內容當成動詞。"
+            },
+            {
+              "claim": "replied / asked / muttering",
+              "why": "replied 和 asked 屬於老師；muttering 屬於 Billy。"
+            },
+            {
+              "claim": "volunteering",
+              "why": "是回答造成的參賽結果，不是當下說話方式。"
+            }
+          ],
+          "pages": [
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182
+          ]
+        },
+        {
+          "id": "q14-enthused",
+          "title": "(iii) 情緒和眼神各自對應",
+          "answer": "enthused",
+          "why": "Although 前填人物心情；後面的 glared 已對應 steely gaze。老師可以興奮，同時眼神銳利。",
+          "evidence": [
+            {
+              "id": "q14-enthused-e1",
+              "paragraph": 11,
+              "start": 426,
+              "end": 514,
+              "quote": "an enthused Professor Snookhorn, fixing him with a steely gaze through his thick glasses",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "steely / gaze",
+              "why": "眼神的意思已由 glared 表達，不能漏掉人物的興奮。"
+            },
+            {
+              "claim": "Marvellous / thick",
+              "why": "一個是說出的感嘆，一個修飾眼鏡，都不是要填的人物情緒。"
+            },
+            {
+              "claim": "enthusiastic / replied",
+              "why": "同義詞不符合取自原文；replied 是說話動作，不符合這個 was 後的位置。"
+            }
+          ],
+          "pages": [
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194
+          ]
+        },
+        {
+          "id": "q14-thug",
+          "title": "(iv) 找 Billy 的身分核心",
+          "answer": "thug",
+          "why": "class 修飾 thug；一字限制要保留核心名詞。Swotty boy 是 Billy 給 Timothy 的嘲笑標籤。",
+          "evidence": [
+            {
+              "id": "q14-thug-e1",
+              "paragraph": 11,
+              "start": 668,
+              "end": 724,
+              "quote": "Billy Brenton, class thug, barged past Timothy muttering",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "class / Billy",
+              "why": "class 是修飾語；題目已給 Billy Brenton。"
+            },
+            {
+              "claim": "swotty / boy / volunteering",
+              "why": "描述 Timothy 或參賽事件，不是 Billy 的身分。"
+            },
+            {
+              "claim": "muttering / barged",
+              "why": "行為能支持他粗魯，但不能填入 the…身分槽位。"
+            }
+          ],
+          "pages": [
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204
+          ]
+        }
+      ],
+      "analysisPages": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "referenceAnswer": "(i) Chemistry, (ii) mumbled, (iii) enthused, (iv) thug"
+    },
+    {
+      "number": 15,
+      "title": "省略：太遲做甚麼？",
+      "contract": "第11段；連起答應、安排和 Billy 的揭示，再補出 too late 的意思。",
+      "scope": [
+        11
+      ],
+      "review": "先找人物後悔的承諾，而不是緊貼 too late 的鐘聲或嘲笑。",
+      "units": [
+        {
+          "id": "q15-withdraw",
+          "title": "收回誤答所造成的承諾",
+          "answer": "It was too late to withdraw / to explain that he had not meant to volunteer.",
+          "why": "迷糊說 sure → 老師作安排 → Billy 說出參賽 → Timothy 才發現自己答應了。",
+          "evidence": [
+            {
+              "id": "q15-withdraw-e1",
+              "paragraph": 11,
+              "start": 334,
+              "end": 402,
+              "quote": "mumbled Timothy with not the faintest idea of what he had been asked",
+              "kind": "evidence"
+            },
+            {
+              "id": "q15-withdraw-e2",
+              "paragraph": 11,
+              "start": 739,
+              "end": 783,
+              "quote": "volunteering for Young Scientist of the Year",
+              "kind": "evidence"
+            },
+            {
+              "id": "q15-withdraw-e3",
+              "paragraph": 11,
+              "start": 824,
+              "end": 843,
+              "quote": "but it was too late",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "stop Billy / leave class / answer the teacher",
+              "why": "嘲笑是發現問題的契機；鐘聲只是時間；他已經回答過，真正想收回的是答應參賽。"
+            }
+          ],
+          "pages": [
+            206,
+            207,
+            208,
+            209
+          ]
+        }
+      ],
+      "analysisPages": [
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "referenceAnswer": "to withdraw / to say he had not meant to volunteer"
+    },
+    {
+      "number": 16,
+      "title": "T / F / NG：比較整個聲稱",
+      "contract": "只根據第12及13段。支持＝T；明確相反＝F；不足以判斷＝NG。",
+      "scope": [
+        12,
+        13
+      ],
+      "review": "拆成誰、做甚麼、對誰／甚麼；相同關鍵字不能代替整個命題的證據。",
+      "units": [
+        {
+          "id": "q16-enjoyed",
+          "title": "(i) 準備過不等於享受",
+          "answer": "F",
+          "why": "excruciating 說準備痛苦，與 enjoyed 相反；不是因為沒出現 enjoyed 就選 NG。",
+          "evidence": [
+            {
+              "id": "q16-enjoyed-e1",
+              "paragraph": 12,
+              "start": 15,
+              "end": 54,
+              "quote": "25 excruciating extra Chemistry lessons",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "T",
+              "why": "25節課只證明準備多，不證明享受。"
+            },
+            {
+              "claim": "NG",
+              "why": "已有明確負面評價，足以否定 enjoyed。"
+            }
+          ],
+          "pages": [
+            211,
+            212,
+            213,
+            214,
+            215,
+            216
+          ]
+        },
+        {
+          "id": "q16-hazards",
+          "title": "(ii) hazard 不是安全教學紀錄",
+          "answer": "NG",
+          "why": "原文說 Timothy 是危險人物；沒有說老師有沒有向他講解實驗室危險。",
+          "evidence": [
+            {
+              "id": "q16-hazards-e1",
+              "paragraph": 13,
+              "start": 0,
+              "end": 150,
+              "quote": "Professor Snookhorn was a superlative scientist but little did he know that Timothy was a bigger hazard than sulphuric acid when it came to Chemistry.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "T",
+              "why": "同一個 hazard 字被放進不同主語和動作關係。"
+            },
+            {
+              "claim": "F",
+              "why": "沒有記載講解，不等於明說沒有講解；F 需要相反資訊。"
+            }
+          ],
+          "pages": [
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223
+          ]
+        },
+        {
+          "id": "q16-crowded",
+          "title": "(iii) 接受有根據的同義改寫",
+          "answer": "T",
+          "why": "crammed into 表示擠滿，支持 hardly any space left；不需要原文逐字重複選項。",
+          "evidence": [
+            {
+              "id": "q16-crowded-e1",
+              "paragraph": 12,
+              "start": 154,
+              "end": 208,
+              "quote": "crammed into the National School of Science Laboratory",
+              "kind": "language"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "NG",
+              "why": "把不逐字相同誤當沒資料，忽略 crammed 的明確意思。"
+            }
+          ],
+          "pages": [
+            224,
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "id": "q16-clueless",
+          "title": "(iv) 直接描寫優先",
+          "answer": "T",
+          "why": "without a clue 與 did not know 對應；liquids and crystals 是材料，how to use them 是處理用途。",
+          "evidence": [
+            {
+              "id": "q16-clueless-e1",
+              "paragraph": 13,
+              "start": 340,
+              "end": 391,
+              "quote": "without a clue of what they were or how to use them",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "F / NG",
+              "why": "不能用「上過25節課應該懂」取代作者直接說毫無頭緒的證據。"
+            }
+          ],
+          "pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233
+          ]
+        }
+      ],
+      "analysisPages": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "referenceAnswer": "(i) F, (ii) NG, (iii) T, (iv) T"
+    },
+    {
+      "number": 17,
+      "title": "當下的驚慌與後來的爆炸",
+      "contract": "第15段；找 looked down in alarm 附近、實驗桌上的異常反應。",
+      "scope": [
+        15
+      ],
+      "review": "先釘住被問的那一刻；比喻對象不是氣味來源，後來結果不是較早反應的原因。",
+      "units": [
+        {
+          "id": "q17-warning",
+          "title": "臭味、煙與震動屬於哪件事？",
+          "answer": "His random mixture / glass container gave off a terrible smell, produced smoke and shook.",
+          "why": "原稿把附近三個異常徵兆連成混合物反應。最先出現氣味，接著煙和容器震動；爆炸尚未發生。",
+          "evidence": [
+            {
+              "id": "q17-warning-e1",
+              "paragraph": 15,
+              "start": 0,
+              "end": 113,
+              "quote": "A smell like Billy Brenton's worst ever fart began to fill the air and Timothy looked down in alarm at his bench.",
+              "kind": "evidence"
+            },
+            {
+              "id": "q17-warning-e2",
+              "paragraph": 15,
+              "start": 114,
+              "end": 157,
+              "quote": "Thick grey smoke filled Timothy's nostrils.",
+              "kind": "evidence"
+            },
+            {
+              "id": "q17-warning-e3",
+              "paragraph": 15,
+              "start": 158,
+              "end": 238,
+              "quote": "The glass container into which he had poured his random mix shuddered and shook.",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "the explosion",
+              "why": "把段末結果提前到題目所問的時刻。"
+            },
+            {
+              "claim": "Billy’s fart",
+              "why": "like 引入明喻，不是 Billy 真正在現場放屁。"
+            },
+            {
+              "claim": "parents pointing / teachers going pale",
+              "why": "旁觀者之後的反應，不能替代 Timothy 看向桌面的原因。"
+            }
+          ],
+          "pages": [
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ]
+        }
+      ],
+      "analysisPages": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "referenceAnswer": "his mixture / container was smoking, shaking, and giving off a terrible\nsmell"
+    },
+    {
+      "number": 18,
+      "title": "成因：挑出直接動作",
+      "contract": "caused when Timothy… 要接 Timothy 做了甚麼，並保持句子通順。",
+      "scope": [
+        14,
+        15
+      ],
+      "review": "背景 → 直接動作 → 徵兆 → 結果；問題問哪一層，就答那一層。",
+      "units": [
+        {
+          "id": "q18-mix",
+          "title": "混合瓶內物質才是直接動作",
+          "answer": "mixed the contents of random coloured bottles in a large glass container",
+          "why": "mixed 是動作；random 說隨意選取；contents 是物質，不是瓶子本身。容器使答案更完整。",
+          "evidence": [
+            {
+              "id": "q18-mix-e1",
+              "paragraph": 14,
+              "start": 160,
+              "end": 245,
+              "quote": "picking random coloured bottles up and mixing the contents in a large glass container",
+              "kind": "evidence"
+            },
+            {
+              "id": "q18-mix-e2",
+              "paragraph": 15,
+              "start": 203,
+              "end": 237,
+              "quote": "his random mix shuddered and shook",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "did not read rules / was bad at Chemistry",
+              "why": "背景原因，沒有回答直接引發反應的動作。"
+            },
+            {
+              "claim": "picked up bottles / mixed bottles",
+              "why": "前者未到混合；後者誤把容器當成物質。"
+            },
+            {
+              "claim": "shuddered / parents pointed",
+              "why": "前者是反應徵兆，後者是觀眾反應。"
+            }
+          ],
+          "pages": [
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252
+          ]
+        }
+      ],
+      "analysisPages": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "referenceAnswer": "mixed the contents of random coloured bottles in a large glass container"
+    },
+    {
+      "number": 19,
+      "title": "人物相信甚麼？",
+      "contract": "第16段 proud 的對象；用第12段教學生涯期待補充人物視角。",
+      "scope": [
+        12,
+        13,
+        16
+      ],
+      "review": "答案要說角色當時怎樣理解結果，同時不把角色誤會寫成客觀能力。",
+      "units": [
+        {
+          "id": "q19-pride",
+          "title": "得獎像是學生與老師的成功",
+          "answer": "He was proud of Timothy’s apparent success in winning the competition.",
+          "why": "掌聲和宣布冠軍令老師覺得指導成功；讀者卻知道 Timothy 不懂材料。apparent / seemed 保留這個差距。",
+          "evidence": [
+            {
+              "id": "q19-pride-e1",
+              "paragraph": 16,
+              "start": 61,
+              "end": 118,
+              "quote": "a tear of pride trickled down Professor Snookhorn's cheek",
+              "kind": "evidence"
+            },
+            {
+              "id": "q19-pride-e2",
+              "paragraph": 16,
+              "start": 169,
+              "end": 259,
+              "quote": "the winner of this year's Young Scientist of the Year - The Biggest Bang: TIMOTHY TRENTON!",
+              "kind": "evidence"
+            },
+            {
+              "id": "q19-pride-e3",
+              "paragraph": 12,
+              "start": 269,
+              "end": 303,
+              "quote": "The pinnacle of my teaching career",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "the explosion / the applause",
+              "why": "是事件或證據，要連到得獎與表現獲認可。"
+            },
+            {
+              "claim": "Timothy’s brilliant Chemistry ability",
+              "why": "把老師的誤解當成實際能力。"
+            },
+            {
+              "claim": "his teaching career only / destroyed lab",
+              "why": "前者漏掉 Timothy 得獎的觸發點；後者把破壞當成驕傲對象。"
+            }
+          ],
+          "pages": [
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263
+          ]
+        }
+      ],
+      "analysisPages": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "referenceAnswer": "Timothy’s apparent success / Timothy winning the competition with\n“The Biggest Bang”"
+    },
+    {
+      "number": 20,
+      "title": "重建實際時間線",
+      "contract": "第10–16段；各字母只用一次，兩個選項不用；固定節點 Billy teased / won 不要移動。",
+      "scope": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "review": "先看時間信號，再把事件放到固定節點前後；作者先寫的不一定先發生。",
+      "units": [
+        {
+          "id": "q20-slept",
+          "title": "(i) 一個月前先打瞌睡",
+          "answer": "B · Timothy slept",
+          "why": "A month ago 把起點放在第11段；doze 在老師點名前發生。",
+          "evidence": [
+            {
+              "id": "q20-slept-e1",
+              "paragraph": 11,
+              "start": 0,
+              "end": 44,
+              "quote": "A month ago, it had all started fairly well.",
+              "kind": "evidence"
+            },
+            {
+              "id": "q20-slept-e2",
+              "paragraph": 11,
+              "start": 84,
+              "end": 123,
+              "quote": "Timothy was drifting in a pleasant doze",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "A 放第一格",
+              "why": "把第10段的敘述順序誤當事件順序。"
+            }
+          ],
+          "pages": [
+            266,
+            267,
+            268,
+            275
+          ]
+        },
+        {
+          "id": "q20-volunteered",
+          "title": "(ii) 然後才「自願」",
+          "answer": "D · Timothy ‘volunteered’",
+          "why": "sure 被老師當成自願；Billy 因此嘲笑他。引號保留他其實迷糊誤答的意思。",
+          "evidence": [
+            {
+              "id": "q20-volunteered-e1",
+              "paragraph": 11,
+              "start": 334,
+              "end": 402,
+              "quote": "mumbled Timothy with not the faintest idea of what he had been asked",
+              "kind": "evidence"
+            },
+            {
+              "id": "q20-volunteered-e2",
+              "paragraph": 11,
+              "start": 739,
+              "end": 783,
+              "quote": "volunteering for Young Scientist of the Year",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "D 在 B 前",
+              "why": "原文先打瞌睡，再被點名回應。"
+            }
+          ],
+          "pages": [
+            269,
+            270,
+            276
+          ]
+        },
+        {
+          "id": "q20-boom",
+          "title": "(iii) 爆炸在嘲笑後、得獎前",
+          "answer": "A · Timothy caused an explosion",
+          "why": "第12段四星期後回到比賽；第15段爆炸，第16段才宣布冠軍。",
+          "evidence": [
+            {
+              "id": "q20-boom-e1",
+              "paragraph": 12,
+              "start": 0,
+              "end": 60,
+              "quote": "Four weeks and 25 excruciating extra Chemistry lessons later",
+              "kind": "evidence"
+            },
+            {
+              "id": "q20-boom-e2",
+              "paragraph": 15,
+              "start": 323,
+              "end": 340,
+              "quote": "BOOOOOOOOMMMM!!!!",
+              "kind": "evidence"
+            },
+            {
+              "id": "q20-boom-e3",
+              "paragraph": 16,
+              "start": 0,
+              "end": 20,
+              "quote": "As the smoke cleared",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "C · Timothy cried",
+              "why": "流淚的是老師，人物錯位。"
+            },
+            {
+              "claim": "E · made Professor angry",
+              "why": "steely gaze 不足以推出生氣；原文明說 enthused 和 proud。"
+            }
+          ],
+          "pages": [
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278
+          ]
+        }
+      ],
+      "analysisPages": [
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278
+      ],
+      "referenceAnswer": "(i) B, (ii) D, (iii) A"
+    },
+    {
+      "number": 21,
+      "title": "評價：準則 × 故事證據",
+      "contract": "先勾選立場，再用 How to 的準則配對兩項故事證據；兩條有根據的路線均依原稿保留。",
+      "scope": [
+        4,
+        5,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "review": "立場、準則、故事證據要同方向；main focus 不等於只有一個人物，嚴格計場景則要承認倒敘。",
+      "units": [
+        {
+          "id": "q21-good",
+          "title": "路線一：整體焦點符合建議",
+          "answer": "A good example. (1) It focuses mainly on Timothy. (2) It centres on the explosion at the science competition, the crucial event that turns him into the winner.",
+          "why": "對應人物焦點及關鍵時刻兩條準則。配角和倒敘存在，但整體圍繞 Timothy 與爆炸／得獎。不要誇成 only one character。",
+          "evidence": [
+            {
+              "id": "q21-good-e1",
+              "paragraph": 4,
+              "start": 100,
+              "end": 130,
+              "quote": "pick one character to focus on",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-good-e2",
+              "paragraph": 5,
+              "start": 240,
+              "end": 291,
+              "quote": "one scene, one moment in the life of your character",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-good-e3",
+              "paragraph": 11,
+              "start": 334,
+              "end": 402,
+              "quote": "mumbled Timothy with not the faintest idea of what he had been asked",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-good-e4",
+              "paragraph": 16,
+              "start": 243,
+              "end": 259,
+              "quote": "TIMOTHY TRENTON!",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "There is only one character.",
+              "why": "故事明顯有老師、Billy 和觀眾；應說 mainly focuses on Timothy。"
+            },
+            {
+              "claim": "選 good，卻寫 two scenes / too many characters",
+              "why": "證據方向與立場相反。"
+            }
+          ],
+          "pages": [
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291
+          ]
+        },
+        {
+          "id": "q21-not-good",
+          "title": "路線二：嚴格對照每條建議",
+          "answer": "Not a good example. (1) It includes more than three characters or groups of characters. (2) It describes both the earlier Chemistry classroom and the later competition laboratory.",
+          "why": "原稿接受把人物群體算作參與者，或嚴格檢查多場景的路線。要交代比較標準，不能聲稱原稿只接受 good。",
+          "evidence": [
+            {
+              "id": "q21-not-good-e1",
+              "paragraph": 4,
+              "start": 310,
+              "end": 354,
+              "quote": "any more than that will probably be overkill",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-not-good-e2",
+              "paragraph": 5,
+              "start": 364,
+              "end": 422,
+              "quote": "Focusing on one scene also means focusing on one location.",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-not-good-e3",
+              "paragraph": 11,
+              "start": 45,
+              "end": 79,
+              "quote": "It was nearly the end of Chemistry",
+              "kind": "evidence"
+            },
+            {
+              "id": "q21-not-good-e4",
+              "paragraph": 12,
+              "start": 171,
+              "end": 208,
+              "quote": "National School of Science Laboratory",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "只數有名字的人就說超過三個",
+              "why": "有名字者是 Timothy、Snookhorn、Billy；這條路線須清楚說包括人物群體。"
+            },
+            {
+              "claim": "選 not good，卻寫 mainly Timothy / fewer than 1,000 words",
+              "why": "這些材料支持短而集中，與負面立場不一致。"
+            }
+          ],
+          "pages": [
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301
+          ]
+        }
+      ],
+      "analysisPages": [
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "referenceAnswer": "原稿 p.280–301 同時接受 good / not good；必須配兩項方向一致的證據。"
+    },
+    {
+      "number": 22,
+      "title": "人物配對：語氣、關係、代詞",
+      "contract": "每個字母用一次；C 已作例子，一個字母不用。評論是題目給的推擬說話，不是原文直接引語。",
+      "scope": [
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "review": "誰在說 I？He 指誰？說話者與 Timothy 有甚麼關係？先回答這三問才配字母。",
+      "units": [
+        {
+          "id": "q22-pet",
+          "title": "(i) 誰用嘲諷語氣？",
+          "answer": "D · Billy Brenton",
+          "why": "teacher’s pet 在這裡是嘲弄 Timothy 討老師歡心；與 Billy 的 Swotty boy 同方向。",
+          "evidence": [
+            {
+              "id": "q22-pet-e1",
+              "paragraph": 11,
+              "start": 668,
+              "end": 693,
+              "quote": "Billy Brenton, class thug",
+              "kind": "evidence"
+            },
+            {
+              "id": "q22-pet-e2",
+              "paragraph": 11,
+              "start": 726,
+              "end": 792,
+              "quote": "Swotty boy - volunteering for Young Scientist of the Year - urghh!",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "選老師，因為看見 teacher",
+              "why": "teacher’s pet 是學生的標籤，不是說話者身分。"
+            },
+            {
+              "claim": "Parents / Timothy",
+              "why": "家長沒有這種嘲笑證據；Timothy 知道自己是誤入比賽，不是自稱寵兒。"
+            }
+          ],
+          "pages": [
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311
+          ]
+        },
+        {
+          "id": "q22-both",
+          "title": "(ii) us both 指哪兩人？",
+          "answer": "E · Professor Snookhorn",
+          "why": "He did it 指 Timothy；us both 把學生得獎與老師的指導成就連起來。一般觀眾只有欣賞，沒有同樣的共同成果關係。",
+          "evidence": [
+            {
+              "id": "q22-both-e1",
+              "paragraph": 12,
+              "start": 269,
+              "end": 303,
+              "quote": "The pinnacle of my teaching career",
+              "kind": "evidence"
+            },
+            {
+              "id": "q22-both-e2",
+              "paragraph": 16,
+              "start": 61,
+              "end": 118,
+              "quote": "a tear of pride trickled down Professor Snookhorn's cheek",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "C · Teachers / A · Parents",
+              "why": "是觀眾，不能僅憑鼓掌推出「我們兩人」的共同投入。"
+            },
+            {
+              "claim": "Timothy / Billy",
+              "why": "Timothy 自稱應說 I did it；Billy 沒有共同成功的關係。"
+            }
+          ],
+          "pages": [
+            312,
+            313,
+            314,
+            315,
+            316
+          ]
+        },
+        {
+          "id": "q22-pronouns",
+          "title": "(iii) He 不知道 I 不懂",
+          "answer": "B · Timothy",
+          "why": "I 是 without a clue 的 Timothy；He 是不知道學生無知的老師。把兩個人物放回原句，關係才完整。",
+          "evidence": [
+            {
+              "id": "q22-pronouns-e1",
+              "paragraph": 13,
+              "start": 52,
+              "end": 123,
+              "quote": "little did he know that Timothy was a bigger hazard than sulphuric acid",
+              "kind": "evidence"
+            },
+            {
+              "id": "q22-pronouns-e2",
+              "paragraph": 13,
+              "start": 340,
+              "end": 391,
+              "quote": "without a clue of what they were or how to use them",
+              "kind": "evidence"
+            }
+          ],
+          "traps": [
+            {
+              "claim": "Professor Snookhorn",
+              "why": "老師不知學生無知，不等於老師自己不懂化學。"
+            },
+            {
+              "claim": "A · Parents",
+              "why": "沒有相應處境，也不符合其餘評論，因此是未用選項。"
+            }
+          ],
+          "pages": [
+            317,
+            318,
+            319,
+            320,
+            321
+          ]
+        }
+      ],
+      "analysisPages": [
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ],
+      "referenceAnswer": "(i) D, (ii) E, (iii) B"
+    }
+  ],
+  "editorialNote": "導讀文字為依照 Edmund Sir 原稿及現有試卷所編寫的教學層。完整原稿解說另以原書頁碼保留；不作官方評分保證。"
+}

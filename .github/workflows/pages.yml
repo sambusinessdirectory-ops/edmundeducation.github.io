@@ -243,6 +243,8 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[reading-release]') }}
         run: |
           node --check reading-comprehension.js
+          node --check reading-super-curation.mjs
+          node tools/test-reading-super-curation.mjs --data-only
           node tools/test-dse-native-paper-view.mjs
           node tools/test-dse-reading-question-audit.mjs
           node tools/test-dse-reading-translations.mjs

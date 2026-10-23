@@ -630,3 +630,5 @@ html:has(body.dse-paper-mode){scroll-padding-top:20px}
 @media(prefers-reduced-motion:reduce) {
   .dse-question-type-numbers button { transition:none; }
 }
+
+.reading-super-entry{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;background:linear-gradient(125deg,#fff9e9,#e6f4e9);border-color:#bdd2be}.reading-super-entry[hidden]{display:none}.reading-super-entry h2{font-size:1.6rem;margin:.3rem 0}.reading-super-entry p{margin:.4rem 0}.reading-super-entry [data-reading-super-status]:empty{display:none}.reading-super-entry [data-reading-super-status]{flex-basis:100%;font-size:.85rem}

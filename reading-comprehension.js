@@ -2,6 +2,9 @@ import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTar
 
 import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20261018-analysis-batch1';
 let deepReader;
+let superReader;
+let superReaderUserId;
+let superReaderLoading = false;
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
@@ -115,10 +118,11 @@ function pauseDseActivity() {
   dseActivity.started = 0;
 }
 function resumeDseActivity() {
-  if (state.system === 'dse' && state.view === 'exercise' && !state.dseSubmitted && !document.hidden && !dseActivity.started) dseActivity.started = Date.now();
+  if (state.system === 'dse' && state.view === 'exercise' && !state.dseSubmitted && !document.hidden && !document.body.classList.contains('rc-open') && !dseActivity.started) dseActivity.started = Date.now();
 }
 function dsePracticeDuration() { return Math.min(86400000, Math.round(dseActivity.ms + (dseActivity.started ? Date.now() - dseActivity.started : 0))); }
 function showView(view) {
+  superReader?.close();
   deepReader?.close();
   if (view !== 'exercise') closeInteractiveFlashcards({ clearFrame: true });
   pauseDseActivity();
@@ -159,7 +163,7 @@ async function ensureSession() {
 }
 async function rpc(name, args) { const client = await ensureSession(); const { data, error } = await client.rpc(name, args); if (error) throw error; return data; }
 function saveSession() { try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...state.user, token: state.token, role: "student" })); } catch {} }
-function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.dseRemoteReady = false; clearTimeout(state.dseSaveTimer); state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
+function clearSession() { superReader?.destroy(); superReader = null; superReaderUserId = null; state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.dseRemoteReady = false; clearTimeout(state.dseSaveTimer); state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
 function readSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch { return null; } }
 async function validateToken(token) {
   const rows = await rpc("flashcard_student_session_profile", { p_token: token }); const row = Array.isArray(rows) ? rows[0] : null;
@@ -750,6 +754,7 @@ async function openDashboard() {
 }
 
 function setExerciseSystem(system) {
+  $('[data-reading-super-entry]').hidden = true;
   if (system !== 'dse') restoreDsePaperReader();
   const dse = system === 'dse'; state.system = system;
   const exercise = $('[data-view="exercise"]');
@@ -1655,11 +1660,44 @@ function setupInteractiveFlashcardsPanel() {
   });
 }
 
+
+async function openReadingSuperCuration() {
+  if (superReaderLoading || state.system !== 'dse' || state.data?.id !== 'dse-2023-a' || state.fullExam || !state.user) return;
+  superReaderLoading = true;
+  const launch = $('[data-reading-super-open]');
+  const status = $('[data-reading-super-status]');
+  const owner = state.user.id;
+  launch.disabled = true; status.textContent = '正在載入完整導讀與原稿解說…';
+  try {
+    saveDseDraft();
+    pauseTimer(); pauseDseActivity(); el.audio.pause(); closePopovers();
+    if (superReader && superReaderUserId !== owner) { superReader.destroy(); superReader = null; }
+    if (!superReader) {
+      const { createReadingSuperCuration } = await import('./reading-super-curation.mjs?v=20261023-super1');
+      superReader = await createReadingSuperCuration({
+        article: state.data, userId: owner,
+        onClose: () => {
+          const url = new URL(location.href); url.searchParams.delete('curation'); history.replaceState({}, '', url);
+          resumeDseActivity();
+        },
+        onHome: () => { window.location.href = 'reading-comprehension.html'; }
+      });
+      superReaderUserId = owner;
+    }
+    if (state.user?.id !== owner || state.view !== 'exercise' || state.data?.id !== 'dse-2023-a' || state.fullExam) return;
+    const url = new URL(location.href); url.searchParams.set('curation', '1'); history.replaceState({}, '', url);
+    superReader.open(launch); status.textContent = '';
+  } catch (error) { status.textContent = error.message || '導讀載入失敗，請再試。'; resumeDseActivity(); }
+  finally { launch.disabled = false; superReaderLoading = false; }
+}
+$('[data-reading-super-open]').addEventListener('click', openReadingSuperCuration);
+
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
     pauseDseActivity();
     const requestedHash = new URL(location.href).hash;
+    const requestedCuration = new URL(location.href).searchParams.get('curation') === '1';
     if (state.system === 'dse' && state.view === 'exercise') {
       saveDseDraft();
       clearTimeout(state.dseSaveTimer);
@@ -1691,6 +1729,8 @@ async function openDseExercise(id) {
     if (requestedHash && /^#(?:paragraph|question)-\d+$/.test(requestedHash)) url.hash = requestedHash;
     history.replaceState({}, '', url); document.title = `${entry.title}｜DSE 閱讀理解`;
     showView('exercise'); updateTimer(); updateFloatingOffsets();
+    $('[data-reading-super-entry]').hidden = id !== 'dse-2023-a' || Boolean(state.fullExam);
+    if (requestedCuration && id === 'dse-2023-a' && !state.fullExam) void openReadingSuperCuration();
     if (url.hash) requestAnimationFrame(() => document.getElementById(url.hash.slice(1))?.scrollIntoView({ block: 'start' }));
   } catch (error) {
     console.warn('Could not open DSE Reading exercise', error); showToast(error.message || '未能載入 DSE 練習，請稍後再試。');
