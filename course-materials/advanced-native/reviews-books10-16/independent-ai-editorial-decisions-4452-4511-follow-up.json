@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+  "fileSha256": "7f19497aa4b7fe05092e6b34af6e27bcafd2bb2c807e2dc2ffd455b696fe3775",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4456,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Products rooted in the place means connected to local identity, which overlaps canonical 1620 feel rooted rather than generic. Existing detector is narrower than the source, so a reviewed canonical variant or a genuinely distinct sense must be decided before authoring."
+    },
+    {
+      "sourceOrdinal": 4470,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach keep its roots for retaining a town or organisation’s connection to its origins while growing. Canonical 1465 rooted in tradition describes a basis in inherited customs, 1481 part of a child’s roots is a family-history noun phrase, and 1858 strong roots without becoming afraid to branch out is a longer identity-and-exploration frame. This preservation verb frame is distinct provisionally; avoid recycled cultural-root exercises and require human sense approval."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows still require owner adjudication and 4470 requires human sense approval."
+  ]
+}

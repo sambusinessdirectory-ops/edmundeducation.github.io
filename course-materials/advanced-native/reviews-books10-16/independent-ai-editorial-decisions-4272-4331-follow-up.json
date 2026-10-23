@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repair",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+  "fileSha256": "d3d53ac5ef1655f61ff2c10783f3ec7bf0a8a4abb1f5891b7daff5322384715e",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4322,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach the transferable phrasal verb sort out X for resolving practical details or arrangements. The source phrase sort out the same plan is awkward without a competing-plan context; retain it as provenance, and use a natural guide-written model such as sort out the details of a shared plan. Human idiomaticity approval remains pending."
+    }
+  ],
+  "limits": [
+    "AI review only; human idiomaticity approval and future draft model remain pending."
+  ]
+}

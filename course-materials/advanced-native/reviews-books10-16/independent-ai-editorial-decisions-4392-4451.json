@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+  "fileSha256": "9b2c99996430fcc6a488dcfff93e1b8a67506415b189327f1a3d6735e2a63541",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4404,
+      "severity": "minor",
+      "path": "action; canonicalId; source naturalness",
+      "explanation": "“New transport can add noise with one hand and take it away with the other” reworks the fixed proverb “give with one hand and take with the other” (proposed owner 3431) by replacing give with add noise. The source conveys mixed effects, but its improvised form may not be an acceptable alias for teaching the established idiom.",
+      "recommendedFix": "Hold for idiomaticity/target-form review, or explicitly document the productive proverb variation and ensure future target detection/exercises do not present add noise with one hand as the canonical form."
+    },
+    {
+      "sourceOrdinal": 4424,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Lower the temperature in a dispute” reduces interpersonal tension by a heat metaphor, the same sense and metaphor as canonical 727 “take the heat out of”. Different verb phrase alone does not establish a new learner outcome.",
+      "recommendedFix": "Hold pending canonical 727 owner-scope review, or state and support a separate construction/pragmatic use before drafting."
+    }
+  ],
+  "passedChecks": [
+    "Compared 60 decisions with exact source examples and existing canonical meanings.",
+    "All generated proposed-alias-existing detectors match the full source sentence; legacy 4403 black-and-white detector uses non-Unicode fallback.",
+    "Existing holds on source-bound metaphor variants remain conservative."
+  ],
+  "limits": [
+    "AI peer review only; no human editorial or release approval.",
+    "Potential alias-new variants require future canonical target-pattern and lesson checks."
+  ]
+}

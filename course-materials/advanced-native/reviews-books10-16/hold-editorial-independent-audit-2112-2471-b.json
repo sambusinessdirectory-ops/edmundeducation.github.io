@@ -1,0 +1,1129 @@
+{
+  "reviewId": "hold-editorial-independent-audit-2112-2471-b",
+  "scope": "AI-only read-only independent review of every hold-editorial occurrence in source ordinals 2112–2471 against exact inventory example, Golden SOP eligibility, prior-owner coverage and provisional new-owner decisions. No decision, lesson, manifest or release file was edited.",
+  "inputSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl": "3844379b53dea2194b2ad78a0e24231f740f304295a960f43c1235da9625ebde",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl": "f7f09f3ea7e657aa005c512845ab204f05431469ea56b68f860729f582b0e015",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl": "62fbfcc1a4801894e7f54a8882508975033a5bfe60e2314a45f229d4c349dabb",
+    "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl": "624b5f1f74c98d2d46ea836929ea9d3d57660b42dba1fff599ea9767a246e58b",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/sop-extracted.txt": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "method": [
+    "Verified each held sourceId and phrase against the source inventory and read its exact example and source guide meaning.",
+    "Compared hold rationales with SOP P70–P79, especially complete target unit, sense, grammar, source provenance, and eligibility of reusable figurative/natural-English patterns.",
+    "Cross-checked nominated prior owners and their live target patterns for the clear existing-owner cases; checked exact same-source repetition against provisional new-owner decisions.",
+    "Classified every held occurrence once. Candidate findings require human English/editorial adjudication; no automatic promotion is recommended."
+  ],
+  "counts": {
+    "holdRows": 95,
+    "clearFalseHolds": 2,
+    "missedTeachableCandidates": 10,
+    "coverageOrOwnerExpansionHolds": 33,
+    "senseAmbiguityHolds": 1,
+    "holdsSupportedProvisionally": 49
+  },
+  "priorityFindings": [
+    {
+      "ordinals": [
+        2355
+      ],
+      "finding": "False hold: same-sense existing owner 135 and live target regex match “lands” in full source. Consider proposed-alias-existing after editor confirmation."
+    },
+    {
+      "ordinals": [
+        2430
+      ],
+      "finding": "False hold: exact repeat of provisional new owner 2113, including source sentence and guide meaning. Consider proposed-alias-new to 2113 after editorial confirmation."
+    },
+    {
+      "ordinals": [
+        2341,
+        2377
+      ],
+      "finding": "Likely missed teachable figurative verb. Source antecedent “the part” resolves “it”; re-lemma as inhabit a part/role, keep duplicate provenance together."
+    },
+    {
+      "ordinals": [
+        2343,
+        2379
+      ],
+      "finding": "Likely missed do-the-talking construction; source sentence is natural, but extract a reusable variable-subject target rather than whole sentence."
+    },
+    {
+      "ordinals": [
+        2423,
+        2425,
+        2435,
+        2467
+      ],
+      "finding": "Fluent reusable source constructions warrant owner/lesson review under SOP P79; no current owner clearly teaches their exact grammar and sense."
+    },
+    {
+      "ordinals": [
+        2130,
+        2234,
+        2354,
+        2448
+      ],
+      "finding": "Clear quality holds: number mismatch, mixed metaphor, pronoun mismatch, and unnatural/unclear software phrasing, respectively."
+    },
+    {
+      "ordinals": [
+        2407
+      ],
+      "finding": "At once remains semantically ambiguous in the exact sentence; prior-owner alias is premature."
+    }
+  ],
+  "items": [
+    {
+      "ordinal": 2130,
+      "sourceId": "book10-16-0019",
+      "phrase": "settle their mind",
+      "sourceExample": "A quiet walk helped the group settle their mind before the test.",
+      "sourceGuideMeaning": "Calm their thoughts enough to concentrate; a natural mental-state collocation.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The group ... their mind mixes a plural/collective possessive with singular mind; correct number and choose a complete reusable target before teaching.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl"
+    },
+    {
+      "ordinal": 2139,
+      "sourceId": "book10-16-0028",
+      "phrase": "cutting it so fine",
+      "sourceExample": "Stop cutting it so fine and leave for the station earlier.",
+      "sourceGuideMeaning": "Leaving almost no margin for error; a conventional expression about overly precise timing.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl"
+    },
+    {
+      "ordinal": 2147,
+      "sourceId": "book10-16-0036",
+      "phrase": "one step ahead of the clock",
+      "sourceExample": "Preparing tonight keeps us one step ahead of the clock tomorrow.",
+      "sourceGuideMeaning": "Better prepared than the time pressure demands; a vivid extension of being ahead.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2148,
+      "sourceId": "book10-16-0037",
+      "phrase": "running after it",
+      "sourceExample": "Without a timetable, we spend the week running after it.",
+      "sourceGuideMeaning": "Trying unsuccessfully to catch up with time; a figurative image of pursuit.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2159,
+      "sourceId": "book10-16-0048",
+      "phrase": "sharpen your day",
+      "sourceExample": "A clear plan can sharpen your day.",
+      "sourceGuideMeaning": "Make a day's activities more focused and effective; sharpen is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "“Sharpen your day” is less conventional than sharpen focus or sharpen your thinking; hold for a natural target.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2160,
+      "sourceId": "book10-16-0049",
+      "phrase": "scatter it",
+      "sourceExample": "Your carefully planned day can fall apart when constant alerts scatter it.",
+      "sourceGuideMeaning": "Break focus into unrelated pieces; a physical verb describes attention figuratively.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2164,
+      "sourceId": "book10-16-0053",
+      "phrase": "excellent servants",
+      "sourceExample": "Phones can be excellent servants during a busy workday.",
+      "sourceGuideMeaning": "Useful tools when kept under human control; a personification that contrasts with masters in context.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2165,
+      "sourceId": "book10-16-0054",
+      "phrase": "set off half-blind",
+      "sourceExample": "Without a map, we would set off half-blind.",
+      "sourceGuideMeaning": "Begin a journey with too little information; a figurative description of poor preparation.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl"
+    },
+    {
+      "ordinal": 2172,
+      "sourceId": "book10-16-0061",
+      "phrase": "until the last minute",
+      "sourceExample": "Please do not wait until the last minute to submit the form.",
+      "sourceGuideMeaning": "Until very near the deadline; a conventional time phrase.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2175,
+      "sourceId": "book10-16-0064",
+      "phrase": "hold the day together",
+      "sourceExample": "A written plan helped hold the day together.",
+      "sourceGuideMeaning": "Keep daily activities organised and manageable; an image of physical cohesion.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2177,
+      "sourceId": "book10-16-0066",
+      "phrase": "walk out of the door too late",
+      "sourceExample": "If you walk out of the door too late, no app can fix the delay.",
+      "sourceGuideMeaning": "Leave home after the time needed to be punctual; a natural spoken sequence.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2179,
+      "sourceId": "book10-16-0068",
+      "phrase": "pulled in too many directions at once",
+      "sourceExample": "New managers can feel pulled in too many directions at once.",
+      "sourceGuideMeaning": "Pressed by several competing demands; a physical pulling image describes divided attention.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2181,
+      "sourceId": "book10-16-0070",
+      "phrase": "chopped into pieces",
+      "sourceExample": "Constant interruptions leave my study time chopped into pieces.",
+      "sourceGuideMeaning": "Broken into many small fragments; a physical cutting image describes lost concentration.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2182,
+      "sourceId": "book10-16-0071",
+      "phrase": "on paper",
+      "sourceExample": "The schedule looks simple on paper.",
+      "sourceGuideMeaning": "In theory or in a written plan, before practical difficulties appear; a conventional contrast.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2184,
+      "sourceId": "book10-16-0073",
+      "phrase": "eat into the day",
+      "sourceExample": "Unexpected calls can eat into the day.",
+      "sourceGuideMeaning": "Consume part of the available time; eating is a figurative verb for gradual loss.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2188,
+      "sourceId": "book10-16-0077",
+      "phrase": "draws a line around their time",
+      "sourceExample": "A freelancer who draws a line around their time can protect evenings for family.",
+      "sourceGuideMeaning": "Sets a firm boundary on when time is available; drawing a line is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2191,
+      "sourceId": "book10-16-0080",
+      "phrase": "run away with you",
+      "sourceExample": "Without a timer, the afternoon can run away with you.",
+      "sourceGuideMeaning": "Become difficult to control, especially time or emotion; a conventional figurative phrase.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2193,
+      "sourceId": "book10-16-0082",
+      "phrase": "hold their rhythm",
+      "sourceExample": "Daily practice helped the runners hold their rhythm.",
+      "sourceGuideMeaning": "Maintain a stable pace or routine; rhythm is used beyond music.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2194,
+      "sourceId": "book10-16-0083",
+      "phrase": "fast-moving current",
+      "sourceExample": "A fast-moving current of new demands shaped the team's week.",
+      "sourceGuideMeaning": "A rapidly changing force that is hard to resist; the water image describes modern life.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2207,
+      "sourceId": "book10-16-0096",
+      "phrase": "opening a window in a stuffy room",
+      "sourceExample": "The holiday felt like opening a window in a stuffy room.",
+      "sourceGuideMeaning": "Creating relief and freshness in an oppressive situation; an extended comparison.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2210,
+      "sourceId": "book10-16-0099",
+      "phrase": "lean into",
+      "sourceExample": "The festival decided to lean into its local character.",
+      "sourceGuideMeaning": "Accept or emphasise a quality or situation rather than resist it; a contemporary phrasal verb.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2214,
+      "sourceId": "book10-16-0103",
+      "phrase": "juggling work",
+      "sourceExample": "Juggling work and family duties left him exhausted.",
+      "sourceGuideMeaning": "Handling several demands at the same time; juggling is figurative here.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2215,
+      "sourceId": "book10-16-0104",
+      "phrase": "oxygen for the mind",
+      "sourceExample": "Quiet reading can be oxygen for the mind after a difficult week.",
+      "sourceGuideMeaning": "Something essential for mental refreshment; oxygen is a vivid figurative comparison.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2220,
+      "sourceId": "book10-16-0109",
+      "phrase": "swallowed whole by routine",
+      "sourceExample": "Without a break, people can feel swallowed whole by routine.",
+      "sourceGuideMeaning": "Overwhelmed completely by repeated daily demands; a vivid consumption metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2221,
+      "sourceId": "book10-16-0110",
+      "phrase": "all work and no breathing space",
+      "sourceExample": "All work and no breathing space left the staff drained.",
+      "sourceGuideMeaning": "A life dominated by duties without relief; a familiar all-work pattern with a figurative space image.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2222,
+      "sourceId": "book10-16-0111",
+      "phrase": "strengthen bonds",
+      "sourceExample": "Shared meals can strengthen bonds across generations.",
+      "sourceGuideMeaning": "Deepen relationships between people; a natural collocation with bonds used figuratively.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2227,
+      "sourceId": "book10-16-0116",
+      "phrase": "drawn to",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl"
+    },
+    {
+      "ordinal": 2233,
+      "sourceId": "book10-16-0122",
+      "phrase": "drawn to",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2234,
+      "sourceId": "book10-16-0123",
+      "phrase": "a ripple in water",
+      "sourceExample": "One kind gesture created a ripple in water across the team.",
+      "sourceGuideMeaning": "An effect spreading from a small starting point; a water image.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "“A ripple in water across the team” blends literal water and social effect awkwardly; prefer a reviewed ripple-effect form.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2238,
+      "sourceId": "book10-16-0127",
+      "phrase": "at the tap of a screen",
+      "sourceExample": "A timetable is available at the tap of a screen.",
+      "sourceGuideMeaning": "With a simple touch on a device; a fixed modern convenience phrase.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2244,
+      "sourceId": "book10-16-0133",
+      "phrase": "the melody is the same even if the instruments are different",
+      "sourceExample": "In the new edition, the melody is the same even if the instruments are different.",
+      "sourceGuideMeaning": "The underlying purpose stays constant while its form changes; an extended musical metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2247,
+      "sourceId": "book10-16-0136",
+      "phrase": "split in two directions",
+      "sourceExample": "The market may split in two directions over the next decade.",
+      "sourceGuideMeaning": "Develop along two different paths; a spatial image describes divergent trends.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2254,
+      "sourceId": "book10-16-0143",
+      "phrase": "drawn to",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2256,
+      "sourceId": "book10-16-0145",
+      "phrase": "a pocket of peace",
+      "sourceExample": "The garden offered a pocket of peace near the busy road.",
+      "sourceGuideMeaning": "A small interval or place of calm amid pressure; pocket is a spatial metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2259,
+      "sourceId": "book10-16-0148",
+      "phrase": "fresh air for the mind",
+      "sourceExample": "A good conversation can feel like fresh air for the mind.",
+      "sourceGuideMeaning": "Mental relief and renewal; fresh air is used figuratively.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2262,
+      "sourceId": "book10-16-0151",
+      "phrase": "come back to themselves",
+      "sourceExample": "After the break, the performers began to come back to themselves.",
+      "sourceGuideMeaning": "Recover their usual sense of balance or identity; a natural reflective phrase.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2263,
+      "sourceId": "book10-16-0152",
+      "phrase": "bring ideas to life",
+      "sourceExample": "The model helped bring ideas to life for the class.",
+      "sourceGuideMeaning": "Make abstract ideas vivid and understandable; a fixed figurative pattern.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2267,
+      "sourceId": "book10-16-0156",
+      "phrase": "come away with",
+      "sourceExample": "Visitors often come away with a new respect for the place.",
+      "sourceGuideMeaning": "Leave an experience having gained an impression or idea; a useful phrasal verb.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2277,
+      "sourceId": "book10-16-0166",
+      "phrase": "spark curiosity",
+      "sourceExample": "A museum visit can spark curiosity about local history.",
+      "sourceGuideMeaning": "Cause interest to begin; spark is a figurative ignition image.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl"
+    },
+    {
+      "ordinal": 2299,
+      "sourceId": "book10-16-0188",
+      "phrase": "bring that reality to life",
+      "sourceExample": "The photographs bring that reality to life for readers.",
+      "sourceGuideMeaning": "Make a real situation vivid and immediate; a fixed figurative pattern.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2300,
+      "sourceId": "book10-16-0189",
+      "phrase": "drawn into a story",
+      "sourceExample": "The audience felt drawn into a story about ordinary neighbours.",
+      "sourceGuideMeaning": "Absorbed by a narrative; drawn suggests physical movement figuratively.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2302,
+      "sourceId": "book10-16-0191",
+      "phrase": "cut away",
+      "sourceExample": "The editor chose to cut away the long introduction.",
+      "sourceGuideMeaning": "Remove an unnecessary section during editing; a useful phrasal verb.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2303,
+      "sourceId": "book10-16-0192",
+      "phrase": "unfold in a clear and purposeful order",
+      "sourceExample": "The evidence began to unfold in a clear and purposeful order.",
+      "sourceGuideMeaning": "Develop step by step in an orderly sequence; unfold is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2305,
+      "sourceId": "book10-16-0194",
+      "phrase": "life rarely comes with a script",
+      "sourceExample": "Life rarely comes with a script, so we must adapt.",
+      "sourceGuideMeaning": "Real events do not follow a neat predetermined plot; a stage metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2312,
+      "sourceId": "book10-16-0201",
+      "phrase": "heighten life",
+      "sourceExample": "The bright colours heighten life in the scene.",
+      "sourceGuideMeaning": "Make ordinary experience appear more intense; heighten is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2316,
+      "sourceId": "book10-16-0205",
+      "phrase": "not the territory itself",
+      "sourceExample": "A chart is useful, but it is not the territory itself.",
+      "sourceGuideMeaning": "Only a representation, not the full reality; part of the map-territory metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2321,
+      "sourceId": "book10-16-0210",
+      "phrase": "distilling it",
+      "sourceExample": "The short essay succeeded by distilling it into one clear idea.",
+      "sourceGuideMeaning": "Reducing complex material to its essential parts; distilling is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2322,
+      "sourceId": "book10-16-0211",
+      "phrase": "paint it in black and white",
+      "sourceExample": "We should not paint it in black and white when both plans have merits.",
+      "sourceGuideMeaning": "Present a complex matter as two simple opposites; a fixed colour metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2323,
+      "sourceId": "book10-16-0212",
+      "phrase": "drawn to pace",
+      "sourceExample": "Some viewers are drawn to pace more than elaborate dialogue.",
+      "sourceGuideMeaning": "Attracted by the speed of a story; a natural passive construction.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2328,
+      "sourceId": "book10-16-0217",
+      "phrase": "the gap is probably smaller than stereotypes suggest",
+      "sourceExample": "The gap is probably smaller than stereotypes suggest once we compare real choices.",
+      "sourceGuideMeaning": "Qualified comparison that resists an overgeneralisation; a useful precise spoken pattern.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2331,
+      "sourceId": "book10-16-0220",
+      "phrase": "understated but powerful screen presence",
+      "sourceExample": "She has an understated but powerful screen presence.",
+      "sourceGuideMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2341,
+      "sourceId": "book10-16-0230",
+      "phrase": "inhabits it",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "sourceGuideMeaning": "Plays a role with complete conviction; inhabit is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "The source itself supplies a clear antecedent: “the part” precedes “he inhabits it.” Inhabit a part/role is a natural figurative acting verb. Re-lemma the teaching unit and assess as a possible new owner rather than treating the pronoun as inexplicable.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2343,
+      "sourceId": "book10-16-0232",
+      "phrase": "the performance usually does the talking",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "sourceGuideMeaning": "The acting itself provides the strongest evidence; a conventional personification.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“The performance ... does the talking” naturally instantiates the reusable do the talking pattern: the work provides evidence without self-promotion. The entire sentence is not a good immutable target; isolate and review the pattern.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2347,
+      "sourceId": "book10-16-0236",
+      "phrase": "drawn to",
+      "sourceExample": "Many visitors are drawn to the quiet garden.",
+      "sourceGuideMeaning": "Attracted toward something; a natural passive collocation.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2349,
+      "sourceId": "book10-16-0238",
+      "phrase": "all fireworks and not much substance",
+      "sourceExample": "The speech was all fireworks and not much substance.",
+      "sourceGuideMeaning": "Exciting in appearance but shallow in content; fireworks is a figurative spectacle.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl"
+    },
+    {
+      "ordinal": 2354,
+      "sourceId": "book10-16-0243",
+      "phrase": "earns its stripes",
+      "sourceExample": "The young coach earns its stripes by handling a difficult season.",
+      "sourceGuideMeaning": "Proves its quality or worth through performance; a fixed rank metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "Human coach plus “its stripes” has a pronoun mismatch; correct to their/his/her stripes only after source verification.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2355,
+      "sourceId": "book10-16-0244",
+      "phrase": "the same film lands differently",
+      "sourceExample": "The same film lands differently when people bring different memories to it.",
+      "sourceGuideMeaning": "One film affects different viewers in different ways; lands is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "clear_false_hold",
+      "reviewNote": "Live canonical 135 teaches land as audience reception/communicative effect, and its \\bland(?:s|ed|ing)? pattern matches “lands” in this exact source. Film reception across viewers is that same sense; the hold rationale overlooked both owner and detector. Proposed existing alias is appropriate for editorial confirmation.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2356,
+      "sourceId": "book10-16-0245",
+      "phrase": "speak different emotional languages",
+      "sourceExample": "The story can speak different emotional languages to children and parents.",
+      "sourceGuideMeaning": "Connect with different groups through different feelings; language is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2363,
+      "sourceId": "book10-16-0252",
+      "phrase": "leave a lasting mark",
+      "sourceExample": "Good teachers leave a lasting mark on students.",
+      "sourceGuideMeaning": "Have an enduring influence or effect; a fixed physical-mark metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2367,
+      "sourceId": "book10-16-0256",
+      "phrase": "understated but powerful screen presence",
+      "sourceExample": "She has an understated but powerful screen presence.",
+      "sourceGuideMeaning": "A quietly compelling appearance on film; a natural critical phrase.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2377,
+      "sourceId": "book10-16-0266",
+      "phrase": "inhabits it",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "sourceGuideMeaning": "Plays a role with complete conviction; inhabit is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "Exact repeat of 2341; it should follow the same reviewed inhabit-a-part/role decision, with its own source provenance.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2379,
+      "sourceId": "book10-16-0268",
+      "phrase": "the performance usually does the talking",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "sourceGuideMeaning": "The acting itself provides the strongest evidence; a conventional personification.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "Exact repeat of 2343; it should follow one reviewed do-the-talking owner, not a separate lesson.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2387,
+      "sourceId": "book10-16-0276",
+      "phrase": "leave a lasting mark",
+      "sourceExample": "Good teachers leave a lasting mark on students.",
+      "sourceGuideMeaning": "Have an enduring influence or effect; a fixed physical-mark metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2392,
+      "sourceId": "book10-16-0281",
+      "phrase": "hide clues in plain sight",
+      "sourceExample": "The writer likes to hide clues in plain sight.",
+      "sourceGuideMeaning": "Place clues openly where they are still overlooked; a conventional paradoxical phrase.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2393,
+      "sourceId": "book10-16-0282",
+      "phrase": "make it bloom much later",
+      "sourceExample": "The writer can introduce a minor theme and make it bloom much later.",
+      "sourceGuideMeaning": "Allow an early detail to become significant later; a growth metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2396,
+      "sourceId": "book10-16-0285",
+      "phrase": "slow-burn tension",
+      "sourceExample": "The play relies on slow-burn tension rather than shocks.",
+      "sourceGuideMeaning": "Suspense that builds gradually; a conventional fire metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2398,
+      "sourceId": "book10-16-0287",
+      "phrase": "lets the mystery breathe",
+      "sourceExample": "The longer format lets the mystery breathe.",
+      "sourceGuideMeaning": "Allows a mystery enough space and time to develop; breathing is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2401,
+      "sourceId": "book10-16-0290",
+      "phrase": "tighten the screws",
+      "sourceExample": "The director used silence to tighten the screws.",
+      "sourceGuideMeaning": "Increase pressure or tension; a fixed mechanical metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "Tighten the screws is a conventional pressure idiom. Source “The director used silence to tighten the screws” plausibly extends pressure to the audience or characters, but that object is implicit; request one context check before treating this as an eligible figurative sense.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2405,
+      "sourceId": "book10-16-0294",
+      "phrase": "a shadow moving just behind your shoulder",
+      "sourceExample": "The music suggests a shadow moving just behind your shoulder.",
+      "sourceGuideMeaning": "A near, unseen threat; a vivid figurative image.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2406,
+      "sourceId": "book10-16-0295",
+      "phrase": "the tension snap",
+      "sourceExample": "The sudden reveal made the tension snap.",
+      "sourceGuideMeaning": "A build-up of pressure breaking suddenly; a physical metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2407,
+      "sourceId": "book10-16-0296",
+      "phrase": "at once",
+      "sourceExample": "The lights went out at once during the storm.",
+      "sourceGuideMeaning": "Suddenly, in one moment; a fixed time expression.",
+      "currentAction": "hold-editorial",
+      "status": "sense_ambiguity_hold",
+      "reviewNote": "“The lights went out at once” allows immediate and simultaneous readings. Existing owner 048 should not absorb it until source sense is chosen.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2408,
+      "sourceId": "book10-16-0297",
+      "phrase": "a jolt of electricity",
+      "sourceExample": "The final clue gave the audience a jolt of electricity.",
+      "sourceGuideMeaning": "A sudden intense shock or excitement; an electrical image.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2409,
+      "sourceId": "book10-16-0298",
+      "phrase": "suspense in my bones",
+      "sourceExample": "I could feel the suspense in my bones during the final scene.",
+      "sourceGuideMeaning": "Suspense felt physically and intensely; an embodied expression.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl"
+    },
+    {
+      "ordinal": 2413,
+      "sourceId": "book10-16-0302",
+      "phrase": "back-and-forth",
+      "sourceExample": "The back-and-forth between suspects kept the trial tense.",
+      "sourceGuideMeaning": "Repeated movement between positions or guesses; a conventional compound.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2418,
+      "sourceId": "book10-16-0307",
+      "phrase": "untangles the lies",
+      "sourceExample": "The investigator slowly untangles the lies.",
+      "sourceGuideMeaning": "Separates and clarifies complicated falsehoods; a knot metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“The investigator slowly untangles the lies” is natural as a figurative investigative action. The absence of “web of” does not itself invalidate it; check lexicographic scope, then consider a separate or broad untangle owner.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2422,
+      "sourceId": "book10-16-0311",
+      "phrase": "eat up the whole day",
+      "sourceExample": "The repairs could eat up the whole day.",
+      "sourceGuideMeaning": "Consume all available time; a natural figurative phrasal verb.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2423,
+      "sourceId": "book10-16-0312",
+      "phrase": "take the heavy lifting out of",
+      "sourceExample": "The new system will take the heavy lifting out of routine checks.",
+      "sourceGuideMeaning": "Remove the most difficult work from a task; a fixed effort metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“Take the heavy lifting out of routine checks” is a natural productive pattern meaning remove difficult work. Existing 1376 has a different argument structure. A new target or reviewed broader heavy-lifting owner is a viable curation path.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2425,
+      "sourceId": "book10-16-0314",
+      "phrase": "cut down the time",
+      "sourceExample": "The shortcut helped cut down the time needed for review.",
+      "sourceGuideMeaning": "Reduce the amount of time required; a natural phrasal verb.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“Cut down the time needed for review” is fluent transitive reduce-time usage. Existing cut down on lesson does not own this exact grammatical construction; evaluate a separate cut-down-time target rather than indefinitely holding a clear source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2426,
+      "sourceId": "book10-16-0315",
+      "phrase": "backbone of modern home life",
+      "sourceExample": "Reliable appliances form the backbone of modern home life.",
+      "sourceGuideMeaning": "An essential support for daily domestic routines; a body metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2430,
+      "sourceId": "book10-16-0319",
+      "phrase": "fast-paced",
+      "sourceExample": "She enjoys the fast-paced atmosphere of the newsroom.",
+      "sourceGuideMeaning": "Moving or changing quickly; a compact natural adjective for a demanding environment.",
+      "currentAction": "hold-editorial",
+      "status": "clear_false_hold",
+      "reviewNote": "Exact phrase, source sentence and guide meaning are identical to source ordinal 2113, already marked proposed-new-lesson for the general adjective. This is a repeated occurrence of that provisional owner, not an unresolved fast-paced-video variant.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2435,
+      "sourceId": "book10-16-0324",
+      "phrase": "never-ending chore",
+      "sourceExample": "Sorting receipts became a never-ending chore.",
+      "sourceGuideMeaning": "A repetitive task that seems not to finish; a strong natural collocation.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“Sorting receipts became a never-ending chore” is a natural reusable collocation, and SOP P79 explicitly permits Natural English collocations; transparent meaning alone is not an exclusion criterion. Compare nearby simple-collocation intake standard.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2436,
+      "sourceId": "book10-16-0325",
+      "phrase": "take a lot of that weight off people's shoulders",
+      "sourceExample": "The extra staff take a lot of that weight off people's shoulders.",
+      "sourceGuideMeaning": "Reduce a major burden on people; a fixed weight metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2437,
+      "sourceId": "book10-16-0326",
+      "phrase": "buried under chores",
+      "sourceExample": "By Sunday evening, she felt buried under chores.",
+      "sourceGuideMeaning": "Overwhelmed by household tasks; a physical covering image.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2440,
+      "sourceId": "book10-16-0329",
+      "phrase": "at the push of a button",
+      "sourceExample": "The blinds open at the push of a button.",
+      "sourceGuideMeaning": "With almost no effort through a simple control; a fixed convenience phrase.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2445,
+      "sourceId": "book10-16-0334",
+      "phrase": "convenience comes at a price",
+      "sourceExample": "Delivery is fast, but convenience comes at a price.",
+      "sourceGuideMeaning": "A benefit has a cost or drawback; a conventional evaluative phrase.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2447,
+      "sourceId": "book10-16-0336",
+      "phrase": "woven into everyday living",
+      "sourceExample": "Digital payments are woven into everyday living in the city.",
+      "sourceGuideMeaning": "Closely integrated into daily routines; a fabric metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2448,
+      "sourceId": "book10-16-0337",
+      "phrase": "run the background of it",
+      "sourceExample": "Smart systems may run the background of it while residents work.",
+      "sourceGuideMeaning": "Operate the less visible functions of a home; a computing metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "“Run the background of it” has no clear referent and is not a natural English software collocation; hold for source repair.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2450,
+      "sourceId": "book10-16-0339",
+      "phrase": "every bell and whistle",
+      "sourceExample": "The basic model works well without every bell and whistle.",
+      "sourceGuideMeaning": "Every possible extra feature; a conventional idiom about elaborate equipment.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2454,
+      "sourceId": "book10-16-0343",
+      "phrase": "digital crutch",
+      "sourceExample": "The app became a digital crutch for routine decisions.",
+      "sourceGuideMeaning": "A tool relied on so heavily that independent ability weakens; a support metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2455,
+      "sourceId": "book10-16-0344",
+      "phrase": "convenience has started to replace capability",
+      "sourceExample": "In some offices, convenience has started to replace capability.",
+      "sourceGuideMeaning": "A concise contrast between ease and retained skill; useful for qualified criticism.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2461,
+      "sourceId": "book10-16-0350",
+      "phrase": "playground or a puzzle to crack",
+      "sourceExample": "To her, the new software was a playground or a puzzle to crack.",
+      "sourceGuideMeaning": "A space for experimentation or a challenge to solve; two images frame technology.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2464,
+      "sourceId": "book10-16-0353",
+      "phrase": "absorbed over time",
+      "sourceExample": "The habits were absorbed over time at school.",
+      "sourceGuideMeaning": "Taken in gradually through experience; absorbed is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2467,
+      "sourceId": "book10-16-0356",
+      "phrase": "fall apart under closer inspection",
+      "sourceExample": "The argument began to fall apart under closer inspection.",
+      "sourceGuideMeaning": "Prove weak when examined carefully; a conventional structural metaphor.",
+      "currentAction": "hold-editorial",
+      "status": "missed_teachable_candidate",
+      "reviewNote": "“The argument began to fall apart under closer inspection” is a conventional figurative failure-under-scrutiny frame, materially different from physical or general system failure. Assess as a distinct sense/owner or broad fall-apart lesson.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2468,
+      "sourceId": "book10-16-0357",
+      "phrase": "a toolbox to one person, a canvas to another",
+      "sourceExample": "The tablet can be a toolbox to one person, a canvas to another.",
+      "sourceGuideMeaning": "The same tool serves practical and creative purposes for different people; paired object metaphors.",
+      "currentAction": "hold-editorial",
+      "status": "hold_supported_provisionally",
+      "reviewNote": "The exact source requires idiomaticity, source-wording, referent, or unit-of-teaching repair before a defensible seven-step lesson can be authored.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    },
+    {
+      "ordinal": 2469,
+      "sourceId": "book10-16-0358",
+      "phrase": "a lifeline",
+      "sourceExample": "A basic phone can be a lifeline during an emergency.",
+      "sourceGuideMeaning": "A vital source of help or contact; the rescue-line image is figurative.",
+      "currentAction": "hold-editorial",
+      "status": "coverage_or_owner_expansion_hold",
+      "reviewNote": "The exact source form is potentially teachable, but the cited prior owner does not yet certify this grammar/object/meaning. Keep held until a reviewed owner and detector cover the complete source.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl"
+    }
+  ],
+  "conclusion": "The two clear false holds and ten teachable candidates should be adjudicated before final intake. The remaining 83 occurrences are correctly withheld pending owner-pattern expansion, source repair, or sense review; “held” is not a permanent rejection. Human English/editorial approval remains open."
+}

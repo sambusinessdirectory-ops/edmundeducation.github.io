@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+  "fileSha256": "c9b1400d880a8278f9efcdf95135b9133998db7f2870a35968cf38a2fc2a39b7",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4322,
+      "severity": "minor",
+      "path": "source example; action; reason",
+      "explanation": "“Friends can sort out the same plan in a few messages” is unnatural: the same plan has no established pair of differing plans to reconcile, and “sort out a/the plan” or “make a plan together” would be more idiomatic. The phrasal verb is valid, but the preserved source is a weak model.",
+      "recommendedFix": "Retain exact source provenance but require a natural guide-written model with a grounded plan/problem, and record the source wording issue before drafting."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions to exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match the complete source sentence under the named owner regex.",
+    "Previously held scope mismatches remain held and no new owner changes were made."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Draft quality and target pattern design remain future checks."
+  ]
+}

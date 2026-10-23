@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+  "fileSha256": "ef390f13fcfe56b626abcc69804837afeb3053afeb7ab1584b6c1104b76a08e1",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 1
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4456,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Products rooted in the place” teaches connection to a particular place and identity, the same cultural-rootedness outcome as canonical 1620 “feel rooted rather than generic”. The current canonical detector is unusually narrow, but that alone does not justify a new owner.",
+      "recommendedFix": "Hold pending canonical 1620 scope/pattern review, or document a distinct product-location construction with separate learner outcome before drafting."
+    },
+    {
+      "sourceOrdinal": 4470,
+      "severity": "minor",
+      "path": "action; reason",
+      "explanation": "“Keep its roots” presents retaining cultural origins. Earlier canonicals 1465 rooted in tradition, 1481 part of a child’s roots, and 1858 strong roots already teach cultural origins/belonging. The decision offers no comparison of preservation action versus rooted state.",
+      "recommendedFix": "Compare these root-image owners explicitly and define the distinct keep-one’s-roots action/grammar, or hold for owner-scope review."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source sentence under their named owner detector.",
+    "Conservative holds for uncertain metaphor boundaries remain unchanged."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Future lesson model and target pattern verification remain separate."
+  ]
+}

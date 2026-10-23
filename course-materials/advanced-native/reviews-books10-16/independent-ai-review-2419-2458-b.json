@@ -1,0 +1,58 @@
+{
+  "reviewId": "independent-ai-review-2419-2458-b",
+  "reviewedLessonIds": ["advanced-native-2419", "advanced-native-2428", "advanced-native-2438", "advanced-native-2443", "advanced-native-2449", "advanced-native-2452", "advanced-native-2457", "advanced-native-2458"],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json": "ab6d9098fddc76fb27576efccb44b8451a807831e48869388763a4322ea01fdd",
+    "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json": "ab07807e6ed69489c9558407b44a793908711df03e13ad52e724fd5e5acd2f8a"
+  },
+  "scope": "Independent AI content review of Author A's eight unselected drafts against the Golden SOP; no human, audio-listening, device, live or publication sign-off.",
+  "structuralChecks": {
+    "sourceProvenance": "All eight source occurrence IDs, source sentences and expressions match the source inventory exactly.",
+    "lessonContract": "Fresh build and --check pass: 8 lessons, 48 assessed questions, 32 audio requests and zero structural review flags. Each lesson has the required ordered content for seven steps, six assessed questions, four reply choices, two writing examples and five glossary rows.",
+    "targetAndGlossary": "Every listening, speaking and writing example contains an approved target form. Exactly one reply choice per lesson contains the target, and it is the recorded golden choice. All 40 glossary rows are exact answer-derived spans without target leakage; speaking target spans match the detector.",
+    "limitation": "Mechanical checks do not establish that every reply independently answers the prompt or that scenarios are believable."
+  },
+  "findings": [
+    {
+      "id": "R2438-01", "lessonId": "advanced-native-2438", "severity": "major", "surface": "reply.promptEn-and-options.a/b/d",
+      "evidence": "The question asks how books were sorted faster 'without missing any titles'. Option a says only that a shared list prevented duplicate entries; b groups by subject before checking titles; d routes boxes by labels and checks shelves.",
+      "problem": "These methods may help but do not each independently establish both faster sorting and complete title coverage. Avoiding duplicates in a list, for example, does not show that every donated title was entered. The four-valid-response contract is not fully supported.",
+      "repair": "Either relax the question to ask for useful efficiency methods, or make each answer explicitly show a speed improvement plus a check of all titles. Preserve four natural valid replies and exactly one target-bearing golden reply."
+    },
+    {
+      "id": "R2457-01", "lessonId": "advanced-native-2457", "severity": "major", "surface": "listening.en/zh-and-scene.promptZh",
+      "evidence": "The listening planner automatically cancels Noor's family plans; the scene's medication reminder app independently cancels an older person's visits without asking.",
+      "problem": "Those capabilities are not established for the ordinary apps described, so two central scenarios rely on implausible automation rather than the real boundary between assistance and human control. At scale, this teaches a contrived version of the maxim.",
+      "repair": "Use a believable mechanism: the app repeatedly recommends a conflicting schedule, automatically blocks a calendar slot only after an enabled setting, or the user starts obeying its suggestions over personal plans. Retain evidence that the tool is helpful as well as over-controlling."
+    },
+    {
+      "id": "R2457-2458-01", "lessonId": "advanced-native-2457", "relatedLessonId": "advanced-native-2458", "severity": "major", "surface": "cross-lesson listening/scene/writing originality",
+      "evidence": "Lesson 2457 repeatedly uses planning or reminder apps overriding family plans, medicine reminders and dinner-time study notifications. Adjacent lesson 2458 uses a fitness tracker overriding family visits and a music-practice app interrupting family dinner.",
+      "problem": "The two expressions have different intended emphases—2457 weighs a tool's useful assistance against letting it become master; 2458 describes domination of daily choices—but the scenario set recycles the same notification-versus-family motif, making the distinction harder to learn and reducing variety across a scalable course.",
+      "repair": "Keep 2458's everyday-routine examples, and move at least 2457's listening and writing to another believable domain such as navigation, budgeting or automated study recommendations. Explicitly contrast useful guidance with relinquishing judgment. Revalidate all changed translations, target spans, glossary source spans and audio texts."
+    },
+    {
+      "id": "R2428-01", "lessonId": "advanced-native-2428", "severity": "minor", "surface": "listening.options.a.en/zh",
+      "evidence": "The keyed English answer says 'They began the lunch preparation that had been waiting.'",
+      "problem": "'Preparation that had been waiting' is awkward personification in an otherwise straightforward paraphrase. The Chinese translation is natural, but it does not reflect that odd English wording.",
+      "repair": "Use 'They began preparing lunch once the ingredients arrived' and update the Chinese pairing if needed."
+    },
+    {
+      "id": "R2449-01", "lessonId": "advanced-native-2449", "severity": "minor", "surface": "listening.options.b",
+      "evidence": "One distractor says the bicycle benefit is a selling point because 'It is the longest phrase in the advertisement.'",
+      "problem": "Wording length is remote from the buyer-benefit concept and easy to reject without understanding the target; it is weaker than the other tailored alternatives.",
+      "repair": "Use a plausible specification-versus-benefit error, such as treating a feature that does not matter to the stated commuter as an equally strong selling point. Keep one defensible key."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2419": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2428": "minor-English-repair",
+    "advanced-native-2438": "revise-four-valid-reply",
+    "advanced-native-2443": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2449": "minor-distractor-repair",
+    "advanced-native-2452": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2457": "revise-scenario-plausibility-and-cross-lesson-variety",
+    "advanced-native-2458": "coordinate-cross-lesson-variety-with-2457"
+  },
+  "releaseConclusion": "Do not select or publish these eight on this AI review alone. Repair the three major content findings and recheck affected English, Chinese, target, glossary and audio text; the SOP's human and device/media reviews remain pending."
+}

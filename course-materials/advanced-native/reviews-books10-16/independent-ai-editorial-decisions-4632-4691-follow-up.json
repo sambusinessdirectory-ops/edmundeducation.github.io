@@ -1,0 +1,34 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+  "fileSha256": "af420484075bfb20149de0fa2ca27b5344384376289621e0eeb0637c85dd21a5",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4643,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "The postcard version of Hong Kong expresses the same picturesque stereotype as canonical 1809 postcard view. Hold for a reviewed noun-variant expansion; the prior detector does not safely cover this source wording."
+    },
+    {
+      "sourceOrdinal": 4665,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Chip away at the place describes gradual damage, same sense as canonical 178 chip away at. Hold for exact target-pattern and object-variant review before aliasing; do not create a duplicate lesson."
+    },
+    {
+      "sourceOrdinal": 4672,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Fall completely flat for me means fail to impress, overlapping canonical 897 fall flat. Hold for a reviewed modifier/subject variant; no duplicate lesson should be authored."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows require human sense/owner review and no draft/publication approval is implied."
+  ]
+}

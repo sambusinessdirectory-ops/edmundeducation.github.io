@@ -1,0 +1,25 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+  "fileSha256": "a8ffebae285c52b790450d9d3701c42f8d6b82f340cdaa01f9b25f902da5abd3",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [],
+  "passedChecks": [
+    "Compared all 60 decisions to exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match the complete source sentence under the named owner regex; 4228 legacy black-and-white pattern requires non-Unicode fallback.",
+    "Previously held scope mismatches remain held and no new owner changes were made."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Draft quality and target pattern design remain future checks."
+  ]
+}

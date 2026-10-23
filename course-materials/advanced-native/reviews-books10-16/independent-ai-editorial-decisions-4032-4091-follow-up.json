@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+  "fileSha256": "b7018d3cb53df23ffdfa7e0e5953d4abb90f51c6e1ff180b989b208b17ddb35a",
+  "originalFindings": 4,
+  "resolvedFindings": 4,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4059,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Before their time normally relates to premature death or unexpectedly early events. The source personifies discarded chairs in an unusual way; confirm idiomatic suitability and target sense before authoring."
+    },
+    {
+      "sourceOrdinal": 4068,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach feed an appetite for X as the transferable metaphor for increasing desire. The source example lacks the usual determiner before appetite; correct the teaching model while preserving the exact source as provenance."
+    },
+    {
+      "sourceOrdinal": 4076,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "The source uses groceries as the bread and butter of daily life, but the idiom often means livelihood or a mainstay and risks a literal-food reading here. Verify intended sense and rewrite a natural model before authoring."
+    },
+    {
+      "sourceOrdinal": 4089,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Falling to pieces in emotional distress overlaps canonical 1164 fall apart in the same sense. Hold for human decision about lexical-variant coverage; do not create a duplicate lesson or force an uncovered regex alias."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only listed decision findings; human sense approval and draft QA remain pending.",
+    "Held rows must not be authored as new lessons without owner/sense adjudication."
+  ]
+}

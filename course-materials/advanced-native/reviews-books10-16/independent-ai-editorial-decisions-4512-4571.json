@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+  "fileSha256": "c4d2b34292da6fa6e8579f9cd8c2a1bbf45a7c18aba7bf0ab1063c3b2efb8109",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4517,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Transport has had to keep pace” means adapt quickly enough to match growing cities, the same pace-matching outcome as canonical 590 “keep pace with demand”. The source simply omits the explicit with-demand complement; a second owner would duplicate the idiom.",
+      "recommendedFix": "Hold pending canonical 590 pattern expansion for elliptical keep pace, then alias-existing if sense remains aligned."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with exact source examples and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source sentence under their named owner detector.",
+    "Conservative holds for uncertain metaphor boundaries remain unchanged."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Future lesson model and target pattern verification remain separate."
+  ]
+}

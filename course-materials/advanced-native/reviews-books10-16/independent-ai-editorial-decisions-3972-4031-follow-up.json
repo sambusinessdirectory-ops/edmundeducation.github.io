@@ -1,0 +1,35 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+  "fileSha256": "4bd528e0c03c182fdb4fb1c7313f60397e5c17ee311aa790bfadf6a35e0c0066",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 3984,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach click into place for a whole solution becoming coherent or fitting together. Canonical 1203 things begin to click teaches understanding beginning to arrive; the related image is cross-referenced, but the into-place result frame is a different lexical construction pending human approval."
+    },
+    {
+      "sourceOrdinal": 3990,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Look ahead is a natural phrasal verb, but this future-move sense overlaps canonical 913 think steps ahead. Resolve whether its distinct verb construction merits a lesson or should be a related form before authoring; the current canonical detector does not cover this wording."
+    },
+    {
+      "sourceOrdinal": 4015,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach the fixed idiom fire in the belly for strong drive. The source example omits a normal possessor/article; authoring must use natural forms such as she has a fire in her belly and retain the source wording only as provenance."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only listed decision findings; human sense approval and draft QA remain pending.",
+    "Held rows must not be authored as new lessons without owner/sense adjudication."
+  ]
+}

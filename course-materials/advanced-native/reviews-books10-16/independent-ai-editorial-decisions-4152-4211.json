@@ -1,0 +1,33 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+  "fileSha256": "346ae8b8c0f618e7a4d34b8e0951c376ae215a009d38a24386a3b8d60d6cd824",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4203,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Coding was new territory for my parents” teaches an unfamiliar subject or experience, exactly canonical 563 “unfamiliar territory”. New versus unfamiliar is a modifier variant, not a distinct learner outcome.",
+      "recommendedFix": "Hold pending approved canonical 563 pattern expansion/owner decision; do not create a duplicate new-territory lesson."
+    }
+  ],
+  "passedChecks": [
+    "Compared 60 rows with exact source sentences and prior canonical meanings, including provisional owner 2123’s published draft brief.",
+    "All proposed-alias-existing rows match the complete source sentence under the named owner target regex.",
+    "Ambiguous or unsupported previous variants remain held."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions require editorial adjudication.",
+    "Future lesson models and distractor fairness were outside this decision-file scope."
+  ]
+}

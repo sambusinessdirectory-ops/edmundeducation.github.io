@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+  "fileSha256": "6dee79381434ed77d4414f63ed2f6c7a9e10325f55bffa64580de4730d6e7bad",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4581,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“The ripples have spread much more widely” teaches effects spreading from one trial, the same water metaphor and outcome as canonical 772 “ripple out/outward” and 924 “a ripple effect”. Different verb framing does not alone create a new sense.",
+      "recommendedFix": "Hold pending canonical 772/924 scope and pattern review; avoid a third ripple-effect owner without distinct outcome."
+    },
+    {
+      "sourceOrdinal": 4593,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Woven into ordinary life” means integrated into everyday habits, effectively the same teaching outcome as canonical 1503 “woven into daily routines/daily life”. The source changes the adjective but not the metaphor or meaning.",
+      "recommendedFix": "Hold for canonical 1503 approved detector expansion and route as alias-existing if aligned."
+    },
+    {
+      "sourceOrdinal": 4615,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Pulls people out of their usual bubble” means moving them beyond familiar assumptions, identical to canonical 1830 “step out of their usual bubble”. The causal transitive frame differs but the bubble-escape metaphor and learner outcome are the same.",
+      "recommendedFix": "Hold for canonical 1830 owner-scope/pattern review; do not create a duplicate bubble lesson."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with source sentences and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source under their named approved target regex.",
+    "Conservative holds for uncertain literal/figurative source forms remain held."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Future target detector updates require separate review and verification."
+  ]
+}

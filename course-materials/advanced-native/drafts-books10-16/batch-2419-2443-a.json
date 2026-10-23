@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2419-2443-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2419",
+      "number": 2419,
+      "inventoryId": "expr-2419",
+      "titleEn": "page-turners",
+      "titleZh": "令人欲罷不能的書",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bpage-turners?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A book so engaging that readers want to keep reading.",
+        "meaningZh": "情節引人入勝、令人想一直讀下去的書。",
+        "grammar": "This crime novel is a page-turner.",
+        "register": "Informal positive review for a book or story, not a description of page count or reading speed alone.",
+        "boundaryZh": "重點是故事持續吸引讀者；薄書、字大或翻頁很快並不足以稱為 page-turner。",
+        "misconceptionZh": "不要把 page-turner 只理解為要翻頁的實體書；電子書也可以。",
+        "outcomeZh": "能指出書中哪項敘事安排令讀者想繼續讀。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0308",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her crime novels are genuine page-turners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "page-turners"
+        }
+      ],
+      "listening": {
+        "en": "Lena planned to read one chapter of the mystery before bed, but each chapter ended with a fresh question. She stayed up to finish it and called the book a page-turner.",
+        "zh": "莉娜原打算睡前讀一章懸疑小說，但每章結尾都有新問題。她讀到很晚才看完，並稱這本書令人欲罷不能。",
+        "promptZh": "莉娜為何稱這本書為 page-turner？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Each new question made her eager to read the next chapter.",
+            "zh": "每個新問題都令她急於讀下一章。"
+          },
+          {
+            "id": "b",
+            "en": "The large print let her turn each page more quickly.",
+            "zh": "大字體令她較快翻頁。"
+          },
+          {
+            "id": "c",
+            "en": "The book was short enough to finish in one sitting.",
+            "zh": "這本書很短，能一次讀完。"
+          },
+          {
+            "id": "d",
+            "en": "She had to finish it for a class deadline.",
+            "zh": "她因課堂期限而必須讀完。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她因懸念而主動想繼續讀；頁數、字體與作業期限都不能單獨證明故事引人入勝。"
+      },
+      "reply": {
+        "promptEn": "Why would you recommend this mystery novel to the reading group?",
+        "promptZh": "（你為何會向讀書會推薦這本懸疑小說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Each chapter reveals a clue that changes how readers see the case.",
+            "zh": "每章都有線索，改變讀者對案件的看法。"
+          },
+          {
+            "id": "b",
+            "en": "The characters make decisions that are worth discussing together.",
+            "zh": "角色作出的決定值得大家討論。"
+          },
+          {
+            "id": "c",
+            "en": "It is a page-turner that keeps readers curious until the last chapter.",
+            "zh": "它是一本令人欲罷不能的書，令讀者直到最後一章仍充滿好奇。"
+          },
+          {
+            "id": "d",
+            "en": "Its ending gives the group several questions to debate.",
+            "zh": "它的結局給讀書會留下幾個可討論的問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理解釋推薦理由；金句直接指出小說持續吸引讀者。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a page-turner because each chapter makes readers want the next one.",
+            "zh": "這是一本令人欲罷不能的書，因為每章都令人想讀下一章。"
+          },
+          {
+            "id": "b",
+            "en": "It may be easy to finish because the chapters are short, even if the plot does not hold attention.",
+            "zh": "即使情節不吸引人，篇章短也可能令人容易讀完。"
+          },
+          {
+            "id": "c",
+            "en": "Students borrow it mainly because the cover is colourful, without discussing the story.",
+            "zh": "學生主要因封面色彩鮮艷而借書，並沒有談論故事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生因接續的危機而自願追讀，重點是持續的敘事吸引力；短篇幅或封面不足以證明。",
+        "promptZh": "一本冒險小說每章都留下新危機，學生自願借下一冊，想知道人物如何脫險。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A mystery novel reveals a new clue at the end of each chapter.",
+            "zh": "懸疑小說每章末都揭示一條新線索。"
+          },
+          {
+            "id": "b",
+            "en": "A reference manual has clear labels and is useful when a repair is needed, but readers consult only the relevant page.",
+            "zh": "參考手冊標示清楚，維修時很有用，但讀者只查閱相關頁面。"
+          },
+          {
+            "id": "c",
+            "en": "A fantasy story gives readers a reason to follow the characters into the next chapter.",
+            "zh": "奇幻故事讓讀者想跟着角色讀下一章。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "實用手冊可很有價值，但它在這裏供人按需查閱，沒有令人追着情節一直讀的特點。",
+        "promptZh": "哪本書最不適合稱為 page-turner？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds like a real page-turner; the suspense keeps drawing you on.",
+            "zh": "聽起來真是一本令人欲罷不能的書；懸念令你想繼續讀。"
+          },
+          {
+            "id": "b",
+            "en": "It may simply have few pages, so finishing it takes less time.",
+            "zh": "它可能只是頁數少，因此讀完所需時間較短。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps the illustrations are attractive, even if the chapters do not connect.",
+            "zh": "或許插圖很吸引，即使篇章之間沒有連貫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友明確說想知道下一章發展，重點是故事持續引起好奇，不只是短或圖畫好看。",
+        "promptZh": "朋友說：「我本來只想看十分鐘，卻一直想知道下一章會發生甚麼。」你怎樣回應最自然？"
+      },
+      "speaking": {
+        "en": "The novel is a page-turner because each new clue changes what we think happened.",
+        "zh": "這本小說令人欲罷不能，因為每條新線索都改變我們對事件的理解。",
+        "promptZh": "先聽示範，再說出讓讀者想繼續讀的安排。",
+        "targetSpan": {
+          "start": 15,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校圖書館的一本短篇奇幻小說，每章結尾都留下未解的問題，同學自願借閱並追問下一章。用一至兩句英文推薦這本書。",
+        "selfCheckZh": "指出每章末的未解問題，以及同學自願追讀；不要只說書薄或字大。",
+        "examples": [
+          {
+            "en": "The fantasy book is a page-turner: every chapter ends with an unanswered question, so students keep borrowing it to see what happens next.",
+            "zh": "這本奇幻書令人欲罷不能：每章都以未解問題作結，學生於是不斷借閱，想知道其後發展。"
+          },
+          {
+            "en": "Students ask for the next chapter because each ending leaves a fresh mystery; the library has a real page-turner on its shelves.",
+            "zh": "每章結尾都留下新謎團，學生便追問下一章；圖書館藏書裏有一本令人欲罷不能的書。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fantasy book",
+            "zh": "奇幻書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "an unanswered question",
+            "zh": "未解的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 81
+            }
+          },
+          {
+            "en": "what happens next",
+            "zh": "其後發展",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 137
+            }
+          },
+          {
+            "en": "a fresh mystery",
+            "zh": "新謎團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 76
+            }
+          },
+          {
+            "en": "on its shelves",
+            "zh": "在書架上",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "That detective story is a page-turner from its first clue to its final answer.",
+          "zh": "那本偵探故事從首條線索到最後答案都令人欲罷不能。"
+        },
+        {
+          "en": "A page-turner gives readers a reason to keep reading, not merely a quick page count.",
+          "zh": "令人欲罷不能的書有讓讀者繼續讀的理由，不只是頁數少。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2428",
+      "number": 2428,
+      "inventoryId": "expr-2428",
+      "titleEn": "get on with the job",
+      "titleZh": "繼續把工作做好",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) on with (?:the|a|our|my|his|her|their) job\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Start or continue necessary work instead of delaying it.",
+        "meaningZh": "不再拖延，着手或繼續完成眼前該做的工作。",
+        "grammar": "We can get on with the job while they set up the room.",
+        "register": "Practical everyday phrase, often after a delay or distraction; the job must be identifiable.",
+        "boundaryZh": "可在準備妥當後開始，也可在受阻後繼續；不表示工作已經完成或做得倉卒。",
+        "misconceptionZh": "不要把 get on with 混成與某人相處融洽；這裏的 with the job 指眼前工作。",
+        "outcomeZh": "能說明甚麼阻礙已解除，以及接下來可做哪項具體工作。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0317",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 29,
+          "book": 10,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The cleaner can get on with the job while we prepare dinner.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get on with the job"
+        }
+      ],
+      "listening": {
+        "en": "The community kitchen had waited for its food delivery all morning. Once the ingredients arrived, the cooks got on with the job of preparing lunch for the residents.",
+        "zh": "社區食堂整個上午等候食材送到。材料一到，廚師便着手為居民準備午餐。",
+        "promptZh": "食材到達後，廚師怎樣 got on with the job？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They began preparing lunch once the ingredients arrived.",
+            "zh": "食材一到，他們便開始準備午餐。"
+          },
+          {
+            "id": "b",
+            "en": "They reported that every meal was already finished.",
+            "zh": "他們說所有餐點早已完成。"
+          },
+          {
+            "id": "c",
+            "en": "They continued discussing the delivery instead of cooking.",
+            "zh": "他們繼續討論送貨，沒有開始煮食。"
+          },
+          {
+            "id": "d",
+            "en": "They changed the menu but left the ingredients untouched.",
+            "zh": "他們改了菜單，卻沒有使用已到的食材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "食材到達解除等待，廚師隨即開始必要工作；get on with the job 不等於已完成。"
+      },
+      "reply": {
+        "promptEn": "What did the volunteers do once the garden tools arrived?",
+        "promptZh": "（園藝工具送到後，義工做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They began clearing the path they had planned to repair.",
+            "zh": "他們開始清理原定修整的小徑。"
+          },
+          {
+            "id": "b",
+            "en": "They divided the weeding work and started at the flower beds.",
+            "zh": "他們分配除草工作，從花圃開始。"
+          },
+          {
+            "id": "c",
+            "en": "They got on with the job of preparing the new planting area.",
+            "zh": "他們着手準備新的種植區。"
+          },
+          {
+            "id": "d",
+            "en": "They used the tools to turn the soil for the seedlings.",
+            "zh": "他們用工具為幼苗翻土。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回答工具到達後義工實際做了甚麼；金句概括不再拖延地着手工作。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The host got on with the job of leading the workshop.",
+            "zh": "主持人着手帶領工作坊。"
+          },
+          {
+            "id": "b",
+            "en": "The host marked the workshop complete before the exercises began.",
+            "zh": "練習尚未開始，主持人已把工作坊標成完成。"
+          },
+          {
+            "id": "c",
+            "en": "The host kept revising the plan although everyone was ready.",
+            "zh": "大家已準備好，主持人卻繼續修改計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "條件已齊，主持人開始原定工作；並非提前宣告完成或繼續拖延。",
+        "promptZh": "工作坊的桌椅已準備好，參加者也已到齊；主持人停止閒談，開始按計劃帶領練習。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The repairer starts fixing the door as soon as the part arrives.",
+            "zh": "零件一到，維修員便開始修門。"
+          },
+          {
+            "id": "b",
+            "en": "The team spends the whole afternoon debating whose task it is and makes no start.",
+            "zh": "團隊整個下午都在爭論由誰負責，沒有着手工作。"
+          },
+          {
+            "id": "c",
+            "en": "The staff resume packing after a delayed delivery reaches them.",
+            "zh": "延誤的貨物到達後，職員恢復包裝。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "整個下午只有爭論而未開始工作，與着手或繼續工作相反。",
+        "promptZh": "哪個情況最不適合用 get on with the job？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us get on with the job and start with the first items on the list.",
+            "zh": "我們着手做吧，先處理清單上的首幾項。"
+          },
+          {
+            "id": "b",
+            "en": "We should wait for another meeting, even though the plan is already agreed.",
+            "zh": "計劃雖已商定，我們仍應等另一次會議。"
+          },
+          {
+            "id": "c",
+            "en": "The list is ready, so we can tell everyone the work is finished.",
+            "zh": "清單已備妥，我們就可以說工作完成了。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "計劃與材料已齊，最自然是開始清單上的工作；開會拖延和假稱完成都不貼切。",
+        "promptZh": "同事說：「清單和材料都齊了，我們還在反覆討論第一步。」你如何回應最合適？"
+      },
+      "speaking": {
+        "en": "Once the safety check was complete, the team got on with the job of setting up the stage.",
+        "zh": "安全檢查完成後，團隊便着手搭建舞台。",
+        "promptZh": "先聽示範，再指出哪項工作接着開始。",
+        "targetSpan": {
+          "start": 45,
+          "end": 64
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心的閱讀活動因桌椅尚未送到而延遲。桌椅送達後，義工立即排好座位並開始接待家庭。用一至兩句英文描述行動。",
+        "selfCheckZh": "指出等候桌椅的阻礙、桌椅到達，以及義工開始排座位和接待家庭；不要說活動已全部完成。",
+        "examples": [
+          {
+            "en": "The tables and chairs arrived after a delay, so the volunteers got on with the job of arranging seats and welcoming families.",
+            "zh": "桌椅延遲送到，義工便着手排座位並接待家庭。"
+          },
+          {
+            "en": "Once the tables and chairs were delivered, we got on with the job: we set out the seats and greeted the arriving families.",
+            "zh": "桌椅送達後，我們便着手工作：排好座位，迎接陸續到達的家庭。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "after a delay",
+            "zh": "延遲後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 43
+            }
+          },
+          {
+            "en": "arranging seats",
+            "zh": "排座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 101
+            }
+          },
+          {
+            "en": "welcoming families",
+            "zh": "接待家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 124
+            }
+          },
+          {
+            "en": "tables and chairs",
+            "zh": "桌椅",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 26
+            }
+          },
+          {
+            "en": "greeted the arriving families",
+            "zh": "迎接陸續到達的家庭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When the permit arrived, the organisers got on with the job of preparing the event.",
+          "zh": "許可證到手後，主辦者便着手籌備活動。"
+        },
+        {
+          "en": "We got on with the job after the missing equipment was replaced.",
+          "zh": "缺少的設備補齊後，我們便繼續工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2438",
+      "number": 2438,
+      "inventoryId": "expr-2438",
+      "titleEn": "work smarter rather than harder",
+      "titleZh": "用更聰明的方法工作",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:work|works|worked|working) smarter rather than harder\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Improve a method so the same aim takes less wasted effort, rather than merely increasing effort.",
+        "meaningZh": "改良工作方法，減少白費的力氣，而不是單純更用力或做更久。",
+        "grammar": "A clear checklist helps us work smarter rather than harder.",
+        "register": "Practical advice; efficiency must preserve the task’s needed quality and checks.",
+        "boundaryZh": "重點是方法更有效率，並保留必要的品質；不是偷工減料，也不是叫人完全不努力。",
+        "misconceptionZh": "不要把縮短時間自動當成 smarter；如果漏了必要檢查，可能只是省略工作。",
+        "outcomeZh": "能指出舊方法浪費了甚麼，以及新方法如何在維持品質下改善。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0327",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A clear checklist helps us work smarter rather than harder.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "work smarter rather than harder"
+        }
+      ],
+      "listening": {
+        "en": "The school fair team kept copying names into three separate lists. They made one shared form with a final check for errors, helping everyone work smarter rather than harder.",
+        "zh": "學校嘉年華團隊一直把姓名抄進三份不同名單。他們改用共用表格，最後仍核對錯誤，令大家用更有效率的方法工作。",
+        "promptZh": "新表格如何讓團隊 work smarter rather than harder？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It removed repeated copying while keeping an error check.",
+            "zh": "它減少重複抄寫，同時保留錯誤核對。"
+          },
+          {
+            "id": "b",
+            "en": "It let the team skip checking names to save time.",
+            "zh": "它讓團隊省去核對姓名以節省時間。"
+          },
+          {
+            "id": "c",
+            "en": "It required everyone to copy each name more carefully into all three lists.",
+            "zh": "它要求大家更仔細地把每個姓名抄進三份名單。"
+          },
+          {
+            "id": "d",
+            "en": "It reduced the number of people allowed to register.",
+            "zh": "它減少可登記的人數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用表格減少重複工作，仍保留核對；省略查核或單純更用力都不符合。"
+      },
+      "reply": {
+        "promptEn": "What changes helped your club sort the donated books more efficiently?",
+        "promptZh": "（你們社團採取甚麼方法，令捐贈書籍整理工作更有效率？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We used one shared list so no one entered the same title twice.",
+            "zh": "我們用一份共用清單，避免同一本書重複輸入。"
+          },
+          {
+            "id": "b",
+            "en": "We grouped the books by subject before checking the titles.",
+            "zh": "我們先按主題分書，再核對書名。"
+          },
+          {
+            "id": "c",
+            "en": "We worked smarter rather than harder by scanning each barcode once and reviewing the final list.",
+            "zh": "我們每本書只掃描條碼一次，再核對最終清單，用更聰明的方法工作。"
+          },
+          {
+            "id": "d",
+            "en": "We used box labels to send books to the right table, then checked each shelf.",
+            "zh": "我們用箱上的標籤把書送到合適的桌子，再核對每個書架。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明減少重複、分流或核對的有效方法；金句明確概括改良流程，而非單純增加工時。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "They worked smarter rather than harder by sharing one checked address list.",
+            "zh": "他們共用一份經核對的地址表，以更有效率的方法工作。"
+          },
+          {
+            "id": "b",
+            "en": "They worked faster by removing the final check, even if deliveries could go to the wrong place.",
+            "zh": "他們取消最後核對來加快速度，即使可能送錯地址。"
+          },
+          {
+            "id": "c",
+            "en": "They increased everyone’s typing hours while keeping the duplicate lists.",
+            "zh": "他們保留重複名單，並增加每人的打字時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用且核對過的地址表減少重複輸入，同時維持準確；其餘選項不是改善方法。",
+        "promptZh": "義工每人都重複打同一批地址。協調員改用一份共用地址表，保留最後核對，減少重複工作。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A team uses a reusable template and still checks the final details.",
+            "zh": "團隊使用可重用範本，仍核對最終細節。"
+          },
+          {
+            "id": "b",
+            "en": "A team skips the safety check solely to finish sooner.",
+            "zh": "團隊純粹為了早點完成，省去安全檢查。"
+          },
+          {
+            "id": "c",
+            "en": "A team divides tasks by skill and reviews the combined result.",
+            "zh": "團隊按各人所長分工，並檢查合併結果。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "省去必要安全檢查是減少品質保障，不是改良工作方法。",
+        "promptZh": "哪個做法最不符合 work smarter rather than harder？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A shared import could help us work smarter rather than harder if we still verify the entries.",
+            "zh": "若仍核對資料，共用匯入功能可令我們用更有效率的方法工作。"
+          },
+          {
+            "id": "b",
+            "en": "We could keep both entries and simply stay an hour later each day.",
+            "zh": "我們可保留兩次輸入，每天再晚一小時下班。"
+          },
+          {
+            "id": "c",
+            "en": "We could stop checking both systems, even if duplicate entries cause errors.",
+            "zh": "即使重複輸入導致錯誤，我們也可停止核對兩個系統。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共用匯入減少重複工序，仍核對資料；加班和省略核對都未改善流程。",
+        "promptZh": "同事說：「我們每天加班，還要把同一筆資料輸入兩個系統。」你如何回應最貼切？"
+      },
+      "speaking": {
+        "en": "A shared template let the editors work smarter rather than harder while keeping the final proofread.",
+        "zh": "共用範本減少編輯的重複工作，同時保留最後校對，讓他們用更聰明的方法工作。",
+        "promptZh": "先聽示範，再說出新方法節省甚麼及保留哪項檢查。",
+        "targetSpan": {
+          "start": 34,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校義工原本逐人傳訊確認活動時間，經常重複回覆。團隊改用共用報名表，但仍由一人核對資料。用一至兩句英文描述改善。",
+        "selfCheckZh": "指出舊方法需逐人傳訊、共用報名表減少重複回覆，而且仍有人核對；不要把省略核對當成效率。",
+        "examples": [
+          {
+            "en": "The volunteers used to message each family separately; a shared sign-up form helped them work smarter rather than harder while one person checked the entries.",
+            "zh": "義工原本逐一傳訊給每個家庭；共用報名表減少重複工作，並由一人核對資料，令團隊用更有效率的方法工作。"
+          },
+          {
+            "en": "By replacing repeated messages with one shared registration form and keeping a final data check, the team worked smarter rather than harder.",
+            "zh": "團隊以共用報名表取代重複訊息，仍保留最後資料核對，用更聰明的方法工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "each family separately",
+            "zh": "逐一向每個家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 53
+            }
+          },
+          {
+            "en": "a shared sign-up form",
+            "zh": "共用報名表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 76
+            }
+          },
+          {
+            "en": "checked the entries",
+            "zh": "核對資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 157
+            }
+          },
+          {
+            "en": "repeated messages",
+            "zh": "重複訊息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "a final data check",
+            "zh": "最後資料核對",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A single schedule helped the staff work smarter rather than harder without dropping the review step.",
+          "zh": "一份共用時間表令職員在保留核對程序下，以更有效率的方法工作。"
+        },
+        {
+          "en": "We can work smarter rather than harder by checking the form once instead of copying it three times.",
+          "zh": "表格核對一次而非抄寫三次，我們便能用更有效率的方法工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2443",
+      "number": 2443,
+      "inventoryId": "expr-2443",
+      "titleEn": "ground to a halt",
+      "titleZh": "完全停頓",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:grind|grinds|ground|grinding) to a halt\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Stop completely after progressing, rather than merely slowing down.",
+        "meaningZh": "原本在進行的事情完全停下來，而不只是變慢。",
+        "grammar": "The project ground to a halt when the supplier failed.",
+        "register": "Vivid phrase for a service, project or activity losing all forward movement.",
+        "boundaryZh": "要有原本在運作而後完全停止的過程；延遲、放慢或短暫改道未必符合。",
+        "misconceptionZh": "不要把 halt 只看作車輛煞停；也不要把仍有部分進度的活動說成完全停頓。",
+        "outcomeZh": "能指出甚麼關鍵障礙使哪項活動完全停止。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0332",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 30,
+          "book": 10,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "60–62",
+          "locatorNote": "DOCX table 25, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The project ground to a halt when the supplier failed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ground to a halt"
+        }
+      ],
+      "listening": {
+        "en": "The local paper lost access to its files, and its backup system also failed. With no pages ready to print, production ground to a halt for the day.",
+        "zh": "本地報紙無法存取檔案，後備系統也故障。沒有頁面可供印刷，當天的製作工作完全停頓。",
+        "promptZh": "這裏的 ground to a halt 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The paper could not continue production that day.",
+            "zh": "報紙當天無法繼續製作。"
+          },
+          {
+            "id": "b",
+            "en": "The paper printed fewer pages but continued publishing.",
+            "zh": "報紙少印幾頁，但仍繼續出版。"
+          },
+          {
+            "id": "c",
+            "en": "The editors shifted to another computer and kept working.",
+            "zh": "編輯轉用另一部電腦，繼續工作。"
+          },
+          {
+            "id": "d",
+            "en": "The paper finished printing before the files became inaccessible.",
+            "zh": "檔案無法存取前，報紙已印好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主系統與後備都無法使用，當天沒有頁面可印，屬完全停止；減量或改用其他設備只是繼續運作。"
+      },
+      "reply": {
+        "promptEn": "What happened to deliveries when the only road to the village was closed?",
+        "promptZh": "（通往村莊唯一的道路封閉後，送貨情況怎樣？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "No vehicles could bring supplies into the village that day.",
+            "zh": "當天沒有車輛能把物資送進村莊。"
+          },
+          {
+            "id": "b",
+            "en": "The drivers had to stop all village deliveries until the road reopened.",
+            "zh": "司機只得暫停所有往村莊的送貨，待道路重開。"
+          },
+          {
+            "id": "c",
+            "en": "Deliveries ground to a halt because there was no alternative route.",
+            "zh": "沒有其他路線，送貨工作完全停頓。"
+          },
+          {
+            "id": "d",
+            "en": "The village received no scheduled deliveries while the closure lasted.",
+            "zh": "封路期間，村莊沒有收到任何原定送貨。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明唯一道路封閉後村莊送貨完全停止；金句以 ground to a halt 概括。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The island’s deliveries ground to a halt when every ferry was cancelled.",
+            "zh": "所有渡輪停開後，小島送貨完全停頓。"
+          },
+          {
+            "id": "b",
+            "en": "The ferry ran less often, so supplies still arrived more slowly.",
+            "zh": "渡輪班次減少，物資仍較慢送達。"
+          },
+          {
+            "id": "c",
+            "en": "The weather changed the route, but every delivery still went ahead.",
+            "zh": "天氣令路線改變，但每次送貨仍照常進行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "所有渡輪停開、送貨暫停，符合完全停止；班次減少或改道仍有進度。",
+        "promptZh": "渡輪是小島唯一的運輸方式。惡劣天氣令所有航班停開，島上送貨也暫停。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The entire show stops when the theatre loses power and has no backup.",
+            "zh": "劇院停電且無後備電源，整場演出停下。"
+          },
+          {
+            "id": "b",
+            "en": "The buses run every twenty minutes rather than every ten, but service continues.",
+            "zh": "巴士由每十分鐘一班改為每二十分鐘一班，服務仍持續。"
+          },
+          {
+            "id": "c",
+            "en": "The online service becomes unavailable to every user for the afternoon.",
+            "zh": "網上服務整個下午對所有使用者停用。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "巴士班次雖減少，但服務仍然持續，不屬完全停頓。",
+        "promptZh": "哪個情況最不適合用 ground to a halt？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The editing work has ground to a halt; we need to restore access before it can resume.",
+            "zh": "編輯工作已完全停頓；要恢復檔案存取才能繼續。"
+          },
+          {
+            "id": "b",
+            "en": "It sounds slower, but the team can finish today without the files.",
+            "zh": "看來只是慢了一點，團隊即使沒有檔案也能今天完成。"
+          },
+          {
+            "id": "c",
+            "en": "Perhaps the team should simply change the order of tasks while editing continues.",
+            "zh": "或許團隊只需調整工序，編輯工作便可繼續。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主系統和後備均失效，稿件完全不能處理，已不只是放慢或調整次序。",
+        "promptZh": "朋友說：「所有編輯都打不開檔案，後備系統也失效，稿件現在完全無法處理。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The ticket system ground to a halt when both the server and its backup went offline.",
+        "zh": "伺服器和後備系統同時離線後，售票系統完全停頓。",
+        "promptZh": "先聽示範，再說出為何系統無法繼續運作。",
+        "targetSpan": {
+          "start": 18,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校演出當日，電子驗票系統故障，亦沒有紙本名單作後備；觀眾因此無法入場，驗票工作完全停止。用一至兩句英文描述原因及結果。",
+        "selfCheckZh": "指出電子系統失效、沒有紙本後備，以及驗票完全停止；不要只說速度變慢。",
+        "examples": [
+          {
+            "en": "The electronic ticket scanner failed, and with no paper list to use, check-in ground to a halt and the audience could not enter.",
+            "zh": "電子驗票機故障，又沒有紙本名單可用，驗票工作完全停頓，觀眾無法入場。"
+          },
+          {
+            "en": "With the online ticket system down and no printed backup, the school’s check-in ground to a halt, leaving visitors waiting outside.",
+            "zh": "網上售票系統故障且沒有紙本後備，學校的驗票工作完全停頓，觀眾只能在外等候。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "electronic ticket scanner",
+            "zh": "電子驗票機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 29
+            }
+          },
+          {
+            "en": "no paper list",
+            "zh": "沒有紙本名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 60
+            }
+          },
+          {
+            "en": "the audience could not enter",
+            "zh": "觀眾無法入場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 127
+            }
+          },
+          {
+            "en": "printed backup",
+            "zh": "紙本後備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 56
+            }
+          },
+          {
+            "en": "visitors waiting outside",
+            "zh": "觀眾在外等候",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The repairs ground to a halt when the replacement parts ran out.",
+          "zh": "替換零件用盡後，維修工作完全停頓。"
+        },
+        {
+          "en": "Without a valid permit, the construction work may grind to a halt.",
+          "zh": "沒有有效許可證，建築工程可能完全停頓。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

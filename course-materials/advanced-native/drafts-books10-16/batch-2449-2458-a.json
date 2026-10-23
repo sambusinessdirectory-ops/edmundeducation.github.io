@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2449-2458-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2449",
+      "number": 2449,
+      "inventoryId": "expr-2449",
+      "titleEn": "strongest selling points",
+      "titleZh": "最有說服力的賣點",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:strongest|main|key) selling points?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The product benefits most likely to persuade the intended buyer.",
+        "meaningZh": "對目標買家最有說服力的產品優點。",
+        "grammar": "Low maintenance is one of the strongest selling points of the bicycle.",
+        "register": "Business and everyday product-comparison language; name the benefit and the buyer it matters to.",
+        "boundaryZh": "賣點是能影響選擇的優點；不是每個規格都同樣有說服力，也不等同保證銷量。",
+        "misconceptionZh": "不要把 selling points 理解為實際銷售地點或價格本身；應說清楚好處。",
+        "outcomeZh": "能指出產品的一項具體優點，以及它為何打動合適買家。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0338",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "63–65",
+          "locatorNote": "DOCX table 26, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Low maintenance is one of the strongest selling points of the new bicycle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "strongest selling points"
+        }
+      ],
+      "listening": {
+        "en": "The new bicycle needs little maintenance, which matters to commuters who ride every day. That low upkeep is one of its strongest selling points.",
+        "zh": "這款新單車不太需要維修，對每天騎車上班的人很重要。低保養需求是它最有說服力的賣點之一。",
+        "promptZh": "為何低保養需求是 strongest selling point？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It solves an important concern for regular commuters.",
+            "zh": "它解決了經常騎車通勤者重視的問題。"
+          },
+          {
+            "id": "b",
+            "en": "The bicycle has several frame colours, so its colour choices must matter most to commuters concerned about repairs.",
+            "zh": "單車有多種車架顏色可選，所以顏色必定是重視維修問題的通勤者最在意的特點。"
+          },
+          {
+            "id": "c",
+            "en": "It means every commuter will buy the bicycle.",
+            "zh": "它表示每位通勤者都會買這款單車。"
+          },
+          {
+            "id": "d",
+            "en": "It tells us where the bicycle can be sold.",
+            "zh": "它告訴我們單車可在哪裏出售。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "低保養需求直接回應經常騎車者的顧慮；顏色選擇不能單憑存在便成為他們最重視的賣點，更不保證人人購買。"
+      },
+      "reply": {
+        "promptEn": "Why might parents choose this reusable lunch box for their children?",
+        "promptZh": "（家長為何可能為子女選擇這款可重用飯盒？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its sealed lid helps stop food leaking into a school bag.",
+            "zh": "密封蓋有助防止食物漏進書包。"
+          },
+          {
+            "id": "b",
+            "en": "It can be washed easily after school.",
+            "zh": "放學後容易清洗。"
+          },
+          {
+            "id": "c",
+            "en": "One of its strongest selling points is a leakproof lid that suits school bags.",
+            "zh": "它最有說服力的賣點之一，是適合放進書包的防漏蓋。"
+          },
+          {
+            "id": "d",
+            "en": "Its size leaves room for other books in a bag.",
+            "zh": "它的尺寸讓書包仍有空間放其他書。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出對家長有用的具體理由；金句明確指出能打動家長的賣點。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The tested leakproof lid is one of its strongest selling points for students.",
+            "zh": "經測試的防漏蓋是對學生最有說服力的賣點之一。"
+          },
+          {
+            "id": "b",
+            "en": "Its bright colour may be pleasant, but it does not address the stated concern about leaks.",
+            "zh": "顏色鮮艷或許討喜，卻沒有解決題目所說的漏汁問題。"
+          },
+          {
+            "id": "c",
+            "en": "The package lists many features without explaining whether any prevent leaks.",
+            "zh": "包裝列出許多特點，卻沒有說明哪項能防漏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "防漏蓋直接回應學生的主要顧慮，所以特別有說服力；顏色和未解釋的規格較不切題。",
+        "promptZh": "學生要帶飯盒上學，最怕湯汁漏到書本。新飯盒有經測試的防漏蓋。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A secure lid helps keep soup away from school books.",
+            "zh": "牢固的蓋子有助避免湯汁沾到課本。"
+          },
+          {
+            "id": "b",
+            "en": "The lid has a small decorative mark that does not affect use and most buyers would not notice.",
+            "zh": "蓋上有一個不影響使用、買家大多不會留意的小裝飾記號。"
+          },
+          {
+            "id": "c",
+            "en": "The box is easy to clean after a school day.",
+            "zh": "飯盒在上學一天後容易清洗。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "不影響使用、也少有人在意的裝飾細節，難成為最有說服力的賣點；防漏和易清洗才回應家長需要。",
+        "promptZh": "哪個描述最不適合作為這款飯盒針對家長的 strongest selling point？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "They should explain the strongest selling points for you, such as low repair costs and easy maintenance.",
+            "zh": "他們應介紹對你最有說服力的賣點，例如維修費低、容易保養。"
+          },
+          {
+            "id": "b",
+            "en": "The bell colour may matter to some buyers, so you should choose by colour alone.",
+            "zh": "車鈴顏色可能對部分買家重要，因此你應只按顏色選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the shop to list every part of the bicycle without explaining its value.",
+            "zh": "請店舖列出單車每個零件，卻不用解釋用途。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友重視價格和維修，回應應把相關好處連到他的需要，而非只談無關裝飾或堆砌規格。",
+        "promptZh": "朋友說：「我想買一個便宜又易維修的單車；店員只談車鈴顏色。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "For busy parents, the lunch box’s easy-clean lid is one of its strongest selling points.",
+        "zh": "對忙碌家長而言，飯盒容易清洗的蓋子是最有說服力的賣點之一。",
+        "promptZh": "先聽示範，再指出優點為何對目標買家重要。",
+        "targetSpan": {
+          "start": 63,
+          "end": 87
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區書店推出可重用購物袋，袋底加固且可摺起來放進手袋。常買重書的顧客重視承重和易攜。用一至兩句英文寫一則適合他們的簡短推介。",
+        "selfCheckZh": "指出加固袋底或易摺好攜帶，並說明為何能吸引常買重書的顧客；不要保證每個人都會買。",
+        "examples": [
+          {
+            "en": "A reinforced base is one of the bag’s strongest selling points for customers who carry heavy books; the bag also folds into a handbag.",
+            "zh": "對常帶重書的顧客而言，加固袋底是袋子最有說服力的賣點之一；它還可摺好放進手袋。"
+          },
+          {
+            "en": "For readers buying heavy books, easy folding and a sturdy bottom are the bag’s strongest selling points because it is simple to carry and strong enough for their purchases.",
+            "zh": "對購買重書的讀者來說，容易摺起來和結實的袋底是這款袋子最有說服力的賣點，因為它易攜帶，也能承重。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A reinforced base",
+            "zh": "加固袋底",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "customers who carry heavy books",
+            "zh": "常帶重書的顧客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 98
+            }
+          },
+          {
+            "en": "folds into a handbag",
+            "zh": "摺好放進手袋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 133
+            }
+          },
+          {
+            "en": "a sturdy bottom",
+            "zh": "結實的袋底",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 64
+            }
+          },
+          {
+            "en": "simple to carry",
+            "zh": "容易攜帶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A quiet motor is one of the strongest selling points for people in small flats.",
+          "zh": "對住在小單位的人而言，寧靜馬達是最有說服力的賣點之一。"
+        },
+        {
+          "en": "A useful feature becomes a key selling point when it answers a buyer’s real concern.",
+          "zh": "有用的功能若回應買家的實際顧慮，就會成為主要賣點。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2452",
+      "number": 2452,
+      "inventoryId": "expr-2452",
+      "titleEn": "come loaded with",
+      "titleZh": "預載多項功能",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:come|comes|came|coming) loaded with\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be supplied with many features or items as part of the product.",
+        "meaningZh": "產品交付時已配備或預載許多功能、內容或物品。",
+        "grammar": "The new apartment will come loaded with smart controls.",
+        "register": "Informal product-description pattern; state what is included, not physical weight.",
+        "boundaryZh": "本課強調產品本身已附帶多項功能；日後另購配件或只容許安裝，不等於交付時已配備。",
+        "misconceptionZh": "不要把 loaded 誤解為貨物很重，也不要以為任何單一基本功能都足以稱 loaded with。",
+        "outcomeZh": "能說明產品交付時已包含哪些具體功能。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0341",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 31,
+          "book": 10,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "63–65",
+          "locatorNote": "DOCX table 26, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new apartment will come loaded with smart controls.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come loaded with"
+        }
+      ],
+      "listening": {
+        "en": "The new library tablet comes loaded with an offline dictionary, audio instructions and large-text settings. Visitors can use all three without installing anything.",
+        "zh": "新圖書館平板已預載離線字典、語音指示和大字設定。訪客無須安裝便可使用這三項功能。",
+        "promptZh": "comes loaded with 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several useful features are already included on the tablet.",
+            "zh": "平板本身已包含多項實用功能。"
+          },
+          {
+            "id": "b",
+            "en": "The tablet is heavy because its battery is large.",
+            "zh": "平板因電池大而很重。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors must purchase each feature separately later.",
+            "zh": "訪客其後要逐項購買功能。"
+          },
+          {
+            "id": "d",
+            "en": "The tablet can accept extra apps, but none is installed yet.",
+            "zh": "平板可加裝程式，但目前尚未安裝任何功能。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "離線字典等功能交付時已備妥，不是實物重量或日後另購。"
+      },
+      "reply": {
+        "promptEn": "What makes the new library tablet useful to first-time visitors?",
+        "promptZh": "（新圖書館平板對首次來訪者有甚麼幫助？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Its offline dictionary lets them check unfamiliar words.",
+            "zh": "離線字典讓他們查不熟悉的詞語。"
+          },
+          {
+            "id": "b",
+            "en": "The audio guide can explain where the main collections are.",
+            "zh": "語音指南可說明主要館藏在哪裏。"
+          },
+          {
+            "id": "c",
+            "en": "It comes loaded with a dictionary, audio guide and large-text mode.",
+            "zh": "它已預載字典、語音指南及大字模式。"
+          },
+          {
+            "id": "d",
+            "en": "The adjustable text makes instructions easier to read.",
+            "zh": "可調字體令指示更易閱讀。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出平板已具備的實際幫助；金句概括產品預載多項功能。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The camera comes loaded with useful shooting and backup features.",
+            "zh": "相機本身已配備多項拍攝及備份功能。"
+          },
+          {
+            "id": "b",
+            "en": "The camera can accept these features later if the centre buys add-ons.",
+            "zh": "中心日後若購買附加功能，相機便可使用它們。"
+          },
+          {
+            "id": "c",
+            "en": "The camera is packed in a heavy case, but its features have not been checked.",
+            "zh": "相機裝在很重的盒裏，但功能尚未核實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "夜拍、防震及備份開箱已可用，符合預載多項功能；日後添購或盒重不同。",
+        "promptZh": "社區中心買了一部新相機。開箱即可使用夜拍、防震和自動備份，毋須另購或安裝。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A reading device arrives with several dictionaries and voice tools ready to use.",
+            "zh": "閱讀器交付時已備有幾本字典和語音工具。"
+          },
+          {
+            "id": "b",
+            "en": "A basic speaker has no extra features until users buy a separate service next month.",
+            "zh": "基本喇叭沒有額外功能，使用者下月另購服務後才有。"
+          },
+          {
+            "id": "c",
+            "en": "A new camera includes editing, backup and low-light modes from the start.",
+            "zh": "新相機一開始就具備剪輯、備份及低光模式。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "功能尚未包含、要日後另購，不能說交付時已 loaded with；其餘兩項已內建多種功能。",
+        "promptZh": "哪個情況最不適合用 come loaded with 描述產品交付時的功能？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It comes loaded with those features already, so you can try them before installing anything else.",
+            "zh": "它本身已配備這些功能，你可先試用，毋須加裝其他東西。"
+          },
+          {
+            "id": "b",
+            "en": "You can probably buy those features later, even though they are already on the projector.",
+            "zh": "雖然投影機已有這些功能，你大概仍可日後再購買。"
+          },
+          {
+            "id": "c",
+            "en": "The case must be heavy if it has that many menu options.",
+            "zh": "選單功能多，外箱一定很重。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友強調開箱即可使用多項功能，表示已內建；不是將來另購或外箱重量。",
+        "promptZh": "朋友說：「這部投影機一開箱就有字幕、無線連接和自動調焦，還要裝甚麼嗎？」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The reader comes loaded with language guides and audio controls that work offline.",
+        "zh": "這款閱讀器已預載語言指南及可離線使用的語音控制功能。",
+        "promptZh": "先聽示範，再說明哪些功能在交付時已包含。",
+        "targetSpan": {
+          "start": 11,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心新設一部電子資訊站，開機即可使用多語言指南、語音指示與大字模式。用一至兩句英文向訪客介紹已包含的功能。",
+        "selfCheckZh": "指出功能在開機時已備妥，並具體提及多語言指南、語音指示與大字模式；不要寫成日後另購。",
+        "examples": [
+          {
+            "en": "The new information kiosk comes loaded with multilingual guides, audio directions and a large-text mode that visitors can use immediately.",
+            "zh": "新的電子資訊站已預載多語言指南、語音指示和大字模式，訪客可立即使用。"
+          },
+          {
+            "en": "Visitors can start at once because the centre’s kiosk comes loaded with language guides, spoken instructions and large-text settings.",
+            "zh": "訪客可即時開始使用，因為中心的資訊站已預載語言指南、語音指示及大字設定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "information kiosk",
+            "zh": "電子資訊站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 25
+            }
+          },
+          {
+            "en": "multilingual guides",
+            "zh": "多語言指南",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 63
+            }
+          },
+          {
+            "en": "audio directions",
+            "zh": "語音指示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 81
+            }
+          },
+          {
+            "en": "spoken instructions",
+            "zh": "語音指示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 108
+            }
+          },
+          {
+            "en": "large-text settings",
+            "zh": "大字設定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The camera comes loaded with editing tools that are ready on day one.",
+          "zh": "相機交付時已配備可立即使用的剪輯工具。"
+        },
+        {
+          "en": "The new display came loaded with accessibility settings at no extra cost.",
+          "zh": "新顯示器已預載無障礙設定，毋須額外付費。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2457",
+      "number": 2457,
+      "inventoryId": "expr-2457",
+      "titleEn": "a brilliant servant, but a poor master",
+      "titleZh": "出色的僕人，拙劣的主人",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba brilliant servant,?\\s+but a poor master\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A tool is helpful when people direct it, but harmful when it dictates their choices.",
+        "meaningZh": "工具受人支配時很有用；若反過來主導人的選擇，便可能帶來問題。",
+        "grammar": "Technology can be a brilliant servant, but a poor master.",
+        "register": "Reflective maxim, often about technology; use to contrast assistance with loss of human control.",
+        "boundaryZh": "這是工具與使用者主導權的對比，不是說機器真的成了僕人或主人，也不等於所有技術都不好。",
+        "misconceptionZh": "不要把便利性本身當成問題；真正界線是人是否仍可作出有判斷的選擇。",
+        "outcomeZh": "能說出工具如何幫助，以及何時開始不恰當地主導人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0346",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Technology can be a brilliant servant, but a poor master.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a brilliant servant, but a poor master"
+        }
+      ],
+      "listening": {
+        "en": "A budgeting app helped Noor spot waste. She then obeyed its suggested limits so strictly that she skipped necessary groceries. She revised the limits to reflect her needs: technology can be a brilliant servant, but a poor master.",
+        "zh": "理財程式幫娜兒發現浪費。後來她過分嚴格地遵從建議限額，連必需的食材也不買。她按自己的需要調整限額：科技可以是出色的僕人，卻是拙劣的主人。",
+        "promptZh": "這句話在娜兒使用理財程式時指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The app helped her spot waste, but its suggested limits should not override her essential needs.",
+            "zh": "程式幫她找出浪費，但建議的限額不應凌駕她的基本需要。"
+          },
+          {
+            "id": "b",
+            "en": "The suggested limits were helpful, so she should keep them even when they leave no money for necessary groceries.",
+            "zh": "建議限額既然有用，即使令她無錢買必需食材，也應照用。"
+          },
+          {
+            "id": "c",
+            "en": "Because one limit was unsuitable, the spending information the app provides has no value.",
+            "zh": "有一項限額不合適，便表示程式提供的開支資料毫無價值。"
+          },
+          {
+            "id": "d",
+            "en": "The main problem was that Noor bought groceries before reviewing the app’s spending categories.",
+            "zh": "主要問題是娜兒在檢視程式的開支分類前買了食材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "程式指出浪費有幫助，但她曾盲從建議限額，犧牲基本需要；調整限額表示她重新掌握決定權。"
+      },
+      "reply": {
+        "promptEn": "How should we use a homework planning app without letting it decide our whole week?",
+        "promptZh": "（我們應如何使用功課規劃程式，同時不讓它決定整個星期？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Use its reminders, but choose our own priorities and rest times.",
+            "zh": "使用提醒功能，但自行決定優先次序與休息時間。"
+          },
+          {
+            "id": "b",
+            "en": "Review its suggestions before moving family or study plans.",
+            "zh": "更改家庭或溫習計劃前，先檢視它的建議。"
+          },
+          {
+            "id": "c",
+            "en": "It can be a brilliant servant, but a poor master; let it remind us without obeying every suggestion.",
+            "zh": "它可以是出色的僕人，卻是拙劣的主人；讓它提醒我們，卻不用盲從每項建議。"
+          },
+          {
+            "id": "d",
+            "en": "Keep a way to adjust the schedule when our needs change.",
+            "zh": "需要改變時，保留自行調整時間表的方法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都提出既利用工具又保留自主決定的做法；金句以僕人與主人比喻概括界線。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The translation tool can be a brilliant servant, but a poor master: it saves time, yet volunteers must check the event details.",
+            "zh": "翻譯工具可以是出色的僕人，卻是拙劣的主人：它節省時間，但義工仍須核對活動資料。"
+          },
+          {
+            "id": "b",
+            "en": "The quick draft was useful, so checking the translated time would have added no value.",
+            "zh": "快速草稿既然有用，核對譯出的時間便沒有價值。"
+          },
+          {
+            "id": "c",
+            "en": "The wrong time proves the tool should never be used to prepare a first draft.",
+            "zh": "時間譯錯證明這工具絕不應用來草擬初稿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "工具能快速起草，但人仍須核對重要資訊；盲從錯譯與全盤拒用都忽略協助與主導權的界線。",
+        "promptZh": "社區義工用翻譯工具草擬雙語活動告示，省了不少時間；工具卻把活動時間譯錯，義工未核對便張貼。哪句評語最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A student uses an app’s reminder but chooses when to take a break.",
+            "zh": "學生使用程式提醒，仍自行決定何時休息。"
+          },
+          {
+            "id": "b",
+            "en": "A device schedules every meal and refuses changes even when family plans shift.",
+            "zh": "裝置安排每餐時間，即使家庭計劃改變也不容修改。"
+          },
+          {
+            "id": "c",
+            "en": "A recommendation system keeps pushing choices even after users reject them.",
+            "zh": "推薦系統在使用者拒絕後仍不斷推送選項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生仍自己決定，工具只是協助，未出現反客為主；另外兩項限制或無視使用者選擇。",
+        "promptZh": "哪個情況最不適合用 a brilliant servant, but a poor master 警告工具反客為主？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It can be a brilliant servant, but a poor master; use the light correction, but decide yourself which details belong in the picture.",
+            "zh": "它可以是出色的僕人，卻是拙劣的主人；可用它調光，但照片該保留甚麼細節，仍要自己決定。"
+          },
+          {
+            "id": "b",
+            "en": "The light correction helped, so its cropping suggestion must also preserve the picture’s meaning.",
+            "zh": "調光既然有幫助，裁剪建議也必定能保留照片的原意。"
+          },
+          {
+            "id": "c",
+            "en": "Because one crop was misleading, the tool cannot help with any part of the editing.",
+            "zh": "一次裁剪造成誤導，這工具便不能協助任何修圖工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "調光功能有用，但裁剪會改變照片意思時，使用者須自行判斷是否接受；另外兩項都把局部經驗推得太遠。",
+        "promptZh": "朋友說：「修圖工具幫我調亮照片很方便；但我照着它的建議刪掉重要背景，照片的意思也變了。」你如何回應較貼切？"
+      },
+      "speaking": {
+        "en": "A navigation app can be a brilliant servant, but a poor master if drivers follow it past a clear road-closure sign.",
+        "zh": "導航程式能提供協助；但若司機無視清楚的封路路牌而盲從它，程式便由出色的僕人變成拙劣的主人。",
+        "promptZh": "先聽示範，再指出司機應在哪裏自行判斷。",
+        "targetSpan": {
+          "start": 24,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校報編輯用寫作工具修正文法，節省校對時間；工具卻建議刪去受訪者一段重要引述。編輯檢查建議後保留引述，自行決定文章重點。用一至兩句英文說明這個平衡。",
+        "selfCheckZh": "指出工具修正文法的幫助、刪去重要引述的問題，以及編輯核對建議並保留引述的自主決定；不要把工具說成全無用處。",
+        "examples": [
+          {
+            "en": "The editing tool can be a brilliant servant, but a poor master: it corrected grammar, yet the school editors kept an important quote after reviewing its suggestion.",
+            "zh": "編輯工具可以是出色的僕人，卻是拙劣的主人：它修正文法，但校報編輯核對建議後，仍保留一段重要引述。"
+          },
+          {
+            "en": "The school editors used software to fix grammar, but rejected its suggestion to remove an important quote; they showed that it can be a brilliant servant, but a poor master when allowed to decide what matters.",
+            "zh": "校報編輯用軟件修正文法，卻拒絕它刪去重要引述的建議；他們表明，工具若獲准決定文章重點，就可能由出色的僕人變成拙劣的主人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "corrected grammar",
+            "zh": "修正文法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "school editors",
+            "zh": "校報編輯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 108
+            }
+          },
+          {
+            "en": "an important quote",
+            "zh": "一段重要引述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 132
+            }
+          },
+          {
+            "en": "rejected its suggestion",
+            "zh": "拒絕它的建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 76
+            }
+          },
+          {
+            "en": "to decide what matters",
+            "zh": "決定文章重點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 186,
+              "end": 208
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Technology can be a brilliant servant, but a poor master when it replaces a person’s judgment.",
+          "zh": "科技可成為出色的僕人，但若取代人的判斷，便是拙劣的主人。"
+        },
+        {
+          "en": "A navigation app is a brilliant servant, but a poor master if drivers follow it against clear road signs.",
+          "zh": "導航程式可成為出色的僕人，但若司機無視清楚的路牌而盲從它，便是拙劣的主人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2458",
+      "number": 2458,
+      "inventoryId": "expr-2458",
+      "titleEn": "running their life",
+      "titleZh": "主導他們的生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:run|runs|ran|running) (?:my|your|his|her|our|their|its|the) (?:life|lives)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Control a person’s daily choices or routine instead of merely assisting them.",
+        "meaningZh": "主導某人的日常安排或選擇，而不只是提供協助。",
+        "grammar": "The schedule ended up running their life.",
+        "register": "Figurative criticism when an app, schedule, habit or demand dictates everyday choices.",
+        "boundaryZh": "重點是控制日常選擇；日程表提供提醒或有人主持活動，不等於 running someone’s life。",
+        "misconceptionZh": "不要誤把 run 解作真的奔跑；也不要因任何規律生活就斷定失去自主權。",
+        "outcomeZh": "能指出哪項外在安排如何左右人的具體日常選擇。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0347",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 27, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The schedule ended up running their life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "running their life"
+        }
+      ],
+      "listening": {
+        "en": "At first, the fitness tracker helped Eli remember walks. Then he began cancelling family visits whenever it ordered another workout. The alerts were running his life.",
+        "zh": "起初，健身追蹤器幫艾利記得散步；後來它一提醒多做運動，他便取消探望家人的安排。那些提示逐漸主導了他的生活。",
+        "promptZh": "為何說提示 were running his life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He let the alerts override his own family plans.",
+            "zh": "他讓提示凌駕自己原有的家庭安排。"
+          },
+          {
+            "id": "b",
+            "en": "He used the tracker to count his walks while choosing the rest of his day.",
+            "zh": "他用追蹤器計算步數，其他日常安排仍由自己決定。"
+          },
+          {
+            "id": "c",
+            "en": "He changed the device settings after noticing a problem.",
+            "zh": "他發現問題後更改了裝置設定。"
+          },
+          {
+            "id": "d",
+            "en": "He enjoyed a regular exercise routine without cancelling plans.",
+            "zh": "他享受規律運動，沒有取消原有安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提示令他取消家庭探訪，已在左右日常決定；單純記錄運動或保留自主選擇不同。"
+      },
+      "reply": {
+        "promptEn": "What changed when Eli began following every fitness alert instead of choosing his own schedule?",
+        "promptZh": "（艾利不再自行安排時間，而是遵從每項健身提示後，有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He started moving family visits to make room for extra workouts.",
+            "zh": "他開始改動探望家人的安排，騰出時間多做運動。"
+          },
+          {
+            "id": "b",
+            "en": "His daily plans were shaped by the device rather than by his own priorities.",
+            "zh": "他的每日計劃由裝置而非自己的優先次序決定。"
+          },
+          {
+            "id": "c",
+            "en": "The tracker began running his life by deciding when he could see his family.",
+            "zh": "追蹤器開始主導他的生活，甚至決定他何時能見家人。"
+          },
+          {
+            "id": "d",
+            "en": "He let exercise notifications interrupt plans he had made with others.",
+            "zh": "他讓運動通知打斷與別人約好的安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述提示主導生活後的具體改變；金句直指裝置取代他的日常選擇。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The schedule is running her life rather than simply helping her remember meetings.",
+            "zh": "日程表在主導她的生活，而不只是幫她記得開會。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule is useful because it sends meeting reminders she can ignore or change.",
+            "zh": "日程表只提供她可忽略或更改的會議提醒，因此很有用。"
+          },
+          {
+            "id": "c",
+            "en": "She has chosen a fixed dinner time but can adjust the app whenever needed.",
+            "zh": "她自行訂下固定晚餐時間，仍可隨時調整程式。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "程式建議已凌駕她與家人的安排，顯示主導日常選擇；可自行忽略或調整的提醒只是協助。",
+        "promptZh": "某人原本只用日程程式提醒開會，後來連與家人吃飯也必須按程式建議改期，否則便感到不能拒絕。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A person misses family events repeatedly to obey an app’s alerts.",
+            "zh": "某人反覆因遵從程式提示而錯過家庭活動。"
+          },
+          {
+            "id": "b",
+            "en": "A person sets reminders and freely changes them when priorities shift.",
+            "zh": "某人設定提醒，優先次序改變時仍可自由調整。"
+          },
+          {
+            "id": "c",
+            "en": "A person lets a tracker decide meals and refuses invitations that conflict with it.",
+            "zh": "某人讓追蹤器決定膳食，並拒絕與其安排衝突的邀約。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "提醒仍受本人控制，不能說工具主導生活；另外兩項都顯示日常選擇受工具支配。",
+        "promptZh": "哪個情況最不適合說某個工具 is running their life？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if the tracker is running your life; perhaps adjust the alerts so you can keep your plans.",
+            "zh": "聽起來追蹤器正在主導你的生活；或許可調整提示，保留與朋友的安排。"
+          },
+          {
+            "id": "b",
+            "en": "You should keep every tracker goal even when it regularly disrupts friendships.",
+            "zh": "即使目標經常影響友誼，你仍應遵從追蹤器每項要求。"
+          },
+          {
+            "id": "c",
+            "en": "The tracker is only recording numbers, so it cannot affect your choices.",
+            "zh": "追蹤器只是記錄數字，所以不可能影響你的選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友已多次為目標取消約會，顯示工具開始主導生活；調整提示比盲從或否認影響更合適。",
+        "promptZh": "朋友說：「我為了追蹤器目標，已經幾次臨時取消跟朋友的晚餐。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "The study timetable was running her life when she stopped seeing friends just to satisfy every reminder.",
+        "zh": "她為了遵從每項提醒而不再見朋友時，溫習時間表已在主導她的生活。",
+        "promptZh": "先聽示範，再指出哪種日常選擇被時間表取代。",
+        "targetSpan": {
+          "start": 24,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生的音樂練習程式在家庭晚飯時不斷發任務；她每次都立即練習，常錯過與家人用餐。她其後關掉用餐時的通知，自行決定練習時間。用一至兩句英文描述問題及改善。",
+        "selfCheckZh": "指出程式通知令她常錯過家庭晚飯，並說出關掉用餐時通知、恢復自行安排練習；不要把一般提醒本身當成問題。",
+        "examples": [
+          {
+            "en": "The practice app was running her life when its dinner-time tasks kept her away from family meals; she turned off those alerts and chose her own practice hours.",
+            "zh": "練習程式在晚飯時發任務，令她常錯過與家人用餐，當時已主導她的生活；她關掉那些通知，改由自己決定練習時間。"
+          },
+          {
+            "en": "She realised the app was running her life because she always obeyed its dinner alerts instead of eating with her family, so she reset the schedule and practised later.",
+            "zh": "她每次都遵從用餐時的提示，不跟家人吃飯，才發現程式主導了生活；於是她重設時間表，改在稍後練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "dinner-time tasks",
+            "zh": "晚飯時的任務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 64
+            }
+          },
+          {
+            "en": "family meals",
+            "zh": "家庭用餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 96
+            }
+          },
+          {
+            "en": "turned off those alerts",
+            "zh": "關掉那些通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 125
+            }
+          },
+          {
+            "en": "obeyed its dinner alerts",
+            "zh": "遵從用餐時的提示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 85
+            }
+          },
+          {
+            "en": "reset the schedule",
+            "zh": "重設時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The reminder app began running his life when it replaced choices he wanted to make himself.",
+          "zh": "提醒程式取代了他原本想自行作出的決定時，便開始主導他的生活。"
+        },
+        {
+          "en": "A timetable can help, but it should not end up running your life.",
+          "zh": "時間表可以幫忙，但不應最終主導你的生活。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

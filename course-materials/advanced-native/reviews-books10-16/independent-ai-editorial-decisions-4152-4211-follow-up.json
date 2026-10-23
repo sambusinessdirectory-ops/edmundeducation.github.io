@@ -1,0 +1,23 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+  "fileSha256": "fb824ba150b3dcb99f00a32c21d497e6ba59379d410762ce080d524e6c819151",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4203,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "New territory expresses unfamiliar subject matter and overlaps canonical 563 unfamiliar territory. Hold for a lexical-variant decision; the existing detector does not cover the source wording, so do not force an alias or duplicate lesson."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only listed decision findings; human sense approval and draft QA remain pending.",
+    "Held rows must not be authored as new lessons without owner/sense adjudication."
+  ]
+}

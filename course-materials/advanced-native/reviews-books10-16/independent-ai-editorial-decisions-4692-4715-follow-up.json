@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+  "fileSha256": "3155aacdb86c498ca8ea829b6f533a58a3bd93ac39122d34b7d53494a64a4f42",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4697,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Evolve with the times has the same adapt-to-change outcome as provisional owner 3715 move with the times. Hold for lexical-variant or distinct-construction decision before creating a second lesson."
+    },
+    {
+      "sourceOrdinal": 4712,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "In the middle of the action expresses being centrally located in events, overlapping canonical 626 where the action is and same-batch 4709 in the thick of things. Hold for target/sense ownership, avoiding a redundant third lesson."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows require human sense/owner review and no draft/publication approval is implied."
+  ]
+}

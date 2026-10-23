@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+  "fileSha256": "4365838cf133b3e4a57a5056fa16fde223a1ce99f1ee48b9fe8d38f840aec001",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4332,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Bare gold dust in this source conveys the same rare-and-valued meaning as canonical 461 like gold dust, but the canonical target detector currently requires like. Hold for a reviewed variant expansion or rewrite; do not create a duplicate lesson or force an uncovered alias."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows need human/owner-scope review before authoring."
+  ]
+}

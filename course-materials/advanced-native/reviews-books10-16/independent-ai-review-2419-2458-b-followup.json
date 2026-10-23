@@ -1,0 +1,48 @@
+{
+  "reviewId": "independent-ai-review-2419-2458-b-followup",
+  "reviewedLessonIds": [
+    "advanced-native-2419",
+    "advanced-native-2428",
+    "advanced-native-2438",
+    "advanced-native-2443",
+    "advanced-native-2449",
+    "advanced-native-2452",
+    "advanced-native-2457",
+    "advanced-native-2458"
+  ],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json": "44ca9a661fc596a089fe426a399ba7bdbf2d4755122ce2e5795bdd5a53f5b860",
+    "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json": "c43fd402339468cdbc29fa9046f5ef22fb451ddf4fe3d86fab6eb941660271ab"
+  },
+  "scope": "Independent focused recheck of five original AI findings against revised unselected draft JSON. Does not constitute human, audio-listening, device, live or publication approval.",
+  "buildCheck": "Fresh 8-lesson draft build and --check passed: 48 questions, 32 audio requests, zero review flags.",
+  "findingRechecks": [
+    {
+      "id": "R2438-01",
+      "status": "cleared",
+      "evidence": "Reply question now asks what changes made sorting more efficient; a shared list, grouping, barcode scanning plus final review, and box routing with shelf checks each address efficiency. It no longer demands that each option independently prove complete title coverage. Target appears only in keyed c."
+    },
+    {
+      "id": "R2457-01",
+      "status": "cleared",
+      "evidence": "Listening now has Noor voluntarily obeying budgeting-app limits and revising them; scene uses a translation tool’s wrong event time and volunteers’ failure to check. Both mechanisms are plausible and distinguish useful aid from handing over judgment. English and Chinese align."
+    },
+    {
+      "id": "R2457-2458-01",
+      "status": "cleared",
+      "evidence": "Lesson 2457 listening uses budgeting, scene translation, dialogue photo editing, speaking navigation, and writing school-newspaper editing. Lesson 2458 retains fitness/schedule/routine disruption. The adjacent lessons now teach separate emphases without repeating the notification-versus-family motif in 2457 listening and writing."
+    },
+    {
+      "id": "R2428-01",
+      "status": "cleared",
+      "evidence": "Keyed listening option now says “They began preparing lunch once the ingredients arrived.” Chinese gives the same timing and action; the awkward personification is gone."
+    },
+    {
+      "id": "R2449-01",
+      "status": "cleared",
+      "evidence": "Distractor b now offers bicycle frame-colour choices as an attractive but unsupported competing selling point for repair-conscious commuters, rather than irrelevant advertisement length; keyed low-upkeep buyer benefit remains unambiguous."
+    }
+  ],
+  "newFindings": [],
+  "conclusion": "All five originally reported AI content findings are cleared for these exact draft file hashes. Draft review fields remain pending; no human/editorial, media-listening, device or live release sign-off is asserted."
+}

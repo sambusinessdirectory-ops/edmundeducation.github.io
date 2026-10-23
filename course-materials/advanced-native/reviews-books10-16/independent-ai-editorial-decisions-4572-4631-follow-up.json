@@ -1,0 +1,34 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+  "fileSha256": "7f3b65161a3a4bc290dc904d1cb05204b017c2fe7f195fc5e87427aee9bf8fda",
+  "originalFindings": 3,
+  "resolvedFindings": 3,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4581,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Ripples spreading more widely after one trial conveys downstream effects and overlaps canonical 772/924 ripple-effect expressions. Hold for a source-specific variant/owner decision; avoid a same-sense duplicate lesson."
+    },
+    {
+      "sourceOrdinal": 4593,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Woven into ordinary life uses the integration-into-daily-life fabric metaphor already taught by canonical 1503. Hold for a reviewed lexical variant rather than a duplicate lesson or an uncovered automatic alias."
+    },
+    {
+      "sourceOrdinal": 4615,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Pull people out of their usual bubble describes leaving a familiar social/mental sphere and overlaps canonical 1830 bubble-related teaching. Hold for sense and target-pattern comparison before deciding canonical variant versus distinct lesson."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows require human sense/owner review and no draft/publication approval is implied."
+  ]
+}

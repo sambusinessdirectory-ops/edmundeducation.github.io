@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+  "fileSha256": "534fc8f2801f6de2d81f0e6c48b1e6ce9b65a072a864bf613c21cd08a5056b30",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4643,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“The postcard version of Hong Kong” denotes a polished picturesque representation, the same postcard-image sense as canonical 1809 “the postcard view”. Version/view is a noun variant, not a different learner outcome.",
+      "recommendedFix": "Hold pending canonical 1809 scope/pattern decision, then alias-existing if approved."
+    },
+    {
+      "sourceOrdinal": 4665,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Repeated trampling can chip away at the place” means gradual cumulative damage, the same phrasal metaphor and general meaning as canonical 178 “chip away at”. Canonical detector currently lists narrow objects; that is a coverage gap, not a new idiom.",
+      "recommendedFix": "Hold for canonical 178 object-pattern expansion and alias-existing if sense remains aligned."
+    },
+    {
+      "sourceOrdinal": 4672,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Fall completely flat” means fail to interest or impress, exactly canonical 897 “fall flat”; completely is an intensifying adverb inserted between the verb and flat.",
+      "recommendedFix": "Hold pending canonical 897 pattern expansion for optional intensifiers, then alias-existing; do not duplicate the lesson."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 60 decisions with source sentences and prior canonical meanings.",
+    "All proposed-alias-existing rows match full source under their named approved target regex.",
+    "Conservative holds for uncertain literal/figurative source forms remain held."
+  ],
+  "limits": [
+    "AI peer review only; no human or release approval.",
+    "Future target detector updates require separate review and verification."
+  ]
+}

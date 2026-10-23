@@ -1,0 +1,41 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+  "fileSha256": "1947b7ca1295f767a89d170019742f104e14a24310b5b7564db43e9a47aaad4f",
+  "originalFindings": 4,
+  "resolvedFindings": 4,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4094,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Stumbling around in the dark for lacking guidance overlaps canonical 1916 grope in the dark. Decide whether this distinct motion verb is worth separate teaching and whether the source is idiomatic before authoring."
+    },
+    {
+      "sourceOrdinal": 4122,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Keep showing up here implies persistent attendance and effort, while proposed owner 2123 teaches literal arrival. The repeatable keep + show up frame is not safely the same sense; evaluate a separate lesson or revised 2123 sense before linking."
+    },
+    {
+      "sourceOrdinal": 4128,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach get past an obstacle or difficulty for moving beyond it. The source says get past it without a clear antecedent; authoring must supply an explicit context and concrete antecedent, while preserving the source sentence separately."
+    },
+    {
+      "sourceOrdinal": 4140,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "Teach mental snapshot as a brief vivid remembered image. The source photograph left a mental snapshot I could still recall is redundant; authoring must use a natural non-redundant model and record the source as provenance only."
+    }
+  ],
+  "limits": [
+    "AI follow-up covers only listed decision findings; human sense approval and draft QA remain pending.",
+    "Held rows must not be authored as new lessons without owner/sense adjudication."
+  ]
+}

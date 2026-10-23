@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+  "fileSha256": "009b0164654115e78b028837423ca4302bdd57c4bd34b35d09b5d01505bb9269",
+  "originalFindings": 1,
+  "resolvedFindings": 1,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4517,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Elliptical keep pace here means adapt as fast as urban growth and overlaps canonical 590 keep pace with demand. Existing detector requires with demand, so hold for a reviewed pattern variant or distinct construction; do not create a duplicate lesson or force an uncovered alias."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows still require owner adjudication and 4470 requires human sense approval."
+  ]
+}

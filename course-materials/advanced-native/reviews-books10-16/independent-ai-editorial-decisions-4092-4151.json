@@ -1,0 +1,54 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+  "fileSha256": "54068fe82cfcc420f87812493ed4fae067f127ac30016fda2a26226490e60a57",
+  "rowsReviewed": 60,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4094,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Stumbling around in the dark” means proceeding without enough knowledge or guidance, essentially the same darkness-and-uncertainty learner outcome as canonical 1916 “grope in the dark”. The different motion verb alone is not an explained new sense.",
+      "recommendedFix": "Hold pending canonical 1916 scope/pattern review or document a genuine pragmatic/construction distinction before assigning a new owner."
+    },
+    {
+      "sourceOrdinal": 4122,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Progress begins when you keep showing up” means continuing to participate and put in effort, not simply arriving at a meeting. Proposed owner 2123 explicitly teaches literal arrival/appearance and contrasts that with promised attendance; aliasing this motivational persistence use to 2123 would misteach the source meaning.",
+      "recommendedFix": "Move 4122 to hold-editorial pending a persistence-versus-arrival sense decision, or assign a separate owner with repeated-effort models if justified."
+    },
+    {
+      "sourceOrdinal": 4128,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "“Feedback helped her get past it” gives no antecedent for “it” in the source sentence. The proposed lesson claims obstacle-overcoming, but the stand-alone source cannot establish whether it refers to a mistake, feeling, task or physical object.",
+      "recommendedFix": "Hold or supply a clearly grounded guide-written context/model and record the pronoun ambiguity in the decision before drafting."
+    },
+    {
+      "sourceOrdinal": 4140,
+      "severity": "minor",
+      "path": "source example; action",
+      "explanation": "“That photograph left a mental snapshot I could still recall” is semantically redundant: a photograph is already a snapshot, and “mental snapshot I could still recall” repeats the memory idea. The intended idiom is valid but the source is weak as a natural model.",
+      "recommendedFix": "Retain exact source provenance but require a more natural guide-written mental-snapshot model and mark the source awkwardness in the decision."
+    }
+  ],
+  "passedChecks": [
+    "Compared 60 rows with exact source sentences and prior canonical meanings, including provisional owner 2123’s published draft brief.",
+    "All proposed-alias-existing rows match the complete source sentence under the named owner target regex.",
+    "Ambiguous or unsupported previous variants remain held."
+  ],
+  "limits": [
+    "AI peer review only; owner decisions require editorial adjudication.",
+    "Future lesson models and distractor fairness were outside this decision-file scope."
+  ]
+}

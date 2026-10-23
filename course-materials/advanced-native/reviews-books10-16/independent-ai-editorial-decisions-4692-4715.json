@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent AI provisional editorial-decision audit",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "scope": "Final 24 Books 10–16 source-intake decisions; no lesson changes or selection",
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+  "fileSha256": "4c288028b8da365052b4310d0b050040e31f8653fd4709d21e2d392275b23c20",
+  "rowsReviewed": 24,
+  "counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 4697,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“Evolve with the times” means adapt to changing conditions, exactly the learner outcome of provisional owner 3715 “move with the times”. The changed motion verb alone does not establish a second owner.",
+      "recommendedFix": "Hold pending provisional 3715 owner-scope/pattern review, then alias-new if the phrase variant is approved; do not duplicate the lesson."
+    },
+    {
+      "sourceOrdinal": 4712,
+      "severity": "major",
+      "path": "action; canonicalId; reason",
+      "explanation": "“In the middle of the action” denotes being at the centre of activity, overlapping both existing canonical 626 “where the action is” and same-batch proposed owner 4709 “right in the thick of things”. The decision does not explain a distinct learner outcome beyond lexical synonymy.",
+      "recommendedFix": "Hold pending comparison with canonical 626 and proposed 4709; define a construction/register distinction if a separate idiom lesson is justified."
+    }
+  ],
+  "passedChecks": [
+    "Compared all 24 rows with exact source examples and prior/provisional owner meanings.",
+    "All 8 proposed-alias-existing rows match the complete source sentence under the named owner detector."
+  ],
+  "limits": [
+    "AI peer review only; held rows require owner adjudication, and future lessons require separate QA."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent AI focused follow-up of editorial decision repairs",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "selectionApproval": false,
+  "file": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+  "fileSha256": "8a610ee64b8a89f2cc4a949ee5236fb5fb7c46a4b86ec623e07ec5bd87741e2e",
+  "originalFindings": 2,
+  "resolvedFindings": 2,
+  "remainingFindings": [],
+  "checks": [
+    {
+      "sourceOrdinal": 4404,
+      "originalSeverity": "minor",
+      "status": "resolved",
+      "evidence": "The source add noise with one hand and take it away with the other improvises the give-with-one-hand/take-with-the-other idiom. It may mean a mixed effect, but its literal transport/noise framing and changed verb make automatic alias to proposed owner 3431 unsafe. Hold for idiomaticity and pattern review."
+    },
+    {
+      "sourceOrdinal": 4424,
+      "originalSeverity": "major",
+      "status": "resolved",
+      "evidence": "Lower the temperature in a dispute naturally means reduce tension and overlaps canonical 727 take the heat out of. Different lexical construction could merit a separate lesson, but human sense and duplication review is required; the existing detector does not cover this source wording."
+    }
+  ],
+  "limits": [
+    "AI follow-up only; held rows need human/owner-scope review before authoring."
+  ]
+}
