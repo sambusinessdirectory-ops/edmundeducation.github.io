@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q06": {
+      "truthCondition": "Ben and his flatmate often argue fiercely about cleaning their shared kitchen.",
+      "correctReason": "原題說 Ben 與同住者經常為清潔共用廚房激烈爭執；正確句保留人物、頻率及爭議內容。",
+      "foils": [
+        { "text": "Ben and his flatmate fight like cat and dog over using their shared kitchen.", "reason": "這句把爭議由「清潔廚房」改成「使用廚房」，不是原題所說的事。", "kind": "changed-issue" },
+        { "text": "Ben and his flatmate used to fight like cat and dog over cleaning their shared kitchen.", "reason": "「used to」暗示經常爭吵的情況已經過去；原題說他們現在仍常常爭執。", "kind": "changed-aspect" },
+        { "text": "Ben and his flatmate hardly ever fight like cat and dog over cleaning their shared kitchen.", "reason": "「hardly ever」表示很少爭吵，與原題的「經常」相反。", "kind": "changed-frequency" }
+      ]
+    },
+    "idiom-31-q07": {
+      "truthCondition": "The two classmates argue angrily over every small mistake, which prevents them from working together.",
+      "correctReason": "兩名同學連小錯誤都會吵起來；正確句以慣用語交代反覆激烈的爭執。",
+      "foils": [
+        { "text": "The two classmates never fight like cat and dog over small mistakes.", "reason": "「never」說兩人不會因小錯誤激烈爭吵；原題說每遇小錯誤都會吵起來。", "kind": "changed-polarity" },
+        { "text": "The two classmates fight like cat and dog over only major mistakes.", "reason": "「only major mistakes」把原題的「每個小錯誤」改成只為重大錯誤爭吵。", "kind": "changed-scope" },
+        { "text": "The two classmates work calmly together despite every small mistake.", "reason": "這句改成兩人能平靜合作，與原題說他們無法共事相反。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q08": {
+      "truthCondition": "The speaker's parents argued angrily and often about money in the past, but are calmer now.",
+      "correctReason": "「used to fight like cat and dog」表達父母以前常為金錢激烈爭吵，而現在已較平靜。",
+      "foils": [
+        { "text": "My parents still fight like cat and dog about money.", "reason": "「still」表示現在仍經常激烈爭吵；原題說他們現在已平靜得多。", "kind": "changed-current-state" },
+        { "text": "My parents used to fight like cat and dog about school rules.", "reason": "這句把爭議由「金錢」改成「學校規則」，改變原題內容。", "kind": "changed-issue" },
+        { "text": "My parents used to argue fiercely about money.", "reason": "這句保留舊日爭吵的事實，卻未用上本課要求的英語慣用語。", "kind": "missing-target-idiom" }
+      ]
+    },
+    "idiom-31-q09": {
+      "truthCondition": "Grace and Ella argued fiercely throughout the entire trip, from the first day to the last.",
+      "correctReason": "「during the whole trip」保留從首天到最後一天都激烈爭執的時間範圍，並自然用上慣用語。",
+      "foils": [
+        { "text": "Grace and Ella fought like cat and dog on the first day of the trip.", "reason": "「on the first day」只涵蓋首天；原題說爭吵一直持續至旅程最後一天。", "kind": "changed-duration" },
+        { "text": "Grace and Mia fought like cat and dog during the whole trip.", "reason": "這句把爭吵的其中一人由 Ella 改成 Mia，與原題不符。", "kind": "changed-person" },
+        { "text": "Grace and Ella argued fiercely during the whole trip.", "reason": "這句保留了旅程中的爭吵，卻沒有完成使用目標慣用語的改寫。", "kind": "missing-target-idiom" }
+      ]
+    },
+    "idiom-31-q10": {
+      "truthCondition": "Every disagreement between the two team captains becomes an angry argument.",
+      "correctReason": "原題說兩名隊長每次意見不同都會變成激烈爭吵；正確句保留「每次」的反覆模式。",
+      "foils": [
+        { "text": "The two team captains never fight like cat and dog when they disagree.", "reason": "「never」說兩人意見不同時不會激烈爭吵；原題卻說每次意見不同都會吵起來。", "kind": "changed-polarity" },
+        { "text": "The two team captains fought like cat and dog whenever they disagreed.", "reason": "「fought」把反覆爭執放在過去；原題以現在式描述目前的情況。", "kind": "changed-tense" },
+        { "text": "The two team captains fight like cat and dog whenever they win.", "reason": "「whenever they win」把觸發爭吵的情況由意見不同改成勝出比賽。", "kind": "changed-trigger" }
+      ]
+    }
+  }
+}
