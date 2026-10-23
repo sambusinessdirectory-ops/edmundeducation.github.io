@@ -6,7 +6,7 @@
 
 **Owner review decision:** On 23 October 2026 the owner explicitly selected **AI-only review** for this rollout. This replaces the manual's proposed independent human English and Traditional Chinese reviewers for this project. It does **not** lower the single-key, fluent-English, faithful-Chinese, option-specific-rationale, or no-shortcut acceptance standards. Record the human-review difference in every release record; do not mark independent human review as performed.
 
-**Scope and denominator:** 108 lessons × (50 retained original items + 10 extensions) = 6,480 final-practice items and 25,920 choices. The source catalogue currently has 5,400 original IDs. Existing Compass curation covers lessons 001–030 and has 300 extensions; lessons 031–108 lack Compass guides and 780 extensions. Structural candidates are not language-approved items. Every item requires a separate semantic, bilingual, foil, rationale, comparison-mark and rendering decision.
+**Scope and denominator:** 108 lessons × (50 retained original items + 10 extensions) = 6,480 final-practice items and 25,920 choices. The source catalogue currently has 5,400 original IDs. Existing Compass curation covers lessons 001–030 and has 300 extensions; lessons 031–108 lack Compass guides and 780 extensions. The older 006–030 MC bank needs substantive editorial revision too: a quantitative audit found that in every one of those 25 lessons, at least one identical rationale appears 50 or more times. Structural candidates are not language-approved items. Every item requires a separate semantic, bilingual, foil, rationale, comparison-mark and rendering decision.
 
 ## Status legend and evidence rules
 
@@ -17,7 +17,7 @@
 - `Exception` requires the latest owner decision, exact affected requirement, remaining risk and date.
 - For each item, record the exact phrase or fact that changes; a generic green status is not evidence.
 
-Evidence artifacts: source catalogue `idiom-system-data.js`; curated guides `idiom-first-five-curation.js`, `idiom-compass-06-30-curation.js` and `idiom-compass-06-30-bonus.js`; source packets `content/idiom-super-curation-dossiers-31-108.json`; [source correction trace](Idiom_031-108_Source_Corrections_2026-10-23.md); 6,480-row item ledger `content/idiom-super-curation-item-review-ledger-001-108.csv`; [108-lesson coverage matrix](Idiom_Super_Curation_001-108_Coverage_Matrix_2026-10-23.md); structural report from `node tools/audit-idiom-super-curation.mjs`; future browser/mobile/audio proofs and dated release record. The ledger's `AI_REVIEW_PENDING` fields are intentionally not passes.
+Evidence artifacts: source catalogue `idiom-system-data.js`; curated guides `idiom-first-five-curation.js`, `idiom-compass-06-30-curation.js` and `idiom-compass-06-30-bonus.js`; source packets `content/idiom-super-curation-dossiers-31-108.json`; [source correction trace](Idiom_031-108_Source_Corrections_2026-10-23.md); 6,480-row item ledger `content/idiom-super-curation-item-review-ledger-001-108.csv`; [108-lesson coverage matrix](Idiom_Super_Curation_001-108_Coverage_Matrix_2026-10-23.md); `content/idiom-existing-foil-audit-06-30.json`; structural report from `node tools/audit-idiom-super-curation.mjs`; future browser/mobile/audio proofs and dated release record. The ledger's `AI_REVIEW_PENDING` fields are intentionally not passes.
 
 ## A. Authority, scope, and lessons from the owner record (manual introduction, §§1–4)
 
@@ -170,6 +170,7 @@ Website design is explicitly outside the new manual's subject, but the manual re
 | F-004 | Source lesson 072 meaning was circular | 1 lesson; 50 targetMeaning fields | Source-backed meaning and register corrected in catalogue; still inspect its future guide and answer keys | Source fixed; downstream open |
 | F-005 | Six generic register labels and additional extracted meaning defects | 17 source lesson entries | Replaced labels/meanings from original PDFs or dictionaries; inspect downstream learner text and options | Source fixed; downstream open |
 | F-006 | Independent human review replaced | Entire rollout | Owner chose AI-only review; record exception and avoid claiming human sign-off | Exception logged |
+| F-007 | Existing 006–030 final-practice rationales are mechanically repeated | 25 lessons, 1,500 items | Rewrite individual option reasons around each actual changed phrase/fact; vary diagnostic mechanisms; independently re-audit all four options | Open |
 
 **Cycle rule:** After drafting each item, audit A–J and its ledger row. Any failure returns that item or lesson to the relevant source/dossier/blueprint/draft stage. Rebuild the 108-lesson report and rerun tests after each correction batch. The release is complete only when every applicable check is verifiably closed; a missing reviewer record cannot be inferred from generated content.
 
