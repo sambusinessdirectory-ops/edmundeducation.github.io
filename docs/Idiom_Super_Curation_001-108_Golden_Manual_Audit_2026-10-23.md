@@ -11,6 +11,8 @@
 
 ## Latest rollout update — scope extended through lesson 138
 
+**Publication verified:** 24 October 2026, 00:12 HKT. Pages run [39983467106](https://github.com/sambusinessdirectory-ops/edmundeducation.github.io/actions/runs/39983467106) succeeded for commit `6d73e4660`. The live HTML references the final asset versions; runtime, CSS, Chinese translations and both new rollout bundles match local SHA-256 hashes. The presentation/coverage release is live; the editorial findings below remain open.
+
 Owner steering on 23 October overrides the earlier presentation requirements: remove **Build the phrase / 拆句式**; Chinese is primary with English underneath in Spot the clue, Where it fits, Your call, Say it naturally and the whole Know the boundary page. AI-only review and autonomous publication remain authorised.
 
 The implementation now contains **138 Compass guides**, **6,900 original questions** and **1,380 extensions** (8,280 practice items). Each lesson has six visible guide stages plus practice. Internal page IDs and all original question IDs remain stable; retired page-4 links redirect to the response stage. All **552 guided decisions / 1,656 choices** have separate, direct Traditional Chinese translations. Answer explanations remain post-answer.

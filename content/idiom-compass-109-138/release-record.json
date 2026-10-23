@@ -38,7 +38,44 @@
     "https://dictionary.cambridge.org/dictionary/english/as-sure-as-eggs-is-eggs",
     "https://dictionary.cambridge.org/thesaurus/hang-fire"
   ],
-  "deployment": "Pending GitHub Pages run and live byte verification.",
+  "deployment": {
+    "status": "success",
+    "commit": "6d73e4660",
+    "runId": 39983467106,
+    "url": "https://github.com/sambusinessdirectory-ops/edmundeducation.github.io/actions/runs/39983467106",
+    "liveVerification": {
+      "verifiedAt": "2026-10-23T16:12:03Z",
+      "site": "https://edmundeducation.com/idiom-system.html",
+      "httpStatus": 200,
+      "assets": {
+        "idiom-system.js": {
+          "sha256": "ba2be781cb9d6005bfd1aa5a37b9c9a1383a3716cacbbfa199e62dd8df6a5089",
+          "bytes": 176993,
+          "matchesLocal": true
+        },
+        "idiom-system.css": {
+          "sha256": "e11a359a1806eb2b5e38350f21160be9192aafaeeaadf22c19bee342e1b406b6",
+          "bytes": 72626,
+          "matchesLocal": true
+        },
+        "idiom-compass-guide-zh.js": {
+          "sha256": "f347df587e62622eff78e58424488ef8da4ae3e3e6aa76ddf6dc7dbcb7fc6f11",
+          "bytes": 238386,
+          "matchesLocal": true
+        },
+        "idiom-compass-109-138-curation.js": {
+          "sha256": "cd5383ba00492e7645b9f313b8ef0d0e74277e08d1f3053278918ece8ad8c65a",
+          "bytes": 2321998,
+          "matchesLocal": true
+        },
+        "idiom-compass-32-108-curation.js": {
+          "sha256": "ed89f40f2bbf3d0ccd308d3d246877b84c3abefd4ae6e4e0ba4fd5985c2e93e8",
+          "bytes": 6097274,
+          "matchesLocal": true
+        }
+      }
+    }
+  },
   "sha256": {
     "idiom-compass-109-138-curation.js": "cd5383ba00492e7645b9f313b8ef0d0e74277e08d1f3053278918ece8ad8c65a",
     "idiom-compass-guide-zh.js": "f347df587e62622eff78e58424488ef8da4ae3e3e6aa76ddf6dc7dbcb7fc6f11",
