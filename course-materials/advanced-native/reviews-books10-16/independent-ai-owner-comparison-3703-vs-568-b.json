@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent AI focused source-owner comparison",
+  "provisionalSourceOrdinal": 3703,
+  "sourceId": "book10-16-1592",
+  "existingCanonicalId": "advanced-native-568",
+  "inputHashes": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5",
+    "course-materials/advanced-native/batches/batch-0551-0575.json": "98a01c44d8bfcd3a4c1e36a684ef561dea31adc4febe6abd0afc321b14139bc6"
+  },
+  "exactSource": {
+    "expression": "novelty wears off",
+    "sentence": "The device gathered dust once the novelty wears off.",
+    "sourceMeaning": "The excitement of newness fades; a fixed clothing metaphor.",
+    "currentDecision": "proposed-new-lesson",
+    "currentDecisionReason": "Novelty wears off is a reusable fixed phrase for initial excitement fading with familiarity. The preserved source sentence mismatches gathered past with wears present; author a grammatically aligned original model such as gathered dust once the novelty wore off, without silently editing source provenance."
+  },
+  "canonical568": {
+    "title": "the shine soon wears off",
+    "meaning": "The initial excitement or attraction fades after someone becomes familiar with the experience or its difficulties.",
+    "grammar": "the shine soon wears off; the shine wore/has worn off; the shine can wear off expresses possibility, with soon/quickly giving timing.",
+    "targetPattern": "\\bthe shine (?:soon )?(?:wears|wore|can wear|has worn) off\\b",
+    "sourceSentences": [
+      "The shine soon wears off when the commute becomes exhausting.",
+      "At first the role looks attractive, but the shine can wear off quickly."
+    ]
+  },
+  "comparison": {
+    "semanticOutcome": "Both phrases describe the fading of initial excitement or attraction as the newness of an experience or device declines. Canonical 568 already explicitly discusses losing novelty while retaining possible lasting value; 3703 adds no clearly separate decision or boundary.",
+    "grammaticalFrame": "Both use an abstract subject (the shine / the novelty) + wear off, with tense/possibility modifiers. The proposed subject noun is a lexical variant of the same wear-off metaphor rather than a new phrasal-verb sense.",
+    "priorDetectorMatch": false,
+    "patternImplication": "Canonical 568 detector requires the shine and therefore does not match the full 3703 source. Reclassifying 3703 as a simple alias to the unchanged canonical record would create an uncovered target span. A merged owner requires reviewed grammar/title/content and a bounded detector that matches both shine and novelty without highlighting unrelated wear-off senses.",
+    "sourceGrammarIssue": "The exact source combines past gathered dust with present wears off after once in a single past event. For a past narrative use “The device gathered dust once the novelty wore off.” For a general pattern use “The device gathers dust once the novelty wears off.” Preserve the original verbatim in provenance and use an explicitly editorially corrected new teaching sentence; do not silently alter the source record.",
+    "distinctLessonTest": "A separate lesson would need a learner decision materially different from canonical 568, not just a device instead of a commute or a different subject noun. None is demonstrated by this source sentence or the existing decision reason."
+  },
+  "classification": "likely-alias-or-expanded-owner",
+  "recommendation": "Do not approve a separate owner yet. Prefer an editorially reviewed expansion of canonical 568 to cover novelty wears/wore off, attach exact 3703 provenance, and keep the original source grammar error visible. Hold the proposed-new row until that expansion and source-pattern checks are complete; if a distinct-owner rationale is later established, document its non-overlapping learner outcome before drafting/audio.",
+  "changesMade": false,
+  "limits": "Read-only AI review of two source expressions and their existing canonical lesson, not a full dictionary or every other wear-off use. Human editorial approval, regression checks on existing 568, media review and release remain open."
+}

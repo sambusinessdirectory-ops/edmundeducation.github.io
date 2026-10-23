@@ -71,6 +71,11 @@ expectText(audit, 'then-selected 342 writing examples', 'Historical 171-lesson w
 expectText(scope, `All ${triage['proposed-alias-existing']} existing-owner links match full source sentences. Of ${triage['proposed-alias-new']} new-owner links`, 'Alias-owner counts are stale in the scope bullet');
 expectText(audit, `Existing-owner alias audit reports ${triage['proposed-alias-existing']}/${triage['proposed-alias-existing']} full-source detector matches`, 'Existing-owner audit count is stale');
 expectText(audit, `${formatted(report.existingCanonical - 10 + report.pilotDrafts)} authored records, 0 schema errors`, 'Combined imported-plus-draft record count is stale');
+for (let audioGate = 1; audioGate <= 7; audioGate++) {
+  const gateId = `AUD${String(audioGate).padStart(2, '0')}`;
+  const gateLine = audit.split('\n').find(line => line.includes(`**${gateId} —`)) ?? '';
+  expectText(gateLine, `${formatted(report.pilotAudioRequests)} requested roles`, `${gateId} has a stale audio-role count`);
+}
 
 if (errors.length) {
   for (const error of errors) console.error(error);
