@@ -1773,5 +1773,5 @@ body > .site-header.edmund-system-header {
 .compass-decision h3 small { line-height: 1.55; }
 .compass-option-copy { min-width: 0; overflow-wrap: anywhere; }
 
-.compass-option > .compass-option-copy { text-align: left; }
+.compass-option > .compass-option-copy { text-align: left; place-items: normal; }
 .compass-section-label small,.compass-header .page-label small { display: block; margin-top: 3px; font-size: 10px; font-weight: 600; letter-spacing: .06em; }
