@@ -1,0 +1,31 @@
+{
+  "reviewKind": "independent focused seven-step review for held-source 2354",
+  "createdUtc": "2026-10-23T20:30:25.516780+00:00",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2354-a.json",
+  "draftSha256": "578890568487541ad8f8d4e820cde8fe66ae76a6bb3cd9601e18e9be78db34ae",
+  "authorAuditSha256": "c37715ca6c64d701fb1e6a39d8f5cf48ce2df939485f73953bb4f27b6d27bcd6",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "dependentDecisionPath": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+  "dependentDecisionSha256": "f459fa31e279f2622bb650ebf9eeb2bda13ec11696be828ba32b824e9d8a16da",
+  "contentAssessment": {
+    "idiomAndSourceSense": "Pass. Earn one’s stripes describes deserved standing earned through tested work; difficult season and learner scenarios fit. Human-coach its remains only as exact provenance and an explicit error note; learner-facing examples use natural human pronouns.",
+    "sevenSteps": "Pass. Listening kitchen, reply repair cafe, scene gallery, contrast qualification without work, dialogue stage management, speaking fieldwork, and writing library/flood drills require separate contextual decisions.",
+    "fourReplies": "Pass. All four reply options answer Ravi’s growing team standing using supplied evidence; keyed option uniquely carries target.",
+    "assessments": "Six keys are grounded; scene and dialogue keys contain target; English and Traditional Chinese align.",
+    "writingAndGlossary": "Two changed-context models satisfy their prompt, use natural pronouns and target, and six non-target glossary spans are exact.",
+    "targetAndAudio": "Target pattern matches exact source and assessed forms; speaking span and four audio texts pass focused structural check."
+  },
+  "findings": [
+    {
+      "id": "R2354-01",
+      "severity": "blocking dependency before selection",
+      "path": "books10-16/editorial-decisions-3252-3311.jsonl:sourceOrdinal=3285 and drafts-books10-16/batch-held-2354-a.json:lessons[0].sources",
+      "evidence": "book10-16-1174 at source ordinal 3285 repeats the exact 2354 expression and full source sentence but is still hold-editorial; the proposed owner lists only occurrence book10-16-0243.",
+      "requiredAction": "When promoting owner 2354, assign 3285 as alias-new to 2354 and add its exact occurrence provenance, or document a substantive reason to leave a verbatim repeat on hold. Rebuild and recheck full-source alias coverage."
+    }
+  ],
+  "verdict": "Content clear; dependent repeat-source disposition blocks selection",
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "externalUsageReference": "https://www.oxfordlearnersdictionaries.com/definition/english/stripe"
+}

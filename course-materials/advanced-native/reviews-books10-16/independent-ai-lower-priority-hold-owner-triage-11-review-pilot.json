@@ -1,0 +1,184 @@
+{
+  "reviewKind": "read-only-lower-priority-owner-candidate-triage",
+  "reviewer": "independent AI peer review; not human approval or release approval",
+  "status": "read-only; no decisions, lessons, manifest or release files edited",
+  "inputsSha256": {
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/reviews-books10-16/read-only-hold-alias-triage-3000-4000-61-review-pilot.json": "ee3f1f5c60ed26ef8cee2f0b331f8326c7c2d9be8698e5f0548741c69cef9c8e",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-0751-0775.json": "e55592593772f9649fee8d3de1cf9917435a2573c7753188ad05dfdb64c23f25",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "5e2e03d819f53f9cc12947f6804e31b2e5b6eb42feebda3dcfbdb84cf564f000",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-1701-1725.json": "decc831dbf9f5e2957c88780c0e92f45a1e06018f4a953b115547024427b6e93",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-0851-0875.json": "c88f6c0ba128739cd198c52ca7e7a7f4a508757c2022b9d8c00775107ea49b86",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl": "e9bafac5cf08c4b87c456fa3973403837e80b68ae88d05f9b3c0f8db2cce469d",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-1901-1925.json": "3c9859a166b43ef53f36094209e1e7df45304a78867616d2f0a2c541f5593ff7",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl": "6a2a240a3981ca4ac0a75838f06e7f54457f8a30736e3435a7694a4b4c9e7a0e",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-0901-0925.json": "a676cffaa7824fa1bef83fa47e70e2af55a833b5da329db6de560b676f67675c",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "ec5594bd62e300d04f99d8f82bd9e3cd92823ea773fe295afa001b796617f481",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-1826-1850.json": "c652134bd9bf2763359dbebf092e17f9ad9472ff9bddcc88588303106d3020be",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl": "74f7ddda1cdfc7a59a7b7e9dff8b1bf158bdac67f37024cae016db2583406c5d",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json": "4a03b2a8c49d147814d462a54b6da3ced2c78dda44e0108137b4e33dfe625c4b",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "291402b772b5375d0fcca829605d1183c1bab4d39c76c950c06049fe8e50bea0",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-2051-2075.json": "d37dc77b26d96e4b07a567afa66e52ca7844e293586736b7c28c30bccbb5d4bd",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl": "2192d51ed6839c76275f42ae2b84d5740130e2b6d763288e61a7c9eaffa5e30a",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/batches/batch-1501-1525.json": "c40e9b740ddacc0e543e579608d8a6064a4a6ac0bfa626e5e611574e0e14436b",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl": "eba01974df277cacb4a036f3e3b3fb80a5deff71158c02c12e63dbc119d651e0",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/repo/course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl": "0256c49f5c30c937fc2ee6359bcb3e050a5a91f0f87c397b917d32d4614ce48e"
+  },
+  "summary": {
+    "reviewed": 11,
+    "candidateBoundedExpansion": 3,
+    "keepHeld": 8,
+    "immediateSafeAliasWithoutOwnerChange": 0
+  },
+  "primaryUsageEvidence": [
+    {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/spread-your-wings",
+      "point": "Collins explicitly gives stretch your wings as an alternate to spread your wings."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/straight",
+      "point": "Cambridge records think straight for clear thinking; source comparative think straighter needs separate editorial support."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/take-the-shine-off",
+      "point": "Cambridge records an object-flexible shine-off idiom, but does not resolve source 3468 pronoun reference."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ripple-effect",
+      "point": "Cambridge supports spreading downstream effects; causative send ripples still needs its own bounded grammar gate."
+    }
+  ],
+  "rows": [
+    {
+      "sourceOrdinal": 3018,
+      "sourceId": "book10-16-0907",
+      "sourceSentence": "One policy change can send ripples far beyond the office.",
+      "candidateOwnerId": "advanced-native-772",
+      "currentOwnerTargetPattern": "\\brippl(?:e|es|ed|ing) out(?:ward)?\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "candidate-bounded-owner-expansion",
+      "confidence": "medium",
+      "senseAndBoundary": "Same spreading-consequences decision as 772; however send ripples is causative noun construction, while owner teaches intransitive ripple out/through. A bounded alternate can be considered if its grammar is explained and assessed, not silently folded into the verb pattern.",
+      "nextGate": "Add a branch requiring send/sends/sent/sending + ripples + a path/extent complement; exclude literal water ripples and standalone far beyond. Test full source plus existing 772 positives."
+    },
+    {
+      "sourceOrdinal": 3031,
+      "sourceId": "book10-16-0920",
+      "sourceSentence": "Creativity changes its clothes as people grow older.",
+      "candidateOwnerId": "advanced-native-1706",
+      "currentOwnerTargetPattern": "\\b(?:has|have|had) simply changed clothes\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "medium",
+      "senseAndBoundary": "Same underlying-form-change image as 1706, but changes its clothes is a productive personification, not established as a reusable fixed unit by this source alone. Current owner teaches the narrower has simply changed clothes form.",
+      "nextGate": "If later promoted, handle with 3753 and 3998 together; require semantic evidence, bounded abstract subject and nonliteral use."
+    },
+    {
+      "sourceOrdinal": 3239,
+      "sourceId": "book10-16-1128",
+      "sourceSentence": "A calm conversation helped me think straighter.",
+      "candidateOwnerId": "advanced-native-873",
+      "currentOwnerTargetPattern": "\\b(?:think|thinks|thinking|thought) straight\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "high",
+      "senseAndBoundary": "Source comparative think straighter conveys clarity but is less conventional than the documented think straight unit. Broadly adding straighter would teach an uncertain form, with no unique learner decision.",
+      "nextGate": "Editorially normalize source example or retain hold; do not claim the current 873 detector covers it."
+    },
+    {
+      "sourceOrdinal": 3350,
+      "sourceId": "book10-16-1239",
+      "sourceSentence": "A good mentor is a bit like a compass.",
+      "candidateOwnerId": "advanced-native-1913",
+      "currentOwnerTargetPattern": "\\bact(?:s|ed|ing)? like a compass\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "high",
+      "senseAndBoundary": "A mentor is a bit like a compass is a transparent productive simile. Owner 1913 already teaches a mentor acting like a compass; new wording adds no distinct reusable target.",
+      "nextGate": "Retain the source as contextual example only if prose provenance is desired; do not widen assessment detector to any like a compass string."
+    },
+    {
+      "sourceOrdinal": 3375,
+      "sourceId": "book10-16-1264",
+      "sourceSentence": "Pressure can make advice feel like a cage rather than a compass.",
+      "candidateOwnerId": "advanced-native-904",
+      "currentOwnerTargetPattern": "\\ba compass,? not a cage\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "candidate-bounded-owner-expansion",
+      "confidence": "medium",
+      "senseAndBoundary": "Owner 904 already contrasts direction with over-control and supports a comparative variant. Source reverses the evaluation but tests the same learner decision: pressure turns advice into a restriction rather than guidance.",
+      "nextGate": "If expanding, require the complete paired cage/compass comparison, preserve direction of contrast, add Chinese/answer check; reject cage or compass alone."
+    },
+    {
+      "sourceOrdinal": 3468,
+      "sourceId": "book10-16-1357",
+      "sourceSentence": "A long journey can take the shine off it.",
+      "candidateOwnerId": "advanced-native-1839",
+      "currentOwnerTargetPattern": "\\btak(?:e|es|en|ing) the shine off the trip\\b|\\btook the shine off the trip\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "high",
+      "senseAndBoundary": "The established idiom can take varied objects, but this source’s it has no clear antecedent. Owner 1839 is trip-specific; importing the ambiguous pronoun would make its answer evidence weak.",
+      "nextGate": "Clarify original referent in source metadata or use a verified sentence before broadening trip-only owner."
+    },
+    {
+      "sourceOrdinal": 3650,
+      "sourceId": "book10-16-1539",
+      "sourceSentence": "Parents need not be holding the steering wheel all the time.",
+      "candidateOwnerId": "advanced-native-2876",
+      "currentOwnerTargetPattern": "\\bhands?\\s+on\\s+the\\s+wheel\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "medium",
+      "senseAndBoundary": "Control metaphor is semantically close to 2876, yet holding the steering wheel all the time is productive imagery rather than its hands-on-the-wheel unit. Widening the detector would risk literal driving and a second lesson grammar.",
+      "nextGate": "Hold until a distinct reusable construction and target boundary are justified; do not equate wheel noun alone with practical authority."
+    },
+    {
+      "sourceOrdinal": 3660,
+      "sourceId": "book10-16-1549",
+      "sourceSentence": "Teenagers need safe chances to stretch their wings.",
+      "candidateOwnerId": "advanced-native-2055",
+      "currentOwnerTargetPattern": "\\bspread(?:s|ing)? (?:their|our|my|your|her|his) wings\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "candidate-bounded-owner-expansion",
+      "confidence": "high",
+      "senseAndBoundary": "Collins explicitly lists stretch your wings as an alternate to spread your wings. Source safe chances for teenagers to gain independence fits owner 2055, without requiring a second lesson.",
+      "nextGate": "Add stretch/stretches/stretched/stretching + possessive + wings as a separate bounded branch; require figurative development context in assessment, keep literal bird/body examples negative."
+    },
+    {
+      "sourceOrdinal": 3753,
+      "sourceId": "book10-16-1642",
+      "sourceSentence": "The habit changed its clothes when it moved online.",
+      "candidateOwnerId": "advanced-native-1706",
+      "currentOwnerTargetPattern": "\\b(?:has|have|had) simply changed clothes\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "medium",
+      "senseAndBoundary": "Different form of the same clothing personification as 3031, but presently a bespoke metaphor. Exact source-sense overlap does not by itself justify target expansion.",
+      "nextGate": "Resolve together with 3031 and repeated 3998, not as a new owner."
+    },
+    {
+      "sourceOrdinal": 3821,
+      "sourceId": "book10-16-1710",
+      "sourceSentence": "The programme is deeply woven into community life.",
+      "candidateOwnerId": "advanced-native-1503",
+      "currentOwnerTargetPattern": "(?:\\b(?:deeply )?woven into (?:daily routines|(?:ordinary )?daily life|ordinary life|everyday living|everyday life)\\b)|(?:\\bwoven quite naturally into everyday life\\b)",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "medium",
+      "senseAndBoundary": "Community life describes social integration, broader than owner 1503’s habitual daily routines. Canonical 271 covers community fabric but requires woven into the fabric; this source omits fabric. Neither detector safely owns it today.",
+      "nextGate": "Keep held pending proof of routine frequency or a separately justified bounded community-life unit; do not auto-route to 1503/271."
+    },
+    {
+      "sourceOrdinal": 3998,
+      "sourceId": "book10-16-1887",
+      "sourceSentence": "Creativity changes its clothes as people grow older.",
+      "candidateOwnerId": "advanced-native-1706",
+      "currentOwnerTargetPattern": "\\b(?:has|have|had) simply changed clothes\\b",
+      "fullSourceMatchesCurrentOwner": false,
+      "disposition": "keep-hold",
+      "confidence": "medium",
+      "senseAndBoundary": "Exact repeat of 3031 source sentence. It should inherit 3031’s eventual disposition, not spawn a separate lesson.",
+      "nextGate": "Keep held until 3031 is resolved; then attach repeat occurrence as source provenance only."
+    }
+  ]
+}

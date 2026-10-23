@@ -1,0 +1,19 @@
+{
+  "reviewKind": "independent scoped follow-up to R2354-01",
+  "createdUtc": "2026-10-23T20:30:47.858977+00:00",
+  "initialReviewSha256": "e2e36a1829c18c7398394ab2fa0513cd713ea9801f948e2894a7201cde1d8c8c",
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2354-a.json",
+  "draftSha256": "98d10f41653238e9c10ff5b4142c471d56fe3dacc2932fb263644b99bbdec34a",
+  "authorAuditSha256": "00422ef68de5d273462cb4c48a555524fa8bd506f7aaf3b28acdb43ed7fc8109",
+  "status": "content clear; decision promotion pending",
+  "findingDisposition": {
+    "R2354-01": "resolved in draft provenance: both occurrences appear with exact original expression and sentence, and both complete source sentences match target detector. The duplicate 3285 decision remains hold-editorial while owner 2354 is unselected; paired future action must set 2354 proposed-new and 3285 alias-new→2354 in one coordinated selection."
+  },
+  "learnerContent": "No contentRevision bump or new assessed-content change reported; original content-clear judgment remains applicable. Focused author build/--check 1/6/4/0; not rerun independently.",
+  "decisionState": {
+    "2354": "hold-editorial",
+    "3285": "hold-editorial"
+  },
+  "selectionApproval": false,
+  "releaseApproval": false
+}

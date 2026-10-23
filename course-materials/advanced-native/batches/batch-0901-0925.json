@@ -559,9 +559,9 @@
       "titleEn": "a compass, not a cage",
       "titleZh": "給方向而不困住選擇",
       "category": "figurative",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\b(?:a compass,? not a cage|more like a compass than a cage)\\b",
+        "pattern": "\\b(?:a compass,? not a cage|more like a compass than a cage|a cage rather than a compass)\\b",
         "glossaryForbidden": [
           "\\bcompass\\b",
           "\\bcage\\b"
@@ -594,13 +594,27 @@
           "sentence": "A broad plan is more like a compass than a cage.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "a compass than a cage"
+        },
+        {
+          "occurrenceId": "book10-16-1264",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 117,
+          "book": 12,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "118–120",
+          "locatorNote": "DOCX table 121, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Pressure can make advice feel like a cage rather than a compass.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a cage rather than a compass"
         }
       ],
       "brief": {
         "meaningEn": "Guidance should help someone find a direction without controlling all their choices.",
         "meaningZh": "指引應幫人找方向，不控制其全部選擇。",
-        "grammar": "Advice, guidance or a plan can be a compass, not a cage, or more like a compass than a cage: it gives direction without removing the learner’s choice. The comparative variant does not imply that all rules are harmful.",
-        "register": "Contextual double metaphor, not a single fixed dictionary idiom or a rejection of all rules.",
+        "grammar": "Advice, guidance or a plan can be a compass, not a cage, or more like a compass than a cage when it gives direction without removing choice. If pressure makes advice feel like a cage rather than a compass, the comparison reverses: restriction has displaced guidance. The variants do not imply that all rules are harmful.",
+        "register": "Contextual double metaphor, not a fixed dictionary idiom; the reversed cage-rather-than-compass wording is a warning about pressure, not praise for the advice.",
         "boundaryZh": "保留自主不等於忽略責任、可靠資料或他人需要；需說明建議如何提供方向。",
         "misconceptionZh": "與springboard機會跳板不同，compass重點是指方向，cage是過度限制。",
         "outcomeZh": "能感謝方向性建議並保留適合自己情況的判斷。"
@@ -808,8 +822,8 @@
           "zh": "比較兩條設計道路時，導師問題是指南針，不是牢籠。"
         },
         {
-          "en": "A useful mentor is more like a compass than a cage: she explains the routes and lets trainees choose.",
-          "zh": "有幫助的導師更像指南針而不是牢籠：她說明不同路線，讓學員自己選擇。"
+          "en": "When a mentor forbids every alternative, the advice can feel like a cage rather than a compass.",
+          "zh": "當導師禁止所有其他選項時，建議便可能像牢籠而非指南針。"
         }
       ],
       "review": {

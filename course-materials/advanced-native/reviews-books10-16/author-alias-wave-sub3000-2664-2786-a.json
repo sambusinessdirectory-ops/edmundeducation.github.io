@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "scope": "Focused sub-3000 existing-owner variant expansion; no selected manifest edit or publication",
+  "changes": [
+    {
+      "sourceOrdinal": 2664,
+      "sourceId": "book10-16-0553",
+      "ownerId": "advanced-native-398",
+      "sourceExpression": "leave the same deep footprint",
+      "fullSourceExample": "Few new songs leave the same deep footprint for me.",
+      "sourceExampleMatchesOwner": true,
+      "exactProvenanceAttached": true,
+      "ownerContentRevision": 3
+    },
+    {
+      "sourceOrdinal": 2717,
+      "sourceId": "book10-16-0606",
+      "ownerId": "advanced-native-1079",
+      "sourceExpression": "close to home",
+      "fullSourceExample": "The lyrics feel close to home for many listeners.",
+      "sourceExampleMatchesOwner": true,
+      "exactProvenanceAttached": true,
+      "ownerContentRevision": 2
+    },
+    {
+      "sourceOrdinal": 2786,
+      "sourceId": "book10-16-0675",
+      "ownerId": "advanced-native-1079",
+      "sourceExpression": "close to home",
+      "fullSourceExample": "The lyrics feel close to home for many listeners.",
+      "sourceExampleMatchesOwner": true,
+      "exactProvenanceAttached": true,
+      "ownerContentRevision": 2
+    },
+    {
+      "sourceOrdinal": 2770,
+      "sourceId": "book10-16-0659",
+      "ownerId": "advanced-native-059",
+      "sourceExpression": "the weight of a whole nation on their shoulders",
+      "fullSourceExample": "No artist should carry the weight of a whole nation on their shoulders.",
+      "sourceExampleMatchesOwner": true,
+      "exactProvenanceAttached": true,
+      "ownerContentRevision": 2
+    }
+  ],
+  "held": [
+    {
+      "sourceOrdinal": 2729,
+      "sourceId": "book10-16-0618",
+      "sourceExpression": "the spotlight is shared",
+      "proposedOwner": "advanced-native-1478",
+      "reason": "Source asserts positive division of attention among creators; canonical 1478 teaches attention is not always equally divided. These opposite truth conditions require a distinct lesson or explicit broader redesign, so a regex-only alias would misteach the assessed owner."
+    }
+  ],
+  "fileHashes": {
+    "batches/batch-0376-0400.json": {
+      "beforeSha256": "046312feda48d8defc6b7dd6533ec51d21c49a0bbaed83694a5bfd4aa28456a3",
+      "afterSha256": "713e6b5de3c3a4c2697c0767fc77270175ded190765f1ce54cdfeb031eb60987"
+    },
+    "batches/batch-1076-1100.json": {
+      "beforeSha256": "46d5d1b7291498a54851b85c717c265a6944bae1c4566e38272064d5ddf9a930",
+      "afterSha256": "c21d14a7cd70acd01c9874eab038b49dd0cb63d29c99310ea87bbd228b21506e"
+    },
+    "batches/batch-0051-0075.json": {
+      "beforeSha256": "3ad66ac612540163311a64b707faf55341ad8e823c208eca92f1ba67e57c1795",
+      "afterSha256": "fcb338a02a8e1a7180b6b7b30e24c26c436646842da09db1ab24b6c00b82db0b"
+    },
+    "books10-16/editorial-decisions-2652-2711.jsonl": {
+      "beforeSha256": "48007ebf36399c6bf0d2475cec81e16f8e01aa9ee5b93280f7e9dc56a64b2b99",
+      "afterSha256": "c9092243c1a9f0290269ad46d73e27cfd12fbed41813eef71ac04a63d6e6174e"
+    },
+    "books10-16/editorial-decisions-2712-2771.jsonl": {
+      "beforeSha256": "e8cf00daea9717734d1be5a99e043c72a7590873800a32dc2f544ba4b39e41b4",
+      "afterSha256": "1b168b5841c94991f15ccb8e2ef274a9c15f48397601ac262c0c42f1d90e7a9f"
+    },
+    "books10-16/editorial-decisions-2772-2831.jsonl": {
+      "beforeSha256": "9df8058dfb802d9108ebad390fc64603eb3b87ed93a5ba9693982bba3519b499",
+      "afterSha256": "ce61f2f80ab4502c2de3b9db7846716af68aa239ffb8670b0acc51efe5aed746"
+    }
+  },
+  "regexControls": {
+    "398": {
+      "pattern": "\\b(?:leave|leaves|leaving|left)\\s+(?:a\\s+deeper|the\\s+same\\s+deep)\\s+footprint\\b",
+      "positive": [
+        {
+          "text": "A thoughtful novel may leave a deeper footprint than a short film.",
+          "matched": true
+        },
+        {
+          "text": "Few new songs leave the same deep footprint for me.",
+          "matched": true
+        },
+        {
+          "text": "The recorded story left the same deep footprint on both listeners.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The report left a deep footprint.",
+          "matched": false
+        },
+        {
+          "text": "The report left the same deeper footprint.",
+          "matched": false
+        },
+        {
+          "text": "The report left footprints.",
+          "matched": false
+        }
+      ]
+    },
+    "1079": {
+      "pattern": "\\b(?:hit(?:s|ting)?|feel(?:s|ing)?|felt)\\s+close\\s+to\\s+home\\b",
+      "positive": [
+        {
+          "text": "Pollution hits close to home for harbour residents.",
+          "matched": true
+        },
+        {
+          "text": "The lyrics feel close to home for many listeners.",
+          "matched": true
+        },
+        {
+          "text": "The housing debate felt close to home for Mei.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "The hall is close to home.",
+          "matched": false
+        },
+        {
+          "text": "The news feels close to her home.",
+          "matched": false
+        },
+        {
+          "text": "The debate feels closer to home.",
+          "matched": false
+        }
+      ]
+    },
+    "59": {
+      "pattern": "\\b(?:carry|carries|carried|carrying)\\s+the\\s+(?:weight\\s+of\\s+(?:the\\s+world|a\\s+whole\\s+nation)|whole\\s+world)\\s+on\\s+(?:my|your|his|her|our|their)\\s+shoulders\\b",
+      "positive": [
+        {
+          "text": "No one should carry the weight of the world on their shoulders at work.",
+          "matched": true
+        },
+        {
+          "text": "Children should not grow up carrying the whole world on their shoulders.",
+          "matched": true
+        },
+        {
+          "text": "No artist should carry the weight of a whole nation on their shoulders.",
+          "matched": true
+        }
+      ],
+      "negative": [
+        {
+          "text": "She carried the weight of a whole city on her shoulders.",
+          "matched": false
+        },
+        {
+          "text": "She carried the weight of a whole nation in her arms.",
+          "matched": false
+        },
+        {
+          "text": "She carried the weight of a whole nation on the shoulders.",
+          "matched": false
+        }
+      ]
+    }
+  },
+  "lexicalLimit": "Regex controls test bounded word forms; a figurative idiom can still appear literally in other contexts, so source and learner examples were checked for intended meaning.",
+  "validation": {
+    "focusedOwnerBuildCheck": "all three owner batch builds and --check passed, zero review flags",
+    "explicitDecisionAliasAudit": "67/67 matching, zero exceptions",
+    "fullBooks1016Verifier": "2604 source and decision rows; 587 selected lessons, 3522 questions, 2348 audio requests; zero schema, existing-alias, new-alias, exact-guide-copy and near-duplicate flags"
+  },
+  "reviewStatus": "author self-audit only; independent Pilot review pending",
+  "assessedVariantEvidence": {
+    "398": "scene.answerId a now contrasts equally lasting “the same deep footprint” with a stronger “deeper footprint”; English/Traditional Chinese and explanation align. Existing deeper-form assessments remain intact."
+  }
+}

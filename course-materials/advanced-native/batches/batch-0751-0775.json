@@ -5419,9 +5419,9 @@
       "titleEn": "ripple out / outward",
       "titleZh": "影響逐步向外擴散",
       "category": "phrasal-verb",
-      "contentRevision": 2,
+      "contentRevision": 3,
       "target": {
-        "pattern": "\\brippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)\\b",
+        "pattern": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b",
         "glossaryForbidden": [
           "\\brippl(?:e|es|ed|ing)\\b"
         ]
@@ -5466,13 +5466,27 @@
           "sentence": "A job change may ripple through the whole family.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "ripple through the whole family"
+        },
+        {
+          "occurrenceId": "book10-16-0907",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 84,
+          "book": 12,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 86, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One policy change can send ripples far beyond the office.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "send ripples far beyond"
         }
       ],
       "brief": {
         "meaningEn": "Spread from an initial event or group to affect other people or areas.",
         "meaningZh": "從最初事件或群體向外擴散，影響其他人或領域。",
-        "grammar": "Effects, benefits or problems can ripple out or ripple outward from a starting point; a change can also ripple through a family when linked relatives are affected. Identify the initial cause and transmission, rather than assuming coincidence proves impact.",
-        "register": "Common figurative water-movement phrasal verb; can describe good or bad effects.",
+        "grammar": "Effects, benefits or problems can ripple out or ripple outward; a change can ripple through a family; and a decision can send ripples far beyond its starting group. Send ripples is causative, while ripple out/through is intransitive. Name the initial cause and a plausible transmission link rather than assuming coincidence proves impact.",
+        "register": "Common figurative water-movement metaphor for good or bad effects; send ripples far beyond is a causative variant, not a claim that every distant effect is certain.",
         "boundaryZh": "不表示每個人同時受相同影響，也不限定一定緩慢；需有傳播連結。",
         "misconceptionZh": "要說明最初來源及後續影響，不能只把同時發生但無關的事連起來。",
         "outcomeZh": "能描繪有依據的連鎖影響，並保留範圍差異。"
@@ -5680,8 +5694,8 @@
           "zh": "小改變可透過互相連結的社區向外擴散。"
         },
         {
-          "en": "A changed shift can ripple through a family when childcare plans have to move.",
-          "zh": "輪班改動令照顧孩子的安排也要調整時，影響可波及整個家庭。"
+          "en": "One timetable change can send ripples far beyond the first team when other groups depend on its deliveries.",
+          "zh": "若其他小組依賴第一組的送貨，一項時間表改動便可能令影響擴散到遠超第一組的範圍。"
         }
       ],
       "review": {

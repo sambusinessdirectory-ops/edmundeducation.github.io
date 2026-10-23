@@ -5635,17 +5635,17 @@
     "titleZh": "留下更深遠的印象",
     "category": "figurative",
     "target": {
-      "pattern": "\\b(?:leave|leaves|leaving|left) a deeper footprint\\b",
+      "pattern": "\\b(?:leave|leaves|leaving|left)\\s+(?:a\\s+deeper|the\\s+same\\s+deep)\\s+footprint\\b",
       "glossaryForbidden": [
         "\\bfootprint\\b"
       ]
     },
     "brief": {
-      "meaningEn": "Make a stronger lasting impression or influence, using a deeper-mark image.",
-      "meaningZh": "以較深足印的意象，形容留下較強、較持久的印象或影響。",
-      "grammar": "leave a deeper footprint on/in someone’s memory or understanding; left in past; identify the comparison behind deeper.",
-      "register": "Contextual footprint metaphor for a lasting impression. This lesson is not a measure of environmental impact or a literal mark on the ground.",
-      "boundaryZh": "較深是相關比較，不表示每人感受相同、作品客觀較好或任何媒介必勝另一種；需記憶或影響的具體依據。",
+      "meaningEn": "Leave a lasting impression or influence; a deeper footprint compares stronger impact, while the same deep footprint compares an equally lasting impact.",
+      "meaningZh": "以足印比喻持久印象或影響；「較深」比較較強影響，「同樣深」比較相若的持久影響。",
+      "grammar": "leave a deeper footprint or leave the same deep footprint; left in past. Name the comparison and later evidence for stronger or equally lasting impact.",
+      "register": "Reflective figurative comparison; a reviewer or listener may tell a friend which work or moment stayed with them, while limiting the claim to the people compared.",
+      "boundaryZh": "「較深」與「同樣深」的比較方向不同；兩者都須有持久記憶或影響的依據，不能單憑當下熱鬧程度或作品長短判斷。",
       "misconceptionZh": "當下較熱鬧或較長，不必然代表長遠影響較大。",
       "outcomeZh": "能以後續記憶或思考支持比較，保留個人感受範圍。"
     },
@@ -5662,6 +5662,20 @@
         "sample": "S2",
         "locatorNote": "PDF page 16, table 1, row 3; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-2-p016-t1-r03"
+      },
+      {
+        "occurrenceId": "book10-16-0553",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 51,
+        "book": 11,
+        "question": 10,
+        "sample": "S2",
+        "sourceBookPages": "25–27",
+        "locatorNote": "DOCX table 46, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Few new songs leave the same deep footprint for me.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "leave the same deep footprint"
       }
     ],
     "listening": {
@@ -5722,26 +5736,26 @@
       "goldenId": "b"
     },
     "scene": {
-      "promptZh": "兩個故事當天都吸引你，但其中一個讓你一月後仍重新思考角色的選擇；你想只說自己的持久感受。哪句準確？",
+      "promptZh": "兩個故事在一個月後仍令你思考角色的選擇；你對兩者的記憶和後續討論相若，只想說自己的持久感受。哪句最準確？",
       "options": [
         {
           "id": "a",
-          "en": "That story left a deeper footprint on my thinking about the character’s choice.",
-          "zh": "那故事在我對角色選擇的思考中留下更深足印。"
+          "en": "Both stories left the same deep footprint on my thinking; a month later, I was still discussing each.",
+          "zh": "兩個故事在我的思考中留下同樣深的印象；一個月後我仍會談起兩者。"
         },
         {
           "id": "b",
-          "en": "The story was more exciting at the instant of reading, which is the only comparison described.",
-          "zh": "故事在當下讀時較刺激，這是唯一已描述比較。"
+          "en": "The first story left a deeper footprint than the second on my later thinking.",
+          "zh": "第一個故事在我之後的思考中留下比第二個更深的印象。"
         },
         {
           "id": "c",
-          "en": "The two stories left no memory once the reading session ended.",
-          "zh": "閱讀環節結束，兩個故事都沒留記憶。"
+          "en": "The stories made an impression that lasted only until the end of the reading session.",
+          "zh": "兩個故事的印象只維持到閱讀環節結束。"
         }
       ],
       "answerId": "a",
-      "explanationZh": "題目有一月後仍思考的比較，不只當下刺激；亦不合兩個都忘掉。"
+      "explanationZh": "題目說兩個故事都有持久影響，而且後續記憶和討論相若；金句用 the same deep footprint 表示相若的持久影響，不能改稱第一個較深或兩者很快被忘掉。"
     },
     "contrast": {
       "promptZh": "哪項最不宜只憑 left a deeper footprint 得出？",
@@ -5770,8 +5784,8 @@
       "options": [
         {
           "id": "a",
-          "en": "Keep the comparison within my later reflection, without judging everyone else’s experience.",
-          "zh": "把比較限於我之後的反思，不判所有其他人的體驗。"
+          "en": "The conversation left a deeper footprint on my thinking, but that reflects my experience, not the whole audience’s.",
+          "zh": "那段談話在我的思考中留下更深印象，但這只反映我的體驗，不能代表全體觀眾。"
         },
         {
           "id": "b",
@@ -5785,7 +5799,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "應以自己後續思考作有範圍的比較，不代全體觀眾，也不以當下音量代長期影響。"
+      "explanationZh": "正確回答用目標比喻描述自己後續的思考，同時把比較限於個人經驗，不代全體觀眾，也不以當下音量代長期影響。"
     },
     "speaking": {
       "en": "The exchange left a deeper footprint on my thinking than I expected.",
@@ -5863,8 +5877,8 @@
         "zh": "小小耐心行動比正式歡迎在她記憶中留下更深足印。"
       },
       {
-        "en": "Their final conversation left a deeper footprint on his understanding of the journey.",
-        "zh": "最後談話在他對旅程的理解中留下更深足印。"
+        "en": "The recorded story left the same deep footprint on both listeners; each still spoke of it years later.",
+        "zh": "那段錄音故事在兩位聽眾心中留下同樣深的印象；多年後兩人仍會談起它。"
       }
     ],
     "review": {
@@ -5891,7 +5905,7 @@
       },
       "notes": []
     },
-    "contentRevision": 1
+    "contentRevision": 3
   },
   {
     "id": "advanced-native-400",

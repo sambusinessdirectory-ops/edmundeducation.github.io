@@ -1,0 +1,48 @@
+{
+  "reviewType": "independent focused AI review of three held-to-existing-owner expansions",
+  "createdUtc": "2026-10-23T20:28:09.528132+00:00",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-lower-priority-hold-owner-expansions-three-review-pilot.json",
+  "authorAuditSha256": "9f13e97510c436ef53044dc4fcbe0008a363fa8808e62fd142194595e25dc87b",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "verifiedAfterFileSha256": {
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "14f1d51155b7531fb61771b9d38de2128609f9b2441ea0d5cc527b6ccb53d04d",
+    "course-materials/advanced-native/batches/batch-0901-0925.json": "11d397334d3a108e586ba2081fa51e754571b9914c15a02966d16cdd0587571a",
+    "course-materials/advanced-native/batches/batch-2051-2075.json": "d0783f9b1f84f2e98e128120ea3a694b87c3c0dba33886de2ec3db5099058e91",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "32a8aeb4ec850841db14ceb2b954a7ee11dbaca298e8bc6a13aed169cc4da492",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "e8a43db8d188b94cb01314fa10e3152d7f72a681880694267c7176a5ad59fd1d",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "15af140c61d6009835b8a16831533517090ec1f057cec4081fbbad2b2f4d6a31"
+  },
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "verdict": "AI content-clear for these three alias conversions; no manifest or release approval",
+  "method": "Compared exact source sentence/expression/gloss and current decision with original owner sense, inspected exact changed owner fields and EN/ZH takeaway, confirmed all seven assessed fields of each owner byte-equivalent to Git HEAD, and independently tested 14 positive plus six negative live-JS target examples. Focused builder results are author-reported, not rerun here.",
+  "results": [
+    {
+      "sourceOrdinal": 3018,
+      "owner": 772,
+      "status": "clear",
+      "evidence": "Policy effects extending beyond the office are the same propagation metaphor as ripple out/through. The new send-ripples branch is a bounded causative frame; the timetable/deliveries takeaway supplies a plausible transmission link, with aligned Chinese."
+    },
+    {
+      "sourceOrdinal": 3375,
+      "owner": 904,
+      "status": "clear",
+      "evidence": "The source reverses the owner’s compass-not-cage comparison to warn that pressure makes advice restrictive. Brief explicitly teaches reversed polarity; the mentor takeaway and Chinese reflect prohibition, not helpful direction."
+    },
+    {
+      "sourceOrdinal": 3660,
+      "owner": 2055,
+      "status": "clear",
+      "evidence": "Stretch their wings is an attested alternative to spread their wings for wider experience and independence. The source and trial-workshop takeaway fit that sense without implying total withdrawal of support; Chinese expresses an initial independent try."
+    }
+  ],
+  "detectorChecks": {
+    "positive": 14,
+    "negative": 6,
+    "allPassed": true,
+    "literalScopeLimit": "The detector can also match a literal bird spreading or stretching its wings when a human possessive appears; source/lesson semantics, not regex alone, determine the figurative reading."
+  },
+  "assessedFieldsUnchanged": true,
+  "blockingFindings": [],
+  "referenceUrl": "https://www.collinsdictionary.com/us/dictionary/english/spread-your-wings"
+}

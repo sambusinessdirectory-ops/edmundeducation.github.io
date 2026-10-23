@@ -796,12 +796,13 @@
       "titleEn": "spread their wings",
       "titleZh": "初試身手，拓展較自主的新經驗",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bspread(?:s|ing)? (?:their|our|my|your|her|his) wings\\b",
+        "pattern": "\\b(?:spread(?:s|ing)?|stretch(?:es|ed|ing)?)\\s+(?:their|our|my|your|her|his)\\s+wings\\b",
         "glossaryForbidden": [
           "\\bspread(?:s|ing)?\\b",
-          "\\b(?:their|our|my|your|her|his) wings\\b"
+          "\\b(?:their|our|my|your|her|his) wings\\b",
+          "\\bstretch(?:es|ed|ing)?\\b"
         ]
       },
       "sources": [
@@ -817,13 +818,27 @@
           "sentence": "Moving cities lets graduates spread their wings.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "spread their wings"
+        },
+        {
+          "occurrenceId": "book10-16-1549",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 145,
+          "book": 14,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "locatorNote": "DOCX table 154, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Teenagers need safe chances to stretch their wings.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stretch their wings"
         }
       ],
       "brief": {
         "meaningEn": "Use one’s abilities in new activities or settings, often with greater confidence or independence.",
         "meaningZh": "在新活動或環境中運用自己的能力，常帶着較多信心或自主。",
-        "grammar": "spread your wings; spread in past as well, spreading in progress. The idiom can concern trying a new role or broader experience, not literal flight or necessarily cutting ties with home.",
-        "register": "An established idiom for developing abilities through new experiences and greater independence. Moving to a new place is one possible context, not a requirement.",
+        "grammar": "Spread your wings or stretch your wings; both take a possessive before wings and describe trying a new role or wider experience. Spread has the same past form; stretch has stretched and stretching. Independence can coexist with support and need not require moving away.",
+        "register": "Established figurative variants for using abilities in new experiences and growing independence; Collins lists stretch your wings as an alternative to spread your wings. Literal bird movement is outside this lesson.",
         "boundaryZh": "拓展不必完全不用幫助，也不一定搬家；要看是否有新的運用能力或經驗，不能只按地址、年齡或稱號判斷。",
         "misconceptionZh": "不要把獨立嘗試當成拒絕所有關係，也不以支持為名替對方決定每一步。",
         "outcomeZh": "能描述實際的新嘗試與選擇，也能提出尊重自主的支援。"
@@ -1031,8 +1046,8 @@
           "zh": "她帶領排練的一小部分，初試身手，再問小組，甚麼有助跟上她的解釋。"
         },
         {
-          "en": "The local project gave him a way to spread his wings without leaving the family routines he still wanted to keep.",
-          "zh": "本地項目讓他可以初試身手，也不用離開仍想保留的家庭習慣。"
+          "en": "The trial workshop let the teenagers stretch their wings while an experienced tutor stayed available for questions.",
+          "zh": "試辦工作坊讓青少年初試身手，同時有經驗的導師仍可回答問題。"
         }
       ],
       "review": {

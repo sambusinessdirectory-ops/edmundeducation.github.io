@@ -1,0 +1,73 @@
+{
+  "reviewKind": "independent-ai-exact-hash-sub3000-owner-expansion",
+  "reviewerStatus": "AI peer review only; not human editorial approval or release approval",
+  "status": "clear at frozen hashes after owner398 revision-3 scene repair",
+  "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-sub3000-2664-2786-a.json",
+  "authorAuditSha256": "9f8363c8ac7e1e58ce6d63c5919c9cbd0cf731b9a1d583eb3543f6dcfd63db47",
+  "reviewedAfterFileSha256": {
+    "batches/batch-0376-0400.json": "713e6b5de3c3a4c2697c0767fc77270175ded190765f1ce54cdfeb031eb60987",
+    "batches/batch-1076-1100.json": "c21d14a7cd70acd01c9874eab038b49dd0cb63d29c99310ea87bbd228b21506e",
+    "batches/batch-0051-0075.json": "fcb338a02a8e1a7180b6b7b30e24c26c436646842da09db1ab24b6c00b82db0b",
+    "books10-16/editorial-decisions-2652-2711.jsonl": "c9092243c1a9f0290269ad46d73e27cfd12fbed41813eef71ac04a63d6e6174e",
+    "books10-16/editorial-decisions-2712-2771.jsonl": "1b168b5841c94991f15ccb8e2ef274a9c15f48397601ac262c0c42f1d90e7a9f",
+    "books10-16/editorial-decisions-2772-2831.jsonl": "ce61f2f80ab4502c2de3b9db7846716af68aa239ffb8670b0acc51efe5aed746"
+  },
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "summary": {
+    "aliasSourceRowsCleared": 4,
+    "ownerRecordsReviewed": 3,
+    "blockingFindingsRemaining": 0,
+    "held2729Retained": true
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 2664,
+      "sourceId": "book10-16-0553",
+      "ownerId": "advanced-native-398",
+      "result": "clear-after-scoped-repair",
+      "evidence": "The source compares equal lasting emotional impact; revision 3 scene now gives equal post-reading memories and keys the same deep footprint while a deeper footprint is a factually unsupported foil. EN/ZH preserve equal versus stronger comparison, answerId a and historical question identity remain stable. Full source and prior owner example match bounded detector; exact occurrence attached."
+    },
+    {
+      "sourceOrdinal": 2717,
+      "sourceId": "book10-16-0606",
+      "ownerId": "advanced-native-1079",
+      "result": "clear",
+      "evidence": "Lyrics feel close to home expresses personal/familiar relevance, the same core learner decision as hit close to home; new feel/felt form is bounded, not physical distance. Provenance exact and changed takeaway EN/ZH faithful. Existing assessed fields unchanged."
+    },
+    {
+      "sourceOrdinal": 2786,
+      "sourceId": "book10-16-0675",
+      "ownerId": "advanced-native-1079",
+      "result": "clear",
+      "evidence": "Exact repeat of the 2717 lyrics source example with separate book/question occurrence. Same owner and bounded feel/felt detector; no duplicate lesson created."
+    },
+    {
+      "sourceOrdinal": 2770,
+      "sourceId": "book10-16-0659",
+      "ownerId": "advanced-native-059",
+      "result": "clear",
+      "evidence": "Artist bearing expectations of a whole nation is the same excessive figurative burden as weight of the world, with a bounded whole-nation alternate. Source provenance, brief EN/ZH and changed takeaway retain no literal load or medical inference; old assessment fields unchanged."
+    }
+  ],
+  "owner398OriginalFinding": {
+    "id": "R398-01",
+    "severity": "major",
+    "originalIssue": "First frozen revision taught the new equal-depth source only in takeaway 2; all assessed steps still tested the stronger deeper comparison.",
+    "resolution": "Revision 3 scene now asks for two equally lasting stories, keys the same deep footprint in English and Traditional Chinese, and makes stronger deeper the unsupported distractor; answerId a unchanged."
+  },
+  "heldDecision": {
+    "sourceOrdinal": 2729,
+    "action": "hold-editorial",
+    "reason": "Positive sharing of public attention conflicts with canonical 1478 negative unequal-division decision; no regex-only alias."
+  },
+  "verification": {
+    "exactHashMatch": "author audit and all six owner/decision after-file hashes matched at review",
+    "sourceProvenance": "all four attached Books10–16 occurrences match inventory sentence, expression, page, book, question and sample",
+    "targetControls": "18/18 author positive/negative live regex cases pass; every old and new owner source sentence matches",
+    "focusedBuildCheck": "independent 67 lessons, 402 questions, 268 audio roles, zero review flags; build and --check pass",
+    "assessmentScope": "398 scene and earlier 398 dialogue content changed but answer IDs preserved; 1079 and 059 assessed fields unchanged from HEAD",
+    "limitations": "Lexical regexes cannot independently determine figurative context; reviewed source and assessed contexts provide meaning. Changed second-takeaway audio and 398 scene content require downstream media/catalogue refresh before release."
+  },
+  "published": false,
+  "releaseApproved": false
+}

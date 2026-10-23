@@ -2070,12 +2070,12 @@
       "id": "advanced-native-059",
       "number": 59,
       "inventoryId": "expr-0059",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "titleEn": "carry the weight of the world on their shoulders",
       "titleZh": "覺得肩負所有重擔",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:carry|carries|carried|carrying)\\s+the\\s+(?:weight\\s+of\\s+the\\s+world|whole\\s+world)\\s+on\\s+(?:my|your|his|her|our|their)\\s+shoulders\\b"
+        "pattern": "\\b(?:carry|carries|carried|carrying)\\s+the\\s+(?:weight\\s+of\\s+(?:the\\s+world|a\\s+whole\\s+nation)|whole\\s+world)\\s+on\\s+(?:my|your|his|her|our|their)\\s+shoulders\\b"
       },
       "sources": [
         {
@@ -2118,14 +2118,28 @@
           "sentence": "Children should not grow up carrying the whole world on their shoulders.",
           "referenceSentenceKind": "guide_original_example",
           "locatorNote": "PDF page209, table1, row4"
+        },
+        {
+          "occurrenceId": "book10-16-0659",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 61,
+          "book": 11,
+          "question": 21,
+          "sample": "S2",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 57, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "No artist should carry the weight of a whole nation on their shoulders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the weight of a whole nation on their shoulders"
         }
       ],
       "brief": {
-        "meaningEn": "Feel burdened by overwhelming responsibilities or worries.",
-        "meaningZh": "覺得肩負極沉重的責任或憂慮。",
-        "grammar": "carry the weight of the world / carry the whole world on one’s shoulders; carries/carried/carrying. Both forms exaggerate the felt burden of responsibility or worries, not physical weight.",
-        "register": "neutral",
-        "boundaryZh": "這是情緒重擔的誇張比喻，不是實際重量，也不能據此斷定對方有特定疾病。",
+        "meaningEn": "Feel burdened by overwhelming responsibilities, worries or expectations, including pressure to represent an entire nation.",
+        "meaningZh": "覺得肩負難以獨力承擔的責任、憂慮或期望，包括被要求代表整個國家的壓力。",
+        "grammar": "carry the weight of the world, the whole world, or the weight of a whole nation on one’s shoulders; carries/carried/carrying. The nation form points to collective expectations, not a literal load.",
+        "register": "Emphatic figurative language; a teammate may reassure an overburdened colleague, or a commentator may ask an audience to share expectations placed on a public representative.",
+        "boundaryZh": "「整個國家的重擔」特指過度的集體期望；世界／國家都是誇張比喻，並非實際重量，也不能據此斷定對方有特定疾病。",
         "misconceptionZh": "這是情緒重擔的誇張比喻，不是實際重量，也不能據此斷定對方有特定疾病。",
         "outcomeZh": "理解「覺得肩負所有重擔」的語境及用法，並在新情境寫出自然句子。"
       },
@@ -2319,8 +2333,8 @@
           "zh": "你不必肩負所有重擔。"
         },
         {
-          "en": "He looked as if he carried the weight of the world on his shoulders.",
-          "zh": "他看來好像肩負所有重擔。"
+          "en": "The captain should not carry the weight of a whole nation on their shoulders after one defeat.",
+          "zh": "隊長不應因一場失利就獨自肩負整個國家的重擔。"
         }
       ],
       "review": {

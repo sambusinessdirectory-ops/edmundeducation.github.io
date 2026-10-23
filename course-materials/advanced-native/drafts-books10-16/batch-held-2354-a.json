@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-2354-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2354",
+      "number": 2354,
+      "inventoryId": "expr-2354",
+      "titleEn": "earn one’s stripes",
+      "titleZh": "靠實績證明自己",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:earn|earns|earned|earning)\\s+(?:my|your|his|her|our|their|its)\\s+stripes\\b",
+        "glossaryForbidden": [
+          "\\bstripes\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Prove ability and earn credibility through sustained, tested performance, rather than by title, age or mere time served.",
+        "meaningZh": "透過一段時間經得起考驗的表現證明能力、贏得信任，而非單靠頭銜、年資或待得夠久。",
+        "grammar": "earn/earns/earned/earning one’s stripes; use my/your/his/her/our/their for people, and its only for a non-human team or organisation. The source says a human coach “earns its stripes”; retain that wording as provenance, but do not imitate its pronoun.",
+        "register": "Informal-to-neutral figurative praise. A supervisor may tell colleagues that a trainee has earned trust, or a teammate may reassure a new member after repeated successful work.",
+        "boundaryZh": "必須有反覆或有難度的實際表現作依據；單靠被任命、穿上制服、待過一段時間或一次運氣好，不足以證明 earned their stripes。原文把人類教練稱為 its，屬代詞錯配，示範句須改用合適的人稱代詞。",
+        "misconceptionZh": "這不是字面上的條紋或軍階；句子指出信任是如何靠工作表現取得，而不是只宣稱對方「很有潛質」。",
+        "outcomeZh": "能說出完成了哪些有考驗的工作、經過多久，以及誰因此更信任此人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0243",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 22,
+          "book": 10,
+          "question": 18,
+          "sample": "S2",
+          "sourceBookPages": "43–45",
+          "locatorNote": "DOCX table 18, row 11; page refers to the locally rendered PDF recorded in the intake summary. The guide's human-coach pronoun its is preserved verbatim as a source error; learner models use human pronouns.",
+          "sentence": "The young coach earns its stripes by handling a difficult season.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "earns its stripes"
+        },
+        {
+          "occurrenceId": "book10-16-1174",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 109,
+          "book": 12,
+          "question": 43,
+          "sample": "S2",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 113, row 8; page refers to the locally rendered PDF recorded in the intake summary. Exact repeated occurrence of book10-16-0243; same human-coach pronoun error retained in provenance only.",
+          "sentence": "The young coach earns its stripes by handling a difficult season.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "earns its stripes"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending.",
+          "Guide example contains an inappropriate non-human pronoun for a person; source is preserved, and new teaching text repairs it.",
+          "Source ordinal 3285 is an exact repeated occurrence and should become alias-new to owner 2354 only when 2354 is selected; both provisional decisions remain held for now."
+        ]
+      },
+      "listening": {
+        "promptZh": "社區廚房為甚麼開始信任 Hana 擔任值班負責人？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She managed stock, a delivery problem and newcomer training well over several weekends.",
+            "zh": "她連續多個週末妥善處理存貨、送貨問題及新義工培訓。"
+          },
+          {
+            "id": "b",
+            "en": "She joined before the other volunteers, so her length of membership alone qualified her.",
+            "zh": "她比其他義工早加入，因此單靠入會時間已足夠。"
+          },
+          {
+            "id": "c",
+            "en": "She asked to lead a shift before trying the kitchen’s routine tasks.",
+            "zh": "她在嘗試廚房日常工作前便要求帶領值班。"
+          },
+          {
+            "id": "d",
+            "en": "She handled one delayed delivery, though the team had not yet seen her other work.",
+            "zh": "她處理過一次延遲送貨，但團隊尚未見過她其他工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音列出她連續多週的存貨紀錄、延遲送貨應對和新人培訓；信任來自多項有考驗的表現，不單是年資或一次事件。",
+        "en": "At the community kitchen, Hana joined early but did not become shift lead for that alone. Over several weekends, she kept accurate stock notes, handled a delayed delivery and trained newcomers. She had earned her stripes.",
+        "zh": "在社區廚房，Hana 雖然加入得早，但並非單靠這一點成為值班負責人。她連續多個週末準確記錄存貨、處理一次延遲送貨，並培訓新義工。她靠這些表現贏得信任。"
+      },
+      "reply": {
+        "promptEn": "Ravi joined the repair café six weeks ago. He has completed tricky repairs safely, explained them clearly to customers, and helped two new volunteers. How would you describe his growing standing on the team?",
+        "promptZh": "Ravi 六星期前加入維修咖啡館。他安全完成了多項棘手維修，向顧客清楚解釋，並協助了兩位新義工。你會怎樣描述他在團隊中逐漸建立的地位？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He has proved he can handle difficult jobs while helping others learn.",
+            "zh": "他證明自己能處理難題，也能協助別人學習。"
+          },
+          {
+            "id": "b",
+            "en": "He has earned his stripes through safe repairs and patient guidance.",
+            "zh": "他靠安全維修和耐心指導證明了自己的能力。"
+          },
+          {
+            "id": "c",
+            "en": "His work gives the team a good reason to trust him with more responsibility.",
+            "zh": "他的工作表現令團隊有充分理由交託更多責任。"
+          },
+          {
+            "id": "d",
+            "en": "He has shown steady skill over several weeks, so greater trust makes sense.",
+            "zh": "他連續幾星期展示穩定技術，獲得更多信任很合理。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句均根據題目中的維修和指導表現回答信任如何形成；金句以 earned his stripes 概括靠實績贏得地位。"
+      },
+      "scene": {
+        "promptZh": "畫廊助理連續處理了幾次擁擠的開幕活動，準確安排訪客入場，並主動解決兩次排隊混亂。館長現在放心讓她帶領下一場。哪句最符合她贏得信任的原因？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has earned her stripes through repeated, careful work at busy openings.",
+            "zh": "她在多次繁忙開幕活動中細心工作，靠實績贏得信任。"
+          },
+          {
+            "id": "b",
+            "en": "Her assistant title alone explains why the director trusts her to lead.",
+            "zh": "單靠她的助理頭銜就足以解釋館長為何讓她帶領活動。"
+          },
+          {
+            "id": "c",
+            "en": "The director trusts her because one opening went smoothly, without considering the others.",
+            "zh": "館長只因其中一次開幕順利便信任她，沒有考慮其餘幾次。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目給出多次繁忙活動中的具體表現；金句把反覆經得起考驗的工作與贏得信任連起來，另外兩句忽略該證據。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不能支持「此人已靠實績證明自己」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A trainee completes several safety drills and makes sound decisions when a route is blocked.",
+            "zh": "受訓者完成多次安全演練，路線受阻時也作出穩妥決定。"
+          },
+          {
+            "id": "b",
+            "en": "An apprentice receives a team badge before working a single shift.",
+            "zh": "學徒尚未值過一次班便領到團隊徽章。"
+          },
+          {
+            "id": "c",
+            "en": "An editor resolves repeated deadline problems and earns colleagues’ trust.",
+            "zh": "編輯多次解決截稿問題，贏得同事信任。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "領到徽章只表示身分或任命，未提供經得起考驗的實際表現；另外兩項都有反覆工作成果。"
+      },
+      "dialogue": {
+        "promptZh": "甲說：「新任舞台經理已處理三次臨時換角，並讓排練維持進度。團隊為甚麼開始信任她？」乙哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She earned her stripes by steering the group through those changes.",
+            "zh": "她帶領團隊處理那些變動，靠實績贏得信任。"
+          },
+          {
+            "id": "b",
+            "en": "Her appointment settled the question before anyone saw how she worked.",
+            "zh": "大家在看見她如何工作之前，單憑任命就已完全放心。"
+          },
+          {
+            "id": "c",
+            "en": "One rehearsal would have been enough; the three changes tell us nothing new.",
+            "zh": "一次排練已經足夠；那三次變動並沒有提供新證據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句直接把三次換角中的可靠表現與贏得信任連起來，並自然使用目標說法；另外兩句忽略已知證據。"
+      },
+      "speaking": {
+        "en": "After a month of careful fieldwork, the survey volunteer earned her stripes by checking disputed measurements and explaining the corrections to the team.",
+        "zh": "經過一個月細心的實地工作，調查義工核對有爭議的測量結果並向團隊解釋修正，憑表現贏得信任。",
+        "promptZh": "先聽示範，再說出這名調查義工如何透過持續工作證明自己的能力。",
+        "targetSpan": {
+          "start": 57,
+          "end": 75
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：寫兩個不同的例子，分別說明圖書館助理與防洪演練義工如何經過一段時間的實際考驗，才獲得團隊更多信任。每例一至兩句英文，須指出做了甚麼，以及後來得到甚麼信任或責任。",
+        "selfCheckZh": "兩例須用自然人稱代詞配合 earn one’s stripes；分別寫出持續或反覆的有難度工作、可觀察成果及後續信任／責任。不能只寫任命、年資或制服，也不要模仿原文把人類教練稱為 its。",
+        "examples": [
+          {
+            "en": "After three busy months at the library desk, Nia earned her stripes by resolving catalogue errors and helping patrons find accessible formats; the team then asked her to train new assistants.",
+            "zh": "Nia 在圖書館櫃檯忙碌工作三個月，解決目錄錯誤並幫讀者尋找無障礙格式，靠實績贏得信任；團隊隨後請她培訓新助理。"
+          },
+          {
+            "en": "During repeated flood drills, Tariq earned his stripes by correcting route maps and guiding volunteers through a blocked exit; the coordinator then put him in charge of the next drill.",
+            "zh": "Tariq 在多次防洪演練中修正路線圖，並帶領義工通過受阻出口，靠實績贏得信任；統籌員隨後讓他負責下一次演練。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "catalogue errors",
+            "zh": "目錄錯誤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          },
+          {
+            "en": "accessible formats",
+            "zh": "無障礙格式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 141
+            }
+          },
+          {
+            "en": "train new assistants",
+            "zh": "培訓新助理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 170,
+              "end": 190
+            }
+          },
+          {
+            "en": "route maps",
+            "zh": "路線圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 79
+            }
+          },
+          {
+            "en": "a blocked exit",
+            "zh": "受阻出口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 125
+            }
+          },
+          {
+            "en": "the next drill",
+            "zh": "下一次演練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 169,
+              "end": 183
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A title may open the door, but repeated reliable work is how a new team member earns their stripes.",
+          "zh": "頭銜或許能帶來機會，但新隊員要靠反覆可靠的工作表現才能贏得信任。"
+        },
+        {
+          "en": "The translator earned her stripes after checking difficult terms across several public notices.",
+          "zh": "翻譯員核對了多份公共告示中的艱深用語，靠實績證明了自己。"
+        }
+      ]
+    }
+  ]
+}

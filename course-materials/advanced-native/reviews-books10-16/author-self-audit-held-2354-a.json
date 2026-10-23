@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "advanced-native-2354",
+  "sourceOrdinal": 2354,
+  "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-2354-a.json",
+  "draftSha256": "98d10f41653238e9c10ff5b4142c471d56fe3dacc2932fb263644b99bbdec34a",
+  "sourceSentence": "The young coach earns its stripes by handling a difficult season.",
+  "sourcePronounIssue": "Guide says human coach earns its stripes. Kept exact provenance; learner-facing examples use her/his/their, and the brief flags the source pronoun error. Regex lexical source coverage does not license its for a human antecedent.",
+  "checks": {
+    "focusedBuilder": "1 lesson, 6 questions, 4 audio requests, 0 flags; build and --check pass",
+    "sourceRegex": true,
+    "fourIndependentlyValidReplies": "Author assessed all four answer the standing question using given repair/training evidence; independent review pending",
+    "targetBearingKeyedSceneDialogue": true,
+    "allWritingModelsTargetBearing": true,
+    "speakingSpanExact": true,
+    "glossarySpansExactNonTarget": 6,
+    "fourAudioTextsAtMost240Chars": true,
+    "reviewFieldsPending": true
+  },
+  "collisionScreen": "No earn ... stripes owner title or draft target found via repository search; independent owner comparison pending.",
+  "selectionState": "unselected; source decision and manifest unchanged",
+  "reviewStatus": "author self-audit; independent B review pending",
+  "sourceOccurrences": [
+    "book10-16-0243",
+    "book10-16-1174"
+  ],
+  "pendingDecisionLink": "Source 3285 repeats the exact guide sentence and should be proposed-alias-new to 2354 when 2354 becomes proposed-new-lesson. Both decisions remain hold-editorial while the draft is unselected; selected manifest unchanged."
+}

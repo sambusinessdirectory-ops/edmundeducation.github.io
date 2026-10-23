@@ -861,9 +861,9 @@
       "titleEn": "hits close to home",
       "titleZh": "觸及個人經驗而感同身受",
       "category": "idiom",
-      "contentRevision": 1,
+      "contentRevision": 2,
       "target": {
-        "pattern": "\\bhit(?:s|ting)? close to home\\b",
+        "pattern": "\\b(?:hit(?:s|ting)?|feel(?:s|ing)?|felt)\\s+close\\s+to\\s+home\\b",
         "glossaryForbidden": [
           "\\bclose to home\\b"
         ]
@@ -881,14 +881,42 @@
           "sentence": "Pollution hits close to home for harbour residents.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "hits close to home"
+        },
+        {
+          "occurrenceId": "book10-16-0606",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The lyrics feel close to home for many listeners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "close to home"
+        },
+        {
+          "occurrenceId": "book10-16-0675",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 62,
+          "book": 11,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 59, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The lyrics feel close to home for many listeners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "close to home"
         }
       ],
       "brief": {
-        "meaningEn": "Feel particularly relevant, affecting or uncomfortable because of a connection with personal experience.",
-        "meaningZh": "因與個人經驗有關，而感到格外切身、觸動或不自在。",
-        "grammar": "a comment/story/issue hits close to home; hit is also past tense. The phrase can describe painful recognition without saying a speaker deliberately targeted someone.",
-        "register": "Established personal-relevance idiom, often emotionally sensitive. It does not refer only to physical distance from a home.",
-        "boundaryZh": "切身感受不證作者刻意針對，也不表示旁人必有同樣反應；需有本人經驗或表述作依據。",
+        "meaningEn": "Feel personally familiar, relevant or affecting because the topic connects with lived experience; it may be uncomfortable but need not be.",
+        "meaningZh": "因話題與自身經驗有關而覺得熟悉、切身或受觸動；可以不自在，但並非必然。",
+        "grammar": "a comment, story, lyric or issue hits/feels close to home for someone; hit and felt also work in past contexts. Give the personal connection, not merely physical proximity.",
+        "register": "Emotionally sensitive everyday idiom; a listener may tell a friend why a lyric, story or issue matters personally without disclosing more than they choose.",
+        "boundaryZh": "「切身」來自個人經驗或熟悉處境；不必然令人難受，也不等於地點離家很近，更不證明作者刻意針對當事人。",
         "misconceptionZh": "可保留感受及選擇是否透露，不要求當事人公開私事來證明。",
         "outcomeZh": "能以個人經驗解釋觸動，分清感受與他人意圖。"
       },
@@ -1095,8 +1123,8 @@
           "zh": "想到自己曾讓妹妹等回覆後，關於失約的討論對我特別切身。"
         },
         {
-          "en": "For some former pupils, the story hits close to home because it recalls the pressure they felt before leaving school.",
-          "zh": "對部分舊生而言，故事讓他們想起離校前感過的壓力，所以特別有切身觸動。"
+          "en": "The housing debate felt close to home for Mei because her family had recently lost its flat.",
+          "zh": "美的家人最近失去住所，所以住房辯論令她格外感到切身。"
         }
       ],
       "review": {

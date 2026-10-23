@@ -1,0 +1,142 @@
+{
+  "reviewKind": "author-bounded-owner-expansion-three",
+  "status": "provisional AI author changes; independent review pending; no human or release approval",
+  "scope": "3018→772, 3375→904, 3660→2055",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "beforeFileSha256": {
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "e55592593772f9649fee8d3de1cf9917435a2573c7753188ad05dfdb64c23f25",
+    "course-materials/advanced-native/batches/batch-0901-0925.json": "a676cffaa7824fa1bef83fa47e70e2af55a833b5da329db6de560b676f67675c",
+    "course-materials/advanced-native/batches/batch-2051-2075.json": "d37dc77b26d96e4b07a567afa66e52ca7844e293586736b7c28c30bccbb5d4bd",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "5e2e03d819f53f9cc12947f6804e31b2e5b6eb42feebda3dcfbdb84cf564f000",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "ec5594bd62e300d04f99d8f82bd9e3cd92823ea773fe295afa001b796617f481",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "291402b772b5375d0fcca829605d1183c1bab4d39c76c950c06049fe8e50bea0"
+  },
+  "afterFileSha256": {
+    "course-materials/advanced-native/batches/batch-0751-0775.json": "14f1d51155b7531fb61771b9d38de2128609f9b2441ea0d5cc527b6ccb53d04d",
+    "course-materials/advanced-native/batches/batch-0901-0925.json": "11d397334d3a108e586ba2081fa51e754571b9914c15a02966d16cdd0587571a",
+    "course-materials/advanced-native/batches/batch-2051-2075.json": "d0783f9b1f84f2e98e128120ea3a694b87c3c0dba33886de2ec3db5099058e91",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl": "32a8aeb4ec850841db14ceb2b954a7ee11dbaca298e8bc6a13aed169cc4da492",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl": "e8a43db8d188b94cb01314fa10e3152d7f72a681880694267c7176a5ad59fd1d",
+    "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl": "15af140c61d6009835b8a16831533517090ec1f057cec4081fbbad2b2f4d6a31"
+  },
+  "rows": [
+    {
+      "sourceOrdinal": 3018,
+      "sourceId": "book10-16-0907",
+      "sourceSentence": "One policy change can send ripples far beyond the office.",
+      "sourceExpression": "send ripples far beyond",
+      "ownerId": "advanced-native-772",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0751-0775.json",
+      "ownerFileBeforeSha256": "e55592593772f9649fee8d3de1cf9917435a2573c7753188ad05dfdb64c23f25",
+      "ownerFileAfterSha256": "14f1d51155b7531fb61771b9d38de2128609f9b2441ea0d5cc527b6ccb53d04d",
+      "targetPatternBefore": "\\brippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)\\b",
+      "targetPatternAfter": "\\b(?:rippl(?:e|es|ed|ing)\\s+(?:out(?:ward)?|through\\s+(?:(?:the|a)\\s+)?(?:whole\\s+)?family)|(?:send|sends|sent|sending)\\s+ripples\\s+far\\s+beyond)\\b",
+      "currentRevision": 3,
+      "allOwnerSourceSentencesMatchDetector": true,
+      "assessedFieldsByteEquivalentToHead": true,
+      "takeaway2After": {
+        "en": "One timetable change can send ripples far beyond the first team when other groups depend on its deliveries.",
+        "zh": "若其他小組依賴第一組的送貨，一項時間表改動便可能令影響擴散到遠超第一組的範圍。"
+      },
+      "provenance": {
+        "occurrenceId": "book10-16-0907",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 84,
+        "book": 12,
+        "question": 16,
+        "sample": "S1",
+        "sourceBookPages": "41–42",
+        "locatorNote": "DOCX table 86, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "One policy change can send ripples far beyond the office.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "send ripples far beyond"
+      }
+    },
+    {
+      "sourceOrdinal": 3375,
+      "sourceId": "book10-16-1264",
+      "sourceSentence": "Pressure can make advice feel like a cage rather than a compass.",
+      "sourceExpression": "a cage rather than a compass",
+      "ownerId": "advanced-native-904",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0901-0925.json",
+      "ownerFileBeforeSha256": "a676cffaa7824fa1bef83fa47e70e2af55a833b5da329db6de560b676f67675c",
+      "ownerFileAfterSha256": "11d397334d3a108e586ba2081fa51e754571b9914c15a02966d16cdd0587571a",
+      "targetPatternBefore": "\\b(?:a compass,? not a cage|more like a compass than a cage)\\b",
+      "targetPatternAfter": "\\b(?:a compass,? not a cage|more like a compass than a cage|a cage rather than a compass)\\b",
+      "currentRevision": 3,
+      "allOwnerSourceSentencesMatchDetector": true,
+      "assessedFieldsByteEquivalentToHead": true,
+      "takeaway2After": {
+        "en": "When a mentor forbids every alternative, the advice can feel like a cage rather than a compass.",
+        "zh": "當導師禁止所有其他選項時，建議便可能像牢籠而非指南針。"
+      },
+      "provenance": {
+        "occurrenceId": "book10-16-1264",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 117,
+        "book": 12,
+        "question": 51,
+        "sample": "S2",
+        "sourceBookPages": "118–120",
+        "locatorNote": "DOCX table 121, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Pressure can make advice feel like a cage rather than a compass.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "a cage rather than a compass"
+      }
+    },
+    {
+      "sourceOrdinal": 3660,
+      "sourceId": "book10-16-1549",
+      "sourceSentence": "Teenagers need safe chances to stretch their wings.",
+      "sourceExpression": "stretch their wings",
+      "ownerId": "advanced-native-2055",
+      "ownerFile": "course-materials/advanced-native/batches/batch-2051-2075.json",
+      "ownerFileBeforeSha256": "d37dc77b26d96e4b07a567afa66e52ca7844e293586736b7c28c30bccbb5d4bd",
+      "ownerFileAfterSha256": "d0783f9b1f84f2e98e128120ea3a694b87c3c0dba33886de2ec3db5099058e91",
+      "targetPatternBefore": "\\bspread(?:s|ing)? (?:their|our|my|your|her|his) wings\\b",
+      "targetPatternAfter": "\\b(?:spread(?:s|ing)?|stretch(?:es|ed|ing)?)\\s+(?:their|our|my|your|her|his)\\s+wings\\b",
+      "currentRevision": 2,
+      "allOwnerSourceSentencesMatchDetector": true,
+      "assessedFieldsByteEquivalentToHead": true,
+      "takeaway2After": {
+        "en": "The trial workshop let the teenagers stretch their wings while an experienced tutor stayed available for questions.",
+        "zh": "試辦工作坊讓青少年初試身手，同時有經驗的導師仍可回答問題。"
+      },
+      "provenance": {
+        "occurrenceId": "book10-16-1549",
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 145,
+        "book": 14,
+        "question": 10,
+        "sample": "S2",
+        "sourceBookPages": "24–25",
+        "locatorNote": "DOCX table 154, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+        "sentence": "Teenagers need safe chances to stretch their wings.",
+        "referenceSentenceKind": "guide_original_example",
+        "expression": "stretch their wings"
+      }
+    }
+  ],
+  "verification": {
+    "nativeJavaScriptTargetControls": "PASS: three owners; full new/old source sentences plus 14 positive and 9 negative controls, live gi regex. Literal homographs still require semantic context.",
+    "focusedBuild": "PASS: 67 lessons, 402 questions, 268 audio requests, zero review flags across three owner batch files",
+    "focusedCheck": "PASS: generated outputs reproduce focused build",
+    "assessedFieldsPreserved": "listening, reply, scene, contrast, dialogue, speaking and writing JSON fields byte-equivalent to HEAD for three owners",
+    "fullCatalogueVerifier": "Deferred until combined freeze, per parent instruction.",
+    "manifestChanged": false,
+    "releaseChanged": false
+  },
+  "primaryUsageEvidence": [
+    {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/spread-your-wings",
+      "finding": "Collins lists stretch your wings as an alternative."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ripple-effect",
+      "finding": "Figurative ripple effects spread beyond an initiating event."
+    }
+  ]
+}
