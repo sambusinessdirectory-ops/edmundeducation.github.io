@@ -1517,7 +1517,7 @@ function renderCompassPage(lesson, page) {
     return { en: choice.optionsEn[sourceIndex], zh: choice.options[sourceIndex] };
   }) : [];
   const correctOption = choice ? (choice.correct + rotation) % choice.options.length : -1;
-  const explainChoicesAfterAnswer = Number(lesson.order) >= 6 && Number(lesson.order) <= 30;
+  const explainChoicesAfterAnswer = Number(lesson.order) >= 6 && Boolean(guide);
   const answeredCorrectly = selected === correctOption;
   const selectedSourceIndex = choice && selected !== undefined
     ? (selected - rotation + choice.options.length) % choice.options.length : -1;
@@ -2247,6 +2247,8 @@ function compassMcFoils(question, lesson) {
 }
 
 function compassMcOptions(question, lesson = getLesson()) {
+  const curated = window.EDMUND_IDIOM_COMPASS_ITEMS?.[question.id];
+  if (curated) return curated;
   const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 4;
   const foils = compassMcFoils(question, lesson);
   const lessonId = String(lesson?.id || "");
@@ -2571,7 +2573,7 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   if (!compassFor(lesson) || !state.exercise || !Number.isInteger(selectedIndex)) return;
   const question = compassPracticeQuestions(lesson).find((item) => item.id === questionId);
   if (!question || compassReviewedIds(lesson, state.exercise.questionState, state.exercise.correctIds).has(questionId)) return;
-  const { correctAt } = compassMcOptions(question, lesson);
+  const { correctAt, options } = compassMcOptions(question, lesson);
   if (selectedIndex !== correctAt) {
     state.pilotSelections[`mc:${lesson.id}:${questionId}`] = selectedIndex;
     if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });
@@ -2581,7 +2583,7 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   if (question.bonus) saveCompassBonusCorrect(lesson, questionId);
   else {
     state.exercise.correctIds.push(questionId);
-    state.exercise.questionState[questionId] = { status: "correct", lastAnswer: question.answer, reveal: true };
+    state.exercise.questionState[questionId] = { status: "correct", lastAnswer: options[correctAt], reveal: true };
   }
   if (compassReviewedCount(lesson) === compassPracticeQuestions(lesson).length) pauseExerciseClock();
   if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });

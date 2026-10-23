@@ -19,6 +19,7 @@ const comparisonSource = await read("shared-answer-comparison.js");
 const compassSource = await read("idiom-first-five-curation.js");
 const expandedCompassSource = await read("idiom-compass-06-30-curation.js");
 const expandedCompassBonusSource = await read("idiom-compass-06-30-bonus.js");
+const lesson31CompassSource = await read("idiom-compass-31-curation.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -346,6 +347,7 @@ function createFrontendHarness({ withCompass = false } = {}) {
     vm.runInContext(compassSource, context, { filename: "idiom-first-five-curation.js" });
     vm.runInContext(expandedCompassSource, context, { filename: "idiom-compass-06-30-curation.js" });
     vm.runInContext(expandedCompassBonusSource, context, { filename: "idiom-compass-06-30-bonus.js" });
+    vm.runInContext(lesson31CompassSource, context, { filename: "idiom-compass-31-curation.js" });
   }
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
@@ -1236,6 +1238,26 @@ test("switching accounts isolates bonus progress and clears unsaved Compass choi
   assert.equal(sut.state.pilotOpenModels.size, 0);
   authenticateStudent(sut, "student-b", "token-b");
   assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), false);
+});
+
+test("lesson 31 shows its seven-page guide and all 60 curated four-choice items", async () => {
+  assert.match(html, /idiom-compass-31-curation\.js\?v=/);
+  const { sut, compass } = createFrontendHarness({ withCompass: true });
+  const target = content.lessons.find((item) => item.id === "idiom-31");
+  assert.ok(target);
+  assert.match(compass[target.id].meaningEn, /frequent angry arguments/);
+  assert.equal(compass[target.id].bonusPractice.length, 10);
+  assert.equal(sut.compassPracticeQuestions(target).length, 60);
+  const first = sut.compassMcOptions(target.questions[0], target);
+  assert.equal(first.options.length, 4);
+  assert.match(first.options[first.correctAt], /almost every evening/);
+  assert.equal(first.rationales.length, 4);
+  authenticateStudent(sut);
+  sut.openLesson(target.id, { page: 7, attempt: attemptSeed({ lessonId: target.id, totalCount: 60 }) });
+  assert.match(sut.elements.lessonContent.innerHTML, /The two bakers used to fight like cat and dog/);
+  sut.openLesson(target.id, { page: 8, attempt: attemptSeed({ lessonId: target.id, totalCount: 60 }) });
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 60);
+  assert.match(sut.elements.lessonContent.innerHTML.replace(/<[^>]*>/g, ''), /Nina told me that she and her flatmate had fought like cat and dog about the heating every day last week/);
 });
 
 let failed = 0;
