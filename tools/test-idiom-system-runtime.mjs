@@ -367,7 +367,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   compassReviewedCount, displayAttemptProgress,
   clearSession,
   questionActivityRows, buildQuestionProgressSeries,
-  updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
+  updateLessonStepper, lessonSearchIndex, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
   submissionQuestions, submitExercise, startCorrectionRound, exitCorrectionRound,
   serializeExerciseResult, persistExercise,
@@ -1316,6 +1316,7 @@ test("all 138 guides put Chinese choices first, hide explanations and skip the r
   const { sut, compass }=createFrontendHarness({withCompass:true});
   authenticateStudent(sut);
   assert.equal(Object.keys(compass).length,138);
+  assert.ok(sut.lessonSearchIndex().every(entry=>entry.page!==4),"retired stage excluded from search");
   for(const target of content.lessons){
     const guide=compass[target.id];
     for(const page of [2,3,5,6]){

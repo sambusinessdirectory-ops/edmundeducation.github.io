@@ -861,7 +861,8 @@ function lessonSearchIndex() {
     const compass = compassFor(lesson);
     if (compass) {
       for (let page = 1; page <= 7; page += 1) {
-        const texts = collectLessonSearchStrings(page === 1 ? [compass.meaningZh, compass.meaningEn, compass.picture] : page === 4 ? [compass.fixed, compass.moving, compass.forms] : page === 7 ? compass.checks : page === 2 || page === 3 || page === 5 || page === 6 ? compass.choices[page] : []);
+        if (page === 4) continue;
+        const texts = collectLessonSearchStrings(page === 1 ? [compass.meaningZh, compass.meaningEn, compass.picture] : page === 7 ? compass.checks : page === 2 || page === 3 || page === 5 || page === 6 ? compass.choices[page] : []);
         entries.push({ lessonId: lesson.id, page, kind: "page", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts });
       }
     } else {
