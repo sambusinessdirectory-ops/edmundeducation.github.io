@@ -1,0 +1,287 @@
+{
+  "status": "checkpoint-automated-speech-screen-not-release-clearance",
+  "selectedLessons": 430,
+  "audioRoles": 1720,
+  "baseModelFlags": 66,
+  "secondModelChecked": 66,
+  "secondModelFlags": 27,
+  "asrEquivalenceLeads": 8,
+  "unresolvedFlags": 19,
+  "method": "Two independent local ASR models; only base flags passed to second model; eight obvious spelling/homophone forms categorized for review efficiency.",
+  "humanListeningReviewClaimed": false,
+  "pronunciationOrAccentCertified": false,
+  "baseReportSha256": "26e431b045ee78325305b45aa512e399ba85e3206fb6309d29e432054460efd3",
+  "secondReportSha256": "8fea24c5196949b47c3fae2c10056bd8ec9a2170417faa1a3400933fdefe0e0e",
+  "items": [
+    {
+      "moduleId": "advanced-native-2124",
+      "role": "speaking",
+      "synthesisKey": "37f0e6cee27ace38c769f8a24b3b04cfeaea02e598e4962b30bb9ea3fa3bc49c",
+      "audioSha256": "e3aeabb084d3803f4cfacb696fb6f4301d1ef0ecf03d00a9a5489adadf22a43c",
+      "expected": "The sponsor offered the committee a blank cheque to redesign the community hall.",
+      "recognized": "The sponsor offered the committee a blank check to redesign the community hall.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "UK cheque / US check spelling with the same pronunciation"
+    },
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "speaking",
+      "synthesisKey": "863a13dec5c42e44d2469666084cf863415602909d8d613800a73b1c97144742",
+      "audioSha256": "dda1155ea529126cddc4fe2cad5c53791cbfb7d25c3662f2f4fce403faeee058",
+      "expected": "A simple walking map made getting from A to B easier for new visitors.",
+      "recognized": "A simple walking map made getting from her to be easier for new visitors.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2327",
+      "role": "speaking",
+      "synthesisKey": "66de18f42c33627d96c6e0ef8a6e922c02956372b2a00b7a23e3ddee2010f113",
+      "audioSha256": "967ddfa76fe626a68945d15352fdb32fa94487341e9c4bda389452eb9570dae3",
+      "expected": "The final reunion made the drama a tearjerker for many viewers, although others stayed dry-eyed.",
+      "recognized": "The final reunion made the drama a Tijica for many viewers, although others stayed dry-eyed.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2511",
+      "role": "speaking",
+      "synthesisKey": "da760a203682f39a9832a3eb59d5d2a7524bd12eef67115e45c84871713bc984",
+      "audioSha256": "48c939ecdcc9b5178fd30df3ce698e80bf3dea2f871534e8c4b11beab1be7ab1",
+      "expected": "Repeated timetable errors can dent your credibility with the people relying on your updates.",
+      "recognized": "Repeated timetable errors condense your credibility with the people relying on your updates.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3455",
+      "role": "speaking",
+      "synthesisKey": "65c3d56a4dac8e06a5f3d5c9f8d54b7038337e80f58ce134845a28081c449ce9",
+      "audioSha256": "c49f5559f45b223ac09e891d138ea4aa08946fe781137a90615178da49733acf",
+      "expected": "Once the archive building failed its safety inspection, our exhibition plan had gone out of the window, and we began looking for a temporary gallery.",
+      "recognized": "Once the archive building failed its safety inspection, our exhibition plan had gone out the window and we began looking for a temporary gallery.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-4051",
+      "role": "speaking",
+      "synthesisKey": "90fcf38dfc69c3b9d4dda419ea4c3a9f8fe1466e71e8a5a5f9314ec670664c64",
+      "audioSha256": "3a240e4906f8d68e326f81bc39ea6da49f958ffcdd8c68aebba65c360c7fcd48",
+      "expected": "The questionnaire asked people to rank comfort, cost and style, making the importance they attach to fashion easier to compare.",
+      "recognized": "The questionnaire asked people to rank comfort, cost and style, making the importance they attached to fashion easier to compare.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2123",
+      "role": "takeaway-1",
+      "synthesisKey": "ecc791ac5e8feadbb7b2d2ca2a281f4de1ecc5a78f8cb3aa5fbe91806311624a",
+      "audioSha256": "67a9077484d4d24aeb38b93ad064601b3853e24ada697c0b41434248182adbdc",
+      "expected": "Seven volunteers showed up for the beach clean-up.",
+      "recognized": "Seven volunteers showed up for the beach cleanup.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "clean-up / cleanup compound spelling"
+    },
+    {
+      "moduleId": "advanced-native-2124",
+      "role": "takeaway-1",
+      "synthesisKey": "388fb1ba27d34ef292539a9b3f81a5cca16cfe5bff1358ca34afd8b1dcf7fe28",
+      "audioSha256": "3fd3169d83f52c31e1b886c29f652cf1860c29c44ce55eb6d2b5b29db0c59d16",
+      "expected": "The club did not receive a blank cheque; every purchase needed approval.",
+      "recognized": "The club did not receive a blank check, every purchase needed approval.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "UK cheque / US check spelling with the same pronunciation"
+    },
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "takeaway-1",
+      "synthesisKey": "167f520e41db36ea66b70715e62758a3a9637e0aabb9e375e8809a5d309c5b45",
+      "audioSha256": "cec408431a473424c7143f45782f40c2a417ca8ca7c9d90bf9aac084d04af51a",
+      "expected": "Getting from A to B took longer when the footbridge was closed.",
+      "recognized": "getting from it to be took longer when the footbridge was closed.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2327",
+      "role": "takeaway-1",
+      "synthesisKey": "91bfe20b2fa7e1358bcd920097aa4814dcdccb074de3ed486d48f246ac3105a5",
+      "audioSha256": "ec8bdc39ba96aacf9d575768f1bea15cc733a13b08d88c09218b9fc692a4d6b5",
+      "expected": "The novel is a tearjerker because its reunion is built on years of separation.",
+      "recognized": "The novel is a Tijica because its reunion is built on years of separation.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2410",
+      "role": "takeaway-1",
+      "synthesisKey": "2d41c546f5c82971955b5fdbf1ca8b1873b6a86d2ac89558230e5d2ad276b834",
+      "audioSha256": "682dc82074a709558bd8ff4444591c45ad94f489b613905d57efc8bb2e4b7ec7",
+      "expected": "Families joined the hunt for the lost dog by checking nearby parks.",
+      "recognized": "Families join the hunt for the lost dog by checking nearby parks.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2919",
+      "role": "takeaway-1",
+      "synthesisKey": "2ffe3c12818d5d234458ee231cb1d155eaaaf9430d2b37d18974f7b03019ac5c",
+      "audioSha256": "44250ec7f3deae5de5895cd98df8a704967929f3226f35167add55036d12078f",
+      "expected": "Quality over quantity prefers stronger outcomes, not merely a smaller count.",
+      "recognized": "Quality over quantity prefers stronger outcomes, not merely a small account.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3751",
+      "role": "takeaway-1",
+      "synthesisKey": "9330d790ca368341dfd7fc5a00469d1e431f3f6f28a729310736bfac227e1379",
+      "audioSha256": "65f932693a1a6f781a2be8a57a34804b819be79bcaf053faa3d3cef5d893a1fc",
+      "expected": "Meet up usually marks an arranged in-person gathering.",
+      "recognized": "Meetup usually marks an arranged, in-person gathering.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "meet up / meetup segmentation"
+    },
+    {
+      "moduleId": "advanced-native-3875",
+      "role": "takeaway-1",
+      "synthesisKey": "e20dbff8a42fbc417171b23eab95d03291e09707e57de6dd85e942ed2e968f14",
+      "audioSha256": "1a990c747fcff96ec262497de99c15c13db2b7f7de3eb9a43a3d7e9f218af13e",
+      "expected": "Too blunt an instrument describes an indiscriminate response to a nuanced problem.",
+      "recognized": "Two-blunt an instrument describes an indiscriminate response to a nuanced problem.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "too / two homophony in context"
+    },
+    {
+      "moduleId": "advanced-native-3986",
+      "role": "takeaway-1",
+      "synthesisKey": "2f57d0d6bfcfc0acb3099d941b37894d0bfdb2b66da42776d2e5d292c9fbb7ce",
+      "audioSha256": "2c315ece00f6b5c56187fd720db4a832ecc3aa35ae034cad9eb1c5334992cd29",
+      "expected": "Sharpen the mind means train thinking through practice.",
+      "recognized": "Sharp in the mind means train, thinking through practice.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2124",
+      "role": "listening",
+      "synthesisKey": "864ea59be1b95f965c8021b1b85dbb2fbd13a9b2cbb7eb833e46e6c220df5422",
+      "audioSha256": "299a94dfda9ba9d100e746700439a0c6969e771629c08d94a8529f4401d66f71",
+      "expected": "The board let the festival team hire any performers at any price, effectively giving them a blank cheque.",
+      "recognized": "The board let the festival team hire any performers at any price, effectively giving them a blank check.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "UK cheque / US check spelling with the same pronunciation"
+    },
+    {
+      "moduleId": "advanced-native-2132",
+      "role": "listening",
+      "synthesisKey": "833ca4b83b5a08642d710f40c90381f61f9ee7105614f0391e16db1a4805c566",
+      "audioSha256": "4dd77a4b413d300064f280fc6f35dda2bd0696794859434b1f7d98f95da1116b",
+      "expected": "The dancers knew their steps, but a sudden lighting change threw the whole performance out of rhythm.",
+      "recognized": "The dancers knew their steps, but a sudden lighting changed through the whole performance out of rhythm.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "listening",
+      "synthesisKey": "46e4b87a551677dc0017859432c3835dae7c39a44acf507c974005c0fdef6609",
+      "audioSha256": "597bcef5e46feb7c45d49e055e334aade1ae6ce37e2a198e4f60ef47d13b56e6",
+      "expected": "The new bus route cuts out a transfer, so getting from A to B across town is much easier now.",
+      "recognized": "The new bus route cuts out a transfer, so getting from it to be across town is much easier now.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3273",
+      "role": "listening",
+      "synthesisKey": "d0b97267f176429c43237a72784846e1fe9fa7fa6f1f72b36b3352a037e2d976",
+      "audioSha256": "ba2cb046832facaf4bc9ff60e0e0cd213f08666042f7932f8b914546759dc740",
+      "expected": "The student entered the wrong return date, so another borrower got wrong information. We corrected it and found the calendar check was skipped. We turn mistakes into learning moments by checking dates before saving next time.",
+      "recognized": "The student entered the wrong return date, so another borrower got wrong information. We corrected it and found the calendar check was skipped. We turned mistakes into learning moments by checking dates before saving next time.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3941",
+      "role": "listening",
+      "synthesisKey": "ca46c5df5f89bdcaa7beeb3ab2dcaecdbc89f0d2eba481cbf035bd91f6fab79a",
+      "audioSha256": "7920ab618574bb1a6356e6a04d0e2084dc3d3ac0450cfe7c879d11fbb6060443",
+      "expected": "The junior organisers had to apologise for a cancelled workshop and arrange refunds themselves. Their mentor said taking responsibility in that way could build character.",
+      "recognized": "The junior organizers had to apologize for a canceled workshop and a range, refunds themselves. Their mentor said taking responsibility in that way could build character.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2124",
+      "role": "takeaway-2",
+      "synthesisKey": "541b438ff5216b1d179f26fc39a93f22acf1fa5ba238fa87449b3f2068f1ebc7",
+      "audioSha256": "1084f8ced79cbe01256b48c46dff78085f568a099bf84159ff2244f80245a26a",
+      "expected": "Giving a new project a blank cheque can make its costs hard to control.",
+      "recognized": "Giving a new project a blank check can make its costs hard to control.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "UK cheque / US check spelling with the same pronunciation"
+    },
+    {
+      "moduleId": "advanced-native-2168",
+      "role": "takeaway-2",
+      "synthesisKey": "8be9b8c698f07fde9662904b2e966d5b6f0540ffcf74d9937056a49f29ad2cc9",
+      "audioSha256": "a38a3e2682a97d6e104728fdb2629a0a14fc20281d0c24220e835f8e23971cb1",
+      "expected": "The guide explained how to get from A to B without changing trains.",
+      "recognized": "The guide explained how to get from a to-be without changing trains.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-2833",
+      "role": "takeaway-2",
+      "synthesisKey": "8242742dfdc8b6a2c7604dcf67f08bb69265a7719b2f0eba5bbd63badac636ef",
+      "audioSha256": "38df9dade50fa79b7ee3626f9609d437b0a7dcb297eda7b31ff629d127754f1b",
+      "expected": "Jinx it expresses a superstitious worry, not proof that words change a decision.",
+      "recognized": "Jinks it expresses a superstitious worry, not proof that words change a decision.",
+      "category": "ASR spelling or homophone equivalence",
+      "note": "jinx / jinks homophony in context"
+    },
+    {
+      "moduleId": "advanced-native-2834",
+      "role": "takeaway-2",
+      "synthesisKey": "966108e9dc9fee64b10a6202c6f3d8d3b006281e4dc7d06c8e56688b8692bf71",
+      "audioSha256": "874e9af0deaeea3005291eb92e93134368d6b3f52d10863b1caa039213ee8273",
+      "expected": "Blurting it out need not mean the speaker intended harm or that the news was false.",
+      "recognized": "Blirting it out need not mean the speaker intended harm, or that the news was false.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3155",
+      "role": "takeaway-2",
+      "synthesisKey": "27e4947db07ee04a20f3d0ac3c4018e16196c3870f65d82a4554abb851c3e414",
+      "audioSha256": "5d17a3e1ec64e3cd5af5cd5b208db4e707d46580b479fff8054513b50a64e314",
+      "expected": "I lost my cool briefly, then paused before answering.",
+      "recognized": "I lost my call briefly, then paused before answering.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-3521",
+      "role": "takeaway-2",
+      "synthesisKey": "1bd4b8abd33d2d5820f46e5d97403a4689d92e60cf500f2dc43e1776482f40e5",
+      "audioSha256": "ea52c5fe916b20916b2c4e6d7ceb328bc36fc80f211b394757c8aa581fdb3f87",
+      "expected": "Leafing through a guide does not verify every detail.",
+      "recognized": "Leaping through a guide does not verify every detail.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    },
+    {
+      "moduleId": "advanced-native-4051",
+      "role": "takeaway-2",
+      "synthesisKey": "6e3863ed81b1c9f4aad1a738714f4d4d31040a5c51c2e02498899aba9294cd58",
+      "audioSha256": "79a5d121c609283c05188cb8c1435ce69e4a50ac95b09aa86828240e4cc85015",
+      "expected": "Ask about competing priorities before judging the importance people attach to fashion.",
+      "recognized": "Ask about competing priorities before judging the importance people attached to fashion.",
+      "category": "Unresolved ASR lexical difference",
+      "note": "Needs targeted phoneme/audio assessment; ASR alone cannot establish a synthesis defect or a pass."
+    }
+  ]
+}

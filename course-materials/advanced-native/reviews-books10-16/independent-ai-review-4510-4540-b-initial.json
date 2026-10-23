@@ -1,0 +1,21 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4510, 4516, 4525, 4529, 4533, 4535, 4538 and 4540",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4510-4540-review-pilot.json",
+    "sha256": "df4043a71bc58d5879108b56c8fae6aa4af41ec19ed6eca9383f30805f74ff98"
+  },
+  "authorSelfAuditSha256": "b85024059961e7be6dca0bfc2e46e5b48b4a4154a348236087d28507cf753c75",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "validation": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "sourceAndTarget": "All eight exact source sentences match their target; eight speaking target spans and all answer-derived writing glossary spans are exact.",
+    "selectedIdCollisions": 0,
+    "sourceOriginality": "Independent six-token exact-overlap screen: 232 learner-facing English strings against 2,604 guide examples; 0 overlaps."
+  },
+  "editorialReview": "The eight drafts preserve the source senses: continuation of a useful custom, conditional usefulness, persistent demand, unavailable onward travel, a new factor entering a situation, assembling dispersed journey parts, coordinated services and removing process hassle. Representative keyed scenes, four-valid replies, audio evidence, English–Traditional Chinese alignment and both changed-context writing examples were inspected. The 4535 archaeology transfer broadens piece-together beyond travel but retains the same assembling-separate-evidence operation; the travel source remains directly taught elsewhere. No owner-scope or answer-fairness blocker was found.",
+  "coverageLimit": "Risk-based semantic review with full mechanical checks, not a line-by-line proofread of every one of the 48 questions. This is AI content clearance, not human approval or release certification.",
+  "findings": []
+}

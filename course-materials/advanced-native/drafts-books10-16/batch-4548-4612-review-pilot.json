@@ -1,0 +1,2242 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4548-4612-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4548",
+      "number": 4548,
+      "inventoryId": "expr-4548",
+      "titleEn": "not a straight line",
+      "titleZh": "進展並非一帆風順",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bnot\\s+(?:always\\s+)?a\\s+straight\\s+line\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Progress does not happen smoothly or uniformly; it can include setbacks and changes of direction.",
+        "meaningZh": "進展不會一直平順或均勻，可能有挫折或改變方向。",
+        "grammar": "Progress/development is not a straight line; X is not always a straight line. The subject is an abstract process, not a physical route.",
+        "register": "Neutral reflective discussion; a music teacher reassures students after uneven practice results.",
+        "boundaryZh": "表示進展起伏，不等於完全沒有進步，也不是路線真的彎曲。",
+        "misconceptionZh": "一次退步不代表整個計劃失敗；不可把地圖上的彎路當成這個比喻。",
+        "outcomeZh": "能同時指出整體進步和中途起伏。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2437",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 230,
+          "book": 16,
+          "question": 40,
+          "sample": "S2",
+          "sourceBookPages": "96–97",
+          "locatorNote": "DOCX table 255, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Progress is not a straight line in transport policy.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not a straight line"
+        }
+      ],
+      "listening": {
+        "en": "Maya can now play the whole piece, although last week she struggled with a section she had mastered before. Her progress is not a straight line.",
+        "zh": "Maya 現在能彈完整首曲，雖然上星期一段原已掌握的旋律又變得吃力；她的進展並非一帆風順。",
+        "promptZh": "not a straight line 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her improvement includes a temporary setback.",
+            "zh": "她的進步包含短暫退步。"
+          },
+          {
+            "id": "b",
+            "en": "Her sheet music has a curved line.",
+            "zh": "她的樂譜上有彎曲線條。"
+          },
+          {
+            "id": "c",
+            "en": "She has made no progress at all.",
+            "zh": "她完全沒有進步。"
+          },
+          {
+            "id": "d",
+            "en": "She will improve by exactly the same amount each day.",
+            "zh": "她每天都會進步相同幅度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "整體能彈完整首曲，但中途有反覆。"
+      },
+      "reply": {
+        "promptEn": "The orchard produced more fruit overall this year. Yet frost cut the April harvest before a strong summer recovery. How would you describe its improvement?",
+        "promptZh": "（果園今年整體收成更多，但四月霜凍使收成下降，夏天又強勁回升。如何描述其改善？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The overall result improved despite an April dip.",
+            "zh": "雖然四月下降，整體成果仍改善。"
+          },
+          {
+            "id": "b",
+            "en": "The recovery followed an earlier setback.",
+            "zh": "回升之前曾有挫折。"
+          },
+          {
+            "id": "c",
+            "en": "Its progress was not a straight line.",
+            "zh": "它的進展並非一帆風順。"
+          },
+          {
+            "id": "d",
+            "en": "The yearly gain did not happen evenly each month.",
+            "zh": "全年增長不是每月平均發生。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均兼顧整體增長和四月起伏。"
+      },
+      "scene": {
+        "promptZh": "學生的閱讀速度比學期初快，但兩週前因病休息後暫時變慢。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her progress is not a straight line, even though she has improved overall.",
+            "zh": "雖然整體已有進步，她的進展仍非一直平順。"
+          },
+          {
+            "id": "b",
+            "en": "Her progress never existed because of one slow week.",
+            "zh": "只因一週變慢，她從未有過進步。"
+          },
+          {
+            "id": "c",
+            "en": "Her route to school is not a straight line.",
+            "zh": "她上學的路不是直線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "總體進步與短期反覆並存。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能避免把起伏說成完全失敗？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pilot has improved, but progress is not a straight line: one trial still needs revision.",
+            "zh": "試點已有改善，但進展並非一帆風順：其中一次試驗仍須修改。"
+          },
+          {
+            "id": "b",
+            "en": "One trial needs revision, so the entire pilot has achieved nothing.",
+            "zh": "一次試驗須修改，因此整個試點毫無成果。"
+          },
+          {
+            "id": "c",
+            "en": "The trial took a winding road to the venue, so its progress is metaphorically uneven.",
+            "zh": "試驗人員走了彎路到場地，因此進展在比喻上起伏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認整體改善，也承認局部修訂。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 not a straight line 解成「永遠不會達到目標」。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Learning is not a straight line; setbacks can sit within overall growth.",
+            "zh": "學習並非一直平順；挫折可以與整體成長並存。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, any setback makes future growth impossible.",
+            "zh": "對，任何挫折都令以後無法成長。"
+          },
+          {
+            "id": "c",
+            "en": "It only describes a road on a map.",
+            "zh": "它只描述地圖上的道路。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "起伏不排除進步。"
+      },
+      "speaking": {
+        "en": "The theatre’s attendance has grown this season, though a rainy month caused a dip; its recovery is not a straight line.",
+        "zh": "劇院本季入場人數增加，雖然有一個多雨的月份令數字下跌；其復甦並非一直平順。",
+        "promptZh": "指出整體趨勢及中途一次起伏。",
+        "targetSpan": {
+          "start": 99,
+          "end": 118
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區游泳班本季平均出席率上升，但考試週出席率曾下降，之後恢復。用英文說明進展有起伏，不能說完全失敗。",
+        "selfCheckZh": "兩個示範都應寫出平均出席率上升、考試週下降、之後恢復，以及整體進展有起伏。",
+        "examples": [
+          {
+            "en": "The swim class has raised its average attendance this term, but the exam-week dip and later recovery show that progress is not a straight line.",
+            "zh": "游泳班本季平均出席率上升，但考試週下降、其後恢復，顯示進展並非一帆風順。"
+          },
+          {
+            "en": "Attendance in the community swim class fell during exam week and then recovered; despite the higher term average, progress was not a straight line.",
+            "zh": "社區游泳班考試週出席率下跌，其後回升；儘管本季平均出席率較高，進展仍非一直平順。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "average attendance",
+            "zh": "平均出席率",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 48
+            }
+          },
+          {
+            "en": "exam-week dip",
+            "zh": "考試週下降",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 81
+            }
+          },
+          {
+            "en": "later recovery",
+            "zh": "其後恢復",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 100
+            }
+          },
+          {
+            "en": "community swim class",
+            "zh": "社區游泳班",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 38
+            }
+          },
+          {
+            "en": "exam week",
+            "zh": "考試週",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 60
+            }
+          },
+          {
+            "en": "higher term average",
+            "zh": "本季較高平均數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Not a straight line allows overall growth with setbacks.",
+          "zh": "not a straight line 容許整體成長伴隨挫折。"
+        },
+        {
+          "en": "Progress is not a straight line, so a brief dip does not erase a wider gain.",
+          "zh": "進展並非一帆風順，短暫下跌不會抹去較大的增長。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4553",
+      "number": 4553,
+      "inventoryId": "expr-4553",
+      "titleEn": "take the sting out of",
+      "titleZh": "減輕不快",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taking)\\s+(?:some\\s+of\\s+)?the\\s+sting\\s+out\\s+of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make an unpleasant experience less painful or disappointing without necessarily removing it.",
+        "meaningZh": "減輕令人難受的經歷或消息帶來的不快，不一定完全消除。",
+        "grammar": "Take the sting out of + noun/gerund; subject is a comfort or mitigating change. Some of the sting makes the partial effect explicit.",
+        "register": "Conversational, empathetic; a supervisor explains to staff how a flexible schedule eases an unwelcome shift.",
+        "boundaryZh": "仍有不快，只是程度減輕；若問題完全消失，語意可能過弱。",
+        "misconceptionZh": "不是昆蟲螫刺，也不是把問題本身說成已解決。",
+        "outcomeZh": "能區分減輕痛楚與完全取消不快。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2442",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 231,
+          "book": 16,
+          "question": 41,
+          "sample": "S1",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 256, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A monthly pass can take some of the sting out of commuting.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take some of the sting out of commuting"
+        },
+        {
+          "occurrenceId": "book10-16-2457",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 43,
+          "sample": "S1",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 258, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A monthly pass can take some of the sting out of commuting.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take some of the sting out of commuting"
+        }
+      ],
+      "listening": {
+        "en": "The concert was cancelled, but the venue offered full refunds and a free recording; that took some of the sting out of the disappointment.",
+        "zh": "音樂會取消了，但場地提供全額退款和免費錄音，稍為減輕了失望。",
+        "promptZh": "took some of the sting out of 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The offer eased, but did not undo, the disappointment.",
+            "zh": "補償減輕失望，卻沒有令取消一事不曾發生。"
+          },
+          {
+            "id": "b",
+            "en": "The venue removed an insect sting.",
+            "zh": "場地處理了昆蟲螫傷。"
+          },
+          {
+            "id": "c",
+            "en": "The concert took place as planned.",
+            "zh": "音樂會如期舉行。"
+          },
+          {
+            "id": "d",
+            "en": "The refund made every fan delighted with the cancellation.",
+            "zh": "退款令每位樂迷都為取消而高興。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "補償減輕不快，但活動仍取消。"
+      },
+      "reply": {
+        "promptEn": "A colleague must work an unpopular weekend shift. The manager lets her choose two weekdays off in return, though she still has to work the weekend. How does this help?",
+        "promptZh": "（同事須上不受歡迎的週末班；經理讓她換取自選兩個平日休假，但週末仍須工作。這有何幫助？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The weekday leave makes the shift easier to accept.",
+            "zh": "平日休假令週末班較易接受。"
+          },
+          {
+            "id": "b",
+            "en": "The adjustment reduces the inconvenience.",
+            "zh": "調整減少了不便。"
+          },
+          {
+            "id": "c",
+            "en": "The choice takes some of the sting out of the weekend shift.",
+            "zh": "這個選擇減輕了週末班的不快。"
+          },
+          {
+            "id": "d",
+            "en": "She still works the weekend, but receives some compensation.",
+            "zh": "她仍須週末工作，但得到一些補償。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均保留週末工作仍在，只是稍有緩和。"
+      },
+      "scene": {
+        "promptZh": "比賽延期，主辦方讓外地參賽者免費改票，但仍須重新安排假期。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Free ticket changes take some of the sting out of the delay.",
+            "zh": "免費改票減輕了延期的不快。"
+          },
+          {
+            "id": "b",
+            "en": "Free ticket changes mean the competition was never delayed.",
+            "zh": "免費改票表示比賽根本沒有延期。"
+          },
+          {
+            "id": "c",
+            "en": "The tickets contain an actual bee sting.",
+            "zh": "門票上有真正的蜂螫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "補償可減輕但不能取消延期。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能避免誇大緩和作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A meal voucher took some of the sting out of the long wait, although passengers still arrived late.",
+            "zh": "餐券減輕久候的不快，雖然乘客仍遲到。"
+          },
+          {
+            "id": "b",
+            "en": "A meal voucher erased the delay, so everyone arrived on time.",
+            "zh": "餐券消除了延誤，因此人人準時到達。"
+          },
+          {
+            "id": "c",
+            "en": "A delay caused discomfort, so nothing can make it less upsetting.",
+            "zh": "延誤令人不快，因此沒有任何事可稍作緩和。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "餐券緩和不快，延誤後果仍在。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 take the sting out of 就是「把事件完全取消」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A kind explanation can take the sting out of a refusal even when the answer remains no.",
+            "zh": "即使結果仍是拒絕，友善解釋也可減輕不快。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it makes the refusal disappear.",
+            "zh": "對，它令拒絕消失。"
+          },
+          {
+            "id": "c",
+            "en": "It refers only to treating an insect bite.",
+            "zh": "它只指處理昆蟲叮咬。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "負面結果保留，只是感受緩和。"
+      },
+      "speaking": {
+        "en": "The workshop is delayed, but a clear new date and free transport will take some of the sting out of the change.",
+        "zh": "工作坊延期，但明確的新日期及免費交通會稍為減輕改期帶來的不快。",
+        "promptZh": "說出兩項減輕不便的安排。",
+        "targetSpan": {
+          "start": 70,
+          "end": 99
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：劇院取消今晚演出，觀眾仍失望；劇院提供全額退款和優先選下月場次。用英文說明補償稍為減輕失望，但今晚演出仍取消。",
+        "selfCheckZh": "兩個示範都應寫出今晚取消、全額退款、優先選下月場次，以及失望只被減輕而非消失。",
+        "examples": [
+          {
+            "en": "Tonight’s show is cancelled, but a full refund and first choice of next month’s dates may take some of the sting out of the disappointment.",
+            "zh": "今晚演出取消，但全額退款和優先選擇下月場次或可稍為減輕失望。"
+          },
+          {
+            "en": "The theatre cannot restore tonight’s performance. It can, however, take the sting out of the cancellation by refunding tickets and giving patrons priority for next month.",
+            "zh": "劇院無法恢復今晚演出，但可以退款及讓觀眾優先選下月場次，減輕取消演出的不快。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "full refund",
+            "zh": "全額退款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 46
+            }
+          },
+          {
+            "en": "first choice",
+            "zh": "優先選擇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 63
+            }
+          },
+          {
+            "en": "disappointment",
+            "zh": "失望",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 138
+            }
+          },
+          {
+            "en": "restore",
+            "zh": "恢復",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 26
+            }
+          },
+          {
+            "en": "refunding tickets",
+            "zh": "退票退款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          },
+          {
+            "en": "priority",
+            "zh": "優先權",
+            "exampleIndex": 1,
+            "span": {
+              "start": 146,
+              "end": 154
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Take the sting out of softens an unpleasant effect.",
+          "zh": "take the sting out of 指減輕不快。"
+        },
+        {
+          "en": "Taking some of the sting out of a loss does not erase the loss.",
+          "zh": "減輕損失帶來的不快，不等於損失消失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4554",
+      "number": 4554,
+      "inventoryId": "expr-4554",
+      "titleEn": "a constant drain on the wallet",
+      "titleZh": "持續消耗金錢",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a\\s+)?(?:constant|steady|regular)\\s+drain\\s+on\\s+(?:[\\w’\\'-]+\\s+){0,2}wallet\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An expense that repeatedly reduces a person’s available money.",
+        "meaningZh": "一項反覆支出持續減少可用金錢。",
+        "grammar": "A constant drain on one’s wallet; possessive identifies whose money is affected. The source uses their wallet for daily fares.",
+        "register": "Informal to neutral discussion of household costs; a budget adviser speaks with a family about recurring fees.",
+        "boundaryZh": "重點是反覆支出，非單次大額付款；不一定表示完全沒有錢。",
+        "misconceptionZh": "不是錢包真的漏水；也不可把一次免費活動形容為持續花費。",
+        "outcomeZh": "能識別反覆開支及受影響的人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2443",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 231,
+          "book": 16,
+          "question": 41,
+          "sample": "S1",
+          "sourceBookPages": "98–99",
+          "locatorNote": "DOCX table 256, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Daily fares can become a constant drain on their wallet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "constant drain on their wallet"
+        },
+        {
+          "occurrenceId": "book10-16-2458",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 43,
+          "sample": "S1",
+          "sourceBookPages": "102–103",
+          "locatorNote": "DOCX table 258, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Daily fares can become a constant drain on their wallet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "constant drain on their wallet"
+        }
+      ],
+      "listening": {
+        "en": "Small app fees are charged every week, and together they have become a constant drain on Imani’s wallet.",
+        "zh": "小額程式費用每星期收取，累積起來持續消耗 Imani 的金錢。",
+        "promptZh": "a constant drain on Imani’s wallet 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated charges steadily reduce her available money.",
+            "zh": "反覆收費逐步減少她的可用金錢。"
+          },
+          {
+            "id": "b",
+            "en": "Her wallet is leaking water.",
+            "zh": "她的錢包正在漏水。"
+          },
+          {
+            "id": "c",
+            "en": "She paid one fee only and no further charges apply.",
+            "zh": "她只付過一次費，以後不再收費。"
+          },
+          {
+            "id": "d",
+            "en": "The apps pay her money every week.",
+            "zh": "程式每星期付錢給她。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每週收費構成持續開支。"
+      },
+      "reply": {
+        "promptEn": "A family pays a small equipment rental fee each school week. It looks minor per week but adds up over the year. How would you describe the fee?",
+        "promptZh": "（一家人每個上學週都支付一筆小額設備租金；每週看似不多，全年加起來卻不少。如何描述這筆費用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated charge reduces the family’s budget.",
+            "zh": "反覆收費減少家庭預算。"
+          },
+          {
+            "id": "b",
+            "en": "The weekly fee adds up over time.",
+            "zh": "每週費用日積月累。"
+          },
+          {
+            "id": "c",
+            "en": "It is a constant drain on their wallet.",
+            "zh": "它持續消耗他們的金錢。"
+          },
+          {
+            "id": "d",
+            "en": "Even a small recurring payment can weigh on them.",
+            "zh": "小額經常性付款也會帶來負擔。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出每週費用累積。"
+      },
+      "scene": {
+        "promptZh": "會員每月被收取不再使用的服務費，半年累積相當大。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unused subscription is a constant drain on her wallet.",
+            "zh": "不用的訂閱持續消耗她的金錢。"
+          },
+          {
+            "id": "b",
+            "en": "A one-off free trial is a constant drain on her wallet.",
+            "zh": "一次免費試用持續消耗她的金錢。"
+          },
+          {
+            "id": "c",
+            "en": "Her wallet is physically losing water.",
+            "zh": "她的錢包正在實際漏水。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按月收費符合反覆開支。"
+      },
+      "contrast": {
+        "promptZh": "哪句最有根據使用 drain？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The daily locker fee became a constant drain on their wallet over the term.",
+            "zh": "每日儲物櫃費在一學期裏持續消耗他們的金錢。"
+          },
+          {
+            "id": "b",
+            "en": "They received one unexpected free pass, so it became a constant drain.",
+            "zh": "他們意外獲得一次免費通行證，因此構成持續支出。"
+          },
+          {
+            "id": "c",
+            "en": "A single birthday gift cost money once and must be called a constant drain.",
+            "zh": "一份生日禮物只付一次錢，也必定稱為持續支出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每日收費形成持續消耗。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 constant drain 解作「某次昂貴付款」。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A recurring fee can be a constant drain on your wallet even when each payment is small.",
+            "zh": "經常性費用即使每次金額不大，也可持續消耗你的金錢。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it only refers to a single payment.",
+            "zh": "對，它只指單次付款。"
+          },
+          {
+            "id": "c",
+            "en": "It means the fee increases your balance.",
+            "zh": "它表示費用增加你的餘額。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "頻率與累積效果是關鍵。"
+      },
+      "speaking": {
+        "en": "The weekly storage charge has become a constant drain on my wallet, so I am comparing cheaper options.",
+        "zh": "每週儲存費已持續消耗我的金錢，所以我正比較較便宜選擇。",
+        "promptZh": "說出這筆費用多久收一次。",
+        "targetSpan": {
+          "start": 37,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生每週為打印筆記付一筆小額費用，一學期累積不少；學生會考慮改用圖書館免費打印額度。用英文指出經常性開支及替代方法。",
+        "selfCheckZh": "兩個示範都應寫出每週打印費、一學期累積、考慮圖書館免費額度；不可說已經完全沒錢。",
+        "examples": [
+          {
+            "en": "The weekly note-printing fee has become a constant drain on the student’s wallet over the term, so she will check the library’s free printing allowance.",
+            "zh": "每週的筆記打印費在一學期裏持續消耗該學生的金錢，因此她會查詢圖書館的免費打印額度。"
+          },
+          {
+            "en": "Even a small printing charge adds up every week. It is a constant drain on his wallet, and he may use the library’s free allowance instead.",
+            "zh": "小額打印費每週累積，持續消耗他的金錢；他可能改用圖書館免費額度。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "note-printing fee",
+            "zh": "筆記打印費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 28
+            }
+          },
+          {
+            "en": "over the term",
+            "zh": "一學期裏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 94
+            }
+          },
+          {
+            "en": "free printing allowance",
+            "zh": "免費打印額度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 151
+            }
+          },
+          {
+            "en": "printing charge",
+            "zh": "打印費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 28
+            }
+          },
+          {
+            "en": "adds up",
+            "zh": "累積",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 36
+            }
+          },
+          {
+            "en": "free allowance",
+            "zh": "免費額度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A constant drain on the wallet is a recurring cost.",
+          "zh": "a constant drain on the wallet 指經常性開支。"
+        },
+        {
+          "en": "A fee can be a steady drain on your wallet without emptying it at once.",
+          "zh": "費用可以持續消耗金錢，毋須一次花光。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4563",
+      "number": 4563,
+      "inventoryId": "expr-4563",
+      "titleEn": "hoping for the best",
+      "titleZh": "寄望事情順利",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:hope|hopes|hoped|hoping)\\s+for\\s+the\\s+best\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Rely on a favourable outcome without being sure it will happen; in source, people also lack reliable information.",
+        "meaningZh": "不確定結果時寄望一切順利；來源情境另涉及資訊不足。",
+        "grammar": "Hope for the best / hoping for the best; can follow action undertaken despite uncertainty. The full source pairs it with guessing.",
+        "register": "Conversational, sometimes mildly critical; a trip organiser tells colleagues why they need verified details.",
+        "boundaryZh": "只表達希望結果好，不能假裝已有確切證據；也不一定表示完全沒有採取行動。",
+        "misconceptionZh": "不是「希望自己成為最好的人」；若已掌握可靠資料且有完整計劃，說「全靠運氣」便過度。",
+        "outcomeZh": "能辨認不確定與寄望好結果的關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2452",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 232,
+          "book": 16,
+          "question": 42,
+          "sample": "S2",
+          "sourceBookPages": "100–101",
+          "locatorNote": "DOCX table 257, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Before live updates, commuters were guessing and hoping for the best.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "guessing and hoping for the best"
+        }
+      ],
+      "listening": {
+        "en": "The school had not confirmed the ferry time, but booked the coach anyway, hoping for the best.",
+        "zh": "學校尚未確認渡輪時間，卻已預訂旅遊巴，寄望事情順利。",
+        "promptZh": "hoping for the best 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They relied on a favourable result despite uncertainty.",
+            "zh": "他們在不確定下寄望好結果。"
+          },
+          {
+            "id": "b",
+            "en": "They had a confirmed ferry timetable.",
+            "zh": "他們已有確認的渡輪時間表。"
+          },
+          {
+            "id": "c",
+            "en": "They wanted to become the best school.",
+            "zh": "他們想成為最好的學校。"
+          },
+          {
+            "id": "d",
+            "en": "They cancelled the trip before booking.",
+            "zh": "他們在預訂前已取消行程。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未確認渡輪時間便預訂，結果仍不確定。"
+      },
+      "reply": {
+        "promptEn": "A team has not tested whether its outdoor screen works in rain. It plans to use the screen at tomorrow’s event without a backup. How would you describe the plan?",
+        "promptZh": "（團隊尚未測試戶外屏幕在雨中能否運作，明天活動卻打算使用，而且沒有後備方案。如何描述？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are relying on conditions staying favourable.",
+            "zh": "他們依靠天氣維持有利。"
+          },
+          {
+            "id": "b",
+            "en": "They have not checked a key risk.",
+            "zh": "他們尚未檢查重要風險。"
+          },
+          {
+            "id": "c",
+            "en": "They are hoping for the best rather than preparing a backup.",
+            "zh": "他們寄望一切順利，而非準備後備方案。"
+          },
+          {
+            "id": "d",
+            "en": "The screen might work, but the team lacks assurance.",
+            "zh": "屏幕或許能運作，但團隊沒有把握。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出未測試、無後備的風險。"
+      },
+      "scene": {
+        "promptZh": "主辦方未確認麥克風可否使用，仍按原定安排開始活動，沒有準備替代器材。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are hoping for the best without a tested backup.",
+            "zh": "他們沒有測試過的後備方案，只能寄望順利。"
+          },
+          {
+            "id": "b",
+            "en": "They have confirmed every device and backup.",
+            "zh": "他們已確認每件設備及後備器材。"
+          },
+          {
+            "id": "c",
+            "en": "They are competing to become the best performers.",
+            "zh": "他們正爭做最好的表演者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "關鍵設備未確認，卻盼望結果良好。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把希望誤當成證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can hope for the best, but we should check the route before sending the invitation.",
+            "zh": "我們可以寄望順利，但寄邀請前仍應核對路線。"
+          },
+          {
+            "id": "b",
+            "en": "We hope for the best, so the route is certainly open.",
+            "zh": "我們寄望順利，因此路線必定開放。"
+          },
+          {
+            "id": "c",
+            "en": "The route is verified and backup buses are booked, so we have no information at all.",
+            "zh": "路線已核實且預訂後備巴士，所以我們完全沒有資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "希望與查證可以並存；希望不是證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 hoping for the best 必定表示「完全沒有做任何事」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may have acted already while hoping for the best about an uncertain result.",
+            "zh": "他們可能已採取行動，同時對不確定結果寄望順利。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always means total inaction.",
+            "zh": "對，它必定表示完全不行動。"
+          },
+          {
+            "id": "c",
+            "en": "It guarantees a good result.",
+            "zh": "它保證好結果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語講結果未確定，不必然講完全不行動。"
+      },
+      "speaking": {
+        "en": "We have reserved the room without a weatherproof route; for now we are hoping for the best, but we need a backup path.",
+        "zh": "我們已預訂場地，卻未安排防風雨路線；目前只能寄望順利，但需要後備路線。",
+        "promptZh": "指出尚缺少甚麼後備安排。",
+        "targetSpan": {
+          "start": 71,
+          "end": 90
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區市集已訂戶外攤位，卻尚未確認雨棚供應；主辦者希望天氣好，同時決定今日核實雨棚並準備室內後備場地。用英文說明希望與行動。",
+        "selfCheckZh": "兩個示範都應寫出戶外攤位已訂、雨棚未確認、希望天氣好、今日核實並準備室內後備場地。",
+        "examples": [
+          {
+            "en": "The market has booked outdoor stalls but has not confirmed the canopies. Organisers are hoping for the best about the weather while checking canopy supply today and preparing an indoor backup.",
+            "zh": "市集已訂戶外攤位，但尚未確認雨棚；主辦者寄望天氣好，同時今日核實雨棚供應並準備室內後備場地。"
+          },
+          {
+            "en": "Although the outdoor stalls are booked and canopy availability is uncertain, the team will check it today and arrange an indoor venue. They can hope for the best about the weather without relying on luck alone.",
+            "zh": "戶外攤位已訂，但雨棚供應未確定；團隊會今日查證並安排室內場地。他們可以寄望天氣好，同時不只靠運氣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "outdoor stalls",
+            "zh": "戶外攤位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 36
+            }
+          },
+          {
+            "en": "canopy supply",
+            "zh": "雨棚供應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 141,
+              "end": 154
+            }
+          },
+          {
+            "en": "indoor backup",
+            "zh": "室內後備場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 191
+            }
+          },
+          {
+            "en": "canopy availability",
+            "zh": "雨棚供應情況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 62
+            }
+          },
+          {
+            "en": "arrange",
+            "zh": "安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 117
+            }
+          },
+          {
+            "en": "luck alone",
+            "zh": "只靠運氣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 199,
+              "end": 209
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hoping for the best acknowledges an uncertain result.",
+          "zh": "hoping for the best 表示結果未確定但寄望順利。"
+        },
+        {
+          "en": "You can hope for the best while still checking risks and preparing a backup.",
+          "zh": "可以寄望順利，同時查核風險並準備後備方案。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4580",
+      "number": 4580,
+      "inventoryId": "expr-4580",
+      "titleEn": "stir up questions",
+      "titleZh": "引發疑問",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:stir|stirs|stirred|stirring)\\s+up\\s+(?:[\\w-]+\\s+){0,3}questions\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Prompt important questions or debate that had not been prominent before.",
+        "meaningZh": "引出原本未受重視的重要疑問或討論。",
+        "grammar": "Stir up + questions/debate; subject is an event, proposal or finding. Stirs/stirred/stirring mark tense or form.",
+        "register": "Neutral journalistic or policy commentary; a council analyst explains to residents what a proposal has raised.",
+        "boundaryZh": "表示引發疑問，不表示那些疑問已獲答案，也不必帶有惡意。",
+        "misconceptionZh": "不是實際攪拌液體；提出問題與解決問題有別。",
+        "outcomeZh": "能指出哪項新資訊引發了哪類疑問。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2469",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 233,
+          "book": 16,
+          "question": 44,
+          "sample": "S2",
+          "sourceBookPages": "104–105",
+          "locatorNote": "DOCX table 259, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new service stirred up important questions about fairness.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stirred up important questions"
+        }
+      ],
+      "listening": {
+        "en": "Publishing the school meal costs stirred up questions about why two campuses charged different prices.",
+        "zh": "公布學校膳食成本引發疑問：為何兩個校區收費不同？",
+        "promptZh": "stirred up questions 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The figures prompted a new discussion about the price gap.",
+            "zh": "數字引發關於價格差距的新討論。"
+          },
+          {
+            "id": "b",
+            "en": "Staff stirred soup during lunch.",
+            "zh": "職員午餐時攪拌湯。"
+          },
+          {
+            "id": "c",
+            "en": "The price gap was fully explained already.",
+            "zh": "價格差距已得到完整解釋。"
+          },
+          {
+            "id": "d",
+            "en": "Both campuses now charge exactly the same price.",
+            "zh": "兩個校區現在收費完全相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "成本數字引出了尚須探討的收費問題。"
+      },
+      "reply": {
+        "promptEn": "A museum publishes a list showing that most objects in a new display came from private loans. Visitors begin asking who decides which communities are represented. What happened?",
+        "promptZh": "（博物館公布新展覽大部分物件來自私人借展的清單。訪客開始問：誰決定哪些社群獲得代表？這是甚麼情況？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The list prompted visitors to ask about representation.",
+            "zh": "清單引起訪客對代表性的疑問。"
+          },
+          {
+            "id": "b",
+            "en": "The information opened a debate about selection.",
+            "zh": "資訊引發關於選件的討論。"
+          },
+          {
+            "id": "c",
+            "en": "The disclosure stirred up questions about whose voices appear.",
+            "zh": "披露資料引發哪些聲音獲呈現的疑問。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors now want the museum to explain its choices.",
+            "zh": "訪客現在希望博物館解釋選擇。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出新清單引發代表性問題。"
+      },
+      "scene": {
+        "promptZh": "研究報告發現新公園的遮蔭座位多在收費區，居民開始討論是否公平。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The report stirred up questions about access and fairness.",
+            "zh": "報告引發關於使用權及公平的疑問。"
+          },
+          {
+            "id": "b",
+            "en": "The report answered every fairness question conclusively.",
+            "zh": "報告已徹底回答所有公平問題。"
+          },
+          {
+            "id": "c",
+            "en": "The report physically stirred water in the park.",
+            "zh": "報告實際攪動公園的水。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "發現引發公平討論，並非已作結論。"
+      },
+      "contrast": {
+        "promptZh": "哪句區分「引發」與「解決」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new data stirred up questions about waiting times; the review will seek answers next month.",
+            "zh": "新數據引發關於輪候時間的疑問；檢討下月才會尋找答案。"
+          },
+          {
+            "id": "b",
+            "en": "The data stirred up questions, so every answer was settled at once.",
+            "zh": "數據引發疑問，因此所有答案即時已定。"
+          },
+          {
+            "id": "c",
+            "en": "The data stirred up questions by literally mixing them in a bowl.",
+            "zh": "數據把問題放碗裏攪拌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "疑問出現後仍須研究答案。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 stir up questions 必然指蓄意製造麻煩。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An honest survey can stir up questions that deserve investigation.",
+            "zh": "一份誠實調查也可引發值得研究的疑問。"
+          },
+          {
+            "id": "b",
+            "en": "Yes; it always means malicious troublemaking.",
+            "zh": "對；它一定指惡意生事。"
+          },
+          {
+            "id": "c",
+            "en": "It means the questions have been answered already.",
+            "zh": "它表示疑問已經得到回答。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "引發疑問不必是惡意。"
+      },
+      "speaking": {
+        "en": "The audit stirred up questions about how repair requests are ranked, and the agency has promised to explain its method.",
+        "zh": "審計引發維修申請如何排序的疑問，機構已承諾解釋方法。",
+        "promptZh": "說出尚待機構說明的事項。",
+        "targetSpan": {
+          "start": 10,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心公開兩年活動名額數據，居民發現晚間名額較少，開始問上班族能否公平參加；中心下月才檢討。用英文說明數據引發疑問但尚未解決。",
+        "selfCheckZh": "兩個示範都應提及兩年數據、晚間名額較少、上班族的公平參加問題，以及下月才檢討。",
+        "examples": [
+          {
+            "en": "The centre’s two-year figures stirred up questions about fair access for working residents because evening places were fewer; a review is due next month.",
+            "zh": "中心兩年數字顯示晚間名額較少，引發上班居民能否公平參加的疑問；檢討預定下月進行。"
+          },
+          {
+            "en": "Fewer evening places appeared in the community centre’s two-year data. That finding stirred up questions for working residents, and the centre will review access next month.",
+            "zh": "社區中心兩年數據顯示晚間名額較少；這項發現引發上班居民的疑問，中心將於下月檢討參加機會。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two-year figures",
+            "zh": "兩年數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 29
+            }
+          },
+          {
+            "en": "fair access",
+            "zh": "公平參加機會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 68
+            }
+          },
+          {
+            "en": "review is due",
+            "zh": "檢討預定進行",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 141
+            }
+          },
+          {
+            "en": "evening places",
+            "zh": "晚間名額",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "working residents",
+            "zh": "上班居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          },
+          {
+            "en": "review access",
+            "zh": "檢討參加機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Stir up questions means prompt discussion, not settle it.",
+          "zh": "stir up questions 指引發討論，而非解決問題。"
+        },
+        {
+          "en": "A finding can stir up questions without anyone intending trouble.",
+          "zh": "一項發現可以引發疑問，毋須有人意圖生事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4599",
+      "number": 4599,
+      "inventoryId": "expr-4599",
+      "titleEn": "balancing act",
+      "titleZh": "兼顧兩難",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a\\s+)?balancing\\s+act\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A difficult effort to meet two or more competing needs at once.",
+        "meaningZh": "同時兼顧兩項或更多互相拉扯的需要，並非易事。",
+        "grammar": "A balancing act between X and Y / balancing act of doing X while doing Y; name the competing considerations.",
+        "register": "Neutral discussion of trade-offs; a school principal explains scheduling constraints to parents.",
+        "boundaryZh": "要有至少兩個彼此牽制的目標，不只是普通工作忙碌。",
+        "misconceptionZh": "不是馬戲雜技；如果兩項目標完全不衝突，balancing act 的證據不足。",
+        "outcomeZh": "能指明互相牽制的需求及取捨。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2488",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 235,
+          "book": 16,
+          "question": 47,
+          "sample": "S2",
+          "sourceBookPages": "110–113",
+          "locatorNote": "DOCX table 262, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The project is a balancing act between speed and cost.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "balancing act"
+        }
+      ],
+      "listening": {
+        "en": "The clinic wants more appointment slots without cutting consultation time; that is a balancing act for its schedulers.",
+        "zh": "診所希望增加預約名額，同時不縮短看診時間；排期人員須兼顧這兩個要求。",
+        "promptZh": "balancing act 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic must reconcile two competing goals.",
+            "zh": "診所須兼顧兩個互相拉扯的目標。"
+          },
+          {
+            "id": "b",
+            "en": "Doctors are performing on a balance beam.",
+            "zh": "醫生在平衡木上表演。"
+          },
+          {
+            "id": "c",
+            "en": "Only speed matters in the schedule.",
+            "zh": "排期只考慮速度。"
+          },
+          {
+            "id": "d",
+            "en": "The two goals never affect each other.",
+            "zh": "兩個目標完全互不影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "增加名額與維持看診時間互相牽制。"
+      },
+      "reply": {
+        "promptEn": "A festival wants a low ticket price so more people can attend, but it also needs enough income to pay performers fairly. How would you describe this decision?",
+        "promptZh": "（節慶想降低票價讓更多人參加，但也需要足夠收入公平支付表演者。如何描述這決定？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It must consider both access and fair pay.",
+            "zh": "它須同時考慮參加機會與公平酬勞。"
+          },
+          {
+            "id": "b",
+            "en": "Lower prices may reduce the money available for performers.",
+            "zh": "較低票價可能減少支付表演者的款項。"
+          },
+          {
+            "id": "c",
+            "en": "Setting the price is a balancing act between access and fair pay.",
+            "zh": "定票價是在參加機會與公平酬勞之間兼顧兩難。"
+          },
+          {
+            "id": "d",
+            "en": "The organisers need a price that addresses both aims.",
+            "zh": "主辦者需要一個兼顧兩項目標的票價。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認兩項目標互相牽制。"
+      },
+      "scene": {
+        "promptZh": "圖書館要延長晚間開放，但現有職員也需要足夠休息。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rota is a balancing act between access and staff rest.",
+            "zh": "更表須兼顧讀者使用機會與職員休息。"
+          },
+          {
+            "id": "b",
+            "en": "The rota is a circus balance-beam show.",
+            "zh": "更表是一場馬戲平衡木表演。"
+          },
+          {
+            "id": "c",
+            "en": "Only opening hours matter; rest has no bearing.",
+            "zh": "只需考慮開放時間，休息毫無關係。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "延長服務與保障休息互相拉扯。"
+      },
+      "contrast": {
+        "promptZh": "哪句列出真正的兩難？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping the hall warm while limiting energy use is a balancing act.",
+            "zh": "保持禮堂溫暖，同時限制能源使用，是一項兼顧兩難的工作。"
+          },
+          {
+            "id": "b",
+            "en": "The hall is warm and energy is unlimited, so there is no conflict; it is a balancing act.",
+            "zh": "禮堂溫暖且能源無限，毫無衝突，卻說這是兩難。"
+          },
+          {
+            "id": "c",
+            "en": "One worker stands on one foot; that alone explains the policy balancing act.",
+            "zh": "一名工人單腳站立，單靠這點便可解釋政策兩難。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保暖與節能是具體互相牽制的目標。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 balancing act 只表示「事情很多」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a balancing act when improving access also raises staffing costs.",
+            "zh": "改善使用機會同時增加人手成本時，便須兼顧兩難。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, any long to-do list is automatically a balancing act.",
+            "zh": "對，任何長待辦清單都一定是兩難。"
+          },
+          {
+            "id": "c",
+            "en": "It means choosing one goal and ignoring the other.",
+            "zh": "它表示只選一個目標並忽略另一個。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語需要互相牽制的考量。"
+      },
+      "speaking": {
+        "en": "The school’s timetable is a balancing act between longer science labs and enough time for language classes.",
+        "zh": "學校時間表須兼顧較長的科學實驗課與足夠的語文課時間。",
+        "promptZh": "指出時間表須兼顧哪兩種課堂。",
+        "targetSpan": {
+          "start": 26,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：動物收容所想增加開放探訪時段以便更多人領養，但不能減少動物安靜休息時間。用英文指出兩個互相牽制的目標和排期難處。",
+        "selfCheckZh": "兩個示範都應寫出增加探訪以方便領養，以及保留動物安靜休息時間，並指明排期須兼顧。",
+        "examples": [
+          {
+            "en": "The shelter’s timetable is a balancing act between longer visiting hours for adopters and enough quiet time for the animals.",
+            "zh": "收容所更表須兼顧領養者較長的探訪時段，以及動物足夠的安靜休息時間。"
+          },
+          {
+            "en": "Giving more people a chance to adopt while protecting the animals’ rest is a balancing act for the shelter’s schedule.",
+            "zh": "讓更多人有機會領養，同時保障動物休息，是收容所排期上的兩難。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "visiting hours",
+            "zh": "探訪時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 72
+            }
+          },
+          {
+            "en": "adopters",
+            "zh": "領養者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 85
+            }
+          },
+          {
+            "en": "quiet time",
+            "zh": "安靜休息時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 107
+            }
+          },
+          {
+            "en": "a chance to adopt",
+            "zh": "領養機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 36
+            }
+          },
+          {
+            "en": "protecting",
+            "zh": "保障",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 53
+            }
+          },
+          {
+            "en": "shelter’s schedule",
+            "zh": "收容所排期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A balancing act names competing needs that must be reconciled.",
+          "zh": "a balancing act 指須兼顧互相牽制的需要。"
+        },
+        {
+          "en": "Call it a balancing act only when both sides affect the decision.",
+          "zh": "只有兩邊都影響決定時，才稱得上兼顧兩難。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4606",
+      "number": 4606,
+      "inventoryId": "expr-4606",
+      "titleEn": "open a new chapter",
+      "titleZh": "開啟新篇章",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:open|opens|opened|opening)\\s+(?:a|another)\\s+new\\s+chapter\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Begin a distinctly new stage of life, work or experience.",
+        "meaningZh": "開始人生、工作或經歷中明顯不同的新階段。",
+        "grammar": "Open/opening a new chapter (in X’s life/career); subject may be a person or a significant transition. The source has an exchange trip as fresh experience.",
+        "register": "Warm, reflective, mildly formal; a mentor speaks to students beginning a new placement.",
+        "boundaryZh": "重點是有意義的新階段，不是任何微小日常改動。",
+        "misconceptionZh": "不是實際翻開書頁；也不暗示舊階段毫無價值。",
+        "outcomeZh": "能指出舊階段與新階段的實際分界。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2495",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 236,
+          "book": 16,
+          "question": 48,
+          "sample": "S1",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 263, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The exchange trip felt like opening a new chapter.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "opening a new chapter"
+        }
+      ],
+      "listening": {
+        "en": "After ten years on stage, Ravi began training young actors; teaching opened a new chapter in his career.",
+        "zh": "Ravi 在台上表演十年後開始培訓年輕演員；教學為他的事業開啟新篇章。",
+        "promptZh": "opened a new chapter 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He began a different phase of his career.",
+            "zh": "他開始了事業中不同的階段。"
+          },
+          {
+            "id": "b",
+            "en": "He opened a textbook to the next page.",
+            "zh": "他把課本翻到下一頁。"
+          },
+          {
+            "id": "c",
+            "en": "He stopped caring about his previous work.",
+            "zh": "他不再重視過往工作。"
+          },
+          {
+            "id": "d",
+            "en": "He repeated exactly the same role with no change.",
+            "zh": "他毫無改變地重複相同角色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從表演轉向培訓，是事業角色轉變。"
+      },
+      "reply": {
+        "promptEn": "Mina has spent years helping in her family restaurant. She will now run a small bakery of her own, managing recipes and staff for the first time. How can she describe the move?",
+        "promptZh": "（Mina 多年來在家族餐廳幫忙，現在將經營自己的小麵包店，首次管理食譜和員工。如何描述這個轉變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is beginning an independent business stage.",
+            "zh": "她正開始獨立經營的新階段。"
+          },
+          {
+            "id": "b",
+            "en": "Her role and responsibilities are changing substantially.",
+            "zh": "她的角色及責任正大幅改變。"
+          },
+          {
+            "id": "c",
+            "en": "Running her own bakery will open a new chapter.",
+            "zh": "經營自己的麵包店將開啟新篇章。"
+          },
+          {
+            "id": "d",
+            "en": "She is moving beyond her previous supporting role.",
+            "zh": "她正走出之前的輔助角色。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據獨立經營與新責任描述轉變。"
+      },
+      "scene": {
+        "promptZh": "研究員完成博士後，首次帶領自己的實驗團隊，工作職責大變。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leading the team opens a new chapter in her research career.",
+            "zh": "帶領團隊為她的研究事業開啟新篇章。"
+          },
+          {
+            "id": "b",
+            "en": "She merely opens the next page of her lab notebook.",
+            "zh": "她只是翻開實驗筆記下一頁。"
+          },
+          {
+            "id": "c",
+            "en": "Nothing about her role has changed.",
+            "zh": "她的角色沒有任何改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "首次領導團隊是明顯的新階段。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能避免把微小改動誇成新篇章？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After qualifying as a nurse, he starts treating patients; this opens a new chapter in his career.",
+            "zh": "他取得護士資格後開始照顧病人，為事業開啟新篇章。"
+          },
+          {
+            "id": "b",
+            "en": "He changes his desk pen today, so his career opens a new chapter.",
+            "zh": "他今天更換桌上的筆，因此事業開啟新篇章。"
+          },
+          {
+            "id": "c",
+            "en": "He reads chapter two of a novel, so his life has opened a new chapter figuratively.",
+            "zh": "他讀小說第二章，因此人生在比喻上開啟新篇章。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "取得資格並開始新職責是實質轉變。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 new chapter 表示「舊經驗都沒用了」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Opening a new chapter can build on earlier experience while beginning a fresh role.",
+            "zh": "開啟新篇章可以承接舊經驗，同時展開新角色。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, everything learned before must be discarded.",
+            "zh": "對，之前所學都必須拋棄。"
+          },
+          {
+            "id": "c",
+            "en": "It refers only to a printed book.",
+            "zh": "它只指印刷書本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新階段可以以舊經驗為基礎。"
+      },
+      "speaking": {
+        "en": "Starting her first community clinic opens a new chapter for the doctor, who now leads a team as well as treating patients.",
+        "zh": "開設首間社區診所為這位醫生開啟新篇章；她現在除了看診，還帶領團隊。",
+        "promptZh": "指出醫生新增的責任。",
+        "targetSpan": {
+          "start": 36,
+          "end": 55
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位攝影師多年來替雜誌接案，現在開設自己的工作室並首次聘請助理；他仍會運用舊經驗。用英文指出有意義的新階段。",
+        "selfCheckZh": "兩個示範都應寫出多年雜誌接案、自己開工作室、首次聘助理，以及新階段承接舊經驗。",
+        "examples": [
+          {
+            "en": "After years of magazine assignments, opening his own studio and hiring his first assistant opens a new chapter for the photographer, built on his earlier experience.",
+            "zh": "多年來為雜誌接案後，攝影師開自己的工作室並首次聘請助理，為他開啟以舊經驗為基礎的新篇章。"
+          },
+          {
+            "en": "The photographer is using what he learned on magazine jobs as he opens a new chapter: running his own studio and employing an assistant for the first time.",
+            "zh": "攝影師以多年雜誌工作所得經驗開啟新篇章：經營自己的工作室，並首次聘請助理。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "magazine assignments",
+            "zh": "雜誌接案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 35
+            }
+          },
+          {
+            "en": "first assistant",
+            "zh": "首名助理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 90
+            }
+          },
+          {
+            "en": "earlier experience",
+            "zh": "舊經驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 146,
+              "end": 164
+            }
+          },
+          {
+            "en": "magazine jobs",
+            "zh": "雜誌工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 58
+            }
+          },
+          {
+            "en": "own studio",
+            "zh": "自己的工作室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 108
+            }
+          },
+          {
+            "en": "for the first time",
+            "zh": "首次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 154
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Opening a new chapter signals a meaningful new stage.",
+          "zh": "opening a new chapter 表示有意義的新階段。"
+        },
+        {
+          "en": "Opening a new chapter can build on what was learned in earlier work.",
+          "zh": "開啟新篇章可以建基於舊工作所得經驗。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4612",
+      "number": 4612,
+      "inventoryId": "expr-4612",
+      "titleEn": "just around the corner",
+      "titleZh": "就在附近／即將到來",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bjust\\s+around\\s+the\\s+corner\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Very near, either in place or in time; the source describes work feeling spatially close at home.",
+        "meaningZh": "在空間上很近，或在時間上即將到來；來源例句指在家工作仍感覺很近。",
+        "grammar": "X is/feels just around the corner. For the source sense, name a nearby place or a sense of spatial proximity; time uses like a deadline is just around the corner.",
+        "register": "Conversational; a remote worker explains to a friend why living near the office makes it hard to switch off.",
+        "boundaryZh": "來源是空間上的接近感，不應把它硬說成截止日期即將到來；時間義可另作對比。",
+        "misconceptionZh": "不必真的繞過街角；也不表示已經抵達。",
+        "outcomeZh": "能按上下文分辨地點很近與時間將至。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2501",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 236,
+          "book": 16,
+          "question": 48,
+          "sample": "S2",
+          "sourceBookPages": "114–115",
+          "locatorNote": "DOCX table 263, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "At home, work always feels just around the corner.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "just around the corner"
+        }
+      ],
+      "listening": {
+        "en": "The rehearsal studio is just around the corner from Nia’s flat, so she can walk there in two minutes.",
+        "zh": "排練室就在 Nia 的住所附近，步行兩分鐘便到。",
+        "promptZh": "just around the corner 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The studio is very close to her home.",
+            "zh": "排練室離她家很近。"
+          },
+          {
+            "id": "b",
+            "en": "The studio is physically inside her flat.",
+            "zh": "排練室就在她的住所內。"
+          },
+          {
+            "id": "c",
+            "en": "The rehearsal will happen next year.",
+            "zh": "排練會在明年進行。"
+          },
+          {
+            "id": "d",
+            "en": "She must travel across the city.",
+            "zh": "她必須橫越全城。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "步行兩分鐘支持地點很近。"
+      },
+      "reply": {
+        "promptEn": "A teacher lives beside the school. Even on Sunday, seeing the school gate outside her window makes work feel close. How could she express that feeling?",
+        "promptZh": "（老師住在學校旁邊。即使星期日，從窗外看見校門也令她覺得工作就在附近。她可以怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workplace feels very near even at home.",
+            "zh": "即使在家，工作場所仍感覺很近。"
+          },
+          {
+            "id": "b",
+            "en": "Her home offers little physical distance from school.",
+            "zh": "她的家與學校在空間上距離很短。"
+          },
+          {
+            "id": "c",
+            "en": "Work feels just around the corner when she is at home.",
+            "zh": "她在家時仍覺得工作就在附近。"
+          },
+          {
+            "id": "d",
+            "en": "Seeing the gate makes it harder to feel away from work.",
+            "zh": "看見校門令她較難感覺已離開工作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據住所與校門的空間接近感作答。"
+      },
+      "scene": {
+        "promptZh": "朋友住在劇院後面的一條小街，步行一分鐘便到。哪句用地點義貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The theatre is just around the corner from her home.",
+            "zh": "劇院就在她家附近。"
+          },
+          {
+            "id": "b",
+            "en": "The theatre is just around the corner because its show begins next month.",
+            "zh": "劇院就在附近，因為演出下月開始。"
+          },
+          {
+            "id": "c",
+            "en": "The theatre is already inside her living room.",
+            "zh": "劇院已在她的客廳裏。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "步行一分鐘支持空間接近義。"
+      },
+      "contrast": {
+        "promptZh": "哪句正確辨認時間義，並與來源地點義區分？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The exam is just around the corner means it is coming soon, not that the exam room is nearby.",
+            "zh": "考試即將到來指時間快到了，不是考場在附近。"
+          },
+          {
+            "id": "b",
+            "en": "The exam is just around the corner can only mean the room is behind a street corner.",
+            "zh": "考試即將到來只能指考場在街角後面。"
+          },
+          {
+            "id": "c",
+            "en": "The office is just around the corner must mean a deadline is near.",
+            "zh": "辦公室就在附近必定表示截止日期快到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同一片語可依主語及上下文表示時間或空間接近。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為這片語一定指真的轉過街角。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "My studio feels just around the corner even without a literal street corner.",
+            "zh": "即使沒有真正的街角，我的工作室仍感覺就在附近。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it requires an actual corner on every map.",
+            "zh": "對，每次都必須在地圖上有真正的街角。"
+          },
+          {
+            "id": "c",
+            "en": "It means the place is unreachable.",
+            "zh": "它表示那地方無法到達。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "近在咫尺不必有實際街角。"
+      },
+      "speaking": {
+        "en": "The office is just around the corner from our new flat, so my commute will be short.",
+        "zh": "辦公室就在新住所附近，因此我上班路程會短。",
+        "promptZh": "指出辦公室與住所的空間關係。",
+        "targetSpan": {
+          "start": 14,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位插畫師搬到社區畫室隔鄰，步行三分鐘便到；即使休假，從窗外也能看見畫室招牌，令她覺得工作仍很近。用英文描述這種空間接近感。",
+        "selfCheckZh": "兩個示範都應寫出畫室距離三分鐘、休假仍看到招牌、工作感覺很近；不可把意思轉成某個期限快到。",
+        "examples": [
+          {
+            "en": "The shared studio is just around the corner, only a three-minute walk away; seeing its sign on days off makes work feel close to the illustrator.",
+            "zh": "共用畫室就在附近，步行只須三分鐘；插畫師休假看見招牌，仍感覺工作很近。"
+          },
+          {
+            "en": "Even on days off, the illustrator sees the studio sign from her window. With the workspace just around the corner and only three minutes away, work still feels near.",
+            "zh": "即使休假，插畫師仍從窗戶看見畫室招牌；工作室就在附近，只隔三分鐘路程，工作仍感覺很近。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shared studio",
+            "zh": "共用畫室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "three-minute walk",
+            "zh": "三分鐘步程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 69
+            }
+          },
+          {
+            "en": "days off",
+            "zh": "休假日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 103
+            }
+          },
+          {
+            "en": "studio sign",
+            "zh": "畫室招牌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 54
+            }
+          },
+          {
+            "en": "from her window",
+            "zh": "從她的窗戶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 70
+            }
+          },
+          {
+            "en": "workspace",
+            "zh": "工作室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Just around the corner can mark spatial closeness.",
+          "zh": "just around the corner 可表示空間上很近。"
+        },
+        {
+          "en": "A deadline just around the corner is near in time instead.",
+          "zh": "截止日期 just around the corner 則指時間將至。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

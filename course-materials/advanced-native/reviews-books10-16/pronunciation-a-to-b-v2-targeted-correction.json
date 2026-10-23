@@ -1,0 +1,54 @@
+{
+  "status": "targeted-synthesis-correction-pending-public-audio-qa",
+  "moduleId": "advanced-native-2168",
+  "issue": "Pinned G2P pronounced the letter A in the fixed phrase A to B as unstressed article schwa.",
+  "phonemesBefore": "ɐ tə bˈiː",
+  "phonemesAfter": "ˈeɪ tə bˈiː",
+  "languages": [
+    "en-us",
+    "en-gb"
+  ],
+  "correctionVersion": "curveball-and-a-to-b-v2",
+  "regeneratedClips": 4,
+  "source": "Local tokenizer output and two-model ASR exception follow-up; no human listening or accent certification claimed.",
+  "humanListeningReviewClaimed": false,
+  "pronunciationOrAccentCertified": false,
+  "clips": [
+    {
+      "role": "listening",
+      "oldSynthesisKey": "46e4b87a551677dc0017859432c3835dae7c39a44acf507c974005c0fdef6609",
+      "newSynthesisKey": "875e582f9e9da4d82b78e6f9a78eee806a7eb9bcf200979e098b3339281087bb",
+      "oldBaseTranscript": "The new bus route cuts out a transfer, so getting from it to be across town is much easier now.",
+      "newBaseTranscript": "The new bus route cuts out a transfer, so getting from A to B across town is much easier now.",
+      "newSmallTranscript": null,
+      "newAudioSha256": "15fe9a771d742615466d45af99474b7fad040b9aab2b4fed87e4217d75c27d0f"
+    },
+    {
+      "role": "speaking",
+      "oldSynthesisKey": "863a13dec5c42e44d2469666084cf863415602909d8d613800a73b1c97144742",
+      "newSynthesisKey": "47893ce7b1f034d510b332e237d4ca8e036f7260c86abab3f81a332e95b3c461",
+      "oldBaseTranscript": "A simple walking map made getting from it to be easier for new visitors.",
+      "newBaseTranscript": "A simple walking map made getting from A to be easier for new visitors.",
+      "newSmallTranscript": "A simple walking map made getting from A to be easier for new visitors.",
+      "newAudioSha256": "68279638fe5a9db1bbe67a8fdf04e52b773e786c76eac878b5960282213f6e49"
+    },
+    {
+      "role": "takeaway-1",
+      "oldSynthesisKey": "167f520e41db36ea66b70715e62758a3a9637e0aabb9e375e8809a5d309c5b45",
+      "newSynthesisKey": "81789e5d1ba4e1cafdcf554de17156fce672642b5f216c9796b5dc5a81ebfe82",
+      "oldBaseTranscript": "Getting from it to be took longer when the footbridge was closed.",
+      "newBaseTranscript": "Getting from A to be took longer when the footbridge was closed.",
+      "newSmallTranscript": "Getting from A to B took longer when the footbridge was closed.",
+      "newAudioSha256": "c4fe765140303557d01d742d67228746c137c1552fcfc1d5d66dbd813629365c"
+    },
+    {
+      "role": "takeaway-2",
+      "oldSynthesisKey": "8be9b8c698f07fde9662904b2e966d5b6f0540ffcf74d9937056a49f29ad2cc9",
+      "newSynthesisKey": "c020db90d51d6e1af2d5af595018696cc5ef1a4f84fdb47db7ed6c44c222f92d",
+      "oldBaseTranscript": "The guide explained how to get from a to-be without changing trains.",
+      "newBaseTranscript": "The guide explained how to get from A to B without changing trains.",
+      "newSmallTranscript": null,
+      "newAudioSha256": "b386f6d4af556ef205eab36e5a695e7b7aa814f4fee59ce6ceec0bf8f34b1697"
+    }
+  ]
+}

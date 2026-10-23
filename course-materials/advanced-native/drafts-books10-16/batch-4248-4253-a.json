@@ -336,10 +336,10 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 1,
+      "contentRevision": 3,
       "listening": {
-        "en": "During a workshop, the tutor compared Ivo’s draft with a polished example and joked about his intelligence in front of the group. Ivo stopped volunteering ideas; the public joke made a student feel small.",
-        "zh": "工作坊中，導師把艾禾的草稿與成熟範例相比，還當眾拿他的智力開玩笑。艾禾不再主動提出想法；那句公開玩笑令一名學生感到被貶低。",
+        "en": "During a workshop, the tutor compared Ivo’s draft with a polished example and joked about his intelligence in front of the group. Ivo stopped volunteering ideas; the public joke made him feel small.",
+        "zh": "工作坊中，導師把艾禾的草稿與成熟範例相比，還當眾拿他的智力開玩笑。艾禾不再主動提出想法；那句公開玩笑令他感到被貶低。",
         "promptZh": "哪項言行最能解釋艾禾的反應？",
         "options": [
           {
@@ -395,7 +395,7 @@
         "explanationZh": "四句均指出嘲笑與退縮；金句點出受辱感。"
       },
       "scene": {
-        "promptZh": "導師在全組面前稱一名新會員的想法「太蠢」，對方隨後不再發言。哪句最貼切？",
+        "promptZh": "導師在全組面前稱一名新學員的想法「太蠢」，對方隨後不再發言。哪句最貼切？",
         "options": [
           {
             "id": "a",
@@ -444,8 +444,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The trainer made a student feel small with that remark.",
-            "zh": "培訓員那句話令學生感到被貶低。"
+            "en": "The trainer made her feel small with that remark.",
+            "zh": "培訓員那句話令她感到被貶低。"
           },
           {
             "id": "b",
@@ -467,12 +467,12 @@
         "explanationZh": "金句指出具體言行如何造成被貶低感。"
       },
       "speaking": {
-        "en": "Comparing Nia’s first attempt with a finished professional design in a mocking tone made a student feel small; the mentor later apologised and gave one concrete revision privately.",
-        "zh": "導師以嘲諷語氣把妮亞首次嘗試與專業成品相比，令學生感到被貶低；導師其後道歉，並私下提出一項具體修訂。",
+        "en": "Comparing Nia’s first attempt with a finished professional design in a mocking tone made her feel small; the mentor later apologised and gave one concrete revision privately.",
+        "zh": "導師以嘲諷語氣把妮亞首次嘗試與專業成品相比，令她感到被貶低；導師其後道歉，並私下提出一項具體修訂。",
         "promptZh": "比較嘲諷與有幫助的私下回饋。",
         "targetSpan": {
           "start": 84,
-          "end": 109
+          "end": 103
         }
       },
       "writing": {
@@ -480,22 +480,22 @@
         "selfCheckZh": "兩例不能把正常糾錯一概當作羞辱；要指出針對人的貶低。",
         "examples": [
           {
-            "en": "The instructor mocked Lena’s accent during a presentation, which made a student feel small; Lena stopped speaking until the instructor apologised and invited her to finish.",
-            "zh": "導師在簡報中嘲笑莉娜的口音，令學生感到被貶低；莉娜停止發言，直到導師道歉並請她講完。"
+            "en": "The instructor mocked Lena’s accent during a classroom presentation, which made her feel small; Lena stopped speaking until the instructor apologised and invited her to finish.",
+            "zh": "導師在課堂簡報中嘲笑莉娜的口音，令她感到被貶低；莉娜停止發言，直到導師道歉並請她講完。"
           },
           {
-            "en": "At rehearsal, a director called Jun “hopeless” before the cast and made a student feel small. Jun withdrew, so the director apologised and offered specific notes in private.",
-            "zh": "排練時，導演在演員面前稱俊「無可救藥」，令學生感到被貶低。俊退縮了，導演於是道歉，並私下給出具體意見。"
+            "en": "At a drama-class rehearsal, the director called student actor Jun “hopeless” before the cast and made him feel small. Jun withdrew, so the director apologised and offered specific notes in private.",
+            "zh": "戲劇課排練時，導演在演員面前稱學生演員俊「無可救藥」，令他感到被貶低。俊退縮了，導演於是道歉，並私下給出具體意見。"
           }
         ],
         "glossary": [
           {
-            "en": "during a presentation",
-            "zh": "簡報期間",
+            "en": "during a classroom presentation",
+            "zh": "課堂簡報期間",
             "exampleIndex": 0,
             "span": {
               "start": 36,
-              "end": 57
+              "end": 67
             }
           },
           {
@@ -503,8 +503,8 @@
             "zh": "停止發言",
             "exampleIndex": 0,
             "span": {
-              "start": 97,
-              "end": 113
+              "start": 101,
+              "end": 117
             }
           },
           {
@@ -512,8 +512,8 @@
             "zh": "請她講完",
             "exampleIndex": 0,
             "span": {
-              "start": 150,
-              "end": 171
+              "start": 154,
+              "end": 175
             }
           },
           {
@@ -521,8 +521,8 @@
             "zh": "在演員面前",
             "exampleIndex": 1,
             "span": {
-              "start": 47,
-              "end": 62
+              "start": 77,
+              "end": 92
             }
           },
           {
@@ -530,8 +530,8 @@
             "zh": "具體意見",
             "exampleIndex": 1,
             "span": {
-              "start": 147,
-              "end": 161
+              "start": 171,
+              "end": 185
             }
           }
         ]

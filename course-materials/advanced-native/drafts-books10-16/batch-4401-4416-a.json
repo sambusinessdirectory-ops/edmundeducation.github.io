@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4401",
+      "number": 4401,
+      "inventoryId": "expr-4401",
+      "titleEn": "a storm of notifications",
+      "titleZh": "大量通知接連湧來",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the|that) storm of notifications\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A sudden overwhelming burst of alerts arriving in a short time.",
+        "meaningZh": "短時間內大量通知接連湧來，令人難以處理。",
+        "grammar": "A storm of notifications is a noun phrase; name the source and effect of the alerts.",
+        "register": "Conversational vivid English. A group coordinator may use it when an event app sends repeated alerts.",
+        "boundaryZh": "須短時間內有大量通知造成壓力；單一重要提示或慢慢累積的幾則訊息未必是一場通知風暴。",
+        "misconceptionZh": "不是天氣真的起風暴，也不是說所有通知都沒有價值。",
+        "outcomeZh": "能指出通知量、時間和處理負荷，並提出合理的篩選方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2290",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 216,
+          "book": 16,
+          "question": 23,
+          "sample": "S1",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 238, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Work phones create a storm of notifications.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a storm of notifications"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "When the volunteer app repeated every schedule change to all 80 helpers, a storm of notifications arrived within ten minutes. Several people missed the one confirmed start time, so the coordinator pinned a single final update.",
+        "zh": "義工應用程式把每項時間改動重複發給八十名幫手，十分鐘內湧來大量通知。有人錯過唯一已確認的開始時間，因此協調員置頂一則最終更新。",
+        "promptZh": "為何要置頂最終更新？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated alerts made the confirmed time hard to find.",
+            "zh": "重複提醒令已確認時間難找。"
+          },
+          {
+            "id": "b",
+            "en": "The app sent only one message all morning.",
+            "zh": "應用程式整個上午只發一則訊息。"
+          },
+          {
+            "id": "c",
+            "en": "Every helper had already read the final time correctly.",
+            "zh": "每名幫手早已正確讀到最終時間。"
+          },
+          {
+            "id": "d",
+            "en": "The start time no longer mattered to volunteers.",
+            "zh": "開始時間對義工已不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量密集通知掩蓋關鍵更新。"
+      },
+      "reply": {
+        "promptEn": "A theatre chat posts dozens of duplicate rehearsal alerts in five minutes. Members cannot tell which room is final until the stage manager pins one verified message. What happened in the chat?",
+        "promptZh": "（劇團群組五分鐘內貼出數十則重複排練提醒；成員難以分清最終房間，直到舞台經理置頂一則已核實訊息。群組發生甚麼事？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many alerts arrived too quickly to sort easily.",
+            "zh": "大量提醒來得太快，難以整理。"
+          },
+          {
+            "id": "b",
+            "en": "The key room information became hard to identify.",
+            "zh": "關鍵房間資訊變得難找。"
+          },
+          {
+            "id": "c",
+            "en": "A storm of notifications overwhelmed the chat.",
+            "zh": "大量通知接連湧來，令群組難以應付。"
+          },
+          {
+            "id": "d",
+            "en": "The pinned message helped identify the confirmed room.",
+            "zh": "置頂訊息有助找出已確認房間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按通知量與最終核實訊息回答。"
+      },
+      "scene": {
+        "promptZh": "學校活動應用程式十分鐘內發出四十則相近提醒，家長找不到最新接送地點。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A storm of notifications buried the latest location.",
+            "zh": "大量通知接連湧來，掩蓋最新地點。"
+          },
+          {
+            "id": "b",
+            "en": "One clearly labelled reminder was easy to find.",
+            "zh": "一則標示清楚的提醒很易找到。"
+          },
+          {
+            "id": "c",
+            "en": "No alert reached the parents.",
+            "zh": "家長完全沒有收到提醒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短時間通知過量，重要資訊難辨。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a storm of notifications？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A phone receives one clearly labelled alert about a changed room.",
+            "zh": "電話只收到一則標示清楚的房間改動提醒。"
+          },
+          {
+            "id": "b",
+            "en": "A team receives dozens of duplicate alerts during one short meeting.",
+            "zh": "小組在短會期間收到數十則重複提醒。"
+          },
+          {
+            "id": "c",
+            "en": "A live app sends so many updates at once that people miss the final instruction.",
+            "zh": "即時應用程式同時發太多更新，令大家錯過最終指示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一清楚提醒沒有大量密集的特點。"
+      },
+      "dialogue": {
+        "promptEn": "A: The booking system sent thirty alerts in eight minutes, and two staff missed the final cancellation notice. B: ______",
+        "promptZh": "（甲：預約系統八分鐘內發出三十則提醒，兩名員工錯過最終取消通知。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated alerts obscured the cancellation.",
+            "zh": "重複提醒掩蓋了取消通知。"
+          },
+          {
+            "id": "b",
+            "en": "A pinned final notice would help staff find the decision.",
+            "zh": "置頂最終通知有助員工找到決定。"
+          },
+          {
+            "id": "c",
+            "en": "That storm of notifications overwhelmed the team.",
+            "zh": "那一連串大量通知令團隊難以應付。"
+          },
+          {
+            "id": "d",
+            "en": "Staff need a clearer way to filter the messages.",
+            "zh": "員工需要更清晰的訊息篩選方法。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括短時間通知過量與處理負荷。"
+      },
+      "speaking": {
+        "en": "A storm of notifications hit the clinic team when the rota app repeated each shift edit; the supervisor muted duplicates and posted one confirmed schedule.",
+        "zh": "更表應用程式重複發送每項輪班改動，診所團隊接連收到大量通知；主管關掉重複提醒，發布一份已確認更表。",
+        "promptZh": "指出通知來源與整理結果。",
+        "targetSpan": {
+          "start": 0,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個群體各在短時間收到大量近似通知，關鍵更新被掩蓋，後來有人整理。用英文寫出。",
+        "selfCheckZh": "兩例須有密集通知與實際困擾，不能把一則提醒誇大成風暴。",
+        "examples": [
+          {
+            "en": "A storm of notifications filled the museum chat after the ticket app repeated every seat change; the manager pinned the final entry list.",
+            "zh": "票務應用程式重複發送每項座位改動後，博物館群組湧來大量通知；經理置頂最終入場名單。"
+          },
+          {
+            "en": "The parent group faced a storm of notifications during a five-minute bus delay, so the school sent one verified pickup time and muted duplicate posts.",
+            "zh": "校巴延誤五分鐘期間，家長群組接連收到大量通知；學校發出一個已核實接送時間，並關掉重複貼文。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "ticket app",
+            "zh": "票務應用程式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 68
+            }
+          },
+          {
+            "en": "final entry list",
+            "zh": "最終入場名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 136
+            }
+          },
+          {
+            "en": "five-minute bus delay",
+            "zh": "五分鐘校巴延誤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 78
+            }
+          },
+          {
+            "en": "verified pickup time",
+            "zh": "已核實接送時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 123
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A storm of notifications is a rapid overload of alerts.",
+          "zh": "a storm of notifications 指短時間過量湧來的通知。"
+        },
+        {
+          "en": "One verified update can calm a storm of notifications in a group chat.",
+          "zh": "一則已核實更新可令群組的大量通知較易處理。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4407",
+      "number": 4407,
+      "inventoryId": "expr-4407",
+      "titleEn": "bring in clearer quiet-hour rules",
+      "titleZh": "引入更清楚的安靜時段規則",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:bring|brings|brought|bringing) in (?:clearer quiet-hour rules|new quiet-hour rules|clearer rules|new rules)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Introduce new rules, or in plans to bring in, state an intention to introduce them later.",
+        "meaningZh": "引入新規則；plans to bring in 則表示計劃稍後引入，未必已實施。",
+        "grammar": "Bring in + rules means introduce them; bring has past brought. Plans to bring in describes a planned introduction before enactment. The source uses the specific object clearer quiet-hour rules, but the phrasal verb transfers to other rules.",
+        "register": "Neutral policy discussion. A building committee member may tell residents about an adopted quiet-hour policy.",
+        "boundaryZh": "bring in 可指已引入；plans to bring in 可指已有計劃但尚未實施。只是隨口考慮、沒有實際計劃，不應說已經引入。",
+        "misconceptionZh": "不是把紙張搬進房間，也不保證單靠規則就完全消除噪音。",
+        "outcomeZh": "能分辨已實施的新規則與計劃稍後引入的規則，並指出內容及通知方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2296",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 217,
+          "book": 16,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "59–60",
+          "locatorNote": "DOCX table 239, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The council plans to bring in clearer quiet-hour rules.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "bring in clearer quiet-hour rules"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "After reviewing late-night complaints, the residence committee voted to bring in clearer quiet-hour rules: noisy repairs would stop after nine, and every flat received the new notice. The committee would review complaints after a month.",
+        "zh": "檢視深夜噪音投訴後，屋苑委員會投票引入更清楚的安靜時段規則：嘈吵維修須於九時後停止，每戶收到新通知。委員會一個月後檢視投訴。",
+        "promptZh": "甚麼顯示規則已引入？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The committee approved a time limit and sent it to every flat.",
+            "zh": "委員會批准時限並通知每戶。"
+          },
+          {
+            "id": "b",
+            "en": "The committee only considered a rule but took no vote.",
+            "zh": "委員會只考慮規則，沒有投票。"
+          },
+          {
+            "id": "c",
+            "en": "No resident was told when repairs should stop.",
+            "zh": "沒有住戶獲告知何時停止維修。"
+          },
+          {
+            "id": "d",
+            "en": "Every complaint disappeared before any policy change.",
+            "zh": "政策改動前所有投訴已消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已投票決定時限並發出通知。"
+      },
+      "reply": {
+        "promptEn": "A community hall adopts a new rule that amplified music must end by ten. It posts the rule at the entrance and briefs all event organisers before bookings open. What has the hall done?",
+        "promptZh": "（社區禮堂採納新規則：擴音音樂須於十時前停止；訂場前已在入口張貼並向所有活動主辦人說明。禮堂做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It introduced a specific end time for amplified music.",
+            "zh": "它為擴音音樂引入具體結束時間。"
+          },
+          {
+            "id": "b",
+            "en": "Organisers received the rule before making bookings.",
+            "zh": "主辦人在訂場前已收到規則。"
+          },
+          {
+            "id": "c",
+            "en": "It brought in new quiet-hour rules.",
+            "zh": "它引入新的安靜時段規則。"
+          },
+          {
+            "id": "d",
+            "en": "The posted notice makes the requirement visible.",
+            "zh": "張貼的通知令要求清晰可見。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據已採納與通知的新規則回答。"
+      },
+      "scene": {
+        "promptZh": "工場管理處已決定下月引入十時後停止嘈吵工具的新規則，現正草擬通知，規則尚未生效。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They plan to bring in clearer quiet-hour rules next month.",
+            "zh": "他們計劃下月引入更清楚的安靜時段規則。"
+          },
+          {
+            "id": "b",
+            "en": "They have already enforced the new rule for a year.",
+            "zh": "他們早已實施新規則一年。"
+          },
+          {
+            "id": "c",
+            "en": "They rejected the proposal and have no plan to revisit it.",
+            "zh": "他們否決提案，也沒有打算再討論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有具體下月引入的決定，但規則尚未生效。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a committee brought in new rules？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members float a possible limit, reject it and make no plan to introduce a rule.",
+            "zh": "成員提過一個可能限制，之後否決，也沒有制定引入規則的計劃。"
+          },
+          {
+            "id": "b",
+            "en": "The committee approves a limit, notifies users and sets an effective date.",
+            "zh": "委員會批准限制、通知使用者並訂生效日。"
+          },
+          {
+            "id": "c",
+            "en": "A hall posts newly adopted requirements before accepting bookings.",
+            "zh": "禮堂訂場前張貼新採納要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "既沒有實施，也沒有確定日後引入的計劃。"
+      },
+      "dialogue": {
+        "promptEn": "A: The centre voted to stop amplified music after ten, emailed every group and made the rule effective next Monday. B: ______",
+        "promptZh": "（甲：中心投票決定十時後停止擴音音樂，電郵通知每個小組，並定下週一生效。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "There is a clear new limit and start date.",
+            "zh": "新限制與生效日期都清楚。"
+          },
+          {
+            "id": "b",
+            "en": "Each group has been told before the rule begins.",
+            "zh": "每個小組都在規則生效前獲通知。"
+          },
+          {
+            "id": "c",
+            "en": "They have brought in clearer quiet-hour rules.",
+            "zh": "他們已引入更清楚的安靜時段規則。"
+          },
+          {
+            "id": "d",
+            "en": "The centre can later check whether complaints decrease.",
+            "zh": "中心之後可檢視投訴有否減少。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句描述獲批准、已通知且將生效的新規則。"
+      },
+      "speaking": {
+        "en": "The rehearsal centre brought in new quiet-hour rules after consulting nearby residents: drums must stop at eight, and booking confirmations now show the limit.",
+        "zh": "綵排中心諮詢鄰近住戶後引入新安靜時段規則：鼓樂須於八時停止，訂場確認亦會顯示時限。",
+        "promptZh": "指出規則內容與告知方法。",
+        "targetSpan": {
+          "start": 21,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個地方各正式採納噪音時段新規則，寫出具體限制、生效或通知方式。用英文說明。",
+        "selfCheckZh": "兩例須是已作出的決定，而非只說計劃考慮。",
+        "examples": [
+          {
+            "en": "The arts venue brought in new rules for late performances: amplified sound ends at nine, and every ticket now states the limit.",
+            "zh": "藝術場地為夜間演出引入新規則：擴音聲於九時結束，每張門票都列明時限。"
+          },
+          {
+            "en": "A shared studio brought in clearer rules after a tenant vote; power tools stop at seven, with the date posted on every workroom door.",
+            "zh": "共用工作室經租戶投票後引入更清楚的規則：電動工具須於七時停止，生效日期貼於每間工作室門上。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "amplified sound",
+            "zh": "擴音聲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "every ticket",
+            "zh": "每張門票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 105
+            }
+          },
+          {
+            "en": "a tenant vote",
+            "zh": "租戶投票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 60
+            }
+          },
+          {
+            "en": "power tools",
+            "zh": "電動工具",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 73
+            }
+          },
+          {
+            "en": "workroom door",
+            "zh": "工作室門",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Bring in clearer quiet-hour rules means introduce a more specific noise policy.",
+          "zh": "bring in clearer quiet-hour rules 指引入更具體的噪音政策。"
+        },
+        {
+          "en": "A venue may plan to bring in new rules before they take effect.",
+          "zh": "場地可先計劃引入新規則，之後才正式生效。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4408",
+      "number": 4408,
+      "inventoryId": "expr-4408",
+      "titleEn": "frayed at the edges",
+      "titleZh": "身心已近磨損邊緣",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfrayed at the edges\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Emotionally worn down, with patience and resilience beginning to weaken.",
+        "meaningZh": "情緒與耐性因持續壓力而開始被磨損。",
+        "grammar": "Usually feel/look/be frayed at the edges; the fabric image is figurative for a person or group.",
+        "register": "Conversational reflective English. A team leader may use it when recognising staff strain during repeated schedule changes.",
+        "boundaryZh": "須有累積壓力與耐性變弱的跡象；一時疲倦或一場小失誤不足以推斷。",
+        "misconceptionZh": "不是衣服真的磨邊，也不代表當事人已完全崩潰或無法工作。",
+        "outcomeZh": "能指出壓力來源、可觀察的反應及合理支援。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2297",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 217,
+          "book": 16,
+          "question": 24,
+          "sample": "S1",
+          "sourceBookPages": "59–60",
+          "locatorNote": "DOCX table 239, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After weeks of drilling, residents felt frayed at the edges.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "frayed at the edges"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "For a month, the clinic team had covered unexpected shift gaps. They began snapping over small handover questions and missing breaks. Their supervisor said they seemed frayed at the edges and arranged extra cover before the next rota.",
+        "zh": "一個月來，診所團隊一直填補突發輪班空缺；他們開始因小交接問題發脾氣，也錯過休息。主管說他們看來身心已近磨損邊緣，並在下次更表前安排額外人手。",
+        "promptZh": "主管觀察到甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated pressure was weakening patience and breaks were being missed.",
+            "zh": "反覆壓力令耐性變弱，休息也被錯過。"
+          },
+          {
+            "id": "b",
+            "en": "One cheerful morning proved the team had no strain.",
+            "zh": "一個愉快早上證明團隊毫無壓力。"
+          },
+          {
+            "id": "c",
+            "en": "The team had always received every planned break.",
+            "zh": "團隊一直獲得每次預定休息。"
+          },
+          {
+            "id": "d",
+            "en": "The supervisor concluded everyone must stop working forever.",
+            "zh": "主管認定人人須永久停工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "累積空缺與小事發脾氣支持壓力磨損的描述。"
+      },
+      "reply": {
+        "promptEn": "A festival crew has had three weeks of late changes. Members now react sharply to routine questions and skip breaks they once took. What might the manager reasonably notice and do?",
+        "promptZh": "（節慶工作組三週來不斷遇上臨時改動；成員如今對例行問題反應尖銳，也略過以前會休的時段。經理可合理注意到甚麼並採取甚麼行動？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their patience appears reduced after sustained pressure.",
+            "zh": "持續壓力後，他們的耐性似乎下降。"
+          },
+          {
+            "id": "b",
+            "en": "Missed breaks and sharp replies are signs worth addressing.",
+            "zh": "錯過休息及尖銳回覆值得處理。"
+          },
+          {
+            "id": "c",
+            "en": "They seem frayed at the edges.",
+            "zh": "他們看來身心已近磨損邊緣。"
+          },
+          {
+            "id": "d",
+            "en": "Extra cover and regular breaks may help.",
+            "zh": "增派人手及固定休息或有幫助。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據三週壓力和反應描述。"
+      },
+      "scene": {
+        "promptZh": "活動組連續數週趕改場地，成員開始為小事爭執且常忘記吃飯，領隊安排輪流休息。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team is frayed at the edges.",
+            "zh": "團隊身心已近磨損邊緣。"
+          },
+          {
+            "id": "b",
+            "en": "One routine error proves the team is permanently incapable.",
+            "zh": "一次普通失誤證明團隊永遠無能力。"
+          },
+          {
+            "id": "c",
+            "en": "The team has had no sustained pressure.",
+            "zh": "團隊沒有持續壓力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期壓力及耐性下降是關鍵。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone is frayed at the edges？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After one busy hour, a rested worker answers calmly and takes the usual break.",
+            "zh": "忙了一小時後，休息充足的員工冷靜回答，也照常休息。"
+          },
+          {
+            "id": "b",
+            "en": "Weeks of extra shifts leave a worker irritable over routine requests.",
+            "zh": "數週加班令員工對例行要求易怒。"
+          },
+          {
+            "id": "c",
+            "en": "A team repeatedly misses breaks and becomes tense after prolonged changes.",
+            "zh": "團隊長期應付改動，反覆錯過休息並變得緊張。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短暫忙碌而無磨損跡象，不足以推斷。"
+      },
+      "dialogue": {
+        "promptEn": "A: The library team has covered vacant shifts for weeks, and now they snap at simple requests and rarely take lunch. B: ______",
+        "promptZh": "（甲：圖書館團隊數週來填補空缺；如今他們會因簡單要求發脾氣，也很少午膳。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pattern suggests sustained strain.",
+            "zh": "這個模式顯示持續壓力。"
+          },
+          {
+            "id": "b",
+            "en": "Missing lunch and sharp replies need attention.",
+            "zh": "錯過午膳及尖銳回覆需要關注。"
+          },
+          {
+            "id": "c",
+            "en": "They sound frayed at the edges.",
+            "zh": "他們聽來身心已近磨損邊緣。"
+          },
+          {
+            "id": "d",
+            "en": "The manager should look for cover and regular breaks.",
+            "zh": "經理應安排替補及固定休息。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括累積壓力造成的情緒磨損。"
+      },
+      "speaking": {
+        "en": "After repeated last-minute programme changes, the volunteers were frayed at the edges; the coordinator shortened the next shift and protected a meal break.",
+        "zh": "多次臨時改動節目後，義工身心已近磨損邊緣；協調員縮短下一更，並保留用膳休息。",
+        "promptZh": "指出累積壓力與實際支援。",
+        "targetSpan": {
+          "start": 66,
+          "end": 85
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩種工作因持續改動令參與者耐性下降；負責人觀察並給予具體支援。用英文寫出。",
+        "selfCheckZh": "兩例須有一段時間的累積跡象，不能以單一小錯推斷。",
+        "examples": [
+          {
+            "en": "After weeks of altered transport runs, the drivers were frayed at the edges and argued over simple handovers; the manager added relief shifts.",
+            "zh": "數週交通班次改動後，司機身心已近磨損邊緣，連簡單交接也爭執；經理增加替補更次。"
+          },
+          {
+            "en": "The stage crew looked frayed at the edges after a month of late finishes and missed meals, so the producer arranged a protected dinner break.",
+            "zh": "舞台工作組一個月來遲收工又錯過用餐，看來身心已近磨損邊緣，因此監製安排不受打擾的晚餐休息。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "altered transport runs",
+            "zh": "改動的交通班次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 15,
+              "end": 37
+            }
+          },
+          {
+            "en": "simple handovers",
+            "zh": "簡單交接",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 108
+            }
+          },
+          {
+            "en": "relief shifts",
+            "zh": "替補更次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 141
+            }
+          },
+          {
+            "en": "late finishes",
+            "zh": "遲收工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 72
+            }
+          },
+          {
+            "en": "protected dinner break",
+            "zh": "不受打擾的晚餐休息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Frayed at the edges means worn down by continuing pressure.",
+          "zh": "frayed at the edges 指因持續壓力而被磨損。"
+        },
+        {
+          "en": "A team frayed at the edges may need breaks and practical cover.",
+          "zh": "身心已近磨損邊緣的團隊可能需要休息與實際替補。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4416",
+      "number": 4416,
+      "inventoryId": "expr-4416",
+      "titleEn": "social glue",
+      "titleZh": "維繫關係的黏合力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsocial glue\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A practice or quality that helps people maintain trust and connection in a group.",
+        "meaningZh": "有助群體成員維持信任與連結的做法或特質。",
+        "grammar": "Social glue is an uncountable noun phrase; identify what binds people and the observed effect.",
+        "register": "Neutral metaphorical English. A club organiser may use it when describing a regular welcome ritual that connects new and old members.",
+        "boundaryZh": "須有維持關係的實際作用；單靠人氣或同處一室不代表真的有聯繫。",
+        "misconceptionZh": "不是把人用膠水黏住，也不是一項活動可自動修補所有衝突。",
+        "outcomeZh": "能指出具體維繫做法、受惠關係及其可見效果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2305",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 218,
+          "book": 16,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "61–62",
+          "locatorNote": "DOCX table 240, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Small apologies are social glue in a team.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "social glue"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the repair club, each experienced member spends ten minutes learning a newcomer’s name and helping with a first task. Regular members say the welcome ritual is social glue because newcomers return and ask questions more readily.",
+        "zh": "維修社每名資深會員都花十分鐘記住新人名字，並協助完成首項任務。常客說這種迎新習慣是維繫關係的黏合力，因為新人更願意回來和提問。",
+        "promptZh": "何以說迎新習慣有黏合力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helps newcomers feel connected and return to participate.",
+            "zh": "它令新人有連結感，並願意回來參與。"
+          },
+          {
+            "id": "b",
+            "en": "It prevents every disagreement from ever occurring.",
+            "zh": "它令任何分歧永遠不會發生。"
+          },
+          {
+            "id": "c",
+            "en": "It is only a public list of names with no interaction.",
+            "zh": "它只有公開名字清單，沒有互動。"
+          },
+          {
+            "id": "d",
+            "en": "It replaces the need to help with any task.",
+            "zh": "它令大家不再需要協助任何任務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續的個人互動促進新人參與。"
+      },
+      "reply": {
+        "promptEn": "A neighbourhood orchestra starts each rehearsal with five minutes in mixed small groups, so long-standing players learn new members’ names. New players begin asking for help and returning weekly. What role has the ritual played?",
+        "promptZh": "（鄰里樂團每次綵排先讓新舊團員分小組交流五分鐘，資深樂手因此認識新人的名字；新人開始求助並每週回來。這習慣有甚麼作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It creates regular contact across the group.",
+            "zh": "它令團員定期跨組接觸。"
+          },
+          {
+            "id": "b",
+            "en": "New members seem more comfortable asking for help.",
+            "zh": "新人似乎更敢求助。"
+          },
+          {
+            "id": "c",
+            "en": "It has become social glue for the orchestra.",
+            "zh": "它成為樂團維繫關係的黏合力。"
+          },
+          {
+            "id": "d",
+            "en": "The repeated welcome may support continued participation.",
+            "zh": "反覆迎新或有助持續參與。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據互動與新人回來參與的證據回答。"
+      },
+      "scene": {
+        "promptZh": "劇團每次排練先讓新舊演員結對交流，新人後來更願意提問及留下參與。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pairing has become social glue for the group.",
+            "zh": "結對交流成了群體維繫關係的黏合力。"
+          },
+          {
+            "id": "b",
+            "en": "The actors never speak to one another.",
+            "zh": "演員從不互相交談。"
+          },
+          {
+            "id": "c",
+            "en": "The pairing automatically removed all future disagreement.",
+            "zh": "結對交流自動消除日後所有分歧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體互動令參與者較願意聯繫。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an activity is social glue？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members sit in the same room but never interact, and newcomers stop attending.",
+            "zh": "成員同處一室卻從不交流，新人也不再出席。"
+          },
+          {
+            "id": "b",
+            "en": "A weekly welcome pairs new members with helpers, and newcomers return.",
+            "zh": "每週迎新安排新人與幫手結對，新人願意回來。"
+          },
+          {
+            "id": "c",
+            "en": "A shared repair session leads members to exchange skills and keep meeting.",
+            "zh": "共同維修活動令成員交流技術並持續見面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同處一室而無關係建立，不足以說有黏合力。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our art club’s monthly show-and-tell mixes new and old members; people who used to leave early now stay to discuss each other’s work. B: ______",
+        "promptZh": "（甲：藝術社每月分享會把新舊會員混在一起；以前早退的人如今留下來討論彼此作品。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The activity gives members a reason to connect.",
+            "zh": "活動給成員互相聯繫的理由。"
+          },
+          {
+            "id": "b",
+            "en": "The change in participation suggests the ritual matters.",
+            "zh": "參與方式改變，顯示習慣有作用。"
+          },
+          {
+            "id": "c",
+            "en": "It sounds like social glue for the club.",
+            "zh": "這聽來像社團維繫關係的黏合力。"
+          },
+          {
+            "id": "d",
+            "en": "Members are now staying to talk about one another’s work.",
+            "zh": "成員如今留下來討論彼此作品。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句把重複活動與成員關係連起來。"
+      },
+      "speaking": {
+        "en": "Shared meal planning became social glue for the volunteer crew: members from different shifts began learning one another’s names and arranging cover when someone was absent.",
+        "zh": "共同計劃用膳成了義工隊維繫關係的黏合力：不同更次成員開始互相認識，並在有人缺席時安排替補。",
+        "promptZh": "指出具體互動與合作後果。",
+        "targetSpan": {
+          "start": 28,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項定期做法使原本不熟的人建立連結，並帶來可見合作。用英文寫出。",
+        "selfCheckZh": "兩例不能只說大家在同一地方，須寫出互動與後續參與。",
+        "examples": [
+          {
+            "en": "The library’s paired reading hour became social glue when regulars learned newcomers’ names and later helped them choose books.",
+            "zh": "圖書館的結對閱讀時段成了維繫關係的黏合力：常客記住新人名字，之後幫他們選書。"
+          },
+          {
+            "en": "A weekly shared-tool check served as social glue for the garden team; neighbours from different plots began trading advice and covering one another’s watering turns.",
+            "zh": "每週共同檢查工具成了花園團隊維繫關係的黏合力；不同地塊的鄰居開始交流意見，互相代澆水。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "paired reading hour",
+            "zh": "結對閱讀時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 33
+            }
+          },
+          {
+            "en": "choose books",
+            "zh": "選書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 126
+            }
+          },
+          {
+            "en": "shared-tool check",
+            "zh": "共同檢查工具",
+            "exampleIndex": 1,
+            "span": {
+              "start": 9,
+              "end": 26
+            }
+          },
+          {
+            "en": "trading advice",
+            "zh": "交流意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 122
+            }
+          },
+          {
+            "en": "watering turns",
+            "zh": "澆水輪次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 150,
+              "end": 164
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Social glue is a practice that helps hold relationships together.",
+          "zh": "social glue 指有助維繫關係的做法。"
+        },
+        {
+          "en": "Regular shared work can become social glue when members connect.",
+          "zh": "定期共同工作可在成員建立連結時成為黏合力。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4309",
+      "number": 4309,
+      "inventoryId": "expr-4309",
+      "titleEn": "separate fact from fiction",
+      "titleZh": "分辨事實與虛構",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:separate|separates|separated|separating) fact from fiction\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Distinguish claims supported by reliable evidence from invented or unsupported stories.",
+        "meaningZh": "以可靠證據分辨有根據的事實與編造或無根據的說法。",
+        "grammar": "Separate fact from fiction is a fixed paired phrase; separate inflects separated. It calls for checking evidence, not labelling every uncertain claim false.",
+        "register": "Neutral public and educational English. A librarian may use it when teaching readers to verify an online claim.",
+        "boundaryZh": "要有查核來源與證據的過程；未證實不一定已證偽，亦不能把喜歡的故事自動當事實。",
+        "misconceptionZh": "不是按文字是否有趣分類，也不是只憑說話者身份就斷定真偽。",
+        "outcomeZh": "能指出待核查主張、所用可靠資料，以及已證實與未確定的界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2198",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "27–28",
+          "locatorNote": "DOCX table 226, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Science lessons help pupils separate fact from fiction.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "separate fact from fiction"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "An online post said the town bridge would close tomorrow. The librarian checked the council notice: only the footpath beside it would close. This helped readers separate fact from fiction about the bridge.",
+        "zh": "網上貼文說鎮上的橋明天會封閉。圖書館員查閱區議會通知，發現只有橋旁行人徑會關閉。這有助讀者分辨關於那座橋的事實與虛構。",
+        "promptZh": "哪項說法得到官方通知支持？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Only the footpath beside the bridge will close.",
+            "zh": "只有橋旁行人徑會關閉。"
+          },
+          {
+            "id": "b",
+            "en": "The entire bridge will close to all traffic.",
+            "zh": "整條橋會對所有車輛封閉。"
+          },
+          {
+            "id": "c",
+            "en": "The council has cancelled all repairs.",
+            "zh": "區議會取消了所有維修。"
+          },
+          {
+            "id": "d",
+            "en": "The footpath will remain open tomorrow.",
+            "zh": "行人徑明天仍開放。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "官方通知支持行人徑關閉，而非整橋封閉。"
+      },
+      "reply": {
+        "promptEn": "A video claims a public garden is being sold. The team checks the land register and a current council plan; neither shows a sale, but a lease review is pending. What is the responsible approach?",
+        "promptZh": "（影片聲稱公共花園正在出售。團隊查核土地登記冊及現行區議會計劃；兩者都沒有出售紀錄，但租約檢討尚未完成。負責任的做法是甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say the sale claim lacks support in the checked records.",
+            "zh": "指出已查紀錄未支持出售說法。"
+          },
+          {
+            "id": "b",
+            "en": "Distinguish the pending lease review from a completed sale.",
+            "zh": "分清尚待完成的租約檢討與已完成出售。"
+          },
+          {
+            "id": "c",
+            "en": "Separate fact from fiction using the records and state what remains unknown.",
+            "zh": "依紀錄分辨事實與虛構，並說明仍未知之處。"
+          },
+          {
+            "id": "d",
+            "en": "Avoid claiming the future lease decision is already settled.",
+            "zh": "避免聲稱日後租約決定已成定案。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依已查資料作有界判斷。"
+      },
+      "scene": {
+        "promptZh": "有人說學校游泳池下月永久關閉；校方公告只說兩週維修。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check the notice to separate fact from fiction about the closure.",
+            "zh": "查公告，分辨關閉傳聞中的事實與虛構。"
+          },
+          {
+            "id": "b",
+            "en": "Treat the two-week repair as proof of permanent closure.",
+            "zh": "把兩週維修當作永久關閉的證據。"
+          },
+          {
+            "id": "c",
+            "en": "Assume the rumour is true because it was repeated often.",
+            "zh": "因傳聞被多次重複，便認定是真的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公告內容與永久關閉說法不同，須按證據區分。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone separated fact from fiction？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They forward a dramatic claim without checking the named source or current notice.",
+            "zh": "他們未核對所提來源或現行公告，便轉發誇張說法。"
+          },
+          {
+            "id": "b",
+            "en": "They compare a rumour with a signed official notice and note the difference.",
+            "zh": "他們把傳聞與簽署的官方通知比較，指出差異。"
+          },
+          {
+            "id": "c",
+            "en": "They check two primary records and say which part remains uncertain.",
+            "zh": "他們查閱兩項第一手紀錄，說明哪部分仍未確定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未查來源便轉發，沒有分辨證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: The message says every library branch closes next week, but the official notice names only one branch for a two-day repair. B: ______",
+        "promptZh": "（甲：訊息說每間圖書館分館下週都關閉，但官方通知只列出一間分館因維修關閉兩天。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The notice helps us separate fact from fiction in that message.",
+            "zh": "通知有助我們分辨訊息中的事實與虛構。"
+          },
+          {
+            "id": "b",
+            "en": "Only one branch and two days are confirmed here.",
+            "zh": "這裏只確認一間分館及兩天。"
+          },
+          {
+            "id": "c",
+            "en": "The message goes beyond what the official notice states.",
+            "zh": "訊息所說超出官方通知內容。"
+          },
+          {
+            "id": "d",
+            "en": "We should share the limited confirmed information, not the wider claim.",
+            "zh": "我們應分享有限的確認資料，不應分享較廣泛的說法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句以官方通知核對傳聞，並限制結論範圍。"
+      },
+      "speaking": {
+        "en": "The school newspaper separated fact from fiction by checking the timetable before reporting that the concert was delayed by one hour, not cancelled.",
+        "zh": "校報先核對時間表，分辨事實與虛構，才報道音樂會只是延遲一小時，而非取消。",
+        "promptZh": "用具體核查與修正後的結論作證。",
+        "targetSpan": {
+          "start": 21,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項網上說法各含誇大或未證實部分。用英文寫出主張、核查資料及有界結論。",
+        "selfCheckZh": "兩例要標明已證實與仍未知的部分，不可把未查證直接說成假的。",
+        "examples": [
+          {
+            "en": "A post claimed the sports centre would close for a year; staff checked the published schedule and separated fact from fiction: only the pool closes for three weeks, with later dates unconfirmed.",
+            "zh": "貼文聲稱體育中心會關閉一年；職員查閱公布時間表，分辨事實與虛構：只有泳池關閉三週，之後日期未獲確認。"
+          },
+          {
+            "en": "The rumour said every bus route would change. The transport notice let Mei separate fact from fiction: Route 6 has a new stop, while no other change is listed yet.",
+            "zh": "傳聞說每條巴士路線都會改動。交通通知讓美分辨事實與虛構：六號線有新站，暫未列出其他改動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the published schedule",
+            "zh": "公布時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 93
+            }
+          },
+          {
+            "en": "three weeks",
+            "zh": "三週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 163
+            }
+          },
+          {
+            "en": "later dates",
+            "zh": "之後日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 170,
+              "end": 181
+            }
+          },
+          {
+            "en": "a new stop",
+            "zh": "新站",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 125
+            }
+          },
+          {
+            "en": "no other change",
+            "zh": "沒有其他改動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 148
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Separate fact from fiction means test claims against evidence.",
+          "zh": "separate fact from fiction 指依證據檢驗說法。"
+        },
+        {
+          "en": "State what remains unknown when you separate fact from fiction.",
+          "zh": "分辨事實與虛構時，也要說明仍未知之處。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4322",
+      "number": 4322,
+      "inventoryId": "expr-4322",
+      "titleEn": "sort out the details of a plan",
+      "titleZh": "商量妥計劃細節",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:sort|sorts|sorted|sorting) out (?:the same plan|(?:a|the|our|their) (?:shared )?plan|(?:the|our|their) details of (?:(?:a|the|our|their) (?:shared |single )?plan|the (?:rehearsal|delivery|picnic|camping|walking|clean-up) plan))\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Discuss and settle the practical details of a plan so participants know what to do.",
+        "meaningZh": "商量並確定計劃的實際細節，讓參與者知道各自如何行動。",
+        "grammar": "Use sort out + a/the plan, or more explicitly sort out the details of a shared plan. The phrasal verb is transferable to other practical details or arrangements. The source wording “sort out the same plan” is understandable but awkward without a competing-plan context; it is provenance, not the model to imitate. Sort inflects to sorted/sorting.",
+        "register": "Informal everyday English. Friends may use it while arranging travel or a community task together.",
+        "boundaryZh": "須有時間、分工或地點等細節獲確定；只有「應該計劃一下」而未釐清安排，不算商量妥。原文 sort out the same plan 的 same 不是必須沿用的固定部分。",
+        "misconceptionZh": "不是按字母次序整理紙張，也不是把 same plan 當成必須照抄的固定搭配。",
+        "outcomeZh": "能用自然的 sort out the details of a plan 說明待定細節、協商結果及參與者的確認。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2211",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 209,
+          "book": 16,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "31–32",
+          "locatorNote": "DOCX table 228, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Friends can sort out the same plan in a few messages.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sort out the same plan"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "Two friends expected different arrival times for a charity run. They checked the opening time, agreed to meet at the north gate at eight and chose who would bring water. They sorted out the details of a shared plan before leaving.",
+        "zh": "兩位朋友原本預計不同到達時間。他們核對開場時間，同意八時在北門見面，並決定由誰帶水。離開前，他們商量妥共同計劃的細節。",
+        "promptZh": "哪些細節顯示計劃已商量妥？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They agreed on meeting time, place and who brings water.",
+            "zh": "他們同意見面時間、地點及誰帶水。"
+          },
+          {
+            "id": "b",
+            "en": "They kept different arrival times and never compared them.",
+            "zh": "他們仍各有不同到達時間，從未核對。"
+          },
+          {
+            "id": "c",
+            "en": "They only said they might meet sometime next week.",
+            "zh": "他們只說或許下週某時見面。"
+          },
+          {
+            "id": "d",
+            "en": "They assumed the organiser would bring everything without checking.",
+            "zh": "他們未查便假設主辦方會帶齊所有東西。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "雙方確定時間、地點及分工，形成同一安排。"
+      },
+      "reply": {
+        "promptEn": "A group plans a neighbourhood clean-up. Members compare two start times, agree on nine, assign gloves to Ben and confirm the meeting point in one message everyone acknowledges. What did they do?",
+        "promptZh": "（一組人規劃鄰里清潔活動。成員比較兩個開始時間，商定九時，由本負責手套，並在一則大家都確認的訊息中定下集合地點。他們做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They settled the time, place and one responsibility.",
+            "zh": "他們確定時間、地點及一項分工。"
+          },
+          {
+            "id": "b",
+            "en": "Everyone confirmed one shared arrangement.",
+            "zh": "大家確認同一安排。"
+          },
+          {
+            "id": "c",
+            "en": "They sorted out the details of a single plan everyone can follow.",
+            "zh": "他們商量妥一套大家都能依循的計劃細節。"
+          },
+          {
+            "id": "d",
+            "en": "The acknowledged message reduces conflicting versions.",
+            "zh": "獲確認的訊息減少出現不同版本。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據共同確認的細節回答。"
+      },
+      "scene": {
+        "promptZh": "四位朋友對露營集合時間有不同理解；他們查交通時間後，在同一群組訊息確認十時於東站會合、各帶一瓶水。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They sorted out the details of their shared plan.",
+            "zh": "他們商量妥共同計劃的細節。"
+          },
+          {
+            "id": "b",
+            "en": "They kept four conflicting meeting times.",
+            "zh": "他們仍維持四個互相矛盾的集合時間。"
+          },
+          {
+            "id": "c",
+            "en": "They only promised to make a plan later.",
+            "zh": "他們只答應日後再訂計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共同確認具體細節，使安排一致。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 friends sorted out the details of a plan？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Each friend keeps a different meeting place, and nobody confirms which one to use.",
+            "zh": "每位朋友各用不同集合地點，沒有人確認該用哪個。"
+          },
+          {
+            "id": "b",
+            "en": "They agree on a place, time and shared equipment list.",
+            "zh": "他們同意地點、時間及共同器材清單。"
+          },
+          {
+            "id": "c",
+            "en": "They settle the route and tell every participant the agreed version.",
+            "zh": "他們確定路線並告知每名參與者同一版本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "地點未定且各說各話，尚未商量妥。"
+      },
+      "dialogue": {
+        "promptEn": "A: The team had three versions of the picnic plan. We checked the weather, agreed on the covered park at noon and posted one equipment list that everyone confirmed. B: ______",
+        "promptZh": "（甲：團隊原有三個野餐安排版本。我們查過天氣，商定中午到有蓋公園，並貼出一份大家都確認的器材清單。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You sorted out the details of a shared plan for everyone.",
+            "zh": "你們替大家商量妥共同計劃的細節。"
+          },
+          {
+            "id": "b",
+            "en": "The shared post should reduce conflicting instructions.",
+            "zh": "共同訊息應可減少相互矛盾的指示。"
+          },
+          {
+            "id": "c",
+            "en": "The time, place and equipment are now aligned.",
+            "zh": "時間、地點及器材安排已一致。"
+          },
+          {
+            "id": "d",
+            "en": "Everyone has confirmed the agreed version.",
+            "zh": "大家都確認了獲同意的版本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括由三個版本變成一套已確認安排。"
+      },
+      "speaking": {
+        "en": "The walking group sorted out the details of their shared plan after comparing ferry times: all six members confirmed the eight-thirty departure and who would carry the route map.",
+        "zh": "步行小組比較渡輪時間後商量妥共同計劃的細節：六名成員都確認八時半出發，亦確定由誰帶路線圖。",
+        "promptZh": "具體說明共同版本及分工。",
+        "targetSpan": {
+          "start": 18,
+          "end": 61
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人原有不一致的安排，透過核查與協商定下一套共同計劃，並得到參與者確認。用英文寫出前後變化。",
+        "selfCheckZh": "兩例要有可核實的時間、地點或分工，不能只說「我們談過了」。",
+        "examples": [
+          {
+            "en": "The choir had two rehearsal times in circulation; after checking room availability, members sorted out the details of their shared plan and confirmed Tuesday at six in Hall B.",
+            "zh": "合唱團原流傳兩個綵排時間；成員核查房間後商量妥共同計劃的細節，確認星期二六時在B禮堂。"
+          },
+          {
+            "en": "Three helpers disagreed about the delivery route, but they checked the road closure, sorted out the details of their shared plan and acknowledged one updated map before leaving.",
+            "zh": "三名幫手對送貨路線有分歧，但他們核查封路，商量妥共同計劃的細節，並在出發前確認同一張更新地圖。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "room availability",
+            "zh": "房間可用情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 82
+            }
+          },
+          {
+            "en": "Tuesday at six",
+            "zh": "星期二六時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 164
+            }
+          },
+          {
+            "en": "Hall B",
+            "zh": "B禮堂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 168,
+              "end": 174
+            }
+          },
+          {
+            "en": "the road closure",
+            "zh": "封路",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 83
+            }
+          },
+          {
+            "en": "one updated map",
+            "zh": "同一張更新地圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 146,
+              "end": 161
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Sort out the details of a shared plan means settle the practical arrangement together.",
+          "zh": "sort out the details of a shared plan 指一起商量妥實際安排。"
+        },
+        {
+          "en": "After you sort out the details of a plan, check that everyone agrees.",
+          "zh": "商量妥計劃細節後，要確認大家同意。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4328",
+      "number": 4328,
+      "inventoryId": "expr-4328",
+      "titleEn": "there and then",
+      "titleZh": "當場立即",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthere and then\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Immediately at that point in a conversation or event, without delaying the decision or action.",
+        "meaningZh": "在當時當場立即作出決定或行動，沒有延後。",
+        "grammar": "There and then is a fixed adverbial phrase. It emphasises immediate timing, not merely a physical location.",
+        "register": "Neutral conversational English. A coordinator may use it when recounting a decision made during a meeting.",
+        "boundaryZh": "要有當時即時處理的證據；先承諾稍後做，或當場只討論未決，不等於當場完成。",
+        "misconceptionZh": "不是「去那裏然後」的兩個步驟，也不表示未經必要查核的倉促決定值得稱讚。",
+        "outcomeZh": "能指出觸發事件、即時行動及是否完成或只開始處理。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2217",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 209,
+          "book": 16,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "33–34",
+          "locatorNote": "DOCX table 229, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A phone call asks for attention there and then.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "there and then"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "During the gallery meeting, staff noticed the printed route map sent wheelchair users to a stair-only entrance. After checking the approved accessible path, the coordinator corrected the map there and then before the next group arrived.",
+        "zh": "藝廊會議期間，職員發現印製路線圖把輪椅使用者帶往只有樓梯的入口。協調員核查獲批准的無障礙路線後，當場立即改正地圖，趕在下一批訪客到達前。",
+        "promptZh": "何時更正地圖？",
+        "options": [
+          {
+            "id": "a",
+            "en": "During that meeting, after the route was checked.",
+            "zh": "在那次會議當場，核查路線後。"
+          },
+          {
+            "id": "b",
+            "en": "Several weeks after the next group had visited.",
+            "zh": "下一批訪客到訪數週後。"
+          },
+          {
+            "id": "c",
+            "en": "Before anyone noticed the stair-only entrance.",
+            "zh": "有人留意到只有樓梯的入口之前。"
+          },
+          {
+            "id": "d",
+            "en": "Only after a later unrelated meeting.",
+            "zh": "另一次無關會議之後才更正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "更正發生於發現問題的同一會議。"
+      },
+      "reply": {
+        "promptEn": "At a rehearsal, the stage manager sees an unsafe loose cable. She stops the run, asks a technician to secure it, verifies the fix and updates the cue sheet before restarting. When did she address it?",
+        "promptZh": "（綵排時，舞台經理看到一條鬆脫而不安全的電線。她暫停綵排，請技術員固定、核查修好情況，並在重開前更新提示表。她何時處理？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She dealt with it during the rehearsal, before restarting.",
+            "zh": "她在綵排當時、重開之前處理。"
+          },
+          {
+            "id": "b",
+            "en": "She did not postpone the safety issue until the next show.",
+            "zh": "她沒有把安全問題拖到下次演出。"
+          },
+          {
+            "id": "c",
+            "en": "She addressed it there and then after a proper check.",
+            "zh": "她經適當核查後便當場處理。"
+          },
+          {
+            "id": "d",
+            "en": "The cable and cue sheet were checked in the same session.",
+            "zh": "電線與提示表在同一節綵排核查。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按當場暫停、修好、核查回答。"
+      },
+      "scene": {
+        "promptZh": "接待處發現當天票價標示錯誤，職員核對已批准價目表後，立刻在同一櫃位更換標示。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They corrected the sign there and then.",
+            "zh": "他們當場立即改正標示。"
+          },
+          {
+            "id": "b",
+            "en": "They only promised to replace it next month.",
+            "zh": "他們只答應下月更換。"
+          },
+          {
+            "id": "c",
+            "en": "They made the change before checking any authorised price.",
+            "zh": "他們未核對獲批准價目便改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核對後在同一事件中即時更正。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a decision was made there and then？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The committee discussed the issue but scheduled the actual decision for next Friday.",
+            "zh": "委員會討論了問題，卻把真正決定定在下週五。"
+          },
+          {
+            "id": "b",
+            "en": "After checking the list, the organiser approved the correction during that meeting.",
+            "zh": "主辦人核對清單後，在該次會議批准修正。"
+          },
+          {
+            "id": "c",
+            "en": "The team saw the error and fixed it before leaving the room.",
+            "zh": "團隊看到錯誤，在離開房間前修好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只是當場討論，決定延後。"
+      },
+      "dialogue": {
+        "promptEn": "A: We found a duplicate name on the attendance sheet during registration. After checking both records, Mei corrected it at the desk before the queue moved. B: ______",
+        "promptZh": "（甲：登記期間，我們在出席表發現重複姓名。美核對兩份紀錄後，在隊伍移動前於櫃位改正。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She fixed the duplicate there and then.",
+            "zh": "她當場立即改正重複紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "The correction happened during the same registration period.",
+            "zh": "更正發生在同一次登記期間。"
+          },
+          {
+            "id": "c",
+            "en": "She checked the evidence before changing the list.",
+            "zh": "她修改清單前先核查證據。"
+          },
+          {
+            "id": "d",
+            "en": "The next people in line saw a corrected sheet.",
+            "zh": "下一批排隊者看到更正後的名單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指出有核查、沒有延後的即時修正。"
+      },
+      "speaking": {
+        "en": "When the workshop leader learned that the posted room number was wrong, she checked the booking email and changed the sign there and then, before attendees followed the old notice.",
+        "zh": "工作坊領隊得知張貼房號錯誤後，核對預約電郵並當場更換標示，趕在參加者按舊通知走錯之前。",
+        "promptZh": "強調同一時刻有核查的即時行動。",
+        "targetSpan": {
+          "start": 123,
+          "end": 137
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人在同一事件中發現錯誤，完成必要核查後當場處理，而非拖到後日。用英文寫出發現、核查與即時行動。",
+        "selfCheckZh": "兩例要顯示當場確實行動；只說「稍後會做」不算 there and then。",
+        "examples": [
+          {
+            "en": "At the ticket desk, Bea spotted an outdated fee, checked the approved price list and replaced the card there and then before the next sale.",
+            "zh": "售票櫃位上，碧亞發現過時收費，核對已批准價目表，並在下一宗交易前當場更換價卡。"
+          },
+          {
+            "en": "During the map briefing, the guide found the wrong lift symbol, confirmed the correct entrance and amended the shared map there and then.",
+            "zh": "地圖簡介期間，導遊發現升降機標誌錯誤，確認正確入口後，當場修正共用地圖。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an outdated fee",
+            "zh": "過時收費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 47
+            }
+          },
+          {
+            "en": "the approved price list",
+            "zh": "獲批准價目表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 80
+            }
+          },
+          {
+            "en": "the next sale",
+            "zh": "下一宗交易",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 138
+            }
+          },
+          {
+            "en": "the wrong lift symbol",
+            "zh": "錯誤升降機標誌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 62
+            }
+          },
+          {
+            "en": "the shared map",
+            "zh": "共用地圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "There and then means immediately at that point.",
+          "zh": "there and then 指當時當場立即。"
+        },
+        {
+          "en": "A checked correction can still be made there and then.",
+          "zh": "核查後仍可當場立即作出修正。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4330",
+      "number": 4330,
+      "inventoryId": "expr-4330",
+      "titleEn": "without dropping everything",
+      "titleZh": "不放下手頭所有事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwithout dropping everything\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Respond to a request while not abandoning all current work or commitments.",
+        "meaningZh": "回應請求時，不把手頭全部工作或承諾拋開。",
+        "grammar": "Without dropping everything is an adverbial phrase. Drop everything alone means abandon current activity immediately; the negative phrase describes a balanced response.",
+        "register": "Conversational everyday English. A team lead may use it when setting a realistic time for a non-urgent request.",
+        "boundaryZh": "要分清請求是否緊急，並交代目前任務如何繼續；不是藉口永不回覆，也不適用於需要即時安全處理的危急情況。",
+        "misconceptionZh": "不是字面把所有物品掉在地上，也不能以延遲處理真正緊急事故來展示「平衡」。",
+        "outcomeZh": "能提出清楚回覆時間或轉交方式，同時保護正在進行的必要工作。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2219",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 209,
+          "book": 16,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "33–34",
+          "locatorNote": "DOCX table 229, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She can reply later without dropping everything.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "without dropping everything"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "During a scheduled medication count, the clinic clerk receives a non-urgent request for next month’s leaflet. She acknowledges it, promises a draft after the count and finishes the required check without dropping everything.",
+        "zh": "診所文員按計劃核對藥物數量期間，收到下月單張的非緊急要求。她先確認收到，答應核對完後起草，並沒有放下手頭所有事，仍完成必要檢查。",
+        "promptZh": "文員如何平衡兩項工作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She acknowledges the later task but completes the current required count.",
+            "zh": "她確認較後的工作，但先完成眼前必需核對。"
+          },
+          {
+            "id": "b",
+            "en": "She ignores the leaflet request indefinitely.",
+            "zh": "她永久不理會單張要求。"
+          },
+          {
+            "id": "c",
+            "en": "She abandons the count midway without arranging cover.",
+            "zh": "她在核對中途放棄，亦沒安排接手。"
+          },
+          {
+            "id": "d",
+            "en": "She treats the leaflet as an immediate safety emergency.",
+            "zh": "她把單張當成即時安全事故。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "非緊急新要求得到回覆，當前必需工作沒有被拋下。"
+      },
+      "reply": {
+        "promptEn": "A community editor is checking today’s printed safety signs. A colleague asks for ideas for next month’s newsletter. The editor says she will discuss it at four after the sign check and notes the request. What did she do?",
+        "promptZh": "（社區編輯正在核對今天要印的安全標示。同事請她為下月通訊提供想法。她記下要求，說核對標示後四時再討論。她做了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She gave a definite later time for the non-urgent request.",
+            "zh": "她為非緊急要求提出明確稍後時間。"
+          },
+          {
+            "id": "b",
+            "en": "She kept the current sign check on course.",
+            "zh": "她維持正在進行的標示核對。"
+          },
+          {
+            "id": "c",
+            "en": "She responded without dropping everything.",
+            "zh": "她回應了，沒有放下手頭所有事。"
+          },
+          {
+            "id": "d",
+            "en": "The colleague has a clear plan for when to discuss the ideas.",
+            "zh": "同事清楚知道何時討論構想。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均支持有回應而不打斷較迫切的工作。"
+      },
+      "scene": {
+        "promptZh": "導賞員正在按程序帶團，收到下週活動的非緊急電郵；他回覆說導賞後核對細節，並繼續帶團。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He replied without dropping everything.",
+            "zh": "他回覆了，沒有放下手頭所有事。"
+          },
+          {
+            "id": "b",
+            "en": "He abandoned the visitors to answer a next-week message at length.",
+            "zh": "他放下訪客，長篇回覆下週的訊息。"
+          },
+          {
+            "id": "c",
+            "en": "He refused ever to consider the new event.",
+            "zh": "他拒絕日後考慮新活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有明確稍後處理時間，當前責任繼續。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone responded without dropping everything？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She leaves an essential safety check unfinished to write a long answer to a non-urgent request.",
+            "zh": "她放下尚未完成的必要安全檢查，為非緊急要求寫長篇回覆。"
+          },
+          {
+            "id": "b",
+            "en": "She acknowledges the request and sets a time after the current task.",
+            "zh": "她確認收到要求，訂在手頭工作完成後處理。"
+          },
+          {
+            "id": "c",
+            "en": "She asks a colleague to handle a routine query while she finishes a scheduled check.",
+            "zh": "她完成原定核對時，請同事處理例行查詢。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "因非緊急要求而拋下必要工作，正是反例。"
+      },
+      "dialogue": {
+        "promptEn": "A: The team is checking the visitor count for today’s report. I also want ideas for next month’s display; there is no urgent deadline. B: ______",
+        "promptZh": "（甲：團隊正核對今天報告的訪客數。我也想聽聽下月展示的構想，但沒有緊迫期限。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We can answer without dropping everything right now.",
+            "zh": "我們現在可回應，而不必放下手頭所有事。"
+          },
+          {
+            "id": "b",
+            "en": "The count needs to be completed for today’s report.",
+            "zh": "今天報告所需的人數核對應先完成。"
+          },
+          {
+            "id": "c",
+            "en": "We can note your request and discuss it after the count.",
+            "zh": "我們可先記下要求，核對人數後再討論。"
+          },
+          {
+            "id": "d",
+            "en": "A clear later meeting time would keep both tasks moving.",
+            "zh": "訂明稍後開會時間，可讓兩項工作繼續。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句用明確回覆時間兼顧手頭任務。"
+      },
+      "speaking": {
+        "en": "The translator acknowledged the non-urgent poster request and offered a review slot after finishing the live-caption check, responding without dropping everything.",
+        "zh": "譯者先確認收到非緊急海報要求，並提出完成即時字幕核對後再審閱，既有回應，也沒有放下手頭所有事。",
+        "promptZh": "回覆與目前責任同時得到安排。",
+        "targetSpan": {
+          "start": 135,
+          "end": 162
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人正做有時限的必要任務，收到可稍後處理的要求。用英文寫出簡短回覆、具體處理時間及現有任務如何繼續。",
+        "selfCheckZh": "兩例不能把真正緊急安全情況當成可延遲；也不能完全無視新要求。",
+        "examples": [
+          {
+            "en": "While checking the festival’s accessibility signs, Lian acknowledged a request for next month’s poster and booked a review for Friday without dropping everything.",
+            "zh": "蓮核對節慶無障礙標示時，先確認收到下月海報要求，並約好星期五審閱，沒有放下手頭所有事。"
+          },
+          {
+            "en": "The librarian finished the scheduled archive count after telling a colleague she would answer the non-urgent exhibition email at three, without dropping everything.",
+            "zh": "圖書館員告訴同事三時會回覆非緊急展覽電郵後，先完成原定檔案點算，沒有放下手頭所有事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "accessibility signs",
+            "zh": "無障礙標示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 49
+            }
+          },
+          {
+            "en": "next month’s poster",
+            "zh": "下月海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 102
+            }
+          },
+          {
+            "en": "a review for Friday",
+            "zh": "星期五審閱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 133
+            }
+          },
+          {
+            "en": "the scheduled archive count",
+            "zh": "原定檔案點算",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 50
+            }
+          },
+          {
+            "en": "at three",
+            "zh": "三時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Without dropping everything means responding while keeping current commitments in view.",
+          "zh": "without dropping everything 指回應時仍顧及手頭責任。"
+        },
+        {
+          "en": "Give a clear later time when answering without dropping everything.",
+          "zh": "不放下手頭所有事而回應時，要給出明確稍後處理時間。"
+        }
+      ]
+    }
+  ]
+}

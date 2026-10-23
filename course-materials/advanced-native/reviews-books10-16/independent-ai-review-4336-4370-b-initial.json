@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4336, 4337, 4340, 4344, 4357, 4358, 4366, 4370",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4336-4344-a.json",
+      "sha256": "a2d519e37d851bd98e79a6e3379686194ab97f449885ed51fa11a4ca7c4902c2"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4357-4370-a.json",
+      "sha256": "8c7ea483ddd6ccdc9e518187e8cfc44d36b18763eaa95e8abfc99314669c93ac"
+    }
+  ],
+  "authorSelfAuditSha256": "0a8da897b14ba09e75a61e1c493e02587d45a8f1006bf685602e71e29d822a0a",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "one-repair-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Both four-lesson files pass: combined 8 lessons, 48 questions, 32 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All eight source sentences and phrases match their exact inventory records and target regexes; keyed scene/dialogue/reply, speaking spans and 40 answer-derived non-target glossary spans pass independent checks.",
+    "sourceOriginality": "231 learner-facing English strings screened against 2,604 guide examples. Eight six-token overlaps are solely the fixed target expression in lesson 4366; zero non-target overlaps."
+  },
+  "perLesson": [
+    {"number": 4336, "status": "repair-needed", "note": "Writing model 1 repeats the exhibition-label revision and approval trail already used in Step 3; the second model transfers adequately."},
+    {"number": 4337, "status": "clear", "note": "Unexpected, unprepared question/change and verification response are grounded; EN/ZH and four-valid reply align."},
+    {"number": 4340, "status": "clear", "note": "Rapid two-way exchange and final-version control remain distinct from a one-way notice."},
+    {"number": 4344, "status": "clear", "note": "Generic fast responses displace attentive sincerity; models show specific repair rather than assuming all quick replies lack sincerity."},
+    {"number": 4357, "status": "clear", "note": "Informal register and genuine demonstrated expertise versus surface expense are preserved."},
+    {"number": 4358, "status": "clear", "note": "Unwritten perceived rank, not a formal roster or arrival order, drives the examples."},
+    {"number": 4366, "status": "clear", "note": "Benefits are explicitly highlighted, with limitations available separately; fixed target-only source overlap is expected."},
+    {"number": 4370, "status": "clear", "note": "Strong genuine work is presented honestly, distinct from invented credentials or unsupported figures."}
+  ],
+  "findings": [
+    {
+      "id": "R4336-01",
+      "severity": "major",
+      "field": "lesson 4336 writing.examples[0].en/zh and affected glossary",
+      "evidence": "The scene already uses an exhibition team’s dated label changes, reasons and approvals so a successor can trace the final version. Model 1 again uses dated drafts and approval notes to trace how an exhibition caption changed. This is substantially the same decision trail rather than the required changed-context transfer.",
+      "repair": "Use a different setting and decision trail in model 1, preserve enough linked records and a plausible remaining gap, align Traditional Chinese, and recompute exact glossary spans."
+    }
+  ],
+  "coverageLimit": "Every lesson received automated contract/source/target/span/collision checks and targeted inspection of the source sense, keys, four-valid reply, EN/ZH and writing transfer. This is risk-based AI content review rather than a line-by-line proofread of all 48 questions or release certification."
+}

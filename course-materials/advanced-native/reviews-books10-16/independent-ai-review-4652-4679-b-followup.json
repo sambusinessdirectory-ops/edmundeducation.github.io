@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "scope": "R4664-01 and R4673-01 target detector repairs in an eight-lesson unselected batch",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4652-4679-review-pilot.json",
+    "sha256": "4c9f1ede4b9f13f15449ab594b0cf7d27e408b42ffed1fa295d9161f0aaa487d"
+  },
+  "priorReview": "independent-ai-review-4652-4679-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFindings": [
+    {
+      "id": "R4664-01",
+      "result": "The detector now requires a bounded place noun; `Tourists love to death` and the person-affection `They love their child to death` reject, while the exact guide source and assessed waterfall site, bird path and garden forms match. Reworded reply/scene/speaking remain natural and English–Traditional Chinese aligned."
+    },
+    {
+      "id": "R4673-01",
+      "result": "Active treat forms now require an object, while be-treated passive forms remain supported. `They treat like gospel` rejects; exact source, `The ranking was treated like gospel`, and assessed active forms match."
+    }
+  ],
+  "validation": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "sourceAndAssessedTarget": "Exact source positives, reply and scene keys, and speaking targets verified for both revised lessons; six unaffected lessons retain initial clearance."
+  },
+  "coverageLimit": "Scoped recheck of revised patterns and the changed 4664 learner-facing forms, with focused build/check. Unchanged lesson content retains the initial risk-based review. AI content clearance is not release certification.",
+  "remainingFindings": []
+}

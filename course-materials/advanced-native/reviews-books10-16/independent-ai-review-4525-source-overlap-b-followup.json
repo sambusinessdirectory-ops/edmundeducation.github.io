@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "lesson": 4525,
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4510-4540-review-pilot.json",
+    "sha256": "557e64ff4200c45569c997e8dd344e0dbe95ac03447724d85a1f53f3e72fb08e"
+  },
+  "priorReview": "independent-ai-review-4510-4540-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "selectedOriginalityScreenSha256": "52f71a6d8d4f8272a8952d12aadfbebee3ad782115ebb63d391039a74faeb424",
+  "status": "scoped-content-clear",
+  "changedFieldsChecked": [
+    "reply.options[2].en",
+    "reply.options[2].zh",
+    "speaking.en",
+    "speaking.zh",
+    "speaking.targetSpan"
+  ],
+  "checks": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "reply": "Four replies remain valid responses to excess evening-class registrations; only option c contains the target. The English 'not going away any time soon' and Traditional Chinese '短期內不會消失' convey the same bounded persistence.",
+    "speaking": "The English and Traditional Chinese both identify passengers' continuing need for late service through this winter. The stored span slices exactly 'not going away', and the bounded target regex matches it.",
+    "originality": "The changed reply and speaking English have no six-token guide-source overlap. The current 463-selected screen has zero 4525 fuzzy hits, zero exact/high/medium hits overall, and unchanged 12 near-full plus 46 review-near-full candidates."
+  },
+  "coverageLimit": "Narrow independent review of the five changed fields and their immediate answer context; the other seven lessons and unchanged 4525 fields retain the earlier risk-based clearance. This is AI content review, not release certification.",
+  "findings": []
+}

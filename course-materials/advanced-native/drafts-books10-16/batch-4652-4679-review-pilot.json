@@ -1,0 +1,2214 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4652-4679-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4652",
+      "number": 4652,
+      "inventoryId": "expr-4652",
+      "titleEn": "shine a light on",
+      "titleZh": "揭示／讓人看見",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:shine|shines|shone|shined|shining)\\s+a\\s+light\\s+on\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make an overlooked issue or fact visible for attention or examination.",
+        "meaningZh": "揭示原本較少人注意的問題或事實，讓人得以檢視。",
+        "grammar": "Shine a light on + issue/gap; shone a light on is a natural past form. The subject is evidence or an action that reveals something.",
+        "register": "Neutral public-interest language; a researcher explains a survey result to residents.",
+        "boundaryZh": "表示讓問題可見，不表示問題已解決；與既有 shed light on 意義接近，這裏保留來源的 shine a light on 構式。",
+        "misconceptionZh": "不是照明設備真的發光；僅有主張而無揭示內容，證據不足。",
+        "outcomeZh": "能指出哪項證據揭示哪個原被忽略的問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2541",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 240,
+          "book": 16,
+          "question": 53,
+          "sample": "S2",
+          "sourceBookPages": "124–125",
+          "locatorNote": "DOCX table 268, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The survey will shine a light on transport gaps.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shine a light on"
+        }
+      ],
+      "listening": {
+        "en": "The rent survey shone a light on hidden repair costs that tenants had been paying themselves.",
+        "zh": "租金調查揭示了租客一直自行承擔、原本不顯眼的維修費用。",
+        "promptZh": "shone a light on 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The survey made a hidden cost visible.",
+            "zh": "調查讓隱藏費用顯現。"
+          },
+          {
+            "id": "b",
+            "en": "The survey installed brighter bulbs.",
+            "zh": "調查安裝了更亮的燈泡。"
+          },
+          {
+            "id": "c",
+            "en": "The repair bills were already eliminated.",
+            "zh": "維修帳單已經取消。"
+          },
+          {
+            "id": "d",
+            "en": "The survey had no information about costs.",
+            "zh": "調查沒有任何費用資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "調查揭露原本不明顯的開支。"
+      },
+      "reply": {
+        "promptEn": "A youth survey finds that rural pupils miss clubs because the last bus leaves before activities end. What has the survey done?",
+        "promptZh": "（青年調查發現，鄉郊學生因尾班巴士在活動結束前開走而不能參加課外活動。調查起了甚麼作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It exposed a transport barrier to participation.",
+            "zh": "它揭示參與活動的交通障礙。"
+          },
+          {
+            "id": "b",
+            "en": "It made the timing problem visible.",
+            "zh": "它讓時間安排問題顯現。"
+          },
+          {
+            "id": "c",
+            "en": "It shone a light on an overlooked access gap.",
+            "zh": "它揭示原被忽略的參與缺口。"
+          },
+          {
+            "id": "d",
+            "en": "It gave planners evidence about why pupils miss clubs.",
+            "zh": "它為規劃者提供學生缺席原因的證據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指向調查揭示交通時間缺口。"
+      },
+      "scene": {
+        "promptZh": "統計顯示夜班工人很少能使用日間診所，議員首次注意到這項缺口。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The figures shine a light on a gap in clinic access.",
+            "zh": "數字揭示診所使用機會的缺口。"
+          },
+          {
+            "id": "b",
+            "en": "The figures have already built a night clinic.",
+            "zh": "數字已建成夜間診所。"
+          },
+          {
+            "id": "c",
+            "en": "The figures are a physical spotlight in the building.",
+            "zh": "數字是建築物內的實體射燈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數字讓原被忽略的問題可見。"
+      },
+      "contrast": {
+        "promptZh": "哪句區分「揭示」與「解決」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The audit shone a light on missing ramps; repairs are still being planned.",
+            "zh": "審計揭示缺少斜道；維修仍在規劃。"
+          },
+          {
+            "id": "b",
+            "en": "The audit shone a light on missing ramps, so every ramp was already built.",
+            "zh": "審計揭示缺少斜道，因此每條斜道都已建成。"
+          },
+          {
+            "id": "c",
+            "en": "The audit made a literal light brighter, which automatically solved access.",
+            "zh": "審計把實體燈照亮，便自動解決通道問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "知道缺口不等於已修好。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 shine a light on 只能指真正開燈。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A careful report can shine a light on a neglected problem.",
+            "zh": "細緻報告可揭示被忽略的問題。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it only refers to lamps.",
+            "zh": "對，它只指燈具。"
+          },
+          {
+            "id": "c",
+            "en": "It means deliberately hiding a problem.",
+            "zh": "它表示刻意隱瞞問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "比喻把資訊帶到人們視野中。"
+      },
+      "speaking": {
+        "en": "The attendance report shines a light on which evening classes working parents cannot reach; the centre still needs to respond.",
+        "zh": "出席報告揭示上班家長難以前往哪些晚間課程；中心仍須作出回應。",
+        "promptZh": "指出報告揭示甚麼，以及尚未完成甚麼。",
+        "targetSpan": {
+          "start": 22,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區泳池公布無障礙更衣室使用調查，發現某時段門禁常失靈；管理層因此首次看見問題，但維修尚未完成。用英文區分揭示與解決。",
+        "selfCheckZh": "兩個示範都應寫出調查揭示某時段門禁失靈、管理層現在知道問題、維修尚未完成。",
+        "examples": [
+          {
+            "en": "The pool survey shines a light on the changing-room door failing at certain times. Managers can now see the issue, but repairs are not complete.",
+            "zh": "泳池調查揭示更衣室門在某些時段失靈；管理層如今知道問題，但維修尚未完成。"
+          },
+          {
+            "en": "By showing repeated access-door failures at particular times, the survey shone a light on a problem managers had missed; fixing it is still pending.",
+            "zh": "調查顯示特定時段門禁反覆失靈，揭示管理層之前忽略的問題；維修仍待完成。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "pool survey",
+            "zh": "泳池調查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "changing-room door",
+            "zh": "更衣室門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 56
+            }
+          },
+          {
+            "en": "repairs",
+            "zh": "維修",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 126
+            }
+          },
+          {
+            "en": "access-door failures",
+            "zh": "門禁故障",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 40
+            }
+          },
+          {
+            "en": "particular times",
+            "zh": "特定時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 60
+            }
+          },
+          {
+            "en": "still pending",
+            "zh": "仍待完成",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shine a light on reveals an issue for examination.",
+          "zh": "shine a light on 指揭示問題供人檢視。"
+        },
+        {
+          "en": "A report can shine a light on a gap before anyone fixes it.",
+          "zh": "報告可先揭示缺口，修補則仍需另外進行。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4655",
+      "number": 4655,
+      "inventoryId": "expr-4655",
+      "titleEn": "breathe fresh life into",
+      "titleZh": "注入新活力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:breathe|breathes|breathed|breathing)\\s+fresh\\s+life\\s+into\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Revitalise a place or activity by adding new energy, use or participation.",
+        "meaningZh": "為地方或活動注入新活力，帶來新用途或參與。",
+        "grammar": "Breathe fresh life into + place/activity; subject is a change that renews it. Source uses a healthy visitor economy renewing a city.",
+        "register": "Neutral to positive civic commentary; a community organiser describes a revived venue to residents.",
+        "boundaryZh": "須有可見的新活動或參與，不只是換一個標誌；也不保證所有舊問題消失。",
+        "misconceptionZh": "不是向城市真的吹氣；fresh life 指活力而非新生命。",
+        "outcomeZh": "能指出具體何種新使用者或活動令地方重現活力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2544",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 240,
+          "book": 16,
+          "question": 53,
+          "sample": "S2",
+          "sourceBookPages": "124–125",
+          "locatorNote": "DOCX table 268, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A healthy visitor economy breathes fresh life into the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "breathes fresh life into the city"
+        }
+      ],
+      "listening": {
+        "en": "Weekend workshops brought young makers into the quiet repair hall and breathed fresh life into the space.",
+        "zh": "週末工作坊吸引年輕創作者來到原本冷清的維修禮堂，為場地注入新活力。",
+        "promptZh": "breathed fresh life into 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The workshops gave the hall renewed activity.",
+            "zh": "工作坊令禮堂重新活躍。"
+          },
+          {
+            "id": "b",
+            "en": "People literally blew air into the building.",
+            "zh": "人們真的向建築物吹氣。"
+          },
+          {
+            "id": "c",
+            "en": "The hall has no more maintenance needs.",
+            "zh": "禮堂再沒有維修需要。"
+          },
+          {
+            "id": "d",
+            "en": "The workshops closed the hall permanently.",
+            "zh": "工作坊令禮堂永久關閉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新參與者和活動令冷清場地活躍。"
+      },
+      "reply": {
+        "promptEn": "An old pier was rarely used. A weekly craft market now draws local artists and families there, and cafés have extended their hours. What changed?",
+        "promptZh": "（舊碼頭過去很少人使用；每週工藝市集現在吸引本地藝術家與家庭，咖啡店也延長營業。發生了甚麼變化？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pier has renewed activity.",
+            "zh": "碼頭重新有活動。"
+          },
+          {
+            "id": "b",
+            "en": "More people now use the area.",
+            "zh": "現在更多人使用該區。"
+          },
+          {
+            "id": "c",
+            "en": "The market breathed fresh life into the pier.",
+            "zh": "市集為碼頭注入新活力。"
+          },
+          {
+            "id": "d",
+            "en": "The surrounding cafés have become busier.",
+            "zh": "附近咖啡店也更熱鬧。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由市集及營業時間變化判斷活力增加。"
+      },
+      "scene": {
+        "promptZh": "空置學校禮堂每月舉辦居民合唱及免費展覽，使用人數上升。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The new programme breathes fresh life into the hall.",
+            "zh": "新活動為禮堂注入新活力。"
+          },
+          {
+            "id": "b",
+            "en": "The hall literally breathes like a person.",
+            "zh": "禮堂真的像人一樣呼吸。"
+          },
+          {
+            "id": "c",
+            "en": "A new logo alone proves participation has risen.",
+            "zh": "單憑新標誌便證明參與增加。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體活動和人數支持活力。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠的 revitalisation 證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The reopened courtyard now hosts concerts and local stalls, breathing fresh life into the area.",
+            "zh": "重開的庭院現在舉辦音樂會和本地攤檔，為該區注入新活力。"
+          },
+          {
+            "id": "b",
+            "en": "The courtyard changed its sign but stayed shut and empty, so it breathed fresh life into the area.",
+            "zh": "庭院只換標誌，仍關閉空置，卻說注入活力。"
+          },
+          {
+            "id": "c",
+            "en": "One visitor walked past without entering, so all district problems vanished.",
+            "zh": "一人路過但沒進入，於是該區所有問題消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新用途和參與可見。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 fresh life into 表示「舊問題全部解決」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "New classes can breathe fresh life into a centre while repair work remains.",
+            "zh": "新課程可為中心注入活力，即使維修仍未完成。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, revitalisation makes every repair unnecessary.",
+            "zh": "對，重獲活力令所有維修都不再需要。"
+          },
+          {
+            "id": "c",
+            "en": "It means the centre must be demolished.",
+            "zh": "它表示中心必須拆卸。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "活力增加不等於所有問題解決。"
+      },
+      "speaking": {
+        "en": "The evening performances breathed fresh life into the old square, bringing residents back after years of quiet.",
+        "zh": "晚間演出為舊廣場注入新活力，讓多年少人使用的廣場再次吸引居民。",
+        "promptZh": "指出令廣場活躍的新活動。",
+        "targetSpan": {
+          "start": 25,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：舊火車站候車室多年冷清；改作社區閱讀角和週末手作課後，居民經常到訪，但屋頂仍需修理。用英文說明活力增加及未解決的限制。",
+        "selfCheckZh": "兩個示範都應寫出原本冷清、閱讀角及週末手作課吸引居民、屋頂仍需維修。",
+        "examples": [
+          {
+            "en": "A reading corner and weekend craft classes have breathed fresh life into the quiet old waiting room, drawing residents back, although its roof still needs repair.",
+            "zh": "閱讀角和週末手作課為原本冷清的舊候車室注入新活力，吸引居民重返，雖然屋頂仍須維修。"
+          },
+          {
+            "en": "The former station waiting room now welcomes residents for reading and weekend crafts. Those activities breathe fresh life into it, but they do not fix the damaged roof.",
+            "zh": "舊車站候車室如今讓居民閱讀和參加週末手作活動；這些活動為它注入新活力，但沒有修好受損屋頂。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "reading corner",
+            "zh": "閱讀角",
+            "exampleIndex": 0,
+            "span": {
+              "start": 2,
+              "end": 16
+            }
+          },
+          {
+            "en": "weekend craft classes",
+            "zh": "週末手作課",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 42
+            }
+          },
+          {
+            "en": "roof",
+            "zh": "屋頂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 142
+            }
+          },
+          {
+            "en": "former station waiting room",
+            "zh": "舊車站候車室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 31
+            }
+          },
+          {
+            "en": "weekend crafts",
+            "zh": "週末手作活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 85
+            }
+          },
+          {
+            "en": "damaged roof",
+            "zh": "受損屋頂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 168
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Breathe fresh life into marks a place or activity becoming lively again.",
+          "zh": "breathe fresh life into 指地方或活動重現活力。"
+        },
+        {
+          "en": "Breathing fresh life into a venue does not repair every defect.",
+          "zh": "為場地注入活力，不等於修好所有缺陷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4656",
+      "number": 4656,
+      "inventoryId": "expr-4656",
+      "titleEn": "pour into",
+      "titleZh": "大量湧入",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:pour|pours|poured|pouring)\\s+into\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Arrive in large numbers, often flowing toward a concentrated destination.",
+        "meaningZh": "大量人群湧向某處，常集中於特定地點。",
+        "grammar": "Crowds/visitors pour into + place; subject is plural people or a collective crowd. Past poured, progressive pouring.",
+        "register": "Neutral news or visitor-management language; a station coordinator describes crowd flow to staff.",
+        "boundaryZh": "重點是大量、集中地到達，不必指擁擠到危險；少數幾人進門不宜如此形容。",
+        "misconceptionZh": "不是液體真的倒入；若人群分散往多處，也不能說湧入同一地點。",
+        "outcomeZh": "能根據人數和聚集位置判斷是否貼切。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2545",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 241,
+          "book": 16,
+          "question": 54,
+          "sample": "S1",
+          "sourceBookPages": "126–127",
+          "locatorNote": "DOCX table 269, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Holiday crowds pour into the same places.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pour into the same places"
+        }
+      ],
+      "listening": {
+        "en": "Hundreds of spectators poured into the small stadium after the gates opened.",
+        "zh": "閘門開放後，數百名觀眾湧入小型運動場。",
+        "promptZh": "poured into 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A large crowd entered the same place.",
+            "zh": "大量人群進入同一地方。"
+          },
+          {
+            "id": "b",
+            "en": "Water was poured onto the seats.",
+            "zh": "水被倒在座位上。"
+          },
+          {
+            "id": "c",
+            "en": "Only two spectators entered.",
+            "zh": "只有兩名觀眾進入。"
+          },
+          {
+            "id": "d",
+            "en": "The spectators left before the gates opened.",
+            "zh": "觀眾在開閘前已離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數百人同時進入小型場地。"
+      },
+      "reply": {
+        "promptEn": "The opening bell rings at a new night market. Within ten minutes, several hundred people enter through the same eastern gate. How would a marshal describe the flow?",
+        "promptZh": "（新夜市開市鐘聲響起；十分鐘內數百人從同一個東門進入。糾察員會怎樣描述人流？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A large group is entering the eastern gate.",
+            "zh": "大批人正從東門進入。"
+          },
+          {
+            "id": "b",
+            "en": "The crowd is concentrated at one entrance.",
+            "zh": "人潮集中在一個入口。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors are pouring into the market through the east gate.",
+            "zh": "訪客正從東門大量湧入夜市。"
+          },
+          {
+            "id": "d",
+            "en": "The entrance is handling many arrivals quickly.",
+            "zh": "入口正在短時間內處理大量到訪者。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據數百人集中東門的資訊。"
+      },
+      "scene": {
+        "promptZh": "大型講座開始前，幾百名聽眾同時走進同一禮堂。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Attendees poured into the hall before the talk.",
+            "zh": "講座前聽眾大量湧入禮堂。"
+          },
+          {
+            "id": "b",
+            "en": "One person quietly entered a nearly empty hall, so crowds poured in.",
+            "zh": "一個人走進空禮堂，所以人潮湧入。"
+          },
+          {
+            "id": "c",
+            "en": "The hall poured water onto the attendees.",
+            "zh": "禮堂把水倒在聽眾身上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量人同往一處符合比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠人數與集中地點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After the race, hundreds of runners poured into the single rest tent.",
+            "zh": "賽跑後數百名跑手湧入同一休息帳篷。"
+          },
+          {
+            "id": "b",
+            "en": "Two runners went to separate cafés, so they poured into the same tent.",
+            "zh": "兩名跑手往不同咖啡店，卻說湧入同一帳篷。"
+          },
+          {
+            "id": "c",
+            "en": "A cup of water was poured into a bottle, so visitors poured into the venue.",
+            "zh": "一杯水被倒進瓶，因此訪客湧入場地。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數百人集中同一帳篷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 pour into 一定表示有安全事故。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors may pour into a gallery in large numbers without an incident.",
+            "zh": "訪客可大量湧入畫廊，而不一定發生事故。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always means someone is hurt.",
+            "zh": "對，它必定表示有人受傷。"
+          },
+          {
+            "id": "c",
+            "en": "It only describes liquid, never people.",
+            "zh": "它只描述液體，不能描述人群。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量流入不自帶事故結論。"
+      },
+      "speaking": {
+        "en": "When the free concert ended, families poured into the nearby food hall, and staff opened another serving line.",
+        "zh": "免費音樂會結束後，家庭大量湧入附近食堂，職員增設一條供餐隊伍。",
+        "promptZh": "指出職員因人流而作出的安排。",
+        "targetSpan": {
+          "start": 38,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：科學節首日，三百名訪客在開門後二十分鐘內集中進入同一實驗展廳；職員增設另一入口，但沒有人受傷。用英文描述人流並避免推斷事故。",
+        "selfCheckZh": "兩個示範都應寫出三百人、二十分鐘內、同一展廳、增設入口及無傷者；不能說湧入必然造成事故。",
+        "examples": [
+          {
+            "en": "Three hundred visitors poured into the same science hall within twenty minutes of opening, so staff opened another entrance; nobody was hurt.",
+            "zh": "開門後二十分鐘內三百名訪客湧入同一科學展廳，職員因此增設入口；無人受傷。"
+          },
+          {
+            "en": "Within twenty minutes, a crowd of three hundred poured into one experiment hall. Staff added an entrance to spread arrivals, and there were no injuries.",
+            "zh": "二十分鐘內三百人湧入同一實驗展廳；職員增設入口以分散人流，沒有傷者。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "science hall",
+            "zh": "科學展廳",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 56
+            }
+          },
+          {
+            "en": "another entrance",
+            "zh": "另一入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 123
+            }
+          },
+          {
+            "en": "nobody was hurt",
+            "zh": "無人受傷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 140
+            }
+          },
+          {
+            "en": "experiment hall",
+            "zh": "實驗展廳",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 79
+            }
+          },
+          {
+            "en": "spread arrivals",
+            "zh": "分散人流",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          },
+          {
+            "en": "no injuries",
+            "zh": "沒有傷者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 140,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Pour into describes a large group arriving at a place.",
+          "zh": "pour into 描述大量人群進入某地。"
+        },
+        {
+          "en": "People can pour into a venue without causing an accident.",
+          "zh": "人群可以大量湧入場地，而不一定造成事故。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4658",
+      "number": 4658,
+      "inventoryId": "expr-4658",
+      "titleEn": "swim upstream",
+      "titleZh": "逆流而上／艱難前行",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:swim|swims|swam|swum|swimming)\\s+upstream\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make progress against a strong opposing flow, crowd, tendency or pressure.",
+        "meaningZh": "逆著強大的水流、人潮、趨勢或壓力艱難前行。",
+        "grammar": "Swim upstream; in literal context fish swim against a current, figuratively a person struggles against opposing forces. Source compares walking against crowds.",
+        "register": "Conversational vivid description; an event marshal explains the difficulty of moving against an exiting crowd.",
+        "boundaryZh": "必須有可辨的相反力量；一般困難但沒有對抗方向時未必貼切。",
+        "misconceptionZh": "不一定真的在水裏游泳；也不等於逆勢者必定失敗。",
+        "outcomeZh": "能指出前進方向與阻力來源。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2547",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 241,
+          "book": 16,
+          "question": 54,
+          "sample": "S1",
+          "sourceBookPages": "126–127",
+          "locatorNote": "DOCX table 269, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Walking through the crowds felt like swimming upstream.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swimming upstream"
+        }
+      ],
+      "listening": {
+        "en": "As the parade crowd left the square, the medic tried to reach the stage against the flow; it felt like swimming upstream.",
+        "zh": "遊行人潮離開廣場時，醫護員逆著人流走向舞台，感覺像逆流而上。",
+        "promptZh": "swimming upstream 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The medic was moving against a strong crowd flow.",
+            "zh": "醫護員正逆著強大人流前進。"
+          },
+          {
+            "id": "b",
+            "en": "The medic was swimming in a river.",
+            "zh": "醫護員真的在河裏游泳。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone moved in the medic’s direction.",
+            "zh": "所有人都與醫護員同方向移動。"
+          },
+          {
+            "id": "d",
+            "en": "The stage had already disappeared.",
+            "zh": "舞台已經消失。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "醫護員與離場人潮方向相反。"
+      },
+      "reply": {
+        "promptEn": "At the end of a festival, most visitors head toward the station. A cleaner must push a trolley toward the far end of the site through the opposite flow. How does the journey feel?",
+        "promptZh": "（節慶結束時，大多數訪客走向車站；清潔員須推車逆著人流走到場地另一端。這段路感覺如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The cleaner is moving against the crowd.",
+            "zh": "清潔員正逆著人潮移動。"
+          },
+          {
+            "id": "b",
+            "en": "The flow of visitors makes the task harder.",
+            "zh": "訪客人流令任務更難。"
+          },
+          {
+            "id": "c",
+            "en": "It feels like swimming upstream.",
+            "zh": "感覺像逆流而上。"
+          },
+          {
+            "id": "d",
+            "en": "The cleaner’s direction opposes the main movement.",
+            "zh": "清潔員方向與主要人流相反。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據推車方向與離場人流相反作答。"
+      },
+      "scene": {
+        "promptZh": "大多數店舖取消維修服務，一家店卻嘗試保留，因供應商改變政策而十分費力。哪句可作比喻？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shop is swimming upstream against the industry trend.",
+            "zh": "店舖逆著行業趨勢艱難前行。"
+          },
+          {
+            "id": "b",
+            "en": "The shop is literally swimming in a street.",
+            "zh": "店舖真的在街上游泳。"
+          },
+          {
+            "id": "c",
+            "en": "Every supplier supports the shop’s plan fully.",
+            "zh": "每個供應商都完全支持店舖計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "店舖逆著普遍趨勢與供應商政策。"
+      },
+      "contrast": {
+        "promptZh": "哪句有明確的相反力量？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is swimming upstream by keeping repair workshops open as funding shifts toward replacement sales.",
+            "zh": "資助轉向新貨銷售，她仍維持維修工作坊，是逆勢而行。"
+          },
+          {
+            "id": "b",
+            "en": "She runs a workshop with full funding and support, so she is swimming upstream.",
+            "zh": "她有充足資助與支持，仍說逆流而上。"
+          },
+          {
+            "id": "c",
+            "en": "She enjoys an easy walk in the same direction as everyone else, so she is swimming upstream.",
+            "zh": "她與所有人同方向輕鬆走，也說逆流而上。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資助方向相反，是實在阻力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 swimming upstream 必定表示最後會失敗。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A group can be swimming upstream against policy and still achieve change.",
+            "zh": "團體可逆著政策艱難前行，仍可能促成改變。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, swimming upstream always ends in failure.",
+            "zh": "對，逆流而上一定失敗。"
+          },
+          {
+            "id": "c",
+            "en": "It means there is no opposing force.",
+            "zh": "它表示毫無相反阻力。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "艱難不等於結果已注定。"
+      },
+      "speaking": {
+        "en": "Keeping a repair café open while nearby shops switch to disposable goods feels like swimming upstream, but volunteers continue.",
+        "zh": "附近店舖都轉售即棄品時，維持維修咖啡館營運感覺像逆流而上，但義工仍繼續。",
+        "promptZh": "指出義工面對的行業趨勢。",
+        "targetSpan": {
+          "start": 84,
+          "end": 101
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：校園想減少即棄餐盒，但附近供應商大多只提供即棄包裝；學生會仍與一家可重用盒供應商試行合作。用英文說明相反趨勢和繼續嘗試。",
+        "selfCheckZh": "兩個示範都應寫出校園減少即棄餐盒、供應商多只供即棄包裝、學生會仍試行可重用盒合作。",
+        "examples": [
+          {
+            "en": "The student union is swimming upstream against suppliers that mainly offer disposable boxes, but it is piloting reusable containers to cut campus waste.",
+            "zh": "供應商主要提供即棄餐盒，學生會仍逆勢而行，試行可重用容器以減少校園廢物。"
+          },
+          {
+            "en": "Most nearby suppliers sell only disposable meal boxes. The union still wants fewer on campus and is swimming upstream by testing a reusable-box partnership.",
+            "zh": "附近供應商大多只售即棄餐盒；學生會仍想減少校園使用量，並透過試行可重用盒合作逆勢而行。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "student union",
+            "zh": "學生會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "disposable boxes",
+            "zh": "即棄餐盒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          },
+          {
+            "en": "reusable containers",
+            "zh": "可重用容器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 131
+            }
+          },
+          {
+            "en": "nearby suppliers",
+            "zh": "附近供應商",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 21
+            }
+          },
+          {
+            "en": "meal boxes",
+            "zh": "餐盒",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 53
+            }
+          },
+          {
+            "en": "reusable-box partnership",
+            "zh": "可重用盒合作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 155
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Swimming upstream means moving against a strong opposing force.",
+          "zh": "swimming upstream 指逆著強大阻力前行。"
+        },
+        {
+          "en": "A project can be swimming upstream and still keep making progress.",
+          "zh": "項目即使逆勢而行，仍可繼續進展。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4664",
+      "number": 4664,
+      "inventoryId": "expr-4664",
+      "titleEn": "love a place to death",
+      "titleZh": "愛得令地方受損",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:love|loves|loved|loving)\\s+(?:(?:the|a|an|this|that|our|your|their)\\s+)?(?:[\\w-]+\\s+){0,2}(?:place|site|path|garden|cave|pools)\\s+to\\s+death\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Damage a much-loved place through too many visitors or excessive use.",
+        "meaningZh": "因太多人喜愛及過度使用某地，反而令它受損。",
+        "grammar": "Love + place + to death; object names a place and to death is hyperbolic, not literal fatal harm. Source concerns excessive visitation.",
+        "register": "Vivid environmental commentary; a park ranger explains visitor pressure to tourists.",
+        "boundaryZh": "須同時有受歡迎與過度使用造成的損害，並非「愛」本身有害，也不是真的死亡。",
+        "misconceptionZh": "僅有很多人到訪而沒有損害證據，不足以判斷；不要把比喻寫成致命事件。",
+        "outcomeZh": "能指出受歡迎、過度使用及具體損害之間的關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2553",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 241,
+          "book": 16,
+          "question": 54,
+          "sample": "S2",
+          "sourceBookPages": "126–127",
+          "locatorNote": "DOCX table 269, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Too many visitors can love a place to death.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "love a place to death"
+        }
+      ],
+      "listening": {
+        "en": "Thousands visit the tiny cliff path each weekend, wearing away the soil they came to admire. They may be loving the path to death.",
+        "zh": "每週末數千人走上狹窄山崖步道，磨蝕他們本來欣賞的土地；他們可能把步道愛得受損。",
+        "promptZh": "loving the path to death 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Heavy use is damaging a popular place.",
+            "zh": "過度使用正在破壞受歡迎的地方。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors dislike the path and avoid it.",
+            "zh": "訪客討厭步道而避開。"
+          },
+          {
+            "id": "c",
+            "en": "The path is a living person who has died.",
+            "zh": "步道是一個已死的人。"
+          },
+          {
+            "id": "d",
+            "en": "The soil is recovering because nobody walks there.",
+            "zh": "土地因沒人走過而復原。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量人為欣賞而到訪，卻造成土壤磨蝕。"
+      },
+      "reply": {
+        "promptEn": "A quiet waterfall became famous online. Large visitor numbers now crush the plants beside it, though people come because they admire its beauty. What is the irony?",
+        "promptZh": "（寧靜瀑布在網上走紅；大量訪客如今踩壞旁邊植物，雖然大家都是因欣賞美景而來。諷刺在哪裏？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Admiration is bringing damaging pressure.",
+            "zh": "欣賞反而帶來破壞壓力。"
+          },
+          {
+            "id": "b",
+            "en": "The attraction’s popularity harms nearby plants.",
+            "zh": "景點走紅損害附近植物。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors risk loving the waterfall site to death.",
+            "zh": "訪客可能把瀑布景點愛得受損。"
+          },
+          {
+            "id": "d",
+            "en": "The reason people visit is helping cause the damage.",
+            "zh": "人們到訪的動機反而促成損害。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出受歡迎與踩壞植物的反差。"
+      },
+      "scene": {
+        "promptZh": "小島觀鳥徑走紅後，大量人離開步道踩壞繁殖地。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Visitors are loving the bird path to death by trampling the nesting ground.",
+            "zh": "訪客踩壞繁殖地，可能把觀鳥徑愛得受損。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors are simply admiring birds without affecting the site.",
+            "zh": "訪客只欣賞鳥類，沒有影響環境。"
+          },
+          {
+            "id": "c",
+            "en": "The path has literally died like an animal.",
+            "zh": "步道真的像動物一樣死亡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量到訪帶來具體生境損害。"
+      },
+      "contrast": {
+        "promptZh": "哪句具有完整的比喻條件？",
+        "options": [
+          {
+            "id": "a",
+            "en": "People love the cave, but their repeated touching damages its paintings; they could love the cave to death.",
+            "zh": "人們喜愛山洞，但反覆觸摸損害壁畫，可能把山洞愛得受損。"
+          },
+          {
+            "id": "b",
+            "en": "One careful visitor admires the cave without touching it, so she loves it to death.",
+            "zh": "一名小心訪客不觸摸地欣賞山洞，因此把它愛得受損。"
+          },
+          {
+            "id": "c",
+            "en": "The cave is unpopular and untouched, so crowds love it to death.",
+            "zh": "山洞不受歡迎也無人觸碰，卻說人潮使它受損。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "喜愛、反覆使用、具體損害均存在。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 love a place to death 指真的殺死一個人。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Tourists can love a fragile site to death when heavy visits damage it.",
+            "zh": "遊客過度到訪損害脆弱景點時，可說把地方愛得受損。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, a person must literally die.",
+            "zh": "對，必須真的有人死亡。"
+          },
+          {
+            "id": "c",
+            "en": "It means the site is never visited.",
+            "zh": "它表示景點從無人到訪。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "死亡是誇張比喻，指環境受損。"
+      },
+      "speaking": {
+        "en": "The small garden is loved, but repeated shortcutting has worn its flower beds away; visitors may love the garden to death.",
+        "zh": "小花園很受喜愛，但訪客反覆抄捷徑踩壞花圃，可能把花園愛得受損。",
+        "promptZh": "指出受歡迎與受損如何同時發生。",
+        "targetSpan": {
+          "start": 97,
+          "end": 121
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：海邊潮池因美麗而吸引大量遊客；遊客反覆踏入淺池拍照，破壞脆弱生物。管理員想設限定路線保護它。用英文說明諷刺及措施。",
+        "selfCheckZh": "兩個示範都應提及潮池受喜愛、大量拍照者踏入造成生物受損、管理員設限定路線。",
+        "examples": [
+          {
+            "en": "Visitors may love the tide pools to death: repeated photo stops in the shallow water harm fragile creatures, so rangers will mark a limited route.",
+            "zh": "遊客可能把潮池愛得受損：他們為拍照反覆踏入淺水，傷害脆弱生物，因此管理員會劃設限定路線。"
+          },
+          {
+            "en": "The beauty of the tide pools draws crowds, but walking into them for photos damages small creatures. To avoid loving the site to death, rangers plan a marked route.",
+            "zh": "潮池美景吸引人潮，但遊客走入池中拍照會傷害小生物。為免把景點愛得受損，管理員計劃劃設路線。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shallow water",
+            "zh": "淺水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 84
+            }
+          },
+          {
+            "en": "fragile creatures",
+            "zh": "脆弱生物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 107
+            }
+          },
+          {
+            "en": "limited route",
+            "zh": "限定路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 145
+            }
+          },
+          {
+            "en": "draws crowds",
+            "zh": "吸引人潮",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 41
+            }
+          },
+          {
+            "en": "small creatures",
+            "zh": "小生物",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 99
+            }
+          },
+          {
+            "en": "marked route",
+            "zh": "劃設路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 163
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Love a place to death describes popularity that damages it.",
+          "zh": "love a place to death 描述受歡迎卻因過度使用而受損。"
+        },
+        {
+          "en": "To love a site to death, visits must cause real harm, not just be numerous.",
+          "zh": "說景點被愛得受損，須有實際傷害，不能只看人數。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4670",
+      "number": 4670,
+      "inventoryId": "expr-4670",
+      "titleEn": "a sea of choices",
+      "titleZh": "琳瑯滿目的選擇",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a\\s+)?sea\\s+of\\s+(?:[\\w-]+\\s+){0,2}choices\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A very large number of options, sometimes difficult to sort through.",
+        "meaningZh": "選擇極多，有時難以逐一比較。",
+        "grammar": "A sea of choices; sea is singular, choices plural. Can be a sea of similar choices if the options are numerous.",
+        "register": "Conversational consumer description; a librarian helps a patron narrow a long catalogue.",
+        "boundaryZh": "重點是數量龐大，不必斷言每個選項都不好或一定令人困惑。",
+        "misconceptionZh": "不是海洋；只有兩個選項時不宜說 a sea of choices。",
+        "outcomeZh": "能用具體數量或種類支持選擇極多的描述。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2559",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 242,
+          "book": 16,
+          "question": 55,
+          "sample": "S1",
+          "sourceBookPages": "128–129",
+          "locatorNote": "DOCX table 270, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Online shoppers can feel lost in a sea of choices.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a sea of choices"
+        }
+      ],
+      "listening": {
+        "en": "The festival app lists hundreds of talks, films and workshops; visitors face a sea of choices.",
+        "zh": "節慶程式列出數百場講座、電影及工作坊，訪客面對琳瑯滿目的選擇。",
+        "promptZh": "a sea of choices 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There are very many options.",
+            "zh": "選項非常多。"
+          },
+          {
+            "id": "b",
+            "en": "The events take place under the sea.",
+            "zh": "活動在海底舉行。"
+          },
+          {
+            "id": "c",
+            "en": "Only two talks are available.",
+            "zh": "只有兩場講座可選。"
+          },
+          {
+            "id": "d",
+            "en": "Every option is necessarily poor.",
+            "zh": "每個選項必定不好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數百項跨類別活動支持數量龐大。"
+      },
+      "reply": {
+        "promptEn": "A parent opens a course catalogue with more than four hundred classes across sports, art and science. She wants filters by age and location. Why?",
+        "promptZh": "（家長打開課程目錄，裏面有四百多個體育、美術與科學課程；她想按年齡和地點篩選。原因是甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The catalogue offers a very large range.",
+            "zh": "目錄提供極多課程。"
+          },
+          {
+            "id": "b",
+            "en": "Filters would help narrow the options.",
+            "zh": "篩選功能可縮小選擇範圍。"
+          },
+          {
+            "id": "c",
+            "en": "She is facing a sea of choices.",
+            "zh": "她面對琳瑯滿目的選擇。"
+          },
+          {
+            "id": "d",
+            "en": "Sorting hundreds of classes takes effort.",
+            "zh": "比較數百課程需要工夫。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據四百多課程及篩選需要作答。"
+      },
+      "scene": {
+        "promptZh": "網站列出七百種歷史照片授權方案，使用者須先按用途篩選。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Users face a sea of choices before filtering the licences.",
+            "zh": "篩選授權前，使用者面對大量選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Seven hundred licences are literally an ocean.",
+            "zh": "七百份授權真的是海洋。"
+          },
+          {
+            "id": "c",
+            "en": "There are only two licences, so choices are limitless.",
+            "zh": "只有兩份授權，因此選擇無限。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "七百種方案足以支持大量選擇。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把「選擇多」推成「選擇差」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There is a sea of choices; some are excellent, but a filter would help us compare them.",
+            "zh": "選擇很多，其中一些很好，但篩選有助比較。"
+          },
+          {
+            "id": "b",
+            "en": "There is a sea of choices, so every item must be low quality.",
+            "zh": "選擇很多，因此每項必定低質。"
+          },
+          {
+            "id": "c",
+            "en": "There are three options, so they form a vast sea of choices.",
+            "zh": "只有三個選項，卻說選擇如海。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多不等於差，數量仍應合理。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 a sea of choices 指海邊購物。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An online archive can offer a sea of choices without being near the coast.",
+            "zh": "網上檔案館即使不在海邊，也可提供海量選擇。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it requires seawater.",
+            "zh": "對，它必須有海水。"
+          },
+          {
+            "id": "c",
+            "en": "It means the list is very short.",
+            "zh": "它表示清單很短。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "sea 比喻數量眾多。"
+      },
+      "speaking": {
+        "en": "The library catalogue gives us a sea of choices, so I will filter by language and publication year first.",
+        "zh": "圖書館目錄提供琳瑯滿目的選擇，所以我會先按語言及出版年份篩選。",
+        "promptZh": "指出使用者採用哪兩項篩選條件。",
+        "targetSpan": {
+          "start": 31,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電影節有五百部參展短片；策展人建議觀眾先按語言與片長篩選，並說選擇多不代表每部都差。用英文說明。",
+        "selfCheckZh": "兩個示範都應寫出五百部短片、按語言與片長篩選，以及多不等於差。",
+        "examples": [
+          {
+            "en": "With five hundred short films, the festival offers a sea of choices; language and length filters can help viewers compare them without assuming the films are poor.",
+            "zh": "電影節有五百部短片，選擇琳瑯滿目；按語言和片長篩選有助比較，卻不表示影片質素差。"
+          },
+          {
+            "en": "Viewers face a sea of choices among the festival’s five hundred shorts. Sorting by language and running time makes the list manageable, not a verdict on quality.",
+            "zh": "觀眾在電影節五百部短片中面對大量選擇；按語言和片長篩選使清單較易處理，並非對質素下判斷。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "short films",
+            "zh": "短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 29
+            }
+          },
+          {
+            "en": "language and length filters",
+            "zh": "語言和片長篩選",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 96
+            }
+          },
+          {
+            "en": "compare",
+            "zh": "比較",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 121
+            }
+          },
+          {
+            "en": "five hundred shorts",
+            "zh": "五百部短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 70
+            }
+          },
+          {
+            "en": "running time",
+            "zh": "片長",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 108
+            }
+          },
+          {
+            "en": "verdict on quality",
+            "zh": "質素判斷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 160
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A sea of choices means a very large range of options.",
+          "zh": "a sea of choices 指選項極多。"
+        },
+        {
+          "en": "A sea of choices can contain good options; filters help compare them.",
+          "zh": "大量選擇中可以有好選項；篩選有助比較。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4673",
+      "number": 4673,
+      "inventoryId": "expr-4673",
+      "titleEn": "treat something like gospel",
+      "titleZh": "奉若圭臬",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:(?:treat|treats|treated|treating)\\s+(?:[\\w’\\'-]+\\s+){1,4}like\\s+gospel|(?:is|are|was|were|be|been|being)\\s+treated\\s+like\\s+gospel)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Accept a claim as unquestionably true instead of checking it.",
+        "meaningZh": "把某說法當成無可置疑的真理，而不加核實。",
+        "grammar": "Treat X like gospel / X is treated like gospel; object X is the claim, ranking or advice accepted uncritically.",
+        "register": "Conversational critical comment; a media-literacy teacher advises students about online rankings.",
+        "boundaryZh": "質疑的是不加核實的態度，不是斷言該說法必定錯；宗教詞語在此為習語。",
+        "misconceptionZh": "不是要求宗教信仰；單純參考資料並再核實，不等於奉若圭臬。",
+        "outcomeZh": "能分辨參考一項資訊與不加查證地全盤接受。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2562",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 242,
+          "book": 16,
+          "question": 55,
+          "sample": "S2",
+          "sourceBookPages": "128–129",
+          "locatorNote": "DOCX table 270, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Online scores should not be treated like gospel.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "treated like gospel"
+        }
+      ],
+      "listening": {
+        "en": "The app ranks parks using only photo uploads, but some users treat its list like gospel and never check access hours.",
+        "zh": "程式只按照片上傳數排名公園，但有些使用者把榜單奉若圭臬，從不核對開放時間。",
+        "promptZh": "treat its list like gospel 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Users accept the ranking without checking important facts.",
+            "zh": "使用者不核實重要事實便接受排名。"
+          },
+          {
+            "id": "b",
+            "en": "The list is a religious text.",
+            "zh": "榜單是宗教經文。"
+          },
+          {
+            "id": "c",
+            "en": "Every park ranking is proven false.",
+            "zh": "每份公園排名都已證明錯誤。"
+          },
+          {
+            "id": "d",
+            "en": "Users compare the list with opening hours carefully.",
+            "zh": "使用者仔細把榜單與開放時間比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "把榜單當成無需質疑，忽略核查。"
+      },
+      "reply": {
+        "promptEn": "A video claims one study method works for every learner. A student follows it exactly without looking at the evidence or her own results. How is she using the claim?",
+        "promptZh": "（影片聲稱一種學習方法適合每位學習者；學生不看證據或自己的成效便完全照做。她怎樣看待這個說法？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She accepts it without testing the broad claim.",
+            "zh": "她不測試籠統說法便接受。"
+          },
+          {
+            "id": "b",
+            "en": "She gives the video unquestioned authority.",
+            "zh": "她賦予影片無可質疑的權威。"
+          },
+          {
+            "id": "c",
+            "en": "She treats the advice like gospel.",
+            "zh": "她把建議奉若圭臬。"
+          },
+          {
+            "id": "d",
+            "en": "She does not compare it with her own results.",
+            "zh": "她沒有與自己的成效比較。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出未核證便全盤接受。"
+      },
+      "scene": {
+        "promptZh": "某旅遊榜單只收集一百名受訪者意見，經理卻從不核查便照單決定所有行程。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The manager treats the small survey like gospel.",
+            "zh": "經理把小型調查奉若圭臬。"
+          },
+          {
+            "id": "b",
+            "en": "The manager uses the survey as one source and verifies it.",
+            "zh": "經理只把調查作其中一個來源並加以核實。"
+          },
+          {
+            "id": "c",
+            "en": "The survey is necessarily false because it is small.",
+            "zh": "調查樣本小，所以必定錯誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題在於不加查證而全盤依從。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把「需要核實」誤說成「一定錯誤」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should not treat the online score like gospel; let us check the inspection report too.",
+            "zh": "不應把網上評分奉若圭臬；也應查看檢查報告。"
+          },
+          {
+            "id": "b",
+            "en": "The score is online, so it must be wrong in every detail.",
+            "zh": "評分在網上，所以每個細節必定錯。"
+          },
+          {
+            "id": "c",
+            "en": "We checked three independent reports, so even cautious comparison means treating one like gospel.",
+            "zh": "我們比較三份獨立報告，因此謹慎比較也等於奉若圭臬。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "提醒查證，不預設評分必錯。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說「參考」一個排名就等於 treat it like gospel。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You treat a ranking like gospel only when you accept it without proper checking.",
+            "zh": "只有不作適當查證便接受排名，才是把它奉若圭臬。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, any use of a ranking is unquestioning belief.",
+            "zh": "對，任何使用排名都等於盲信。"
+          },
+          {
+            "id": "c",
+            "en": "The phrase means the ranking has been disproved.",
+            "zh": "片語表示排名已被推翻。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "使用資料與盲信不同。"
+      },
+      "speaking": {
+        "en": "Do not treat the restaurant score like gospel; its sample is small, so read recent inspection details as well.",
+        "zh": "別把餐廳評分奉若圭臬；樣本很小，也應閱讀近期檢查資料。",
+        "promptZh": "指出應再查閱甚麼資料。",
+        "targetSpan": {
+          "start": 7,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：家長看到網上學校排名，榜單只按考試分數排序，沒有涵蓋無障礙設施；她會參考榜單，也會查看學校實地資料。用英文說明不應盲信。",
+        "selfCheckZh": "兩個示範都應寫出榜單只按考試分數、欠缺無障礙資料、家長會參考但另外查證。",
+        "examples": [
+          {
+            "en": "The parent will not treat the school ranking like gospel: it uses exam scores alone and omits accessibility, so she will also inspect the school’s facilities.",
+            "zh": "家長不會把學校排名奉若圭臬：榜單只用考試分數，又欠無障礙資料，因此她會另查校內設施。"
+          },
+          {
+            "en": "She can consult the online ranking without treating it like gospel. Because it ignores access facilities and sorts only by exam marks, she will check the school in person.",
+            "zh": "她可以參考網上排名而不奉若圭臬；榜單只按考試分數排序，忽略無障礙設施，因此她會親身了解學校。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "exam scores",
+            "zh": "考試分數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 77
+            }
+          },
+          {
+            "en": "accessibility",
+            "zh": "無障礙情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 107
+            }
+          },
+          {
+            "en": "school’s facilities",
+            "zh": "校內設施",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 157
+            }
+          },
+          {
+            "en": "online ranking",
+            "zh": "網上排名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 34
+            }
+          },
+          {
+            "en": "access facilities",
+            "zh": "無障礙設施",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 104
+            }
+          },
+          {
+            "en": "in person",
+            "zh": "親身",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Treat X like gospel means accept it without questioning.",
+          "zh": "treat X like gospel 指不加質疑地接受。"
+        },
+        {
+          "en": "Not treating a source like gospel does not mean assuming it is false.",
+          "zh": "不奉若圭臬，不等於認定資料必錯。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4679",
+      "number": 4679,
+      "inventoryId": "expr-4679",
+      "titleEn": "crossed wires",
+      "titleZh": "溝通誤會",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcrossed\\s+wires\\b|\\b(?:get|gets|got|getting)\\s+(?:[\\w’\\'-]+\\s+){0,2}wires\\s+crossed\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A misunderstanding caused by people receiving or interpreting different information.",
+        "meaningZh": "因雙方接收或理解的資訊不一致而產生誤會。",
+        "grammar": "There were crossed wires over X / we got our wires crossed over X. Crossed wires is a plural noun phrase in this lesson.",
+        "register": "Conversational workplace clarification; an organiser explains conflicting arrival times to volunteers.",
+        "boundaryZh": "重點是溝通不一致，不是電線真的交叉，也不必表示任何人蓄意誤導。",
+        "misconceptionZh": "只因計劃更改而人人都收到同一新版資訊，未必有 crossed wires。",
+        "outcomeZh": "能指出雙方收到甚麼不同訊息及如何澄清。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2568",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 243,
+          "book": 16,
+          "question": 56,
+          "sample": "S2",
+          "sourceBookPages": "130–131",
+          "locatorNote": "DOCX table 271, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A direct call can prevent crossed wires over arrival times.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "crossed wires"
+        }
+      ],
+      "listening": {
+        "en": "The speaker was told noon, but the driver was told one o’clock. A quick call cleared up the crossed wires.",
+        "zh": "講者獲告知中午到，司機卻被告知一時；一通電話澄清了溝通誤會。",
+        "promptZh": "crossed wires 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Two people had conflicting arrival information.",
+            "zh": "兩人收到互相矛盾的到達時間。"
+          },
+          {
+            "id": "b",
+            "en": "Two electric cables touched.",
+            "zh": "兩條電線碰在一起。"
+          },
+          {
+            "id": "c",
+            "en": "Both were given the same time.",
+            "zh": "兩人獲告知相同時間。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker deliberately deceived the driver.",
+            "zh": "講者故意欺騙司機。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中午與一時的資訊不一致。"
+      },
+      "reply": {
+        "promptEn": "The rehearsal email says 4 p.m., but the venue’s calendar says 5 p.m. Both teams are acting on their own record. What should the organiser address?",
+        "promptZh": "（排練電郵寫下午四時，場地日曆寫五時；兩隊人各按自己的紀錄安排。主辦者應處理甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teams have different schedule information.",
+            "zh": "兩隊有不同時間資料。"
+          },
+          {
+            "id": "b",
+            "en": "They need one confirmed rehearsal time.",
+            "zh": "他們需要一個核實的排練時間。"
+          },
+          {
+            "id": "c",
+            "en": "There are crossed wires over the start time.",
+            "zh": "開始時間出現溝通誤會。"
+          },
+          {
+            "id": "d",
+            "en": "A direct clarification would prevent further confusion.",
+            "zh": "直接澄清可防止進一步混亂。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指向四時與五時資訊衝突。"
+      },
+      "scene": {
+        "promptZh": "餐飲組收到「週六送貨」，場地組卻收到「週日送貨」，兩方因此作出不同準備。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There are crossed wires over the delivery day.",
+            "zh": "送貨日期出現溝通誤會。"
+          },
+          {
+            "id": "b",
+            "en": "The electric wires in the kitchen are crossed.",
+            "zh": "廚房電線真的交叉。"
+          },
+          {
+            "id": "c",
+            "en": "Both teams received the same message.",
+            "zh": "兩隊收到相同訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同送貨日資料造成誤會。"
+      },
+      "contrast": {
+        "promptZh": "哪句不把正常改期誤認為溝通誤會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Both teams received the same revised time and adjusted, so there were no crossed wires.",
+            "zh": "兩隊都收到相同新時間並調整，因此沒有溝通誤會。"
+          },
+          {
+            "id": "b",
+            "en": "Both teams received the same update, so they definitely got their wires crossed.",
+            "zh": "兩隊都收到相同更新，因此必定誤會。"
+          },
+          {
+            "id": "c",
+            "en": "One team was told Monday and the other Tuesday, so there cannot be crossed wires.",
+            "zh": "一隊獲告知週一，另一隊週二，因此不可能有誤會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資料一致時即使改期，也不一定有誤會。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 crossed wires 必定有人故意撒謊。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Crossed wires can arise when two teams honestly receive different versions.",
+            "zh": "兩隊誠實地收到不同版本，也可能產生溝通誤會。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always proves deliberate deceit.",
+            "zh": "對，它必定證明有人故意欺騙。"
+          },
+          {
+            "id": "c",
+            "en": "It only refers to faulty electrical wiring.",
+            "zh": "它只指電線故障。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不一致可由普通溝通失誤造成。"
+      },
+      "speaking": {
+        "en": "The guide and coach driver got their wires crossed over the pickup time, so they called to confirm the correct hour.",
+        "zh": "導遊和旅遊巴司機對接載時間有誤會，因此致電確認正確時間。",
+        "promptZh": "指出他們用甚麼方式澄清。",
+        "targetSpan": {
+          "start": 27,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區合唱團電郵寫週四排練，場地日曆卻寫週五；兩方各以為自己正確，領隊打電話核實後更新同一份時間表。用英文解釋誤會及解決方式。",
+        "selfCheckZh": "兩個示範都應寫出電郵週四、日曆週五、致電核實及更新共同時間表；勿指控蓄意說謊。",
+        "examples": [
+          {
+            "en": "There were crossed wires over rehearsal day: the choir email said Thursday, the venue calendar said Friday, and the leader called to confirm before updating the shared timetable.",
+            "zh": "排練日出現溝通誤會：合唱團電郵寫週四，場地日曆寫週五，領隊致電核實後更新共同時間表。"
+          },
+          {
+            "en": "The choir and venue got their wires crossed when one record named Thursday and the other Friday. A call settled the day, and both now use the same schedule.",
+            "zh": "合唱團和場地一方紀錄寫週四、另一方寫週五，因此有溝通誤會；一通電話定下日期，兩方現在使用同一時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "choir email",
+            "zh": "合唱團電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 60
+            }
+          },
+          {
+            "en": "venue calendar",
+            "zh": "場地日曆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 94
+            }
+          },
+          {
+            "en": "shared timetable",
+            "zh": "共同時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 161,
+              "end": 177
+            }
+          },
+          {
+            "en": "one record",
+            "zh": "一方紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 59
+            }
+          },
+          {
+            "en": "the other",
+            "zh": "另一方",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 88
+            }
+          },
+          {
+            "en": "same schedule",
+            "zh": "同一時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 155
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Crossed wires means a communication misunderstanding.",
+          "zh": "crossed wires 指溝通誤會。"
+        },
+        {
+          "en": "People can have crossed wires without anyone lying.",
+          "zh": "出現溝通誤會，不代表有人說謊。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

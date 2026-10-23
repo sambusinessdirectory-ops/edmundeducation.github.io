@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4280",
+      "number": 4280,
+      "inventoryId": "expr-4280",
+      "titleEn": "strong case",
+      "titleZh": "有力論據",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bstrong case\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A persuasive argument supported by relevant evidence for a claim or proposal.",
+        "meaningZh": "有相關證據支撐、能令人信服的主張或提議。",
+        "grammar": "Make/present/build a strong case for something or that a claim is true. Case means an argument here, not a container or a legal proceeding.",
+        "register": "Neutral formal discussion. A public-health researcher may use it when presenting evidence to a committee.",
+        "boundaryZh": "須有可檢視的理由與證據；只說「我很喜歡」或列出單一未核實數字，不足以構成有力論據。",
+        "misconceptionZh": "不是堅固的箱子，也不表示主張已獲最終證明或對立意見必然無效。",
+        "outcomeZh": "能指出主張、至少一項相關證據及論證仍可能受甚麼限制。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2169",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 204,
+          "book": 16,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 222, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Medical advances make a strong case for the title.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "strong case"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "On similar streets, a city team compared injury records before and after protected crossings were added. Injuries fell where they were installed, though other causes need checking. That gives a strong case for a trial near the school.",
+        "zh": "市政團隊比較相近街道設置受保護過路處前後的受傷紀錄。有設施的地方受傷人數下降，但仍須核查其他成因。這為在學校附近試行設施提供有力論據。",
+        "promptZh": "甚麼使試行建議較有說服力？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The proposal is tied to comparative injury records, with limits acknowledged.",
+            "zh": "提議有比較受傷紀錄支持，亦承認限制。"
+          },
+          {
+            "id": "b",
+            "en": "The team chose the crossing solely because its colour looked attractive.",
+            "zh": "團隊只因過路處顏色好看而選用。"
+          },
+          {
+            "id": "c",
+            "en": "The figures prove no other factor could affect injuries.",
+            "zh": "數字證明其他因素絕不可能影響受傷人數。"
+          },
+          {
+            "id": "d",
+            "en": "The team has already installed it on the school road and measured the result.",
+            "zh": "團隊已在學校道路設置，並量度成效。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "相關比較資料支持試行，但未被誇成最終證明。"
+      },
+      "reply": {
+        "promptEn": "A museum wants longer Sunday hours. It shows several months of visitor counts near closing time, staff availability and projected costs, while noting that demand may vary in winter. What has it built?",
+        "promptZh": "（博物館想延長星期日開放時間。它展示數月來臨近關門的人流、職員可當值情況及預算成本，同時指出冬季需求可能不同。它建立了甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A proposal supported by several relevant kinds of evidence.",
+            "zh": "一項有多種相關證據支持的提議。"
+          },
+          {
+            "id": "b",
+            "en": "A reasoned basis for testing the longer hours.",
+            "zh": "一個可據以試行延長時間的合理基礎。"
+          },
+          {
+            "id": "c",
+            "en": "A strong case for extending Sunday hours on a trial basis.",
+            "zh": "一套支持試行延長星期日開放時間的有力論據。"
+          },
+          {
+            "id": "d",
+            "en": "An argument that also states a seasonal limitation.",
+            "zh": "一套亦指出季節限制的論證。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均以人流、人手、成本及限制為依據。"
+      },
+      "scene": {
+        "promptZh": "社區診所建議增加晚間門診，提供長期候診紀錄、人手排班及試行成本，並承認冬季情況可能不同。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The clinic has made a strong case for a trial.",
+            "zh": "診所為試行提出了有力論據。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic has proved every future patient will use the service.",
+            "zh": "診所已證明每位未來病人都會使用服務。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic offers only a personal preference without data.",
+            "zh": "診所只有個人喜好，沒有數據。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項相關證據支持試行，但未保證結果。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以構成 a strong case？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser says a change is good simply because she likes it and offers no reason or evidence.",
+            "zh": "主辦人只說自己喜歡改動，沒有理由或證據。"
+          },
+          {
+            "id": "b",
+            "en": "A team compares attendance across similar sessions and notes one uncertainty.",
+            "zh": "團隊比較相近活動的出席情況，並指出一項不確定性。"
+          },
+          {
+            "id": "c",
+            "en": "A researcher presents relevant results and explains how they support a limited trial.",
+            "zh": "研究員提出相關結果，解釋其如何支持有限度試行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只有喜好，缺乏可檢視證據。"
+      },
+      "dialogue": {
+        "promptEn": "A: We want the council to test a later bus. We have three months of missed-connection records and a costed driver schedule, but we cannot predict every route. B: ______",
+        "promptZh": "（甲：我們希望區議會試行較晚的巴士班次。我們有三個月錯過轉車的紀錄及已計算成本的司機更表，但無法預測每條路線。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You have a strong case for testing that later service.",
+            "zh": "你們對試行較晚班次提出了有力論據。"
+          },
+          {
+            "id": "b",
+            "en": "The records and staffing costs give the council something to evaluate.",
+            "zh": "紀錄及人手成本為區議會提供可評估資料。"
+          },
+          {
+            "id": "c",
+            "en": "That evidence supports a limited trial rather than an unlimited promise.",
+            "zh": "那些證據支持有限度試行，而非無限承諾。"
+          },
+          {
+            "id": "d",
+            "en": "You can state the route limits alongside the evidence.",
+            "zh": "你們可在提出證據時同時說明路線限制。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句基於具體資料與有界結論。"
+      },
+      "speaking": {
+        "en": "The accessible-entry survey made a strong case for testing a second ramp: users identified the same bottleneck on several days, and the team costed a temporary route before asking for approval.",
+        "zh": "無障礙入口調查為試行第二條斜道提出有力論據：使用者在多天指出同一樽頸，團隊申請批准前亦計算了臨時路線成本。",
+        "promptZh": "論證要連接證據與提議，而非只表達立場。",
+        "targetSpan": {
+          "start": 35,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個團隊各提一項有限度改動，提供相關證據與至少一項限制。用英文寫出主張及證據如何支撐它。",
+        "selfCheckZh": "兩例不能把相關資料誇成完全確定；必須交代何以構成有力論據。",
+        "examples": [
+          {
+            "en": "Repeated queue counts make a strong case for testing another ticket desk; the library also checked staff costs but has not yet measured the trial’s effect.",
+            "zh": "重複量度的輪候人數為試行另一個售票櫃位提供有力論據；圖書館亦核對人手成本，但尚未量度試行成效。"
+          },
+          {
+            "en": "A survey of wheelchair users and a temporary route plan built a strong case for a ramp trial at the gallery, although winter demand remains unknown.",
+            "zh": "輪椅使用者調查及臨時路線計劃，為藝廊試行斜道建立有力論據，雖然冬季需求仍未清楚。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "queue counts",
+            "zh": "輪候人數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 21
+            }
+          },
+          {
+            "en": "another ticket desk",
+            "zh": "另一個售票櫃位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 72
+            }
+          },
+          {
+            "en": "staff costs",
+            "zh": "人手成本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 110
+            }
+          },
+          {
+            "en": "wheelchair users",
+            "zh": "輪椅使用者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 28
+            }
+          },
+          {
+            "en": "winter demand",
+            "zh": "冬季需求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A strong case connects a claim to relevant reasons and evidence.",
+          "zh": "a strong case 把主張與相關理由及證據連起來。"
+        },
+        {
+          "en": "A strong case can acknowledge uncertainty without losing its value.",
+          "zh": "有力論據可承認不確定性，而不失其價值。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4283",
+      "number": 4283,
+      "inventoryId": "expr-4283",
+      "titleEn": "take the crown",
+      "titleZh": "在某準則下被評為最佳",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking) the crown\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be judged the best or winner among alternatives, often under a stated criterion.",
+        "meaningZh": "在多個選項之中，按某項明確準則被評為最佳或勝出。",
+        "grammar": "Take the crown; take inflects took/taken. The crown is figurative unless discussing an actual contest with a crown. State the measure used when comparing choices.",
+        "register": "Conversational and vivid. A reviewer may use it when comparing designs against a published criterion.",
+        "boundaryZh": "須有比較對象及評選準則；某方面勝出，不代表在所有方面都最好。",
+        "misconceptionZh": "不是實際拿走王冠，也不能在沒有準則或結果時便斷言已勝出。",
+        "outcomeZh": "能說明比較項目、準則、證據及結論的範圍。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2172",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 204,
+          "book": 16,
+          "question": 7,
+          "sample": "S2",
+          "sourceBookPages": "16–17",
+          "locatorNote": "DOCX table 222, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "If lives saved is the measure, medicine may take the crown.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the crown"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Three bus-stop designs were measured for step-free access. Design C had the gentlest slope and most turning space, so it took the crown for accessibility. It was not necessarily the cheapest.",
+        "zh": "三款巴士站設計接受無梯級通道測試。C款斜度最緩、轉彎空間最多，因此在無障礙程度方面勝出，但未必最便宜。",
+        "promptZh": "C設計在哪項準則下勝出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Step-free accessibility measured by slope and turning space.",
+            "zh": "按斜度及轉彎空間量度的無障礙程度。"
+          },
+          {
+            "id": "b",
+            "en": "The lowest installation cost, which was not compared.",
+            "zh": "最低安裝成本；文中沒有比較。"
+          },
+          {
+            "id": "c",
+            "en": "The most colourful shelter roof.",
+            "zh": "顏色最鮮艷的候車亭頂。"
+          },
+          {
+            "id": "d",
+            "en": "Every possible measure of bus-stop quality.",
+            "zh": "巴士站品質的所有可能準則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "結果有明確無障礙準則，不可擴大到成本或所有品質。"
+      },
+      "reply": {
+        "promptEn": "Four poster designs are tested for readability from five metres away. Readers identify the title of Poster B most accurately, although another design is cheaper to print. Which design wins on readability?",
+        "promptZh": "（四款海報設計接受五米外可讀性測試。讀者辨認B海報標題最準確，但另一設計印刷較便宜。按可讀性，哪款勝出？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Poster B has the strongest measured readability result.",
+            "zh": "B海報的可讀性量度結果最好。"
+          },
+          {
+            "id": "b",
+            "en": "The cheaper design may win on cost, a different measure.",
+            "zh": "較便宜的設計或在成本上勝出，那是另一準則。"
+          },
+          {
+            "id": "c",
+            "en": "Poster B takes the crown for readability.",
+            "zh": "B海報在可讀性方面勝出。"
+          },
+          {
+            "id": "d",
+            "en": "The comparison does not prove B is best on every criterion.",
+            "zh": "比較沒有證明B在每項準則都最好。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均符合可讀性測試與成本例外。"
+      },
+      "scene": {
+        "promptZh": "三款展覽標示牌經測試，D款讓訪客最快找到出口；E款較便宜。按尋路效率，哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Design D takes the crown for wayfinding speed.",
+            "zh": "D款在尋路速度方面勝出。"
+          },
+          {
+            "id": "b",
+            "en": "Design D must also be cheapest, although no cost result supports that.",
+            "zh": "雖無成本結果支持，D款也必然最便宜。"
+          },
+          {
+            "id": "c",
+            "en": "No comparison took place between the signs.",
+            "zh": "標示牌之間沒有進行比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "勝出範圍是尋路速度，不是所有指標。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 one option took the crown？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has not chosen a measure or compared the options yet.",
+            "zh": "團隊尚未決定準則，也沒有比較選項。"
+          },
+          {
+            "id": "b",
+            "en": "A design has the best measured access score among four candidates.",
+            "zh": "一款設計在四個候選中取得最高的無障礙分數。"
+          },
+          {
+            "id": "c",
+            "en": "A recipe wins the blind-taste score while another is cheaper.",
+            "zh": "一份食譜在盲測味道得分最高，另一份成本較低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有準則或比較，不能說哪個勝出。"
+      },
+      "dialogue": {
+        "promptEn": "A: We tested five audio guides for clarity. Guide Three had the highest listener-comprehension score, though its battery life was average. B: ______",
+        "promptZh": "（甲：我們測試五款語音導賞的清晰度。第三款的聽眾理解分數最高，但電池續航力一般。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Guide Three takes the crown for listener comprehension.",
+            "zh": "第三款在聽眾理解方面勝出。"
+          },
+          {
+            "id": "b",
+            "en": "Battery life should be assessed separately.",
+            "zh": "電池續航力應另作評估。"
+          },
+          {
+            "id": "c",
+            "en": "Guide Three performed best on the stated clarity measure.",
+            "zh": "第三款在所述清晰度準則下表現最好。"
+          },
+          {
+            "id": "d",
+            "en": "The result does not make it the best on every measure.",
+            "zh": "結果不代表它在每項準則都最好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句指明勝出的比較準則。"
+      },
+      "speaking": {
+        "en": "In the school garden trial, the raised-bed design took the crown for wheelchair turning space after measurements across four layouts; the team still had to compare maintenance costs.",
+        "zh": "學校花園試驗中，團隊量度四種佈局後，高架花圃設計在輪椅轉彎空間方面勝出；他們仍要比較保養成本。",
+        "promptZh": "準則限定結論的範圍。",
+        "targetSpan": {
+          "start": 50,
+          "end": 64
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人比較多個選項，按一項清楚準則選出表現最佳者，同時交代尚未評估的另一準則。用英文寫出。",
+        "selfCheckZh": "兩例不能只說「最好」而不指出準則，亦不得把某一項勝出說成全面勝出。",
+        "examples": [
+          {
+            "en": "Among four notice layouts, the large-type version took the crown for reading speed in a timed test, though the team still needs to price the printing.",
+            "zh": "四款通知佈局中，大字版在計時測試的閱讀速度方面勝出，但團隊仍須估算印刷成本。"
+          },
+          {
+            "en": "The community app took the crown for ease of navigation in the user trial; battery use was not measured and remains a separate question.",
+            "zh": "社區應用程式在使用者測試中於操作簡易度方面勝出；電池用量未有量度，仍是另一問題。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "large-type version",
+            "zh": "大字版",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 49
+            }
+          },
+          {
+            "en": "reading speed",
+            "zh": "閱讀速度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 82
+            }
+          },
+          {
+            "en": "the printing",
+            "zh": "印刷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 149
+            }
+          },
+          {
+            "en": "ease of navigation",
+            "zh": "操作簡易度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 55
+            }
+          },
+          {
+            "en": "battery use",
+            "zh": "電池用量",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 86
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Take the crown means be judged best among alternatives on a stated measure.",
+          "zh": "take the crown 指按明確準則在選項中被評為最佳。"
+        },
+        {
+          "en": "Name the measure before saying a choice took the crown.",
+          "zh": "說某選項勝出前，要先說明準則。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4304",
+      "number": 4304,
+      "inventoryId": "expr-4304",
+      "titleEn": "cross borders",
+      "titleZh": "跨越國界；影響多國",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:cross|crosses|crossed|crossing) borders\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Extend beyond one national boundary so that an issue or its effects concern more than one country.",
+        "meaningZh": "問題或其影響不受單一國界限制，涉及多個國家。",
+        "grammar": "Cross borders; cross inflects crossed/crossing. Figurative subjects include problems, risks or ideas; literal travellers crossing borders are a different use.",
+        "register": "Neutral public discussion. A policy researcher may use it when explaining why neighbouring countries need shared data.",
+        "boundaryZh": "須指出涉及不止一個國家的證據；某國內部問題或只是可能傳播，不能逕說所有國家已受影響。",
+        "misconceptionZh": "不是問題真的拿護照過關，也不能把跨國影響理解成各國受影響程度相同。",
+        "outcomeZh": "能指明至少兩國的關聯，以及哪些影響仍未獲證實。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2193",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 206,
+          "book": 16,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 225, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Climate problems cross borders.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cross borders"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A river rises in Country A and floods farms just across the boundary in Country B. The same water system shows how flood risks cross borders, though villages farther away may remain unaffected.",
+        "zh": "甲國河水上漲，淹沒邊界另一邊乙國的農田。同一水系顯示水浸風險跨越國界，但更遠村落未必受影響。",
+        "promptZh": "甚麼使風險成為跨國問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One connected river system affects farms in two countries.",
+            "zh": "同一相連水系影響兩國農田。"
+          },
+          {
+            "id": "b",
+            "en": "Every country in the region has identical flood damage.",
+            "zh": "區內每國水浸損害完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Only Country A has any affected farmland.",
+            "zh": "只有甲國農田受影響。"
+          },
+          {
+            "id": "d",
+            "en": "The river stops permanently at the administrative line.",
+            "zh": "河流在行政邊界永遠停止流動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩國均有受影響地點，並無聲稱所有地方相同。"
+      },
+      "reply": {
+        "promptEn": "Smoke from a wildfire in Country X is measured at monitoring stations in neighbouring Country Y, where schools issue air-quality advice. What does the evidence show?",
+        "promptZh": "（甲國山火的煙霧在鄰國乙國監測站錄得，乙國學校因而發布空氣質素建議。證據顯示甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The smoke affects more than the country where the fire began.",
+            "zh": "煙霧影響不止起火國。"
+          },
+          {
+            "id": "b",
+            "en": "Both countries have a reason to share air-quality readings.",
+            "zh": "兩國都有理由分享空氣質素讀數。"
+          },
+          {
+            "id": "c",
+            "en": "The air-quality problem crosses borders.",
+            "zh": "空氣質素問題跨越國界。"
+          },
+          {
+            "id": "d",
+            "en": "The school advice in Country Y follows measured smoke there.",
+            "zh": "乙國學校的建議根據當地量到的煙霧。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按甲國起火、乙國量到煙霧回答。"
+      },
+      "scene": {
+        "promptZh": "甲國港口延誤導致乙國醫院收到的藥物變遲，兩地均有紀錄。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The supply problem crossed borders through the delivery chain.",
+            "zh": "供應問題透過運送鏈跨越國界。"
+          },
+          {
+            "id": "b",
+            "en": "Every hospital in every country must have the same delay.",
+            "zh": "每個國家的所有醫院必定同樣延誤。"
+          },
+          {
+            "id": "c",
+            "en": "The delay exists only within the original port.",
+            "zh": "延誤只存在於原本港口內。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩國的實際紀錄支持跨國影響，不支持全面推廣。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a problem crossed borders？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Only one town in Country A is affected; there is no evidence yet of any effect elsewhere.",
+            "zh": "只有甲國一個市鎮受影響，尚無其他地方受影響的證據。"
+          },
+          {
+            "id": "b",
+            "en": "Water pollution is detected downstream in Country B as well as Country A.",
+            "zh": "甲、乙兩國下游均驗出水污染。"
+          },
+          {
+            "id": "c",
+            "en": "A shipping delay in Country A postpones parts deliveries to factories in Country B.",
+            "zh": "甲國航運延誤推遲乙國工廠的零件交付。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只知一國內受影響，尚未能斷言跨國。"
+      },
+      "dialogue": {
+        "promptEn": "A: The crop disease began in Country A, but laboratories have now confirmed affected fields over the boundary in Country B. B: ______",
+        "promptZh": "（甲：農作物病害始於甲國，但實驗室如今確認乙國邊界另一邊也有受影響田地。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The crop disease has crossed borders.",
+            "zh": "農作物病害已跨越國界。"
+          },
+          {
+            "id": "b",
+            "en": "They should share the verified findings to plan a response.",
+            "zh": "兩國應分享已核實結果，以規劃應對。"
+          },
+          {
+            "id": "c",
+            "en": "Both countries now have confirmed affected fields.",
+            "zh": "兩國如今都有獲確認的受影響田地。"
+          },
+          {
+            "id": "d",
+            "en": "The evidence supports a two-country concern, not a claim about every country.",
+            "zh": "證據支持兩國共同關注，不代表每國都受影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句根據兩國獲確認的田地作出有界結論。"
+      },
+      "speaking": {
+        "en": "The same invasive insect was identified in orchards in Country M and neighbouring Country N, so the control challenge crossed borders and required both inspection teams to compare findings.",
+        "zh": "同一種入侵昆蟲在甲國及鄰國乙國的果園被發現，因此防治問題跨越國界，兩地檢查團隊須比較結果。",
+        "promptZh": "以兩國檢出為證，不宣稱整個區域都受害。",
+        "targetSpan": {
+          "start": 118,
+          "end": 133
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩項問題各有可核實的證據涉及至少兩個國家。用英文寫出跨國連結及尚未知道的範圍。",
+        "selfCheckZh": "兩例不能由一國資料推論所有國家都受影響；要限定證據所及。",
+        "examples": [
+          {
+            "en": "Flood warnings crossed borders when one river rose in both Country P and Country Q; the agencies shared readings but had not assessed distant towns.",
+            "zh": "同一河流在甲、乙兩國上漲，水浸警告因而跨越國界；兩地部門分享讀數，但尚未評估遠處市鎮。"
+          },
+          {
+            "en": "The food-supply problem crossed borders after a port closure in Country R delayed confirmed deliveries to Country S; effects on other buyers remain unknown.",
+            "zh": "甲國港口關閉令獲確認送往乙國的貨物延誤，食物供應問題因而跨越國界；對其他買家的影響仍未知道。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "shared readings",
+            "zh": "分享讀數",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 112
+            }
+          },
+          {
+            "en": "distant towns",
+            "zh": "遠處市鎮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 147
+            }
+          },
+          {
+            "en": "one river",
+            "zh": "同一河流",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 45
+            }
+          },
+          {
+            "en": "a port closure",
+            "zh": "港口關閉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 60
+            }
+          },
+          {
+            "en": "other buyers",
+            "zh": "其他買家",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Cross borders means extend beyond one country’s boundary.",
+          "zh": "cross borders 指影響跨出單一國界。"
+        },
+        {
+          "en": "Identify the second country before claiming a problem crossed borders.",
+          "zh": "聲稱問題跨國前，要指出第二個有證據的國家。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4305",
+      "number": 4305,
+      "inventoryId": "expr-4305",
+      "titleEn": "side by side",
+      "titleZh": "並肩合作",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bside by side\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Work closely together on the same task or goal, often sharing effort and responsibility.",
+        "meaningZh": "為共同任務或目標密切並肩合作、分擔努力。",
+        "grammar": "Side by side is an adverbial phrase after work, sit, stand or similar verbs. The source sense is cooperative work, not merely two objects placed next to one another.",
+        "register": "Neutral, warm English. A research lead may use it when crediting two teams’ shared contribution.",
+        "boundaryZh": "要有同一目標下的實際合作；只是坐得近，卻各做無關工作，不足以表示並肩合作。",
+        "misconceptionZh": "不一定須肩膀真的貼着；遙距團隊也可並肩合作，但須有共同任務證據。",
+        "outcomeZh": "能指出共同目標、雙方各自貢獻及協作結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2194",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 207,
+          "book": 16,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "24–26",
+          "locatorNote": "DOCX table 225, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The researchers worked side by side for years.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "side by side"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "A conservator identified the damaged pages while a digital archivist photographed each repaired section; they checked the record together every afternoon. They worked side by side to preserve the collection.",
+        "zh": "修復員找出受損頁面，數碼檔案員則拍攝每個修好的部分；兩人每天下午一起核對紀錄。他們並肩合作保存館藏。",
+        "promptZh": "甚麼顯示兩人有合作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They contributed complementary tasks and checked the same record together.",
+            "zh": "他們分擔互補工作，並一起核對同一紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "They happened to use adjacent desks but never shared information.",
+            "zh": "他們碰巧用相鄰書桌，卻從不分享資訊。"
+          },
+          {
+            "id": "c",
+            "en": "The archivist completed a separate unrelated project.",
+            "zh": "檔案員完成另一個無關項目。"
+          },
+          {
+            "id": "d",
+            "en": "Only one person worked while the other watched.",
+            "zh": "只有一人工作，另一人旁觀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "互補任務及共同核對說明並肩合作。"
+      },
+      "reply": {
+        "promptEn": "Two local groups plan a community garden. One tests soil quality; the other maps accessible paths; both use the results to agree on one layout. How did they work?",
+        "promptZh": "（兩個本地團體規劃社區花園。一組測試土質，另一組繪製無障礙路線；兩組利用結果商定同一佈局。他們如何工作？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Each group contributed to the shared garden plan.",
+            "zh": "兩組各自為共同花園計劃作出貢獻。"
+          },
+          {
+            "id": "b",
+            "en": "Their different tasks informed one agreed layout.",
+            "zh": "不同任務的結果用於同一個獲同意的佈局。"
+          },
+          {
+            "id": "c",
+            "en": "They worked side by side toward a shared design.",
+            "zh": "他們為共同設計並肩合作。"
+          },
+          {
+            "id": "d",
+            "en": "The soil and path findings were combined before the decision.",
+            "zh": "作決定前，土質與路線結果已結合。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按兩項貢獻及共同決定回答。"
+      },
+      "scene": {
+        "promptZh": "兩支隊伍為同一社區展覽合作：一隊整理口述歷史，一隊設計無障礙展板，並每週一起審閱成品。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They worked side by side on the exhibition.",
+            "zh": "他們為展覽並肩合作。"
+          },
+          {
+            "id": "b",
+            "en": "They merely rented neighbouring rooms for unrelated projects.",
+            "zh": "他們只是為無關項目租了相鄰房間。"
+          },
+          {
+            "id": "c",
+            "en": "Only one team contributed to the exhibition.",
+            "zh": "只有一隊為展覽作出貢獻。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "共同目標、互補工作與一起審閱支持合作。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 two teams worked side by side？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They sit at adjacent tables but pursue unrelated projects and never coordinate.",
+            "zh": "他們坐在相鄰桌旁，卻做無關項目，也從不協調。"
+          },
+          {
+            "id": "b",
+            "en": "They divide tasks for one exhibition and review the results together.",
+            "zh": "他們為同一展覽分工並一起審閱結果。"
+          },
+          {
+            "id": "c",
+            "en": "They jointly test a route and revise one shared map.",
+            "zh": "他們共同測試路線並修訂同一地圖。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "空間相鄰沒有共同目標或協作。"
+      },
+      "dialogue": {
+        "promptEn": "A: The nurse team mapped patient needs, and the access team tested the new entrance. They combined their notes into one plan and checked it together. B: ______",
+        "promptZh": "（甲：護理團隊整理病人需要，無障礙團隊測試新入口。他們把筆記合成一份計劃，並一起核對。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They worked side by side on the access plan.",
+            "zh": "他們為無障礙計劃並肩合作。"
+          },
+          {
+            "id": "b",
+            "en": "Their notes were combined before they checked the result.",
+            "zh": "他們在核對結果前已合併筆記。"
+          },
+          {
+            "id": "c",
+            "en": "Both teams contributed to the same plan.",
+            "zh": "兩隊都為同一計劃作出貢獻。"
+          },
+          {
+            "id": "d",
+            "en": "The shared check connects their separate tasks.",
+            "zh": "共同核對把兩邊任務連在一起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括共同目標及互補工作。"
+      },
+      "speaking": {
+        "en": "The school librarian and a language teacher worked side by side to build a reading guide: one selected accessible editions, the other tested the questions with pupils.",
+        "zh": "學校圖書館員與語文教師並肩合作製作閱讀指南：一人挑選易讀版本，另一人與學生測試問題。",
+        "promptZh": "分工須服務同一成果。",
+        "targetSpan": {
+          "start": 51,
+          "end": 63
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人各有互補任務，最後把成果合起來達成同一目標。用英文寫出雙方貢獻與共同結果。",
+        "selfCheckZh": "兩例不能只寫位置相鄰而沒有協作；亦毋須兩人真的站在一起。",
+        "examples": [
+          {
+            "en": "The translator and the designer worked side by side on the safety leaflet: she checked the meaning, he tested the layout, and they approved one clear version.",
+            "zh": "譯者與設計師並肩合作製作安全單張：她核對意思，他測試佈局，兩人批准同一份清楚版本。"
+          },
+          {
+            "en": "Two remote teams worked side by side to prepare the festival map; one verified street closures, the other marked step-free routes, and they issued a single checked map.",
+            "zh": "兩支遙距團隊並肩合作準備節慶地圖；一隊核實封路，另一隊標示無梯級路線，最後發出同一份經核對地圖。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the safety leaflet",
+            "zh": "安全單張",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 73
+            }
+          },
+          {
+            "en": "the layout",
+            "zh": "佈局",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 120
+            }
+          },
+          {
+            "en": "one clear version",
+            "zh": "同一份清楚版本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 157
+            }
+          },
+          {
+            "en": "street closures",
+            "zh": "封路",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 94
+            }
+          },
+          {
+            "en": "step-free routes",
+            "zh": "無梯級路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Side by side can mean cooperating closely on a shared task.",
+          "zh": "side by side 可指為共同任務密切合作。"
+        },
+        {
+          "en": "Show each contribution before saying the teams worked side by side.",
+          "zh": "說團隊並肩合作前，要寫出各自貢獻。"
+        }
+      ]
+    }
+  ]
+}

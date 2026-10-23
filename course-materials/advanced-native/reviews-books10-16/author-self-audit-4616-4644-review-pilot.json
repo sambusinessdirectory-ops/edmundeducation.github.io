@@ -1,0 +1,38 @@
+{
+  "reviewType": "AI author self-audit; not independent or human approval",
+  "scope": "third eight eligible proposed-new owners in 4501–4715",
+  "draftFile": "drafts-books10-16/batch-4616-4644-review-pilot.json",
+  "draftSha256": "cfb0237fbb45e803750f8352945760ba071ffe8ff94062a416754b67672199ee",
+  "ordinals": [
+    4616,
+    4620,
+    4624,
+    4632,
+    4634,
+    4635,
+    4638,
+    4644
+  ],
+  "checks": {
+    "sourceExamples": "8 exact source examples and provenance rows present",
+    "ownerScreen": "No lesson ID already in another draft at initial screen; all owner source decisions proposed-new-lesson; no alias-new source rows in these owners",
+    "sevenSteps": "8 lessons x six assessed questions plus speaking/writing and takeaways",
+    "fourValidReplies": "Author reviewed each reply prompt and four answer options for contextual validity; independent AI review pending",
+    "targetAndGlossary": "Builder and --check passed 8/48/32/0; 48 answer-derived glossary spans exact",
+    "originality": "Full 2,604-source six-token non-own-source scan found zero learner-facing hits",
+    "englishChinese": "Author checked keyed English and Traditional Chinese meanings; independent AI review pending",
+    "audio": "32 generated audio request records in focused build; synthesis not requested here"
+  },
+  "knownGates": [
+    "Independent AI editorial review pending",
+    "Human sense/owner and release approval pending"
+  ],
+  "releaseState": "Unselected provisional draft; no manifest or deployment edit",
+  "independentAIReview": {
+    "initialReport": "reviews-books10-16/independent-ai-review-4616-4644-b-initial.json",
+    "initialReportSha256": "2927d0a07ed879a76f56a070e0cd747ac4f4e750e464f93bcceb4bac3936f52d",
+    "finding": "R4616-01 and R4644-01 source-template near-copies",
+    "authorRepair": "Recast 4616 reply as discovery making visit eye-opening; 4644 listening and scene use distinct harbour/factory syntax with target. EN/ZH aligned; revisions 2; focused build/--check 8/48/32/0.",
+    "status": "awaiting scoped exact-hash independent AI follow-up; human/release gates open"
+  }
+}

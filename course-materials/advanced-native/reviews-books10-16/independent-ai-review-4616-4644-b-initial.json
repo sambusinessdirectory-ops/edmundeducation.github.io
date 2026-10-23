@@ -1,0 +1,46 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4616, 4620, 4624, 4632, 4634, 4635, 4638 and 4644",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4616-4644-review-pilot.json",
+    "sha256": "ed88623b433ddd5110bdab37213c9ea2fe2b2f2525af1a5b7880973d7a3d0109"
+  },
+  "authorSelfAuditSha256": "e64523dbabbe8323c7c45cbf07080e6aeaaff278d9d662e5bee3229834bfce96",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "legacyOwnerComparison": {
+    "path": "course-materials/advanced-native/batches/batch-0151-0175.json",
+    "sha256": "5851ae2626878df7c10eea2bec927d7411fbcb9bae002f732545e52940b2c901",
+    "conclusion": "Canonical 157 'see through something' contains 'in a heartbeat' only as a speed adjunct in a source/grammar note; its target and assessed learner decision are detecting deception. New 4634 directly teaches the speed idiom in a changed-plan context and is a distinct owner."
+  },
+  "status": "repair-required-before-selection",
+  "validation": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "sourceTargetSpans": "All eight exact source sentences match their target regex. Eight speaking target spans and all writing glossary spans are exact; no selected ID collision.",
+    "sourceOriginality": "Independent screen of 232 learner-facing English strings against 2,604 guide examples found five six-token windows: two in 4616 reply key and three in 4644 listening/scene, all extending beyond unavoidable fixed target wording."
+  },
+  "findings": [
+    {
+      "id": "R4616-01",
+      "severity": "major-originality",
+      "lessonId": "advanced-native-4616",
+      "sourceId": "book10-16-2505",
+      "sourceExample": "The visit was eye-opening for the whole class.",
+      "affectedField": "reply.options[c].en/zh",
+      "issue": "The keyed answer 'The visit was eye-opening for the volunteers' copies the source sentence structure and six-token frame, replacing only the final noun. The fixed target is 'eye-opening', so the surrounding sentence is source-derived rather than original.",
+      "recommendedRepair": "State the volunteers' newly revealed understanding in a different sentence structure while retaining eye-opening and its keyed meaning; align Traditional Chinese."
+    },
+    {
+      "id": "R4644-01",
+      "severity": "major-originality",
+      "lessonId": "advanced-native-4644",
+      "sourceId": "book10-16-2533",
+      "sourceExample": "The city has more than one face for visitors.",
+      "affectedFields": ["listening.en/zh", "scene.options[a].en/zh"],
+      "issue": "The listening ends 'it has more than one face for visitors', nearly reproducing the full guide sentence, and the scene key repeats its 'has more than one face for ...' frame. The target is only 'more than one face', so these are avoidable source-template copies.",
+      "recommendedRepair": "Use the idiom in genuinely new syntax tied to the harbour's two experiences and the building's two uses, without the guide's has ... for visitors frame. Keep both distinct aspects explicit and align Chinese."
+    }
+  ],
+  "otherLessonScreen": "The other six lessons preserve source meaning and show grounded keyed evidence, four-valid replies, changed-context writing and reasonable EN/ZH fidelity on risk-based review. No other material issue found; not a line-by-line proofread of all 48 questions.",
+  "nextStep": "Repair the two source-template copies and independently recheck exact final hash before selection."
+}

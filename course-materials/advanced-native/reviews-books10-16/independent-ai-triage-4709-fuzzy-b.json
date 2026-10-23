@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-ai-selected-guide-fuzzy-hit-triage",
+  "lesson": 4709,
+  "field": "scene.options[0].en",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-4682-4709-review-pilot.json",
+  "draftSha256": "4777ee85a05f12b722d5cb6b1bbeeedb2e2ee28522ed8da017adfc1dd0abea90",
+  "originalityScreenSha256": "a04ec414d7828232fb9bd85d63aa57294684ca48f7289f6827691a2dab38ab9c",
+  "selectedLessons": 501,
+  "sourceId": "book10-16-2598",
+  "sourceExample": "The hotel sits right in the thick of things.",
+  "learnerText": "The volunteer is right in the thick of things.",
+  "classification": "acceptable-fixed-target-overlap",
+  "reason": "The six shared words are exactly the indivisible target expression `right in the thick of things`. The source describes a hotel's location, while the learner scene describes a volunteer amid a campus open day's activity; subject and verb differ. No non-target source template is reused.",
+  "recommendedAction": "retain-current-lesson",
+  "screenCounts": {
+    "exact": 0,
+    "high": 0,
+    "medium": 0,
+    "nearFull": 12,
+    "reviewNearFull": 47
+  }
+}

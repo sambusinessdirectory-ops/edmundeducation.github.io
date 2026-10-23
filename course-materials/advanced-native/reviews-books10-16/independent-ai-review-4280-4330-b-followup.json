@@ -1,0 +1,28 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up",
+  "initialReport": "reviews-books10-16/independent-ai-review-4280-4330-b-initial.json",
+  "initialReportSha256": "4dad5288e0bf406fbaa9f1a362b38bb72eec768744c1bcf6976894308f29fa72",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4280-4305-a.json",
+      "sha256": "35657b86df9829d6dfcda025a8febad047793657e2101810ba96f7a9393dc35b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4309-4330-a.json",
+      "sha256": "65e29db39e6196fed64197dc28789a23a2642d8ddf1e027f4b285ddbfdc375f0"
+    }
+  ],
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFinding": {
+    "id": "R4322-01",
+    "evidence": "Lesson title is now 'sort out the details of a plan'. The brief explicitly distinguishes the source's awkward 'same plan' wording from the transferable phrasal verb; the exact source remains provenance and matches a bounded alternate in the detector. Listening, reply, scene, contrast, dialogue, speaking, both writing models and takeaways use natural plan/details constructions. Shared-arrangement coordination is supplied by the contexts. English and Traditional Chinese align; speaking span and five glossary spans are exact."
+  },
+  "validation": {
+    "revisedFourLessonBuild": "4 lessons, 24 questions, 16 audio requests, 0 flags",
+    "revisedFourLessonCheck": "4 lessons, 24 questions, 16 audio requests, 0 flags",
+    "unchangedCompanion": "The other four-lesson file passed initial build/check; together the eight lessons have 48 questions and 32 audio requests.",
+    "sourceCoverage": "The revised target matches 'Friends can sort out the same plan in a few messages' and natural tested variants such as 'sorted out the details of a shared plan'."
+  },
+  "scopeLimit": "Scoped exact-hash follow-up of revised 4322 and affected file; seven other lessons retain initial risk-based review. No human approval or release certification implied.",
+  "remainingFindings": []
+}

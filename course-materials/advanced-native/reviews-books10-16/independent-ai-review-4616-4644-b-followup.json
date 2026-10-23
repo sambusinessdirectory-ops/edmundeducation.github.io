@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "scope": "Eight unselected lessons, with focused editorial recheck of repaired 4616 reply and 4644 listening/scene",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4616-4644-review-pilot.json",
+    "sha256": "cfb0237fbb45e803750f8352945760ba071ffe8ff94062a416754b67672199ee"
+  },
+  "priorReview": "independent-ai-review-4616-4644-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "findingsResolved": [
+    {
+      "id": "R4616-01",
+      "result": "The reply key uses a discovery-led 'eye-opening visit' sentence, while the shelter/driver setting remains separate from the guide's discovery-tour sentence. EN/ZH correspond and all four replies answer the prompt."
+    },
+    {
+      "id": "R4644-01",
+      "result": "Listening now contrasts dawn fishing boats with after-dark food stalls at a harbour; the scene contrasts daytime workshop with evening film screenings at a factory. Neither repeats the guide's visitor template. EN/ZH, keyed meanings and target expressions align."
+    }
+  ],
+  "validation": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "sourceOriginality": "Independent six-token screen of all eight learner-facing English lessons against all 2,604 guide examples: zero overlaps."
+  },
+  "coverageLimit": "Changed fields and adjacent keys/translations received substantive re-review; unchanged questions retain the initial risk-based review. This is AI content clearance, not human approval or release certification.",
+  "remainingFindings": []
+}

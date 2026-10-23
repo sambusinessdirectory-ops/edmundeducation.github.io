@@ -1,0 +1,57 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4385, 4393, 4395, 4398, 4401, 4407, 4408, 4416",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4385-4398-a.json",
+      "sha256": "f84117341b44089fcb441effd15e26da91d35eab572be2771caf703185fceed9"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4401-4416-a.json",
+      "sha256": "0eb9b05fa29d4106d7d0b513ecfc94716ed829bfdd8e9aa525267dc761befeae"
+    }
+  ],
+  "authorSelfAuditSha256": "c01e5f7e2f915c060e4b8c3eff882b1d6cf019e418db1cfdc33bf4f057086e62",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "three-repairs-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Both four-lesson files pass; combined 8 lessons, 48 questions, 32 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All exact source sentences/phrases match inventory and target patterns; keyed scene/dialogue/reply, speaking spans and 40 answer-derived glossary spans pass independent checks.",
+    "sourceOriginality": "230 learner-facing English strings screened against 2,604 guide examples. Three six-token hits in 4407 consist of the fixed target expression; zero non-target overlaps."
+  },
+  "perLesson": [
+    {"number": 4385, "status": "repair-needed", "note": "Writing model 2 returns to the earlier rehearsal-track masking setting."},
+    {"number": 4393, "status": "clear", "note": "Partial relief, not complete disappearance, remains consistent across glare and noise examples."},
+    {"number": 4395, "status": "clear", "note": "Reluctant temporary tolerance and repair requests are grounded."},
+    {"number": 4398, "status": "repair-needed", "note": "Both final writing examples substantially recycle earlier rehearsal/neighbour dispute templates."},
+    {"number": 4401, "status": "clear", "note": "Short-time alert volume and buried critical update are supported."},
+    {"number": 4407, "status": "repair-needed", "note": "The source's planned future introduction is excluded by the lesson's enactment-only boundary and assessment coverage."},
+    {"number": 4408, "status": "clear", "note": "Sustained pressure and weakening patience, with concrete support, are evidenced."},
+    {"number": 4416, "status": "clear", "note": "Repeated connecting practices lead to observable group trust and cooperation."}
+  ],
+  "findings": [
+    {
+      "id": "R4385-01",
+      "severity": "major",
+      "field": "lesson 4385 writing.examples[1].en/zh and affected glossary",
+      "evidence": "The scene and speaking already use loud rehearsal music/backing track masking important instructions or a count-in. Final model 2 again uses a loud rehearsal track masking a timer. Step 7 should transfer to a substantially different setting.",
+      "repair": "Replace model 2 with a different environment and sound that masks a real useful warning; preserve the test/adjustment, align Traditional Chinese and regenerate exact glossary spans."
+    },
+    {
+      "id": "R4398-01",
+      "severity": "major",
+      "field": "lesson 4398 writing.examples[0..1].en/zh and affected glossary",
+      "evidence": "Model 1 reuses the scene's rehearsal-allocation dispute plus false public accusation. Model 2 reuses the listening's neighbour dispute plus public hostile message. Both are causal but do not demonstrate the SOP's new-context writing transfer.",
+      "repair": "Use two genuinely distinct final settings and worsening actions, while retaining an existing tension, the additional act and a visible escalation. Align Traditional Chinese and recompute glossary spans."
+    },
+    {
+      "id": "R4407-01",
+      "severity": "major",
+      "field": "lesson 4407 brief.boundaryZh and seven-step source-sense coverage",
+      "evidence": "Exact guide source: `The council plans to bring in clearer quiet-hour rules.` The current boundary says rules must actually be proposed and implemented, while all assessments use already-adopted rules. `Plans to bring in` validly describes an intended future introduction, not enactment already completed.",
+      "repair": "State that planned future introduction and completed introduction are both valid grammatical frames; distinguish an announced concrete plan from mere consideration and enacted effect. Assess at least one planned-but-not-yet-effective use, preserving completed uses and the exact source form."
+    }
+  ],
+  "coverageLimit": "Every lesson received automated source, selected-collision, target-key, speaking-span, glossary and guide-copy checks. Semantic inspection targeted source sense, four-valid replies, EN/ZH, answer grounding and final-model transfer. This is risk-based AI content review, not a line-by-line proofread of all 48 questions or release certification."
+}

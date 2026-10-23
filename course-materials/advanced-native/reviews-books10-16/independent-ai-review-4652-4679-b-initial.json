@@ -1,0 +1,45 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4652, 4655, 4656, 4658, 4664, 4670, 4673, 4679",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4652-4679-review-pilot.json",
+    "sha256": "417b536fb74dc636e3b737f3dd9d64d19e84390c72f449fa74801774b21da7c0"
+  },
+  "authorSelfAuditSha256": "13e53148cc9a898e75d8d2711deeeb8553011c8737711442493676c4e93e7132",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "two-detector-repairs-needed-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "8 lessons, 48 questions, 32 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All exact source sentences and phrases match inventory and target patterns; keyed scene/dialogue/reply, speaking spans and 48 answer-derived glossary spans pass independent checks.",
+    "sourceOriginality": "232 learner-facing English strings screened against 2,604 guide examples; zero six-token overlaps."
+  },
+  "ownerScope": "4652 shine a light on makes an overlooked access gap visible for attention, whereas selected 2278 shed light on explains why a previously unclear event occurred. The forms and central learner decisions are close but distinguishable; current 4652 assessments mostly test exposure versus solving. This supports a separate provisional owner, not an automatic same-sense alias.",
+  "perLesson": [
+    {"number": 4652, "status": "clear", "note": "Exposure of overlooked issue versus prior 2278 explanatory cause is taught explicitly; English/Traditional Chinese align."},
+    {"number": 4655, "status": "clear", "note": "Concrete renewed participation supports revitalisation and does not claim repairs are complete."},
+    {"number": 4656, "status": "clear", "note": "Large concentrated arrivals are evidenced without implying injury."},
+    {"number": 4658, "status": "clear", "note": "Crowd-flow and industry-trend uses both name the opposing force."},
+    {"number": 4664, "status": "repair-needed", "note": "The object-optional target regex accepts invalid or wrong-sense text."},
+    {"number": 4670, "status": "clear", "note": "Hundreds of options justify the image without implying low quality."},
+    {"number": 4673, "status": "repair-needed", "note": "The active target regex accepts a missing object."},
+    {"number": 4679, "status": "clear", "note": "Conflicting received schedules, not mere rescheduling or deliberate deceit, support the idiom."}
+  ],
+  "findings": [
+    {
+      "id": "R4664-01",
+      "severity": "major",
+      "field": "lesson 4664 target.pattern",
+      "evidence": "The current zero-to-three-word object group matches the ungrammatical `Tourists love to death.` and the distinct person-affection sense `They love their child to death.`. The lesson specifically teaches overuse damaging a popular place.",
+      "repair": "Require a grammatical place object and constrain the detector as far as practical to the taught place-damage form; retain full source and all assessed positive matches, and add these two negative controls."
+    },
+    {
+      "id": "R4673-01",
+      "severity": "major",
+      "field": "lesson 4673 target.pattern",
+      "evidence": "The current zero-to-four-word object group accepts ungrammatical active `They treat like gospel.`. The passive `The ranking was treated like gospel.` is valid and must remain recognized.",
+      "repair": "Separate active forms requiring an object from valid passive `treated like gospel`, then test source/assessed positives and the missing-object negative."
+    }
+  ],
+  "coverageLimit": "Automated checks covered every lesson’s source, selected collisions, target-bearing keys, speaking span, glossary and source overlap. Semantic review targeted owner scope, all four-valid reply prompts, key grounding, EN/ZH and writing-model completeness. This is risk-based AI content review, not a line-by-line proofread of all 48 questions or release certification."
+}

@@ -1,0 +1,22 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up",
+  "initialReport": "reviews-books10-16/independent-ai-review-4548-4612-b-initial.json",
+  "initialReportSha256": "304e4afafeb8908e34919ec8467092d1335129a6d3a859c1619d62e8b6ba73af",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4548-4612-review-pilot.json",
+    "sha256": "be697ff9a40c5f53b69df8a6793e5dacf9a68e6820e31a6f3ee7237f67a338ba"
+  },
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFinding": {
+    "id": "R4599-01",
+    "evidence": "Listening now says the clinic wants more appointment slots without cutting consultation time, and describes that scheduling conflict as a balancing act. It retains two competing goals and a grounded correct key; the Chinese and explanation match. The source's 'between speed and cost' template is gone, with zero remaining six-token source windows in lesson 4599. Content revision is 2."
+  },
+  "validation": {
+    "focusedBuild": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "sourceWindowScreen": "17 six-token overlaps remain across the whole batch, all in other lessons and consisting of unavoidable fixed target wording; 4599 has 0. The initial risk review covered source/aliases, answer grounding, EN/ZH and writing of the unchanged lessons.",
+    "scope": "Scoped exact-hash recheck of 4599 listening, Chinese, rationale and originality; unchanged lessons retain initial risk-based review."
+  },
+  "remainingFindings": [],
+  "releaseLimit": "AI content clearance only; no human approval or release certification implied."
+}

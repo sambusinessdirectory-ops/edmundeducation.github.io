@@ -1,10 +1,10 @@
 {
   "auditKind": "author-self-audit-unselected-eight",
-  "createdUtc": "2026-10-23T15:52:14.133846+00:00",
+  "createdUtc": "2026-10-23T15:58:10.023425+00:00",
   "drafts": [
     {
       "path": "course-materials/advanced-native/drafts-books10-16/batch-4248-4253-a.json",
-      "sha256": "1fbd7a9f46a508a3e6facc5a48a02a0830dd0e8a089bf6fb12b3ab92feb8b1fe"
+      "sha256": "55858eeb663f40061b6d92aa3ade6cb4357309cd3ea7998bafa704417f5112b7"
     },
     {
       "path": "course-materials/advanced-native/drafts-books10-16/batch-4263-4273-a.json",
@@ -13,7 +13,7 @@
   ],
   "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
   "audioQueueSha256": [
-    "560b8719ce5aa530549dc9a0814c758bd2fef8560f8acb1ef07bad243974d709",
+    "2864b12a0c96da80002af46857698ef5e9a6fd9a1690db2945422a051cb435f3",
     "cc21cf0f64301773d50d31eb9c9464a1009389a4f5aa95cede7ec99e07add8d3"
   ],
   "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
@@ -66,7 +66,7 @@
       "sourceExpression": "make students feel small",
       "sourceExample": "Public criticism can make students feel small.",
       "file": "batch-4248-4253-a.json",
-      "contentRevision": 1,
+      "contentRevision": 3,
       "provenanceExact": true,
       "sevenStepsSixQuestions": true,
       "fourValidRepliesAuthorJudgment": "yes; independent review pending",

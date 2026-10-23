@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4682-4709-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4682",
+      "number": 4682,
+      "inventoryId": "expr-4682",
+      "titleEn": "tick the boxes",
+      "titleZh": "符合基本要求",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:tick|ticks|ticked|ticking)\\s+(?:[\\w’\\'-]+\\s+){0,3}boxes\\b|\\bboxes\\s+(?:are|were|have\\s+been)\\s+ticked\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Satisfy listed requirements or criteria; this does not guarantee overall quality.",
+        "meaningZh": "符合列出的要求或準則；不保證整體質素一定好。",
+        "grammar": "Tick the boxes / boxes are ticked; active or passive. Source uses once the main boxes are ticked, then check reviews.",
+        "register": "Neutral consumer checklist language; a travel adviser helps a client compare accommodation.",
+        "boundaryZh": "只說基本要求已達標，仍須評估實際體驗與其他重要細節。",
+        "misconceptionZh": "不是單靠畫勾便能證明服務優秀；清單外問題可能仍存在。",
+        "outcomeZh": "能分辨符合清單與值得選擇之間的差距。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2571",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 243,
+          "book": 16,
+          "question": 57,
+          "sample": "S2",
+          "sourceBookPages": "132–133",
+          "locatorNote": "DOCX table 272, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Once the main boxes are ticked, check service reviews.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "boxes are ticked"
+        }
+      ],
+      "listening": {
+        "en": "The venue has step-free access and the right capacity, so the main boxes are ticked; the organiser will still inspect the sound system.",
+        "zh": "場地有無障礙通道及足夠容納人數，主要要求已達標；主辦者仍會檢查音響系統。",
+        "promptZh": "boxes are ticked 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The listed basic requirements have been met.",
+            "zh": "列出的基本要求已獲滿足。"
+          },
+          {
+            "id": "b",
+            "en": "The sound system has already been approved.",
+            "zh": "音響系統已獲批准。"
+          },
+          {
+            "id": "c",
+            "en": "Someone only drew marks on paper without checking facts.",
+            "zh": "有人只在紙上畫勾，並未核實事實。"
+          },
+          {
+            "id": "d",
+            "en": "Every possible feature of the venue is excellent.",
+            "zh": "場地每項功能都非常出色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "通道和容量達標，不等於音響已查。"
+      },
+      "reply": {
+        "promptEn": "A family wants a hostel with a lift, two beds and a kitchen. One hostel has all three, but they have not yet read recent cleanliness reviews. How should they assess it?",
+        "promptZh": "（一家人想找有升降機、兩張床及廚房的旅舍。一間旅舍三項皆有，但他們尚未讀近期清潔評論。應如何評估？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The three stated requirements are met.",
+            "zh": "三項已列要求都達標。"
+          },
+          {
+            "id": "b",
+            "en": "They can still check cleanliness before booking.",
+            "zh": "預訂前仍可查清潔情況。"
+          },
+          {
+            "id": "c",
+            "en": "The main boxes are ticked, but review evidence is still needed.",
+            "zh": "主要條件已達標，但仍須查看評論證據。"
+          },
+          {
+            "id": "d",
+            "en": "Meeting the checklist does not settle every concern.",
+            "zh": "符合清單並未解決所有顧慮。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均承認三項基本條件達標，仍需查評論。"
+      },
+      "scene": {
+        "promptZh": "課室有投影機、六十個座位和無障礙入口，但尚未測試網絡。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The main boxes are ticked, though the network still needs testing.",
+            "zh": "主要要求已達標，但網絡仍須測試。"
+          },
+          {
+            "id": "b",
+            "en": "Every aspect has been verified, including the network.",
+            "zh": "包括網絡在內每項都已核實。"
+          },
+          {
+            "id": "c",
+            "en": "A person ticked boxes on a form, so the room is automatically suitable.",
+            "zh": "有人在表格畫勾，因此課室自動合適。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三項已知要求達標，網絡仍未驗證。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把「符合清單」誇成「質素必定最佳」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The hostel ticks the boxes for location and price, but we should still read guest reports.",
+            "zh": "旅舍在位置及價格方面符合要求，但仍應讀住客報告。"
+          },
+          {
+            "id": "b",
+            "en": "It ticks the boxes, so no guest can ever have a complaint.",
+            "zh": "它符合要求，因此住客永遠不會投訴。"
+          },
+          {
+            "id": "c",
+            "en": "The price is too high and the location wrong, but both boxes are ticked.",
+            "zh": "價格太高且位置不合，卻說兩項皆達標。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "符合指定準則後，仍可查實際體驗。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 tick the boxes 表示服務必然完美。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A hotel can tick the boxes for basic needs while its service still needs checking.",
+            "zh": "酒店可符合基本需要，但服務仍須核查。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, every possible need is guaranteed.",
+            "zh": "對，所有可能需要都有保證。"
+          },
+          {
+            "id": "c",
+            "en": "It means no listed requirement has been met.",
+            "zh": "它表示清單要求全未達標。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "達標範圍應限於已列要求。"
+      },
+      "speaking": {
+        "en": "The hall ticks the boxes for seating and access, but we must test the microphones before confirming the booking.",
+        "zh": "禮堂在座位與出入通道方面達標，但確認預訂前須測試咪高峰。",
+        "promptZh": "指出尚待測試哪項設備。",
+        "targetSpan": {
+          "start": 9,
+          "end": 24
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區畫室符合預算、步行距離及無障礙入口三項要求；團隊仍未查看通風及近期使用者評價。用英文說明基本條件達標，並保留查證。",
+        "selfCheckZh": "兩個示範都應寫出預算、步行距離、無障礙入口達標，以及通風和近期評價仍須查。",
+        "examples": [
+          {
+            "en": "The studio ticks the boxes for budget, walking distance and step-free entry, but the team still needs to check ventilation and recent user reviews.",
+            "zh": "畫室在預算、步行距離及無障礙入口方面達標，但團隊仍須查看通風及近期使用者評價。"
+          },
+          {
+            "en": "Budget, distance and accessible entry are covered, so the main boxes are ticked. Before booking, the group will inspect ventilation and current reviews.",
+            "zh": "預算、距離及無障礙入口都符合要求，主要條件已達標；預訂前團隊會檢查通風及近期評價。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "walking distance",
+            "zh": "步行距離",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 55
+            }
+          },
+          {
+            "en": "step-free entry",
+            "zh": "無障礙入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "ventilation",
+            "zh": "通風",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 122
+            }
+          },
+          {
+            "en": "accessible entry",
+            "zh": "無障礙入口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 21,
+              "end": 37
+            }
+          },
+          {
+            "en": "Before booking",
+            "zh": "預訂前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 95
+            }
+          },
+          {
+            "en": "current reviews",
+            "zh": "近期評價",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Tick the boxes means satisfy listed requirements.",
+          "zh": "tick the boxes 指符合已列要求。"
+        },
+        {
+          "en": "Even if boxes are ticked, quality beyond the list may need checking.",
+          "zh": "即使要求達標，清單外質素仍可能須查。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4685",
+      "number": 4685,
+      "inventoryId": "expr-4685",
+      "titleEn": "put people off",
+      "titleZh": "令人卻步",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:put|puts|putting)\\s+(?:(?:some|several|new|many)\\s+)?(?:people|visitors|diners|applicants|members|users|guests|students|parents|audience)\\s+off\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Discourage people from choosing, trying or continuing something.",
+        "meaningZh": "令某人失去選擇、嘗試或繼續的意願。",
+        "grammar": "Put + person + off + noun/gerund; put is unchanged in past tense. Specify what discourages them and from what.",
+        "register": "Conversational consumer feedback; a venue manager asks guests why they did not book.",
+        "boundaryZh": "重點是降低意欲，不代表所有人一定拒絕；也不是把活動延期的 put off。",
+        "misconceptionZh": "put off 也有延期義；本課必須有被勸退的人或選擇。",
+        "outcomeZh": "能辨認妨礙選擇的因素，並與延期義區分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2574",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 243,
+          "book": 16,
+          "question": 57,
+          "sample": "S2",
+          "sourceBookPages": "132–133",
+          "locatorNote": "DOCX table 272, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Poor hygiene can put people off a hotel.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "put people off"
+        }
+      ],
+      "listening": {
+        "en": "The studio’s unclear cancellation policy put several parents off booking a class.",
+        "zh": "工作室含糊的取消政策令幾位家長卻步，沒有預訂課程。",
+        "promptZh": "put ... off 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The policy discouraged parents from booking.",
+            "zh": "政策令家長不想預訂。"
+          },
+          {
+            "id": "b",
+            "en": "The class was moved to a later date.",
+            "zh": "課程延至較後日期。"
+          },
+          {
+            "id": "c",
+            "en": "Parents were guaranteed a refund.",
+            "zh": "家長獲保證退款。"
+          },
+          {
+            "id": "d",
+            "en": "Every parent booked immediately.",
+            "zh": "所有家長立即預訂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "含糊政策減低預訂意願。"
+      },
+      "reply": {
+        "promptEn": "A museum offers a new workshop, but the booking page hides the total fee until the last step. Some visitors leave the page before paying. What might the design do?",
+        "promptZh": "（博物館推出新工作坊，但預訂頁面到最後一步才顯示總費用；有些訪客未付款已離開頁面。設計可能造成甚麼影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It may discourage some visitors from booking.",
+            "zh": "它可能令部分訪客不想預訂。"
+          },
+          {
+            "id": "b",
+            "en": "The hidden price may weaken trust.",
+            "zh": "隱藏價格可能削弱信任。"
+          },
+          {
+            "id": "c",
+            "en": "It could put people off the workshop.",
+            "zh": "它可能令人對工作坊卻步。"
+          },
+          {
+            "id": "d",
+            "en": "Some visitors may abandon the booking.",
+            "zh": "部分訪客可能放棄預訂。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據隱藏費用與退出頁面的行為。"
+      },
+      "scene": {
+        "promptZh": "餐廳菜單沒有列過敏原，部分客人因此不敢訂位。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The missing allergy information puts some diners off booking.",
+            "zh": "缺少過敏原資料令部分食客卻步，不敢訂位。"
+          },
+          {
+            "id": "b",
+            "en": "The restaurant postponed the meal until next week.",
+            "zh": "餐廳把用餐延期至下週。"
+          },
+          {
+            "id": "c",
+            "en": "Every diner booked happily.",
+            "zh": "每位食客都愉快訂位。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺少資料降低部分食客意欲。"
+      },
+      "contrast": {
+        "promptZh": "哪句使用「勸退」而非「延期」義？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The long application form put applicants off applying.",
+            "zh": "冗長申請表令申請人卻步。"
+          },
+          {
+            "id": "b",
+            "en": "The committee put off the meeting until Friday.",
+            "zh": "委員會把會議延期至週五。"
+          },
+          {
+            "id": "c",
+            "en": "The concert was put off because of rain, so visitors were discouraged by its price.",
+            "zh": "演唱會因雨延期，因此訪客被票價勸退。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有人因表格冗長而不願申請。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 put people off 必定代表所有人都拒絕。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A confusing page can put some people off while others continue.",
+            "zh": "混亂頁面可令部分人卻步，其他人仍繼續。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it proves nobody will ever join.",
+            "zh": "對，它證明永遠沒有人參加。"
+          },
+          {
+            "id": "c",
+            "en": "It only means changing the date.",
+            "zh": "它只表示改日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "意欲下降可影響部分人，不必所有人。"
+      },
+      "speaking": {
+        "en": "The unclear refund rule puts new members off joining, so the club will rewrite it in plain language.",
+        "zh": "不清楚的退款規定令新會員卻步，因此會所會用淺白語言重寫。",
+        "promptZh": "指出會所會採取甚麼改善。",
+        "targetSpan": {
+          "start": 24,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇場的報名網頁沒有說明輪椅座位如何預訂，部分觀眾因此中途退出；劇場會加入清晰指引。用英文說明造成卻步的原因及改善。",
+        "selfCheckZh": "兩個示範都應寫出網頁欠輪椅座位預訂方法、部分觀眾退出、劇場會加清晰指引；勿說所有人都拒絕。",
+        "examples": [
+          {
+            "en": "The missing wheelchair-seat instructions put some visitors off completing their booking, so the theatre will add a clear guide.",
+            "zh": "欠缺輪椅座位預訂指引令部分觀眾卻步，未完成預訂，因此劇場會加入清晰指引。"
+          },
+          {
+            "en": "Some visitors left the booking page because it did not explain wheelchair seats. That gap may put people off, and the theatre plans to publish step-by-step guidance.",
+            "zh": "部分觀眾因網頁沒有解釋輪椅座位而退出；這缺口可能令人卻步，劇場計劃發布逐步指引。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "wheelchair-seat instructions",
+            "zh": "輪椅座位預訂指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 40
+            }
+          },
+          {
+            "en": "completing their booking",
+            "zh": "完成預訂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 87
+            }
+          },
+          {
+            "en": "clear guide",
+            "zh": "清晰指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 126
+            }
+          },
+          {
+            "en": "booking page",
+            "zh": "預訂頁面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 35
+            }
+          },
+          {
+            "en": "That gap",
+            "zh": "這缺口",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 89
+            }
+          },
+          {
+            "en": "step-by-step guidance",
+            "zh": "逐步指引",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 164
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Put people off means discourage them from an action.",
+          "zh": "put people off 指令他們對某行動卻步。"
+        },
+        {
+          "en": "Putting some users off does not mean every user refuses.",
+          "zh": "令部分使用者卻步，不等於所有人拒絕。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4691",
+      "number": 4691,
+      "inventoryId": "expr-4691",
+      "titleEn": "bright future",
+      "titleZh": "光明前景",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbright\\s+future\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Prospects that look promising on current evidence, without guaranteed success.",
+        "meaningZh": "根據目前證據看來有希望的前景，但並非成功保證。",
+        "grammar": "X has a bright future / a bright future for X; adjective bright describes prospects, not physical light.",
+        "register": "Positive but measured public commentary; a mentor discusses a training programme with learners.",
+        "boundaryZh": "須有支持前景樂觀的實際證據；不等於任何問題已消失。",
+        "misconceptionZh": "不是未來天空更亮，也不能只憑願望便保證成功。",
+        "outcomeZh": "能連結樂觀判斷與目前證據、同時保留不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2580",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 244,
+          "book": 16,
+          "question": 58,
+          "sample": "S1",
+          "sourceBookPages": "134–135",
+          "locatorNote": "DOCX table 273, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The local tourism industry has a bright future.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "bright future"
+        }
+      ],
+      "listening": {
+        "en": "More apprentices completed training and found local jobs this year, giving the repair programme a bright future if funding continues.",
+        "zh": "今年更多學徒完成培訓並在本地找到工作；若資助持續，維修計劃前景光明。",
+        "promptZh": "bright future 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Current results suggest promising prospects.",
+            "zh": "現時成果顯示前景有希望。"
+          },
+          {
+            "id": "b",
+            "en": "The workshop lights will be brighter tomorrow.",
+            "zh": "工作坊明天的燈會更亮。"
+          },
+          {
+            "id": "c",
+            "en": "Funding is already guaranteed forever.",
+            "zh": "資助已獲永久保證。"
+          },
+          {
+            "id": "d",
+            "en": "No apprentice completed the training.",
+            "zh": "沒有學徒完成培訓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完成培訓及就業增加提供樂觀依據，但資助仍有條件。"
+      },
+      "reply": {
+        "promptEn": "A community orchestra has doubled its youth membership and secured a two-year rehearsal space. It still needs future funding. How might a leader describe its prospects?",
+        "promptZh": "（社區樂團青年成員增加一倍，並取得兩年排練場地，但以後仍需資助。負責人會怎樣描述前景？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group has encouraging signs of growth.",
+            "zh": "樂團有令人鼓舞的增長跡象。"
+          },
+          {
+            "id": "b",
+            "en": "Membership and space make its prospects promising.",
+            "zh": "成員及場地令前景有希望。"
+          },
+          {
+            "id": "c",
+            "en": "It has a bright future if support continues.",
+            "zh": "若支持持續，樂團前景光明。"
+          },
+          {
+            "id": "d",
+            "en": "The evidence is positive, though funding remains a concern.",
+            "zh": "證據正面，但資助仍是顧慮。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據成員及場地作有條件的樂觀判斷。"
+      },
+      "scene": {
+        "promptZh": "學校的機械人隊連續兩年招收更多學員，也找到導師，但器材資助尚未確定。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The team has a bright future if equipment support continues.",
+            "zh": "若器材支持持續，團隊前景光明。"
+          },
+          {
+            "id": "b",
+            "en": "The team has no challenges and success is certain.",
+            "zh": "團隊沒有挑戰，成功已成定局。"
+          },
+          {
+            "id": "c",
+            "en": "Its future will literally produce light.",
+            "zh": "它的未來會真的發光。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "增長和導師是證據，器材仍是限制。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把有希望說成百分之百保證？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The service has a bright future, given its rising use, if it can keep enough staff.",
+            "zh": "使用量上升令服務前景光明，前提是能維持足夠人手。"
+          },
+          {
+            "id": "b",
+            "en": "Its future is bright, so staffing can never become a problem.",
+            "zh": "前景光明，因此人手永遠不會有問題。"
+          },
+          {
+            "id": "c",
+            "en": "The project has no users, but hope alone guarantees a bright future.",
+            "zh": "項目沒有使用者，但單憑希望便保證前景。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "樂觀根據與仍需處理的條件都有交代。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 bright future 保證完全成功。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bright future is a reasonable hope based on signs, not a guarantee.",
+            "zh": "光明前景是根據跡象的合理希望，不是保證。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, failure is impossible once the phrase is used.",
+            "zh": "對，一使用此片語便不可能失敗。"
+          },
+          {
+            "id": "c",
+            "en": "It means future rooms need more lamps.",
+            "zh": "它表示未來房間需要更多燈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "前景有希望，但仍有變數。"
+      },
+      "speaking": {
+        "en": "With more students enrolling and two new mentors, the workshop has a bright future if its equipment funding holds.",
+        "zh": "學生報名增加，又有兩名新導師；若器材資助穩定，工作坊前景光明。",
+        "promptZh": "指出兩項正面跡象及一項條件。",
+        "targetSpan": {
+          "start": 69,
+          "end": 82
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區海洋研究計劃今年有更多義工、取得兩年實驗室使用權，但長期船隻經費尚未確定。用英文作有根據而不絕對的樂觀評估。",
+        "selfCheckZh": "兩個示範都應寫出義工增加、兩年實驗室使用權、船隻經費未定，不能保證成功。",
+        "examples": [
+          {
+            "en": "The marine project has a bright future with more volunteers and two years of lab access, provided it can secure longer-term boat funding.",
+            "zh": "海洋研究計劃有更多義工及兩年實驗室使用權，若能取得較長期船隻經費，前景光明。"
+          },
+          {
+            "en": "More volunteers and a two-year laboratory agreement give the programme a bright future, though its long-term boat budget still needs to be settled.",
+            "zh": "更多義工及兩年實驗室協議令計劃前景光明，但長期船隻預算仍待確定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "marine project",
+            "zh": "海洋研究計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "lab access",
+            "zh": "實驗室使用權",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 87
+            }
+          },
+          {
+            "en": "boat funding",
+            "zh": "船隻經費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 136
+            }
+          },
+          {
+            "en": "laboratory agreement",
+            "zh": "實驗室協議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 51
+            }
+          },
+          {
+            "en": "long-term boat budget",
+            "zh": "長期船隻預算",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 120
+            }
+          },
+          {
+            "en": "settled",
+            "zh": "確定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 146
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Bright future means promising prospects, not certainty.",
+          "zh": "bright future 指有希望的前景，而非必然成功。"
+        },
+        {
+          "en": "A bright future is more credible when supported by evidence.",
+          "zh": "有證據支持時，光明前景的判斷較可信。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4700",
+      "number": 4700,
+      "inventoryId": "expr-4700",
+      "titleEn": "window dressing",
+      "titleZh": "表面裝飾",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwindow\\s+dressing\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Attractive superficial presentation that hides a lack of substance or unresolved problems.",
+        "meaningZh": "吸引人的表面包裝，掩蓋實質不足或未解決的問題。",
+        "grammar": "X is window dressing / mere window dressing; compare the appealing surface with a concrete substantive gap.",
+        "register": "Critical but neutral consumer evaluation; a hotel inspector explains why appearance cannot replace core service.",
+        "boundaryZh": "須同時有外表吸引與實質不足；漂亮設計若也有真實功能，不必貶為表面裝飾。",
+        "misconceptionZh": "不是商店櫥窗的實際陳設；只說「我不喜歡顏色」不足以證明它沒有實質作用。",
+        "outcomeZh": "能指出表面賣點和被忽略的核心問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2589",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 245,
+          "book": 16,
+          "question": 59,
+          "sample": "S1",
+          "sourceBookPages": "136–137",
+          "locatorNote": "DOCX table 274, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A fancy lobby is window dressing without clean rooms.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "window dressing"
+        }
+      ],
+      "listening": {
+        "en": "The clinic launched a glossy website, but its appointment line still disconnects most callers; the redesign is window dressing until access improves.",
+        "zh": "診所推出亮麗網站，但預約電話仍常中斷；在預約服務改善前，改版只是表面裝飾。",
+        "promptZh": "window dressing 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A polished appearance masks an unresolved core problem.",
+            "zh": "亮麗外觀掩蓋尚未解決的核心問題。"
+          },
+          {
+            "id": "b",
+            "en": "Staff decorated a shop window.",
+            "zh": "職員裝飾商店櫥窗。"
+          },
+          {
+            "id": "c",
+            "en": "The phone service has been fixed.",
+            "zh": "電話服務已修好。"
+          },
+          {
+            "id": "d",
+            "en": "The website has no visual design.",
+            "zh": "網站沒有視覺設計。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網站亮麗，但預約通道仍失效。"
+      },
+      "reply": {
+        "promptEn": "A hostel advertises a stylish lobby and free welcome drink. Recent checks show broken room locks and no repair plan. What is the concern?",
+        "promptZh": "（旅舍宣傳時尚大堂及免費迎賓飲品；近期檢查卻發現房門鎖損壞，也沒有維修計劃。令人擔心甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visible extras do not fix room security.",
+            "zh": "表面附加服務不能改善房間保安。"
+          },
+          {
+            "id": "b",
+            "en": "The lobby may distract from a serious defect.",
+            "zh": "大堂可能分散對嚴重缺陷的注意。"
+          },
+          {
+            "id": "c",
+            "en": "The marketing is window dressing while locks remain broken.",
+            "zh": "門鎖仍壞時，宣傳只是表面包裝。"
+          },
+          {
+            "id": "d",
+            "en": "Guests need working locks more than a welcome drink.",
+            "zh": "住客更需要有效門鎖，而非迎賓飲品。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出華麗賣點不能代替基本安全。"
+      },
+      "scene": {
+        "promptZh": "學校重新粉刷入口，卻仍沒有承諾過的無障礙斜道。哪句可作批評？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fresh paint is window dressing if access is still missing.",
+            "zh": "若仍缺無障礙通道，新油漆只是表面裝飾。"
+          },
+          {
+            "id": "b",
+            "en": "Fresh paint automatically creates a ramp.",
+            "zh": "新油漆自動建成斜道。"
+          },
+          {
+            "id": "c",
+            "en": "The school has no visible changes at all.",
+            "zh": "學校完全沒有外觀改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "外觀改善沒有處理實質通道缺口。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠證據使用 window dressing？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The app has new icons but still loses saved applications, so the update is window dressing.",
+            "zh": "程式換了圖示，卻仍會遺失已儲存申請，因此更新只是表面裝飾。"
+          },
+          {
+            "id": "b",
+            "en": "The app has new icons and a tested recovery system that solves the earlier loss, so the update is mere window dressing.",
+            "zh": "程式換圖示並修好資料遺失，卻說只是表面裝飾。"
+          },
+          {
+            "id": "c",
+            "en": "I dislike the shade of blue, so every feature is window dressing.",
+            "zh": "我不喜歡藍色，因此所有功能都是表面裝飾。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "核心資料遺失未解決，只有外觀改變。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說所有漂亮設計都是 window dressing。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Design is window dressing when it distracts from a concrete unresolved need.",
+            "zh": "設計若掩蓋具體未解決需要，才可說是表面裝飾。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, useful design can never have substance.",
+            "zh": "對，有用設計不可能有實質作用。"
+          },
+          {
+            "id": "c",
+            "en": "It describes only literal clothing in a window.",
+            "zh": "它只描述櫥窗內的衣服。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "須有表面與實質的反差。"
+      },
+      "speaking": {
+        "en": "A new sign is window dressing if the library still has no evening entrance for wheelchair users.",
+        "zh": "若圖書館仍沒有供輪椅使用者晚間進入的入口，新招牌只是表面裝飾。",
+        "promptZh": "指出新招牌掩蓋哪項實質缺口。",
+        "targetSpan": {
+          "start": 14,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：運動中心推出閃亮宣傳影片，但泳池更衣室的門鎖反覆失靈，管理方尚未修理。用英文區分宣傳外觀與核心安全問題。",
+        "selfCheckZh": "兩個示範都應提及宣傳影片吸引、門鎖反覆失靈、尚未修理，並說明表面包裝問題。",
+        "examples": [
+          {
+            "en": "The glossy sports-centre video is window dressing while changing-room locks keep failing and management has not repaired them.",
+            "zh": "運動中心影片亮麗，但更衣室門鎖反覆失靈，管理方尚未修理；影片只是表面包裝。"
+          },
+          {
+            "en": "A polished promotional film cannot replace working changing-room locks. Until managers repair the recurring failures, the film is window dressing.",
+            "zh": "精美宣傳影片不能取代有效的更衣室門鎖；管理方修好反覆故障前，影片只是表面裝飾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "glossy sports-centre video",
+            "zh": "亮麗運動中心影片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 30
+            }
+          },
+          {
+            "en": "changing-room locks",
+            "zh": "更衣室門鎖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 75
+            }
+          },
+          {
+            "en": "management",
+            "zh": "管理方",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 103
+            }
+          },
+          {
+            "en": "promotional film",
+            "zh": "宣傳影片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 27
+            }
+          },
+          {
+            "en": "recurring failures",
+            "zh": "反覆故障",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 116
+            }
+          },
+          {
+            "en": "managers",
+            "zh": "管理方",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 86
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Window dressing is appealing surface without needed substance.",
+          "zh": "window dressing 指外表吸引卻缺乏所需實質。"
+        },
+        {
+          "en": "Call a change window dressing only after naming the unresolved core issue.",
+          "zh": "指出核心問題尚未解決，才有根據稱改動為表面裝飾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4707",
+      "number": 4707,
+      "inventoryId": "expr-4707",
+      "titleEn": "sleep like a log",
+      "titleZh": "睡得很沉",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:sleep|sleeps|slept|sleeping)\\s+like\\s+a\\s+log\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Sleep very deeply, usually without waking easily.",
+        "meaningZh": "睡得很沉，不容易被輕微聲響吵醒。",
+        "grammar": "Sleep like a log; slept like a log for a completed night, sleeping like a log for ongoing description.",
+        "register": "Informal everyday speech; a camper tells a friend how deeply she slept after a long hike.",
+        "boundaryZh": "描述睡眠深度，不能只靠睡了很多小時判定；也不是一定睡得健康。",
+        "misconceptionZh": "不是像木頭一樣僵硬，也不表示從未在夜裏醒過一次。",
+        "outcomeZh": "能用不易被吵醒的證據描述熟睡。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2596",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 245,
+          "book": 16,
+          "question": 59,
+          "sample": "S2",
+          "sourceBookPages": "136–137",
+          "locatorNote": "DOCX table 274, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "With blackout curtains, I sleep like a log.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sleep like a log"
+        }
+      ],
+      "listening": {
+        "en": "After the long hike, Jun slept like a log and did not wake when light rain hit the tent.",
+        "zh": "長途遠足後 Jun 睡得很沉，細雨打在帳篷上也沒有醒。",
+        "promptZh": "slept like a log 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Jun slept very deeply.",
+            "zh": "Jun 睡得很沉。"
+          },
+          {
+            "id": "b",
+            "en": "Jun slept beside a piece of wood.",
+            "zh": "Jun 睡在木頭旁邊。"
+          },
+          {
+            "id": "c",
+            "en": "Jun stayed awake all night.",
+            "zh": "Jun 整晚沒有睡。"
+          },
+          {
+            "id": "d",
+            "en": "Rain damaged the tent.",
+            "zh": "雨水弄壞了帳篷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "細雨也沒吵醒他，支持熟睡。"
+      },
+      "reply": {
+        "promptEn": "A student finishes a demanding stage performance. Her roommate says the door clicked and a kettle boiled, but she did not wake once. How did she sleep?",
+        "promptZh": "（學生完成耗神的舞台演出；室友說門有聲響、水壺也煮開了，她卻一次也沒醒。她睡得如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She slept deeply despite ordinary noise.",
+            "zh": "一般聲響也沒吵醒她，睡得很沉。"
+          },
+          {
+            "id": "b",
+            "en": "The noises did not wake her.",
+            "zh": "聲響沒有吵醒她。"
+          },
+          {
+            "id": "c",
+            "en": "She slept like a log.",
+            "zh": "她睡得很沉。"
+          },
+          {
+            "id": "d",
+            "en": "She was hard to wake that night.",
+            "zh": "那晚她不易被吵醒。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據未被聲響吵醒作答。"
+      },
+      "scene": {
+        "promptZh": "義工搬完重物後，整晚未被輕微雷聲吵醒。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer slept like a log after the work.",
+            "zh": "義工工作後睡得很沉。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteer turned into a wooden log.",
+            "zh": "義工變成木頭。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteer spent the whole night awake.",
+            "zh": "義工整晚清醒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "小聲雷聲未令其醒來。"
+      },
+      "contrast": {
+        "promptZh": "哪句比「睡很久」更能支持 sleep like a log？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She slept like a log: the alarm in the next room did not wake her.",
+            "zh": "她睡得很沉：隔壁房的鬧鐘也沒吵醒她。"
+          },
+          {
+            "id": "b",
+            "en": "She stayed in bed for ten hours but woke every few minutes, so she slept like a log.",
+            "zh": "她躺十小時卻幾分鐘就醒，仍說睡很沉。"
+          },
+          {
+            "id": "c",
+            "en": "She lay still like wood without sleeping.",
+            "zh": "她像木頭般躺著，卻沒睡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不易被聲響吵醒是深睡證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 sleep like a log 必定證明睡眠質素很好。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Sleeping like a log describes depth; it does not alone assess overall health.",
+            "zh": "睡得很沉只描述深度，單靠這點不能評估整體健康。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it is a medical guarantee of healthy sleep.",
+            "zh": "對，它是健康睡眠的醫學保證。"
+          },
+          {
+            "id": "c",
+            "en": "It refers to lying next to timber.",
+            "zh": "它指躺在木材旁。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "習語不是醫療診斷。"
+      },
+      "speaking": {
+        "en": "After the overnight journey, I slept like a log even while my friends quietly packed their bags.",
+        "zh": "通宵旅程後，我睡得很沉，朋友輕聲收拾行李時也沒有醒。",
+        "promptZh": "指出未能吵醒說話者的聲響來源。",
+        "targetSpan": {
+          "start": 31,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位圖書館義工忙完通宵盤點，回家後睡得很沉；家人輕聲關門、洗杯，他都沒有醒。用英文描述睡眠深度，勿據此作醫療結論。",
+        "selfCheckZh": "兩個示範都應寫出通宵盤點、回家熟睡、關門和洗杯聲沒有吵醒，並避免醫療判斷。",
+        "examples": [
+          {
+            "en": "After the overnight library stocktake, the volunteer slept like a log at home; a softly closing door and washing cups did not wake him.",
+            "zh": "通宵盤點圖書後，義工回家睡得很沉；輕聲關門和洗杯都沒吵醒他。"
+          },
+          {
+            "en": "The volunteer came home from an overnight stocktake and slept like a log, remaining asleep while family members shut a door quietly and washed cups.",
+            "zh": "義工通宵盤點後回家睡得很沉；家人輕聲關門及洗杯，他仍沒有醒。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "overnight library stocktake",
+            "zh": "通宵圖書盤點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 37
+            }
+          },
+          {
+            "en": "softly closing door",
+            "zh": "輕聲關門",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 100
+            }
+          },
+          {
+            "en": "washing cups",
+            "zh": "洗杯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 117
+            }
+          },
+          {
+            "en": "family members",
+            "zh": "家人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 111
+            }
+          },
+          {
+            "en": "shut a door quietly",
+            "zh": "輕聲關門",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 131
+            }
+          },
+          {
+            "en": "remaining asleep",
+            "zh": "仍沒有醒",
+            "exampleIndex": 1,
+            "span": {
+              "start": 74,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Sleep like a log means sleep very deeply.",
+          "zh": "sleep like a log 指睡得很沉。"
+        },
+        {
+          "en": "Sleeping like a log is about depth, not a medical diagnosis.",
+          "zh": "睡得很沉關乎深度，不是醫療診斷。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4709",
+      "number": 4709,
+      "inventoryId": "expr-4709",
+      "titleEn": "in the thick of things",
+      "titleZh": "置身活動中心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:right\\s+)?in\\s+the\\s+thick\\s+of\\s+things\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At the centre of busy activity or directly involved in it.",
+        "meaningZh": "處於忙碌活動的中心，或直接參與其中。",
+        "grammar": "Be/sit right in the thick of things; phrase acts adverbially. Right intensifies central position but is optional.",
+        "register": "Conversational place description; a visitor tells a friend why a central guesthouse is lively.",
+        "boundaryZh": "描述參與或位置居於活動中心，不必指人多到危險；安靜郊外地點不宜如此說。",
+        "misconceptionZh": "不是物件有厚度，也不等於一定在城市的幾何中心。",
+        "outcomeZh": "能根據附近活動或實際參與判斷是否置身其中。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2598",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 245,
+          "book": 16,
+          "question": 60,
+          "sample": "S1",
+          "sourceBookPages": "138–139",
+          "locatorNote": "DOCX table 275, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The hotel sits right in the thick of things.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "right in the thick of things"
+        }
+      ],
+      "listening": {
+        "en": "The guesthouse faces the festival square, with performances and food stalls outside all evening; guests are right in the thick of things.",
+        "zh": "旅舍面向節慶廣場，整晚門外都有演出和食檔；住客正置身活動中心。",
+        "promptZh": "right in the thick of things 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Guests are surrounded by the main activity.",
+            "zh": "住客周圍就是主要活動。"
+          },
+          {
+            "id": "b",
+            "en": "The walls are unusually thick.",
+            "zh": "牆壁特別厚。"
+          },
+          {
+            "id": "c",
+            "en": "The guesthouse is far from the event.",
+            "zh": "旅舍遠離活動。"
+          },
+          {
+            "id": "d",
+            "en": "No performances take place nearby.",
+            "zh": "附近沒有演出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "門外就是主要演出與食檔。"
+      },
+      "reply": {
+        "promptEn": "A reporter’s desk is beside the election count, where updates arrive and officials speak. Another desk is across town with no direct view. Which position is the first reporter in?",
+        "promptZh": "（記者座位緊鄰點票現場，消息在旁傳來，官員也在附近發言；另一張座位在城另一端，看不到現場。第一位記者置身哪裏？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is close to the central activity.",
+            "zh": "她靠近主要活動。"
+          },
+          {
+            "id": "b",
+            "en": "She can follow updates directly.",
+            "zh": "她可直接跟進消息。"
+          },
+          {
+            "id": "c",
+            "en": "She is in the thick of things.",
+            "zh": "她置身事件中心。"
+          },
+          {
+            "id": "d",
+            "en": "Her desk is much more involved than the distant one.",
+            "zh": "她的座位比遠處的座位更貼近現場。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據點票、消息及官員就在旁邊。"
+      },
+      "scene": {
+        "promptZh": "校園開放日的義工站在主禮堂入口，訪客、導師及表演者都在旁邊交流。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The volunteer is right in the thick of things.",
+            "zh": "義工正置身活動中心。"
+          },
+          {
+            "id": "b",
+            "en": "The volunteer is measuring the thickness of the door.",
+            "zh": "義工正在量門的厚度。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteer is alone far from the open day.",
+            "zh": "義工獨自遠離開放日。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主入口是人員交匯及活動集中處。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠位置或參與證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her stall is beside the main parade stage, placing her in the thick of things.",
+            "zh": "她的攤檔就在巡遊主舞台旁，使她置身活動中心。"
+          },
+          {
+            "id": "b",
+            "en": "Her stall is forty kilometres away in an empty field, yet she is in the thick of things.",
+            "zh": "她的攤檔在四十公里外空地，卻說置身活動中心。"
+          },
+          {
+            "id": "c",
+            "en": "She knows the event date but stays home, so she is physically in the thick of things.",
+            "zh": "她知道活動日期但留家，卻說身處現場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主舞台旁是活動集中位置。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 in the thick of things 一定表示場面危險。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Being in the thick of things can simply mean working at the centre of a busy event.",
+            "zh": "置身活動中心可只表示在繁忙活動的核心工作。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, danger is required.",
+            "zh": "對，必須有危險。"
+          },
+          {
+            "id": "c",
+            "en": "It means a wall has extra thickness.",
+            "zh": "它表示牆特別厚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "繁忙而居中，不必危險。"
+      },
+      "speaking": {
+        "en": "Our information desk is right in the thick of things beside the main exhibition entrance, so volunteers hear questions as visitors arrive.",
+        "zh": "我們的資訊櫃檯就在展覽主入口旁、置身活動中心，義工在訪客抵達時便能聽到提問。",
+        "promptZh": "指出資訊櫃檯靠近哪裏。",
+        "targetSpan": {
+          "start": 24,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區藝術節的學生主持人站在主舞台旁，演出、導賞集合與觀眾提問都在身邊發生；她不是遠距離觀看。用英文說明她直接置身活動中心。",
+        "selfCheckZh": "兩個示範都應寫出主持人在主舞台旁、演出／導賞集合／觀眾提問都近在身邊，以及她直接參與。",
+        "examples": [
+          {
+            "en": "The student host is right in the thick of things beside the main stage, where performances, tour groups and audience questions all meet.",
+            "zh": "學生主持人在主舞台旁、置身活動中心；演出、導賞團及觀眾提問都在那裏交匯。"
+          },
+          {
+            "en": "Beside the festival’s main stage, the student host handles questions while performances run and guided tours gather. She is in the thick of things, not watching from afar.",
+            "zh": "學生主持人在藝術節主舞台旁處理提問，演出進行時導賞團也在此集合；她置身活動中心，而非遠觀。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "student host",
+            "zh": "學生主持人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "tour groups",
+            "zh": "導賞團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 103
+            }
+          },
+          {
+            "en": "audience questions",
+            "zh": "觀眾提問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 126
+            }
+          },
+          {
+            "en": "guided tours",
+            "zh": "導賞團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 108
+            }
+          },
+          {
+            "en": "handles questions",
+            "zh": "處理提問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 68
+            }
+          },
+          {
+            "en": "watching from afar",
+            "zh": "遠觀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 152,
+              "end": 170
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In the thick of things means close to the centre of activity.",
+          "zh": "in the thick of things 指靠近活動中心。"
+        },
+        {
+          "en": "Right in the thick of things adds emphasis, not danger.",
+          "zh": "right in the thick of things 加強居中感，不代表危險。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Six unselected Books 10–16 lessons: 4682, 4685, 4691, 4700, 4707, 4709",
+  "draftFile": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-4682-4709-review-pilot.json",
+    "sha256": "4777ee85a05f12b722d5cb6b1bbeeedb2e2ee28522ed8da017adfc1dd0abea90"
+  },
+  "authorSelfAuditSha256": "c62e29f1ac7ea4ab2a02e23387ba0a75810c3871f75348ca7d6e4862611b995b",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "validation": {
+    "focusedBuildAndCheck": "6 lessons, 36 questions, 24 audio requests, zero flags",
+    "selectedIdCollisions": 0,
+    "sourceTargetAndSpans": "All six exact source phrases/sentences, keyed scene/dialogue/reply target forms, speaking spans and 30 answer-derived non-target glossary spans pass independent checks.",
+    "sourceOriginality": "174 learner-facing English strings screened against 2,604 guide examples. Five six-token hits are solely the fixed 4709 target phrase `right in the thick of things`; zero non-target overlaps."
+  },
+  "perLesson": [
+    {"number": 4682, "status": "clear", "note": "Meets listed criteria while leaving service evidence to check; source's main-boxes-then-reviews sequence is preserved."},
+    {"number": 4685, "status": "clear", "note": "A missing practical detail discourages booking; postponement is explicitly contrasted and target form requires a human group object."},
+    {"number": 4691, "status": "clear", "note": "Promising prospects follow concrete growth evidence, with conditional funding limits rather than guaranteed success."},
+    {"number": 4700, "status": "clear", "note": "Attractive surface is contrasted with a concrete unresolved access or safety defect."},
+    {"number": 4707, "status": "clear", "note": "Evidence concerns deep sleep despite ordinary sounds, not duration alone or a medical guarantee."},
+    {"number": 4709, "status": "clear", "note": "Central location and direct involvement are both demonstrated; source hotel location remains represented in listening while final writing transfers to active hosting."}
+  ],
+  "coverageLimit": "Automated checks cover every source, selected collision, target-bearing key, speaking span, glossary and guide-copy overlap. Semantic review targeted source sense, four-valid replies, EN/ZH, answer grounding and final writing. This is risk-based AI content review, not a line-by-line proofread of all 36 questions or release certification.",
+  "findings": []
+}

@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4385",
+      "number": 4385,
+      "inventoryId": "expr-4385",
+      "titleEn": "block out important sounds",
+      "titleZh": "阻隔重要聲音",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:block|blocks|blocked|blocking) out (?:important|warning|the warning|the important|essential) sounds\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Prevent useful outside sounds from being heard because another sound or barrier masks them.",
+        "meaningZh": "因另一種聲音或阻隔，令人聽不到外界有用的聲音。",
+        "grammar": "Block out + sounds; block inflects blocked/blocking. Specify which sounds are masked and why hearing them matters.",
+        "register": "Neutral conversational English. A cycling instructor may warn riders about sealed headphones.",
+        "boundaryZh": "須有實際被遮蔽的外界聲音；只是不留心聽或不願理會警告，不等於聲音被阻隔。",
+        "misconceptionZh": "不是用積木堵住聲音，也不表示所有耳機在所有音量下都必然不安全。",
+        "outcomeZh": "能辨別被遮蔽的聲音、遮蔽來源及安全或溝通後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2274",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "51–52",
+          "locatorNote": "DOCX table 236, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Loud headphones block out important sounds on the trail.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "block out important sounds"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "During a cycling class, Jo tested sealed headphones at high volume and could not hear the instructor’s bell. The music blocked out important sounds, so she lowered the volume before the group left the yard.",
+        "zh": "單車課上，阿祖把密封耳機調到高音量，聽不到導師的鈴聲。音樂阻隔了重要聲音，因此她在隊伍離開場地前調低音量。",
+        "promptZh": "為何她調低音量？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The loud music masked the instructor’s bell.",
+            "zh": "大聲音樂蓋過導師的鈴聲。"
+          },
+          {
+            "id": "b",
+            "en": "The bell was never rung during the test.",
+            "zh": "測試時從未有人響鈴。"
+          },
+          {
+            "id": "c",
+            "en": "She heard every signal clearly at the original volume.",
+            "zh": "原音量下她清楚聽到所有訊號。"
+          },
+          {
+            "id": "d",
+            "en": "The instructor asked everyone to stop cycling permanently.",
+            "zh": "導師要求所有人永久停止騎車。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "她確實聽不到有用的鈴聲，因而調整音量。"
+      },
+      "reply": {
+        "promptEn": "A workshop uses a loud extractor fan. Mina misses the short alarm that signals a machine pause, though the alarm works when the fan is off. What can we say about the fan, the alarm and a safer next step?",
+        "promptZh": "（工作坊的抽氣扇很響；米娜聽不到提示機器暫停的短警報，但關掉風扇時警報正常。抽氣扇與警報有甚麼關係？下一步怎樣較安全？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It masks a working alarm.",
+            "zh": "它蓋過正常運作的警報。"
+          },
+          {
+            "id": "b",
+            "en": "The alarm can be heard when the fan is off.",
+            "zh": "關掉風扇時可聽到警報。"
+          },
+          {
+            "id": "c",
+            "en": "It blocks out important sounds during the test.",
+            "zh": "測試時它阻隔重要聲音。"
+          },
+          {
+            "id": "d",
+            "en": "The team needs to change the sound setup before work continues.",
+            "zh": "繼續工作前，團隊須調整聲音安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均依據風扇聲與警報測試回答。"
+      },
+      "scene": {
+        "promptZh": "學校廣播正常，但禮堂排練音樂太響，學生聽不清疏散指示。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The music blocks out important sounds.",
+            "zh": "音樂蓋過重要聲音。"
+          },
+          {
+            "id": "b",
+            "en": "The broadcast system never made an announcement.",
+            "zh": "廣播系統從未作出宣布。"
+          },
+          {
+            "id": "c",
+            "en": "Students heard every instruction at the current volume.",
+            "zh": "學生在目前音量下聽清每項指示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲音確實發出，卻被較大音量掩蓋。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 music blocked out important sounds？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The alarm is clearly audible at the tested music volume, and everyone responds to it.",
+            "zh": "測試音量下警報清晰可聞，人人都作出反應。"
+          },
+          {
+            "id": "b",
+            "en": "The music prevents a guide from hearing a shouted stop signal.",
+            "zh": "音樂令導遊聽不到大叫的停止訊號。"
+          },
+          {
+            "id": "c",
+            "en": "A loud soundtrack masks the emergency announcement.",
+            "zh": "大聲配樂蓋過緊急廣播。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "若訊號可清楚聽見，就沒有被蓋過。"
+      },
+      "dialogue": {
+        "promptEn": "A: We tested the new headset; at full volume, the guide could not hear the door chime, but she heard it after lowering the volume. B: ______",
+        "promptZh": "（甲：我們測試了新耳機；音量調到最大時導遊聽不到門鈴，調低後就能聽到。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Full volume masked a useful signal.",
+            "zh": "最大音量蓋過一個有用訊號。"
+          },
+          {
+            "id": "b",
+            "en": "The lower setting let the chime through.",
+            "zh": "較低音量讓門鈴聲傳進來。"
+          },
+          {
+            "id": "c",
+            "en": "The headset blocked out important sounds at full volume.",
+            "zh": "耳機音量最大時阻隔了重要聲音。"
+          },
+          {
+            "id": "d",
+            "en": "Keeping the tested lower setting would help her hear the chime.",
+            "zh": "維持測試過的較低音量有助她聽到門鈴。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句明確指出高音量蓋過外界有用聲音。"
+      },
+      "speaking": {
+        "en": "In the rehearsal room, a heavy backing track blocked out important sounds, including the conductor’s count-in; the band reduced the track before trying again.",
+        "zh": "綵排室的強烈伴奏蓋過指揮的起拍等重要聲音；樂隊在重試前調低伴奏。",
+        "promptZh": "點出被蓋過的具體聲音。",
+        "targetSpan": {
+          "start": 45,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩種不同環境中，持續的聲音蓋過本來能聽到的重要提示；有人測試並作調整。用英文寫出。",
+        "selfCheckZh": "兩例須證明提示本身有發出，而非聲源根本不存在。",
+        "examples": [
+          {
+            "en": "The café grinder blocked out important sounds from the order display alarm; staff confirmed the alarm worked when the grinder stopped and moved it nearer the counter.",
+            "zh": "咖啡店磨豆機蓋過訂單顯示屏的警報；員工確認磨豆機停下時警報正常，便把警報器移近櫃檯。"
+          },
+          {
+            "en": "At a riverside kayak lesson, the idling rescue boat blocked out important sounds from the coach’s whistle; instructors stopped the engine and retested the signal.",
+            "zh": "河邊獨木舟課上，救援艇空轉的引擎蓋過教練哨聲等重要聲音；導師關掉引擎並重新測試訊號。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "order display alarm",
+            "zh": "訂單顯示屏警報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 74
+            }
+          },
+          {
+            "en": "nearer the counter",
+            "zh": "移近櫃檯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 165
+            }
+          },
+          {
+            "en": "the coach’s whistle",
+            "zh": "教練哨聲",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 105
+            }
+          },
+          {
+            "en": "stopped the engine",
+            "zh": "關掉引擎",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Block out important sounds means mask useful sounds from outside.",
+          "zh": "block out important sounds 指蓋過外界有用聲音。"
+        },
+        {
+          "en": "Loud music can block out warning sounds that are otherwise audible.",
+          "zh": "大聲音樂可能蓋過原本聽得到的警示聲。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4393",
+      "number": 4393,
+      "inventoryId": "expr-4393",
+      "titleEn": "take the edge off",
+      "titleZh": "減輕刺耳或不快程度",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taken|taking) the edge off\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reduce the harshness, intensity or discomfort of something without removing it completely.",
+        "meaningZh": "減輕某事的尖銳、強烈或不適程度，但未必完全消除。",
+        "grammar": "Take the edge off + noun phrase; take inflects took/taken. Do not imply complete removal.",
+        "register": "Neutral conversational English. A designer may describe how soft lighting eases glare for visitors.",
+        "boundaryZh": "應有可察覺的減輕，但問題仍可能存在；完全消失或毫無改善都不是此慣用語的典型意思。",
+        "misconceptionZh": "不是用工具磨鈍物品的邊緣，也不是治好所有原因。",
+        "outcomeZh": "能指出原先的不適、減輕方法及仍存在的部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2282",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 215,
+          "book": 16,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–56",
+          "locatorNote": "DOCX table 237, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Trees can take the edge off traffic noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the edge off"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "The gallery entrance was too bright on sunny afternoons. A fabric shade took the edge off the glare, but visitors still needed to let their eyes adjust before reading the wall labels.",
+        "zh": "畫廊入口在晴天下午太光。布遮陽簾減輕刺眼程度，但訪客閱讀牆上說明前仍須讓眼睛適應。",
+        "promptZh": "遮陽簾的效果是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reduced the glare without removing it entirely.",
+            "zh": "它減輕眩光，但沒有完全消除。"
+          },
+          {
+            "id": "b",
+            "en": "It made the entrance completely dark all afternoon.",
+            "zh": "它令入口整個下午完全漆黑。"
+          },
+          {
+            "id": "c",
+            "en": "It increased the glare on the wall labels.",
+            "zh": "它令牆上說明更刺眼。"
+          },
+          {
+            "id": "d",
+            "en": "It removed the need for eyes to adjust at all.",
+            "zh": "它令眼睛完全不用適應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "take the edge off 是減輕而非完全消除。"
+      },
+      "reply": {
+        "promptEn": "After a long rehearsal, the room feels uncomfortably warm. Opening a side window lowers the heat a little, though the room remains warm. What can we say about the effect and its limit?",
+        "promptZh": "（長時間綵排後房間熱得令人不舒服；打開側窗令熱度稍降，但房間仍然暖。這個效果及其限制是甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It made the heat a little easier to bear.",
+            "zh": "它令熱度稍為較易忍受。"
+          },
+          {
+            "id": "b",
+            "en": "The room was still warm after the window opened.",
+            "zh": "開窗後房間仍然暖。"
+          },
+          {
+            "id": "c",
+            "en": "It took the edge off the heat.",
+            "zh": "它減輕了熱度帶來的不適。"
+          },
+          {
+            "id": "d",
+            "en": "The change helped without solving the whole problem.",
+            "zh": "改動有幫助，但沒有完全解決問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按稍降但未完全消失的熱度回答。"
+      },
+      "scene": {
+        "promptZh": "會議室燈光太刺眼，調低其中一排燈後仍然明亮，但與會者較能看清投影。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The change took the edge off the glare.",
+            "zh": "改動減輕了刺眼程度。"
+          },
+          {
+            "id": "b",
+            "en": "The lights made the glare much worse.",
+            "zh": "燈光令眩光更嚴重。"
+          },
+          {
+            "id": "c",
+            "en": "The room became completely dark.",
+            "zh": "房間變得完全漆黑。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "眩光變輕，並未消失。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 something took the edge off the discomfort？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adjustment leaves the room equally hot and nobody feels any relief.",
+            "zh": "調整後房間一樣熱，沒有人感到舒緩。"
+          },
+          {
+            "id": "b",
+            "en": "A curtain softens harsh light, although some glare remains.",
+            "zh": "窗簾令強光柔和一點，雖仍有眩光。"
+          },
+          {
+            "id": "c",
+            "en": "A quieter fan lowers the noise, though it remains audible.",
+            "zh": "較安靜的風扇降低噪音，雖仍聽得到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完全沒有減輕，便不能說不適被緩和。"
+      },
+      "dialogue": {
+        "promptEn": "A: The waiting room’s echo was unpleasant. The new panels make voices easier to hear, but there is still some echo. B: ______",
+        "promptZh": "（甲：候診室的回音令人不舒服。新吸音板令說話聲較清楚，但仍有一些回音。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The panels improved the sound without removing every echo.",
+            "zh": "吸音板改善聲音，但沒有消除所有回音。"
+          },
+          {
+            "id": "b",
+            "en": "People can now hear voices more easily.",
+            "zh": "大家現在較容易聽清說話聲。"
+          },
+          {
+            "id": "c",
+            "en": "They took the edge off the echo.",
+            "zh": "它們減輕了回音帶來的不適。"
+          },
+          {
+            "id": "d",
+            "en": "Further work might help with what remains.",
+            "zh": "進一步改善或有助處理剩下的回音。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句說明改善是局部而非全面。"
+      },
+      "speaking": {
+        "en": "A thicker curtain took the edge off the streetlight glare in the bedroom, although a thin line of light still showed beside the window.",
+        "zh": "較厚的窗簾減輕睡房街燈的刺眼程度，但窗邊仍透入一線光。",
+        "promptZh": "保留部分問題，避免說完全消除。",
+        "targetSpan": {
+          "start": 18,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個不適來源各有局部改善，但未完全消失。用英文寫出原先情況、改善和剩餘問題。",
+        "selfCheckZh": "兩例不能把改善寫成完全治好，也不能沒有任何效果。",
+        "examples": [
+          {
+            "en": "A soft screen took the edge off the projector glare during class, although students still had to move away from the brightest angle.",
+            "zh": "課堂上柔光屏減輕投影機刺眼程度，但學生仍須避開最亮的角度。"
+          },
+          {
+            "en": "Closing the inner door took the edge off the kitchen noise in the study room; the machines were quieter, not silent.",
+            "zh": "關上內門減輕了自修室聽到的廚房噪音；機器聲變小，並非完全無聲。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "projector glare",
+            "zh": "投影機眩光",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 51
+            }
+          },
+          {
+            "en": "the brightest angle",
+            "zh": "最亮角度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 131
+            }
+          },
+          {
+            "en": "the inner door",
+            "zh": "內門",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 22
+            }
+          },
+          {
+            "en": "the kitchen noise",
+            "zh": "廚房噪音",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 58
+            }
+          },
+          {
+            "en": "not silent",
+            "zh": "並非無聲",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Take the edge off means reduce an unpleasant intensity.",
+          "zh": "take the edge off 指減輕令人不快的強烈程度。"
+        },
+        {
+          "en": "A shade can take the edge off glare without making a room dark.",
+          "zh": "遮陽物可減輕眩光而不令房間變暗。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4395",
+      "number": 4395,
+      "inventoryId": "expr-4395",
+      "titleEn": "put up with",
+      "titleZh": "忍受持續滋擾",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:put|puts|putting) up with\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Tolerate an ongoing unpleasant situation, often reluctantly.",
+        "meaningZh": "往往不情願地容忍持續令人不快的情況。",
+        "grammar": "Put up with + noun or -ing form; put has the same past form. Distinguish tolerance from approval or resolution.",
+        "register": "Neutral everyday English. A tenant may use it when discussing a recurring nuisance with a building manager.",
+        "boundaryZh": "須有不情願的容忍；喜歡某活動或已成功消除問題，不是忍受。",
+        "misconceptionZh": "不是把物件向上放，也不表示容忍就等於問題合理。",
+        "outcomeZh": "能指出持續滋擾、受影響者與容忍或處理的界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2284",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 216,
+          "book": 16,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "52–56",
+          "locatorNote": "DOCX table 237, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Residents should not have to put up with constant noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "put up with"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "For three weeks, the shared fridge door failed to close properly and spoiled food twice. The volunteers had put up with the fault while waiting for a part, but they finally moved the food and asked for a repair date.",
+        "zh": "共用雪櫃門三週來關不緊，兩次令食物變壞。義工等零件期間一直忍受故障，但最後搬走食物並要求確實維修日期。",
+        "promptZh": "put up with 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They tolerated the recurring fault while waiting, without approving of it.",
+            "zh": "他們等候時容忍反覆故障，並非認同。"
+          },
+          {
+            "id": "b",
+            "en": "They liked the fault because it made storage easier.",
+            "zh": "他們喜歡故障，因為方便儲存。"
+          },
+          {
+            "id": "c",
+            "en": "The door had worked perfectly throughout the three weeks.",
+            "zh": "三週內雪櫃門一直正常。"
+          },
+          {
+            "id": "d",
+            "en": "The repair was completed before any food spoiled.",
+            "zh": "任何食物變壞前已修好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆故障仍未解決，義工勉強承受。"
+      },
+      "reply": {
+        "promptEn": "A theatre group has had to work around a dripping ceiling for several rehearsals. They protect the instruments and ask the hall manager for a repair date. What can we say about their response now and their expectations?",
+        "promptZh": "（劇團幾次綵排都要避開滴水天花；他們保護樂器並向場地經理索取維修日期。現在可如何描述他們的應對及期望？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Tolerating an inconvenience they did not choose.",
+            "zh": "容忍他們並非自願承受的不便。"
+          },
+          {
+            "id": "b",
+            "en": "Continuing rehearsals while seeking a repair.",
+            "zh": "一邊繼續綵排，一邊尋求維修。"
+          },
+          {
+            "id": "c",
+            "en": "They have been putting up with the leak.",
+            "zh": "他們一直忍受漏水。"
+          },
+          {
+            "id": "d",
+            "en": "They are not treating the leak as acceptable forever.",
+            "zh": "他們沒有把漏水視為永遠可以接受。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述暫時忍受且尋求改善。"
+      },
+      "scene": {
+        "promptZh": "社區廚房的抽氣扇連續幾週發出尖銳噪音；員工不喜歡，卻暫時在另一角落工作並報修。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are putting up with the noise while seeking a fix.",
+            "zh": "他們報修期間暫時忍受噪音。"
+          },
+          {
+            "id": "b",
+            "en": "They enjoy the noise and ask to increase it.",
+            "zh": "他們喜歡噪音，要求調大。"
+          },
+          {
+            "id": "c",
+            "en": "The fan was repaired before the noise began.",
+            "zh": "噪音出現前風扇已修好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "對持續不適作暫時容忍。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone puts up with a situation？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The problem is fixed immediately, so nobody has to tolerate it.",
+            "zh": "問題立即解決，沒有人需要忍受。"
+          },
+          {
+            "id": "b",
+            "en": "A group continues working despite a recurring leak it wants repaired.",
+            "zh": "小組不滿反覆漏水，仍繼續工作並盼維修。"
+          },
+          {
+            "id": "c",
+            "en": "A resident endures repeated noise while reporting it to management.",
+            "zh": "住戶一面向管理處報告，一面忍受反覆噪音。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題立即消失，沒有持續容忍。"
+      },
+      "dialogue": {
+        "promptEn": "A: The copier has jammed nearly every day this month. We keep restarting it while waiting for the replacement, and nobody likes the delay. B: ______",
+        "promptZh": "（甲：影印機這個月幾乎天天卡紙。我們等新機時不斷重啟，沒有人喜歡延誤。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You have tolerated a recurring inconvenience.",
+            "zh": "你們一直承受反覆出現的不便。"
+          },
+          {
+            "id": "b",
+            "en": "Waiting for the replacement does not mean the jams are acceptable.",
+            "zh": "等待新機不代表卡紙問題可以接受。"
+          },
+          {
+            "id": "c",
+            "en": "You have had to put up with those jams.",
+            "zh": "你們不得不忍受那些卡紙問題。"
+          },
+          {
+            "id": "d",
+            "en": "The replacement should end the need to work around it.",
+            "zh": "新機應可終止這種勉強應付。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句點明不情願地容忍持續問題。"
+      },
+      "speaking": {
+        "en": "The volunteers put up with the temporary detour for two weekends, but they asked the organiser to mark the route clearly until the path reopened.",
+        "zh": "義工兩個週末都暫時忍受繞路安排，但要求主辦人清楚標示路線，直至小徑重開。",
+        "promptZh": "忍受可同時伴隨改善要求。",
+        "targetSpan": {
+          "start": 15,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個群體各因未修好的問題而暫時勉強承受不便，同時採取合理處理。用英文寫出持續時間和界線。",
+        "selfCheckZh": "兩例不能把不便寫成他們樂意接受，也不能說問題早已解決。",
+        "examples": [
+          {
+            "en": "The stallholders put up with a faulty shutter for four market days, but they logged each failure and requested an inspection before opening again.",
+            "zh": "攤販四個市集日都勉強忍受故障捲閘，但記下每次失靈，並要求下次開門前檢查。"
+          },
+          {
+            "en": "Parents put up with the broken booking screen for a week while the centre tested a fix; they asked for a phone option in the meantime.",
+            "zh": "中心測試修復方法的一週內，家長勉強忍受壞掉的預約畫面，同時要求暫設電話預約。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "faulty shutter",
+            "zh": "故障捲閘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "four market days",
+            "zh": "四個市集日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 66
+            }
+          },
+          {
+            "en": "an inspection",
+            "zh": "檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 124
+            }
+          },
+          {
+            "en": "broken booking screen",
+            "zh": "壞掉的預約畫面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 45
+            }
+          },
+          {
+            "en": "a phone option",
+            "zh": "電話預約選項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Put up with means tolerate something unpleasant.",
+          "zh": "put up with 指忍受令人不快的事。"
+        },
+        {
+          "en": "A team may put up with a delay temporarily while asking for a fix.",
+          "zh": "團隊可暫時忍受延誤，同時要求改善。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4398",
+      "number": 4398,
+      "inventoryId": "expr-4398",
+      "titleEn": "adding fuel to the fire",
+      "titleZh": "火上加油",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:add|adds|added|adding) fuel to the fire\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make an already difficult or tense situation worse through an additional action.",
+        "meaningZh": "在原已困難或緊張的情況下，因額外行動使局面更壞。",
+        "grammar": "Add fuel to the fire; add inflects added/adding. An existing problem and a worsening action are both needed.",
+        "register": "Neutral vivid everyday English. A mediator may use it when an accusatory message worsens a dispute.",
+        "boundaryZh": "先有問題或緊張局面，再有使其加劇的行動；單純指出問題或提供有根據的澄清未必火上加油。",
+        "misconceptionZh": "不是把真的燃料加進火堆，也不等於所有不同意見都會惡化局面。",
+        "outcomeZh": "能指出原有衝突、加劇行動及可觀察的後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2287",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 216,
+          "book": 16,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "52–56",
+          "locatorNote": "DOCX table 237, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Careless honking is adding fuel to the fire.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "adding fuel to the fire"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "Two neighbours were already arguing about a shared gate. When one posted an unverified accusation in the building chat, more residents took sides and the meeting became harder to arrange. The message added fuel to the fire.",
+        "zh": "兩名鄰居原已因共用大門爭吵；其中一人在大廈群組發出未核實指控後，更多住戶選邊站，會議更難安排。那則訊息令局面火上加油。",
+        "promptZh": "甚麼令原有衝突更難處理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An unverified public accusation drew more people into the dispute.",
+            "zh": "一項未核實的公開指控令更多人捲入爭執。"
+          },
+          {
+            "id": "b",
+            "en": "Both neighbours quietly checked the gate schedule together.",
+            "zh": "兩名鄰居安靜地一起核對大門時間表。"
+          },
+          {
+            "id": "c",
+            "en": "The building chat removed every accusation before anyone read it.",
+            "zh": "任何人閱讀前，群組已刪除所有指控。"
+          },
+          {
+            "id": "d",
+            "en": "The original gate problem had already been settled.",
+            "zh": "原來的大門問題早已解決。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先有爭執，再有未核實指控加劇對立。"
+      },
+      "reply": {
+        "promptEn": "A rehearsal team is already upset about a late timetable change. One member posts a sarcastic claim that the organisers never listen, without checking why the venue shifted; several colleagues respond angrily. What did the post do?",
+        "promptZh": "（綵排團隊原已不滿時間表臨時改動；一名成員未查場地改動原因便諷刺地說主辦方從不聆聽，幾名同事憤怒回覆。貼文造成甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It intensified a disagreement that already existed.",
+            "zh": "它加劇原已存在的分歧。"
+          },
+          {
+            "id": "b",
+            "en": "It prompted angry responses before the facts were checked.",
+            "zh": "事實未核查前，它引來憤怒回應。"
+          },
+          {
+            "id": "c",
+            "en": "The post added fuel to the fire.",
+            "zh": "貼文令局面火上加油。"
+          },
+          {
+            "id": "d",
+            "en": "A factual clarification is now harder to discuss calmly.",
+            "zh": "如今較難冷靜討論事實澄清。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據原有不滿及加劇後果回答。"
+      },
+      "scene": {
+        "promptZh": "兩組人原已因排練室分配僵持；有人未查資料便公開指責另一組作弊，雙方更難談判。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The accusation added fuel to the fire.",
+            "zh": "指控令局面火上加油。"
+          },
+          {
+            "id": "b",
+            "en": "The accusation immediately resolved the disagreement.",
+            "zh": "指控立即解決分歧。"
+          },
+          {
+            "id": "c",
+            "en": "The room dispute had never existed.",
+            "zh": "房間爭議從未出現。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未核實指控加劇原有衝突。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 an action added fuel to the fire？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coordinator checks the disputed schedule privately and shares a neutral correction that both sides accept.",
+            "zh": "協調員私下核對有爭議的時間表，並發出雙方接納的中立更正。"
+          },
+          {
+            "id": "b",
+            "en": "A sharp public accusation causes an existing argument to draw in more people.",
+            "zh": "尖銳的公開指控令原有爭執捲入更多人。"
+          },
+          {
+            "id": "c",
+            "en": "A sarcastic reply makes a tense planning meeting more hostile.",
+            "zh": "諷刺回覆令原已緊張的規劃會議更敵對。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中立且獲接納的更正沒有惡化局面。"
+      },
+      "dialogue": {
+        "promptEn": "A: The parents were already upset by a changed pickup point. Then an organiser guessed publicly that they had ignored the notice, and the chat grew angrier. B: ______",
+        "promptZh": "（甲：家長原已因接送地點改動而不滿；之後一名主辦人公開猜測他們忽略通知，群組更憤怒。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The public guess worsened the existing frustration.",
+            "zh": "公開猜測加劇原有不滿。"
+          },
+          {
+            "id": "b",
+            "en": "It would help to verify who received the notice.",
+            "zh": "核實誰收到通知會有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "That guess added fuel to the fire.",
+            "zh": "那番猜測令局面火上加油。"
+          },
+          {
+            "id": "d",
+            "en": "A correction should address the pickup point and the mistaken assumption.",
+            "zh": "更正應處理接送地點與錯誤假設。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指明原有不滿被未核實推測加劇。"
+      },
+      "speaking": {
+        "en": "The committee’s dispute about the budget was tense already; an anonymous rumour about missing funds added fuel to the fire before the accounts were checked.",
+        "zh": "委員會原已因預算爭議緊張；未查帳目前，匿名資金失蹤傳聞又令局面火上加油。",
+        "promptZh": "先有問題，謠言再加劇。",
+        "targetSpan": {
+          "start": 100,
+          "end": 122
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個不同群體先有緊張情況，後來有人作出未核實或諷刺的公開回應，造成可見惡化。用英文寫出前後因果。",
+        "selfCheckZh": "兩例須有原有局面及加劇後果，不能把中立澄清也說成火上加油。",
+        "examples": [
+          {
+            "en": "The school board was already split over garden funding; a cropped budget screenshot added fuel to the fire, and the vote was postponed while members checked the missing figures.",
+            "zh": "校董會原已因花園撥款分裂；一張被裁掉部分內容的預算截圖令局面火上加油，成員須核查缺失數字，投票因而延期。"
+          },
+          {
+            "en": "The aid-station team was already strained by missing water; a supervisor publicly blamed new volunteers without checking stock records, adding fuel to the fire, and several stopped taking shifts.",
+            "zh": "補給站團隊原已因缺水而緊張；主管未查庫存紀錄便公開責怪新義工，令局面火上加油，幾人因而不再接更。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "garden funding",
+            "zh": "花園撥款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 54
+            }
+          },
+          {
+            "en": "cropped budget screenshot",
+            "zh": "被裁掉部分內容的預算截圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 83
+            }
+          },
+          {
+            "en": "missing figures",
+            "zh": "缺失數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 161,
+              "end": 176
+            }
+          },
+          {
+            "en": "stock records",
+            "zh": "庫存紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 134
+            }
+          },
+          {
+            "en": "stopped taking shifts",
+            "zh": "不再接更",
+            "exampleIndex": 1,
+            "span": {
+              "start": 173,
+              "end": 194
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Add fuel to the fire means worsen an existing problem.",
+          "zh": "add fuel to the fire 指令原有問題惡化。"
+        },
+        {
+          "en": "An unverified accusation can add fuel to the fire in a tense group.",
+          "zh": "未核實指控可能令緊張群體的局面火上加油。"
+        }
+      ]
+    }
+  ]
+}

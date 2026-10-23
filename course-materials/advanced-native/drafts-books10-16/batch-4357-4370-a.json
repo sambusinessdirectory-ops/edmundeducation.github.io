@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4357",
+      "number": 4357,
+      "inventoryId": "expr-4357",
+      "titleEn": "the real flex",
+      "titleZh": "真正值得炫耀的本事",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe real flex\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The genuinely impressive achievement or quality, rather than the superficial status display being discussed.",
+        "meaningZh": "相對於表面炫耀，真正令人佩服的成就或本領。",
+        "grammar": "The real flex is an informal noun phrase; specify what looks impressive and what is actually impressive.",
+        "register": "Informal contemporary English. A collector may say it to fellow collectors when praising expertise over price.",
+        "boundaryZh": "須有可比較的表面炫耀與真正本領；沒有對比時，不宜把任何普通事都叫 flex。",
+        "misconceptionZh": "不是屈曲肌肉，也不是說昂貴物件必定沒有價值。",
+        "outcomeZh": "能辨認被反轉的地位標準，並指出有證據的真正本領。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2246",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 212,
+          "book": 16,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 232, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For collectors, expertise is the real flex.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the real flex"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the coin fair, Theo displayed a costly case, but Rina identified a rare printing error and explained its history from a catalogue. For the collectors, her knowledge was the real flex, not the price of the case.",
+        "zh": "錢幣展上，西奧展示昂貴盒子，莉娜卻憑目錄辨出罕見印刷錯誤並解釋其歷史。對收藏者而言，她的知識才是真正值得炫耀的本事，而非盒子的價錢。",
+        "promptZh": "收藏者真正佩服甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Rina’s evidence-backed knowledge of the coin.",
+            "zh": "莉娜有根據的錢幣知識。"
+          },
+          {
+            "id": "b",
+            "en": "The high price of Theo’s display case alone.",
+            "zh": "單單西奧展示盒的高價。"
+          },
+          {
+            "id": "c",
+            "en": "A claim that the catalogue was never checked.",
+            "zh": "聲稱從未查閱目錄。"
+          },
+          {
+            "id": "d",
+            "en": "The number of visitors who passed the stand.",
+            "zh": "經過攤位的訪客人數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "辨識並解釋罕見錯誤，顯示真正本領。"
+      },
+      "reply": {
+        "promptEn": "At a repair club, a member shows an expensive toolkit. Another member diagnoses a faulty switch, explains the test and helps a newcomer fix it safely. What impressed the club most?",
+        "promptZh": "（維修社一名成員展示昂貴工具箱；另一人查出故障開關、解釋測試，並幫新人安全修好。社友最佩服甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The careful diagnosis and safe explanation.",
+            "zh": "仔細診斷與安全解說。"
+          },
+          {
+            "id": "b",
+            "en": "The ability to help a newcomer understand the repair.",
+            "zh": "幫新人理解維修的能力。"
+          },
+          {
+            "id": "c",
+            "en": "The second member’s skill was the real flex.",
+            "zh": "第二名成員的技術才是真正值得炫耀的本事。"
+          },
+          {
+            "id": "d",
+            "en": "Demonstrated skill mattered more than the toolkit price.",
+            "zh": "實際展示的本領比工具箱價錢更重要。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據有證據的維修能力回答。"
+      },
+      "scene": {
+        "promptZh": "烹飪比賽中，一人展示昂貴器材；另一人用簡單工具準確解釋火候並煮好菜。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her control of the heat was the real flex.",
+            "zh": "她掌握火候的本領才真正令人佩服。"
+          },
+          {
+            "id": "b",
+            "en": "The most expensive pan automatically proved the best cooking.",
+            "zh": "最貴的鍋自然證明廚藝最好。"
+          },
+          {
+            "id": "c",
+            "en": "The judges had no way to observe either cook.",
+            "zh": "評審無法觀察兩人的廚藝。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "真正本領在可觀察的烹調技巧。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 the real flex？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker calls an ordinary delivery time impressive without contrasting it with any surface display or showing special ability.",
+            "zh": "講者沒有與表面炫耀作比較，也沒有顯示特別本領，卻稱普通送貨時間很厲害。"
+          },
+          {
+            "id": "b",
+            "en": "A gardener values a neighbour’s plant-care knowledge more than a designer pot.",
+            "zh": "園丁重視鄰居的護植物知識，多於名牌花盆。"
+          },
+          {
+            "id": "c",
+            "en": "A collector praises careful authentication rather than the high purchase price.",
+            "zh": "收藏者讚賞仔細驗證真偽，多於昂貴買價。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺乏表面標準與真正本領的對比。"
+      },
+      "dialogue": {
+        "promptEn": "A: The camera cost much less than the others, yet Nia showed us how to repair the lens and took the clearest sample photo. B: ______",
+        "promptZh": "（甲：那部相機比其他的便宜得多，妮雅卻示範了如何修鏡頭，還拍出最清晰的樣本照片。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her repair skill and photo show what she can do.",
+            "zh": "修鏡技術與照片顯示她的能力。"
+          },
+          {
+            "id": "b",
+            "en": "The lower price did not prevent a strong result.",
+            "zh": "較低價錢沒有阻礙她取得好效果。"
+          },
+          {
+            "id": "c",
+            "en": "That practical skill is the real flex here.",
+            "zh": "她的實際本領才真正值得炫耀。"
+          },
+          {
+            "id": "d",
+            "en": "The sample gives us evidence beyond a price tag.",
+            "zh": "樣本提供了價錢牌以外的證據。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句以實際能力反轉以價錢衡量的標準。"
+      },
+      "speaking": {
+        "en": "At the map exhibition, explaining how an old route changed was the real flex; the ornate frame attracted visitors, but the archivist’s evidence held their attention.",
+        "zh": "地圖展覽中，解釋舊路線如何改變才是真正值得炫耀的本事；華麗畫框吸引訪客，但檔案員的證據留住他們的注意。",
+        "promptZh": "指出表面吸引力與真正本領。",
+        "targetSpan": {
+          "start": 63,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：各有一件表面昂貴或華麗的東西，另有可觀察的本領更值得佩服。用英文寫出對比及證據。",
+        "selfCheckZh": "兩例須有具體本領證據，不能只空稱某人很厲害。",
+        "examples": [
+          {
+            "en": "The designer watch drew attention, but solving the timing fault with a clear test was the real flex; the technician showed every step.",
+            "zh": "名牌手錶引人注目，但以清楚測試解決計時故障才是真本領；技師展示了每一步。"
+          },
+          {
+            "en": "A polished booth looked impressive, yet the real flex was Amira’s ability to explain the water test and repeat it successfully for visitors.",
+            "zh": "精美攤位看來厲害，但真正值得炫耀的是阿米拉能解釋水質測試，並在訪客面前成功重做。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "designer watch",
+            "zh": "名牌手錶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 18
+            }
+          },
+          {
+            "en": "timing fault",
+            "zh": "計時故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 63
+            }
+          },
+          {
+            "en": "clear test",
+            "zh": "清楚測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 81
+            }
+          },
+          {
+            "en": "A polished booth",
+            "zh": "精美攤位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "repeat it successfully",
+            "zh": "成功重做",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 126
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The real flex is the genuinely impressive quality behind the display.",
+          "zh": "the real flex 指表面展示以外真正令人佩服的特質。"
+        },
+        {
+          "en": "At a craft fair, patient repair skill can be the real flex beside costly tools.",
+          "zh": "在工藝展上，耐心維修的本領可能比昂貴工具更值得佩服。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4358",
+      "number": 4358,
+      "inventoryId": "expr-4358",
+      "titleEn": "social pecking order",
+      "titleZh": "社群地位次序",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the|a|their|our) social pecking order\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An informal hierarchy of perceived rank within a social group.",
+        "meaningZh": "社交群體內人們認為的非正式地位高低次序。",
+        "grammar": "Social pecking order is a noun phrase, usually the social pecking order; specify the group and the rank cues.",
+        "register": "Neutral to mildly critical conversational English. A student may discuss it with a teacher when describing how a club allocates attention.",
+        "boundaryZh": "須有群體內的地位比較與對待差異；單純排隊先後或正式職位表不一定是社交階序。",
+        "misconceptionZh": "不是鳥真的啄來啄去，也不等於誰擁有較貴物品就必然受所有人尊重。",
+        "outcomeZh": "能指出群體、地位訊號和實際對待，而不把推測說成定論。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2247",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 212,
+          "book": 16,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 232, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Luxury brands can signal a place in the social pecking order.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "social pecking order"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "At the photography club, the chair always invited prize winners to speak first and ignored new members’ questions. Several members said awards were shaping the social pecking order, although the club had no formal rank list.",
+        "zh": "攝影社主席總請得獎者先發言，卻忽略新會員的問題。幾名成員說獎項正影響社內非正式地位次序，雖然社團沒有正式排名。",
+        "promptZh": "甚麼顯示有非正式階序？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Prize winners received speaking priority while new members were ignored.",
+            "zh": "得獎者優先發言，新會員則被忽略。"
+          },
+          {
+            "id": "b",
+            "en": "The club published a formal job chart with fixed duties.",
+            "zh": "社團公布列明固定職責的正式職位表。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone’s questions received equal time regardless of awards.",
+            "zh": "無論有沒有得獎，各人提問時間都相同。"
+          },
+          {
+            "id": "d",
+            "en": "Members queued by arrival time for a camera demonstration.",
+            "zh": "會員按到場先後排隊看相機示範。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "獎項影響誰獲關注，形成非正式地位差異。"
+      },
+      "reply": {
+        "promptEn": "In a reading group, senior members repeatedly get the best seats and their suggestions are accepted without discussion, while newcomers wait at the back. What pattern have the newcomers noticed?",
+        "promptZh": "（讀書小組中，資深會員屢次坐最好的位子，建議也未經討論便獲採納；新人則在後面等候。新人注意到甚麼模式？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Seniority is affecting who receives attention.",
+            "zh": "資歷正影響誰獲關注。"
+          },
+          {
+            "id": "b",
+            "en": "The group treats members differently by perceived standing.",
+            "zh": "小組按被認為的地位作不同對待。"
+          },
+          {
+            "id": "c",
+            "en": "They have noticed a social pecking order.",
+            "zh": "他們留意到一種非正式社交地位次序。"
+          },
+          {
+            "id": "d",
+            "en": "The seating and discussion habits favour established members.",
+            "zh": "座位與討論習慣偏向資深會員。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按重複出現的差別待遇回答。"
+      },
+      "scene": {
+        "promptZh": "戲劇社沒有正式排名，但演過主角的成員總先選排練時間，新人很少獲問意見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A social pecking order is shaping decisions.",
+            "zh": "非正式社交地位次序正影響決定。"
+          },
+          {
+            "id": "b",
+            "en": "A published duty roster sets only technical jobs.",
+            "zh": "公布的值日表只列技術工作。"
+          },
+          {
+            "id": "c",
+            "en": "Everyone takes turns choosing times equally.",
+            "zh": "人人平等輪流選時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主角經驗帶來非正式優先權。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以顯示 a social pecking order？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A workshop assigns numbered seats by registration time, and everyone has the same chance to speak.",
+            "zh": "工作坊按報名時間編座，人人發言機會相同。"
+          },
+          {
+            "id": "b",
+            "en": "A club regularly gives prominent members the first chance to speak.",
+            "zh": "社團經常讓知名會員先發言。"
+          },
+          {
+            "id": "c",
+            "en": "A peer group accepts one member’s ideas because of their perceived status.",
+            "zh": "同儕因一名成員被認為地位高而接納其想法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按報名先後編座且機會均等，不是群體地位差別。"
+      },
+      "dialogue": {
+        "promptEn": "A: In the volunteer group, the founders’ suggestions are approved immediately, but new members must justify the same ideas twice. B: ______",
+        "promptZh": "（甲：義工小組中，創辦人的建議立即獲批，新會員提出相同想法卻須解釋兩次。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their perceived standing changes how ideas are judged.",
+            "zh": "被認為的地位改變了建議受評價的方式。"
+          },
+          {
+            "id": "b",
+            "en": "The group should compare the ideas on equal terms.",
+            "zh": "小組應按同一準則比較想法。"
+          },
+          {
+            "id": "c",
+            "en": "That sounds like a social pecking order at work.",
+            "zh": "這聽起來像非正式社交地位次序在起作用。"
+          },
+          {
+            "id": "d",
+            "en": "The repeated difference is worth raising with the chair.",
+            "zh": "反覆出現的差別值得向主席提出。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句概括相同想法因身分不同而受不同對待。"
+      },
+      "speaking": {
+        "en": "A social pecking order emerged quietly in the choir when long-serving singers always chose solos before newer members could audition.",
+        "zh": "合唱團中出現不明言的社交地位次序：資深歌手總先挑獨唱，新會員尚未能試唱。",
+        "promptZh": "指出群體及反覆出現的優先權。",
+        "targetSpan": {
+          "start": 0,
+          "end": 22
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個不同社群出現沒有寫明的地位差別，影響誰獲發言或機會。用英文寫出群體、訊號和可見後果。",
+        "selfCheckZh": "兩例須是非正式地位差異，不能只寫正式工作職級或普通排隊。",
+        "examples": [
+          {
+            "en": "In the makers’ club, contest winners spoke first every week, creating a social pecking order that left beginners waiting to show their designs.",
+            "zh": "創客社每週讓比賽得獎者先發言，形成非正式地位次序，初學者要等候才能展示設計。"
+          },
+          {
+            "en": "A social pecking order formed in the online art group when members with large followings received detailed feedback while equally prepared newcomers got none.",
+            "zh": "網上藝術群組中，追隨者多的成員獲詳細意見，準備同樣充分的新人卻一無所獲，於是形成社交地位次序。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "contest winners",
+            "zh": "比賽得獎者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 36
+            }
+          },
+          {
+            "en": "waiting to show their designs",
+            "zh": "等候展示設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 142
+            }
+          },
+          {
+            "en": "online art group",
+            "zh": "網上藝術群組",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 53
+            }
+          },
+          {
+            "en": "large followings",
+            "zh": "大量追隨者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 88
+            }
+          },
+          {
+            "en": "detailed feedback",
+            "zh": "詳細意見",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A social pecking order is an informal hierarchy within a group.",
+          "zh": "social pecking order 指群體內非正式的地位次序。"
+        },
+        {
+          "en": "The social pecking order may be visible in who gets heard first.",
+          "zh": "誰先獲聆聽，可能顯示群體的非正式地位次序。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4366",
+      "number": 4366,
+      "inventoryId": "expr-4366",
+      "titleEn": "shine a spotlight on the benefits",
+      "titleZh": "突顯好處",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:shine|shines|shone|shining) a spotlight on (?:the|its|their|our) benefits\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Direct attention to the advantages of something, often while presenting or promoting it.",
+        "meaningZh": "把注意力集中於某事物的好處，常見於介紹或推廣。",
+        "grammar": "Shine a spotlight on the benefits; shine inflects shone/shining. The spotlight is figurative and may selectively focus on positives.",
+        "register": "Neutral vivid English. A product reviewer may use it while explaining which advantages a demonstration emphasises.",
+        "boundaryZh": "須有明確被突顯的好處；中立列出所有資料或只提到產品名稱不算聚焦優點。",
+        "misconceptionZh": "不是拿真的燈照產品，也不保證被突顯的好處能抵銷成本或限制。",
+        "outcomeZh": "能指出哪些優點被強調，並分清呈現重點與全面評估。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2255",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 213,
+          "book": 16,
+          "question": 19,
+          "sample": "S1",
+          "sourceBookPages": "46–48",
+          "locatorNote": "DOCX table 234, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Ads shine a spotlight on the benefits of a new phone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shine a spotlight on the benefits"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "A library’s poster shows how a new booking tool lets members reserve study rooms from home. It shines a spotlight on the benefits of remote booking, but members still need to check the tool’s access rules.",
+        "zh": "圖書館海報展示新預約工具如何讓會員在家預訂自修室。它突顯遙距預約的好處，但會員仍須核查工具的使用規則。",
+        "promptZh": "海報突顯了哪項好處？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members can reserve a study room from home.",
+            "zh": "會員可在家預訂自修室。"
+          },
+          {
+            "id": "b",
+            "en": "All rooms are available at every hour without limits.",
+            "zh": "所有房間在任何時段都無限制可用。"
+          },
+          {
+            "id": "c",
+            "en": "The poster proves every member can access the tool.",
+            "zh": "海報證明每名會員都能使用工具。"
+          },
+          {
+            "id": "d",
+            "en": "The access rules are no longer relevant.",
+            "zh": "使用規則再也不重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "海報把在家預約這項便利放在焦點。"
+      },
+      "reply": {
+        "promptEn": "A museum brochure features the audio guide’s adjustable volume and transcript. It describes those features prominently while a separate page gives the hire fee and limitations. What does this tell readers about the brochure’s focus and a full decision?",
+        "promptZh": "（博物館小冊子醒目介紹語音導覽可調音量及文字稿，另頁列出租借費用和限制。這顯示小冊子把甚麼作重點？要作全面決定還須注意甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It highlights two practical advantages.",
+            "zh": "它突顯兩項實際優點。"
+          },
+          {
+            "id": "b",
+            "en": "It directs readers to useful access features.",
+            "zh": "它引導讀者留意實用的無障礙功能。"
+          },
+          {
+            "id": "c",
+            "en": "It shines a spotlight on the benefits of the guide.",
+            "zh": "它突顯導覽服務的好處。"
+          },
+          {
+            "id": "d",
+            "en": "The separate page still matters for a full decision.",
+            "zh": "要作全面決定，仍須看另頁資料。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據突出功能但保留限制的描述回答。"
+      },
+      "scene": {
+        "promptZh": "社區中心示範新報名工具可即時顯示尚餘名額，簡報特別展示這功能，並另列網絡需要。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The demonstration shines a spotlight on the benefits of the tool.",
+            "zh": "示範突顯工具的好處。"
+          },
+          {
+            "id": "b",
+            "en": "The demonstration proves internet access is never needed.",
+            "zh": "示範證明永遠不需要網絡。"
+          },
+          {
+            "id": "c",
+            "en": "The presentation shows no advantage at all.",
+            "zh": "簡報完全沒有顯示任何好處。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "即時名額是被特別強調的實際好處。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a presentation shines a spotlight on the benefits？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A neutral sheet lists a tool’s name, price and serial number without describing any advantage.",
+            "zh": "一張中立資料表只列工具名稱、價錢與序號，沒有描述好處。"
+          },
+          {
+            "id": "b",
+            "en": "A presenter demonstrates the faster sign-up and explains who saves time.",
+            "zh": "講者示範更快的報名流程，說明誰節省時間。"
+          },
+          {
+            "id": "c",
+            "en": "A poster leads with an accessible feature and how visitors can use it.",
+            "zh": "海報先介紹無障礙功能及訪客如何使用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單列基本資料而無優點，沒有聚焦好處。"
+      },
+      "dialogue": {
+        "promptEn": "A: The leaflet opens with the new water station’s refill speed and how it cuts queue time. The maintenance cost is listed elsewhere. B: ______",
+        "promptZh": "（甲：單張先介紹新飲水站的補水速度，以及如何縮短輪候時間；維修成本另頁列出。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The leaflet is leading with practical advantages.",
+            "zh": "單張先展示實際優點。"
+          },
+          {
+            "id": "b",
+            "en": "Readers should still consider the maintenance cost.",
+            "zh": "讀者仍應考慮維修成本。"
+          },
+          {
+            "id": "c",
+            "en": "It shines a spotlight on the benefits of the station.",
+            "zh": "它突顯飲水站的好處。"
+          },
+          {
+            "id": "d",
+            "en": "Queue time is the main feature the leaflet draws attention to.",
+            "zh": "輪候時間是單張主要突顯的功能。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指出單張有選擇地強調優點。"
+      },
+      "speaking": {
+        "en": "The trial video shines a spotlight on the benefits of the new caption tool by showing readers how to adjust text size, while a note links to its known limitations.",
+        "zh": "試用影片示範讀者如何調整字體大小，突顯新字幕工具的好處，同時附註連結至已知限制。",
+        "promptZh": "說明被突顯的優點及尚需看的限制。",
+        "targetSpan": {
+          "start": 16,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩份介紹材料各選擇一項具體優點作重點，同時仍有其他限制。用英文寫出宣傳焦點與全面評估的區別。",
+        "selfCheckZh": "兩例不能把呈現焦點說成產品已全面獲證實。",
+        "examples": [
+          {
+            "en": "The repair shop’s video shines a spotlight on the benefits of its booking page by showing customers the available slots; it also links to cancellation rules.",
+            "zh": "維修店影片展示可預約時段，突顯網上預約頁的好處，亦附上取消規則連結。"
+          },
+          {
+            "en": "A school flyer shines a spotlight on the benefits of its quiet room, especially adjustable lighting, but families should also check the opening hours.",
+            "zh": "學校單張特別介紹可調光照，突顯安靜室的好處，但家長仍應核查開放時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "available slots",
+            "zh": "可預約時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 119
+            }
+          },
+          {
+            "en": "cancellation rules",
+            "zh": "取消規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 156
+            }
+          },
+          {
+            "en": "adjustable lighting",
+            "zh": "可調光照",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 99
+            }
+          },
+          {
+            "en": "opening hours",
+            "zh": "開放時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 149
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shine a spotlight on the benefits means draw attention to advantages.",
+          "zh": "shine a spotlight on the benefits 指把注意力引向好處。"
+        },
+        {
+          "en": "A brochure can shine a spotlight on its benefits while still listing limits.",
+          "zh": "小冊子可突顯好處，同時仍列出限制。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4370",
+      "number": 4370,
+      "inventoryId": "expr-4370",
+      "titleEn": "put their best foot forward",
+      "titleZh": "展現最好的一面",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:put|puts|putting) (?:their|his|her|our|your|its) best foot forward\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Present the most favourable genuine side of oneself or one’s work to make a good impression.",
+        "meaningZh": "為留下好印象而展現自己或作品真實而最好的一面。",
+        "grammar": "Put one’s best foot forward; keep the possessive aligned with the person or group. Put has the same past form.",
+        "register": "Neutral conversational English. A job applicant may use it when preparing a portfolio for interviewers.",
+        "boundaryZh": "應展現可支持的優點；捏造資格或故意隱瞞關鍵問題，不是可接受的正面呈現。",
+        "misconceptionZh": "不是踏出哪隻腳，也不等於每項限制都要在開場時逐一詳細講述。",
+        "outcomeZh": "能分辨有證據的正面呈現與誤導，並指出具體展示材料。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2259",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 213,
+          "book": 16,
+          "question": 19,
+          "sample": "S2",
+          "sourceBookPages": "46–48",
+          "locatorNote": "DOCX table 234, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Advertisements naturally put their best foot forward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "put their best foot forward"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "Before the grant interview, a youth group chose photographs of completed work and explained its measurable results. They put their best foot forward without inventing attendance figures, and kept the full report ready for questions.",
+        "zh": "申請資助面試前，青年小組選出已完成工作的照片，並解釋可量度的成果。他們展現最好的一面，沒有捏造出席人數，亦備好完整報告應對提問。",
+        "promptZh": "小組如何正面而誠實地呈現自己？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It showed completed work and supported results without making up figures.",
+            "zh": "它展示已完成工作與有根據的成果，沒有編造數字。"
+          },
+          {
+            "id": "b",
+            "en": "It invented attendance figures to impress the panel.",
+            "zh": "它捏造出席人數來打動評審。"
+          },
+          {
+            "id": "c",
+            "en": "It hid the full report so no one could ask questions.",
+            "zh": "它藏起完整報告，免得有人發問。"
+          },
+          {
+            "id": "d",
+            "en": "It presented only a future promise as completed work.",
+            "zh": "它把未來承諾當成已完成工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "照片、成果與完整報告支持正面呈現。"
+      },
+      "reply": {
+        "promptEn": "A neighbourhood choir is applying for a festival slot. Its members choose a recording from a recent live performance, note one piece they are still learning and prepare to answer questions about rehearsal time. What are they trying to do?",
+        "promptZh": "（鄰里合唱團申請節慶演出時段。成員選取近期現場表演錄音，說明一首仍在練習的作品，並準備回答排練時間的問題。他們想做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Show a strong recording with honest context.",
+            "zh": "以誠實背景資料展示優秀錄音。"
+          },
+          {
+            "id": "b",
+            "en": "Make a good impression using work they can demonstrate.",
+            "zh": "以可證實的作品留下好印象。"
+          },
+          {
+            "id": "c",
+            "en": "They want to put their best foot forward.",
+            "zh": "他們想展現最好的一面。"
+          },
+          {
+            "id": "d",
+            "en": "Present strengths while answering relevant questions openly.",
+            "zh": "展示強項，同時坦然回答相關問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均描述有根據的正面呈現。"
+      },
+      "scene": {
+        "promptZh": "學生面試前整理真正完成的設計作品，選一件最能說明解難能力的項目，並準備解釋不足。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She put her best foot forward with evidence of her work.",
+            "zh": "她以作品證據展現最好的一面。"
+          },
+          {
+            "id": "b",
+            "en": "She claimed a teammate’s project was entirely her own.",
+            "zh": "她聲稱隊友作品完全是自己完成。"
+          },
+          {
+            "id": "c",
+            "en": "She avoided showing any work and refused relevant questions.",
+            "zh": "她不展示任何作品，也拒答相關問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "選真實作品展示強項，並可解釋不足。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone put their best foot forward？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A candidate invents a qualification and presents it as verified experience.",
+            "zh": "求職者捏造資格，當成已核實經驗來呈現。"
+          },
+          {
+            "id": "b",
+            "en": "A maker selects a strong genuine sample and explains how it was produced.",
+            "zh": "製作者選出優秀真實樣本並解釋製作過程。"
+          },
+          {
+            "id": "c",
+            "en": "A team chooses its best completed project and shares accurate results.",
+            "zh": "團隊選出最好的已完成項目，提供準確成果。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "虛構資格是誤導，不是誠實展示最好的一面。"
+      },
+      "dialogue": {
+        "promptEn": "A: Our gallery proposal uses photos of the display we actually built, with visitor feedback and one issue we still need to solve. B: ______",
+        "promptZh": "（甲：我們的畫廊提案用了真正建成的展覽照片，附訪客意見，也說明仍須解決的一個問題。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The proposal shows completed work and honest feedback.",
+            "zh": "提案展示完成作品與真實意見。"
+          },
+          {
+            "id": "b",
+            "en": "It should make a good impression without pretending to be perfect.",
+            "zh": "它應能留下好印象，而不假裝完美。"
+          },
+          {
+            "id": "c",
+            "en": "You have put your best foot forward with evidence.",
+            "zh": "你們用證據展現了最好的一面。"
+          },
+          {
+            "id": "d",
+            "en": "The unresolved issue can be explained if the panel asks.",
+            "zh": "評審若問到未解決問題，你們可以解釋。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指用真實成果作正面呈現。"
+      },
+      "speaking": {
+        "en": "For the open studio, the potters put their best foot forward by displaying their strongest finished pieces and a short record of the glazing tests.",
+        "zh": "陶藝家在開放工作室展示最好的成品與釉料測試簡錄，展現最好的一面。",
+        "promptZh": "正面呈現要有可見作品支持。",
+        "targetSpan": {
+          "start": 33,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人各需給評審或訪客留下好印象，以真實而可核查的成果展示強項。用英文寫出證據與仍可坦然回答的問題。",
+        "selfCheckZh": "兩例不可用編造資格或把未完工說成完工。",
+        "examples": [
+          {
+            "en": "The rowing team put their best foot forward with race footage and verified lap times, while making its safety procedure available for questions.",
+            "zh": "划艇隊以比賽影片及已核實的分段時間展現最好一面，也備好安全程序供人提問。"
+          },
+          {
+            "en": "At the craft market, Leena put her best foot forward by showing finished bags and the material records, then answered visitors’ questions about durability.",
+            "zh": "工藝市集上，莉娜展示成品袋及材料紀錄，展現最好一面，並回答訪客對耐用程度的提問。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "race footage",
+            "zh": "比賽影片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 61
+            }
+          },
+          {
+            "en": "verified lap times",
+            "zh": "已核實分段時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 84
+            }
+          },
+          {
+            "en": "safety procedure",
+            "zh": "安全程序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 119
+            }
+          },
+          {
+            "en": "finished bags",
+            "zh": "成品袋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 77
+            }
+          },
+          {
+            "en": "material records",
+            "zh": "材料紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 102
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Put your best foot forward means present your strongest genuine side.",
+          "zh": "put your best foot forward 指展現真實而最好的一面。"
+        },
+        {
+          "en": "A team can put their best foot forward with work it can verify.",
+          "zh": "團隊可用能核查的作品展現最好的一面。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2214 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-4616-4644-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-4616",
+      "number": 4616,
+      "inventoryId": "expr-4616",
+      "titleEn": "eye-opening",
+      "titleZh": "令人大開眼界",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\beye[- ]opening\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Unexpectedly revealing, giving someone a new understanding.",
+        "meaningZh": "出乎意料地揭示新資訊，令人有新的理解。",
+        "grammar": "An eye-opening visit/report; the visit was eye-opening. Hyphenated adjective can be attributive or predicative.",
+        "register": "Neutral evaluative language; a teacher asks students what a visit taught them.",
+        "boundaryZh": "要有真正的新認識，不只是好玩或漂亮；也不保證觀點立即徹底改變。",
+        "misconceptionZh": "不是眼睛真的張開，也不是任何普通經歷都值得稱為大開眼界。",
+        "outcomeZh": "能指出哪項新發現使經歷具啟發性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2505",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 237,
+          "book": 16,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 264, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The visit was eye-opening for the whole class.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "eye-opening"
+        }
+      ],
+      "listening": {
+        "en": "The bakery tour was eye-opening because pupils learned that most wasted bread came from ordering too much dough.",
+        "zh": "麵包店參觀令學生大開眼界，因為他們發現大部分麵包浪費源於麵糰訂量過多。",
+        "promptZh": "eye-opening 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visit revealed an unexpected cause of waste.",
+            "zh": "參觀揭示了出乎意料的浪費原因。"
+          },
+          {
+            "id": "b",
+            "en": "Pupils opened their eyes after sleeping.",
+            "zh": "學生睡醒後張開眼睛。"
+          },
+          {
+            "id": "c",
+            "en": "The tour was merely pretty, with nothing new learned.",
+            "zh": "參觀只是漂亮，沒有學到新東西。"
+          },
+          {
+            "id": "d",
+            "en": "The bakery stopped making bread.",
+            "zh": "麵包店停止製作麵包。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生從參觀中發現原本不知道的原因。"
+      },
+      "reply": {
+        "promptEn": "Volunteers assumed the shelter mainly needed blankets. A visit showed that it had plenty of blankets but urgently needed weekend drivers. How was the visit?",
+        "promptZh": "（義工以為收容所主要缺毛氈；參觀後發現毛氈充足，反而急需週末司機。這次參觀如何？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It corrected their mistaken assumption.",
+            "zh": "它糾正了他們錯誤的假設。"
+          },
+          {
+            "id": "b",
+            "en": "They learned an unexpected priority.",
+            "zh": "他們得知出乎意料的優先需要。"
+          },
+          {
+            "id": "c",
+            "en": "What they discovered made this an eye-opening visit.",
+            "zh": "這項發現令參觀富有啟發性。"
+          },
+          {
+            "id": "d",
+            "en": "It changed what help they planned to offer.",
+            "zh": "它改變了他們打算提供的協助。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據毛氈與司機的反差作答。"
+      },
+      "scene": {
+        "promptZh": "學生看見學校能源報告，發現空置課室的燈比電腦更耗電。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The report was eye-opening because it revealed an unexpected source of energy use.",
+            "zh": "報告令人大開眼界，因為它揭示意料之外的耗電來源。"
+          },
+          {
+            "id": "b",
+            "en": "The report was eye-opening only because it used bright colours.",
+            "zh": "報告只因顏色鮮艷而令人開眼界。"
+          },
+          {
+            "id": "c",
+            "en": "The figures confirmed exactly what everyone already knew.",
+            "zh": "數字完全確認了人人早已知道的事。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "意外發現帶來新的理解。"
+      },
+      "contrast": {
+        "promptZh": "哪句有足夠證據支持 eye-opening？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The food audit was eye-opening: it showed that unopened meals made up most of the waste.",
+            "zh": "膳食審計令人大開眼界：它顯示大部分浪費來自未開封餐盒。"
+          },
+          {
+            "id": "b",
+            "en": "The audit contained the expected totals and taught the team nothing new, so it was eye-opening.",
+            "zh": "審計只有預期總數，沒有新發現，卻說大開眼界。"
+          },
+          {
+            "id": "c",
+            "en": "The auditor opened her eyes while reading, so the report was eye-opening.",
+            "zh": "審計員閱讀時張開眼，因此報告令人開眼界。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體新發現支持形容詞。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 eye-opening 必須是視力變好。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An eye-opening interview can change what we understand about a problem.",
+            "zh": "具啟發性的訪問可改變我們對問題的理解。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it describes only improved eyesight.",
+            "zh": "對，它只描述視力改善。"
+          },
+          {
+            "id": "c",
+            "en": "It means the interview was necessarily entertaining.",
+            "zh": "它表示訪問必定有娛樂性。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重點是認識而非視力。"
+      },
+      "speaking": {
+        "en": "The recycling centre visit was eye-opening: we discovered that sorting errors, not collection days, caused most delays.",
+        "zh": "回收中心參觀令人大開眼界：我們發現大部分延誤源於分類錯誤，而非收集日安排。",
+        "promptZh": "指出原先可能誤會的原因與真正原因。",
+        "targetSpan": {
+          "start": 31,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生原以為校園用水最多的是操場灌溉；實測發現漏水的舊水箱耗水更多。用英文描述這項出乎意料的新發現，勿只說「很好玩」。",
+        "selfCheckZh": "兩個示範都要寫出原先猜測操場、實測發現舊水箱漏水較多，以及因此有新理解。",
+        "examples": [
+          {
+            "en": "The water survey was eye-opening: students expected the playing field to use the most water, but a leaking old tank used more.",
+            "zh": "用水調查令人大開眼界：學生原以為操場耗水最多，實際上漏水的舊水箱耗水更多。"
+          },
+          {
+            "en": "Students assumed the playing field was the biggest user. Measurements showed the leaking old tank used more water, making the survey eye-opening.",
+            "zh": "學生以為操場耗水最多；實測顯示漏水的舊水箱用水更多，令調查成為大開眼界的經歷。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "water survey",
+            "zh": "用水調查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "playing field",
+            "zh": "操場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 69
+            }
+          },
+          {
+            "en": "leaking old tank",
+            "zh": "漏水的舊水箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 115
+            }
+          },
+          {
+            "en": "Measurements",
+            "zh": "實測數據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 69
+            }
+          },
+          {
+            "en": "biggest user",
+            "zh": "最大用水者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 55
+            }
+          },
+          {
+            "en": "the survey",
+            "zh": "調查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 132
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Eye-opening describes an experience that reveals something unexpected.",
+          "zh": "eye-opening 描述揭示意料之外資訊的經歷。"
+        },
+        {
+          "en": "An eye-opening finding changes understanding, not eyesight.",
+          "zh": "令人開眼界的發現改變的是理解，不是視力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4620",
+      "number": 4620,
+      "inventoryId": "expr-4620",
+      "titleEn": "shake loose old assumptions",
+      "titleZh": "動搖舊有假設",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:shake|shakes|shook|shaken|shaking)\\s+loose\\s+(?:[\\w’\\'-]+\\s+){0,4}assumptions?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Weaken assumptions someone had held firmly, often through a new experience.",
+        "meaningZh": "透過新經歷，動搖原本根深蒂固的假設。",
+        "grammar": "Shake loose + someone’s old assumptions; shaken/shook vary by tense. The source says an experience shakes loose some of their old assumptions, not necessarily every belief.",
+        "register": "Reflective discussion; a tutor asks students how fieldwork challenged what they took for granted.",
+        "boundaryZh": "表示舊假設受到挑戰，不等於所有想法都被證明錯誤或即刻消失。",
+        "misconceptionZh": "不是把物件搖鬆；須指出原本的假設及新證據。",
+        "outcomeZh": "能對照舊想法與新發現，說明何者受到動搖。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2509",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 237,
+          "book": 16,
+          "question": 49,
+          "sample": "S1",
+          "sourceBookPages": "116–117",
+          "locatorNote": "DOCX table 264, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "For many travellers, the experience shakes loose some of their old assumptions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "shakes loose some of their old assumptions"
+        }
+      ],
+      "listening": {
+        "en": "The farm visit shook loose the pupils’ assumption that every crop grows in open fields; they saw herbs thriving indoors.",
+        "zh": "農場參觀動搖學生以為所有作物都在露天田地生長的假設；他們看見香草在室內茂盛生長。",
+        "promptZh": "shook loose ... assumption 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visit challenged a belief the pupils had held.",
+            "zh": "參觀挑戰了學生原有的想法。"
+          },
+          {
+            "id": "b",
+            "en": "The pupils shook plants out of the soil.",
+            "zh": "學生把植物從泥土搖出來。"
+          },
+          {
+            "id": "c",
+            "en": "Every belief they had was proved false.",
+            "zh": "他們所有想法都被證明錯誤。"
+          },
+          {
+            "id": "d",
+            "en": "The visit confirmed that no crops grow indoors.",
+            "zh": "參觀證實室內沒有作物生長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "室內香草提供反例，動搖原本假設。"
+      },
+      "reply": {
+        "promptEn": "A student assumed all public meetings excluded teenagers. At a council visit, she saw a youth panel presenting proposals and receiving replies. What did the experience do?",
+        "promptZh": "（學生原以為所有公共會議都排除青少年。參觀議會時，她看見青年小組提出建議並獲回覆。這次經歷有何作用？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It challenged her broad belief about youth participation.",
+            "zh": "它挑戰了她對青年參與的籠統想法。"
+          },
+          {
+            "id": "b",
+            "en": "She found an example that did not fit her expectation.",
+            "zh": "她找到一個與預期不符的例子。"
+          },
+          {
+            "id": "c",
+            "en": "It shook loose one of her old assumptions.",
+            "zh": "它動搖了她的一項舊有假設。"
+          },
+          {
+            "id": "d",
+            "en": "She now has reason to rethink that belief.",
+            "zh": "她現在有理由重想那項看法。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均由青年小組參與推論舊假設受到挑戰。"
+      },
+      "scene": {
+        "promptZh": "旅客原以為夜間博物館只適合成人；參觀後看見大量兒童互動活動。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The visit shook loose their old assumptions about who the museum served.",
+            "zh": "參觀動搖他們對博物館服務對象的舊假設。"
+          },
+          {
+            "id": "b",
+            "en": "The visit physically loosened the building’s walls.",
+            "zh": "參觀實際搖鬆了建築物牆壁。"
+          },
+          {
+            "id": "c",
+            "en": "The visit proved that every earlier belief they held was wrong.",
+            "zh": "參觀證明他們所有舊想法都錯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "具體反例挑戰一項舊想法。"
+      },
+      "contrast": {
+        "promptZh": "哪句沒有把動搖說成徹底推翻一切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One interview shook loose her assumption that all residents opposed the plan; she will gather more views.",
+            "zh": "一場訪問動搖她以為所有居民都反對計劃的假設；她會再收集意見。"
+          },
+          {
+            "id": "b",
+            "en": "One interview showed support, so every question about the plan has been settled forever.",
+            "zh": "一場訪問顯示支持，因此所有問題永遠解決。"
+          },
+          {
+            "id": "c",
+            "en": "She already knew residents held mixed views, so the same evidence changed no assumption.",
+            "zh": "她早知居民意見不一，因此同一證據沒有動搖任何假設。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一個反例足以動搖「所有」的假設，但仍可繼續查證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 shake loose old assumptions 是把舊物件從架上搖下。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "New evidence can shake loose our old assumptions without settling every question.",
+            "zh": "新證據可動搖舊假設，卻未必解決每個問題。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always describes physical shaking.",
+            "zh": "對，它必定描述實際搖動。"
+          },
+          {
+            "id": "c",
+            "en": "It means keeping every old belief unchanged.",
+            "zh": "它表示保留所有舊想法不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語比喻信念受到挑戰。"
+      },
+      "speaking": {
+        "en": "The volunteer exchange shook loose our assumptions about rural internet access when we found a thriving online homework club.",
+        "zh": "義工交流讓我們發現一個活躍的網上功課小組，動搖了我們對鄉郊上網情況的假設。",
+        "promptZh": "說出新發現如何挑戰舊假設。",
+        "targetSpan": {
+          "start": 23,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：居民原以為只有長者使用社區食物銀行；義工統計發現不少有幼兒的家庭也會使用。用英文說明數據動搖某項舊假設，但勿說每種舊看法都已被推翻。",
+        "selfCheckZh": "兩個示範都應寫出原以為只有長者使用、數據顯示不少有幼兒家庭、特定舊假設被動搖。",
+        "examples": [
+          {
+            "en": "The volunteer count shook loose the old assumption that only older people used the food bank: many families with young children also came.",
+            "zh": "義工統計動搖了只有長者使用食物銀行的舊假設：不少有幼兒的家庭也來使用。"
+          },
+          {
+            "en": "Residents assumed the food bank served older people alone, but volunteers counted many families with young children. That evidence shook loose one of their assumptions.",
+            "zh": "居民以為食物銀行只服務長者，但義工也數到不少有幼兒的家庭；這項證據動搖了他們的一項假設。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "volunteer count",
+            "zh": "義工統計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "older people",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 73
+            }
+          },
+          {
+            "en": "young children",
+            "zh": "幼兒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 127
+            }
+          },
+          {
+            "en": "Residents",
+            "zh": "居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "food bank",
+            "zh": "食物銀行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 31
+            }
+          },
+          {
+            "en": "That evidence",
+            "zh": "這項證據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Shake loose an assumption means make a held belief less secure.",
+          "zh": "shake loose an assumption 指動搖原本堅信的想法。"
+        },
+        {
+          "en": "Shaking loose old assumptions need not overturn every belief.",
+          "zh": "動搖舊假設不等於推翻所有看法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4624",
+      "number": 4624,
+      "inventoryId": "expr-4624",
+      "titleEn": "waiting game",
+      "titleZh": "漫長等待的局面",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwaiting\\s+game\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A situation in which delay and uncertainty dominate what people can do next.",
+        "meaningZh": "延誤和不確定性主導下一步，形成漫長等待局面。",
+        "grammar": "Become/be a waiting game; often describes waiting for a decision, opening or queue to move. Name what must happen before action can continue.",
+        "register": "Conversational to neutral; an event organiser explains why an approval delay prevents booking.",
+        "boundaryZh": "不只是等待幾秒；等待須成為整件事的主要限制。",
+        "misconceptionZh": "不是可玩的遊戲，也不表示等待者完全沒有任何選擇。",
+        "outcomeZh": "能指出等待對下一步造成的實際限制。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2513",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 238,
+          "book": 16,
+          "question": 50,
+          "sample": "S1",
+          "sourceBookPages": "118–119",
+          "locatorNote": "DOCX table 265, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Driving downtown can become a waiting game.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "waiting game"
+        }
+      ],
+      "listening": {
+        "en": "The theatre cannot announce dates until the safety report arrives, so planning has become a waiting game.",
+        "zh": "劇院在收到安全報告前不能公布日期，因此規劃變成漫長等待的局面。",
+        "promptZh": "waiting game 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The missing report is delaying the next step.",
+            "zh": "尚未收到的報告拖延下一步。"
+          },
+          {
+            "id": "b",
+            "en": "Staff are playing a game in the foyer.",
+            "zh": "職員在大堂玩遊戲。"
+          },
+          {
+            "id": "c",
+            "en": "The dates have already been announced.",
+            "zh": "日期已經公布。"
+          },
+          {
+            "id": "d",
+            "en": "The report has no effect on planning.",
+            "zh": "報告對規劃沒有影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "安全報告未到，日期便不能定。"
+      },
+      "reply": {
+        "promptEn": "A laboratory ordered a replacement part. The test can resume only when it arrives, and the supplier has no confirmed delivery date. How would you describe the project now?",
+        "promptZh": "（實驗室訂了替換零件；要等零件到達才可恢復測試，供應商也未能確認送貨日期。如何形容現時項目？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Progress depends on an uncertain delivery.",
+            "zh": "進展取決於未能確定的送貨。"
+          },
+          {
+            "id": "b",
+            "en": "The team cannot resume the test yet.",
+            "zh": "團隊尚未能恢復測試。"
+          },
+          {
+            "id": "c",
+            "en": "For now, the project is a waiting game.",
+            "zh": "目前項目變成漫長等待的局面。"
+          },
+          {
+            "id": "d",
+            "en": "The missing part is holding up the next step.",
+            "zh": "未到的零件拖延下一步。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均指出零件未到阻礙測試。"
+      },
+      "scene": {
+        "promptZh": "活動場地要等消防批准才可開放，但批准日期未定。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Opening the venue has become a waiting game.",
+            "zh": "場地開放變成漫長等待的局面。"
+          },
+          {
+            "id": "b",
+            "en": "Visitors are playing a timed board game at the venue.",
+            "zh": "訪客在場地玩計時棋盤遊戲。"
+          },
+          {
+            "id": "c",
+            "en": "The venue has received approval and opened already.",
+            "zh": "場地已獲批准並開放。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "未定的批准時間主導下一步。"
+      },
+      "contrast": {
+        "promptZh": "哪句顯示等待已成主要限制？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Without the permit, crews cannot install the stage; preparations are a waiting game.",
+            "zh": "沒有許可證，工人便不能安裝舞台；準備工作主要只能等待。"
+          },
+          {
+            "id": "b",
+            "en": "Crews can install everything now and merely pause for five seconds, so the project is a waiting game.",
+            "zh": "工人現在能完成全部安裝，只停五秒，也稱漫長等待。"
+          },
+          {
+            "id": "c",
+            "en": "The permit has arrived and nothing blocks the stage, but preparation is still a waiting game.",
+            "zh": "許可證已到，舞台沒有阻礙，卻仍稱等待局面。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "等待許可實際阻止關鍵步驟。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 waiting game 必定是比賽誰等得久。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is a waiting game when a decision cannot proceed until uncertain news arrives.",
+            "zh": "若決定須等未確定消息才可推進，便成了等待局面。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it always names a literal game.",
+            "zh": "對，它一定是一種真正遊戲。"
+          },
+          {
+            "id": "c",
+            "en": "It means the decision is already final.",
+            "zh": "它表示決定已經定案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語描述受等待控制的情況。"
+      },
+      "speaking": {
+        "en": "Until the repair certificate arrives, reopening the pool is a waiting game for the centre.",
+        "zh": "維修證明未到之前，中心重開泳池一事只能等候。",
+        "promptZh": "指出尚未收到哪份文件。",
+        "targetSpan": {
+          "start": 60,
+          "end": 74
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團已準備好服裝和演員，但須等場地當局核准新的出口標示才能售票，核准日期未定。用英文指出整體進度受等待限制。",
+        "selfCheckZh": "兩個示範都應寫出服裝與演員已準備好、售票須等出口標示核准、核准日期未定。",
+        "examples": [
+          {
+            "en": "Costumes and actors are ready, but ticket sales are a waiting game until the venue approves the new exit signs, and no approval date is set.",
+            "zh": "服裝和演員已準備好，但須待場地核准新出口標示才能售票，且核准日期未定，因此售票變成等待局面。"
+          },
+          {
+            "en": "The troupe has its cast and costumes in place. With no date for approval of the new exit signs, selling tickets has become a waiting game.",
+            "zh": "劇團的演員和服裝已就緒；新出口標示的核准日期未定，售票因此變成漫長等待的局面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Costumes",
+            "zh": "服裝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 8
+            }
+          },
+          {
+            "en": "ticket sales",
+            "zh": "售票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 47
+            }
+          },
+          {
+            "en": "exit signs",
+            "zh": "出口標示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 110
+            }
+          },
+          {
+            "en": "cast",
+            "zh": "演員陣容",
+            "exampleIndex": 1,
+            "span": {
+              "start": 19,
+              "end": 23
+            }
+          },
+          {
+            "en": "approval",
+            "zh": "核准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 72
+            }
+          },
+          {
+            "en": "selling tickets",
+            "zh": "售票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A waiting game is a process dominated by delay.",
+          "zh": "waiting game 指主要受延誤左右的進程。"
+        },
+        {
+          "en": "A process becomes a waiting game when a missing decision blocks the next step.",
+          "zh": "缺少決定阻礙下一步時，事情便成等待局面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4632",
+      "number": 4632,
+      "inventoryId": "expr-4632",
+      "titleEn": "let your guard down",
+      "titleZh": "放鬆警惕",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:let|lets|letting)\\s+(?:[\\w’\\'-]+\\s+){0,2}guard\\s+down\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become less careful or watchful, sometimes when caution is still needed.",
+        "meaningZh": "在仍須留意時降低戒心或警覺。",
+        "grammar": "Let one’s guard down; possessive changes with person: my/your/his/her/their guard. Let is unchanged in past tense; letting in progressive.",
+        "register": "Conversational safety advice; a digital-safety trainer warns travellers about convincing fake booking sites.",
+        "boundaryZh": "表示警覺下降，不等於證明已受騙；在安全情境下放鬆也未必不合理。",
+        "misconceptionZh": "不是把實體護衛放下；須分清警覺下降與損害已發生。",
+        "outcomeZh": "能指出哪個線索本應維持警惕，以及放鬆後的風險。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2521",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 238,
+          "book": 16,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "120–121",
+          "locatorNote": "DOCX table 266, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Travellers should not let their guard down online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "let their guard down"
+        }
+      ],
+      "listening": {
+        "en": "The booking page copied the hotel logo, so Tariq let his guard down and entered his details before checking the web address.",
+        "zh": "訂房頁面複製酒店標誌，Tariq 因而放鬆警惕，未核對網址便輸入資料。",
+        "promptZh": "let his guard down 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He became less careful because the page looked genuine.",
+            "zh": "頁面看似真實，令他降低戒心。"
+          },
+          {
+            "id": "b",
+            "en": "He dismissed a physical security guard.",
+            "zh": "他把一名實體保安遣走。"
+          },
+          {
+            "id": "c",
+            "en": "The site was confirmed safe by its logo.",
+            "zh": "標誌證明網站安全。"
+          },
+          {
+            "id": "d",
+            "en": "He checked the address before entering any detail.",
+            "zh": "他輸入資料前已核對網址。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "只看標誌而未核網址，顯示警覺下降。"
+      },
+      "reply": {
+        "promptEn": "An email looks like it came from the airline, but its sender address has an extra letter. Your friend is about to open its payment link without checking. What would you say?",
+        "promptZh": "（電郵看似來自航空公司，但寄件地址多了一個字母；朋友正要不核對便開付款連結。你會說甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The extra letter is a reason to pause and check.",
+            "zh": "多出的字母是停下核對的理由。"
+          },
+          {
+            "id": "b",
+            "en": "Do not trust the logo alone; verify the sender first.",
+            "zh": "別只相信標誌，先核實寄件者。"
+          },
+          {
+            "id": "c",
+            "en": "Do not let your guard down just because the email looks familiar.",
+            "zh": "別因電郵看似熟悉便放鬆警惕。"
+          },
+          {
+            "id": "d",
+            "en": "Check the address before using the payment link.",
+            "zh": "使用付款連結前先核對地址。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據寄件地址異常提出合理警示。"
+      },
+      "scene": {
+        "promptZh": "陌生網站要求護照資料，頁面設計精美，但網址拼錯公司名稱。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Do not let your guard down because the design looks polished.",
+            "zh": "別因設計精美便放鬆警惕。"
+          },
+          {
+            "id": "b",
+            "en": "A polished design proves the site is genuine.",
+            "zh": "精美設計證明網站真實。"
+          },
+          {
+            "id": "c",
+            "en": "You must dismiss your security guard from the room.",
+            "zh": "你必須把保安從房間遣走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "拼錯網址是須保持警覺的線索。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把「降低戒心」直接說成「已受騙」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She let her guard down and clicked the link, but the page was blocked before she entered any data.",
+            "zh": "她放鬆警惕並按了連結，但頁面在輸入資料前已被封鎖。"
+          },
+          {
+            "id": "b",
+            "en": "She let her guard down, so a loss has definitely occurred.",
+            "zh": "她一放鬆警惕，就一定已遭受損失。"
+          },
+          {
+            "id": "c",
+            "en": "She checked the address carefully, so she let her guard down by staying alert.",
+            "zh": "她仔細核對網址，因此保持警覺就是放鬆戒心。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "降低警覺可帶來風險，不代表損害必然發生。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 guard 必定指真人保安。哪句修正較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A traveller can let their guard down by overlooking a false sender address.",
+            "zh": "旅客忽略假寄件地址，就可能放鬆警惕。"
+          },
+          {
+            "id": "b",
+            "en": "Yes; it only means sending a guard home.",
+            "zh": "對，它只指讓保安回家。"
+          },
+          {
+            "id": "c",
+            "en": "It means becoming more watchful.",
+            "zh": "它表示變得更警惕。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "guard 在片語中指個人的戒心。"
+      },
+      "speaking": {
+        "en": "When a booking message asks for a second payment, do not let your guard down just because it uses the hotel’s name.",
+        "zh": "訂房訊息要求第二次付款時，別因它使用酒店名稱便放鬆警惕。",
+        "promptZh": "指出哪個表面線索不足以證明訊息可靠。",
+        "targetSpan": {
+          "start": 57,
+          "end": 76
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友收到自稱是醫院的短訊，要求按連結更新個人資料；短訊用了熟悉的標誌，但電話號碼與醫院官網不符。用英文提醒朋友保持警覺及核對官方號碼，不要斷言已受騙。",
+        "selfCheckZh": "兩個示範都應寫出熟悉標誌、號碼與官網不符、須保持警覺並核對官方號碼；不可說已發生損失。",
+        "examples": [
+          {
+            "en": "The familiar logo is not enough: the text uses a number that differs from the hospital’s website. Do not let your guard down; verify the official number before opening the link.",
+            "zh": "熟悉標誌不足以證明真偽：短訊號碼與醫院網站不同。別放鬆警惕；開連結前核對官方號碼。"
+          },
+          {
+            "en": "Before updating any details through the message, check the number on the hospital’s own site. The logo looks familiar, but you should not let your guard down when the sender number does not match.",
+            "zh": "透過短訊更新資料前，先查醫院官網號碼。標誌雖熟悉，但寄件號碼不符時不應放鬆警惕。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "familiar logo",
+            "zh": "熟悉標誌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "hospital’s website",
+            "zh": "醫院網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 96
+            }
+          },
+          {
+            "en": "official number",
+            "zh": "官方號碼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 152
+            }
+          },
+          {
+            "en": "updating any details",
+            "zh": "更新任何資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 27
+            }
+          },
+          {
+            "en": "hospital’s own site",
+            "zh": "醫院官網",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          },
+          {
+            "en": "sender number",
+            "zh": "寄件號碼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Let your guard down means become less watchful.",
+          "zh": "let your guard down 指放鬆警惕。"
+        },
+        {
+          "en": "Letting your guard down raises risk, but does not prove harm occurred.",
+          "zh": "放鬆警惕會增加風險，但不證明已受損害。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4634",
+      "number": 4634,
+      "inventoryId": "expr-4634",
+      "titleEn": "in a heartbeat",
+      "titleZh": "轉眼間",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin\\s+a\\s+heartbeat\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Very quickly, with little time to react; it can also express willingness to act immediately in other contexts.",
+        "meaningZh": "轉眼間、極快；其他語境亦可表示毫不猶豫願意即時行動。",
+        "grammar": "In a heartbeat is an adverbial phrase modifying change or action. Source: a lost phone can change plans in a heartbeat.",
+        "register": "Conversational; a trip leader explains to students why plans need a backup.",
+        "boundaryZh": "強調速度，不等於變化真的只需一次心跳，也不表示結果一定不好。",
+        "misconceptionZh": "不是測量生理心跳；須根據動詞判斷是迅速變化還是立即願意行動。",
+        "outcomeZh": "能辨認事情迅速發生及其後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2523",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "120–121",
+          "locatorNote": "DOCX table 266, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A lost phone can change plans in a heartbeat.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in a heartbeat"
+        }
+      ],
+      "listening": {
+        "en": "A burst pipe flooded the rehearsal room, and the evening plan changed in a heartbeat.",
+        "zh": "水管突然爆裂淹浸排練室，晚間安排轉眼間便改變。",
+        "promptZh": "in a heartbeat 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The plan changed very quickly.",
+            "zh": "計劃極快改變。"
+          },
+          {
+            "id": "b",
+            "en": "Someone measured one pulse beat.",
+            "zh": "有人量度了一次脈搏。"
+          },
+          {
+            "id": "c",
+            "en": "The flood developed over many months.",
+            "zh": "水浸持續了好幾個月才形成。"
+          },
+          {
+            "id": "d",
+            "en": "The original plan stayed exactly the same.",
+            "zh": "原定計劃完全不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "突發水浸使計劃迅速改變。"
+      },
+      "reply": {
+        "promptEn": "The outdoor cinema was ready. Then a storm warning arrived, and the team immediately moved the screening indoors. How fast did the plan change?",
+        "promptZh": "（戶外電影活動已準備就緒；之後暴風雨警告到達，團隊立即把放映移到室內。計劃改得有多快？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The warning triggered an immediate switch.",
+            "zh": "警告觸發即時轉換。"
+          },
+          {
+            "id": "b",
+            "en": "The team changed venue right away.",
+            "zh": "團隊立即更改場地。"
+          },
+          {
+            "id": "c",
+            "en": "The plan changed in a heartbeat.",
+            "zh": "計劃轉眼間便改變。"
+          },
+          {
+            "id": "d",
+            "en": "The move happened as soon as the warning arrived.",
+            "zh": "警告一到便遷移。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均表示警告後立即轉場。"
+      },
+      "scene": {
+        "promptZh": "原定長途巴士突然故障，領隊立即改訂附近的列車。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The travel plan changed in a heartbeat.",
+            "zh": "行程轉眼間便改變。"
+          },
+          {
+            "id": "b",
+            "en": "The plan changed over several decades.",
+            "zh": "行程經過幾十年才改變。"
+          },
+          {
+            "id": "c",
+            "en": "The leader counted actual heartbeats to buy tickets.",
+            "zh": "領隊數心跳來買票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "突發故障使路線立即更改。"
+      },
+      "contrast": {
+        "promptZh": "哪句區分「變化很快」與「結果一定不佳」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The rehearsal moved indoors in a heartbeat after the rain began, and the audience still enjoyed it.",
+            "zh": "下雨後排練轉眼間移到室內，觀眾仍然欣賞。"
+          },
+          {
+            "id": "b",
+            "en": "The move happened in a heartbeat, so the performance must have failed.",
+            "zh": "轉移很快，所以演出必定失敗。"
+          },
+          {
+            "id": "c",
+            "en": "The move took six months, so in a heartbeat is a precise time measurement.",
+            "zh": "遷移花了半年，因此轉眼間是精確計時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語只強調速度，結果仍可順利。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為 in a heartbeat 必須指一秒內的心臟活動。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A sudden announcement can change our plan in a heartbeat.",
+            "zh": "突發公告可令計劃轉眼間改變。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it is a clinical pulse measurement.",
+            "zh": "對，它是臨床脈搏測量。"
+          },
+          {
+            "id": "c",
+            "en": "It always means a slow change.",
+            "zh": "它必定表示緩慢變化。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是誇張的速度比喻。"
+      },
+      "speaking": {
+        "en": "When the power went out, the cooking lesson moved outdoors in a heartbeat so the class could continue.",
+        "zh": "停電後，烹飪課轉眼間移到戶外，以便繼續上課。",
+        "promptZh": "指出促成即時轉變的事件。",
+        "targetSpan": {
+          "start": 59,
+          "end": 73
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校戲劇表演前一刻主舞台燈光故障；團隊立即把演出轉到已準備好的小劇場，表演仍順利。用英文強調轉場很快，勿說演出必然失敗。",
+        "selfCheckZh": "兩個示範都應寫出主舞台燈光故障、立即轉到已備妥的小劇場、表演仍順利。",
+        "examples": [
+          {
+            "en": "When the main stage lights failed just before the show, the team moved to its prepared studio in a heartbeat, and the performance still went well.",
+            "zh": "演出前主舞台燈光故障，團隊轉眼間移到已準備好的小劇場，表演仍然順利。"
+          },
+          {
+            "en": "The lights failed moments before the school play, but the prepared smaller theatre let the cast switch venues in a heartbeat and perform successfully.",
+            "zh": "學校劇演出前一刻燈光故障，但已備妥的小劇場讓演員轉眼間更換場地，順利演出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "main stage lights",
+            "zh": "主舞台燈光",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 26
+            }
+          },
+          {
+            "en": "prepared studio",
+            "zh": "已準備好的小劇場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 93
+            }
+          },
+          {
+            "en": "performance",
+            "zh": "表演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 129
+            }
+          },
+          {
+            "en": "moments before",
+            "zh": "前一刻",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "smaller theatre",
+            "zh": "小劇場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 82
+            }
+          },
+          {
+            "en": "cast",
+            "zh": "演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In a heartbeat emphasises how fast an action or change happens.",
+          "zh": "in a heartbeat 強調行動或變化發生得極快。"
+        },
+        {
+          "en": "A plan can change in a heartbeat and still work well.",
+          "zh": "計劃可以轉眼間改變，而結果仍然順利。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4635",
+      "number": 4635,
+      "inventoryId": "expr-4635",
+      "titleEn": "fall for a scam",
+      "titleZh": "受騙上當",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:fall|falls|fell|fallen|falling)\\s+for\\s+(?:[\\w’\\'-]+\\s+){0,4}scam\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be deceived by a fraudulent offer or message.",
+        "meaningZh": "被欺詐提議或訊息騙倒。",
+        "grammar": "Fall for + a scam/trick; fell for in the past. Source uses fall for an online scam; the object names the deception.",
+        "register": "Conversational safety advice; a community educator explains fraud warning signs to older learners.",
+        "boundaryZh": "單純收到可疑訊息不等於已受騙；須有相信或依照騙局行動的線索。",
+        "misconceptionZh": "不是身體跌倒，也不是愛上某人；fall for 有多種意思，這課聚焦受騙。",
+        "outcomeZh": "能分辨接觸騙局與真的相信騙局。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2524",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 51,
+          "sample": "S2",
+          "sourceBookPages": "120–121",
+          "locatorNote": "DOCX table 266, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Even experienced users can fall for an online scam.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fall for an online scam"
+        }
+      ],
+      "listening": {
+        "en": "The fake charity page promised a receipt, and Omar paid before checking its registration; he fell for the scam.",
+        "zh": "假慈善頁面承諾發收據，Omar 未查註冊資料便付款，因而受騙。",
+        "promptZh": "fell for the scam 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He believed the false appeal and acted on it.",
+            "zh": "他相信虛假籌款並付款。"
+          },
+          {
+            "id": "b",
+            "en": "He physically tripped near the page.",
+            "zh": "他在頁面旁實際跌倒。"
+          },
+          {
+            "id": "c",
+            "en": "He noticed the fraud and refused to pay.",
+            "zh": "他發現騙局並拒絕付款。"
+          },
+          {
+            "id": "d",
+            "en": "The charity registration was verified first.",
+            "zh": "慈善註冊資料已先核實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "相信假頁面並付款，才是受騙。"
+      },
+      "reply": {
+        "promptEn": "A message promises a free rail pass if you send a small processing fee. Your friend has already paid it before checking the operator’s site. What likely happened?",
+        "promptZh": "（短訊承諾只要先付小額手續費便送免費鐵路通行證；朋友未核對營運商官網便已付款。可能發生甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Your friend acted on an unverified false offer.",
+            "zh": "朋友依照未核實的虛假優惠付款。"
+          },
+          {
+            "id": "b",
+            "en": "The processing-fee promise deceived your friend.",
+            "zh": "手續費承諾騙了你的朋友。"
+          },
+          {
+            "id": "c",
+            "en": "Your friend fell for an online scam.",
+            "zh": "你的朋友中了網上騙局。"
+          },
+          {
+            "id": "d",
+            "en": "Payment came before checking the genuine operator.",
+            "zh": "付款發生在核對真正營運商之前。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據先付款後查證描述受騙。"
+      },
+      "scene": {
+        "promptZh": "有人收到假銀行電郵，但先致電銀行確認，沒有按連結或提供資料。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She spotted the attempt and did not fall for the scam.",
+            "zh": "她察覺企圖，沒有受騙。"
+          },
+          {
+            "id": "b",
+            "en": "She fell for the scam merely by receiving the email.",
+            "zh": "她只因收到電郵便已受騙。"
+          },
+          {
+            "id": "c",
+            "en": "She physically fell in the bank lobby.",
+            "zh": "她在銀行大堂跌倒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "收到訊息不等於相信並行動。"
+      },
+      "contrast": {
+        "promptZh": "哪句有充分受騙證據？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He believed the false delivery fee and paid it, so he fell for the scam.",
+            "zh": "他相信虛假的送貨費並付款，因此受騙。"
+          },
+          {
+            "id": "b",
+            "en": "He deleted the false message immediately, so he fell for the scam.",
+            "zh": "他立即刪除假訊息，因此受騙。"
+          },
+          {
+            "id": "c",
+            "en": "He read a warning about scams and therefore fell for one.",
+            "zh": "他讀了防騙警告，因此中了騙局。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "相信並付款才支持受騙判斷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 fall for a scam 就是「看見騙局」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You fall for a scam when you believe its false claim and respond to it.",
+            "zh": "相信騙局的虛假說法並依其行動，才是受騙。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, merely seeing the message is enough.",
+            "zh": "對，只要看見訊息便足夠。"
+          },
+          {
+            "id": "c",
+            "en": "It means losing balance while walking.",
+            "zh": "它表示走路時失去平衡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "片語涉及相信並被騙倒。"
+      },
+      "speaking": {
+        "en": "Do not fall for a fake donation scam just because the page displays a familiar logo; check the charity register first.",
+        "zh": "別因頁面展示熟悉標誌便相信假捐款騙局；先查慈善機構登記冊。",
+        "promptZh": "指出付款前應查甚麼。",
+        "targetSpan": {
+          "start": 7,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：假冒動物庇護所的網站要求即時捐款；Mira 已付款，之後才發現網址拼錯機構名稱。用英文說明她受騙的證據，並提出查證做法，勿把「收到網站」當作充分證據。",
+        "selfCheckZh": "兩個示範都應寫出網站假冒庇護所、Mira 已付款、網址拼錯、應核對官方網址。",
+        "examples": [
+          {
+            "en": "Mira fell for the shelter scam when she paid through the fake site; only afterward did she notice the misspelled address. She should check the official URL next time.",
+            "zh": "Mira 在假網站付款，中了冒充庇護所的騙局；她之後才發現網址拼錯。下次應先核對官方網址。"
+          },
+          {
+            "en": "After paying a site that imitated the animal shelter, Mira discovered its name was misspelled in the URL. She had fallen for the scam and should verify the shelter’s real address before donating again.",
+            "zh": "Mira 向假冒動物庇護所的網站付款後，才發現網址中的名稱拼錯。她已受騙，以後捐款前應核實庇護所真正網址。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fake site",
+            "zh": "假網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 66
+            }
+          },
+          {
+            "en": "misspelled address",
+            "zh": "拼錯的網址",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 120
+            }
+          },
+          {
+            "en": "official URL",
+            "zh": "官方網址",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 155
+            }
+          },
+          {
+            "en": "animal shelter",
+            "zh": "動物庇護所",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 52
+            }
+          },
+          {
+            "en": "misspelled",
+            "zh": "拼錯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 93
+            }
+          },
+          {
+            "en": "real address",
+            "zh": "真正網址",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 178
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fall for a scam requires being deceived, not merely contacted.",
+          "zh": "fall for a scam 指受騙，不只是收到接觸。"
+        },
+        {
+          "en": "Someone can avoid falling for a scam by verifying a suspicious claim first.",
+          "zh": "先核實可疑說法有助避免受騙。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4638",
+      "number": 4638,
+      "inventoryId": "expr-4638",
+      "titleEn": "calling card",
+      "titleZh": "代表性標誌",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:[\\w’\\'-]+\\s+){0,2}calling\\s+card\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A distinctive feature strongly associated with and representing a place or person.",
+        "meaningZh": "與某地方或人物緊密相關、具有代表性的鮮明特色。",
+        "grammar": "X is Y’s calling card; possessive names the place/person represented. Calling card is a noun phrase, not an action of making a telephone call.",
+        "register": "Neutral promotional or descriptive language; a city guide tells visitors why a local feature stands out.",
+        "boundaryZh": "重點是辨識度與代表性，不必聲稱它是唯一特色或每人都喜歡。",
+        "misconceptionZh": "不是電話卡；一項鮮為人知的偶發細節未必足以代表整個地方。",
+        "outcomeZh": "能用持續可辨的特色支持代表性判斷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2527",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 52,
+          "sample": "S1",
+          "sourceBookPages": "122–123",
+          "locatorNote": "DOCX table 267, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The skyline is the city's calling card.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the city's calling card"
+        }
+      ],
+      "listening": {
+        "en": "The hilltop lanterns appear on local signs and postcards, making them the town’s calling card.",
+        "zh": "山頂燈籠出現在當地標示及明信片上，成為小鎮的代表性標誌。",
+        "promptZh": "calling card 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A widely recognised feature represents the town.",
+            "zh": "一項廣為人知的特色代表小鎮。"
+          },
+          {
+            "id": "b",
+            "en": "The town gives visitors telephone cards.",
+            "zh": "小鎮給訪客電話卡。"
+          },
+          {
+            "id": "c",
+            "en": "The lanterns were seen once by one person only.",
+            "zh": "燈籠只被一人看過一次。"
+          },
+          {
+            "id": "d",
+            "en": "The lanterns are the town’s only feature.",
+            "zh": "燈籠是小鎮唯一特色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "標示與明信片反覆使用燈籠形象，顯示辨識度。"
+      },
+      "reply": {
+        "promptEn": "A coastal district is known for its colourful fishing boats; they appear in the district logo and on visitor maps. What could a guide say?",
+        "promptZh": "（海濱區以彩色漁船聞名；漁船出現在區徽及旅客地圖上。導遊可怎樣說？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The boats are a recognised symbol of the district.",
+            "zh": "漁船是該區公認的象徵。"
+          },
+          {
+            "id": "b",
+            "en": "The logo and maps use the boats as a visual identity.",
+            "zh": "區徽及地圖以漁船作形象標誌。"
+          },
+          {
+            "id": "c",
+            "en": "Those colourful boats are the district’s calling card.",
+            "zh": "那些彩色漁船是該區的代表性標誌。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors often associate the place with its boats.",
+            "zh": "訪客常把該地與漁船聯想起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據區徽與地圖中的漁船判斷代表性。"
+      },
+      "scene": {
+        "promptZh": "某鎮以週末陶藝市集聞名，官方旅遊圖冊每年以此作封面。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The pottery market is the town’s calling card.",
+            "zh": "陶藝市集是小鎮的代表性標誌。"
+          },
+          {
+            "id": "b",
+            "en": "The town has issued a new telephone calling card.",
+            "zh": "小鎮發行新電話卡。"
+          },
+          {
+            "id": "c",
+            "en": "The market is a one-off event no one recognises.",
+            "zh": "市集只辦一次而且無人認識。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期聞名且反覆用於旅遊形象。"
+      },
+      "contrast": {
+        "promptZh": "哪句避免把代表性誤說成唯一性？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The bridge is a calling card for the city, though its food and music are also distinctive.",
+            "zh": "大橋是城市的代表性標誌之一，飲食和音樂也具特色。"
+          },
+          {
+            "id": "b",
+            "en": "The bridge is the city’s calling card, so it has no other attractions at all.",
+            "zh": "大橋是城市標誌，因此城市完全沒有其他景點。"
+          },
+          {
+            "id": "c",
+            "en": "One hidden drain cover is the city’s calling card despite nobody knowing it.",
+            "zh": "無人知曉的一個隱蔽渠蓋是城市標誌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "代表性不排除其他特色。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 calling card 必須是可打電話的卡。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A signature night market can be a city’s calling card.",
+            "zh": "有代表性的夜市可以是城市的標誌。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, it is only a phone card.",
+            "zh": "對，它只是一張電話卡。"
+          },
+          {
+            "id": "c",
+            "en": "It means the city has exactly one street.",
+            "zh": "它表示城市只有一條街。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這裏是代表性特色的比喻。"
+      },
+      "speaking": {
+        "en": "The hand-painted trams are the district’s calling card, appearing on its map and festival banners.",
+        "zh": "手繪電車是該區代表性標誌，出現在地圖和節慶橫額上。",
+        "promptZh": "指出兩種支持其代表性的公開用途。",
+        "targetSpan": {
+          "start": 31,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：山城以每年冬天的燈光步道聞名，活動多年出現在旅遊標誌及本地明信片；城裏也有其他景點。用英文說明步道的代表性但不說它是唯一特色。",
+        "selfCheckZh": "兩個示範都應寫出冬季燈光步道、多年出現在旅遊標誌及明信片，並承認尚有其他景點。",
+        "examples": [
+          {
+            "en": "The winter light trail has become the hill town’s calling card after years on its tourism logo and postcards, although the town has other sights too.",
+            "zh": "冬季燈光步道多年出現在旅遊標誌及明信片上，成為山城的代表性標誌，儘管城裏還有其他景點。"
+          },
+          {
+            "en": "Years of tourism logos and postcards featuring the winter light trail have made it the town’s calling card, not its only attraction.",
+            "zh": "多年來旅遊標誌及明信片都以冬季燈光步道為主題，使它成為小鎮的代表性標誌，而非唯一景點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "winter light trail",
+            "zh": "冬季燈光步道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "tourism logo",
+            "zh": "旅遊標誌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 94
+            }
+          },
+          {
+            "en": "other sights",
+            "zh": "其他景點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 144
+            }
+          },
+          {
+            "en": "postcards",
+            "zh": "明信片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 27,
+              "end": 36
+            }
+          },
+          {
+            "en": "featuring",
+            "zh": "以……為主題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 46
+            }
+          },
+          {
+            "en": "only attraction",
+            "zh": "唯一景點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A calling card is a recognisable feature that represents someone or somewhere.",
+          "zh": "calling card 是代表人物或地方的鮮明特色。"
+        },
+        {
+          "en": "A city’s calling card need not be its only attraction.",
+          "zh": "城市的代表性標誌不必是唯一景點。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-4644",
+      "number": 4644,
+      "inventoryId": "expr-4644",
+      "titleEn": "more than one face",
+      "titleZh": "不止一種面貌",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bmore\\s+than\\s+one\\s+face\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have several distinct aspects or ways of being experienced.",
+        "meaningZh": "有幾種不同面貌或可體驗的側面。",
+        "grammar": "X has more than one face; subject X is a city, institution or situation. Face is metaphorical for an aspect, not a literal human face.",
+        "register": "Neutral descriptive language; a local guide explains varied neighbourhood experiences to visitors.",
+        "boundaryZh": "需有至少兩個可辨的不同側面，不能只是同一特色反覆描述。",
+        "misconceptionZh": "不是人真的有多張臉；不同面貌可以同時存在，不一定互相矛盾。",
+        "outcomeZh": "能舉出兩個具體不同側面，避免空泛讚美。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2533",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 239,
+          "book": 16,
+          "question": 52,
+          "sample": "S2",
+          "sourceBookPages": "122–123",
+          "locatorNote": "DOCX table 267, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The city has more than one face for visitors.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "more than one face"
+        }
+      ],
+      "listening": {
+        "en": "This harbour has more than one face: fishing boats at dawn and busy food stalls after dark.",
+        "zh": "這個海港不止一種面貌：清晨有漁船，入夜後食檔熱鬧。",
+        "promptZh": "more than one face 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The harbour offers distinct experiences at different times.",
+            "zh": "海港在不同時間呈現不同體驗。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor sees two literal human faces.",
+            "zh": "訪客看見兩張真人面孔。"
+          },
+          {
+            "id": "c",
+            "en": "The harbour is identical at every hour.",
+            "zh": "海港任何時候都完全一樣。"
+          },
+          {
+            "id": "d",
+            "en": "Only the evening stalls exist.",
+            "zh": "只有傍晚食檔存在。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "清晨寧靜與傍晚熱鬧是不同側面。"
+      },
+      "reply": {
+        "promptEn": "A visitor knows the island for crowded summer beaches. A resident shows her quiet winter bird paths and small research centre. What has the visitor learned?",
+        "promptZh": "（訪客只知道島上夏季海灘擠擁；居民帶她看冬季寧靜的觀鳥徑及小研究中心。訪客學到甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The island has experiences beyond its summer beaches.",
+            "zh": "島嶼除了夏季海灘還有其他體驗。"
+          },
+          {
+            "id": "b",
+            "en": "Winter reveals a quieter side of the island.",
+            "zh": "冬季顯示島嶼較寧靜的一面。"
+          },
+          {
+            "id": "c",
+            "en": "The island has more than one face.",
+            "zh": "島嶼不止一種面貌。"
+          },
+          {
+            "id": "d",
+            "en": "The research centre and bird paths broaden her view.",
+            "zh": "研究中心及觀鳥徑擴闊她的認識。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均對比擠擁海灘與寧靜冬季活動。"
+      },
+      "scene": {
+        "promptZh": "一所舊工廠白天是手工工作室，晚上則開放社區電影放映。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The old factory shows more than one face: workshop by day, cinema by night.",
+            "zh": "舊工廠不止一種面貌：白天是工作室，晚上是電影院。"
+          },
+          {
+            "id": "b",
+            "en": "The building has two literal faces like a person.",
+            "zh": "建築物像人一樣真的有兩張臉。"
+          },
+          {
+            "id": "c",
+            "en": "It has exactly the same use at every hour.",
+            "zh": "它每個時段的用途完全相同。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日間工作室與晚間放映是不同用途。"
+      },
+      "contrast": {
+        "promptZh": "哪句具體展示至少兩個不同側面？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The town has more than one face: busy market mornings and quiet riverside evenings.",
+            "zh": "小鎮不止一種面貌：早市熱鬧，河畔晚上寧靜。"
+          },
+          {
+            "id": "b",
+            "en": "The town has more than one face because its market is busy and crowded.",
+            "zh": "小鎮不止一種面貌，因為市集熱鬧又擁擠。"
+          },
+          {
+            "id": "c",
+            "en": "A shopkeeper smiled twice, so the town has more than one face.",
+            "zh": "店主笑了兩次，所以小鎮有多種面貌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "熱鬧早市與寧靜夜晚是兩個可分的側面。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說 more than one face 必定是「互相矛盾的兩張臉」。哪句較準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A city can have more than one face when its districts offer different but compatible experiences.",
+            "zh": "城市各區提供不同而可並存的體驗，也可說不止一種面貌。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, the two aspects must contradict each other.",
+            "zh": "對，兩種面貌必須互相矛盾。"
+          },
+          {
+            "id": "c",
+            "en": "It means everyone living there has a second face.",
+            "zh": "它表示每位居民都有第二張臉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不同側面可以並存。"
+      },
+      "speaking": {
+        "en": "The museum has more than one face: a quiet study room upstairs and lively hands-on workshops below.",
+        "zh": "博物館不止一種面貌：樓上有安靜研習室，樓下有熱鬧的動手工作坊。",
+        "promptZh": "指出兩項不同的參觀體驗。",
+        "targetSpan": {
+          "start": 15,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：海邊圖書館平日上午提供安靜研究座位，週末舉辦熱鬧親子故事會；兩種服務同樣重要。用英文具體說明其不止一種面貌。",
+        "selfCheckZh": "兩個示範都應提及平日上午的安靜研究座位、週末親子故事會，以及兩種服務並存。",
+        "examples": [
+          {
+            "en": "The seaside library has more than one face: quiet research seats on weekday mornings and lively family story sessions at weekends, both valued by users.",
+            "zh": "海邊圖書館不止一種面貌：平日上午有安靜研究座位，週末有熱鬧的親子故事會，兩者都受使用者重視。"
+          },
+          {
+            "en": "Weekday mornings bring quiet study at the seaside library; weekends bring animated family storytelling. It has more than one face, and both roles matter.",
+            "zh": "海邊圖書館平日上午提供安靜研習，週末則有熱鬧親子故事會；它不止一種面貌，而且兩種作用都重要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "research seats",
+            "zh": "研究座位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 64
+            }
+          },
+          {
+            "en": "weekday mornings",
+            "zh": "平日上午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "family story sessions",
+            "zh": "親子故事會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 117
+            }
+          },
+          {
+            "en": "quiet study",
+            "zh": "安靜研習",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 34
+            }
+          },
+          {
+            "en": "family storytelling",
+            "zh": "親子故事會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 102
+            }
+          },
+          {
+            "en": "both roles",
+            "zh": "兩種作用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 145
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "More than one face means several distinct aspects.",
+          "zh": "more than one face 指幾種不同側面。"
+        },
+        {
+          "en": "Show how a place has more than one face by naming two concrete experiences.",
+          "zh": "要說地方不止一種面貌，應列出兩項具體體驗。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

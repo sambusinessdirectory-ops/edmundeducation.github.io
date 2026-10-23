@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "advanced-native-4336",
+      "number": 4336,
+      "inventoryId": "expr-4336",
+      "titleEn": "leaves a trail",
+      "titleZh": "留下可追查紀錄",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) a trail\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Create a sequence of records or clues that lets someone reconstruct what happened.",
+        "meaningZh": "留下連續紀錄或線索，讓人日後追查事情經過。",
+        "grammar": "Leave a trail; leave inflects left/leaving. The trail is figurative when referring to dated messages, decisions or changes.",
+        "register": "Neutral conversational English. An auditor may use it when describing how a shared log records project changes.",
+        "boundaryZh": "須有可跟進的連貫線索；一則沒有日期或前後關係的訊息，不必然足以重建整個決策。",
+        "misconceptionZh": "不是在地上留下足跡，也不代表紀錄本身必然完整或正確。",
+        "outcomeZh": "能指出留下了哪些紀錄、能追查甚麼，以及資料仍可能缺少甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2225",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 210,
+          "book": 16,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "33–34",
+          "locatorNote": "DOCX table 229, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Email leaves a trail of decisions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leaves a trail"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "en": "The theatre team saved each approved script change with a date and the person responsible. Those entries leave a trail that helps the director see why the final scene changed, although an unrecorded conversation may still be missing.",
+        "zh": "劇團把每項獲批劇本改動連同日期與負責人存檔。這些紀錄留下可追查線索，幫助導演了解最後一幕為何改動，但仍可能缺少未記錄的談話。",
+        "promptZh": "這些紀錄能幫助導演追查甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The sequence and ownership of approved script changes.",
+            "zh": "獲批劇本改動的次序及負責人。"
+          },
+          {
+            "id": "b",
+            "en": "Every private conversation ever held by the cast.",
+            "zh": "演員之間的每次私人談話。"
+          },
+          {
+            "id": "c",
+            "en": "A change that nobody recorded or approved.",
+            "zh": "無人記錄或批准的改動。"
+          },
+          {
+            "id": "d",
+            "en": "The audience’s future reaction to the final scene.",
+            "zh": "觀眾日後對最後一幕的反應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日期與負責人形成可追查的改動鏈。"
+      },
+      "reply": {
+        "promptEn": "A community garden keeps dated photographs, meeting decisions and receipts for each stage. A new coordinator can reconstruct how the path design changed. What can you say about these records and their limits?",
+        "promptZh": "（社區花園在每個階段保存有日期的照片、會議決定及收據。新協調員可重建路徑設計如何改動。這些紀錄有何用途和限制？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A sequence of evidence about the design changes.",
+            "zh": "關於設計改動的一連串證據。"
+          },
+          {
+            "id": "b",
+            "en": "A way to trace decisions across the stages.",
+            "zh": "跨不同階段追查決定的方法。"
+          },
+          {
+            "id": "c",
+            "en": "They leave a trail for the new coordinator to follow.",
+            "zh": "它們留下可供新協調員追查的線索。"
+          },
+          {
+            "id": "d",
+            "en": "The dated items support a reconstruction, though gaps may remain.",
+            "zh": "有日期的資料有助重建過程，雖可能仍有缺漏。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均有連續資料與可追查用途。"
+      },
+      "scene": {
+        "promptZh": "展覽小組把每次標示修改的日期、原因和批准人寫在共用紀錄，接手者能看出最終版本如何形成。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The records leave a trail of the changes.",
+            "zh": "紀錄留下改動的可追查線索。"
+          },
+          {
+            "id": "b",
+            "en": "The group erased every earlier version and kept no reason.",
+            "zh": "小組刪去所有舊版本，沒有留下原因。"
+          },
+          {
+            "id": "c",
+            "en": "The record proves that no unrecorded discussion ever occurred.",
+            "zh": "紀錄證明從未有未記下的討論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有日期、原因和批准人，可追查版本形成。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 a set of records leaves a trail？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A single undated note says “changed” but names no version, reason or responsible person.",
+            "zh": "一張沒有日期的紙只寫「改了」，沒有版本、原因或負責人。"
+          },
+          {
+            "id": "b",
+            "en": "A log lists each revision, date and person who approved it.",
+            "zh": "紀錄列出每次修訂、日期及批准人。"
+          },
+          {
+            "id": "c",
+            "en": "Dated receipts and minutes show how a shared project developed.",
+            "zh": "有日期的收據及會議紀錄顯示共同項目如何發展。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "孤立而含糊的字條不足以追查連續過程。"
+      },
+      "dialogue": {
+        "promptEn": "A: We saved the old and new room plans with dates and approval notes, so we can see why the accessible route moved. B: ______",
+        "promptZh": "（甲：我們保存了附日期和批准註記的新舊房間圖，所以能看出無障礙路線為何改動。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those records show the sequence behind the change.",
+            "zh": "那些紀錄顯示改動的先後過程。"
+          },
+          {
+            "id": "b",
+            "en": "The approval notes help identify who authorised each version.",
+            "zh": "批准註記有助找出每個版本由誰批准。"
+          },
+          {
+            "id": "c",
+            "en": "They leave a trail we can follow when reviewing the route.",
+            "zh": "它們留下可供我們檢討路線時追查的線索。"
+          },
+          {
+            "id": "d",
+            "en": "We should still check whether any discussion was left out.",
+            "zh": "我們仍應查核有沒有遺漏討論。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指向可追查紀錄，亦不誇稱完整無缺。"
+      },
+      "speaking": {
+        "en": "A dated repair log left a trail from the first fault report to the final safety check, letting the centre manager trace what was fixed and when.",
+        "zh": "有日期的維修紀錄從首次故障報告延伸至最後安全檢查，留下可追查線索，讓中心經理知道修好甚麼、何時修好。",
+        "promptZh": "線索有先後次序和具體內容。",
+        "targetSpan": {
+          "start": 19,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩個項目各保存足夠連續資料，讓後來者追查一次改動。用英文寫出紀錄、可追查結果及仍可能缺漏之處。",
+        "selfCheckZh": "兩例不可把單一含糊字條說成完整證據，也不可宣稱紀錄無任何空白。",
+        "examples": [
+          {
+            "en": "The clinic kept dated versions of its appointment reminders and approval notes, which leave a trail of why the wording changed; informal calls may still be absent.",
+            "zh": "診所保存有日期的預約提醒版本與批准註記，留下可追查提醒文字為何改動的線索；非正式電話討論仍可能缺漏。"
+          },
+          {
+            "en": "Numbered maintenance reports leave a trail from the lift fault to the replacement part and final test, though the manager will confirm one missing signature.",
+            "zh": "編號維修報告留下從升降機故障到替換零件及最後測試的可追查線索，但經理仍會核實一處缺少的簽名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "appointment reminders",
+            "zh": "預約提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 59
+            }
+          },
+          {
+            "en": "approval notes",
+            "zh": "批准註記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 78
+            }
+          },
+          {
+            "en": "informal calls",
+            "zh": "非正式電話討論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 142
+            }
+          },
+          {
+            "en": "Numbered maintenance reports",
+            "zh": "編號維修報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 28
+            }
+          },
+          {
+            "en": "one missing signature",
+            "zh": "一處缺少的簽名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 156
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave a trail means create records or clues that can be followed.",
+          "zh": "leave a trail 指留下可追查的紀錄或線索。"
+        },
+        {
+          "en": "A dated sequence helps a project leave a trail without proving every detail.",
+          "zh": "有日期的先後紀錄有助追查，但不保證涵蓋每個細節。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4337",
+      "number": 4337,
+      "inventoryId": "expr-4337",
+      "titleEn": "caught off guard",
+      "titleZh": "措手不及",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:caught off guard|(?:catch|catches|caught|catching) (?:me|you|him|her|us|them|someone) off guard)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Surprise someone when they have not prepared for a particular event or question.",
+        "meaningZh": "某件事或提問突然出現，令人尚未準備好而措手不及。",
+        "grammar": "Catch + person + off guard; catch has past caught. Passive caught off guard is common; specify what surprise or lack of preparation mattered.",
+        "register": "Neutral conversational English. A presenter may use it when describing an unexpected question after a talk.",
+        "boundaryZh": "須有意外與未備好的反應；已預告並排練過的問題，不應只因困難就說措手不及。",
+        "misconceptionZh": "不是被保安人員抓住，也不表示被問者完全無能力或永久失敗。",
+        "outcomeZh": "能指出意外來源、當下反應及其後如何核實或處理。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2226",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 210,
+          "book": 16,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "33–34",
+          "locatorNote": "DOCX table 229, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She felt caught off guard by the unexpected call.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "caught off guard"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "en": "After the museum briefing, a visitor asked for the exact repair date of a lift. The question caught her off guard because the date was not in her notes. She said she would verify it with maintenance rather than guess.",
+        "zh": "博物館簡介後，一名訪客問升降機確切維修日期。導遊的筆記沒有日期，問題令她措手不及。她表示會向維修部核實，而沒有猜測。",
+        "promptZh": "為何導遊措手不及？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She had no verified repair date in her notes when asked.",
+            "zh": "被問時，她筆記中沒有已核實的維修日期。"
+          },
+          {
+            "id": "b",
+            "en": "She had rehearsed that precise date immediately before the briefing.",
+            "zh": "她在簡介前才排練了確切日期。"
+          },
+          {
+            "id": "c",
+            "en": "The visitor asked a question that had been announced in advance.",
+            "zh": "訪客問的是預先公布的問題。"
+          },
+          {
+            "id": "d",
+            "en": "The guide answered with an invented date and never checked it.",
+            "zh": "導遊憑空編日期，從不核實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題突然涉及未備資料，她選擇核實。"
+      },
+      "reply": {
+        "promptEn": "A school team expects questions about an exhibition’s opening time. Instead, a parent asks about a new lift outage that the team has not yet been told about. How did the question affect them?",
+        "promptZh": "（學校團隊原以為會被問展覽開門時間；一名家長卻問到團隊尚未獲通知的新升降機故障。這個問題對他們有何影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It surprised them with information they had not received.",
+            "zh": "它帶來他們尚未收到的消息，令他們意外。"
+          },
+          {
+            "id": "b",
+            "en": "They need to check the outage rather than answer from assumptions.",
+            "zh": "他們須核查故障，而非憑假設回答。"
+          },
+          {
+            "id": "c",
+            "en": "The unexpected question caught them off guard.",
+            "zh": "突如其來的問題令他們措手不及。"
+          },
+          {
+            "id": "d",
+            "en": "Their prepared opening-time answer did not cover the new issue.",
+            "zh": "他們預備的開門時間答案沒有涵蓋新問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按未獲通知的故障與突然提問回答。"
+      },
+      "scene": {
+        "promptZh": "訪問原定討論展覽路線，記者忽然問到團隊尚未核實的捐款數字，發言人停了一下並答應查證。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The unplanned question caught her off guard.",
+            "zh": "突如其來的問題令她措手不及。"
+          },
+          {
+            "id": "b",
+            "en": "She had prepared the verified figure in advance and read it aloud.",
+            "zh": "她已預備核實數字並照讀。"
+          },
+          {
+            "id": "c",
+            "en": "She invented a number and treated it as certain.",
+            "zh": "她編造一個數字並視作確定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題超出準備範圍，停頓及查證是合理反應。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 someone was caught off guard？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The presenter receives the question list a week early and rehearses the same question twice.",
+            "zh": "講者一週前收到問題清單，並兩次排練相同問題。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker is suddenly asked about a change announced only minutes before.",
+            "zh": "講者突然被問到幾分鐘前才宣布的改動。"
+          },
+          {
+            "id": "c",
+            "en": "A guide pauses when asked for a date missing from the briefing papers.",
+            "zh": "導遊被問到簡介文件沒有的日期時停頓。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "事前已得知並排練相同問題，缺乏意外。"
+      },
+      "dialogue": {
+        "promptEn": "A: We prepared to explain the timetable, but someone asked about a closure notice issued during our talk. Arun paused and said he would verify the details. B: ______",
+        "promptZh": "（甲：我們準備了解釋時間表，但有人問到在我們講話期間才發出的關閉通知。阿倫停了一下，說會核實細節。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That notice arrived too late for his prepared answer.",
+            "zh": "通知太遲才來，未能納入他預備的答案。"
+          },
+          {
+            "id": "b",
+            "en": "Pausing to verify was better than guessing.",
+            "zh": "停下來核實比猜測好。"
+          },
+          {
+            "id": "c",
+            "en": "The new question caught him off guard.",
+            "zh": "新問題令他措手不及。"
+          },
+          {
+            "id": "d",
+            "en": "He can update the audience once the closure details are confirmed.",
+            "zh": "關閉細節獲確認後，他可向聽眾更新。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句指明意外問題與未能預備的時間差。"
+      },
+      "speaking": {
+        "en": "The late change to the venue entrance caught us off guard, but we checked the official notice before directing visitors.",
+        "zh": "場地入口臨時改動令團隊措手不及，但我們指路前先核對官方通知。",
+        "promptZh": "措手不及後仍可負責任地核實。",
+        "targetSpan": {
+          "start": 38,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩人各遇上一項沒有預告、超出原準備範圍的問題或改動。用英文寫出意外、短暫反應及核查行動。",
+        "selfCheckZh": "兩例不能只因問題艱深就說意外；須指出未預告與未備妥。",
+        "examples": [
+          {
+            "en": "Mara was caught off guard by a reporter’s question about a last-minute route change; she paused, checked the organiser’s message and then gave the confirmed entrance.",
+            "zh": "記者問到臨時改動的路線，令瑪拉措手不及；她停了一下，核對主辦方訊息，然後給出已確認入口。"
+          },
+          {
+            "en": "The workshop leader was caught off guard when a new equipment fault appeared during the demonstration. He stopped the session and asked the technician to verify a safe alternative.",
+            "zh": "新設備故障在示範期間才出現，令工作坊領隊措手不及。他暫停活動，請技術員核實安全替代方案。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a last-minute route change",
+            "zh": "臨時路線改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 83
+            }
+          },
+          {
+            "en": "the organiser’s message",
+            "zh": "主辦方訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 128
+            }
+          },
+          {
+            "en": "the confirmed entrance",
+            "zh": "已確認入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 165
+            }
+          },
+          {
+            "en": "during the demonstration",
+            "zh": "示範期間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 101
+            }
+          },
+          {
+            "en": "a safe alternative",
+            "zh": "安全替代方案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 179
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Caught off guard means surprised before you can prepare.",
+          "zh": "caught off guard 指未及準備便被意外事件打亂。"
+        },
+        {
+          "en": "You can be caught off guard and still choose to verify before answering.",
+          "zh": "即使措手不及，仍可選擇核查後才回答。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4340",
+      "number": 4340,
+      "inventoryId": "expr-4340",
+      "titleEn": "fly back and forth",
+      "titleZh": "頻繁來回傳遞",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:fly|flies|flew|flown|flying) back and forth\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Move or be exchanged rapidly and repeatedly between people or groups.",
+        "meaningZh": "訊息或意見在多人或群體之間快速、頻繁地來回傳遞。",
+        "grammar": "Fly back and forth; fly inflects flew/flown. The source sense concerns messages, not literal air travel.",
+        "register": "Conversational vivid English. A coordinator may use it when a live planning thread becomes hard to follow.",
+        "boundaryZh": "須有多次雙向快速交換；一則單向通知或隔週才有的回覆，不足以說頻繁來回。",
+        "misconceptionZh": "不是訊息真的長翅膀，也不代表快速傳訊一定帶來清楚決定。",
+        "outcomeZh": "能指出來回者、頻率與是否需整理或確認最終版本。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2229",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 210,
+          "book": 16,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 230, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Messages can fly back and forth all morning.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fly back and forth"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "During the festival setup, messages flew back and forth between the stage and access teams as the rain plan changed three times in an hour. The coordinator then posted one confirmed route so volunteers would not follow an older version.",
+        "zh": "節慶搭建期間，雨天方案一小時內改了三次，舞台與無障礙團隊之間訊息頻繁來回。協調員其後發布一條已確認路線，免得義工沿用舊版本。",
+        "promptZh": "甚麼顯示訊息來回得很快？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The two teams exchanged updates during three changes in one hour.",
+            "zh": "兩隊在一小時三次改動期間互通更新。"
+          },
+          {
+            "id": "b",
+            "en": "One notice was sent once and received no response.",
+            "zh": "一則通知只發一次，沒有回覆。"
+          },
+          {
+            "id": "c",
+            "en": "The coordinator waited several weeks before anyone replied.",
+            "zh": "協調員等了數週才有人回覆。"
+          },
+          {
+            "id": "d",
+            "en": "The volunteers had already received one final route before any changes.",
+            "zh": "任何改動前，義工已收到一條最終路線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短時間多次雙向更新是快速來回。"
+      },
+      "reply": {
+        "promptEn": "Two editors revise a public notice. Within ten minutes, one sends three questions and the other replies to each with new wording; both keep checking the same thread. What can we say about their exchange and the next step?",
+        "promptZh": "（兩名編輯修訂公共通知。十分鐘內，一人發出三個問題，另一人逐一以新措辭回覆；兩人不斷查看同一討論串。這次交流有甚麼特點，下一步又要注意甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are exchanging several rapid replies.",
+            "zh": "他們快速交換多個回覆。"
+          },
+          {
+            "id": "b",
+            "en": "The thread has become a two-way discussion.",
+            "zh": "討論串變成雙向討論。"
+          },
+          {
+            "id": "c",
+            "en": "Messages are flying back and forth between them.",
+            "zh": "訊息在兩人之間頻繁來回。"
+          },
+          {
+            "id": "d",
+            "en": "A final version still needs a clear confirmation.",
+            "zh": "最終版本仍須清楚確認。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均根據十分鐘內的多次往返回答。"
+      },
+      "scene": {
+        "promptZh": "活動開始前十五分鐘，場地組與字幕組互相傳送四輪改動，兩邊都即時回覆。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Messages flew back and forth between the teams.",
+            "zh": "訊息在兩隊之間頻繁來回。"
+          },
+          {
+            "id": "b",
+            "en": "Only one message was sent, with no response.",
+            "zh": "只發了一則訊息，沒有回覆。"
+          },
+          {
+            "id": "c",
+            "en": "No changes were discussed before the event.",
+            "zh": "活動前沒有討論任何改動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短時間有多輪雙向傳訊。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 messages flew back and forth？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One organiser posts a single final notice, and nobody replies or revises it.",
+            "zh": "一名主辦人只發一則最終通知，沒有人回覆或修訂。"
+          },
+          {
+            "id": "b",
+            "en": "Two teams exchange four rounds of questions and answers before opening.",
+            "zh": "兩隊開門前互相交換四輪問答。"
+          },
+          {
+            "id": "c",
+            "en": "A live thread fills with rapid clarifications from both sides.",
+            "zh": "即時討論串有雙方快速澄清訊息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單次單向通知沒有來回交換。"
+      },
+      "dialogue": {
+        "promptEn": "A: The route team and ticket team exchanged five quick updates after the entrance changed, and people are now using different versions. B: ______",
+        "promptZh": "（甲：入口改動後，路線組與票務組快速交換了五輪更新，如今各人卻使用不同版本。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The teams have exchanged a lot in a short time.",
+            "zh": "兩隊在短時間內交換了大量訊息。"
+          },
+          {
+            "id": "b",
+            "en": "They need one confirmed version after those updates.",
+            "zh": "多輪更新後，他們需要一個已確認版本。"
+          },
+          {
+            "id": "c",
+            "en": "Messages flew back and forth, so let us pin the final route.",
+            "zh": "訊息頻繁來回；我們把最終路線置頂吧。"
+          },
+          {
+            "id": "d",
+            "en": "A pinned decision can stop older details circulating.",
+            "zh": "把決定置頂，可避免舊細節繼續流傳。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句結合快速來回與整理最終版本。"
+      },
+      "speaking": {
+        "en": "Questions flew back and forth during the online design review, but the chair ended by recording the approved colour code and who would update the sign.",
+        "zh": "網上設計審核期間，問題頻繁來回；主席最後記下獲批顏色代碼及由誰更新標示。",
+        "promptZh": "訊息速度與最後決定要分開描述。",
+        "targetSpan": {
+          "start": 10,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩組人短時間內多次雙向傳訊，並需確認最後版本。用英文寫出來回頻率與收束做法。",
+        "selfCheckZh": "兩例不能把一次單向通知說成頻繁來回，也不能把快速討論當成已自動達成共識。",
+        "examples": [
+          {
+            "en": "Updates flew back and forth between the kitchen and delivery teams during four rapid menu changes; the manager then confirmed one final list.",
+            "zh": "餐單迅速改了四次，廚房與送貨團隊之間更新頻繁來回；經理其後確認一份最終清單。"
+          },
+          {
+            "en": "Messages flew back and forth for fifteen minutes as two editors checked the caption date; they ended by marking the approved line in the shared file.",
+            "zh": "兩名編輯核查字幕日期的十五分鐘內，訊息頻繁來回；最後他們在共用檔案標示獲批的一行。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "four rapid menu changes",
+            "zh": "四次快速餐單改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 97
+            }
+          },
+          {
+            "en": "one final list",
+            "zh": "一份最終清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 140
+            }
+          },
+          {
+            "en": "the kitchen and delivery teams",
+            "zh": "廚房與送貨團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 66
+            }
+          },
+          {
+            "en": "the caption date",
+            "zh": "字幕日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 88
+            }
+          },
+          {
+            "en": "the approved line",
+            "zh": "獲批的一行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 129
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Fly back and forth describes rapid repeated exchange.",
+          "zh": "fly back and forth 形容訊息快速、頻繁地來回。"
+        },
+        {
+          "en": "After messages fly back and forth, confirm which version is final.",
+          "zh": "訊息頻繁來回後，要確認哪個版本是最終版。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-4344",
+      "number": 4344,
+      "inventoryId": "expr-4344",
+      "titleEn": "crowd out sincerity",
+      "titleZh": "擠走真誠交流",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:crowd|crowds|crowded|crowding) out sincerity\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Displace genuine attention or honest feeling when another pressure or habit dominates a conversation.",
+        "meaningZh": "當另一種壓力或習慣主導對話時，把真誠關注或坦率感受擠走。",
+        "grammar": "Crowd out sincerity; crowd inflects crowded/crowding. Sincerity is the abstract quality displaced, not a person leaving a crowded room.",
+        "register": "Reflective conversational English. A discussion facilitator may use it when quick template replies replace careful listening.",
+        "boundaryZh": "要有可見的真誠交流被形式或速度壓下；回覆迅速本身不一定不真誠。",
+        "misconceptionZh": "不是人群把「真誠」推出房間，也不能只因對方用了簡短句子便斷定虛偽。",
+        "outcomeZh": "能指出主導的壓力、被忽略的具體感受及更真誠的替代回應。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2233",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 211,
+          "book": 16,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 230, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Rapid replies can crowd out sincerity.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "crowd out sincerity"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "en": "At the community meeting, the chair pasted the same cheerful reply after each account of a difficult move without addressing any concern. The rush crowded out sincerity; she later invited specific questions and listened.",
+        "zh": "社區會議中，每有人講述艱難的搬遷，主席都貼出同一段輕快回覆，沒有回應任何憂慮。趕時間擠走真誠交流；她其後邀請具體提問並聆聽。",
+        "promptZh": "甚麼顯示真誠回應被擠走？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chair used one generic cheerful reply without addressing the different concerns.",
+            "zh": "主席一律用同一段開心語氣的回覆，沒回應不同憂慮。"
+          },
+          {
+            "id": "b",
+            "en": "The chair listened to each concern and asked a specific follow-up immediately.",
+            "zh": "主席立即聆聽每項憂慮並作具體追問。"
+          },
+          {
+            "id": "c",
+            "en": "Every speaker said the same thing and requested no response.",
+            "zh": "每名發言者說法完全相同，沒有要求回應。"
+          },
+          {
+            "id": "d",
+            "en": "The chair checked the practical details before replying personally.",
+            "zh": "主席先核查實際細節，再作個人回應。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "公式化回覆未觸及不同人的真實憂慮。"
+      },
+      "reply": {
+        "promptEn": "A support group’s moderator answers every personal story with the same instant “great news!” template. Members say their worries have not been heard. What can the group say about that habit and a better next response?",
+        "promptZh": "（支援小組主持人用同一段即時「好消息！」範本回答每段個人故事。成員說憂慮未被聽見。小組可以如何描述這習慣，以及下一次怎樣回應更好？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It replaced attentive responses with a generic template.",
+            "zh": "它以通用範本取代細心回應。"
+          },
+          {
+            "id": "b",
+            "en": "Members report that their actual worries were missed.",
+            "zh": "成員反映真正的憂慮被忽略。"
+          },
+          {
+            "id": "c",
+            "en": "The rush has crowded out sincerity in the replies.",
+            "zh": "匆忙回覆擠走了真誠交流。"
+          },
+          {
+            "id": "d",
+            "en": "A slower response that names the concern would be more fitting.",
+            "zh": "較慢而能點出憂慮的回覆會更貼切。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均按範本回覆與成員反應回答。"
+      },
+      "scene": {
+        "promptZh": "志願者分享喪親經歷，主持人為趕回覆速度，對每個人只貼同一段「太好了！」；多人表示沒有被聽見。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The formulaic speed crowded out sincerity.",
+            "zh": "公式化求快擠走了真誠交流。"
+          },
+          {
+            "id": "b",
+            "en": "The replies carefully acknowledged each person’s loss.",
+            "zh": "回覆仔細回應了每人的喪親感受。"
+          },
+          {
+            "id": "c",
+            "en": "The quick template was necessarily sincere because it appeared instantly.",
+            "zh": "範本即時出現，所以必然真誠。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回覆沒有觸及分享者的具體感受。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以說 speed crowded out sincerity？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A brief reply names the person’s concern accurately and promises a considered follow-up that arrives.",
+            "zh": "簡短回覆準確指出對方憂慮，並承諾稍後詳細回覆且說到做到。"
+          },
+          {
+            "id": "b",
+            "en": "A moderator sends the same upbeat line after several different painful accounts.",
+            "zh": "主持人對數段不同的痛苦經歷都發相同輕快句子。"
+          },
+          {
+            "id": "c",
+            "en": "A chair rushes past specific questions to finish a scripted response count.",
+            "zh": "主席為完成預設回覆數目而匆匆略過具體問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短而具體且後續兌現的回覆不必然缺乏真誠。"
+      },
+      "dialogue": {
+        "promptEn": "A: We sent the same cheerful template to three residents who raised different worries, and two said we did not hear them. B: ______",
+        "promptZh": "（甲：三名居民提出不同憂慮，我們卻發出同一段開心語氣範本；其中兩人說我們沒聽進去。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The template missed what each resident actually raised.",
+            "zh": "範本沒有回應各人真正提出的問題。"
+          },
+          {
+            "id": "b",
+            "en": "We should identify the concerns before replying again.",
+            "zh": "再次回覆前，我們應指出各項憂慮。"
+          },
+          {
+            "id": "c",
+            "en": "Our rush seems to have crowded out sincerity.",
+            "zh": "我們一味求快，看來擠走了真誠交流。"
+          },
+          {
+            "id": "d",
+            "en": "A specific follow-up could show we have listened.",
+            "zh": "具體跟進可顯示我們已聆聽。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "金句把求快與缺乏針對性的回應相連。"
+      },
+      "speaking": {
+        "en": "At the reunion, a pile of prewritten compliments crowded out sincerity: guests stopped asking one another real questions until the host slowed the activity and invited personal memories.",
+        "zh": "重聚會上，一堆預先寫好的恭維話擠走真誠交流：賓客不再互相提出真正問題，直到主持人放慢活動，邀請大家分享個人回憶。",
+        "promptZh": "指出形式如何壓過真實互動，以及改動。",
+        "targetSpan": {
+          "start": 49,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩種只求快或只靠範本的回應方式，令參與者覺得具體感受未被聽見；負責人作出更有針對性的修補。用英文寫出。",
+        "selfCheckZh": "兩例不能一概說短回覆不真誠；要有被忽略的具體訊息與修補。",
+        "examples": [
+          {
+            "en": "A fixed “wonderful” reply crowded out sincerity when visitors reported a broken lift; the manager then named the access problem and gave a verified repair update.",
+            "zh": "訪客報告升降機故障時，固定的「太好了」回覆擠走真誠交流；經理其後指出無障礙問題，並提供已核實的維修更新。"
+          },
+          {
+            "en": "The host’s timed praise crowded out sincerity after volunteers described burnout. She paused the script, asked what support they needed and recorded their answers.",
+            "zh": "義工講述疲憊時，主持人按時間發出的讚美擠走真誠交流。她暫停講稿，詢問他們需要甚麼支援，並記錄答案。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a broken lift",
+            "zh": "故障升降機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 84
+            }
+          },
+          {
+            "en": "the access problem",
+            "zh": "無障礙問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          {
+            "en": "a verified repair update",
+            "zh": "已核實的維修更新",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 161
+            }
+          },
+          {
+            "en": "described burnout",
+            "zh": "講述疲憊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          },
+          {
+            "en": "recorded their answers",
+            "zh": "記錄答案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 140,
+              "end": 162
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Crowd out sincerity means displace genuine attention or honest response.",
+          "zh": "crowd out sincerity 指擠走真誠關注或坦率回應。"
+        },
+        {
+          "en": "A fast reply need not crowd out sincerity if it addresses the real concern.",
+          "zh": "快速回覆若切實回應憂慮，不一定擠走真誠。"
+        }
+      ]
+    }
+  ]
+}

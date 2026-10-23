@@ -1,0 +1,142 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T16:16:29.106620+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4385-4398-a.json",
+      "sha256": "23717dc479746de8e19797cb4d05236dcd9473b0d48e7d18e6cb7e3b6540b3d6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4401-4416-a.json",
+      "sha256": "7e9c2f44a2ec6bd6e422f1ba99126e33fb92a79c0d2ecb5cdb159db9f41aae1b"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "b7d80648c61df23ad6db22317f741fc6bf9fb51ddf2cee2a22a75b0109819409",
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 208,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 3
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "3 hits confined to the 4407 fixed target phrase; no guide framing beyond target"
+  },
+  "semanticNotes": {
+    "4385": "Audible external signals masked by a louder source.",
+    "4393": "Partial relief, not complete removal.",
+    "4395": "Reluctant tolerance while pursuing repair.",
+    "4398": "A second action worsens an existing dispute.",
+    "4401": "Rapid overload obscures final information.",
+    "4407": "Formal approval and communication distinguish introduction from consideration.",
+    "4408": "Repeated strain with observable fatigue and practical support.",
+    "4416": "Repeated interaction builds group connection."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4385,
+      "sourceId": "book10-16-2274",
+      "sourceExpression": "block out important sounds",
+      "sourceExample": "Loud headphones block out important sounds on the trail.",
+      "draftFile": "batch-4385-4398-a.json",
+      "contentRevision": 3,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4393,
+      "sourceId": "book10-16-2282",
+      "sourceExpression": "take the edge off",
+      "sourceExample": "Trees can take the edge off traffic noise.",
+      "draftFile": "batch-4385-4398-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4395,
+      "sourceId": "book10-16-2284",
+      "sourceExpression": "put up with",
+      "sourceExample": "Residents should not have to put up with constant noise.",
+      "draftFile": "batch-4385-4398-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4398,
+      "sourceId": "book10-16-2287",
+      "sourceExpression": "adding fuel to the fire",
+      "sourceExample": "Careless honking is adding fuel to the fire.",
+      "draftFile": "batch-4385-4398-a.json",
+      "contentRevision": 3,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4401,
+      "sourceId": "book10-16-2290",
+      "sourceExpression": "a storm of notifications",
+      "sourceExample": "Work phones create a storm of notifications.",
+      "draftFile": "batch-4401-4416-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4407,
+      "sourceId": "book10-16-2296",
+      "sourceExpression": "bring in clearer quiet-hour rules",
+      "sourceExample": "The council plans to bring in clearer quiet-hour rules.",
+      "draftFile": "batch-4401-4416-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4408,
+      "sourceId": "book10-16-2297",
+      "sourceExpression": "frayed at the edges",
+      "sourceExample": "After weeks of drilling, residents felt frayed at the edges.",
+      "draftFile": "batch-4401-4416-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4416,
+      "sourceId": "book10-16-2305",
+      "sourceExpression": "social glue",
+      "sourceExample": "Small apologies are social glue in a team.",
+      "draftFile": "batch-4401-4416-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

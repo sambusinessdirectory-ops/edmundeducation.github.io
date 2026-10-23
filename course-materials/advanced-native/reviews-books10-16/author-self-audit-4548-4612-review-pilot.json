@@ -1,0 +1,40 @@
+{
+  "reviewType": "AI author self-audit; not independent or human approval",
+  "scope": "second eight eligible proposed-new owners in 4501–4715",
+  "draftFile": "drafts-books10-16/batch-4548-4612-review-pilot.json",
+  "draftSha256": "be697ff9a40c5f53b69df8a6793e5dacf9a68e6820e31a6f3ee7237f67a338ba",
+  "ordinals": [
+    4548,
+    4553,
+    4554,
+    4563,
+    4580,
+    4599,
+    4606,
+    4612
+  ],
+  "checks": {
+    "sourceExamples": "10 exact source examples and provenance rows present across 8 lessons, including same-owner aliases 4568 and 4569",
+    "ownerScreen": "No lesson ID already in another draft at initial screen; owner source decisions proposed-new-lesson, 4568/4569 proposed-alias-new",
+    "sevenSteps": "8 lessons x six assessed questions plus speaking/writing and takeaways",
+    "fourValidReplies": "Author reviewed each reply prompt and four answer options for contextual validity; independent AI review pending",
+    "targetAndGlossary": "Builder and --check passed 8/48/32/0; 48 answer-derived glossary spans exact",
+    "originality": "Full 2,604-source six-token non-own-source scan found zero learner-facing hits after attaching same-owner alias provenance",
+    "englishChinese": "Author checked keyed English and Traditional Chinese meanings; independent AI review pending",
+    "audio": "32 generated audio request records in focused build; synthesis not requested here"
+  },
+  "knownGates": [
+    "Independent AI editorial review pending",
+    "Human sense/owner and release approval pending"
+  ],
+  "releaseState": "Unselected provisional draft; no manifest or deployment edit",
+  "independentAIReview": {
+    "initialReport": "reviews-books10-16/independent-ai-review-4548-4612-b-initial.json",
+    "initialReportSha256": "304e4afafeb8908e34919ec8467092d1335129a6d3a859c1619d62e8b6ba73af",
+    "finding": "R4599-01 source-template near-copy in listening",
+    "authorRepair": "Rewrote listening as clinic appointment-capacity versus consultation-length balancing act; aligned Traditional Chinese and rationale; bumped 4599 contentRevision to 2. Focused build/--check 8/48/32/0.",
+    "status": "Exact-hash independent AI follow-up clear on unchanged repaired draft; human/release gates remain open.",
+    "followupReport": "reviews-books10-16/independent-ai-review-4548-4612-b-followup.json",
+    "followupReportSha256": "ac351b1a40fe8f2e4868aa0390dccf65bf2970dae5d38a8d5fc6246a86badd45"
+  }
+}

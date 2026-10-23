@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "scope": "R4385-01, R4398-01 and R4407-01 in an eight-lesson unselected batch",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4385-4398-a.json",
+      "sha256": "23717dc479746de8e19797cb4d05236dcd9473b0d48e7d18e6cb7e3b6540b3d6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4401-4416-a.json",
+      "sha256": "7e9c2f44a2ec6bd6e422f1ba99126e33fb92a79c0d2ecb5cdb159db9f41aae1b"
+    }
+  ],
+  "priorReview": "independent-ai-review-4385-4416-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFindings": [
+    {
+      "id": "R4385-01",
+      "result": "Writing model 2 now uses a riverside kayak lesson where a rescue-boat engine masks a coach's whistle. It supplies a real emitted signal, a test and a corrective action, and differs from the prior rehearsal setting. English/Traditional Chinese and glossary align."
+    },
+    {
+      "id": "R4398-01",
+      "result": "The two models now use a school-board garden budget/cropped screenshot and an aid station's water shortage/unchecked public blame. Both supply existing tension, an additional worsening action and an observable consequence without recycling earlier rehearsal or neighbour disputes. English/Traditional Chinese and glossary align."
+    },
+    {
+      "id": "R4407-01",
+      "result": "Brief meaning, grammar and boundary now recognize planned future introduction before effect alongside completed introduction. The revised scene assesses a concrete next-month plan not yet in force; the two writing examples retain enacted rules. Exact source `plans to bring in` is thereby taught rather than contradicted."
+    }
+  ],
+  "validation": {
+    "focusedBuildAndCheck": "Both files pass; combined 8 lessons, 48 questions, 32 audio requests, zero flags",
+    "glossary": "All 40 answer-derived spans exact and non-target after revision",
+    "sourceOriginality": "All changed writing models have zero six-token overlaps against all 2,604 guide examples."
+  },
+  "coverageLimit": "Changed fields and adjacent source-sense/translation/answer context received substantive recheck; unchanged material retains initial risk-based clearance. AI content clearance is not release certification.",
+  "remainingFindings": []
+}

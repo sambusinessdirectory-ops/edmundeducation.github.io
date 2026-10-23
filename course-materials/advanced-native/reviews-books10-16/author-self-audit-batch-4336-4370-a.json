@@ -1,0 +1,142 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T16:13:37.425136+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4336-4344-a.json",
+      "sha256": "0ba9ae5a2349b203a13f07ec6d348313ff3025be3bd03acb2db998a3917c4d31"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4357-4370-a.json",
+      "sha256": "8c7ea483ddd6ccdc9e518187e8cfc44d36b18763eaa95e8abfc99314669c93ac"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "3796a17a36efe9f203d808c3398ce3d1e5cea4b516397b5ae6c04b9c2a422846",
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 208,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 8
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    },
+    "targetOnlyOverlap": "8 hits confined to 4366 six-token fixed target phrase; no guide framing beyond target"
+  },
+  "semanticNotes": {
+    "4336": "Traceable sequence has gaps, not infallible completeness.",
+    "4337": "Unexpected question and verified response, not difficulty alone.",
+    "4340": "Rapid repeated two-way messages, final version separate.",
+    "4344": "Specific concerns displaced by generic speed-first replies; brevity alone not condemned.",
+    "4357": "Informal status inversion grounded in demonstrated skill.",
+    "4358": "Informal group hierarchy, not formal role or simple queue.",
+    "4366": "Emphasized advantages distinct from comprehensive evaluation.",
+    "4370": "Truthful favourable presentation, not fabricated credentials."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4336,
+      "sourceId": "book10-16-2225",
+      "sourceExpression": "leaves a trail",
+      "sourceExample": "Email leaves a trail of decisions.",
+      "draftFile": "batch-4336-4344-a.json",
+      "contentRevision": 3,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4337,
+      "sourceId": "book10-16-2226",
+      "sourceExpression": "caught off guard",
+      "sourceExample": "She felt caught off guard by the unexpected call.",
+      "draftFile": "batch-4336-4344-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4340,
+      "sourceId": "book10-16-2229",
+      "sourceExpression": "fly back and forth",
+      "sourceExample": "Messages can fly back and forth all morning.",
+      "draftFile": "batch-4336-4344-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4344,
+      "sourceId": "book10-16-2233",
+      "sourceExpression": "crowd out sincerity",
+      "sourceExample": "Rapid replies can crowd out sincerity.",
+      "draftFile": "batch-4336-4344-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4357,
+      "sourceId": "book10-16-2246",
+      "sourceExpression": "the real flex",
+      "sourceExample": "For collectors, expertise is the real flex.",
+      "draftFile": "batch-4357-4370-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4358,
+      "sourceId": "book10-16-2247",
+      "sourceExpression": "social pecking order",
+      "sourceExample": "Luxury brands can signal a place in the social pecking order.",
+      "draftFile": "batch-4357-4370-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4366,
+      "sourceId": "book10-16-2255",
+      "sourceExpression": "shine a spotlight on the benefits",
+      "sourceExample": "Ads shine a spotlight on the benefits of a new phone.",
+      "draftFile": "batch-4357-4370-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    },
+    {
+      "sourceOrdinal": 4370,
+      "sourceId": "book10-16-2259",
+      "sourceExpression": "put their best foot forward",
+      "sourceExample": "Advertisements naturally put their best foot forward.",
+      "draftFile": "batch-4357-4370-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sourceDetectorMatch": true,
+      "targetSpeakingGlossaryAudioExact": true,
+      "enZhPromptParityAuthorJudgment": "pass; independent review pending"
+    }
+  ]
+}

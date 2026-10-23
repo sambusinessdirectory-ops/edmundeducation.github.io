@@ -1,0 +1,176 @@
+{
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T16:03:41.471357+00:00",
+  "drafts": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4280-4305-a.json",
+      "sha256": "35657b86df9829d6dfcda025a8febad047793657e2101810ba96f7a9393dc35b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4309-4330-a.json",
+      "sha256": "65e29db39e6196fed64197dc28789a23a2642d8ddf1e027f4b285ddbfdc375f0"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": [
+    "2277801ab1b5fc240a0a474bb884217a1fa0974e2d573fff2a5fabb7c5001c16",
+    "5beb99e5921b3d8479db3d07069e62bcf7f2b7fcc001278012c5a5672f40b349"
+  ],
+  "focusedBuildAndCheck": "PASS: 8 lessons, 48 questions, 32 audio requests, zero review flags",
+  "sourceCopyScreen": {
+    "sourceExamples": 2604,
+    "learnerFacingStrings": 208,
+    "counts": {
+      "exact": 0,
+      "high": 0,
+      "medium": 0,
+      "target-or-short-overlap": 0
+    },
+    "fuzzyCounts": {
+      "nearFull": 0,
+      "reviewNearFull": 0
+    }
+  },
+  "semanticNotes": {
+    "4280": "Evidence-backed bounded argument, not an unsupported preference.",
+    "4283": "Winner under a stated criterion, not best on every measure.",
+    "4304": "Verified effect in two countries, not uniform impact everywhere.",
+    "4305": "Cooperation toward one outcome, not merely physical adjacency.",
+    "4309": "Primary-source verification with unknowns distinguished from falsehood.",
+    "4322": "Source phrase sort out the same plan is awkward; normalized learner title and models teach sort out the details of a plan while exact source remains in provenance and source-matching detector.",
+    "4328": "Checked same-event action, not deferred promise or unsafe haste.",
+    "4330": "Responsive scheduling while preserving current duties, not ignoring a genuine emergency."
+  },
+  "independentReview": "pending; unselected",
+  "releaseApproved": false,
+  "rows": [
+    {
+      "sourceOrdinal": 4280,
+      "sourceId": "book10-16-2169",
+      "sourceExpression": "strong case",
+      "sourceExample": "Medical advances make a strong case for the title.",
+      "file": "batch-4280-4305-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4283,
+      "sourceId": "book10-16-2172",
+      "sourceExpression": "take the crown",
+      "sourceExample": "If lives saved is the measure, medicine may take the crown.",
+      "file": "batch-4280-4305-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4304,
+      "sourceId": "book10-16-2193",
+      "sourceExpression": "cross borders",
+      "sourceExample": "Climate problems cross borders.",
+      "file": "batch-4280-4305-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4305,
+      "sourceId": "book10-16-2194",
+      "sourceExpression": "side by side",
+      "sourceExample": "The researchers worked side by side for years.",
+      "file": "batch-4280-4305-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4309,
+      "sourceId": "book10-16-2198",
+      "sourceExpression": "separate fact from fiction",
+      "sourceExample": "Science lessons help pupils separate fact from fiction.",
+      "file": "batch-4309-4330-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4322,
+      "sourceId": "book10-16-2211",
+      "sourceExpression": "sort out the same plan",
+      "sourceExample": "Friends can sort out the same plan in a few messages.",
+      "file": "batch-4309-4330-a.json",
+      "contentRevision": 2,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4328,
+      "sourceId": "book10-16-2217",
+      "sourceExpression": "there and then",
+      "sourceExample": "A phone call asks for attention there and then.",
+      "file": "batch-4309-4330-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    },
+    {
+      "sourceOrdinal": 4330,
+      "sourceId": "book10-16-2219",
+      "sourceExpression": "without dropping everything",
+      "sourceExample": "She can reply later without dropping everything.",
+      "file": "batch-4309-4330-a.json",
+      "contentRevision": 1,
+      "provenanceExact": true,
+      "sevenStepsSixQuestions": true,
+      "fourValidRepliesAuthorJudgment": "yes; independent review pending",
+      "replyTargetExactlyOnce": true,
+      "targetSceneDialogueSpeakingWriting": true,
+      "ChineseQuestionPrompts": true,
+      "exactNonTargetGlossarySpans": 5,
+      "fourAudioRolesUnder240": true
+    }
+  ]
+}

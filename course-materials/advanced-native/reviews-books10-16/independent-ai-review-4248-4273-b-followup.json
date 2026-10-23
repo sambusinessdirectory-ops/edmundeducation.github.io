@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-exact-hash-follow-up",
+  "initialReport": "reviews-books10-16/independent-ai-review-4248-4273-b-initial.json",
+  "initialReportSha256": "5a9c6472f28f5861ec2f6f31ff844d990c870e1ba4e4ff74c7f6ae1b6e1f3172",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4248-4253-a.json",
+      "sha256": "55858eeb663f40061b6d92aa3ade6cb4357309cd3ea7998bafa704417f5112b7"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4263-4273-a.json",
+      "sha256": "9621adc26e243d8b6ce35aafb0da04f9f9a35cbf0da4d9671f5f624e9e2af526"
+    }
+  ],
+  "status": "content-clear-for-provisional-selection",
+  "resolvedFinding": {
+    "id": "R4250-01",
+    "evidence": "Named Ivo, Mira, Nia, Lena and Jun now use the matching him/her target wording rather than introducing an unspecified 'a student'. Both writing models explicitly take place in learner settings; Jun is named a student actor in a drama-class rehearsal. English and Traditional Chinese actors align. The scene prompt now says 新學員, matching keyed 'a student'. Revision 3, speaking target span and five answer-derived glossary spans are exact."
+  },
+  "validation": {
+    "focusedBuild": "Both four-lesson files passed: combined 8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "focusedCheck": "Both four-lesson files passed --check: combined 8 lessons, 48 questions, 32 audio requests, 0 flags",
+    "scope": "Exact-hash scoped review of changed 4250 actor references, bilingual wording, scene and writing-model roles, target speaking span and glossary; other seven lessons retain the initial risk-based review. Source and selected-ID checks passed at initial review."
+  },
+  "remainingFindings": [],
+  "releaseLimit": "AI content clearance only; no human approval or publication is implied."
+}

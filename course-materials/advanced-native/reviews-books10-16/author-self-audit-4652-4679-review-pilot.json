@@ -1,0 +1,39 @@
+{
+  "reviewType": "AI author self-audit; not independent or human approval",
+  "scope": "fourth eight eligible proposed-new owners in 4501–4715",
+  "draftFile": "drafts-books10-16/batch-4652-4679-review-pilot.json",
+  "draftSha256": "4c9f1ede4b9f13f15449ab594b0cf7d27e408b42ffed1fa295d9161f0aaa487d",
+  "ordinals": [
+    4652,
+    4655,
+    4656,
+    4658,
+    4664,
+    4670,
+    4673,
+    4679
+  ],
+  "checks": {
+    "sourceExamples": "8 exact source examples and provenance rows present",
+    "ownerScreen": "No lesson ID already in another draft at initial screen; all owner source decisions proposed-new-lesson; no alias-new source rows in these owners",
+    "sevenSteps": "8 lessons x six assessed questions plus speaking/writing and takeaways",
+    "fourValidReplies": "Author reviewed each reply prompt and four answer options for contextual validity; independent AI review pending",
+    "targetAndGlossary": "Builder and --check passed 8/48/32/0; 48 answer-derived glossary spans exact",
+    "originality": "Full 2,604-source six-token non-own-source scan found zero learner-facing hits",
+    "englishChinese": "Author checked keyed English and Traditional Chinese meanings; independent AI review pending",
+    "audio": "32 generated audio request records in focused build; synthesis not requested here"
+  },
+  "ownerScopeNote": "4652 shine a light on is close in meaning to selected 2278 shed light on but has a distinct source construction and target detector; independent and human owner-scope review requested.",
+  "knownGates": [
+    "Independent AI editorial review pending",
+    "Human sense/owner and release approval pending"
+  ],
+  "releaseState": "Unselected provisional draft; no manifest or deployment edit",
+  "independentAIReview": {
+    "initialReport": "reviews-books10-16/independent-ai-review-4652-4679-b-initial.json",
+    "initialReportSha256": "7e7fd1500dd8cb4d9ad9916acbb150ecfb22d11337159a2c2c8ab7c734764aac",
+    "finding": "4664 and 4673 target detectors accepted missing-object or off-sense strings",
+    "authorRepair": "4664 now requires a concrete place noun, with pronoun-only assessed targets replaced by explicit place nouns; 4673 requires active object while retaining be-treated passive. Affected revisions 2; nine positive and eight negative targeted detector controls pass; focused build/--check 8/48/32/0.",
+    "status": "awaiting scoped exact-hash independent AI follow-up; human/release gates open"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "reviewType": "independent-ai-risk-based-initial-review",
+  "scope": "Eight unselected Books 10–16 lessons: 4280, 4283, 4304, 4305, 4309, 4322, 4328 and 4330",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4280-4305-a.json",
+      "sha256": "35657b86df9829d6dfcda025a8febad047793657e2101810ba96f7a9393dc35b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4309-4330-a.json",
+      "sha256": "f3e939328386f71996faeda4fce68cc90324fdbc65a599ad88addbceec4a382f"
+    }
+  ],
+  "authorSelfAuditSha256": "fcd409a183fc6d9ccf9fec07c29f73b53c175c99d906a68dc7b04d2395448f52",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "repair-required-before-selection",
+  "validation": {
+    "focusedBuildAndCheck": "Each four-lesson file passed build and --check with 24 questions, 16 audio requests and 0 flags; combined totals 8/48/32/0.",
+    "sourceAndTarget": "All eight exact source sentences match their proposed target regex; eight speaking target slices and all writing glossary slices are exact.",
+    "selectedIdCollisions": 0,
+    "sourceOriginality": "Independent six-token screen: 232 learner-facing English strings versus 2,604 source examples; 0 exact overlaps."
+  },
+  "findings": [
+    {
+      "id": "R4322-01",
+      "severity": "blocker",
+      "lessonId": "advanced-native-4322",
+      "sourceId": "book10-16-2211",
+      "sourceExample": "Friends can sort out the same plan in a few messages.",
+      "decisionEvidence": "The existing editorial decision explicitly calls 'sort out the same plan' awkward without a competing-plan context and says to teach transferable 'sort out X', for example 'sort out the details of a shared plan'.",
+      "affectedFields": ["titleEn", "target.pattern", "brief", "listening", "reply", "scene", "contrast", "dialogue", "speaking", "writing", "takeaways"],
+      "issue": "The draft instead freezes the awkward full source wording as the lesson title and target, and repeats 'sorted out the same plan' through the assessed items and both model answers. It teaches a bespoke noun phrase as if it were the fixed phrasal verb, contrary to its own source decision and ordinary usage.",
+      "recommendedRepair": "Keep the exact source sentence as provenance, but re-lemma to a bounded natural 'sort out a/the/shared plan' or 'sort out the details of a shared plan' target that still detects the source. Rewrite target-bearing assessed items naturally, with agreement on one plan supplied as context rather than fixed expression; align Traditional Chinese and recalculate spans/glossary. If this cannot be done without an overbroad owner, hold the source for editorial review."
+    }
+  ],
+  "otherLessonScreen": "The other seven source senses, representative keyed scenes and four-valid replies, evidence limits, changed-context writing and EN/ZH meaning are coherent on risk-based review. No additional material blocker was found; this was not a line-by-line proofread of all 48 questions.",
+  "nextStep": "Repair 4322 and independently recheck exact new hashes before provisional selection."
+}

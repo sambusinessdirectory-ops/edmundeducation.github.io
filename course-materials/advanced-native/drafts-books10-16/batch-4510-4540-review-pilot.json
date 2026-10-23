@@ -635,8 +635,8 @@
           },
           {
             "id": "c",
-            "en": "Demand for evening classes is not going away yet.",
-            "zh": "晚間課程的需求目前不會消失。"
+            "en": "Students still want evening classes, and that need is not going away any time soon.",
+            "zh": "學生仍想報讀晚間課程，這種需求短期內不會消失。"
           },
           {
             "id": "d",
@@ -714,12 +714,12 @@
         "explanationZh": "抽象需求也可持續而「不消失」。"
       },
       "speaking": {
-        "en": "Even after the extra buses arrive, demand for late service is not going away this winter.",
-        "zh": "即使增派巴士抵達，今個冬季對深夜服務的需求仍不會消失。",
+        "en": "Even after the extra buses arrive, passengers will still need late service; that need is not going away this winter.",
+        "zh": "即使增派巴士抵達，乘客仍需要深夜服務；這種需求在今個冬季不會消失。",
         "promptZh": "指出持續的是哪種需求，以及時間範圍。",
         "targetSpan": {
-          "start": 62,
-          "end": 76
+          "start": 89,
+          "end": 103
         }
       },
       "writing": {
@@ -828,7 +828,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Guide-written source provenance; newly written practice. No human or release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-4529",

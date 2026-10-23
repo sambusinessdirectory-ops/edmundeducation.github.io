@@ -1,20 +1,22 @@
 {
-  "version": "curveball-lexeme-v1",
-  "textPattern": "\\bcurveballs?\\b",
+  "version": "curveball-and-a-to-b-v2",
+  "textPattern": "\\b(?:curveballs?|A to B)\\b",
   "phonemeSeparators": " \t\r\n\f\u000b.,;:!?…\"'()[]{}—–-",
   "languages": {
     "en-gb": {
       "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːvbˌɔːl"},
-      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːvbˌɔːlz"}
+      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːvbˌɔːlz"},
+      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"}
     },
     "en-us": {
       "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːɹvbˌɔːl"},
-      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːɹvbˌɔːlz"}
+      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːɹvbˌɔːlz"},
+      "a to b": {"before": "ɐ tə bˈiː", "after": "ˈeɪ tə bˈiː"}
     }
   },
   "evidence": [
     "https://dictionary.cambridge.org/pronunciation/english/curveball",
     "https://www.oxfordlearnersdictionaries.com/definition/english/curveball"
   ],
-  "note": "Pinned G2P inserts a spurious vowel in the whole lexeme. Correct only exact singular/plural lexemes after full-sentence phonemization; retain all display text, language, voice and speed pins. This configuration does not claim audio hearing approval."
+  "note": "Pinned G2P inserts a spurious vowel in curveball and reads the letter A in A to B as the unstressed article. Correct only exact matched units after full-sentence phonemization; retain all display text, language, voice and speed pins. This configuration does not claim audio hearing approval."
 }

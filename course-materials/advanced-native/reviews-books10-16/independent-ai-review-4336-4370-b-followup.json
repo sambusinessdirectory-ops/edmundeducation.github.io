@@ -1,0 +1,27 @@
+{
+  "reviewType": "independent-ai-scoped-exact-hash-follow-up",
+  "scope": "R4336-01 writing transfer repair in an eight-lesson unselected batch",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4336-4344-a.json",
+      "sha256": "0ba9ae5a2349b203a13f07ec6d348313ff3025be3bd03acb2db998a3917c4d31"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4357-4370-a.json",
+      "sha256": "8c7ea483ddd6ccdc9e518187e8cfc44d36b18763eaa95e8abfc99314669c93ac"
+    }
+  ],
+  "priorReview": "independent-ai-review-4336-4370-b-initial.json",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "status": "content-clear-for-provisional-selection",
+  "finding": {
+    "id": "R4336-01",
+    "result": "Resolved. Model 1 now traces clinic appointment-reminder wording through dated versions and approval notes, with informal calls as a possible gap. This is substantively distinct from the assessed exhibition-label scene. English and Traditional Chinese preserve the same records, change and limitation. The target matches; all three revised and two unchanged glossary spans exactly slice the corresponding English models and exclude the target."
+  },
+  "validation": {
+    "focusedBuildAndCheck": "Changed four-lesson file: 4 lessons, 24 questions, 16 audio requests, zero flags; unchanged companion file passed in initial review.",
+    "sourceOriginality": "Revised model 1 has zero six-token overlaps against all 2,604 guide examples."
+  },
+  "coverageLimit": "Scoped recheck of the changed model/context, its bilingual text and glossary. The other seven lessons and unchanged fields retain the initial risk-based review. AI content clearance is not release certification.",
+  "remainingFindings": []
+}

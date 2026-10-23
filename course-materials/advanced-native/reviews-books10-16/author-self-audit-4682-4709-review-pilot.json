@@ -1,0 +1,29 @@
+{
+  "reviewType": "AI author self-audit; not independent or human approval",
+  "scope": "final six eligible proposed-new owners in 4501–4715; 4680 excluded because already selected elsewhere",
+  "draftFile": "drafts-books10-16/batch-4682-4709-review-pilot.json",
+  "draftSha256": "4777ee85a05f12b722d5cb6b1bbeeedb2e2ee28522ed8da017adfc1dd0abea90",
+  "ordinals": [
+    4682,
+    4685,
+    4691,
+    4700,
+    4707,
+    4709
+  ],
+  "checks": {
+    "sourceExamples": "6 exact source examples and provenance rows present",
+    "ownerScreen": "No lesson ID already in another draft at initial screen; all owner source decisions proposed-new-lesson; 4680 already selected and excluded",
+    "sevenSteps": "6 lessons x six assessed questions plus speaking/writing and takeaways",
+    "fourValidReplies": "Author reviewed each reply prompt and four answer options for contextual validity; independent AI review pending",
+    "targetAndGlossary": "Builder and --check passed 6/36/24/0; 36 answer-derived glossary spans exact",
+    "originality": "Full 2,604-source six-token non-own-source scan found zero learner-facing hits",
+    "englishChinese": "Author checked keyed English and Traditional Chinese meanings; independent AI review pending",
+    "audio": "24 generated audio request records in focused build; synthesis not requested here"
+  },
+  "knownGates": [
+    "Independent AI editorial review pending",
+    "Human sense/owner and release approval pending"
+  ],
+  "releaseState": "Unselected provisional draft; no manifest or deployment edit"
+}
