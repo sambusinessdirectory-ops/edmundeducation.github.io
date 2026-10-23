@@ -282,8 +282,8 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
   border-image-width: 64px;
   border-image-repeat: stretch;
   border-radius: 0;
-  background: #f5ead2;
-  box-shadow: 0 22px 38px #1b27352b;
+  background: transparent;
+  box-shadow: none;
 }
 .question-card .eyebrow { color: #514777; }
 .question-card .sentence { color: #19384a; }
@@ -297,17 +297,17 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
   min-width: 0;
   min-height: 114px;
   margin: 0;
-  padding: 0 4px 0 2px;
+  padding: 0 5px 0 8px;
   border-style: solid;
-  border-width: 24px 28px 20px 84px;
-  border-image-slice: 50 55 40 170 fill;
-  border-image-width: 24px 28px 20px 84px;
+  border-width: 24px 28px 20px 112px;
+  border-image-slice: 50 55 40 205 fill;
+  border-image-width: 24px 28px 20px 112px;
   border-image-repeat: stretch;
   border-radius: 0;
   background: transparent;
   color: #153345;
   box-shadow: none;
-  font-size: clamp(.88rem, 1.25vw, 1rem);
+  font-size: clamp(.88rem, 1.15vw, .94rem);
   font-weight: 700;
   line-height: 1.48;
   overflow-wrap: anywhere;
@@ -328,7 +328,7 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
 .question-card .answer-grid button:disabled { opacity: 1; }
 .question-card .answer-grid button.correct,
 .question-card .answer-grid button.wrong {
-  border-width: 24px 28px 20px 84px;
+  border-width: 24px 28px 20px 112px;
   background: transparent;
   opacity: 1;
 }
@@ -352,10 +352,10 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
   .question-card .answer-grid { grid-template-columns: minmax(0, 1fr); }
   .question-card .answer-grid button {
     min-height: 106px;
-    border-width: 22px 20px 18px 72px;
-    border-image-width: 22px 20px 18px 72px;
+    border-width: 22px 20px 18px 88px;
+    border-image-width: 22px 20px 18px 88px;
     font-size: .86rem;
   }
   .question-card .answer-grid button.correct,
-  .question-card .answer-grid button.wrong { border-width: 22px 20px 18px 72px; }
+  .question-card .answer-grid button.wrong { border-width: 22px 20px 18px 88px; }
 }
