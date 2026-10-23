@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q41": {
+      "truthCondition": "The counsellor asked why two sisters had argued angrily almost daily since their grandmother visited.",
+      "correctReason": "正確句保留輔導員追問原因，以及祖母來訪後兩姊妹持續激烈爭吵的時間線。",
+      "foils": [
+        { "text": "The counsellor asked why the two sisters had been fighting like cat and dog before their grandmother's visit.", "reason": "「before」把爭吵移到祖母來訪之前；原題說由祖母來訪後開始。", "kind": "changed-start-point" },
+        { "text": "The counsellor asked why the two sisters had been fighting like cat and dog since their father's visit.", "reason": "「father's visit」把時間起點由祖母來訪改成父親來訪。", "kind": "changed-event" },
+        { "text": "The counsellor asked why the two sisters had stopped arguing after their grandmother's visit.", "reason": "「stopped arguing」說爭吵已停止；原題說來訪後幾乎每天仍在爭吵。", "kind": "reversed-state" }
+      ]
+    },
+    "idiom-31-q42": {
+      "truthCondition": "Noah and Leo smile for family photos but begin angry arguments immediately once the camera is put away.",
+      "correctReason": "「Not really」否定只憑照片判斷兩人融洽；正確句保留相機一收起便開始爭吵。",
+      "foils": [
+        { "text": "Not really; Noah and Leo stop fighting like cat and dog as soon as the camera is put away.", "reason": "「stop」說收起相機時爭吵停止；原題說兩人那時才開始爭吵。", "kind": "reversed-onset" },
+        { "text": "Not really; Noah and Leo fight like cat and dog before the camera is put away.", "reason": "「before」把爭吵放在相機收起之前；原題說一收起便開始。", "kind": "changed-timing" },
+        { "text": "Noah and Leo look angry in every family photo, then fight like cat and dog when the camera is put away.", "reason": "「look angry in every family photo」改變了原題說兩人在每張家庭照片中都面帶笑容。", "kind": "changed-public-appearance" }
+      ]
+    },
+    "idiom-31-q43": {
+      "truthCondition": "If Olivia and her cousin fail to listen, they may keep arguing angrily over every family decision.",
+      "correctReason": "正確句保留「若不學會聆聽」的條件、「可能繼續」的語氣，以及每個家庭決定的爭議範圍。",
+      "foils": [
+        { "text": "If Olivia and her cousin learn to listen, they may continue fighting like cat and dog over every family decision.", "reason": "「learn to listen」把原題的未學會聆聽改成已學會，倒轉了觸發條件。", "kind": "reversed-condition" },
+        { "text": "If Olivia and her cousin do not learn to listen, they must fight like cat and dog over every family decision.", "reason": "「must」把原題的可能繼續爭吵改成必然。", "kind": "changed-modality" },
+        { "text": "If Olivia and her cousin do not learn to listen, they may stop arguing over every family decision.", "reason": "「stop arguing」把可能繼續爭吵改成可能停止爭吵。", "kind": "reversed-continuation" }
+      ]
+    },
+    "idiom-31-q44": {
+      "truthCondition": "The club leader assigned Max and Henry separate roles because they had argued fiercely on earlier projects.",
+      "correctReason": "正確句保留過往項目的激烈爭吵是這次分配不同工作的原因。",
+      "foils": [
+        { "text": "The club leader gave Max and Henry separate roles before they had fought like cat and dog on any project.", "reason": "「before ... any project」把分工移到過往爭吵之前，失去原題的因果關係。", "kind": "reversed-sequence" },
+        { "text": "The club leader gave Max and Henry the same role because they had fought like cat and dog on earlier projects.", "reason": "「the same role」把不同工作改成同一工作。", "kind": "changed-assignment" },
+        { "text": "The club leader gave Max and Henry separate roles because they had cooperated smoothly on earlier projects.", "reason": "「cooperated smoothly」把分工的原因由舊日爭吵改成合作順利。", "kind": "changed-cause" }
+      ]
+    },
+    "idiom-31-q45": {
+      "truthCondition": "The neighbours promised to stay calmer but soon resumed a fierce argument about rubbish bins.",
+      "correctReason": "「Even though」保留答應冷靜與很快再次激烈爭吵的反差；「again」對應原題的「又」。",
+      "foils": [
+        { "text": "Even though the two neighbours promised to be calmer, they soon fought like cat and dog again about parking.", "reason": "「parking」把爭議由垃圾桶改成泊車。", "kind": "changed-issue" },
+        { "text": "After promising to be calmer, the two neighbours stopped fighting like cat and dog over the rubbish bins.", "reason": "「stopped」說承諾後爭吵停止；原題說兩人很快又吵起來。", "kind": "reversed-relapse" },
+        { "text": "Before promising to be calmer, the two neighbours fought like cat and dog about the rubbish bins again.", "reason": "「Before promising」把再次爭吵移到承諾之前；原題說承諾後很快又爭吵。", "kind": "changed-sequence" }
+      ]
+    }
+  }
+}

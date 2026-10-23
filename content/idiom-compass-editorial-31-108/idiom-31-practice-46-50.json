@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q46": {
+      "truthCondition": "The aunt assigned the brothers separate jobs to prevent them from arguing angrily all weekend.",
+      "correctReason": "「Rather than let ...」表明姨姨用分配不同工作來避免兄弟整個週末爭吵。",
+      "foils": [
+        { "text": "Rather than let the brothers fight like cat and dog all weekend, their aunt gave them one job to share.", "reason": "「one job to share」把各自不同的工作改成共用一項工作。", "kind": "changed-intervention" },
+        { "text": "Their aunt gave each brother a separate job because she wanted them to fight like cat and dog all weekend.", "reason": "「wanted them to fight」把姨姨想避免爭吵改成想讓兄弟爭吵。", "kind": "reversed-purpose" },
+        { "text": "Rather than give them separate jobs, their aunt let the brothers fight like cat and dog all weekend.", "reason": "「let」表示姨姨放任爭吵，與原題說她採取行動避免爭吵相反。", "kind": "reversed-action" }
+      ]
+    },
+    "idiom-31-q47": {
+      "truthCondition": "Anna and Beth had often argued fiercely before; the director expected renewed arguments unless rules were clear.",
+      "correctReason": "正確句保留兩人有爭吵前例，以及規則不夠清楚便可能再次爭吵的條件。",
+      "foils": [
+        { "text": "The director knew Anna and Beth would fight like cat and dog if the rules were made very clear.", "reason": "「if ... very clear」把原題的「除非規則清楚」倒轉成規則清楚才會爭吵。", "kind": "reversed-condition" },
+        { "text": "The director knew Anna and Beth had never fought like cat and dog before the rules were discussed.", "reason": "「had never」否定了原題說兩人以往經常激烈爭吵。", "kind": "erased-history" },
+        { "text": "The director knew Anna and Beth would work calmly together unless the rules were made very clear.", "reason": "「work calmly together」把規則不清時預期再爭吵改成預期和平合作。", "kind": "reversed-prediction" }
+      ]
+    },
+    "idiom-31-q48": {
+      "truthCondition": "Two former friends argued fiercely for years, then finally sat down and solved their main problem.",
+      "correctReason": "正確句保留多年爭吵之後終於坐下解決主要問題的時間與結果。",
+      "foils": [
+        { "text": "Before years of fighting like cat and dog, the two former friends sat down and solved their main problem.", "reason": "「Before」把解決問題移到多年爭吵之前，倒轉原題的先後。", "kind": "reversed-sequence" },
+        { "text": "After years of fighting like cat and dog, the two former friends finally avoided discussing their main problem.", "reason": "「avoided discussing」把坐下解決問題改成迴避討論。", "kind": "changed-resolution" },
+        { "text": "After one day of fighting like cat and dog, the two former friends finally solved their main problem.", "reason": "「one day」把多年激烈爭吵縮成一天。", "kind": "changed-duration" }
+      ]
+    },
+    "idiom-31-q49": {
+      "truthCondition": "A family meal ended early because two uncles resumed a fierce argument over an old disagreement.",
+      "correctReason": "正確句保留舊有分歧令兩名叔伯再次爭吵，並因此使家庭聚餐提早結束的因果。",
+      "foils": [
+        { "text": "The family meal ended early because two uncles started fighting like cat and dog over a new disagreement.", "reason": "「new disagreement」把舊有分歧改成新出現的分歧。", "kind": "changed-history" },
+        { "text": "The family meal continued late even though two uncles fought like cat and dog over an old disagreement.", "reason": "「continued late」把聚餐提早結束改成持續至很晚。", "kind": "changed-result" },
+        { "text": "Two uncles started fighting like cat and dog because the family meal had already ended early.", "reason": "這句說聚餐提早結束引起爭吵；原題說爭吵使聚餐提早結束。", "kind": "reversed-causality" }
+      ]
+    },
+    "idiom-31-q50": {
+      "truthCondition": "Ivy and Freya usually argue fiercely but this time cooperated to help their younger brother.",
+      "correctReason": "正確句保留平日爭吵與這次合作的對比，也保留幫助弟弟的目標。",
+      "foils": [
+        { "text": "Although Ivy and Freya rarely fight like cat and dog, they worked together to help their younger brother.", "reason": "「rarely」把平日經常激烈爭吵改成很少爭吵。", "kind": "changed-usual-frequency" },
+        { "text": "Although Ivy and Freya usually fight like cat and dog, they argued again instead of helping their younger brother.", "reason": "「argued again instead of helping」把這次合作幫忙改成再次爭吵而沒有幫忙。", "kind": "changed-exception" },
+        { "text": "Although Ivy and Freya usually fight like cat and dog, they worked together to help their older sister.", "reason": "「older sister」把受幫助的人由弟弟改成姐姐。", "kind": "changed-recipient" }
+      ]
+    }
+  }
+}
