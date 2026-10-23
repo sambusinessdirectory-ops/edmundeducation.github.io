@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {createServer} from 'node:http';
 import {resolve,extname} from 'node:path';
 import {createRequire} from 'node:module';
-import {buildCourse,cleanProgress,emptyProgress,visibleEvidence,markedText} from '../reading-curation-core.mjs';
+import {buildCourse,cleanProgress,emptyProgress,visibleEvidence,visibleRejections,markedText} from '../reading-curation-core.mjs';
 const root=resolve(import.meta.dirname,'..'),json=async p=>JSON.parse(await readFile(resolve(root,p),'utf8'));
 const [data,article,analysis]=await Promise.all([json('reading-curation/2023-a.json'),json('dse-reading-data/dse-2023-a.json'),json('dse-reading-analysis/dse-2023-a/index.json')]);
 const sourceBefore=JSON.stringify(article),steps=buildCourse(data,article,analysis),at=id=>steps.findIndex(s=>s.id===id);
@@ -23,6 +23,9 @@ for(const p of data.sourceParagraphs){
   let previous=0;for(const s of p.sentences){assert.equal(text.slice(previous,s.start).trim(),'','No source text omitted between reading units');assert.equal(text.slice(s.start,s.end),s.text);previous=s.end;}
   assert.equal(text.slice(previous).trim(),'','No omitted paragraph tail');
 }
+assert.equal(visibleRejections(data,steps,at('q1-attempt')).length,0);
+assert.ok(visibleRejections(data,steps,at('q1-solution-trap-0')).some(t=>t.claim==='a big challenge'&&t.paragraph===1&&t.active));
+assert.ok(!visibleRejections(data,steps,at('q1-solution-reason')).some(t=>t.claim==='a big challenge'));
 assert.equal(visibleEvidence(data,steps,at('q1-attempt')).length,0);
 assert.equal(visibleEvidence(data,steps,at('q1-history-e1')).length,1);
 assert.ok(visibleEvidence(data,steps,at('q1-transfer')).length>1);
@@ -48,6 +51,24 @@ try{
   await page.goto(base+'/__curation-test');await page.waitForFunction(()=>window.ready);await page.locator('#launch').click();
   assert.equal(await page.locator('.rc').getAttribute('open'),'');
   await page.screenshot({path:'/private/tmp/reading-curation-desktop-welcome.png'});
+  await goto('p4-s1');
+  for(const width of [1440,1100,390]){
+    await page.setViewportSize({width,height:900});
+    const clause=page.locator('[data-rc-teaching] .rc-clause').filter({hasText:'集中一位主角。'});
+    assert.equal(await clause.count(),1);
+    const lines=await clause.evaluate(el=>{const r=document.createRange();r.selectNodeContents(el);return new Set([...r.getClientRects()].map(x=>Math.round(x.top))).size;});
+    assert.equal(lines,1,`The final clause moves intact at width ${width}`);
+    assert.ok(await page.locator('.rc-guide-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth+1));
+    await page.screenshot({path:`/private/tmp/reading-curation-clause-${width}.png`});
+  }
+  await page.setViewportSize({width:1440,height:1000});
+  await goto('q1-solution-trap-0');
+  const rejected=page.locator('.rc-source [data-rejected-trap-id="q1-solution-trap-0"]');
+  assert.equal(await rejected.textContent(),'a big challenge');assert.equal(await rejected.locator('s').evaluate(e=>getComputedStyle(e).textDecorationLine),'line-through');
+  assert.equal(await page.locator('.rc-source [data-paragraph="1"]>p').textContent(),article.paragraphs[0].text,'Rejections cannot corrupt or fabricate passage text');
+  await page.screenshot({path:'/private/tmp/reading-curation-passage-rejection.png'});
+  await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('.rc-source [data-rejected-trap-id="q1-solution-trap-0"]').count(),0);
+  await goto('q2-attempt');assert.equal(await page.locator('.rc-passage-rejections').count(),0,'No rejections leak across questions');
   // Every original field is rendered exactly once, in the same table cells and control type.
   for(const q of article.questions){
     await goto(`q${q.number}-attempt`);

@@ -75,6 +75,14 @@ export function visibleEvidence(data,steps,index) {
   const reached = new Set(steps.slice(0,index+1).filter(s=>s.stage===2 && s.question===step.question && s.evidence).map(s=>s.evidence.id));
   return q.units.flatMap(u=>u.evidence.filter(e=>reached.has(e.id)).map(e=>({...e,unit:u.id,used:false})));
 }
+// Rejected answers are annotations, never fabricated quotations or deletions of valid evidence.
+export function visibleRejections(data,steps,index){
+  const step=steps[index];if(step?.stage!==2||!step.question)return [];
+  const q=data.questions.find(q=>q.number===step.question);
+  return steps.slice(0,index+1).filter(s=>s.stage===2&&s.question===step.question&&s.kind==='trap').map(s=>({
+    id:s.id,claim:s.trap.claim,why:s.trap.why,paragraph:q.units.find(u=>u.id===s.unit).evidence[0].paragraph,active:s.id===step.id
+  }));
+}
 export const escapeHtml = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function markedText(text,marks,activeId='') {
   const esc=escapeHtml;

@@ -1,7 +1,7 @@
 import {createReadingQuestionRenderer} from './reading-question-controls.mjs?v=20261024-curation1';
-import {buildCourse,STAGES,emptyProgress,cleanProgress,visibleEvidence,markedText,escapeHtml as esc} from './reading-curation-core.mjs?v=20261024-super3';
+import {buildCourse,STAGES,emptyProgress,cleanProgress,visibleEvidence,visibleRejections,markedText,escapeHtml as esc} from './reading-curation-core.mjs?v=20261024-super4';
 import {renderRichBody,analysisAssetUrl} from './dse-deep-analysis.mjs?v=20261018-analysis-batch1';
-const REV='20261024-super3';
+const REV='20261024-super4';
 const button=(action,text,extra='')=>`<button type="button" data-rc-action="${action}" ${extra}>${text}</button>`;
 const labels={welcome:'開始之前',map:'段落地圖',sentence:'逐句閱讀',attempt:'先讀題・自己試',evidence:'定位原文',reason:'解釋證據',trap:'排除陷阱',transfer:'帶走方法',analysis:'完整原稿',answer:'對照參考',verify:'返回來源',check:'回到答案',finish:'回顧'};
 export async function createReadingSuperCuration({article,userId,onClose=()=>{},onHome=()=>{}}) {
@@ -40,16 +40,19 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
   }
   function breakCurationText(root){
     root.querySelectorAll('br[data-rc-break]').forEach(n=>n.remove());
+    root.querySelectorAll('.rc-clause').forEach(n=>n.replaceWith(...n.childNodes));root.normalize();
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[];
     while(walker.nextNode()){
       const n=walker.currentNode;
-      if(/[。；，]/.test(n.data)&&!n.parentElement.closest('textarea,input,select,button:not(.rc-evidence-card),script,style,[contenteditable]'))nodes.push(n);
+      if(/[。；，→]/.test(n.data)&&!n.parentElement.closest('textarea,input,select,button:not(.rc-evidence-card),script,style,[contenteditable]'))nodes.push(n);
     }
     for(const node of nodes){
       const fragment=document.createDocumentFragment();
-      for(const part of node.data.split(/(?<=[。；，])/u)){
-        fragment.append(document.createTextNode(part));
-        if(/[。；，]$/u.test(part)){const br=document.createElement('br');br.dataset.rcBreak='';fragment.append(br);}
+      // Keep short clauses together; long clauses balance within the available width.
+      // The arrow stays with the preceding clause, so a final Chinese word is not stranded.
+      for(const part of node.data.match(/[^。；，→]*[。；，→][」』”）)]*|[^。；，→]+$/gu)||[]){
+        const span=document.createElement('span');span.className='rc-clause';span.textContent=part;fragment.append(span);
+        if(/[。；，][」』”）)]*$/u.test(part)){const br=document.createElement('br');br.dataset.rcBreak='';fragment.append(br);}
       }
       node.replaceWith(fragment);
     }
@@ -84,7 +87,7 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
     else if(s.kind==='attempt')body=`<div class="rc-callout">${esc(q.contract)}</div><p>先讀下方完整原題。確認人物、段落、字數和任務，使用題目的選項或答案欄作答。</p><p>下一步開始逐項找證據；如果還未有答案，可以先寫不肯定的地方。</p>`;
     else if(s.kind==='evidence')body=`<p>回到第 <strong>${s.paragraph}</strong> 段，讀高亮部分前後的完整句子。</p><blockquote>${esc(s.evidence.quote)}</blockquote><p>這段話能支持甚麼？又有哪些意思是它沒有說的？先想，再看下一步的推理。</p>`;
     else if(s.kind==='reason')body=`<div class="rc-callout">${esc(s.note)}</div><p>把原文線索與題目要求接起來。右邊的證據庫可隨時帶你回到來源。</p>`;
-    else if(s.kind==='trap')body=`<p>這個候選答案為甚麼不適合本題？</p><div class="rc-rejected"><span>不採用的答案／推論</span><s>${esc(s.trap.claim)}</s></div><div class="rc-callout">${esc(s.trap.why)}</div><p>刪線代表本題不採用這個答案，並不是把原文刪掉。</p>`;
+    else if(s.kind==='trap')body=`<p>這個候選答案為甚麼不適合本題？</p><div class="rc-rejected"><span>不採用的答案／推論</span><s>${esc(s.trap.claim)}</s></div><div class="rc-callout">${esc(s.trap.why)}</div><p>中間原文旁同步劃去這個候選答案。刪線表示本題不採用，原文字句仍然保留。</p>`;
     else if(s.kind==='transfer')body=`<div class="rc-callout">${esc(s.note)}</div><p>用自己的話講一次方法。下次換了文章，還可以用哪個檢查步驟？</p>${button('reference','深入閱讀本題全部原稿')}`;
     else if(s.kind==='analysis')body=`<p>中間顯示 Edmund Sir 原稿的第 <strong>${s.page}</strong> 頁，保留本頁完整解說及重點格式。</p><div class="rc-callout">${esc(q.contract)}</div><p>讀到證據時，使用右方證據庫回到文章。讀到陷阱時，對照自己原先的想法。</p>${button('question','重新查看完整原題')}<p class="rc-small">本階段逐頁保留所有題目解說；不是摘要。可透過「跳至步驟」找關鍵字。</p>`;
     else if(s.kind==='answer')body=`<p>先讀自己的筆記，再比較這個參考表達。</p><blockquote class="rc-answer">${esc(u.answer)}</blockquote><p>${esc(u.why)}</p><p class="rc-small">參考表達供學習比較；開放題可能有其他合理寫法，不以字串相同作評分。</p>`;
@@ -110,9 +113,15 @@ export async function createReadingSuperCuration({article,userId,onClose=()=>{},
     $('[data-rc-action="reference"]').disabled=!q;
     $('[data-rc-action="question"]').disabled=!q;
   }
+  function rejectionHTML(paragraph){
+    const rejected=visibleRejections(data,steps,index).filter(t=>t.paragraph===paragraph);if(!rejected.length)return '';
+    const active=rejected.find(t=>t.active)||rejected.at(-1),older=rejected.filter(t=>t!==active);
+    const chip=t=>`<span class="rc-passage-rejection ${t.active?'rc-current-rejection':''}" data-rejected-trap-id="${t.id}"><s>${esc(t.claim)}</s></span>`;
+    return `<aside class="rc-passage-rejections" aria-label="本題排除的答案與推論"><strong>Q${current().question} · 不採用的答案／推論</strong>${chip(active)}<small>此標記是被排除的答案，不是原文字句。</small>${older.length?`<details><summary>之前排除的答案（${older.length}）</summary>${older.map(chip).join('')}</details>`:''}</aside>`;
+  }
   function paragraphHTML(p,marks,activeId){
     const meta=data.sourceParagraphs.find(x=>x.number===p.number);
-    return `<article class="rc-paragraph" data-paragraph="${p.number}"><header><span>PARAGRAPH ${p.number}</span><small>原卷文章 p.${meta.sourcePage}</small></header>${p.label?`<h3>${esc(p.label)}</h3>`:''}<p>${markedText(p.text,marks.filter(m=>m.paragraph===p.number),activeId)}</p>${progress.preferences.bilingual?`<div class="rc-translation" lang="zh-Hant"><small>中文參考 · 原文意思對照</small>${p.translation?esc(p.translation):`此段翻譯未載入。可在「需要協助 → 原稿補充」查看完整中文參考。`}</div>`:''}</article>`;
+    return `<article class="rc-paragraph" data-paragraph="${p.number}"><header><span>PARAGRAPH ${p.number}</span><small>原卷文章 p.${meta.sourcePage}</small></header>${p.label?`<h3>${esc(p.label)}</h3>`:''}${rejectionHTML(p.number)}<p>${markedText(p.text,marks.filter(m=>m.paragraph===p.number),activeId)}</p>${progress.preferences.bilingual?`<div class="rc-translation" lang="zh-Hant"><small>中文參考 · 原文意思對照</small>${p.translation?esc(p.translation):`此段翻譯未載入。可在「需要協助 → 原稿補充」查看完整中文參考。`}</div>`:''}</article>`;
   }
   function renderSource(){
     const s=current(),q=question();let marks=visibleEvidence(data,steps,index);

@@ -38,3 +38,13 @@ body.rc-open{overflow:hidden}
 [data-rc-question-stages]{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
 .rc .deep-sentence-end,.rc-modal .deep-sentence-end{white-space:normal}
 @media print{.rc-paragraph.rc-dim::after{display:none}}
+
+/* Move a short clause as a unit; rebalance longer clauses instead of leaving tiny tails. */
+.rc-clause{display:inline-block;max-width:100%;vertical-align:top;white-space:normal;text-wrap:balance;overflow-wrap:normal}
+.rc-guide-scroll p,.rc-callout,.rc-translation,.rc-original-question h3,.rc .deep-rich-line,.rc-modal .deep-rich-line{text-wrap:pretty;overflow-wrap:break-word}
+.rc-passage-rejections{border:1px solid #dba999;border-left:3px solid #bd5048;border-radius:9px;background:#fff2ed;padding:12px 15px;margin:12px 0 20px;font: .85rem/1.6 Inter,"Noto Sans TC",system-ui,sans-serif}
+.rc-passage-rejections>strong{display:block;font-size:.72rem;color:#8f443a;margin-bottom:7px}
+.rc-passage-rejection{display:block;font:1.1rem/1.7 Georgia,"Noto Serif TC",serif;color:#71392e;margin:5px 0;overflow-wrap:anywhere}
+.rc-passage-rejection s{text-decoration-line:line-through;text-decoration-color:#b83130;text-decoration-thickness:2px}
+.rc-passage-rejections details{margin-top:8px;padding-top:7px}
+.rc-passage-rejections small{font-size:.66rem}
