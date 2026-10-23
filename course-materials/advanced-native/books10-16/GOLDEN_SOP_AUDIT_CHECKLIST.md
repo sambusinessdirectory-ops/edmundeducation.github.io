@@ -1,6 +1,6 @@
 # Advanced Native Books 10–16 — Golden SOP verification checklist
 
-Audit snapshot: 2026-10-23 07:10 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023` (pushed to the site's GitHub repository; this draft branch is not the public site).
+Audit snapshot: 2026-10-23 07:15 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023` (pushed to the site's GitHub repository; this draft branch is not the public site).
 Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9ddc17580`. Source DOCX SHA-256: `d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012`.
 
 **Release verdict: NOT APPROVED.** This is a complete requirements audit of the current work, not a certificate that all requirements have passed. Failed or pending gates must be repaired and the entire affected verification cycle rerun before publication. No new Books 10–16 lessons are live.
@@ -12,7 +12,7 @@ Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9
 - Exact spelling analysis: 1,844 distinct spellings, 866 occurrences exactly matching a prior source phrase, and 760 repeated occurrences within the new document. These figures do not decide whether senses match.
 - Reconciliation states: 8 draft lessons; 1,229 other first-use authoring candidates; 270 first-use near-prior candidates; 865 exact-prior occurrences; 232 remaining repeated-source occurrences. 1,506 distinct new spellings need a sense-level decision.
 - Pilot draft: eight lessons projected for display 1894–1901, 56 steps, 48 assessed questions, 16 writing examples and 32 required audio roles. Audio produced for this pilot: **0**.
-- First 30 source occurrences have an explicit **provisional** sense/action triage: 19 proposed new lessons, 8 proposed aliases to existing lessons, 2 proposed aliases within this document, and 1 wording hold. This is a self-review queue, not independent editorial approval. The `show up` arrival sense is kept distinct from the existing support-someone sense.
+- First 60 source occurrences have an explicit **provisional** sense/action triage: 34 proposed new lessons, 17 proposed aliases to existing lessons, 2 proposed aliases within this document, and 7 wording or naturalness holds. This is a self-review queue, not independent editorial approval. The `show up` arrival sense is kept distinct from the existing support-someone sense; `swallow time whole` is provisionally distinct from the existing accept-a-claim sense.
 
 ## Requirement-by-requirement register
 
@@ -27,9 +27,9 @@ Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `
 
 - [x] **SRC03 — PASS—intake.** Distinguish original sample sentences from guide-written practice examples. The eight pilot lesson records say guide_original_example, rather than original online sample answer. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
 
-- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 865 unresolved exact-prior occurrences and 270 first-use near-prior candidates flagged; first 30 have explicit proposed decisions including a distinct `show up` sense. No automatic semantic merges. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl`.
+- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 865 unresolved exact-prior occurrences and 270 first-use near-prior candidates flagged; first 60 have explicit proposed decisions including a distinct `show up` sense. No automatic semantic merges. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl; books10-16/editorial-decisions-2142-2171.jsonl`.
 
-- [ ] **SRC05 — PENDING.** Resolve doubtful meaning, grammar, register and taxonomy against primary language references. One of the first 30 occurrences is explicitly held for number/target wording; no completed primary-reference or independent sense review across 2,604 rows. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl`.
+- [ ] **SRC05 — PENDING.** Resolve doubtful meaning, grammar, register and taxonomy against primary language references. Seven of the first 60 occurrences are explicitly held for wording, naturalness or target-unit review; no completed primary-reference or independent sense review across 2,604 rows. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl; books10-16/editorial-decisions-2142-2171.jsonl`.
 
 ### Curation and seven-step lesson
 

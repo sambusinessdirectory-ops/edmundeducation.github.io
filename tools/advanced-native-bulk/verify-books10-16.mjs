@@ -15,7 +15,7 @@ const readLines=relative=>fs.readFileSync(path.join(base,relative),'utf8').trim(
 const rows=readLines('books10-16/source-inventory.jsonl');
 const intake=read('books10-16/intake-summary.json');
 const reconciliation=readLines('books10-16/reconciliation-register.jsonl');
-const decisions=readLines('books10-16/editorial-decisions-2112-2141.jsonl');
+const decisions=[...readLines('books10-16/editorial-decisions-2112-2141.jsonl'),...readLines('books10-16/editorial-decisions-2142-2171.jsonl')];
 const release=read('release-index.json');
 const pilot=[...read('drafts-books10-16/batch-2112-2119.json').lessons,...read('drafts-books10-16/batch-2113.json').lessons,...read('drafts-books10-16/batch-2120.json').lessons,...read('drafts-books10-16/batch-2123.json').lessons].sort((a,b)=>a.number-b.number);
 assert.equal(rows.length,2604);
@@ -24,8 +24,8 @@ assert.equal(intake.sourceRows,rows.length);
 assert.deepEqual(intake.rowsWithoutPdfPage,[]);
 assert.deepEqual(intake.unmatchedQuestionHeadings,[]);
 assert.equal(new Set(rows.map(r=>r.sourceId)).size,rows.length);
-assert.equal(decisions.length,30);
-assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:30},(_,i)=>2112+i));
+assert.equal(decisions.length,60);
+assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:60},(_,i)=>2112+i));
 const sourceById=new Map(rows.map(row=>[row.sourceId,row]));
 const existingIds=new Set(read('provenance/curated-module-index.json').map(row=>row.moduleId));
 for(const decision of decisions){
@@ -87,7 +87,7 @@ assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number
                  baseIndex.map(row=>[row.id,row.number]));
 assert.deepEqual(nextIndex.slice(-8).map(row=>row.number),[1894,1895,1896,1897,1898,1899,1900,1901]);
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,first30EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,first60EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
  projectedDisplayRange:'1894–1901',wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));
