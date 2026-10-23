@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-10-23T16:55:56Z",
+  "site": "https://edmundeducation.com/idiom-system.html",
+  "assets": {
+    "idiom-system.js": {
+      "sha256": "145029ccb81234330b0fa320871a78cfd9507f6f43fa2100781b4de333b60e3b",
+      "bytes": 179328,
+      "matchesLocal": true
+    },
+    "idiom-adventure.mjs": {
+      "sha256": "51d79802ea964599c178cca5f148339c55393ae95eb3ab95a1e03865088c1b97",
+      "bytes": 17569,
+      "matchesLocal": true
+    },
+    "idiom-adventure-core.mjs": {
+      "sha256": "aa8a4b946d837a53201c336e797961d59b0a5ff4d5c179ddc1b65d20681b01a3",
+      "bytes": 4224,
+      "matchesLocal": true
+    },
+    "idiom-adventure-art.mjs": {
+      "sha256": "5890aa463160547a9d385289eb1e81ece999eef4e7d313d1b6ffc8b28ff16003",
+      "bytes": 6021,
+      "matchesLocal": true
+    },
+    "idiom-adventure.css": {
+      "sha256": "f830c4668fc3ab29b634fb025bf694cd28277833d597711d4729fc9d938e66dd",
+      "bytes": 18823,
+      "matchesLocal": true
+    }
+  }
+}
