@@ -13,9 +13,9 @@
     },
     "idiom-31-q17": {
       "truthCondition": "Daniel and his younger sister love each other but argue fiercely over tiny matters.",
-      "correctReason": "正確句同時保留兩人相親、卻會為小事激烈爭吵的對比；爭吵不等於彼此憎恨。",
+      "correctReason": "正確句同時保留兩人彼此關愛、卻會為小事激烈爭吵的對比；爭吵不等於彼此憎恨。",
       "foils": [
-        { "text": "Daniel and his younger sister fight like cat and dog over small things because they hate each other.", "reason": "「hate each other」與原題說兩人彼此相愛直接衝突。", "kind": "changed-relationship" },
+        { "text": "Daniel and his younger sister fight like cat and dog over small things because they hate each other.", "reason": "「hate each other」與原題說兩人彼此關愛直接衝突。", "kind": "changed-relationship" },
         { "text": "Daniel and his younger sister fight like cat and dog only over major problems, despite loving each other.", "reason": "「only over major problems」把爭議由小事改成重大問題。", "kind": "changed-scale" },
         { "text": "Daniel and his younger sister love each other and never argue fiercely over small things.", "reason": "「never argue」否定了原題所說的激烈爭吵。", "kind": "reversed-conflict" }
       ]
@@ -40,7 +40,10 @@
     },
     "idiom-31-q20": {
       "truthCondition": "The speaker and his brother argued angrily throughout childhood but are close now.",
-      "correctReason": "「used to」把激烈爭吵放在童年；「but we are close now」保留現時親密的轉變。",
+      "correctText": "My brother and I fought like cat and dog all the time as children, but we are close now.",
+      "correctZh": "我和哥哥小時候總是激烈爭吵，但現在關係親密。",
+      "answerOverrideReason": "Restores the source's explicit all-the-time childhood frequency and present closeness; the canonical source answer remains unchanged.",
+      "correctReason": "「all the time as children」保留童年總是爭吵的頻率；「but we are close now」保留如今關係親密的轉變。",
       "foils": [
         { "text": "My brother and I still fight like cat and dog, although we were close as children.", "reason": "這句把時間線倒轉：原題說童年常吵、如今親密。", "kind": "reversed-timeline" },
         { "text": "My brother and I used to fight like cat and dog as children, and we still do now.", "reason": "「we still do now」說現在仍常吵，與原題現時關係親密的轉變不符。", "kind": "changed-current-state" },

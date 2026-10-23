@@ -21,17 +21,23 @@
       ]
     },
     "idiom-31-q13": {
-      "truthCondition": "Sophie and her cousin argued fiercely throughout the family dinner.",
-      "correctReason": "正確句保留蘇菲與表親這兩人，以及從晚餐開始到結束一直激烈爭吵的時間範圍。",
+      "truthCondition": "Sophie and her cousin began arguing during the family dinner and continued fiercely until the meal ended.",
+      "correctText": "Sophie and her cousin started fighting like cat and dog during dinner and kept arguing until the meal ended.",
+      "correctZh": "蘇菲和表親在家庭晚餐席間開始激烈爭吵，之後一直吵到飯局結束。",
+      "answerOverrideReason": "Restores the source's two-stage sequence—argument began during dinner and continued to the meal's end—without implying that it began when dinner started; canonical source answer is unchanged.",
+      "correctReason": "「started ... during dinner」保留席間開始爭吵；「kept arguing until the meal ended」保留一直吵到飯局結束。",
       "foils": [
-        { "text": "Sophie and her cousin fought like cat and dog before the family dinner began.", "reason": "「before ... began」把爭吵移到晚餐開始之前；原題說爭吵發生並持續於席間。", "kind": "changed-timing" },
-        { "text": "Sophie and her cousin fought like cat and dog briefly during the family dinner.", "reason": "「briefly」表示只短暫爭吵；原題說兩人整頓飯都在爭執。", "kind": "changed-duration" },
-        { "text": "Sophie and her cousin spoke calmly throughout the family dinner.", "reason": "「spoke calmly」把持續激烈的爭吵改成平靜交談。", "kind": "reversed-tone" }
+        { "text": "Sophie and her cousin fought like cat and dog before the family dinner even began.", "reason": "「before ... began」把爭吵移到晚餐開始之前；原題說爭吵發生並持續於席間。", "kind": "changed-timing" },
+        { "text": "Sophie and her cousin fought like cat and dog only briefly during the family dinner.", "reason": "「only briefly」表示只短暫爭吵；原題說兩人一直吵到飯局結束。", "kind": "changed-duration" },
+        { "text": "Sophie and her cousin spoke calmly to each other throughout the family dinner.", "reason": "「spoke calmly」把持續激烈的爭吵改成平靜交談。", "kind": "reversed-tone" }
       ]
     },
     "idiom-31-q14": {
       "truthCondition": "Liam and Noah will argue angrily all the time if they must share a room.",
-      "correctReason": "正確句把爭吵繫於「必須共用一間房」的條件，並以慣用語表達激烈反覆的爭執。",
+      "correctText": "Liam and Noah will fight like cat and dog all the time if they have to share one room.",
+      "correctZh": "如果利亞姆和諾亞必須共用一個房間，他們便會整天激烈爭吵。",
+      "answerOverrideReason": "Restores the source's explicit 'all the time' frequency under the room-sharing condition; canonical source answer is unchanged.",
+      "correctReason": "「if they have to share one room」保留共用房間這個條件；「all the time」保留整天反覆爭吵的頻率。",
       "foils": [
         { "text": "Liam and Noah will fight like cat and dog unless they have to share one room.", "reason": "「unless」把條件倒轉：這句說不共用房間才會吵。", "kind": "reversed-condition" },
         { "text": "Liam and Noah will fight like cat and dog once if they share one room.", "reason": "「once」把整天反覆爭吵縮成一次。", "kind": "changed-frequency" },

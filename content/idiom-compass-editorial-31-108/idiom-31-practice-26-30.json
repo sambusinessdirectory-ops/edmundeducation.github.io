@@ -13,16 +13,22 @@
     },
     "idiom-31-q27": {
       "truthCondition": "Josh and Ethan became flatmates two months ago and have argued fiercely about housework ever since.",
-      "correctReason": "「Since ... became flatmates」和現在完成進行式保留兩個月前開始、至今仍持續的家務爭吵。",
+      "correctText": "Since they became flatmates two months ago, Josh and Ethan have been fighting like cat and dog over housework.",
+      "correctZh": "喬希和伊森兩個月前成為室友，此後一直為家務而激烈爭吵。",
+      "answerOverrideReason": "Restores the explicit two-month start point while preserving the continuing dispute over housework; canonical source answer remains unchanged.",
+      "correctReason": "「two months ago」保留同住開始的時間；「have been fighting ... over housework」保留此後至今持續的家務爭吵。",
       "foils": [
-        { "text": "Before Josh and Ethan became flatmates, they had fought like cat and dog over housework.", "reason": "「Before」把爭吵移到同住前；原題說兩人自同住後才一直爭吵。", "kind": "changed-start-point" },
+        { "text": "Before Josh and Ethan became flatmates, they had fought like cat and dog over housework.", "reason": "這句只談同住前的爭吵，沒有保留同住後持續至今的情況；原題並未交代同住前是否吵過。", "kind": "changed-start-point" },
         { "text": "Since Josh and Ethan became flatmates, they have been fighting like cat and dog over rent.", "reason": "「rent」把爭議由家務改成租金。", "kind": "changed-issue" },
         { "text": "Since Josh and Ethan became flatmates, they have divided the housework without arguing.", "reason": "「without arguing」說兩人能和平分工，與原題持續激烈爭吵相反。", "kind": "reversed-outcome" }
       ]
     },
     "idiom-31-q28": {
-      "truthCondition": "Priya and her older sister used to argue angrily often, but now resolve problems calmly.",
-      "correctReason": "正確句用「do not ... any more」表明昔日激烈爭吵已停止，並保留兩人現時冷靜討論。",
+      "truthCondition": "Priya and her older sister used to argue angrily all the time, but now discuss problems calmly.",
+      "correctText": "Priya and her older sister used to fight like cat and dog all the time, but now discuss problems calmly.",
+      "correctZh": "普麗雅和姐姐以前總是激烈爭吵，但現在會冷靜地討論問題。",
+      "answerOverrideReason": "Restores the source's all-the-time past frequency and current calm discussion in one sentence; canonical source answer remains unchanged.",
+      "correctReason": "「used to ... all the time」保留昔日總是激烈爭吵；「but now discuss problems calmly」保留現在的轉變。",
       "foils": [
         { "text": "Priya and her older sister still fight like cat and dog whenever they discuss problems.", "reason": "「still」表示現在仍激烈爭吵；原題說兩人如今會冷靜討論。", "kind": "changed-current-state" },
         { "text": "Priya and her older sister did not fight like cat and dog before, but they do now.", "reason": "這句把昔日常吵、現在平靜的時間線完全倒轉。", "kind": "reversed-timeline" },
@@ -31,11 +37,14 @@
     },
     "idiom-31-q29": {
       "truthCondition": "The two singers appeared friendly on stage but argued angrily nearly every day away from the audience.",
-      "correctReason": "正確句保留台上友好、離開觀眾視線後常激烈爭吵的反差。",
+      "correctText": "The two singers seemed friendly on stage, but fought like cat and dog almost every day away from the audience.",
+      "correctZh": "兩名歌手在台上看來友好，但在觀眾看不到的地方幾乎每天都激烈爭吵。",
+      "answerOverrideReason": "Restores the source's almost-every-day frequency and preserves the on-stage/private contrast; canonical source answer remains unchanged.",
+      "correctReason": "「seemed friendly on stage」保留台上印象；「almost every day away from the audience」保留私下爭吵的頻率及地點。",
       "foils": [
         { "text": "The two singers seemed friendly on stage, but often fought like cat and dog in front of the audience.", "reason": "「in front of the audience」把爭吵移到觀眾面前；原題說爭吵發生在觀眾看不到的地方。", "kind": "changed-setting" },
         { "text": "The two singers seemed unfriendly on stage, but often fought like cat and dog when away from the audience.", "reason": "「unfriendly on stage」改變原題台上看來友好的情況。", "kind": "changed-public-appearance" },
-        { "text": "The two singers seemed friendly on stage and remained close friends when they were away from the audience.", "reason": "「remained close friends」抹去了兩人私下幾乎每天激烈爭吵的反差。", "kind": "reversed-private-behaviour" }
+        { "text": "The two singers seemed friendly on stage and settled every disagreement calmly when they were away from the audience.", "reason": "「settled every disagreement calmly」把私下幾乎每天激烈爭吵改成每次都平靜解決。", "kind": "reversed-private-behaviour" }
       ]
     },
     "idiom-31-q30": {

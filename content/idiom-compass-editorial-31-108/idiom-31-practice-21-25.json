@@ -40,7 +40,10 @@
     },
     "idiom-31-q25": {
       "truthCondition": "Nina reported that she and her flatmate argued angrily every day throughout the previous week about heating.",
-      "correctReason": "正確句保留妮娜的轉述、整個上星期每天爭吵的時段，以及暖氣這個爭議。",
+      "correctText": "Nina told me that she and her flatmate had fought like cat and dog about the heating every day last week.",
+      "correctZh": "妮娜告訴我，她和室友上星期每天都為暖氣而激烈爭吵。",
+      "answerOverrideReason": "Restores the source's exact every-day frequency within the preceding week; 'all week' alone need not mean every day. Canonical source answer remains unchanged.",
+      "correctReason": "「every day last week」保留上星期每天爭吵的頻率；「about the heating」保留暖氣爭議。",
       "foils": [
         { "text": "Nina told me that she and her flatmate had fought like cat and dog all week about the rent.", "reason": "「the rent」把爭議由暖氣改成租金。", "kind": "changed-issue" },
         { "text": "Nina told me that she and her flatmate had fought like cat and dog once last week about the heating.", "reason": "「once last week」把上星期每天的爭吵改成只吵一次。", "kind": "changed-frequency" },

@@ -23,8 +23,8 @@
     "single-main-clause": 11,
     "time-later": 8,
     "time-leading": 7,
+    "contrast-later": 6,
     "concession-leading": 5,
-    "contrast-later": 5,
     "reported-speech": 5,
     "conditional-later": 4,
     "reason-or-purpose-later": 4,
@@ -32,16 +32,15 @@
     "dialogue-response": 2,
     "perfect-progressive-main-clause": 2,
     "conditional-leading": 1,
-    "continued-action-main-clause": 1,
     "past-habit-main-clause": 1,
     "progressive-main-clause": 1
   },
   "aspects": {
-    "present-or-other": 32,
+    "present-or-other": 33,
     "past": 9,
     "modal-or-future": 8,
     "perfect-progressive": 5,
-    "past-habit-or-cessation": 4,
+    "past-habit-or-cessation": 3,
     "perfect": 2
   },
   "foilKinds": {
