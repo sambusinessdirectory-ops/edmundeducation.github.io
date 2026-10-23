@@ -16,8 +16,13 @@ const rows=readLines('books10-16/source-inventory.jsonl');
 const intake=read('books10-16/intake-summary.json');
 const reconciliation=readLines('books10-16/reconciliation-register.jsonl');
 const decisions=[...readLines('books10-16/editorial-decisions-2112-2141.jsonl'),...readLines('books10-16/editorial-decisions-2142-2171.jsonl')];
+const exactAliasSuggestions=readLines('books10-16/exact-prior-alias-suggestions.jsonl');
 const release=read('release-index.json');
-const pilot=[...read('drafts-books10-16/batch-2112-2119.json').lessons,...read('drafts-books10-16/batch-2113.json').lessons,...read('drafts-books10-16/batch-2120.json').lessons,...read('drafts-books10-16/batch-2123.json').lessons].sort((a,b)=>a.number-b.number);
+const draftManifest=read('drafts-books10-16/batch-manifest.json');
+const draftFiles=draftManifest.batchFiles;
+assert.equal(new Set(draftFiles).size,draftFiles.length);
+assert.ok(draftFiles.every(name=>/^batch-.*\.json$/.test(name)));
+const pilot=draftFiles.flatMap(name=>read(`drafts-books10-16/${name}`).lessons).sort((a,b)=>a.number-b.number);
 assert.equal(rows.length,2604);
 assert.equal(reconciliation.length,rows.length);
 assert.equal(intake.sourceRows,rows.length);
@@ -28,6 +33,7 @@ assert.equal(decisions.length,60);
 assert.deepEqual(decisions.map(row=>row.sourceOrdinal),Array.from({length:60},(_,i)=>2112+i));
 const sourceById=new Map(rows.map(row=>[row.sourceId,row]));
 const existingIds=new Set(read('provenance/curated-module-index.json').map(row=>row.moduleId));
+const oldLabels=new Map(read('provenance/source-labels.json').map(row=>[row.inventoryId,row]));
 for(const decision of decisions){
  const source=sourceById.get(decision.sourceId);
  assert.ok(source,`${decision.sourceId}: source exists`);
@@ -40,13 +46,40 @@ for(const decision of decisions){
  if(decision.action==='hold-editorial')assert.equal(decision.canonicalId,null);
  assert.ok(decision.reason.length>=30);
 }
+assert.equal(exactAliasSuggestions.length,816);
+assert.equal(new Set(exactAliasSuggestions.map(row=>row.sourceId)).size,exactAliasSuggestions.length);
+const normaliseMeaning=text=>String(text).toLowerCase().replace(/\s+/g,' ').trim();
+for(const suggestion of exactAliasSuggestions){
+ const source=sourceById.get(suggestion.sourceId);
+ assert.ok(source,`${suggestion.sourceId}: source exists`);
+ assert.equal(suggestion.sourceOrdinal,2111+Number(suggestion.sourceId.slice(-4)));
+ assert.equal(suggestion.phrase,source.expression);
+ assert.equal(suggestion.matchBasis,'exact_normalised_phrase_and_exact_normalised_guide_meaning');
+ assert.ok(existingIds.has(suggestion.proposedCanonicalId));
+ assert.ok(suggestion.priorInventoryIds.length>0);
+ for(const priorId of suggestion.priorInventoryIds){
+  const prior=oldLabels.get(priorId);
+  assert.ok(prior,`${suggestion.sourceId}: prior inventory exists`);
+  assert.equal(normaliseMeaning(prior.sourcePhrase),normaliseMeaning(source.expression));
+  assert.ok(prior.canonicalModuleIds.includes(suggestion.proposedCanonicalId));
+  assert.ok(prior.sourceMeanings.some(meaning=>normaliseMeaning(meaning)===normaliseMeaning(source.meaningAndReason)));
+ }
+ const manual=decisions.find(row=>row.sourceId===suggestion.sourceId);
+ if(manual){assert.equal(manual.action,'proposed-alias-existing');assert.equal(manual.canonicalId,suggestion.proposedCanonicalId);}
+}
 assert.ok(rows.every(r=>r.renderedPdfPage>=1&&r.renderedPdfPage<=intake.renderedPdfPages));
 for(const [book,count] of Object.entries(intake.reportedBookCounts)){
  assert.equal(intake.extractedBookCounts[book].questions,count.questions);
  assert.equal(intake.extractedBookCounts[book].expressions,count.expressions);
 }
-assert.equal(pilot.length,8);
-assert.deepEqual(pilot.map(r=>r.id),['advanced-native-2112','advanced-native-2113','advanced-native-2115','advanced-native-2117','advanced-native-2118','advanced-native-2119','advanced-native-2120','advanced-native-2123']);
+assert.equal(pilot.length,draftManifest.expectedSourceOrdinals.length);
+assert.deepEqual(pilot.map(r=>r.number),draftManifest.expectedSourceOrdinals);
+assert.equal(new Set(pilot.map(r=>r.id)).size,pilot.length);
+for(const lesson of pilot){
+ const decision=decisions.find(row=>row.sourceOrdinal===lesson.number);
+ assert.equal(decision?.action,'proposed-new-lesson');
+ assert.equal(decision.canonicalId,lesson.id);
+}
 const bySource=new Map(rows.map(row=>[row.sourceId,row]));
 for(const lesson of pilot){
  for(const source of lesson.sources){
@@ -82,12 +115,12 @@ const imported=body=>JSON.parse(body.slice(body.indexOf('export default ')+15).r
 const baseIndex=imported(baseBuild.files['advanced-imported.generated.mjs']);
 const nextIndex=imported(extended.files['advanced-imported.generated.mjs']);
 assert.equal(baseIndex.length,1883);
-assert.equal(nextIndex.length,1891);
+assert.equal(nextIndex.length,baseIndex.length+pilot.length);
 assert.deepEqual(nextIndex.slice(0,baseIndex.length).map(row=>[row.id,row.number]),
                  baseIndex.map(row=>[row.id,row.number]));
-assert.deepEqual(nextIndex.slice(-8).map(row=>row.number),[1894,1895,1896,1897,1898,1899,1900,1901]);
+assert.deepEqual(nextIndex.slice(-pilot.length).map(row=>row.number),Array.from({length:pilot.length},(_,i)=>1894+i));
 console.log(JSON.stringify({intakeRows:rows.length,books:Object.keys(intake.reportedBookCounts).length,
- sourcePageGaps:0,first60EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),existingCanonical:release.counts.totalCanonicalModules,
+ sourcePageGaps:0,first60EditorialTriage:Object.fromEntries(['proposed-new-lesson','proposed-alias-existing','proposed-alias-new','hold-editorial'].map(action=>[action,decisions.filter(row=>row.action===action).length])),exactPriorAliasSuggestions:exactAliasSuggestions.length,existingCanonical:release.counts.totalCanonicalModules,
  pilotDrafts:pilot.length,pilotQuestions:pilot.length*6,pilotAudioRequests:pilot.length*4,
- projectedDisplayRange:'1894–1901',wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
+ projectedDisplayRange:`1894–${1893+pilot.length}`,wholeCatalogueSchemaErrors:validation.errors.length,exactGuideSentenceCopies:0,pilotNearDuplicateFlags:nearFlags.length,
  published:false,releaseApproved:false},null,2));

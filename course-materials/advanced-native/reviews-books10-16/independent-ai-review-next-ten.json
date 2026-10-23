@@ -1,0 +1,176 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": {
+    "batchFiles": [
+      "course-materials/advanced-native/drafts-books10-16/batch-2114-2127-a.json",
+      "course-materials/advanced-native/drafts-books10-16/batch-2132-2138-b.json"
+    ],
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "lessonCount": 10
+  },
+  "overallVerdict": "Editorial repairs required before human review or release. This is AI peer review only.",
+  "lessons": [
+    {
+      "lessonId": "advanced-native-2114",
+      "sourceSense": "Lingering unpleasant impression after treatment or an interaction; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "reply.options[d].en; reply.options[d].zh",
+          "severity": "major",
+          "explanation": "The question asks how the committee felt after an apology. Option d reports a decision to explain the harm, not a feeling. It is not an independently responsive fourth answer under the all-valid rule.",
+          "recommendedFix": "Replace d with a distinct feeling or attitude after the apology, and translate that feeling faithfully."
+        },
+        {
+          "path": "scene.options[b].en; scene.options[b].zh",
+          "severity": "major",
+          "explanation": "'The refund tasted bitter because the food was cold' is semantically nonsensical: a refund has no literal taste, and the scene is a charity-sale public mockery. The SOP calls for plausible distractors rather than absurd wording that makes the key trivial.",
+          "recommendedFix": "Use a natural but wrong alternative about the refund resolving all dissatisfaction, or a plausible literal-taste statement with food as its subject, then recheck the Chinese."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2122",
+      "sourceSense": "Accept a claim without checking it; guide meaning preserved.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2124",
+      "sourceSense": "A blank cheque means unrestricted discretion or spending authority, not necessarily misuse; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "scene.promptZh; scene.options[a].en; scene.explanationZh",
+          "severity": "major",
+          "explanation": "The theatre group can decide set design and costs without quotations or item-by-item approval, but the prompt never explicitly removes an overall budget ceiling. A group can have discretion and still have a cap, so the keyed unrestricted 'blank cheque' needs firmer grounding.",
+          "recommendedFix": "State that the school gave no spending ceiling as well as no approval requirement, or narrow the correct answer to the authority actually specified."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2126",
+      "sourceSense": "A poor beginning, especially a bad first impression that may still be repaired; guide meaning preserved.",
+      "findings": []
+    },
+    {
+      "lessonId": "advanced-native-2127",
+      "sourceSense": "A factor considered a disadvantage in an evaluation, without guaranteeing rejection; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "reply.options[a].zh",
+          "severity": "minor",
+          "explanation": "'每一頁必須提交的資料都已備妥' awkwardly conflates pages and information for 'make sure every required page is there'.",
+          "recommendedFix": "Use a direct rendering such as '確保所有必須提交的頁面都齊全', keeping the option's modest practical advice."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2132",
+      "sourceSense": "A disruption affects the flow and coordination of the entire performance; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed next turn is practical, but contains no form of the lesson expression. The compiled dialogue step is headed '把表達放入對話' ('put the expression into dialogue'), so the answer does not deliver the promised target-language practice.",
+          "recommendedFix": "Have the director naturally say the interruption could throw the whole performance out of rhythm, then propose the pause and new cue. Keep the reply succinct and its Chinese faithful."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2133",
+      "sourceSense": "Plan a little spare time or capacity in advance; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "reply.promptEn; reply.promptZh; reply.options[a].en; reply.options[d].en",
+          "severity": "major",
+          "explanation": "The question specifically asks how to avoid missing a tour if one bus is slightly late. Checking the route and agreeing to meet at the entrance do not independently absorb a late bus, so the four-valid-replies requirement fails for a and d.",
+          "recommendedFix": "Either ask a broader punctuality-planning question or give a and d actual contingency actions for a late bus; keep four distinct valid replies and one target-bearing golden reply."
+        },
+        {
+          "path": "contrast.options[c].en; contrast.options[c].zh; contrast.explanationZh",
+          "severity": "blocker",
+          "explanation": "The team misses the deadline and then claims it had left extra time. A previously built buffer can be real yet insufficient for a larger delay; missing the deadline does not prove it failed to plan a buffer. This contradicts the lesson's own boundary and makes the keyed exception ambiguous.",
+          "recommendedFix": "State that the team only adds time after missing the deadline, or that it planned with zero extra minutes. Make the lack of advance buffer explicit."
+        },
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The sensible keyed reply leaves ten minutes between meetings but never uses 'build a small buffer into', even though the dialogue step promises to put this expression into dialogue.",
+          "recommendedFix": "Use a natural target-bearing next turn, such as proposing to build a small buffer into the meeting schedule, while retaining the room-clearance reason."
+        },
+        {
+          "path": "writing.promptZh; writing.examples[1].en; writing.examples[1].zh",
+          "severity": "major",
+          "explanation": "The writing task asks for advice to a friend whose workshop bus is unreliable. The second model instead says an organiser already built a buffer so people can find a room; it neither advises the friend nor addresses bus delay.",
+          "recommendedFix": "Write a second complete answer about the friend's journey and uncertain bus, ideally with different structure or subject from example 1; regenerate translations and all affected glossary spans."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2134",
+      "sourceSense": "Insufficient time margin in a plan, without implying the outcome is certain; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed advice about zero travel time is useful, but it omits 'timing is too tight'. The dialogue step's stated action is to put the lesson expression into a next turn.",
+          "recommendedFix": "Include the target naturally in the keyed response, then retain the proposed schedule adjustment and recheck Chinese wording."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2136",
+      "sourceSense": "Deliberately retain flexibility for ordinary real-life changes; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed response offers a spare study slot but never uses 'leave room for real life', despite the dialogue step being 'put the expression into dialogue'.",
+          "recommendedFix": "Use the target in the compassionate advice without losing the specific spare-slot suggestion."
+        },
+        {
+          "path": "writing.promptZh; writing.examples[0].en; writing.examples[0].zh",
+          "severity": "major",
+          "explanation": "The prompt concerns a work shift that may unexpectedly run longer. 'A late shift' can mean a shift scheduled late in the day, while its Chinese translation explicitly says the shift is extended. This changes the English model's condition and weakens transfer from the task.",
+          "recommendedFix": "Use 'an extended shift' or 'if work runs late' in English, align the Chinese, then recalculate the glossary row and its exact source span."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2138",
+      "sourceSense": "A literal ten minutes of spare time used as a figurative cushion; guide meaning preserved.",
+      "findings": [
+        {
+          "path": "dialogue.options[a].en; dialogue.options[a].zh",
+          "severity": "major",
+          "explanation": "The keyed reply leaves ten minutes between groups but never says 'a ten-minute cushion'; the dialogue step promises to put the lesson expression into dialogue.",
+          "recommendedFix": "Use the target phrase in the reply, retaining the reason for resetting the room and the Chinese equivalent."
+        },
+        {
+          "path": "scene.promptZh; scene.options[a].en; scene.explanationZh",
+          "severity": "major",
+          "explanation": "The question asks for a shift handover at 10:00, but adding a ten-minute gap between shifts leaves neither shift assigned to the desk during that period and does not itself provide a staff-to-staff handover. The keyed plan does not fully serve the stated task.",
+          "recommendedFix": "Either ask how to leave time to clear and reset the desk between two uses, or specify an overlapping handover period and write the target-bearing schedule accordingly."
+        },
+        {
+          "path": "listening.en; listening.zh",
+          "severity": "minor",
+          "explanation": "'A slow lift would not make us late' sounds like a guarantee, whereas the brief says a ten-minute cushion can absorb only a minor delay. An unexpectedly long lift delay could still cause lateness.",
+          "recommendedFix": "Say 'a brief delay at the lift' or 'would be less likely to make us late', and carry the calibrated uncertainty into Chinese."
+        }
+      ]
+    }
+  ],
+  "mechanicalObservations": [
+    "All ten drafts map to the cited source occurrence IDs, exact expressions, guide example sentences and rendered-PDF page locators.",
+    "The ten drafts have target-form matches in listening, golden reply, both writing examples and two takeaways; all recorded glossary spans are exact substrings and do not leak the target regex.",
+    "The blank-cheque speaking target span deliberately includes the indefinite article as part of the removed chunk; it still contains the target and leaves no target in the cloze. A full-span regex match is not required by the schema."
+  ],
+  "unverifiedGates": [
+    "No human English or Traditional Chinese editor has approved these records.",
+    "No actual 1280/1024/768/600/390/320-pixel browser line-ending inspection or Safari device review has occurred, so dangling brackets and words cannot be certified from JSON alone.",
+    "No British male speaking-audio listening, correct/wrong sound, microphone, completion-contrast or live-release check was performed."
+  ]
+}

@@ -60,7 +60,7 @@
           {
             "id": "a",
             "en": "All the people with bookings came to the workshop.",
-            "zh": "所有已報名的人都來了工作坊。"
+            "zh": "所有已報名的人都來參加工作坊。"
           },
           {
             "id": "b",
@@ -154,7 +154,7 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptZh": "活動負責人問：『義工到了嗎？我們需要開始分組。』哪個回應最能準確報告目前情況？",
+        "promptZh": "活動負責人說：「我剛點過名，八名報名義工當中有六人已到場，另外兩人剛傳訊息說仍在路上。我們可以開始分組嗎？」哪個回應最能準確報告目前情況？",
         "options": [
           {
             "id": "a",
@@ -168,11 +168,11 @@
           },
           {
             "id": "c",
-            "en": "Two volunteers said they might come; I have not checked who is here.",
-            "zh": "兩名義工說可能會來；我還沒查看有誰到場。"
+            "en": "No one has checked attendance, so we cannot tell who is here.",
+            "zh": "還沒有人點名，所以無法知道誰已到場。"
           }
         ],
-        "explanationZh": "只有這個回應把已到場與仍在路上的人分清楚，不以報名代替實際出席。",
+        "explanationZh": "情境已交代八人報名、六人實際到場、兩人在路上；只有金句準確區分已到場與仍在路上的人。",
         "answerId": "a"
       },
       "speaking": {
@@ -189,40 +189,40 @@
         "selfCheckZh": "清楚區分已到場與尚未到場的人，並提出合理的跟進做法；不必逐字照抄示例。",
         "examples": [
           {
-            "en": "Eight singers showed up before the audition began, but Mia hasn't arrived yet. I'll call her.",
-            "zh": "八名歌手在試音開始前到場，但 Mia 還未到。我會打電話給她。"
+            "en": "Most performers showed up before the audition, but two are still missing. I'll call them.",
+            "zh": "大部分表演者在試音前已到場，但還有兩人未到。我會打電話給他們。"
           },
           {
-            "en": "The other musicians showed up on time. Please check whether Ben is still coming.",
-            "zh": "其他樂手準時到場。請查問 Ben 是否仍會來。"
+            "en": "Most musicians showed up on time, but two have yet to arrive. Please check whether they are still coming.",
+            "zh": "大部分樂手準時到場，但仍有兩人未到。請查問他們是否仍會來。"
           }
         ],
         "glossary": [
           {
-            "en": "before the audition began",
-            "zh": "在試音開始前",
+            "en": "before the audition",
+            "zh": "在試音前",
             "exampleIndex": 0,
             "span": {
-              "start": 24,
-              "end": 49
+              "start": 26,
+              "end": 45
             }
           },
           {
-            "en": "hasn't arrived yet",
-            "zh": "還未到",
+            "en": "two are still missing",
+            "zh": "仍有兩人未到",
             "exampleIndex": 0,
             "span": {
-              "start": 59,
-              "end": 77
+              "start": 51,
+              "end": 72
             }
           },
           {
-            "en": "I'll call her",
-            "zh": "我會打電話給她",
+            "en": "I'll call them",
+            "zh": "我會打電話給他們",
             "exampleIndex": 0,
             "span": {
-              "start": 79,
-              "end": 92
+              "start": 74,
+              "end": 88
             }
           },
           {
@@ -230,8 +230,8 @@
             "zh": "準時",
             "exampleIndex": 1,
             "span": {
-              "start": 30,
-              "end": 37
+              "start": 25,
+              "end": 32
             }
           },
           {
@@ -239,8 +239,8 @@
             "zh": "仍會來",
             "exampleIndex": 1,
             "span": {
-              "start": 67,
-              "end": 79
+              "start": 92,
+              "end": 104
             }
           }
         ]

@@ -97,7 +97,7 @@
           {
             "id": "c",
             "en": "There is little time between calls during a busy shift.",
-            "zh": "繁忙的一更中，電話之間幾乎沒有空檔。"
+            "zh": "繁忙的輪班期間，電話之間幾乎沒有空檔。"
           },
           {
             "id": "d",
@@ -114,8 +114,8 @@
         "options": [
           {
             "id": "a",
-            "en": "The entrance desk is fast-paced during the exhibition.",
-            "zh": "展覽期間，入口接待處的節奏很快。"
+            "en": "The work at the entrance desk is fast-paced during the exhibition.",
+            "zh": "展覽期間，入口接待處的工作節奏很快。"
           },
           {
             "id": "b",
@@ -189,12 +189,12 @@
         "selfCheckZh": "指出工作接連而來、節奏迅速，並提出具體分工；不要只說營業時間很長。",
         "examples": [
           {
-            "en": "The charity book stall is fast-paced when customers arrive one after another. We should assign clear roles.",
-            "zh": "顧客接連到來時，慈善書攤的節奏很快。我們應清楚分配工作。"
+            "en": "The work at the charity book stall is fast-paced when customers arrive one after another. We should assign clear roles.",
+            "zh": "顧客接連到來時，慈善書攤的工作節奏很快。我們應清楚分配工作。"
           },
           {
-            "en": "Our stall gets fast-paced after school, so we take turns serving customers and restocking books.",
-            "zh": "放學後，我們的攤位變得繁忙而節奏迅速，因此我們輪流接待顧客和補充書本。"
+            "en": "Our after-school shift is fast-paced, so we take turns serving customers and restocking books.",
+            "zh": "放學後的輪班工作節奏迅速，因此我們輪流接待顧客和補充書本。"
           }
         ],
         "glossary": [
@@ -203,8 +203,8 @@
             "zh": "慈善書攤",
             "exampleIndex": 0,
             "span": {
-              "start": 4,
-              "end": 22
+              "start": 16,
+              "end": 34
             }
           },
           {
@@ -212,8 +212,8 @@
             "zh": "顧客接連到來",
             "exampleIndex": 0,
             "span": {
-              "start": 42,
-              "end": 76
+              "start": 54,
+              "end": 88
             }
           },
           {
@@ -221,8 +221,8 @@
             "zh": "清楚分配工作",
             "exampleIndex": 0,
             "span": {
-              "start": 88,
-              "end": 106
+              "start": 100,
+              "end": 118
             }
           },
           {
@@ -230,8 +230,8 @@
             "zh": "輪流接待顧客",
             "exampleIndex": 1,
             "span": {
-              "start": 46,
-              "end": 74
+              "start": 44,
+              "end": 72
             }
           },
           {
@@ -239,16 +239,16 @@
             "zh": "補充書本",
             "exampleIndex": 1,
             "span": {
-              "start": 79,
-              "end": 95
+              "start": 77,
+              "end": 93
             }
           }
         ]
       },
       "takeaways": [
         {
-          "en": "The ticket desk is fast-paced when several groups arrive together.",
-          "zh": "幾組人同時到達時，售票處的節奏很快。"
+          "en": "The work at the ticket desk is fast-paced when several groups arrive together.",
+          "zh": "幾組人同時到達時，售票處的工作節奏很快。"
         },
         {
           "en": "A fast-paced shift can be easier when everyone knows their role.",

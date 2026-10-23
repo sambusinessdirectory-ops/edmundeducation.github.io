@@ -162,8 +162,8 @@
         "answerId": "a"
       },
       "speaking": {
-        "en": "The organiser's excuses are wearing thin after another unexplained delay.",
-        "zh": "再次無故延誤後，主辦方的藉口愈來愈難令人接受。",
+        "en": "The organiser's excuses are wearing thin after another poorly explained delay.",
+        "zh": "再次延誤而解釋含糊後，主辦方的藉口愈來愈難令人接受。",
         "promptZh": "先聽完整示範，再說明反覆延誤如何影響大家對藉口的看法。",
         "targetSpan": {
           "start": 28,
@@ -175,8 +175,8 @@
         "selfCheckZh": "指出理由反覆出現後不再令人信服，並提出核實或改善安排的具體方法；不要直接斷定有人說謊。",
         "examples": [
           {
-            "en": "The organiser's excuses are wearing thin after another unexplained cancellation. We should ask for a clear plan.",
-            "zh": "活動再次無故取消後，主辦方的藉口愈來愈難令人接受。我們應要求一個清晰的計劃。"
+            "en": "The organiser's excuses are wearing thin after another poorly explained cancellation. We should ask for a clear plan.",
+            "zh": "活動再次取消而解釋含糊，主辦方的藉口愈來愈難令人接受。我們應要求一個清晰的計劃。"
           },
           {
             "en": "The same reason is wearing thin after several last-minute changes. Please share a new date that the team can rely on.",
@@ -185,12 +185,12 @@
         ],
         "glossary": [
           {
-            "en": "another unexplained cancellation",
-            "zh": "再次無故取消",
+            "en": "another poorly explained cancellation",
+            "zh": "另一次解釋含糊的取消",
             "exampleIndex": 0,
             "span": {
               "start": 47,
-              "end": 79
+              "end": 84
             }
           },
           {
@@ -198,8 +198,8 @@
             "zh": "要求一個清晰的計劃",
             "exampleIndex": 0,
             "span": {
-              "start": 91,
-              "end": 111
+              "start": 96,
+              "end": 116
             }
           },
           {

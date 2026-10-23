@@ -1,0 +1,178 @@
+{
+  "reviewType": "independent AI editorial peer review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "scope": {
+    "lessonIds": [
+      "advanced-native-2112",
+      "advanced-native-2113",
+      "advanced-native-2115",
+      "advanced-native-2117",
+      "advanced-native-2118",
+      "advanced-native-2119",
+      "advanced-native-2120",
+      "advanced-native-2123"
+    ],
+    "source": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sop": "work/advanced-native-books10-16/sop-extracted.txt",
+    "draftState": "unpublished"
+  },
+  "overallVerdict": "Editorial repair required. This AI peer review is not human editorial approval, owner acceptance, device QA, audio approval, or release sign-off.",
+  "mechanicalObservations": [
+    "All eight draft source IDs, expressions, example sentences and rendered-PDF page locators matched their intake rows at review time.",
+    "All eight speaking target spans exactly matched the reviewed target regex; the listening text, golden reply, both writing examples and both takeaways each contained a matching target form.",
+    "All eight answer-derived glossary entries matched their recorded example character spans, and no glossary entry matched its lesson target regex.",
+    "These structural checks do not establish grammatical naturalness, answer fairness, translation fidelity, visual line wrapping or audible playback."
+  ],
+  "lessons": [
+    {
+      "lessonId": "advanced-native-2112",
+      "sourceSense": "frowned upon: social disapproval, not a legal ban or literal facial movement; source sense preserved",
+      "findings": [
+        {
+          "path": "dialogue.promptZh; dialogue.options",
+          "severity": "blocker",
+          "explanation": "The self-study-room question supplies no rule or social attitude about speakers. Option a says speakers are frowned upon, but b says low-volume speakers are allowed and c says no one minds; the prompt does not establish which of these room-specific facts is true. The keyed answer depends on unstated information.",
+          "recommendedFix": "State the room's known speaker policy or the classmates' disapproval in the scene before asking for the best reply, then recheck every option and its Chinese translation."
+        },
+        {
+          "path": "scene.promptZh; scene.explanationZh",
+          "severity": "major",
+          "explanation": "The memorial hall's request establishes the hall's rule, but does not establish visitors' attitude. The question asks about both the hall and visitors, and the explanation calls an unsupported law claim simply the opposite of the scene.",
+          "recommendedFix": "Ask only about the hall's stance, or supply evidence of visitor disapproval; explain separately why a citywide legal ban is unsupported and why acceptance of loud speech conflicts with the rule."
+        },
+        {
+          "path": "reply.options[d]",
+          "severity": "minor",
+          "explanation": "Knowing that an interview has a fixed start time does not by itself explain the decision to phone before arriving late as clearly as the other three replies. This weakens the SOP's four-independently-valid-replies condition.",
+          "recommendedFix": "Make the causal link explicit, for example that she called so the interviewer could adjust a fixed schedule; preserve a comparable-length Chinese rendering."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2113",
+      "sourceSense": "fast-paced: rapid pace of activity; broader general-adjective sense is distinct from prior fast-paced video lesson",
+      "findings": [
+        {
+          "path": "scene.options[a].en; writing.examples[0].en; writing.examples[1].en; takeaways[0].en",
+          "severity": "major",
+          "explanation": "Several models make a physical desk or stall itself 'fast-paced'; 'Our stall gets fast-paced' is particularly strained. The source applies the adjective to the atmosphere, and the natural target here is the work, shift or atmosphere at those places.",
+          "recommendedFix": "Revise the subject to 'the work at the entrance desk', 'the pace at the book stall', or another natural noun; retain fast-paced as an adjective. After editing answers, recalculate and recheck every glossary span and translation."
+        },
+        {
+          "path": "reply.options[c].zh",
+          "severity": "minor",
+          "explanation": "'繁忙的一更中' is awkward Traditional Chinese for 'during a busy shift' and may distract from the target sense.",
+          "recommendedFix": "Use '繁忙的輪班期間' or a comparably natural Hong Kong Traditional Chinese expression without changing the English option's meaning."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2115",
+      "sourceSense": "set alarm bells ringing: raise suspicion or concern without proving wrongdoing; source sense preserved",
+      "findings": [
+        {
+          "path": "scene.promptZh; scene.options",
+          "severity": "major",
+          "explanation": "A receipt ordinarily documents a transaction; the draft says an unsigned receipt itself requests a refund. The mechanism is implausible and leaves the source of the request unclear even though suspicion is the teaching point.",
+          "recommendedFix": "Specify an unsigned refund form, note attached to a receipt, or refund request bearing no signature; align all three options and the explanation with that document."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2117",
+      "sourceSense": "from time to time: occasionally; source sense preserved",
+      "findings": [
+        {
+          "path": "writing.examples[0].en; writing.examples[0].zh",
+          "severity": "major",
+          "explanation": "The task asks the learner to describe a female friend and her next step, but the first model switches to 'I sketch' and 'I want'. It answers a different speaker's situation; its Chinese translation follows the same mismatch.",
+          "recommendedFix": "Make the first model about the friend ('She sketches ... She wants ...') or revise the task to invite first-person role-play. Recheck glossary character offsets after the English edit."
+        },
+        {
+          "path": "scene.explanationZh",
+          "severity": "minor",
+          "explanation": "The explanation contrasts the correct answer with 'working there every day', but no such distractor appears. The actual alternative is visiting every Saturday morning.",
+          "recommendedFix": "Explain the fixed weekly visit and never-entered alternative that learners actually see."
+        },
+        {
+          "path": "dialogue.explanationZh",
+          "severity": "minor",
+          "explanation": "The explanation says the reply does not mistake occasional volunteering for daily volunteering, but the wrong options demand weekly volunteering or no help until weekly commitment. It misses the nearest actual alternatives.",
+          "recommendedFix": "Contrast occasional help with an unrealistic weekly promise and withholding all help."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2118",
+      "sourceSense": "run behind schedule: progress later than a planned timetable; source sense preserved",
+      "findings": [
+        {
+          "path": "scene.promptZh; scene.explanationZh",
+          "severity": "blocker",
+          "explanation": "The scene gives a planned finish before lunch and wet paint, but never says that lunchtime or the planned finish time has passed. The explanation invents that fact. The keyed 'running behind schedule' answer is not yet entailed by the presented scene.",
+          "recommendedFix": "Say that lunch has started or the planned finish time has passed while the paint is still wet; keep the rationale tied to that explicit fact."
+        },
+        {
+          "path": "dialogue.promptZh; dialogue.options[a].en",
+          "severity": "major",
+          "explanation": "The chairs have not arrived and the audience is due in half an hour, but the prompt gives no chair delivery deadline or planned setup milestone. 'We're running behind schedule' may be true, yet the necessary comparison to a schedule is unstated.",
+          "recommendedFix": "State the chairs were due earlier or setup should already be complete. Then check that changing the opening time is proportionate, rather than automatically required by a delay that might still be recoverable."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2119",
+      "sourceSense": "let it slide: knowingly overlook a minor fault on this occasion; source sense preserved",
+      "findings": [
+        {
+          "path": "listening.options[a].en; listening.options[a].zh; listening.options[b-d].zh",
+          "severity": "major",
+          "explanation": "The English model is first-person singular ('I noticed ...'). The keyed English option switches to singular 'they', while all four Chinese options use plural '他們'. This changes the referent and number in the bilingual meaning question.",
+          "recommendedFix": "Use 'The speaker' consistently in English and '說話者' in Chinese, or keep first person in both languages; compare all four options with the model afterward."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2120",
+      "sourceSense": "wear thin: repeated excuses or explanations become less convincing or acceptable; source sense preserved",
+      "findings": [
+        {
+          "path": "writing.promptZh; writing.examples[0].en; writing.examples[0].zh; speaking.en; speaking.zh",
+          "severity": "major",
+          "explanation": "The writing prompt says organisers repeatedly gave the same vague reason, yet example 1 describes an 'unexplained cancellation' and translates it as '無故取消'. A vague explanation is not the same as no explanation; the speaking model repeats the unsupported 'unexplained' detail in a nearby scenario.",
+          "recommendedFix": "Use 'another poorly explained cancellation' or explicitly state that the organiser gave no explanation. Preserve the distinction in Chinese, then recalculate the answer-derived glossary span."
+        }
+      ]
+    },
+    {
+      "lessonId": "advanced-native-2123",
+      "sourceSense": "show up: physically arrive or appear; source sense is distinct from prior show up for someone support sense",
+      "findings": [
+        {
+          "path": "dialogue.promptZh; dialogue.options[a-c]; dialogue.answerId",
+          "severity": "blocker",
+          "explanation": "The organiser asks whether volunteers arrived, but the prompt gives no headcount or observed arrivals. Option a invents six arrivals and two en route; option c honestly reports that attendance has not been checked. Both can be accurate in different unstated circumstances, so only one defensible keyed answer is not established.",
+          "recommendedFix": "Add observed counts and movement facts to the prompt, or change the decision to which reply distinguishes checked arrivals from mere sign-ups without inventing attendance. Recheck all options and the explanation."
+        },
+        {
+          "path": "writing.promptZh; writing.examples[0].en; writing.examples[1].en",
+          "severity": "major",
+          "explanation": "The task specifies only that most performers arrived and two have not. Example 1 invents eight singers and Mia; example 2 mentions only Ben and calls the others 'the other musicians', which can imply everyone besides Ben arrived even though two are still missing. The examples do not reliably model the supplied facts.",
+          "recommendedFix": "Give an explicit roster/count with Mia and Ben in the task, or remove invented names and counts from both examples and state that two are still absent. Recheck Chinese translations and glossary spans after editing."
+        },
+        {
+          "path": "listening.options[a].zh",
+          "severity": "minor",
+          "explanation": "'都來了工作坊' is understandable but less natural than '都來參加工作坊' for 'came to the workshop'.",
+          "recommendedFix": "Use a natural Traditional Chinese arrival phrasing while preserving the option's exact quantifier 'all'."
+        }
+      ]
+    }
+  ],
+  "unverifiedGates": [
+    "No human English or Traditional Chinese editor has approved these records.",
+    "No browser/device line-ending inspection has been performed, so the absence of orphan Chinese characters, closing brackets and final English words cannot be certified from JSON alone.",
+    "No reviewed audio playback, British male speaking-clip listening test, correct/wrong sound check, microphone test, live publication check or owner acceptance has been performed."
+  ]
+}

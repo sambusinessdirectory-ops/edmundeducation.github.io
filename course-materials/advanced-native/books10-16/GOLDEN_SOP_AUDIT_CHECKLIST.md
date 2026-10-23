@@ -1,6 +1,6 @@
 # Advanced Native Books 10–16 — Golden SOP verification checklist
 
-Audit snapshot: 2026-10-23 07:15 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023` (pushed to the site's GitHub repository; this draft branch is not the public site).
+Audit snapshot: 2026-10-23 07:20 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023` (pushed to the site's GitHub repository; this draft branch is not the public site).
 Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9ddc17580`. Source DOCX SHA-256: `d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012`.
 
 **Release verdict: NOT APPROVED.** This is a complete requirements audit of the current work, not a certificate that all requirements have passed. Failed or pending gates must be repaired and the entire affected verification cycle rerun before publication. No new Books 10–16 lessons are live.
@@ -10,14 +10,16 @@ Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9
 - Existing published baseline: 1,893 learner-facing lessons (10 original plus 1,883 imported). Source ordinal 2,111 is already assigned to a supplementary prior-course lesson; the first new draft uses 2,112.
 - New document: 2,604 source rows across 275 questions and 7 books. Its per-book question and expression counts match all stated totals; 0 rows lack a rendered-PDF page.
 - Exact spelling analysis: 1,844 distinct spellings, 866 occurrences exactly matching a prior source phrase, and 760 repeated occurrences within the new document. These figures do not decide whether senses match.
-- Reconciliation states: 8 draft lessons; 1,229 other first-use authoring candidates; 270 first-use near-prior candidates; 865 exact-prior occurrences; 232 remaining repeated-source occurrences. 1,506 distinct new spellings need a sense-level decision.
-- Pilot draft: eight lessons projected for display 1894–1901, 56 steps, 48 assessed questions, 16 writing examples and 32 required audio roles. Audio produced for this pilot: **0**.
+- Reconciliation states: 20 drafted source occurrences across 18 draft lessons; 1,219 other first-use authoring candidates; 270 first-use near-prior candidates; 864 exact-prior occurrences; 231 remaining repeated-source occurrences. 1,506 distinct new spellings need a sense-level decision.
+- Draft set: 18 lessons projected for display 1894–1911, 126 steps, 108 assessed questions, 36 writing examples and 72 required audio roles. Audio produced for this draft: **0**.
 - First 60 source occurrences have an explicit **provisional** sense/action triage: 34 proposed new lessons, 17 proposed aliases to existing lessons, 2 proposed aliases within this document, and 7 wording or naturalness holds. This is a self-review queue, not independent editorial approval. The `show up` arrival sense is kept distinct from the existing support-someone sense; `swallow time whole` is provisionally distinct from the existing accept-a-claim sense.
+- A mechanical exact-phrase plus exact-guide-meaning comparison proposes 816 prior-course aliases, each pointing to one existing canonical lesson. These are **suggestions**, not approved merges; the remaining 50 exact-prior phrase occurrences include potentially different senses or differently worded explanations and remain in the review queue.
 
 ## Requirement-by-requirement register
 
-The 55 IDs match the repository's Golden SOP release-checklist register. A pass scoped to intake does not pass the entire course. Existing production behavior is not automatically evidence for these new drafts.
-Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `drafts-books10-16/batch-2113.json`, `drafts-books10-16/batch-2120.json` and `drafts-books10-16/batch-2123.json`; the combined verifier reads all four in source-ordinal order.
+The 54 detailed gates below operationalize the manual's 14-row requirements register. A pass scoped to intake does not pass the entire course. Existing production behavior is not automatically evidence for these new drafts.
+The register maps as follows: Identity → UI08/SCL01; Learning sequence → CUR02/UI01–UI04; Four response task → CUR04/UI02; Writing support → CUR08–CUR10/UI04; Speech → CUR11/UI03/AUD01/AUD07; Chinese support → ZH01–ZH03; Target emphasis → UI05; Feedback → SND01–SND02; Wrapping → UI06–UI07; Card groups → UI09–UI10; Decoration → UI08; Completion → UI11; Compatibility → DAT01–DAT03; Release → REL01–REL08. The source, accessibility, audio quality, and scaling gates elaborate the chapter procedures beyond those 14 summary rows.
+Draft evidence is split across six `drafts-books10-16/batch-*.json` files; the combined verifier reads every batch in source-ordinal order. Independent AI review of the first eight found 16 issues, including three answer-fairness blockers. These were repaired in draft content and mechanical checks rerun; an independent AI re-review found all 16 resolved. A separate review of the next ten found 15 findings (one blocker, 12 major, two minor), and all 15 have draft repairs awaiting independent re-review. AI review does not replace required human sign-off.
 
 ### Source and provenance
 
@@ -25,43 +27,43 @@ Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `
 
 - [x] **SRC02 — PASS—intake.** Preserve exact source sentence, complete expression, document checksum, real page, book/question/S1–S2 and honest missing locators. Every row has Book, question, S1/S2, DOCX table/row, example, SHA-256 and rendered-PDF page; 0 page gaps. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
 
-- [x] **SRC03 — PASS—intake.** Distinguish original sample sentences from guide-written practice examples. The eight pilot lesson records say guide_original_example, rather than original online sample answer. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
+- [x] **SRC03 — PASS—intake.** Distinguish original sample sentences from guide-written practice examples. The 18 draft lesson records say guide_original_example, rather than original online sample answer. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
 
-- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 865 unresolved exact-prior occurrences and 270 first-use near-prior candidates flagged; first 60 have explicit proposed decisions including a distinct `show up` sense. No automatic semantic merges. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl; books10-16/editorial-decisions-2142-2171.jsonl`.
+- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 816 of 866 exact-prior phrase occurrences have mechanical exact-meaning alias **suggestions**; 50 need closer sense comparison. Another 270 first-use near-prior candidates are flagged; first 60 have explicit provisional editorial decisions including a distinct `show up` sense. No automatic semantic merges are approved for release. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/exact-prior-alias-suggestions.jsonl; books10-16/editorial-decisions-2112-2141.jsonl; books10-16/editorial-decisions-2142-2171.jsonl`.
 
 - [ ] **SRC05 — PENDING.** Resolve doubtful meaning, grammar, register and taxonomy against primary language references. Seven of the first 60 occurrences are explicitly held for wording, naturalness or target-unit review; no completed primary-reference or independent sense review across 2,604 rows. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl; books10-16/editorial-decisions-2142-2171.jsonl`.
 
 ### Curation and seven-step lesson
 
-- [ ] **CUR01 — PARTIAL.** Write one complete meaning/grammar/register/boundary/misconception/outcome brief per canonical lesson. Eight new briefs authored; at least 1,499 other distinct new candidate spellings remain, plus unresolved sense variants. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR01 — PARTIAL.** Write one complete meaning/grammar/register/boundary/misconception/outcome brief per canonical lesson. 18 new briefs authored; at least 1,488 other distinct new candidate spellings remain, plus unresolved sense variants. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR02 — PARTIAL.** Provide seven ordered actions and six assessed questions with optional, unscored speaking. Eight pilot records compile to 56 ordered steps and 48 questions; whole new source unbuilt. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR02 — PARTIAL.** Provide seven ordered actions and six assessed questions with optional, unscored speaking. 18 draft records compile to 126 ordered steps and 108 questions; whole new source unbuilt. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR03 — PARTIAL.** Tailor listening context, four meaning choices, one key and specific feedback. Eight listening tasks have four keyed options and tailored feedback; independent editorial review pending. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR03 — PARTIAL.** Tailor listening context, four meaning choices, one key and specific feedback. 18 listening tasks have four keyed options and tailored feedback; independent editorial review pending. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR04 — PARTIAL.** Make all four reply options naturally valid, exactly one target-bearing and golden. Schema proves exactly one target-bearing golden reply in each pilot; pragmatic validity needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR04 — PARTIAL.** Make all four reply options naturally valid, exactly one target-bearing and golden. Schema proves exactly one target-bearing golden reply in each draft; pragmatic validity needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR05 — PARTIAL.** Write a new concrete scene, one defensible best answer and plausible alternatives. Eight scene tasks drafted; the first self-review replaced over-obvious distractors with closer timing, scope and evidence errors. Alternative fairness still needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR05 — PARTIAL.** Write a new concrete scene, one defensible best answer and plausible alternatives. 18 scene tasks drafted; the first self-review replaced over-obvious distractors with closer timing, scope and evidence errors. Alternative fairness still needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR06 — PARTIAL.** Test a real boundary without inventing a restriction or rejecting a valid meaning. Eight boundary tasks drafted; no whole-source or independent sense sign-off. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR06 — PARTIAL.** Test a real boundary without inventing a restriction or rejecting a valid meaning. 18 boundary tasks drafted; no whole-source or independent sense sign-off. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR07 — PARTIAL.** Write a natural next turn with consistent speaker, tone and purpose; do not mark legitimate clarification questions wrong. Eight dialogue tasks drafted; over-obvious distractors were revised during self-review. Speaker/tone decisions still need independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR07 — PARTIAL.** Write a natural next turn with consistent speaker, tone and purpose; do not mark legitimate clarification questions wrong. 18 dialogue tasks drafted; over-obvious distractors were revised during self-review. Speaker/tone decisions still need independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR08 — PARTIAL.** Make final writing change the setting/task/communicative goal; reject name swaps. Eight changed writing settings drafted; the near-duplicate wording screen found 0 flags involving the eight pilots. Contextual originality still needs review. Evidence: `drafts-books10-16/batch-2112-2119.json; drafts-books10-16/batch-2123.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR08 — PARTIAL.** Make final writing change the setting/task/communicative goal; reject name swaps. 18 changed writing settings drafted; the near-duplicate wording screen found 0 flags involving the 18 drafts. Contextual originality still needs review. Evidence: `drafts-books10-16/batch-2112-2119.json; drafts-books10-16/batch-2123.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR09 — PARTIAL.** Supply two complete appropriate writing answers and useful self-check criteria; no exact-match or mastery claim. Ten complete pilot examples and self-review guidance compile; runtime interaction not checked. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR09 — PARTIAL.** Supply two complete appropriate writing answers and useful self-check criteria; no exact-match or mastery claim. Thirty-six complete draft examples and self-review guidance compile; runtime interaction not checked. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR10 — PARTIAL.** Extract 4–6 useful glossary rows as exact contiguous answer spans; exclude target and revealing fragments. Eight pilot glossaries have exact answer offsets, 4–6 rows and no target-form rows; rest pending. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR10 — PARTIAL.** Extract 4–6 useful glossary rows as exact contiguous answer spans; exclude target and revealing fragments. 18 draft glossaries have exact answer offsets, 4–6 rows and no target-form rows; rest pending. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR11 — PARTIAL.** Preserve natural tense/person/passive/article forms in target regex and exact target-only speaking span. Pilot target regex and speaking spans pass schema; language-form review remains open. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR11 — PARTIAL.** Preserve natural tense/person/passive/article forms in target regex and exact target-only speaking span. Draft target regex and speaking spans pass schema; language-form review remains open. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR12 — PARTIAL.** Write original models and diverse scenarios, screening exact/near duplication without treating similarity as automatic deletion. All 48 pilot teaching texts had 0 exact whole-sentence copies of the 2,604 source examples; the near-duplicate wording screen found 0 flags against existing lessons. These screens do not prove semantic originality. Evidence: `drafts-books10-16/batch-2112-2119.json; drafts-books10-16/batch-2123.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR12 — PARTIAL.** Write original models and diverse scenarios, screening exact/near duplication without treating similarity as automatic deletion. All 108 draft teaching texts had 0 exact whole-sentence copies of the 2,604 source examples; the near-duplicate wording screen found 0 flags against existing lessons. These screens do not prove semantic originality. Evidence: `drafts-books10-16/batch-2112-2119.json; drafts-books10-16/batch-2123.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
 ### Traditional Chinese
 
-- [ ] **ZH01 — PARTIAL.** Translate every English question, option, model, writing answer and takeaway in Traditional Chinese. Required Chinese fields are present in the eight pilots; whole-source authoring pending. Evidence: `drafts-books10-16/batch-2112-2119.json`.
+- [ ] **ZH01 — PARTIAL.** Translate every English question, option, model, writing answer and takeaway in Traditional Chinese. Required Chinese fields are present in the 18 drafts; whole-source authoring pending. Evidence: `drafts-books10-16/batch-2112-2119.json`.
 
-- [ ] **ZH02 — PENDING.** Preserve subject, tense, uncertainty, negation, modality and the wrong meaning of each distractor. Independent English–Traditional Chinese semantic comparison not recorded. Evidence: `drafts-books10-16/batch-2112-2119.json`.
+- [ ] **ZH02 — PENDING.** Preserve subject, tense, uncertainty, negation, modality and the wrong meaning of each distractor. Independent AI review found fidelity/subject issues in the first eight; those were repaired and the AI re-review found them resolved. Human translation comparison is not recorded. Evidence: `drafts-books10-16/batch-2112-2119.json`.
 
 - [ ] **ZH03 — PENDING.** Pair translations by stable content identity after shuffling; bracket beneath English with no orphan closing bracket. No new-lesson browser shuffle or bracket-line check. Evidence: `drafts-books10-16/batch-2112-2119.json`.
 
@@ -101,23 +103,23 @@ Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `
 
 ### Audio and hosting
 
-- [ ] **AUD01 — PENDING.** Pin Kokoro/voice hashes, four explicit roles, exact text/settings identities and British male speaking role. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD01 — PENDING.** Pin Kokoro/voice hashes, four explicit roles, exact text/settings identities and British male speaking role. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD02 — PENDING.** Generate and upload only missing/changed clips with resumable checkpoints; keep MP3 binaries out of Git. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD02 — PENDING.** Generate and upload only missing/changed clips with resumable checkpoints; keep MP3 binaries out of Git. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD03 — PENDING.** Verify every final public clip by exact bytes, MIME, CORS, immutable cache and range support. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD03 — PENDING.** Verify every final public clip by exact bytes, MIME, CORS, immutable cache and range support. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD04 — PENDING.** Fully decode every clip and reject corrupt, silent or non-finite audio. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD04 — PENDING.** Fully decode every clip and reject corrupt, silent or non-finite audio. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD05 — PENDING.** Run speech-content screening, inspect flags and never confuse ASR with pronunciation/accent certification. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD05 — PENDING.** Run speech-content screening, inspect flags and never confuse ASR with pronunciation/accent certification. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD06 — PENDING.** Listen to every new/changed clip for wording, pronunciation, accent, pacing and clipping; record actual reviewer. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD06 — PENDING.** Listen to every new/changed clip for wording, pronunciation, accent, pacing and clipping; record actual reviewer. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
-- [ ] **AUD07 — PENDING.** Check normal/slow playback, replay, repeated taps, interruption and lesson switching on desktop and phone/tablet. No completed, new-batch evidence for this gate. Evidence: `32 requested roles, 0 approved/generated/uploaded new clips`.
+- [ ] **AUD07 — PENDING.** Check normal/slow playback, replay, repeated taps, interruption and lesson switching on desktop and phone/tablet. No completed, new-batch evidence for this gate. Evidence: `72 requested roles, 0 approved/generated/uploaded new clips`.
 
 ### Identifiers, progress and recordings
 
-- [ ] **DAT01 — PARTIAL.** Preserve existing ten lessons, stable IDs, legacy questions/options, Native course and student history. Combined schema validates 1,893 old modules plus eight drafts; old ID/display pairs remain unchanged in generated index. Evidence: `tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **DAT01 — PARTIAL.** Preserve existing ten lessons, stable IDs, legacy questions/options, Native course and student history. Combined schema validates 1,893 old modules plus 18 drafts; old ID/display pairs remain unchanged in generated index. Evidence: `tools/advanced-native-bulk/verify-books10-16.mjs`.
 
 - [ ] **DAT02 — PENDING.** Keep writing self-reviewed, speaking unscored, one completion per question/run and owner-scoped recordings. No completed, new-batch evidence for this gate. Evidence: `tools/advanced-native-bulk/verify-books10-16.mjs`.
 
@@ -125,7 +127,7 @@ Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `
 
 ### Scale and reproducibility
 
-- [ ] **SCL01 — PARTIAL.** Keep all lessons discoverable with sharded lazy content, stable partitions, cache retry and stale-account/selection cancellation. Current runtime has sharded loader; eight drafts have not been staged or browser-tested. Evidence: `Combined build/index validation, no new runtime stage`.
+- [ ] **SCL01 — PARTIAL.** Keep all lessons discoverable with sharded lazy content, stable partitions, cache retry and stale-account/selection cancellation. Current runtime has a sharded loader; 18 drafts have not been staged or browser-tested. Evidence: `Combined build/index validation, no new runtime stage`.
 
 - [ ] **SCL02 — PENDING.** Measure real index/full content bytes, initial requests, render/search time and hosting usage. No completed, new-batch evidence for this gate. Evidence: `Combined build/index validation, no new runtime stage`.
 
@@ -139,7 +141,7 @@ Draft evidence below is split across `drafts-books10-16/batch-2112-2119.json`, `
 
 - [ ] **REL03 — PENDING.** Create formal Supabase migration with CLI; apply compatible catalogue before frontend; verify all valid replies and old progress. No completed, new-batch evidence for this gate. Evidence: `No migration, deployment or public-version evidence`.
 
-- [ ] **REL04 — PARTIAL.** Fetch/reconcile current main, inspect selected diff, exclude private scratch/student data/secrets and audio binaries. Fresh origin/main checkout and dedicated branch; release diff/commit/push not yet performed. Evidence: `No migration, deployment or public-version evidence`.
+- [ ] **REL04 — PARTIAL.** Fetch/reconcile current main, inspect selected diff, exclude private scratch/student data/secrets and audio binaries. Fresh origin/main checkout and dedicated branch; draft-branch commits/push performed; release diff, migration and deployment not performed. Evidence: `No migration, deployment or public-version evidence`.
 
 - [ ] **REL05 — PENDING.** Version every changed entrypoint and nested cached dependency; run complete focused release gates. No completed, new-batch evidence for this gate. Evidence: `No migration, deployment or public-version evidence`.
 
@@ -156,15 +158,15 @@ This crosswalk covers all 30 chapters of the attached manual, including its form
 - **Chapter 1 — Authority, owner decisions, and no false release claim.** Gates: REL08, SRC03. Open: drafts are not called live or approved.
 - **Chapter 2 — Requirements register.** Gates: SRC01–REL08. All 55 gates appear above; unresolved items remain unchecked.
 - **Chapter 3 — Source intake, provenance, rights.** Gates: SRC01–SRC05. Page/expression extraction complete; meaning and merge decisions pending.
-- **Chapter 4 — Expression brief and difficulty.** Gates: SRC05, CUR01, CUR12. Eight briefs drafted; broader source not curated.
-- **Chapter 5 — Seven-step learning contract.** Gates: CUR02, DAT02. Eight records compile; browser behavior unverified.
-- **Chapter 6 — Listening question and concealment.** Gates: CUR03, UI01. Eight question records drafted; concealment unverified.
+- **Chapter 4 — Expression brief and difficulty.** Gates: SRC05, CUR01, CUR12. 18 briefs drafted; broader source not curated.
+- **Chapter 5 — Seven-step learning contract.** Gates: CUR02, DAT02. 18 records compile; browser behavior unverified.
+- **Chapter 6 — Listening question and concealment.** Gates: CUR03, UI01. 18 question records drafted; concealment unverified.
 - **Chapter 7 — Four-valid reply and golden state.** Gates: CUR04, UI02. Structural golden count passes; pragmatic/browser review pending.
-- **Chapter 8 — Scene, boundary, dialogue.** Gates: CUR05–CUR07, UI06. Eight of each drafted; editorial and visual checks pending.
+- **Chapter 8 — Scene, boundary, dialogue.** Gates: CUR05–CUR07, UI06. 18 of each drafted; editorial and visual checks pending.
 - **Chapter 9 — Listen-before-speak and optional recording.** Gates: CUR11, UI03, AUD01, AUD07. Exact spans pass; audio and real interaction absent.
-- **Chapter 10 — Changed-context writing and self-review.** Gates: CUR08–CUR09, UI04. Ten examples drafted; interaction unverified.
-- **Chapter 11 — Exact answer-derived glossary.** Gates: CUR10. Eight glossaries pass span and target-leakage schema.
-- **Chapter 12 — Traditional Chinese completeness and fidelity.** Gates: ZH01–ZH03. Structural fields present; independent fidelity and display pending.
+- **Chapter 10 — Changed-context writing and self-review.** Gates: CUR08–CUR09, UI04. Thirty-six examples drafted; interaction unverified.
+- **Chapter 11 — Exact answer-derived glossary.** Gates: CUR10. 18 glossaries pass span and target-leakage schema.
+- **Chapter 12 — Traditional Chinese completeness and fidelity.** Gates: ZH01–ZH03. Structural fields present; first-eight AI findings repaired and AI re-reviewed; human fidelity and display pending.
 - **Chapter 13 — English and Chinese wrapping.** Gates: UI06–UI07. No new six-width browser or physical-device evidence.
 - **Chapter 14 — Yellow/green highlights and concealment.** Gates: CUR11, UI05. Target patterns supplied; actual CSS/reveal state unverified.
 - **Chapter 15 — Correct/wrong sounds and mute.** Gates: SND01–SND02. No new lesson sound test.
@@ -172,11 +174,11 @@ This crosswalk covers all 30 chapters of the attached manual, including its form
 - **Chapter 17 — Lesson surfaces, completion, accessibility.** Gates: UI11, A11Y01. No new lesson completion/device report.
 - **Chapter 18 — Canonical data and stable identifiers.** Gates: DAT01, SCL03. No ID collision; source 2,111 already used, first draft 2,112.
 - **Chapter 19 — Progress and recordings.** Gates: DAT02–DAT03. No new backend/account/recording check.
-- **Chapter 20 — Audio and hosting.** Gates: AUD01–AUD07. 32 pilot audio roles planned; 0 produced, heard or uploaded.
+- **Chapter 20 — Audio and hosting.** Gates: AUD01–AUD07. 72 draft audio roles planned; 0 produced, heard or uploaded.
 - **Chapter 21 — Current repository implementation map.** Gates: SCL01, REL04. Current loader/schema/renderer paths inspected; no release integration.
-- **Chapter 22 — Twenty-step production method.** Gates: Steps 1–20 below. Only source intake and eight draft steps advanced.
+- **Chapter 22 — Twenty-step production method.** Gates: Steps 1–20 below. Only source intake and 18 draft records advanced.
 - **Chapter 23 — Automated and visual audit.** Gates: CUR02, UI01–UI11, SND01. Schema passes; new browser/visual coverage absent.
-- **Chapter 24 — Human editorial and device review.** Gates: SRC05, ZH02, A11Y01, AUD06. No independent human or physical-device sign-off.
+- **Chapter 24 — Human editorial and device review.** Gates: SRC05, ZH02, A11Y01, AUD06. AI peer review is recorded, but no independent human or physical-device sign-off.
 - **Chapter 25 — Publication, live verification, rollback.** Gates: REL01–REL08. No new release or signed-in live evidence.
 - **Chapter 26 — Scale, batch freezes and stop conditions.** Gates: SCL01–SCL03, REL02. Reconciliation queue exists; held items excluded from live.
 - **Chapter 27 — Ten-lesson calibration.** Gates: CUR01, CUR06, DAT01. Preserved 1–10; new briefs checked against stated boundary examples only.
@@ -187,19 +189,19 @@ This crosswalk covers all 30 chapters of the attached manual, including its form
 ## Golden SOP twenty-step production cycle
 
 1. [x] **PASS—intake:** Inspected origin/main, current 1,893 modules, source map, SOP and dedicated branch; reserved after existing source ordinal 2,111.
-2. [ ] **PARTIAL:** Extracted all 2,604 source entries with actual page and context; 1,499 undrafted unique candidates still need sense/grammar review.
+2. [ ] **PARTIAL:** Extracted all 2,604 source entries with actual page and context; at least 1,488 undrafted unique candidates still need sense/grammar review.
 3. [ ] **PARTIAL:** Exact and lexical near candidates flagged; semantic duplicate decisions and scenario review remain open.
-4. [ ] **PARTIAL:** Eight complete lesson briefs and writing answers drafted.
-5. [ ] **PARTIAL:** Eight listening models, four options and explanations drafted; concealment untested in new UI.
-6. [ ] **PARTIAL:** Eight four-reply sets drafted; schema confirms one target reply each, human pragmatic review pending.
-7. [ ] **PARTIAL:** Eight scene/contrast/dialogue triplets drafted; visual negative cue untested.
-8. [ ] **PARTIAL:** Eight speaking full models and exact blank spans validated; playback and recording untested.
-9. [ ] **PARTIAL:** Sixteen complete writing examples; exact answer-derived glossary spans validated for eight drafts.
-10. [ ] **PARTIAL:** Required Chinese fields structurally present for eight drafts; independent translation review pending.
-11. [ ] **PARTIAL:** Eight target patterns and cloze spans pass schema; external language-form review pending.
+4. [ ] **PARTIAL:** 18 complete lesson briefs and writing answers drafted.
+5. [ ] **PARTIAL:** 18 listening models, four options and explanations drafted; concealment untested in new UI.
+6. [ ] **PARTIAL:** 18 four-reply sets drafted; schema confirms one target reply each, human pragmatic review pending.
+7. [ ] **PARTIAL:** 18 scene/contrast/dialogue triplets drafted; visual negative cue untested.
+8. [ ] **PARTIAL:** 18 speaking full models and exact blank spans validated; playback and recording untested.
+9. [ ] **PARTIAL:** Thirty-six complete writing examples; exact answer-derived glossary spans validated for 18 drafts.
+10. [ ] **PARTIAL:** Required Chinese fields structurally present for 18 drafts; independent translation review pending.
+11. [ ] **PARTIAL:** 18 target patterns and cloze spans pass schema; external language-form review pending.
 12. [ ] **PENDING:** No completed evidence for the new batch.
 13. [ ] **PENDING:** No completed evidence for the new batch.
-14. [ ] **PARTIAL:** Draft builder produced eight isolated lesson shards and 48 assessment items; not added to active release index.
+14. [ ] **PARTIAL:** Draft builder produced 18 isolated lesson shards and 108 assessment items; not added to active release index.
 15. [ ] **PENDING:** No completed evidence for the new batch.
 16. [ ] **PENDING:** No completed evidence for the new batch.
 17. [ ] **PARTIAL:** The one schema error found in draft takeaway wording was fixed and the draft/combined checks rerun.
@@ -210,12 +212,12 @@ This crosswalk covers all 30 chapters of the attached manual, including its form
 ## Current automated checks and defects
 
 - Source extraction: 275/275 question headings found in the rendered 246-page PDF; 2,604/2,604 rows assigned a page; seven per-book counts agree with the source headings.
-- Eight-record draft compilation: both batches passed with 0 structural errors and 0 wording-reuse flags; `node tools/advanced-native-bulk/test.mjs` passed.
-- Combined existing-plus-pilot validation: 1,891 authored records, 0 schema errors; unchanged identity/display pairs for the existing 1,883 imported records; proposed new display numbers 1894–1901.
-- Pilot originality screen: 0 exact whole-sentence copies of new guide examples among 48 teaching texts; pilot near-duplicate wording screen against existing records: 0 flags. These screens do not prove originality or semantic quality.
+- 18-record draft compilation: all six batches passed with 0 structural errors and 0 wording-reuse flags; `node tools/advanced-native-bulk/test.mjs` passed.
+- Combined existing-plus-draft validation: 1,901 authored records, 0 schema errors; unchanged identity/display pairs for the existing 1,883 imported records; proposed new display numbers 1894–1911.
+- Draft originality screen: 0 exact whole-sentence copies of new guide examples among 108 teaching texts; draft near-duplicate wording screen against existing records: 0 flags. These screens do not prove originality or semantic quality.
 - The broader legacy course test was attempted in the sparse checkout but could not reach assertions: its required tracked MP3 files are excluded. The old SQL catalogue `--check` was also attempted but its migration files are excluded. Neither is recorded as a pass or as a product defect; both must be rerun in a full release checkout.
-- Repair cycle: the first draft's `let it slide` takeaway did not match the target regex; wording was corrected and both draft and combined validation passed. A later self-review found over-obvious scene/dialogue distractors across the pilot; these were replaced with closer alternatives and the combined validator rerun. No defect was converted into a pass without a rerun.
-- Blocking gaps: 1,499 unique new candidates have no lesson; all 2,604 rows still need final semantic ownership; no independent English/Chinese review of the eight drafts; 32 pilot audio clips absent; no new browser/device, accessibility, sound, progress, backend, public-host or live-release evidence.
+- Repair cycle: the first draft's `let it slide` takeaway did not match the target regex; wording was corrected and both draft and combined validation passed. A later self-review found over-obvious scene/dialogue distractors across the draft; these were replaced with closer alternatives and the combined validator rerun. Independent AI peer review then found 16 issues, including three answer-fairness blockers, in the first eight. All 16 were edited in the draft source, affected glossary spans were recalculated, and combined validation was rerun. AI re-review resolved those first-eight findings. The next ten AI-reviewed drafts have 15 new findings, including one blocker, with draft repairs awaiting independent re-review. No defect was converted into a release pass.
+- Blocking gaps: at least 1,488 unique new candidates have no lesson; all 2,604 rows still need final semantic ownership; AI peer review found 15 open findings across the next ten; human English/Chinese review of all 18 drafts is pending; 72 draft audio roles have no generated clips; no new browser/device, accessibility, sound, progress, backend, public-host or live-release evidence.
 
 ## Mandatory restart rule
 
@@ -225,7 +227,9 @@ For any edited answer, rerun glossary span/leakage checks. For any edited model 
 
 - `books10-16/source-inventory.jsonl` — all 2,604 source rows, categories, meanings, examples and locators.
 - `books10-16/reconciliation-register.jsonl` — candidate match status for every source row; null `decision` means no semantic merge was approved.
-- `drafts-books10-16/batch-2112-2119.json` — five structurally valid, unpublished lesson drafts; `drafts-books10-16/batch-2113.json`, `drafts-books10-16/batch-2120.json` and `drafts-books10-16/batch-2123.json` contain three further unpublished drafts.
+- `drafts-books10-16/batch-manifest.json` — exact draft-file and source-ordinal snapshot selected for the combined verification, excluding in-progress author files.
+- `drafts-books10-16/batch-*.json` — 18 structurally valid, unpublished lesson drafts across six files; AI peer review and repairs are recorded separately under `reviews-books10-16/`.
+- `tools/advanced-native-bulk/reconcile-books10-16.py` — deterministic source-to-prior-phrase reconciliation generator using tracked input and the draft manifest.
 - `tools/advanced-native-bulk/verify-books10-16.mjs` — reproducible intake, draft and combined-catalogue integrity checks.
 
-No human listening, physical-device approval or owner acceptance is claimed by this file.
+No human listening, physical-device approval or owner acceptance is claimed by this file. The AI review record contains findings and is not sign-off.

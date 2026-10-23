@@ -87,8 +87,8 @@
           },
           {
             "id": "d",
-            "en": "She knew the interview had a fixed starting time.",
-            "zh": "她知道面試有固定開始時間。"
+            "en": "She called so the interviewer could adjust the fixed interview schedule.",
+            "zh": "她先致電，好讓面試官調整固定的面試時間表。"
           }
         ],
         "explanationZh": "四個回應都合理；金句指出當地對遲到的看法，但沒有誇大成法律規定。",
@@ -96,7 +96,7 @@
         "promptEn": "Why did Maya call the company before arriving late?"
       },
       "scene": {
-        "promptZh": "紀念館要求訪客保持安靜。哪句最能描述館方與訪客對大聲聊天的態度？",
+        "promptZh": "紀念館明確要求訪客保持安靜。哪句最能描述館方對大聲聊天的態度？",
         "options": [
           {
             "id": "a",
@@ -114,7 +114,7 @@
             "zh": "只要訪客繼續往前走，紀念館便接受大聲交談。"
           }
         ],
-        "explanationZh": "保持安靜的要求支持群體不認同大聲聊天，其他選項與情境相反。",
+        "explanationZh": "館方要求保持安靜，所以大聲說話在館內不受歡迎。情境沒有顯示全市禁止大聲說話；館方的要求也不支持邊走邊大聲交談。",
         "answerId": "a"
       },
       "contrast": {
@@ -140,7 +140,7 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptZh": "同學問：『我可以在共用自修室開擴音器聽音樂嗎？』哪個回應最合宜？",
+        "promptZh": "共用自修室已貼出「請勿使用擴音器播放音樂」的告示，同學也表示會被打擾。有人問：「我可以在這裏開擴音器聽音樂嗎？」哪個回應最合宜？",
         "options": [
           {
             "id": "a",
@@ -149,16 +149,16 @@
           },
           {
             "id": "b",
-            "en": "It is allowed, provided you keep the music fairly quiet.",
-            "zh": "只要把音樂調得相當小聲，便可以使用擴音器。"
+            "en": "The room allows speakers if you keep the music fairly quiet.",
+            "zh": "只要把音樂調小聲，這個房間便容許使用擴音器。"
           },
           {
             "id": "c",
-            "en": "The room has a written rule about music, but no one minds speakers.",
-            "zh": "房間雖有關於音樂的書面規則，但沒有人介意使用擴音器。"
+            "en": "The rule is only a suggestion, and no one minds speakers.",
+            "zh": "那項規定只是建議，而且沒有人介意擴音器。"
           }
         ],
-        "explanationZh": "回應指出共用空間的規範，並提供可行做法；沒有把不認同說成犯法。",
+        "explanationZh": "告示和同學的反應都支持「不受歡迎」；另外兩句與已知情況矛盾。",
         "answerId": "a"
       },
       "speaking": {
@@ -363,22 +363,22 @@
         "promptEn": "Why did you ask us to check the event registration link again?"
       },
       "scene": {
-        "promptZh": "校園慈善攤位收到一張沒有署名、卻要求退款的收據。哪句最合適？",
+        "promptZh": "校園慈善攤位收到一份要求退款但沒有署名的表格。哪句最合適？",
         "options": [
           {
             "id": "a",
-            "en": "The unsigned receipt set alarm bells ringing, so the volunteers checked the records.",
-            "zh": "那張沒有署名的收據令義工警覺，因此他們核對紀錄。"
+            "en": "The unsigned refund form set alarm bells ringing, so the volunteers checked the records.",
+            "zh": "那份沒有署名的退款表格令義工警覺，因此他們核對紀錄。"
           },
           {
             "id": "b",
-            "en": "The unsigned receipt proves that a volunteer requested the refund.",
-            "zh": "沒有署名的收據證明是一名義工要求退款。"
+            "en": "The unsigned refund form proves that a volunteer requested the refund.",
+            "zh": "沒有署名的退款表格證明是一名義工要求退款。"
           },
           {
             "id": "c",
-            "en": "The receipt is probably harmless, so there is no need to check the records.",
-            "zh": "那張收據大概沒有問題，所以不必核對紀錄。"
+            "en": "The refund form is probably harmless, so there is no need to check the records.",
+            "zh": "那份退款表格大概沒有問題，所以不必核對紀錄。"
           }
         ],
         "explanationZh": "欠缺署名是需要核對的線索，並不是足以確定責任的證據。",
@@ -648,7 +648,7 @@
             "zh": "我曾路過那間書店一次，但從未走進去。"
           }
         ],
-        "explanationZh": "路過才偶爾進去，與每日在那裏工作或從未去過都不同。",
+        "explanationZh": "路過時才偶爾進去，與每個星期六固定到訪或從未走進去都不同。",
         "answerId": "a"
       },
       "contrast": {
@@ -692,7 +692,7 @@
             "zh": "等到你能承諾每週參與，才提出幫忙吧。"
           }
         ],
-        "explanationZh": "回應容許按時間偶爾幫忙，沒有把偶爾誤解為每日。",
+        "explanationZh": "朋友無法每週做義工；建議時間許可時偶爾幫忙，比要求無法兌現的每週承諾或完全不幫忙更合宜。",
         "answerId": "a"
       },
       "speaking": {
@@ -709,8 +709,8 @@
         "selfCheckZh": "指出目前只是偶爾畫畫，並提出較頻繁練習的方向；不要把偶爾說成每日。",
         "examples": [
           {
-            "en": "I sketch from time to time when I have a quiet evening. I want to make it a weekly habit.",
-            "zh": "有安靜的晚上時，我間中會畫素描。我想把它變成每週的習慣。"
+            "en": "She sketches from time to time when she has a quiet evening. She wants to make it a weekly habit.",
+            "zh": "有安靜的晚上時，她間中會畫素描。她想把它變成每週的習慣。"
           },
           {
             "en": "She draws in her notebook from time to time, but she plans to practise more often.",
@@ -723,8 +723,8 @@
             "zh": "安靜的晚上",
             "exampleIndex": 0,
             "span": {
-              "start": 39,
-              "end": 54
+              "start": 44,
+              "end": 59
             }
           },
           {
@@ -732,8 +732,8 @@
             "zh": "每週的習慣",
             "exampleIndex": 0,
             "span": {
-              "start": 74,
-              "end": 88
+              "start": 82,
+              "end": 96
             }
           },
           {
@@ -897,7 +897,7 @@
         "promptEn": "Why has the exhibition not opened yet?"
       },
       "scene": {
-        "promptZh": "班級壁畫原定午飯前完成，但油漆還未乾，大家仍在等。哪句最貼切？",
+        "promptZh": "班級壁畫原定午飯前完成。現在午飯時間已開始，油漆仍未乾，大家還在等。哪句最貼切？",
         "options": [
           {
             "id": "a",
@@ -941,12 +941,12 @@
         "answerId": "c"
       },
       "dialogue": {
-        "promptZh": "活動負責人說：『椅子還未送到，觀眾半小時後就到。』哪個回應最合宜？",
+        "promptZh": "活動負責人說：「椅子原定二十分鐘前送到，但現在還未到；場地也未佈置好。觀眾半小時後就到。」哪個回應最合宜？",
         "options": [
           {
             "id": "a",
-            "en": "We're running behind schedule. Let's tell the volunteers and revise the opening time.",
-            "zh": "我們的進度落後了。通知義工並調整開放時間吧。"
+            "en": "We're running behind schedule. Let's tell the volunteers and check whether the opening time needs to change.",
+            "zh": "我們的進度落後了。先通知義工，再看看是否需要調整開放時間。"
           },
           {
             "id": "b",
@@ -959,7 +959,7 @@
             "zh": "即使這次送貨只影響今天，也應延遲下一場活動。"
           }
         ],
-        "explanationZh": "指出時間問題，並及早通知及調整，比隱瞞或過度反應更合宜。",
+        "explanationZh": "椅子已過原定送達時間而佈置未完成，所以進度落後；先通知義工並評估是否需要改開放時間，比不更新消息或無故延遲下一場活動更合宜。",
         "answerId": "a"
       },
       "speaking": {
@@ -1113,23 +1113,23 @@
         "options": [
           {
             "id": "a",
-            "en": "They noticed it but chose not to raise it this time.",
-            "zh": "他們留意到錯誤，但這次選擇不提出。"
+            "en": "I noticed it but chose not to raise it this time.",
+            "zh": "我留意到錯誤，但這次選擇不提出。"
           },
           {
             "id": "b",
-            "en": "They never saw the error.",
-            "zh": "他們從未看見錯誤。"
+            "en": "I never saw the error.",
+            "zh": "我從未看見錯誤。"
           },
           {
             "id": "c",
-            "en": "They demanded that the whole sign be destroyed.",
-            "zh": "他們要求把整張告示毀掉。"
+            "en": "I demanded that the whole sign be destroyed.",
+            "zh": "我要求把整張告示毀掉。"
           },
           {
             "id": "d",
-            "en": "They decided that spelling can never matter.",
-            "zh": "他們認為拼寫永遠不重要。"
+            "en": "I decided that spelling can never matter.",
+            "zh": "我認為拼寫永遠不重要。"
           }
         ],
         "explanationZh": "說話者看見了錯誤，因不影響理解而這次不追究；沒有提出普遍規則。",

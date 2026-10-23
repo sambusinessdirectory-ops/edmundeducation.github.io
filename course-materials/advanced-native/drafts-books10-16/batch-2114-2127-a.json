@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-five-more-drafts-a-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2114",
+      "number": 2114,
+      "inventoryId": "expr-2114",
+      "titleEn": "leave a rather bad taste",
+      "titleZh": "留下不好的印象",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) a rather bad taste\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Leave a lingering unpleasant impression after an interaction.",
+        "meaningZh": "事情過後，仍令人留下不快的印象。",
+        "grammar": "leave a rather bad taste; left a rather bad taste; normally the act or outcome is the subject.",
+        "register": "Informal to neutral figurative judgement; often about how someone was treated.",
+        "boundaryZh": "須有事情過後持續的不快感受，不是食物的實際味道。",
+        "misconceptionZh": "不要把這個片語解作口中的味道，也不要只指當下短暫的不滿。",
+        "outcomeZh": "能辨認不愉快互動留下的持久印象。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0003",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The rude reply can leave a rather bad taste even after the problem is fixed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leave a rather bad taste"
+        }
+      ],
+      "listening": {
+        "en": "The organiser corrected the prize list, but blaming a volunteer in public left a rather bad taste.",
+        "zh": "主辦方更正了得獎名單，但公開責怪一名義工仍令人留下不快的印象。",
+        "promptZh": "更正名單後，大家對公開責怪義工一事仍有甚麼感受？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They still feel uncomfortable about the public blame.",
+            "zh": "他們對公開責怪義工一事仍感到不舒服。"
+          },
+          {
+            "id": "b",
+            "en": "They think the volunteer won the prize.",
+            "zh": "他們以為那名義工得了獎。"
+          },
+          {
+            "id": "c",
+            "en": "They disliked the flavour of the refreshments.",
+            "zh": "他們不喜歡茶點的味道。"
+          },
+          {
+            "id": "d",
+            "en": "They believe the list was never corrected.",
+            "zh": "他們認為名單一直沒有更正。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "but 指出問題雖已修正，公開責怪人的做法仍留下不快印象；這裏不是茶點的味道。"
+      },
+      "reply": {
+        "promptEn": "How did the committee feel after the apology?",
+        "promptZh": "（委員會在對方道歉後有甚麼感受？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They appreciated that the speaker apologised promptly.",
+            "zh": "他們感謝講者很快道歉。"
+          },
+          {
+            "id": "b",
+            "en": "They accepted the apology but still wanted to discuss the incident.",
+            "zh": "他們接受道歉，但仍想討論事件。"
+          },
+          {
+            "id": "c",
+            "en": "The rude remark left a rather bad taste, despite the apology.",
+            "zh": "雖然對方道歉，那句無禮的話仍留下不快的印象。"
+          },
+          {
+            "id": "d",
+            "en": "They felt relieved that their concerns had finally been heard.",
+            "zh": "他們感到如釋重負，因為對方終於聽進了他們的顧慮。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都自然回答委員會道歉後的感受或態度；金句特別指出道歉後仍未消散的不快印象。"
+      },
+      "scene": {
+        "promptZh": "義賣活動已退款，但職員當眾嘲笑一名顧客。哪句最貼切描述顧客事後的感受？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The refund was quick, but the mockery left a rather bad taste.",
+            "zh": "退款很快，但那番嘲笑仍留下不快的印象。"
+          },
+          {
+            "id": "b",
+            "en": "The customer felt satisfied because the payment problem had been resolved.",
+            "zh": "付款問題已獲解決，因此顧客感到滿意。"
+          },
+          {
+            "id": "c",
+            "en": "The customer forgot the exchange as soon as the money arrived.",
+            "zh": "顧客一收到退款就忘記了那次爭執。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "退款處理了金錢問題，卻沒有消除當眾被嘲笑留下的不快；另外兩句都忽略了無禮對待的持續影響。"
+      },
+      "contrast": {
+        "promptZh": "以本課比喻用法而言，哪個情況最不適合用 leave a rather bad taste？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach later apologises, but players still remember being mocked.",
+            "zh": "教練後來道歉，但隊員仍記得被嘲笑。"
+          },
+          {
+            "id": "b",
+            "en": "A café serves bitter tea, and a customer comments only on its flavour.",
+            "zh": "咖啡店供應苦茶，顧客只評論茶的味道。"
+          },
+          {
+            "id": "c",
+            "en": "A landlord repairs a leak, but tenants remain upset by the rude response.",
+            "zh": "業主修好漏水問題，但租客仍對先前無禮的回應感到不快。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "顧客只評論茶的實際味道，沒有社交互動留下的持續不快；教練和業主的做法則符合這個比喻。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「退款已收到，但店員之前當眾指責我。」你會怎樣回應，才既體貼又準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I can see why that left a rather bad taste. You could tell the manager how you were treated.",
+            "zh": "我明白那為何仍令你感到不快。你可以告訴經理店員怎樣對待你。"
+          },
+          {
+            "id": "b",
+            "en": "Once you have a refund, you should have no feelings about what happened.",
+            "zh": "既然你已收到退款，就不應對事件有任何感受。"
+          },
+          {
+            "id": "c",
+            "en": "The shop must be permanently unsafe because one person was rude.",
+            "zh": "因為一名職員無禮，這間店一定永遠不安全。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友不快的重點是當眾受指責；合適回應承認感受並提出具體做法，沒有抹去情緒或作過度推論。"
+      },
+      "speaking": {
+        "en": "The repair was completed, but the dismissive email left a rather bad taste.",
+        "zh": "修理雖已完成，但那封輕率敷衍的電郵仍留下不快的印象。",
+        "promptZh": "先聽完整示範，再說明修理後為何仍有人感到不快。",
+        "targetSpan": {
+          "start": 51,
+          "end": 74
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校取消了一次校外活動，之後很快退款，卻沒有解釋原因。你和同學仍感到不快。用一至兩句英文說明感受，並提出學校下次可怎樣做。",
+        "selfCheckZh": "比較退款後仍有的不快，以及對清楚解釋的要求；片語說的是持續印象，不是金錢或味道。",
+        "examples": [
+          {
+            "en": "The quick refund helped, but the silence left a rather bad taste. The school should explain cancellations sooner.",
+            "zh": "快速退款有所幫助，但校方一直不作聲仍留下不快的印象。學校下次應更早解釋取消活動的原因。"
+          },
+          {
+            "en": "Cancelling the trip without an explanation left a rather bad taste among students. A short notice would have helped.",
+            "zh": "取消旅行卻沒有解釋，令學生留下不快的印象。一則簡短通知本可有所幫助。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "quick refund",
+            "zh": "快速退款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 16
+            }
+          },
+          {
+            "en": "the silence",
+            "zh": "一直不作聲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 40
+            }
+          },
+          {
+            "en": "explain cancellations",
+            "zh": "解釋取消活動的原因",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 105
+            }
+          },
+          {
+            "en": "without an explanation",
+            "zh": "沒有解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 42
+            }
+          },
+          {
+            "en": "A short notice",
+            "zh": "一則簡短通知",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An apology helped, but the public accusation left a rather bad taste.",
+          "zh": "道歉有所幫助，但公開指責仍留下不快的印象。"
+        },
+        {
+          "en": "Ignoring the complaint may leave a rather bad taste even after a refund.",
+          "zh": "即使退款，忽視投訴也可能留下不快的印象。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2122",
+      "number": 2122,
+      "inventoryId": "expr-2122",
+      "titleEn": "at face value",
+      "titleZh": "照單全收",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat face value\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Accept an apparent claim or meaning without questioning it.",
+        "meaningZh": "未加查證，便接受表面上的說法或意思。",
+        "grammar": "take/accept something at face value; do not take a claim at face value.",
+        "register": "Neutral; useful for reports, promises, claims and first impressions.",
+        "boundaryZh": "重點是未核查便相信表面說法；核查後仍相信並不算照單全收。",
+        "misconceptionZh": "不要把 face value 誤解為人的外貌或商品的標價。",
+        "outcomeZh": "能判斷何時不應只憑表面說法作決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0011",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not take that sales claim at face value.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at face value"
+        }
+      ],
+      "listening": {
+        "en": "The poster promises that every applicant will win a prize, but Mei will not take that claim at face value until she reads the rules.",
+        "zh": "海報聲稱每名申請者都會得獎，但阿美在讀過規則前，不會照單全收這個說法。",
+        "promptZh": "阿美在讀過規則前，對海報的保證抱甚麼態度？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wants to check the details before believing it.",
+            "zh": "她想先核查詳情，才相信那個說法。"
+          },
+          {
+            "id": "b",
+            "en": "She already knows the poster is a deliberate lie.",
+            "zh": "她已知道海報故意說謊。"
+          },
+          {
+            "id": "c",
+            "en": "She is comparing the poster with the prize’s price tag.",
+            "zh": "她正在比較海報和獎品的標價。"
+          },
+          {
+            "id": "d",
+            "en": "She has decided not to apply under any circumstances.",
+            "zh": "她已決定無論如何都不申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "until she reads the rules 說明她先查證再決定是否相信；這並不等於已證明海報說謊。"
+      },
+      "reply": {
+        "promptEn": "What should we do before sharing this surprising claim?",
+        "promptZh": "（分享這個令人驚訝的說法前，我們應該做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could read the full report first.",
+            "zh": "我們可以先讀完整份報告。"
+          },
+          {
+            "id": "b",
+            "en": "We should check who published it.",
+            "zh": "我們應核查發佈者是誰。"
+          },
+          {
+            "id": "c",
+            "en": "Let us ask whether another reliable source confirms it.",
+            "zh": "我們問問是否有另一個可靠來源證實。"
+          },
+          {
+            "id": "d",
+            "en": "We should not take it at face value; let us verify the figures.",
+            "zh": "我們不應照單全收；先核對數字吧。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四個建議都回應分享前的查證需要；金句直接表達不照單全收表面說法。"
+      },
+      "scene": {
+        "promptZh": "租屋廣告聲稱「所有費用已包括在內」，但細則未列出。哪句最能表達審慎的做法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Take the advertisement at face value and pay immediately.",
+            "zh": "照單全收廣告內容，立即付款。"
+          },
+          {
+            "id": "b",
+            "en": "Do not take the claim at face value; ask which fees are included.",
+            "zh": "不要照單全收這個說法；先問清楚包括哪些費用。"
+          },
+          {
+            "id": "c",
+            "en": "Assume every fee is excluded without asking anyone.",
+            "zh": "不作查問就假設所有費用都不包括在內。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "廣告未列細則，應先核查「所有費用」的範圍；立即付款或反向武斷猜測都缺乏依據。"
+      },
+      "contrast": {
+        "promptZh": "以本課「不經核查便相信表面說法」的意思，哪種情況最不適合說 someone took a claim at face value？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He repeated the headline without opening the article.",
+            "zh": "他沒有打開文章便轉述標題。"
+          },
+          {
+            "id": "b",
+            "en": "She trusted a sales promise without reading its conditions.",
+            "zh": "她沒有看條款就相信推銷承諾。"
+          },
+          {
+            "id": "c",
+            "en": "They checked the report and its data before accepting its conclusion.",
+            "zh": "他們先核查報告和數據，才接受結論。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "先核查報告和數據後才接受結論，恰好不是只憑表面說法；另外兩種做法跳過了查證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這則帖文說明天全校停課，我們可以不去吧？」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Do not take it at face value. Let us check the school notice first.",
+            "zh": "不要照單全收。先查看學校通告吧。"
+          },
+          {
+            "id": "b",
+            "en": "It must be true because the message uses the school logo.",
+            "zh": "訊息用了學校標誌，所以一定是真的。"
+          },
+          {
+            "id": "c",
+            "en": "Let us stay home and ask the school after lessons begin.",
+            "zh": "我們先留在家裏，等上課後才向學校查問。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "停課消息會影響出席，應先查官方通告；標誌和轉發帖文均不足以單獨證實消息。"
+      },
+      "speaking": {
+        "en": "I did not take the headline at face value; I read the full article before sharing it.",
+        "zh": "我沒有照單全收標題的說法，而是讀完整篇文章才分享。",
+        "promptZh": "先聽示範，再說明分享文章前做了甚麼核查。",
+        "targetSpan": {
+          "start": 28,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社團網頁說新會員「保證有領導職位」，但沒有解釋如何選人。你想報名。用一至兩句英文說明你會否直接相信，並提出下一步。",
+        "selfCheckZh": "表達不會未經查證就相信保證，並提出向社團核查遴選方法的做法。",
+        "examples": [
+          {
+            "en": "I will not take the promise at face value. I will ask how leaders are chosen before I join.",
+            "zh": "我不會照單全收這項承諾。加入前，我會問清楚領導職位如何遴選。"
+          },
+          {
+            "en": "The website sounds encouraging, but I cannot accept its guarantee at face value without selection details. I will contact the club.",
+            "zh": "網頁的說法聽起來很吸引，但沒有遴選詳情，我不能照單全收它的保證。我會聯絡社團。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the promise",
+            "zh": "這項承諾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 27
+            }
+          },
+          {
+            "en": "how leaders are chosen",
+            "zh": "領導職位如何遴選",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 76
+            }
+          },
+          {
+            "en": "before I join",
+            "zh": "加入前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 90
+            }
+          },
+          {
+            "en": "selection details",
+            "zh": "遴選詳情",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 105
+            }
+          },
+          {
+            "en": "contact the club",
+            "zh": "聯絡社團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Do not take a dramatic headline at face value before reading the article.",
+          "zh": "未讀文章之前，不要照單全收聳動的標題。"
+        },
+        {
+          "en": "She checked the terms rather than accepting the offer at face value.",
+          "zh": "她核查條款，而不是照單全收那項優惠。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2124",
+      "number": 2124,
+      "inventoryId": "expr-2124",
+      "titleEn": "blank cheque",
+      "titleZh": "無限制的授權",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bblank cheque\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Give someone unrestricted discretion, especially over spending or decisions.",
+        "meaningZh": "給予某人不受限制的決策權，尤其涉及開支。",
+        "grammar": "give someone a blank cheque to do something; a blank cheque for spending.",
+        "register": "Neutral to critical; British spelling cheque.",
+        "boundaryZh": "比喻授權缺乏限制；有明確預算上限或審批條件便不是無限制授權。",
+        "misconceptionZh": "不要把比喻用法混同真正未填金額的支票；也不要推論對方必然濫用權力。",
+        "outcomeZh": "能分辨寬鬆授權與附帶限制的委派。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0013",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The committee was given a blank cheque to redesign the programme.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "blank cheque"
+        }
+      ],
+      "listening": {
+        "en": "The board let the festival team hire any performers at any price, effectively giving them a blank cheque.",
+        "zh": "董事會准許節慶團隊以任何價錢聘請任何表演者，實際上給了他們無限制的授權。",
+        "promptZh": "董事會給節慶團隊的權限有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There is no stated limit on the performers or their fees.",
+            "zh": "表演者人選和酬金都沒有明確上限。"
+          },
+          {
+            "id": "b",
+            "en": "The team must get approval for every payment.",
+            "zh": "團隊每筆開支都必須取得批准。"
+          },
+          {
+            "id": "c",
+            "en": "The board handed over an unsigned paper cheque.",
+            "zh": "董事會交出一張未簽署的紙本支票。"
+          },
+          {
+            "id": "d",
+            "en": "The team may hire only performers already on a fixed list.",
+            "zh": "團隊只能聘用固定名單上的表演者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "any performers at any price 顯示缺乏人選和金額限制；blank cheque 在此是比喻權限，不是紙本支票。"
+      },
+      "reply": {
+        "promptEn": "Why does the treasurer want a spending limit for the exhibition?",
+        "promptZh": "（財政負責人為何想替展覽設定開支上限？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She wants the group to compare quotations before buying anything.",
+            "zh": "她想團隊購物前先比較報價。"
+          },
+          {
+            "id": "b",
+            "en": "She does not want to give the organisers a blank cheque.",
+            "zh": "她不想給主辦者無限制的授權。"
+          },
+          {
+            "id": "c",
+            "en": "She wants to keep enough money for the next event.",
+            "zh": "她想留下足夠經費供下次活動使用。"
+          },
+          {
+            "id": "d",
+            "en": "She would like expensive purchases to receive separate approval.",
+            "zh": "她想較昂貴的採購另行取得批准。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四個回答都合理說明為何要設上限；金句特別表明不願給主辦者無限制的開支權。"
+      },
+      "scene": {
+        "promptZh": "校方沒有為佈景設定總預算上限，校園戲劇組可自行決定設計與費用，也毋須報價或審批。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The school has given the group a blank cheque for the set.",
+            "zh": "學校在佈景方面給了劇組無限制的授權。"
+          },
+          {
+            "id": "b",
+            "en": "The school has set a strict limit for every purchase.",
+            "zh": "學校為每項採購訂了嚴格上限。"
+          },
+          {
+            "id": "c",
+            "en": "The group may choose a design but cannot spend any money.",
+            "zh": "劇組可以選擇設計，但不能花任何錢。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "校方沒有設定總預算上限，也不要求報價或審批，這才清楚構成缺乏限制的授權；另外兩句加入了題目沒有的限制。"
+      },
+      "contrast": {
+        "promptZh": "按本課比喻意思，哪種委派最不適合稱為 a blank cheque？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager can spend any amount without reporting it.",
+            "zh": "經理可以花任何金額而毋須匯報。"
+          },
+          {
+            "id": "b",
+            "en": "An organiser may change the programme without seeking permission.",
+            "zh": "主辦者可以不經批准更改節目安排。"
+          },
+          {
+            "id": "c",
+            "en": "A team may spend up to $200 and must show every receipt.",
+            "zh": "團隊最多可花二百元，並須提交每張收據。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "二百元上限和收據要求都是明確約束；前兩種情況則沒有相同的監督或限制。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「活動負責人想立刻訂昂貴設備，但我們還沒有預算。」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us agree on a budget first; we should not give anyone a blank cheque.",
+            "zh": "先商定預算吧；我們不應給任何人無限制的授權。"
+          },
+          {
+            "id": "b",
+            "en": "Let us let the organiser buy everything and inspect the bill much later.",
+            "zh": "先讓主辦者買齊所有東西，過很久才檢查帳單吧。"
+          },
+          {
+            "id": "c",
+            "en": "A costly order always proves that the organiser is dishonest.",
+            "zh": "昂貴的訂單一定證明主辦者不誠實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "尚未有預算時，先訂上限是審慎的做法；不必放任採購，也不能因此斷定同事不誠實。"
+      },
+      "speaking": {
+        "en": "The sponsor offered the committee a blank cheque to redesign the community hall.",
+        "zh": "贊助人給委員會無限制的授權，讓他們重新設計社區會堂。",
+        "promptZh": "先聽示範，再說明贊助人給委員會甚麼權限。",
+        "targetSpan": {
+          "start": 34,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會籌備迎新日。校方願意提供經費，卻尚未定出上限。你認為應先商定預算。用一至兩句英文說明原因和建議。",
+        "selfCheckZh": "指出沒有上限的授權可能令開支失控，並提出預算或審批方法；不要指控學生會必然濫用經費。",
+        "examples": [
+          {
+            "en": "The school should not give us a blank cheque for welcome day. Let us agree on a budget before ordering supplies.",
+            "zh": "學校不應在迎新日給我們無限制的授權。訂購用品前，先商定預算吧。"
+          },
+          {
+            "en": "Without a spending limit, the council would have a blank cheque. We should set a cap and check large purchases.",
+            "zh": "沒有開支上限，學生會便會得到無限制的授權。我們應設定上限，並審批大額採購。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "welcome day",
+            "zh": "迎新日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 60
+            }
+          },
+          {
+            "en": "agree on a budget",
+            "zh": "商定預算",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "ordering supplies",
+            "zh": "訂購用品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          },
+          {
+            "en": "spending limit",
+            "zh": "開支上限",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 24
+            }
+          },
+          {
+            "en": "large purchases",
+            "zh": "大額採購",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The club did not receive a blank cheque; every purchase needed approval.",
+          "zh": "社團沒有得到無限制的授權；每項採購都須獲批。"
+        },
+        {
+          "en": "Giving a new project a blank cheque can make its costs hard to control.",
+          "zh": "給新項目無限制的授權，可能令成本難以控制。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2126",
+      "number": 2126,
+      "inventoryId": "expr-2126",
+      "titleEn": "starting off on the wrong foot",
+      "titleZh": "一開始就留下壞印象",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:start|starts|started|starting) off on the wrong foot\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Begin an interaction or undertaking poorly, often creating a bad first impression.",
+        "meaningZh": "在互動或事情開端表現不佳，往往留下壞的第一印象。",
+        "grammar": "start off on the wrong foot with someone; started/starting off on the wrong foot.",
+        "register": "Neutral and conversational; a poor start can still be repaired.",
+        "boundaryZh": "重點是開始階段出現問題，不表示整段關係或整件事註定失敗。",
+        "misconceptionZh": "不要把片語解作真的踏錯腳，也不要把後期問題說成一開始就出錯。",
+        "outcomeZh": "能指出壞開端與後來是否補救是兩回事。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0015",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 2, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Arriving unprepared felt like starting off on the wrong foot.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "starting off on the wrong foot"
+        }
+      ],
+      "listening": {
+        "en": "On her first day, Jo forgot the meeting time and interrupted her new partner twice; she worried she was starting off on the wrong foot.",
+        "zh": "阿祖第一天忘記開會時間，又兩次打斷新拍檔發言；她擔心自己一開始便留下壞印象。",
+        "promptZh": "阿祖為何擔心？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her first interactions with the partner have gone badly.",
+            "zh": "她與新拍檔最初的互動不順利。"
+          },
+          {
+            "id": "b",
+            "en": "She injured her foot on the way to the meeting.",
+            "zh": "她在前往會議途中弄傷了腳。"
+          },
+          {
+            "id": "c",
+            "en": "Her project has already failed after several months.",
+            "zh": "她的項目在幾個月後已經失敗。"
+          },
+          {
+            "id": "d",
+            "en": "Her partner has confirmed that they will never work together.",
+            "zh": "新拍檔已確認永遠不會與她合作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "first day 和最初的失誤指出壞開端；片語不涉及腳傷，也不能推論日後一定合作失敗。"
+      },
+      "reply": {
+        "promptEn": "How can I handle my first meeting with the new team?",
+        "promptZh": "（我可以怎樣應對第一次與新團隊開會？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Arrive a little early so you have time to settle in.",
+            "zh": "稍早到達，好讓自己有時間準備。"
+          },
+          {
+            "id": "b",
+            "en": "Read the agenda beforehand and bring your questions.",
+            "zh": "事先閱讀議程，並帶備想問的問題。"
+          },
+          {
+            "id": "c",
+            "en": "Listen carefully before offering your first suggestion.",
+            "zh": "先仔細聽，再提出第一項建議。"
+          },
+          {
+            "id": "d",
+            "en": "Check the time and names so you do not start off on the wrong foot.",
+            "zh": "確認時間和成員姓名，以免一開始便留下壞印象。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四項都是合理的首次會議建議；金句用本課片語點明避免壞開端。"
+      },
+      "scene": {
+        "promptZh": "實習生第一次見客戶便用錯姓名，但會後主動更正。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The intern started off on the wrong foot but tried to repair the mistake.",
+            "zh": "實習生一開始留下壞印象，但嘗試補救錯誤。"
+          },
+          {
+            "id": "b",
+            "en": "The client relationship is now certain to fail permanently.",
+            "zh": "與客戶的關係現在肯定會永遠失敗。"
+          },
+          {
+            "id": "c",
+            "en": "Using the wrong name shows the intern arrived with an injured foot.",
+            "zh": "叫錯姓名顯示實習生到場時腳受了傷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "第一次見面叫錯姓名是壞開端，主動更正則是補救；片語沒有預言永遠失敗。"
+      },
+      "contrast": {
+        "promptZh": "以本課「在開端留下壞印象」的意思，哪個情況最不適合用 starting off on the wrong foot？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new volunteer interrupts the coordinator during introductions.",
+            "zh": "新義工在介紹環節打斷統籌員。"
+          },
+          {
+            "id": "b",
+            "en": "Two colleagues work smoothly for years, then disagree over a late policy change.",
+            "zh": "兩名同事合作多年一直順利，後來才因政策變動而爭執。"
+          },
+          {
+            "id": "c",
+            "en": "A student misses the first rehearsal without notifying the group.",
+            "zh": "一名學生沒有通知組員便缺席第一次綵排。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "合作多年後才出現爭執，不是開始階段的問題；另外兩項都是首次互動時的失誤。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我第一次跟導師見面便遲到，現在很尷尬。」哪句回應最恰當？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You may have started off on the wrong foot, but you can apologise and be on time next week.",
+            "zh": "你可能一開始留下壞印象，但可以道歉，下星期準時到。"
+          },
+          {
+            "id": "b",
+            "en": "That proves your tutor will never respect you.",
+            "zh": "那證明你的導師永遠不會尊重你。"
+          },
+          {
+            "id": "c",
+            "en": "Just pretend the lateness never happened and ignore the tutor.",
+            "zh": "假裝從沒遲到，並且不理會導師吧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認首次見面遲到的影響，同時提出可行補救；不能把一次遲到說成不可挽回。"
+      },
+      "speaking": {
+        "en": "We started off on the wrong foot when I missed the first rehearsal, but I apologised the next day.",
+        "zh": "我缺席首次綵排，令我們一開始相處不順，但第二天我已道歉。",
+        "promptZh": "先聽示範，再說明首次綵排後你怎樣補救。",
+        "targetSpan": {
+          "start": 3,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你加入一個社區種植小組。第一次會議時，你誤以為大家已同意改動分工，結果令組員困惑。用一至兩句英文說明這個開端，並提出如何補救。",
+        "selfCheckZh": "指出第一次會議留下不好的開端，並說明澄清分工或道歉的下一步；不必假設關係無法挽回。",
+        "examples": [
+          {
+            "en": "I started off on the wrong foot by changing the duties before asking the group. I will apologise and clarify the plan.",
+            "zh": "我沒有先問大家就改動分工，一開始便留下壞印象。我會道歉，並澄清計劃。"
+          },
+          {
+            "en": "Changing the task list at our first meeting meant I started off on the wrong foot. I should check with everyone before making another change.",
+            "zh": "第一次會議就改動工作清單，令我一開始留下壞印象。下次改動前，我應先問過每個人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "changing the duties",
+            "zh": "改動分工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 54
+            }
+          },
+          {
+            "en": "asking the group",
+            "zh": "徵詢小組意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 78
+            }
+          },
+          {
+            "en": "clarify the plan",
+            "zh": "澄清計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 117
+            }
+          },
+          {
+            "en": "task list",
+            "zh": "工作清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 22
+            }
+          },
+          {
+            "en": "before making another change",
+            "zh": "下次改動前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "We started off on the wrong foot, but a clear apology helped us work together.",
+          "zh": "我們一開始相處不順，但明確道歉有助我們合作。"
+        },
+        {
+          "en": "Missing the first meeting can make someone start off on the wrong foot.",
+          "zh": "缺席首次會議可能令一個人一開始便留下壞印象。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2127",
+      "number": 2127,
+      "inventoryId": "expr-2127",
+      "titleEn": "count against you",
+      "titleZh": "對你不利",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:count|counts|counted|counting) against (?:you|me|him|her|us|them)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be regarded as a disadvantage when someone evaluates a person.",
+        "meaningZh": "在評估某人時，被視為對該人不利的因素。",
+        "grammar": "something counts against someone; counted against him/her/us/them.",
+        "register": "Neutral; common in selection, applications and evaluations.",
+        "boundaryZh": "只表示一項不利因素，不必然等於被淘汰或受處分。",
+        "misconceptionZh": "不要把 count 當作純粹計算數目；也不要把一項弱點等同最終結果。",
+        "outcomeZh": "能辨認評選時的不利因素，並與直接淘汰區分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0016",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 2, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A weak portfolio may count against you in the selection process.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "count against you"
+        }
+      ],
+      "listening": {
+        "en": "The scholarship panel liked Hana’s interview, but her missing reference letter might count against her.",
+        "zh": "獎學金評選小組欣賞阿花的面試表現，但她欠缺推薦信可能對她不利。",
+        "promptZh": "欠缺推薦信對阿花的申請可能有甚麼影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It could be viewed as a weakness in the evaluation.",
+            "zh": "評審時可能會視之為一項弱點。"
+          },
+          {
+            "id": "b",
+            "en": "It proves she has already been rejected.",
+            "zh": "這證明她已被拒絕。"
+          },
+          {
+            "id": "c",
+            "en": "It adds one extra letter to the panel’s count.",
+            "zh": "這令評選小組的字母計算多了一個。"
+          },
+          {
+            "id": "d",
+            "en": "It guarantees that her interview no longer matters.",
+            "zh": "這保證她的面試表現不再重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "might 表示可能成為評選時的不利因素；不等於已被拒絕，也沒有抹去良好的面試表現。"
+      },
+      "reply": {
+        "promptEn": "Why should I check my application before the deadline?",
+        "promptZh": "（我為何要在截止前檢查申請表？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can make sure every required page is there.",
+            "zh": "你可以確保所有必須提交的頁面都齊全。"
+          },
+          {
+            "id": "b",
+            "en": "It gives you time to fix a missing signature.",
+            "zh": "這讓你有時間補上遺漏的簽名。"
+          },
+          {
+            "id": "c",
+            "en": "You can ask someone to read it for clarity.",
+            "zh": "你可以請別人看看內容是否清楚。"
+          },
+          {
+            "id": "d",
+            "en": "Small omissions can count against you during selection.",
+            "zh": "甄選時，小小的遺漏也可能對你不利。"
+          }
+        ],
+        "goldenId": "d",
+        "explanationZh": "四個回答都合理說明截止前檢查的好處；金句指出遺漏可在甄選中成為不利因素。"
+      },
+      "scene": {
+        "promptZh": "合唱團遴選要求提交演出錄影。一位學生歌聲出色，卻沒有附上錄影。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The missing recording may count against her, even though she sings well.",
+            "zh": "雖然她唱得好，欠缺錄影仍可能對她不利。"
+          },
+          {
+            "id": "b",
+            "en": "Her good voice guarantees selection despite every missing item.",
+            "zh": "即使缺少任何資料，她的好歌聲也保證入選。"
+          },
+          {
+            "id": "c",
+            "en": "The selectors have already removed her without reviewing the application.",
+            "zh": "評審未看申請便已將她淘汰。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "欠缺要求的錄影可能是不利因素，但題目沒有說一定入選或已遭淘汰。"
+      },
+      "contrast": {
+        "promptZh": "以本課評估用法而言，哪個情況最不適合說 it counts against you？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A missing certificate makes an applicant less competitive.",
+            "zh": "欠缺證書令申請者競爭力下降。"
+          },
+          {
+            "id": "b",
+            "en": "A clear work sample strengthens an applicant’s case.",
+            "zh": "一份清晰的工作樣本令申請者更有優勢。"
+          },
+          {
+            "id": "c",
+            "en": "Repeated lateness lowers an applicant’s interview rating.",
+            "zh": "屢次遲到令申請者的面試評分下降。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "清晰的作品樣本是優點，不是對申請者不利的因素；證書欠缺和遲到則可能在評估中扣分。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我漏填一項義工經驗，應該不用理會吧？」哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It could count against you, so ask whether you can update the form before it closes.",
+            "zh": "這可能對你不利，所以問問截止前能否更新表格。"
+          },
+          {
+            "id": "b",
+            "en": "You have definitely lost the place already.",
+            "zh": "你肯定已失去這個名額。"
+          },
+          {
+            "id": "c",
+            "en": "Add an experience you never had to improve your chances.",
+            "zh": "加入一項你從未有過的經驗來增加機會。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "漏填資料可能削弱申請，應先查詢能否更正；不能斷言已落選，更不能虛報。"
+      },
+      "speaking": {
+        "en": "A missing portfolio may count against you when the interview panel compares applicants.",
+        "zh": "面試小組比較申請者時，欠缺作品集可能對你不利。",
+        "promptZh": "先聽示範，再說明欠缺作品集可能造成甚麼影響。",
+        "targetSpan": {
+          "start": 24,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你申請校內攝影隊，要求交三張作品，你只交了兩張，但仍可在截止前補交。用一至兩句英文說明可能的影響和下一步。",
+        "selfCheckZh": "說明少交一張作品可能是評選時的不利因素，並提出截止前補交；不要斷言已經落選。",
+        "examples": [
+          {
+            "en": "Submitting only two photos could count against me. I will send the third one before the deadline.",
+            "zh": "只交兩張照片可能對我不利。我會在截止前補交第三張。"
+          },
+          {
+            "en": "The missing photo may count against me when the team compares applications, so I should upload it today.",
+            "zh": "攝影隊比較申請時，欠缺的照片可能對我不利，因此我今天應把它上載。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Submitting only two photos",
+            "zh": "只交兩張照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "the third one",
+            "zh": "第三張",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 76
+            }
+          },
+          {
+            "en": "before the deadline",
+            "zh": "截止前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 96
+            }
+          },
+          {
+            "en": "compares applications",
+            "zh": "比較申請",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 74
+            }
+          },
+          {
+            "en": "upload it today",
+            "zh": "今天把它上載",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A late application may count against you, even if your work is strong.",
+          "zh": "即使作品出色，遲交申請也可能對你不利。"
+        },
+        {
+          "en": "Her missing reference counted against her, but it did not end her chances.",
+          "zh": "欠缺推薦信對她不利，但並沒有令她完全失去機會。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

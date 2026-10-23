@@ -1,0 +1,89 @@
+{
+  "reviewType": "independent AI editorial follow-up",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftState": "unpublished",
+  "scope": "The original eight Books 10–16 drafts, checked against all 16 findings in independent-ai-review-first-eight.json after repair",
+  "result": {
+    "priorFindings": 16,
+    "resolvedOnFollowUp": 16,
+    "stillOpenFromPriorReview": 0,
+    "newBlockerFindings": 0,
+    "newMajorFindings": 0,
+    "newMinorFindings": 0
+  },
+  "perLesson": [
+    {
+      "lessonId": "advanced-native-2112",
+      "resolved": [
+        "The dialogue now states a posted no-speaker rule and classmates' objection, grounding the keyed reply.",
+        "The scene now asks only for the memorial hall's stance, and the explanation distinguishes an unsupported citywide ban.",
+        "The fourth valid reply now gives an explicit reason for calling before a fixed-time interview."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2113",
+      "resolved": [
+        "Fast-paced now modifies work or a shift rather than a physical desk or stall in the flagged sentences.",
+        "The busy-shift Chinese translation is now natural and faithful."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2115",
+      "resolved": [
+        "The suspicious document is now an unsigned refund form, with aligned choices and translations."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2117",
+      "resolved": [
+        "The first writing model now describes the female friend in third person and its Chinese translation agrees.",
+        "Scene and dialogue explanations now discuss the actual displayed alternatives."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2118",
+      "resolved": [
+        "The mural scene explicitly says lunch has begun after the planned finish time.",
+        "The dialogue explicitly says the chairs were due twenty minutes earlier, and its keyed reply evaluates rather than assumes an opening-time change."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2119",
+      "resolved": [
+        "The listening options now consistently use first person in English and Chinese, matching the first-person model; the question still makes clear that the speaker is being interpreted."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2120",
+      "resolved": [
+        "The writing and speaking examples now say poorly explained rather than unexplained, matching the repeated vague reasons in the task; the Chinese follows that distinction."
+      ],
+      "remainingFindings": []
+    },
+    {
+      "lessonId": "advanced-native-2123",
+      "resolved": [
+        "The dialogue supplies checked attendance and messages from the two remaining volunteers, yielding one defensible key.",
+        "Both writing examples now use only the given 'most arrived, two not yet' facts and the Chinese matches.",
+        "The workshop-arrival option has natural Traditional Chinese wording."
+      ],
+      "remainingFindings": []
+    }
+  ],
+  "mechanicalRecheck": [
+    "All eight repaired lessons still map to the same source rows and exact guide example sentences.",
+    "Every speaking target span contains the target and its cloze removes it; required target forms are present in listening, golden reply, writing examples and takeaways.",
+    "Every glossary row still matches its recorded answer character span and contains no target regex match."
+  ],
+  "limits": [
+    "This is AI peer review, not independent human English or Traditional Chinese approval or owner acceptance.",
+    "No audio listening, browser/device line-ending inspection, sound feedback, microphone check, live lesson check or release approval was performed."
+  ]
+}

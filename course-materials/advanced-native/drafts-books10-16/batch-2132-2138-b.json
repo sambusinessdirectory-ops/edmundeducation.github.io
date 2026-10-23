@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-author-b-2132-2138-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2132",
+      "number": 2132,
+      "inventoryId": "expr-2132",
+      "titleEn": "throw the whole performance out of rhythm",
+      "titleZh": "打亂整場演出的節奏",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|thrown|throwing) the whole performance out of rhythm\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Disrupt the flow and coordination of an entire performance.",
+        "meaningZh": "打亂整場演出的流程與配合。",
+        "grammar": "throw/threw the whole performance out of rhythm; usually a disruption is the subject.",
+        "register": "Vivid figurative English for a live show or coordinated presentation.",
+        "boundaryZh": "要有足以影響整場演出的中斷；單一小失誤若沒有影響整體，不宜誇大。",
+        "misconceptionZh": "不是只指音樂節拍錯了；也可指整體流程被打亂。",
+        "outcomeZh": "能說明突發事件如何破壞整場演出的流暢配合。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0021",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 3,
+          "book": 10,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 2, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "An unexpected interruption could throw the whole performance out of rhythm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throw the whole performance out of rhythm"
+        }
+      ],
+      "listening": {
+        "promptZh": "燈光突然改變，對演出造成甚麼影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It disrupted the performers' coordinated flow.",
+            "zh": "它打亂了表演者彼此配合的流程。"
+          },
+          {
+            "id": "b",
+            "en": "It improved the timing of every dance move.",
+            "zh": "它令每個舞步的時間更準確。"
+          },
+          {
+            "id": "c",
+            "en": "It meant only the lighting technician left early.",
+            "zh": "它只是表示燈光技術員提早離開。"
+          },
+          {
+            "id": "d",
+            "en": "It changed the song but did not affect the performance.",
+            "zh": "它換了歌曲，但沒有影響演出。"
+          }
+        ],
+        "explanationZh": "舞者本來熟悉舞步，卻因燈光變動而失去整體配合；並非演出更準確。",
+        "answerId": "a",
+        "en": "The dancers knew their steps, but a sudden lighting change threw the whole performance out of rhythm.",
+        "zh": "舞者熟悉舞步，但燈光突然改變，打亂了整場演出的節奏。"
+      },
+      "reply": {
+        "promptZh": "如果學校演出中途音樂突然停了，可能會怎樣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The dancers might pause until the sound returns.",
+            "zh": "舞者可能停下，等聲音恢復。"
+          },
+          {
+            "id": "b",
+            "en": "It could throw the whole performance out of rhythm.",
+            "zh": "這可能打亂整場演出的節奏。"
+          },
+          {
+            "id": "c",
+            "en": "The stage manager could cue the band to restart.",
+            "zh": "舞台監督可以提示樂隊重新開始。"
+          },
+          {
+            "id": "d",
+            "en": "Some performers might continue by counting the beats themselves.",
+            "zh": "有些表演者可能自己數拍子，繼續演出。"
+          }
+        ],
+        "explanationZh": "四個回應都合理；金句用本課表達說明對整場演出的影響。",
+        "goldenId": "b",
+        "promptEn": "What could happen if the music stops during the school show?"
+      },
+      "scene": {
+        "promptZh": "社區劇團演出時，舞台幕簾卡住，演員都要停下等候。哪句最能描述整體影響？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The delay threw the whole performance out of rhythm.",
+            "zh": "這次延誤打亂了整場演出的節奏。"
+          },
+          {
+            "id": "b",
+            "en": "The actors finished early without changing their cues.",
+            "zh": "演員沒有改變提示，並提早演完。"
+          },
+          {
+            "id": "c",
+            "en": "The audience left before the show began.",
+            "zh": "觀眾在演出開始前離開。"
+          }
+        ],
+        "explanationZh": "幕簾卡住令所有演員停下，足以影響整體流程；其他句子與情境不符。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『整場流程被打亂』的意思，哪種情況最不適合用這個表達？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The main microphone fails and every speaker has to stop.",
+            "zh": "主要麥克風故障，所有講者都要停下。"
+          },
+          {
+            "id": "b",
+            "en": "A child taps a steady beat alone while practising at home.",
+            "zh": "一個孩子在家獨自練習，穩定地打着拍子。"
+          },
+          {
+            "id": "c",
+            "en": "The curtain opens too early and all performers miss their cues.",
+            "zh": "幕簾太早打開，所有表演者都錯過提示。"
+          }
+        ],
+        "explanationZh": "孩子獨自打拍子沒有整場演出，更沒有被打亂；另外兩項都影響了共同演出的流程。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "舞台監督說：『麥克風壞了，下一段也開始不了。』導演怎樣回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That could throw the whole performance out of rhythm. Let’s pause, fix the microphone and give everyone a new cue.",
+            "zh": "那可能打亂整場演出的節奏。我們先暫停、修好麥克風，再給所有人新的提示。"
+          },
+          {
+            "id": "b",
+            "en": "Keep going and pretend the audience can hear every word.",
+            "zh": "繼續演出，假裝觀眾聽得到每一句話。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel every future show because one microphone failed.",
+            "zh": "因為一支麥克風故障，就取消日後所有演出。"
+          }
+        ],
+        "explanationZh": "麥克風故障可能打亂整場演出的節奏；先暫停並重新給提示是具體而適度的補救，忽略問題或取消所有演出都不合宜。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A last-minute change in the music could throw the whole performance out of rhythm.",
+        "zh": "音樂在最後一刻改變，可能打亂整場演出的節奏。",
+        "promptZh": "先聽示範，再說明最後一刻更改音樂可能帶來甚麼影響。",
+        "targetSpan": {
+          "start": 40,
+          "end": 81
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：慈善晚會的主持人擔心麥克風突然失靈，會令所有節目停頓。用一至兩句英文說明可能的影響及一個預防方法。",
+        "selfCheckZh": "指出故障可能打亂整場演出，並提出可行的音響備案；不要只說『會有問題』。",
+        "examples": [
+          {
+            "en": "A sudden microphone failure could throw the whole performance out of rhythm. We should test the sound before the show.",
+            "zh": "麥克風突然故障，可能打亂整場演出的節奏。我們應在演出前測試音響。"
+          },
+          {
+            "en": "If the sound cuts out, it may throw the whole performance out of rhythm, so the host should have a backup microphone ready.",
+            "zh": "如果音響中斷，可能打亂整場演出的節奏，所以主持人應準備好備用麥克風。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A sudden microphone failure",
+            "zh": "麥克風突然故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 27
+            }
+          },
+          {
+            "en": "test the sound",
+            "zh": "測試音響",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 101
+            }
+          },
+          {
+            "en": "before the show",
+            "zh": "演出前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 117
+            }
+          },
+          {
+            "en": "the sound cuts out",
+            "zh": "音響中斷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 21
+            }
+          },
+          {
+            "en": "a backup microphone",
+            "zh": "備用麥克風",
+            "exampleIndex": 1,
+            "span": {
+              "start": 97,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One missed cue can throw the whole performance out of rhythm if everyone depends on it.",
+          "zh": "如果所有人都依賴某個提示，錯過它便可能打亂整場演出的節奏。"
+        },
+        {
+          "en": "The team rehearsed a backup plan so a delay would not throw the whole performance out of rhythm.",
+          "zh": "團隊排練了備案，以免延誤打亂整場演出的節奏。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2133",
+      "number": 2133,
+      "inventoryId": "expr-2133",
+      "titleEn": "build a small buffer into",
+      "titleZh": "在計劃中預留一點餘裕",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:build|builds|built|building) a small buffer into\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Allow a little extra time or capacity within a plan.",
+        "meaningZh": "在計劃中預留一點額外時間或空間。",
+        "grammar": "build/built a small buffer into + schedule, plan or budget.",
+        "register": "Practical, natural planning language in work and daily life.",
+        "boundaryZh": "重點是事先預留餘裕，不是已經延誤後才追加時間。",
+        "misconceptionZh": "buffer 在這裏不是電腦緩衝，也不是可觸摸的墊子。",
+        "outcomeZh": "能為一個具體安排預先加入少量應變時間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0022",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 3,
+          "book": 10,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We should build a small buffer into the delivery schedule.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "build a small buffer into"
+        }
+      ],
+      "listening": {
+        "promptZh": "速遞員怎樣減少短暫延誤造成的風險？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He planned a little spare time in advance.",
+            "zh": "他事先預留了一點時間。"
+          },
+          {
+            "id": "b",
+            "en": "He promised that no delay could ever happen.",
+            "zh": "他保證絕不會有任何延誤。"
+          },
+          {
+            "id": "c",
+            "en": "He removed every delivery from the timetable.",
+            "zh": "他從時間表中刪除了所有送貨安排。"
+          },
+          {
+            "id": "d",
+            "en": "He waited until after the deadline to change the plan.",
+            "zh": "他等到限期過後才更改計劃。"
+          }
+        ],
+        "explanationZh": "短暫延誤不會造成逾期，是因為事先留有少量時間；並非保證完全沒有延誤。",
+        "answerId": "a",
+        "en": "The courier built a small buffer into the delivery timetable, so one short delay would not cause a missed deadline.",
+        "zh": "速遞員在送貨時間表中預留了一點餘裕，因此一次短暫延誤不至於令他錯過限期。"
+      },
+      "reply": {
+        "promptZh": "我們可以怎樣安排去博物館參加導賞團的路程？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We could check the route before leaving.",
+            "zh": "我們可以出發前查看路線。"
+          },
+          {
+            "id": "b",
+            "en": "We could take a bus that arrives earlier.",
+            "zh": "我們可以乘搭較早到達的巴士。"
+          },
+          {
+            "id": "c",
+            "en": "We should build a small buffer into the journey plan.",
+            "zh": "我們應在行程計劃中預留一點餘裕。"
+          },
+          {
+            "id": "d",
+            "en": "We could meet at the entrance before the tour starts.",
+            "zh": "我們可以在導賞團開始前於入口集合。"
+          }
+        ],
+        "explanationZh": "四個方法都可行；金句明確表達事先在行程中預留應變時間。",
+        "goldenId": "c",
+        "promptEn": "How could we plan our journey to the museum tour?"
+      },
+      "scene": {
+        "promptZh": "班級要由禮堂走到火車站，途中可能要等升降機。哪個安排最能減少遲到風險？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Build a small buffer into the departure schedule.",
+            "zh": "在出發時間表中預留一點餘裕。"
+          },
+          {
+            "id": "b",
+            "en": "Schedule arrival for the exact minute the train leaves.",
+            "zh": "安排在火車開出的同一分鐘抵達。"
+          },
+          {
+            "id": "c",
+            "en": "Decide when to leave only after the train has gone.",
+            "zh": "火車開走後才決定何時出發。"
+          }
+        ],
+        "explanationZh": "已知可能要等升降機，事先留時間最能應對；另外兩項反而提高錯過火車的風險。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『事先預留餘裕』的意思，哪句最不符合這個表達？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser adds fifteen spare minutes before the opening.",
+            "zh": "主辦者在開幕前加上十五分鐘備用時間。"
+          },
+          {
+            "id": "b",
+            "en": "The driver sets off early in case the roads are busy.",
+            "zh": "司機提早出發，以防道路繁忙。"
+          },
+          {
+            "id": "c",
+            "en": "The team schedules every task back to back with zero spare minutes.",
+            "zh": "團隊把每項工作排得緊接，完全沒有預留備用時間。"
+          }
+        ],
+        "explanationZh": "把每項工作排得緊接、完全不留備用時間，明確沒有事先預留餘裕；前兩項都提早安排了應變時間。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：『每次會議結束後，下一組已經在門口等了。』你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let’s build a small buffer into the meeting schedule so we have time to clear the room.",
+            "zh": "我們在會議時間表中預留一點餘裕，好讓大家有時間清理房間。"
+          },
+          {
+            "id": "b",
+            "en": "Let's book both groups for exactly the same time.",
+            "zh": "我們把兩組安排在完全相同的時間。"
+          },
+          {
+            "id": "c",
+            "en": "Let's ask the next group to leave whenever they arrive.",
+            "zh": "下一組一到達，我們就叫他們離開。"
+          }
+        ],
+        "explanationZh": "問題是兩場安排沒有交接時間，事先在會議時間表中預留餘裕能直接解決；其他回應只會造成衝突。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "We should build a small buffer into our journey plan in case the ferry is late.",
+        "zh": "我們應在行程計劃中預留一點餘裕，以防渡輪延誤。",
+        "promptZh": "先聽示範，再說明如何為可能延誤的渡輪預留時間。",
+        "targetSpan": {
+          "start": 10,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友要去參加社區工作坊，巴士班次不穩定。用一至兩句英文建議如何安排路程及原因。",
+        "selfCheckZh": "建議事先在行程中預留少量時間，並說明這如何應對巴士延誤。",
+        "examples": [
+          {
+            "en": "We should build a small buffer into the travel plan so we can handle a late bus.",
+            "zh": "我們應在行程計劃中預留一點餘裕，以應對巴士延誤。"
+          },
+          {
+            "en": "If the bus is unreliable, build a small buffer into your journey plan by leaving twenty minutes earlier.",
+            "zh": "如果巴士班次不穩定，就在行程計劃中預留一點餘裕，提早二十分鐘出發。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the travel plan",
+            "zh": "行程計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 51
+            }
+          },
+          {
+            "en": "handle a late bus",
+            "zh": "應對延誤的巴士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "the bus is unreliable",
+            "zh": "巴士班次不穩定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 24
+            }
+          },
+          {
+            "en": "your journey plan",
+            "zh": "你的行程計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 69
+            }
+          },
+          {
+            "en": "twenty minutes earlier",
+            "zh": "提早二十分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 103
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Build a small buffer into the timetable before a delay occurs.",
+          "zh": "在延誤發生之前，先在時間表中預留一點餘裕。"
+        },
+        {
+          "en": "The club built a small buffer into its plan so volunteers had time to set up.",
+          "zh": "社團在計劃中預留了一點餘裕，讓義工有時間準備場地。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2134",
+      "number": 2134,
+      "inventoryId": "expr-2134",
+      "titleEn": "timing is too tight",
+      "titleZh": "時間安排太緊迫",
+      "category": "natural",
+      "target": {
+        "pattern": "\\btiming (?:is|was|seems|looks) too tight\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A schedule leaves too little spare time for likely delays or tasks.",
+        "meaningZh": "時間安排沒有足夠餘裕，稍有延誤便可能出問題。",
+        "grammar": "the/our/your timing is too tight; timing was too tight; often followed by if or for.",
+        "register": "Direct and natural in everyday planning conversations.",
+        "boundaryZh": "表示安排風險過高，不等於事情一定不可能完成。",
+        "misconceptionZh": "這裏的 tight 指時間不足，不是衣服或空間太窄。",
+        "outcomeZh": "能根據具體時間限制判斷是否需要提前或縮短安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0023",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 3,
+          "book": 10,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Our timing is too tight if we rely on the final train.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "timing is too tight"
+        }
+      ],
+      "listening": {
+        "promptZh": "為何說這個行程的時間安排太緊迫？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A small delay would make the connection fail.",
+            "zh": "只要稍有延誤，就趕不上接駁交通。"
+          },
+          {
+            "id": "b",
+            "en": "The ferry has already been cancelled.",
+            "zh": "渡輪已經取消。"
+          },
+          {
+            "id": "c",
+            "en": "They deliberately want to miss the ferry.",
+            "zh": "他們故意想錯過渡輪。"
+          },
+          {
+            "id": "d",
+            "en": "The bus journey is always exactly five minutes long.",
+            "zh": "巴士車程總是剛好五分鐘。"
+          }
+        ],
+        "explanationZh": "巴士只要晚到五分鐘便趕不上渡輪，顯示沒有足夠應變時間；並非渡輪已取消。",
+        "answerId": "a",
+        "en": "Our timing is too tight: if the bus is five minutes late, we will miss the ferry.",
+        "zh": "我們的時間安排太緊迫：如果巴士晚到五分鐘，我們就會錯過渡輪。"
+      },
+      "reply": {
+        "promptZh": "為何我們最好乘搭較早一班巴士去看演唱會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The earlier bus gives us time to find the entrance.",
+            "zh": "較早的巴士讓我們有時間找到入口。"
+          },
+          {
+            "id": "b",
+            "en": "There may be traffic near the venue.",
+            "zh": "場地附近可能塞車。"
+          },
+          {
+            "id": "c",
+            "en": "Our timing is too tight if we take the last bus.",
+            "zh": "如果我們乘最後一班巴士，時間安排便太緊迫。"
+          },
+          {
+            "id": "d",
+            "en": "I would rather arrive early and relax.",
+            "zh": "我寧願早點到達，輕鬆一下。"
+          }
+        ],
+        "explanationZh": "四個理由都合理；金句指出末班巴士令行程欠缺時間餘裕。",
+        "goldenId": "c",
+        "promptEn": "Why should we take an earlier bus to the concert?"
+      },
+      "scene": {
+        "promptZh": "同學要在下午三時交作業，但打算二時五十分才開始列印，而打印機偶爾會卡紙。哪句最準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their timing is too tight because one jam could make them late.",
+            "zh": "他們的時間安排太緊迫，卡紙一次便可能遲交。"
+          },
+          {
+            "id": "b",
+            "en": "They have plenty of time even if the printer stops for an hour.",
+            "zh": "即使打印機停用一小時，他們仍有充裕時間。"
+          },
+          {
+            "id": "c",
+            "en": "The assignment was due yesterday, not today.",
+            "zh": "作業的限期是昨天，而不是今天。"
+          }
+        ],
+        "explanationZh": "限期前只剩十分鐘，而設備有已知風險，正是時間安排過緊；其他選項與事實不符。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『缺少應變時間』的意思，哪個情況最不適合說 timing is too tight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "There are only two minutes between trains at different platforms.",
+            "zh": "不同月台的兩班車之間只有兩分鐘。"
+          },
+          {
+            "id": "b",
+            "en": "The team has three free hours for a ten-minute walk.",
+            "zh": "團隊有三小時空檔，卻只需步行十分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "A meeting ends at four and the next begins at four in another building.",
+            "zh": "一場會議四時結束，另一場同時在另一棟樓開始。"
+          }
+        ],
+        "explanationZh": "三小時處理十分鐘的路程，時間充裕；其餘情況都幾乎沒有移動或延誤餘裕。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『我們在五點結束排練，五點又要到另一區演出。』你怎樣回應最有幫助？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Our timing is too tight because that leaves no travel time. Could we finish earlier or move the show?",
+            "zh": "我們的時間安排太緊迫，因為沒有留下交通時間。我們可否提早結束，或把演出改期？"
+          },
+          {
+            "id": "b",
+            "en": "Let's assume we can travel instantly.",
+            "zh": "我們就假設自己可以瞬間到達吧。"
+          },
+          {
+            "id": "c",
+            "en": "We should skip the rehearsal without telling anyone.",
+            "zh": "我們應不通知任何人，就不去排練。"
+          }
+        ],
+        "explanationZh": "兩個地方之間需要交通時間，因此應承認時間安排太緊迫並調整其中一個活動；其他回應沒有正面處理問題。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "Our timing is too tight if we leave only ten minutes to change trains.",
+        "zh": "如果我們只留十分鐘轉車，時間安排就太緊迫。",
+        "promptZh": "先聽示範，再說明十分鐘轉車時間為何可能不夠。",
+        "targetSpan": {
+          "start": 4,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社團要在一小時內安排四位講者發言及觀眾提問，每位講者預計講二十分鐘。用一至兩句英文指出時間問題及可行調整。",
+        "selfCheckZh": "四段二十分鐘發言已超過一小時；指出安排太緊迫，並提出縮短發言或減少講者等調整。",
+        "examples": [
+          {
+            "en": "Our timing is too tight if each speaker takes twenty minutes. Let's shorten the talks.",
+            "zh": "如果每位講者都講二十分鐘，我們的時間安排便太緊迫。讓我們縮短發言吧。"
+          },
+          {
+            "en": "The timing is too tight, so each speaker should talk for ten minutes and allow questions at the end.",
+            "zh": "時間安排太緊迫，所以每位講者應發言十分鐘，並在最後留時間讓觀眾提問。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "each speaker",
+            "zh": "每位講者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 39
+            }
+          },
+          {
+            "en": "twenty minutes",
+            "zh": "二十分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 60
+            }
+          },
+          {
+            "en": "shorten the talks",
+            "zh": "縮短發言",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 85
+            }
+          },
+          {
+            "en": "talk for ten minutes",
+            "zh": "發言十分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 68
+            }
+          },
+          {
+            "en": "allow questions",
+            "zh": "讓觀眾提問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The timing is too tight if a short delay will make everyone miss the start.",
+          "zh": "如果短暫延誤就會令所有人錯過開場，時間安排便太緊迫。"
+        },
+        {
+          "en": "Our timing was too tight, so we moved the meeting half an hour earlier.",
+          "zh": "我們原本的時間安排太緊迫，因此把會議提早半小時。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2136",
+      "number": 2136,
+      "inventoryId": "expr-2136",
+      "titleEn": "leaving room for real life",
+      "titleZh": "為現實生活留有餘地",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:leave|leaves|left|leaving) room for real life\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make a plan flexible enough for ordinary unexpected needs and changes.",
+        "meaningZh": "訂計劃時保留彈性，容納日常生活中的變化與突發需要。",
+        "grammar": "leave/leaves/left room for real life; leaving room for real life after a main clause.",
+        "register": "Warm, conversational metaphor for practical planning.",
+        "boundaryZh": "是有意保留彈性，不是完全不設計劃，也不保證所有變化都能應付。",
+        "misconceptionZh": "room 指抽象餘地，不是要騰出一間實體房間。",
+        "outcomeZh": "能在計劃中考慮工作、家庭和其他日常變化。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0025",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 3,
+          "book": 10,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good plans succeed by leaving room for real life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "leaving room for real life"
+        }
+      ],
+      "listening": {
+        "promptZh": "Nora 為何空出星期五晚上？",
+        "options": [
+          {
+            "id": "a",
+            "en": "To keep her plan flexible if ordinary plans change.",
+            "zh": "讓日常安排有變時，溫習計劃仍有彈性。"
+          },
+          {
+            "id": "b",
+            "en": "To avoid studying for the entire week.",
+            "zh": "為了整個星期都不用溫習。"
+          },
+          {
+            "id": "c",
+            "en": "To make a physical room available for guests.",
+            "zh": "為了騰出一間實體房間接待客人。"
+          },
+          {
+            "id": "d",
+            "en": "To guarantee that no family plans will change.",
+            "zh": "為了保證家庭安排不會改變。"
+          }
+        ],
+        "explanationZh": "空出一個晚上是為日常變化保留彈性；並非放棄整週溫習或騰出房間。",
+        "answerId": "a",
+        "en": "Nora kept Friday evening free in her study plan, leaving room for real life when family plans changed.",
+        "zh": "Nora 在溫習計劃中空出星期五晚上，為家庭安排可能改變這類生活變化留下餘地。"
+      },
+      "reply": {
+        "promptZh": "工作時間有時會改變，你會怎樣安排每週運動？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I would keep one day free in case my shift changes.",
+            "zh": "我會空出一天，以防工作班次有變。"
+          },
+          {
+            "id": "b",
+            "en": "I would choose shorter sessions when a workday runs late.",
+            "zh": "工作日若延長，我會改做較短的運動。"
+          },
+          {
+            "id": "c",
+            "en": "I would leave room for real life rather than fill every hour.",
+            "zh": "我會為現實生活留有餘地，而不是填滿每個小時。"
+          },
+          {
+            "id": "d",
+            "en": "I would plan with a friend so we could swap days.",
+            "zh": "我會和朋友一起計劃，方便交換運動日子。"
+          }
+        ],
+        "explanationZh": "四個安排都可行；金句概括計劃需要容納真實生活的變化。",
+        "goldenId": "c",
+        "promptEn": "How would you plan weekly exercise when work hours can change?"
+      },
+      "scene": {
+        "promptZh": "朋友為每晚都排滿補習和功課，卻常要照顧弟妹。哪種建議最符合這個表達？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Leave room for real life by keeping one evening flexible.",
+            "zh": "空出一個晚上保持彈性，為現實生活留有餘地。"
+          },
+          {
+            "id": "b",
+            "en": "Add more lessons to every evening regardless of family duties.",
+            "zh": "不管照顧家人的需要，每晚再加更多課。"
+          },
+          {
+            "id": "c",
+            "en": "Stop making any plans at all for the whole term.",
+            "zh": "整個學期都完全不要訂任何計劃。"
+          }
+        ],
+        "explanationZh": "照顧弟妹是可預期的日常責任，留一晚彈性最貼切；填滿或完全放棄計劃都是極端。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『有計劃地保留彈性』的意思，哪個做法最不符合 leaving room for real life？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping a free afternoon in case a parent needs help.",
+            "zh": "空出一個下午，以防家長需要幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "Planning no activities and ignoring every appointment.",
+            "zh": "完全不安排活動，並忽略每項約定。"
+          },
+          {
+            "id": "c",
+            "en": "Allowing extra time because a child may need a break.",
+            "zh": "預留額外時間，因為孩子可能需要休息。"
+          }
+        ],
+        "explanationZh": "完全不作安排並無視約定，不是訂計劃時保留彈性；另外兩項仍有明確計劃。",
+        "answerId": "b"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『我的讀書時間表排得滿滿的，一件家事就會令整週計劃失敗。』你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let’s leave room for real life by keeping a spare study slot so one change does not ruin the week.",
+            "zh": "我們留一個備用溫習時段，為現實生活留有餘地，以免一次變動打亂整週安排。"
+          },
+          {
+            "id": "b",
+            "en": "You should ignore your family whenever the timetable says study.",
+            "zh": "只要時間表寫着溫習，你就應忽略家人。"
+          },
+          {
+            "id": "c",
+            "en": "A good plan can never change for any reason.",
+            "zh": "好計劃無論如何都不能改變。"
+          }
+        ],
+        "explanationZh": "備用溫習時段讓既有計劃為現實生活留有餘地；其他說法否定合理的家庭需要。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "A flexible weekly plan leaves room for real life when something unexpected comes up.",
+        "zh": "有彈性的每週計劃，能在突發事情出現時為現實生活留有餘地。",
+        "promptZh": "先聽示範，再說明每週計劃如何容納突發事情。",
+        "targetSpan": {
+          "start": 23,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友訂立每週運動計劃，但工作班次有時會臨時延長。用一至兩句英文說明如何安排運動及保留彈性。",
+        "selfCheckZh": "要有可行的運動安排，也要說明工作延長時如何調整；不要把彈性誤解成完全不運動。",
+        "examples": [
+          {
+            "en": "Leave room for real life in the exercise plan; an extended shift may mean a shorter workout.",
+            "zh": "在運動計劃中為現實生活留有餘地；工作班次延長時，運動時間可以縮短。"
+          },
+          {
+            "en": "Our weekly plan leaves room for real life, so we can move a session when work runs late.",
+            "zh": "我們的每週計劃為現實生活留有餘地，所以工作延長時可以改動一次運動時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the exercise plan",
+            "zh": "運動計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 45
+            }
+          },
+          {
+            "en": "an extended shift",
+            "zh": "延長的工作班次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 64
+            }
+          },
+          {
+            "en": "a shorter workout",
+            "zh": "較短的運動時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 91
+            }
+          },
+          {
+            "en": "weekly plan",
+            "zh": "每週計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 15
+            }
+          },
+          {
+            "en": "move a session",
+            "zh": "改動一次運動時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 67
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Leave room for real life when you plan a busy week.",
+          "zh": "安排忙碌的一週時，要為現實生活留有餘地。"
+        },
+        {
+          "en": "Their timetable left room for real life, so a family errand did not end the project.",
+          "zh": "他們的時間表為現實生活留有餘地，因此一件家庭雜務沒有令計劃告吹。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2138",
+      "number": 2138,
+      "inventoryId": "expr-2138",
+      "titleEn": "a ten-minute cushion",
+      "titleZh": "十分鐘的緩衝時間",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) ten[- ]minute cushion\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A reserve of ten extra minutes between planned events to absorb minor delays.",
+        "meaningZh": "在安排之間多留十分鐘，以應付輕微延誤。",
+        "grammar": "a/the ten-minute cushion; add or leave a ten-minute cushion between events.",
+        "register": "Natural planning metaphor; the amount is literal, cushion is figurative.",
+        "boundaryZh": "只可吸收小幅延誤，不能保證任何延誤都不影響行程。",
+        "misconceptionZh": "不是實際的坐墊，也不是把活動硬生生延長十分鐘。",
+        "outcomeZh": "能在兩項安排之間提出具體的十分鐘備用時間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0027",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 3,
+          "book": 10,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 3, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "We added a ten-minute cushion between the two appointments.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a ten-minute cushion"
+        }
+      ],
+      "listening": {
+        "promptZh": "面試前多留十分鐘有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It provides a little spare time for a minor delay.",
+            "zh": "它提供少量備用時間，以應付輕微延誤。"
+          },
+          {
+            "id": "b",
+            "en": "It means the interview must last ten minutes.",
+            "zh": "它表示面試必須進行十分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "It requires the lift to move ten minutes faster.",
+            "zh": "它要求升降機快十分鐘。"
+          },
+          {
+            "id": "d",
+            "en": "It is a seat cushion for the waiting room.",
+            "zh": "它是候等室裏的坐墊。"
+          }
+        ],
+        "explanationZh": "在升降機稍有延誤時，事先多留的十分鐘可減低遲到風險；這不是坐墊，也不能保證應付所有延誤。",
+        "answerId": "a",
+        "en": "We left a ten-minute cushion before the interview, so a brief delay at the lift was less likely to make us late.",
+        "zh": "我們在面試前預留了十分鐘緩衝時間，因此在升降機稍等一會，也較不容易遲到。"
+      },
+      "reply": {
+        "promptZh": "怎樣安排路程，才較有把握準時到達演唱會？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let's check where the entrance is before we leave.",
+            "zh": "我們出發前先查看入口在哪裏。"
+          },
+          {
+            "id": "b",
+            "en": "Let's take an earlier train if one is available.",
+            "zh": "如果有較早的火車，我們就乘搭它。"
+          },
+          {
+            "id": "c",
+            "en": "Let's add a ten-minute cushion before the doors open.",
+            "zh": "我們在開門前預留十分鐘緩衝時間。"
+          },
+          {
+            "id": "d",
+            "en": "Let's agree on a meeting point near the venue.",
+            "zh": "我們約好在場地附近的集合點見面。"
+          }
+        ],
+        "explanationZh": "四項都是合理安排；金句具體提出多留十分鐘備用時間。",
+        "goldenId": "c",
+        "promptEn": "How can we improve our chance of reaching the concert on time?"
+      },
+      "scene": {
+        "promptZh": "兩場義工登記活動原定一場十點結束，下一場十點立刻開始，兩場之間需要清理同一張登記桌。哪個安排最適合？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Add a ten-minute cushion between the two sessions to clear and reset the desk.",
+            "zh": "在兩場活動之間預留十分鐘緩衝時間，以清理及重新整理桌子。"
+          },
+          {
+            "id": "b",
+            "en": "Ask both groups to use the desk at exactly ten with no time to reset it.",
+            "zh": "要求兩組在十點同時使用桌子，完全不留整理時間。"
+          },
+          {
+            "id": "c",
+            "en": "Cancel the second shift even though it is needed.",
+            "zh": "雖然需要第二班，仍把它取消。"
+          }
+        ],
+        "explanationZh": "同一張登記桌需要清理，在兩場活動之間預留十分鐘能處理這項工作和小幅延誤；另外兩項沒有合理的場地交接。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "按本課『備用時間』的意思，哪個情況最不適合說 a ten-minute cushion？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group leaves ten spare minutes before boarding.",
+            "zh": "團隊在登船前多留十分鐘。"
+          },
+          {
+            "id": "b",
+            "en": "The schedule leaves ten minutes between two workshops.",
+            "zh": "時間表在兩場工作坊之間留十分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "The shop places a soft cushion on a chair for customers.",
+            "zh": "商店在椅子上放一個軟墊給顧客。"
+          }
+        ],
+        "explanationZh": "椅上的軟墊是實物，沒有指額外時間；前兩項都在安排中預留了十分鐘。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "同事說：『首場課程稍微延遲，下一組便無法準時入場。』你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let’s leave a ten-minute cushion between groups to reset the room.",
+            "zh": "我們在兩組之間預留十分鐘緩衝時間，重新整理房間。"
+          },
+          {
+            "id": "b",
+            "en": "Let's schedule the next group even earlier.",
+            "zh": "我們把下一組安排得更早。"
+          },
+          {
+            "id": "c",
+            "en": "Let's tell the next group that no delays will ever happen.",
+            "zh": "我們告訴下一組，以後絕不會有延誤。"
+          }
+        ],
+        "explanationZh": "問題是兩組之間沒有整理時間，預留十分鐘緩衝時間可重新準備場地；提早安排或保證零延誤都不切實際。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "I added a ten-minute cushion between the appointment and the train.",
+        "zh": "我在約見和乘火車之間預留了十分鐘緩衝時間。",
+        "promptZh": "先聽示範，再說明如何在約見與火車之間預留時間。",
+        "targetSpan": {
+          "start": 8,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你安排兩場社區烹飪班，首場有時會稍遲結束，下一組又需要用同一批桌子。用一至兩句英文建議如何調整時間表及原因。",
+        "selfCheckZh": "提出在兩場課之間預留十分鐘，並說明這段時間可用於清理或準備。",
+        "examples": [
+          {
+            "en": "Add a ten-minute cushion between classes so we can clear the tables.",
+            "zh": "在兩場課之間預留十分鐘緩衝時間，好讓我們清理桌子。"
+          },
+          {
+            "en": "We should leave a ten-minute cushion after the first session to prepare for the next group.",
+            "zh": "我們應在首場課之後預留十分鐘緩衝時間，為下一組作準備。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "between classes",
+            "zh": "兩場課之間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 40
+            }
+          },
+          {
+            "en": "clear the tables",
+            "zh": "清理桌子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 67
+            }
+          },
+          {
+            "en": "after the first session",
+            "zh": "首場課之後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 60
+            }
+          },
+          {
+            "en": "prepare for",
+            "zh": "為……作準備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 75
+            }
+          },
+          {
+            "en": "the next group",
+            "zh": "下一組",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A ten-minute cushion between activities can absorb a short delay.",
+          "zh": "活動之間有十分鐘緩衝時間，可以應付短暫延誤。"
+        },
+        {
+          "en": "We left a ten-minute cushion before the tour so everyone could find the entrance.",
+          "zh": "我們在導賞團開始前預留了十分鐘緩衝時間，好讓大家找到入口。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
