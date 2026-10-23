@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-fast-paced-general-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2113",
+      "number": 2113,
+      "inventoryId": "expr-2113",
+      "titleEn": "fast-paced",
+      "titleZh": "節奏迅速",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bfast-paced\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Moving or changing quickly, with little time between activities.",
+        "meaningZh": "活動或變化接連發生，節奏很快。",
+        "grammar": "fast-paced is a hyphenated adjective before a noun or after be/get; fast-paced environment, a fast-paced shift.",
+        "register": "Natural neutral description of pace; it can describe a workplace, event or other activity, not only a video.",
+        "boundaryZh": "節奏快不一定代表工時長、品質好或每個人都喜歡；舊課 fast-paced video 只處理影片語境。",
+        "misconceptionZh": "不要把 fast-paced 誤當成單純「時間很短」，它重點是活動接續得快。",
+        "outcomeZh": "能用 fast-paced 描述新場景的快速節奏，並與工作時間長短分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0002",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 1,
+          "book": 10,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 1, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She enjoys the fast-paced atmosphere of the newsroom.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fast-paced"
+        },
+        {
+          "occurrenceId": "book10-16-0017",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 2,
+          "book": 10,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 2, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She enjoys the fast-paced atmosphere of the newsroom.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fast-paced"
+        }
+      ],
+      "listening": {
+        "en": "The community kitchen is fast-paced at lunchtime, with orders arriving every few minutes.",
+        "zh": "午飯時間，社區廚房節奏很快，每隔幾分鐘就有新訂單。",
+        "promptZh": "午飯時間的廚房有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "New tasks arrive quickly, one after another.",
+            "zh": "新工作接二連三迅速出現。"
+          },
+          {
+            "id": "b",
+            "en": "The kitchen opens for only a few minutes each day.",
+            "zh": "廚房每天只開放幾分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "Every order takes a long time because the staff move slowly.",
+            "zh": "由於員工動作緩慢，每張訂單都需要很長時間。"
+          },
+          {
+            "id": "d",
+            "en": "The kitchen serves no customers at lunchtime.",
+            "zh": "廚房在午飯時間不接待顧客。"
+          }
+        ],
+        "explanationZh": "fast-paced 指工作節奏快；訂單每隔幾分鐘就來，不表示整天只開放數分鐘。",
+        "answerId": "a"
+      },
+      "reply": {
+        "promptZh": "朋友問：在緊急求助電話中心工作是甚麼感覺？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Calls often come in quickly, so I have to stay alert.",
+            "zh": "電話常常迅速接踵而來，所以我必須保持警覺。"
+          },
+          {
+            "id": "b",
+            "en": "It is fast-paced, and I need to respond promptly to each caller.",
+            "zh": "那裏節奏很快，我要迅速回應每名來電者。"
+          },
+          {
+            "id": "c",
+            "en": "There is little time between calls during a busy shift.",
+            "zh": "繁忙的一更中，電話之間幾乎沒有空檔。"
+          },
+          {
+            "id": "d",
+            "en": "I need to make decisions quickly when several calls arrive.",
+            "zh": "數通電話同時打來時，我必須迅速作決定。"
+          }
+        ],
+        "explanationZh": "四句都自然描述急速的工作節奏；金句用 fast-paced 概括這種節奏。",
+        "goldenId": "b",
+        "promptEn": "What is working at the emergency call centre like?"
+      },
+      "scene": {
+        "promptZh": "學校展覽的入口每分鐘都有新訪客，接待員要迅速回答問題並引導人流。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The entrance desk is fast-paced during the exhibition.",
+            "zh": "展覽期間，入口接待處的節奏很快。"
+          },
+          {
+            "id": "b",
+            "en": "The entrance desk is quiet, with long gaps between visitors.",
+            "zh": "入口接待處很安靜，訪客之間有很長的空檔。"
+          },
+          {
+            "id": "c",
+            "en": "The entrance desk stays open late, but visitors arrive slowly.",
+            "zh": "入口接待處開到很晚，但訪客來得很慢。"
+          }
+        ],
+        "explanationZh": "每分鐘有新訪客，還要即時回答及引導，說明工作節奏快；開到很晚不等於節奏快。",
+        "answerId": "a"
+      },
+      "contrast": {
+        "promptZh": "本課的 fast-paced 強調活動接續得快。哪個情況最不適合用它描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A café receives new orders every minute at breakfast.",
+            "zh": "早餐時，咖啡店每分鐘都有新訂單。"
+          },
+          {
+            "id": "b",
+            "en": "A debate requires speakers to respond within seconds.",
+            "zh": "辯論要求講者在數秒內回應。"
+          },
+          {
+            "id": "c",
+            "en": "A museum guide leads one slow tour each afternoon.",
+            "zh": "博物館導賞員每天下午只帶領一次緩慢的導賞。"
+          }
+        ],
+        "explanationZh": "每天只帶領一次緩慢導賞，沒有活動快速接續的證據。",
+        "answerId": "c"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：『放學後書攤的顧客一個接一個，我快忙不過來。』哪個回應最合宜？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds fast-paced. Let's divide the jobs so someone can handle the queue.",
+            "zh": "聽起來節奏很快。我們分工，安排一人處理隊伍吧。"
+          },
+          {
+            "id": "b",
+            "en": "If the stall is busy, it must stay open all night.",
+            "zh": "如果攤位繁忙，就一定要通宵營業。"
+          },
+          {
+            "id": "c",
+            "en": "The queue proves every customer bought the same book.",
+            "zh": "排隊證明每名顧客都買了同一本書。"
+          }
+        ],
+        "explanationZh": "對方描述顧客接連到來；回應點出快速節奏，並提出合理分工。",
+        "answerId": "a"
+      },
+      "speaking": {
+        "en": "The festival kitchen is fast-paced during the lunch rush.",
+        "zh": "午飯繁忙時段，節慶廚房的節奏很快。",
+        "promptZh": "先聽完整示範，再說出午飯繁忙時段的工作節奏。",
+        "targetSpan": {
+          "start": 24,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校慈善書攤在放學後顧客接連到來。用一至兩句英文向新義工描述攤位的節奏，並建議如何分工。",
+        "selfCheckZh": "指出工作接連而來、節奏迅速，並提出具體分工；不要只說營業時間很長。",
+        "examples": [
+          {
+            "en": "The charity book stall is fast-paced when customers arrive one after another. We should assign clear roles.",
+            "zh": "顧客接連到來時，慈善書攤的節奏很快。我們應清楚分配工作。"
+          },
+          {
+            "en": "Our stall gets fast-paced after school, so we take turns serving customers and restocking books.",
+            "zh": "放學後，我們的攤位變得繁忙而節奏迅速，因此我們輪流接待顧客和補充書本。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "charity book stall",
+            "zh": "慈善書攤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 22
+            }
+          },
+          {
+            "en": "customers arrive one after another",
+            "zh": "顧客接連到來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 76
+            }
+          },
+          {
+            "en": "assign clear roles",
+            "zh": "清楚分配工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 106
+            }
+          },
+          {
+            "en": "take turns serving customers",
+            "zh": "輪流接待顧客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 74
+            }
+          },
+          {
+            "en": "restocking books",
+            "zh": "補充書本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 95
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The ticket desk is fast-paced when several groups arrive together.",
+          "zh": "幾組人同時到達時，售票處的節奏很快。"
+        },
+        {
+          "en": "A fast-paced shift can be easier when everyone knows their role.",
+          "zh": "每個人都清楚自己的職責時，節奏迅速的一更可以更易應付。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored first pass; independent editorial and release checks have not occurred.",
+          "General adjective sense distinguished from existing advanced-native-153 fast-paced video lesson."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}
