@@ -211,3 +211,7 @@ Reproduce game rules: `node --test tools/test-idiom-adventure.mjs`. Reproduce br
 Live verification: release commit `cb71c3dfc3a1a85c99fc14f2040806298a6068c5`; GitHub Pages run `39990176702` completed successfully. At 2026-10-24 00:55:56 HKT, the public HTML referenced the new dashboard and versioned entry point. SHA-256 comparisons matched all five deployed files (runtime, adventure UI, rules, art, CSS) to the tested checkout. Evidence: `docs/idiom-isles-live-verification-2026-10-24.json`. Existing item-level editorial findings, repeated-rationale findings and incomplete twelve-axis reviews remain open; this interaction release does not certify those content findings as resolved.
 
 Keyboard follow-up: returning focus must wait for the asynchronous dashboard refresh. The browser fixture now verifies focus returns to the expedition action after Escape; wrong-answer, support and sound interactions also preserve a useful focus target. Full browser fixture passed after this correction.
+
+## 2026-10-24 — Idiom Isles withdrawn at owner request
+
+The owner rejected the adventure interface and requested its removal. Restored the pre-adventure idiom HTML/runtime, removed all six adventure implementation/test files and its CI test reference, and versioned the restored runtime to bypass cached game code. The 138 lessons, Chinese-first guides, original question IDs, existing practice, account progress and earlier editorial findings are unchanged. The preceding release record is historical, not the current interface.

@@ -392,7 +392,7 @@ jobs:
           node --check idiom-compass-06-30-curation.js
           node --check idiom-compass-06-30-bonus.js
           node tools/test-idiom-system-runtime.mjs
-          node --test tools/test-idiom-system.mjs tools/test-idiom-paper.mjs tools/test-idiom-adventure.mjs
+          node --test tools/test-idiom-system.mjs tools/test-idiom-paper.mjs
           node tools/test-mobile-exercise-actions.mjs
           npm test --prefix workers/idiom-system
 
