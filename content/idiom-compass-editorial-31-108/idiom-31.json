@@ -1,0 +1,140 @@
+{
+  "lessonId": "idiom-31",
+  "status": "EDITORIAL_DRAFT_NOT_LIVE",
+  "sourcePdf": "Idiom 31 -“Fight Like Cat and Dog”.pdf",
+  "sourcePdfSha256": "1fd932a26a41cd975b365fe4e1a190d6fa7372b1fadd193bd755572fbad40b8d",
+  "usageReference": "https://dictionary.cambridge.org/dictionary/english/fight-like-cat-and-dog",
+  "targetFormPattern": "\\b(?:fight|fights|fought|fighting) like cat and dog\\b",
+  "decision": "The British form fight like cat and dog and the American form fight like cats and dogs are both valid. The lesson may focus on the owner's British form, but no item may mark the American form wrong solely because it is American.",
+  "guide": {
+    "meaningEn": "To have frequent angry arguments with another person.",
+    "meaningZh": "形容兩人經常激烈爭吵。",
+    "modelEn": "The two stage managers fight like cat and dog whenever they plan the rehearsal schedule.",
+    "modelZh": "兩名舞台經理每次編排排練時間，都會激烈爭吵。",
+    "pictureEn": "Imagine two animals bristling at each other: the image helps you remember a repeated angry clash between people.",
+    "pictureZh": "想像兩隻動物一見面便互相怒視；這個畫面幫你記住人與人之間反覆的激烈爭吵。",
+    "boundaryEn": "A single calm difference of opinion does not establish a pattern of angry conflict.",
+    "boundaryZh": "一次平靜的意見分歧，不足以說明兩人經常激烈爭吵。",
+    "whereEn": "Personal accounts and informal discussions of family, teams or working relationships.",
+    "whereZh": "適合描述家庭、團隊或工作關係的個人經歷及非正式談話。",
+    "toneEn": "Informal and vivid; it can sound judgemental when said directly to the people involved.",
+    "toneZh": "語氣生動而較口語；直接對當事人說，可能顯得帶批評意味。",
+    "formalEn": "For a neutral report, describe the repeated arguments and their effect directly.",
+    "formalZh": "正式而中性的紀錄宜直接交代爭執出現的次數及影響。",
+    "fixed": "like cat and dog (UK); like cats and dogs (US)",
+    "movingEn": "Change fight for person and tense: fight, fights, fought or fighting. Keep the chosen regional form intact.",
+    "movingZh": "按主語及時態改變 fight：fight、fights、fought 或 fighting；英式與美式形式各自保持完整。",
+    "forms": [
+      "They fight like cat and dog. (UK)",
+      "She fights like cat and dog with her colleague. (UK)",
+      "They fought like cat and dog for years. (UK)",
+      "They fight like cats and dogs. (US)"
+    ],
+    "choices": {
+      "2": {
+        "job": "Identify a repeated angry interpersonal pattern, not ordinary disagreement.",
+        "promptEn": "Three pairs help at a community garden. Which pair could fairly be described with this idiom?",
+        "promptZh": "三對拍檔在社區花園幫忙。哪一對適合用這個慣用語形容？",
+        "optionsEn": [
+          "Maya and Jo calmly disagree once about where to put the seed trays.",
+          "Maya and Jo shout at each other over planting decisions every weekend.",
+          "Maya and Jo enjoy teasing each other while they work together."
+        ],
+        "options": [
+          "兩人只是平靜地意見不合一次，未見反覆或激烈爭吵。",
+          "兩人每週都為種植決定互相叫罵，符合反覆激烈爭吵的意思。",
+          "互相開玩笑而合作愉快，不等於真正吵個不停。"
+        ],
+        "correct": 1,
+        "feedbackEn": "The weekly shouting establishes a repeated angry pattern between two people.",
+        "feedback": "每週互相叫罵，才有根據說兩人經常激烈爭吵。"
+      },
+      "3": {
+        "job": "Choose neutral wording for a formal workplace account instead of making a vivid interpersonal label sound official.",
+        "promptEn": "A manager needs a neutral written account of repeated disputes between two staff members. Which sentence suits the report?",
+        "promptZh": "經理要以中性措辭記錄兩名員工反覆發生的爭執。哪一句適合寫進報告？",
+        "optionsEn": [
+          "The staff members fight like cat and dog over shift changes.",
+          "The staff members have had heated arguments, so both deserve formal warnings.",
+          "The two staff members have had several heated arguments about shift changes."
+        ],
+        "options": [
+          "這個說法較口語，直接寫進中性工作報告，可能顯得帶批評意味。",
+          "爭執確有發生，但題目沒有證據支持兩人都應受到正式警告。",
+          "直接寫出反覆爭執及具體原因，語氣較中性，適合報告。"
+        ],
+        "correct": 2,
+        "feedbackEn": "The factual wording records the pattern without turning an informal idiom into an official judgement.",
+        "feedback": "報告直接記錄爭執的次數與原因，比帶批評意味的口語比喻更恰當。"
+      },
+      "5": {
+        "job": "Choose a speakable response that actually uses the idiom and identifies the recurring conflict.",
+        "promptEn": "Two podcast hosts argue angrily over speaking order in nearly every recording, and the producer pauses the show each time. What would you tell a friend?",
+        "promptZh": "兩名播客主持人幾乎每次錄音都為發言次序激烈爭執，監製每次都要暫停節目。你會怎樣向朋友解釋？",
+        "optionsEn": [
+          "They fight like cat and dog over speaking order, so the producer keeps pausing the show.",
+          "They fight like cat and dog over microphone quality, so the producer keeps pausing the show.",
+          "They sometimes disagree about speaking order, so the producer keeps pausing the show."
+        ],
+        "options": [
+          "這句用慣用語交代主持人反覆為發言次序激烈爭執，監製因而暫停節目。",
+          "這句把爭執原因改成麥克風音質；題目明說的是發言次序。",
+          "這句把幾乎每次都激烈爭執，淡化成偶爾意見不同，也沒有用上目標慣用語。"
+        ],
+        "correct": 0,
+        "feedbackEn": "The first response names both hosts' recurring arguments and uses the idiom in a line someone could say.",
+        "feedback": "第一句自然用上慣用語，說明兩名主持人反覆爭吵，以及節目中斷的原因。"
+      },
+      "6": {
+        "job": "Reject a use that turns a single mild disagreement into a repeated angry relationship.",
+        "promptEn": "Which speaker goes beyond what the evidence supports?",
+        "promptZh": "哪位說話者的用法超出了已知事實？",
+        "optionsEn": [
+          "The two editors fight like cat and dog over almost every issue of the magazine.",
+          "The two delegates fight like cat and dog; they politely differed on one point today.",
+          "The two restaurant owners have fought like cat and dog for years about the shared entrance."
+        ],
+        "options": [
+          "幾乎每一期都發生爭吵，足以支持反覆衝突的說法。",
+          "今天只禮貌地意見不同一次，不能據此說兩人經常激烈爭吵。",
+          "多年為共用入口激烈爭執，符合反覆衝突的意思。"
+        ],
+        "correct": 1,
+        "feedbackEn": "One polite difference of opinion cannot establish repeated angry conflict.",
+        "feedback": "一次禮貌的意見分歧，不足以推斷兩人經常激烈爭吵。"
+      }
+    },
+    "checksEn": [
+      "Are two people or sides in conflict?",
+      "Are the arguments angry and repeated, rather than one mild disagreement?",
+      "Have I kept the British or American form intact?"
+    ],
+    "checks": [
+      "是否有兩人或雙方發生衝突？",
+      "爭執是否激烈而且反覆出現，而非一次平靜的分歧？",
+      "有否完整保留英式或美式的其中一種說法？"
+    ],
+    "readAloudEn": "The two bakers used to fight like cat and dog over the morning orders, but now they share the work.",
+    "readAloudZh": "兩名麵包師傅以前經常為早上的訂單激烈爭吵，現在卻懂得分工合作。"
+  },
+  "bonusBlueprint": [
+    ["Healthcare", "Two clinic coordinators have heated arguments every time they divide the afternoon appointments.", "兩名診所協調員每次分配下午的預約時，都會激烈爭執。", "The two clinic coordinators fight like cat and dog whenever they divide the afternoon appointments.", "兩名診所協調員每次分配下午的預約時，都會吵個不停。"],
+    ["Environment", "The leaders of two recycling groups have been arguing angrily at every planning meeting for months.", "兩個回收團體的負責人幾個月來在每次籌備會議上都激烈爭執。", "The two recycling-group leaders have been fighting like cat and dog at planning meetings for months.", "兩個回收團體的負責人幾個月來在籌備會議上一直激烈爭吵。"],
+    ["Technology", "The two app designers repeatedly shout at each other about the login flow instead of settling a plan.", "兩名應用程式設計師不斷為登入流程互相叫罵，遲遲未能定下方案。", "The two app designers fight like cat and dog over the login flow instead of settling a plan.", "兩名應用程式設計師為登入流程爭吵不休，未能定下方案。"],
+    ["Arts", "Although the gallery curators agree on the theme, they quarrel bitterly over each choice of artwork.", "兩名畫廊策展人雖同意展覽主題，卻為每件作品的取捨激烈爭吵。", "The gallery curators fight like cat and dog over each choice of artwork, although they agree on the theme.", "兩名畫廊策展人雖同意展覽主題，卻為每件作品的取捨爭吵不休。"],
+    ["Transport", "During last year's ferry project, the two route planners argued fiercely at almost every meeting.", "去年渡輪項目期間，兩名路線規劃員幾乎每次開會都激烈爭執。", "The two route planners fought like cat and dog at almost every meeting during last year's ferry project.", "去年渡輪項目期間，兩名路線規劃員幾乎每次開會都吵個不停。"],
+    ["Food", "Two market chefs keep having angry arguments about who should use the shared oven first.", "兩名街市廚師不斷為誰先使用共用焗爐而激烈爭執。", "The two market chefs keep fighting like cat and dog over the shared oven.", "兩名街市廚師一直為共用焗爐的使用次序激烈爭吵。"],
+    ["Media", "Whenever the morning programme changes its script, its two presenters begin another fierce argument.", "早晨節目每次改動稿件，兩名主持人都會再次激烈爭執。", "The two presenters fight like cat and dog whenever the morning programme changes its script.", "早晨節目每次改動稿件，兩名主持人都會再次吵個不停。"],
+    ["Sport", "The two rowing coaches used to argue furiously over training plans, but they now make decisions together.", "兩名划艇教練以前常為訓練計劃激烈爭執，現在卻會共同作決定。", "The two rowing coaches used to fight like cat and dog over training plans, but they now decide together.", "兩名划艇教練以前常為訓練計劃激烈爭吵，現在卻會共同作決定。"],
+    ["Community", "The leaders of the book drive cannot plan a single collection day without an angry argument.", "圖書募捐活動的兩名負責人每次安排收書日期都會激烈爭吵。", "The two book-drive leaders fight like cat and dog whenever they plan a collection day.", "圖書募捐活動的兩名負責人每次安排收書日期，都會吵個不停。"],
+    ["Business", "If the two café co-owners must share one tiny counter again, their frequent angry arguments will probably return.", "如果兩名咖啡店合夥店主再次共用一個很小的櫃檯，他們經常激烈爭執的情況可能重現。", "The two café co-owners may fight like cat and dog again if they have to share one tiny counter.", "如果兩名咖啡店合夥店主再次共用小櫃檯，他們可能又會經常激烈爭吵。"]
+  ],
+  "openGates": [
+    "AI-only line review of all 50 retained source prompts and answers",
+    "Ten extension records with stable IDs and individual Chinese answer support",
+    "Sixty four-choice sets with three distinct diagnostic foils and four option-specific Traditional Chinese rationales each",
+    "Blind-key and answer-length checks on all 60 sets",
+    "Audio and recording render check on Page 07",
+    "Browser, mobile, account-resume and live deployment checks"
+  ]
+}

@@ -10,6 +10,8 @@
 
 **Interim publication, 23 October 2026:** At the owner's explicit request, commit `b7f1e2a79` was pushed to `main` before the full rollout. It publishes the 17 corrected canonical lesson sources, regenerated browser catalogue, cache-key update, and the open audit artifacts. It does **not** publish Compass guides for lessons 031–108, ten extensions for each of those lessons, or an accepted 6,480-item review. Pre-release checks: the 138-lesson/6,900-question catalogue test (9/9), runtime checks (23/23), source-readiness check (78 meanings and registers, 3,900 stable original IDs), 78/78 source-PDF manifest hashes from the earlier source run, clean regeneration of the browser, worker and SQL catalogues, and `git diff --check`. GitHub Pages deployment and live asset verification are separate open checks until the deployment completes. The owner selected AI-only item review; no independent human review is implied by this partial release.
 
+**Continuation draft:** `content/idiom-compass-editorial-31-108/idiom-31.json` now contains a source-linked lesson 031 guide draft with four different decision jobs, twelve distinct English choice lines, a fresh read-aloud line, and ten varied extension blueprints. The owner PDF and Cambridge's UK/US form distinction are recorded. This draft is **not** counted as a present Compass guide: its 60 practice items still need three authored foils and four Chinese reasons each, blind-key review, and runtime checks before publication.
+
 ## Status legend and evidence rules
 
 - `[x]` means the named assertion was verified against a cited artifact or recorded observation.
