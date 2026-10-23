@@ -215,3 +215,5 @@ Keyboard follow-up: returning focus must wait for the asynchronous dashboard ref
 ## 2026-10-24 — Idiom Isles withdrawn at owner request
 
 The owner rejected the adventure interface and requested its removal. Restored the pre-adventure idiom HTML/runtime, removed all six adventure implementation/test files and its CI test reference, and versioned the restored runtime to bypass cached game code. The 138 lessons, Chinese-first guides, original question IDs, existing practice, account progress and earlier editorial findings are unchanged. The preceding release record is historical, not the current interface.
+
+Rollback live verification: Pages run `39992659302` succeeded for `bd3fc0f0c3661bec4ba1743d6d2adab5af37eca1`. At 2026-10-24 01:15:44 HKT, the live HTML had no adventure reference, the restored runtime matched the prior interface byte-for-byte, and all four adventure implementation assets returned HTTP 404. Local checks: 27/27 runtime, 19/19 content/map, and mobile actions for three systems passed.
