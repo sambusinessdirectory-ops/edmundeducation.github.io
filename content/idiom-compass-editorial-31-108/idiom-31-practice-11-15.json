@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q11": {
+      "truthCondition": "Oliver and his brother are once again arguing fiercely over who should use the bathroom first.",
+      "correctReason": "原題的「another」表示兩兄弟又再爭吵；正確句保留了浴室使用次序這個爭議。",
+      "foils": [
+        { "text": "Oliver and his brother fight like cat and dog over who should clean the bathroom first.", "reason": "這句把爭議由「誰先用浴室」改成「誰先清潔浴室」。", "kind": "changed-issue" },
+        { "text": "Oliver and his brother are fighting like cat and dog for the first time over the bathroom.", "reason": "「for the first time」表示第一次爭吵，與原題的「又再」不符。", "kind": "changed-recurrence" },
+        { "text": "Oliver and his brother agree about who should use the bathroom first this time.", "reason": "這句說兩人已達成共識，抹去了原題正在發生的激烈爭吵。", "kind": "reversed-conflict" }
+      ]
+    },
+    "idiom-31-q12": {
+      "truthCondition": "Two shop owners have argued fiercely for years over the space outside their shops.",
+      "correctReason": "「have been fighting」配合「for years」，保留店主多年來持續爭奪店外空間的意思。",
+      "foils": [
+        { "text": "The two shop owners fought like cat and dog once over the space outside their shops.", "reason": "「once」把多年反覆爭吵改成單次爭執。", "kind": "changed-frequency" },
+        { "text": "The two shop owners have been fighting like cat and dog for years over their shop signs.", "reason": "這句把爭議由店外空間改成店舖招牌。", "kind": "changed-issue" },
+        { "text": "The two shop owners have been sharing the space outside their shops peacefully for years.", "reason": "這句說店主一直和平共用空間，與多年激烈爭吵相反。", "kind": "reversed-relationship" }
+      ]
+    },
+    "idiom-31-q13": {
+      "truthCondition": "Sophie and her cousin argued fiercely throughout the family dinner.",
+      "correctReason": "正確句保留蘇菲與表親這兩人，以及從晚餐開始到結束一直激烈爭吵的時間範圍。",
+      "foils": [
+        { "text": "Sophie and her cousin fought like cat and dog before the family dinner began.", "reason": "「before ... began」把爭吵移到晚餐開始之前；原題說爭吵發生並持續於席間。", "kind": "changed-timing" },
+        { "text": "Sophie and her cousin fought like cat and dog briefly during the family dinner.", "reason": "「briefly」表示只短暫爭吵；原題說兩人整頓飯都在爭執。", "kind": "changed-duration" },
+        { "text": "Sophie and her cousin spoke calmly throughout the family dinner.", "reason": "「spoke calmly」把持續激烈的爭吵改成平靜交談。", "kind": "reversed-tone" }
+      ]
+    },
+    "idiom-31-q14": {
+      "truthCondition": "Liam and Noah will argue angrily all the time if they must share a room.",
+      "correctReason": "正確句把爭吵繫於「必須共用一間房」的條件，並以慣用語表達激烈反覆的爭執。",
+      "foils": [
+        { "text": "Liam and Noah will fight like cat and dog unless they have to share one room.", "reason": "「unless」把條件倒轉：這句說不共用房間才會吵。", "kind": "reversed-condition" },
+        { "text": "Liam and Noah will fight like cat and dog once if they share one room.", "reason": "「once」把整天反覆爭吵縮成一次。", "kind": "changed-frequency" },
+        { "text": "Liam and Noah will get along well if they have to share one room.", "reason": "這句預測兩人相處融洽，與原題預測的激烈爭吵相反。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q15": {
+      "truthCondition": "The project partners may begin arguing angrily if no one helps them agree on the plan.",
+      "correctReason": "原題只是說若無人協助達成共識，拍檔「可能」開始激烈爭吵；正確句保留條件和不確定性。",
+      "foils": [
+        { "text": "The two project partners will certainly start fighting like cat and dog if nobody helps them agree on the plan.", "reason": "「will certainly」把原題的「可能」改成必然，超出已知資訊。", "kind": "changed-certainty" },
+        { "text": "The two project partners may start fighting like cat and dog if nobody helps them choose a team name.", "reason": "這句把需要協商的「計劃」改成「隊名」。", "kind": "changed-issue" },
+        { "text": "The two project partners may stop fighting like cat and dog if nobody helps them agree on the plan.", "reason": "「stop」表示停止爭吵，原題說他們可能因此開始爭吵。", "kind": "reversed-onset" }
+      ]
+    }
+  }
+}

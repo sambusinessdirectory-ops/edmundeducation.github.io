@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q16": {
+      "truthCondition": "Ava and Ruby have angry arguments whenever they are near each other.",
+      "correctReason": "原題說艾娃和露比每次靠近便激烈爭吵；正確句保留「whenever」的反覆觸發關係。",
+      "foils": [
+        { "text": "Ava and Ruby fight like cat and dog only when they are far apart.", "reason": "「far apart」把觸發情況由靠近對方改成遠離對方。", "kind": "reversed-trigger" },
+        { "text": "Ava and Ruby fought like cat and dog once when they sat together.", "reason": "「once」把每次靠近都會吵的模式改成單次事件。", "kind": "changed-frequency" },
+        { "text": "Ava and Ruby avoid angry arguments whenever they are near each other.", "reason": "「avoid」說兩人靠近時能避免爭吵，與原題相反。", "kind": "reversed-outcome" }
+      ]
+    },
+    "idiom-31-q17": {
+      "truthCondition": "Daniel and his younger sister love each other but argue fiercely over tiny matters.",
+      "correctReason": "正確句同時保留兩人相親、卻會為小事激烈爭吵的對比；爭吵不等於彼此憎恨。",
+      "foils": [
+        { "text": "Daniel and his younger sister fight like cat and dog over small things because they hate each other.", "reason": "「hate each other」與原題說兩人彼此相愛直接衝突。", "kind": "changed-relationship" },
+        { "text": "Daniel and his younger sister fight like cat and dog only over major problems, despite loving each other.", "reason": "「only over major problems」把爭議由小事改成重大問題。", "kind": "changed-scale" },
+        { "text": "Daniel and his younger sister love each other and never argue fiercely over small things.", "reason": "「never argue」否定了原題所說的激烈爭吵。", "kind": "reversed-conflict" }
+      ]
+    },
+    "idiom-31-q18": {
+      "truthCondition": "The brothers were already in another fierce argument when their father arrived home.",
+      "correctReason": "「were fighting」表示父親回到家時，兩兄弟正吵得激烈；「again」保留又一次爭吵。",
+      "foils": [
+        { "text": "The brothers started fighting like cat and dog only after their father came home.", "reason": "「only after」把爭吵開始時間移到父親到家後；原題說父親到家時爭吵已在進行。", "kind": "changed-sequence" },
+        { "text": "The brothers stopped fighting like cat and dog when their father came home.", "reason": "「stopped」說父親到家時爭吵已停止；原題說當時仍在吵。", "kind": "reversed-state" },
+        { "text": "The brothers were fighting like cat and dog for the first time when their father came home.", "reason": "「for the first time」與原題的「another」相反。", "kind": "changed-recurrence" }
+      ]
+    },
+    "idiom-31-q19": {
+      "truthCondition": "Kate reports that her two cousins always argue angrily while planning a holiday.",
+      "correctReason": "正確句保留凱特的轉述、兩名表親，以及每次計劃旅行都會激烈爭吵的習慣。",
+      "foils": [
+        { "text": "Kate says her two cousins fight like cat and dog whenever they return from a holiday.", "reason": "「return from」把爭吵時點由計劃旅行改成旅行回來之後。", "kind": "changed-timing" },
+        { "text": "Kate says her two cousins sometimes fight like cat and dog when planning a holiday.", "reason": "「sometimes」弱化原題的「always」，不再是每次計劃都吵。", "kind": "changed-frequency" },
+        { "text": "Kate says her two cousins calmly agree whenever they plan a holiday.", "reason": "「calmly agree」把激烈爭吵改成平靜達成共識。", "kind": "reversed-behaviour" }
+      ]
+    },
+    "idiom-31-q20": {
+      "truthCondition": "The speaker and his brother argued angrily throughout childhood but are close now.",
+      "correctReason": "「used to」把激烈爭吵放在童年；「but we are close now」保留現時親密的轉變。",
+      "foils": [
+        { "text": "My brother and I still fight like cat and dog, although we were close as children.", "reason": "這句把時間線倒轉：原題說童年常吵、如今親密。", "kind": "reversed-timeline" },
+        { "text": "My brother and I used to fight like cat and dog as children, and we still do now.", "reason": "「we still do now」說現在仍常吵，與原題現時關係親密的轉變不符。", "kind": "changed-current-state" },
+        { "text": "My brother and I hardly ever fought as children, but we are close now.", "reason": "「hardly ever fought」把童年總是激烈爭吵改成很少爭吵。", "kind": "changed-past-frequency" }
+      ]
+    }
+  }
+}
