@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "batchId": "held-distinct-3963-in-small-doses-a",
+  "lessons": [
+    {
+      "id": "advanced-native-3963",
+      "number": 3963,
+      "inventoryId": "expr-3963",
+      "titleEn": "in smaller doses",
+      "titleZh": "分次、每次少量",
+      "category": "idiom",
+      "contentRevision": 2,
+      "target": {
+        "pattern": "\\bin (?:small|smaller) doses\\b",
+        "glossaryForbidden": [
+          "\\bin (?:small|smaller) doses\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "For short periods or in limited amounts at a time, when taking in the whole experience at once would be too much.",
+        "meaningZh": "每次只用一小段時間，或只接觸少量內容；避免一次承受整個體驗。",
+        "grammar": "Enjoy, read, watch or try something in small/smaller doses. The plural doses is fixed in this figurative use; smaller needs an understood earlier or proposed larger amount. It can describe shorter periods as well as less content per session.",
+        "register": "Conversational recommendation. A friend may suggest it to another viewer or learner; unlike a literal medicine dose, it paces time or content for an experience.",
+        "boundaryZh": "可以縮短每次時間或減少每次內容；不一定減少總量，也不等於內容有害或永遠不能完成。",
+        "misconceptionZh": "不要把短時間分次接觸誤作完全放棄；smaller 要有原先較大的份量作比較。",
+        "outcomeZh": "能按時間或內容建議分次接觸，說明每次份量及是否仍會繼續。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1852",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 175,
+          "book": 15,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "21–23",
+          "locatorNote": "DOCX table 187, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I enjoy the highlights in smaller doses.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in smaller doses"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional held-source draft; independent review pending.",
+          "AI scoped revision: short-period Cambridge idiom sense, realistic alternatives and source-grounded comparison; independent review pending."
+        ]
+      },
+      "listening": {
+        "promptEn": "What does Priya change?",
+        "promptZh": "Priya 改變的是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She limits how much she hears on each visit while still using the tour.",
+            "zh": "她限制每次聽的份量，但仍繼續使用導賞。"
+          },
+          {
+            "id": "b",
+            "en": "She removes ten sections permanently from the museum tour.",
+            "zh": "她永久刪除導賞中的十段。"
+          },
+          {
+            "id": "c",
+            "en": "She plays all twelve sections faster in one visit.",
+            "zh": "她在一次參觀中加速聽完十二段。"
+          },
+          {
+            "id": "d",
+            "en": "She switches to a different museum without any audio guide.",
+            "zh": "她轉去另一間沒有語音導賞的博物館。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每次聽兩段，是調整每次份量而非刪除內容或加速聽完。",
+        "en": "The museum audio tour has twelve dense sections. Priya enjoys it in smaller doses: she listens to two sections in a short visit, then comes back another day for more.",
+        "zh": "博物館語音導賞有十二段密集內容。Priya 分次欣賞：每次短暫參觀只聽兩段，另一天再回來聽更多。"
+      },
+      "reply": {
+        "promptEn": "I like this demanding podcast, but a full season in one evening leaves me tired. What could I try?",
+        "promptZh": "我喜歡這個內容密集的播客，但一晚聽完整季令我疲累。我可以怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You could listen in smaller doses, perhaps one episode at a time.",
+            "zh": "你可以分較少份量聽，例如每次一集。"
+          },
+          {
+            "id": "b",
+            "en": "You could leave a day between episodes and see whether that helps.",
+            "zh": "你可以每集之間隔一天，看看有沒有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "Try choosing two episodes for tonight and saving the rest for another evening.",
+            "zh": "今晚可以先選兩集，其餘留待另一晚再聽。"
+          },
+          {
+            "id": "d",
+            "en": "You could stop when you feel tired and return later.",
+            "zh": "覺得累時可先停下，之後再聽。"
+          }
+        ],
+        "goldenId": "a",
+        "explanationZh": "四句都可讓聽者按精力調節節奏；金句用較少份量表達。"
+      },
+      "scene": {
+        "promptEn": "A student can follow ten new technical terms in a week but not all ten in one sitting. The tutor schedules two terms each day. Which description fits?",
+        "promptZh": "學生一星期能學懂十個新技術詞，但一次學十個太多。導師每天安排兩個。哪句貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tutor presents the terms in smaller doses across the week.",
+            "zh": "導師把詞語分成較少份量，在一星期內逐步教。"
+          },
+          {
+            "id": "b",
+            "en": "The tutor removes two terms from the course and teaches the other eight this week.",
+            "zh": "導師從課程刪去兩個詞，這星期只教其餘八個。"
+          },
+          {
+            "id": "c",
+            "en": "The tutor gives a briefer explanation of all ten terms in one sitting.",
+            "zh": "導師在一次課堂中簡略講解全部十個詞。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生仍會學齊十個，但每天只接觸兩個；刪去兩個會改變總量，一次簡述十個則仍是一次接觸全部。"
+      },
+      "contrast": {
+        "promptEn": "Which use is a literal medical dose rather than figurative pacing of an experience?",
+        "promptZh": "哪項說的是字面上的藥物劑量，而非比喻地分次接觸一種體驗？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A reader takes a long article in smaller doses, returning for a few pages each day.",
+            "zh": "讀者把長文章分次閱讀，每天回來讀幾頁。"
+          },
+          {
+            "id": "b",
+            "en": "A runner tries a demanding drill in small doses, practising for five minutes at a time.",
+            "zh": "跑手把吃力的練習分次做，每次練五分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "After reviewing the prescription, a doctor tells a patient to take the medicine in smaller doses.",
+            "zh": "醫生覆核處方後，叫病人每次服用較少藥量。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "醫生指的是實際藥量；閱讀和練習中的 doses 則比喻每次接觸內容或投入的時間。"
+      },
+      "dialogue": {
+        "promptEn": "A friend says, “If I read only ten pages today, I will never finish the book.” You plan to return tomorrow. What is the best response?",
+        "promptZh": "朋友說：「今天只讀十頁，就永遠讀不完這本書。」你打算明天繼續。哪個回應最好？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reading it in smaller doses means I still continue tomorrow; it does not mean giving up the book.",
+            "zh": "分較少份量閱讀，是明天仍會繼續，並非放棄整本書。"
+          },
+          {
+            "id": "b",
+            "en": "I could skim the remaining pages tonight, though I might miss the details.",
+            "zh": "我今晚可以略讀餘下頁數，但可能會漏看細節。"
+          },
+          {
+            "id": "c",
+            "en": "I could set this book aside for a week and start a shorter one instead.",
+            "zh": "我可以把這本書擱置一星期，先讀另一本較短的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友擔心分次閱讀等於永遠讀不完；金句說明明天仍會繼續。今晚略讀會犧牲細節，改讀別的書則偏離原定明天續讀的計劃。"
+      },
+      "speaking": {
+        "en": "I will study the new vocabulary in smaller doses so I can check each group before moving on.",
+        "zh": "我會把新詞彙分較少份量學，逐組核對後才繼續。",
+        "promptZh": "先聽示範，再說出每次接觸的份量如何改變。",
+        "targetSpan": {
+          "start": 32,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電影會原定一晚討論四部短片。義工說這樣太趕；你建議分兩次聚會，每次討論兩部，仍保留四部。用一至兩句英文向義工解釋。",
+        "selfCheckZh": "兩例都要說明原定四部、改為兩次每次兩部，以及四部仍保留；不可說取消其中兩部。",
+        "examples": [
+          {
+            "en": "Rather than discuss all four short films in one evening, we can take them in smaller doses: two films at each of two meetings, with none removed.",
+            "zh": "與其一晚討論四部短片，不如分較少份量：兩次聚會各談兩部，沒有刪去任何一部。"
+          },
+          {
+            "en": "Let us watch the four short films in smaller doses by meeting twice and discussing two each time; that leaves room for questions without dropping a film.",
+            "zh": "讓我們分兩次看四部短片，每次討論兩部，這樣有時間提問，也不用刪去任何短片。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "all four short films",
+            "zh": "全部四部短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 40
+            }
+          },
+          {
+            "en": "one evening",
+            "zh": "一個晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 55
+            }
+          },
+          {
+            "en": "two films at each of two meetings",
+            "zh": "兩次聚會各談兩部",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 125
+            }
+          },
+          {
+            "en": "room for questions",
+            "zh": "提問的空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 128
+            }
+          },
+          {
+            "en": "without dropping a film",
+            "zh": "而不刪去任何短片",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 152
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "In smaller doses describes the amount taken at one time, not necessarily the final total.",
+          "zh": "分較少份量指每次接觸的多少，不一定改變最後總量。"
+        },
+        {
+          "en": "Taking demanding material in smaller doses can make it easier to return to.",
+          "zh": "合適的節奏可使內容密集的材料更容易繼續學習。"
+        }
+      ]
+    }
+  ]
+}

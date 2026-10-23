@@ -1,0 +1,116 @@
+{
+  "reportType": "read-only owner/sense assessment for held 4098 and pre-review of held 3963",
+  "status": "AI editorial recommendation only; no decision, owner lesson, draft, manifest, audit, audio or release edits",
+  "files": {
+    "inventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256AtReview": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "owner18": {
+      "path": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "sha256AtReview": "85030416a4b1bbd395d3a3fb1b9357a8f0b89af374466ffe99e7a379289af924"
+    },
+    "decision4098": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "sha256AtReview": "3b32e40c78afeaa89af8d7cd9ce5a71981b2d106170780703cf6a400b8770280"
+    },
+    "draft3963": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256AtReview": "436741dfca4eaa436538686614a8e9b7ab71277bb351512bd5d3180192a7d1ee"
+    },
+    "decision3963": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "sha256AtReview": "a5036066eca332600fa403f8d79d6695ed1de84f5ae8b67823cf8bf37dc5f218"
+    }
+  },
+  "source4098": {
+    "sourceOrdinal": 4098,
+    "sourceId": "book10-16-1987",
+    "exactSentence": "The assignments should stretch them without crushing them.",
+    "sourceQuestion": "Is it hard for students to learn new skills?",
+    "sourceMeaning": "Challenge learners without overwhelming them; a physical force metaphor.",
+    "currentDecision": "hold-editorial",
+    "earlierOwner": {
+      "id": "advanced-native-018",
+      "titleEn": "stretch them, not break them",
+      "exactMeaningEn": "Challenge someone enough to develop without overwhelming or harming them.",
+      "exactGrammar": "stretch + object, not break + matching object; a contextual metaphorical contrast, not a fixed idiom.",
+      "currentTargetPattern": "\\bstretch (?:me|you|him|her|us|them),? not break (?:me|you|him|her|us|them)\\b",
+      "sourceSentence": "Overall, I do believe people need to be challenged, but the challenge should stretch them, not break them."
+    },
+    "verdict": "Defensible same-sense alias to owner 18, provided the paired variant is bounded and assessed; both choose challenge with enough support to avoid harming learners. Source uses without crushing where owner uses not break. This is a grammatical/lexical contrast variant, not a separate learner outcome.",
+    "currentDetectorMatchesSource": false,
+    "proposedBoundedTargetPattern": "(?:\\bstretch (?:me|you|him|her|us|them),? not break (?:me|you|him|her|us|them)\\b)|(?:\\b(?:stretch|stretches|stretched|stretching)\\s+(me|you|him|her|us|them)\\s+without\\s+crushing\\s+\\1\\b)",
+    "patternControlsTestedWithNodeGi": {
+      "positive": [
+        "The assignments should stretch them without crushing them.",
+        "The assignments should stretch them, not break them.",
+        "These projects should stretch us, not break us.",
+        "Stretching them without crushing them takes support."
+      ],
+      "negative": [
+        "The assignments stretch them without crushing him.",
+        "The assignments stretch them without confusing them."
+      ],
+      "result": "4/4 positives and 2/2 negatives passed; regex still matches literal physical stretching if phrased identically, so semantic context is required."
+    },
+    "minimumOwnerRepairProposal": [
+      "Append the exact source occurrence book10-16-1987 with its DOCX provenance to owner18.sources; retain the original source.",
+      "Retain owner meaning, but broaden grammar to stretch + matched person object, not break + object / without crushing + object; explain that without crushing is the same challenge-versus-harm boundary.",
+      "Use the bounded alternative pattern above and add crush/crushing to glossaryForbidden; test source and original assessed target-bearing strings plus mismatched-pronoun and unrelated-verb negatives.",
+      "Change one keyed assessed scene option from “The lessons should stretch them, not break them.” to “The lessons should stretch them without crushing them.” with faithful Traditional Chinese and rationale; keep listening/reply/dialogue/writing on the original form so both are taught.",
+      "Bump contentRevision, rebuild/check owner18, and obtain independent exact-hash EN/ZH/key review. No existing question IDs or answer IDs need to change."
+    ],
+    "proposedDecisionReason": "The source’s “stretch them without crushing them” expresses the same supported-challenge versus overwhelm decision as canonical advanced-native-018 “stretch them, not break them.” The matched-object without-crushing variant is covered by a bounded target pattern and one keyed assessed example; exact source occurrence is attached. Provisional alias-existing after independent owner/content review, with no new lesson owner.",
+    "audioImpact": "No audio text change is required by the minimum proposal; changed scene option is an assessed text field. Media verification remains a separate release gate.",
+    "openRisk": "Owner18 itself labels the contrast contextual rather than a fixed idiom; the alias is justified by shared learner decision, not by claiming either complete sentence is a dictionary idiom."
+  },
+  "source3963": {
+    "sourceOrdinal": 3963,
+    "sourceId": "book10-16-1852",
+    "exactSentence": "I enjoy the highlights in smaller doses.",
+    "sourceQuestion": "Why would somebody dislike watching the Olympic Games?",
+    "sourceMeaning": "In limited amounts at a time; a fixed medicine metaphor.",
+    "currentDecision": "hold-editorial",
+    "exploratoryDraftId": "advanced-native-3963",
+    "exploratoryDraftRevision": 1,
+    "teachingUnitVerdict": "A separate idiom lesson is plausible: Cambridge records in small doses for short periods, and the source comparative smaller doses can mean shorter viewing of Olympic highlights. The current draft is only exploratory and is not ready for selection without an independent content repair/review.",
+    "dictionaryEvidence": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/in-small-doses",
+      "finding": "Cambridge labels in small doses an idiom meaning for short periods of time; the source variant smaller needs a comparison baseline."
+    },
+    "targetPattern": "\\bin (?:small|smaller) doses\\b",
+    "fullSourceDetectorMatch": true,
+    "specificRisks": [
+      {
+        "severity": "major",
+        "path": "scene.options[1..2] and dialogue.options[1..2]",
+        "issue": "Abandoning all ten terms, remaining pages disappearing, and forcing every page today are remote or absurd alternatives; they do not test a plausible misunderstanding of the idiom.",
+        "repair": "Use realistic near-misses such as reducing the total syllabus rather than session size, or switching to shorter material while still doing it all at once."
+      },
+      {
+        "severity": "major",
+        "path": "scene, contrast, dialogue, writing, takeaways",
+        "issue": "Most steps repeat the same per-session chunks versus total-abandonment decision; the seven-step sequence needs distinct learner choices.",
+        "repair": "Vary duration versus total amount, an explicit smaller-than-before comparison, pragmatic recommendation, figurative versus medical boundary, and transfer to another setting without changing source sense."
+      },
+      {
+        "severity": "minor",
+        "path": "reply.options[c]",
+        "issue": "Selecting preferred episodes first does not itself prevent the stated one-evening fatigue, so it may fail the four-valid-replies gate.",
+        "repair": "Make the option explicitly finite for tonight, such as choosing only the two most wanted episodes now and saving the rest."
+      },
+      {
+        "severity": "minor",
+        "path": "brief.meaningEn, boundaryZh, takeaways[0]",
+        "issue": "Draft states general amount-per-session and unchanged final total as dominant meaning, while Cambridge describes short periods. The source does not promise completion of all highlights.",
+        "repair": "Define exposure in short sessions/limited amounts; treat eventual total as context-specific, not inherent to the idiom. Preserve the source’s enjoyment rather than implying the experience is harmful."
+      }
+    ],
+    "ownerScope": "No same-target selected owner was identified in the baseline triage, but full collision and seven-step eligibility remain required before selection."
+  },
+  "mutations": false,
+  "approvedAlias": false,
+  "approvedNewLesson": false,
+  "released": false
+}

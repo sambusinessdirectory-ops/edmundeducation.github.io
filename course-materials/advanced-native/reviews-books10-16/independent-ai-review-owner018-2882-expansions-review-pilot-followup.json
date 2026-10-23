@@ -1,0 +1,74 @@
+{
+  "reportType": "independent exact-hash follow-up for owner018/2882 source expansions",
+  "status": "AI content clear for provisional owner resolution; human/media/release approvals are not claimed",
+  "reviewedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "sha256": "0cb2202b5e60a0b17c3b2d844953ff1f3ae5f2e7d0334119f9adcd3438b70deb"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "sha256": "f6932006d4f25be9239f6bfc746b10c9280851fe63e583006f918585349d883e"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-owner-review-3282-3293-to-2882-b.json",
+      "sha256": "a20002026716c77f48e4e1d9f1a3281aea99936c8661c778e5a46ca1828c0f28"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-owner018-2882-expansions-review-pilot.json",
+      "sha256": "12e4e1941bc6f477b1e33448401ffa173208786f1a1b7617a2e202a72b17cdda"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  ],
+  "findingsResolved": [
+    {
+      "id": "R018-4098-01",
+      "resolution": "New occurrence book10-16-1987 now uses guide_original_example, includes sourceBookPages 59–61 and exact book 15/question 25/S2/table 203 row 7/page 187 locator. Exact source sentence, prior original source, target branch, scene key EN/ZH and answerId a remain valid."
+    },
+    {
+      "id": "R2882-3282-01",
+      "resolution": "Changed takeaway-2 Traditional Chinese now says 舞台監督承擔提示表出錯的責任, explicitly matching English owned the mistake; remainder of sequence and audio role meaning align. Content revision 3."
+    }
+  ],
+  "sourceSenseAndOwnership": [
+    {
+      "sourceOrdinals": [
+        4098
+      ],
+      "sourceId": "book10-16-1987",
+      "exactSentence": "The assignments should stretch them without crushing them.",
+      "ownerId": "advanced-native-018",
+      "finding": "Same supported challenge-versus-overwhelm learner decision as not break them. New matched-pronoun without-crushing branch detects complete source and keyed scene. Original source and assessed forms remain detected. Literal physical stretch is a regex semantic-context limit, not a new sense taught here."
+    },
+    {
+      "sourceOrdinals": [
+        3282,
+        3293
+      ],
+      "sourceIds": [
+        "book10-16-1171",
+        "book10-16-1182"
+      ],
+      "exactSentence": "Owning the mistake is the first step toward repair.",
+      "ownerId": "advanced-native-2882",
+      "finding": "Both exact repeated occurrences mean personal accountability as first step, not proof of completed repair. Own + determiner + mistake(s) branch detects both; unrelated own/ownership controls reject. Keyed scene is grounded in staff member posting, acknowledging and correcting a wrong date, with faithful Traditional Chinese."
+    }
+  ],
+  "sourceProvenance": "All three new occurrence IDs, exact sentences, book/question/sample/page/sourceBookPages and source document hashes agree with source-inventory at the reviewed hash. Original owner sources remain present.",
+  "assessmentStability": "Owner018 only scene key/rationale changed to assess the variant; owner2882 only scene key/rationale and takeaway-2 changed. Existing answer IDs and unrelated assessed fields remain stable.",
+  "nativeRegexControls": "Owner018: old and new source/key positive, mismatched-pronoun and unrelated-verb negatives pass. Owner2882: six positives and six negatives pass, including both source occurrences.",
+  "independentBuildCheck": {
+    "owner018": "15 lessons / 90 questions / 60 audio roles / 0 flags",
+    "owner2882": "4 lessons / 24 questions / 16 audio roles / 0 flags"
+  },
+  "remainingGates": [
+    "Source decisions still hold-editorial and require coordinated editorial reclassification before being counted as aliases.",
+    "Owner2882 takeaway-2 changed audio text needs exact-key regeneration and listening/media QA.",
+    "Human sense and release approvals remain open."
+  ],
+  "reviewerEditsToOwnerDecisionManifestAudit": false,
+  "blockingFindings": []
+}

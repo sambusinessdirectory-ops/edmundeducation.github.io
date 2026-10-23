@@ -1,10 +1,17 @@
 import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const audit = readFileSync(resolve(root, 'course-materials/advanced-native/books10-16/GOLDEN_SOP_AUDIT_CHECKLIST.md'), 'utf8');
+const selectedManifest = readFileSync(resolve(root, 'course-materials/advanced-native/drafts-books10-16/batch-manifest.json'));
+const decisionManifest = readFileSync(resolve(root, 'course-materials/advanced-native/books10-16/editorial-decision-manifest.json'));
+const manifestHashes = JSON.parse(execFileSync(process.execPath, [resolve(root, 'tools/advanced-native-bulk/hash-books10-16-manifests.mjs')], {
+  cwd: root,
+  encoding: 'utf8',
+}));
 const report = JSON.parse(execFileSync(process.execPath, [resolve(root, 'tools/advanced-native-bulk/verify-books10-16.mjs')], {
   cwd: root,
   encoding: 'utf8',
@@ -23,6 +30,7 @@ const reconciliation = readFileSync(resolve(root, 'course-materials/advanced-nat
 
 const errors = [];
 const expect = (condition, message) => { if (!condition) errors.push(message); };
+const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const formatted = number => Number(number).toLocaleString('en-US');
 const scope = audit.split('## Scope and exact counts\n')[1]?.split('\n## Requirement-by-requirement register')[0] ?? '';
 const gateIds = [...audit.matchAll(/^- \[[ x]\] \*\*([A-Z0-9]+\d\d) —/gm)].map(match => match[1]);
@@ -34,6 +42,10 @@ expect(steps.length === 20, `Expected 20 production steps, found ${steps.length}
 expect(chapters.length === 30, `Expected 30 chapter crosswalks, found ${chapters.length}`);
 expect(chapters.every((number, index) => number === index + 1), 'Chapter crosswalk must list chapters 1–30 exactly once and in order');
 expect(audit.includes('**Release verdict: NOT APPROVED.**'), 'Audit must retain NOT APPROVED until every release gate passes');
+expect(audit.includes(`selected manifest SHA-256 \`${sha256(selectedManifest)}\``), 'Selected-manifest SHA-256 is stale');
+expect(audit.includes(`selected decision manifest SHA-256 \`${sha256(decisionManifest)}\``), 'Decision-manifest SHA-256 is stale');
+expect(audit.includes(`\`${manifestHashes.selected.sha256}\` for the ${manifestHashes.selected.files} selected draft files`), 'Selected file-content digest is stale');
+expect(audit.includes(`\`${manifestHashes.decisions.sha256}\` for the ${manifestHashes.decisions.files} decision files`), 'Decision file-content digest is stale');
 expect(report.published === false && report.releaseApproved === false, 'Draft verifier unexpectedly reports publication or approval');
 expect(holdCoverage.errorCount === 0 && holdCoverage.unauditedCurrentHolds === 0, 'Current editorial holds lack independent audit coverage');
 expect(holdCoverage.currentHolds === report.provisionalEditorialTriage['hold-editorial'], 'Hold audit and decision counts disagree');

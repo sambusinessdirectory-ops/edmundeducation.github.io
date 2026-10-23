@@ -1975,16 +1975,17 @@
     "titleZh": "給予挑戰而非壓垮",
     "category": "figurative",
     "target": {
-      "pattern": "\\bstretch (?:me|you|him|her|us|them),? not break (?:me|you|him|her|us|them)\\b",
+      "pattern": "(?:\\bstretch (?:me|you|him|her|us|them),? not break (?:me|you|him|her|us|them)\\b)|(?:\\b(?:stretch|stretches|stretched|stretching)\\s+(me|you|him|her|us|them)\\s+without\\s+crushing\\s+\\1\\b)",
       "glossaryForbidden": [
         "\\bstretch\\b",
-        "\\bbreak\\b"
+        "\\bbreak\\b",
+        "\\b(?:crush|crushing)\\b"
       ]
     },
     "brief": {
       "meaningEn": "Challenge someone enough to develop without overwhelming or harming them.",
       "meaningZh": "給人足以成長的挑戰，而不是把人壓垮。",
-      "grammar": "stretch + object, not break + matching object; a contextual metaphorical contrast, not a fixed idiom.",
+      "grammar": "stretch + person object, not break + matching object; or stretch + person object without crushing + matching object. Both express a contextual challenge-versus-harm contrast, not a fixed idiom.",
       "register": "Encouraging discussion of teaching, coaching or workload.",
       "boundaryZh": "不是保證任務輕鬆；要保留挑戰，同時有合理難度與支援。",
       "misconceptionZh": "not break 不等於完全不讓人遇到困難，也不是把人的身體當成物件。",
@@ -2003,6 +2004,20 @@
         "sample": null,
         "locatorNote": "PDF page 3, table 1, row 6; source book/question/sample not stated where null.",
         "occurrenceId": "pdf-1-p003-t1-r06"
+      },
+      {
+        "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+        "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+        "page": 187,
+        "book": 15,
+        "question": 25,
+        "sample": "S2",
+        "sourceBookPages": "59–61",
+        "locatorNote": "Book 15, question 25, sample S2; source book pages 59–61; DOCX table 203, row 7; rendered PDF page 187.",
+        "expression": "stretch them without crushing them",
+        "sentence": "The assignments should stretch them without crushing them.",
+        "referenceSentenceKind": "guide_original_example",
+        "occurrenceId": "book10-16-1987"
       }
     ],
     "listening": {
@@ -2067,7 +2082,7 @@
       "options": [
         {
           "id": "a",
-          "en": "The lessons should stretch them, not break them.",
+          "en": "The lessons should stretch them without crushing them.",
           "zh": "課堂應給他們挑戰，而不是把他們壓垮。"
         },
         {
@@ -2082,7 +2097,7 @@
         }
       ],
       "answerId": "a",
-      "explanationZh": "新技巧有挑戰，分段教學和休息提供支援，符合比喻的兩面。"
+      "explanationZh": "新技巧有挑戰，分段教學和休息提供支援；without crushing them 與 not break them 都保留挑戰而避免壓垮學生。"
     },
     "contrast": {
       "promptZh": "哪個安排最不符合 stretch them, not break them？",
@@ -2235,7 +2250,7 @@
         "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
       ]
     },
-    "contentRevision": 1
+    "contentRevision": 2
   },
   {
     "id": "advanced-native-019",

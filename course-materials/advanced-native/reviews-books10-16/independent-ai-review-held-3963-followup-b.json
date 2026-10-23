@@ -1,0 +1,33 @@
+{
+  "reportType": "independent-ai-scoped-content-review",
+  "lessonId": "advanced-native-3963",
+  "status": "content-clear-unselected",
+  "inputs": {
+    "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+    "draftSha256": "8c28e1c31b520ce14a14054e71a776bf248ece1c6257cc30c9c13c9f3ae71d33",
+    "authorRepairAuditPath": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-3963-a.json",
+    "authorRepairAuditSha256": "6345b51b23d0e391d425cc2399f2fe2c2ce38e5f5e34066ab83442bfef7ac9c7",
+    "sourceOrdinal": 3963,
+    "sourceExpression": "in smaller doses",
+    "sourceSentence": "I enjoy the highlights in smaller doses."
+  },
+  "externalSenseCheck": {
+    "source": "https://dictionary.cambridge.org/dictionary/english/in-small-doses",
+    "finding": "Cambridge defines in small doses as short periods; the draft explicitly teaches brief sessions and the source-highlight context also supports smaller content portions per session."
+  },
+  "review": {
+    "sevenSteps": "Listening changes a museum tour to two sections per short visit; reply offers four viable ways to pace a demanding podcast; scene spaces ten terms over a week; contrast separates figurative pacing from medical dose; dialogue distinguishes continuing tomorrow from abandoning a book; speaking applies it to vocabulary; writing spreads four films across two meetings without dropping any. These are distinct contexts with consistent core decision.",
+    "answerFairness": "Listening a, scene a, contrast c and dialogue a are uniquely grounded. All four reply options can help the listener avoid a whole season in one evening; golden a alone includes the target.",
+    "englishTraditionalChinese": "Actor, number, time, continuation and total-quantity distinctions match across the reviewed EN/ZH assessed fields and two writing models. Some 分較少份量 phrasing is slightly literal, but understandable and not a semantic blocker.",
+    "targetAndGlossary": "Exact source sentence, scene/dialogue keys and speaking line match the bounded target; five glossary spans exactly select answer text and exclude the target.",
+    "sourceOriginality": "The practice scenarios use new tour, podcast, vocabulary, reading and film-club contexts; no source sentence is copied into learner examples."
+  },
+  "checks": {
+    "focusedBuild": "5 lessons / 30 questions / 20 audio roles / 0 flags",
+    "focusedCheck": "5 lessons / 30 questions / 20 audio roles / 0 flags",
+    "sourceMatches": 1,
+    "glossarySpansExact": 5,
+    "blockingFindings": 0
+  },
+  "limits": "AI content clearance only for this exact unselected draft hash; no media listening, selection, publication or live QA claimed."
+}

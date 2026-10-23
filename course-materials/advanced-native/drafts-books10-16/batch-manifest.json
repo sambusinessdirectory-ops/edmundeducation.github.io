@@ -153,7 +153,8 @@
     "batch-held-distinct-3025-3867-b.json",
     "batch-held-distinct-2321-2929-a.json",
     "batch-held-3644-secure-base-b.json",
-    "batch-held-distinct-4019-review-pilot.json"
+    "batch-held-distinct-4019-review-pilot.json",
+    "batch-held-3963-in-small-doses-a.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -607,6 +608,7 @@
     3941,
     3947,
     3961,
+    3963,
     3964,
     3968,
     3975,

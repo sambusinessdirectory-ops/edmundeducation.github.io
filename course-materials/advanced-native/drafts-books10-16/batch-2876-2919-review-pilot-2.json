@@ -10,14 +10,14 @@
       "titleZh": "承擔責任",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:take|takes|took|taken|taking)\\s+responsibility\\b",
+        "pattern": "\\b(?:take|takes|took|taken|taking)\\s+responsibility\\b|\\b(?:own|owns|owned|owning)\\s+(?:a|the|my|your|his|her|our|their)\\s+mistakes?\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Accept accountability for one’s action, mistake or duty rather than shifting it to others.",
         "meaningZh": "承認自己對行動、錯誤或職責負有責任，而不把責任推給別人。",
-        "grammar": "Take responsibility for + action/problem; the phrase identifies accountability and can be followed by a specific repair, but does not itself describe the repair.",
-        "register": "Plain workplace accountability: a project lead tells colleagues she sent the wrong schedule and will correct it.",
+        "grammar": "Take responsibility for + action/problem names accountability broadly. Own/owned/owning + a/the/possessive + mistake is a narrower way to admit a personal error. Either acknowledgement can begin a repair, but does not itself prove the repair is complete.",
+        "register": "Plain accountability language: a project lead can take responsibility for a wrong schedule or own the mistake she made. Own a mistake is a conversational possession metaphor, not literal ownership.",
         "boundaryZh": "承擔責任不等於獨自造成全部問題，亦不能只靠一句話便證明已完成補救。",
         "misconceptionZh": "不是把「責任」當物品拿走，也不是把錯誤全推給下屬。",
         "outcomeZh": "能指出應由誰承認自己造成的部分，以及還須採取甚麼具體補救。"
@@ -36,6 +36,34 @@
           "sentence": "Leaders should take responsibility for mistakes.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "take responsibility"
+        },
+        {
+          "occurrenceId": "book10-16-1171",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "book": 12,
+          "question": 43,
+          "sourceBookPages": "102–103",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "owning the mistake",
+          "sentence": "Owning the mistake is the first step toward repair.",
+          "page": 109,
+          "sample": "S1",
+          "locatorNote": "DOCX table 113, row 5; page refers to the locally rendered PDF recorded in the intake summary."
+        },
+        {
+          "occurrenceId": "book10-16-1182",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "book": 12,
+          "question": 43,
+          "sourceBookPages": "102–103",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "owning the mistake",
+          "sentence": "Owning the mistake is the first step toward repair.",
+          "page": 110,
+          "sample": "S2",
+          "locatorNote": "DOCX table 113, row 16; page refers to the locally rendered PDF recorded in the intake summary."
         }
       ],
       "listening": {
@@ -100,8 +128,8 @@
         "options": [
           {
             "id": "a",
-            "en": "She took responsibility for the incorrect date and corrected it.",
-            "zh": "她為錯誤日期承擔責任並作出更正。"
+            "en": "The staff member owned the mistake: they admitted posting the wrong date and corrected it.",
+            "zh": "該職員承認自己發錯日期，並作出更正。"
           },
           {
             "id": "b",
@@ -115,7 +143,7 @@
           }
         ],
         "answerId": "a",
-        "explanationZh": "承認自己上載錯誤並更正，是承擔責任的做法。"
+        "explanationZh": "職員承認自己上載錯誤並更正，符合 own the mistake 所表達的承擔責任。"
       },
       "contrast": {
         "promptZh": "哪個做法最不符合 take responsibility for a mistake？",
@@ -246,8 +274,8 @@
           "zh": "為錯誤承擔責任，是承認應負責而非推卸。"
         },
         {
-          "en": "Taking responsibility is not the same as having completed every corrective action.",
-          "zh": "承擔責任不等於已完成所有補救。"
+          "en": "The stage manager owned the mistake in the cue sheet, but the crew still needed to confirm the corrected sequence.",
+          "zh": "舞台監督承擔提示表出錯的責任，但工作人員仍須確認更正後的次序。"
         }
       ],
       "review": {
@@ -276,7 +304,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2912",

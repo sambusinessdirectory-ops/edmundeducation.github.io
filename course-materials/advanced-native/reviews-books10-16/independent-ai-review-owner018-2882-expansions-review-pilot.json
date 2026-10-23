@@ -1,0 +1,90 @@
+{
+  "reportType": "independent exact-hash AI owner expansion review",
+  "status": "two minor repair findings; no content clearance until exact-hash recheck",
+  "reviewedFiles": [
+    {
+      "path": "course-materials/advanced-native/batches/batch-0011-0025.json",
+      "sha256": "0cb2202b5e60a0b17c3b2d844953ff1f3ae5f2e7d0334119f9adcd3438b70deb"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "sha256": "f6932006d4f25be9239f6bfc746b10c9280851fe63e583006f918585349d883e"
+    },
+    {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-owner-review-3282-3293-to-2882-b.json",
+      "sha256": "a20002026716c77f48e4e1d9f1a3281aea99936c8661c778e5a46ca1828c0f28"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    }
+  ],
+  "reviewedSourceOrdinals": [
+    4098,
+    3282,
+    3293
+  ],
+  "sourceChecks": [
+    {
+      "sourceOrdinal": 4098,
+      "sourceId": "book10-16-1987",
+      "exactSourceSentence": "The assignments should stretch them without crushing them.",
+      "ownerId": "advanced-native-018",
+      "sense": "same challenge without overwhelming learners as existing stretch them, not break them",
+      "fullSourceDetectorMatch": true,
+      "oldOwnerSourceAndAssessedTargetsStillMatch": true,
+      "sceneAnswerId": "a",
+      "sceneKeyAssessment": "The dance-teacher prompt supplies challenging moves, staged teaching and rest; keyed EN variant and ZH meaning are fair. Existing listening/reply/dialogue/writing remain on original form.",
+      "provenanceAssessment": "Source sentence, book/question/sample/table/page agree with inventory; referenceSentenceKind is incorrectly set to source_sentence for a Books10–16 guide example."
+    },
+    {
+      "sourceOrdinal": 3282,
+      "sourceId": "book10-16-1171",
+      "exactSourceSentence": "Owning the mistake is the first step toward repair.",
+      "ownerId": "advanced-native-2882",
+      "sense": "same personal accountability as take responsibility, with a narrower own + mistake construction; admission is not proof of completed repair",
+      "fullSourceDetectorMatch": true,
+      "sceneAnswerId": "a",
+      "sceneKeyAssessment": "Prompt states the staff member personally posted the wrong date, admitted it and corrected it; keyed own the mistake is grounded and Chinese includes the personal error."
+    },
+    {
+      "sourceOrdinal": 3293,
+      "sourceId": "book10-16-1182",
+      "exactSourceSentence": "Owning the mistake is the first step toward repair.",
+      "ownerId": "advanced-native-2882",
+      "sense": "exact repeated source of 3282, with independent occurrence metadata",
+      "fullSourceDetectorMatch": true,
+      "sceneAnswerId": "a",
+      "sceneKeyAssessment": "Same owner/content as 3282; repeat source does not justify a second lesson."
+    }
+  ],
+  "patternControls": {
+    "owner018": "Existing original and new source and keyed forms match; mismatched pronoun and unrelated verb controls reject. Literal physical stretching with identical words still matches, a semantic-context limit.",
+    "owner2882": "Six author positives and six negatives independently checked in native JS; all pass. Own + article/possessive + mistake(s) is bounded; semantic context remains necessary."
+  },
+  "findings": [
+    {
+      "id": "R018-4098-01",
+      "severity": "minor",
+      "path": "batch-0011-0025.json / owner018.sources[book10-16-1987].referenceSentenceKind",
+      "issue": "New Books10–16 guide example is labeled source_sentence, unlike guide_original_example used for this corpus. Sentence itself and main locator fields are exact.",
+      "recommendedFix": "Set referenceSentenceKind to guide_original_example; add sourceBookPages 59–61 if following the full Books10–16 provenance schema. Rehash and rerun focused build/check."
+    },
+    {
+      "id": "R2882-3282-01",
+      "severity": "minor",
+      "path": "batch-2876-2919-review-pilot-2.json / owner2882.takeaways[1].zh",
+      "issue": "English owned the mistake accepts accountability; Chinese only says the stage manager acknowledged the error, without conveying responsibility for it. This changed takeaway is an audio role.",
+      "recommendedFix": "Use a natural explicit responsibility rendering, e.g. 舞台監督承擔提示表出錯的責任，但工作人員仍須確認更正後的次序。 Bump contentRevision and regenerate exact-key takeaway audio later."
+    }
+  ],
+  "independentFocusedBuildCheck": {
+    "owner018": "15 lessons / 90 questions / 60 roles / 0 flags; build and --check pass",
+    "owner2882": "4 lessons / 24 questions / 16 roles / 0 flags; build and --check pass"
+  },
+  "unchangedAssessedContent": "Owner018 only one scene key/rationale changed among assessed items; owner2882 only one scene key/rationale changed. Answer IDs remain stable. Other lesson records in each batch were unchanged by these owner expansions.",
+  "decisionsManifestAuditEditedByReviewer": false,
+  "humanApprovalClaimed": false,
+  "releaseApprovalClaimed": false,
+  "nextGate": "Authors repair two minor findings; independent exact-hash recheck before source decisions change. The changed 2882 takeaway requires exact-key audio refresh/media QA."
+}

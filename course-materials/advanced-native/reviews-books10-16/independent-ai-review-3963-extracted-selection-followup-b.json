@@ -1,0 +1,29 @@
+{
+  "reportType": "independent-ai-extracted-lesson-selection-followup",
+  "lessonId": "advanced-native-3963",
+  "sourceOrdinal": 3963,
+  "verdict": "content-identical-to-cleared-lesson; eligible for coordinated unpublished selection",
+  "inputs": {
+    "reviewedFiveLessonBatch": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256": "8c28e1c31b520ce14a14054e71a776bf248ece1c6257cc30c9c13c9f3ae71d33"
+    },
+    "extractedSingleLessonBatch": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3963-in-small-doses-a.json",
+      "sha256": "55da37ac7ba0535136f8bf6fd5f651a761991b9951da387d7caf57a93d68fc02"
+    },
+    "priorIndependentContentReview": {
+      "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3963-followup-b.json",
+      "sha256": "e2ce31d7d927a442424c6bfde23c5b57a8b64e7e3c29a41fcdb5595e3bf285df"
+    }
+  },
+  "comparison": {
+    "parsedLessonDeepEqual": true,
+    "canonicalSortedJsonSha256Both": "c59e32dca0ccc845bc80122be63a393fd75cf94713d87f5f25b87ab9b8c8dbbc",
+    "contentRevisionBoth": 2,
+    "onlyBatchContainerChanged": true,
+    "extractedLessonCount": 1
+  },
+  "focusedBuildAndCheck": "1 lesson / 6 questions / 4 audio roles / 0 review flags",
+  "scope": "No new editorial clearance beyond the exact lesson object previously reviewed. No lesson content, source decision, manifest, SOP audit, media, upload or deployment was changed."
+}

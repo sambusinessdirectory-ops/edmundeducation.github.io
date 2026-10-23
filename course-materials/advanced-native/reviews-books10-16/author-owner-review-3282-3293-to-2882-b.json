@@ -1,0 +1,159 @@
+{
+  "reportType": "author-owner-expansion-readiness",
+  "status": "provisional-owner-content-repair-awaits-independent-review",
+  "scope": {
+    "ownerId": "advanced-native-2882",
+    "candidateSources": [
+      3282,
+      3293
+    ],
+    "decisionAndManifestEdits": false,
+    "releaseOrUpload": false
+  },
+  "inputs": {
+    "ownerDraft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-2.json",
+      "beforeSha256": "7ae55db9521bd93c32667390f27ec3d6e6994bbd61a69bc7a60044a7b783c688",
+      "afterSha256": "f6932006d4f25be9239f6bfc746b10c9280851fe63e583006f918585349d883e"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "decisionFile": {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "sha256": "e41bcc9b81201b4532b9785441c4c9145100200fbce9add1c4bf63267adb6754"
+    }
+  },
+  "sourceRows": [
+    {
+      "row": {
+        "sourceId": "book10-16-1171",
+        "book": 12,
+        "question": 43,
+        "questionText": "How should a person be remorseful for their mistakes?",
+        "sample": "S1",
+        "topic": "Personal / Qualities",
+        "sourceBookPages": "102–103",
+        "docxTable": 113,
+        "docxRow": 5,
+        "renderedPdfPage": 109,
+        "expression": "owning the mistake",
+        "example": "Owning the mistake is the first step toward repair.",
+        "category": "Idiom or set phrase",
+        "meaningAndReason": "Accepting responsibility for an error; a conventional possession metaphor.",
+        "exactPriorPhraseMatches": [],
+        "status": "intake-pending-editorial"
+      },
+      "rowSha256": "eac8bda31e00ba31d633041325bc9257431dba507dd8d232ff9271fbab01e6ef"
+    },
+    {
+      "row": {
+        "sourceId": "book10-16-1182",
+        "book": 12,
+        "question": 43,
+        "questionText": "How should a person be remorseful for their mistakes?",
+        "sample": "S2",
+        "topic": "Personal / Qualities",
+        "sourceBookPages": "102–103",
+        "docxTable": 113,
+        "docxRow": 16,
+        "renderedPdfPage": 110,
+        "expression": "owning the mistake",
+        "example": "Owning the mistake is the first step toward repair.",
+        "category": "Idiom or set phrase",
+        "meaningAndReason": "Accepting responsibility for an error; a conventional possession metaphor.",
+        "exactPriorPhraseMatches": [],
+        "status": "intake-pending-editorial"
+      },
+      "rowSha256": "ff5b3f00f9aafc7bca65c42c904a13013f3a9b1365c148fae5e1e014b1d1e2b5"
+    }
+  ],
+  "decisionRowsUnchanged": [
+    {
+      "row": {
+        "sourceOrdinal": 3282,
+        "sourceId": "book10-16-1171",
+        "phrase": "owning the mistake",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Hold: owning the mistake and provisional owner 2882 take responsibility both express accepting responsibility. Review construction, register and distinct learning outcome before granting separate ownership."
+      },
+      "rowSha256": "558a401052de7c67c3f636c8d1647c3058d38e7b53892628b07c36787fcf9c5b"
+    },
+    {
+      "row": {
+        "sourceOrdinal": 3293,
+        "sourceId": "book10-16-1182",
+        "phrase": "owning the mistake",
+        "action": "hold-editorial",
+        "canonicalId": null,
+        "reason": "Hold: this repeat depends on proposed owner 3282 owning the mistake, now held pending comparison with take responsibility owner 2882. Resolve the first occurrence before assigning this repeat."
+      },
+      "rowSha256": "e28fbc2ba7bf58877c9101a1243390435fa83543987d3db548e170378a3b1c0c"
+    }
+  ],
+  "editorialJudgment": {
+    "recommendation": "same-sense alias-existing to owner 2882, pending independent clearance and separate decision mutation",
+    "basis": "Both complete source examples say that owning a mistake is accepting responsibility for one’s error and beginning repair. Owner 2882 already teaches accepting accountability for one’s own mistake versus shifting blame, while distinguishing acknowledgment from completed correction. The own + mistake possession metaphor is a narrower grammatical variant of that learner decision, not a new outcome. Source 3293 exactly repeats 3282.",
+    "boundary": "The new detector requires own/owns/owned/owning followed by an article or possessive and mistake(s); it does not cover literal possession, bare own as an adjective, or unrelated errors. The original take responsibility branch is retained."
+  },
+  "changedOwnerFields": [
+    "target.pattern",
+    "brief.grammar",
+    "brief.register",
+    "sources (+2 exact occurrences)",
+    "scene.options[a].en",
+    "scene.options[a].zh",
+    "scene.explanationZh",
+    "takeaways[1].en",
+    "takeaways[1].zh",
+    "contentRevision 1→3"
+  ],
+  "assessmentReview": {
+    "sceneKey": "The staff member owned the mistake: they admitted posting the wrong date and corrected it.",
+    "sceneGrounding": "Prompt says the staff member personally posted the wrong date, then admitted and corrected it; key uses gender-neutral reference, while the two foils blame visitors or deny upload. Other answer IDs and assessed options were unchanged. Dialogue key continues to model take responsibility and the acknowledgment/repair boundary.",
+    "answerIdsChanged": false
+  },
+  "regexControls": {
+    "flags": "i",
+    "pattern": "\\b(?:take|takes|took|taken|taking)\\s+responsibility\\b|\\b(?:own|owns|owned|owning)\\s+(?:a|the|my|your|his|her|our|their)\\s+mistakes?\\b",
+    "positives": [
+      "Leaders should take responsibility for mistakes.",
+      "Owning the mistake is the first step toward repair.",
+      "She owned the mistake before correcting the timetable.",
+      "I own my mistake and will fix it.",
+      "They take responsibility for the omission.",
+      "The manager owns her mistakes."
+    ],
+    "negatives": [
+      "That was my own mistake, not yours.",
+      "The owner owns a bicycle.",
+      "The group owns the equipment.",
+      "Owning the land requires a deed.",
+      "He owns an old mistake book.",
+      "The team carried out the repair."
+    ],
+    "result": "6/6 positives and 6/6 negatives pass in live native-JS RegExp; all three owner source sentences and both target-bearing scene/dialogue keys match."
+  },
+  "verification": {
+    "focusedBuild": "4 lessons / 24 questions / 16 audio roles / 0 review flags",
+    "focusedCheck": "4 lessons / 24 questions / 16 audio roles / 0 review flags",
+    "wholeVerifier": "2604 source rows, 603 selected drafts, 3618 questions, 2412 selected audio roles; zero schema, source, guide-copy, or selected-alias exceptions",
+    "gitDiffCheck": "pass"
+  },
+  "audioDelta": [
+    {
+      "role": "takeaway-2",
+      "synthesisKey": "5bf0e65afcb1feaf0298672c8c752b0e5eadb5b17d918eb25053e0730a064e1e",
+      "text": "The stage manager owned the mistake in the cue sheet, but the crew still needed to confirm the corrected sequence."
+    }
+  ],
+  "nextGate": "Independent exact-hash content review, then coordinated decision reclassification and media regeneration for changed takeaway-2; selected manifest unchanged by this author pass.",
+  "independentReviewFollowup": {
+    "finding": "Pilot found initial takeaway-2 Traditional Chinese acknowledged the error without explicitly taking responsibility.",
+    "repair": "舞台監督承擔提示表出錯的責任，但工作人員仍須確認更正後的次序。",
+    "scope": "takeaways[1].zh and contentRevision only; English audio text, synthesis key, target and assessed keys unchanged.",
+    "status": "awaiting exact-hash reviewer recheck"
+  }
+}
