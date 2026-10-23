@@ -4,7 +4,10 @@
   "items": {
     "idiom-31-q01": {
       "truthCondition": "Emma and her brother repeatedly argue angrily about which television programme to watch.",
-      "correctReason": "原題說兄妹幾乎每晚都為看甚麼節目激烈爭吵；「fight like cat and dog」保留了反覆爭執及爭議內容。",
+      "correctText": "Emma and her brother fight like cat and dog almost every evening over what to watch on television.",
+      "correctZh": "Emma 和弟弟幾乎每晚都為看甚麼電視節目而激烈爭吵。",
+      "answerOverrideReason": "Restores 'almost every evening', an explicit frequency detail omitted from the canonical answer; the canonical source remains untouched.",
+      "correctReason": "「almost every evening」保留幾乎每晚的頻率；「over what to watch on television」保留兩人爭執的具體事情。",
       "foils": [
         { "text": "Emma and her brother fight like cat and dog over who owns the television.", "reason": "這句把爭議由「看甚麼節目」改成「誰擁有電視機」，改變了原題的重要事實。", "kind": "changed-issue" },
         { "text": "Emma and her brother rarely fight like cat and dog over what to watch on television.", "reason": "「rarely」表示很少爭吵，與原題「幾乎每晚」相反。", "kind": "changed-frequency" },
@@ -13,7 +16,10 @@
     },
     "idiom-31-q02": {
       "truthCondition": "Jack and Leo soon argue angrily each time they play computer games together.",
-      "correctReason": "原題說兩人每次一起玩電腦遊戲便很快激烈爭吵；正確句用慣用語保留這個反覆模式。",
+      "correctText": "Whenever Jack and Leo play computer games together, they soon start fighting like cat and dog.",
+      "correctZh": "Jack 和 Leo 每次一起玩電腦遊戲，很快便激烈爭吵。",
+      "answerOverrideReason": "Restores the source's 'soon' timing rather than merely saying that conflict occurs during every joint game; the canonical source remains untouched.",
+      "correctReason": "「Whenever」保留每次一起玩遊戲這個條件；「soon start」保留很快便開始爭吵的時間關係。",
       "foils": [
         { "text": "Jack and Leo fight like cat and dog whenever they watch others play computer games.", "reason": "「watch others play」改成旁觀別人玩；原題說的是兩人自己一起玩。", "kind": "changed-activity" },
         { "text": "Jack and Leo fight like cat and dog before they start playing computer games together.", "reason": "「before they start」把爭吵移到遊戲開始前；原題說的是兩人一起玩時便開始爭吵。", "kind": "changed-sequence" },
@@ -22,7 +28,10 @@
     },
     "idiom-31-q03": {
       "truthCondition": "The two cousins repeatedly argue fiercely about whose turn it is to wash the dishes.",
-      "correctReason": "原題說兩名表親每次決定誰洗碗都會激烈爭吵；正確句用慣用語保留人物、頻率及洗碗一事。",
+      "correctText": "Whenever my two cousins decide whose turn it is to wash the dishes, they fight like cat and dog.",
+      "correctZh": "我的兩名表親每次決定輪到誰洗碗，都會激烈爭吵。",
+      "answerOverrideReason": "Makes the source's 'every time they decide' frequency explicit and varies the sentence opening while keeping the canonical answer unchanged.",
+      "correctReason": "「Whenever」保留每次決定洗碗次序都會爭吵的意思；人物和爭議內容也與原題一致。",
       "foils": [
         { "text": "My two cousins fight like cat and dog about whose turn it is to cook dinner.", "reason": "「cook dinner」把爭議由洗碗改成煮晚餐，並非原題內容。", "kind": "changed-task" },
         { "text": "My two cousins used to fight like cat and dog about whose turn it is to wash the dishes.", "reason": "「used to」暗示這種爭執已是過去；原題說他們現在仍每次都爭吵。", "kind": "changed-aspect" },
@@ -31,7 +40,10 @@
     },
     "idiom-31-q04": {
       "truthCondition": "Hannah and her older sister repeatedly argue angrily about borrowing each other's clothes.",
-      "correctReason": "原題明說 Hannah 與姐姐經常為互借衣服激烈爭吵；正確句保留姐姐、持續情況和爭議內容。",
+      "correctText": "Hannah and her older sister fight like cat and dog all the time over borrowing each other's clothes.",
+      "correctZh": "Hannah 和姐姐總是為互借衣服而激烈爭吵。",
+      "answerOverrideReason": "Restores the source's 'all the time' frequency; preserves the older sister and clothes-borrowing issue without altering the canonical answer.",
+      "correctReason": "「older sister」保留姐姐而非妹妹；「all the time」保留原題所說的經常爭吵。",
       "foils": [
         { "text": "Hannah fights like cat and dog with her younger sister over borrowing each other's clothes.", "reason": "「younger sister」改成妹妹；原題說的是姐姐。", "kind": "changed-person" },
         { "text": "Hannah fought like cat and dog with her older sister over borrowing each other's clothes.", "reason": "「fought」只把爭執放在過去；原題描述的是現在仍反覆發生的情況。", "kind": "changed-tense" },
@@ -40,7 +52,10 @@
     },
     "idiom-31-q05": {
       "truthCondition": "The two neighbours repeatedly shout at each other because of the noise.",
-      "correctReason": "原題說兩名鄰居總是因噪音互相叫罵；正確句以慣用語概括反覆而激烈的爭吵。",
+      "correctText": "Because of the noise, the two neighbours are always fighting like cat and dog.",
+      "correctZh": "由於噪音，兩名鄰居總是吵個不停。",
+      "answerOverrideReason": "Variation in sentence opening and progressive aspect; preserves the source's neighbours, noise cause, and habitual angry dispute without modifying the canonical source answer.",
+      "correctReason": "「Because of the noise」保留噪音這個起因；「are always fighting like cat and dog」對應兩名鄰居總是互相叫罵。",
       "foils": [
         { "text": "The two neighbours fight like cat and dog about the parking spaces.", "reason": "這句把爭議由「噪音」換成「泊車位」，改變了原題內容。", "kind": "changed-issue" },
         { "text": "The two neighbours no longer fight like cat and dog about the noise.", "reason": "「no longer」表示已停止爭吵；原題說兩人現在仍總是互相叫罵。", "kind": "changed-polarity" },

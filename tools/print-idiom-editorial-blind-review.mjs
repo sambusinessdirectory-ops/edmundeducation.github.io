@@ -46,7 +46,7 @@ for (let number = start; number <= end; number++) {
   // The cards view never prints the key or reasons.
   const keyIndex = createHash('sha256').update(`idiom-editorial-review-v2:${id}`).digest()[0] % 4;
   const options = draft.foils.map((foil) => foil.text);
-  options.splice(keyIndex, 0, source.answer);
+  options.splice(keyIndex, 0, draft.correctText || source.answer);
   if (mode === 'score') {
     const selected = review.selections?.[id]?.letter;
     if (selected === letters[keyIndex]) matches++;

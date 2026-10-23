@@ -4,7 +4,10 @@
   "items": {
     "idiom-31-q06": {
       "truthCondition": "Ben and his flatmate often argue fiercely about cleaning their shared kitchen.",
-      "correctReason": "原題說 Ben 與同住者經常為清潔共用廚房激烈爭執；正確句保留人物、頻率及爭議內容。",
+      "correctText": "Ben and his flatmate often fight like cat and dog over cleaning their shared kitchen.",
+      "correctZh": "Ben 和同住者經常為清潔共用廚房而激烈爭吵。",
+      "answerOverrideReason": "Restores the explicit 'often' frequency omitted from the canonical answer; the source answer remains unchanged.",
+      "correctReason": "「often」保留原題所說的經常爭吵；「cleaning their shared kitchen」保留共用廚房的清潔爭議。",
       "foils": [
         { "text": "Ben and his flatmate fight like cat and dog over using their shared kitchen.", "reason": "這句把爭議由「清潔廚房」改成「使用廚房」，不是原題所說的事。", "kind": "changed-issue" },
         { "text": "Ben and his flatmate used to fight like cat and dog over cleaning their shared kitchen.", "reason": "「used to」暗示經常爭吵的情況已經過去；原題說他們現在仍常常爭執。", "kind": "changed-aspect" },

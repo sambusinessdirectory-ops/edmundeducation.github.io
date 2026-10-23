@@ -93,8 +93,10 @@ for (const name of practiceFiles) {
   const lesson = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'idiom-lessons', sourceName), 'utf8')).lesson;
   const questions = new Map(lesson.questions.map((question) => [question.id, question]));
   const guideName = `${lessonId}.json`;
+  let targetForm;
   if (fs.existsSync(path.join(directory, guideName))) {
     const guideDraft = JSON.parse(fs.readFileSync(path.join(directory, guideName), 'utf8'));
+    targetForm = new RegExp(guideDraft.targetFormPattern, 'i');
     (guideDraft.bonusBlueprint || []).forEach((row, index) => {
       const id = `${lessonId}-q${String(51 + index).padStart(2, '0')}`;
       questions.set(id, { id, prompt: row[1], promptZh: row[2], answer: row[3], answerZh: row[4] });
@@ -113,7 +115,12 @@ for (const name of practiceFiles) {
     if (!source) { fail(`unknown original ID ${id}`); continue; }
     if (!hasEnglish(choice.truthCondition) || !hasChinese(choice.correctReason)) fail(`${id}: missing truth condition or correct reason`);
     if (!Array.isArray(choice.foils) || choice.foils.length !== 3) { fail(`${id}: requires three foils`); continue; }
-    const lines = [source.answer, ...choice.foils.map((foil) => foil.text)];
+    if (choice.correctText && (!hasEnglish(choice.correctText) || !hasChinese(choice.correctZh) || !hasEnglish(choice.answerOverrideReason))) {
+      fail(`${id}: revised answer requires English text, Traditional Chinese rendering and source-faithfulness reason`);
+    }
+    const correctText = choice.correctText || source.answer;
+    if (targetForm && !targetForm.test(correctText)) fail(`${id}: correct answer omits target form`);
+    const lines = [correctText, ...choice.foils.map((foil) => foil.text)];
     if (new Set(lines.map((line) => String(line).toLocaleLowerCase('en'))).size !== 4) fail(`${id}: repeated answer/foil`);
     if (new Set(choice.foils.map((foil) => foil.kind)).size !== 3) fail(`${id}: repeated foil mechanisms`);
     if (!choice.foils.every((foil) => hasEnglish(foil.text) && hasChinese(foil.reason) && hasEnglish(foil.kind))) fail(`${id}: incomplete English/Chinese foil`);

@@ -35,13 +35,19 @@ const words = (value) => String(value).trim().split(/\s+/).filter(Boolean);
 const frame = (answer) => {
   const first = answer.toLowerCase();
   if (/^(if|unless)\b/.test(first)) return 'conditional-leading';
-  if (/^(although|even though)\b/.test(first)) return 'concession-leading';
+  if (/^(although|even though|even on)\b/.test(first)) return 'concession-leading';
   if (/^(because|rather than)\b/.test(first)) return 'reason-or-purpose-leading';
   if (/^(while|whenever|since|after|before|at first)\b/.test(first)) return 'time-leading';
+  if (/^(no\.|not really[;,])/.test(first)) return 'dialogue-response';
+  if (/^(nina told me|kate says|rachel warned us|the counsellor asked|the manager was surprised)\b/.test(first)) return 'reported-speech';
   if (/\b(if|unless)\b/.test(first)) return 'conditional-later';
   if (/\b(because|so|rather than)\b/.test(first)) return 'reason-or-purpose-later';
   if (/\b(but|although|even though)\b/.test(first)) return 'contrast-later';
   if (/\b(when|whenever|since|after|before)\b/.test(first)) return 'time-later';
+  if (/\bused to fight like cat and dog\b/.test(first)) return 'past-habit-main-clause';
+  if (/\b(?:have|has|had) been fighting like cat and dog\b/.test(first)) return 'perfect-progressive-main-clause';
+  if (/\b(?:are|is|was|were) fighting like cat and dog\b/.test(first)) return 'progressive-main-clause';
+  if (/\bkept fighting like cat and dog\b/.test(first)) return 'continued-action-main-clause';
   return 'single-main-clause';
 };
 const aspect = (answer) => {
@@ -58,7 +64,8 @@ const rows = [...originals.keys(), ...extensions.keys()].map((id) => {
   const truth = originals.get(id) || extensions.get(id);
   const tags = metadata[id] || {};
   if (!item || !truth) throw new Error(`Missing draft or source for ${id}`);
-  const optionLengths = [truth.answer, ...item.foils.map((foil) => foil.text)].map((line) => words(line).length).sort((a, b) => a - b);
+  const correctText = item.correctText || truth.answer;
+  const optionLengths = [correctText, ...item.foils.map((foil) => foil.text)].map((line) => words(line).length).sort((a, b) => a - b);
   const median = (optionLengths[1] + optionLengths[2]) / 2;
   return {
     id,
@@ -67,9 +74,9 @@ const rows = [...originals.keys(), ...extensions.keys()].map((id) => {
     actorRole: tags.actorRole || null,
     relationship: tags.relationship || null,
     useFunction: tags.useFunction || null,
-    frame: frame(truth.answer),
-    aspect: aspect(truth.answer),
-    lead: words(truth.answer).slice(0, 3).join(' ').toLowerCase(),
+    frame: frame(correctText),
+    aspect: aspect(correctText),
+    lead: words(correctText).slice(0, 3).join(' ').toLowerCase(),
     foilKinds: item.foils.map((foil) => foil.kind),
     optionLengths,
     longestToMedian: Number((optionLengths[3] / median).toFixed(2)),

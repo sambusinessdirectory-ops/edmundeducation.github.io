@@ -20,15 +20,21 @@
   "distinctActorRolesTagged": 46,
   "distinctUseFunctionsTagged": 60,
   "frames": {
-    "single-main-clause": 22,
-    "time-later": 11,
-    "conditional-later": 5,
+    "single-main-clause": 11,
+    "time-later": 8,
+    "time-leading": 7,
+    "concession-leading": 5,
     "contrast-later": 5,
-    "reason-or-purpose-later": 5,
-    "time-leading": 5,
-    "concession-leading": 4,
-    "reason-or-purpose-leading": 2,
-    "conditional-leading": 1
+    "reported-speech": 5,
+    "conditional-later": 4,
+    "reason-or-purpose-later": 4,
+    "reason-or-purpose-leading": 3,
+    "dialogue-response": 2,
+    "perfect-progressive-main-clause": 2,
+    "conditional-leading": 1,
+    "continued-action-main-clause": 1,
+    "past-habit-main-clause": 1,
+    "progressive-main-clause": 1
   },
   "aspects": {
     "present-or-other": 32,
@@ -122,43 +128,7 @@
     "swapped-settings": 1
   },
   "repeatedThreeWordLeads": {},
-  "consecutiveSameFrame": [
-    [
-      "idiom-31-q03",
-      "idiom-31-q04",
-      "idiom-31-q05"
-    ],
-    [
-      "idiom-31-q04",
-      "idiom-31-q05",
-      "idiom-31-q06"
-    ],
-    [
-      "idiom-31-q05",
-      "idiom-31-q06",
-      "idiom-31-q07"
-    ],
-    [
-      "idiom-31-q06",
-      "idiom-31-q07",
-      "idiom-31-q08"
-    ],
-    [
-      "idiom-31-q07",
-      "idiom-31-q08",
-      "idiom-31-q09"
-    ],
-    [
-      "idiom-31-q11",
-      "idiom-31-q12",
-      "idiom-31-q13"
-    ],
-    [
-      "idiom-31-q24",
-      "idiom-31-q25",
-      "idiom-31-q26"
-    ]
-  ],
+  "consecutiveSameFrame": [],
   "lengthOutliers": [],
   "limits": "These are structural/lexical signals, not semantic-diversity or 12-axis editorial approval."
 }
