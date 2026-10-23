@@ -17,7 +17,7 @@
         "meaningEn": "Exceed an acceptable limit in words, actions or behaviour.",
         "meaningZh": "言語或行為越過可接受的界線，令事情從可接受變成不妥。",
         "grammar": "a joke went too far; do not go too far.",
-        "register": "Everyday expression; explain which boundary was crossed.",
+        "register": "Everyday boundary judgement: one participant tells another that a joke or action crossed a specific social limit; the boundary should be named rather than assumed.",
         "boundaryZh": "不是單純做得多或花時長，而是越過了具體的合理界線。",
         "misconceptionZh": "不要把 far 解作距離遠；也不要不說明界線便籠統批評。",
         "outcomeZh": "能指出原本可接受的行為及其越界的一刻。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2362",
@@ -285,7 +285,7 @@
         "meaningEn": "Excessive admiration that treats a person as almost beyond criticism.",
         "meaningZh": "過度崇拜某個人，將對方理想化到難以接受批評。",
         "grammar": "hero worship of a singer; appreciation can become hero worship.",
-        "register": "Often critical; distinct from ordinary appreciation of talent or work.",
+        "register": "Often critical fandom description: a friend or commentator tells another fan that admiration has turned into uncritical elevation of a celebrity.",
         "boundaryZh": "核心是對某個人的理想化，與一般欣賞不同；不一定涉及對某機構的忠誠。",
         "misconceptionZh": "不要把任何支持名人的行為都說成 hero worship；要有過度理想化的證據。",
         "outcomeZh": "能指出欣賞何時演變成無法理性評價偶像。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2366",
@@ -553,7 +553,7 @@
         "meaningEn": "Remain realistic and sensible despite success, praise or excitement.",
         "meaningZh": "即使獲得成功或讚美，仍能務實看待下一步，不被興奮沖昏頭腦。",
         "grammar": "keep your feet on the ground after a win; she kept her feet on the ground.",
-        "register": "Encouraging advice; it does not mean refusing to celebrate.",
+        "register": "Friendly, encouraging advice: a coach, parent or teammate tells a newly successful person to stay realistic and considerate while still enjoying the achievement.",
         "boundaryZh": "重點是成功後仍保有現實判斷，不必壓抑喜悅，也不是叫人站在地上。",
         "misconceptionZh": "不要把謙虛寫成否認成就；應說明如何保持務實。",
         "outcomeZh": "能同時承認好消息和指出接下來要做的事。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2394",
@@ -821,7 +821,7 @@
         "meaningEn": "Deliberately place a subtle hint in a story so it becomes meaningful later.",
         "meaningZh": "作者有意在故事較早處安插不顯眼的提示，讓讀者後來回看時發現其意義。",
         "grammar": "plant a tiny clue in the opening; planted a tiny clue early.",
-        "register": "Narrative and mystery-writing phrase; implies intention and later relevance.",
+        "register": "Neutral craft discussion: a mystery writer or editor tells another writer how an intentionally placed detail will matter to a later reveal.",
         "boundaryZh": "線索須刻意埋下且後來有用；普通背景細節或意外透露答案都不同。",
         "misconceptionZh": "不要把 plant 解成種植物，也不要讓線索在開頭直接揭穿結局。",
         "outcomeZh": "能指出小提示、後來的揭示，以及兩者如何呼應。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     }
   ]
 }

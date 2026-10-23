@@ -1,0 +1,47 @@
+{
+  "reviewId": "independent-ai-review-2614-2672-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2614-2637-a.json": "efe71f92bb8f08b5884a0f1c46618c356431094fb11dea2735999a440202684b",
+    "course-materials/advanced-native/drafts-books10-16/batch-2644-2672-a.json": "2878e7473edadc78654c8906c914d7599a34722016d1979f270ca4873e84a59a"
+  },
+  "reviewedLessonNumbers": [2614, 2618, 2636, 2637, 2644, 2648, 2649, 2672],
+  "scope": "Independent AI Golden SOP editorial review of eight provisional Author A drafts; no human, media, device or live approval.",
+  "checks": {
+    "build": "Fresh build and --check pass: 8 lessons, 48 questions, 32 audio requests, 0 structural flags.",
+    "sourceAndTarget": "All eight occurrence IDs, expressions and full source sentences match source-inventory.jsonl, and each reviewed target regex matches the cited source sentence. Every dialogue key and both writing examples per lesson contain a target match.",
+    "reply": "Every four-option reply set has exactly one target-bearing golden option; the four choices were read for independent pragmatic truth in their shared scene.",
+    "glossaryAndSpeaking": "All 40 glossary entries are exact suggested-answer spans after permitted case normalization and exclude the target; all eight speaking offsets slice the target form.",
+    "audio": "Four requested audio texts per lesson are distinct and target-bearing; synthesis, voice and playback were not checked.",
+    "bilingual": "English and Traditional Chinese task, option, model and takeaway claims were compared; no additional factual mismatch identified."
+  },
+  "findings": [
+    {
+      "id": "R2618-01",
+      "lessonId": "advanced-native-2618",
+      "severity": "major",
+      "surface": "scene.promptZh/options and writing.promptZh/examples",
+      "evidence": "The scene has a shopper enter a stationery shop for glue, see a checkout offer and buy unplanned cups. Final writing has a student enter a convenience shop for water, see a checkout offer and buy unplanned sweets. Both use the same checkout-promotion trigger, same single-item shopping trip and same add-on purchase decision; only the shop and products change.",
+      "problem": "The final task does not require meaningful transfer to a changed context as required by SOP P85 and the final writing step.",
+      "repair": "Move final writing to a distinctly different trigger and setting, such as a museum visitor who had planned only to see an exhibition but suddenly buys a print after viewing a painting. Avoid another checkout promotion or the bus-app trigger already used in listening; regenerate both model answers, translations and exact answer-derived glossary spans."
+    },
+    {
+      "id": "R2649-01",
+      "lessonId": "advanced-native-2649",
+      "severity": "major",
+      "surface": "dialogue.promptZh/options and writing.promptZh/examples",
+      "evidence": "The dialogue is a mother with childhood memories of visiting an old bakery with her grandmother despite long queues. Final writing is an alumna with school-day breakfast memories at a small bakery despite cheaper alternatives. Both ask the learner to apply a soft spot for to nostalgic attachment to an old bakery with an acknowledged downside.",
+      "problem": "The new-setting task repeats the immediately prior dialogue's place, emotion and concession structure, limiting transfer across contexts.",
+      "repair": "Use a different object or person of affection in final writing, with a different concrete reason and reasonable imperfection; then revise both English models, Traditional Chinese translations and their 4–6 exact answer-derived glossary rows."
+    },
+    {
+      "id": "R2672-01",
+      "lessonId": "advanced-native-2672",
+      "severity": "minor",
+      "surface": "brief.grammar",
+      "evidence": "The form list says ‘a break or action could/do/does/did a world of good’. The slash notation treats could as parallel to finite lexical forms, leaving the ungrammatical reading ‘a break could a world of good’.",
+      "problem": "The scalable grammar brief should explicitly encode the modal-plus-verb construction for authors and reviewers.",
+      "repair": "Write ‘could do / may do / does / did a world of good’ and keep the existing do someone a world of good variant. This metadata repair need not change assessed strings."
+    }
+  ],
+  "conclusion": "Repair lessons 2618 and 2649 for genuine changed-context writing; clarify lesson 2672 grammar notation. The other five lessons had no independent editorial finding in this pass. All eight remain provisional."
+}

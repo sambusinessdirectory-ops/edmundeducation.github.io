@@ -1,0 +1,50 @@
+{
+  "reviewId": "independent-ai-review-relemma-pilots-2341-2435-b-followup",
+  "follows": "independent-ai-review-relemma-pilots-2341-2435-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2341-relemma-review-pilot.json": "ef85242522c74799e3e3d82007d300b5d1b5b0b3d25f5708ccdc3b6d6d516e93",
+    "course-materials/advanced-native/drafts-books10-16/batch-2343-relemma-review-pilot.json": "cef5026e21fe9f2cad2df4d954c8eadeef5bc164e9b15f58cd895c61e998fb33",
+    "course-materials/advanced-native/drafts-books10-16/batch-2418-relemma-review-pilot.json": "14ba46cb3de1e9b8e7d88e74c07c8180abd94d2b90df06b278b8705a4495edfa",
+    "course-materials/advanced-native/drafts-books10-16/batch-2435-relemma-review-pilot.json": "7e0182c8ed0c3224d8a62d5dd6a776e27d283f1d20fda964a559cd2605be6781"
+  },
+  "findingOutcomes": [
+    {
+      "id": "R2343-01",
+      "status": "cleared",
+      "evidence": "The revised prompt establishes Leila's working prototype, short introduction, judge testing and her answers to detailed questions. All four reply options now derive from those stated facts; the target-bearing c remains a natural summary."
+    },
+    {
+      "id": "R2418-01",
+      "status": "cleared",
+      "evidence": "The revised prompt asks what the reporter could do after confirming lies. Checking statement dates, comparing phone records, tracing changed timelines and asking follow-up questions are all plausible actions, so the options no longer purport to report unstated past actions."
+    },
+    {
+      "id": "R2435-01",
+      "status": "content-design cleared; human eligibility decision remains",
+      "evidence": "The seven steps now assign distinguishable decisions: listening tests mildly exasperated figurative tone; reply paraphrases why a recurring task wears someone out; scene distinguishes an unwanted recurring duty from a liked recurring one; contrast tests figurative versus literal infinity; dialogue asks for empathy before advice; speaking explains the exaggeration; writing transfers the phrase to weeding and asks for a practical rota or shorter shifts. The item is still compositional, so a human editor must decide whether it merits a standalone advanced-expression lesson."
+    },
+    {
+      "id": "R2341-2435-brief-01",
+      "status": "cleared",
+      "evidence": "Each revised brief.register now identifies a speaker/listener context and a usable register or tone, including the actor/director context for 2341 and the informal teammate or housemate context for 2435."
+    }
+  ],
+  "newFindings": [
+    {
+      "id": "R2341-02",
+      "lessonId": "advanced-native-2341",
+      "severity": "major",
+      "surface": "reply.options[id=b,d].en/zh versus listening.en and reply.promptEn",
+      "evidence": "The listening scene says Tessa stopped sounding as if she read a script and reacted to each new question as the anxious nurse would. Reply b asserts her pauses made the nurse's worry believable, while reply d asserts she gave the nurse a clear motive in each scene. Neither pauses nor several scenes are established. The question asks what made her convincing in this rehearsal, so these two options read as claims about observed performance rather than possibilities.",
+      "problem": "Two of the four purportedly valid replies introduce unsupported details; answer c remains target-bearing but the four-valid-reply contract is not met.",
+      "repair": "Rewrite b and d as distinct observations supported by the visible rehearsal, or enrich the listening/reply prompt with pauses and motives if those are intended evidence. Preserve four independent true answers and exactly one target-bearing golden answer."
+    }
+  ],
+  "focusedChecks": {
+    "build": "Fresh build and --check pass: 4 lessons, 24 questions, 16 audio requests, 0 structural flags.",
+    "sourceAndTarget": "All source occurrence IDs, marked expressions and source sentences match source-inventory.jsonl; the target regex detects each full source sentence. Dialogue keys, both writing examples, four audio texts and speaking spans detect the relevant target forms.",
+    "replyAndGlossary": "Each reply has exactly one target-bearing golden option. Every glossary span exactly matches its suggested English answer after permitted initial-letter case normalization, with no target phrase included. Semantic four-validity is separately flagged for lesson 2341.",
+    "audio": "Each lesson's four requested audio texts are distinct. Synthesis, voice, playback and device QA are not included."
+  },
+  "conclusion": "The original four findings are cleared in content terms, subject to a human scope decision for 2435. The new R2341-02 reply defect requires repair and independent recheck before selecting lesson 2341. All four drafts remain provisional and lack human/media/device sign-off."
+}

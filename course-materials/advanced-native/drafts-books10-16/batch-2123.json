@@ -17,7 +17,7 @@
         "meaningEn": "Arrive or appear at a place, meeting or event.",
         "meaningZh": "到達或出現在某個地點、會議或活動。",
         "grammar": "show up; showed up; has shown up; show up at/for an event.",
-        "register": "Natural informal-to-neutral phrasal verb for arrival or appearance.",
+        "register": "Natural informal-to-neutral phrasal verb for arrival or appearance. A host may ask a colleague whether the invited speaker has shown up at the venue yet.",
         "boundaryZh": "本課指有人到場或出現；不是保證對方會留下來，也不是舊課 show up for someone「在需要時支持對方」的用法。",
         "misconceptionZh": "不要把答應出席或傳訊息當成已經到場。",
         "outcomeZh": "能分辨真正到場與只是預計出席，並正確使用 show up。"
@@ -282,7 +282,7 @@
           "Distinct arrival sense from existing advanced-native-364 supportive-presence sense."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

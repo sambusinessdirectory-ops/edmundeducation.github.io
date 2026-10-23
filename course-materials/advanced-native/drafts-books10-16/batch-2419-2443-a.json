@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "A book so engaging that readers want to keep reading.",
         "meaningZh": "情節引人入勝、令人想一直讀下去的書。",
-        "grammar": "This crime novel is a page-turner.",
-        "register": "Informal positive review for a book or story, not a description of page count or reading speed alone.",
+        "grammar": "Pattern: a page-turner (singular count noun), page-turners (plural). A book or story can be a page-turner; describe engagement, not physical page turning.",
+        "register": "Informal positive book review: a bookseller, reader or reviewer recommends a hard-to-put-down story to a friend; the phrase does not refer merely to page count.",
         "boundaryZh": "重點是故事持續吸引讀者；薄書、字大或翻頁很快並不足以稱為 page-turner。",
         "misconceptionZh": "不要把 page-turner 只理解為要翻頁的實體書；電子書也可以。",
         "outcomeZh": "能指出書中哪項敘事安排令讀者想繼續讀。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2428",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "Start or continue necessary work instead of delaying it.",
         "meaningZh": "不再拖延，着手或繼續完成眼前該做的工作。",
-        "grammar": "We can get on with the job while they set up the room.",
-        "register": "Practical everyday phrase, often after a delay or distraction; the job must be identifiable.",
+        "grammar": "Pattern: get/gets/got on with + the job, work or a named task. The with phrase supplies the activity; get on with the job means proceed or resume it.",
+        "register": "Practical everyday direction: a team leader or coworker tells colleagues to resume an identifiable task after a delay or distraction.",
         "boundaryZh": "可在準備妥當後開始，也可在受阻後繼續；不表示工作已經完成或做得倉卒。",
         "misconceptionZh": "不要把 get on with 混成與某人相處融洽；這裏的 with the job 指眼前工作。",
         "outcomeZh": "能說明甚麼阻礙已解除，以及接下來可做哪項具體工作。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2438",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "Improve a method so the same aim takes less wasted effort, rather than merely increasing effort.",
         "meaningZh": "改良工作方法，減少白費的力氣，而不是單純更用力或做更久。",
-        "grammar": "A clear checklist helps us work smarter rather than harder.",
-        "register": "Practical advice; efficiency must preserve the task’s needed quality and checks.",
+        "grammar": "Pattern: work smarter rather than harder. Smarter and harder function as comparative adverbs modifying work; do not add more before smarter.",
+        "register": "Practical efficiency advice: a teammate or manager tells colleagues how a better method saves effort while preserving necessary quality checks.",
         "boundaryZh": "重點是方法更有效率，並保留必要的品質；不是偷工減料，也不是叫人完全不努力。",
         "misconceptionZh": "不要把縮短時間自動當成 smarter；如果漏了必要檢查，可能只是省略工作。",
         "outcomeZh": "能指出舊方法浪費了甚麼，以及新方法如何在維持品質下改善。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2443",
@@ -817,8 +817,8 @@
       "brief": {
         "meaningEn": "Stop completely after progressing, rather than merely slowing down.",
         "meaningZh": "原本在進行的事情完全停下來，而不只是變慢。",
-        "grammar": "The project ground to a halt when the supplier failed.",
-        "register": "Vivid phrase for a service, project or activity losing all forward movement.",
+        "grammar": "Pattern: grind/grinds/ground to a halt; a service, project or vehicle is the subject. Ground is the past form of grind here; to a halt completes the phrase.",
+        "register": "Vivid neutral-to-negative report: a project manager, commuter or colleague tells someone why a service or activity stopped making progress entirely.",
         "boundaryZh": "要有原本在運作而後完全停止的過程；延遲、放慢或短暫改道未必符合。",
         "misconceptionZh": "不要把 halt 只看作車輛煞停；也不要把仍有部分進度的活動說成完全停頓。",
         "outcomeZh": "能指出甚麼關鍵障礙使哪項活動完全停止。"
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

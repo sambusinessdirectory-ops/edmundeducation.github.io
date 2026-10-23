@@ -17,7 +17,7 @@
         "meaningEn": "Connect with a feeling or experience many people recognise across different circumstances.",
         "meaningZh": "作品或說話觸及許多人都認得的情感或經驗，即使各人背景不同。",
         "grammar": "a story taps into something universal about belonging.",
-        "register": "Thoughtful review phrase; name the shared human feeling instead of using it as empty praise.",
+        "register": "Thoughtful review language: a viewer or critic tells another viewer which shared human feeling a story reaches; the phrase should not serve as empty praise.",
         "boundaryZh": "重點是共同的人類感受，不單是跨年齡受歡迎、收視高或題材很廣泛。",
         "misconceptionZh": "不要只說 universal 而不指出共同感受；也不要把少數人特有的經歷自動說成人人共有。",
         "outcomeZh": "能指出故事的具體情節，以及它觸及的普遍感受。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2353",
@@ -285,7 +285,7 @@
         "meaningEn": "A feeling that runs beneath the obvious action or tone of a work.",
         "meaningZh": "故事表面情節或語氣之下持續存在、未必明說的情感。",
         "grammar": "an emotional undercurrent beneath the comedy.",
-        "register": "Review metaphor for subtle sustained feeling, not a single explicit outburst.",
+        "register": "Subtle arts-criticism metaphor: a viewer or reviewer tells a friend about a continuing feeling beneath an outwardly comic scene, rather than one explicit outburst.",
         "boundaryZh": "重點是隱約而持續的情緒；若角色直接說出感受，便不一定是暗流。",
         "misconceptionZh": "不要把 undercurrent 當成真的水流，也不要把一瞬間的情緒爆發當成整部作品的暗藏脈絡。",
         "outcomeZh": "能指出表面事件與其下隱約流動的情感。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 5
+      "contentRevision": 6
     },
     {
       "id": "advanced-native-2358",
@@ -553,7 +553,7 @@
         "meaningEn": "Seem unusually vivid, impressive or dramatic in personality or presence.",
         "meaningZh": "人物的性格或氣場比日常所見更鮮明、誇張或令人印象深刻。",
         "grammar": "a larger than life performer; a larger than life character.",
-        "register": "Often admiring, though it may also imply theatrical excess.",
+        "register": "Conversational, often admiring description: a fan or reviewer tells a friend that a performer has an unusually vivid presence, while allowing possible theatrical excess.",
         "boundaryZh": "說的是人物氣質或表現，不是身形高大，也不是單憑知名度帶來觀眾。",
         "misconceptionZh": "不要把它當成身高比較；作品角色也可以 larger than life。",
         "outcomeZh": "能用具體行為解釋人物為何顯得非凡鮮明。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2360",
@@ -821,7 +821,7 @@
         "meaningEn": "Strong loyalty that prevents someone from recognising faults or judging evidence fairly.",
         "meaningZh": "對人或團體過分忠誠，以致忽略缺點或不願公平檢視證據。",
         "grammar": "blind devotion to a leader; blind devotion can silence criticism.",
-        "register": "Critical phrase; loyalty itself is not the problem, lack of judgment is.",
+        "register": "Critical description of unquestioning allegiance: one teammate warns another teammate who excuses a coach’s missed safety checks that loyalty is displacing independent judgement.",
         "boundaryZh": "與欣賞或支持不同，blind devotion 會忽視明顯問題；不必涉及名人崇拜。",
         "misconceptionZh": "不要把有理據的忠誠說成盲目，也不要把 blind 當作真的視力問題。",
         "outcomeZh": "能指出支持者忽略了哪項可核實的問題。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 5
     }
   ]
 }

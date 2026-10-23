@@ -17,7 +17,7 @@
         "meaningEn": "Be disapproved of by a group or society.",
         "meaningZh": "不獲某個群體或社會認同。",
         "grammar": "frown upon something; be frowned upon; frowns/frowned upon.",
-        "register": "Neutral to formal; names a social judgement, not a universal rule.",
+        "register": "Neutral to formal; names a social judgement, not a universal rule. An event organiser may tell a new volunteer that talking through a ceremony is frowned upon by guests.",
         "boundaryZh": "須有群體或文化上的不認同；不一定違法，也不代表所有人都反對。",
         "misconceptionZh": "不要把一個人皺眉的動作當成這個片語的意思。",
         "outcomeZh": "能分辨社群的不認同與個人的表情或正式禁令。"
@@ -267,7 +267,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2115",
@@ -284,7 +284,7 @@
         "meaningEn": "Make people suspect a possible problem or danger.",
         "meaningZh": "令人懷疑可能有問題或危險。",
         "grammar": "set/sets alarm bells ringing; the signal prompts concern rather than proving wrongdoing.",
-        "register": "Neutral to vivid spoken and written English.",
+        "register": "Neutral to vivid spoken and written English. A safety officer may tell event organisers that repeated electrical faults set alarm bells ringing before opening.",
         "boundaryZh": "是警號或疑慮，不等於已經證實出事。",
         "misconceptionZh": "不是指真正的警鐘響起。",
         "outcomeZh": "能在可疑線索出現時表達警覺，同時保留查證空間。"
@@ -534,7 +534,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2117",
@@ -551,7 +551,7 @@
         "meaningEn": "Occasionally, rather than continuously or on a fixed daily schedule.",
         "meaningZh": "偶爾發生，而非持續或每日定時發生。",
         "grammar": "An adverbial phrase, usually placed at the start or end of a clause.",
-        "register": "Neutral everyday English.",
+        "register": "Neutral everyday English. A parent may tell a teenager that it is fine to pause and meet friends from time to time.",
         "boundaryZh": "頻率不高且不固定；不能據此推斷具體次數。",
         "misconceptionZh": "不要把它理解為『準時』或『由一個時間到另一個時間』。",
         "outcomeZh": "能自然表達偶爾進行的活動，並與每日習慣分清。"
@@ -801,7 +801,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2118",
@@ -818,7 +818,7 @@
         "meaningEn": "Progress later than an agreed or expected timetable.",
         "meaningZh": "進度比商定或預期時間表慢。",
         "grammar": "run/runs/ran/running behind schedule; subject is an event, project or team.",
-        "register": "Neutral work, event and travel planning language.",
+        "register": "Neutral work, event and travel planning language. A project coordinator may tell a client that the installation is running behind schedule after a delivery delay.",
         "boundaryZh": "需有可比較的時間表；不一定表示工作失敗。",
         "misconceptionZh": "不要把花費較多金錢或表現較差直接等同時間進度落後。",
         "outcomeZh": "能分辨時間進度落後，並提出具體通知或調整。"
@@ -1068,7 +1068,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2119",
@@ -1085,7 +1085,7 @@
         "meaningEn": "Choose not to challenge or punish a minor problem this time.",
         "meaningZh": "這一次選擇不追究輕微問題。",
         "grammar": "let it slide; let is unchanged in past tense, as in I let it slide yesterday.",
-        "register": "Informal everyday English; use with a specific issue that could have been raised.",
+        "register": "Informal everyday English; use with a specific issue that could have been raised. A friend may tell another friend that she chose to let a small late reply slide rather than start an argument.",
         "boundaryZh": "通常是有意不追究小問題，不等於未察覺，也不適用於必須處理的嚴重風險。",
         "misconceptionZh": "不要把『不追究一次』當成永久准許或漠視安全問題。",
         "outcomeZh": "能在輕微失誤與必須介入的問題之間作出合理判斷。"
@@ -1335,7 +1335,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

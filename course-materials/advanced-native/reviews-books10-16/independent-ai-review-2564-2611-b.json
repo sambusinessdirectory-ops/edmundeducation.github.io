@@ -1,0 +1,78 @@
+{
+  "reviewId": "independent-ai-review-2564-2611-b",
+  "reviewedLessonIds": [
+    "advanced-native-2564",
+    "advanced-native-2566",
+    "advanced-native-2575",
+    "advanced-native-2591",
+    "advanced-native-2603",
+    "advanced-native-2604",
+    "advanced-native-2610",
+    "advanced-native-2611"
+  ],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2564-2591-a.json": "9d89bb2808a5a9962f01d9a49abf5e4a5e9ca9f000f6f8ad950576c67cb51685",
+    "course-materials/advanced-native/drafts-books10-16/batch-2603-2611-a.json": "0ad4e7e000b943bd3414d7ddc494a485ccd673e7cf950e4e18231454760cb1bc"
+  },
+  "scope": "Independent AI Golden SOP content review of eight unselected Author A drafts at exact file hashes; no human, media, device or live sign-off.",
+  "referenceSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/sop-extracted.txt": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "structuralChecks": {
+    "sourceProvenance": "Every source occurrence ID, marked expression and exact source sentence matches the source inventory; target regex finds the intended form in every cited full source sentence.",
+    "contract": "Fresh build followed by --check passes for all 12 drafts: 12 lessons, 72 assessed questions, 48 audio requests, 0 structural review flags.",
+    "replyAndGlossary": "Each reply has four options with exactly one target-bearing golden option. All 60 glossary spans re-slice from the actual suggested English answers with only permitted case normalization, and none supplies a target phrase. Pragmatic validity still has the editorial findings listed.",
+    "audio": "Each lesson has four distinct requested audio texts with a target match. Audio synthesis, voice, playback and device behavior have not been reviewed.",
+    "content": "All seven step surfaces, six answer keys, English/Traditional Chinese choices, two changed-context writing answers, speaking models and target spans were read for sense and fairness."
+  },
+  "findings": [
+    {
+      "id": "R2575-01",
+      "lessonId": "advanced-native-2575",
+      "severity": "major",
+      "surface": "brief.boundaryZh, brief.misconceptionZh, listening/scene/contrast/dialogue/writing framing",
+      "evidence": "The brief defines “centre of their world” as a dominant focus, but boundaryZh requires evidence that other relationships or activities are continually crowded out. Every assessed and writing context treats the expression as a warning about harmful imbalance. An authoritative dictionary example uses “his children are the center of his world” as an affectionate positive statement (Oxford Spanish Dictionary via PONS: https://es.pons.com/traducci%C3%B3n/ingl%C3%A9s-espa%C3%B1ol/center).",
+      "problem": "Crowding out can justify the warning in the specific source sentence, but the expression itself does not require neglect or negative consequences. Students may incorrectly reject a natural affectionate or neutral use.",
+      "repair": "Keep the game-overuse source sense, but revise the boundary to distinguish warning context from positive/neutral central importance. Add at least one fair positive-use or non-harm contrast so the lesson does not teach displacement as a necessary condition. Recheck Chinese “全部重心” for undue absolute force."
+    },
+    {
+      "id": "R2603-01",
+      "lessonId": "advanced-native-2603",
+      "severity": "major",
+      "surface": "dialogue.options[id=a].en/zh",
+      "evidence": "Correct reply says “Money talks in the speaking slot, though the sponsor does not control the exhibition.”",
+      "problem": "“Money talks in the speaking slot” is an unnatural locative combination for the target idiom. A highlighted correct answer must model fluent English.",
+      "repair": "Rewrite the target-bearing reply to connect sponsorship causally to the opening-ceremony speaking slot, for example “His funding earned him a speaking slot—money talks, though he does not control the exhibition.” Translate the revised proposition and recheck target span/key."
+    },
+    {
+      "id": "R2603-02",
+      "lessonId": "advanced-native-2603",
+      "severity": "major",
+      "surface": "writing.examples[0].en/zh and writing.glossary[1]",
+      "evidence": "Prompt states the company paid most of the uniform cost. First English model says “the company funded most uniforms”, meaning most uniform items, while its Chinese says “支付大部分球衣費用”. The glossary row “most uniforms” glosses “大部分球衣”.",
+      "problem": "The English model changes the quantitative claim and the Chinese translation silently reverts to the source cost claim. This fails bilingual factual fidelity in a final suggested answer.",
+      "repair": "State “funded most of the uniform costs” (or equivalent) in English, align Chinese, and recompute the affected exact answer-derived glossary span."
+    },
+    {
+      "id": "R2603-03",
+      "lessonId": "advanced-native-2603",
+      "severity": "minor",
+      "surface": "scene.options[id=b].en/zh",
+      "evidence": "Distractor says “The larger sponsor also set the race rules, although the organisers kept that responsibility.”",
+      "problem": "The two clauses contradict one another, making the distractor implausible by wording alone instead of testing the scope of money’s influence.",
+      "repair": "Use a coherent but wrong overreach claim, such as asserting that the sponsor must control the rules because it funded more, while the source says organisers retained rule-setting."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2564": "no new editorial finding in this review",
+    "advanced-native-2566": "no new editorial finding in this review",
+    "advanced-native-2575": "repair findings",
+    "advanced-native-2591": "no new editorial finding in this review",
+    "advanced-native-2603": "repair findings",
+    "advanced-native-2604": "no new editorial finding in this review",
+    "advanced-native-2610": "no new editorial finding in this review",
+    "advanced-native-2611": "no new editorial finding in this review"
+  },
+  "releaseConclusion": "Do not select or publish lessons 2575 or 2603 at these hashes until the cited semantic, English and bilingual defects are repaired and independently rechecked. All eight remain provisional pending human and media/device reviews."
+}

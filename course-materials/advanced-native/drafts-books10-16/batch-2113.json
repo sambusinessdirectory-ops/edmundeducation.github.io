@@ -17,7 +17,7 @@
         "meaningEn": "Moving or changing quickly, with little time between activities.",
         "meaningZh": "活動或變化接連發生，節奏很快。",
         "grammar": "fast-paced is a hyphenated adjective before a noun or after be/get; fast-paced environment, a fast-paced shift.",
-        "register": "Natural neutral description of pace; it can describe a workplace, event or other activity, not only a video.",
+        "register": "Natural neutral description of pace; it can describe a workplace, event or other activity, not only a video. A concertgoer may tell a companion that the opening set felt fast-paced and hard to follow.",
         "boundaryZh": "節奏快不一定代表工時長、品質好或每個人都喜歡；舊課 fast-paced video 只處理影片語境。",
         "misconceptionZh": "不要把 fast-paced 誤當成單純「時間很短」，它重點是活動接續得快。",
         "outcomeZh": "能用 fast-paced 描述新場景的快速節奏，並與工作時間長短分開。"
@@ -282,7 +282,7 @@
           "General adjective sense distinguished from existing advanced-native-153 fast-paced video lesson."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

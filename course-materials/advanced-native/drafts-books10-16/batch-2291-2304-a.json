@@ -17,7 +17,7 @@
         "meaningEn": "A story or experience whose effect builds gradually rather than arriving at once.",
         "meaningZh": "故事或體驗開始時較平靜，隨着發展逐漸累積吸引力或情感效果。",
         "grammar": "the film is a slow burn; a rewarding slow burn.",
-        "register": "Informal evaluation of stories and experiences; not simply a synonym for boring.",
+        "register": "Informal but thoughtful evaluation: a filmgoer or reviewer tells another viewer why a quiet story builds slowly and rewards attention; slow burn is not simply boring.",
         "boundaryZh": "須有後來逐漸累積的效果；一直無變化或一開場就高潮都不符合。",
         "misconceptionZh": "不要只因節奏慢就稱讚為慢熱，還要看到後段有回報。",
         "outcomeZh": "能指出故事如何逐步鋪排，以及後段帶來甚麼效果。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2293",
@@ -285,7 +285,7 @@
         "meaningEn": "Feel inclined to do or enjoy something at this moment.",
         "meaningZh": "當下想參與或享受某種活動、食物或內容。",
         "grammar": "in the mood for a film; not in the mood for a loud event.",
-        "register": "Conversational phrase for a temporary preference, not necessarily a permanent taste.",
+        "register": "Conversational, temporary preference: a friend or cinema-goer tells a companion what kind of film or outing they want now, without claiming it is a permanent taste.",
         "boundaryZh": "表示此刻的興致；不代表以後永遠喜歡或討厭該活動。",
         "misconceptionZh": "不要把「今天不想」改寫成「一向不喜歡」；亦不要忽略對方當下的狀態。",
         "outcomeZh": "能有禮貌地表達暫時偏好，並提出合適替代選擇。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2295",
@@ -553,7 +553,7 @@
         "meaningEn": "Attract an audience’s attention or curiosity so they want to engage.",
         "meaningZh": "透過開頭或首個接觸點吸引觀眾、讀者或訪客繼續了解。",
         "grammar": "an opening question can pull them in; the first scene pulled them in.",
-        "register": "Informal figurative pattern; them needs a clear audience antecedent.",
+        "register": "Informal figurative audience-engagement phrase: a writer, teacher or film reviewer tells a colleague how an opening draws clearly identified readers, students or viewers into the material.",
         "boundaryZh": "重點是把人吸引進內容的起點；後段能否一直留住他們仍要另看。",
         "misconceptionZh": "不要把它理解成拉人進門，也不要因開頭有資訊就假定能吸引人。",
         "outcomeZh": "能設計具體而相關的開頭，說明它如何引發目標受眾的好奇。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2304",
@@ -821,7 +821,7 @@
         "meaningEn": "Join and leave a group or activity over time without a firm, continuous commitment.",
         "meaningZh": "人在一段時間內自然地加入或離開某個團體或活動，參與沒有固定承諾。",
         "grammar": "drift in and out of a club; people drifted in and out of the group.",
-        "register": "Neutral descriptive pattern, often for loose participation; not necessarily criticism.",
+        "register": "Neutral, often nonjudgmental participation description: a club organiser or teacher tells a colleague that members attend intermittently rather than staying for every session.",
         "boundaryZh": "指一段時間內參與有進有出；不是準時的固定輪班，也不一定是每次同一人反覆出入。",
         "misconceptionZh": "不要把開放式參與錯寫成失職，也不要把單次有計劃的進出稱為 drift。",
         "outcomeZh": "能描述開放式活動的成員變化，並提出相應的安排。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

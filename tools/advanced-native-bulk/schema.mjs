@@ -112,6 +112,8 @@ export function validateRecord(record,{release=false}={}){
  checkQuestion(record.reply,'reply',{reply:true});
  for(const key of ['scene','contrast','dialogue'])checkQuestion(record[key],key);
  if(record.sources?.some(source=>source.file==='Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx')&&pattern){
+  const keyedScene=record.scene?.options?.find(option=>option.id===record.scene.answerId);
+  if(!keyedScene||!pattern.test(keyedScene.en||''))fail('scene.answerId','Books 10–16 scene key must model the target expression chosen for the concrete situation.');
   const keyedDialogue=record.dialogue?.options?.find(option=>option.id===record.dialogue.answerId);
   if(!keyedDialogue||!pattern.test(keyedDialogue.en||''))fail('dialogue.answerId','Books 10–16 dialogue key must naturally use the target expression promised by this step.');
  }

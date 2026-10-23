@@ -1,0 +1,27 @@
+{
+  "reviewId": "selected-brief-repair-review-2462-2502-b",
+  "follows": "selected-122-brief-grammar-register-audit-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2462-2490-a.json": "fcb5d481a4b510bcff305a1b53dcd10cec79864155c673a83ecd080119b73a0d",
+    "course-materials/advanced-native/drafts-books10-16/batch-2494-2502-a.json": "dc87651de09750929448388757b536981724e818b968b15f595cbd12ef0b1b4e"
+  },
+  "reviewedLessonNumbers": [2462, 2479, 2483, 2490, 2494, 2500, 2501, 2502],
+  "scope": "Independent AI review of P81 grammar and register repairs in the final eight selected briefs only. Assessed content, human, media and device approval are outside this scope.",
+  "checks": {
+    "grammar": "All eight revised brief.grammar fields now state a reusable construction, slot or subject, allowed forms and a usage constraint relevant to that expression. They no longer merely restate a practice sentence.",
+    "register": "All eight revised brief.register fields state a register or tone and identify both a plausible speaker and a plausible listener or audience. The pairs suit the lesson domains: social learning, business competition, paperwork, exam pressure, memory organisation, learning analysis, cognitive load and cluttered thinking.",
+    "stability": "The repairs are brief metadata changes; focused build and --check pass 8 lessons, 48 questions, 32 audio requests, 0 structural flags."
+  },
+  "lessonOutcomes": {
+    "2462": "P81 grammar and speaker/listener complete",
+    "2479": "P81 grammar and speaker/listener complete",
+    "2483": "P81 grammar and speaker/listener complete",
+    "2490": "P81 grammar and speaker/listener complete",
+    "2494": "P81 grammar and speaker/listener complete",
+    "2500": "P81 grammar and speaker/listener complete",
+    "2501": "P81 grammar and speaker/listener complete",
+    "2502": "P81 grammar and speaker/listener complete"
+  },
+  "findings": [],
+  "conclusion": "All eight scoped P81 brief repairs are cleared at the recorded hashes. This does not certify the other selected briefs or release."
+}

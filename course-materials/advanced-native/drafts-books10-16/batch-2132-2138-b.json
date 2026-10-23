@@ -17,7 +17,7 @@
         "meaningEn": "Disrupt the flow and coordination of an entire performance.",
         "meaningZh": "打亂整場演出的流程與配合。",
         "grammar": "throw/threw the whole performance out of rhythm; usually a disruption is the subject.",
-        "register": "Vivid figurative English for a live show or coordinated presentation.",
+        "register": "Vivid figurative English for a live show or coordinated presentation. A stage manager may tell performers that a missed cue could throw the whole performance out of rhythm.",
         "boundaryZh": "要有足以影響整場演出的中斷；單一小失誤若沒有影響整體，不宜誇大。",
         "misconceptionZh": "不是只指音樂節拍錯了；也可指整體流程被打亂。",
         "outcomeZh": "能說明突發事件如何破壞整場演出的流暢配合。"
@@ -267,7 +267,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2133",
@@ -284,7 +284,7 @@
         "meaningEn": "Allow a little extra time or capacity within a plan.",
         "meaningZh": "在計劃中預留一點額外時間或空間。",
         "grammar": "build/built a small buffer into + schedule, plan or budget.",
-        "register": "Practical, natural planning language in work and daily life.",
+        "register": "Practical, natural planning language in work and daily life. A planner may tell a client to build a small buffer into the timetable before confirming arrival times.",
         "boundaryZh": "重點是事先預留餘裕，不是已經延誤後才追加時間。",
         "misconceptionZh": "buffer 在這裏不是電腦緩衝，也不是可觸摸的墊子。",
         "outcomeZh": "能為一個具體安排預先加入少量應變時間。"
@@ -534,7 +534,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2134",
@@ -551,7 +551,7 @@
         "meaningEn": "A schedule leaves too little spare time for likely delays or tasks.",
         "meaningZh": "時間安排沒有足夠餘裕，稍有延誤便可能出問題。",
         "grammar": "the/our/your timing is too tight; timing was too tight; often followed by if or for.",
-        "register": "Direct and natural in everyday planning conversations.",
+        "register": "Direct and natural in everyday planning conversations. A rehearsal leader may tell a cast member that the timing is too tight if costumes must also be changed.",
         "boundaryZh": "表示安排風險過高，不等於事情一定不可能完成。",
         "misconceptionZh": "這裏的 tight 指時間不足，不是衣服或空間太窄。",
         "outcomeZh": "能根據具體時間限制判斷是否需要提前或縮短安排。"
@@ -801,7 +801,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2136",
@@ -818,7 +818,7 @@
         "meaningEn": "Make a plan flexible enough for ordinary unexpected needs and changes.",
         "meaningZh": "訂計劃時保留彈性，容納日常生活中的變化與突發需要。",
         "grammar": "leave/leaves/left room for real life; leaving room for real life after a main clause.",
-        "register": "Warm, conversational metaphor for practical planning.",
+        "register": "Warm, conversational metaphor for practical planning. A friend may tell someone drafting an ideal routine that leaving room for real life makes it easier to keep.",
         "boundaryZh": "是有意保留彈性，不是完全不設計劃，也不保證所有變化都能應付。",
         "misconceptionZh": "room 指抽象餘地，不是要騰出一間實體房間。",
         "outcomeZh": "能在計劃中考慮工作、家庭和其他日常變化。"
@@ -1068,7 +1068,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2138",
@@ -1085,7 +1085,7 @@
         "meaningEn": "A reserve of ten extra minutes between planned events to absorb minor delays.",
         "meaningZh": "在安排之間多留十分鐘，以應付輕微延誤。",
         "grammar": "a/the ten-minute cushion; add or leave a ten-minute cushion between events.",
-        "register": "Natural planning metaphor; the amount is literal, cushion is figurative.",
+        "register": "Natural planning metaphor; the amount is literal, cushion is figurative. A travel coordinator may tell passengers that a ten-minute cushion between connections allows for minor delays.",
         "boundaryZh": "只可吸收小幅延誤，不能保證任何延誤都不影響行程。",
         "misconceptionZh": "不是實際的坐墊，也不是把活動硬生生延長十分鐘。",
         "outcomeZh": "能在兩項安排之間提出具體的十分鐘備用時間。"
@@ -1335,7 +1335,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

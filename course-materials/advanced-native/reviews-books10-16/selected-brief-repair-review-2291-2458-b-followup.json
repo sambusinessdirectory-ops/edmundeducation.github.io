@@ -1,0 +1,39 @@
+{
+  "reviewId": "selected-brief-repair-review-2291-2458-b-followup",
+  "follows": "selected-brief-repair-review-2291-2458-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b",
+    "course-materials/advanced-native/drafts-books10-16/batch-2351-2360-a.json": "24edf2d1369a34e2a6bbc810d593e48454a9e8fbf3c72fc39598871116b18564",
+    "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json": "7b9230e15be65cecfe9f6dcaa01b7e48dcbb96ca2eb247132f67e83c4f02444e"
+  },
+  "reviewedLessonNumbers": [2335, 2350, 2360, 2457],
+  "findingOutcomes": [
+    {
+      "id": "R2335-P81",
+      "status": "cleared",
+      "evidence": "A colleague now speaks to the sender of a terse message about how a new hire may receive it. This gives a concrete likely recipient and preserves the distinction between impression and intent."
+    },
+    {
+      "id": "R2350-P81",
+      "status": "cleared",
+      "evidence": "A music reviewer now speaks to a festival programmer about a song reaching teenagers and parents. The recipient has a specific reason to consider cross-age appeal."
+    },
+    {
+      "id": "R2360-P81",
+      "status": "cleared",
+      "evidence": "One teammate now warns another who excuses a coach's missed safety checks. The recipient and reason for warning are concrete and fit the critical sense of blind devotion."
+    },
+    {
+      "id": "R2457-P81",
+      "status": "cleared",
+      "evidence": "A community organiser now speaks to a fellow volunteer using a translation app, distinguishing useful drafting assistance from the volunteer's final human check."
+    }
+  ],
+  "focusedChecks": {
+    "contentStability": "Recursive comparison of all 12 lessons in the three affected files with Git HEAD shows changes limited to brief.register, the previously reviewed brief.grammar repairs in the 2449–2458 file, and contentRevision. No assessment prompts, options, keys, models, glossary, target or source data changed.",
+    "revision": "The four scoped lessons' contentRevision values advanced by one from the prior independent review: 2335 3→4, 2350 3→4, 2360 4→5, 2457 3→4.",
+    "build": "Fresh build and --check pass for the three affected files: 12 lessons, 72 questions, 48 audio requests, 0 structural review flags."
+  },
+  "remainingFindings": [],
+  "conclusion": "All four residual P81 listener findings from the 40-lesson review are cleared at these hashes. This is metadata review, not human or release approval."
+}

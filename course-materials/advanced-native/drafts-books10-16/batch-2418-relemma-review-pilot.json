@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-relemma-2418-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2418",
+      "number": 2418,
+      "inventoryId": "expr-2418",
+      "titleEn": "untangle the lies",
+      "titleZh": "理清交織的謊言",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\buntangl(?:e|es|ed|ing)\\s+(?:the|their)\\s+lies\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Clarify how several deceptive claims fit together or conflict by carefully tracing evidence, rather than merely spotting a single false statement.",
+        "meaningZh": "仔細查證並理清多個互相牽連或矛盾的謊言，而不只是指出一句話不真實。",
+        "grammar": "untangle the lies; untangled their lies; a transitive figurative verb with a plural object referring to deceptive claims.",
+        "register": "Neutral-to-serious figurative account: an investigative reporter, editor or researcher explains a documented inquiry to a colleague or reader; use lies only after deception is established, not for innocent mistakes.",
+        "boundaryZh": "須有已確認的虛假說法，並透過證據理清彼此關係；只有一項未核實的疑點時，不應先稱之為 lies。",
+        "misconceptionZh": "untangle 並非字面解開繩結；找出一個錯字或單一矛盾，也未必等於理清多個謊言。",
+        "outcomeZh": "能在有多項已核實的虛假說法時，描述如何用證據理清它們之間的關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0307",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 28,
+          "book": 10,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "54–55",
+          "locatorNote": "DOCX table 23, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The investigator slowly untangles the lies.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "untangles the lies"
+        }
+      ],
+      "listening": {
+        "en": "Three witnesses changed their accounts after the fire. Once the reporter checked the phone records, she untangled the lies and saw how the false timelines supported one another.",
+        "zh": "火災後，三名證人更改了說法。記者查核通話紀錄後，理清了他們的謊言，看出那些虛假時間線如何互相配合。",
+        "promptZh": "記者查核通話紀錄後，發現了甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The false accounts were connected, and she traced how they supported one another.",
+            "zh": "那些虛假說法彼此相關，她追查出它們如何互相配合。"
+          },
+          {
+            "id": "b",
+            "en": "One witness had made a mistake, but the other accounts did not need checking.",
+            "zh": "一名證人犯了錯，但其他說法不需要查核。"
+          },
+          {
+            "id": "c",
+            "en": "The records confirmed every timeline, so there was no deception to examine.",
+            "zh": "紀錄證實了所有時間線，因此沒有虛假說法需要查究。"
+          },
+          {
+            "id": "d",
+            "en": "She found a false time in one account but did not compare it with the others.",
+            "zh": "她發現一份說法中的時間有誤，但沒有與其他說法比較。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "記者並非只找出一處錯誤；她用通話紀錄追查多個虛假時間線之間的關係。"
+      },
+      "reply": {
+        "promptEn": "After confirming that several witnesses lied about the fire, what could the reporter do to establish how their accounts conflict?",
+        "promptZh": "（記者證實數名證人就火災說謊後，可以怎樣查明各人口供之間的矛盾？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She could check the dates in each statement.",
+            "zh": "她可以核對每份口供中的日期。"
+          },
+          {
+            "id": "b",
+            "en": "She could compare the accounts with phone records.",
+            "zh": "她可以把口供與通話紀錄比較。"
+          },
+          {
+            "id": "c",
+            "en": "She could untangle the lies by tracing who changed the timeline.",
+            "zh": "她可以追查誰更改了時間線，理清彼此牽連的謊言。"
+          },
+          {
+            "id": "d",
+            "en": "She could ask follow-up questions about the first contradiction.",
+            "zh": "她可以就第一處矛盾追問更多問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是在已確認有人說謊後可採取的合理查證方法；金句用本課表達概括理清多個謊言的工作。"
+      },
+      "scene": {
+        "promptZh": "保險稽核員確認幾張收據是偽造的，又發現申請人對購物日期說了不同版本。她把收據、店舖紀錄和說法逐一比對。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She untangled the lies by comparing the receipts with the shop records.",
+            "zh": "她比對收據和店舖紀錄，理清了彼此牽連的謊言。"
+          },
+          {
+            "id": "b",
+            "en": "She noticed one altered date and left the other claims unexamined.",
+            "zh": "她注意到一個被改動的日期，卻沒有查核其他說法。"
+          },
+          {
+            "id": "c",
+            "en": "She accepted the claimant’s latest account without checking the receipts.",
+            "zh": "她沒有查核收據，就接受了申請人最新的說法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "稽核員已確認多項虛假資料，並以不同紀錄理清它們如何相連。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 untangle the lies？",
+        "options": [
+          {
+            "id": "a",
+            "en": "An investigator confirms several accounts are false, then compares their timelines.",
+            "zh": "調查員已確認多份口供虛假，再逐一核對它們的時間線。"
+          },
+          {
+            "id": "b",
+            "en": "A teacher finds one typo in a report and does not yet know whether anyone lied.",
+            "zh": "老師只發現報告有一個筆誤，尚未知道是否有人故意說假話。"
+          },
+          {
+            "id": "c",
+            "en": "An auditor finds several fake receipts and traces how they connect to bank transfers.",
+            "zh": "稽核員查出幾張假收據，並追查它們與銀行轉帳如何配合。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一個筆誤不等於多個已確認的謊言；使用 lies 前，必須有證據支持。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們已證實幾張收據是假的，但每個人對付款日期都說得不一樣。下一步怎樣做？」哪個回應最合適？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let’s untangle the lies by matching each receipt to the bank transfers.",
+            "zh": "我們把每張收據與銀行轉帳逐一比對，理清這些謊言。"
+          },
+          {
+            "id": "b",
+            "en": "Let’s choose the neatest story now and check the records only if someone complains.",
+            "zh": "我們先選一個最整齊的說法，有人投訴才查紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "Let’s correct the date on one receipt and assume the other accounts agree.",
+            "zh": "我們先改正一張收據的日期，假設其他說法一致。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已確認假收據，關鍵是用銀行轉帳逐一查清不同說法，不能憑整齊與否或單一日期下結論。"
+      },
+      "speaking": {
+        "en": "The investigator untangled the lies by placing every claim beside the train records.",
+        "zh": "調查員把每項說法與火車紀錄逐一比對，理清了彼此牽連的謊言。",
+        "promptZh": "先聽完整示範，再說出調查員如何用紀錄查明多項虛假說法。",
+        "targetSpan": {
+          "start": 17,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校報記者已證實，有人就音樂會取消原因發表數個互相矛盾的虛假說法。記者找到場地電郵和學生會訊息。用一至兩句英文說明她如何查清。",
+        "selfCheckZh": "表明不只發現一處錯誤，而是用至少兩項資料理清多個已證實的虛假說法；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "The editor untangled the lies by comparing the venue email with the messages sent to students.",
+            "zh": "編輯把場地電郵與發給學生的訊息比較，理清了彼此牽連的謊言。"
+          },
+          {
+            "en": "By checking the venue’s reply and the council’s posts, the reporter untangled the lies about the cancelled concert.",
+            "zh": "記者查核場地的回覆和學生會的帖文，理清了關於音樂會取消的謊言。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the venue email",
+            "zh": "場地電郵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 58
+            }
+          },
+          {
+            "en": "the messages sent to students",
+            "zh": "發給學生的訊息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 93
+            }
+          },
+          {
+            "en": "the venue’s reply",
+            "zh": "場地的回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 29
+            }
+          },
+          {
+            "en": "the council’s posts",
+            "zh": "學生會的帖文",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 53
+            }
+          },
+          {
+            "en": "the cancelled concert",
+            "zh": "已取消的音樂會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 114
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The reporter untangled the lies by checking each false timeline against the call logs.",
+          "zh": "記者把每條虛假時間線與通話紀錄核對，理清了謊言。"
+        },
+        {
+          "en": "To untangle their lies, the auditor compared the receipts with the bank records.",
+          "zh": "稽核員把收據與銀行紀錄比較，以理清他們的謊言。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA reviews remain pending.",
+          "The source example is guide-written provenance, not a learner-facing model copied into practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

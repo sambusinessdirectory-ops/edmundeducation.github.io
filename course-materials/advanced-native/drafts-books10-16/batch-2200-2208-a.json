@@ -17,7 +17,7 @@
         "meaningEn": "Come together at an arranged time, usually for a social activity.",
         "meaningZh": "按約定時間相聚，通常一起參與社交活動。",
         "grammar": "meet up with someone; meet up for lunch; met up yesterday.",
-        "register": "Informal and friendly; more social than a formal meeting.",
+        "register": "Informal and friendly; more social than a formal meeting. A friend may ask another friend whether they want to meet up after class for a walk.",
         "boundaryZh": "須有相聚或約見的意思；在街上偶然遇見不等於事先相約。",
         "misconceptionZh": "不要把 meet up 當成必然開正式會議，也不要忽略相約的語境。",
         "outcomeZh": "能自然提出朋友間的約見安排。"
@@ -268,7 +268,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2201",
@@ -285,7 +285,7 @@
         "meaningEn": "Browse shop displays or products for pleasure without intending to buy.",
         "meaningZh": "為了消遣而看商店陳列或商品，並不打算購買。",
         "grammar": "go window-shopping; spend an afternoon window-shopping.",
-        "register": "Everyday leisure expression; may include browsing inside stores.",
+        "register": "Everyday leisure expression; may include browsing inside stores. A sibling may tell another sibling that they went window-shopping together without planning to buy anything.",
         "boundaryZh": "重點是看商品而沒有即時購買打算；稍後改變主意不使先前用法錯誤。",
         "misconceptionZh": "不要把它理解成只看真正的玻璃櫥窗，也不要說成已經大量購物。",
         "outcomeZh": "能區分消遣式瀏覽與計劃中的採購。"
@@ -536,7 +536,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2202",
@@ -553,7 +553,7 @@
         "meaningEn": "Work naturally within an ordinary routine without being impractical.",
         "meaningZh": "能自然融入平日作息，實際上容易持續。",
         "grammar": "fit into everyday life; fits into everyday life.",
-        "register": "Neutral useful collocation for habits, activities and plans.",
+        "register": "Neutral useful collocation for habits, activities and plans. A counsellor may ask a student whether the proposed exercise routine can fit into everyday life.",
         "boundaryZh": "重點是與現有作息相容，不表示完全不用付出時間或努力。",
         "misconceptionZh": "不要只因活動很好，就假設它必然能在忙碌日程中持續。",
         "outcomeZh": "能判斷一項新習慣是否實際適合日常作息。"
@@ -636,8 +636,8 @@
         "options": [
           {
             "id": "a",
-            "en": "Read for ten minutes on the bus each weekday.",
-            "zh": "每個上課日在巴士上讀十分鐘。"
+            "en": "Reading for ten minutes on the bus each weekday would fit into everyday life.",
+            "zh": "每個上課日在巴士上讀十分鐘，便能融入日常生活。"
           },
           {
             "id": "b",
@@ -804,7 +804,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2204",
@@ -821,7 +821,7 @@
         "meaningEn": "Appealing qualities that are not obvious on a first look.",
         "meaningZh": "初看未必發現、細看才察覺的吸引之處。",
         "grammar": "the hidden charms of a place; has hidden charms.",
-        "register": "Positive figurative description, often for places or experiences.",
+        "register": "Positive figurative description, often for places or experiences. A local guide may tell visitors about a neighbourhood's hidden charms beyond its best-known street.",
         "boundaryZh": "須有後來才發現的吸引力；不是秘密危險或刻意隱藏的金錢。",
         "misconceptionZh": "不要只因地方不出名就斷言必有吸引力，需有具體發現。",
         "outcomeZh": "能指出一個不顯眼地方令人喜愛的具體細節。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2208",
@@ -1089,7 +1089,7 @@
         "meaningEn": "Divide broadly into two groups of opinions or preferences.",
         "meaningZh": "按意見或喜好，大致分成兩個主要群體。",
         "grammar": "fall into two main camps; fell into two main camps.",
-        "register": "Neutral discussion phrase; the groups need not be hostile.",
+        "register": "Neutral discussion phrase; the groups need not be hostile. A discussion leader may tell participants that responses fall into two main camps before comparing them.",
         "boundaryZh": "表示兩個主要類別，仍可能有少數其他看法；不應憑一兩人就概括所有人。",
         "misconceptionZh": "不要理解成真的住進兩個營地，或必然有敵對陣營。",
         "outcomeZh": "能用概括語氣描述兩組主要不同看法。"
@@ -1340,7 +1340,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

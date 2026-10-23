@@ -1,0 +1,41 @@
+{
+  "reviewId": "independent-ai-review-2564-2611-b-followup",
+  "follows": "independent-ai-review-2564-2611-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2564-2591-a.json": "b3081a3594582a2061048ffbf8d7f35ba54a22fe882d8200dbbfc02e73d6c24c",
+    "course-materials/advanced-native/drafts-books10-16/batch-2603-2611-a.json": "3bfdd66f9e577924d280060b9c012258e0604de2a7b6987481d00fa3443c823c"
+  },
+  "reviewedLessonIds": ["advanced-native-2564", "advanced-native-2566", "advanced-native-2575", "advanced-native-2591", "advanced-native-2603", "advanced-native-2604", "advanced-native-2610", "advanced-native-2611"],
+  "findingOutcomes": [
+    {
+      "id": "R2575-01",
+      "status": "cleared",
+      "evidence": "The revised boundary explicitly permits affectionate centrality without harm, and the misconception warns against equating every use with neglect. Contrast option a gives a positive parental use; option b is the least applicable, while option c grounds the negative sense in actual cancellations. The listening and writing Chinese now describe a central focus rather than requiring universal displacement. The speaking model's stronger Chinese is supported by its explicit English crowding-out context."
+    },
+    {
+      "id": "R2603-01",
+      "status": "cleared",
+      "evidence": "The correct dialogue reply now says ‘His funding earned him a speaking slot—money talks, though he does not control the exhibition.’ The causal use is idiomatic, the Traditional Chinese matches it, and the correct option still contains exactly one detected target."
+    },
+    {
+      "id": "R2603-02",
+      "status": "cleared",
+      "evidence": "The first writing model now says ‘funded most of the uniform costs’, agreeing with the prompt and Chinese translation. The revised glossary item ‘most of the uniform costs’ is an exact span of that English answer and excludes the target expression."
+    },
+    {
+      "id": "R2603-03",
+      "status": "cleared",
+      "evidence": "The scene distractor now makes a coherent but unjustified overreach claim: ‘The larger sponsor must also control the race rules because it paid more.’ This tests the boundary between funding influence and rule control without contradicting itself."
+    }
+  ],
+  "focusedChecks": {
+    "build": "Fresh build and subsequent --check pass for 8 lessons, 48 questions and 32 audio requests with 0 review flags.",
+    "sourceAndTarget": "All eight occurrence IDs, source sentences and marked expressions exactly match source-inventory.jsonl; each target regex matches its full source sentence. Each dialogue key and both writing examples per lesson contain the target.",
+    "reply": "All eight reply sets have exactly one target-bearing option, and that option is the marked golden reply. All four replies per lesson were reread for plausibility; no new issue found.",
+    "glossaryAndSpeaking": "Every glossary span exactly slices its specified suggested English writing answer, remains non-target material, and all speaking target offsets exactly slice the target-bearing phrase.",
+    "audio": "Four requested audio texts per lesson are distinct. This checks text only; synthesis, playback and device QA are pending.",
+    "editorial": "The four prior defects and the revised English/Traditional Chinese assessment and writing context were reread; no new blocking issue found."
+  },
+  "remainingFindings": [],
+  "conclusion": "The four prior findings are cleared at the recorded revised file hashes. These remain provisional drafts, not human-approved or released lessons."
+}

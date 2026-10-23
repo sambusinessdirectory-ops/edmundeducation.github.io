@@ -17,7 +17,7 @@
         "meaningEn": "At maximum speed or intensity, like an engine at full power.",
         "meaningZh": "形容一段工作或活動以非常高的速度與強度進行。",
         "grammar": "a full-throttle pace; a full-throttle rehearsal.",
-        "register": "Vivid informal engine metaphor; often used for a short demanding period.",
+        "register": "Vivid informal engine metaphor; often used for a short demanding period. A producer may tell performers that a full-throttle rehearsal period is manageable only for a short stretch.",
         "boundaryZh": "表示強度高，不表示可以忽略安全或長期不休息。",
         "misconceptionZh": "不要把它當成真的操縱油門，也不要用來形容悠閒、低強度活動。",
         "outcomeZh": "能描述短時間的高強度安排，同時清楚說明實際行動。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2252",
@@ -285,7 +285,7 @@
         "meaningEn": "Reduce one’s pace and regain a calmer, clearer state before continuing.",
         "meaningZh": "暫時降低活動節奏，讓自己恢復平靜或清晰思路，再繼續。",
         "grammar": "slow down and reset; slowed down and reset.",
-        "register": "Natural conversational pairing for a temporary pause and fresh start.",
+        "register": "Natural conversational pairing for a temporary pause and fresh start. A teammate may tell an exhausted colleague to slow down and reset before trying the plan again.",
         "boundaryZh": "不一定完全停止活動，也不等於放棄責任或按實體重設鍵。",
         "misconceptionZh": "不要把休息描寫成逃避，也不要保證片刻休息能解決所有問題。",
         "outcomeZh": "能提出有時限的放慢節奏安排，並說明其後如何再開始。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2253",
@@ -553,7 +553,7 @@
         "meaningEn": "Causing mental tiredness because it demands sustained thought, worry or attention.",
         "meaningZh": "一項活動或處境因持續要思考、擔心或專注而令人精神疲累。",
         "grammar": "a mentally draining task; the delay was mentally draining.",
-        "register": "Neutral descriptive adjective; it names the cause, not the person’s state.",
+        "register": "Neutral descriptive adjective; it names the cause, not the person’s state. A tutor may tell a student that constant interruptions make the revision session mentally draining.",
         "boundaryZh": "用來形容造成精神疲勞的事情；人感到疲累則可說 mentally drained。",
         "misconceptionZh": "不要以為只有體力勞動才會累，也不要把任何短暫困難都誇大成極度耗神。",
         "outcomeZh": "能具體說明哪項工作或處境令人精神疲累及其原因。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2255",
@@ -821,7 +821,7 @@
         "meaningEn": "The ability of something to remain popular, useful or effective over time.",
         "meaningZh": "某物經過一段時間仍能保持吸引力、受歡迎程度或效用。",
         "grammar": "has staying power; surprising staying power.",
-        "register": "Neutral evaluative phrase; requires evidence beyond an impressive launch.",
+        "register": "Neutral evaluative phrase; requires evidence beyond an impressive launch. A music reviewer may tell an editor that the album shows staying power because audiences still return months later.",
         "boundaryZh": "重點是長期維持，而不是首日反應熱烈，也不是原地不動。",
         "misconceptionZh": "不要只因剛推出就說它有持久力；應指出多年或多次使用後的表現。",
         "outcomeZh": "能用跨時間的證據判斷活動或設計是否具有持久吸引力。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2269",
@@ -1089,7 +1089,7 @@
         "meaningEn": "Alter or selectively present facts so a claim sounds better than the reality.",
         "meaningZh": "為了令說法好聽一點而改動或選擇性呈現事實，令他人誤解。",
         "grammar": "bend the truth about a cost; bent the truth in an advert.",
-        "register": "Conversational expression for misleading distortion; it still matters ethically.",
+        "register": "Conversational expression for misleading distortion; it still matters ethically. A friend may tell another friend that omitting the extra fee would bend the truth about the price.",
         "boundaryZh": "可能不像完全捏造那樣明顯，但仍不誠實；不等於正常四捨五入並清楚標示。",
         "misconceptionZh": "不要把有意誤導說成無害，也不要在沒有證據時指控他人歪曲事實。",
         "outcomeZh": "能辨認看似輕微的事實扭曲，並提出準確替代說法。"
@@ -1340,7 +1340,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     }
   ]
 }

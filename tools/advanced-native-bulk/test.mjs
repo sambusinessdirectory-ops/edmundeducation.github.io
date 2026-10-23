@@ -51,6 +51,9 @@ assert.ok(validateRecord(fragment).errors.some(e=>e.message.includes('fragment')
 const twoGolden=structuredClone(record);twoGolden.reply.options[0].en='They got through it with help.';twoGolden.reply.options[1].en='We got through it together.';
 assert.ok(validateRecord(twoGolden).errors.some(e=>e.path==='reply.goldenId'),'Reply cannot contain two target options.');
 const books1016=JSON.parse(fs.readFileSync(new URL('../../course-materials/advanced-native/drafts-books10-16/batch-2112-2119.json',import.meta.url),'utf8')).lessons[0];
+const missingSceneTarget=structuredClone(books1016);
+missingSceneTarget.scene.options.find(option=>option.id===missingSceneTarget.scene.answerId).en='Choose a convenient time and write it down.';
+assert.ok(validateRecord(missingSceneTarget).errors.some(e=>e.path==='scene.answerId'),'A Books 10–16 keyed scene must use the expression being chosen for that situation.');
 const missingDialogueTarget=structuredClone(books1016);
 missingDialogueTarget.dialogue.options.find(option=>option.id===missingDialogueTarget.dialogue.answerId).en='Use headphones in the study room.';
 assert.ok(validateRecord(missingDialogueTarget).errors.some(e=>e.path==='dialogue.answerId'),'A Books 10–16 keyed dialogue must actually model its target expression.');

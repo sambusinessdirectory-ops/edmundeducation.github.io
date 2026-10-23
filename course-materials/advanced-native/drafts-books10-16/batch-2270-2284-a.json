@@ -17,7 +17,7 @@
         "meaningEn": "The final or supposedly definitive statement about a subject.",
         "meaningZh": "對某議題被視為最終、具權威性的結論或說法。",
         "grammar": "the last word on the matter; not the last word on a subject.",
-        "register": "Neutral set phrase, often used to caution against treating one source as final.",
+        "register": "Neutral set phrase, often used to caution against treating one source as final. A researcher may tell a colleague that one interview should not be treated as the last word on the dispute.",
         "boundaryZh": "表示「最終定論」，不必是字面最後說出的字；單一初步來源往往不足以作定論。",
         "misconceptionZh": "不要因一篇短文或一個人的意見就假設問題已完全解決。",
         "outcomeZh": "能判斷現有資料是否足以支持最終定論，並建議下一步核實。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2272",
@@ -285,7 +285,7 @@
         "meaningEn": "Treat an issue, inquiry or chapter of work as finished.",
         "meaningZh": "把某個問題、調查或階段視為已經結束，不再繼續追查或討論。",
         "grammar": "close the book on an investigation; not close the book yet.",
-        "register": "Common figurative phrase; often followed by on plus the matter.",
+        "register": "Common figurative phrase; often followed by on plus the matter. A school leader may tell parents that the inquiry cannot close the book on the matter before the reports arrive.",
         "boundaryZh": "不是字面合上書；是否適宜結案要看證據是否充分。",
         "misconceptionZh": "不要因出現第一條線索就貿然停止調查，也不要在已充分解決時無限拖延。",
         "outcomeZh": "能說明何時仍須跟進，何時可以合理地結束一件事。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2278",
@@ -553,7 +553,7 @@
         "meaningEn": "Help explain something that was previously unclear.",
         "meaningZh": "提供資料或角度，使原先不清楚的問題更易理解。",
         "grammar": "shed light on a problem; sheds light on why something happened.",
-        "register": "Neutral useful phrase in reports, discussion and explanation.",
+        "register": "Neutral useful phrase in reports, discussion and explanation. A scientist may tell a community group that fresh measurements shed light on why the river changed colour.",
         "boundaryZh": "是幫助理解，不一定提供完整答案或最終證明；不是字面照明。",
         "misconceptionZh": "不要把無關資料說成能解釋問題，也不要因一條線索就宣稱所有疑問已解決。",
         "outcomeZh": "能指出哪項新資料如何幫助釐清一個具體問題。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2280",
@@ -821,7 +821,7 @@
         "meaningEn": "Exaggerate facts beyond what the evidence supports to make a story or claim sound better.",
         "meaningZh": "為使說法更吸引而誇大真實情況，超出證據支持的程度。",
         "grammar": "stretch the truth about a result; stretched the truth in an advert.",
-        "register": "Conversational idiom for exaggeration; overlaps with bend the truth, with emphasis here on enlarging a claim.",
+        "register": "Conversational idiom for exaggeration; overlaps with bend the truth, with emphasis here on enlarging a claim. A coach may tell a player that calling a narrow win an overwhelming victory stretches the truth.",
         "boundaryZh": "與 bend the truth 都可指誤導；bend the truth 可包括挑選或扭曲細節，本課的 stretch the truth 特別指把真實成果誇大至超出證據支持的規模。",
         "misconceptionZh": "不要把明確標示的估計值當成誇大，也不要因喜歡故事就忽視可核實的事實。",
         "outcomeZh": "能辨認過度誇大的說法，並提出保留真實成果的準確改寫。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2283",
@@ -1089,7 +1089,7 @@
         "meaningEn": "Become available or happen, especially of an opportunity.",
         "meaningZh": "指機會、邀請或合適時機出現，可供人把握。",
         "grammar": "an opportunity comes along; a chance like this may not come along soon.",
-        "register": "Everyday conversational phrase; the subject is usually a chance or opportunity in this sense.",
+        "register": "Everyday conversational phrase; the subject is usually a chance or opportunity in this sense. An adviser may tell a graduate that a suitable apprenticeship may not come along again soon.",
         "boundaryZh": "本課指機會出現，不是某人沿路走來或陪同出行。",
         "misconceptionZh": "不要假設機會一定會再來，也不要把已經存在但無法參與的事硬說成出現可把握的機會。",
         "outcomeZh": "能辨認新出現的機會並說明合理的下一步。"
@@ -1340,7 +1340,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2284",
@@ -1357,7 +1357,7 @@
         "meaningEn": "Maintain an audience’s strong interest so they want to continue.",
         "meaningZh": "持續吸引讀者、聽眾或觀眾，讓他們想追下去。",
         "grammar": "keep them hooked until the end; kept them hooked throughout.",
-        "register": "Informal figurative phrase for storytelling and engaging content.",
+        "register": "Informal figurative phrase for storytelling and engaging content. A storyteller may tell a fellow writer that a clear unanswered question can keep young readers hooked.",
         "boundaryZh": "them 必須有清楚的指代對象；重點是興趣持續，不只是開頭一秒被吸引。",
         "misconceptionZh": "不要把 hooked 理解成真的用鉤子鉤住，也不要把突兀的懸念當成唯一方法。",
         "outcomeZh": "能指出具體敘事安排如何讓一群人持續關注。"
@@ -1608,7 +1608,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

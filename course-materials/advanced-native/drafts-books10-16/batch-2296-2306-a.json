@@ -17,7 +17,7 @@
         "meaningEn": "Feel directly relevant to particular people and their experiences.",
         "meaningZh": "令某些人因自身經歷而感到作品與自己息息相關。",
         "grammar": "a story speaks to them personally; it spoke to me personally.",
-        "register": "Figurative, often used of art, stories and public messages.",
+        "register": "Reflective figurative evaluation: a viewer or reader tells a friend or reviewer that a story reaches them on a personal level; name the actual personal connection.",
         "boundaryZh": "關鍵是與聽眾自身經歷產生聯繫，不只是作品很受歡迎或容易明白。",
         "misconceptionZh": "不要把 speak 理解為作品會真的開口說話，也不要把普遍受歡迎等同個人共鳴。",
         "outcomeZh": "能指出作品與哪一段自身經歷相呼應。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2297",
@@ -285,7 +285,7 @@
         "meaningEn": "Just as engaging or persuasive as the person or thing being compared with.",
         "meaningZh": "與比較對象同樣能吸引人或說服人，毫不遜色。",
         "grammar": "every bit as compelling as the first film.",
-        "register": "Emphatic but natural comparison, especially in reviews and evaluations.",
+        "register": "Emphatic comparison in a review: a film critic or viewer tells another viewer that a second work is just as engaging as the stated first work.",
         "boundaryZh": "須有清楚的比較對象；不是說第二個作品更吸引人，也不是只表示兩者題材相同。",
         "misconceptionZh": "不要漏掉 as 後的比較對象；compelling 指吸引力，不必表示內容完全一致。",
         "outcomeZh": "能評價兩個作品雖形式不同，吸引力卻同樣強。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2298",
@@ -553,7 +553,7 @@
         "meaningEn": "A true account that strongly holds the audience’s attention.",
         "meaningZh": "以真實事件為基礎，而且情節或敘述十分吸引人的故事。",
         "grammar": "a gripping real-life story about rescue; gripping real-life stories.",
-        "register": "Natural descriptive phrase for books, films and spoken accounts.",
+        "register": "Natural descriptive language in informal reviews: a reader or filmgoer recommends a nonfiction story to a friend, explaining what makes the true account gripping.",
         "boundaryZh": "real-life 指真實經歷，gripping 指抓住注意力；不能只因寫得刺激便把虛構作品稱為真實故事。",
         "misconceptionZh": "不要把 gripping 誤解為真的抓住人，也不要略過真實性要求。",
         "outcomeZh": "能交代真實事件及其使聽眾投入的原因。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2306",
@@ -821,7 +821,7 @@
         "meaningEn": "Music strongly associated with an experience, period or group, beyond a film’s literal soundtrack.",
         "meaningZh": "某首或某組音樂與一段生活經歷、時期或群體緊密相連，彷彿為其配樂。",
         "grammar": "became a soundtrack for their summer; the soundtrack to a campaign.",
-        "register": "Figurative extension of film terminology; name the experience the music represents.",
+        "register": "Figurative music-and-memory language: a traveller or reviewer tells a friend which music captures a named period, event or campaign; soundtrack is not limited to a literal film track.",
         "boundaryZh": "這裏不單指電影真正的配樂，須交代音樂與某段經歷的象徵性連繫。",
         "misconceptionZh": "不要把播放過一次的歌曲自動稱為整段經歷的 soundtrack，也不要與電影配樂清單混淆。",
         "outcomeZh": "能說明一首歌為何代表某群人的共同回憶。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

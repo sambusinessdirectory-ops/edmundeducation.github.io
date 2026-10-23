@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2564-2591-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2564",
+      "number": 2564,
+      "inventoryId": "expr-2564",
+      "titleEn": "police every habit",
+      "titleZh": "過度管束每個習慣",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:police|polices|policed|policing) every habit\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Control or monitor even minor everyday behaviour too closely.",
+        "meaningZh": "連日常細微習慣也嚴密監控或干預。",
+        "grammar": "Pattern: a rule, supervisor or policy polices/policed every habit; police/polices/policed/policing take every habit as the object. Here police means monitor or control, not a literal officer.",
+        "register": "Neutral to critical discussion of policy. An employee, student or community member may say it to a manager or peer when distinguishing necessary safety standards from excessive monitoring.",
+        "boundaryZh": "合理安全規則可以存在；本課批評的是把無關緊要的個人習慣也逐一管束。",
+        "misconceptionZh": "不要把任何規則都說成過度管束；須指出它越過了哪條合理界線。",
+        "outcomeZh": "能比較必要規範與細微習慣受到過分干預的差別。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0453",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 42,
+          "book": 11,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A workplace rule should not police every habit.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "police every habit"
+        }
+      ],
+      "listening": {
+        "en": "A library asked visitors to keep voices low, which protected quiet study. A proposal to record how often each visitor took a water break went much further and would police every habit.",
+        "zh": "圖書館請訪客輕聲交談，保障安靜溫習；但有人提議記錄每位訪客喝水休息的次數，這就走得太遠，會過度管束每個習慣。",
+        "promptZh": "哪項做法 would police every habit？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Recording each visitor’s water breaks even though quiet study is the real concern.",
+            "zh": "真正需要維持的是安靜，卻連每位訪客喝水休息都記錄。"
+          },
+          {
+            "id": "b",
+            "en": "Asking visitors to speak softly in study areas.",
+            "zh": "請訪客在自修區輕聲說話。"
+          },
+          {
+            "id": "c",
+            "en": "Posting opening hours where visitors can see them.",
+            "zh": "把開放時間張貼在訪客看得到的地方。"
+          },
+          {
+            "id": "d",
+            "en": "The proposal would help visitors find a quieter room for group discussion.",
+            "zh": "該提議可幫訪客找到較安靜的房間作小組討論。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "喝水休息與安靜溫習無直接關係，逐次記錄屬過分干預；維持安靜的規則本身合理。"
+      },
+      "reply": {
+        "promptEn": "Why did the library reject the proposal to log every water break?",
+        "promptZh": "（圖書館為何拒絕逐次記錄喝水休息？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It controlled a personal routine unrelated to keeping the room quiet.",
+            "zh": "它管束與保持安靜無關的個人習慣。"
+          },
+          {
+            "id": "b",
+            "en": "A rule about speaking softly was enough to address the stated concern.",
+            "zh": "輕聲說話的規則已能處理題目所說的顧慮。"
+          },
+          {
+            "id": "c",
+            "en": "Staff did not need to police every habit to protect quiet study.",
+            "zh": "職員毋須過度管束每個習慣，才能保障安靜溫習。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors could take short breaks without disturbing readers.",
+            "zh": "訪客短暫休息而不打擾讀者即可。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明喝水次數超出安靜規則的必要範圍；金句指出不應事無大小都管。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The safety rule is reasonable, but tracking water breaks would police every habit.",
+            "zh": "安全規則合理；追蹤喝水休息卻會過度管束日常習慣。"
+          },
+          {
+            "id": "b",
+            "en": "Both rules are necessary because laboratory goggles protect eyes.",
+            "zh": "護目鏡能保護眼睛，所以兩項規則都必然必要。"
+          },
+          {
+            "id": "c",
+            "en": "Any rule about laboratory safety means students have no freedom at all.",
+            "zh": "只要有實驗室安全規則，學生便完全沒有自由。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "戴護目鏡直接關乎安全，記錄喝水時間則不相干且過細；不應全盤否定規則。",
+        "promptZh": "學校要求實驗室戴護目鏡，另有人主張記錄學生每天在校園喝水的確切分鐘。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager logs exactly when staff sip water, despite no effect on work.",
+            "zh": "經理記錄職員每次喝水的時間，雖然這不影響工作。"
+          },
+          {
+            "id": "b",
+            "en": "A laboratory requires protective glasses while chemicals are handled.",
+            "zh": "實驗室處理化學品時要求戴護目鏡。"
+          },
+          {
+            "id": "c",
+            "en": "A club records every member’s choice of snack and asks them to justify it.",
+            "zh": "社團記錄每位會員選甚麼零食，還要他們解釋。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "護目鏡要求針對明確安全風險，並非干預每個細微習慣。",
+        "promptZh": "哪個情況最不適合批評為 police every habit？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Protecting files makes sense, but reporting water breaks would police every habit without addressing that risk.",
+            "zh": "保護檔案合理，但逐次申報喝水休息會過度管束習慣，對該風險無幫助。"
+          },
+          {
+            "id": "b",
+            "en": "Because file security matters, every private routine should be reported too.",
+            "zh": "檔案安全重要，所以每項私人習慣也應申報。"
+          },
+          {
+            "id": "c",
+            "en": "A water-break rule proves the file restriction is unnecessary.",
+            "zh": "有喝水休息規則便證明限制檔案的做法不必要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "應區分與資料安全有關的規範，和毫不相干的細微習慣監控。",
+        "promptZh": "同事說：「辦公室想保障資料安全，所以禁止把客戶檔案帶回家；但也打算要求我們逐次申報何時喝水。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "A sensible rule can protect safety without trying to police every habit.",
+        "zh": "合理規則可保障安全，毋須嘗試過度管束每個習慣。",
+        "promptZh": "先聽示範，再說明哪條規則有正當目的。",
+        "targetSpan": {
+          "start": 53,
+          "end": 71
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廚房要求義工洗手及記錄食材溫度，這關乎衛生；主管另想逐次記錄義工何時喝茶，雖然不影響工作。義工提議保留衛生規則，取消喝茶紀錄。用一至兩句英文說明界線。",
+        "selfCheckZh": "指出洗手和食材溫度是必要衛生要求、喝茶紀錄與風險無關，以及保留前者、取消後者；不要說所有規則都應取消。",
+        "examples": [
+          {
+            "en": "The kitchen should keep handwashing and food-temperature checks, but logging every tea break would police every habit without improving hygiene, so volunteers asked to drop that log.",
+            "zh": "廚房應保留洗手和食材溫度檢查；逐次記錄喝茶休息卻不改善衛生，只會過度管束習慣，義工因此要求取消。"
+          },
+          {
+            "en": "The volunteers supported hygiene rules for hands and ingredients but opposed a tea-break register that would police every habit, because those breaks did not affect food safety.",
+            "zh": "義工支持洗手和食材衛生規則，卻反對逐次記錄喝茶休息；喝茶不影響食物安全，這樣做會過度管束每個習慣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "food-temperature checks",
+            "zh": "食材溫度檢查",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 63
+            }
+          },
+          {
+            "en": "every tea break",
+            "zh": "每次喝茶休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 92
+            }
+          },
+          {
+            "en": "without improving hygiene",
+            "zh": "不改善衛生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 143
+            }
+          },
+          {
+            "en": "a tea-break register",
+            "zh": "喝茶休息紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 97
+            }
+          },
+          {
+            "en": "food safety",
+            "zh": "食物安全",
+            "exampleIndex": 1,
+            "span": {
+              "start": 165,
+              "end": 176
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A school should address real harm rather than police every habit.",
+          "zh": "學校應處理真正傷害，而非過度管束每個習慣。"
+        },
+        {
+          "en": "A rule that polices every habit can make a minor routine feel like misconduct.",
+          "zh": "過度管束每個習慣的規則，會令普通小事彷彿變成違規。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2566",
+      "number": 2566,
+      "inventoryId": "expr-2566",
+      "titleEn": "enter the picture",
+      "titleZh": "開始成為考慮因素",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:enter|enters|entered|entering) the picture\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become relevant to a situation or decision after circumstances change.",
+        "meaningZh": "情況改變後，某因素開始與判斷有關。",
+        "grammar": "Pattern: X enters/entered the picture once or when Y changes; X is a newly relevant factor such as safety, cost or access. Enter the picture is intransitive.",
+        "register": "Neutral explanatory conversation. A planner, teacher or organiser may say it to a team considering a new circumstance and its consequences.",
+        "boundaryZh": "這裏不是人真的走入畫面；重點是某因素開始需要考慮，而非它必定決定結果。",
+        "misconceptionZh": "不要把原本已是核心的因素說成新出現；要有改變了的條件。",
+        "outcomeZh": "能指出何時某考慮因素開始變得相關。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0455",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 42,
+          "book": 11,
+          "question": 2,
+          "sample": "S1",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Safety concerns enter the picture once children travel alone.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "enter the picture"
+        }
+      ],
+      "listening": {
+        "en": "The community café once served only seated customers. When it began delivering hot drinks by bicycle, packaging safety entered the picture alongside taste and price.",
+        "zh": "社區咖啡店原本只招待堂食客人。開始用單車送熱飲後，包裝安全便與味道和價格一樣，成為需要考慮的因素。",
+        "promptZh": "甚麼時候 packaging safety entered the picture？",
+        "options": [
+          {
+            "id": "a",
+            "en": "When bicycle delivery made hot drinks travel away from the café.",
+            "zh": "當單車送餐令熱飲要離開咖啡店運送時。"
+          },
+          {
+            "id": "b",
+            "en": "When customers began ordering the same drink at the counter.",
+            "zh": "當客人在櫃檯點同一款飲品時。"
+          },
+          {
+            "id": "c",
+            "en": "When the café changed the colour of its menu.",
+            "zh": "當咖啡店改了菜單的顏色時。"
+          },
+          {
+            "id": "d",
+            "en": "When the café stopped considering taste and price altogether.",
+            "zh": "當咖啡店完全不再考慮味道和價格時。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "送熱飲帶來新的運送安全考慮；它加入決策，不代表味道和價格不再重要。"
+      },
+      "reply": {
+        "promptEn": "Why did the café begin checking the lids on its takeaway cups?",
+        "promptZh": "（咖啡店為何開始檢查外送杯蓋？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Delivery created a risk of hot drinks spilling on the journey.",
+            "zh": "外送途中，熱飲有灑出的風險。"
+          },
+          {
+            "id": "b",
+            "en": "Packaging mattered once drinks were carried by bicycle.",
+            "zh": "熱飲開始用單車運送後，包裝變得重要。"
+          },
+          {
+            "id": "c",
+            "en": "Packaging safety entered the picture when the café added delivery.",
+            "zh": "咖啡店推出外送後，包裝安全開始成為考慮因素。"
+          },
+          {
+            "id": "d",
+            "en": "Staff needed the cups to remain secure during transport.",
+            "zh": "職員需要杯子在運送途中保持穩固。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應新增外送如何令杯蓋安全相關；金句突出新因素開始加入判斷。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "After the evening class was added, lighting and transport entered the picture.",
+            "zh": "增設夜間班後，照明和交通開始成為考慮因素。"
+          },
+          {
+            "id": "b",
+            "en": "Lighting was the only concern long before any evening class existed.",
+            "zh": "在夜間班出現很久前，照明已是唯一考慮。"
+          },
+          {
+            "id": "c",
+            "en": "The new class means daytime teaching quality no longer matters.",
+            "zh": "有了新課程，日間教學質素便不再重要。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "夜間班改變情況，令照明與交通開始相關；並非取代所有原有考慮。",
+        "promptZh": "社區中心原本只辦日間課程；增設夜間班後，門外照明與回家交通也需列入計劃。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A gallery adds outdoor events, so rain plans become relevant.",
+            "zh": "畫廊增設戶外活動，雨天安排開始相關。"
+          },
+          {
+            "id": "b",
+            "en": "A swimming pool has always checked water quality and continues the same checks.",
+            "zh": "游泳池一向檢查水質，現在仍照樣檢查。"
+          },
+          {
+            "id": "c",
+            "en": "A market begins selling frozen food, so cold storage matters.",
+            "zh": "街市開始賣冷凍食品，冷藏開始重要。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "水質一直是原有考慮，沒有新的條件令它突然加入；其他兩項有新活動。",
+        "promptZh": "哪個情況最不適合說 a new factor entered the picture？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Then internet access enters the picture; we should test the connection as well as prepare the reading list.",
+            "zh": "那麼網絡接入也開始成為考慮因素；我們除了備好書單，也應測試連線。"
+          },
+          {
+            "id": "b",
+            "en": "The reading list is irrelevant now because the club uses video.",
+            "zh": "讀書會改用視像後，書單便完全不重要。"
+          },
+          {
+            "id": "c",
+            "en": "Internet access was the sole concern even when no one joined remotely.",
+            "zh": "即使以前無人遙距參加，網絡接入仍是唯一考慮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "視像參加帶來新的網絡要求，但原有書單仍重要。",
+        "promptZh": "同事說：「我們的讀書會開始接受視像參加，以前只辦實體活動。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Once the workshop moved outdoors, the weather entered the picture.",
+        "zh": "工作坊移到戶外後，天氣便開始成為考慮因素。",
+        "promptZh": "先聽示範，再指出哪項條件改變。",
+        "targetSpan": {
+          "start": 46,
+          "end": 65
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區書店原本只在店內辦讀書會；開始提供網上直播後，版權授權及收音設備也需考慮。店員保留選書討論，同時檢查新要求。用一至兩句英文描述新因素如何加入。",
+        "selfCheckZh": "指出網上直播是改變、版權和收音設備開始相關，以及原有選書討論仍保留；不要說直播使所有原有工作消失。",
+        "examples": [
+          {
+            "en": "When the bookshop added live streaming, copyright permissions and microphones entered the picture; staff still prepared the reading discussion while checking the new needs.",
+            "zh": "書店增設直播後，版權授權與麥克風開始成為考慮因素；職員仍籌備選書討論，同時核對新要求。"
+          },
+          {
+            "en": "Copyright and audio equipment entered the picture when the club added live streaming, but the books and discussion remained central to the event.",
+            "zh": "讀書會增設直播後，版權和收音設備開始需要考慮，但書籍與討論仍是活動核心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "live streaming",
+            "zh": "直播",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 38
+            }
+          },
+          {
+            "en": "copyright permissions",
+            "zh": "版權授權",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 61
+            }
+          },
+          {
+            "en": "the reading discussion",
+            "zh": "選書討論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 142
+            }
+          },
+          {
+            "en": "audio equipment",
+            "zh": "收音設備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 29
+            }
+          },
+          {
+            "en": "remained central",
+            "zh": "仍是核心",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When tickets went digital, phone access entered the picture.",
+          "zh": "門票轉為電子形式後，手機接入便開始成為考慮因素。"
+        },
+        {
+          "en": "A new audience may make translation enter the picture.",
+          "zh": "有了新觀眾，翻譯可能開始成為考慮因素。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2575",
+      "number": 2575,
+      "inventoryId": "expr-2575",
+      "titleEn": "centre of their world",
+      "titleZh": "生活的全部重心",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:centre|center) of (?:my|your|his|her|our|their) world\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A person or activity of central importance in someone’s life.",
+        "meaningZh": "某人生活中十分重要的人或活動。",
+        "grammar": "Pattern: someone/something is or becomes the centre of my/your/his/her/our/their world. The noun phrase is a complement naming central importance; a possessive determiner identifies whose life is being described.",
+        "register": "Informal to neutral and often affectionate or reflective. A parent can say their children are the centre of their world with warmth; a friend can use the same phrase critically when one activity crowds out other commitments.",
+        "boundaryZh": "這句可親切地表示某人或某事十分重要，本身不代表失衡；只有當具體情境顯示其他重要事情被排擠時，才帶批評意味。",
+        "misconceptionZh": "不要把每次使用都解讀為忽略其他人，也不要把 centre 當真實地點；短期專注本身亦不足以證明長期失衡。",
+        "outcomeZh": "能指出某人或活動在生活中佔重要位置，並按語境分辨親切描述與失衡警告。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0464",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 43,
+          "book": 11,
+          "question": 2,
+          "sample": "S2",
+          "sourceBookPages": "5–7",
+          "locatorNote": "DOCX table 38, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The game should not become the centre of their world.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "centre of their world"
+        }
+      ],
+      "listening": {
+        "en": "Hana enjoyed the robotics club, but she began refusing every family plan and stopping the music lessons she had valued. The club had become the centre of her world.",
+        "zh": "哈娜喜歡機械人社團，但後來每次都拒絕家庭安排，還停了原本重視的音樂課。社團已成為她生活的核心。",
+        "promptZh": "為何說社團成為 centre of her world？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It took priority so consistently that other valued parts of life were displaced.",
+            "zh": "它一直被放在優先位置，令生活中其他重視的部分被擠走。"
+          },
+          {
+            "id": "b",
+            "en": "She attended the club once and still enjoyed her other activities.",
+            "zh": "她只參加過一次社團，仍享受其他活動。"
+          },
+          {
+            "id": "c",
+            "en": "She took the club seriously for one short project but returned to her usual plans afterwards.",
+            "zh": "她短期內認真投入一個社團項目，之後便恢復原有安排。"
+          },
+          {
+            "id": "d",
+            "en": "Her family asked about one robotics project.",
+            "zh": "家人問過一次機械人項目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續拒絕家庭活動和放棄原本珍惜的音樂課，顯示社團佔據生活重心；非地點描述。"
+      },
+      "reply": {
+        "promptEn": "Why is Hana’s family concerned about how much time she gives the club?",
+        "promptZh": "（哈娜家人為何關心她投入社團的時間？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She keeps turning down family plans for it.",
+            "zh": "她不斷為社團拒絕家庭活動。"
+          },
+          {
+            "id": "b",
+            "en": "Her former music lessons have fallen away.",
+            "zh": "她原本的音樂課也停了。"
+          },
+          {
+            "id": "c",
+            "en": "The club seems to have become the centre of her world.",
+            "zh": "社團似乎已成為她生活的全部重心。"
+          },
+          {
+            "id": "d",
+            "en": "They want her to make room for other things she once valued.",
+            "zh": "家人希望她仍能為以前重視的其他事留時間。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應社團如何排擠其他生活部分；金句概括過度集中的重心。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The game has become the centre of his world, crowding out other interests.",
+            "zh": "遊戲已成為他生活的核心，擠走其他興趣。"
+          },
+          {
+            "id": "b",
+            "en": "He has merely tried a new game while keeping his old plans.",
+            "zh": "他只是嘗試新遊戲，仍維持原有安排。"
+          },
+          {
+            "id": "c",
+            "en": "He gave the game extra time for one week, then returned to writing and football.",
+            "zh": "他只多花一週玩遊戲，之後又恢復寫作和踢球。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "遊戲持續排擠原本重視的活動，不只是喜歡一款新遊戲。",
+        "promptZh": "學生原本喜歡寫作和與朋友踢球，後來把每個周末都交給一款遊戲，連約好的活動也長期取消。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A parent says her children are the centre of her world and gladly makes time for them alongside work and friends.",
+            "zh": "一位母親說孩子是她生活的核心，並樂意陪伴他們，同時維持工作和友情。"
+          },
+          {
+            "id": "b",
+            "en": "A student enjoys a weekly class but continues family, study and other hobbies.",
+            "zh": "學生喜歡每週一堂課，也繼續家庭活動、學習及其他興趣。"
+          },
+          {
+            "id": "c",
+            "en": "Someone cancels nearly every social plan to follow one online competition.",
+            "zh": "有人為追看一項網上比賽，幾乎取消所有社交安排。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "親切地說孩子是生活核心是自然用法，不須有忽略其他事的後果；偶爾上一堂課卻不足以顯示這種核心地位。",
+        "promptZh": "哪個情況最不適合說某人或活動是 centre of their world？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Running may have become the centre of his world; perhaps check whether he still wants time for the people and art he valued.",
+            "zh": "跑步可能成為他生活的核心；不妨問他還想不想為重要的人和畫畫留時間。"
+          },
+          {
+            "id": "b",
+            "en": "Anyone who exercises weekly must be neglecting all other interests.",
+            "zh": "每週運動的人必定忽略所有其他興趣。"
+          },
+          {
+            "id": "c",
+            "en": "His changed routine proves he will never enjoy painting again.",
+            "zh": "作息改變證明他永遠不會再喜歡畫畫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友提供持續排擠家庭、友情與畫畫的線索；回應保持審慎，不作永久斷言。",
+        "promptZh": "朋友說：「阿文現在只談跑步，每個周末都取消跟家人和朋友的安排；他原本很喜歡的畫畫也停了。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "A hobby can become the centre of your world if it consistently pushes everything else aside.",
+        "zh": "若一項興趣長期擠走其他一切，它可成為你生活的全部重心。",
+        "promptZh": "先聽示範，再指出哪些事情被擠走。",
+        "targetSpan": {
+          "start": 23,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生原本兼顧戲劇社、探望祖母與閱讀。最近幾個月他一直為線上棋賽取消探訪及戲劇排練，連書也很少碰。朋友想提醒他留意平衡。用一至兩句英文描述目前的重心與影響。",
+        "selfCheckZh": "指出棋賽持續幾個月佔據時間、祖母探訪、戲劇及閱讀受到擠壓，並以審慎語氣提出平衡；不要因短期一場比賽便武斷。",
+        "examples": [
+          {
+            "en": "Online chess seems to have become the centre of his world: for months he has missed drama rehearsals, visits to his grandmother and reading time, so a friend could ask about balance.",
+            "zh": "線上棋賽似乎已成為他生活的核心：幾個月來他錯過戲劇排練、探望祖母及閱讀，朋友可提醒他留意平衡。"
+          },
+          {
+            "en": "For months he has kept cancelling family visits and drama practice and has hardly read; chess may be the centre of his world, so his friend can help him make room for those other commitments.",
+            "zh": "幾個月來他不斷取消家庭探訪與戲劇排練，也很少閱讀；棋賽可能成為他生活的核心，朋友可幫他重新為其他安排留時間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "for months",
+            "zh": "幾個月來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 69
+            }
+          },
+          {
+            "en": "drama rehearsals",
+            "zh": "戲劇排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 100
+            }
+          },
+          {
+            "en": "visits to his grandmother",
+            "zh": "探望祖母",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 127
+            }
+          },
+          {
+            "en": "has hardly read",
+            "zh": "很少閱讀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 86
+            }
+          },
+          {
+            "en": "other commitments",
+            "zh": "其他安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 173,
+              "end": 190
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The band should not become the centre of her world if she wants time for friends and study.",
+          "zh": "若她仍想陪朋友和溫習，樂隊不應成為生活全部重心。"
+        },
+        {
+          "en": "For a while, exams may be the centre of our world, but we should notice what we postpone.",
+          "zh": "考試有一段時間可能是生活重心，但仍應留意推遲了甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2591",
+      "number": 2591,
+      "inventoryId": "expr-2591",
+      "titleEn": "financial cushion",
+      "titleZh": "財務緩衝儲備",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfinancial cushion\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Savings set aside to absorb an unexpected expense or income gap.",
+        "meaningZh": "預留儲蓄以承受突發開支或收入短缺。",
+        "grammar": "Pattern: a/small financial cushion is a noun phrase; someone builds/has/uses a financial cushion, or a cushion covers an unexpected expense. The money is a pre-existing reserve.",
+        "register": "Neutral everyday finance language. A friend, household member or adviser may say it to someone planning for a repair, bill or temporary income gap.",
+        "boundaryZh": "緩衝作用是減輕意外衝擊，不必是龐大財富，也不保證可支付任何金額。",
+        "misconceptionZh": "不要把日常購物預算或借來的錢說成自己的 financial cushion。",
+        "outcomeZh": "能指出預留款項、突發開支，以及它如何令家庭較易應付。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0480",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 44,
+          "book": 11,
+          "question": 4,
+          "sample": "S1",
+          "sourceBookPages": "9–11",
+          "locatorNote": "DOCX table 40, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A small financial cushion made the repairs manageable.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "financial cushion"
+        }
+      ],
+      "listening": {
+        "en": "Iris set aside part of her earnings each month. When her washing machine broke, the saved amount covered most of the repair, giving her a small financial cushion.",
+        "zh": "艾莉絲每月撥出部分收入儲蓄。洗衣機壞了時，這筆錢支付了大部分維修費，成為她的一小筆財務緩衝儲備。",
+        "promptZh": "financial cushion 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Money saved in advance that softened the unexpected repair cost.",
+            "zh": "事先儲起、減輕突發維修費壓力的款項。"
+          },
+          {
+            "id": "b",
+            "en": "A loan she took out after the machine failed.",
+            "zh": "洗衣機壞了後她借的一筆貸款。"
+          },
+          {
+            "id": "c",
+            "en": "The monthly amount she planned to spend on ordinary groceries.",
+            "zh": "她每月預計用於日常買食材的金額。"
+          },
+          {
+            "id": "d",
+            "en": "A guarantee that no further appliance could ever break.",
+            "zh": "保證以後不會再有電器壞掉。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "預留儲蓄幫她承受突發維修費；不是事後借款或保證沒有新開支。"
+      },
+      "reply": {
+        "promptEn": "How did Iris manage most of the washing-machine repair bill?",
+        "promptZh": "（艾莉絲如何支付洗衣機的大部分維修費？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She had put aside some earnings before the machine broke.",
+            "zh": "洗衣機壞掉前，她已撥出部分收入儲起。"
+          },
+          {
+            "id": "b",
+            "en": "Her earlier savings reduced the amount she had to find at short notice.",
+            "zh": "之前的儲蓄減少了她臨時要籌的款項。"
+          },
+          {
+            "id": "c",
+            "en": "A small financial cushion covered most of the unexpected cost.",
+            "zh": "一小筆財務緩衝儲備支付了大部分突發費用。"
+          },
+          {
+            "id": "d",
+            "en": "She could draw on money reserved for surprises.",
+            "zh": "她可動用為突發情況預留的款項。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明預留儲蓄如何減輕意外開支；金句用緩衝比喻概括。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Their financial cushion helped absorb the unexpected plumbing bill.",
+            "zh": "財務緩衝儲備幫他們承受突發水管費。"
+          },
+          {
+            "id": "b",
+            "en": "The grocery budget itself became an unlimited reserve.",
+            "zh": "食物預算本身變成無限額的儲備。"
+          },
+          {
+            "id": "c",
+            "en": "The leak proves the family will never face another expense.",
+            "zh": "漏水證明家庭以後不會再有其他開支。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "預留款項減輕水管支出衝擊，保住日常預算；不表示儲備無限。",
+        "promptZh": "家庭每月保留少量儲蓄，突然要更換漏水水管時，便無須把當月食物預算全用完。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Savings reserved for an unexpected medical bill.",
+            "zh": "為突發醫療費預留的儲蓄。"
+          },
+          {
+            "id": "b",
+            "en": "Money borrowed only after a repair bill arrives, with no previous reserve.",
+            "zh": "維修帳單來到後才借的錢，之前沒有儲備。"
+          },
+          {
+            "id": "c",
+            "en": "A small emergency fund that covers rent during a brief income gap.",
+            "zh": "短暫收入中斷時可支付租金的小型應急基金。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這是事後借款，沒有事先預留的財務緩衝；另兩項是應急儲蓄。",
+        "promptZh": "哪個例子最不適合稱為 financial cushion？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "You could build a financial cushion from part of that surplus so a repair does not disrupt rent.",
+            "zh": "你可從每月結餘中儲出一筆財務緩衝，免得維修費打亂房租預算。"
+          },
+          {
+            "id": "b",
+            "en": "Spend the surplus as soon as it arrives, because repairs cannot be planned for.",
+            "zh": "結餘一到就花掉，因為不可能為維修預作準備。"
+          },
+          {
+            "id": "c",
+            "en": "A reserve guarantees that nothing will ever need repairing.",
+            "zh": "有儲備便保證以後不會有東西需要維修。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "把少量結餘預留作突發開支，能緩減維修對房租預算的衝擊。",
+        "promptZh": "朋友說：「我每月有少量結餘，但手機一壞就要打亂房租預算。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Even a modest financial cushion can help with a sudden repair bill.",
+        "zh": "即使不大的財務緩衝儲備，也能幫忙支付突發維修費。",
+        "promptZh": "先聽示範，再說明儲蓄緩衝哪項意外開支。",
+        "targetSpan": {
+          "start": 14,
+          "end": 31
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型花店每月留起部分收入，花店雪櫃突然故障時，這筆預備金支付更換零件的大部分費用，讓店舖仍能購買本週鮮花。用一至兩句英文描述儲備的作用。",
+        "selfCheckZh": "指出每月預留款項、雪櫃突發故障和零件費，以及鮮花採購仍可繼續；不要說儲備支付所有未來開支。",
+        "examples": [
+          {
+            "en": "The florist built a financial cushion from monthly income, so when the fridge failed, the reserve covered most replacement parts and left money for this week’s flowers.",
+            "zh": "花店從每月收入建立財務緩衝儲備；雪櫃故障時，儲備支付了大部分更換零件費，仍留下本週買鮮花的錢。"
+          },
+          {
+            "en": "A small financial cushion built from monthly earnings helped the flower shop pay most of the unexpected fridge repair while still buying fresh flowers for the week.",
+            "zh": "花店從每月收入儲出一小筆財務緩衝，支付大部分突發雪櫃維修費，同時仍可購買本週鮮花。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "monthly income",
+            "zh": "每月收入",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 57
+            }
+          },
+          {
+            "en": "the fridge failed",
+            "zh": "雪櫃故障",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 84
+            }
+          },
+          {
+            "en": "replacement parts",
+            "zh": "更換零件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 128
+            }
+          },
+          {
+            "en": "unexpected fridge repair",
+            "zh": "突發雪櫃維修費",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 117
+            }
+          },
+          {
+            "en": "fresh flowers",
+            "zh": "鮮花",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 150
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A financial cushion can soften a temporary loss of income.",
+          "zh": "財務緩衝儲備可減輕短暫收入中斷的衝擊。"
+        },
+        {
+          "en": "The family kept a financial cushion for costs they could not predict.",
+          "zh": "家庭保留財務緩衝儲備，以應付無法預測的費用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

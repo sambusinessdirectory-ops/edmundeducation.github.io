@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "Become confused while navigating a system or set of choices.",
         "meaningZh": "在系統或選項之間找不到所需路徑，感到迷惑。",
-        "grammar": "Users get lost in a crowded menu.",
-        "register": "Everyday and user-experience contexts; use with a place or system when navigation is genuinely confusing.",
+        "grammar": "Pattern: a person gets/got lost in + a place, route or confusing system. Get lost is intransitive here; in introduces where navigation becomes difficult.",
+        "register": "Neutral everyday or user-experience description: a user or usability tester tells a designer where people cannot find their way through a real place or interface.",
         "boundaryZh": "本課是導航時不知如何找到目標；不等於實際走失，亦不等於忘記密碼。",
         "misconceptionZh": "不要見到 lost 就理解為物品遺失；要看使用者是否在介面中找不到路。",
         "outcomeZh": "能描述使用者在哪個介面迷失，以及他們要找的功能。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2399",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "Investigate clues informally to work out what happened.",
         "meaningZh": "像偵探一樣查找線索，推斷事情經過。",
-        "grammar": "The readers play detective as they compare the clues.",
-        "register": "Informal metaphor for active clue-finding; it need not involve police or a crime.",
+        "grammar": "Pattern: play/plays/played detective; no article before detective. A reader or participant is the subject, usually with while/as + a clue-finding action.",
+        "register": "Informal clue-finding metaphor: a reader or game host tells another reader that the audience actively compares clues, without implying a real crime investigation.",
         "boundaryZh": "重點是根據線索推理；單純觀看、猜測或正式警務調查都不是這個用法的核心。",
         "misconceptionZh": "不要把 play detective 理解為真的扮演偵探角色或成為警員。",
         "outcomeZh": "能指出人物正在比對哪些線索，以及想查明甚麼。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 5
+      "contentRevision": 6
     },
     {
       "id": "advanced-native-2400",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "Help an activity, service or plan continue functioning or progressing.",
         "meaningZh": "使活動、服務或計劃維持運作或繼續推進。",
-        "grammar": "Regular deliveries keep the small shop moving.",
-        "register": "Natural set phrase for momentum in operations; specify what continues and how.",
+        "grammar": "Pattern: keep/keeps/kept + a person, activity or operation + moving. The object goes between keep and moving; regular supplies can keep a shop moving.",
+        "register": "Practical conversational description: a shop owner or coworker tells another coworker how regular deliveries maintain day-to-day operations and momentum.",
         "boundaryZh": "本課說運作或進度持續，不一定涉及身體移動，也不保證完成目標。",
         "misconceptionZh": "不要只憑 moving 就理解為搬家或行走；也不要把暫時維持說成徹底解決問題。",
         "outcomeZh": "能說明哪項支援令事情即使有阻礙仍可繼續。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2410",
@@ -817,8 +817,8 @@
       "brief": {
         "meaningEn": "Take part in a shared search for an answer or missing item.",
         "meaningZh": "加入一項共同尋找答案或失物的行動。",
-        "grammar": "Readers join the hunt for the answer after the first clue.",
-        "register": "Inviting, often playful metaphor; the search must be identifiable from context.",
+        "grammar": "Pattern: join/joins/joined the hunt for + a named answer, clue or missing item. Use the hunt for to identify what people are searching for.",
+        "register": "Playful invitation to search: a puzzle host or reader invites another reader to look for a specifically identified answer or clue.",
         "boundaryZh": "本課是參與搜尋或推理，不是字面打獵，也不是旁觀他人尋找。",
         "misconceptionZh": "不要把只是聽到謎題的人直接當成已加入；需要實際查找或願意參與。",
         "outcomeZh": "能說出正在尋找的目標，以及新加入者如何參與。"
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

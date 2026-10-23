@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "An organised way of storing and retrieving information in the mind.",
         "meaningZh": "在腦中有條理地儲存和提取資訊的方法。",
-        "grammar": "A clear set of notes can act as a mental filing system.",
-        "register": "Metaphor for an organised recall method; not a literal cabinet or simply a large amount of knowledge.",
+        "grammar": "Use a mental filing system as a singular countable metaphor: notes, categories or routines can act as/create a mental filing system for recalling information. Keep the article a.",
+        "register": "Neutral explanatory study metaphor: a learner or tutor describes an organised recall method to a classmate, student or colleague, not a literal cabinet.",
         "boundaryZh": "重點是有條理地分類並能再找回資訊；與從記憶推得新理解不同。",
         "misconceptionZh": "別把任何零散筆記都稱為 filing system；必須有清楚的分類或檢索方法。",
         "outcomeZh": "能指出如何分類資訊，以及日後如何迅速找回。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2500",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "Use what is remembered to understand a pattern or lesson, not merely repeat past facts.",
         "meaningZh": "運用記憶中的經驗，理解其中規律或教訓，而不只重述往事。",
-        "grammar": "Good questions can turn memory into insight.",
-        "register": "Analytical transformation pattern; state the recalled evidence and the new understanding drawn from it.",
+        "grammar": "Use turn/turns/turned/turning memory into insight as the transitive turn X into Y pattern; explain which recalled evidence produces which new understanding.",
+        "register": "Neutral analytical learning language: a teacher, researcher or tutor explains to learners or colleagues how remembered evidence can reveal a pattern rather than merely repeat facts.",
         "boundaryZh": "與 mental filing system 的分類提取不同；本課需要從記起的事情得出理解或可行結論。",
         "misconceptionZh": "不要把單純懷舊或羅列日期說成 insight；要有新的理解。",
         "outcomeZh": "能指出記起甚麼、比較或反思了甚麼，以及得出甚麼見解。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2501",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "Have more mental demands or incoming information than one can comfortably handle.",
         "meaningZh": "腦中同時要處理太多要求或資訊，以致難以應付。",
-        "grammar": "Their minds are overloaded during the final week.",
-        "register": "Load metaphor for cognitive demands; show what is arriving at once and how it affects attention or recall.",
+        "grammar": "Use a possessive + mind/minds + be/become overloaded; agree the verb with the singular or plural subject (my mind is, their minds are). Name the incoming demands or information.",
+        "register": "Neutral-to-concerned cognitive-load metaphor: a student, teacher or parent explains to another learner, teacher or caregiver why simultaneous demands are overwhelming attention or recall.",
         "boundaryZh": "重點是同時承受的認知負荷過量；與 get cluttered 的思路雜亂不同，資料可以井然有序卻仍太多。",
         "misconceptionZh": "不要把一次普通分心或暫時忘記小事都診斷成 mind overloaded；須有可見的多重負擔。",
         "outcomeZh": "能指出同時有哪些要求，以及負荷過重如何影響思考。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2502",
@@ -817,8 +817,8 @@
       "brief": {
         "meaningEn": "Become crowded and disorganised in one’s thoughts, making the main point hard to see.",
         "meaningZh": "思緒被雜亂的細節佔滿，令重點難以看清。",
-        "grammar": "My thinking can get cluttered after too many meetings.",
-        "register": "Metaphor from physical clutter; describe disorganisation of thinking, not merely heavy workload.",
+        "grammar": "Use a thinking/mind subject + get/gets/got/getting cluttered; the cognitive subject makes cluttered figurative. State the competing ideas or meetings that make the main point hard to see.",
+        "register": "Conversational figurative self-description: a colleague or student tells a teammate, teacher or friend that too many ideas have made their thinking disorganised, not merely busy.",
         "boundaryZh": "與 minds are overloaded 不同：本課著眼於思路混雜、重點被埋沒，即使任務數量不多也可能發生。",
         "misconceptionZh": "不要只因資訊多就說 cluttered；要見到內容零散、思路不清或重點難找。",
         "outcomeZh": "能指出哪些互不相干的想法混在一起，以及如何重新理清重點。"
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2644-2672-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2644",
+      "number": 2644,
+      "inventoryId": "expr-2644",
+      "titleEn": "somewhere in the middle",
+      "titleZh": "取中間立場",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bsomewhere in the middle\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At a balanced position between two contrasting extremes.",
+        "meaningZh": "處於兩個相反極端之間的較平衡立場。",
+        "grammar": "Pattern: the answer/solution/position lies or is somewhere in the middle; between X and Y may follow. It describes a position, not the act of bargaining to meet in the middle.",
+        "register": "Neutral reflective discussion. A librarian, parent or organiser may say it to a group comparing extreme proposals, then specify what the practical middle option includes.",
+        "boundaryZh": "必須能看出兩個對立極端與居中的實際做法；它不是地圖上的中間位置，也不必然是雙方談判後各退一步。",
+        "misconceptionZh": "不要只說折衷而不交代兩端是甚麼；居中也不保證每個人都滿意。",
+        "outcomeZh": "能點明兩個極端與中間方案的具體安排。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0533",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 49,
+          "book": 11,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 13; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The practical answer lies somewhere in the middle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "somewhere in the middle"
+        }
+      ],
+      "listening": {
+        "en": "One librarian wants every room silent; another suggests allowing conversations everywhere. The team keeps quiet reading rooms and opens one discussion room. Their solution lies somewhere in the middle.",
+        "zh": "一位圖書館員想所有房間都保持安靜，另一位則建議到處都可交談。團隊保留安靜閱覽室，另外開設一間討論室。方案取了中間立場。",
+        "promptZh": "somewhere in the middle 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The library chose a workable option between total silence and unrestricted talk.",
+            "zh": "圖書館在全面安靜與任意交談之間選了可行安排。"
+          },
+          {
+            "id": "b",
+            "en": "The discussion room is at the physical centre of the building.",
+            "zh": "討論室位於建築物的實際正中央。"
+          },
+          {
+            "id": "c",
+            "en": "Every room must be silent after all.",
+            "zh": "最後所有房間都必須安靜。"
+          },
+          {
+            "id": "d",
+            "en": "Every room now permits unrestricted conversation.",
+            "zh": "現在所有房間都容許任意交談。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "方案同時保留安靜閱讀與指定討論空間，是兩個極端之間的安排。"
+      },
+      "reply": {
+        "promptEn": "How did the library respond to the two opposing proposals?",
+        "promptZh": "（圖書館如何回應兩個相反的建議？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It kept quiet reading rooms and made a separate place for discussion.",
+            "zh": "它保留安靜閱覽室，另設討論空間。"
+          },
+          {
+            "id": "b",
+            "en": "It allowed conversation in one room rather than in all rooms.",
+            "zh": "它只在一間房容許交談，而非所有房間。"
+          },
+          {
+            "id": "c",
+            "en": "It found a solution somewhere in the middle of complete silence and unrestricted talk.",
+            "zh": "它在全面安靜與任意交談之間找到中間方案。"
+          },
+          {
+            "id": "d",
+            "en": "The plan preserved a quiet option without banning every discussion.",
+            "zh": "方案保留安靜選擇，也沒有禁止所有討論。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都準確描述具體安排；金句自然點出兩個極端之間的位置。"
+      },
+      "scene": {
+        "promptZh": "園藝班有人想完全不給學員指示，另一人想規定每一步。導師提供基本安全步驟，其餘讓學員自己選。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The class found a position somewhere in the middle between no guidance and complete control.",
+            "zh": "課程在完全不指導與全面控制之間找到中間做法。"
+          },
+          {
+            "id": "b",
+            "en": "The class chose to give no guidance at any stage.",
+            "zh": "課程決定任何階段都不作指導。"
+          },
+          {
+            "id": "c",
+            "en": "The teacher now controls every choice from start to finish.",
+            "zh": "現在導師從頭到尾控制每個選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基本安全指示加其他部分自選，既非放任亦非全程管制。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說方案 lies somewhere in the middle？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A club offers both short and long practice sessions instead of requiring only one extreme length.",
+            "zh": "社團同時提供短與長練習時段，而非只限一種極端長度。"
+          },
+          {
+            "id": "b",
+            "en": "A council rejects the low and high fee proposals and sets a moderate fee.",
+            "zh": "委員會拒絕極低和極高收費，定下中等收費。"
+          },
+          {
+            "id": "c",
+            "en": "A committee adopts the strictest proposal in full and rules out every alternative.",
+            "zh": "委員會完整採納最嚴格方案，排除所有其他選擇。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "完整採納單一極端沒有居中；另兩項都能指出兩端和中間安排。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「家長一方要求孩子每天完全不用手機，另一方主張全天任用；學校只在放學後留一段指定時間。」你怎樣描述？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The school's plan lies somewhere in the middle: it allows a set period instead of either extreme.",
+            "zh": "學校方案取中間立場：只容許指定時段，而非走向任何一端。"
+          },
+          {
+            "id": "b",
+            "en": "The school chose a total ban for the whole day.",
+            "zh": "學校選擇全日完全禁止。"
+          },
+          {
+            "id": "c",
+            "en": "The school permits unrestricted phone use at all hours.",
+            "zh": "學校容許任何時間自由使用手機。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "指定時段是兩種極端之間的具體安排。"
+      },
+      "speaking": {
+        "en": "The library's plan lies somewhere in the middle: quiet rooms remain, but one room allows discussion.",
+        "zh": "圖書館方案取中間立場：保留安靜房間，但有一間可供討論。",
+        "promptZh": "先聽示範，再說出哪兩種極端與中間安排。",
+        "targetSpan": {
+          "start": 24,
+          "end": 47
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生會討論午休音樂，有人想全校完全安靜，有人想所有走廊都播放音樂；最後只在一間休息室播放，其他地方保持安靜。用一至兩句英文說明這個方案。",
+        "selfCheckZh": "交代完全安靜與到處播放兩端，以及只在休息室播放的安排；不要說所有學生必然滿意。",
+        "examples": [
+          {
+            "en": "The answer lies somewhere in the middle: music plays in one common room, while the other corridors stay quiet.",
+            "zh": "答案取中間立場：音樂只在一間休息室播放，其他走廊保持安靜。"
+          },
+          {
+            "en": "Between a silent school and music in every corridor, the council chose a position somewhere in the middle by limiting music to one lounge.",
+            "zh": "在全校安靜和每條走廊都播放音樂之間，學生會選了中間立場，只在一間休息室播放。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "common room",
+            "zh": "休息室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 71
+            }
+          },
+          {
+            "en": "other corridors",
+            "zh": "其他走廊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 98
+            }
+          },
+          {
+            "en": "silent school",
+            "zh": "全校安靜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 10,
+              "end": 23
+            }
+          },
+          {
+            "en": "every corridor",
+            "zh": "每條走廊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 37,
+              "end": 51
+            }
+          },
+          {
+            "en": "one lounge",
+            "zh": "一間休息室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A moderate rule may lie somewhere in the middle of two strict alternatives.",
+          "zh": "較溫和的規定或處於兩個嚴格方案之間。"
+        },
+        {
+          "en": "The answer was somewhere in the middle, with one quiet space and one discussion space.",
+          "zh": "答案是中間方案，兼有安靜空間與討論空間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2648",
+      "number": 2648,
+      "inventoryId": "expr-2648",
+      "titleEn": "regained momentum",
+      "titleZh": "重新取得進展勢頭",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:regain|regains|regained|regaining) momentum\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Begin making progress or attracting activity again after a slowdown or pause.",
+        "meaningZh": "在放緩或停頓後，再次開始取得進展或活躍起來。",
+        "grammar": "Pattern: a project, movement or scene regains/regained momentum. Momentum is the direct object of regain and is figurative, referring to renewed progress, not literal speed or force.",
+        "register": "Neutral project, community or cultural reporting. An organiser or observer may say it to colleagues after concrete work resumes, without claiming the project is complete.",
+        "boundaryZh": "須有先前放緩或停頓，以及之後再度前進的證據；持續穩定運作或只是宣稱有希望，都不足以支持 regained。",
+        "misconceptionZh": "不要把重新有進展誤說成已完成、已成功或必然會持續。",
+        "outcomeZh": "能指出原先停滯、恢復的具體行動和仍未完成的部分。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0537",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 49,
+          "book": 11,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "22–24",
+          "locatorNote": "DOCX table 45, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The local music scene has regained momentum.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "regained momentum"
+        }
+      ],
+      "listening": {
+        "en": "Rain stopped the community mural for six weeks. When the weather cleared, volunteers returned twice a week and completed the first new section. The mural project regained momentum, although the whole wall was not finished.",
+        "zh": "雨天令社區壁畫停工六週。天氣轉好後，義工每週回來兩次，完成了新的第一部分。項目重新取得進展，但整幅牆尚未完成。",
+        "promptZh": "為何說壁畫項目 regained momentum？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Work resumed and a new section was completed after a long pause.",
+            "zh": "長時間停頓後，工作恢復，而且完成了一部分新畫面。"
+          },
+          {
+            "id": "b",
+            "en": "The project had progressed at the same pace throughout the rain.",
+            "zh": "雨季期間項目一直以相同速度推進。"
+          },
+          {
+            "id": "c",
+            "en": "The entire wall was finished before the volunteers returned.",
+            "zh": "義工回來之前，整幅牆已完成。"
+          },
+          {
+            "id": "d",
+            "en": "The volunteers only discussed returning but did no more work.",
+            "zh": "義工只討論復工，沒有再做任何工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先停工，後來固定復工並完成一部分，支持「重新有勢頭」而非已全面完成。"
+      },
+      "reply": {
+        "promptEn": "What changed in the mural project after the rain stopped?",
+        "promptZh": "（雨停後，壁畫項目有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers began returning twice a week and painted a new section.",
+            "zh": "義工開始每週回來兩次，畫出一部分新畫面。"
+          },
+          {
+            "id": "b",
+            "en": "The work moved ahead again after six weeks without painting.",
+            "zh": "停筆六週後，工作再度推進。"
+          },
+          {
+            "id": "c",
+            "en": "The project regained momentum when regular painting sessions resumed.",
+            "zh": "定期繪畫重新開始後，項目恢復了進展勢頭。"
+          },
+          {
+            "id": "d",
+            "en": "Progress restarted, although the wall still needed more work.",
+            "zh": "項目重新有進展，但整幅牆仍有部分未完成。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都描述停頓後的具體復工；金句使用 regained momentum，不誇稱完工。"
+      },
+      "scene": {
+        "promptZh": "地區合唱團因缺場地停了兩個月，新場地開放後開始每週排練並招募新團員。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The choir regained momentum once weekly rehearsals and recruitment began again.",
+            "zh": "每週排練與招募恢復後，合唱團重新取得進展勢頭。"
+          },
+          {
+            "id": "b",
+            "en": "The choir had never paused any activity.",
+            "zh": "合唱團從來沒有停過活動。"
+          },
+          {
+            "id": "c",
+            "en": "The choir has already sold out a concert that has not yet been planned.",
+            "zh": "合唱團尚未計劃演出，卻已賣光門票。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "缺場地造成停頓，恢復排練與招募後再有活動；沒有證據說演出成功。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 regained momentum？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A campaign restarts regular visits after months of inactivity.",
+            "zh": "宣傳活動停了幾個月後，重新定期探訪。"
+          },
+          {
+            "id": "b",
+            "en": "A club continues its unchanged weekly schedule without ever slowing down.",
+            "zh": "社團從未放緩，一直維持原有每週安排。"
+          },
+          {
+            "id": "c",
+            "en": "A delayed repair programme begins completing jobs again after new parts arrive.",
+            "zh": "維修計劃延誤後，零件到貨使工作再次完成。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有先前放緩便談不上「重拾」勢頭；另兩項都有先停後進。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「社區菜園因人手不足停了一季；現在義工每週回來，已種好第一排。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The garden has regained momentum, though there is still more planting to do.",
+            "zh": "菜園重新有進展勢頭，但還有更多地方要種植。"
+          },
+          {
+            "id": "b",
+            "en": "The garden was never short of volunteers.",
+            "zh": "菜園從未缺義工。"
+          },
+          {
+            "id": "c",
+            "en": "Planting one row proves the entire garden is complete.",
+            "zh": "種好一排證明整個菜園已完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應同時指出停頓後重啟與尚未完成的界線。"
+      },
+      "speaking": {
+        "en": "The mural project regained momentum when the volunteers returned and completed a new section.",
+        "zh": "義工回來並完成新的一部分後，壁畫項目重新取得進展勢頭。",
+        "promptZh": "先聽示範，再說出哪項行動顯示進展恢復。",
+        "targetSpan": {
+          "start": 18,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生科研小組因缺少零件，兩個月沒有做實驗；新零件到貨後，他們恢復每週測試，完成第一輪紀錄，但報告還未寫完。用一至兩句英文描述項目變化。",
+        "selfCheckZh": "指出兩個月停測、新零件到貨後每週測試及第一輪紀錄完成；不要寫成報告已完成。",
+        "examples": [
+          {
+            "en": "After a two-month pause, new parts arrived and the research team regained momentum by restarting weekly tests and finishing its first set of records; the report was still unwritten.",
+            "zh": "停了兩個月後，新零件到貨，研究小組恢復每週測試並完成第一輪紀錄，重新取得進展；報告仍未寫好。"
+          },
+          {
+            "en": "The student project regained momentum once the replacement parts came in: weekly testing resumed and the first records were complete, although the report remained unfinished.",
+            "zh": "替換零件到貨後，學生項目恢復進展勢頭：每週測試重新開始，第一輪紀錄已完成，但報告仍未寫完。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two-month pause",
+            "zh": "停了兩個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 23
+            }
+          },
+          {
+            "en": "new parts",
+            "zh": "新零件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 34
+            }
+          },
+          {
+            "en": "weekly tests",
+            "zh": "每週測試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 109
+            }
+          },
+          {
+            "en": "replacement parts",
+            "zh": "替換零件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 64
+            }
+          },
+          {
+            "en": "report remained unfinished",
+            "zh": "報告仍未寫完",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 173
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The repair team regained momentum after the missing parts arrived.",
+          "zh": "所缺零件到貨後，維修團隊重新取得進展。"
+        },
+        {
+          "en": "Regular rehearsals helped the band regain momentum after the break.",
+          "zh": "休息過後，定期排練幫助樂隊重拾勢頭。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2649",
+      "number": 2649,
+      "inventoryId": "expr-2649",
+      "titleEn": "a soft spot for",
+      "titleZh": "對⋯⋯特別有感情",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the) soft spot for\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A special, warm affection for someone or something.",
+        "meaningZh": "對某人或某物懷有特別親切的感情。",
+        "grammar": "Pattern: have/has/had a soft spot for + person or thing. The fixed noun phrase follows have; for introduces the object of affection, often an old favourite or someone one treats warmly.",
+        "register": "Informal affectionate speech. A family member or friend may say it to another when explaining a fond choice; it does not literally describe a weak part of the body.",
+        "boundaryZh": "強調特別的親切感，可以仍承認對方或物品有缺點；不等於戀愛、完全認同或每次都偏袒。",
+        "misconceptionZh": "soft spot 不是身體上的軟弱部位，也不代表當事人必定失去判斷力。",
+        "outcomeZh": "能用具體的偏愛或溫暖反應，說明特別感情而不誇大其後果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0538",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 49,
+          "book": 11,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–24",
+          "locatorNote": "DOCX table 45, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My father has a soft spot for old jazz records.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a soft spot for"
+        }
+      ],
+      "listening": {
+        "en": "Grandpa owns newer cookbooks, but he keeps using a worn recipe book from his first café. He smiles when he opens its marked pages and says he has a soft spot for it, even though some recipes need updating.",
+        "zh": "爺爺有較新的食譜書，卻一直使用當年第一間咖啡店留下的舊書。翻開有筆記的頁面時，他會微笑，說自己對它特別有感情，雖然部分食譜要更新。",
+        "promptZh": "爺爺說有 a soft spot for 舊食譜書，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He feels a special warmth toward the book despite its imperfections.",
+            "zh": "即使舊書有不足，他仍對它有特別親切的感情。"
+          },
+          {
+            "id": "b",
+            "en": "He believes every old recipe is better than every new one.",
+            "zh": "他認為每道舊食譜都比所有新食譜好。"
+          },
+          {
+            "id": "c",
+            "en": "The cover has a physically soft patch that needs repair.",
+            "zh": "封面有一處真的柔軟，須要修補。"
+          },
+          {
+            "id": "d",
+            "en": "He is selling the book because he dislikes the memories.",
+            "zh": "他因不喜歡相關回憶而要賣掉舊書。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "微笑與持續使用舊書顯示特別感情，卻沒有說每份食譜都最好。"
+      },
+      "reply": {
+        "promptEn": "Why does Grandpa keep returning to the old recipe book?",
+        "promptZh": "（爺爺為何總是再拿起那本舊食譜書？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminds him warmly of his first café.",
+            "zh": "它令他溫暖地想起第一間咖啡店。"
+          },
+          {
+            "id": "b",
+            "en": "He feels attached to it despite needing to update some recipes.",
+            "zh": "即使部分食譜須更新，他仍對舊書有感情。"
+          },
+          {
+            "id": "c",
+            "en": "He has a soft spot for the book and its marked pages.",
+            "zh": "他對那本書及寫了筆記的頁面特別有感情。"
+          },
+          {
+            "id": "d",
+            "en": "He enjoys revisiting the book because it carries personal memories.",
+            "zh": "他喜歡重看舊書，因為當中有個人回憶。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據舊書的回憶說明喜愛；金句以固定搭配自然表達特別感情。"
+      },
+      "scene": {
+        "promptZh": "一位鄰居總會替領養回來的老狗留個舒適位置，還會笑着講牠以前的小習慣。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has a soft spot for the old dog, even when it moves slowly.",
+            "zh": "即使老狗行動緩慢，她仍對牠特別有感情。"
+          },
+          {
+            "id": "b",
+            "en": "She must believe the dog never causes any inconvenience.",
+            "zh": "她一定認為老狗從不帶來任何不便。"
+          },
+          {
+            "id": "c",
+            "en": "She keeps the dog only because every visitor asks her to.",
+            "zh": "她留下老狗只是因為每位訪客都要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "留位置及談起老狗時的笑容支持特別感情；不需要假設完全沒有不便。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某人 has a soft spot for 某物？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A teacher saves a pupil's first handmade card and often looks at it fondly.",
+            "zh": "老師保存學生第一次親手做的卡，常懷着好感重看。"
+          },
+          {
+            "id": "b",
+            "en": "A customer buys the cheapest plain folder after comparing prices and feels no attachment to it.",
+            "zh": "顧客比較價錢後買最便宜的普通文件夾，對它沒有特別感情。"
+          },
+          {
+            "id": "c",
+            "en": "An aunt keeps an old radio because it reminds her of family mornings.",
+            "zh": "姨姨保留舊收音機，因為它令她想起昔日家庭早晨。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單純按價錢選購且沒有依戀，缺少特別感情；另兩項均有溫暖的個人連結。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「媽媽明知那間老餅店有時要排很久，仍很喜歡去，因為她小時候常跟外婆去。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She has a soft spot for the bakery because it carries family memories, even if the queue is long.",
+            "zh": "她對那間餅店特別有感情，因為有家庭回憶，即使要排長隊。"
+          },
+          {
+            "id": "b",
+            "en": "A long queue proves the bakery is always the best in town.",
+            "zh": "排長隊證明餅店永遠是全城最好。"
+          },
+          {
+            "id": "c",
+            "en": "She can only like it if she forgets about the queue completely.",
+            "zh": "她只有完全忘記排隊，才能喜歡這間店。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "童年與外婆的回憶說明偏愛，即使知道要排隊；不須誇大品質。"
+      },
+      "speaking": {
+        "en": "Grandpa has a soft spot for his old recipe book because it reminds him of his first café.",
+        "zh": "爺爺對舊食譜書特別有感情，因為它令他想起第一間咖啡店。",
+        "promptZh": "先聽示範，再說出哪項回憶令舊書特別。",
+        "targetSpan": {
+          "start": 12,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位社區足球教練對一支十二歲以下球隊特別有感情，因為隊員總會歡迎新加入的孩子；雖然球隊仍經常輸比賽。用一至兩句英文描述教練的感情，不要說球隊必然最出色。",
+        "selfCheckZh": "指出教練對球隊的特別感情、球隊歡迎新隊員的具體原因，以及仍常輸比賽；不要把喜愛等同戰績最好。",
+        "examples": [
+          {
+            "en": "The coach has a soft spot for the under-12 team because its players welcome new members, although they still lose many matches.",
+            "zh": "教練對這支十二歲以下球隊特別有感情，因為隊員會歡迎新加入的孩子，雖然他們仍經常輸比賽。"
+          },
+          {
+            "en": "She has a soft spot for this young team: its kindness to beginners matters to her, even while its results remain poor.",
+            "zh": "她對這支年輕球隊特別有感情：隊員善待新手，這一點令她欣賞，即使戰績仍不理想。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "under-12 team",
+            "zh": "十二歲以下球隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 47
+            }
+          },
+          {
+            "en": "welcome new members",
+            "zh": "歡迎新隊員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 87
+            }
+          },
+          {
+            "en": "lose many matches",
+            "zh": "經常輸比賽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 126
+            }
+          },
+          {
+            "en": "kindness to beginners",
+            "zh": "善待新手",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 66
+            }
+          },
+          {
+            "en": "results remain poor",
+            "zh": "戰績仍不理想",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 117
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "My uncle has a soft spot for that old cinema because he went there as a child.",
+          "zh": "叔叔對那間舊戲院特別有感情，因為小時候常去。"
+        },
+        {
+          "en": "Having a soft spot for a café does not mean thinking every drink there is perfect.",
+          "zh": "對一間咖啡店有特別感情，不代表認為每杯飲品都完美。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2672",
+      "number": 2672,
+      "inventoryId": "expr-2672",
+      "titleEn": "do a world of good",
+      "titleZh": "大有裨益",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:do|does|did|done|doing) (?:[A-Za-z]+(?: [A-Za-z]+){0,3} )?a world of good\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Bring substantial benefit, especially to someone's well-being or a difficult situation.",
+        "meaningZh": "對某人或某種情況帶來很大的好處。",
+        "grammar": "Pattern: an action could do / may do / does / did a world of good, often to a person, or do someone a world of good. A modal such as could or may must be followed by do; a world of good is a fixed object meaning considerable benefit, not a literal world.",
+        "register": "Informal to neutral encouragement. A friend, teacher or colleague may suggest a helpful change to someone who could benefit, while using could for an uncertain future effect.",
+        "boundaryZh": "表示明顯或可觀的幫助，但不保證解決所有問題；若效益尚未發生，用 could 或 may 比肯定語氣更準確。",
+        "misconceptionZh": "不要把 world 當真正的世界，也不要把短暫改善說成永久治癒。",
+        "outcomeZh": "能說明有甚麼需要、哪項行動可能或確實帶來甚麼好處，並保留合適的不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0561",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 47, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A short break could do a world of good.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "do a world of good"
+        }
+      ],
+      "listening": {
+        "en": "After sorting books for hours, Iris kept mixing up labels. She took a short break, drank water and returned more focused, finishing the shelf correctly. The break did her a world of good, though she still had more shelves to sort.",
+        "zh": "艾莉絲連續整理書籍數小時，開始把標籤搞混。她短暫休息、喝水後回來，更能集中精神，把那個書架整理好。休息對她大有裨益，雖然還有其他書架待整理。",
+        "promptZh": "休息 did her a world of good，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It helped her focus enough to complete the shelf after she had struggled.",
+            "zh": "她原本遇到困難，休息後較能集中精神，完成那個書架。"
+          },
+          {
+            "id": "b",
+            "en": "It completed every remaining shelf without any work from her.",
+            "zh": "它在她沒有再工作的情況下完成所有其他書架。"
+          },
+          {
+            "id": "c",
+            "en": "It had no effect on her focus or the labels.",
+            "zh": "它對她的專注力或標籤完全沒有影響。"
+          },
+          {
+            "id": "d",
+            "en": "It meant she would never need another break.",
+            "zh": "它代表她此後永遠不用再休息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "休息後專注力改善並完成一個書架，是具體的好處；沒有證據說所有工作都完成。"
+      },
+      "reply": {
+        "promptEn": "How did the short break help Iris?",
+        "promptZh": "（短暫休息如何幫助艾莉絲？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She returned with better focus and sorted the shelf correctly.",
+            "zh": "她回來時更能集中精神，正確整理了書架。"
+          },
+          {
+            "id": "b",
+            "en": "It helped her stop mixing up the labels on the shelf she was sorting.",
+            "zh": "它幫她不再混淆正在整理的那個書架的標籤。"
+          },
+          {
+            "id": "c",
+            "en": "It did her a world of good by restoring her focus for the next task.",
+            "zh": "休息令她恢復專注，對接下來的工作大有裨益。"
+          },
+          {
+            "id": "d",
+            "en": "After resting, she completed one shelf even though more remained.",
+            "zh": "休息後她完成一個書架，雖然還有其他書架未整理。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都據實說明休息帶來可觀幫助，沒有誇稱所有工作已完成。"
+      },
+      "scene": {
+        "promptZh": "合唱團在連續排練後越唱越疲倦；指揮安排十分鐘喝水休息，團員回來時聲音與專注都改善。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The short rest did the singers a world of good before they resumed rehearsal.",
+            "zh": "重新排練前，那段短休息對團員大有裨益。"
+          },
+          {
+            "id": "b",
+            "en": "The rest proves the singers will never need practice again.",
+            "zh": "那段休息證明團員以後永遠不用排練。"
+          },
+          {
+            "id": "c",
+            "en": "The break made no difference to how they sang.",
+            "zh": "休息完全沒有影響他們的演唱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "休息後可見聲音與專注改善，支持大有幫助，但不是永久解決一切。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某件事 did a world of good？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A quiet hour helps a tired team return to work with clearer focus.",
+            "zh": "安靜一小時令疲倦團隊重返工作時更能集中精神。"
+          },
+          {
+            "id": "b",
+            "en": "A proposed break is cancelled, so the tired group receives no rest or other change.",
+            "zh": "原定休息取消，疲倦小組沒有休息，也沒有其他改變。"
+          },
+          {
+            "id": "c",
+            "en": "A reading partner's weekly visits help a learner begin enjoying books again.",
+            "zh": "閱讀伙伴每週探訪，幫助一名學員重新享受閱讀。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "提議中的休息被取消，沒有發生可帶來好處的行動；另兩項都有具體改善。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新同學很少有機會練習英語；我們想開每週一次的小型對話小組，還未開始。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A weekly group could do them a world of good by giving them regular practice, though we cannot promise instant fluency.",
+            "zh": "每週小組可讓他們定期練習，或許大有幫助，但不能保證立即流利。"
+          },
+          {
+            "id": "b",
+            "en": "The group has already made every student fluent before its first meeting.",
+            "zh": "小組還沒開始，卻已令每位學生都流利。"
+          },
+          {
+            "id": "c",
+            "en": "Practice cannot help unless it solves every language difficulty at once.",
+            "zh": "除非練習一次解決所有語言困難，否則不可能有幫助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "尚未實施，用 could 表示可觀但不保證的效益較準確。"
+      },
+      "speaking": {
+        "en": "The short break did Iris a world of good: she returned focused and finished the shelf correctly.",
+        "zh": "短暫休息對艾莉絲大有裨益：她回來時更能集中精神，正確整理了書架。",
+        "promptZh": "先聽示範，再說出休息帶來哪項具體改善。",
+        "targetSpan": {
+          "start": 16,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校閱讀小組曾缺少安靜空間，孩子很難專心；圖書館開設每週安靜閱讀時段後，孩子開始讀完短篇故事，雖然仍需練習。用一至兩句英文說明具體幫助，不要說問題已永久解決。",
+        "selfCheckZh": "指出原先難專心、每週安靜時段帶來的可見改善、仍需繼續練習；避免保證永久成效。",
+        "examples": [
+          {
+            "en": "The library's weekly quiet hour did the reading group a world of good: children who had struggled to focus began finishing short stories, though they still need practice.",
+            "zh": "圖書館每週的安靜時段對閱讀小組大有裨益：原本難以專心的孩子開始讀完短篇故事，但仍需練習。"
+          },
+          {
+            "en": "A regular quiet space did the children a world of good by helping them finish short stories after months of distraction, although their reading is still developing.",
+            "zh": "定期提供的安靜空間對孩子大有幫助；在數月難以集中精神後，他們開始讀完短篇故事，但閱讀能力仍在發展。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "weekly quiet hour",
+            "zh": "每週安靜時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 31
+            }
+          },
+          {
+            "en": "struggled to focus",
+            "zh": "難以專心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 106
+            }
+          },
+          {
+            "en": "short stories",
+            "zh": "短篇故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 136
+            }
+          },
+          {
+            "en": "regular quiet space",
+            "zh": "定期的安靜空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 2,
+              "end": 21
+            }
+          },
+          {
+            "en": "still developing",
+            "zh": "仍在發展",
+            "exampleIndex": 1,
+            "span": {
+              "start": 147,
+              "end": 163
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A short walk could do a world of good for someone feeling stuck at a desk.",
+          "zh": "對一直坐在桌前感到停滯的人，短暫散步或許大有幫助。"
+        },
+        {
+          "en": "The quiet room did the group a world of good, although practice was still needed.",
+          "zh": "安靜房間對小組大有裨益，但仍須繼續練習。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

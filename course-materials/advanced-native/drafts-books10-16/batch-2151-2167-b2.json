@@ -17,7 +17,7 @@
         "meaningEn": "Try to remember and coordinate many responsibilities mentally without a reliable external record.",
         "meaningZh": "只靠腦袋記住並安排許多事情。",
         "grammar": "juggle/juggling everything in your/my/her head; the possessive matches the person.",
-        "register": "Conversational figurative English for mental workload.",
+        "register": "Conversational figurative English for mental workload. A study mentor may tell a busy pupil that juggling everything in their head makes deadlines harder to track.",
         "boundaryZh": "重點是同時在腦中記住和安排多件事，不是實際拋接物品。",
         "misconceptionZh": "不是說真的在頭上玩雜耍，也不一定表示已忘記事情。",
         "outcomeZh": "能指出只靠記憶處理多項責任的負擔，並提出較可靠的記錄方法。"
@@ -267,7 +267,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2152",
@@ -284,7 +284,7 @@
         "meaningEn": "Stop keeping an accurate awareness of time, items or progress.",
         "meaningZh": "不再清楚掌握時間、數量或進度。",
         "grammar": "lose/lost/losing track of + time, spending or progress; lose track without an object when context is clear.",
-        "register": "Common neutral phrase in speech and writing.",
+        "register": "Common neutral phrase in speech and writing. A friend may tell another friend that she lost track of spending after several small purchases.",
         "boundaryZh": "是失去對時間或進度的掌握，不一定是實物遺失。",
         "misconceptionZh": "track 在這裏不是火車軌道，也不是運動場跑道。",
         "outcomeZh": "能在時間或進度難以掌握時恰當使用這個表達。"
@@ -534,7 +534,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2153",
@@ -551,7 +551,7 @@
         "meaningEn": "Consume a large amount of time unexpectedly or with little visible progress.",
         "meaningZh": "出乎意料地耗掉大量時間，往往收效不大。",
         "grammar": "swallow/swallowed time whole; a process or distraction usually acts as subject.",
-        "register": "Vivid and somewhat literary metaphor; useful for a time-consuming process.",
+        "register": "Vivid and somewhat literary metaphor; useful for a time-consuming process. A project lead may tell a teammate that repeated approvals can swallow time whole during a short deadline.",
         "boundaryZh": "強調時間被大量消耗，不是字面上吞食時間，也不適合形容只花了幾秒的小事。",
         "misconceptionZh": "不要理解成真的有東西把時間吞下。",
         "outcomeZh": "能描述某個程序或干擾如何出乎意料地佔去大段時間。"
@@ -801,7 +801,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2162",
@@ -818,7 +818,7 @@
         "meaningEn": "Make real progress on the central piece of work, rather than merely staying busy.",
         "meaningZh": "令最重要的工作有實際進展，而不只是忙於周邊事項。",
         "grammar": "move/moved/moving the main task forward; often followed by by + action.",
-        "register": "Practical neutral work and study language.",
+        "register": "Practical neutral work and study language. A teacher may ask a student which revision task is actually moving the main essay forward.",
         "boundaryZh": "要有主項目的實際進展；整理雜項但未處理核心工作，不算推進。",
         "misconceptionZh": "forward 在這裏是進度，不是把物件往前搬。",
         "outcomeZh": "能分辨真正推進核心工作與只完成次要雜務。"
@@ -901,8 +901,8 @@
         "options": [
           {
             "id": "a",
-            "en": "Start analysing the results and write the first paragraph.",
-            "zh": "開始分析結果，並寫下第一段。"
+            "en": "Analysing the results and writing the first paragraph would move the main task forward.",
+            "zh": "分析結果並寫下第一段，便能推進主要工作。"
           },
           {
             "id": "b",
@@ -1068,7 +1068,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2166",
@@ -1085,7 +1085,7 @@
         "meaningEn": "Recognise signs in advance that something will probably run late.",
         "meaningZh": "根據早期跡象，預先察覺可能會延誤。",
         "grammar": "see/saw/seeing delays coming; no claim that the exact delay duration is known.",
-        "register": "Conversational and practical planning phrase.",
+        "register": "Conversational and practical planning phrase. A transport coordinator may tell travellers that checking service alerts helps them see delays coming.",
         "boundaryZh": "須有預先判斷的線索；延誤已發生後才知道，不算預先察覺。",
         "misconceptionZh": "不是用眼睛真的看見未來，而是根據資訊預測。",
         "outcomeZh": "能利用交通或活動資訊提早判斷延誤並調整計劃。"
@@ -1335,7 +1335,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2167",
@@ -1352,7 +1352,7 @@
         "meaningEn": "Remove much of the uncertainty from a task by providing useful guidance or information.",
         "meaningZh": "透過清楚資訊或指引，大幅減少做某事時的不確定性。",
         "grammar": "take/takes/took a lot of the guesswork out of + noun or -ing activity.",
-        "register": "Common idiomatic phrase in helpful guidance and technology contexts.",
+        "register": "Common idiomatic phrase in helpful guidance and technology contexts. A tutor may tell a novice that a clear checklist takes a lot of the guesswork out of the first attempt.",
         "boundaryZh": "是減少很多猜測，不等於消除所有問題，也不表示工具代替人作每個決定。",
         "misconceptionZh": "guesswork 不是正式的猜謎遊戲，而是缺乏資訊時靠估計行事。",
         "outcomeZh": "能解釋清楚步驟或即時資料如何減少一項工作的不確定性。"
@@ -1602,7 +1602,7 @@
           "AI-authored draft; independent English, Chinese, media and device reviews have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

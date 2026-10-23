@@ -17,7 +17,7 @@
         "meaningEn": "Appear so engaging in filmed performance that viewers’ attention is drawn to the performer.",
         "meaningZh": "演員在鏡頭前富有魅力和感染力，令觀眾目光集中。",
         "grammar": "an actor lights up the screen; she lit up the screen.",
-        "register": "Positive entertainment review phrase; the screen itself need not be bright.",
+        "register": "Positive film-review wording: a viewer or critic tells another viewer that an actor brings vivid energy to a performance; it does not describe the screen’s brightness.",
         "boundaryZh": "指表演者的銀幕魅力，不是畫面曝光更亮，也不等於整部電影一定成功。",
         "misconceptionZh": "不要把 light 解成照明操作；要指出演員如何吸引觀眾。",
         "outcomeZh": "能評價具體的銀幕表演與觀眾反應。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2335",
@@ -285,7 +285,7 @@
         "meaningEn": "Seem to others to have a particular quality, regardless of the speaker’s intention.",
         "meaningZh": "言行在別人眼中呈現某種特質；這個印象不一定與本人原意相同。",
         "grammar": "come across as impatient; came across as helpful.",
-        "register": "Neutral everyday phrase, used for impressions in conversation or writing.",
+        "register": "Neutral everyday impression: a colleague tells the sender of a terse message that a new hire may hear it as rude, even if the sender meant to be efficient; the listener can revise the wording without assuming intent.",
         "boundaryZh": "本課 come across as 指言行給別人的印象；既有第 120 課 come across 指偶然遇見或發現，兩者須按完整結構與語義分開判斷，不能只用部分字串歸類。",
         "misconceptionZh": "不要把 come across 誤解為偶然找到東西；要補上 as 及所形成的印象。",
         "outcomeZh": "能區分說話者意圖和別人實際感受到的語氣。"
@@ -537,7 +537,7 @@
           "Sense-aware ownership: canonical advanced-native-120 teaches chance encounter (come across); this lesson teaches the distinct impression construction come across as. The broad 120 regex can match this construction, so regex-only alias assignment is unsafe. Keep separate owners pending editorial adjudication."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2342",
@@ -554,7 +554,7 @@
         "meaningEn": "A celebrity’s ability to attract an audience or public attention.",
         "meaningZh": "知名藝人的名氣與魅力能吸引觀眾、媒體或支持者的力量。",
         "grammar": "use star power to draw an audience; star power alone may not sustain a film.",
-        "register": "Entertainment and media phrase; it measures draw, not artistic merit.",
+        "register": "Entertainment and media evaluation: a producer, critic or filmgoer tells a colleague whether a famous performer can draw viewers, without equating fame with artistic merit.",
         "boundaryZh": "強調明星帶來的關注或票房，不保證作品本身質素高，也不指天上的星星。",
         "misconceptionZh": "不要把名氣直接等同好表演；若觀眾主要為故事而來，則不必歸功於 star power。",
         "outcomeZh": "能區分名人吸引力和作品內容的價值。"
@@ -805,7 +805,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2350",
@@ -822,7 +822,7 @@
         "meaningEn": "Appeal to or connect people from different age generations.",
         "meaningZh": "讓不同世代的人都能欣賞、參與或產生連繫。",
         "grammar": "music can cross generational lines; a story crossed generational lines.",
-        "register": "Figurative phrase about age groups, not literal boundary lines.",
+        "register": "Figurative cross-age appeal: a music reviewer tells a festival programmer that a song connects teenage listeners and their parents, rather than crossing literal boundary lines.",
         "boundaryZh": "需有不同世代之間的共同吸引力；不要求每個年齡層的喜好完全相同。",
         "misconceptionZh": "不要把同齡人之間的流行誤說成跨世代，也不要把 lines 解成實體線條。",
         "outcomeZh": "能舉出兩代人如何透過同一作品產生交流。"
@@ -1073,7 +1073,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "reviewId": "independent-ai-4132-bloom-overnight-followup",
+  "scope": "Exact-hash recheck of revised 4132 rationale; independent AI only, no human/release approval.",
+  "inputSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl": "0ebf6ef178a1def10deacca6a340c2067719700d9ec7176a66278a7112915b0b",
+    "course-materials/advanced-native/provenance/curated-module-index.json": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+  },
+  "sourceOrdinal": 4132,
+  "sourceExample": "Skill does not bloom overnight, even with a good coach.",
+  "currentDecision": {
+    "sourceOrdinal": 4132,
+    "sourceId": "book10-16-2021",
+    "phrase": "skill does not bloom overnight",
+    "action": "proposed-alias-existing",
+    "canonicalId": "advanced-native-061",
+    "reason": "The marked phrase combines a bloom growth image with overnight’s nonliteral rapid-change meaning. Canonical 061 teaches that bounded overnight component and matches the full source sentence; bloom is a contextual development verb, not a separate stable target here. Provisional same-sense alias from independent AI hold audit; human editorial review remains open."
+  },
+  "finding": "resolved",
+  "evidence": "The revised reason now explicitly separates bloom as a contextual growth image from overnight as the bounded very-quickly unit owned by canonical 061. The source sentence matches the 061 detector and the reason does not claim bloom is literal or ignore it.",
+  "remainingIssues": []
+}

@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "Expectations learned from one’s social surroundings that can shape behaviour or choices.",
         "meaningZh": "人從社會環境學到的期待，可能影響行為或選擇。",
-        "grammar": "Social conditioning can influence which hobbies children choose.",
-        "register": "Analytical term; describe a learned pattern and avoid claiming it determines every person’s behaviour.",
+        "grammar": "Use the uncountable noun phrase social conditioning as the subject or object: social conditioning can/may influence a choice; a choice may be shaped by social conditioning. State influence rather than inevitable determination.",
+        "register": "Neutral analytical discussion: a teacher, parent or researcher describes learned social expectations to another educator, parent or reader; avoid treating a social pattern as a rule for every child.",
         "boundaryZh": "重點是長期從周圍人或文化學到的期待；一次個別意見、天生喜好或強制規定並不相同。",
         "misconceptionZh": "不要說所有人必然受同一影響，也不要把孩子真心不喜歡的活動一概歸因於社會觀念。",
         "outcomeZh": "能指出傳遞了甚麼期待、孩子如何聽到，以及選擇可能如何受影響。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2479",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "Remain able to compete or participate rather than being pushed out.",
         "meaningZh": "保持參與或競爭的能力，不致被淘汰或退出。",
-        "grammar": "Training helps small firms stay in the game.",
-        "register": "Sports metaphor in business and other competitive settings; identify the field and the pressure.",
+        "grammar": "A person, team or firm stays/stayed/is staying in the game; use in the game for continued participation or competitiveness, not physical location on a field.",
+        "register": "Neutral-to-informal sports metaphor in competitive business: a small-business owner or adviser discusses a firm’s ability to keep competing with staff, partners or clients.",
         "boundaryZh": "本課重點是仍有資格或能力參與競爭；比 stay the course 更着重能否留在競爭之中，而非只堅持原計劃。",
         "misconceptionZh": "不要把暫時仍在場內說成已勝出，也不要把任何堅持都當成有競爭力。",
         "outcomeZh": "能指出一項新做法如何幫助參與者在競爭中繼續立足。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2483",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "Be overwhelmed by more forms and documents than one can handle comfortably.",
         "meaningZh": "面對大量表格和文件，忙得應付不來。",
-        "grammar": "The staff were drowning in paperwork before the system changed.",
-        "register": "Vivid workload metaphor; it concerns document burden, not literal water or a single simple form.",
+        "grammar": "Use be + drowning in paperwork (is/was/were drowning); the subject is a worker or team, and paperwork is the uncountable document burden. It describes being overwhelmed, not one form.",
+        "register": "Vivid conversational workload metaphor: a staff member or manager tells a colleague or administrator that forms and documents have exceeded the team’s capacity.",
         "boundaryZh": "與 buried in homework 同屬工作量過重的比喻，但本課特指文書、表格和紀錄，不是學生功課。",
         "misconceptionZh": "不要只因桌面有紙就用 drowning；關鍵是文件量多到阻礙正常工作。",
         "outcomeZh": "能指出哪些重複文書堆積，以及工作因此受甚麼影響。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2490",
@@ -817,8 +817,8 @@
       "brief": {
         "meaningEn": "Add a new burden to an already demanding situation.",
         "meaningZh": "在本已有壓力的情況下再增加負擔。",
-        "grammar": "The extra reporting rule piles on pressure during exams.",
-        "register": "Natural figurative pattern; identify both the existing pressure and the added demand.",
+        "grammar": "An added rule, task or demand piles/piled on pressure; pressure is an uncountable object here. Name the pre-existing strain and the new cause that adds to it.",
+        "register": "Neutral-to-critical figurative wording: a student, teacher or organiser explains to an administrator or colleague why a new demand increases existing exam or work pressure.",
         "boundaryZh": "與 under intense pressure 不同：那描述已有壓力；本課必須有新要求再加上去。",
         "misconceptionZh": "不要把任何普通工作都說成 piles on pressure；要有原先負擔及新增要求。",
         "outcomeZh": "能指出原有壓力、新增要求，以及它如何令情況更難應付。"
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

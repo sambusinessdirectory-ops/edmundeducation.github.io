@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "independent-source-owner-comparison",
+  "auditDateUtc": "2026-10-23T11:29:28.752747+00:00",
+  "scope": "Only source ordinals 2684, 2705 and 2711 against canonical owners 293, 779 and 208; no manifest, lesson, release or decision edits.",
+  "evidenceHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "decisionFileSha256BeforeAndAfter": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb"
+  },
+  "decisionRowsChanged": 0,
+  "conclusion": "None of the three is a verified same-target, same-teaching-scope alias. All three provisional new-lesson rows remain unchanged; 2705 needs explicit near-duplicate editorial review before selection.",
+  "comparisons": [
+    {
+      "sourceOrdinal": 2684,
+      "sourceId": "book10-16-0573",
+      "sourceExpression": "carry it forward",
+      "sourceSentence": "Young musicians can carry it forward in new ways.",
+      "sourceMeaningAndReason": "Continue a practice into the future; a natural phrasal pattern.",
+      "decisionBeforeAndAfter": {
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-2684",
+        "decisionRowUnchanged": true
+      },
+      "proposedExistingOwner": {
+        "canonicalId": "advanced-native-293",
+        "titleEn": "carry culture",
+        "sourceSentence": "Family recipes can carry culture across generations.",
+        "meaningEn": "Preserve, express or pass on shared meanings, customs and identity through a practice or object.",
+        "boundaryZh": "不是把文化當成實物搬運，也不表示一種食譜代表整個群體或每代原封不動；要說明傳遞甚麼。",
+        "targetPattern": "\\b(?:carry|carries|carried|carrying) culture\\b",
+        "batchFile": "course-materials/advanced-native/batches/batch-0276-0300.json",
+        "batchSha256": "59ae8302894566ef9e000d1d6f78c6b34a278c44ea4147ef92aa322709c1ec08"
+      },
+      "detectorMatches": {
+        "fullSourceSentence": false,
+        "sourceExpression": false
+      },
+      "sourceSense": "Young musicians continue traditional music in new forms into the future; it is the object of carry it forward.",
+      "ownerSense": "Songs, recipes or stories preserve or transmit culture and shared meanings across generations.",
+      "distinction": "The source uses carry + it + forward, with musicians as agents and an antecedent practice to continue and develop. Canonical 293 uses a song, recipe or story as subject to carry culture. Cultural continuity overlaps, but the grammatical construction and teachable decision are different.",
+      "recommendation": "retain-proposed-new-lesson",
+      "rationale": "Do not alias to 293: its target detector does not recognize the source sentence, and its examples teach cultural meaning borne by an item rather than deliberate continuation/adaptation of a practice. The new brief should require an explicit antecedent for it."
+    },
+    {
+      "sourceOrdinal": 2705,
+      "sourceId": "book10-16-0594",
+      "sourceExpression": "punishment does not fit the crime",
+      "sourceSentence": "Many thought the punishment does not fit the crime.",
+      "sourceMeaningAndReason": "The penalty is disproportionate to the wrongdoing; a conventional legal phrase.",
+      "decisionBeforeAndAfter": {
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-2705",
+        "decisionRowUnchanged": true
+      },
+      "proposedExistingOwner": {
+        "canonicalId": "advanced-native-779",
+        "titleEn": "the punishment fits the scale of the offence",
+        "sourceSentence": "A fair policy ensures the punishment fits the scale of the offence.",
+        "meaningEn": "The consequence is proportionate to how serious the wrongdoing or harm is.",
+        "boundaryZh": "相稱不等於越重越公平，也不是只按人的身分、聲望或負責人有多生氣。",
+        "targetPattern": "\\bthe punishment (?:should |must )?fits? the scale of (?:the offence|the harm)\\b",
+        "batchFile": "course-materials/advanced-native/batches/batch-0776-0800.json",
+        "batchSha256": "aef8b5341826399517b3d38d3a7fe6a48d139328d6b602ca71f0a043d95824dd"
+      },
+      "detectorMatches": {
+        "fullSourceSentence": false,
+        "sourceExpression": false
+      },
+      "sourceSense": "People judge a proposed punishment for illegal downloading as disproportionate to the offence.",
+      "ownerSense": "A fair consequence should be proportionate to the severity and impact of wrongdoing.",
+      "distinction": "The fairness principle overlaps closely, but the source is the conventional negative set phrase punishment does not fit the crime; canonical 779 teaches the positive construction the punishment fits the scale of the offence. The negative judgement and compact crime cliché are not in the owner detector or taught as target.",
+      "recommendation": "retain-proposed-new-lesson-with-near-duplicate-review",
+      "rationale": "Do not alias mechanically to 779: the complete source expression is not covered by its target regex. If authored, teach the established negative wording and disproportionate penalty with a separate scenario; check that it adds lexical value rather than repeating 779’s proportionality task."
+    },
+    {
+      "sourceOrdinal": 2711,
+      "sourceId": "book10-16-0600",
+      "sourceExpression": "has a slight edge",
+      "sourceSentence": "The cheaper plan has a slight edge on value.",
+      "sourceMeaningAndReason": "Has a small advantage; a conventional comparative phrase.",
+      "decisionBeforeAndAfter": {
+        "action": "proposed-new-lesson",
+        "canonicalId": "advanced-native-2711",
+        "decisionRowUnchanged": true
+      },
+      "proposedExistingOwner": {
+        "canonicalId": "advanced-native-208",
+        "titleEn": "commercial edge",
+        "sourceSentence": "The new technique could give the company a commercial edge.",
+        "meaningEn": "An advantage that helps a business compete with other businesses.",
+        "boundaryZh": "是一項競爭優勢，不是保證利潤或銷售額；必須能說明怎樣有利於吸引或服務顧客。",
+        "targetPattern": "\\bcommercial edge\\b",
+        "batchFile": "course-materials/advanced-native/batches/batch-0201-0225.json",
+        "batchSha256": "5cfceca626f3514b4c5a7889a8aa2f97855bf0e7c35b1b28f707329399466a32"
+      },
+      "detectorMatches": {
+        "fullSourceSentence": false,
+        "sourceExpression": false
+      },
+      "sourceSense": "A cheaper plan has a small advantage over alternatives on value; the source question also compares music popularity.",
+      "ownerSense": "A business has a competitive advantage through a product or service that better serves customers.",
+      "distinction": "Slight edge is a general comparative advantage with a small degree; commercial edge is a business-specific competitive advantage. The source compares plan value, not necessarily a firm’s ability to win customers, and the degree slight matters.",
+      "recommendation": "retain-proposed-new-lesson",
+      "rationale": "Do not alias to 208: its target detector only recognizes commercial edge and its boundary requires a demonstrated customer-competition benefit. A small edge in value may exist without that commercial claim."
+    }
+  ]
+}

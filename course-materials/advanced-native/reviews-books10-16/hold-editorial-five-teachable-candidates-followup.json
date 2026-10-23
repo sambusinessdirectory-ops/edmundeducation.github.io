@@ -1,0 +1,165 @@
+{
+  "reviewId": "hold-editorial-five-teachable-candidates-followup",
+  "scope": "Independent AI assessment of five possible teachable held source rows; exact file hashes, source-sense and owner checks. No decision, draft, manifest or release edit and no human approval.",
+  "inputSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-4092-4715-b.json": "c54f7d109e3569de53536a56fcaeb7c1138942b0b5ac1c09097769433e30e616",
+    "course-materials/advanced-native/provenance/curated-module-index.json": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl": "0ebf6ef178a1def10deacca6a340c2067719700d9ec7176a66278a7112915b0b",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "a8ffebae285c52b790450d9d3701c42f8d6b82f340cdaa01f9b25f902da5abd3",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl": "4365838cf133b3e4a57a5056fa16fde223a1ce99f1ee48b9fe8d38f840aec001",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl": "9c140cd86d36058036f9af709d84403de1f7c3b3977d3a1cc33ff7a962a9e8b4",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl": "7a959e687a06ef17489910b171d3757e80a869b17b71814e316ad53ddf955cef"
+  },
+  "method": [
+    "Read the exact source rows and current decisions; compare live 1–1893 canonical index and adjacent provisional 4175 owner.",
+    "Check primary Cambridge dictionary and original institutional/official usage for disputed idiomaticity and transfer.",
+    "Test proposed bounded lexical detectors against each full source example and all 2,604 source examples; regex hits alone do not prove semantic ownership.",
+    "Apply Golden SOP P79 natural/idiom/figurative classification and P85 distinct-seven-decisions gate."
+  ],
+  "counts": {
+    "provisionalNewCandidates": 2,
+    "keepHeld": 3,
+    "decisionFilesEdited": 0
+  },
+  "items": [
+    {
+      "sourceOrdinal": 4147,
+      "sourceId": "book10-16-2036",
+      "sourceExample": "A phone alert is like tying a string around your finger.",
+      "normalizedUnit": "tie a string around your finger",
+      "classification": "figurative comparison of a conventional literal reminder",
+      "recommendation": "keep-hold-editorial",
+      "rationale": "The source explicitly compares a phone alert with the familiar physical reminder. The bounded words are conventional, but the actual action is literal and the guide-written simile does the teaching work. A full seven-step advanced-expression lesson would likely keep testing the same reminder analogy rather than a distinct transferable language choice. Do not call the whole sentence an idiom or promote automatically.",
+      "canonicalAndProvisionalOverlap": [
+        "No exact canonical owner; 511 with fingers crossed and 699 at your fingertips share finger imagery but not reminder meaning."
+      ],
+      "candidateTargetRegex": "\\b(?:tie|ties|tied|tying)\\s+a\\s+string\\s+around\\s+(?:my|your|his|her|their|our|one['’]s)\\s+finger\\b",
+      "fullSourceRegexMatch": true,
+      "corpusRegexHitCount": 1,
+      "corpusRegexHitSourceIds": [
+        "book10-16-2036"
+      ],
+      "sevenStepLearnerDecisionAssessment": "Possible contrast: physical cue versus digital alert; no clear seven distinct learner decisions without repeated meaning checks. Revisit only if a human editor identifies a broader natural speech pattern and fresh scenes.",
+      "primaryEvidence": [
+        {
+          "url": "https://libraries.udmercy.edu/find/special_collections/digital/cfa/index.php?field=keyword&term=String",
+          "finding": "University folklore archive records the string-around-finger reminder convention."
+        },
+        {
+          "url": "https://www.mickmel.com/the-signal-and-the-message/",
+          "finding": "Original author describes the string-around-finger reminder as a cue, supporting literal cultural image rather than a separate figurative verb sense."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4237,
+      "sourceId": "book10-16-2126",
+      "sourceExample": "The tutor asked probing questions instead of giving answers.",
+      "normalizedUnit": "probing questions",
+      "classification": "Natural English collocation",
+      "recommendation": "provisional-new-lesson-candidate-after-human-editorial-scope-check",
+      "rationale": "Cambridge attests probing question as a conventional collocation for questions intended to obtain information; the tutor example narrows this to drawing out reasoning rather than simply supplying answers. It is reusable beyond teaching and has a distinct learner choice (ask to uncover reasoning, not ask a routine factual question). Mark as Natural English, not idiom.",
+      "canonicalAndProvisionalOverlap": [
+        "No exact canonical phrase. Existing 072 problem-solving skills and 1782 a gateway rather than a final authority are educational but teach different decisions."
+      ],
+      "candidateTargetRegex": "\\bprobing\\s+questions?\\b",
+      "fullSourceRegexMatch": true,
+      "corpusRegexHitCount": 1,
+      "corpusRegexHitSourceIds": [
+        "book10-16-2126"
+      ],
+      "sevenStepLearnerDecisionAssessment": "Feasible seven distinct decisions: hear whether tutor elicits reasoning; four valid replies to a student’s confusion; choose between probing and routine recall in a scene; contrast probing with leading/accusatory questioning; respond tactfully to a hesitant learner; speak one open probing question; write in a new mentoring or interview context with two answer-derived glossaries.",
+      "primaryEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/probing",
+          "finding": "Cambridge defines probing questions as intended to get information and gives the exact collocation."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4241,
+      "sourceId": "book10-16-2130",
+      "sourceExample": "An experienced teacher can hold the room together during debate.",
+      "normalizedUnit": "hold the room together",
+      "classification": "figurative but highly productive cohesion metaphor",
+      "recommendation": "keep-hold-editorial",
+      "rationale": "The source is understandable and possible English, but exact room-together wording is not clearly a stable set phrase; hold a room and hold a group together are productive components. Avoid turning one context-specific sentence into a fixed Advanced Native target until an English editor confirms a transferable bounded usage.",
+      "canonicalAndProvisionalOverlap": [
+        "Canonical 110 the glue that holds the group together already teaches a person/factor maintaining group cohesion; 1716 invisible stitching also covers group-holding effect. Different room-as-audience context may exist but not yet a clearly separate decision."
+      ],
+      "candidateTargetRegex": "\\b(?:hold|holds|held|holding)\\s+(?:the|a)\\s+room\\s+together\\b",
+      "fullSourceRegexMatch": true,
+      "corpusRegexHitCount": 1,
+      "corpusRegexHitSourceIds": [
+        "book10-16-2130"
+      ],
+      "sevenStepLearnerDecisionAssessment": "A seven-step sequence would tend to recycle moderator keeps debate orderly versus does not. A sharper learner outcome and nonoverlapping contexts are needed before drafting.",
+      "primaryEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/dictionary/english/hold-together",
+          "finding": "Check the productive hold together construction; no exact phrase-level dictionary evidence for hold the room together found in this audit."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4339,
+      "sourceId": "book10-16-2228",
+      "sourceExample": "Emotional nuance may get lost along the way.",
+      "normalizedUnit": "get lost along the way",
+      "classification": "figurative natural-English clause, not a fixed idiom",
+      "recommendation": "keep-hold-editorial-pending-owner-scope",
+      "rationale": "Cambridge supports get lost for an idea that is not communicated or noticed, and along the way marks a process. But the combination is compositional and overlaps a provisional communication-loss owner. Do not create a second lesson merely because the prepositional tail differs.",
+      "canonicalAndProvisionalOverlap": [
+        "Canonical 118 along the way teaches the process-time subspan, 1969 get lost in something teaches absorption rather than disappearance, and provisional new owner 4175 get lost in translation already teaches failure to communicate an idea in a rushed meeting. Compare 4175 scope before any promotion."
+      ],
+      "candidateTargetRegex": "\\b(?:get|gets|got|getting)\\s+lost\\s+along\\s+the\\s+way\\b",
+      "fullSourceRegexMatch": true,
+      "corpusRegexHitCount": 1,
+      "corpusRegexHitSourceIds": [
+        "book10-16-2228"
+      ],
+      "sevenStepLearnerDecisionAssessment": "Could teach loss of nuance during a process versus intentional omission, but 4175 may already cover that learner decision. Hold until the owner brief and target detector are final.",
+      "primaryEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/get-lost",
+          "finding": "Cambridge separately records the idea-not-communicated/not-noticed sense of get lost; it does not establish get lost along the way as a fixed idiom."
+        }
+      ]
+    },
+    {
+      "sourceOrdinal": 4680,
+      "sourceId": "book10-16-2569",
+      "sourceExample": "The hotel became the base camp for the whole trip.",
+      "normalizedUnit": "base camp",
+      "classification": "figurative use of a noun phrase",
+      "recommendation": "provisional-new-lesson-candidate-after-human-editorial-scope-check",
+      "rationale": "The full source phrase contains a productive for the whole trip complement; the reusable core is base camp. Official visitor sites use base camp for a location from which other activities start, including a hotel-oriented tourism context. The hotel is an operating point for outings, not a literal camp or merely a place to rest.",
+      "canonicalAndProvisionalOverlap": [
+        "Canonical 1526 home base means a stable place to return to; base camp adds planned outward trips/operations and should not be conflated. No exact prior canonical base camp owner found."
+      ],
+      "candidateTargetRegex": "\\bbase\\s+camp\\b",
+      "fullSourceRegexMatch": true,
+      "corpusRegexHitCount": 1,
+      "corpusRegexHitSourceIds": [
+        "book10-16-2569"
+      ],
+      "sevenStepLearnerDecisionAssessment": "Feasible seven distinct decisions: identify a central launch point in listening; four valid route-planning replies; select a hotel/location serving excursions; contrast base camp with mere lodging/home base; contextual dialogue about where to start each day; speak a natural itinerary sentence; write a changed context such as an event coordination hub with a clear operational function.",
+      "primaryEvidence": [
+        {
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/base-camp",
+          "finding": "Cambridge defines literal base camp as a supply and operating place and includes corpus example of a house becoming a base camp."
+        },
+        {
+          "url": "https://tourismnewbrunswick.ca/campbellton",
+          "finding": "Official Tourism New Brunswick page uses base camp for a destination with hotel rooms and outward adventures."
+        },
+        {
+          "url": "https://www.visitestespark.com/",
+          "finding": "Official visitor site calls Estes Park a base camp for activities in Rocky Mountain National Park."
+        }
+      ]
+    }
+  ],
+  "conclusion": "4237 probing questions and 4680 base camp have plausible distinct teaching outcomes and bounded targets for human editorial consideration. Keep 4147, 4241 and 4339 held for limited distinctiveness or owner overlap. No automatic promotion or human/release approval."
+}

@@ -10,13 +10,13 @@
       "titleZh": "損害你的可信度",
       "category": "figurative",
       "target": {
-        "pattern": "\\b(?:dent|dents|dented|denting) (?:your|my|his|her|our|their) credibility\\b",
+        "pattern": "\\b(?:dent|dents|dented|denting) (?:my|your|his|her|our|their|(?:(?:the|a|an) )?[A-Za-z][A-Za-z-]*(?: [A-Za-z][A-Za-z-]*){0,2}['’]s) credibility\\b",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Reduce the trust others place in someone after an error or unreliable act.",
         "meaningZh": "因錯誤或不可靠的行為，令別人對某人的信任減弱。",
-        "grammar": "Pattern: dent/dents/dented/denting + my/your/his/her/our/their credibility. An error, repeated mistake or unreliable act is the subject; the phrase takes a possessive determiner before credibility.",
+        "grammar": "Pattern: dent/dents/dented/denting + a possessive determiner or noun possessive + credibility (e.g. dent your credibility; dent the guide’s credibility). An error, repeated mistake or unreliable act is often the subject.",
         "register": "Neutral to formal professional or community discussion. A colleague, organiser or reviewer can say it to someone assessing how a visible error affects other people's trust.",
         "boundaryZh": "重點是別人對你的可信程度有所下降，不必等同完全失去信任；須有可見的失誤與受影響的對象。",
         "misconceptionZh": "不要因任何小瑕疵就斷言信譽已全毀，也不要把 credibility 誤作個人心情。",
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2516",

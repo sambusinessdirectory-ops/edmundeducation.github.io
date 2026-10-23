@@ -1,0 +1,45 @@
+{
+  "reviewId": "selected-scene-target-audit-2162-2202-2511-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2151-2167-b2.json": "15ec6992fc50c7a77fc559adea57e35442cd8827916fcc1929df5911f66aaed2",
+    "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json": "51318160be4eb71eba9b51fee1431d4076d4ca4dc0001f42239648585cc558df",
+    "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json": "838bcc492650d9c24a69a5bbcb9b1401743c39abb39f4bce952b64169b9b33f7"
+  },
+  "authority": "Golden SOP seven-step table, Step 3: ‘Match a concrete situation | One best expression for a scenario. Explain the decisive clue. One assessed MC.’ The reviewed target expression should be selectable and detected in the keyed English choice.",
+  "scope": "Independent AI audit of three selected Step 3 scene keys identified by a mechanical target screen. No draft edit, human approval or publication.",
+  "findings": [
+    {
+      "id": "R2162-S3",
+      "lessonId": "advanced-native-2162",
+      "severity": "major",
+      "classification": "content contract miss",
+      "evidence": "The science-report scene asks which action advances the main work. Keyed English answer is ‘Start analysing the results and write the first paragraph.’ It is a sensible action but contains no instance of move the main task forward; none of the three English choices contains the target.",
+      "impact": "Step 3 becomes a general productivity-choice question rather than choosing the target expression for the scenario; the target highlight/detector cannot mark the keyed answer.",
+      "recommendedRepair": "Keep the report-cover-versus-analysis scenario and make the keyed choice a natural target-bearing sentence, for example ‘Analysing the results and writing the first paragraph would move the main task forward.’ Align its Traditional Chinese and explanation; preserve the distractors, option ID and key if the assessed decision remains the same. Recheck full-source and keyed-scene regex hits."
+    },
+    {
+      "id": "R2202-S3",
+      "lessonId": "advanced-native-2202",
+      "severity": "major",
+      "classification": "content contract miss",
+      "evidence": "The bus-commute scene asks which reading plan best fits an everyday routine. Keyed English answer is ‘Read for ten minutes on the bus each weekday.’ It proposes a good plan but contains no fit into everyday life target; none of the three English choices contains the target.",
+      "impact": "Step 3 tests practical scheduling without requiring the learner to recognise the course expression, and the keyed option has no target span for display.",
+      "recommendedRepair": "Keep the commute scenario and make keyed option a target-bearing assessment, for example ‘Reading for ten minutes on the bus each weekday would fit into everyday life.’ Align the Traditional Chinese and explanation, then recheck the keyed target span and option/key stability."
+    },
+    {
+      "id": "R2511-S3",
+      "lessonId": "advanced-native-2511",
+      "severity": "major",
+      "classification": "target detector coverage miss, not an expression-choice miss",
+      "evidence": "The keyed answer does contain the natural expression in ‘The errors dented the guide’s credibility...’, and it matches the scenario's reduced trust. The detector only accepts my/your/his/her/our/their before credibility, so it fails the grammatical possessive noun the guide’s. The source sentence with your and the dialogue key still match.",
+      "impact": "The mechanical screen correctly catches a missing target highlight/coverage but incorrectly suggests the keyed content omitted the expression. A narrow regex makes a valid usage invisible to target-based Step 3 integrity checks.",
+      "recommendedRepair": "Prefer retaining the natural keyed sentence and extending the reviewed target pattern to bounded possessive-noun forms, including straight and curly apostrophes, while preserving pronoun forms and avoiding whole-sentence matches. Update brief.grammar to state that a possessive noun such as the guide’s can precede credibility. Test source, keyed scene, dialogue, speaking and writing targets plus non-target controls. An alternative is rewriting the keyed choice to an unambiguous pronoun form, but that is less faithful to the scenario."
+    }
+  ],
+  "checks": {
+    "sourceRegex": "All three current target patterns detect their full source sentence.",
+    "dialogueRegex": "All three current keyed dialogue options detect the target.",
+    "sceneRegex": "No current keyed scene option detects the target. In 2162 and 2202 it is absent from the English choice; in 2511 it is present in a noun-possessive form excluded by the detector."
+  },
+  "conclusion": "Repair both Step 3 content misses and the 2511 detector coverage before marking the selected course fully compliant with the expression-choice and highlighting contract. The findings do not by themselves change the answer keys or justify publication."
+}

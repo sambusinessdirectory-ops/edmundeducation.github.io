@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "The product benefits most likely to persuade the intended buyer.",
         "meaningZh": "對目標買家最有說服力的產品優點。",
-        "grammar": "Low maintenance is one of the strongest selling points of the bicycle.",
-        "register": "Business and everyday product-comparison language; name the benefit and the buyer it matters to.",
+        "grammar": "Pattern: a/the strongest selling point(s) of + product or plan. One of the strongest selling points takes a plural noun; a singular point names one benefit.",
+        "register": "Neutral product-comparison or sales language: a salesperson or reviewer tells a buyer which specific benefits make an item appealing to that buyer.",
         "boundaryZh": "賣點是能影響選擇的優點；不是每個規格都同樣有說服力，也不等同保證銷量。",
         "misconceptionZh": "不要把 selling points 理解為實際銷售地點或價格本身；應說清楚好處。",
         "outcomeZh": "能指出產品的一項具體優點，以及它為何打動合適買家。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2452",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "Be supplied with many features or items as part of the product.",
         "meaningZh": "產品交付時已配備或預載許多功能、內容或物品。",
-        "grammar": "The new apartment will come loaded with smart controls.",
-        "register": "Informal product-description pattern; state what is included, not physical weight.",
+        "grammar": "Pattern: come/comes/came loaded with + included features or resources. The subject is a product or service, and with introduces what is supplied.",
+        "register": "Informal product description: a seller or reviewer tells a potential buyer which features are included, without implying that the product is physically heavy.",
         "boundaryZh": "本課強調產品本身已附帶多項功能；日後另購配件或只容許安裝，不等於交付時已配備。",
         "misconceptionZh": "不要把 loaded 誤解為貨物很重，也不要以為任何單一基本功能都足以稱 loaded with。",
         "outcomeZh": "能說明產品交付時已包含哪些具體功能。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2457",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "A tool is helpful when people direct it, but harmful when it dictates their choices.",
         "meaningZh": "工具受人支配時很有用；若反過來主導人的選擇，便可能帶來問題。",
-        "grammar": "Technology can be a brilliant servant, but a poor master.",
-        "register": "Reflective maxim, often about technology; use to contrast assistance with loss of human control.",
+        "grammar": "Pattern: X can be a brilliant servant, but a poor master. Keep the contrast between the two count-noun complements and their articles; X is the tool or system under discussion.",
+        "register": "Reflective advice about control: a community organiser tells a fellow volunteer using a translation app that the tool can help draft a notice but must not replace their final check.",
         "boundaryZh": "這是工具與使用者主導權的對比，不是說機器真的成了僕人或主人，也不等於所有技術都不好。",
         "misconceptionZh": "不要把便利性本身當成問題；真正界線是人是否仍可作出有判斷的選擇。",
         "outcomeZh": "能說出工具如何幫助，以及何時開始不恰當地主導人。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2458",
@@ -817,8 +817,8 @@
       "brief": {
         "meaningEn": "Control a person’s daily choices or routine instead of merely assisting them.",
         "meaningZh": "主導某人的日常安排或選擇，而不只是提供協助。",
-        "grammar": "The schedule ended up running their life.",
-        "register": "Figurative criticism when an app, schedule, habit or demand dictates everyday choices.",
+        "grammar": "Pattern: X runs/ran/is running someone’s life. The subject is an app, schedule, habit or demand; the possessive identifies whose choices are being dictated.",
+        "register": "Figurative criticism: a friend or counsellor tells someone that an app, schedule or habit has begun dictating everyday decisions instead of serving the person.",
         "boundaryZh": "重點是控制日常選擇；日程表提供提醒或有人主持活動，不等於 running someone’s life。",
         "misconceptionZh": "不要誤把 run 解作真的奔跑；也不要因任何規律生活就斷定失去自主權。",
         "outcomeZh": "能指出哪項外在安排如何左右人的具體日常選擇。"
@@ -1068,7 +1068,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

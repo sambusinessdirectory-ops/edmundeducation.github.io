@@ -17,7 +17,7 @@
         "meaningEn": "Both positive and negative feelings about the same thing.",
         "meaningZh": "面對同一件事時，同時有支持或高興的一面，也有擔心或難過的一面。",
         "grammar": "have mixed feelings about a change; mixed feelings about leaving.",
-        "register": "Neutral everyday phrase; explain the two sides rather than using it as vague indecision.",
+        "register": "Neutral everyday evaluation: a person tells a friend or colleague that a change prompts both positive and negative feelings, stating both sides rather than vague indecision.",
         "boundaryZh": "同時有正反兩面，不只是完全拿不定主意，也不是兩個人各持一種看法。",
         "misconceptionZh": "不要只寫「我有感覺」而不說明兩面；亦不要把純粹高興或純粹失望說成喜憂參半。",
         "outcomeZh": "能具體說出同一決定帶來的好處和顧慮。"
@@ -268,7 +268,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2310",
@@ -285,7 +285,7 @@
         "meaningEn": "Continue longer than expected or wanted, often unpleasantly.",
         "meaningZh": "某事比預期或理想時間更久，令人感到拖沓或難以忍受。",
         "grammar": "the meeting dragged on; a dispute may drag on.",
-        "register": "Neutral-to-negative phrase; duration alone is not enough without unwanted delay.",
+        "register": "Neutral-to-negative account of unwelcome duration: a meeting attendee or colleague tells another participant why a meeting or dispute is continuing longer than wanted.",
         "boundaryZh": "表示不受歡迎地持續太久，不是事情本來就安排得長但大家樂意參與。",
         "misconceptionZh": "不要把有成果的長時間活動自動說成拖沓，也不要用來形容突然結束。",
         "outcomeZh": "能交代原定時長、實際延長和造成的不便。"
@@ -536,7 +536,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2319",
@@ -553,7 +553,7 @@
         "meaningEn": "Feel convincing or authentic because details match lived experience or observation.",
         "meaningZh": "細節與人的經驗或觀察吻合，令人覺得說法真實可信。",
         "grammar": "the story rings true; the dialogue rang true.",
-        "register": "Neutral figurative evaluation of accounts and fictional portrayals.",
+        "register": "Neutral figurative judgement: a reader, viewer or editor tells a friend or writer that an account or dialogue feels believable rather than merely factually verified.",
         "boundaryZh": "讓人覺得可信不等於已被獨立證實；這是對呈現是否真實的判斷。",
         "misconceptionZh": "不要把共鳴當作事實查證，也不要因故事動人就自動說細節可信。",
         "outcomeZh": "能指出一個具體細節為何使描寫顯得可信，同時保留查證空間。"
@@ -804,7 +804,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2327",
@@ -821,7 +821,7 @@
         "meaningEn": "A film or story intended to move viewers strongly, often to tears.",
         "meaningZh": "情感強烈、容易令觀眾或讀者感動落淚的電影或故事。",
         "grammar": "a tearjerker film; the story is a tearjerker.",
-        "register": "Informal noun for emotional storytelling; no claim that every viewer will cry.",
+        "register": "Informal entertainment description: a viewer or critic tells a friend that a film or story is designed to be moving; it does not predict that every viewer will cry.",
         "boundaryZh": "重點是作品刻意以情感打動人，不是單純悲慘，也不用保證所有觀眾流淚。",
         "misconceptionZh": "不要以觀眾性別推斷反應；不同人可以有不同感受。",
         "outcomeZh": "能用具體情節解釋一部作品為何具催淚效果，並尊重不同觀眾反應。"
@@ -1072,7 +1072,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     }
   ]
 }

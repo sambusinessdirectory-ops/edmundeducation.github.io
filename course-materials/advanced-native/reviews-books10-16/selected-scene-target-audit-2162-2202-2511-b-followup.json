@@ -1,0 +1,36 @@
+{
+  "reviewId": "selected-scene-target-audit-2162-2202-2511-b-followup",
+  "reviewType": "Independent exact-hash follow-up of R2162-S3, R2202-S3 and R2511-S3",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2151-2167-b2.json": "7fa02ea20e9526e57beda5f924ed734ba0b0eec1090f481492b2512de5493f5b",
+    "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json": "b317625bda0fc13a0440724c6a4aca4955b9eaaab56f344684e26dab5208055c",
+    "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json": "3d2ed974fe6733a104a0ace9a57458d70400da41a9e1f94be9407f90debf5497"
+  },
+  "decisionFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl": "0058de65f6084db2a74e5df3b515af4e8eceaa97216554c30635a8bc14ab62d8"
+  },
+  "findings": [
+    {
+      "originalFindingId": "R2162-S3",
+      "lessonId": "advanced-native-2162",
+      "outcome": "cleared",
+      "evidence": "The keyed science-report choice now naturally says ‘would move the main task forward’; its Chinese says ‘便能推進主要工作’. The source, keyed scene, keyed dialogue, speaking transcript and both writing models match the reviewed target regex. Scene answerId remains a, the distractors and explanation are unchanged, and contentRevision rose to 3."
+    },
+    {
+      "originalFindingId": "R2202-S3",
+      "lessonId": "advanced-native-2202",
+      "outcome": "cleared",
+      "evidence": "The keyed bus-reading choice now naturally says ‘would fit into everyday life’; its Chinese says ‘便能融入日常生活’. The source, keyed scene, keyed dialogue, speaking transcript and both writing models match the reviewed target regex. Scene answerId remains a, the distractors and explanation are unchanged, and contentRevision rose to 3."
+    },
+    {
+      "originalFindingId": "R2511-S3",
+      "lessonId": "advanced-native-2511",
+      "outcome": "cleared for the selected source and lesson uses",
+      "evidence": "The bounded detector matches source ‘dent your credibility’, scene key ‘dented the guide’s credibility’, dialogue key, speaking transcript and both writing models. It matches straight and curly singular noun possessives, retains pronoun forms, and rejects ‘dented his reputation’ and ‘dented guide credibility’. The grammar brief now documents both possessive forms. The scene text, key a, Chinese translation, distractors and other assessed content are unchanged; contentRevision rose to 3. The source decision ledger contains only sourceOrdinal 2511 as owner and no existing-alias rows for this canonical ID.",
+      "scopeNote": "Plural possessive ‘guides’ credibility’ is outside the current detector, but is absent from this source and all selected lesson uses; this follow-up does not claim coverage of every possible English possessive."
+    }
+  ],
+  "changeControl": "Compared each lesson against Git HEAD. For 2162 and 2202, assessed-content changes are limited to the keyed scene English and aligned Chinese; concurrent brief.register updates and revision bumps are non-assessment changes. For 2511, changes are limited to target.pattern, brief.grammar and contentRevision. No keys, other options, prompts, explanations or model answers changed.",
+  "buildCheck": "Focused build and --check of the three exact files: 15 lessons, 90 questions, 60 audio requests, 0 review flags. Outputs are draft artifacts under /private/tmp/advanced-native-review-selected-scenes-b-r2.",
+  "conclusion": "All three original selected Step 3 findings are cleared at the exact hashes recorded above. This is an independent AI content follow-up, not human editorial approval or publication clearance."
+}

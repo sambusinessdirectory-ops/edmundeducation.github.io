@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-relemma-2341-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2341",
+      "number": 2341,
+      "inventoryId": "expr-2341",
+      "titleEn": "inhabit a role",
+      "titleZh": "活現角色",
+      "category": "figurative",
+      "target": {
+        "pattern": "(?:(?<=\\bthe part; he )inhabits it\\b|\\binhabit(?:s|ed|ing)?\\s+(?:(?:a|the|his|her|their)\\s+)?(?:roles?|parts?|characters?)\\b)",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Portray a role so fully and convincingly that the character feels lived in, rather than merely reciting lines.",
+        "meaningZh": "演員充分投入並活現角色，使人物像真實存在，而不只是把台詞背出來。",
+        "grammar": "An actor inhabits a role, part or character; inhabited the role; inhabiting her character. The source pronoun it refers to the part in the preceding clause.",
+        "register": "Neutral-to-appreciative figurative arts criticism: a director, critic or fellow actor describes a performer to another viewer or theatre colleague; not a literal claim that the actor lives somewhere.",
+        "boundaryZh": "只把台詞念得準確或換上合適服裝，未必代表演員真正投入角色；關鍵是神情、反應和動機都像那個人物。",
+        "misconceptionZh": "不要把 inhabit 解作字面的「居住」，也不要把任何流暢背稿當成活現角色。",
+        "outcomeZh": "能根據演員是否自然呈現角色的想法與反應，判斷何時用 inhabit a role。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0230",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He does more than recite the part; he inhabits it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "inhabits it"
+        },
+        {
+          "occurrenceId": "book10-16-0266",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 24,
+          "book": 10,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "48–49",
+          "locatorNote": "DOCX table 20, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He does more than recite the part; he inhabits it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "inhabits it"
+        }
+      ],
+      "listening": {
+        "en": "At the rehearsal, Tessa stopped sounding as if she were reading a script. She inhabited the role of the anxious nurse, reacting to each new question as the nurse would.",
+        "zh": "排練時，Tessa 不再像照稿讀台詞。她活現那位焦慮護士的角色，面對每個新問題，都作出符合角色的反應。",
+        "promptZh": "說話者為何稱讚 Tessa 的演出？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her reactions made the nurse feel like a believable person.",
+            "zh": "她的反應令護士這個角色像一個真實可信的人。"
+          },
+          {
+            "id": "b",
+            "en": "Her pronunciation became clearer, while her reactions stayed mechanical.",
+            "zh": "她的發音變清楚了，但反應仍很機械。"
+          },
+          {
+            "id": "c",
+            "en": "She followed the script exactly, without responding to unexpected questions.",
+            "zh": "她完全照稿演出，沒有回應意料之外的問題。"
+          },
+          {
+            "id": "d",
+            "en": "Her costume made the nurse recognisable, although her acting did not change.",
+            "zh": "她的服裝令人認出護士身份，但演法沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Tessa 不是單純念準台詞；她能按角色的情緒自然回應新問題，令人物可信。"
+      },
+      "reply": {
+        "promptEn": "In rehearsal, Tessa played a nurse. She reacted to another actor’s worrying news, paused before replying, and made the nurse’s choices feel motivated in each scene. What made her performance convincing?",
+        "promptZh": "（排練時，Tessa 演一名護士。她聽到另一位演員帶來令人擔心的消息後作出反應，回話前稍作停頓，而且每一幕都令護士的決定顯得有動機。她的演出為何可信？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She reacted to the other actors as though their news mattered to her.",
+            "zh": "她像真的在乎其他演員帶來的消息那樣作出反應。"
+          },
+          {
+            "id": "b",
+            "en": "Her pauses made the nurse’s worry believable.",
+            "zh": "她的停頓令護士的擔憂變得可信。"
+          },
+          {
+            "id": "c",
+            "en": "She inhabited the role instead of just reciting the lines.",
+            "zh": "她活現角色，而不是單純背誦台詞。"
+          },
+          {
+            "id": "d",
+            "en": "Her choices as the nurse seemed to have a clear motive.",
+            "zh": "她飾演護士時所作的選擇，看來都有清楚的動機。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "情境明確交代她的反應、停頓和人物動機；四句都合理指出演出可信之處。金句用 inhabit the role 概括她真正投入人物，而非只記住字句。"
+      },
+      "scene": {
+        "promptZh": "廣播劇演員在臨時加插的對話中，仍能用角色的語氣和情緒自然回應，令聽眾相信人物就在現場。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He inhabits the character even when the dialogue changes.",
+            "zh": "即使對白有變，他仍能活現角色。"
+          },
+          {
+            "id": "b",
+            "en": "He reads the printed lines clearly, but his improvised replies sound detached.",
+            "zh": "他把印好的台詞念得清楚，但即興回應聽起來抽離。"
+          },
+          {
+            "id": "c",
+            "en": "The sound effects create the setting, while his reactions remain flat.",
+            "zh": "音效營造出場景，但他的反應仍平板。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "臨時對話仍保持角色的情緒和反應，顯示演員真正活現人物，而非只靠台詞或音效。"
+      },
+      "contrast": {
+        "promptZh": "哪種演出最不適合用 inhabit a role 形容？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The actor stays in character after forgetting a line.",
+            "zh": "演員即使忘記一句台詞，仍按人物的處境自然接續。"
+          },
+          {
+            "id": "b",
+            "en": "The actor recites every line accurately but reacts in their usual voice.",
+            "zh": "演員把所有台詞念得準確，卻一直用平日自己的語氣回應。"
+          },
+          {
+            "id": "c",
+            "en": "The actor consistently shows the character’s fear when bad news arrives.",
+            "zh": "演員每次聽見壞消息，都呈現角色一貫的恐懼。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "準確背稿不等於活現角色；如果反應仍像演員本人，角色便未被充分演出。"
+      },
+      "dialogue": {
+        "promptZh": "導演說：「演員都記熟台詞了，可是角色的情緒仍很平。」哪個回應最能接續並提出本課重點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They know the words, but they still need to inhabit their roles.",
+            "zh": "他們記得台詞，但仍需要真正活現各自角色。"
+          },
+          {
+            "id": "b",
+            "en": "They may need a few more runs to make the words sound smoother.",
+            "zh": "他們可能需要再排幾次，令台詞說得更流暢。"
+          },
+          {
+            "id": "c",
+            "en": "Changing the lighting could make the stage feel less empty.",
+            "zh": "改變燈光或許能令舞台看起來不那麼空。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導演指出的問題是角色情緒，而非記憶、流暢度或舞台佈置；要讓反應符合人物，才是活現角色。"
+      },
+      "speaking": {
+        "en": "On stage, she inhabited the role of a tired doctor and responded naturally to every question.",
+        "zh": "在台上，她活現一位疲憊醫生的角色，面對每個問題都自然回應。",
+        "promptZh": "先聽完整示範，再說出她如何令醫生這個角色可信。",
+        "targetSpan": {
+          "start": 14,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館志願者扮演昔日的碼頭工人，帶訪客參觀展區。她不只重述資料，還以當年工人的口吻回答問題。用一至兩句英文評價她的演出。",
+        "selfCheckZh": "指出她不只重述資料，還自然呈現人物的語氣或反應；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "The museum guide inhabited the role of a harbour worker, answering visitors as if the old dock were still busy.",
+            "zh": "博物館導賞員活現昔日碼頭工人的角色，回答訪客時彷彿舊碼頭仍然繁忙。"
+          },
+          {
+            "en": "The volunteer did more than repeat facts; she inhabited her character and made the old dock feel alive.",
+            "zh": "志願者不只重述資料；她活現人物，令昔日碼頭像重新活起來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the museum guide",
+            "zh": "博物館導賞員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "a harbour worker",
+            "zh": "一位碼頭工人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 55
+            }
+          },
+          {
+            "en": "answering visitors",
+            "zh": "回答訪客",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          },
+          {
+            "en": "repeat facts",
+            "zh": "重述資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 40
+            }
+          },
+          {
+            "en": "the old dock",
+            "zh": "昔日碼頭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 91
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A strong actor can inhabit a role through believable reactions, not just accurate lines.",
+          "zh": "出色演員能以可信的反應活現角色，而不只是把台詞念準。"
+        },
+        {
+          "en": "She inhabited the character so fully that even an improvised reply felt natural.",
+          "zh": "她完全投入角色，連即興回應也顯得自然。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA reviews remain pending.",
+          "The source example is guide-written provenance, not a learner-facing model copied into practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 4
+    }
+  ]
+}

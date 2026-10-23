@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "Become coherent or clear as separate facts finally connect.",
         "meaningZh": "原本零散或令人困惑的事實，在關鍵資料出現後變得有條理、說得通。",
-        "grammar": "Once the missing record appears, the facts fall into place.",
-        "register": "Common reflective phrase; facts, a plan or a sequence can be the subject.",
+        "grammar": "Pattern: facts, details or parts of a plan fall/fell/have fallen into place. The subject is what becomes coherent; no direct object follows fall.",
+        "register": "Neutral reflective explanation: an investigator, organiser or reader tells a colleague how missing evidence makes several facts or parts of a plan coherent.",
         "boundaryZh": "本課着重最後一塊資料出現後，各項事實自然變清楚；不等於人主動蒐集線索的整個過程。",
         "misconceptionZh": "不要把 fall 理解為物件真的掉下，也不要把仍未解決的猜測說成已查明。",
         "outcomeZh": "能說出哪項新資料令原本不一致的事實變得合理。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 4
+      "contentRevision": 5
     }
   ]
 }

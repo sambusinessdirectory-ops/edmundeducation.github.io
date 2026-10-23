@@ -1,0 +1,30 @@
+{
+  "reviewId": "independent-ai-review-held-promotions-4237-4680-b-followup",
+  "follows": "independent-ai-review-held-promotions-4237-4680-b",
+  "decisionFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "2a45bbff835efabeb0d1bf43f36ac2f802064131f72ca59b1f5f6b1e1ad3e156",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl": "ba47ae5fdbc75d4a990629d5d526ac8142ba1c74ef1433bbc67c86c9a7d0772a"
+  },
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-4237-4680-held-a.json": "e8c82a2e116babac964ac549d9a6ac857a3b4953f861968024a715c149c98534"
+  },
+  "findingOutcomes": [
+    {
+      "id": "R4237-01",
+      "status": "cleared",
+      "evidence": "The revised Step 3 prompt asks for the best description of an appropriate interview approach. Keyed option a naturally says ‘She asks probing questions about which attendance figures are being compared and what changed between the two events.’ It is target-bearing, addresses the specific scenario and contrasts with a routine start-time check and a leading accusation. The Traditional Chinese and explanation align."
+    },
+    {
+      "id": "R4680-01",
+      "status": "cleared",
+      "evidence": "Dialogue distractor b now overclaims that the hostel owns boats and controls every stop, while distractor c wrongly denies its coordination role and treats it as sleep-only. These are distinct errors, and their Chinese translations preserve the distinctions."
+    }
+  ],
+  "focusedChecks": {
+    "revision": "Both lessons now have contentRevision 2; source decisions remain at the recorded hashes.",
+    "target": "The scene and dialogue keyed answers in both lessons contain a target regex match, and each four-option reply set retains exactly one target-bearing golden answer.",
+    "build": "Fresh focused build and --check pass: 2 lessons, 12 questions, 8 audio requests, 0 structural flags."
+  },
+  "remainingFindings": [],
+  "conclusion": "Both prior independent AI findings are cleared at the revised hash. These lessons remain unselected provisional drafts, and the separate-lesson scope—especially base camp relative to home base—still requires human editorial approval before any release."
+}

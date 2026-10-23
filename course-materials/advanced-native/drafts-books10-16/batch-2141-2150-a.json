@@ -17,7 +17,7 @@
         "meaningEn": "Memory can be unreliable, especially when details compete for attention.",
         "meaningZh": "記憶有時不可靠，尤其要記住多項細節時。",
         "grammar": "memory can be slippery; use can to express a possibility, not certainty.",
-        "register": "Conversational figurative warning; does not diagnose memory loss.",
+        "register": "Conversational figurative warning; does not diagnose memory loss. A friend may tell another friend that memory can be slippery when they disagree about an old conversation.",
         "boundaryZh": "指人可能記錯或忘記細節，並非每次都會記錯。",
         "misconceptionZh": "不要當成記憶真的能滑動，也不要斷言有人患病。",
         "outcomeZh": "能以適度語氣提醒別人核實容易記錯的細節。"
@@ -267,7 +267,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2143",
@@ -284,7 +284,7 @@
         "meaningEn": "Put the clothes you plan to wear somewhere ready in advance.",
         "meaningZh": "預先把打算穿的衣服放好，方便稍後使用。",
         "grammar": "lay out your clothes; laid out my clothes; lay, laid, laid.",
-        "register": "Everyday practical advice; physical preparation, not explaining an idea.",
+        "register": "Everyday practical advice; physical preparation, not explaining an idea. A parent may remind a child to lay out their clothes before an early departure.",
         "boundaryZh": "此處指預先挑選及擺放衣服，不是把衣服丟出或陳列出售。",
         "misconceptionZh": "不要誤以為 lay 的過去式是 layed，也不要混同 lay out a plan 的抽象意思。",
         "outcomeZh": "能自然描述為翌日出門預先準備衣服。"
@@ -534,7 +534,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2144",
@@ -551,7 +551,7 @@
         "meaningEn": "Allow an outcome to depend on luck rather than making a plan.",
         "meaningZh": "不先作好安排，讓結果取決於運氣。",
         "grammar": "leave something to chance; leave it to chance; do not leave the timing to chance.",
-        "register": "Neutral; commonly used in advice about planning.",
+        "register": "Neutral; commonly used in advice about planning. An organiser may tell volunteers not to leave the opening time to chance when transport may be delayed.",
         "boundaryZh": "重點是本可計劃卻任由運氣決定；遇到無法控制的因素不一定是故意聽天由命。",
         "misconceptionZh": "不要把 chance 解作一次機會，也不要把合理預留彈性視為完全不計劃。",
         "outcomeZh": "能區分事先安排與任由重要細節碰運氣。"
@@ -801,7 +801,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2146",
@@ -818,7 +818,7 @@
         "meaningEn": "In a defensive or disadvantaged position after a setback.",
         "meaningZh": "遇到挫折後處於被動或不利的位置。",
         "grammar": "be on the back foot; put someone on the back foot.",
-        "register": "Neutral, slightly informal British sporting metaphor; useful outside sport.",
+        "register": "Neutral, slightly informal British sporting metaphor; useful outside sport. A coach may tell players that an early mistake put the team on the back foot, but recovery remains possible.",
         "boundaryZh": "不必真的站在某隻腳上，也不表示已經輸定；只是當下較被動。",
         "misconceptionZh": "不要把短暫退後一步的實際動作當作本課意思。",
         "outcomeZh": "能指出一方因開局不順而暫時被動，並辨認仍可回應的空間。"
@@ -1068,7 +1068,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2149",
@@ -1085,7 +1085,7 @@
         "meaningEn": "An external tool or system that helps store and organise information.",
         "meaningZh": "幫人儲存和整理資訊的外部工具或系統。",
         "grammar": "a second brain for someone; use a notebook or app as a second brain.",
-        "register": "Informal metaphor in productivity contexts; not a literal organ.",
+        "register": "Informal metaphor in productivity contexts; not a literal organ. A student may tell a study partner that a notebook works as a second brain for tracking tasks.",
         "boundaryZh": "這裏重點是資訊管理的幫助，不表示工具能代替人的判斷。",
         "misconceptionZh": "不要把任何電子產品都自動稱為第二個大腦；它須實際協助記錄和找回資訊。",
         "outcomeZh": "能辨認用來記錄、整理及找回資訊的工具所起的作用。"
@@ -1335,7 +1335,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2150",
@@ -1352,7 +1352,7 @@
         "meaningEn": "Explain or display all relevant information clearly and in an orderly way.",
         "meaningZh": "把相關資訊有條理地全部列出或說明。",
         "grammar": "lay it all out; laid it all out; lay, laid, laid.",
-        "register": "Neutral conversational request for clarity; it can involve writing or speech.",
+        "register": "Neutral conversational request for clarity; it can involve writing or speech. A supervisor may ask a teammate to lay it all out for colleagues who need the full sequence of events.",
         "boundaryZh": "此處是把資訊完整呈現以利討論，不是把物件實際攤開。",
         "misconceptionZh": "不要因為 all 就加入無關細節；也不要混同 lay out your clothes 的實物用法。",
         "outcomeZh": "能在共同決策前清楚列出相關選項或資料。"
@@ -1602,7 +1602,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2603-2611-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2603",
+      "number": 2603,
+      "inventoryId": "expr-2603",
+      "titleEn": "money talks",
+      "titleZh": "有錢就有影響力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmoney talks\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Wealth gives a person or group influence or attention in a decision.",
+        "meaningZh": "財力使某人或團體更能左右決定或取得發言機會。",
+        "grammar": "Pattern: money talks is a fixed independent clause; money is the personified subject and talks is present tense. Use the full form to comment on funding changing attention or negotiating position.",
+        "register": "Neutral to informal critical observation. A donor, organiser or community observer may say it to peers when explaining why a larger funder receives more access or influence.",
+        "boundaryZh": "本課是資金帶來影響力，不是現金真的會說話，也不等同必然買通人；與資訊化為權力的 translates into power 不同。",
+        "misconceptionZh": "不要把任何有錢人都寫成能確定控制結果；須有資金如何帶來可見影響的機制。",
+        "outcomeZh": "能指出誰提供資金、因此獲得甚麼發言機會，以及結果仍有何不確定性。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0492",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 45,
+          "book": 11,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 41, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In expensive campaigns, money talks.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money talks"
+        }
+      ],
+      "listening": {
+        "en": "At a neighbourhood festival, a large sponsor paid for the stage and was offered first choice of advertisement space. Smaller donors noticed that money talks in such negotiations, although the sponsor did not control the whole programme.",
+        "zh": "社區節日中，大贊助商支付舞台費，因此獲優先挑選廣告位置。小捐助者注意到財力在這類協商中帶來影響力，但贊助商沒有掌控整個節目。",
+        "promptZh": "money talks 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The larger contribution gave the sponsor more bargaining influence.",
+            "zh": "較大的贊助額令贊助商在協商中更有影響力。"
+          },
+          {
+            "id": "b",
+            "en": "The sponsor received priority only because its design was judged more attractive, regardless of its payment.",
+            "zh": "贊助商獲優先安排，只因其設計被認為更吸引，與資助額無關。"
+          },
+          {
+            "id": "c",
+            "en": "The sponsor certainly decided every part of the programme.",
+            "zh": "贊助商必然決定整個節目的每一部分。"
+          },
+          {
+            "id": "d",
+            "en": "All donors received identical advertisement choices regardless of contribution.",
+            "zh": "不論捐款多少，所有捐助者都獲得完全相同的廣告位置選擇。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資助舞台使其先選廣告位置，顯示金錢帶來協商影響，但並未保證全盤控制。"
+      },
+      "reply": {
+        "promptEn": "Why did the sponsor get first choice of festival advertisement space?",
+        "promptZh": "（贊助商為何能優先選擇節日廣告位置？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It paid for a major cost of the event.",
+            "zh": "它支付了活動的一項主要開支。"
+          },
+          {
+            "id": "b",
+            "en": "Its contribution gave it a stronger position in the sponsorship agreement.",
+            "zh": "贊助令它在協議中有較強位置。"
+          },
+          {
+            "id": "c",
+            "en": "Money talks when funding affects which proposals receive priority.",
+            "zh": "當資金影響哪些方案獲優先考慮時，財力就有影響力。"
+          },
+          {
+            "id": "d",
+            "en": "The organisers offered a benefit in return for its large contribution.",
+            "zh": "主辦方以一項福利回報它的大額贊助。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋資金如何換來優先位置；金句以 money talks 概括財力的影響。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Money talks in the stall negotiation, but the sponsor does not control the race.",
+            "zh": "攤位協商顯示財力有影響力，但贊助商沒有掌控比賽。"
+          },
+          {
+            "id": "b",
+            "en": "The larger sponsor must also control the race rules because it paid more.",
+            "zh": "出資較多的贊助商必然也掌控比賽規則。"
+          },
+          {
+            "id": "c",
+            "en": "Funding has no effect on the position of either stall.",
+            "zh": "資助額對兩個攤位位置都沒有影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "出資較多換來先選攤位，顯示有限而具體的影響，不能推斷秘密控制。",
+        "promptZh": "兩家商戶向慈善跑提出贊助，其中出資較多的一家先獲挑選攤位位置，但並未決定比賽規則。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A large donor’s support wins a place at the planning table.",
+            "zh": "大捐款令捐助者獲邀參與規劃會議。"
+          },
+          {
+            "id": "b",
+            "en": "A committee chooses a design through blind review without knowing or considering any donor’s wealth.",
+            "zh": "委員會以匿名評審選設計，既不知道也不考慮捐助者的財力。"
+          },
+          {
+            "id": "c",
+            "en": "An advertiser who buys more space can choose its location first.",
+            "zh": "購買更多廣告位置的人可優先挑選位置。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "匿名評審沒有財力影響決定的機制；另兩項則有具體影響。",
+        "promptZh": "哪個情況最不適合說 money talks？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "His funding earned him a speaking slot—money talks, though he does not control the exhibition.",
+            "zh": "他的資助為他帶來致詞機會——財力確實有影響，但他沒有掌控展覽。"
+          },
+          {
+            "id": "b",
+            "en": "He is the sponsor, so he must secretly choose every exhibit.",
+            "zh": "他是贊助者，因此一定暗中挑選每件展品。"
+          },
+          {
+            "id": "c",
+            "en": "His funding cannot have affected the speaking slot at all.",
+            "zh": "他的資助絕不可能影響致詞安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大額贊助帶來具體發言機會，但不能推斷全面控制。",
+        "promptZh": "朋友說：「社區展覽一位大贊助者獲安排在開幕禮致詞，但他仍不能改動展品。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "When a donor’s large gift secures a meeting with organisers, money talks.",
+        "zh": "大額捐款讓捐助者獲邀與主辦方會面，顯示財力可帶來影響。",
+        "promptZh": "先聽示範，再指出金錢如何影響發言機會。",
+        "targetSpan": {
+          "start": 61,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小型體育聯賽要印製球衣，一家公司支付大部分費用，因此主辦方讓它優先挑選球衣上的商標位置；教練仍決定訓練安排。用一至兩句英文說明財力如何帶來有限的影響。",
+        "selfCheckZh": "指出公司支付大部分球衣費用、獲優先選商標位置，但不能決定訓練安排；不要說它掌控整個聯賽。",
+        "examples": [
+          {
+            "en": "Money talks in the league’s sponsorship deal: the company funded most of the uniform costs and chose its logo position first, while coaches kept control of training.",
+            "zh": "聯賽的贊助安排顯示財力有影響：公司支付大部分球衣費用，先選商標位置，教練仍掌管訓練。"
+          },
+          {
+            "en": "The firm’s large contribution to the uniforms showed that money talks when it gained first choice of logo space, but the coaches still set the training plan.",
+            "zh": "公司大額資助球衣，換來先選商標位置，顯示財力帶來影響；但教練仍制定訓練計劃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sponsorship deal",
+            "zh": "贊助安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 44
+            }
+          },
+          {
+            "en": "most of the uniform costs",
+            "zh": "大部分球衣費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 90
+            }
+          },
+          {
+            "en": "control of training",
+            "zh": "掌管訓練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 164
+            }
+          },
+          {
+            "en": "large contribution",
+            "zh": "大額資助",
+            "exampleIndex": 1,
+            "span": {
+              "start": 11,
+              "end": 29
+            }
+          },
+          {
+            "en": "training plan",
+            "zh": "訓練計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 156
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Money talks when a large sponsor receives more negotiating time.",
+          "zh": "大贊助商獲得較多協商時間時，可見財力帶來影響。"
+        },
+        {
+          "en": "Money talks, but funding alone does not guarantee the final vote.",
+          "zh": "財力有影響，卻不能單憑資金保證最終投票結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2604",
+      "number": 2604,
+      "inventoryId": "expr-2604",
+      "titleEn": "translates into power",
+      "titleZh": "轉化為實際權力",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:translate|translates|translated|translating) into power\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become practical influence or decision-making ability.",
+        "meaningZh": "某種資源或條件轉化成實際影響或決策能力。",
+        "grammar": "Pattern: X translates/translated/can translate into power; X is a resource such as information, evidence or expertise. Translate into power is an intransitive result phrase with into + power.",
+        "register": "Neutral analytical explanation. A resident, teacher or organiser may say it to a group examining how access or evidence becomes practical influence.",
+        "boundaryZh": "須交代從資源到實際影響的途徑；與 money talks 的財力本身帶來影響不同，這裏可從資訊或專長轉化。",
+        "misconceptionZh": "不要因某人持有資訊就斷言已掌權；要看它是否真的改善發言或決策能力。",
+        "outcomeZh": "能指出起點資源、轉化機制，以及獲得的具體影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0493",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 45,
+          "book": 11,
+          "question": 5,
+          "sample": "S1",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 41, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Access to information often translates into power.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "translates into power"
+        }
+      ],
+      "listening": {
+        "en": "Residents obtained the full air-quality data before a planning meeting. They used it to challenge an incomplete report and secure another public hearing. Access to the data translated into power in the discussion.",
+        "zh": "居民在規劃會議前取得完整空氣質素資料，用它質疑一份不完整報告，並爭取到另一次公聽會。取得資料使他們在討論中更有影響力。",
+        "promptZh": "甚麼 translated into power？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Having evidence let residents challenge the report and obtain another hearing.",
+            "zh": "掌握證據令居民能質疑報告並爭取另一次公聽會。"
+          },
+          {
+            "id": "b",
+            "en": "The data automatically gave residents legal control over the council.",
+            "zh": "資料自動讓居民在法律上控制議會。"
+          },
+          {
+            "id": "c",
+            "en": "The residents gained influence because they spent more money than others.",
+            "zh": "居民因比其他人花更多錢而獲影響力。"
+          },
+          {
+            "id": "d",
+            "en": "The report became complete without anyone examining it.",
+            "zh": "沒有人檢查，報告便自動變得完整。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資料作為證據使居民能提出有效質疑並獲公聽會；不等於法律控制或單靠財力。"
+      },
+      "reply": {
+        "promptEn": "How did the residents obtain another hearing about air quality?",
+        "promptZh": "（居民如何爭取到另一次空氣質素公聽會？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They presented figures that exposed an incomplete report.",
+            "zh": "他們提出數據，揭示報告不完整。"
+          },
+          {
+            "id": "b",
+            "en": "Their access to evidence strengthened their request.",
+            "zh": "取得證據使他們的要求更有力。"
+          },
+          {
+            "id": "c",
+            "en": "Access to information translated into power when they used it to challenge the report.",
+            "zh": "他們用資料質疑報告時，取得資訊便轉化為實際影響力。"
+          },
+          {
+            "id": "d",
+            "en": "They used the full dataset to make a specific case for review.",
+            "zh": "他們用完整數據提出具體的覆核理由。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出完整數據如何提高居民的影響；金句明示資訊轉化為權力的過程。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Their access to records translated into power when they secured a retest.",
+            "zh": "他們取得紀錄後爭取到重新檢測，資訊轉化為實際影響力。"
+          },
+          {
+            "id": "b",
+            "en": "The records alone made the fishermen legal owners of the port.",
+            "zh": "紀錄本身令漁民成為港口的合法擁有人。"
+          },
+          {
+            "id": "c",
+            "en": "The retest happened because the fishermen bought the records at a high price.",
+            "zh": "重新檢測是因漁民高價買下紀錄。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "紀錄被用來指出缺漏並爭取行動，才成為實際影響。",
+        "promptZh": "漁民取得港口污染紀錄，於會議指出漏報數字，成功要求重新抽樣。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A group uses public data to make an effective case for a policy review.",
+            "zh": "小組運用公開數據，成功提出政策覆核理由。"
+          },
+          {
+            "id": "b",
+            "en": "A person receives a long report but never reads or uses it in any decision.",
+            "zh": "有人收到長篇報告，卻從未閱讀或用於任何決定。"
+          },
+          {
+            "id": "c",
+            "en": "Volunteers learn the budget details and negotiate a feasible plan.",
+            "zh": "義工了解預算細節後，商議出可行方案。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只收到報告而沒有運用，不足以說資訊已化為實際影響。",
+        "promptZh": "哪個情況最不支持說 access translates into power？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That evidence can translate into power if we use it to request a specific entrance change.",
+            "zh": "若用證據提出具體入口改動，資訊便可轉化為實際影響力。"
+          },
+          {
+            "id": "b",
+            "en": "Possessing the file already guarantees that the entrance will be rebuilt.",
+            "zh": "有了檔案便保證入口一定會重建。"
+          },
+          {
+            "id": "c",
+            "en": "The data matter only if we keep them private and make no request.",
+            "zh": "只有把資料保密而不提出要求，數據才有用。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "資料須被用來提出具體改動，才可能帶來實際影響；不保證結果。",
+        "promptZh": "同事說：「我們有完整輪椅通道數據，之前只能泛泛說入口不方便。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "Clear evidence translated into power when residents used it to win a review.",
+        "zh": "居民以清楚證據爭取到覆核，證據便化為實際影響力。",
+        "promptZh": "先聽示範，再指出資料如何促成行動。",
+        "targetSpan": {
+          "start": 15,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：義工取得社區活動的出席紀錄，發現週六早上的班次最受長者歡迎。他們以數據向中心爭取增加該時段課堂，中心同意試辦一班。用一至兩句英文說明紀錄如何轉化為影響。",
+        "selfCheckZh": "指出取得出席紀錄、發現週六早上受歡迎、以數據提出要求，以及中心同意試辦；不要說取得資料便自動掌權。",
+        "examples": [
+          {
+            "en": "Attendance records translated into power when volunteers showed that older residents favoured Saturday mornings and persuaded the centre to trial another class then.",
+            "zh": "義工用出席紀錄證明長者喜歡週六早上，說服中心在該時段試辦多一班；紀錄因而轉化為實際影響力。"
+          },
+          {
+            "en": "The attendance data showed older people favoured Saturday mornings; volunteers used it to request the extra session, and the evidence translated into power when the centre agreed to a trial.",
+            "zh": "出席數據顯示長者偏好週六早上；義工據此要求增設班次，中心同意試辦，證據因而轉化為實際影響力。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Attendance records",
+            "zh": "出席紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "older residents",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 84
+            }
+          },
+          {
+            "en": "trial another class",
+            "zh": "試辦多一班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 159
+            }
+          },
+          {
+            "en": "attendance data",
+            "zh": "出席數據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 19
+            }
+          },
+          {
+            "en": "the extra session",
+            "zh": "額外課堂",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 115
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Reliable data can translate into power when a group uses them to negotiate.",
+          "zh": "小組用可靠數據協商時，資料可轉化為實際影響力。"
+        },
+        {
+          "en": "Expertise translates into power only when it helps people act effectively.",
+          "zh": "專長能幫助人有效行動時，才會轉化為實際權力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2610",
+      "number": 2610,
+      "inventoryId": "expr-2610",
+      "titleEn": "amplify a person's reach",
+      "titleZh": "擴大一個人的影響範圍",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:amplify|amplifies|amplified|amplifying) (?:(?:a|the) [A-Za-z]+[’\\x27]s|someone[’\\x27]s|his|her|their|your|my|our) reach\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Increase how many people someone can reach with a message or work.",
+        "meaningZh": "令某人的訊息或作品接觸到更多人。",
+        "grammar": "Pattern: a channel or platform amplifies/amplified + a person's/his/her/their reach; reach is the audience reached by a message or work. The active verb takes the possessor's reach as object.",
+        "register": "Neutral outreach or media discussion. A creator, librarian or organiser may say it to colleagues considering how publication reaches more people, without promising agreement.",
+        "boundaryZh": "本課重點是接觸人數擴大，不一定代表每位新觀眾都被說服；與 2604 資訊轉化成決策權力不同。",
+        "misconceptionZh": "不要把觀看數增加直接說成已改變政策或保證有影響。",
+        "outcomeZh": "能指出原本受眾、新渠道，以及接觸人數如何增加。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0499",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 46,
+          "book": 11,
+          "question": 5,
+          "sample": "S2",
+          "sourceBookPages": "12–13",
+          "locatorNote": "DOCX table 41, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A popular channel can amplify a person's reach.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "amplify a person's reach"
+        }
+      ],
+      "listening": {
+        "en": "Lina’s craft guide was read by thirty club members. A community website featured it, and hundreds more visitors opened the page. The feature amplified her reach, although not every reader followed the guide.",
+        "zh": "莉娜的手工指南原本只有三十名社團會員閱讀；社區網站轉載後，多了數百名訪客開啟頁面。網站擴大了她的接觸範圍，但並非每位讀者都照做。",
+        "promptZh": "amplified her reach 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many more people could see Lina’s guide through the website.",
+            "zh": "更多人可透過網站看到莉娜的指南。"
+          },
+          {
+            "id": "b",
+            "en": "Every new visitor followed all of Lina’s instructions.",
+            "zh": "每位新訪客都照着莉娜全部指示去做。"
+          },
+          {
+            "id": "c",
+            "en": "The website changed the content of the guide rather than the number of people able to read it.",
+            "zh": "網站改變了指南的內容，而非增加可閱讀它的人數。"
+          },
+          {
+            "id": "d",
+            "en": "Lina gained authority to set the community website’s rules.",
+            "zh": "莉娜獲權制定社區網站規則。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網站讓作品接觸更多讀者，未必令每人採納，也不等於決策權力。"
+      },
+      "reply": {
+        "promptEn": "What changed when the community website featured Lina’s guide?",
+        "promptZh": "（社區網站轉載莉娜的指南後，有甚麼改變？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reached people beyond the thirty club members.",
+            "zh": "指南接觸到三十名會員以外的人。"
+          },
+          {
+            "id": "b",
+            "en": "Hundreds more visitors could open her work.",
+            "zh": "多了數百名訪客可以開啟她的作品。"
+          },
+          {
+            "id": "c",
+            "en": "The website amplified her reach by showing the guide to a wider audience.",
+            "zh": "網站把指南展示給更廣泛受眾，擴大了她的接觸範圍。"
+          },
+          {
+            "id": "d",
+            "en": "Her possible readership grew beyond the original club.",
+            "zh": "她的潛在讀者群超出原本的社團。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出渠道擴大受眾；金句用 amplify reach 明確表達接觸範圍增加。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The library site amplified her reach beyond the reading group.",
+            "zh": "圖書館網站擴大了她的接觸範圍，不再限於讀書會。"
+          },
+          {
+            "id": "b",
+            "en": "The site proves every viewer now prefers her poetry.",
+            "zh": "網站證明每位瀏覽者現在都較喜歡她的詩。"
+          },
+          {
+            "id": "c",
+            "en": "The library edited the poems but showed them to the same small group only.",
+            "zh": "圖書館編輯了詩作，卻只給原來的小組閱讀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "作品接觸更多人，符合 reach 擴大；不表示喜好全部改變。",
+        "promptZh": "一位本地詩人的作品原本只在小型讀書會朗讀，後來圖書館網站展示作品，瀏覽者增加。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A public page shares an artist’s work beyond a small studio group.",
+            "zh": "公開網頁把藝術家作品傳到小工作室以外。"
+          },
+          {
+            "id": "b",
+            "en": "A writer saves a draft privately; no one else can open it.",
+            "zh": "作者把草稿私下儲存，其他人不能開啟。"
+          },
+          {
+            "id": "c",
+            "en": "A local station interviews a volunteer, attracting a wider audience to her project.",
+            "zh": "本地電台訪問義工，讓更多人聽到其項目。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "私人草稿沒有擴大受眾；另兩項透過渠道接觸更多人。",
+        "promptZh": "哪個情況最不適合說 amplify a person’s reach？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The broadcast could amplify our reach so more residents hear the tips, even if not everyone acts on them.",
+            "zh": "廣播可擴大我們的接觸範圍，讓更多居民聽到提示，即使未必人人照做。"
+          },
+          {
+            "id": "b",
+            "en": "The broadcast guarantees every listener will prepare an emergency kit.",
+            "zh": "廣播保證每位聽眾都會準備應急包。"
+          },
+          {
+            "id": "c",
+            "en": "We already reach the whole town because twenty volunteers have the file.",
+            "zh": "二十名義工有檔案，便表示我們已接觸全鎮。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電台可擴大聽眾範圍，但不能保證採取行動。",
+        "promptZh": "朋友說：「我們的防災資料只在二十人的義工群組流傳；社區電台願意播出我們的提示。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "A library newsletter amplified a poet’s reach by sharing her work with new readers.",
+        "zh": "圖書館通訊把一位詩人的作品傳給新讀者，擴大了她的接觸範圍。",
+        "promptZh": "先聽示範，再說明哪個渠道帶來新受眾。",
+        "targetSpan": {
+          "start": 21,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位防洪義工原本只向二十名工作坊成員講解防災方法；社區劇院邀請她在演出前向數百名觀眾短講。用一至兩句英文說明新渠道如何擴大受眾，不要保證每人都會照做。",
+        "selfCheckZh": "指出原本只有二十名工作坊成員、社區劇院演出前的短講，以及數百名觀眾能聽到；不要把聽到直接當成採納建議。",
+        "examples": [
+          {
+            "en": "The theatre’s pre-show talk amplified the volunteer’s reach: her flood-safety tips moved from twenty workshop members to hundreds of audience members.",
+            "zh": "劇院的演出前短講擴大了這名義工的接觸範圍：她的防洪提示由原本二十名工作坊成員聽到，變成數百名觀眾也能聽到。"
+          },
+          {
+            "en": "Speaking before the theatre performances amplified the volunteer’s reach from a flood-safety workshop of twenty to hundreds of listeners, though hearing her advice did not mean everyone prepared a kit.",
+            "zh": "在劇院演出前發言，使這名義工的接觸範圍由二十人的防洪工作坊擴大到數百名聽眾；聽到建議不代表每人都會準備應急包。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "pre-show talk",
+            "zh": "演出前短講",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 27
+            }
+          },
+          {
+            "en": "flood-safety tips",
+            "zh": "防洪提示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 82
+            }
+          },
+          {
+            "en": "twenty workshop members",
+            "zh": "二十名工作坊成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 117
+            }
+          },
+          {
+            "en": "theatre performances",
+            "zh": "劇院演出",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 40
+            }
+          },
+          {
+            "en": "hundreds of listeners",
+            "zh": "數百名聽眾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A radio interview can amplify a volunteer’s reach beyond her own club.",
+          "zh": "電台訪問可令義工的訊息接觸社團以外的人。"
+        },
+        {
+          "en": "The new page amplified their reach, though it did not guarantee agreement.",
+          "zh": "新網頁擴大了他們的接觸範圍，但不保證人人同意。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2611",
+      "number": 2611,
+      "inventoryId": "expr-2611",
+      "titleEn": "go in one ear and out the other",
+      "titleZh": "左耳入右耳出",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|going) in one ear and out the other\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be heard but quickly forgotten or ignored instead of retained and applied.",
+        "meaningZh": "聽過後沒有記住或採用，很快便忘掉。",
+        "grammar": "Pattern: advice/instructions go/goes/went in one ear and out the other. Keep both ear and other parts together; the advice is the subject and the phrase describes failed retention or use.",
+        "register": "Informal everyday comment. A parent, teacher or coach may say it to another adult or learner after repeated reminders were heard but not applied.",
+        "boundaryZh": "重點是雖聽到但未留在心裏或未採用；與真的聽力障礙或故意反對不同。",
+        "misconceptionZh": "不要只因一次做錯便斷言對方沒聽；要有反覆忘記或沒有採用的線索。",
+        "outcomeZh": "能指出甚麼忠告被聽到，以及後續行為如何顯示沒有保留。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0500",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 46,
+          "book": 11,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "14–16",
+          "locatorNote": "DOCX table 42, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Advice may go in one ear and out the other without practice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "go in one ear and out the other"
+        }
+      ],
+      "listening": {
+        "en": "The coach explained the warm-up steps before each practice. The players nodded but repeatedly began without warming up, so the advice seemed to go in one ear and out the other.",
+        "zh": "教練每次練習前都講解熱身步驟。球員點頭，卻反覆不熱身就開始，因此建議似乎左耳入右耳出。",
+        "promptZh": "go in one ear and out the other 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The players heard the advice but repeatedly failed to use it.",
+            "zh": "球員聽過建議，卻反覆沒有照做。"
+          },
+          {
+            "id": "b",
+            "en": "The players could not physically hear the coach.",
+            "zh": "球員在生理上聽不到教練說話。"
+          },
+          {
+            "id": "c",
+            "en": "The coach changed the warm-up every day, causing confusion.",
+            "zh": "教練每天改熱身方法，造成混亂。"
+          },
+          {
+            "id": "d",
+            "en": "The players practised the warm-up until they remembered it.",
+            "zh": "球員反覆練習熱身，直到記住為止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "球員點頭顯示聽到，卻反覆沒有採用，符合聽過便拋諸腦後的比喻。"
+      },
+      "reply": {
+        "promptEn": "Why did the coach repeat the warm-up guidance?",
+        "promptZh": "（教練為何重複熱身指示？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Players kept starting practice without using the steps.",
+            "zh": "球員反覆沒有做熱身便開始練習。"
+          },
+          {
+            "id": "b",
+            "en": "Their nods did not lead to the advised routine.",
+            "zh": "他們雖點頭，仍沒有按建議做。"
+          },
+          {
+            "id": "c",
+            "en": "The advice seemed to go in one ear and out the other.",
+            "zh": "那些建議似乎左耳入右耳出。"
+          },
+          {
+            "id": "d",
+            "en": "They needed help turning the spoken advice into a habit.",
+            "zh": "他們需要幫助，才能把口頭建議變成習慣。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應球員聽過卻沒有實行；金句用固定比喻概括。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The warning seems to go in one ear and out the other for those visitors.",
+            "zh": "對那些訪客來說，提醒似乎左耳入右耳出。"
+          },
+          {
+            "id": "b",
+            "en": "The visitors disagreed with the rule and explained why they would not follow it.",
+            "zh": "訪客不同意規則，並解釋為何不打算遵守。"
+          },
+          {
+            "id": "c",
+            "en": "The warning has clearly become a habit they consistently follow.",
+            "zh": "他們顯然已習慣每次都遵從提醒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "點頭後仍反覆違反，顯示提醒未被保留或採用；無法推斷聽力問題。",
+        "promptZh": "導賞員每次都提醒訪客勿觸摸展品，幾名訪客點頭後仍反覆伸手去碰。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A worker hears the same safety reminder but repeatedly forgets the check.",
+            "zh": "職員聽到相同安全提醒，卻反覆忘了檢查。"
+          },
+          {
+            "id": "b",
+            "en": "A student listens, writes down the steps and uses them correctly the next day.",
+            "zh": "學生聽後記下步驟，翌日正確運用。"
+          },
+          {
+            "id": "c",
+            "en": "A child nods at a plan and then repeatedly ignores it.",
+            "zh": "孩子對計劃點頭，之後卻反覆不照做。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "學生記錄並運用，顯示建議被保留；另兩項則聽後未採用。",
+        "promptZh": "哪個情況最不適合用 go in one ear and out the other？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The reminder may go in one ear and out the other; a shared packing checklist might help them remember.",
+            "zh": "提醒可能左耳入右耳出；共用裝備清單或能幫他們記住。"
+          },
+          {
+            "id": "b",
+            "en": "They must have a hearing problem because they forgot the bottles.",
+            "zh": "他們忘記帶水樽，因此一定有聽力問題。"
+          },
+          {
+            "id": "c",
+            "en": "If they say they know, there is no need to check what they do later.",
+            "zh": "他們說知道，便毋須留意之後有沒有照做。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆忘記是建議未留在心裏的線索，清單是可行支援；不應推斷聽力問題。",
+        "promptZh": "朋友說：「我每次提醒隊員帶水，他們都說知道，下一次又忘記。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Without a follow-up task, the advice may go in one ear and out the other.",
+        "zh": "若沒有後續練習，建議可能左耳入右耳出。",
+        "promptZh": "先聽示範，再說明甚麼行為顯示建議沒被記住。",
+        "targetSpan": {
+          "start": 41,
+          "end": 72
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：烘焙導師每週提醒學員先預熱烤箱，學員聽完點頭，但連續幾週仍忘記。導師改用貼在工作檯上的核對清單。用一至兩句英文描述問題與改善。",
+        "selfCheckZh": "指出學員聽過提醒卻連續幾週忘記預熱，以及工作檯清單如何幫助記住；不要說學員真的有聽力問題。",
+        "examples": [
+          {
+            "en": "The advice went in one ear and out the other: the bakers nodded but forgot to preheat the oven for several weeks, so the tutor posted a checklist by the workbench.",
+            "zh": "提醒像左耳入右耳出：學員點頭後連續幾週忘記預熱烤箱，導師於是在工作檯旁貼上清單。"
+          },
+          {
+            "en": "Although students heard the weekly preheating reminder, it kept going in one ear and out the other; a workbench checklist helped them remember the first step.",
+            "zh": "學員每週聽到預熱提醒，卻一直左耳入右耳出；工作檯清單幫他們記住第一步。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "preheat the oven",
+            "zh": "預熱烤箱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "for several weeks",
+            "zh": "連續幾週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 112
+            }
+          },
+          {
+            "en": "by the workbench",
+            "zh": "在工作檯旁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 146,
+              "end": 162
+            }
+          },
+          {
+            "en": "weekly preheating reminder",
+            "zh": "每週預熱提醒",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 54
+            }
+          },
+          {
+            "en": "the first step",
+            "zh": "第一步",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 157
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Safety advice should not go in one ear and out the other when the task begins.",
+          "zh": "開始工作時，不應把安全建議左耳入右耳出。"
+        },
+        {
+          "en": "The reminder went in one ear and out the other until the team used a checklist.",
+          "zh": "團隊使用清單前，提醒一直左耳入右耳出。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

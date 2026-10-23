@@ -1,0 +1,101 @@
+{
+  "reviewId": "selected-brief-repair-review-2291-2458-b",
+  "follows": "selected-122-brief-grammar-register-audit-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json": "1052ae0a9f59aa6acffc507e9b3942f575f1b0dc0b1c9886d4452623f570f59d",
+    "course-materials/advanced-native/drafts-books10-16/batch-2296-2306-a.json": "2ced48d04f27831341fc870b101e35dcf12663e4dd5b869a295a65b1b02057eb",
+    "course-materials/advanced-native/drafts-books10-16/batch-2308-2327-a.json": "c58e8bf2d5d4289ef801929794fe7b7350d8a0544c2a7f6ceed4b518ff564ec5",
+    "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json": "8de0f9204392fcb2fcf314492cf82566d6ffb74cd5a970acb53b21017901a7b8",
+    "course-materials/advanced-native/drafts-books10-16/batch-2351-2360-a.json": "663a92aa92ec27ed1d36971e4d5b59a01849b3effb27dea1815bf663b8830994",
+    "course-materials/advanced-native/drafts-books10-16/batch-2361-2394-a.json": "0491c72e93769e8c077980036104d411aa4930f7f3dd74a946f96cb9df91ac3e",
+    "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json": "e55e392795ef0481347696a65d1672acea5d20f9ebe5ddcfcde0dff20fda6142",
+    "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json": "8cc18aaa74328c1a99ac9fa37bd33051ecc55abfc29dc51dabaf6b6405c9ebe0",
+    "course-materials/advanced-native/drafts-books10-16/batch-2416-a.json": "28b9e0a0bc764dfc37dd1b3e840d4515be207a0f93945b7b4bf9900812c9e347",
+    "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json": "e7b983d89c4ce327850e104647cf31aaaffc36f1f97212788379477f75452dde",
+    "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json": "0ce486ccb0c497db0b240eeeaf79ef38d7cdbaa19d753706a83465dcd678d4cc"
+  },
+  "reviewedLessonNumbers": [
+    2291,
+    2293,
+    2295,
+    2304,
+    2296,
+    2297,
+    2298,
+    2306,
+    2308,
+    2310,
+    2319,
+    2327,
+    2332,
+    2335,
+    2342,
+    2350,
+    2351,
+    2353,
+    2358,
+    2360,
+    2361,
+    2362,
+    2366,
+    2394,
+    2397,
+    2399,
+    2400,
+    2410,
+    2411,
+    2414,
+    2415,
+    2416,
+    2419,
+    2428,
+    2438,
+    2443,
+    2449,
+    2452,
+    2457,
+    2458
+  ],
+  "scope": "Independent AI P81 review of 40 selected, unpublished brief repairs at the listed exact file hashes; no content edits, human approval or release.",
+  "checks": {
+    "register": "All 40 revised brief.register fields now state a register or tone and name at least a candidate speaker. Thirty-six specify a plausible listener or audience sufficiently for P81; four still use a generic listener placeholder and are listed below.",
+    "grammar": "The 16 lessons numbered 2397–2458 now describe tailored reusable grammar patterns, inflections, argument slots or usage constraints instead of only sample sentences. The other 24 retain their pre-existing adequate grammar patterns.",
+    "contentStability": "Compared each JSON lesson with Git HEAD recursively. Every one of the 40 lessons has exactly a +1 contentRevision bump; changed fields are limited to brief.register, brief.grammar where needed, and contentRevision. No assessment prompts, options, answer keys, models, glossary, target patterns or provenance changed.",
+    "build": "Fresh focused build and --check pass: 40 lessons, 240 questions, 160 audio requests, 0 structural review flags."
+  },
+  "findings": [
+    {
+      "id": "R2335-P81",
+      "lessonId": "advanced-native-2335",
+      "severity": "minor",
+      "surface": "brief.register",
+      "evidence": "A colleague, interviewer or writer tells “someone else” how a person seemed. “Someone else” is an arbitrary addressee, not a likely listener for the specific impression-sharing context.",
+      "repair": "Name a plausible recipient, such as a hiring colleague, interviewee or intended reader, while preserving the existing caution that impression may differ from intent."
+    },
+    {
+      "id": "R2350-P81",
+      "lessonId": "advanced-native-2350",
+      "severity": "minor",
+      "surface": "brief.register",
+      "evidence": "A music reviewer, teacher or family member tells “a listener” that a work connects age groups. The listener role is not tied to the review, classroom or family setting.",
+      "repair": "Give a paired audience, such as reviewer-to-readers, teacher-to-students, or one family member to another."
+    },
+    {
+      "id": "R2360-P81",
+      "lessonId": "advanced-native-2360",
+      "severity": "minor",
+      "surface": "brief.register",
+      "evidence": "A friend, critic or colleague warns “another listener” about unquestioning allegiance. The recipient is generic despite the clear critical register.",
+      "repair": "Identify a plausible person receiving the warning, such as another fan, a reader, or a fellow team member."
+    },
+    {
+      "id": "R2457-P81",
+      "lessonId": "advanced-native-2457",
+      "severity": "minor",
+      "surface": "brief.register",
+      "evidence": "A teacher, writer or parent tells “a listener” to use technology as an aid. The recipient remains generic rather than a likely learner, reader or child.",
+      "repair": "Specify a realistic recipient paired with one of the listed speakers; do not alter the maxim or its assessed examples."
+    }
+  ],
+  "conclusion": "The 16 grammar repairs and all 40 revision/content-stability checks pass. Four speaker/listener metadata fields need a more tailored listener before claiming full P81 compliance for this tranche; all material remains unpublished and provisional."
+}

@@ -17,7 +17,7 @@
         "meaningEn": "Leave a lingering unpleasant impression after an interaction.",
         "meaningZh": "事情過後，仍令人留下不快的印象。",
         "grammar": "leave a rather bad taste; left a rather bad taste; normally the act or outcome is the subject.",
-        "register": "Informal to neutral figurative judgement; often about how someone was treated.",
+        "register": "Informal to neutral figurative judgement; often about how someone was treated. A customer may tell a shop manager that an abrupt refusal left a rather bad taste despite a refund.",
         "boundaryZh": "須有事情過後持續的不快感受，不是食物的實際味道。",
         "misconceptionZh": "不要把這個片語解作口中的味道，也不要只指當下短暫的不滿。",
         "outcomeZh": "能辨認不愉快互動留下的持久印象。"
@@ -267,7 +267,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2122",
@@ -284,7 +284,7 @@
         "meaningEn": "Accept an apparent claim or meaning without questioning it.",
         "meaningZh": "未加查證，便接受表面上的說法或意思。",
         "grammar": "take/accept something at face value; do not take a claim at face value.",
-        "register": "Neutral; useful for reports, promises, claims and first impressions.",
+        "register": "Neutral; useful for reports, promises, claims and first impressions. A mentor may tell a trainee not to take an impressive claim at face value before checking its evidence.",
         "boundaryZh": "重點是未核查便相信表面說法；核查後仍相信並不算照單全收。",
         "misconceptionZh": "不要把 face value 誤解為人的外貌或商品的標價。",
         "outcomeZh": "能判斷何時不應只憑表面說法作決定。"
@@ -534,7 +534,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2124",
@@ -551,7 +551,7 @@
         "meaningEn": "Give someone unrestricted discretion, especially over spending or decisions.",
         "meaningZh": "給予某人不受限制的決策權，尤其涉及開支。",
         "grammar": "give someone a blank cheque to do something; a blank cheque for spending.",
-        "register": "Neutral to critical; British spelling cheque.",
+        "register": "Neutral to critical; British spelling cheque. A committee member may warn fellow members that an uncapped grant would give the supplier a blank cheque.",
         "boundaryZh": "比喻授權缺乏限制；有明確預算上限或審批條件便不是無限制授權。",
         "misconceptionZh": "不要把比喻用法混同真正未填金額的支票；也不要推論對方必然濫用權力。",
         "outcomeZh": "能分辨寬鬆授權與附帶限制的委派。"
@@ -801,7 +801,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2126",
@@ -818,7 +818,7 @@
         "meaningEn": "Begin an interaction or undertaking poorly, often creating a bad first impression.",
         "meaningZh": "在互動或事情開端表現不佳，往往留下壞的第一印象。",
         "grammar": "start off on the wrong foot with someone; started/starting off on the wrong foot.",
-        "register": "Neutral and conversational; a poor start can still be repaired.",
+        "register": "Neutral and conversational; a poor start can still be repaired. A new colleague may tell a teammate that a sharp first email started their relationship off on the wrong foot.",
         "boundaryZh": "重點是開始階段出現問題，不表示整段關係或整件事註定失敗。",
         "misconceptionZh": "不要把片語解作真的踏錯腳，也不要把後期問題說成一開始就出錯。",
         "outcomeZh": "能指出壞開端與後來是否補救是兩回事。"
@@ -1068,7 +1068,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2127",
@@ -1085,7 +1085,7 @@
         "meaningEn": "Be regarded as a disadvantage when someone evaluates a person.",
         "meaningZh": "在評估某人時，被視為對該人不利的因素。",
         "grammar": "something counts against someone; counted against him/her/us/them.",
-        "register": "Neutral; common in selection, applications and evaluations.",
+        "register": "Neutral; common in selection, applications and evaluations. An adviser may tell an applicant that an unexplained gap could count against them in a selection review.",
         "boundaryZh": "只表示一項不利因素，不必然等於被淘汰或受處分。",
         "misconceptionZh": "不要把 count 當作純粹計算數目；也不要把一項弱點等同最終結果。",
         "outcomeZh": "能辨認評選時的不利因素，並與直接淘汰區分。"
@@ -1335,7 +1335,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-relemma-2343-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2343",
+      "number": 2343,
+      "inventoryId": "expr-2343",
+      "titleEn": "let the work do the talking",
+      "titleZh": "讓成果自己說話",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+(?:usually\\s+)?(?:does|do|did)\\s+the talking\\b|\\b(?:let|lets|letting)\\s+(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+do\\s+the talking\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Let actual work, results or performance demonstrate merit instead of relying on self-promotion or a long verbal claim.",
+        "meaningZh": "讓作品、成果或表現本身證明實力，而非靠自我吹噓或冗長說明。",
+        "grammar": "The work/results/performance does/do the talking; let the work/results do the talking. The subject is evidence-like, not a person literally speaking.",
+        "register": "Neutral-to-approving figurative comment: a designer, colleague or judge discusses visible work or results with another colleague, client or audience member; it does not mean no explanation is ever needed.",
+        "boundaryZh": "要有可供別人判斷的實際作品或成果；單純保持沉默、沒有證據，不能說成果會替你說話。",
+        "misconceptionZh": "do the talking 不是指作品真的開口，也不是叫人永遠不要介紹自己的工作。",
+        "outcomeZh": "能在有明確作品或成果時，用 do the talking 表達「讓表現證明實力」。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0232",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 21,
+          "book": 10,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "41–42",
+          "locatorNote": "DOCX table 17, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her modest interviews are brief, but the performance usually does the talking.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the performance usually does the talking"
+        },
+        {
+          "occurrenceId": "book10-16-0268",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 25,
+          "book": 10,
+          "question": 20,
+          "sample": "S2",
+          "sourceBookPages": "48–49",
+          "locatorNote": "DOCX table 20, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Her modest interviews are brief, but the performance usually does the talking.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the performance usually does the talking"
+        }
+      ],
+      "listening": {
+        "en": "At the photography exhibition, Mina gave only a short introduction. The work did the talking: visitors could see the care in every portrait.",
+        "zh": "攝影展上，Mina 只作簡短介紹。作品本身已足以說明她的實力：訪客從每張人像都看得出她的用心。",
+        "promptZh": "Mina 為何不需要作冗長介紹？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The portraits themselves showed her skill and care.",
+            "zh": "人像作品本身已顯示她的技巧和用心。"
+          },
+          {
+            "id": "b",
+            "en": "She expected visitors to trust her award without looking closely at the portraits.",
+            "zh": "她希望訪客不用細看作品，只因她得過獎就相信她。"
+          },
+          {
+            "id": "c",
+            "en": "The introduction contained all the detail, leaving little for the portraits to show.",
+            "zh": "介紹已交代全部細節，作品沒有甚麼可供觀察。"
+          },
+          {
+            "id": "d",
+            "en": "The visitors preferred a long explanation before judging her photographs.",
+            "zh": "訪客更希望先聽詳細解說，才評價她的照片。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短介紹之後，訪客仍能從人像看出技巧和用心；這是讓作品本身提供證據。"
+      },
+      "reply": {
+        "promptEn": "Leila showed the judges her working prototype, kept her introduction short, let them test it, and answered their detailed questions. Why did she avoid boasting about her design award?",
+        "promptZh": "（Leila 向評審展示可實際操作的設計原型，只作簡短介紹，讓他們試用，並回答他們提出的細節問題。她為何沒有大談自己的設計獎項？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She had already shown the judges what she built.",
+            "zh": "她已向評審展示自己做出來的作品。"
+          },
+          {
+            "id": "b",
+            "en": "The judges could assess how well her prototype worked.",
+            "zh": "評審可以親自判斷她的原型是否實用。"
+          },
+          {
+            "id": "c",
+            "en": "She let the work do the talking.",
+            "zh": "她讓作品本身證明實力。"
+          },
+          {
+            "id": "d",
+            "en": "She could answer the judges’ detailed questions as they came up.",
+            "zh": "評審提出細節問題時，她也可以逐一回答。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都符合原型已展示、可供試用及她有回答問題的情境；金句概括讓作品本身證明實力的做法。"
+      },
+      "scene": {
+        "promptZh": "新開的餐廳沒有大肆宣傳，卻持續提供準時、細心的服務，熟客因此主動推薦。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The results do the talking: steady service earns trust without loud promotion.",
+            "zh": "成果本身足以說明一切：穩定服務毋須大力宣傳，也能贏得信任。"
+          },
+          {
+            "id": "b",
+            "en": "The owner’s long speech about service is the main reason customers return.",
+            "zh": "店主關於服務的長篇演說，是顧客回來的主要原因。"
+          },
+          {
+            "id": "c",
+            "en": "The restaurant stays quiet because its service record has not yet been tested.",
+            "zh": "餐廳保持低調，因為服務表現尚未經過考驗。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "穩定服務和熟客推薦是可見成果，並非靠店主自我宣傳。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 the work does the talking？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The designer says little about awards, but customers can inspect the finished product.",
+            "zh": "設計師少談獎項，但顧客可以檢視完成的產品。"
+          },
+          {
+            "id": "b",
+            "en": "The applicant shows no work and gives no account of their experience, hoping to be trusted anyway.",
+            "zh": "應徵者不展示任何作品，也不解釋經驗，只希望別人自行相信他。"
+          },
+          {
+            "id": "c",
+            "en": "After a short introduction, the research team lets peers inspect its test results.",
+            "zh": "研究小組簡短介紹後，讓同行檢視測試結果。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "沒有作品、成果或其他證據可供判斷時，單純沉默並不能讓作品替自己說話。"
+      },
+      "dialogue": {
+        "promptZh": "教練說：「她不太喜歡在鏡頭前談自己的成績，但最新比賽時間已公布。」哪個回應最自然地接續？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let the results do the talking; her times show how much she has improved.",
+            "zh": "讓成績說話吧；她的時間紀錄顯示了她進步多少。"
+          },
+          {
+            "id": "b",
+            "en": "She could give a longer interview before anyone looks at the times.",
+            "zh": "她可以先接受更長的訪問，大家才看時間紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "The times are available, but we should avoid checking whether they improved.",
+            "zh": "時間紀錄已公布，但我們應避免查看她是否進步。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已有可檢視的比賽時間，正好由結果證明進步，毋須靠長篇自我宣傳。"
+      },
+      "speaking": {
+        "en": "After the trial, the results did the talking: the new system caught errors that earlier checks missed.",
+        "zh": "試行後，成果本身已說明成效：新系統找出了早前檢查漏掉的錯誤。",
+        "promptZh": "先聽完整示範，再說明試行結果如何證明系統有用。",
+        "targetSpan": {
+          "start": 17,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區菜園的義工沒有花時間誇口，卻把每週收成和分發紀錄公開給居民看，紀錄列明有多少家庭收到蔬菜。用一至兩句英文說明成果如何替他們說話。",
+        "selfCheckZh": "寫出可檢視的實際成果，而不只是說義工沉默；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "The volunteers let the results do the talking: their weekly harvest records showed how many families received fresh food.",
+            "zh": "義工讓成果自己說話：每週的收成紀錄顯示有多少家庭收到新鮮食物。"
+          },
+          {
+            "en": "Their work did the talking when residents saw the full distribution record and the vegetables grown in the garden.",
+            "zh": "居民看到完整的分發紀錄和菜園種出的蔬菜時，他們的工作成果已足以說明一切。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "their weekly harvest records",
+            "zh": "他們每週的收成紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 75
+            }
+          },
+          {
+            "en": "how many families",
+            "zh": "有多少家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 100
+            }
+          },
+          {
+            "en": "fresh food",
+            "zh": "新鮮食物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 120
+            }
+          },
+          {
+            "en": "residents saw",
+            "zh": "居民看到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 45
+            }
+          },
+          {
+            "en": "the full distribution record",
+            "zh": "完整的分發紀錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 74
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When a product works reliably, let the work do the talking.",
+          "zh": "當產品運作可靠，就讓實際表現自己說話。"
+        },
+        {
+          "en": "The results do the talking when people can inspect clear evidence.",
+          "zh": "當人們能檢視清楚證據時，成果本身就足以說明一切。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA reviews remain pending.",
+          "The source example is guide-written provenance, not a learner-facing model copied into practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

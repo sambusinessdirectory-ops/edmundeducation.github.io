@@ -17,7 +17,7 @@
         "meaningEn": "Travel between two places, especially when discussing the practical journey.",
         "meaningZh": "從一個地方前往另一個地方，重點是實際行程。",
         "grammar": "getting from A to B; get from A to B; got from A to B.",
-        "register": "Neutral shorthand for travel logistics; A and B stand for places, not named people.",
+        "register": "Neutral shorthand for travel logistics; A and B stand for places, not named people. A commuter may tell a visitor that getting from A to B is easier with the new bus connection.",
         "boundaryZh": "須談論兩地之間如何移動；不是比較選項 A 和 B 的文字標籤。",
         "misconceptionZh": "不要把 A 和 B 當成必須叫這兩個字母的地名。",
         "outcomeZh": "能用這個片語討論路線、轉乘與出行難易。"
@@ -267,7 +267,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2169",
@@ -284,7 +284,7 @@
         "meaningEn": "Have more time than needed before a deadline or event.",
         "meaningZh": "在限期或活動開始前，仍有超過所需的時間。",
         "grammar": "arrive with time to spare; finish with time to spare.",
-        "register": "Everyday neutral expression for a margin of time.",
+        "register": "Everyday neutral expression for a margin of time. A trip organiser may tell a group to leave early enough to arrive with time to spare.",
         "boundaryZh": "須真的比所需時間早完成或到達；剛好準時並沒有額外時間。",
         "misconceptionZh": "不要把片語當成「沒有事情做」的一整天閒暇。",
         "outcomeZh": "能判斷何時一項行程或工作留有充裕時間。"
@@ -525,7 +525,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2170",
@@ -542,7 +542,7 @@
         "meaningEn": "Be surprised and disadvantaged by an unexpected change or overlooked detail.",
         "meaningZh": "因意想不到的變化或忽略的細節而措手不及、處於不利。",
         "grammar": "be caught out by something; a change catches someone out.",
-        "register": "Common British conversational use; does not necessarily imply dishonesty.",
+        "register": "Common British conversational use; does not necessarily imply dishonesty. A traveller may tell a companion that the changed platform caught them out because the notice arrived late.",
         "boundaryZh": "須有意外或忽略細節帶來的不利影響；預先知悉並妥善應對，便不是被打個措手不及。",
         "misconceptionZh": "不要一律理解成被抓到作弊；本課着重意外變化造成的被動。",
         "outcomeZh": "能辨認突發變化如何使人措手不及，並提出防範方法。"
@@ -792,7 +792,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2171",
@@ -809,7 +809,7 @@
         "meaningEn": "Anticipate likely delays and adjust plans before they disrupt you.",
         "meaningZh": "預先留意可能的延誤，並在受影響前調整計劃。",
         "grammar": "stay one step ahead of delays; stayed one step ahead of delays.",
-        "register": "Positive figurative advice; it does not guarantee that every delay can be prevented.",
+        "register": "Positive figurative advice; it does not guarantee that every delay can be prevented. A trip leader may tell participants that checking the route early helps them stay one step ahead of delays.",
         "boundaryZh": "須在延誤影響活動前查資訊或採取措施；事後才抱怨不算預先防範。",
         "misconceptionZh": "不要把 one step 理解成實際多走一步，也不要保證完全不會延誤。",
         "outcomeZh": "能提出事前查證和備用安排，減低延誤的影響。"
@@ -1068,7 +1068,7 @@
           "AI-authored first pass; independent editorial and release checks have not occurred."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

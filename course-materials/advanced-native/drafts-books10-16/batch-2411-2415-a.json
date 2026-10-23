@@ -16,8 +16,8 @@
       "brief": {
         "meaningEn": "Combine separate pieces of evidence to understand a whole situation.",
         "meaningZh": "把分散的線索拼合起來，了解事情全貌。",
-        "grammar": "They pieced the puzzle together from several short reports.",
-        "register": "Common metaphor for reconstruction from incomplete evidence; not a literal jigsaw here.",
+        "grammar": "Pattern: piece/pieces/pieced the puzzle together from + clues or evidence. The object the puzzle sits between piece and together; past tense pieced.",
+        "register": "Neutral figurative reconstruction: an investigator, reporter or reader tells a colleague how several incomplete clues combine into a coherent account, not a literal jigsaw.",
         "boundaryZh": "重點是多項片段互相補足後形成整體理解；單靠一條線索猜中答案不夠。",
         "misconceptionZh": "不要只翻譯為玩拼圖；也不要把尚未查明的猜測說成已經拼出全貌。",
         "outcomeZh": "能指出至少兩項線索及它們合起來揭示的事情。"
@@ -267,7 +267,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2414",
@@ -283,8 +283,8 @@
       "brief": {
         "meaningEn": "The harmful or morally troubling tendencies people can show.",
         "meaningZh": "人可能表現出的傷害性或道德上令人不安的傾向。",
-        "grammar": "The novel explores the darker side of human nature.",
-        "register": "Reflective, serious phrase for behaviour such as cruelty, greed or betrayal; avoid applying it to mere mistakes.",
+        "grammar": "Pattern: the darker side of + a person, group, activity or human nature. Darker is comparative in this fixed image, and the of phrase names what has the troubling aspect.",
+        "register": "Serious literary reflection: a reviewer or teacher tells a reader how a novel explores cruelty, greed or betrayal, rather than treating a small mistake as moral darkness.",
         "boundaryZh": "本課指自私、殘酷、欺騙等令人不安的行為傾向；不是悲傷情節或光線暗。",
         "misconceptionZh": "不要因人物犯小錯或故事氣氛陰鬱，就斷定作品探討人性的陰暗面。",
         "outcomeZh": "能指出具體的人類行為及其令人不安之處。"
@@ -534,7 +534,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2415",
@@ -550,8 +550,8 @@
       "brief": {
         "meaningEn": "Previously concealed facts become known, often as evidence accumulates.",
         "meaningZh": "原先被隱藏的事實逐漸為人所知。",
-        "grammar": "Eventually, the truth rises to the surface.",
-        "register": "Narrative metaphor for revelation; evidence or disclosure should make the change clear.",
+        "grammar": "Pattern: the truth rises/rose/will rise to the surface. Truth is the subject of intransitive rise; use rose for past, not raised.",
+        "register": "Reflective narrative metaphor: a reporter or reader tells a colleague that evidence or disclosure has gradually made previously hidden facts known.",
         "boundaryZh": "指隱藏的事實變得可見；單有傳聞或尚未證實的懷疑，不等於真相已浮出水面。",
         "misconceptionZh": "不要把 surface 當成水面事件，也不要在證據未查清時宣布真相已揭露。",
         "outcomeZh": "能指出原先被隱瞞甚麼，以及甚麼證據或披露使人知道。"
@@ -801,7 +801,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

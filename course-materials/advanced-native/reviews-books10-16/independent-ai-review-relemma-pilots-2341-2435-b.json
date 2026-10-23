@@ -1,0 +1,77 @@
+{
+  "reviewId": "independent-ai-review-relemma-pilots-2341-2435-b",
+  "reviewedLessonIds": [
+    "advanced-native-2341",
+    "advanced-native-2343",
+    "advanced-native-2418",
+    "advanced-native-2435"
+  ],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2341-relemma-review-pilot.json": "39fbabf1ddb0e559b01147f8bd11b661f3555238adc5c35e61eb7fd5e721669b",
+    "course-materials/advanced-native/drafts-books10-16/batch-2343-relemma-review-pilot.json": "2935856769cd08121ed7b666ca80bdc088164aabfe85f4250dec5220b00e4f3b",
+    "course-materials/advanced-native/drafts-books10-16/batch-2418-relemma-review-pilot.json": "5c46e5f6c50416c174d49df6acf203f4f5bb4cae7774efe0212fb0bbbfa122e5",
+    "course-materials/advanced-native/drafts-books10-16/batch-2435-relemma-review-pilot.json": "f1f2057a3c51f065c2a51aeabc03147cd9fe9ab28f32f239ca96164f29b651db"
+  },
+  "scope": "Independent AI Golden SOP content review of four unselected re-lemma pilot drafts at exact file hashes; no human, media, device or live sign-off.",
+  "referenceSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/sop-extracted.txt": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "structuralChecks": {
+    "sourceProvenance": "Every source occurrence ID, marked expression and exact source sentence matches the source inventory; target regex finds the intended form in every cited full source sentence.",
+    "contract": "Fresh build followed by --check passes for all 12 drafts: 12 lessons, 72 assessed questions, 48 audio requests, 0 structural review flags.",
+    "replyAndGlossary": "Each reply has four options with exactly one target-bearing golden option. All 60 glossary spans re-slice from the actual suggested English answers with only permitted case normalization, and none supplies a target phrase. Pragmatic validity still has the editorial findings listed.",
+    "audio": "Each lesson has four distinct requested audio texts with a target match. Audio synthesis, voice, playback and device behavior have not been reviewed.",
+    "content": "All seven step surfaces, six answer keys, English/Traditional Chinese choices, two changed-context writing answers, speaking models and target spans were read for sense and fairness."
+  },
+  "findings": [
+    {
+      "id": "R2343-01",
+      "lessonId": "advanced-native-2343",
+      "severity": "major",
+      "surface": "reply.promptEn/promptZh and reply.options[id=a,d].en/zh",
+      "evidence": "Reply asks why Leila avoided boasting about a design award but supplies no Leila scene or visible work. Option a asserts she had shown judges what she built; option d asserts she preferred answering questions only when asked. Neither is given in the prompt or preceding Mina photography scene.",
+      "problem": "The four “valid” replies are speculative explanations for a new character, so the target-bearing option cannot be judged against a concrete, shared situation.",
+      "repair": "Ground the prompt in Leila’s completed design being available for judges/others to inspect and her choice to show it instead of boasting. Then write four answers all supported by that scene; remove invented preference in d unless the prompt explicitly establishes it."
+    },
+    {
+      "id": "R2418-01",
+      "lessonId": "advanced-native-2418",
+      "severity": "major",
+      "surface": "reply.promptEn/promptZh and reply.options[id=a,d].en/zh",
+      "evidence": "Question asks what the reporter did after confirming several witnesses lied. The listening scene says she checked phone records and traced false timelines; a says she checked dates in each statement, and d says she asked follow-up questions about a contradiction. Those are plausible investigations but are not reported actions.",
+      "problem": "At least one, and likely two, of the four purportedly valid replies invents what the reporter actually did. The question is past-factual rather than “what could she do”.",
+      "repair": "Either change the prompt to ask what steps could reasonably help untangle the established lies, or replace a/d with actions directly stated in the scene. Keep all four true for the same time frame and one target-bearing golden reply."
+    },
+    {
+      "id": "R2435-01",
+      "lessonId": "advanced-native-2435",
+      "severity": "major",
+      "surface": "lesson architecture: listening.promptZh, reply.promptEn, scene.promptZh, contrast.promptZh, dialogue.promptZh, speaking.promptZh, writing.promptZh",
+      "evidence": "Across the seven steps, the learner repeatedly decides whether an unwelcome task recurs/never seems finished versus a one-off finished job. Listening, scene, contrast, dialogue and writing all hinge on fresh batches arriving; reply and speaking restate the same point.",
+      "problem": "The draft gives too little variation in learner decisions for Golden SOP P85 (“outline seven different learner decisions”), and the highly compositional target “never-ending chore” may not justify a full advanced-expression lesson at this level. This is an editorial scope decision, not a structural-build defect.",
+      "repair": "Have a human editor decide whether to retain this natural-English item. If retained, redesign distinct steps around repetition versus one long finite job, mildly exasperated register, figurative exaggeration versus literal infinity, whether a task is genuinely unwelcome, and a practical response; keep the original source sense and two changed-context models."
+    },
+    {
+      "id": "R2341-2435-brief-01",
+      "lessonIds": [
+        "advanced-native-2341",
+        "advanced-native-2343",
+        "advanced-native-2418",
+        "advanced-native-2435"
+      ],
+      "severity": "minor",
+      "surface": "brief.register in four pilot lessons",
+      "evidence": "The register fields name arts criticism, work/performance, investigations, or mildly exasperated description, but do not explicitly identify a likely speaker-listener pair as Golden SOP P81 requests.",
+      "problem": "The use-context brief is less complete than the adjacent eight Author A lessons; this matters for scaling editorial review and avoiding odd dialogues.",
+      "repair": "Add a natural likely speaker and listener for each pilot and specify neutral/informal/formal level where not already clear. Do not change keys or target strings solely for metadata."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2341": "no new lesson-specific issue; pilot brief metadata remains incomplete",
+    "advanced-native-2343": "repair reply grounding and pilot brief metadata",
+    "advanced-native-2418": "repair reply factual validity and pilot brief metadata",
+    "advanced-native-2435": "human editorial hold on distinctiveness and seven decisions; pilot brief metadata"
+  },
+  "releaseConclusion": "Keep 2343, 2418 and 2435 unselected pending repairs/editorial scope decision; 2341 has no new lesson-specific finding in this review. All four remain provisional pending human and media/device reviews."
+}

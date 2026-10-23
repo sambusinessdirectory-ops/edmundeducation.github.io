@@ -1,0 +1,32 @@
+{
+  "reviewId": "independent-ai-review-2614-2672-b-followup",
+  "follows": "independent-ai-review-2614-2672-b",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2614-2637-a.json": "1681936107fa71ad3e9b02b5f24ca56bd38f54a331ab65b61dc0db3e77784f63",
+    "course-materials/advanced-native/drafts-books10-16/batch-2644-2672-a.json": "35f797c0c27978e64cb6522252b473d81c65be6addbe6a7abd9d242d99bfab84"
+  },
+  "reviewedLessonNumbers": [2614, 2618, 2636, 2637, 2644, 2648, 2649, 2672],
+  "findingOutcomes": [
+    {
+      "id": "R2618-01",
+      "status": "cleared",
+      "evidence": "The final writing now concerns a museum visitor moved by a painting who unexpectedly buys art prints. The earlier scene uses a checkout discount during an errand for glue; the dialogue uses concert merchandise on sale. The final trigger, setting and decision are materially different. Both English models and their Traditional Chinese translations represent the unplanned purchase, and the five glossary entries are exact non-target spans of those revised models."
+    },
+    {
+      "id": "R2649-01",
+      "status": "cleared",
+      "evidence": "The final writing now concerns a coach's affection for a welcoming under-12 football team despite poor results. The prior dialogue concerns a mother's childhood bakery memories despite long queues. The affection object, evidence and concession now differ; both revised models and Chinese translations fit the new scenario, with five exact non-target glossary spans."
+    },
+    {
+      "id": "R2672-01",
+      "status": "cleared",
+      "evidence": "The grammar brief now gives ‘could do / may do / does / did a world of good’ and explicitly says modals could and may require do. It also retains the do someone a world of good variant."
+    }
+  ],
+  "focusedChecks": {
+    "build": "Fresh build and --check pass for all eight lessons: 48 questions, 32 audio requests and 0 review flags.",
+    "integrity": "All eight current final examples contain a target match; every glossary entry slices an exact suggested-answer span after permitted case normalization and excludes the target. Speaking target offsets and all four distinct audio texts per lesson match the target pattern."
+  },
+  "remainingFindings": [],
+  "conclusion": "The three prior findings are cleared at the recorded revised hashes. These eight lessons remain unselected provisional drafts pending wider human, media and device review."
+}

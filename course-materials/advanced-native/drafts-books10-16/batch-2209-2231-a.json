@@ -17,7 +17,7 @@
         "meaningEn": "Take a short break or create distance from an activity or situation.",
         "meaningZh": "暫時離開某項活動或情境，讓自己稍作休息或重新整理。",
         "grammar": "step away from the screen; stepped away from work.",
-        "register": "Neutral conversational advice; often suggests a temporary pause.",
+        "register": "Neutral conversational advice; often suggests a temporary pause. A tutor may tell a student to step away from a difficult draft briefly and return with fresh attention.",
         "boundaryZh": "本課指暫時抽身以休息，不等於永久放棄責任。",
         "misconceptionZh": "不要把片語只理解成身體移動一步，也不要把休息說成逃避工作。",
         "outcomeZh": "能提出有界線的短暫休息，並說明何時回來。"
@@ -268,7 +268,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2225",
@@ -285,7 +285,7 @@
         "meaningEn": "Restore contact with a person or renew an earlier connection.",
         "meaningZh": "與曾經熟悉、後來少了聯絡的人重新取得聯繫。",
         "grammar": "reconnect with an old friend; reconnected with classmates.",
-        "register": "Warm neutral phrase; a new connection with a stranger is different.",
+        "register": "Warm neutral phrase; a new connection with a stranger is different. A friend may suggest to another friend that a reunion is a chance to reconnect with former classmates.",
         "boundaryZh": "重點是恢復已有的聯繫，不一定回到以前同樣親密的程度。",
         "misconceptionZh": "不要把初次認識某人也說成 reconnect with；亦不要假設對方一定回覆。",
         "outcomeZh": "能提出尊重對方意願的重新聯繫方法。"
@@ -536,7 +536,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2226",
@@ -553,7 +553,7 @@
         "meaningEn": "Become interested in, or begin to enjoy, an activity.",
         "meaningZh": "開始對某項活動產生興趣，或逐漸喜歡它。",
         "grammar": "get into painting; got into swimming; getting into a hobby.",
-        "register": "Informal everyday phrase; this lesson teaches interest, not physical entry.",
+        "register": "Informal everyday phrase; this lesson teaches interest, not physical entry. A parent may tell a child how they first got into painting through a weekend class.",
         "boundaryZh": "須談論對活動的興趣，不是實際走進房間或乘上交通工具。",
         "misconceptionZh": "不要只因嘗試一次就斷言已喜歡，也不要把字面「進入」當成本課意思。",
         "outcomeZh": "能描述怎樣開始並逐漸喜歡一項活動。"
@@ -795,7 +795,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2228",
@@ -812,7 +812,7 @@
         "meaningEn": "Become fewer or less dense over time, especially of a crowd.",
         "meaningZh": "人數或密度隨時間下降，尤其指人群慢慢散去。",
         "grammar": "the crowd thins out; the queue thinned out.",
-        "register": "Neutral phrasal verb for crowds or queues; not about someone losing weight.",
+        "register": "Neutral phrasal verb for crowds or queues; not about someone losing weight. A venue steward may tell a colleague that the crowd thins out after the final performance.",
         "boundaryZh": "須見人群逐漸減少或變疏，不一定完全散去。",
         "misconceptionZh": "不要把它理解成個人瘦身，也不要把增加人數說成變疏。",
         "outcomeZh": "能描述擁擠人群如何逐漸散去，以及何時較方便進入。"
@@ -1063,7 +1063,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2231",
@@ -1080,7 +1080,7 @@
         "meaningEn": "Start playing a film, show, recording or music for others to hear or watch.",
         "meaningZh": "開始播放電影、節目、錄音或音樂，供別人觀看或聆聽。",
         "grammar": "put on a film; put on some music; put on a recording.",
-        "register": "Everyday spoken use; context makes playback clear.",
+        "register": "Everyday spoken use; context makes playback clear. A host may ask a guest which recording to put on while they prepare dinner.",
         "boundaryZh": "本課指開始播放媒體，不是穿上衣服或籌辦舞台演出。",
         "misconceptionZh": "不要只見 put on 就忽略後接的媒體；同一片語有其他意思，本課只教播放。",
         "outcomeZh": "能在具體場合自然提議播放合適的影片或音樂。"
@@ -1331,7 +1331,7 @@
           "Provisional draft pending first-120 editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     }
   ]
 }

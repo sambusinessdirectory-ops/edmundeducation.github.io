@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-held-4237-4680-a",
+  "lessons": [
+    {
+      "id": "advanced-native-4237",
+      "number": 4237,
+      "inventoryId": "expr-4237",
+      "titleEn": "probing questions",
+      "titleZh": "深入探問的問題",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bprobing questions?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Questions designed to uncover information or a person's reasoning, rather than merely request a routine fact or provide the answer.",
+        "meaningZh": "為了解更多資訊或探究對方推理過程而提出的問題，不只是查問例行事實或直接給答案。",
+        "grammar": "Pattern: ask probing questions about + issue, or ask a probing question such as 'What led you to that conclusion?' Probing modifies question(s) as an adjective; it does not require a hostile tone or a yes/no form.",
+        "register": "Neutral educational, interview or research language. A tutor may tell a trainee teacher that probing questions help a student explain their reasoning; a researcher may use the term with a colleague when planning an interview, while keeping the questions respectful.",
+        "boundaryZh": "問題應有助揭示原因、證據或更深層資料；它可以溫和，不等於盤問、暗示預設答案，亦不等於單純問時間等例行資料。",
+        "misconceptionZh": "不要把 probing 誤讀為一定冒犯或帶敵意；應看提問是否真正探索未說清的想法。",
+        "outcomeZh": "能辨認探索推理的提問，並在尊重對方的情況下提出合適的深入問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2126",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 200,
+          "book": 16,
+          "question": 3,
+          "sample": "S1",
+          "sourceBookPages": "8–9",
+          "locatorNote": "DOCX table 218, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The tutor asked probing questions instead of giving answers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "probing questions"
+        }
+      ],
+      "listening": {
+        "en": "Mia said the river was cleaner this year. Instead of correcting her, the tutor asked which measurements she compared and whether both samples were from the same season. His probing questions exposed a gap in her evidence.",
+        "zh": "美雅說河流今年更清潔。導師沒有直接糾正她，而是問她比較哪些測量結果，以及兩次採樣是否在同一季節。這些深入探問揭示她證據中的缺口。",
+        "promptZh": "導師的 probing questions 有甚麼作用？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They encouraged Mia to examine the evidence behind her claim.",
+            "zh": "它們促使美雅檢查自己說法背後的證據。"
+          },
+          {
+            "id": "b",
+            "en": "They gave Mia the correct conclusion before she could think.",
+            "zh": "它們在美雅思考前直接給她正確結論。"
+          },
+          {
+            "id": "c",
+            "en": "They checked only what time the lesson would end.",
+            "zh": "它們只查問課堂甚麼時候結束。"
+          },
+          {
+            "id": "d",
+            "en": "They forced Mia to agree without discussing measurements.",
+            "zh": "它們在沒有討論測量結果下，迫使美雅同意。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "導師問測量結果及採樣時間，讓學生檢查推理，而非直接告知結論。"
+      },
+      "reply": {
+        "promptEn": "Why did the tutor ask about Mia's measurements and sampling season?",
+        "promptZh": "（導師為何問美雅測量結果與採樣季節？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He wanted Mia to test whether her evidence supported the claim.",
+            "zh": "他想美雅檢查證據是否支持她的說法。"
+          },
+          {
+            "id": "b",
+            "en": "He was inviting her to explain how she reached her conclusion.",
+            "zh": "他邀請她說明如何得出結論。"
+          },
+          {
+            "id": "c",
+            "en": "He asked probing questions to uncover a gap in the comparison.",
+            "zh": "他提出深入探問，以找出比較中的缺口。"
+          },
+          {
+            "id": "d",
+            "en": "He helped her consider whether the samples were comparable.",
+            "zh": "他幫她思考樣本是否能直接比較。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明導師在探索推理與證據；金句準確使用 probing questions。"
+      },
+      "scene": {
+        "promptZh": "面試者說：「上次活動來的人少了。」訪問者想了解原因，又不想預設答案。哪句最貼切地描述合適的提問方式？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She asks probing questions about which attendance figures are being compared and what changed between the two events.",
+            "zh": "她深入探問所比較的出席數字，以及兩次活動之間有甚麼變化。"
+          },
+          {
+            "id": "b",
+            "en": "She asks only for the second event’s starting time and does not explore the drop in attendance.",
+            "zh": "她只問第二次活動的開始時間，沒有探究出席人數下降的原因。"
+          },
+          {
+            "id": "c",
+            "en": "She assumes the organiser advertised badly and frames the question as an accusation.",
+            "zh": "她先假設主辦者宣傳不力，再以指責語氣提問。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "詢問數字的比較方式與兩次活動的變化，是不預設答案的深入探問。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合形容為 asking probing questions？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tutor asks what evidence changed a pupil's first answer.",
+            "zh": "導師問甚麼證據令學生改變第一個答案。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor asks what time the museum closes and leaves after receiving the time.",
+            "zh": "訪客問博物館關門時間，得到時間後便離開。"
+          },
+          {
+            "id": "c",
+            "en": "A researcher asks how interviewees reached a difficult decision.",
+            "zh": "研究員問受訪者如何作出艱難決定。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單純查問營業時間屬例行資料；另兩項探索推理或決策過程。"
+      },
+      "dialogue": {
+        "promptZh": "學生說：「我的實驗失敗了，我不知道為甚麼。」導師想幫他自己找出原因。哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Let me ask a few probing questions: which step changed from your earlier trial, and what did you observe then?",
+            "zh": "讓我問幾個深入探問的問題：哪一步與上次不同？你當時觀察到甚麼？"
+          },
+          {
+            "id": "b",
+            "en": "The failure must be your fault, so there is no need to look at the results.",
+            "zh": "失敗一定是你的錯，所以不用看結果。"
+          },
+          {
+            "id": "c",
+            "en": "I will tell you the cause before you show me your notes.",
+            "zh": "你給我看紀錄前，我就直接告訴你原因。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "尊重地問具體變化與觀察，幫學生探索原因，不預設責任或直接給答案。"
+      },
+      "speaking": {
+        "en": "The tutor asked probing questions about Mia's measurements instead of supplying the conclusion.",
+        "zh": "導師就美雅的測量結果提出深入問題，而不是直接給出結論。",
+        "promptZh": "先聽示範，再說出導師想探究哪項推理。",
+        "targetSpan": {
+          "start": 16,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：博物館研究員看到問卷顯示參觀人數下降，卻知道調查期間有一個展廳暫時關閉。她訪問同事時，希望先弄清點算方式和關閉的影響，而非立即斷言觀眾失去興趣。用一至兩句英文描述她應如何提問。",
+        "selfCheckZh": "指出人數下降的問卷結果、暫時關閉的展廳，以及她要問點算方式和影響；避免把原因預設為觀眾失去興趣。",
+        "examples": [
+          {
+            "en": "The researcher asked probing questions about the visitor survey: how were attendance figures counted, and did the temporary closure affect them?",
+            "zh": "研究員就參觀人數問卷提出深入問題：出席數字如何點算？暫時關閉的展廳有沒有影響數字？"
+          },
+          {
+            "en": "Before blaming lost interest, she used probing questions to check the counting method and whether the closed gallery had reduced visitor numbers.",
+            "zh": "在把下降歸因於興趣減退前，她用深入探問檢查點算方法，以及關閉的展廳是否令參觀人數減少。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "visitor survey",
+            "zh": "參觀人數問卷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "attendance figures",
+            "zh": "出席數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 92
+            }
+          },
+          {
+            "en": "temporary closure",
+            "zh": "暫時關閉",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 131
+            }
+          },
+          {
+            "en": "counting method",
+            "zh": "點算方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "closed gallery",
+            "zh": "關閉的展廳",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 116
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A thoughtful interviewer asks probing questions without assuming an answer.",
+          "zh": "審慎的訪問者會深入探問，而不預設答案。"
+        },
+        {
+          "en": "Probing questions can help a student explain the evidence behind a claim.",
+          "zh": "深入問題可幫學生解釋說法背後的證據。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-4680",
+      "number": 4680,
+      "inventoryId": "expr-4680",
+      "titleEn": "base camp",
+      "titleZh": "大本營",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbase\\s+camp\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A central operating point from which people set out on activities or excursions and to which they return for coordination or supplies.",
+        "meaningZh": "供人準備、出發到各活動地點，並回來協調或補給的中心據點。",
+        "grammar": "Pattern: a hotel, hall or town serves as/is/becomes a base camp for + trip, team or activity. Base camp is a noun phrase; the for-complement names the wider operation, while the reusable target is the two-word core.",
+        "register": "Neutral vivid travel or event-planning language. A trip leader may tell travellers that a hotel will be their base camp for daily outings; an event organiser may use it with volunteers for a central logistics point.",
+        "boundaryZh": "本課強調據點供人反覆準備、出發到不同地方及回來協調；不一定真的紮營，也不只是睡覺的地方。它與 home base 的固定據點用法可有重疊，不能說 home base 不能用於外出安排。",
+        "misconceptionZh": "不要把任何入住過的酒店都叫大本營；要看它是否用作多次外出的準備、出發或回程協調據點，也不要把相近的 home base 說成只能表達情感支持。",
+        "outcomeZh": "能指出中心據點、出發的活動，以及回到據點的協調或補給用途。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-2569",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 243,
+          "book": 16,
+          "question": 57,
+          "sample": "S1",
+          "sourceBookPages": "132–133",
+          "locatorNote": "DOCX table 272, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The hotel became the base camp for the whole trip.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "base camp for the whole trip"
+        }
+      ],
+      "listening": {
+        "en": "The group stayed at one hotel near the bus station for a week. Each morning they collected route maps there before visiting a different coastal town, then returned to plan the next day. The hotel became their base camp.",
+        "zh": "小組在巴士站附近同一間酒店住了一週。每天早上他們在那裏領取路線圖，再前往不同海邊城鎮；晚上回來規劃翌日行程。酒店成了他們的大本營。",
+        "promptZh": "為何把酒店稱為 base camp？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group used it as a recurring launch and planning point for daily trips.",
+            "zh": "小組每天以酒店作為出發和規劃行程的固定據點。"
+          },
+          {
+            "id": "b",
+            "en": "They stayed there for one night and made no trips from it.",
+            "zh": "他們只住了一晚，沒有從那裏出發到其他地方。"
+          },
+          {
+            "id": "c",
+            "en": "They changed hotels nightly and planned each route elsewhere.",
+            "zh": "他們每晚換酒店，並在其他地方規劃每天路線。"
+          },
+          {
+            "id": "d",
+            "en": "They spent the whole week inside without planning any outings.",
+            "zh": "他們整週留在酒店內，沒有規劃任何外出活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "酒店是每天領地圖、出發及回來規劃的中心，不只是住宿。"
+      },
+      "reply": {
+        "promptEn": "What role did the hotel play during the group's week of travel?",
+        "promptZh": "（那一週的旅程中，酒店擔當甚麼角色？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The group started different day trips from it and returned to plan ahead.",
+            "zh": "小組從那裏出發展開不同的一日行程，回來再規劃。"
+          },
+          {
+            "id": "b",
+            "en": "It was where they collected maps before heading to the coast each morning.",
+            "zh": "他們每天早上在那裏拿地圖，再前往海邊。"
+          },
+          {
+            "id": "c",
+            "en": "It served as their base camp for the series of daily outings.",
+            "zh": "它是連日外出行程的大本營。"
+          },
+          {
+            "id": "d",
+            "en": "It gave them one steady place for coordinating each day's route.",
+            "zh": "它提供了一個穩定地點，方便協調每天路線。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出重複使用的出發及協調功能；金句自然用 base camp。"
+      },
+      "scene": {
+        "promptZh": "攝影隊在一個社區中心放地圖和充電器，每天從那裏出發到不同街區拍攝，傍晚回來整理相片。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The community centre is the team's base camp for its neighbourhood shoots.",
+            "zh": "社區中心是攝影隊到各街區拍攝的大本營。"
+          },
+          {
+            "id": "b",
+            "en": "The centre is merely a hall they visited once after all the shoots ended.",
+            "zh": "中心只是所有拍攝完結後去過一次的禮堂。"
+          },
+          {
+            "id": "c",
+            "en": "The centre provides accommodation, while maps and batteries are kept at separate sites.",
+            "zh": "中心只提供住宿，地圖與電池則存放在其他地點。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "中心儲物、出發與回來整理相片，符合行動據點；不需真的搭帳篷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合形容某處為 base camp？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A volunteer hall stores supplies before teams leave for several cleanup sites.",
+            "zh": "義工禮堂存放物資，團隊從那裏前往多個清潔地點。"
+          },
+          {
+            "id": "b",
+            "en": "A traveller sleeps at a hotel once, then continues to another city without returning or coordinating trips there.",
+            "zh": "旅客在酒店住一晚，之後到另一城市，沒有回去或以它協調行程。"
+          },
+          {
+            "id": "c",
+            "en": "A survey crew returns to one hut for maps before heading to different trails each morning.",
+            "zh": "考察隊每天早上回到同一間小屋領地圖，再到不同山徑。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單晚過夜後直接離開，缺少反覆出發或協調的功能；另兩項有清楚的行動據點。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們每天從同一間旅舍出發到不同島嶼，晚上回來整理器材和安排翌日船班。」你怎樣描述旅舍？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds like your base camp for the island trips, with a place to prepare and return to each day.",
+            "zh": "它像是各次島嶼行程的大本營，讓你們每天準備出發並回來整理。"
+          },
+          {
+            "id": "b",
+            "en": "The hostel must own the boats and decide every island stop for your group.",
+            "zh": "旅舍一定擁有船隻，並替你們決定每個島嶼停靠點。"
+          },
+          {
+            "id": "c",
+            "en": "The hostel is only where you sleep; all equipment and boat plans are handled elsewhere.",
+            "zh": "旅舍只供睡覺；所有器材與船班安排都在其他地方處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "旅舍兼具出發、回程整理和翌日協調用途，用比喻的大本營貼切。"
+      },
+      "speaking": {
+        "en": "The hotel became our base camp: each morning we set out from there and returned to plan the next trip.",
+        "zh": "酒店成了我們的大本營：每天早上從那裏出發，回來後再規劃下一段行程。",
+        "promptZh": "先聽示範，再說出據點的出發與回程用途。",
+        "targetSpan": {
+          "start": 21,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：慈善單車活動把學校體育館作為中心。工作人員在館內存放路線圖與急救用品，每天由此出發到不同檢查站，回來後報告進度；他們不在館內過夜。用一至兩句英文說明體育館的用途。",
+        "selfCheckZh": "指出體育館存放路線圖與急救用品、工作人員前往不同檢查站再回來報告；不把它說成真正的露營地或宿舍。",
+        "examples": [
+          {
+            "en": "The school gym served as a base camp for the charity ride: teams collected route maps and first-aid supplies there before visiting different checkpoints and returning to report progress.",
+            "zh": "學校體育館是慈善單車活動的大本營：團隊在那裏領取路線圖與急救用品，再前往不同檢查站，回來報告進度。"
+          },
+          {
+            "en": "For the cycling event, the gym became a base camp where staff stored maps and medical supplies, set out for several checkpoints, and returned with updates each day.",
+            "zh": "在單車活動中，體育館成了大本營；工作人員在那裏存放地圖與醫療用品，前往多個檢查站，並每天帶着最新情況回來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "charity ride",
+            "zh": "慈善單車活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 57
+            }
+          },
+          {
+            "en": "route maps",
+            "zh": "路線圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 85
+            }
+          },
+          {
+            "en": "first-aid supplies",
+            "zh": "急救用品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 108
+            }
+          },
+          {
+            "en": "medical supplies",
+            "zh": "醫療用品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          },
+          {
+            "en": "several checkpoints",
+            "zh": "多個檢查站",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The community hall was our base camp for visits to three nearby villages.",
+          "zh": "社區禮堂是我們前往附近三條村落時的大本營。"
+        },
+        {
+          "en": "A base camp can be a hotel when teams use it to plan and launch daily outings.",
+          "zh": "如果團隊在酒店規劃及展開每日行程，酒店也可以作大本營。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

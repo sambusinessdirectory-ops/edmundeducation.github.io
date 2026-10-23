@@ -17,7 +17,7 @@
         "meaningEn": "Match what many people are feeling or wanting at a particular time.",
         "meaningZh": "某項主張或行動剛好回應大眾當時的共同感受或需求。",
         "grammar": "a campaign caught the public mood; a message catches the public mood.",
-        "register": "Neutral journalistic expression for collective feeling; support needs evidence.",
+        "register": "Neutral journalistic expression for collective feeling; support needs evidence. A journalist may tell an editor that a campaign caught the public mood only after citing public reactions.",
         "boundaryZh": "指當時廣泛的感受，不是只取悅一人，也不保證所有人都贊成。",
         "misconceptionZh": "不要把 caught 當成抓住實物；應指出哪些共同關注令行動受到響應。",
         "outcomeZh": "能用具體公眾反應解釋一項倡議為何得到支持。"
@@ -277,7 +277,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2236",
@@ -294,7 +294,7 @@
         "meaningEn": "In person, with the people involved physically present together.",
         "meaningZh": "雙方親身在同一地方直接交談或處理事情。",
         "grammar": "talk face to face; meet face to face.",
-        "register": "Neutral conversational phrase; often contrasts with messages or calls.",
+        "register": "Neutral conversational phrase; often contrasts with messages or calls. A teacher may tell two pupils that a disagreement may be easier to discuss face to face than by text.",
         "boundaryZh": "重點是親身相見；視像通話雖可看到臉，仍不等於同處一室。",
         "misconceptionZh": "不要把每次看到別人的照片或視像畫面都當成面對面見面。",
         "outcomeZh": "能選擇適合親身討論的情況並清楚提出安排。"
@@ -545,7 +545,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2240",
@@ -562,7 +562,7 @@
         "meaningEn": "Adapt gradually as society, habits or technology change.",
         "meaningZh": "因應社會、習慣或科技的變化而調整做法。",
         "grammar": "shift with the times; has shifted with the times.",
-        "register": "Neutral phrase for adaptation; change may preserve valued traditions.",
+        "register": "Neutral phrase for adaptation; change may preserve valued traditions. A museum guide may tell visitors how the exhibition shifted with the times while preserving old exhibits.",
         "boundaryZh": "是因應時代而改變，不是毫無理由地突然換方向，也不一定拋棄傳統。",
         "misconceptionZh": "不要只列出新事物；要說清楚舊做法如何調整及為何調整。",
         "outcomeZh": "能描述一項服務如何因應新習慣而改進，同時保留核心特色。"
@@ -813,7 +813,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2241",
@@ -830,7 +830,7 @@
         "meaningEn": "Stop being fashionable or widely favoured.",
         "meaningZh": "曾經受歡迎的款式或做法逐漸不再流行。",
         "grammar": "go out of style; went out of style; never goes out of style.",
-        "register": "Everyday phrase for fashion, design, and popular customs.",
+        "register": "Everyday phrase for fashion, design, and popular customs. A designer may tell a client that a familiar style has not gone out of style despite newer trends.",
         "boundaryZh": "不再流行不等於完全消失或沒有品質；個人仍可喜歡它。",
         "misconceptionZh": "不要把個人的一時厭倦當成整個社會已不再流行。",
         "outcomeZh": "能區分潮流轉變與個人喜好，避免過度概括。"
@@ -1081,7 +1081,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 1
+      "contentRevision": 2
     },
     {
       "id": "advanced-native-2243",
@@ -1098,7 +1098,7 @@
         "meaningEn": "Change direction, decision or opinion very quickly, often in response to new information.",
         "meaningZh": "因新情況而極快改變方向、決定或看法。",
         "grammar": "a plan can turn on a dime; opinion turned on a dime.",
-        "register": "American idiom; vivid and informal in conversation, also used in commentary.",
+        "register": "American idiom; vivid and informal in conversation, also used in commentary. A campaign analyst may tell a colleague that public opinion can turn on a dime after new evidence appears.",
         "boundaryZh": "重點是改變迅速；未必是壞事，也不是字面在硬幣上轉身。",
         "misconceptionZh": "不要把經過長期討論的緩慢轉變說成瞬間改變。",
         "outcomeZh": "能指出觸發快速改變的事件，並準確描述結果。"
@@ -1349,7 +1349,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 3
+      "contentRevision": 4
     },
     {
       "id": "advanced-native-2246",
@@ -1366,7 +1366,7 @@
         "meaningEn": "At a deeper level beneath visible differences or behaviour.",
         "meaningZh": "撇開表面上的差異或表現，看到較根本的感受或共同點。",
         "grammar": "different habits, but underneath it all they want the same thing.",
-        "register": "Conversational figurative phrase; should lead to a supported deeper point.",
+        "register": "Conversational figurative phrase; should lead to a supported deeper point. A friend may tell another friend that underneath it all, two classmates share the same worry.",
         "boundaryZh": "必須有表面與深層的對照；不是實際藏在某物下面。",
         "misconceptionZh": "不要憑空替別人推斷隱藏動機；要有情境支持。",
         "outcomeZh": "能在表面分歧中，謹慎指出雙方可觀察到的共同關注。"
@@ -1617,7 +1617,7 @@
           "Provisional draft pending editorial and source-sense review; no release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     }
   ]
 }

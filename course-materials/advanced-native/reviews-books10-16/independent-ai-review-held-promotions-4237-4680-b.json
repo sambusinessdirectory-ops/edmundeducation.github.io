@@ -1,0 +1,44 @@
+{
+  "reviewId": "independent-ai-review-held-promotions-4237-4680-b",
+  "decisionFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl": "2a45bbff835efabeb0d1bf43f36ac2f802064131f72ca59b1f5f6b1e1ad3e156",
+    "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl": "ba47ae5fdbc75d4a990629d5d526ac8142ba1c74ef1433bbc67c86c9a7d0772a"
+  },
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-4237-4680-held-a.json": "5dff346408aea190658c6317a307747f1655edf80b14344c512a80356769da40"
+  },
+  "reviewedLessonNumbers": [4237, 4680],
+  "scope": "Independent AI source/canonical and Golden SOP editorial review of two unselected provisional promotions; no human, media, device or release approval.",
+  "decisionAndSourceChecks": {
+    "4237": "Decision sourceId book10-16-2126, phrase probing questions, and the draft's exact source sentence match source-inventory.jsonl. The source sentence and both singular/plural lesson forms match the reviewed target regex. A catalogue search found no prior probing questions owner or exact-phrase duplicate. The teaching outcome distinguishes exploratory questions from routine or leading questions.",
+    "4680": "Decision phrase preserves the inventory's full marked phrase base camp for the whole trip. The draft transparently extracts the reusable core base camp as title/target; the regex matches the full source sentence. Canonical 1526 home base has an overlapping operational community-centre example, so operational use is not exclusive to base camp. The new brief explicitly acknowledges that overlap and focuses on a central launch/return/coordination point for multiple trips. This lexical distinction is supportable for provisional review, though final separate-lesson eligibility remains a human editorial decision.",
+    "collisionScreen": "The all-discovered new-owner collision screen returns no records for 4237 or 4680. The only close prior owner found in the catalogue is 1526 home base, whose target regex does not detect base camp in the source sentence."
+  },
+  "contentChecks": {
+    "build": "Fresh build and --check pass: 2 lessons, 12 questions, 8 audio requests, 0 structural review flags.",
+    "targetAndGlossary": "Each lesson's four-option reply has one target-bearing golden option; the dialogue key and both changed-context writing models contain the target. Every glossary entry is an exact non-target span from a suggested English answer after permitted case normalization; speaking offsets slice the target exactly. Four distinct requested audio texts per lesson contain target matches.",
+    "bilingual": "The English/Traditional Chinese source, prompts, options, writing models and takeaways were compared for factual fidelity. No material translation conflict was found.",
+    "transfer": "4237 transfers from classroom evidence checking to a museum attendance survey; 4680 transfers from a trip hotel to a charity cycling operations gym. Both final situations differ materially from the opening listening context."
+  },
+  "findings": [
+    {
+      "id": "R4237-01",
+      "lessonId": "advanced-native-4237",
+      "severity": "major",
+      "surface": "scene.promptZh/options[id=a].en/zh",
+      "evidence": "The Step 3 scene asks the learner to choose the best interview question. Keyed option a is ‘Which attendance figures are you comparing, and what changed between the two events?’ It is a useful probing question, but the keyed English sentence contains no instance of probing question(s).",
+      "problem": "Golden SOP Step 3 specifies matching the best expression to a concrete situation. The answer tests question-writing quality without choosing or rehearsing the target expression, unlike the target-bearing scene answers elsewhere in this course.",
+      "repair": "Keep the interview scenario but make the keyed option a natural target-bearing description, such as ‘She asks probing questions about the figures and what changed between the events.’ Make other options describe a routine fact check and a leading accusation; align the Traditional Chinese and explanation, then recheck key and target integrity."
+    },
+    {
+      "id": "R4680-01",
+      "lessonId": "advanced-native-4680",
+      "severity": "minor",
+      "surface": "dialogue.options[id=b,c].en/zh",
+      "evidence": "Both distractors claim the hostel is only for sleeping and that trip coordination/equipment handling occurs elsewhere. They reject the same fact for the same reason in nearly identical wording.",
+      "problem": "Repeated distractors waste an assessment opportunity and make elimination easier by surface similarity rather than sense discrimination.",
+      "repair": "Keep one sleep-only misconception and make the other a distinct plausible overreach or category error, without contradicting the stated trip facts."
+    }
+  ],
+  "conclusion": "The provisional source promotions are traceable and have defensible target forms. Repair R4237-01 before selecting that lesson; improve R4680-01 for assessment quality. Both remain unselected pending a human decision on their separate teaching value and later media/device/release gates."
+}

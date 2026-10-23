@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2614-2637-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2614",
+      "number": 2614,
+      "inventoryId": "expr-2614",
+      "titleEn": "money does not grow on trees",
+      "titleZh": "錢不是從天上掉下來的",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmoney (?:does not|doesn't|doesn’t) grow on trees\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Money is limited and normally has to be earned, so spending choices have consequences.",
+        "meaningZh": "金錢有限，通常要靠工作賺取，因此花費需要取捨。",
+        "grammar": "Pattern: money does not grow on trees is a fixed negative clause. It commonly follows a request or plan for spending, and can stand alone as a reminder; does not is not changed to do not with money.",
+        "register": "Informal, often a parent-to-child or friend-to-friend warning. It can sound scolding if used toward someone facing unavoidable costs, so use it for discretionary spending with care.",
+        "boundaryZh": "用於提醒可選擇的花費要考慮預算，不表示家庭完全沒有錢，也不適宜用來責備無法避免的醫療或生活開支。",
+        "misconceptionZh": "不要把樹當成真正的來源，也不要推斷被提醒的人一定浪費；重點是資源有限，需要取捨。",
+        "outcomeZh": "能在可選擇的消費情境中，指出有限預算及具體取捨。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0503",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 46,
+          "book": 11,
+          "question": 6,
+          "sample": "S1",
+          "sourceBookPages": "14–16",
+          "locatorNote": "DOCX table 42, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children eventually learn that money does not grow on trees.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money does not grow on trees"
+        }
+      ],
+      "listening": {
+        "en": "Leo wants a second pair of expensive trainers this month, but the family has set aside money for his school trip. His mother says money does not grow on trees and asks him to choose which purchase matters more.",
+        "zh": "里奧這個月想再買一雙昂貴波鞋，但家裏已預留款項支付他的學校旅行。母親提醒他錢不是從天上掉下來的，要他決定哪項花費更重要。",
+        "promptZh": "母親的話主要提醒里奧甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The family must choose how to use a limited budget.",
+            "zh": "家裏需要決定如何使用有限的預算。"
+          },
+          {
+            "id": "b",
+            "en": "The school trip has already been cancelled.",
+            "zh": "學校旅行已經取消。"
+          },
+          {
+            "id": "c",
+            "en": "The shoes are unavailable in his size.",
+            "zh": "那雙鞋沒有他的尺碼。"
+          },
+          {
+            "id": "d",
+            "en": "The family has no money for any essentials.",
+            "zh": "家裏連基本開支也完全負擔不起。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這句提醒資源有限，旅行與第二雙鞋之間要取捨；並沒有說家裏付不起必需品。"
+      },
+      "reply": {
+        "promptEn": "Why does Mum want Leo to reconsider the second pair of trainers?",
+        "promptZh": "（為何媽媽想里奧重新考慮再買一雙波鞋？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have already reserved part of the budget for his school trip.",
+            "zh": "他們已把部分預算留給他的學校旅行。"
+          },
+          {
+            "id": "b",
+            "en": "She wants him to compare the two costs before deciding.",
+            "zh": "她想他在決定前比較兩筆花費。"
+          },
+          {
+            "id": "c",
+            "en": "Money does not grow on trees, so they need to choose what to pay for now.",
+            "zh": "錢不是從天上掉下來的，因此他們要決定現在支付哪項花費。"
+          },
+          {
+            "id": "d",
+            "en": "Buying another pair now would leave less for the trip.",
+            "zh": "現在再買一雙，旅行可用的錢便會減少。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明預算取捨；金句自然使用本課固定說法。"
+      },
+      "scene": {
+        "promptZh": "書店學生預算只夠買一本參考書，但他同時看上一款限量裝飾品。哪句提醒最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Money does not grow on trees, so compare the book with the decoration before spending.",
+            "zh": "錢不是從天上掉下來的，花錢前先比較參考書與裝飾品。"
+          },
+          {
+            "id": "b",
+            "en": "The decoration must be poor quality because it is limited edition.",
+            "zh": "裝飾品是限量版，所以品質一定差。"
+          },
+          {
+            "id": "c",
+            "en": "Buying the decoration would automatically prevent him from studying.",
+            "zh": "買裝飾品必然令他無法溫習。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生面對具體的可選擇花費，提醒比較預算自然；其他選項作出沒有證據的推斷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合用 money does not grow on trees 來提醒當事人？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A friend keeps adding optional gadgets despite a fixed monthly budget.",
+            "zh": "朋友雖有固定月度預算，仍不斷加購可選擇的小工具。"
+          },
+          {
+            "id": "b",
+            "en": "A parent is already paying for a child's urgent treatment and asks where to find help.",
+            "zh": "家長正支付孩子的緊急治療費，並詢問可在哪裏求助。"
+          },
+          {
+            "id": "c",
+            "en": "A family weighs a second holiday against a planned home repair.",
+            "zh": "一家人在第二次旅行與已計劃的家居維修之間取捨。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "緊急治療屬無法避免的需要，此時這句容易像責備；另兩項是可選擇的開支。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我已留錢交考試費，但又想立刻買新遊戲機。你會怎樣建議？」哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keep the exam fee aside first; money does not grow on trees, so decide whether the console can wait.",
+            "zh": "先保留考試費；錢不是從天上掉下來的，想想遊戲機能否遲些再買。"
+          },
+          {
+            "id": "b",
+            "en": "The console is always a better investment than any exam.",
+            "zh": "遊戲機永遠比考試更值得投資。"
+          },
+          {
+            "id": "c",
+            "en": "You have enough for both because you saved for one of them.",
+            "zh": "你已為其中一項儲錢，所以兩項必然都夠付。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先保留已知必要費用，再審慎考慮可選擇的購買；沒有假設朋友一定買不起。"
+      },
+      "speaking": {
+        "en": "Money does not grow on trees, so we should keep the school-trip money before buying extra shoes.",
+        "zh": "錢不是從天上掉下來的，所以買額外的鞋前應先保留學校旅行的款項。",
+        "promptZh": "先聽示範，再說出哪兩項花費需要取捨。",
+        "targetSpan": {
+          "start": 0,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區攝影小組只剩一筆有限經費；成員想買第二盞裝飾燈，但下月也要支付場地租金。用一至兩句英文提醒他們如何取捨，避免聲稱小組完全沒錢。",
+        "selfCheckZh": "指出經費有限、第二盞燈屬可選擇花費、下月場租需要保留；提出具體的先後取捨。",
+        "examples": [
+          {
+            "en": "Money does not grow on trees, so the photography group should set aside next month's venue rent before buying a second decorative light.",
+            "zh": "錢不是從天上掉下來的，所以攝影小組買第二盞裝飾燈前，應先預留下月場租。"
+          },
+          {
+            "en": "The group has a limited budget: money does not grow on trees, and paying the venue rent should come before an extra light.",
+            "zh": "小組預算有限：錢不是從天上掉下來的，支付場租應先於購買額外的燈。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "photography group",
+            "zh": "攝影小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 54
+            }
+          },
+          {
+            "en": "set aside",
+            "zh": "預留",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 71
+            }
+          },
+          {
+            "en": "venue rent",
+            "zh": "場租",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 95
+            }
+          },
+          {
+            "en": "limited budget",
+            "zh": "有限預算",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 30
+            }
+          },
+          {
+            "en": "extra light",
+            "zh": "額外的燈",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Money does not grow on trees; let us budget for the rent before buying another lamp.",
+          "zh": "錢不是從天上掉下來的；先為場租編預算，再考慮多買一盞燈。"
+        },
+        {
+          "en": "She reminded him that money does not grow on trees when he wanted a third tablet.",
+          "zh": "他想買第三部平板電腦時，她提醒他金錢有限，需要取捨。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2618",
+      "number": 2618,
+      "inventoryId": "expr-2618",
+      "titleEn": "buy things on impulse",
+      "titleZh": "衝動購物",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:buy|buys|bought|buying) things on impulse\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Purchase items without planning, prompted by an immediate feeling rather than a considered need.",
+        "meaningZh": "因一時感覺而沒有事先計劃便購物，而非先考慮實際需要。",
+        "grammar": "Pattern: buy/buys/bought/buying things on impulse. The manner phrase on impulse modifies buying; with a named item, a wider natural form is buy a jacket on impulse, but this lesson rehearses the source's things form.",
+        "register": "Neutral everyday spending discussion. A shopper, friend or adviser can use it without treating every spontaneous purchase as irresponsible; the consequence depends on the budget and situation.",
+        "boundaryZh": "重點是購買前沒有計劃、受當下念頭推動；不必然昂貴或造成債務，亦不等同考慮後才作出的臨時決定。",
+        "misconceptionZh": "不要只因購物很快便判斷是衝動：若早已列在購物清單，速度並非關鍵。",
+        "outcomeZh": "能分辨預先計劃的購買與即時情緒推動的購買，並自然描述原因。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0507",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 47,
+          "book": 11,
+          "question": 6,
+          "sample": "S2",
+          "sourceBookPages": "14–16",
+          "locatorNote": "DOCX table 42, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He tends to buy things on impulse when he is tired.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "buy things on impulse"
+        }
+      ],
+      "listening": {
+        "en": "After a tiring shift, May opened her phone to check bus times and saw a flash-sale alert from a shopping app. She bought three accessories she had not planned to get. Her friend said she often buys things on impulse when worn out.",
+        "zh": "美儀下班後疲倦地打開手機查巴士時間，卻看到購物程式的限時優惠通知。她買了三件原本沒打算買的配件。朋友說她疲倦時常衝動購物。",
+        "promptZh": "朋友為何說美儀 buys things on impulse？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She made unplanned purchases in response to a sudden offer.",
+            "zh": "她見到突然出現的優惠後，買了原本沒計劃購買的東西。"
+          },
+          {
+            "id": "b",
+            "en": "She checked a planned shopping list before buying the accessories.",
+            "zh": "她買配件前仔細查看已擬好的購物清單。"
+          },
+          {
+            "id": "c",
+            "en": "She paid for a bus ticket she needed for work.",
+            "zh": "她付了工作所需的巴士票錢。"
+          },
+          {
+            "id": "d",
+            "en": "She compared accessories for a week before placing the order.",
+            "zh": "她比較了一週配件才下單。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本只想查巴士時間，卻受限時優惠吸引而買下未計劃的東西，符合衝動購物。"
+      },
+      "reply": {
+        "promptEn": "What was unplanned about May's shopping after work?",
+        "promptZh": "（美儀下班後的購物有甚麼未經計劃？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She opened the app for another purpose but bought accessories after seeing a sale.",
+            "zh": "她本來為另一個目的開程式，見到優惠才買配件。"
+          },
+          {
+            "id": "b",
+            "en": "The accessories were not on her list before the flash sale appeared.",
+            "zh": "限時優惠出現前，那些配件不在她的購物計劃內。"
+          },
+          {
+            "id": "c",
+            "en": "Feeling tired, she bought things on impulse rather than deciding in advance.",
+            "zh": "她在疲倦時衝動購物，並非預先決定要買。"
+          },
+          {
+            "id": "d",
+            "en": "Her purchase followed a sudden offer rather than a considered need.",
+            "zh": "她是受突然出現的優惠推動，不是按事先考慮的需要購買。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都準確描述未計劃的購物；金句使用本課自然搭配。"
+      },
+      "scene": {
+        "promptZh": "阿傑走進文具店只為買膠水，卻被收銀處的優惠吸引，順手買了三個原本沒打算要的杯子。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He bought things on impulse after noticing the checkout offer.",
+            "zh": "他見到收銀處優惠後，衝動買下原本沒計劃的東西。"
+          },
+          {
+            "id": "b",
+            "en": "He bought the cups to complete a written shopping list.",
+            "zh": "他買杯子是為了完成事先寫好的購物清單。"
+          },
+          {
+            "id": "c",
+            "en": "He spent a week comparing the cups before deciding.",
+            "zh": "他比較了一週杯子才決定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "杯子是見到優惠才即時加購，沒有預先計劃；另兩項與情境不符。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 buy things on impulse？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A customer adds two unplanned snacks because the queue display looks tempting.",
+            "zh": "顧客看到排隊處陳列吸引，臨時多買兩包零食。"
+          },
+          {
+            "id": "b",
+            "en": "A family buys the replacement charger listed in its budget after comparing prices all week.",
+            "zh": "一家人比較一週價格後，買下已列入預算的替換充電器。"
+          },
+          {
+            "id": "c",
+            "en": "A student orders an unplanned poster moments after seeing an online countdown.",
+            "zh": "學生看到網上倒數後，立即訂購原本沒打算買的海報。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "已列入預算且比較過價格的充電器屬有計劃購買；另兩項受當下刺激推動。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我看到演唱會周邊限時減價，剛剛買了幾件原本沒有想買的東西。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if you bought things on impulse; perhaps check your budget before buying more.",
+            "zh": "聽起來你是衝動購物；再買之前不妨查看預算。"
+          },
+          {
+            "id": "b",
+            "en": "The discount proves you needed every item.",
+            "zh": "有折扣就證明每件東西都是必需品。"
+          },
+          {
+            "id": "c",
+            "en": "A spontaneous purchase always means you are in debt.",
+            "zh": "臨時購物必然代表你有債務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "指出未計劃而即時購買的特點，並審慎建議核對預算，不武斷推論債務。"
+      },
+      "speaking": {
+        "en": "She bought things on impulse after seeing the alert, though she had only opened her phone to check bus times.",
+        "zh": "她原本只想用手機查巴士時間，卻在看到優惠通知後衝動購物。",
+        "promptZh": "先聽示範，再說出購買前原本有沒有計劃。",
+        "targetSpan": {
+          "start": 4,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名遊客原本只打算參觀博物館展覽；一幅畫令他很感動，於是在離開前臨時買了兩張原本沒打算買的畫作印刷品。用一至兩句英文說明這項未經計劃的購買，不要臆測他欠債。",
+        "selfCheckZh": "指出原本只想看展覽、看畫後才產生購買念頭，以及兩張印刷品沒有預先列入計劃；不要虛構折扣或債務。",
+        "examples": [
+          {
+            "en": "He visited the museum only for the exhibition but bought things on impulse after a painting moved him, choosing two prints he had not planned to buy.",
+            "zh": "他原本只為看展覽而到博物館，但一幅畫令他感動後便衝動購物，買了兩張原本沒打算買的印刷品。"
+          },
+          {
+            "en": "After seeing a painting that moved him, the visitor bought things on impulse at the museum shop: two art prints he had not expected to take home.",
+            "zh": "遊客看了一幅令他感動的畫後，在博物館商店衝動購物，買了兩張原本沒想過帶回家的畫作印刷品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the exhibition",
+            "zh": "展覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "a painting moved him",
+            "zh": "一幅畫令他感動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 101
+            }
+          },
+          {
+            "en": "two prints",
+            "zh": "兩張印刷品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 122
+            }
+          },
+          {
+            "en": "museum shop",
+            "zh": "博物館商店",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 95
+            }
+          },
+          {
+            "en": "art prints",
+            "zh": "畫作印刷品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She sometimes buys things on impulse when an online countdown appears.",
+          "zh": "看到網上倒數促銷時，她有時會衝動購物。"
+        },
+        {
+          "en": "Buying things on impulse is different from paying for an item already on your list.",
+          "zh": "衝動購物有別於購買早已列在清單上的物品。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2636",
+      "number": 2636,
+      "inventoryId": "expr-2636",
+      "titleEn": "up to a point",
+      "titleZh": "有一定程度，但有限度",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bup to a point\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Only to a limited extent; a claim or permission is partly true, not unlimited.",
+        "meaningZh": "只在一定程度上成立；某種自由或說法有其限制。",
+        "grammar": "Pattern: yes, up to a point; agree up to a point; or a clause such as children can choose freely up to a point. The fixed phrase qualifies the preceding claim, often followed by but and the limiting condition.",
+        "register": "Neutral spoken or written qualification. A parent, teacher or colleague can use it to acknowledge part of another view before giving a concrete boundary, without sounding dismissive.",
+        "boundaryZh": "承認一部分成立，再說明清楚的限制；不是完全同意，也不是完全否定，更不是時間或地點上的某個點。",
+        "misconceptionZh": "不要只寫 up to a point 而不交代到底哪一部分可行、限制在哪裏。",
+        "outcomeZh": "能對一項建議作有界線的同意，並指出具體條件。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0525",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 8,
+          "sample": "S1",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children can choose freely up to a point.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "up to a point"
+        }
+      ],
+      "listening": {
+        "en": "At the school fair, pupils may choose their own stall games, but they cannot use sharp tools without a teacher. The organiser says they have freedom up to a point and explains the safety limit.",
+        "zh": "學校嘉年華讓學生自行選攤位遊戲，但沒有老師在場便不能使用利器。主辦者說他們有一定自由，同時解釋安全界線。",
+        "promptZh": "up to a point 在這裏說明甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The choice is real but stops at a clear safety boundary.",
+            "zh": "學生確實有選擇權，但受到明確安全界線限制。"
+          },
+          {
+            "id": "b",
+            "en": "Pupils have no choice about any stall game.",
+            "zh": "學生對任何攤位遊戲都沒有選擇權。"
+          },
+          {
+            "id": "c",
+            "en": "Pupils may use sharp tools whenever they like.",
+            "zh": "學生可隨時自行使用利器。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser has chosen a location on a map.",
+            "zh": "主辦者已在地圖上選定一個位置。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "學生可以選遊戲，卻不能在沒有老師時使用利器，所以自由只在一定範圍內。"
+      },
+      "reply": {
+        "promptEn": "Can pupils choose what to do at the school fair?",
+        "promptZh": "（學生可否自行選擇嘉年華的活動？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, they can choose games, while the safety rule still applies.",
+            "zh": "可以，他們可選遊戲，但仍要遵守安全規則。"
+          },
+          {
+            "id": "b",
+            "en": "They have a choice among games, provided a teacher supervises sharp tools.",
+            "zh": "他們可在遊戲中作選擇，使用利器則須有老師看管。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, up to a point: they can choose games but not use sharp tools alone.",
+            "zh": "可以，但有一定限度：他們能選遊戲，卻不能獨自使用利器。"
+          },
+          {
+            "id": "d",
+            "en": "Their freedom covers the games, not unsupervised tool use.",
+            "zh": "他們的自由涵蓋選遊戲，不包括無人監督下使用工具。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都承認有選擇，同時指出安全限制；金句用 up to a point 作有限度同意。"
+      },
+      "scene": {
+        "promptZh": "社區花園容許義工自選種植區，但化學噴劑只可由受訓員工使用。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers can make choices up to a point; chemical sprays still require trained staff.",
+            "zh": "義工有一定選擇空間，但化學噴劑仍須由受訓員工使用。"
+          },
+          {
+            "id": "b",
+            "en": "Volunteers cannot choose any planting area at all.",
+            "zh": "義工完全不能選種植區。"
+          },
+          {
+            "id": "c",
+            "en": "Choosing a plot also grants permission to use chemical sprays.",
+            "zh": "選了種植區便同時獲准使用化學噴劑。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "場地選擇存在，但噴劑使用另有限制，恰好是有條件的自由。"
+      },
+      "contrast": {
+        "promptZh": "哪句最不適合表達 up to a point 的意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "I agree that shorter meetings help, but we still need enough time for questions.",
+            "zh": "我同意縮短會議有幫助，但仍須留足夠時間提問。"
+          },
+          {
+            "id": "b",
+            "en": "I agree completely: there are no limits, exceptions or conditions.",
+            "zh": "我完全同意：沒有任何限制、例外或條件。"
+          },
+          {
+            "id": "c",
+            "en": "Children may select the books, provided they return them on time.",
+            "zh": "孩子可自行選書，但須準時歸還。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全無條件的同意沒有「只在一定程度上」的限定；另兩項都指明界線。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「不如讓參展者自由安排攤位？」你知道消防通道必須保持暢通。哪句回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That works up to a point: they can arrange displays, but the fire exits must remain clear.",
+            "zh": "這建議在一定程度上可行：他們可安排展示，但消防出口必須保持暢通。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, they can put displays anywhere, including across the exits.",
+            "zh": "可以，他們可在任何位置展示，包括擋住出口。"
+          },
+          {
+            "id": "c",
+            "en": "No one should be allowed to arrange any display at all.",
+            "zh": "任何人都不應獲准安排展示。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認可自行安排展示，再指出消防出口是明確限制。"
+      },
+      "speaking": {
+        "en": "Pupils can choose their fair games up to a point, but sharp tools still need teacher supervision.",
+        "zh": "學生可以在一定程度上自選嘉年華遊戲，但使用利器仍需老師看管。",
+        "promptZh": "先聽示範，再說出學生的選擇在哪裏受到限制。",
+        "targetSpan": {
+          "start": 35,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：手作工作坊讓參加者自由選布料與顏色，但縫紉機只可在導師看管下使用。用一至兩句英文回應「參加者可完全自由操作嗎？」清楚說明自由與限制。",
+        "selfCheckZh": "指出可自選布料和顏色、縫紉機須有導師看管；不要把部分自由說成完全禁止或無限制。",
+        "examples": [
+          {
+            "en": "Participants can choose fabrics and colours up to a point, but they may use the sewing machines only under an instructor's supervision.",
+            "zh": "參加者在一定程度上可自選布料和顏色，但使用縫紉機時必須有導師看管。"
+          },
+          {
+            "en": "Yes, up to a point: the group can pick its materials, while an instructor must supervise anyone using a sewing machine.",
+            "zh": "可以，但有一定限度：小組能挑選材料，任何人使用縫紉機時都須有導師看管。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "fabrics and colours",
+            "zh": "布料和顏色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 43
+            }
+          },
+          {
+            "en": "sewing machines",
+            "zh": "縫紉機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 95
+            }
+          },
+          {
+            "en": "instructor's supervision",
+            "zh": "導師看管",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 134
+            }
+          },
+          {
+            "en": "pick its materials",
+            "zh": "挑選材料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 52
+            }
+          },
+          {
+            "en": "supervise",
+            "zh": "看管",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 88
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The team may change the poster up to a point, but the safety notice must stay.",
+          "zh": "團隊可在一定程度上修改海報，但安全告示必須保留。"
+        },
+        {
+          "en": "I agree with the plan up to a point; its cost still needs checking.",
+          "zh": "我在一定程度上同意計劃，但仍須核對成本。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2637",
+      "number": 2637,
+      "inventoryId": "expr-2637",
+      "titleEn": "swayed by advertisements",
+      "titleZh": "受廣告左右",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bswayed by advertisements\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Influenced by advertisements when forming a preference or decision.",
+        "meaningZh": "在形成喜好或作決定時受到廣告影響。",
+        "grammar": "Pattern: be swayed by advertisements, usually passive with was/were/can be. Swayed is figurative influence, not physical movement; by names the influencing source.",
+        "register": "Neutral to mildly critical consumer discussion. A shopper, teacher or adviser may use it to describe a specific influence, but should not assume every advertised purchase was unthinking.",
+        "boundaryZh": "須有線索顯示廣告改變或推動了想法；看到廣告或最後買了產品，本身都不足以證明受到左右。",
+        "misconceptionZh": "不要把 swayed 理解為身體搖晃，也不要假設受廣告影響就一定買下產品。",
+        "outcomeZh": "能根據購買前後的想法或具體行動，說明廣告是否影響決定。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0526",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 48,
+          "book": 11,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "19–21",
+          "locatorNote": "DOCX table 44, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Young buyers can be swayed by advertisements.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swayed by advertisements"
+        }
+      ],
+      "listening": {
+        "en": "Nora planned to keep her working headphones. After adverts promised better sound, she put a new pair on her shopping list. She says she was swayed by advertisements, though she has not bought them yet.",
+        "zh": "諾拉原本打算繼續使用仍能運作的耳機。看了聲稱音質更佳的廣告後，她把新耳機放進購物清單。她說自己受廣告影響，但尚未購買。",
+        "promptZh": "為何說諾拉 was swayed by advertisements？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adverts changed her plan, even though she has not yet purchased the headphones.",
+            "zh": "廣告改變了她的打算，即使她尚未買耳機。"
+          },
+          {
+            "id": "b",
+            "en": "She bought the headphones before she saw any advert.",
+            "zh": "她在看到任何廣告前已買下耳機。"
+          },
+          {
+            "id": "c",
+            "en": "She kept the same plan and ignored the adverts.",
+            "zh": "她保持原本打算，沒有理會廣告。"
+          },
+          {
+            "id": "d",
+            "en": "Her friend recommended a new pair, and Nora did not notice the adverts.",
+            "zh": "朋友推薦了新耳機，而諾拉沒有留意廣告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "廣告出現後，她由保留舊耳機改為考慮新耳機；影響想法不要求已完成購買。"
+      },
+      "reply": {
+        "promptEn": "What changed Nora's mind about replacing her headphones?",
+        "promptZh": "（甚麼令諾拉改變替換耳機的想法？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several adverts about sound quality made a new pair seem more attractive.",
+            "zh": "幾則關於音質的廣告令新耳機看來更吸引。"
+          },
+          {
+            "id": "b",
+            "en": "The promotional claims prompted her to add a new pair to her list.",
+            "zh": "宣傳內容促使她把新耳機加入購物清單。"
+          },
+          {
+            "id": "c",
+            "en": "She was swayed by advertisements rather than by a fault in her old headphones.",
+            "zh": "左右她想法的是廣告，而不是舊耳機故障。"
+          },
+          {
+            "id": "d",
+            "en": "After seeing the adverts, she reconsidered her plan to keep the working pair.",
+            "zh": "看過廣告後，她重新考慮繼續使用舊耳機的打算。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出廣告改變打算；金句以被動搭配說出具體影響來源。"
+      },
+      "scene": {
+        "promptZh": "小雨原本要借用圖書館的平板，看到一連串補習程式廣告後，改為想訂購該程式。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She was swayed by advertisements when she changed her plan to a subscription.",
+            "zh": "她改為想訂閱，是受到廣告左右。"
+          },
+          {
+            "id": "b",
+            "en": "The library tablet stopped working before she saw the adverts.",
+            "zh": "她看到廣告前，圖書館平板已壞。"
+          },
+          {
+            "id": "c",
+            "en": "She subscribed months before any promotion appeared.",
+            "zh": "她早在任何宣傳出現前數月便已訂閱。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情境明確交代宣傳後才改變計劃，支持廣告影響的推論。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說某人 was swayed by advertisements？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A shopper changes brands after repeatedly watching promotional videos.",
+            "zh": "顧客反覆看宣傳片後轉用另一品牌。"
+          },
+          {
+            "id": "b",
+            "en": "A student sees an advert but chooses the same pre-planned book after comparing independent reviews.",
+            "zh": "學生看到廣告，卻在比較獨立評論後仍買原本選好的書。"
+          },
+          {
+            "id": "c",
+            "en": "A family had no plan to visit a museum, then books tickets after its poster campaign.",
+            "zh": "一家人原本沒打算參觀博物館，看了海報宣傳後才訂票。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "看到廣告卻沒有改變原有選擇，缺少被廣告左右的證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我本來不想換手機，看完好幾則廣告，現在把新款列入考慮，但還沒決定。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You may have been swayed by advertisements, even though you have not decided to buy it.",
+            "zh": "你可能受廣告左右，即使尚未決定購買。"
+          },
+          {
+            "id": "b",
+            "en": "The adverts prove your current phone is broken.",
+            "zh": "廣告證明你的現有手機已壞。"
+          },
+          {
+            "id": "c",
+            "en": "If you have not paid yet, the adverts cannot have influenced you.",
+            "zh": "你尚未付款，所以廣告不可能影響你。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有前後想法變化，但尚未完成購買；回應保持審慎。"
+      },
+      "speaking": {
+        "en": "Nora was swayed by advertisements and considered new headphones, although her old pair still worked.",
+        "zh": "諾拉受廣告左右，開始考慮新耳機，雖然舊耳機仍能運作。",
+        "promptZh": "先聽示範，再說出廣告改變了哪項打算。",
+        "targetSpan": {
+          "start": 9,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一家人原本想在家看電影，後來看到幾則水族館宣傳，改為計劃周末去參觀，但尚未訂票。用一至兩句英文描述宣傳如何影響他們，避免說已經成行。",
+        "selfCheckZh": "指出原本在家看電影、看到水族館宣傳後改變周末計劃，以及仍未訂票；不要把計劃寫成已完成參觀。",
+        "examples": [
+          {
+            "en": "The family had planned a film at home but were swayed by advertisements for the aquarium and began planning a weekend visit; they had not booked tickets.",
+            "zh": "一家人原本打算在家看電影，卻受水族館廣告影響，開始計劃周末參觀；他們尚未訂票。"
+          },
+          {
+            "en": "They were swayed by advertisements for the aquarium and considered visiting instead of watching a film at home, although no tickets had been bought.",
+            "zh": "他們受水族館廣告左右，考慮以參觀代替在家看電影；但尚未買票。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "film at home",
+            "zh": "在家看電影",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 37
+            }
+          },
+          {
+            "en": "aquarium",
+            "zh": "水族館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 88
+            }
+          },
+          {
+            "en": "weekend visit",
+            "zh": "周末參觀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 123
+            }
+          },
+          {
+            "en": "visiting instead",
+            "zh": "改為參觀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 83
+            }
+          },
+          {
+            "en": "tickets had been bought",
+            "zh": "已買票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 147
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She was swayed by advertisements and added the museum to her weekend plans.",
+          "zh": "她受廣告影響，把博物館加入周末計劃。"
+        },
+        {
+          "en": "Seeing one advert does not prove a customer was swayed by advertisements.",
+          "zh": "看到一則廣告，並不能證明顧客受廣告左右。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

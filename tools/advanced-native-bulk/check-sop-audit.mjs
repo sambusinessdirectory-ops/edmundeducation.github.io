@@ -9,6 +9,10 @@ const report = JSON.parse(execFileSync(process.execPath, [resolve(root, 'tools/a
   cwd: root,
   encoding: 'utf8',
 }));
+const holdCoverage = JSON.parse(execFileSync(process.execPath, [resolve(root, 'tools/advanced-native-bulk/audit-hold-coverage.mjs')], {
+  cwd: root,
+  encoding: 'utf8',
+}));
 
 const errors = [];
 const expect = (condition, message) => { if (!condition) errors.push(message); };
@@ -23,6 +27,8 @@ expect(steps.length === 20, `Expected 20 production steps, found ${steps.length}
 expect(chapters.length === 30, `Expected 30 chapter crosswalks, found ${chapters.length}`);
 expect(audit.includes('**Release verdict: NOT APPROVED.**'), 'Audit must retain NOT APPROVED until every release gate passes');
 expect(report.published === false && report.releaseApproved === false, 'Draft verifier unexpectedly reports publication or approval');
+expect(holdCoverage.errorCount === 0 && holdCoverage.unauditedCurrentHolds === 0, 'Current editorial holds lack independent audit coverage');
+expect(holdCoverage.currentHolds === report.provisionalEditorialTriage['hold-editorial'], 'Hold audit and decision counts disagree');
 
 for (const [label, value] of [
   ['source rows', report.intakeRows],
@@ -38,6 +44,18 @@ for (const [label, value] of [
   expect(scope.includes(formatted(value)), `Scope is missing current ${label} count ${formatted(value)}`);
 }
 expect(scope.includes(report.projectedDisplayRange), `Scope is missing display range ${report.projectedDisplayRange}`);
+
+const triage = report.provisionalEditorialTriage;
+const expectText = (section, text, message) => expect(section.includes(text), message);
+expectText(scope, `- New document: ${formatted(report.intakeRows)} source rows`, 'Source-row total is stale in the scope bullet');
+expectText(scope, `- Draft set: ${report.pilotDrafts} independently AI-reviewed`, 'Selected draft total is stale in the scope bullet');
+expectText(scope, `${formatted(report.pilotDrafts * 7)} steps, ${report.pilotQuestions} assessed questions, ${report.pilotDrafts * 2} writing examples and ${report.pilotAudioRequests} required audio roles`, 'Draft component totals are stale in the scope bullet');
+expectText(scope, `${triage['proposed-new-lesson']} proposed new lessons, ${triage['proposed-alias-existing']} proposed aliases to existing lessons, ${triage['proposed-alias-new']} proposed aliases within this document, and ${triage['hold-editorial']} wording`, 'Provisional triage counts are stale in the scope bullet');
+expectText(scope, `${holdCoverage.provisionallyReclassified} of the earlier ${holdCoverage.originallyAuditedHolds} holds were provisionally reclassified`, 'Editorial-hold reclassification count is stale');
+expectText(scope, `The remaining ${holdCoverage.currentHolds} are still tracked`, 'Remaining editorial-hold count is stale');
+expectText(scope, `All ${triage['proposed-alias-existing']} existing-owner links match full source sentences. Of ${triage['proposed-alias-new']} new-owner links`, 'Alias-owner counts are stale in the scope bullet');
+expectText(audit, `Existing-owner alias audit reports ${triage['proposed-alias-existing']}/${triage['proposed-alias-existing']} full-source detector matches`, 'Existing-owner audit count is stale');
+expectText(audit, `${formatted(report.existingCanonical - 10 + report.pilotDrafts)} authored records, 0 schema errors`, 'Combined imported-plus-draft record count is stale');
 
 if (errors.length) {
   for (const error of errors) console.error(error);

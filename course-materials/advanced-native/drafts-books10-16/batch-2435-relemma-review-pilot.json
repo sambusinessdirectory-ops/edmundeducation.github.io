@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-relemma-2435-draft-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-2435",
+      "number": 2435,
+      "inventoryId": "expr-2435",
+      "titleEn": "a never-ending chore",
+      "titleZh": "沒完沒了的苦差",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:(?:a|another)\\s+)?never-ending chores?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An unwelcome task that continues, recurs, or seems as though it will never be finished.",
+        "meaningZh": "持續或反覆出現、令人厭煩，感覺總也做不完的工作。",
+        "grammar": "a never-ending chore; never-ending chores; became/felt like a never-ending chore.",
+        "register": "Mildly informal and exasperated, with deliberate figurative exaggeration: a volunteer, colleague or housemate describes repetitive unwanted work to a teammate or friend; never-ending need not mean literally infinite.",
+        "boundaryZh": "必須有「做完一部分又有下一部分」或似乎沒有終點的感覺；只做一次而且已完成的長工作，不適合。",
+        "misconceptionZh": "不是所有不喜歡的工作都是 never-ending chore；還需要持續、反覆或看不到完成的一面。",
+        "outcomeZh": "能區分「不喜歡做」與「感覺永遠做不完」，並在後者情境使用 a never-ending chore。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0324",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 29,
+          "book": 10,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "56–59",
+          "locatorNote": "DOCX table 24, row 15; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Sorting receipts became a never-ending chore.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "never-ending chore"
+        }
+      ],
+      "listening": {
+        "en": "Every Monday, Nora worked through the maintenance forms. New requests arrived before she finished the last pile, and by Friday it felt like a never-ending chore.",
+        "zh": "每逢星期一，Nora 都要逐份處理維修表格。她還未清完上一疊，新申請就來了；到星期五，她覺得這成了沒完沒了的苦差。",
+        "promptZh": "Nora 說這是 a never-ending chore，語氣主要表達甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is tired of a repeated task that seems to have no clear endpoint.",
+            "zh": "她厭倦了反覆出現、似乎沒有明確終點的工作。"
+          },
+          {
+            "id": "b",
+            "en": "She is pleased that each new request gives her more practice.",
+            "zh": "她很高興每次新申請都讓她多練習。"
+          },
+          {
+            "id": "c",
+            "en": "She knows with certainty that maintenance forms will arrive forever.",
+            "zh": "她確定維修表格在字面上會永遠送來。"
+          },
+          {
+            "id": "d",
+            "en": "She mainly wants to say that one form is unusually difficult.",
+            "zh": "她主要想說有一份表格特別難處理。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這是帶有厭煩的誇張說法：新申請不斷來，令工作像是做不完；並非聲稱它真的永遠持續。"
+      },
+      "reply": {
+        "promptEn": "Why does sorting the donation forms wear you out?",
+        "promptZh": "（整理捐款表格為何令你疲倦？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "New forms arrive as soon as I finish the last pile.",
+            "zh": "我剛處理完上一疊，新表格就到了。"
+          },
+          {
+            "id": "b",
+            "en": "I have to repeat the same checks every morning.",
+            "zh": "我每天早上都要重複同一套檢查。"
+          },
+          {
+            "id": "c",
+            "en": "It has become a never-ending chore.",
+            "zh": "它已變成沒完沒了的苦差。"
+          },
+          {
+            "id": "d",
+            "en": "There never seems to be a final batch.",
+            "zh": "看來總沒有最後一批。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明疲倦原因；金句概括工作反覆湧來、似乎沒有終點的感覺。"
+      },
+      "scene": {
+        "promptZh": "圖書館義工喜歡每週整理新書，卻厭煩每天反覆核對退回書籍的破損紀錄；剛處理完一批，下一批又到。哪句最貼切地說出令她厭煩的工作？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Checking the damage records has become a never-ending chore.",
+            "zh": "核對破損紀錄已變成沒完沒了的苦差。"
+          },
+          {
+            "id": "b",
+            "en": "Reshelving new books has become a never-ending chore.",
+            "zh": "整理新書已變成沒完沒了的苦差。"
+          },
+          {
+            "id": "c",
+            "en": "She completed a one-day damage audit and felt relieved it was over.",
+            "zh": "她完成了一天的破損紀錄檢查，對工作終於結束感到鬆一口氣。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新書整理雖然反覆，卻是她喜歡的事；令她厭煩而又不斷出現的是核對破損紀錄。"
+      },
+      "contrast": {
+        "promptZh": "哪句最能保留 a never-ending chore 的誇張語氣，而不是把 never-ending 當成字面上的「永遠」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The weekly forms feel endless, even though we know the project will finish in June.",
+            "zh": "每週的表格工作令人覺得沒完沒了，儘管我們知道項目六月就會結束。"
+          },
+          {
+            "id": "b",
+            "en": "The forms will literally continue for an infinite number of years.",
+            "zh": "這些表格在字面上會無限期持續下去。"
+          },
+          {
+            "id": "c",
+            "en": "We finished the only form yesterday, and there will be no more.",
+            "zh": "唯一一份表格昨天已處理完，以後不會再有。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "這個表達說的是工作令人覺得總也做不完，可以是誇張說法；即使知道項目有結束日期，仍可如此描述當下感受。"
+      },
+      "dialogue": {
+        "promptZh": "Alex 說：「我今天清完電郵，明天又有一批；我一打開收件匣就覺得煩。」哪個回應最能先接住他的感受，而不是立即轉去給建議？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds like a never-ending chore when the queue fills again each morning.",
+            "zh": "每天早上又有新郵件排隊，聽起來真是沒完沒了的苦差。"
+          },
+          {
+            "id": "b",
+            "en": "Try taking a break after each batch; that may help you concentrate.",
+            "zh": "每處理完一批就休息一下，可能有助你集中精神。"
+          },
+          {
+            "id": "c",
+            "en": "You could sort the messages by subject before you answer them.",
+            "zh": "你可以先按主題分類郵件，再逐一回覆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "Alex 在訴說厭煩；金句先理解他覺得工作無休止的感受，另外兩句太快轉到方法建議。"
+      },
+      "speaking": {
+        "en": "When I call the daily expense checks a never-ending chore, I mean each new claim creates another round of work.",
+        "zh": "我說每天核對開支是沒完沒了的苦差，是因為每宗新申請又帶來下一輪工作。",
+        "promptZh": "先聽完整示範，再用英文說明這是帶誇張語氣的感受，不是聲稱工作真的永遠持續。",
+        "targetSpan": {
+          "start": 37,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區菜園的義工每逢下雨後都要除草，剛整理完一區，下一週又有新雜草長出；他們已覺得厭煩。用一至兩句英文描述感受，並提出一項實際的分工或休息安排。",
+        "selfCheckZh": "說明工作令人厭煩、雜草反覆長出，並提出一項實際安排；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "Weeding the shared beds became a never-ending chore because fresh weeds returned after every rain, so we set up a weekly rota.",
+            "zh": "為共用種植區除草成了沒完沒了的苦差，因為每次下雨後又有新雜草長出，所以我們訂了每週輪值表。"
+          },
+          {
+            "en": "By the end of each week, the volunteers faced another patch of weeds, so the work felt like a never-ending chore; they planned shorter shifts.",
+            "zh": "每到週末，義工又要面對另一片雜草，因此這項工作令人覺得沒完沒了；他們於是安排較短的更次。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the shared beds",
+            "zh": "共用種植區",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 23
+            }
+          },
+          {
+            "en": "fresh weeds",
+            "zh": "新雜草",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 71
+            }
+          },
+          {
+            "en": "a weekly rota",
+            "zh": "每週輪值表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 125
+            }
+          },
+          {
+            "en": "the volunteers",
+            "zh": "義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 39
+            }
+          },
+          {
+            "en": "another patch of weeds",
+            "zh": "另一片雜草",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 68
+            }
+          },
+          {
+            "en": "shorter shifts",
+            "zh": "較短的更次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 141
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A task feels like a never-ending chore when new work arrives before the last round is done.",
+          "zh": "一輪工作未完，新一輪又到，事情便令人覺得沒完沒了。"
+        },
+        {
+          "en": "Sorting the weekly returns became a never-ending chore, not just a long afternoon job.",
+          "zh": "每週整理退貨變成沒完沒了的苦差，而不只是某個下午的長工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA reviews remain pending.",
+          "The source example is guide-written provenance, not a learner-facing model copied into practice. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 4
+    }
+  ]
+}
