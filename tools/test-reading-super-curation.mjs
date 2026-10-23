@@ -32,6 +32,7 @@ assert.match(data.questions[20].units[0].answer,/A good example/);assert.match(d
 const clean=cleanProgress({...emptyProgress(data),current:'unknown',done:['q1-attempt','bad','q1-attempt'],drafts:{1:'hello',99:'drop'},preferences:{spotlight:'true'}},data,steps);
 assert.deepEqual(clean.done,['q1-attempt']);assert.deepEqual(clean.drafts,{'1':'hello'});assert.equal(clean.current,'welcome');assert.equal(clean.preferences.spotlight,false);
 assert.throws(()=>cleanProgress({version:'bad'},data,steps));
+const answerRestore=cleanProgress({...emptyProgress(data),answers:{q2:'unfortunately',q20_i:'invalid option',q999:'drop'}},data,steps,article);assert.deepEqual(answerRestore.answers,{q2:'unfortunately'});
 assert.equal(markedText('<script>',[]),'&lt;script&gt;');assert.equal(JSON.stringify(article),sourceBefore);
 console.log(`Data QA: ${steps.length} steps; 62 complete reading units; 44 answer units; 74 exact evidence spans; 287 original analysis pages; both Q21 routes.`);
 if(process.argv.includes('--data-only'))process.exit(0);
@@ -42,24 +43,62 @@ const fixture=`<!doctype html><html lang="zh-Hant"><meta name="viewport" content
 const server=createServer(async(req,res)=>{try{const path=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(path==='/__curation-test'){res.setHeader('Content-Type','text/html');res.end(fixture);return;}const file=resolve(root,'.'+path);if(!file.startsWith(root+'/')){res.writeHead(403).end();return;}const bytes=await readFile(file);res.setHeader('Content-Type',types[extname(file)]||'application/octet-stream');res.end(bytes);}catch{res.writeHead(404).end();}});
 await new Promise(r=>server.listen(0,'127.0.0.1',r));const base=`http://127.0.0.1:${server.address().port}`;
 const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
-const goto=async(id)=>{await page.locator('.rc [data-rc-action=jump]').click();await page.locator(`.rc-modal [data-id="${id}"]`).click();};
+const goto=async(id)=>{await page.locator('.rc [data-rc-action=jump]').click();await page.locator(`.rc-modal .rc-jump-item[data-id="${id}"]`).click();};
 try{
   await page.goto(base+'/__curation-test');await page.waitForFunction(()=>window.ready);await page.locator('#launch').click();
   assert.equal(await page.locator('.rc').getAttribute('open'),'');
   await page.screenshot({path:'/private/tmp/reading-curation-desktop-welcome.png'});
-  await goto('q1-attempt');assert.equal(await page.locator('.rc-evidence-card').count(),0);assert.equal(await page.locator('.rc-source .rc-original-question').count(),1);
+  // Every original field is rendered exactly once, in the same table cells and control type.
+  for(const q of article.questions){
+    await goto(`q${q.number}-attempt`);
+    const fields=q.parts?.length?q.parts:[q];
+    for(const part of fields){
+      const key=`q${q.number}${part.key?'_'+part.key:''}`,control=page.locator(`.rc-guide [data-answer-part="${key}"]`);
+      const count=['choice','multiple'].includes(part.type)?part.options.length:1;
+      assert.equal(await control.count(),count,`Q${q.number} ${key} control count`);
+      assert.equal(await control.first().evaluate(e=>e.tagName),part.type==='select'?'SELECT':part.type==='textarea'?'TEXTAREA':'INPUT');
+      if(part.inTable)assert.ok(await control.first().evaluate(e=>Boolean(e.closest('td'))));
+    }
+    assert.equal(await page.locator('.rc-source .rc-paragraph').count(),16);
+  }
+  await goto('q20-attempt');await page.locator('.rc-guide select[data-answer-part="q20_i"]').selectOption({index:1});
+  const selectedAnswer=await page.locator('.rc-guide [data-answer-part="q20_i"]').inputValue();
+  await page.locator('.rc-guide [data-answer-part="q20_i"]').scrollIntoViewIfNeeded();await page.screenshot({path:'/private/tmp/reading-curation-question-table.png'});
+  await page.locator('.rc [data-rc-action=next]').click();assert.equal(await page.locator('.rc-modal[open]').count(),0,'An actual answer satisfies the initial attempt');
+  await goto('q20-attempt');assert.equal(await page.locator('.rc-guide [data-answer-part="q20_i"]').inputValue(),selectedAnswer);
+  for(const stage of [2,3,4]){
+    const last=steps.filter(s=>s.stage===stage&&s.question===1).at(-1);await goto(last.id);
+    assert.equal(await page.locator('.rc-nav [data-rc-action=next]').innerText(),'進入下一題 →');
+    assert.ok(await page.locator('.rc-nav [data-rc-action=next]').evaluate(e=>e.classList.contains('rc-next-question')));
+    if(stage===2)await page.screenshot({path:'/private/tmp/reading-curation-next-question.png'});
+    await page.locator('.rc-nav [data-rc-action=next]').click();assert.match(await page.locator('.rc-position').innerText(),/Q2$/);
+    await page.locator('.rc-nav [data-rc-action=prev]').click();assert.match(await page.locator('.rc-position').innerText(),/Q1$/);
+  }
+  await goto('q22-transfer');assert.match(await page.locator('.rc-nav [data-rc-action=next]').innerText(),/進入解說精讀/);
+  await page.locator('.rc [data-rc-action=jump]').click();assert.equal(await page.locator('.rc-question-grid button').count(),22);await page.screenshot({path:'/private/tmp/reading-curation-question-picker.png'});
+  await page.locator('[data-rc-question-filter]').selectOption('1');
+  assert.ok((await page.locator('.rc-jump-item').allTextContents()).every(t=>/Q1(?:[^0-9]|$)/.test(t)),'Exact question filtering excludes Q10–Q19');
+  await page.locator('[data-rc-question-stages] [data-id="q1-history-answer"]').click();assert.match(await page.locator('.rc-position').innerText(),/答案回證.*Q1/);
+  await goto('q1-history-reason');
+  assert.ok(await page.locator('[data-rc-teaching] br[data-rc-break]').count()>0);
+  assert.equal(await page.locator('[data-rc-teaching] .rc-callout').textContent(),data.questions[0].units[0].why,'Presentation line breaks preserve all text');
+  await goto('analysis-35');assert.ok(await page.locator('.deep-source-body br[data-rc-break]').count()>0);
+  await goto('q1-attempt');assert.equal(await page.locator('.rc-evidence-card').count(),0);assert.equal(await page.locator('.rc-guide .rc-original-question').count(),1);
   await page.locator('.rc [data-rc-action=next]').click();await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await page.locator('[data-rc-draft]').fill('My initial reasoning: compare history, not length.');
   await page.locator('.rc [data-rc-action=next]').click();assert.equal(await page.locator('.rc-evidence-card').count(),1);
   assert.ok((await page.locator('.rc-source .rc-active').textContent()).length>5);
   await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('.rc-evidence-card').count(),0);assert.equal(await page.locator('[data-rc-draft]').inputValue(),'My initial reasoning: compare history, not length.');
   await goto('q6-if-reason');await page.screenshot({path:'/private/tmp/reading-curation-desktop-evidence.png'});
-  const sourceBeforeVisit=await page.locator('.rc-source-scroll').evaluate(e=>e.scrollTop);
-  await page.locator('.rc-evidence-card').first().click();assert.equal(await page.locator('.rc-modal[data-kind=source]').count(),1);
-  const before=await page.locator('.rc-modal').boundingBox();await page.locator('.rc-modal>header').focus();await page.keyboard.press('ArrowRight');const after=await page.locator('.rc-modal').boundingBox();assert.ok(after.x>before.x);
-  await page.locator('.rc-resize-se').focus();await page.keyboard.press('ArrowLeft');const smaller=await page.locator('.rc-modal').boundingBox();assert.ok(smaller.width<after.width);
-  await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();assert.equal(await page.locator('.rc-source-scroll').evaluate(e=>e.scrollTop),sourceBeforeVisit);
-  await page.setViewportSize({width:390,height:844});await page.locator('[data-tab=source]').click();
+  await page.locator('.rc-evidence-card').first().click();assert.equal(await page.locator('.rc-modal[open]').count(),0,'Visible sources are focused in place');
+  assert.equal(await page.locator('.rc-route').count(),0);
+  await page.locator('[data-rc-pref=spotlight]').check();
+  assert.equal(await page.locator('.rc-source .rc-dim').count(),15);
+  assert.equal(await page.locator('.rc-source [data-paragraph="4"]').evaluate(e=>e.classList.contains('rc-dim')),false);
+  assert.equal(await page.locator('.rc-dim').first().evaluate(e=>getComputedStyle(e,'::after').backgroundColor),'rgba(0, 0, 0, 0.88)');
+  await page.screenshot({path:'/private/tmp/reading-curation-black-spotlight.png'});
+  await page.locator('[data-rc-pref=spotlight]').uncheck();
+  await page.setViewportSize({width:390,height:844});await page.locator('button[data-tab=source]').click();
   assert.ok(await page.locator('.rc-source-scroll').evaluate(p=>Math.abs(p.querySelector('[data-paragraph="4"]').getBoundingClientRect().top-p.getBoundingClientRect().top-12)<3),'Viewport reflow keeps the current source in view');
   await page.setViewportSize({width:1440,height:1000});
   await goto('q6-if-trap-0');assert.ok(await page.locator('[data-rc-teaching] .rc-rejected').isVisible());
@@ -67,6 +106,10 @@ try{
   await goto('q21-good-answer');assert.match(await page.locator('.rc-answer').innerText(),/A good example/);
   await goto('q21-not-good-answer');assert.match(await page.locator('.rc-answer').innerText(),/Not a good example/);
   await goto('analysis-173');assert.match(await page.locator('.rc-original-analysis').innerText(),/speech verb/);await page.screenshot({path:'/private/tmp/reading-curation-original-analysis.png'});
+  await page.locator('.rc-evidence-card').first().click();assert.equal(await page.locator('.rc-modal[data-kind=source][open]').count(),1,'Analysis pages still offer the source where it is not already visible');
+  const before=await page.locator('.rc-modal').boundingBox();await page.locator('.rc-modal>header').focus();await page.keyboard.press('ArrowRight');const after=await page.locator('.rc-modal').boundingBox();assert.ok(after.x>before.x);
+  await page.locator('.rc-resize-se').focus();await page.keyboard.press('ArrowLeft');assert.ok((await page.locator('.rc-modal').boundingBox()).width<after.width);
+  await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await page.locator('.rc [data-rc-action=reference]').first().click();assert.equal(await page.locator('.rc-page-link').count(),51);await page.locator('.rc-modal [data-page="173"]').click();assert.match(await page.locator('.rc-modal .deep-source-body').innerText(),/speech verb/);await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await goto('q21-not-good-verify-0');assert.ok(await page.locator('.rc-used').count()>0);await page.locator('.rc [data-rc-action=prev]').click();assert.equal(await page.locator('.rc-used[data-evidence-ids~="q21-not-good-e1"]').count(),0);
   await page.locator('.rc [data-rc-action=bookmark]').click();await page.locator('.rc [data-rc-action=done]').click();
@@ -75,20 +118,20 @@ try{
   await page.locator('.rc [data-rc-action=storage]').click();await page.locator('.rc-modal [data-rc-action=save-slot][data-slot="1"]').click();await page.locator('.rc-modal [data-rc-action=confirm-save-slot]').click();await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   await goto('q1-attempt');assert.equal(await page.locator('[data-rc-draft]').inputValue(),'My initial reasoning: compare history, not length.');
   await page.locator('.rc [data-rc-action=storage]').click();await page.locator('.rc-modal [data-rc-action=load-slot][data-slot="1"]').click();await page.locator('.rc-modal [data-rc-action=restore]').click();assert.match(await page.locator('.rc-position').innerText(),/Q21/);
-  await page.locator('.rc [data-rc-action=storage]').click();const downloading=page.waitForEvent('download');await page.locator('.rc-modal [data-rc-action=export]').click();const download=await downloading;const exported=JSON.parse(await readFile(await download.path(),'utf8'));assert.equal(exported.articleId,'dse-2023-a');assert.equal(exported.drafts['1'],'My initial reasoning: compare history, not length.');assert.ok(!JSON.stringify(exported).includes('test-only'));
+  await page.locator('.rc [data-rc-action=storage]').click();const downloading=page.waitForEvent('download');await page.locator('.rc-modal [data-rc-action=export]').click();const download=await downloading;const exported=JSON.parse(await readFile(await download.path(),'utf8'));assert.equal(exported.articleId,'dse-2023-a');assert.equal(exported.answers.q20_i,selectedAnswer);assert.equal(exported.drafts['1'],'My initial reasoning: compare history, not length.');assert.ok(!JSON.stringify(exported).includes('test-only'));
   await page.locator('[data-rc-import]').setInputFiles({name:'valid.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(exported))});await page.locator('.rc-modal [data-rc-action=restore]').click();assert.match(await page.locator('.rc-position').innerText(),/Q21/);
   // Malformed and incompatible imports must preserve current work.
   const savedBefore=await page.evaluate(()=>localStorage.getItem('edmund-reading-super:2023-a-super-curation-v1:qa-test'));
   await page.locator('.rc [data-rc-action=storage]').click();await page.locator('[data-rc-import]').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{bad')});await page.getByRole('heading',{name:'無法匯入這份進度'}).waitFor();assert.match(await page.locator('.rc-modal').innerText(),/現有進度沒有變更/);assert.equal(await page.evaluate(()=>localStorage.getItem('edmund-reading-super:2023-a-super-curation-v1:qa-test')),savedBefore);await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();
   for(const width of [1100,768,390,720]){
     await page.setViewportSize({width,height:width===720?450:900});await goto('q13-audience-reason');
-    if(width<=900)await page.locator('[data-tab=source]').click();
+    if(width<=900)await page.locator('button[data-tab=source]').click();
     assert.ok(await page.locator('.rc-source').isVisible());
     const alignment=await page.locator('.rc-source-scroll').evaluate(p=>{const t=p.querySelector('[data-paragraph="10"]');return t.getBoundingClientRect().top-p.getBoundingClientRect().top;});assert.ok(Math.abs(alignment-12)<3,`Current paragraph is in view at ${width}: ${alignment}`);
     assert.ok(await page.locator('.rc').evaluate(e=>e.scrollWidth<=e.clientWidth+1),`No viewport overflow at ${width}`);
     assert.ok(await page.locator('.rc-source').evaluate(e=>e.scrollWidth<=e.clientWidth+1),`Source fits at ${width}`);
     await page.screenshot({path:`/private/tmp/reading-curation-${width}.png`});
-    if(width<=900){await page.locator('[data-tab=bank]').click();await page.locator('.rc-evidence-card').first().click();const box=await page.locator('.rc-modal').boundingBox();assert.ok(box.x>=0&&box.x+box.width<=width+1);await page.locator('.rc-modal>header [data-rc-action=dismiss]').click();await page.locator('[data-tab=guide]').click();}
+    if(width<=900){await page.locator('button[data-tab=bank]').click();await page.locator('.rc-evidence-card').first().click();assert.ok(await page.locator('.rc-source').isVisible());assert.equal(await page.locator('.rc-modal[open]').count(),0);await page.locator('button[data-tab=guide]').click();}
   }
   // A failed local write is reported and never blocks navigation.
   await page.evaluate(()=>{Storage.prototype.setItem=function(){throw new DOMException('blocked','QuotaExceededError');};});
@@ -107,7 +150,7 @@ try{
   await app.locator('.rc[open]').waitFor({timeout:20000});
   await app.screenshot({path:'/private/tmp/reading-curation-integrated.png'});
   await app.locator('.rc [data-rc-action=close]').click();assert.ok(await app.locator('[data-reading-super-entry]').isVisible());assert.ok(!app.url().includes('curation=1'));
-  await app.locator('[name=q2]').fill('unfortunately');await app.locator('[data-reading-super-open]').click();await app.locator('.rc[open]').waitFor();await app.locator('.rc [data-rc-action=close]').click();assert.equal(await app.locator('[name=q2]').inputValue(),'unfortunately');
+  await app.locator('[name=q2]').fill('unfortunately');await app.locator('[name=q1_i]').first().check();await app.locator('[data-reading-super-open]').click();await app.locator('.rc[open]').waitFor();await app.locator('.rc [data-rc-action=jump]').click();await app.locator('.rc-question-grid [data-id="q1-attempt"]').click();await app.locator('.rc-guide [data-answer-part="q1_i"]').nth(1).check();await app.locator('.rc [data-rc-action=close]').click();assert.equal(await app.locator('[name=q2]').inputValue(),'unfortunately');assert.ok(await app.locator('[name=q1_i]').first().isChecked(),'Curation radio choices cannot change exam answers');
   await app.locator('[data-deep-analysis="2"]').click();await app.locator('.deep-reader[open]').waitFor();assert.match(await app.locator('.deep-comparison').innerText(),/unfortunately/);await app.keyboard.press('Escape');
   await app.goto(base+'/reading-comprehension.html?view=dse&year=2024&section=A&article=dse-2024-a');await app.locator('[data-question="1"]').waitFor();assert.ok(await app.locator('[data-reading-super-entry]').isHidden());assert.equal(await app.locator('.rc').count(),0);
   await integrated.close();

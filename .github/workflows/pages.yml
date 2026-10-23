@@ -244,6 +244,7 @@ jobs:
         run: |
           node --check reading-comprehension.js
           node --check reading-super-curation.mjs
+          node --check reading-question-controls.mjs
           node tools/test-reading-super-curation.mjs --data-only
           node tools/test-dse-native-paper-view.mjs
           node tools/test-dse-reading-question-audit.mjs

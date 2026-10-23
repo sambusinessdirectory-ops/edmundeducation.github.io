@@ -41,9 +41,9 @@ export function buildCourse(data, article, analysis) {
   return ordered;
 }
 export function emptyProgress(data) {
-  return {version:data.version,articleId:data.articleId,current:'welcome',done:[],bookmarks:[],drafts:{},checks:[],preferences:{spotlight:false,large:false,bilingual:false},updatedAt:null};
+  return {version:data.version,articleId:data.articleId,current:'welcome',done:[],bookmarks:[],drafts:{},answers:{},checks:[],preferences:{spotlight:false,large:false,bilingual:false},updatedAt:null};
 }
-export function cleanProgress(raw,data,steps) {
+export function cleanProgress(raw,data,steps,article) {
   if (!raw || raw.version !== data.version || raw.articleId !== data.articleId) throw new Error('這份進度不屬於目前教材版本，未有取代現有進度。');
   const ids = new Set(steps.map(s=>s.id));
   const filter = values => Array.isArray(values) ? [...new Set(values.filter(x=>typeof x==='string' && ids.has(x)))].slice(0,steps.length) : [];
@@ -51,6 +51,15 @@ export function cleanProgress(raw,data,steps) {
   result.current = ids.has(raw.current) ? raw.current : 'welcome';
   result.done = filter(raw.done); result.bookmarks = filter(raw.bookmarks); result.checks = filter(raw.checks);
   for (const q of data.questions) if (typeof raw.drafts?.[q.number] === 'string') result.drafts[q.number] = raw.drafts[q.number].slice(0,10000);
+  for (const q of article?.questions || []) {
+    for (const part of q.parts?.length ? q.parts : [q]) {
+      const key = `q${q.number}${part.key ? '_'+part.key : ''}`, value=raw.answers?.[key];
+      if(typeof value!=='string')continue;
+      const options=(part.options||[]).map(o=>typeof o==='string'?o:o.value);
+      if(options.length && value && !options.includes(value))continue;
+      result.answers[key]=value.slice(0,part.type==='textarea'?1200:300);
+    }
+  }
   result.preferences = {spotlight:raw.preferences?.spotlight===true,large:raw.preferences?.large===true,bilingual:raw.preferences?.bilingual===true};
   result.updatedAt = typeof raw.updatedAt === 'string' ? raw.updatedAt.slice(0,40) : null;
   return result;
