@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2724-2744-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2739",
+      "number": 2739,
+      "inventoryId": "expr-2739",
+      "titleEn": "money-making machine",
+      "titleZh": "不斷生財的機器",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the)\\s+money[- ]making\\s+machine\\b|\\bmoney[- ]making\\s+machines\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A business or product repeatedly generating substantial revenue, likened to a machine.",
+        "meaningZh": "持續帶來可觀收入的業務或產品，比喻為不停運作的機器。",
+        "grammar": "Count noun phrase a money-making machine, with money-making modifying machine; became/is/turned into a money-making machine. The image describes repeated revenue, not literal equipment.",
+        "register": "Informal business commentary: an arts reporter tells an editor that a licensing franchise earns repeatedly, while distinguishing revenue from the creators’ own income.",
+        "boundaryZh": "收入反覆流入某業務，不代表所有參與者都賺得多，也不代表作品藝術上好或壞。",
+        "misconceptionZh": "不是會印鈔的實體機器；一次賣得好亦不足以證明持續生財。",
+        "outcomeZh": "能指出反覆收入從何而來，以及收益落在哪個機構而非隨意歸給所有人。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0628",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The franchise became a money-making machine.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "money-making machine"
+        }
+      ],
+      "listening": {
+        "en": "The game publisher sold new character packs every month for years. Those recurring sales turned the franchise into a money-making machine, although the illustrators’ fees stayed fixed.",
+        "zh": "遊戲發行商多年來每月都賣新角色組合。這些反覆銷售令系列成為不斷生財的機器，但插畫師的酬勞仍固定不變。",
+        "promptZh": "為何稱這個系列為 money-making machine？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The publisher earns repeated revenue from regular sales.",
+            "zh": "發行商透過定期銷售反覆取得收入。"
+          },
+          {
+            "id": "b",
+            "en": "Every artist owns a machine that prints cash.",
+            "zh": "每名美術師都擁有一部印鈔機。"
+          },
+          {
+            "id": "c",
+            "en": "The artists’ fees rise automatically every month.",
+            "zh": "美術師的酬勞每月自動增加。"
+          },
+          {
+            "id": "d",
+            "en": "The publisher made one sale and then stopped selling packs.",
+            "zh": "發行商賣出一次後便停止出售組合。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每月售賣組合帶來持續收入；題目明說美術師酬勞仍固定。"
+      },
+      "reply": {
+        "promptEn": "Why do investors call the puzzle-app franchise profitable? Subscribers renew monthly, and the publisher sells expansion packs each season; the designers receive fixed contracts.",
+        "promptZh": "（投資者為何認為這個解謎程式系列賺錢？訂戶每月續訂，發行商每季賣擴充包；設計師按固定合約收費。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Renewals give the publisher income month after month.",
+            "zh": "續訂令發行商逐月取得收入。"
+          },
+          {
+            "id": "b",
+            "en": "Seasonal expansion packs add another regular revenue stream.",
+            "zh": "每季擴充包帶來另一項定期收入。"
+          },
+          {
+            "id": "c",
+            "en": "The franchise has become a money-making machine for the publisher.",
+            "zh": "對發行商而言，這系列已成為不斷生財的機器。"
+          },
+          {
+            "id": "d",
+            "en": "Fixed designer contracts do not mean designers receive each new sale’s proceeds.",
+            "zh": "設計師按固定合約收費，不代表他們可分得每筆新銷售收入。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據反覆續訂、擴充包及固定合約；金句概括發行商持續收入。"
+      },
+      "scene": {
+        "promptZh": "一個博物館把熱門展覽的數碼導覽改成每月訂閱，三年來持續有大量續訂；導覽員仍按原合約領薪。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The digital guide has become a money-making machine for the museum.",
+            "zh": "這項數碼導覽已成為博物館不斷生財的業務。"
+          },
+          {
+            "id": "b",
+            "en": "Every guide receives all subscription revenue personally.",
+            "zh": "每位導覽員個人都取得全部訂閱收入。"
+          },
+          {
+            "id": "c",
+            "en": "The museum earned money only on the first day.",
+            "zh": "博物館只在第一天賺到錢。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年大量續訂支持「持續生財」，卻不代表導覽員直接分得收入。"
+      },
+      "contrast": {
+        "promptZh": "哪個資料最不足以支持 money-making machine？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A game earns subscription fees every month for several years.",
+            "zh": "一款遊戲多年來每月收取訂閱費。"
+          },
+          {
+            "id": "b",
+            "en": "A stall sells one expensive painting once and then closes permanently.",
+            "zh": "一個攤位售出一幅昂貴畫作後便永久結業。"
+          },
+          {
+            "id": "c",
+            "en": "A franchise licenses its characters to new shops each season.",
+            "zh": "一個系列每季授權新店使用角色。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "單次高價交易沒有反覆收入，不足以稱為持續生財的機器。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這個兒童節目每年都推出新授權商品，製作公司持續收款，但演員只收原合約費。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds like a money-making machine for the company, though that does not show the actors share each sale.",
+            "zh": "對公司而言，這似乎是不斷生財的業務，但不能因此推斷演員分得每筆銷售收入。"
+          },
+          {
+            "id": "b",
+            "en": "Then every actor must receive the same amount as the company.",
+            "zh": "那每名演員一定與公司收入相同。"
+          },
+          {
+            "id": "c",
+            "en": "A recurring licence can only produce one payment ever.",
+            "zh": "反覆授權只能帶來一筆款項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重複授權收入與演員固定酬勞是兩回事。"
+      },
+      "speaking": {
+        "en": "The yearly licence renewals have made the character brand a money-making machine for its owner.",
+        "zh": "每年續期的授權令這個角色品牌成為持有人不斷生財的業務。",
+        "promptZh": "先聽示範，再指出哪項收入反覆出現，以及誰收取收入。",
+        "targetSpan": {
+          "start": 58,
+          "end": 80
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間出版社多年來每季售出同一學習平台的新練習包，收入持續增加；插畫師按固定項目費收款。用一至兩句英文描述平台的收入模式，並避免推斷插畫師也分得每筆銷售收入。",
+        "selfCheckZh": "指出每季銷售與出版社的持續收入，以及插畫師固定收費的界線。",
+        "examples": [
+          {
+            "en": "Quarterly exercise packs have made the platform a money-making machine for the publisher, while illustrators receive fixed project fees.",
+            "zh": "每季推出的練習包令平台成為出版社不斷生財的業務，而插畫師只收固定項目費。"
+          },
+          {
+            "en": "For the publisher, the learning platform is a money-making machine because new packs sell each season; that does not mean illustrators share every sale.",
+            "zh": "對出版社而言，學習平台是不斷生財的業務，因為每季都有新練習包售出；這不代表插畫師分得每筆銷售收入。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Quarterly exercise packs",
+            "zh": "每季推出的練習包",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "the publisher",
+            "zh": "出版社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 88
+            }
+          },
+          {
+            "en": "fixed project fees",
+            "zh": "固定項目費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 135
+            }
+          },
+          {
+            "en": "new packs",
+            "zh": "新練習包",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 84
+            }
+          },
+          {
+            "en": "share every sale",
+            "zh": "分得每筆銷售收入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A money-making machine earns repeatedly; one successful sale alone is not enough.",
+          "zh": "不斷生財的業務有反覆收入；單次成功銷售並不足夠。"
+        },
+        {
+          "en": "Calling a franchise a money-making machine does not prove every contributor receives the proceeds.",
+          "zh": "說一個系列不斷生財，不代表每位參與者都分得收益。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2741",
+      "number": 2741,
+      "inventoryId": "expr-2741",
+      "titleEn": "fade from the spotlight",
+      "titleZh": "逐漸淡出大眾焦點",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:fade|fades|faded|fading)\\s+from\\s+the\\s+spotlight\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Gradually lose public attention or prominence after being widely noticed.",
+        "meaningZh": "曾受廣泛注目，之後逐漸失去公眾關注或顯著地位。",
+        "grammar": "Pattern: person/performer fades/faded from the spotlight; fade suggests gradual change, from marks movement away from public attention.",
+        "register": "Measured entertainment commentary: a critic tells a colleague how an artist’s media coverage has decreased without judging the artist’s ability.",
+        "boundaryZh": "關注減少不等於停止創作、沒有觀眾，或能力變差。",
+        "misconceptionZh": "spotlight 不是實際舞台燈；fade 也不是一夜間突然消失。",
+        "outcomeZh": "能根據前後曝光量描述知名度逐漸下降，而不虛構其事業結果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0630",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Some performers fade from the spotlight after one hit.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fade from the spotlight"
+        }
+      ],
+      "listening": {
+        "en": "After one televised hit, the singer was interviewed constantly. Over the next five years, the interviews became rare, and she slowly faded from the spotlight while continuing to record music.",
+        "zh": "一首歌曲在電視上走紅後，這名歌手不斷接受訪問。接下來五年，訪問逐漸減少；她雖繼續錄音，卻慢慢淡出公眾焦點。",
+        "promptZh": "fade from the spotlight 指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her public attention gradually declined, although she kept recording.",
+            "zh": "雖然她繼續錄音，公眾關注卻逐漸減少。"
+          },
+          {
+            "id": "b",
+            "en": "She stopped making any music immediately after the hit.",
+            "zh": "走紅後她立刻停止製作所有音樂。"
+          },
+          {
+            "id": "c",
+            "en": "A stage lamp failed during one concert.",
+            "zh": "一場演唱會的舞台燈壞了。"
+          },
+          {
+            "id": "d",
+            "en": "Her interviews became more frequent each year.",
+            "zh": "她每年接受的訪問越來越多。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目給出五年來訪問漸少的變化，同時明說她仍錄音。"
+      },
+      "reply": {
+        "promptEn": "Why do fewer people recognise the former television host now? Her programme ended years ago, national interviews became rare, but she still hosts a small local show.",
+        "promptZh": "（為何如今較少人認得那名前電視主持？她的節目多年前結束，全國訪問逐漸減少，但仍主持一個小型地方節目。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "National exposure has decreased since her old programme ended.",
+            "zh": "舊節目結束後，她在全國的曝光減少。"
+          },
+          {
+            "id": "b",
+            "en": "Her work continues, though it reaches a smaller audience.",
+            "zh": "她仍有工作，但接觸的觀眾較少。"
+          },
+          {
+            "id": "c",
+            "en": "She has faded from the spotlight over time.",
+            "zh": "她隨時間逐漸淡出大眾焦點。"
+          },
+          {
+            "id": "d",
+            "en": "Fewer national interviews make her less visible than before.",
+            "zh": "全國訪問減少，使她不如以前受注目。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都依據多年來曝光下降且工作仍持續；金句用本課表達漸進變化。"
+      },
+      "scene": {
+        "promptZh": "一名演員十年前常上全國節目，近年逐步少受訪，但仍在小劇場演出。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The actor has faded from the spotlight but has not stopped performing.",
+            "zh": "演員已逐漸淡出大眾焦點，但並未停止演出。"
+          },
+          {
+            "id": "b",
+            "en": "The actor has never appeared before an audience.",
+            "zh": "演員從未在觀眾面前演出。"
+          },
+          {
+            "id": "c",
+            "en": "The actor’s public profile is unchanged simply because small-theatre work continues.",
+            "zh": "演員仍在小劇場演出，所以公眾關注程度完全沒有改變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "全國曝光逐年下降，與是否繼續小劇場演出是兩回事；持續工作不代表公眾關注沒有改變。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不支持 faded from the spotlight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Television interviews have become less frequent each year.",
+            "zh": "電視訪問一年比一年少。"
+          },
+          {
+            "id": "b",
+            "en": "A performer’s work receives more national coverage every month.",
+            "zh": "一名表演者的作品每月得到更多全國報道。"
+          },
+          {
+            "id": "c",
+            "en": "A once-famous host now appears mainly at small local events.",
+            "zh": "一名昔日知名主持現在主要參與本地小型活動。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "曝光持續增加，與「逐漸淡出」相反。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「她不再每週上電視，但仍在社區劇院導戲。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She may have faded from the spotlight without leaving theatre work.",
+            "zh": "她可能淡出大眾焦點，卻沒有離開劇場工作。"
+          },
+          {
+            "id": "b",
+            "en": "Less television coverage proves she has lost all skill.",
+            "zh": "電視曝光減少證明她完全失去能力。"
+          },
+          {
+            "id": "c",
+            "en": "Directing locally means she never had a public career.",
+            "zh": "在本地導戲表示她從未有公眾事業。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "可根據曝光改變談焦點，不能推斷能力或否定過去。"
+      },
+      "speaking": {
+        "en": "The actor faded from the spotlight as national interviews grew less frequent.",
+        "zh": "全國訪問逐漸減少，這名演員也慢慢淡出大眾焦點。",
+        "promptZh": "先聽示範，再指出公眾曝光怎樣隨時間改變。",
+        "targetSpan": {
+          "start": 10,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位攝影師五年前每月登上全國雜誌，近兩年報道愈來愈少；她仍在本地工作室接案。用一至兩句英文描述關注度變化，避免說她已停業。",
+        "selfCheckZh": "交代前後全國曝光差異與持續接案，正確使用「逐漸淡出」。",
+        "examples": [
+          {
+            "en": "The photographer has faded from the spotlight as national magazine features became rare, but she still accepts commissions through her studio.",
+            "zh": "全國雜誌報道變少，這名攝影師逐漸淡出大眾焦點，但仍透過工作室接委託。"
+          },
+          {
+            "en": "She has faded from the spotlight over two years without closing her studio; she still takes assignments there.",
+            "zh": "過去兩年她逐漸淡出大眾焦點，卻未關閉工作室；她仍在那裏接案。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "national magazine features",
+            "zh": "全國雜誌報道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 75
+            }
+          },
+          {
+            "en": "commissions through her studio",
+            "zh": "透過工作室接委託",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 141
+            }
+          },
+          {
+            "en": "over two years",
+            "zh": "過去兩年",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 47
+            }
+          },
+          {
+            "en": "closing her studio",
+            "zh": "關閉工作室",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 74
+            }
+          },
+          {
+            "en": "assignments there",
+            "zh": "在那裏接案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 109
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "To fade from the spotlight is to lose public attention gradually, not necessarily to stop working.",
+          "zh": "逐漸淡出大眾焦點是曝光減少，不一定停止工作。"
+        },
+        {
+          "en": "Evidence of fading from the spotlight should show a change in visibility over time.",
+          "zh": "判斷是否淡出大眾焦點，應看曝光如何隨時間變化。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2742",
+      "number": 2742,
+      "inventoryId": "expr-2742",
+      "titleEn": "rolling in money",
+      "titleZh": "十分富裕",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:roll|rolls|rolled|rolling)\\s+in\\s+money\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be very wealthy or have a great deal of money; often used in negative claims to correct an assumption.",
+        "meaningZh": "非常有錢；也常用於否定句，糾正別人以為某人很富裕的想法。",
+        "grammar": "Pattern: person/group is/was rolling in money; usually progressive form with be, even for a continuing state. Not rolling in money denies great wealth, not all income.",
+        "register": "Informal pay discussion: a screenwriter tells a colleague that a successful programme does not prove the writers are personally rich.",
+        "boundaryZh": "否定「十分有錢」不等於沒有薪水或陷入貧困；要分清作品收益與個人所得。",
+        "misconceptionZh": "不是在鈔票上打滾；受歡迎的作品也不必然令每名創作者致富。",
+        "outcomeZh": "能評估「有收入」與「非常富裕」的差別，並保留否定句的準確語氣。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0631",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 17,
+          "sample": "S2",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The show is popular, but its writers are not rolling in money.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "rolling in money"
+        }
+      ],
+      "listening": {
+        "en": "The television series sold well, but its junior writers were paid a fixed fee. They earned a living, yet they were not rolling in money as viewers assumed.",
+        "zh": "那套電視劇賣得好，但初級編劇只收固定費用。他們有收入維生，卻不像觀眾想像般十分有錢。",
+        "promptZh": "not rolling in money 在此表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The writers were not extremely wealthy despite the show’s success.",
+            "zh": "劇集雖成功，編劇卻並非非常富裕。"
+          },
+          {
+            "id": "b",
+            "en": "The writers had never received any payment at all.",
+            "zh": "編劇從未收過任何報酬。"
+          },
+          {
+            "id": "c",
+            "en": "The writers literally rolled on banknotes at work.",
+            "zh": "編劇工作時真的在鈔票上打滾。"
+          },
+          {
+            "id": "d",
+            "en": "Every writer owned the entire series.",
+            "zh": "每名編劇都擁有整套劇集。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們領固定費並能維生，但不代表非常富裕；否定句不可譯成完全沒有收入。"
+      },
+      "reply": {
+        "promptEn": "Why does the popular podcast’s assistant reject the idea that she is rich? The show has a huge audience, but she receives a regular wage and no share of advertising profits.",
+        "promptZh": "（為何這個熱門播客的助理否認自己很有錢？節目有大量聽眾，但她只領固定薪金，並無廣告收益分成。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A large audience does not tell us her personal pay is high.",
+            "zh": "聽眾多不代表她個人收入高。"
+          },
+          {
+            "id": "b",
+            "en": "She receives wages but no share of advertising profits.",
+            "zh": "她有薪金，卻沒有廣告收益分成。"
+          },
+          {
+            "id": "c",
+            "en": "She is not rolling in money merely because the podcast is popular.",
+            "zh": "播客受歡迎，不表示她就十分有錢。"
+          },
+          {
+            "id": "d",
+            "en": "The show’s revenue and the assistant’s earnings are different things.",
+            "zh": "節目收入與助理個人所得是兩回事。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都分開節目受歡迎與助理固定薪金；金句否定她因此變得非常富有。"
+      },
+      "scene": {
+        "promptZh": "一部電影大賣，但臨時演員只收原先約定的一日薪金；有人便說他們個個發了財。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The extras are not necessarily rolling in money because the film sold well.",
+            "zh": "電影大賣，不代表臨時演員個個非常有錢。"
+          },
+          {
+            "id": "b",
+            "en": "Every extra must own a share of the box office.",
+            "zh": "每名臨時演員一定擁有票房分成。"
+          },
+          {
+            "id": "c",
+            "en": "A day’s wage means no one was paid at all.",
+            "zh": "領一天工資等於完全沒有得到報酬。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一天固定薪金不支持「每人都發財」的推論。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最適合說 someone is rolling in money？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A student earns enough from one shift to buy lunch.",
+            "zh": "一名學生做一更兼職，賺到足夠買午餐的錢。"
+          },
+          {
+            "id": "b",
+            "en": "An entrepreneur has enormous personal wealth from many profitable ventures.",
+            "zh": "一名企業家透過多項賺錢業務累積了巨額個人財富。"
+          },
+          {
+            "id": "c",
+            "en": "A writer receives a modest fixed fee while her publisher earns millions.",
+            "zh": "作家只收一筆不高的固定稿費，而出版社賺了數百萬。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "本表達指個人非常富裕，不是一般收入或別人公司的高收益。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這齣戲票房好，劇院的售票員一定人人都很有錢。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The theatre may earn a lot, but that does not mean every clerk is rolling in money.",
+            "zh": "劇院或許收入很高，但不代表每位售票員都十分有錢。"
+          },
+          {
+            "id": "b",
+            "en": "Good ticket sales prove each clerk owns the theatre.",
+            "zh": "票房好證明每位售票員都擁有劇院。"
+          },
+          {
+            "id": "c",
+            "en": "The clerks cannot receive any wages if tickets sell well.",
+            "zh": "門票賣得好，售票員便不可能有工資。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "票房與個人收入不同；亦不能反過來說售票員完全沒薪金。"
+      },
+      "speaking": {
+        "en": "The show earns millions, but its junior staff are not rolling in money on fixed wages.",
+        "zh": "節目賺到數百萬元，但初級員工只領固定薪金，並非十分富裕。",
+        "promptZh": "先聽示範，再分清節目收入與員工個人收入。",
+        "targetSpan": {
+          "start": 54,
+          "end": 70
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一款手機遊戲下載量極高，但測試員每月只領固定普通薪金，沒有分紅。有人因此說測試員都已經致富。用一至兩句英文回應，保留他們有薪金的事實。",
+        "selfCheckZh": "區分遊戲成功與測試員收入；not rolling in money 不等於完全沒收入。",
+        "examples": [
+          {
+            "en": "The testers receive regular wages, but they are not rolling in money just because the mobile game has millions of downloads.",
+            "zh": "測試員有固定薪金，但不能只因手機遊戲有數百萬次下載，就說他們十分有錢。"
+          },
+          {
+            "en": "Despite the game’s huge audience, the testers are not rolling in money: they have fixed monthly pay and no profit share.",
+            "zh": "儘管遊戲有龐大用戶群，測試員並非十分富裕：他們只領固定月薪，沒有分紅。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "regular wages",
+            "zh": "固定薪金",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 33
+            }
+          },
+          {
+            "en": "the mobile game",
+            "zh": "手機遊戲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 97
+            }
+          },
+          {
+            "en": "millions of downloads",
+            "zh": "數百萬次下載",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 123
+            }
+          },
+          {
+            "en": "fixed monthly pay",
+            "zh": "固定月薪",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 99
+            }
+          },
+          {
+            "en": "no profit share",
+            "zh": "沒有分紅",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 119
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Not rolling in money denies great wealth; it does not mean earning nothing.",
+          "zh": "並非十分有錢，不等於完全沒有收入。"
+        },
+        {
+          "en": "A project can succeed while its staff are not rolling in money.",
+          "zh": "項目可以成功，員工卻未必十分富裕。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2744",
+      "number": 2744,
+      "inventoryId": "expr-2744",
+      "titleEn": "fit like a glove",
+      "titleZh": "非常貼合需要",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:fit|fits|fitted|fitting)\\s+(?:[A-Za-z’\\x27-]+\\s+){1,5}like\\s+a\\s+glove\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Suit a particular person, routine or need extremely well.",
+        "meaningZh": "非常適合某個人的需要或某種生活安排。",
+        "grammar": "Pattern: X fits Y like a glove; fit/fits/fitted/fitting may vary, and the thing suited stands between fit and like a glove. In source, streaming fits modern life like a glove.",
+        "register": "Natural consumer or lifestyle commentary: a commuter tells a friend why a flexible service matches their daily schedule, without claiming it suits everyone.",
+        "boundaryZh": "非常適合某一需要，不等於對所有人、所有情況都最好。",
+        "misconceptionZh": "不是實際手套大小；要說清楚哪個具體需求與方案貼合。",
+        "outcomeZh": "能說明方案如何配合特定時間、活動或限制，避免無根據地普遍化。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0633",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 18,
+          "sample": "S1",
+          "sourceBookPages": "47–48",
+          "locatorNote": "DOCX table 54, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Streaming fits modern life like a glove.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fits modern life like a glove"
+        }
+      ],
+      "listening": {
+        "en": "The evening library opens just after nearby workers finish their shifts, so they can visit without taking time off. Its new hours fit their routine like a glove.",
+        "zh": "晚間圖書館在附近工人下班後不久開門，他們不用請假便可到訪。新的開放時間非常配合他們的作息。",
+        "promptZh": "開放時間如何 fit their routine like a glove？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They match when nearby workers are free.",
+            "zh": "開放時段剛好配合附近工人的空閒時間。"
+          },
+          {
+            "id": "b",
+            "en": "The library has ordered gloves for every worker.",
+            "zh": "圖書館為每位工人訂了手套。"
+          },
+          {
+            "id": "c",
+            "en": "All residents prefer evening study without exception.",
+            "zh": "所有居民無一例外都喜歡晚上溫習。"
+          },
+          {
+            "id": "d",
+            "en": "Workers must miss their shifts to use the library.",
+            "zh": "工人必須缺席工作才能使用圖書館。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "下班後開門解決了請假困難；沒有資料支持每個居民都適合。"
+      },
+      "reply": {
+        "promptEn": "Why does the flexible swimming class suit Mei? Her shifts change weekly, and she can choose a different class time without a penalty.",
+        "promptZh": "（為何彈性游泳班適合 Mei？她每週輪班時間不同，卻可以無須罰款便選擇另一個上課時段。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The class lets Mei adjust when her shifts change.",
+            "zh": "輪班時間有變時，她可以調整上課時段。"
+          },
+          {
+            "id": "b",
+            "en": "She can keep attending without paying a change penalty.",
+            "zh": "她可繼續上課，而且不必支付改期罰款。"
+          },
+          {
+            "id": "c",
+            "en": "The flexible timetable fits her changing routine like a glove.",
+            "zh": "彈性時間表非常配合她多變的作息。"
+          },
+          {
+            "id": "d",
+            "en": "Different class slots make it easier for her to plan each week.",
+            "zh": "不同上課時段令她每週較容易安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據輪班不固定、可無罰款改時段；金句用貼合需要的比喻。"
+      },
+      "scene": {
+        "promptZh": "一名輪椅使用者參加畫班；工作室把畫架高度按她實際坐姿調好，她能舒服地畫完整節課。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The adjusted easel fits her needs like a glove.",
+            "zh": "調整後的畫架非常貼合她的需要。"
+          },
+          {
+            "id": "b",
+            "en": "The easel requires her to stand throughout the class.",
+            "zh": "畫架要求她整堂課都站立。"
+          },
+          {
+            "id": "c",
+            "en": "Every learner in the city needs the same easel height.",
+            "zh": "全城學員都需要相同的畫架高度。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "畫架按個別坐姿調整，重點是具體需要的高度貼合。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說 fits like a glove？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A bus timetable aligns exactly with one worker’s shift end.",
+            "zh": "巴士時間表剛好配合一名工人的下班時間。"
+          },
+          {
+            "id": "b",
+            "en": "A course always clashes with the only evening a learner is free.",
+            "zh": "課程總與學員唯一有空的晚上撞期。"
+          },
+          {
+            "id": "c",
+            "en": "A reading app lets a commuter resume at the exact place she stopped.",
+            "zh": "閱讀程式讓通勤者從上次停下的位置繼續。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "若時間必定撞期，就談不上非常配合需要。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我每週只在星期三有空，這間社區中心剛好每週三開晚間手語班。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That timetable fits your week like a glove, though it may not suit everyone.",
+            "zh": "這時間表非常配合你的一週安排，但未必適合所有人。"
+          },
+          {
+            "id": "b",
+            "en": "The timing proves everyone in the district is free on Wednesday.",
+            "zh": "這個時間證明區內所有人星期三都有空。"
+          },
+          {
+            "id": "c",
+            "en": "A class can fit only if students wear gloves.",
+            "zh": "只有學生戴手套，課程時間才會合適。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "星期三的空檔與課堂吻合；不應推廣成所有人都合適。"
+      },
+      "speaking": {
+        "en": "The evening bus fits her work schedule like a glove because it leaves just after her shift.",
+        "zh": "晚間巴士在她下班後不久開出，非常配合她的工作時間。",
+        "promptZh": "先聽示範，再指出哪個時間安排彼此吻合。",
+        "targetSpan": {
+          "start": 16,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位在職家長只有午飯後的三十分鐘可溫習；學習平台提供可隨時暫停的二十分鐘課節，方便在下一次空檔續學。用一至兩句英文解釋平台為何適合這位家長，不要假定人人都如此。",
+        "selfCheckZh": "說明短課節與可暫停功能如何配合此人的空檔，並避免說適合所有家長。",
+        "examples": [
+          {
+            "en": "The platform fits this parent’s lunch break like a glove: a twenty-minute lesson fits the thirty-minute break and can be paused if work interrupts it.",
+            "zh": "平台非常配合這名家長的午飯空檔：二十分鐘課節可在三十分鐘內完成；如因工作中斷，亦可暫停。"
+          },
+          {
+            "en": "Short lessons that can be paused fit the parent’s routine like a glove, although another learner might need a different schedule.",
+            "zh": "可暫停的短課節非常貼合這名家長的作息，但另一位學員可能需要不同安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a twenty-minute lesson",
+            "zh": "二十分鐘課節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 80
+            }
+          },
+          {
+            "en": "the thirty-minute break",
+            "zh": "三十分鐘空檔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 109
+            }
+          },
+          {
+            "en": "work interrupts it",
+            "zh": "因工作中斷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 149
+            }
+          },
+          {
+            "en": "Short lessons",
+            "zh": "短課節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "a different schedule",
+            "zh": "不同安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When something fits a person like a glove, name the precise need it suits.",
+          "zh": "說某安排非常貼合一個人，要指出它配合了甚麼具體需要。"
+        },
+        {
+          "en": "A service that fits one routine like a glove need not suit everyone.",
+          "zh": "非常配合某個作息的服務，未必適合所有人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

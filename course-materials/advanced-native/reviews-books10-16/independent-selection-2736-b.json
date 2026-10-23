@@ -1,0 +1,16 @@
+{
+  "reviewType": "Independent provisional 2736 selection verification",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "selectedDraft": "0cbb349df8c53618f3a199e364f96923fb019d3d6d6753c0b9519405b9dec731",
+    "independentContentFollowup": "5afe358043482106addae6f9ec9e2341e3a9657132c91cd38147603eccb66854",
+    "selectionManifest": "9ed121c3464ae82592b2e90abe4fa96ad9fc8d7c4c0ac5b9c9ca79897cecee81"
+  },
+  "selectedOrdinal": 2736,
+  "heldOrdinalExcluded": 2734,
+  "manifestCheck": "The selected manifest contains batch-2736-review-pilot.json and source ordinal 2736, but neither the standalone 2734 owner-hold file nor ordinal 2734.",
+  "focusedBuild": {"lessons": 1, "questions": 6, "audioRequests": 4, "flags": 0, "checkPassed": true},
+  "fullVerifier": {"pilotDrafts": 171, "pilotQuestions": 1026, "pilotAudioRequests": 684, "wholeCatalogueSchemaErrors": 0, "pilotNearDuplicateFlags": 0, "published": false, "releaseApproved": false},
+  "finding": "No selection defect found. The owner-scope distinction is a provisional content decision; human owner sign-off, generated-media listening, browser/device checks and release remain open."
+}

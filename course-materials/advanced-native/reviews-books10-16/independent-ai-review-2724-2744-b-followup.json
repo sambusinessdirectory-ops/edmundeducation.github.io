@@ -1,0 +1,35 @@
+{
+  "reviewId": "independent-ai-review-2724-2744-b-followup",
+  "reviewType": "Exact-hash independent repair follow-up and focused canonical-owner comparison",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json": "5a3dbc8975175349b79f1b44cef2c298377437e8e4a687116625e63c4968f95d",
+    "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5"
+  },
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2724-2744-b.json",
+  "findingOutcomes": [
+    {
+      "id": "R2739-01",
+      "outcome": "cleared",
+      "evidence": "The listening model now refers naturally to ‘the illustrators’ fees’, and the Chinese names 插畫師的酬勞. The same publisher-versus-creator revenue distinction and keyed meaning remain intact. Content revision 2."
+    },
+    {
+      "id": "R2741-01",
+      "outcome": "cleared",
+      "evidence": "Both writing models now say the photographer continues accepting commissions through or at her studio, without inventing the residence of her clients or the geography of the assignments. English and Traditional Chinese align; target occurrences and revised glossary offsets validate. Content revision 3."
+    },
+    {
+      "id": "R2744-01",
+      "outcome": "cleared",
+      "evidence": "The first writing model now explains that a twenty-minute lesson fits a thirty-minute break and can be paused if work interrupts it. The Chinese states the same timing and interruption condition; target and revised glossary offsets validate. Content revision 3."
+    }
+  ],
+  "ownerComparison2734": {
+    "newLesson": "advanced-native-2734 — in the public eye",
+    "existingCanonical": "advanced-native-116 — in the spotlight",
+    "sourceDifference": "2734 source: ‘The actor has remained in the public eye for years.’ 116 source: ‘She felt uncomfortable being in the spotlight.’ The former source explicitly states duration, while the latter includes discomfort; neither duration nor discomfort is an inherent restriction of its phrase.",
+    "senseAndTeachingOverlap": "Both owner briefs define broad public attention, both distinguish attention from approval, and both assess ongoing media visibility and public recognition. The learner's semantic decision substantially overlaps. They are, however, different conventional English expressions with distinct target spans; canonical 116's detector cannot match the 2734 source sentence.",
+    "recommendation": "Do not auto-merge or auto-select. Keep 2734 provisional as a separate lexical expression if the human editor wants both; record an explicit 116 cross-reference and ensure the lesson teaches the usable alternative rather than claiming a false duration/intensity contrast. Treat release owner approval as outstanding."
+  },
+  "checks": "Focused build and --check of the two exact batch files passed: 8 lessons, 48 questions, 32 audio requests, zero review flags. Repaired text, target occurrences and changed glossary spans were independently inspected. Audio generation, human language review and device QA remain unverified.",
+  "conclusion": "All three original content findings are cleared at the recorded hashes. The 2734/116 close-sense owner decision remains explicitly pending human editorial sign-off. All eight drafts remain unselected and unpublished."
+}

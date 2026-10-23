@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2675-2718-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2675",
+      "number": 2675,
+      "inventoryId": "expr-2675",
+      "titleEn": "heavy-handed requirement",
+      "titleZh": "過於強硬的要求",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bheavy[- ]handed\\s+(?:requirements?|rules?|policies|approaches|measures?)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A rule or demand that uses more pressure or control than the situation needs.",
+        "meaningZh": "對情況施加過多壓力或控制的規定或要求。",
+        "grammar": "Pattern: heavy-handed + requirement/rule/policy/approach/measure; the adjective modifies a named action or rule. It is evaluative, not a comment on physical hands.",
+        "register": "Disapproving but measured policy criticism: a parent or school adviser tells an education committee why a requirement may reduce participation.",
+        "boundaryZh": "規定可以有合理目的；只有做法過度強硬、限制選擇而造成反效果時，才適合稱為 heavy-handed。",
+        "misconceptionZh": "不要把所有嚴格但必要的規定都稱為 heavy-handed，也不是指人的手很重。",
+        "outcomeZh": "能指出規定如何過度施壓，並用這個表達提出更合比例的替代方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0564",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "28–29",
+          "locatorNote": "DOCX table 47, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A heavy-handed requirement may reduce interest.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heavy-handed requirement"
+        }
+      ],
+      "listening": {
+        "en": "A school required every child to attend three paid rehearsals a week, even when families had transport problems. Parents called it a heavy-handed requirement because it left no room for exceptions.",
+        "zh": "一所學校規定每個孩子每週都要參加三次收費排練，即使家庭有交通困難也不例外。家長認為這要求過於強硬，因為它完全不容許例外。",
+        "promptZh": "家長為何認為這項要求 heavy-handed？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives families too little flexibility despite real difficulties.",
+            "zh": "儘管家庭有實際困難，規定仍給他們太少彈性。"
+          },
+          {
+            "id": "b",
+            "en": "It asks families to hear about the rehearsal schedule in advance.",
+            "zh": "規定要求家長預先了解排練時間。"
+          },
+          {
+            "id": "c",
+            "en": "It allows the school to waive fees when transport is impossible.",
+            "zh": "規定容許學校在交通不便時豁免費用。"
+          },
+          {
+            "id": "d",
+            "en": "It offers an optional rehearsal for those who want extra practice.",
+            "zh": "規定提供自願參加的額外排練。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題在於付費排練一律強制、沒有例外；題目並沒有提供豁免費用或自願參加的彈性。"
+      },
+      "reply": {
+        "promptEn": "Why are some parents objecting to the new choir rule? Several families have work or care commitments, but the school requires four evening rehearsals each week and refuses schedule adjustments. It wants more children to take part.",
+        "promptZh": "（家長為何反對新的合唱團規定？有些家庭要兼顧工作或照顧家人，但學校要求每週參加四次晚間排練，而且拒絕調整時間。學校希望有更多孩子參與。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Four evenings are difficult for families with other commitments.",
+            "zh": "對已有其他安排的家庭而言，四個晚上很難配合。"
+          },
+          {
+            "id": "b",
+            "en": "The rule offers no flexibility when a child cannot attend.",
+            "zh": "孩子無法出席時，規定也沒有彈性。"
+          },
+          {
+            "id": "c",
+            "en": "It is a heavy-handed requirement for a school choir.",
+            "zh": "對學校合唱團來說，這項要求過於強硬。"
+          },
+          {
+            "id": "d",
+            "en": "A less demanding schedule would let more children take part.",
+            "zh": "安排較少排練，可能讓更多孩子參與。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理回應強制排練過多且毫無彈性；金句用本課表達概括問題。"
+      },
+      "scene": {
+        "promptZh": "社區中心原本希望鼓勵長者運動，卻規定會員每次缺席都要繳罰款，連生病也沒有例外。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre has adopted a heavy-handed rule that may discourage members.",
+            "zh": "中心採用過於強硬的規定，可能反而令會員卻步。"
+          },
+          {
+            "id": "b",
+            "en": "The centre offers a voluntary fitness reminder that members can ignore.",
+            "zh": "中心提供會員可以不理會的自願健身提醒。"
+          },
+          {
+            "id": "c",
+            "en": "The centre waives penalties whenever a member is ill.",
+            "zh": "會員生病時，中心會豁免罰款。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連生病缺席也罰款，強制力度與鼓勵運動的目標不相稱。"
+      },
+      "contrast": {
+        "promptZh": "哪種安排最不適合稱為 heavy-handed？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A library permanently bans a borrower after one late return, with no appeal.",
+            "zh": "圖書館因一次逾期還書便永久禁止借書，而且不設上訴。"
+          },
+          {
+            "id": "b",
+            "en": "A workshop explains its safety rules and allows justified exceptions.",
+            "zh": "工作坊說明安全規則，並容許有理由的例外。"
+          },
+          {
+            "id": "c",
+            "en": "A club fines every member who misses one optional practice.",
+            "zh": "社團連自願練習缺席一次的會員也罰款。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "清楚解釋安全規則並容許合理例外，不等於過度施壓。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「為了讓新人熟悉流程，主管規定每人每天都要交三份重複報告。」哪個回應最切合？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That heavy-handed requirement could waste the time they need for actual training.",
+            "zh": "這項過於強硬的要求，可能浪費他們真正接受訓練的時間。"
+          },
+          {
+            "id": "b",
+            "en": "Three reports must be useful because they are compulsory.",
+            "zh": "既然三份報告是強制的，它們就一定有用。"
+          },
+          {
+            "id": "c",
+            "en": "The requirement is voluntary, so nobody needs to follow it.",
+            "zh": "這項要求是自願的，所以沒有人需要遵守。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "每天三份重複報告可能反而阻礙訓練；B 過度推論，C 與情境矛盾。"
+      },
+      "speaking": {
+        "en": "The daily reporting rule feels like a heavy-handed requirement because the same details are submitted three times.",
+        "zh": "每日呈報規定像是一項過於強硬的要求，因為同樣資料要提交三次。",
+        "promptZh": "先聽完整示範，再說明哪一部分顯得過度。",
+        "targetSpan": {
+          "start": 38,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區畫班規定學員只要遲到五分鐘，便須重付全期學費；有些學員要轉車才到場。用一至兩句英文評價規定，並提出較合理的做法。",
+        "selfCheckZh": "指出規定何處過度，並提出較合比例的替代安排；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "Charging the full course fee again after a five-minute delay is a heavy-handed requirement; the class could allow a short grace period.",
+            "zh": "只因遲到五分鐘便重收全期學費，是過於強硬的要求；畫班可以給學員短暫寬限。"
+          },
+          {
+            "en": "For learners who change buses, that heavy-handed rule may deter attendance, so a warning would be fairer than another full fee.",
+            "zh": "對要轉車的學員來說，這項過於強硬的規定可能令他們卻步；先作提醒會比再收全費公平。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the full course fee",
+            "zh": "全期學費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "a five-minute delay",
+            "zh": "遲到五分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 60
+            }
+          },
+          {
+            "en": "a short grace period",
+            "zh": "短暫寬限",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 134
+            }
+          },
+          {
+            "en": "change buses",
+            "zh": "轉車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 17,
+              "end": 29
+            }
+          },
+          {
+            "en": "deter attendance",
+            "zh": "令學員不再出席",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 74
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A heavy-handed requirement can discourage the very people it aims to help.",
+          "zh": "過於強硬的要求可能令原本想幫助的人卻步。"
+        },
+        {
+          "en": "Before criticising a heavy-handed rule, explain which part is excessive and suggest a fairer alternative.",
+          "zh": "批評一項過於強硬的規定前，要先指出哪部分過度，再提出更公平的替代方法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2681",
+      "number": 2681,
+      "inventoryId": "expr-2681",
+      "titleEn": "freezing the past",
+      "titleZh": "把過去固定不變",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:freeze|freezes|freezing|froze|frozen)\\s+the\\s+past\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Treat earlier customs or culture as fixed and untouchable instead of allowing them to remain active and adapt.",
+        "meaningZh": "把以往的習俗或文化視為不可改動，而非讓它們繼續被實踐和調整。",
+        "grammar": "Pattern: freeze/freezes/freezing/froze the past; a transitive figurative verb takes the past as object. Preserving a practice need not mean freezing it.",
+        "register": "Reflective cultural discussion: a musician or museum educator tells a curator how to preserve a tradition while leaving room for new performances.",
+        "boundaryZh": "保存錄音或檔案本身不是錯；這裏批評的是把傳統限制成只可照舊重複，排除新的參與方式。",
+        "misconceptionZh": "freeze 不是把歷史真的冷藏，也不表示應該丟棄舊作品。",
+        "outcomeZh": "能分辨「保存並活用」與「封存成不能改變的樣板」。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0570",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 52,
+          "book": 11,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Preserving culture should not mean freezing the past.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "freezing the past"
+        }
+      ],
+      "listening": {
+        "en": "The town recorded old folk songs and invited teenagers to arrange them for new instruments. The organiser said that keeping the songs alive did not mean freezing the past.",
+        "zh": "鎮上把舊民歌錄下來，並邀請青少年用新樂器改編。主辦者說，讓歌曲延續不等於把過去固定不變。",
+        "promptZh": "主辦者對傳統歌曲持甚麼看法？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The songs can be preserved while people find new ways to perform them.",
+            "zh": "歌曲可以保存，同時讓人探索新的演奏方式。"
+          },
+          {
+            "id": "b",
+            "en": "Every performance must copy one old recording exactly.",
+            "zh": "每次演出都必須完全複製一段舊錄音。"
+          },
+          {
+            "id": "c",
+            "en": "New arrangements should replace and erase the older versions.",
+            "zh": "新編曲應完全取代並刪掉舊版本。"
+          },
+          {
+            "id": "d",
+            "en": "Recording the songs means no one should perform them again.",
+            "zh": "歌曲錄下來後，就不應再有人演出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "錄音保存舊版本，改編則讓傳統繼續被實踐；兩者並不矛盾。"
+      },
+      "reply": {
+        "promptEn": "Why did the festival invite young players to reinterpret the old melodies for new audiences? The original scores remain in the archive, and the new versions are labelled as new arrangements.",
+        "promptZh": "（節日為何邀請年輕樂手為新觀眾重新演繹舊旋律？原有樂譜仍保存在檔案館，新版本也清楚標示為新編曲。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The original scores remain available for anyone studying them.",
+            "zh": "研究原曲的人仍可查閱原有樂譜。"
+          },
+          {
+            "id": "b",
+            "en": "Young players can help new audiences connect with the melodies.",
+            "zh": "年輕樂手可幫助新觀眾認識這些旋律。"
+          },
+          {
+            "id": "c",
+            "en": "Preserving the music does not require freezing the past.",
+            "zh": "保存音樂不必把過去固定不變。"
+          },
+          {
+            "id": "d",
+            "en": "The labelled arrangements add choices without erasing the originals.",
+            "zh": "清楚標示的新編曲增加選擇，而不會抹去原作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都符合原作保留、新編曲清楚標示的情境；金句指出保存不等於禁止變化。"
+      },
+      "scene": {
+        "promptZh": "手工藝館保留祖母輩的織法教學，也讓青年匠人試用新的環保材料；作品清楚列出改動。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The museum preserves the craft without freezing the past.",
+            "zh": "博物館保存工藝，也沒有把過去固定不變。"
+          },
+          {
+            "id": "b",
+            "en": "The museum has erased the old methods from its records.",
+            "zh": "博物館已從紀錄中刪去舊方法。"
+          },
+          {
+            "id": "c",
+            "en": "The museum permits only exact copies of one historical design.",
+            "zh": "博物館只容許完全複製一款舊設計。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留傳統技法並允許有標示的新嘗試，正是「保存但不封死」。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最像 freezing the past？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Keeping original recordings while commissioning clearly labelled new performances.",
+            "zh": "保留原錄音，同時委約清楚標示的新演出。"
+          },
+          {
+            "id": "b",
+            "en": "Forbidding all new interpretations and insisting that every concert reproduce one old recording exactly.",
+            "zh": "禁止所有新演繹，堅持每場演出都完全複製同一段舊錄音。"
+          },
+          {
+            "id": "c",
+            "en": "Teaching the old technique before students choose how to use it.",
+            "zh": "先教舊技法，再讓學生選擇如何運用。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全禁止新演繹，才是把傳統當成不可改動的樣板。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們想紀念祖父的食譜，也讓後輩按現在的食材作小改動。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You can honour the recipe without freezing the past; keep the original and label the new versions.",
+            "zh": "你們可以尊重原食譜，同時不把過去固定不變；保留原版，並標示新版本。"
+          },
+          {
+            "id": "b",
+            "en": "Any new ingredient proves the original recipe was worthless.",
+            "zh": "加任何新材料都證明原食譜沒有價值。"
+          },
+          {
+            "id": "c",
+            "en": "You must delete the original so only new versions remain.",
+            "zh": "你們必須刪掉原版，只留下新版本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留原版並清楚標示變化，既尊重來源，也讓做法繼續活用。"
+      },
+      "speaking": {
+        "en": "The choir keeps the original score but tries new arrangements, so it is not freezing the past.",
+        "zh": "合唱團保留原譜，同時嘗試新編曲，因此沒有把過去固定不變。",
+        "promptZh": "先聽示範，再說明保存與創新怎樣並存。",
+        "targetSpan": {
+          "start": 76,
+          "end": 93
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區劇團保存一齣老戲的劇本與錄影，卻也讓年輕演員用新的舞台設計重演。用一至兩句英文說明這樣做為何不等於否定傳統。",
+        "selfCheckZh": "提到保存原劇本或錄影，以及新舞台設計；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "Keeping the original script and recording does not require freezing the past; the troupe can stage a new production with updated sets.",
+            "zh": "保留原劇本和錄影，不代表要把過去固定不變；劇團可以用新的布景重演。"
+          },
+          {
+            "en": "The troupe respects the old play without freezing the past, because young actors can try a fresh stage design while the archive stays intact.",
+            "zh": "劇團尊重舊戲，也沒有把過去固定不變；年輕演員可嘗試新舞台設計，而檔案仍完整保留。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the original script",
+            "zh": "原劇本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 8,
+              "end": 27
+            }
+          },
+          {
+            "en": "a new production",
+            "zh": "新製作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 115
+            }
+          },
+          {
+            "en": "updated sets",
+            "zh": "更新的布景",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 133
+            }
+          },
+          {
+            "en": "young actors",
+            "zh": "年輕演員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 80
+            }
+          },
+          {
+            "en": "the archive stays intact",
+            "zh": "檔案仍完整保留",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 140
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Preserving an original does not always require freezing the past.",
+          "zh": "保存原作並不一定要把過去固定不變。"
+        },
+        {
+          "en": "Avoid freezing the past: label new interpretations clearly so audiences can see both continuity and change.",
+          "zh": "不要把過去固定不變；清楚標示新演繹，讓觀眾看見延續與變化。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2683",
+      "number": 2683,
+      "inventoryId": "expr-2683",
+      "titleEn": "on life support",
+      "titleZh": "靠外力勉強維持",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bon\\s+life\\s+support\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Barely continuing because an outside source of help prevents closure or failure.",
+        "meaningZh": "因靠外來支援才勉強繼續運作，否則可能停辦或倒閉。",
+        "grammar": "Pattern: an organisation or service is/was/has been on life support; aid can keep it on life support. The medical image is figurative when the subject is an institution.",
+        "register": "Serious, sometimes dramatic institutional assessment: a theatre manager tells a funder how close a venue is to closing and what aid keeps it open.",
+        "boundaryZh": "必須已有嚴重危機且依賴支援；一般收入減少或短暫困難，不宜誇大為 on life support。",
+        "misconceptionZh": "不是指場館內有病人用生命維持儀器，也不表示援助已令機構恢復健康。",
+        "outcomeZh": "能說明一個機構的持續運作有多脆弱，以及依賴甚麼支援。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0572",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 53,
+          "book": 11,
+          "question": 12,
+          "sample": "S2",
+          "sourceBookPages": "30–32",
+          "locatorNote": "DOCX table 48, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The old venue was on life support after funding ended.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "on life support"
+        }
+      ],
+      "listening": {
+        "en": "After ticket sales collapsed, the small theatre could pay staff only because a local fund covered its rent. The manager said it was on life support, not ready to operate independently.",
+        "zh": "門票收入大跌後，這間小劇院只能靠一項地方基金支付租金，才有錢出糧。經理說，劇院只是靠外援勉強維持，還未能獨立營運。",
+        "promptZh": "經理說劇院 on life support，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It remains open only because outside aid covers a vital cost.",
+            "zh": "它仍能開放，只因外來援助支付了一項關鍵開支。"
+          },
+          {
+            "id": "b",
+            "en": "It has fully recovered and no longer needs the fund.",
+            "zh": "它已完全復原，不再需要基金。"
+          },
+          {
+            "id": "c",
+            "en": "It is an ordinary medical centre attached to a theatre.",
+            "zh": "它是一間附設於劇院的普通醫療中心。"
+          },
+          {
+            "id": "d",
+            "en": "Its ticket sales have increased enough to hire more staff.",
+            "zh": "門票收入已增加至足以聘請更多員工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基金替劇院支付租金，才讓它勉強維持；尚未恢復自立。"
+      },
+      "reply": {
+        "promptEn": "How is the neighbourhood cinema still open? It has almost no ticket income, and a charity now pays the monthly rent.",
+        "promptZh": "（社區戲院為何仍能營業？它幾乎沒有門票收入，目前由慈善機構支付每月租金。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "A charity is covering the rent that the cinema cannot pay itself.",
+            "zh": "慈善機構代付戲院無力負擔的租金。"
+          },
+          {
+            "id": "b",
+            "en": "Without that rent support, the cinema would probably have to close.",
+            "zh": "若沒有租金援助，戲院很可能要停業。"
+          },
+          {
+            "id": "c",
+            "en": "It is on life support through the charity’s monthly help.",
+            "zh": "它靠慈善機構每月援助勉強維持。"
+          },
+          {
+            "id": "d",
+            "en": "Its ticket income is still too low to cover the premises.",
+            "zh": "它的門票收入仍不足以支付場地費用。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據幾乎沒有收入而靠慈善機構付租的情境；金句概括其脆弱狀態。"
+      },
+      "scene": {
+        "promptZh": "一間小型社區電台多年虧損，現在只有市政緊急撥款能支付員工薪金；下期撥款未定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The station is on life support while it relies on emergency funding.",
+            "zh": "電台現時靠緊急撥款勉強維持。"
+          },
+          {
+            "id": "b",
+            "en": "The station is profitable enough to expand to a second channel.",
+            "zh": "電台已盈利，足以擴展第二條頻道。"
+          },
+          {
+            "id": "c",
+            "en": "The station has voluntarily paused one show despite steady income.",
+            "zh": "電台收入穩定，只是自願暫停一個節目。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "基本薪金靠緊急撥款，未來款項不確定，符合「靠外援勉強維持」。"
+      },
+      "contrast": {
+        "promptZh": "哪個機構最不適合形容為 on life support？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A museum may close next month unless a donor covers its electricity bill.",
+            "zh": "博物館若無捐款人支付電費，下月可能關閉。"
+          },
+          {
+            "id": "b",
+            "en": "A fully funded library has a reserve and can cover all planned costs for three years.",
+            "zh": "一間資金充足的圖書館有儲備，可支付未來三年所有預算開支。"
+          },
+          {
+            "id": "c",
+            "en": "A youth club stays open only because volunteers replaced its unpaid staff.",
+            "zh": "青年中心只有靠義工代替無薪員工，才得以開放。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "資金充足且有三年儲備，不是靠救急支援勉強維持。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們的地方藝術中心仍開門，但每月都要靠臨時捐款支付租金。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It sounds as if the centre is on life support; a stable funding plan would matter.",
+            "zh": "聽來中心只是靠外援勉強維持；穩定的資金計劃很重要。"
+          },
+          {
+            "id": "b",
+            "en": "Then the centre has clearly solved its finances for good.",
+            "zh": "那中心顯然已徹底解決財政問題。"
+          },
+          {
+            "id": "c",
+            "en": "The donations prove its audience has doubled.",
+            "zh": "捐款證明觀眾人數增加了一倍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "臨時捐款能讓中心繼續開門，卻不能證明它已自立或觀眾增加。"
+      },
+      "speaking": {
+        "en": "The gallery is on life support because an emergency grant is covering its rent.",
+        "zh": "畫廊靠緊急補助支付租金，才得以勉強維持。",
+        "promptZh": "先聽完整示範，再說出畫廊依賴甚麼外援。",
+        "targetSpan": {
+          "start": 15,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區游泳池收入大跌，只有一筆短期捐款可支付今季的救生員薪金；下季資金尚未落實。用一至兩句英文描述其現況和風險。",
+        "selfCheckZh": "說清楚目前靠哪項外援，以及援助到期後可能面對甚麼；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "The community pool is on life support because a short-term donation pays the lifeguards this season; next season’s funding is uncertain.",
+            "zh": "社區泳池靠短期捐款支付本季救生員薪金，才得以勉強維持；下季資金仍未確定。"
+          },
+          {
+            "en": "With ticket income falling, the pool remains on life support through a temporary gift, and it may have to close when that help ends.",
+            "zh": "門票收入下跌，泳池只能靠臨時捐款勉強維持；援助結束後可能要關閉。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a short-term donation",
+            "zh": "短期捐款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 67
+            }
+          },
+          {
+            "en": "the lifeguards",
+            "zh": "救生員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 87
+            }
+          },
+          {
+            "en": "funding is uncertain",
+            "zh": "資金仍未確定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 135
+            }
+          },
+          {
+            "en": "ticket income",
+            "zh": "門票收入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 5,
+              "end": 18
+            }
+          },
+          {
+            "en": "a temporary gift",
+            "zh": "臨時捐款",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 85
+            }
+          },
+          {
+            "en": "may have to close",
+            "zh": "可能要關閉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A service on life support is still operating, but only with critical outside help.",
+          "zh": "靠外援勉強維持的服務仍在運作，但高度依賴關鍵支援。"
+        },
+        {
+          "en": "An institution on life support has survived temporarily; it has not necessarily recovered financially.",
+          "zh": "靠外援勉強維持的機構只是暫時撐住，未必真正恢復財政穩健。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2689",
+      "number": 2689,
+      "inventoryId": "expr-2689",
+      "titleEn": "ring a little hollow",
+      "titleZh": "聽起來有點空泛",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:ring|rings|rang|ringing)\\s+(?:a\\s+little\\s+)?hollow\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Sound insincere, weak or unconvincing because actions fail to support the words.",
+        "meaningZh": "因言行不符而聽起來缺乏誠意或說服力。",
+        "grammar": "Pattern: praise, promises or apologies ring/rang (a little) hollow; an abstract statement is the subject. Ring is intransitive here, with hollow as complement.",
+        "register": "Measured but critical evaluation: an employee or community member tells a colleague why an institution’s praise lacks supporting action.",
+        "boundaryZh": "要指出話語與實際支援之間的落差；聲音小、用詞簡短，不等於 ring hollow。",
+        "misconceptionZh": "不是指真正敲擊空心物件；也不要在沒有證據時直接斷定說話者故意說謊。",
+        "outcomeZh": "能以具體行動缺口解釋為何表面好聽的話不夠有說服力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0578",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 53,
+          "book": 11,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "33–36",
+          "locatorNote": "DOCX table 49, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Their praise may ring a little hollow without support.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "ring a little hollow"
+        }
+      ],
+      "listening": {
+        "en": "The organiser thanked volunteers for their work but then cancelled the promised travel refunds. Her praise rang a little hollow when the volunteers had to pay their own fares.",
+        "zh": "主辦者感謝義工付出，卻又取消答應過的交通費報銷。義工仍須自行付車費，使她的讚賞聽起來有點空泛。",
+        "promptZh": "為甚麼主辦者的讚賞 rang a little hollow？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her decision removed support that had been promised to the people she praised.",
+            "zh": "她撤回答應給受讚賞者的支援。"
+          },
+          {
+            "id": "b",
+            "en": "She spoke softly, so volunteers could not hear the thanks.",
+            "zh": "她說話太小聲，所以義工聽不見感謝。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers did not travel to the event at all.",
+            "zh": "義工根本沒有前往活動。"
+          },
+          {
+            "id": "d",
+            "en": "She increased the refunds before thanking them.",
+            "zh": "她在道謝前增加了交通費報銷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "言語上的感謝與取消已承諾的交通支援形成落差；這不是音量問題。"
+      },
+      "reply": {
+        "promptEn": "Why did the staff doubt the company’s promise to support training? It praised their growth but cut the training budget and cancelled all workshops.",
+        "promptZh": "（員工為何懷疑公司支持培訓的承諾？公司讚揚員工成長，卻削減培訓預算並取消全部工作坊。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The company removed the budget needed to make that promise real.",
+            "zh": "公司撤掉了兌現承諾所需的預算。"
+          },
+          {
+            "id": "b",
+            "en": "Cancelling every workshop contradicted its supportive words.",
+            "zh": "取消所有工作坊，與它表示支持的說法矛盾。"
+          },
+          {
+            "id": "c",
+            "en": "The promise rings a little hollow without actual training.",
+            "zh": "沒有實際培訓，這個承諾聽起來有點空泛。"
+          },
+          {
+            "id": "d",
+            "en": "Staff have no workshops to attend despite the company’s praise.",
+            "zh": "儘管公司讚賞員工，他們已沒有工作坊可參加。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據讚揚與削減培訓之間的落差；金句用本課表達概括缺乏說服力。"
+      },
+      "scene": {
+        "promptZh": "餐廳宣布「最重視員工休息」，同日卻取消休息時段，也沒有補償安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The statement rings hollow when the breaks disappear.",
+            "zh": "休息時段被取消，這番話聽來空泛。"
+          },
+          {
+            "id": "b",
+            "en": "The statement is convincing because every worker now has more time off.",
+            "zh": "這番話很有說服力，因為每名員工現在有更多休息時間。"
+          },
+          {
+            "id": "c",
+            "en": "The statement is difficult to hear because the speaker used a quiet microphone.",
+            "zh": "這番話難以聽清，因為說話者的咪高風音量太低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲稱重視休息，卻取消休息時段，言行缺乏一致。"
+      },
+      "contrast": {
+        "promptZh": "哪種情境最不適合說道歉 rings hollow？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A manager apologises for unpaid overtime but still refuses to pay it.",
+            "zh": "經理就無薪加班道歉，卻仍拒絕支付工資。"
+          },
+          {
+            "id": "b",
+            "en": "A manager apologises, pays the missing wages and changes the payroll process.",
+            "zh": "經理道歉、補發欠薪，並修改出糧流程。"
+          },
+          {
+            "id": "c",
+            "en": "A manager repeats an apology but continues the same practice.",
+            "zh": "經理一再道歉，卻繼續同樣做法。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "道歉後有具體補救，較難說它空泛；另外兩種情況缺乏配套行動。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「學校說十分重視學生音樂，但取消了唯一的樂器借用計劃。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That claim may ring a little hollow unless the school provides another way to borrow instruments.",
+            "zh": "若學校不提供其他借樂器方法，這番說法可能顯得有點空泛。"
+          },
+          {
+            "id": "b",
+            "en": "Then every student must already own an instrument.",
+            "zh": "那每名學生一定已自備樂器。"
+          },
+          {
+            "id": "c",
+            "en": "The announcement proves the school has increased its music budget.",
+            "zh": "這項宣布證明學校增加了音樂預算。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲稱重視學生音樂，卻取消唯一借用計劃，兩者形成落差；其餘兩句都無根據。"
+      },
+      "speaking": {
+        "en": "The promise to help volunteers rings a little hollow after the travel fund is withdrawn.",
+        "zh": "交通基金被撤銷後，協助義工的承諾聽起來有點空泛。",
+        "promptZh": "先聽示範，再說明哪項實際行動令承諾缺乏說服力。",
+        "targetSpan": {
+          "start": 31,
+          "end": 52
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：屋苑管理處稱讚清潔工在暴雨後的工作，卻取消已答應的安全裝備津貼。用一至兩句英文指出為何這番讚賞未夠有說服力。",
+        "selfCheckZh": "說明言語上的讚賞與取消津貼之間的落差；不要未有證據便斷言管理處故意欺騙。",
+        "examples": [
+          {
+            "en": "The management’s praise rings a little hollow after it cancels the promised safety allowance for cleaners working after the storm.",
+            "zh": "管理處取消了答應給暴雨後工作清潔工的安全裝備津貼，令讚賞聽起來有點空泛。"
+          },
+          {
+            "en": "Their thanks may ring hollow while the cleaners still lack protective gear; restoring the allowance would support the words with action.",
+            "zh": "清潔工仍缺乏防護裝備，這番感謝可能顯得空泛；恢復津貼，才能以行動支持言語。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the promised safety allowance",
+            "zh": "已承諾的安全裝備津貼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 92
+            }
+          },
+          {
+            "en": "cleaners working after the storm",
+            "zh": "暴雨後工作的清潔工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 129
+            }
+          },
+          {
+            "en": "protective gear",
+            "zh": "防護裝備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 74
+            }
+          },
+          {
+            "en": "restoring the allowance",
+            "zh": "恢復津貼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 99
+            }
+          },
+          {
+            "en": "support the words with action",
+            "zh": "以行動支持言語",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 135
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Praise can ring hollow when practical support is withdrawn.",
+          "zh": "若實際支援被撤銷，讚賞便可能顯得空泛。"
+        },
+        {
+          "en": "An apology may ring a little hollow if the same harmful practice continues.",
+          "zh": "若有害做法照舊，道歉可能聽起來有點空泛。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "reviewType": "Independent provisional owner and seven-step content review",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinal": 2736,
+  "inputHashes": {
+    "draft": "424e45ebaae195f8d6e522a0ff94f6db904b8df264860b066e5d55621780a98d",
+    "sourceOwnerReport": "32782f6a59def4ebaa31f98a1c9d03323ea9f7c00abe1df4bf20f0af441fa796",
+    "canonical1343Batch": "eb22211f9e1363f09bda4af607c5ab05deb1232a68ee994a34c888aae86fa6df"
+  },
+  "focusedBuild": {"lessons": 1, "questions": 6, "audioRequests": 4, "flags": 0, "checkPassed": true},
+  "checks": {
+    "sourceAndDetector": "The source explicitly says works around the clock and the new pattern matches the expression; the canonical 1343 detector is limited to round-the-clock supervision.",
+    "englishAndChinese": "Natural and faithful across checked model, options, writing answers and takeaways; completion and one-person-without-rest overclaims are avoided.",
+    "reply": "All four answers independently address the stated shifts and testing status; only the golden reply contains the target.",
+    "writingAndGlossary": "Both complete models satisfy the changed community-site situation; five glossary spans are answer-derived and exclude the target.",
+    "audio": "Four distinct transcript roles are present in the focused build; listening to generated clips remains a separate release gate."
+  },
+  "findings": [
+    {
+      "id": "R2736-01",
+      "severity": "major-editorial",
+      "path": "lessons[0].brief.grammar; lessons[0].scene; lessons[0].contrast; lessons[0].dialogue",
+      "detail": "The brief correctly distinguishes adverbial around the clock from attributive round-the-clock supervision, but no assessed task makes the learner choose between those constructions. The scene and contrast test all-hour coverage and an overnight gap, as canonical 1343 already does; the dialogue also rejects a gap, while the reply uses shifts. Semantic and pedagogic overlap remains greater than the owner report suggests.",
+      "recommendedRepair": "Revise at least one assessed decision to test the adverbial placement against the adjective-plus-noun construction while retaining the source sense; then repeat independent review. Alternatively obtain explicit human owner-scope approval before selecting a separate lesson."
+    }
+  ],
+  "selectionRecommendation": "Keep unselected until the owner-scope issue is resolved; this finding does not reject the source expression or assert the two spellings are always interchangeable."
+}

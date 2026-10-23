@@ -1,0 +1,46 @@
+{
+  "reviewType": "AI source and canonical owner-scope comparison",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinal": 2736,
+  "sourceInventoryId": "book10-16-0625",
+  "candidate": "around the clock",
+  "priorOwner": "advanced-native-1343 round-the-clock supervision",
+  "inputHashes": {
+    "sourceInventoryJsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalBatch1326To1350Json": "eb22211f9e1363f09bda4af607c5ab05deb1232a68ee994a34c888aae86fa6df",
+    "editorialDecisions2712To2771Jsonl": "bb27261e0faadd3eb1d1850082d1bfec88474cb9d66a8aea985ec593d3f2eea9",
+    "unselectedDraft2736Json": "424e45ebaae195f8d6e522a0ff94f6db904b8df264860b066e5d55621780a98d"
+  },
+  "sourceEvidence": {
+    "sourceSentence": "The support team works around the clock.",
+    "sourceExpression": "around the clock",
+    "sourceMeaning": "Continuously, day and night; a fixed time expression.",
+    "canonicalSentence": "The patient needs round-the-clock supervision.",
+    "canonicalMeaning": "Oversight maintained throughout the day and night.",
+    "primaryLanguageSources": [
+      {"title": "Cambridge Dictionary: round/around the clock", "url": "https://dictionary.cambridge.org/dictionary/english/round-around-the-clock", "evidence": "Defines the unhyphenated idiom as all day and all night and shows work around the clock as verb modification, alongside round-the-clock nursing as noun modification."},
+      {"title": "Cambridge Dictionary: round-the-clock", "url": "https://dictionary.cambridge.org/dictionary/english/round-the-clock", "evidence": "Labels the hyphenated phrase an adjective before a noun and exemplifies round-the-clock care."}
+    ]
+  },
+  "comparison": {
+    "sharedSense": "Both communicate day-and-night continuity; grammar alone does not create a different time meaning.",
+    "distinctConstruction": "Source 2736 uses unhyphenated around the clock adverbially after works and can modify work, operate, update or similar actions. Canonical 1343 fixes the attributive phrase round-the-clock supervision and teaches oversight of a particular object/person.",
+    "differentLearnerDecision": "The new learner applies an adverbial time claim to ongoing work and keeps effort separate from a finished result. Canonical 1343 checks whether planned supervision covers overnight hours, handovers and permission before naming staff.",
+    "newPattern": "\\baround\\s+the\\s+clock\\b",
+    "canonicalPattern": "\\bround[- ]the[- ]clock supervision\\b",
+    "patternEvidence": "The proposed detector matches the complete source example and does not match the canonical example; the canonical detector matches its own example and does not match source 2736. This is a construction check, not proof of semantic independence."
+  },
+  "sevenStepFeasibility": [
+    "Listening: interpret day-and-night repair effort with rotating crews, without claiming a completed repair.",
+    "Four-valid reply: report overlapping day/night work on a temporary software fix while testing remains open.",
+    "Scene: choose a truthful description of road crews working across day and night while the road stays closed.",
+    "Contrast: distinguish full twenty-four-hour coverage from a long day with an overnight gap or a single night shift.",
+    "Dialogue: reject an around-the-clock claim when work stops between 01:00 and 08:00, while acknowledging late work.",
+    "Speaking: say that rotating restoration teams continue working while some recordings remain unrecovered.",
+    "Writing: describe a new community-site update task with assigned early/afternoon/overnight shifts, noting that some notices still require verification."
+  ],
+  "decision": "Provisional separate lesson is teachable as an adverbial construction and operational-reporting decision despite shared continuous-time semantics; retain source 2736's existing proposed-new-lesson editorial decision. Require an independent editorial review and human owner-scope sign-off before selection. No automatic alias or release is justified.",
+  "selectionManifestEdited": false,
+  "releaseEdited": false
+}

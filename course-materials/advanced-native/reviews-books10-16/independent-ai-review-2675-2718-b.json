@@ -1,0 +1,53 @@
+{
+  "reviewId": "independent-ai-review-2675-2718-b",
+  "reviewType": "Independent Golden SOP editorial review of eight unpublished provisional lessons",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json": "d6490825c2c9b4052fcb8c5517f8da1e9eab17fcc3c4b6c2ebfc5d2fc8b77157",
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-2.json": "9200cf8cdb2667d344a1b920a4a454b4778cadfb0e8754f61740aa6e41c52644"
+  },
+  "sourceInventory": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+  "lessonsReviewed": [2675, 2681, 2683, 2689, 2698, 2703, 2708, 2718],
+  "findings": [
+    {
+      "id": "R2689-01",
+      "lessonId": "advanced-native-2689",
+      "severity": "major",
+      "path": "dialogue.options[a].en / dialogue.options[a].zh / dialogue.explanationZh",
+      "evidence": "The friend says the school claims to value student music, then cancels instrument loans. The keyed reply says ‘That praise may ring a little hollow’ and Chinese ‘這份讚賞’, but the scenario contains a claim of support, not praise of students or music. The explanation repeats the mismatch by calling the school's words 讚賞.",
+      "recommendedRepair": "Use ‘That claim may ring a little hollow…’ and a matching Chinese reference such as ‘這番說法…’; align the explanation to the school's claim of support. Keep the expression, option ID and target detector intact."
+    },
+    {
+      "id": "R2703-01",
+      "lessonId": "advanced-native-2703",
+      "severity": "major",
+      "path": "scene.options[a].en / scene.options[a].zh",
+      "evidence": "The prompt says the online exhibition closed its free entrance and published no new formal booking method. The keyed answer says visitors seek a back door ‘rather than a published official route’, and the Chinese says ‘而不是已公布的官方方法’, implying the very published route the prompt says does not exist.",
+      "recommendedRepair": "Retain ‘looking for the back door’ but make the causal clause reflect the missing formal route, e.g. ‘because no new official route has been published’; align Chinese, keep key a and the distractor contrast."
+    },
+    {
+      "id": "R2698-01",
+      "lessonId": "advanced-native-2698",
+      "severity": "minor",
+      "path": "dialogue.options[a].zh",
+      "evidence": "English ‘the student artist may lose payment or control of the work’ becomes ‘可能失去報酬或作品使用權’. Losing control over how a work is used does not necessarily mean losing the underlying right to use the work; the Chinese overstates the legal consequence.",
+      "recommendedRepair": "Use ‘可能失去報酬，或無法控制作品如何被使用’ or equally faithful Traditional Chinese without asserting transfer or loss of legal rights."
+    },
+    {
+      "id": "R2708-01",
+      "lessonId": "advanced-native-2708",
+      "severity": "minor",
+      "path": "writing.examples[1].zh",
+      "evidence": "The Chinese sentence ends ‘本地餐廳的收入仍然吃虧’. 吃虧 describes the restaurants, not their income, so the translation reads unnaturally despite the English ‘local restaurants lose out on earnings’ being sound.",
+      "recommendedRepair": "Say ‘本地餐廳仍會因收入減少而吃虧’ or ‘本地餐廳的收入仍會減少’, preserving the unchanged-order-volume contrast."
+    }
+  ],
+  "checks": {
+    "sourceAndProvenance": "All eight inventory IDs, occurrence IDs, exact source sentences, book numbers and rendered PDF page numbers match the source inventory. The target regex detects every full source example.",
+    "assessment": "All eight have seven steps and six assessed questions. The four reply options in each lesson are defensible in their shared scene, with one target-bearing reply. Listening, scene, contrast and dialogue keys are substantively defensible except for the two keyed wording mismatches above. Every keyed scene, dialogue, speaking transcript and both writing models matches its target regex.",
+    "glossaryAndSpans": "Each lesson has five or six answer-derived non-target glossary spans, and exact string offsets and speaking target offsets validate. Both writing models use the target in a changed context.",
+    "audio": "Generated audio queue contains four distinct transcript texts and four required roles per lesson: listening, speaking and two takeaways. This checks queue text only; no media generation or listening QA was performed.",
+    "canonicalCollision": "The all-discovered new-owner collision screen reported 22 unrelated candidates and none of these eight source ordinals. Proposed-alias-new source sentences for 2675, 2683 and 2708 were also manually tested against the new owner target detectors and matched.",
+    "build": "Focused build and --check of these two files: 8 lessons, 48 questions, 32 audio requests, zero review flags."
+  },
+  "conclusion": "Four editorial findings remain, including two major keyed wording conflicts. These provisional lessons should stay unselected and unpublished until repaired and independently rechecked; human English/Traditional Chinese approval and media/device QA remain separate gates."
+}

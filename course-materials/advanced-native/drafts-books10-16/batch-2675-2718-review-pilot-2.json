@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2675-2718-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2698",
+      "number": 2698,
+      "inventoryId": "expr-2698",
+      "titleEn": "victimless act",
+      "titleZh": "沒有受害者的行為",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bvictimless\\s+(?:act|acts|crime|crimes)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An action assumed to harm no one; often used in a negative claim to point out overlooked people who bear a cost.",
+        "meaningZh": "被認為不會傷害任何人的行為；常用否定說法指出其實有人承擔損失。",
+        "grammar": "Pattern: a victimless act/crime; not a victimless act. Victimless is an adjective before the count noun; specify whose work, money or opportunity is affected.",
+        "register": "Measured ethical discussion: a creator or teacher tells a student why a seemingly harmless shortcut has a real affected party.",
+        "boundaryZh": "要指出可辨認的受影響者與具體損失；不能單憑不喜歡某件事就斷言一定有受害者。",
+        "misconceptionZh": "victimless 不是指「當事人沒有抱怨」，也不表示任何行為都必然造成重大損害。",
+        "outcomeZh": "能辨認看似無人受損的行為背後可能被忽略的受影響者。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0587",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 54,
+          "book": 11,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "37–39",
+          "locatorNote": "DOCX table 50, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Illegal copying is not a victimless act.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "victimless act"
+        }
+      ],
+      "listening": {
+        "en": "A student copied a local illustrator’s poster for a paid event without asking. The organiser called it a victimless act, but the illustrator lost the fee she would normally charge.",
+        "zh": "一名學生未經同意，複製本地插畫師的海報用於收費活動。主辦者說這是沒有受害者的行為，但插畫師失去了原本可收取的費用。",
+        "promptZh": "為何主辦者稱它為 victimless act 不準確？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The illustrator lost a fee for work used at a paid event.",
+            "zh": "插畫師的作品被用於收費活動，卻失去應收的費用。"
+          },
+          {
+            "id": "b",
+            "en": "The student paid the illustrator before using the image.",
+            "zh": "學生使用圖片前已付費給插畫師。"
+          },
+          {
+            "id": "c",
+            "en": "The poster was drawn by the event organiser.",
+            "zh": "海報是活動主辦者親自繪製的。"
+          },
+          {
+            "id": "d",
+            "en": "The illustrator had agreed to offer the poster free of charge.",
+            "zh": "插畫師已同意免費提供海報。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情境明確指出插畫師失去原本可收取的費用，因此不能說完全無人受影響。"
+      },
+      "reply": {
+        "promptEn": "Why should the school ask before printing a photographer’s image on tickets? The photographer owns the image, usually charges for this use, and has not agreed to waive the fee.",
+        "promptZh": "（學校為何應先詢問攝影師，才把照片印在門票上？攝影師擁有該照片，通常會就此用途收費，而且未同意免收費用。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The image belongs to the photographer, so permission matters.",
+            "zh": "照片屬於攝影師，因此應取得許可。"
+          },
+          {
+            "id": "b",
+            "en": "Using the image without paying could cost the photographer a fee.",
+            "zh": "未付費使用照片，可能令攝影師失去收入。"
+          },
+          {
+            "id": "c",
+            "en": "Printing it without consent is not a victimless act.",
+            "zh": "未經同意印製照片，並非沒有受害者的行為。"
+          },
+          {
+            "id": "d",
+            "en": "The school can ask whether the photographer would license it.",
+            "zh": "學校可以詢問攝影師是否願意授權使用。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都符合擁有權、收費習慣與未獲同意的情境；金句指出損失不應被忽略。"
+      },
+      "scene": {
+        "promptZh": "一個商店把插畫師的作品印在商品上出售，沒有取得許可，也沒有支付原本談好的授權費。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It is not a victimless act because the illustrator loses the agreed fee.",
+            "zh": "這並非沒有受害者的行為，因為插畫師失去了談好的授權費。"
+          },
+          {
+            "id": "b",
+            "en": "It is victimless because the shop sold only a small number of items.",
+            "zh": "這沒有受害者，因為商店只賣出少量商品。"
+          },
+          {
+            "id": "c",
+            "en": "No one is affected because the illustrator did not visit the shop.",
+            "zh": "插畫師沒有去商店，所以沒有人受影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "作品被出售而原本談好的費用未付，受影響者與損失都清楚。"
+      },
+      "contrast": {
+        "promptZh": "哪一項資料最能支持「這不是 victimless act」？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser says the design looks attractive.",
+            "zh": "主辦者說設計很好看。"
+          },
+          {
+            "id": "b",
+            "en": "The maker lost an agreed payment when others used the design.",
+            "zh": "別人使用設計後，創作者失去了談好的報酬。"
+          },
+          {
+            "id": "c",
+            "en": "Many people shared the image online, but no one knows its origin.",
+            "zh": "很多人分享圖片，但沒有人知道來源。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "談好的報酬未支付，能具體指出誰承受甚麼損失；吸引人或廣傳本身不足以證明傷害。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「偷偷把校刊插圖拿去賣又沒有人投訴，應該沒事吧？」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Lack of complaints does not make it a victimless act; the student artist may lose payment or control of the work.",
+            "zh": "沒有人投訴，不等於沒有受害者；學生畫家可能失去報酬，或無法控制作品如何被使用。"
+          },
+          {
+            "id": "b",
+            "en": "No complaint proves the student artist approved the sale.",
+            "zh": "沒有人投訴就證明學生畫家同意出售。"
+          },
+          {
+            "id": "c",
+            "en": "The buyer must have created the illustration.",
+            "zh": "買家一定是插圖的創作者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "沒有即時投訴不等於獲得同意，也不能排除創作者的損失。"
+      },
+      "speaking": {
+        "en": "Copying the photographer’s image for a paid poster is not a victimless act if she loses a licensing fee.",
+        "zh": "若攝影師因此失去授權費，把她的照片複製到收費海報上就並非沒有受害者的行為。",
+        "promptZh": "先聽完整示範，再指出可辨認的受影響者與損失。",
+        "targetSpan": {
+          "start": 60,
+          "end": 74
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：咖啡店未經同意，把一名設計師的標誌印在限量杯上出售；設計師本來會就商業使用收取費用。用一至兩句英文指出為何「沒有人受影響」的說法不成立。",
+        "selfCheckZh": "寫出具體受影響者與可能失去的費用；不要推測未提供的其他損失。",
+        "examples": [
+          {
+            "en": "Using the designer’s logo on cups for sale is not a victimless act, because the designer could lose a commercial-use fee.",
+            "zh": "把設計師的標誌印在杯上出售並非沒有受害者的行為，因為設計師可能失去商業使用費。"
+          },
+          {
+            "en": "The café should seek permission before selling the limited-edition cups; calling the unapproved use a victimless act ignores the designer’s fee.",
+            "zh": "咖啡店出售限量版杯子前應取得許可；把未經批准的使用稱為沒有受害者的行為，忽略了設計師應收的費用。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the designer’s logo",
+            "zh": "設計師的標誌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 25
+            }
+          },
+          {
+            "en": "cups for sale",
+            "zh": "出售的杯子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 42
+            }
+          },
+          {
+            "en": "a commercial-use fee",
+            "zh": "商業使用費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 120
+            }
+          },
+          {
+            "en": "seek permission",
+            "zh": "取得許可",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 31
+            }
+          },
+          {
+            "en": "the limited-edition cups",
+            "zh": "限量版杯子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 71
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Before calling something a victimless act, check who may bear a real cost.",
+          "zh": "稱某件事為沒有受害者的行為前，要先查清誰可能承受實際損失。"
+        },
+        {
+          "en": "To challenge the label victimless act, name the affected person and the specific loss.",
+          "zh": "要質疑「沒有受害者的行為」這種說法，應指出受影響的人與具體損失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2703",
+      "number": 2703,
+      "inventoryId": "expr-2703",
+      "titleEn": "look for the back door",
+      "titleZh": "尋找非正規途徑",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:look|looks|looked|looking)\\s+for\\s+(?:the|a)\\s+back\\s+door\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Seek an indirect or unofficial way around a blocked formal route, rather than use a literal entrance.",
+        "meaningZh": "正式途徑受阻時，轉而尋找間接或非正規的繞路方法，而非真的找一扇門。",
+        "grammar": "Pattern: look/looks/looked/looking for the back door; the metaphorical object follows for. Context must establish a blocked official route and an attempted workaround.",
+        "register": "Informal-to-critical discussion of access: a platform manager tells a colleague why a blocked legal route may push users toward unofficial channels.",
+        "boundaryZh": "只表示有人尋找繞路途徑，不等於該途徑合法、安全或已經成功。",
+        "misconceptionZh": "不要把它理解為建築物後門，亦不要把任何正常替代方案都說成偷偷繞過規則。",
+        "outcomeZh": "能在正式途徑失效的情境，辨認有人企圖尋找非正規繞路方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0592",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 55,
+          "book": 11,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "locatorNote": "DOCX table 50, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Users may look for the back door if legal access fails.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "look for the back door"
+        }
+      ],
+      "listening": {
+        "en": "The official archive stopped offering a legal download and gave no alternative. Some users began looking for the back door through unofficial sharing groups.",
+        "zh": "官方資料庫停止提供合法下載，也沒有其他選擇。一些用戶開始透過非官方分享群組尋找繞路途徑。",
+        "promptZh": "用戶 looking for the back door，意思是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They are seeking an unofficial way around the blocked legal route.",
+            "zh": "他們正尋找非正式途徑，繞過受阻的合法渠道。"
+          },
+          {
+            "id": "b",
+            "en": "They are checking whether the archive building has a rear entrance.",
+            "zh": "他們正查看資料庫所在大樓有沒有後門。"
+          },
+          {
+            "id": "c",
+            "en": "They have found a new official download link offered by the archive.",
+            "zh": "他們已找到資料庫提供的新官方下載連結。"
+          },
+          {
+            "id": "d",
+            "en": "They have decided to stop looking for the material altogether.",
+            "zh": "他們決定完全不再尋找材料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "正式合法下載已停止，他們轉向非官方群組；這是尋找繞路方法，不是建築物後門。"
+      },
+      "reply": {
+        "promptEn": "Why are some viewers considering unofficial clips? The broadcaster removed its legal replay and has not offered another licensed way to watch.",
+        "promptZh": "（為何有觀眾考慮觀看非官方片段？電視台移除了合法重播，而且未提供其他獲授權的觀看途徑。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The legal replay is no longer available.",
+            "zh": "合法重播已不能觀看。"
+          },
+          {
+            "id": "b",
+            "en": "They cannot find another licensed viewing option.",
+            "zh": "他們找不到其他獲授權的觀看方法。"
+          },
+          {
+            "id": "c",
+            "en": "Some viewers may look for the back door when the official route closes.",
+            "zh": "官方途徑關閉後，有些觀眾可能尋找非正規繞路方法。"
+          },
+          {
+            "id": "d",
+            "en": "The lack of an official option may push them toward unofficial clips.",
+            "zh": "缺少官方選項，可能令他們轉向非官方片段。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據合法重播被移除、沒有授權替代方案的情境；金句用「後門」比喻非正規繞路。"
+      },
+      "scene": {
+        "promptZh": "線上展覽突然關閉免費入口，也未公布任何新的正式預約方法；部分人開始在私人群組交換非官方連結。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Some visitors are looking for the back door because no new official route has been published.",
+            "zh": "由於尚未公布新的官方途徑，部分訪客正尋找非正規方法。"
+          },
+          {
+            "id": "b",
+            "en": "The museum has clearly published a new official booking page.",
+            "zh": "博物館顯然已公布新的官方預約頁面。"
+          },
+          {
+            "id": "c",
+            "en": "Visitors are choosing the rear entrance of the physical museum.",
+            "zh": "訪客正在選擇實體博物館的後門。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "私人群組中的非官方連結是繞過受阻正式途徑的做法；不代表它安全或適當。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合形容為 look for the back door？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A user tries an unapproved account-sharing group after losing authorised access.",
+            "zh": "失去授權後，用戶嘗試未獲批准的帳戶分享群組。"
+          },
+          {
+            "id": "b",
+            "en": "A user uses the official help page to request access through the published process.",
+            "zh": "用戶按公布程序，在官方協助頁申請存取權。"
+          },
+          {
+            "id": "c",
+            "en": "A seller seeks a private route around the platform’s stated booking rules.",
+            "zh": "賣家找私人方法繞過平台公布的預約規則。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "按照官方公布程序申請，不是尋找非正規繞路途徑。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「合法資料庫不能登入，顧客開始問有沒有私人連結。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may look for the back door unless we restore a reliable official route; we should fix access.",
+            "zh": "若我們不恢復可靠的官方途徑，他們可能會尋找非正規方法；我們應修復存取問題。"
+          },
+          {
+            "id": "b",
+            "en": "A private link must be safe because customers asked for it.",
+            "zh": "既然顧客提出要求，私人連結就一定安全。"
+          },
+          {
+            "id": "c",
+            "en": "The login failure proves nobody needs the database anymore.",
+            "zh": "登入故障證明沒有人再需要資料庫。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應指出繞路風險，並提出修復官方途徑；不替私人連結背書。"
+      },
+      "speaking": {
+        "en": "When the official replay vanished, some viewers started looking for the back door through private links.",
+        "zh": "官方重播消失後，有些觀眾開始透過私人連結尋找非正規途徑。",
+        "promptZh": "先聽示範，再指出正式途徑怎樣受阻，以及用戶轉向哪裏。",
+        "targetSpan": {
+          "start": 56,
+          "end": 81
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區課程的正式報名網站故障，部分人打算透過未經核實的私人群組取得名額；主辦者仍可設置臨時官方表格。用一至兩句英文描述風險和較好的處理方法。",
+        "selfCheckZh": "指出有人可能尋找非正規途徑，同時提出可行的官方替代；不要把私人群組說成安全。",
+        "examples": [
+          {
+            "en": "With the registration site down, some applicants may look for the back door through unverified groups; the organiser should offer an official temporary form.",
+            "zh": "報名網站故障後，部分申請人可能透過未經核實的群組尋找非正規途徑；主辦者應提供臨時官方表格。"
+          },
+          {
+            "en": "Applicants are looking for the back door because the normal page has failed, so a verified replacement link would give them a safer route.",
+            "zh": "一般網頁故障，申請人正尋找非正規方法；提供經核實的替代連結，會給他們更安全的途徑。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the registration site",
+            "zh": "報名網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 26
+            }
+          },
+          {
+            "en": "unverified groups",
+            "zh": "未經核實的群組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 101
+            }
+          },
+          {
+            "en": "an official temporary form",
+            "zh": "臨時官方表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 156
+            }
+          },
+          {
+            "en": "the normal page",
+            "zh": "一般網頁",
+            "exampleIndex": 1,
+            "span": {
+              "start": 49,
+              "end": 64
+            }
+          },
+          {
+            "en": "a verified replacement link",
+            "zh": "經核實的替代連結",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 107
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Looking for the back door describes a workaround, not permission or safety.",
+          "zh": "尋找「後門」只是在描述繞路做法，不代表獲准或安全。"
+        },
+        {
+          "en": "People may look for the back door when a reliable official route disappears.",
+          "zh": "可靠的官方途徑消失時，人們可能尋找非正規的繞路方法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2708",
+      "number": 2708,
+      "inventoryId": "expr-2708",
+      "titleEn": "lose out",
+      "titleZh": "吃虧；失去應得利益",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing)\\s+out\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "End up disadvantaged or fail to receive a benefit that someone otherwise might have gained.",
+        "meaningZh": "最終處於劣勢，或失去原本可能得到的利益。",
+        "grammar": "Pattern: person/group lose/loses/lost/losing out; optional on + benefit or to + competitor can specify what is lost. The verb phrase is intransitive before those complements.",
+        "register": "Neutral everyday or economic comparison: an organiser tells a colleague which group bears the cost when a payment or opportunity is removed.",
+        "boundaryZh": "要說清楚誰因此少了利益或處於劣勢；沒有拿到喜歡的東西，不一定等於在比較中吃虧。",
+        "misconceptionZh": "lose out 不一定是比賽輸掉，也不表示受影響者完全沒有得到任何東西。",
+        "outcomeZh": "能指出一項決定令哪一方失去收入、機會或相對優勢。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0597",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 55,
+          "book": 11,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "locatorNote": "DOCX table 50, row 14; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Independent artists lose out when payments stop.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose out"
+        }
+      ],
+      "listening": {
+        "en": "The streaming service changed its payment rules and paid small musicians less for the same plays. The musicians lost out while the platform kept more revenue.",
+        "zh": "串流平台修改付款規則後，播放次數相同的小型音樂人卻收得更少。平台保留更多收入，音樂人因而吃虧。",
+        "promptZh": "小型音樂人 lost out，是因為甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They received less money for the same number of plays.",
+            "zh": "同樣播放次數，他們卻收到較少款項。"
+          },
+          {
+            "id": "b",
+            "en": "They stopped making music before the rule changed.",
+            "zh": "規則改變前，他們已停止創作音樂。"
+          },
+          {
+            "id": "c",
+            "en": "The platform paid them more than before.",
+            "zh": "平台支付的款項比以前更多。"
+          },
+          {
+            "id": "d",
+            "en": "The audience listened to their songs more often.",
+            "zh": "聽眾比以前更常聽他們的歌曲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "付款規則令他們在相同播放量下收入減少，因此吃虧。"
+      },
+      "reply": {
+        "promptEn": "Why are independent tutors worried about the new booking fee? Every tutor must now pay it, and their earnings per lesson fall while the agency keeps the fee.",
+        "promptZh": "（獨立導師為何擔心新的預約費？每位導師都要支付，令每堂收入下降，而中介機構收取這筆費用。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fee reduces what each tutor takes home per lesson.",
+            "zh": "這筆費用減少了導師每堂實收的金額。"
+          },
+          {
+            "id": "b",
+            "en": "The agency keeps money that used to remain with the tutors.",
+            "zh": "中介機構收取了原本會留在導師手中的款項。"
+          },
+          {
+            "id": "c",
+            "en": "Independent tutors lose out under the new fee.",
+            "zh": "新收費令獨立導師吃虧。"
+          },
+          {
+            "id": "d",
+            "en": "Their lesson earnings fall even though they still teach the lessons.",
+            "zh": "即使導師照常授課，每堂收入仍下降。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據新預約費導致導師收入下降；金句用 lose out 概括誰因此吃虧。"
+      },
+      "scene": {
+        "promptZh": "市集把小攤位的抽成提高，客流量卻沒有改變；主辦方因此收得更多，小攤主每單實收更少。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Small stallholders lose out under the higher commission.",
+            "zh": "抽成提高令小攤主吃虧。"
+          },
+          {
+            "id": "b",
+            "en": "Small stallholders gain more money from each unchanged sale.",
+            "zh": "銷售情況不變，小攤主每單賺得更多。"
+          },
+          {
+            "id": "c",
+            "en": "The organiser loses all of its commission.",
+            "zh": "主辦方失去所有抽成收入。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "客流量不變但每單實收下降，吃虧的是小攤主。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不適合說小型創作者 lose out？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The platform raises its cut while paying creators less for identical sales.",
+            "zh": "平台提高抽成，令創作者在相同銷量下收得更少。"
+          },
+          {
+            "id": "b",
+            "en": "The platform lowers its cut and creators receive more for each sale.",
+            "zh": "平台降低抽成，創作者每單收得更多。"
+          },
+          {
+            "id": "c",
+            "en": "A new rule removes a payment that creators previously received.",
+            "zh": "新規定取消了創作者原本會收到的款項。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "創作者每單收入增加，沒有在這項改動中吃虧。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新訂票制度令場地方保留更多收入，演出者每張票所得卻減少。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Performers lose out if they receive less per ticket while the venue keeps more.",
+            "zh": "若場地方收得更多、演出者每張票卻分得更少，吃虧的是演出者。"
+          },
+          {
+            "id": "b",
+            "en": "Then the performers must be earning more per ticket.",
+            "zh": "那演出者每張票一定收得更多。"
+          },
+          {
+            "id": "c",
+            "en": "The change proves ticket sales have doubled.",
+            "zh": "這項改動證明票房增加了一倍。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "已知分成變化足以指出誰處於劣勢；沒有資料支持收入上升或票房翻倍。"
+      },
+      "speaking": {
+        "en": "Small performers lose out when a new booking charge cuts their pay per ticket.",
+        "zh": "新的訂票費令小型演出者每張票分得更少，他們因此吃虧。",
+        "promptZh": "先聽示範，再指出哪一方實收減少。",
+        "targetSpan": {
+          "start": 17,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：外賣平台增加向餐廳收取的每單服務費，顧客訂單量不變；小餐廳每單實收減少。用一至兩句英文比較平台與餐廳的處境。",
+        "selfCheckZh": "指出餐廳在相同訂單量下實收減少，以及平台收取更高費用；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "Small restaurants lose out because the platform charges a higher fee on each order while order numbers stay the same.",
+            "zh": "訂單量不變，但平台每單收取更高費用，因此小餐廳吃虧。"
+          },
+          {
+            "en": "The delivery platform collects more per order, so local restaurants lose out on earnings even without a fall in customer orders.",
+            "zh": "外賣平台每單收得更多，因此即使顧客訂單沒有減少，本地餐廳仍會因收入減少而吃虧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the platform",
+            "zh": "平台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 47
+            }
+          },
+          {
+            "en": "a higher fee",
+            "zh": "更高費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 68
+            }
+          },
+          {
+            "en": "order numbers stay the same",
+            "zh": "訂單量保持不變",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 116
+            }
+          },
+          {
+            "en": "The delivery platform",
+            "zh": "外賣平台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "local restaurants",
+            "zh": "本地餐廳",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 67
+            }
+          },
+          {
+            "en": "a fall in customer orders",
+            "zh": "顧客訂單減少",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "When someone loses out, name the benefit or advantage they no longer receive.",
+          "zh": "說某人吃虧時，要指出他失去了甚麼利益或優勢。"
+        },
+        {
+          "en": "Creators lose out when a rule cuts their pay for the same work.",
+          "zh": "規則令創作者做同樣工作卻收得更少，他們便吃虧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2718",
+      "number": 2718,
+      "inventoryId": "expr-2718",
+      "titleEn": "hits differently",
+      "titleZh": "帶來不同感受",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:hit|hits|hitting)\\s+differently\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Feels or affects someone in a distinct way because the context or listener has changed, without necessarily being stronger.",
+        "meaningZh": "因情境或聆聽者的經歷改變，而帶來不同的感受；不一定較強烈。",
+        "grammar": "Pattern: a song, story or familiar event hits differently when/after + changed context; hit/hits/hitting are verb forms, differently is the adverb.",
+        "register": "Contemporary informal spoken review: one listener tells a friend how the same song feels different after a personal experience.",
+        "boundaryZh": "重點是同一事物在新情境下產生不同感受；單純音量變大或品質提升，不一定適合。",
+        "misconceptionZh": "hit 並非實際撞擊；differently 也不自動表示更好、更差或更悲傷。",
+        "outcomeZh": "能指出同一作品或事件在哪個新情境下帶來不同的情緒效果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0607",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 15,
+          "sample": "S2",
+          "sourceBookPages": "40–42",
+          "locatorNote": "DOCX table 51, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The song hits differently when you hear it at home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hits differently"
+        }
+      ],
+      "listening": {
+        "en": "Maya used to hear the song as a cheerful tune. After moving away from home, its lyrics about familiar streets hit differently: they now made her miss her neighbourhood.",
+        "zh": "Maya 以前只覺得那首歌旋律輕快。搬離家後，歌詞提到熟悉街道，帶給她不同的感受：她現在會想念舊社區。",
+        "promptZh": "為何歌詞現在 hit differently？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her move changed what the familiar streets mean to her.",
+            "zh": "搬家後，熟悉街道對她有了不同意義。"
+          },
+          {
+            "id": "b",
+            "en": "The singer replaced the lyrics with a new recording.",
+            "zh": "歌手在新錄音中換了歌詞。"
+          },
+          {
+            "id": "c",
+            "en": "The song became much louder than before.",
+            "zh": "這首歌的音量比以前大得多。"
+          },
+          {
+            "id": "d",
+            "en": "Maya had never heard the tune before moving.",
+            "zh": "Maya 搬家前從未聽過那段旋律。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "歌曲未變，變的是 Maya 搬家後的經歷與感受。"
+      },
+      "reply": {
+        "promptEn": "Why does the old school anthem feel different to Jonah now? He has graduated, and hearing it at a reunion reminds him of friends he no longer sees every day.",
+        "promptZh": "（為何舊校歌現在令 Jonah 有不同感受？他已畢業，在舊生聚會聽到校歌時，想起現在不再天天見面的朋友。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Graduating changed what the familiar tune brings to mind.",
+            "zh": "畢業改變了熟悉旋律令他想起的事。"
+          },
+          {
+            "id": "b",
+            "en": "The anthem reminds him of friends he misses seeing daily.",
+            "zh": "校歌令他想起那些不能再天天見面的朋友。"
+          },
+          {
+            "id": "c",
+            "en": "The same anthem hits differently at the reunion.",
+            "zh": "同一首校歌在舊生聚會上帶來不同感受。"
+          },
+          {
+            "id": "d",
+            "en": "He now hears the tune in a setting connected with memories of school.",
+            "zh": "他現在是在與校園回憶有關的場合聽到旋律。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據畢業後在舊生聚會重聽校歌的情境；金句指出同一作品因經歷而改變感受。"
+      },
+      "scene": {
+        "promptZh": "一位讀者小時候把故事中的離別當成普通情節；多年後自己搬到外地，再讀同一段時覺得特別貼身。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The passage hits differently after the reader’s move.",
+            "zh": "讀者搬家後，這段文字帶來不同感受。"
+          },
+          {
+            "id": "b",
+            "en": "The author secretly replaced the passage with new words.",
+            "zh": "作者暗中把段落改寫成新文字。"
+          },
+          {
+            "id": "c",
+            "en": "The reader now reads the passage at a higher volume.",
+            "zh": "讀者現在用更大聲音讀這段文字。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "文字沒有改變；個人經歷令同一段文字的情緒效果不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個情境最不適合說一首歌 hits differently？",
+        "options": [
+          {
+            "id": "a",
+            "en": "After becoming a parent, a listener hears a familiar lullaby with new tenderness.",
+            "zh": "成為家長後，聽眾聽熟悉搖籃曲時感到新的溫柔。"
+          },
+          {
+            "id": "b",
+            "en": "The same recording is played through a louder speaker, but the listener’s feelings stay the same.",
+            "zh": "同一錄音透過更大聲的喇叭播放，聽眾感受卻沒有改變。"
+          },
+          {
+            "id": "c",
+            "en": "At a reunion, an old song brings back memories that once seemed unimportant.",
+            "zh": "舊生聚會上，老歌勾起從前不覺重要的回憶。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "音量改變而感受不變，不是本課所說的情緒效果改變。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「同一首家鄉歌，以前只覺得好聽；離開城市後再聽，卻想起很多人。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It hits differently now that the song carries memories of people you miss.",
+            "zh": "如今這首歌連着你想念的人，聽來自然有不同感受。"
+          },
+          {
+            "id": "b",
+            "en": "Then the song must have changed its melody.",
+            "zh": "那這首歌的旋律一定改了。"
+          },
+          {
+            "id": "c",
+            "en": "A different feeling proves the song is objectively better now.",
+            "zh": "感受不同，證明歌曲現在客觀上更好。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新經歷改變了聽歌感受；不能因此推定旋律已改或作品客觀上更好。"
+      },
+      "speaking": {
+        "en": "The same childhood song hits differently after I moved away from my old neighbourhood.",
+        "zh": "搬離舊社區後，同一首童年歌曲令我有不同感受。",
+        "promptZh": "先聽示範，再說明作品未變、個人情境如何改變。",
+        "targetSpan": {
+          "start": 24,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名學生以前把祖母的食譜當成普通紙張；學會煮那道菜後再讀，會想起與祖母一起下廚的日子。用一至兩句英文描述同一食譜帶來的新感受。",
+        "selfCheckZh": "說明食譜沒有改變，但學生的經歷或回憶改變了閱讀時的感受；正確使用本課表達。",
+        "examples": [
+          {
+            "en": "The old recipe hits differently now that I can cook the dish and remember afternoons beside my grandmother.",
+            "zh": "現在我懂得煮這道菜，又想起陪伴祖母的午後，舊食譜便帶來不同感受。"
+          },
+          {
+            "en": "After learning the dish, the same handwritten recipe hits differently because each line recalls our time together in the kitchen.",
+            "zh": "學會這道菜後，同一張手寫食譜帶來不同感受，因為每一行都喚起我們在廚房共度的時光。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old recipe",
+            "zh": "舊食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "cook the dish",
+            "zh": "煮這道菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 60
+            }
+          },
+          {
+            "en": "afternoons beside my grandmother",
+            "zh": "陪伴祖母的午後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 106
+            }
+          },
+          {
+            "en": "the same handwritten recipe",
+            "zh": "同一張手寫食譜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 52
+            }
+          },
+          {
+            "en": "our time together in the kitchen",
+            "zh": "我們在廚房共度的時光",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 128
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A familiar song can hit differently when the listener’s life changes.",
+          "zh": "聽眾的生活改變後，熟悉歌曲也可能帶來不同感受。"
+        },
+        {
+          "en": "A story hits differently in a new personal context; the phrase does not automatically mean better or stronger.",
+          "zh": "故事在新的個人情境下可帶來不同感受；這個表達不自動表示更好或更強烈。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

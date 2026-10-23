@@ -1,0 +1,59 @@
+{
+  "reviewType": "AI split integrity record",
+  "humanApproval": false,
+  "selectionManifestEdited": false,
+  "releaseEdited": false,
+  "method": "SHA-256 of UTF-8 JSON serialized with sorted keys, no spaces, Chinese preserved; direct before/after equality asserted for pilot-1 four lesson bodies. Pilot-2 file itself was unchanged by the split.",
+  "fileHashes": {
+    "batch-2724-2744-review-pilot-1.json": "ef4784a31d8e9a1d32b0dcf53cc5b9ec388b2756c716c20d039a50af8f1afe43",
+    "batch-2724-2744-review-pilot-2.json": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5",
+    "batch-2734-review-pilot-owner-hold.json": "5c76544ee241b6b30af8b81d2f42369e0e7d636f3df579f47db0de5a4f90ab1f"
+  },
+  "lessonHashes": [
+    {
+      "sourceOrdinal": 2724,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json",
+      "lessonCanonicalJsonSha256": "229c18af2dc5099749e4f51529aab533a135e09459852ecd8dabeff909dbf18c"
+    },
+    {
+      "sourceOrdinal": 2726,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json",
+      "lessonCanonicalJsonSha256": "02130b95ead99010e3e383225ef180eab27b066e119af2d6f6f009568b52dd7d"
+    },
+    {
+      "sourceOrdinal": 2734,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2734-review-pilot-owner-hold.json",
+      "lessonCanonicalJsonSha256": "3b5a479b26bd2f50a9b00b6ddc38b453984cab5e87446d39c0ef364bd44857a0"
+    },
+    {
+      "sourceOrdinal": 2737,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json",
+      "lessonCanonicalJsonSha256": "7fa8aa39e605146b5a5a181e2f3519f4cf68bc4b8cc2de498c9a4fb72b017023"
+    },
+    {
+      "sourceOrdinal": 2739,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "lessonCanonicalJsonSha256": "b63c00055f34e1dac938c12eae9ec569fe48bddd0c8f9a13edebc8ee10c0e54a"
+    },
+    {
+      "sourceOrdinal": 2741,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "lessonCanonicalJsonSha256": "4c49a8b42ef02b33252ab8aa16b4860e6a399f4b1ab3a7694c1ebe3efe173a28"
+    },
+    {
+      "sourceOrdinal": 2742,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "lessonCanonicalJsonSha256": "3c6505448734e0c5d57554f3158adbaf0d5339496da6625a7a914476da0fb3ca"
+    },
+    {
+      "sourceOrdinal": 2744,
+      "file": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "lessonCanonicalJsonSha256": "a3837b6b657fe224fef939bf9fd21dad583b491d77ba359154e90635e3a71385"
+    }
+  ],
+  "buildChecks": {
+    "sevenRetained": "7 lessons, 42 questions, 28 audio requests, zero flags; build and --check pass",
+    "held2734": "1 lesson, 6 questions, 4 audio requests, zero flags; build and --check pass"
+  },
+  "ownerHold": "2734 remains unselected pending human comparison with canonical 116"
+}

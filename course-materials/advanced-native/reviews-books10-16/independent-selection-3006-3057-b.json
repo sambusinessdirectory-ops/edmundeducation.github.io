@@ -1,0 +1,16 @@
+{
+  "reviewType": "Independent eight-lesson selection and manifest verification",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "selectedDraft": "f06fce480fc8a510de4ebb8d54aba04cc2d6a10ad2e36d9e76bc5caa4af96cff",
+    "independentContentFollowup": "00faea49987cdd70126bb057dc8e6fa57feaaea0259bb5b8add526b96ad1040d",
+    "selectionManifest": "0edc415149b3aebb807ce7bf1fe93b24567bdd8bacccc5dcc5e4733ac8ded2b3"
+  },
+  "selectedOrdinals": [3006, 3014, 3040, 3046, 3047, 3048, 3050, 3057],
+  "heldOrdinalsExcluded": [2734, 2736],
+  "manifestCheck": "The manifest includes the reviewed batch-3006-3057-a.json file and exactly its eight expected source ordinals for this addition; neither held draft file nor held ordinal is selected.",
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "fullVerifier": {"pilotDrafts": 170, "pilotQuestions": 1020, "pilotAudioRequests": 680, "wholeCatalogueSchemaErrors": 0, "pilotNearDuplicateFlags": 0, "published": false, "releaseApproved": false},
+  "finding": "No selection or generated-content defect found. Prior independent content issues were cleared in the exact selected draft. Device, generated-media listening, human editorial approval and publication remain separate gates."
+}

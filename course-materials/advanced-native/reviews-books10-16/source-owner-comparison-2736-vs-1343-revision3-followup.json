@@ -1,0 +1,20 @@
+{
+  "reviewType": "AI author response to independent owner-scope finding R2736-01",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draft": "course-materials/advanced-native/drafts-books10-16/batch-2736-review-pilot.json",
+  "draftSha256": "0cbb349df8c53618f3a199e364f96923fb019d3d6d6753c0b9519405b9dec731",
+  "contentRevision": 3,
+  "independentReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2736-b.json",
+  "independentReviewSha256": "e39e4c3b9068c2a8706020530b86f87dd493cc32cfe27578ee5471603a9aae0e",
+  "findingAddressed": "R2736-01: prior draft's assessed choices largely repeated canonical 1343's day/night coverage, rotating shifts and overnight-gap checks instead of requiring the adverbial construction.",
+  "revisions": [
+    "Scene now distinguishes technicians working around the clock to repair sensors from a claim of round-the-clock supervision of the site.",
+    "Contrast now directly asks for around the clock after a work verb versus hyphenated time modifiers before nouns; all three English options are grammatical, so the decision is construction rather than a grammar-error giveaway.",
+    "Dialogue now corrects a colleague's unsupported claim of round-the-clock editorial supervision while preserving actual day/night technical updates.",
+    "Speaking and final writing now separate the day/night update work from daytime-only editorial review, with exact source-answer glossary spans recalculated.",
+    "Brief boundaries and takeaways explicitly distinguish action timing from oversight and completed outcomes."
+  ],
+  "checks": "Focused build and --check pass: one lesson, six questions, four audio text requests, zero review flags. Author checks found exact source detector, keyed scene/dialogue target, speaking highlight and glossary spans intact.",
+  "remainingGate": "Independent exact-hash editorial recheck of revision 3 and human owner-scope sign-off; lesson remains unselected and unpublished."
+}

@@ -1,0 +1,22 @@
+{
+  "reviewType": "Exact-hash independent follow-up of four writing findings",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [3006, 3014, 3040, 3046, 3047, 3048, 3050, 3057],
+  "inputHashes": {
+    "repairedDraft": "f06fce480fc8a510de4ebb8d54aba04cc2d6a10ad2e36d9e76bc5caa4af96cff",
+    "repairedAuthorSelfAudit": "1a9a68213ecc961ba1741d299c31f7ea7fca6890d4d3d5fd4ba69f815c1fd66e",
+    "originalIndependentReview": "f1e455e7456c59527ef00b6dd14f86a5cd74b8f5a086a0a85221d09af3180da4"
+  },
+  "rechecks": [
+    {"finding": "R3006-01", "status": "cleared", "evidence": "Both English models now identify the venue choice before the target pronoun; each still makes the prior one-street versus current three-neighbourhood comparison."},
+    {"finding": "R3046-01", "status": "cleared", "evidence": "Both English models identify local trade history as the field; the Traditional Chinese matches without adding a different subject, and the verification step remains conditional."},
+    {"finding": "R3047-01", "status": "cleared", "evidence": "The second model now introduces Maya's short-video habit before `keep it in check`, while retaining the half-hour limit and continued moderate use."},
+    {"finding": "R3050-01", "status": "cleared", "evidence": "The first model now explicitly names a plan to grow sunflowers before `cling to it for dear life`, and retains shade evidence and the fern alternative."}
+  ],
+  "glossary": "All affected English glossary rows were rechecked against exact recorded spans in the revised answer sentences; target phrases remain excluded.",
+  "contentRevisions": {"3006": 2, "3046": 2, "3047": 2, "3050": 2},
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "remainingContentFindings": [],
+  "selectionRecommendation": "Independent content findings cleared for this unselected batch; human, audio-listening, browser/device and release checks remain separate."
+}

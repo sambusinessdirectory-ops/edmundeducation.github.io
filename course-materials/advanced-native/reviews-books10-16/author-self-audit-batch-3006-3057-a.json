@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-eight",
+  "createdUtc": "2026-10-23T11:52:40.194302+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+  "draftSha256": "f06fce480fc8a510de4ebb8d54aba04cc2d6a10ad2e36d9e76bc5caa4af96cff",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "audioQueueSha256": "82533d720e46729f92891415b858e0489653b734f95f2aff2563c191d3015eec",
+  "focusedBuild": "PASS: 8 lessons, 48 questions, 32 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "canonicalScreen": "All eight full guide sentences unmatched by existing canonical target detectors; near-sense checks against 1474 hold on to, 674 fade away, 355 disappear into thin air and 321 sink or swim identify different constructions/teaching decisions.",
+  "selectedOrPublished": false,
+  "humanReviewClaimed": false,
+  "rows": [
+    {
+      "sourceOrdinal": 3006,
+      "sourceExpression": "a lot more is riding on it",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3014,
+      "sourceExpression": "the road not taken",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3040,
+      "sourceExpression": "come up with",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3046,
+      "sourceExpression": "push the boundaries of understanding",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3047,
+      "sourceExpression": "keep it in check",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3048,
+      "sourceExpression": "wishful thinking",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3050,
+      "sourceExpression": "cling to it for dear life",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    },
+    {
+      "sourceOrdinal": 3057,
+      "sourceExpression": "sink without a trace",
+      "sourceSentenceExact": true,
+      "reviewedPatternMatchesSourceAndTeachingSurfaces": true,
+      "sevenStepsAndSixAssessedTasks": true,
+      "replyFourValidAuthorJudgment": "provisionally yes; independent review pending",
+      "keyedSceneAndDialogueTargetBearing": true,
+      "changedContextWritingExamples": 2,
+      "answerDerivedNonTargetGlossaryRows": 5,
+      "audioRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "reviewStatuses": "pending"
+    }
+  ],
+  "limitations": [
+    "Independent English, Traditional Chinese, assessment, and device review still pending.",
+    "No audio synthesis, upload, manifest selection or publication occurred."
+  ],
+  "updatedUtc": "2026-10-23T11:57:16.213217+00:00",
+  "independentReviewRepair": {
+    "reviewFile": "reviews-books10-16/independent-ai-review-3006-3057-b.json",
+    "findingsResolvedInDraft": [
+      "R3006-01",
+      "R3046-01",
+      "R3047-01",
+      "R3050-01"
+    ],
+    "lessonContentRevisions": {
+      "3006": 2,
+      "3014": 1,
+      "3040": 1,
+      "3046": 2,
+      "3047": 2,
+      "3048": 1,
+      "3050": 2,
+      "3057": 1
+    },
+    "status": "awaiting independent exact-hash recheck"
+  }
+}

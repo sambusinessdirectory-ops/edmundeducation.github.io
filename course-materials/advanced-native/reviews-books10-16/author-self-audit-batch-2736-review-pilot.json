@@ -1,0 +1,55 @@
+{
+  "reviewType": "AI author self-audit of one unpublished provisional lesson",
+  "lessonId": "advanced-native-2736",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-2736-review-pilot.json",
+  "draftSha256": "0cbb349df8c53618f3a199e364f96923fb019d3d6d6753c0b9519405b9dec731",
+  "checks": [
+    {
+      "name": "Exact source",
+      "result": "pass",
+      "evidence": "The guide sentence, expression, book and rendered page match source inventory book10-16-0625."
+    },
+    {
+      "name": "Separate-owner rationale",
+      "result": "provisional",
+      "evidence": "The unhyphenated adverbial around the clock follows works in the source. Prior canonical 1343 is the attributive noun phrase round-the-clock supervision. Both share continuous-time meaning; separate ownership remains a human sign-off gate. See source-owner-comparison-2736-vs-1343-review-pilot.json."
+    },
+    {
+      "name": "Seven distinct decisions",
+      "result": "author-pass-pending-independent-review",
+      "evidence": "Listening interprets repair effort, reply reports coverage without completion, scene applies the phrase to roads, contrast tests full day/night versus gaps, dialogue corrects an overstated claim, speaking models rotating work with unfinished output, and writing uses a new community-site update scenario."
+    },
+    {
+      "name": "Four-valid reply and keyed questions",
+      "result": "author-pass-pending-independent-review",
+      "evidence": "All four replies follow the explicit overlapping-shift and unfinished-testing prompt. Scene and dialogue keyed options match the target detector and preserve timing and outcome."
+    },
+    {
+      "name": "Chinese fidelity",
+      "result": "author-pass-pending-independent-review",
+      "evidence": "Manually checked the subject, day/night coverage, multiple workers, negation and not-yet-finished facts across passages, choices, models and explanations."
+    },
+    {
+      "name": "Target and glossary spans",
+      "result": "pass",
+      "evidence": "The target regex matches the complete source sentence and required target-bearing models; the speaking span is exact; five glossary entries are exact answer-derived spans outside the target."
+    },
+    {
+      "name": "Focused build and stale-output check",
+      "result": "pass",
+      "evidence": "Build and --check pass: one lesson, six questions, four audio text requests, zero review flags."
+    },
+    {
+      "name": "Human/media/device/release gates",
+      "result": "pending",
+      "evidence": "No human approval, audio synthesis/hearing QA, device QA, selection or live release has occurred for this draft."
+    }
+  ],
+  "contentRevision": 3,
+  "independentFindingResponse": {
+    "report": "course-materials/advanced-native/reviews-books10-16/source-owner-comparison-2736-vs-1343-revision3-followup.json",
+    "status": "R2736-01 addressed in author revision 3; independent recheck pending"
+  }
+}

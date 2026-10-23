@@ -13,6 +13,8 @@ const holdCoverage = JSON.parse(execFileSync(process.execPath, [resolve(root, 't
   cwd: root,
   encoding: 'utf8',
 }));
+const reconciliation = readFileSync(resolve(root, 'course-materials/advanced-native/books10-16/reconciliation-register.jsonl'), 'utf8')
+  .trim().split(/\r?\n/).map(line => JSON.parse(line));
 
 const errors = [];
 const expect = (condition, message) => { if (!condition) errors.push(message); };
@@ -47,9 +49,20 @@ expect(scope.includes(report.projectedDisplayRange), `Scope is missing display r
 
 const triage = report.provisionalEditorialTriage;
 const expectText = (section, text, message) => expect(section.includes(text), message);
+const initialStates = reconciliation.reduce((counts, row) => {
+  counts[row.state] = (counts[row.state] ?? 0) + 1;
+  return counts;
+}, {});
+for (const [state, phrase] of [
+  ['drafted-pending-review-audio-qa', 'drafted source occurrences'],
+  ['new-phrase-authoring-pending', 'other first-use authoring candidates'],
+  ['new-phrase-near-existing-review-pending', 'first-use near-prior candidates'],
+  ['exact-existing-phrase-sense-review-pending', 'exact-prior occurrences'],
+  ['repeat-in-new-source-sense-review-pending', 'remaining repeated-source occurrences'],
+]) expectText(scope, `${formatted(initialStates[state] ?? 0)} ${phrase}`, `Initial reconciliation count is stale for ${state}`);
 expectText(scope, `- New document: ${formatted(report.intakeRows)} source rows`, 'Source-row total is stale in the scope bullet');
 expectText(scope, `- Draft set: ${report.pilotDrafts} independently AI-reviewed`, 'Selected draft total is stale in the scope bullet');
-expectText(scope, `${formatted(report.pilotDrafts * 7)} steps, ${report.pilotQuestions} assessed questions, ${report.pilotDrafts * 2} writing examples and ${report.pilotAudioRequests} required audio roles`, 'Draft component totals are stale in the scope bullet');
+expectText(scope, `${formatted(report.pilotDrafts * 7)} steps, ${formatted(report.pilotQuestions)} assessed questions, ${formatted(report.pilotDrafts * 2)} writing examples and ${formatted(report.pilotAudioRequests)} required audio roles`, 'Draft component totals are stale in the scope bullet');
 expectText(scope, `${triage['proposed-new-lesson']} proposed new lessons, ${triage['proposed-alias-existing']} proposed aliases to existing lessons, ${triage['proposed-alias-new']} proposed aliases within this document, and ${triage['hold-editorial']} wording`, 'Provisional triage counts are stale in the scope bullet');
 expectText(scope, `${holdCoverage.provisionallyReclassified} of the earlier ${holdCoverage.originallyAuditedHolds} holds were provisionally reclassified`, 'Editorial-hold reclassification count is stale');
 expectText(scope, `The remaining ${holdCoverage.currentHolds} are still tracked`, 'Remaining editorial-hold count is stale');

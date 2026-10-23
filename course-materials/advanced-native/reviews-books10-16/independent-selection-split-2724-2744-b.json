@@ -1,0 +1,20 @@
+{
+  "reviewType": "Independent selected seven split and manifest verification",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "reviewedPreSplitPilot1": "5a3dbc8975175349b79f1b44cef2c298377437e8e4a687116625e63c4968f95d",
+    "reviewedPreSplitPilot2": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5",
+    "selectedPilot1": "ef4784a31d8e9a1d32b0dcf53cc5b9ec388b2756c716c20d039a50af8f1afe43",
+    "selectedPilot2": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5",
+    "held2734": "5c76544ee241b6b30af8b81d2f42369e0e7d636f3df579f47db0de5a4f90ab1f",
+    "selectionManifest": "5099e4f95bc13855aa685e48f34009df122b00f8b0bc7b8b0eec498ca622922d"
+  },
+  "selectedOrdinals": [2724, 2726, 2737, 2739, 2741, 2742, 2744],
+  "heldOrdinal": 2734,
+  "perLessonIdentity": "All eight lesson JSON objects match their reviewed pre-split equivalents; seven were retained in the selected batches and 2734 moved unchanged to a standalone hold file.",
+  "manifest": "Contains only the two seven-lesson split batch files and their seven expected source ordinals. Neither the 2734 hold file nor ordinal 2734 or 2736 is selected.",
+  "focusedBuild": {"lessons": 7, "questions": 42, "audioRequests": 28, "flags": 0, "checkPassed": true},
+  "fullVerifier": {"pilotDrafts": 162, "pilotQuestions": 972, "pilotAudioRequests": 648, "wholeCatalogueSchemaErrors": 0, "published": false, "releaseApproved": false},
+  "finding": "No split or selection defect found. Prior content review findings remain addressed at the identical lesson-body hashes; this is not human or release approval."
+}

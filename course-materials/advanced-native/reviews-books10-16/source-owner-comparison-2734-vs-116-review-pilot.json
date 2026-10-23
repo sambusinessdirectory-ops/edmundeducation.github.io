@@ -1,0 +1,29 @@
+{
+  "reviewType": "AI source and canonical owner-scope comparison requiring human sign-off",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinal": 2734,
+  "sourcePhrase": "in the public eye",
+  "sourceSentence": "The actor has remained in the public eye for years.",
+  "priorCanonicalId": "advanced-native-116",
+  "priorCanonicalPhrase": "in the spotlight",
+  "priorCanonicalSentence": "She felt uncomfortable being in the spotlight.",
+  "inputHashes": {
+    "sourceInventoryJsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalBatch0101To0125Json": "2c64e84e63cdc84a09cc887d72c81658ef982a251e47c3cc5bec5c825fad7f7d",
+    "standaloneUnselectedDraftJson": "5c76544ee241b6b30af8b81d2f42369e0e7d636f3df579f47db0de5a4f90ab1f"
+  },
+  "comparison": {
+    "sharedSense": "Both expressions can mean being publicly noticed; neither lexeme inherently guarantees longer duration, greater intensity, praise or disapproval.",
+    "sourceAndCanonicalContext": "The source explicitly adds for years and the canonical source foregrounds discomfort. Those are sentence-level facts, not intrinsic definitions of either phrase.",
+    "lexicalDifference": "The phrases have distinct stable wordings and target detectors. Canonical 116 teaches in the spotlight, while source 2734 uses in the public eye. The new draft teaches the latter phrase, but lexical difference alone is not proof of a distinct learner decision.",
+    "targetPatterns": {
+      "candidate": "\\bin\\s+the\\s+public\\s+eye\\b",
+      "canonical": "\\bin the spotlight\\b"
+    }
+  },
+  "recommendation": "Keep source 2734 in its standalone unselected batch pending explicit human owner-scope decision. If retained as a separate expression lesson, cross-reference canonical 116 as a close synonym and avoid a made-up duration or intensity distinction. If consolidated, preserve the exact source occurrence as an alias and ensure the detector/content can teach or recognise the source form; do not silently discard it.",
+  "reviewState": "AI editorial caution, not human approval",
+  "selectionManifestEdited": false,
+  "releaseEdited": false
+}

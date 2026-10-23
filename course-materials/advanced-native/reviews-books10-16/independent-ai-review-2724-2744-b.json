@@ -1,0 +1,51 @@
+{
+  "reviewId": "independent-ai-review-2724-2744-b",
+  "reviewType": "Independent exact-hash Golden SOP review of eight unpublished provisional lessons",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json": "5a3dbc8975175349b79f1b44cef2c298377437e8e4a687116625e63c4968f95d",
+    "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json": "820f60bed3c1cefd09a7118872572be9f7c84b3cace07f00902f33595db280ff"
+  },
+  "authorSelfAuditSha256": "e11f6f4e48cc26c33707725d3fc18a4ae09c507b36aa420964036e2b922d8a0f",
+  "lessonsReviewed": [2724, 2726, 2734, 2737, 2739, 2741, 2742, 2744],
+  "findings": [
+    {
+      "id": "R2739-01",
+      "lessonId": "advanced-native-2739",
+      "severity": "major",
+      "path": "listening.en / listening.zh",
+      "evidence": "The listening model says ‘the small artists’ fees stayed fixed’. ‘Small artists’ is unnatural and ambiguous for working artists, while the Chinese changes the referent to ‘小型美術團隊’ (a small art team). This is the first heard model for a lesson where separating publisher revenue from creators’ pay is decisive.",
+      "recommendedRepair": "Use a natural, stable referent such as ‘the illustrators’ fees stayed fixed’ and translate it as ‘插畫師的酬勞仍固定不變’. Keep the publisher-versus-creator distinction and recheck the audio text, answer and explanation."
+    },
+    {
+      "id": "R2741-01",
+      "lessonId": "advanced-native-2741",
+      "severity": "major",
+      "path": "writing.examples[0].en / writing.examples[0].zh / writing.examples[1].en / writing.examples[1].zh",
+      "evidence": "The new writing prompt says the photographer still takes assignments at a local studio. Both model answers turn this into a claim that her commissions or clients are local (‘takes local commissions’; ‘mainly local clients’). A studio's location does not establish the geographic source of its clients or commissions.",
+      "recommendedRepair": "Describe continued commissioned work through her studio without asserting where clients live, or explicitly add local clients to the writing prompt if that is the intended evidence. Preserve the gradual decline in national coverage and the target in both models; recompute any changed glossary spans."
+    },
+    {
+      "id": "R2744-01",
+      "lessonId": "advanced-native-2744",
+      "severity": "minor",
+      "path": "writing.examples[0].en / writing.examples[0].zh",
+      "evidence": "The first model says a twenty-minute lesson within a thirty-minute break ‘leaves time to pause before work resumes’; Chinese similarly says ‘有時間暫停’. Pausing does not require extra time, and the model fails to explain the prompt's real benefit: fitting within the break or resuming after an interruption.",
+      "recommendedRepair": "Say that the twenty-minute lesson fits the half-hour break and can be paused if the parent is interrupted, with matching Traditional Chinese. Recompute glossary spans if edited."
+    }
+  ],
+  "nearDuplicateAdvisory": {
+    "lessonId": "advanced-native-2734",
+    "existingCanonical": "advanced-native-116",
+    "observation": "Existing 116 ‘in the spotlight’ also means receiving public attention and already assesses visibility versus approval, while new 2734 ‘in the public eye’ assesses essentially the same sense with a different fixed expression. The new expression and detector are distinct, so this is not an automatic merge, but its brief only contrasts canonical 336 (‘bring something into the public eye’) and omits the closer 116 comparison.",
+    "recommendation": "Record an explicit human near-duplicate decision and, if retained, a short boundary or cross-reference explaining the lexical alternative and why a separate expression lesson is useful."
+  },
+  "checks": {
+    "sourceAndTarget": "All eight source IDs, exact sentences, book numbers and rendered pages match source-inventory.jsonl. Source, listening, golden reply, keyed scene/dialogue, speaking and both writing models match each lesson's detector. Proposed alias 4338 matches 2744's detector in its full source example.",
+    "sevenStepsAndKeys": "All eight have the ordered seven actions and six assessed questions. Four reply options per lesson are defensible as responses to their prompts, with one target-bearing golden option. The keyed scene and dialogue options are grounded and contain target spans; no ambiguous key was found.",
+    "chineseAndGlossary": "English and Traditional Chinese were inspected for subject, negation, modality, degree and temporal meaning. Every speaking span and five non-target answer-derived glossary spans per lesson validates exactly. The two writing-model issues above are content fidelity issues, not offset errors.",
+    "audio": "Generated queue has four distinct transcript texts and required roles per lesson. Actual MP3 generation, pronunciation and device layout were not reviewed.",
+    "collisionScreen": "All-discovered new-owner collision screen returned no records for these eight source ordinals; semantic near-synonym 2734/116 requires the manual comparison above.",
+    "build": "Focused build and --check of the two exact files passed: 8 lessons, 48 questions, 32 audio requests, zero structural review flags."
+  },
+  "conclusion": "Two major content-fidelity issues and one minor writing-model issue require repair and exact-hash recheck. These provisional drafts remain unselected and unpublished; human language, media and device review remain separate gates."
+}

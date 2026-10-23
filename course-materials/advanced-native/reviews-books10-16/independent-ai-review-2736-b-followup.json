@@ -1,0 +1,27 @@
+{
+  "reviewType": "Exact-hash independent follow-up of R2736-01",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinal": 2736,
+  "inputHashes": {
+    "revisedDraft": "0cbb349df8c53618f3a199e364f96923fb019d3d6d6753c0b9519405b9dec731",
+    "authorOwnerResponse": "8065247b9b7834ad9ce9d1147b442ebe0cb8d9bbb9149c51712a4d5e9ff2e8e2",
+    "authorSelfAudit": "214b8c0945dd1cc6270d59edbe7a9b1377710bcefbe3d3ca475e6b0d7911965f",
+    "originalIndependentReview": "e39e4c3b9068c2a8706020530b86f87dd493cc32cfe27578ee5471603a9aae0e"
+  },
+  "findingFollowup": {
+    "id": "R2736-01",
+    "status": "cleared-for-provisional-selection",
+    "evidence": "The scene now requires an action report of technicians repairing sensors rather than an unsupported supervision claim. The contrast directly asks for unhyphenated adverbial `work around the clock` versus hyphenated attributive `round-the-clock coverage` and `around-the-clock staff coverage`; all three are grammatical, so the key depends on construction rather than false English. The dialogue distinguishes night-time technician updates from daytime editorial supervision. Speaking and writing preserve that action-versus-supervision distinction. These decisions are now materially different from canonical 1343's narrow noun phrase `round-the-clock supervision` and shift-coverage enquiry, although the underlying day/night meaning overlaps."
+  },
+  "additionalChecks": {
+    "sourceAndOwner": "Exact source `The support team works around the clock.` is represented by the adverbial target; the canonical 1343 target detector does not cover this construction.",
+    "fourValidReplies": "All four answers respond to the temporary ferry-app repair and unfinished testing; only the golden answer uses the target phrase.",
+    "naturalEnglishAndTraditionalChinese": "Revised scene, contrast, dialogue, speaking and writing were checked for grammatical placement, implication, modality and Chinese fidelity; no remaining content blocker found.",
+    "glossaryAndSpeakingSpan": "All five glossary spans exactly match suggested answers and exclude the target; the speaking span exactly extracts `around the clock`.",
+    "audio": "Four distinct transcript roles are present; perceptual listening remains a later release gate."
+  },
+  "focusedBuild": {"lessons": 1, "questions": 6, "audioRequests": 4, "flags": 0, "checkPassed": true},
+  "remainingFindings": [],
+  "selectionRecommendation": "Provisional separate-lesson content is cleared for owner review and possible manifest selection. Shared time meaning should remain explicit in the human owner-scope decision; no human or release approval is implied."
+}

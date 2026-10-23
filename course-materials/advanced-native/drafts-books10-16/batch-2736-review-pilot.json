@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2736-review-pilot",
+  "lessons": [
+    {
+      "id": "advanced-native-2736",
+      "number": 2736,
+      "inventoryId": "expr-2736",
+      "titleEn": "around the clock",
+      "titleZh": "日夜不停地",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\baround\\s+the\\s+clock\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Continuously through daytime and nighttime, especially while a team is working on an urgent task.",
+        "meaningZh": "日間和夜間都持續進行，常用來形容團隊處理緊急工作的時段。",
+        "grammar": "Adverbial idiom around the clock follows a verb phrase: work/operate/update around the clock. It describes when work continues; unlike the attributive adjective round-the-clock in round-the-clock supervision, it does not modify a noun. Rotating shifts can cover the period.",
+        "register": "Informative and time-sensitive operations update: a project coordinator tells users that rotating teams are working through day and night, while avoiding any claim that the task is already finished.",
+        "boundaryZh": "around the clock 跟在工作動詞後，說明工作跨越日夜；不要因此推斷現場亦有全天候監督，或工作已完成。",
+        "misconceptionZh": "只工作到深夜但凌晨到早上停工，不能算 around the clock；不要把連續努力誤寫成已完成的成果。",
+        "outcomeZh": "能把日夜進行的工作動作說清楚，並與形容名詞的 round-the-clock supervision 區分，同時避免誇大工作成果。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0625",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The support team works around the clock.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "around the clock"
+        }
+      ],
+      "listening": {
+        "en": "After a storm damaged the concert hall, separate day and night crews repaired the sound system for two days. They worked around the clock, but the hall was not ready to reopen yet.",
+        "zh": "暴風雨損壞音樂廳後，日更和夜更團隊輪流修理音響系統，持續兩天。他們日夜不停地工作，但場館尚未準備好重開。",
+        "promptZh": "團隊 worked around the clock 代表甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Different crews kept the repair work going through day and night.",
+            "zh": "不同團隊讓修理工作日夜持續。"
+          },
+          {
+            "id": "b",
+            "en": "One technician stayed awake and worked alone for two days.",
+            "zh": "一名技術員獨自不睡覺工作了兩天。"
+          },
+          {
+            "id": "c",
+            "en": "The hall reopened as soon as the first shift started.",
+            "zh": "第一更開始時，場館便重開了。"
+          },
+          {
+            "id": "d",
+            "en": "Repairs stopped every evening and resumed the next morning.",
+            "zh": "修理工作每晚停止，翌日早上才恢復。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目明示日夜不同團隊接力，亦明說場館尚未重開。"
+      },
+      "reply": {
+        "promptEn": "What can we tell ferry-app users about the urgent fix? Developers are covering day and night in overlapping shifts for three days, and the new version is still being tested.",
+        "promptZh": "（我們可怎樣向渡輪程式用戶交代緊急修復？開發人員連續三天以重疊的日更和夜更工作，新版本仍在測試。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Different developers cover both the daytime and overnight hours.",
+            "zh": "不同開發人員分別負責日間及通宵時段。"
+          },
+          {
+            "id": "b",
+            "en": "The team is working around the clock while testing continues.",
+            "zh": "團隊正日夜不停地工作，而測試仍在進行。"
+          },
+          {
+            "id": "c",
+            "en": "The service is not fixed yet despite the continuous work.",
+            "zh": "即使工作持續，服務仍未修好。"
+          },
+          {
+            "id": "d",
+            "en": "Overlapping shifts keep the repair effort moving through the night.",
+            "zh": "重疊輪班讓修復工作在夜間也持續。"
+          }
+        ],
+        "goldenId": "b",
+        "explanationZh": "四句都根據日夜輪值與測試尚未完成；金句描述工作時段，不把努力說成完成。"
+      },
+      "scene": {
+        "promptZh": "暴雨後，兩組技術員日夜輪班修理橋樑感應器；他們負責維修，沒有安排全天候現場監督。編輯要描述正在進行的工作。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The technicians are working around the clock to repair the bridge sensors.",
+            "zh": "技術員正日夜不停地修理橋樑感應器。"
+          },
+          {
+            "id": "b",
+            "en": "The repair site has round-the-clock supervision, but no technicians are repairing the sensors.",
+            "zh": "維修地點有全天候監督，但沒有技術員修理感應器。"
+          },
+          {
+            "id": "c",
+            "en": "Every sensor repair was completed before the first shift began.",
+            "zh": "所有感應器維修都在第一更開始前已完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "情境說的是技術員日夜進行維修；沒有全天候監督，也沒有說工程已完成。A 把 around the clock 放在工作動詞後。"
+      },
+      "contrast": {
+        "promptZh": "哪句把 around the clock 放在工作動詞後，描述日夜進行的動作，而不是用連字號片語形容名詞？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The technicians work around the clock during the repair.",
+            "zh": "維修期間，技術員日夜不停地工作。"
+          },
+          {
+            "id": "b",
+            "en": "The technicians provide round-the-clock coverage during the repair.",
+            "zh": "維修期間，技術員提供全天候的覆蓋安排。"
+          },
+          {
+            "id": "c",
+            "en": "The repair site has around-the-clock staff coverage.",
+            "zh": "維修地點設有全天候的人員覆蓋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "A 的 around the clock 跟在 work 後修飾工作動作；B、C 的連字號片語則放在名詞前作形容詞。三句都可能描述日夜時段，但語法位置不同。"
+      },
+      "dialogue": {
+        "promptZh": "同事擬寫「The website has round-the-clock supervision」。實際安排是技術員日夜輪班更新交通資料，但編輯只在日間審稿。你會怎樣修訂？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say the technicians update the site around the clock; editorial supervision still happens only by day.",
+            "zh": "應說技術員日夜不停地更新網站；編輯監督仍只在日間進行。"
+          },
+          {
+            "id": "b",
+            "en": "Say the site has round-the-clock editorial supervision because technicians update it at night.",
+            "zh": "應說網站有全天候編輯監督，因為技術員在夜間更新資料。"
+          },
+          {
+            "id": "c",
+            "en": "Say no updates happen overnight because the editors leave in the evening.",
+            "zh": "應說晚上編輯離開後就沒有任何通宵更新。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日夜更新的是技術員的工作；編輯只在日間審稿。A 準確修飾更新動作，沒有把它誤寫成全天候監督。"
+      },
+      "speaking": {
+        "en": "The updates team works around the clock, while editors review submissions only in the daytime.",
+        "zh": "更新團隊日夜不停地工作，而編輯只在日間審核提交內容。",
+        "promptZh": "先聽示範，再指出哪項工作日夜進行，哪項只在日間。",
+        "targetSpan": {
+          "start": 23,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區資訊網站在大型活動期間要更新交通公告。義工連續兩天分早更、午更和通宵更，按時交接並日夜更新；內容審核員只在日間工作，部分公告仍有待核實。用一至兩句英文說清楚哪項工作日夜進行、哪項只在日間，避免把未核實的公告說成已核實。",
+        "selfCheckZh": "用 around the clock 修飾日夜更新的工作動詞；不要誤寫成全天候編輯監督，也不要宣稱所有公告已核實。",
+        "examples": [
+          {
+            "en": "Volunteers update the community site around the clock in agreed shifts, but editors check the travel notices only during the day.",
+            "zh": "義工按已確認的更次日夜不停地更新社區網站，但編輯只在日間審核交通公告。"
+          },
+          {
+            "en": "The early, afternoon and overnight teams work around the clock on event updates; editorial checks still happen in daytime, and some notices remain unverified.",
+            "zh": "早更、午更和通宵更團隊日夜不停地處理活動消息；編輯審核仍只在日間進行，部分公告仍未核實。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the community site",
+            "zh": "社區網站",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 36
+            }
+          },
+          {
+            "en": "agreed shifts",
+            "zh": "已確認的更次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 70
+            }
+          },
+          {
+            "en": "the travel notices",
+            "zh": "交通公告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 108
+            }
+          },
+          {
+            "en": "event updates",
+            "zh": "活動消息",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 79
+            }
+          },
+          {
+            "en": "editorial checks",
+            "zh": "編輯審核",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Teams can work around the clock in shifts; the phrase follows the work verb.",
+          "zh": "團隊可以分更日夜不停地工作；此片語跟在工作動詞後。"
+        },
+        {
+          "en": "Saying people work around the clock does not prove round-the-clock supervision or a finished result.",
+          "zh": "說有人日夜不停地工作，不代表現場有全天候監督，也不代表工作已完成。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    }
+  ]
+}

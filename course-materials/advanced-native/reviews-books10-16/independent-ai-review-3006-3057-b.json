@@ -1,0 +1,49 @@
+{
+  "reviewType": "Independent Golden SOP content review of eight unselected drafts",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "inputHashes": {
+    "draft": "9e79f9e8103d87d755c7a1e42651c15934a6f1f163b00dcbbd40c556059bebbe",
+    "authorSelfAudit": "26d66d56a7645c5524bff882657ff9cae1ed8392afc128a5cfa21f4c74081299",
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "sourceOrdinals": [3006, 3014, 3040, 3046, 3047, 3048, 3050, 3057],
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "generalChecks": "Source phrases and exact guide examples, target forms, six-question/seven-step structure, four independently plausible replies, scene/dialogue keys, Traditional Chinese, answer-derived glossaries, changed-context writing, four audio text roles and nearby canonical titles were screened. Structural checks pass; content findings below require repair and independent recheck.",
+  "findings": [
+    {
+      "id": "R3006-01",
+      "severity": "major",
+      "sourceOrdinal": 3006,
+      "path": "lessons[number=3006].writing.examples[0..1].en",
+      "detail": "Both standalone models say `a lot more is riding on it` before clearly naming the particular choice or event denoted by `it`. In model 0 the prior noun is `the community fair`; model 1 begins with an unanchored `it`. The brief explicitly requires a clear decision/event antecedent.",
+      "repair": "Name this year's venue choice before the target in each complete model; preserve the comparison and recalculate glossary offsets."
+    },
+    {
+      "id": "R3046-01",
+      "severity": "major",
+      "sourceOrdinal": 3046,
+      "path": "lessons[number=3046].writing.examples[0].en/zh; writing.examples[1].en",
+      "detail": "Model 0's Chinese translation adds `對市鎮歷史` even though no town-history field appears in the English. Both models end with the broad `boundaries of understanding` without identifying the field or question advanced, despite the lesson's grammar note requiring it.",
+      "repair": "Specify an evidence-supported field of understanding in the English models and mirror it precisely in Traditional Chinese; recalculate any changed glossary spans."
+    },
+    {
+      "id": "R3047-01",
+      "severity": "major",
+      "sourceOrdinal": 3047,
+      "path": "lessons[number=3047].writing.examples[1].en",
+      "detail": "The standalone sentence begins `A half-hour timer helps Maya keep it in check` without an English antecedent for `it`. The antecedent appears only after the colon or in the Chinese task prompt, contrary to the brief's clear-antecedent requirement.",
+      "repair": "Introduce Maya's viewing habit or screen time before the target, then recalculate glossary spans."
+    },
+    {
+      "id": "R3050-01",
+      "severity": "major",
+      "sourceOrdinal": 3050,
+      "path": "lessons[number=3050].writing.examples[0].en",
+      "detail": "`we should not cling to it for dear life` has no explicit singular idea or plan antecedent. `sunflowers` and `shade tests` are plural, leaving the pronoun unclear in a standalone suggested answer.",
+      "repair": "Name the sunflower plan before `it` and keep the changed shade evidence and fern alternative; recalculate glossary spans."
+    }
+  ],
+  "unflaggedOrdinals": [3014, 3040, 3048, 3057],
+  "selectionRecommendation": "Keep all eight unselected until the four affected lesson models are repaired and independently rechecked. This review is not a media, device or human release approval."
+}

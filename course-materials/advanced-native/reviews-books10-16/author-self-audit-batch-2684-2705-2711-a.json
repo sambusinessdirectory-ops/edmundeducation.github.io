@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "auditKind": "author-self-audit-unselected-three",
+  "createdUtc": "2026-10-23T11:40:24.613289+00:00",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-2684-2705-2711-a.json",
+  "draftSha256": "8048e469edde5277e126af86b0880be0fc46906f0b2b225ae0ab45787ee45150",
+  "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+  "decisionSha256": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "generatedAudioQueueSha256": "a42be4b8b7b7beff787efbd80c503c42334adf1d49419620300f216cb43f1670",
+  "focusedBuild": "PASS: 3 lessons, 18 questions, 12 audio requests, 0 flags",
+  "focusedCheck": "PASS",
+  "selectedOrPublished": false,
+  "humanReviewsClaimed": false,
+  "checks": [
+    {
+      "sourceOrdinal": 2684,
+      "sourceAndGuideSentenceExact": true,
+      "sourceTargetPatternMatches": true,
+      "sevenStepsPresent": true,
+      "sixAssessedTasksPresent": true,
+      "fourReplyOptionsAndUniqueGoldenTarget": true,
+      "keyedSceneAndDialogueTargetBearing": true,
+      "twoChangedContextWritingModels": true,
+      "exactAnswerDerivedNonTargetGlossaryRows": 4,
+      "audioTextRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "englishChineseMediaQaStatuses": "pending",
+      "editorialNote": "Distinct source construction from compared canonical owner; independent content review pending."
+    },
+    {
+      "sourceOrdinal": 2705,
+      "sourceAndGuideSentenceExact": true,
+      "sourceTargetPatternMatches": true,
+      "sevenStepsPresent": true,
+      "sixAssessedTasksPresent": true,
+      "fourReplyOptionsAndUniqueGoldenTarget": true,
+      "keyedSceneAndDialogueTargetBearing": true,
+      "twoChangedContextWritingModels": true,
+      "exactAnswerDerivedNonTargetGlossaryRows": 5,
+      "audioTextRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "englishChineseMediaQaStatuses": "pending",
+      "editorialNote": "Different fixed negative wording and explicit disproportionality critique from canonical 779; subject matter still overlaps proportionality, requiring independent near-duplicate review before selection."
+    },
+    {
+      "sourceOrdinal": 2711,
+      "sourceAndGuideSentenceExact": true,
+      "sourceTargetPatternMatches": true,
+      "sevenStepsPresent": true,
+      "sixAssessedTasksPresent": true,
+      "fourReplyOptionsAndUniqueGoldenTarget": true,
+      "keyedSceneAndDialogueTargetBearing": true,
+      "twoChangedContextWritingModels": true,
+      "exactAnswerDerivedNonTargetGlossaryRows": 5,
+      "audioTextRoles": [
+        "listening",
+        "speaking",
+        "takeaway-1",
+        "takeaway-2"
+      ],
+      "englishChineseMediaQaStatuses": "pending",
+      "editorialNote": "Distinct source construction from compared canonical owner; independent content review pending."
+    }
+  ],
+  "limitations": [
+    "Automated compilation and author self-review are not independent language, translation, audio or device approval.",
+    "2705 is lexical-negative phrase distinct from canonical 779 but has close semantic overlap; independent editorial review must decide whether the added lesson is sufficiently distinct."
+  ]
+}

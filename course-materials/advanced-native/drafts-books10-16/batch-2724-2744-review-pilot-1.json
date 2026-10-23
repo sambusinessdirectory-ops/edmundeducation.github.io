@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2724-2744-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2724",
+      "number": 2724,
+      "inventoryId": "expr-2724",
+      "titleEn": "give voice to feelings",
+      "titleZh": "表達共同感受",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:give|gives|gave|given|giving)\\s+voice\\s+to\\s+(?:feelings?|emotions?|concerns?|experiences?)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Express shared or difficult feelings in words that others recognise.",
+        "meaningZh": "把許多人共有或難以說出的感受清楚表達出來。",
+        "grammar": "Pattern: give/gives/gave/given/giving voice to + feelings/emotions/concerns/experiences; the writer or work is the subject, and the expressed experience follows to.",
+        "register": "Reflective arts commentary: a poetry teacher tells students why a poem resonates with readers who struggled to describe a feeling.",
+        "boundaryZh": "作品把感受說出來，不等於作者一定替所有讀者發言，或令問題得到解決。",
+        "misconceptionZh": "不是字面把聲音送給情緒；重點是替一種感受找到可辨認的文字。",
+        "outcomeZh": "能指出作品說出了甚麼感受，以及哪群人可能有共鳴。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0613",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 56,
+          "book": 11,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good poems give voice to feelings many people share.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "give voice to feelings"
+        }
+      ],
+      "listening": {
+        "en": "Several neighbours felt lonely after the last local café closed, but none had said so publicly. A short poem gave voice to feelings they recognised at once.",
+        "zh": "最後一間街坊咖啡店結業後，幾位鄰居感到孤單，卻一直沒有公開說出來。一首短詩把他們立即認出的感受表達了出來。",
+        "promptZh": "這首詩如何 give voice to feelings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It puts the neighbours’ unspoken loneliness into words.",
+            "zh": "它把鄰居未說出口的孤單寫成文字。"
+          },
+          {
+            "id": "b",
+            "en": "It persuades every neighbour to reopen the café.",
+            "zh": "它說服每位鄰居重開咖啡店。"
+          },
+          {
+            "id": "c",
+            "en": "It proves that the poet had spoken to every resident.",
+            "zh": "它證明詩人曾與每名居民談話。"
+          },
+          {
+            "id": "d",
+            "en": "It records only the café’s opening hours.",
+            "zh": "它只記錄咖啡店的營業時間。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "詩句讓原本未公開表達的孤單有了可辨認的文字；沒有證據顯示它重開店舖或代表所有人。"
+      },
+      "reply": {
+        "promptEn": "Why did the reading group connect with the poem? Members had struggled to describe their fear of leaving home, and the poem names that fear without claiming to solve it.",
+        "promptZh": "（讀書會成員為何對這首詩有共鳴？他們一直難以形容離開家鄉的不安，而詩把這種不安說出來，卻沒有聲稱能解決它。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It names a fear the members had found hard to describe.",
+            "zh": "它點出成員一直難以形容的恐懼。"
+          },
+          {
+            "id": "b",
+            "en": "The poem lets readers recognise a feeling they share.",
+            "zh": "詩讓讀者認出彼此共有的感受。"
+          },
+          {
+            "id": "c",
+            "en": "It gives voice to feelings the members could not easily express.",
+            "zh": "它表達了成員不容易說出口的感受。"
+          },
+          {
+            "id": "d",
+            "en": "Its words help the group talk about leaving home.",
+            "zh": "它的文字幫助小組談論離鄉的經歷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回應詩怎樣把難以言說的不安說出來；金句使用本課表達。"
+      },
+      "scene": {
+        "promptZh": "幾位照顧者都說自己疲憊，卻難以向朋友解釋。一篇短文寫出愛家人同時需要休息的矛盾，讀者紛紛說「我也是」。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The essay gives voice to feelings the carers share.",
+            "zh": "文章把照顧者共有的感受表達了出來。"
+          },
+          {
+            "id": "b",
+            "en": "The essay guarantees that every carer will get more help.",
+            "zh": "文章保證每位照顧者都會得到更多幫助。"
+          },
+          {
+            "id": "c",
+            "en": "The essay shows that the carers never needed a break.",
+            "zh": "文章顯示照顧者從來不需要休息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "讀者認出自己共有而難以解釋的矛盾感受；文章沒有保證實際支援。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不適合說作品 gives voice to feelings？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A story names the guilt many former pupils feel about leaving old friends behind.",
+            "zh": "故事寫出了許多舊生離開朋友後的內疚。"
+          },
+          {
+            "id": "b",
+            "en": "A notice lists ticket prices and opening times without expressing anyone’s experience.",
+            "zh": "告示只列出票價和開放時間，沒有表達任何人的經歷。"
+          },
+          {
+            "id": "c",
+            "en": "A song describes an anxiety that listeners recognise but had rarely discussed.",
+            "zh": "歌曲描寫聽眾認得、卻鮮有談及的焦慮。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "純粹提供資料的告示，沒有替任何共同感受找到表達方式。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「大家都怕搬離舊區，但一直不懂怎樣說；這篇散文把那種不捨寫得很準。」你會怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives voice to feelings many neighbours had kept to themselves.",
+            "zh": "它把許多鄰居一直藏在心裏的感受表達出來。"
+          },
+          {
+            "id": "b",
+            "en": "Then the essay must have stopped every family from moving.",
+            "zh": "那這篇散文一定阻止了所有家庭搬走。"
+          },
+          {
+            "id": "c",
+            "en": "That proves the writer interviewed every neighbour.",
+            "zh": "這證明作者訪問過每位鄰居。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友說的是散文把難言的不捨寫出來，沒有說它改變搬遷或訪遍居民。"
+      },
+      "speaking": {
+        "en": "The letter gives voice to feelings many volunteers share but rarely discuss.",
+        "zh": "這封信把許多義工共有卻鮮有談論的感受表達出來。",
+        "promptZh": "先聽示範，再指出文字表達了哪一種共同感受。",
+        "targetSpan": {
+          "start": 11,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一群夜班清潔工覺得工作常被忽視。一名工人寫短文，講述凌晨工作帶來的疲倦與自豪；同事說文章正好說出了他們的心聲。用一至兩句英文解釋文章的作用。",
+        "selfCheckZh": "指出哪群人、哪兩種感受，以及文章如何把它們說出來；不要聲稱文章已改善待遇。",
+        "examples": [
+          {
+            "en": "The worker’s essay gives voice to feelings of exhaustion and pride among the night-shift cleaners.",
+            "zh": "這名工人的文章表達了夜班清潔工的疲倦與自豪。"
+          },
+          {
+            "en": "By describing the early hours honestly, the essay gives voice to feelings the cleaners had struggled to explain.",
+            "zh": "文章坦誠描寫凌晨的工作，把清潔工一直難以解釋的感受說了出來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The worker’s essay",
+            "zh": "這名工人的文章",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "exhaustion and pride",
+            "zh": "疲倦與自豪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 66
+            }
+          },
+          {
+            "en": "the night-shift cleaners",
+            "zh": "夜班清潔工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 97
+            }
+          },
+          {
+            "en": "the early hours",
+            "zh": "凌晨時分",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 29
+            }
+          },
+          {
+            "en": "struggled to explain",
+            "zh": "難以解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 111
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A poem can give voice to feelings without claiming to speak for every reader.",
+          "zh": "詩可以表達共同感受，但不代表它替每位讀者發言。"
+        },
+        {
+          "en": "To give voice to feelings, name the experience the words make recognisable.",
+          "zh": "要說文字表達了感受，就要指出它讓哪種經歷變得可辨認。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2726",
+      "number": 2726,
+      "inventoryId": "expr-2726",
+      "titleEn": "take them straight back",
+      "titleZh": "一下帶回昔日回憶",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:take|takes|took|taking|taken)\\s+(?:me|you|him|her|us|them|listeners|visitors)\\s+straight\\s+back\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Trigger a vivid memory of an earlier time almost immediately.",
+        "meaningZh": "一下子勾起對往日某個時期的鮮明回憶。",
+        "grammar": "Pattern: sound/smell/object takes someone straight back to + time/place; take may inflect, and the experiencer comes between take and straight back.",
+        "register": "Natural personal recollection: an adult tells a friend how an old sound evokes school days without implying literal travel.",
+        "boundaryZh": "強調立即、鮮明地想起過去，不表示人真的回到那個時間或地方。",
+        "misconceptionZh": "不要把 take back 誤讀成退貨或把人載回去；此處是記憶被觸發。",
+        "outcomeZh": "能點出觸發回憶的事物，以及想起哪段時光。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0615",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "43–44",
+          "locatorNote": "DOCX table 52, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The tune can take them straight back to school days.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take them straight back"
+        }
+      ],
+      "listening": {
+        "en": "When Ella heard the old school bell recording, it took her straight back to mornings outside her first classroom. She could almost picture her friends queuing beside her.",
+        "zh": "Ella 聽到舊校鐘的錄音時，立刻想起初入學時在課室外的早晨。她彷彿看見朋友在旁排隊。",
+        "promptZh": "鐘聲把 Ella straight back 到甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A vivid memory of school mornings.",
+            "zh": "一段鮮明的校園早晨回憶。"
+          },
+          {
+            "id": "b",
+            "en": "A real visit to her old classroom that afternoon.",
+            "zh": "那天下午真的回到舊課室。"
+          },
+          {
+            "id": "c",
+            "en": "A plan to buy a new school bell.",
+            "zh": "一個購買新校鐘的計劃。"
+          },
+          {
+            "id": "d",
+            "en": "A memory of a school she has never visited.",
+            "zh": "一所她從未到過的學校的回憶。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲音勾起她自己以前排隊的畫面；她沒有真的回校。"
+      },
+      "reply": {
+        "promptEn": "Why did the radio jingle affect the former pupils? They heard it every morning at school, and hearing it again instantly reminds them of the bus ride there.",
+        "promptZh": "（為何那段電台短曲令舊生有感觸？他們讀書時每天早上都聽到，如今再聽便立刻想起坐車上學。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It reminds them of the bus ride they once took to school.",
+            "zh": "它令他們想起以前坐車上學的路程。"
+          },
+          {
+            "id": "b",
+            "en": "The familiar sound brings back school mornings at once.",
+            "zh": "熟悉的聲音一下勾起上學的早晨。"
+          },
+          {
+            "id": "c",
+            "en": "It takes them straight back to their school days.",
+            "zh": "它一下子帶他們回到學生時代的回憶。"
+          },
+          {
+            "id": "d",
+            "en": "The jingle connects today’s broadcast with an old routine.",
+            "zh": "這段短曲把今天的廣播與昔日習慣連起來。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明短曲勾起舊生的上學回憶；金句用本課表達即時而鮮明的記憶。"
+      },
+      "scene": {
+        "promptZh": "一位舊同學多年後聞到學校飯堂的薑汁味，立刻想起冬天與朋友排隊吃飯。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The smell takes her straight back to winter lunches at school.",
+            "zh": "那氣味一下勾起她在學校吃冬天午餐的回憶。"
+          },
+          {
+            "id": "b",
+            "en": "The smell proves that the old canteen has reopened today.",
+            "zh": "那氣味證明舊飯堂今天重開。"
+          },
+          {
+            "id": "c",
+            "en": "She has forgotten all her school friends.",
+            "zh": "她已忘記所有學校朋友。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "薑汁味觸發具體而即時的舊時回憶，沒有證據顯示飯堂真的重開。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 takes someone straight back 的記憶意思？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A childhood tune instantly reminds a listener of family car rides.",
+            "zh": "童年旋律立刻令聽眾想起與家人的車程。"
+          },
+          {
+            "id": "b",
+            "en": "A new song catches a listener’s attention, but it evokes no earlier memory.",
+            "zh": "一首新歌引起注意，卻沒有勾起任何舊回憶。"
+          },
+          {
+            "id": "c",
+            "en": "An old recipe’s smell vividly recalls dinners at a grandparent’s home.",
+            "zh": "舊食譜的香味鮮明地喚起在祖父母家吃晚飯的回憶。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "受到新歌吸引但沒有回憶被觸發，不是本課意思。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「一聽到以前的校隊口號，我就想到放學後在操場練習的日子。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It takes you straight back to those afternoons on the field.",
+            "zh": "它一下勾起你在操場度過那些下午的回憶。"
+          },
+          {
+            "id": "b",
+            "en": "Then your team must be training at the same school today.",
+            "zh": "那你的隊伍今天一定仍在同一所學校訓練。"
+          },
+          {
+            "id": "c",
+            "en": "The chant must have been invented yesterday.",
+            "zh": "這句口號一定是昨天才創作的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "口號觸發具體的舊時畫面；不能因此推斷球隊今天的安排。"
+      },
+      "speaking": {
+        "en": "That familiar whistle takes me straight back to my first swimming lessons.",
+        "zh": "那聲熟悉的哨聲一下勾起我初學游泳的回憶。",
+        "promptZh": "先聽示範，再指出哪個聲音觸發哪段回憶。",
+        "targetSpan": {
+          "start": 22,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名糕餅師多年後再聞到橙皮香氣，立刻想起小時候與外婆一起烤餅的早晨。用一至兩句英文描述氣味與回憶的關係。",
+        "selfCheckZh": "指出氣味、被喚起的人及具體往日場景；不可寫成真的回到童年。",
+        "examples": [
+          {
+            "en": "The smell of orange peel takes her straight back to mornings baking biscuits with her grandmother.",
+            "zh": "橙皮香氣一下勾起她與外婆在早上烤餅的回憶。"
+          },
+          {
+            "en": "One breath of the citrus scent takes her straight back to her grandmother’s kitchen, where they baked together.",
+            "zh": "只要聞到柑橘香氣，她便立刻想起昔日和外婆一起烤餅的廚房。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "orange peel",
+            "zh": "橙皮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 24
+            }
+          },
+          {
+            "en": "mornings baking biscuits",
+            "zh": "烤餅的早晨",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 76
+            }
+          },
+          {
+            "en": "her grandmother",
+            "zh": "她的外婆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 97
+            }
+          },
+          {
+            "en": "the citrus scent",
+            "zh": "柑橘香氣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 30
+            }
+          },
+          {
+            "en": "her grandmother’s kitchen",
+            "zh": "外婆的廚房",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 83
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A familiar sound can take you straight back to a specific time without literal travel.",
+          "zh": "熟悉的聲音可一下勾起特定時期的回憶，並非真的穿越時間。"
+        },
+        {
+          "en": "Explain which cue takes them straight back and what memory it unlocks.",
+          "zh": "說明哪個線索一下勾起回憶，以及它喚起哪段往事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2737",
+      "number": 2737,
+      "inventoryId": "expr-2737",
+      "titleEn": "big name",
+      "titleZh": "知名人物",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the)\\s+big\\s+name\\b|\\bbig\\s+names\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A person with a strong reputation or wide public recognition in a field.",
+        "meaningZh": "在某個領域有高知名度或聲望的人。",
+        "grammar": "Count noun phrase a big name or plural big names; often a big name in music/sport/film. It refers to reputation, not the length of a name.",
+        "register": "Informal arts planning: a festival organiser tells a colleague why a well-known guest may attract attention, while separating fame from quality.",
+        "boundaryZh": "表示知名，不自動保證演出優秀、票房成功或活動公平。",
+        "misconceptionZh": "不要按名字字母多少判斷 big name，也不要把「出名」直接等同「最適合」。",
+        "outcomeZh": "能指出人物在哪個領域知名，並避免把名氣當成必然成效。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0626",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 58,
+          "book": 11,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The festival hired a big name to headline the show.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "big name"
+        }
+      ],
+      "listening": {
+        "en": "The small jazz festival invited a singer known across the country. Even people who had never attended before recognised her as a big name in jazz.",
+        "zh": "小型爵士音樂節邀請了一名全國知名的歌手。連從未參加過的人也認得她是爵士樂界的知名人物。",
+        "promptZh": "為何說這名歌手是 a big name？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is widely recognised in the jazz field.",
+            "zh": "她在爵士樂界廣為人知。"
+          },
+          {
+            "id": "b",
+            "en": "Her full name has more letters than other singers’ names.",
+            "zh": "她的全名比其他歌手的名字有更多字母。"
+          },
+          {
+            "id": "c",
+            "en": "She has promised the festival a profit.",
+            "zh": "她保證音樂節一定賺錢。"
+          },
+          {
+            "id": "d",
+            "en": "She has never performed outside this neighbourhood.",
+            "zh": "她從未到這個社區以外演出。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "題目明示她全國知名；名氣不等於票房保證或名字長。"
+      },
+      "reply": {
+        "promptEn": "Why did the book fair announce Nora as its guest? She is a widely recognised novelist, and many visitors already know her work; organisers have not predicted ticket sales.",
+        "promptZh": "（書展為何宣布邀請 Nora 擔任嘉賓？她是廣為人知的小說家，許多訪客熟悉她的作品；主辦者尚未預測票房。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Many visitors recognise Nora’s novels.",
+            "zh": "許多訪客認得 Nora 的小說。"
+          },
+          {
+            "id": "b",
+            "en": "Her reputation may draw attention to the book fair.",
+            "zh": "她的名氣可能令書展受到關注。"
+          },
+          {
+            "id": "c",
+            "en": "Nora is a big name in fiction.",
+            "zh": "Nora 是小說界的知名人物。"
+          },
+          {
+            "id": "d",
+            "en": "Visitors are likely to know who the invited writer is.",
+            "zh": "訪客很可能知道獲邀作家是誰。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據她的既有知名度；金句使用 big name，但沒有保證票房。"
+      },
+      "scene": {
+        "promptZh": "一個科學節邀請一名研究員演講，他的科普節目在全國廣播多年，大量學生認得他。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He is a big name in science communication.",
+            "zh": "他是科學傳播界的知名人物。"
+          },
+          {
+            "id": "b",
+            "en": "He must have the longest name at the festival.",
+            "zh": "他的名字一定是全場最長。"
+          },
+          {
+            "id": "c",
+            "en": "His talk is guaranteed to be the best one.",
+            "zh": "他的演講保證是最好的一場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多年全國廣播與學生認識他，支持其知名度；不保證品質。"
+      },
+      "contrast": {
+        "promptZh": "哪個證據最不足以支持某人是 a big name？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her work has been recognised by audiences nationwide for years.",
+            "zh": "她的作品多年來獲全國觀眾認識。"
+          },
+          {
+            "id": "b",
+            "en": "Her name contains twenty letters, but almost nobody knows her work.",
+            "zh": "她的名字有二十個字母，但幾乎沒有人認識其作品。"
+          },
+          {
+            "id": "c",
+            "en": "People outside her city regularly follow her performances.",
+            "zh": "她城市以外的人也經常追看演出。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "名字長並非知名度；幾乎沒有人認識其作品更與之相反。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「這名導師上過很多全國節目，難怪報名者認得她。」你怎樣回應較貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, she is a big name in that field, though we still need to check whether her course fits our learners.",
+            "zh": "對，她是該領域的知名人物，但我們仍要確認課程是否適合學員。"
+          },
+          {
+            "id": "b",
+            "en": "Her public profile proves every student will improve.",
+            "zh": "她的知名度證明每位學生都會進步。"
+          },
+          {
+            "id": "c",
+            "en": "Having a big name means her written name is physically large.",
+            "zh": "她有一個「大名字」，即印出來的名字字體一定很大。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認知名度，同時不把它誤當成教學成效保證。"
+      },
+      "speaking": {
+        "en": "The invited chef is a big name in regional cooking, so many visitors recognise her.",
+        "zh": "獲邀的廚師是地方菜界的知名人物，因此許多訪客認得她。",
+        "promptZh": "先聽示範，再指出她在哪個領域廣為人知。",
+        "targetSpan": {
+          "start": 20,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個漫畫節邀請一名全國讀者熟悉的插畫家；主辦者希望吸引注意，但仍在確認她的講座內容是否適合初學者。用一至兩句英文描述她的名氣與講座評估。",
+        "selfCheckZh": "指出人物在哪個領域知名，以及名氣不能取代講座內容評估。",
+        "examples": [
+          {
+            "en": "The illustrator is a big name in comics, but the organisers still need to check whether her talk suits beginners.",
+            "zh": "這名插畫家是漫畫界的知名人物，但主辦者仍要確認講座是否適合初學者。"
+          },
+          {
+            "en": "Inviting a big name may draw attention to the festival; it does not tell us whether the beginner workshop is right for new artists.",
+            "zh": "邀請知名人物可能令漫畫節受到關注，卻不能證明入門工作坊適合新手。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The illustrator",
+            "zh": "這名插畫家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "her talk",
+            "zh": "她的講座",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 96
+            }
+          },
+          {
+            "en": "beginners",
+            "zh": "初學者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 112
+            }
+          },
+          {
+            "en": "draw attention",
+            "zh": "吸引注意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 38
+            }
+          },
+          {
+            "en": "the beginner workshop",
+            "zh": "入門工作坊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 105
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A big name is widely known in a field; it is not a promise of quality.",
+          "zh": "知名人物是在某個領域廣為人知的人，並非品質保證。"
+        },
+        {
+          "en": "When calling someone a big name, identify the field and avoid guaranteed outcomes.",
+          "zh": "稱某人為知名人物時，要指出領域，避免保證未證實的結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

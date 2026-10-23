@@ -1,0 +1,108 @@
+{
+  "reviewType": "AI author self-audit of unpublished provisional lessons",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "lessonOrdinals": [
+    2724,
+    2726,
+    2734,
+    2737,
+    2739,
+    2741,
+    2742,
+    2744
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json",
+      "sha256": "ef4784a31d8e9a1d32b0dcf53cc5b9ec388b2756c716c20d039a50af8f1afe43"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "sha256": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2734-review-pilot-owner-hold.json",
+      "sha256": "5c76544ee241b6b30af8b81d2f42369e0e7d636f3df579f47db0de5a4f90ab1f",
+      "status": "unselected pending human owner scope"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Source fidelity",
+      "result": "pass",
+      "evidence": "All eight source sentences, expressions, book/question/sample fields and rendered PDF page numbers exactly match the Books 10–16 source inventory."
+    },
+    {
+      "name": "Source-target invariant",
+      "result": "pass",
+      "evidence": "Every target detector matches its complete source sentence, listening model, keyed reply, keyed scene, keyed dialogue, speaking transcript and both writing models."
+    },
+    {
+      "name": "Seven learner decisions",
+      "result": "author-pass-pending-independent-review",
+      "evidence": "Each lesson separates listening sense, a four-valid target-bearing reply, contextual scene, boundary contrast, conversational response, spoken model and changed-context writing."
+    },
+    {
+      "name": "Answer fairness and Traditional Chinese",
+      "result": "author-pass-pending-independent-review",
+      "evidence": "Manually checked keyed propositions, the four reply choices, wrong-option claims, negation and modality against prompts and translations. Independent bilingual editorial review remains required."
+    },
+    {
+      "name": "Answer-derived glossary",
+      "result": "pass",
+      "evidence": "Every glossary item is an exact indexed span in one suggested writing answer, and no item overlaps its lesson target; both answers use the target."
+    },
+    {
+      "name": "Audio text and roles",
+      "result": "pass-for-queue-only",
+      "evidence": "Focused builder emits four audio requests per lesson: listening, speaking and two takeaways. No synthesized file or human listening QA was performed."
+    },
+    {
+      "name": "Focused build and stale-output check",
+      "result": "pass",
+      "evidence": "Combined focused build and --check pass with eight lessons, 48 questions, 32 audio requests and zero review flags."
+    },
+    {
+      "name": "Owner-collision screen",
+      "result": "pass-with-limits",
+      "evidence": "Read-only all-discovered source-versus-prior-owner detector screen yielded no hits for these eight ordinals; semantic overlap was separately reviewed below. Regex absence alone is not human owner approval."
+    }
+  ],
+  "specificOwnershipNotes": [
+    {
+      "sourceOrdinal": 2724,
+      "comparison": "Canonical 308 become a voice and 994 find their voice address different subject/agency constructions; this lesson targets a work expressing shared feelings."
+    },
+    {
+      "sourceOrdinal": 2734,
+      "comparison": "Canonical 336 bring something into the public eye teaches a causative change, whereas this lesson uses the continuing state in the public eye. Canonical 116 in the spotlight is a close synonym for public visibility despite different lexemes/detectors; do not invent a duration or intensity boundary. Human owner sign-off and a cross-reference remain required."
+    },
+    {
+      "sourceOrdinal": 2741,
+      "comparison": "Canonical 116 in the spotlight denotes current prominence; this lesson teaches a gradual move away from prominence over time."
+    }
+  ],
+  "deferredSourceOwnerQuestion": {
+    "sourceOrdinal": 2736,
+    "sourceExpression": "around the clock",
+    "sourceSentence": "The support team works around the clock.",
+    "priorCanonical": "advanced-native-1343 round-the-clock supervision",
+    "comparison": "Both involve day-and-night coverage, but canonical 1343 is an attributive adjective plus supervision and asks learners to verify continuous oversight without assigning one person an unbroken shift. Source 2736 is an adverbial time phrase modifying works and could apply to support, production or transport. A separate seven-step lesson appears feasible around adverbial placement, shift-based coverage versus one worker without rest, continuous operation versus office hours, and measured claims about actual coverage. Keep its existing editorial decision unchanged pending explicit owner-scope review; do not auto-alias or draft in this batch."
+  },
+  "remainingGates": "Independent AI review, human English and Traditional Chinese editorial approval, audio generation and listening QA, device QA, and separate release authorization. No selection manifest or live files were modified.",
+  "independentReviewFollowup": {
+    "report": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2724-2744-b-followup.json",
+    "sha256": "608597c4d6214aed2b7090f992157ed7eb773bfd0487b8671d7d770659e76c85",
+    "status": "Three editorial findings repaired and independently rechecked; 2734 versus canonical 116 remains a human owner-scope sign-off."
+  },
+  "splitIntegrity": {
+    "report": "course-materials/advanced-native/reviews-books10-16/split-integrity-2734-from-2724-2744-review-pilot.json",
+    "sha256": "64f3a570d4a969e1bad2f467162132c6872325d9be77bc09755cfb1643fb4417"
+  },
+  "ownershipComparison2734": {
+    "report": "course-materials/advanced-native/reviews-books10-16/source-owner-comparison-2734-vs-116-review-pilot.json",
+    "sha256": "617f7035b1be6cb9a552654c9617107d41f53760123b5e5714155f3a026190d2",
+    "status": "human owner sign-off pending"
+  }
+}

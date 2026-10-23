@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2734-review-pilot-owner-hold",
+  "lessons": [
+    {
+      "id": "advanced-native-2734",
+      "number": 2734,
+      "inventoryId": "expr-2734",
+      "titleEn": "in the public eye",
+      "titleZh": "受到大眾注目",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bin\\s+the\\s+public\\s+eye\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Visible to, or frequently noticed and discussed by, the wider public.",
+        "meaningZh": "受到大眾注目，經常被公眾看見或討論。",
+        "grammar": "Fixed prepositional phrase in the public eye, often after be/remain/keep; the public eye denotes public attention, not a literal observer.",
+        "register": "Neutral media and community discussion: a journalist tells an editor why an actor’s public visibility changes how a statement is received.",
+        "boundaryZh": "可指持續曝光，不表示人人都喜歡此人，也不代表其私人生活全部公開。",
+        "misconceptionZh": "public eye 不是單一人的眼睛；也不等於某人主動把議題帶到公眾面前。",
+        "outcomeZh": "能辨認人物是否真的持續受到廣泛關注，並避免把聲望和好感混為一談。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0623",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 57,
+          "book": 11,
+          "question": 17,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "locatorNote": "DOCX table 53, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The actor has remained in the public eye for years.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "in the public eye"
+        }
+      ],
+      "listening": {
+        "en": "Although the actor stopped making films, she still appeared in interviews and charity broadcasts. She remained in the public eye long after her last role.",
+        "zh": "雖然那名演員不再拍電影，卻仍出現在訪問和慈善節目中。她在最後一個角色之後很久仍受到公眾注目。",
+        "promptZh": "為何她仍 in the public eye？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She continued appearing in broadcasts seen by many people.",
+            "zh": "她繼續出現在許多人看到的節目中。"
+          },
+          {
+            "id": "b",
+            "en": "She worked completely away from public attention.",
+            "zh": "她完全避開公眾關注地工作。"
+          },
+          {
+            "id": "c",
+            "en": "She starred in a new film every month.",
+            "zh": "她每個月都主演一部新電影。"
+          },
+          {
+            "id": "d",
+            "en": "Every viewer approved of her public statements.",
+            "zh": "每名觀眾都贊同她公開發言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "訪問和慈善節目令她仍受關注；不代表她不停拍片或人人認同。"
+      },
+      "reply": {
+        "promptEn": "Why does the athlete’s apology receive so much attention? She has been on national television every week and has a large public following.",
+        "promptZh": "（為何這名運動員的道歉受到大量關注？她每週都上全國電視節目，並有眾多公眾追隨者。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her weekly television appearances make her familiar to many viewers.",
+            "zh": "她每週上電視，令很多觀眾熟悉她。"
+          },
+          {
+            "id": "b",
+            "en": "A large audience is likely to notice what she says publicly.",
+            "zh": "她公開說的話很可能被眾多觀眾留意。"
+          },
+          {
+            "id": "c",
+            "en": "She has been in the public eye for some time.",
+            "zh": "她受到大眾注目已有一段時間。"
+          },
+          {
+            "id": "d",
+            "en": "The apology travels beyond her immediate team because of her public profile.",
+            "zh": "由於她的公眾知名度，道歉會傳到隊伍以外。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明長期曝光令道歉備受關注；金句指出她持續處於公眾視線。"
+      },
+      "scene": {
+        "promptZh": "一位作家退休後仍每月接受全國性訪問，讀者在網上經常討論她的言論。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The writer remains in the public eye despite retiring.",
+            "zh": "這名作家雖已退休，仍受到公眾注目。"
+          },
+          {
+            "id": "b",
+            "en": "The writer has disappeared from every public discussion.",
+            "zh": "這名作家已從所有公眾討論中消失。"
+          },
+          {
+            "id": "c",
+            "en": "Retirement proves that every reader agrees with her.",
+            "zh": "退休證明每名讀者都認同她。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "退休沒有令她停止出現在大型訪問和討論中。"
+      },
+      "contrast": {
+        "promptZh": "哪個人最不適合稱為 in the public eye？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A presenter appears on national news every evening.",
+            "zh": "一名主持每晚出現在全國新聞中。"
+          },
+          {
+            "id": "b",
+            "en": "A local volunteer works privately and has never been publicly featured.",
+            "zh": "一名本地義工私下工作，從未被公開報道。"
+          },
+          {
+            "id": "c",
+            "en": "A singer gives widely watched interviews after leaving the stage.",
+            "zh": "一名歌手離開舞台後仍接受廣受觀看的訪問。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "私下工作且未被報道，不符合持續受到大眾注目的意思。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這名導演去年停拍，但她仍經常上電視談電影。」哪個回應最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She is still in the public eye even without a new film.",
+            "zh": "即使沒有新電影，她仍受到公眾注目。"
+          },
+          {
+            "id": "b",
+            "en": "Then no one can know what she thinks about films.",
+            "zh": "那就沒有人能知道她對電影的看法。"
+          },
+          {
+            "id": "c",
+            "en": "Frequent interviews prove all viewers admire her.",
+            "zh": "經常受訪證明所有觀眾都欣賞她。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電視訪問使她保持能見度；不能推論所有觀眾的態度。"
+      },
+      "speaking": {
+        "en": "The former athlete remains in the public eye through her weekly television programme.",
+        "zh": "這名前運動員透過每週的電視節目，繼續受到大眾注目。",
+        "promptZh": "先聽示範，再指出哪項活動維持了公眾曝光。",
+        "targetSpan": {
+          "start": 27,
+          "end": 44
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一名科學家不再主持電視節目，卻每週在全國電台解答聽眾問題，其言論仍常被新聞引用。用一至兩句英文描述她的公眾能見度，不要推測大眾是否喜歡她。",
+        "selfCheckZh": "提到持續的全國電台節目與新聞引用，正確使用表達；不要把受關注寫成受歡迎。",
+        "examples": [
+          {
+            "en": "The scientist remains in the public eye because her weekly radio answers are still quoted in the news.",
+            "zh": "這名科學家每週在電台的解答仍被新聞引用，因此繼續受到公眾注目。"
+          },
+          {
+            "en": "Although she left television, regular national radio appearances keep her in the public eye.",
+            "zh": "雖然她不再上電視，定期在全國電台亮相仍令她受到大眾注目。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "her weekly radio answers",
+            "zh": "她每週在電台的解答",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 72
+            }
+          },
+          {
+            "en": "quoted in the news",
+            "zh": "被新聞引用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 101
+            }
+          },
+          {
+            "en": "left television",
+            "zh": "離開電視節目",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 28
+            }
+          },
+          {
+            "en": "national radio appearances",
+            "zh": "全國電台亮相",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 64
+            }
+          },
+          {
+            "en": "regular",
+            "zh": "定期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 37
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Being in the public eye means being widely noticed, not necessarily admired.",
+          "zh": "受到大眾注目只表示廣受關注，不一定代表備受欣賞。"
+        },
+        {
+          "en": "Someone may remain in the public eye after leaving a former job if broadcasts continue.",
+          "zh": "離開原本的工作後，若繼續公開亮相，仍可能受到大眾注目。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

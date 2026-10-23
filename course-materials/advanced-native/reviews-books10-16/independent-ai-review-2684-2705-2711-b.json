@@ -1,0 +1,36 @@
+{
+  "reviewId": "independent-ai-review-2684-2705-2711-b",
+  "reviewType": "Independent exact-hash Golden SOP editorial review of three unpublished lessons",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2684-2705-2711-a.json": "8048e469edde5277e126af86b0880be0fc46906f0b2b225ae0ab45787ee45150"
+  },
+  "decisionFileSha256": {
+    "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb"
+  },
+  "scope": [2684, 2705, 2711],
+  "blockingFindings": [],
+  "advisory": [
+    {
+      "id": "A2705-01",
+      "lessonId": "advanced-native-2705",
+      "severity": "minor",
+      "path": "listening, reply, scene, contrast, dialogue, speaking, writing",
+      "observation": "The assessed actions are distinct, but nearly every example uses a first small mistake followed by a very long or permanent ban. This reinforces the fixed negative phrase, yet narrows the range of penalty comparisons and keeps the scenario logic close to canonical 779's proportionality lesson.",
+      "recommendation": "Before human sign-off, consider varying one or two settings or consequence types while preserving the source sense. Keep the existing fixed negative expression and figurative crime explanation; do not merge it mechanically into canonical 779."
+    }
+  ],
+  "ownerComparison2705": {
+    "existingOwner": "advanced-native-779",
+    "existingTarget": "the punishment fits the scale of the offence/harm",
+    "newTarget": "the punishment does not fit the crime",
+    "assessment": "The fairness principle overlaps, but the new lesson teaches a conventional negative fixed phrase and figurative crime in noncriminal school/community contexts. Canonical 779's target detector does not match the new full source sentence and its model teaches a positive scale-of-offence construction. Step 4 in the new lesson distinguishes a reviewed temporary suspension after repeated damage from clearly excessive bans. A separate provisional lexical lesson is defensible; near-duplicate and scenario-diversity review remains a human editorial gate."
+  },
+  "checks": {
+    "source": "All three occurrence IDs, exact source sentences, rendered pages and books match source-inventory.jsonl; all three full source sentences match their target patterns.",
+    "sevenSteps": "Each draft has the ordered listening, four-valid reply, concrete scene, boundary contrast, conversational turn, speaking and changed-context writing stages, with six assessed questions. The 2684 listening choice is now fully supported by the audio; 2705 reply supplies its own separate choir facts; 2711 reply supplies all four study-room features. Scene and dialogue keys are grounded and target-bearing.",
+    "bilingual": "Checked English/Traditional Chinese polarity, agent, timing, degree and comparative limits across the assessed material and both writing models. No remaining translation mismatch found at this hash.",
+    "glossaryAndMedia": "Speaking target spans and all four-to-five exact non-target glossary spans validate. Each lesson has four distinct audio transcript texts in the queue. Actual audio listening and device layout were not reviewed.",
+    "build": "Focused build then --check passed: 3 lessons, 18 questions, 12 audio requests, zero flags."
+  },
+  "conclusion": "No AI-review blocker remains at the recorded draft hash. These three drafts stay unselected and unpublished. Canonical 2705's near-duplicate judgement and scenario diversity, plus human language and later media/device review, require separate approval."
+}

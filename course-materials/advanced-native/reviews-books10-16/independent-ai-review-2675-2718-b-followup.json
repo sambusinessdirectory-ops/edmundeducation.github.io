@@ -1,0 +1,33 @@
+{
+  "reviewId": "independent-ai-review-2675-2718-b-followup",
+  "reviewType": "Exact-hash independent follow-up on four editorial findings",
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json": "979d254c6b39ca767f328beb554d25b37ab6624b1916c21494a225ea5eccc20a",
+    "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-2.json": "123791e4c7ba411cab796b7489616f1563aa58f1bc9a1c9382d2191e9da06a2e"
+  },
+  "priorReport": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2675-2718-b.json",
+  "findingOutcomes": [
+    {
+      "id": "R2689-01",
+      "outcome": "cleared",
+      "evidence": "Keyed dialogue now refers to ‘That claim’ and ‘這番說法’; explanation now calls it a claim of valuing student music. This matches the prompt and retains ‘ring a little hollow’ and answer a. Content revision 2."
+    },
+    {
+      "id": "R2703-01",
+      "outcome": "cleared",
+      "evidence": "Keyed scene now says people seek the back door because no new official route has been published; the Chinese explicitly says 尚未公布新的官方途徑. This matches the scene premise and retains target and answer a. Content revision 2."
+    },
+    {
+      "id": "R2698-01",
+      "outcome": "cleared",
+      "evidence": "The Chinese now says the student artist may lose payment or be unable to control how the work is used, without claiming loss of legal usage rights. English and answer a are unchanged. Content revision 2."
+    },
+    {
+      "id": "R2708-01",
+      "outcome": "cleared",
+      "evidence": "The second writing-model Chinese now assigns 吃虧 to the restaurants and explicitly states reduced income while order volume stays constant. English and glossary spans are unchanged. Content revision 2."
+    }
+  ],
+  "checks": "The two repaired batches built and passed --check together: 8 lessons, 48 questions, 32 audio requests, zero review flags. The four changed fields were directly inspected against their prompts and English/Chinese meanings.",
+  "conclusion": "All four prior AI findings are cleared at the recorded hashes. These provisional drafts remain unselected and unpublished; human editorial, audio and device gates are still pending."
+}

@@ -1,0 +1,35 @@
+{
+  "reviewType": "AI author self-audit of unpublished provisional drafts",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "scope": {
+    "lessonOrdinals": [2675, 2681, 2683, 2689, 2698, 2703, 2708, 2718],
+    "draftFiles": [
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json",
+        "sha256": "d6490825c2c9b4052fcb8c5517f8da1e9eab17fcc3c4b6c2ebfc5d2fc8b77157"
+      },
+      {
+        "path": "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-2.json",
+        "sha256": "9200cf8cdb2667d344a1b920a4a454b4778cadfb0e8754f61740aa6e41c52644"
+      }
+    ]
+  },
+  "checks": [
+    {"name": "Source occurrence invariant", "result": "pass", "evidence": "All eight expressions, guide-written source sentences, rendered PDF pages and book numbers exactly match the source inventory rows."},
+    {"name": "Full-source target detector", "result": "pass", "evidence": "Each target regex matches its complete source sentence and the intended model uses."},
+    {"name": "SOP seven-step architecture", "result": "pass", "evidence": "Each lesson has listening, four-valid reply, changed scene, sense-boundary contrast, dialogue, speaking, and a new-context writing task with two English-Chinese models."},
+    {"name": "Four valid replies and answer defensibility", "result": "author-pass-pending-independent-review", "evidence": "All four reply choices are responses to a shared grounded prompt; only the golden option uses the target expression. Scene, contrast and dialogue each have one keyed answer. An independent editorial pass remains required."},
+    {"name": "English-Chinese fidelity", "result": "author-pass-pending-independent-review", "evidence": "Manually compared lesson passages, answer options, models and explanations for polarity, modality, subject, timing and affected party. Independent bilingual review remains required."},
+    {"name": "Glossary spans and target exclusion", "result": "pass", "evidence": "Every glossary phrase is an exact indexed span of one suggested answer and excludes the target expression; both writing models use the target in a changed context."},
+    {"name": "Speaking target span", "result": "pass", "evidence": "Builder verified every speaking highlight span against its model and target pattern."},
+    {"name": "Focused build and check", "result": "pass", "evidence": "Both batch files separately built four lessons, 24 questions, 16 audio requests, and zero review flags; both --check runs passed."},
+    {"name": "Review and release status", "result": "pending", "evidence": "All review lanes remain pending; no selection manifest, live lesson or release file was changed."}
+  ],
+  "deferredCandidates": [
+    {"sourceOrdinal": 2684, "expression": "carry it forward", "reason": "Potential owner-scope overlap with canonical 293 and source pronoun needs explicit context; hold from drafting until editorial decision."},
+    {"sourceOrdinal": 2705, "expression": "punishment does not fit the crime", "reason": "Same proportionality learner decision as canonical 779; avoid a duplicate lesson."},
+    {"sourceOrdinal": 2711, "expression": "has a slight edge", "reason": "Potential same-sense advantage overlap with canonical 208; hold from drafting for owner comparison."}
+  ],
+  "remainingGate": "Independent AI editorial review, then human English and Traditional Chinese sense approval, device/audio QA and release approval under the Golden SOP."
+}
