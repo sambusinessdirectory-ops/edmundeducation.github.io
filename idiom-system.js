@@ -1517,6 +1517,10 @@ function renderCompassPage(lesson, page) {
     return { en: choice.optionsEn[sourceIndex], zh: choice.options[sourceIndex] };
   }) : [];
   const correctOption = choice ? (choice.correct + rotation) % choice.options.length : -1;
+  const explainChoicesAfterAnswer = Number(lesson.order) >= 6 && Number(lesson.order) <= 30;
+  const answeredCorrectly = selected === correctOption;
+  const selectedSourceIndex = choice && selected !== undefined
+    ? (selected - rotation + choice.options.length) % choice.options.length : -1;
   let body = "";
   const note = (label, en, zh, extra = "") => `<div class="compass-note ${extra}"><span>${label}</span><p class="compass-english">${escapeHtml(en)}</p><p class="compass-chinese">${escapeHtml(zh)}</p></div>`;
   if (page === 1) body = `<div class="compass-intro"><div class="compass-meaning"><span>MEANING · 意思</span><strong>${escapeHtml(guide.meaningEn)}</strong><p>${escapeHtml(guide.meaningZh)}</p></div>${lesson.image ? `<img class="compass-art" src="${escapeHtml(lesson.image)}" alt="${escapeHtml(lesson.imageAlt || lessonEnglishTitle(lesson))}" loading="lazy">` : ""}</div>
@@ -1534,9 +1538,9 @@ function renderCompassPage(lesson, page) {
   else body = `${page === 3 ? `<div class="compass-two">${note("WHERE IT FITS · 自然場合", guide.whereEn, guide.where)}${note("TONE · 語氣提示", guide.toneEn, guide.tone)}</div>` : ""}
     ${page === 6 ? note("USE WITH CARE · 使用界線", guide.boundaryEn, guide.boundary, "compass-boundary") : ""}
     <section class="compass-decision" aria-labelledby="compass-prompt"><span>YOUR CALL · 作個判斷</span><h3 id="compass-prompt">${escapeHtml(choice.promptEn)}<small>${escapeHtml(choice.promptZh)}</small></h3>
-      <div class="compass-options">${options.map((option, index) => `<button class="compass-option ${selected !== undefined && index === correctOption ? "is-right" : selected === index ? "is-wrong" : ""}" type="button" data-compass-choice="${index}" data-compass-page="${page}" aria-pressed="${selected === index}"><span>${index + 1}</span><span class="compass-option-copy"><strong>${escapeHtml(option.en)}</strong><small>${escapeHtml(option.zh)}</small></span></button>`).join("")}</div>
-      ${selected !== undefined ? `<div class="compass-feedback ${selected === correctOption ? "is-right" : "is-wrong"}" role="status"><strong>${selected === correctOption ? "✓ Good call." : "Try again; the green answer fits better."} ${escapeHtml(choice.feedbackEn)}</strong><small>${escapeHtml(choice.feedback)}</small></div>` : ""}</section>
-    ${page === 3 ? `<p class="compass-footnote">${escapeHtml(guide.formalEn)}<small>${escapeHtml(guide.formal)}</small></p>` : ""}`;
+      <div class="compass-options">${options.map((option, index) => `<button class="compass-option ${selected !== undefined && index === correctOption && (!explainChoicesAfterAnswer || answeredCorrectly) ? "is-right" : selected === index && !answeredCorrectly ? "is-wrong" : ""}" type="button" data-compass-choice="${index}" data-compass-page="${page}" aria-pressed="${selected === index}"><span>${index + 1}</span><span class="compass-option-copy"><strong>${escapeHtml(option.en)}</strong>${!explainChoicesAfterAnswer || answeredCorrectly ? `<small>${escapeHtml(option.zh)}</small>` : ""}</span></button>`).join("")}</div>
+      ${selected !== undefined ? `<div class="compass-feedback ${answeredCorrectly ? "is-right" : "is-wrong"}" role="status"><strong>${answeredCorrectly ? "✓ Good call. " + escapeHtml(choice.feedbackEn) : explainChoicesAfterAnswer ? "Try again. Check the meaning and the evidence in the situation." : "Try again; the green answer fits better. " + escapeHtml(choice.feedbackEn)}</strong><small>${escapeHtml(answeredCorrectly || !explainChoicesAfterAnswer ? choice.feedback : choice.options[selectedSourceIndex] || "請再看一次題目的關鍵線索。")}</small></div>` : ""}</section>
+    ${page === 3 && !explainChoicesAfterAnswer ? `<p class="compass-footnote">${escapeHtml(guide.formalEn)}<small>${escapeHtml(guide.formal)}</small></p>` : ""}`;
   elements.lessonContent.innerHTML = `<article class="info-page compass-page">
     <header class="compass-header"><span class="page-label">IDIOM COMPASS · ${eyebrow}</span><h2>${escapeHtml(titleEn)}<small>${escapeHtml(titleZh)}</small></h2><p>${escapeHtml(lessonEnglishTitle(lesson))}</p></header>
     ${body}${navHtml(page)}
