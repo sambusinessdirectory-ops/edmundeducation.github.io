@@ -1,0 +1,50 @@
+{
+  "scope": "Independent Golden SOP editorial review of eight unselected lessons 3129, 3132, 3134, 3136, 3139, 3141, 3154, 3155",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3129-3155-a.json",
+  "draftSha256": "a2c2ab0a283f35180b936aeae3f73a4663bba9fc7145bd57fbe78d466f20252a",
+  "authorSelfAuditSha256": "2568e457a876f8f06c6cc83499aa4b9153a636b9d3216f15b74eb472c9a6e719",
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFilesSha256": {
+    "editorial-decisions-3072-3131.jsonl": "b290cd6ff78befccc1593516aef08a48598dd8a0976b7720fd116f2c8721f9a9",
+    "editorial-decisions-3132-3191.jsonl": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84"
+  },
+  "canonicalComparison": {
+    "canonicalId": "advanced-native-491",
+    "canonicalTitle": "keep a cool head",
+    "canonicalBatchSha256": "2f39a50aeaf9cf63450b56d4ec8edf6877fc488f12959e114682c33cb6bd0c33",
+    "assessment": "3132's source and practice explicitly require felt irritation that is contained before an outburst; canonical 491 teaches staying calm and thinking clearly in a tense situation. 3155's source and practice teach the onset of visibly lost composure, the opposite outcome from canonical 491. Distinct surface forms and teaching decisions are provisionally justified; no human owner sign-off inferred."
+  },
+  "automatedChecks": "Focused build and --check: 8 lessons, 48 questions, 32 audio requests, zero review flags. Fresh gi target regex matches each exact source sentence, keyed scene/dialogue, golden reply, speaking model and both writing examples. All writing glossaries have exact answer-derived spans; every dialogue has a Han Chinese promptZh.",
+  "findings": [
+    {
+      "id": "R3129-01",
+      "severity": "blocker",
+      "path": "lessons[advanced-native-3129].target.pattern",
+      "evidence": "The pattern matches 'sat tight and hope for the best' (mixed tense) but fails natural forms 'sat tight and hoped for the best', 'sits tight and hopes for the best', and 'sitting tight and hoping for the best'. The brief explicitly names sat as a past form; Golden SOP target spans must cover natural inflections without highlighting invalid combinations.",
+      "repair": "Use paired verb inflections (sit/hope, sits/hopes, sat/hoped, sitting/hoping) with tests for positive natural forms and negative mismatched tenses. Preserve matches in current assessed items and source."
+    },
+    {
+      "id": "R3134-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-3134].writing.examples[0..1]",
+      "evidence": "The new writing prompt supplies that surrounding people show irritation and the self-check asks for a group affected by repeated annoyance. Both models state the target phrase but neither gives an observable irritation cue such as complaints or disrupted conversation. Model 2 says discussion is difficult, which establishes interruption but not necessarily irritation.",
+      "repair": "Give at least one model a short observed group response, and preferably retain separate repeated-source and effect details in both models. Recalculate edited glossary spans."
+    },
+    {
+      "id": "R3139-01",
+      "severity": "major",
+      "path": "lessons[advanced-native-3139].reply.options[d]",
+      "evidence": "The question only says customers continue to compare prices while choosing the service. Its fourth purportedly valid reply says home delivery fits their working hours, but no working-hour fact is supplied. Under the four-valid-replies contract, the reply must be independently grounded in the prompt rather than rely on an unstated circumstance.",
+      "repair": "Replace d with a distinct valid response grounded in ease of ordering or home delivery, and align the Chinese translation."
+    },
+    {
+      "id": "R3141-01",
+      "severity": "major",
+      "path": "lessons[advanced-native-3141].reply.options[d]",
+      "evidence": "The question asks 'How can I describe the pace?' Options a–c describe the rushed pace. Option d says 'I need a quieter hour to focus and eat properly', which proposes a remedy rather than describing the pace, so it does not independently answer the asked question.",
+      "repair": "Rewrite d as a distinct description of the pace or change the question so all four current answers would be responsive; maintain one target-bearing golden reply."
+    }
+  ],
+  "clearedLessonIds": [3132, 3136, 3154, 3155],
+  "releaseStatus": "UNSELECTED; repair and exact-hash independent follow-up required for 3129, 3134, 3139 and 3141; no human approval or publication inferred"
+}

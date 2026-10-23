@@ -1,0 +1,1783 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-23T12:52:33.040150+00:00",
+  "scope": "Read-only operational classification of every current hold-editorial occurrence in Books10–16. No decisions, drafts, canonical lessons or runtime were edited.",
+  "counts": {
+    "sourceRows": 2604,
+    "originalHoldsIndividuallyAudited": 966,
+    "currentHeldOccurrences": 934,
+    "originallyHeldNowReclassified": 32,
+    "currentHoldsMissingPriorAudit": 0,
+    "exactNormalizedHeldPhraseGroups": 856,
+    "heldOccurrencesBeyondFirstExactNormalizedPhrase": 78,
+    "explicitRepeatDependencyBucket": 39
+  },
+  "currentPriorAuditStatusCounts": {
+    "hold_supported_provisionally": 49,
+    "coverage_or_owner_expansion_hold": 33,
+    "missed_teachable_candidate": 4,
+    "sense_ambiguity_hold": 1,
+    "source_quality_or_teaching_unit_hold_supported": 590,
+    "owner_scope_or_pattern_hold": 171,
+    "possible_teachable_candidate": 29,
+    "distinct_sense_or_incidental_detector_match": 6,
+    "relemma_or_owner_scope_candidate": 51
+  },
+  "method": {
+    "unit": "Source occurrence, not unique idiom or new lesson. Primary buckets are mutually exclusive operational routes.",
+    "precedence": [
+      "Traceable explicit repeated held owner",
+      "Structured prior owner-scope/pattern/relemma audit status",
+      "Structured missed/possible teachable candidate status",
+      "Structured distinct-sense/incidental detector status",
+      "Explicit ambiguity/naturalness/source-wording concern in the current decision reason",
+      "Remaining broad teaching-unit/source-selection holds"
+    ],
+    "wordingConcernPattern": "questionable|unclear (?:it |pronoun|object|referent)|ambigu|ungrammat|unnatural|confus(?:ed|ion) (?:with|between)|unexplained pronoun|\\bincomplete\\b|\\bfragment\\b|\\bstrained\\b|less natural|naturalness|\\bawkward(?:ly)?\\b|review person/number|\\bblend\\b|source.*cleanup|wording.*needs",
+    "wordingConcernManualIncludes": [
+      2354,
+      2413,
+      2842,
+      3069,
+      4059,
+      4285
+    ],
+    "wordingConcernManualExcludes": [
+      4102,
+      4539
+    ],
+    "phrasePrefixExcludedFromConcernScan": true,
+    "repeatRule": "Current reason says repeat/repeats/repeated or identical, and an earlier exact-normalized held phrase, explicit earlier-held numeric reference, or explicit earlier/prior/previously held description is available.",
+    "exactPhraseNormalization": "Unicode NFKC, lowercase, non-ASCII-alphanumeric runs replaced by one space; no lemmatization or sense equivalence is inferred.",
+    "readScope": "All934 current decision rows joined to their previously completed individual audit rows; actual flagged wording and representative full audit/source notes inspected. This is a reason-routing analysis, not fresh independent semantic approval of934 entries."
+  },
+  "buckets": [
+    {
+      "bucket": "owner-scope-or-detector-gap",
+      "count": 234,
+      "label": "Likely related owner; source form, grammatical frame or detector coverage remains unapproved",
+      "meaning": "Includes same-family candidates and unresolved owner-scope comparisons. The count does not certify that all are aliases or merely regex edits.",
+      "nextSteps": [
+        "Compare the whole source meaning with the current canonical brief, grammar and assessed target; inspect exact marked unit, not any incidental regex hit.",
+        "Where the same teaching unit is confirmed, minimally extend the approved grammar/target forms and attach every exact occurrence; preserve existing keys and stable progress IDs.",
+        "Independently review the changed scope and target recognition. If the usage is a genuinely different sense or valuable complementary frame, author a separate bounded lesson rather than forcing an alias."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 2139,
+          "phrase": "cutting it so fine",
+          "sourceId": "book10-16-0028",
+          "currentDecisionReason": "Cutting it so fine expresses the same risky-timing idea as canonical 855, but the existing target pattern only detects cut it fine without so. Hold until the intensifier variant is reviewed and covered by its pattern and examples.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2182,
+          "phrase": "on paper",
+          "sourceId": "book10-16-0071",
+          "currentDecisionReason": "Hold: prior on-paper lesson 567 only detects selected look-adjectives and misses looks simple on paper in this source. Review a broadened adjective pattern and examples before aliasing. Provisional; independent human review open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2179,
+          "phrase": "pulled in too many directions at once",
+          "sourceId": "book10-16-0068",
+          "currentDecisionReason": "Hold: the competing-demands meaning resembles prior lesson 841, but its target pattern does not cover pulled in too many directions at once. Broaden and review that canonical lesson before an alias. Provisional; independent human review open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 3404,
+          "phrase": "all its eggs in one basket",
+          "sourceId": "book10-16-1293",
+          "currentDecisionReason": "All its eggs in one basket matches canonical 1869 risk sense, but its pronoun its is outside the target detector. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3012-3551-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        2139,
+        2172,
+        2179,
+        2182,
+        2184,
+        2210,
+        2214,
+        2222,
+        2227,
+        2233,
+        2238,
+        2254,
+        2256,
+        2263,
+        2267,
+        2277,
+        2299,
+        2300,
+        2363,
+        2392,
+        2396,
+        2422,
+        2426,
+        2436,
+        2437,
+        2440,
+        2445,
+        2447,
+        2450,
+        2454,
+        2469,
+        2476,
+        2477,
+        2481,
+        2492,
+        2493,
+        2512,
+        2530,
+        2534,
+        2535,
+        2538,
+        2539,
+        2544,
+        2551,
+        2560,
+        2572,
+        2574,
+        2578,
+        2582,
+        2584,
+        2590,
+        2599,
+        2602,
+        2605,
+        2615,
+        2619,
+        2630,
+        2634,
+        2639,
+        2645,
+        2646,
+        2650,
+        2658,
+        2664,
+        2665,
+        2669,
+        2674,
+        2676,
+        2679,
+        2685,
+        2697,
+        2712,
+        2717,
+        2729,
+        2762,
+        2770,
+        2812,
+        2820,
+        2826,
+        2828,
+        2837,
+        2846,
+        2849,
+        2860,
+        2877,
+        2889,
+        2891,
+        2892,
+        2895,
+        2898,
+        2929,
+        2936,
+        2941,
+        2942,
+        2944,
+        2945,
+        2946,
+        2966,
+        3018,
+        3030,
+        3032,
+        3078,
+        3103,
+        3122,
+        3202,
+        3212,
+        3223,
+        3254,
+        3258,
+        3259,
+        3262,
+        3281,
+        3292,
+        3296,
+        3298,
+        3299,
+        3313,
+        3314,
+        3322,
+        3340,
+        3341,
+        3353,
+        3356,
+        3360,
+        3366,
+        3388,
+        3398,
+        3404,
+        3414,
+        3423,
+        3436,
+        3442,
+        3466,
+        3468,
+        3491,
+        3494,
+        3496,
+        3500,
+        3506,
+        3513,
+        3526,
+        3538,
+        3566,
+        3579,
+        3580,
+        3586,
+        3587,
+        3594,
+        3596,
+        3597,
+        3604,
+        3611,
+        3621,
+        3632,
+        3641,
+        3650,
+        3660,
+        3669,
+        3670,
+        3681,
+        3684,
+        3713,
+        3750,
+        3768,
+        3771,
+        3772,
+        3787,
+        3792,
+        3808,
+        3821,
+        3823,
+        3832,
+        3834,
+        3845,
+        3853,
+        3866,
+        3872,
+        3884,
+        3928,
+        3939,
+        4006,
+        4012,
+        4038,
+        4046,
+        4069,
+        4094,
+        4106,
+        4112,
+        4127,
+        4134,
+        4196,
+        4203,
+        4218,
+        4223,
+        4234,
+        4271,
+        4289,
+        4301,
+        4307,
+        4308,
+        4314,
+        4332,
+        4342,
+        4356,
+        4389,
+        4404,
+        4411,
+        4424,
+        4431,
+        4443,
+        4456,
+        4458,
+        4468,
+        4473,
+        4477,
+        4480,
+        4502,
+        4508,
+        4517,
+        4526,
+        4564,
+        4581,
+        4593,
+        4601,
+        4615,
+        4621,
+        4633,
+        4639,
+        4643,
+        4665,
+        4672,
+        4688,
+        4697,
+        4712
+      ]
+    },
+    {
+      "bucket": "candidate-normalized-or-new-target",
+      "count": 33,
+      "label": "Plausible teachable expression needing lemma, sense or normalization selection",
+      "meaning": "Prior row audit explicitly identifies a missed/possible teachable candidate; this is eligibility triage, not approved lesson content.",
+      "nextSteps": [
+        "Extract a complete fluent reusable unit and classify it honestly as idiom/set phrase, phrasal verb, figurative use or natural English. Check an authoritative primary language reference where uncertain.",
+        "Compare existing and planned owners. Preserve the exact source phrase/sentence and locators; document any chosen natural production form as editorial normalization.",
+        "Once the meaning and owner are resolved, author the seven ordered steps and six assessed questions, four valid replies with one golden target, changed listening/speaking/writing contexts, two bilingual writing answers and four-to-six exact answer-derived non-target glossary spans; obtain independent review and the required media/runtime checks."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 2425,
+          "phrase": "cut down the time",
+          "sourceId": "book10-16-0314",
+          "currentDecisionReason": "Canonical 1111 requires “cut down on,” whereas this source uses transitive “cut down the time”; review the construction before aliasing. Provisional editorial hold; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2513,
+          "phrase": "one slip can cast a long shadow",
+          "sourceId": "book10-16-0402",
+          "currentDecisionReason": "One slip can cast a long shadow combines a one-off frame with a fixed image; isolate and verify cast a long shadow. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2472-3011-b.json"
+        },
+        {
+          "sourceOrdinal": 3142,
+          "phrase": "at once",
+          "sourceId": "book10-16-1031",
+          "currentDecisionReason": "Here at once means immediately, whereas existing canonical 048 teaches simultaneous demands despite matching spelling. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3012-3551-b.json"
+        },
+        {
+          "sourceOrdinal": 3394,
+          "phrase": "pick up",
+          "sourceId": "book10-16-1283",
+          "currentDecisionReason": "Picking up a postcard means buying or obtaining it, unlike canonical 441 informal skill-acquisition sense. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3012-3551-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        2401,
+        2423,
+        2425,
+        2467,
+        2513,
+        2594,
+        2663,
+        2700,
+        2715,
+        2721,
+        2730,
+        2759,
+        2847,
+        2872,
+        3007,
+        3013,
+        3100,
+        3142,
+        3282,
+        3308,
+        3394,
+        3505,
+        3520,
+        3647,
+        3726,
+        3788,
+        3841,
+        3985,
+        3990,
+        4089,
+        4147,
+        4241,
+        4339
+      ]
+    },
+    {
+      "bucket": "bespoke-or-nonfixed-teaching-unit",
+      "count": 542,
+      "label": "Bespoke imagery, ordinary description or unsettled reusable teaching unit",
+      "meaning": "The current reason chiefly questions selection value or the boundary of a reusable unit. This is not a conclusion that all such English is incorrect or permanently ineligible.",
+      "nextSteps": [
+        "Assess whether there is a bounded natural collocation, reusable sentence pattern or intelligible figurative use with a distinct learner decision. Fixed-idiom status is not mandatory under the SOP.",
+        "If a transferable natural target exists, shorten/reframe it transparently, compare near owners and promote it through normal editorial review. Do not claim a creative sentence is an established idiom.",
+        "If the item remains only literal one-off description or an unbounded extended image with no distinct learning outcome, retain a concrete selection hold or record an explicit exclusion reason. Preserve its occurrence and do not invent an expression merely to fill a lesson."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 2177,
+          "phrase": "walk out of the door too late",
+          "sourceId": "book10-16-0066",
+          "currentDecisionReason": "Walk out of the door too late is a literal descriptive clause, not obviously a reusable expression; confirm the teachable unit before lesson drafting. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2194,
+          "phrase": "fast-moving current",
+          "sourceId": "book10-16-0083",
+          "currentDecisionReason": "Fast-moving current of new demands is an extended one-off water metaphor; check whether the full image is a transferable expression. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 3553,
+          "phrase": "a small shared world",
+          "sourceId": "book10-16-1442",
+          "currentDecisionReason": "Small shared world is a broad household metaphor with no settled boundary or reusable fixed phrase. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3552-4091-b.json"
+        },
+        {
+          "sourceOrdinal": 3166,
+          "phrase": "not endlessly so",
+          "sourceId": "book10-16-1055",
+          "currentDecisionReason": "Not endlessly so is a general grammatical qualification, not a distinct idiomatic unit. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3012-3551-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        2164,
+        2175,
+        2177,
+        2181,
+        2188,
+        2193,
+        2194,
+        2207,
+        2215,
+        2221,
+        2234,
+        2244,
+        2259,
+        2303,
+        2305,
+        2321,
+        2322,
+        2323,
+        2328,
+        2331,
+        2356,
+        2393,
+        2398,
+        2405,
+        2408,
+        2409,
+        2455,
+        2461,
+        2464,
+        2468,
+        2473,
+        2482,
+        2486,
+        2491,
+        2495,
+        2496,
+        2497,
+        2506,
+        2507,
+        2510,
+        2515,
+        2517,
+        2523,
+        2526,
+        2532,
+        2536,
+        2543,
+        2546,
+        2554,
+        2555,
+        2562,
+        2570,
+        2576,
+        2577,
+        2579,
+        2580,
+        2609,
+        2621,
+        2627,
+        2632,
+        2638,
+        2640,
+        2647,
+        2652,
+        2653,
+        2654,
+        2655,
+        2656,
+        2662,
+        2668,
+        2673,
+        2677,
+        2688,
+        2692,
+        2694,
+        2695,
+        2706,
+        2713,
+        2714,
+        2720,
+        2722,
+        2725,
+        2727,
+        2732,
+        2750,
+        2751,
+        2757,
+        2763,
+        2765,
+        2771,
+        2781,
+        2782,
+        2794,
+        2795,
+        2798,
+        2801,
+        2802,
+        2807,
+        2808,
+        2816,
+        2823,
+        2835,
+        2839,
+        2840,
+        2843,
+        2844,
+        2850,
+        2852,
+        2863,
+        2865,
+        2866,
+        2869,
+        2881,
+        2885,
+        2894,
+        2897,
+        2903,
+        2904,
+        2906,
+        2907,
+        2911,
+        2914,
+        2923,
+        2925,
+        2926,
+        2938,
+        2962,
+        2964,
+        2971,
+        2972,
+        2974,
+        2976,
+        2978,
+        2983,
+        2989,
+        2990,
+        3000,
+        3002,
+        3005,
+        3008,
+        3010,
+        3016,
+        3020,
+        3024,
+        3025,
+        3029,
+        3031,
+        3035,
+        3036,
+        3041,
+        3042,
+        3043,
+        3054,
+        3055,
+        3060,
+        3063,
+        3064,
+        3066,
+        3067,
+        3074,
+        3075,
+        3077,
+        3080,
+        3086,
+        3090,
+        3097,
+        3107,
+        3125,
+        3128,
+        3130,
+        3131,
+        3133,
+        3137,
+        3138,
+        3144,
+        3145,
+        3150,
+        3151,
+        3156,
+        3166,
+        3174,
+        3179,
+        3181,
+        3187,
+        3189,
+        3190,
+        3193,
+        3197,
+        3208,
+        3216,
+        3225,
+        3241,
+        3244,
+        3248,
+        3255,
+        3256,
+        3264,
+        3265,
+        3267,
+        3271,
+        3275,
+        3278,
+        3289,
+        3294,
+        3295,
+        3300,
+        3302,
+        3318,
+        3320,
+        3321,
+        3333,
+        3335,
+        3344,
+        3346,
+        3350,
+        3351,
+        3352,
+        3358,
+        3362,
+        3363,
+        3368,
+        3372,
+        3373,
+        3375,
+        3379,
+        3381,
+        3383,
+        3386,
+        3392,
+        3396,
+        3415,
+        3416,
+        3417,
+        3422,
+        3425,
+        3426,
+        3427,
+        3433,
+        3439,
+        3440,
+        3446,
+        3454,
+        3459,
+        3464,
+        3465,
+        3473,
+        3474,
+        3476,
+        3478,
+        3482,
+        3502,
+        3503,
+        3514,
+        3515,
+        3516,
+        3518,
+        3522,
+        3528,
+        3530,
+        3531,
+        3535,
+        3553,
+        3561,
+        3562,
+        3563,
+        3574,
+        3576,
+        3578,
+        3583,
+        3588,
+        3592,
+        3593,
+        3598,
+        3601,
+        3603,
+        3605,
+        3607,
+        3608,
+        3613,
+        3614,
+        3619,
+        3633,
+        3639,
+        3644,
+        3656,
+        3663,
+        3666,
+        3667,
+        3674,
+        3682,
+        3686,
+        3694,
+        3696,
+        3697,
+        3704,
+        3707,
+        3709,
+        3711,
+        3716,
+        3720,
+        3723,
+        3724,
+        3725,
+        3727,
+        3731,
+        3732,
+        3739,
+        3753,
+        3755,
+        3761,
+        3762,
+        3763,
+        3774,
+        3775,
+        3776,
+        3781,
+        3783,
+        3786,
+        3790,
+        3794,
+        3805,
+        3815,
+        3817,
+        3820,
+        3839,
+        3844,
+        3847,
+        3849,
+        3850,
+        3860,
+        3862,
+        3863,
+        3867,
+        3886,
+        3891,
+        3893,
+        3898,
+        3901,
+        3902,
+        3903,
+        3905,
+        3906,
+        3909,
+        3913,
+        3917,
+        3921,
+        3942,
+        3943,
+        3944,
+        3949,
+        3951,
+        3952,
+        3953,
+        3955,
+        3956,
+        3957,
+        3962,
+        3963,
+        3966,
+        3969,
+        3970,
+        3973,
+        3981,
+        3983,
+        3989,
+        3993,
+        3996,
+        3999,
+        4013,
+        4019,
+        4022,
+        4028,
+        4029,
+        4035,
+        4037,
+        4044,
+        4055,
+        4056,
+        4062,
+        4070,
+        4071,
+        4076,
+        4081,
+        4085,
+        4088,
+        4098,
+        4099,
+        4102,
+        4104,
+        4109,
+        4110,
+        4137,
+        4144,
+        4145,
+        4148,
+        4151,
+        4152,
+        4157,
+        4158,
+        4160,
+        4165,
+        4168,
+        4178,
+        4185,
+        4187,
+        4197,
+        4202,
+        4207,
+        4215,
+        4224,
+        4227,
+        4247,
+        4249,
+        4256,
+        4257,
+        4270,
+        4275,
+        4281,
+        4284,
+        4286,
+        4297,
+        4298,
+        4299,
+        4300,
+        4311,
+        4312,
+        4313,
+        4316,
+        4318,
+        4320,
+        4321,
+        4323,
+        4327,
+        4334,
+        4335,
+        4343,
+        4345,
+        4346,
+        4347,
+        4349,
+        4352,
+        4353,
+        4354,
+        4355,
+        4359,
+        4362,
+        4365,
+        4367,
+        4368,
+        4369,
+        4379,
+        4386,
+        4390,
+        4394,
+        4396,
+        4400,
+        4402,
+        4410,
+        4415,
+        4419,
+        4423,
+        4425,
+        4441,
+        4448,
+        4452,
+        4455,
+        4460,
+        4461,
+        4463,
+        4465,
+        4469,
+        4472,
+        4483,
+        4486,
+        4490,
+        4491,
+        4503,
+        4507,
+        4511,
+        4512,
+        4513,
+        4514,
+        4519,
+        4520,
+        4522,
+        4523,
+        4527,
+        4531,
+        4532,
+        4534,
+        4536,
+        4537,
+        4539,
+        4542,
+        4543,
+        4545,
+        4547,
+        4555,
+        4557,
+        4558,
+        4559,
+        4573,
+        4576,
+        4579,
+        4582,
+        4585,
+        4587,
+        4588,
+        4589,
+        4590,
+        4591,
+        4594,
+        4595,
+        4602,
+        4603,
+        4604,
+        4610,
+        4611,
+        4613,
+        4617,
+        4623,
+        4628,
+        4630,
+        4636,
+        4645,
+        4647,
+        4648,
+        4654,
+        4663,
+        4668,
+        4675,
+        4676,
+        4686,
+        4690,
+        4693,
+        4695,
+        4702,
+        4704,
+        4710,
+        4711,
+        4713,
+        4715
+      ]
+    },
+    {
+      "bucket": "ambiguous-or-unnatural-source-review",
+      "count": 80,
+      "label": "Meaning, referent, collocation, syntax or source-wording clarification required",
+      "meaning": "These rows explicitly request disambiguation, naturalness or source-unit repair. A diagnostic concern is not proof that every source is wrong.",
+      "nextSteps": [
+        "Return to the complete source sentence and neighboring context; resolve person/number, pronoun referent, literal/figurative sense and the intended collocation.",
+        "Check uncertain meaning/naturalness against an authoritative dictionary or primary usage evidence. Choose a full natural target and record the correction/normalization separately from immutable source text.",
+        "Keep unresolved meaning held before seven-step authoring or audio. Re-run source mapping and target recognition after an approved repair; obtain independent scoped review."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 2130,
+          "phrase": "settle their mind",
+          "sourceId": "book10-16-0019",
+          "currentDecisionReason": "Source says the group settle their mind; review person/number and whether the useful target is settle one's mind before assigning a lesson.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2159,
+          "phrase": "sharpen your day",
+          "sourceId": "book10-16-0048",
+          "currentDecisionReason": "Sharpen your day is a questionable collocation; verify natural use and whether the real target is sharpen focus.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2407,
+          "phrase": "at once",
+          "sourceId": "book10-16-0296",
+          "currentDecisionReason": "At once could mean immediately or simultaneously when lights go out; disambiguate before splitting from existing 048. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 3573,
+          "phrase": "rules done to students",
+          "sourceId": "book10-16-1462",
+          "currentDecisionReason": "Rules done to students is an unnatural passive policy expression and requires source-language review. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3552-4091-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        2130,
+        2147,
+        2148,
+        2159,
+        2160,
+        2165,
+        2191,
+        2220,
+        2247,
+        2262,
+        2302,
+        2312,
+        2316,
+        2349,
+        2354,
+        2406,
+        2407,
+        2413,
+        2448,
+        2472,
+        2505,
+        2531,
+        2547,
+        2607,
+        2719,
+        2748,
+        2749,
+        2792,
+        2819,
+        2821,
+        2842,
+        2893,
+        2902,
+        2951,
+        2981,
+        3045,
+        3062,
+        3069,
+        3073,
+        3110,
+        3123,
+        3148,
+        3206,
+        3239,
+        3260,
+        3276,
+        3307,
+        3312,
+        3389,
+        3390,
+        3479,
+        3504,
+        3573,
+        3582,
+        3585,
+        3606,
+        3630,
+        3758,
+        3793,
+        3846,
+        3940,
+        4059,
+        4113,
+        4162,
+        4285,
+        4310,
+        4351,
+        4361,
+        4451,
+        4457,
+        4493,
+        4498,
+        4509,
+        4524,
+        4562,
+        4584,
+        4596,
+        4614,
+        4646,
+        4689
+      ]
+    },
+    {
+      "bucket": "repeated-held-owner",
+      "count": 39,
+      "label": "Repeated occurrence depends on an earlier unresolved held owner",
+      "meaning": "Explicit repeat dependencies are counted separately to prevent duplicate lesson creation; other repeated phrases may still occur in the remaining buckets.",
+      "nextSteps": [
+        "Resolve the earliest appropriate owner/sense case once; inspect all linked contexts rather than relying on text identity alone.",
+        "Attach every repeated source occurrence to the approved owner or approved separate sense and propagate the reviewed target/normalization decision.",
+        "Do not alias a repeat to an unapproved held draft or delete repeated provenance. Recheck all occurrence assignments and review hashes."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 2387,
+          "phrase": "leave a lasting mark",
+          "sourceId": "book10-16-0276",
+          "currentDecisionReason": "Repeated leave a lasting mark occurrence matches held ordinal 2363; canonical 283 does not detect lasting in this construction. Hold both consistently pending pattern and example review.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2112-2471-b.json"
+        },
+        {
+          "sourceOrdinal": 2626,
+          "phrase": "training wheels",
+          "sourceId": "book10-16-0515",
+          "currentDecisionReason": "This repeats source ordinal 2578's training wheels learning-support metaphor. Its proposed new owner is now on hold pending comparison with canonical 1276 strip away the training wheels, so this repeated occurrence must remain on the same hold rather than aliasing an unapproved lesson.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-2472-3011-b.json"
+        },
+        {
+          "sourceOrdinal": 3293,
+          "phrase": "owning the mistake",
+          "sourceId": "book10-16-1182",
+          "currentDecisionReason": "Hold: this repeat depends on proposed owner 3282 owning the mistake, now held pending comparison with take responsibility owner 2882. Resolve the first occurrence before assigning this repeat.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3012-3551-b.json"
+        },
+        {
+          "sourceOrdinal": 3880,
+          "phrase": "leaves the door open to change",
+          "sourceId": "book10-16-1769",
+          "currentDecisionReason": "Hold: this leaves the door open to change repeat depends on proposed owner 3356, which is held pending comparison with existing canonical 785 and detector coverage. Do not route this repeat yet.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-3552-4091-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        2347,
+        2367,
+        2387,
+        2541,
+        2597,
+        2626,
+        2678,
+        2786,
+        2822,
+        2915,
+        2987,
+        3015,
+        3140,
+        3170,
+        3242,
+        3285,
+        3293,
+        3315,
+        3361,
+        3475,
+        3477,
+        3480,
+        3485,
+        3634,
+        3740,
+        3741,
+        3748,
+        3880,
+        3994,
+        3998,
+        4505,
+        4560,
+        4570,
+        4572,
+        4600,
+        4619,
+        4627,
+        4653,
+        4677
+      ]
+    },
+    {
+      "bucket": "other-distinct-sense-or-incidental-match",
+      "count": 6,
+      "label": "Different sense or incidental detector subspan; not evidence of existing coverage",
+      "meaning": "All six current cases come from the explicit distinct-sense/incidental-match audit status. They are not a miscellaneous rejection bin.",
+      "nextSteps": [
+        "Compare the full marked expression and intended source meaning with the detected owner; a regex match alone is not semantic coverage.",
+        "Search for the correct existing sense/owner. If absent, define a separate stable sense/target and retain its exact source evidence.",
+        "Do not merge immediate at once into simultaneous at once, attention-loss switch off into relaxation, or perceived come across into chance discovery. Complete normal authoring/review only after the meaning is resolved."
+      ],
+      "examples": [
+        {
+          "sourceOrdinal": 4141,
+          "phrase": "at once",
+          "sourceId": "book10-16-2030",
+          "currentDecisionReason": "Caught attention at once means immediately, distinct from simultaneous-actions canonical owner. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-4092-4715-b.json"
+        },
+        {
+          "sourceOrdinal": 4154,
+          "phrase": "switch off",
+          "sourceId": "book10-16-2043",
+          "currentDecisionReason": "Mind switching off during a dull lecture means losing attention, distinct from canonical relax-after-work sense. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-4092-4715-b.json"
+        },
+        {
+          "sourceOrdinal": 4315,
+          "phrase": "come across the wrong way",
+          "sourceId": "book10-16-2204",
+          "currentDecisionReason": "Come across the wrong way means be perceived badly, distinct from find-by-chance owner and unproven against impression owner. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-4092-4715-b.json"
+        },
+        {
+          "sourceOrdinal": 4378,
+          "phrase": "never really goes to sleep",
+          "sourceId": "book10-16-2267",
+          "currentDecisionReason": "Noise never sleeping is city personification, not a stable idiom. Provisional editorial decision; independent review remains open.",
+          "priorIndependentAuditFile": "hold-editorial-independent-audit-4092-4715-b.json"
+        }
+      ],
+      "sourceOrdinals": [
+        4092,
+        4122,
+        4141,
+        4154,
+        4315,
+        4378
+      ]
+    }
+  ],
+  "repeatDependencies": [
+    {
+      "sourceOrdinal": 2347,
+      "earlierHeldOrdinalCandidates": [
+        2227,
+        2233,
+        2254
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2367,
+      "earlierHeldOrdinalCandidates": [
+        2331
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2387,
+      "earlierHeldOrdinalCandidates": [
+        2363
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2541,
+      "earlierHeldOrdinalCandidates": [
+        2472
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2597,
+      "earlierHeldOrdinalCandidates": [
+        2182,
+        2538
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2626,
+      "earlierHeldOrdinalCandidates": [
+        2578
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2678,
+      "earlierHeldOrdinalCandidates": [
+        2646
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2786,
+      "earlierHeldOrdinalCandidates": [
+        2717
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2822,
+      "earlierHeldOrdinalCandidates": [
+        2267
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2915,
+      "earlierHeldOrdinalCandidates": [
+        2227
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 2987,
+      "earlierHeldOrdinalCandidates": [
+        2413
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3015,
+      "earlierHeldOrdinalCandidates": [
+        2182
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3140,
+      "earlierHeldOrdinalCandidates": [
+        2238
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3170,
+      "earlierHeldOrdinalCandidates": [
+        3133
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3242,
+      "earlierHeldOrdinalCandidates": [
+        2172
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3285,
+      "earlierHeldOrdinalCandidates": [
+        2354
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3293,
+      "earlierHeldOrdinalCandidates": [
+        3282
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3315,
+      "earlierHeldOrdinalCandidates": [
+        2182
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3361,
+      "earlierHeldOrdinalCandidates": [
+        2182
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3475,
+      "earlierHeldOrdinalCandidates": [
+        3454
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3477,
+      "earlierHeldOrdinalCandidates": [
+        3454
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3480,
+      "earlierHeldOrdinalCandidates": [
+        2227
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3485,
+      "earlierHeldOrdinalCandidates": [
+        2227
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3634,
+      "earlierHeldOrdinalCandidates": [
+        3611
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3740,
+      "earlierHeldOrdinalCandidates": [
+        3731
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3741,
+      "earlierHeldOrdinalCandidates": [
+        3732
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3748,
+      "earlierHeldOrdinalCandidates": [
+        3739
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3880,
+      "earlierHeldOrdinalCandidates": [
+        3356
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3994,
+      "earlierHeldOrdinalCandidates": [
+        3989
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 3998,
+      "earlierHeldOrdinalCandidates": [
+        3031
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4505,
+      "earlierHeldOrdinalCandidates": [
+        2646,
+        4469
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4560,
+      "earlierHeldOrdinalCandidates": [
+        4537
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4570,
+      "earlierHeldOrdinalCandidates": [
+        4555
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4572,
+      "earlierHeldOrdinalCandidates": [
+        4557
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4600,
+      "earlierHeldOrdinalCandidates": [
+        2182
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4619,
+      "earlierHeldOrdinalCandidates": [
+        4513
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4627,
+      "earlierHeldOrdinalCandidates": [
+        4513,
+        4619
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4653,
+      "earlierHeldOrdinalCandidates": [
+        4480
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    },
+    {
+      "sourceOrdinal": 4677,
+      "earlierHeldOrdinalCandidates": [
+        2694,
+        4531
+      ],
+      "basis": "Current reason explicitly calls this a repeat/identical held source; numeric owner or earlier exact-normalized phrase is recorded where available. Not a fresh sense-equivalence decision."
+    }
+  ],
+  "sopBasis": [
+    {
+      "paragraphs": [
+        "P66",
+        "P68",
+        "P70",
+        "P72",
+        "P73",
+        "P74"
+      ],
+      "requirements": "Keep exact source/provenance, read full context, verify uncertain meaning using primary language references, compare existing/planned owners and record concrete verified/hold/rejected reasons before authoring."
+    },
+    {
+      "paragraphs": [
+        "P79",
+        "P81"
+      ],
+      "requirements": "Natural collocations, reusable sentence patterns and intelligible figurative use are eligible; do not label all fluent wording an idiom. Define lemma/forms/category/meaning/grammar/boundary and learner decision."
+    },
+    {
+      "paragraphs": [
+        "P149",
+        "P160",
+        "P165",
+        "P203"
+      ],
+      "requirements": "Use natural complete target-bearing models, exact answer-derived glossary support and reviewed natural surface forms."
+    }
+  ],
+  "interpretation": [
+    "934 held occurrences do not mean934 invalid English expressions or934 missing new lessons. Exact phrase grouping alone yields856groups, and different contexts/senses still require review.",
+    "A detector gap can often be resolved by a reviewed owner extension; an incidental detector hit can instead conceal a different sense. Neither automatically establishes an alias.",
+    "The largest bucket is an unsettled teaching-unit/selection queue, not a permanent rejection list. The SOP permits natural and figurative targets even when their wording is not fixed.",
+    "Operational bucket counts summarize current recorded concerns. They do not predict how many new lessons will ultimately be approved, nor claim human approval."
+  ],
+  "inputHashes": [
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "sha256": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2142-2171.jsonl",
+      "sha256": "3844379b53dea2194b2ad78a0e24231f740f304295a960f43c1235da9625ebde"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "sha256": "f7f09f3ea7e657aa005c512845ab204f05431469ea56b68f860729f582b0e015"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "sha256": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "sha256": "35b3b5930bd8d0ff0904a30cff0f45c7dd82f89ac9e96eb3227432867a23a786"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "sha256": "2e49af3e4bc71aa912400708f923083021747b3d1c19a7f1d3b60258a2828edb"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "sha256": "bae8cf12cc2a504ce0dcf917472e3f91faded50981ba7e0101334efb9cc5e126"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "sha256": "0058de65f6084db2a74e5df3b515af4e8eceaa97216554c30635a8bc14ab62d8"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "sha256": "3d9038a708738e57ad33741ef2c7adcb885fd2cf3d116792b9880a7dc0b33af2"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2592-2651.jsonl",
+      "sha256": "ce5047f250235f0c9fa0288a72de123c92755f9ef9bd5536beac40a1dc7209d6"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "sha256": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "sha256": "bb27261e0faadd3eb1d1850082d1bfec88474cb9d66a8aea985ec593d3f2eea9"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "sha256": "eef4ff41f5a9720b1798f347f4f328cf32a72ea347ef4065da8758df1689d641"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "sha256": "7decbc6b334f613812f6fd5d1842505d9f62a6fd8d0ebca1126aa67c104c1db4"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2892-2951.jsonl",
+      "sha256": "710b4da399e33d20a9e31a5ba746015fe3cbcae73ac94fea18ed52cc85e67831"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "sha256": "f8ff92903cad6d776ec5e3c3d5d690319b552afa7f0a280ebb3bf32c5ea75be7"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3012-3071.jsonl",
+      "sha256": "557e2410e6e5d55abe7951f607cb01c761b38749f32bc19e07ce8c8705eab819"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3072-3131.jsonl",
+      "sha256": "b290cd6ff78befccc1593516aef08a48598dd8a0976b7720fd116f2c8721f9a9"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "sha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "sha256": "8812d7541d4cbc77c8d1a96b2a1acaf77f02875ab970dd1b8aec2a46aa3ac87c"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3252-3311.jsonl",
+      "sha256": "3c117e6df226f75f108c11ff8e08da1f2107f2defde89069163680ce3aa00e91"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "sha256": "734a9a2f01c7bea036695acc68917c3ab78994ae891d85fcd15fee80ab67a05e"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3372-3431.jsonl",
+      "sha256": "b4ceea89c134830a3542d9e16885230b836ba0112d848c233a53c0f23c7b104c"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "sha256": "73f04764fb65e83ac618d4b4ae4f77eb628e5178f565397b8216d3466512c4ef"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "sha256": "555bf43af5c2582e517f0dab3923bdd2dbfe1c4b8935ca71da4b4798c7d1c779"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3552-3611.jsonl",
+      "sha256": "daafe668f8f908e9ef5196fbc705d249b68ce610ecafcd8798d7671e8d5d36a6"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "sha256": "23f071a5bc9b5fc0ec864b6c5843070cf01dc9947f405d3cdf67f8a523f57929"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "sha256": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "sha256": "d2f4bbb3ac86d8163a62a1a81fd3fbcb663996d7de937a68001e42995b078fb3"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "sha256": "f5f655365c7383e15680178464ac78f54f58ccf08f81dbed097c88d993d44d1f"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3852-3911.jsonl",
+      "sha256": "c900829360270a2cfaf8d68c7aa2e4dcc64af56396942e04fc364ca35ca530b9"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3912-3971.jsonl",
+      "sha256": "0c9335b41931760eae9181eb547e6b5ed8a02d70ff2a0671f7d9f80eb0a779b4"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-3972-4031.jsonl",
+      "sha256": "b9dbda745707756c333be49fe66052026c9c663b737eddc4a3b7525db9934682"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "sha256": "b7018d3cb53df23ffdfa7e0e5953d4abb90f51c6e1ff180b989b208b17ddb35a"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4092-4151.jsonl",
+      "sha256": "0ebf6ef178a1def10deacca6a340c2067719700d9ec7176a66278a7112915b0b"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4152-4211.jsonl",
+      "sha256": "7a959e687a06ef17489910b171d3757e80a869b17b71814e316ad53ddf955cef"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4212-4271.jsonl",
+      "sha256": "2a45bbff835efabeb0d1bf43f36ac2f802064131f72ca59b1f5f6b1e1ad3e156"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4272-4331.jsonl",
+      "sha256": "d40ac75b7cb71e22419d8e04e65efe9d9a06d884474c4cb4e7fed7360734bc44"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "sha256": "4365838cf133b3e4a57a5056fa16fde223a1ce99f1ee48b9fe8d38f840aec001"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4392-4451.jsonl",
+      "sha256": "8a610ee64b8a89f2cc4a949ee5236fb5fb7c46a4b86ec623e07ec5bd87741e2e"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "sha256": "c0cf32cfc7655bdebcadf8bc0203b8ab8bcc39d1a84f43543e3c42a4dd4d6a38"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4512-4571.jsonl",
+      "sha256": "80bcc4283b807c6306db1ec073c2b0eaa4c5249e14f65e9a28afdd79b6d1447d"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4572-4631.jsonl",
+      "sha256": "ec8fa82e085c585f079f9ce37f808f319f6148cfc21ddca09b462732396e5e16"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4632-4691.jsonl",
+      "sha256": "ba47ae5fdbc75d4a990629d5d526ac8142ba1c74ef1433bbc67c86c9a7d0772a"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/editorial-decisions-4692-4715.jsonl",
+      "sha256": "3155aacdb86c498ca8ea829b6f533a58a3bd93ac39122d34b7d53494a64a4f42"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-2112-2471-b.json",
+      "sha256": "7ba30c6e4e44e9ba8018d2eab5e51824d29eb0669cffecddb7ec8d23ac47dca7"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-2472-3011-b.json",
+      "sha256": "233088a376a3dbed8d6fb34b253164d6ab25d39c03604e8bfb0a35549a8446cc"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-3012-3551-b.json",
+      "sha256": "11f4b8acaacfbd0779633f39afd663e3d7cab34275258ecf70386c1b0387acc7"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-3552-4091-b.json",
+      "sha256": "d5bfe8655811c9cc9651e39c490e01a97b2795c28fd87b64b2d5b1f77ee3a4f8"
+    },
+    {
+      "file": "course-materials/advanced-native/reviews-books10-16/hold-editorial-independent-audit-4092-4715-b.json",
+      "sha256": "c54f7d109e3569de53536a56fcaeb7c1138942b0b5ac1c09097769433e30e616"
+    },
+    {
+      "file": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    {
+      "file": "sop-extracted.txt",
+      "sha256": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+    }
+  ],
+  "inputFilesUnchangedDuringAnalysis": true,
+  "decisionsEdited": false,
+  "draftsEdited": false,
+  "runtimeEdited": false,
+  "humanApprovalClaimed": false,
+  "integrity": {
+    "payloadSha256": "954fdee328fe49d37a3f28d596a6970549e931b974c1b87401f7d55435b15edd",
+    "method": "SHA256 of UTF-8 compact sorted-key JSON excluding the integrity field."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Independent exact-hash follow-up for all four initial findings in eight unselected 3129–3155 lessons",
+  "draftFile": "course-materials/advanced-native/drafts-books10-16/batch-3129-3155-a.json",
+  "draftSha256": "c4caa67c383cc086a29849327b33586bb7c22b2a973349251fe2d9665c26a8d3",
+  "authorSelfAuditSha256": "f988d773010487ab8c84f8d78507e5cd2e7f9dc7cae7c20095a506755f2e55a7",
+  "lessonIds": [3129, 3132, 3134, 3136, 3139, 3141, 3154, 3155],
+  "findingRechecks": {
+    "R3129-01": "CLEARED: paired-verb target pattern matches sit/hope, sits/hopes, sat/hoped and sitting/hoping, and rejects tested mixed-tense combinations including sat/hope. Existing source and assessed matches are preserved.",
+    "R3134-01": "CLEARED: both changed-context writing models now include observable complaints from affected people as evidence of repeated irritation; English/Traditional Chinese and glossary spans match.",
+    "R3139-01": "CLEARED: the English question and Chinese translation now supply two-tap ordering and home delivery; option d relies on that stated delivery fact rather than inventing work schedules. All four replies answer the question and the target option remains the sole golden reply.",
+    "R3141-01": "CLEARED: option d now describes the rushed pace instead of suggesting a remedy; all four replies answer the pace question."
+  },
+  "integrity": "Fresh gi target tests pass for all eight exact source sentences, keyed scene/dialogue, golden replies, speaking models and both writing examples; all answer-derived glossary spans are exact. Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags.",
+  "findings": [],
+  "result": "EIGHT_DRAFTS_CLEARED_FOR_PROVISIONAL_SELECTION; canonical-491 owner distinctions remain subject to human release sign-off, and this does not certify audio listening, device QA or publication"
+}

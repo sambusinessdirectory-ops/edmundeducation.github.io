@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-author-a-3129-3155-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-3129",
+      "number": 3129,
+      "inventoryId": "expr-3129",
+      "titleEn": "sit tight and hope for the best",
+      "titleZh": "耐心等候，盼望有好結果",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:sit tight and hope|sits tight and hopes|sat tight and hoped|sitting tight and hoping) for the best\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Wait patiently after doing what one can, while remaining uncertain about the outcome.",
+        "meaningZh": "完成自己能做的事後，因結果尚未確定而耐心等待，盼望有好結果。",
+        "grammar": "sit tight and hope for the best; sat is the past form of sit.",
+        "register": "Informal conversational language. An applicant might say it to a friend after sending a completed application.",
+        "boundaryZh": "重點是暫時無法再左右結果時等待；不應用來代替仍有責任完成的工作。",
+        "misconceptionZh": "不是保證成功，也不是故意忽略可採取的補救行動。",
+        "outcomeZh": "能分辨已盡力後等待與未完成工作便被動寄望。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1018",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 95,
+          "book": 12,
+          "question": 27,
+          "sample": "S2",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 97, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "After the interview, we could only sit tight and hope for the best.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sit tight and hope for the best"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者送出申請後打算怎樣做？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Wait for the decision because no further action is currently required.",
+            "zh": "暫時無需再採取行動，等待決定。"
+          },
+          {
+            "id": "b",
+            "en": "Rewrite the application before the announced deadline.",
+            "zh": "在公布的截止日期前重寫申請。"
+          },
+          {
+            "id": "c",
+            "en": "Call the office every hour to demand a result.",
+            "zh": "每小時致電辦事處催促結果。"
+          },
+          {
+            "id": "d",
+            "en": "Assume the place has already been confirmed.",
+            "zh": "假設名額已獲確認。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "材料已送齊，辦事處會下星期回覆；現在只能耐心等候。",
+        "en": "I sent the completed application and all the documents yesterday. The office said it would reply next week, so for now I can only sit tight and hope for the best.",
+        "zh": "我昨天已送出完整申請和所有文件。辦事處說下星期會回覆，所以目前我只能耐心等候，盼望有好結果。"
+      },
+      "reply": {
+        "promptEn": "We have submitted every document and the decision comes next week. What can we do now?",
+        "promptZh": "（我們已提交所有文件，下星期才有決定。現在可以做甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Wait for the announced reply before chasing the office.",
+            "zh": "等到公布的回覆時間再向辦事處查詢。"
+          },
+          {
+            "id": "b",
+            "en": "Keep a copy of the submitted documents while waiting.",
+            "zh": "等候期間保留已提交文件的副本。"
+          },
+          {
+            "id": "c",
+            "en": "We can sit tight and hope for the best until the office responds.",
+            "zh": "辦事處回覆前，我們只能耐心等候，盼望好結果。"
+          },
+          {
+            "id": "d",
+            "en": "Plan what to do if the answer is yes or no.",
+            "zh": "先計劃獲批及不獲批時的下一步。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是提交後可行的做法；金句點出結果未定而暫時等待。"
+      },
+      "scene": {
+        "promptZh": "樂團已完成試音，評審說周五才公布名單，也沒有補交材料的安排。團員現在只能等。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They must sit tight and hope for the best until Friday.",
+            "zh": "他們只能耐心等到周五，盼望有好結果。"
+          },
+          {
+            "id": "b",
+            "en": "They should submit the recording they have not yet finished.",
+            "zh": "他們應提交尚未完成的錄音。"
+          },
+          {
+            "id": "c",
+            "en": "They have already secured a place and can announce it now.",
+            "zh": "他們已獲得名額，可以現在宣布。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "試音已完成，結果未定且暫無下一步，適合耐心等候。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況仍有必要行動，不能只說 sit tight and hope for the best？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The applicant has not sent the required reference before today’s deadline.",
+            "zh": "申請人尚未在今天截止前送出必需的推薦信。"
+          },
+          {
+            "id": "b",
+            "en": "The complete application is under review until next week.",
+            "zh": "完整申請正在審核，下星期才有結果。"
+          },
+          {
+            "id": "c",
+            "en": "The interview is over and the panel has given a decision date.",
+            "zh": "面試已結束，評審團已說明公布日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍欠必需文件且今天截止，應先完成行動。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們昨天送出修訂方案，資助方說星期一才決定。還有甚麼要提交嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "No; we can sit tight and hope for the best until Monday.",
+            "zh": "不用；星期一前我們可以耐心等候，盼望好結果。"
+          },
+          {
+            "id": "b",
+            "en": "Keep the submitted version ready in case the funder has a question.",
+            "zh": "保留已提交的版本，以便資助方有疑問時查閱。"
+          },
+          {
+            "id": "c",
+            "en": "Check that the funder has our current contact details.",
+            "zh": "檢查資助方是否有我們最新的聯絡資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "材料已提交且有回覆日期，金句表達目前只能等候。",
+        "promptEn": "A: We sent the revised proposal yesterday, and the funder said it will decide on Monday. Is there anything left to submit? B: ______"
+      },
+      "speaking": {
+        "en": "We have sent the final design to the judges, so we will sit tight and hope for the best until the results come out.",
+        "zh": "我們已把最終設計交給評判，所以公布結果前會耐心等候，盼望有好結果。",
+        "promptZh": "說明已完成的步驟及尚待公布的結果。",
+        "targetSpan": {
+          "start": 56,
+          "end": 87
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團體已交齊必要資料，審核機構仍未公布結果，暫時沒有其他必需步驟。用英文交代已完成甚麼、等待甚麼。",
+        "selfCheckZh": "須明確說明已盡力及結果未定；不要把未交文件的情況寫成只能等候。",
+        "examples": [
+          {
+            "en": "After the grant panel confirmed it had every form, the youth group decided to sit tight and hope for the best until the decision arrived.",
+            "zh": "資助評審小組確認收齊所有表格後，青年團體決定耐心等候，盼望決定有好結果。"
+          },
+          {
+            "en": "The bakery had submitted its permit application and could only sit tight and hope for the best while the council reviewed it.",
+            "zh": "麵包店已提交許可證申請；議會審核期間，店方只能耐心等候，盼望有好結果。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the grant panel",
+            "zh": "資助評審小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 21
+            }
+          },
+          {
+            "en": "every form",
+            "zh": "所有表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 49
+            }
+          },
+          {
+            "en": "the decision",
+            "zh": "決定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 128
+            }
+          },
+          {
+            "en": "its permit application",
+            "zh": "許可證申請",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 47
+            }
+          },
+          {
+            "en": "the council",
+            "zh": "議會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 112
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "After completing the application, we may sit tight and hope for the best.",
+          "zh": "完成申請後，我們或只能耐心等候，盼望好結果。"
+        },
+        {
+          "en": "Do the required work first; only then sit tight and hope for the best.",
+          "zh": "先完成必需工作，然後才耐心等候，盼望好結果。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3132",
+      "number": 3132,
+      "inventoryId": "expr-3132",
+      "titleEn": "keep a lid on it",
+      "titleZh": "壓住怒氣；不讓情緒爆發",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) a lid on it\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Control an emotion, especially irritation, so it is not expressed in an outburst.",
+        "meaningZh": "控制情緒，尤其是怒氣，避免當場爆發。",
+        "grammar": "keep a lid on it; it needs a clear emotion antecedent in context.",
+        "register": "Informal conversational language. A colleague may say it to a friend after managing irritation during a meeting.",
+        "boundaryZh": "指情緒存在但被克制，不等於沒有不滿，也不是掩蓋必須報告的事實；與 keep a cool head 側重清晰判斷的用法不同。",
+        "misconceptionZh": "不是蓋上真正的蓋子；不能在沒有情緒所指的語境中任意使用 it。",
+        "outcomeZh": "能辨別克制怒氣與沒有怒氣、或當場爆發。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1021",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 95,
+          "book": 12,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 98, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "He was irritated but managed to keep a lid on it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keep a lid on it"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 1,
+      "listening": {
+        "promptZh": "講者在會議中怎樣處理自己的怒氣？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker felt irritated but answered calmly rather than shouting.",
+            "zh": "講者感到煩躁，但仍平靜回答，沒有叫嚷。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker had no strong feeling about the interruption.",
+            "zh": "講者對打斷毫無強烈感受。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker shouted until the meeting stopped.",
+            "zh": "講者一直叫嚷，直到會議停止。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker left without answering any question.",
+            "zh": "講者沒有回答問題便離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者確實生氣，但控制住，平靜回答。",
+        "en": "I was irritated when Ken interrupted me again, but I managed to keep a lid on it. I answered the question calmly and asked to finish my point.",
+        "zh": "Ken 再次打斷我時，我很煩躁，但設法壓住怒氣。我平靜回答問題，並請他讓我說完。"
+      },
+      "reply": {
+        "promptEn": "Ken keeps interrupting you in the meeting. How can you respond without snapping?",
+        "promptZh": "（Ken 在會議中不斷打斷你。你怎樣回應才不會發火？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Ask calmly for a chance to finish your point.",
+            "zh": "平靜地請他讓你說完。"
+          },
+          {
+            "id": "b",
+            "en": "Pause before replying so you can choose your words.",
+            "zh": "回應前先停一停，想清楚用詞。"
+          },
+          {
+            "id": "c",
+            "en": "I am annoyed, but I will keep a lid on it and address the interruption directly.",
+            "zh": "我很惱火，但會壓住怒氣，直接處理被打斷的問題。"
+          },
+          {
+            "id": "d",
+            "en": "Suggest a turn-taking rule for the rest of the meeting.",
+            "zh": "建議餘下會議輪流發言。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能控制衝突；金句點明有怒氣但克制住。"
+      },
+      "scene": {
+        "promptZh": "球員對裁判的判決很惱火，卻沒有吼叫，而是深呼吸後平靜地請隊長提出疑問。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The player kept a lid on it despite feeling angry.",
+            "zh": "球員雖然生氣，仍壓住怒氣。"
+          },
+          {
+            "id": "b",
+            "en": "The player felt no frustration with the decision.",
+            "zh": "球員對判決毫無不滿。"
+          },
+          {
+            "id": "c",
+            "en": "The player shouted at the referee before calming down.",
+            "zh": "球員先向裁判吼叫，之後才平靜。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "怒氣存在，卻沒有當場爆發。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況未能說當事人 keep a lid on it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She yelled at her colleague and slammed the door in anger.",
+            "zh": "她憤怒地向同事吼叫，並用力關門。"
+          },
+          {
+            "id": "b",
+            "en": "She was annoyed but waited until after the meeting to raise it calmly.",
+            "zh": "她很惱火，但等到會後才平靜提出。"
+          },
+          {
+            "id": "c",
+            "en": "She felt angry and took a breath before responding.",
+            "zh": "她感到生氣，先深呼吸才回答。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "怒氣已明顯爆發，與克制情緒相反。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：供應商責怪我們時，我非常憤怒，但仍禮貌回答，並要求查看紀錄。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You kept a lid on it while still asking for the facts.",
+            "zh": "你壓住了怒氣，同時仍要求查明事實。"
+          },
+          {
+            "id": "b",
+            "en": "You asked for the records before deciding who was responsible.",
+            "zh": "你在決定責任誰屬前先要求看紀錄。"
+          },
+          {
+            "id": "c",
+            "en": "You stayed in the conversation instead of leaving immediately.",
+            "zh": "你留在對話中，沒有立即離開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句特別指出有怒氣但控制住，不妨礙查清事實。",
+        "promptEn": "A: I was furious when the supplier blamed us, but I answered politely and asked for the records. B: ______"
+      },
+      "speaking": {
+        "en": "I was annoyed by the delay, but I kept a lid on it and asked the receptionist for an updated time.",
+        "zh": "延誤令我惱火，但我壓住怒氣，向接待員查詢更新時間。",
+        "promptZh": "說明感受、克制行為和實際詢問。",
+        "targetSpan": {
+          "start": 34,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人對工作失誤或服務問題感到生氣，卻克制住，改以平靜方式處理。用英文交代怒氣、克制及後續行動。",
+        "selfCheckZh": "it 要有明確情緒所指；不能寫成當事人完全沒有怒氣。",
+        "examples": [
+          {
+            "en": "The stage manager was furious about the missed cue, but she kept a lid on it and discussed the timing after rehearsal.",
+            "zh": "舞台監督對錯過提示非常生氣，但她壓住怒氣，在綵排後才討論時間安排。"
+          },
+          {
+            "en": "When the bus left early, Omar felt irritated; he kept a lid on it and calmly asked the driver about the next service.",
+            "zh": "巴士提早開走時，Omar 感到煩躁；他壓住怒氣，平靜地向司機詢問下一班車。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the missed cue",
+            "zh": "錯過提示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 50
+            }
+          },
+          {
+            "en": "the timing",
+            "zh": "時間安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 101
+            }
+          },
+          {
+            "en": "after rehearsal",
+            "zh": "綵排後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 117
+            }
+          },
+          {
+            "en": "the next service",
+            "zh": "下一班車",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          },
+          {
+            "en": "calmly asked",
+            "zh": "平靜地詢問",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 82
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She kept a lid on it when irritation rose during the meeting.",
+          "zh": "會議中怒氣上升時，她仍壓住情緒。"
+        },
+        {
+          "en": "He felt angry but chose to keep a lid on it and ask a clear question.",
+          "zh": "他感到生氣，卻選擇壓住怒氣，提出清楚問題。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3134",
+      "number": 3134,
+      "inventoryId": "expr-3134",
+      "titleEn": "gets on everyone’s nerves",
+      "titleZh": "惹得所有人心煩",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) on (?:everyone[’']s|everybody[’']s|my|your|his|her|our|their) nerves\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Repeatedly irritate many people, often through an ongoing behaviour or inconvenience.",
+        "meaningZh": "因反覆行為或持續不便而惹得許多人心煩。",
+        "grammar": "get on someone’s nerves; with singular subject, gets. Apostrophe may be straight or curly.",
+        "register": "Informal conversational language. A passenger may say it to another passenger about repeated announcements or delays.",
+        "boundaryZh": "指持續或反覆的煩擾；不等於一次嚴重傷害，也不是每個人都必然真的同意。",
+        "misconceptionZh": "不是碰到神經的字面意思；everybody/everyone 會是概括說法，避免無憑據地斷言每個人都生氣。",
+        "outcomeZh": "能根據反覆跡象描述群體煩躁。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1023",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 95,
+          "book": 12,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 98, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A long delay gets on everyone's nerves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "gets on everyone's nerves"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 4,
+      "listening": {
+        "promptZh": "月台上的人為甚麼越來越煩躁？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The same loud warning has repeated every few minutes for an hour.",
+            "zh": "同一段大聲警告一小時內每隔幾分鐘就重播。"
+          },
+          {
+            "id": "b",
+            "en": "One brief safety notice was played at the start.",
+            "zh": "開始時只播放了一段簡短安全通知。"
+          },
+          {
+            "id": "c",
+            "en": "The train arrived at the advertised time.",
+            "zh": "列車按公布時間到達。"
+          },
+          {
+            "id": "d",
+            "en": "The volume was reduced after the first warning.",
+            "zh": "第一次警告後音量已調低。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "重複一小時的大聲警告形成持續煩擾。",
+        "en": "The same loud warning has played every few minutes for an hour. People on the platform keep looking up and complaining. It is getting on everyone’s nerves.",
+        "zh": "同一段大聲警告一小時內每隔幾分鐘就播一次。月台上的人不斷抬頭，亦有人抱怨。這惹得大家越來越心煩。"
+      },
+      "reply": {
+        "promptEn": "The warning keeps playing loudly and passengers are complaining. What could staff do?",
+        "promptZh": "（警告一直大聲重播，乘客開始抱怨。職員可以怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Check whether the warning still needs to play so often.",
+            "zh": "檢查是否仍有需要播得那麼頻密。"
+          },
+          {
+            "id": "b",
+            "en": "Lower the volume if the safety message remains audible.",
+            "zh": "在安全訊息仍清晰可聞的情況下調低音量。"
+          },
+          {
+            "id": "c",
+            "en": "It is getting on everyone’s nerves; let us fix the repeated announcement.",
+            "zh": "重複廣播惹得大家心煩；把它處理好吧。"
+          },
+          {
+            "id": "d",
+            "en": "Tell passengers why the message is repeating and when it may stop.",
+            "zh": "向乘客解釋訊息為何重播，以及何時可能停止。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都可回應持續煩擾；金句使用目標片語。"
+      },
+      "scene": {
+        "promptZh": "辦公室冷氣每隔兩分鐘發出尖銳聲響，同事一再停下工作並抱怨。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The recurring noise gets on everyone’s nerves.",
+            "zh": "反覆聲響惹得大家心煩。"
+          },
+          {
+            "id": "b",
+            "en": "One short sound helped workers notice the machine needed checking.",
+            "zh": "一次短聲響提醒員工機器需要檢查。"
+          },
+          {
+            "id": "c",
+            "en": "The workers continued without noticing any sound.",
+            "zh": "員工沒有留意聲響，照常工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聲響反覆出現，同事持續受煩擾。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況未見持續煩擾，較不適合說 gets on everyone’s nerves？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The host gives one brief reminder, and guests continue talking comfortably.",
+            "zh": "主持人作一次簡短提醒，賓客繼續自在交談。"
+          },
+          {
+            "id": "b",
+            "en": "A door alarm beeps repeatedly throughout the meeting.",
+            "zh": "門鈴警報整場會議反覆響起。"
+          },
+          {
+            "id": "c",
+            "en": "A colleague interrupts each speaker several times.",
+            "zh": "一名同事多次打斷每位發言者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一次簡短提醒後氣氛如常，未顯示反覆煩擾。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：打印機每隔兩分鐘就發出尖銳聲響，大家一直問何時會停。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That beep gets on everyone’s nerves; let us ask for a repair.",
+            "zh": "那聲響惹得大家心煩；找人維修吧。"
+          },
+          {
+            "id": "b",
+            "en": "We can check whether the printer displays an error code.",
+            "zh": "我們可以檢查打印機有沒有顯示錯誤代碼。"
+          },
+          {
+            "id": "c",
+            "en": "We could move urgent printing to the machine downstairs.",
+            "zh": "我們可以改用樓下機器處理急件。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括反覆聲響造成的群體煩躁。",
+        "promptEn": "A: The printer makes that high-pitched beep every two minutes, and people keep asking when it will stop. B: ______"
+      },
+      "speaking": {
+        "en": "The repeated reminder got on everyone’s nerves because it interrupted every speaker during the rehearsal.",
+        "zh": "重複的提醒惹得大家心煩，因為綵排期間每位講者都被打斷。",
+        "promptZh": "指出反覆發生的煩擾及受影響的人。",
+        "targetSpan": {
+          "start": 22,
+          "end": 46
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某個聲響或行為在一段時間內不斷重複，周圍的人表現出煩躁。用英文交代反覆來源及對大家的影響。",
+        "selfCheckZh": "要有反覆煩擾與受影響的群體，不要把一次短暫提示誇大成人人心煩。",
+        "examples": [
+          {
+            "en": "The broken gate alarm gets on everyone’s nerves because it sounds every few minutes during the evening meal, and family members keep complaining about it.",
+            "zh": "壞掉的大門警報器每隔幾分鐘就在晚飯期間響起，惹得大家心煩，家人亦反覆抱怨。"
+          },
+          {
+            "en": "At the studio, the repeated drilling got on everyone’s nerves; several artists complained that they could barely discuss their work.",
+            "zh": "在工作室，反覆的鑽孔聲惹得大家心煩；幾名藝術家抱怨幾乎無法討論作品。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The broken gate alarm",
+            "zh": "壞掉的大門警報器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "every few minutes",
+            "zh": "每隔幾分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 83
+            }
+          },
+          {
+            "en": "the evening meal",
+            "zh": "晚飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 107
+            }
+          },
+          {
+            "en": "the repeated drilling",
+            "zh": "反覆的鑽孔聲",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 36
+            }
+          },
+          {
+            "en": "discuss their work",
+            "zh": "討論作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 113,
+              "end": 131
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A sound that repeats all evening can get on everyone’s nerves.",
+          "zh": "整晚反覆的聲響可能惹得大家心煩。"
+        },
+        {
+          "en": "The long delay got on everyone’s nerves when no update arrived.",
+          "zh": "久久沒有新消息，漫長延誤令大家心煩。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3136",
+      "number": 3136,
+      "inventoryId": "expr-3136",
+      "titleEn": "throw a tantrum",
+      "titleZh": "大發脾氣；鬧情緒",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|throwing) a tantrum\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have an uncontrolled angry outburst, often in a childlike way.",
+        "meaningZh": "以失控、帶點孩子氣的方式大發脾氣。",
+        "grammar": "throw a tantrum; threw is the past form.",
+        "register": "Informal and potentially judgemental. A supervisor may say it privately to a colleague about an adult shouting, but should describe behaviour precisely rather than use it to dismiss a legitimate complaint.",
+        "boundaryZh": "指情緒失控的爆發，不等於任何強烈但有理據的投訴；使用時應避免把合理申訴污名化。",
+        "misconceptionZh": "不只用於小孩，但形容成人時可能帶批評意味；不等於冷靜表達不滿。",
+        "outcomeZh": "能分辨失控發脾氣與有理據地提出問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1025",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 95,
+          "book": 12,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "68–69",
+          "locatorNote": "DOCX table 98, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Adults can complain without needing to throw a tantrum.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throw a tantrum"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "當事人對退款問題的反應有甚麼特點？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The customer shouted, stamped a foot and interrupted every reply.",
+            "zh": "顧客大聲叫嚷、跺腳，並打斷每個回答。"
+          },
+          {
+            "id": "b",
+            "en": "The person calmly explained the receipt discrepancy.",
+            "zh": "當事人平靜解釋收據差異。"
+          },
+          {
+            "id": "c",
+            "en": "The person asked one question and waited for an answer.",
+            "zh": "當事人問一條問題後等候回覆。"
+          },
+          {
+            "id": "d",
+            "en": "The person submitted a written complaint after the visit.",
+            "zh": "當事人在到訪後提交書面投訴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大聲叫嚷、跺腳和不斷打斷，表現為失控的發脾氣。",
+        "en": "The refund delay was frustrating, but the customer began shouting, stamping a foot and interrupting every answer. He threw a tantrum instead of explaining the receipt problem calmly.",
+        "zh": "退款延誤確實令人沮喪，但顧客開始叫嚷、跺腳，不斷打斷每個回答。他大發脾氣，沒有平靜說明收據問題。"
+      },
+      "reply": {
+        "promptEn": "The refund delay is real, but the customer is shouting and interrupting every answer. What should staff do?",
+        "promptZh": "（退款延誤確實存在，但顧客叫嚷並打斷每個回答。職員應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Stay calm and explain the next refund step.",
+            "zh": "保持冷靜，說明下一個退款步驟。"
+          },
+          {
+            "id": "b",
+            "en": "Acknowledge the delay without accepting abusive behaviour.",
+            "zh": "承認延誤，同時不容忍辱罵行為。"
+          },
+          {
+            "id": "c",
+            "en": "He is throwing a tantrum; let us set a boundary and still check his receipt.",
+            "zh": "他正大發脾氣；我們設下界線，同時仍核對收據。"
+          },
+          {
+            "id": "d",
+            "en": "Offer to continue the discussion once everyone can speak safely.",
+            "zh": "待大家能安全交談時，提議繼續討論。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句既處理真實退款問題，也回應失控行為；金句用目標片語描述爆發。"
+      },
+      "scene": {
+        "promptZh": "球隊經理沒有讓一名成年人先上場；他當眾摔下隊服、吼叫，拒絕讓任何人說話。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He threw a tantrum when he did not get his way.",
+            "zh": "事情不如意時，他大發脾氣。"
+          },
+          {
+            "id": "b",
+            "en": "He calmly asked the manager for the selection criteria.",
+            "zh": "他平靜地向經理詢問選人準則。"
+          },
+          {
+            "id": "c",
+            "en": "He filed a reasoned complaint after the match.",
+            "zh": "他在賽後提出有理據的投訴。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "當眾吼叫、摔衣服、打斷所有人，超出一般提出異議。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法有理據且受控制，未足以說 throw a tantrum？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She asks for a refund calmly and shows the incorrect charge.",
+            "zh": "她平靜要求退款，並出示錯誤收費。"
+          },
+          {
+            "id": "b",
+            "en": "She yells over every reply and kicks a chair.",
+            "zh": "她在每次回覆時都叫嚷，還踢椅子。"
+          },
+          {
+            "id": "c",
+            "en": "She shouts and refuses to hear the explanation.",
+            "zh": "她大聲叫嚷，不肯聽解釋。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "清楚提出證據和要求，不等於失控發脾氣。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：他對延誤有合理不滿，但後來大聲叫嚷、撞翻椅子，也不讓任何人回答。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "He threw a tantrum, though the original complaint still needs an answer.",
+            "zh": "他大發脾氣，但原來的投訴仍需要處理。"
+          },
+          {
+            "id": "b",
+            "en": "We should document the delay and offer a clear response.",
+            "zh": "我們應記錄延誤，給予清楚回應。"
+          },
+          {
+            "id": "c",
+            "en": "We may need to pause the conversation until it is safe.",
+            "zh": "我們可能需要暫停交談，直到情況安全。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句區分失控行為與仍須處理的合理投訴。",
+        "promptEn": "A: He had a valid complaint about the delay, but then he shouted, knocked over a chair and would not let anyone answer. B: ______"
+      },
+      "speaking": {
+        "en": "The guest threw a tantrum when the table was unavailable, but the staff still checked the reservation record.",
+        "zh": "沒有空桌時，賓客大發脾氣，但職員仍核對了訂位紀錄。",
+        "promptZh": "指出失控行為，同時保留實際問題。",
+        "targetSpan": {
+          "start": 10,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：有人遇到真實不便或爭議，但反應變成叫嚷、摔東西或拒絕聆聽。用英文寫出起因及失控表現。",
+        "selfCheckZh": "要有可觀察的失控行為；不要把冷靜、有理據的投訴寫成發脾氣。",
+        "examples": [
+          {
+            "en": "When the ticket machine rejected his card, Ben threw a tantrum, shouted at the attendant and refused to try another machine.",
+            "zh": "售票機拒收 Ben 的卡時，他大發脾氣，向職員叫嚷，並拒絕試用另一部機器。"
+          },
+          {
+            "en": "The player threw a tantrum after a disputed call, slamming a racket down while the umpire tried to explain the decision.",
+            "zh": "一項判決引起爭議後，球員大發脾氣，猛力摔下球拍，當時裁判正嘗試解釋決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the ticket machine",
+            "zh": "售票機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 5,
+              "end": 23
+            }
+          },
+          {
+            "en": "the attendant",
+            "zh": "職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 88
+            }
+          },
+          {
+            "en": "another machine",
+            "zh": "另一部機器",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          },
+          {
+            "en": "a disputed call",
+            "zh": "引起爭議的判決",
+            "exampleIndex": 1,
+            "span": {
+              "start": 33,
+              "end": 48
+            }
+          },
+          {
+            "en": "the umpire",
+            "zh": "裁判",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 89
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A valid complaint does not justify throwing a tantrum at staff.",
+          "zh": "即使投訴有理，也不代表可向職員大發脾氣。"
+        },
+        {
+          "en": "He threw a tantrum by shouting and refusing to hear a reply.",
+          "zh": "他叫嚷並拒絕聽回應，大發脾氣。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3139",
+      "number": 3139,
+      "inventoryId": "expr-3139",
+      "titleEn": "convenience-driven",
+      "titleZh": "以方便為主導的",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bconvenience[- ]driven\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Shaped mainly by what is easy or saves effort.",
+        "meaningZh": "主要由方便或省力的考慮所主導。",
+        "grammar": "compound adjective convenience-driven before or after a noun; hyphenate before a noun.",
+        "register": "Neutral analytic wording. A researcher may use it to explain changing shopping behaviour to a colleague.",
+        "boundaryZh": "指出方便是主要推力，不等於速度是唯一因素，亦不自動評論選擇好壞。",
+        "misconceptionZh": "不是「被迫購物」，也不是只要服務有網上平台便必然以方便為主導。",
+        "outcomeZh": "能從選擇原因判斷方便是否主要驅動因素。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1028",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Shopping has become more convenience-driven.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "convenience-driven"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "講者認為顧客為甚麼改用新服務？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They chiefly value fewer steps and home delivery.",
+            "zh": "他們主要重視步驟較少和送貨上門。"
+          },
+          {
+            "id": "b",
+            "en": "They are required by law to use it.",
+            "zh": "法律規定他們必須使用。"
+          },
+          {
+            "id": "c",
+            "en": "They choose it chiefly for its traditional packaging.",
+            "zh": "他們主要因傳統包裝而選用。"
+          },
+          {
+            "id": "d",
+            "en": "They use it because the shop has no other products.",
+            "zh": "他們使用它是因為商店沒有其他產品。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "顧客選擇的主要原因是省步驟和省交通時間。",
+        "en": "Customers still compare prices, but many now choose the service because ordering takes two taps and delivery comes to the door. Their shopping has become more convenience-driven.",
+        "zh": "顧客仍會比較價格，但如今不少人選用這項服務，是因為只需按兩下就能下單，而且送貨上門。他們的購物行為變得更以方便為主導。"
+      },
+      "reply": {
+        "promptEn": "Why are customers using this service even though they still compare prices? Ordering takes two taps, and goods are delivered to their homes.",
+        "promptZh": "（顧客仍比較價格，但只需按兩下便可下單，貨品又送到家中。他們為甚麼選用這項服務？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It saves them a separate trip to the shop.",
+            "zh": "這令他們不用專程到店。"
+          },
+          {
+            "id": "b",
+            "en": "They can place an order in just a couple of steps.",
+            "zh": "他們只需幾個步驟就能下單。"
+          },
+          {
+            "id": "c",
+            "en": "Their choice is increasingly convenience-driven because ordering and delivery are easy.",
+            "zh": "他們的選擇越來越以方便為主導，因為下單和收貨都容易。"
+          },
+          {
+            "id": "d",
+            "en": "Home delivery means they do not have to carry the goods back themselves.",
+            "zh": "送貨上門讓他們不用自己把貨品搬回家。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句均解釋方便因素；金句用目標形容詞總結主要推力。"
+      },
+      "scene": {
+        "promptZh": "學生仍關心課程質素，但報名時首先選可在手機上迅速完成申請的課程，而非填寫紙本表格的課程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their course search is becoming convenience-driven.",
+            "zh": "他們選課越來越以方便為主導。"
+          },
+          {
+            "id": "b",
+            "en": "Their choice is based solely on the teacher’s research record.",
+            "zh": "他們只按老師的研究紀錄選擇。"
+          },
+          {
+            "id": "c",
+            "en": "Their main aim is to collect printed forms.",
+            "zh": "他們的主要目的是收集紙本表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "仍考慮質素，但選擇的首要因素是報名是否方便。"
+      },
+      "contrast": {
+        "promptZh": "哪個決定的主要原因不是方便，較不宜稱為 convenience-driven？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She takes a slower route because she wants to support a local business.",
+            "zh": "她選較慢路線，因為想支持本地商戶。"
+          },
+          {
+            "id": "b",
+            "en": "He chooses a delivery option because it saves a trip.",
+            "zh": "他選送貨服務，因為不用專程出門。"
+          },
+          {
+            "id": "c",
+            "en": "They pick the app because it completes the task in two steps.",
+            "zh": "他們選用應用程式，因為兩步便可完成。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主要動機是支持商戶，而非省時省力。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們仍重視產品質素，但顧客如今選我們，是因為幾秒就能下單，而且可送貨上門。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their choices sound more convenience-driven than before.",
+            "zh": "他們的選擇聽起來比以前更以方便為主導。"
+          },
+          {
+            "id": "b",
+            "en": "We should keep checking whether product quality meets expectations.",
+            "zh": "我們應繼續檢查產品質素是否符合期望。"
+          },
+          {
+            "id": "c",
+            "en": "We can ask customers which part of delivery helps them most.",
+            "zh": "我們可以問顧客送貨安排哪部分最有幫助。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句點出選擇的主要推力轉向方便。",
+        "promptEn": "A: We still care about product quality, but customers now choose us because ordering takes seconds and we deliver to their homes. B: ______"
+      },
+      "speaking": {
+        "en": "The library introduced self-service returns after noticing a convenience-driven shift toward shorter visits.",
+        "zh": "圖書館留意到訪客因求方便而傾向短暫到訪，於是推出自助還書服務。",
+        "promptZh": "說明方便如何主導某項選擇，不要假設質素完全不重要。",
+        "targetSpan": {
+          "start": 61,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某個機構發現顧客主要因省時間或少步驟而改變選擇。用英文指出選擇、方便因素及機構的回應。",
+        "selfCheckZh": "明確說方便是主要動機；不要只因有網上服務便推斷所有顧客如此。",
+        "examples": [
+          {
+            "en": "The gym noticed convenience-driven membership choices: many users picked the branch with late opening hours near the station, so it added more evening slots there.",
+            "zh": "健身室留意到會員選擇以方便為主導：許多會員選擇車站附近、營業至較晚的分店，因此健身室在那裏增設了晚間時段。"
+          },
+          {
+            "en": "A convenience-driven change led the pharmacy to offer online refills, because customers wanted to avoid an extra visit for routine medicine.",
+            "zh": "以方便為主導的改變促使藥房提供網上續配，因為顧客希望避免為常用藥物多走一趟。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "membership choices",
+            "zh": "會員選擇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 53
+            }
+          },
+          {
+            "en": "late opening hours",
+            "zh": "營業至較晚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 107
+            }
+          },
+          {
+            "en": "near the station",
+            "zh": "車站附近",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 124
+            }
+          },
+          {
+            "en": "online refills",
+            "zh": "網上續配",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 68
+            }
+          },
+          {
+            "en": "an extra visit",
+            "zh": "多走一趟",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 118
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Convenience-driven choices are shaped mainly by ease or saved effort.",
+          "zh": "以方便為主導的選擇，主要受省事或省力影響。"
+        },
+        {
+          "en": "The new ordering service reflects convenience-driven shopping habits.",
+          "zh": "新下單服務反映以方便為主導的購物習慣。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3141",
+      "number": 3141,
+      "inventoryId": "expr-3141",
+      "titleEn": "life on fast-forward",
+      "titleZh": "像快轉般的生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\blife on fast[- ]forward\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Life experienced as moving at an uncomfortably rapid, relentless pace.",
+        "meaningZh": "感覺生活以令人不適、停不下來的速度急速推進。",
+        "grammar": "life on fast-forward; fixed media-control metaphor, commonly feel like life on fast-forward.",
+        "register": "Informal reflective language. An employee may use it with a friend to describe constant alerts and rushed days.",
+        "boundaryZh": "說主觀感到整體節奏太快，未必每件事真的加速；與單一次趕車或快速完成任務不同。",
+        "misconceptionZh": "不是影片真的快轉，也不是忙碌一定帶來興奮感。",
+        "outcomeZh": "能區分持續急促的生活節奏與短暫繁忙。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1030",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 96,
+          "book": 12,
+          "question": 29,
+          "sample": "S1",
+          "sourceBookPages": "70–71",
+          "locatorNote": "DOCX table 99, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Constant alerts can make work feel like life on fast-forward.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life on fast-forward"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者用快轉比喻甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A relentless day of alerts and rushed tasks with little pause.",
+            "zh": "提醒和趕工接連不斷，幾乎沒有停頓的一天。"
+          },
+          {
+            "id": "b",
+            "en": "A single five-minute walk to catch a train.",
+            "zh": "為趕車而走快五分鐘。"
+          },
+          {
+            "id": "c",
+            "en": "A video played at double speed during a lesson.",
+            "zh": "課堂上以雙倍速度播放影片。"
+          },
+          {
+            "id": "d",
+            "en": "A quiet afternoon with no messages.",
+            "zh": "沒有訊息的安靜下午。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "持續的提醒與趕工令整體生活節奏令人不適地加快。",
+        "en": "Messages arrived during breakfast, every meeting ran into the next, and I ate lunch while answering alerts. The whole day felt like life on fast-forward.",
+        "zh": "早餐時就有訊息，會議一場接一場，我連吃午飯也在回覆提醒。整天感覺像生活被快轉。"
+      },
+      "reply": {
+        "promptEn": "My days are packed with alerts and meetings, and I barely pause for lunch. How can I describe the pace?",
+        "promptZh": "（每天提醒與會議排得滿滿，我連午餐也幾乎沒時間停下。可以怎樣形容節奏？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The constant interruptions make the day feel rushed.",
+            "zh": "不斷被打斷，令整天顯得匆忙。"
+          },
+          {
+            "id": "b",
+            "en": "I move from one meeting to another without a proper break.",
+            "zh": "我一場會接一場，沒有像樣的休息。"
+          },
+          {
+            "id": "c",
+            "en": "It feels like life on fast-forward, with no time to slow down.",
+            "zh": "感覺像生活在快轉，完全沒時間慢下來。"
+          },
+          {
+            "id": "d",
+            "en": "The day rushes past before I can catch my breath.",
+            "zh": "整天匆忙地過去，我連喘口氣也來不及。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能合理表達急促節奏；金句以目標比喻概括整體感受。"
+      },
+      "scene": {
+        "promptZh": "護理員連續數星期接到夜間電話，白天又要趕往不同地點，連休息也被打斷。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The weeks felt like life on fast-forward for the carer.",
+            "zh": "那幾星期，護理員感覺生活像被快轉。"
+          },
+          {
+            "id": "b",
+            "en": "The carer hurried only once to catch a late bus.",
+            "zh": "護理員只為趕一班晚點巴士匆忙了一次。"
+          },
+          {
+            "id": "c",
+            "en": "The carer had a calm routine with regular breaks.",
+            "zh": "護理員的日常平靜，亦有固定休息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "連續數星期的急促節奏，符合對整體生活的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個例子只是短暫趕時間，未足以說 life on fast-forward？",
+        "options": [
+          {
+            "id": "a",
+            "en": "He walks quickly for ten minutes to reach the cinema on time.",
+            "zh": "他快走十分鐘，準時到電影院。"
+          },
+          {
+            "id": "b",
+            "en": "For a month, she moves between shifts and messages without a break.",
+            "zh": "一個月內，她不斷應付輪班和訊息，沒有休息。"
+          },
+          {
+            "id": "c",
+            "en": "Every day feels packed with interruptions, deadlines and rushed meals.",
+            "zh": "每天都充滿打斷、截止日期和匆忙吃飯。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單次快走不代表整體生活持續急促。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我早餐前就回覆提醒，在不同班次之間趕路，幾乎不記得上次安靜地過一個晚上是何時。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That sounds like life on fast-forward; can you protect a regular break?",
+            "zh": "聽起來生活像在快轉；你能保留固定休息時間嗎？"
+          },
+          {
+            "id": "b",
+            "en": "You might list which alerts really need an immediate reply.",
+            "zh": "你可以列出哪些提醒真的需要即時回覆。"
+          },
+          {
+            "id": "c",
+            "en": "You could ask whether the shifts can be spaced out.",
+            "zh": "你可以問班次能否安排得疏一些。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句概括持續急促的整體感受。",
+        "promptEn": "A: I answer alerts before breakfast, rush between shifts and barely remember when I last had a quiet evening. B: ______"
+      },
+      "speaking": {
+        "en": "Since the project began, my week has felt like life on fast-forward, with meetings, alerts and travel leaving almost no quiet time.",
+        "zh": "項目開始後，我這星期感覺生活像被快轉，會議、提醒和出行令我幾乎沒有安靜時間。",
+        "promptZh": "說出持續節奏與至少兩個使節奏加快的來源。",
+        "targetSpan": {
+          "start": 47,
+          "end": 67
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人連續多日被不同任務或提醒推着走，幾乎沒有喘息時間。用英文寫出持續時間、至少兩個壓力來源及整體感受。",
+        "selfCheckZh": "必須呈現持續而令人疲憊的節奏；一次趕路不足以支持比喻。",
+        "examples": [
+          {
+            "en": "For the new parents, constant night waking and daytime appointments made the first month feel like life on fast-forward.",
+            "zh": "對新手父母來說，夜間不斷醒來、日間又要赴約，令第一個月感覺生活像被快轉。"
+          },
+          {
+            "en": "During the festival week, rehearsals, deliveries and urgent calls made the organiser feel as if she were living life on fast-forward.",
+            "zh": "節日期間，綵排、送貨和緊急來電接連不斷，令主辦人感覺自己活在快轉的生活中。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "constant night waking",
+            "zh": "夜間不斷醒來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 42
+            }
+          },
+          {
+            "en": "daytime appointments",
+            "zh": "日間約會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "the first month",
+            "zh": "第一個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 88
+            }
+          },
+          {
+            "en": "rehearsals, deliveries",
+            "zh": "綵排、送貨",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 48
+            }
+          },
+          {
+            "en": "urgent calls",
+            "zh": "緊急來電",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 65
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Constant alerts can make a whole week feel like life on fast-forward.",
+          "zh": "不斷的提醒可令整個星期感覺像生活被快轉。"
+        },
+        {
+          "en": "Life on fast-forward describes a sustained rush, not one hurried trip.",
+          "zh": "快轉般的生活指持續匆忙，不是一次趕路。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3154",
+      "number": 3154,
+      "inventoryId": "expr-3154",
+      "titleEn": "drain goodwill",
+      "titleZh": "消耗善意與合作意願",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:drain|drains|drained|draining) goodwill\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Gradually reduce people’s willingness to cooperate or their trust through repeated friction.",
+        "meaningZh": "因反覆摩擦而逐漸削弱人們合作的意願或信任。",
+        "grammar": "drain goodwill; goodwill is uncountable, with no article.",
+        "register": "Neutral analytic language. A coordinator may say it to colleagues while reviewing repeated unclear rules.",
+        "boundaryZh": "強調善意逐漸被耗損，不一定表示所有關係即時破裂；與一次普通分歧不同。",
+        "misconceptionZh": "不是抽走實際液體；善意不等於金錢儲備。",
+        "outcomeZh": "能指出反覆小問題如何削弱合作關係。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1043",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 97,
+          "book": 12,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 100, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Unclear rules can drain goodwill.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drain goodwill"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者擔心不斷更改值班表會帶來甚麼後果？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Volunteers may become less willing to cover extra shifts after repeated confusion.",
+            "zh": "義工反覆遇上混亂後，可能較不願代替別人值班。"
+          },
+          {
+            "id": "b",
+            "en": "Every volunteer will leave immediately today.",
+            "zh": "所有義工今天都會立即離開。"
+          },
+          {
+            "id": "c",
+            "en": "The noticeboard will run out of space.",
+            "zh": "告示板會沒有空間。"
+          },
+          {
+            "id": "d",
+            "en": "The event will need one extra chair.",
+            "zh": "活動需要多一張椅子。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "反覆的規則變更和解釋不清，會逐步消耗義工善意。",
+        "en": "We have changed the volunteer rota three times without explaining why. People are still helping, but repeated confusion can drain goodwill and make them less willing to cover extra shifts.",
+        "zh": "我們已三次更改義工值班表，卻沒有解釋原因。大家仍在幫忙，但反覆的混亂會消耗善意，令他們較不願意代替別人值班。"
+      },
+      "reply": {
+        "promptEn": "The volunteers still help, but we keep changing their shifts without explanation. What should we address?",
+        "promptZh": "（義工仍在幫忙，但我們不斷無解釋地更改班次。應處理甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Explain why the latest change was needed.",
+            "zh": "解釋最新改動為何必要。"
+          },
+          {
+            "id": "b",
+            "en": "Ask volunteers which shifts are hardest to cover.",
+            "zh": "問義工哪些班次最難代替。"
+          },
+          {
+            "id": "c",
+            "en": "Repeated surprises can drain goodwill; let us agree on a stable process.",
+            "zh": "反覆的突發改動會消耗善意；訂立穩定流程吧。"
+          },
+          {
+            "id": "d",
+            "en": "Give people enough notice before any future change.",
+            "zh": "日後每次改動前，給大家足夠通知。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能改善安排；金句點出反覆摩擦的長期合作代價。"
+      },
+      "scene": {
+        "promptZh": "社區團隊每次都臨時改集合地點，居民仍會來，但越來越少人願意額外搬器材。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated last-minute changes are draining goodwill.",
+            "zh": "反覆的臨時改動正在消耗善意。"
+          },
+          {
+            "id": "b",
+            "en": "One carefully explained change has increased trust.",
+            "zh": "一次解釋清楚的改動增加了信任。"
+          },
+          {
+            "id": "c",
+            "en": "Residents now volunteer for more tasks than before.",
+            "zh": "居民現在比以前更願意承擔額外工作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "居民未立即離開，但額外幫忙的意願逐漸下降。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況尚未見善意被逐漸消耗？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The organiser explains one unavoidable change early, and volunteers accept it.",
+            "zh": "主辦人及早解釋一次無可避免的改動，義工接受。"
+          },
+          {
+            "id": "b",
+            "en": "Repeated unexplained changes make helpers reluctant to return.",
+            "zh": "反覆且沒有解釋的改動令幫忙者不願回來。"
+          },
+          {
+            "id": "c",
+            "en": "Several broken promises leave partners less willing to cooperate.",
+            "zh": "多次失信令合作伙伴較不願協作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一次有解釋且被接受的改動，未顯示善意逐漸流失。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：鄰居仍借器材給我們，但經過幾次臨時取消，每次我們再問，他們都猶豫。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those cancellations have drained goodwill; we need to give reliable notice.",
+            "zh": "那些取消安排消耗了善意；我們須提供可靠通知。"
+          },
+          {
+            "id": "b",
+            "en": "We could ask which dates work best before booking equipment.",
+            "zh": "我們可以在預訂器材前先問哪些日期最合適。"
+          },
+          {
+            "id": "c",
+            "en": "We should thank them for lending us equipment so far.",
+            "zh": "我們應感謝他們一直借出器材。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多次失信令鄰居漸漸不願幫忙，金句概括合作意願的流失。",
+        "promptEn": "A: The neighbours still lend us equipment, but after several late cancellations they hesitate whenever we ask. B: ______"
+      },
+      "speaking": {
+        "en": "Changing the plan every week drained goodwill among the organisers, even though most of them continued to help.",
+        "zh": "每週改變計劃消耗了主辦人之間的善意，儘管大多數人仍繼續幫忙。",
+        "promptZh": "說出反覆問題、合作意願如何變化，以及關係未必即時破裂。",
+        "targetSpan": {
+          "start": 29,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個組織反覆失約或規則不清，合作者仍在參與，但額外幫忙的意願逐漸下降。用英文寫出反覆問題及信任的變化。",
+        "selfCheckZh": "不要誇大成所有人即時離開；重點是善意逐步耗損。",
+        "examples": [
+          {
+            "en": "The club’s repeated late payments drained goodwill from the venue staff, who became reluctant to offer flexible hours.",
+            "zh": "社團屢次遲付款消耗了場地職員的善意，令他們較不願意提供彈性時段。"
+          },
+          {
+            "en": "Unclear reimbursement rules drained goodwill in the parent group; members still volunteered, but fewer offered to buy supplies in advance.",
+            "zh": "不清晰的報銷規則消耗了家長小組的善意；成員仍做義工，但較少人願意預先購買物資。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "repeated late payments",
+            "zh": "屢次遲付款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 33
+            }
+          },
+          {
+            "en": "the venue staff",
+            "zh": "場地職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 71
+            }
+          },
+          {
+            "en": "flexible hours",
+            "zh": "彈性時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 117
+            }
+          },
+          {
+            "en": "reimbursement rules",
+            "zh": "報銷規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 27
+            }
+          },
+          {
+            "en": "in advance",
+            "zh": "預先",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Repeated broken promises can drain goodwill even before people stop helping.",
+          "zh": "即使人們仍在幫忙，反覆失信也會消耗善意。"
+        },
+        {
+          "en": "The unclear rules drained goodwill and reduced volunteers’ willingness to cover extra shifts.",
+          "zh": "不清晰規則消耗了善意，減少義工代班的意願。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3155",
+      "number": 3155,
+      "inventoryId": "expr-3155",
+      "titleEn": "losing my cool",
+      "titleZh": "失去冷靜；發火",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing) (?:my|your|his|her|our|their) cool\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become visibly angry or fail to remain calm when frustrated.",
+        "meaningZh": "遇到挫折時失去冷靜，顯出怒氣。",
+        "grammar": "lose + possessive determiner + cool; lost is the past form.",
+        "register": "Informal conversational language. A person may use it about their own reaction to a friend after a frustrating change of plans.",
+        "boundaryZh": "指冷靜開始失守；不要求大聲吼叫或摔東西。與 keep a lid on it 的克制怒氣相反，也較 throw a tantrum 的明顯失控爆發輕。",
+        "misconceptionZh": "不是體溫下降，也不等於任何短暫不滿都已發火。",
+        "outcomeZh": "能分辨有怒氣、失去冷靜與激烈鬧脾氣。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1044",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 97,
+          "book": 12,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 101, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "I try to avoid losing my cool when plans change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "losing my cool"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者發現自己在改期時有甚麼反應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The speaker’s voice grew sharp, so the speaker paused before continuing.",
+            "zh": "講者語氣變尖銳，於是先停一停才繼續。"
+          },
+          {
+            "id": "b",
+            "en": "The speaker remained completely relaxed throughout.",
+            "zh": "講者全程完全放鬆。"
+          },
+          {
+            "id": "c",
+            "en": "The speaker damaged the office furniture.",
+            "zh": "講者損壞辦公室家具。"
+          },
+          {
+            "id": "d",
+            "en": "The speaker had no opinion about the new time.",
+            "zh": "講者對新時間沒有看法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "語氣變尖銳表示開始失去冷靜，但及時暫停。",
+        "en": "When the appointment changed again, I felt my voice getting sharp. I was losing my cool, so I stopped for a moment before calling back.",
+        "zh": "預約再次改期時，我察覺自己的語氣變得尖銳。我開始失去冷靜，所以先停一停才再致電。"
+      },
+      "reply": {
+        "promptEn": "The appointment changed again, and my voice is getting sharp. What should I do before calling back?",
+        "promptZh": "（預約又改期了，我的語氣開始變尖銳。再致電前應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Take a short pause and decide what information you need.",
+            "zh": "先短暫停一停，想清楚需要甚麼資料。"
+          },
+          {
+            "id": "b",
+            "en": "Write down one clear question about the new appointment.",
+            "zh": "寫下一條關於新預約的清楚問題。"
+          },
+          {
+            "id": "c",
+            "en": "I am losing my cool; I should pause before I speak again.",
+            "zh": "我快失去冷靜；再次說話前應停一停。"
+          },
+          {
+            "id": "d",
+            "en": "Ask a colleague to help if you cannot speak calmly yet.",
+            "zh": "若仍無法平靜交談，請同事幫忙。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能回復平靜；金句明確指出冷靜正在失守。"
+      },
+      "scene": {
+        "promptZh": "客人得知火車再次延誤後，說話音量提高、語氣變尖銳，但仍能停下來聽職員解釋。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The passenger was losing his cool but had not stopped listening.",
+            "zh": "乘客開始失去冷靜，但仍願意聽解釋。"
+          },
+          {
+            "id": "b",
+            "en": "The passenger was entirely calm and showed no frustration.",
+            "zh": "乘客完全冷靜，沒有顯露不滿。"
+          },
+          {
+            "id": "c",
+            "en": "The passenger overturned a desk and refused all contact.",
+            "zh": "乘客推翻桌子，拒絕與人接觸。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "語氣轉尖顯示開始發火，但尚未變成嚴重失控。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況只是感到不滿，尚未顯示有人 lose their cool？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She says the delay is frustrating in an even voice and asks for a new time.",
+            "zh": "她語氣平穩地說延誤令人沮喪，並查詢新時間。"
+          },
+          {
+            "id": "b",
+            "en": "He begins snapping at staff over minor questions.",
+            "zh": "他開始因小問題對職員惡言相向。"
+          },
+          {
+            "id": "c",
+            "en": "Her voice rises and she cuts off each reply.",
+            "zh": "她提高聲量，打斷每個回覆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有不滿但仍平穩溝通，未見冷靜失守。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：取消安排令我不開心，我開始語氣尖銳，所以停下來深呼吸。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "You were losing your cool, and the pause helped you recover.",
+            "zh": "你當時快失去冷靜，而停一停幫你回復平靜。"
+          },
+          {
+            "id": "b",
+            "en": "You could ask for a new date after the call resumes.",
+            "zh": "通話恢復後，你可以詢問新日期。"
+          },
+          {
+            "id": "c",
+            "en": "You noticed a change in your voice before it became a bigger argument.",
+            "zh": "你留意到語氣變化，沒有讓事情演變成更大爭執。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "金句準確命名冷靜失守及及時暫停。",
+        "promptEn": "A: I was upset about the cancellation and began speaking sharply, so I stopped and took a breath. B: ______"
+      },
+      "speaking": {
+        "en": "I was losing my cool when the bus was cancelled again, but I paused and asked for another route.",
+        "zh": "巴士再被取消時，我快失去冷靜，但仍停一停，改問其他路線。",
+        "promptZh": "說明令你生氣的事、冷靜失守跡象和調整行動。",
+        "targetSpan": {
+          "start": 6,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：安排再次變動或錯誤重現，某人開始語氣尖銳，然後暫停或補救。用英文交代起因、失去冷靜的跡象和後續行動。",
+        "selfCheckZh": "不要把平靜提出問題寫成發火，也不要把每次失去冷靜都誇大為摔東西。",
+        "examples": [
+          {
+            "en": "Mina realised she was losing her cool when the rehearsal time changed for the third time and her voice grew sharp, so she took a breath before replying.",
+            "zh": "綵排時間第三次改動時，Mina 察覺自己的語氣變得尖銳、快失去冷靜，於是回覆前先深呼吸。"
+          },
+          {
+            "en": "After another billing error, the customer lost his cool and spoke sharply to the clerk, then apologised and asked for a corrected invoice.",
+            "zh": "帳單再次出錯後，顧客失去冷靜，語氣尖銳地對文員說話；之後他道歉，並要求更正發票。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the rehearsal time",
+            "zh": "綵排時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 61
+            }
+          },
+          {
+            "en": "for the third time",
+            "zh": "第三次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 88
+            }
+          },
+          {
+            "en": "took a breath",
+            "zh": "深呼吸",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 135
+            }
+          },
+          {
+            "en": "another billing error",
+            "zh": "帳單再次出錯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 27
+            }
+          },
+          {
+            "en": "a corrected invoice",
+            "zh": "更正發票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "She was losing her cool when her voice became sharp.",
+          "zh": "她語氣變得尖銳時，正開始失去冷靜。"
+        },
+        {
+          "en": "I lost my cool briefly, then paused before answering.",
+          "zh": "我短暫失去冷靜，然後停一停才回答。"
+        }
+      ]
+    }
+  ]
+}
