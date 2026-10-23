@@ -198,7 +198,7 @@
   object-fit: contain;
   pointer-events: none;
 }
-@media (min-width: 1200px) and (pointer: fine) {
+@media (min-width: 1000px) and (pointer: fine) {
   .system-card-deck {
     position: relative;
     min-height: 0;
@@ -226,7 +226,7 @@
     mask-image: linear-gradient(to bottom, #000 0%, #000 86%, transparent 100%);
   }
 }
-@media (min-width: 1200px) and (max-width: 2039px) and (pointer: fine) {
+@media (min-width: 1000px) and (max-width: 2039px) and (pointer: fine) {
   .system-card-deck {
     grid-template-columns: minmax(220px, .9fr) minmax(0, 1.8fr) auto;
     grid-template-rows: minmax(0, 1fr);
@@ -246,6 +246,13 @@
     width: clamp(34px, 2.6vw, 42px);
     height: clamp(34px, 2.6vw, 42px);
   }
+}
+@media (min-width: 1000px) and (max-width: 1199px) and (pointer: fine) {
+  .system-card-deck__copy p { margin-bottom: 6px; font-size: 10px; letter-spacing: .12em; }
+  .system-card-deck__copy h2 { font-size: clamp(30px, 3vw, 35px); }
+  .system-card-deck__copy span { margin-top: 8px; font-size: 13px; line-height: 1.45; }
+  .system-card-deck__search { margin-top: 8px; gap: 4px; }
+  .system-card-deck__search input { min-height: 40px; padding: 8px 11px; font-size: 13px; }
 }
 @media (min-width: 2040px) and (pointer: fine) {
   .system-card-deck { padding: 58px clamp(90px, 5vw, 112px) 26px; }

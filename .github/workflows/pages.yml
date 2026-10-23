@@ -59,7 +59,7 @@ jobs:
         run: |
           test -s academy-nexus-selector-frame-v2.webp
           grep -Fq 'academy-nexus-selector-frame-v2.webp' index.html
-          grep -Fq '20261023-academy-nexus4' index.html
+          grep -Fq '20261023-academy-nexus5' index.html
           grep -Fq 'aspect-ratio: 3 / 1;' homepage-system-deck.css
           grep -Fq 'background: transparent;' homepage-system-deck.css
           grep -Fq 'object-fit: contain;' homepage-system-deck.css
