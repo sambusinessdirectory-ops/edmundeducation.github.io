@@ -1,6 +1,6 @@
 # Advanced Native Books 10–16 — Golden SOP verification checklist
 
-Audit snapshot: 2026-10-23 06:49 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023`.
+Audit snapshot: 2026-10-23 06:55 UTC. Baseline repository commit: `eca72e6f`. Branch: `codex/advanced-native-books10-16-20261023` (pushed to the site's GitHub repository; this draft branch is not the public site).
 Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9ddc17580`. Source DOCX SHA-256: `d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012`.
 
 **Release verdict: NOT APPROVED.** This is a complete requirements audit of the current work, not a certificate that all requirements have passed. Failed or pending gates must be repaired and the entire affected verification cycle rerun before publication. No new Books 10–16 lessons are live.
@@ -12,6 +12,7 @@ Golden manual SHA-256: `0e2eaa6001eeebf911ff8e1a0645a61fed991df947bf701152cd1ad9
 - Exact spelling analysis: 1,844 distinct spellings, 866 occurrences exactly matching a prior source phrase, and 760 repeated occurrences within the new document. These figures do not decide whether senses match.
 - Reconciliation states: 5 draft lessons; 1,230 other first-use authoring candidates; 271 first-use near-prior candidates; 866 exact-prior occurrences; 232 remaining repeated-source occurrences. 1,506 distinct new spellings need a sense-level decision.
 - Pilot draft: five lessons projected for display 1894–1898, 35 steps, 30 assessed questions, 10 writing examples and 20 required audio roles. Audio produced for this pilot: **0**.
+- First 30 source occurrences have an explicit **provisional** sense/action triage: 19 proposed new lessons, 8 proposed aliases to existing lessons, 2 proposed aliases within this document, and 1 wording hold. This is a self-review queue, not independent editorial approval. The `show up` arrival sense is kept distinct from the existing support-someone sense.
 
 ## Requirement-by-requirement register
 
@@ -25,9 +26,9 @@ The 55 IDs match the repository's Golden SOP release-checklist register. A pass 
 
 - [x] **SRC03 — PASS—intake.** Distinguish original sample sentences from guide-written practice examples. The five pilot provenance rows say guide_original_example, rather than original online sample answer. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
 
-- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 866 exact-prior occurrences and 271 first-use near-prior candidates flagged; no automatic semantic merges. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
+- [ ] **SRC04 — PARTIAL.** Merge exact variants without losing provenance; split genuine senses and retain useful related constructions. 866 exact-prior occurrences and 271 first-use near-prior candidates flagged; first 30 have explicit proposed decisions including a distinct `show up` sense. No automatic semantic merges. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl`.
 
-- [ ] **SRC05 — PENDING.** Resolve doubtful meaning, grammar, register and taxonomy against primary language references. No individual dictionary/register dispute log or completed sense review across 2,604 rows. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl`.
+- [ ] **SRC05 — PENDING.** Resolve doubtful meaning, grammar, register and taxonomy against primary language references. One of the first 30 occurrences is explicitly held for number/target wording; no completed primary-reference or independent sense review across 2,604 rows. Evidence: `books10-16/source-inventory.jsonl; books10-16/reconciliation-register.jsonl; books10-16/editorial-decisions-2112-2141.jsonl`.
 
 ### Curation and seven-step lesson
 
@@ -39,11 +40,11 @@ The 55 IDs match the repository's Golden SOP release-checklist register. A pass 
 
 - [ ] **CUR04 — PARTIAL.** Make all four reply options naturally valid, exactly one target-bearing and golden. Schema proves exactly one target-bearing golden reply in each pilot; pragmatic validity needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR05 — PARTIAL.** Write a new concrete scene, one defensible best answer and plausible alternatives. Five scene tasks drafted and structurally checked; alternative fairness needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR05 — PARTIAL.** Write a new concrete scene, one defensible best answer and plausible alternatives. Five scene tasks drafted; the first self-review replaced over-obvious distractors with closer timing, scope and evidence errors. Alternative fairness still needs independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
 - [ ] **CUR06 — PARTIAL.** Test a real boundary without inventing a restriction or rejecting a valid meaning. Five boundary tasks drafted; no whole-source or independent sense sign-off. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
-- [ ] **CUR07 — PARTIAL.** Write a natural next turn with consistent speaker, tone and purpose; do not mark legitimate clarification questions wrong. Five dialogue tasks drafted; speaker/tone decisions still need independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
+- [ ] **CUR07 — PARTIAL.** Write a natural next turn with consistent speaker, tone and purpose; do not mark legitimate clarification questions wrong. Five dialogue tasks drafted; over-obvious distractors were revised during self-review. Speaker/tone decisions still need independent review. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
 - [ ] **CUR08 — PARTIAL.** Make final writing change the setting/task/communicative goal; reject name swaps. Five changed writing settings drafted; near-duplicate screen found 0 pilot flags. Evidence: `drafts-books10-16/batch-2112-2119.json; tools/advanced-native-bulk/verify-books10-16.mjs`.
 
@@ -212,7 +213,7 @@ This crosswalk covers all 30 chapters of the attached manual, including its form
 - Combined existing-plus-pilot validation: 1,888 authored records, 0 schema errors; unchanged identity/display pairs for the existing 1,883 imported records; proposed new display numbers 1894–1898.
 - Pilot originality screen: 0 exact whole-sentence copies of new guide examples among 30 teaching texts; pilot near-duplicate screen against existing records: 0 flags. These screens do not prove originality or semantic quality.
 - The broader legacy course test was attempted in the sparse checkout but could not reach assertions: its required tracked MP3 files are excluded. The old SQL catalogue `--check` was also attempted but its migration files are excluded. Neither is recorded as a pass or as a product defect; both must be rerun in a full release checkout.
-- Repair cycle: the first draft's `let it slide` takeaway did not match the target regex; wording was corrected and both draft and combined validation passed. No other defect was converted into a pass without a rerun.
+- Repair cycle: the first draft's `let it slide` takeaway did not match the target regex; wording was corrected and both draft and combined validation passed. A later self-review found over-obvious scene/dialogue distractors across the pilot; these were replaced with closer alternatives and the combined validator rerun. No defect was converted into a pass without a rerun.
 - Blocking gaps: 1,501 unique new candidates have no lesson; all 2,604 rows still need final semantic ownership; no independent English/Chinese review of the five drafts; 20 pilot audio clips absent; no new browser/device, accessibility, sound, progress, backend, public-host or live-release evidence.
 
 ## Mandatory restart rule

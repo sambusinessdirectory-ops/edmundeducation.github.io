@@ -105,13 +105,13 @@
           },
           {
             "id": "b",
-            "en": "Speaking loudly is the main reason people visit the hall.",
-            "zh": "大聲說話是人們參觀紀念館的主要原因。"
+            "en": "Speaking loudly is illegal everywhere in the city.",
+            "zh": "在這個城市任何地方大聲說話都屬違法。"
           },
           {
             "id": "c",
-            "en": "The hall asks visitors to make as much noise as possible.",
-            "zh": "紀念館要求訪客盡量製造噪音。"
+            "en": "The hall accepts loud conversations if visitors keep moving.",
+            "zh": "只要訪客繼續往前走，紀念館便接受大聲交談。"
           }
         ],
         "explanationZh": "保持安靜的要求支持群體不認同大聲聊天，其他選項與情境相反。",
@@ -149,13 +149,13 @@
           },
           {
             "id": "b",
-            "en": "Everyone there wants to hear your music, so turn it up.",
-            "zh": "那裏每個人都想聽你的音樂，所以把音量調高。"
+            "en": "It is allowed, provided you keep the music fairly quiet.",
+            "zh": "只要把音樂調得相當小聲，便可以使用擴音器。"
           },
           {
             "id": "c",
-            "en": "You must have broken a law just by asking the question.",
-            "zh": "你只是提出這個問題，就一定已經犯法。"
+            "en": "The room has a written rule about music, but no one minds speakers.",
+            "zh": "房間雖有關於音樂的書面規則，但沒有人介意使用擴音器。"
           }
         ],
         "explanationZh": "回應指出共用空間的規範，並提供可行做法；沒有把不認同說成犯法。",
@@ -372,13 +372,13 @@
           },
           {
             "id": "b",
-            "en": "The unsigned receipt settled every question immediately.",
-            "zh": "那張沒有署名的收據立即解決了所有疑問。"
+            "en": "The unsigned receipt proves that a volunteer requested the refund.",
+            "zh": "沒有署名的收據證明是一名義工要求退款。"
           },
           {
             "id": "c",
-            "en": "The volunteers already knew exactly who had made a mistake.",
-            "zh": "義工已經確知是誰出錯。"
+            "en": "The receipt is probably harmless, so there is no need to check the records.",
+            "zh": "那張收據大概沒有問題，所以不必核對紀錄。"
           }
         ],
         "explanationZh": "欠缺署名是需要核對的線索，並不是足以確定責任的證據。",
@@ -416,13 +416,13 @@
           },
           {
             "id": "b",
-            "en": "Approve the payment now; unfamiliar names never matter.",
-            "zh": "現在就批准付款；不熟悉的名字從來不重要。"
+            "en": "Those names may be new suppliers; approve the payment without checking.",
+            "zh": "那些名字可能是新供應商；不用查證便批准付款吧。"
           },
           {
             "id": "c",
-            "en": "We know for certain that the new names were added dishonestly.",
-            "zh": "我們肯定那些新名字是有人不誠實地加入的。"
+            "en": "This proves fraud has occurred, so announce the names publicly now.",
+            "zh": "這證明有人詐騙，所以現在就公開宣布那些名字吧。"
           }
         ],
         "explanationZh": "指出異常並先核查，比忽視線索或未查證就指控別人更合理。",
@@ -639,13 +639,13 @@
           },
           {
             "id": "b",
-            "en": "I work at the bookshop every day.",
-            "zh": "我每天都在那間書店工作。"
+            "en": "I stop by the bookshop every Saturday morning.",
+            "zh": "我每個星期六早上都去那間書店。"
           },
           {
             "id": "c",
-            "en": "I have never entered the bookshop.",
-            "zh": "我從未走進那間書店。"
+            "en": "I walked past the bookshop once but have never gone inside.",
+            "zh": "我曾路過那間書店一次，但從未走進去。"
           }
         ],
         "explanationZh": "路過才偶爾進去，與每日在那裏工作或從未去過都不同。",
@@ -683,13 +683,13 @@
           },
           {
             "id": "b",
-            "en": "If you cannot help every week, you must never volunteer.",
-            "zh": "如果你不能每週幫忙，就絕不能做義工。"
+            "en": "You should promise to volunteer weekly, even if you cannot make it.",
+            "zh": "即使你做不到，也應答應每週做義工。"
           },
           {
             "id": "c",
-            "en": "Volunteering from time to time means working there daily.",
-            "zh": "間中做義工就是每天在那裏工作。"
+            "en": "Wait until you can commit every week before offering any help.",
+            "zh": "等到你能承諾每週參與，才提出幫忙吧。"
           }
         ],
         "explanationZh": "回應容許按時間偶爾幫忙，沒有把偶爾誤解為每日。",
@@ -906,13 +906,13 @@
           },
           {
             "id": "b",
-            "en": "The mural project finished before the planned time.",
-            "zh": "壁畫專題比原定時間提早完成。"
+            "en": "The mural will still be ready by lunch because the paint dries quickly.",
+            "zh": "油漆乾得快，所以壁畫仍會在午飯前完成。"
           },
           {
             "id": "c",
-            "en": "The class decided not to paint any mural.",
-            "zh": "全班決定不畫壁畫。"
+            "en": "The mural costs more than planned, but the timing has not changed.",
+            "zh": "壁畫花費比計劃多，但時間安排沒有改變。"
           }
         ],
         "explanationZh": "原定完成時間已過而仍在等油漆乾，支持『進度落後』。",
@@ -950,13 +950,13 @@
           },
           {
             "id": "b",
-            "en": "Say nothing and assume the chairs will arrive in time.",
-            "zh": "不要說任何話，假設椅子會準時到達。"
+            "en": "The chairs may arrive soon, so there is no reason to update anyone yet.",
+            "zh": "椅子可能很快送到，所以暫時沒有理由通知任何人。"
           },
           {
             "id": "c",
-            "en": "Cancel every future event because of this one delay.",
-            "zh": "因為這一次延誤，取消所有將來的活動。"
+            "en": "We should delay the next event too, even though this delivery affects only today.",
+            "zh": "即使這次送貨只影響今天，也應延遲下一場活動。"
           }
         ],
         "explanationZh": "指出時間問題，並及早通知及調整，比隱瞞或過度反應更合宜。",
@@ -1173,13 +1173,13 @@
           },
           {
             "id": "b",
-            "en": "He has never been late, so there is nothing to notice.",
-            "zh": "他從未遲到，所以沒有甚麼要留意。"
+            "en": "He should receive a formal warning for this first two-minute delay.",
+            "zh": "他第一次遲到兩分鐘，應收到正式警告。"
           },
           {
             "id": "c",
-            "en": "We must cancel the entire season because of two minutes.",
-            "zh": "因為遲了兩分鐘，我們必須取消整個賽季。"
+            "en": "Because we overlooked this delay, future start times no longer matter.",
+            "zh": "既然這次不追究，以後的開始時間便不再重要。"
           }
         ],
         "explanationZh": "輕微、首次、已道歉且未影響排練，支持這次不追究，同時提醒下次。",
@@ -1217,13 +1217,13 @@
           },
           {
             "id": "b",
-            "en": "You must pretend you never heard the mistake, even if it keeps happening.",
-            "zh": "你必須裝作從未聽見，即使錯誤不斷出現。"
+            "en": "You should make a formal complaint before giving them another chance.",
+            "zh": "給對方第二次機會前，你應先作正式投訴。"
           },
           {
             "id": "c",
-            "en": "One slip proves that the new student meant to insult you.",
-            "zh": "一次口誤證明新同學有意侮辱你。"
+            "en": "You should never explain how to say your name, even if they ask.",
+            "zh": "即使對方問你，你也永遠不應解釋自己名字的讀法。"
           }
         ],
         "explanationZh": "承認只是首次口誤，並提供溫和糾正方式；沒有要求永久忍受或推斷惡意。",
