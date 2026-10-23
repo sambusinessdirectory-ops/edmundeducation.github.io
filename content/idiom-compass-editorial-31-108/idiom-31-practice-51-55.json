@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q51": {
+      "truthCondition": "Two clinic coordinators argue fiercely whenever they divide the afternoon appointments.",
+      "correctReason": "正確句保留兩名診所協調員每次分配下午預約都會激烈爭執，沒有把爭議改成病人的病情。",
+      "foils": [
+        { "text": "The two clinic coordinators fight like cat and dog whenever they divide the morning appointments.", "reason": "「morning」把爭議時段由下午預約改成早上預約。", "kind": "changed-time-slot" },
+        { "text": "The two clinic coordinators fought like cat and dog only once when dividing the afternoon appointments.", "reason": "「only once」把每次分配都會吵改成只吵過一次。", "kind": "changed-frequency" },
+        { "text": "The two clinic coordinators calmly agree whenever they divide the afternoon appointments.", "reason": "「calmly agree」把激烈爭執改成平靜達成共識。", "kind": "reversed-interaction" }
+      ]
+    },
+    "idiom-31-q52": {
+      "truthCondition": "The leaders of two recycling groups have argued angrily at every planning meeting for months.",
+      "correctReason": "正確句保留不同回收團體的兩名負責人、數月時間及籌備會議中的反覆爭吵。",
+      "foils": [
+        { "text": "The two recycling-group leaders fought like cat and dog at one planning meeting months ago.", "reason": "「one ... months ago」把數月來每次會議都吵改成數月前的一次會議。", "kind": "changed-duration-and-frequency" },
+        { "text": "The two recycling-group leaders have been fighting like cat and dog at public collection points for months.", "reason": "「public collection points」把爭吵地點由籌備會議改成收集點。", "kind": "changed-setting" },
+        { "text": "The two recycling-group leaders have been agreeing calmly at every planning meeting for months.", "reason": "「agreeing calmly」把每次籌備會議中的激烈爭吵改成平靜同意。", "kind": "reversed-tone" }
+      ]
+    },
+    "idiom-31-q53": {
+      "truthCondition": "Two app designers repeatedly shout at each other over the login flow rather than settle a plan.",
+      "correctReason": "正確句把慣用語用在反覆激烈爭執，並保留登入流程的分歧與遲遲未能定案。",
+      "foils": [
+        { "text": "The two app designers fight like cat and dog over the colour scheme instead of settling a plan.", "reason": "「colour scheme」把爭議由登入流程改成配色。", "kind": "changed-design-issue" },
+        { "text": "The two app designers fight like cat and dog over the login flow but soon settle on a plan.", "reason": "「soon settle on a plan」說兩人很快定案；原題說兩人爭吵而遲遲未能定案。", "kind": "changed-resolution" },
+        { "text": "The two app designers discuss the login flow quietly without shouting instead of settling a plan.", "reason": "「quietly without shouting」把反覆互相叫罵改成安靜討論，也沒有用上目標慣用語。", "kind": "changed-intensity" }
+      ]
+    },
+    "idiom-31-q54": {
+      "truthCondition": "Two gallery curators agree on the exhibition theme but quarrel bitterly over each artwork selection.",
+      "correctReason": "正確句保留策展人同意整體主題，卻為每件作品的選擇激烈爭執的反差。",
+      "foils": [
+        { "text": "The gallery curators fight like cat and dog over each artwork because they disagree on the exhibition theme.", "reason": "「disagree on the exhibition theme」否定了原題說兩人同意主題。", "kind": "changed-common-ground" },
+        { "text": "The gallery curators fight like cat and dog over one artwork, although they agree on the theme.", "reason": "「one artwork」把每件作品都吵縮成只為一件作品爭吵。", "kind": "changed-scope" },
+        { "text": "The gallery curators agree on the theme and calmly select each artwork together.", "reason": "「calmly select」把每件作品的激烈爭吵改成和平選擇。", "kind": "reversed-selection" }
+      ]
+    },
+    "idiom-31-q55": {
+      "truthCondition": "During last year's ferry project, two route planners argued fiercely at almost every meeting.",
+      "correctReason": "正確句保留去年渡輪項目、兩名路線規劃員，以及幾乎每次會議都激烈爭吵。",
+      "foils": [
+        { "text": "The two route planners fight like cat and dog at almost every meeting on this year's ferry project.", "reason": "「this year's」把原題的去年項目改成今年項目。", "kind": "changed-period" },
+        { "text": "The two route planners fought like cat and dog at almost every meeting on last year's rail project.", "reason": "「rail project」把渡輪項目改成鐵路項目。", "kind": "changed-project" },
+        { "text": "The two route planners rarely argued during meetings on last year's ferry project.", "reason": "「rarely」把幾乎每次會議都吵改成很少爭吵。", "kind": "changed-frequency" }
+      ]
+    }
+  }
+}

@@ -92,6 +92,14 @@ for (const name of practiceFiles) {
   }
   const lesson = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'idiom-lessons', sourceName), 'utf8')).lesson;
   const questions = new Map(lesson.questions.map((question) => [question.id, question]));
+  const guideName = `${lessonId}.json`;
+  if (fs.existsSync(path.join(directory, guideName))) {
+    const guideDraft = JSON.parse(fs.readFileSync(path.join(directory, guideName), 'utf8'));
+    (guideDraft.bonusBlueprint || []).forEach((row, index) => {
+      const id = `${lessonId}-q${String(51 + index).padStart(2, '0')}`;
+      questions.set(id, { id, prompt: row[1], promptZh: row[2], answer: row[3], answerZh: row[4] });
+    });
+  }
   const [start, end] = name.match(/practice-(\d{2})-(\d{2})\.json$/).slice(1).map(Number);
   const expectedIds = Array.from({ length: end - start + 1 }, (_, index) => `${lessonId}-q${String(start + index).padStart(2, '0')}`);
   if (end < start || Object.keys(draft.items || {}).sort().join(',') !== expectedIds.sort().join(',')) {

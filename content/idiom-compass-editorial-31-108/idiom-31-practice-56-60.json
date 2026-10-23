@@ -1,0 +1,51 @@
+{
+  "lessonId": "idiom-31",
+  "status": "AI_EDITORIAL_DRAFT_NOT_LIVE",
+  "items": {
+    "idiom-31-q56": {
+      "truthCondition": "Two market chefs repeatedly argue angrily about who gets to use their shared oven first.",
+      "correctReason": "正確句把慣用語用於兩名廚師反覆激烈爭執，並保留共用焗爐的使用次序。",
+      "foils": [
+        { "text": "The two market chefs keep fighting like cat and dog over who should clean the shared oven.", "reason": "「clean」把爭議由誰先使用焗爐改成誰負責清潔。", "kind": "changed-issue" },
+        { "text": "The two market chefs fought like cat and dog only once over the shared oven.", "reason": "「only once」把不斷爭吵改成單次爭執。", "kind": "changed-frequency" },
+        { "text": "The two market chefs take turns using the shared oven without arguing.", "reason": "「without arguing」把激烈爭執改成和平輪流。", "kind": "reversed-cooperation" }
+      ]
+    },
+    "idiom-31-q57": {
+      "truthCondition": "Every time the morning programme changes its script, its two presenters start another fierce argument.",
+      "correctReason": "「whenever」保留節目每次改稿就觸發兩名主持人再次激烈爭吵的關係。",
+      "foils": [
+        { "text": "The two presenters fight like cat and dog whenever the morning programme keeps its original script.", "reason": "「keeps its original script」把觸發情況由改稿改成沒有改稿。", "kind": "reversed-trigger" },
+        { "text": "The two presenters fought like cat and dog only once when the morning programme changed its script.", "reason": "「only once」把每次改稿都會吵改成只吵過一次。", "kind": "changed-frequency" },
+        { "text": "The two presenters calmly agree whenever the morning programme changes its script.", "reason": "「calmly agree」把每次改稿便激烈爭吵改成平靜達成共識。", "kind": "reversed-response" }
+      ]
+    },
+    "idiom-31-q58": {
+      "truthCondition": "Two rowing coaches used to argue furiously over training plans, but now decide together.",
+      "correctReason": "「used to」把激烈爭吵放在過去；正確句保留現在共同決定訓練事項的轉變。",
+      "foils": [
+        { "text": "The two rowing coaches still fight like cat and dog over training plans, although they decide together now.", "reason": "「still」說現在仍激烈爭吵；原題說現在會共同作決定，不再是以往的爭吵模式。", "kind": "changed-current-state" },
+        { "text": "The two rowing coaches used to fight like cat and dog over race results, but they now decide together.", "reason": "「race results」把昔日爭議由訓練計劃改成比賽成績。", "kind": "changed-issue" },
+        { "text": "The two rowing coaches used to decide together, but now fight like cat and dog over training plans.", "reason": "這句把以前爭吵、現在共同決定的時間線倒轉。", "kind": "reversed-timeline" }
+      ]
+    },
+    "idiom-31-q59": {
+      "truthCondition": "The two leaders of a book drive argue angrily every time they schedule a collection day.",
+      "correctReason": "正確句保留圖書募捐活動的兩名負責人，每次安排收書日期便激烈爭吵。",
+      "foils": [
+        { "text": "The two book-drive leaders fight like cat and dog whenever they select books for donation.", "reason": "「select books」把爭議由收書日期改成挑選捐贈書籍。", "kind": "changed-task" },
+        { "text": "The two book-drive leaders fought like cat and dog once when planning a collection day.", "reason": "「once」把每次安排日期都吵改成只吵一次。", "kind": "changed-frequency" },
+        { "text": "The two book-drive leaders agree peacefully whenever they plan a collection day.", "reason": "「agree peacefully」把每次激烈爭吵改成和平同意。", "kind": "reversed-conflict" }
+      ]
+    },
+    "idiom-31-q60": {
+      "truthCondition": "The café co-owners may resume their frequent angry arguments if forced to share one tiny counter again.",
+      "correctReason": "「may ... again」保留可能重現的舊有爭吵；條件是再次共用狹小櫃檯。",
+      "foils": [
+        { "text": "The two café co-owners may fight like cat and dog again if each gets a separate counter.", "reason": "「each gets a separate counter」把條件由共用小櫃檯改成各有櫃檯。", "kind": "changed-sharing-condition" },
+        { "text": "The two café co-owners will certainly fight like cat and dog again if they share one tiny counter.", "reason": "「will certainly」把原題的可能重現改成必然發生。", "kind": "changed-certainty" },
+        { "text": "The two café co-owners may work peacefully again if they have to share one tiny counter.", "reason": "「work peacefully」把可能再起的激烈爭吵改成可能和平合作。", "kind": "reversed-outcome" }
+      ]
+    }
+  }
+}
