@@ -1,0 +1,100 @@
+{
+  "reviewType": "independent AI exact-hash owner-integrity follow-up",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "Promoted provisional owners 2341,2343,2418,2435 and exact-repeat aliases 2377,2379",
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "promotionGateReportSha256": "c1f18f7feca6e3b7af6f31f62fb1fa107769140899b828772ab8e941621f3f09"
+  },
+  "method": "Checked exact current decisions against source inventory, earlier-owner ordering, exact duplicate provenance, and source coverage by independently reviewed constrained target patterns.",
+  "checks": [
+    {
+      "sourceOrdinal": 2341,
+      "sourceId": "book10-16-0230",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "35b3b5930bd8d0ff0904a30cff0f45c7dd82f89ac9e96eb3227432867a23a786",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2341",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "reviewedOwnerPattern": "(?:(?<=\\bthe part; he )inhabits it\\b|\\binhabit(?:s|ed|ing)?\\s+(?:(?:a|the|his|her|their)\\s+)?(?:role|part|character)\\b)",
+      "ownerPatternMatch": "inhabits it",
+      "ownerBeforeAlias": null,
+      "exactDuplicateExample": null,
+      "result": "clear provisional owner/alias integrity"
+    },
+    {
+      "sourceOrdinal": 2343,
+      "sourceId": "book10-16-0232",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "35b3b5930bd8d0ff0904a30cff0f45c7dd82f89ac9e96eb3227432867a23a786",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2343",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "reviewedOwnerPattern": "\\b(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+(?:usually\\s+)?(?:does|do|did)\\s+the talking\\b|\\b(?:let|lets|letting)\\s+(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+do\\s+the talking\\b",
+      "ownerPatternMatch": "the performance usually does the talking",
+      "ownerBeforeAlias": null,
+      "exactDuplicateExample": null,
+      "result": "clear provisional owner/alias integrity"
+    },
+    {
+      "sourceOrdinal": 2418,
+      "sourceId": "book10-16-0307",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "bae8cf12cc2a504ce0dcf917472e3f91faded50981ba7e0101334efb9cc5e126",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2418",
+      "sourceExample": "The investigator slowly untangles the lies.",
+      "reviewedOwnerPattern": "\\buntangl(?:e|es|ed|ing)\\s+(?:the|their)\\s+lies\\b",
+      "ownerPatternMatch": "untangles the lies",
+      "ownerBeforeAlias": null,
+      "exactDuplicateExample": null,
+      "result": "clear provisional owner/alias integrity"
+    },
+    {
+      "sourceOrdinal": 2435,
+      "sourceId": "book10-16-0324",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "bae8cf12cc2a504ce0dcf917472e3f91faded50981ba7e0101334efb9cc5e126",
+      "action": "proposed-new-lesson",
+      "canonicalId": "advanced-native-2435",
+      "sourceExample": "Sorting receipts became a never-ending chore.",
+      "reviewedOwnerPattern": "\\bnever-ending chores?\\b",
+      "ownerPatternMatch": "never-ending chore",
+      "ownerBeforeAlias": null,
+      "exactDuplicateExample": null,
+      "result": "clear provisional owner/alias integrity"
+    },
+    {
+      "sourceOrdinal": 2377,
+      "sourceId": "book10-16-0266",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "2e49af3e4bc71aa912400708f923083021747b3d1c19a7f1d3b60258a2828edb",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2341",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "reviewedOwnerPattern": "(?:(?<=\\bthe part; he )inhabits it\\b|\\binhabit(?:s|ed|ing)?\\s+(?:(?:a|the|his|her|their)\\s+)?(?:role|part|character)\\b)",
+      "ownerPatternMatch": "inhabits it",
+      "ownerBeforeAlias": true,
+      "exactDuplicateExample": true,
+      "result": "clear provisional owner/alias integrity"
+    },
+    {
+      "sourceOrdinal": 2379,
+      "sourceId": "book10-16-0268",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "2e49af3e4bc71aa912400708f923083021747b3d1c19a7f1d3b60258a2828edb",
+      "action": "proposed-alias-new",
+      "canonicalId": "advanced-native-2343",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "reviewedOwnerPattern": "\\b(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+(?:usually\\s+)?(?:does|do|did)\\s+the talking\\b|\\b(?:let|lets|letting)\\s+(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+do\\s+the talking\\b",
+      "ownerPatternMatch": "the performance usually does the talking",
+      "ownerBeforeAlias": true,
+      "exactDuplicateExample": true,
+      "result": "clear provisional owner/alias integrity"
+    }
+  ],
+  "findings": [],
+  "limits": "Owners and aliases are provisionally coherent; no learner lesson, human review, manifest selection, or release approval follows from this check."
+}

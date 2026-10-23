@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2511-2521-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2511",
+      "number": 2511,
+      "inventoryId": "expr-2511",
+      "titleEn": "dent your credibility",
+      "titleZh": "損害你的可信度",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:dent|dents|dented|denting) (?:your|my|his|her|our|their) credibility\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Reduce the trust others place in someone after an error or unreliable act.",
+        "meaningZh": "因錯誤或不可靠的行為，令別人對某人的信任減弱。",
+        "grammar": "Pattern: dent/dents/dented/denting + my/your/his/her/our/their credibility. An error, repeated mistake or unreliable act is the subject; the phrase takes a possessive determiner before credibility.",
+        "register": "Neutral to formal professional or community discussion. A colleague, organiser or reviewer can say it to someone assessing how a visible error affects other people's trust.",
+        "boundaryZh": "重點是別人對你的可信程度有所下降，不必等同完全失去信任；須有可見的失誤與受影響的對象。",
+        "misconceptionZh": "不要因任何小瑕疵就斷言信譽已全毀，也不要把 credibility 誤作個人心情。",
+        "outcomeZh": "能指出哪項失誤令哪些人較難信任說話者，以及可如何修補。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0400",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 37,
+          "book": 10,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One careless error can dent your credibility.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dent your credibility"
+        }
+      ],
+      "listening": {
+        "en": "A club secretary sent members the wrong meeting date twice. Even after the correction, some members checked her next notice elsewhere. The repeated errors dented her credibility.",
+        "zh": "社團秘書兩次向會員發出錯誤開會日期。即使她已更正，部分會員仍向別處核實下一則通告。反覆失誤損害了她的可信度。",
+        "promptZh": "dented her credibility 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Members trusted her announcements less after the repeated errors.",
+            "zh": "反覆錯誤後，會員對她的通告較不信任。"
+          },
+          {
+            "id": "b",
+            "en": "Members forgot the club’s name after the correction.",
+            "zh": "更正後會員忘記了社團名稱。"
+          },
+          {
+            "id": "c",
+            "en": "She lost all possibility of ever regaining anyone’s trust.",
+            "zh": "她永遠不可能重獲任何人的信任。"
+          },
+          {
+            "id": "d",
+            "en": "The dates became difficult to read because of the notice design.",
+            "zh": "通告設計令日期難以閱讀。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有人開始另行核實，顯示信任減弱；dent 不必然表示信任永久完全消失。"
+      },
+      "reply": {
+        "promptEn": "Why are members checking the secretary’s next notice against another source?",
+        "promptZh": "（會員為何要另行核實秘書的下一則通告？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her earlier date errors made them less confident in her notices.",
+            "zh": "她先前的日期錯誤令他們對通告較沒信心。"
+          },
+          {
+            "id": "b",
+            "en": "They want confirmation because two past notices were wrong.",
+            "zh": "過去兩則通告有誤，他們想再確認。"
+          },
+          {
+            "id": "c",
+            "en": "The repeated mistakes dented her credibility with the members.",
+            "zh": "反覆失誤損害了她在會員心中的可信度。"
+          },
+          {
+            "id": "d",
+            "en": "They now verify her information before making plans.",
+            "zh": "他們現在會先核實她的資料，再作安排。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋會員因先前錯誤而較難信任通告；金句明確表達信譽受損。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The errors dented the guide’s credibility, though the group may still trust future corrected notices.",
+            "zh": "錯誤損害了導賞員的可信度，但大家仍可能相信之後經核對的通告。"
+          },
+          {
+            "id": "b",
+            "en": "The group no longer needs directions because it can make a call.",
+            "zh": "大家能打電話，所以以後都毋須路線指引。"
+          },
+          {
+            "id": "c",
+            "en": "The guide’s credibility improved simply because the mistakes were repeated.",
+            "zh": "錯誤重複發生，本身就令導賞員更可信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "參加者改為先核實，表示信任減弱；題目沒有證明信任已永久消失。",
+        "promptZh": "社區導賞員兩次把集合地點寫錯，參加者之後會先致電確認才出門。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "An organiser repeatedly gives wrong start times, so people verify each message.",
+            "zh": "主辦者屢次給錯開始時間，大家因而核實每則訊息。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker corrects one typo before publication, and no reader ever sees it.",
+            "zh": "講者在發布前修正一個錯字，沒有讀者看到。"
+          },
+          {
+            "id": "c",
+            "en": "A seller promises delivery on three dates and misses all three, making customers doubtful.",
+            "zh": "賣家三次承諾送貨卻都未能兌現，令顧客生疑。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "未公開的錯字未令任何人對講者的資料失去信任；另兩項已有可見信任下降。",
+        "promptZh": "哪個情況最不適合說 dent someone’s credibility？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Those errors may dent your credibility; correct this notice clearly and check the next one before sending it.",
+            "zh": "那些錯誤可能損害你的可信度；清楚更正這則通告，下一則發出前再核對。"
+          },
+          {
+            "id": "b",
+            "en": "One more correction guarantees that every parent will trust the next notice without checking.",
+            "zh": "再更正一次便保證每位家長不用核實也會相信下一則通告。"
+          },
+          {
+            "id": "c",
+            "en": "The calls prove the parents never valued your work, regardless of the wrong times.",
+            "zh": "家長來電證明他們一直不重視你的工作，與錯誤時間無關。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "家長另行核實顯示信任受影響；回應應承認可能損傷並提出具體修補做法。",
+        "promptZh": "同事說：「我又把活動時間發錯，家長現在每次都會打電話確認。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Repeated timetable errors can dent your credibility with the people relying on your updates.",
+        "zh": "時間表反覆出錯，可能損害依賴你更新資訊的人對你的信任。",
+        "promptZh": "先聽示範，再指出甚麼失誤影響哪些人的信任。",
+        "targetSpan": {
+          "start": 30,
+          "end": 51
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區運動會的司庫兩次在捐款報告中列錯總額，令捐款人開始另行核實數字。司庫更正報告，並安排另一人於發布前核對。用一至兩句英文描述對信任的影響及修補方法。",
+        "selfCheckZh": "指出兩次錯誤總額如何令捐款人較難信任報告，以及更正和第二人發布前核對；不要說信任永遠不可能恢復。",
+        "examples": [
+          {
+            "en": "The treasurer issued two incorrect donation totals, which dented her credibility with donors; she corrected the report and asked a second person to check future figures before publication.",
+            "zh": "司庫兩次公布錯誤捐款總額，損害她在捐款人心中的可信度；她更正報告，並請第二人在日後數字發布前核對。"
+          },
+          {
+            "en": "The treasurer’s wrong totals may dent her credibility when donors start checking the figures elsewhere; the sports club corrected its report and added an independent review.",
+            "zh": "捐款人開始另行核實數字，錯誤總額可能損害司庫的可信度；運動會團隊更正報告，並加入獨立核對。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "donation totals",
+            "zh": "捐款總額",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 50
+            }
+          },
+          {
+            "en": "the report",
+            "zh": "報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 118
+            }
+          },
+          {
+            "en": "future figures",
+            "zh": "日後數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 154,
+              "end": 168
+            }
+          },
+          {
+            "en": "checking the figures elsewhere",
+            "zh": "另行核實數字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 102
+            }
+          },
+          {
+            "en": "an independent review",
+            "zh": "獨立核對",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 172
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A false claim can dent your credibility even if you later correct it.",
+          "zh": "即使之後更正，錯誤說法仍可能損害你的可信度。"
+        },
+        {
+          "en": "Checking a figure before publication can prevent it from denting your credibility.",
+          "zh": "發布前核對數字，可避免它損害你的可信度。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2516",
+      "number": 2516,
+      "inventoryId": "expr-2516",
+      "titleEn": "the message can sting",
+      "titleZh": "話語令人刺痛",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the|that|her|his|my|your|our|their) message (?:can|could|may|might|did|does|will)? ?(?:sting|stings|stung)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A message or its implication causes an immediate emotional hurt.",
+        "meaningZh": "話語或其中的暗示令人一時感到難受。",
+        "grammar": "Pattern: the/that/my/your/his/her/our/their message + can/could/may/might + sting; past the message stung. Message is the subject and sting describes its emotional effect on a listener.",
+        "register": "Neutral conversational or reflective language. A friend, colleague or teacher may use it when explaining to a listener why particular wording feels hurtful; do not assert the writer's intention.",
+        "boundaryZh": "本課重點是某句話當下造成刺痛；與 hurt may run deeper 的持續、較深層傷害不同。",
+        "misconceptionZh": "不要只因對方反對意見便稱 sting；需指出哪個措辭或暗示令聽者受傷。",
+        "outcomeZh": "能指出說了甚麼、聽者可能如何理解，以及為何會感到難受。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0405",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 37,
+          "book": 10,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The message can sting when someone needs support.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the message can sting"
+        }
+      ],
+      "listening": {
+        "en": "After Priya volunteered to lead the display, the coordinator wrote, “We need someone more reliable.” Priya had worked on every earlier display, so the message stung.",
+        "zh": "普麗雅主動提出帶領展覽布置，協調員卻寫道：「我們需要一個更可靠的人。」她之前每次都參與，這句話令她刺痛。",
+        "promptZh": "為何說 the message stung？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It implied Priya was unreliable despite her earlier work.",
+            "zh": "這句話暗示普麗雅不可靠，儘管她過去一直有幫忙。"
+          },
+          {
+            "id": "b",
+            "en": "It offered Priya a different role with the same responsibility.",
+            "zh": "它讓普麗雅擔任責任相同的另一角色。"
+          },
+          {
+            "id": "c",
+            "en": "It listed the practical tasks needed for the display.",
+            "zh": "它列出展覽布置所需的實際工作。"
+          },
+          {
+            "id": "d",
+            "en": "It showed that the coordinator had forgotten the display date.",
+            "zh": "它顯示協調員忘記了展覽日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「更可靠的人」暗示她不可靠，可能令一直有幫忙的她難受；無須猜測協調員本意。"
+      },
+      "reply": {
+        "promptEn": "Why did Priya find the coordinator’s reply painful?",
+        "promptZh": "（普麗雅為何覺得協調員的回覆難受？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It suggested her previous effort had not earned trust.",
+            "zh": "它暗示她過去的努力仍未換來信任。"
+          },
+          {
+            "id": "b",
+            "en": "She heard “more reliable” as a criticism of her dependability.",
+            "zh": "她把「更可靠」理解為批評她不可信賴。"
+          },
+          {
+            "id": "c",
+            "en": "The message stung because it seemed to dismiss her steady work.",
+            "zh": "那句話令人刺痛，因為它似乎否定她一直以來的付出。"
+          },
+          {
+            "id": "d",
+            "en": "It left her feeling that her help had been overlooked.",
+            "zh": "它令她覺得自己的幫忙被忽略。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都由實際措辭解釋她的受傷感；金句用 sting 表達話語造成的即時刺痛。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The message can sting because it implies the teammate usually holds the group back.",
+            "zh": "那句話可能令人刺痛，因為它暗示隊友平日常拖累大家。"
+          },
+          {
+            "id": "b",
+            "en": "The message proves the sender intended to insult the teammate.",
+            "zh": "那句話證明發訊人有意侮辱隊友。"
+          },
+          {
+            "id": "c",
+            "en": "The teammate must be upset only about the time the message arrived.",
+            "zh": "隊友一定只因訊息到達的時間而難過。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "「總算沒有拖累」含有負面暗示，足以使人難受；不應武斷推斷發訊人的意圖。",
+        "promptZh": "隊友收到「你這次總算沒有拖累大家」的訊息，雖然表面像稱讚，卻覺得不舒服。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "“We need someone more competent this time.”",
+            "zh": "「這次我們需要一個更有能力的人。」"
+          },
+          {
+            "id": "b",
+            "en": "“Thank you for helping; could you cover the welcome desk instead?”",
+            "zh": "「謝謝你幫忙；這次可否轉去接待處？」"
+          },
+          {
+            "id": "c",
+            "en": "“At least you did not slow us down today.”",
+            "zh": "「起碼你今天沒有拖慢我們。」"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "感謝對方並提出合理調整，沒有直接否定其能力；另兩句帶有令人刺痛的暗示。",
+        "promptZh": "哪句最不可能因其措辭而 sting 一位曾努力幫忙的義工？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That message could sting because it makes your earlier effort sound poor; you can ask which parts need improving.",
+            "zh": "那句話可能令人刺痛，因為它令你之前的努力聽起來很差；你可詢問哪些部分需改善。"
+          },
+          {
+            "id": "b",
+            "en": "The manager must have meant to hurt you; there is no other possible reading.",
+            "zh": "經理一定有意傷害你，絕不可能有其他理解。"
+          },
+          {
+            "id": "c",
+            "en": "You should ignore the wording because it contains the word “better”.",
+            "zh": "訊息有「較好」一詞，你應完全不理會措辭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回應承認話語可能造成刺痛，卻不妄猜對方意圖，並提出澄清方法。",
+        "promptZh": "朋友說：「我花了一週準備，經理卻回覆『這次至少比上次好』。我有點難受。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "The message can sting when it seems to erase someone’s effort.",
+        "zh": "那句話若似乎抹去別人的努力，可能令人刺痛。",
+        "promptZh": "先聽示範，再指出哪個暗示令聽者受傷。",
+        "targetSpan": {
+          "start": 0,
+          "end": 21
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區圖書館的義工努力策劃閱讀活動，卻收到「下次找真正懂書的人吧」的訊息。義工覺得受傷；圖書館主管後來澄清並具體感謝他的工作。用一至兩句英文描述那句話的影響及主管的回應。",
+        "selfCheckZh": "指出義工做過的努力、訊息中否定能力的暗示、刺痛感，以及主管澄清並具體致謝；不要猜測發訊人本意。",
+        "examples": [
+          {
+            "en": "The message stung the volunteer who had planned the reading event because “someone who knows books” implied he lacked skill; the manager clarified the remark and thanked him for his work.",
+            "zh": "義工努力策劃閱讀活動，那句「真正懂書的人」暗示他沒能力，令他刺痛；主管澄清說法，並感謝他的工作。"
+          },
+          {
+            "en": "After the volunteer organised the library session, the message could sting by dismissing his knowledge; the manager explained the wording and thanked him for his careful planning.",
+            "zh": "義工籌備圖書館活動後，那句話否定他的知識，可能令他難受；主管解釋措辭，並感謝他細心籌備。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "planned the reading event",
+            "zh": "策劃閱讀活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 65
+            }
+          },
+          {
+            "en": "implied he lacked skill",
+            "zh": "暗示他沒能力",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 123
+            }
+          },
+          {
+            "en": "thanked him for his work",
+            "zh": "感謝他的工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 186
+            }
+          },
+          {
+            "en": "organised the library session",
+            "zh": "籌備圖書館活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 49
+            }
+          },
+          {
+            "en": "careful planning",
+            "zh": "細心籌備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 162,
+              "end": 178
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The message can sting even if its writer intended to offer feedback.",
+          "zh": "即使發訊者原意是提供意見，那句話仍可能令人刺痛。"
+        },
+        {
+          "en": "His message stung the volunteer, so the manager explained what was meant.",
+          "zh": "一句欠周詳的話令義工難受，主管因此解釋原意。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2519",
+      "number": 2519,
+      "inventoryId": "expr-2519",
+      "titleEn": "hurt may run deeper",
+      "titleZh": "傷害可能比表面更深",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the )?hurt (?:may|might|can|could|will|does|did)? ?(?:run|runs|ran) deeper\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Emotional pain may be more substantial or lasting than it first appears.",
+        "meaningZh": "情感傷害可能比初看更深、更持久。",
+        "grammar": "Pattern: (the) hurt + may/might/can/could + run deeper, or the hurt ran deeper; often deeper than + a surface reaction or apology can address. Hurt is the subject.",
+        "register": "Neutral reflective language about relationships. A friend, counsellor or teammate may say it to another person while cautiously considering why pain or lost trust persists after an apology.",
+        "boundaryZh": "本課是深度或持續影響的可能性，不是 2516 某句話當下的刺痛；需有信任或關係仍受影響的線索。",
+        "misconceptionZh": "不要替當事人斷定永遠不會原諒；may 表示根據後續行為作審慎推測。",
+        "outcomeZh": "能指出短暫道歉後仍存在甚麼關係或信任問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0408",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 38,
+          "book": 10,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "80–82",
+          "locatorNote": "DOCX table 33, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The hurt may run deeper than a quick apology can address.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hurt may run deeper"
+        }
+      ],
+      "listening": {
+        "en": "Nora apologised for sharing her friend’s private news. Her friend said “all right” but stopped telling Nora personal things for weeks. The hurt may run deeper than a quick apology can address.",
+        "zh": "諾拉為透露朋友的私事道歉。朋友說「好吧」，但之後幾週都不再向她說私事。這份傷害可能比簡短道歉所能處理的更深。",
+        "promptZh": "為何說 hurt may run deeper？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her friend’s trust may still be affected despite accepting the apology.",
+            "zh": "朋友雖接受道歉，信任仍可能受影響。"
+          },
+          {
+            "id": "b",
+            "en": "The apology was longer than the conversation in which the news was shared.",
+            "zh": "道歉比透露消息時的對話更長。"
+          },
+          {
+            "id": "c",
+            "en": "Her friend has explicitly said she will never forgive Nora.",
+            "zh": "朋友已明說永遠不會原諒諾拉。"
+          },
+          {
+            "id": "d",
+            "en": "The incident had no effect once the word “all right” was spoken.",
+            "zh": "朋友說了「好吧」，事情便沒有留下任何影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "數週不再分享私事，是信任尚未恢復的線索；may 保留不確定性，不推斷永不原諒。"
+      },
+      "reply": {
+        "promptEn": "Why might Nora need to rebuild trust even after apologising?",
+        "promptZh": "（諾拉道歉後，為何仍可能需要重建信任？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her friend may still feel uneasy sharing private news.",
+            "zh": "朋友可能仍不放心分享私事。"
+          },
+          {
+            "id": "b",
+            "en": "The weeks of silence about personal matters suggest trust has not fully returned.",
+            "zh": "幾週不再談私事，顯示信任可能尚未完全恢復。"
+          },
+          {
+            "id": "c",
+            "en": "The hurt may run deeper than a brief apology can address.",
+            "zh": "傷害可能比簡短道歉所能處理的更深。"
+          },
+          {
+            "id": "d",
+            "en": "Her continued silence about private matters suggests she may still find it hard to trust Nora.",
+            "zh": "她持續不談私事，顯示她可能仍難以信任諾拉。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理回應為何簡短道歉未必足夠；金句審慎表達較深的傷害。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The hurt may run deeper because their trust appears to remain strained.",
+            "zh": "傷害可能比表面更深，因為彼此信任似乎仍有裂痕。"
+          },
+          {
+            "id": "b",
+            "en": "The apology proves their trust has completely returned.",
+            "zh": "道歉證明雙方的信任已完全恢復。"
+          },
+          {
+            "id": "c",
+            "en": "The other person is certain to distrust the teammate forever.",
+            "zh": "對方必然會永遠不信任隊友。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "後來不再分享紀錄，是信任尚有影響的線索；不可斷言永久不信任。",
+        "promptZh": "隊友為未經同意公開另一人的訓練紀錄道歉；對方說理解，之後卻不再把自己的紀錄交給隊友。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A friend accepts an apology but keeps avoiding the subject for months.",
+            "zh": "朋友接受道歉後，幾個月來仍避談那件事。"
+          },
+          {
+            "id": "b",
+            "en": "Two friends resolve a minor scheduling mix-up and immediately return to their usual plans without unease.",
+            "zh": "兩名朋友解決一次小小時間誤會後，毫無芥蒂地恢復原來安排。"
+          },
+          {
+            "id": "c",
+            "en": "A colleague says the matter is settled but stops sharing ideas with that coworker.",
+            "zh": "同事說事情已解決，卻不再與那人分享構思。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "小誤會已解決，且沒有後續不安或信任受損線索；另兩項顯示影響可能持續。",
+        "promptZh": "哪個情況最不支持說 hurt may run deeper？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The hurt may run deeper than it looks; give her time and show you will respect her privacy.",
+            "zh": "傷害可能比表面更深；給她時間，並以行動尊重私隱。"
+          },
+          {
+            "id": "b",
+            "en": "She said “fine”, so you can assume her trust is fully restored.",
+            "zh": "她說「沒事」，你便可假設信任已完全恢復。"
+          },
+          {
+            "id": "c",
+            "en": "Her silence proves she will never want to be friends again.",
+            "zh": "她沉默證明她永遠不想再做朋友。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "不再分享私事提示傷害可能持續，應以尊重和時間修補，而非作絕對斷言。",
+        "promptZh": "朋友說：「我已為洩露她的私事道歉，她說沒事，但現在甚麼都不肯跟我說。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "After the apology, the hurt may run deeper if the person still avoids sharing personal news.",
+        "zh": "道歉後若當事人仍避談私事，傷害可能比表面更深。",
+        "promptZh": "先聽示範，再指出甚麼後續行為顯示信任未必恢復。",
+        "targetSpan": {
+          "start": 19,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：樂隊領隊兩次沒有邀請一名成員參加排練，之後道歉。成員說接受，卻在往後幾週不再主動提出獨奏構思；領隊決定尊重對方節奏，逐步重新建立合作信任。用一至兩句英文描述傷害可能比初看更深及可行做法。",
+        "selfCheckZh": "指出兩次被排除在排練外、成員接受道歉後仍不願提出構思，以及領隊尊重其節奏並逐步重建信任；不要斷言成員永遠不會再參與。",
+        "examples": [
+          {
+            "en": "The hurt may run deeper than the accepted apology suggests: after being left out of two rehearsals, the musician still holds back solo ideas, so the leader should respect their pace and rebuild trust gradually.",
+            "zh": "成員兩次被排除在排練外；即使接受道歉，仍不願提出獨奏構思，傷害可能比表面更深，因此領隊應尊重其節奏，逐步重建信任。"
+          },
+          {
+            "en": "Although the musician accepted the apology for two missed rehearsal invitations, the hurt may run deeper because they no longer offer solo ideas; the band leader can give them time and invite them back without pressure.",
+            "zh": "樂隊成員接受了兩次未獲邀排練的道歉，但不再提出獨奏構思，傷害可能較深；領隊可給予時間，以不施壓的方式邀請成員重新參與。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two rehearsals",
+            "zh": "兩次排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 98
+            }
+          },
+          {
+            "en": "holds back solo ideas",
+            "zh": "不願提出獨奏構思",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 140
+            }
+          },
+          {
+            "en": "rebuild trust gradually",
+            "zh": "逐步重建信任",
+            "exampleIndex": 0,
+            "span": {
+              "start": 186,
+              "end": 209
+            }
+          },
+          {
+            "en": "accepted the apology",
+            "zh": "接受了道歉",
+            "exampleIndex": 1,
+            "span": {
+              "start": 22,
+              "end": 42
+            }
+          },
+          {
+            "en": "without pressure",
+            "zh": "不施壓",
+            "exampleIndex": 1,
+            "span": {
+              "start": 202,
+              "end": 218
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The hurt may run deeper when the same betrayal changes what a friend feels safe sharing.",
+          "zh": "若同一次背叛令朋友不敢再分享私事，傷害可能比表面更深。"
+        },
+        {
+          "en": "A quick apology matters, but the hurt may run deeper than words alone can repair.",
+          "zh": "簡短道歉有其價值，但傷害可能比言語所能修補的更深。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2521",
+      "number": 2521,
+      "inventoryId": "expr-2521",
+      "titleEn": "not foolproof",
+      "titleZh": "並非萬無一失",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bnot foolproof\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Useful but not guaranteed to work correctly in every case.",
+        "meaningZh": "方法或裝置有用，但不能保證每次都奏效。",
+        "grammar": "Pattern: X is/was not foolproof, often useful but not foolproof. Foolproof is an adjective complement; not negates the claim that a method works in every case.",
+        "register": "Neutral everyday and professional evaluation. A user, organiser or technician may say it to people relying on a method or device when explaining a realistic failure and backup.",
+        "boundaryZh": "not foolproof 指非百分百可靠；不要把偶發失敗寫成根本無用，也不要因有用便聲稱永不失靈。",
+        "misconceptionZh": "不要把 foolproof 誤作「只有笨人才用」；它談的是出錯的可能。",
+        "outcomeZh": "能指出方案的好處、剩餘風險，以及適當後備做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0410",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 38,
+          "book": 10,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 34, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The new lock is useful but not foolproof.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not foolproof"
+        }
+      ],
+      "listening": {
+        "en": "The theatre’s online ticket scanner usually moves queues quickly, but a damaged code sometimes will not scan. Staff keep a printed booking list because the scanner is helpful but not foolproof.",
+        "zh": "劇院的網上門票掃描器通常能加快排隊，但受損條碼有時掃不到。職員備有列印的預約名單，因為掃描器有用但並非萬無一失。",
+        "promptZh": "not foolproof 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The scanner normally helps but may fail with a damaged code.",
+            "zh": "掃描器通常有幫助，但遇上受損條碼可能失靈。"
+          },
+          {
+            "id": "b",
+            "en": "The scanner has never worked for any ticket.",
+            "zh": "掃描器對任何門票都從未奏效。"
+          },
+          {
+            "id": "c",
+            "en": "The printed list proves every online booking was wrong.",
+            "zh": "列印名單證明所有網上預約都有錯。"
+          },
+          {
+            "id": "d",
+            "en": "A faster queue guarantees that the scanner cannot fail.",
+            "zh": "隊伍較快便保證掃描器不會失靈。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "裝置通常加快入場，卻有明確失靈情況，故備有名單；不是全然無用或絕不出錯。"
+      },
+      "reply": {
+        "promptEn": "Why do staff keep a printed booking list if the scanner usually works?",
+        "promptZh": "（掃描器通常有效，職員為何仍備有列印名單？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Damaged codes may need a manual way to confirm bookings.",
+            "zh": "受損條碼可能需要人手核實預約。"
+          },
+          {
+            "id": "b",
+            "en": "The list is a backup for the occasional failed scan.",
+            "zh": "名單可作偶發掃描失敗時的後備。"
+          },
+          {
+            "id": "c",
+            "en": "The scanner is useful but not foolproof.",
+            "zh": "掃描器有用，但並非萬無一失。"
+          },
+          {
+            "id": "d",
+            "en": "Staff can still admit booked visitors when a code cannot be read.",
+            "zh": "條碼讀不到時，職員仍可讓已預約訪客入場。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明後備名單能處理偶發失敗；金句概括有用但非百分百可靠。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The online system is useful but not foolproof, so a paper list is a sensible backup.",
+            "zh": "網上系統方便卻並非萬無一失，紙本名單是合理後備。"
+          },
+          {
+            "id": "b",
+            "en": "The system is completely useless because it cannot work without a connection.",
+            "zh": "系統一旦斷網就不運作，所以完全無用。"
+          },
+          {
+            "id": "c",
+            "en": "The paper list shows that online bookings can never be trusted.",
+            "zh": "紙本名單表示網上預約永遠不可信。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "通常方便而斷網時受限，符合有用但非萬無一失；紙本後備不等於全面否定系統。",
+        "promptZh": "社區中心用網上報名系統，大多數時候很方便，但斷網時職員須改查紙本名單。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A backup copy is wise because a device may occasionally fail.",
+            "zh": "裝置偶爾可能失靈，所以備份明智。"
+          },
+          {
+            "id": "b",
+            "en": "The method is guaranteed to work perfectly every time without exception.",
+            "zh": "這方法保證每次都完美奏效，絕無例外。"
+          },
+          {
+            "id": "c",
+            "en": "The plan works in most cases, but rare conditions still need a fallback.",
+            "zh": "計劃多數情況有效，但罕見情況仍需後備。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "保證百分百成功正與 not foolproof 相反。",
+        "promptZh": "哪個說法最不符合 not foolproof？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It is helpful but not foolproof; let us keep a manual attendance option for those cases.",
+            "zh": "它有幫助但並非萬無一失；我們應保留人手點名供這類情況使用。"
+          },
+          {
+            "id": "b",
+            "en": "Because it saves time, students with dead phones can simply be marked absent.",
+            "zh": "它既然省時，手機沒電的學生便可直接記作缺席。"
+          },
+          {
+            "id": "c",
+            "en": "One missed scan means we should abandon every digital tool in school.",
+            "zh": "一次掃碼失敗表示學校應停用所有電子工具。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "承認效率，同時為可預見失敗設後備；其餘兩項忽略學生或把局部問題推得過遠。",
+        "promptZh": "同事說：「這個自動點名系統很省時；但手機沒電的學生偶爾無法掃碼。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The attendance app is convenient but not foolproof when a student’s phone has no power.",
+        "zh": "點名程式方便，但學生手機沒電時就並非萬無一失。",
+        "promptZh": "先聽示範，再指出哪種例外需要後備方法。",
+        "targetSpan": {
+          "start": 37,
+          "end": 50
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校考試室用電子鐘同步時間，大部分日子很準；停電時可能停止運作，因此主任準備一個電池時鐘。用一至兩句英文說明好處、風險和後備。",
+        "selfCheckZh": "指出電子鐘通常準確、停電時可能停下，以及電池鐘作後備；不要說電子鐘完全無用或絕不會失靈。",
+        "examples": [
+          {
+            "en": "The synchronised clock is accurate most days but not foolproof during a power cut, so the exam officer keeps a battery clock as backup.",
+            "zh": "同步電子鐘平日準確，但停電時並非萬無一失；考試主任因此備有電池鐘作後備。"
+          },
+          {
+            "en": "Because the electronic clock could stop if power fails, it is not foolproof despite usually keeping good time; a battery clock protects the exam schedule.",
+            "zh": "電子鐘通常準時，但停電時可能停下，因此並非萬無一失；電池鐘可保障考試時間安排。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "accurate most days",
+            "zh": "平日準確",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 44
+            }
+          },
+          {
+            "en": "a power cut",
+            "zh": "停電",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 81
+            }
+          },
+          {
+            "en": "a battery clock",
+            "zh": "電池鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 124
+            }
+          },
+          {
+            "en": "usually keeping good time",
+            "zh": "通常準時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 109
+            }
+          },
+          {
+            "en": "protects the exam schedule",
+            "zh": "保障考試時間安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 153
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A useful map app is not foolproof when a road closes without warning.",
+          "zh": "地圖程式有用，但道路突然封閉時也並非萬無一失。"
+        },
+        {
+          "en": "The reminder system is not foolproof, so a second person checks important deadlines.",
+          "zh": "提醒系統並非萬無一失，因此由第二人核對重要期限。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

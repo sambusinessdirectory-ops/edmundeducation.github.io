@@ -1,0 +1,106 @@
+{
+  "reviewId": "independent-ai-review-2511-2563-b",
+  "reviewedLessonIds": [
+    "advanced-native-2511",
+    "advanced-native-2516",
+    "advanced-native-2519",
+    "advanced-native-2521",
+    "advanced-native-2524",
+    "advanced-native-2527",
+    "advanced-native-2553",
+    "advanced-native-2563"
+  ],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json": "59187b1e782a459387b0846bdd4a6f92c9274685d297daf700652f9a4c2ad767",
+    "course-materials/advanced-native/drafts-books10-16/batch-2524-2563-a.json": "6c468b69eb4eb24e9aa77d711ea0c87cf28695c457a54f1f0b168307ab2035bf"
+  },
+  "referenceSha256": {
+    "course-materials/advanced-native/books10-16/source-inventory.jsonl": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/work/advanced-native-books10-16/sop-extracted.txt": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "scope": "Independent AI Golden SOP content review of eight unselected Author A drafts at the exact listed file hashes. No human, audio-listening, device, live, or publication sign-off.",
+  "structuralChecks": {
+    "sourceProvenance": "All eight exact source occurrence IDs, expressions and source sentences match source-inventory; target regex finds the intended form in each full source sentence.",
+    "lessonContract": "Fresh build and --check both pass: 8 lessons, 48 assessed questions, 32 audio requests, 0 structural review flags. Seven steps and six assessed questions are present per lesson.",
+    "targetAndReply": "Exactly one target-bearing golden reply appears among each lesson’s four options; pragmatic validity requires repair in 2519 and source grounding is weak in 2524.",
+    "writingGlossary": "All eight changed-context tasks have two complete bilingual model answers and five exact answer-derived non-target glossary spans; all spans were independently re-sliced from the actual model strings. The first 2527 English model has an ambiguous pronoun.",
+    "audioText": "Each lesson has four distinct requested texts (listening, speaking and two takeaways); every one contains a target regex match. This confirms the request list, not generated audio quality or approved voice.",
+    "editorialRead": "Read all six assessed question keys/options, four-valid reply sets, Chinese pairs, changed writing context/models, brief sense boundary and neighboring senses. The listed findings are specific repairs needed before selection."
+  },
+  "findings": [
+    {
+      "id": "R2511-2563-01",
+      "lessonIds": [
+        "advanced-native-2511",
+        "advanced-native-2516",
+        "advanced-native-2519",
+        "advanced-native-2521",
+        "advanced-native-2524",
+        "advanced-native-2527",
+        "advanced-native-2553",
+        "advanced-native-2563"
+      ],
+      "severity": "major",
+      "surface": "each lesson brief.grammar and brief.register",
+      "evidence": "Across all eight records, brief.grammar is only a quoted example sentence (for example 2519: “The hurt may run deeper than a quick apology can address.”). The register fields describe metaphor or usage boundaries but do not consistently specify neutral/formal/informal setting or likely speaker/listener.",
+      "problem": "Golden SOP P81 requires the grammatical pattern, natural forms, register and likely speaker/listener to be recorded before authoring. The detector regex encodes some forms, but it does not replace a reviewer-readable pattern and use-context brief.",
+      "repair": "For each lesson, state subject/object frame, inflections and permissible pronouns/articles in brief.grammar; record register and natural speaker/listener situation in brief.register or an explicit schema field. Keep target regex and all assessed copy consistent; this is a brief-completeness repair, not a request to rewrite all exercises."
+    },
+    {
+      "id": "R2519-01",
+      "lessonId": "advanced-native-2519",
+      "severity": "major",
+      "surface": "reply.options[id=d].en/zh",
+      "evidence": "Prompt asks “Why might Nora need to rebuild trust even after apologising?” Option d says “Respecting her friend’s privacy over time may help repair the relationship.”",
+      "problem": "Option d gives a repair method, not a reason Nora still needs to rebuild trust. It therefore fails the SOP four-pragmatically-valid-replies requirement even though its advice is sensible.",
+      "repair": "Replace d with a direct reason grounded in the friend’s continued reluctance to share private news; preserve one target-bearing golden option and update the Chinese as an exact pair."
+    },
+    {
+      "id": "R2519-02",
+      "lessonId": "advanced-native-2519",
+      "severity": "minor",
+      "surface": "listening.en / listening.zh / associated audio text",
+      "evidence": "The listening model ends “The hurt may run deeper than the quick apology reached.” The source guide says “than a quick apology can address.”",
+      "problem": "“An apology reached” is strained English here and makes the first audio model less natural than the source-supported formulation. The Chinese already conveys what an apology can address.",
+      "repair": "Use natural comparative wording such as “The hurt may run deeper than a quick apology can address,” then reconfirm Chinese and regenerate the changed listening audio request."
+    },
+    {
+      "id": "R2527-01",
+      "lessonId": "advanced-native-2527",
+      "severity": "major",
+      "surface": "writing.examples[0].en/zh",
+      "evidence": "Model begins “The software compared rent and capacity, but it could not think on their behalf about older guests’ access …”; no people have been named as the antecedent of “their” in the English answer. Chinese explicitly says “替籌委會”, supplying an actor absent from English.",
+      "problem": "The answer is intended to stand alone in a changed-context writing model. The unclear pronoun weakens its naturalness, and the translation adds a specific referent that the English does not provide.",
+      "repair": "Name the committee/organisers in the English model before “their behalf” (or change to a clearly anchored “our behalf”), align the Chinese, and recompute any affected exact glossary spans and audio/target checks."
+    },
+    {
+      "id": "R2516-01",
+      "lessonId": "advanced-native-2516",
+      "severity": "minor",
+      "surface": "speaking.zh",
+      "evidence": "English model: “The message can sting when it seems to erase someone’s effort.” Chinese: “簡短評論若似乎抹去別人的努力，也可能令人刺痛。”",
+      "problem": "The translation adds “簡短評論” (“brief comment”), which is not specified by “the message”, and changes the referent from a message to a comment.",
+      "repair": "Use “那句話” or “那則訊息” and preserve the conditional/uncertainty; the English model and target span can remain unchanged."
+    },
+    {
+      "id": "R2524-01",
+      "lessonId": "advanced-native-2524",
+      "severity": "minor",
+      "surface": "reply.options[id=d].en/zh",
+      "evidence": "Source says no cancellation alert reached waiting passengers. Option d states as fact “They had to find the changed sailing information elsewhere.”",
+      "problem": "The passengers’ search elsewhere is plausible but not established by the listening scene. A four-valid reply should be grounded in given evidence, particularly when it answers why confidence fell.",
+      "repair": "Replace d with a source-grounded cause, for example their inability to rely on promised schedule alerts; pair the Chinese with the revised English and keep golden c as the only target-bearing option."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2511": "no additional lesson-specific editorial issue found; global brief finding still applies",
+    "advanced-native-2516": "repair minor speaking Chinese referent; global brief finding applies",
+    "advanced-native-2519": "repair reply validity and listening English; global brief finding applies",
+    "advanced-native-2521": "no additional lesson-specific editorial issue found; global brief finding still applies",
+    "advanced-native-2524": "repair or adjudicate unsupported reply detail; global brief finding applies",
+    "advanced-native-2527": "repair writing model antecedent and bilingual fidelity; global brief finding applies",
+    "advanced-native-2553": "no additional lesson-specific editorial issue found; global brief finding still applies",
+    "advanced-native-2563": "no additional lesson-specific editorial issue found; global brief finding still applies"
+  },
+  "releaseConclusion": "Do not select or publish these exact draft hashes as SOP-complete. Repair the two major lesson-specific defects (2519 reply validity; 2527 model antecedent), the global brief metadata gap, and the listed minor copy issues. Then rebuild, recheck translations/glossary/audio worklist, and seek fresh independent review plus human/media/device approvals."
+}

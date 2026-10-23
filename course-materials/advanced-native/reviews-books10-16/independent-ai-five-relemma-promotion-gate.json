@@ -1,0 +1,235 @@
+{
+  "reviewType": "independent AI re-lemma and lesson-feasibility gate",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "Five missed-teachable hold candidates 2341,2343,2418,2423,2435 and dependent duplicates 2377,2379",
+  "method": "Applied SOP P79–P85 to exact source examples and existing canonical briefs; designed source-matching but constrained target patterns, tested each against all Books 10–16 source examples and positive/negative controls, compared nearest prior owners, then outlined seven distinct learner actions. Recommendations do not edit decisions.",
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+    "priorTargetPatternsSha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5",
+    "goldenSopExtractSha256": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863",
+    "priorTenCandidateReportSha256": "a19b9a0a34532eb9c0250cb547edb3dee2e0e36c0700affd6c7f080f08ef1824"
+  },
+  "counts": {
+    "candidateSources": 5,
+    "provisionalNewLessonRecommendations": 4,
+    "ownerScopeHolds": 1,
+    "dependentDuplicateSources": 2
+  },
+  "candidates": [
+    {
+      "sourceOrdinal": 2341,
+      "sourceId": "book10-16-0230",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "sourceTargetMatch": "inhabits it",
+      "sourceCorpusMatches": [
+        "book10-16-0230",
+        "book10-16-0266"
+      ],
+      "positiveAndNegativeRegexChecksPass": true,
+      "ownerRecommendation": "propose-new-lesson-after-human-brief-review",
+      "normalizedLemma": "inhabit a role / inhabit a part",
+      "category": "figurative use",
+      "regex": "(?:(?<=\\bthe part; he )inhabits it\\b|\\binhabit(?:s|ed|ing)?\\s+(?:(?:a|the|his|her|their)\\s+)?(?:role|part|character)\\b)",
+      "negative": [
+        "The family inhabits it.",
+        "The architect inhabits a house."
+      ],
+      "positive": [
+        "He inhabits the role fully.",
+        "She inhabited her character."
+      ],
+      "learnerDecision": "Judge whether an actor fully embodies a role, beyond accurately reciting its lines.",
+      "canonicalComparison": "No existing owner teaches this acting sense. Canonical index keyword scan found none; original theatre criticism attests inhabit the part. The source pronoun is licensed only by the immediately preceding the part, so its detector branch is exact-context lookbehind rather than global inhabit it.",
+      "sevenStepFeasibility": [
+        "Infer full embodiment from listening to acting feedback.",
+        "Give four valid replies to a director question; only golden uses target.",
+        "Select a concrete actor-embodiment scene.",
+        "Distinguish embodiment from memorising lines.",
+        "Continue a director–actor exchange naturally.",
+        "Hear and say a target-bearing model about a role.",
+        "Write in a changed school-play context with answer-derived glossary."
+      ],
+      "evidenceUrl": "https://www.theguardian.com/music/2024/mar/15/puccini-madama-butterfly-review-royal-opera-house-london-grigorian-inhabits-the-part-to-a-degree-one-does-not-often-experience"
+    },
+    {
+      "sourceOrdinal": 2343,
+      "sourceId": "book10-16-0232",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "sourceTargetMatch": "the performance usually does the talking",
+      "sourceCorpusMatches": [
+        "book10-16-0232",
+        "book10-16-0268"
+      ],
+      "positiveAndNegativeRegexChecksPass": true,
+      "ownerRecommendation": "propose-new-lesson-after-human-brief-review",
+      "normalizedLemma": "[work/performance/results] do the talking",
+      "category": "idiom or set phrase",
+      "regex": "\\b(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+(?:usually\\s+)?(?:does|do|did)\\s+the talking\\b|\\b(?:let|lets|letting)\\s+(?:the|our|her|his|their)\\s+(?:performance|work|results|evidence|numbers|music)\\s+do\\s+the talking\\b",
+      "negative": [
+        "He does the talking for the team.",
+        "The microphone does the talking."
+      ],
+      "positive": [
+        "The work does the talking.",
+        "Let the results do the talking."
+      ],
+      "learnerDecision": "Let work or results provide convincing evidence without relying on self-promotion or a verbal claim.",
+      "canonicalComparison": "No prior owner teaches the do-the-talking personification. Inanimate evidence-subject whitelist prevents ordinary person-does-the-talking literal readings; source subject performance is included.",
+      "sevenStepFeasibility": [
+        "Infer evidence-through-work from a performance model.",
+        "Give four valid responses about brief interviews; golden uses target.",
+        "Choose a work/result scene rather than a speech scene.",
+        "Distinguish outcomes proving merit from merely staying silent.",
+        "Continue a conversation about modest self-presentation.",
+        "Hear and say a model about results doing the talking.",
+        "Write in a changed charity-results context with exact answer-derived glossary."
+      ],
+      "evidenceUrl": "https://www.aaa.si.edu/download_pdf_transcript/ajax?record_id=edanmdm-AAADCD_oh_268663"
+    },
+    {
+      "sourceOrdinal": 2418,
+      "sourceId": "book10-16-0307",
+      "sourceExample": "The investigator slowly untangles the lies.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "sourceTargetMatch": "untangles the lies",
+      "sourceCorpusMatches": [
+        "book10-16-0307"
+      ],
+      "positiveAndNegativeRegexChecksPass": true,
+      "ownerRecommendation": "propose-new-lesson-after-human-brief-review",
+      "normalizedLemma": "untangle the lies",
+      "category": "figurative use",
+      "regex": "\\buntangl(?:e|es|ed|ing)\\s+(?:the|their)\\s+lies\\b",
+      "negative": [
+        "She untangles the rope.",
+        "The lies unravelled on their own."
+      ],
+      "positive": [
+        "The investigator untangles the lies.",
+        "She untangled their lies."
+      ],
+      "learnerDecision": "Describe actively clarifying how several deceptive claims fit together, rather than simply detecting one false statement.",
+      "canonicalComparison": "No existing untangle owner. Canonical 1425 start to unravel means arrangements lose coherence, the opposite process; Cambridge licenses figurative transitive untangle for a confusing matter. Do not label this a fixed idiom.",
+      "sevenStepFeasibility": [
+        "Infer clarification of intertwined deception.",
+        "Give four valid replies to an investigative update; golden uses target.",
+        "Choose an evidence-sorting scene.",
+        "Distinguish untangling several claims from spotting one lie.",
+        "Continue an investigator–colleague exchange.",
+        "Hear and say a target-bearing model.",
+        "Write in a changed financial-audit context with exact answer-derived glossary."
+      ],
+      "evidenceUrl": "https://dictionary.cambridge.org/dictionary/english/untangle"
+    },
+    {
+      "sourceOrdinal": 2423,
+      "sourceId": "book10-16-0312",
+      "sourceExample": "The new system will take the heavy lifting out of routine checks.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "sourceTargetMatch": "take the heavy lifting out of",
+      "sourceCorpusMatches": [
+        "book10-16-0312"
+      ],
+      "positiveAndNegativeRegexChecksPass": true,
+      "ownerRecommendation": "keep-hold-pending-owner-scope",
+      "normalizedLemma": "take the heavy lifting out of [a task]",
+      "category": "figurative use",
+      "regex": "\\b(?:take|takes|taking|took|taken)\\s+the heavy lifting out of\\b(?=\\s+\\w)",
+      "negative": [
+        "Take the heavy lifting off their shoulders.",
+        "The team did the heavy lifting."
+      ],
+      "positive": [
+        "The system takes the heavy lifting out of daily checks.",
+        "Automation took the heavy lifting out of the review."
+      ],
+      "learnerDecision": "Choose out of a process when the difficult work is removed from that process, versus off people’s shoulders when people are relieved of it.",
+      "canonicalComparison": "Meaning overlaps canonical 1376 (take heavy lifting off people’s shoulders) and 252 (do most of the heavy lifting). The new out of [process] argument structure is attested and current owner detectors do not match; decide whether to extend 1376 as a construction family or commission a distinct grammar-focused owner before promotion.",
+      "sevenStepFeasibility": [
+        "Infer workload removal from a process.",
+        "Give four valid replies about automation; golden uses target.",
+        "Choose a process-simplification scene.",
+        "Distinguish out of a task from off someone’s shoulders.",
+        "Continue a team-planning exchange.",
+        "Hear and say a complete model.",
+        "Write in a changed clinic-intake context with exact answer-derived glossary."
+      ],
+      "evidenceUrl": "https://info.bmj.com/view/359109102/24/"
+    },
+    {
+      "sourceOrdinal": 2435,
+      "sourceId": "book10-16-0324",
+      "sourceExample": "Sorting receipts became a never-ending chore.",
+      "currentDecision": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "sourceTargetMatch": "never-ending chore",
+      "sourceCorpusMatches": [
+        "book10-16-0324"
+      ],
+      "positiveAndNegativeRegexChecksPass": true,
+      "ownerRecommendation": "propose-new-lesson-after-human-brief-review-with-distinctiveness-gate",
+      "normalizedLemma": "a never-ending chore",
+      "category": "natural English",
+      "regex": "\\bnever-ending chores?\\b",
+      "negative": [
+        "It is a never-ending race.",
+        "She sees it as a chore."
+      ],
+      "positive": [
+        "Sorting receipts became a never-ending chore.",
+        "These checks feel like never-ending chores."
+      ],
+      "learnerDecision": "Use the collocation for an unwelcome task that seems not to end, not merely a long finite job or any disliked duty.",
+      "canonicalComparison": "Canonical 1123 a never-ending race teaches continual competitive pressure; 1730 see it as a chore teaches viewing an activity as an unwelcome duty. Neither combines apparently endless duration with chore. SOP P79 admits reusable Natural English collocations, but this transparent unit needs a strong seven-step brief to avoid thin exercises.",
+      "sevenStepFeasibility": [
+        "Infer seemingly endless tedious task from a model.",
+        "Give four valid replies about an ongoing duty; golden uses target.",
+        "Choose a recurring, open-ended chore scene.",
+        "Distinguish a long finite task or one disliked duty.",
+        "Continue a colleague complaint without exaggerating a finished task.",
+        "Hear and say a complete model.",
+        "Write in a changed household-admin context with exact answer-derived glossary."
+      ],
+      "evidenceUrl": "https://dictionary.cambridge.org/dictionary/english/never-ending"
+    }
+  ],
+  "dependentDuplicates": [
+    {
+      "sourceOrdinal": 2377,
+      "sourceId": "book10-16-0266",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "proposedOwnerOrdinalIfApproved": 2341,
+      "exactSameExampleAsOwner": true,
+      "ownerPatternMatch": "inhabits it",
+      "recommendation": "alias-new only if parent owner is approved as proposed new; otherwise remain held alongside it"
+    },
+    {
+      "sourceOrdinal": 2379,
+      "sourceId": "book10-16-0268",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "proposedOwnerOrdinalIfApproved": 2343,
+      "exactSameExampleAsOwner": true,
+      "ownerPatternMatch": "the performance usually does the talking",
+      "recommendation": "alias-new only if parent owner is approved as proposed new; otherwise remain held alongside it"
+    }
+  ],
+  "limits": "Provisional AI curation advice only. Patterns are candidate metadata, not code changes; learner payloads, translation fidelity, audio, full seven-step QA, human approval and release remain outstanding."
+}

@@ -1,0 +1,51 @@
+{
+  "reviewId": "independent-ai-review-2511-2563-b-followup",
+  "priorReview": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2511-2563-b.json",
+  "priorReviewSha256": "beda096b9acde00eaae14772a436356beadbf42e37ae2b182e1a6a5fe099ad5b",
+  "revisedDraftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json": "838bcc492650d9c24a69a5bbcb9b1401743c39abb39f4bce952b64169b9b33f7",
+    "course-materials/advanced-native/drafts-books10-16/batch-2524-2563-a.json": "f18bf9daa5265525eb3855a725d053ff8c8095c08c65fcfc001edf50b4e5c3bb"
+  },
+  "scope": "Exact-hash AI follow-up on six findings from the independent review. This is not human language approval, audio-listening, device testing, live verification or release clearance.",
+  "findingFollowup": [
+    {
+      "findingId": "R2511-2563-01",
+      "status": "cleared",
+      "evidence": "All eight brief.grammar fields now specify a construction/pattern, variable forms and argument roles. All eight brief.register fields now state neutral/informal register and a plausible speaker/listener setting. These are reviewer-readable rather than example-only."
+    },
+    {
+      "findingId": "R2519-01",
+      "status": "cleared",
+      "evidence": "reply.options[id=d] now directly answers why trust needs repair: her continued silence about private matters suggests she may still find it hard to trust Nora. Chinese preserves the same uncertainty."
+    },
+    {
+      "findingId": "R2519-02",
+      "status": "cleared",
+      "evidence": "listening.en now ends “The hurt may run deeper than a quick apology can address.” The comparative is natural and consistent with the Chinese/source meaning; changed text enters the fresh audio worklist."
+    },
+    {
+      "findingId": "R2527-01",
+      "status": "cleared",
+      "evidence": "writing.examples[0].en now names the community centre’s committee before “their behalf”; Chinese names the same committee. The revised standalone answer preserves the target sense and all glossary spans re-slice exactly."
+    },
+    {
+      "findingId": "R2516-01",
+      "status": "cleared",
+      "evidence": "speaking.zh now begins “那句話若似乎…”, tracking “The message…” without the unsupported “brief comment” detail."
+    },
+    {
+      "findingId": "R2524-01",
+      "status": "cleared",
+      "evidence": "reply.options[id=d] now says passengers could no longer rely on promised alerts about changed sailings, which is directly grounded in the scene and answers why confidence fell; Chinese is paired."
+    }
+  ],
+  "freshChecks": {
+    "revision": "All eight lessons have contentRevision 2 at the exact revised hashes.",
+    "build": "Fresh generated outputs and subsequent --check pass: 8 lessons, 48 questions, 32 audio requests, 0 structural flags.",
+    "glossary": "Every answer-derived glossary span in all eight lessons equals its indexed English example substring after revision.",
+    "replyTarget": "All eight reply sets retain exactly one target-regex-bearing golden option.",
+    "audio": "Four distinct text requests per lesson remain in generated audio worklist; changed listening content still requires synthesis/listening review."
+  },
+  "remainingIndependentAIFindings": [],
+  "conclusion": "All six previously reported findings are cleared at these exact draft-file hashes. This does not certify pending English/Chinese human review, media voice and playback, device QA, or publication."
+}

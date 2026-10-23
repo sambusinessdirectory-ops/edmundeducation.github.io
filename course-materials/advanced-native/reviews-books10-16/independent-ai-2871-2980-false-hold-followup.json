@@ -1,0 +1,43 @@
+{
+  "reviewType": "independent AI exact-hash focused false-hold recheck",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "2871→canonical1783 and 2980→canonical398",
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+    "targetPatternsSha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5"
+  },
+  "method": "Checked current decision actions, source examples, canonical brief meanings, and full-sentence owner regex matches.",
+  "checks": [
+    {
+      "sourceOrdinal": 2871,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "7decbc6b334f613812f6fd5d1842505d9f62a6fd8d0ebca1126aa67c104c1db4",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1783",
+      "sourceExample": "Interviews gave us the fuller picture.",
+      "canonicalMeaningEn": "A more complete understanding gained by adding relevant information or perspectives.",
+      "canonicalTargetPattern": "\\b(?:the|a) fuller picture\\b",
+      "fullSourceRegexMatch": "the fuller picture",
+      "senseConclusion": "The added interviews yield a more complete understanding, exactly the perspective-adding meaning of owner 1783.",
+      "result": "clear; existing-owner alias justified"
+    },
+    {
+      "sourceOrdinal": 2980,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "f8ff92903cad6d776ec5e3c3d5d690319b552afa7f0a280ebb3bf32c5ea75be7",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-398",
+      "sourceExample": "A thoughtful novel may leave a deeper footprint than a short film.",
+      "canonicalMeaningEn": "Make a stronger lasting impression or influence, using a deeper-mark image.",
+      "canonicalTargetPattern": "\\b(?:leave|leaves|leaving|left) a deeper footprint\\b",
+      "fullSourceRegexMatch": "leave a deeper footprint",
+      "senseConclusion": "The novel leaves a more enduring or stronger impression than the film, exactly the comparative impact meaning of owner 398.",
+      "result": "clear; existing-owner alias justified"
+    }
+  ],
+  "findings": [],
+  "limits": "AI peer review only; no human or release approval."
+}

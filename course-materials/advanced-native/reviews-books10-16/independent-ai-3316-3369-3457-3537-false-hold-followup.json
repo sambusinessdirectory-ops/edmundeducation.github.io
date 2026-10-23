@@ -1,0 +1,69 @@
+{
+  "reviewType": "independent AI exact-hash focused false-hold recheck",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "3316→1114, 3369→999, 3457→1263, 3537→242",
+  "inputHashes": {
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+    "targetPatternsSha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5"
+  },
+  "method": "Checked exact source examples, current decision actions, owner target patterns against full source sentence, and canonical teaching meanings.",
+  "checks": [
+    {
+      "sourceOrdinal": 3316,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "734a9a2f01c7bea036695acc68917c3ab78994ae891d85fcd15fee80ab67a05e",
+      "sourceExample": "Independence is the right direction for many adults.",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1114",
+      "canonicalMeaningEn": "A path or general approach judged appropriate for the stated aims or needs.",
+      "targetPattern": "\\bthe right direction\\b",
+      "fullSourceRegexMatch": "the right direction",
+      "senseEvidence": "Independence as an appropriate life course is canonical 1114’s direction-as-appropriate-approach metaphor.",
+      "result": "clear; existing-owner alias justified"
+    },
+    {
+      "sourceOrdinal": 3369,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3312-3371.jsonl",
+      "decisionFileSha256": "734a9a2f01c7bea036695acc68917c3ab78994ae891d85fcd15fee80ab67a05e",
+      "sourceExample": "A school can guide you, but it cannot walk the path for you.",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-999",
+      "canonicalMeaningEn": "Do the personal effort or experience that another person must undertake for themselves.",
+      "targetPattern": "\\bwalk(?:s|ed|ing)? the path for (?:me|you|him|her|us|them)\\b",
+      "fullSourceRegexMatch": "walk the path for you",
+      "senseEvidence": "Guidance cannot substitute for the learner’s own effort or experience, precisely canonical 999’s path metaphor.",
+      "result": "clear; existing-owner alias justified"
+    },
+    {
+      "sourceOrdinal": 3457,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3432-3491.jsonl",
+      "decisionFileSha256": "73f04764fb65e83ac618d4b4ae4f77eb628e5178f565397b8216d3466512c4ef",
+      "sourceExample": "With extra guests, the bill can climb quickly.",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-1263",
+      "canonicalMeaningEn": "The amount charged or owed can rise as more costs are added.",
+      "targetPattern": "\\bthe bill (?:can |could |may |might |will |would |has |had )?(?:climb(?:s|ed|ing)?)\\b",
+      "fullSourceRegexMatch": "the bill can climb",
+      "senseEvidence": "More guests can make the amount payable rise, the exact bill-as-climbing cost image owned by 1263.",
+      "result": "clear; existing-owner alias justified"
+    },
+    {
+      "sourceOrdinal": 3537,
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3492-3551.jsonl",
+      "decisionFileSha256": "555bf43af5c2582e517f0dab3923bdd2dbfe1c4b8935ca71da4b4798c7d1c779",
+      "sourceExample": "A habitat can collapse when it is pushed too far.",
+      "currentAction": "proposed-alias-existing",
+      "canonicalId": "advanced-native-242",
+      "canonicalMeaningEn": "Put under more strain or demand than can reasonably be sustained.",
+      "targetPattern": "\\bpush(?:es|ed|ing)? too far\\b|\\bpushed too far\\b",
+      "fullSourceRegexMatch": "pushed too far",
+      "senseEvidence": "Habitat collapse from unsustainable strain is within 242’s pushed-beyond-sustainable-limit sense; the subject need not be a person.",
+      "result": "clear; existing-owner alias justified"
+    }
+  ],
+  "findings": [],
+  "limits": "AI peer review only; no human or release approval."
+}

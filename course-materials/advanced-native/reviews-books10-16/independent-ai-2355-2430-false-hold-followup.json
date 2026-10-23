@@ -1,0 +1,63 @@
+{
+  "reviewType": "independent AI focused editorial-decision recheck",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "Source ordinals 2355 and 2430 after false-hold correction",
+  "method": "Read exact source inventory sentences and current editorial decisions; test owner target detectors against the full source sentences, then compare the matched constructions and meanings with canonical/owner briefs.",
+  "inputs": {
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "canonicalIndex": {
+      "path": "course-materials/advanced-native/provenance/curated-module-index.json",
+      "sha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+    },
+    "decisionFiles": [
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+        "sha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+        "sha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259"
+      }
+    ],
+    "ownerDraft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2113.json",
+      "sha256": "de47f807062e6d458d8a28434c12617c0cb5ce20bce4472ae9e21f2cd00afd39"
+    },
+    "priorTargetPatterns": {
+      "path": "natural-english/advanced-targets.generated.mjs",
+      "sha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5"
+    }
+  },
+  "checks": [
+    {
+      "sourceOrdinal": 2355,
+      "sourceExample": "The same film lands differently when people bring different memories to it.",
+      "decision": "proposed-alias-existing",
+      "owner": "advanced-native-135",
+      "ownerMeaningEn": "Be received, understood or have an intended communicative effect; much better adds a stronger positive comparison with another version or occasion.",
+      "targetPattern": "\\bland(?:s|ed|ing)?(?: much better)?\\b",
+      "fullSourceRegexMatch": "lands",
+      "senseFinding": "The film lands differently describes varying audience reception; canonical 135 teaches communicative reception/impact. The different modifier changes degree or manner, not the owned lesson outcome.",
+      "result": "clear; existing-owner alias is justified"
+    },
+    {
+      "sourceOrdinal": 2430,
+      "sourceExample": "She enjoys the fast-paced atmosphere of the newsroom.",
+      "decision": "proposed-alias-new",
+      "owner": "advanced-native-2113",
+      "ownerSourceExample": "She enjoys the fast-paced atmosphere of the newsroom.",
+      "ownerMeaningEn": "Moving or changing quickly, with little time between activities.",
+      "targetPattern": "\\bfast-paced\\b",
+      "fullSourceRegexMatch": "fast-paced",
+      "senseFinding": "Exact same newsroom sentence and fast-paced adjective sense occur under proposed owner 2113; source 2430 should route to that one provisional lesson.",
+      "result": "clear; alias-new is justified"
+    }
+  ],
+  "findings": [],
+  "limits": "AI editorial review only. No human approval, live lesson verification, or release authorization."
+}

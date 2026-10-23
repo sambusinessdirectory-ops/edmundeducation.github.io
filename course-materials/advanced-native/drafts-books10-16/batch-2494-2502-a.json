@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2494-2502-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2494",
+      "number": 2494,
+      "inventoryId": "expr-2494",
+      "titleEn": "mental filing system",
+      "titleZh": "腦中的資料分類系統",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bmental filing system\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "An organised way of storing and retrieving information in the mind.",
+        "meaningZh": "在腦中有條理地儲存和提取資訊的方法。",
+        "grammar": "A clear set of notes can act as a mental filing system.",
+        "register": "Metaphor for an organised recall method; not a literal cabinet or simply a large amount of knowledge.",
+        "boundaryZh": "重點是有條理地分類並能再找回資訊；與從記憶推得新理解不同。",
+        "misconceptionZh": "別把任何零散筆記都稱為 filing system；必須有清楚的分類或檢索方法。",
+        "outcomeZh": "能指出如何分類資訊，以及日後如何迅速找回。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0383",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 35,
+          "book": 10,
+          "question": 31,
+          "sample": "S1",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 31, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A clear set of notes can act as a mental filing system.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mental filing system"
+        }
+      ],
+      "listening": {
+        "en": "During the museum tour, Leo grouped facts about each room by period and theme. At revision time he could retrieve them easily; the groupings served as a mental filing system.",
+        "zh": "參觀博物館時，里奧按年代與主題整理每個展廳的資料。溫習時他能輕易想起；那些分類成了他腦中的資料分類系統。",
+        "promptZh": "mental filing system 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "His way of grouping facts so he could recall them later.",
+            "zh": "他把資料分組、方便日後回想的方法。"
+          },
+          {
+            "id": "b",
+            "en": "The museum’s catalogue, which he did not use to revise.",
+            "zh": "博物館的目錄，但他沒有用它溫習。"
+          },
+          {
+            "id": "c",
+            "en": "The number of facts he heard, whether organised or not.",
+            "zh": "他聽到的資料數量，不論有否整理。"
+          },
+          {
+            "id": "d",
+            "en": "His judgement about which historical period mattered most.",
+            "zh": "他對哪個歷史年代最重要的判斷。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他按年代和主題把資料歸類，方便提取；重點是記憶的組織方法，而非資料數量或對史實作出評價。"
+      },
+      "reply": {
+        "promptEn": "How does Maya remember the different plants she saw on field trips?",
+        "promptZh": "（瑪雅怎樣記住考察時見過的不同植物？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She sorts them by habitat and keeps a clue for each group.",
+            "zh": "她按棲息地分類，並為每組留下提示。"
+          },
+          {
+            "id": "b",
+            "en": "She uses a few categories to bring the names back to mind.",
+            "zh": "她用幾個類別幫助自己想起名稱。"
+          },
+          {
+            "id": "c",
+            "en": "She has built a mental filing system based on habitat and leaf shape.",
+            "zh": "她按棲息地和葉形建立了腦中的資料分類系統。"
+          },
+          {
+            "id": "d",
+            "en": "She links each name to a category she can check later.",
+            "zh": "她把每個名稱連到日後可回想的類別。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回答她如何分類及提取植物資料；金句用 mental filing system 概括組織方法。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Her categories form a mental filing system for recalling the events.",
+            "zh": "她的分類形成腦中的資料分類系統，方便回想活動。"
+          },
+          {
+            "id": "b",
+            "en": "She has memorised every sentence but has no way to locate a relevant event.",
+            "zh": "她記住所有句子，卻沒有方法找出相關活動。"
+          },
+          {
+            "id": "c",
+            "en": "She uses the dates to decide which exhibition was the most valuable.",
+            "zh": "她用日期判斷哪個展覽最有價值。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按主題及年份分類，使她能迅速提取資訊；題目未要求評價展覽價值。",
+        "promptZh": "圖書館員先按主題、再按年份記住一批展覽資料，需要時便能迅速說出相關活動。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A gardener groups planting advice by season and retrieves the right tip later.",
+            "zh": "園丁按季節分類種植建議，日後能找回合適提示。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor recalls many unrelated details but cannot link or retrieve the one requested.",
+            "zh": "訪客記得很多互不相關的細節，卻無法聯繫或找回所需資料。"
+          },
+          {
+            "id": "c",
+            "en": "A teacher associates each pupil’s name with a seating group and recalls it on request.",
+            "zh": "老師把每位學生的名字與座位組別聯繫，問起時能想起。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "資料多但欠缺可用分類、也無法提取，不足以稱為有條理的記憶系統。",
+        "promptZh": "哪個情況最不適合比喻為 mental filing system？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Try a mental filing system: group the events by month and type, then use those groups as clues.",
+            "zh": "試試在腦中分類：按月份和類型整理活動，再用類別作提示。"
+          },
+          {
+            "id": "b",
+            "en": "Keep memorising the same list without adding any categories or prompts.",
+            "zh": "繼續背同一份清單，不加分類或提示。"
+          },
+          {
+            "id": "c",
+            "en": "Judge which event was best before you work out when it happened.",
+            "zh": "先判斷哪項活動最好，再想它何時舉行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友需要能找回活動的分類線索；另外兩句沒有解決檢索問題。",
+        "promptZh": "朋友說：「我記得不少社區活動，但每次有人問去年辦了甚麼，我都想不起哪項在哪個月。」你怎樣建議較貼切？"
+      },
+      "speaking": {
+        "en": "Grouping memories by place gave her a mental filing system for recalling the trip.",
+        "zh": "按地點整理記憶，讓她有一套腦中的分類方法去回想旅程。",
+        "promptZh": "先聽示範，再指出資料如何歸類。",
+        "targetSpan": {
+          "start": 38,
+          "end": 58
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生要記住社區口述歷史訪談，原本把人物、地點和年份混在一起，回答時難以找回資料。她改為按地區及年代分類，然後用這些類別作回想線索。用一至兩句英文描述方法。",
+        "selfCheckZh": "指出原本資料混亂、改按地區及年代分類，以及分類如何幫她回想；不要只說她記住更多資料。",
+        "examples": [
+          {
+            "en": "Her mixed interview notes were hard to recall until she grouped them by district and decade, creating a mental filing system she could use to find each story.",
+            "zh": "原本混雜的訪談筆記難以回想；她按地區和年代分類，建立一套腦中的資料分類系統，方便找回每個故事。"
+          },
+          {
+            "en": "By sorting the mixed interview notes into place and time categories, she built a mental filing system that helped her retrieve details when asked.",
+            "zh": "她把原本混雜的訪談筆記按地點與時間分類，建立腦中的資料分類系統，問起時便能找回細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "hard to recall",
+            "zh": "難以回想",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 45
+            }
+          },
+          {
+            "en": "district and decade",
+            "zh": "地區和年代",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 91
+            }
+          },
+          {
+            "en": "each story",
+            "zh": "每個故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 157
+            }
+          },
+          {
+            "en": "mixed interview notes",
+            "zh": "混雜的訪談筆記",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 36
+            }
+          },
+          {
+            "en": "retrieve details",
+            "zh": "找回細節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 118,
+              "end": 134
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A mental filing system helps me find the right example when I speak.",
+          "zh": "腦中的資料分類系統能幫我說話時找出合適例子。"
+        },
+        {
+          "en": "Categories can create a mental filing system, but they work only if I can use them to recall details.",
+          "zh": "類別可以構成腦中的資料分類系統，但必須能幫我回想細節才有用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2500",
+      "number": 2500,
+      "inventoryId": "expr-2500",
+      "titleEn": "turn memory into insight",
+      "titleZh": "把記憶化為洞見",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:turn|turns|turned|turning) memory into insight\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Use what is remembered to understand a pattern or lesson, not merely repeat past facts.",
+        "meaningZh": "運用記憶中的經驗，理解其中規律或教訓，而不只重述往事。",
+        "grammar": "Good questions can turn memory into insight.",
+        "register": "Analytical transformation pattern; state the recalled evidence and the new understanding drawn from it.",
+        "boundaryZh": "與 mental filing system 的分類提取不同；本課需要從記起的事情得出理解或可行結論。",
+        "misconceptionZh": "不要把單純懷舊或羅列日期說成 insight；要有新的理解。",
+        "outcomeZh": "能指出記起甚麼、比較或反思了甚麼，以及得出甚麼見解。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0389",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 31,
+          "sample": "S2",
+          "sourceBookPages": "77–78",
+          "locatorNote": "DOCX table 31, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good questions can turn memory into insight.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn memory into insight"
+        }
+      ],
+      "listening": {
+        "en": "After three crowded school fairs, the committee compared where queues formed each year. They realised the entrance needed a second ticket desk. The comparison helped turn memory into insight.",
+        "zh": "經歷三次擠迫的校園嘉年華後，委員會比較每年排隊的位置，發現入口需要多一個售票處。這番比較幫助他們把過往記憶化為洞見。",
+        "promptZh": "委員會怎樣 turn memory into insight？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They used remembered queue patterns to identify a practical improvement.",
+            "zh": "他們利用記得的排隊情況，找出實際改善方法。"
+          },
+          {
+            "id": "b",
+            "en": "They listed fair dates without examining what happened at the entrance.",
+            "zh": "他們只列出嘉年華日期，沒有分析入口情況。"
+          },
+          {
+            "id": "c",
+            "en": "They chose a second desk before checking any past experience.",
+            "zh": "他們未參考過往經驗，便決定增設售票處。"
+          },
+          {
+            "id": "d",
+            "en": "They copied another fair’s desk arrangement without checking their own queue pattern.",
+            "zh": "他們未檢視自己的排隊情況，便照搬另一個嘉年華的櫃位安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們回顧重複出現的排隊情況，得出增設售票處的可行見解；單純記日期或無證據猜測不足。"
+      },
+      "reply": {
+        "promptEn": "Why did the garden volunteers change their watering plan after the dry summers?",
+        "promptZh": "（連續幾個乾旱夏天後，園藝義工為何改變澆水計劃？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They remembered which beds dried out first and shifted the watering times.",
+            "zh": "他們記得哪些花圃最先變乾，於是調整澆水時間。"
+          },
+          {
+            "id": "b",
+            "en": "They compared past results and identified when extra water was needed.",
+            "zh": "他們比較過去的結果，找出何時需要額外澆水。"
+          },
+          {
+            "id": "c",
+            "en": "They turned memory into insight by using the dry summers to improve the plan.",
+            "zh": "他們把乾旱夏天的經驗化為洞見，用來改善計劃。"
+          },
+          {
+            "id": "d",
+            "en": "They used what they had seen to target the driest beds earlier.",
+            "zh": "他們根據之前見到的情況，提早照顧最乾旱的花圃。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都從過往乾旱經驗引出具體改善；金句概括由記憶轉成理解的過程。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "They turned memory into insight by linking the repeated problem to a sound check.",
+            "zh": "他們把記憶化為洞見，發現反覆出現的問題與音響檢查有關。"
+          },
+          {
+            "id": "b",
+            "en": "They remembered the dates of the performances but drew no conclusion.",
+            "zh": "他們記住演出日期，卻沒有得出結論。"
+          },
+          {
+            "id": "c",
+            "en": "They assumed the audience disliked the play without reviewing the sound records.",
+            "zh": "他們沒有翻查音響紀錄便斷言觀眾不喜歡劇本。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他們用重複發生的聽不清情況和紀錄得出音響改善方向，超越單純回憶。",
+        "promptZh": "劇團記得前兩次演出時觀眾在換景期間聽不清對白，回看紀錄後發現音響需提前測試。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A coach compares past injuries and changes the warm-up to address a pattern.",
+            "zh": "教練比較過去的傷患個案，針對規律改變熱身。"
+          },
+          {
+            "id": "b",
+            "en": "An organiser recites old event dates but never asks what went well or wrong.",
+            "zh": "主辦者只背誦舊活動日期，從不反思成敗。"
+          },
+          {
+            "id": "c",
+            "en": "A student reflects on previous errors and spots a recurring misunderstanding.",
+            "zh": "學生反思以前的錯誤，找出反覆出現的誤解。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只背日期未從經驗得出理解；另外兩項有比較或反思，並形成新見解。",
+        "promptZh": "哪個情況最不適合用 turn memory into insight？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Let us turn memory into insight by checking past queue times and moving the collection desk.",
+            "zh": "我們檢查過往排隊時間並調整收集櫃位，讓記憶化為洞見。"
+          },
+          {
+            "id": "b",
+            "en": "Since the events were busy, we already know exactly why every queue formed.",
+            "zh": "活動繁忙，所以我們已準確知道每條隊伍形成的原因。"
+          },
+          {
+            "id": "c",
+            "en": "We can write down the old dates and avoid reviewing how the desks were arranged.",
+            "zh": "我們可以記下舊日期，不用檢視櫃位怎樣安排。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "回看具體時間與櫃位安排才可從記憶得出可用見解；只憑印象或列日期都不足。",
+        "promptZh": "同事說：「去年每次捐贈書籍活動都在下午塞車，但我只記得人多，還沒有分析原因。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "By comparing old feedback, the organisers turned memory into insight and changed the next event.",
+        "zh": "主辦者比較舊評語，把過往記憶化為洞見，並改進下一次活動。",
+        "promptZh": "先聽示範，再指出回顧後得出的新理解。",
+        "targetSpan": {
+          "start": 42,
+          "end": 68
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區巴士連續兩個冬季常有乘客錯過轉車。交通小組翻查投訴和班次紀錄，發現接駁時間不足，於是提議把其中一班巴士提早五分鐘。用一至兩句英文說明如何從過往經驗得出改善。",
+        "selfCheckZh": "指出兩個冬季的轉車問題、翻查投訴和班次後發現接駁時間不足，以及提早五分鐘的建議；不要只重述投訴。",
+        "examples": [
+          {
+            "en": "The transport team turned memory into insight by reviewing two winters of missed connections, finding that the transfer was too tight and proposing a bus five minutes earlier.",
+            "zh": "交通小組翻查兩個冬季錯過轉車的紀錄，發現接駁時間太緊，提議把一班巴士提早五分鐘，把過往經驗化為洞見。"
+          },
+          {
+            "en": "After riders repeatedly missed the connection in winter, the team checked complaints and timetables, saw that the transfer gap was too short, and turned memory into insight: it proposed moving one bus five minutes earlier.",
+            "zh": "連續兩個冬季都有乘客錯過轉車；小組翻查投訴及時間表，發現接駁時間太短，便把過往經驗化為洞見，提議把一班巴士提早五分鐘。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two winters of missed connections",
+            "zh": "兩個冬季錯過轉車的紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 92
+            }
+          },
+          {
+            "en": "the transfer was too tight",
+            "zh": "接駁時間太緊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 133
+            }
+          },
+          {
+            "en": "a bus five minutes earlier",
+            "zh": "一班巴士提早五分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 148,
+              "end": 174
+            }
+          },
+          {
+            "en": "checked complaints and timetables",
+            "zh": "翻查投訴及時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 99
+            }
+          },
+          {
+            "en": "one bus five minutes earlier",
+            "zh": "一班巴士提早五分鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 193,
+              "end": 221
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Old records can turn memory into insight when we use them to find a pattern.",
+          "zh": "若能從舊紀錄找出規律，便可把記憶化為洞見。"
+        },
+        {
+          "en": "Remembering a mistake is useful, but reflecting on it can turn memory into insight.",
+          "zh": "記起錯誤有幫助；反思才能把記憶化為洞見。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2501",
+      "number": 2501,
+      "inventoryId": "expr-2501",
+      "titleEn": "minds are overloaded",
+      "titleZh": "腦袋已經負荷過重",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:mind|minds) (?:is|are|was|were|may be|become|becomes|became) overloaded\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have more mental demands or incoming information than one can comfortably handle.",
+        "meaningZh": "腦中同時要處理太多要求或資訊，以致難以應付。",
+        "grammar": "Their minds are overloaded during the final week.",
+        "register": "Load metaphor for cognitive demands; show what is arriving at once and how it affects attention or recall.",
+        "boundaryZh": "重點是同時承受的認知負荷過量；與 get cluttered 的思路雜亂不同，資料可以井然有序卻仍太多。",
+        "misconceptionZh": "不要把一次普通分心或暫時忘記小事都診斷成 mind overloaded；須有可見的多重負擔。",
+        "outcomeZh": "能指出同時有哪些要求，以及負荷過重如何影響思考。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0390",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "78–80",
+          "locatorNote": "DOCX table 32, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Their minds are overloaded during the final week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "minds are overloaded"
+        }
+      ],
+      "listening": {
+        "en": "At the event desk, two volunteers had to answer calls, check registrations and explain directions at the same time. Their minds were overloaded, so they asked a third person to handle the calls.",
+        "zh": "活動接待處的兩名義工要同時接電話、核對登記和指路。他們腦中負荷過重，便請第三人處理來電。",
+        "promptZh": "為何說義工的 minds were overloaded？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several demands arrived at once and exceeded what two people could manage comfortably.",
+            "zh": "幾項要求同時到來，超出兩人能輕鬆處理的範圍。"
+          },
+          {
+            "id": "b",
+            "en": "Their directions were untidy even though they had no other tasks.",
+            "zh": "他們的指示不夠整齊，但沒有其他工作。"
+          },
+          {
+            "id": "c",
+            "en": "They had finished every registration before the phone rang.",
+            "zh": "電話響起前，他們已完成所有登記。"
+          },
+          {
+            "id": "d",
+            "en": "They chose to add another volunteer because the desk was empty.",
+            "zh": "接待處沒有人，所以他們決定增加義工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "電話、登記和指路同時需要注意力，兩人難以應付；請第三人接電話可分擔負荷。"
+      },
+      "reply": {
+        "promptEn": "Why did the reception team ask another volunteer to take phone calls?",
+        "promptZh": "（接待團隊為何請另一名義工接電話？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They were checking arrivals and giving directions at the same time.",
+            "zh": "他們當時同時核對到場者並指路。"
+          },
+          {
+            "id": "b",
+            "en": "Several demands were competing for their attention.",
+            "zh": "幾項要求同時爭奪他們的注意力。"
+          },
+          {
+            "id": "c",
+            "en": "Their minds were overloaded by the tasks arriving together.",
+            "zh": "幾項任務一齊湧來，令他們腦中負荷過重。"
+          },
+          {
+            "id": "d",
+            "en": "Sharing the calls gave them room to focus on the people at the desk.",
+            "zh": "分擔來電後，他們可專注接待處的人。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都回答多項任務為何需要分工；金句指出同時處理的認知負荷過量。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The student’s mind is overloaded by several demands at once.",
+            "zh": "學生腦中同時要處理多項要求，已負荷過重。"
+          },
+          {
+            "id": "b",
+            "en": "The student has enough spare attention to follow every direction.",
+            "zh": "學生仍有充足注意力跟上每項指示。"
+          },
+          {
+            "id": "c",
+            "en": "The projector alone proves the student cannot organise any thoughts.",
+            "zh": "單靠投影設備便證明學生無法整理任何思緒。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同時要記錄、答問及操作設備，並開始漏聽指示，顯示負荷超出可處理範圍。",
+        "promptZh": "學生同時要記講座要點、回答即席提問和操作投影設備，開始聽漏主持人的指示。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A worker misses a message while handling three urgent calls and a queue.",
+            "zh": "員工同時接三個緊急來電及應付排隊人龍，漏看一則訊息。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor hears one clear instruction in a quiet room and follows it easily.",
+            "zh": "訪客在安靜房間聽到一項清楚指示，並輕易照做。"
+          },
+          {
+            "id": "c",
+            "en": "Students struggle to track several new rules introduced at the same moment.",
+            "zh": "幾條新規則同時公布，學生難以跟上。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只有一項清楚要求而且能輕易完成，沒有負荷過量的證據。",
+        "promptZh": "哪個情況最不適合說 minds are overloaded？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Your mind may be overloaded; I can take the new queries while you greet visitors.",
+            "zh": "你可能已腦中負荷過重；我可接手新查詢，你先接待訪客。"
+          },
+          {
+            "id": "b",
+            "en": "You just need to remember every name without reducing the simultaneous tasks.",
+            "zh": "你只要記住每個姓名，毋須減少同時進行的工作。"
+          },
+          {
+            "id": "c",
+            "en": "The forgotten name proves visitors did not introduce themselves clearly.",
+            "zh": "忘記姓名證明訪客自我介紹時說得不清楚。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多項即時工作同時佔用注意力，分工能直接減輕負荷；另兩項忽略同時要求。",
+        "promptZh": "同事說：「我一邊接待訪客，一邊處理三個即時查詢，現在連剛說過的姓名都記不起。」你如何回應較貼切？"
+      },
+      "speaking": {
+        "en": "Their minds were overloaded by the instructions arriving all at once.",
+        "zh": "指示一下子接連湧來，令他們腦中負荷過重。",
+        "promptZh": "先聽示範，再指出哪些要求同時出現。",
+        "targetSpan": {
+          "start": 6,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：獸醫診所兩名護士同時要回答來電、整理藥物紀錄和處理現場預約，結果漏記了一個預約時間。診所安排第三名同事接手電話。用一至兩句英文描述原因與調整。",
+        "selfCheckZh": "指出三項同時任務令兩名護士負荷過重、漏記預約時間，以及第三人接電話如何分擔；不要把問題寫成必然記性差。",
+        "examples": [
+          {
+            "en": "The nurses’ minds were overloaded by calls, medicine records and bookings, so they missed an appointment time; a third colleague took over the phone.",
+            "zh": "電話、藥物紀錄和預約令兩名護士腦中負荷過重，因此漏記一個預約時間；第三名同事接手電話。"
+          },
+          {
+            "en": "Their minds were overloaded while they handled calls, medicine records and in-person bookings, and one appointment time was missed; the clinic assigned another colleague to answer calls.",
+            "zh": "兩名護士同時處理電話、藥物紀錄和現場預約，腦中負荷過重，漏記一個預約時間；診所安排另一名同事接電話。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "medicine records",
+            "zh": "藥物紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 60
+            }
+          },
+          {
+            "en": "an appointment time",
+            "zh": "一個預約時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 109
+            }
+          },
+          {
+            "en": "a third colleague",
+            "zh": "第三名同事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 128
+            }
+          },
+          {
+            "en": "in-person bookings",
+            "zh": "現場預約",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 93
+            }
+          },
+          {
+            "en": "answer calls",
+            "zh": "接電話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 173,
+              "end": 185
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A single clear task may be easy even when our minds are overloaded by several simultaneous tasks.",
+          "zh": "單一清楚任務可能容易處理；多項同時任務卻可能令腦中負荷過重。"
+        },
+        {
+          "en": "The students’ minds were overloaded when every new instruction arrived together.",
+          "zh": "所有新指示同時到來，令學生腦中負荷過重。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2502",
+      "number": 2502,
+      "inventoryId": "expr-2502",
+      "titleEn": "get cluttered",
+      "titleZh": "思路變得雜亂",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting) cluttered\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Become crowded and disorganised in one’s thoughts, making the main point hard to see.",
+        "meaningZh": "思緒被雜亂的細節佔滿，令重點難以看清。",
+        "grammar": "My thinking can get cluttered after too many meetings.",
+        "register": "Metaphor from physical clutter; describe disorganisation of thinking, not merely heavy workload.",
+        "boundaryZh": "與 minds are overloaded 不同：本課著眼於思路混雜、重點被埋沒，即使任務數量不多也可能發生。",
+        "misconceptionZh": "不要只因資訊多就說 cluttered；要見到內容零散、思路不清或重點難找。",
+        "outcomeZh": "能指出哪些互不相干的想法混在一起，以及如何重新理清重點。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0391",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 36,
+          "book": 10,
+          "question": 32,
+          "sample": "S1",
+          "sourceBookPages": "78–80",
+          "locatorNote": "DOCX table 32, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "My thinking can get cluttered after too many meetings.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get cluttered"
+        }
+      ],
+      "listening": {
+        "en": "Mei had ideas for a short speech, but she mixed examples, dates and side stories without a plan. Her thinking got cluttered, so she grouped the notes around one main point.",
+        "zh": "美本來有一些短講想法，卻毫無規劃地混合例子、日期和枝節故事。她的思路變得雜亂，於是把筆記重新圍繞一個重點整理。",
+        "promptZh": "thinking got cluttered 表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her ideas became disorganised and hid the main point.",
+            "zh": "她的想法變得雜亂，掩蓋了重點。"
+          },
+          {
+            "id": "b",
+            "en": "She had too many urgent tasks to complete on the same day.",
+            "zh": "她同一天要完成太多緊急任務。"
+          },
+          {
+            "id": "c",
+            "en": "She found a clear order for every example before writing.",
+            "zh": "她寫作前已為每個例子找到清楚次序。"
+          },
+          {
+            "id": "d",
+            "en": "The dates she used were inaccurate and needed verification.",
+            "zh": "她使用的日期不準確，需要核實。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "例子、日期和枝節混在一起，使主線不清；問題是思路雜亂，不必然是任務過多或日期有誤。"
+      },
+      "reply": {
+        "promptEn": "Why did Amir rewrite his presentation outline?",
+        "promptZh": "（阿米爾為何重寫簡報大綱？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "His notes mixed the central claim with unrelated anecdotes.",
+            "zh": "他的筆記把核心論點和無關軼事混在一起。"
+          },
+          {
+            "id": "b",
+            "en": "He wanted the main argument to stand out from side details.",
+            "zh": "他希望主論點能從枝節中突顯出來。"
+          },
+          {
+            "id": "c",
+            "en": "His thinking had got cluttered, so he reorganised the examples.",
+            "zh": "他的思路變得雜亂，因此重新整理例子。"
+          },
+          {
+            "id": "d",
+            "en": "He grouped related points to make the argument easier to follow.",
+            "zh": "他把相關要點歸類，令論述更易理解。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明主線被雜亂枝節掩蓋，重寫是為了理清思路；金句用 cluttered 概括。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The student’s thinking got cluttered, and the main conclusion was buried.",
+            "zh": "學生的思路變得雜亂，主要結論被掩蓋。"
+          },
+          {
+            "id": "b",
+            "en": "The main conclusion was clear because the stories were unrelated.",
+            "zh": "故事互不相關，所以主要結論很清楚。"
+          },
+          {
+            "id": "c",
+            "en": "The student was handling several urgent jobs at once, leaving no time to speak.",
+            "zh": "學生同時處理數項緊急工作，沒有時間演講。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "問題是互不相關的故事混在一起，讓主線不清；並非有多項工作同時壓身。",
+        "promptZh": "學生準備一個五分鐘報告，將三個互不相關的故事混進同一段，聽眾無法聽出主要結論。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A writer mixes three unrelated themes in one paragraph and loses the point.",
+            "zh": "作者把三個無關主題混在一段，令重點模糊。"
+          },
+          {
+            "id": "b",
+            "en": "A speaker has one clear argument, ordered examples and a concise conclusion.",
+            "zh": "講者有一個清楚論點、按次序排列的例子及簡潔結論。"
+          },
+          {
+            "id": "c",
+            "en": "A student’s notes mix side comments with key evidence until neither stands out.",
+            "zh": "學生把枝節評語與重要證據混雜，兩者都不突出。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "論點、例子和結論都清楚有序，沒有思路雜亂的跡象。",
+        "promptZh": "哪個情況最不適合用 get cluttered 描述思路？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Your thinking may have got cluttered; choose one message and group only the relevant stories around it.",
+            "zh": "你的思路可能變得雜亂；先選一個重點，只把相關故事放在一起。"
+          },
+          {
+            "id": "b",
+            "en": "Keep every side story in the same paragraph, so no memory is omitted.",
+            "zh": "把每個枝節故事留在同一段，才不會漏掉回憶。"
+          },
+          {
+            "id": "c",
+            "en": "The problem must be that you have too many separate tasks, not the order of your ideas.",
+            "zh": "問題一定是你有太多不同工作，而不是想法排列的次序。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友明說枝節太多且主旨失焦，應整理相關故事；其餘回應沒有處理思路混雜。",
+        "promptZh": "朋友說：「我的演講稿把每個回憶和旁枝故事都放進去了，現在連主要訊息也找不到。」你如何回應最貼切？"
+      },
+      "speaking": {
+        "en": "When unrelated examples filled my notes, my thinking got cluttered and I lost the main point.",
+        "zh": "互不相關的例子填滿筆記時，我的思路變得雜亂，失去重點。",
+        "promptZh": "先聽示範，再指出哪種資訊混亂造成問題。",
+        "targetSpan": {
+          "start": 53,
+          "end": 66
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學生要寫社區花園介紹，原本把種植方法、義工名單和活動日期全部塞進同一段，讀者看不出花園的主要特色。學生按主題重排內容。用一至兩句英文描述問題和改善。",
+        "selfCheckZh": "指出三類內容原本混雜、主要特色不清，以及按主題重排後如何突出重點；不要只說內容多。",
+        "examples": [
+          {
+            "en": "Her thinking got cluttered when she mixed planting tips, volunteer names and event dates in one paragraph; grouping the ideas by topic made the garden’s main feature clear.",
+            "zh": "她擬寫花園介紹時，把種植貼士、義工名單和活動日期混在同一段，思路變得雜亂；按主題整理後，花園主要特色便清楚了。"
+          },
+          {
+            "en": "Her thinking got cluttered as she mixed planting methods with names and dates, so she separated the topics and brought the garden’s main feature forward.",
+            "zh": "她把種植方法、人名和日期混在一起，思路變得雜亂；她遂把主題分開，讓花園主要特色更突出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "planting tips",
+            "zh": "種植貼士",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 55
+            }
+          },
+          {
+            "en": "volunteer names",
+            "zh": "義工名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 72
+            }
+          },
+          {
+            "en": "event dates",
+            "zh": "活動日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 88
+            }
+          },
+          {
+            "en": "separated the topics",
+            "zh": "把主題分開",
+            "exampleIndex": 1,
+            "span": {
+              "start": 86,
+              "end": 106
+            }
+          },
+          {
+            "en": "main feature",
+            "zh": "主要特色",
+            "exampleIndex": 1,
+            "span": {
+              "start": 132,
+              "end": 144
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "An outline helps me when my thinking gets cluttered by unrelated details.",
+          "zh": "無關枝節令我思路雜亂時，大綱可幫我整理。"
+        },
+        {
+          "en": "Grouping the notes by topic stopped my thinking from getting cluttered.",
+          "zh": "按主題分類筆記，令我的思路不再變得雜亂。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

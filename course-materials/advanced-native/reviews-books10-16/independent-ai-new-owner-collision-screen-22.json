@@ -1,0 +1,327 @@
+{
+  "reviewType": "independent AI sense-aware residual new-owner/prior-canonical collision audit",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "All 22 current proposed-new source sentences whose full source text matches a prior canonical target detector in the all-discovered audit",
+  "method": "Read collision tool output, source inventory, current editorial decisions and prior canonical brief/target meanings; distinguish incidental matches in other source spans from same-target matches and compare shared strings by construction and sense. Regex match alone was never treated as ownership proof.",
+  "inputs": {
+    "collisionSnapshot": {
+      "path": "/private/tmp/advanced-native-all-collisions.json",
+      "sha256": "a8967485c3eac390eebbbaf1a8d047f2f51c9ed80a99731e301f37df24ec845f"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "canonicalIndex": {
+      "path": "course-materials/advanced-native/provenance/curated-module-index.json",
+      "sha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393"
+    },
+    "priorTargetPatterns": {
+      "path": "natural-english/advanced-targets.generated.mjs",
+      "sha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5"
+    },
+    "decisionFiles": [
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+        "sha256": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+        "sha256": "f7f09f3ea7e657aa005c512845ab204f05431469ea56b68f860729f582b0e015"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+        "sha256": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+        "sha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+        "sha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+        "sha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+        "sha256": "0058de65f6084db2a74e5df3b515af4e8eceaa97216554c30635a8bc14ab62d8"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+        "sha256": "3d9038a708738e57ad33741ef2c7adcb885fd2cf3d116792b9880a7dc0b33af2"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+        "sha256": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+        "sha256": "23a9cd9e7103973f7df8278304b012f65d48aeebcf459745751b50d23c7e845e"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+        "sha256": "77c8096b7d2904d586c54d547fe208500aeeed9fbacc875d3d84209f7dbf9c67"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+        "sha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+        "sha256": "8812d7541d4cbc77c8d1a96b2a1acaf77f02875ab970dd1b8aec2a46aa3ac87c"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+        "sha256": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+        "sha256": "b7018d3cb53df23ffdfa7e0e5953d4abb90f51c6e1ff180b989b208b17ddb35a"
+      },
+      {
+        "path": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+        "sha256": "7f19497aa4b7fe05092e6b34af6e27bcafd2bb2c807e2dc2ffd455b696fe3775"
+      }
+    ]
+  },
+  "counts": {
+    "collisionRecords": 22,
+    "sameSenseDuplicateFindings": 0,
+    "distinctOrIncidentalMatches": 22
+  },
+  "records": [
+    {
+      "sourceOrdinal": 2123,
+      "proposedPhrase": "show up",
+      "priorMatchedOwner": "advanced-native-364",
+      "sourceExample": "Guests should show up before noon.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "decisionFileSha256": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The new source is arrival before noon; 364 teaches being present to support someone. Same words, different learner decision. Keep sense-specific ownership."
+    },
+    {
+      "sourceOrdinal": 2134,
+      "proposedPhrase": "timing is too tight",
+      "priorMatchedOwner": "advanced-native-256",
+      "sourceExample": "Our timing is too tight if we rely on the final train.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2112-2141.jsonl",
+      "decisionFileSha256": "a61f423c31f8c51606f94e26c01d3086108fcc48a29bf9d980cd6b5b95e85e6b",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The prior detector matches the separate subordinate phrase rely on the final train. The proposed tight-schedule phrase is a different span and meaning."
+    },
+    {
+      "sourceOrdinal": 2176,
+      "proposedPhrase": "ready to go",
+      "priorMatchedOwner": "advanced-native-434",
+      "sourceExample": "I packed the documents so everything was ready to go.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2172-2231.jsonl",
+      "decisionFileSha256": "f7f09f3ea7e657aa005c512845ab204f05431469ea56b68f860729f582b0e015",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The source uses packed as a literal verb for documents; 434 teaches a crowded venue. Ready to go is the proposed readiness target."
+    },
+    {
+      "sourceOrdinal": 2279,
+      "proposedPhrase": "grounded in facts",
+      "priorMatchedOwner": "advanced-native-798",
+      "sourceExample": "Her argument was grounded in facts rather than speculation.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2232-2291.jsonl",
+      "decisionFileSha256": "1216b387cdf1f37a92030c83d71b54fda88524a3a903a36e877afb63c452b2ed",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Evidence-based argument versus feeling emotionally steady and connected to daily reality. The shared adjective is not a shared lesson outcome."
+    },
+    {
+      "sourceOrdinal": 2295,
+      "proposedPhrase": "pull them in",
+      "priorMatchedOwner": "advanced-native-048",
+      "sourceExample": "The opening scene should pull them in at once.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The prior detector matches the separate at once adjunct, which here means immediately; 048 focuses simultaneous demands. Pull them in teaches attracting an audience."
+    },
+    {
+      "sourceOrdinal": 2335,
+      "proposedPhrase": "come across as",
+      "priorMatchedOwner": "advanced-native-120",
+      "sourceExample": "A short reply may come across as rude.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Impression-giving come across as differs from 120's chance-discovery come across. The shorter 120 detector matches inside the new construction, so aliasing must be sense- and construction-aware."
+    },
+    {
+      "sourceOrdinal": 2342,
+      "proposedPhrase": "star power",
+      "priorMatchedOwner": "advanced-native-256",
+      "sourceExample": "The film relied on star power to fill cinemas.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Relied on is a separate ordinary dependency verb in the source. Star power names the celebrity's audience draw."
+    },
+    {
+      "sourceOrdinal": 2366,
+      "proposedPhrase": "keep your feet on the ground",
+      "priorMatchedOwner": "advanced-native-536",
+      "sourceExample": "It is wise to keep your feet on the ground after a big win.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The longer phrase means remain realistic after success, not 536's local operational conditions; the latter is a substring collision."
+    },
+    {
+      "sourceOrdinal": 2458,
+      "proposedPhrase": "running their life",
+      "priorMatchedOwner": "advanced-native-041",
+      "sourceExample": "The schedule ended up running their life.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Ended up is a separate eventual-result expression in the sentence; running their life describes control over daily choices."
+    },
+    {
+      "sourceOrdinal": 2514,
+      "proposedPhrase": "show up",
+      "priorMatchedOwner": "advanced-native-364",
+      "sourceExample": "The effects will show up in the final results.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2472-2531.jsonl",
+      "decisionFileSha256": "0058de65f6084db2a74e5df3b515af4e8eceaa97216554c30635a8bc14ab62d8",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Effects becoming evident in final results differs from 364's human supportive presence. Exact-title collision needs an explicit sense tag."
+    },
+    {
+      "sourceOrdinal": 2585,
+      "proposedPhrase": "caught up in social pressure",
+      "priorMatchedOwner": "advanced-native-1521",
+      "sourceExample": "Teenagers can become caught up in social pressure online.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2532-2591.jsonl",
+      "decisionFileSha256": "3d9038a708738e57ad33741ef2c7adcb885fd2cf3d116792b9880a7dc0b33af2",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Becoming entangled in social pressure differs from 1521's catching up through conversation after time apart."
+    },
+    {
+      "sourceOrdinal": 2657,
+      "proposedPhrase": "blow up overnight",
+      "priorMatchedOwner": "advanced-native-061",
+      "sourceExample": "An unknown artist can blow up overnight online.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2652-2711.jsonl",
+      "decisionFileSha256": "31010886da94b1bfd7cecd8d4eb21a2d5ccffad4870addd1507f185a57c118eb",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "The matched adverb overnight contributes speed, but the proposed construction also teaches blow up as sudden online popularity. They are not interchangeable target units."
+    },
+    {
+      "sourceOrdinal": 2853,
+      "proposedPhrase": "brain switched off",
+      "priorMatchedOwner": "advanced-native-375",
+      "sourceExample": "Do not read serious claims with your brain switched off.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "23a9cd9e7103973f7df8278304b012f65d48aeebcf459745751b50d23c7e845e",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Reading claims with one's brain switched off means inattentive or uncritical thinking. Canonical 375 teaches deliberately leaving work/worries mentally for relaxation; the subject, context and valence differ. Preserve this distinction in the future lesson brief."
+    },
+    {
+      "sourceOrdinal": 2876,
+      "proposedPhrase": "hands on the wheel",
+      "priorMatchedOwner": "advanced-native-329",
+      "sourceExample": "Officials have their hands on the wheel during a crisis.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2832-2891.jsonl",
+      "decisionFileSha256": "23a9cd9e7103973f7df8278304b012f65d48aeebcf459745751b50d23c7e845e",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Direct control during a crisis differs from practical hands-on participation; a space/hyphen tolerant detector caused this false semantic match."
+    },
+    {
+      "sourceOrdinal": 2956,
+      "proposedPhrase": "picking up the pieces afterwards",
+      "priorMatchedOwner": "advanced-native-441",
+      "sourceExample": "The celebration is not worth picking up the pieces afterwards.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2952-3011.jsonl",
+      "decisionFileSha256": "77c8096b7d2904d586c54d547fe208500aeeed9fbacc875d3d84209f7dbf9c67",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Recovering from damage after an extravagant celebration is the idiom pick up the pieces, not 441's informally acquiring knowledge. The prior detector matches only the two-word prefix. A future lesson should make the financial or practical damage concrete because the source sentence alone does not specify it."
+    },
+    {
+      "sourceOrdinal": 3175,
+      "proposedPhrase": "even-tempered",
+      "priorMatchedOwner": "advanced-native-486",
+      "sourceExample": "She is even-tempered under pressure.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Even-tempered is a stable calm disposition; canonical 486 under pressure names the stressful circumstance and its source occurrence is a separate adjunct, not the proposed adjective."
+    },
+    {
+      "sourceOrdinal": 3186,
+      "proposedPhrase": "falling apart",
+      "priorMatchedOwner": "advanced-native-1164",
+      "sourceExample": "The plan was falling apart after the second delay.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3132-3191.jsonl",
+      "decisionFileSha256": "5163d741a2f460e937fd843597c7266e7ed9dcfe1cd8c2318b1002e07d4f3c84",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "A plan breaking down after delays is not canonical 1164, which teaches a person becoming too upset to cope. Canonical 098 adds the fixed idiom at the seams and 521 narrows to practical basics; the present bare phrasal verb can own plan failure if the future lesson makes the object/sense explicit."
+    },
+    {
+      "sourceOrdinal": 3198,
+      "proposedPhrase": "best interests at heart",
+      "priorMatchedOwner": "advanced-native-562",
+      "sourceExample": "Her parents have her best interests at heart.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3192-3251.jsonl",
+      "decisionFileSha256": "8812d7541d4cbc77c8d1a96b2a1acaf77f02875ab970dd1b8aec2a46aa3ac87c",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Best interests at heart is the fixed welfare-motive construction. Canonical 562 at heart teaches underlying nature, a different construction and sense."
+    },
+    {
+      "sourceOrdinal": 3703,
+      "proposedPhrase": "novelty wears off",
+      "priorMatchedOwner": "advanced-native-1056",
+      "sourceExample": "The device gathered dust once the novelty wears off.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-3672-3731.jsonl",
+      "decisionFileSha256": "03e41de75b1166caf162ab8427aefdd0be552ea80263f1ec5c160b2f9185d4f5",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Novelty wears off means initial appeal fades. The source also says gathered dust, which is separately owned by canonical 1056 and means an item remains unused; two effects can coexist."
+    },
+    {
+      "sourceOrdinal": 4047,
+      "proposedPhrase": "grow out of clothes",
+      "priorMatchedOwner": "advanced-native-957",
+      "sourceExample": "Children grow out of clothes remarkably quickly.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4032-4091.jsonl",
+      "decisionFileSha256": "b7018d3cb53df23ffdfa7e0e5953d4abb90f51c6e1ff180b989b208b17ddb35a",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Children literally becoming too big for clothes is distinct from canonical 957, where a design develops from real daily life."
+    },
+    {
+      "sourceOrdinal": 4481,
+      "proposedPhrase": "stuck in the past",
+      "priorMatchedOwner": "advanced-native-131",
+      "sourceExample": "A traditional product need not be stuck in the past.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "7f19497aa4b7fe05092e6b34af6e27bcafd2bb2c807e2dc2ffd455b696fe3775",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Stuck in the past means unable to move beyond old ways. Canonical 131 stick in my mind means remain memorable; stem overlap is not semantic overlap."
+    },
+    {
+      "sourceOrdinal": 4488,
+      "proposedPhrase": "changes shape",
+      "priorMatchedOwner": "advanced-native-020",
+      "sourceExample": "A festival changes shape when it enters a new culture.",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-4452-4511.jsonl",
+      "decisionFileSha256": "7f19497aa4b7fe05092e6b34af6e27bcafd2bb2c807e2dc2ffd455b696fe3775",
+      "classification": "distinct target construction/sense or separate source span; retain provisional new proposal",
+      "reason": "Changes shape means takes a different form across cultures. Canonical 020 shape is an influence verb that affects how something develops; changed form is distinct. Canonical 759 take shape means begin to form, also different."
+    }
+  ],
+  "findings": [],
+  "watchItems": [
+    {
+      "sourceOrdinal": 3186,
+      "note": "When authoring, distinguish bare plan-failure fall apart from emotional breakdown owner 1164 and fixed longer constructions 098/521; current source alone does not justify merging into those owners."
+    }
+  ],
+  "limits": "This is a sense review of the 22 detector-overlap candidates, not an exhaustive search for all semantic duplicates beyond this candidate set; AI peer review only, not human approval."
+}

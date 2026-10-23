@@ -1,0 +1,46 @@
+{
+  "reviewId": "independent-ai-review-2462-2502-b",
+  "reviewedLessonIds": [
+    "advanced-native-2462",
+    "advanced-native-2479",
+    "advanced-native-2483",
+    "advanced-native-2490",
+    "advanced-native-2494",
+    "advanced-native-2500",
+    "advanced-native-2501",
+    "advanced-native-2502"
+  ],
+  "draftFileSha256": {
+    "course-materials/advanced-native/drafts-books10-16/batch-2462-2490-a.json": "1e94e3dcf96b82fd8a541e845fb971ed6c02ae8feba0306a4f94dbe420efd7b9",
+    "course-materials/advanced-native/drafts-books10-16/batch-2494-2502-a.json": "ab9ff1db9eff8658cc32e0ed661516bdc1fd1eca58b9a7d84b72d3f0068c95af"
+  },
+  "scope": "Independent AI Golden SOP content review of Author A’s eight unselected drafts. No human, audio-listening, device, live, or publication sign-off.",
+  "structuralChecks": {
+    "sourceProvenance": "All eight source occurrence IDs, source sentences and expressions were compared with the source inventory and match.",
+    "lessonContract": "Fresh build and --check pass: 8 lessons, 48 assessed questions, 32 audio requests, zero structural review flags. Seven ordered steps and six assessed questions are present per lesson.",
+    "optionAndGlossary": "All eight reply tasks have four plausibly valid options and exactly one target-bearing golden reply. Each changed-context writing task has two complete bilingual answers and five exact non-target glossary spans; all listening, speaking, dialogue and writing target spans pass structural checks.",
+    "contentAssessment": "Keys and distractors are generally fair; Traditional Chinese tracks English meanings and uncertainty. Adjacent 2494/2500 and 2501/2502 have distinct intended learning outcomes, though one 2502 example crosses the lesson boundary."
+  },
+  "findings": [
+    {
+      "id": "R2502-01",
+      "lessonId": "advanced-native-2502",
+      "severity": "major",
+      "surface": "writing.examples[0].en/zh and lesson sense boundary",
+      "evidence": "The lesson brief limits “get cluttered” to thoughts becoming crowded and disorganised. First model says “The garden introduction got cluttered when planting tips, volunteer names and event dates shared one paragraph,” and Chinese likewise says the introduction itself became 雜亂. The second model correctly says “Her thinking got cluttered.”",
+      "problem": "The first model teaches textual clutter rather than the selected cognitive sense. It leaves the two final exemplars with different subjects/senses and weakens the contrast with lesson 2501 on overloaded minds.",
+      "repair": "Rewrite example 0 so the student’s thinking or thoughts get cluttered while planning the introduction, then state that grouping the topics clarifies the garden’s main feature. Recompute every edited glossary span and verify Chinese fidelity and speaking/audio consistency."
+    }
+  ],
+  "lessonOutcomes": {
+    "advanced-native-2462": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2479": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2483": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2490": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2494": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2500": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2501": "no-new-editorial-finding-in-this-review",
+    "advanced-native-2502": "revise-writing-sense-boundary"
+  },
+  "releaseConclusion": "Do not select or publish lesson 2502 at these exact hashes. Repair R2502-01 and independently recheck the new English, Chinese, exact spans and generated output. All drafts still require the SOP’s human and media/device reviews."
+}

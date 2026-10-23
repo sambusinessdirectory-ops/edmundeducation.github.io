@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2462-2490-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2462",
+      "number": 2462,
+      "inventoryId": "expr-2462",
+      "titleEn": "social conditioning",
+      "titleZh": "社會習得的觀念影響",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bsocial conditioning\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Expectations learned from one’s social surroundings that can shape behaviour or choices.",
+        "meaningZh": "人從社會環境學到的期待，可能影響行為或選擇。",
+        "grammar": "Social conditioning can influence which hobbies children choose.",
+        "register": "Analytical term; describe a learned pattern and avoid claiming it determines every person’s behaviour.",
+        "boundaryZh": "重點是長期從周圍人或文化學到的期待；一次個別意見、天生喜好或強制規定並不相同。",
+        "misconceptionZh": "不要說所有人必然受同一影響，也不要把孩子真心不喜歡的活動一概歸因於社會觀念。",
+        "outcomeZh": "能指出傳遞了甚麼期待、孩子如何聽到，以及選擇可能如何受影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0351",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 32,
+          "book": 10,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "68–71",
+          "locatorNote": "DOCX table 28, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Social conditioning can influence the hobbies children choose.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "social conditioning"
+        }
+      ],
+      "listening": {
+        "en": "A child enjoyed trying robotics, but heard for months that it was not a hobby for girls. She gradually stopped attending. The teacher discussed how social conditioning can shape a child’s choices.",
+        "zh": "一名孩子本來喜歡嘗試機械人活動，卻幾個月來一直聽到「這不是女孩子的興趣」，後來逐漸不再參加。老師談到社會習得的觀念如何影響孩子的選擇。",
+        "promptZh": "這裏的 social conditioning 是甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated social messages may have shaped her view of which hobby suited her.",
+            "zh": "反覆聽到的社會訊息可能影響了她對合適興趣的看法。"
+          },
+          {
+            "id": "b",
+            "en": "She discovered by trying it that she disliked the activity itself.",
+            "zh": "她親身嘗試後發現自己不喜歡這項活動。"
+          },
+          {
+            "id": "c",
+            "en": "A written school rule forbade girls from attending.",
+            "zh": "學校有明文規定不准女生參加。"
+          },
+          {
+            "id": "d",
+            "en": "She stopped because the school offered another activity at the same time.",
+            "zh": "她不再參加，是因為學校同時安排了另一項活動。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "長期重複的性別期待可能塑造選擇；情境並未說她天生不喜歡，也沒有明文禁令或不可逆的結果。"
+      },
+      "reply": {
+        "promptEn": "Why might a child avoid a hobby they previously enjoyed?",
+        "promptZh": "（一名孩子為何可能避開以前喜歡的興趣活動？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They may repeatedly hear that people like them do not usually do it.",
+            "zh": "他們可能反覆聽到「像自己這樣的人通常不做這件事」。"
+          },
+          {
+            "id": "b",
+            "en": "People around them may treat a different hobby as the expected choice.",
+            "zh": "身邊的人可能把另一種興趣視為他們理應選的活動。"
+          },
+          {
+            "id": "c",
+            "en": "Social conditioning may make the activity feel unsuitable despite their interest.",
+            "zh": "社會習得的觀念可能令他們雖然有興趣，仍覺得活動不適合自己。"
+          },
+          {
+            "id": "d",
+            "en": "They may worry about being judged by friends for joining.",
+            "zh": "他們可能擔心參加後受到朋友評價。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能解釋社會期待如何可能影響興趣選擇；金句明確指出習得的社會觀念。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Social conditioning may be shaping his choice despite his interest in cooking.",
+            "zh": "社會習得的觀念可能正影響他的選擇，儘管他喜歡烹飪。"
+          },
+          {
+            "id": "b",
+            "en": "His refusal proves he has never enjoyed cooking.",
+            "zh": "他不報名便證明他從未喜歡烹飪。"
+          },
+          {
+            "id": "c",
+            "en": "The cooking class must have a written rule excluding boys.",
+            "zh": "烹飪班一定有不准男孩參加的明文規定。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他明明喜歡烹飪，長期聽到的社會期待可能令他卻步；不能推斷班級有禁令或他沒有興趣。",
+        "promptZh": "男孩喜歡烹飪，但多年來常聽到成年人說廚房工作只適合女孩，因此不敢報名烹飪班。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A child repeatedly hears that a sport is not for people of their gender and stops asking to join.",
+            "zh": "孩子反覆聽到某項運動不適合其性別，於是不再提出參加。"
+          },
+          {
+            "id": "b",
+            "en": "A child tries painting several times, finds they dislike it, and freely chooses music instead.",
+            "zh": "孩子幾次嘗試繪畫後發現自己不喜歡，便自由選擇音樂。"
+          },
+          {
+            "id": "c",
+            "en": "Friends consistently praise one kind of career as the only respectable path, affecting a student’s plan.",
+            "zh": "朋友一直稱只有某種職業值得尊重，影響學生的計劃。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "孩子是親身體驗後按喜好改選，沒有顯示社會習得的期待在影響；其他例子則有反覆傳遞的觀念。",
+        "promptZh": "哪個例子最不適合稱為 social conditioning 的影響？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That could be social conditioning; let us make the group welcoming and let her decide for herself.",
+            "zh": "這可能是社會習得的觀念在影響她；我們讓小組更友善，讓她自行決定吧。"
+          },
+          {
+            "id": "b",
+            "en": "She must never have liked fixing toys if she stopped coming.",
+            "zh": "如果她不再來，她一定從未喜歡修玩具。"
+          },
+          {
+            "id": "c",
+            "en": "Those comments cannot matter unless the school has an official rule.",
+            "zh": "除非學校有正式規定，否則那些說法不可能有影響。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "朋友描述反覆的性別期待與退縮，應承認可能影響並保留孩子自主選擇；其餘回應忽略已知興趣或非正式壓力。",
+        "promptZh": "朋友說：「她很喜歡修理玩具，但同學一直說女孩子不該碰工具，現在她不敢參加小組。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "Social conditioning can affect the activities students feel free to try, even when no rule forbids them.",
+        "zh": "即使沒有禁令，社會習得的觀念仍可能影響學生覺得自己可以嘗試哪些活動。",
+        "promptZh": "先聽示範，再指出學生從哪裏學到活動是否適合自己的觀念。",
+        "targetSpan": {
+          "start": 0,
+          "end": 19
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：幾位長者想學用智能手機，但多年來聽到「科技只適合年輕人」，因而不敢報名。導師鼓勵任何有興趣的人參加，並讓學員自行決定。用一至兩句英文解釋他們猶豫的可能原因和導師的做法。",
+        "selfCheckZh": "指出長者原本想學、長期聽到的年齡期待可能令他們猶豫，以及導師鼓勵他們自行決定；不要說年齡必然阻止學習。",
+        "examples": [
+          {
+            "en": "Social conditioning may make older adults who want to learn smartphone skills hesitate to join; the tutor welcomes anyone interested and leaves the choice to them.",
+            "zh": "社會習得的觀念可能令想學智能手機操作的長者猶豫是否參加；導師歡迎所有有興趣的人，讓他們自行決定。"
+          },
+          {
+            "en": "The repeated claim that technology is only for young people is a form of social conditioning; the tutor encourages willing older learners to try the class and choose for themselves.",
+            "zh": "「科技只適合年輕人」這種反覆出現的說法是一種社會習得的觀念；導師鼓勵有意學習的長者嘗試課堂並自行選擇。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "older adults",
+            "zh": "長者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 41
+            }
+          },
+          {
+            "en": "smartphone skills",
+            "zh": "智能手機操作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 77
+            }
+          },
+          {
+            "en": "anyone interested",
+            "zh": "任何有興趣的人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 132
+            }
+          },
+          {
+            "en": "The repeated claim",
+            "zh": "反覆出現的說法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "choose for themselves",
+            "zh": "自行選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 180
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Social conditioning may narrow what children believe they are allowed to enjoy.",
+          "zh": "社會習得的觀念可能限制孩子認為自己可以喜歡甚麼。"
+        },
+        {
+          "en": "Questioning social conditioning can help a student make a freer choice.",
+          "zh": "質疑社會習得的觀念，有助學生更自由地作選擇。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2479",
+      "number": 2479,
+      "inventoryId": "expr-2479",
+      "titleEn": "stay in the game",
+      "titleZh": "保持競爭資格",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:stay|stays|stayed|staying) in the game\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Remain able to compete or participate rather than being pushed out.",
+        "meaningZh": "保持參與或競爭的能力，不致被淘汰或退出。",
+        "grammar": "Training helps small firms stay in the game.",
+        "register": "Sports metaphor in business and other competitive settings; identify the field and the pressure.",
+        "boundaryZh": "本課重點是仍有資格或能力參與競爭；比 stay the course 更着重能否留在競爭之中，而非只堅持原計劃。",
+        "misconceptionZh": "不要把暫時仍在場內說成已勝出，也不要把任何堅持都當成有競爭力。",
+        "outcomeZh": "能指出一項新做法如何幫助參與者在競爭中繼續立足。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0368",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 34,
+          "book": 10,
+          "question": 29,
+          "sample": "S2",
+          "sourceBookPages": "72–73",
+          "locatorNote": "DOCX table 29, row 9; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Small firms need training to stay in the game.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stay in the game"
+        }
+      ],
+      "listening": {
+        "en": "A neighbourhood bookshop could not match the chains’ advertising budget. It trained staff to take online orders, helping the shop stay in the game without claiming it would outsell the chains.",
+        "zh": "社區書店無法與連鎖店的廣告預算相比，便培訓職員接受網上訂單，幫助書店保持競爭力，但並不表示一定能賣得比連鎖店多。",
+        "promptZh": "stay in the game 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The shop remains able to compete by adding a needed service.",
+            "zh": "書店增設顧客需要的服務，仍能參與競爭。"
+          },
+          {
+            "id": "b",
+            "en": "The shop is certain to become the market leader next month.",
+            "zh": "書店下個月一定會成為市場龍頭。"
+          },
+          {
+            "id": "c",
+            "en": "The shop keeps its old method without responding to competitors.",
+            "zh": "書店不理會競爭者，繼續沿用舊方法。"
+          },
+          {
+            "id": "d",
+            "en": "The training merely kept the shop’s old service unchanged as customer habits shifted.",
+            "zh": "顧客習慣改變之際，培訓只是令書店原有服務維持不變。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上下單令小店仍可參與市場競爭，不表示必然勝出；也不是單純沿用舊方法或字面運動。"
+      },
+      "reply": {
+        "promptEn": "Why should the local repair shop offer online booking when larger chains already do?",
+        "promptZh": "（大型連鎖店已有網上預約，為何本地維修店也應提供？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Customers could choose the local shop without having to call during work hours.",
+            "zh": "顧客無須在上班時間打電話，也能選擇本地店舖。"
+          },
+          {
+            "id": "b",
+            "en": "The new option would help the shop compete for busy customers.",
+            "zh": "新選項有助店舖爭取忙碌的顧客。"
+          },
+          {
+            "id": "c",
+            "en": "Online booking could help the small shop stay in the game.",
+            "zh": "網上預約可幫助小店保持競爭資格。"
+          },
+          {
+            "id": "d",
+            "en": "People who prefer web forms could still use its repair service.",
+            "zh": "偏好網上表格的人仍可使用這家店的維修服務。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出網上預約如何有助小店繼續爭取顧客；金句用競爭比喻總結。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The cinema adapted its offer to stay in the game.",
+            "zh": "戲院調整服務以保持競爭力。"
+          },
+          {
+            "id": "b",
+            "en": "The cinema is guaranteed to lead the whole film market now.",
+            "zh": "戲院現時必然能領先整個電影市場。"
+          },
+          {
+            "id": "c",
+            "en": "The cinema merely kept its old schedule despite losing viewers.",
+            "zh": "戲院流失觀眾後仍只沿用舊放映時間表。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "戲院調整服務以保留觀眾，符合仍能參與競爭；並無證據保證成為市場龍頭。",
+        "promptZh": "小型戲院因大型串流平台競爭而失去部分觀眾，於是推出映後討論及社區場次，仍能吸引固定觀眾群。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A small café learns online ordering to keep serving changing customer needs.",
+            "zh": "小咖啡店學會網上下單，繼續滿足變化中的顧客需要。"
+          },
+          {
+            "id": "b",
+            "en": "A shop permanently closes and stops offering its product to customers.",
+            "zh": "店舖永久結業，不再向顧客提供產品。"
+          },
+          {
+            "id": "c",
+            "en": "A local team recruits enough players to remain in next season’s league.",
+            "zh": "本地球隊招募足夠球員，繼續參加下季聯賽。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "永久結業後不再參與市場，不能說仍在競爭中；其他兩項保留參與能力。",
+        "promptZh": "哪個情況最不適合用 stay in the game 表示保持競爭資格？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That could help us stay in the game by making pickup easier for busy customers.",
+            "zh": "這可讓忙碌顧客更易自取餐點，幫我們保持競爭力。"
+          },
+          {
+            "id": "b",
+            "en": "Because we have a new idea, we will certainly beat every chain by next week.",
+            "zh": "有了新構思，下星期我們一定能勝過所有連鎖店。"
+          },
+          {
+            "id": "c",
+            "en": "There is no need to offer pickup if customers are already leaving.",
+            "zh": "顧客正流失，所以毋須提供自取服務。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "網上預訂可回應顧客需要，幫助小店繼續競爭；不等於保證勝過所有對手。",
+        "promptZh": "同事說：「小咖啡店正流失外帶顧客，但我們可以開始網上預訂自取。」你如何回應最貼切？"
+      },
+      "speaking": {
+        "en": "Local bakeries can stay in the game by offering a service their customers value.",
+        "zh": "本地麵包店若提供顧客重視的服務，便能保持競爭力。",
+        "promptZh": "先聽示範，再說明小店如何繼續參與競爭。",
+        "targetSpan": {
+          "start": 19,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間獨立社區電台的聽眾被大型串流平台吸走。電台推出居民電話討論節目和網上重溫服務，讓本地聽眾有理由回來。用一至兩句英文描述電台如何繼續競爭。",
+        "selfCheckZh": "指出大型平台帶來競爭、電台增設居民電話節目和網上重溫，以及新做法有助留住本地聽眾；不要保證電台一定勝過平台。",
+        "examples": [
+          {
+            "en": "To stay in the game against large streaming platforms, the local station added community call-in shows and online replays that gave nearby listeners a reason to return.",
+            "zh": "為了與大型串流平台競爭，本地電台增設社區電話討論節目和網上重溫，令附近聽眾有理由回來。"
+          },
+          {
+            "en": "The independent radio station stayed in the game by offering local call-in programmes and web replays, helping it keep an audience despite streaming competition.",
+            "zh": "儘管面對串流平台競爭，獨立電台藉着提供本地電話討論節目及網上重溫，保持競爭力並留住聽眾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "large streaming platforms",
+            "zh": "大型串流平台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 53
+            }
+          },
+          {
+            "en": "community call-in shows",
+            "zh": "社區電話討論節目",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 102
+            }
+          },
+          {
+            "en": "online replays",
+            "zh": "網上重溫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          },
+          {
+            "en": "local call-in programmes",
+            "zh": "本地電話討論節目",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 85
+            }
+          },
+          {
+            "en": "keep an audience",
+            "zh": "留住聽眾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A small grocer stayed in the game by adding a reliable delivery option.",
+          "zh": "小雜貨店增設可靠送貨服務，得以保持競爭力。"
+        },
+        {
+          "en": "Training can help workers stay in the game when industry skills change.",
+          "zh": "當行業技能改變時，培訓可幫助員工維持競爭力。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2483",
+      "number": 2483,
+      "inventoryId": "expr-2483",
+      "titleEn": "drowning in paperwork",
+      "titleZh": "被文書工作淹沒",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:drown|drowns|drowned|drowning) in paperwork\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be overwhelmed by more forms and documents than one can handle comfortably.",
+        "meaningZh": "面對大量表格和文件，忙得應付不來。",
+        "grammar": "The staff were drowning in paperwork before the system changed.",
+        "register": "Vivid workload metaphor; it concerns document burden, not literal water or a single simple form.",
+        "boundaryZh": "與 buried in homework 同屬工作量過重的比喻，但本課特指文書、表格和紀錄，不是學生功課。",
+        "misconceptionZh": "不要只因桌面有紙就用 drowning；關鍵是文件量多到阻礙正常工作。",
+        "outcomeZh": "能指出哪些重複文書堆積，以及工作因此受甚麼影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0372",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 34,
+          "book": 10,
+          "question": 30,
+          "sample": "S1",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 30, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The staff were drowning in paperwork before the system changed.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "drowning in paperwork"
+        }
+      ],
+      "listening": {
+        "en": "The clinic staff had to copy each patient detail onto three separate forms, and simple requests were taking days. They were drowning in paperwork until the forms were combined.",
+        "zh": "診所職員須把每位病人的資料抄到三份不同表格，簡單申請也要數天處理。表格合併之前，他們一直被文書工作淹沒。",
+        "promptZh": "為甚麼說職員 were drowning in paperwork？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Repeated forms overwhelmed them and delayed ordinary requests.",
+            "zh": "重複表格令他們忙得應付不來，耽誤日常申請。"
+          },
+          {
+            "id": "b",
+            "en": "A single new form gave them useful information without adding work.",
+            "zh": "一份新表格提供有用資料，沒有增加工作。"
+          },
+          {
+            "id": "c",
+            "en": "They chose to review patient records carefully, so each request took longer.",
+            "zh": "他們選擇仔細核對病歷，所以每項申請較慢。"
+          },
+          {
+            "id": "d",
+            "en": "The delay came from optional research the staff chose to do, rather than from the required forms.",
+            "zh": "延誤源於職員自行選擇的額外資料搜集，而非必須填寫的表格。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大量重複表格已拖慢普通申請，顯示文書負擔過重；不是單一表格或字面漏水。"
+      },
+      "reply": {
+        "promptEn": "Why are the shelter volunteers behind on simple animal-care requests?",
+        "promptZh": "（收容所義工為何連簡單的動物照料申請也處理不及？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They have to enter the same details on several forms.",
+            "zh": "他們要在幾份表格上重複輸入相同資料。"
+          },
+          {
+            "id": "b",
+            "en": "The pile of records leaves little time for the requests themselves.",
+            "zh": "大量紀錄令他們沒有多少時間處理申請本身。"
+          },
+          {
+            "id": "c",
+            "en": "They are drowning in paperwork from repeated intake forms.",
+            "zh": "他們被重複的收容登記表格淹沒。"
+          },
+          {
+            "id": "d",
+            "en": "They spend so long checking duplicate documents that requests wait.",
+            "zh": "他們花太多時間核對重複文件，令申請久候。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋重複文書如何令照料申請延後；金句用被文件淹沒的比喻概括。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "They are drowning in paperwork, so other work is being delayed.",
+            "zh": "他們被文書工作淹沒，其他工作因而延誤。"
+          },
+          {
+            "id": "b",
+            "en": "They have a few forms but enough time to answer every call promptly.",
+            "zh": "他們雖有幾份表格，仍有足夠時間即時回覆每通電話。"
+          },
+          {
+            "id": "c",
+            "en": "The problem comes from a telephone fault rather than their document workload.",
+            "zh": "問題來自電話故障，而非文書負擔。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "五份重複表格已拖慢電話回覆，表明文件量妨礙正常工作；沒有電話故障的證據。",
+        "promptZh": "社區中心職員每天須把同一資料填進五份紙本表格，結果電話查詢久久未能回覆。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Workers cannot reach urgent cases because they must complete stacks of duplicate forms.",
+            "zh": "職員要填寫大量重複表格，無法及時處理緊急個案。"
+          },
+          {
+            "id": "b",
+            "en": "A receptionist fills out one short form and has time for every visitor.",
+            "zh": "接待員只填一份簡短表格，仍能照顧每位訪客。"
+          },
+          {
+            "id": "c",
+            "en": "Teachers spend evenings repeating records and struggle to plan lessons.",
+            "zh": "老師晚上要重複填寫紀錄，難以備課。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "一份簡短表格未造成應付不來的負擔；另兩項都顯示文書量妨礙其他工作。",
+        "promptZh": "哪個情況最不適合用 drowning in paperwork？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "We are drowning in paperwork; perhaps one shared form could reduce the repeated entries.",
+            "zh": "我們被文書工作淹沒；或許一份共用表格可減少重複輸入。"
+          },
+          {
+            "id": "b",
+            "en": "The forms must be helpful because there are more of them.",
+            "zh": "表格較多，所以它們一定較有幫助。"
+          },
+          {
+            "id": "c",
+            "en": "We should focus only on the number of sheets, not whether cases are delayed.",
+            "zh": "我們只應看紙張數量，不用理會個案有否延誤。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "同事說重複輸入已妨礙處理個案，回應應認出文書負擔並提出減少重複；另兩項忽略後果。",
+        "promptZh": "同事說：「我今天又要把同一批資料填三次，重要個案一直處理不及。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The team was drowning in paperwork before it replaced three forms with one shared record.",
+        "zh": "團隊把三份表格合為一份共用紀錄前，一直被文書工作淹沒。",
+        "promptZh": "先聽示範，再指出哪些文件造成負擔。",
+        "targetSpan": {
+          "start": 13,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校辦公室為每名新生填三份內容重複的表格，結果家長查詢遲遲未獲回覆。團隊改用一份共用電子登記表。用一至兩句英文描述問題及改善。",
+        "selfCheckZh": "指出每名新生的三份重複表格拖慢回覆家長，以及共用電子登記表如何減少文書負擔；不要說真的被水淹。",
+        "examples": [
+          {
+            "en": "The school office was drowning in paperwork because each new pupil needed three duplicate forms; one shared digital form helped staff answer parents sooner.",
+            "zh": "每名新生都要填三份重複表格，令學校辦公室被文書工作淹沒；一份共用電子表格幫助職員更快回覆家長。"
+          },
+          {
+            "en": "Parents waited for replies while staff were drowning in paperwork, so the office replaced three repeated enrolment forms with a single shared record.",
+            "zh": "職員被文書工作淹沒，家長因而久候回覆；辦公室遂以一份共用紀錄取代三份重複的入學表格。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "school office",
+            "zh": "學校辦公室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 17
+            }
+          },
+          {
+            "en": "three duplicate forms",
+            "zh": "三份重複表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 95
+            }
+          },
+          {
+            "en": "one shared digital form",
+            "zh": "一份共用電子表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 120
+            }
+          },
+          {
+            "en": "Parents waited for replies",
+            "zh": "家長久候回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "three repeated enrolment forms",
+            "zh": "三份重複的入學表格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 120
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The office was drowning in paperwork before it simplified its application process.",
+          "zh": "辦公室簡化申請程序前，一直被文書工作淹沒。"
+        },
+        {
+          "en": "When forms repeat the same questions, a small team can quickly drown in paperwork.",
+          "zh": "表格若反覆問相同問題，小團隊很快便可能被文書工作淹沒。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2490",
+      "number": 2490,
+      "inventoryId": "expr-2490",
+      "titleEn": "piles on pressure",
+      "titleZh": "在原有壓力上再加一層",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pile|piles|piled|piling) on pressure\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Add a new burden to an already demanding situation.",
+        "meaningZh": "在本已有壓力的情況下再增加負擔。",
+        "grammar": "The extra reporting rule piles on pressure during exams.",
+        "register": "Natural figurative pattern; identify both the existing pressure and the added demand.",
+        "boundaryZh": "與 under intense pressure 不同：那描述已有壓力；本課必須有新要求再加上去。",
+        "misconceptionZh": "不要把任何普通工作都說成 piles on pressure；要有原先負擔及新增要求。",
+        "outcomeZh": "能指出原有壓力、新增要求，以及它如何令情況更難應付。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0379",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 35,
+          "book": 10,
+          "question": 30,
+          "sample": "S2",
+          "sourceBookPages": "74–76",
+          "locatorNote": "DOCX table 30, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The extra reporting rule piles on pressure during exams.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "piles on pressure"
+        }
+      ],
+      "listening": {
+        "en": "The actors were already rehearsing late for opening night. A new daily report was then required from each of them, and the extra task piled on pressure during the final week.",
+        "zh": "演員為首演夜已排練到很晚，之後又被要求每人每天提交報告。新增工作在最後一週令壓力更重。",
+        "promptZh": "甚麼 piled on pressure？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A new report was added while the actors were already busy rehearsing.",
+            "zh": "演員本已忙於排練，又多了每天提交報告的要求。"
+          },
+          {
+            "id": "b",
+            "en": "The actors received more time to rehearse and no new task.",
+            "zh": "演員多了排練時間，沒有新增工作。"
+          },
+          {
+            "id": "c",
+            "en": "The daily report replaced rehearsals, leaving the total workload unchanged.",
+            "zh": "每日日報取代排練，總工作量沒有增加。"
+          },
+          {
+            "id": "d",
+            "en": "Opening night had been cancelled before the report was introduced.",
+            "zh": "新增日報前，首演夜已取消。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原本已排練到很晚，新增日報再添負擔；單純已有壓力或工作被替代都不足以表達 piles on pressure。"
+      },
+      "reply": {
+        "promptEn": "What did the surprise extra rehearsal do when the cast was already preparing for opening night?",
+        "promptZh": "（演員本已為首演夜忙於準備，突然增加一次排練有甚麼影響？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gave the cast another demand during an already busy week.",
+            "zh": "它在忙碌的一週裏再給演員增加一項要求。"
+          },
+          {
+            "id": "b",
+            "en": "It made their existing preparation feel more demanding.",
+            "zh": "它令原有準備工作更吃力。"
+          },
+          {
+            "id": "c",
+            "en": "It piled on pressure while they were already working late.",
+            "zh": "他們本已工作至深夜，它令壓力再增加。"
+          },
+          {
+            "id": "d",
+            "en": "It left them with less time to finish their other preparation.",
+            "zh": "它令他們完成其他準備工作的時間更少。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理說明新排練如何增加原有負擔；金句明確說在既有壓力上再加一層。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The new reporting demand piles on pressure when the volunteers are already stretched.",
+            "zh": "義工本已吃緊，新增匯報要求令壓力更大。"
+          },
+          {
+            "id": "b",
+            "en": "The detailed record replaces every other duty, so no extra burden remains.",
+            "zh": "詳細紀錄取代所有其他工作，因此沒有新增負擔。"
+          },
+          {
+            "id": "c",
+            "en": "The volunteers feel pressure only because the festival is unfamiliar.",
+            "zh": "義工有壓力，只因節日活動對他們陌生。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "人手不足是原有壓力，每天詳盡匯報是新增要求；其餘說法抹去了新增負擔。",
+        "promptZh": "義工已因人手不足而趕着籌備節日活動，此時主辦方又要求每天提交詳盡紀錄。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A second deadline is added while staff are struggling to meet the first.",
+            "zh": "職員趕第一個期限時，又加了第二個期限。"
+          },
+          {
+            "id": "b",
+            "en": "A deadline is extended and one unnecessary report is removed.",
+            "zh": "期限延長，而且一份不必要的報告被取消。"
+          },
+          {
+            "id": "c",
+            "en": "An extra inspection is scheduled when a team is already short-staffed.",
+            "zh": "團隊本已人手不足，又要應付額外檢查。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "延長期限並刪去報告減少負擔；另兩項是在原有壓力上新增要求。",
+        "promptZh": "哪個情況最不適合用 piles on pressure？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That piles on pressure; could we agree which task needs to be done first?",
+            "zh": "那令壓力更大；我們可否先商定哪項工作優先？"
+          },
+          {
+            "id": "b",
+            "en": "If the new form matters, it cannot add any pressure to an already busy day.",
+            "zh": "如果新表格重要，就不可能令忙碌的一天更有壓力。"
+          },
+          {
+            "id": "c",
+            "en": "The deadline will feel easier if we ignore the extra form without telling anyone.",
+            "zh": "如果不告訴任何人就不理新表格，期限便會較輕鬆。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "原有交貨期限已緊，新表格再添工作；回應可承認新增壓力並協商優先次序。",
+        "promptZh": "朋友說：「我們本已忙着趕交貨，經理又要我們今晚改用新表格重填資料。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Adding another report piles on pressure when the small team is already working late.",
+        "zh": "小團隊本已工作至深夜，再加一份報告令壓力更大。",
+        "promptZh": "先聽示範，再指出原有負擔與新增要求。",
+        "targetSpan": {
+          "start": 22,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小麵包店人手不足，仍在趕製週末訂單。經理此時新增每日詳細庫存報告，職員請求改用較簡短的紀錄表。用一至兩句英文描述增加的壓力和可行做法。",
+        "selfCheckZh": "指出原有人手不足和週末訂單、新增每日庫存報告，以及請求簡化紀錄；不要只說大家本來有壓力。",
+        "examples": [
+          {
+            "en": "The bakery was already short-staffed while filling weekend orders, and a new daily stock report piled on pressure; the staff requested a simpler record sheet.",
+            "zh": "麵包店本已人手不足，忙着完成週末訂單；新增每日庫存報告令壓力更大，職員因此請求使用較簡短的紀錄表。"
+          },
+          {
+            "en": "A detailed stock report every day piles on pressure while the small bakery prepares weekend orders with too few staff, so the team asked for a shorter form.",
+            "zh": "小麵包店人手不足，忙於週末訂單時，每日詳細庫存報告令壓力再增加；團隊因此要求使用較短的表格。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "short-staffed",
+            "zh": "人手不足",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 36
+            }
+          },
+          {
+            "en": "weekend orders",
+            "zh": "週末訂單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 65
+            }
+          },
+          {
+            "en": "a simpler record sheet",
+            "zh": "較簡短的紀錄表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 157
+            }
+          },
+          {
+            "en": "A detailed stock report every day",
+            "zh": "每日詳細庫存報告",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 33
+            }
+          },
+          {
+            "en": "a shorter form",
+            "zh": "較短的表格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 141,
+              "end": 155
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A new fee can pile on pressure for families already facing high rents.",
+          "zh": "對本已面對高租金的家庭而言，新增收費可令壓力再增加。"
+        },
+        {
+          "en": "Replacing duplicate forms with one form does not pile on pressure; it removes work.",
+          "zh": "以一份表格取代重複表格不會增加壓力，而是減少工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

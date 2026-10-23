@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-provisional-2524-2563-a",
+  "lessons": [
+    {
+      "id": "advanced-native-2524",
+      "number": 2524,
+      "inventoryId": "expr-2524",
+      "titleEn": "lets them down",
+      "titleZh": "辜負了他們的期望",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:let|lets|letting) (?:me|you|him|her|us|them) down\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Fail to provide the help or reliability that someone expected.",
+        "meaningZh": "沒有提供某人原本期望的協助或可靠表現，使其失望。",
+        "grammar": "Pattern: a person/service/tool lets, let or has let + me/you/him/her/us/them + down; put the person pronoun between let and down. The subject fails expected support.",
+        "register": "Neutral everyday conversation, sometimes disappointed in tone. A customer, passenger or teammate may say it to someone reviewing a missed promise or unreliable help.",
+        "boundaryZh": "與 tie someone down 的限制自由、wear someone down 的逐漸耗弱不同；本課是原本依靠的支援未能兌現。",
+        "misconceptionZh": "不要把任何不喜歡的結果都叫 lets them down；要說明先前的合理期待。",
+        "outcomeZh": "能指出依賴甚麼協助、它在哪裏失靈，以及對使用者的影響。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0413",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 38,
+          "book": 10,
+          "question": 34,
+          "sample": "S1",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 34, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The map app sometimes lets them down in remote areas.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lets them down"
+        }
+      ],
+      "listening": {
+        "en": "A ferry information service promised alerts before schedule changes. During a sudden cancellation, no alert reached waiting passengers, and the service let them down when they needed it.",
+        "zh": "渡輪資訊服務承諾在班次改動前通知乘客；突然取消航班時，候船乘客卻沒有收到通知。服務在最需要時辜負了他們。",
+        "promptZh": "為何說服務 let them down？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Passengers expected an alert, but the service failed when a sailing was cancelled.",
+            "zh": "乘客原本期望收到通知，航班取消時服務卻未能做到。"
+          },
+          {
+            "id": "b",
+            "en": "Passengers disliked the colour of the alert screen.",
+            "zh": "乘客不喜歡通知畫面的顏色。"
+          },
+          {
+            "id": "c",
+            "en": "The service sent a timely warning and passengers changed plans.",
+            "zh": "服務及時警告乘客，乘客因而改變計劃。"
+          },
+          {
+            "id": "d",
+            "en": "The ferry route was longer than passengers had hoped.",
+            "zh": "渡輪航線比乘客希望的更長。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "服務承諾提供取消通知，關鍵時刻卻沒有做到；這是未兌現預期協助。"
+      },
+      "reply": {
+        "promptEn": "Why did passengers lose confidence in the ferry information service?",
+        "promptZh": "（乘客為何較不信任渡輪資訊服務？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "It failed to send the cancellation alert they relied on.",
+            "zh": "他們依賴的取消通知沒有發出。"
+          },
+          {
+            "id": "b",
+            "en": "Its promised warning did not arrive before they waited at the pier.",
+            "zh": "原本承諾的通知在他們到碼頭等候前沒有送到。"
+          },
+          {
+            "id": "c",
+            "en": "It let them down at the moment they needed an update.",
+            "zh": "他們最需要最新消息時，服務辜負了他們。"
+          },
+          {
+            "id": "d",
+            "en": "They could no longer rely on the promised alerts about changed sailings.",
+            "zh": "他們已無法依靠承諾提供的班次變動通知。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都解釋承諾的通知沒有兌現；金句以 let down 表達原本依靠的支援失效。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The app let them down because its promised delay alert failed when it mattered.",
+            "zh": "程式在關鍵時沒有發出承諾的延誤通知，辜負了家長。"
+          },
+          {
+            "id": "b",
+            "en": "The app wore them down by asking them to read updates every hour.",
+            "zh": "程式要求他們每小時查看更新，令他們逐漸疲憊。"
+          },
+          {
+            "id": "c",
+            "en": "The app tied them down to one route and banned every alternative.",
+            "zh": "程式限制他們只能走一條路，禁止一切替代方案。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "家長合理依賴延誤通知，卻未收到；另兩句是不同片語的意思，情境沒有相應證據。",
+        "promptZh": "學校校車程式承諾車輛延誤時會通知家長，卻在一次大延誤中沒有發出訊息，家長等了很久才知情。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A hotline promises a callback by noon but never calls while users need urgent advice.",
+            "zh": "熱線承諾中午前回電，使用者急需建議卻沒收到。"
+          },
+          {
+            "id": "b",
+            "en": "A timetable service sends an accurate early alert, allowing travellers to change plans.",
+            "zh": "時間表服務及早發出準確通知，旅客得以改變計劃。"
+          },
+          {
+            "id": "c",
+            "en": "A booking system confirms seats, then loses the booking just before departure.",
+            "zh": "訂位系統確認座位，出發前卻遺失紀錄。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "服務如期提供有用通知，沒有辜負依賴它的人；另兩項未兌現承諾。",
+        "promptZh": "哪個情況最不適合說 a service let them down？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It has let you down when you need confirmation; contact the organiser now and keep your payment record.",
+            "zh": "你需要確認時，平台卻辜負了你；現在聯絡主辦者，並保留付款紀錄。"
+          },
+          {
+            "id": "b",
+            "en": "A missing email proves you never registered, even though you have a payment record.",
+            "zh": "雖有付款紀錄，沒收到電郵仍證明你從未報名。"
+          },
+          {
+            "id": "c",
+            "en": "The platform’s colour scheme is the main problem, rather than the missing confirmation.",
+            "zh": "主要問題是平台配色，而非缺少確認電郵。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "付款後仍沒有承諾的確認，屬支援失效；建議直接核實並保留證據。",
+        "promptZh": "朋友說：「報名平台說會寄確認電郵，但我付款後三天仍沒有收到，活動明天就開始。」你怎樣回應最貼切？"
+      },
+      "speaking": {
+        "en": "The booking platform let them down when the promised confirmation never arrived.",
+        "zh": "訂位平台承諾的確認訊息沒有送到，辜負了他們。",
+        "promptZh": "先聽示範，再指出未能兌現的承諾。",
+        "targetSpan": {
+          "start": 21,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區印刷店承諾星期五前送達活動海報，卻錯過期限，令義工失去一個周末的宣傳時間。店方道歉、安排急印，並改善訂單追蹤。用一至兩句英文描述期望、失敗及補救。",
+        "selfCheckZh": "指出星期五前送貨的承諾未兌現、義工失去宣傳時間，以及急印和改善追蹤；不要只說義工不喜歡海報設計。",
+        "examples": [
+          {
+            "en": "The print shop promised volunteers posters by Friday but let them down when it missed the deadline, costing them a weekend of promotion; it apologised, rushed the order and improved its tracking.",
+            "zh": "印刷店承諾星期五前把海報送給義工，卻錯過期限，令他們失去一個周末的宣傳時間，辜負了他們；店方道歉、急印訂單並改善追蹤。"
+          },
+          {
+            "en": "The volunteers expected posters by Friday, but the late delivery let them down and cut their publicity time; the shop offered rush printing and a better order tracker.",
+            "zh": "義工原本期望星期五前收到海報，延遲送貨卻令宣傳時間縮短，辜負了他們；店方提供急印及較完善的訂單追蹤。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "posters by Friday",
+            "zh": "星期五前送達海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 52
+            }
+          },
+          {
+            "en": "a weekend of promotion",
+            "zh": "一個周末的宣傳時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 135
+            }
+          },
+          {
+            "en": "improved its tracking",
+            "zh": "改善追蹤",
+            "exampleIndex": 0,
+            "span": {
+              "start": 173,
+              "end": 194
+            }
+          },
+          {
+            "en": "rush printing",
+            "zh": "急印",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 139
+            }
+          },
+          {
+            "en": "a better order tracker",
+            "zh": "較完善的訂單追蹤",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 166
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The weather service let us down when the warning arrived after the storm.",
+          "zh": "天氣服務在風暴後才發出警告，辜負了我們。"
+        },
+        {
+          "en": "When a team expects help, a promised helper who does not arrive can let them down on a busy day.",
+          "zh": "承諾幫忙的人在忙碌日子沒有到場，可能辜負團隊。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2527",
+      "number": 2527,
+      "inventoryId": "expr-2527",
+      "titleEn": "think on your behalf",
+      "titleZh": "替你作判斷",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:think|thinks|thought|thinking) on (?:my|your|his|her|our|their) behalf\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Do the mental work or judgment instead of a person, beyond merely supplying information.",
+        "meaningZh": "代替某人思考或作判斷，而不只是提供資料。",
+        "grammar": "Pattern: a person/tool can or cannot think on + my/your/his/her/our/their + behalf; think/thinks/thought are possible verb forms. On behalf of + noun is a separate construction.",
+        "register": "Neutral explanatory or advisory language. A teacher, adviser or colleague may say it to a decision-maker who has useful data but still needs to exercise judgment.",
+        "boundaryZh": "重點是誰負責理解和判斷；與工具作出運算、整理資訊不同，也不必一概拒用工具。",
+        "misconceptionZh": "不要把工具顯示答案等同它理解使用者的目標；人仍須檢查前提與結果。",
+        "outcomeZh": "能指出工具能做甚麼，以及哪個關鍵判斷仍要由使用者作出。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0416",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 38,
+          "book": 10,
+          "question": 34,
+          "sample": "S2",
+          "sourceBookPages": "83–84",
+          "locatorNote": "DOCX table 34, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A calculator cannot think on your behalf.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "think on your behalf"
+        }
+      ],
+      "listening": {
+        "en": "A calculator gave the correct total for a class trip. The organiser still had to decide whether every student could afford the cost; it could calculate, but it could not think on her behalf.",
+        "zh": "計算機算出班級旅行的正確總費用，但主辦同學仍須判斷每個學生能否負擔。它能計算，卻不能替她作判斷。",
+        "promptZh": "為何說計算機不能 think on her behalf？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It gives a total but cannot decide whether the trip is affordable for everyone.",
+            "zh": "它可算出總額，卻不能判斷旅費是否人人負擔得起。"
+          },
+          {
+            "id": "b",
+            "en": "It made an arithmetic error that the organiser must correct.",
+            "zh": "它算錯數字，主辦同學須更正。"
+          },
+          {
+            "id": "c",
+            "en": "It can choose which student should receive financial help.",
+            "zh": "它可以決定哪位學生應獲資助。"
+          },
+          {
+            "id": "d",
+            "en": "It remembers the trip date better than the organiser does.",
+            "zh": "它比主辦同學更記得旅行日期。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "運算正確不等於能衡量學生的實際負擔；價值判斷仍在人。"
+      },
+      "reply": {
+        "promptEn": "Why did the organiser review the calculator’s total before setting the trip price?",
+        "promptZh": "（主辦同學為何在訂旅行費用前檢視計算結果？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "She still had to consider what the students could afford.",
+            "zh": "她仍須考慮學生能負擔多少。"
+          },
+          {
+            "id": "b",
+            "en": "The number alone did not settle whether the trip was fair for everyone.",
+            "zh": "單靠數字不能判斷旅行費用對所有人是否公平。"
+          },
+          {
+            "id": "c",
+            "en": "The calculator could not think on her behalf about families’ different circumstances.",
+            "zh": "計算機不能替她考慮各家庭不同處境。"
+          },
+          {
+            "id": "d",
+            "en": "She needed to use the total alongside information about the students.",
+            "zh": "她需要把總額與學生的其他情況一併考慮。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說明計算結果只是資料，訂價仍要顧及不同家庭；金句指出工具不能代人思考。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "The tool cannot think on their behalf about needs missing from its information.",
+            "zh": "工具無法替老師考慮沒有輸入的需要。"
+          },
+          {
+            "id": "b",
+            "en": "The shortest schedule must always be the fairest one.",
+            "zh": "最短的時間表必然最公平。"
+          },
+          {
+            "id": "c",
+            "en": "Because one need was missed, no scheduling tool can ever help teachers.",
+            "zh": "因有一項需要被漏掉，任何排程工具都不可能幫到老師。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "工具可排程，但缺少無障礙資訊時，老師仍須作實際判斷。",
+        "promptZh": "學校排程工具提出最省時間的場地安排，卻不知道輪椅使用者需要無障礙通道；老師須重新檢查安排。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A calculator totals prices, while you decide whether the purchase fits your budget.",
+            "zh": "計算機合計價格，你仍自行判斷購買是否符合預算。"
+          },
+          {
+            "id": "b",
+            "en": "A person asks an experienced adviser to weigh the circumstances, then jointly discusses a decision.",
+            "zh": "有人請有經驗的顧問衡量情況，然後雙方共同商討決定。"
+          },
+          {
+            "id": "c",
+            "en": "A map app suggests a fast route, while you assess whether it is safe in heavy rain.",
+            "zh": "地圖程式建議最快路線，你仍評估大雨中是否安全。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "這是人與人共同商討，不是工具運算後仍需由使用者判斷的情況。",
+        "promptZh": "哪個情況最不支持說 a tool cannot think on your behalf？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "It can organise the data, but it cannot think on your behalf about your interests and circumstances.",
+            "zh": "它可整理數據，但不能替你考慮自己的興趣和處境。"
+          },
+          {
+            "id": "b",
+            "en": "Its list proves the highest-scoring subject is right for every student.",
+            "zh": "它的清單證明分數最高的科目適合每個學生。"
+          },
+          {
+            "id": "c",
+            "en": "If the data are useful, you need not discuss the choice with anyone else.",
+            "zh": "數據既然有用，你便毋須再與任何人討論選科。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "程式提供資訊有用，但興趣與處境仍須由學生考慮，可再向人請教。",
+        "promptZh": "朋友說：「選科程式列出各科升學數據，應該可以直接替我選好科目吧？」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "A map can show routes, but it cannot think on your behalf about what matters most on the trip.",
+        "zh": "地圖能顯示路線，但不能替你判斷旅程中甚麼最重要。",
+        "promptZh": "先聽示範，再區分工具提供的資料與人的判斷。",
+        "targetSpan": {
+          "start": 37,
+          "end": 57
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區中心用軟件比較兩個活動場地的租金和容量，軟件指出較便宜的一個，但該場地沒有適合長者的升降機。籌委會仍要判斷哪個場地合適。用一至兩句英文描述軟件的幫助與判斷界線。",
+        "selfCheckZh": "指出軟件提供租金及容量比較、較便宜場地欠缺升降機，以及籌委會須考慮長者需要；不要說軟件完全無用。",
+        "examples": [
+          {
+            "en": "The community centre’s committee compared rent and capacity with software, but the cheaper hall lacked a lift; the tool could not think on their behalf about older guests’ access.",
+            "zh": "社區中心籌委會用軟件比較租金與容量，但較便宜的場地沒有升降機；工具無法替籌委會考慮長者的出入需要。"
+          },
+          {
+            "en": "Although the program found a cheaper venue with enough seats, it could not think on our behalf about the missing lift, so we weighed the older visitors’ needs ourselves.",
+            "zh": "程式找出一個較便宜、座位足夠的場地，但它無法替我們考慮欠缺升降機的問題，因此我們自行衡量年長訪客的需要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "rent and capacity",
+            "zh": "租金和容量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 59
+            }
+          },
+          {
+            "en": "older guests’ access",
+            "zh": "長者的出入需要",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 178
+            }
+          },
+          {
+            "en": "the cheaper hall",
+            "zh": "較便宜的場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 95
+            }
+          },
+          {
+            "en": "enough seats",
+            "zh": "座位足夠",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 60
+            }
+          },
+          {
+            "en": "older visitors’ needs",
+            "zh": "年長訪客的需要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 158
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Search results can inform us, but they cannot think on our behalf.",
+          "zh": "搜尋結果可提供資料，但不能替我們作判斷。"
+        },
+        {
+          "en": "A calculator cannot think on your behalf when the question involves people’s needs.",
+          "zh": "涉及人的需要時，計算機無法替你思考。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2553",
+      "number": 2553,
+      "inventoryId": "expr-2553",
+      "titleEn": "at stake",
+      "titleZh": "攸關成敗／可能受損",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat stake\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "At risk or dependent on the outcome of a decision or event.",
+        "meaningZh": "重要的事物可能因決定或結果而得失。",
+        "grammar": "Pattern: X is/was/will be at stake; the inversion at stake is X is also natural. X names an important interest that the decision may put at risk.",
+        "register": "Neutral to formal discussion of meaningful decisions. A resident, parent or organiser may say it to other stakeholders before a vote or policy choice; avoid implying loss is certain.",
+        "boundaryZh": "at stake 可關乎信任、經費或安全；與 a matter of life and death 的生死級別不同，不必把風險誇大。",
+        "misconceptionZh": "不要把任何小偏好都說成 at stake；亦不要把有風險當成損失必然發生。",
+        "outcomeZh": "能指出甚麼重要事物可能受影響，以及哪項決定造成風險。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0442",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 41,
+          "book": 11,
+          "question": 1,
+          "sample": "S1",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Children's safety is at stake in this decision.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at stake"
+        }
+      ],
+      "listening": {
+        "en": "The town council was deciding whether to close the only evening bus route. Workers who finish late might lose a reliable way home. Their access to transport was at stake in the vote.",
+        "zh": "市議會正決定是否取消唯一的晚間巴士線。晚下班的員工可能失去可靠的回家方法；他們的交通選擇在投票中面臨風險。",
+        "promptZh": "甚麼 at stake？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Late workers’ reliable transport home could be lost.",
+            "zh": "晚下班員工可靠的回家交通可能失去。"
+          },
+          {
+            "id": "b",
+            "en": "The council had already cancelled every bus route.",
+            "zh": "市議會已取消所有巴士線。"
+          },
+          {
+            "id": "c",
+            "en": "Only the colour of the bus timetable might change.",
+            "zh": "只有巴士時間表的顏色可能改變。"
+          },
+          {
+            "id": "d",
+            "en": "The vote would decide whether workers could change jobs.",
+            "zh": "投票會決定員工可否轉工。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "唯一晚間巴士線可能被取消，晚下班員工的重要交通選擇因此受影響；結果尚未確定。"
+      },
+      "reply": {
+        "promptEn": "Why did late-shift workers attend the council meeting?",
+        "promptZh": "（晚班員工為何出席市議會會議？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They wanted to speak for the bus route they depend on.",
+            "zh": "他們想為自己依賴的巴士路線發聲。"
+          },
+          {
+            "id": "b",
+            "en": "They could lose their reliable journey home if the route closed.",
+            "zh": "路線若取消，他們可能失去可靠的回家方法。"
+          },
+          {
+            "id": "c",
+            "en": "Their access to evening transport was at stake.",
+            "zh": "他們使用晚間交通的機會正面臨風險。"
+          },
+          {
+            "id": "d",
+            "en": "They hoped councillors would consider workers before voting.",
+            "zh": "他們希望議員投票前考慮晚班員工。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都合理回答出席原因；金句明確指出投票結果攸關的重要交通選擇。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Accessible outdoor space is at stake in the vote.",
+            "zh": "這次投票攸關無障礙戶外空間。"
+          },
+          {
+            "id": "b",
+            "en": "Every resident is certain to lose access to all parks.",
+            "zh": "所有居民一定會失去使用所有公園的機會。"
+          },
+          {
+            "id": "c",
+            "en": "The only issue is the colour of the new car park signs.",
+            "zh": "唯一問題是新停車場告示牌的顏色。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "無障礙花園可能被改建，重要的戶外空間面臨損失；不要把可能風險說成已確定的全面失去。",
+        "promptZh": "居民正表決是否把社區唯一的無障礙花園改建為停車場，輪椅使用者可能失去方便進入的戶外空間。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "A vote may remove the only free clinic in the district.",
+            "zh": "投票可能令區內唯一免費診所關閉。"
+          },
+          {
+            "id": "b",
+            "en": "Two equally priced pens differ only in barrel colour, which the buyer does not mind.",
+            "zh": "兩支同價原子筆只差筆身顏色，買家並不介意。"
+          },
+          {
+            "id": "c",
+            "en": "A school decision may cut the only wheelchair-accessible entrance.",
+            "zh": "學校決定可能取消唯一的輪椅通道入口。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "選擇不影響買家在意的重要利益；另外兩項有實質服務或通道可能受損。",
+        "promptZh": "哪個情況最不適合用 at stake？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Families’ access to free care is at stake; let us explain its value before the vote.",
+            "zh": "家庭使用免費照顧服務的機會面臨風險；表決前我們應解釋它的價值。"
+          },
+          {
+            "id": "b",
+            "en": "The service has already closed, so no decision remains.",
+            "zh": "服務已經關閉，因此已沒有決定要作。"
+          },
+          {
+            "id": "c",
+            "en": "Because the vote is pending, nothing important could possibly be affected.",
+            "zh": "表決尚未進行，所以絕不可能影響重要事物。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "唯一免費服務可能被削減，家庭利益正面臨風險；尚未表決不代表已失去或毫無風險。",
+        "promptZh": "朋友說：「社區中心可能削減唯一的免費課後照顧服務，但委員會還未表決。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "When the only accessible route is threatened, more than convenience is at stake.",
+        "zh": "唯一無障礙通道受威脅時，攸關的不只是方便與否。",
+        "promptZh": "先聽示範，再指出哪項重要利益可能受損。",
+        "targetSpan": {
+          "start": 71,
+          "end": 79
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校正考慮取消唯一的免費午膳補助，尚未決定。部分家庭依靠該補助讓孩子每天有足夠食物。家長在會議上說明風險。用一至兩句英文描述甚麼可能受影響，以及決定仍未作出。",
+        "selfCheckZh": "指出免費午膳補助可能取消、依靠補助的孩子每日飲食可能受影響，以及決定尚未確定；不要說每個孩子已經挨餓。",
+        "examples": [
+          {
+            "en": "Children’s access to a daily meal is at stake as the school considers ending its only free lunch support; parents raised the concern before any final decision.",
+            "zh": "學校考慮取消唯一的免費午膳補助，孩子每天獲得一餐的機會因而面臨風險；家長在最終決定前提出憂慮。"
+          },
+          {
+            "en": "The school has not decided yet, but food support for families who rely on the free lunches is at stake, so parents explained the possible impact.",
+            "zh": "學校尚未決定，但依靠免費午膳的家庭可能失去食物支援，因此家長說明潛在影響。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "access to a daily meal",
+            "zh": "每天獲得一餐的機會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 33
+            }
+          },
+          {
+            "en": "free lunch support",
+            "zh": "免費午膳補助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 104
+            }
+          },
+          {
+            "en": "final decision",
+            "zh": "最終決定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 158
+            }
+          },
+          {
+            "en": "families who rely on the free lunches",
+            "zh": "依靠免費午膳的家庭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 90
+            }
+          },
+          {
+            "en": "possible impact",
+            "zh": "潛在影響",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 144
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A trusted service is at stake when a council considers closing it.",
+          "zh": "議會考慮關閉受信賴的服務時，該服務便面臨風險。"
+        },
+        {
+          "en": "At stake here is access to the only free class in the area.",
+          "zh": "這裏攸關的是使用區內唯一免費課堂的機會。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2563",
+      "number": 2563,
+      "inventoryId": "expr-2563",
+      "titleEn": "throw the baby out with the bathwater",
+      "titleZh": "去除問題時連好處也丟掉",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:throw|throws|threw|throwing) the baby out with the bathwater\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Discard something valuable while trying to remove a problem.",
+        "meaningZh": "試圖排除問題時，連有價值的部分也一併丟掉。",
+        "grammar": "Pattern: throw/throws/threw/throwing the baby out with the bathwater. The idiom is a fixed verb phrase; the subject is the person or decision that discards value while removing a problem.",
+        "register": "Informal to neutral discussion and advice. A colleague, moderator or organiser may say it to a group considering an overbroad fix, then name the useful part to keep.",
+        "boundaryZh": "重點是刪除壞處時誤丟好處；不是說任何改革都不好，也不是字面嬰兒和洗澡水。",
+        "misconceptionZh": "不要只說「別改」；應清楚指出要處理的問題和要保留的價值。",
+        "outcomeZh": "能指出壞處、值得保留的部分，以及更精準的修改方法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0452",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 42,
+          "book": 11,
+          "question": 1,
+          "sample": "S2",
+          "sourceBookPages": "3–4",
+          "locatorNote": "DOCX table 37, row 12; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Do not throw the baby out with the bathwater when revising the rules.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "throw the baby out with the bathwater"
+        }
+      ],
+      "listening": {
+        "en": "The residents’ online group had spam posts, but its archive held useful repair advice. Deleting the entire group would throw the baby out with the bathwater; the moderators chose to remove spam and keep the archive.",
+        "zh": "居民網上群組有垃圾訊息，但舊帖保存了有用的維修建議。刪除整個群組會在去除問題時連好處也丟掉；管理員選擇刪垃圾訊息、保留舊帖。",
+        "promptZh": "為何刪除整個群組會 throw the baby out with the bathwater？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It would remove useful advice along with the spam.",
+            "zh": "它會在刪去垃圾訊息時也刪去有用建議。"
+          },
+          {
+            "id": "b",
+            "en": "It would require residents to report spam before a moderator acts.",
+            "zh": "它會要求居民在管理員處理前先舉報垃圾訊息。"
+          },
+          {
+            "id": "c",
+            "en": "It would keep the archive while removing only unwanted posts.",
+            "zh": "它會保留舊帖，只刪除不需要的訊息。"
+          },
+          {
+            "id": "d",
+            "en": "It would make the group easier to search without losing any information.",
+            "zh": "它會令群組更易搜尋，而且不失去任何資料。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "整個刪除會同時失去有用舊帖；精準處理垃圾訊息能保留價值。"
+      },
+      "reply": {
+        "promptEn": "How should we handle spam in the residents’ group without losing its repair archive?",
+        "promptZh": "（我們如何處理居民群組的垃圾訊息，同時保留維修舊帖？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Remove spam posts while keeping the useful repair threads.",
+            "zh": "刪去垃圾訊息，同時保留有用的維修討論。"
+          },
+          {
+            "id": "b",
+            "en": "Strengthen moderation and preserve the advice residents still use.",
+            "zh": "加強管理，保留居民仍會參考的建議。"
+          },
+          {
+            "id": "c",
+            "en": "Do not throw the baby out with the bathwater; filter the spam instead of deleting the group.",
+            "zh": "不要去除問題時連好處也丟掉；應過濾垃圾訊息，而非刪除整個群組。"
+          },
+          {
+            "id": "d",
+            "en": "Archive the helpful threads and restrict repeat spammers.",
+            "zh": "封存有用討論，並限制屢次發垃圾訊息的人。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都處理垃圾訊息並保留有用資訊；金句概括不能在解決壞處時丟掉好處。"
+      },
+      "scene": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Deleting the whole site would throw the baby out with the bathwater; moderate the comments and keep the notes.",
+            "zh": "刪掉整個網站會連有用筆記也丟掉；應管理留言並保留筆記。"
+          },
+          {
+            "id": "b",
+            "en": "All comments should remain visible because the reading notes are useful.",
+            "zh": "讀書筆記有用，所以所有留言都應保留。"
+          },
+          {
+            "id": "c",
+            "en": "The only valuable part of the site is the inappropriate comments.",
+            "zh": "網站唯一有價值的部分是不當留言。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "整站刪除會同時失去有用筆記；保留所有不當留言則沒有處理問題。",
+        "promptZh": "學校閱讀網站的留言區出現少量不當訊息，但多年來的讀書筆記仍有用。有人建議刪除整個網站。哪句最貼切？"
+      },
+      "contrast": {
+        "options": [
+          {
+            "id": "a",
+            "en": "Remove inaccurate pages from a guide but retain its tested instructions.",
+            "zh": "從指南刪去不準確頁面，保留已驗證的指示。"
+          },
+          {
+            "id": "b",
+            "en": "Delete an entire helpful guide because one section contains a correctable error.",
+            "zh": "指南有一節可更正的錯誤，便把整份有用指南刪掉。"
+          },
+          {
+            "id": "c",
+            "en": "Block abusive comments while preserving useful discussion.",
+            "zh": "封鎖惡意留言，同時保留有用討論。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "因可更正的一節而刪除整份有用指南，就是解決問題時也丟掉價值。",
+        "promptZh": "哪項做法最不符合避免 throw the baby out with the bathwater？"
+      },
+      "dialogue": {
+        "options": [
+          {
+            "id": "a",
+            "en": "That would throw the baby out with the bathwater; rewrite those two questions and keep the useful ones.",
+            "zh": "那會在去除問題時連好處也丟掉；改寫那兩題，保留有用題目吧。"
+          },
+          {
+            "id": "b",
+            "en": "The unclear questions are harmless, so no change is needed.",
+            "zh": "兩條不清楚的題目沒有影響，毋須修改。"
+          },
+          {
+            "id": "c",
+            "en": "Every other question must be flawed too, because two are unclear.",
+            "zh": "有兩條題目不清楚，便表示其餘題目一定也有問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "兩條題目需改，但其餘題目仍有用；精準修改勝過整份棄用。",
+        "promptZh": "同事說：「活動問卷裏有兩條問題寫得不清楚，我們不如整份問卷都不要用了。」你怎樣回應較貼切？"
+      },
+      "speaking": {
+        "en": "Removing useful lessons along with one error would throw the baby out with the bathwater.",
+        "zh": "因一個錯誤而連有用課堂內容也刪去，就是去除問題時連好處也丟掉。",
+        "promptZh": "先聽示範，再指出哪部分應修正、哪部分應保留。",
+        "targetSpan": {
+          "start": 51,
+          "end": 88
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區花園的網上報名表有一條含糊問題，但其餘問題可幫義工安排合適工作。有人主張取消整份表格。團隊決定改寫含糊一題，保留有用資料。用一至兩句英文說明較精準的做法。",
+        "selfCheckZh": "指出一條問題含糊、其他問題有助分配工作，以及改寫該題並保留表格；不要說所有問題都壞。",
+        "examples": [
+          {
+            "en": "Scrapping the whole sign-up form would throw the baby out with the bathwater: one question is unclear, but the others help assign volunteers, so the team rewrote that item.",
+            "zh": "整份報名表廢掉會在去除問題時連好處也丟掉：只有一題含糊，其他題有助分配義工，因此團隊改寫那一題。"
+          },
+          {
+            "en": "The group avoided throwing the baby out with the bathwater by revising the confusing question and keeping the useful answers that guide volunteer roles.",
+            "zh": "團隊改寫含糊的問題，保留有助分配義工工作的答案，避免在去除問題時連好處也丟掉。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "sign-up form",
+            "zh": "報名表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 32
+            }
+          },
+          {
+            "en": "one question is unclear",
+            "zh": "一題含糊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 101
+            }
+          },
+          {
+            "en": "assign volunteers",
+            "zh": "分配義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          {
+            "en": "the confusing question",
+            "zh": "含糊的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 93
+            }
+          },
+          {
+            "en": "volunteer roles",
+            "zh": "義工工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 151
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Do not throw the baby out with the bathwater when only one section needs fixing.",
+          "zh": "如果只有一節需要修正，就不要連有用部分也丟掉。"
+        },
+        {
+          "en": "They threw the baby out with the bathwater by deleting the archive to remove a few spam posts.",
+          "zh": "他們為刪少量垃圾訊息而把舊帖一併刪除，連有用部分也丟掉。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

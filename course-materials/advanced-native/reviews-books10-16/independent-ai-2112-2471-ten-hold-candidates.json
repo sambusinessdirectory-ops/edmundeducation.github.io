@@ -1,0 +1,175 @@
+{
+  "reviewType": "independent AI hold-candidate curation assessment",
+  "humanApproval": false,
+  "selectionApproval": false,
+  "releaseApproval": false,
+  "scope": "The ten missed-teachable hold candidates in Author B’s 2112–2471 hold audit",
+  "inputHashes": {
+    "authorBAuditSha256": "7ba30c6e4e44e9ba8018d2eab5e51824d29eb0669cffecddb7ec8d23ac47dca7",
+    "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonicalIndexSha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+    "goldenSopExtractSha256": "04d1a7542cdd303153bb22f235fdb12f7db492badc75bc08ef13c8e9554a5863"
+  },
+  "sopCriterion": "SOP P79 admits figurative use and reusable Natural English collocations; P81–P83 require lemma, grammar, boundary, learner decision, and exact target spans before lesson authoring.",
+  "method": "Compared each exact source with current decision reason and nearby canonical owner. Consulted primary dictionary entries and original usage examples where idiomaticity or sense was uncertain. Recommendations are triage, not automatic selection.",
+  "counts": {
+    "sourceRows": 10,
+    "candidateDistinctTeachingUnits": 5,
+    "dependentDuplicateSources": 2,
+    "heldPendingSenseOrOwnerScope": 3
+  },
+  "assessments": [
+    {
+      "sourceOrdinal": 2341,
+      "sourceId": "book10-16-0230",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "recommendedDisposition": "relemma-candidate",
+      "proposedTeachingLemma": "inhabit a part/role",
+      "evidenceAndReason": "The source clearly resolves it to the part. This is a transferable figurative acting verb; stage one possible owner and preserve the source pronoun as contextual variant, with a target detector that does not globally match arbitrary inhabit it.",
+      "usageEvidence": {
+        "url": "https://www.theguardian.com/music/2024/mar/15/puccini-madama-butterfly-review-royal-opera-house-london-grigorian-inhabits-the-part-to-a-degree-one-does-not-often-experience",
+        "evidence": "Original performance criticism independently uses inhabit the part for complete enactment; source pronoun it refers back to the part."
+      }
+    },
+    {
+      "sourceOrdinal": 2343,
+      "sourceId": "book10-16-0232",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2292-2351.jsonl",
+      "decisionFileSha256": "c1a89db13daac5eff48023ab0bc030fe030f88a82e02713bacb51100248624ac",
+      "recommendedDisposition": "relemma-candidate",
+      "proposedTeachingLemma": "let [work/performance/results] do the talking",
+      "evidenceAndReason": "A variable inanimate subject communicates through its merit. Re-lemma as do the talking or let X do the talking, not the whole sentence; clarify that no literal speech occurs and distinguish speak for itself.",
+      "usageEvidence": {
+        "url": "https://www.aaa.si.edu/download_pdf_transcript/ajax?record_id=edanmdm-AAADCD_oh_268663",
+        "evidence": "Smithsonian oral-history speaker uses let the work do the talking for work serving as evidence without self-promotion; source uses the same personification with performance as subject."
+      }
+    },
+    {
+      "sourceOrdinal": 2377,
+      "sourceId": "book10-16-0266",
+      "sourceExample": "He does more than recite the part; he inhabits it.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "recommendedDisposition": "alias-new-candidate-dependent",
+      "proposedTeachingLemma": "inhabit a part/role",
+      "evidenceAndReason": "Exact repeat of 2341. If 2341 gets a reviewed owner, attach this source as provenance to that owner, never draft a second lesson.",
+      "usageEvidence": {
+        "url": "https://www.theguardian.com/music/2024/mar/15/puccini-madama-butterfly-review-royal-opera-house-london-grigorian-inhabits-the-part-to-a-degree-one-does-not-often-experience",
+        "evidence": "Original performance criticism independently uses inhabit the part for complete enactment; source pronoun it refers back to the part."
+      }
+    },
+    {
+      "sourceOrdinal": 2379,
+      "sourceId": "book10-16-0268",
+      "sourceExample": "Her modest interviews are brief, but the performance usually does the talking.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "recommendedDisposition": "alias-new-candidate-dependent",
+      "proposedTeachingLemma": "let [work/performance/results] do the talking",
+      "evidenceAndReason": "Exact repeat of 2343; follow one reviewed owner with both source occurrences.",
+      "usageEvidence": {
+        "url": "https://www.aaa.si.edu/download_pdf_transcript/ajax?record_id=edanmdm-AAADCD_oh_268663",
+        "evidence": "Smithsonian oral-history speaker uses let the work do the talking for work serving as evidence without self-promotion; source uses the same personification with performance as subject."
+      }
+    },
+    {
+      "sourceOrdinal": 2401,
+      "sourceId": "book10-16-0290",
+      "sourceExample": "The director used silence to tighten the screws.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2352-2411.jsonl",
+      "decisionFileSha256": "dc668b82c4619bcf1a355b3be3dbe788c2231be5027ef9a11fd78032788b7deb",
+      "recommendedDisposition": "keep-hold",
+      "proposedTeachingLemma": "tighten the screws on someone",
+      "evidenceAndReason": "The established idiom normally names the pressured person; the source could mean pressure on characters, audience, or tension in general. Its omitted recipient makes lesson boundary unstable. Ask source editor for intended pressure target or use a new, explicit teaching sentence after source sense is confirmed.",
+      "usageEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/put-tighten-the-screws-on",
+        "evidence": "Cambridge defines pressure on a person. Source omits the pressured target and may instead describe cinematic suspense, so sense/recipient need confirmation."
+      }
+    },
+    {
+      "sourceOrdinal": 2418,
+      "sourceId": "book10-16-0307",
+      "sourceExample": "The investigator slowly untangles the lies.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "recommendedDisposition": "relemma-candidate",
+      "proposedTeachingLemma": "untangle [a complicated account / conflicting claims]",
+      "evidenceAndReason": "The figurative verb and source sentence are plausible; classify as figurative use, not a fixed idiom. A future lesson should specify what is being clarified and contrast untangling claims with merely discovering a lie.",
+      "usageEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/untangle",
+        "evidence": "Cambridge supports figurative transitive untangle for clarifying a complicated subject or its parts; the lies construction is a plausible application but not a fixed idiom."
+      }
+    },
+    {
+      "sourceOrdinal": 2423,
+      "sourceId": "book10-16-0312",
+      "sourceExample": "The new system will take the heavy lifting out of routine checks.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "recommendedDisposition": "relemma-candidate",
+      "proposedTeachingLemma": "take the heavy lifting out of [task]",
+      "evidenceAndReason": "The exact pattern is attested in original usage and differs grammatically from 1376 take the heavy lifting off people’s shoulders. It may justify a new grammar/sense owner after comparison, but do not alias to 1376 as-is.",
+      "usageEvidence": {
+        "url": "https://info.bmj.com/view/359109102/24/",
+        "evidence": "A BMJ Group report includes first-hand institutional wording take the heavy lifting out of accessing information, confirming the same remove-demanding-work frame. Cambridge separately defines heavy lifting as the difficult part of a task."
+      }
+    },
+    {
+      "sourceOrdinal": 2425,
+      "sourceId": "book10-16-0314",
+      "sourceExample": "The shortcut helped cut down the time needed for review.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "recommendedDisposition": "keep-hold-owner-scope",
+      "proposedTeachingLemma": "cut down [time/amount]",
+      "evidenceAndReason": "The transitive construction is dictionary-attested; idiomaticity hold can close. Resolve whether canonical 1111 can be explicitly broadened with a transitive detector and exercise boundary or whether a distinct syntax lesson is warranted; current 1111 cut down on detector misses it.",
+      "usageEvidence": {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/cut-down?topic=becoming-and-making-smaller-or-less",
+        "evidence": "Cambridge Business English explicitly attests transitive cut down the time spent in meetings, distinct in construction from cut down on."
+      }
+    },
+    {
+      "sourceOrdinal": 2435,
+      "sourceId": "book10-16-0324",
+      "sourceExample": "Sorting receipts became a never-ending chore.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "recommendedDisposition": "relemma-candidate-low-distinctiveness",
+      "proposedTeachingLemma": "a never-ending [chore/task]",
+      "evidenceAndReason": "Fluent natural-English collocation and SOP P79 permits transparent reusable patterns. Trial as an adjective-plus-task construction only if a seven-step brief can teach a distinct choice between seeming endless and merely long/repeated; otherwise keep held for low learner value.",
+      "usageEvidence": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/never-ending",
+        "evidence": "Cambridge defines never-ending as never ending or seeming not to end and illustrates it with a task; the source collocation is fluent though transparent."
+      }
+    },
+    {
+      "sourceOrdinal": 2467,
+      "sourceId": "book10-16-0356",
+      "sourceExample": "The argument began to fall apart under closer inspection.",
+      "currentAction": "hold-editorial",
+      "decisionFile": "course-materials/advanced-native/books10-16/editorial-decisions-2412-2471.jsonl",
+      "decisionFileSha256": "f6051d2cf9fd7614cfc1e538a3aa2c7b626ebd0b80631356245eaa28bb5f4259",
+      "recommendedDisposition": "keep-hold-owner-scope",
+      "proposedTeachingLemma": "[argument/plan] fall apart under [scrutiny/pressure]",
+      "evidenceAndReason": "Natural figurative structural-failure usage. The under closer inspection adjunct describes trigger, not demonstrably a new fixed target. Compare proposed bare plan-failure owner 3186; if broadened to arguments failing, attach this source there rather than creating another near-duplicate.",
+      "usageEvidence": {
+        "url": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/disability-and-second-language-learning-implications-for-interdisciplinary-research-in-applied-linguistics/DC1E899F0CCA07BB4CE501BBE0878C5E",
+        "evidence": "Original scholarly prose uses argument falls apart for failed reasoning. This supports source naturalness, but does not establish a separate under closer inspection idiom."
+      }
+    }
+  ],
+  "overallRecommendation": "Consider five distinct re-lemma candidates (2341,2343,2418,2423,2435), route 2377/2379 as duplicates only after those owners are approved; keep 2401/2425/2467 held for the specified sense or ownership decisions. No lesson is approved merely by this AI audit.",
+  "limits": "No draft lesson, human editorial approval, or release review is implied."
+}
