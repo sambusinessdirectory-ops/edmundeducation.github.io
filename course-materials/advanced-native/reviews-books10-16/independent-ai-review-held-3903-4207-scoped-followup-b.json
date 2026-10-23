@@ -1,0 +1,30 @@
+{
+  "reviewType": "independent-ai-exact-hash-scoped-repair-followup",
+  "status": "3903_accepted;4207_repair_remaining",
+  "inputs": {
+    "draftPath": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+    "draftSha256": "fee0ce3f68e95370ed6bfacd90dc2ff339210aeb4442396be9218ce99972572b",
+    "authorAuditPath": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-held-3903-4207-review-pilot.json",
+    "authorAuditSha256": "1675349e83ff0c3053e6a3c25b338c16ad260ea2b1cd76fc63f3b05beb84363d",
+    "priorIndependentReviewSha256": "4cd0c442e9f99ad662599298dd7692e67c741041bbec5037f02149540be4d9b0"
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3903,
+      "findingId": "R3903-01",
+      "verdict": "resolved_accept",
+      "evidence": "The new community-orchard scene asks about Miri's emerging desire for outdoor work without implying that a career plan has been proposed or approved. Its keyed English 'a half-formed desire' and Traditional Chinese '剛萌生…願望' agree with the guide's half-formed-desires sense. The earlier plan applications remain available; source and target match."
+    },
+    {
+      "sourceOrdinal": 4207,
+      "findingId": "R4207-01",
+      "verdict": "core_grammar_repair_resolved_but_new_narrow_residual",
+      "evidence": "The revised live JS pattern rejects the previous bare singular objects ('unpack task', 'unpack idea') and passive disagreement ('task are unpacked', 'instructions is unpacked'). It still matches the exact source and all assessed target strings. However, the active determiner branch also accepts 'We unpack a instructions.' and 'We unpack an task.'",
+      "newFindingId": "R4207-02",
+      "severity": "minor_target_boundary",
+      "requiredRepair": "Pair a/an with grammatical singular nouns and route plural instructions through bare, the, these/those or possessive forms. Add the two malformed sentences as negative JS controls, preserve the eight author positives and source sentence, and recheck the final pattern. No learner text or audio change is otherwise required."
+    }
+  ],
+  "unchangedLessons": "3963, 4122 and 4257 objects were not part of this scoped repair; 4257 remains on editorial hold under the initial review.",
+  "scopeLimit": "No draft, source decision, selected manifest, SOP audit, media or release file was modified in this review."
+}

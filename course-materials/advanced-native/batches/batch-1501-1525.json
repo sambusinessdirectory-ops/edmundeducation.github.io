@@ -488,12 +488,12 @@
       "id": "advanced-native-1503",
       "number": 1503,
       "inventoryId": "expr-1503",
-      "contentRevision": 4,
+      "contentRevision": 5,
       "titleEn": "woven into everyday life",
       "titleZh": "融入日常習慣",
       "category": "figurative",
       "target": {
-        "pattern": "(?:\\b(?:deeply )?woven into (?:daily routines|(?:ordinary )?daily life|ordinary life|everyday living|everyday life)\\b)|(?:\\bwoven quite naturally into everyday life\\b)"
+        "pattern": "(?:\\b(?:deeply\\s+)?woven\\s+into\\s+(?:daily routines|(?:ordinary\\s+)?daily life|ordinary life|everyday living|everyday life|community life)\\b)|(?:\\bwoven\\s+quite\\s+naturally\\s+into\\s+everyday\\s+life\\b)"
       },
       "sources": [
         {
@@ -593,16 +593,30 @@
           "sentence": "Shopping is woven quite naturally into everyday life in the district.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "woven quite naturally into everyday life"
+        },
+        {
+          "occurrenceId": "book10-16-1710",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 161,
+          "book": 14,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 172, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The programme is deeply woven into community life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "deeply woven into community life"
         }
       ],
       "brief": {
-        "meaningEn": "Integrated into ordinary repeated activities.",
-        "meaningZh": "融入平常重複進行的生活活動。",
-        "grammar": "Be woven into daily routines, ordinary life, everyday living or everyday life; deeply stresses how fully a practice is integrated, while quite naturally describes smooth integration. The fabric image is figurative, not literal thread.",
-        "register": "Neutral integration metaphor; a resident may use it to describe a habitual service or family practice to a visitor, without claiming everyone follows the same routine.",
-        "boundaryZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
-        "misconceptionZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
-        "outcomeZh": "理解「融入日常習慣」的語境及用法，並在新情境寫出自然句子。"
+        "meaningEn": "Integrated into ordinary repeated activities or an established pattern of shared community life.",
+        "meaningZh": "融入平常反覆進行的活動，或長期建立的社區共同生活模式。",
+        "grammar": "Be woven into daily routines, ordinary/everyday life, everyday living, or community life; deeply stresses the degree of integration. The image is figurative, not literal thread.",
+        "register": "Neutral integration metaphor; a resident may describe a household practice or recurring community service to a visitor, without claiming everyone participates.",
+        "boundaryZh": "比喻活動在日常或社區共同生活中已有穩定位置；不是只在一次特別場合展示，也不表示所有居民都參與。",
+        "misconceptionZh": "不是把一次展覽或尚未開始的服務說成已融入社區，也不表示每位居民都參與。",
+        "outcomeZh": "能判斷活動是否已在日常習慣或社區共同生活中有穩定位置，並在新情境寫出自然句子。"
       },
       "listening": {
         "en": "A short walk is woven into daily routines in this household: they walk together after dinner.",
@@ -662,26 +676,26 @@
         "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
       },
       "scene": {
-        "promptZh": "一家人在平日晚飯時輪流講當天經歷，已成慣常安排。哪句貼切？",
+        "promptZh": "社區食物分享計劃每星期運作，居民多年來輪流值班和捐贈食物。哪句最貼切？",
         "options": [
           {
             "id": "choice-1",
-            "en": "Sharing stories is woven into daily routines.",
-            "zh": "分享故事已融入日常習慣。"
+            "en": "After years of shared shifts and regular donations, the food exchange has become deeply woven into community life.",
+            "zh": "經過多年輪流值班和定期捐贈，食物分享計劃已深深融入社區生活。"
           },
           {
             "id": "choice-2",
-            "en": "Sharing stories is reserved for the annual reunion.",
-            "zh": "分享故事只留待年度聚會。"
+            "en": "The food exchange was held once for a festival and then discontinued.",
+            "zh": "食物分享只在節慶時辦過一次，之後便停止。"
           },
           {
             "id": "choice-3",
-            "en": "Sharing stories is an idea the family has not tried yet.",
-            "zh": "分享故事是這家人尚未試過的想法。"
+            "en": "Residents have proposed a food exchange, but it has not begun.",
+            "zh": "居民已提出食物分享構想，但尚未開始。"
           }
         ],
         "answerId": "choice-1",
-        "explanationZh": "平日重複做，與只限年度活動或尚未開始不同。"
+        "explanationZh": "多年來定期運作並由居民共同參與，顯示計劃在社區生活中已有穩定位置。"
       },
       "contrast": {
         "promptZh": "哪種情況最不像 woven into daily routines？",

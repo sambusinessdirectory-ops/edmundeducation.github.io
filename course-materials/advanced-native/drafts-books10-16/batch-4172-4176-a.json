@@ -545,15 +545,15 @@
       "titleZh": "轉述時失去原意",
       "category": "idiom",
       "target": {
-        "pattern": "\\b(?:get|gets|got|getting) lost in translation\\b",
+        "pattern": "(?:\\b(?:get|gets|got|getting)\\s+lost\\s+in\\s+translation\\b)|(?:\\b(?:emotional\\s+)?(?:nuance|tone|meaning|condition|detail|message)\\s+(?:(?:may|can|could)\\s+)?(?:get|gets|got|getting)\\s+lost\\s+along\\s+the\\s+way\\b)",
         "glossaryForbidden": []
       },
       "brief": {
         "meaningEn": "Lose an important meaning, condition or nuance as a message is conveyed between people, formats or languages.",
         "meaningZh": "訊息在人與人、表達形式或語言之間轉述時，重要意思、條件或細微語氣未能保留。",
-        "grammar": "Get lost in translation; get inflects got/getting. The subject can be a condition, nuance, message or idea. Translation can be figurative, such as from a spoken proposal into meeting minutes, as well as between languages.",
-        "register": "Neutral figurative English. A project colleague may use it when correcting a meeting summary for the chair; an editor may also use it of a language translation.",
-        "boundaryZh": "重點是原訊息在傳達或轉述後變了樣；可指會議意見被摘要失真，不限跨語言翻譯。須能指出流失的是哪項意思。",
+        "grammar": "Get lost in translation; or say that a nuance, tone, meaning, condition, detail or message gets lost along the way as information is passed on. Get inflects got/getting. Translation may be figurative or between languages.",
+        "register": "Neutral figurative English; a project colleague or editor may use either form when a condition or nuance disappears as a message moves between people or formats.",
+        "boundaryZh": "重點是原訊息在傳達或轉述後流失了具體意思、條件或語氣；along the way 這個說法也須有清楚的傳遞過程，不是物件在路上遺失。",
         "misconceptionZh": "不是有人真的在翻譯途中迷路，也不可斷言只有不同語言之間才會出現這種情況。",
         "outcomeZh": "能對照原說法與轉述版本，指出流失的條件或語氣，並提出修正。"
       },
@@ -571,6 +571,20 @@
           "sentence": "Good ideas can get lost in translation during a rushed meeting.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "get lost in translation"
+        },
+        {
+          "occurrenceId": "book10-16-2228",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 210,
+          "book": 16,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "35–36",
+          "locatorNote": "DOCX table 230, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Emotional nuance may get lost along the way.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get lost along the way"
         }
       ],
       "review": {
@@ -599,7 +613,7 @@
           "AI-authored provisional draft; independent reviews remain pending."
         ]
       },
-      "contentRevision": 2,
+      "contentRevision": 3,
       "listening": {
         "en": "Leena proposed shorter opening hours for one month, then an attendance review. The rushed minutes announced a permanent cut. Her trial condition got lost in translation, so she asked the chair to correct the minutes.",
         "zh": "莉娜建議先試行縮短開放時間一個月，再檢討人流。匆忙寫成的會議紀錄卻宣布永久縮短。她提出的試行條件在轉述中流失，所以她請主席更正紀錄。",
@@ -707,8 +721,8 @@
         "options": [
           {
             "id": "a",
-            "en": "That repair condition got lost in translation; let us add it to the note.",
-            "zh": "維修條件在轉述中流失了；我們把它補進紀錄吧。"
+            "en": "That repair condition got lost along the way as the note passed between teams; let us add it.",
+            "zh": "交接紀錄在隊伍之間傳遞時漏掉了維修條件；我們把它補上吧。"
           },
           {
             "id": "b",

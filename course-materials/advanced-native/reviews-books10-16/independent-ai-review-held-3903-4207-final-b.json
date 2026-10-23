@@ -1,0 +1,47 @@
+{
+  "reviewType": "independent-ai-final-exact-hash-scoped-followup-and-extraction-equivalence",
+  "status": "3903_and_4207_content_clear; extracted_seven_objects_deep_equal; unselected",
+  "inputs": {
+    "originalDraft": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256": "a180ad66bd8e84c3c68aa527802313c7338bd1e597f8f26dffa66206fe8429e2"
+    },
+    "scopedAuthorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-scoped-repair-held-3903-4207-review-pilot.json",
+      "sha256": "b361a20a2af337f0879c974cf6ef91fab336c81668b1d415d7c14678b11d13f1"
+    },
+    "extractedSeven": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4702-seven-extracted-review-pilot.json",
+      "sha256": "5e8d12968719af8877d47be6e3eeb4c4b755a58a7de28fedb32f990f277790d7"
+    },
+    "extractionAuthorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-extraction-held-3903-4702-seven-review-pilot.json",
+      "sha256": "cfdaf6461ed94703cfddee3a535d00f0ecaa84e8e1c82101d4bec90e10a9401d"
+    },
+    "unchangedSecondSourceBatchSha256": "771b45e6243bd2f0e2638c22a6f78f2c1fc0418fad625c2153b739bab867ec6a",
+    "priorIndependentReviewSha256": "4cd0c442e9f99ad662599298dd7692e67c741041bbec5037f02149540be4d9b0"
+  },
+  "findings": [
+    {
+      "sourceOrdinal": 3903,
+      "contentRevision": 2,
+      "verdict": "accept",
+      "evidence": "The keyed community-orchard scene explicitly assesses an emerging half-formed desire for outdoor work, with no proposal or approval presupposed. English and Traditional Chinese match the source's desire sense; existing plan applications remain valid. The source sentence, reply/scene/dialogue target keys, speaking span, both writing models and target-free exact glossary rows still pass."
+    },
+    {
+      "sourceOrdinal": 4207,
+      "contentRevision": 3,
+      "verdict": "accept",
+      "evidence": "Live JavaScript target regex matches all 11 author positive controls and the exact full source sentence, and rejects all 12 author negatives. In particular it rejects bare singular objects, bad passive number agreement, 'unpack a instructions', 'unpack an task', 'unpack a idea' and 'unpack this tasks'. Both assessed target keys, reply golden, speaking span and writing models match; five glossary rows remain exact and target-free. No assessed learner sentence or audio-role text changed in this final regex-only repair."
+    }
+  ],
+  "extractionCheck": {
+    "lessonNumbers": [3903, 4122, 4207, 4511, 4539, 4589, 4702],
+    "count": 7,
+    "allSevenLessonObjectsDeepEqualSourceObjects": true,
+    "excludedAlreadySelected": [3963],
+    "excludedEditorialHolds": [4257, 4465],
+    "meaning": "The extraction adds no teaching-content difference from the independently reviewed exact source files."
+  },
+  "scopeLimit": "AI content clearance for provisional unpublished selection only. No draft, decision, manifest, audit, audio, hosting, database or deployment file was edited by this review."
+}

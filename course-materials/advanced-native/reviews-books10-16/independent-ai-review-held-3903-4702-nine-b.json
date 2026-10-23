@@ -1,0 +1,122 @@
+{
+  "reviewType": "independent-ai-risk-based-seven-step-editorial-review",
+  "status": "five_accept_two_repair_two_hold; no selection or release approval",
+  "scope": "Nine still-unselected lessons in Pilot's two exploratory files; selected 3963 excluded",
+  "inputs": {
+    "draft3903to4257": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256": "8c28e1c31b520ce14a14054e71a776bf248ece1c6257cc30c9c13c9f3ae71d33"
+    },
+    "draft4465to4702": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4465-4702-review-pilot.json",
+      "sha256": "771b45e6243bd2f0e2638c22a6f78f2c1fc0418fad625c2153b739bab867ec6a"
+    },
+    "authorAudit": {
+      "path": "course-materials/advanced-native/reviews-books10-16/author-held-distinct-3903-4702-ten-review-pilot.json",
+      "sha256": "b12ebc03cf83c2b0a92c315c6711af6e0db17dbb275a337fd2eae2912693c6e5"
+    },
+    "sourceInventory": {
+      "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+      "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+    },
+    "selectedManifest": {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+      "sha256": "638446cc12267b76afbba4a841c87b84c8fa0f821896b2c2d00f51305e87797b"
+    }
+  },
+  "coverage": {
+    "lessons": 9,
+    "stepsInspected": 63,
+    "assessedQuestionsInspected": 54,
+    "replyOptionsInspected": 36,
+    "glossaryRowsChecked": 45,
+    "sourceSentencesAndExpressionsExact": 9,
+    "fullSourceTargetMatches": 9,
+    "targetBearingSceneAndDialogueKeys": 18,
+    "targetBearingReplyGoldenChoices": 9,
+    "targetBearingWritingModels": 18,
+    "speakingSpansExact": 9,
+    "glossarySpanOrTargetLeakErrors": 0,
+    "nonOwnSixTokenGuideCopies": 0,
+    "learnerEnglishStringsScreenedForSixTokenGuideCopies": 207,
+    "selectedIdCollisions": 0,
+    "methodLimits": "The source originality screen checks exact normalized six-word overlap against all 2,604 guide examples. This review inspected source meaning, all seven steps and English/Traditional Chinese assessments, but did not synthesize/listen to audio, run a live-site test, or re-run the full catalogue verifier."
+  },
+  "lessons": [
+    {
+      "sourceOrdinal": 3903,
+      "sourceId": "book10-16-1792",
+      "title": "half-formed",
+      "verdict": "repair",
+      "findingId": "R3903-01",
+      "severity": "material-source-breadth",
+      "evidence": "The source describes 'half-formed desires' made urgent by images. The current brief mentions wishes, but all six assessments, speaking and both writing models teach unfinished practical plans or proposals, generally treating approval and scheduling as the missing pieces. No learner decision tests a desire or intention that has only begun to form.",
+      "requiredRepair": "Include an original assessed or speaking context in which an emerging wish/desire is only partly formed, without implying a project approval process. Keep the plan use as a second valid application, align EN/ZH and target spans, and recheck the changed field. The phrase is a usable adjective; this is a coverage repair, not a recommendation to copy the source image scenario.",
+      "otherChecks": "Four replies are viable; source and existing keyed forms, bilingual meanings and glossary spans pass."
+    },
+    {
+      "sourceOrdinal": 4122,
+      "sourceId": "book10-16-2011",
+      "title": "keep showing up",
+      "verdict": "accept",
+      "evidence": "The source's repeated attendance and effort differ from selected 2123's one-time arrival meaning. Pottery, sign-language, swimming, care-related absence and home practice test persistence without promising automatic progress. All four reply choices remain constructive, and EN/ZH agree.",
+      "scopeNote": "The phrase is compositional, but the repeated-commitment decision is distinct from the existing arrival owner."
+    },
+    {
+      "sourceOrdinal": 4207,
+      "sourceId": "book10-16-2096",
+      "title": "unpack a task",
+      "verdict": "repair",
+      "findingId": "R4207-01",
+      "severity": "material-target-detector",
+      "evidence": "The source passive 'the task is unpacked' and the lesson's decomposition meaning are sound. The live target regex also accepts malformed singular bare objects and subject-verb disagreement: 'We unpack task', 'We unpack idea', 'The task are unpacked', and 'The instructions is unpacked' all match.",
+      "requiredRepair": "Bound active singular objects to a suitable determiner/possessive (while retaining natural bare plural instructions), and pair passive subjects with compatible auxiliaries. Preserve full source and assessed positive matches; add explicit positive and negative detector controls. Recheck any changed examples/spans only if text changes.",
+      "otherChecks": "The six keyed decisions and four pragmatic replies are fair; English/Chinese and answer-derived glossary pass."
+    },
+    {
+      "sourceOrdinal": 4257,
+      "sourceId": "book10-16-2146",
+      "title": "attention drifts",
+      "verdict": "hold",
+      "reason": "The source is a freely compositional subject-plus-motion clause, and the seven steps mostly repeat the same obvious distraction-versus-sleep/refusal distinction. It does not establish a bounded additional learner decision beyond the existing attention/off-topic course material. Natural collocations can be eligible, but this draft has not yet justified an independent seven-step owner.",
+      "possibleDisposition": "Keep the source on editorial hold for a sharper decision or document why a separate attention-lapse lesson adds course value; do not silently alias it to drift off-topic, whose subject is the conversation/topic."
+    },
+    {
+      "sourceOrdinal": 4465,
+      "sourceId": "book10-16-2354",
+      "title": "support livelihoods",
+      "verdict": "hold",
+      "reason": "The phrase is a transparent positive verb plus noun. The assessments repeatedly distinguish paid work from no payment or universal wealth, a useful factual caution but little expression-specific language choice. Canonical 229 already teaches the same livelihoods-income concept in the negative 'threaten livelihoods' frame; this is not a same-expression alias, but a separate seven-step owner needs a clearer new outcome.",
+      "possibleDisposition": "Retain editorial hold while comparing whether positive support is best taught within the existing livelihoods owner's semantic contrast or through a genuinely distinct positive-impact decision."
+    },
+    {
+      "sourceOrdinal": 4511,
+      "sourceId": "book10-16-2400",
+      "title": "default choice",
+      "verdict": "accept",
+      "evidence": "Although compositional, the default-versus-mandatory-or-universal distinction is a reusable practical decision. The exceptions for urgent notices, access, receipt format and pickup explain when the baseline yields. Keys, four replies and Traditional Chinese preserve that scope. No duplicate owner found in the inspected course titles."
+    },
+    {
+      "sourceOrdinal": 4539,
+      "sourceId": "book10-16-2428",
+      "title": "fumble with",
+      "verdict": "accept",
+      "evidence": "The source's awkward physical handling is preserved across tickets, keys, cards and an envelope. The lesson distinguishes it from lack of money, refusal and intentional delay. All four replies offer workable immediate actions, while Chinese and keyed target forms match. Literal construction is still a useful natural verb phrase with a bounded object sense."
+    },
+    {
+      "sourceOrdinal": 4589,
+      "sourceId": "book10-16-2478",
+      "title": "drawn-out",
+      "verdict": "accept",
+      "evidence": "The adjective's excessive duration rather than mere distance or advertised length is assessed consistently across appointment, meeting, permit, hearing and journey contexts. The writing models keep planned versus actual time and the repeated lighting-list cause. Four replies and EN/ZH parity pass."
+    },
+    {
+      "sourceOrdinal": 4702,
+      "sourceId": "book10-16-2591",
+      "title": "a haven",
+      "verdict": "accept",
+      "evidence": "The source's temporary quiet refuge is taught as a place-relative-to-pressure, without claiming permanent safety. Shelter, garden, clinic, tea room and gym contexts transfer the noun; the dialogue rejects extrapolating a single peaceful hour to a whole building. All four replies are plausible and bilingual models retain the limited respite."
+    }
+  ],
+  "selectionInstruction": "Only the five accept verdicts are AI content-clear at these exact hashes. Repair and independently recheck 3903/4207; retain 4257/4465 on editorial hold. This report does not edit decisions, drafts, manifest or audit and does not approve media or release."
+}

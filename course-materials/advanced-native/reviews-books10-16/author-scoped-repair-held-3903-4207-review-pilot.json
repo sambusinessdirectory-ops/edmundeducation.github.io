@@ -1,0 +1,104 @@
+{
+  "reviewType": "author-scoped-repair-after-independent-ai-review",
+  "status": "draft repairs independently AI content-clear at final exact hash; no selection or release approval",
+  "inputReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3903-4702-nine-b.json",
+    "sha256": "4cd0c442e9f99ad662599298dd7692e67c741041bbec5037f02149540be4d9b0"
+  },
+  "draft": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+    "beforeSha256": "8c28e1c31b520ce14a14054e71a776bf248ece1c6257cc30c9c13c9f3ae71d33",
+    "afterSha256": "a180ad66bd8e84c3c68aa527802313c7338bd1e597f8f26dffa66206fe8429e2",
+    "lessonNumbers": [
+      3903,
+      3963,
+      4122,
+      4207,
+      4257
+    ]
+  },
+  "repairs": [
+    {
+      "sourceOrdinal": 3903,
+      "sourceId": "book10-16-1792",
+      "findingId": "R3903-01",
+      "contentRevision": 2,
+      "changedFields": [
+        "brief.grammar",
+        "brief.outcomeZh",
+        "scene.promptEn",
+        "scene.promptZh",
+        "scene.options",
+        "scene.explanationZh"
+      ],
+      "sourceSentence": "The images made half-formed desires feel urgent.",
+      "sourceSense": "A wish can be emerging and not yet clear or strong. The new community-orchard scene assesses a half-formed desire for outdoor work without any approval or scheduling stage; prior plan uses remain.",
+      "keyedEnglish": "Miri has a half-formed desire to work outdoors, without a settled career decision.",
+      "keyedChinese": "Miri 剛萌生從事戶外工作的願望，但尚未有確定的職涯決定。",
+      "scope": "No glossary, speaking span, audio text or source provenance was changed."
+    },
+    {
+      "sourceOrdinal": 4207,
+      "sourceId": "book10-16-2096",
+      "findingId": "R4207-01",
+      "contentRevision": 3,
+      "changedFields": [
+        "target.pattern",
+        "target.glossaryForbidden"
+      ],
+      "sourceSentence": "Once the task is unpacked, beginners can practise it.",
+      "sourceSense": "Figurative decomposition of a task into understandable parts. Active singular objects now require a determiner/possessive, natural bare plurals remain accepted, and singular/plural passive subjects require compatible auxiliaries.",
+      "positiveControls": [
+        "Once the task is unpacked, beginners can practise it.",
+        "We unpack the task into three steps.",
+        "She unpacks an idea for the group.",
+        "They unpacked our plan yesterday.",
+        "We are unpacking the instructions now.",
+        "The instructions are unpacked before practice.",
+        "Our tasks were unpacked in order.",
+        "Unpack instructions before rehearsal.",
+        "We unpack a task.",
+        "They unpack an argument.",
+        "We unpack our tasks."
+      ],
+      "negativeControls": [
+        "We unpack task.",
+        "We unpack idea.",
+        "The task are unpacked.",
+        "The instructions is unpacked.",
+        "She unpacked a suitcase.",
+        "They pack the task.",
+        "The plan was unpack.",
+        "The label physically stuck to the wall.",
+        "We unpack a instructions.",
+        "We unpack an task.",
+        "We unpack a idea.",
+        "We unpack this tasks."
+      ],
+      "controlResult": "11/11 positives matched; 12/12 negatives rejected under live JavaScript gi regex, including article–noun and passive-agreement errors. Source and all existing target-bearing key/speaking/writing strings matched. No assessed or audio text changed."
+    }
+  ],
+  "unchangedLessonNumbers": [
+    3963,
+    4122,
+    4257
+  ],
+  "checks": {
+    "focusedBuild": "5 lessons, 30 questions, 20 audio requests, 0 review flags",
+    "focusedCheck": "byte-for-byte --check pass",
+    "sourceRows": "1792 and 2096 exact examples/expressions re-read from source-inventory.jsonl",
+    "selection": "unselected exploratory batch; 4257 remains held per independent review",
+    "mutationsExcluded": [
+      "second exploratory file",
+      "decisions",
+      "selected manifest",
+      "central SOP audit",
+      "audio files",
+      "deployment"
+    ]
+  },
+  "independentFinalReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3903-4207-final-b.json",
+    "sha256": "889bd5e6d5cb64d65f4401e3a7d5a9632a1d6711caa5cfb4fa4474dfa5104453"
+  }
+}

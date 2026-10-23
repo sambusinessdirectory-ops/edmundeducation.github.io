@@ -1,0 +1,197 @@
+{
+  "status": "scoped author proposal; independent review pending; no decision or manifest changes",
+  "scope": "Five remaining earlier-owner leads in read-only-unresolved-102-next-action-triage-review-pilot.json after prior resolved/retained rows; owner files only.",
+  "counts": {
+    "screened": 5,
+    "provisionallySupportedAliases": 4,
+    "retainedHold": 1
+  },
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFilesUnchangedAtReview": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3612-3671.jsonl",
+      "sha256": "4b89d8f92ddf961cd3acc7358f5329ecee04b35e75c75e2cf67c0753adb11bdd"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3732-3791.jsonl",
+      "sha256": "e9f9ee3e41d1b371417e3663e30f899a31f27ec4f3d248939afdb382cb4c6876"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-3792-3851.jsonl",
+      "sha256": "e278d420ea9f9df37b0eb7330d4889b56e6294bbc0cf7a604be90eae9eb5c58a"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-4332-4391.jsonl",
+      "sha256": "8d2bbbffa6ee4e4138a5da4f94032fcecffb62762392f7cf7baf6b1422525af0"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceOrdinal": 3650,
+      "sourceId": "book10-16-1539",
+      "ownerId": "advanced-native-2876",
+      "proposal": "same-sense bounded owner expansion, pending independent review",
+      "senseComparison": "Both forms assign continuous practical control over choices; new parent/child scene tests control versus advice, not literal driving.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+      "ownerBeforeSha256": "4a03b2a8c49d147814d462a54b6da3ced2c78dda44e0108137b4e33dfe625c4b",
+      "ownerAfterSha256": "90b9c6df91bacc6ac285e101c484d28bf309a18b7d7af49359f4e0db7ee5ee7a",
+      "contentRevisionBefore": 2,
+      "contentRevisionAfter": 3,
+      "changedFields": [
+        "target.pattern",
+        "target.glossaryForbidden",
+        "brief.meaningEn/Zh",
+        "brief.grammar/register/boundaryZh",
+        "sources",
+        "scene.promptZh/options/explanationZh",
+        "contentRevision"
+      ],
+      "exactSourceInOwnerSources": true,
+      "assessedNewVariant": "scene.options[answerId]",
+      "audioRoleTextUnchanged": true,
+      "regexControls": {
+        "positive": [
+          "Officials have their hands on the wheel during a crisis.",
+          "Parents need not be holding the steering wheel all the time.",
+          "The parent is holding the steering wheel all the time instead of letting the child choose."
+        ],
+        "negative": [
+          "The driver held the steering wheel during the test.",
+          "The parent only offers safety advice."
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 3787,
+      "sourceId": "book10-16-1676",
+      "ownerId": "advanced-native-723",
+      "proposal": "same-sense bounded owner expansion, pending independent review",
+      "senseComparison": "The bright-coat source is the same expressive-style decision as earlier make a statement; new scene tests the predicative a kind of statement form without implying viewer agreement.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0701-0725.json",
+      "ownerBeforeSha256": "e79ddc6190d9a97b3cd764ffc7ee1c4dbb97556fce5799a71f4f99c492a592d6",
+      "ownerAfterSha256": "224a24baae87faefd1c157e4fffa6904e10068b27fe5ff02c78ce9839dd9a677",
+      "contentRevisionBefore": 1,
+      "contentRevisionAfter": 2,
+      "changedFields": [
+        "target.pattern",
+        "brief.grammar/register",
+        "sources",
+        "scene.options[0].en/zh",
+        "scene.explanationZh",
+        "contentRevision"
+      ],
+      "exactSourceInOwnerSources": true,
+      "assessedNewVariant": "scene.options[answerId]",
+      "audioRoleTextUnchanged": true,
+      "regexControls": {
+        "positive": [
+          "A bright coat can make a statement.",
+          "The bright coat became a kind of statement.",
+          "Her choice of recycled fabric became a kind of statement about reducing waste."
+        ],
+        "negative": [
+          "The witness made a formal report.",
+          "The designer bought a coat."
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 3821,
+      "sourceId": "book10-16-1710",
+      "ownerId": "advanced-native-1503",
+      "proposal": "same-sense bounded owner expansion, pending independent review",
+      "senseComparison": "Recurring community service can become integrated into shared life, a community-level extension of established routine integration; revised scene requires repeated participation, not a one-off event.",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "ownerBeforeSha256": "c40e9b740ddacc0e543e579608d8a6064a4a6ac0bfa626e5e611574e0e14436b",
+      "ownerAfterSha256": "71a1a0c3969ea1dd0b3a43a0e1a530a10ba61f0e57a4b767dad929a567403a63",
+      "contentRevisionBefore": 4,
+      "contentRevisionAfter": 5,
+      "changedFields": [
+        "target.pattern",
+        "brief.meaningEn/Zh",
+        "brief.grammar/register/boundaryZh/misconceptionZh/outcomeZh",
+        "sources",
+        "scene.promptZh/options/explanationZh",
+        "contentRevision"
+      ],
+      "exactSourceInOwnerSources": true,
+      "assessedNewVariant": "scene.options[answerId]",
+      "audioRoleTextUnchanged": true,
+      "regexControls": {
+        "positive": [
+          "Tea is woven into daily routines in many homes.",
+          "The programme is deeply woven into community life.",
+          "After years of shared shifts and regular donations, the food exchange has become deeply woven into community life."
+        ],
+        "negative": [
+          "The programme was proposed for next year.",
+          "The banner was woven by volunteers."
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 4339,
+      "sourceId": "book10-16-2228",
+      "ownerId": "advanced-native-4175",
+      "proposal": "same-sense bounded owner expansion, pending independent review",
+      "senseComparison": "The source is about emotional nuance lost during text-message communication. Owner already teaches meaning lost while a message is conveyed; bounded new branch requires an abstract message subject and an explicit along-the-way loss.",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4172-4176-a.json",
+      "ownerBeforeSha256": "eab53393abdc7830f9e12f8dde600766b83aa65a332b9b69ba17fee189fda10e",
+      "ownerAfterSha256": "01fcedc499e8138451e081365f2d96b432f2e05401cac3db9a7d7e877ebb242d",
+      "contentRevisionBefore": 2,
+      "contentRevisionAfter": 3,
+      "changedFields": [
+        "target.pattern",
+        "brief.grammar/register/boundaryZh",
+        "sources",
+        "dialogue.options[0].en/zh",
+        "contentRevision"
+      ],
+      "exactSourceInOwnerSources": true,
+      "assessedNewVariant": "dialogue.options[answerId]",
+      "audioRoleTextUnchanged": true,
+      "regexControls": {
+        "positive": [
+          "Good ideas can get lost in translation during a rushed meeting.",
+          "Emotional nuance may get lost along the way.",
+          "That repair condition got lost along the way as the note passed between teams."
+        ],
+        "negative": [
+          "My parcel got lost along the way.",
+          "The condition was kept in the summary."
+        ]
+      }
+    },
+    {
+      "sourceOrdinal": 3634,
+      "sourceId": "book10-16-1523",
+      "proposedOwnerId": "advanced-native-1586",
+      "proposal": "retain hold-editorial; no owner edit",
+      "senseComparison": "Although intake gloss says close guidance, the exact school-journey sentence can describe literal hand-holding for road safety. Owner 1586 is figurative reassurance/guidance; a detector broad enough to match the source would also match literal child-handholding. No safe same-sense alias from this sentence alone.",
+      "changedFields": []
+    }
+  ],
+  "checks": {
+    "focusedBuildLessons": 57,
+    "focusedQuestions": 342,
+    "focusedAudioRequests": 228,
+    "focusedBuildAndCheckPassed": true,
+    "focusedReviewFlags": 0,
+    "fullVerifierPassed": true,
+    "fullVerifierSelectedLessons": 607,
+    "fullVerifierSchemaErrors": 0,
+    "fullVerifierExactGuideSentenceCopies": 0,
+    "javascriptTargetControls": {
+      "positivePassed": 12,
+      "negativeRejected": 8
+    },
+    "audioRoleTextsUnchangedInAllFour": true
+  },
+  "limits": {
+    "decisionChanges": false,
+    "selectedManifestChanges": false,
+    "audioGeneration": false,
+    "uploadOrDeployment": false,
+    "humanReviewClaimed": false
+  }
+}

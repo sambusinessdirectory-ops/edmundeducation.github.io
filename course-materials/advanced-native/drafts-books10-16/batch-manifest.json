@@ -155,7 +155,8 @@
     "batch-held-3644-secure-base-b.json",
     "batch-held-distinct-4019-review-pilot.json",
     "batch-held-3963-in-small-doses-a.json",
-    "batch-held-distinct-3360-3834-review-pilot.json"
+    "batch-held-distinct-3360-3834-review-pilot.json",
+    "batch-held-3903-4702-seven-extracted-review-pilot.json"
   ],
   "expectedSourceOrdinals": [
     2112,
@@ -603,6 +604,7 @@
     3879,
     3888,
     3890,
+    3903,
     3914,
     3916,
     3926,
@@ -647,6 +649,7 @@
     4095,
     4103,
     4120,
+    4122,
     4128,
     4140,
     4146,
@@ -665,6 +668,7 @@
     4193,
     4205,
     4206,
+    4207,
     4208,
     4211,
     4219,
@@ -724,11 +728,13 @@
     4492,
     4497,
     4499,
+    4511,
     4516,
     4525,
     4529,
     4535,
     4538,
+    4539,
     4540,
     4548,
     4553,
@@ -737,6 +743,7 @@
     4576,
     4580,
     4588,
+    4589,
     4599,
     4606,
     4611,
@@ -763,6 +770,7 @@
     4689,
     4691,
     4700,
+    4702,
     4707,
     4709
   ]

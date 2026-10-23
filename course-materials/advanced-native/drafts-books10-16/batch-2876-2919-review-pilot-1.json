@@ -10,15 +10,17 @@
       "titleZh": "直接掌握局面",
       "category": "idiom",
       "target": {
-        "pattern": "\\bhands?\\s+on\\s+the\\s+wheel\\b",
-        "glossaryForbidden": []
+        "pattern": "(?:\\bhands?\\s+on\\s+the\\s+wheel\\b)|(?:\\b(?:hold|holds|held|holding)\\s+the\\s+steering\\s+wheel\\s+all\\s+the\\s+time\\b)",
+        "glossaryForbidden": [
+          "\\bsteering\\s+wheel\\b"
+        ]
       },
       "brief": {
-        "meaningEn": "Having practical control over decisions and the direction of events.",
-        "meaningZh": "實際掌握決策與事態方向。",
-        "grammar": "Have/keep one’s hands on the wheel is a driving metaphor; possessive agrees with the person or group controlling decisions.",
-        "register": "Crisis-planning discussion: a community coordinator explains which team can change the evacuation timetable rather than merely comment on it.",
-        "boundaryZh": "掌握局面指有實際決策權，不等於能保證結果完美或獨自負責所有工作。",
+        "meaningEn": "Have practical control over decisions and the direction of events; holding the steering wheel all the time stresses that one person keeps control rather than allowing another to choose.",
+        "meaningZh": "實際掌握決策及事態方向；一直握着方向盤的比喻，強調一人持續掌控，而非讓另一人自行選擇。",
+        "grammar": "Have/keep one’s hands on the wheel; hold the steering wheel all the time. Both are driving metaphors for practical control. In the second form, hold inflects for the subject, and all the time conveys continuous control.",
+        "register": "Neutral control metaphor; a community coordinator may describe a team’s decision authority, while a parent may discuss when to let a child choose rather than controlling every step.",
+        "boundaryZh": "掌握局面指有實際決策權；家長提供安全建議，不等於一直替孩子作決定，掌控也不保證結果完美。",
         "misconceptionZh": "不是必須開車，也不能把只提供意見的人說成直接操控者。",
         "outcomeZh": "能指出誰有權改變安排、誰只是建議，以及控制不等於保證成功。"
       },
@@ -36,6 +38,20 @@
           "sentence": "Officials have their hands on the wheel during a crisis.",
           "referenceSentenceKind": "guide_original_example",
           "expression": "hands on the wheel"
+        },
+        {
+          "occurrenceId": "book10-16-1539",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 144,
+          "book": 14,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "22–23",
+          "locatorNote": "DOCX table 153, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Parents need not be holding the steering wheel all the time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "holding the steering wheel all the time"
         }
       ],
       "listening": {
@@ -96,26 +112,26 @@
         "explanationZh": "四句均以批准及調動權識別掌控者；金句用 hands on the wheel。"
       },
       "scene": {
-        "promptZh": "一間中心的主管可即時調整開放時間和人手；顧問只提交建議。哪句最貼切？",
+        "promptZh": "孩子已能自行安排放學後的活動，但家長仍每天替孩子選擇參加甚麼，沒有讓孩子決定。哪句最貼切？",
         "options": [
           {
             "id": "a",
-            "en": "The manager has her hands on the wheel, while the advisers only recommend changes.",
-            "zh": "主管直接掌握安排，顧問只是提出建議。"
+            "en": "The parent is holding the steering wheel all the time instead of letting the child choose.",
+            "zh": "家長一直掌握選擇權，沒有讓孩子自行決定。"
           },
           {
             "id": "b",
-            "en": "The advisers alone decide every opening hour.",
-            "zh": "只有顧問能決定所有開放時間。"
+            "en": "The parent offers safety advice while leaving the final choice to the child.",
+            "zh": "家長提供安全建議，最後讓孩子自行選擇。"
           },
           {
             "id": "c",
-            "en": "The manager can guarantee that no visitor will ever wait.",
-            "zh": "主管能保證訪客永遠不用等候。"
+            "en": "The parent no longer takes part in discussing activities with the child.",
+            "zh": "家長已不再與孩子討論活動安排。"
           }
         ],
         "answerId": "a",
-        "explanationZh": "實際調整權在主管，而非顧問。"
+        "explanationZh": "每天由家長代為決定，才是持續掌控；提出建議並交還選擇權則不同。"
       },
       "contrast": {
         "promptZh": "哪個情況最不足以說 someone has their hands on the wheel？",
@@ -276,7 +292,7 @@
           "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
         ]
       },
-      "contentRevision": 2
+      "contentRevision": 3
     },
     {
       "id": "advanced-native-2878",

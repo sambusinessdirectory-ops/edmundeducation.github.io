@@ -1,0 +1,127 @@
+{
+  "reviewType": "author-extraction-audit-unselected-seven-lesson-cohort",
+  "status": "seven exact-equal lesson objects extracted and mechanically verified; all seven independently AI content-clear at source hashes; no selection or release approval",
+  "extractedBatch": {
+    "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4702-seven-extracted-review-pilot.json",
+    "sha256": "5e8d12968719af8877d47be6e3eeb4c4b755a58a7de28fedb32f990f277790d7",
+    "schemaVersion": 1,
+    "batchId": "held-distinct-3903-4702-seven-extracted-review-pilot",
+    "lessonNumbers": [
+      3903,
+      4122,
+      4207,
+      4511,
+      4539,
+      4589,
+      4702
+    ]
+  },
+  "sourceBatches": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-3903-4257-review-pilot.json",
+      "sha256": "a180ad66bd8e84c3c68aa527802313c7338bd1e597f8f26dffa66206fe8429e2"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-held-4465-4702-review-pilot.json",
+      "sha256": "771b45e6243bd2f0e2638c22a6f78f2c1fc0418fad625c2153b739bab867ec6a"
+    }
+  ],
+  "selectedManifestSha256": "638446cc12267b76afbba4a841c87b84c8fa0f821896b2c2d00f51305e87797b",
+  "exclusions": {
+    "alreadySelected": [
+      3963
+    ],
+    "held": [
+      4257,
+      4465
+    ]
+  },
+  "objectEquality": [
+    {
+      "sourceOrdinal": 3903,
+      "lessonId": "advanced-native-3903",
+      "sourceBatch": "batch-held-3903-4257-review-pilot.json",
+      "sourceObjectSha256": "41230e98e54adfa2f5b626773ca14c8e6044eedaaeb2ad4bfb9d1743acb1b9cc",
+      "extractedObjectSha256": "41230e98e54adfa2f5b626773ca14c8e6044eedaaeb2ad4bfb9d1743acb1b9cc",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4207-final-b.json"
+    },
+    {
+      "sourceOrdinal": 4122,
+      "lessonId": "advanced-native-4122",
+      "sourceBatch": "batch-held-3903-4257-review-pilot.json",
+      "sourceObjectSha256": "36e73542133fb3597de022e88d37222d30fd44b1de8999480a1807db8b14257b",
+      "extractedObjectSha256": "36e73542133fb3597de022e88d37222d30fd44b1de8999480a1807db8b14257b",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4702-nine-b.json"
+    },
+    {
+      "sourceOrdinal": 4207,
+      "lessonId": "advanced-native-4207",
+      "sourceBatch": "batch-held-3903-4257-review-pilot.json",
+      "sourceObjectSha256": "9aba51734e37c59eb910b43dba475f204d2a9126b29d0fe253d57b18de895480",
+      "extractedObjectSha256": "9aba51734e37c59eb910b43dba475f204d2a9126b29d0fe253d57b18de895480",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4207-final-b.json"
+    },
+    {
+      "sourceOrdinal": 4511,
+      "lessonId": "advanced-native-4511",
+      "sourceBatch": "batch-held-4465-4702-review-pilot.json",
+      "sourceObjectSha256": "16c6903b3d05eccdedfa27c7ef2d0e08d91591426c37199e25dcba1343acaa27",
+      "extractedObjectSha256": "16c6903b3d05eccdedfa27c7ef2d0e08d91591426c37199e25dcba1343acaa27",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4702-nine-b.json"
+    },
+    {
+      "sourceOrdinal": 4539,
+      "lessonId": "advanced-native-4539",
+      "sourceBatch": "batch-held-4465-4702-review-pilot.json",
+      "sourceObjectSha256": "26fd43f1c1e8659ec8a84ca53bfe0608397a21196375d30f86a4726a189348f3",
+      "extractedObjectSha256": "26fd43f1c1e8659ec8a84ca53bfe0608397a21196375d30f86a4726a189348f3",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4702-nine-b.json"
+    },
+    {
+      "sourceOrdinal": 4589,
+      "lessonId": "advanced-native-4589",
+      "sourceBatch": "batch-held-4465-4702-review-pilot.json",
+      "sourceObjectSha256": "750d3fd94972432c90264cd332fa7819f51bf64bc8fed257331bcb26349d8e8e",
+      "extractedObjectSha256": "750d3fd94972432c90264cd332fa7819f51bf64bc8fed257331bcb26349d8e8e",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4702-nine-b.json"
+    },
+    {
+      "sourceOrdinal": 4702,
+      "lessonId": "advanced-native-4702",
+      "sourceBatch": "batch-held-4465-4702-review-pilot.json",
+      "sourceObjectSha256": "594e437854bec0b84396b21ba866950b82e0ae9147eb1ab037614c8162186bb6",
+      "extractedObjectSha256": "594e437854bec0b84396b21ba866950b82e0ae9147eb1ab037614c8162186bb6",
+      "deepEqual": true,
+      "independentReview": "content-clear in independent-ai-review-held-3903-4702-nine-b.json"
+    }
+  ],
+  "checks": {
+    "focusedBuild": "7 lessons, 42 questions, 28 audio requests, zero review flags",
+    "focusedByteCheck": "pass",
+    "sourceRowsExact": 7,
+    "sourceSentencesMatchTarget": 7,
+    "selectedIdCollisions": 0,
+    "targetBearingReplySceneDialogueSpeakingWriting": "all seven pass",
+    "answerDerivedGlossaryRowsExactAndTargetFree": 35,
+    "learnerEnglishStringsScreened": 196,
+    "sixTokenGuideSourceOverlaps": 0
+  },
+  "mutationsExcluded": [
+    "original exploratory batch files",
+    "source decisions",
+    "selected manifest",
+    "central SOP audit",
+    "audio files",
+    "deployment"
+  ],
+  "independentFinalReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-held-3903-4207-final-b.json",
+    "sha256": "889bd5e6d5cb64d65f4401e3a7d5a9632a1d6711caa5cfb4fa4474dfa5104453"
+  }
+}

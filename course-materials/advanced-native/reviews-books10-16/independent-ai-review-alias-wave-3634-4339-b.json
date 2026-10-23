@@ -1,0 +1,73 @@
+{
+  "reviewType": "independent-ai-focused-owner-expansion-review",
+  "status": "four_owner_expansions_accepted_one_source_retained_on_hold",
+  "authorAudit": {
+    "path": "course-materials/advanced-native/reviews-books10-16/author-alias-wave-unresolved-3634-4339-a.json",
+    "sha256": "4224481687f1cd9f048186b33a40de901918845ab58ba46b031e5c1c054bb0d9"
+  },
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "decisionFilesVerifiedUnchanged": [
+    "4b89d8f92ddf961cd3acc7358f5329ecee04b35e75c75e2cf67c0753adb11bdd",
+    "e9f9ee3e41d1b371417e3663e30f899a31f27ec4f3d248939afdb382cb4c6876",
+    "e278d420ea9f9df37b0eb7330d4889b56e6294bbc0cf7a604be90eae9eb5c58a",
+    "8d2bbbffa6ee4e4138a5da4f94032fcecffb62762392f7cf7baf6b1422525af0"
+  ],
+  "checks": {
+    "ownerFileHashesVerified": 4,
+    "exactSourceSentenceExpressionAndLocatorProvenance": 4,
+    "wholeSourceDetectorMatches": 4,
+    "liveJsPositiveControlsPassed": 12,
+    "liveJsNegativeControlsRejected": 8,
+    "changedAssessedKeysTargetBearingAndBilingual": 4,
+    "listeningSpeakingAndTakeawayObjectsEqualToGitHead": 4,
+    "sourceOnlyHoldChecked": 1,
+    "limitations": "Scoped to changed owner fields and assessed keys. Existing unaffected questions inherit earlier checks. No audio was generated or listened to, and no decisions or manifest were changed."
+  },
+  "candidates": [
+    {
+      "sourceOrdinal": 3650,
+      "sourceId": "book10-16-1539",
+      "ownerId": "advanced-native-2876",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-2876-2919-review-pilot-1.json",
+      "ownerFileSha256": "90b9c6df91bacc6ac285e101c484d28bf309a18b7d7af49359f4e0db7ee5ee7a",
+      "verdict": "accept_owner_expansion",
+      "evidence": "The source's parents need not hold the steering wheel all the time is sustained decision control, matching the owner's hands-on-the-wheel control sense. The revised scene explicitly contrasts a parent making a child's daily choice with safety advice that leaves the choice to the child. English and Chinese keys align. Full source, three positives and two negatives behave as the author audit states.",
+      "boundary": "The new wording can also be literal for a driver in another context; the detector cannot alone distinguish that sense. The assessed parent/child context resolves it, and the literal control is outside the owner lesson."
+    },
+    {
+      "sourceOrdinal": 3787,
+      "sourceId": "book10-16-1676",
+      "ownerId": "advanced-native-723",
+      "ownerFile": "course-materials/advanced-native/batches/batch-0701-0725.json",
+      "ownerFileSha256": "224a24baae87faefd1c157e4fffa6904e10068b27fe5ff02c78ce9839dd9a677",
+      "verdict": "accept_owner_expansion",
+      "evidence": "The bright coat becoming a kind of statement and the existing make-a-statement owner both concern expressive style or choice. The new keyed recycled-fabric scene makes an intentional message without falsely claiming the audience accepts it; the Chinese conveys that distinction. Source and bounded alternative form match; three positives pass and two negatives reject."
+    },
+    {
+      "sourceOrdinal": 3821,
+      "sourceId": "book10-16-1710",
+      "ownerId": "advanced-native-1503",
+      "ownerFile": "course-materials/advanced-native/batches/batch-1501-1525.json",
+      "ownerFileSha256": "71a1a0c3969ea1dd0b3a43a0e1a530a10ba61f0e57a4b767dad929a567403a63",
+      "verdict": "accept_owner_expansion",
+      "evidence": "A programme deeply woven into community life is the same integration metaphor as the owner's established daily-life use, extended to a stable collective pattern. The new scene supplies years of repeated shared shifts and donations, rather than a one-day event. Key EN/ZH, exact source, full-source match and three positive/two negative controls pass."
+    },
+    {
+      "sourceOrdinal": 4339,
+      "sourceId": "book10-16-2228",
+      "ownerId": "advanced-native-4175",
+      "ownerFile": "course-materials/advanced-native/drafts-books10-16/batch-4172-4176-a.json",
+      "ownerFileSha256": "01fcedc499e8138451e081365f2d96b432f2e05401cac3db9a7d7e877ebb242d",
+      "verdict": "accept_owner_expansion",
+      "evidence": "The source's emotional nuance lost while a message travels and the owner's get-lost-in-translation sense both describe information dropped during communication. The added dialogue instead tests a lost repair condition in a handover, an original transfer context. The abstract-subject branch matches the full source and keyed answer while rejecting a lost parcel; EN/ZH retain the omitted-condition cause."
+    },
+    {
+      "sourceOrdinal": 3634,
+      "sourceId": "book10-16-1523",
+      "proposedOwnerId": "advanced-native-1586",
+      "verdict": "retain_hold",
+      "evidence": "Parents cannot always hold their hand on the journey to school can describe literal hand-holding for road safety. Canonical 1586 teaches figurative reassurance or guidance through difficulty. The intake gloss suggests guidance but does not remove the literal reading of this complete sentence, and a broad detector would admit that reading. No owner edit was made."
+    }
+  ],
+  "selectionAndRelease": "Content clearance of the four owner expansions only. Source decisions still require a coordinated exact-hash update; no audio, hosting, database or live release approval is implied."
+}
