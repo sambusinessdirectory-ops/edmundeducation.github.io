@@ -1,5 +1,12 @@
 {
   "sourceFile": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+  "retrievedForIntakeDate": "2026-10-23",
+  "retrievalBasis": "User-provided local DOCX selected for this Books 10–16 intake; the intake artifact was created on 2026-10-23 HKT. This is a date, not a claimed original publication date.",
+  "sourceReuseRestrictions": {
+    "known": "The user supplied this document for course production and authorized uploading source-derived lesson drafts to the edmundeducation.github.io GitHub repository.",
+    "unknown": "No separate license or third-party reproduction terms were supplied. Public reuse rights have not been independently verified.",
+    "handling": "Keep exact source sentences in private provenance records; publish original lesson wording and only short source excerpts needed for attribution or fidelity review. Do not reproduce long source passages wholesale."
+  },
   "sourceSha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
   "renderedPdfSha256": "0ddce74f1ab4622fad9a00b1536d2e0b392b1a9f736d35fd6f3217d629ee269c",
   "renderedPdfPages": 246,
