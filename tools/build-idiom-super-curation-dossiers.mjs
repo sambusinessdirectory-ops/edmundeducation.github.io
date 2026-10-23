@@ -44,6 +44,18 @@ const semanticRules = (rules) => rules.filter((rule) =>
   !/article|plural|tense|verb|preposition|hyphen|form|word|phrase|fixed|pronoun|subject|change|preserve|grammar|exact/i.test(rule.titleEn)
 ).slice(0, 6).map(({ number, titleEn, titleZh, en, zh }) => ({ number, titleEn, titleZh, en, zh }));
 
+const editorialCautions = {
+  31: 'The source targets British “fight like cat and dog”; “fight like cats and dogs” is valid American English. Do not call the American form universally wrong.',
+  41: 'The source teaches two related “eat dirt” senses: enduring humiliation and an embarrassing admission after being proved wrong. Keep each item’s sense explicit.',
+  68: '“Black sheep” reports a group judgement; the person may merely be different. Do not present the label as an objective moral verdict.',
+  72: 'Only an exercise PDF was supplied, with no separate teaching pages. The compact definition was independently repaired; every new guide decision needs direct semantic review.',
+  77: '“Shoulder to shoulder” can be physical or figurative; these lessons target united effort. Literal proximity alone is not the same decision.',
+  82: 'Preferred classroom form is “walk on eggshells”; source explicitly accepts “walk on eggs” as a valid alternative. Neither may be a false wrong option.',
+  87: 'Check which “go hot and cold” sense the source questions actually use. Do not import a different temperature or vacillation sense by title alone.',
+  104: '“Back-seat driver” has a literal passenger and a figurative interference sense; both require unwanted advice or control.',
+  108: 'The saying covers contribution to a dispute and mutual participation in an agreement/activity. Do not merge these into one vague key.',
+};
+
 const dossiers = lessons.map((lesson) => ({
   lessonId: lesson.id,
   order: lesson.order,
@@ -66,6 +78,7 @@ const dossiers = lessons.map((lesson) => ({
   semanticRules: semanticRules(lesson.rules || []),
   candidateQuestions: chooseDiverse(lesson.questions),
   sourceQuestionCount: lesson.questions.length,
+  editorialCaution: editorialCautions[lesson.order] || '',
   editorialStatus: 'SOURCE_EXTRACTED_AWAITING_BILINGUAL_REVIEW',
 }));
 const out = path.join(root, 'content', 'idiom-super-curation-dossiers-31-108.json');
