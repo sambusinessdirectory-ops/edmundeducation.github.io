@@ -1,0 +1,16 @@
+{
+  "scope": "Read-only verification of provisional manifest selection for the seven reviewed 3109–3126 lessons",
+  "manifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "manifestSha256": "8100b319c7d952d9b3e983a427f7eb6f111987d491a8ee351bd3305bcbbcec52",
+  "selectedBatch": "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json",
+  "selectedBatchSha256": "8e2ccffb300bc2585e752b498571aa726cc2dfb73597f2cc733d6ab194cd5fa4",
+  "expectedNewOrdinals": [3109, 3111, 3112, 3113, 3116, 3124, 3126],
+  "checks": [
+    "All seven ordinals occur exactly once in both selected batch lesson bodies and expectedSourceOrdinals.",
+    "batch-3119-owner-hold-a.json is absent from batchFiles; ordinal 3119 is absent from selected lesson bodies and expectedSourceOrdinals.",
+    "Unreviewed Pilot 2768–2800 batches are absent from batchFiles and expectedSourceOrdinals.",
+    "All 194 selected lesson bodies equal the 194 expectedSourceOrdinals as sets, with no duplicate ordinal.",
+    "Full Books 10–16 verifier passes: 194 lessons, 1164 questions, 776 audio requests, zero whole-catalogue schema errors; published=false and releaseApproved=false."
+  ],
+  "result": "PROVISIONAL_SELECTION_INTEGRITY_CLEARED; no publication or human approval inferred"
+}

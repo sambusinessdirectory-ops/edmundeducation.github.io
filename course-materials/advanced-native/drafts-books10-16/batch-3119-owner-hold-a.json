@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-author-a-3119-owner-hold-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-3119",
+      "number": 3119,
+      "inventoryId": "expr-3119",
+      "titleEn": "trapped in old habits",
+      "titleZh": "受舊習慣困住",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:trapped|become trapped|gets trapped) in old habits\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Unable to change familiar ways of acting even when they no longer serve a purpose.",
+        "meaningZh": "即使舊做法已不合用，仍難以擺脫熟悉的行事方式。",
+        "grammar": "be/become/get trapped in old habits; trapped is a participle, habits is plural.",
+        "register": "Neutral reflective language. A team leader might say it to colleagues when reviewing an outdated workflow.",
+        "boundaryZh": "強調舊習慣反覆限制改變，不是單次使用舊方法，也不表示人真的被困在某處。",
+        "misconceptionZh": "沿用經證明仍有效的做法，不必然是受舊習慣困住。",
+        "outcomeZh": "能指出反覆舊做法如何阻礙改進。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1008",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 94,
+          "book": 12,
+          "question": 26,
+          "sample": "S1",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 96, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "A team can become trapped in old habits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "trapped in old habits"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "團隊為何錯過新客戶的提問？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It kept sending a monthly report and ignored the newer daily message channel.",
+            "zh": "團隊只按舊習慣寄月報，忽略新的每日訊息渠道。"
+          },
+          {
+            "id": "b",
+            "en": "It changed its communication routine after the first missed message.",
+            "zh": "團隊第一次漏訊後便改變溝通方法。"
+          },
+          {
+            "id": "c",
+            "en": "The customer used an address that no team member knew existed.",
+            "zh": "客戶使用了一個團隊無人知道的地址。"
+          },
+          {
+            "id": "d",
+            "en": "The team tested both channels each morning.",
+            "zh": "團隊每天早上測試兩種渠道。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "團隊明知每日渠道已啟用，仍反覆依賴舊月報，因而失去回應機會。",
+        "en": "We still send the old monthly report even though clients now ask questions in the daily channel. We are trapped in old habits, and we missed a new customer’s request yesterday.",
+        "zh": "即使客戶現在透過每日渠道提問，我們仍寄舊式月報。我們受舊習慣困住，昨天錯過了一名新客戶的請求。"
+      },
+      "reply": {
+        "promptEn": "Clients now write to the daily channel, but our team still relies only on monthly reports. What should we change?",
+        "promptZh": "（客戶現在使用每日渠道聯絡，但團隊仍只依賴月報。我們應改甚麼？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Assign one person to check the daily channel each morning.",
+            "zh": "安排一人每天早上檢查每日渠道。"
+          },
+          {
+            "id": "b",
+            "en": "Review which monthly-report details clients still need.",
+            "zh": "檢討客戶仍需要月報中的哪些內容。"
+          },
+          {
+            "id": "c",
+            "en": "We are trapped in old habits; let us test a daily response routine.",
+            "zh": "我們受舊習慣困住；試行每日回覆流程吧。"
+          },
+          {
+            "id": "d",
+            "en": "Tell clients which channel will receive the quickest answer.",
+            "zh": "告訴客戶哪個渠道能最快得到回覆。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是適當的改善方法；金句指出反覆沿用不合用的舊流程。"
+      },
+      "scene": {
+        "promptZh": "診所已改用網上預約，但接待處仍只在紙簿上查時段，反覆漏看病人提交的網上預約。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The reception team is trapped in old habits despite the new booking system.",
+            "zh": "即使有新預約系統，接待團隊仍受舊習慣困住。"
+          },
+          {
+            "id": "b",
+            "en": "The team is using both booking systems accurately during a planned transition.",
+            "zh": "團隊在計劃中的過渡期準確使用兩個系統。"
+          },
+          {
+            "id": "c",
+            "en": "The online system has been withdrawn, so the paper book is again required.",
+            "zh": "網上系統已停用，因此又必須使用紙簿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "新系統已啟用，卻反覆沿用舊方法而漏預約。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況只是保留有效做法，不足以說 trapped in old habits？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The kitchen keeps a proven safety checklist while updating the rest of its routine.",
+            "zh": "廚房保留已證實有效的安全清單，同時更新其他流程。"
+          },
+          {
+            "id": "b",
+            "en": "A group keeps printing forms no one uses despite repeated complaints.",
+            "zh": "一組人即使屢遭投訴，仍反覆印沒人使用的表格。"
+          },
+          {
+            "id": "c",
+            "en": "The team ignores the new booking portal and repeatedly loses requests.",
+            "zh": "團隊不理會新預約平台，反覆遺失要求。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "保留有效安全做法並更新其他流程，並非被不合用的習慣束縛。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：義工仍把每項要求放進舊抽屜，但大家現在都看新的網上清單。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We are trapped in old habits; let us move new requests to the shared list.",
+            "zh": "我們受舊習慣困住；把新要求轉到共用清單吧。"
+          },
+          {
+            "id": "b",
+            "en": "We should check whether the drawer is clearly labelled before moving anything.",
+            "zh": "轉移資料前，我們應檢查抽屜標籤是否清楚。"
+          },
+          {
+            "id": "c",
+            "en": "We could keep a paper backup while updating the shared list.",
+            "zh": "更新共用清單時，可以保留紙本備份。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "習慣性使用無人查閱的抽屜，阻礙有效處理新要求。",
+        "promptEn": "A: Our volunteers still file every request in the old drawer, even though the new online list is where everyone looks. B: ______"
+      },
+      "speaking": {
+        "en": "The library was trapped in old habits, so it kept mailing notices after most members had chosen email updates.",
+        "zh": "圖書館受舊習慣困住，因此大多數會員已選擇電郵通知後，仍繼續寄出紙本通知。",
+        "promptZh": "說出反覆舊做法及為何它已不合用。",
+        "targetSpan": {
+          "start": 16,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：團隊有較適用的新工具，但仍反覆沿用舊方法，造成漏訊或延誤。用英文交代新舊做法及後果。",
+        "selfCheckZh": "必須顯示舊做法已不合用，而且反覆阻礙改進；不要把有效的安全慣例誤寫成問題。",
+        "examples": [
+          {
+            "en": "The theatre team was trapped in old habits: it posted rehearsal changes on a wall board even after performers began checking a shared calendar, so several missed an updated rehearsal time.",
+            "zh": "劇團受舊習慣困住：演員已開始查看共用日曆，它仍把綵排變動貼在告示板上，結果有幾名演員錯過更新後的綵排時間。"
+          },
+          {
+            "en": "Although the farm installed a new water monitor, the crew remained trapped in old habits and recorded readings only once a week, so leaks were noticed too late.",
+            "zh": "雖然農場裝了新的水量監測器，團隊仍受舊習慣困住，只每週記錄一次讀數，因此漏水問題發現得太遲。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "rehearsal changes",
+            "zh": "綵排變動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 71
+            }
+          },
+          {
+            "en": "a wall board",
+            "zh": "告示板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 87
+            }
+          },
+          {
+            "en": "a shared calendar",
+            "zh": "共用日曆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 142
+            }
+          },
+          {
+            "en": "a new water monitor",
+            "zh": "新的水量監測器",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 47
+            }
+          },
+          {
+            "en": "only once a week",
+            "zh": "只每週一次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 127
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A team is trapped in old habits when it repeats a method that no longer works.",
+          "zh": "團隊反覆使用不再奏效的方法時，便可說受舊習慣困住。"
+        },
+        {
+          "en": "They remained trapped in old habits until they tested the new booking system.",
+          "zh": "他們試用新預約系統前，一直受舊習慣困住。"
+        }
+      ]
+    }
+  ]
+}

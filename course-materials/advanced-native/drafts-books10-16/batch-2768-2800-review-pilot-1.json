@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2768-2800-review-pilot-1",
+  "lessons": [
+    {
+      "id": "advanced-native-2768",
+      "number": 2768,
+      "inventoryId": "expr-2768",
+      "titleEn": "get a glimpse of",
+      "titleZh": "初步窺見",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting)\\s+a\\s+glimpse\\s+of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Receive a brief impression of something without claiming full understanding.",
+        "meaningZh": "短暫接觸後，對某事有初步印象，但未達全面了解。",
+        "grammar": "Pattern: get/got a glimpse of + a culture, process, place or experience; the phrase takes an object after of and does not imply mastery.",
+        "register": "Informative museum commentary: a guide tells visiting students what a short craft demonstration can reveal while stressing its limits.",
+        "boundaryZh": "有初步印象不等於已掌握整套文化或技術；也不一定必須用眼睛看見。",
+        "misconceptionZh": "glimpse 在此可指透過聲音或體驗得到短暫認識，不限於從門縫偷看。",
+        "outcomeZh": "能交代接觸了甚麼、時間或範圍有多有限，以及尚未了解甚麼。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0657",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 60,
+          "book": 11,
+          "question": 21,
+          "sample": "S1",
+          "sourceBookPages": "53–54",
+          "locatorNote": "DOCX table 57, row 4; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Visitors can get a glimpse of the culture through music.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "get a glimpse of the culture"
+        }
+      ],
+      "listening": {
+        "en": "The class heard three local songs during a ten-minute visit. It got a glimpse of the region’s musical tradition, not a complete history of it.",
+        "zh": "學生在十分鐘參觀中聽了三首本地歌曲。他們對該區音樂傳統有了初步認識，卻未了解其完整歷史。",
+        "promptZh": "got a glimpse of 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The class gained a brief impression through the songs.",
+            "zh": "學生透過歌曲得到短暫的初步印象。"
+          },
+          {
+            "id": "b",
+            "en": "The class mastered the full history of every local song.",
+            "zh": "學生已掌握每首本地歌曲的完整歷史。"
+          },
+          {
+            "id": "c",
+            "en": "The songs were performed only for people from that region.",
+            "zh": "歌曲只演奏給該區居民聽。"
+          },
+          {
+            "id": "d",
+            "en": "The visit offered no information about local music.",
+            "zh": "參觀完全沒有提供本地音樂資訊。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "十分鐘和三首歌曲支持初步認識，卻不足以代表整個傳統。"
+      },
+      "reply": {
+        "promptEn": "What can the pupils say after one evening at the neighbourhood food fair? They tasted several dishes and heard short stories from cooks, but attended no full course.",
+        "promptZh": "（學生只參加了一晚社區美食節，可以怎樣描述所得？他們試吃幾道菜，也聽了廚師的簡短故事，卻沒有完成整套課程。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The evening introduced them to a few local food practices.",
+            "zh": "那一晚讓他們接觸到幾種本地飲食做法。"
+          },
+          {
+            "id": "b",
+            "en": "They heard selected stories rather than a complete culinary history.",
+            "zh": "他們聽了幾個故事，而非完整飲食史。"
+          },
+          {
+            "id": "c",
+            "en": "They got a glimpse of the area’s food culture.",
+            "zh": "他們初步認識了該區飲食文化。"
+          },
+          {
+            "id": "d",
+            "en": "The fair gave them a first impression, with more still to learn.",
+            "zh": "美食節給了他們第一印象，仍有更多值得學習。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都限定為初步接觸；金句用 get a glimpse of 概括短暫體驗。"
+      },
+      "scene": {
+        "promptZh": "參觀者在十五分鐘內看到陶藝師示範一種釉色，卻沒有學習整個製作過程。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They got a glimpse of the craft, not full training in it.",
+            "zh": "他們初步接觸這項工藝，並非接受完整訓練。"
+          },
+          {
+            "id": "b",
+            "en": "They completed every stage of the craft themselves.",
+            "zh": "他們親自完成工藝的每一個階段。"
+          },
+          {
+            "id": "c",
+            "en": "They learned nothing about the craft because the visit was short.",
+            "zh": "參觀時間短，所以他們完全沒有學到工藝知識。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短示範提供局部印象，但沒有完整培訓。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說某人 got a glimpse of 地方文化？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A visitor hears local stories during a short guided walk.",
+            "zh": "訪客在短途導賞中聽到本地故事。"
+          },
+          {
+            "id": "b",
+            "en": "A traveller reads only the train departure time and encounters no local practices.",
+            "zh": "旅客只看了火車開出時間，沒有接觸任何本地習俗。"
+          },
+          {
+            "id": "c",
+            "en": "A class watches a brief performance by local musicians.",
+            "zh": "班級看了一段本地樂手的簡短演出。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只看班次時間沒有接觸題目所說的文化內容。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我參加過一小時的織布工作坊，現在一定完全懂得這項傳統。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "You got a glimpse of the tradition, but one hour may not cover its full history.",
+            "zh": "你對這項傳統有了初步認識，但一小時未必涵蓋其完整歷史。"
+          },
+          {
+            "id": "b",
+            "en": "One workshop proves you have mastered every regional technique.",
+            "zh": "一次工作坊證明你已掌握各地全部技法。"
+          },
+          {
+            "id": "c",
+            "en": "Because the workshop was short, you could not have learned anything.",
+            "zh": "工作坊時間短，所以你不可能學到任何東西。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "既承認有初步接觸，也保留理解範圍的限制。"
+      },
+      "speaking": {
+        "en": "A short radio clip let listeners get a glimpse of the town’s storytelling tradition, not its whole history.",
+        "zh": "一段短電台錄音讓聽眾初步接觸小鎮的說故事傳統，卻未涵蓋完整歷史。",
+        "promptZh": "先聽示範，再指出聽眾得到的是初步印象還是全面知識。",
+        "targetSpan": {
+          "start": 33,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一個社區屋頂農場提供十五分鐘導賞，訪客看到居民如何種植兩種蔬菜，但沒有學完整季節的種植方法。用一至兩句英文說明訪客所得與尚未掌握的內容。",
+        "selfCheckZh": "寫出十五分鐘、兩種蔬菜所帶來的初步認識；不要說訪客已學會完整種植週期。",
+        "examples": [
+          {
+            "en": "Visitors got a glimpse of community farming on the short rooftop tour, but they saw only two vegetables, not a full growing season.",
+            "zh": "訪客在短短的屋頂導賞中初步認識社區農耕，但只看到兩種蔬菜，沒有了解完整種植季節。"
+          },
+          {
+            "en": "Visitors got a glimpse of how neighbours grow vegetables during the fifteen-minute visit; they did not learn the whole growing season.",
+            "zh": "訪客在十五分鐘參觀中初步看到居民如何種菜；他們沒有學完整個種植季節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two vegetables",
+            "zh": "兩種蔬菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 103
+            }
+          },
+          {
+            "en": "the short rooftop tour",
+            "zh": "短短的屋頂導賞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 69
+            }
+          },
+          {
+            "en": "community farming",
+            "zh": "社區農耕",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 43
+            }
+          },
+          {
+            "en": "neighbours grow vegetables",
+            "zh": "居民如何種菜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 30,
+              "end": 56
+            }
+          },
+          {
+            "en": "the fifteen-minute visit",
+            "zh": "十五分鐘參觀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 88
+            }
+          },
+          {
+            "en": "the whole growing season",
+            "zh": "整個種植季節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Getting a glimpse of something gives an initial impression, not complete expertise.",
+          "zh": "初步窺見某事帶來第一印象，不代表已完全精通。"
+        },
+        {
+          "en": "Music, stories or a brief demonstration can help visitors get a glimpse of a culture.",
+          "zh": "音樂、故事或短示範也可令人初步認識一種文化。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2774",
+      "number": 2774,
+      "inventoryId": "expr-2774",
+      "titleEn": "hum along",
+      "titleZh": "跟着曲調輕聲哼",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:hum|hums|hummed|humming)\\s+along\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Join a tune by humming quietly as it plays or as someone else sings it.",
+        "meaningZh": "曲調播放或有人唱歌時，跟着旋律輕聲哼唱。",
+        "grammar": "Phrasal verb hum along, with hummed/humming inflections; often hum along to/with a tune or performer. Humming follows a melody without needing the words.",
+        "register": "Casual music discussion: a rehearsal leader tells new choir members they can join the familiar melody quietly before learning the lyrics.",
+        "boundaryZh": "跟着旋律哼，不等於大聲唱出歌詞，也不等於只在旁邊聽。",
+        "misconceptionZh": "along 表示隨着正在聽到的曲調一起參與，不是沿着路走。",
+        "outcomeZh": "能從有沒有跟着旋律發聲，分辨哼唱、完整唱詞與只聆聽。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0663",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 61,
+          "book": 11,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 58, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The audience began to hum along after the first chorus.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hum along"
+        }
+      ],
+      "listening": {
+        "en": "The children did not know the words, but they recognised the tune in the waiting room and began to hum along softly.",
+        "zh": "孩子們不懂歌詞，卻在候診室認出旋律，開始輕聲跟着哼。",
+        "promptZh": "hum along 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They quietly joined the familiar melody without needing the words.",
+            "zh": "他們不必懂歌詞，也輕聲跟着熟悉的旋律哼。"
+          },
+          {
+            "id": "b",
+            "en": "They sang every lyric loudly from memory.",
+            "zh": "他們憑記憶大聲唱出每句歌詞。"
+          },
+          {
+            "id": "c",
+            "en": "They stayed silent and only listened to the music.",
+            "zh": "他們一直沒有發聲，只是聽音樂。"
+          },
+          {
+            "id": "d",
+            "en": "They made up a new tune that the music did not contain.",
+            "zh": "他們創作了音樂中沒有的新旋律。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "孩子們認得旋律且輕聲出聲，卻不懂歌詞。"
+      },
+      "reply": {
+        "promptEn": "How did the audience join the singer on the second chorus? They recognised the melody and joined in quietly with their lips closed, without singing any lyrics.",
+        "promptZh": "（觀眾在第二次副歌時怎樣加入歌手？他們認出旋律，閉着嘴輕聲跟着發聲，沒有唱歌詞。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "They joined the melody quietly.",
+            "zh": "他們輕聲加入旋律。"
+          },
+          {
+            "id": "b",
+            "en": "They followed the tune without singing the words.",
+            "zh": "他們跟着曲調，沒有唱歌詞。"
+          },
+          {
+            "id": "c",
+            "en": "They began to hum along.",
+            "zh": "他們開始跟着輕聲哼。"
+          },
+          {
+            "id": "d",
+            "en": "Their voices followed the singer’s melody softly.",
+            "zh": "他們的聲音輕輕跟着歌手的旋律。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說觀眾認出旋律並出聲參與，金句用 hum along。"
+      },
+      "scene": {
+        "promptZh": "長者中心播放一首熟悉的舊歌；幾位長者不懂完整歌詞，卻跟着旋律輕聲哼。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "They hum along to the familiar song.",
+            "zh": "他們跟着熟悉的歌輕聲哼。"
+          },
+          {
+            "id": "b",
+            "en": "They sing every printed lyric from memory.",
+            "zh": "他們憑記憶唱出印在紙上的全部歌詞。"
+          },
+          {
+            "id": "c",
+            "en": "They listen silently without making a sound.",
+            "zh": "他們沒有發聲，只默默聽歌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有跟着旋律發聲，但沒有唱完整歌詞，符合 hum along。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 hum along？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A listener softly follows a tune played on a piano.",
+            "zh": "聽眾輕聲跟着鋼琴旋律哼。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor hears a song but remains completely silent.",
+            "zh": "訪客聽着歌曲，卻全程沒有發聲。"
+          },
+          {
+            "id": "c",
+            "en": "A child quietly joins a familiar melody during a car ride.",
+            "zh": "孩子坐車時輕聲跟着熟悉旋律哼。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "完全不出聲就沒有跟着哼。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她不懂這首歌的字，但音樂一響，她就輕聲跟着曲調發聲。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She can hum along even without knowing the lyrics.",
+            "zh": "就算不懂歌詞，她也能跟着旋律輕聲哼。"
+          },
+          {
+            "id": "b",
+            "en": "She must be singing every word correctly.",
+            "zh": "她一定把每個字都唱對了。"
+          },
+          {
+            "id": "c",
+            "en": "If she cannot name the song, she must be completely silent.",
+            "zh": "如果她說不出歌名，她一定完全沒有發聲。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "跟着旋律哼不要求記住歌詞。"
+      },
+      "speaking": {
+        "en": "The visitors hummed along when the pianist repeated the familiar theme.",
+        "zh": "鋼琴家重複熟悉的主題旋律時，訪客跟着輕聲哼。",
+        "promptZh": "先聽示範，再指出是跟唱歌詞還是跟着旋律哼。",
+        "targetSpan": {
+          "start": 13,
+          "end": 25
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：睡前，父親輕輕唱一首搖籃曲；女兒還沒記住歌詞，但已熟悉旋律，也開始輕聲跟着發聲。用一至兩句英文描述女兒怎樣參與。",
+        "selfCheckZh": "寫出孩子認得旋律、輕聲跟着哼且還不懂完整歌詞。",
+        "examples": [
+          {
+            "en": "The child hummed along to the lullaby although she had not learned all the words.",
+            "zh": "孩子雖未學會全部歌詞，仍跟着搖籃曲輕聲哼。"
+          },
+          {
+            "en": "As her father sang softly at bedtime, she began to hum along with the familiar tune without singing the lyrics.",
+            "zh": "父親睡前輕聲唱歌時，她開始跟着熟悉旋律哼，沒有唱出歌詞。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the lullaby",
+            "zh": "搖籃曲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 37
+            }
+          },
+          {
+            "en": "all the words",
+            "zh": "全部歌詞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 80
+            }
+          },
+          {
+            "en": "her father",
+            "zh": "父親",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 13
+            }
+          },
+          {
+            "en": "at bedtime",
+            "zh": "睡前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 36
+            }
+          },
+          {
+            "en": "the familiar tune",
+            "zh": "熟悉旋律",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 83
+            }
+          },
+          {
+            "en": "the lyrics",
+            "zh": "歌詞",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 110
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hum along means quietly following a tune, even if you do not know its words.",
+          "zh": "跟着輕聲哼是隨旋律發聲，即使不懂歌詞也可以。"
+        },
+        {
+          "en": "A silent listener is not humming along; the person must make the tune.",
+          "zh": "只聽不出聲不算跟着哼；人必須哼出旋律。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2775",
+      "number": 2775,
+      "inventoryId": "expr-2775",
+      "titleEn": "catchy hook",
+      "titleZh": "容易記住的歌曲亮點",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bcatchy\\s+hooks?\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A short, memorable musical phrase or idea that catches a listener’s attention and stays in memory.",
+        "meaningZh": "歌曲中短而容易記住、能吸引聽眾的旋律或歌詞片段。",
+        "grammar": "Noun phrase a catchy hook / catchy hooks; hook may be a repeated melody, riff or short lyric, so do not equate it automatically with the whole chorus or the beat.",
+        "register": "Practical songwriting feedback: a producer tells a young band which repeated phrase listeners remember, while discussing rhythm separately.",
+        "boundaryZh": "有強勁節拍不一定有容易記住的 hook；hook 也不必等同整段副歌。",
+        "misconceptionZh": "不是實際的鉤子；catchy 指片段容易吸引注意並留在記憶中，不保證所有人喜歡整首歌。",
+        "outcomeZh": "能指出歌曲中哪段短旋律或歌詞令人記住，並與節拍、音量和整首歌分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0664",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 61,
+          "book": 11,
+          "question": 22,
+          "sample": "S1",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 58, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The song has catchy hooks and a strong beat.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catchy hooks"
+        }
+      ],
+      "listening": {
+        "en": "The drums were fairly simple, but listeners kept repeating the short melody after the advert ended. That tune was a catchy hook.",
+        "zh": "鼓聲相當簡單，但廣告結束後，聽眾仍不斷哼起那段短旋律。那段曲調是容易記住的歌曲亮點。",
+        "promptZh": "a catchy hook 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A short musical idea that remained in listeners’ minds.",
+            "zh": "一段留在聽眾腦海裏的短音樂片段。"
+          },
+          {
+            "id": "b",
+            "en": "A guarantee that everyone liked the entire advert.",
+            "zh": "保證每個人都喜歡整段廣告。"
+          },
+          {
+            "id": "c",
+            "en": "The simple drum pattern rather than the remembered melody.",
+            "zh": "指簡單鼓點，而非令人記住的旋律。"
+          },
+          {
+            "id": "d",
+            "en": "A long instrumental section no one could recall afterwards.",
+            "zh": "一段事後沒有人記得的長器樂段落。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "聽眾在廣告結束後仍重複短旋律，支持它是容易記住的 hook。"
+      },
+      "reply": {
+        "promptEn": "Why are classmates still humming one line from the school song the next day? The line repeats, is easy to remember, and stands out even though the beat is plain.",
+        "promptZh": "（為何同學第二天仍哼着校歌中的一句？那一句重複出現、容易記住，即使節拍普通也很突出。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated line stayed in their minds.",
+            "zh": "重複的那一句留在他們腦海中。"
+          },
+          {
+            "id": "b",
+            "en": "The memorable phrase stands out more than the plain beat.",
+            "zh": "令人記住的片段比普通節拍更突出。"
+          },
+          {
+            "id": "c",
+            "en": "The song has a catchy hook that classmates remember.",
+            "zh": "歌曲有一段同學記得的吸引人片段。"
+          },
+          {
+            "id": "d",
+            "en": "They can recall a short part of the song the next day.",
+            "zh": "他們第二天仍記得歌曲中的短片段。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指向那段易記短句；金句把它稱為 catchy hook。"
+      },
+      "scene": {
+        "promptZh": "一首校園宣傳歌有一段三秒鐘的旋律，每次副歌前都重複，學生離開後仍能哼出來。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The repeated melody is a catchy hook.",
+            "zh": "那段重複旋律是一個容易記住的歌曲亮點。"
+          },
+          {
+            "id": "b",
+            "en": "The melody cannot be a hook because it is only three seconds long.",
+            "zh": "旋律只有三秒，所以不可能是 hook。"
+          },
+          {
+            "id": "c",
+            "en": "A repeated melody cannot be a hook unless it contains words.",
+            "zh": "重複的旋律如果沒有歌詞，就不可能是 hook。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "短、重複、離開後仍記得，正是 hook 發揮作用的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪項情況最不足以支持稱某片段為 catchy hook？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Listeners repeat a short guitar phrase long after the song ends.",
+            "zh": "歌曲結束很久後，聽眾仍會重複短結他樂句。"
+          },
+          {
+            "id": "b",
+            "en": "A brief chorus line stays in several listeners’ minds.",
+            "zh": "幾位聽眾一直記得副歌中的短句。"
+          },
+          {
+            "id": "c",
+            "en": "A one-time background sound is not noticed or remembered by any listener.",
+            "zh": "一次性的背景聲沒有任何聽眾注意或記得。"
+          }
+        ],
+        "answerId": "c",
+        "explanationZh": "沒人注意或記得的聲音不足以稱為容易記住的 hook。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這首歌鼓聲很強，但我完全記不起任何旋律或歌詞片段；所以它一定有 catchy hooks。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A strong beat alone does not prove the song has catchy hooks.",
+            "zh": "節拍強勁本身不足以證明歌曲有容易記住的片段。"
+          },
+          {
+            "id": "b",
+            "en": "Every strong beat automatically makes all lyrics memorable.",
+            "zh": "每段強勁節拍都會自動令全部歌詞容易記住。"
+          },
+          {
+            "id": "c",
+            "en": "If you forgot the melody, you must have heard no drums either.",
+            "zh": "如果你記不起旋律，你一定連鼓聲也沒聽到。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "強勁節拍與易記的旋律或歌詞片段是兩回事。"
+      },
+      "speaking": {
+        "en": "The short piano phrase became a catchy hook that listeners repeated after the performance.",
+        "zh": "那段短鋼琴樂句成為容易記住的亮點，聽眾在演出後仍會重複。",
+        "promptZh": "先聽示範，再指出哪段音樂令聽眾記住。",
+        "targetSpan": {
+          "start": 30,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區電台製作一段安全宣傳短歌，當中有一句五個音的旋律反覆出現；聽眾在廣播結束後仍能哼出那句旋律。用一至兩句英文說明那句旋律的作用，不要把整首歌都稱為 hook。",
+        "selfCheckZh": "寫出短旋律反覆出現、聽眾事後仍能記得，並與整首歌分開。",
+        "examples": [
+          {
+            "en": "The repeated five-note phrase is a catchy hook because listeners can hum it after the radio message ends.",
+            "zh": "那句反覆出現的五音旋律是容易記住的亮點，因為聽眾在廣播結束後仍能哼出來。"
+          },
+          {
+            "en": "The safety jingle uses a catchy hook: a repeated short melody that remains in listeners’ minds.",
+            "zh": "這首安全宣傳短歌用了容易記住的亮點：一段重複的短旋律，會留在聽眾腦海裏。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The repeated five-note phrase",
+            "zh": "反覆出現的五音旋律",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 29
+            }
+          },
+          {
+            "en": "listeners can hum it",
+            "zh": "聽眾能哼出來",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 75
+            }
+          },
+          {
+            "en": "the radio message",
+            "zh": "廣播",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 99
+            }
+          },
+          {
+            "en": "The safety jingle",
+            "zh": "安全宣傳短歌",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "a repeated short melody",
+            "zh": "一段重複的短旋律",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 61
+            }
+          },
+          {
+            "en": "listeners’ minds",
+            "zh": "聽眾腦海",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 94
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A catchy hook is a memorable musical fragment, not necessarily the entire chorus.",
+          "zh": "容易記住的 hook 是音樂短片段，不一定是整段副歌。"
+        },
+        {
+          "en": "A strong beat can support a song without creating a catchy hook on its own.",
+          "zh": "強勁節拍可以支持歌曲，但本身不一定帶來易記片段。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    },
+    {
+      "id": "advanced-native-2783",
+      "number": 2783,
+      "inventoryId": "expr-2783",
+      "titleEn": "meet people where they are",
+      "titleZh": "從別人的實際處境出發",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:meet|meets|met|meeting)\\s+(?:people|students|patients|families|residents|learners|them)\\s+where\\s+they\\s+(?:are|were)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Start from people’s actual needs, abilities and circumstances when offering help or communicating.",
+        "meaningZh": "提供協助或溝通時，從人們當前的需求、能力和處境出發。",
+        "grammar": "Pattern: meet people/students/families where they are; past met ... where they were. The object identifies whom the approach adapts to, not a physical meeting place.",
+        "register": "Respectful community outreach: a clinic coordinator explains to volunteers why session times and language support should reflect residents’ actual circumstances.",
+        "boundaryZh": "因應現況調整方式，不等於放棄長期目標，也不表示假設所有人需要相同幫助。",
+        "misconceptionZh": "不是一定要到對方所在的地址見面；where they are 可以指知識程度、時間限制或目前需要。",
+        "outcomeZh": "能指出對象當前的具體限制，以及相應調整了哪一種支援方式。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0672",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 62,
+          "book": 11,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "55–56",
+          "locatorNote": "DOCX table 58, row 11; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Good outreach should meet people where they are.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "meet people where they are"
+        }
+      ],
+      "listening": {
+        "en": "Many parents worked late, so the clinic added evening sessions and translated the forms. The team tried to meet families where they are.",
+        "zh": "很多家長工作到很晚，因此診所增設晚間時段並翻譯表格。團隊嘗試從家庭的實際處境出發提供服務。",
+        "promptZh": "meet families where they are 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Adapt the service to families’ actual schedules and language needs.",
+            "zh": "因應家庭真正的時間和語言需要調整服務。"
+          },
+          {
+            "id": "b",
+            "en": "Require every parent to attend during the clinic’s old office hours.",
+            "zh": "要求每位家長都在診所原有的辦公時間到訪。"
+          },
+          {
+            "id": "c",
+            "en": "Assume all families face exactly the same problem.",
+            "zh": "假設所有家庭面對完全相同的問題。"
+          },
+          {
+            "id": "d",
+            "en": "Visit each family’s home address before giving any information.",
+            "zh": "提供任何資訊前都先上門拜訪每個家庭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "晚間時段和翻譯表格都回應了家長的具體限制。"
+      },
+      "reply": {
+        "promptEn": "How does the library support adults who are new to online forms? Staff use plain-language examples and let learners practise at their current level before adding harder tasks.",
+        "promptZh": "（圖書館怎樣幫助初學網上表格的成人？職員先用淺白例子，讓學員從現有程度練習，再逐步加入較難任務。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "The staff start from what learners can already do.",
+            "zh": "職員從學員現時已會做的事開始。"
+          },
+          {
+            "id": "b",
+            "en": "The examples match the beginners’ present needs.",
+            "zh": "例子配合初學者目前的需要。"
+          },
+          {
+            "id": "c",
+            "en": "The library meets people where they are before raising the difficulty.",
+            "zh": "圖書館先從學員的實際程度出發，再提高難度。"
+          },
+          {
+            "id": "d",
+            "en": "The course builds from learners’ existing skills.",
+            "zh": "課程從學員已有的技能逐步建立。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說先按現況設計支援；金句用 meet people where they are。"
+      },
+      "scene": {
+        "promptZh": "一名導師發現新生尚未懂得閱讀地圖，便先練基本方向，再逐步教路線規劃，最終目標仍是獨立出行。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The mentor meets students where they are while keeping the longer-term goal.",
+            "zh": "導師從學生現時程度出發，同時保留長期目標。"
+          },
+          {
+            "id": "b",
+            "en": "The mentor has abandoned the goal of independent travel.",
+            "zh": "導師已放棄學生獨立出行的目標。"
+          },
+          {
+            "id": "c",
+            "en": "The mentor assumes every student already knows how to plan a route.",
+            "zh": "導師假設每名學生已懂得規劃路線。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "先教基本方向回應現時能力，並沒有取消長期目標。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不符合 meet people where they are？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A tutor checks what a learner understands before choosing examples.",
+            "zh": "導師先了解學員懂甚麼，再挑選例子。"
+          },
+          {
+            "id": "b",
+            "en": "A service keeps one inaccessible morning slot despite knowing most users work then.",
+            "zh": "服務明知多數使用者早上要工作，仍只設一個無法到場的早上時段。"
+          },
+          {
+            "id": "c",
+            "en": "A clinic translates instructions for patients who need another language.",
+            "zh": "診所為需要其他語言的病人翻譯指示。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "明知時段與使用者現況衝突卻不調整，正好相反。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「夜班居民常錯過早上諮詢；我們仍只應辦早上場，因為這樣最方便職員。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We should meet people where they are by offering a session night-shift residents can attend.",
+            "zh": "我們應從夜班居民的實際處境出發，安排他們能參與的場次。"
+          },
+          {
+            "id": "b",
+            "en": "If residents cannot attend in the morning, they clearly do not need the service.",
+            "zh": "居民若早上不能出席，顯然就不需要服務。"
+          },
+          {
+            "id": "c",
+            "en": "The staff’s convenience proves the morning slot works for every resident.",
+            "zh": "職員覺得方便，就證明早上時段適合每名居民。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改動時段回應夜班居民的具體限制，而非把缺席當成沒需要。"
+      },
+      "speaking": {
+        "en": "The mentor met students where they were and built on the skills they already had.",
+        "zh": "導師從學生當時的程度出發，在既有技能上逐步教學。",
+        "promptZh": "先聽示範，再指出導師先了解了哪方面的現況。",
+        "targetSpan": {
+          "start": 11,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：車站的長者初次使用新售票機，網上說明書太複雜。服務員改用大字步驟卡，並在機器旁示範第一張車票怎樣購買；目標仍是讓長者日後自行操作。用一至兩句英文描述支援方式。",
+        "selfCheckZh": "寫出長者目前不熟悉機器、服務員怎樣調整支援，以及日後自行操作的目標。",
+        "examples": [
+          {
+            "en": "The station staff meet people where they are by using large-print steps and demonstrating the first ticket purchase, so older riders can later use the machine alone.",
+            "zh": "車站職員從使用者當前需要出發，提供大字步驟並示範首次購票，讓長者日後能自行操作機器。"
+          },
+          {
+            "en": "To meet people where they are, the assistant uses large-print steps and guides the first purchase before asking older passengers to use the machine alone.",
+            "zh": "為從使用者當前能力出發，服務員提供大字步驟並帶着長者首次購票，再讓他們自行使用機器。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The station staff",
+            "zh": "車站職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "large-print steps",
+            "zh": "大字步驟",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 71
+            }
+          },
+          {
+            "en": "the first ticket purchase",
+            "zh": "首次購票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 115
+            }
+          },
+          {
+            "en": "the first purchase",
+            "zh": "首次購票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 97
+            }
+          },
+          {
+            "en": "older passengers",
+            "zh": "長者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 128
+            }
+          },
+          {
+            "en": "the machine alone",
+            "zh": "自行使用機器",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 153
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Meet people where they are means starting from their current circumstances, not merely locating them on a map.",
+          "zh": "從別人的實際處境出發，指按當前需要行事，不是找地圖上的位置。"
+        },
+        {
+          "en": "A plan can meet people where they are and still help them reach a more advanced goal.",
+          "zh": "計劃可先配合現況，同時幫助人們達到更高目標。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    }
+  ]
+}

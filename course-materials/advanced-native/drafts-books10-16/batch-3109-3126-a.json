@@ -1,0 +1,1882 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-author-a-3109-3126-seven-20261023",
+  "lessons": [
+    {
+      "id": "advanced-native-3109",
+      "number": 3109,
+      "inventoryId": "expr-3109",
+      "titleEn": "skin in the game",
+      "titleZh": "切身利害關係",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:have|has|had|having) skin in the game\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Have a direct personal stake in how a decision or outcome turns out.",
+        "meaningZh": "對一項決定或結果有直接切身利害關係。",
+        "grammar": "have skin in the game; the possessive subject may be a person or directly affected group.",
+        "register": "Informal-to-neutral idiom. A resident may use it to council members when explaining why affected people deserve input.",
+        "boundaryZh": "表示結果會直接影響自己，不只是對議題有興趣或知道消息；不必涉及金錢投資。",
+        "misconceptionZh": "不是體育比賽或皮膚的字面意思；旁觀評論不一定有切身利害。",
+        "outcomeZh": "能辨別直接受影響者與一般旁觀者。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0998",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 93,
+          "book": 12,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 95, row 3; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Residents have skin in the game when fares change.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "skin in the game"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 3,
+      "listening": {
+        "promptZh": "誰對決定有切身利害關係？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The tenants whose heating bills will change.",
+            "zh": "暖氣費將改變的租戶。"
+          },
+          {
+            "id": "b",
+            "en": "A visitor who reads the notice while passing by.",
+            "zh": "路過時看見告示的訪客。"
+          },
+          {
+            "id": "c",
+            "en": "A reporter gathering background for another story.",
+            "zh": "為另一篇報道蒐集背景的記者。"
+          },
+          {
+            "id": "d",
+            "en": "A former tenant who moved abroad years ago.",
+            "zh": "多年前搬到外地的前租戶。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "暖氣費會直接影響現有租戶，因此他們有切身利害。",
+        "en": "The building committee plans to change how heating costs are shared. Current tenants have skin in the game because their monthly bills will change, so we should hear their views first.",
+        "zh": "大廈委員會計劃改變暖氣費的分攤方式。現有租戶有切身利害關係，因為每月帳單會改變，所以我們應先聽取他們的意見。"
+      },
+      "reply": {
+        "promptEn": "Should the tenants be invited to discuss the new heating policy?",
+        "promptZh": "（應否邀請租戶討論新暖氣政策？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, it will change the amount they pay each month.",
+            "zh": "應該，這會改變他們每月支付的金額。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, ask them which parts of the policy affect their homes.",
+            "zh": "應該，問他們政策哪些部分影響家居。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, they have skin in the game and should be heard before a vote.",
+            "zh": "應該，他們有切身利害關係，投票前應聽取意見。"
+          },
+          {
+            "id": "d",
+            "en": "Yes, share the cost figures with them before deciding.",
+            "zh": "應該，決定前先向他們提供成本數據。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是合理的諮詢理由或做法；金句用目標片語指出直接受影響。"
+      },
+      "scene": {
+        "promptZh": "學校考慮取消接送巴士。每天乘搭巴士的學生將要自行安排交通，家長要求參與決定。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Those families have skin in the game because the change affects their daily journey.",
+            "zh": "那些家庭有切身利害關係，因為變動影響每日交通。"
+          },
+          {
+            "id": "b",
+            "en": "Those families are interested in the school’s history but never use the bus.",
+            "zh": "那些家庭對學校歷史感興趣，卻從不乘巴士。"
+          },
+          {
+            "id": "c",
+            "en": "Those families want to hear the vote count after the decision is made.",
+            "zh": "那些家庭想在決定後知道票數。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "日常交通會直接受影響，並非純粹旁觀。"
+      },
+      "contrast": {
+        "promptZh": "哪個人只是關注議題，資料未顯示有 skin in the game？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A passer-by reads about a rent change in a building where they do not live.",
+            "zh": "路人讀到一棟自己沒有居住的大廈加租消息。"
+          },
+          {
+            "id": "b",
+            "en": "A tenant will pay the increased rent next month.",
+            "zh": "租戶下月要支付增加的租金。"
+          },
+          {
+            "id": "c",
+            "en": "An owner’s mortgage payment depends on the proposed refinancing.",
+            "zh": "業主的按揭供款取決於擬議再融資。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "路人可能感興趣，但未見會直接承受結果。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：更改市場營業時間前，我們應否讓攤主發表意見？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Yes, they have skin in the game because the new hours affect their trade.",
+            "zh": "應該，他們有切身利害關係，因為新時間影響生意。"
+          },
+          {
+            "id": "b",
+            "en": "Yes, we can post the final timetable where they can read it.",
+            "zh": "應該，我們可把最終時間表貼出來供他們閱讀。"
+          },
+          {
+            "id": "c",
+            "en": "Yes, visitors may enjoy reading about the market’s history.",
+            "zh": "應該，訪客也許喜歡讀市場歷史。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "攤主生意直接受營業時間影響，應在決定前聽取意見。",
+        "promptEn": "A: Should we let the market stallholders comment before changing the opening hours? B: ______"
+      },
+      "speaking": {
+        "en": "The clinic patients have skin in the game because the proposed hours will determine when they can collect medicine.",
+        "zh": "診所病人有切身利害關係，因為擬議服務時間會決定他們何時可領藥。",
+        "promptZh": "說出誰直接受影響，以及決定帶來甚麼影響。",
+        "targetSpan": {
+          "start": 20,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項公共安排會直接改變某群人的日常工作或交通。用英文指出受影響的人、具體影響和他們為何應參與討論。",
+        "selfCheckZh": "必須交代實際後果，而不只是說他們對議題有興趣。",
+        "examples": [
+          {
+            "en": "The fishing families have skin in the game because a harbour closure would cut off their usual route to the boats, so officials should consult them before deciding.",
+            "zh": "漁民家庭有切身利害關係，因為關閉港口會截斷他們平常前往漁船的路線，因此官員作決定前應徵詢他們。"
+          },
+          {
+            "en": "Local shopkeepers have skin in the game when the council considers removing the only loading bay they use each morning; the council should hear them before removing it.",
+            "zh": "議會考慮取消店主每天早上使用的唯一上落貨區時，當地店主有切身利害關係；議會取消上落貨區前應聽取他們的意見。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The fishing families",
+            "zh": "漁民家庭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "a harbour closure",
+            "zh": "關閉港口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 51,
+              "end": 68
+            }
+          },
+          {
+            "en": "their usual route",
+            "zh": "平常路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 100
+            }
+          },
+          {
+            "en": "Local shopkeepers",
+            "zh": "當地店主",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "the only loading bay",
+            "zh": "唯一上落貨區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "People have skin in the game when a decision will directly affect them.",
+          "zh": "決定會直接影響某些人時，他們便有切身利害關係。"
+        },
+        {
+          "en": "The bus users have skin in the game because the proposed cut changes their journey.",
+          "zh": "巴士乘客有切身利害關係，因為擬議削減服務會改變他們的路程。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3111",
+      "number": 3111,
+      "inventoryId": "expr-3111",
+      "titleEn": "a minefield",
+      "titleZh": "充滿地雷的敏感議題",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:a|the) minefield\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "A situation or topic full of potential pitfalls, misunderstandings or conflict.",
+        "meaningZh": "充滿潛在失誤、誤會或衝突的處境或議題。",
+        "grammar": "a/the minefield; often describe a topic as a minefield or say navigating it is a minefield.",
+        "register": "Neutral expressive language. A family mediator may use it with relatives when proposing careful wording on a sensitive topic.",
+        "boundaryZh": "是比喻到處可能引起問題，不等於只有一項已知難題；現有 canonical 1786 的對比用法另有教學焦點。",
+        "misconceptionZh": "不表示現場有真地雷，也不表示必須永遠避談；可以審慎處理。",
+        "outcomeZh": "能識別有多個隱藏風險的敏感話題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1000",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 93,
+          "book": 12,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 95, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Politics can be a minefield at family dinners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a minefield"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者為何稱獎項安排難處理？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Several small choices could upset different teams.",
+            "zh": "幾項小決定都可能令不同隊伍不滿。"
+          },
+          {
+            "id": "b",
+            "en": "The prize list has one spelling mistake to correct.",
+            "zh": "獎品清單只有一個錯字要改。"
+          },
+          {
+            "id": "c",
+            "en": "The venue has no space for any ceremony.",
+            "zh": "場地完全沒有空間辦典禮。"
+          },
+          {
+            "id": "d",
+            "en": "The teams already agreed on every award.",
+            "zh": "各隊已同意所有獎項。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "得獎準則、名額和宣布順序都可能引起爭議，因此處處有風險。",
+        "en": "Choosing the community awards is a minefield. The criteria, the number of winners and even the order of announcements could upset different teams, so let us consult them first.",
+        "zh": "選社區獎項得主是個充滿潛在爭議的難題。評選準則、得獎名額，甚至宣布順序，都可能令不同隊伍不滿，所以我們先徵詢他們。"
+      },
+      "reply": {
+        "promptEn": "We need to discuss the award rules, but every detail could upset a different group. How should we approach it?",
+        "promptZh": "（我們要討論獎項規則，但每個細節都可能令不同群體不滿。應怎樣處理？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "List the decisions that may cause disagreement before the meeting.",
+            "zh": "會前列出可能引起分歧的決定。"
+          },
+          {
+            "id": "b",
+            "en": "Ask each group which rule concerns it most.",
+            "zh": "問每個群體最擔心哪項規則。"
+          },
+          {
+            "id": "c",
+            "en": "It is a minefield, so let us explain the criteria clearly and invite feedback.",
+            "zh": "這是個處處可能惹爭議的議題，我們清楚解釋準則並徵詢意見吧。"
+          },
+          {
+            "id": "d",
+            "en": "Share a draft policy early so people can point out problems.",
+            "zh": "提早分享政策草案，讓大家指出問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是合理的審慎處理方法；金句點出多處可能出錯。"
+      },
+      "scene": {
+        "promptZh": "校友會討論向歷屆會員收費：不同年級對豁免、折扣和資助來源都有不同看法，稍有措辭不慎便可能吵起來。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The fee discussion is a minefield because several details could provoke conflict.",
+            "zh": "收費討論充滿潛在爭議，因為多個細節都可能引起衝突。"
+          },
+          {
+            "id": "b",
+            "en": "The fee discussion has one numerical typo that needs correcting.",
+            "zh": "收費討論只有一個數字錯誤要更正。"
+          },
+          {
+            "id": "c",
+            "en": "The fee discussion is ready because all groups accepted the same policy.",
+            "zh": "各群體已接受同一政策，收費討論已準備妥當。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "有多個容易觸發衝突的細節，符合 minefield 的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況只是單一明確錯誤，未呈現處處可能惹爭議的情況？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One invoice contains a misprinted date that both sides agree to correct.",
+            "zh": "一張發票上的日期印錯，雙方同意更正。"
+          },
+          {
+            "id": "b",
+            "en": "A family inheritance discussion raises questions about shares, promises and past grievances.",
+            "zh": "家庭遺產討論涉及分配、承諾及舊怨。"
+          },
+          {
+            "id": "c",
+            "en": "A policy change could anger staff, clients and suppliers for different reasons.",
+            "zh": "政策變動可能因不同原因令員工、客戶及供應商不滿。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "雙方一致承認的單一錯誤，未呈現處處可能引起爭議的情況。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們要告訴親友婚宴座位安排，但幾人仍在爭論舊日的家庭紛爭。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That conversation is a minefield; let us agree on careful wording first.",
+            "zh": "那場談話處處可能惹爭議；我們先商定謹慎的說法。"
+          },
+          {
+            "id": "b",
+            "en": "We should tell them the start time before sharing the seating plan.",
+            "zh": "分享座位表前，我們應先告訴他們開始時間。"
+          },
+          {
+            "id": "c",
+            "en": "We could send each guest the venue address with the invitation.",
+            "zh": "我們可以在請柬中附上場地地址。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多段舊怨使座位安排容易觸發爭議，金句最切合。",
+        "promptEn": "A: We need to tell the relatives about the wedding seating plan, but several people are arguing about old family disagreements. B: ______"
+      },
+      "speaking": {
+        "en": "The merger talks are a minefield because job titles, pay and reporting lines all matter to different teams.",
+        "zh": "合併談判處處可能惹爭議，因為職稱、薪酬和匯報關係對不同團隊都很重要。",
+        "promptZh": "說出至少兩個可能引起爭議的細節。",
+        "targetSpan": {
+          "start": 21,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項安排涉及多方，而且有多個細節可能惹起誤會或衝突。用英文點出議題及至少兩種風險。",
+        "selfCheckZh": "要呈現不止一項潛在難處；不要把已知的單一錯字說成 minefield。",
+        "examples": [
+          {
+            "en": "Planning the school reunion is a minefield because guests disagree about invitations, costs and who should give a speech.",
+            "zh": "籌辦學校舊生聚會處處可能惹爭議，因為來賓對邀請名單、費用及誰該致辭意見不一。"
+          },
+          {
+            "en": "The museum found that naming the new gallery was a minefield: donors, artists and local residents each wanted a different emphasis.",
+            "zh": "博物館發現為新展廳命名是件處處可能惹爭議的事：捐贈者、藝術家和當地居民各有不同重視之處。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the school reunion",
+            "zh": "學校舊生聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 27
+            }
+          },
+          {
+            "en": "invitations, costs",
+            "zh": "邀請名單、費用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 91
+            }
+          },
+          {
+            "en": "give a speech",
+            "zh": "致辭",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 120
+            }
+          },
+          {
+            "en": "donors, artists",
+            "zh": "捐贈者、藝術家",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "a different emphasis",
+            "zh": "不同重視之處",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A sensitive discussion can be a minefield when many details could cause conflict.",
+          "zh": "當多個細節都可能引起衝突，敏感討論便可說是處處有地雷。"
+        },
+        {
+          "en": "A minefield calls for care, but it does not mean the topic must be avoided forever.",
+          "zh": "處處有風險的議題需要審慎處理，但不代表必須永遠迴避。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3112",
+      "number": 3112,
+      "inventoryId": "expr-3112",
+      "titleEn": "steer clear of",
+      "titleZh": "避開；避免捲入",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:steer|steers|steered|steering) clear of\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Deliberately avoid a person, place, activity or topic likely to cause trouble.",
+        "meaningZh": "有意避開可能惹麻煩的人、地方、活動或話題。",
+        "grammar": "steer clear of + noun or gerund; steered is the past form.",
+        "register": "Neutral everyday language. A colleague may use it to a teammate when choosing not to enter an unproductive dispute.",
+        "boundaryZh": "是主動遠離預見的麻煩，不等於已有解決爭議，亦不同於駕船轉向的字面動作。",
+        "misconceptionZh": "不代表所有分歧都應逃避；如果有責任處理，可能需要建設性參與。",
+        "outcomeZh": "能分辨主動迴避風險與冷靜處理分歧。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1001",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 93,
+          "book": 12,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 95, row 6; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "She chose to steer clear of the argument.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "steer clear of"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者決定怎樣處理留言區的爭吵？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Avoid joining it and answer customers through the support channel.",
+            "zh": "不加入爭吵，改經客服渠道回答顧客。"
+          },
+          {
+            "id": "b",
+            "en": "Reply to every angry comment in the same thread.",
+            "zh": "在同一留言串回覆每則憤怒留言。"
+          },
+          {
+            "id": "c",
+            "en": "Ask the support team to close every complaint without reading it.",
+            "zh": "要求客服組不看內容就關閉所有投訴。"
+          },
+          {
+            "id": "d",
+            "en": "Join the thread only after the argument becomes louder.",
+            "zh": "等爭吵更激烈才加入留言串。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "講者預見留言串只會惹麻煩，所以主動避開，另用正式渠道處理問題。",
+        "en": "The comment thread has become a personal argument. I will steer clear of it and answer customer questions through the support channel instead.",
+        "zh": "留言串已變成人身爭吵。我會避開這場爭論，改經客服渠道回答顧客問題。"
+      },
+      "reply": {
+        "promptEn": "The online discussion is getting personal, but customers still need answers. What should we do?",
+        "promptZh": "（網上討論已變成人身攻擊，但顧客仍需要答案。我們應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Reply to the practical questions through the support channel.",
+            "zh": "透過客服渠道回答實際問題。"
+          },
+          {
+            "id": "b",
+            "en": "Ask a moderator to remove personal insults while keeping genuine questions.",
+            "zh": "請版主移除人身侮辱，同時保留真正的提問。"
+          },
+          {
+            "id": "c",
+            "en": "Steer clear of the personal argument and publish a clear factual update.",
+            "zh": "避開人身爭吵，發表清楚的事實更新。"
+          },
+          {
+            "id": "d",
+            "en": "Prepare a short answer to the concern customers keep raising.",
+            "zh": "就顧客反覆提出的問題準備簡短回應。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能處理顧客問題；金句特別表明主動避開無益的人身爭吵。"
+      },
+      "scene": {
+        "promptZh": "兩名鄰居在群組互相辱罵。管理員沒有加入指責，而是另發一則公告，說明垃圾收集安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The manager steered clear of the quarrel while sharing the practical information.",
+            "zh": "管理員避開爭吵，同時提供實際資訊。"
+          },
+          {
+            "id": "b",
+            "en": "The manager joined the quarrel and defended one neighbour.",
+            "zh": "管理員加入爭吵，替其中一名鄰居辯護。"
+          },
+          {
+            "id": "c",
+            "en": "The manager settled the neighbours’ personal disagreement in private.",
+            "zh": "管理員私下解決兩名鄰居的私人分歧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "他主動不捲入爭吵，轉而處理必要資訊。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法是直接處理分歧，而非 steer clear of it？",
+        "options": [
+          {
+            "id": "a",
+            "en": "She chairs a meeting where both sides discuss the disputed rule.",
+            "zh": "她主持會議，讓雙方討論有爭議的規則。"
+          },
+          {
+            "id": "b",
+            "en": "She declines to comment in a hostile group chat.",
+            "zh": "她拒絕在敵意群組對話中評論。"
+          },
+          {
+            "id": "c",
+            "en": "She avoids a rumour-driven thread and sends a factual notice elsewhere.",
+            "zh": "她避開流言充斥的留言串，另發事實公告。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "主持直接討論是參與處理，而不是避開。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：社團群組已變成關於會員私生活的爭論。我應在那裏再留言嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "I would steer clear of that thread and raise the club issue separately.",
+            "zh": "我會避開那個留言串，另行提出社團問題。"
+          },
+          {
+            "id": "b",
+            "en": "I would ask what the club’s official policy is before commenting.",
+            "zh": "我會先問清社團正式政策再留言。"
+          },
+          {
+            "id": "c",
+            "en": "I would speak to the members privately about the club issue.",
+            "zh": "我會私下和會員討論社團問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三句都是可行做法；金句明確說避開私人爭吵。",
+        "promptEn": "A: The club chat has become a dispute about members’ private lives. Should I add another comment there? B: ______"
+      },
+      "speaking": {
+        "en": "I steered clear of the gossip at work and asked the manager directly about the new rota.",
+        "zh": "我避開職場流言，直接向經理查詢新值班表。",
+        "promptZh": "說出所避開的麻煩及改用甚麼方式處理實際問題。",
+        "targetSpan": {
+          "start": 2,
+          "end": 18
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：某人預見加入爭吵或傳聞只會惹麻煩，於是避開，改用可靠渠道處理實際問題。用英文交代迴避對象及替代做法。",
+        "selfCheckZh": "要有主動避開的風險，以及仍有用的替代行動；不要把有責任處理的問題全都丟下。",
+        "examples": [
+          {
+            "en": "Mara steered clear of the heated queue dispute and asked the station staff when the next train would arrive.",
+            "zh": "Mara 避開激烈的排隊爭執，轉向車站職員查詢下一班列車何時抵達。"
+          },
+          {
+            "en": "The editor chose to steer clear of anonymous rumours and verify the budget figures with the finance team.",
+            "zh": "編輯選擇避開匿名傳聞，向財務組核實預算數字。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the heated queue dispute",
+            "zh": "激烈的排隊爭執",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 46
+            }
+          },
+          {
+            "en": "the station staff",
+            "zh": "車站職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 74
+            }
+          },
+          {
+            "en": "the next train",
+            "zh": "下一班列車",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 94
+            }
+          },
+          {
+            "en": "anonymous rumours",
+            "zh": "匿名傳聞",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 52
+            }
+          },
+          {
+            "en": "the finance team",
+            "zh": "財務組",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 104
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Steer clear of a hostile argument when another channel can handle the real issue.",
+          "zh": "若可另循渠道處理實際問題，就避開敵意爭吵。"
+        },
+        {
+          "en": "She steered clear of the rumour and checked the figures herself.",
+          "zh": "她避開傳聞，親自核對數字。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3113",
+      "number": 3113,
+      "inventoryId": "expr-3113",
+      "titleEn": "open a can of worms",
+      "titleZh": "引出一連串棘手問題",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:open|opens|opened|opening) a can of worms\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Trigger a complicated set of further problems or disputes by raising one issue.",
+        "meaningZh": "提出一個問題後，意外引出一連串複雜的問題或爭議。",
+        "grammar": "open a can of worms; opened and opening are regular forms.",
+        "register": "Informal-to-neutral idiom. A committee member may say it to colleagues before expanding a narrow policy review.",
+        "boundaryZh": "重點是提出一事引發多項連鎖難題，不是單一問題本身很難；亦不代表應隱瞞真正需要處理的問題。",
+        "misconceptionZh": "不是打開真正的罐子，也不是一般「開始討論」的同義詞。",
+        "outcomeZh": "能辨別單一難題和討論後引出的多重連鎖問題。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1002",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 93,
+          "book": 12,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 95, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "That question could open a can of worms.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "open a can of worms"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者擔心調整座位表會引出甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Further disputes over team allocations and priority rules.",
+            "zh": "進一步引起隊伍分配和優先規則的爭議。"
+          },
+          {
+            "id": "b",
+            "en": "Only one missing name that is easy to add.",
+            "zh": "只是一個容易補上的漏名。"
+          },
+          {
+            "id": "c",
+            "en": "A change to the event’s starting time only.",
+            "zh": "只會更改活動開始時間。"
+          },
+          {
+            "id": "d",
+            "en": "No further questions once the seats are moved.",
+            "zh": "調整座位後不會再有問題。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "改一組座位可能牽動分隊及優先規則，屬連鎖難題。",
+        "en": "If we move one group of volunteers to the front, we may open a can of worms. Other teams will ask why they were placed behind and whether the priority rule has changed.",
+        "zh": "如果我們把一組義工移到前排，可能會引出一連串棘手問題。其他隊伍會問為何被安排在後面，以及優先規則是否改變。"
+      },
+      "reply": {
+        "promptEn": "Should we change one team’s seating before explaining the allocation rule?",
+        "promptZh": "（解釋分配規則前，我們應先更改一隊的座位嗎？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Explain the rule to all teams before making an exception.",
+            "zh": "破例前先向所有隊伍解釋規則。"
+          },
+          {
+            "id": "b",
+            "en": "Check whether the same change would be fair to the other teams.",
+            "zh": "檢查同樣改動對其他隊伍是否公平。"
+          },
+          {
+            "id": "c",
+            "en": "That could open a can of worms, so let us review the wider allocation rule first.",
+            "zh": "那可能引出一連串棘手問題，先檢討整體分配規則吧。"
+          },
+          {
+            "id": "d",
+            "en": "Ask the affected teams how the change would work in practice.",
+            "zh": "問受影響隊伍改動實際上如何運作。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能避免只改一處而忽略整體影響；金句指出連鎖問題。"
+      },
+      "scene": {
+        "promptZh": "公司打算只讓一名員工例外在家工作，消息一出，其他部門便追問誰有資格、如何申請和是否溯及既往。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That one exception opened a can of worms about eligibility and fairness.",
+            "zh": "那項單一例外引出資格及公平性的連串棘手問題。"
+          },
+          {
+            "id": "b",
+            "en": "That one exception resolved every department’s questions immediately.",
+            "zh": "那項單一例外立即解決所有部門的疑問。"
+          },
+          {
+            "id": "c",
+            "en": "That one exception merely required correcting an employee’s name.",
+            "zh": "那項單一例外只需更正員工姓名。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一項例外引出多個相關問題與爭議。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況只有一個容易解決的問題，未見 open a can of worms？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A clerk corrects one wrong date on a form, and everyone accepts it.",
+            "zh": "文員更正表格上一個錯誤日期，大家都接受。"
+          },
+          {
+            "id": "b",
+            "en": "A fee waiver leads to disputes about eligibility, previous payments and refunds.",
+            "zh": "豁免費用引出資格、舊款和退款爭議。"
+          },
+          {
+            "id": "c",
+            "en": "One timetable exception prompts questions from several other groups.",
+            "zh": "一項時間表例外引起多個其他群體追問。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "單一日期錯誤獲一致更正，沒有連鎖難題。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我問一名舊會員可否退款。現在另外十人也想要退款，而且我們沒有處理舊款的規則。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That question has opened a can of worms; we need a consistent refund rule.",
+            "zh": "那個問題引出一連串棘手事；我們需要一致的退款規則。"
+          },
+          {
+            "id": "b",
+            "en": "We can check the date of the first member’s payment.",
+            "zh": "我們可以核對首名會員的付款日期。"
+          },
+          {
+            "id": "c",
+            "en": "Let us send the first member a receipt before replying to the others.",
+            "zh": "回覆其他人前，先向首名會員發收據吧。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "一個退款問題擴展成多人、舊款及規則的連鎖爭議。",
+        "promptEn": "A: I asked whether one former member could get a refund. Now ten others want the same, and we have no rule for old payments. B: ______"
+      },
+      "speaking": {
+        "en": "Allowing one late entry opened a can of worms because other teams then questioned the deadline and the judging rules.",
+        "zh": "容許一隊遲交後引出一連串棘手問題，因為其他隊伍開始質疑截止時間和評審規則。",
+        "promptZh": "說出起點及至少兩個後續問題。",
+        "targetSpan": {
+          "start": 24,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：改動一項規則或作出一次例外後，其他相關問題接連浮現。用英文指出起點及至少兩項後續問題。",
+        "selfCheckZh": "必須呈現連鎖難題；單一可立即更正的錯字不足以支持此片語。",
+        "examples": [
+          {
+            "en": "Reopening the museum ticket policy could open a can of worms about discounts, refunds and tickets sold last month.",
+            "zh": "重新審視博物館門票政策可能引出折扣、退款及上月售出的門票等一連串棘手問題。"
+          },
+          {
+            "en": "The school’s decision to excuse one missed deadline opened a can of worms about who else qualified and whether past penalties should be reversed.",
+            "zh": "學校決定寬免一次逾期提交，引出其他誰也符合資格，以及過往處罰應否撤銷等連串棘手問題。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the museum ticket policy",
+            "zh": "博物館門票政策",
+            "exampleIndex": 0,
+            "span": {
+              "start": 10,
+              "end": 34
+            }
+          },
+          {
+            "en": "discounts, refunds",
+            "zh": "折扣、退款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "tickets sold last month",
+            "zh": "上月售出的門票",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 113
+            }
+          },
+          {
+            "en": "one missed deadline",
+            "zh": "一次逾期提交",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 51
+            }
+          },
+          {
+            "en": "past penalties",
+            "zh": "過往處罰",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 125
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A narrow exception can open a can of worms when many related rules are unclear.",
+          "zh": "多項相關規則不清楚時，一次小小破例就可能引出連串棘手問題。"
+        },
+        {
+          "en": "The refund question opened a can of worms about earlier payments.",
+          "zh": "退款問題引出了關於早前款項的一連串棘手問題。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3116",
+      "number": 3116,
+      "inventoryId": "expr-3116",
+      "titleEn": "sour the mood",
+      "titleZh": "破壞氣氛",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:sour|sours|soured|souring) the mood\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Make the emotional atmosphere of a gathering unpleasant.",
+        "meaningZh": "令聚會或活動的情緒氣氛變得不愉快。",
+        "grammar": "sour the mood; mood is the atmosphere, not food.",
+        "register": "Neutral everyday language. A host may say it to a co-host when a careless remark changes the tone of an event.",
+        "boundaryZh": "着重整體氣氛因某件事變差，不只是個人不喜歡一項菜式；亦不要求所有人都吵起來。",
+        "misconceptionZh": "不是食物變酸；不要把任何嚴肅但必要的話題都說成破壞氣氛。",
+        "outcomeZh": "能辨別一件事如何令群體情緒轉冷。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1005",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 93,
+          "book": 12,
+          "question": 25,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "locatorNote": "DOCX table 95, row 10; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "One careless remark can sour the mood.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "sour the mood"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "分享會的氣氛為何突然變得尷尬？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A joke about one speaker’s mistake made the group go quiet.",
+            "zh": "有人拿一位講者的失誤開玩笑，大家變得安靜。"
+          },
+          {
+            "id": "b",
+            "en": "The host announced a short break between talks.",
+            "zh": "主持人宣布演講之間短暫休息。"
+          },
+          {
+            "id": "c",
+            "en": "A guest asked where the refreshments were.",
+            "zh": "賓客問茶點放在哪裏。"
+          },
+          {
+            "id": "d",
+            "en": "The audience applauded after the final talk.",
+            "zh": "最後一場演講後，觀眾鼓掌。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "取笑講者後，原本輕鬆的氣氛轉為尷尬。",
+        "en": "The sharing session was relaxed until someone joked about Lina’s mistake on stage. That remark soured the mood, and the group fell quiet.",
+        "zh": "分享會本來氣氛輕鬆，直到有人拿 Lina 在台上的失誤開玩笑。那句話破壞了氣氛，大家安靜下來。"
+      },
+      "reply": {
+        "promptEn": "Everyone went quiet after that joke about Lina’s mistake. What should the host do?",
+        "promptZh": "（有人拿 Lina 的失誤開玩笑後，大家都安靜下來。主持人應怎樣做？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Acknowledge the joke was unkind and move back to the speakers’ work.",
+            "zh": "承認玩笑不友善，再把焦點帶回講者的工作。"
+          },
+          {
+            "id": "b",
+            "en": "Check with Lina privately after the session.",
+            "zh": "分享會後私下關心 Lina。"
+          },
+          {
+            "id": "c",
+            "en": "The remark soured the mood; a brief apology could help us reset.",
+            "zh": "那句話破壞了氣氛；簡短道歉或可幫大家重新開始。"
+          },
+          {
+            "id": "d",
+            "en": "Thank Lina for presenting and invite a respectful question.",
+            "zh": "感謝 Lina 分享，並邀請大家提出尊重的問題。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是照顧現場與講者的合理做法；金句明確描述氣氛變差。"
+      },
+      "scene": {
+        "promptZh": "慶祝會剛開始大家都在聊天，一名嘉賓卻當眾批評另一人的家人，房間隨即安靜下來。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "That comment soured the mood at the celebration.",
+            "zh": "那句評論破壞了慶祝會的氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "That comment helped guests understand the event schedule.",
+            "zh": "那句評論幫來賓了解活動時間表。"
+          },
+          {
+            "id": "c",
+            "en": "That comment changed one guest’s seat but left the atmosphere warm.",
+            "zh": "那句評論令一名來賓換座位，但氣氛仍然熱絡。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由熱鬧轉為沉默，顯示整體氣氛受負面言論影響。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況未有證據顯示有人 sour the mood？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A host briefly explains a safety rule, and the cheerful conversation continues.",
+            "zh": "主持人簡短說明安全規則，歡快談話照常繼續。"
+          },
+          {
+            "id": "b",
+            "en": "A harsh accusation leaves the dinner table silent.",
+            "zh": "尖銳指控令晚餐桌上鴉雀無聲。"
+          },
+          {
+            "id": "c",
+            "en": "A cruel joke makes several guests visibly uncomfortable.",
+            "zh": "刻薄玩笑令幾名賓客明顯不自在。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "必要而簡短的說明後氣氛依舊愉快，未見氣氛被破壞。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們本來在慶祝，直到 Pat 當眾指控 Sam 作弊。現在沒有人想說話。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "That accusation soured the mood; we should pause and address it calmly.",
+            "zh": "那項指控破壞了氣氛；我們先暫停，再冷靜處理。"
+          },
+          {
+            "id": "b",
+            "en": "We should make sure the music is loud enough for the next part.",
+            "zh": "我們應確保下一部分音樂聲量足夠。"
+          },
+          {
+            "id": "c",
+            "en": "The guests can collect their coats before the next activity.",
+            "zh": "賓客可以在下一項活動前取回外套。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "當眾指控令全場沉默，目標片語描述氣氛轉差。",
+        "promptEn": "A: We were celebrating until Pat accused Sam of cheating in front of everyone. Now nobody wants to talk. B: ______"
+      },
+      "speaking": {
+        "en": "The announcement itself was necessary, but the mocking tone soured the mood and made volunteers reluctant to speak.",
+        "zh": "宣布本身有必要，但嘲弄語氣破壞了氣氛，令義工不願發言。",
+        "promptZh": "分清必要訊息與使氣氛變差的表達方式。",
+        "targetSpan": {
+          "start": 60,
+          "end": 75
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：聚會原本氣氛不錯，一句當眾批評或刻薄玩笑使眾人變得尷尬。用英文寫出言論、氣氛變化與其後反應。",
+        "selfCheckZh": "必須有可觀察的群體氣氛變化；不要只寫某人個人不喜歡一句話。",
+        "examples": [
+          {
+            "en": "The coach’s public joke about a missed goal soured the mood in the changing room, and players stopped sharing ideas.",
+            "zh": "教練當眾拿錯失入球開玩笑，破壞了更衣室的氣氛，球員不再分享想法。"
+          },
+          {
+            "en": "At the book launch, a guest’s dismissive remark about the author soured the mood; the host then invited a more respectful question.",
+            "zh": "新書發布會上，一名賓客貶低作者的話破壞了氣氛；主持人隨後邀請大家提出更尊重的問題。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a missed goal",
+            "zh": "錯失入球",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 43
+            }
+          },
+          {
+            "en": "the changing room",
+            "zh": "更衣室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          },
+          {
+            "en": "sharing ideas",
+            "zh": "分享想法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 115
+            }
+          },
+          {
+            "en": "the book launch",
+            "zh": "新書發布會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 18
+            }
+          },
+          {
+            "en": "a more respectful question",
+            "zh": "更尊重的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 130
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "One careless remark can sour the mood even when the gathering started well.",
+          "zh": "即使聚會開頭氣氛良好，一句欠考慮的話也可能破壞氣氛。"
+        },
+        {
+          "en": "The cruel joke soured the mood and left the group silent.",
+          "zh": "刻薄玩笑破壞了氣氛，令眾人沉默。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3124",
+      "number": 3124,
+      "inventoryId": "expr-3124",
+      "titleEn": "swing from one extreme to another",
+      "titleZh": "由一個極端轉向另一個極端",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:swing|swings|swung|swinging) from one extreme to another\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Move abruptly between opposing excessive positions instead of finding a balanced middle.",
+        "meaningZh": "在兩種對立的極端立場之間急遽轉換，而沒有尋找平衡。",
+        "grammar": "swing from one extreme to another; swung is the past form.",
+        "register": "Neutral figurative language. A moderator may use it when describing abrupt reversals in a policy debate.",
+        "boundaryZh": "必須有兩端相反而過度的方向，以及明顯轉換；一般調整、折衷或漸進改變不算。",
+        "misconceptionZh": "不是擺盪的字面動作，也不是任何改變立場都屬極端轉換。",
+        "outcomeZh": "能比較極端轉向與審慎調整。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1013",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 94,
+          "book": 12,
+          "question": 26,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "locatorNote": "DOCX table 96, row 7; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Online debates can swing from one extreme to another.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "swing from one extreme to another"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "委員會的做法有甚麼問題？",
+        "options": [
+          {
+            "id": "a",
+            "en": "It shifted from banning all visits to allowing visits without limits.",
+            "zh": "它由完全禁止參觀，轉到毫無限制地開放。"
+          },
+          {
+            "id": "b",
+            "en": "It gradually added one extra visiting hour after feedback.",
+            "zh": "它聽取意見後逐步增加一小時參觀時間。"
+          },
+          {
+            "id": "c",
+            "en": "It kept the same visiting policy throughout the review.",
+            "zh": "整個檢討期間，它維持原有參觀政策。"
+          },
+          {
+            "id": "d",
+            "en": "It set a middle limit after comparing several options.",
+            "zh": "它比較多個選項後訂出中間限額。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由全禁到全無限制，兩端都過度，缺少平衡。",
+        "en": "First the committee banned all visits to the garden. After complaints, it allowed visitors in at any hour with no limit. It swung from one extreme to another instead of trying a measured schedule.",
+        "zh": "委員會起初完全禁止人們參觀花園。收到投訴後，又容許訪客在任何時候無限制進入。它從一個極端轉向另一個極端，沒有試行較平衡的時間安排。"
+      },
+      "reply": {
+        "promptEn": "The garden went from a complete ban to unlimited access. How should we review that change?",
+        "promptZh": "（花園由全面禁止參觀，轉為毫無限制地開放。我們應怎樣檢討？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Try set visiting hours and review the result after a month.",
+            "zh": "試訂參觀時間，一個月後檢討結果。"
+          },
+          {
+            "id": "b",
+            "en": "Compare the effect of both policies on residents and visitors.",
+            "zh": "比較兩種政策對居民及訪客的影響。"
+          },
+          {
+            "id": "c",
+            "en": "We swung from one extreme to another; let us consider a middle option.",
+            "zh": "我們由一個極端轉向另一個極端；考慮中間方案吧。"
+          },
+          {
+            "id": "d",
+            "en": "Ask residents what level of access works in practice.",
+            "zh": "問居民哪個開放程度實際可行。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都能建設性檢討；金句指出兩個極端之間的急遽轉換。"
+      },
+      "scene": {
+        "promptZh": "社團上月完全禁止任何新會員加入；本月卻不設人數上限，亦不安排導師，於是活動超出負荷。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The club swung from one extreme to another in its membership policy.",
+            "zh": "社團的會員政策由一個極端轉向另一個極端。"
+          },
+          {
+            "id": "b",
+            "en": "The club increased its member limit by two after checking capacity.",
+            "zh": "社團檢查容量後，把人數上限增加兩人。"
+          },
+          {
+            "id": "c",
+            "en": "The club kept its former entry rule while training more mentors.",
+            "zh": "社團維持舊入會規則，同時培訓更多導師。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "由全禁到全無限制，兩端都是過度做法。"
+      },
+      "contrast": {
+        "promptZh": "哪種改動較屬審慎調整，而不是 swing from one extreme to another？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A venue extends opening by one hour, then measures demand.",
+            "zh": "場地延長開放一小時，再評估需求。"
+          },
+          {
+            "id": "b",
+            "en": "A venue moves from closing every day to staying open around the clock without staff.",
+            "zh": "場地由每天關閉，改成沒有職員也全天開放。"
+          },
+          {
+            "id": "c",
+            "en": "A team changes from approving every request to rejecting every request.",
+            "zh": "團隊由批准所有申請改為拒絕所有申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "小幅延長後再評估，並非在兩端極端之間急轉。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：上學期我們接受所有申請。現在新規則卻不經審核就全部拒絕。乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "We have swung from one extreme to another; we need a fair review process.",
+            "zh": "我們由一個極端轉向另一個極端；需要公平的審核程序。"
+          },
+          {
+            "id": "b",
+            "en": "We have adjusted the threshold slightly after testing the old rule.",
+            "zh": "我們測試舊規則後，稍微調整了門檻。"
+          },
+          {
+            "id": "c",
+            "en": "We have kept the same rule but improved how we explain it.",
+            "zh": "我們維持同一規則，只改善說明方法。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "從全收至全拒，是兩個相反的極端。",
+        "promptEn": "A: Last term we accepted every application. Now the new rule rejects all of them without review. B: ______"
+      },
+      "speaking": {
+        "en": "The council swung from one extreme to another when it moved from no street stalls to unlimited permits overnight.",
+        "zh": "議會一夜之間由完全不准擺街檔，改為無限制發牌，從一個極端轉向另一個極端。",
+        "promptZh": "說出兩端極端做法及中間缺了甚麼。",
+        "targetSpan": {
+          "start": 12,
+          "end": 45
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一項安排先過度嚴格，後來又毫無限制地反向改變。用英文指出兩個極端及中間缺少的平衡。",
+        "selfCheckZh": "須有兩個相反而過度的做法；小幅試行調整不屬此片語。",
+        "examples": [
+          {
+            "en": "The museum swung from one extreme to another: it first banned all photography, then allowed flash photography anywhere without guidance. Allowing non-flash photos in selected areas would have been a middle option.",
+            "zh": "博物館由一個極端轉向另一個極端：起初完全禁止拍照，後來卻容許遊客在任何地方使用閃光燈，亦沒有指引。只在指定區域容許不用閃光燈拍照，本可作為中間方案。"
+          },
+          {
+            "en": "In one season, the coach swung from one extreme to another, moving from no rest days to cancelling every training session. A limited rest schedule could have balanced recovery and practice.",
+            "zh": "教練在一個賽季內由一個極端轉向另一個極端，由完全沒有休息日，改為取消所有訓練。適度安排休息日本可兼顧恢復與訓練。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "all photography",
+            "zh": "所有拍照",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 77
+            }
+          },
+          {
+            "en": "flash photography",
+            "zh": "使用閃光燈拍照",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 109
+            }
+          },
+          {
+            "en": "without guidance",
+            "zh": "沒有指引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 135
+            }
+          },
+          {
+            "en": "no rest days",
+            "zh": "完全沒有休息日",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 84
+            }
+          },
+          {
+            "en": "every training session",
+            "zh": "所有訓練",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "A policy can swing from one extreme to another when it replaces a total ban with no limits.",
+          "zh": "政策由全面禁止改為毫無限制，便可能由一個極端轉向另一個極端。"
+        },
+        {
+          "en": "The rules swung from one extreme to another instead of moving toward a workable balance.",
+          "zh": "規則由一個極端轉向另一個極端，沒有朝可行的平衡邁進。"
+        }
+      ]
+    },
+    {
+      "id": "advanced-native-3126",
+      "number": 3126,
+      "inventoryId": "expr-3126",
+      "titleEn": "first-come, first-served basis",
+      "titleZh": "先到先得原則",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:first[- ]come,? first[- ]served basis|first[- ]come,? first[- ]served)\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Allocate the places covered by a stated rule in the order people arrive or apply; a separately disclosed reserved quota may coexist.",
+        "meaningZh": "按已說明規則涵蓋的名額，依到達或申請次序分配；另行公布的預留名額亦可同時存在。",
+        "grammar": "on a first-come, first-served basis; both past participles are hyphenated in the fixed modifier.",
+        "register": "Neutral administrative wording. An event organiser may use it in a notice to applicants explaining how limited places are allocated.",
+        "boundaryZh": "核心是指定名額按先後順序分配；另行公布的預留名額可以並存。若全部名額按需要或抽籤分配，就不是純粹先到先得。",
+        "misconceptionZh": "不表示所有名額絕對不能預留，也不等於最快完成活動的人先得到獎品。",
+        "outcomeZh": "能清楚解釋有限名額的排序規則及例外。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-1015",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 94,
+          "book": 12,
+          "question": 27,
+          "sample": "S1",
+          "sourceBookPages": "66–67",
+          "locatorNote": "DOCX table 97, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Tickets were sold on a first-come, first-served basis.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "first-come, first-served basis"
+        }
+      ],
+      "review": {
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "state": "drafted",
+        "notes": [
+          "AI-authored provisional draft; independent reviews remain pending."
+        ]
+      },
+      "contentRevision": 2,
+      "listening": {
+        "promptZh": "講者說工作坊座位怎樣分配？",
+        "options": [
+          {
+            "id": "a",
+            "en": "In the order completed registrations arrive, until places are full.",
+            "zh": "按完成登記的先後次序分配，額滿即止。"
+          },
+          {
+            "id": "b",
+            "en": "By drawing names after the deadline.",
+            "zh": "截止後抽籤決定。"
+          },
+          {
+            "id": "c",
+            "en": "By giving priority to applicants with previous experience.",
+            "zh": "優先給已有經驗的申請者。"
+          },
+          {
+            "id": "d",
+            "en": "By reserving half the places for late applicants.",
+            "zh": "預留一半名額給較遲申請者。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完成登記先後決定先後，且額滿即止。",
+        "en": "There are twenty workshop places. We will offer them on a first-come, first-served basis: complete registrations are processed in the order we receive them, until all places are filled.",
+        "zh": "工作坊有二十個名額。我們會按先到先得原則分配：完整的登記會按收到的先後次序處理，額滿即止。"
+      },
+      "reply": {
+        "promptEn": "How should we explain the twenty workshop places to applicants?",
+        "promptZh": "（我們應如何向申請者解釋工作坊的二十個名額？）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Say that complete forms are processed in the order received.",
+            "zh": "說明會按收到完整表格的先後次序處理。"
+          },
+          {
+            "id": "b",
+            "en": "State clearly that registration closes once all places are filled.",
+            "zh": "清楚說明額滿即停止登記。"
+          },
+          {
+            "id": "c",
+            "en": "Places are offered on a first-come, first-served basis until they are full.",
+            "zh": "名額按先到先得原則分配，額滿即止。"
+          },
+          {
+            "id": "d",
+            "en": "Tell applicants when they will receive confirmation of a place.",
+            "zh": "告訴申請者何時會收到名額確認。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都是合理的申請資訊；金句以目標片語概括排序規則。"
+      },
+      "scene": {
+        "promptZh": "社區園圃只有十二塊地，管理處按收到完整申請表的時間逐一分配，不抽籤，也不按居民身分優先。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The plots are allocated on a first-come, first-served basis.",
+            "zh": "園圃地塊按先到先得原則分配。"
+          },
+          {
+            "id": "b",
+            "en": "The plots are allocated by a draw after applications close.",
+            "zh": "園圃地塊在截止申請後以抽籤分配。"
+          },
+          {
+            "id": "c",
+            "en": "The plots are reserved for a group chosen before applications open.",
+            "zh": "園圃地塊在開始申請前已預留給指定群體。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "完整申請按收到時間排序，沒有抽籤或預留。"
+      },
+      "contrast": {
+        "promptZh": "哪種安排不是純粹 first-come, first-served basis？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Every application enters a lottery after the same deadline.",
+            "zh": "所有申請在同一截止日後參加抽籤。"
+          },
+          {
+            "id": "b",
+            "en": "The first ten complete forms received get the ten available places.",
+            "zh": "先收到的十份完整表格獲得十個名額。"
+          },
+          {
+            "id": "c",
+            "en": "The queue moves in arrival order until all tickets are gone.",
+            "zh": "隊伍按到達次序前進，售完即止。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "抽籤取決於機會，不按申請先後分配。"
+      },
+      "dialogue": {
+        "promptZh": "（甲：我們只有五間空置綵排室。要預留一間給可能下星期才申請的團體嗎？乙：______）",
+        "options": [
+          {
+            "id": "a",
+            "en": "No; if they are offered on a first-come, first-served basis, we should process complete requests in arrival order.",
+            "zh": "不應該；若按先到先得原則分配，我們應按收到完整申請的次序處理。"
+          },
+          {
+            "id": "b",
+            "en": "We should record when each complete request arrived before deciding.",
+            "zh": "決定前，應記錄每份完整申請的收到時間。"
+          },
+          {
+            "id": "c",
+            "en": "We can tell the group to submit a request when it is ready.",
+            "zh": "我們可以告訴那組人準備好後提交申請。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "三句都合乎行政流程；金句點明不可為未申請者跳過先到次序。",
+        "promptEn": "A: We have only five spare rehearsal rooms. Should we promise one to a group that may apply next week? B: ______"
+      },
+      "speaking": {
+        "en": "The reading club offered its limited seats on a first-come, first-served basis and closed registration once the room was full.",
+        "zh": "讀書會按先到先得原則分配有限座位，滿座後便停止登記。",
+        "promptZh": "說出有限資源、排序依據和額滿安排。",
+        "targetSpan": {
+          "start": 48,
+          "end": 78
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一種名額或資源有限，主辦方按收到完整申請的時間或到達次序分配，額滿即止。用英文清楚解釋排序及是否預留。",
+        "selfCheckZh": "說出有限資源及明確先後標準；若有抽籤或特殊優先權，不能說純粹先到先得。",
+        "examples": [
+          {
+            "en": "The sports centre assigned the last ten lockers on a first-come, first-served basis, using the time each complete request arrived and holding none for later requests.",
+            "zh": "體育中心按先到先得原則分配最後十個儲物櫃，依完整申請到達的時間排序，沒有為較遲提交的申請預留。"
+          },
+          {
+            "en": "The library offered its spare study desks on a first-come, first-served basis and kept no desks aside for visitors who had not signed up.",
+            "zh": "圖書館按先到先得原則提供剩餘自修桌位，沒有為未登記的訪客預留桌位。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the last ten lockers",
+            "zh": "最後十個儲物櫃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 47
+            }
+          },
+          {
+            "en": "each complete request",
+            "zh": "每份完整申請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 121
+            }
+          },
+          {
+            "en": "the time",
+            "zh": "時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 99
+            }
+          },
+          {
+            "en": "spare study desks",
+            "zh": "剩餘自修桌位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 24,
+              "end": 41
+            }
+          },
+          {
+            "en": "visitors who had not signed up",
+            "zh": "未登記的訪客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 136
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Limited places may be offered on a first-come, first-served basis.",
+          "zh": "有限名額可按先到先得原則分配。"
+        },
+        {
+          "en": "On a first-come, first-served basis, the earliest complete applications receive the places.",
+          "zh": "按先到先得原則，最早收到的完整申請獲得名額。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Independent exact-hash follow-up of repaired 3109–3126 lessons and 3119 owner-hold split; read-only review",
+  "retainedDraftFile": "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json",
+  "retainedDraftSha256": "8e2ccffb300bc2585e752b498571aa726cc2dfb73597f2cc733d6ab194cd5fa4",
+  "ownerHoldFile": "course-materials/advanced-native/drafts-books10-16/batch-3119-owner-hold-a.json",
+  "ownerHoldSha256": "2eee6fb91e56aecdd4073d835506b743cf9dd95e8556a3a0a51720bfeeafe031",
+  "retainedLessonIds": [3109, 3111, 3112, 3113, 3116, 3124, 3126],
+  "heldLessonId": 3119,
+  "originalFindingsRecheck": {
+    "batchWideDialogueChinese": "CLEARED: all seven retained dialogue prompts have English in promptEn and corresponding Traditional Chinese in promptZh; the 3109 market-stallholder translation mismatch discovered in interim follow-up was corrected in contentRevision 3.",
+    "R3109-01": "CLEARED: both writing models give direct stakes and why the affected group should be consulted.",
+    "R3111-01": "CLEARED: contrast and surrounding Chinese no longer form the malformed mixed-language expression.",
+    "R3119-01": "WITHHELD: 3119 is absent from retained batch and isolated in a standalone unselected owner-hold file; possible same-sense overlap with canonical 549 requires owner adjudication.",
+    "R3119-02": "WITHHELD WITH 3119: writing content does not enter selected candidate batch.",
+    "R3124-01": "CLEARED: both models now state two extremes and a concrete middle option.",
+    "R3126-01": "CLEARED: both writing models say whether places/resources are reserved and identify the ordering rule.",
+    "R3126-02": "CLEARED: brief now accurately allows a separately disclosed reserved quota to coexist with first-come allocation for the stated remaining places."
+  },
+  "integrity": "Fresh gi target-pattern tests pass for each retained source sentence, keyed scene/dialogue, golden reply, speaking model and both writing examples; all answer-derived glossary spans are exact. Focused build and --check pass: 7 lessons, 42 questions, 28 audio requests, zero review flags.",
+  "findings": [],
+  "result": "SEVEN_RETAINED_DRAFTS_CLEARED_FOR_PROVISIONAL_SELECTION; 3119 remains unselected and requires owner-scope adjudication; no human approval or publication inferred"
+}

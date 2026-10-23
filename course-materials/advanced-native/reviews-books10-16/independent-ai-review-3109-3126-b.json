@@ -1,0 +1,86 @@
+{
+  "reviewType": "Independent Golden SOP content and owner-scope review of eight unselected lessons",
+  "humanApproval": false,
+  "releaseApproval": false,
+  "sourceOrdinals": [3109, 3111, 3112, 3113, 3116, 3119, 3124, 3126],
+  "inputHashes": {
+    "draft": "2dcc4e2642de453000ec7e336f5a69c14e38edeef75b1ea07f5245d835789abf",
+    "authorSelfAudit": "3667414be23da12495fdd7c08179356a459cb24537bf2f4aa407c60cefe32008",
+    "sourceInventory": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+    "canonical549Batch": "969c9324eae126454122a75d3fd89b54a2395e9c5d013cc5b317c8bf1b657e4f",
+    "canonical1786Batch": "f48b01c19163a91df7a9ba3d66e797b4b9adac72826e1c458384f9fc04a1a1b8"
+  },
+  "focusedBuild": {"lessons": 8, "questions": 48, "audioRequests": 32, "flags": 0, "checkPassed": true},
+  "contentScreen": "Read every source and seven-step lesson, all English and Traditional Chinese stems/options, six keyed assessments, four-valid reply sets, both changed-context writing models and exact glossary/speaking target spans. Structural target and span checks pass; the content findings below remain.",
+  "ownerComparisons": {
+    "3111Vs1786": "Provisional separate teaching is plausible: canonical 1786 teaches a paired gold-mine/minefield contrast, while 3111 source and assessments use a bare minefield for many potential pitfalls. Human owner sign-off still needed.",
+    "3119Vs549": "Likely same-sense duplicate, not a distinct owner: 549 means inability to leave familiar repeated ways of working; source says a committee remained stuck in old patterns, while 3119 says a team can become trapped in old habits. The new lesson again drills outdated routines despite changed needs. Canonical 549 regex does not currently detect the 3119 source, so an immediate alias is also invalid. Hold 3119 for canonical extension or explicit owner adjudication."
+  },
+  "findings": [
+    {
+      "id": "RBATCH-3109-01",
+      "severity": "major",
+      "sourceOrdinals": [3109, 3111, 3112, 3113, 3116, 3119, 3124, 3126],
+      "path": "lessons[number in sourceOrdinals].dialogue.promptZh",
+      "detail": "All eight Traditional Chinese dialogue-prompt fields contain the English A/B sentence verbatim, with no Chinese rendering. This fails the required bilingual question display even though option translations exist.",
+      "repair": "Translate each A/B stem into idiomatic Traditional Chinese in promptZh, preserving the fact pattern and blank. If retaining the English text in the UI is required, store it separately from the Chinese prompt."
+    },
+    {
+      "id": "R3109-01",
+      "severity": "major",
+      "sourceOrdinal": 3109,
+      "path": "lessons[number=3109].writing.examples[0/1]",
+      "detail": "The writing prompt asks for the affected group, the concrete impact and why the group should participate in discussion. Both models show a concrete stake but neither states that the group should be consulted or have a voice, so neither completes the task.",
+      "repair": "Add a grounded consultation/participation clause to both complete English models and align Chinese/glossary offsets."
+    },
+    {
+      "id": "R3111-01",
+      "severity": "minor",
+      "sourceOrdinal": 3111,
+      "path": "lessons[number=3111].contrast.promptZh",
+      "detail": "The prompt says `而非一個 a minefield`, stacking a Chinese classifier and English article. The mixed phrase is visibly ungrammatical.",
+      "repair": "Ask which situation is a single clear error rather than `a minefield`, without `一個` before the English article, or render the whole phrase in Chinese."
+    },
+    {
+      "id": "R3119-01",
+      "severity": "blocker",
+      "sourceOrdinal": 3119,
+      "path": "lessons[number=3119].brief and source-owner decision",
+      "detail": "Canonical 549 `stuck in old patterns` already teaches repeated outdated methods that block adaptation, including an organization continuing a routine despite changed participation. Lesson 3119 `trapped in old habits` uses the same meaning, boundary, situations and requested learner decisions. Different wording alone does not justify a second owner; canonical 549's existing target regex does not match this source for an alias.",
+      "repair": "Keep 3119 unselected and return its proposed-new editorial decision to hold pending human owner adjudication. If canonical 549 is deliberately broadened with source-form teaching and detector coverage, alias the source there; otherwise document a genuinely distinct decision before reconsidering a new owner."
+    },
+    {
+      "id": "R3119-02",
+      "severity": "major",
+      "sourceOrdinal": 3119,
+      "path": "lessons[number=3119].writing.examples[0]",
+      "detail": "The writing prompt requires a repeated old method that caused a missed message or delay. Model 1 only says the theatre kept posting to a wall board after performers adopted a shared calendar; it does not state any missed notice or delay.",
+      "repair": "If the owner issue is resolved and this lesson remains, supply the consequence in model 1 and align Traditional Chinese/glossary spans."
+    },
+    {
+      "id": "R3124-01",
+      "severity": "major",
+      "sourceOrdinal": 3124,
+      "path": "lessons[number=3124].writing.examples[0/1]",
+      "detail": "The writing prompt asks for both extremes and the missing balanced middle. Both models name opposing extremes but never say what measured middle option was omitted; `without guidance` in model 1 is insufficient to specify the moderate policy.",
+      "repair": "Make each English model explicitly contrast the extremes with a feasible middle option, such as limited non-flash photography or scheduled rest and training; align Chinese/glossary spans."
+    },
+    {
+      "id": "R3126-01",
+      "severity": "major",
+      "sourceOrdinal": 3126,
+      "path": "lessons[number=3126].writing.examples[0]",
+      "detail": "The prompt asks how limited places are ordered and whether any are reserved. Model 1 provides complete-request arrival order but says nothing about reservation. Model 2 covers non-reservation.",
+      "repair": "Make model 1 explicitly state no lockers were reserved outside the arrival-order queue and align the Chinese/glossary spans."
+    },
+    {
+      "id": "R3126-02",
+      "severity": "minor",
+      "sourceOrdinal": 3126,
+      "path": "lessons[number=3126].brief.meaningEn",
+      "detail": "The brief defines first-come, first-served as necessarily `without reservations`. A service can allocate advance reservations in the order complete requests arrive; the essential rule is order, without priority or preallocation outside that queue. The lesson itself treats online complete registrations as eligible.",
+      "repair": "Replace the blanket no-reservations claim with no advance priority/preallocation that bypasses the arrival or application order; keep the contrast with lotteries and reserved exceptions."
+    }
+  ],
+  "selectionRecommendation": "Keep all eight unselected for bilingual-stem and writing-model repairs. Hold 3119 specifically for canonical ownership adjudication rather than polishing it into a duplicate lesson. Rebuild and independently recheck any revision; no media, device, human or release gate is certified."
+}

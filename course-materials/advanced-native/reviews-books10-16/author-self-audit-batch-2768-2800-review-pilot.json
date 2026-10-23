@@ -1,0 +1,259 @@
+{
+  "reviewType": "AI author self-audit; not independent peer review, human approval, media listening approval, or release certification",
+  "scope": "Eight unselected Books 10–16 proposed-new lessons after source ordinal 2766",
+  "createdUtc": "2026-10-23T12:31:53+00:00",
+  "sourceInventory": {
+    "path": "course-materials/advanced-native/books10-16/source-inventory.jsonl",
+    "sha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0"
+  },
+  "editorialDecisions": [
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2712-2771.jsonl",
+      "sha256": "bb27261e0faadd3eb1d1850082d1bfec88474cb9d66a8aea985ec593d3f2eea9"
+    },
+    {
+      "path": "course-materials/advanced-native/books10-16/editorial-decisions-2772-2831.jsonl",
+      "sha256": "eef4ff41f5a9720b1798f347f4f328cf32a72ea347ef4065da8758df1689d641"
+    }
+  ],
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-1.json",
+      "sha256": "4a426364789324bd47208f695b41986e0f39cf1bf32ddc08a6f487fcdccf42b2",
+      "sourceOrdinals": [
+        2768,
+        2774,
+        2775,
+        2783
+      ]
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-2.json",
+      "sha256": "17fbdc581e5c7870e4954ba4ba62ffc2b9387fe59e5ba62d99d00dc8381b1e7d",
+      "sourceOrdinals": [
+        2788,
+        2791,
+        2799,
+        2800
+      ]
+    }
+  ],
+  "sourceOrdinals": [
+    2768,
+    2774,
+    2775,
+    2783,
+    2788,
+    2791,
+    2799,
+    2800
+  ],
+  "focusedBuild": {
+    "lessons": 8,
+    "questions": 48,
+    "audioRequests": 32,
+    "reviewFlags": 0,
+    "build": "pass after repairs",
+    "check": "pass after repairs",
+    "outputDirectory": "/private/tmp/advanced-native-2768-2800-pilot"
+  },
+  "readOnlyExistingOwnerCollisionScreen": {
+    "matchedRecordsForEight": 0,
+    "scope": "all discovered provisional decisions vs selected canonical detectors",
+    "interpretation": "No detector collision found; semantic ownership still awaits editorial sign-off."
+  },
+  "authorChecks": [
+    {
+      "sourceOrdinal": 2768,
+      "lessonId": "advanced-native-2768",
+      "title": "get a glimpse of",
+      "contentRevision": 1,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2774,
+      "lessonId": "advanced-native-2774",
+      "title": "hum along",
+      "contentRevision": 2,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2775,
+      "lessonId": "advanced-native-2775",
+      "title": "catchy hook",
+      "contentRevision": 1,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2783,
+      "lessonId": "advanced-native-2783",
+      "title": "meet people where they are",
+      "contentRevision": 2,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2788,
+      "lessonId": "advanced-native-2788",
+      "title": "the real dividing line",
+      "contentRevision": 2,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2791,
+      "lessonId": "advanced-native-2791",
+      "title": "hit the right note",
+      "contentRevision": 2,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2799,
+      "lessonId": "advanced-native-2799",
+      "title": "lead the way",
+      "contentRevision": 3,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    },
+    {
+      "sourceOrdinal": 2800,
+      "lessonId": "advanced-native-2800",
+      "title": "the centre of gravity has shifted",
+      "contentRevision": 1,
+      "sourceSentenceAndPhraseExact": true,
+      "decisionOwnerMatches": true,
+      "sourceSenseAuthorChecked": true,
+      "sevenLearnerDecisionsAndVariedSettingsAuthorChecked": true,
+      "fourReplyOptionsContextuallyValidAuthorAssessment": true,
+      "sceneContrastDialogueSingleKeyAuthorAssessment": true,
+      "finalWritingNewContextAndTwoCompleteModelsAuthorAssessment": true,
+      "traditionalChineseSubjectTenseUncertaintyAuthorAssessment": true,
+      "glossaryExactAnswerSpansBuilderVerified": true,
+      "targetPatternSourceAndAssessedTextBuilderVerified": true,
+      "fourAudioRequestsBuilderVerified": true
+    }
+  ],
+  "skippedCandidate": {
+    "sourceOrdinal": 2785,
+    "phrase": "part of the mix",
+    "currentDecision": "proposed-new-lesson unchanged",
+    "reason": "Provisional seven-step feasibility hold: expressing one element among several may not support seven meaningfully distinct learner decisions without repeating inclusion-versus-exclusivity. No draft or decision edit made; editorial review needed before promotion."
+  },
+  "selectionState": "unselected and unpublished",
+  "openReview": [
+    "independent English/Traditional Chinese and answer-fairness review pending",
+    "media listening and device QA pending",
+    "human owner and release approval pending"
+  ],
+  "updatedUtc": "2026-10-23T12:39:44+00:00",
+  "independentInitialReview": {
+    "path": "course-materials/advanced-native/reviews-books10-16/independent-ai-review-2768-2800-b.json",
+    "sha256": "46dd0a6b713731e5b2d7552cc4216ebaf17cc85a63ea2d2b17291218da2d9752",
+    "findings": [
+      "R2774-01",
+      "R2783-01",
+      "R2788-01",
+      "R2791-01",
+      "R2791-02",
+      "R2799-01"
+    ],
+    "status": "author repaired; independent follow-up pending"
+  },
+  "authorRepairAssessment": [
+    {
+      "finding": "R2774-01",
+      "change": "Natural English describes joining quietly with lips closed without revealing target phrase."
+    },
+    {
+      "finding": "R2783-01",
+      "change": "Second final model now includes large-print steps, guided first purchase and later independent use."
+    },
+    {
+      "finding": "R2788-01",
+      "change": "Second model now states equal fees and hours along with tool borrowing distinction."
+    },
+    {
+      "finding": "R2791-01",
+      "change": "Chinese listening translation explicitly attributes gentle tone to the song."
+    },
+    {
+      "finding": "R2791-02",
+      "change": "Both English writing models thank the caretaker for years of caring for students and avoid invented joke targets; Chinese and glossary spans aligned."
+    },
+    {
+      "finding": "R2799-01",
+      "change": "Scene and final writing now assess the source’s present-leading main-channel sense without inferring historical first invention; pioneer sense remains separately grounded."
+    },
+    {
+      "finding": "R2799-01-residual",
+      "change": "First writing model now states seven in ten patients (70%) explicitly, aligning both models with final self-check and Chinese."
+    }
+  ]
+}

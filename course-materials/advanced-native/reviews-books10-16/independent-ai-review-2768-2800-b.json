@@ -1,0 +1,62 @@
+{
+  "scope": "Independent Golden SOP editorial review of eight unselected lessons 2768, 2774, 2775, 2783, 2788, 2791, 2799, 2800",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-1.json",
+      "sha256": "a9a4342f29a78891cc963674fedceceb81ec0840d478431b73e280529029da82"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-2.json",
+      "sha256": "f0725fabbe569699fa4b4af8988bae0b747750e4dca28e1cdded109cf56ab06e"
+    }
+  ],
+  "sourceInventorySha256": "10410a78345f4108c1b7f116c01ec3adf8a84b3f1c21c8ea125412bcb77a37e0",
+  "authorSelfAuditSha256": "1b8384e43dd89419d1b2696edeb1b1ce63dcfb87b606d588cf888d3b53330dcc",
+  "automatedChecks": "Focused build and --check: 8 lessons, 48 questions, 32 audio requests, zero review flags. Fresh gi regex matches each source sentence, keyed scene/dialogue, golden reply, speaking model and both writing examples; all 8 writing glossaries have exact answer-derived spans.",
+  "findings": [
+    {
+      "id": "R2774-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-2774].reply.promptEn",
+      "evidence": "The prompt says the audience 'made the tune softly with closed lips'. That is an unnatural English description of humming, while the adjacent Chinese says they hummed. The question can describe joining or following the melody without naming the target in English.",
+      "repair": "Use natural English such as 'made soft sounds to the tune without singing any lyrics'; keep the four independently valid replies and nonleaking prompt."
+    },
+    {
+      "id": "R2783-01",
+      "severity": "major",
+      "path": "lessons[advanced-native-2783].writing.examples[1]",
+      "evidence": "The changed writing situation explicitly supplies a large-print step card plus an in-person first-purchase demonstration, and the self-check asks how support was adapted. Model 2 mentions only a guided purchase and later independent use, omitting the large-print adaptation to the too-complex written instructions.",
+      "repair": "Make model 2 a complete response that includes the large-print steps and the guided purchase as well as the later independent-use goal; re-extract any edited glossary spans."
+    },
+    {
+      "id": "R2788-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-2788].writing.examples[1]",
+      "evidence": "The selfCheckZh specifically requires saying the memberships have the same fee and opening hours. Model 2 identifies tool borrowing for a resident who needs a drill but never states the shared fee or hours, unlike model 1.",
+      "repair": "Add the shared fee/hours to model 2, or narrow the self-check if mentioning these facts is optional; preserve the decisive tool-borrowing contrast. Recheck glossary if edited."
+    },
+    {
+      "id": "R2791-01",
+      "severity": "minor",
+      "path": "lessons[advanced-native-2791].listening.zh",
+      "evidence": "English 'Its quiet tone hit the right note for the gathering' refers to the song's restrained tone; Chinese '安靜的氣氛正好配合這場聚會' turns this into an atmosphere rather than a quality of the song.",
+      "repair": "Translate the song's gentle or restrained tone explicitly, for example '這首歌的柔和語氣正好配合這場聚會。'"
+    },
+    {
+      "id": "R2791-02",
+      "severity": "major",
+      "path": "lessons[advanced-native-2791].writing.examples[0..1]",
+      "evidence": "The prompt asks why a retirement speech suited a school caretaker who had cared for students for years. Model 1 thanks the caretaker but never establishes the years or students, and adds that jokes would target his work, which the prompt did not say. Model 2 says only 'his years of care', while its Chinese adds '照顧學生' absent from the English.",
+      "repair": "Make both English models explicitly thank the caretaker for years of caring for students, avoid inventing the target of jokes, align each Chinese translation, and recalculate answer-derived glossary spans."
+    },
+    {
+      "id": "R2799-01",
+      "severity": "major",
+      "path": "lessons[advanced-native-2799].scene/contrast/dialogue/reply/speaking/writing",
+      "evidence": "The exact source says 'Mobile apps now lead the way in local updates' and the listening item interprets present predominance. Nearly all later tasks instead require being the first pilot that others copied. Being today's main channel and being the historical pioneer are separate factual tests; six-step practice may incorrectly teach that current leadership requires having pioneered the field. The brief itself warns against assuming 'first ever'.",
+      "repair": "Keep the source's present-leading sense visible in at least one additional assessed task and the changed writing context, or explicitly contrast current leader with pioneer while retaining one defensible teaching decision. Do not imply historical first whenever 'lead the way' describes a present main route. Recheck question keys, Chinese and glossary after edits."
+    }
+  ],
+  "clearedLessonIds": [2768, 2775, 2800],
+  "releaseStatus": "UNSELECTED; editorial repairs and independent exact-hash follow-up required for 2774, 2783, 2788, 2791 and 2799; no human approval or publication inferred"
+}

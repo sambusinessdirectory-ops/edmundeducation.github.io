@@ -1,0 +1,27 @@
+{
+  "scope": "Independent exact-hash follow-up for six editorial findings and one residual in eight unselected 2768–2800 lessons",
+  "draftFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-1.json",
+      "sha256": "4a426364789324bd47208f695b41986e0f39cf1bf32ddc08a6f487fcdccf42b2"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2768-2800-review-pilot-2.json",
+      "sha256": "17fbdc581e5c7870e4954ba4ba62ffc2b9387fe59e5ba62d99d00dc8381b1e7d"
+    }
+  ],
+  "authorSelfAuditSha256": "e1c84ded07dbd2f4a63223891c9f408f27ddd9430e0c5e484584f8d5648f5676",
+  "lessonIds": [2768, 2774, 2775, 2783, 2788, 2791, 2799, 2800],
+  "findingRechecks": {
+    "R2774-01": "CLEARED: reply prompt now naturally describes joining the chorus quietly with lips closed and no lyrics, without exposing the target English phrase.",
+    "R2783-01": "CLEARED: second writing model includes large-print steps, the guided first purchase and the later independent-use goal; Chinese and glossary spans match.",
+    "R2788-01": "CLEARED: second writing model explicitly says both memberships have the same fee and hours as required by self-check.",
+    "R2791-01": "CLEARED: listening Chinese attributes the gentle tone to the song rather than shifting the referent to the gathering's atmosphere.",
+    "R2791-02": "CLEARED: both English writing models specify years of caring for students and avoid inventing jokes targeted at his work; Chinese and answer-derived glossary match.",
+    "R2799-01": "CLEARED: scene and changed-context writing now assess the source's current predominant-channel sense with explicit data, while other tasks continue to show a separately grounded pioneer use without claiming universal first invention.",
+    "R2799-residual-01": "CLEARED: first writing model now explicitly says seven in ten patients receive SMS, matching prompt, self-check and Chinese; second model was already explicit."
+  },
+  "integrity": "Focused build and --check pass: 8 lessons, 48 questions, 32 audio requests, zero review flags. Fresh gi tests match each source sentence, keyed scene/dialogue, golden reply, speaking model and both writing examples; all answer-derived glossary spans remain exact.",
+  "findings": [],
+  "result": "EIGHT_DRAFTS_CLEARED_FOR_PROVISIONAL_SELECTION; this does not constitute human acceptance, audio listening, device QA or publication"
+}

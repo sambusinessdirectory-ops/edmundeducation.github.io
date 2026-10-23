@@ -1,0 +1,1101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "books10-16-2768-2800-review-pilot-2",
+  "lessons": [
+    {
+      "id": "advanced-native-2788",
+      "number": 2788,
+      "inventoryId": "expr-2788",
+      "titleEn": "the real dividing line",
+      "titleZh": "真正的分野",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the\\s+)?real\\s+dividing\\s+line\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The main distinction that separates two groups or options, rather than a minor surface difference.",
+        "meaningZh": "區分兩組人或兩個選項的主要差異，而非表面小差別。",
+        "grammar": "Pattern: the real dividing line between X and Y is + distinguishing factor; a figurative noun phrase, not a boundary on a map.",
+        "register": "Analytical but accessible comparison: a teacher tells students which feature truly separates two similar reading clubs.",
+        "boundaryZh": "要有足以區分兩組的實質特徵；只是字體或顏色不同，不一定是主要分野。",
+        "misconceptionZh": "不是地圖上的分界線，也不表示兩邊所有其他條件都不同。",
+        "outcomeZh": "能先確認兩者相似之處，再指出真正令結果或功能不同的因素。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0677",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 62,
+          "book": 11,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 59, row 5; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Mood is the real dividing line between these playlists.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "real dividing line"
+        }
+      ],
+      "listening": {
+        "en": "Both reading clubs meet on Fridays and have the same number of members. One discusses novels; the other writes its own stories. Activity is the real dividing line.",
+        "zh": "兩個閱讀會都在星期五聚會，成員數目也相同。一個討論小說，另一個自行創作故事。活動內容才是真正的分野。",
+        "promptZh": "the real dividing line 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The type of activity is the main difference between the clubs.",
+            "zh": "活動類型是兩個閱讀會的主要差別。"
+          },
+          {
+            "id": "b",
+            "en": "The clubs meet on different days of the week.",
+            "zh": "兩個閱讀會在不同星期幾聚會。"
+          },
+          {
+            "id": "c",
+            "en": "One club has far more members than the other.",
+            "zh": "其中一個閱讀會的成員遠多於另一個。"
+          },
+          {
+            "id": "d",
+            "en": "A physical line on the floor separates the clubs.",
+            "zh": "地板上的實際界線把兩個閱讀會分開。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "時間和人數相同；討論與創作的活動形式才區分兩者。"
+      },
+      "reply": {
+        "promptEn": "How do the two phone plans differ in a way that matters for overseas calls? Their price and data allowance match, but one includes international calls and the other allows only local calls.",
+        "promptZh": "（兩個電話計劃在海外通話方面有甚麼重要差別？兩者價格與數據量相同，但一個包括國際通話，另一個只可打本地電話。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Only one plan includes international calls.",
+            "zh": "只有其中一個計劃包括國際通話。"
+          },
+          {
+            "id": "b",
+            "en": "The call coverage, not the price, separates them.",
+            "zh": "區分兩者的是通話範圍，不是價格。"
+          },
+          {
+            "id": "c",
+            "en": "International calling is the real dividing line between the plans.",
+            "zh": "國際通話功能是兩個計劃真正的分野。"
+          },
+          {
+            "id": "d",
+            "en": "Someone needing overseas calls gets different options under these otherwise similar plans.",
+            "zh": "需要打海外電話的人會發現兩個其他方面相似的計劃選擇不同。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都以國際通話功能為關鍵差異；金句用本課表達。"
+      },
+      "scene": {
+        "promptZh": "兩項義工服務都在同一社區中心舉行、服務同一群長者；甲每星期參與，乙每月只參與一次。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The real dividing line is how often volunteers need to attend.",
+            "zh": "真正的分野在於義工需要多久參與一次。"
+          },
+          {
+            "id": "b",
+            "en": "The services differ mainly because they help completely different people.",
+            "zh": "兩項服務主要差在服務完全不同的人。"
+          },
+          {
+            "id": "c",
+            "en": "The services take place in different districts.",
+            "zh": "兩項服務在不同地區舉行。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "地點和對象相同；每週與每月的參與頻率才是關鍵差異。"
+      },
+      "contrast": {
+        "promptZh": "哪項資料最不足以構成兩個方案的 real dividing line？",
+        "options": [
+          {
+            "id": "a",
+            "en": "One course includes weekly feedback, while the other offers no feedback.",
+            "zh": "一個課程每週提供回饋，另一個沒有。"
+          },
+          {
+            "id": "b",
+            "en": "The menus offer the same dishes at the same price but use different font colours.",
+            "zh": "兩份餐牌菜式和價格相同，只是字體顏色不同。"
+          },
+          {
+            "id": "c",
+            "en": "One bus route runs hourly, while another runs every ten minutes.",
+            "zh": "一條巴士線每小時一班，另一條每十分鐘一班。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只換字體顏色未構成實質功能或結果的主要分野。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「兩隊球員平均年齡一樣，所以一定完全沒有差別。」但一隊早上訓練，另一隊晚間訓練。你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Their training schedule may be the real dividing line, even if their ages match.",
+            "zh": "即使年齡相若，訓練時間也可能是真正的分野。"
+          },
+          {
+            "id": "b",
+            "en": "The matching ages prove the two teams use identical schedules.",
+            "zh": "年齡相若就證明兩隊訓練時間完全相同。"
+          },
+          {
+            "id": "c",
+            "en": "Morning and evening training cannot affect how the teams operate.",
+            "zh": "早上與晚間訓練不可能影響隊伍運作。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "年齡相同不消除訓練時間這項有實際影響的差異。"
+      },
+      "speaking": {
+        "en": "The real dividing line between the routes is reliability, not distance.",
+        "zh": "兩條路線真正的分野是可靠程度，不是距離。",
+        "promptZh": "先聽示範，再指出哪項因素才是比較重點。",
+        "targetSpan": {
+          "start": 0,
+          "end": 22
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩種圖書館會籍費用和開放時間一樣。甲只能借書，乙還可借工具；居民想借電鑽。用一至兩句英文指出真正影響居民選擇的差異。",
+        "selfCheckZh": "寫出兩種會籍在費用和時間上相同，真正差在可否借工具。",
+        "examples": [
+          {
+            "en": "The real dividing line between the memberships is tool borrowing for the resident who needs a drill, since both have the same fee and hours.",
+            "zh": "對需要電鑽的居民來說，兩種會籍真正的分野是可否借工具，因為費用和開放時間相同。"
+          },
+          {
+            "en": "For a resident who needs a drill, the real dividing line is that only Membership B includes tools. Both memberships have the same fee and hours.",
+            "zh": "對需要電鑽的居民來說，真正的分野是只有乙會籍可借工具。兩種會籍的費用和開放時間相同。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the memberships",
+            "zh": "兩種會籍",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 46
+            }
+          },
+          {
+            "en": "tool borrowing",
+            "zh": "借工具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 64
+            }
+          },
+          {
+            "en": "the same fee and hours",
+            "zh": "相同費用和開放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 139
+            }
+          },
+          {
+            "en": "a resident who needs a drill",
+            "zh": "需要電鑽的居民",
+            "exampleIndex": 1,
+            "span": {
+              "start": 4,
+              "end": 32
+            }
+          },
+          {
+            "en": "Membership B",
+            "zh": "乙會籍",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 82
+            }
+          },
+          {
+            "en": "includes tools",
+            "zh": "可借工具",
+            "exampleIndex": 1,
+            "span": {
+              "start": 83,
+              "end": 97
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The real dividing line is the feature that materially separates two otherwise similar options.",
+          "zh": "真正的分野是把兩個其他方面相似的選項實質區分開的特徵。"
+        },
+        {
+          "en": "The real dividing line need not be a visible line or a difference in every feature.",
+          "zh": "真正的分野不必是可見的線，也不表示每個特徵都不同。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2791",
+      "number": 2791,
+      "inventoryId": "expr-2791",
+      "titleEn": "hit the right note",
+      "titleZh": "拿捏合適的語氣",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:hit|hits|hitting)\\s+the\\s+right\\s+note\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Suit the mood or needs of an occasion in tone, style or response.",
+        "meaningZh": "說話、表演或回應的語氣與場合氣氛相配。",
+        "grammar": "Pattern: message/song/person hit(s) the right note at/for an occasion; hit is unchanged in past. Figurative use is about appropriateness, not literal musical pitch.",
+        "register": "Sensitive event planning: a ceremony organiser explains to speakers why calm thanks fit a reflective gathering better than loud celebration.",
+        "boundaryZh": "合乎場合不等於每個人都喜歡，也不保證每個音符唱得準。",
+        "misconceptionZh": "在此不是只指唱對音高，而是整體語氣或表達方式恰當。",
+        "outcomeZh": "能根據場合的情緒和聽眾需要，判斷表達是否拿捏得宜。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0680",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 62,
+          "book": 11,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "57–58",
+          "locatorNote": "DOCX table 59, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "The gentle song hit the right note after the ceremony.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hit the right note"
+        }
+      ],
+      "listening": {
+        "en": "After the memorial, the organiser played a gentle song rather than a triumphant march. Its quiet tone hit the right note for the gathering.",
+        "zh": "紀念活動後，籌辦人播放了一首柔和歌曲，而非勝利進行曲。這首歌的柔和語氣正好配合這場聚會。",
+        "promptZh": "hit the right note 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The song’s tone suited the reflective occasion.",
+            "zh": "歌曲的語氣適合這個沉思的場合。"
+          },
+          {
+            "id": "b",
+            "en": "The song was guaranteed to be everyone’s favourite.",
+            "zh": "這首歌保證是每個人最喜歡的。"
+          },
+          {
+            "id": "c",
+            "en": "Every singer reached the correct musical pitch.",
+            "zh": "每名歌手都唱準了每個音。"
+          },
+          {
+            "id": "d",
+            "en": "The organiser chose the loudest available music.",
+            "zh": "籌辦人選了音量最大的音樂。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "柔和而不喧鬧的選擇符合紀念活動後的氣氛。"
+      },
+      "reply": {
+        "promptEn": "How did the host address volunteers after a difficult recovery project? She thanked their patience in a warm, restrained speech and avoided making jokes about the hardship.",
+        "promptZh": "（艱難的復修項目後，主持人怎樣向義工說話？她以溫暖而克制的致詞感謝耐心，沒有拿困難開玩笑。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Her thanks matched the serious but appreciative mood.",
+            "zh": "她的感謝配合了嚴肅而又感激的氣氛。"
+          },
+          {
+            "id": "b",
+            "en": "She showed care without making light of the hardship.",
+            "zh": "她表達關懷，沒有輕視這段艱難。"
+          },
+          {
+            "id": "c",
+            "en": "Her speech hit the right note for the volunteers.",
+            "zh": "她的致詞在義工面前拿捏得宜。"
+          },
+          {
+            "id": "d",
+            "en": "The restrained tone suited what the team had been through.",
+            "zh": "克制的語氣符合團隊的經歷。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都說表達方式適合當下氣氛；金句用 hit the right note。"
+      },
+      "scene": {
+        "promptZh": "社區在暴雨後首次聚會，主席先感謝互相協助的居民，再安靜地悼念受影響家庭。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The chair’s remarks hit the right note for the gathering.",
+            "zh": "主席的說話為這次聚會拿捏了合適語氣。"
+          },
+          {
+            "id": "b",
+            "en": "The chair treated the storm as a joke to entertain the crowd.",
+            "zh": "主席把暴雨當笑話逗大家開心。"
+          },
+          {
+            "id": "c",
+            "en": "The chair ignored the affected families entirely.",
+            "zh": "主席完全忽略受影響家庭。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "感謝與悼念兼顧，配合災後聚會的需要。"
+      },
+      "contrast": {
+        "promptZh": "哪個回應最不可能 hit the right note？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A speaker offers quiet thanks after a difficult farewell.",
+            "zh": "艱難告別後，講者平靜表達感謝。"
+          },
+          {
+            "id": "b",
+            "en": "A presenter makes loud jokes about people’s losses during a condolence event.",
+            "zh": "慰問活動中，主持人大聲拿人們的損失開玩笑。"
+          },
+          {
+            "id": "c",
+            "en": "A host uses a cheerful welcome at a children’s birthday party.",
+            "zh": "兒童生日會上，主持人開心地歡迎來賓。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "拿損失開玩笑與慰問場合不相稱。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「剛完成默哀，我們立即播一首震耳欲聾的勝利歌曲吧。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "A gentler piece would probably hit the right note after a moment of silence.",
+            "zh": "默哀後播放較柔和的樂曲，語氣可能更合適。"
+          },
+          {
+            "id": "b",
+            "en": "The louder the music, the more respectful it must be.",
+            "zh": "音樂越大聲，就一定越尊重場合。"
+          },
+          {
+            "id": "c",
+            "en": "A moment of silence means every possible song is equally suitable.",
+            "zh": "默哀後所有歌曲都同樣合適。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "較柔和的選擇更能延續默哀後的氛圍；probably 保留判斷餘地。"
+      },
+      "speaking": {
+        "en": "Her calm welcome hit the right note at the farewell, which was both grateful and sad.",
+        "zh": "那場告別會既感激又傷感，她平靜的歡迎詞拿捏得宜。",
+        "promptZh": "先聽示範，再指出哪種氣氛令語氣合適。",
+        "targetSpan": {
+          "start": 17,
+          "end": 35
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一位學校管理員退休，同事希望致詞既感謝他多年照顧學生，也避免誇張笑話；聽眾對溫暖而真誠的致詞表示欣賞。用一至兩句英文描述致詞為何合適。",
+        "selfCheckZh": "寫出溫暖真誠的感謝和避免不合適笑話，不要聲稱人人都把致詞評為最精彩。",
+        "examples": [
+          {
+            "en": "The warm speech hit the right note by thanking the school caretaker for years of caring for students without forced jokes.",
+            "zh": "溫暖的致詞拿捏得宜，因為它感謝學校管理員多年照顧學生，沒有勉強搞笑。"
+          },
+          {
+            "en": "At the retirement gathering, the speaker hit the right note by offering sincere thanks for the caretaker’s years of caring for students, without exaggerated humour.",
+            "zh": "在退休聚會上，講者拿捏得宜，真誠感謝管理員多年照顧學生，也避免了誇張的笑話。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The warm speech",
+            "zh": "溫暖的致詞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "the school caretaker",
+            "zh": "學校管理員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "years of caring for students",
+            "zh": "多年照顧學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 100
+            }
+          },
+          {
+            "en": "the retirement gathering",
+            "zh": "退休聚會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 27
+            }
+          },
+          {
+            "en": "sincere thanks",
+            "zh": "真誠感謝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 86
+            }
+          },
+          {
+            "en": "exaggerated humour",
+            "zh": "誇張的笑話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 145,
+              "end": 163
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Hit the right note means suit the situation’s mood, not simply sing an accurate pitch.",
+          "zh": "拿捏合適的語氣，指配合場合氣氛，不只是唱準音高。"
+        },
+        {
+          "en": "A response can hit the right note without being every listener’s favourite.",
+          "zh": "表達可以合乎場合，而不必是每個聽眾最喜歡的。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 2
+    },
+    {
+      "id": "advanced-native-2799",
+      "number": 2799,
+      "inventoryId": "expr-2799",
+      "titleEn": "lead the way",
+      "titleZh": "走在前列／帶頭",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lead|leads|led|leading)\\s+the\\s+way\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "Be the leading or predominant option in a field, or set an example that others follow.",
+        "meaningZh": "在某方面成為主要或領先的選擇，或樹立供其他人跟隨的榜樣。",
+        "grammar": "Pattern: person, organisation or method leads/led the way in + field/action, or leads the way for others; distinguish current leadership from a claim of being first ever.",
+        "register": "Measured public-service comparison: a school administrator tells families that app alerts now carry most notices, while printed notices remain for some households.",
+        "boundaryZh": "走在前列可以指目前最主要的渠道或帶頭做法，不必表示歷史上第一個，也不保證在所有方面都最好。",
+        "misconceptionZh": "這裏不是在路上帶隊行走；重點是做法領先或成為別人的參照。",
+        "outcomeZh": "能指出某做法是目前最主要的方式，或提供別人跟隨的範例，而不誇稱絕對首創。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0688",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 63,
+          "book": 11,
+          "question": 24,
+          "sample": "S2",
+          "sourceBookPages": "59–60",
+          "locatorNote": "DOCX table 60, row 8; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "Mobile apps now lead the way in local updates.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lead the way"
+        }
+      ],
+      "listening": {
+        "en": "Most families now receive school updates through the app, although printed notices remain available. App alerts lead the way in daily communication.",
+        "zh": "大多數家庭現在透過程式接收學校消息，雖然紙本通知仍有提供。程式提示已成為日常通訊的主要方式。",
+        "promptZh": "lead the way 在這裏表示甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "App alerts are now the main way families receive school updates.",
+            "zh": "程式提示現已成為家庭接收學校消息的主要方式。"
+          },
+          {
+            "id": "b",
+            "en": "Printed notices are no longer available to any family.",
+            "zh": "任何家庭都再無法收到紙本通知。"
+          },
+          {
+            "id": "c",
+            "en": "The school must have invented the first messaging app in the world.",
+            "zh": "這所學校一定發明了世上首個通訊程式。"
+          },
+          {
+            "id": "d",
+            "en": "Most families still use only printed notices for daily updates.",
+            "zh": "大多數家庭仍只靠紙本通知接收日常消息。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大多數家庭改用程式，支持它成為主要渠道；紙本仍存在，也不能推斷學校首創程式。"
+      },
+      "reply": {
+        "promptEn": "Why do colleagues call the local library a leader in accessible reading? It tested large-print guides, measured positive results, and four nearby libraries adopted its approach.",
+        "promptZh": "（為何同事說本地圖書館在無障礙閱讀方面走在前列？它測試大字指南，取得良好結果，附近四間圖書館也採用其做法。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Nearby libraries followed its tested approach.",
+            "zh": "附近圖書館跟隨它試過的做法。"
+          },
+          {
+            "id": "b",
+            "en": "Its guides became a useful model for others.",
+            "zh": "它的指南成為其他館的有用範例。"
+          },
+          {
+            "id": "c",
+            "en": "The library led the way in accessible reading support.",
+            "zh": "圖書館在無障礙閱讀支援方面帶頭。"
+          },
+          {
+            "id": "d",
+            "en": "The pilot influenced other libraries beyond the first site.",
+            "zh": "試驗影響了首間館以外的其他圖書館。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都根據試驗成果及其他館的採用；金句用 lead the way。"
+      },
+      "scene": {
+        "promptZh": "市民可透過櫃台、電話或網上預約社區運動場；去年七成預約來自網上，其餘兩種方式仍可使用。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Online booking leads the way in current reservations, although other options remain.",
+            "zh": "現時網上預約佔主導，但仍保留其他方式。"
+          },
+          {
+            "id": "b",
+            "en": "Counter bookings are still the main route for most users.",
+            "zh": "櫃台預約仍是大部分使用者的主要方式。"
+          },
+          {
+            "id": "c",
+            "en": "Online booking must have been invented by this sports centre.",
+            "zh": "網上預約一定是這個運動場首創的。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "七成預約來自網上，支持它目前是主要渠道；不代表其他方式消失或運動場首創網上預約。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以說某團隊 led the way？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Other schools adapt the team’s tested accessibility guide.",
+            "zh": "其他學校採納並調整團隊試過的無障礙指南。"
+          },
+          {
+            "id": "b",
+            "en": "The team copies a mature programme after everyone else has adopted it, without changing it.",
+            "zh": "所有人採用成熟計劃後，團隊才原樣照搬。"
+          },
+          {
+            "id": "c",
+            "en": "A district’s pilot becomes the reference model for nearby districts.",
+            "zh": "某區的試驗成為鄰近地區的參考範本。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只是較後照搬現成計劃，缺少帶頭或引領的證據。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「我們是最後一個採用鄰市既有回收安排的地方，卻可以說我們 led the way。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "We followed their example, so we should not claim we led the way here.",
+            "zh": "我們跟隨了他們的做法，不應聲稱自己在這件事上帶頭。"
+          },
+          {
+            "id": "b",
+            "en": "Being last automatically makes our district the pioneer.",
+            "zh": "最後採用就自動令本區成為先驅。"
+          },
+          {
+            "id": "c",
+            "en": "The other city followed our plan before we adopted it.",
+            "zh": "另一座城市在我們採用前已跟隨我們的計劃。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "按已知時間與採用關係，本區是跟隨者而非帶頭者。"
+      },
+      "speaking": {
+        "en": "The city’s low-floor buses lead the way in accessible transport because other districts now follow their design.",
+        "zh": "其他地區如今仿效其設計，因此這座城市的低地台巴士在無障礙交通方面走在前列。",
+        "promptZh": "先聽示範，再指出哪項證據支持帶頭。",
+        "targetSpan": {
+          "start": 27,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：一間診所目前用短訊、電話和書信提醒病人覆診。七成病人收到短訊，其餘人仍收到電話或信件；沒有資料顯示誰首創短訊提醒。用一至兩句英文描述現時的主要提醒渠道，不要聲稱診所發明了它。",
+        "selfCheckZh": "寫出短訊現佔七成、電話和書信仍存在；不要把目前的主要渠道誤作歷史首創。",
+        "examples": [
+          {
+            "en": "Text reminders lead the way in the clinic’s appointment updates because seven in ten patients receive them, although calls and letters remain.",
+            "zh": "短訊提醒目前是診所覆診通知的主要方式，因為十名病人中有七名收到短訊，但電話和書信仍然使用。"
+          },
+          {
+            "en": "At the clinic, text messages now lead the way for reminders: seven in ten patients get one, but others still receive calls or letters.",
+            "zh": "在這間診所，短訊現時是主要提醒方式：十名病人中有七名收到短訊，其他人仍收到電話或信件。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Text reminders",
+            "zh": "短訊提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "appointment updates",
+            "zh": "覆診通知",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 63
+            }
+          },
+          {
+            "en": "calls and letters",
+            "zh": "電話和書信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 134
+            }
+          },
+          {
+            "en": "seven in ten patients",
+            "zh": "十名病人中有七名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 82
+            }
+          },
+          {
+            "en": "receive calls or letters",
+            "zh": "收到電話或信件",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 133
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "Lead the way can describe the main current option without proving who first invented it.",
+          "zh": "走在前列可以指目前的主要選擇，不足以證明誰最先發明它。"
+        },
+        {
+          "en": "A team may lead the way locally without having invented an idea first in the world.",
+          "zh": "團隊可在本地帶頭，而不必是全球首創。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 3
+    },
+    {
+      "id": "advanced-native-2800",
+      "number": 2800,
+      "inventoryId": "expr-2800",
+      "titleEn": "the centre of gravity has shifted",
+      "titleZh": "重心已轉移",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:the\\s+)?cent(?:re|er)\\s+of\\s+gravity\\s+(?:has|have|had)\\s+(?:already\\s+)?shifted\\b",
+        "glossaryForbidden": []
+      },
+      "brief": {
+        "meaningEn": "The main focus or weight of activity has moved from one area to another.",
+        "meaningZh": "活動、注意力或資源的主要重心已從一處轉往另一處。",
+        "grammar": "Pattern: the centre of gravity has shifted from X to/toward Y; use present perfect for a change with a current result. Other activity may remain at X.",
+        "register": "Measured media analysis: a community arts manager explains to colleagues that most engagement now occurs through local online events while in-person events continue.",
+        "boundaryZh": "重心轉移不等於原來一邊完全消失；需要有活動、參與或資源分布的證據。",
+        "misconceptionZh": "不是物理上有重物移動，而是主要焦點或投入方向改變。",
+        "outcomeZh": "能指出原來的重心、現在的新重心，以及仍保留甚麼舊做法。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "book10-16-0689",
+          "file": "Idiomatic and Natural English Expressions Books 10 to 16 Part 3.docx",
+          "sha256": "d239bee71f02ae43a60475202d36090e436af4da4081af92720cd5fa8fdbd012",
+          "page": 63,
+          "book": 11,
+          "question": 25,
+          "sample": "S1",
+          "sourceBookPages": "61–63",
+          "locatorNote": "DOCX table 61, row 2; page refers to the locally rendered PDF recorded in the intake summary.",
+          "sentence": "In entertainment, the centre of gravity has already shifted online.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the centre of gravity has already shifted"
+        }
+      ],
+      "listening": {
+        "en": "The arts centre used to attract most visitors to its hall. Now most participants attend its online workshops, though the hall remains open. The centre of gravity has shifted online.",
+        "zh": "藝術中心以前大部分參與者到場館；現在多數人參加網上工作坊，雖然場館仍開放。參與重心已轉往網上。",
+        "promptZh": "The centre of gravity has shifted online 在這裏指甚麼？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The main share of participation now happens online.",
+            "zh": "參與者的主要部分現在轉到網上。"
+          },
+          {
+            "id": "b",
+            "en": "The physical building has moved to a different location.",
+            "zh": "實體大樓已搬到另一個位置。"
+          },
+          {
+            "id": "c",
+            "en": "Every in-person event has ended permanently.",
+            "zh": "所有現場活動都已永久結束。"
+          },
+          {
+            "id": "d",
+            "en": "Online workshops have always attracted fewer people than the hall.",
+            "zh": "網上工作坊一直比場館吸引更少人。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多數參與者轉到網上，但場館仍開放。"
+      },
+      "reply": {
+        "promptEn": "What changed in the neighbourhood club’s communication? A paper newsletter was once its main channel; now most members use the group app, although a few still request printed copies.",
+        "promptZh": "（社區會的通訊方式有何轉變？紙本通訊以前是主要渠道；現在多數會員用群組程式，但仍有少數人要求紙本。）",
+        "options": [
+          {
+            "id": "a",
+            "en": "Most communication now goes through the app.",
+            "zh": "大部分通訊現在透過程式進行。"
+          },
+          {
+            "id": "b",
+            "en": "Print still exists, but it is no longer the main channel.",
+            "zh": "紙本仍存在，但不再是主要渠道。"
+          },
+          {
+            "id": "c",
+            "en": "The centre of gravity has shifted from print to the app.",
+            "zh": "通訊重心已從紙本轉往程式。"
+          },
+          {
+            "id": "d",
+            "en": "The club changed its usual communication channel while keeping a print option.",
+            "zh": "社區會改變慣用通訊渠道，同時保留紙本選項。"
+          }
+        ],
+        "goldenId": "c",
+        "explanationZh": "四句都指出主渠道改變而紙本仍存在；金句用重心轉移概括。"
+      },
+      "scene": {
+        "promptZh": "一間社區診所過去大部分職員時間用於即時處理小病，現在大部分時間用於預防講座，但仍保留小病門診。哪句最貼切？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre of gravity has shifted toward prevention, while treatment remains available.",
+            "zh": "工作重心已轉向預防，但診療服務仍然提供。"
+          },
+          {
+            "id": "b",
+            "en": "The clinic has stopped treating illness altogether.",
+            "zh": "診所已完全停止治病。"
+          },
+          {
+            "id": "c",
+            "en": "The clinic building has moved because its physical balance changed.",
+            "zh": "診所大樓因物理平衡改變而搬走。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "大部分職員時間改投預防，舊服務卻仍保留。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以說 centre of gravity has shifted？",
+        "options": [
+          {
+            "id": "a",
+            "en": "Most of a charity’s budget moves from print campaigns to community visits.",
+            "zh": "慈善團體的大部分預算從紙本宣傳轉到社區探訪。"
+          },
+          {
+            "id": "b",
+            "en": "A club changes its logo colour while its budget and activities remain the same.",
+            "zh": "社團換了標誌顏色，但預算和活動完全不變。"
+          },
+          {
+            "id": "c",
+            "en": "A library now spends most new funding on audio books instead of print.",
+            "zh": "圖書館現把大部分新增資金投在有聲書，而非紙本書。"
+          }
+        ],
+        "answerId": "b",
+        "explanationZh": "只換標誌顏色，沒有顯示活動或資源重心轉移。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「場館參與者現在只佔兩成，所以現場活動一定已完全取消。」你怎樣回應？",
+        "options": [
+          {
+            "id": "a",
+            "en": "The centre of gravity has shifted online, but one fifth of participants still attend in person.",
+            "zh": "參與重心已轉往網上，但仍有五分之一的人現場參與。"
+          },
+          {
+            "id": "b",
+            "en": "The remaining one fifth proves all in-person events have stopped.",
+            "zh": "仍有五分之一現場參與者，證明所有現場活動都停止了。"
+          },
+          {
+            "id": "c",
+            "en": "If most people attend online, no one can enter the venue.",
+            "zh": "多數人網上參與，就表示沒有人能到場。"
+          }
+        ],
+        "answerId": "a",
+        "explanationZh": "多數人網上參與顯示重心轉移，兩成現場參與則反駁完全取消。"
+      },
+      "speaking": {
+        "en": "The centre of gravity has shifted toward community clinics, although the main hospital remains open.",
+        "zh": "重心已轉向社區診所，雖然主要醫院仍然開放。",
+        "promptZh": "先聽示範，再指出重心轉移是否等於舊服務消失。",
+        "targetSpan": {
+          "start": 0,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校圖書館過去以紙本借閱為主，現在多數借閱量來自電子書；紙本書仍可借。用一至兩句英文描述主要借閱方式的轉變及保留的舊方式。",
+        "selfCheckZh": "寫出從紙本轉向電子書的主要借閱變化，同時保留紙本仍可借。",
+        "examples": [
+          {
+            "en": "The centre of gravity has shifted from print to e-books in the school library, although paper books remain available.",
+            "zh": "學校圖書館的借閱重心已從紙本轉往電子書，雖然紙本書仍可借閱。"
+          },
+          {
+            "en": "In the school library, the centre of gravity has shifted toward e-book loans, but students can still borrow printed books.",
+            "zh": "在學校圖書館，借閱重心已轉向電子書，但學生仍可借紙本書。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the school library",
+            "zh": "學校圖書館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 77
+            }
+          },
+          {
+            "en": "paper books",
+            "zh": "紙本書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 99
+            }
+          },
+          {
+            "en": "remain available",
+            "zh": "仍可借閱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          },
+          {
+            "en": "e-book loans",
+            "zh": "電子書借閱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 76
+            }
+          },
+          {
+            "en": "students can still borrow",
+            "zh": "學生仍可借",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 107
+            }
+          },
+          {
+            "en": "printed books",
+            "zh": "紙本書",
+            "exampleIndex": 1,
+            "span": {
+              "start": 108,
+              "end": 121
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "The centre of gravity has shifted when the main focus moves, even if old activity continues.",
+          "zh": "重心已轉移指主要焦點改變，即使舊活動仍繼續。"
+        },
+        {
+          "en": "A change in colour alone does not show that the centre of gravity has shifted.",
+          "zh": "單是顏色改變不足以顯示重心已轉移。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "english": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "chinese": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "media": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "qa": {
+          "status": "pending",
+          "reviewer": "",
+          "evidence": ""
+        },
+        "notes": [
+          "AI-authored provisional draft; independent English, Chinese, media and QA review remain pending. Source is guide-written provenance; practice scenes are newly written. No human or release approval is implied."
+        ]
+      },
+      "contentRevision": 1
+    }
+  ]
+}

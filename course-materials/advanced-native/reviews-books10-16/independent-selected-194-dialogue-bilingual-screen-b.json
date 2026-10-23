@@ -1,0 +1,218 @@
+{
+  "scope": "Bounded independent screen of all 194 selected lesson dialogue prompts for English-only text and English–Traditional Chinese meaning mismatch; no lesson or manifest edits",
+  "manifestPath": "course-materials/advanced-native/drafts-books10-16/batch-manifest.json",
+  "manifestSha256": "8100b319c7d952d9b3e983a427f7eb6f111987d491a8ee351bd3305bcbbcec52",
+  "selectedBatchFiles": [
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2112-2119.json",
+      "sha256": "fd4f8fbe6e3c74c6e81a095766f6b98d268179ebc27a2c8829ad890f91e44e80"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2113.json",
+      "sha256": "e94369ef15495ff73353c93e9ecbbe2bfc78f1e9172951bae53669eb233beaad"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2123.json",
+      "sha256": "912f558f87ac8d8ca4bbdd65c39dd614c96d984485030913040237c13d554b84"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2114-2127-a.json",
+      "sha256": "cb9de173f726075ce680e4c248742fc40ebefa0f985f3b63420b0c851305ae51"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2132-2138-b.json",
+      "sha256": "2dced7bcb2665cf6c7b27c3638af4c8a22bc3ed1467e1a9326ad30ad2d02c97e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2141-2150-a.json",
+      "sha256": "08f5b072cb80d74edd1ef556951e7c5da561d16f7b31f2c780330af983ecde5f"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2151-2167-b2.json",
+      "sha256": "7fa02ea20e9526e57beda5f924ed734ba0b0eec1090f481492b2512de5493f5b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2168-2171-a.json",
+      "sha256": "b72d8ebd7f5f3aef28af05518b0a80937b331c72c7185c302167f23e8b171e09"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2176-2198-a.json",
+      "sha256": "5fd4f28709671b4f9d22e8769670e66f689316aa56227db2d1ed00b478015f32"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2200-2208-a.json",
+      "sha256": "b317625bda0fc13a0440724c6a4aca4955b9eaaab56f344684e26dab5208055c"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2209-2231-a.json",
+      "sha256": "21f6632e523b04387edeaf0f5b3f8fdbb2979b4d953f4ce8fab0657cc7d0ba69"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2235-2246-a.json",
+      "sha256": "c09d620507f14d4029f3e5ea7e8485e1dad43abf0b44c95ba989773b399b91ef"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2251-2269-a.json",
+      "sha256": "8ce77095106779420dd7ddec791825a4bb35d3c96772f53a839371f94ab5594f"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2270-2284-a.json",
+      "sha256": "25fc9708eb71100843af38e32a7ed165432bdb997ffe354b6404fbf2d376999b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2291-2304-a.json",
+      "sha256": "1052ae0a9f59aa6acffc507e9b3942f575f1b0dc0b1c9886d4452623f570f59d"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2296-2306-a.json",
+      "sha256": "2ced48d04f27831341fc870b101e35dcf12663e4dd5b869a295a65b1b02057eb"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2308-2327-a.json",
+      "sha256": "c58e8bf2d5d4289ef801929794fe7b7350d8a0544c2a7f6ceed4b518ff564ec5"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2332-2350-a.json",
+      "sha256": "c82eb1ef9d1e5089bb30823a851787df269c479ac5c618c6fb84c76ba5334e8b"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2351-2360-a.json",
+      "sha256": "24edf2d1369a34e2a6bbc810d593e48454a9e8fbf3c72fc39598871116b18564"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2361-2394-a.json",
+      "sha256": "0491c72e93769e8c077980036104d411aa4930f7f3dd74a946f96cb9df91ac3e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2397-2410-a.json",
+      "sha256": "e55e392795ef0481347696a65d1672acea5d20f9ebe5ddcfcde0dff20fda6142"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2411-2415-a.json",
+      "sha256": "8cc18aaa74328c1a99ac9fa37bd33051ecc55abfc29dc51dabaf6b6405c9ebe0"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2416-a.json",
+      "sha256": "28b9e0a0bc764dfc37dd1b3e840d4515be207a0f93945b7b4bf9900812c9e347"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2419-2443-a.json",
+      "sha256": "e7b983d89c4ce327850e104647cf31aaaffc36f1f97212788379477f75452dde"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2449-2458-a.json",
+      "sha256": "7b9230e15be65cecfe9f6dcaa01b7e48dcbb96ca2eb247132f67e83c4f02444e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2462-2490-a.json",
+      "sha256": "fcb5d481a4b510bcff305a1b53dcd10cec79864155c673a83ecd080119b73a0d"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2494-2502-a.json",
+      "sha256": "dc87651de09750929448388757b536981724e818b968b15f595cbd12ef0b1b4e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2511-2521-a.json",
+      "sha256": "3f8519df3b7ef10b0873a4dd94aaef530c5a7f8f893a8a26777b36273f13934e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2524-2563-a.json",
+      "sha256": "f18bf9daa5265525eb3855a725d053ff8c8095c08c65fcfc001edf50b4e5c3bb"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2341-relemma-review-pilot.json",
+      "sha256": "6112560c397bb30ae9b60d5ea9cddd686a27d652a789db253415f163cf4e2230"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2343-relemma-review-pilot.json",
+      "sha256": "cef5026e21fe9f2cad2df4d954c8eadeef5bc164e9b15f58cd895c61e998fb33"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2418-relemma-review-pilot.json",
+      "sha256": "14ba46cb3de1e9b8e7d88e74c07c8180abd94d2b90df06b278b8705a4495edfa"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2435-relemma-review-pilot.json",
+      "sha256": "7e0182c8ed0c3224d8a62d5dd6a776e27d283f1d20fda964a559cd2605be6781"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2564-2591-a.json",
+      "sha256": "b3081a3594582a2061048ffbf8d7f35ba54a22fe882d8200dbbfc02e73d6c24c"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2603-2611-a.json",
+      "sha256": "3bfdd66f9e577924d280060b9c012258e0604de2a7b6987481d00fa3443c823c"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2614-2637-a.json",
+      "sha256": "1681936107fa71ad3e9b02b5f24ca56bd38f54a331ab65b61dc0db3e77784f63"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2644-2672-a.json",
+      "sha256": "35f797c0c27978e64cb6522252b473d81c65be6addbe6a7abd9d242d99bfab84"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-1.json",
+      "sha256": "979d254c6b39ca767f328beb554d25b37ab6624b1916c21494a225ea5eccc20a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2675-2718-review-pilot-2.json",
+      "sha256": "123791e4c7ba411cab796b7489616f1563aa58f1bc9a1c9382d2191e9da06a2e"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2684-2705-2711-a.json",
+      "sha256": "8048e469edde5277e126af86b0880be0fc46906f0b2b225ae0ab45787ee45150"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-1.json",
+      "sha256": "ef4784a31d8e9a1d32b0dcf53cc5b9ec388b2756c716c20d039a50af8f1afe43"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2724-2744-review-pilot-2.json",
+      "sha256": "f91d80fca1b0d1084315423cd40d6c84215f1128e222632f02d5388d208749b5"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2736-review-pilot.json",
+      "sha256": "0cbb349df8c53618f3a199e364f96923fb019d3d6d6753c0b9519405b9dec731"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-1.json",
+      "sha256": "e117d3349e64c5540c0a68b1044191a781d55945ba3ea5e089cecad9d9eb312a"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-2745-2766-review-pilot-2.json",
+      "sha256": "96e545378ef207282180860e31c2abc75c634569523eae760d1d1ca5b31dcac5"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3006-3057-a.json",
+      "sha256": "f06fce480fc8a510de4ebb8d54aba04cc2d6a10ad2e36d9e76bc5caa4af96cff"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3072-3102-a.json",
+      "sha256": "f92c5a3dc64340f6842b132cab1152c8b5b98da186333501f693780737f6c8d6"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-3109-3126-a.json",
+      "sha256": "8e2ccffb300bc2585e752b498571aa726cc2dfb73597f2cc733d6ab194cd5fa4"
+    },
+    {
+      "path": "course-materials/advanced-native/drafts-books10-16/batch-4237-4680-held-a.json",
+      "sha256": "e8c82a2e116babac964ac549d9a6ac857a3b4953f861968024a715c149c98534"
+    }
+  ],
+  "counts": {
+    "selectedLessons": 194,
+    "englishAndChinesePromptPairs": 14,
+    "chineseOnlyPrompts": 180,
+    "englishOnlyPromptZh": 0,
+    "missingHanPromptZh": 0
+  },
+  "method": "Manually compared all 14 dialogue.promptEn/promptZh pairs for actor, action, time, number, modality and question meaning. Screened the other 180 promptZh strings for long embedded English or A:/B: dialogue that could hide an untranslated prompt. The sole embedded-English case was 2736, where a quoted sentence is the very defective construction the learner must revise and the surrounding Chinese states the actual arrangement.",
+  "findings": [],
+  "nonBlockingObservation": {
+    "lessonOrdinal": 2736,
+    "draftFile": "batch-2736-review-pilot.json",
+    "detail": "A quoted English sentence appears inside an otherwise Chinese dialogue prompt as the object to be corrected; it is deliberate task material, not an untranslated English question."
+  },
+  "result": "NO_DIALOGUE_PROMPT_TRANSLATION_MISMATCH_FOUND_IN_SELECTED_194; this screen does not cover option translations or browser wrapping."
+}
