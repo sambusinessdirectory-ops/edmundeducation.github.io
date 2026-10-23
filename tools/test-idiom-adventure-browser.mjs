@@ -53,6 +53,7 @@ await page.screenshot({path:'/tmp/idiom-isles-answer-desktop.png'});
 await page.locator('[data-ia-action="next"]').click();
 await page.keyboard.press('Escape');
 assert.equal(await page.locator('.ia-dialog[open]').count(),0);
+assert.ok(await page.locator('.ia-hero .ia-button').first().evaluate(e=>e===document.activeElement));
 // Reload and resume exact room and depleted support charge.
 await page.reload();await page.locator('.ia-hub').waitFor();
 await page.locator('.ia-hero [data-ia-action="resume"]').click();

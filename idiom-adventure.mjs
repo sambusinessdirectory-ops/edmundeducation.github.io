@@ -37,7 +37,7 @@ export function mountAdventure({root,bridge}) {
  }
  function ensureDialog(){if(dialog)return;dialog=document.createElement('dialog');dialog.className='ia-dialog';dialog.setAttribute('aria-labelledby','ia-dialog-title');document.body.append(dialog);dialog.addEventListener('click',handle);dialog.addEventListener('cancel',e=>{e.preventDefault();close();});dialog.addEventListener('close',()=>{document.body.classList.remove('ia-playing');});}
  function openDialog(){ensureDialog();returnFocus=document.activeElement;if(!dialog.open)dialog.showModal();document.body.classList.add('ia-playing');drawRoom();}
- function close(){if(!dialog)return;generation++;busy=false;dialog.close();document.body.classList.remove('ia-playing');save();bridge.dashboard();render();returnFocus?.focus?.();}
+ function close(){if(!dialog)return;generation++;busy=false;dialog.close();document.body.classList.remove('ia-playing');save();bridge.dashboard();render();(returnFocus?.isConnected?returnFocus:root.querySelector('.ia-hero .ia-button'))?.focus?.({preventScroll:true});}
  function activeQuestion(){const a=profile.active;return a?bridge.questions(a.lessonId).find(q=>q.id===a.ids[a.index]):null;}
  function start(mode='new',id){
   if(profile.active){resume();return;}
@@ -65,7 +65,7 @@ export function mountAdventure({root,bridge}) {
   const l=lessons().find(l=>l.id===a.lessonId),mc=bridge.options(q,l);if(index<0||index>=mc.options.length)return;
   const now=Date.now(),correct=index===mc.correctAt;
   a.selection=index;notice='';
-  if(!correct){a.attempted=true;recordAnswer(profile,q.id,false,{now});save();drawRoom();return;}
+  if(!correct){a.attempted=true;recordAnswer(profile,q.id,false,{now});save();drawRoom();dialog.querySelector(`[data-ia-action="answer"][data-value="${index}"]`)?.focus();return;}
   const token=generation,account=owner;busy=true;drawRoom();
   try{
    const accepted=await bridge.answer(a.lessonId,q.id,index);
@@ -80,7 +80,7 @@ export function mountAdventure({root,bridge}) {
   const b=e.target.closest('[data-ia-action]');if(!b||!owner)return;
   const act=b.dataset.iaAction,value=b.dataset.value;
   if(act==='close')return close();
-  if(act==='sound'){profile.sound=!profile.sound;save();if(profile.sound)chime();drawRoom();return;}
+  if(act==='sound'){profile.sound=!profile.sound;save();if(profile.sound)chime();drawRoom();dialog.querySelector('[data-ia-action="sound"]')?.focus();return;}
   if(busy)return;
   if(act==='region'){profile.region=Number(value);lessonId=regionLessons()[0]?.id;save();render();root.querySelector(`[data-ia-action="region"][data-value="${value}"]`)?.focus();}
   if(act==='companion'&&COMPANIONS.some(c=>c.id===value)){profile.companion=value;save();render();root.querySelector(`[data-ia-action="companion"][data-value="${value}"]`)?.focus();}
@@ -91,7 +91,7 @@ export function mountAdventure({root,bridge}) {
   if(act==='visit'){lessonId=value;profile.region=Math.floor((selected().order-1)/23);save();render();}
   if(act==='catalogue')document.querySelector('.lesson-search-panel')?.scrollIntoView({behavior:'smooth',block:'start'});
   if(act==='answer')answer(Number(value));
-  if(act==='skill'&&profile.active&&!profile.active.help&&profile.active.charges>0&&!profile.active.solved){profile.active.charges--;profile.active.help=true;save();drawRoom();}
+  if(act==='skill'&&profile.active&&!profile.active.help&&profile.active.charges>0&&!profile.active.solved){profile.active.charges--;profile.active.help=true;save();drawRoom();dialog.querySelector('.ia-answer:not(:disabled)')?.focus();}
   if(act==='next'&&profile.active?.solved){advance(profile);save();notice='';drawRoom();if(profile.active.index<6)dialog.querySelector('.ia-answer')?.focus();}
   if(act==='finish'||act==='more'){if(profile.active?.index!==6)return;const id=profile.active.lessonId;profile.active=null;save();close();if(act==='more')start('new',id);}
  }

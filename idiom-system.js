@@ -807,7 +807,7 @@ function syncIdiomAdventure() {
   const root = document.querySelector('[data-idiom-adventure]');
   if (!root || state.user?.role !== 'student') return;
   if (idiomAdventure) { idiomAdventure.sync(state.user.id); return; }
-  if (!idiomAdventureLoad) idiomAdventureLoad = import('./idiom-adventure.mjs?v=20261024-isles1').then(({ mountAdventure }) => {
+  if (!idiomAdventureLoad) idiomAdventureLoad = import('./idiom-adventure.mjs?v=20261024-isles2').then(({ mountAdventure }) => {
     if (state.user?.role !== 'student') { idiomAdventureLoad = null; return; }
     idiomAdventure = mountAdventure({ root, bridge: {
       lessons: lessonList,
